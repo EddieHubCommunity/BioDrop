@@ -6,7 +6,9 @@ import "primeflex/primeflex.css";
 import React, { useState, useEffect } from "react";
 
 import Profile from "./Components/Profile";
-import Links from "./Components/Links";
+import Links from "./Components/Links"
+import Footer from "./Components/Footer"
+
 function App() {
   const [profile, setProfile] = useState({
     name: "404",
@@ -25,6 +27,7 @@ function App() {
     <div className="p-m-4">
       <Profile bio={profile.bio} avatar={profile.avatar} name={profile.name} />
       <Links links={profile.links} />
+      <Footer/>
     </div>
   );
 }
