@@ -1,16 +1,29 @@
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
 
-import { Avatar } from "primereact/avatar";
-import { Badge } from "primereact/badge";
+import { Button } from "primereact/button";
+
+import Profile from "./Components/Profile";
 
 function App() {
   return (
-    <div>
-      <Avatar image="eddiejaoude.jpg" size="xlarge">
-        <Badge value="4" severity="danger" />
-      </Avatar>
+    <div className="p-m-4">
+      <Profile />
+
+      <div className="p-d-flex p-jc-center">
+        <div className="p-d-flex p-flex-column" style={{ width: 70 + "%" }}>
+          <Button className="p-p-3 p-m-2">
+            <i className="pi pi-youtube p-px-2"></i>
+            <span className="p-px-3">Youtube</span>
+          </Button>
+          <Button className="p-p-3 p-m-2">
+            <i className="pi pi-twitter p-px-2"></i>
+            <span className="p-px-3">Twitter</span>
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
