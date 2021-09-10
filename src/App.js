@@ -1,16 +1,30 @@
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
 
-import { Avatar } from "primereact/avatar";
-import { Badge } from "primereact/badge";
+import React, { useState, useEffect } from "react";
 
+import Profile from "./Components/Profile";
+import Links from "./Components/Links";
 function App() {
+  const [profile, setProfile] = useState({
+    name: "404",
+    bio: "-",
+    avatar:
+      "https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png",
+    links: [],
+  });
+
+  useEffect(() => {
+    fetch("/data/eddiejaoude.json")
+      .then((response) => response.json())
+      .then((data) => setProfile(data));
+  }, []);
   return (
-    <div>
-      <Avatar image="eddiejaoude.jpg" size="xlarge">
-        <Badge value="4" severity="danger" />
-      </Avatar>
+    <div className="p-m-4">
+      <Profile bio={profile.bio} avatar={profile.avatar} name={profile.name} />
+      <Links links={profile.links} />
     </div>
   );
 }
