@@ -7,7 +7,6 @@ import Links from "./Links";
 
 function Socials() {
   const { username } = useParams();
-  console.log(username);
   const [profile, setProfile] = useState({
     name: "404",
     bio: "-",

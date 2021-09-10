@@ -13,7 +13,7 @@ function Links({ links }) {
       <div className="p-d-flex p-flex-column" style={{ width: 70 + "%" }}>
         {links.map((link, index) => (
           <Button
-            className="p-p-3 p-m-2"
+            className="p-p-3 p-m-2 p-button-outlined"
             style={{ color: colors[link.icon] }}
             key={`link.url_${index}`}
           >
