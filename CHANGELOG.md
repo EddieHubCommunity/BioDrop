@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.0...v0.3.1) (2021-09-10)
+
+
+### Bug Fixes
+
+* kube file reference ([3d29b05](https://github.com/EddieHubCommunity/LinkFree/commit/3d29b05171cd163be1c532e631db5fd49d0c69ec))
+
+
+
 # [0.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.2.0...v0.3.0) (2021-09-10)
 
 
