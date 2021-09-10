@@ -11,11 +11,11 @@ function Links({ links }) {
   return (
     <div className="p-d-flex p-jc-center">
       <div className="p-d-flex p-flex-column" style={{ width: 70 + "%" }}>
-        {links.map((link) => (
+        {links.map((link, index) => (
           <Button
             className="p-p-3 p-m-2"
             style={{ color: colors[link.icon] }}
-            key={link.url}
+            key={`link.url_${index}`}
           >
             <i className={`pi pi-${link.icon} p-px-2`}></i>
             <span className="p-px-3">{link.name}</span>
