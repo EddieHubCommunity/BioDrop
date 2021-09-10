@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="p-m-4">
       <Profile bio={profile.bio} avatar={profile.avatar} name={profile.name} />
-      <Links />
+      <Links links={profile.links} />
     </div>
   );
 }

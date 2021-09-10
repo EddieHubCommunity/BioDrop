@@ -4,7 +4,6 @@ import { Avatar } from "primereact/avatar";
 import { Badge } from "primereact/badge";
 
 function Profile({ name, bio, avatar }) {
-  console.log(name, bio, avatar);
   return (
     <div>
       <div className="p-d-flex p-jc-center p-ai-center">
