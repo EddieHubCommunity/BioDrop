@@ -15,10 +15,10 @@ function App() {
         <Route path="/:username">
           <div className="p-m-4">
             <Socials />
-            <Footer />
           </div>
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
