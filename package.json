@@ -2,12 +2,11 @@
   "name": "members",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://github.com/EddieHubCommunity/LinkFree",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
     "primeflex": "^2.0.0",
     "primeicons": "^4.1.0",
     "primereact": "^6.5.1",
@@ -16,15 +15,15 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.2",
+    "serve": "^12.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:prod": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
