@@ -5,6 +5,7 @@ import "primeflex/primeflex.css";
 
 import { Avatar } from "primereact/avatar";
 import { Badge } from "primereact/badge";
+import Title from "./Components/Title";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         </Avatar>
       </div>
       <div className="p-d-flex p-jc-center">
-        <p>Founder of EddieHub</p>
+        <Title>Founder of EddieHub</Title>
       </div>
     </div>
   );
