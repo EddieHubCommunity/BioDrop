@@ -68,6 +68,6 @@ jobs:
       - uses: Azure/k8s-deploy@v1.4
         with:
           namespace: "default"
-          manifests: kubernetes/deployment.yaml
+          manifests: kubernetes/deployment.yml
           images: "ghcr.io/eddiehubcommunity/linktree:v${{ steps.package-version.outputs.current-version}}"
           kubectl-version: "latest"
