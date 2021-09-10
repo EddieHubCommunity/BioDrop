@@ -3,37 +3,23 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
 
-import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Profile from "./Components/Profile";
-import Links from "./Components/Links"
-import Footer from "./Components/Footer"
+import Footer from "./Components/Footer";
+import Socials from "./Components/Socials";
 
 function App() {
-  const [profile, setProfile] = useState({
-    name: "404",
-    bio: "-",
-    avatar:
-      "https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png",
-    links: [],
-  });
-
-  useEffect(() => {
-    fetch("/data/eddiejaoude.json")
-      .then((response) => response.json())
-      .then((data) => setProfile(data));
-  }, []);
   return (
-    <div className="p-m-4">
-      <Profile
-        bio={profile.bio}
-        avatar={profile.avatar}
-        name={profile.name}
-        total={profile.links.length}
-      />
-      <Links links={profile.links} />
-      <Footer/>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/:username">
+          <div className="p-m-4">
+            <Socials />
+            <Footer />
+          </div>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
