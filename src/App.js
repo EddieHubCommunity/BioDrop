@@ -3,27 +3,27 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import "primeflex/primeflex.css";
 
-import { Button } from "primereact/button";
-
 import Profile from "./Components/Profile";
 
+import SocialLinkBar from "./Components/SocialLinkBar";
+import { useEffect, useState } from "react";
+
 function App() {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    fetch("./data/eddiejaoude.json")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        setData(data);
+      });
+  }, []);
+
   return (
     <div className="p-m-4">
-      <Profile />
-
-      <div className="p-d-flex p-jc-center">
-        <div className="p-d-flex p-flex-column" style={{ width: 70 + "%" }}>
-          <Button className="p-p-3 p-m-2">
-            <i className="pi pi-youtube p-px-2"></i>
-            <span className="p-px-3">Youtube</span>
-          </Button>
-          <Button className="p-p-3 p-m-2">
-            <i className="pi pi-twitter p-px-2"></i>
-            <span className="p-px-3">Twitter</span>
-          </Button>
-        </div>
-      </div>
+      <Profile name={data.name} avatar={data.avatar} />
+      <SocialLinkBar links={data.links} />
     </div>
   );
 }
