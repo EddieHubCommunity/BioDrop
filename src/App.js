@@ -25,7 +25,12 @@ function App() {
   }, []);
   return (
     <div className="p-m-4">
-      <Profile bio={profile.bio} avatar={profile.avatar} name={profile.name} />
+      <Profile
+        bio={profile.bio}
+        avatar={profile.avatar}
+        name={profile.name}
+        total={profile.links.length}
+      />
       <Links links={profile.links} />
       <Footer/>
     </div>
