@@ -11,5 +11,7 @@ jobs:
           node-version: "16"
       - name: install dependencies
         run: npm ci
+      - name: run linter
+        run: npm run lint
       - name: run build
         run: npm run build

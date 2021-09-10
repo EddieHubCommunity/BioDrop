@@ -19,6 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "lint": "eslint public/data --ext .json",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
     "build": "react-scripts build",
@@ -42,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.25.1"
   }
 }
