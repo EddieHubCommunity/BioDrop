@@ -1,4 +1,13 @@
-# 0.2.0 (2021-09-10)
+# [0.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.2.0...v0.3.0) (2021-09-10)
+
+
+### Features
+
+* deployment ([4a9fa1f](https://github.com/EddieHubCommunity/LinkFree/commit/4a9fa1f4591d655fa844521ce5b01c7b541bb904))
+
+
+
+# [0.2.0](https://github.com/EddieHubCommunity/LinkFree/compare/fa1ac2cc6b9d967776e70346710b82d3e0143d7e...v0.2.0) (2021-09-10)
 
 
 ### Bug Fixes
