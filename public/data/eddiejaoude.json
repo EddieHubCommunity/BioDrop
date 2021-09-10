@@ -1,0 +1,17 @@
+{
+  "name": "Eddie Jaoude",
+  "bio": "Founder of EddieHub",
+  "avatar": "https://avatars.githubusercontent.com/u/624760?v=4",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "http://github.com/eddiejaoude",
+      "icon": "github"
+    },
+    {
+      "name": "Twitter",
+      "url": "http://twitter.com/eddiejaoude",
+      "icon": "twitter"
+    }
+  ]
+}
