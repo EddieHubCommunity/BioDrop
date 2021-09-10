@@ -16,9 +16,9 @@ function Profile({ name, bio, avatar }) {
         >
           <Badge value="4" severity="info" />
         </Avatar>
+        <h1 className="p-m-2">{name}</h1>
       </div>
       <div className="p-d-flex p-jc-center">
-        <h5>{name}</h5>
         <p>{bio}</p>
       </div>
     </div>
