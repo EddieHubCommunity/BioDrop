@@ -10,7 +10,7 @@ Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_
 
 1. fork project
 2. clone project
-3. navigate to project directory `cd Members`
+3. navigate to project directory `cd LinkTree`
 4. install dependencies with `npm install`
 5. run `npm start`
 
