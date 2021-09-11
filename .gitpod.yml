@@ -1,7 +1,7 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: npm
-    init:  npm install
+    init: npm install
     command: npm run start
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/

@@ -1,12 +1,13 @@
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import "primeflex/primeflex.css";
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+import 'primeflex/primeflex.css'
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import Footer from "./Components/Footer";
-import Socials from "./Components/Socials";
+import Footer from './Components/Footer'
+import Socials from './Components/Socials'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       </Switch>
       <Footer />
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
