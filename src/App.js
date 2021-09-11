@@ -1,30 +1,27 @@
-import "primereact/resources/themes/saga-blue/theme.css";
-import "primereact/resources/primereact.min.css";
-import "primeicons/primeicons.css";
-import "primeflex/primeflex.css";
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+import 'primeflex/primeflex.css'
 
-import { Avatar } from "primereact/avatar";
-import { Badge } from "primereact/badge";
-import Title from "./Components/Title";
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import Footer from './Components/Footer'
+import Socials from './Components/Socials'
 
 function App() {
   return (
-    <div className="p-m-4">
-      <div className="p-d-flex p-jc-center p-ai-center">
-        <Avatar
-          image="eddiejaoude.jpg"
-          size="xlarge"
-          shape="circle"
-          className="p-overlay-badge"
-        >
-          <Badge value="4" severity="info" />
-        </Avatar>
-      </div>
-      <div className="p-d-flex p-jc-center">
-        <Title>Founder of EddieHub</Title>
-      </div>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route path="/:username">
+          <div className="p-m-4">
+            <Socials />
+          </div>
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
+  )
 }
 
-export default App;
+export default App
