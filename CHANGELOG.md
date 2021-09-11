@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.1...v0.4.0) (2021-09-10)
+
+
+### Features
+
+* lint data files ([67592d7](https://github.com/EddieHubCommunity/LinkFree/commit/67592d79d2c3e84175e891cccd06019afeea0c8c))
+
+
+
 ## [0.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.0...v0.3.1) (2021-09-10)
 
 
