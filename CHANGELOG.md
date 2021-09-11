@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.1...v0.5.2) (2021-09-11)
+
+
+### Bug Fixes
+
+* renamed kube files. ([f44ae26](https://github.com/EddieHubCommunity/LinkFree/commit/f44ae26d7384ab958302de5958b8833d96a7e5c0))
+
+
+
 ## [0.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.0...v0.5.1) (2021-09-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kube file reference ([3d29b05](https://github.com/EddieHubCommunity/LinkFree/commit/3d29b05171cd163be1c532e631db5fd49d0c69ec))
-
-
-
-# [0.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.2.0...v0.3.0) (2021-09-10)
-
-
-### Features
-
-* deployment ([4a9fa1f](https://github.com/EddieHubCommunity/LinkFree/commit/4a9fa1f4591d655fa844521ce5b01c7b541bb904))
 
 
 
