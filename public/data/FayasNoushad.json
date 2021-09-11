@@ -1,0 +1,17 @@
+{
+  "name": "Fayas Noushad",
+  "bio": "Member of EddieHub",
+  "avatar": "https://github.com/FayasNoushad.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/FayasNoushad",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/FayasNoushad",
+      "icon": "twitter"
+    }
+  ]
+}
