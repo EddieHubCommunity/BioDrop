@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.4.0...v0.5.0) (2021-09-11)
+
+
+### Features
+
+* lint + prettier ([6c562cb](https://github.com/EddieHubCommunity/LinkFree/commit/6c562cba8428b2e90846ad6af6bfad6d1e2814ec))
+
+
+
 # [0.4.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.1...v0.4.0) (2021-09-10)
 
 
