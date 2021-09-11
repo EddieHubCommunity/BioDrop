@@ -50,8 +50,8 @@ jobs:
             'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'
           build-args: 'github_token=${{ secrets.GITHUB_TOKEN }}'
           tags: |
-            ghcr.io/eddiehubcommunity/linktree:v${{ steps.package-version.outputs.current-version}}
-            ghcr.io/eddiehubcommunity/linktree:latest
+            ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
+            ghcr.io/eddiehubcommunity/linkfree:latest
   deploy:
     name: deploy to kube cluster
     needs: push_to_registry
@@ -69,5 +69,5 @@ jobs:
         with:
           namespace: 'default'
           manifests: kubernetes/deployment.yml
-          images: 'ghcr.io/eddiehubcommunity/linktree:v${{ steps.package-version.outputs.current-version}}'
+          images: 'ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}'
           kubectl-version: 'latest'
