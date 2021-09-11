@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.2...v0.6.0) (2021-09-11)
+
+
+### Features
+
+* navigate on social links ([#72](https://github.com/EddieHubCommunity/LinkFree/issues/72)) ([ec05237](https://github.com/EddieHubCommunity/LinkFree/commit/ec0523738d0a1eda24859b646c012f379d329530))
+
+
+
 ## [0.5.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.1...v0.5.2) (2021-09-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * lint data files ([67592d7](https://github.com/EddieHubCommunity/LinkFree/commit/67592d79d2c3e84175e891cccd06019afeea0c8c))
-
-
-
-## [0.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.0...v0.3.1) (2021-09-10)
-
-
-### Bug Fixes
-
-* kube file reference ([3d29b05](https://github.com/EddieHubCommunity/LinkFree/commit/3d29b05171cd163be1c532e631db5fd49d0c69ec))
 
 
 
