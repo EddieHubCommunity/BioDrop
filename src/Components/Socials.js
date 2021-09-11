@@ -1,25 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom'
 
-import Profile from "./Profile";
-import Links from "./Links";
+import Profile from './Profile'
+import Links from './Links'
 
 function Socials() {
-  const { username } = useParams();
+  const { username } = useParams()
   const [profile, setProfile] = useState({
-    name: "404",
-    bio: "-",
+    name: '404',
+    bio: '-',
     avatar:
-      "https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png",
+      'https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png',
     links: [],
-  });
+  })
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
-      .then((data) => setProfile(data));
-  }, [username]);
+      .then((data) => setProfile(data))
+  }, [username])
 
   return (
     <div>
@@ -31,7 +31,7 @@ function Socials() {
       />
       <Links links={profile.links} />
     </div>
-  );
+  )
 }
 
-export default Socials;
+export default Socials

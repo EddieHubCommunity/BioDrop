@@ -2,8 +2,8 @@ env:
   browser: true
   es2021: true
 extends:
-  - "plugin:react/recommended"
-  - "plugin:json/recommended"
+  - 'plugin:react/recommended'
+  - 'plugin:json/recommended'
   - standard
 parserOptions:
   ecmaFeatures:
@@ -12,4 +12,8 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {}
+rules:
+  {
+    'space-before-function-paren': ['error', 'never'],
+    'comma-dangle': ['error', 'always-multiline'],
+  }

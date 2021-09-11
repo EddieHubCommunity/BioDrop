@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-    - host: "linkfree.eddiehub.org"
+    - host: 'linkfree.eddiehub.org'
       http:
         paths:
           - path: /

@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import { Avatar } from "primereact/avatar";
-import { Badge } from "primereact/badge";
+import { Avatar } from 'primereact/avatar'
+import { Badge } from 'primereact/badge'
 
 function Profile({ name, bio, avatar, total }) {
   return (
@@ -21,7 +22,14 @@ function Profile({ name, bio, avatar, total }) {
         <p>{bio}</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default Profile;
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  total: PropTypes.string.number,
+}
+
+export default Profile
