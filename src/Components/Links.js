@@ -10,6 +10,10 @@ function Links({ links }) {
     github: 'green',
   }
 
+  const goToLinkHandle = (url) => {
+    window.open(url, '__blank').focus()
+  }
+
   return (
     <div className="p-d-flex p-jc-center">
       <div className="p-d-flex p-flex-column" style={{ width: 70 + '%' }}>
@@ -18,6 +22,7 @@ function Links({ links }) {
             className="p-p-3 p-m-2 p-button-outlined"
             style={{ color: colors[link.icon] }}
             key={`link.url_${index}`}
+            onClick={() => goToLinkHandle(link.url)}
           >
             <i className={`pi pi-${link.icon} p-px-2`}></i>
             <span className="p-px-3">{link.name}</span>
