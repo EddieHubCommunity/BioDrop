@@ -1,3 +1,12 @@
+## [0.8.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.5...v0.8.6) (2021-09-12)
+
+
+### Bug Fixes
+
+* skyhero data  ([#78](https://github.com/EddieHubCommunity/LinkFree/issues/78)) ([0bcdce1](https://github.com/EddieHubCommunity/LinkFree/commit/0bcdce138c015c7a5aa533be537eb6efecafc985))
+
+
+
 ## [0.8.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.4...v0.8.5) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * moved app version to docker ([7f9dc40](https://github.com/EddieHubCommunity/LinkFree/commit/7f9dc401e490739d5758c7feccbe816a39d0dae2))
-
-
-
-## [0.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.0...v0.8.1) (2021-09-12)
-
-
-### Bug Fixes
-
-* app version ([56086b0](https://github.com/EddieHubCommunity/LinkFree/commit/56086b08c18542b985bc6575fb2b37ebe847bb00))
 
 
 
