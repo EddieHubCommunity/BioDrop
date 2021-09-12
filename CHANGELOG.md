@@ -1,3 +1,12 @@
+## [0.8.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.6...v0.8.7) (2021-09-12)
+
+
+### Bug Fixes
+
+* vinzvinci data ([#82](https://github.com/EddieHubCommunity/LinkFree/issues/82)) ([742ad3d](https://github.com/EddieHubCommunity/LinkFree/commit/742ad3d5a7ee479d239a3c43d877494afb9343ca))
+
+
+
 ## [0.8.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.5...v0.8.6) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * package name ([#74](https://github.com/EddieHubCommunity/LinkFree/issues/74)) ([e6dbcb1](https://github.com/EddieHubCommunity/LinkFree/commit/e6dbcb18926a06bce38526eac42cd40886fb8b0b))
-
-
-
-## [0.8.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.1...v0.8.2) (2021-09-12)
-
-
-### Bug Fixes
-
-* moved app version to docker ([7f9dc40](https://github.com/EddieHubCommunity/LinkFree/commit/7f9dc401e490739d5758c7feccbe816a39d0dae2))
 
 
 
