@@ -1,0 +1,12 @@
+{
+    "name": "Subhampreet Mohanty",
+    "bio": "A Full-Stack Web Developer",
+    "avatar": "https://github.com/Subhampreet.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/Subhampreet.png",
+        "icon": "github"
+      }
+    ]
+  }
