@@ -17,9 +17,6 @@ jobs:
         with:
           github-token: ${{ secrets.CHANGELOG_RELEASE }}
 
-      - name: version
-        run: echo ${{ steps.changelog.outputs.tag }} && sed -i 's/0.0.0/${{ steps.changelog.outputs.tag }}/g' public/app.json
-
       - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
