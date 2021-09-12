@@ -1,3 +1,12 @@
+## [0.8.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.3...v0.8.4) (2021-09-12)
+
+
+### Bug Fixes
+
+* json formatting ([3bc94d0](https://github.com/EddieHubCommunity/LinkFree/commit/3bc94d0d0788ca6bed0ce64cf097ee225e2230e4))
+
+
+
 ## [0.8.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.2...v0.8.3) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * display deployed version no ([ada9add](https://github.com/EddieHubCommunity/LinkFree/commit/ada9addd2d2846f3dc9c17f866a1e5dd659b3de7))
-
-
-
-# [0.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.6.0...v0.7.0) (2021-09-12)
-
-
-### Features
-
-* list on home ([2958b1b](https://github.com/EddieHubCommunity/LinkFree/commit/2958b1bc8aa2bccf2ae305f0f8bba7d244a403ec))
 
 
 
