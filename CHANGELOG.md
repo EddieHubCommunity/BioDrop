@@ -1,3 +1,12 @@
+## [0.8.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.2...v0.8.3) (2021-09-12)
+
+
+### Bug Fixes
+
+* package name ([#74](https://github.com/EddieHubCommunity/LinkFree/issues/74)) ([e6dbcb1](https://github.com/EddieHubCommunity/LinkFree/commit/e6dbcb18926a06bce38526eac42cd40886fb8b0b))
+
+
+
 ## [0.8.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.1...v0.8.2) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * list on home ([2958b1b](https://github.com/EddieHubCommunity/LinkFree/commit/2958b1bc8aa2bccf2ae305f0f8bba7d244a403ec))
-
-
-
-# [0.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.2...v0.6.0) (2021-09-11)
-
-
-### Features
-
-* navigate on social links ([#72](https://github.com/EddieHubCommunity/LinkFree/issues/72)) ([ec05237](https://github.com/EddieHubCommunity/LinkFree/commit/ec0523738d0a1eda24859b646c012f379d329530))
 
 
 
