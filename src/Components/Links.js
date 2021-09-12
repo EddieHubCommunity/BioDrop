@@ -34,7 +34,7 @@ function Links({ links }) {
 }
 
 Links.propTypes = {
-  links: PropTypes.object.isRequired,
+  links: PropTypes.array.isRequired,
 }
 
 export default Links
