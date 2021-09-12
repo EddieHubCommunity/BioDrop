@@ -1,3 +1,12 @@
+## [0.8.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.1...v0.8.2) (2021-09-12)
+
+
+### Bug Fixes
+
+* moved app version to docker ([7f9dc40](https://github.com/EddieHubCommunity/LinkFree/commit/7f9dc401e490739d5758c7feccbe816a39d0dae2))
+
+
+
 ## [0.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.0...v0.8.1) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * navigate on social links ([#72](https://github.com/EddieHubCommunity/LinkFree/issues/72)) ([ec05237](https://github.com/EddieHubCommunity/LinkFree/commit/ec0523738d0a1eda24859b646c012f379d329530))
-
-
-
-## [0.5.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.1...v0.5.2) (2021-09-11)
-
-
-### Bug Fixes
-
-* renamed kube files. ([f44ae26](https://github.com/EddieHubCommunity/LinkFree/commit/f44ae26d7384ab958302de5958b8833d96a7e5c0))
 
 
 
