@@ -7,7 +7,7 @@ function Links({ links }) {
   const colors = {
     youtube: 'red',
     twitter: 'blue',
-    github: 'green',
+    github: 'black',
   }
 
   const goToLinkHandle = (url) => {
