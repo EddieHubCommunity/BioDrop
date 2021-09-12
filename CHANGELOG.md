@@ -1,3 +1,12 @@
+## [0.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.0...v0.8.1) (2021-09-12)
+
+
+### Bug Fixes
+
+* app version ([56086b0](https://github.com/EddieHubCommunity/LinkFree/commit/56086b08c18542b985bc6575fb2b37ebe847bb00))
+
+
+
 # [0.8.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.7.0...v0.8.0) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * renamed kube files. ([f44ae26](https://github.com/EddieHubCommunity/LinkFree/commit/f44ae26d7384ab958302de5958b8833d96a7e5c0))
-
-
-
-## [0.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.0...v0.5.1) (2021-09-11)
-
-
-### Bug Fixes
-
-* kube typos ([bf96eb3](https://github.com/EddieHubCommunity/LinkFree/commit/bf96eb3a9a37c8cb7db045d5bb59649f5e445066))
 
 
 
