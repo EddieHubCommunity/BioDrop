@@ -1,0 +1,16 @@
+{
+    "name": "Yash Verma",
+    "bio": "FilmEditor who happens to pursue open source and computer science, Life is unexpected 😁",
+    "avatar": "https://github.com/Recognizeyourself.png",
+    "links": [{
+            "name": "Follow me on GitHub",
+            "url": "https://github.com/Recognizeyourself",
+            "icon": "github"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/atypicalseeker",
+            "icon": "twitter"
+        }
+    ]
+}
