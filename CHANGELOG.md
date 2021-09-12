@@ -1,3 +1,12 @@
+## [0.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.0...v0.9.1) (2021-09-12)
+
+
+### Bug Fixes
+
+* mohammad4kh to homepage ([#87](https://github.com/EddieHubCommunity/LinkFree/issues/87)) ([53ce538](https://github.com/EddieHubCommunity/LinkFree/commit/53ce538ec819faecc7dc5dcf78949de4aa307e51))
+
+
+
 # [0.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.7...v0.9.0) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * FayasNoushad for home ([#81](https://github.com/EddieHubCommunity/LinkFree/issues/81)) ([7a2e97d](https://github.com/EddieHubCommunity/LinkFree/commit/7a2e97dc79c2648678e7db388ede043159dbed50))
-
-
-
-## [0.8.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.3...v0.8.4) (2021-09-12)
-
-
-### Bug Fixes
-
-* json formatting ([3bc94d0](https://github.com/EddieHubCommunity/LinkFree/commit/3bc94d0d0788ca6bed0ce64cf097ee225e2230e4))
 
 
 
