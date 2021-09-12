@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.7...v0.9.0) (2021-09-12)
+
+
+### Features
+
+* allowed links only ([#84](https://github.com/EddieHubCommunity/LinkFree/issues/84)) ([759c3d7](https://github.com/EddieHubCommunity/LinkFree/commit/759c3d7b8822a9357976bcbd5ef21c130eb8c85f))
+
+
+
 ## [0.8.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.6...v0.8.7) (2021-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * json formatting ([3bc94d0](https://github.com/EddieHubCommunity/LinkFree/commit/3bc94d0d0788ca6bed0ce64cf097ee225e2230e4))
-
-
-
-## [0.8.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.2...v0.8.3) (2021-09-12)
-
-
-### Bug Fixes
-
-* package name ([#74](https://github.com/EddieHubCommunity/LinkFree/issues/74)) ([e6dbcb1](https://github.com/EddieHubCommunity/LinkFree/commit/e6dbcb18926a06bce38526eac42cd40886fb8b0b))
 
 
 
