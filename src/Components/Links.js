@@ -8,7 +8,7 @@ function Links({ links }) {
     youtube: 'red',
     twitter: 'blue',
     github: 'black',
-    linkdin: 'blue'
+    linkedin: 'blue',
   }
 
   const goToLinkHandle = (url) => {
