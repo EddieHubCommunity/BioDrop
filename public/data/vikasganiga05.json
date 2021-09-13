@@ -1,0 +1,17 @@
+{
+  "name": "Vikas Ganiga",
+  "bio": "Full Stack Developer | Tech Enthusiast",
+  "avatar": "https://github.com/vikasganiga05.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/vikasganiga05",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/vikasganiga05",
+      "icon": "twitter"
+    }
+  ]
+}
