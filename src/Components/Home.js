@@ -27,6 +27,7 @@ function Home() {
     <div>
       {list.map((user, key) => (
         <Avatar
+          className="avatar-hover"
           image={user.avatar}
           key={key}
           shape="circle"
