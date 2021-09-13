@@ -1,3 +1,12 @@
+## [0.10.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.1...v0.10.2) (2021-09-13)
+
+
+### Bug Fixes
+
+* KaushikKC data ([#101](https://github.com/EddieHubCommunity/LinkFree/issues/101)) ([0b9f3db](https://github.com/EddieHubCommunity/LinkFree/commit/0b9f3dbdfdef1b28df9945c381aad22c1c8c16df))
+
+
+
 ## [0.10.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.0...v0.10.1) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * skyhero to homepage ([#90](https://github.com/EddieHubCommunity/LinkFree/issues/90)) ([b54c34b](https://github.com/EddieHubCommunity/LinkFree/commit/b54c34be14f181e220f06c0503059509e28c1df9))
-
-
-
-## [0.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.2...v0.9.3) (2021-09-13)
-
-
-### Bug Fixes
-
-* krishdevdb data ([#89](https://github.com/EddieHubCommunity/LinkFree/issues/89)) ([45af6e3](https://github.com/EddieHubCommunity/LinkFree/commit/45af6e3d728d5c5971972a967eab11a7b4616d00))
 
 
 
