@@ -1,3 +1,12 @@
+## [0.9.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.4...v0.9.5) (2021-09-13)
+
+
+### Bug Fixes
+
+* Spelling mistake corrected in README.md ([#92](https://github.com/EddieHubCommunity/LinkFree/issues/92)) ([4be6de1](https://github.com/EddieHubCommunity/LinkFree/commit/4be6de16dc32999ad4bf6cbfbee3db8ae19d8657))
+
+
+
 ## [0.9.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.3...v0.9.4) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * mohammad4kh to homepage ([#87](https://github.com/EddieHubCommunity/LinkFree/issues/87)) ([53ce538](https://github.com/EddieHubCommunity/LinkFree/commit/53ce538ec819faecc7dc5dcf78949de4aa307e51))
-
-
-
-# [0.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.7...v0.9.0) (2021-09-12)
-
-
-### Features
-
-* allowed links only ([#84](https://github.com/EddieHubCommunity/LinkFree/issues/84)) ([759c3d7](https://github.com/EddieHubCommunity/LinkFree/commit/759c3d7b8822a9357976bcbd5ef21c130eb8c85f))
 
 
 
