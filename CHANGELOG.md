@@ -1,45 +1,45 @@
-## [0.9.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.1...v0.9.2) (2021-09-13)
+## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
 
 
 ### Bug Fixes
 
-* verma-kunal data ([#88](https://github.com/EddieHubCommunity/LinkFree/issues/88)) ([8d47bc4](https://github.com/EddieHubCommunity/LinkFree/commit/8d47bc48c1a9a73cf373b5492c031516edb7c1f6))
+* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
 
 
 
-## [0.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.0...v0.9.1) (2021-09-12)
+## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
 
 
 ### Bug Fixes
 
-* mohammad4kh to homepage ([#87](https://github.com/EddieHubCommunity/LinkFree/issues/87)) ([53ce538](https://github.com/EddieHubCommunity/LinkFree/commit/53ce538ec819faecc7dc5dcf78949de4aa307e51))
+* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
 
 
 
-# [0.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.7...v0.9.0) (2021-09-12)
+## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
+
+
+### Bug Fixes
+
+* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
+
+
+
+# [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
 
 
 ### Features
 
-* allowed links only ([#84](https://github.com/EddieHubCommunity/LinkFree/issues/84)) ([759c3d7](https://github.com/EddieHubCommunity/LinkFree/commit/759c3d7b8822a9357976bcbd5ef21c130eb8c85f))
+* data for vikasganiga05 ([#148](https://github.com/EddieHubCommunity/LinkFree/issues/148)) ([d614f1e](https://github.com/EddieHubCommunity/LinkFree/commit/d614f1e8da58df1a468531820b3cf70be1231ace))
 
 
 
-## [0.8.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.6...v0.8.7) (2021-09-12)
-
-
-### Bug Fixes
-
-* vinzvinci data ([#82](https://github.com/EddieHubCommunity/LinkFree/issues/82)) ([742ad3d](https://github.com/EddieHubCommunity/LinkFree/commit/742ad3d5a7ee479d239a3c43d877494afb9343ca))
-
-
-
-## [0.8.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.5...v0.8.6) (2021-09-12)
+## [0.10.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.5...v0.10.6) (2021-09-13)
 
 
 ### Bug Fixes
 
-* skyhero data  ([#78](https://github.com/EddieHubCommunity/LinkFree/issues/78)) ([0bcdce1](https://github.com/EddieHubCommunity/LinkFree/commit/0bcdce138c015c7a5aa533be537eb6efecafc985))
+* link colors and RoshanMhatre data([#150](https://github.com/EddieHubCommunity/LinkFree/issues/150)) ([f951eb0](https://github.com/EddieHubCommunity/LinkFree/commit/f951eb0315713a13fb8aa428efae7e234612ebcb))
 
 
 
