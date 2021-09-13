@@ -1,3 +1,12 @@
+## [0.10.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.5...v0.10.6) (2021-09-13)
+
+
+### Bug Fixes
+
+* link colors and RoshanMhatre data([#150](https://github.com/EddieHubCommunity/LinkFree/issues/150)) ([f951eb0](https://github.com/EddieHubCommunity/LinkFree/commit/f951eb0315713a13fb8aa428efae7e234612ebcb))
+
+
+
 ## [0.10.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.4...v0.10.5) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * KaushikKC data ([#101](https://github.com/EddieHubCommunity/LinkFree/issues/101)) ([0b9f3db](https://github.com/EddieHubCommunity/LinkFree/commit/0b9f3dbdfdef1b28df9945c381aad22c1c8c16df))
-
-
-
-## [0.10.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.0...v0.10.1) (2021-09-13)
-
-
-### Bug Fixes
-
-* update title ([#98](https://github.com/EddieHubCommunity/LinkFree/issues/98)) ([1577c32](https://github.com/EddieHubCommunity/LinkFree/commit/1577c320709013fd9b88d97c1d12560a9f9c57e4))
 
 
 
