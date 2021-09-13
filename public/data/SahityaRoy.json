@@ -1,0 +1,17 @@
+{
+  "name": "Sahitya Roy",
+  "bio": "Founder of Eduhub Community love to work with community",
+  "avatar": "https://github.com/SahityaRoy.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/SahityaRoy",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/SahityaRoy07",
+      "icon": "twitter"
+    }
+  ]
+}
