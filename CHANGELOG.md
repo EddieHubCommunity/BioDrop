@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
+
+
+### Features
+
+* data for vikasganiga05 ([#148](https://github.com/EddieHubCommunity/LinkFree/issues/148)) ([d614f1e](https://github.com/EddieHubCommunity/LinkFree/commit/d614f1e8da58df1a468531820b3cf70be1231ace))
+
+
+
 ## [0.10.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.5...v0.10.6) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * voidz to homepage ([#100](https://github.com/EddieHubCommunity/LinkFree/issues/100)) ([135c27c](https://github.com/EddieHubCommunity/LinkFree/commit/135c27cf34aa9f4c00cb3b18d9aecb5eb65c9936))
-
-
-
-## [0.10.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.1...v0.10.2) (2021-09-13)
-
-
-### Bug Fixes
-
-* KaushikKC data ([#101](https://github.com/EddieHubCommunity/LinkFree/issues/101)) ([0b9f3db](https://github.com/EddieHubCommunity/LinkFree/commit/0b9f3dbdfdef1b28df9945c381aad22c1c8c16df))
 
 
 
