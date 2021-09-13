@@ -1,3 +1,12 @@
+## [0.10.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.2...v0.10.3) (2021-09-13)
+
+
+### Bug Fixes
+
+* voidz to homepage ([#100](https://github.com/EddieHubCommunity/LinkFree/issues/100)) ([135c27c](https://github.com/EddieHubCommunity/LinkFree/commit/135c27cf34aa9f4c00cb3b18d9aecb5eb65c9936))
+
+
+
 ## [0.10.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.1...v0.10.2) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Spelling mistake corrected in README.md ([#92](https://github.com/EddieHubCommunity/LinkFree/issues/92)) ([4be6de1](https://github.com/EddieHubCommunity/LinkFree/commit/4be6de16dc32999ad4bf6cbfbee3db8ae19d8657))
-
-
-
-## [0.9.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.3...v0.9.4) (2021-09-13)
-
-
-### Bug Fixes
-
-* skyhero to homepage ([#90](https://github.com/EddieHubCommunity/LinkFree/issues/90)) ([b54c34b](https://github.com/EddieHubCommunity/LinkFree/commit/b54c34be14f181e220f06c0503059509e28c1df9))
 
 
 
