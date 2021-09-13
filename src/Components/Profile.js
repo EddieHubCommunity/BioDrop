@@ -29,7 +29,7 @@ Profile.propTypes = {
   name: PropTypes.string.isRequired,
   bio: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
-  total: PropTypes.string.number,
+  total: PropTypes.number.isRequired,
 }
 
 export default Profile

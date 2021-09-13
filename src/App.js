@@ -8,18 +8,22 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Footer from './Components/Footer'
 import Socials from './Components/Socials'
+import Home from './Components/Home'
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route path="/:username">
-          <div className="p-m-4">
+      <div className="p-m-4">
+        <Switch>
+          <Route path="/:username">
             <Socials />
-          </div>
-        </Route>
-      </Switch>
-      <Footer />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
     </Router>
   )
 }

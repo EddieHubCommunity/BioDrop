@@ -1,17 +1,17 @@
 {
-    "name": "Krishna Kumar",
-    "bio": "Open Source & Cybersecurity Enthusiasts",
-    "avatar": "https://github.com/Krishnapro.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/Krishnapro",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/kkrishn95",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Krishna Kumar",
+  "bio": "Open Source & Cybersecurity Enthusiasts",
+  "avatar": "https://github.com/Krishnapro.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/Krishnapro",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/kkrishn95",
+      "icon": "twitter"
+    }
+  ]
 }
