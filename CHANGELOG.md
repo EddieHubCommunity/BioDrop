@@ -1,3 +1,12 @@
+## [0.10.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.4...v0.10.5) (2021-09-13)
+
+
+### Bug Fixes
+
+* orama254 data ([#102](https://github.com/EddieHubCommunity/LinkFree/issues/102)) ([4f6b278](https://github.com/EddieHubCommunity/LinkFree/commit/4f6b278b46c8f6bef3e2e83bfcd88ca68cfdd70c))
+
+
+
 ## [0.10.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.3...v0.10.4) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update title ([#98](https://github.com/EddieHubCommunity/LinkFree/issues/98)) ([1577c32](https://github.com/EddieHubCommunity/LinkFree/commit/1577c320709013fd9b88d97c1d12560a9f9c57e4))
-
-
-
-# [0.10.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.5...v0.10.0) (2021-09-13)
-
-
-### Features
-
-* added vinzvinci data to homepage ([#94](https://github.com/EddieHubCommunity/LinkFree/issues/94)) ([3e483d9](https://github.com/EddieHubCommunity/LinkFree/commit/3e483d9676cff0467ce59a201b3b5bd8b35d7e64))
 
 
 
