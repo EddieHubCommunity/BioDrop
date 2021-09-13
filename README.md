@@ -8,11 +8,11 @@ Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_
 
 ## Quickstart
 
-1. fork project
-2. clone project
-3. navigate to project directory `cd LinkFree`
-4. install dependencies with `npm install`
-5. run `npm start`
+1. fork project.
+2. clone project.
+3. navigate to project directory `cd LinkFree`.
+4. install dependencies with `npm install`.
+5. run `npm start`.
 
 ### To add your profile
 
