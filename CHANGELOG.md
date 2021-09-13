@@ -1,3 +1,12 @@
+## [0.9.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.3...v0.9.4) (2021-09-13)
+
+
+### Bug Fixes
+
+* skyhero to homepage ([#90](https://github.com/EddieHubCommunity/LinkFree/issues/90)) ([b54c34b](https://github.com/EddieHubCommunity/LinkFree/commit/b54c34be14f181e220f06c0503059509e28c1df9))
+
+
+
 ## [0.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.2...v0.9.3) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * allowed links only ([#84](https://github.com/EddieHubCommunity/LinkFree/issues/84)) ([759c3d7](https://github.com/EddieHubCommunity/LinkFree/commit/759c3d7b8822a9357976bcbd5ef21c130eb8c85f))
-
-
-
-## [0.8.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.6...v0.8.7) (2021-09-12)
-
-
-### Bug Fixes
-
-* vinzvinci data ([#82](https://github.com/EddieHubCommunity/LinkFree/issues/82)) ([742ad3d](https://github.com/EddieHubCommunity/LinkFree/commit/742ad3d5a7ee479d239a3c43d877494afb9343ca))
 
 
 
