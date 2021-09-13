@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* =========Navbar Start==========*/
+.navbar{
+  padding: 10px;
+  display:flex;
+  align-items:center;
+  max-width: 80%;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-bottom: 1px solid skyblue;
+}
+
+.navbar h1{
+  color: skyblue;
+  
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left:16px;
+  text-decoration: none;
+  padding: 6px;
+  color:#333;
+}
+.navbar a:hover{
+  color:skyblue;
+  
+}
+
+/* =========Navbar Start==========*/

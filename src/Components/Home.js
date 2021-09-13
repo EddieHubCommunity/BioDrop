@@ -1,7 +1,7 @@
 import { Avatar } from 'primereact/avatar'
 import React, { useState, useEffect } from 'react'
-
 import { useHistory } from 'react-router-dom'
+import NavBar from './NavBar'
 
 function Home() {
   const history = useHistory()
@@ -25,6 +25,7 @@ function Home() {
 
   return (
     <div>
+      <NavBar/>
       {list.map((user, key) => (
         <Avatar
           image={user.avatar}
