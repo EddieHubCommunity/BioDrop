@@ -15,7 +15,7 @@ function Footer() {
         <a href="https://github.com/EddieHubCommunity/LinkFree">
           <i className="pi pi-github" aria-hidden="true"></i>
         </a>
-        v{version}
+        &nbsp;v{version}
       </p>
     </div>
   )
