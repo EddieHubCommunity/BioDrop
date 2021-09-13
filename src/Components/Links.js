@@ -6,7 +6,7 @@ import { Button } from 'primereact/button'
 function Links({ links }) {
   const colors = {
     youtube: 'red',
-    twitter: 'blue',
+    twitter: '#00ACEE',
     github: 'black',
   }
 
