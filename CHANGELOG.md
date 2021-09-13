@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.5...v0.10.0) (2021-09-13)
+
+
+### Features
+
+* added vinzvinci data to homepage ([#94](https://github.com/EddieHubCommunity/LinkFree/issues/94)) ([3e483d9](https://github.com/EddieHubCommunity/LinkFree/commit/3e483d9676cff0467ce59a201b3b5bd8b35d7e64))
+
+
+
 ## [0.9.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.4...v0.9.5) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * verma-kunal data ([#88](https://github.com/EddieHubCommunity/LinkFree/issues/88)) ([8d47bc4](https://github.com/EddieHubCommunity/LinkFree/commit/8d47bc48c1a9a73cf373b5492c031516edb7c1f6))
-
-
-
-## [0.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.0...v0.9.1) (2021-09-12)
-
-
-### Bug Fixes
-
-* mohammad4kh to homepage ([#87](https://github.com/EddieHubCommunity/LinkFree/issues/87)) ([53ce538](https://github.com/EddieHubCommunity/LinkFree/commit/53ce538ec819faecc7dc5dcf78949de4aa307e51))
 
 
 
