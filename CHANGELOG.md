@@ -1,3 +1,12 @@
+## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
+
+
+### Bug Fixes
+
+* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
+
+
+
 # [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Twitter-colour hexcode ([#118](https://github.com/EddieHubCommunity/LinkFree/issues/118)) ([ba53270](https://github.com/EddieHubCommunity/LinkFree/commit/ba53270862948bef498e9d99ca67478a0ce86434))
-
-
-
-## [0.10.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.2...v0.10.3) (2021-09-13)
-
-
-### Bug Fixes
-
-* voidz to homepage ([#100](https://github.com/EddieHubCommunity/LinkFree/issues/100)) ([135c27c](https://github.com/EddieHubCommunity/LinkFree/commit/135c27cf34aa9f4c00cb3b18d9aecb5eb65c9936))
 
 
 
