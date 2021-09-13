@@ -12,6 +12,11 @@
       "name": "Follow me on Twitter",
       "url": "http://twitter.com/eddiejaoude",
       "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "http://youtube.com/eddiejaoude",
+      "icon": "youtube"
     }
   ]
 }
