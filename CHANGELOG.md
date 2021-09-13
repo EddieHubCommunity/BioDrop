@@ -1,3 +1,12 @@
+## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
+
+
+### Bug Fixes
+
+* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
+
+
+
 ## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * orama254 data ([#102](https://github.com/EddieHubCommunity/LinkFree/issues/102)) ([4f6b278](https://github.com/EddieHubCommunity/LinkFree/commit/4f6b278b46c8f6bef3e2e83bfcd88ca68cfdd70c))
-
-
-
-## [0.10.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.3...v0.10.4) (2021-09-13)
-
-
-### Bug Fixes
-
-* Twitter-colour hexcode ([#118](https://github.com/EddieHubCommunity/LinkFree/issues/118)) ([ba53270](https://github.com/EddieHubCommunity/LinkFree/commit/ba53270862948bef498e9d99ca67478a0ce86434))
 
 
 
