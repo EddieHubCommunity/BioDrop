@@ -1,3 +1,12 @@
+## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
+
+
+### Bug Fixes
+
+* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
+
+
+
 ## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * link colors and RoshanMhatre data([#150](https://github.com/EddieHubCommunity/LinkFree/issues/150)) ([f951eb0](https://github.com/EddieHubCommunity/LinkFree/commit/f951eb0315713a13fb8aa428efae7e234612ebcb))
-
-
-
-## [0.10.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.4...v0.10.5) (2021-09-13)
-
-
-### Bug Fixes
-
-* orama254 data ([#102](https://github.com/EddieHubCommunity/LinkFree/issues/102)) ([4f6b278](https://github.com/EddieHubCommunity/LinkFree/commit/4f6b278b46c8f6bef3e2e83bfcd88ca68cfdd70c))
 
 
 
