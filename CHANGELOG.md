@@ -1,3 +1,12 @@
+## [0.10.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.3...v0.10.4) (2021-09-13)
+
+
+### Bug Fixes
+
+* Twitter-colour hexcode ([#118](https://github.com/EddieHubCommunity/LinkFree/issues/118)) ([ba53270](https://github.com/EddieHubCommunity/LinkFree/commit/ba53270862948bef498e9d99ca67478a0ce86434))
+
+
+
 ## [0.10.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.2...v0.10.3) (2021-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added vinzvinci data to homepage ([#94](https://github.com/EddieHubCommunity/LinkFree/issues/94)) ([3e483d9](https://github.com/EddieHubCommunity/LinkFree/commit/3e483d9676cff0467ce59a201b3b5bd8b35d7e64))
-
-
-
-## [0.9.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.9.4...v0.9.5) (2021-09-13)
-
-
-### Bug Fixes
-
-* Spelling mistake corrected in README.md ([#92](https://github.com/EddieHubCommunity/LinkFree/issues/92)) ([4be6de1](https://github.com/EddieHubCommunity/LinkFree/commit/4be6de16dc32999ad4bf6cbfbee3db8ae19d8657))
 
 
 
