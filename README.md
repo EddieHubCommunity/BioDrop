@@ -42,10 +42,6 @@ Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http
 
 Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
 
-### Add your profile to the home page
+### Home page profiles
 
-Update the file `public/data/_list.json` with the following object to the collection:
-
-```json
-{ "username": "eddiejaoude", "avatar": "https://github.com/eddiejaoude.png" },
-```
+Your profile will automatically appear on the home page.

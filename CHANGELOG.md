@@ -1,45 +1,45 @@
-## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
+## [0.13.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.1...v0.13.2) (2021-09-14)
 
 
 ### Bug Fixes
 
-* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
+* update nhcarrigans avatar url ([#167](https://github.com/EddieHubCommunity/LinkFree/issues/167)) ([d3b56f4](https://github.com/EddieHubCommunity/LinkFree/commit/d3b56f4dc55b254dc6777ed18cc34998035d07d1))
 
 
 
-## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
-
-
-### Bug Fixes
-
-* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
-
-
-
-## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
+## [0.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.0...v0.13.1) (2021-09-14)
 
 
 ### Bug Fixes
 
-* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
+* generate list ([38197fa](https://github.com/EddieHubCommunity/LinkFree/commit/38197fa7479c29e845f5cad712ba441472026c67))
 
 
 
-# [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
+# [0.13.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.1...v0.13.0) (2021-09-14)
 
 
 ### Features
 
-* data for vikasganiga05 ([#148](https://github.com/EddieHubCommunity/LinkFree/issues/148)) ([d614f1e](https://github.com/EddieHubCommunity/LinkFree/commit/d614f1e8da58df1a468531820b3cf70be1231ace))
+* generate homepage list ([#168](https://github.com/EddieHubCommunity/LinkFree/issues/168)) ([e4fdb73](https://github.com/EddieHubCommunity/LinkFree/commit/e4fdb732921e569eb9d608147a4d1657e7cc07c2))
 
 
 
-## [0.10.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.5...v0.10.6) (2021-09-13)
+## [0.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.0...v0.12.1) (2021-09-14)
 
 
 ### Bug Fixes
 
-* link colors and RoshanMhatre data([#150](https://github.com/EddieHubCommunity/LinkFree/issues/150)) ([f951eb0](https://github.com/EddieHubCommunity/LinkFree/commit/f951eb0315713a13fb8aa428efae7e234612ebcb))
+* rename username for redirect ([#163](https://github.com/EddieHubCommunity/LinkFree/issues/163)) ([cf8d5c3](https://github.com/EddieHubCommunity/LinkFree/commit/cf8d5c394603e713fa3f8661cdf5ce2aaef79c42))
+
+
+
+# [0.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.3...v0.12.0) (2021-09-14)
+
+
+### Features
+
+* increase `scale` on hovering links ([#160](https://github.com/EddieHubCommunity/LinkFree/issues/160)) ([f9680e7](https://github.com/EddieHubCommunity/LinkFree/commit/f9680e7ad6ec59a1aa7735658d7ad4f4c91ec3da))
 
 
 
