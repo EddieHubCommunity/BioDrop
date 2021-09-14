@@ -1,45 +1,45 @@
-## [0.8.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.6...v0.8.7) (2021-09-12)
+## [0.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.0...v0.12.1) (2021-09-14)
 
 
 ### Bug Fixes
 
-* vinzvinci data ([#82](https://github.com/EddieHubCommunity/LinkFree/issues/82)) ([742ad3d](https://github.com/EddieHubCommunity/LinkFree/commit/742ad3d5a7ee479d239a3c43d877494afb9343ca))
+* rename username for redirect ([#163](https://github.com/EddieHubCommunity/LinkFree/issues/163)) ([cf8d5c3](https://github.com/EddieHubCommunity/LinkFree/commit/cf8d5c394603e713fa3f8661cdf5ce2aaef79c42))
 
 
 
-## [0.8.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.5...v0.8.6) (2021-09-12)
+# [0.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.3...v0.12.0) (2021-09-14)
 
 
-### Bug Fixes
+### Features
 
-* skyhero data  ([#78](https://github.com/EddieHubCommunity/LinkFree/issues/78)) ([0bcdce1](https://github.com/EddieHubCommunity/LinkFree/commit/0bcdce138c015c7a5aa533be537eb6efecafc985))
-
-
-
-## [0.8.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.4...v0.8.5) (2021-09-12)
-
-
-### Bug Fixes
-
-* FayasNoushad for home ([#81](https://github.com/EddieHubCommunity/LinkFree/issues/81)) ([7a2e97d](https://github.com/EddieHubCommunity/LinkFree/commit/7a2e97dc79c2648678e7db388ede043159dbed50))
+* increase `scale` on hovering links ([#160](https://github.com/EddieHubCommunity/LinkFree/issues/160)) ([f9680e7](https://github.com/EddieHubCommunity/LinkFree/commit/f9680e7ad6ec59a1aa7735658d7ad4f4c91ec3da))
 
 
 
-## [0.8.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.3...v0.8.4) (2021-09-12)
+## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
 
 
 ### Bug Fixes
 
-* json formatting ([3bc94d0](https://github.com/EddieHubCommunity/LinkFree/commit/3bc94d0d0788ca6bed0ce64cf097ee225e2230e4))
+* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
 
 
 
-## [0.8.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.8.2...v0.8.3) (2021-09-12)
+## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
 
 
 ### Bug Fixes
 
-* package name ([#74](https://github.com/EddieHubCommunity/LinkFree/issues/74)) ([e6dbcb1](https://github.com/EddieHubCommunity/LinkFree/commit/e6dbcb18926a06bce38526eac42cd40886fb8b0b))
+* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
+
+
+
+## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
+
+
+### Bug Fixes
+
+* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
 
 
 
