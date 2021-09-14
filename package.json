@@ -20,11 +20,13 @@
   },
   "scripts": {
     "lint": "eslint public/data --ext .json",
+    "prestart": "npm run generate",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "generate": "node generate.js"
   },
   "eslintConfig": {
     "extends": [

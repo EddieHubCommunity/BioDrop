@@ -42,8 +42,4 @@ Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http
 
 ### Add your profile to the home page
 
-Update the file `public/data/_list.json` with the following object to thje collection:
-
-```json
-{ "username": "eddiejaoude", "avatar": "https://github.com/eddiejaoude.png" },
-```
+Your profile will automatically appear on the home page.
