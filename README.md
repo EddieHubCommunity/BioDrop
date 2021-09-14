@@ -43,7 +43,6 @@ Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http
 
 Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
 
-
 ### Home page profiles
 
 Your profile will automatically appear on the home page.
