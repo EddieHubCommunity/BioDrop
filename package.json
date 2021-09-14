@@ -23,7 +23,7 @@
     "prestart": "npm run generate",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
-    "build": "react-scripts build",
+    "build": "npm run generate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "node generate.js"
