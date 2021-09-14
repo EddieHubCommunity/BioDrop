@@ -1,3 +1,12 @@
+## [0.13.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.3...v0.13.4) (2021-09-14)
+
+
+### Bug Fixes
+
+* footer spacing ([0800403](https://github.com/EddieHubCommunity/LinkFree/commit/08004032dd90c3fa37dc10ae2954ebb47ff3f5e4))
+
+
+
 ## [0.13.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.2...v0.13.3) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * generate homepage list ([#168](https://github.com/EddieHubCommunity/LinkFree/issues/168)) ([e4fdb73](https://github.com/EddieHubCommunity/LinkFree/commit/e4fdb732921e569eb9d608147a4d1657e7cc07c2))
-
-
-
-## [0.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.0...v0.12.1) (2021-09-14)
-
-
-### Bug Fixes
-
-* rename username for redirect ([#163](https://github.com/EddieHubCommunity/LinkFree/issues/163)) ([cf8d5c3](https://github.com/EddieHubCommunity/LinkFree/commit/cf8d5c394603e713fa3f8661cdf5ce2aaef79c42))
 
 
 
