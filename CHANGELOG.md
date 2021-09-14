@@ -1,3 +1,12 @@
+## [0.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.0...v0.12.1) (2021-09-14)
+
+
+### Bug Fixes
+
+* rename username for redirect ([#163](https://github.com/EddieHubCommunity/LinkFree/issues/163)) ([cf8d5c3](https://github.com/EddieHubCommunity/LinkFree/commit/cf8d5c394603e713fa3f8661cdf5ce2aaef79c42))
+
+
+
 # [0.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.3...v0.12.0) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
-
-
-
-# [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
-
-
-### Features
-
-* data for vikasganiga05 ([#148](https://github.com/EddieHubCommunity/LinkFree/issues/148)) ([d614f1e](https://github.com/EddieHubCommunity/LinkFree/commit/d614f1e8da58df1a468531820b3cf70be1231ace))
 
 
 
