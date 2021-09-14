@@ -1,3 +1,12 @@
+## [0.13.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.1...v0.13.2) (2021-09-14)
+
+
+### Bug Fixes
+
+* update nhcarrigans avatar url ([#167](https://github.com/EddieHubCommunity/LinkFree/issues/167)) ([d3b56f4](https://github.com/EddieHubCommunity/LinkFree/commit/d3b56f4dc55b254dc6777ed18cc34998035d07d1))
+
+
+
 ## [0.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.0...v0.13.1) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * increase `scale` on hovering links ([#160](https://github.com/EddieHubCommunity/LinkFree/issues/160)) ([f9680e7](https://github.com/EddieHubCommunity/LinkFree/commit/f9680e7ad6ec59a1aa7735658d7ad4f4c91ec3da))
-
-
-
-## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
-
-
-### Bug Fixes
-
-* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
 
 
 
