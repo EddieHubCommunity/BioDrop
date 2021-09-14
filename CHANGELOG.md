@@ -1,3 +1,12 @@
+## [0.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.0...v0.13.1) (2021-09-14)
+
+
+### Bug Fixes
+
+* generate list ([38197fa](https://github.com/EddieHubCommunity/LinkFree/commit/38197fa7479c29e845f5cad712ba441472026c67))
+
+
+
 # [0.13.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.1...v0.13.0) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
-
-
-
-## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
-
-
-### Bug Fixes
-
-* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
 
 
 
