@@ -11,12 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.avatars {
-  margin-bottom: 1em;
-  margin-right: 1em;
-}
-
-.avatars:hover {
-  transform: scale(1.5);
-}
