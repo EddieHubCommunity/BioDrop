@@ -1,3 +1,12 @@
+# [0.13.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.1...v0.13.0) (2021-09-14)
+
+
+### Features
+
+* generate homepage list ([#168](https://github.com/EddieHubCommunity/LinkFree/issues/168)) ([e4fdb73](https://github.com/EddieHubCommunity/LinkFree/commit/e4fdb732921e569eb9d608147a4d1657e7cc07c2))
+
+
+
 ## [0.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.12.0...v0.12.1) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
-
-
-
-## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
-
-
-### Bug Fixes
-
-* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
 
 
 
