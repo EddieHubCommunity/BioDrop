@@ -20,3 +20,7 @@ code {
 .avatars:hover {
   transform: scale(1.5);
 }
+
+.alignCenter {
+  text-align: center;
+}
