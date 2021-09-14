@@ -1,0 +1,17 @@
+{
+  "name": "Ahnaf Ahamed",
+  "bio": "Front-end developer",
+  "avatar": "https://avatars.githubusercontent.com/u/42427928?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AhnafAhamed",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/eddiejaoude",
+      "icon": "twitter"
+    }
+  ]
+}
