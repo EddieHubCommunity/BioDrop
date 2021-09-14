@@ -7,6 +7,7 @@ COPY package*.json ./
 RUN npm install --ignore-scripts
 COPY . .
 
+RUN sed -i 's/0.0.0/'`npm -s run env echo '$npm_package_version'`'/g' public/app.json
 RUN npm run build
 
 FROM node:15 as production

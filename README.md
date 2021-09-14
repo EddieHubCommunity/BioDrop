@@ -10,7 +10,7 @@ Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_
 
 1. fork project
 2. clone project
-3. navigate to project directory `cd Members`
+3. navigate to project directory `cd LinkFree`
 4. install dependencies with `npm install`
 5. run `npm start`
 
@@ -37,3 +37,11 @@ Create a file `public/data/<your-username>.json` with the following structure:
   ]
 }
 ```
+
+Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http://linkfree.eddiehub.org/eddiejaoude
+
+Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
+
+### Home page profiles
+
+Your profile will automatically appear on the home page.
