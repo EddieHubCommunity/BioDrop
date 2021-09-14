@@ -1,0 +1,17 @@
+{
+  "name": "Anirudh Anup",
+  "bio": "I am Kaiwalya Koparkar, A passionate 13 year old developer from India, I am always open to collaborating on projects",
+  "avatar": "https://github.com/kaiwalyakoparkar.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/qwe123coder.png",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on polywork",
+      "url": "https://www.polywork.com/anirudh_anup",
+      "icon": "polywork"
+    }
+  ]
+}
