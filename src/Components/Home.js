@@ -12,6 +12,7 @@ function Home() {
         'https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png',
     },
   ])
+  const [showProgress, setShowProgress] = useState(true)
 
   const goToLinkHandle = (url) => {
     history.push(url)
@@ -21,6 +22,11 @@ function Home() {
     fetch('/data/_list.json')
       .then((response) => response.json())
       .then((data) => setList(data))
+      .catch((error) => {
+        console.log('Home useEffect', error)
+        alert('An error occurred please try again later')
+      })
+      .finally(() => setShowProgress(false))
   }, [])
 
   return (
@@ -34,6 +40,7 @@ function Home() {
           onClick={() => goToLinkHandle(user.username)}
         />
       ))}
+      {showProgress && <progress />}
     </div>
   )
 }
