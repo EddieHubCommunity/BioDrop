@@ -18,7 +18,7 @@ function Home() {
   }
 
   useEffect(() => {
-    fetch('/data/_list.json')
+    fetch('/list.json')
       .then((response) => response.json())
       .then((data) => setList(data))
   }, [])
