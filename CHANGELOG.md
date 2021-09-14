@@ -1,3 +1,12 @@
+## [0.13.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.2...v0.13.3) (2021-09-14)
+
+
+### Bug Fixes
+
+* home page spacing ([e8375a7](https://github.com/EddieHubCommunity/LinkFree/commit/e8375a74ee0f1a80bb60fe3f84117c1d7343bfda))
+
+
+
 ## [0.13.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.1...v0.13.2) (2021-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename username for redirect ([#163](https://github.com/EddieHubCommunity/LinkFree/issues/163)) ([cf8d5c3](https://github.com/EddieHubCommunity/LinkFree/commit/cf8d5c394603e713fa3f8661cdf5ce2aaef79c42))
-
-
-
-# [0.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.3...v0.12.0) (2021-09-14)
-
-
-### Features
-
-* increase `scale` on hovering links ([#160](https://github.com/EddieHubCommunity/LinkFree/issues/160)) ([f9680e7](https://github.com/EddieHubCommunity/LinkFree/commit/f9680e7ad6ec59a1aa7735658d7ad4f4c91ec3da))
 
 
 
