@@ -24,7 +24,7 @@ function Home() {
   }, [])
 
   return (
-    <div className="alignCenter">
+    <div>
       {list.map((user, key) => (
         <Avatar className="avatars"
           image={user.avatar}
