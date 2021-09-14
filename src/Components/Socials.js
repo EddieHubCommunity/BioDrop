@@ -21,7 +21,7 @@ function Socials() {
       .then((data) => setProfile(data))
       .catch((error) => {
         console.log('Socials useEffect', error)
-        alert('An error occurred please try again later')
+        alert('An error occurred please try again later.')
       })
   }, [username])
 

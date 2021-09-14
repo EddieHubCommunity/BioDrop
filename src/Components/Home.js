@@ -1,5 +1,6 @@
 import { Avatar } from 'primereact/avatar'
 import React, { useState, useEffect } from 'react'
+import { ProgressBar } from 'primereact/progressbar'
 
 import { useHistory } from 'react-router-dom'
 
@@ -24,7 +25,7 @@ function Home() {
       .then((data) => setList(data))
       .catch((error) => {
         console.log('Home useEffect', error)
-        alert('An error occurred please try again later')
+        alert('An error occurred please try again later.')
       })
       .finally(() => setShowProgress(false))
   }, [])
@@ -40,7 +41,7 @@ function Home() {
           onClick={() => goToLinkHandle(user.username)}
         />
       ))}
-      {showProgress && <progress />}
+      {showProgress && <ProgressBar mode="indeterminate" />}
     </div>
   )
 }

@@ -8,7 +8,7 @@ function Footer() {
       .then((data) => setVersion(data.version))
       .catch((error) => {
         console.log('Footer useEffect', error)
-        alert('An error occurred please try again later')
+        alert('An error occurred please try again later.')
       })
   }, [])
 
