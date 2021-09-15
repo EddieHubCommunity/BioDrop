@@ -14,7 +14,6 @@ Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_
 4. Install dependencies with `npm install`
 5. Run `npm start`
 
-
 ### To add your profile
 
 Create a file `public/data/<your-username>.json` with the following structure:
