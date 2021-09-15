@@ -27,7 +27,7 @@ function Home() {
     <div>
       {list.map((user, key) => (
         <Avatar
-          style={{ marginRight: '10px' }}
+          className='addMargin'
           image={user.avatar}
           key={key}
           shape="circle"
