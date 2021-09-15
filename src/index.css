@@ -17,7 +17,22 @@ code {
 }
 
 .p-button:hover {
-  transform: scale(1.02);
+  transform: scale(1.015);
+}
+
+.twitter:hover {
+  background-color: #1DA1F2 !important;
+  color: #fff !important;
+}
+
+.youtube:hover {
+  background-color: #FF0000 !important;
+  color: #fff !important;
+}
+
+.github:hover {
+  background-color: #211F1F !important;
+  color: #fff !important;
 }
 
 .p-avatar {
