@@ -1,3 +1,12 @@
+## [0.13.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.6...v0.13.7) (2021-09-15)
+
+
+### Bug Fixes
+
+* change position of profile badge ([#139](https://github.com/EddieHubCommunity/LinkFree/issues/139)) ([1c34105](https://github.com/EddieHubCommunity/LinkFree/commit/1c3410556dfe834c85d2e37cafcf090964140e50))
+
+
+
 ## [0.13.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.5...v0.13.6) (2021-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * home page spacing ([e8375a7](https://github.com/EddieHubCommunity/LinkFree/commit/e8375a74ee0f1a80bb60fe3f84117c1d7343bfda))
-
-
-
-## [0.13.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.1...v0.13.2) (2021-09-14)
-
-
-### Bug Fixes
-
-* update nhcarrigans avatar url ([#167](https://github.com/EddieHubCommunity/LinkFree/issues/167)) ([d3b56f4](https://github.com/EddieHubCommunity/LinkFree/commit/d3b56f4dc55b254dc6777ed18cc34998035d07d1))
 
 
 
