@@ -12,10 +12,18 @@ code {
     monospace;
 }
 
-.p-button{
-  transition: transform 0.33s!important;
+.p-button {
+  transition: transform 0.33s !important;
 }
 
-.p-button:hover{
+.p-button:hover {
   transform: scale(1.02);
+}
+
+.p-avatar {
+  transition: transform 0.33s !important;
+}
+
+.p-avatar:hover {
+  transform: scale(1.2);
 }

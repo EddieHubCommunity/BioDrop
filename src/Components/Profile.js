@@ -14,7 +14,7 @@ function Profile({ name, bio, avatar, total }) {
           shape="circle"
           className="p-overlay-badge"
         >
-          <Badge value={total} severity="info" />
+          <Badge value={total} severity="info" className="p-mr-2 p-mt-2"/>
         </Avatar>
         <h1 className="p-m-2">{name}</h1>
       </div>
