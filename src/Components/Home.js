@@ -26,7 +26,7 @@ function Home() {
   return (
     <div>
       {list.map((user, key) => (
-        <Avatar className="avatars"
+        <Avatar
           image={user.avatar}
           key={key}
           shape="circle"

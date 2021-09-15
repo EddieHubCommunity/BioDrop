@@ -19,12 +19,3 @@ code {
 .p-button:hover{
   transform: scale(1.02);
 }
-
-.avatars {
-  margin-bottom: 1em;
-  margin-right: 1em;
-}
-
-.avatars:hover {
-  transform: scale(1.5);
-}
