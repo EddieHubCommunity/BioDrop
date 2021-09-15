@@ -1,3 +1,12 @@
+## [0.13.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.7...v0.13.8) (2021-09-15)
+
+
+### Bug Fixes
+
+* ShaileshKumar007 data ([#178](https://github.com/EddieHubCommunity/LinkFree/issues/178)) ([7d5012a](https://github.com/EddieHubCommunity/LinkFree/commit/7d5012a153afb897dfc0bb28c727d2ced4ca628a))
+
+
+
 ## [0.13.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.6...v0.13.7) (2021-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * footer spacing ([0800403](https://github.com/EddieHubCommunity/LinkFree/commit/08004032dd90c3fa37dc10ae2954ebb47ff3f5e4))
-
-
-
-## [0.13.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.2...v0.13.3) (2021-09-14)
-
-
-### Bug Fixes
-
-* home page spacing ([e8375a7](https://github.com/EddieHubCommunity/LinkFree/commit/e8375a74ee0f1a80bb60fe3f84117c1d7343bfda))
 
 
 
