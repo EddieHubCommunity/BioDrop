@@ -1,5 +1,6 @@
-import { Avatar } from 'primereact/avatar'
 import React, { useState, useEffect } from 'react'
+
+import { Avatar } from 'primereact/avatar'
 
 import { useHistory } from 'react-router-dom'
 
@@ -18,7 +19,7 @@ function Home() {
   }
 
   useEffect(() => {
-    fetch('/data/_list.json')
+    fetch('/list.json')
       .then((response) => response.json())
       .then((data) => setList(data))
   }, [])
@@ -29,9 +30,10 @@ function Home() {
         <Avatar
           className="avatar-hover"
           image={user.avatar}
-          key={key}
+          key={`avatar-${key}`}
           shape="circle"
           size="xlarge"
+          className="p-m-2"
           onClick={() => goToLinkHandle(user.username)}
         />
       ))}

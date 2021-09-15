@@ -2,17 +2,17 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
-![Screenshot](https://user-images.githubusercontent.com/624760/132914060-a1ce5f13-d2df-4dac-8fad-345a71da7edd.png)
+![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
 
 Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_vcp-Ew
 
 ## Quickstart
 
-1. fork project
-2. clone project
-3. navigate to project directory `cd LinkFree`
-4. install dependencies with `npm install`
-5. run `npm start`
+1. Fork project
+2. Clone project
+3. Navigate to project directory `cd LinkFree`
+4. Install dependencies with `npm install`
+5. Run `npm start`
 
 ### To add your profile
 
@@ -42,10 +42,6 @@ Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http
 
 Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
 
-### Add your profile to the home page
+### Home page profiles
 
-Update the file `public/data/_list.json` with the following object to the collection:
-
-```json
-{ "username": "eddiejaoude", "avatar": "https://github.com/eddiejaoude.png" },
-```
+Your profile will automatically appear on the home page.
