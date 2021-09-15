@@ -28,12 +28,11 @@ function Home() {
     <div>
       {list.map((user, key) => (
         <Avatar
-          className="avatar-hover"
           image={user.avatar}
           key={`avatar-${key}`}
           shape="circle"
           size="xlarge"
-          className="p-m-2"
+          className="p-m-2 avatar-hover"
           onClick={() => goToLinkHandle(user.username)}
         />
       ))}
