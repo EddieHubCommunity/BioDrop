@@ -1,3 +1,12 @@
+# [0.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.14.0...v0.15.0) (2021-09-16)
+
+
+### Features
+
+* add lakshya7878 ([#194](https://github.com/EddieHubCommunity/LinkFree/issues/194)) ([dbeed0b](https://github.com/EddieHubCommunity/LinkFree/commit/dbeed0b6e0b794a12f61b6d16b44c2cec13a14cf))
+
+
+
 # [0.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.8...v0.14.0) (2021-09-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * itsarghyadas data ([#177](https://github.com/EddieHubCommunity/LinkFree/issues/177)) ([5110645](https://github.com/EddieHubCommunity/LinkFree/commit/5110645477eadd81f00782c216921587dbc8383e))
-
-
-
-## [0.13.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.4...v0.13.5) (2021-09-14)
-
-
-### Bug Fixes
-
-* Replace Member by LinkFree in contribution guidelines ([#183](https://github.com/EddieHubCommunity/LinkFree/issues/183)) ([37b37f6](https://github.com/EddieHubCommunity/LinkFree/commit/37b37f6c37291c456f6a25b4205d0a44c10ce21e))
 
 
 
