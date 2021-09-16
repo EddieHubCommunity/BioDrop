@@ -1,3 +1,12 @@
+# [0.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.8...v0.14.0) (2021-09-16)
+
+
+### Features
+
+* add MukulKolpe ([#203](https://github.com/EddieHubCommunity/LinkFree/issues/203)) ([d432069](https://github.com/EddieHubCommunity/LinkFree/commit/d43206914ea376b6f4c3c5fad9c8a4f903657fd1))
+
+
+
 ## [0.13.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.7...v0.13.8) (2021-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Replace Member by LinkFree in contribution guidelines ([#183](https://github.com/EddieHubCommunity/LinkFree/issues/183)) ([37b37f6](https://github.com/EddieHubCommunity/LinkFree/commit/37b37f6c37291c456f6a25b4205d0a44c10ce21e))
-
-
-
-## [0.13.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.3...v0.13.4) (2021-09-14)
-
-
-### Bug Fixes
-
-* footer spacing ([0800403](https://github.com/EddieHubCommunity/LinkFree/commit/08004032dd90c3fa37dc10ae2954ebb47ff3f5e4))
 
 
 
