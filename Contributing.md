@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-- Take a look at the Existing [Issues](https://github.com/EddieHubCommunity/Members/issues) or create your own Issues!
+- Take a look at the Existing [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) or create your own Issues!
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
@@ -11,19 +11,19 @@
 
 ## ⭐HOW TO MAKE A PULL REQUEST:
 
-**1.** Fork [this](https://github.com/EddieHubCommunity/Members) repository.
-Click on the <a href="https://github.com/EddieHubCommunity/Members"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+**1.** Fork [this](https://github.com/EddieHubCommunity/LinkFree) repository.
+Click on the <a href="https://github.com/EddieHubCommunity/LinkFree"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
 ```bash
-git clone https://github.com/<your-github-username>/Members
+git clone https://github.com/<your-github-username>/LinkFree
 ```
 
 **3.** Navigate to the project directory.
 
 ```bash
-cd Members
+cd LinkFree
 ```
 **5.** Create a new branch:
 ```bash
@@ -49,7 +49,7 @@ git push origin YourBranchName
 
 **8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Members](https://github.com/EddieHubCommunity/Members) project.
+**9.** **Congratulations!** Sit and relax, you've made your contribution to [LinkFree](https://github.com/EddieHubCommunity/LinkFree) project.
 
 ***:trophy: After this, project leaders and mentors will review the changes and will merge your PR if they are found good, otherwise we will suggest the required changes.***
 

@@ -11,11 +11,14 @@ function Footer() {
   return (
     <div className="p-d-flex p-jc-center p-ai-center">
       <p>
-        Contribute on{' '}
-        <a href="https://github.com/EddieHubCommunity/LinkFree">
+        <span className="p-mr-2">Contribute on</span>
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree"
+          className="p-mr-2"
+        >
           <i className="pi pi-github" aria-hidden="true"></i>
         </a>
-        v{version}
+        <span>v{version}</span>
       </p>
     </div>
   )
