@@ -1,3 +1,12 @@
+## [0.15.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.0...v0.15.1) (2021-09-16)
+
+
+### Bug Fixes
+
+* resolve mismatch numbering in steps. ([#217](https://github.com/EddieHubCommunity/LinkFree/issues/217))  ([f54a208](https://github.com/EddieHubCommunity/LinkFree/commit/f54a2089b7ccf8a3acef571a2350430692bbccfe))
+
+
+
 # [0.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.14.0...v0.15.0) (2021-09-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change position of profile badge ([#139](https://github.com/EddieHubCommunity/LinkFree/issues/139)) ([1c34105](https://github.com/EddieHubCommunity/LinkFree/commit/1c3410556dfe834c85d2e37cafcf090964140e50))
-
-
-
-## [0.13.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.5...v0.13.6) (2021-09-15)
-
-
-### Bug Fixes
-
-* itsarghyadas data ([#177](https://github.com/EddieHubCommunity/LinkFree/issues/177)) ([5110645](https://github.com/EddieHubCommunity/LinkFree/commit/5110645477eadd81f00782c216921587dbc8383e))
 
 
 
