@@ -1,0 +1,23 @@
+{
+  "name": "Shlok Mohanty",
+  "bio": "Member of EddieHub",
+  "avatar": "https://github.com/ShlokMohanty.png",
+  "links": [
+    {
+      "name": "Follow me on github",
+      "url": "http://github.com/ShlokMohanty",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mohanty_shlok",
+      "icon": "twitter"
+    }
+   {
+    "name": "Follow me on Facebook",
+    "url": "",
+    "icon": ""
+    }
+  ]
+}
+  
