@@ -1,3 +1,12 @@
+# [0.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.1...v0.16.0) (2021-09-17)
+
+
+### Features
+
+* center avatars on homepage  ([#215](https://github.com/EddieHubCommunity/LinkFree/issues/215)) ([82ced80](https://github.com/EddieHubCommunity/LinkFree/commit/82ced8075e1738c4aa4042530fbf466b6d49fbda)), closes [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#214](https://github.com/EddieHubCommunity/LinkFree/issues/214)
+
+
+
 ## [0.15.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.0...v0.15.1) (2021-09-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ShaileshKumar007 data ([#178](https://github.com/EddieHubCommunity/LinkFree/issues/178)) ([7d5012a](https://github.com/EddieHubCommunity/LinkFree/commit/7d5012a153afb897dfc0bb28c727d2ced4ca628a))
-
-
-
-## [0.13.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.6...v0.13.7) (2021-09-15)
-
-
-### Bug Fixes
-
-* change position of profile badge ([#139](https://github.com/EddieHubCommunity/LinkFree/issues/139)) ([1c34105](https://github.com/EddieHubCommunity/LinkFree/commit/1c3410556dfe834c85d2e37cafcf090964140e50))
 
 
 
