@@ -4,7 +4,7 @@
   "avatar": "https://github.com/ShlokMohanty.png",
   "links": [
     {
-      "name": "Follow me on github",
+      "name": "Follow me on Github",
       "url": "http://github.com/ShlokMohanty",
       "icon": "github"
     },
@@ -12,11 +12,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/mohanty_shlok",
       "icon": "twitter"
-    }
+    },
    {
     "name": "Follow me on Facebook",
-    "url": "",
-    "icon": ""
+    "url": "https://www.facebook.com/shlok.mohanty.35",
+    "icon": "facebook"
     }
   ]
 }
