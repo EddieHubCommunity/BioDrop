@@ -1,0 +1,27 @@
+{
+  "name": "Doni Wirawan",
+  "bio": "Junior Web Developer",
+  "avatar": "https://github.com/doniwirawan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/doniwirawan",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/eddiejaoude",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "http://instagram.com/doniwirawan",
+      "icon": "twitter"
+    },
+    {
+      "name": "My Personal Website",
+      "url": "http://www.doniwirawan.studio",
+      "icon": "website"
+    },
+  ]
+}
