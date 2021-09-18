@@ -20,18 +20,16 @@ code {
   transform: scale(1.015);
 }
 
-.twitter:hover {
-  background-color: #1DA1F2 !important;
+.p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
+  background-color: #1DA1F2;
   color: #fff !important;
 }
-
-.youtube:hover {
-  background-color: #FF0000 !important;
+.p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
+  background-color: #FF0000;
   color: #fff !important;
 }
-
-.github:hover {
-  background-color: #211F1F !important;
+.p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
+  background-color: #211F1F;
   color: #fff !important;
 }
 
