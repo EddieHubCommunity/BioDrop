@@ -8,6 +8,7 @@ function Links({ links }) {
     youtube: '#FF0000',
     twitter: '#00ACEE',
     github: '#171515',
+    linkedin: '#0a66c2',
   }
 
   const goToLinkHandle = (url) => {
