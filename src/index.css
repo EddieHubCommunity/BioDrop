@@ -27,3 +27,14 @@ code {
 .p-avatar:hover {
   transform: scale(1.2);
 }
+
+.p-d-flex{
+  max-width: 70vw;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.p-m-4{
+  padding: 40px;
+}
