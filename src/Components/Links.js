@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
+import { Avatar } from 'primereact/avatar'
 
 function Links({ links }) {
   const colors = {
@@ -27,7 +28,8 @@ function Links({ links }) {
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
+              {!link.isLinkIcon ? <i className={`pi pi-${link.icon} p-px-2`}></i> : null}
+              {link.iconLink ? <Avatar shape="circle" className='p-px-1' image={link.iconLink} /> : null}
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}
