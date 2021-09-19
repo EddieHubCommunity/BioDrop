@@ -1,3 +1,12 @@
+## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
+
+
+### Bug Fixes
+
+* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
+
+
+
 ## [0.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.0...v0.16.1) (2021-09-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add lakshya7878 ([#194](https://github.com/EddieHubCommunity/LinkFree/issues/194)) ([dbeed0b](https://github.com/EddieHubCommunity/LinkFree/commit/dbeed0b6e0b794a12f61b6d16b44c2cec13a14cf))
-
-
-
-# [0.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.8...v0.14.0) (2021-09-16)
-
-
-### Features
-
-* add MukulKolpe ([#203](https://github.com/EddieHubCommunity/LinkFree/issues/203)) ([d432069](https://github.com/EddieHubCommunity/LinkFree/commit/d43206914ea376b6f4c3c5fad9c8a4f903657fd1))
 
 
 
