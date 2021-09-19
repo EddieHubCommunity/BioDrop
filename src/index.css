@@ -31,3 +31,15 @@ code {
 .align-center {
   text-align: center;
 }
+
+.navbar a{
+  text-decoration: none;
+  color: skyblue;
+  font-size: 18px;;
+  padding-right: 20px;
+}
+.navbar{
+margin-bottom: 100px;
+background: white;
+
+}
