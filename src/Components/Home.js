@@ -23,8 +23,12 @@ function Home() {
   }, [])
 
   return (
+
     <div>
       <NavBar/>
+
+    <div className="align-center">
+
       {list.map((user, key) => (
         <Avatar
           image={user.avatar}

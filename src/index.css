@@ -37,9 +37,13 @@ code {
   padding: 6px;
   color:#333;
 }
+
 .navbar a:hover{
   color:skyblue;
   
 }
-
 /* =========Navbar End==========*/
+.align-center {
+  text-align: center;
+}
+
