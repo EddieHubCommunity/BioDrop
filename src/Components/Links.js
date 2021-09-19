@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import { Button } from 'primereact/button'
 
 function Links({ links }) {
@@ -8,6 +7,13 @@ function Links({ links }) {
     youtube: '#FF0000',
     twitter: '#00ACEE',
     github: '#171515',
+    linkedin: '#0a66c2',
+    web: '#000000',
+    tiktok: '#010101',
+    instagram: '#d02f82',
+    devto: '#000000',
+    medium: '#33f78c',
+    hashnode: '#285ff7',
   }
 
   const goToLinkHandle = (url) => {
