@@ -10,10 +10,10 @@ function Links({ links }) {
     linkedin: '#0a66c2',
     web: '#000000',
     tiktok: '#010101',
-    instagram: '#d02f82',
+    instagram: '#D02F82',
     devto: '#000000',
-    medium: '#33f78c',
-    hashnode: '#285ff7',
+    medium: '#33F78c',
+    hashnode: '#285FF7',
   }
 
   const goToLinkHandle = (url) => {
