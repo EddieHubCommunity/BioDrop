@@ -1,0 +1,17 @@
+{
+  "name": "Sajal Gupta",
+  "bio": "Full Stack Developer // CS Sophomore from India",
+  "avatar": "https://github.com/guptasajal411.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/guptasajal411",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/guptasajal411",
+      "icon": "twitter"
+    }
+  ]
+}
