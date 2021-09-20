@@ -1,0 +1,15 @@
+{
+    "name": "Sumit Mukharjee",
+    "bio": "Learning and Exploring",
+    "avatar": "https://github.com/sumitmukharjeeeeee.png",
+    "links": [{
+        "name": "Follow me on GitHub",
+        "url": "http://github.com/sumitmukharjeeeeee",
+        "icon": "github"
+    }, {
+        "name": "Follow me on Twitter",
+        "url": "http://twitter.com/SumitMukharjii",
+        "icon": "twitter"
+    }
+]
+}
