@@ -26,12 +26,12 @@ Create a file `public/data/<your-username>.json` with the following structure:
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/eddiejaoude",
+      "url": "https://github.com/eddiejaoude",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/eddiejaoude",
+      "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
     }
   ]
