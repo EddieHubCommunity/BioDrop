@@ -1,3 +1,12 @@
+## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
+
+
+### Bug Fixes
+
+* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
+
+
+
 # [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * accessibility enhancements ([#25](https://github.com/EddieHubCommunity/LinkFree/issues/25)) ([f3b5d1f](https://github.com/EddieHubCommunity/LinkFree/commit/f3b5d1f2985d11d15c5b50e5fd0e99b98eb3ca8c))
-
-
-
-# [0.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.1...v0.16.0) (2021-09-17)
-
-
-### Features
-
-* center avatars on homepage  ([#215](https://github.com/EddieHubCommunity/LinkFree/issues/215)) ([82ced80](https://github.com/EddieHubCommunity/LinkFree/commit/82ced8075e1738c4aa4042530fbf466b6d49fbda)), closes [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#214](https://github.com/EddieHubCommunity/LinkFree/issues/214)
 
 
 
