@@ -1,3 +1,12 @@
+## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
+
+
+### Bug Fixes
+
+* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
+
+
+
 ## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * resolve mismatch numbering in steps. ([#217](https://github.com/EddieHubCommunity/LinkFree/issues/217))  ([f54a208](https://github.com/EddieHubCommunity/LinkFree/commit/f54a2089b7ccf8a3acef571a2350430692bbccfe))
-
-
-
-# [0.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.14.0...v0.15.0) (2021-09-16)
-
-
-### Features
-
-* add lakshya7878 ([#194](https://github.com/EddieHubCommunity/LinkFree/issues/194)) ([dbeed0b](https://github.com/EddieHubCommunity/LinkFree/commit/dbeed0b6e0b794a12f61b6d16b44c2cec13a14cf))
 
 
 
