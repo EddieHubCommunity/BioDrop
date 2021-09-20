@@ -28,6 +28,18 @@ code {
   transform: scale(1.2);
 }
 
-.align-center {
-  text-align: center;
+.p-timeline .custom-marker {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.p-timeline .p-timeline-event-content,
+.p-timeline .p-timeline-event-opposite {
+  line-height: 1;
 }

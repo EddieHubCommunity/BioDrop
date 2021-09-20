@@ -18,7 +18,7 @@ function Home() {
   }, [])
 
   return (
-    <main className="align-center">
+    <main>
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
           <Avatar
