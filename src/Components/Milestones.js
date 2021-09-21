@@ -8,7 +8,6 @@ import { Timeline } from 'primereact/timeline'
 
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
-    console.log(url)
     window.open(url, '__blank')
   }
 
