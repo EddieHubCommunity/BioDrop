@@ -19,8 +19,8 @@ function Profile({ name, bio, avatar, total }) {
         </Avatar>
         <h1 className="p-m-2">{name}</h1>
       </div>
-      <div className="p-d-flex p-jc-center">
-        <p>{bio}</p>
+      <div className="p-d-flex p-jc-center w-50">
+        <p className="w-50" >{bio}</p>
       </div>
     </section>
   )

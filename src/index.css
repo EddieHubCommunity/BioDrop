@@ -31,3 +31,10 @@ code {
 .align-center {
   text-align: center;
 }
+
+.w-50{
+  max-width: 70vw;
+  text-align: center;
+  margin: 10px auto;
+  line-height: 30px;
+}
