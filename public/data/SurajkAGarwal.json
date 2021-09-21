@@ -5,7 +5,7 @@
     "links": [
         {
             "name": "Follow me on GitHub",
-            "url": "https://github.com/suraj-001/LinkFree",
+            "url": "https://github.com/suraj-001",
             "icon": "github"
         },
         {
@@ -14,7 +14,7 @@
             "icon": "twitter"
         },
         {
-            "name": "Subscribe to my youtube channel",
+            "name": "Subscribe to my YouTube channel",
             "url": "https://www.youtube.com/channel/UC-jJxlbde8o9U2qrpaPOPJw",
             "icon": "youtube"
         }
