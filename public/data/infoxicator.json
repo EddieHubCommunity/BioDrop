@@ -1,0 +1,22 @@
+{
+  "name": "Ruben Casas",
+  "bio": "The Micro-Frontends Guy",
+  "avatar": "https://github.com/infoxicator.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/infoxicator",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/infoxicador",
+      "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "http://youtube.com/rubencasas",
+      "icon": "youtube"
+    }
+  ]
+}

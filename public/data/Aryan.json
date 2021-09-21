@@ -1,0 +1,17 @@
+{
+  "name": "Aryan Srivastava",
+  "bio": "Android and open source enthusiast",
+  "avatar": "https://github.com/Aryan-Srivastava.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/Aryan-Srivastava",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/Aryan_Sri_",
+      "icon": "twitter"
+    }
+  ]
+}

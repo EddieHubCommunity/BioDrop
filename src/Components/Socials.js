@@ -22,7 +22,7 @@ function Socials() {
   }, [username])
 
   return (
-    <div>
+    <main>
       <Profile
         bio={profile.bio}
         avatar={profile.avatar}
@@ -30,7 +30,7 @@ function Socials() {
         total={profile.links.length}
       />
       <Links links={profile.links} />
-    </div>
+    </main>
   )
 }
 

@@ -1,0 +1,17 @@
+{
+  "name": "Shreyaans Jain",
+  "bio": "Web development enthusiast | Ug at IIT Kanpur | Open Source Contributor | Focus on getting solution real life problem through Tech",
+  "avatar": "https://github.com/shreyaansjain06.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/shreyaansjain06",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/shreyaansjain06",
+      "icon": "twitter"
+    }
+  ]
+}
