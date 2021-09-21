@@ -25,14 +25,14 @@ git clone https://github.com/<your-github-username>/LinkFree
 ```bash
 cd LinkFree
 ```
-**5.** Create a new branch:
+**4.** Create a new branch:
 ```bash
 git checkout -b YourBranchName
 ```
 
-**6.** Make changes in source code.
+**5.** Make changes in source code.
 
-**7.** Stage your changes and commit
+**6.** Stage your changes and commit
 
 ```bash
 git add .
@@ -41,7 +41,7 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**8.** Push your local commits to the remote repo.
+**7.** Push your local commits to the remote repo.
 
 ```bash
 git push origin YourBranchName

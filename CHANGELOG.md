@@ -1,45 +1,45 @@
-## [0.13.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.7...v0.13.8) (2021-09-15)
+## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
 
 
 ### Bug Fixes
 
-* ShaileshKumar007 data ([#178](https://github.com/EddieHubCommunity/LinkFree/issues/178)) ([7d5012a](https://github.com/EddieHubCommunity/LinkFree/commit/7d5012a153afb897dfc0bb28c727d2ced4ca628a))
+* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
 
 
 
-## [0.13.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.6...v0.13.7) (2021-09-15)
-
-
-### Bug Fixes
-
-* change position of profile badge ([#139](https://github.com/EddieHubCommunity/LinkFree/issues/139)) ([1c34105](https://github.com/EddieHubCommunity/LinkFree/commit/1c3410556dfe834c85d2e37cafcf090964140e50))
-
-
-
-## [0.13.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.5...v0.13.6) (2021-09-15)
+## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
 
 
 ### Bug Fixes
 
-* itsarghyadas data ([#177](https://github.com/EddieHubCommunity/LinkFree/issues/177)) ([5110645](https://github.com/EddieHubCommunity/LinkFree/commit/5110645477eadd81f00782c216921587dbc8383e))
+* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
 
 
 
-## [0.13.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.4...v0.13.5) (2021-09-14)
+# [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
+
+
+### Features
+
+* Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
+
+
+
+## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
 
 
 ### Bug Fixes
 
-* Replace Member by LinkFree in contribution guidelines ([#183](https://github.com/EddieHubCommunity/LinkFree/issues/183)) ([37b37f6](https://github.com/EddieHubCommunity/LinkFree/commit/37b37f6c37291c456f6a25b4205d0a44c10ce21e))
+* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
 
 
 
-## [0.13.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.3...v0.13.4) (2021-09-14)
+## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
 
 
 ### Bug Fixes
 
-* footer spacing ([0800403](https://github.com/EddieHubCommunity/LinkFree/commit/08004032dd90c3fa37dc10ae2954ebb47ff3f5e4))
+* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
 
 
 
