@@ -31,3 +31,13 @@ code {
 .align-center {
   text-align: center;
 }
+
+.btn-theme {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  border-radius: 50%;
+
+  background-color: grey;
+}

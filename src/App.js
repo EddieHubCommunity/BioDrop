@@ -9,11 +9,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Socials from './Components/Socials'
 import Home from './Components/Home'
+import Header from './Components/Header'
 
 function App() {
   return (
     <Router>
       <div className="p-m-4">
+        <Header/>
         <Switch>
           <Route path="/:username">
             <Socials />
