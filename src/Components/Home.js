@@ -7,7 +7,7 @@ function Home() {
     {
       username: '404',
       avatar:
-        'https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png',
+        'https://github.com/EddieHubCommunity.png',
     },
   ])
 
