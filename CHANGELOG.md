@@ -1,3 +1,12 @@
+## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
+
+
+### Bug Fixes
+
+* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
+
+
+
 ## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
-
-
-
-## [0.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.0...v0.16.1) (2021-09-19)
-
-
-### Bug Fixes
-
-* accessibility enhancements ([#25](https://github.com/EddieHubCommunity/LinkFree/issues/25)) ([f3b5d1f](https://github.com/EddieHubCommunity/LinkFree/commit/f3b5d1f2985d11d15c5b50e5fd0e99b98eb3ca8c))
 
 
 
