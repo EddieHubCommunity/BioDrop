@@ -11,35 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.p-button {
-  transition: transform 0.33s !important;
-}
-
-.p-button:hover {
-  transform: scale(1.02);
-}
-
-.p-avatar {
-  transition: transform 0.33s !important;
-}
-
-.p-avatar:hover {
-  transform: scale(1.2);
-}
-
-.p-timeline .custom-marker {
-  display: flex;
-  width: 2rem;
-  height: 2rem;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.p-timeline .p-timeline-event-content,
-.p-timeline .p-timeline-event-opposite {
-  line-height: 1;
-}

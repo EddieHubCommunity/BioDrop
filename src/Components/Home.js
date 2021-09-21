@@ -1,3 +1,5 @@
+import './Home.css'
+
 import React, { useState, useEffect } from 'react'
 
 import { Avatar } from 'primereact/avatar'
