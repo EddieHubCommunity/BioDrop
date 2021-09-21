@@ -1,3 +1,12 @@
+## [0.17.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.2...v0.17.3) (2021-09-21)
+
+
+### Bug Fixes
+
+* Use HTTPS instead of HTTP in `data/ShreeyansJain.json` ([#279](https://github.com/EddieHubCommunity/LinkFree/issues/279)) ([dfd1236](https://github.com/EddieHubCommunity/LinkFree/commit/dfd12366bcc4f98ec4f0489cd9b1050ca09306cf))
+
+
+
 ## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
-
-
-
-## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
-
-
-### Bug Fixes
-
-* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
 
 
 
