@@ -6,10 +6,9 @@ This PR fixes the following issues:
 
 #example
 
-<!-- Write down all the changes made-->
 ## Changes proposed
 
-Here comes all the changes proposed through this PR
+<!--Here comes all the changes proposed through this PR-->
 
 <!-- Check all the boxes which are applicable to check the box correct follow the following conventions-->
 <!--
@@ -26,10 +25,8 @@ Here comes all the changes proposed through this PR
 - [ ] This PR does not contain plagiarized content.
 - [ ] The title of my pull request is a short description of the requested changes.
 
-
-<!--Add screen shots of the changed output-->
 ## Screenshots 
-Add all the screenshots which support your changes
+<!--Add all the screenshots which support your changes-->
 
 ## Note to reviewers
 <!--Add a note to reviewers-->
