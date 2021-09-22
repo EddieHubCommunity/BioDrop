@@ -1,3 +1,12 @@
+## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
+
+
+### Bug Fixes
+
+* instagram color for links ([#300](https://github.com/EddieHubCommunity/LinkFree/issues/300)) ([8bc64c6](https://github.com/EddieHubCommunity/LinkFree/commit/8bc64c67ad301aa34ab7a33dd04c5bdee895da68))
+
+
+
 ## [0.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.0...v0.19.1) (2021-09-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Use HTTPS instead of HTTP in `data/ShreeyansJain.json` ([#279](https://github.com/EddieHubCommunity/LinkFree/issues/279)) ([dfd1236](https://github.com/EddieHubCommunity/LinkFree/commit/dfd12366bcc4f98ec4f0489cd9b1050ca09306cf))
-
-
-
-## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
-
-
-### Bug Fixes
-
-* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
 
 
 
