@@ -28,7 +28,7 @@ function Milestones({ milestones }) {
           src={milestone.image}
           onError={(e) =>
             (e.target.src =
-              'https://user-images.githubusercontent.com/624760/114314273-eaae0100-9af1-11eb-955a-4039657fe85a.png')
+              'https://github.com/EddieHubCommunity.png')
           }
           alt={milestone.title}
           width={100}
