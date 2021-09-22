@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react'
 function Footer() {
   const [version, setVersion] = useState('')
   useEffect(() => {
-    fetch('/app.json')
+    fetch('https://api.github.com/repos/EddieHubCommunity/LinkFree/releases')
       .then((response) => response.json())
-      .then((data) => setVersion(data.version))
+      .then((data) => setVersion(data[0].tag_name))
   }, [])
 
   return (
@@ -19,7 +19,7 @@ function Footer() {
         >
           <i className="pi pi-github" aria-hidden="true"></i>
         </a>
-        <span>v{version}</span>
+        <span>{version || 'v0.0.0'}</span>
       </p>
     </footer>
   )
