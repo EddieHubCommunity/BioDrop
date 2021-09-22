@@ -3,6 +3,7 @@ import './Milestone.css'
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
 
@@ -36,10 +37,12 @@ function Milestones({ milestones }) {
       )}
       <p>{milestone.description}</p>
       <div className="p-d-flex p-jc-end">
-        <i
-          className="pi pi-chevron-right p-px-2"
+        <Button
+          label="Learn more"
+          icon="pi pi-check"
+          className="p-button-raised p-button-rounded"
           onClick={() => goToLinkHandle(milestone.url)}
-        ></i>
+        />
       </div>
     </Card>
   )
