@@ -1,22 +1,25 @@
-# EddieHub Members
+# LinkFree - EddieHub
+
+An open-source alternative to [LinkFree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
+Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl_vcp-Ew>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
 
-Initially created on a YouTube live stream https://www.youtube.com/watch?v=Jorl_vcp-Ew
-
 ## Quickstart
 
-1. Fork project
-2. Clone project
-3. Navigate to project directory `cd LinkFree`
-4. Install dependencies with `npm install`
-5. Run `npm start`
+1. Fork the project.
+2. Clone the project.
+3. Navigate to the project directory `cd LinkFree`.
+4. Install dependencies with `npm install`.
+5. Run `npm start`.
 
-### To add your profile
+Alternatively, skip all the steps by using the [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/) system.
 
-Create a file `public/data/<your-username>.json` with the following structure:
+### How can I add my profile?
+
+Create a file named `your-username.json` in the directory `public/data` with the following content:
 
 ```json
 {
@@ -38,8 +41,7 @@ Create a file `public/data/<your-username>.json` with the following structure:
 }
 ```
 
-Your url will be `http://linkfree.eddiehub.org/<yourusername>`, for example http://linkfree.eddiehub.org/eddiejaoude
-
+Your URL will be `http://linkfree.eddiehub.org/<yourusername>`. For example: <http://linkfree.eddiehub.org/eddiejaoude>\
 Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
 
 ### Home page profiles
