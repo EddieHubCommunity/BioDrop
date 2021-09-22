@@ -25,7 +25,6 @@ function Links({ links }) {
               style={{ color: colors[link.icon] }}
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
-              p-link
               role="link"
             >
               <i className={`pi pi-${link.icon} p-px-2`}></i>
