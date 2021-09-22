@@ -1,3 +1,12 @@
+# [0.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.18.0...v0.19.0) (2021-09-22)
+
+
+### Features
+
+* Add Issue and PR Templates ([#290](https://github.com/EddieHubCommunity/LinkFree/issues/290)) ([dd98bab](https://github.com/EddieHubCommunity/LinkFree/commit/dd98bab159569276c69d714e35fe3af54d763536))
+
+
+
 # [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
-
-
-
-# [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
-
-
-### Features
-
-* Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
 
 
 
