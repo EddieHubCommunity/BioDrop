@@ -1,3 +1,12 @@
+## [0.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.0...v0.19.1) (2021-09-22)
+
+
+### Bug Fixes
+
+* Removed Firebase credentials ([#204](https://github.com/EddieHubCommunity/LinkFree/issues/204)) ([#278](https://github.com/EddieHubCommunity/LinkFree/issues/278)) ([d29f867](https://github.com/EddieHubCommunity/LinkFree/commit/d29f867a92654366b01398d9017478089f39deb4))
+
+
+
 # [0.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.18.0...v0.19.0) (2021-09-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
-
-
-
-## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
-
-
-### Bug Fixes
-
-* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
 
 
 
