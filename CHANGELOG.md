@@ -1,3 +1,12 @@
+# [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
+
+
+### Features
+
+* Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
+
+
+
 ## [0.17.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.2...v0.17.3) (2021-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
-
-
-
-## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
-
-
-### Bug Fixes
-
-* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
 
 
 
