@@ -24,3 +24,6 @@ yarn-error.log*
 
 # app
 public/list.json
+
+# yarn
+yarn.lock
