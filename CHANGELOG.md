@@ -1,45 +1,45 @@
-## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
-
-
-### Bug Fixes
-
-* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
-
-
-
-## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
-
-
-### Bug Fixes
-
-* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
-
-
-
-## [0.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.0...v0.16.1) (2021-09-19)
-
-
-### Bug Fixes
-
-* accessibility enhancements ([#25](https://github.com/EddieHubCommunity/LinkFree/issues/25)) ([f3b5d1f](https://github.com/EddieHubCommunity/LinkFree/commit/f3b5d1f2985d11d15c5b50e5fd0e99b98eb3ca8c))
-
-
-
-# [0.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.1...v0.16.0) (2021-09-17)
+# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
 
 
 ### Features
 
-* center avatars on homepage  ([#215](https://github.com/EddieHubCommunity/LinkFree/issues/215)) ([82ced80](https://github.com/EddieHubCommunity/LinkFree/commit/82ced8075e1738c4aa4042530fbf466b6d49fbda)), closes [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#214](https://github.com/EddieHubCommunity/LinkFree/issues/214)
+* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
 
 
 
-## [0.15.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.0...v0.15.1) (2021-09-16)
+## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
 
 
 ### Bug Fixes
 
-* resolve mismatch numbering in steps. ([#217](https://github.com/EddieHubCommunity/LinkFree/issues/217))  ([f54a208](https://github.com/EddieHubCommunity/LinkFree/commit/f54a2089b7ccf8a3acef571a2350430692bbccfe))
+* instagram color for links ([#300](https://github.com/EddieHubCommunity/LinkFree/issues/300)) ([8bc64c6](https://github.com/EddieHubCommunity/LinkFree/commit/8bc64c67ad301aa34ab7a33dd04c5bdee895da68))
+
+
+
+## [0.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.0...v0.19.1) (2021-09-22)
+
+
+### Bug Fixes
+
+* Removed Firebase credentials ([#204](https://github.com/EddieHubCommunity/LinkFree/issues/204)) ([#278](https://github.com/EddieHubCommunity/LinkFree/issues/278)) ([d29f867](https://github.com/EddieHubCommunity/LinkFree/commit/d29f867a92654366b01398d9017478089f39deb4))
+
+
+
+# [0.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.18.0...v0.19.0) (2021-09-22)
+
+
+### Features
+
+* Add Issue and PR Templates ([#290](https://github.com/EddieHubCommunity/LinkFree/issues/290)) ([dd98bab](https://github.com/EddieHubCommunity/LinkFree/commit/dd98bab159569276c69d714e35fe3af54d763536))
+
+
+
+# [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
+
+
+### Features
+
+* Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
 
 
 

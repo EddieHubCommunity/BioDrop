@@ -1,0 +1,17 @@
+{
+    "name": "Sejal Zambare",
+    "bio": " Hi there 😃, I am in my pre-final year of computer science engineering. I am passionate about web development and competitive coding. I am now looking for open source opportunities. Feel free to connect with me.",
+    "avatar": "https://github.com/Sejal-16.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "http://github.com/Sejal-16",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/SejalZambare",
+        "icon": "twitter"
+      }
+    ]
+}
