@@ -18,7 +18,7 @@ function Header() {
     }
   }
   const ThemeChange = () => {
-    switch (theme.backgroundColor === 'black') {
+    switch (theme.backgroundColor) {
       case 'black':
         theme.backgroundColor = 'white'
         theme.color = 'black'
