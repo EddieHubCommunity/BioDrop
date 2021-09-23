@@ -10,6 +10,9 @@ function Links({ links }) {
     github: '#171515',
     instagram: '#E4405F',
   }
+  if (localStorage.getItem('theme') === 'dark') {
+    colors.github = 'white'
+  }
 
   const goToLinkHandle = (url) => {
     window.open(url, '__blank').focus()
