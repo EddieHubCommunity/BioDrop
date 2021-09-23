@@ -5,29 +5,34 @@ function Header() {
   const theme = document.body.style
   themeCheck()
   function themeCheck() {
-    if (localStorage.getItem('theme') === 'dark') {
-      theme.backgroundColor = 'black'
-      theme.color = 'white'
-      localStorage.setItem('checked', true)
-    } else {
-      theme.backgroundColor = 'white'
-      theme.color = 'black'
-      localStorage.setItem('checked', false)
+    switch (localStorage.getItem('theme')) {
+      case 'dark':
+        theme.backgroundColor = 'black'
+        theme.color = 'white'
+        localStorage.setItem('checked', true)
+        break
+      default:
+        theme.backgroundColor = 'white'
+        theme.color = 'black'
+        localStorage.setItem('checked', false)
     }
   }
   const ThemeChange = () => {
-    if (theme.backgroundColor === 'black') {
-      theme.backgroundColor = 'white'
-      theme.color = 'black'
-      localStorage.setItem('theme', 'light')
-      localStorage.setItem('checked', false)
-    } else {
-      theme.backgroundColor = 'black'
-      theme.color = 'white'
-      localStorage.setItem('theme', 'dark')
-      localStorage.setItem('checked', true)
+    switch (theme.backgroundColor === 'black') {
+      case 'black':
+        theme.backgroundColor = 'white'
+        theme.color = 'black'
+        localStorage.setItem('theme', 'light')
+        localStorage.setItem('checked', false)
+        location.reload()
+        break
+      default:
+        theme.backgroundColor = 'black'
+        theme.color = 'white'
+        localStorage.setItem('theme', 'dark')
+        localStorage.setItem('checked', true)
+        location.reload()
     }
-    location.reload()
   }
   return (
         <div className="header">
