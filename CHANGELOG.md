@@ -1,3 +1,12 @@
+# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
+
+
+### Features
+
+* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
+
+
+
 ## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
-
-
-
-## [0.17.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.2...v0.17.3) (2021-09-21)
-
-
-### Bug Fixes
-
-* Use HTTPS instead of HTTP in `data/ShreeyansJain.json` ([#279](https://github.com/EddieHubCommunity/LinkFree/issues/279)) ([dfd1236](https://github.com/EddieHubCommunity/LinkFree/commit/dfd12366bcc4f98ec4f0489cd9b1050ca09306cf))
 
 
 
