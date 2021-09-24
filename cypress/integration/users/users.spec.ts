@@ -15,3 +15,4 @@ context('Users', () => {
       cy.get('main > section > div').should('contain.text',userData.bio)
       })
   })
+  

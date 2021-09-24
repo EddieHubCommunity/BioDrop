@@ -11,3 +11,4 @@ context('Homepage', () => {
         cy.get('main a').should('have.length.at.least',2);
     })
   })
+  
