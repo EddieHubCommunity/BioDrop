@@ -1,3 +1,12 @@
+## [0.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.0...v0.20.1) (2021-09-24)
+
+
+### Bug Fixes
+
+* add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
+
+
+
 # [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add Issue and PR Templates ([#290](https://github.com/EddieHubCommunity/LinkFree/issues/290)) ([dd98bab](https://github.com/EddieHubCommunity/LinkFree/commit/dd98bab159569276c69d714e35fe3af54d763536))
-
-
-
-# [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
-
-
-### Features
-
-* Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
 
 
 
