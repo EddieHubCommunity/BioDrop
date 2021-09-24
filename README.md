@@ -1,6 +1,6 @@
 # LinkFree - EddieHub
 
-An open-source alternative to [LinkFree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
+An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
 Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl_vcp-Ew>
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
