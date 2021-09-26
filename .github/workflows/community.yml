@@ -24,10 +24,3 @@ jobs:
           pr-message: '<h1>It''s great having you contribute to this project</h1> Welcome to the community :nerd_face:'
           footer: 'If you would like to continue contributing to open source and would like to do it with an awesome inclusive community, you should join our <a href="http://discord.eddiehub.org">Discord</a> chat and our <a href="http://github.eddiehub.org">GitHub Organisation</a> - we help and encourage each other to contribute to open source little and often 🤓 . Any questions let us know.'
 
-  statistics:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: EddieHubCommunity/gh-action-community/src/statistics@main
-        with:
-          firebase-key: ${{ secrets.FIREBASE_KEY }}

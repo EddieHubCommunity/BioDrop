@@ -1,45 +1,45 @@
-# [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
+## [0.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.0...v0.20.1) (2021-09-24)
+
+
+### Bug Fixes
+
+* add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
+
+
+
+# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
 
 
 ### Features
 
-* Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
+* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
 
 
 
-## [0.17.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.2...v0.17.3) (2021-09-21)
-
-
-### Bug Fixes
-
-* Use HTTPS instead of HTTP in `data/ShreeyansJain.json` ([#279](https://github.com/EddieHubCommunity/LinkFree/issues/279)) ([dfd1236](https://github.com/EddieHubCommunity/LinkFree/commit/dfd12366bcc4f98ec4f0489cd9b1050ca09306cf))
-
-
-
-## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
+## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
 
 
 ### Bug Fixes
 
-* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
+* instagram color for links ([#300](https://github.com/EddieHubCommunity/LinkFree/issues/300)) ([8bc64c6](https://github.com/EddieHubCommunity/LinkFree/commit/8bc64c67ad301aa34ab7a33dd04c5bdee895da68))
 
 
 
-## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
+## [0.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.0...v0.19.1) (2021-09-22)
 
 
 ### Bug Fixes
 
-* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
+* Removed Firebase credentials ([#204](https://github.com/EddieHubCommunity/LinkFree/issues/204)) ([#278](https://github.com/EddieHubCommunity/LinkFree/issues/278)) ([d29f867](https://github.com/EddieHubCommunity/LinkFree/commit/d29f867a92654366b01398d9017478089f39deb4))
 
 
 
-# [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
+# [0.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.18.0...v0.19.0) (2021-09-22)
 
 
 ### Features
 
-* Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
+* Add Issue and PR Templates ([#290](https://github.com/EddieHubCommunity/LinkFree/issues/290)) ([dd98bab](https://github.com/EddieHubCommunity/LinkFree/commit/dd98bab159569276c69d714e35fe3af54d763536))
 
 
 
