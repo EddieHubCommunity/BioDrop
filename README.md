@@ -9,11 +9,11 @@ Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl
 
 ## Quickstart
 
-1. Fork the project.
-2. Clone the project.
-3. Navigate to the project directory `cd LinkFree`.
-4. Install dependencies with `npm install`.
-5. Run `npm start`.
+1. Fork the project
+2. Clone the project
+3. Navigate to the project directory `cd LinkFree`
+4. Install dependencies with `npm install`
+5. Run `npm start`
 
 Alternatively, skip all the steps by using the [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/) system.
 
