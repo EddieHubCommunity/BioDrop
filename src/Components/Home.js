@@ -1,3 +1,5 @@
+import './Home.css'
+
 import React, { useState, useEffect } from 'react'
 
 import { Avatar } from 'primereact/avatar'
@@ -19,6 +21,7 @@ function Home() {
   }, [])
 
   return (
+
     <main className="align-center">
       <Navbar/>
       {list.map((user, key) => (
