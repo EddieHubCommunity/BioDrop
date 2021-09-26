@@ -1,3 +1,12 @@
+## [0.21.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.1...v0.21.2) (2021-09-26)
+
+
+### Bug Fixes
+
+* links width ([#208](https://github.com/EddieHubCommunity/LinkFree/issues/208)) ([9f11c54](https://github.com/EddieHubCommunity/LinkFree/commit/9f11c54987212b67d37b57df9377b67686d2776f))
+
+
+
 ## [0.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.0...v0.21.1) (2021-09-26)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
-
-
-
-## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
-
-
-### Bug Fixes
-
-* instagram color for links ([#300](https://github.com/EddieHubCommunity/LinkFree/issues/300)) ([8bc64c6](https://github.com/EddieHubCommunity/LinkFree/commit/8bc64c67ad301aa34ab7a33dd04c5bdee895da68))
 
 
 
