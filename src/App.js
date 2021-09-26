@@ -16,7 +16,7 @@ import './app.scss'
 function App() {
   return (
     <Router>
-      <div className="p-p-4 main">
+      <div className="p-p-4 main gradient-background bg-animation">
         <Switch>
           <Route path="/:username">
             <Socials />
