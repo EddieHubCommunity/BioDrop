@@ -1,0 +1,17 @@
+{
+    "name": "Utkarsh Maurya",
+    "bio": "AngelHack Student Ambassador | Computer Science student | Open-source enthusiast",
+    "avatar": "https://github.com/utkarsh1311.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "http://github.com/utkarsh1311",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "http://twitter.com/coder_utkarsh",
+        "icon": "twitter"
+      }
+    ]
+}
