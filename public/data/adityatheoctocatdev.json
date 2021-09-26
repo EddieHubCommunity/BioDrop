@@ -5,12 +5,12 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/adityatheoctocatdev",
+      "url": "https://github.com/adityatheoctocatdev",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/adptheoctcatdev",
+      "url": "https://twitter.com/adptheoctcatdev",
       "icon": "twitter"
     }
   ]
