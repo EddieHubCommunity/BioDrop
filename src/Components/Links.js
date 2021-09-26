@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Button } from 'primereact/button'
+import LinkButton from './Buttons'
 
 function Links({ links }) {
   const colors = {
@@ -21,16 +21,12 @@ function Links({ links }) {
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <Button
-              className="p-p-3 p-m-2 p-button-outlined"
-              style={{ color: colors[link.icon] }}
+            <LinkButton
               key={`link.url_${index}`}
-              onClick={() => goToLinkHandle(link.url)}
-              role="link"
-            >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
-              <span className="p-px-3">{link.name}</span>
-            </Button>
+              onClick={goToLinkHandle}
+              colors={colors}
+              link={link}
+            />
           ))}
       </div>
     </section>
