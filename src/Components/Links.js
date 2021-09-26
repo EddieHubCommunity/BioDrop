@@ -19,7 +19,7 @@ function Links({ links }) {
 
   return (
     <section className="p-d-flex p-jc-center p-mb-4">
-      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%' }}>
+      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}>
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
