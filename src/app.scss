@@ -2,44 +2,6 @@
   width: 100vw;
   height: 100vh;
 
-  &.gradient-background {
-    background: hsla(217, 100%, 50%, 1);
-
-    background: linear-gradient(
-      -45deg,
-      hsla(217, 100%, 50%, 1) 0%,
-      hsla(333, 100%, 53%, 1) 43%,
-      hsla(33, 94%, 57%, 1) 100%
-    );
-
-    background: -moz-linear-gradient(
-      -45deg,
-      hsla(217, 100%, 50%, 1) 0%,
-      hsla(333, 100%, 53%, 1) 43%,
-      hsla(33, 94%, 57%, 1) 100%
-    );
-
-    background: -webkit-linear-gradient(
-      -45deg,
-      hsla(217, 100%, 50%, 1) 0%,
-      hsla(333, 100%, 53%, 1) 43%,
-      hsla(33, 94%, 57%, 1) 100%
-    );
-  }
-  &.bg-animation {
-    background-size: 400% 400%;
-    animation: gradient 30s ease infinite;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+  background-image: url('./assets/bg.jpeg');
+  background-size: cover;
 }
