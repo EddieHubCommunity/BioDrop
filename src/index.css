@@ -22,15 +22,20 @@ code {
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
   background-color: #1DA1F2;
-  color: #fff !important;
 }
 .p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
   background-color: #FF0000;
-  color: #fff !important;
 }
 .p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
   background-color: #211F1F;
-  color: #fff !important;
+}
+
+.p-button-outlined:hover > i {
+  color: #fff;
+}
+
+.p-button-outlined:hover > span {
+  color: #fff;
 }
 
 .p-avatar {
