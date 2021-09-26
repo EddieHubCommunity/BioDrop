@@ -1,16 +1,16 @@
 {
     "name": "Yash Wankhade",
-    "bio": "Hello, I am a web developer and an open source enthusiast. ",
+    "bio": "Hello, I am a web developer and an open source enthusiast",
     "avatar": "https://github.com/yashwankhade.png",
     "links": [
       {
         "name": "Follow me on GitHub",
-        "url": "http://github.com/yashwankhade",
+        "url": "https://github.com/yashwankhade",
         "icon": "github"
       },
       {
         "name": "Follow me on Twitter",
-        "url": "http://twitter.com/CodingisCoool",
+        "url": "https://twitter.com/CodingisCoool",
         "icon": "twitter"
       }
     ]
