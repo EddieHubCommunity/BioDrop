@@ -10,10 +10,13 @@ import Footer from './Components/Footer'
 import Socials from './Components/Socials'
 import Home from './Components/Home'
 
+/** Sass styling */
+import './app.scss'
+
 function App() {
   return (
     <Router>
-      <div className="p-m-4">
+      <div className="p-p-4 main">
         <Switch>
           <Route path="/:username">
             <Socials />
