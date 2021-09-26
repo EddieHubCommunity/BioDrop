@@ -1,0 +1,7 @@
+.p-button {
+  transition: transform 0.33s !important;
+}
+
+.p-button:hover {
+  transform: scale(1.02);
+}
