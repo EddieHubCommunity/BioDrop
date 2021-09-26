@@ -21,6 +21,8 @@ Alternatively, skip all the steps by using the [![Gitpod Ready-to-Code](https://
 
 Create a file named `your-username.json` in the directory `public/data` with the following content:
 
+Optional fields: `links` and `milestones`
+
 ```json
 {
   "name": "Eddie Jaoude",
@@ -36,6 +38,46 @@ Create a file named `your-username.json` in the directory `public/data` with the
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "http://youtube.com/eddiejaoude",
+      "icon": "youtube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2010",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing again",
+      "url": "http://eddiejaoude.io"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "http://github.com/eddiejaoude.png",
+      "date": "June 2019",
+      "icon": "youtube",
+      "color": "red",
+      "description": "First real video",
+      "url": "http://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Became a GitHub Star with 30 other people",
+      "url": "http://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "http://github.com/eddiejaoude"
     }
   ]
 }
