@@ -1,3 +1,5 @@
+import './Home.css'
+
 import React, { useState, useEffect } from 'react'
 
 import { Avatar } from 'primereact/avatar'
@@ -18,7 +20,7 @@ function Home() {
   }, [])
 
   return (
-    <main className="align-center">
+    <main>
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
           <Avatar
