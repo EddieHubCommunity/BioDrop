@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
+import * as VanillaTilt from 'vanilla-tilt'
+
+import './styles.scss'
 
 const LinkButton = ({ colors, link, onClick }) => {
+  useEffect(() => {
+    VanillaTilt.init(document.querySelectorAll('.tilt'), {
+      max: 2,
+      speed: 200,
+      glare: true,
+    })
+  }, [])
+
   return (
     <Button
-      className="p-p-3 p-m-2 p-button-outlined"
+      className="p-p-3 p-m-2 p-button-outlined link-btn tilt"
       style={{ color: colors[link.icon] }}
       onClick={() => onClick(link.url)}
       role="link"
