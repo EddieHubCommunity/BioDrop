@@ -22,6 +22,7 @@ code {
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
   background-color: #1DA1F2;
+
 }
 .p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
   background-color: #FF0000;

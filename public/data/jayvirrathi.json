@@ -1,0 +1,17 @@
+{
+  "name": "Jayvir Rathi",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/Jayvirrathi.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/Jayvirrathi",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/Jayvirrathi",
+      "icon": "twitter"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+import './Links.css'
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -8,6 +10,7 @@ function Links({ links }) {
     youtube: '#FF0000',
     twitter: '#1DA1F2',
     github: '#171515',
+    instagram: '#E4405F',
   }
 
   const goToLinkHandle = (url) => {
@@ -15,8 +18,8 @@ function Links({ links }) {
   }
 
   return (
-    <div className="p-d-flex p-jc-center">
-      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%' }}>
+    <section className="p-d-flex p-jc-center p-mb-4">
+      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}>
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
@@ -25,13 +28,14 @@ function Links({ links }) {
               style={{ color: colors[link.icon] }}
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
+              role="link"
             >
               <i className={`pi pi-${link.icon} p-px-2`}></i>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}
       </div>
-    </div>
+    </section>
   )
 }
 
