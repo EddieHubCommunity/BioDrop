@@ -7,10 +7,18 @@ import { Button } from 'primereact/button'
 
 function Links({ links }) {
   const colors = {
-    youtube: '#FF0000',
-    twitter: '#00ACEE',
+    android: '#3DDC84',
+    apple: '#000000',
+    discord: '#5865F2',
+    facebook: '#1877F2',
     github: '#171515',
     instagram: '#E4405F',
+    microsoft: '#5E5E5E',
+    paypal: '#00457C',
+    slack: '#4A154B',
+    twitter: '#00ACEE',
+    vimeo: '#1AB7EA',
+    youtube: '#FF0000',
   }
 
   const goToLinkHandle = (url) => {
