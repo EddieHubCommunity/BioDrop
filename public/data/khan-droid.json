@@ -1,17 +1,17 @@
 {
-    "name": "Khalid Khan",
-    "bio": "Upcoming Full stack developer | Open source contributor",
-    "avatar": "https://github.com/khan-droid.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/khan-droid",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/khalid_khan111",
-        "icon": "twitter"
-      }
-    ]
-  }
+  "name": "Khalid Khan",
+  "bio": "Upcoming Full stack developer | Open source contributor",
+  "avatar": "https://github.com/khan-droid.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/khan-droid",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/khalid_khan111",
+      "icon": "twitter"
+    }
+  ]
+}
