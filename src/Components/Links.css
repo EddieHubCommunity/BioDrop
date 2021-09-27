@@ -5,3 +5,21 @@
 .p-button:hover {
   transform: scale(1.02);
 }
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
+  background-color: #1da1f2;
+}
+.p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
+  background-color: #ff0000;
+}
+.p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
+  background-color: #211f1f;
+}
+
+.p-button-outlined:hover > i {
+  color: #fff;
+}
+
+.p-button-outlined:hover > span {
+  color: #fff;
+}
