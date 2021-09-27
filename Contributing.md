@@ -12,7 +12,7 @@
 ## ⭐HOW TO MAKE A PULL REQUEST:
 
 **1.** Fork [this](https://github.com/EddieHubCommunity/LinkFree) repository.
-Click on the <a href="https://github.com/EddieHubCommunity/LinkFree"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
+Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/network/members"><img src="https://img.icons8.com/ios/24/32CD32/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 

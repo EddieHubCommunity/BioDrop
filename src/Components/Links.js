@@ -1,3 +1,5 @@
+import './Links.css'
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -16,14 +18,14 @@ function Links({ links }) {
   }
 
   return (
-    <section className="p-d-flex p-jc-center">
-      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%' }}>
+    <section className="p-d-flex p-jc-center p-mb-4">
+      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}>
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
             <LinkButton
               key={`link.url_${index}`}
-              onClick={goToLinkHandle}
+               onClick={goToLinkHandle}
               colors={colors}
               link={link}
             />
