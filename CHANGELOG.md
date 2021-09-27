@@ -1,3 +1,12 @@
+## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
+
+
+### Bug Fixes
+
+* refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
+
+
+
 # [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * linkedin ([#126](https://github.com/EddieHubCommunity/LinkFree/issues/126)) ([02004bb](https://github.com/EddieHubCommunity/LinkFree/commit/02004bbbdaaf4c8148efb565260659727b26f0ea))
-
-
-
-## [0.21.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.2...v0.21.3) (2021-09-27)
-
-
-### Bug Fixes
-
-* rajiv ([#125](https://github.com/EddieHubCommunity/LinkFree/issues/125)) ([9849b44](https://github.com/EddieHubCommunity/LinkFree/commit/9849b4483bb4a1a80cb57456dd5ebcbece49c77f))
 
 
 
