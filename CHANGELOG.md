@@ -1,3 +1,12 @@
+## [0.21.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.3...v0.21.4) (2021-09-27)
+
+
+### Bug Fixes
+
+* linkedin ([#126](https://github.com/EddieHubCommunity/LinkFree/issues/126)) ([02004bb](https://github.com/EddieHubCommunity/LinkFree/commit/02004bbbdaaf4c8148efb565260659727b26f0ea))
+
+
+
 ## [0.21.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.2...v0.21.3) (2021-09-27)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * milestones ([#252](https://github.com/EddieHubCommunity/LinkFree/issues/252)) ([#254](https://github.com/EddieHubCommunity/LinkFree/issues/254)) ([f3c0a60](https://github.com/EddieHubCommunity/LinkFree/commit/f3c0a60ab3047d68759cc9e99bc69db68de6e2cd))
-
-
-
-## [0.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.0...v0.20.1) (2021-09-24)
-
-
-### Bug Fixes
-
-* add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
 
 
 
