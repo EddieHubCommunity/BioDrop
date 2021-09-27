@@ -1,0 +1,22 @@
+{
+    "name": "Bhavya Wahie",
+    "bio": "Founder of EddieHub",
+    "avatar": "https://github.com/bhavyawahie.png",
+    "links": [
+    {
+        "name": "Follow here to see me talk in memes😎!",
+        "url": "https://twitter.com/bhavyawahie",
+        "icon": "twitter"
+    }, 
+    {
+        "name": "Follow and See my recent side projects on GitHub👩‍💻! ",
+        "url": "https://github.com/bhavyawahie",
+        "icon": "github"
+    },
+    {
+        "name": "Stalk me on instagram👀",
+        "url": "https://instagram.com/bhavyawahie",
+        "icon": "instagram"
+    }
+    ]
+}
