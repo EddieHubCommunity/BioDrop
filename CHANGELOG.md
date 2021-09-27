@@ -1,3 +1,12 @@
+## [0.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.1...v0.23.2) (2021-09-27)
+
+
+### Bug Fixes
+
+* manually add users ([293c6bb](https://github.com/EddieHubCommunity/LinkFree/commit/293c6bb0c1faa1b5b65dc5b303859f10de8d0f2f))
+
+
+
 ## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * error handling and loading states ([#141](https://github.com/EddieHubCommunity/LinkFree/issues/141)) ([9d6737e](https://github.com/EddieHubCommunity/LinkFree/commit/9d6737ef79651ad0acfdca955e955104a6e86235))
-
-
-
-## [0.21.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.3...v0.21.4) (2021-09-27)
-
-
-### Bug Fixes
-
-* linkedin ([#126](https://github.com/EddieHubCommunity/LinkFree/issues/126)) ([02004bb](https://github.com/EddieHubCommunity/LinkFree/commit/02004bbbdaaf4c8148efb565260659727b26f0ea))
 
 
 
