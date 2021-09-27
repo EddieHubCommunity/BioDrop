@@ -1,3 +1,12 @@
+## [0.21.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.2...v0.21.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* rajiv ([#125](https://github.com/EddieHubCommunity/LinkFree/issues/125)) ([9849b44](https://github.com/EddieHubCommunity/LinkFree/commit/9849b4483bb4a1a80cb57456dd5ebcbece49c77f))
+
+
+
 ## [0.21.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.1...v0.21.2) (2021-09-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
-
-
-
-# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
-
-
-### Features
-
-* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
 
 
 
