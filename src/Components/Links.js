@@ -32,7 +32,7 @@ function Links({ links }) {
           .map((link, index) => (
             <Button
               className="p-p-3 p-m-2 p-button-outlined"
-              style={{ color: 'white', backgroundColor: bgcolors[link.icon] }}
+              style={{ color: 'white', backgroundColor: bgcolors[link.icon], borderRadius: '50px' }}
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
               role="link"
