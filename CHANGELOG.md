@@ -1,3 +1,12 @@
+# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
+
+
+### Features
+
+* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
+
+
+
 ## [0.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.0...v0.22.1) (2021-09-27)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * rajiv ([#125](https://github.com/EddieHubCommunity/LinkFree/issues/125)) ([9849b44](https://github.com/EddieHubCommunity/LinkFree/commit/9849b4483bb4a1a80cb57456dd5ebcbece49c77f))
-
-
-
-## [0.21.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.1...v0.21.2) (2021-09-26)
-
-
-### Bug Fixes
-
-* links width ([#208](https://github.com/EddieHubCommunity/LinkFree/issues/208)) ([9f11c54](https://github.com/EddieHubCommunity/LinkFree/commit/9f11c54987212b67d37b57df9377b67686d2776f))
 
 
 
