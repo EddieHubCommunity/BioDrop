@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.p-button {
+  transition: transform 0.33s !important;
+}
+
+.p-button:hover {
+  transform: scale(1.015);
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
+  background-color: #1DA1F2;
+
+}
+.p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
+  background-color: #FF0000;
+}
+.p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
+  background-color: #211F1F;
+}
+
+.p-button-outlined:hover > i {
+  color: #fff;
+}
+
+.p-button-outlined:hover > span {
+  color: #fff;
+}
+
+.p-avatar {
+  transition: transform 0.33s !important;
+}
+
+.p-avatar:hover {
+  transform: scale(1.2);
+}
