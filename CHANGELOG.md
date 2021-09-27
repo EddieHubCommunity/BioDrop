@@ -1,3 +1,17 @@
+# [0.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.4...v0.22.0) (2021-09-27)
+
+
+### Bug Fixes
+
+* pulkitbhargava ([35105cc](https://github.com/EddieHubCommunity/LinkFree/commit/35105ccd06dd77dd459f0514301cacff141f0b46))
+
+
+### Features
+
+* error handling and loading states ([#141](https://github.com/EddieHubCommunity/LinkFree/issues/141)) ([9d6737e](https://github.com/EddieHubCommunity/LinkFree/commit/9d6737ef79651ad0acfdca955e955104a6e86235))
+
+
+
 ## [0.21.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.3...v0.21.4) (2021-09-27)
 
 
@@ -31,15 +45,6 @@
 ### Bug Fixes
 
 * Anirudh data ([#173](https://github.com/EddieHubCommunity/LinkFree/issues/173)) ([7829a36](https://github.com/EddieHubCommunity/LinkFree/commit/7829a36c3081033608872661759d4c207b6d8646))
-
-
-
-# [0.21.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.1...v0.21.0) (2021-09-26)
-
-
-### Features
-
-* milestones ([#252](https://github.com/EddieHubCommunity/LinkFree/issues/252)) ([#254](https://github.com/EddieHubCommunity/LinkFree/issues/254)) ([f3c0a60](https://github.com/EddieHubCommunity/LinkFree/commit/f3c0a60ab3047d68759cc9e99bc69db68de6e2cd))
 
 
 
