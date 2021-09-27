@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { Button } from 'primereact/button'
 import * as VanillaTilt from 'vanilla-tilt'
 
-import './styles.scss'
+import './styles.css'
 
 const LinkButton = ({ colors, link, onClick }) => {
   useEffect(() => {

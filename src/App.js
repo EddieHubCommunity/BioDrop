@@ -11,7 +11,7 @@ import Socials from './Components/Socials'
 import Home from './Components/Home'
 
 /** Sass styling */
-import './app.scss'
+import './app.css'
 
 function App() {
   return (
