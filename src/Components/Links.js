@@ -11,6 +11,7 @@ function Links({ links }) {
     twitter: '#00ACEE',
     github: '#171515',
     instagram: '#E4405F',
+    linkedin: '#0077b5',
   }
 
   const goToLinkHandle = (url) => {
