@@ -1,5 +1,6 @@
 .w-50 {
-  max-width: 50vw;
+  width: 70%;
+  max-width: 45rem;
   margin: 10px auto;
   text-align: center;
   line-height: 30px;
