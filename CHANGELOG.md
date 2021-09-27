@@ -1,3 +1,12 @@
+## [0.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.0...v0.22.1) (2021-09-27)
+
+
+### Bug Fixes
+
+* progress loader for user page ([4d6d877](https://github.com/EddieHubCommunity/LinkFree/commit/4d6d877c15f6293b48e8b5a827e65f85439b0603))
+
+
+
 # [0.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.4...v0.22.0) (2021-09-27)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * links width ([#208](https://github.com/EddieHubCommunity/LinkFree/issues/208)) ([9f11c54](https://github.com/EddieHubCommunity/LinkFree/commit/9f11c54987212b67d37b57df9377b67686d2776f))
-
-
-
-## [0.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.0...v0.21.1) (2021-09-26)
-
-
-### Bug Fixes
-
-* Anirudh data ([#173](https://github.com/EddieHubCommunity/LinkFree/issues/173)) ([7829a36](https://github.com/EddieHubCommunity/LinkFree/commit/7829a36c3081033608872661759d4c207b6d8646))
 
 
 
