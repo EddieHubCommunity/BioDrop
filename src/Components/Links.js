@@ -11,6 +11,11 @@ function Links({ links }) {
     twitter: '#00ACEE',
     github: '#171515',
     instagram: '#E4405F',
+    hashnode: '#2962FF',
+    linkedin: '#0270AD',
+    web: '#000000',
+
+    
   }
 
   const goToLinkHandle = (url) => {
