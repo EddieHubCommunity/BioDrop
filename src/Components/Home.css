@@ -1,0 +1,7 @@
+.p-avatar {
+  transition: transform 0.33s !important;
+}
+
+.p-avatar:hover {
+  transform: scale(1.2);
+}

@@ -1,26 +1,22 @@
-import { Avatar } from 'primereact/avatar'
+import './Home.css'
+
 import React, { useState, useEffect } from 'react'
 import { ProgressBar } from 'primereact/progressbar'
 
-import { useHistory } from 'react-router-dom'
+import { Avatar } from 'primereact/avatar'
 
 function Home() {
-  const history = useHistory()
   const [list, setList] = useState([
     {
-      name: '404',
+      username: '404',
       avatar:
-        'https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png',
+        'https://github.com/EddieHubCommunity.png',
     },
   ])
   const [showProgress, setShowProgress] = useState(true)
 
-  const goToLinkHandle = (url) => {
-    history.push(url)
-  }
-
   useEffect(() => {
-    fetch('/data/_list.json')
+    fetch('/list.json')
       .then((response) => response.json())
       .then((data) => setList(data))
       .catch((error) => {
@@ -31,18 +27,20 @@ function Home() {
   }, [])
 
   return (
-    <div>
+    <main>
       {list.map((user, key) => (
-        <Avatar
-          image={user.avatar}
-          key={key}
-          shape="circle"
-          size="xlarge"
-          onClick={() => goToLinkHandle(user.username)}
-        />
+        <a href={`${user.username}`} key={`avatar-${key}`}>
+          <Avatar
+            image={user.avatar}
+            shape="circle"
+            size="xlarge"
+            className="p-m-2"
+            imageAlt={user.username}
+          />
+        </a>
       ))}
       {showProgress && <ProgressBar mode="indeterminate" />}
-    </div>
+    </main>
   )
 }
 

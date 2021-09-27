@@ -1,3 +1,5 @@
+import './Profile.css'
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -6,22 +8,23 @@ import { Badge } from 'primereact/badge'
 
 function Profile({ name, bio, avatar, total }) {
   return (
-    <div>
+    <section>
       <div className="p-d-flex p-jc-center p-ai-center">
         <Avatar
           image={avatar}
+          imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
           className="p-overlay-badge"
         >
-          <Badge value={total} severity="info" />
+          <Badge value={total} severity="info" className="p-mr-2 p-mt-2" />
         </Avatar>
         <h1 className="p-m-2">{name}</h1>
       </div>
-      <div className="p-d-flex p-jc-center">
+      <div className="p-d-flex p-jc-center w-50">
         <p>{bio}</p>
       </div>
-    </div>
+    </section>
   )
 }
 

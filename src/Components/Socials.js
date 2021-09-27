@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 
 import Profile from './Profile'
 import Links from './Links'
+import Milestones from './Milestones'
 
 function Socials() {
   const { username } = useParams()
@@ -26,7 +27,7 @@ function Socials() {
   }, [username])
 
   return (
-    <div>
+    <main>
       <Profile
         bio={profile.bio}
         avatar={profile.avatar}
@@ -34,7 +35,8 @@ function Socials() {
         total={profile.links.length}
       />
       <Links links={profile.links} />
-    </div>
+      {profile.milestones && <Milestones milestones={profile.milestones} />}
+    </main>
   )
 }
 
