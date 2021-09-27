@@ -1,45 +1,50 @@
-## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
+## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
 
 
 ### Bug Fixes
 
-* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
+* refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
 
 
 
-## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
-
-
-### Bug Fixes
-
-* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
-
-
-
-# [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
+# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
 
 
 ### Features
 
-* Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
+* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
 
 
 
-## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
-
-
-### Bug Fixes
-
-* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
-
-
-
-## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
+## [0.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.0...v0.22.1) (2021-09-27)
 
 
 ### Bug Fixes
 
-* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
+* progress loader for user page ([4d6d877](https://github.com/EddieHubCommunity/LinkFree/commit/4d6d877c15f6293b48e8b5a827e65f85439b0603))
+
+
+
+# [0.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.4...v0.22.0) (2021-09-27)
+
+
+### Bug Fixes
+
+* pulkitbhargava ([35105cc](https://github.com/EddieHubCommunity/LinkFree/commit/35105ccd06dd77dd459f0514301cacff141f0b46))
+
+
+### Features
+
+* error handling and loading states ([#141](https://github.com/EddieHubCommunity/LinkFree/issues/141)) ([9d6737e](https://github.com/EddieHubCommunity/LinkFree/commit/9d6737ef79651ad0acfdca955e955104a6e86235))
+
+
+
+## [0.21.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.3...v0.21.4) (2021-09-27)
+
+
+### Bug Fixes
+
+* linkedin ([#126](https://github.com/EddieHubCommunity/LinkFree/issues/126)) ([02004bb](https://github.com/EddieHubCommunity/LinkFree/commit/02004bbbdaaf4c8148efb565260659727b26f0ea))
 
 
 
