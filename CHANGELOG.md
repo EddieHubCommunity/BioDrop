@@ -1,3 +1,12 @@
+## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+
+
+### Bug Fixes
+
+* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+
+
+
 ## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
-
-
-
-## [0.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.0...v0.22.1) (2021-09-27)
-
-
-### Bug Fixes
-
-* progress loader for user page ([4d6d877](https://github.com/EddieHubCommunity/LinkFree/commit/4d6d877c15f6293b48e8b5a827e65f85439b0603))
 
 
 
