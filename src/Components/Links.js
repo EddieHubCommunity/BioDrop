@@ -14,7 +14,6 @@ function Links({ links }) {
     hashnode: '#2962FF',
     linkedin: '#0270AD',
     web: '#000000',
-
     
   }
 
