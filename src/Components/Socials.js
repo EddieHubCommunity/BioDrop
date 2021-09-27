@@ -20,6 +20,10 @@ function Socials() {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
       .then((data) => setProfile(data))
+      .catch((error) => {
+        console.log('Socials useEffect', error)
+        alert('An error occurred please try again later.')
+      })
   }, [username])
 
   return (

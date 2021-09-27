@@ -1,6 +1,7 @@
 import './Home.css'
 
 import React, { useState, useEffect } from 'react'
+import { ProgressBar } from 'primereact/progressbar'
 
 import { Avatar } from 'primereact/avatar'
 
@@ -12,11 +13,17 @@ function Home() {
         'https://github.com/EddieHubCommunity.png',
     },
   ])
+  const [showProgress, setShowProgress] = useState(true)
 
   useEffect(() => {
     fetch('/list.json')
       .then((response) => response.json())
       .then((data) => setList(data))
+      .catch((error) => {
+        console.log('Home useEffect', error)
+        alert('An error occurred please try again later.')
+      })
+      .finally(() => setShowProgress(false))
   }, [])
 
   return (
@@ -32,6 +39,7 @@ function Home() {
           />
         </a>
       ))}
+      {showProgress && <ProgressBar mode="indeterminate" />}
     </main>
   )
 }
