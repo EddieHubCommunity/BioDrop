@@ -1,0 +1,17 @@
+{
+    "name": "Subhadip Das",
+    "bio": "Improving",
+    "avatar": "https://avatars.githubusercontent.com/u/89024718?s=400&u=ff742340a81589cb9dd85fe7c978a68c9e17ae56&v=4",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "http://github.com/Subhadiptech",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "http://twitter.com/Subhadipdhn",
+        "icon": "twitter"
+      }
+    ]
+}
