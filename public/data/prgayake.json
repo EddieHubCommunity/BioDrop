@@ -1,6 +1,6 @@
 {
   "name": "Pradyumna Gayake",
-  "bio": "Web Developer 🖥 | Passionate about coding ",
+   "bio": "Web Developer 💻 | Passionate about coding",
   "avatar": "https://github.com/prgayake.png",
   "links": [
     {
@@ -13,8 +13,6 @@
       "url": "https://mobile.twitter.com/pradyumna__g",
       "icon": "twitter"
     }
-
-    
   ],
   "milestones": [
     {
@@ -25,6 +23,5 @@
       "description": "Runner up at Microsoft Azure Developer League 🏆🎖",
       "url": "https://www.hackerearth.com/challenges/hackathon/azure-developer-league-hackathon/"
     }
-   
-  ]
+   ]
 }
