@@ -1,3 +1,12 @@
+## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
+
+
+
 ## [0.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.1...v0.23.2) (2021-09-27)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * progress loader for user page ([4d6d877](https://github.com/EddieHubCommunity/LinkFree/commit/4d6d877c15f6293b48e8b5a827e65f85439b0603))
-
-
-
-# [0.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.4...v0.22.0) (2021-09-27)
-
-
-### Bug Fixes
-
-* pulkitbhargava ([35105cc](https://github.com/EddieHubCommunity/LinkFree/commit/35105ccd06dd77dd459f0514301cacff141f0b46))
-
-
-### Features
-
-* error handling and loading states ([#141](https://github.com/EddieHubCommunity/LinkFree/issues/141)) ([9d6737e](https://github.com/EddieHubCommunity/LinkFree/commit/9d6737ef79651ad0acfdca955e955104a6e86235))
 
 
 
