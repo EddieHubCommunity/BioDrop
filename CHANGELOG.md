@@ -1,45 +1,45 @@
-## [0.21.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.1...v0.21.2) (2021-09-26)
+## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
 
 
 ### Bug Fixes
 
-* links width ([#208](https://github.com/EddieHubCommunity/LinkFree/issues/208)) ([9f11c54](https://github.com/EddieHubCommunity/LinkFree/commit/9f11c54987212b67d37b57df9377b67686d2776f))
+* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
 
 
 
-## [0.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.0...v0.21.1) (2021-09-26)
+## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
 
 
 ### Bug Fixes
 
-* Anirudh data ([#173](https://github.com/EddieHubCommunity/LinkFree/issues/173)) ([7829a36](https://github.com/EddieHubCommunity/LinkFree/commit/7829a36c3081033608872661759d4c207b6d8646))
+* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
 
 
 
-# [0.21.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.1...v0.21.0) (2021-09-26)
+## [0.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.1...v0.23.2) (2021-09-27)
+
+
+### Bug Fixes
+
+* manually add users ([293c6bb](https://github.com/EddieHubCommunity/LinkFree/commit/293c6bb0c1faa1b5b65dc5b303859f10de8d0f2f))
+
+
+
+## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
+
+
+### Bug Fixes
+
+* refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
+
+
+
+# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
 
 
 ### Features
 
-* milestones ([#252](https://github.com/EddieHubCommunity/LinkFree/issues/252)) ([#254](https://github.com/EddieHubCommunity/LinkFree/issues/254)) ([f3c0a60](https://github.com/EddieHubCommunity/LinkFree/commit/f3c0a60ab3047d68759cc9e99bc69db68de6e2cd))
-
-
-
-## [0.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.0...v0.20.1) (2021-09-24)
-
-
-### Bug Fixes
-
-* add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
-
-
-
-# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
-
-
-### Features
-
-* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
+* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
 
 
 
