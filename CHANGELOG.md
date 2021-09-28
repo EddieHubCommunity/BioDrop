@@ -1,45 +1,45 @@
-# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
-
-
-### Features
-
-* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
-
-
-
-## [0.19.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.1...v0.19.2) (2021-09-22)
+## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
 
 
 ### Bug Fixes
 
-* instagram color for links ([#300](https://github.com/EddieHubCommunity/LinkFree/issues/300)) ([8bc64c6](https://github.com/EddieHubCommunity/LinkFree/commit/8bc64c67ad301aa34ab7a33dd04c5bdee895da68))
+* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
 
 
 
-## [0.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.0...v0.19.1) (2021-09-22)
+## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
 
 
 ### Bug Fixes
 
-* Removed Firebase credentials ([#204](https://github.com/EddieHubCommunity/LinkFree/issues/204)) ([#278](https://github.com/EddieHubCommunity/LinkFree/issues/278)) ([d29f867](https://github.com/EddieHubCommunity/LinkFree/commit/d29f867a92654366b01398d9017478089f39deb4))
+* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
 
 
 
-# [0.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.18.0...v0.19.0) (2021-09-22)
+## [0.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.1...v0.23.2) (2021-09-27)
+
+
+### Bug Fixes
+
+* manually add users ([293c6bb](https://github.com/EddieHubCommunity/LinkFree/commit/293c6bb0c1faa1b5b65dc5b303859f10de8d0f2f))
+
+
+
+## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
+
+
+### Bug Fixes
+
+* refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
+
+
+
+# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
 
 
 ### Features
 
-* Add Issue and PR Templates ([#290](https://github.com/EddieHubCommunity/LinkFree/issues/290)) ([dd98bab](https://github.com/EddieHubCommunity/LinkFree/commit/dd98bab159569276c69d714e35fe3af54d763536))
-
-
-
-# [0.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.3...v0.18.0) (2021-09-22)
-
-
-### Features
-
-* Improve the `README.md` file ([#286](https://github.com/EddieHubCommunity/LinkFree/issues/286)) ([0caf108](https://github.com/EddieHubCommunity/LinkFree/commit/0caf1081dc270f555fe73aa9a30cea8df8d91757))
+* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
 
 
 

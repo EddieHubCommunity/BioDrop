@@ -6,6 +6,10 @@ function Footer() {
     fetch('/app.json')
       .then((response) => response.json())
       .then((data) => setVersion(data.version))
+      .catch((error) => {
+        console.log('Footer useEffect', error)
+        alert('An error occurred please try again later.')
+      })
   }, [])
 
   return (

@@ -1,17 +1,17 @@
 {
-    "name": "Simran Gupta",
-    "bio": "learning Web Dev and Open Source Enthusiast",
-    "avatar": "http://github.com/simrangupta234.png",
-    "links": [
-      {
-        "name": "My open source github",
-        "url": "http://github.com/simrangupta234",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/simrangupta234",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Simran Gupta",
+  "bio": "learning Web Dev and Open Source Enthusiast",
+  "avatar": "http://github.com/simrangupta234.png",
+  "links": [
+    {
+      "name": "My open source github",
+      "url": "http://github.com/simrangupta234",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/simrangupta234",
+      "icon": "twitter"
+    }
+  ]
 }
