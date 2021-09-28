@@ -12,7 +12,7 @@ function Links({ links }) {
     github: '#171515',
     instagram: '#E4405F',
     linkedin: '#0077b5',
-    discord: '5865F2',
+    discord: '#5865F2',
   }
 
   const goToLinkHandle = (url) => {
