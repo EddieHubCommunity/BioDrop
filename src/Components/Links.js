@@ -12,7 +12,7 @@ function Links({ links }) {
     github: '#171515',
     instagram: '#E4405F',
     linkedin: '#0077b5',
-    codepen:'#000000',
+    codepen: '#000000',
   }
 
   const goToLinkHandle = (url) => {
