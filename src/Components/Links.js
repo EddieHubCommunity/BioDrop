@@ -13,6 +13,7 @@ function Links({ links }) {
     facebook: '#1877F2',
     github: '#171515',
     instagram: '#E4405F',
+    linkedin: '#0077b5',
     microsoft: '#5E5E5E',
     paypal: '#00457C',
     slack: '#4A154B',
@@ -32,7 +33,7 @@ function Links({ links }) {
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
             <Button
-              className="p-p-3 p-m-2 p-button-outlined"
+              className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
