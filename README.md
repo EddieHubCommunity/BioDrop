@@ -41,7 +41,7 @@ Optional fields: `links` and `milestones`
     },
     {
       "name": "Learn more about Open Source on my YouTube channel",
-      "url": "http://youtube.com/eddiejaoude",
+      "url": "https://youtube.com/eddiejaoude",
       "icon": "youtube"
     }
   ],
@@ -52,16 +52,16 @@ Optional fields: `links` and `milestones`
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing again",
-      "url": "http://eddiejaoude.io"
+      "url": "https://www.eddiejaoude.io/"
     },
     {
       "title": "Started YouTube",
-      "image": "http://github.com/eddiejaoude.png",
+      "image": "https://github.com/eddiejaoude.png",
       "date": "June 2019",
       "icon": "youtube",
       "color": "red",
       "description": "First real video",
-      "url": "http://youtube.com/eddiejaoude"
+      "url": "https://youtube.com/eddiejaoude"
     },
     {
       "title": "GitHub Star",
@@ -69,7 +69,7 @@ Optional fields: `links` and `milestones`
       "icon": "github",
       "color": "green",
       "description": "Became a GitHub Star with 30 other people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     },
     {
       "title": "GitHub Star of the Year",
@@ -77,7 +77,7 @@ Optional fields: `links` and `milestones`
       "icon": "github",
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     }
   ]
 }
