@@ -1,3 +1,12 @@
+## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
+
+
+### Bug Fixes
+
+* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
+
+
+
 ## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
-
-
-
-# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
-
-
-### Features
-
-* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
 
 
 
