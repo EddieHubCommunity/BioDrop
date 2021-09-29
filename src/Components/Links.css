@@ -15,6 +15,12 @@
 .p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
   background-color: #211f1f;
 }
+.p-button.p-button-outlined:not(a):not(.p-disabled).linkedin:hover {
+  background-color: #0077b5;
+}
+.p-button.p-button-outlined:not(a):not(.p-disabled).instagram:hover {
+  background-color: #e4405f;
+}
 
 .p-button-outlined:hover > i {
   color: #fff;
