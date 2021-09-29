@@ -3,6 +3,13 @@
 An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
 Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl_vcp-Ew>
 
+> A note for Hacktoberfest Participants:
+> 
+> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+>
+> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
+> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
