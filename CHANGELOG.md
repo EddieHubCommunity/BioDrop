@@ -1,45 +1,45 @@
-## [0.13.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.7...v0.13.8) (2021-09-15)
+## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
 
 
 ### Bug Fixes
 
-* ShaileshKumar007 data ([#178](https://github.com/EddieHubCommunity/LinkFree/issues/178)) ([7d5012a](https://github.com/EddieHubCommunity/LinkFree/commit/7d5012a153afb897dfc0bb28c727d2ced4ca628a))
+* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
 
 
 
-## [0.13.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.6...v0.13.7) (2021-09-15)
+# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
 
 
-### Bug Fixes
+### Features
 
-* change position of profile badge ([#139](https://github.com/EddieHubCommunity/LinkFree/issues/139)) ([1c34105](https://github.com/EddieHubCommunity/LinkFree/commit/1c3410556dfe834c85d2e37cafcf090964140e50))
-
-
-
-## [0.13.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.5...v0.13.6) (2021-09-15)
-
-
-### Bug Fixes
-
-* itsarghyadas data ([#177](https://github.com/EddieHubCommunity/LinkFree/issues/177)) ([5110645](https://github.com/EddieHubCommunity/LinkFree/commit/5110645477eadd81f00782c216921587dbc8383e))
+* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
 
 
 
-## [0.13.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.4...v0.13.5) (2021-09-14)
+## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
 
 
 ### Bug Fixes
 
-* Replace Member by LinkFree in contribution guidelines ([#183](https://github.com/EddieHubCommunity/LinkFree/issues/183)) ([37b37f6](https://github.com/EddieHubCommunity/LinkFree/commit/37b37f6c37291c456f6a25b4205d0a44c10ce21e))
+* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
 
 
 
-## [0.13.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.3...v0.13.4) (2021-09-14)
+## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
 
 
 ### Bug Fixes
 
-* footer spacing ([0800403](https://github.com/EddieHubCommunity/LinkFree/commit/08004032dd90c3fa37dc10ae2954ebb47ff3f5e4))
+* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+
+
+
+## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
 
 
 
