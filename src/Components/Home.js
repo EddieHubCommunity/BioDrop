@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { ProgressBar } from 'primereact/progressbar'
 import { Avatar } from 'primereact/avatar'
 
+import Navbar from './Navbar'
 function Home() {
   const [showProgress, setShowProgress] = useState(true)
   const [list, setList] = useState([])
@@ -20,8 +21,10 @@ function Home() {
   }, [])
 
   return (
-    <main>
+    <main className="align-center">
+      <Navbar/>
       {showProgress && <ProgressBar mode="indeterminate" />}
+
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
           <Avatar
