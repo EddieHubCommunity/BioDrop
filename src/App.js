@@ -2,7 +2,7 @@ import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
 import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
-
+import Navbar from './Components/Navbar'
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -14,6 +14,7 @@ function App() {
   return (
     <Router>
       <div className="p-m-4">
+        <Navbar/>
         <Switch>
           <Route path="/:username">
             <Socials />
