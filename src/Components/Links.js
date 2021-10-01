@@ -12,6 +12,7 @@ function Links({ links }) {
     github: '#171515',
     instagram: '#E4405F',
     linkedin: '#0077b5',
+    codewars: '#ab341d',
   }
 
   const goToLinkHandle = (url) => {
@@ -26,12 +27,12 @@ function Links({ links }) {
           .map((link, index) => (
             <Button
               className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
+              style={{ color: colors[link.icon] , border: `2px solid ${colors[link.icon]}` }}
               key={`link.url_${index}`}
               onClick={() => goToLinkHandle(link.url)}
               role="link"
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
+              <i className={`fab fa-${link.icon} p-px-2`}></i>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}

@@ -9,7 +9,7 @@ import { Badge } from 'primereact/badge'
 function Profile({ name, bio, avatar, total }) {
   return (
     <section>
-      <div className="p-d-flex p-jc-center p-ai-center">
+      <div className="p-d-flex p-flex-column p-jc-center p-ai-center">
         <Avatar
           image={avatar}
           imageAlt={`Profile picture of ${name}`}

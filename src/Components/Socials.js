@@ -26,7 +26,7 @@ function Socials() {
     <main>
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
-        <>
+        <div>
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}
@@ -34,7 +34,7 @@ function Socials() {
             total={profile.links.length}
           />
           <Links links={profile.links} />
-        </>
+        </div>
       )}
       {profile.milestones && <Milestones milestones={profile.milestones} />}
     </main>

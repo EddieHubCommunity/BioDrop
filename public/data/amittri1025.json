@@ -12,6 +12,22 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/tdevamit",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UC1QfQKAq5yc9i8mdsP47fQw",
+      "icon": "youtube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/amitt.tripathii",
+      "icon": "instagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/amit-tripathi-607240202/",
+      "icon": "linkedin"
     }
+    
   ]
 }

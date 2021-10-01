@@ -1,9 +1,15 @@
 .p-button {
   transition: transform 0.33s !important;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.p-button > *{
+  text-align: center;
 }
 
 .p-button:hover {
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
@@ -15,6 +21,14 @@
 .p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
   background-color: #211f1f;
 }
+.p-button.p-button-outlined:not(a):not(.p-disabled).instagram:hover {
+  background-color: #E4405F;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).linkedin:hover {
+  background-color: #0077b5;
+}
+
 
 .p-button-outlined:hover > i {
   color: #fff;
