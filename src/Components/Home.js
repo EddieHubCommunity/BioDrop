@@ -9,7 +9,7 @@ function Home() {
   const [list, setList] = useState([])
 
   useEffect(() => {
-    const fetchData = async () => {
+    async function fetchData() {
       try {
         const response = await fetch('/list.json')
         const data = await response.json()

@@ -12,7 +12,7 @@ function Socials() {
   const [profile, setProfile] = useState({})
 
   useEffect(() => {
-    const fetchData = async () => {
+    async function fetchData() {
       try {
         const response = await fetch(`/data/${username}.json`)
         const data = await response.json()

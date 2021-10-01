@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 function Footer() {
   const [version, setVersion] = useState('')
   useEffect(() => {
-    const fetchData = async () => {
+    async function fetchData() {
       try {
         const response = await fetch('/app.json')
         const data = await response.json()
