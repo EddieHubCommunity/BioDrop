@@ -1,45 +1,45 @@
-## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
+## [0.25.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.3...v0.25.4) (2021-10-01)
 
 
 ### Bug Fixes
 
-* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
+* praveenscience ([#329](https://github.com/EddieHubCommunity/LinkFree/issues/329)) ([0190559](https://github.com/EddieHubCommunity/LinkFree/commit/0190559b047a334ac93bc56c9b613b203d5496ec))
 
 
 
-# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
+## [0.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.2...v0.25.3) (2021-10-01)
+
+
+### Bug Fixes
+
+* typo in issue template ([#381](https://github.com/EddieHubCommunity/LinkFree/issues/381)) ([c7f3032](https://github.com/EddieHubCommunity/LinkFree/commit/c7f3032dd5bf5338bd0b4172ed61e641bcdce73b))
+
+
+
+## [0.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.1...v0.25.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* milestone for yashverma.json  ([#370](https://github.com/EddieHubCommunity/LinkFree/issues/370)) ([b51da81](https://github.com/EddieHubCommunity/LinkFree/commit/b51da8170bdf3ae150b7fbf2e2adba4a6693e766))
+
+
+
+## [0.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.0...v0.25.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* sulthan ([#385](https://github.com/EddieHubCommunity/LinkFree/issues/385)) ([c0a8031](https://github.com/EddieHubCommunity/LinkFree/commit/c0a80314ce245756ce3de03f955ad05953e5aa6b))
+
+
+
+# [0.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.3...v0.25.0) (2021-10-01)
 
 
 ### Features
 
-* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
-
-
-
-## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
-
-
-### Bug Fixes
-
-* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
-
-
-
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
-
-
-### Bug Fixes
-
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
-
-
-
-## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
-
-
-### Bug Fixes
-
-* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
+* cucumber + cypress testing ([#226](https://github.com/EddieHubCommunity/LinkFree/issues/226)) ([88a9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/88a9ab23bb6abb95493029f0908008455d8ab87d)), closes [#380](https://github.com/EddieHubCommunity/LinkFree/issues/380)
 
 
 
