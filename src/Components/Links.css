@@ -4,10 +4,6 @@
   text-align: center;
 }
 
-.p-button > *{
-  text-align: center;
-}
-
 .p-button:hover {
   transform: scale(1.04);
 }
