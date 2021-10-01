@@ -1,14 +1,7 @@
 # LinkFree - EddieHub
 
-An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
-Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew)
-
-> A note for Hacktoberfest Participants:
-> 
-> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
-> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
+An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org).\
+Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
@@ -99,3 +92,12 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 ### Home page profiles
 
 Your profile will automatically appear on the home page.
+
+## Note for Hacktoberfest
+
+> A note for Hacktoberfest Participants:
+> 
+> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+>
+> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
+> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
