@@ -6,6 +6,11 @@
   transform: scale(1.02);
 }
 
+.p-button-outlined > svg {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
 .p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
   background-color: #1da1f2;
 }
@@ -16,10 +21,42 @@
   background-color: #211f1f;
 }
 
+.p-button.p-button-outlined:not(a):not(.p-disabled).facebook:hover {
+  background-color: #1877F2;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).discord:hover {
+  background-color: #5865F2;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).instagram:hover {
+  background-color: #e95950;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).linkedin:hover {
+  background-color: #0077b5;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).patreon:hover {
+  background-color: #052d49;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).slack:hover {
+  background-color: #000;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).vimeo:hover {
+  background-color: #44ace6;
+}
+
 .p-button-outlined:hover > i {
   color: #fff;
 }
 
 .p-button-outlined:hover > span {
+  color: #fff;
+}
+
+.p-button-outlined:hover > svg {
   color: #fff;
 }
