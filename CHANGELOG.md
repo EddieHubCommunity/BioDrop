@@ -1,3 +1,12 @@
+## [0.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.0...v0.25.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* sulthan ([#385](https://github.com/EddieHubCommunity/LinkFree/issues/385)) ([c0a8031](https://github.com/EddieHubCommunity/LinkFree/commit/c0a80314ce245756ce3de03f955ad05953e5aa6b))
+
+
+
 # [0.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.3...v0.25.0) (2021-10-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
-
-
-
-# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
-
-
-### Features
-
-* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
 
 
 
