@@ -13,6 +13,7 @@ function Links({ links }) {
     instagram: '#E4405F',
     linkedin: '#0077b5',
     discord: '#5865F2',
+    codewars: '#A52A2A',
   }
 
   const goToLinkHandle = (url) => {
