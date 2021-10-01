@@ -1,17 +1,17 @@
 {
-    "name": "Arghya Das",
-    "bio": "Will keep on updating along with the journey...",
-    "avatar": "https://github.com/itsarghyadas.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/itsarghyadas",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/itsarghyadas",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Arghya Das",
+  "bio": "Will keep on updating along with the journey...",
+  "avatar": "https://github.com/itsarghyadas.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/itsarghyadas",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/itsarghyadas",
+      "icon": "twitter"
+    }
+  ]
 }
