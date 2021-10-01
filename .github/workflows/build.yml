@@ -15,3 +15,15 @@ jobs:
         run: npm run lint
       - name: run build
         run: npm run build
+
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: install dependencies
+        run: npm ci
+      - name: run tests
+        run: npm run test:e2e
