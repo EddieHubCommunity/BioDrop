@@ -12,14 +12,18 @@ function Socials() {
   const [profile, setProfile] = useState({})
 
   useEffect(() => {
-    fetch(`/data/${username}.json`)
-      .then((response) => response.json())
-      .then((data) => setProfile(data))
-      .catch((error) => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`/data/${username}.json`)
+        const data = await response.json()
+        setProfile(data)
+        setShowProgress(false)
+      } catch (error) {
         console.log('Socials useEffect', error)
         alert('An error occurred please try again later.')
-      })
-      .finally(() => setShowProgress(false))
+      }
+    }
+    fetchData()
   }, [username])
 
   return (

@@ -9,14 +9,18 @@ function Home() {
   const [list, setList] = useState([])
 
   useEffect(() => {
-    fetch('/list.json')
-      .then((response) => response.json())
-      .then((data) => setList(data))
-      .catch((error) => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/list.json')
+        const data = await response.json()
+        setList(data)
+        setShowProgress(false)
+      } catch (error) {
         console.log('Home useEffect', error)
         alert('An error occurred please try again later.')
-      })
-      .finally(() => setShowProgress(false))
+      }
+    }
+    fetchData()
   }, [])
 
   return (

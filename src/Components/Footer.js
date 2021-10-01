@@ -3,13 +3,17 @@ import React, { useState, useEffect } from 'react'
 function Footer() {
   const [version, setVersion] = useState('')
   useEffect(() => {
-    fetch('/app.json')
-      .then((response) => response.json())
-      .then((data) => setVersion(data.version))
-      .catch((error) => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/app.json')
+        const data = await response.json()
+        setVersion(data.version)
+      } catch (error) {
         console.log('Footer useEffect', error)
         alert('An error occurred please try again later.')
-      })
+      }
+    }
+    fetchData()
   }, [])
 
   return (
