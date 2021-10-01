@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "0.23.4",
+  "version": "0.24.1",
   "private": false,
   "homepage": ".",
   "dependencies": {
