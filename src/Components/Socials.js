@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
 
 import Profile from './Profile'
@@ -7,7 +7,6 @@ import Links from './Links'
 import Milestones from './Milestones'
 
 function Socials() {
-  const history = useHistory()
   const [showProgress, setShowProgress] = useState(true)
   const { username } = useParams()
   const [profile, setProfile] = useState({})
@@ -28,7 +27,7 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
-          <i className="pi pi-arrow-left" style={{ cursor: 'pointer' }} onClick={() => history.goBack()}></i>
+          <Link to="/"><i className="pi pi-arrow-left"></i></Link>
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}
