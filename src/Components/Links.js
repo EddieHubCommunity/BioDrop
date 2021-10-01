@@ -10,7 +10,7 @@ function Links({ links }) {
     youtube: '#FF0000',
     twitter: '#1DA1F2',
     github: '#171515',
-    instagram: '#E4405F',
+    instagram: '#833AB4',
     linkedin: '#0077b5',
   }
 
