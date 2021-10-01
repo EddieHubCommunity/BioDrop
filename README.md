@@ -1,7 +1,7 @@
 # LinkFree - EddieHub
 
 An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
-Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl_vcp-Ew>
+Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew)
 
 > A note for Hacktoberfest Participants:
 > 
