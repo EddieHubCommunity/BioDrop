@@ -25,7 +25,7 @@ function Home() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
-          <div className = "avatar-div" data-tip= {user.username} data-for='toolTip1' data-place='bottom'>
+          <div className = "avatar-div" data-tip= {user.username} data-for='usernameTooltip' data-place='bottom'>
             <Avatar
               image={user.avatar}
               shape="circle"
@@ -34,7 +34,7 @@ function Home() {
               imageAlt={user.username}
             />
           </div>
-          <ReactTooltip id="toolTip1" />
+          <ReactTooltip id="usernameTooltip" />
         </a>
       ))}
     </main>
