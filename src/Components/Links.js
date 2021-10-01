@@ -9,9 +9,10 @@ function Links({ links }) {
   const colors = {
     youtube: '#FF0000',
     twitter: '#1DA1F2',
-    github: '#171515',
+    github: '#181717',
     instagram: '#E4405F',
-    linkedin: '#0077b5',
+    linkedin: '#0A66C2',
+    twitch: '#9146FF',
   }
 
   const goToLinkHandle = (url) => {
