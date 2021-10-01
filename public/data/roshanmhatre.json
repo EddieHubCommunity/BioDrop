@@ -12,6 +12,11 @@
       "name": "My Twitter",
       "url": "https://twitter.com/RoshanMhatre",
       "icon": "twitter"
+    },
+    {
+      "name": "My Instagram",
+      "url": "https://instagram.com/roshanmig",
+      "icon": "instagram"
     }
   ]
 }

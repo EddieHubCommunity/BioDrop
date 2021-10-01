@@ -3,6 +3,13 @@
 An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org)\
 Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl_vcp-Ew>
 
+> A note for Hacktoberfest Participants:
+> 
+> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+>
+> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
+> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
+
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
@@ -41,7 +48,7 @@ Optional fields: `links` and `milestones`
     },
     {
       "name": "Learn more about Open Source on my YouTube channel",
-      "url": "http://youtube.com/eddiejaoude",
+      "url": "https://youtube.com/eddiejaoude",
       "icon": "youtube"
     }
   ],
@@ -52,16 +59,16 @@ Optional fields: `links` and `milestones`
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing again",
-      "url": "http://eddiejaoude.io"
+      "url": "https://www.eddiejaoude.io/"
     },
     {
       "title": "Started YouTube",
-      "image": "http://github.com/eddiejaoude.png",
+      "image": "https://github.com/eddiejaoude.png",
       "date": "June 2019",
       "icon": "youtube",
       "color": "red",
       "description": "First real video",
-      "url": "http://youtube.com/eddiejaoude"
+      "url": "https://youtube.com/eddiejaoude"
     },
     {
       "title": "GitHub Star",
@@ -69,7 +76,7 @@ Optional fields: `links` and `milestones`
       "icon": "github",
       "color": "green",
       "description": "Became a GitHub Star with 30 other people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     },
     {
       "title": "GitHub Star of the Year",
@@ -77,7 +84,7 @@ Optional fields: `links` and `milestones`
       "icon": "github",
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     }
   ]
 }
