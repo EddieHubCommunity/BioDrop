@@ -7,6 +7,15 @@ Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jor
 
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
 
+## Note for Hacktoberfest
+
+> A note for Hacktoberfest Participants:
+> 
+> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+>
+> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
+> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
+
 ## Quickstart
 
 1. Fork the project
@@ -92,12 +101,3 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 ### Home page profiles
 
 Your profile will automatically appear on the home page.
-
-## Note for Hacktoberfest
-
-> A note for Hacktoberfest Participants:
-> 
-> Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
-> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
