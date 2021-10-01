@@ -24,3 +24,10 @@ yarn-error.log*
 
 # app
 public/list.json
+
+# yarn
+yarn.lock
+
+# cypress
+cypress/screenshots
+cypress/videos
