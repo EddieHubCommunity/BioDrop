@@ -1,3 +1,12 @@
+## [0.25.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.3...v0.25.4) (2021-10-01)
+
+
+### Bug Fixes
+
+* praveenscience ([#329](https://github.com/EddieHubCommunity/LinkFree/issues/329)) ([0190559](https://github.com/EddieHubCommunity/LinkFree/commit/0190559b047a334ac93bc56c9b613b203d5496ec))
+
+
+
 ## [0.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.2...v0.25.3) (2021-10-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * cucumber + cypress testing ([#226](https://github.com/EddieHubCommunity/LinkFree/issues/226)) ([88a9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/88a9ab23bb6abb95493029f0908008455d8ab87d)), closes [#380](https://github.com/EddieHubCommunity/LinkFree/issues/380)
-
-
-
-## [0.24.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.2...v0.24.3) (2021-10-01)
-
-
-### Bug Fixes
-
-* iamsunil25 ([3bed5c3](https://github.com/EddieHubCommunity/LinkFree/commit/3bed5c3f4a78d38687b6793789a48c8ae9179aca))
 
 
 
