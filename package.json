@@ -26,7 +26,14 @@
     "build": "npm run generate && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate": "node generate.js"
+    "generate": "node generate.js",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +61,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
     "prettier": "2.4.0"
   }
 }
