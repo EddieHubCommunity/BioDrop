@@ -26,35 +26,11 @@ Before installation, please make sure you have already installed following tools
 
 ## 🛠️ Installation Steps
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/EddieHubCommunity/LinkFree.git
-```
-
-2. Change the working directory
-
-```bash
-cd LinkFree
-```
-
-3. Install dependencies
-
-```bash
-npm install
-```
-
-4. Run the app
-
-```bash
-npm start
-```
-
-5. Optional : Run the tests with 
-```bash
-npm run cypress:run
-```
-
+1. Fork the project
+2. Clone the project
+3. Navigate to the project directory `cd LinkFree`
+4. Install dependencies with `npm install`
+5. Run `npm start`
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 ## 👨‍💻 Contributing
