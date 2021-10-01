@@ -1,3 +1,12 @@
+## [0.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.2...v0.25.3) (2021-10-01)
+
+
+### Bug Fixes
+
+* typo in issue template ([#381](https://github.com/EddieHubCommunity/LinkFree/issues/381)) ([c7f3032](https://github.com/EddieHubCommunity/LinkFree/commit/c7f3032dd5bf5338bd0b4172ed61e641bcdce73b))
+
+
+
 ## [0.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.1...v0.25.2) (2021-10-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * iamsunil25 ([3bed5c3](https://github.com/EddieHubCommunity/LinkFree/commit/3bed5c3f4a78d38687b6793789a48c8ae9179aca))
-
-
-
-## [0.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.1...v0.24.2) (2021-10-01)
-
-
-### Bug Fixes
-
-* Update my data ([#375](https://github.com/EddieHubCommunity/LinkFree/issues/375)) ([d390b0e](https://github.com/EddieHubCommunity/LinkFree/commit/d390b0e57e7f09e39319fa48ba85a56d7130c164))
 
 
 
