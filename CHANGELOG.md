@@ -1,3 +1,12 @@
+## [0.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.1...v0.24.2) (2021-10-01)
+
+
+### Bug Fixes
+
+* Update my data ([#375](https://github.com/EddieHubCommunity/LinkFree/issues/375)) ([d390b0e](https://github.com/EddieHubCommunity/LinkFree/commit/d390b0e57e7f09e39319fa48ba85a56d7130c164))
+
+
+
 ## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
-
-
-
-## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
-
-
-### Bug Fixes
-
-* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
 
 
 
