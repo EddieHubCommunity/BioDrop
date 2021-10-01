@@ -22,6 +22,9 @@ Initially created on a YouTube live stream <https://www.youtube.com/watch?v=Jorl
 4. Install dependencies with `npm install`
 5. Run `npm start`
 
+Optionally
+6. Run the tests with `npm run cypress:run`
+
 Alternatively, skip all the steps by using the [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/) system.
 
 ### How can I add my profile?

@@ -1,3 +1,21 @@
+# [0.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.3...v0.25.0) (2021-10-01)
+
+
+### Features
+
+* cucumber + cypress testing ([#226](https://github.com/EddieHubCommunity/LinkFree/issues/226)) ([88a9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/88a9ab23bb6abb95493029f0908008455d8ab87d)), closes [#380](https://github.com/EddieHubCommunity/LinkFree/issues/380)
+
+
+
+## [0.24.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.2...v0.24.3) (2021-10-01)
+
+
+### Bug Fixes
+
+* iamsunil25 ([3bed5c3](https://github.com/EddieHubCommunity/LinkFree/commit/3bed5c3f4a78d38687b6793789a48c8ae9179aca))
+
+
+
 ## [0.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.1...v0.24.2) (2021-10-01)
 
 
@@ -22,24 +40,6 @@
 ### Features
 
 * Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
-
-
-
-## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
-
-
-### Bug Fixes
-
-* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
-
-
-
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
-
-
-### Bug Fixes
-
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
 
 
 
