@@ -1,45 +1,45 @@
-## [0.11.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.2...v0.11.3) (2021-09-13)
+## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
 
 
 ### Bug Fixes
 
-* eddiejaoude youtube ([1435891](https://github.com/EddieHubCommunity/LinkFree/commit/1435891457d1b16ffdf664c10795c964ad3ff094))
+* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
 
 
 
-## [0.11.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.1...v0.11.2) (2021-09-13)
-
-
-### Bug Fixes
-
-* removed non-existing user ([5120a8e](https://github.com/EddieHubCommunity/LinkFree/commit/5120a8ee4aeb32702dd56c567bd3cb00aff5c2b9))
-
-
-
-## [0.11.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.11.0...v0.11.1) (2021-09-13)
-
-
-### Bug Fixes
-
-* usernames in list ([8b59842](https://github.com/EddieHubCommunity/LinkFree/commit/8b598429257f1601870b604ce14a998c46e4e20d))
-
-
-
-# [0.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.6...v0.11.0) (2021-09-13)
+# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
 
 
 ### Features
 
-* data for vikasganiga05 ([#148](https://github.com/EddieHubCommunity/LinkFree/issues/148)) ([d614f1e](https://github.com/EddieHubCommunity/LinkFree/commit/d614f1e8da58df1a468531820b3cf70be1231ace))
+* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
 
 
 
-## [0.10.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.10.5...v0.10.6) (2021-09-13)
+## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
 
 
 ### Bug Fixes
 
-* link colors and RoshanMhatre data([#150](https://github.com/EddieHubCommunity/LinkFree/issues/150)) ([f951eb0](https://github.com/EddieHubCommunity/LinkFree/commit/f951eb0315713a13fb8aa428efae7e234612ebcb))
+* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
+
+
+
+## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+
+
+### Bug Fixes
+
+* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+
+
+
+## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
 
 
 
