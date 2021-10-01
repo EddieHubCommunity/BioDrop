@@ -24,4 +24,6 @@ jobs:
         with:
           node-version: '16'
       - name: install dependencies
+        run: npm ci
+      - name: run tests
         run: npm run test:e2e
