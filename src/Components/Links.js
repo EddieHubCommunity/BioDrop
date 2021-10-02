@@ -7,7 +7,7 @@ import { Button } from 'primereact/button'
 
 function Links({ links }) {
   const colors = {
-    link: '#1a1817',
+    link: '#1A1817',
     android: '#3DDC84',
     apple: '#000000',
     discord: '#5865F2',
@@ -21,6 +21,10 @@ function Links({ links }) {
     twitter: '#00ACEE',
     vimeo: '#1AB7EA',
     youtube: '#FF0000',
+    hashnode: '#2962FF',
+    'dev.to': '#000000',
+    web: '#808080',
+    
   }
 
   const goToLinkHandle = (url) => {
