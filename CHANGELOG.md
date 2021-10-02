@@ -1,3 +1,12 @@
+## [0.25.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.5...v0.25.6) (2021-10-02)
+
+
+### Bug Fixes
+
+* Atharva Shirdhankar ([#344](https://github.com/EddieHubCommunity/LinkFree/issues/344)) ([16cf4de](https://github.com/EddieHubCommunity/LinkFree/commit/16cf4de4e54a3d7300e4eca5b9df5ede7aaa24ca))
+
+
+
 ## [0.25.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.4...v0.25.5) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * milestone for yashverma.json  ([#370](https://github.com/EddieHubCommunity/LinkFree/issues/370)) ([b51da81](https://github.com/EddieHubCommunity/LinkFree/commit/b51da8170bdf3ae150b7fbf2e2adba4a6693e766))
-
-
-
-## [0.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.0...v0.25.1) (2021-10-01)
-
-
-### Bug Fixes
-
-* sulthan ([#385](https://github.com/EddieHubCommunity/LinkFree/issues/385)) ([c0a8031](https://github.com/EddieHubCommunity/LinkFree/commit/c0a80314ce245756ce3de03f955ad05953e5aa6b))
 
 
 
