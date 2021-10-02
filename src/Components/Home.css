@@ -5,3 +5,13 @@
 .p-avatar:hover {
   transform: scale(1.2);
 }
+
+.avatar-div{
+  display : inline
+}
+.usernameTooltip{
+   
+    border: none;
+  
+    
+}
