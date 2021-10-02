@@ -1,3 +1,12 @@
+## [0.25.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.8...v0.25.9) (2021-10-02)
+
+
+### Bug Fixes
+
+* hover linkedin, insta links ([#352](https://github.com/EddieHubCommunity/LinkFree/issues/352)) ([08c970c](https://github.com/EddieHubCommunity/LinkFree/commit/08c970c7c09d781a7881f9ca7c12a203382c1a6c))
+
+
+
 ## [0.25.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.7...v0.25.8) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * link types ([#331](https://github.com/EddieHubCommunity/LinkFree/issues/331)) ([c412cf9](https://github.com/EddieHubCommunity/LinkFree/commit/c412cf9f1433c80b35e54a84d69d1ab083c56a37))
-
-
-
-## [0.25.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.3...v0.25.4) (2021-10-01)
-
-
-### Bug Fixes
-
-* praveenscience ([#329](https://github.com/EddieHubCommunity/LinkFree/issues/329)) ([0190559](https://github.com/EddieHubCommunity/LinkFree/commit/0190559b047a334ac93bc56c9b613b203d5496ec))
 
 
 
