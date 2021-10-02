@@ -1,45 +1,45 @@
-## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
+## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
 
 
 ### Bug Fixes
 
-* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
+* linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
 
 
 
-# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
+# [0.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.9...v0.26.0) (2021-10-02)
 
 
 ### Features
 
-* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
+* back button to list page ([#359](https://github.com/EddieHubCommunity/LinkFree/issues/359)) ([bb4f8c0](https://github.com/EddieHubCommunity/LinkFree/commit/bb4f8c0d79db631fd9abf687578c5e5fb3f392e2))
 
 
 
-## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
-
-
-### Bug Fixes
-
-* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
-
-
-
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+## [0.25.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.8...v0.25.9) (2021-10-02)
 
 
 ### Bug Fixes
 
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+* hover linkedin, insta links ([#352](https://github.com/EddieHubCommunity/LinkFree/issues/352)) ([08c970c](https://github.com/EddieHubCommunity/LinkFree/commit/08c970c7c09d781a7881f9ca7c12a203382c1a6c))
 
 
 
-## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
+## [0.25.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.7...v0.25.8) (2021-10-02)
 
 
 ### Bug Fixes
 
-* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
+* eddiejaoude linkedin ([f1bb2e8](https://github.com/EddieHubCommunity/LinkFree/commit/f1bb2e848d7f27d7e323c97be899c602301b60e9))
+
+
+
+## [0.25.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.6...v0.25.7) (2021-10-02)
+
+
+### Bug Fixes
+
+* kulkarnigaurav38 ([#334](https://github.com/EddieHubCommunity/LinkFree/issues/334)) ([8f1c533](https://github.com/EddieHubCommunity/LinkFree/commit/8f1c533074b6af2cbf4c82b3d4c2c81f38371371))
 
 
 
