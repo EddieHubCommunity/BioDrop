@@ -1,45 +1,45 @@
-## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
-
-
-### Bug Fixes
-
-* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
-
-
-
-# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
+# [0.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.3...v0.27.0) (2021-10-02)
 
 
 ### Features
 
-* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
+* tooltip to display username ([#96](https://github.com/EddieHubCommunity/LinkFree/issues/96)) ([0012077](https://github.com/EddieHubCommunity/LinkFree/commit/0012077b1a5642788302eb4ca10adf46e24bf18f))
 
 
 
-## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
-
-
-### Bug Fixes
-
-* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
-
-
-
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+## [0.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.2...v0.26.3) (2021-10-02)
 
 
 ### Bug Fixes
 
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+* removed duplicate ([#378](https://github.com/EddieHubCommunity/LinkFree/issues/378)) ([364351a](https://github.com/EddieHubCommunity/LinkFree/commit/364351af1cde6aed478b99d104056db9b9d5942a))
 
 
 
-## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
+## [0.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.1...v0.26.2) (2021-10-02)
 
 
 ### Bug Fixes
 
-* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
+* default link colours ([#368](https://github.com/EddieHubCommunity/LinkFree/issues/368)) ([7294cac](https://github.com/EddieHubCommunity/LinkFree/commit/7294cace112fcb2908b1f9704759956a382b5403))
+
+
+
+## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
+
+
+### Bug Fixes
+
+* linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
+
+
+
+# [0.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.9...v0.26.0) (2021-10-02)
+
+
+### Features
+
+* back button to list page ([#359](https://github.com/EddieHubCommunity/LinkFree/issues/359)) ([bb4f8c0](https://github.com/EddieHubCommunity/LinkFree/commit/bb4f8c0d79db631fd9abf687578c5e5fb3f392e2))
 
 
 
