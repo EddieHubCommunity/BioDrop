@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
 
 import Profile from './Profile'
@@ -27,6 +27,7 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
+          <Link to="/"><i className="pi pi-arrow-left"></i></Link>
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}
