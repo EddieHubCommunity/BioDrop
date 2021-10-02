@@ -1,3 +1,12 @@
+## [0.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.1...v0.26.2) (2021-10-02)
+
+
+### Bug Fixes
+
+* default link colours ([#368](https://github.com/EddieHubCommunity/LinkFree/issues/368)) ([7294cac](https://github.com/EddieHubCommunity/LinkFree/commit/7294cace112fcb2908b1f9704759956a382b5403))
+
+
+
 ## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * eddiejaoude linkedin ([f1bb2e8](https://github.com/EddieHubCommunity/LinkFree/commit/f1bb2e848d7f27d7e323c97be899c602301b60e9))
-
-
-
-## [0.25.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.6...v0.25.7) (2021-10-02)
-
-
-### Bug Fixes
-
-* kulkarnigaurav38 ([#334](https://github.com/EddieHubCommunity/LinkFree/issues/334)) ([8f1c533](https://github.com/EddieHubCommunity/LinkFree/commit/8f1c533074b6af2cbf4c82b3d4c2c81f38371371))
 
 
 
