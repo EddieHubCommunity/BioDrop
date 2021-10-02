@@ -1,45 +1,45 @@
-## [0.17.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.1...v0.17.2) (2021-09-21)
-
-
-### Bug Fixes
-
-* add ShreyaansJain.json ([#234](https://github.com/EddieHubCommunity/LinkFree/issues/234)) ([2a48cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2a48cb53106309a8fd84b0978daf4bbd854cee49))
-
-
-
-## [0.17.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.17.0...v0.17.1) (2021-09-20)
-
-
-### Bug Fixes
-
-* formatting issues in all profiles ([#263](https://github.com/EddieHubCommunity/LinkFree/issues/263)) ([230d603](https://github.com/EddieHubCommunity/LinkFree/commit/230d603f641cbf6eb611b8b5d0235b0e00ee4586))
-
-
-
-# [0.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.3...v0.17.0) (2021-09-20)
+# [0.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.3...v0.27.0) (2021-10-02)
 
 
 ### Features
 
-* Use HTTPS instead of HTTP ([#269](https://github.com/EddieHubCommunity/LinkFree/issues/269)) ([af13f75](https://github.com/EddieHubCommunity/LinkFree/commit/af13f75ae4df08e420b39a3e0e9fffd09e8f4164))
+* tooltip to display username ([#96](https://github.com/EddieHubCommunity/LinkFree/issues/96)) ([0012077](https://github.com/EddieHubCommunity/LinkFree/commit/0012077b1a5642788302eb4ca10adf46e24bf18f))
 
 
 
-## [0.16.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.2...v0.16.3) (2021-09-20)
-
-
-### Bug Fixes
-
-* infoxicator user ([#253](https://github.com/EddieHubCommunity/LinkFree/issues/253)) ([bda6dcb](https://github.com/EddieHubCommunity/LinkFree/commit/bda6dcba11b94eb996a7ca61e66090234ec16da5))
-
-
-
-## [0.16.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.16.1...v0.16.2) (2021-09-19)
+## [0.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.2...v0.26.3) (2021-10-02)
 
 
 ### Bug Fixes
 
-* avatar to .png url  ([#120](https://github.com/EddieHubCommunity/LinkFree/issues/120)) ([0bf8c2b](https://github.com/EddieHubCommunity/LinkFree/commit/0bf8c2b160b9f22b7f0bcb21ccd2637b65dea456))
+* removed duplicate ([#378](https://github.com/EddieHubCommunity/LinkFree/issues/378)) ([364351a](https://github.com/EddieHubCommunity/LinkFree/commit/364351af1cde6aed478b99d104056db9b9d5942a))
+
+
+
+## [0.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.1...v0.26.2) (2021-10-02)
+
+
+### Bug Fixes
+
+* default link colours ([#368](https://github.com/EddieHubCommunity/LinkFree/issues/368)) ([7294cac](https://github.com/EddieHubCommunity/LinkFree/commit/7294cace112fcb2908b1f9704759956a382b5403))
+
+
+
+## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
+
+
+### Bug Fixes
+
+* linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
+
+
+
+# [0.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.9...v0.26.0) (2021-10-02)
+
+
+### Features
+
+* back button to list page ([#359](https://github.com/EddieHubCommunity/LinkFree/issues/359)) ([bb4f8c0](https://github.com/EddieHubCommunity/LinkFree/commit/bb4f8c0d79db631fd9abf687578c5e5fb3f392e2))
 
 
 
