@@ -1,3 +1,12 @@
+## [0.27.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.0...v0.27.1) (2021-10-02)
+
+
+### Bug Fixes
+
+* removed tooltip ([18e2310](https://github.com/EddieHubCommunity/LinkFree/commit/18e2310d868bb94a349936fd8f5374a86e8085de))
+
+
+
 # [0.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.3...v0.27.0) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
-
-
-
-# [0.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.9...v0.26.0) (2021-10-02)
-
-
-### Features
-
-* back button to list page ([#359](https://github.com/EddieHubCommunity/LinkFree/issues/359)) ([bb4f8c0](https://github.com/EddieHubCommunity/LinkFree/commit/bb4f8c0d79db631fd9abf687578c5e5fb3f392e2))
 
 
 
