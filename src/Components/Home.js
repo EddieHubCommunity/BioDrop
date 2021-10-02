@@ -1,8 +1,9 @@
 import './Home.css'
 
-import React, { useState, useEffect } from 'react'
-import { ProgressBar } from 'primereact/progressbar'
+import React, { useEffect, useState } from 'react'
+
 import { Avatar } from 'primereact/avatar'
+import { ProgressBar } from 'primereact/progressbar'
 
 function Home() {
   const [showProgress, setShowProgress] = useState(true)
@@ -11,6 +12,7 @@ function Home() {
   useEffect(() => {
     fetch('/list.json')
       .then((response) => response.json())
+      .then((data) => data.sort((a, b) => a.username.localeCompare(b.username)))
       .then((data) => setList(data))
       .catch((error) => {
         console.log('Home useEffect', error)
