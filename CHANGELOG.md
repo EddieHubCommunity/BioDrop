@@ -1,3 +1,12 @@
+# [0.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.3...v0.27.0) (2021-10-02)
+
+
+### Features
+
+* tooltip to display username ([#96](https://github.com/EddieHubCommunity/LinkFree/issues/96)) ([0012077](https://github.com/EddieHubCommunity/LinkFree/commit/0012077b1a5642788302eb4ca10adf46e24bf18f))
+
+
+
 ## [0.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.2...v0.26.3) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * back button to list page ([#359](https://github.com/EddieHubCommunity/LinkFree/issues/359)) ([bb4f8c0](https://github.com/EddieHubCommunity/LinkFree/commit/bb4f8c0d79db631fd9abf687578c5e5fb3f392e2))
-
-
-
-## [0.25.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.8...v0.25.9) (2021-10-02)
-
-
-### Bug Fixes
-
-* hover linkedin, insta links ([#352](https://github.com/EddieHubCommunity/LinkFree/issues/352)) ([08c970c](https://github.com/EddieHubCommunity/LinkFree/commit/08c970c7c09d781a7881f9ca7c12a203382c1a6c))
 
 
 
