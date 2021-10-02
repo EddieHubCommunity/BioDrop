@@ -1,21 +1,22 @@
 {
-    "name": "Anjan Diyora",
-    "bio": "OpenSource Contributer",
-    "avatar": "https://pbs.twimg.com/profile_images/1436745815016435722/82aOCq7m_400x400.jpg",
-    "links": [{
-            "name": "Follow me on GitHub",
-            "url": "https://github.com/Anjan50",
-            "icon": "github"
-        },
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/DiyoraAnjan",
-            "icon": "twitter"
-        },
-        {
-            "name": "My YouTube channel",
-            "url": "https://youtube.com/AnjanDiyora",
-            "icon": "youtube"
-        }
-    ]
+  "name": "Anjan Diyora",
+  "bio": "OpenSource Contributer",
+  "avatar": "https://pbs.twimg.com/profile_images/1436745815016435722/82aOCq7m_400x400.jpg",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Anjan50",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DiyoraAnjan",
+      "icon": "twitter"
+    },
+    {
+      "name": "My YouTube channel",
+      "url": "https://youtube.com/AnjanDiyora",
+      "icon": "youtube"
+    }
+  ]
 }
