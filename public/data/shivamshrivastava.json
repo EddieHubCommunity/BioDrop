@@ -1,0 +1,23 @@
+{
+    "name": "Shivam Shrivastava",
+    "bio": "Python | ML | Flutter",
+    "avatar": "https://github.com/Shivam-Shrivastav.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "http://github.com/Shivam-Shrivastav",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "http://twitter.com/ShivamsTwt",
+        "icon": "twitter"
+      },
+      {
+        "name": "Connect with me on LinkedIn",
+        "url": "https://www.linkedin.com/in/shivam-shrivastava-1ab2841a3/",
+        "icon": "linkedin.com"
+      }
+    ]
+  }
+  
