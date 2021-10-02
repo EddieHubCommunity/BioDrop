@@ -1,3 +1,12 @@
+## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
+
+
+### Bug Fixes
+
+* linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
+
+
+
 # [0.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.9...v0.26.0) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kulkarnigaurav38 ([#334](https://github.com/EddieHubCommunity/LinkFree/issues/334)) ([8f1c533](https://github.com/EddieHubCommunity/LinkFree/commit/8f1c533074b6af2cbf4c82b3d4c2c81f38371371))
-
-
-
-## [0.25.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.5...v0.25.6) (2021-10-02)
-
-
-### Bug Fixes
-
-* Atharva Shirdhankar ([#344](https://github.com/EddieHubCommunity/LinkFree/issues/344)) ([16cf4de](https://github.com/EddieHubCommunity/LinkFree/commit/16cf4de4e54a3d7300e4eca5b9df5ede7aaa24ca))
 
 
 
