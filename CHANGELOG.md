@@ -1,3 +1,12 @@
+## [0.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.2...v0.26.3) (2021-10-02)
+
+
+### Bug Fixes
+
+* removed duplicate ([#378](https://github.com/EddieHubCommunity/LinkFree/issues/378)) ([364351a](https://github.com/EddieHubCommunity/LinkFree/commit/364351af1cde6aed478b99d104056db9b9d5942a))
+
+
+
 ## [0.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.1...v0.26.2) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hover linkedin, insta links ([#352](https://github.com/EddieHubCommunity/LinkFree/issues/352)) ([08c970c](https://github.com/EddieHubCommunity/LinkFree/commit/08c970c7c09d781a7881f9ca7c12a203382c1a6c))
-
-
-
-## [0.25.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.7...v0.25.8) (2021-10-02)
-
-
-### Bug Fixes
-
-* eddiejaoude linkedin ([f1bb2e8](https://github.com/EddieHubCommunity/LinkFree/commit/f1bb2e848d7f27d7e323c97be899c602301b60e9))
 
 
 
