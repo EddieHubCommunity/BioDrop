@@ -1,7 +1,7 @@
 {
   "name": "Sanjay KV",
   "bio": "Founder of Recode Hive",
-  "avatar": "https://avatars.githubusercontent.com/u/30715153?v=4",
+  "avatar": "https://github.com/sanjay-kv.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -14,14 +14,19 @@
       "icon": "twitter"
     },
     {
-      "name": "Learn more about Open Source on my YouTube channel",
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sanjay-k-v/",
+      "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Data Science From my YouTube channel",
       "url": "https://www.youtube.com/channel/UCzyGIdENFVT36Yx4zTws4kw",
       "icon": "youtube"
     }
   ],
   "milestones": [
     {
-      "title": "Started Content Creation",
+      "title": "Founder",
       "date": "May 2021",
       "icon": "dollar",
       "color": "grey",
@@ -29,29 +34,21 @@
       "url": "https://recodehive.com/"
     },
     {
-      "title": "Started YouTube",
-      "image": "http://github.com/eddiejaoude.png",
-      "date": "June 2019",
-      "icon": "youtube",
+      "title": "Software Enginner",
+      "date": "June 2018",
+      "icon": "github",
       "color": "red",
-      "description": "First real video",
-      "url": "http://youtube.com/eddiejaoude"
+      "description": "Worked On different Analytical",
+      "url": "https://www.linkedin.com/in/sanjay-k-v/"
     },
+ 
     {
-      "title": "GitHub Star",
+      "title": "Google CS Influencer",
       "date": "2020",
-      "icon": "github",
+      "icon": "google",
       "color": "green",
-      "description": "Became a GitHub Star with 30 other people",
-      "url": "http://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star of the Year",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "http://github.com/eddiejaoude"
+      "description": "Became Google Crowdsource Influencer",
+      "url": "https://crowdsource.google.com/about/blog/community-spotlight-friendship/"
     }
   ]
 }
