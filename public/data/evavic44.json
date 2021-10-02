@@ -14,8 +14,8 @@
       "icon": "twitter"
     },
     {
-      "name": "Check out my blog",
-      "url": "https://eke.hashnode.dev/",
+      "name": "Check out my articles on Hashnode",
+      "url": "https://hashnode.com/@Eke",
       "icon": "hashnode"
     }
   ],
@@ -24,15 +24,15 @@
       "title": "Started learning web development",
       "date": "March 27 2020",
       "icon": "book",
-      "color": "black",
-      "url": "https://www.victoreke.netlify.app"
+      "color": "#655496",
+      "url": "https://victoreke.netlify.app"
     },
     {
       "title": "Participated in OSCA",
       "image": "https://github.com/oscafrica/open-source-challenge-2021/blob/main/assets/oss-ch-header.png?raw=true",
       "date": "September 2021",
       "icon": "github",
-      "color": "orange",
+      "color": "#F2994A",
       "description": "Open source challenge 2021",
       "url": "https://github.com/oscafrica"
     }
