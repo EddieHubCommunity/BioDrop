@@ -1,3 +1,12 @@
+## [0.25.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.7...v0.25.8) (2021-10-02)
+
+
+### Bug Fixes
+
+* eddiejaoude linkedin ([f1bb2e8](https://github.com/EddieHubCommunity/LinkFree/commit/f1bb2e848d7f27d7e323c97be899c602301b60e9))
+
+
+
 ## [0.25.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.6...v0.25.7) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * praveenscience ([#329](https://github.com/EddieHubCommunity/LinkFree/issues/329)) ([0190559](https://github.com/EddieHubCommunity/LinkFree/commit/0190559b047a334ac93bc56c9b613b203d5496ec))
-
-
-
-## [0.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.2...v0.25.3) (2021-10-01)
-
-
-### Bug Fixes
-
-* typo in issue template ([#381](https://github.com/EddieHubCommunity/LinkFree/issues/381)) ([c7f3032](https://github.com/EddieHubCommunity/LinkFree/commit/c7f3032dd5bf5338bd0b4172ed61e641bcdce73b))
 
 
 
