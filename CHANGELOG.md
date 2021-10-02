@@ -1,3 +1,12 @@
+## [0.27.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.3...v0.27.4) (2021-10-02)
+
+
+### Bug Fixes
+
+* package lock regen ([e08deca](https://github.com/EddieHubCommunity/LinkFree/commit/e08deca5cdecc7ffa209668d1698aa8f7a7a516a))
+
+
+
 ## [0.27.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.2...v0.27.3) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * tooltip to display username ([#96](https://github.com/EddieHubCommunity/LinkFree/issues/96)) ([0012077](https://github.com/EddieHubCommunity/LinkFree/commit/0012077b1a5642788302eb4ca10adf46e24bf18f))
-
-
-
-## [0.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.2...v0.26.3) (2021-10-02)
-
-
-### Bug Fixes
-
-* removed duplicate ([#378](https://github.com/EddieHubCommunity/LinkFree/issues/378)) ([364351a](https://github.com/EddieHubCommunity/LinkFree/commit/364351af1cde6aed478b99d104056db9b9d5942a))
 
 
 
