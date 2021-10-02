@@ -7,6 +7,7 @@ import { Button } from 'primereact/button'
 
 function Links({ links }) {
   const colors = {
+    link: '#1a1817',
     android: '#3DDC84',
     apple: '#000000',
     discord: '#5865F2',
