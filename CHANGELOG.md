@@ -1,3 +1,12 @@
+## [0.25.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.4...v0.25.5) (2021-10-02)
+
+
+### Bug Fixes
+
+* link types ([#331](https://github.com/EddieHubCommunity/LinkFree/issues/331)) ([c412cf9](https://github.com/EddieHubCommunity/LinkFree/commit/c412cf9f1433c80b35e54a84d69d1ab083c56a37))
+
+
+
 ## [0.25.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.3...v0.25.4) (2021-10-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * sulthan ([#385](https://github.com/EddieHubCommunity/LinkFree/issues/385)) ([c0a8031](https://github.com/EddieHubCommunity/LinkFree/commit/c0a80314ce245756ce3de03f955ad05953e5aa6b))
-
-
-
-# [0.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.3...v0.25.0) (2021-10-01)
-
-
-### Features
-
-* cucumber + cypress testing ([#226](https://github.com/EddieHubCommunity/LinkFree/issues/226)) ([88a9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/88a9ab23bb6abb95493029f0908008455d8ab87d)), closes [#380](https://github.com/EddieHubCommunity/LinkFree/issues/380)
 
 
 
