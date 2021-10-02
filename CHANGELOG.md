@@ -1,3 +1,12 @@
+## [0.27.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.1...v0.27.2) (2021-10-02)
+
+
+### Bug Fixes
+
+* reformatting data ([ec10f4d](https://github.com/EddieHubCommunity/LinkFree/commit/ec10f4dbb8cd08e3c900d853e240e190f84074dc))
+
+
+
 ## [0.27.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.0...v0.27.1) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * default link colours ([#368](https://github.com/EddieHubCommunity/LinkFree/issues/368)) ([7294cac](https://github.com/EddieHubCommunity/LinkFree/commit/7294cace112fcb2908b1f9704759956a382b5403))
-
-
-
-## [0.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.0...v0.26.1) (2021-10-02)
-
-
-### Bug Fixes
-
-* linkedin, catch all links ([#377](https://github.com/EddieHubCommunity/LinkFree/issues/377)) ([a28fe01](https://github.com/EddieHubCommunity/LinkFree/commit/a28fe01e05967d71b3e892541dd52346c25e2d44))
 
 
 
