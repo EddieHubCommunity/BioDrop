@@ -17,6 +17,11 @@
       "name": "Learn more about Open Source on my YouTube channel",
       "url": "http://youtube.com/eddiejaoude",
       "icon": "youtube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "http://linkedin.com/in/eddiejaoude",
+      "icon": "linked"
     }
   ],
   "milestones": [
