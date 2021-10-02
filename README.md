@@ -1,10 +1,14 @@
 # LinkFree - EddieHub
 
-+ An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org).\Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
++ An open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - built by the [EddieHub](https://www.eddiehub.org).
 
-+ [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
++ Initially created on a [YouTube live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
-+ ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
+
+ [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
+
+
+ ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
 
 ## Note for Hacktoberfest
 
