@@ -1,3 +1,12 @@
+## [0.27.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.2...v0.27.3) (2021-10-02)
+
+
+### Bug Fixes
+
+* evavic44 ([#420](https://github.com/EddieHubCommunity/LinkFree/issues/420)) ([ac24eb5](https://github.com/EddieHubCommunity/LinkFree/commit/ac24eb579ccea5f943a18c4aef66d0febfbbb5f5))
+
+
+
 ## [0.27.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.1...v0.27.2) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed duplicate ([#378](https://github.com/EddieHubCommunity/LinkFree/issues/378)) ([364351a](https://github.com/EddieHubCommunity/LinkFree/commit/364351af1cde6aed478b99d104056db9b9d5942a))
-
-
-
-## [0.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.26.1...v0.26.2) (2021-10-02)
-
-
-### Bug Fixes
-
-* default link colours ([#368](https://github.com/EddieHubCommunity/LinkFree/issues/368)) ([7294cac](https://github.com/EddieHubCommunity/LinkFree/commit/7294cace112fcb2908b1f9704759956a382b5403))
 
 
 
