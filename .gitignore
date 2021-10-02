@@ -2,8 +2,6 @@
 
 # dependencies
 /node_modules
-.package-lock.json
-#Added this to avoid changes to Dependency files. 
 /.pnp
 .pnp.js
 
