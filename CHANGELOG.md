@@ -1,3 +1,12 @@
+## [0.27.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.6...v0.27.7) (2021-10-02)
+
+
+### Bug Fixes
+
+* gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
+
+
+
 ## [0.27.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.5...v0.27.6) (2021-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * evavic44 ([#420](https://github.com/EddieHubCommunity/LinkFree/issues/420)) ([ac24eb5](https://github.com/EddieHubCommunity/LinkFree/commit/ac24eb579ccea5f943a18c4aef66d0febfbbb5f5))
-
-
-
-## [0.27.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.1...v0.27.2) (2021-10-02)
-
-
-### Bug Fixes
-
-* reformatting data ([ec10f4d](https://github.com/EddieHubCommunity/LinkFree/commit/ec10f4dbb8cd08e3c900d853e240e190f84074dc))
 
 
 
