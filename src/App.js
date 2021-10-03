@@ -5,6 +5,7 @@ import 'primeflex/primeflex.css'
 
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Socials from './Components/Socials'
