@@ -1,7 +1,6 @@
 import './Home.css'
 
 import React, { useEffect, useState } from 'react'
-
 import { Avatar } from 'primereact/avatar'
 import { ProgressBar } from 'primereact/progressbar'
 
