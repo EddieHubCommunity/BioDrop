@@ -31,7 +31,7 @@
         {
             "name": "Checkout my StackOverflow profile",
             "url": "https://stackoverflow.com/users/8034754/chirag-chhuchha",
-            "icon": "daily.dev"
+            "icon": "stackoverflow"
         }
     ],
     "milestones": [
