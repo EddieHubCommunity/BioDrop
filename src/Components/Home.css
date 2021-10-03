@@ -1,3 +1,7 @@
+.container {
+  margin-top: 3rem;
+}
+
 .p-avatar {
   transition: transform 0.33s !important;
 }

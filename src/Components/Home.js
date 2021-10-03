@@ -20,7 +20,7 @@ function Home() {
   }, [])
 
   return (
-    <main>
+    <main className="contaier">
       {showProgress && <ProgressBar mode="indeterminate" />}
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
