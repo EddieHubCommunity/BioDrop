@@ -13,7 +13,10 @@ function Links({ links }) {
 
   return (
     <section className="p-d-flex p-jc-center p-mb-4">
-      <div className="p-d-flex p-flex-column" style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}>
+      <div
+        className="p-d-flex p-flex-column"
+        style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}
+      >
         {links
           .filter((link) => Object.keys(icons).includes(link.icon))
           .map((link, index) => (
@@ -25,6 +28,19 @@ function Links({ links }) {
               role="link"
             >
               {icons[link.icon].icon}
+              <span className="p-px-3">{link.name}</span>
+            </Button>
+          ))}
+        {links
+          .filter((link) => !Object.keys(icons).includes(link.icon))
+          .map((link, index) => (
+            <Button
+              className="p-p-3 p-m-2 p-button-outlined unknown"
+              key={`link.url_${index}`}
+              onClick={() => goToLinkHandle(link.url)}
+              role="link"
+            >
+              <i className="pi pi-arrow-right p-px-2"></i>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}

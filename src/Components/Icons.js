@@ -43,5 +43,13 @@ const icons = {
     icon: <FaPatreon size='20px' />,
     color: '#052d49',
   },
+  link: {
+    icon: <i className={'pi pi-link p-px-2'}></i>,
+    color: '#1a1817',
+  },
+  paypal: {
+    icon: <i className={'pi pi-paypal p-px-2'}></i>,
+    color: '#00457C',
+  },
 }
 export default icons
