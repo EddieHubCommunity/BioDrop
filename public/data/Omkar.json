@@ -1,0 +1,17 @@
+{
+    "name": "Omkar Bhoir",
+    "bio": "Tech Enthusiastic",
+    "avatar": "https://github.com/omkar787.png",
+    "links": [
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/omkar787",
+            "icon": "github"
+        },
+        {
+            "name":"Lets meet on Twitter",
+            "url":"https://twitter.com/OmkarCodes",
+            "icon":"twitter"
+        }
+    ]
+}
