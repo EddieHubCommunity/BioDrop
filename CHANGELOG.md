@@ -1,3 +1,12 @@
+## [0.27.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.8...v0.27.9) (2021-10-04)
+
+
+### Bug Fixes
+
+* skeleton refactor ([#353](https://github.com/EddieHubCommunity/LinkFree/issues/353)) ([7d752c8](https://github.com/EddieHubCommunity/LinkFree/commit/7d752c810d461976ebe29d5d6b906e93b6362e4a))
+
+
+
 ## [0.27.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.7...v0.27.8) (2021-10-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * package lock regen ([f3e95e0](https://github.com/EddieHubCommunity/LinkFree/commit/f3e95e03c1ccb902defc4004a47765cbd851898b))
-
-
-
-## [0.27.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.3...v0.27.4) (2021-10-02)
-
-
-### Bug Fixes
-
-* package lock regen ([e08deca](https://github.com/EddieHubCommunity/LinkFree/commit/e08deca5cdecc7ffa209668d1698aa8f7a7a516a))
 
 
 
