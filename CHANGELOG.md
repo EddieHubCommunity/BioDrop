@@ -1,3 +1,12 @@
+## [0.27.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.9...v0.27.10) (2021-10-04)
+
+
+### Bug Fixes
+
+* motasim ([#456](https://github.com/EddieHubCommunity/LinkFree/issues/456)) ([7838f5a](https://github.com/EddieHubCommunity/LinkFree/commit/7838f5a4147513bd1635f21e95ca58666ca0ddbd))
+
+
+
 ## [0.27.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.8...v0.27.9) (2021-10-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added vedant-kakde details ([#422](https://github.com/EddieHubCommunity/LinkFree/issues/422)) ([bb06a64](https://github.com/EddieHubCommunity/LinkFree/commit/bb06a64a6fe29ac4ad219dc9df357d3632115ab0))
-
-
-
-## [0.27.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.4...v0.27.5) (2021-10-02)
-
-
-### Bug Fixes
-
-* package lock regen ([f3e95e0](https://github.com/EddieHubCommunity/LinkFree/commit/f3e95e03c1ccb902defc4004a47765cbd851898b))
 
 
 
