@@ -59,25 +59,7 @@
       "color": "green",
       "description": "Software Engineer at L&T Infotech",
       "url": "https://crowdsource.google.com/about/blog/community-spotlight-friendship/"
-    },
-    {
-      "title": "SEO Consultant - Freelance",
-      "date": "June 2018",
-      "icon": "google",
-      "color": "green",
-      "description": "Helped the client to increase online presence",
-      "url": "https://www.linkedin.com/in/sanjay-k-v/"
-    },
-
-    {
-      "title": "Stack developer SEO Consultant - Intern",
-      "date": "June 2018",
-      "icon": "google",
-      "color": "green",
-      "description": "Improved SEO results on Google search and Bing",
-      "url": "https://www.linkedin.com/in/sanjay-k-v/"
-    
-}
-
+    }
   ]
+
 }
