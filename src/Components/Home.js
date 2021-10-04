@@ -21,19 +21,23 @@ function Home() {
       .finally(() => setShowProgress(false))
   }, [])
 
+  const addSkeleton = () => {
+    setTimeout(() => {
+      setskeleton(false)
+    }, 300)
+    return (
+    <div className="p-d-flex p-flex-wrap">
+        {list.map((user, index) => { return <Skeleton shape="circle" size="65px" className="p-mr-2 p-m-2" key={index} /> })}
+    </div>
+    )
+  }
+
   return (
     <main>
       {showProgress && <ProgressBar mode="indeterminate" />}
       {skeleton
-        ? <div>
-        <div style={{ display: 'none' }}>
-      {setTimeout(() => {
-        setskeleton(false)
-      }, 3000)}
-      </div>
-      <div className="p-d-flex p-flex-wrap">
-          {list.map((user, index) => { return <Skeleton shape="circle" size="65px" className="p-mr-2 p-m-2" key={index} /> })}
-      </div>
+        ? <div className="skeleton">
+      {addSkeleton()}
       </div>
         : <>
       {list.map((user, key) => (
