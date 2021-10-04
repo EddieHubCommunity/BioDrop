@@ -1,0 +1,40 @@
+
+import React, { useEffect, useRef } from 'react'
+import PropTypes from 'prop-types'
+import { Skeleton } from 'primereact/skeleton'
+
+const ImageLoader = ({ avatar, username }) => {
+  const imgEl = useRef(null)
+  const [loaded, setLoaded] = React.useState(false)
+
+  const onImageLoaded = () => {
+    setLoaded(true)
+  }
+
+  useEffect(() => {
+    const imgElCurrent = imgEl.current
+
+    if (imgElCurrent) {
+      imgElCurrent.addEventListener('load', onImageLoaded)
+      return () => imgElCurrent.removeEventListener('load', onImageLoaded)
+    }
+  }, [])
+
+  return (
+      <>
+        <img
+        ref={imgEl}
+        src={avatar}
+        alt={username}
+        style={loaded ? { display: 'inline-block' } : { display: 'none' }}
+      />
+      {!loaded && <Skeleton className="p-avatar" shape="circle" size="4rem"/>}
+      </>
+  )
+}
+ImageLoader.propTypes = {
+  avatar: PropTypes.string,
+  username: PropTypes.string,
+}
+
+export default ImageLoader
