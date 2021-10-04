@@ -1,17 +1,17 @@
 {
-    "name": "Adil Irshad",
-    "bio": "Exploring open source",
-    "avatar": "https://github.com/adil14788.png",
-    "links": [
-        {
-            "name": "Follow me on GitHub",
-            "url": "https://github.com/adil14788",
-            "icon": "github"
-        },
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/AdilIrshad73",
-            "icon": "twitter"
-        }
-    ]
+  "name": "Adil Irshad",
+  "bio": "Exploring open source",
+  "avatar": "https://github.com/adil14788.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adil14788",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdilIrshad73",
+      "icon": "twitter"
+    }
+  ]
 }

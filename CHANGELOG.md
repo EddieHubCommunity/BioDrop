@@ -1,45 +1,45 @@
-## [0.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.1...v0.24.2) (2021-10-01)
+## [0.27.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.7...v0.27.8) (2021-10-04)
 
 
 ### Bug Fixes
 
-* Update my data ([#375](https://github.com/EddieHubCommunity/LinkFree/issues/375)) ([d390b0e](https://github.com/EddieHubCommunity/LinkFree/commit/d390b0e57e7f09e39319fa48ba85a56d7130c164))
+* bamblebam ([#410](https://github.com/EddieHubCommunity/LinkFree/issues/410)) ([a4a8cd9](https://github.com/EddieHubCommunity/LinkFree/commit/a4a8cd968b83cf42565151e604e590dfa8343452))
 
 
 
-## [0.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.24.0...v0.24.1) (2021-09-30)
-
-
-### Bug Fixes
-
-* YouTube for FayasNoushad ([c11b2d4](https://github.com/EddieHubCommunity/LinkFree/commit/c11b2d4bc90cd1fc6fff16e06280542e3a5eeb0b))
-
-
-
-# [0.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.5...v0.24.0) (2021-09-28)
-
-
-### Features
-
-* Add Panquesito7 to the list ([#337](https://github.com/EddieHubCommunity/LinkFree/issues/337)) ([531cd80](https://github.com/EddieHubCommunity/LinkFree/commit/531cd80e21a2c9eb07786f34732d607c208e3cfe))
-
-
-
-## [0.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.4...v0.23.5) (2021-09-28)
+## [0.27.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.6...v0.27.7) (2021-10-02)
 
 
 ### Bug Fixes
 
-* Use HTTPS in the `README.md` file ([#348](https://github.com/EddieHubCommunity/LinkFree/issues/348)) ([6397117](https://github.com/EddieHubCommunity/LinkFree/commit/63971178f373f87ec2f1175ea6dfc60c044b0d27))
+* gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
 
 
 
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+## [0.27.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.5...v0.27.6) (2021-10-02)
 
 
 ### Bug Fixes
 
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+* added vedant-kakde details ([#422](https://github.com/EddieHubCommunity/LinkFree/issues/422)) ([bb06a64](https://github.com/EddieHubCommunity/LinkFree/commit/bb06a64a6fe29ac4ad219dc9df357d3632115ab0))
+
+
+
+## [0.27.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.4...v0.27.5) (2021-10-02)
+
+
+### Bug Fixes
+
+* package lock regen ([f3e95e0](https://github.com/EddieHubCommunity/LinkFree/commit/f3e95e03c1ccb902defc4004a47765cbd851898b))
+
+
+
+## [0.27.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.3...v0.27.4) (2021-10-02)
+
+
+### Bug Fixes
+
+* package lock regen ([e08deca](https://github.com/EddieHubCommunity/LinkFree/commit/e08deca5cdecc7ffa209668d1698aa8f7a7a516a))
 
 
 
