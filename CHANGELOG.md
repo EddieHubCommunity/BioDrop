@@ -1,3 +1,12 @@
+## [0.29.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.1...v0.29.2) (2021-10-05)
+
+
+### Bug Fixes
+
+* add  MekongDelta-mind ([#438](https://github.com/EddieHubCommunity/LinkFree/issues/438)) ([6e8e6e2](https://github.com/EddieHubCommunity/LinkFree/commit/6e8e6e26b35a4640c531b5c795952b0e28bfa81f))
+
+
+
 ## [0.29.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.0...v0.29.1) (2021-10-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * motasim ([#456](https://github.com/EddieHubCommunity/LinkFree/issues/456)) ([7838f5a](https://github.com/EddieHubCommunity/LinkFree/commit/7838f5a4147513bd1635f21e95ca58666ca0ddbd))
-
-
-
-## [0.27.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.8...v0.27.9) (2021-10-04)
-
-
-### Bug Fixes
-
-* skeleton refactor ([#353](https://github.com/EddieHubCommunity/LinkFree/issues/353)) ([7d752c8](https://github.com/EddieHubCommunity/LinkFree/commit/7d752c810d461976ebe29d5d6b906e93b6362e4a))
 
 
 
