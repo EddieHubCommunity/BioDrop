@@ -1,0 +1,35 @@
+{
+    "name": "ANASS BOUCHFAR",
+    "bio": "Web Developer , BI & Analytics Engineer Student",
+    "avatar": "https://github.com/anassbouchfar.png",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/anassbouchfar",
+        "icon": "github"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/anassbouchfar2",
+        "icon": "twitter"
+      },
+      {
+        "name": "Blog",
+        "url": "https://medium.com/@anass.bouchfar22",
+        "icon": ""
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://anassbouchfar.me",
+        "icon": ""
+      },
+      {
+        "name": "E-mail",
+        "url": "mailto:anass.bouchfar22@gmail.com",
+        "icon": "envelope"
+      }
+      
+    ]
+    
+  }
+  
