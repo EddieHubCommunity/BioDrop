@@ -1,3 +1,12 @@
+## [0.29.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.0...v0.29.1) (2021-10-05)
+
+
+### Bug Fixes
+
+* improve the home chips ([f69c0d1](https://github.com/EddieHubCommunity/LinkFree/commit/f69c0d1c2c8031e35db855000aaaf693bfb1c219))
+
+
+
 # [0.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.28.0...v0.29.0) (2021-10-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * skeleton refactor ([#353](https://github.com/EddieHubCommunity/LinkFree/issues/353)) ([7d752c8](https://github.com/EddieHubCommunity/LinkFree/commit/7d752c810d461976ebe29d5d6b906e93b6362e4a))
-
-
-
-## [0.27.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.7...v0.27.8) (2021-10-04)
-
-
-### Bug Fixes
-
-* bamblebam ([#410](https://github.com/EddieHubCommunity/LinkFree/issues/410)) ([a4a8cd9](https://github.com/EddieHubCommunity/LinkFree/commit/a4a8cd968b83cf42565151e604e590dfa8343452))
 
 
 
