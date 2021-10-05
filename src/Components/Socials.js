@@ -27,12 +27,15 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
-          <Link to="/"><i className="pi pi-arrow-left"></i></Link>
+          <Link to="/">
+            <i className="pi pi-arrow-left"></i>
+          </Link>
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}
             name={profile.name}
             total={profile.links.length}
+            config={profile.config}
           />
           <Links links={profile.links} />
         </>
