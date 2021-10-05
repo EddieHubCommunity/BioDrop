@@ -7,11 +7,7 @@ function User({ list }) {
     <>
       {list.map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
-          <Chip
-            image={user.avatar}
-            className="p-m-2"
-            label={user.username}
-          />
+          <Chip image={user.avatar} className="p-m-2" label={user.name} />
         </a>
       ))}
     </>

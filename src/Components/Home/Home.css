@@ -1,16 +1,21 @@
-a{
+a {
   text-decoration: none;
 }
-.p-chip{
+
+.p-chip {
+  transition: transform 0.33s;
   padding: 0.2rem 0.6rem;
 }
-.p-chip:hover{
+
+.p-chip:hover {
   transform: scale(1.1);
 }
-.p-chip-text{
+
+.p-chip-text {
   color: black;
 }
-.p-chip img{
+
+.p-chip img {
   height: 2.5rem;
   width: 2.5rem;
 }
