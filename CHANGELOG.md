@@ -1,3 +1,12 @@
+# [0.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.28.0...v0.29.0) (2021-10-05)
+
+
+### Features
+
+* chip homepage ([#364](https://github.com/EddieHubCommunity/LinkFree/issues/364)) ([4a430d3](https://github.com/EddieHubCommunity/LinkFree/commit/4a430d3db341cb1e9b9065775c2885c01b2b57ee))
+
+
+
 # [0.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.10...v0.28.0) (2021-10-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * bamblebam ([#410](https://github.com/EddieHubCommunity/LinkFree/issues/410)) ([a4a8cd9](https://github.com/EddieHubCommunity/LinkFree/commit/a4a8cd968b83cf42565151e604e590dfa8343452))
-
-
-
-## [0.27.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.6...v0.27.7) (2021-10-02)
-
-
-### Bug Fixes
-
-* gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
 
 
 
