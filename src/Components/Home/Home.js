@@ -1,6 +1,11 @@
 import './Home.css'
 
+<<<<<<< HEAD:src/Components/Home/Home.js
 import React, { useState, useEffect } from 'react'
+=======
+import React, { useEffect, useState } from 'react'
+import { Avatar } from 'primereact/avatar'
+>>>>>>> 7fa9d4d (Delete blank line):src/Components/Home.js
 import { ProgressBar } from 'primereact/progressbar'
 
 import Placeholders from './Placeholders'
