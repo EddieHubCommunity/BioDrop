@@ -18,6 +18,7 @@ const profiles = files.map((file) => {
 const writeDirectoryPath = path.join(__dirname, 'public', 'list.json')
 const output = profiles.map((profile) => ({
   username: profile.username,
+  name: profile.name,
   avatar: profile.avatar,
 }))
 
