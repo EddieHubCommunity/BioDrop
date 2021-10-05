@@ -6,6 +6,7 @@
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
 
 ## Note for Hacktoberfest
+
 > A note for Hacktoberfest Participants:
 > 
 > Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
