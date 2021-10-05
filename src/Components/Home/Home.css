@@ -1,7 +1,16 @@
-.p-avatar {
-  transition: transform 0.33s !important;
+a{
+  text-decoration: none;
 }
-
-.p-avatar:hover {
-  transform: scale(1.2);
+.p-chip{
+  padding: 0.2rem 0.6rem;
+}
+.p-chip:hover{
+  transform: scale(1.1);
+}
+.p-chip-text{
+  color: black;
+}
+.p-chip img{
+  height: 2.5rem;
+  width: 2.5rem;
 }

@@ -9,8 +9,8 @@ function Placeholder({ list }) {
       {list.map((user, key) => {
         return (
           <Skeleton
-            shape="circle"
-            size="65px"
+            width="15%"
+            height="2.4rem" borderRadius="10px"
             className="p-mr-2 p-m-2"
             key={`skeleton-${key}`}
           />
