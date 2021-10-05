@@ -21,6 +21,7 @@ function Links({ links }) {
     twitter: '#00ACEE',
     vimeo: '#1AB7EA',
     youtube: '#FF0000',
+    envelope: '#5F6368',
   }
 
   const goToLinkHandle = (url) => {
