@@ -1,3 +1,12 @@
+# [0.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.10...v0.28.0) (2021-10-05)
+
+
+### Features
+
+* email to social list ([#437](https://github.com/EddieHubCommunity/LinkFree/issues/437)) ([fcfe429](https://github.com/EddieHubCommunity/LinkFree/commit/fcfe429463abf608f7548c4c006162ded0093c44))
+
+
+
 ## [0.27.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.9...v0.27.10) (2021-10-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
-
-
-
-## [0.27.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.5...v0.27.6) (2021-10-02)
-
-
-### Bug Fixes
-
-* added vedant-kakde details ([#422](https://github.com/EddieHubCommunity/LinkFree/issues/422)) ([bb06a64](https://github.com/EddieHubCommunity/LinkFree/commit/bb06a64a6fe29ac4ad219dc9df357d3632115ab0))
 
 
 
