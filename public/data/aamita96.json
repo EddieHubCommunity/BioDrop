@@ -18,5 +18,10 @@
       "url": "https://www.instagram.com/amit_k96/",
       "icon": "instagram"
     }
-  ]
+  ],
+  "config": {
+    "background": "#A4B0F5",
+    "fontColor": "#F58F29",
+    "badgeSeverity": "danger"
+  }
 }

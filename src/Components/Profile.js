@@ -17,20 +17,35 @@ function Profile({ name, bio, avatar, total, config }) {
           shape="circle"
           className="p-overlay-badge"
         >
-          <Badge
-            value={total}
-            severity={`${config.badgeSeverity}`}
-            className="p-mr-2 p-mt-2"
-          />
+          {config && (
+            <Badge
+              value={total}
+              severity={`${config.badgeSeverity}`}
+              className="p-mr-2 p-mt-2"
+            />
+          )}
+          {!config && (
+            <Badge value={total} severity="info" className="p-mr-2 p-mt-2" />
+          )}
         </Avatar>
         <h1 className="p-m-2">{name}</h1>
       </div>
-      <div
-        className="p-d-flex p-jc-center w-50"
-        style={{ color: config.fontColor, backgroundColor: config.background }}
-      >
-        <p>{bio}</p>
-      </div>
+      {config && (
+        <div
+          className="p-d-flex p-jc-center w-50"
+          style={{
+            color: config.fontColor,
+            backgroundColor: config.background,
+          }}
+        >
+          <p>{bio}</p>
+        </div>
+      )}
+      {!config && (
+        <div className="p-d-flex p-jc-center w-50">
+          <p>{bio}</p>
+        </div>
+      )}
     </section>
   )
 }
