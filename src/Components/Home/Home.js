@@ -2,11 +2,14 @@ import './Home.css'
 
 import React, { useState, useEffect } from 'react'
 import { ProgressBar } from 'primereact/progressbar'
-import { Avatar } from 'primereact/avatar'
+
+import Placeholders from './Placeholders'
+import Users from './Users'
 
 function Home() {
   const [showProgress, setShowProgress] = useState(true)
   const [list, setList] = useState([])
+  const [skeleton, setskeleton] = useState(true)
 
   useEffect(() => {
     fetch('/list.json')
@@ -16,23 +19,18 @@ function Home() {
         console.log('Home useEffect', error)
         alert('An error occurred please try again later.')
       })
-      .finally(() => setShowProgress(false))
+      .finally(() => {
+        setShowProgress(false)
+        setTimeout(() => {
+          setskeleton(false)
+        }, 500)
+      })
   }, [])
 
   return (
     <main>
       {showProgress && <ProgressBar mode="indeterminate" />}
-      {list.map((user, key) => (
-        <a href={`${user.username}`} key={`avatar-${key}`}>
-          <Avatar
-            image={user.avatar}
-            shape="circle"
-            size="xlarge"
-            className="p-m-2"
-            imageAlt={user.username}
-          />
-        </a>
-      ))}
+      {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
     </main>
   )
 }
