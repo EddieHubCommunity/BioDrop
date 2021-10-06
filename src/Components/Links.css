@@ -31,6 +31,10 @@
   background-color: #e4405f;
 }
 
+.p-button.p-button-outlined:not(a):not(.p-disabled).envelope:hover {
+  background-color: #5F6368;
+}
+
 .p-button-outlined:hover > i {
   color: #fff;
 }
