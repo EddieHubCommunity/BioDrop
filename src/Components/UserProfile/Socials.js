@@ -19,10 +19,12 @@ function Socials() {
         console.log('Socials useEffect', error)
         alert('An error occurred please try again later.')
       })
-      .finally(() => setShowProgress(false))
-    setTimeout(() => {
-      setskeleton(false)
-    }, 500)
+      .finally(() => {
+        setShowProgress(false)
+        setTimeout(() => {
+          setskeleton(false)
+        }, 500)
+      })
   }, [username])
 
   return (
