@@ -1,3 +1,13 @@
+## [0.29.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.3...v0.29.4) (2021-10-07)
+
+
+### Bug Fixes
+
+* merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([cb860cd](https://github.com/EddieHubCommunity/LinkFree/commit/cb860cd204546350d78a281c7fe3e5cec4fb55d2))
+* merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([3f59d92](https://github.com/EddieHubCommunity/LinkFree/commit/3f59d92b799e74b0edb67181faf142957ee43b09))
+
+
+
 ## [0.29.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.2...v0.29.3) (2021-10-07)
 
 
@@ -31,15 +41,6 @@
 ### Features
 
 * chip homepage ([#364](https://github.com/EddieHubCommunity/LinkFree/issues/364)) ([4a430d3](https://github.com/EddieHubCommunity/LinkFree/commit/4a430d3db341cb1e9b9065775c2885c01b2b57ee))
-
-
-
-# [0.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.10...v0.28.0) (2021-10-05)
-
-
-### Features
-
-* email to social list ([#437](https://github.com/EddieHubCommunity/LinkFree/issues/437)) ([fcfe429](https://github.com/EddieHubCommunity/LinkFree/commit/fcfe429463abf608f7548c4c006162ded0093c44))
 
 
 
