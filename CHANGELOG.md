@@ -1,3 +1,12 @@
+## [0.29.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.6...v0.29.7) (2021-10-07)
+
+
+### Bug Fixes
+
+* anassbouchfar ([#461](https://github.com/EddieHubCommunity/LinkFree/issues/461)) ([ea07dcc](https://github.com/EddieHubCommunity/LinkFree/commit/ea07dcc5a55100030e3461f54abc99580aae2487))
+
+
+
 ## [0.29.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.5...v0.29.6) (2021-10-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * anubhav201241  ([#452](https://github.com/EddieHubCommunity/LinkFree/issues/452)) ([a7b72f5](https://github.com/EddieHubCommunity/LinkFree/commit/a7b72f55517bc27e99da00eb6cc8fc3c9524dd65))
-
-
-
-## [0.29.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.1...v0.29.2) (2021-10-05)
-
-
-### Bug Fixes
-
-* add  MekongDelta-mind ([#438](https://github.com/EddieHubCommunity/LinkFree/issues/438)) ([6e8e6e2](https://github.com/EddieHubCommunity/LinkFree/commit/6e8e6e26b35a4640c531b5c795952b0e28bfa81f))
 
 
 
