@@ -1,3 +1,12 @@
+# [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
+
+
+### Features
+
+* alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
+
+
+
 ## [0.29.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.6...v0.29.7) (2021-10-07)
 
 
@@ -32,15 +41,6 @@
 
 * merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([cb860cd](https://github.com/EddieHubCommunity/LinkFree/commit/cb860cd204546350d78a281c7fe3e5cec4fb55d2))
 * merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([3f59d92](https://github.com/EddieHubCommunity/LinkFree/commit/3f59d92b799e74b0edb67181faf142957ee43b09))
-
-
-
-## [0.29.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.2...v0.29.3) (2021-10-07)
-
-
-### Bug Fixes
-
-* anubhav201241  ([#452](https://github.com/EddieHubCommunity/LinkFree/issues/452)) ([a7b72f5](https://github.com/EddieHubCommunity/LinkFree/commit/a7b72f55517bc27e99da00eb6cc8fc3c9524dd65))
 
 
 
