@@ -1,3 +1,12 @@
+## [0.29.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.2...v0.29.3) (2021-10-07)
+
+
+### Bug Fixes
+
+* anubhav201241  ([#452](https://github.com/EddieHubCommunity/LinkFree/issues/452)) ([a7b72f5](https://github.com/EddieHubCommunity/LinkFree/commit/a7b72f55517bc27e99da00eb6cc8fc3c9524dd65))
+
+
+
 ## [0.29.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.1...v0.29.2) (2021-10-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * email to social list ([#437](https://github.com/EddieHubCommunity/LinkFree/issues/437)) ([fcfe429](https://github.com/EddieHubCommunity/LinkFree/commit/fcfe429463abf608f7548c4c006162ded0093c44))
-
-
-
-## [0.27.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.9...v0.27.10) (2021-10-04)
-
-
-### Bug Fixes
-
-* motasim ([#456](https://github.com/EddieHubCommunity/LinkFree/issues/456)) ([7838f5a](https://github.com/EddieHubCommunity/LinkFree/commit/7838f5a4147513bd1635f21e95ca58666ca0ddbd))
 
 
 
