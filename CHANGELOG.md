@@ -1,3 +1,12 @@
+## [0.29.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.5...v0.29.6) (2021-10-07)
+
+
+### Bug Fixes
+
+* Anushka-codergirl ([#462](https://github.com/EddieHubCommunity/LinkFree/issues/462)) ([cdecad6](https://github.com/EddieHubCommunity/LinkFree/commit/cdecad6980e4de50f8853000a97c0fcab6369cc8))
+
+
+
 ## [0.29.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.4...v0.29.5) (2021-10-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * add  MekongDelta-mind ([#438](https://github.com/EddieHubCommunity/LinkFree/issues/438)) ([6e8e6e2](https://github.com/EddieHubCommunity/LinkFree/commit/6e8e6e26b35a4640c531b5c795952b0e28bfa81f))
-
-
-
-## [0.29.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.0...v0.29.1) (2021-10-05)
-
-
-### Bug Fixes
-
-* improve the home chips ([f69c0d1](https://github.com/EddieHubCommunity/LinkFree/commit/f69c0d1c2c8031e35db855000aaaf693bfb1c219))
 
 
 
