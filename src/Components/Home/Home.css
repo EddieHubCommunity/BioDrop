@@ -19,3 +19,15 @@ a {
   height: 2.5rem;
   width: 2.5rem;
 }
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0.8rem 0.6rem;
+  margin: 0 0 .6rem 0;
+  border: none;
+  background-color: #DEE2E6;
+  border-radius: 15px;
+  font-size: 1rem;
+}
