@@ -1,3 +1,12 @@
+## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
+
+
+
 # [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * aliencoder-75 ([#463](https://github.com/EddieHubCommunity/LinkFree/issues/463)) ([549a5ac](https://github.com/EddieHubCommunity/LinkFree/commit/549a5ac1791e7f9d0f80f74b9af48caa257ff254))
-
-
-
-## [0.29.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.3...v0.29.4) (2021-10-07)
-
-
-### Bug Fixes
-
-* merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([cb860cd](https://github.com/EddieHubCommunity/LinkFree/commit/cb860cd204546350d78a281c7fe3e5cec4fb55d2))
-* merouanezouaid ([#464](https://github.com/EddieHubCommunity/LinkFree/issues/464)) ([3f59d92](https://github.com/EddieHubCommunity/LinkFree/commit/3f59d92b799e74b0edb67181faf142957ee43b09))
 
 
 
