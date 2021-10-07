@@ -1,3 +1,12 @@
+## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
+
+
+### Bug Fixes
+
+* RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
+
+
+
 ## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Anushka-codergirl ([#462](https://github.com/EddieHubCommunity/LinkFree/issues/462)) ([cdecad6](https://github.com/EddieHubCommunity/LinkFree/commit/cdecad6980e4de50f8853000a97c0fcab6369cc8))
-
-
-
-## [0.29.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.4...v0.29.5) (2021-10-07)
-
-
-### Bug Fixes
-
-* aliencoder-75 ([#463](https://github.com/EddieHubCommunity/LinkFree/issues/463)) ([549a5ac](https://github.com/EddieHubCommunity/LinkFree/commit/549a5ac1791e7f9d0f80f74b9af48caa257ff254))
 
 
 
