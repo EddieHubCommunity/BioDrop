@@ -1,3 +1,12 @@
+## [0.29.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.4...v0.29.5) (2021-10-07)
+
+
+### Bug Fixes
+
+* aliencoder-75 ([#463](https://github.com/EddieHubCommunity/LinkFree/issues/463)) ([549a5ac](https://github.com/EddieHubCommunity/LinkFree/commit/549a5ac1791e7f9d0f80f74b9af48caa257ff254))
+
+
+
 ## [0.29.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.3...v0.29.4) (2021-10-07)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * improve the home chips ([f69c0d1](https://github.com/EddieHubCommunity/LinkFree/commit/f69c0d1c2c8031e35db855000aaaf693bfb1c219))
-
-
-
-# [0.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.28.0...v0.29.0) (2021-10-05)
-
-
-### Features
-
-* chip homepage ([#364](https://github.com/EddieHubCommunity/LinkFree/issues/364)) ([4a430d3](https://github.com/EddieHubCommunity/LinkFree/commit/4a430d3db341cb1e9b9065775c2885c01b2b57ee))
 
 
 
