@@ -1,0 +1,23 @@
+{
+    "name": "Rushikesh Adhav",
+    "bio": "Passionate about open source | Web Development",
+    "avatar": "https://github.com/aamita96.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/rushikeshadhav",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on LinkedIn",
+        "url": "https://www.linkedin.com/in/Rushikeshadhav_/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Follow me on Instagram",
+        "url": "https://www.instagram.com/rushikeshadhav/",
+        "icon": "instagram"
+      }
+    ]
+  }
+  
