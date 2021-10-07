@@ -19,20 +19,25 @@
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
-**3.** Navigate to the new project directory:
+**3.** Set upstream command:
+```bash
+git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
+```
+
+**4.** Navigate to the new project directory:
 
 ```bash
 cd LinkFree
 ```
 
-**4.** Create a new branch:
+**5.** Create a new branch:
 ```bash
 git checkout -b YourBranchName
 ```
 
-**5.** Make your changes to the source code.
+**6.** Make your changes to the source code.
 
-**6.** Stage your changes and commit:
+**7.** Stage your changes and commit:
 
 ```bash
 git add .
@@ -42,15 +47,15 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local commits to the remote repository:
+**8.** Push your local commits to the remote repository:
 
 ```bash
 git push origin YourBranchName
 ```
 
-**8.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**9.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**9.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
+**10.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
 ***:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase.***
 
