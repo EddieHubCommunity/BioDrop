@@ -1,45 +1,45 @@
-## [0.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.3...v0.23.4) (2021-09-27)
+## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
 
 
 ### Bug Fixes
 
-* manually add users ([8d4d9ea](https://github.com/EddieHubCommunity/LinkFree/commit/8d4d9ea7b03aaf9d246f7a07edc3a98e29c42278))
+* RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
 
 
 
-## [0.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.2...v0.23.3) (2021-09-27)
-
-
-### Bug Fixes
-
-* favicon ([#218](https://github.com/EddieHubCommunity/LinkFree/issues/218)) ([c7eb4d5](https://github.com/EddieHubCommunity/LinkFree/commit/c7eb4d5cdf42bb295bcf299b04988b9862cf8c72))
-
-
-
-## [0.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.1...v0.23.2) (2021-09-27)
+## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
 
 
 ### Bug Fixes
 
-* manually add users ([293c6bb](https://github.com/EddieHubCommunity/LinkFree/commit/293c6bb0c1faa1b5b65dc5b303859f10de8d0f2f))
+* Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
 
 
 
-## [0.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.23.0...v0.23.1) (2021-09-27)
-
-
-### Bug Fixes
-
-* refactored css ([82db3cd](https://github.com/EddieHubCommunity/LinkFree/commit/82db3cdc06d46c428684d08b3f2045f7ad00f6ed))
-
-
-
-# [0.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.22.1...v0.23.0) (2021-09-27)
+# [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
 
 
 ### Features
 
-* hover effect and background colors ([#186](https://github.com/EddieHubCommunity/LinkFree/issues/186)) ([c67f44e](https://github.com/EddieHubCommunity/LinkFree/commit/c67f44ee2bc720622c5e2a34d738be818f103093))
+* alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
+
+
+
+## [0.29.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.6...v0.29.7) (2021-10-07)
+
+
+### Bug Fixes
+
+* anassbouchfar ([#461](https://github.com/EddieHubCommunity/LinkFree/issues/461)) ([ea07dcc](https://github.com/EddieHubCommunity/LinkFree/commit/ea07dcc5a55100030e3461f54abc99580aae2487))
+
+
+
+## [0.29.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.5...v0.29.6) (2021-10-07)
+
+
+### Bug Fixes
+
+* Anushka-codergirl ([#462](https://github.com/EddieHubCommunity/LinkFree/issues/462)) ([cdecad6](https://github.com/EddieHubCommunity/LinkFree/commit/cdecad6980e4de50f8853000a97c0fcab6369cc8))
 
 
 

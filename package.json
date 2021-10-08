@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "0.23.4",
+  "version": "0.30.2",
   "private": false,
   "homepage": ".",
   "dependencies": {
@@ -27,6 +27,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "node generate.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
     "prepare": "husky install"
   },
   "eslintConfig": {
@@ -48,6 +51,9 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^6.2.2",
+    "cypress": "^8.5.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.2",
@@ -57,5 +63,8 @@
     "eslint-plugin-react": "^7.25.1",
     "husky": "^7.0.2",
     "prettier": "2.4.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
