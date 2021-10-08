@@ -47,6 +47,7 @@ git fetch upstream
 ```bash
 git merge upstream/main
 ```
+### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
 
 
 **7.** Make your changes to the source code.
