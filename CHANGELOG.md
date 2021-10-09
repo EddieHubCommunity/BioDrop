@@ -1,3 +1,12 @@
+## [0.30.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.2...v0.30.3) (2021-10-09)
+
+
+### Bug Fixes
+
+* add Chiragagrawal9200 to linkfree ([#468](https://github.com/EddieHubCommunity/LinkFree/issues/468)) ([b19e274](https://github.com/EddieHubCommunity/LinkFree/commit/b19e27455c7a5ab6e9b0400470be361c02dd9af4))
+
+
+
 ## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * anassbouchfar ([#461](https://github.com/EddieHubCommunity/LinkFree/issues/461)) ([ea07dcc](https://github.com/EddieHubCommunity/LinkFree/commit/ea07dcc5a55100030e3461f54abc99580aae2487))
-
-
-
-## [0.29.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.5...v0.29.6) (2021-10-07)
-
-
-### Bug Fixes
-
-* Anushka-codergirl ([#462](https://github.com/EddieHubCommunity/LinkFree/issues/462)) ([cdecad6](https://github.com/EddieHubCommunity/LinkFree/commit/cdecad6980e4de50f8853000a97c0fcab6369cc8))
 
 
 
