@@ -1,17 +1,17 @@
 {
-    "name": "Sri Satya",
-    "bio": "Full Stack Development, Open Source & Devops Enthusiast ",
-    "avatar": "https://github.com/SriSatyaT.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/SriSatyaT",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/SriSatya_",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Sri Satya",
+  "bio": "Full Stack Development, Open Source & Devops Enthusiast ",
+  "avatar": "https://github.com/SriSatyaT.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/SriSatyaT",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/SriSatya_",
+      "icon": "twitter"
+    }
+  ]
 }
