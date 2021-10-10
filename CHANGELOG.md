@@ -1,3 +1,12 @@
+## [0.30.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.3...v0.30.4) (2021-10-10)
+
+
+### Bug Fixes
+
+* **data:** add krishguptadev ([#489](https://github.com/EddieHubCommunity/LinkFree/issues/489)) ([81036ff](https://github.com/EddieHubCommunity/LinkFree/commit/81036ff10a9234987e0c94b216d7f60d53ec8ff6))
+
+
+
 ## [0.30.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.2...v0.30.3) (2021-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
-
-
-
-## [0.29.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.6...v0.29.7) (2021-10-07)
-
-
-### Bug Fixes
-
-* anassbouchfar ([#461](https://github.com/EddieHubCommunity/LinkFree/issues/461)) ([ea07dcc](https://github.com/EddieHubCommunity/LinkFree/commit/ea07dcc5a55100030e3461f54abc99580aae2487))
 
 
 
