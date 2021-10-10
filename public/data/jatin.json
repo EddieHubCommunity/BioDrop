@@ -1,0 +1,17 @@
+{
+    "name": "Jatin Rao",
+    "bio": "Front End Web Developer",
+    "avatar": "https://avatars.githubusercontent.com/u/56562571?v=4",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/jatin2003",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/iamjatinrao",
+        "icon": "twitter"
+      }
+    ]
+  }
