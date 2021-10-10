@@ -1,45 +1,45 @@
-## [0.27.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.7...v0.27.8) (2021-10-04)
+## [0.30.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.3...v0.30.4) (2021-10-10)
 
 
 ### Bug Fixes
 
-* bamblebam ([#410](https://github.com/EddieHubCommunity/LinkFree/issues/410)) ([a4a8cd9](https://github.com/EddieHubCommunity/LinkFree/commit/a4a8cd968b83cf42565151e604e590dfa8343452))
+* **data:** add krishguptadev ([#489](https://github.com/EddieHubCommunity/LinkFree/issues/489)) ([81036ff](https://github.com/EddieHubCommunity/LinkFree/commit/81036ff10a9234987e0c94b216d7f60d53ec8ff6))
 
 
 
-## [0.27.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.6...v0.27.7) (2021-10-02)
-
-
-### Bug Fixes
-
-* gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
-
-
-
-## [0.27.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.5...v0.27.6) (2021-10-02)
+## [0.30.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.2...v0.30.3) (2021-10-09)
 
 
 ### Bug Fixes
 
-* added vedant-kakde details ([#422](https://github.com/EddieHubCommunity/LinkFree/issues/422)) ([bb06a64](https://github.com/EddieHubCommunity/LinkFree/commit/bb06a64a6fe29ac4ad219dc9df357d3632115ab0))
+* add Chiragagrawal9200 to linkfree ([#468](https://github.com/EddieHubCommunity/LinkFree/issues/468)) ([b19e274](https://github.com/EddieHubCommunity/LinkFree/commit/b19e27455c7a5ab6e9b0400470be361c02dd9af4))
 
 
 
-## [0.27.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.4...v0.27.5) (2021-10-02)
-
-
-### Bug Fixes
-
-* package lock regen ([f3e95e0](https://github.com/EddieHubCommunity/LinkFree/commit/f3e95e03c1ccb902defc4004a47765cbd851898b))
-
-
-
-## [0.27.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.3...v0.27.4) (2021-10-02)
+## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
 
 
 ### Bug Fixes
 
-* package lock regen ([e08deca](https://github.com/EddieHubCommunity/LinkFree/commit/e08deca5cdecc7ffa209668d1698aa8f7a7a516a))
+* RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
+
+
+
+## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
+
+
+### Bug Fixes
+
+* Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
+
+
+
+# [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
+
+
+### Features
+
+* alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
 
 
 
