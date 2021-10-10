@@ -1,3 +1,12 @@
+# [0.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.4...v0.31.0) (2021-10-10)
+
+
+### Features
+
+* **Home.css:** Tweak chip style ([#490](https://github.com/EddieHubCommunity/LinkFree/issues/490)) ([e458f63](https://github.com/EddieHubCommunity/LinkFree/commit/e458f638bfc780bb68fabdc9553b3f9afc9ababc)), closes [#487](https://github.com/EddieHubCommunity/LinkFree/issues/487)
+
+
+
 ## [0.30.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.3...v0.30.4) (2021-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
-
-
-
-# [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
-
-
-### Features
-
-* alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
 
 
 
