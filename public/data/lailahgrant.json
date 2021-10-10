@@ -1,10 +1,9 @@
 {
     "name": "Lailah Grant",
     "bio" : "HTML, CSS (beginner) and Environment Enthuisiat",
-    "avatar" : "",
     "links" : [
         {
-            "name": "Follow me on Github",
+            "name": "Checkout my Github",
             "url" : "https://github.com/lailahgrant.png",
             "icon" : "github"
         },
