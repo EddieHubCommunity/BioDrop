@@ -1,17 +1,12 @@
 {
     "name": "Janmejai Singh",
     "bio": "Student and doing web development stuffs and competitive programming",
-    "avatar": "https://avatars.githubusercontent.com/u/57290444?v=4",
+    "avatar": "http://github.com/spy-1234.png",
     "links": [
       {
         "name": "Follow me on GitHub",
         "url": "http://github.com/spy-1234",
         "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/janmejaisingh",
-        "icon": "twitter"
       }
     ]
   }
