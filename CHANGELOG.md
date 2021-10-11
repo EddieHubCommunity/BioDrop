@@ -1,45 +1,45 @@
-## [0.27.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.6...v0.27.7) (2021-10-02)
+## [0.32.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.0...v0.32.1) (2021-10-11)
 
 
 ### Bug Fixes
 
-* gitpod improvements ([#424](https://github.com/EddieHubCommunity/LinkFree/issues/424)) ([21a5012](https://github.com/EddieHubCommunity/LinkFree/commit/21a5012de9ea8b1eebb07dc978232f0cbf665140))
+* add Jatin Rao ([#496](https://github.com/EddieHubCommunity/LinkFree/issues/496)) ([7c820f3](https://github.com/EddieHubCommunity/LinkFree/commit/7c820f33fc913c522cdee86eaf7a5fe4f7d3e505))
 
 
 
-## [0.27.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.5...v0.27.6) (2021-10-02)
+# [0.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.31.0...v0.32.0) (2021-10-11)
 
 
-### Bug Fixes
+### Features
 
-* added vedant-kakde details ([#422](https://github.com/EddieHubCommunity/LinkFree/issues/422)) ([bb06a64](https://github.com/EddieHubCommunity/LinkFree/commit/bb06a64a6fe29ac4ad219dc9df357d3632115ab0))
-
-
-
-## [0.27.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.4...v0.27.5) (2021-10-02)
-
-
-### Bug Fixes
-
-* package lock regen ([f3e95e0](https://github.com/EddieHubCommunity/LinkFree/commit/f3e95e03c1ccb902defc4004a47765cbd851898b))
+* added a search box ([#471](https://github.com/EddieHubCommunity/LinkFree/issues/471)) ([341f0a2](https://github.com/EddieHubCommunity/LinkFree/commit/341f0a209d3c9bae068a443f0a55e11d283af254))
 
 
 
-## [0.27.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.3...v0.27.4) (2021-10-02)
+# [0.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.4...v0.31.0) (2021-10-10)
 
 
-### Bug Fixes
+### Features
 
-* package lock regen ([e08deca](https://github.com/EddieHubCommunity/LinkFree/commit/e08deca5cdecc7ffa209668d1698aa8f7a7a516a))
+* **Home.css:** Tweak chip style ([#490](https://github.com/EddieHubCommunity/LinkFree/issues/490)) ([e458f63](https://github.com/EddieHubCommunity/LinkFree/commit/e458f638bfc780bb68fabdc9553b3f9afc9ababc)), closes [#487](https://github.com/EddieHubCommunity/LinkFree/issues/487)
 
 
 
-## [0.27.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.27.2...v0.27.3) (2021-10-02)
+## [0.30.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.3...v0.30.4) (2021-10-10)
 
 
 ### Bug Fixes
 
-* evavic44 ([#420](https://github.com/EddieHubCommunity/LinkFree/issues/420)) ([ac24eb5](https://github.com/EddieHubCommunity/LinkFree/commit/ac24eb579ccea5f943a18c4aef66d0febfbbb5f5))
+* **data:** add krishguptadev ([#489](https://github.com/EddieHubCommunity/LinkFree/issues/489)) ([81036ff](https://github.com/EddieHubCommunity/LinkFree/commit/81036ff10a9234987e0c94b216d7f60d53ec8ff6))
+
+
+
+## [0.30.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.2...v0.30.3) (2021-10-09)
+
+
+### Bug Fixes
+
+* add Chiragagrawal9200 to linkfree ([#468](https://github.com/EddieHubCommunity/LinkFree/issues/468)) ([b19e274](https://github.com/EddieHubCommunity/LinkFree/commit/b19e27455c7a5ab6e9b0400470be361c02dd9af4))
 
 
 
