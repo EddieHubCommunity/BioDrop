@@ -1,3 +1,12 @@
+## [0.32.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.3...v0.32.4) (2021-10-11)
+
+
+### Bug Fixes
+
+* add Shubham ([#398](https://github.com/EddieHubCommunity/LinkFree/issues/398)) ([e9c9f02](https://github.com/EddieHubCommunity/LinkFree/commit/e9c9f0284b51b737d43556a2183ab7864fed6005))
+
+
+
 ## [0.32.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.2...v0.32.3) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added a search box ([#471](https://github.com/EddieHubCommunity/LinkFree/issues/471)) ([341f0a2](https://github.com/EddieHubCommunity/LinkFree/commit/341f0a209d3c9bae068a443f0a55e11d283af254))
-
-
-
-# [0.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.4...v0.31.0) (2021-10-10)
-
-
-### Features
-
-* **Home.css:** Tweak chip style ([#490](https://github.com/EddieHubCommunity/LinkFree/issues/490)) ([e458f63](https://github.com/EddieHubCommunity/LinkFree/commit/e458f638bfc780bb68fabdc9553b3f9afc9ababc)), closes [#487](https://github.com/EddieHubCommunity/LinkFree/issues/487)
 
 
 
