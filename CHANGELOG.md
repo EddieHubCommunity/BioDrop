@@ -1,3 +1,12 @@
+## [0.32.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.4...v0.32.5) (2021-10-11)
+
+
+### Bug Fixes
+
+* add profiles from development branch ([#498](https://github.com/EddieHubCommunity/LinkFree/issues/498)) ([dc31b75](https://github.com/EddieHubCommunity/LinkFree/commit/dc31b75d4b41195030a86fa8eaf6f225e2a8a806)), closes [#435](https://github.com/EddieHubCommunity/LinkFree/issues/435) [#433](https://github.com/EddieHubCommunity/LinkFree/issues/433) [#440](https://github.com/EddieHubCommunity/LinkFree/issues/440) [#442](https://github.com/EddieHubCommunity/LinkFree/issues/442) [#454](https://github.com/EddieHubCommunity/LinkFree/issues/454)
+
+
+
 ## [0.32.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.3...v0.32.4) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Jatin Rao ([#496](https://github.com/EddieHubCommunity/LinkFree/issues/496)) ([7c820f3](https://github.com/EddieHubCommunity/LinkFree/commit/7c820f33fc913c522cdee86eaf7a5fe4f7d3e505))
-
-
-
-# [0.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.31.0...v0.32.0) (2021-10-11)
-
-
-### Features
-
-* added a search box ([#471](https://github.com/EddieHubCommunity/LinkFree/issues/471)) ([341f0a2](https://github.com/EddieHubCommunity/LinkFree/commit/341f0a209d3c9bae068a443f0a55e11d283af254))
 
 
 
