@@ -22,3 +22,9 @@ a {
   height: 2.5rem;
   width: 2.5rem;
 }
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
