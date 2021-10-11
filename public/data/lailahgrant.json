@@ -1,19 +1,20 @@
 {
     "name": "Lailah Grant",
     "bio" : "HTML, CSS (beginner) and Environment Enthuisiat",
+    "avatar" : "https://github.com/lailahgrant.png",
     "links" : [
         {
             "name": "Checkout my Github",
-            "url" : "https://github.com/lailahgrant.png",
+            "url" : "https://github.com/lailahgrant",
             "icon" : "github"
         },
-        {
+        {KC CKJDD
             "name": "Follow me on Twitter",
             "url" : "https://twitter.com/lailah_grant",
             "icon" : "twitter"
         },
         {
-            "name" : "Learn more about me on my LinkedIn Profile",
+            "name" : "Connect with me on LinkedIn",
             "url" : "https://www.linkedin.com/in/lailah-grant-561692168/",
             "icon" : "linkedin"
         }
