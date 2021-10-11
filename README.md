@@ -15,7 +15,7 @@ LinkFree Connect audiences to all of your content with just one link. It is an o
 
 ## 👨‍💻 Demo
 
-Check out the website : [LinkFree](http://linkfree.eddiehub.org/)
+Check out the website: [LinkFree](http://linkfree.eddiehub.org/)
 
 ## 👇 Prerequisites
 
