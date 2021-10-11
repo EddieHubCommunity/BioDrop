@@ -1,3 +1,12 @@
+## [0.32.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.0...v0.32.1) (2021-10-11)
+
+
+### Bug Fixes
+
+* add Jatin Rao ([#496](https://github.com/EddieHubCommunity/LinkFree/issues/496)) ([7c820f3](https://github.com/EddieHubCommunity/LinkFree/commit/7c820f33fc913c522cdee86eaf7a5fe4f7d3e505))
+
+
+
 # [0.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.31.0...v0.32.0) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Chiragagrawal9200 to linkfree ([#468](https://github.com/EddieHubCommunity/LinkFree/issues/468)) ([b19e274](https://github.com/EddieHubCommunity/LinkFree/commit/b19e27455c7a5ab6e9b0400470be361c02dd9af4))
-
-
-
-## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
-
-
-### Bug Fixes
-
-* RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
 
 
 
