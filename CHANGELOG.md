@@ -1,3 +1,12 @@
+## [0.32.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.6...v0.32.7) (2021-10-11)
+
+
+### Bug Fixes
+
+* add linkedin for FayasNoushad ([#485](https://github.com/EddieHubCommunity/LinkFree/issues/485)) ([1204d1b](https://github.com/EddieHubCommunity/LinkFree/commit/1204d1b362bdb4500936a9802661c891a0cfc35f))
+
+
+
 ## [0.32.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.5...v0.32.6) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add ssensalo ([#412](https://github.com/EddieHubCommunity/LinkFree/issues/412)) ([fd9bda9](https://github.com/EddieHubCommunity/LinkFree/commit/fd9bda963944ff4f60ce3f75974fb06f002806af))
-
-
-
-## [0.32.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.1...v0.32.2) (2021-10-11)
-
-
-### Bug Fixes
-
-* add fayazmiraz ([#441](https://github.com/EddieHubCommunity/LinkFree/issues/441)) ([39f49f7](https://github.com/EddieHubCommunity/LinkFree/commit/39f49f78d5208cc4c789bfe4d850fd7ae4b0fa5e))
 
 
 
