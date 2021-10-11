@@ -1,3 +1,12 @@
+## [0.32.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.2...v0.32.3) (2021-10-11)
+
+
+### Bug Fixes
+
+* add ssensalo ([#412](https://github.com/EddieHubCommunity/LinkFree/issues/412)) ([fd9bda9](https://github.com/EddieHubCommunity/LinkFree/commit/fd9bda963944ff4f60ce3f75974fb06f002806af))
+
+
+
 ## [0.32.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.1...v0.32.2) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **Home.css:** Tweak chip style ([#490](https://github.com/EddieHubCommunity/LinkFree/issues/490)) ([e458f63](https://github.com/EddieHubCommunity/LinkFree/commit/e458f638bfc780bb68fabdc9553b3f9afc9ababc)), closes [#487](https://github.com/EddieHubCommunity/LinkFree/issues/487)
-
-
-
-## [0.30.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.3...v0.30.4) (2021-10-10)
-
-
-### Bug Fixes
-
-* **data:** add krishguptadev ([#489](https://github.com/EddieHubCommunity/LinkFree/issues/489)) ([81036ff](https://github.com/EddieHubCommunity/LinkFree/commit/81036ff10a9234987e0c94b216d7f60d53ec8ff6))
 
 
 
