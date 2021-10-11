@@ -23,14 +23,8 @@ a {
   width: 2.5rem;
 }
 
-.searchBar {
+.search-section {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  padding: 0.8rem 0.6rem;
-  margin: 0 0 .6rem 0;
-  border: none;
-  background-color: #DEE2E6;
-  border-radius: 15px;
-  font-size: 1rem;
+  justify-content: center;
+  margin-bottom: 10px;
 }
