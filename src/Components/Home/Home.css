@@ -6,6 +6,7 @@ a {
   transition: transform 0.33s;
   padding: 0.4rem 0.9rem;
   border-radius: 2rem;
+  width: 16rem;
 }
 
 .p-chip:hover {
