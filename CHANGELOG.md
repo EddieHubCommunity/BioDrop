@@ -1,3 +1,12 @@
+# [0.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.31.0...v0.32.0) (2021-10-11)
+
+
+### Features
+
+* added a search box ([#471](https://github.com/EddieHubCommunity/LinkFree/issues/471)) ([341f0a2](https://github.com/EddieHubCommunity/LinkFree/commit/341f0a209d3c9bae068a443f0a55e11d283af254))
+
+
+
 # [0.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.4...v0.31.0) (2021-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
-
-
-
-## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
-
-
-### Bug Fixes
-
-* Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
 
 
 
