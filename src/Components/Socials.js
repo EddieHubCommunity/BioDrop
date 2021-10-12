@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useParams, Link, useHistory } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
 
 import Profile from './Profile'
@@ -11,6 +11,7 @@ function Socials() {
   const { username } = useParams()
   const [profile, setProfile] = useState({})
   const history = useHistory()
+  console.log(history)
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
@@ -28,7 +29,10 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
-          <i className="pi pi-arrow-left" onClick={() => history.goBack()}></i>
+          { history.length === 2
+            ? <Link to="/"> <i className="pi pi-arrow-left"></i></Link>
+            : <i className="pi pi-arrow-left" onClick={() => history.goBack()}></i>
+            }
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}
