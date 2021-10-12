@@ -22,6 +22,7 @@ function Links({ links }) {
     vimeo: '#1AB7EA',
     youtube: '#FF0000',
     envelope: '#5F6368',
+    send: '#2AA2DE', // telegram link
   }
 
   const goToLinkHandle = (url) => {
