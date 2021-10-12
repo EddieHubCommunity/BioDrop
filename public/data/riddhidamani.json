@@ -1,0 +1,22 @@
+{
+  "name": "Riddhi Damani",
+  "bio": "Full Stack Application Developer with interest in designing and developing creative and user-friendly web and mobile apps",
+  "avatar": "https://avatars.githubusercontent.com/u/19336011?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RiddhiDamani",
+      "icon": "github"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/riddhidamani/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://riddhidamani.github.io/Portfolio/",
+      "icon": "web"
+    }
+  ]
+}
