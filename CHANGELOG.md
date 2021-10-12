@@ -1,3 +1,12 @@
+# [0.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.9...v0.33.0) (2021-10-12)
+
+
+### Features
+
+* added Telegram as Social ([#493](https://github.com/EddieHubCommunity/LinkFree/issues/493)) ([20a6ee5](https://github.com/EddieHubCommunity/LinkFree/commit/20a6ee50f63fb9842fb14cca5ad1a27a0d2b8915))
+
+
+
 ## [0.32.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.8...v0.32.9) (2021-10-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add rafalty ([#436](https://github.com/EddieHubCommunity/LinkFree/issues/436)) ([f3205e6](https://github.com/EddieHubCommunity/LinkFree/commit/f3205e6adfe141443452d6de7da611da4ee30043))
-
-
-
-## [0.32.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.4...v0.32.5) (2021-10-11)
-
-
-### Bug Fixes
-
-* add profiles from development branch ([#498](https://github.com/EddieHubCommunity/LinkFree/issues/498)) ([dc31b75](https://github.com/EddieHubCommunity/LinkFree/commit/dc31b75d4b41195030a86fa8eaf6f225e2a8a806)), closes [#435](https://github.com/EddieHubCommunity/LinkFree/issues/435) [#433](https://github.com/EddieHubCommunity/LinkFree/issues/433) [#440](https://github.com/EddieHubCommunity/LinkFree/issues/440) [#442](https://github.com/EddieHubCommunity/LinkFree/issues/442) [#454](https://github.com/EddieHubCommunity/LinkFree/issues/454)
 
 
 
