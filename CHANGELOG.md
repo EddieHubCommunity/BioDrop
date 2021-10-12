@@ -1,3 +1,12 @@
+## [0.32.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.8...v0.32.9) (2021-10-12)
+
+
+### Bug Fixes
+
+* add Hrishikesh156 ([#499](https://github.com/EddieHubCommunity/LinkFree/issues/499)) ([f17de91](https://github.com/EddieHubCommunity/LinkFree/commit/f17de91ef692371354fe11a9d8f8b5979082a79e))
+
+
+
 ## [0.32.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.7...v0.32.8) (2021-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add profiles from development branch ([#498](https://github.com/EddieHubCommunity/LinkFree/issues/498)) ([dc31b75](https://github.com/EddieHubCommunity/LinkFree/commit/dc31b75d4b41195030a86fa8eaf6f225e2a8a806)), closes [#435](https://github.com/EddieHubCommunity/LinkFree/issues/435) [#433](https://github.com/EddieHubCommunity/LinkFree/issues/433) [#440](https://github.com/EddieHubCommunity/LinkFree/issues/440) [#442](https://github.com/EddieHubCommunity/LinkFree/issues/442) [#454](https://github.com/EddieHubCommunity/LinkFree/issues/454)
-
-
-
-## [0.32.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.3...v0.32.4) (2021-10-11)
-
-
-### Bug Fixes
-
-* add Shubham ([#398](https://github.com/EddieHubCommunity/LinkFree/issues/398)) ([e9c9f02](https://github.com/EddieHubCommunity/LinkFree/commit/e9c9f0284b51b737d43556a2183ab7864fed6005))
 
 
 
