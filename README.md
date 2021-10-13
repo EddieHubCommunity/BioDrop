@@ -1,8 +1,11 @@
 # LinkFree - EddieHub
 
-LinkFree Connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript. It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
+- LinkFree Connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript. 
+- It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Screenshot](https://user-images.githubusercontent.com/60853067/133296120-dbdb1799-4cca-4708-81ce-05edc65e59c9.png)
+
+## Note for Hacktoberfest
 
 > A note for Hacktoberfest Participants:
 > 
@@ -37,10 +40,11 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 ## 👨‍💻 Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-Check out [Contributing.md](Contributing.md) file for more information.
+- Contributions are what makes the open source community such an amazing place to learn, inspire, and create. 
+- Any contributions you make are **greatly appreciated**.
+- Check out our [contribution guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md) for more information.
 
-### 🎭 To Add Your Profile
+## 🎭 To Add Your Profile
 
 Create a file named `your-username.json` in the directory `public/data` with the following content:
 
