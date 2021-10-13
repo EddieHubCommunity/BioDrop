@@ -35,15 +35,15 @@
         "color": "grey",
         "description": "Started Full Time Role",
         "target": "https://github.com/ravireddy07"
-        },
-        {
-          "title": "Udacity Scholarships",
-          "date": "Jan 2018",
-          "icon": "shield",
-          "color": "grey",
-          "description": "Achieved Multiple Scholarships",
-          "target": "https://github.com/ravireddy07"
-        }
+      },
+      {
+        "title": "Udacity Scholarships",
+        "date": "Jan 2018",
+        "icon": "shield",
+        "color": "grey",
+        "description": "Achieved Multiple Scholarships",
+        "target": "https://github.com/ravireddy07"
+      }
     ]
   }
   
