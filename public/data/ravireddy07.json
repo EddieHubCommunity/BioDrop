@@ -4,29 +4,45 @@
     "avatar": "https://github.com/ravireddy07.png",
     "links": [
       {
-        "name": "Follow me on GitHub",
-        "url": "https://github.com/ravireddy07",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
+        "name": "Follow on Twitter",
         "url": "https://twitter.com/ravi_reddy_07",
         "icon": "twitter"
       },
       {
-        "name": "Connect on LinkedIn",
+        "name": "Follow on GitHub",
+        "url": "https://github.com/ravireddy07",
+        "icon": "github"
+      },
+      {
+        "name": "Let's Connect on LinkedIn",
         "url": "https://linkedin.com/in/ravireddy07",
         "icon": "linkedin"
       }
     ],
-    "aims": [
+    "milestones": [
+      {
+        "title": "Started Freelancing",
+        "date": "Jan 2020",
+        "icon": "dollar",
+        "color": "grey",
+        "description": "Started freelancing",
+        "url": "https://github.com/ravireddy07/"
+      },
+      {
+        "title": "Full Time Role",
+        "date": "Jan 2021",
+        "icon": "dollar",
+        "color": "grey",
+        "description": "Started Full Time Role",
+        "target": "https://github.com/ravireddy07"
+        },
         {
-            "title": "Full Time Role",
-            "date": "Jan 2021",
-            "icon": "job",
-            "color": "grey",
-            "description": "Started Full Time Role",
-            "target": "Achieve Good Salary"
+          "title": "Udacity Scholarships",
+          "date": "Jan 2018",
+          "icon": "dollar",
+          "color": "grey",
+          "description": "Achieved Multiple Scholarships",
+          "target": "https://github.com/ravireddy07"
         }
     ]
   }
