@@ -5,7 +5,7 @@ import { Skeleton } from 'primereact/skeleton'
 
 const ImageLoader = ({ avatar, username }) => {
   const imgEl = useRef(null)
-  const [loaded, setLoaded] = React.useState(false)
+  const [loaded, setLoaded] = useState(false)
 
   const onImageLoaded = () => {
     setLoaded(true)
