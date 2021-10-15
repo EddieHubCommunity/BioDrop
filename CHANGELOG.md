@@ -1,3 +1,12 @@
+## [0.33.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.4...v0.33.5) (2021-10-15)
+
+
+### Bug Fixes
+
+* exclude link button if no link ([#511](https://github.com/EddieHubCommunity/LinkFree/issues/511)) ([cca262e](https://github.com/EddieHubCommunity/LinkFree/commit/cca262eff42b80ff31bce44d553e7380ec730286))
+
+
+
 ## [0.33.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.3...v0.33.4) (2021-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add rushikeshadhav ([#469](https://github.com/EddieHubCommunity/LinkFree/issues/469)) ([6617a6b](https://github.com/EddieHubCommunity/LinkFree/commit/6617a6b38de94ee36bda3ed265c9ccbacc2af1ed))
-
-
-
-# [0.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.9...v0.33.0) (2021-10-12)
-
-
-### Features
-
-* added Telegram as Social ([#493](https://github.com/EddieHubCommunity/LinkFree/issues/493)) ([20a6ee5](https://github.com/EddieHubCommunity/LinkFree/commit/20a6ee50f63fb9842fb14cca5ad1a27a0d2b8915))
 
 
 
