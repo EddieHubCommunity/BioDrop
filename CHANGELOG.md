@@ -1,3 +1,12 @@
+## [0.33.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.3...v0.33.4) (2021-10-15)
+
+
+### Bug Fixes
+
+* Avatar in data/rushikeshadhav ([#515](https://github.com/EddieHubCommunity/LinkFree/issues/515)) ([9462d97](https://github.com/EddieHubCommunity/LinkFree/commit/9462d977ca17b29915abc7196cf55dc636cd026b)), closes [#514](https://github.com/EddieHubCommunity/LinkFree/issues/514)
+
+
+
 ## [0.33.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.2...v0.33.3) (2021-10-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added Telegram as Social ([#493](https://github.com/EddieHubCommunity/LinkFree/issues/493)) ([20a6ee5](https://github.com/EddieHubCommunity/LinkFree/commit/20a6ee50f63fb9842fb14cca5ad1a27a0d2b8915))
-
-
-
-## [0.32.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.32.8...v0.32.9) (2021-10-12)
-
-
-### Bug Fixes
-
-* add Hrishikesh156 ([#499](https://github.com/EddieHubCommunity/LinkFree/issues/499)) ([f17de91](https://github.com/EddieHubCommunity/LinkFree/commit/f17de91ef692371354fe11a9d8f8b5979082a79e))
 
 
 
