@@ -1,6 +1,6 @@
 {
   "name": "Oge Obubu",
-  "bio": "Christian | Frontend Web Developer | MERN Stack developer",
+  "bio": "Christian, Frontend Web Developer, MERN Stack developer",
   "avatar": "https://github.com/ogeobubu.png",
   "links": [
     {
@@ -22,6 +22,6 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/obubuoge",
       "icon": "twitter"
-    },
+    }
   ]
 }
