@@ -36,16 +36,16 @@ function Milestones({ milestones }) {
         />
       )}
       <p>{milestone.description}</p>
-      {typeof milestone.url !== 'undefined' &&
+      {milestone.url && (
         <div className="p-d-flex p-jc-end">
           <Button
             label="Learn more"
             icon="pi pi-check"
             className="p-button-raised p-button-rounded"
             onClick={() => goToLinkHandle(milestone.url)}
-          />
-        </div>
-      }
+        />
+      </div>
+      )}
     </Card>
   )
 
