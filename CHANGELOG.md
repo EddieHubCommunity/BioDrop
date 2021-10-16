@@ -1,3 +1,12 @@
+## [0.33.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.5...v0.33.6) (2021-10-16)
+
+
+### Bug Fixes
+
+* added 889-dj profile ([#517](https://github.com/EddieHubCommunity/LinkFree/issues/517)) ([1487acc](https://github.com/EddieHubCommunity/LinkFree/commit/1487acc7e0c766cb61f71d2be11ad227d4660511))
+
+
+
 ## [0.33.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.4...v0.33.5) (2021-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add Ankkkitt ([#492](https://github.com/EddieHubCommunity/LinkFree/issues/492)) ([34d02f3](https://github.com/EddieHubCommunity/LinkFree/commit/34d02f38f91fbf1463d0399550b38f018ec3ebf2))
-
-
-
-## [0.33.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.0...v0.33.1) (2021-10-14)
-
-
-### Bug Fixes
-
-* add rushikeshadhav ([#469](https://github.com/EddieHubCommunity/LinkFree/issues/469)) ([6617a6b](https://github.com/EddieHubCommunity/LinkFree/commit/6617a6b38de94ee36bda3ed265c9ccbacc2af1ed))
 
 
 
