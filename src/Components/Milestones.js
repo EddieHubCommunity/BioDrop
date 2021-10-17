@@ -39,6 +39,8 @@ function Milestones({ milestones }) {
       {milestone.url && (
         <div className="p-d-flex p-jc-end">
           <Button
+            role="link"
+            rel="noopener noreferrer"
             label="Learn more"
             icon="pi pi-check"
             className="p-button-raised p-button-rounded"
