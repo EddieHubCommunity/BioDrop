@@ -1,3 +1,12 @@
+## [0.33.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.6...v0.33.7) (2021-10-17)
+
+
+### Bug Fixes
+
+* add neerajsingh869 ([#523](https://github.com/EddieHubCommunity/LinkFree/issues/523)) ([927cf43](https://github.com/EddieHubCommunity/LinkFree/commit/927cf43adb9fe8705b544d3e82ed563224d63504))
+
+
+
 ## [0.33.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.5...v0.33.6) (2021-10-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add ravireddy07 ([#510](https://github.com/EddieHubCommunity/LinkFree/issues/510)) ([4fbd43b](https://github.com/EddieHubCommunity/LinkFree/commit/4fbd43b3e54b178854cfc1049d3ca4df4cec1bb4))
-
-
-
-## [0.33.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.1...v0.33.2) (2021-10-14)
-
-
-### Bug Fixes
-
-* Add Ankkkitt ([#492](https://github.com/EddieHubCommunity/LinkFree/issues/492)) ([34d02f3](https://github.com/EddieHubCommunity/LinkFree/commit/34d02f38f91fbf1463d0399550b38f018ec3ebf2))
 
 
 
