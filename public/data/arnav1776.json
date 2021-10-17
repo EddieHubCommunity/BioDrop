@@ -1,17 +1,17 @@
 {
-    "name": "Arnav Sharma",
-    "bio": "Web Developer",
-    "avatar": "https://github.com/arnav1776.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/arnav1776",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/arnav1776",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Arnav Sharma",
+  "bio": "Web Developer",
+  "avatar": "https://github.com/arnav1776.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/arnav1776",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/arnav1776",
+      "icon": "twitter"
+    }
+  ]
 }

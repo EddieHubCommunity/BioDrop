@@ -1,45 +1,45 @@
-## [0.21.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.1...v0.21.2) (2021-09-26)
+## [0.33.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.5...v0.33.6) (2021-10-16)
 
 
 ### Bug Fixes
 
-* links width ([#208](https://github.com/EddieHubCommunity/LinkFree/issues/208)) ([9f11c54](https://github.com/EddieHubCommunity/LinkFree/commit/9f11c54987212b67d37b57df9377b67686d2776f))
+* added 889-dj profile ([#517](https://github.com/EddieHubCommunity/LinkFree/issues/517)) ([1487acc](https://github.com/EddieHubCommunity/LinkFree/commit/1487acc7e0c766cb61f71d2be11ad227d4660511))
 
 
 
-## [0.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.21.0...v0.21.1) (2021-09-26)
-
-
-### Bug Fixes
-
-* Anirudh data ([#173](https://github.com/EddieHubCommunity/LinkFree/issues/173)) ([7829a36](https://github.com/EddieHubCommunity/LinkFree/commit/7829a36c3081033608872661759d4c207b6d8646))
-
-
-
-# [0.21.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.1...v0.21.0) (2021-09-26)
-
-
-### Features
-
-* milestones ([#252](https://github.com/EddieHubCommunity/LinkFree/issues/252)) ([#254](https://github.com/EddieHubCommunity/LinkFree/issues/254)) ([f3c0a60](https://github.com/EddieHubCommunity/LinkFree/commit/f3c0a60ab3047d68759cc9e99bc69db68de6e2cd))
-
-
-
-## [0.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.20.0...v0.20.1) (2021-09-24)
+## [0.33.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.4...v0.33.5) (2021-10-15)
 
 
 ### Bug Fixes
 
-* add niteshseram's data ([#307](https://github.com/EddieHubCommunity/LinkFree/issues/307)) ([a17c29e](https://github.com/EddieHubCommunity/LinkFree/commit/a17c29e76afb82330a48c40b97d4b2ebbff4cae5))
+* exclude link button if no link ([#511](https://github.com/EddieHubCommunity/LinkFree/issues/511)) ([cca262e](https://github.com/EddieHubCommunity/LinkFree/commit/cca262eff42b80ff31bce44d553e7380ec730286))
 
 
 
-# [0.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.19.2...v0.20.0) (2021-09-23)
+## [0.33.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.3...v0.33.4) (2021-10-15)
 
 
-### Features
+### Bug Fixes
 
-* add Sejal-16 ([#301](https://github.com/EddieHubCommunity/LinkFree/issues/301)) ([35aa054](https://github.com/EddieHubCommunity/LinkFree/commit/35aa054e599b640359fd691e72ca2a2a706a96ef))
+* Avatar in data/rushikeshadhav ([#515](https://github.com/EddieHubCommunity/LinkFree/issues/515)) ([9462d97](https://github.com/EddieHubCommunity/LinkFree/commit/9462d977ca17b29915abc7196cf55dc636cd026b)), closes [#514](https://github.com/EddieHubCommunity/LinkFree/issues/514)
+
+
+
+## [0.33.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.2...v0.33.3) (2021-10-14)
+
+
+### Bug Fixes
+
+* add ravireddy07 ([#510](https://github.com/EddieHubCommunity/LinkFree/issues/510)) ([4fbd43b](https://github.com/EddieHubCommunity/LinkFree/commit/4fbd43b3e54b178854cfc1049d3ca4df4cec1bb4))
+
+
+
+## [0.33.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.1...v0.33.2) (2021-10-14)
+
+
+### Bug Fixes
+
+* Add Ankkkitt ([#492](https://github.com/EddieHubCommunity/LinkFree/issues/492)) ([34d02f3](https://github.com/EddieHubCommunity/LinkFree/commit/34d02f38f91fbf1463d0399550b38f018ec3ebf2))
 
 
 

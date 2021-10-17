@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Footer from './Components/Footer'
 import Socials from './Components/Socials'
-import Home from './Components/Home'
+import Home from './Components/Home/Home'
 
 function App() {
   return (

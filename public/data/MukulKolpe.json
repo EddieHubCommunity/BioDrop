@@ -1,17 +1,17 @@
 {
-    "name": "Mukul Kolpe",
-    "bio": "Open Source Enthusiast | Web Developer",
-    "avatar": "https://github.com/MukulKolpe.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/MukulKolpe",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "https://twitter.com/MukulKolpe",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Mukul Kolpe",
+  "bio": "Open Source Enthusiast | Web Developer",
+  "avatar": "https://github.com/MukulKolpe.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/MukulKolpe",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MukulKolpe",
+      "icon": "twitter"
+    }
+  ]
 }
