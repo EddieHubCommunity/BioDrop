@@ -7,8 +7,9 @@ function User({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
   return (
     <>
+      <label htmlFor="search-input">Search for User</label>
       <div className="search-section">
-        <InputText value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Search..." />
+        <InputText value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} name="user" id="search-input" placeholder="Search..." />
       </div>
       {list.filter(User => User.name.toLowerCase().includes(searchTerm.toLowerCase())).map((user, key) => (
         <a href={`${user.username}`} key={`avatar-${key}`}>
