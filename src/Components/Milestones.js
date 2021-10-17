@@ -27,8 +27,7 @@ function Milestones({ milestones }) {
         <img
           src={milestone.image}
           onError={(e) =>
-            (e.target.src =
-              'https://github.com/EddieHubCommunity.png')
+            (e.target.src = 'https://github.com/EddieHubCommunity.png')
           }
           alt={milestone.title}
           width={100}
@@ -41,10 +40,12 @@ function Milestones({ milestones }) {
           <Button
             label="Learn more"
             icon="pi pi-check"
+            role="link"
+            rel="noopener noreferrer"
             className="p-button-raised p-button-rounded"
             onClick={() => goToLinkHandle(milestone.url)}
-        />
-      </div>
+          />
+        </div>
       )}
     </Card>
   )
