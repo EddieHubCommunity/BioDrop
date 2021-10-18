@@ -1,3 +1,12 @@
+## [0.33.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.8...v0.33.9) (2021-10-18)
+
+
+### Bug Fixes
+
+* add aria label to the back arrow ([#529](https://github.com/EddieHubCommunity/LinkFree/issues/529)) ([32155e2](https://github.com/EddieHubCommunity/LinkFree/commit/32155e23ce763752bbd2dcd6ac0404fa4e8ff2bc))
+
+
+
 ## [0.33.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.7...v0.33.8) (2021-10-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * exclude link button if no link ([#511](https://github.com/EddieHubCommunity/LinkFree/issues/511)) ([cca262e](https://github.com/EddieHubCommunity/LinkFree/commit/cca262eff42b80ff31bce44d553e7380ec730286))
-
-
-
-## [0.33.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.3...v0.33.4) (2021-10-15)
-
-
-### Bug Fixes
-
-* Avatar in data/rushikeshadhav ([#515](https://github.com/EddieHubCommunity/LinkFree/issues/515)) ([9462d97](https://github.com/EddieHubCommunity/LinkFree/commit/9462d977ca17b29915abc7196cf55dc636cd026b)), closes [#514](https://github.com/EddieHubCommunity/LinkFree/issues/514)
 
 
 
