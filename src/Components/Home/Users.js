@@ -6,41 +6,37 @@ import { Message } from 'primereact/message'
 
 function User({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
+  const [filteredList, setFilteredList] = useState(list)
   return (
     <>
       <div className="search-section">
         <InputText
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          onChange={(e) => {
+            setSearchTerm(e.target.value)
+            setFilteredList(
+              list.filter((User) =>
+                User.name.toLowerCase().includes(searchTerm.toLowerCase()),
+              ),
+            )
+          }}
           placeholder="Search..."
         />
       </div>
-      {(() => {
-        if (
-          list.filter((User) =>
-            User.name.toLowerCase().includes(searchTerm.toLowerCase()),
-          ).length > 0
-        ) {
-          return list
-            .filter((User) =>
-              User.name.toLowerCase().includes(searchTerm.toLowerCase()),
-            )
-            .map((user, key) => (
+      {!!filteredList && filteredList.length > 0
+        ? (
+            filteredList.map((user, key) => (
               <a href={`${user.username}`} key={`avatar-${key}`}>
                 <Chip image={user.avatar} className="p-m-2" label={user.name} />
               </a>
             ))
-        } else {
-          return (
+          )
+        : (
             <div className="p-d-flex p-jc-center p-ai-center">
-              <Message
-                severity="error"
-                text="User not found."
-              />
+              <Message severity="error" text="User not found." />
             </div>
           )
-        }
-      })()}
+      }
     </>
   )
 }
