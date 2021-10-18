@@ -1,3 +1,12 @@
+## [0.33.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.7...v0.33.8) (2021-10-18)
+
+
+### Bug Fixes
+
+* add vsnthdev ([#531](https://github.com/EddieHubCommunity/LinkFree/issues/531)) ([142f944](https://github.com/EddieHubCommunity/LinkFree/commit/142f94451e75f4c78c1b66201c9096f1847ed6ee))
+
+
+
 ## [0.33.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.6...v0.33.7) (2021-10-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Avatar in data/rushikeshadhav ([#515](https://github.com/EddieHubCommunity/LinkFree/issues/515)) ([9462d97](https://github.com/EddieHubCommunity/LinkFree/commit/9462d977ca17b29915abc7196cf55dc636cd026b)), closes [#514](https://github.com/EddieHubCommunity/LinkFree/issues/514)
-
-
-
-## [0.33.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.2...v0.33.3) (2021-10-14)
-
-
-### Bug Fixes
-
-* add ravireddy07 ([#510](https://github.com/EddieHubCommunity/LinkFree/issues/510)) ([4fbd43b](https://github.com/EddieHubCommunity/LinkFree/commit/4fbd43b3e54b178854cfc1049d3ca4df4cec1bb4))
 
 
 
