@@ -37,7 +37,3 @@ label {
   margin-bottom: 10px;
   transition: transform 0.33s;
 }
-
-label:hover, label:active {
-  transform: scale(1.05) 
-}
