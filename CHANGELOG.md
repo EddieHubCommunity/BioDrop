@@ -1,3 +1,12 @@
+## [0.33.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.9...v0.33.10) (2021-10-18)
+
+
+### Bug Fixes
+
+* resize alternative text overflow in avatar images ([#505](https://github.com/EddieHubCommunity/LinkFree/issues/505)) ([42f3187](https://github.com/EddieHubCommunity/LinkFree/commit/42f3187ee00494f00eb8995dd66c698be9ea2558))
+
+
+
 ## [0.33.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.8...v0.33.9) (2021-10-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added 889-dj profile ([#517](https://github.com/EddieHubCommunity/LinkFree/issues/517)) ([1487acc](https://github.com/EddieHubCommunity/LinkFree/commit/1487acc7e0c766cb61f71d2be11ad227d4660511))
-
-
-
-## [0.33.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.4...v0.33.5) (2021-10-15)
-
-
-### Bug Fixes
-
-* exclude link button if no link ([#511](https://github.com/EddieHubCommunity/LinkFree/issues/511)) ([cca262e](https://github.com/EddieHubCommunity/LinkFree/commit/cca262eff42b80ff31bce44d553e7380ec730286))
 
 
 
