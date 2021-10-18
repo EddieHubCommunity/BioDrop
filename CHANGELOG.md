@@ -1,3 +1,12 @@
+## [0.33.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.10...v0.33.11) (2021-10-18)
+
+
+### Bug Fixes
+
+* update avatar image to prevent no tacking error ([9573158](https://github.com/EddieHubCommunity/LinkFree/commit/957315821a4d0d0a1a220744f62b91426cd4ef41))
+
+
+
 ## [0.33.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.9...v0.33.10) (2021-10-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add neerajsingh869 ([#523](https://github.com/EddieHubCommunity/LinkFree/issues/523)) ([927cf43](https://github.com/EddieHubCommunity/LinkFree/commit/927cf43adb9fe8705b544d3e82ed563224d63504))
-
-
-
-## [0.33.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.5...v0.33.6) (2021-10-16)
-
-
-### Bug Fixes
-
-* added 889-dj profile ([#517](https://github.com/EddieHubCommunity/LinkFree/issues/517)) ([1487acc](https://github.com/EddieHubCommunity/LinkFree/commit/1487acc7e0c766cb61f71d2be11ad227d4660511))
 
 
 
