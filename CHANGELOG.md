@@ -1,3 +1,12 @@
+## [0.33.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.13...v0.33.14) (2021-10-19)
+
+
+### Bug Fixes
+
+* add zehra47 ([#536](https://github.com/EddieHubCommunity/LinkFree/issues/536)) ([aba4e03](https://github.com/EddieHubCommunity/LinkFree/commit/aba4e033f340b69b1c47ea045da05f80989753bb))
+
+
+
 ## [0.33.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.12...v0.33.13) (2021-10-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * resize alternative text overflow in avatar images ([#505](https://github.com/EddieHubCommunity/LinkFree/issues/505)) ([42f3187](https://github.com/EddieHubCommunity/LinkFree/commit/42f3187ee00494f00eb8995dd66c698be9ea2558))
-
-
-
-## [0.33.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.8...v0.33.9) (2021-10-18)
-
-
-### Bug Fixes
-
-* add aria label to the back arrow ([#529](https://github.com/EddieHubCommunity/LinkFree/issues/529)) ([32155e2](https://github.com/EddieHubCommunity/LinkFree/commit/32155e23ce763752bbd2dcd6ac0404fa4e8ff2bc))
 
 
 
