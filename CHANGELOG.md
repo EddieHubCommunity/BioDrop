@@ -1,3 +1,12 @@
+## [0.33.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.12...v0.33.13) (2021-10-19)
+
+
+### Bug Fixes
+
+* add imanishbarnwal ([#391](https://github.com/EddieHubCommunity/LinkFree/issues/391)) ([f9ba021](https://github.com/EddieHubCommunity/LinkFree/commit/f9ba0215fbf0657702f880171394539283ac9410))
+
+
+
 ## [0.33.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.11...v0.33.12) (2021-10-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add aria label to the back arrow ([#529](https://github.com/EddieHubCommunity/LinkFree/issues/529)) ([32155e2](https://github.com/EddieHubCommunity/LinkFree/commit/32155e23ce763752bbd2dcd6ac0404fa4e8ff2bc))
-
-
-
-## [0.33.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.7...v0.33.8) (2021-10-18)
-
-
-### Bug Fixes
-
-* add vsnthdev ([#531](https://github.com/EddieHubCommunity/LinkFree/issues/531)) ([142f944](https://github.com/EddieHubCommunity/LinkFree/commit/142f94451e75f4c78c1b66201c9096f1847ed6ee))
 
 
 
