@@ -1,3 +1,12 @@
+## [0.33.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.14...v0.33.15) (2021-10-19)
+
+
+### Bug Fixes
+
+* automated testing for search ([#535](https://github.com/EddieHubCommunity/LinkFree/issues/535)) ([c0e69b8](https://github.com/EddieHubCommunity/LinkFree/commit/c0e69b8c7746c63bfc95323ee7d129ecd840ee73))
+
+
+
 ## [0.33.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.13...v0.33.14) (2021-10-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update avatar image to prevent no tacking error ([9573158](https://github.com/EddieHubCommunity/LinkFree/commit/957315821a4d0d0a1a220744f62b91426cd4ef41))
-
-
-
-## [0.33.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.9...v0.33.10) (2021-10-18)
-
-
-### Bug Fixes
-
-* resize alternative text overflow in avatar images ([#505](https://github.com/EddieHubCommunity/LinkFree/issues/505)) ([42f3187](https://github.com/EddieHubCommunity/LinkFree/commit/42f3187ee00494f00eb8995dd66c698be9ea2558))
 
 
 
