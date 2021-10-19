@@ -1,0 +1,17 @@
+{
+  "name": "Krish Gupta",
+  "bio": "An enthusiast student developer looking forward to contribute to open source!",
+  "avatar": "https://github.com/krishguptadev.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/krishguptadev",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/krishguptadev",
+      "icon": "twitter"
+    }
+  ]
+}

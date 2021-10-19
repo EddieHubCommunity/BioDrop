@@ -1,36 +1,44 @@
 import React, { useState, useEffect } from 'react'
-
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
+import { ProgressBar } from 'primereact/progressbar'
 
 import Profile from './Profile'
 import Links from './Links'
+import Milestones from './Milestones'
 
 function Socials() {
+  const [showProgress, setShowProgress] = useState(true)
   const { username } = useParams()
-  const [profile, setProfile] = useState({
-    name: '404',
-    bio: '-',
-    avatar:
-      'https://user-images.githubusercontent.com/624760/114314271-ea156a80-9af1-11eb-97ca-977be7565aa6.png',
-    links: [],
-  })
+  const [profile, setProfile] = useState({})
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
       .then((data) => setProfile(data))
+      .catch((error) => {
+        console.log('Socials useEffect', error)
+        alert('An error occurred please try again later.')
+      })
+      .finally(() => setShowProgress(false))
   }, [username])
 
   return (
-    <div>
-      <Profile
-        bio={profile.bio}
-        avatar={profile.avatar}
-        name={profile.name}
-        total={profile.links.length}
-      />
-      <Links links={profile.links} />
-    </div>
+    <main>
+      {showProgress && <ProgressBar mode="indeterminate" />}
+      {!showProgress && (
+        <>
+          <Link to="/" aria-label="Go back to Home"><i className="pi pi-arrow-left"></i></Link>
+          <Profile
+            bio={profile.bio}
+            avatar={profile.avatar}
+            name={profile.name}
+            total={profile.links.length}
+          />
+          <Links links={profile.links} />
+        </>
+      )}
+      {profile.milestones && <Milestones milestones={profile.milestones} />}
+    </main>
   )
 }
 
