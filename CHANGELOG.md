@@ -1,45 +1,45 @@
-# [0.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.1...v0.16.0) (2021-09-17)
-
-
-### Features
-
-* center avatars on homepage  ([#215](https://github.com/EddieHubCommunity/LinkFree/issues/215)) ([82ced80](https://github.com/EddieHubCommunity/LinkFree/commit/82ced8075e1738c4aa4042530fbf466b6d49fbda)), closes [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#107](https://github.com/EddieHubCommunity/LinkFree/issues/107) [#137](https://github.com/EddieHubCommunity/LinkFree/issues/137) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#144](https://github.com/EddieHubCommunity/LinkFree/issues/144) [#214](https://github.com/EddieHubCommunity/LinkFree/issues/214)
-
-
-
-## [0.15.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.15.0...v0.15.1) (2021-09-16)
+## [0.33.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.12...v0.33.13) (2021-10-19)
 
 
 ### Bug Fixes
 
-* resolve mismatch numbering in steps. ([#217](https://github.com/EddieHubCommunity/LinkFree/issues/217))  ([f54a208](https://github.com/EddieHubCommunity/LinkFree/commit/f54a2089b7ccf8a3acef571a2350430692bbccfe))
+* add imanishbarnwal ([#391](https://github.com/EddieHubCommunity/LinkFree/issues/391)) ([f9ba021](https://github.com/EddieHubCommunity/LinkFree/commit/f9ba0215fbf0657702f880171394539283ac9410))
 
 
 
-# [0.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.14.0...v0.15.0) (2021-09-16)
-
-
-### Features
-
-* add lakshya7878 ([#194](https://github.com/EddieHubCommunity/LinkFree/issues/194)) ([dbeed0b](https://github.com/EddieHubCommunity/LinkFree/commit/dbeed0b6e0b794a12f61b6d16b44c2cec13a14cf))
-
-
-
-# [0.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.8...v0.14.0) (2021-09-16)
-
-
-### Features
-
-* add MukulKolpe ([#203](https://github.com/EddieHubCommunity/LinkFree/issues/203)) ([d432069](https://github.com/EddieHubCommunity/LinkFree/commit/d43206914ea376b6f4c3c5fad9c8a4f903657fd1))
-
-
-
-## [0.13.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.13.7...v0.13.8) (2021-09-15)
+## [0.33.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.11...v0.33.12) (2021-10-19)
 
 
 ### Bug Fixes
 
-* ShaileshKumar007 data ([#178](https://github.com/EddieHubCommunity/LinkFree/issues/178)) ([7d5012a](https://github.com/EddieHubCommunity/LinkFree/commit/7d5012a153afb897dfc0bb28c727d2ced4ca628a))
+* add Alwaz ([#519](https://github.com/EddieHubCommunity/LinkFree/issues/519)) ([cf5ee8a](https://github.com/EddieHubCommunity/LinkFree/commit/cf5ee8ab56e319135c3b610d7a73055faae55c1b))
+
+
+
+## [0.33.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.10...v0.33.11) (2021-10-18)
+
+
+### Bug Fixes
+
+* update avatar image to prevent no tacking error ([9573158](https://github.com/EddieHubCommunity/LinkFree/commit/957315821a4d0d0a1a220744f62b91426cd4ef41))
+
+
+
+## [0.33.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.9...v0.33.10) (2021-10-18)
+
+
+### Bug Fixes
+
+* resize alternative text overflow in avatar images ([#505](https://github.com/EddieHubCommunity/LinkFree/issues/505)) ([42f3187](https://github.com/EddieHubCommunity/LinkFree/commit/42f3187ee00494f00eb8995dd66c698be9ea2558))
+
+
+
+## [0.33.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.8...v0.33.9) (2021-10-18)
+
+
+### Bug Fixes
+
+* add aria label to the back arrow ([#529](https://github.com/EddieHubCommunity/LinkFree/issues/529)) ([32155e2](https://github.com/EddieHubCommunity/LinkFree/commit/32155e23ce763752bbd2dcd6ac0404fa4e8ff2bc))
 
 
 

@@ -12,6 +12,16 @@
       "name": "Follow me on Twitter",
       "url": "http://twitter.com/FayasNoushad",
       "icon": "twitter"
+    },
+    {
+      "name": "Subscribe my YouTube channel",
+      "url": "https://youtube.com/channel/UCqC-Yzy8J9FuTH_lDRhBMCA",
+      "icon": "youtube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/fayasnoushad",
+      "icon": "linkedin"
     }
   ]
 }

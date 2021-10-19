@@ -1,0 +1,17 @@
+{
+  "name": "Shiv Bhonde",
+  "bio": "A  Coding Enthusiast ",
+  "avatar": "https://github.com/technophile-04.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/technophile-04",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShivBhonde",
+      "icon": "twitter"
+    }
+  ]
+}
