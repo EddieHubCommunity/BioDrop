@@ -1,0 +1,16 @@
+{
+  "name": "Zehra Anwar",
+  "bio": " a freshman in computer science",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zehra47",
+      "icon": "github"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://linkedin.com/in/Z-oneOfThree",
+      "icon": "linkedin"
+    },
+  ]
+}
