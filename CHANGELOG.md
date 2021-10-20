@@ -1,3 +1,12 @@
+## [0.33.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.16...v0.33.17) (2021-10-20)
+
+
+### Bug Fixes
+
+* broken contributing link in README ([#542](https://github.com/EddieHubCommunity/LinkFree/issues/542)) ([f15fa36](https://github.com/EddieHubCommunity/LinkFree/commit/f15fa3621e347ff8f421ec8f4f8c8df0caeceb5d))
+
+
+
 ## [0.33.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.15...v0.33.16) (2021-10-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add imanishbarnwal ([#391](https://github.com/EddieHubCommunity/LinkFree/issues/391)) ([f9ba021](https://github.com/EddieHubCommunity/LinkFree/commit/f9ba0215fbf0657702f880171394539283ac9410))
-
-
-
-## [0.33.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.11...v0.33.12) (2021-10-19)
-
-
-### Bug Fixes
-
-* add Alwaz ([#519](https://github.com/EddieHubCommunity/LinkFree/issues/519)) ([cf5ee8a](https://github.com/EddieHubCommunity/LinkFree/commit/cf5ee8ab56e319135c3b610d7a73055faae55c1b))
 
 
 
