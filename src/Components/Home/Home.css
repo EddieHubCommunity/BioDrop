@@ -34,6 +34,5 @@ label {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
-  transition: transform 0.33s;
+  margin-bottom: 10px;  
 }
