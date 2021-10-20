@@ -1,3 +1,12 @@
+## [0.33.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.15...v0.33.16) (2021-10-20)
+
+
+### Bug Fixes
+
+* update copyright information in LICENSE ([#540](https://github.com/EddieHubCommunity/LinkFree/issues/540)) ([3a7e7df](https://github.com/EddieHubCommunity/LinkFree/commit/3a7e7df004af6b6488e052e2e3f2c319805c11d5))
+
+
+
 ## [0.33.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.14...v0.33.15) (2021-10-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Alwaz ([#519](https://github.com/EddieHubCommunity/LinkFree/issues/519)) ([cf5ee8a](https://github.com/EddieHubCommunity/LinkFree/commit/cf5ee8ab56e319135c3b610d7a73055faae55c1b))
-
-
-
-## [0.33.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.10...v0.33.11) (2021-10-18)
-
-
-### Bug Fixes
-
-* update avatar image to prevent no tacking error ([9573158](https://github.com/EddieHubCommunity/LinkFree/commit/957315821a4d0d0a1a220744f62b91426cd4ef41))
 
 
 
