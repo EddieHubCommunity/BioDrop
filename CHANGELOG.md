@@ -1,3 +1,12 @@
+# [0.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.17...v0.34.0) (2021-10-21)
+
+
+### Features
+
+* add search label + CSS ([#521](https://github.com/EddieHubCommunity/LinkFree/issues/521) ) ([2fb5461](https://github.com/EddieHubCommunity/LinkFree/commit/2fb5461b42f83a772fb1b37e2f0f8e4f17851cca))
+
+
+
 ## [0.33.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.16...v0.33.17) (2021-10-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add zehra47 ([#536](https://github.com/EddieHubCommunity/LinkFree/issues/536)) ([aba4e03](https://github.com/EddieHubCommunity/LinkFree/commit/aba4e033f340b69b1c47ea045da05f80989753bb))
-
-
-
-## [0.33.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.12...v0.33.13) (2021-10-19)
-
-
-### Bug Fixes
-
-* add imanishbarnwal ([#391](https://github.com/EddieHubCommunity/LinkFree/issues/391)) ([f9ba021](https://github.com/EddieHubCommunity/LinkFree/commit/f9ba0215fbf0657702f880171394539283ac9410))
 
 
 
