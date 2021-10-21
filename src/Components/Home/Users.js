@@ -33,7 +33,7 @@ function User({ list }) {
           )
         : (
             <div className="p-d-flex p-jc-center p-ai-center">
-              <Message severity="error" text="User not found." />
+              <Message severity="error" text="No users found for this selection." />
             </div>
           )
       }
