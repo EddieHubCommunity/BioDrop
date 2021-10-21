@@ -28,3 +28,11 @@ a {
   justify-content: center;
   margin-bottom: 10px;
 }
+
+label {
+  text-decoration:underline;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;  
+}
