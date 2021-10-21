@@ -1,3 +1,12 @@
+## [0.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.0...v0.34.1) (2021-10-21)
+
+
+### Bug Fixes
+
+* add Athul0491 ([#544](https://github.com/EddieHubCommunity/LinkFree/issues/544)) ([937cd63](https://github.com/EddieHubCommunity/LinkFree/commit/937cd634861fe2fffc88936cbab1f7248f33f453))
+
+
+
 # [0.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.17...v0.34.0) (2021-10-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * automated testing for search ([#535](https://github.com/EddieHubCommunity/LinkFree/issues/535)) ([c0e69b8](https://github.com/EddieHubCommunity/LinkFree/commit/c0e69b8c7746c63bfc95323ee7d129ecd840ee73))
-
-
-
-## [0.33.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.13...v0.33.14) (2021-10-19)
-
-
-### Bug Fixes
-
-* add zehra47 ([#536](https://github.com/EddieHubCommunity/LinkFree/issues/536)) ([aba4e03](https://github.com/EddieHubCommunity/LinkFree/commit/aba4e033f340b69b1c47ea045da05f80989753bb))
 
 
 
