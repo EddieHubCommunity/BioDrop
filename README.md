@@ -42,7 +42,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 - Contributions are what makes the open source community such an amazing place to learn, inspire, and create. 
 - Any contributions you make are **greatly appreciated**.
-- Check out our [contribution guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md) for more information.
+- Check out our [contribution guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/Contributing.md) for more information.
 
 ## 🎭 To Add Your Profile
 

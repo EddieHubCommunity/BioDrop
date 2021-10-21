@@ -9,6 +9,7 @@ function User({ list }) {
   const [filteredList, setFilteredList] = useState(list)
   return (
     <>
+      <label htmlFor="search-input">Search for User</label>
       <div className="search-section">
         <InputText
           value={searchTerm}
