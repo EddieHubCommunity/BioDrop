@@ -1,3 +1,12 @@
+## [0.35.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.5...v0.35.6) (2021-10-22)
+
+
+### Bug Fixes
+
+* ashishshaji ([#569](https://github.com/EddieHubCommunity/LinkFree/issues/569)) ([a3b435d](https://github.com/EddieHubCommunity/LinkFree/commit/a3b435d395ba5ba03cf92ecff60c0af13ae812bc))
+
+
+
 ## [0.35.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.4...v0.35.5) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icons not available in Prime React ([#553](https://github.com/EddieHubCommunity/LinkFree/issues/553)) ([14b0c3e](https://github.com/EddieHubCommunity/LinkFree/commit/14b0c3e53a2110ea4fb7a03d41f921c927e5932b))
-
-
-
-## [0.35.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.0...v0.35.1) (2021-10-22)
-
-
-### Bug Fixes
-
-* **data:** nhcarrigan links ([#552](https://github.com/EddieHubCommunity/LinkFree/issues/552)) ([fce6fe5](https://github.com/EddieHubCommunity/LinkFree/commit/fce6fe514c40436b2b7c2b5a295405b28a3401bc))
 
 
 
