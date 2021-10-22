@@ -4,6 +4,8 @@ Feature: User profile page
 
     Scenario: Navigating to a user's page
         Given I open "home" page
+        Then I do not see "eddiejaoude" as a link
+        When I type "Eddie Jaoude" in ".search-section input"
         Then I see "eddiejaoude" as a link
         When I click on "eddiejaoude"
         Then I should see "eddiejaoude" in the url

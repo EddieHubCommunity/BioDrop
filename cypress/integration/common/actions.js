@@ -29,6 +29,10 @@ Then(`I see {string} as a link`, (text) => {
   cy.get(`a[href*="${text}"]`).should('have.length', 1)
 })
 
+Then(`I do not see {string} as a link`, (text) => {
+  cy.get(`a[href*="${text}"]`).should('not.have.length', 1)
+})
+
 Then(`I see {string} text in section {string}`, (text, location) => {
   cy.get(location).should('contain', text)
 })
