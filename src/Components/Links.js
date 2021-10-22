@@ -23,7 +23,7 @@ function Links({ links }) {
     youtube: '#FF0000',
     envelope: '#5F6368',
     send: '#2AA2DE', // telegram link
-    twitch: '#9146FF'
+    twitch: '#9146FF',
   }
 
   const goToLinkHandle = (url) => {
