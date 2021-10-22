@@ -1,3 +1,12 @@
+## [0.35.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.0...v0.35.1) (2021-10-22)
+
+
+### Bug Fixes
+
+* **data:** nhcarrigan links ([#552](https://github.com/EddieHubCommunity/LinkFree/issues/552)) ([fce6fe5](https://github.com/EddieHubCommunity/LinkFree/commit/fce6fe514c40436b2b7c2b5a295405b28a3401bc))
+
+
+
 # [0.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.1...v0.35.0) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * broken contributing link in README ([#542](https://github.com/EddieHubCommunity/LinkFree/issues/542)) ([f15fa36](https://github.com/EddieHubCommunity/LinkFree/commit/f15fa3621e347ff8f421ec8f4f8c8df0caeceb5d))
-
-
-
-## [0.33.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.15...v0.33.16) (2021-10-20)
-
-
-### Bug Fixes
-
-* update copyright information in LICENSE ([#540](https://github.com/EddieHubCommunity/LinkFree/issues/540)) ([3a7e7df](https://github.com/EddieHubCommunity/LinkFree/commit/3a7e7df004af6b6488e052e2e3f2c319805c11d5))
 
 
 
