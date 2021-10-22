@@ -1,5 +1,6 @@
 .p-button {
   transition: transform 0.33s !important;
+  border-radius: 40px;
 }
 
 .p-button:hover {
