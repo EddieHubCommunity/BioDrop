@@ -27,9 +27,6 @@
   background-color: #0077b5;
 }
 
-.p-button.p-button-outlined:not(a):not(.p-disabled).instagram:hover {
-  background-color: #e4405f;
-}
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).envelope:hover {
   background-color: #5F6368;
