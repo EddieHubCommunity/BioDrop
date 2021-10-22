@@ -1,3 +1,12 @@
+## [0.35.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.2...v0.35.3) (2021-10-22)
+
+
+### Bug Fixes
+
+* buttons rounded ([#432](https://github.com/EddieHubCommunity/LinkFree/issues/432)) ([5a93751](https://github.com/EddieHubCommunity/LinkFree/commit/5a9375198b1fb071ad022735ce41251774dd2258))
+
+
+
 ## [0.35.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.1...v0.35.2) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Athul0491 ([#544](https://github.com/EddieHubCommunity/LinkFree/issues/544)) ([937cd63](https://github.com/EddieHubCommunity/LinkFree/commit/937cd634861fe2fffc88936cbab1f7248f33f453))
-
-
-
-# [0.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.17...v0.34.0) (2021-10-21)
-
-
-### Features
-
-* add search label + CSS ([#521](https://github.com/EddieHubCommunity/LinkFree/issues/521) ) ([2fb5461](https://github.com/EddieHubCommunity/LinkFree/commit/2fb5461b42f83a772fb1b37e2f0f8e4f17851cca))
 
 
 
