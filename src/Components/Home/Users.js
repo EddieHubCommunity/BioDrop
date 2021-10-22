@@ -11,7 +11,7 @@ function User({ list }) {
       <div className="search-section">
         <InputText value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} name="user" id="search-input" placeholder="Search..." />
       </div>
-      {list
+      {searchTerm && list
         .filter((User) =>
           User.name.toLowerCase().includes(searchTerm.toLowerCase()),
         )
