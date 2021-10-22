@@ -1,3 +1,12 @@
+# [0.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.1...v0.35.0) (2021-10-22)
+
+
+### Features
+
+* husky lint ([#308](https://github.com/EddieHubCommunity/LinkFree/issues/308)) ([47523cb](https://github.com/EddieHubCommunity/LinkFree/commit/47523cb85a1d44cb336434d6763122a37c340c99))
+
+
+
 ## [0.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.0...v0.34.1) (2021-10-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update copyright information in LICENSE ([#540](https://github.com/EddieHubCommunity/LinkFree/issues/540)) ([3a7e7df](https://github.com/EddieHubCommunity/LinkFree/commit/3a7e7df004af6b6488e052e2e3f2c319805c11d5))
-
-
-
-## [0.33.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.14...v0.33.15) (2021-10-19)
-
-
-### Bug Fixes
-
-* automated testing for search ([#535](https://github.com/EddieHubCommunity/LinkFree/issues/535)) ([c0e69b8](https://github.com/EddieHubCommunity/LinkFree/commit/c0e69b8c7746c63bfc95323ee7d129ecd840ee73))
 
 
 
