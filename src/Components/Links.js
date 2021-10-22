@@ -13,7 +13,7 @@ function Links({ links }) {
     discord: '#5865F2',
     facebook: '#1877F2',
     github: '#171515',
-    instagram: '#E4405F',
+    // instagram: '#E4405F',
     // linkedin: '#0077b5', // does not exist in icon set yet
     microsoft: '#5E5E5E',
     paypal: '#00457C',
