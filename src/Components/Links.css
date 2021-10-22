@@ -36,6 +36,14 @@
   background-color: #5F6368;
 }
 
+.p-button.p-button-outlined:not(a):not(.p-disabled).paypal:hover {
+  background-color: #00457C;
+}
+
+.p-button.p-button-outlined:not(a):not(.p-disabled).discord:hover {
+  background-color: #5865F2;
+}
+
 .p-button-outlined:hover > i {
   color: #fff;
 }
