@@ -1,3 +1,12 @@
+## [0.35.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.1...v0.35.2) (2021-10-22)
+
+
+### Bug Fixes
+
+* icons not available in Prime React ([#553](https://github.com/EddieHubCommunity/LinkFree/issues/553)) ([14b0c3e](https://github.com/EddieHubCommunity/LinkFree/commit/14b0c3e53a2110ea4fb7a03d41f921c927e5932b))
+
+
+
 ## [0.35.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.0...v0.35.1) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add search label + CSS ([#521](https://github.com/EddieHubCommunity/LinkFree/issues/521) ) ([2fb5461](https://github.com/EddieHubCommunity/LinkFree/commit/2fb5461b42f83a772fb1b37e2f0f8e4f17851cca))
-
-
-
-## [0.33.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.16...v0.33.17) (2021-10-20)
-
-
-### Bug Fixes
-
-* broken contributing link in README ([#542](https://github.com/EddieHubCommunity/LinkFree/issues/542)) ([f15fa36](https://github.com/EddieHubCommunity/LinkFree/commit/f15fa3621e347ff8f421ec8f4f8c8df0caeceb5d))
 
 
 
