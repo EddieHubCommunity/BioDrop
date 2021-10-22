@@ -1,3 +1,12 @@
+## [0.35.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.4...v0.35.5) (2021-10-22)
+
+
+### Bug Fixes
+
+* changed button color to match icon color ([#556](https://github.com/EddieHubCommunity/LinkFree/issues/556)) ([9a7bdaa](https://github.com/EddieHubCommunity/LinkFree/commit/9a7bdaae0acad4a4a14b72bd43ac772c0da76bec))
+
+
+
 ## [0.35.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.3...v0.35.4) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** nhcarrigan links ([#552](https://github.com/EddieHubCommunity/LinkFree/issues/552)) ([fce6fe5](https://github.com/EddieHubCommunity/LinkFree/commit/fce6fe514c40436b2b7c2b5a295405b28a3401bc))
-
-
-
-# [0.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.1...v0.35.0) (2021-10-22)
-
-
-### Features
-
-* husky lint ([#308](https://github.com/EddieHubCommunity/LinkFree/issues/308)) ([47523cb](https://github.com/EddieHubCommunity/LinkFree/commit/47523cb85a1d44cb336434d6763122a37c340c99))
 
 
 
