@@ -19,7 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "lint": "eslint public/data --ext .json",
+    "lint": "eslint public/data src --ext [.json,.js]",
     "prestart": "npm run generate",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
@@ -29,7 +29,8 @@
     "generate": "node generate.js",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\""
+    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +61,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
+    "husky": "^7.0.2",
     "prettier": "2.4.0"
   },
   "cypress-cucumber-preprocessor": {
