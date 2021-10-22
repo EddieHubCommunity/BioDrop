@@ -33,6 +33,7 @@ function Socials() {
             avatar={profile.avatar}
             name={profile.name}
             total={profile.links.length}
+            username={username}
           />
           <Links links={profile.links} />
         </>
