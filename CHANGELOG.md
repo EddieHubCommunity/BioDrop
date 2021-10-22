@@ -1,3 +1,12 @@
+## [0.35.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.3...v0.35.4) (2021-10-22)
+
+
+### Bug Fixes
+
+* discord + paypal hover ([#560](https://github.com/EddieHubCommunity/LinkFree/issues/560)) ([110693a](https://github.com/EddieHubCommunity/LinkFree/commit/110693a25ee477b3341b4ca2e36f28cd9c24b273))
+
+
+
 ## [0.35.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.2...v0.35.3) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * husky lint ([#308](https://github.com/EddieHubCommunity/LinkFree/issues/308)) ([47523cb](https://github.com/EddieHubCommunity/LinkFree/commit/47523cb85a1d44cb336434d6763122a37c340c99))
-
-
-
-## [0.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.0...v0.34.1) (2021-10-21)
-
-
-### Bug Fixes
-
-* add Athul0491 ([#544](https://github.com/EddieHubCommunity/LinkFree/issues/544)) ([937cd63](https://github.com/EddieHubCommunity/LinkFree/commit/937cd634861fe2fffc88936cbab1f7248f33f453))
 
 
 
