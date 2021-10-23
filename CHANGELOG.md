@@ -1,3 +1,12 @@
+## [0.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.1...v0.38.2) (2021-10-23)
+
+
+### Bug Fixes
+
+* link icon types ([#584](https://github.com/EddieHubCommunity/LinkFree/issues/584)) ([031648c](https://github.com/EddieHubCommunity/LinkFree/commit/031648cc632a69a91e38bacda85a397d278683d5)), closes [#395](https://github.com/EddieHubCommunity/LinkFree/issues/395) [#367](https://github.com/EddieHubCommunity/LinkFree/issues/367) [#572](https://github.com/EddieHubCommunity/LinkFree/issues/572) [#418](https://github.com/EddieHubCommunity/LinkFree/issues/418)
+
+
+
 ## [0.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.0...v0.38.1) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add box shadow in milestones ([#409](https://github.com/EddieHubCommunity/LinkFree/issues/409)) ([871a5a7](https://github.com/EddieHubCommunity/LinkFree/commit/871a5a7b59d35d7cac636d7ae075e2b6eac92a09))
-
-
-
-## [0.36.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.7...v0.36.8) (2021-10-23)
-
-
-### Bug Fixes
-
-* not found ([#592](https://github.com/EddieHubCommunity/LinkFree/issues/592)) ([8950b11](https://github.com/EddieHubCommunity/LinkFree/commit/8950b1117092e8a6bc8fc4793dc09d735af6e528)), closes [#430](https://github.com/EddieHubCommunity/LinkFree/issues/430)
 
 
 
