@@ -4,3 +4,7 @@
   text-align: center;
   line-height: 30px;
 }
+
+.p-avatar-image > img {
+  font-size: 0.5em;
+}

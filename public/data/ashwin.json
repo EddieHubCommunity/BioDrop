@@ -1,17 +1,17 @@
 {
-    "name": "Ashwin Nair",
-    "bio": "Open Source Enthusiast",
-    "avatar": "https://github.com/Ashwin-exe.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "https://github.com/Ashwin-exe",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "https://twitter.com/ashwinnair0007",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Ashwin Nair",
+  "bio": "Open Source Enthusiast",
+  "avatar": "https://github.com/Ashwin-exe.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ashwin-exe",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ashwinnair0007",
+      "icon": "twitter"
+    }
+  ]
 }
