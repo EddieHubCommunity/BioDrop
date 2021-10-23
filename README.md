@@ -65,11 +65,6 @@ Optional fields: `links` and `milestones`
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
-    },
-    {
-      "name": "Learn more about Open Source on my YouTube channel",
-      "url": "https://youtube.com/eddiejaoude",
-      "icon": "youtube"
     }
   ],
   "milestones": [
