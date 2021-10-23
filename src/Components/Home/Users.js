@@ -7,7 +7,6 @@ function User({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
   return (
     <>
-      <label htmlFor="search-input">Search for User</label>
       <div className="search-section">
         <span className="p-input-icon-left">
           <i className="pi pi-search" />
