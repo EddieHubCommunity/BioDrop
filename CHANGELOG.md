@@ -1,3 +1,12 @@
+## [0.36.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.2...v0.36.3) (2021-10-23)
+
+
+### Bug Fixes
+
+* rename file extension ([#582](https://github.com/EddieHubCommunity/LinkFree/issues/582)) ([705a7a4](https://github.com/EddieHubCommunity/LinkFree/commit/705a7a4fdfd6a8c6ea600f3ad2e130b62dd74301))
+
+
+
 ## [0.36.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.1...v0.36.2) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icons into config file ([#551](https://github.com/EddieHubCommunity/LinkFree/issues/551)) ([cfa16e1](https://github.com/EddieHubCommunity/LinkFree/commit/cfa16e17cae0d3a9b07c4a060348531a11653c3a))
-
-
-
-## [0.35.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.5...v0.35.6) (2021-10-22)
-
-
-### Bug Fixes
-
-* ashishshaji ([#569](https://github.com/EddieHubCommunity/LinkFree/issues/569)) ([a3b435d](https://github.com/EddieHubCommunity/LinkFree/commit/a3b435d395ba5ba03cf92ecff60c0af13ae812bc))
 
 
 
