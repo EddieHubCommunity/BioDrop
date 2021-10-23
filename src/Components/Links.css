@@ -7,41 +7,12 @@
   transform: scale(1.02);
 }
 
-.p-button.p-button-outlined:not(a):not(.p-disabled).link:hover,
 .p-button.p-button-outlined:not(a):not(.p-disabled).unknown:hover {
   background-color: #333;
 }
 
-.p-button.p-button-outlined:not(a):not(.p-disabled).twitter:hover {
-  background-color: #1da1f2;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).youtube:hover {
-  background-color: #ff0000;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).github:hover {
-  background-color: #211f1f;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).linkedin:hover {
-  background-color: #0077b5;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).instagram:hover {
-  background-color: #e4405f;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).envelope:hover {
-  background-color: #5F6368;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).paypal:hover {
-  background-color: #00457C;
-}
-
-.p-button.p-button-outlined:not(a):not(.p-disabled).discord:hover {
-  background-color: #5865F2;
+.p-button.p-button-outlined span, .p-button.p-button-outlined i {
+  pointer-events: none;
 }
 
 .p-button-outlined:hover > i {
