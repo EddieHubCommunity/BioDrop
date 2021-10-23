@@ -1,45 +1,45 @@
-## [0.25.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.8...v0.25.9) (2021-10-02)
+## [0.36.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.4...v0.36.5) (2021-10-23)
 
 
 ### Bug Fixes
 
-* hover linkedin, insta links ([#352](https://github.com/EddieHubCommunity/LinkFree/issues/352)) ([08c970c](https://github.com/EddieHubCommunity/LinkFree/commit/08c970c7c09d781a7881f9ca7c12a203382c1a6c))
+* **data:** krishguptadev update ([#586](https://github.com/EddieHubCommunity/LinkFree/issues/586)) ([cec21d4](https://github.com/EddieHubCommunity/LinkFree/commit/cec21d4fb3d8574d56d491b5648d77e50ab2de57))
 
 
 
-## [0.25.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.7...v0.25.8) (2021-10-02)
-
-
-### Bug Fixes
-
-* eddiejaoude linkedin ([f1bb2e8](https://github.com/EddieHubCommunity/LinkFree/commit/f1bb2e848d7f27d7e323c97be899c602301b60e9))
-
-
-
-## [0.25.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.6...v0.25.7) (2021-10-02)
+## [0.36.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.3...v0.36.4) (2021-10-23)
 
 
 ### Bug Fixes
 
-* kulkarnigaurav38 ([#334](https://github.com/EddieHubCommunity/LinkFree/issues/334)) ([8f1c533](https://github.com/EddieHubCommunity/LinkFree/commit/8f1c533074b6af2cbf4c82b3d4c2c81f38371371))
+* Sachin-chaurasiya ([#587](https://github.com/EddieHubCommunity/LinkFree/issues/587)) ([a963bb8](https://github.com/EddieHubCommunity/LinkFree/commit/a963bb8b7afe1b1dfca0b3022c76393771eaef4c))
 
 
 
-## [0.25.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.5...v0.25.6) (2021-10-02)
-
-
-### Bug Fixes
-
-* Atharva Shirdhankar ([#344](https://github.com/EddieHubCommunity/LinkFree/issues/344)) ([16cf4de](https://github.com/EddieHubCommunity/LinkFree/commit/16cf4de4e54a3d7300e4eca5b9df5ede7aaa24ca))
-
-
-
-## [0.25.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.25.4...v0.25.5) (2021-10-02)
+## [0.36.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.2...v0.36.3) (2021-10-23)
 
 
 ### Bug Fixes
 
-* link types ([#331](https://github.com/EddieHubCommunity/LinkFree/issues/331)) ([c412cf9](https://github.com/EddieHubCommunity/LinkFree/commit/c412cf9f1433c80b35e54a84d69d1ab083c56a37))
+* rename file extension ([#582](https://github.com/EddieHubCommunity/LinkFree/issues/582)) ([705a7a4](https://github.com/EddieHubCommunity/LinkFree/commit/705a7a4fdfd6a8c6ea600f3ad2e130b62dd74301))
+
+
+
+## [0.36.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.1...v0.36.2) (2021-10-23)
+
+
+### Bug Fixes
+
+* removed search title ([#565](https://github.com/EddieHubCommunity/LinkFree/issues/565)) ([1c12a1d](https://github.com/EddieHubCommunity/LinkFree/commit/1c12a1d78bcbfee5e2046bc994fccfbe7de52b1a))
+
+
+
+## [0.36.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.0...v0.36.1) (2021-10-23)
+
+
+### Bug Fixes
+
+* frankiefab100 ([#576](https://github.com/EddieHubCommunity/LinkFree/issues/576)) ([ef72651](https://github.com/EddieHubCommunity/LinkFree/commit/ef72651b4c8a06a4ff5e7a32a2c601ba3a3d559f))
 
 
 
