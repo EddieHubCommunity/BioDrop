@@ -11,6 +11,10 @@
   background-color: #333;
 }
 
+.p-button.p-button-outlined span, .p-button.p-button-outlined i {
+  pointer-events: none;
+}
+
 .p-button-outlined:hover > i {
   color: #fff;
 }
