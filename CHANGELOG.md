@@ -1,3 +1,12 @@
+## [0.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.0...v0.38.1) (2021-10-23)
+
+
+### Bug Fixes
+
+* react router component for links ([#593](https://github.com/EddieHubCommunity/LinkFree/issues/593)) ([70437b2](https://github.com/EddieHubCommunity/LinkFree/commit/70437b2fc997c233b91c9935210cfb9fc69824c5))
+
+
+
 # [0.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.1...v0.38.0) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * not found ([#592](https://github.com/EddieHubCommunity/LinkFree/issues/592)) ([8950b11](https://github.com/EddieHubCommunity/LinkFree/commit/8950b1117092e8a6bc8fc4793dc09d735af6e528)), closes [#430](https://github.com/EddieHubCommunity/LinkFree/issues/430)
-
-
-
-## [0.36.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.6...v0.36.7) (2021-10-23)
-
-
-### Bug Fixes
-
-* refactor css repetition ([#563](https://github.com/EddieHubCommunity/LinkFree/issues/563)) ([7a2ff0e](https://github.com/EddieHubCommunity/LinkFree/commit/7a2ff0e29dbd5e3481bddc685651602fddea0b31))
 
 
 
