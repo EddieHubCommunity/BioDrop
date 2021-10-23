@@ -16,6 +16,7 @@ function Links({ links }) {
     github: '#171515',
     instagram: '#833AB4',
     linkedin: '#0077b5',
+    codewars: '#A52A2A',
     microsoft: '#5E5E5E',
     paypal: '#00457C',
     slack: '#4A154B',
