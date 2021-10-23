@@ -9,24 +9,17 @@ import Milestones from './Milestones'
 function Socials() {
   const [showProgress, setShowProgress] = useState(true)
   const { username } = useParams()
-  const [profile, setProfile] = useState({})
-  const [profileFound, setProfileFound] = useState(false)
+  const [profile, setProfile] = useState()
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
-      .then((data) => {
-        setProfile(data)
-        setProfileFound(true)
-      })
-      .catch((error) => {
-        console.log('Socials useEffect', error)
-        setProfileFound(false)
-      })
+      .then((data) => setProfile(data))
+      .catch((error) => console.log('Socials useEffect', error))
       .finally(() => setShowProgress(false))
   }, [username])
 
-  if (!profileFound) {
+  if (!profile) {
     return <div className="p-text-center">
         <div className="flex-column">
         <img src='/eddiehub_community_logo.webp' alt="image" style={{ width: '150px' }}/>
