@@ -4,6 +4,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
+import linksConfig from '../config/links.json'
 
 function Links({ links }) {
   const colors = {

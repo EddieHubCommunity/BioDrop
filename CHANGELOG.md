@@ -1,45 +1,45 @@
-## [0.35.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.0...v0.35.1) (2021-10-22)
+## [0.36.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.1...v0.36.2) (2021-10-23)
 
 
 ### Bug Fixes
 
-* **data:** nhcarrigan links ([#552](https://github.com/EddieHubCommunity/LinkFree/issues/552)) ([fce6fe5](https://github.com/EddieHubCommunity/LinkFree/commit/fce6fe514c40436b2b7c2b5a295405b28a3401bc))
+* removed search title ([#565](https://github.com/EddieHubCommunity/LinkFree/issues/565)) ([1c12a1d](https://github.com/EddieHubCommunity/LinkFree/commit/1c12a1d78bcbfee5e2046bc994fccfbe7de52b1a))
 
 
 
-# [0.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.1...v0.35.0) (2021-10-22)
+## [0.36.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.0...v0.36.1) (2021-10-23)
+
+
+### Bug Fixes
+
+* frankiefab100 ([#576](https://github.com/EddieHubCommunity/LinkFree/issues/576)) ([ef72651](https://github.com/EddieHubCommunity/LinkFree/commit/ef72651b4c8a06a4ff5e7a32a2c601ba3a3d559f))
+
+
+
+# [0.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.7...v0.36.0) (2021-10-23)
 
 
 ### Features
 
-* husky lint ([#308](https://github.com/EddieHubCommunity/LinkFree/issues/308)) ([47523cb](https://github.com/EddieHubCommunity/LinkFree/commit/47523cb85a1d44cb336434d6763122a37c340c99))
+* search icon for input ([#577](https://github.com/EddieHubCommunity/LinkFree/issues/577)) ([6b638cf](https://github.com/EddieHubCommunity/LinkFree/commit/6b638cf4b3d75c7a166521f128dc7b1992e72614))
 
 
 
-## [0.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.34.0...v0.34.1) (2021-10-21)
-
-
-### Bug Fixes
-
-* add Athul0491 ([#544](https://github.com/EddieHubCommunity/LinkFree/issues/544)) ([937cd63](https://github.com/EddieHubCommunity/LinkFree/commit/937cd634861fe2fffc88936cbab1f7248f33f453))
-
-
-
-# [0.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.17...v0.34.0) (2021-10-21)
-
-
-### Features
-
-* add search label + CSS ([#521](https://github.com/EddieHubCommunity/LinkFree/issues/521) ) ([2fb5461](https://github.com/EddieHubCommunity/LinkFree/commit/2fb5461b42f83a772fb1b37e2f0f8e4f17851cca))
-
-
-
-## [0.33.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.16...v0.33.17) (2021-10-20)
+## [0.35.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.6...v0.35.7) (2021-10-23)
 
 
 ### Bug Fixes
 
-* broken contributing link in README ([#542](https://github.com/EddieHubCommunity/LinkFree/issues/542)) ([f15fa36](https://github.com/EddieHubCommunity/LinkFree/commit/f15fa3621e347ff8f421ec8f4f8c8df0caeceb5d))
+* icons into config file ([#551](https://github.com/EddieHubCommunity/LinkFree/issues/551)) ([cfa16e1](https://github.com/EddieHubCommunity/LinkFree/commit/cfa16e17cae0d3a9b07c4a060348531a11653c3a))
+
+
+
+## [0.35.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.5...v0.35.6) (2021-10-22)
+
+
+### Bug Fixes
+
+* ashishshaji ([#569](https://github.com/EddieHubCommunity/LinkFree/issues/569)) ([a3b435d](https://github.com/EddieHubCommunity/LinkFree/commit/a3b435d395ba5ba03cf92ecff60c0af13ae812bc))
 
 
 
