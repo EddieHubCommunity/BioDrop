@@ -1,3 +1,12 @@
+# [0.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.8...v0.37.0) (2021-10-23)
+
+
+### Features
+
+* add box shadow in milestones ([#409](https://github.com/EddieHubCommunity/LinkFree/issues/409)) ([871a5a7](https://github.com/EddieHubCommunity/LinkFree/commit/871a5a7b59d35d7cac636d7ae075e2b6eac92a09))
+
+
+
 ## [0.36.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.7...v0.36.8) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** krishguptadev update ([#586](https://github.com/EddieHubCommunity/LinkFree/issues/586)) ([cec21d4](https://github.com/EddieHubCommunity/LinkFree/commit/cec21d4fb3d8574d56d491b5648d77e50ab2de57))
-
-
-
-## [0.36.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.3...v0.36.4) (2021-10-23)
-
-
-### Bug Fixes
-
-* Sachin-chaurasiya ([#587](https://github.com/EddieHubCommunity/LinkFree/issues/587)) ([a963bb8](https://github.com/EddieHubCommunity/LinkFree/commit/a963bb8b7afe1b1dfca0b3022c76393771eaef4c))
 
 
 
