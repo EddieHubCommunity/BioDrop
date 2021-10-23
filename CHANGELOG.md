@@ -1,3 +1,12 @@
+## [0.36.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.3...v0.36.4) (2021-10-23)
+
+
+### Bug Fixes
+
+* Sachin-chaurasiya ([#587](https://github.com/EddieHubCommunity/LinkFree/issues/587)) ([a963bb8](https://github.com/EddieHubCommunity/LinkFree/commit/a963bb8b7afe1b1dfca0b3022c76393771eaef4c))
+
+
+
 ## [0.36.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.2...v0.36.3) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * search icon for input ([#577](https://github.com/EddieHubCommunity/LinkFree/issues/577)) ([6b638cf](https://github.com/EddieHubCommunity/LinkFree/commit/6b638cf4b3d75c7a166521f128dc7b1992e72614))
-
-
-
-## [0.35.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.6...v0.35.7) (2021-10-23)
-
-
-### Bug Fixes
-
-* icons into config file ([#551](https://github.com/EddieHubCommunity/LinkFree/issues/551)) ([cfa16e1](https://github.com/EddieHubCommunity/LinkFree/commit/cfa16e17cae0d3a9b07c4a060348531a11653c3a))
 
 
 
