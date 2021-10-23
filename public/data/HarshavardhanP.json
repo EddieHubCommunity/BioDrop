@@ -1,7 +1,7 @@
 {
   "name": "Harshavardhan Patekar",
   "bio": "Pre-final year Student at Vellore Institute Of technology Bhopal",
-  "avatar": "https://github.com/eddiejaoude.png",
+  "avatar": "https://github.com/MaxHarsh.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -12,19 +12,14 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/HappyVersion_17",
       "icon": "twitter"
-    },
-    {
-      "name": "Learn more about Open Source on my YouTube channel",
-      "url": "https://youtube.com/eddiejaoude",
-      "icon": "youtube"
     }
   ],
   "milestones": [
     {
-      "title": "Started Learning Web Devlopment",
+      "title": "Web Devlopment",
       "date": "August 2021",
       "color": "grey",
-      "description": "Started freelancing again"
+      "description": "Started Learning Web Devlopment"
     }
   ]
 }
