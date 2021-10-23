@@ -1,3 +1,12 @@
+# [0.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.7...v0.36.0) (2021-10-23)
+
+
+### Features
+
+* search icon for input ([#577](https://github.com/EddieHubCommunity/LinkFree/issues/577)) ([6b638cf](https://github.com/EddieHubCommunity/LinkFree/commit/6b638cf4b3d75c7a166521f128dc7b1992e72614))
+
+
+
 ## [0.35.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.6...v0.35.7) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * discord + paypal hover ([#560](https://github.com/EddieHubCommunity/LinkFree/issues/560)) ([110693a](https://github.com/EddieHubCommunity/LinkFree/commit/110693a25ee477b3341b4ca2e36f28cd9c24b273))
-
-
-
-## [0.35.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.2...v0.35.3) (2021-10-22)
-
-
-### Bug Fixes
-
-* buttons rounded ([#432](https://github.com/EddieHubCommunity/LinkFree/issues/432)) ([5a93751](https://github.com/EddieHubCommunity/LinkFree/commit/5a9375198b1fb071ad022735ce41251774dd2258))
 
 
 
