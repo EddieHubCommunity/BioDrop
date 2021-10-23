@@ -1,3 +1,12 @@
+# [0.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.1...v0.38.0) (2021-10-23)
+
+
+### Features
+
+* add width to user chips ([#479](https://github.com/EddieHubCommunity/LinkFree/issues/479)) ([1a9bdc8](https://github.com/EddieHubCommunity/LinkFree/commit/1a9bdc8e046f0a89f0a5336cc8b12d569d6b8a3d))
+
+
+
 ## [0.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.0...v0.37.1) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * refactor css repetition ([#563](https://github.com/EddieHubCommunity/LinkFree/issues/563)) ([7a2ff0e](https://github.com/EddieHubCommunity/LinkFree/commit/7a2ff0e29dbd5e3481bddc685651602fddea0b31))
-
-
-
-## [0.36.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.5...v0.36.6) (2021-10-23)
-
-
-### Bug Fixes
-
-* suchitragiri pr ([#590](https://github.com/EddieHubCommunity/LinkFree/issues/590)) ([004c4f8](https://github.com/EddieHubCommunity/LinkFree/commit/004c4f854a842505b7891020296da4f003813316))
 
 
 
