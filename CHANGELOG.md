@@ -1,3 +1,12 @@
+## [0.36.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.1...v0.36.2) (2021-10-23)
+
+
+### Bug Fixes
+
+* removed search title ([#565](https://github.com/EddieHubCommunity/LinkFree/issues/565)) ([1c12a1d](https://github.com/EddieHubCommunity/LinkFree/commit/1c12a1d78bcbfee5e2046bc994fccfbe7de52b1a))
+
+
+
 ## [0.36.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.0...v0.36.1) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ashishshaji ([#569](https://github.com/EddieHubCommunity/LinkFree/issues/569)) ([a3b435d](https://github.com/EddieHubCommunity/LinkFree/commit/a3b435d395ba5ba03cf92ecff60c0af13ae812bc))
-
-
-
-## [0.35.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.4...v0.35.5) (2021-10-22)
-
-
-### Bug Fixes
-
-* changed button color to match icon color ([#556](https://github.com/EddieHubCommunity/LinkFree/issues/556)) ([9a7bdaa](https://github.com/EddieHubCommunity/LinkFree/commit/9a7bdaae0acad4a4a14b72bd43ac772c0da76bec))
 
 
 
