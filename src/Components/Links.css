@@ -1,6 +1,7 @@
 .p-button {
   transition: transform 0.33s !important;
   border-radius: 40px;
+  width: 100%;
 }
 
 .p-button:hover {
@@ -11,7 +12,8 @@
   background-color: #333;
 }
 
-.p-button.p-button-outlined span, .p-button.p-button-outlined i {
+.p-button.p-button-outlined span,
+.p-button.p-button-outlined i {
   pointer-events: none;
 }
 

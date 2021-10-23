@@ -20,32 +20,55 @@ function Socials() {
   }, [username])
 
   if (!profile) {
-    return <div className="p-text-center">
+    return (
+      <div className="p-text-center">
         <div className="flex-column">
-        <img src='/eddiehub_community_logo.webp' alt="image" style={{ width: '150px' }}/>
-        <h1>Profile not found.</h1>
-        <h1>If you are a new user, please consider registering at LinkFree.</h1>
-        <h2>Read the documendation <a href="https://github.com/EddieHubCommunity/LinkFree#readme" target="_blank" rel="noreferrer">here</a>.</h2>
+          <img
+            src="/eddiehub_community_logo.webp"
+            alt="image"
+            style={{ width: '150px' }}
+          />
+          <h1>Profile not found.</h1>
+          <h1>
+            If you are a new user, please consider registering at LinkFree.
+          </h1>
+          <h2>
+            Read the documendation{' '}
+            <Link
+              to={{
+                pathname:
+                  'https://github.com/EddieHubCommunity/LinkFree#readme',
+              }}
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </Link>
+            .
+          </h2>
+        </div>
       </div>
-    </div>
+    )
   } else {
     return (
-    <main>
-      {showProgress && <ProgressBar mode="indeterminate" />}
-      {!showProgress && (
-        <>
-          <Link to="/" aria-label="Go back to Home"><i className="pi pi-arrow-left"></i></Link>
-          <Profile
-            bio={profile.bio}
-            avatar={profile.avatar}
-            name={profile.name}
-            total={profile.links.length}
-          />
-          <Links links={profile.links} />
-        </>
-      )}
-      {profile.milestones && <Milestones milestones={profile.milestones} />}
-    </main>
+      <main>
+        {showProgress && <ProgressBar mode="indeterminate" />}
+        {!showProgress && (
+          <>
+            <Link to="/" aria-label="Go back to Home">
+              <i className="pi pi-arrow-left"></i>
+            </Link>
+            <Profile
+              bio={profile.bio}
+              avatar={profile.avatar}
+              name={profile.name}
+              total={profile.links.length}
+            />
+            <Links links={profile.links} />
+          </>
+        )}
+        {profile.milestones && <Milestones milestones={profile.milestones} />}
+      </main>
     )
   }
 }
