@@ -1,3 +1,12 @@
+## [0.36.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.0...v0.36.1) (2021-10-23)
+
+
+### Bug Fixes
+
+* frankiefab100 ([#576](https://github.com/EddieHubCommunity/LinkFree/issues/576)) ([ef72651](https://github.com/EddieHubCommunity/LinkFree/commit/ef72651b4c8a06a4ff5e7a32a2c601ba3a3d559f))
+
+
+
 # [0.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.7...v0.36.0) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * changed button color to match icon color ([#556](https://github.com/EddieHubCommunity/LinkFree/issues/556)) ([9a7bdaa](https://github.com/EddieHubCommunity/LinkFree/commit/9a7bdaae0acad4a4a14b72bd43ac772c0da76bec))
-
-
-
-## [0.35.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.3...v0.35.4) (2021-10-22)
-
-
-### Bug Fixes
-
-* discord + paypal hover ([#560](https://github.com/EddieHubCommunity/LinkFree/issues/560)) ([110693a](https://github.com/EddieHubCommunity/LinkFree/commit/110693a25ee477b3341b4ca2e36f28cd9c24b273))
 
 
 
