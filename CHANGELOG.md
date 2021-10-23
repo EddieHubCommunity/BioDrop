@@ -1,3 +1,12 @@
+## [0.36.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.7...v0.36.8) (2021-10-23)
+
+
+### Bug Fixes
+
+* not found ([#592](https://github.com/EddieHubCommunity/LinkFree/issues/592)) ([8950b11](https://github.com/EddieHubCommunity/LinkFree/commit/8950b1117092e8a6bc8fc4793dc09d735af6e528)), closes [#430](https://github.com/EddieHubCommunity/LinkFree/issues/430)
+
+
+
 ## [0.36.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.6...v0.36.7) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Sachin-chaurasiya ([#587](https://github.com/EddieHubCommunity/LinkFree/issues/587)) ([a963bb8](https://github.com/EddieHubCommunity/LinkFree/commit/a963bb8b7afe1b1dfca0b3022c76393771eaef4c))
-
-
-
-## [0.36.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.2...v0.36.3) (2021-10-23)
-
-
-### Bug Fixes
-
-* rename file extension ([#582](https://github.com/EddieHubCommunity/LinkFree/issues/582)) ([705a7a4](https://github.com/EddieHubCommunity/LinkFree/commit/705a7a4fdfd6a8c6ea600f3ad2e130b62dd74301))
 
 
 
