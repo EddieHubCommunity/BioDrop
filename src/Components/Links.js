@@ -58,7 +58,7 @@ function Links({ links }) {
               onClick={() => goToLinkHandle(link.url)}
               role="link"
             >
-              <i className="pi pi-arrow-right p-px-2"></i>
+              <i className="pi pi-user p-px-2"></i>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}
