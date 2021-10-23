@@ -1,45 +1,45 @@
-## [0.30.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.1...v0.30.2) (2021-10-07)
+## [0.36.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.7...v0.36.8) (2021-10-23)
 
 
 ### Bug Fixes
 
-* RakeshPotnuru ([#467](https://github.com/EddieHubCommunity/LinkFree/issues/467)) ([6254d6e](https://github.com/EddieHubCommunity/LinkFree/commit/6254d6edc840aa2bd6257d4a7ef8c193d835257d))
+* not found ([#592](https://github.com/EddieHubCommunity/LinkFree/issues/592)) ([8950b11](https://github.com/EddieHubCommunity/LinkFree/commit/8950b1117092e8a6bc8fc4793dc09d735af6e528)), closes [#430](https://github.com/EddieHubCommunity/LinkFree/issues/430)
 
 
 
-## [0.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.30.0...v0.30.1) (2021-10-07)
-
-
-### Bug Fixes
-
-* Added data for harshmathurx ([#459](https://github.com/EddieHubCommunity/LinkFree/issues/459)) ([a9c391d](https://github.com/EddieHubCommunity/LinkFree/commit/a9c391d1bf8923a608f7181d1679d9cf1bb5a72b))
-
-
-
-# [0.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.7...v0.30.0) (2021-10-07)
-
-
-### Features
-
-* alphabetical sorting homepage ([#95](https://github.com/EddieHubCommunity/LinkFree/issues/95)) ([81296d4](https://github.com/EddieHubCommunity/LinkFree/commit/81296d43da86f37766db7ed52018306878009d64))
-
-
-
-## [0.29.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.6...v0.29.7) (2021-10-07)
+## [0.36.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.6...v0.36.7) (2021-10-23)
 
 
 ### Bug Fixes
 
-* anassbouchfar ([#461](https://github.com/EddieHubCommunity/LinkFree/issues/461)) ([ea07dcc](https://github.com/EddieHubCommunity/LinkFree/commit/ea07dcc5a55100030e3461f54abc99580aae2487))
+* refactor css repetition ([#563](https://github.com/EddieHubCommunity/LinkFree/issues/563)) ([7a2ff0e](https://github.com/EddieHubCommunity/LinkFree/commit/7a2ff0e29dbd5e3481bddc685651602fddea0b31))
 
 
 
-## [0.29.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.29.5...v0.29.6) (2021-10-07)
+## [0.36.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.5...v0.36.6) (2021-10-23)
 
 
 ### Bug Fixes
 
-* Anushka-codergirl ([#462](https://github.com/EddieHubCommunity/LinkFree/issues/462)) ([cdecad6](https://github.com/EddieHubCommunity/LinkFree/commit/cdecad6980e4de50f8853000a97c0fcab6369cc8))
+* suchitragiri pr ([#590](https://github.com/EddieHubCommunity/LinkFree/issues/590)) ([004c4f8](https://github.com/EddieHubCommunity/LinkFree/commit/004c4f854a842505b7891020296da4f003813316))
+
+
+
+## [0.36.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.4...v0.36.5) (2021-10-23)
+
+
+### Bug Fixes
+
+* **data:** krishguptadev update ([#586](https://github.com/EddieHubCommunity/LinkFree/issues/586)) ([cec21d4](https://github.com/EddieHubCommunity/LinkFree/commit/cec21d4fb3d8574d56d491b5648d77e50ab2de57))
+
+
+
+## [0.36.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.3...v0.36.4) (2021-10-23)
+
+
+### Bug Fixes
+
+* Sachin-chaurasiya ([#587](https://github.com/EddieHubCommunity/LinkFree/issues/587)) ([a963bb8](https://github.com/EddieHubCommunity/LinkFree/commit/a963bb8b7afe1b1dfca0b3022c76393771eaef4c))
 
 
 
