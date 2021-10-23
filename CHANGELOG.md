@@ -1,3 +1,12 @@
+## [0.35.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.6...v0.35.7) (2021-10-23)
+
+
+### Bug Fixes
+
+* icons into config file ([#551](https://github.com/EddieHubCommunity/LinkFree/issues/551)) ([cfa16e1](https://github.com/EddieHubCommunity/LinkFree/commit/cfa16e17cae0d3a9b07c4a060348531a11653c3a))
+
+
+
 ## [0.35.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.5...v0.35.6) (2021-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * buttons rounded ([#432](https://github.com/EddieHubCommunity/LinkFree/issues/432)) ([5a93751](https://github.com/EddieHubCommunity/LinkFree/commit/5a9375198b1fb071ad022735ce41251774dd2258))
-
-
-
-## [0.35.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.1...v0.35.2) (2021-10-22)
-
-
-### Bug Fixes
-
-* icons not available in Prime React ([#553](https://github.com/EddieHubCommunity/LinkFree/issues/553)) ([14b0c3e](https://github.com/EddieHubCommunity/LinkFree/commit/14b0c3e53a2110ea4fb7a03d41f921c927e5932b))
 
 
 
