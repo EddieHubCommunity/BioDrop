@@ -1,3 +1,12 @@
+## [0.36.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.6...v0.36.7) (2021-10-23)
+
+
+### Bug Fixes
+
+* refactor css repetition ([#563](https://github.com/EddieHubCommunity/LinkFree/issues/563)) ([7a2ff0e](https://github.com/EddieHubCommunity/LinkFree/commit/7a2ff0e29dbd5e3481bddc685651602fddea0b31))
+
+
+
 ## [0.36.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.5...v0.36.6) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename file extension ([#582](https://github.com/EddieHubCommunity/LinkFree/issues/582)) ([705a7a4](https://github.com/EddieHubCommunity/LinkFree/commit/705a7a4fdfd6a8c6ea600f3ad2e130b62dd74301))
-
-
-
-## [0.36.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.1...v0.36.2) (2021-10-23)
-
-
-### Bug Fixes
-
-* removed search title ([#565](https://github.com/EddieHubCommunity/LinkFree/issues/565)) ([1c12a1d](https://github.com/EddieHubCommunity/LinkFree/commit/1c12a1d78bcbfee5e2046bc994fccfbe7de52b1a))
 
 
 
