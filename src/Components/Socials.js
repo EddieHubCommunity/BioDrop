@@ -27,7 +27,7 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
-          <Link to="/"><i className="pi pi-arrow-left"></i></Link>
+          <Link to="/" aria-label="Go back to Home"><i className="pi pi-arrow-left"></i></Link>
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}

@@ -4,6 +4,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
+import linksConfig from '../config/links.json'
 
 function Links({ links }) {
   const colors = {
@@ -14,7 +15,6 @@ function Links({ links }) {
     facebook: '#1877F2',
     github: '#171515',
     instagram: '#E4405F',
-    // linkedin: '#0077b5', // does not exist in icon set yet
     microsoft: '#5E5E5E',
     paypal: '#00457C',
     slack: '#4A154B',
