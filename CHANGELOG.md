@@ -1,3 +1,12 @@
+## [0.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.0...v0.37.1) (2021-10-23)
+
+
+### Bug Fixes
+
+* change logo192.png dimension ([#477](https://github.com/EddieHubCommunity/LinkFree/issues/477)) ([665c9ef](https://github.com/EddieHubCommunity/LinkFree/commit/665c9ef537658f7d59fc88a780211e8159005028))
+
+
+
 # [0.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.8...v0.37.0) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * suchitragiri pr ([#590](https://github.com/EddieHubCommunity/LinkFree/issues/590)) ([004c4f8](https://github.com/EddieHubCommunity/LinkFree/commit/004c4f854a842505b7891020296da4f003813316))
-
-
-
-## [0.36.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.4...v0.36.5) (2021-10-23)
-
-
-### Bug Fixes
-
-* **data:** krishguptadev update ([#586](https://github.com/EddieHubCommunity/LinkFree/issues/586)) ([cec21d4](https://github.com/EddieHubCommunity/LinkFree/commit/cec21d4fb3d8574d56d491b5648d77e50ab2de57))
 
 
 
