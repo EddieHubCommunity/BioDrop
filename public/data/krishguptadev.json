@@ -13,5 +13,15 @@
       "url": "https://twitter.com/krishguptadev",
       "icon": "twitter"
     }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning to Code",
+      "date": "30th September 2021",
+      "icon": "book",
+      "color": "grey",
+      "description": "Started Learning to Code",
+      "url": "https://www.krishguptadev.tech"
+    }
   ]
 }
