@@ -12,6 +12,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/krishguptadev",
       "icon": "twitter"
+    },
+    {
+      "name": "Checkout my blog",
+      "url": "https://blog.krishguptadev.tech",
+      "icon": "book"
+    },
+    {
+      "name": "Checkout my website",
+      "url": "https://krishguptadev.tech",
+      "icon": "web"
     }
   ],
   "milestones": [

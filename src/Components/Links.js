@@ -9,10 +9,15 @@ import linksConfig from '../config/links.json'
 function Links({ links }) {
   const colors = linksConfig.validIcons
 
+  function MouseOver(e, color) {
+    e.target.style.background = color
+  }
+  function MouseOut(e) {
+    e.target.style.background = ''
+  }
   const goToLinkHandle = (url) => {
     window.open(url, '__blank').focus()
   }
-
   return (
     <section className="p-d-flex p-jc-center p-mb-4">
       <div
@@ -23,6 +28,8 @@ function Links({ links }) {
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
             <Button
+              onMouseOver={(e) => { MouseOver(e, colors[link.icon]) } }
+              onMouseOut={MouseOut}
               className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
               key={`link.url_${index}`}

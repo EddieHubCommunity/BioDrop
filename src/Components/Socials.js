@@ -9,20 +9,27 @@ import Milestones from './Milestones'
 function Socials() {
   const [showProgress, setShowProgress] = useState(true)
   const { username } = useParams()
-  const [profile, setProfile] = useState({})
+  const [profile, setProfile] = useState()
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
       .then((data) => setProfile(data))
-      .catch((error) => {
-        console.log('Socials useEffect', error)
-        alert('An error occurred please try again later.')
-      })
+      .catch((error) => console.log('Socials useEffect', error))
       .finally(() => setShowProgress(false))
   }, [username])
 
-  return (
+  if (!profile) {
+    return <div className="p-text-center">
+        <div className="flex-column">
+        <img src='/eddiehub_community_logo.webp' alt="image" style={{ width: '150px' }}/>
+        <h1>Profile not found.</h1>
+        <h1>If you are a new user, please consider registering at LinkFree.</h1>
+        <h2>Read the documendation <a href="https://github.com/EddieHubCommunity/LinkFree#readme" target="_blank" rel="noreferrer">here</a>.</h2>
+      </div>
+    </div>
+  } else {
+    return (
     <main>
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
@@ -39,7 +46,8 @@ function Socials() {
       )}
       {profile.milestones && <Milestones milestones={profile.milestones} />}
     </main>
-  )
+    )
+  }
 }
 
 export default Socials
