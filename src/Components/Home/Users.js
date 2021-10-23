@@ -9,7 +9,16 @@ function User({ list }) {
     <>
       <label htmlFor="search-input">Search for User</label>
       <div className="search-section">
-        <InputText value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} name="user" id="search-input" placeholder="Search..." />
+        <span className="p-input-icon-left">
+          <i className="pi pi-search" />
+          <InputText
+            value={searchTerm}
+            onChange={({ target }) => setSearchTerm(target.value)}
+            name="user"
+            id="search-input"
+            placeholder="Search..."
+          />
+        </span>
       </div>
       {list
         .filter((User) =>
