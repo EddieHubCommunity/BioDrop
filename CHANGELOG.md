@@ -1,3 +1,12 @@
+## [0.36.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.4...v0.36.5) (2021-10-23)
+
+
+### Bug Fixes
+
+* **data:** krishguptadev update ([#586](https://github.com/EddieHubCommunity/LinkFree/issues/586)) ([cec21d4](https://github.com/EddieHubCommunity/LinkFree/commit/cec21d4fb3d8574d56d491b5648d77e50ab2de57))
+
+
+
 ## [0.36.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.3...v0.36.4) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * frankiefab100 ([#576](https://github.com/EddieHubCommunity/LinkFree/issues/576)) ([ef72651](https://github.com/EddieHubCommunity/LinkFree/commit/ef72651b4c8a06a4ff5e7a32a2c601ba3a3d559f))
-
-
-
-# [0.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.7...v0.36.0) (2021-10-23)
-
-
-### Features
-
-* search icon for input ([#577](https://github.com/EddieHubCommunity/LinkFree/issues/577)) ([6b638cf](https://github.com/EddieHubCommunity/LinkFree/commit/6b638cf4b3d75c7a166521f128dc7b1992e72614))
 
 
 
