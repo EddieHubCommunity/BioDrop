@@ -4,13 +4,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
-import { Skeleton } from 'primereact/skeleton'
-
 import { Badge } from 'primereact/badge'
-import ImageLoader from './ImageLoader'
 
-function Profile({ profile, isLoading }) {
-  const { name, bio, avatar, links } = profile
+function Profile({ name, bio, avatar, total, username }) {
   return (
     <section>
       <div className="p-d-flex p-jc-center p-ai-center">
@@ -19,32 +15,26 @@ function Profile({ profile, isLoading }) {
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
-          template={<ImageLoader avatar={avatar} username={name}/>}
           className="p-overlay-badge"
         >
-          {!isLoading && <Badge value={links.length} severity="info" className="p-mr-2 p-mt-2" />}
+          <Badge value={total} severity="info" className="p-mr-2 p-mt-2" />
         </Avatar>
-        {!isLoading ? <h1 className="p-m-2">{name}</h1> : <Skeleton className="p-m-2" shape="rounded" height="30px" width="200px"/>}
+        <h1 className="p-m-2">{name}</h1>
+        <h4 className="">({username})</h4>
       </div>
       <div className="p-d-flex p-jc-center w-50">
-        {!isLoading ? <p>{bio}</p> : <Skeleton className="p-mt-4" width="300px" shape="rounded"/> }
+        <p>{bio}</p>
       </div>
     </section>
   )
 }
 
 Profile.propTypes = {
-  profile: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    bio: PropTypes.string.isRequired,
-    avatar: PropTypes.string.isRequired,
-    links: PropTypes.arrayOf(PropTypes.shape({
-      icon: PropTypes.string,
-      name: PropTypes.string,
-      url: PropTypes.string,
-    })),
-  }),
-  isLoading: PropTypes.bool.isRequired,
+  name: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  total: PropTypes.number.isRequired,
+  username: PropTypes.string.isRequired,
 }
 
 export default Profile
