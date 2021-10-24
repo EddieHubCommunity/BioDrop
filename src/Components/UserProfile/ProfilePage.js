@@ -15,6 +15,7 @@ function User({ list }) {
                 avatar={list.avatar}
                 name={list.name}
                 total={list.links.length}
+                username={list.username}
             />
             <Links links={list.links} />
         </>}
