@@ -29,7 +29,7 @@ function Home() {
   }, [])
 
   return (
-    <main>
+    <main className="container">
       {showProgress && <ProgressBar mode="indeterminate" />}
       {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
     </main>
