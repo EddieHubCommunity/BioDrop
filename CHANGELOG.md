@@ -1,3 +1,12 @@
+## [0.38.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.2...v0.38.3) (2021-10-24)
+
+
+### Bug Fixes
+
+* **data:** add anshumaankumarprasad ([#597](https://github.com/EddieHubCommunity/LinkFree/issues/597)) ([e65f53c](https://github.com/EddieHubCommunity/LinkFree/commit/e65f53c29a47800b7d38c2496091aba02c33eddc))
+
+
+
 ## [0.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.1...v0.38.2) (2021-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change logo192.png dimension ([#477](https://github.com/EddieHubCommunity/LinkFree/issues/477)) ([665c9ef](https://github.com/EddieHubCommunity/LinkFree/commit/665c9ef537658f7d59fc88a780211e8159005028))
-
-
-
-# [0.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.36.8...v0.37.0) (2021-10-23)
-
-
-### Features
-
-* add box shadow in milestones ([#409](https://github.com/EddieHubCommunity/LinkFree/issues/409)) ([871a5a7](https://github.com/EddieHubCommunity/LinkFree/commit/871a5a7b59d35d7cac636d7ae075e2b6eac92a09))
 
 
 
