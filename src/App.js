@@ -12,17 +12,19 @@ import Home from './Components/Home/Home'
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/:username">
-          <Socials />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
+    <div className="p-m-4">
+      <Router>
+        <Switch>
+          <Route path="/:username">
+            <Socials />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   )
 }
 

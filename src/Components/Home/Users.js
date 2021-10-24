@@ -6,9 +6,7 @@ import Searchbar from './Searchbar'
 
 function Users({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
-  const searchHandler = (value) => {
-    setSearchTerm(value || '')
-  }
+  const searchHandler = (value) => setSearchTerm(value || '')
   return (
     <>
       <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
