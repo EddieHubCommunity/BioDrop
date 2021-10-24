@@ -12,7 +12,6 @@ function Socials() {
   const [profile, setProfile] = useState({})
   const [skeleton, setskeleton] = useState(true)
 
-  // const [profile, setProfile] = useState()
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
@@ -46,20 +45,6 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
 
       {skeleton ? <Placeholder list={profile}/> : <ProfilePage list={profile} />}
-
-      {/* {!showProgress && (
-        <>
-          <Link to="/" aria-label="Go back to Home"><i className="pi pi-arrow-left"></i></Link>
-          <Profile
-            bio={profile.bio}
-            avatar={profile.avatar}
-            name={profile.name}
-            total={profile.links.length}
-          />
-          <Links links={profile.links} />
-        </>
-      )}
-      {profile.milestones && <Milestones milestones={profile.milestones} />} */}
 
     </main>
     )
