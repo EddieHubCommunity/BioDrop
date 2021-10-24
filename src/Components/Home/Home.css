@@ -6,6 +6,7 @@ a {
   transition: transform 0.33s;
   padding: 0.4rem 0.9rem;
   border-radius: 2rem;
+  width: 16rem;
 }
 
 .p-chip:hover {
@@ -27,4 +28,12 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+}
+
+label {
+  text-decoration:underline;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;  
 }
