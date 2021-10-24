@@ -1,3 +1,12 @@
+## [0.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.1...v0.40.2) (2021-10-24)
+
+
+### Bug Fixes
+
+* docker ignores ([#543](https://github.com/EddieHubCommunity/LinkFree/issues/543)) ([60675fc](https://github.com/EddieHubCommunity/LinkFree/commit/60675fc1869b3517741253cc033cc2f960f5f049))
+
+
+
 ## [0.40.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.0...v0.40.1) (2021-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add anshumaankumarprasad ([#597](https://github.com/EddieHubCommunity/LinkFree/issues/597)) ([e65f53c](https://github.com/EddieHubCommunity/LinkFree/commit/e65f53c29a47800b7d38c2496091aba02c33eddc))
-
-
-
-## [0.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.1...v0.38.2) (2021-10-23)
-
-
-### Bug Fixes
-
-* link icon types ([#584](https://github.com/EddieHubCommunity/LinkFree/issues/584)) ([031648c](https://github.com/EddieHubCommunity/LinkFree/commit/031648cc632a69a91e38bacda85a397d278683d5)), closes [#395](https://github.com/EddieHubCommunity/LinkFree/issues/395) [#367](https://github.com/EddieHubCommunity/LinkFree/issues/367) [#572](https://github.com/EddieHubCommunity/LinkFree/issues/572) [#418](https://github.com/EddieHubCommunity/LinkFree/issues/418)
 
 
 
