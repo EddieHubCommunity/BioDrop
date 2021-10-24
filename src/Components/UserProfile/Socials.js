@@ -12,7 +12,6 @@ function Socials() {
   const [profile, setProfile] = useState({})
   const [skeleton, setskeleton] = useState(true)
 
-
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
