@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
 import { Skeleton } from 'primereact/skeleton'
@@ -21,15 +20,15 @@ const ImageLoader = ({ avatar, username }) => {
   }, [])
 
   return (
-      <>
-        <img
+    <>
+      <img
         ref={imgEl}
         src={avatar}
         alt={username}
         style={loaded ? { display: 'inline-block' } : { display: 'none' }}
       />
-      {!loaded && <Skeleton className="p-avatar" shape="circle" size="4rem"/>}
-      </>
+      {!loaded && <Skeleton className="p-avatar" shape="circle" size="4rem" />}
+    </>
   )
 }
 ImageLoader.propTypes = {

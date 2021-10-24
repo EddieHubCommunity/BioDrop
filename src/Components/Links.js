@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import { Button } from 'primereact/button'
 import linksConfig from '../config/links.json'
-
+import ErrorPage from './UserProfile/ErrorPage'
 function Links({ links }) {
   const colors = linksConfig.validIcons
 
@@ -15,8 +15,8 @@ function Links({ links }) {
   function MouseOut(e) {
     e.target.style.background = ''
   }
-
-  return (
+  try {
+    return (
     <section className="p-d-flex p-jc-center p-mb-4">
       <div
         className="p-d-flex p-flex-column"
@@ -63,7 +63,12 @@ function Links({ links }) {
           ))}
       </div>
     </section>
-  )
+    )
+  } catch (e) {
+    return (
+      <ErrorPage/>
+    )
+  }
 }
 
 Links.propTypes = {

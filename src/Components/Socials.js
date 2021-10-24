@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { Skeleton } from 'primereact/skeleton'
 import { ProgressBar } from 'primereact/progressbar'
 
 import Profile from './Profile'
@@ -58,14 +59,11 @@ function Socials() {
             <Link to="/" aria-label="Go back to Home">
               <i className="pi pi-arrow-left"></i>
             </Link>
-            <Profile
-              bio={profile.bio}
-              avatar={profile.avatar}
-              name={profile.name}
-              total={profile.links.length}
-              username={username}
-            />
-            <Links links={profile.links} />
+            <Profile isLoading={showProgress} profile={profile} username={username}/>
+            {profile.links && !showProgress
+              ? <Links links={profile.links} />
+              : <div className="p-d-flex p-jc-center p-mt-4 p-mb-4">
+                <Skeleton shape="rounded" height="50px" width="45rem" /></div>}
           </>
         )}
         {profile.milestones && <Milestones milestones={profile.milestones} />}
