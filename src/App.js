@@ -13,17 +13,15 @@ import Home from './Components/Home/Home'
 function App() {
   return (
     <Router>
-      <div className="p-m-4">
-        <Switch>
-          <Route path="/:username">
-            <Socials />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
+      <Switch>
+        <Route path="/:username">
+          <Socials />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
     </Router>
   )
 }
