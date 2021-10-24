@@ -1,3 +1,12 @@
+# [0.40.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.39.0...v0.40.0) (2021-10-24)
+
+
+### Features
+
+* add grid layout for user-list and refactor searchbar ([#596](https://github.com/EddieHubCommunity/LinkFree/issues/596)) ([d56d557](https://github.com/EddieHubCommunity/LinkFree/commit/d56d5573b332ac0ce7f569602f0345040b8787f5)), closes [#583](https://github.com/EddieHubCommunity/LinkFree/issues/583)
+
+
+
 # [0.39.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.3...v0.39.0) (2021-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * react router component for links ([#593](https://github.com/EddieHubCommunity/LinkFree/issues/593)) ([70437b2](https://github.com/EddieHubCommunity/LinkFree/commit/70437b2fc997c233b91c9935210cfb9fc69824c5))
-
-
-
-# [0.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.1...v0.38.0) (2021-10-23)
-
-
-### Features
-
-* add width to user chips ([#479](https://github.com/EddieHubCommunity/LinkFree/issues/479)) ([1a9bdc8](https://github.com/EddieHubCommunity/LinkFree/commit/1a9bdc8e046f0a89f0a5336cc8b12d569d6b8a3d))
 
 
 
