@@ -1,3 +1,12 @@
+## [0.40.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.0...v0.40.1) (2021-10-24)
+
+
+### Bug Fixes
+
+* removed not required code ([#598](https://github.com/EddieHubCommunity/LinkFree/issues/598)) ([fd72b4c](https://github.com/EddieHubCommunity/LinkFree/commit/fd72b4c7a57af74ed011f6f13da086a3182ba20c))
+
+
+
 # [0.40.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.39.0...v0.40.0) (2021-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * link icon types ([#584](https://github.com/EddieHubCommunity/LinkFree/issues/584)) ([031648c](https://github.com/EddieHubCommunity/LinkFree/commit/031648cc632a69a91e38bacda85a397d278683d5)), closes [#395](https://github.com/EddieHubCommunity/LinkFree/issues/395) [#367](https://github.com/EddieHubCommunity/LinkFree/issues/367) [#572](https://github.com/EddieHubCommunity/LinkFree/issues/572) [#418](https://github.com/EddieHubCommunity/LinkFree/issues/418)
-
-
-
-## [0.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.0...v0.38.1) (2021-10-23)
-
-
-### Bug Fixes
-
-* react router component for links ([#593](https://github.com/EddieHubCommunity/LinkFree/issues/593)) ([70437b2](https://github.com/EddieHubCommunity/LinkFree/commit/70437b2fc997c233b91c9935210cfb9fc69824c5))
 
 
 
