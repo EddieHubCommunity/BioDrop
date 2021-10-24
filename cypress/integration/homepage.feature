@@ -4,4 +4,4 @@ Feature: Homepage
 
     Scenario: Opening the homepage
         Given I open "home" page
-        And I see "Contribute on" in "footer"
+        And I see "Contribute on" text in section "footer"

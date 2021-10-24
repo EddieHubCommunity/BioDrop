@@ -12,8 +12,8 @@ import Home from './Components/Home/Home'
 
 function App() {
   return (
-    <Router>
-      <div className="p-m-4">
+    <div className="p-m-4">
+      <Router>
         <Switch>
           <Route path="/:username">
             <Socials />
@@ -23,8 +23,8 @@ function App() {
           </Route>
         </Switch>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   )
 }
 
