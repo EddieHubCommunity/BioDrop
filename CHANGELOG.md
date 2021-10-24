@@ -1,3 +1,12 @@
+## [0.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.2...v0.40.3) (2021-10-24)
+
+
+### Bug Fixes
+
+* generating data ([#472](https://github.com/EddieHubCommunity/LinkFree/issues/472)) ([ecac63b](https://github.com/EddieHubCommunity/LinkFree/commit/ecac63b91e20a96e82d38d7273010da94d54f7c6))
+
+
+
 ## [0.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.1...v0.40.2) (2021-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * username next to full name ([#562](https://github.com/EddieHubCommunity/LinkFree/issues/562)) ([4810916](https://github.com/EddieHubCommunity/LinkFree/commit/4810916b89fe37763d580cc9c03e089f88bcb1a4))
-
-
-
-## [0.38.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.2...v0.38.3) (2021-10-24)
-
-
-### Bug Fixes
-
-* **data:** add anshumaankumarprasad ([#597](https://github.com/EddieHubCommunity/LinkFree/issues/597)) ([e65f53c](https://github.com/EddieHubCommunity/LinkFree/commit/e65f53c29a47800b7d38c2496091aba02c33eddc))
 
 
 
