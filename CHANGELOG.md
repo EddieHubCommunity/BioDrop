@@ -1,3 +1,12 @@
+# [0.39.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.3...v0.39.0) (2021-10-24)
+
+
+### Features
+
+* username next to full name ([#562](https://github.com/EddieHubCommunity/LinkFree/issues/562)) ([4810916](https://github.com/EddieHubCommunity/LinkFree/commit/4810916b89fe37763d580cc9c03e089f88bcb1a4))
+
+
+
 ## [0.38.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.38.2...v0.38.3) (2021-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add width to user chips ([#479](https://github.com/EddieHubCommunity/LinkFree/issues/479)) ([1a9bdc8](https://github.com/EddieHubCommunity/LinkFree/commit/1a9bdc8e046f0a89f0a5336cc8b12d569d6b8a3d))
-
-
-
-## [0.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.37.0...v0.37.1) (2021-10-23)
-
-
-### Bug Fixes
-
-* change logo192.png dimension ([#477](https://github.com/EddieHubCommunity/LinkFree/issues/477)) ([665c9ef](https://github.com/EddieHubCommunity/LinkFree/commit/665c9ef537658f7d59fc88a780211e8159005028))
 
 
 
