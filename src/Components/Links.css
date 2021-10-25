@@ -24,3 +24,9 @@
 .p-button-outlined:hover > span {
   color: #fff;
 }
+
+.p-button-outlined span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
