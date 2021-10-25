@@ -3,7 +3,9 @@ import './Links.css'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+
 import { Button } from 'primereact/button'
+
 import linksConfig from '../config/links.json'
 
 function Links({ links }) {
@@ -12,6 +14,7 @@ function Links({ links }) {
   function MouseOver(e, color) {
     e.target.style.background = color
   }
+
   function MouseOut(e) {
     e.target.style.background = ''
   }

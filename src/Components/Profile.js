@@ -5,8 +5,11 @@ import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
+import ImageLoader from './ImageLoader'
 
-function Profile({ name, bio, avatar, total, username }) {
+function Profile({ profile, username }) {
+  const { name, bio, avatar, links } = profile
+
   return (
     <section>
       <div className="p-d-flex p-jc-center p-ai-center">
@@ -15,9 +18,14 @@ function Profile({ name, bio, avatar, total, username }) {
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
+          template={<ImageLoader avatar={avatar} username={name} />}
           className="p-overlay-badge"
         >
-          <Badge value={total} severity="info" className="p-mr-2 p-mt-2" />
+          <Badge
+            value={links.length}
+            severity="info"
+            className="p-mr-2 p-mt-2"
+          />
         </Avatar>
         <h1 className="p-m-2">{name}</h1>
         <h4 className="">({username})</h4>
@@ -30,11 +38,19 @@ function Profile({ name, bio, avatar, total, username }) {
 }
 
 Profile.propTypes = {
-  name: PropTypes.string.isRequired,
-  bio: PropTypes.string.isRequired,
-  avatar: PropTypes.string.isRequired,
-  total: PropTypes.number.isRequired,
   username: PropTypes.string.isRequired,
+  profile: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    bio: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    links: PropTypes.arrayOf(
+      PropTypes.shape({
+        icon: PropTypes.string,
+        name: PropTypes.string,
+        url: PropTypes.string,
+      }),
+    ),
+  }),
 }
 
 export default Profile
