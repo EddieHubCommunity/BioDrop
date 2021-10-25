@@ -7,6 +7,9 @@ Given('I open {string} page', (uri) => {
     case 'home':
       path = '/'
       break
+    case '404':
+      path = '/abcdef'
+      break
     default:
       path = uri
   }

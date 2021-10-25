@@ -6,42 +6,34 @@ import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
 
-function Socials() {
+function User() {
   const [showProgress, setShowProgress] = useState(true)
-  const { username } = useParams()
-
-  const [profile, setProfile] = useState({})
   const [skeleton, setskeleton] = useState(true)
+  const [profile, setProfile] = useState()
+  const [error, setError] = useState(false)
+  const { username } = useParams()
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
       .then((data) => setProfile(data))
-
-      .catch((error) => {
-        console.log('Socials useEffect', error)
-        return <ErrorPage/>
-      })
+      .catch(() => setError(true))
       .finally(() => {
         setShowProgress(false)
-        setTimeout(() => {
-          setskeleton(false)
-        }, 500)
+        setTimeout(() => setskeleton(false), 500)
       })
   }, [username])
 
-  if (!profile) {
-    return <ErrorPage/>
-  } else {
-    return (
+  return (
     <main>
       {showProgress && <ProgressBar mode="indeterminate" />}
-
-      {skeleton ? <Placeholder/> : <ProfilePage profile={profile} username={username} />}
-
+      {skeleton && <Placeholder />}
+      {error && <ErrorPage />}
+      {!error && !skeleton && (
+        <ProfilePage profile={profile} username={username} />
+      )}
     </main>
-    )
-  }
+  )
 }
 
-export default Socials
+export default User

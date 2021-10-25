@@ -5,10 +5,7 @@ import { Skeleton } from 'primereact/skeleton'
 const ImageLoader = ({ avatar, username }) => {
   const imgEl = useRef(null)
   const [loaded, setLoaded] = useState(false)
-
-  const onImageLoaded = () => {
-    setLoaded(true)
-  }
+  const onImageLoaded = () => setLoaded(true)
 
   useEffect(() => {
     const imgElCurrent = imgEl.current
@@ -21,16 +18,12 @@ const ImageLoader = ({ avatar, username }) => {
 
   return (
     <>
-      <img
-        ref={imgEl}
-        src={avatar}
-        alt={username}
-        style={loaded ? { display: 'inline-block' } : { display: 'none' }}
-      />
       {!loaded && <Skeleton className="p-avatar" shape="circle" size="4rem" />}
+      {loaded && <img ref={imgEl} src={avatar} alt={username} />}
     </>
   )
 }
+
 ImageLoader.propTypes = {
   avatar: PropTypes.string,
   username: PropTypes.string,

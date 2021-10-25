@@ -3,20 +3,23 @@ import './Links.css'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+
 import { Button } from 'primereact/button'
+
 import linksConfig from '../config/links.json'
-import ErrorPage from './UserProfile/ErrorPage'
+
 function Links({ links }) {
   const colors = linksConfig.validIcons
 
   function MouseOver(e, color) {
     e.target.style.background = color
   }
+
   function MouseOut(e) {
     e.target.style.background = ''
   }
-  try {
-    return (
+
+  return (
     <section className="p-d-flex p-jc-center p-mb-4">
       <div
         className="p-d-flex p-flex-column"
@@ -63,12 +66,7 @@ function Links({ links }) {
           ))}
       </div>
     </section>
-    )
-  } catch (e) {
-    return (
-      <ErrorPage/>
-    )
-  }
+  )
 }
 
 Links.propTypes = {

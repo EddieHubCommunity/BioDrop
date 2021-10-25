@@ -6,18 +6,24 @@ import Profile from '../Profile'
 import Links from '../Links'
 import Milestones from '../Milestones'
 
-function User({ profile, username }) {
-  return (<main>
-    {<>
-      <Link to="/" aria-label="Go back to Home"><i className="pi pi-arrow-left"></i></Link>
-      <Profile profile={profile} username={username}/>
-      <Links links={profile.links} />
-    </>}
-    {profile.milestones && <Milestones milestones={profile.milestones} />}
-    </main>)
+function ProfilePage({ profile, username }) {
+  return (
+    <main>
+      {
+        <>
+          <Link to="/" aria-label="Go back to Home">
+            <i className="pi pi-arrow-left"></i>
+          </Link>
+          <Profile profile={profile} username={username} />
+          <Links links={profile.links} />
+        </>
+      }
+      {profile.milestones && <Milestones milestones={profile.milestones} />}
+    </main>
+  )
 }
 
-User.propTypes = {
+ProfilePage.propTypes = {
   username: PropTypes.string.isRequired,
   profile: PropTypes.shape({
     name: PropTypes.string.isRequired,
@@ -44,4 +50,4 @@ User.propTypes = {
   }),
 }
 
-export default User
+export default ProfilePage

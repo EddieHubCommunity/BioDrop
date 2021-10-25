@@ -6,37 +6,35 @@ import PropTypes from 'prop-types'
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
 import ImageLoader from './ImageLoader'
-import ErrorPage from './UserProfile/ErrorPage'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile
-  try {
-    return (
-      <section>
-        <div className="p-d-flex p-jc-center p-ai-center">
-          <Avatar
-            image={avatar}
-            imageAlt={`Profile picture of ${name}`}
-            size="xlarge"
-            shape="circle"
-            template={<ImageLoader avatar={avatar} username={name} />}
-            className="p-overlay-badge"
-          >
-            <Badge value={links.length} severity="info" className="p-mr-2 p-mt-2" />
-          </Avatar>
-          <h1 className="p-m-2">{name}</h1>
-          <h4 className="">({username})</h4>
-        </div>
-        <div className="p-d-flex p-jc-center w-50">
-          <p>{bio}</p>
-        </div>
-      </section>
-    )
-  } catch (e) {
-    return (
-      <ErrorPage/>
-    )
-  }
+
+  return (
+    <section>
+      <div className="p-d-flex p-jc-center p-ai-center">
+        <Avatar
+          image={avatar}
+          imageAlt={`Profile picture of ${name}`}
+          size="xlarge"
+          shape="circle"
+          template={<ImageLoader avatar={avatar} username={name} />}
+          className="p-overlay-badge"
+        >
+          <Badge
+            value={links.length}
+            severity="info"
+            className="p-mr-2 p-mt-2"
+          />
+        </Avatar>
+        <h1 className="p-m-2">{name}</h1>
+        <h4 className="">({username})</h4>
+      </div>
+      <div className="p-d-flex p-jc-center w-50">
+        <p>{bio}</p>
+      </div>
+    </section>
+  )
 }
 
 Profile.propTypes = {
@@ -53,7 +51,6 @@ Profile.propTypes = {
       }),
     ),
   }),
-  isLoading: PropTypes.bool.isRequired,
 }
 
 export default Profile
