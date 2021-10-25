@@ -1,3 +1,12 @@
+## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
+
+
+### Bug Fixes
+
+* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
+
+
+
 # [0.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.4...v0.41.0) (2021-10-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docker ignores ([#543](https://github.com/EddieHubCommunity/LinkFree/issues/543)) ([60675fc](https://github.com/EddieHubCommunity/LinkFree/commit/60675fc1869b3517741253cc033cc2f960f5f049))
-
-
-
-## [0.40.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.0...v0.40.1) (2021-10-24)
-
-
-### Bug Fixes
-
-* removed not required code ([#598](https://github.com/EddieHubCommunity/LinkFree/issues/598)) ([fd72b4c](https://github.com/EddieHubCommunity/LinkFree/commit/fd72b4c7a57af74ed011f6f13da086a3182ba20c))
 
 
 
