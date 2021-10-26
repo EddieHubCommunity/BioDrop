@@ -1,3 +1,12 @@
+## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
+
+
+### Bug Fixes
+
+* role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
+
+
+
 ## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * generating data ([#472](https://github.com/EddieHubCommunity/LinkFree/issues/472)) ([ecac63b](https://github.com/EddieHubCommunity/LinkFree/commit/ecac63b91e20a96e82d38d7273010da94d54f7c6))
-
-
-
-## [0.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.1...v0.40.2) (2021-10-24)
-
-
-### Bug Fixes
-
-* docker ignores ([#543](https://github.com/EddieHubCommunity/LinkFree/issues/543)) ([60675fc](https://github.com/EddieHubCommunity/LinkFree/commit/60675fc1869b3517741253cc033cc2f960f5f049))
 
 
 
