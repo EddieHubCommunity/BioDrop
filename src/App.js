@@ -8,17 +8,17 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
-import Socials from './Components/Socials'
-import Home from './Components/Home'
+import User from './Components/UserProfile/User'
+import Home from './Components/Home/Home'
 
 function App() {
   return (
     <Router>
       <div className="p-m-4">
-        <Navbar/>
+        <Navbar />
         <Switch>
           <Route path="/:username">
-            <Socials />
+            <User />
           </Route>
           <Route path="/">
             <Home />

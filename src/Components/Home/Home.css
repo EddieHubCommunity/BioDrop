@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+.p-chip {
+  transition: transform 0.33s;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2rem;
+  width: 16rem;
+}
+
+.p-chip:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
+    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
+
+span.p-chip-text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

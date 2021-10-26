@@ -22,13 +22,16 @@ function Milestones({ milestones }) {
   )
 
   const content = (milestone) => (
-    <Card title={milestone.title} subTitle={milestone.date} className="p-m-5">
+    <Card
+      title={milestone.title}
+      subTitle={milestone.date}
+      className="p-m-5 p-shadow-15"
+    >
       {milestone.image && (
         <img
           src={milestone.image}
           onError={(e) =>
-            (e.target.src =
-              'https://github.com/EddieHubCommunity.png')
+            (e.target.src = 'https://github.com/EddieHubCommunity.png')
           }
           alt={milestone.title}
           width={100}
@@ -36,14 +39,19 @@ function Milestones({ milestones }) {
         />
       )}
       <p>{milestone.description}</p>
-      <div className="p-d-flex p-jc-end">
-        <Button
-          label="Learn more"
-          icon="pi pi-check"
-          className="p-button-raised p-button-rounded"
-          onClick={() => goToLinkHandle(milestone.url)}
-        />
-      </div>
+      {milestone.url && (
+        <div className="p-d-flex p-jc-end">
+          <Button
+            label="Learn more"
+            icon="pi pi-check"
+            role="link"
+            rel="noopener noreferrer"
+            className="p-button-raised p-button-rounded"
+            onClick={() => goToLinkHandle(milestone.url)}
+            style={{ backgroundColor: milestone.color }}
+          />
+        </div>
+      )}
     </Card>
   )
 
