@@ -44,6 +44,8 @@ function Milestones({ milestones }) {
           <Button
             label="Learn more"
             icon="pi pi-check"
+            role="link"
+            rel="noopener noreferrer"
             className="p-button-raised p-button-rounded"
             onClick={() => goToLinkHandle(milestone.url)}
             style={{ backgroundColor: milestone.color }}
