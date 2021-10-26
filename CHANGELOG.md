@@ -1,3 +1,12 @@
+# [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
+
+
+### Features
+
+* replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
+
+
+
 ## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * user profile loading skeleton ([#600](https://github.com/EddieHubCommunity/LinkFree/issues/600)) ([fbac8f7](https://github.com/EddieHubCommunity/LinkFree/commit/fbac8f7e393af87d793efd5937851a436670a1c2)), closes [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465) [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465)
-
-
-
-## [0.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.3...v0.40.4) (2021-10-25)
-
-
-### Bug Fixes
-
-* add AvidCoder101 ([#604](https://github.com/EddieHubCommunity/LinkFree/issues/604)) ([778271f](https://github.com/EddieHubCommunity/LinkFree/commit/778271f1c0c9b3084d27167ec3e44287d514c05a))
 
 
 
