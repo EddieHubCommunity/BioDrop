@@ -55,13 +55,11 @@ function Links({ links }) {
               target="_blank"
               key={`link.url_${index}`}
             >
-              <i className="pi pi-user p-px-2"></i>
-              <span className="p-px-3">{link.name}</span>
               <Button
                 className="p-p-3 p-m-2 p-button-outlined unknown"
                 role="link"
               >
-                <i className="pi pi-arrow-right p-px-2"></i>
+                <i className="pi pi-user p-px-2"></i>
                 <span className="p-px-3">{link.name}</span>
               </Button>
             </Link>
