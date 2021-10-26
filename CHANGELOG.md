@@ -1,45 +1,45 @@
-## [0.33.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.6...v0.33.7) (2021-10-17)
+## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
 
 
 ### Bug Fixes
 
-* add neerajsingh869 ([#523](https://github.com/EddieHubCommunity/LinkFree/issues/523)) ([927cf43](https://github.com/EddieHubCommunity/LinkFree/commit/927cf43adb9fe8705b544d3e82ed563224d63504))
+* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
 
 
 
-## [0.33.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.5...v0.33.6) (2021-10-16)
+# [0.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.4...v0.41.0) (2021-10-25)
 
 
-### Bug Fixes
+### Features
 
-* added 889-dj profile ([#517](https://github.com/EddieHubCommunity/LinkFree/issues/517)) ([1487acc](https://github.com/EddieHubCommunity/LinkFree/commit/1487acc7e0c766cb61f71d2be11ad227d4660511))
-
-
-
-## [0.33.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.4...v0.33.5) (2021-10-15)
-
-
-### Bug Fixes
-
-* exclude link button if no link ([#511](https://github.com/EddieHubCommunity/LinkFree/issues/511)) ([cca262e](https://github.com/EddieHubCommunity/LinkFree/commit/cca262eff42b80ff31bce44d553e7380ec730286))
+* user profile loading skeleton ([#600](https://github.com/EddieHubCommunity/LinkFree/issues/600)) ([fbac8f7](https://github.com/EddieHubCommunity/LinkFree/commit/fbac8f7e393af87d793efd5937851a436670a1c2)), closes [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465) [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465)
 
 
 
-## [0.33.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.3...v0.33.4) (2021-10-15)
+## [0.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.3...v0.40.4) (2021-10-25)
 
 
 ### Bug Fixes
 
-* Avatar in data/rushikeshadhav ([#515](https://github.com/EddieHubCommunity/LinkFree/issues/515)) ([9462d97](https://github.com/EddieHubCommunity/LinkFree/commit/9462d977ca17b29915abc7196cf55dc636cd026b)), closes [#514](https://github.com/EddieHubCommunity/LinkFree/issues/514)
+* add AvidCoder101 ([#604](https://github.com/EddieHubCommunity/LinkFree/issues/604)) ([778271f](https://github.com/EddieHubCommunity/LinkFree/commit/778271f1c0c9b3084d27167ec3e44287d514c05a))
 
 
 
-## [0.33.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.33.2...v0.33.3) (2021-10-14)
+## [0.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.2...v0.40.3) (2021-10-24)
 
 
 ### Bug Fixes
 
-* add ravireddy07 ([#510](https://github.com/EddieHubCommunity/LinkFree/issues/510)) ([4fbd43b](https://github.com/EddieHubCommunity/LinkFree/commit/4fbd43b3e54b178854cfc1049d3ca4df4cec1bb4))
+* generating data ([#472](https://github.com/EddieHubCommunity/LinkFree/issues/472)) ([ecac63b](https://github.com/EddieHubCommunity/LinkFree/commit/ecac63b91e20a96e82d38d7273010da94d54f7c6))
+
+
+
+## [0.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.1...v0.40.2) (2021-10-24)
+
+
+### Bug Fixes
+
+* docker ignores ([#543](https://github.com/EddieHubCommunity/LinkFree/issues/543)) ([60675fc](https://github.com/EddieHubCommunity/LinkFree/commit/60675fc1869b3517741253cc033cc2f960f5f049))
 
 
 

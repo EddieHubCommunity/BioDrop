@@ -22,7 +22,11 @@ function Milestones({ milestones }) {
   )
 
   const content = (milestone) => (
-    <Card title={milestone.title} subTitle={milestone.date} className="p-m-5">
+    <Card
+      title={milestone.title}
+      subTitle={milestone.date}
+      className="p-m-5 p-shadow-15"
+    >
       {milestone.image && (
         <img
           src={milestone.image}
@@ -44,6 +48,7 @@ function Milestones({ milestones }) {
             rel="noopener noreferrer"
             className="p-button-raised p-button-rounded"
             onClick={() => goToLinkHandle(milestone.url)}
+            style={{ backgroundColor: milestone.color }}
           />
         </div>
       )}
