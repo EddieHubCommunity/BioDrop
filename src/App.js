@@ -6,6 +6,7 @@ import 'primeflex/primeflex.css'
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
+import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Socials from './Components/Socials'
 import Home from './Components/Home'
@@ -14,6 +15,7 @@ function App() {
   return (
     <Router>
       <div className="p-m-4">
+        <Navbar/>
         <Switch>
           <Route path="/:username">
             <Socials />
