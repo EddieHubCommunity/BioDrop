@@ -1,0 +1,27 @@
+{
+  "name": "Eddie Jaoude",
+  "bio": "Founder of EddieHub",
+  "avatar": "https://github.com/pandyaved98e.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pandyaved98",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MrVedPandya1",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "January 2017",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.pandyaved98.github.io/Vedant"
+    }
+  ]
+}
