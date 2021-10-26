@@ -1,3 +1,12 @@
+## [0.42.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.0...v0.42.1) (2021-10-26)
+
+
+### Bug Fixes
+
+* Inconsistent gaps on homepage ([#609](https://github.com/EddieHubCommunity/LinkFree/issues/609)) ([a6bc041](https://github.com/EddieHubCommunity/LinkFree/commit/a6bc041fb3c67b90280a03be41cdf28edbd5ef4d))
+
+
+
 # [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
-
-
-
-# [0.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.4...v0.41.0) (2021-10-25)
-
-
-### Features
-
-* user profile loading skeleton ([#600](https://github.com/EddieHubCommunity/LinkFree/issues/600)) ([fbac8f7](https://github.com/EddieHubCommunity/LinkFree/commit/fbac8f7e393af87d793efd5937851a436670a1c2)), closes [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465) [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465)
 
 
 
