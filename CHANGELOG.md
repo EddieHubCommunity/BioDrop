@@ -1,3 +1,12 @@
+## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
+
+
+### Bug Fixes
+
+* **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
+
+
+
 ## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add AvidCoder101 ([#604](https://github.com/EddieHubCommunity/LinkFree/issues/604)) ([778271f](https://github.com/EddieHubCommunity/LinkFree/commit/778271f1c0c9b3084d27167ec3e44287d514c05a))
-
-
-
-## [0.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.2...v0.40.3) (2021-10-24)
-
-
-### Bug Fixes
-
-* generating data ([#472](https://github.com/EddieHubCommunity/LinkFree/issues/472)) ([ecac63b](https://github.com/EddieHubCommunity/LinkFree/commit/ecac63b91e20a96e82d38d7273010da94d54f7c6))
 
 
 
