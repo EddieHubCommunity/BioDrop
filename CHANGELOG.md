@@ -1,45 +1,45 @@
-## [0.35.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.5...v0.35.6) (2021-10-22)
+# [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
+
+
+### Features
+
+* replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
+
+
+
+## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
 
 
 ### Bug Fixes
 
-* ashishshaji ([#569](https://github.com/EddieHubCommunity/LinkFree/issues/569)) ([a3b435d](https://github.com/EddieHubCommunity/LinkFree/commit/a3b435d395ba5ba03cf92ecff60c0af13ae812bc))
+* **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
 
 
 
-## [0.35.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.4...v0.35.5) (2021-10-22)
-
-
-### Bug Fixes
-
-* changed button color to match icon color ([#556](https://github.com/EddieHubCommunity/LinkFree/issues/556)) ([9a7bdaa](https://github.com/EddieHubCommunity/LinkFree/commit/9a7bdaae0acad4a4a14b72bd43ac772c0da76bec))
-
-
-
-## [0.35.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.3...v0.35.4) (2021-10-22)
+## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
 
 
 ### Bug Fixes
 
-* discord + paypal hover ([#560](https://github.com/EddieHubCommunity/LinkFree/issues/560)) ([110693a](https://github.com/EddieHubCommunity/LinkFree/commit/110693a25ee477b3341b4ca2e36f28cd9c24b273))
+* role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
 
 
 
-## [0.35.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.2...v0.35.3) (2021-10-22)
-
-
-### Bug Fixes
-
-* buttons rounded ([#432](https://github.com/EddieHubCommunity/LinkFree/issues/432)) ([5a93751](https://github.com/EddieHubCommunity/LinkFree/commit/5a9375198b1fb071ad022735ce41251774dd2258))
-
-
-
-## [0.35.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.35.1...v0.35.2) (2021-10-22)
+## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
 
 
 ### Bug Fixes
 
-* icons not available in Prime React ([#553](https://github.com/EddieHubCommunity/LinkFree/issues/553)) ([14b0c3e](https://github.com/EddieHubCommunity/LinkFree/commit/14b0c3e53a2110ea4fb7a03d41f921c927e5932b))
+* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
+
+
+
+# [0.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.40.4...v0.41.0) (2021-10-25)
+
+
+### Features
+
+* user profile loading skeleton ([#600](https://github.com/EddieHubCommunity/LinkFree/issues/600)) ([fbac8f7](https://github.com/EddieHubCommunity/LinkFree/commit/fbac8f7e393af87d793efd5937851a436670a1c2)), closes [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465) [#465](https://github.com/EddieHubCommunity/LinkFree/issues/465)
 
 
 

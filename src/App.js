@@ -7,24 +7,24 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Footer from './Components/Footer'
-import Socials from './Components/Socials'
+import User from './Components/UserProfile/User'
 import Home from './Components/Home/Home'
 
 function App() {
   return (
-    <Router>
-      <div className="p-m-4">
+    <div className="p-m-4">
+      <Router>
         <Switch>
           <Route path="/:username">
-            <Socials />
+            <User />
           </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   )
 }
 

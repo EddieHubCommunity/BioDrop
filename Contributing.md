@@ -55,7 +55,7 @@ git merge upstream/main
 **8.** Stage your changes and commit:
 
 ```bash
-git add .
+git add public
 ```
 
 ```bash
