@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
 
 import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
+import Navbar from '../Navbar'
 
 function User() {
   const [showProgress, setShowProgress] = useState(true)
@@ -26,6 +27,13 @@ function User() {
 
   return (
     <main>
+      <Navbar
+        start={
+          <Link to="/" aria-label="Go back to Home">
+            <i className="pi pi-arrow-left"></i>
+          </Link>
+        }
+      />
       {showProgress && <ProgressBar mode="indeterminate" />}
       {skeleton && <Placeholder />}
       {error && <ErrorPage />}

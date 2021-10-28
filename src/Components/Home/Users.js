@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
-import { Link } from 'react-router-dom'
+
+import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 
 function Users({ list }) {
@@ -9,7 +11,11 @@ function Users({ list }) {
   const searchHandler = (value) => setSearchTerm(value || '')
   return (
     <>
-      <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
+      <Navbar
+        start={
+          <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
+        }
+      />
       <div className="user-list">
         {list
           .filter((User) =>
