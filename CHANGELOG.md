@@ -1,3 +1,12 @@
+## [0.42.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.2...v0.42.3) (2021-10-28)
+
+
+### Bug Fixes
+
+* **data:** Profile added ([#614](https://github.com/EddieHubCommunity/LinkFree/issues/614)) ([917a829](https://github.com/EddieHubCommunity/LinkFree/commit/917a8298b492b6918518df04771695798c400501))
+
+
+
 ## [0.42.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.1...v0.42.2) (2021-10-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
-
-
-
-## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
-
-
-### Bug Fixes
-
-* role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
 
 
 
