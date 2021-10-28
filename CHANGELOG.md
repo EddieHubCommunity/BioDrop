@@ -1,3 +1,12 @@
+## [0.42.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.1...v0.42.2) (2021-10-28)
+
+
+### Bug Fixes
+
+* **data:** add AnanthaRamanathan138 profile ([db060a5](https://github.com/EddieHubCommunity/LinkFree/commit/db060a581a381015dbcbc393d7e7ac0830734628))
+
+
+
 ## [0.42.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.0...v0.42.1) (2021-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
-
-
-
-## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
-
-
-### Bug Fixes
-
-* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
 
 
 
