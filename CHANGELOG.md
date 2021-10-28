@@ -1,3 +1,12 @@
+## [0.42.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.3...v0.42.4) (2021-10-28)
+
+
+### Bug Fixes
+
+* toolbar ([#414](https://github.com/EddieHubCommunity/LinkFree/issues/414)) ([9029abe](https://github.com/EddieHubCommunity/LinkFree/commit/9029abe061144dd5b8c0ea9b974cdf1d499bebd6))
+
+
+
 ## [0.42.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.2...v0.42.3) (2021-10-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
-
-
-
-## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
-
-
-### Bug Fixes
-
-* **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
 
 
 
