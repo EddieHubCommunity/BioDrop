@@ -1,3 +1,12 @@
+## [0.42.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.4...v0.42.5) (2021-10-28)
+
+
+### Bug Fixes
+
+* **data:** add new link felipetodev ([#617](https://github.com/EddieHubCommunity/LinkFree/issues/617)) ([a6dc40c](https://github.com/EddieHubCommunity/LinkFree/commit/a6dc40c2b198d63e69718a903b0e55afad0d805d))
+
+
+
 ## [0.42.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.3...v0.42.4) (2021-10-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Inconsistent gaps on homepage ([#609](https://github.com/EddieHubCommunity/LinkFree/issues/609)) ([a6bc041](https://github.com/EddieHubCommunity/LinkFree/commit/a6bc041fb3c67b90280a03be41cdf28edbd5ef4d))
-
-
-
-# [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
-
-
-### Features
-
-* replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
 
 
 
