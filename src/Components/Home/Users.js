@@ -16,7 +16,7 @@ function Users({ list }) {
           <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         }
       />
-      <div className="user-list">
+      <div>
         {list
           .filter((User) =>
             User.name.toLowerCase().includes(searchTerm.toLowerCase()),
