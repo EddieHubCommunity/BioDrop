@@ -1,3 +1,12 @@
+## [0.42.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.6...v0.42.7) (2021-10-29)
+
+
+### Bug Fixes
+
+* update avatar url ([d6b0542](https://github.com/EddieHubCommunity/LinkFree/commit/d6b05428d2f9e897e9ade44fdff295b751a3284b))
+
+
+
 ## [0.42.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.5...v0.42.6) (2021-10-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** Profile added ([#614](https://github.com/EddieHubCommunity/LinkFree/issues/614)) ([917a829](https://github.com/EddieHubCommunity/LinkFree/commit/917a8298b492b6918518df04771695798c400501))
-
-
-
-## [0.42.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.1...v0.42.2) (2021-10-28)
-
-
-### Bug Fixes
-
-* **data:** add AnanthaRamanathan138 profile ([db060a5](https://github.com/EddieHubCommunity/LinkFree/commit/db060a581a381015dbcbc393d7e7ac0830734628))
 
 
 
