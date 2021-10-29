@@ -1,3 +1,21 @@
+## [0.42.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.6...v0.42.7) (2021-10-29)
+
+
+### Bug Fixes
+
+* update avatar url ([d6b0542](https://github.com/EddieHubCommunity/LinkFree/commit/d6b05428d2f9e897e9ade44fdff295b751a3284b))
+
+
+
+## [0.42.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.5...v0.42.6) (2021-10-29)
+
+
+### Bug Fixes
+
+* no users found message ([#520](https://github.com/EddieHubCommunity/LinkFree/issues/520)) ([fe41430](https://github.com/EddieHubCommunity/LinkFree/commit/fe414300cfe0624c4ac03764e080c31f3d7b4a9c))
+
+
+
 ## [0.42.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.4...v0.42.5) (2021-10-28)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * **data:** Profile added ([#614](https://github.com/EddieHubCommunity/LinkFree/issues/614)) ([917a829](https://github.com/EddieHubCommunity/LinkFree/commit/917a8298b492b6918518df04771695798c400501))
-
-
-
-## [0.42.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.1...v0.42.2) (2021-10-28)
-
-
-### Bug Fixes
-
-* **data:** add AnanthaRamanathan138 profile ([db060a5](https://github.com/EddieHubCommunity/LinkFree/commit/db060a581a381015dbcbc393d7e7ac0830734628))
-
-
-
-## [0.42.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.0...v0.42.1) (2021-10-26)
-
-
-### Bug Fixes
-
-* Inconsistent gaps on homepage ([#609](https://github.com/EddieHubCommunity/LinkFree/issues/609)) ([a6bc041](https://github.com/EddieHubCommunity/LinkFree/commit/a6bc041fb3c67b90280a03be41cdf28edbd5ef4d))
 
 
 
