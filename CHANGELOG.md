@@ -1,3 +1,12 @@
+## [0.42.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.7...v0.42.8) (2021-10-30)
+
+
+### Bug Fixes
+
+* **data:** add new link for Kunal0007 ([#621](https://github.com/EddieHubCommunity/LinkFree/issues/621)) ([837f7a3](https://github.com/EddieHubCommunity/LinkFree/commit/837f7a3d082fa5f751616c58ab5ead113bb7f7ef))
+
+
+
 ## [0.42.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.6...v0.42.7) (2021-10-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * toolbar ([#414](https://github.com/EddieHubCommunity/LinkFree/issues/414)) ([9029abe](https://github.com/EddieHubCommunity/LinkFree/commit/9029abe061144dd5b8c0ea9b974cdf1d499bebd6))
-
-
-
-## [0.42.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.2...v0.42.3) (2021-10-28)
-
-
-### Bug Fixes
-
-* **data:** Profile added ([#614](https://github.com/EddieHubCommunity/LinkFree/issues/614)) ([917a829](https://github.com/EddieHubCommunity/LinkFree/commit/917a8298b492b6918518df04771695798c400501))
 
 
 
