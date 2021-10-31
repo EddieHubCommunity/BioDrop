@@ -1,3 +1,12 @@
+## [0.42.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.8...v0.42.9) (2021-10-31)
+
+
+### Bug Fixes
+
+* more consistent loading skeleton ([#619](https://github.com/EddieHubCommunity/LinkFree/issues/619)) ([1aa6a54](https://github.com/EddieHubCommunity/LinkFree/commit/1aa6a541b664ea757e18f90b2460e91406326b84))
+
+
+
 ## [0.42.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.7...v0.42.8) (2021-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add new link felipetodev ([#617](https://github.com/EddieHubCommunity/LinkFree/issues/617)) ([a6dc40c](https://github.com/EddieHubCommunity/LinkFree/commit/a6dc40c2b198d63e69718a903b0e55afad0d805d))
-
-
-
-## [0.42.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.3...v0.42.4) (2021-10-28)
-
-
-### Bug Fixes
-
-* toolbar ([#414](https://github.com/EddieHubCommunity/LinkFree/issues/414)) ([9029abe](https://github.com/EddieHubCommunity/LinkFree/commit/9029abe061144dd5b8c0ea9b974cdf1d499bebd6))
 
 
 
