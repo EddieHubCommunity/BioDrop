@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 import { Button } from 'primereact/button'
 
-import linksConfig from '../config/links.json'
+import linksConfig from '../../config/links.json'
 
 function Links({ links }) {
   const colors = linksConfig.validIcons

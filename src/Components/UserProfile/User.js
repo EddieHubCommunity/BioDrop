@@ -5,7 +5,7 @@ import { ProgressBar } from 'primereact/progressbar'
 import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
-import Navbar from '../Navbar'
+import Navbar from '../Layout/Navbar/Navbar'
 
 function User() {
   const [showProgress, setShowProgress] = useState(true)

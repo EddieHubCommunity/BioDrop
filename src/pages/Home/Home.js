@@ -4,8 +4,8 @@ import React, { useState, useEffect, useRef } from 'react'
 import { ProgressBar } from 'primereact/progressbar'
 import { Toast } from 'primereact/toast'
 
-import Placeholders from './Placeholders'
-import Users from './Users'
+import Placeholders from '../../Components/Placeholders/Placeholders'
+import Users from '../../Components/Users/Users'
 
 function Home() {
   const [showProgress, setShowProgress] = useState(true)

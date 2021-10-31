@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Profile from '../Profile'
-import Links from '../Links'
-import Milestones from '../Milestones'
+import Profile from '../Profile/Profile'
+import Links from '../Links/Links'
+import Milestones from '../Milestone/Milestones'
 
 function ProfilePage({ profile, username }) {
   return (

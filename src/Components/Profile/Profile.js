@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
-import ImageLoader from './ImageLoader'
+import ImageLoader from '../ImageLoader/ImageLoader'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile

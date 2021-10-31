@@ -5,8 +5,8 @@ import { Chip } from 'primereact/chip'
 
 import { Message } from 'primereact/message'
 
-import Navbar from '../Navbar'
-import Searchbar from './Searchbar'
+import Navbar from '../Layout/Navbar/Navbar'
+import Searchbar from '../Searchbar/Searchbar'
 
 function Users({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
