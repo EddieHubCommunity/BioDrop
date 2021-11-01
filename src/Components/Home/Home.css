@@ -20,9 +20,3 @@ span.p-chip-text{
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
-.user-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
