@@ -11,7 +11,7 @@ function Placeholder({ list }) {
       height="3.2rem"
       className="p-mb-4"
     />
-    <div className="p-d-flex p-flex-wrap">
+    <div className="p-d-flex p-flex-wrap p-jc-center">
       {list.map((user, key) => {
         return (
           <Skeleton

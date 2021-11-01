@@ -28,7 +28,7 @@ function Users({ list }) {
           <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         }
       />
-      <div className="user-list">
+      <div className="user-list p-d-flex p-flex-wrap p-jc-center">
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList
