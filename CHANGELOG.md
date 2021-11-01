@@ -1,3 +1,12 @@
+## [0.42.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.9...v0.42.10) (2021-11-01)
+
+
+### Bug Fixes
+
+* center user-list ([#620](https://github.com/EddieHubCommunity/LinkFree/issues/620)) ([f044703](https://github.com/EddieHubCommunity/LinkFree/commit/f0447030e896582be518e79b1335266688c28dbf))
+
+
+
 ## [0.42.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.8...v0.42.9) (2021-10-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * no users found message ([#520](https://github.com/EddieHubCommunity/LinkFree/issues/520)) ([fe41430](https://github.com/EddieHubCommunity/LinkFree/commit/fe414300cfe0624c4ac03764e080c31f3d7b4a9c))
-
-
-
-## [0.42.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.4...v0.42.5) (2021-10-28)
-
-
-### Bug Fixes
-
-* **data:** add new link felipetodev ([#617](https://github.com/EddieHubCommunity/LinkFree/issues/617)) ([a6dc40c](https://github.com/EddieHubCommunity/LinkFree/commit/a6dc40c2b198d63e69718a903b0e55afad0d805d))
 
 
 
