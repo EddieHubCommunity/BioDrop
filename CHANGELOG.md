@@ -1,3 +1,12 @@
+## [0.42.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.13...v0.42.14) (2021-11-02)
+
+
+### Bug Fixes
+
+* **data:** add subhamghimire.json ([#634](https://github.com/EddieHubCommunity/LinkFree/issues/634)) ([daa7438](https://github.com/EddieHubCommunity/LinkFree/commit/daa743853f8c04deb27bc4a15c41832255fb80d6))
+
+
+
 ## [0.42.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.12...v0.42.13) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * center user-list ([#620](https://github.com/EddieHubCommunity/LinkFree/issues/620)) ([f044703](https://github.com/EddieHubCommunity/LinkFree/commit/f0447030e896582be518e79b1335266688c28dbf))
-
-
-
-## [0.42.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.8...v0.42.9) (2021-10-31)
-
-
-### Bug Fixes
-
-* more consistent loading skeleton ([#619](https://github.com/EddieHubCommunity/LinkFree/issues/619)) ([1aa6a54](https://github.com/EddieHubCommunity/LinkFree/commit/1aa6a541b664ea757e18f90b2460e91406326b84))
 
 
 
