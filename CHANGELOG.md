@@ -1,3 +1,12 @@
+## [0.42.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.14...v0.42.15) (2021-11-02)
+
+
+### Bug Fixes
+
+* Cards shrinking in mobile breakpoint ([#633](https://github.com/EddieHubCommunity/LinkFree/issues/633)) ([9e3f5b2](https://github.com/EddieHubCommunity/LinkFree/commit/9e3f5b2106c10479ba73e53ac24b02a3a9f12125))
+
+
+
 ## [0.42.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.13...v0.42.14) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add FidalMathew.json ([#622](https://github.com/EddieHubCommunity/LinkFree/issues/622)) ([fadaeba](https://github.com/EddieHubCommunity/LinkFree/commit/fadaebaf88e09f08567215b262a0afdfb71db851))
-
-
-
-## [0.42.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.9...v0.42.10) (2021-11-01)
-
-
-### Bug Fixes
-
-* center user-list ([#620](https://github.com/EddieHubCommunity/LinkFree/issues/620)) ([f044703](https://github.com/EddieHubCommunity/LinkFree/commit/f0447030e896582be518e79b1335266688c28dbf))
 
 
 
