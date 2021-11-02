@@ -1,3 +1,12 @@
+# [0.43.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.17...v0.43.0) (2021-11-02)
+
+
+### Features
+
+* add meta description for site ([#635](https://github.com/EddieHubCommunity/LinkFree/issues/635)) ([7f3ebfa](https://github.com/EddieHubCommunity/LinkFree/commit/7f3ebfaa2f1b12e919193ada1e0d301759ef66aa))
+
+
+
 ## [0.42.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.16...v0.42.17) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add subhamghimire.json ([#634](https://github.com/EddieHubCommunity/LinkFree/issues/634)) ([daa7438](https://github.com/EddieHubCommunity/LinkFree/commit/daa743853f8c04deb27bc4a15c41832255fb80d6))
-
-
-
-## [0.42.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.12...v0.42.13) (2021-11-02)
-
-
-### Bug Fixes
-
-* add `Muhammed-Rahif.json` ([#631](https://github.com/EddieHubCommunity/LinkFree/issues/631)) ([ffcafd6](https://github.com/EddieHubCommunity/LinkFree/commit/ffcafd611ab781d6d47c57e160dfccb3b86844c2))
 
 
 
