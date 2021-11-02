@@ -25,7 +25,7 @@ function Milestones({ milestones }) {
     <Card
       title={milestone.title}
       subTitle={milestone.date}
-      className="p-m-5 p-shadow-15"
+      className="p-my-5 p-mx-md-5 p-shadow-15"
     >
       {milestone.image && (
         <img
@@ -57,7 +57,7 @@ function Milestones({ milestones }) {
 
   return (
     <section className="p-d-flex p-jc-center p-mb-5">
-      <div style={{ width: 70 + '%' }}>
+      <div className="p-md-8">
         <Timeline
           value={milestones}
           align="alternate"
