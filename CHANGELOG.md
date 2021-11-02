@@ -1,3 +1,12 @@
+## [0.42.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.11...v0.42.12) (2021-11-02)
+
+
+### Bug Fixes
+
+* add abhishekY2401.json ([#627](https://github.com/EddieHubCommunity/LinkFree/issues/627)) ([3d97c1b](https://github.com/EddieHubCommunity/LinkFree/commit/3d97c1b2f480fd4678ce58f3a3c942cc53bd977a))
+
+
+
 ## [0.42.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.10...v0.42.11) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add new link for Kunal0007 ([#621](https://github.com/EddieHubCommunity/LinkFree/issues/621)) ([837f7a3](https://github.com/EddieHubCommunity/LinkFree/commit/837f7a3d082fa5f751616c58ab5ead113bb7f7ef))
-
-
-
-## [0.42.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.6...v0.42.7) (2021-10-29)
-
-
-### Bug Fixes
-
-* update avatar url ([d6b0542](https://github.com/EddieHubCommunity/LinkFree/commit/d6b05428d2f9e897e9ade44fdff295b751a3284b))
 
 
 
