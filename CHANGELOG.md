@@ -1,3 +1,12 @@
+## [0.42.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.15...v0.42.16) (2021-11-02)
+
+
+### Bug Fixes
+
+* profile picture not loading ([#629](https://github.com/EddieHubCommunity/LinkFree/issues/629)) ([53950c7](https://github.com/EddieHubCommunity/LinkFree/commit/53950c7883add9e5fb732cd63f05f12e086d34d4))
+
+
+
 ## [0.42.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.14...v0.42.15) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add abhishekY2401.json ([#627](https://github.com/EddieHubCommunity/LinkFree/issues/627)) ([3d97c1b](https://github.com/EddieHubCommunity/LinkFree/commit/3d97c1b2f480fd4678ce58f3a3c942cc53bd977a))
-
-
-
-## [0.42.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.10...v0.42.11) (2021-11-02)
-
-
-### Bug Fixes
-
-* Add FidalMathew.json ([#622](https://github.com/EddieHubCommunity/LinkFree/issues/622)) ([fadaeba](https://github.com/EddieHubCommunity/LinkFree/commit/fadaebaf88e09f08567215b262a0afdfb71db851))
 
 
 
