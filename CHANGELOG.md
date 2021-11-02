@@ -1,3 +1,12 @@
+## [0.42.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.10...v0.42.11) (2021-11-02)
+
+
+### Bug Fixes
+
+* Add FidalMathew.json ([#622](https://github.com/EddieHubCommunity/LinkFree/issues/622)) ([fadaeba](https://github.com/EddieHubCommunity/LinkFree/commit/fadaebaf88e09f08567215b262a0afdfb71db851))
+
+
+
 ## [0.42.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.9...v0.42.10) (2021-11-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update avatar url ([d6b0542](https://github.com/EddieHubCommunity/LinkFree/commit/d6b05428d2f9e897e9ade44fdff295b751a3284b))
-
-
-
-## [0.42.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.5...v0.42.6) (2021-10-29)
-
-
-### Bug Fixes
-
-* no users found message ([#520](https://github.com/EddieHubCommunity/LinkFree/issues/520)) ([fe41430](https://github.com/EddieHubCommunity/LinkFree/commit/fe414300cfe0624c4ac03764e080c31f3d7b4a9c))
 
 
 
