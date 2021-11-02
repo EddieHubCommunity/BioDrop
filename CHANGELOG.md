@@ -1,3 +1,12 @@
+## [0.42.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.16...v0.42.17) (2021-11-02)
+
+
+### Bug Fixes
+
+* **data:** add SyedSohan.json ([#628](https://github.com/EddieHubCommunity/LinkFree/issues/628)) ([5679ac1](https://github.com/EddieHubCommunity/LinkFree/commit/5679ac17687ab857630829f6e08c96bf870cee1d))
+
+
+
 ## [0.42.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.15...v0.42.16) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add `Muhammed-Rahif.json` ([#631](https://github.com/EddieHubCommunity/LinkFree/issues/631)) ([ffcafd6](https://github.com/EddieHubCommunity/LinkFree/commit/ffcafd611ab781d6d47c57e160dfccb3b86844c2))
-
-
-
-## [0.42.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.11...v0.42.12) (2021-11-02)
-
-
-### Bug Fixes
-
-* add abhishekY2401.json ([#627](https://github.com/EddieHubCommunity/LinkFree/issues/627)) ([3d97c1b](https://github.com/EddieHubCommunity/LinkFree/commit/3d97c1b2f480fd4678ce58f3a3c942cc53bd977a))
 
 
 
