@@ -1,3 +1,12 @@
+# [0.44.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.43.0...v0.44.0) (2021-11-03)
+
+
+### Features
+
+* change sort from username to name ([#638](https://github.com/EddieHubCommunity/LinkFree/issues/638)) ([5f3ccb1](https://github.com/EddieHubCommunity/LinkFree/commit/5f3ccb141002373cfcb97acb648956a81e95b244))
+
+
+
 # [0.43.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.17...v0.43.0) (2021-11-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Cards shrinking in mobile breakpoint ([#633](https://github.com/EddieHubCommunity/LinkFree/issues/633)) ([9e3f5b2](https://github.com/EddieHubCommunity/LinkFree/commit/9e3f5b2106c10479ba73e53ac24b02a3a9f12125))
-
-
-
-## [0.42.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.13...v0.42.14) (2021-11-02)
-
-
-### Bug Fixes
-
-* **data:** add subhamghimire.json ([#634](https://github.com/EddieHubCommunity/LinkFree/issues/634)) ([daa7438](https://github.com/EddieHubCommunity/LinkFree/commit/daa743853f8c04deb27bc4a15c41832255fb80d6))
 
 
 
