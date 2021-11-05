@@ -1,0 +1,17 @@
+{
+  "name": "Chad Whitt",
+  "bio": "I am Dev, a sophomore and pursuing my bachelor's in Computer Science from MITS gwalior. I am interested in web technologies and im an open source enthusiast. I am open to collaborate to projects and innovative/creative ideas.",
+  "avatar": "https://github.com/youhavechad.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/youhavechad",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/youhavechad",
+      "icon": "twitter"
+    }
+  ]
+}
