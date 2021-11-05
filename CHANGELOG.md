@@ -1,3 +1,12 @@
+## [0.44.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.1...v0.44.2) (2021-11-05)
+
+
+### Bug Fixes
+
+* youhavechad ([#643](https://github.com/EddieHubCommunity/LinkFree/issues/643)) ([bd485f2](https://github.com/EddieHubCommunity/LinkFree/commit/bd485f20c8bca9bccf9c888b85199d4f7fce1464))
+
+
+
 ## [0.44.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.0...v0.44.1) (2021-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add SyedSohan.json ([#628](https://github.com/EddieHubCommunity/LinkFree/issues/628)) ([5679ac1](https://github.com/EddieHubCommunity/LinkFree/commit/5679ac17687ab857630829f6e08c96bf870cee1d))
-
-
-
-## [0.42.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.15...v0.42.16) (2021-11-02)
-
-
-### Bug Fixes
-
-* profile picture not loading ([#629](https://github.com/EddieHubCommunity/LinkFree/issues/629)) ([53950c7](https://github.com/EddieHubCommunity/LinkFree/commit/53950c7883add9e5fb732cd63f05f12e086d34d4))
 
 
 
