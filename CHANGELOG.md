@@ -1,3 +1,12 @@
+## [0.44.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.0...v0.44.1) (2021-11-05)
+
+
+### Bug Fixes
+
+* add siddhi-244 ([#641](https://github.com/EddieHubCommunity/LinkFree/issues/641)) ([3c01885](https://github.com/EddieHubCommunity/LinkFree/commit/3c0188547875a0ba14e4c998ea63ab063f26b242))
+
+
+
 # [0.44.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.43.0...v0.44.0) (2021-11-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile picture not loading ([#629](https://github.com/EddieHubCommunity/LinkFree/issues/629)) ([53950c7](https://github.com/EddieHubCommunity/LinkFree/commit/53950c7883add9e5fb732cd63f05f12e086d34d4))
-
-
-
-## [0.42.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.14...v0.42.15) (2021-11-02)
-
-
-### Bug Fixes
-
-* Cards shrinking in mobile breakpoint ([#633](https://github.com/EddieHubCommunity/LinkFree/issues/633)) ([9e3f5b2](https://github.com/EddieHubCommunity/LinkFree/commit/9e3f5b2106c10479ba73e53ac24b02a3a9f12125))
 
 
 
