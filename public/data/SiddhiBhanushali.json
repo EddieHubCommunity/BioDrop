@@ -13,40 +13,4 @@
       "url": "https://twitter.com/SiddhiB6",
       "icon": "twitter"
     }
-  ],
-  "milestones": [
-    {
-      "title": "Started Freelancing",
-      "date": "May 2010",
-      "icon": "dollar",
-      "color": "grey",
-      "description": "Started freelancing again",
-      "url": "https://www.eddiejaoude.io/"
-    },
-    {
-      "title": "Started YouTube",
-      "image": "https://github.com/eddiejaoude.png",
-      "date": "June 2019",
-      "icon": "youtube",
-      "color": "red",
-      "description": "First real video",
-      "url": "https://youtube.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Became a GitHub Star with 30 other people",
-      "url": "https://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star of the Year",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "https://github.com/eddiejaoude"
-    }
   ]
-}
