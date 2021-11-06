@@ -1,6 +1,6 @@
 {
   "name": "CodingSpecies",
-  "bio": "Making Apps using React.js, working on web and software enginering",
+  "bio": "Making Apps using React.js | Working on web and software engineering 👩‍💻 | Maintaining my organisation, App-Choreography 📛",
   "avatar": "https://github.com/CodingSpecies.png",
   "links": [
     {
@@ -8,5 +8,9 @@
       "url": "https://github.com/CodingSpecies",
       "icon": "github"
     }
+    { 
+      "name": "Check out my website 🌐",
+      "url": "https://codingspecies.github.io/MeAndMyApps/",
+      "icon": "link"
   ]
 }
