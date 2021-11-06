@@ -7,6 +7,11 @@
       "name": "Follow me on GitHub",
       "url": "https://github.com/Kunal0007",
       "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kunal-patil-61136521b",
+      "icon": "linkedin"
     }
   ]
 }
