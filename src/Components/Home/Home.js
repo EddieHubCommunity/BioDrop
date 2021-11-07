@@ -14,7 +14,7 @@ function Home() {
   useEffect(() => {
     fetch('/list.json')
       .then((response) => response.json())
-      .then((data) => data.sort((a, b) => a.name.localeCompare(b.name)))
+      .then((data) => data.sort((a, b) => a.name.normalize('NFD').localeCompare(b.name.normalize('NFD'))))
       .then((data) => setList(data))
       .catch((error) => {
         console.log('Home useEffect', error)
