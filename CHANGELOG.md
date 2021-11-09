@@ -1,3 +1,12 @@
+## [0.44.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.3...v0.44.4) (2021-11-09)
+
+
+### Bug Fixes
+
+* **accessibility:** missing aria-label ([#653](https://github.com/EddieHubCommunity/LinkFree/issues/653)) ([e8af2df](https://github.com/EddieHubCommunity/LinkFree/commit/e8af2df59d0f2cfd965161473b4b2474218ae9c8))
+
+
+
 ## [0.44.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.2...v0.44.3) (2021-11-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * change sort from username to name ([#638](https://github.com/EddieHubCommunity/LinkFree/issues/638)) ([5f3ccb1](https://github.com/EddieHubCommunity/LinkFree/commit/5f3ccb141002373cfcb97acb648956a81e95b244))
-
-
-
-# [0.43.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.17...v0.43.0) (2021-11-02)
-
-
-### Features
-
-* add meta description for site ([#635](https://github.com/EddieHubCommunity/LinkFree/issues/635)) ([7f3ebfa](https://github.com/EddieHubCommunity/LinkFree/commit/7f3ebfaa2f1b12e919193ada1e0d301759ef66aa))
 
 
 
