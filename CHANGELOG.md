@@ -1,3 +1,12 @@
+## [0.44.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.4...v0.44.5) (2021-11-09)
+
+
+### Bug Fixes
+
+* Normalize name for sorting ([#640](https://github.com/EddieHubCommunity/LinkFree/issues/640)) ([990af66](https://github.com/EddieHubCommunity/LinkFree/commit/990af66ab808f033821c81c3e94cb9012aa05fcb))
+
+
+
 ## [0.44.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.3...v0.44.4) (2021-11-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add siddhi-244 ([#641](https://github.com/EddieHubCommunity/LinkFree/issues/641)) ([3c01885](https://github.com/EddieHubCommunity/LinkFree/commit/3c0188547875a0ba14e4c998ea63ab063f26b242))
-
-
-
-# [0.44.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.43.0...v0.44.0) (2021-11-03)
-
-
-### Features
-
-* change sort from username to name ([#638](https://github.com/EddieHubCommunity/LinkFree/issues/638)) ([5f3ccb1](https://github.com/EddieHubCommunity/LinkFree/commit/5f3ccb141002373cfcb97acb648956a81e95b244))
 
 
 
