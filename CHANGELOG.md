@@ -1,3 +1,12 @@
+## [0.44.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.6...v0.44.7) (2021-11-11)
+
+
+### Bug Fixes
+
+* update FayasNoushad ([#655](https://github.com/EddieHubCommunity/LinkFree/issues/655)) ([6462e6e](https://github.com/EddieHubCommunity/LinkFree/commit/6462e6e8bfa8ed4cacf9197b0053151979d6b759))
+
+
+
 ## [0.44.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.5...v0.44.6) (2021-11-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update CodingSpecies profile ([#645](https://github.com/EddieHubCommunity/LinkFree/issues/645)) ([f069c77](https://github.com/EddieHubCommunity/LinkFree/commit/f069c77a867d084709c5dbacc8e218c51a4baa13))
-
-
-
-## [0.44.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.1...v0.44.2) (2021-11-05)
-
-
-### Bug Fixes
-
-* youhavechad ([#643](https://github.com/EddieHubCommunity/LinkFree/issues/643)) ([bd485f2](https://github.com/EddieHubCommunity/LinkFree/commit/bd485f20c8bca9bccf9c888b85199d4f7fce1464))
 
 
 
