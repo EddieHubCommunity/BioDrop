@@ -22,6 +22,16 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/fayasnoushad",
       "icon": "linkedin"
+    },
+    {
+      "name": "Join my Telegram Channel",
+      "url": "https://telegram.me/FayasNoushad",
+      "icon": "telegram"
+    },
+    {
+      "name": "Follow my Facebook page",
+      "url": "https://facebook.com/TheFayas",
+      "icon": "facebook"
     }
   ]
 }
