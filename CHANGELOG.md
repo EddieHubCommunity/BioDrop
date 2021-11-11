@@ -1,45 +1,45 @@
-## [0.42.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.42.0...v0.42.1) (2021-10-26)
+## [0.44.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.5...v0.44.6) (2021-11-10)
 
 
 ### Bug Fixes
 
-* Inconsistent gaps on homepage ([#609](https://github.com/EddieHubCommunity/LinkFree/issues/609)) ([a6bc041](https://github.com/EddieHubCommunity/LinkFree/commit/a6bc041fb3c67b90280a03be41cdf28edbd5ef4d))
+* **data:** add vignesh ([#652](https://github.com/EddieHubCommunity/LinkFree/issues/652)) ([bc806ac](https://github.com/EddieHubCommunity/LinkFree/commit/bc806ac21d8b9e8c61cdd6d5b13bfdb4505fc218))
 
 
 
-# [0.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.3...v0.42.0) (2021-10-26)
-
-
-### Features
-
-* replace native alert with toast component ([#533](https://github.com/EddieHubCommunity/LinkFree/issues/533)) ([f68a562](https://github.com/EddieHubCommunity/LinkFree/commit/f68a5627465575ee0f75ed9938c9c8e4a208d887))
-
-
-
-## [0.41.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.2...v0.41.3) (2021-10-26)
+## [0.44.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.4...v0.44.5) (2021-11-09)
 
 
 ### Bug Fixes
 
-* **data:** add Vedant-Pandya.json ([#608](https://github.com/EddieHubCommunity/LinkFree/issues/608)) ([5eae1fd](https://github.com/EddieHubCommunity/LinkFree/commit/5eae1fda74debc724a19c1c2c78c6fd593d737f5))
+* Normalize name for sorting ([#640](https://github.com/EddieHubCommunity/LinkFree/issues/640)) ([990af66](https://github.com/EddieHubCommunity/LinkFree/commit/990af66ab808f033821c81c3e94cb9012aa05fcb))
 
 
 
-## [0.41.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.1...v0.41.2) (2021-10-26)
-
-
-### Bug Fixes
-
-* role and rel attributes in Milestone ([#526](https://github.com/EddieHubCommunity/LinkFree/issues/526)) ([c799cf7](https://github.com/EddieHubCommunity/LinkFree/commit/c799cf7e9929eec7fa95325028d092cce833a893))
-
-
-
-## [0.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.41.0...v0.41.1) (2021-10-25)
+## [0.44.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.3...v0.44.4) (2021-11-09)
 
 
 ### Bug Fixes
 
-* button overflow on small screens ([#594](https://github.com/EddieHubCommunity/LinkFree/issues/594)) ([f0976b6](https://github.com/EddieHubCommunity/LinkFree/commit/f0976b6c9bfbe2a82ec9cea17353a93fbbef32dc))
+* **accessibility:** missing aria-label ([#653](https://github.com/EddieHubCommunity/LinkFree/issues/653)) ([e8af2df](https://github.com/EddieHubCommunity/LinkFree/commit/e8af2df59d0f2cfd965161473b4b2474218ae9c8))
+
+
+
+## [0.44.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.2...v0.44.3) (2021-11-07)
+
+
+### Bug Fixes
+
+* update CodingSpecies profile ([#645](https://github.com/EddieHubCommunity/LinkFree/issues/645)) ([f069c77](https://github.com/EddieHubCommunity/LinkFree/commit/f069c77a867d084709c5dbacc8e218c51a4baa13))
+
+
+
+## [0.44.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.1...v0.44.2) (2021-11-05)
+
+
+### Bug Fixes
+
+* youhavechad ([#643](https://github.com/EddieHubCommunity/LinkFree/issues/643)) ([bd485f2](https://github.com/EddieHubCommunity/LinkFree/commit/bd485f20c8bca9bccf9c888b85199d4f7fce1464))
 
 
 

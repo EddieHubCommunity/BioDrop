@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
-import ImageLoader from './ImageLoader'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile
@@ -18,7 +17,6 @@ function Profile({ profile, username }) {
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
-          template={<ImageLoader avatar={avatar} username={name} />}
           className="p-overlay-badge"
         >
           <Badge

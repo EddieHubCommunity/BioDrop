@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 
 import Profile from '../Profile'
 import Links from '../Links'
@@ -11,9 +10,6 @@ function ProfilePage({ profile, username }) {
     <main>
       {
         <>
-          <Link to="/" aria-label="Go back to Home">
-            <i className="pi pi-arrow-left"></i>
-          </Link>
           <Profile profile={profile} username={username} />
           <Links links={profile.links} />
         </>
