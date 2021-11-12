@@ -8,3 +8,7 @@
 .p-avatar-image > img {
   font-size: 0.5em;
 }
+
+.p-avatar-username {
+  font-size: 16px;
+}
