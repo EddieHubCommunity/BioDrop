@@ -16,7 +16,10 @@ function Users({ list }) {
     setSearchTerm(value || '')
     setFilteredList(
       list.filter((User) =>
-        User.name.toLowerCase().includes(value.toLowerCase()),
+        User.name
+          .normalize('NFD')
+          .toLowerCase()
+          .includes(value.normalize('NFD').toLowerCase()),
       ),
     )
   }
@@ -31,15 +34,11 @@ function Users({ list }) {
       <div className="user-list p-d-flex p-flex-wrap p-jc-center">
         {!!filteredList &&
           filteredList.length > 0 &&
-          filteredList
-            .filter((User) =>
-              User.name.toLowerCase().includes(searchTerm.toLowerCase()),
-            )
-            .map((user, key) => (
-              <Link to={user.username} key={`avatar-${key}`}>
-                <Chip image={user.avatar} className="p-m-2" label={user.name} />
-              </Link>
-            ))}
+          filteredList.map((user, key) => (
+            <Link to={user.username} key={`avatar-${key}`}>
+              <Chip image={user.avatar} className="p-m-2" label={user.name} />
+            </Link>
+          ))}
         {!!filteredList && filteredList.length === 0 && (
           <div className="p-d-flex p-jc-center p-ai-center">
             <Message severity="error" text="No users found please try again" />
