@@ -8,7 +8,6 @@ import { Menubar } from 'primereact/menubar'
 function Navbar({ items, start, end }) {
   if (!end) {
     end = (
-
       <div className="p-d-flex p-jc-center p-ai-center p-pr-2">
         <div className="p-p-1"> Contribute on </div>
         <a
@@ -17,7 +16,7 @@ function Navbar({ items, start, end }) {
         >
           <i className="pi pi-github" style={{ fontSize: '1em' }}></i>
         </a>
-        <div>v.0.0.0</div>
+        <div>v0.0.0</div>
       </div>
     )
   }
