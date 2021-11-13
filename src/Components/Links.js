@@ -27,9 +27,7 @@ function Links({ links }) {
           .map((link, index) => (
             <Button
               key={`link.url_${index}`}
-              onMouseOver={(e) => {
-                MouseOver(e, colors[link.icon])
-              }}
+              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
               className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
@@ -45,9 +43,7 @@ function Links({ links }) {
           .map((link, index) => (
             <Button
               key={`link.url_${index}`}
-              onMouseOver={(e) => {
-                MouseOver(e, colors[link.icon])
-              }}
+              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
               className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
