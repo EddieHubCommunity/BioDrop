@@ -16,7 +16,7 @@ function Navbar({ items, start, end }) {
         >
           <i className="pi pi-github" style={{ fontSize: '1em' }}></i>
         </a>
-        <div>v{version}</div>
+        <div>v0.0.0</div>
       </div>
     )
   }
