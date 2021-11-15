@@ -8,3 +8,12 @@
 .p-avatar-image > img {
   font-size: 0.5em;
 }
+
+@media screen and (max-width: 768px) {
+  .w-50 {
+    max-width: 90vw;
+    margin: 2px auto;
+    text-align: center;
+    line-height: 20px;
+  }
+}

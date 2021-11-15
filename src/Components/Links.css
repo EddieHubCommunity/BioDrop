@@ -30,3 +30,14 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.w-70 {
+  width: 70%;
+  max-width: 45rem;
+}
+
+@media screen and (max-width: 768px) {
+  .w-70 {
+    width: 90%;
+  }
+}
