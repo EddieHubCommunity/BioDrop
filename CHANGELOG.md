@@ -1,3 +1,12 @@
+## [0.44.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.9...v0.44.10) (2021-11-16)
+
+
+### Bug Fixes
+
+* **animation:** fade out on hover ([#611](https://github.com/EddieHubCommunity/LinkFree/issues/611)) ([a150fec](https://github.com/EddieHubCommunity/LinkFree/commit/a150fecf48efa34f5b6f75fed86979b406fe1547)), closes [#110](https://github.com/EddieHubCommunity/LinkFree/issues/110)
+
+
+
 ## [0.44.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.8...v0.44.9) (2021-11-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add vignesh ([#652](https://github.com/EddieHubCommunity/LinkFree/issues/652)) ([bc806ac](https://github.com/EddieHubCommunity/LinkFree/commit/bc806ac21d8b9e8c61cdd6d5b13bfdb4505fc218))
-
-
-
-## [0.44.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.4...v0.44.5) (2021-11-09)
-
-
-### Bug Fixes
-
-* Normalize name for sorting ([#640](https://github.com/EddieHubCommunity/LinkFree/issues/640)) ([990af66](https://github.com/EddieHubCommunity/LinkFree/commit/990af66ab808f033821c81c3e94cb9012aa05fcb))
 
 
 
