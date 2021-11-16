@@ -1,0 +1,6 @@
+.p-input-icon-left{
+    cursor: pointer;
+}
+.p-input-icon-left > .p-inputtext {
+    cursor: pointer;
+}
