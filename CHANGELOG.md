@@ -1,3 +1,12 @@
+## [0.44.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.10...v0.44.11) (2021-11-18)
+
+
+### Bug Fixes
+
+* remove link wrapping the button ([#649](https://github.com/EddieHubCommunity/LinkFree/issues/649)) ([e9edfcf](https://github.com/EddieHubCommunity/LinkFree/commit/e9edfcf0eaa159267459a9fb5269fef99a86a4b9))
+
+
+
 ## [0.44.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.9...v0.44.10) (2021-11-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update FayasNoushad ([#655](https://github.com/EddieHubCommunity/LinkFree/issues/655)) ([6462e6e](https://github.com/EddieHubCommunity/LinkFree/commit/6462e6e8bfa8ed4cacf9197b0053151979d6b759))
-
-
-
-## [0.44.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.5...v0.44.6) (2021-11-10)
-
-
-### Bug Fixes
-
-* **data:** add vignesh ([#652](https://github.com/EddieHubCommunity/LinkFree/issues/652)) ([bc806ac](https://github.com/EddieHubCommunity/LinkFree/commit/bc806ac21d8b9e8c61cdd6d5b13bfdb4505fc218))
 
 
 
