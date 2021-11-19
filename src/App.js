@@ -6,7 +6,6 @@ import 'primereact/resources/primereact.min.css'
 import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 
-import Footer from './Components/Footer'
 import User from './Components/UserProfile/User'
 import Home from './Components/Home/Home'
 
@@ -22,7 +21,6 @@ function App() {
             <Home />
           </Route>
         </Switch>
-        <Footer />
       </div>
     </Router>
   )

@@ -1,22 +1,36 @@
 import './Navbar.css'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-
+import { Link } from 'react-router-dom'
 import { Menubar } from 'primereact/menubar'
 
 function Navbar({ items, start, end }) {
+  const [version, setVersion] = useState('')
+  useEffect(() => {
+    fetch('/app.json')
+      .then((response) => response.json())
+      .then((data) => setVersion(data.version))
+      .catch((error) => {
+        console.log('Navbar useEffect', error)
+        alert('An error occurred please try again later.')
+      })
+  }, [])
+
   if (!end) {
     end = (
       <div className="p-d-flex p-jc-center p-ai-center p-pr-2">
         <div className="p-p-1"> Contribute on </div>
-        <a
-          href="https://github.com/EddieHubCommunity/LinkFree"
-          className="p-p-1"
+        <Link
+          to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
+          target="_blank"
+          className="p-mr-2"
+          aria-label="LinkFree repository on GitHub"
         >
-          <i className="pi pi-github" style={{ fontSize: '1em' }}></i>
-        </a>
-        <div>v0.0.0</div>
+          <i className="pi pi-github" aria-hidden="true"></i>
+        </Link>
+
+        <div>v{version}</div>
       </div>
     )
   }
