@@ -5,6 +5,8 @@ import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
+import { createAvatar } from '@dicebear/avatars'
+import * as style from '@dicebear/avatars-initials-sprites'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile
@@ -18,6 +20,15 @@ function Profile({ profile, username }) {
           size="xlarge"
           shape="circle"
           className="p-overlay-badge"
+          onImageError={(error) => {
+            const defaultSVG = createAvatar(style, {
+              seed: name,
+              dataUri: true,
+            })
+
+            error.target.onerror = null
+            error.target.src = defaultSVG
+          }}
         >
           <Badge
             value={links.length}
