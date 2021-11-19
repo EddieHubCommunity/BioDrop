@@ -7,4 +7,9 @@
 
 .p-avatar-image > img {
   font-size: 0.5em;
+  transition: opacity 0.3s ease;
+}
+
+.p-avatar-image > img:hover {
+  opacity: 0.7;
 }
