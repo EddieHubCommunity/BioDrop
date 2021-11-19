@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
+import { createAvatar } from '@dicebear/avatars'
+import * as style from '@dicebear/avatars-initials-sprites'
 
 import { Message } from 'primereact/message'
 
@@ -36,7 +38,20 @@ function Users({ list }) {
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
-              <Chip image={user.avatar} className="p-m-2" label={user.name} />
+              <Chip
+                image={user.avatar}
+                className="p-m-2"
+                label={user.name}
+                onImageError={(error) => {
+                  const defaultSVG = createAvatar(style, {
+                    seed: user.name,
+                    dataUri: true,
+                  })
+
+                  error.target.onerror = null
+                  error.target.src = defaultSVG
+                }}
+              />
             </Link>
           ))}
         {!!filteredList && filteredList.length === 0 && (
