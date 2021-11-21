@@ -25,7 +25,6 @@ function Profile({ profile, username }) {
               seed: name,
               dataUri: true,
             })
-
             error.target.onerror = null
             error.target.src = defaultSVG
           }}
