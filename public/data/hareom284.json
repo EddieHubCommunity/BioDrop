@@ -15,14 +15,13 @@
         }
     ],
     "milestones": [
-        
         {
-            "title": "Started Using twiiter",
+            "title": "Started Using Twiiter",
             "image": "https://github.com/hareom284.png",
             "date": "June 2021",
             "icon": "twitter",
             "color": "red",
-            "description": "Create Content on Twitter and Share  my journey",
+            "description": "Create Content on Twitter and Shareing about  my journey",
             "url": "https://hareom284.me"
         }
     ]
