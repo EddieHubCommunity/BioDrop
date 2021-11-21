@@ -2,13 +2,11 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
-import { createAvatar } from '@dicebear/avatars'
-import * as style from '@dicebear/avatars-initials-sprites'
-
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
+import utils from '../../utils'
 
 function Users({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
@@ -43,12 +41,7 @@ function Users({ list }) {
                 className="p-m-2"
                 label={user.name}
                 onImageError={(error) => {
-                  const defaultSVG = createAvatar(style, {
-                    seed: user.name,
-                    dataUri: true,
-                  })
-                  error.target.onerror = null
-                  error.target.src = defaultSVG
+                  utils.setDefaultSVG(user.name, error)
                 }}
               />
             </Link>
