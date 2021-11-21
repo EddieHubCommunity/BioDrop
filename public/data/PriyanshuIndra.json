@@ -7,6 +7,11 @@
             "name": "Follow me on Twitter",
             "url": "https://twitter.com/PriyanshuIndra4",
             "icon": "twitter"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/PriyanshuIndra",
+            "icon": "github"
         }
     ]
 }
