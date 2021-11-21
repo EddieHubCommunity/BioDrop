@@ -47,7 +47,6 @@ function Users({ list }) {
                     seed: user.name,
                     dataUri: true,
                   })
-
                   error.target.onerror = null
                   error.target.src = defaultSVG
                 }}
