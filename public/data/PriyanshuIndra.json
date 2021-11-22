@@ -1,0 +1,17 @@
+{
+    "name": "Priyanshu Indra",
+    "bio": "Student",
+    "avatar": "https://github.com/PriyanshuIndra.png",
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/PriyanshuIndra4",
+            "icon": "twitter"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/PriyanshuIndra",
+            "icon": "github"
+        }
+    ]
+}
