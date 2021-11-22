@@ -1,3 +1,12 @@
+## [0.44.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.11...v0.44.12) (2021-11-22)
+
+
+### Bug Fixes
+
+* add itself13 ([#677](https://github.com/EddieHubCommunity/LinkFree/issues/677)) ([764cf2d](https://github.com/EddieHubCommunity/LinkFree/commit/764cf2debaef1a39cd648d92d286bd1bf3b24753))
+
+
+
 ## [0.44.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.10...v0.44.11) (2021-11-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add tanisha-gupta ([#657](https://github.com/EddieHubCommunity/LinkFree/issues/657)) ([ee500a9](https://github.com/EddieHubCommunity/LinkFree/commit/ee500a991f1bb6c5b19bf95f202dd1220103fd03))
-
-
-
-## [0.44.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.6...v0.44.7) (2021-11-11)
-
-
-### Bug Fixes
-
-* update FayasNoushad ([#655](https://github.com/EddieHubCommunity/LinkFree/issues/655)) ([6462e6e](https://github.com/EddieHubCommunity/LinkFree/commit/6462e6e8bfa8ed4cacf9197b0053151979d6b759))
 
 
 
