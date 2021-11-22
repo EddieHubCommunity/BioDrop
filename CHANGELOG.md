@@ -1,3 +1,12 @@
+# [0.45.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.18...v0.45.0) (2021-11-22)
+
+
+### Features
+
+* **ui:** margin decreased for mobiles ([#669](https://github.com/EddieHubCommunity/LinkFree/issues/669)) ([d7a80f4](https://github.com/EddieHubCommunity/LinkFree/commit/d7a80f47ca2738eee21c1595ca91f5c66331cb2f))
+
+
+
 ## [0.44.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.17...v0.44.18) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add pratit989 ([#685](https://github.com/EddieHubCommunity/LinkFree/issues/685)) ([e7a5423](https://github.com/EddieHubCommunity/LinkFree/commit/e7a5423bd67e0e9694b4be8e223ea20ee8a542d7))
-
-
-
-## [0.44.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.13...v0.44.14) (2021-11-22)
-
-
-### Bug Fixes
-
-* add Priyanshu Indra ([#686](https://github.com/EddieHubCommunity/LinkFree/issues/686)) ([89b86b9](https://github.com/EddieHubCommunity/LinkFree/commit/89b86b90ba722b7b5b4932870769e7d6767d5e2f))
 
 
 
