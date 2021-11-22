@@ -1,3 +1,12 @@
+## [0.44.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.17...v0.44.18) (2021-11-22)
+
+
+### Bug Fixes
+
+* **data:** Add salmantec ([#681](https://github.com/EddieHubCommunity/LinkFree/issues/681)) ([72894fa](https://github.com/EddieHubCommunity/LinkFree/commit/72894fa2c4f374502f8373722ecd5665e7a5482f))
+
+
+
 ## [0.44.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.16...v0.44.17) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Priyanshu Indra ([#686](https://github.com/EddieHubCommunity/LinkFree/issues/686)) ([89b86b9](https://github.com/EddieHubCommunity/LinkFree/commit/89b86b90ba722b7b5b4932870769e7d6767d5e2f))
-
-
-
-## [0.44.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.12...v0.44.13) (2021-11-22)
-
-
-### Bug Fixes
-
-* add Gaurav Pandey ([#688](https://github.com/EddieHubCommunity/LinkFree/issues/688)) ([dc90b07](https://github.com/EddieHubCommunity/LinkFree/commit/dc90b07228076687c62f6c6c7159564bf7a1a403))
 
 
 
