@@ -25,7 +25,10 @@ function Profile({ profile, username }) {
             className="p-mr-2 p-mt-2"
           />
         </Avatar>
-        <h1 className="p-m-2">{name} <span class="p-m-2">({username})</span></h1>
+        <div className="p-m-2 p-d-flex">
+          <h1 className="p-m-0 p-r-3">{name}</h1>
+          <h2 className="p-avatar-username">({username})</h2>
+        </div>
       </div>
       <div className="p-d-flex p-jc-center w-50">
         <p>{bio}</p>
