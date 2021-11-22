@@ -1,17 +1,17 @@
 {
-    "name": "Shubham Singh",
-    "bio": "I am Shubham, currently pursuing my Undergrad in computer science from NIT Arunachal Pradesh. I am always open to collaborating on projects.",
-    "avatar": "https://github.com/suubh.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/suubh",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/shub______",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Shubham Singh",
+  "bio": "I am Shubham, currently pursuing my Undergrad in computer science from NIT Arunachal Pradesh. I am always open to collaborating on projects.",
+  "avatar": "https://github.com/suubh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/suubh",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/shub______",
+      "icon": "twitter"
+    }
+  ]
 }

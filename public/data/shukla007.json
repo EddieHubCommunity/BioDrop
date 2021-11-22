@@ -1,22 +1,22 @@
 {
-    "name": "Abhishek Shukla",
-    "bio": "Full-Stack developer and Open source contributor",
-    "avatar": "https://github.com/shukla007.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "http://github.com/shukla007",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/avi0_07",
-        "icon": "twitter"
-      },
-      {
-        "name": "Follow me on LinkedIn",
-        "url": "https://www.linkedin.com/in/abhishek-shukla-682908211/",
-        "icon": "linkedin"
-      }
-    ]
+  "name": "Abhishek Shukla",
+  "bio": "Full-Stack developer and Open source contributor",
+  "avatar": "https://github.com/shukla007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/shukla007",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/avi0_07",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishek-shukla-682908211/",
+      "icon": "linkedin"
+    }
+  ]
 }
