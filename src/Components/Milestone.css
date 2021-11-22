@@ -18,4 +18,10 @@
   .p-timeline-event {
     display: inline;
   }
+
+  .p-card-title,
+  .p-card-subtitle,
+  .p-card-content {
+    text-align: center;
+  }
 }
