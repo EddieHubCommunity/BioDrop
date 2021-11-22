@@ -1,3 +1,12 @@
+## [0.45.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.0...v0.45.1) (2021-11-22)
+
+
+### Bug Fixes
+
+* resolve main tag duplicatation ([#651](https://github.com/EddieHubCommunity/LinkFree/issues/651)) ([33d4817](https://github.com/EddieHubCommunity/LinkFree/commit/33d48177ed8cc5772afdd1937aba20400d0515a0))
+
+
+
 # [0.45.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.18...v0.45.0) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Dhananjayan's data ([#679](https://github.com/EddieHubCommunity/LinkFree/issues/679)) ([c48da55](https://github.com/EddieHubCommunity/LinkFree/commit/c48da55487d8bcc7f1d607aed051fd3a37c77d9a))
-
-
-
-## [0.44.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.14...v0.44.15) (2021-11-22)
-
-
-### Bug Fixes
-
-* **data:** add pratit989 ([#685](https://github.com/EddieHubCommunity/LinkFree/issues/685)) ([e7a5423](https://github.com/EddieHubCommunity/LinkFree/commit/e7a5423bd67e0e9694b4be8e223ea20ee8a542d7))
 
 
 
