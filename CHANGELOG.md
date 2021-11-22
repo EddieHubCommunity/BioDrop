@@ -1,3 +1,12 @@
+## [0.44.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.12...v0.44.13) (2021-11-22)
+
+
+### Bug Fixes
+
+* add Gaurav Pandey ([#688](https://github.com/EddieHubCommunity/LinkFree/issues/688)) ([dc90b07](https://github.com/EddieHubCommunity/LinkFree/commit/dc90b07228076687c62f6c6c7159564bf7a1a403))
+
+
+
 ## [0.44.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.11...v0.44.12) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * spelling mistake in error page ([#666](https://github.com/EddieHubCommunity/LinkFree/issues/666)) ([c76cc47](https://github.com/EddieHubCommunity/LinkFree/commit/c76cc47357b58ded7228b7834ad5043e270080c3))
-
-
-
-## [0.44.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.7...v0.44.8) (2021-11-12)
-
-
-### Bug Fixes
-
-* add tanisha-gupta ([#657](https://github.com/EddieHubCommunity/LinkFree/issues/657)) ([ee500a9](https://github.com/EddieHubCommunity/LinkFree/commit/ee500a991f1bb6c5b19bf95f202dd1220103fd03))
 
 
 
