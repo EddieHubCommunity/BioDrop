@@ -1,17 +1,17 @@
 {
-    "name": "Dhananjayan D.",
-    "bio": "Web Development | Mobile Development | Open-Source | Chess",
-    "avatar": "https://github.com/dhananjayandayalan.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "https://github.com/dhananjayandayalan",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "http://twitter.com/dhananstonks",
-        "icon": "twitter"
-      }
-    ]
+  "name": "Dhananjayan D.",
+  "bio": "Web Development | Mobile Development | Open-Source | Chess",
+  "avatar": "https://github.com/dhananjayandayalan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dhananjayandayalan",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/dhananstonks",
+      "icon": "twitter"
+    }
+  ]
 }
