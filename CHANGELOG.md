@@ -1,3 +1,12 @@
+## [0.44.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.14...v0.44.15) (2021-11-22)
+
+
+### Bug Fixes
+
+* **data:** add pratit989 ([#685](https://github.com/EddieHubCommunity/LinkFree/issues/685)) ([e7a5423](https://github.com/EddieHubCommunity/LinkFree/commit/e7a5423bd67e0e9694b4be8e223ea20ee8a542d7))
+
+
+
 ## [0.44.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.13...v0.44.14) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove link wrapping the button ([#649](https://github.com/EddieHubCommunity/LinkFree/issues/649)) ([e9edfcf](https://github.com/EddieHubCommunity/LinkFree/commit/e9edfcf0eaa159267459a9fb5269fef99a86a4b9))
-
-
-
-## [0.44.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.9...v0.44.10) (2021-11-16)
-
-
-### Bug Fixes
-
-* **animation:** fade out on hover ([#611](https://github.com/EddieHubCommunity/LinkFree/issues/611)) ([a150fec](https://github.com/EddieHubCommunity/LinkFree/commit/a150fecf48efa34f5b6f75fed86979b406fe1547)), closes [#110](https://github.com/EddieHubCommunity/LinkFree/issues/110)
 
 
 
