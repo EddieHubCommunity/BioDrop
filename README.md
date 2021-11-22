@@ -127,7 +127,8 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 ## 💪 Thanks to the all Contributors
 
 Thanks a lot for spending your time in helping LinkFree grow. Thanks a lot! Keep rocking 🍻
-[contributors](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)
+
+[![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)
 
 ## 🙏 Support
 
