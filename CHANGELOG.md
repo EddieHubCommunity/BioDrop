@@ -1,3 +1,12 @@
+## [0.44.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.15...v0.44.16) (2021-11-22)
+
+
+### Bug Fixes
+
+* **data:** add Dhananjayan's data ([#679](https://github.com/EddieHubCommunity/LinkFree/issues/679)) ([c48da55](https://github.com/EddieHubCommunity/LinkFree/commit/c48da55487d8bcc7f1d607aed051fd3a37c77d9a))
+
+
+
 ## [0.44.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.14...v0.44.15) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add itself13 ([#677](https://github.com/EddieHubCommunity/LinkFree/issues/677)) ([764cf2d](https://github.com/EddieHubCommunity/LinkFree/commit/764cf2debaef1a39cd648d92d286bd1bf3b24753))
-
-
-
-## [0.44.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.10...v0.44.11) (2021-11-18)
-
-
-### Bug Fixes
-
-* remove link wrapping the button ([#649](https://github.com/EddieHubCommunity/LinkFree/issues/649)) ([e9edfcf](https://github.com/EddieHubCommunity/LinkFree/commit/e9edfcf0eaa159267459a9fb5269fef99a86a4b9))
 
 
 
