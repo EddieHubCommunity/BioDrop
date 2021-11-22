@@ -7,7 +7,7 @@ import Milestones from '../Milestones'
 
 function ProfilePage({ profile, username }) {
   return (
-    <main>
+    <>
       {
         <>
           <Profile profile={profile} username={username} />
@@ -15,7 +15,7 @@ function ProfilePage({ profile, username }) {
         </>
       }
       {profile.milestones && <Milestones milestones={profile.milestones} />}
-    </main>
+    </>
   )
 }
 

@@ -1,45 +1,45 @@
-## [0.44.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.10...v0.44.11) (2021-11-18)
+## [0.45.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.2...v0.45.3) (2021-11-22)
 
 
 ### Bug Fixes
 
-* remove link wrapping the button ([#649](https://github.com/EddieHubCommunity/LinkFree/issues/649)) ([e9edfcf](https://github.com/EddieHubCommunity/LinkFree/commit/e9edfcf0eaa159267459a9fb5269fef99a86a4b9))
+* card text consistent alignment on mobile ([#665](https://github.com/EddieHubCommunity/LinkFree/issues/665)) ([48141a5](https://github.com/EddieHubCommunity/LinkFree/commit/48141a5bfa300fa70d026da5e579cc8f2bdc98c7))
 
 
 
-## [0.44.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.9...v0.44.10) (2021-11-16)
-
-
-### Bug Fixes
-
-* **animation:** fade out on hover ([#611](https://github.com/EddieHubCommunity/LinkFree/issues/611)) ([a150fec](https://github.com/EddieHubCommunity/LinkFree/commit/a150fecf48efa34f5b6f75fed86979b406fe1547)), closes [#110](https://github.com/EddieHubCommunity/LinkFree/issues/110)
-
-
-
-## [0.44.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.8...v0.44.9) (2021-11-14)
+## [0.45.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.1...v0.45.2) (2021-11-22)
 
 
 ### Bug Fixes
 
-* spelling mistake in error page ([#666](https://github.com/EddieHubCommunity/LinkFree/issues/666)) ([c76cc47](https://github.com/EddieHubCommunity/LinkFree/commit/c76cc47357b58ded7228b7834ad5043e270080c3))
+* format public/data json files ([#689](https://github.com/EddieHubCommunity/LinkFree/issues/689)) ([1b7542c](https://github.com/EddieHubCommunity/LinkFree/commit/1b7542c09a53b51e707a85a28836a96426782f5a)), closes [#678](https://github.com/EddieHubCommunity/LinkFree/issues/678)
 
 
 
-## [0.44.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.7...v0.44.8) (2021-11-12)
-
-
-### Bug Fixes
-
-* add tanisha-gupta ([#657](https://github.com/EddieHubCommunity/LinkFree/issues/657)) ([ee500a9](https://github.com/EddieHubCommunity/LinkFree/commit/ee500a991f1bb6c5b19bf95f202dd1220103fd03))
-
-
-
-## [0.44.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.6...v0.44.7) (2021-11-11)
+## [0.45.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.0...v0.45.1) (2021-11-22)
 
 
 ### Bug Fixes
 
-* update FayasNoushad ([#655](https://github.com/EddieHubCommunity/LinkFree/issues/655)) ([6462e6e](https://github.com/EddieHubCommunity/LinkFree/commit/6462e6e8bfa8ed4cacf9197b0053151979d6b759))
+* resolve main tag duplicatation ([#651](https://github.com/EddieHubCommunity/LinkFree/issues/651)) ([33d4817](https://github.com/EddieHubCommunity/LinkFree/commit/33d48177ed8cc5772afdd1937aba20400d0515a0))
+
+
+
+# [0.45.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.18...v0.45.0) (2021-11-22)
+
+
+### Features
+
+* **ui:** margin decreased for mobiles ([#669](https://github.com/EddieHubCommunity/LinkFree/issues/669)) ([d7a80f4](https://github.com/EddieHubCommunity/LinkFree/commit/d7a80f47ca2738eee21c1595ca91f5c66331cb2f))
+
+
+
+## [0.44.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.17...v0.44.18) (2021-11-22)
+
+
+### Bug Fixes
+
+* **data:** Add salmantec ([#681](https://github.com/EddieHubCommunity/LinkFree/issues/681)) ([72894fa](https://github.com/EddieHubCommunity/LinkFree/commit/72894fa2c4f374502f8373722ecd5665e7a5482f))
 
 
 

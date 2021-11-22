@@ -26,7 +26,7 @@ function User() {
   }, [username])
 
   return (
-    <main>
+    <>
       <Navbar
         start={
           <Link to="/" aria-label="Go back to Home">
@@ -34,13 +34,15 @@ function User() {
           </Link>
         }
       />
-      {showProgress && <ProgressBar mode="indeterminate" />}
-      {skeleton && <Placeholder />}
-      {error && <ErrorPage />}
-      {!error && !skeleton && (
-        <ProfilePage profile={profile} username={username} />
-      )}
-    </main>
+      <main>
+        {showProgress && <ProgressBar mode="indeterminate" />}
+        {skeleton && <Placeholder />}
+        {error && <ErrorPage />}
+        {!error && !skeleton && (
+          <ProfilePage profile={profile} username={username} />
+        )}
+      </main>
+    </>
   )
 }
 

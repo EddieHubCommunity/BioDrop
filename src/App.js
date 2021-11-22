@@ -13,7 +13,7 @@ import Home from './Components/Home/Home'
 function App() {
   return (
     <Router>
-      <div className="p-m-4">
+      <div className="p-m-2 p-m-md-4">
         <Switch>
           <Route path="/:username">
             <User />
