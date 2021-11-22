@@ -1,3 +1,12 @@
+## [0.45.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.1...v0.45.2) (2021-11-22)
+
+
+### Bug Fixes
+
+* format public/data json files ([#689](https://github.com/EddieHubCommunity/LinkFree/issues/689)) ([1b7542c](https://github.com/EddieHubCommunity/LinkFree/commit/1b7542c09a53b51e707a85a28836a96426782f5a)), closes [#678](https://github.com/EddieHubCommunity/LinkFree/issues/678)
+
+
+
 ## [0.45.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.0...v0.45.1) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Zishan-7 ([#684](https://github.com/EddieHubCommunity/LinkFree/issues/684)) ([ffdb860](https://github.com/EddieHubCommunity/LinkFree/commit/ffdb8601a7e86778e116bb90ced16c67fe5912ed))
-
-
-
-## [0.44.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.15...v0.44.16) (2021-11-22)
-
-
-### Bug Fixes
-
-* **data:** add Dhananjayan's data ([#679](https://github.com/EddieHubCommunity/LinkFree/issues/679)) ([c48da55](https://github.com/EddieHubCommunity/LinkFree/commit/c48da55487d8bcc7f1d607aed051fd3a37c77d9a))
 
 
 
