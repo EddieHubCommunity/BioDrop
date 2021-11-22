@@ -1,3 +1,12 @@
+## [0.45.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.2...v0.45.3) (2021-11-22)
+
+
+### Bug Fixes
+
+* card text consistent alignment on mobile ([#665](https://github.com/EddieHubCommunity/LinkFree/issues/665)) ([48141a5](https://github.com/EddieHubCommunity/LinkFree/commit/48141a5bfa300fa70d026da5e579cc8f2bdc98c7))
+
+
+
 ## [0.45.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.1...v0.45.2) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** Add salmantec ([#681](https://github.com/EddieHubCommunity/LinkFree/issues/681)) ([72894fa](https://github.com/EddieHubCommunity/LinkFree/commit/72894fa2c4f374502f8373722ecd5665e7a5482f))
-
-
-
-## [0.44.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.16...v0.44.17) (2021-11-22)
-
-
-### Bug Fixes
-
-* **data:** add Zishan-7 ([#684](https://github.com/EddieHubCommunity/LinkFree/issues/684)) ([ffdb860](https://github.com/EddieHubCommunity/LinkFree/commit/ffdb8601a7e86778e116bb90ced16c67fe5912ed))
 
 
 
