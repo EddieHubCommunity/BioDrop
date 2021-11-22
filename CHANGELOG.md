@@ -1,3 +1,12 @@
+## [0.44.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.13...v0.44.14) (2021-11-22)
+
+
+### Bug Fixes
+
+* add Priyanshu Indra ([#686](https://github.com/EddieHubCommunity/LinkFree/issues/686)) ([89b86b9](https://github.com/EddieHubCommunity/LinkFree/commit/89b86b90ba722b7b5b4932870769e7d6767d5e2f))
+
+
+
 ## [0.44.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.12...v0.44.13) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **animation:** fade out on hover ([#611](https://github.com/EddieHubCommunity/LinkFree/issues/611)) ([a150fec](https://github.com/EddieHubCommunity/LinkFree/commit/a150fecf48efa34f5b6f75fed86979b406fe1547)), closes [#110](https://github.com/EddieHubCommunity/LinkFree/issues/110)
-
-
-
-## [0.44.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.8...v0.44.9) (2021-11-14)
-
-
-### Bug Fixes
-
-* spelling mistake in error page ([#666](https://github.com/EddieHubCommunity/LinkFree/issues/666)) ([c76cc47](https://github.com/EddieHubCommunity/LinkFree/commit/c76cc47357b58ded7228b7834ad5043e270080c3))
 
 
 
