@@ -5,7 +5,7 @@
   "links": [
     {
       "name": "Checkout my GitHub Repositories",
-      "url": "http://github.com/thepranaygupta",
+      "url": "https://github.com/thepranaygupta",
       "icon": "github"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "Connect with me on LinkedIn",
-      "url": "http://linkedin.com/in/thepranaygupta",
+      "url": "https://linkedin.com/in/thepranaygupta",
       "icon": "linkedin"
     }
   ]
