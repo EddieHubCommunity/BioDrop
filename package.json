@@ -2,7 +2,7 @@
   "name": "linkfree",
   "version": "0.45.6",
   "private": false,
-  "homepage": ".",
+  "homepage": "http://linkfree.eddiehub.org/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -66,5 +66,24 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
+  "main": "generate.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
+  },
+  "keywords": [
+    "javascript",
+    "linktree",
+    "socials",
+    "eddiehub",
+    "reactjs",
+    "react"
+  ],
+  "author": "EddieHubCommunity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
   }
 }
