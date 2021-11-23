@@ -11,7 +11,7 @@
     {
       "name": "Visit my website 🌎",
       "url": "https://www.fayazmiraz.com/",
-      "icon": "link"
+      "icon": "globe"
     },
     {
       "name": "Follow me on GitHub ⭐️",
@@ -26,7 +26,7 @@
     {
       "name": "Connect with me on LinkedIn 🖇",
       "url": "https://www.linkedin.com/in/fayazdev/",
-      "icon": "link"
+      "icon": "linkedin"
     }
   ],
   "milestones": [
