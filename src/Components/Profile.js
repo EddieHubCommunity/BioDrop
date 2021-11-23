@@ -10,18 +10,34 @@ import utils from '../utils'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile
+  const [imageError, setImageError] = React.useState(false)
 
   return (
     <section>
       <div className="p-d-flex p-jc-center p-ai-center">
-        <Avatar
+        {imageError
+          ? (<Avatar
+          label = {utils.getInitials(name)}
+          imageAlt={name}
+          size="xlarge"
+          shape="circle"
+          className="p-overlay-badge"
+        >
+          <Badge
+            value={links.length}
+            severity="info"
+            className="p-mr-2 p-mt-2"
+          />
+        </Avatar>)
+          : (<Avatar
           image={avatar}
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
           className="p-overlay-badge"
-          onImageError={(error) => {
-            utils.setDefaultSVG(name, error)
+          onImageError={() => {
+            // utils.setDefaultSVG(name, error)
+            setImageError(true)
           }}
         >
           <Badge
@@ -29,7 +45,7 @@ function Profile({ profile, username }) {
             severity="info"
             className="p-mr-2 p-mt-2"
           />
-        </Avatar>
+        </Avatar>)}
         <h1 className="p-m-2">{name}</h1>
         <h4 className="">({username})</h4>
       </div>

@@ -10,4 +10,14 @@ export default {
     error.target.onerror = null
     error.target.src = defaultSVG
   },
+  getInitials: function(name) {
+    const trimmedName = name.trim()
+    const spaceIndex = trimmedName.lastIndexOf(' ')
+
+    if (spaceIndex === -1) {
+      return trimmedName.slice(0, 2).toUpperCase()
+    }
+    const initials = trimmedName[0] + trimmedName[spaceIndex + 1]
+    return initials.toUpperCase()
+  },
 }
