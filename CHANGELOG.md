@@ -1,3 +1,12 @@
+## [0.45.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.3...v0.45.4) (2021-11-23)
+
+
+### Bug Fixes
+
+* spelling errors in the PR template ([#692](https://github.com/EddieHubCommunity/LinkFree/issues/692)) ([6026ba9](https://github.com/EddieHubCommunity/LinkFree/commit/6026ba946fda6bd58bb0cc56607ae193434497c6))
+
+
+
 ## [0.45.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.2...v0.45.3) (2021-11-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **ui:** margin decreased for mobiles ([#669](https://github.com/EddieHubCommunity/LinkFree/issues/669)) ([d7a80f4](https://github.com/EddieHubCommunity/LinkFree/commit/d7a80f47ca2738eee21c1595ca91f5c66331cb2f))
-
-
-
-## [0.44.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.17...v0.44.18) (2021-11-22)
-
-
-### Bug Fixes
-
-* **data:** Add salmantec ([#681](https://github.com/EddieHubCommunity/LinkFree/issues/681)) ([72894fa](https://github.com/EddieHubCommunity/LinkFree/commit/72894fa2c4f374502f8373722ecd5665e7a5482f))
 
 
 
