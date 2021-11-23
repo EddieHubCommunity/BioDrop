@@ -1,3 +1,12 @@
+# [0.46.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.6...v0.46.0) (2021-11-23)
+
+
+### Features
+
+* provide more information in the `package.json` file ([#691](https://github.com/EddieHubCommunity/LinkFree/issues/691)) ([1a3c154](https://github.com/EddieHubCommunity/LinkFree/commit/1a3c154b517bddb3ed413c124267638316c704f5))
+
+
+
 ## [0.45.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.5...v0.45.6) (2021-11-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * card text consistent alignment on mobile ([#665](https://github.com/EddieHubCommunity/LinkFree/issues/665)) ([48141a5](https://github.com/EddieHubCommunity/LinkFree/commit/48141a5bfa300fa70d026da5e579cc8f2bdc98c7))
-
-
-
-## [0.45.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.1...v0.45.2) (2021-11-22)
-
-
-### Bug Fixes
-
-* format public/data json files ([#689](https://github.com/EddieHubCommunity/LinkFree/issues/689)) ([1b7542c](https://github.com/EddieHubCommunity/LinkFree/commit/1b7542c09a53b51e707a85a28836a96426782f5a)), closes [#678](https://github.com/EddieHubCommunity/LinkFree/issues/678)
 
 
 
