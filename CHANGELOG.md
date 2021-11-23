@@ -1,3 +1,12 @@
+## [0.45.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.4...v0.45.5) (2021-11-23)
+
+
+### Bug Fixes
+
+* Add pranay's data ([#695](https://github.com/EddieHubCommunity/LinkFree/issues/695)) ([6e87225](https://github.com/EddieHubCommunity/LinkFree/commit/6e872251ff2fb1940ce401088e6ac44b7c564587))
+
+
+
 ## [0.45.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.3...v0.45.4) (2021-11-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * resolve main tag duplicatation ([#651](https://github.com/EddieHubCommunity/LinkFree/issues/651)) ([33d4817](https://github.com/EddieHubCommunity/LinkFree/commit/33d48177ed8cc5772afdd1937aba20400d0515a0))
-
-
-
-# [0.45.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.44.18...v0.45.0) (2021-11-22)
-
-
-### Features
-
-* **ui:** margin decreased for mobiles ([#669](https://github.com/EddieHubCommunity/LinkFree/issues/669)) ([d7a80f4](https://github.com/EddieHubCommunity/LinkFree/commit/d7a80f47ca2738eee21c1595ca91f5c66331cb2f))
 
 
 
