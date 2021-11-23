@@ -16,7 +16,7 @@
     {
       "name": "Checkout my blog",
       "url": "https://kodewithchirag.com",
-      "icon": "hashnode"
+      "icon": "book"
     },
     {
       "name": "Help grow my YouTube channel",
@@ -31,7 +31,7 @@
     {
       "name": "Checkout my StackOverflow profile",
       "url": "https://stackoverflow.com/users/8034754/chirag-chhuchha",
-      "icon": "stackoverflow"
+      "icon": "link"
     }
   ],
   "milestones": [
