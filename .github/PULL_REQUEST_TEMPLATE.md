@@ -15,7 +15,7 @@
 [x] - Correct; marked as done
 [X] - Correct; marked as done
 
-[ ] - Correct; marked as **not** done
+[ ] - Not correct; marked as **not** done
 -->
 
 ## Check List (Check all the applicable boxes) <!-- Follow the above conventions to check the box -->
