@@ -1,3 +1,12 @@
+## [0.45.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.5...v0.45.6) (2021-11-23)
+
+
+### Bug Fixes
+
+* icons in all profiles ([#694](https://github.com/EddieHubCommunity/LinkFree/issues/694)) ([b8a3dca](https://github.com/EddieHubCommunity/LinkFree/commit/b8a3dca928723f5b37824460611e28792704ce9a))
+
+
+
 ## [0.45.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.4...v0.45.5) (2021-11-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * format public/data json files ([#689](https://github.com/EddieHubCommunity/LinkFree/issues/689)) ([1b7542c](https://github.com/EddieHubCommunity/LinkFree/commit/1b7542c09a53b51e707a85a28836a96426782f5a)), closes [#678](https://github.com/EddieHubCommunity/LinkFree/issues/678)
-
-
-
-## [0.45.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.0...v0.45.1) (2021-11-22)
-
-
-### Bug Fixes
-
-* resolve main tag duplicatation ([#651](https://github.com/EddieHubCommunity/LinkFree/issues/651)) ([33d4817](https://github.com/EddieHubCommunity/LinkFree/commit/33d48177ed8cc5772afdd1937aba20400d0515a0))
 
 
 
