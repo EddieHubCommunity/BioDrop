@@ -1,3 +1,12 @@
+## [0.46.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.1...v0.46.2) (2021-11-24)
+
+
+### Bug Fixes
+
+* Update `link` to `globe` ([#699](https://github.com/EddieHubCommunity/LinkFree/issues/699)) ([c8d138b](https://github.com/EddieHubCommunity/LinkFree/commit/c8d138b52ed212ca76338ecfc74f18729e52bff4))
+
+
+
 ## [0.46.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.0...v0.46.1) (2021-11-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add pranay's data ([#695](https://github.com/EddieHubCommunity/LinkFree/issues/695)) ([6e87225](https://github.com/EddieHubCommunity/LinkFree/commit/6e872251ff2fb1940ce401088e6ac44b7c564587))
-
-
-
-## [0.45.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.3...v0.45.4) (2021-11-23)
-
-
-### Bug Fixes
-
-* spelling errors in the PR template ([#692](https://github.com/EddieHubCommunity/LinkFree/issues/692)) ([6026ba9](https://github.com/EddieHubCommunity/LinkFree/commit/6026ba946fda6bd58bb0cc56607ae193434497c6))
 
 
 
