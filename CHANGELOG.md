@@ -1,3 +1,12 @@
+## [0.46.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.2...v0.46.3) (2021-11-24)
+
+
+### Bug Fixes
+
+* Use HTTPs links instead of HTTP ([#700](https://github.com/EddieHubCommunity/LinkFree/issues/700)) ([2ea6716](https://github.com/EddieHubCommunity/LinkFree/commit/2ea6716ad6192bed8d559e7f7ad3cabac62544a7))
+
+
+
 ## [0.46.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.1...v0.46.2) (2021-11-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icons in all profiles ([#694](https://github.com/EddieHubCommunity/LinkFree/issues/694)) ([b8a3dca](https://github.com/EddieHubCommunity/LinkFree/commit/b8a3dca928723f5b37824460611e28792704ce9a))
-
-
-
-## [0.45.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.4...v0.45.5) (2021-11-23)
-
-
-### Bug Fixes
-
-* Add pranay's data ([#695](https://github.com/EddieHubCommunity/LinkFree/issues/695)) ([6e87225](https://github.com/EddieHubCommunity/LinkFree/commit/6e872251ff2fb1940ce401088e6ac44b7c564587))
 
 
 
