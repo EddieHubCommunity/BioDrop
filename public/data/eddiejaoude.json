@@ -5,22 +5,22 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/eddiejaoude",
+      "url": "https://github.com/eddiejaoude",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/eddiejaoude",
+      "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
     },
     {
       "name": "Learn more about Open Source on my YouTube channel",
-      "url": "http://youtube.com/eddiejaoude",
+      "url": "https://youtube.com/eddiejaoude",
       "icon": "youtube"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "http://linkedin.com/in/eddiejaoude",
+      "url": "https://linkedin.com/in/eddiejaoude",
       "icon": "linkedin"
     }
   ],
@@ -31,16 +31,16 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing again",
-      "url": "http://eddiejaoude.io"
+      "url": "https://www.eddiejaoude.io/"
     },
     {
       "title": "Started YouTube",
-      "image": "http://github.com/eddiejaoude.png",
+      "image": "https://github.com/eddiejaoude.png",
       "date": "June 2019",
       "icon": "youtube",
       "color": "red",
       "description": "First real video",
-      "url": "http://youtube.com/eddiejaoude"
+      "url": "https://youtube.com/eddiejaoude"
     },
     {
       "title": "GitHub Star",
@@ -48,7 +48,7 @@
       "icon": "github",
       "color": "green",
       "description": "Became a GitHub Star with 30 other people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     },
     {
       "title": "GitHub Star of the Year",
@@ -56,7 +56,7 @@
       "icon": "github",
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "http://github.com/eddiejaoude"
+      "url": "https://github.com/eddiejaoude"
     }
   ]
 }
