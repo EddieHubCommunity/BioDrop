@@ -5,12 +5,12 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/Skyhero-admin",
+      "url": "https://github.com/Skyhero-admin",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/Skyhero_root",
+      "url": "https://twitter.com/Skyhero_root",
       "icon": "twitter"
     }
   ]

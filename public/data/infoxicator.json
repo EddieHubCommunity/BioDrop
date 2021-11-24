@@ -5,17 +5,17 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/infoxicator",
+      "url": "https://github.com/infoxicator",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/infoxicador",
+      "url": "https://twitter.com/infoxicador",
       "icon": "twitter"
     },
     {
       "name": "Learn more about Open Source on my YouTube channel",
-      "url": "http://youtube.com/rubencasas",
+      "url": "https://youtube.com/rubencasas",
       "icon": "youtube"
     }
   ]

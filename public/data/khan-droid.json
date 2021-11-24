@@ -5,12 +5,12 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/khan-droid",
+      "url": "https://github.com/khan-droid",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/khalid_khan111",
+      "url": "https://twitter.com/khalid_khan111",
       "icon": "twitter"
     }
   ]

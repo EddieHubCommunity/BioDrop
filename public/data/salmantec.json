@@ -5,17 +5,17 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/salmantec",
+      "url": "https://github.com/salmantec",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/akjsal",
+      "url": "https://twitter.com/akjsal",
       "icon": "twitter"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "http://linkedin.com/in/mohamed-salman-05",
+      "url": "https://linkedin.com/in/mohamed-salman-05",
       "icon": "linkedin"
     }
   ]

@@ -5,17 +5,17 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/vedant-kakde",
+      "url": "https://github.com/vedant-kakde",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/vedantstwt",
+      "url": "https://twitter.com/vedantstwt",
       "icon": "twitter"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "http://linkedin.com/in/vedant-kakde",
+      "url": "https://linkedin.com/in/vedant-kakde",
       "icon": "linkedin"
     }
   ]

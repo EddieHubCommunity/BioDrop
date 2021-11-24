@@ -5,17 +5,17 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/felipetodev",
+      "url": "https://github.com/felipetodev",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/fe_ossandon",
+      "url": "https://twitter.com/fe_ossandon",
       "icon": "twitter"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "http://linkedin.com/in/felipeossandon",
+      "url": "https://linkedin.com/in/felipeossandon",
       "icon": "linkedin"
     }
   ]
