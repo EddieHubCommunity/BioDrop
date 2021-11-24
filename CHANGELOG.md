@@ -1,3 +1,12 @@
+## [0.46.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.0...v0.46.1) (2021-11-24)
+
+
+### Bug Fixes
+
+* **dat:** add khushi-linkfree ([#698](https://github.com/EddieHubCommunity/LinkFree/issues/698)) ([3388488](https://github.com/EddieHubCommunity/LinkFree/commit/338848800bd967babb89abd321c8667864786e6d))
+
+
+
 # [0.46.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.6...v0.46.0) (2021-11-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * spelling errors in the PR template ([#692](https://github.com/EddieHubCommunity/LinkFree/issues/692)) ([6026ba9](https://github.com/EddieHubCommunity/LinkFree/commit/6026ba946fda6bd58bb0cc56607ae193434497c6))
-
-
-
-## [0.45.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.2...v0.45.3) (2021-11-22)
-
-
-### Bug Fixes
-
-* card text consistent alignment on mobile ([#665](https://github.com/EddieHubCommunity/LinkFree/issues/665)) ([48141a5](https://github.com/EddieHubCommunity/LinkFree/commit/48141a5bfa300fa70d026da5e579cc8f2bdc98c7))
 
 
 
