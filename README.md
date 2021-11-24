@@ -119,6 +119,7 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 | Facebook  | <img src="https://user-images.githubusercontent.com/65664185/138502603-e5db457f-576a-478b-8f58-391135cfff74.png" width=100% height=30%>  | Twitter  | <img src="https://user-images.githubusercontent.com/65664185/138503209-1ce0ebbc-5590-4940-8cd0-2dadacbf09ed.png" width=100% height=30%> |
 |  Github   | <img src="https://user-images.githubusercontent.com/65664185/138502964-488bfe15-d6c4-4f0c-8221-9ef0d50bfb92.png" width=100% height=30%>  |  Slack   | <img src="https://user-images.githubusercontent.com/65664185/138503148-791f88ac-01ac-4d11-9a63-1ffaaf649b21.png" width=100% height=30%> |
 | Microsoft | <img src="https://user-images.githubusercontent.com/65664185/138503027-7395af2c-e6c5-45ac-96ac-3af3d252df3b.png" width=100% height=30%>  |  Paypal  | <img src="https://user-images.githubusercontent.com/65664185/138503083-7dc6ab6f-9c0e-40ca-b2b7-d5377f6b2981.png" width=100% height=30%> |
+|  Globe  | <img src="https://user-images.githubusercontent.com/32780232/143367620-5fe98cfa-7a18-4db7-95e4-0cd496acce7b.png" width=100% height=30%> |
 
 ## 🛡️ License
 
