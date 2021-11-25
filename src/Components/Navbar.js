@@ -17,7 +17,7 @@ function Navbar({ items, start, end }) {
       .then((data) => setVersion(data.version))
       .catch((error) => {
         console.log('Navbar useEffect', error)
-        alert('An error occurred please try again later.')
+        alert('An error occurred, please try again later.')
       })
   }, [])
 
