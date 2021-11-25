@@ -14,12 +14,9 @@ function Navbar({ items, start, end }) {
   useEffect(() => {
     fetch('/app.json')
       .then((response) => response.json())
-
       .then((data) => setVersion(data.version))
-
       .catch((error) => {
         console.log('Navbar useEffect', error)
-
         alert('An error occurred please try again later.')
       })
   }, [])
@@ -41,21 +38,12 @@ function Navbar({ items, start, end }) {
     )
   }
 
-  return (
-    <Menubar
-      model={items}
-      start={start}
-      end={end}
-      className="p-mb-4 p-flex-wrap p-jc-center"
-    />
-  )
+  return (<Menubar model={items} start={start} end={end} className="p-mb-4 p-flex-wrap p-jc-center" />)
 }
 
 Navbar.propTypes = {
   items: PropTypes.array,
-
   start: PropTypes.object,
-
   end: PropTypes.object,
 }
 
