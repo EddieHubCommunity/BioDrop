@@ -1,3 +1,12 @@
+## [0.47.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.0...v0.47.1) (2021-11-25)
+
+
+### Bug Fixes
+
+* Add My Profile to Public Directory ([#709](https://github.com/EddieHubCommunity/LinkFree/issues/709)) ([c18871a](https://github.com/EddieHubCommunity/LinkFree/commit/c18871a9ee5312755c38867b66175dff576e9152))
+
+
+
 # [0.47.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.3...v0.47.0) (2021-11-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **dat:** add khushi-linkfree ([#698](https://github.com/EddieHubCommunity/LinkFree/issues/698)) ([3388488](https://github.com/EddieHubCommunity/LinkFree/commit/338848800bd967babb89abd321c8667864786e6d))
-
-
-
-# [0.46.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.6...v0.46.0) (2021-11-23)
-
-
-### Features
-
-* provide more information in the `package.json` file ([#691](https://github.com/EddieHubCommunity/LinkFree/issues/691)) ([1a3c154](https://github.com/EddieHubCommunity/LinkFree/commit/1a3c154b517bddb3ed413c124267638316c704f5))
 
 
 
