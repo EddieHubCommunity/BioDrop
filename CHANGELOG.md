@@ -1,3 +1,12 @@
+# [0.47.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.3...v0.47.0) (2021-11-25)
+
+
+### Features
+
+* add version on Navbar ([#705](https://github.com/EddieHubCommunity/LinkFree/issues/705)) ([1df3876](https://github.com/EddieHubCommunity/LinkFree/commit/1df3876ba2d2f9def97d3de8ffb6b8b4727d94c9))
+
+
+
 ## [0.46.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.2...v0.46.3) (2021-11-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * provide more information in the `package.json` file ([#691](https://github.com/EddieHubCommunity/LinkFree/issues/691)) ([1a3c154](https://github.com/EddieHubCommunity/LinkFree/commit/1a3c154b517bddb3ed413c124267638316c704f5))
-
-
-
-## [0.45.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.45.5...v0.45.6) (2021-11-23)
-
-
-### Bug Fixes
-
-* icons in all profiles ([#694](https://github.com/EddieHubCommunity/LinkFree/issues/694)) ([b8a3dca](https://github.com/EddieHubCommunity/LinkFree/commit/b8a3dca928723f5b37824460611e28792704ce9a))
 
 
 
