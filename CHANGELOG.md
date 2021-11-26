@@ -1,3 +1,12 @@
+## [0.47.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.7...v0.47.8) (2021-11-26)
+
+
+### Bug Fixes
+
+* Add App-Choreography ([#720](https://github.com/EddieHubCommunity/LinkFree/issues/720)) ([8758b17](https://github.com/EddieHubCommunity/LinkFree/commit/8758b1746584082eb46c8f37b0d6c0aa9e1ce2e4))
+
+
+
 ## [0.47.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.6...v0.47.7) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update avatar of FayasNoushad ([#711](https://github.com/EddieHubCommunity/LinkFree/issues/711)) ([a3c4977](https://github.com/EddieHubCommunity/LinkFree/commit/a3c4977c0ab70201b93e1eeb0faf1ea4c1d26583))
-
-
-
-## [0.47.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.2...v0.47.3) (2021-11-26)
-
-
-### Bug Fixes
-
-* EddieHubCommunity profile ([#703](https://github.com/EddieHubCommunity/LinkFree/issues/703)) ([db052a5](https://github.com/EddieHubCommunity/LinkFree/commit/db052a5622a8bacc0b0cf732e86545740802d739))
 
 
 
