@@ -1,3 +1,12 @@
+## [0.47.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.5...v0.47.6) (2021-11-26)
+
+
+### Bug Fixes
+
+* **data:** add foxy4096 ([#707](https://github.com/EddieHubCommunity/LinkFree/issues/707)) ([34325d2](https://github.com/EddieHubCommunity/LinkFree/commit/34325d29cfd7f54a70ebeaf5173a261cb475a8c5))
+
+
+
 ## [0.47.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.4...v0.47.5) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add avneesh0612 ([#710](https://github.com/EddieHubCommunity/LinkFree/issues/710)) ([8f27391](https://github.com/EddieHubCommunity/LinkFree/commit/8f273916445ff9acf6bea682f7a2e13e26501eae))
-
-
-
-## [0.47.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.0...v0.47.1) (2021-11-25)
-
-
-### Bug Fixes
-
-* Add My Profile to Public Directory ([#709](https://github.com/EddieHubCommunity/LinkFree/issues/709)) ([c18871a](https://github.com/EddieHubCommunity/LinkFree/commit/c18871a9ee5312755c38867b66175dff576e9152))
 
 
 
