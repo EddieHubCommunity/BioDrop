@@ -1,3 +1,12 @@
+## [0.47.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.2...v0.47.3) (2021-11-26)
+
+
+### Bug Fixes
+
+* EddieHubCommunity profile ([#703](https://github.com/EddieHubCommunity/LinkFree/issues/703)) ([db052a5](https://github.com/EddieHubCommunity/LinkFree/commit/db052a5622a8bacc0b0cf732e86545740802d739))
+
+
+
 ## [0.47.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.1...v0.47.2) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Use HTTPs links instead of HTTP ([#700](https://github.com/EddieHubCommunity/LinkFree/issues/700)) ([2ea6716](https://github.com/EddieHubCommunity/LinkFree/commit/2ea6716ad6192bed8d559e7f7ad3cabac62544a7))
-
-
-
-## [0.46.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.1...v0.46.2) (2021-11-24)
-
-
-### Bug Fixes
-
-* Update `link` to `globe` ([#699](https://github.com/EddieHubCommunity/LinkFree/issues/699)) ([c8d138b](https://github.com/EddieHubCommunity/LinkFree/commit/c8d138b52ed212ca76338ecfc74f18729e52bff4))
 
 
 
