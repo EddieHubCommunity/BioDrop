@@ -1,3 +1,12 @@
+## [0.47.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.3...v0.47.4) (2021-11-26)
+
+
+### Bug Fixes
+
+* update avatar of FayasNoushad ([#711](https://github.com/EddieHubCommunity/LinkFree/issues/711)) ([a3c4977](https://github.com/EddieHubCommunity/LinkFree/commit/a3c4977c0ab70201b93e1eeb0faf1ea4c1d26583))
+
+
+
 ## [0.47.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.2...v0.47.3) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add version on Navbar ([#705](https://github.com/EddieHubCommunity/LinkFree/issues/705)) ([1df3876](https://github.com/EddieHubCommunity/LinkFree/commit/1df3876ba2d2f9def97d3de8ffb6b8b4727d94c9))
-
-
-
-## [0.46.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.2...v0.46.3) (2021-11-24)
-
-
-### Bug Fixes
-
-* Use HTTPs links instead of HTTP ([#700](https://github.com/EddieHubCommunity/LinkFree/issues/700)) ([2ea6716](https://github.com/EddieHubCommunity/LinkFree/commit/2ea6716ad6192bed8d559e7f7ad3cabac62544a7))
 
 
 
