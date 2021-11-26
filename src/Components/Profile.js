@@ -27,7 +27,9 @@ function Profile({ profile, username }) {
         </Avatar>
         <div className="p-m-2 p-d-flex">
           <h1 className="p-m-0 p-r-3">{name}</h1>
-          <h2 className="p-avatar-username">({username})</h2>
+          <div className="p-m-2 p-d-flex">
+            <h1 className="p-m-0 p-r-3">{name}</h1>
+          </div>
         </div>
       </div>
       <div className="p-d-flex p-jc-center w-50">
