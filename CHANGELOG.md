@@ -1,3 +1,12 @@
+## [0.47.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.4...v0.47.5) (2021-11-26)
+
+
+### Bug Fixes
+
+* web3community ([#704](https://github.com/EddieHubCommunity/LinkFree/issues/704)) ([1a6d963](https://github.com/EddieHubCommunity/LinkFree/commit/1a6d9639a1f8e406e595716534145415a63c560a))
+
+
+
 ## [0.47.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.3...v0.47.4) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add My Profile to Public Directory ([#709](https://github.com/EddieHubCommunity/LinkFree/issues/709)) ([c18871a](https://github.com/EddieHubCommunity/LinkFree/commit/c18871a9ee5312755c38867b66175dff576e9152))
-
-
-
-# [0.47.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.46.3...v0.47.0) (2021-11-25)
-
-
-### Features
-
-* add version on Navbar ([#705](https://github.com/EddieHubCommunity/LinkFree/issues/705)) ([1df3876](https://github.com/EddieHubCommunity/LinkFree/commit/1df3876ba2d2f9def97d3de8ffb6b8b4727d94c9))
 
 
 
