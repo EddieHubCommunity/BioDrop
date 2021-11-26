@@ -1,0 +1,22 @@
+{
+    "name": "Anurag",
+    "bio": "Teen | Frontend Developer | Student",
+    "avatar": "https://github.com/kr-anurag.png",
+    "links": [
+      {
+        "name": "Checkout my Projects on Github",
+        "url": "https://github.com/kr-anurag",
+        "icon": "github"
+      },
+      {
+        "name": "Connect with me n Twitter",
+        "url": "https://twitter.com/kr_anurag_",
+        "icon": "twitter"
+      },
+      {
+          "name": "Join us on Discord",
+          "url": "https://discord.gg/MqsS6axMrZ",
+          "icon": "discord"
+      }
+    ]
+  }
