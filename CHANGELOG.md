@@ -1,3 +1,12 @@
+## [0.47.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.6...v0.47.7) (2021-11-26)
+
+
+### Bug Fixes
+
+* krishguptadev update ([#712](https://github.com/EddieHubCommunity/LinkFree/issues/712)) ([866b9cc](https://github.com/EddieHubCommunity/LinkFree/commit/866b9cce7cebfaaf5d854e492bb825a35f14abc9))
+
+
+
 ## [0.47.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.5...v0.47.6) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * EddieHubCommunity profile ([#703](https://github.com/EddieHubCommunity/LinkFree/issues/703)) ([db052a5](https://github.com/EddieHubCommunity/LinkFree/commit/db052a5622a8bacc0b0cf732e86545740802d739))
-
-
-
-## [0.47.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.1...v0.47.2) (2021-11-26)
-
-
-### Bug Fixes
-
-* add avneesh0612 ([#710](https://github.com/EddieHubCommunity/LinkFree/issues/710)) ([8f27391](https://github.com/EddieHubCommunity/LinkFree/commit/8f273916445ff9acf6bea682f7a2e13e26501eae))
 
 
 
