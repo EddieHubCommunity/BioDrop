@@ -1,3 +1,12 @@
+## [0.47.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.8...v0.47.9) (2021-11-27)
+
+
+### Bug Fixes
+
+* add Anurag to the list ([#722](https://github.com/EddieHubCommunity/LinkFree/issues/722)) ([c96077e](https://github.com/EddieHubCommunity/LinkFree/commit/c96077e34de0f66edbd1af0131add4e1c89d558f))
+
+
+
 ## [0.47.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.7...v0.47.8) (2021-11-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * web3community ([#704](https://github.com/EddieHubCommunity/LinkFree/issues/704)) ([1a6d963](https://github.com/EddieHubCommunity/LinkFree/commit/1a6d9639a1f8e406e595716534145415a63c560a))
-
-
-
-## [0.47.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.3...v0.47.4) (2021-11-26)
-
-
-### Bug Fixes
-
-* update avatar of FayasNoushad ([#711](https://github.com/EddieHubCommunity/LinkFree/issues/711)) ([a3c4977](https://github.com/EddieHubCommunity/LinkFree/commit/a3c4977c0ab70201b93e1eeb0faf1ea4c1d26583))
 
 
 
