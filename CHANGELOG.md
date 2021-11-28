@@ -1,3 +1,12 @@
+## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
+
+
+### Bug Fixes
+
+* **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
+
+
+
 ## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
-
-
-
-## [0.47.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.8...v0.47.9) (2021-11-27)
-
-
-### Bug Fixes
-
-* add Anurag to the list ([#722](https://github.com/EddieHubCommunity/LinkFree/issues/722)) ([c96077e](https://github.com/EddieHubCommunity/LinkFree/commit/c96077e34de0f66edbd1af0131add4e1c89d558f))
 
 
 
