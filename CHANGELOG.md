@@ -1,3 +1,12 @@
+## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
+
+
+### Bug Fixes
+
+* username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
+
+
+
 ## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add App-Choreography ([#720](https://github.com/EddieHubCommunity/LinkFree/issues/720)) ([8758b17](https://github.com/EddieHubCommunity/LinkFree/commit/8758b1746584082eb46c8f37b0d6c0aa9e1ce2e4))
-
-
-
-## [0.47.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.6...v0.47.7) (2021-11-26)
-
-
-### Bug Fixes
-
-* krishguptadev update ([#712](https://github.com/EddieHubCommunity/LinkFree/issues/712)) ([866b9cc](https://github.com/EddieHubCommunity/LinkFree/commit/866b9cce7cebfaaf5d854e492bb825a35f14abc9))
 
 
 
