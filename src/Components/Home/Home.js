@@ -1,52 +1,53 @@
 import './Home.css'
 
-import React, { useState, useEffect, useContext } from 'react'
-import { ProgressBar } from 'primereact/progressbar'
+import React, { useState, useEffect, useRef } from 'react'
+import { Toast } from 'primereact/toast'
 
 import Placeholders from './Placeholders'
 import Users from './Users'
-import {
-  GlobalDispatchContext,
-  GlobalStateContext,
-  SET_USER_LIST,
-} from '../../Store/Context'
+import { useUsers, useUsersDispatch } from '../../Store/Context'
 
 function Home() {
-  const [showProgress, setShowProgress] = useState(true)
   const [skeleton, setskeleton] = useState(true)
-  const dispatch = useContext(GlobalDispatchContext)
-  const list = useContext(GlobalStateContext)
+  const toast = useRef(null)
+  const dispatch = useUsersDispatch()
+  const list = useUsers()
 
   useEffect(() => {
     if (list.length === 0) {
       fetch('/list.json')
         .then((response) => response.json())
         .then((data) =>
-          data.sort((a, b) => a.username.localeCompare(b.username)),
+          data.sort((a, b) =>
+            a.name.normalize('NFD').localeCompare(b.name.normalize('NFD')),
+          ),
         )
-        .then((data) => dispatch({ type: SET_USER_LIST, data }))
+        .then((data) => dispatch({ type: 'SET_USER_LIST', data }))
         .catch((error) => {
           console.log('Home useEffect', error)
-          alert('An error occurred please try again later.')
+          toast.current.show({
+            severity: 'error',
+            summary: 'Error Message',
+            detail: 'An error occurred please try again later.',
+            life: 5000,
+          })
         })
         .finally(() => {
-          setShowProgress(false)
           setTimeout(() => {
             setskeleton(false)
           }, 500)
         })
     } else {
-      setShowProgress(false)
       setTimeout(() => {
         setskeleton(false)
-      }, 200)
+      }, 500)
     }
   }, [])
 
   return (
     <main>
-      {showProgress && <ProgressBar mode="indeterminate" />}
-      {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
+      <Toast ref={toast} />
+      {skeleton ? <Placeholders /> : <Users />}
     </main>
   )
 }

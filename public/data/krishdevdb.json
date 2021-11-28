@@ -5,12 +5,12 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/krishdevdb",
+      "url": "https://github.com/krishdevdb",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/krishdevdb",
+      "url": "https://twitter.com/krishdevdb",
       "icon": "twitter"
     }
   ]

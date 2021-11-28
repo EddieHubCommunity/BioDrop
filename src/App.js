@@ -1,9 +1,4 @@
-import 'primereact/resources/themes/saga-blue/theme.css'
-import 'primereact/resources/primereact.min.css'
-import 'primeicons/primeicons.css'
-import 'primeflex/primeflex.css'
-
-import React, { useReducer } from 'react'
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,22 +6,26 @@ import {
   useHistory,
 } from 'react-router-dom'
 
+import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/primereact.min.css'
+import 'primeicons/primeicons.css'
+import 'primeflex/primeflex.css'
+
 import Footer from './Components/Footer'
-import Socials from './Components/Socials'
+import User from './Components/UserProfile/User'
 import Home from './Components/Home/Home'
-import GlobalState, { reducer } from './Store/Context'
+import { GlobalProvider } from './Store/Context'
 
 function App() {
-  const [list, setList] = useReducer(reducer, [])
   const history = useHistory()
 
   return (
-    <GlobalState initialState={list} dispatch={setList}>
+    <GlobalProvider>
       <Router history={history}>
-        <div className="p-m-4">
+        <div className="p-m-2 p-m-md-4">
           <Switch>
             <Route path="/:username">
-              <Socials />
+              <User />
             </Route>
             <Route path="/">
               <Home />
@@ -35,7 +34,7 @@ function App() {
           <Footer />
         </div>
       </Router>
-    </GlobalState>
+    </GlobalProvider>
   )
 }
 

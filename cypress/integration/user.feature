@@ -7,4 +7,4 @@ Feature: User profile page
         Then I see "eddiejaoude" as a link
         When I click on "eddiejaoude"
         Then I should see "eddiejaoude" in the url
-        And I see "Eddie Jaoude" in "h1"
+        And I see "Eddie Jaoude" text in section "h1"

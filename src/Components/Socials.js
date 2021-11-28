@@ -29,10 +29,17 @@ function Socials() {
       {showProgress && <ProgressBar mode="indeterminate" />}
       {!showProgress && (
         <>
-          { history.length === 2
-            ? <Link to="/"> <i className="pi pi-arrow-left"></i></Link>
-            : <i className="pi pi-arrow-left" onClick={() => history.goBack()}></i>
-            }
+          {history.length === 2 ? (
+            <Link to="/">
+              {' '}
+              <i className="pi pi-arrow-left"></i>
+            </Link>
+          ) : (
+            <i
+              className="pi pi-arrow-left"
+              onClick={() => history.goBack()}
+            ></i>
+          )}
           <Profile
             bio={profile.bio}
             avatar={profile.avatar}

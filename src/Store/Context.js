@@ -1,17 +1,33 @@
-import React from 'react'
+import React, { createContext, useContext, useReducer } from 'react'
 import PropTypes from 'prop-types'
 
-const GlobalStateContext = React.createContext([])
-const GlobalDispatchContext = React.createContext(null)
+const GlobalStateContext = createContext([])
+const GlobalDispatchContext = createContext(null)
 
-// Actions
-const SET_USER_LIST = 'SET_USER_LIST'
+export function GlobalProvider({ children }) {
+  const [users, dispatch] = useReducer(usersReducer, initialUsers)
 
-// Reducer
-const reducer = (state, action) => {
+  return (
+    <GlobalStateContext.Provider value={users}>
+      <GlobalDispatchContext.Provider value={dispatch}>
+        {children}
+      </GlobalDispatchContext.Provider>
+    </GlobalStateContext.Provider>
+  )
+}
+
+export function useUsers() {
+  return useContext(GlobalStateContext)
+}
+
+export function useUsersDispatch() {
+  return useContext(GlobalDispatchContext)
+}
+
+function usersReducer(state, action) {
   const { type, data } = action
   switch (type) {
-    case SET_USER_LIST: {
+    case 'SET_USER_LIST': {
       return data
     }
     default:
@@ -19,21 +35,8 @@ const reducer = (state, action) => {
   }
 }
 
-function GlobalState(props) {
-  const { initialState, dispatch } = props
-  return (
-    <GlobalStateContext.Provider value={initialState}>
-      <GlobalDispatchContext.Provider value={dispatch}>
-        {props.children}
-      </GlobalDispatchContext.Provider>
-    </GlobalStateContext.Provider>
-  )
-}
-GlobalState.propTypes = {
-  initialState: PropTypes.array.isRequired,
-  dispatch: PropTypes.func.isRequired,
+const initialUsers = []
+
+GlobalProvider.propTypes = {
   children: PropTypes.node,
 }
-
-export default GlobalState
-export { GlobalStateContext, GlobalDispatchContext, SET_USER_LIST, reducer }

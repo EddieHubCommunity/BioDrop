@@ -1,27 +1,29 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 import { Skeleton } from 'primereact/skeleton'
+import { useUsers } from '../../Store/Context'
 
-function Placeholder({ list }) {
+function Placeholder() {
+  const list = useUsers()
+
   return (
-    <div className="p-d-flex p-flex-wrap">
-      {list.map((user, key) => {
-        return (
-          <Skeleton
-            width="15%"
-            height="2.4rem" borderRadius="10px"
-            className="p-mr-2 p-m-2"
-            key={`skeleton-${key}`}
-          />
-        )
-      })}
-    </div>
+    <>
+      <Skeleton shape="rectangle" height="3.2rem" className="p-mb-4" />
+      <div className="p-d-flex p-flex-wrap p-jc-center">
+        {list.map((user, key) => {
+          return (
+            <Skeleton
+              width="16rem"
+              height="2.6rem"
+              borderRadius="2rem"
+              className="p-m-2 p-mr-2"
+              key={`skeleton-${key}`}
+            />
+          )
+        })}
+      </div>
+    </>
   )
-}
-
-Placeholder.propTypes = {
-  list: PropTypes.array.isRequired,
 }
 
 export default Placeholder

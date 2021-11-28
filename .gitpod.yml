@@ -18,6 +18,3 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
-
-image:
-  file: .gitpod.dockerfile
