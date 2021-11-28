@@ -1,3 +1,12 @@
+## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
+
+
+### Bug Fixes
+
+* appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
+
+
+
 ## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * krishguptadev update ([#712](https://github.com/EddieHubCommunity/LinkFree/issues/712)) ([866b9cc](https://github.com/EddieHubCommunity/LinkFree/commit/866b9cce7cebfaaf5d854e492bb825a35f14abc9))
-
-
-
-## [0.47.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.5...v0.47.6) (2021-11-26)
-
-
-### Bug Fixes
-
-* **data:** add foxy4096 ([#707](https://github.com/EddieHubCommunity/LinkFree/issues/707)) ([34325d2](https://github.com/EddieHubCommunity/LinkFree/commit/34325d29cfd7f54a70ebeaf5173a261cb475a8c5))
 
 
 
