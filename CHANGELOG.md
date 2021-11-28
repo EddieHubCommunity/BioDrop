@@ -1,3 +1,12 @@
+## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
+
+
+### Bug Fixes
+
+* rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
+
+
+
 ## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Anurag to the list ([#722](https://github.com/EddieHubCommunity/LinkFree/issues/722)) ([c96077e](https://github.com/EddieHubCommunity/LinkFree/commit/c96077e34de0f66edbd1af0131add4e1c89d558f))
-
-
-
-## [0.47.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.7...v0.47.8) (2021-11-26)
-
-
-### Bug Fixes
-
-* Add App-Choreography ([#720](https://github.com/EddieHubCommunity/LinkFree/issues/720)) ([8758b17](https://github.com/EddieHubCommunity/LinkFree/commit/8758b1746584082eb46c8f37b0d6c0aa9e1ce2e4))
 
 
 
