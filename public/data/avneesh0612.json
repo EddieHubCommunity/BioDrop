@@ -22,6 +22,11 @@
       "name": "Checkout my portfolio",
       "url": "https://www.avneesh.tech/",
       "icon": "globe"
+    },
+    {
+      "name": "Check my blog posts",
+      "url": "https://blog.avneesh.tech/",
+      "icon": "book"
     }
   ]
 }

@@ -1,45 +1,45 @@
-## [0.47.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.8...v0.47.9) (2021-11-27)
+## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
 
 
 ### Bug Fixes
 
-* add Anurag to the list ([#722](https://github.com/EddieHubCommunity/LinkFree/issues/722)) ([c96077e](https://github.com/EddieHubCommunity/LinkFree/commit/c96077e34de0f66edbd1af0131add4e1c89d558f))
+* **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
 
 
 
-## [0.47.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.7...v0.47.8) (2021-11-26)
-
-
-### Bug Fixes
-
-* Add App-Choreography ([#720](https://github.com/EddieHubCommunity/LinkFree/issues/720)) ([8758b17](https://github.com/EddieHubCommunity/LinkFree/commit/8758b1746584082eb46c8f37b0d6c0aa9e1ce2e4))
-
-
-
-## [0.47.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.6...v0.47.7) (2021-11-26)
+## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
 
 
 ### Bug Fixes
 
-* krishguptadev update ([#712](https://github.com/EddieHubCommunity/LinkFree/issues/712)) ([866b9cc](https://github.com/EddieHubCommunity/LinkFree/commit/866b9cce7cebfaaf5d854e492bb825a35f14abc9))
+* rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
 
 
 
-## [0.47.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.5...v0.47.6) (2021-11-26)
-
-
-### Bug Fixes
-
-* **data:** add foxy4096 ([#707](https://github.com/EddieHubCommunity/LinkFree/issues/707)) ([34325d2](https://github.com/EddieHubCommunity/LinkFree/commit/34325d29cfd7f54a70ebeaf5173a261cb475a8c5))
-
-
-
-## [0.47.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.4...v0.47.5) (2021-11-26)
+## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
 
 
 ### Bug Fixes
 
-* web3community ([#704](https://github.com/EddieHubCommunity/LinkFree/issues/704)) ([1a6d963](https://github.com/EddieHubCommunity/LinkFree/commit/1a6d9639a1f8e406e595716534145415a63c560a))
+* username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
+
+
+
+## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
+
+
+### Bug Fixes
+
+* appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
+
+
+
+## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
+
+
+### Bug Fixes
+
+* usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
 
 
 
