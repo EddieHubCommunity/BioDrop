@@ -1,3 +1,12 @@
+## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
+
+
+### Bug Fixes
+
+* usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
+
+
+
 ## [0.47.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.8...v0.47.9) (2021-11-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add foxy4096 ([#707](https://github.com/EddieHubCommunity/LinkFree/issues/707)) ([34325d2](https://github.com/EddieHubCommunity/LinkFree/commit/34325d29cfd7f54a70ebeaf5173a261cb475a8c5))
-
-
-
-## [0.47.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.4...v0.47.5) (2021-11-26)
-
-
-### Bug Fixes
-
-* web3community ([#704](https://github.com/EddieHubCommunity/LinkFree/issues/704)) ([1a6d963](https://github.com/EddieHubCommunity/LinkFree/commit/1a6d9639a1f8e406e595716534145415a63c560a))
 
 
 
