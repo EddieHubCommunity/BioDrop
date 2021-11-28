@@ -31,7 +31,6 @@ function Socials() {
         <>
           {history.length === 2 ? (
             <Link to="/">
-              {' '}
               <i className="pi pi-arrow-left"></i>
             </Link>
           ) : (
