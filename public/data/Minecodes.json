@@ -2,8 +2,7 @@
     "name": "Minecodes",
     "bio": "Hobby coder that builds apps for Discord, Markdown, GitHub, Linux, Windows, Guilded and Minecraft",
     "avatar": "https://github.com/Minecodes.png",
-    "links": [
-        {
+    "links": [{
             "name": "Visit my Youtube Channel",
             "url": "https://youtube.com/Minecodes",
             "icon": "youtube"
@@ -39,8 +38,7 @@
             "icon": "twitter"
         }
     ],
-    "milestones": [
-        {
+    "milestones": [{
             "title": "Started YouTube",
             "image": "https://github.com/Minecodes.png",
             "date": "April 2021",
@@ -50,13 +48,13 @@
             "url": "https://youtu.be/RpjnTpVx6tg"
         },
         {
-          "title": "First Github project",
-          "image": "https://raw.githubusercontent.com/Minecodes/randomfox/master/assets/randomfox.png",
-          "date": "January 2021",
-          "icon": "github",
-          "color": "orange",
-          "description": "Created randomfox",
-          "url": "https://github.com/Minecodes/randomfox"
+            "title": "First Github project",
+            "image": "https://raw.githubusercontent.com/Minecodes/randomfox/master/assets/randomfox.png",
+            "date": "January 2021",
+            "icon": "github",
+            "color": "orange",
+            "description": "Created randomfox",
+            "url": "https://github.com/Minecodes/randomfox"
         },
         {
             "title": "41 subs on Youtube",
