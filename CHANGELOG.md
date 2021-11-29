@@ -1,3 +1,12 @@
+## [0.47.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.18...v0.47.19) (2021-11-29)
+
+
+### Bug Fixes
+
+* add kingwisdom profile ([#745](https://github.com/EddieHubCommunity/LinkFree/issues/745)) ([e61b50c](https://github.com/EddieHubCommunity/LinkFree/commit/e61b50c46f995e453f601ed69ad8f6e95de5e9a6))
+
+
+
 ## [0.47.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.17...v0.47.18) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add donlouie ([#742](https://github.com/EddieHubCommunity/LinkFree/issues/742)) ([655a255](https://github.com/EddieHubCommunity/LinkFree/commit/655a255c9003efcaed7e7e0b5510cbc2bbdbe976))
-
-
-
-## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
-
-
-### Bug Fixes
-
-* **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
 
 
 
