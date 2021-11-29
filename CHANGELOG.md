@@ -1,3 +1,12 @@
+## [0.47.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.16...v0.47.17) (2021-11-29)
+
+
+### Bug Fixes
+
+* usage of wrong img url ([#737](https://github.com/EddieHubCommunity/LinkFree/issues/737)) ([e9caefa](https://github.com/EddieHubCommunity/LinkFree/commit/e9caefa220f37c5b5ab8883d50f8f3a9f9d84b62))
+
+
+
 ## [0.47.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.15...v0.47.16) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
-
-
-
-## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
-
-
-### Bug Fixes
-
-* username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
 
 
 
