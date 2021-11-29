@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Prettier
 
 on:
   pull_request:
@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
-          fetch-depth: 0
-
-      - name: Prettify code
-        uses: creyD/prettier_action@v4.0
+          node-version: "14"
+      - run: npm install
+      - run: npx prettier public/data/*.json --write
+      - name: Commit & Push changes
+        uses: actions-js/push@master
         with:
-          prettier_options: --write public/data/*.json
-          only_changed: True
+          github_token: ${{ secrets.GITHUB_TOKEN }}
