@@ -1,3 +1,12 @@
+## [0.47.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.14...v0.47.15) (2021-11-29)
+
+
+### Bug Fixes
+
+* add donlouie ([#742](https://github.com/EddieHubCommunity/LinkFree/issues/742)) ([655a255](https://github.com/EddieHubCommunity/LinkFree/commit/655a255c9003efcaed7e7e0b5510cbc2bbdbe976))
+
+
+
 ## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
-
-
-
-## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
-
-
-### Bug Fixes
-
-* usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
 
 
 
