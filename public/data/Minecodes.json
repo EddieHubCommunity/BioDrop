@@ -3,12 +3,12 @@
     "bio": "Hobby coder that builds apps for Discord, Markdown, GitHub, Linux, Windows, Guilded and Minecraft",
     "avatar": "https://github.com/Minecodes.png",
     "links": [{
-            "name": "Visit my Youtube Channel",
+            "name": "Visit my YouTube Channel",
             "url": "https://youtube.com/Minecodes",
             "icon": "youtube"
         },
         {
-            "name": "Visit Website",
+            "name": "Visit my website",
             "url": "https://minecodes.de",
             "icon": "globe"
         },
@@ -18,7 +18,7 @@
             "icon": "book"
         },
         {
-            "name": "Contact us via mail",
+            "name": "Contact me via mail",
             "url": "mailto:minecodes13@gmail.com",
             "icon": "envelope"
         },
@@ -28,7 +28,7 @@
             "icon": "github"
         },
         {
-            "name": "Join our Discord Community",
+            "name": "Join my Discord Community",
             "url": "https://discord.minecodes.de",
             "icon": "discord"
         },
@@ -48,7 +48,7 @@
             "url": "https://youtu.be/RpjnTpVx6tg"
         },
         {
-            "title": "First Github project",
+            "title": "First GitHub project",
             "image": "https://raw.githubusercontent.com/Minecodes/randomfox/master/assets/randomfox.png",
             "date": "January 2021",
             "icon": "github",
@@ -57,7 +57,7 @@
             "url": "https://github.com/Minecodes/randomfox"
         },
         {
-            "title": "41 subs on Youtube",
+            "title": "41 subs on YouTube",
             "image": "https://i9.ytimg.com/vi_webp/TEH1sveCv2g/mqdefault.webp?v=60ed1d46&sqp=CLzFk40G&rs=AOn4CLBufwFB5eIyC8s5KxLdYPZD_pgq5g",
             "date": "July 2021",
             "icon": "youtube",
