@@ -11,7 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.head_ref }}
           fetch-depth: 0
 
       - name: Prettify code
@@ -19,4 +18,3 @@ jobs:
         with:
           prettier_options: --write public/data/*.json
           only_changed: True
-          same_commit: True
