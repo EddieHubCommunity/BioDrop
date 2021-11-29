@@ -1,3 +1,12 @@
+# [0.48.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.20...v0.48.0) (2021-11-29)
+
+
+### Features
+
+* format files and add format action ([#743](https://github.com/EddieHubCommunity/LinkFree/issues/743)) ([a66d2a3](https://github.com/EddieHubCommunity/LinkFree/commit/a66d2a3ae24dc3b85a3b552387319e9fca7675a7))
+
+
+
 ## [0.47.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.19...v0.47.20) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * usage of wrong img url ([#737](https://github.com/EddieHubCommunity/LinkFree/issues/737)) ([e9caefa](https://github.com/EddieHubCommunity/LinkFree/commit/e9caefa220f37c5b5ab8883d50f8f3a9f9d84b62))
-
-
-
-## [0.47.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.15...v0.47.16) (2021-11-29)
-
-
-### Bug Fixes
-
-* add Mohasin to the list ([#741](https://github.com/EddieHubCommunity/LinkFree/issues/741)) ([f6be91f](https://github.com/EddieHubCommunity/LinkFree/commit/f6be91f468e10022c64649d569d5fe940ac5333d))
 
 
 
