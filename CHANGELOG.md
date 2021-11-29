@@ -1,3 +1,12 @@
+## [0.47.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.15...v0.47.16) (2021-11-29)
+
+
+### Bug Fixes
+
+* add Mohasin to the list ([#741](https://github.com/EddieHubCommunity/LinkFree/issues/741)) ([f6be91f](https://github.com/EddieHubCommunity/LinkFree/commit/f6be91f468e10022c64649d569d5fe940ac5333d))
+
+
+
 ## [0.47.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.14...v0.47.15) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
-
-
-
-## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
-
-
-### Bug Fixes
-
-* appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
 
 
 
