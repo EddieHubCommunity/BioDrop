@@ -3,7 +3,7 @@ on: [push, workflow_dispatch]
 jobs:
   sort:
     runs-on: ubuntu-latest
-    name: Sort Data
+    name: Prettier
     if: ${{ github.repository_owner != 'EddieHubCommunity' }}
     steps:
       - uses: actions/checkout@v2
