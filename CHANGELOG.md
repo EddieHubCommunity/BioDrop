@@ -1,3 +1,12 @@
+## [0.47.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.17...v0.47.18) (2021-11-29)
+
+
+### Bug Fixes
+
+* add Minecodes.json ([#744](https://github.com/EddieHubCommunity/LinkFree/issues/744)) ([8e3bd60](https://github.com/EddieHubCommunity/LinkFree/commit/8e3bd604a4699aca17981a4deadd1266e0738276))
+
+
+
 ## [0.47.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.16...v0.47.17) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
-
-
-
-## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
-
-
-### Bug Fixes
-
-* rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
 
 
 
