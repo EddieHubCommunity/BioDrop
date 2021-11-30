@@ -1,0 +1,22 @@
+{
+  "name": "Rowland Adimoha",
+  "bio": "Software developer | Open Sorcerer",
+  "avatar": "https://github.com/rowjay007.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rowjay007",
+      "icon": "github"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/rowlandadimoha/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rowlives",
+      "icon": "twitter"
+    }
+  ]
+}
