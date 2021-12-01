@@ -1,3 +1,12 @@
+## [0.48.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.0...v0.48.1) (2021-12-01)
+
+
+### Bug Fixes
+
+* blog post button hover ([#754](https://github.com/EddieHubCommunity/LinkFree/issues/754)) ([ec393d2](https://github.com/EddieHubCommunity/LinkFree/commit/ec393d2081c2be0b7ec0a3a65efa1ac08243cdb4))
+
+
+
 # [0.48.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.20...v0.48.0) (2021-11-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Minecodes.json ([#744](https://github.com/EddieHubCommunity/LinkFree/issues/744)) ([8e3bd60](https://github.com/EddieHubCommunity/LinkFree/commit/8e3bd604a4699aca17981a4deadd1266e0738276))
-
-
-
-## [0.47.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.16...v0.47.17) (2021-11-29)
-
-
-### Bug Fixes
-
-* usage of wrong img url ([#737](https://github.com/EddieHubCommunity/LinkFree/issues/737)) ([e9caefa](https://github.com/EddieHubCommunity/LinkFree/commit/e9caefa220f37c5b5ab8883d50f8f3a9f9d84b62))
 
 
 
