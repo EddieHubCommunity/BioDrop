@@ -1,10 +1,24 @@
-on: [push, workflow_dispatch]
+on: [push, workflow_dispatch, pull_request]
 
 jobs:
-  sort:
+  github-checks:
+    runs-on: ubuntu-latest
+    name: Add github checks
+    steps:
+      - uses: action/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Prettier
+        run: |
+          npm ci
+          npx prettier --check public/data/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  format:
     runs-on: ubuntu-latest
     name: Prettier
-    if: ${{ github.repository_owner != 'EddieHubCommunity' }}
+    if: ${{ github.repository_owner != 'EddieHubCommunity' && github.event != 'workflow_dispatch' }}
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
