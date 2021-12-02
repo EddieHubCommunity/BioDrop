@@ -1,3 +1,12 @@
+# [0.49.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.3...v0.49.0) (2021-12-02)
+
+
+### Features
+
+* Name Initials as avatar fallback ([#682](https://github.com/EddieHubCommunity/LinkFree/issues/682)) ([b86684a](https://github.com/EddieHubCommunity/LinkFree/commit/b86684a1e1129b380700a99e6f638aae77ee2fe0)), closes [#667](https://github.com/EddieHubCommunity/LinkFree/issues/667)
+
+
+
 ## [0.48.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.2...v0.48.3) (2021-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * format files and add format action ([#743](https://github.com/EddieHubCommunity/LinkFree/issues/743)) ([a66d2a3](https://github.com/EddieHubCommunity/LinkFree/commit/a66d2a3ae24dc3b85a3b552387319e9fca7675a7))
-
-
-
-## [0.47.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.19...v0.47.20) (2021-11-29)
-
-
-### Bug Fixes
-
-* add missing endline in `public/data/Mohasin-Haque.json` ([#746](https://github.com/EddieHubCommunity/LinkFree/issues/746)) ([cdfb67d](https://github.com/EddieHubCommunity/LinkFree/commit/cdfb67d59e33af5d1113fdcfb84b63179f1e2102))
 
 
 
