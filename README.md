@@ -53,7 +53,6 @@ Optional fields: `links` and `milestones`
 ```json
 {
   "name": "Eddie Jaoude",
-  "type": "personal",
   "bio": "Founder of EddieHub",
   "avatar": "https://github.com/eddiejaoude.png",
   "links": [
