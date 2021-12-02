@@ -1,3 +1,12 @@
+## [0.49.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.0...v0.49.1) (2021-12-02)
+
+
+### Bug Fixes
+
+* Add theriyazo ([#756](https://github.com/EddieHubCommunity/LinkFree/issues/756)) ([0d2bcd3](https://github.com/EddieHubCommunity/LinkFree/commit/0d2bcd399dd031b7bb7b311e8438cb247b152c9e))
+
+
+
 # [0.49.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.3...v0.49.0) (2021-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * blog post button hover ([#754](https://github.com/EddieHubCommunity/LinkFree/issues/754)) ([ec393d2](https://github.com/EddieHubCommunity/LinkFree/commit/ec393d2081c2be0b7ec0a3a65efa1ac08243cdb4))
-
-
-
-# [0.48.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.20...v0.48.0) (2021-11-29)
-
-
-### Features
-
-* format files and add format action ([#743](https://github.com/EddieHubCommunity/LinkFree/issues/743)) ([a66d2a3](https://github.com/EddieHubCommunity/LinkFree/commit/a66d2a3ae24dc3b85a3b552387319e9fca7675a7))
 
 
 
