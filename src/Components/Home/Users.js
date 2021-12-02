@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
-
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
+import utils from '../../utils'
 
 function Users({ list }) {
   const [searchTerm, setSearchTerm] = useState('')
@@ -36,7 +36,14 @@ function Users({ list }) {
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
-              <Chip image={user.avatar} className="p-m-2" label={user.name} />
+              <Chip
+                image={user.avatar}
+                className="p-m-2"
+                label={user.name}
+                onImageError={(error) => {
+                  utils.setDefaultSVG(user.name, error)
+                }}
+              />
             </Link>
           ))}
         {!!filteredList && filteredList.length === 0 && (
