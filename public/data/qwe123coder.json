@@ -12,6 +12,11 @@
       "name": "Follow me on Polywork",
       "url": "https://www.polywork.com/anirudh_anup",
       "icon": "globe"
+    },
+    {
+      "name": "Read my Blog",
+      "url": "https://dev.to/qwe123coder",
+      "icon": "book"
     }
   ]
 }
