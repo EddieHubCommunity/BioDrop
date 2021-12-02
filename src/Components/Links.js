@@ -42,7 +42,7 @@ function Links({ links }) {
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
-              className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
+              className={`p-p-3 p-my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
               role="link"
               onClick={() => window.open(link.url, '_blank')}
