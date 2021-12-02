@@ -93,7 +93,7 @@ git push origin YourBranchName
 
 ## 💥 Issues
 
-For major changes and controversial/opinionated changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
+For discussing changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
 
 ## All the best! 🥇
 
