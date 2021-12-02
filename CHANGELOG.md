@@ -1,3 +1,12 @@
+## [0.48.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.2...v0.48.3) (2021-12-02)
+
+
+### Bug Fixes
+
+* improve Avneesh's profile ([#750](https://github.com/EddieHubCommunity/LinkFree/issues/750)) ([0e4676e](https://github.com/EddieHubCommunity/LinkFree/commit/0e4676ef865e63905b98e469a79427487ae38a65))
+
+
+
 ## [0.48.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.1...v0.48.2) (2021-12-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add missing endline in `public/data/Mohasin-Haque.json` ([#746](https://github.com/EddieHubCommunity/LinkFree/issues/746)) ([cdfb67d](https://github.com/EddieHubCommunity/LinkFree/commit/cdfb67d59e33af5d1113fdcfb84b63179f1e2102))
-
-
-
-## [0.47.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.18...v0.47.19) (2021-11-29)
-
-
-### Bug Fixes
-
-* add kingwisdom profile ([#745](https://github.com/EddieHubCommunity/LinkFree/issues/745)) ([e61b50c](https://github.com/EddieHubCommunity/LinkFree/commit/e61b50c46f995e453f601ed69ad8f6e95de5e9a6))
 
 
 
