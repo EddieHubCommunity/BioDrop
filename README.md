@@ -16,6 +16,8 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
+![Gitpod GIF](https://user-images.githubusercontent.com/51878265/144558359-81be1ac3-7059-435c-a0a1-0278b6b61880.gif)
+
 ## 👨‍💻 Demo
 
 Check out the website: [LinkFree](http://linkfree.eddiehub.org/)
