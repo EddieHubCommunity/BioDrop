@@ -126,7 +126,7 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 
 ## 🛡️ License
 
-Linkfree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
 ## 💪 Thanks to all Contributors
 
