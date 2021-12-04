@@ -1,3 +1,12 @@
+## [0.49.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.2...v0.49.3) (2021-12-04)
+
+
+### Bug Fixes
+
+* **data:** add ChoudharyTara.json ([#765](https://github.com/EddieHubCommunity/LinkFree/issues/765)) ([4bb824c](https://github.com/EddieHubCommunity/LinkFree/commit/4bb824c8426e8b796ce8e9ce0e9f922a53fdac3b))
+
+
+
 ## [0.49.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.1...v0.49.2) (2021-12-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve Avneesh's profile ([#750](https://github.com/EddieHubCommunity/LinkFree/issues/750)) ([0e4676e](https://github.com/EddieHubCommunity/LinkFree/commit/0e4676ef865e63905b98e469a79427487ae38a65))
-
-
-
-## [0.48.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.1...v0.48.2) (2021-12-01)
-
-
-### Bug Fixes
-
-* **style:** fixed the alignment issue on the check blog posts button ([#753](https://github.com/EddieHubCommunity/LinkFree/issues/753)) ([ffe0e6f](https://github.com/EddieHubCommunity/LinkFree/commit/ffe0e6f14b95fcf9702e87a787eea2966c2077fa))
 
 
 
