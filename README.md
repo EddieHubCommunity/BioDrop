@@ -67,6 +67,16 @@ Optional fields: `links` and `milestones`
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "https://youtube.com/eddiejaoude",
+      "icon": "youtube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
@@ -101,6 +111,14 @@ Optional fields: `links` and `milestones`
       "icon": "github",
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
       "url": "https://github.com/eddiejaoude"
     }
   ]
