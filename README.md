@@ -12,7 +12,7 @@
 > Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
 >
 > Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
-> of the event will be counted - maintainers will opt in these PRs by applying the `hacktoberfest-accepted` label.
+> of the event will count - maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
@@ -36,13 +36,13 @@ Before installation, please make sure you have already installed following tools
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm install`
 5. Run `npm start`
-6. Optional : Run the tests with `npm run cypress:run`
+6. Optional: Run the tests with `npm run cypress:run`
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 ## 👨‍💻 Contributing
 
-- Contributions are what makes the open source community such an amazing place to learn, inspire, and create.
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **greatly appreciated**.
 - Check out our [contribution guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/Contributing.md) for more information.
 
@@ -125,8 +125,11 @@ Optional fields: `links` and `milestones`
 }
 ```
 
-Your URL will be `http://linkfree.eddiehub.org/<yourusername>`. For example: <http://linkfree.eddiehub.org/eddiejaoude>\
-Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`.
+Your URL will be `http://linkfree.eddiehub.org/<yourusername>`
+
+For example: <http://linkfree.eddiehub.org/eddiejaoude>\
+
+Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`
 
 ### Available Icons:
 
@@ -143,11 +146,11 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 
 ## 🛡️ License
 
-This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
 
-## 💪 Thanks to the all Contributors
+## 💪 Thanks to all Contributors
 
-Thanks a lot for spending your time in helping LinkFree grow. Thanks a lot! Keep rocking 🍻
+Thanks a lot for spending your time helping LinkFree grow. Thanks a lot! Keep rocking 🍻
 
 [![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)
 
