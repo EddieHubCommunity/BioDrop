@@ -1,3 +1,12 @@
+## [0.49.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.3...v0.49.4) (2021-12-06)
+
+
+### Bug Fixes
+
+* Add Rowland Adimoha profile ([#747](https://github.com/EddieHubCommunity/LinkFree/issues/747)) ([e4f3c98](https://github.com/EddieHubCommunity/LinkFree/commit/e4f3c989f04a5cb1208495afc3e46735b18e2b80))
+
+
+
 ## [0.49.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.2...v0.49.3) (2021-12-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Name Initials as avatar fallback ([#682](https://github.com/EddieHubCommunity/LinkFree/issues/682)) ([b86684a](https://github.com/EddieHubCommunity/LinkFree/commit/b86684a1e1129b380700a99e6f638aae77ee2fe0)), closes [#667](https://github.com/EddieHubCommunity/LinkFree/issues/667)
-
-
-
-## [0.48.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.2...v0.48.3) (2021-12-02)
-
-
-### Bug Fixes
-
-* improve Avneesh's profile ([#750](https://github.com/EddieHubCommunity/LinkFree/issues/750)) ([0e4676e](https://github.com/EddieHubCommunity/LinkFree/commit/0e4676ef865e63905b98e469a79427487ae38a65))
 
 
 
