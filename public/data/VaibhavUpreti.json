@@ -1,0 +1,50 @@
+{
+    "name": "Vaibhav Upreti",
+    "type": "personal",
+    "bio": "Programmer | Developer | Coder | Student | Learner",
+    "avatar": "https://github.com/VaibhavUpreti.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/VaibhavUpreti",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/vaibhav__upreti",
+        "icon": "twitter"
+      },
+      {
+        "name": " My YouTube channel",
+        "url": "https://www.youtube.com/channel/UCmlGx1Tz_HimE9iO5wrJVdA",
+        "icon": "youtube"
+      },
+      {
+        "name": "Follow me on LinkedIn",
+        "url": "https://www.linkedin.com/in/vaibhav-upreti-739b0421a/",
+        "icon": "linkedin"
+      }
+    ],
+    "milestones": [
+
+      {
+        "title": "Started YouTube",
+        "image": "https://github.com/VaibhavUpreti.png",
+        "date": "Dec 2021",
+        "icon": "youtube",
+        "color": "red",
+        "description": "First real video",
+        "url": "https://www.youtube.com/channel/UCmlGx1Tz_HimE9iO5wrJVdA"
+      },
+  
+      {
+        "title": "Joined MAIT BTech AI&ML",
+        "date": "2021",
+        "icon": "github",
+        "color": "green",
+        "description": "oined MAIT BTech AI&ML",
+        "url": "https://github.com/VaibhavUpreti"
+      }
+    ]
+  }
+  
