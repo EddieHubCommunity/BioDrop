@@ -7,17 +7,12 @@
       {
         "name": "Follow me on GitHub",
         "url": "https://github.com/VaibhavUpreti",
-        "icon": "github"
+        "icon": "https://github.com/VaibhavUpreti.png"
       },
       {
         "name": "Follow me on Twitter",
         "url": "https://twitter.com/vaibhav__upreti",
-        "icon": "twitter"
-      },
-      {
-        "name": " My YouTube channel",
-        "url": "https://www.youtube.com/channel/UCmlGx1Tz_HimE9iO5wrJVdA",
-        "icon": "youtube"
+        "icon": "https://twitter.com/vaibhav__upreti/photo"
       },
       {
         "name": "Follow me on LinkedIn",
@@ -26,25 +21,13 @@
       }
     ],
     "milestones": [
-
-      {
-        "title": "Started YouTube",
-        "image": "https://github.com/VaibhavUpreti.png",
-        "date": "Dec 2021",
-        "icon": "youtube",
-        "color": "red",
-        "description": "First real video",
-        "url": "https://www.youtube.com/channel/UCmlGx1Tz_HimE9iO5wrJVdA"
-      },
-  
       {
         "title": "Joined MAIT BTech AI&ML",
         "date": "2021",
-        "icon": "github",
+        "icon": "https://github.com/VaibhavUpreti.png",
         "color": "green",
-        "description": "oined MAIT BTech AI&ML",
+        "description": "Joined MAIT BTech AI&ML",
         "url": "https://github.com/VaibhavUpreti"
       }
     ]
   }
-  
