@@ -20,3 +20,10 @@ jobs:
         if: ${{ github.event == 'push' || github.event == 'workflow_dispatch' }}
         with:
           commit_message: 'style: format files'
+      - name: Fail CI
+        if: ${{ github.event == 'pull_request' }}
+        run: |
+          npm ci
+          npx prettier --check public/data/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
