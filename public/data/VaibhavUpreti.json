@@ -1,33 +1,33 @@
 {
-    "name": "Vaibhav Upreti",
-    "type": "personal",
-    "bio": "Programmer | Developer | Coder | Student | Learner",
-    "avatar": "https://github.com/VaibhavUpreti.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "https://github.com/VaibhavUpreti",
-        "icon": "https://github.com/VaibhavUpreti.png"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "https://twitter.com/vaibhav__upreti",
-        "icon": "https://twitter.com/vaibhav__upreti/photo"
-      },
-      {
-        "name": "Follow me on LinkedIn",
-        "url": "https://www.linkedin.com/in/vaibhav-upreti-739b0421a/",
-        "icon": "linkedin"
-      }
-    ],
-    "milestones": [
-      {
-        "title": "Joined MAIT BTech AI&ML",
-        "date": "2021",
-        "icon": "https://github.com/VaibhavUpreti.png",
-        "color": "green",
-        "description": "Joined MAIT BTech AI&ML",
-        "url": "https://github.com/VaibhavUpreti"
-      }
-    ]
-  }
+  "name": "Vaibhav Upreti",
+  "type": "personal",
+  "bio": "Programmer | Developer | Coder | Student | Learner",
+  "avatar": "https://github.com/VaibhavUpreti.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/VaibhavUpreti",
+      "icon": "https://github.com/VaibhavUpreti.png"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vaibhav__upreti",
+      "icon": "https://twitter.com/vaibhav__upreti/photo"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vaibhav-upreti-739b0421a/",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined MAIT BTech AI&ML",
+      "date": "2021",
+      "icon": "https://github.com/VaibhavUpreti.png",
+      "color": "green",
+      "description": "Joined MAIT BTech AI&ML",
+      "url": "https://github.com/VaibhavUpreti"
+    }
+  ]
+}
