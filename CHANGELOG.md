@@ -1,3 +1,12 @@
+## [0.50.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.1...v0.50.2) (2021-12-07)
+
+
+### Bug Fixes
+
+* add Vaibhav Upreti ([#776](https://github.com/EddieHubCommunity/LinkFree/issues/776)) ([fb3fb52](https://github.com/EddieHubCommunity/LinkFree/commit/fb3fb52941c66c72834a522df95cd9e086d3ae67))
+
+
+
 ## [0.50.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.0...v0.50.1) (2021-12-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add ChoudharyTara.json ([#765](https://github.com/EddieHubCommunity/LinkFree/issues/765)) ([4bb824c](https://github.com/EddieHubCommunity/LinkFree/commit/4bb824c8426e8b796ce8e9ce0e9f922a53fdac3b))
-
-
-
-## [0.49.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.1...v0.49.2) (2021-12-02)
-
-
-### Bug Fixes
-
-* failing ci due to auth ([#760](https://github.com/EddieHubCommunity/LinkFree/issues/760)) ([26eedca](https://github.com/EddieHubCommunity/LinkFree/commit/26eedca2b40d0aa9c5261e83a26e9754df53785f))
 
 
 
