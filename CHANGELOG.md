@@ -1,3 +1,12 @@
+# [0.50.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.4...v0.50.0) (2021-12-07)
+
+
+### Features
+
+* add profile type ([#749](https://github.com/EddieHubCommunity/LinkFree/issues/749)) ([4393e89](https://github.com/EddieHubCommunity/LinkFree/commit/4393e898cb0955e92ebee475cd526de8a91ce1ad))
+
+
+
 ## [0.49.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.3...v0.49.4) (2021-12-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add theriyazo ([#756](https://github.com/EddieHubCommunity/LinkFree/issues/756)) ([0d2bcd3](https://github.com/EddieHubCommunity/LinkFree/commit/0d2bcd399dd031b7bb7b311e8438cb247b152c9e))
-
-
-
-# [0.49.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.48.3...v0.49.0) (2021-12-02)
-
-
-### Features
-
-* Name Initials as avatar fallback ([#682](https://github.com/EddieHubCommunity/LinkFree/issues/682)) ([b86684a](https://github.com/EddieHubCommunity/LinkFree/commit/b86684a1e1129b380700a99e6f638aae77ee2fe0)), closes [#667](https://github.com/EddieHubCommunity/LinkFree/issues/667)
 
 
 
