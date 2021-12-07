@@ -1,3 +1,12 @@
+## [0.50.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.0...v0.50.1) (2021-12-07)
+
+
+### Bug Fixes
+
+* add Anu Wat ([#772](https://github.com/EddieHubCommunity/LinkFree/issues/772)) ([2b7fcbc](https://github.com/EddieHubCommunity/LinkFree/commit/2b7fcbc1464c355f5faef531552636e503e54047))
+
+
+
 # [0.50.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.4...v0.50.0) (2021-12-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * failing ci due to auth ([#760](https://github.com/EddieHubCommunity/LinkFree/issues/760)) ([26eedca](https://github.com/EddieHubCommunity/LinkFree/commit/26eedca2b40d0aa9c5261e83a26e9754df53785f))
-
-
-
-## [0.49.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.0...v0.49.1) (2021-12-02)
-
-
-### Bug Fixes
-
-* Add theriyazo ([#756](https://github.com/EddieHubCommunity/LinkFree/issues/756)) ([0d2bcd3](https://github.com/EddieHubCommunity/LinkFree/commit/0d2bcd399dd031b7bb7b311e8438cb247b152c9e))
 
 
 
