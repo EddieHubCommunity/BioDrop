@@ -1,3 +1,12 @@
+## [0.50.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.2...v0.50.3) (2021-12-08)
+
+
+### Bug Fixes
+
+* add Saurabh Mehta ([#771](https://github.com/EddieHubCommunity/LinkFree/issues/771)) ([f9f6b57](https://github.com/EddieHubCommunity/LinkFree/commit/f9f6b57dad2b02f95fb6cb28bfe1cfca386fce3c))
+
+
+
 ## [0.50.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.1...v0.50.2) (2021-12-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add Rowland Adimoha profile ([#747](https://github.com/EddieHubCommunity/LinkFree/issues/747)) ([e4f3c98](https://github.com/EddieHubCommunity/LinkFree/commit/e4f3c989f04a5cb1208495afc3e46735b18e2b80))
-
-
-
-## [0.49.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.2...v0.49.3) (2021-12-04)
-
-
-### Bug Fixes
-
-* **data:** add ChoudharyTara.json ([#765](https://github.com/EddieHubCommunity/LinkFree/issues/765)) ([4bb824c](https://github.com/EddieHubCommunity/LinkFree/commit/4bb824c8426e8b796ce8e9ce0e9f922a53fdac3b))
 
 
 
