@@ -56,7 +56,7 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
 - [nhcarrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
-- [Kaiwalya Koparkar](https://github.com/krishguptadev/LinkFree/blob/patch-8/public/data/kaiwalyakoparkar.json)
+- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 ```json
 {
