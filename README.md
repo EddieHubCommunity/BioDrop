@@ -128,7 +128,7 @@ Optional fields: `links` and `milestones`
 
 Your URL will be `http://linkfree.eddiehub.org/<yourusername>`
 
-For example: <http://linkfree.eddiehub.org/eddiejaoude>\
+For example: <http://linkfree.eddiehub.org/eddiejaoude>
 
 Your `avatar` URL should take the format of `https://github.com/<yourusername>.png`
 
