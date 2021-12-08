@@ -52,75 +52,37 @@ Create a file named `your-username.json` in the directory `public/data` with the
 
 Optional fields: `links` and `milestones`
 
+Looking for inspiration? You can view the following profiles for an example:
+
+- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
+- [nhcarrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
+- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
+
 ```json
 {
-  "name": "Eddie Jaoude",
+  "name": "YOUR NAME",
   "type": "personal",
-  "bio": "Founder of EddieHub",
-  "avatar": "https://github.com/eddiejaoude.png",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/eddiejaoude",
+      "url": "https://github.com/YOUR_GITHUB_USERNAME",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/eddiejaoude",
+      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
       "icon": "twitter"
-    },
-    {
-      "name": "Learn more about Open Source on my YouTube channel",
-      "url": "https://youtube.com/eddiejaoude",
-      "icon": "youtube"
-    },
-    {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
-      "icon": "linkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
-      "date": "May 2010",
+      "date": "December 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing again",
-      "url": "https://www.eddiejaoude.io/"
-    },
-    {
-      "title": "Started YouTube",
-      "image": "https://github.com/eddiejaoude.png",
-      "date": "June 2019",
-      "icon": "youtube",
-      "color": "red",
-      "description": "First real video",
-      "url": "https://youtube.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Became a GitHub Star with 30 other people",
-      "url": "https://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star of the Year",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "https://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Nova, Community Growth Award",
-      "date": "2021",
-      "icon": "github",
-      "color": "green",
-      "description": "Won for growing the EddieHub Community to over 30k members.",
-      "url": "https://github.com/eddiejaoude"
+      "description": "Started freelancing",
     }
   ]
 }
