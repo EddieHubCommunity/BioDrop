@@ -1,3 +1,12 @@
+## [0.50.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.3...v0.50.4) (2021-12-08)
+
+
+### Bug Fixes
+
+* remove extra backward slash ([#782](https://github.com/EddieHubCommunity/LinkFree/issues/782)) ([180c66b](https://github.com/EddieHubCommunity/LinkFree/commit/180c66bfccfae9bf758947c8c0ffc2877cd59487))
+
+
+
 ## [0.50.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.2...v0.50.3) (2021-12-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add profile type ([#749](https://github.com/EddieHubCommunity/LinkFree/issues/749)) ([4393e89](https://github.com/EddieHubCommunity/LinkFree/commit/4393e898cb0955e92ebee475cd526de8a91ce1ad))
-
-
-
-## [0.49.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.3...v0.49.4) (2021-12-06)
-
-
-### Bug Fixes
-
-* Add Rowland Adimoha profile ([#747](https://github.com/EddieHubCommunity/LinkFree/issues/747)) ([e4f3c98](https://github.com/EddieHubCommunity/LinkFree/commit/e4f3c989f04a5cb1208495afc3e46735b18e2b80))
 
 
 
