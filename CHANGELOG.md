@@ -1,3 +1,12 @@
+## [0.50.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.4...v0.50.5) (2021-12-08)
+
+
+### Bug Fixes
+
+* add missing type parameter ([#784](https://github.com/EddieHubCommunity/LinkFree/issues/784)) ([34875bd](https://github.com/EddieHubCommunity/LinkFree/commit/34875bd16d97fcb90ea64b3e7743aeb266850e05))
+
+
+
 ## [0.50.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.3...v0.50.4) (2021-12-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Anu Wat ([#772](https://github.com/EddieHubCommunity/LinkFree/issues/772)) ([2b7fcbc](https://github.com/EddieHubCommunity/LinkFree/commit/2b7fcbc1464c355f5faef531552636e503e54047))
-
-
-
-# [0.50.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.49.4...v0.50.0) (2021-12-07)
-
-
-### Features
-
-* add profile type ([#749](https://github.com/EddieHubCommunity/LinkFree/issues/749)) ([4393e89](https://github.com/EddieHubCommunity/LinkFree/commit/4393e898cb0955e92ebee475cd526de8a91ce1ad))
 
 
 
