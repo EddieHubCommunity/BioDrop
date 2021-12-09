@@ -17,32 +17,32 @@
   ],
   "milestones": [
     {
-      "title": "Started Data Structure & Algorithms",
-      "date": "November  2021",
+      "title": "Started Data Structures & Algorithms",
+      "date": "November 2021",
       "icon": "YouTube",
       "color": "red",
-      "description": "Started ",
+      "description": "Started Problem Solving ",
     },
     {
       "title": "Started Open Source",
       "date": "December 2021",
       "icon": "GitHub",
       "color": "green",
-      "description": "Started ",
+      "description": "Started Contibuting To Beginner friendly Issues",
     },
     {
       "title": "Learning Api Development",
       "date": "December 2021",
       "icon": "Globe",
       "color": "orange",
-      "description": "Learning ",
+      "description": "Reading FASTapi Docs!",
     },
     {
       "title": "Started Discord Bot Development",
       "date": "August 2021",
       "icon": "Discord",
       "color": "green",
-      "description": "Still Learning ",
+      "description": "Learning Discord.Js",
     }
   ]
 }
