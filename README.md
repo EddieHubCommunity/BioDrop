@@ -1,6 +1,7 @@
 # LinkFree by EddieHub
 
-- LinkFree Connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
+- LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
+
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Screenshot](https://user-images.githubusercontent.com/91655303/145024633-559c1a21-240b-4900-9f06-7917a6f0d241.png)
@@ -82,7 +83,7 @@ Looking for inspiration? You can view the following profiles for an example:
       "date": "December 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing",
+      "description": "Started freelancing"
     }
   ]
 }
