@@ -48,7 +48,7 @@ function Users({ list }) {
           ))}
         {!!filteredList && filteredList.length === 0 && (
           <div className="p-d-flex p-jc-center p-ai-center">
-            <Message severity="error" text="No users found please try again" />
+            <Message severity="error" text="No users found, please try with another name." />
           </div>
         )}
       </div>
