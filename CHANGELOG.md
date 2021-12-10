@@ -1,3 +1,21 @@
+## [0.50.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.7...v0.50.8) (2021-12-10)
+
+
+### Bug Fixes
+
+* add missing comma ([#794](https://github.com/EddieHubCommunity/LinkFree/issues/794)) ([78316b2](https://github.com/EddieHubCommunity/LinkFree/commit/78316b2a1e85c1e0fa8ed470fb4be2e212cf5b28)), closes [#792](https://github.com/EddieHubCommunity/LinkFree/issues/792)
+
+
+
+## [0.50.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.6...v0.50.7) (2021-12-10)
+
+
+### Bug Fixes
+
+* add Dhruva Srinivas ([#793](https://github.com/EddieHubCommunity/LinkFree/issues/793)) ([286a55d](https://github.com/EddieHubCommunity/LinkFree/commit/286a55d3870eb56781cfc01290758d1196adddc6))
+
+
+
 ## [0.50.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.5...v0.50.6) (2021-12-09)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * remove extra backward slash ([#782](https://github.com/EddieHubCommunity/LinkFree/issues/782)) ([180c66b](https://github.com/EddieHubCommunity/LinkFree/commit/180c66bfccfae9bf758947c8c0ffc2877cd59487))
-
-
-
-## [0.50.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.2...v0.50.3) (2021-12-08)
-
-
-### Bug Fixes
-
-* add Saurabh Mehta ([#771](https://github.com/EddieHubCommunity/LinkFree/issues/771)) ([f9f6b57](https://github.com/EddieHubCommunity/LinkFree/commit/f9f6b57dad2b02f95fb6cb28bfe1cfca386fce3c))
-
-
-
-## [0.50.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.1...v0.50.2) (2021-12-07)
-
-
-### Bug Fixes
-
-* add Vaibhav Upreti ([#776](https://github.com/EddieHubCommunity/LinkFree/issues/776)) ([fb3fb52](https://github.com/EddieHubCommunity/LinkFree/commit/fb3fb52941c66c72834a522df95cd9e086d3ae67))
 
 
 
