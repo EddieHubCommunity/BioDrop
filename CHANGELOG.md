@@ -1,3 +1,12 @@
+## [0.50.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.8...v0.50.9) (2021-12-10)
+
+
+### Bug Fixes
+
+* add The Algorithms ([#797](https://github.com/EddieHubCommunity/LinkFree/issues/797)) ([e3e0625](https://github.com/EddieHubCommunity/LinkFree/commit/e3e062501a00c4431af7642ad422a30d233550f4))
+
+
+
 ## [0.50.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.7...v0.50.8) (2021-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add missing type parameter ([#784](https://github.com/EddieHubCommunity/LinkFree/issues/784)) ([34875bd](https://github.com/EddieHubCommunity/LinkFree/commit/34875bd16d97fcb90ea64b3e7743aeb266850e05))
-
-
-
-## [0.50.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.3...v0.50.4) (2021-12-08)
-
-
-### Bug Fixes
-
-* remove extra backward slash ([#782](https://github.com/EddieHubCommunity/LinkFree/issues/782)) ([180c66b](https://github.com/EddieHubCommunity/LinkFree/commit/180c66bfccfae9bf758947c8c0ffc2877cd59487))
 
 
 
