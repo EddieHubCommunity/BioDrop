@@ -105,7 +105,8 @@ Your `avatar` URL should take the format of `https://github.com/<yourusername>.p
 | Facebook | <img src="https://user-images.githubusercontent.com/65664185/138502603-e5db457f-576a-478b-8f58-391135cfff74.png" width=100% height=30%>  | Twitter   | <img src="https://user-images.githubusercontent.com/65664185/138503209-1ce0ebbc-5590-4940-8cd0-2dadacbf09ed.png" width=100% height=30%> |
 | GitHub   | <img src="https://user-images.githubusercontent.com/65664185/138502964-488bfe15-d6c4-4f0c-8221-9ef0d50bfb92.png" width=100% height=30%>  | Vimeo     | <img src="https://user-images.githubusercontent.com/65664185/138503257-6af44a9c-c81a-4657-b182-6a991157810f.png" width=100% height=30%> |
 | Globe    | <img src="https://user-images.githubusercontent.com/32780232/143367620-5fe98cfa-7a18-4db7-95e4-0cd496acce7b.png" width=100% height=30%>  | YouTube   | <img src="https://user-images.githubusercontent.com/65664185/138503305-ff60cf54-6b0b-4e18-9446-b4f6869b9511.png" width=100% height=30%> |
-| Link     | <img src="https://user-images.githubusercontent.com/65664185/138502383-35db30af-8f5a-4037-9dfb-125cdf6374fe.png" width=100% height=100%> |           |                                                                                                                                         |
+| Link     | <img src="https://user-images.githubusercontent.com/65664185/138502383-35db30af-8f5a-4037-9dfb-125cdf6374fe.png" width=100% height=100%> | Book       | <img src="https://user-images.githubusercontent.com/76985777/145391108-f8c08f8e-679f-45a3-ad58-83ef60aa28fe.png" width=100% height=30%> |
+| Dollar   | <img src="https://user-images.githubusercontent.com/76985777/145393429-c03c5c3e-0416-4d28-be21-8a01a0c3dff5.png" width=100% height=100%> | 
 
 ## 🛡️ License
 
