@@ -1,7 +1,7 @@
 {
   "name": "Amr Monier",
   "type": "personal",
-  "bio": "Backend Developer, JS enthusiast, and a learning JUNKY😁😁",
+  "bio": "Backend Developer, JS enthusiast, and a learning JUNKY 😁",
   "avatar": "https://github.com/AmrMonier.png",
   "links": [
     {
@@ -15,7 +15,7 @@
       "icon": "twitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/amr-monier-184b4b168/",
       "icon": "linkedin"
     }
@@ -54,10 +54,10 @@
       "description": "the  first of December 2021 the day i finished my military service"
     },
     {
-      "title": "Looking for an opportunity as Backend web devloper",
+      "title": "Looking for opportunities as a Backend Web Developer",
       "date": "present",
       "color": "green",
-      "description": "currentl i'm buuilding side projects and looking for a job as Backend Developer"
+      "description": "Currently, I'm building side-projects and looking for a job as a Backend Developer"
     }
   ]
 }
