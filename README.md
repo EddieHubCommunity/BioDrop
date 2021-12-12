@@ -6,7 +6,7 @@
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/82458069/145549448-b1feb5df-78aa-4286-a709-6985f0dade4c.gif)
 
 <details close>
-  <summary> Note for Hacktoberfest </summary>
+  <summary><span style="font-size: 24px; font-weight: 700;"> Note for Hacktoberfest </span></summary>
   <br>
 
   > A note for Hacktoberfest participants:
