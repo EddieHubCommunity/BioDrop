@@ -5,14 +5,17 @@
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/82458069/145549448-b1feb5df-78aa-4286-a709-6985f0dade4c.gif)
 
-## Note for Hacktoberfest
+<details close>
+  <summary><span style="font-size: 24px; font-weight: 700;"> Note for Hacktoberfest </span></summary>
+  <br>
 
-> A note for Hacktoberfest Participants:
->
-> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values
-> of the event will count - maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
+  > A note for Hacktoberfest participants:
+  >
+  > Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+  >
+  > Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
+ 
+</details> 
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
