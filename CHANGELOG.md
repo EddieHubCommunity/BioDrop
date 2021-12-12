@@ -1,3 +1,12 @@
+## [0.50.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.9...v0.50.10) (2021-12-12)
+
+
+### Bug Fixes
+
+* add Amr Monier ([#799](https://github.com/EddieHubCommunity/LinkFree/issues/799)) ([fdda350](https://github.com/EddieHubCommunity/LinkFree/commit/fdda350b7a5e2608a90282e27a0082a6f88e092a))
+
+
+
 ## [0.50.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.8...v0.50.9) (2021-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Abhishek Kushwaha ([#790](https://github.com/EddieHubCommunity/LinkFree/issues/790)) ([defd00e](https://github.com/EddieHubCommunity/LinkFree/commit/defd00e53cc576469d9425a521a81babebd81cf9))
-
-
-
-## [0.50.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.4...v0.50.5) (2021-12-08)
-
-
-### Bug Fixes
-
-* add missing type parameter ([#784](https://github.com/EddieHubCommunity/LinkFree/issues/784)) ([34875bd](https://github.com/EddieHubCommunity/LinkFree/commit/34875bd16d97fcb90ea64b3e7743aeb266850e05))
 
 
 
