@@ -7,7 +7,7 @@ import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
 
-import GraduationHat from './GraduationHat.js'
+import GraduationHat from './GraduationHat'
 
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
