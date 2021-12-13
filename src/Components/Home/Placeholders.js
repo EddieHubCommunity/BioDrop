@@ -8,7 +8,7 @@ function Placeholder({ list }) {
     <>
       <Skeleton shape="rectangle" height="3.2rem" className="p-mb-4" />
       <div className="p-d-flex p-flex-wrap p-jc-center">
-        {list.map((user, key) => {
+        {list.map((_, key) => {
           return (
             <Skeleton
               width="16rem"

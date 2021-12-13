@@ -1,0 +1,45 @@
+{
+    "name": "Goutam Nath",
+    "type": "personal",
+    "bio": "Web & Game Developer",
+    "avatar": "https://github.com/nathgoutam93.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/nathgoutam93",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/nathgoutam93",
+        "icon": "twitter"
+      },
+      {
+        "name": "Portfolio",
+        "url": "https://nathgoutam93.github.io/Portfolio/",
+        "icon": "link"
+      }
+    ],
+    "milestones": [
+      {
+        "title":"Started Game Developing",
+        "date": "August 2020",
+        "color": "orange",
+        "description": "learned Unreal engin 4 and blender 3D"
+      },
+      {
+        "title": "Started Web developing",
+        "date": "october 2021",
+        "icon": "globe",
+        "color": "blue",
+        "description": "got to learn about Web dev tools like Html, css, js, node and now playing with js/css frameworks"
+      },
+      {
+        "title": "Started Open Source",
+        "date": "December 2021",
+        "icon": "github",
+        "color": "green",
+        "description": "Started Contibuting To open source projects"
+      }
+    ]
+}

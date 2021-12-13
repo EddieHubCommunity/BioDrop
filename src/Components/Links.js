@@ -20,37 +20,47 @@ function Links({ links }) {
     <section className="p-d-flex p-jc-center p-mb-4">
       <div className="p-d-flex p-flex-column w-70">
         {links
-          .filter((link) => Object.keys(colors).includes(link.icon))
-          .map((link, index) => (
-            <Button
-              key={`link.url_${index}`}
-              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
-              onMouseOut={MouseOut}
-              className={`p-p-3 p-my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
-              role="link"
-              onClick={() => window.open(link.url, '_blank')}
-            >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
-              <span className="p-px-3">{link.name}</span>
-            </Button>
-          ))}
+          .filter((link) =>
+            Object.keys(colors).includes(link.icon?.toLowerCase()),
+          )
+          .map((link, index) => {
+            const icon = link.icon?.toLowerCase()
+            return (
+              <Button
+                key={`link.url_${index}`}
+                onMouseOver={(e) => MouseOver(e, colors[icon])}
+                onMouseOut={MouseOut}
+                className={`p-p-3 p-my-2 p-button-outlined ${icon}`}
+                style={{ color: colors[icon] }}
+                role="link"
+                onClick={() => window.open(link.url, '_blank')}
+              >
+                <i className={`pi pi-${icon} p-px-2`}></i>
+                <span className="p-px-3">{link.name}</span>
+              </Button>
+            )
+          })}
         {links
-          .filter((link) => !Object.keys(colors).includes(link.icon))
-          .map((link, index) => (
-            <Button
-              key={`link.url_${index}`}
-              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
-              onMouseOut={MouseOut}
-              className={`p-p-3 p-my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
-              role="link"
-              onClick={() => window.open(link.url, '_blank')}
-            >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
-              <span className="p-px-3">{link.name}</span>
-            </Button>
-          ))}
+          .filter(
+            (link) => !Object.keys(colors).includes(link.icon?.toLowerCase()),
+          )
+          .map((link, index) => {
+            const icon = link.icon?.toLowerCase()
+            return (
+              <Button
+                key={`link.url_${index}`}
+                onMouseOver={(e) => MouseOver(e, colors[icon])}
+                onMouseOut={MouseOut}
+                className={`p-p-3 p-my-2 p-button-outlined ${icon}`}
+                style={{ color: colors[icon] }}
+                role="link"
+                onClick={() => window.open(link.url, '_blank')}
+              >
+                <i className={`pi pi-${icon} p-px-2`}></i>
+                <span className="p-px-3">{link.name}</span>
+              </Button>
+            )
+          })}
       </div>
     </section>
   )
