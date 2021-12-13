@@ -7,6 +7,8 @@ import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
 
+import GraduationHat from './GraduationHat.js'
+
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
     window.open(url, '__blank')
@@ -17,7 +19,10 @@ function Milestones({ milestones }) {
       className="custom-marker p-shadow-2"
       style={{ backgroundColor: milestone.color }}
     >
-      <i className={`pi pi-${milestone.icon} p-p-2`}></i>
+      {milestone.icon === 'hat' && <GraduationHat />}
+      {milestone.icon !== 'hat' && (
+        <i className={`pi pi-${milestone.icon} p-p-2`}></i>
+      )}
     </span>
   )
 
