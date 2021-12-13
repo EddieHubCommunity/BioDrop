@@ -1,3 +1,12 @@
+## [0.50.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.10...v0.50.11) (2021-12-13)
+
+
+### Bug Fixes
+
+* **data:** add Tejas profile ([#804](https://github.com/EddieHubCommunity/LinkFree/issues/804)) ([57c31b9](https://github.com/EddieHubCommunity/LinkFree/commit/57c31b9d2cfc06fafa0464dbb2374356e33bd0df))
+
+
+
 ## [0.50.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.9...v0.50.10) (2021-12-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Dhruva Srinivas ([#793](https://github.com/EddieHubCommunity/LinkFree/issues/793)) ([286a55d](https://github.com/EddieHubCommunity/LinkFree/commit/286a55d3870eb56781cfc01290758d1196adddc6))
-
-
-
-## [0.50.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.5...v0.50.6) (2021-12-09)
-
-
-### Bug Fixes
-
-* add Abhishek Kushwaha ([#790](https://github.com/EddieHubCommunity/LinkFree/issues/790)) ([defd00e](https://github.com/EddieHubCommunity/LinkFree/commit/defd00e53cc576469d9425a521a81babebd81cf9))
 
 
 
