@@ -1,3 +1,12 @@
+## [0.50.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.12...v0.50.13) (2021-12-14)
+
+
+### Bug Fixes
+
+* add Goutam Nath ([#810](https://github.com/EddieHubCommunity/LinkFree/issues/810)) ([cc33b9f](https://github.com/EddieHubCommunity/LinkFree/commit/cc33b9f0cad55a97fb0d9585e697c1183451e80c))
+
+
+
 ## [0.50.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.11...v0.50.12) (2021-12-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add The Algorithms ([#797](https://github.com/EddieHubCommunity/LinkFree/issues/797)) ([e3e0625](https://github.com/EddieHubCommunity/LinkFree/commit/e3e062501a00c4431af7642ad422a30d233550f4))
-
-
-
-## [0.50.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.7...v0.50.8) (2021-12-10)
-
-
-### Bug Fixes
-
-* add missing comma ([#794](https://github.com/EddieHubCommunity/LinkFree/issues/794)) ([78316b2](https://github.com/EddieHubCommunity/LinkFree/commit/78316b2a1e85c1e0fa8ed470fb4be2e212cf5b28)), closes [#792](https://github.com/EddieHubCommunity/LinkFree/issues/792)
 
 
 
