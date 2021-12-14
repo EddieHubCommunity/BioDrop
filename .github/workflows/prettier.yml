@@ -11,7 +11,7 @@ jobs:
         with:
           node-version: '14'
       - run: npm ci
-      - name: Fail CI
+      - name: Prettier check
         if: ${{ github.event_name == 'pull_request' || github.event_name == 'pull_request_target' }}
         run: npx prettier --check public/data/*.json
         env:
