@@ -6,9 +6,10 @@ import PropTypes from 'prop-types'
 import { Avatar } from 'primereact/avatar'
 import { Badge } from 'primereact/badge'
 
+import utils from '../utils'
+
 function Profile({ profile, username }) {
   const { name, bio, avatar, links } = profile
-
   return (
     <section>
       <div className="p-d-flex p-jc-center p-ai-center">
@@ -18,6 +19,9 @@ function Profile({ profile, username }) {
           size="xlarge"
           shape="circle"
           className="p-overlay-badge"
+          onImageError={(error) => {
+            utils.setDefaultSVG(name, error)
+          }}
         >
           <Badge
             value={links.length}

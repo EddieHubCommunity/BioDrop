@@ -38,7 +38,14 @@ function Navbar({ items, start, end }) {
     )
   }
 
-  return (<Menubar model={items} start={start} end={end} className="p-mb-4 p-flex-wrap p-jc-center" />)
+  return (
+    <Menubar
+      model={items}
+      start={start}
+      end={end}
+      className="p-mb-4 p-flex-wrap p-jc-center"
+    />
+  )
 }
 
 Navbar.propTypes = {

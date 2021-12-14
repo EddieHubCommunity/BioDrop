@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Chip } from 'primereact/chip'
-
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 import { useUsers } from '../../Store/Context'
+import utils from '../../utils'
 
 function Users() {
   const list = useUsers()
@@ -37,12 +37,19 @@ function Users() {
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
-              <Chip image={user.avatar} className="p-m-2" label={user.name} />
+              <Chip
+                image={user.avatar}
+                className="p-m-2"
+                label={user.name}
+                onImageError={(error) => {
+                  utils.setDefaultSVG(user.name, error)
+                }}
+              />
             </Link>
           ))}
         {!!filteredList && filteredList.length === 0 && (
           <div className="p-d-flex p-jc-center p-ai-center">
-            <Message severity="error" text="No users found please try again" />
+            <Message severity="error" text="No users found, please try with another name." />
           </div>
         )}
       </div>

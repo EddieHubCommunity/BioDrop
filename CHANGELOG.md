@@ -1,45 +1,45 @@
-## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
+## [0.50.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.11...v0.50.12) (2021-12-14)
 
 
 ### Bug Fixes
 
-* **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
+* Abhinav Dubey ([#806](https://github.com/EddieHubCommunity/LinkFree/issues/806)) ([540452f](https://github.com/EddieHubCommunity/LinkFree/commit/540452f727e378596c03a220052e750b0f84ba0b))
 
 
 
-## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
-
-
-### Bug Fixes
-
-* rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
-
-
-
-## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
+## [0.50.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.10...v0.50.11) (2021-12-13)
 
 
 ### Bug Fixes
 
-* username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
+* **data:** add Tejas profile ([#804](https://github.com/EddieHubCommunity/LinkFree/issues/804)) ([57c31b9](https://github.com/EddieHubCommunity/LinkFree/commit/57c31b9d2cfc06fafa0464dbb2374356e33bd0df))
 
 
 
-## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
-
-
-### Bug Fixes
-
-* appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
-
-
-
-## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
+## [0.50.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.9...v0.50.10) (2021-12-12)
 
 
 ### Bug Fixes
 
-* usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
+* add Amr Monier ([#799](https://github.com/EddieHubCommunity/LinkFree/issues/799)) ([fdda350](https://github.com/EddieHubCommunity/LinkFree/commit/fdda350b7a5e2608a90282e27a0082a6f88e092a))
+
+
+
+## [0.50.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.8...v0.50.9) (2021-12-10)
+
+
+### Bug Fixes
+
+* add The Algorithms ([#797](https://github.com/EddieHubCommunity/LinkFree/issues/797)) ([e3e0625](https://github.com/EddieHubCommunity/LinkFree/commit/e3e062501a00c4431af7642ad422a30d233550f4))
+
+
+
+## [0.50.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.7...v0.50.8) (2021-12-10)
+
+
+### Bug Fixes
+
+* add missing comma ([#794](https://github.com/EddieHubCommunity/LinkFree/issues/794)) ([78316b2](https://github.com/EddieHubCommunity/LinkFree/commit/78316b2a1e85c1e0fa8ed470fb4be2e212cf5b28)), closes [#792](https://github.com/EddieHubCommunity/LinkFree/issues/792)
 
 
 
