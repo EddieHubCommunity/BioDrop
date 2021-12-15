@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 
 import Profile from '../Profile'
@@ -6,15 +6,33 @@ import Links from '../Links'
 import Milestones from '../Milestones'
 
 function ProfilePage({ profile, username }) {
+  const [links, setLinks] = useState([])
+  const [milestones, setMilestones] = useState([])
+
+  useEffect(() => {
+    if (profile.links) {
+      const newLinks = profile.links.map((link) => {
+        return { ...link, icon: link.icon.toLowerCase() }
+      })
+      setLinks(newLinks)
+    }
+    if (profile.milestones) {
+      const newMilestones = profile.milestones.map((milestone) => {
+        return { ...milestone, icon: milestone.icon.toLowerCase() }
+      })
+      setMilestones(newMilestones)
+    }
+  }, [profile])
+
   return (
     <>
       {
         <>
           <Profile profile={profile} username={username} />
-          <Links links={profile.links} />
+          <Links links={links} />
         </>
       }
-      {profile.milestones && <Milestones milestones={profile.milestones} />}
+      {profile.milestones && <Milestones milestones={milestones} />}
     </>
   )
 }

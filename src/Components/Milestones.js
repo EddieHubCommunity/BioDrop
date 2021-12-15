@@ -17,7 +17,7 @@ function Milestones({ milestones }) {
       className="custom-marker p-shadow-2"
       style={{ backgroundColor: milestone.color }}
     >
-      <i className={`pi pi-${milestone.icon?.toLowerCase()} p-p-2`}></i>
+      <i className={`pi pi-${milestone.icon} p-p-2`}></i>
     </span>
   )
 
