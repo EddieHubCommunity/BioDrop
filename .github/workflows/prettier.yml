@@ -11,6 +11,7 @@ jobs:
         with:
           node-version: '14'
       - name: Prettier
+        if: ${{ github.event == 'pull_request' }}
         run: |
           npm ci
           npx prettier --write public/data/*.json
