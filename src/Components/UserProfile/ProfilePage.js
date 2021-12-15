@@ -12,13 +12,13 @@ function ProfilePage({ profile, username }) {
   useEffect(() => {
     if (profile.links) {
       const newLinks = profile.links.map((link) => {
-        return { ...link, icon: link.icon.toLowerCase() }
+        return { ...link, icon: link.icon?.toLowerCase() }
       })
       setLinks(newLinks)
     }
     if (profile.milestones) {
       const newMilestones = profile.milestones.map((milestone) => {
-        return { ...milestone, icon: milestone.icon.toLowerCase() }
+        return { ...milestone, icon: milestone.icon?.toLowerCase() }
       })
       setMilestones(newMilestones)
     }
