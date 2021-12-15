@@ -17,10 +17,10 @@
     ],
     "milestones": [
       {
-        "title": "Get a grip on Open Source",
+        "title": "Getting grip on Open Source",
         "date": "January 2022",
-        "icon": "dollar",
-        "color": "grey",
+        "icon": "github",
+        "color": "green",
         "description": "Getting into open source"
       }
     ]
