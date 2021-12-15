@@ -12,7 +12,7 @@ jobs:
           node-version: '14'
       - run: npm ci
       - name: Prettier check
-        if: ${{ github.event_name == 'pull_request' || github.event_name == 'pull_request_target' }}
+        if: ${{ github.event_name != 'push' || github.event_name != 'workflow_dispatch' }}
         run: npx prettier --check public/data/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
