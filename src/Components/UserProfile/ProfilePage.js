@@ -10,18 +10,17 @@ function ProfilePage({ profile, username }) {
   const [milestones, setMilestones] = useState([])
 
   useEffect(() => {
-    if (profile.links) {
-      const newLinks = profile.links.map((link) => {
-        return { ...link, icon: link.icon?.toLowerCase() }
-      })
-      setLinks(newLinks)
-    }
-    if (profile.milestones) {
-      const newMilestones = profile.milestones.map((milestone) => {
-        return { ...milestone, icon: milestone.icon?.toLowerCase() }
-      })
-      setMilestones(newMilestones)
-    }
+    const newLinks = profile.links?.map((link) => ({
+      ...link,
+      icon: link.icon?.toLowerCase(),
+    }))
+    setLinks(newLinks)
+
+    const newMilestones = profile.milestones?.map((milestone) => ({
+      ...milestone,
+      icon: milestone.icon?.toLowerCase(),
+    }))
+    setMilestones(newMilestones)
   }, [profile])
 
   return (
