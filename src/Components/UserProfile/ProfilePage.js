@@ -6,6 +6,7 @@ import Links from '../Links'
 import Milestones from '../Milestones'
 
 function ProfilePage({ profile, username }) {
+  document.body.style.background = profile.theme
   return (
     <>
       {
@@ -23,6 +24,7 @@ ProfilePage.propTypes = {
   username: PropTypes.string.isRequired,
   profile: PropTypes.shape({
     name: PropTypes.string.isRequired,
+    theme: PropTypes.string,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     links: PropTypes.arrayOf(
