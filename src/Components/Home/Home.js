@@ -36,6 +36,7 @@ function Home() {
       })
   }, [])
 
+  document.body.style.background = '#fff'
   return (
     <main>
       <Toast ref={toast} />
