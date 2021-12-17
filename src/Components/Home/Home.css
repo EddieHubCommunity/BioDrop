@@ -15,6 +15,11 @@ a {
   box-shadow: 8px 8px 15px #bdc0c4, -8px -8px 15px #ffffff;
 }
 
+.p-chip .p-avatar img {
+  width: 3rem;
+  height: 3rem;
+}
+
 .p-chip > .p-avatar > .p-badge {
   opacity: 0;
   transition: 0.33s;

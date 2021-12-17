@@ -56,7 +56,7 @@ function Users({ list }) {
                         className="p-mr-3"
                       ></Badge>
                     </Avatar>
-                    <span>{user.name}</span>
+                    <span className="p-chip-text">{user.name}</span>
                   </>
                 }
               />
