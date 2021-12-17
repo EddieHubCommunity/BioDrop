@@ -21,6 +21,7 @@ import {
   FaGlobe,
   FaBook,
   FaDollarSign,
+  FaGraduationCap,
 } from 'react-icons/fa'
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
@@ -73,6 +74,8 @@ function GetIcons({ iconName }) {
       return <SiHashnode />
     case 'dollar':
       return <FaDollarSign />
+    case 'graduation-hat':
+      return <FaGraduationCap />
     default:
       return <FaGlobe />
   }
