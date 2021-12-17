@@ -1,3 +1,12 @@
+## [0.50.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.14...v0.50.15) (2021-12-17)
+
+
+### Bug Fixes
+
+* Jatin Kumar ([#813](https://github.com/EddieHubCommunity/LinkFree/issues/813)) ([2503214](https://github.com/EddieHubCommunity/LinkFree/commit/250321469c8313ced1487f80caf98459ffa7be26))
+
+
+
 ## [0.50.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.13...v0.50.14) (2021-12-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Tejas profile ([#804](https://github.com/EddieHubCommunity/LinkFree/issues/804)) ([57c31b9](https://github.com/EddieHubCommunity/LinkFree/commit/57c31b9d2cfc06fafa0464dbb2374356e33bd0df))
-
-
-
-## [0.50.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.9...v0.50.10) (2021-12-12)
-
-
-### Bug Fixes
-
-* add Amr Monier ([#799](https://github.com/EddieHubCommunity/LinkFree/issues/799)) ([fdda350](https://github.com/EddieHubCommunity/LinkFree/commit/fdda350b7a5e2608a90282e27a0082a6f88e092a))
 
 
 
