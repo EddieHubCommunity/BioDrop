@@ -3,6 +3,8 @@ import './Links.css'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Button } from 'primereact/button'
+import GetIcons from './Icons/GetIcons'
+import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
 
 function Links({ links }) {
@@ -31,7 +33,13 @@ function Links({ links }) {
               role="link"
               onClick={() => window.open(link.url, '_blank')}
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
+                }}
+              >
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}
@@ -47,7 +55,13 @@ function Links({ links }) {
               role="link"
               onClick={() => window.open(link.url, '_blank')}
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
+                }}
+              >
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
               <span className="p-px-3">{link.name}</span>
             </Button>
           ))}

@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom'
 
 import { Menubar } from 'primereact/menubar'
 
+import { FaGithub } from 'react-icons/fa'
+
 function Navbar({ items, start, end }) {
   const [version, setVersion] = useState('')
 
@@ -30,7 +32,7 @@ function Navbar({ items, start, end }) {
           className="p-mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <i className="pi pi-github" aria-hidden="true"></i>
+          <FaGithub size={16} />
         </Link>
 
         <div>v{version}</div>
