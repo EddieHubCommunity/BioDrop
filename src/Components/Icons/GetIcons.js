@@ -20,6 +20,7 @@ import {
   FaDev,
   FaGlobe,
   FaBook,
+  FaDollarSign,
 } from 'react-icons/fa'
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
@@ -70,13 +71,15 @@ function GetIcons({ iconName }) {
       return <SiCodewars />
     case 'hashnode':
       return <SiHashnode />
+    case 'dollar':
+      return <FaDollarSign />
     default:
       return <FaGlobe />
   }
 }
 
 GetIcons.propTypes = {
-  iconName: PropTypes.string.isRequired,
+  iconName: PropTypes.string,
 }
 
 export default GetIcons
