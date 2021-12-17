@@ -1,3 +1,21 @@
+## [0.50.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.14...v0.50.15) (2021-12-17)
+
+
+### Bug Fixes
+
+* Jatin Kumar ([#813](https://github.com/EddieHubCommunity/LinkFree/issues/813)) ([2503214](https://github.com/EddieHubCommunity/LinkFree/commit/250321469c8313ced1487f80caf98459ffa7be26))
+
+
+
+## [0.50.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.13...v0.50.14) (2021-12-15)
+
+
+### Bug Fixes
+
+* name alignment issue on small screens ([#817](https://github.com/EddieHubCommunity/LinkFree/issues/817)) ([ebbe0e1](https://github.com/EddieHubCommunity/LinkFree/commit/ebbe0e13288ad059af8bbbd81430a481953a5744))
+
+
+
 ## [0.50.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.12...v0.50.13) (2021-12-14)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Tejas profile ([#804](https://github.com/EddieHubCommunity/LinkFree/issues/804)) ([57c31b9](https://github.com/EddieHubCommunity/LinkFree/commit/57c31b9d2cfc06fafa0464dbb2374356e33bd0df))
-
-
-
-## [0.50.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.9...v0.50.10) (2021-12-12)
-
-
-### Bug Fixes
-
-* add Amr Monier ([#799](https://github.com/EddieHubCommunity/LinkFree/issues/799)) ([fdda350](https://github.com/EddieHubCommunity/LinkFree/commit/fdda350b7a5e2608a90282e27a0082a6f88e092a))
-
-
-
-## [0.50.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.8...v0.50.9) (2021-12-10)
-
-
-### Bug Fixes
-
-* add The Algorithms ([#797](https://github.com/EddieHubCommunity/LinkFree/issues/797)) ([e3e0625](https://github.com/EddieHubCommunity/LinkFree/commit/e3e062501a00c4431af7642ad422a30d233550f4))
 
 
 
