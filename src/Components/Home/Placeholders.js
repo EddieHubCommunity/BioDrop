@@ -12,7 +12,7 @@ function Placeholder({ list }) {
           return (
             <Skeleton
               width="16rem"
-              height="2.6rem"
+              height="4rem"
               borderRadius="2rem"
               className="p-m-2 p-mr-2"
               key={`skeleton-${key}`}
