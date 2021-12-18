@@ -1,3 +1,12 @@
+# [0.51.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.15...v0.51.0) (2021-12-18)
+
+
+### Features
+
+* enforce failling CI ([#778](https://github.com/EddieHubCommunity/LinkFree/issues/778)) ([c0e2199](https://github.com/EddieHubCommunity/LinkFree/commit/c0e219965c51bc730b948eefb4f31fa802340715))
+
+
+
 ## [0.50.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.14...v0.50.15) (2021-12-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Abhinav Dubey ([#806](https://github.com/EddieHubCommunity/LinkFree/issues/806)) ([540452f](https://github.com/EddieHubCommunity/LinkFree/commit/540452f727e378596c03a220052e750b0f84ba0b))
-
-
-
-## [0.50.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.10...v0.50.11) (2021-12-13)
-
-
-### Bug Fixes
-
-* **data:** add Tejas profile ([#804](https://github.com/EddieHubCommunity/LinkFree/issues/804)) ([57c31b9](https://github.com/EddieHubCommunity/LinkFree/commit/57c31b9d2cfc06fafa0464dbb2374356e33bd0df))
 
 
 
