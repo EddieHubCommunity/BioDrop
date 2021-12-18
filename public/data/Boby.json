@@ -1,0 +1,23 @@
+{
+  "name": "Boby",
+  "type": "personal",
+  "bio": "Open Source Enthusiast",
+  "avatar": "https://github.com/bobychaudhary.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/bobychaudhary",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bobychaudhary_",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/boby-chaudhary-a53648167/",
+      "icon": "linkedin"
+    }
+  ]
+}
