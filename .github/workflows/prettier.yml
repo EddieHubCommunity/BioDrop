@@ -10,13 +10,17 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
+      - run: npm ci
+      - name: Prettier check
+        if: ${{ github.event_name != 'push' || github.event_name != 'workflow_dispatch' }}
+        run: npx prettier --check public/data/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Prettier
-        run: |
-          npm ci
-          npx prettier --write public/data/*.json
+        run: npx prettier --write public/data/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event == 'push' || github.event == 'workflow_dispatch' }}
+        if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
         with:
           commit_message: 'style: format files'
