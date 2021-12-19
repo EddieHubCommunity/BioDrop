@@ -53,7 +53,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 Create a file named `your-username.json` in the directory `public/data` with the following content:
 
-Optional fields: `links` and `milestones`
+Optional fields: `links`, `milestones` and `type(personal | community)`
 
 Looking for inspiration? You can view the following profiles for an example:
 
