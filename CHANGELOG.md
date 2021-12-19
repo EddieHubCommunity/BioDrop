@@ -1,3 +1,12 @@
+## [0.51.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.1...v0.51.2) (2021-12-19)
+
+
+### Bug Fixes
+
+* eddieandsaraexplode ([4eb2fb6](https://github.com/EddieHubCommunity/LinkFree/commit/4eb2fb64861b461e616b6b3e2b8d6b73902587e9))
+
+
+
 ## [0.51.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.0...v0.51.1) (2021-12-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * name alignment issue on small screens ([#817](https://github.com/EddieHubCommunity/LinkFree/issues/817)) ([ebbe0e1](https://github.com/EddieHubCommunity/LinkFree/commit/ebbe0e13288ad059af8bbbd81430a481953a5744))
-
-
-
-## [0.50.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.12...v0.50.13) (2021-12-14)
-
-
-### Bug Fixes
-
-* add Goutam Nath ([#810](https://github.com/EddieHubCommunity/LinkFree/issues/810)) ([cc33b9f](https://github.com/EddieHubCommunity/LinkFree/commit/cc33b9f0cad55a97fb0d9585e697c1183451e80c))
 
 
 
