@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "0.51.2",
+  "version": "0.51.3",
   "private": false,
   "homepage": "http://linkfree.eddiehub.org/",
   "dependencies": {

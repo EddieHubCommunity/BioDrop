@@ -1,3 +1,12 @@
+## [0.51.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.2...v0.51.3) (2021-12-19)
+
+
+### Bug Fixes
+
+* text and image ([e992bd8](https://github.com/EddieHubCommunity/LinkFree/commit/e992bd8a8f75d2f72cc843cc7fcd33b5a9e0c287))
+
+
+
 ## [0.51.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.1...v0.51.2) (2021-12-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Jatin Kumar ([#813](https://github.com/EddieHubCommunity/LinkFree/issues/813)) ([2503214](https://github.com/EddieHubCommunity/LinkFree/commit/250321469c8313ced1487f80caf98459ffa7be26))
-
-
-
-## [0.50.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.13...v0.50.14) (2021-12-15)
-
-
-### Bug Fixes
-
-* name alignment issue on small screens ([#817](https://github.com/EddieHubCommunity/LinkFree/issues/817)) ([ebbe0e1](https://github.com/EddieHubCommunity/LinkFree/commit/ebbe0e13288ad059af8bbbd81430a481953a5744))
 
 
 
