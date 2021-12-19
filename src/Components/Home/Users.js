@@ -51,7 +51,7 @@ function Users({ list }) {
                       }}
                     >
                       <Badge
-                        value={user.linkCount > 3 ? '3+' : user.linkCount}
+                        value={user.linkCount > 9 ? '9+' : user.linkCount}
                         severity="info"
                         className="p-mr-3"
                       ></Badge>
