@@ -1,3 +1,12 @@
+## [0.52.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.0...v0.52.1) (2021-12-20)
+
+
+### Bug Fixes
+
+* avatar ([#827](https://github.com/EddieHubCommunity/LinkFree/issues/827)) ([ef5f608](https://github.com/EddieHubCommunity/LinkFree/commit/ef5f6084f87b9a19eb41cd12eacb9c44b77bca04))
+
+
+
 # [0.52.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.3...v0.52.0) (2021-12-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * file formatting ([#778](https://github.com/EddieHubCommunity/LinkFree/issues/778)) ([d16fc5b](https://github.com/EddieHubCommunity/LinkFree/commit/d16fc5b8e3b5c5f09bd3566e5502f87a9c765e32))
-
-
-
-# [0.51.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.15...v0.51.0) (2021-12-18)
-
-
-### Features
-
-* enforce failling CI ([#778](https://github.com/EddieHubCommunity/LinkFree/issues/778)) ([c0e2199](https://github.com/EddieHubCommunity/LinkFree/commit/c0e219965c51bc730b948eefb4f31fa802340715))
 
 
 
