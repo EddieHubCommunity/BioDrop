@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { FaGithub } from 'react-icons/fa'
 
 function Footer() {
   const [version, setVersion] = useState('')
@@ -23,7 +24,7 @@ function Footer() {
           className="p-mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <i className="pi pi-github" aria-hidden="true"></i>
+          <FaGithub size={16} />
         </Link>
         <span>v{version}</span>
       </p>

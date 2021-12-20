@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
-import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 
 import Footer from './Components/Footer'
