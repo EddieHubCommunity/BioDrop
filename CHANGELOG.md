@@ -1,3 +1,12 @@
+# [0.52.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.3...v0.52.0) (2021-12-20)
+
+
+### Features
+
+* replace primeicons with react-icons  ([#823](https://github.com/EddieHubCommunity/LinkFree/issues/823)) ([0eeb9da](https://github.com/EddieHubCommunity/LinkFree/commit/0eeb9daae304121c57b379138ac49746587bc402))
+
+
+
 ## [0.51.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.2...v0.51.3) (2021-12-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * enforce failling CI ([#778](https://github.com/EddieHubCommunity/LinkFree/issues/778)) ([c0e2199](https://github.com/EddieHubCommunity/LinkFree/commit/c0e219965c51bc730b948eefb4f31fa802340715))
-
-
-
-## [0.50.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.50.14...v0.50.15) (2021-12-17)
-
-
-### Bug Fixes
-
-* Jatin Kumar ([#813](https://github.com/EddieHubCommunity/LinkFree/issues/813)) ([2503214](https://github.com/EddieHubCommunity/LinkFree/commit/250321469c8313ced1487f80caf98459ffa7be26))
 
 
 
