@@ -1,3 +1,12 @@
+## [0.52.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.2...v0.52.3) (2021-12-21)
+
+
+### Bug Fixes
+
+* add TikKok icon ([#835](https://github.com/EddieHubCommunity/LinkFree/issues/835)) ([a6b7a39](https://github.com/EddieHubCommunity/LinkFree/commit/a6b7a39c9cf4f2b732e2b046d79b564da0d08c92))
+
+
+
 ## [0.52.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.1...v0.52.2) (2021-12-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * text and image ([e992bd8](https://github.com/EddieHubCommunity/LinkFree/commit/e992bd8a8f75d2f72cc843cc7fcd33b5a9e0c287))
-
-
-
-## [0.51.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.1...v0.51.2) (2021-12-19)
-
-
-### Bug Fixes
-
-* eddieandsaraexplode ([4eb2fb6](https://github.com/EddieHubCommunity/LinkFree/commit/4eb2fb64861b461e616b6b3e2b8d6b73902587e9))
 
 
 
