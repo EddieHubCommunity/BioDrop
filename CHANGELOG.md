@@ -1,3 +1,12 @@
+## [0.52.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.1...v0.52.2) (2021-12-21)
+
+
+### Bug Fixes
+
+* add Sagnik Sahoo ([#831](https://github.com/EddieHubCommunity/LinkFree/issues/831)) ([8c3d5aa](https://github.com/EddieHubCommunity/LinkFree/commit/8c3d5aabe9bf2bb205b524d26333a13144e00ffa))
+
+
+
 ## [0.52.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.0...v0.52.1) (2021-12-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * eddieandsaraexplode ([4eb2fb6](https://github.com/EddieHubCommunity/LinkFree/commit/4eb2fb64861b461e616b6b3e2b8d6b73902587e9))
-
-
-
-## [0.51.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.0...v0.51.1) (2021-12-18)
-
-
-### Bug Fixes
-
-* file formatting ([#778](https://github.com/EddieHubCommunity/LinkFree/issues/778)) ([d16fc5b](https://github.com/EddieHubCommunity/LinkFree/commit/d16fc5b8e3b5c5f09bd3566e5502f87a9c765e32))
 
 
 
