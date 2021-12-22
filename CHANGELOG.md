@@ -1,3 +1,12 @@
+# [0.53.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.4...v0.53.0) (2021-12-22)
+
+
+### Features
+
+* Number of links appear on homepage when hover ([#824](https://github.com/EddieHubCommunity/LinkFree/issues/824)) ([16ec751](https://github.com/EddieHubCommunity/LinkFree/commit/16ec7510cb430dbb3ea728ba761c537b868186b0))
+
+
+
 ## [0.52.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.3...v0.52.4) (2021-12-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * avatar ([#827](https://github.com/EddieHubCommunity/LinkFree/issues/827)) ([ef5f608](https://github.com/EddieHubCommunity/LinkFree/commit/ef5f6084f87b9a19eb41cd12eacb9c44b77bca04))
-
-
-
-# [0.52.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.3...v0.52.0) (2021-12-20)
-
-
-### Features
-
-* replace primeicons with react-icons  ([#823](https://github.com/EddieHubCommunity/LinkFree/issues/823)) ([0eeb9da](https://github.com/EddieHubCommunity/LinkFree/commit/0eeb9daae304121c57b379138ac49746587bc402))
 
 
 
