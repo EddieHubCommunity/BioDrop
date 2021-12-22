@@ -6,6 +6,7 @@ import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
 import Navbar from '../Navbar'
+import GetIcons from '../Icons/GetIcons'
 
 function User() {
   const [showProgress, setShowProgress] = useState(true)
@@ -30,7 +31,7 @@ function User() {
       <Navbar
         start={
           <Link to="/" aria-label="Go back to Home">
-            <i className="pi pi-arrow-left"></i>
+            <GetIcons iconName="arrowLeft" />
           </Link>
         }
       />

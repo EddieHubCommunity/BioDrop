@@ -23,6 +23,8 @@ import {
   FaDollarSign,
   FaGraduationCap,
   FaTiktok,
+  FaArrowLeft,
+  FaSearch,
 } from 'react-icons/fa'
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
@@ -79,6 +81,10 @@ function GetIcons({ iconName }) {
       return <FaGraduationCap />
     case 'tiktok':
       return <FaTiktok />
+    case 'arrowLeft':
+      return <FaArrowLeft />
+    case 'search':
+      return <FaSearch />
     default:
       return <FaGlobe />
   }
