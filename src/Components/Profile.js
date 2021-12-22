@@ -4,12 +4,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
-import { Badge } from 'primereact/badge'
 
 import utils from '../utils'
 
 function Profile({ profile, username }) {
-  const { name, bio, avatar, links } = profile
+  const { name, bio, avatar } = profile
   return (
     <section>
       <div className="p-d-flex p-jc-center p-ai-center">
@@ -18,17 +17,10 @@ function Profile({ profile, username }) {
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
-          className="p-overlay-badge"
           onImageError={(error) => {
             utils.setDefaultSVG(name, error)
           }}
-        >
-          <Badge
-            value={links.length}
-            severity="info"
-            className="p-mr-2 p-mt-2"
-          />
-        </Avatar>
+        />
         <div className="p-d-flex p-flex-column p-flex-sm-row p-jc-center p-ai-center">
           <h1 className="p-m-2">{name}</h1>
           <h4 className="p-my-0">({username})</h4>
@@ -47,13 +39,6 @@ Profile.propTypes = {
     name: PropTypes.string.isRequired,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    links: PropTypes.arrayOf(
-      PropTypes.shape({
-        icon: PropTypes.string,
-        name: PropTypes.string,
-        url: PropTypes.string,
-      }),
-    ),
   }),
 }
 

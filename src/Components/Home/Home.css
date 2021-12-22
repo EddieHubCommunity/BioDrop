@@ -11,12 +11,32 @@ a {
 
 .p-chip:hover {
   transform: scale(1.1);
-  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset,
-    rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  background: linear-gradient(145deg, #c8cbcf, #eef2f6);
+  box-shadow: 8px 8px 15px #bdc0c4, -8px -8px 15px #ffffff;
+}
+
+.p-chip .p-avatar img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.p-chip > .p-avatar > .p-badge {
+  opacity: 0;
+  transition: 0.33s;
+}
+
+.p-chip:hover > .p-avatar > .p-badge {
+  opacity: 1;
 }
 
 span.p-chip-text {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 768px) {
+  .p-chip > .p-avatar > .p-badge {
+    opacity: 1;
+  }
 }

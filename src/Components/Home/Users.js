@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
+import { Avatar } from 'primereact/avatar'
+import { Badge } from 'primereact/badge'
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
@@ -37,18 +39,35 @@ function Users({ list }) {
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
-                image={user.avatar}
                 className="p-m-2"
-                label={user.name}
-                onImageError={(error) => {
-                  utils.setDefaultSVG(user.name, error)
-                }}
+                template={
+                  <>
+                    <Avatar
+                      image={user.avatar}
+                      size="large"
+                      className="p-overlay-badge"
+                      onImageError={(error) => {
+                        utils.setDefaultSVG(user.name, error)
+                      }}
+                    >
+                      <Badge
+                        value={user.linkCount > 9 ? '9+' : user.linkCount}
+                        severity="info"
+                        className="p-mr-3"
+                      ></Badge>
+                    </Avatar>
+                    <span className="p-chip-text">{user.name}</span>
+                  </>
+                }
               />
             </Link>
           ))}
         {!!filteredList && filteredList.length === 0 && (
           <div className="p-d-flex p-jc-center p-ai-center">
-            <Message severity="error" text="No users found, please try with another name." />
+            <Message
+              severity="error"
+              text="No users found, please try with another name."
+            />
           </div>
         )}
       </div>
