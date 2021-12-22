@@ -51,15 +51,16 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 ## 🎭 To Add Your Profile
 
-Create a file named `your-username.json` in the directory `public/data` with the following content:
+Create a file named `your-username.json` in the directory `public/data`.
 
-Optional fields: `links`, `milestones` and `type(personal | community)`
-
+**Optional fields: `links`, `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
 - [nhcarrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
+
+Your brand new file should look something similar to this one:
 
 ```json
 {
