@@ -1,3 +1,12 @@
+## [0.52.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.3...v0.52.4) (2021-12-22)
+
+
+### Bug Fixes
+
+* add matthewraymond ([#839](https://github.com/EddieHubCommunity/LinkFree/issues/839)) ([aa0d496](https://github.com/EddieHubCommunity/LinkFree/commit/aa0d4967647487b81e385932b6254c2e5e1f0e16))
+
+
+
 ## [0.52.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.2...v0.52.3) (2021-12-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * replace primeicons with react-icons  ([#823](https://github.com/EddieHubCommunity/LinkFree/issues/823)) ([0eeb9da](https://github.com/EddieHubCommunity/LinkFree/commit/0eeb9daae304121c57b379138ac49746587bc402))
-
-
-
-## [0.51.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.51.2...v0.51.3) (2021-12-19)
-
-
-### Bug Fixes
-
-* text and image ([e992bd8](https://github.com/EddieHubCommunity/LinkFree/commit/e992bd8a8f75d2f72cc843cc7fcd33b5a9e0c287))
 
 
 
