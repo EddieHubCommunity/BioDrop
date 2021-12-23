@@ -30,7 +30,9 @@ import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
-  switch (iconName) {
+  const lowerIconName = iconName.toLowerCase()
+
+  switch (lowerIconName) {
     case 'facebook':
       return <FaFacebook {...restProps} />
     case 'link':
