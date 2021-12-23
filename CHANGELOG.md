@@ -1,3 +1,12 @@
+## [0.54.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.1...v0.54.2) (2021-12-23)
+
+
+### Bug Fixes
+
+* add Abdus Salam ([#846](https://github.com/EddieHubCommunity/LinkFree/issues/846)) ([214db93](https://github.com/EddieHubCommunity/LinkFree/commit/214db9358f45ba038446b7e6a357c20efae73a6b))
+
+
+
 ## [0.54.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.0...v0.54.1) (2021-12-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add matthewraymond ([#839](https://github.com/EddieHubCommunity/LinkFree/issues/839)) ([aa0d496](https://github.com/EddieHubCommunity/LinkFree/commit/aa0d4967647487b81e385932b6254c2e5e1f0e16))
-
-
-
-## [0.52.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.2...v0.52.3) (2021-12-21)
-
-
-### Bug Fixes
-
-* add TikKok icon ([#835](https://github.com/EddieHubCommunity/LinkFree/issues/835)) ([a6b7a39](https://github.com/EddieHubCommunity/LinkFree/commit/a6b7a39c9cf4f2b732e2b046d79b564da0d08c92))
 
 
 
