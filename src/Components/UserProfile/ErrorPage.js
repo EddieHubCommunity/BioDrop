@@ -2,8 +2,8 @@ import React from 'react'
 
 function ErrorPage() {
   return (
-    <div className="p-text-center">
-      <div className="flex-column">
+    <div className="text-center">
+      <div className="flex flex-column">
         <img
           src="/eddiehub_community_logo.webp"
           alt="image"

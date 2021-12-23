@@ -5,19 +5,19 @@ import { Skeleton } from 'primereact/skeleton'
 function Placeholder() {
   return (
     <section>
-      <div className="p-d-flex p-jc-center p-ai-center">
+      <div className="flex justify-content-center align-items-center">
         <Skeleton className="p-avatar" shape="circle" size="4rem" />
         <Skeleton
-          className="p-m-2"
+          className="m-2"
           shape="rounded"
           height="30px"
           width="200px"
         />
         <Skeleton className="" shape="rounded" width="100px" />
       </div>
-      <div className="p-d-flex p-jc-center w-50">
+      <div className="flex justify-content-center w-50">
         <Skeleton
-          className="p-mt-4"
+          className="mt-4"
           width="300px"
           height="50px"
           shape="rounded"
