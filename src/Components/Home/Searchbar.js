@@ -1,12 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { InputText } from 'primereact/inputtext'
+import GetIcons from '../Icons/GetIcons'
 
 const Searchbar = ({ searchHandler, searchTerm }) => {
   return (
     <div className="search-section">
       <span className="p-input-icon-left">
-        <i className="pi pi-search" />
+        <GetIcons iconName="search" />
         <InputText
           type="search"
           value={searchTerm}
