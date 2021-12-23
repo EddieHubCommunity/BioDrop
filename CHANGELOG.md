@@ -1,3 +1,12 @@
+# [0.54.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.53.0...v0.54.0) (2021-12-23)
+
+
+### Features
+
+* optimize code to use GetIcons ([#843](https://github.com/EddieHubCommunity/LinkFree/issues/843)) ([ac299fe](https://github.com/EddieHubCommunity/LinkFree/commit/ac299fedffa1f8d8c9759793418297c84e13e38e))
+
+
+
 # [0.53.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.4...v0.53.0) (2021-12-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Sagnik Sahoo ([#831](https://github.com/EddieHubCommunity/LinkFree/issues/831)) ([8c3d5aa](https://github.com/EddieHubCommunity/LinkFree/commit/8c3d5aabe9bf2bb205b524d26333a13144e00ffa))
-
-
-
-## [0.52.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.0...v0.52.1) (2021-12-20)
-
-
-### Bug Fixes
-
-* avatar ([#827](https://github.com/EddieHubCommunity/LinkFree/issues/827)) ([ef5f608](https://github.com/EddieHubCommunity/LinkFree/commit/ef5f6084f87b9a19eb41cd12eacb9c44b77bca04))
 
 
 
