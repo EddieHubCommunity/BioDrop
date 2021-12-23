@@ -1,14 +1,14 @@
 {
   "name": "Abdus Salam",
   "type": "personal",
-  "bio": "Hii there!, I am Python Developer and doing my best to contribute to open source. I'm not limited to Python only, I can do more fun things like (it's a long list) so connect with me and find out",
+  "bio": "Hi there! I am Python Developer and doing my best to contribute to open source. I'm not limited to Python only, I can do more fun things! (it's a long list) Connect with me and find out😉",
   "avatar": "https://github.com/abdussalam02.png",
   "links": [
     {
-        "name": "It's my personal website",
+        "name": "Check out my personal website",
         "url": "https://abdussalam.vercel.app",
         "icon": "globe"
-      },
+    },
     {
       "name": "Take a look at my GitHub",
       "url": "https://github.com/abdussalam02",
@@ -18,7 +18,7 @@
         "name": "I'm on Telegram most of my time",
         "url": "t.me/aladdin_02",
         "icon": "telegram"
-      },
+    },
     {
       "name": "See my awesome tweets on Twitter",
       "url": "https://twitter.com/abdussalam02",
@@ -36,7 +36,7 @@
       "date": "January 2018",
       "icon": "books",
       "color": "grey",
-      "description": "Started my Tech Journey at 16 and then left it for a year but now i won't without making a mark"
+      "description": "Started my Tech Journey at 16 and then left it for a year, but now I won't without making a mark"
     }
   ]
 }
