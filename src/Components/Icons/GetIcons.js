@@ -29,64 +29,64 @@ import {
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
-function GetIcons({ iconName }) {
+function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
     case 'facebook':
-      return <FaFacebook />
+      return <FaFacebook {...restProps} />
     case 'link':
-      return <FaLink />
+      return <FaLink {...restProps} />
     case 'android':
-      return <FaAndroid />
+      return <FaAndroid {...restProps} />
     case 'apple':
-      return <FaApple />
+      return <FaApple {...restProps} />
     case 'discord':
-      return <FaDiscord />
+      return <FaDiscord {...restProps} />
     case 'github':
-      return <FaGithub />
+      return <FaGithub {...restProps} />
     case 'microsoft':
-      return <FaMicrosoft />
+      return <FaMicrosoft {...restProps} />
     case 'paypal':
-      return <FaPaypal />
+      return <FaPaypal {...restProps} />
     case 'slack':
-      return <FaSlack />
+      return <FaSlack {...restProps} />
     case 'twitter':
-      return <FaTwitter />
+      return <FaTwitter {...restProps} />
     case 'vimeo':
-      return <FaVimeo />
+      return <FaVimeo {...restProps} />
     case 'youtube':
-      return <FaYoutube />
+      return <FaYoutube {...restProps} />
     case 'envelope':
-      return <FaEnvelope />
+      return <FaEnvelope {...restProps} />
     case 'instagram':
-      return <FaInstagram />
+      return <FaInstagram {...restProps} />
     case 'linkedin':
-      return <FaLinkedin />
+      return <FaLinkedin {...restProps} />
     case 'twitch':
-      return <FaTwitch />
+      return <FaTwitch {...restProps} />
     case 'dev.to':
-      return <FaDev />
+      return <FaDev {...restProps} />
     case 'globe':
-      return <FaGlobe />
+      return <FaGlobe {...restProps} />
     case 'book':
-      return <FaBook />
+      return <FaBook {...restProps} />
     case 'send':
-      return <RiSendPlaneFill />
+      return <RiSendPlaneFill {...restProps} />
     case 'codewars':
-      return <SiCodewars />
+      return <SiCodewars {...restProps} />
     case 'hashnode':
-      return <SiHashnode />
+      return <SiHashnode {...restProps} />
     case 'dollar':
-      return <FaDollarSign />
+      return <FaDollarSign {...restProps} />
     case 'graduation-hat':
-      return <FaGraduationCap />
+      return <FaGraduationCap {...restProps} />
     case 'tiktok':
-      return <FaTiktok />
+      return <FaTiktok {...restProps} />
     case 'arrowLeft':
-      return <FaArrowLeft />
+      return <FaArrowLeft {...restProps} />
     case 'search':
-      return <FaSearch />
+      return <FaSearch {...restProps} />
     default:
-      return <FaGlobe />
+      return <FaGlobe {...restProps} />
   }
 }
 

@@ -1,3 +1,21 @@
+## [0.54.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.0...v0.54.1) (2021-12-23)
+
+
+### Bug Fixes
+
+* avatar has wrong aspect-ratio ([#828](https://github.com/EddieHubCommunity/LinkFree/issues/828)) ([36a0900](https://github.com/EddieHubCommunity/LinkFree/commit/36a09007660557620f6d98d5596d99e9f06eced2))
+
+
+
+# [0.54.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.53.0...v0.54.0) (2021-12-23)
+
+
+### Features
+
+* optimize code to use GetIcons ([#843](https://github.com/EddieHubCommunity/LinkFree/issues/843)) ([ac299fe](https://github.com/EddieHubCommunity/LinkFree/commit/ac299fedffa1f8d8c9759793418297c84e13e38e))
+
+
+
 # [0.53.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.4...v0.53.0) (2021-12-22)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * add TikKok icon ([#835](https://github.com/EddieHubCommunity/LinkFree/issues/835)) ([a6b7a39](https://github.com/EddieHubCommunity/LinkFree/commit/a6b7a39c9cf4f2b732e2b046d79b564da0d08c92))
-
-
-
-## [0.52.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.1...v0.52.2) (2021-12-21)
-
-
-### Bug Fixes
-
-* add Sagnik Sahoo ([#831](https://github.com/EddieHubCommunity/LinkFree/issues/831)) ([8c3d5aa](https://github.com/EddieHubCommunity/LinkFree/commit/8c3d5aabe9bf2bb205b524d26333a13144e00ffa))
-
-
-
-## [0.52.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.0...v0.52.1) (2021-12-20)
-
-
-### Bug Fixes
-
-* avatar ([#827](https://github.com/EddieHubCommunity/LinkFree/issues/827)) ([ef5f608](https://github.com/EddieHubCommunity/LinkFree/commit/ef5f6084f87b9a19eb41cd12eacb9c44b77bca04))
 
 
 

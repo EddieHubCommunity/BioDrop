@@ -31,7 +31,7 @@ function User() {
       <Navbar
         start={
           <Link to="/" aria-label="Go back to Home">
-            <GetIcons iconName="arrowLeft" />
+            <GetIcons iconName="arrowLeft" size={20} />
           </Link>
         }
       />
