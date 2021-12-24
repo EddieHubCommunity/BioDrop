@@ -25,6 +25,7 @@ import {
   FaTiktok,
   FaArrowLeft,
   FaSearch,
+  FaTelegram,
 } from 'react-icons/fa'
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
@@ -85,6 +86,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaArrowLeft {...restProps} />
     case 'search':
       return <FaSearch {...restProps} />
+    case 'telegram':
+      return <FaTelegram {...restProps} />
     default:
       return <FaGlobe {...restProps} />
   }
