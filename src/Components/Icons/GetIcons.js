@@ -25,9 +25,11 @@ import {
   FaTiktok,
   FaArrowLeft,
   FaSearch,
+  FaPaperPlane,
+  FaTelegram,
 } from 'react-icons/fa'
+
 import { SiCodewars, SiHashnode } from 'react-icons/si'
-import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
   const lowerIconName = iconName.toLowerCase()
@@ -72,7 +74,7 @@ function GetIcons({ iconName, ...restProps }) {
     case 'book':
       return <FaBook {...restProps} />
     case 'send':
-      return <RiSendPlaneFill {...restProps} />
+      return <FaPaperPlane {...restProps} />
     case 'codewars':
       return <SiCodewars {...restProps} />
     case 'hashnode':
@@ -87,6 +89,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaArrowLeft {...restProps} />
     case 'search':
       return <FaSearch {...restProps} />
+    case 'telegram':
+      return <FaTelegram {...restProps} />
     default:
       return <FaGlobe {...restProps} />
   }
