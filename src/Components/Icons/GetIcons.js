@@ -32,9 +32,7 @@ import {
 import { SiCodewars, SiHashnode } from 'react-icons/si'
 
 function GetIcons({ iconName, ...restProps }) {
-  const lowerIconName = iconName.toLowerCase()
-
-  switch (lowerIconName) {
+  switch (iconName) {
     case 'facebook':
       return <FaFacebook {...restProps} />
     case 'link':
