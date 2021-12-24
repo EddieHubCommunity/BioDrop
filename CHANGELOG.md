@@ -1,3 +1,12 @@
+## [0.54.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.3...v0.54.4) (2021-12-24)
+
+
+### Bug Fixes
+
+* avatar aspect ratio distortion ([#850](https://github.com/EddieHubCommunity/LinkFree/issues/850)) ([98fe94e](https://github.com/EddieHubCommunity/LinkFree/commit/98fe94ecacc95e0188c861e3c801c1df88e2f8a8))
+
+
+
 ## [0.54.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.2...v0.54.3) (2021-12-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * optimize code to use GetIcons ([#843](https://github.com/EddieHubCommunity/LinkFree/issues/843)) ([ac299fe](https://github.com/EddieHubCommunity/LinkFree/commit/ac299fedffa1f8d8c9759793418297c84e13e38e))
-
-
-
-# [0.53.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.4...v0.53.0) (2021-12-22)
-
-
-### Features
-
-* Number of links appear on homepage when hover ([#824](https://github.com/EddieHubCommunity/LinkFree/issues/824)) ([16ec751](https://github.com/EddieHubCommunity/LinkFree/commit/16ec7510cb430dbb3ea728ba761c537b868186b0))
 
 
 
