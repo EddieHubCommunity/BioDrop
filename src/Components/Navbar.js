@@ -8,6 +8,8 @@ import { Link } from 'react-router-dom'
 
 import { Menubar } from 'primereact/menubar'
 
+import GetIcons from './Icons/GetIcons'
+
 function Navbar({ items, start, end }) {
   const [version, setVersion] = useState('')
 
@@ -30,7 +32,7 @@ function Navbar({ items, start, end }) {
           className="p-mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <i className="pi pi-github" aria-hidden="true"></i>
+          <GetIcons iconName="github" size={16} />
         </Link>
 
         <div>v{version}</div>

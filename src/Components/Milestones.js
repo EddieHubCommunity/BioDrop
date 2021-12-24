@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
+import GetIcons from './Icons/GetIcons'
 
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
@@ -17,7 +18,7 @@ function Milestones({ milestones }) {
       className="custom-marker p-shadow-2"
       style={{ backgroundColor: milestone.color }}
     >
-      <i className={`pi pi-${milestone.icon} p-p-2`}></i>
+      <GetIcons iconName={milestone.icon} />
     </span>
   )
 

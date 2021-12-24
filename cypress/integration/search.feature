@@ -18,5 +18,5 @@ Feature: Search
         Given I open "home" page
         Then I see "Eddie Jaoude" text in section "main"
         When I type "abced" in ".search-section input"
-        Then I see "No users found please try again" text in section "main"
+        Then I see "No users found, please try with another name." text in section "main"
         And I do not see "Eddie Jaoude" text in section "main"

@@ -1,13 +1,10 @@
 {
   "name": "EddieHubCommunity",
+  "type": "community",
   "bio": "Community of inclusive Open Source people - Collaboration 1st, Code 2nd!",
   "avatar": "https://github.com/EddieHubCommunity.png",
   "links": [
-    {
-      "name": "Visit Website",
-      "url": "http://eddiehub.org",
-      "icon": "globe"
-    },
+    { "name": "Visit Website", "url": "http://eddiehub.org", "icon": "globe" },
     {
       "name": "Visit GitHub Organisation",
       "url": "https://github.com/EddieHubCommunity",

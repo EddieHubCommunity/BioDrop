@@ -1,45 +1,45 @@
-# [0.48.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.20...v0.48.0) (2021-11-29)
+## [0.54.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.1...v0.54.2) (2021-12-23)
+
+
+### Bug Fixes
+
+* add Abdus Salam ([#846](https://github.com/EddieHubCommunity/LinkFree/issues/846)) ([214db93](https://github.com/EddieHubCommunity/LinkFree/commit/214db9358f45ba038446b7e6a357c20efae73a6b))
+
+
+
+## [0.54.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.0...v0.54.1) (2021-12-23)
+
+
+### Bug Fixes
+
+* avatar has wrong aspect-ratio ([#828](https://github.com/EddieHubCommunity/LinkFree/issues/828)) ([36a0900](https://github.com/EddieHubCommunity/LinkFree/commit/36a09007660557620f6d98d5596d99e9f06eced2))
+
+
+
+# [0.54.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.53.0...v0.54.0) (2021-12-23)
 
 
 ### Features
 
-* format files and add format action ([#743](https://github.com/EddieHubCommunity/LinkFree/issues/743)) ([a66d2a3](https://github.com/EddieHubCommunity/LinkFree/commit/a66d2a3ae24dc3b85a3b552387319e9fca7675a7))
+* optimize code to use GetIcons ([#843](https://github.com/EddieHubCommunity/LinkFree/issues/843)) ([ac299fe](https://github.com/EddieHubCommunity/LinkFree/commit/ac299fedffa1f8d8c9759793418297c84e13e38e))
 
 
 
-## [0.47.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.19...v0.47.20) (2021-11-29)
+# [0.53.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.4...v0.53.0) (2021-12-22)
 
 
-### Bug Fixes
+### Features
 
-* add missing endline in `public/data/Mohasin-Haque.json` ([#746](https://github.com/EddieHubCommunity/LinkFree/issues/746)) ([cdfb67d](https://github.com/EddieHubCommunity/LinkFree/commit/cdfb67d59e33af5d1113fdcfb84b63179f1e2102))
-
-
-
-## [0.47.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.18...v0.47.19) (2021-11-29)
-
-
-### Bug Fixes
-
-* add kingwisdom profile ([#745](https://github.com/EddieHubCommunity/LinkFree/issues/745)) ([e61b50c](https://github.com/EddieHubCommunity/LinkFree/commit/e61b50c46f995e453f601ed69ad8f6e95de5e9a6))
+* Number of links appear on homepage when hover ([#824](https://github.com/EddieHubCommunity/LinkFree/issues/824)) ([16ec751](https://github.com/EddieHubCommunity/LinkFree/commit/16ec7510cb430dbb3ea728ba761c537b868186b0))
 
 
 
-## [0.47.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.17...v0.47.18) (2021-11-29)
+## [0.52.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.52.3...v0.52.4) (2021-12-22)
 
 
 ### Bug Fixes
 
-* add Minecodes.json ([#744](https://github.com/EddieHubCommunity/LinkFree/issues/744)) ([8e3bd60](https://github.com/EddieHubCommunity/LinkFree/commit/8e3bd604a4699aca17981a4deadd1266e0738276))
-
-
-
-## [0.47.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.16...v0.47.17) (2021-11-29)
-
-
-### Bug Fixes
-
-* usage of wrong img url ([#737](https://github.com/EddieHubCommunity/LinkFree/issues/737)) ([e9caefa](https://github.com/EddieHubCommunity/LinkFree/commit/e9caefa220f37c5b5ab8883d50f8f3a9f9d84b62))
+* add matthewraymond ([#839](https://github.com/EddieHubCommunity/LinkFree/issues/839)) ([aa0d496](https://github.com/EddieHubCommunity/LinkFree/commit/aa0d4967647487b81e385932b6254c2e5e1f0e16))
 
 
 
