@@ -15,13 +15,13 @@ function Footer() {
   }, [])
 
   return (
-    <footer className="p-d-flex p-jc-center p-ai-center">
+    <footer className="flex justify-content-center align-items-center">
       <p>
-        <span className="p-mr-2">Contribute on</span>
+        <span className="mr-2">Contribute on</span>
         <Link
           to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
           target="_blank"
-          className="p-mr-2"
+          className="mr-2"
           aria-label="LinkFree repository on GitHub"
         >
           <GetIcons iconName="github" size={16} />

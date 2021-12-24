@@ -12,7 +12,7 @@ import Home from './Components/Home/Home'
 function App() {
   return (
     <Router>
-      <div className="p-m-2 p-m-md-4">
+      <div className="m-2 md:m-4">
         <Switch>
           <Route path="/:username">
             <User />
