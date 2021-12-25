@@ -33,13 +33,13 @@ function Users({ list }) {
           <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         }
       />
-      <div className="user-list p-d-flex p-flex-wrap p-jc-center">
+      <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
-                className="p-m-2"
+                className="m-2"
                 template={
                   <>
                     <Avatar
@@ -53,7 +53,7 @@ function Users({ list }) {
                       <Badge
                         value={user.linkCount > 9 ? '9+' : user.linkCount}
                         severity="info"
-                        className="p-mr-3"
+                        className="mr-3"
                       ></Badge>
                     </Avatar>
                     <span className="p-chip-text">{user.name}</span>
@@ -63,7 +63,7 @@ function Users({ list }) {
             </Link>
           ))}
         {!!filteredList && filteredList.length === 0 && (
-          <div className="p-d-flex p-jc-center p-ai-center">
+          <div className="flex justify-content-center align-items-center">
             <Message
               severity="error"
               text="No users found, please try with another name."

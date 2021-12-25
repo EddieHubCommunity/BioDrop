@@ -11,7 +11,7 @@ function Profile({ profile, username }) {
   const { name, bio, avatar } = profile
   return (
     <section>
-      <div className="p-d-flex p-jc-center p-ai-center">
+      <div className="flex justify-content-center align-items-center">
         <Avatar
           image={avatar}
           imageAlt={`Profile picture of ${name}`}
@@ -21,12 +21,12 @@ function Profile({ profile, username }) {
             utils.setDefaultSVG(name, error)
           }}
         />
-        <div className="p-d-flex p-flex-column p-flex-sm-row p-jc-center p-ai-center">
-          <h1 className="p-m-2">{name}</h1>
-          <h4 className="p-my-0">({username})</h4>
+        <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
+          <h1 className="m-2">{name}</h1>
+          <h4 className="my-0">({username})</h4>
         </div>
       </div>
-      <div className="p-d-flex p-jc-center w-50">
+      <div className="flex justify-content-center w-50">
         <p>{bio}</p>
       </div>
     </section>

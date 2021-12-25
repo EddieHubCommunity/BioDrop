@@ -25,11 +25,11 @@ function Navbar({ items, start, end }) {
 
   if (!end) {
     end = (
-      <div className="p-d-flex p-jc-center p-ai-center p-pr-2">
+      <div className="flex justify-content-center align-items-center pr-2">
         <Link
           to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
           target="_blank"
-          className="p-mr-2"
+          className="mr-2"
           aria-label="LinkFree repository on GitHub"
         >
           <GetIcons iconName="github" size={16} />
@@ -45,7 +45,7 @@ function Navbar({ items, start, end }) {
       model={items}
       start={start}
       end={end}
-      className="p-mb-4 p-flex-wrap p-jc-center"
+      className="mb-4 flex-wrap justify-content-center"
     />
   )
 }
