@@ -1,3 +1,12 @@
+## [0.54.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.4...v0.54.5) (2021-12-26)
+
+
+### Bug Fixes
+
+* updating my profile ([#858](https://github.com/EddieHubCommunity/LinkFree/issues/858)) ([7013906](https://github.com/EddieHubCommunity/LinkFree/commit/701390617afb1a95366b189635e86d1d228f47c6))
+
+
+
 ## [0.54.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.3...v0.54.4) (2021-12-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * avatar has wrong aspect-ratio ([#828](https://github.com/EddieHubCommunity/LinkFree/issues/828)) ([36a0900](https://github.com/EddieHubCommunity/LinkFree/commit/36a09007660557620f6d98d5596d99e9f06eced2))
-
-
-
-# [0.54.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.53.0...v0.54.0) (2021-12-23)
-
-
-### Features
-
-* optimize code to use GetIcons ([#843](https://github.com/EddieHubCommunity/LinkFree/issues/843)) ([ac299fe](https://github.com/EddieHubCommunity/LinkFree/commit/ac299fedffa1f8d8c9759793418297c84e13e38e))
 
 
 
