@@ -1,0 +1,29 @@
+{
+  "name": "Devesh Jain",
+  "type": "personal",
+  "bio": "I build things that can't be touched, but can be felt, can be used, can be helpful.. Committing codes and mistakes..",
+  "avatar": "https://avatars.githubusercontent.com/u/76024137?v=4",
+  "links": [
+    
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/devesh-jain-2511dj/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/devesh2511",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/deveshjain._/",
+      "icon": "instagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/deveshjain1234",
+      "icon": "twitter"
+    }
+  ]
+}
