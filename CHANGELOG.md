@@ -1,3 +1,12 @@
+## [0.54.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.6...v0.54.7) (2021-12-27)
+
+
+### Bug Fixes
+
+* add Aniruddha Inge ([#864](https://github.com/EddieHubCommunity/LinkFree/issues/864)) ([eb9e085](https://github.com/EddieHubCommunity/LinkFree/commit/eb9e085a152acb71594cbb14db566ae43c635267))
+
+
+
 ## [0.54.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.5...v0.54.6) (2021-12-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Telegram icon and its relevant color ([#857](https://github.com/EddieHubCommunity/LinkFree/issues/857)) ([1108446](https://github.com/EddieHubCommunity/LinkFree/commit/1108446106b6dcbec39fb173a26c268d554e08fe))
-
-
-
-## [0.54.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.1...v0.54.2) (2021-12-23)
-
-
-### Bug Fixes
-
-* add Abdus Salam ([#846](https://github.com/EddieHubCommunity/LinkFree/issues/846)) ([214db93](https://github.com/EddieHubCommunity/LinkFree/commit/214db9358f45ba038446b7e6a357c20efae73a6b))
 
 
 
