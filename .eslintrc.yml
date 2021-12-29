@@ -4,6 +4,7 @@ env:
 extends:
   - 'plugin:react/recommended'
   - 'plugin:json/recommended'
+  - prettier
   - standard
 parserOptions:
   ecmaFeatures:
