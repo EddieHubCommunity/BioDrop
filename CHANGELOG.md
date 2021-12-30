@@ -1,3 +1,12 @@
+## [0.54.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.9...v0.54.10) (2021-12-30)
+
+
+### Bug Fixes
+
+* small typo errors in kumarsonoff3's profile ([#875](https://github.com/EddieHubCommunity/LinkFree/issues/875)) ([8275c30](https://github.com/EddieHubCommunity/LinkFree/commit/8275c308ea79466450e7b1581f533e695536b48a))
+
+
+
 ## [0.54.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.8...v0.54.9) (2021-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Anish Lohiya to the list ([#859](https://github.com/EddieHubCommunity/LinkFree/issues/859)) ([93b7d47](https://github.com/EddieHubCommunity/LinkFree/commit/93b7d47e02e6bc3a427e1b2bd18cfbc03ceed036))
-
-
-
-## [0.54.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.4...v0.54.5) (2021-12-26)
-
-
-### Bug Fixes
-
-* updating my profile ([#858](https://github.com/EddieHubCommunity/LinkFree/issues/858)) ([7013906](https://github.com/EddieHubCommunity/LinkFree/commit/701390617afb1a95366b189635e86d1d228f47c6))
 
 
 
