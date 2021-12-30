@@ -55,6 +55,7 @@
     "cypress": "^8.5.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-json": "^3.1.0",
@@ -62,6 +63,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
     "husky": "^7.0.2",
+    "lint-staged": "^12.1.4",
     "prettier": "2.4.0"
   },
   "cypress-cucumber-preprocessor": {
@@ -85,5 +87,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
+  },
+  "lint-staged": {
+    "*.{js,css,md,json}": ["prettier --write", "eslint --ext [.json,.js] --fix"]
   }
 }

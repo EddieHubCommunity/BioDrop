@@ -11,11 +11,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm ci
-      - name: Prettier check
-        if: ${{ github.event_name != 'push' || github.event_name != 'workflow_dispatch' }}
-        run: npx prettier --check public/data/*.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Prettier
         run: npx prettier --write public/data/*.json
         env:
