@@ -1,3 +1,12 @@
+## [0.54.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.7...v0.54.8) (2021-12-30)
+
+
+### Bug Fixes
+
+* add kumarsonsoff3 ([#870](https://github.com/EddieHubCommunity/LinkFree/issues/870)) ([cc979aa](https://github.com/EddieHubCommunity/LinkFree/commit/cc979aabdd6cb67863211218fdd270daf95989cc))
+
+
+
 ## [0.54.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.6...v0.54.7) (2021-12-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * avatar aspect ratio distortion ([#850](https://github.com/EddieHubCommunity/LinkFree/issues/850)) ([98fe94e](https://github.com/EddieHubCommunity/LinkFree/commit/98fe94ecacc95e0188c861e3c801c1df88e2f8a8))
-
-
-
-## [0.54.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.2...v0.54.3) (2021-12-24)
-
-
-### Bug Fixes
-
-* add Telegram icon and its relevant color ([#857](https://github.com/EddieHubCommunity/LinkFree/issues/857)) ([1108446](https://github.com/EddieHubCommunity/LinkFree/commit/1108446106b6dcbec39fb173a26c268d554e08fe))
 
 
 
