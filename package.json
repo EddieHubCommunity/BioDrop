@@ -89,6 +89,6 @@
     "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
   },
   "lint-staged": {
-    "*.{js,css,md}": ["prettier --write", "eslint public/data src --ext [.json,.js]"]
+    "*.{js,css,md,json}": ["prettier --write", "eslint --ext [.json,.js] --fix"]
   }
 }
