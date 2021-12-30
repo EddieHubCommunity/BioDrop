@@ -1,3 +1,12 @@
+## [0.54.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.8...v0.54.9) (2021-12-30)
+
+
+### Bug Fixes
+
+* add Arti Manputra ([#873](https://github.com/EddieHubCommunity/LinkFree/issues/873)) ([ca4fd9f](https://github.com/EddieHubCommunity/LinkFree/commit/ca4fd9fccd78518fb01088a4317392f3559c5651))
+
+
+
 ## [0.54.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.7...v0.54.8) (2021-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * updating my profile ([#858](https://github.com/EddieHubCommunity/LinkFree/issues/858)) ([7013906](https://github.com/EddieHubCommunity/LinkFree/commit/701390617afb1a95366b189635e86d1d228f47c6))
-
-
-
-## [0.54.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.3...v0.54.4) (2021-12-24)
-
-
-### Bug Fixes
-
-* avatar aspect ratio distortion ([#850](https://github.com/EddieHubCommunity/LinkFree/issues/850)) ([98fe94e](https://github.com/EddieHubCommunity/LinkFree/commit/98fe94ecacc95e0188c861e3c801c1df88e2f8a8))
 
 
 
