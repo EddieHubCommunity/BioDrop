@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "0.54.10",
+  "version": "0.55.0",
   "private": false,
   "homepage": "http://linkfree.eddiehub.org/",
   "dependencies": {
@@ -89,6 +89,9 @@
     "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
   },
   "lint-staged": {
-    "*.{js,css,md,json}": ["prettier --write", "eslint --ext [.json,.js] --fix"]
+    "*.{js,css,md,json}": [
+      "prettier --write",
+      "eslint --ext [.json,.js] --fix"
+    ]
   }
 }

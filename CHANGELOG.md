@@ -1,3 +1,12 @@
+# [0.55.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.10...v0.55.0) (2021-12-30)
+
+
+### Features
+
+* Improve Prettier & Eslint Setup ([#868](https://github.com/EddieHubCommunity/LinkFree/issues/868)) ([a11b476](https://github.com/EddieHubCommunity/LinkFree/commit/a11b476cd556f8ce029f8bed44bf25c8dbca02fb))
+
+
+
 ## [0.54.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.9...v0.54.10) (2021-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Aniruddha Inge ([#864](https://github.com/EddieHubCommunity/LinkFree/issues/864)) ([eb9e085](https://github.com/EddieHubCommunity/LinkFree/commit/eb9e085a152acb71594cbb14db566ae43c635267))
-
-
-
-## [0.54.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.5...v0.54.6) (2021-12-26)
-
-
-### Bug Fixes
-
-* add Anish Lohiya to the list ([#859](https://github.com/EddieHubCommunity/LinkFree/issues/859)) ([93b7d47](https://github.com/EddieHubCommunity/LinkFree/commit/93b7d47e02e6bc3a427e1b2bd18cfbc03ceed036))
 
 
 
