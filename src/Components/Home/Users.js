@@ -17,19 +17,21 @@ function Users({ list }) {
   const searchHandler = (value) => {
     setSearchTerm(value || '')
     setFilteredList([
-      ...list.filter((User) =>
-        User.name
+      ...list.filter((User) => {
+        return User.name
           .normalize('NFD')
           .toLowerCase()
-          .includes(value.normalize('NFD').toLowerCase()),
-      ),
+          .includes(value.normalize('NFD').toLowerCase())
+      }),
       ...list.filter((User) => {
-        const languages = User.languages?.map((el) =>
-          el.normalize('NFD').toLowerCase(),
-        )
-        return languages?.filter((language) =>
-          language.includes(value.normalize('NFD').toLowerCase()),
-        )
+        const results = User.languages
+          ?.map((el) => el.normalize('NFD').toLowerCase())
+          .filter((language) =>
+            language.includes(value.normalize('NFD').toLowerCase()),
+          )
+        if (!results) return false
+        if (results.length < 1) return false
+        return true
       }),
     ])
   }
