@@ -27,7 +27,7 @@ Check out the website: [LinkFree](http://linkfree.eddiehub.org/)
 
 ## 👇 Prerequisites
 
-Before installation, please make sure you have already installed following tools:
+Before installation, please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
