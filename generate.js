@@ -20,6 +20,7 @@ const output = profiles.map((profile) => ({
   name: profile.name,
   username: profile.username,
   avatar: profile.avatar,
+  languages: profile.languages,
   linkCount: profile.links.length,
 }))
 

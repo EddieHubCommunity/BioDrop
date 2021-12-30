@@ -5,10 +5,12 @@ import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
 
+import { Badge } from 'primereact/badge'
+
 import utils from '../utils'
 
 function Profile({ profile, username }) {
-  const { name, bio, avatar } = profile
+  const { name, bio, avatar, languages } = profile
   return (
     <section>
       <div className="flex justify-content-center align-items-center">
@@ -26,8 +28,13 @@ function Profile({ profile, username }) {
           <h4 className="my-0">({username})</h4>
         </div>
       </div>
-      <div className="flex justify-content-center w-50">
+      <div className="flex justify-content-center w-50 my-0">
         <p>{bio}</p>
+      </div>
+      <div className="flex justify-content-center w-50">
+        {languages?.map((language) => (
+          <Badge className="mr-1" key={language} value={language} />
+        ))}
       </div>
     </section>
   )
@@ -39,6 +46,7 @@ Profile.propTypes = {
     name: PropTypes.string.isRequired,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
+    languages: PropTypes.array,
   }),
 }
 

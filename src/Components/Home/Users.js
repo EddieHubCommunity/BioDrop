@@ -16,14 +16,22 @@ function Users({ list }) {
 
   const searchHandler = (value) => {
     setSearchTerm(value || '')
-    setFilteredList(
-      list.filter((User) =>
+    setFilteredList([
+      ...list.filter((User) =>
         User.name
           .normalize('NFD')
           .toLowerCase()
           .includes(value.normalize('NFD').toLowerCase()),
       ),
-    )
+      ...list.filter((User) => {
+        const languages = User.languages?.map((el) =>
+          el.normalize('NFD').toLowerCase(),
+        )
+        return languages?.filter((language) =>
+          language.includes(value.normalize('NFD').toLowerCase()),
+        )
+      }),
+    ])
   }
 
   return (

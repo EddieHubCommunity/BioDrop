@@ -3,6 +3,7 @@
   "type": "personal",
   "bio": "Founder of EddieHub",
   "avatar": "https://github.com/eddiejaoude.png",
+  "languages": ["typescript", "javascript"],
   "links": [
     {
       "name": "Follow me on GitHub",
