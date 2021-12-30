@@ -48,10 +48,10 @@ function Links({ links }) {
           .map((link, index) => (
             <Button
               key={`link.url_${index}`}
-              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
+              onMouseOver={(e) => MouseOver(e, colors.globe)}
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
+              style={{ color: colors.globe }}
               role="link"
               onClick={() => window.open(link.url, '_blank')}
             >
