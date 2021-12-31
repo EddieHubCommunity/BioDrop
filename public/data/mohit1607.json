@@ -1,0 +1,27 @@
+{
+  "name": "MOHIT ASHLIYA",
+  "type": "personal",
+  "bio": "Yo this is Superset for OpenSource Contribution.",
+  "avatar":"https://github.com/SuperSet1607.png",
+  "links": [
+    {
+      "name":"Follow me on Github",
+      "url":"https://github.com/mohit1607",
+      "icon":"github"
+    },
+    {
+      "name":"Follow me on Twitter",
+      "url":"https://twitter.com/ashliya_mohit",
+      "icon":"twitter"
+    }
+  ],
+  "milestones":[
+    {
+      "title":"Started OpenSource Contribution",
+      "data":"December 2021",
+      "icon":"dollor",
+      "color":"grey",
+      "description":"From a day before 2023 I started my open-source journey."
+    }
+  ]
+}
