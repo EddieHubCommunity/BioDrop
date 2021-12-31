@@ -1,3 +1,12 @@
+## [0.55.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.1...v0.55.2) (2021-12-31)
+
+
+### Bug Fixes
+
+* add lakshay-nasa ([#882](https://github.com/EddieHubCommunity/LinkFree/issues/882)) ([a4c727a](https://github.com/EddieHubCommunity/LinkFree/commit/a4c727a01e841de7fcd8d89034052c997f01e1ce))
+
+
+
 ## [0.55.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.0...v0.55.1) (2021-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Arti Manputra ([#873](https://github.com/EddieHubCommunity/LinkFree/issues/873)) ([ca4fd9f](https://github.com/EddieHubCommunity/LinkFree/commit/ca4fd9fccd78518fb01088a4317392f3559c5651))
-
-
-
-## [0.54.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.7...v0.54.8) (2021-12-30)
-
-
-### Bug Fixes
-
-* add kumarsonsoff3 ([#870](https://github.com/EddieHubCommunity/LinkFree/issues/870)) ([cc979aa](https://github.com/EddieHubCommunity/LinkFree/commit/cc979aabdd6cb67863211218fdd270daf95989cc))
 
 
 
