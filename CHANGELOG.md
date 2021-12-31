@@ -1,3 +1,12 @@
+## [0.55.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.2...v0.55.3) (2021-12-31)
+
+
+### Bug Fixes
+
+* add Gurjeet Singh Virdee ([#884](https://github.com/EddieHubCommunity/LinkFree/issues/884)) ([1846a2c](https://github.com/EddieHubCommunity/LinkFree/commit/1846a2c621ffda62444997ca358b559d090406fe))
+
+
+
 ## [0.55.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.1...v0.55.2) (2021-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * small typo errors in kumarsonoff3's profile ([#875](https://github.com/EddieHubCommunity/LinkFree/issues/875)) ([8275c30](https://github.com/EddieHubCommunity/LinkFree/commit/8275c308ea79466450e7b1581f533e695536b48a))
-
-
-
-## [0.54.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.8...v0.54.9) (2021-12-30)
-
-
-### Bug Fixes
-
-* add Arti Manputra ([#873](https://github.com/EddieHubCommunity/LinkFree/issues/873)) ([ca4fd9f](https://github.com/EddieHubCommunity/LinkFree/commit/ca4fd9fccd78518fb01088a4317392f3559c5651))
 
 
 
