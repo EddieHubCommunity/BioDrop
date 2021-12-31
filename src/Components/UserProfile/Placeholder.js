@@ -7,12 +7,7 @@ function Placeholder() {
     <section>
       <div className="flex justify-content-center align-items-center">
         <Skeleton className="p-avatar" shape="circle" size="4rem" />
-        <Skeleton
-          className="m-2"
-          shape="rounded"
-          height="30px"
-          width="200px"
-        />
+        <Skeleton className="m-2" shape="rounded" height="30px" width="200px" />
         <Skeleton className="" shape="rounded" width="100px" />
       </div>
       <div className="flex justify-content-center w-50">
