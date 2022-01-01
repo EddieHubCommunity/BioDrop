@@ -1,3 +1,12 @@
+## [0.55.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.3...v0.55.4) (2022-01-01)
+
+
+### Bug Fixes
+
+* add Varghese Jose ([#885](https://github.com/EddieHubCommunity/LinkFree/issues/885)) ([eb40432](https://github.com/EddieHubCommunity/LinkFree/commit/eb404328289e7a70b55348b188290a3141d3c2a9))
+
+
+
 ## [0.55.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.2...v0.55.3) (2021-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Improve Prettier & Eslint Setup ([#868](https://github.com/EddieHubCommunity/LinkFree/issues/868)) ([a11b476](https://github.com/EddieHubCommunity/LinkFree/commit/a11b476cd556f8ce029f8bed44bf25c8dbca02fb))
-
-
-
-## [0.54.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.54.9...v0.54.10) (2021-12-30)
-
-
-### Bug Fixes
-
-* small typo errors in kumarsonoff3's profile ([#875](https://github.com/EddieHubCommunity/LinkFree/issues/875)) ([8275c30](https://github.com/EddieHubCommunity/LinkFree/commit/8275c308ea79466450e7b1581f533e695536b48a))
 
 
 
