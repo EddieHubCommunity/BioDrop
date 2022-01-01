@@ -64,7 +64,6 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
     "husky": "^7.0.2",
-    "postcss": "^7.0.35",
     "prettier": "2.4.0"
   },
   "cypress-cucumber-preprocessor": {
