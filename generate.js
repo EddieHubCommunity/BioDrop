@@ -19,8 +19,8 @@ const writeDirectoryPath = path.join(__dirname, 'public', 'list.json')
 const output = profiles.map((profile) => ({
   name: profile.name,
   username: profile.username,
-  name: profile.name,
   avatar: profile.avatar,
+  linkCount: profile.links.length,
 }))
 
 fs.writeFileSync(writeDirectoryPath, JSON.stringify(output))

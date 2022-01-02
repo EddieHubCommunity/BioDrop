@@ -1,45 +1,45 @@
-## [0.47.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.6...v0.47.7) (2021-11-26)
+## [0.55.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.6...v0.55.7) (2022-01-02)
 
 
 ### Bug Fixes
 
-* krishguptadev update ([#712](https://github.com/EddieHubCommunity/LinkFree/issues/712)) ([866b9cc](https://github.com/EddieHubCommunity/LinkFree/commit/866b9cce7cebfaaf5d854e492bb825a35f14abc9))
+* add kishanrajput23 ([#894](https://github.com/EddieHubCommunity/LinkFree/issues/894)) ([0773c54](https://github.com/EddieHubCommunity/LinkFree/commit/0773c54a90fc9a67a4568456c3f4b15cd7d96623))
 
 
 
-## [0.47.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.5...v0.47.6) (2021-11-26)
-
-
-### Bug Fixes
-
-* **data:** add foxy4096 ([#707](https://github.com/EddieHubCommunity/LinkFree/issues/707)) ([34325d2](https://github.com/EddieHubCommunity/LinkFree/commit/34325d29cfd7f54a70ebeaf5173a261cb475a8c5))
-
-
-
-## [0.47.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.4...v0.47.5) (2021-11-26)
+## [0.55.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.5...v0.55.6) (2022-01-02)
 
 
 ### Bug Fixes
 
-* web3community ([#704](https://github.com/EddieHubCommunity/LinkFree/issues/704)) ([1a6d963](https://github.com/EddieHubCommunity/LinkFree/commit/1a6d9639a1f8e406e595716534145415a63c560a))
+* add srkds/Nirav ([#877](https://github.com/EddieHubCommunity/LinkFree/issues/877)) ([013ecd2](https://github.com/EddieHubCommunity/LinkFree/commit/013ecd2657be48721ff40aa3c61a78165488a1c9))
 
 
 
-## [0.47.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.3...v0.47.4) (2021-11-26)
-
-
-### Bug Fixes
-
-* update avatar of FayasNoushad ([#711](https://github.com/EddieHubCommunity/LinkFree/issues/711)) ([a3c4977](https://github.com/EddieHubCommunity/LinkFree/commit/a3c4977c0ab70201b93e1eeb0faf1ea4c1d26583))
-
-
-
-## [0.47.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.2...v0.47.3) (2021-11-26)
+## [0.55.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.4...v0.55.5) (2022-01-01)
 
 
 ### Bug Fixes
 
-* EddieHubCommunity profile ([#703](https://github.com/EddieHubCommunity/LinkFree/issues/703)) ([db052a5](https://github.com/EddieHubCommunity/LinkFree/commit/db052a5622a8bacc0b0cf732e86545740802d739))
+* add Lokesh Digari ([#887](https://github.com/EddieHubCommunity/LinkFree/issues/887)) ([9faa78a](https://github.com/EddieHubCommunity/LinkFree/commit/9faa78aa47fbf10bcb3dd0e19d26bee8cc0a65db))
+
+
+
+## [0.55.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.3...v0.55.4) (2022-01-01)
+
+
+### Bug Fixes
+
+* add Varghese Jose ([#885](https://github.com/EddieHubCommunity/LinkFree/issues/885)) ([eb40432](https://github.com/EddieHubCommunity/LinkFree/commit/eb404328289e7a70b55348b188290a3141d3c2a9))
+
+
+
+## [0.55.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.2...v0.55.3) (2021-12-31)
+
+
+### Bug Fixes
+
+* add Gurjeet Singh Virdee ([#884](https://github.com/EddieHubCommunity/LinkFree/issues/884)) ([1846a2c](https://github.com/EddieHubCommunity/LinkFree/commit/1846a2c621ffda62444997ca358b559d090406fe))
 
 
 

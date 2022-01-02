@@ -13,16 +13,21 @@
 }
 
 .p-button.p-button-outlined span,
-.p-button.p-button-outlined i {
+.p-button.p-button-outlined .buttonIcon {
   pointer-events: none;
 }
 
-.p-button-outlined:hover > i {
+.p-button-outlined:hover > .buttonIcon {
   color: #fff;
 }
 
 .p-button-outlined:hover > span {
   color: #fff;
+}
+
+.buttonIcon {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .p-button-outlined span {

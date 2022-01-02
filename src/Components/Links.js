@@ -3,6 +3,8 @@ import './Links.css'
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Button } from 'primereact/button'
+import GetIcons from './Icons/GetIcons'
+import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
 
 function Links({ links }) {
@@ -17,8 +19,8 @@ function Links({ links }) {
   }
 
   return (
-    <section className="p-d-flex p-jc-center p-mb-4">
-      <div className="p-d-flex p-flex-column w-70">
+    <section className="flex justify-content-center mb-4">
+      <div className="flex flex-column w-70">
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
@@ -26,13 +28,19 @@ function Links({ links }) {
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
-              className={`p-p-3 p-my-2 p-button-outlined ${link.icon}`}
+              className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
               role="link"
               onClick={() => window.open(link.url, '_blank')}
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
-              <span className="p-px-3">{link.name}</span>
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
+                }}
+              >
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
+              <span className="px-3">{link.name}</span>
             </Button>
           ))}
         {links
@@ -42,13 +50,19 @@ function Links({ links }) {
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
-              className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
+              className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
               role="link"
               onClick={() => window.open(link.url, '_blank')}
             >
-              <i className={`pi pi-${link.icon} p-px-2`}></i>
-              <span className="p-px-3">{link.name}</span>
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
+                }}
+              >
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
+              <span className="px-3">{link.name}</span>
             </Button>
           ))}
       </div>

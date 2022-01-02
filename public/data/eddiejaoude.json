@@ -1,5 +1,6 @@
 {
   "name": "Eddie Jaoude",
+  "type": "personal",
   "bio": "Founder of EddieHub",
   "avatar": "https://github.com/eddiejaoude.png",
   "links": [
@@ -56,6 +57,14 @@
       "icon": "github",
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
       "url": "https://github.com/eddiejaoude"
     }
   ]

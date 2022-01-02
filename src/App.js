@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
-import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 
 import Footer from './Components/Footer'
@@ -13,7 +12,7 @@ import Home from './Components/Home/Home'
 function App() {
   return (
     <Router>
-      <div className="p-m-2 p-m-md-4">
+      <div className="m-2 md:m-4">
         <Switch>
           <Route path="/:username">
             <User />
