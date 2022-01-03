@@ -18,9 +18,10 @@
         "name": "Follow me on LinkedIn",
         "url": "https://linkedin.com/in/ankan-bag-74a238222/",
         "icon": "linkedin"
-      },{
-          "name": "Email me",
-          "url": "mailto:bagankan@gmail.com"
+      },
+      {
+        "name": "Email me",
+        "url": "mailto:bagankan@gmail.com"
       }
     ],
     "milestones": [
@@ -55,11 +56,11 @@
         "description": "Won $100 in the Hackathon organized by Reskill and Spark AR on creating AR effects. Was placed in Top 10 out of 2000+ applications."
       },
       {
-          "title": "First Contribution to Open-Source",
-          "date": "December 2021",
-          "icon": "github",
-          "color": "grey",
-          "description": "Contributed to Daily.dev readme file"
+        "title": "First Contribution to Open-Source",
+        "date": "December 2021",
+        "icon": "github",
+        "color": "grey",
+        "description": "Contributed to Daily.dev readme file"
       }
     ]
   }
