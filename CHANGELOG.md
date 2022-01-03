@@ -1,3 +1,12 @@
+## [0.55.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.15...v0.55.16) (2022-01-03)
+
+
+### Bug Fixes
+
+* add default icon color  ([#874](https://github.com/EddieHubCommunity/LinkFree/issues/874)) ([53d9111](https://github.com/EddieHubCommunity/LinkFree/commit/53d9111a665d1d63f77c51e1b91ce334709d1a79))
+
+
+
 ## [0.55.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.14...v0.55.15) (2022-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Harsh Singh ([#889](https://github.com/EddieHubCommunity/LinkFree/issues/889)) ([cb2c00f](https://github.com/EddieHubCommunity/LinkFree/commit/cb2c00f4d5f17d6354d4b75f068490c53e5770bc))
-
-
-
-## [0.55.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.10...v0.55.11) (2022-01-03)
-
-
-### Bug Fixes
-
-* add Muhammad Sameem ([#879](https://github.com/EddieHubCommunity/LinkFree/issues/879)) ([0ed1580](https://github.com/EddieHubCommunity/LinkFree/commit/0ed1580c24c5dbb7a1201b592080bbabec8a0ac2))
 
 
 
