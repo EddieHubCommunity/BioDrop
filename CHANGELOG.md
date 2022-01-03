@@ -1,3 +1,12 @@
+## [0.55.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.12...v0.55.13) (2022-01-03)
+
+
+### Bug Fixes
+
+* add Wasiq Amjad Bhamla ([#892](https://github.com/EddieHubCommunity/LinkFree/issues/892)) ([34af4aa](https://github.com/EddieHubCommunity/LinkFree/commit/34af4aa922338fdfb6a6e345707cfdff97984330))
+
+
+
 ## [0.55.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.11...v0.55.12) (2022-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * tests for user feature ([#895](https://github.com/EddieHubCommunity/LinkFree/issues/895)) ([83e608f](https://github.com/EddieHubCommunity/LinkFree/commit/83e608f10fd62cd8a63d0dee163ab7f3d2fb77ca))
-
-
-
-## [0.55.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.7...v0.55.8) (2022-01-02)
-
-
-### Bug Fixes
-
-* add Chaitanya ([#881](https://github.com/EddieHubCommunity/LinkFree/issues/881)) ([e77df5b](https://github.com/EddieHubCommunity/LinkFree/commit/e77df5b83b3222a09576eaf3d5d36e9bd79efa7d))
 
 
 
