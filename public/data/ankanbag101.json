@@ -21,7 +21,8 @@
       },
       {
         "name": "Email me",
-        "url": "mailto:bagankan@gmail.com"
+        "url": "mailto:bagankan@gmail.com",
+        "icon": "envelope"
       }
     ],
     "milestones": [
