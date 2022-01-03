@@ -1,3 +1,12 @@
+## [0.55.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.16...v0.55.17) (2022-01-03)
+
+
+### Bug Fixes
+
+* **data:** add john babu's profile ([#897](https://github.com/EddieHubCommunity/LinkFree/issues/897)) ([8f306f9](https://github.com/EddieHubCommunity/LinkFree/commit/8f306f9ef19bc9fe5fb340c811ba6e6f4551cb38))
+
+
+
 ## [0.55.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.15...v0.55.16) (2022-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Wasiq Amjad Bhamla ([#892](https://github.com/EddieHubCommunity/LinkFree/issues/892)) ([34af4aa](https://github.com/EddieHubCommunity/LinkFree/commit/34af4aa922338fdfb6a6e345707cfdff97984330))
-
-
-
-## [0.55.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.11...v0.55.12) (2022-01-03)
-
-
-### Bug Fixes
-
-* add Harsh Singh ([#889](https://github.com/EddieHubCommunity/LinkFree/issues/889)) ([cb2c00f](https://github.com/EddieHubCommunity/LinkFree/commit/cb2c00f4d5f17d6354d4b75f068490c53e5770bc))
 
 
 
