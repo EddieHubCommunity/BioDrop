@@ -1,3 +1,12 @@
+## [0.55.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.13...v0.55.14) (2022-01-03)
+
+
+### Bug Fixes
+
+* add Divyansh Raj ([#903](https://github.com/EddieHubCommunity/LinkFree/issues/903)) ([d2db382](https://github.com/EddieHubCommunity/LinkFree/commit/d2db382de10c1eebbaa97e18facbe5ff44bdf933))
+
+
+
 ## [0.55.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.12...v0.55.13) (2022-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Vaishnav Shyam ([#893](https://github.com/EddieHubCommunity/LinkFree/issues/893)) ([bf92a38](https://github.com/EddieHubCommunity/LinkFree/commit/bf92a3841c098316cd373ae7cb6399cbd7864cb2))
-
-
-
-## [0.55.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.8...v0.55.9) (2022-01-03)
-
-
-### Bug Fixes
-
-* tests for user feature ([#895](https://github.com/EddieHubCommunity/LinkFree/issues/895)) ([83e608f](https://github.com/EddieHubCommunity/LinkFree/commit/83e608f10fd62cd8a63d0dee163ab7f3d2fb77ca))
 
 
 
