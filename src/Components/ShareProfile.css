@@ -1,0 +1,17 @@
+.profile__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__iconLinks {
+  margin: 0 20px;
+}
+
+.profile__icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #333;
+}

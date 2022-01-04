@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import Profile from '../Profile'
 import Links from '../Links'
 import Milestones from '../Milestones'
+import ShareProfile from '../ShareProfile'
 
 function ProfilePage({ profile, username }) {
   const [links, setLinks] = useState([])
@@ -32,6 +33,7 @@ function ProfilePage({ profile, username }) {
         </>
       }
       {profile.milestones && <Milestones milestones={milestones} />}
+      <ShareProfile username={username} />
     </>
   )
 }

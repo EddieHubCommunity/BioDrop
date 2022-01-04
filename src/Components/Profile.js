@@ -9,6 +9,7 @@ import utils from '../utils'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar } = profile
+
   return (
     <section>
       <div className="flex justify-content-center align-items-center">
