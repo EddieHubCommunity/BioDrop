@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
 import './ShareProfile.css'
 import ShareIcon from './ShareIcon'
+import { Toast } from 'primereact/toast'
 
 export default function ShareProfile({ username }) {
+  const toast = useRef(null)
+
   const CopyLink = () => {
     navigator.clipboard.writeText(`http://linkfree.eddiehub.org/${username}`)
-    alert('Link copied to clipboard.')
+    toast.current.show({
+      severity: 'success',
+      summary: 'Link copied to clipboard.',
+    })
   }
 
   return (
     <div className="flex justify-content-center">
+      <Toast ref={toast} />
       <ShareIcon
         link={`https://www.facebook.com/sharer/sharer.php?u=https://linkfree.eddiehub.org/${username}`}
         label="Share on Facebook"
