@@ -11,7 +11,7 @@ export default function ShareProfile({ username }) {
   }
 
   return (
-    <div className="profile__container">
+    <div className="flex justify-content-center">
       <ShareIcon
         link={`https://www.facebook.com/sharer/sharer.php?u=https://linkfree.eddiehub.org/${username}`}
         label="Share on Facebook"

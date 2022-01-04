@@ -1,9 +1,3 @@
-.profile__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .profile__icon {
   width: 30px;
   height: 30px;

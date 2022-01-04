@@ -6,7 +6,7 @@ import './ShareIcon.css'
 function ShareIcon({ link, label, iconName }) {
   return (
     <a
-      className="shareIcon__link"
+      className="mx-5"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
