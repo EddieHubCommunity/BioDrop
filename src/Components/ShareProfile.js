@@ -13,7 +13,7 @@ export default function ShareProfile({ username }) {
     <div className="profile__container">
       <a
         className="profile__iconLinks"
-        href={`https://www.facebook.com/sharer/sharer.php?u=https://linkfree.eddiehub.org/profile/${username}`}
+        href={`https://www.facebook.com/sharer/sharer.php?u=https://linkfree.eddiehub.org/${username}`}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Share on Facebook"
@@ -22,7 +22,7 @@ export default function ShareProfile({ username }) {
       </a>
       <a
         className="profile__iconLinks"
-        href={`https://twitter.com/intent/tweet?text=Check out my LinkFree profile! https://linkfree.eddiehub.org/profile/${username}`}
+        href={`https://twitter.com/intent/tweet?text=Check out my LinkFree profile! https://linkfree.eddiehub.org/${username}`}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Share on Twitter"
