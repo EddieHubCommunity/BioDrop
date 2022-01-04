@@ -1,0 +1,11 @@
+.shareIcon__link {
+  margin: 0 20px;
+}
+
+.shareIcon__icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #333;
+}
