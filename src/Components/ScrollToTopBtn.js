@@ -33,7 +33,7 @@ function ScrollToTopBtn() {
       style={scrollBtnVisibility ? {} : { opacity: '0' }}
       className="scrollToTop-btn"
       onClick={scrollToTop}
-      size={70}
+      size={50}
     />
   )
 }
