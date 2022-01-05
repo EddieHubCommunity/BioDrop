@@ -92,7 +92,7 @@
     "*.{js,css,md,json}": [
       "prettier --write"
     ],
-    "*.{js,md,json}": [
+    "*.{js,json}": [
       "eslint --ext [.json,.js] --fix"
     ]
   }
