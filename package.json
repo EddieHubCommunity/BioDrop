@@ -90,7 +90,9 @@
   },
   "lint-staged": {
     "*.{js,css,md,json}": [
-      "prettier --write",
+      "prettier --write"
+    ],
+    "*.{js,md,json}": [
       "eslint --ext [.json,.js] --fix"
     ]
   }

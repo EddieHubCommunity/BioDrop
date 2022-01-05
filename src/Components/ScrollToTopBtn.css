@@ -1,0 +1,7 @@
+.scrollToTop-btn {
+  position: fixed;
+  cursor: pointer;
+  bottom: 7%;
+  right: 13%;
+  z-index: 100;
+}
