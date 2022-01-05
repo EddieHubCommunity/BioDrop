@@ -1,3 +1,12 @@
+## [0.55.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.18...v0.55.19) (2022-01-04)
+
+
+### Bug Fixes
+
+* add Ankan Bag ([#905](https://github.com/EddieHubCommunity/LinkFree/issues/905)) ([2caaae5](https://github.com/EddieHubCommunity/LinkFree/commit/2caaae5fb9e4e514a5b92ab3b2d22ee3f0290818))
+
+
+
 ## [0.55.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.17...v0.55.18) (2022-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **data:** add Meet Mulik ([#906](https://github.com/EddieHubCommunity/LinkFree/issues/906)) ([0674cb8](https://github.com/EddieHubCommunity/LinkFree/commit/0674cb8d85887212e542be42143c4a9d585b30f8))
-
-
-
-## [0.55.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.13...v0.55.14) (2022-01-03)
-
-
-### Bug Fixes
-
-* add Divyansh Raj ([#903](https://github.com/EddieHubCommunity/LinkFree/issues/903)) ([d2db382](https://github.com/EddieHubCommunity/LinkFree/commit/d2db382de10c1eebbaa97e18facbe5ff44bdf933))
 
 
 
