@@ -1,3 +1,12 @@
+# [0.56.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.22...v0.56.0) (2022-01-05)
+
+
+### Features
+
+* add snapchat and codeforces ([#898](https://github.com/EddieHubCommunity/LinkFree/issues/898)) ([7319bc7](https://github.com/EddieHubCommunity/LinkFree/commit/7319bc7f26ee183deb7ead892420a6137cca1360))
+
+
+
 ## [0.55.22](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.21...v0.55.22) (2022-01-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Ankan Bag ([#905](https://github.com/EddieHubCommunity/LinkFree/issues/905)) ([2caaae5](https://github.com/EddieHubCommunity/LinkFree/commit/2caaae5fb9e4e514a5b92ab3b2d22ee3f0290818))
-
-
-
-## [0.55.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.17...v0.55.18) (2022-01-04)
-
-
-### Bug Fixes
-
-* add Cao Tan Duc ([#907](https://github.com/EddieHubCommunity/LinkFree/issues/907)) ([017afd9](https://github.com/EddieHubCommunity/LinkFree/commit/017afd9a433068863f54ad606647418966be5f11))
 
 
 
