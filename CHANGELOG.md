@@ -1,3 +1,12 @@
+## [0.55.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.19...v0.55.20) (2022-01-05)
+
+
+### Bug Fixes
+
+* github username changed ([#919](https://github.com/EddieHubCommunity/LinkFree/issues/919)) ([ece261a](https://github.com/EddieHubCommunity/LinkFree/commit/ece261a25c398a2c34f16b664035092dd0bab404))
+
+
+
 ## [0.55.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.18...v0.55.19) (2022-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add default icon color  ([#874](https://github.com/EddieHubCommunity/LinkFree/issues/874)) ([53d9111](https://github.com/EddieHubCommunity/LinkFree/commit/53d9111a665d1d63f77c51e1b91ce334709d1a79))
-
-
-
-## [0.55.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.14...v0.55.15) (2022-01-03)
-
-
-### Bug Fixes
-
-* **data:** add Meet Mulik ([#906](https://github.com/EddieHubCommunity/LinkFree/issues/906)) ([0674cb8](https://github.com/EddieHubCommunity/LinkFree/commit/0674cb8d85887212e542be42143c4a9d585b30f8))
 
 
 
