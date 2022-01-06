@@ -1,3 +1,12 @@
+# [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
+
+
+### Features
+
+* Add Scroll-to-top button ([#921](https://github.com/EddieHubCommunity/LinkFree/issues/921)) ([966389a](https://github.com/EddieHubCommunity/LinkFree/commit/966389a06e6356bbb67f7a5ebf2805b9f47e3bf7))
+
+
+
 # [0.57.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.1...v0.57.0) (2022-01-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Rahulbaran ([#915](https://github.com/EddieHubCommunity/LinkFree/issues/915)) ([9aa3aea](https://github.com/EddieHubCommunity/LinkFree/commit/9aa3aea3047ac65f4e62edf8662a2004357c3c0d))
-
-
-
-## [0.55.21](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.20...v0.55.21) (2022-01-05)
-
-
-### Bug Fixes
-
-* add Digambar Tupurwadi ([#918](https://github.com/EddieHubCommunity/LinkFree/issues/918)) ([ac3c7ea](https://github.com/EddieHubCommunity/LinkFree/commit/ac3c7ea70a87b2cf9cef00ba2bea344c847b98dd))
 
 
 
