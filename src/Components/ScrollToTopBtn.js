@@ -30,10 +30,11 @@ function ScrollToTopBtn() {
 
   return (
     <BsFillArrowUpCircleFill
-      style={scrollBtnVisibility ? {} : { opacity: '0' }}
+      style={scrollBtnVisibility ? {} : { display: 'none' }}
       className="scrollToTop-btn"
       onClick={scrollToTop}
       size={50}
+      color={'#b9b9b9'}
     />
   )
 }
