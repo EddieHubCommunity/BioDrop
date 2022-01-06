@@ -1,3 +1,12 @@
+## [0.56.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.0...v0.56.1) (2022-01-06)
+
+
+### Bug Fixes
+
+* Correct item alignment on error page ([#924](https://github.com/EddieHubCommunity/LinkFree/issues/924)) ([313750e](https://github.com/EddieHubCommunity/LinkFree/commit/313750ed5226a35a35d876cceb1f0ff547d7054a))
+
+
+
 # [0.56.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.22...v0.56.0) (2022-01-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github username changed ([#919](https://github.com/EddieHubCommunity/LinkFree/issues/919)) ([ece261a](https://github.com/EddieHubCommunity/LinkFree/commit/ece261a25c398a2c34f16b664035092dd0bab404))
-
-
-
-## [0.55.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.18...v0.55.19) (2022-01-04)
-
-
-### Bug Fixes
-
-* add Ankan Bag ([#905](https://github.com/EddieHubCommunity/LinkFree/issues/905)) ([2caaae5](https://github.com/EddieHubCommunity/LinkFree/commit/2caaae5fb9e4e514a5b92ab3b2d22ee3f0290818))
 
 
 
