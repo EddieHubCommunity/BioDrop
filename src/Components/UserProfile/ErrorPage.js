@@ -3,7 +3,7 @@ import React from 'react'
 function ErrorPage() {
   return (
     <div className="text-center">
-      <div className="flex flex-column">
+      <div className="flex flex-column align-items-center">
         <img
           src="/eddiehub_community_logo.webp"
           alt="image"
