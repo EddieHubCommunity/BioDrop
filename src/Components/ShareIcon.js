@@ -1,7 +1,6 @@
 import React from 'react'
 import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
-import './ShareIcon.css'
 
 function ShareIcon({ link, label, iconName }) {
   return (
@@ -12,7 +11,12 @@ function ShareIcon({ link, label, iconName }) {
       rel="noopener noreferrer"
       aria-label={label}
     >
-      <GetIcons className="shareIcon__icon" iconName={iconName} size={20} />
+      <GetIcons
+        style={{ color: '#333' }}
+        className="w-2rem h-2rem my-2rem cursor-pointer"
+        iconName={iconName}
+        size={20}
+      />
     </a>
   )
 }
