@@ -1,18 +1,25 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
 import ShareIcon from './ShareIcon'
+import { Toast } from 'primereact/toast'
 
 export default function ShareProfile({ username }) {
   const [show, setShow] = useState(false)
+  const toast = useRef(null)
 
   const CopyLink = () => {
     navigator.clipboard.writeText(`http://linkfree.eddiehub.org/${username}`)
-    alert('Link copied to clipboard.')
+    toast.current.show({
+      severity: 'success',
+      summary: 'Link copied to clipboard.',
+    })
   }
 
   return (
     <div className="flex justify-content-center">
+      <Toast ref={toast} />
+
       <svg
         onClick={() => setShow(!show)}
         height="25px"
