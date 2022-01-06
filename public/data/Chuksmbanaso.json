@@ -1,0 +1,18 @@
+{
+  "name": "Chuks",
+  "type": "personal",
+  "bio": "Fullstack Developer | Open Source Enthusiast",
+  "avatar": "https://github.com/Chuksmbanaso.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://linkfree.eddiehub.org/Chuksmbanaso",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Chuksmbanaso",
+      "icon": "twitter"
+    }
+  ],
+}
