@@ -1,3 +1,12 @@
+# [0.57.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.1...v0.57.0) (2022-01-06)
+
+
+### Features
+
+* added profile sharing option ([#908](https://github.com/EddieHubCommunity/LinkFree/issues/908)) ([431d770](https://github.com/EddieHubCommunity/LinkFree/commit/431d770edfdbf58fd765c0f7876345bc0a8422c5))
+
+
+
 ## [0.56.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.0...v0.56.1) (2022-01-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add Digambar Tupurwadi ([#918](https://github.com/EddieHubCommunity/LinkFree/issues/918)) ([ac3c7ea](https://github.com/EddieHubCommunity/LinkFree/commit/ac3c7ea70a87b2cf9cef00ba2bea344c847b98dd))
-
-
-
-## [0.55.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.19...v0.55.20) (2022-01-05)
-
-
-### Bug Fixes
-
-* github username changed ([#919](https://github.com/EddieHubCommunity/LinkFree/issues/919)) ([ece261a](https://github.com/EddieHubCommunity/LinkFree/commit/ece261a25c398a2c34f16b664035092dd0bab404))
 
 
 
