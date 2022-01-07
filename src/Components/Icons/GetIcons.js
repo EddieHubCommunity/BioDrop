@@ -26,8 +26,9 @@ import {
   FaArrowLeft,
   FaSearch,
   FaTelegram,
+  FaSnapchat,
 } from 'react-icons/fa'
-import { SiCodewars, SiHashnode } from 'react-icons/si'
+import { SiCodeforces, SiCodewars, SiHashnode } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
@@ -88,6 +89,10 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaSearch {...restProps} />
     case 'telegram':
       return <FaTelegram {...restProps} />
+    case 'snapchat':
+      return <FaSnapchat {...restProps} />
+    case 'codeforces':
+      return <SiCodeforces {...restProps} />
     default:
       return <FaGlobe {...restProps} />
   }

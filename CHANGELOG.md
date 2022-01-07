@@ -1,45 +1,45 @@
-## [0.55.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.4...v0.55.5) (2022-01-01)
+## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
 
 
 ### Bug Fixes
 
-* add Lokesh Digari ([#887](https://github.com/EddieHubCommunity/LinkFree/issues/887)) ([9faa78a](https://github.com/EddieHubCommunity/LinkFree/commit/9faa78aa47fbf10bcb3dd0e19d26bee8cc0a65db))
+* improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
 
 
 
-## [0.55.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.3...v0.55.4) (2022-01-01)
+# [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
 
 
-### Bug Fixes
+### Features
 
-* add Varghese Jose ([#885](https://github.com/EddieHubCommunity/LinkFree/issues/885)) ([eb40432](https://github.com/EddieHubCommunity/LinkFree/commit/eb404328289e7a70b55348b188290a3141d3c2a9))
-
-
-
-## [0.55.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.2...v0.55.3) (2021-12-31)
-
-
-### Bug Fixes
-
-* add Gurjeet Singh Virdee ([#884](https://github.com/EddieHubCommunity/LinkFree/issues/884)) ([1846a2c](https://github.com/EddieHubCommunity/LinkFree/commit/1846a2c621ffda62444997ca358b559d090406fe))
+* Add Scroll-to-top button ([#921](https://github.com/EddieHubCommunity/LinkFree/issues/921)) ([966389a](https://github.com/EddieHubCommunity/LinkFree/commit/966389a06e6356bbb67f7a5ebf2805b9f47e3bf7))
 
 
 
-## [0.55.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.1...v0.55.2) (2021-12-31)
+# [0.57.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.1...v0.57.0) (2022-01-06)
 
 
-### Bug Fixes
+### Features
 
-* add lakshay-nasa ([#882](https://github.com/EddieHubCommunity/LinkFree/issues/882)) ([a4c727a](https://github.com/EddieHubCommunity/LinkFree/commit/a4c727a01e841de7fcd8d89034052c997f01e1ce))
+* added profile sharing option ([#908](https://github.com/EddieHubCommunity/LinkFree/issues/908)) ([431d770](https://github.com/EddieHubCommunity/LinkFree/commit/431d770edfdbf58fd765c0f7876345bc0a8422c5))
 
 
 
-## [0.55.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.0...v0.55.1) (2021-12-31)
+## [0.56.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.0...v0.56.1) (2022-01-06)
 
 
 ### Bug Fixes
 
-* add Sarah Lean ([#876](https://github.com/EddieHubCommunity/LinkFree/issues/876)) ([0c9aa2c](https://github.com/EddieHubCommunity/LinkFree/commit/0c9aa2ce1443b1ac7444c159dc6cbb22817b055a))
+* Correct item alignment on error page ([#924](https://github.com/EddieHubCommunity/LinkFree/issues/924)) ([313750e](https://github.com/EddieHubCommunity/LinkFree/commit/313750ed5226a35a35d876cceb1f0ff547d7054a))
+
+
+
+# [0.56.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.22...v0.56.0) (2022-01-05)
+
+
+### Features
+
+* add snapchat and codeforces ([#898](https://github.com/EddieHubCommunity/LinkFree/issues/898)) ([7319bc7](https://github.com/EddieHubCommunity/LinkFree/commit/7319bc7f26ee183deb7ead892420a6137cca1360))
 
 
 

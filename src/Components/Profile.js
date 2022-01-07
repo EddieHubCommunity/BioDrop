@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import { Avatar } from 'primereact/avatar'
 
 import utils from '../utils'
+import ShareProfile from './ShareProfile'
 
 function Profile({ profile, username }) {
   const { name, bio, avatar } = profile
@@ -25,6 +26,7 @@ function Profile({ profile, username }) {
           <h1 className="m-2">{name}</h1>
           <h4 className="my-0">({username})</h4>
         </div>
+        <ShareProfile username={username} />
       </div>
       <div className="flex justify-content-center w-50">
         <p>{bio}</p>
