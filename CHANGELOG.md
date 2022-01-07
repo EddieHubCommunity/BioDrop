@@ -1,3 +1,12 @@
+## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
+
+
+### Bug Fixes
+
+* improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
+
+
+
 # [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add snapchat and codeforces ([#898](https://github.com/EddieHubCommunity/LinkFree/issues/898)) ([7319bc7](https://github.com/EddieHubCommunity/LinkFree/commit/7319bc7f26ee183deb7ead892420a6137cca1360))
-
-
-
-## [0.55.22](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.21...v0.55.22) (2022-01-05)
-
-
-### Bug Fixes
-
-* add Rahulbaran ([#915](https://github.com/EddieHubCommunity/LinkFree/issues/915)) ([9aa3aea](https://github.com/EddieHubCommunity/LinkFree/commit/9aa3aea3047ac65f4e62edf8662a2004357c3c0d))
 
 
 
