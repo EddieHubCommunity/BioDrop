@@ -41,6 +41,8 @@ Before installation, please make sure you have already installed the following t
 5. Run `npm start`
 6. Optional: Run the tests with `npm run cypress:run`
 
+> **Warning**: After adding your profile, you'll not see it on the home page; you can see your profile in the main menu by running the command `npm run generate`.
+
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 ## 👨‍💻 Contributing
