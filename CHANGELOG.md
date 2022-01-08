@@ -1,3 +1,12 @@
+## [0.58.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.1...v0.58.2) (2022-01-08)
+
+
+### Bug Fixes
+
+* improved the docs ([4d96088](https://github.com/EddieHubCommunity/LinkFree/commit/4d9608893c4bbfcd804b692c7df5caa6a671d4d9))
+
+
+
 ## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Correct item alignment on error page ([#924](https://github.com/EddieHubCommunity/LinkFree/issues/924)) ([313750e](https://github.com/EddieHubCommunity/LinkFree/commit/313750ed5226a35a35d876cceb1f0ff547d7054a))
-
-
-
-# [0.56.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.22...v0.56.0) (2022-01-05)
-
-
-### Features
-
-* add snapchat and codeforces ([#898](https://github.com/EddieHubCommunity/LinkFree/issues/898)) ([7319bc7](https://github.com/EddieHubCommunity/LinkFree/commit/7319bc7f26ee183deb7ead892420a6137cca1360))
 
 
 
