@@ -39,7 +39,7 @@ function Users({ list }) {
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
-                className="m-2"
+                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
                 template={
                   <>
                     <Avatar
