@@ -100,7 +100,7 @@ For example: <http://linkfree.eddiehub.org/eddiejaoude>
 
 To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account. 
 
-For example: <http://linkfree.eddiehub.org/eddiejaoude.png>
+For example: <http://github.com/eddiejaoude.png>
 
 ### Available Icons:
 
