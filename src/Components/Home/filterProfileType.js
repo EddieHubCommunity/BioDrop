@@ -5,7 +5,7 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
   return (
     <select value={profileType} onChange={(e) => typeHandler(e.target.value)}>
       <option value="personal">Personal</option>
-      <option value="misc">Misc</option>
+      <option value="all">All</option>
       <option value="community">Community</option>
     </select>
   )
