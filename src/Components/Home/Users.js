@@ -12,13 +12,13 @@ import ProfileTypeFilter from './filterProfileType'
 import utils from '../../utils'
 
 function Users({ list }) {
-  const [profileType, setProfileType] = useState('misc')
+  const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
 
   const typeHandler = (value) => {
     setProfileType(value)
-    if (value === 'misc') {
+    if (value === 'all') {
       return setFilteredList(
         list.filter((User) =>
           User.name
@@ -51,7 +51,7 @@ function Users({ list }) {
             .includes(value.normalize('NFD').toLowerCase()),
         )
         .filter((User) => {
-          if (profileType === 'misc') return true
+          if (profileType === 'all') return true
           return User.type ? User.type === profileType : false
         }),
     )
@@ -65,7 +65,7 @@ function Users({ list }) {
         }
       />
       <div className="flex justify-content-center align-items-center">
-        <label className="p-2">Profile Type</label>
+        <label className="text-sm p-2">Profile Type</label>
         <ProfileTypeFilter
           profileType={profileType}
           typeHandler={typeHandler}
