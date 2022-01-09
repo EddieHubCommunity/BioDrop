@@ -26,12 +26,6 @@ a {
   opacity: 1;
 }
 
-span.p-chip-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 @media screen and (max-width: 768px) {
   .p-chip > .p-avatar > .p-badge {
     opacity: 1;

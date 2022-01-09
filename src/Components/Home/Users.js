@@ -56,7 +56,9 @@ function Users({ list }) {
                         className="mr-3"
                       ></Badge>
                     </Avatar>
-                    <span className="p-chip-text">{user.name}</span>
+                    <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
+                      {user.name}
+                    </span>
                   </>
                 }
               />
