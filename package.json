@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "primeflex": "^3.1.2",
+    "primeicons": "^5.0.0",
     "primereact": "^6.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

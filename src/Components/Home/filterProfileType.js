@@ -1,13 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { Dropdown } from 'primereact/dropdown'
 
 export default function ProfileTypeFilter({ profileType, typeHandler }) {
+  const profileTypes = [
+    { label: 'Personal', value: 'personal' },
+    { label: 'All', value: 'all' },
+    { label: 'Community', value: 'community' },
+  ]
+
   return (
-    <select value={profileType} onChange={(e) => typeHandler(e.target.value)}>
-      <option value="personal">Personal</option>
-      <option value="all">All</option>
-      <option value="community">Community</option>
-    </select>
+    <Dropdown
+      value={profileType}
+      options={profileTypes}
+      onChange={(e) => typeHandler(e.value)}
+    />
   )
 }
 

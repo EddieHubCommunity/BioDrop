@@ -64,8 +64,8 @@ function Users({ list }) {
           <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         }
       />
-      <div className="flex justify-content-center align-items-center">
-        <label className="text-sm p-2">Profile Type</label>
+      <div className="mb-2 flex justify-content-center align-items-center">
+        <label className="p-2">Profile Type</label>
         <ProfileTypeFilter
           profileType={profileType}
           typeHandler={typeHandler}
