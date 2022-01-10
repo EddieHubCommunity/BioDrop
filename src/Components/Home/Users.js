@@ -8,21 +8,52 @@ import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
+import ProfileTypeFilter from './filterProfileType'
 import utils from '../../utils'
 
 function Users({ list }) {
+  const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
+
+  const typeHandler = (value) => {
+    setProfileType(value)
+    if (value === 'all') {
+      return setFilteredList(
+        list.filter((User) =>
+          User.name
+            .normalize('NFD')
+            .toLowerCase()
+            .includes(searchTerm.normalize('NFD').toLowerCase()),
+        ),
+      )
+    }
+    setFilteredList(
+      list
+        .filter((User) => (User.type ? User.type === value : false))
+        .filter((User) =>
+          User.name
+            .normalize('NFD')
+            .toLowerCase()
+            .includes(searchTerm.normalize('NFD').toLowerCase()),
+        ),
+    )
+  }
 
   const searchHandler = (value) => {
     setSearchTerm(value || '')
     setFilteredList(
-      list.filter((User) =>
-        User.name
-          .normalize('NFD')
-          .toLowerCase()
-          .includes(value.normalize('NFD').toLowerCase()),
-      ),
+      list
+        .filter((User) =>
+          User.name
+            .normalize('NFD')
+            .toLowerCase()
+            .includes(value.normalize('NFD').toLowerCase()),
+        )
+        .filter((User) => {
+          if (profileType === 'all') return true
+          return User.type ? User.type === profileType : false
+        }),
     )
   }
 
@@ -33,6 +64,13 @@ function Users({ list }) {
           <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         }
       />
+      <div className="mb-2 flex justify-content-center align-items-center">
+        <label className="p-2">Profile Type</label>
+        <ProfileTypeFilter
+          profileType={profileType}
+          typeHandler={typeHandler}
+        />
+      </div>
       <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
