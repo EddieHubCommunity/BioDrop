@@ -18,16 +18,16 @@
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
-**3.** Set upstream command:
-
-```bash
-git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
-```
-
-**4.** Navigate to the new project directory:
+**3.** Navigate to the new project directory:
 
 ```bash
 cd LinkFree
+```
+
+**4.** Set upstream command:
+
+```bash
+git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
 ```
 
 **5.** Create a new branch:
