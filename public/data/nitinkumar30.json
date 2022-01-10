@@ -17,19 +17,19 @@
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/nitinkumar30.py/",
-      "icon": "twitter"
+      "icon": "instagram"
     },
     {
       "name": "Visit my portfolio",
       "url": "https://portfolio-nitin.netlify.app/",
-      "icon": "Link"
+      "icon": "link"
     },
   ],
   "milestones": [
     {
       "title": "Learned Python Basics & Intermdiate",
       "date": "June 2019",
-      "icon": "YouTube",
+      "icon": "youTube",
       "color": "red",
       "description": "Begun my journey in Data Science & Machine Learning. Also focused on problem solving first."
     },
