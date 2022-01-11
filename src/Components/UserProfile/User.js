@@ -18,12 +18,18 @@ function User() {
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
-      .then((data) => setProfile(data))
+      .then((data) => {
+        setProfile(data)
+        document.title = `${data.name} | Link Free`
+      })
       .catch(() => setError(true))
       .finally(() => {
         setShowProgress(false)
         setTimeout(() => setskeleton(false), 500)
       })
+    return () => {
+      document.title = 'Link Free'
+    }
   }, [username])
 
   return (
