@@ -13,6 +13,20 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/vikasganiga05",
       "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/vikasganiga05",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Getting grip on Open Source",
+      "date": "May 2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Started contributing to Open Source projects."
     }
   ]
 }
