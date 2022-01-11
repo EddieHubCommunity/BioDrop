@@ -39,7 +39,7 @@ export default function ShareProfile({ username }) {
           ></div>
 
           <div
-            style={{ marginTop: '40vh' }}
+            style={{ marginTop: '40vh', borderRadius: '1rem' }}
             className="flex bg-white justify-content-center z-5 p-6 absolute mx-auto align-items-center"
           >
             <ShareIcon
@@ -63,8 +63,7 @@ export default function ShareProfile({ username }) {
               aria-label="Copy link to profile"
             >
               <GetIcons
-                style={{ color: '#333' }}
-                className="w-2rem h-2rem my-2rem cursor-pointer mx-5"
+                className="w-2rem h-2rem my-2rem cursor-pointer mx-5 share-icons copyLink"
                 iconName="link"
                 size={20}
               />
