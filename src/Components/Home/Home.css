@@ -40,3 +40,11 @@ span.p-chip-text {
     opacity: 1;
   }
 }
+
+label {
+  text-decoration:underline;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;  
+}
