@@ -13,6 +13,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/vikasganiga05",
       "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/vikasganiga05",
+      "icon": "linkedin"
     }
   ]
 }
