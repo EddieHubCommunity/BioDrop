@@ -57,6 +57,10 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
+⚠️ **Make sure** not to commit package-json or package-look.json file
+
+⚠️ **Make sure** not to run the command `git add .` or `git add *`
+
 ```bash
 git add public
 ```
