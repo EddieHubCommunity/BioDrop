@@ -15,21 +15,18 @@
         "icon": "twitter"
       }
     ],
-    "milestones": [
-      {
-        "title": "Web Development",
-        "date": "September 2021",
-        "color": "grey",
-        "description": "Discovered Web Development and currently learning JavaScript"
-      }
-    ],
-
-    "milestones": [
+  "milestones": [
     {
-        "title": "Open Source Contributer",
-        "date": "January 2022",
-        "color": "grey",
-        "description": "Learning Git and Github , actively contributing to Open Source and Collaborations"
+      "title": "Web Development",
+      "date": "September 2021",
+      "color": "grey",
+      "description": "Discovered Web Development and currently learning JavaScript"
+    },
+    {
+      "title": "Open Source Contributor",
+      "date": "January 2022",
+      "color": "grey",
+      "description": "Learning Git and Github, actively contributing to Open Source and Collaboration"
     }
-    ]
-  }
+  ]
+}
