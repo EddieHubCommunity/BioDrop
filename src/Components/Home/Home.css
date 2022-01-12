@@ -3,10 +3,7 @@ a {
 }
 
 .p-chip {
-  transition: transform 0.33s;
-  padding: 0.4rem 0.9rem;
   border-radius: 2rem;
-  width: 16rem;
 }
 
 .p-chip:hover {
@@ -27,12 +24,6 @@ a {
 
 .p-chip:hover > .p-avatar > .p-badge {
   opacity: 1;
-}
-
-span.p-chip-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 768px) {
