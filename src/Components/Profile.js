@@ -23,7 +23,7 @@ function Profile({ profile, username }) {
           }}
         />
         <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
-          <h1 className="m-2">{name}</h1>
+          <h1 className="m-2">Making a random change</h1>
           <h4 className="my-0">({username})</h4>
         </div>
         <ShareProfile username={username} />
