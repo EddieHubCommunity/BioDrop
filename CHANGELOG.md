@@ -1,3 +1,12 @@
+## [0.59.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.0...v0.59.1) (2022-01-12)
+
+
+### Bug Fixes
+
+* Replace custom CSS with prime-react classes for Home/Users.js ([#944](https://github.com/EddieHubCommunity/LinkFree/issues/944)) ([f304d7e](https://github.com/EddieHubCommunity/LinkFree/commit/f304d7ee21e0c485bdd6a0181bcd3062ebd726fd))
+
+
+
 # [0.59.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.3...v0.59.0) (2022-01-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
-
-
-
-# [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
-
-
-### Features
-
-* Add Scroll-to-top button ([#921](https://github.com/EddieHubCommunity/LinkFree/issues/921)) ([966389a](https://github.com/EddieHubCommunity/LinkFree/commit/966389a06e6356bbb67f7a5ebf2805b9f47e3bf7))
 
 
 
