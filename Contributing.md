@@ -59,7 +59,7 @@ git merge upstream/main
 
 ⚠️ **Make sure** not to commit package.json or package-lock.json file
 
-⚠️ **Make sure** not to run the command `git add .` or `git add *`
+⚠️ **Make sure** not to run the command `git add .` or `git add *`instead stage your changes for each file/folder
 
 ```bash
 git add public
