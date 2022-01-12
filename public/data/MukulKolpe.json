@@ -1,11 +1,12 @@
 {
   "name": "Mukul Kolpe",
+  "type": "personal",
   "bio": "Open Source Enthusiast | Web Developer",
   "avatar": "https://github.com/MukulKolpe.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/MukulKolpe",
+      "url": "https://github.com/MukulKolpe",
       "icon": "github"
     },
     {

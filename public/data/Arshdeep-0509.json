@@ -1,11 +1,12 @@
 {
   "name": "Arshdeep Singh",
+  "type": "personal",
   "bio": "MERN stack developer || Student",
   "avatar": "https://github.com/Arshdeep-0509.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/Arshdeep-0509",
+      "url": "https://github.com/Arshdeep-0509",
       "icon": "github"
     }
   ]

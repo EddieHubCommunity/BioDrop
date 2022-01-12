@@ -1,5 +1,6 @@
 {
   "name": "Doni Wirawan",
+  "type": "personal",
   "bio": "Web Developer || CS Student || 19",
   "avatar": "https://github.com/doniwirawan.png",
   "links": [
@@ -21,7 +22,7 @@
     {
       "name": "My Personal Website",
       "url": "https://www.doniwirawan.studio",
-      "icon": "website"
+      "icon": "globe"
     }
   ]
 }

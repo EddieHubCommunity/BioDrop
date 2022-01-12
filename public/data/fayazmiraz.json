@@ -1,17 +1,18 @@
 {
   "name": "Fayaz Ahmed",
+  "type": "personal",
   "bio": "Software Engineer » Web Developer since 2006 ✨",
   "avatar": "https://github.com/fayazmiraz.png",
   "links": [
     {
-        "name": "Follow me on Twitter ⚡️",
-        "url": "https://twitter.com/FayazDev",
-        "icon": "twitter"
+      "name": "Follow me on Twitter ⚡️",
+      "url": "https://twitter.com/FayazDev",
+      "icon": "twitter"
     },
     {
       "name": "Visit my website 🌎",
       "url": "https://www.fayazmiraz.com/",
-      "icon": "link"
+      "icon": "globe"
     },
     {
       "name": "Follow me on GitHub ⭐️",
@@ -26,7 +27,7 @@
     {
       "name": "Connect with me on LinkedIn 🖇",
       "url": "https://www.linkedin.com/in/fayazdev/",
-      "icon": "link"
+      "icon": "linkedin"
     }
   ],
   "milestones": [

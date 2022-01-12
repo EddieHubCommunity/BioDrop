@@ -1,5 +1,6 @@
 {
   "name": "Moeen Ul Islam",
+  "type": "personal",
   "bio": "Aspiring Full-stack web developer",
   "avatar": "https://github.com/moeen-ul-islam.png",
   "links": [
@@ -16,7 +17,7 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/moeenulislam",
-      "icon": "linkedIn"
+      "icon": "linkedin"
     }
   ]
 }

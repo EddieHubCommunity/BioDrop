@@ -1,16 +1,17 @@
 {
   "name": "Florian Clanet",
+  "type": "personal",
   "bio": "Cloud Enthusiast",
   "avatar": "https://github.com/Flolight.png",
   "links": [
     {
       "name": "GitHub",
-      "url": "http://github.com/Flolight",
+      "url": "https://github.com/Flolight",
       "icon": "github"
     },
     {
       "name": "Twitter",
-      "url": "http://twitter.com/FlolightC",
+      "url": "https://twitter.com/FlolightC",
       "icon": "twitter"
     }
   ]

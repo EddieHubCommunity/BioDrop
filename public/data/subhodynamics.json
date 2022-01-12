@@ -1,21 +1,22 @@
 {
   "name": "Subhadeep Pathak",
+  "type": "personal",
   "bio": "Coder | UG Student | YT Conten creator",
   "avatar": "https://github.com/subhodynamics.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/subhodynamics",
+      "url": "https://github.com/subhodynamics",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/subhodynamics",
+      "url": "https://twitter.com/subhodynamics",
       "icon": "twitter"
     },
     {
       "name": "Subscribe to my youtube channel",
-      "url": "http://youtube.com/subhodynamics",
+      "url": "https://youtube.com/subhodynamics",
       "icon": "youtube"
     }
   ]

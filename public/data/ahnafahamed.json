@@ -1,5 +1,6 @@
 {
   "name": "Ahnaf Ahamed",
+  "type": "personal",
   "bio": "Front-end developer",
   "avatar": "https://github.com/AhnafAhamed.png",
   "links": [
@@ -10,7 +11,7 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/ahnfahmd",
+      "url": "https://twitter.com/ahnfahmd",
       "icon": "twitter"
     }
   ]

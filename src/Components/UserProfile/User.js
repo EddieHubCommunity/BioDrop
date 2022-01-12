@@ -6,6 +6,7 @@ import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
 import ErrorPage from './ErrorPage'
 import Navbar from '../Navbar'
+import GetIcons from '../Icons/GetIcons'
 
 function User() {
   const [showProgress, setShowProgress] = useState(true)
@@ -26,21 +27,23 @@ function User() {
   }, [username])
 
   return (
-    <main>
+    <>
       <Navbar
         start={
           <Link to="/" aria-label="Go back to Home">
-            <i className="pi pi-arrow-left"></i>
+            <GetIcons iconName="arrowLeft" size={20} />
           </Link>
         }
       />
-      {showProgress && <ProgressBar mode="indeterminate" />}
-      {skeleton && <Placeholder />}
-      {error && <ErrorPage />}
-      {!error && !skeleton && (
-        <ProfilePage profile={profile} username={username} />
-      )}
-    </main>
+      <main>
+        {showProgress && <ProgressBar mode="indeterminate" />}
+        {skeleton && <Placeholder />}
+        {error && <ErrorPage />}
+        {!error && !skeleton && (
+          <ProfilePage profile={profile} username={username} />
+        )}
+      </main>
+    </>
   )
 }
 

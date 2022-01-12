@@ -1,5 +1,6 @@
 {
   "name": "Victor Eke",
+  "type": "personal",
   "bio": "Frontend web developer, technical writer who is passionate about web development and open-source",
   "avatar": "https://github.com/evavic44.png",
   "links": [
@@ -16,7 +17,7 @@
     {
       "name": "Check out my articles on Hashnode",
       "url": "https://hashnode.com/@Eke",
-      "icon": "hashnode"
+      "icon": "book"
     }
   ],
   "milestones": [
