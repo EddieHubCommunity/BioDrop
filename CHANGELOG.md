@@ -1,3 +1,12 @@
+## [0.59.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.1...v0.59.2) (2022-01-14)
+
+
+### Bug Fixes
+
+* Add medium as new social icon ([#984](https://github.com/EddieHubCommunity/LinkFree/issues/984)) ([fa1e59e](https://github.com/EddieHubCommunity/LinkFree/commit/fa1e59e09a2fd2e5ab787cba32031da9c0136890)), closes [#982](https://github.com/EddieHubCommunity/LinkFree/issues/982)
+
+
+
 ## [0.59.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.0...v0.59.1) (2022-01-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improved the docs ([4d96088](https://github.com/EddieHubCommunity/LinkFree/commit/4d9608893c4bbfcd804b692c7df5caa6a671d4d9))
-
-
-
-## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
-
-
-### Bug Fixes
-
-* improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
 
 
 
