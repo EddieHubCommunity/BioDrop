@@ -17,7 +17,12 @@
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/ronen-hammond",
-      "icon": "linkedIn"
+      "icon": "linkedin"
+    },
+    {
+      "name": "Portfolio Website",
+      "url": "https://www.ronenhammond.me",
+      "icon": "globe"
     }
   ],
   "milestones": [
