@@ -1,0 +1,38 @@
+{
+    "name": "Aaquib Ali",
+    "type": "personal",
+    "bio": "Improving the world w/ better education...",
+    "avatar": "https://github.com/aaquibdev.png",
+    "links": [
+      {
+        "name": "Blogs",
+        "url": "https://aaquibdev.medium.com/",
+        "icon": "book"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/aaquib_dev",
+        "icon": "twitter"
+      },
+      {
+        "name": "Check out my portfolio",
+        "url": "https://aaquibdev.github.io/Aaquib-Ali-Portfolio/",
+        "icon": "globe"
+      },
+      {
+        "name": "Connect with me on LinkedIn",
+        "url": "https://www.linkedin.com/in/aaquib-ali-39494b210/",
+        "icon": "linkedin"
+      },
+      {
+        "name": "Check out my GitHub",
+        "url": "https://github.com/aaquibdev",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Instagram",
+        "url": "https://www.instagram.com/aaquib.dev/",
+        "icon": "instagram"
+      }
+    ]
+  }
