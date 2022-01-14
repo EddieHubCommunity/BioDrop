@@ -20,16 +20,20 @@ function ScrollToTopBtn() {
     }
   }, [])
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    })
-    setScrollBtnVisibility(scrollBtnVisibility)
+  const scrollToTop = (e) => {
+    if (e.type === 'click' || e.key === 'Enter') {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
+      setScrollBtnVisibility(scrollBtnVisibility)
+    }
   }
 
   return (
     <BsFillArrowUpCircleFill
+      tabIndex={0}
+      onKeyPress={scrollToTop}
       style={scrollBtnVisibility ? {} : { display: 'none' }}
       className="scrollToTop-btn"
       onClick={scrollToTop}
