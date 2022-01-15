@@ -1,0 +1,14 @@
+{
+  " name " : "SRINIKA SEMWAL",
+  " type " : " personal ",
+  " bio " : "student, beginner open sourve enthusiast !",
+  " avatar": " https://github.com/Srinika99.png",
+  "links": [
+      {
+          "name": "github",
+          "url": "https://github.com/Srinika99",
+          "icon": "github"
+      }
+  ]
+
+}
