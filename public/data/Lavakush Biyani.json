@@ -15,26 +15,25 @@
       "icon": "twitter"
     },
     {
-     "name":"Follow me on LinkedIn",
-      "url":"https://www.linkedin.com/in/lavkush-biyani-07/",
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lavkush-biyani-07/",
       "icon": "Linkedin"
     }
   ],
-   "milestones": [
+  "milestones": [
     {
       "title": "Started Web devlopment",
       "date": "April 2021",
       "icon": "code",
       "color": "grey",
       "description": "Started building websites"
-    },{
-      "title":"Started competitive programming",
-      "date":"December 2020",
-      "icon":"code",
-      "color":"blue",
-      "description":"Started participating on CodeChef, Geeks for Geeks"
+    },
+    {
+      "title": "Started competitive programming",
+      "date": "December 2020",
+      "icon": "code",
+      "color": "blue",
+      "description": "Started participating on CodeChef, Geeks for Geeks"
     }
-    
   ]
-
 }
