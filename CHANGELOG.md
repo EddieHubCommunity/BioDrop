@@ -1,3 +1,12 @@
+# [0.60.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.2...v0.60.0) (2022-01-15)
+
+
+### Features
+
+* Sorted config/links.json and getIcons.js by alphabetical order ([#991](https://github.com/EddieHubCommunity/LinkFree/issues/991)) ([868252f](https://github.com/EddieHubCommunity/LinkFree/commit/868252f6198ba28debfe594d1a180aaa126ca3d9)), closes [#988](https://github.com/EddieHubCommunity/LinkFree/issues/988) [#988](https://github.com/EddieHubCommunity/LinkFree/issues/988)
+
+
+
 ## [0.59.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.1...v0.59.2) (2022-01-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve  `avatar` section of README.md ([#930](https://github.com/EddieHubCommunity/LinkFree/issues/930)) ([e412074](https://github.com/EddieHubCommunity/LinkFree/commit/e4120748e6d1dc42201e48885fd62494ade9931e))
-
-
-
-## [0.58.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.1...v0.58.2) (2022-01-08)
-
-
-### Bug Fixes
-
-* improved the docs ([4d96088](https://github.com/EddieHubCommunity/LinkFree/commit/4d9608893c4bbfcd804b692c7df5caa6a671d4d9))
 
 
 
