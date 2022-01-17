@@ -13,6 +13,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_shivansh_13",
       "icon": "twitter"
+    },
+    {
+      "name": "Checkout my Blogs",
+      "url": "https://medium.com/@shivanshyadav13",
+      "icon": "medium"
     }
   ]
 }
