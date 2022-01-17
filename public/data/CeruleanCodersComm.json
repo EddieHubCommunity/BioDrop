@@ -1,0 +1,18 @@
+{
+  "name": "Cerulean Coders",
+  "type": "community",
+  "bio": "An student-run open source community focusing on project based learning.",
+  "avatar": "https://github.com/CeruleanCodersComm.png",
+  "links": [
+    {
+      "name": "Join our GitHub Organisation",
+      "url": "https://github.com/CeruleanCodersComm",
+      "icon": "github"
+    },
+    {
+      "name": "Join our Discord Community",
+      "url": "https://dsc.gg/ceruleancoders",
+      "icon": "discord"
+    }
+  ]
+}
