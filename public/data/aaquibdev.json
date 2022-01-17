@@ -2,7 +2,7 @@
     "name": "Aaquib Ali",
     "type": "personal",
     "bio": "Improving the world w/ better education...",
-    "avatar": "https://github.com/aaquibdev.png",
+    "avatar": "https://github.com/devaaquib.png",
     "links": [
       {
         "name": "Blogs",
@@ -11,12 +11,12 @@
       },
       {
         "name": "Follow me on Twitter",
-        "url": "https://twitter.com/aaquib_dev",
+        "url": "https://twitter.com/dev_aaquib",
         "icon": "twitter"
       },
       {
         "name": "Check out my portfolio",
-        "url": "https://aaquibdev.github.io/Aaquib-Ali-Portfolio/",
+        "url": "https://devaaquib.github.io/Aaquib-Ali-Portfolio/",
         "icon": "globe"
       },
       {
@@ -26,7 +26,7 @@
       },
       {
         "name": "Check out my GitHub",
-        "url": "https://github.com/aaquibdev",
+        "url": "https://github.com/devaaquib",
         "icon": "github"
       },
       {
