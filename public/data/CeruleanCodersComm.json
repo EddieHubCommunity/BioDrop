@@ -1,7 +1,7 @@
 {
   "name": "Cerulean Coders",
   "type": "community",
-  "bio": "Community of inclusive Open Source people - Collaboration 1st, Code 2nd!",
+  "bio": "An student-run open source community focusing on project based learning.",
   "avatar": "https://github.com/CeruleanCodersComm.png",
   "links": [
     {
@@ -14,6 +14,5 @@
       "url": "https://dsc.gg/ceruleancoders",
       "icon": "discord"
     }
-  ],
-  "milestones": []
+  ]
 }
