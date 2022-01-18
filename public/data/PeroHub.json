@@ -19,21 +19,21 @@
     {
       "title": "Started Data Structures & Algorithms",
       "date": "January 2022",
-      "icon": "Freecodecamp",
+      "icon": "freecodecamp",
       "color": "red",
       "description": "Slowly getting better at solving algorithm problems"
     },
     {
       "title": "Started Open Source",
       "date": "January 2022",
-      "icon": "GitHub",
+      "icon": "github",
       "color": "green",
       "description": "Started Contibuting To Beginner friendly Issues"
     },
     {
       "title": "Block-Chain Development",
       "date": "January 2022",
-      "icon": "Globe",
+      "icon": "globe",
       "color": "orange",
       "description": "Working on the ethereum block-chain with solidity programming language"
     }
