@@ -33,6 +33,14 @@
       "color": "grey",
       "description": "Started Learning to Code",
       "url": "https://www.krishguptadev.tech"
+    },
+    {
+      "title": "Founded Cerulean Coders",
+      "date": "15th December 2021",
+      "icon": "users",
+      "color": "grey",
+      "description": "Founded Cerulean Coders, An student-run open source community focusing on project based learning.",
+      "url": "http://linkfree.eddiehub.org/CeruleanCodersComm"
     }
   ]
 }

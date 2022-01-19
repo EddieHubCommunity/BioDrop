@@ -1,3 +1,12 @@
+## [0.60.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.0...v0.60.1) (2022-01-17)
+
+
+### Bug Fixes
+
+* profile element hierarchy ([#660](https://github.com/EddieHubCommunity/LinkFree/issues/660)) ([53b685b](https://github.com/EddieHubCommunity/LinkFree/commit/53b685b6bb7d852427be4b60f727b4e1e7641dd0))
+
+
+
 # [0.60.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.2...v0.60.0) (2022-01-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * filter by profile type ([#937](https://github.com/EddieHubCommunity/LinkFree/issues/937)) ([3db2c35](https://github.com/EddieHubCommunity/LinkFree/commit/3db2c357c0036bb23da1c59f28bf3a5e043254af))
-
-
-
-## [0.58.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.2...v0.58.3) (2022-01-08)
-
-
-### Bug Fixes
-
-* improve  `avatar` section of README.md ([#930](https://github.com/EddieHubCommunity/LinkFree/issues/930)) ([e412074](https://github.com/EddieHubCommunity/LinkFree/commit/e4120748e6d1dc42201e48885fd62494ade9931e))
 
 
 
