@@ -23,7 +23,7 @@ function Profile({ profile, username }) {
         />
         <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
           <h1 className="m-2">{name}</h1>
-          <h4 className="my-0">({username})</h4>
+          <p className="my-0 font-bold">({username})</p>
         </div>
       </div>
       <div className="flex justify-content-center w-50">
