@@ -31,9 +31,9 @@ import {
 import {
   SiCodeforces,
   SiCodewars,
+  SiHackerrank,
   SiHashnode,
   SiMedium,
-  SiHackerrank,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
