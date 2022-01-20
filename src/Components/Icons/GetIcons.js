@@ -67,6 +67,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaGlobe {...restProps} />
     case 'graduation-hat':
       return <FaGraduationCap {...restProps} />
+    case 'hackerrank':
+      return <SiHackerrank {...restProps} />
     case 'hashnode':
       return <SiHashnode {...restProps} />
     case 'instagram':
@@ -101,8 +103,6 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaVimeo {...restProps} />
     case 'youtube':
       return <FaYoutube {...restProps} />
-    case 'hackerrank':
-      return <SiHackerrank {...restProps} />
     default:
       return <FaGlobe {...restProps} />
   }
