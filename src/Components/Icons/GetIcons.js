@@ -28,7 +28,13 @@ import {
   FaTelegram,
   FaSnapchat,
 } from 'react-icons/fa'
-import { SiCodeforces, SiCodewars, SiHashnode, SiMedium } from 'react-icons/si'
+import {
+  SiCodeforces,
+  SiCodewars,
+  SiHashnode,
+  SiMedium,
+  SiHackerrank,
+} from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
@@ -95,6 +101,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaVimeo {...restProps} />
     case 'youtube':
       return <FaYoutube {...restProps} />
+    case 'hackerrank':
+      return <SiHackerrank {...restProps} />
     default:
       return <FaGlobe {...restProps} />
   }
