@@ -13,6 +13,7 @@
     "github": "#171515",
     "globe": "#808080",
     "graduation-hat": "#808080",
+    "hackerrank": "#0c0c14",
     "hashnode": "#2962FF",
     "instagram": "#833AB4",
     "link": "#1a1817",
@@ -28,7 +29,6 @@
     "twitch": "#9146FF",
     "twitter": "#00ACEE",
     "vimeo": "#1AB7EA",
-    "youtube": "#FF0000",
-    "hackerrank": "#0c0c14"
+    "youtube": "#FF0000"
   }
 }
