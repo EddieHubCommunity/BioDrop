@@ -1,0 +1,46 @@
+{
+  "name": "Susmita Dey",
+  "type": "personal",
+  "bio": "Web Dev & Open Source Enthusiast!",
+  "avatar": "https://github.com/Susmita-Dey.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Susmita-Dey",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/its_SusmitaDey",
+      "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Web Development and other cool projects on my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw",
+      "icon": "youtube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/susmita-dey-15a15a210/",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "July 2021",
+      "icon": "youtube",
+      "color": "red",
+      "description": "First real video",
+      "url": "https://www.youtube.com/channel/UCsuzc8lqAbgUYo4yzpjtfSw"
+    },
+    {
+      "title": "Hackerrank",
+      "date": "2020",
+      "icon": "hackerrank",
+      "color": "green",
+      "description": "Gained some stars on Hackerrank",
+      "url": "https://www.hackerrank.com/susmitadey475"
+    }
+  ]
+}
