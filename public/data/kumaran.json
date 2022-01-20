@@ -1,6 +1,6 @@
 {
     "name": "T.kumaran",
-    "type": "Cybersecurity Enthusiast",
+    "type": "personal",
     "bio": "Open Source Enthusiast!",
     "avatar": "https://github.com/synackred.png",
     "links": [
@@ -23,5 +23,6 @@
         "color": "grey",
         "description": "Started freelancing"
       }
-    ]
-  }
+ ]
+
+}
