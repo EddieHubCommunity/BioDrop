@@ -1,12 +1,13 @@
 {
   "name": "Anshumaan Kumar Prasad",
+  "type": "personal",
   "bio": "Junior at Information Technology & Services",
   "avatar": "https://github.com/amino19.png",
   "links": [
     {
       "name": "Check out my portfolio",
       "url": "https://amino19.github.io/online-resume",
-      "icon": "web"
+      "icon": "globe"
     },
     {
       "name": "Connect with me on LinkedIn",

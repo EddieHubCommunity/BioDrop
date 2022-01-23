@@ -1,14 +1,12 @@
 import './Home.css'
 
 import React, { useState, useEffect, useRef } from 'react'
-import { ProgressBar } from 'primereact/progressbar'
 import { Toast } from 'primereact/toast'
 
 import Placeholders from './Placeholders'
 import Users from './Users'
 
 function Home() {
-  const [showProgress, setShowProgress] = useState(true)
   const [list, setList] = useState([])
   const [skeleton, setskeleton] = useState(true)
   const toast = useRef(null)
@@ -16,7 +14,11 @@ function Home() {
   useEffect(() => {
     fetch('/list.json')
       .then((response) => response.json())
-      .then((data) => data.sort((a, b) => a.username.localeCompare(b.username)))
+      .then((data) =>
+        data.sort((a, b) =>
+          a.name.normalize('NFD').localeCompare(b.name.normalize('NFD')),
+        ),
+      )
       .then((data) => setList(data))
       .catch((error) => {
         console.log('Home useEffect', error)
@@ -28,7 +30,6 @@ function Home() {
         })
       })
       .finally(() => {
-        setShowProgress(false)
         setTimeout(() => {
           setskeleton(false)
         }, 500)
@@ -38,7 +39,6 @@ function Home() {
   return (
     <main>
       <Toast ref={toast} />
-      {showProgress && <ProgressBar mode="indeterminate" />}
       {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
     </main>
   )

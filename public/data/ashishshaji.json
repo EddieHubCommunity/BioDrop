@@ -1,16 +1,17 @@
 {
   "name": "Ashish Shaji",
+  "type": "personal",
   "bio": "Web Developer",
   "avatar": "https://github.com/CovertGravy.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.ashishshaji.me",
+      "url": "https://github.ashishshaji.me",
       "icon": "github"
     },
     {
       "name": "Connect with me on LinkedIn",
-      "url": "http://linkedin.ashishshaji.me",
+      "url": "https://linkedin.ashishshaji.me",
       "icon": "linkedin"
     }
   ]

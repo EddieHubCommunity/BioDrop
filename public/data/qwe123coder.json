@@ -1,17 +1,23 @@
 {
   "name": "Anirudh Anup",
+  "type": "personal",
   "bio": "A passionate 13-year-old developer from India. I am always open to collaborating on projects",
-  "avatar": "http://github.com/qwe123coder.png",
+  "avatar": "https://github.com/qwe123coder.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/qwe123coder",
+      "url": "https://github.com/qwe123coder",
       "icon": "github"
     },
     {
-      "name": "Follow me on polywork",
+      "name": "Follow me on Polywork",
       "url": "https://www.polywork.com/anirudh_anup",
-      "icon": "polywork"
+      "icon": "globe"
+    },
+    {
+      "name": "Read my Blog",
+      "url": "https://dev.to/qwe123coder",
+      "icon": "book"
     }
   ]
 }

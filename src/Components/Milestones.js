@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import { Button } from 'primereact/button'
 import { Card } from 'primereact/card'
 import { Timeline } from 'primereact/timeline'
+import GetIcons from './Icons/GetIcons'
 
 function Milestones({ milestones }) {
   const goToLinkHandle = (url) => {
@@ -14,10 +15,10 @@ function Milestones({ milestones }) {
 
   const marker = (milestone) => (
     <span
-      className="custom-marker p-shadow-2"
+      className="custom-marker shadow-2"
       style={{ backgroundColor: milestone.color }}
     >
-      <i className={`pi pi-${milestone.icon} p-p-2`}></i>
+      <GetIcons iconName={milestone.icon} />
     </span>
   )
 
@@ -25,7 +26,7 @@ function Milestones({ milestones }) {
     <Card
       title={milestone.title}
       subTitle={milestone.date}
-      className="p-m-5 p-shadow-15"
+      className="my-5 md:mx-5 shadow-8"
     >
       {milestone.image && (
         <img
@@ -35,15 +36,14 @@ function Milestones({ milestones }) {
           }
           alt={milestone.title}
           width={100}
-          className="p-shadow-2"
+          className="shadow-2"
         />
       )}
       <p>{milestone.description}</p>
       {milestone.url && (
-        <div className="p-d-flex p-jc-end">
+        <div className="flex justify-content-end">
           <Button
             label="Learn more"
-            icon="pi pi-check"
             role="link"
             rel="noopener noreferrer"
             className="p-button-raised p-button-rounded"
@@ -56,8 +56,8 @@ function Milestones({ milestones }) {
   )
 
   return (
-    <section className="p-d-flex p-jc-center p-mb-5">
-      <div style={{ width: 70 + '%' }}>
+    <section className="flex justify-content-center mb-5">
+      <div className="md:col-8">
         <Timeline
           value={milestones}
           align="alternate"

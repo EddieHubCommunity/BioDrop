@@ -1,16 +1,17 @@
 {
   "name": "Iason Athanasios Giatsios",
+  "type": "personal",
   "bio": "Web Developer",
   "avatar": "https://github.com/iason9.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/iason9",
+      "url": "https://github.com/iason9",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "http://twitter.com/iason9G",
+      "url": "https://twitter.com/iason9G",
       "icon": "twitter"
     }
   ]

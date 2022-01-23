@@ -4,33 +4,32 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
-import { Badge } from 'primereact/badge'
-import ImageLoader from './ImageLoader'
+
+import utils from '../utils'
+import ShareProfile from './ShareProfile'
 
 function Profile({ profile, username }) {
-  const { name, bio, avatar, links } = profile
-
+  const { name, bio, avatar } = profile
   return (
     <section>
-      <div className="p-d-flex p-jc-center p-ai-center">
+      <div className="flex justify-content-center align-items-center">
         <Avatar
           image={avatar}
           imageAlt={`Profile picture of ${name}`}
           size="xlarge"
           shape="circle"
-          template={<ImageLoader avatar={avatar} username={name} />}
-          className="p-overlay-badge"
-        >
-          <Badge
-            value={links.length}
-            severity="info"
-            className="p-mr-2 p-mt-2"
-          />
-        </Avatar>
-        <h1 className="p-m-2">{name}</h1>
-        <h4 className="">({username})</h4>
+          onImageError={(error) => {
+            utils.setDefaultSVG(name, error)
+          }}
+        />
+        <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
+          <h1 className="mx-2 my-0">{name}</h1>
+          <p className="text-2xl font-bold mx-2 my-0">({username})</p>
+        </div>
+        <ShareProfile username={username} />
+
       </div>
-      <div className="p-d-flex p-jc-center w-50">
+      <div className="flex justify-content-center w-50">
         <p>{bio}</p>
       </div>
     </section>
@@ -43,13 +42,6 @@ Profile.propTypes = {
     name: PropTypes.string.isRequired,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    links: PropTypes.arrayOf(
-      PropTypes.shape({
-        icon: PropTypes.string,
-        name: PropTypes.string,
-        url: PropTypes.string,
-      }),
-    ),
   }),
 }
 

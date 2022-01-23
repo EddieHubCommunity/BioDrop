@@ -1,17 +1,18 @@
 {
   "name": "linkfree",
-  "version": "0.42.7",
+  "version": "0.60.2",
   "private": false,
-  "homepage": ".",
+  "homepage": "http://linkfree.eddiehub.org/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "primeflex": "^2.0.0",
-    "primeicons": "^4.1.0",
+    "primeflex": "^3.1.2",
+    "primeicons": "^5.0.0",
     "primereact": "^6.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "react-transition-group": "^4.4.2",
@@ -55,6 +56,7 @@
     "cypress": "^8.5.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
     "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-json": "^3.1.0",
@@ -62,9 +64,37 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
     "husky": "^7.0.2",
+    "lint-staged": "^12.1.4",
     "prettier": "2.4.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
+  "main": "generate.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
+  },
+  "keywords": [
+    "javascript",
+    "linktree",
+    "socials",
+    "eddiehub",
+    "reactjs",
+    "react"
+  ],
+  "author": "EddieHubCommunity",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
+  },
+  "lint-staged": {
+    "*.{js,css,md,json}": [
+      "prettier --write"
+    ],
+    "*.{js,json}": [
+      "eslint --ext [.json,.js] --fix"
+    ]
   }
 }

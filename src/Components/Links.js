@@ -2,10 +2,9 @@ import './Links.css'
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
-
 import { Button } from 'primereact/button'
-
+import GetIcons from './Icons/GetIcons'
+import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
 
 function Links({ links }) {
@@ -20,49 +19,51 @@ function Links({ links }) {
   }
 
   return (
-    <section className="p-d-flex p-jc-center p-mb-4">
-      <div
-        className="p-d-flex p-flex-column"
-        style={{ width: 70 + '%', maxWidth: 45 + 'rem' }}
-      >
+    <section className="flex justify-content-center mb-4">
+      <div className="flex flex-column w-70">
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <Link
-              to={{ pathname: link.url }}
-              target="_blank"
+            <Button
               key={`link.url_${index}`}
+              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
+              onMouseOut={MouseOut}
+              className={`p-3 my-2 p-button-outlined ${link.icon}`}
+              style={{ color: colors[link.icon] }}
+              role="link"
+              onClick={() => window.open(link.url, '_blank')}
             >
-              <Button
-                onMouseOver={(e) => {
-                  MouseOver(e, colors[link.icon])
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
                 }}
-                onMouseOut={MouseOut}
-                className={`p-p-3 p-m-2 p-button-outlined ${link.icon}`}
-                style={{ color: colors[link.icon] }}
-                role="link"
               >
-                <i className={`pi pi-${link.icon} p-px-2`}></i>
-                <span className="p-px-3">{link.name}</span>
-              </Button>
-            </Link>
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
+              <span className="px-3">{link.name}</span>
+            </Button>
           ))}
         {links
           .filter((link) => !Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <Link
-              to={{ pathname: link.url }}
-              target="_blank"
+            <Button
               key={`link.url_${index}`}
+              onMouseOver={(e) => MouseOver(e, colors.globe)}
+              onMouseOut={MouseOut}
+              className={`p-3 my-2 p-button-outlined ${link.icon}`}
+              style={{ color: colors.globe }}
+              role="link"
+              onClick={() => window.open(link.url, '_blank')}
             >
-              <Button
-                className="p-p-3 p-m-2 p-button-outlined unknown"
-                role="link"
+              <IconContext.Provider
+                value={{
+                  className: 'buttonIcon',
+                }}
               >
-                <i className="pi pi-arrow-right p-px-2"></i>
-                <span className="p-px-3">{link.name}</span>
-              </Button>
-            </Link>
+                <GetIcons iconName={link.icon} />
+              </IconContext.Provider>
+              <span className="px-3">{link.name}</span>
+            </Button>
           ))}
       </div>
     </section>

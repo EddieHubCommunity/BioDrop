@@ -5,19 +5,22 @@ import { Skeleton } from 'primereact/skeleton'
 
 function Placeholder({ list }) {
   return (
-    <div className="p-d-flex p-flex-wrap">
-      {list.map((user, key) => {
-        return (
-          <Skeleton
-            width="15%"
-            height="2.4rem"
-            borderRadius="10px"
-            className="p-mr-2 p-m-2"
-            key={`skeleton-${key}`}
-          />
-        )
-      })}
-    </div>
+    <>
+      <Skeleton shape="rectangle" height="3.2rem" className="mb-4" />
+      <div className="flex flex-wrap justify-content-center">
+        {list.map((user, key) => {
+          return (
+            <Skeleton
+              width="16rem"
+              height="4rem"
+              borderRadius="2rem"
+              className="m-2 mr-2"
+              key={`skeleton-${key}`}
+            />
+          )
+        })}
+      </div>
+    </>
   )
 }
 

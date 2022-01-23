@@ -1,11 +1,12 @@
 {
   "name": "Janmejai Singh",
+  "type": "personal",
   "bio": "Student and doing web development stuffs and competitive programming",
-  "avatar": "http://github.com/spy-1234.png",
+  "avatar": "https://github.com/spy-1234.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "http://github.com/spy-1234",
+      "url": "https://github.com/spy-1234",
       "icon": "github"
     }
   ]
