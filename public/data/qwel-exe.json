@@ -5,19 +5,24 @@
   "avatar": "https://github.com/qwe123coder.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/qwe123coder",
+      "name": "Follow Me On GitHub",
+      "url": "https://github.com/qwel-exe",
       "icon": "github"
     },
     {
-      "name": "Follow me on Polywork",
+      "name": "Follow Me On Polywork",
       "url": "https://www.polywork.com/anirudh_anup",
       "icon": "globe"
     },
     {
-      "name": "Read my Blog",
+      "name": "Read My Blog",
       "url": "https://dev.to/qwe123coder",
-      "icon": "book"
+      "icon": "DEV.to"
+    },
+    {
+      "name": "Check Out My portfolio",
+      "url": "https://qwel-exe.github.io",
+      "icon": "Globe"
     }
   ]
 }
