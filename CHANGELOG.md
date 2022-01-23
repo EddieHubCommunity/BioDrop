@@ -1,3 +1,12 @@
+# [0.61.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.3...v0.61.0) (2022-01-23)
+
+
+### Features
+
+* Add HackerRank Icon ([#1012](https://github.com/EddieHubCommunity/LinkFree/issues/1012)) ([9d14fcd](https://github.com/EddieHubCommunity/LinkFree/commit/9d14fcdeddd180f448a9eec419ca51da6bfed127))
+
+
+
 ## [0.60.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.2...v0.60.3) (2022-01-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Sorted config/links.json and getIcons.js by alphabetical order ([#991](https://github.com/EddieHubCommunity/LinkFree/issues/991)) ([868252f](https://github.com/EddieHubCommunity/LinkFree/commit/868252f6198ba28debfe594d1a180aaa126ca3d9)), closes [#988](https://github.com/EddieHubCommunity/LinkFree/issues/988) [#988](https://github.com/EddieHubCommunity/LinkFree/issues/988)
-
-
-
-## [0.59.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.59.1...v0.59.2) (2022-01-14)
-
-
-### Bug Fixes
-
-* Add medium as new social icon ([#984](https://github.com/EddieHubCommunity/LinkFree/issues/984)) ([fa1e59e](https://github.com/EddieHubCommunity/LinkFree/commit/fa1e59e09a2fd2e5ab787cba32031da9c0136890)), closes [#982](https://github.com/EddieHubCommunity/LinkFree/issues/982)
 
 
 
