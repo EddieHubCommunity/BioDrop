@@ -34,7 +34,7 @@ import {
   SiHackerrank,
   SiHashnode,
   SiMedium,
-  SiPolywork
+  SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
