@@ -28,7 +28,13 @@ import {
   FaTelegram,
   FaSnapchat,
 } from 'react-icons/fa'
-import { SiCodeforces, SiCodewars, SiHashnode, SiMedium } from 'react-icons/si'
+import {
+  SiCodeforces,
+  SiCodewars,
+  SiHackerrank,
+  SiHashnode,
+  SiMedium,
+} from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
@@ -61,6 +67,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaGlobe {...restProps} />
     case 'graduation-hat':
       return <FaGraduationCap {...restProps} />
+    case 'hackerrank':
+      return <SiHackerrank {...restProps} />
     case 'hashnode':
       return <SiHashnode {...restProps} />
     case 'instagram':
