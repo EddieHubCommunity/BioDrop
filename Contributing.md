@@ -77,6 +77,22 @@ git push origin YourBranchName
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
+## Run automated tests
+
+After making changes make sure that tests passes
+
+**1.** run the appilication:
+
+```bash
+npm run start
+```
+
+**2.** run tests with:
+
+```bash
+npm run cypress:run
+```
+
 ## Style Guide for Git Commit Messages :memo:
 
 **How you can add more value to your contribution logs:**
