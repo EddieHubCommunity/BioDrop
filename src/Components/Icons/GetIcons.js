@@ -34,6 +34,7 @@ import {
   SiHackerrank,
   SiHashnode,
   SiMedium,
+  SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
@@ -83,6 +84,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaMicrosoft {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
+    case 'polywork':
+      return <SiPolywork {...restProps} />
     case 'search':
       return <FaSearch {...restProps} />
     case 'send':
