@@ -81,7 +81,7 @@ git push origin YourBranchName
 
 After making changes make sure that tests passes
 
-**1.** run the appilication:
+**1.** Run the application
 
 ```bash
 npm run start
