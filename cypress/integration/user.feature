@@ -16,5 +16,5 @@ Feature: User profile page
 
     Scenario: Check links appear on user profile
         Given I open "eddiejaoude" page
-        Then I see "Follow me on GitHub" text in section "button"
-        And I see "Follow me on Twitter" text in section "button"
+        Then I see "Follow me on GitHub" text in section "a"
+        And I see "Follow me on Twitter" text in section "a"
