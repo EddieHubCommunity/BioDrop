@@ -57,6 +57,10 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
 ```bash
 git add public
 ```
