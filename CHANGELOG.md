@@ -1,3 +1,12 @@
+## [0.62.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.0...v0.62.1) (2022-01-25)
+
+
+### Bug Fixes
+
+* change buttons to links [#1016](https://github.com/EddieHubCommunity/LinkFree/issues/1016) ([#1025](https://github.com/EddieHubCommunity/LinkFree/issues/1025)) ([11664b1](https://github.com/EddieHubCommunity/LinkFree/commit/11664b11b1bc6f8fa9bf0f47e97fb0b3bcd1b35e))
+
+
+
 # [0.62.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.61.0...v0.62.0) (2022-01-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add hover to share icons ([#952](https://github.com/EddieHubCommunity/LinkFree/issues/952)) ([b4c19dd](https://github.com/EddieHubCommunity/LinkFree/commit/b4c19dd32338daa82142fad06b81bcbc3b5d275f))
-
-
-
-## [0.60.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.0...v0.60.1) (2022-01-17)
-
-
-### Bug Fixes
-
-* profile element hierarchy ([#660](https://github.com/EddieHubCommunity/LinkFree/issues/660)) ([53b685b](https://github.com/EddieHubCommunity/LinkFree/commit/53b685b6bb7d852427be4b60f727b4e1e7641dd0))
 
 
 
