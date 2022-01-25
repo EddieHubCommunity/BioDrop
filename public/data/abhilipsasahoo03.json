@@ -13,15 +13,15 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_abelisaurus_",
       "icon": "twitter"
-    }, 
+    },
     {
-      "name": "Check out my LinkedIn profile", 
-      "url": "https://www.linkedin.com/in/abhilipsa-sahoo-927542b1", 
+      "name": "Check out my LinkedIn profile",
+      "url": "https://www.linkedin.com/in/abhilipsa-sahoo-927542b1",
       "icon": "linkedin"
-    }, 
+    },
     {
-      "name": "Find me on YouTube", 
-      "url": "https://youtube.com/channel/UCQou4wzE0n2Ty1NRJauV1mQ", 
+      "name": "Find me on YouTube",
+      "url": "https://youtube.com/channel/UCQou4wzE0n2Ty1NRJauV1mQ",
       "icon": "youtube"
     }
   ]
