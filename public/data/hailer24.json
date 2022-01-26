@@ -1,7 +1,7 @@
 {
   "name": "Anmol Bhutani",
   "type": "personal",
-  "bio": "Just trying to git gud",
+  "bio": "Just trying to Git Gud",
   "avatar": "https://github.com/hailer24.png",
   "links": [
     {
@@ -29,13 +29,13 @@
     {
       "title": "Started Web Development",
       "date": "June 2021",
-      "icon": "Globe",
+      "icon": "globe",
       "color": "blue"
     },
     {
       "title": "Joined NIT Kurukshetra",
       "date": "July 2019",
-      "icon": "Graduation-hat",
+      "icon": "graduation-hat",
       "color": "Red"
     }
   ]
