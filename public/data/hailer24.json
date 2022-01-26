@@ -17,17 +17,17 @@
     {
       "name": "Take a look at my portfolio",
       "url": "https://mole24.netlify.app/",
-      "icon": "Link"
+      "icon": "link"
     },
     {
       "name": "Check my Codeforces account",
       "url": "https://codeforces.com/profile/mole24",
-      "icon": "Codeforces"
+      "icon": "codeforces"
     }
   ],
   "milestones": [
     {
-      "title": "Started Web development",
+      "title": "Started Web Development",
       "date": "June 2021",
       "icon": "Globe",
       "color": "blue"
@@ -35,8 +35,8 @@
     {
       "title": "Joined NIT Kurukshetra",
       "date": "July 2019",
-      "icon": "Graduation Hat",
-      "color": "blue"
+      "icon": "Graduation-hat",
+      "color": "Red"
     }
   ]
 }
