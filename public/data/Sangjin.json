@@ -1,7 +1,7 @@
 {
   "name": "Sangjin",
   "type": "personal",
-  "bio": "Open Source Enthusiast!",
+  "bio": "Open Source Enthusiast! & Backend developer",
   "avatar": "https://github.com/skmn3.png",
   "links": [
     {
@@ -10,9 +10,9 @@
       "icon": "github"
     },
     {
-      "name": "Send me on Mail",
-      "url": "sangjin170202@naver.com",
-      "icon": "Send"
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sangjin-park-91139a22a/",
+      "icon": "LinkedIn"
     }
   ]
 }
