@@ -17,7 +17,7 @@
     {
       "name": "Take a look at my GitLab",
       "url": "https://gitlab.com/kendalldoescoding",
-      "icon": "gitlab"
+      "icon": "https://about.gitlab.com/images/press/press-kit-icon.svg"
     },
     {
       "name": "Look at my subdomains/projects",
