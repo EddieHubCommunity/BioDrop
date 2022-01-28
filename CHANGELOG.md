@@ -1,3 +1,12 @@
+## [0.62.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.1...v0.62.2) (2022-01-28)
+
+
+### Bug Fixes
+
+* trigger build ([c704018](https://github.com/EddieHubCommunity/LinkFree/commit/c7040185b14c83bac11427b6d0e6ae373e9afb45))
+
+
+
 ## [0.62.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.0...v0.62.1) (2022-01-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Add tabIndex attribute to scroll to top btn ([#992](https://github.com/EddieHubCommunity/LinkFree/issues/992)) ([0666fab](https://github.com/EddieHubCommunity/LinkFree/commit/0666fab81e33039ad520b02e38e3f751fbdff877))
-
-
-
-## [0.60.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.1...v0.60.2) (2022-01-19)
-
-
-### Bug Fixes
-
-* add hover to share icons ([#952](https://github.com/EddieHubCommunity/LinkFree/issues/952)) ([b4c19dd](https://github.com/EddieHubCommunity/LinkFree/commit/b4c19dd32338daa82142fad06b81bcbc3b5d275f))
 
 
 
