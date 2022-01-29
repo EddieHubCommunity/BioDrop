@@ -17,12 +17,12 @@
     {
       "name": "Take a look at my GitLab",
       "url": "https://gitlab.com/kendalldoescoding",
-      "icon": "gitlab"
+      "icon": "link"
     },
     {
       "name": "Quiz",
       "url": "https://kendalldoescoding.gq/quiz",
-      "icon": "https://cdn-icons.flaticon.com/png/512/3261/premium/3261259.png?token=exp=1643398341~hmac=30c8bd086994bd1a76b2810fefdf0b4a"
+      "icon": "globe"
     }
     {
       "name": "Look at my subdomains/projects",
