@@ -1,0 +1,39 @@
+{
+  "name": "Kendall Pinto",
+  "type": "personal",
+  "bio": "Hello. My name is Kendall. I am a Software Developer / Coder. I have made a bunch of programs in various languages, like Python, Javascript, and the one I'm using to make this website, HTML & CSS.",
+  "avatar": "https://i.ibb.co/5LsjwVB/Avatar-Maker.png",
+  "links": [
+    {
+      "name": "Check out my personal website",
+      "url": "https://kendalldoescoding.gq/",
+      "icon": "globe"
+    },
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/kendalldoescoding",
+      "icon": "github"
+    },
+    {
+      "name": "Take a look at my GitLab",
+      "url": "https://gitlab.com/kendalldoescoding",
+      "icon": "link"
+    },
+    {
+      "name": "Quiz",
+      "url": "https://kendalldoescoding.gq/quiz",
+      "icon": "globe"
+    },
+    {
+      "name": "Look at my subdomains/projects",
+      "url": "https://kendalldoescoding.gq/subdomains",
+      "icon": "globe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Journey",
+      "date": "2020"
+    }
+  ]
+}
