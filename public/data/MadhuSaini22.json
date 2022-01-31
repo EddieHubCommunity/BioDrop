@@ -1,7 +1,7 @@
 {
   "name": "Madhu Saini",
   "type": "personal",
-  "bio": "Hello, I'm Madhu Saini. I am an Enthusiastic Open-Source contributor, Web Developer, Currently diving straight in Open Source and believing in collaboration instead of competition.",
+  "bio": "Hello, I'm Madhu Saini. I am an Enthusiastic Open-Source contributor, Web Developer, currently diving straight in Open Source and believing in collaboration instead of competition.",
   "avatar": "https://github.com/MadhuSaini22.png",
   "links": [
     {
@@ -32,26 +32,26 @@
       "date": "May 2021",
       "icon": "code",
       "color": "blue",
-      "description": "This is fully responsive chat application with social authentication including Google and Facebook using Firebase online statuses, great design and functionality, image support, ability to create multiple rooms and much more.",
+      "description": "This is a fully responsive chat application with social authentication including Google and Facebook using Firebase online statuses, great design and functionality, image support, ability to create multiple rooms and much more.",
       "url": "https://github.com/MadhuSaini22/Unichat"
     },
     {
-        "title": "Made Virtual Assistant",
-        "image": "https://user-images.githubusercontent.com/81684710/151691009-fa178f95-55cd-4669-8dc0-d78a5b00eab2.jpg",
-        "date": "April 2021",
-        "icon": "code",
-        "color": "red",
-        "description": "Virtual voice assistant with features like speak to search google,search wikipedia, ask time, play music and youtube, open vscode, open reddit, etc.",
-        "url": "https://github.com/MadhuSaini22/Virtual_Assistant"
+      "title": "Made Virtual Assistant",
+      "image": "https://user-images.githubusercontent.com/81684710/151691009-fa178f95-55cd-4669-8dc0-d78a5b00eab2.jpg",
+      "date": "April 2021",
+      "icon": "code",
+      "color": "red",
+      "description": "Virtual voice assistant with features like speak to search Google and Wikipedia, ask the time, play music and YouTube, open VS Code and Reddit, etc.",
+      "url": "https://github.com/MadhuSaini22/Virtual_Assistant"
     },
     {
-        "title": "Made Web Video Caller",
-        "image": "https://user-images.githubusercontent.com/81684710/151691064-8787f244-62e7-4578-b169-4fc66644f4f9.jpg",
-        "date": "November 2021",
-        "icon": "code",
-        "color": "green",
-        "description": "Video Chat Application, in which you can have fun with your best buddy by easy video chit chatting.",
-        "url": "https://github.com/MadhuSaini22/web-rtc-video-chat-app"
+      "title": "Made Web Video Caller",
+      "image": "https://user-images.githubusercontent.com/81684710/151691064-8787f244-62e7-4578-b169-4fc66644f4f9.jpg",
+      "date": "November 2021",
+      "icon": "code",
+      "color": "green",
+      "description": "Video Chat Application, in which you can have fun with your best buddy by easy video chit chatting.",
+      "url": "https://github.com/MadhuSaini22/web-rtc-video-chat-app"
     }
   ]
 }
