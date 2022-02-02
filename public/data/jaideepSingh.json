@@ -1,0 +1,69 @@
+{
+  "name": "Jaideep Singh",
+  "type": "personal",
+  "bio": "A Philonoist, Developer",
+  "avatar": "https://github.com/Jaideep25-tech.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Jaideep25-tech",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jaideep-singh-26a226208/",
+      "icon": "linkedin"
+    },
+        {
+      "name": "Check out my portfolio",
+      "url": "https://devaaquib.github.io/Aaquib-Ali-Portfolio/",
+      "icon": "globe"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/jaideep.java/",
+      "icon": "instagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed My android development internship",
+      "date": "Oct 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing again",
+      "url": "https://truecertificates.com/verified/YFJG74FAWF"
+    },
+    {
+      "title": "Completed java assosiate developer internship",
+      "date": "Nov 2021",
+      "icon": "dollar",
+      "color": "red",
+      "url": "https://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Became a GitHub Star with 30 other people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
+      "url": "https://github.com/eddiejaoude"
+    }
+  ]
+}
