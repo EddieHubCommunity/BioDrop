@@ -2,7 +2,7 @@
     "name": "Saif Rahman",
     "type": "personal",
     "bio": "Engineer-Student-Enthusiast",
-    "avatar": "https://avatars.githubusercontent.com/u/64410006?s=400&u=bb5179ef3d88c859be1907b535cbc6b1111372e6&v=4",
+    "avatar": "https://github.com/saifrahmn.png",
     "links": [
       {
         "name": "Follow me on GitHub",
@@ -24,14 +24,10 @@
         "url": "https://www.instagram.com/saif_rahm.n",
         "icon": "Instagram"
       },
-      {
-        "name": "Visit my Portfolio",
-        "url": "",
-        "icon": "Globe"
-      },
+      
       {
         "name": "Contact me",
-        "url": "saifrahmn78@gmail.com",
+        "url": "mailto:saifrahmn78@gmail.com",
         "icon": "Envelope"
       },
       {
