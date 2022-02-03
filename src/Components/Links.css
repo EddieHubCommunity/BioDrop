@@ -1,48 +1,48 @@
 .p-button {
-  transition: transform 0.33s !important;
-  border-radius: 40px;
-  width: 100%;
+	transition: transform 0.33s !important;
+	border-radius: 40px;
+	width: 100%;
 }
 
 .p-button:hover {
-  transform: scale(1.02);
+	transform: scale(1.02);
 }
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).unknown:hover {
-  background-color: #333;
+	background-color: #333;
 }
 
 .p-button.p-button-outlined span,
 .p-button.p-button-outlined .buttonIcon {
-  pointer-events: none;
+	pointer-events: none;
 }
 
-.p-button-outlined:hover > .buttonIcon {
-  color: #fff;
+.p-button-outlined:hover>.buttonIcon {
+	color: #fff;
 }
 
-.p-button-outlined:hover > span {
-  color: #fff;
+.p-button-outlined:hover>span {
+	color: #fff;
 }
 
 .buttonIcon {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .p-button-outlined span {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .w-70 {
-  width: 70%;
-  max-width: 45rem;
+	width: 70%;
+	max-width: 45rem;
 }
 
 @media screen and (max-width: 768px) {
-  .w-70 {
-    width: 90%;
-  }
+	.w-70 {
+		width: 90%;
+	}
 }
