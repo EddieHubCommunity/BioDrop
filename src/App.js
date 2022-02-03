@@ -1,5 +1,9 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from 'react-router-dom'
 
 import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
@@ -11,21 +15,29 @@ import User from './Components/UserProfile/User'
 import Home from './Components/Home/Home'
 
 function App() {
-  return (
-    <Router>
-      <div className="m-2 md:m-4">
-        <Switch>
-          <Route path="/:username">
-            <User />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
-  )
+    return ( <
+        Router >
+        <
+        div className = "m-2 md:m-4" >
+        <
+        Switch >
+        <
+        Route path = "/:username" >
+        <
+        User / >
+        <
+        /Route> <
+        Route path = "/" >
+        <
+        Home / >
+        <
+        /Route> <
+        /Switch> <
+        Footer / >
+        <
+        /div> <
+        /Router>
+    )
 }
 
 export default App
