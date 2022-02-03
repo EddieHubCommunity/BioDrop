@@ -27,6 +27,7 @@ import {
   FaSearch,
   FaTelegram,
   FaSnapchat,
+  FaGitlab,
 } from 'react-icons/fa'
 import {
   SiCodeforces,
@@ -64,6 +65,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaFacebook {...restProps} />
     case 'github':
       return <FaGithub {...restProps} />
+    case 'gitlab':
+      return <FaGitlab {...restProps} />
     case 'globe':
       return <FaGlobe {...restProps} />
     case 'graduation-hat':
