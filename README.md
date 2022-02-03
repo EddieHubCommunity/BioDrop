@@ -133,4 +133,6 @@ Thanks a lot for spending your time helping LinkFree grow. Thanks a lot! Keep ro
 
 ## 🙏 Support
 
-This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
+
+You can also help support this project by sponsering [https://github.com/eddiejaoude](Eddie Jaoude) on Github at [https://github.com/sponsors/eddiejaoude](https://github.com/sponsors/eddiejaoude)
