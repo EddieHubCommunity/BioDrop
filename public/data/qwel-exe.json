@@ -17,12 +17,12 @@
     {
       "name": "Read My Blog",
       "url": "https://dev.to/qwe123coder",
-      "icon": "DEV.to"
+      "icon": "dev.to"
     },
     {
       "name": "Check Out My portfolio",
       "url": "https://qwel-exe.github.io",
-      "icon": "Globe"
+      "icon": "globe"
     }
   ]
 }
