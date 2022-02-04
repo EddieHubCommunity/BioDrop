@@ -123,7 +123,7 @@ For example: <http://github.com/eddiejaoude.png>
 
 ## 🛡️ License
 
-LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 💪 Thanks to all Contributors
 
