@@ -1,8 +1,8 @@
 {
   "name": "Mustafiz Kaifee",
   "type": "personal",
-  "bio": "Hi there!, I am backend developer at freecharge.",
-  "avatar": "https://avatars.githubusercontent.com/u/49086821",
+  "bio": "Hi there! I am backend developer at Freecharge.",
+  "avatar": "https://github.com/Mustafiz04.png",
   "links": [
     {
       "name": "Check out my personal website",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/feed/",
+      "url": "https://www.linkedin.com/in/mustafizkaifee/",
       "icon": "linkedin"
     }
   ]
