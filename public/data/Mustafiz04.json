@@ -1,0 +1,28 @@
+{
+  "name": "Mustafiz Kaifee",
+  "type": "personal",
+  "bio": "Hi there!, I am backend developer at freecharge.",
+  "avatar": "https://avatars.githubusercontent.com/u/49086821",
+  "links": [
+    {
+      "name": "Check out my personal website",
+      "url": "https://mustafiz04.github.io/",
+      "icon": "globe"
+    },
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/Mustafiz04",
+      "icon": "github"
+    },
+    {
+      "name": "See my awesome tweets on Twitter",
+      "url": "https://twitter.com/mustafiz_kaifee",
+      "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/feed/",
+      "icon": "linkedin"
+    }
+  ]
+}
