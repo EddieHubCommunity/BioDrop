@@ -10,6 +10,11 @@
       "icon": "globe"
     },
     {
+      "name": "Coding Youtube",
+      "url": "https://kendalldoescoding.gq/codingYT",
+      "icon": "youtube"
+    },
+    {
       "name": "A Very Mogul Christmas (Currently Working On)",
       "url": "https://kendalldoescoding.gq/mogulchristmas",
       "icon": "globe"
@@ -33,11 +38,6 @@
       "name": "Look at my subdomains/projects",
       "url": "https://kendalldoescoding.gq/subdomains",
       "icon": "globe"
-    },
-    {
-      "name": "Coding Youtube",
-      "url": "https://kendalldoescoding.gq/codingYT",
-      "icon": "youtube"
     },
   ],
   "milestones": [
