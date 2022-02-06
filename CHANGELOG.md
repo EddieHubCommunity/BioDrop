@@ -1,3 +1,12 @@
+## [0.62.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.2...v0.62.3) (2022-02-04)
+
+
+### Bug Fixes
+
+* removed inline code for link ([91da0a5](https://github.com/EddieHubCommunity/LinkFree/commit/91da0a56450b8f6f30dfe7b8e388ef50ebd57cf2))
+
+
+
 ## [0.62.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.1...v0.62.2) (2022-01-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Add HackerRank Icon ([#1012](https://github.com/EddieHubCommunity/LinkFree/issues/1012)) ([9d14fcd](https://github.com/EddieHubCommunity/LinkFree/commit/9d14fcdeddd180f448a9eec419ca51da6bfed127))
-
-
-
-## [0.60.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.2...v0.60.3) (2022-01-23)
-
-
-### Bug Fixes
-
-* Add tabIndex attribute to scroll to top btn ([#992](https://github.com/EddieHubCommunity/LinkFree/issues/992)) ([0666fab](https://github.com/EddieHubCommunity/LinkFree/commit/0666fab81e33039ad520b02e38e3f751fbdff877))
 
 
 
