@@ -120,9 +120,6 @@ For example: <http://github.com/eddiejaoude.png>
 | Left Arrow | <img src="https://user-images.githubusercontent.com/76241195/147102920-8bf2b8c2-ad45-456e-9e5b-fe748f41214b.png" width=100% height=30%>  |Snapchat|<img src="https://user-images.githubusercontent.com/91655303/148160774-755adc38-e089-4a20-910f-292b890e2c63.png" width=100% height=30%>|Codeforces|<img src="https://user-images.githubusercontent.com/91655303/148160942-870fdbb4-a57c-4861-afaa-241835390645.png" width=100% height=30%>| HackerRank |<img src="https://user-images.githubusercontent.com/91655303/148160942-870fdbb4-a57c-4861-afaa-241835390645.png" width=100% height=30%>|
 | Medium | <img src="https://user-images.githubusercontent.com/96095830/149390066-b230f63b-3af9-4bc6-9e57-ff1b0b7298fa.png" width=100% height=30%> | Polywork | <img src="https://user-images.githubusercontent.com/97835800/150699213-6b6d1a56-dcfd-41c8-9ff4-eb02c57dbecf.png" width=100% height=30%> | GitLab |  <img src="https://user-images.githubusercontent.com/54111299/152669798-e65fd784-7957-4e10-b432-5db54dcd8ec8.png" width=100% height=30%> 
 
-
-
-
 ## 🛡️ License
 
 LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
