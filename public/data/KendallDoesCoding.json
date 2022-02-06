@@ -10,6 +10,12 @@
       "icon": "globe"
     },
     {
+      "name": "Coding Youtube",
+      "url": "https://kendalldoescoding.gq/codingYT",
+      "icon": "youtube"
+    },
+  ]    
+    {
       "name": "Take a look at my GitHub",
       "url": "https://github.com/kendalldoescoding",
       "icon": "github"
@@ -29,7 +35,7 @@
       "url": "https://kendalldoescoding.gq/subdomains",
       "icon": "globe"
     },
-  ],
+  ]
   "milestones": [
     {
       "title": "Started Tech Journey",
