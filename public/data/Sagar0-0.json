@@ -1,0 +1,18 @@
+{
+  "name": "Sagar Malhotra",
+  "type": "personal",
+  "bio": "Android Developer || AI && Open Source Enthusiast",
+  "avatar": "https://github.com/Sagar0-0.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sagar0-0",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sagar0_o",
+      "icon": "twitter"
+    }
+  ]
+}

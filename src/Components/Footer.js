@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import GetIcons from './Icons/GetIcons'
+import ScrollToTopBtn from './ScrollToTopBtn'
 
 function Footer() {
   const [version, setVersion] = useState('')
@@ -28,6 +29,7 @@ function Footer() {
         </Link>
         <span>v{version}</span>
       </p>
+      <ScrollToTopBtn />
     </footer>
   )
 }

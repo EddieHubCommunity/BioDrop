@@ -2,26 +2,21 @@
   "name": "Krish Gupta",
   "type": "personal",
   "bio": "An enthusiast student developer looking forward to contribute to open source!",
-  "avatar": "https://github.com/krishguptadev.png",
+  "avatar": "https://github.com/krshdev.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/krishguptadev",
+      "url": "https://github.com/krshdev",
       "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/krishguptadev",
+      "url": "https://twitter.com/krshdev",
       "icon": "twitter"
     },
     {
-      "name": "Checkout my blog",
-      "url": "https://blog.krishguptadev.tech",
-      "icon": "book"
-    },
-    {
       "name": "Checkout my website",
-      "url": "https://krishguptadev.tech",
+      "url": "https://krshdev.co",
       "icon": "globe"
     }
   ],
@@ -32,7 +27,15 @@
       "icon": "book",
       "color": "grey",
       "description": "Started Learning to Code",
-      "url": "https://www.krishguptadev.tech"
+      "url": "https://krshdev.co"
+    },
+    {
+      "title": "Founded Cerulean Coders",
+      "date": "15th December 2021",
+      "icon": "users",
+      "color": "grey",
+      "description": "Founded Cerulean Coders, An student-run open source community focusing on project based learning.",
+      "url": "http://linkfree.eddiehub.org/CeruleanCodersComm"
     }
   ]
 }
