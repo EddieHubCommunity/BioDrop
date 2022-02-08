@@ -5,22 +5,22 @@
   "avatar": "https://github.com/abdussalam02.png",
   "links": [
     {
-      "name": "Check out my personal website",
-      "url": "https://abdussalam.vercel.app",
+      "name": "Check out my Website",
+      "url": "https://abdussalam.herokuapp.com",
       "icon": "globe"
     },
     {
-      "name": "Take a look at my GitHub",
+      "name": "Take a peek at my work",
       "url": "https://github.com/abdussalam02",
       "icon": "github"
     },
     {
-      "name": "I'm on Telegram most of the time",
+      "name": "Get in touch with me",
       "url": "https://t.me/aladdin_02",
       "icon": "telegram"
     },
     {
-      "name": "See my awesome tweets on Twitter",
+      "name": "See me tweet on Twitter",
       "url": "https://twitter.com/abdussalam_02",
       "icon": "twitter"
     },
