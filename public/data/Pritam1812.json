@@ -1,7 +1,7 @@
 {
     "name": "Pritam Hore",
     "type": "personal",
-    "bio": "Aspiring Software Developer/Open Source Enthusiast!",
+    "bio": "Aspiring Software Developer|Open Source Enthusiast!",
     "avatar": "https://github.com/Pritam1812.png",
     "links": [
       {
@@ -33,11 +33,6 @@
         "name": "Find me on Twitter!",
         "url": "https://twitter.com/_Pritam_1812",
         "icon": "twitter"
-      },
-      {
-        "name": "Join me on Discord!",
-        "url": "https://discord.com/users/496729273776865282",
-        "icon": "discord"
       }
     ],
     "milestones": [
