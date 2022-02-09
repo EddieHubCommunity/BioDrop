@@ -8,7 +8,7 @@ function Placeholder({ list }) {
     <>
       <Skeleton shape="rectangle" height="3.2rem" className="mb-4" />
       <div className="flex flex-wrap justify-content-center">
-        {list.map((user, key) => {
+        {list.slice(0, 25).map((user, key) => {
           return (
             <Skeleton
               width="16rem"
