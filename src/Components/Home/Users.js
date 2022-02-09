@@ -74,7 +74,7 @@ function Users({ list }) {
       <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
-          filteredList.map((user, key) => (
+          filteredList.slice(0, 25).map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
@@ -110,6 +110,11 @@ function Users({ list }) {
             />
           </div>
         )}
+      </div>
+      <div className="more flex justify-content-center pt-5 pb-5">
+        <button className=" border-solid p-button-outlined py-3 w-15rem b-more text-base text-700">
+          See more
+        </button>
       </div>
     </>
   )

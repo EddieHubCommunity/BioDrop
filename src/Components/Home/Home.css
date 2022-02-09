@@ -26,6 +26,11 @@ a {
   opacity: 1;
 }
 
+.b-more {
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   .p-chip > .p-avatar > .p-badge {
     opacity: 1;
