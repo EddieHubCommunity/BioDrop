@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
@@ -15,6 +15,11 @@ function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
+
+  const [sliceStart, setSliceStart] = useState(0)
+  const [sliceEnd, setSliceEnd] = useState(25)
+
+  const [showBtn, setShowBtn] = useState(true)
 
   const typeHandler = (value) => {
     setProfileType(value)
@@ -57,6 +62,21 @@ function Users({ list }) {
     )
   }
 
+  const more = () => {
+    setSliceStart(sliceStart)
+    setSliceEnd(sliceEnd + 25)
+  }
+
+  useEffect(() => {
+    const sliced = filteredList.slice(sliceStart, sliceEnd).length
+
+    if (sliced === list.length || sliced === 0 || sliced < 25) {
+      setShowBtn(false)
+    } else {
+      setShowBtn(true)
+    }
+  }, [filteredList, list, sliceStart, sliceEnd])
+
   return (
     <>
       <Navbar
@@ -74,7 +94,7 @@ function Users({ list }) {
       <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
-          filteredList.slice(0, 25).map((user, key) => (
+          filteredList.slice(sliceStart, sliceEnd).map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
@@ -112,9 +132,14 @@ function Users({ list }) {
         )}
       </div>
       <div className="more flex justify-content-center pt-5 pb-5">
-        <button className=" border-solid p-button-outlined py-3 w-15rem b-more text-base text-700">
-          See more
-        </button>
+        {showBtn && (
+          <button
+            className=" border-solid p-button-outlined py-3 w-8rem b-more text-base text-700"
+            onClick={() => more()}
+          >
+            See more
+          </button>
+        )}
       </div>
     </>
   )
