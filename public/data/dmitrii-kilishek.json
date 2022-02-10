@@ -1,7 +1,7 @@
 {
   "name": "Dmitrii Kilishek",
   "type": "personal",
-  "bio": "Hey dear visitor! I'm Dmitrii. A US based Software Tester, Lifelong Learner, Former Sysadmin, I've been in IT since 1994, From: 🇷🇺 with ❤️",
+  "bio": "Hey dear visitor! I'm Dmitrii. A US-based Software Tester, Lifelong Learner, Former Sysadmin, I've been in IT since 1994, From: 🇷🇺 with ❤️",
   "avatar": "https://github.com/mentalclear.png",
   "links": [
     {
@@ -45,7 +45,7 @@
       "date": "August 2007",
       "icon": "dollar",
       "color": "#036b57",
-      "description": "Still in Russia, the time was right to start own business! Created a System Administration Outsourcing Company. Link below is in Russian:",
+      "description": "Still in Russia, the time was right to start own business! Created a System Administration Outsourcing Company. The link below is in Russian:",
       "url": "https://web.archive.org/web/20110930145917/http://www.syserv.ru/"
     },
     {
@@ -60,7 +60,7 @@
       "date": "June 2016",
       "icon": "dollar",
       "color": "green",
-      "description": "Started working as QA Engineer II, a full-time emplyment first time in the US"
+      "description": "Started working as QA Engineer II, a full-time employment first time in the US"
     },
     {
       "title": "Became Sr. QA Engineer",
@@ -74,7 +74,7 @@
       "date": "November 2021",
       "icon": "dollar",
       "color": "#ffd700",
-      "description": "Changed a job to an exciting new opprotunity with JumpCloud Inc to #MakeWorkHppen",
+      "description": "Changed a job to an exciting new opportunity with JumpCloud Inc to #MakeWorkHppen",
       "url": "https://www.jumpcloud.com"
     }
   ]
