@@ -1,3 +1,12 @@
+## [0.62.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.4...v0.62.5) (2022-02-10)
+
+
+### Bug Fixes
+
+* add dark color to github icon in footer ([#1081](https://github.com/EddieHubCommunity/LinkFree/issues/1081)) ([c863f5f](https://github.com/EddieHubCommunity/LinkFree/commit/c863f5f4352cc8f0c2fb16ca80ea708083b4f72d))
+
+
+
 ## [0.62.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.3...v0.62.4) (2022-02-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * change buttons to links [#1016](https://github.com/EddieHubCommunity/LinkFree/issues/1016) ([#1025](https://github.com/EddieHubCommunity/LinkFree/issues/1025)) ([11664b1](https://github.com/EddieHubCommunity/LinkFree/commit/11664b11b1bc6f8fa9bf0f47e97fb0b3bcd1b35e))
-
-
-
-# [0.62.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.61.0...v0.62.0) (2022-01-24)
-
-
-### Features
-
-* add Polywork Icon ([#1026](https://github.com/EddieHubCommunity/LinkFree/issues/1026)) ([ed2d88e](https://github.com/EddieHubCommunity/LinkFree/commit/ed2d88e160f00f90d9d2a089fc8fd6def11bbc8b))
 
 
 
