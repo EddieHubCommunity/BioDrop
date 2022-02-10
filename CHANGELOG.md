@@ -1,3 +1,12 @@
+## [0.62.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.3...v0.62.4) (2022-02-10)
+
+
+### Bug Fixes
+
+* issue in pfp ([#1108](https://github.com/EddieHubCommunity/LinkFree/issues/1108)) ([67bdef3](https://github.com/EddieHubCommunity/LinkFree/commit/67bdef3fdad4b1850f5efb4e71b9b54819a3e3ff))
+
+
+
 ## [0.62.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.2...v0.62.3) (2022-02-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add Polywork Icon ([#1026](https://github.com/EddieHubCommunity/LinkFree/issues/1026)) ([ed2d88e](https://github.com/EddieHubCommunity/LinkFree/commit/ed2d88e160f00f90d9d2a089fc8fd6def11bbc8b))
-
-
-
-# [0.61.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.3...v0.61.0) (2022-01-23)
-
-
-### Features
-
-* Add HackerRank Icon ([#1012](https://github.com/EddieHubCommunity/LinkFree/issues/1012)) ([9d14fcd](https://github.com/EddieHubCommunity/LinkFree/commit/9d14fcdeddd180f448a9eec419ca51da6bfed127))
 
 
 
