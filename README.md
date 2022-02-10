@@ -55,7 +55,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 ## 🎭 To Add Your Profile
 
-Create a file named `your-username.json` in the directory `public/data`.
+Create a file named using your GitHub username `username.json` in the directory `public/data`, this will ensure it is unique.
 
 **Optional fields: `links`, `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
