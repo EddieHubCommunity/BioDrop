@@ -1,3 +1,12 @@
+## [0.62.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.5...v0.62.6) (2022-02-10)
+
+
+### Bug Fixes
+
+* pfp ([#1110](https://github.com/EddieHubCommunity/LinkFree/issues/1110)) ([33d6943](https://github.com/EddieHubCommunity/LinkFree/commit/33d6943f8b07b0fcb9f5d716e2a4ec6766bb8180))
+
+
+
 ## [0.62.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.4...v0.62.5) (2022-02-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * trigger build ([c704018](https://github.com/EddieHubCommunity/LinkFree/commit/c7040185b14c83bac11427b6d0e6ae373e9afb45))
-
-
-
-## [0.62.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.0...v0.62.1) (2022-01-25)
-
-
-### Bug Fixes
-
-* change buttons to links [#1016](https://github.com/EddieHubCommunity/LinkFree/issues/1016) ([#1025](https://github.com/EddieHubCommunity/LinkFree/issues/1025)) ([11664b1](https://github.com/EddieHubCommunity/LinkFree/commit/11664b11b1bc6f8fa9bf0f47e97fb0b3bcd1b35e))
 
 
 
