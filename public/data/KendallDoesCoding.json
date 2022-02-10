@@ -46,6 +46,12 @@
       "title": "Started Tech Journey",
       "date": "2020",
       "icon": "globe"
-    }
+    },
+    {
+      "title": "Contributed to Github Desktop",
+      "description": "I made a few small commits to the Github Desktop app".
+      "date": "December 2021",
+      "icon": "github"
+    },
   ]
 }
