@@ -2,11 +2,23 @@
   "name": "Kendall Pinto",
   "type": "personal",
   "bio": "Hello, My name is Kendall. I am a Software Developer / Coder. I have made a bunch of programs in various languages, like Python, JavaScript, and the one I'm currently working on projects with, HTML & CSS. I'm currently working on the project, A Very Mogul Christmas",
-  "avatar": "https://i.ibb.co/5LsjwVB/Avatar-Maker.png",
+  "avatar": "https://github.com/KendallDoesCoding.png",
   "links": [
     {
       "name": "Check out my personal website",
-      "url": "https://kendalldoescoding.gq/",
+      "url": "https://kendalldoescoding.gq",
+      "icon": "globe"
+    },
+    {
+      "name": "Coding YouTube",
+      "url": "https://kendalldoescoding.gq/codingYT",
+      "icon": "youtube",
+      "color": "red"
+    },
+    {
+      "name": "A Very Mogul Christmas",
+      "description": "Current working on this project",
+      "url": "https://kendalldoescoding.gq/mogulchristmas",
       "icon": "globe"
     },
     {
@@ -27,10 +39,10 @@
     {
       "name": "Quiz",
       "url": "https://kendalldoescoding.gq/quiz",
-      "icon": "globe"
+      "icon": "link"
     },
     {
-      "name": "Look at my subdomains/projects",
+      "name": "Check out my projects, subdomains.",
       "url": "https://kendalldoescoding.gq/subdomains",
       "icon": "globe"
     }
@@ -38,7 +50,14 @@
   "milestones": [
     {
       "title": "Started Tech Journey",
-      "date": "2020"
+      "date": "Early 2020 (during lockdown)",
+      "icon": "globe"
+    },
+    {
+      "title": "Contributed to Github Desktop",
+      "description": "I made a few small commits to the Github Desktop app.",
+      "date": "December 2021",
+      "icon": "github"
     }
   ]
 }
