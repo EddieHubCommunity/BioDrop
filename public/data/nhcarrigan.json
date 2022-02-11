@@ -1,8 +1,8 @@
 {
-  "name": "nhcarrigan",
+  "name": "Naomi Carrigan",
   "type": "personal",
-  "bio": "Founder of BeccaLyria bot",
-  "avatar": "https://github.com/nhcarrigan.png",
+  "bio": "Founder of Becca Lyria, Discord bot",
+  "avatar": "https://cdn.nhcarrigan.com/profile-transparent.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -21,8 +21,8 @@
     },
     {
       "name": "Support my work!",
-      "url": "https://paypal.me/nhcarrigan",
-      "icon": "paypal"
+      "url": "https://donate.nhcarrigan.com",
+      "icon": "dollar"
     },
     {
       "name": "Connect with me on LinkedIn",
@@ -37,7 +37,7 @@
       "icon": "discord",
       "color": "#90ee90",
       "description": "Began development on the beta version of Rosalia Nightsong, a new Discord bot.",
-      "url": "https://rosalianightsong.com/discord-documentation"
+      "url": "https://docs.rosalianightsong.com"
     },
     {
       "title": "Began working at freeCodeCamp",
@@ -53,7 +53,7 @@
       "icon": "discord",
       "color": "#3a3240",
       "description": "Began development on Becca Lyria, a community management and moderation bot for Discord.",
-      "url": "https://www.beccalyria.com/discord-documentation"
+      "url": "https://docs.beccalyria.com"
     },
     {
       "title": "Learning to Code!",
