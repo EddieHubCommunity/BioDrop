@@ -9,6 +9,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+      - name: cache lookup
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: install dependencies
         run: npm ci
       - name: run linter
@@ -23,6 +30,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+      - name: cache lookup
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: install dependencies
         run: npm ci
       - name: run tests
