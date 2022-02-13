@@ -1,3 +1,12 @@
+## [0.62.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.7...v0.62.8) (2022-02-13)
+
+
+### Bug Fixes
+
+* icon names ([#1120](https://github.com/EddieHubCommunity/LinkFree/issues/1120)) ([c7f72e0](https://github.com/EddieHubCommunity/LinkFree/commit/c7f72e09fd963d7aa9c0864f67b0824fc2b7070d))
+
+
+
 ## [0.62.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.6...v0.62.7) (2022-02-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * issue in pfp ([#1108](https://github.com/EddieHubCommunity/LinkFree/issues/1108)) ([67bdef3](https://github.com/EddieHubCommunity/LinkFree/commit/67bdef3fdad4b1850f5efb4e71b9b54819a3e3ff))
-
-
-
-## [0.62.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.2...v0.62.3) (2022-02-04)
-
-
-### Bug Fixes
-
-* removed inline code for link ([91da0a5](https://github.com/EddieHubCommunity/LinkFree/commit/91da0a56450b8f6f30dfe7b8e388ef50ebd57cf2))
 
 
 
