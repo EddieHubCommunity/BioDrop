@@ -1,3 +1,12 @@
+## [0.62.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.6...v0.62.7) (2022-02-13)
+
+
+### Bug Fixes
+
+* black GitHub icon ([#1116](https://github.com/EddieHubCommunity/LinkFree/issues/1116)) ([6d0e296](https://github.com/EddieHubCommunity/LinkFree/commit/6d0e29641a191e8974ac0d290b34250568149d2b))
+
+
+
 ## [0.62.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.5...v0.62.6) (2022-02-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed inline code for link ([91da0a5](https://github.com/EddieHubCommunity/LinkFree/commit/91da0a56450b8f6f30dfe7b8e388ef50ebd57cf2))
-
-
-
-## [0.62.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.1...v0.62.2) (2022-01-28)
-
-
-### Bug Fixes
-
-* trigger build ([c704018](https://github.com/EddieHubCommunity/LinkFree/commit/c7040185b14c83bac11427b6d0e6ae373e9afb45))
 
 
 
