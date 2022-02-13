@@ -41,14 +41,14 @@
     {
       "title": "Education",
       "date": "June 2021",
-      "icon": "Graduation Hat",
+      "icon": "graduation-hat",
       "color": "grey",
       "description": "Pulling of my Bachelors in Computer Application from IGNOU"
     },
     {
       "title": "Tech Journey",
       "date": "January 2018",
-      "icon": "DEV.to",
+      "icon": "dev.to",
       "color": "white",
       "description": "Started my Tech Journey by working on frontend at the early stage of 2018"
     }
