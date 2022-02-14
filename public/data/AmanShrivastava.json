@@ -1,0 +1,43 @@
+{
+  "name": "Aman Shrivastava",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/aman34503.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aman34503",
+      "icon": "github"
+    },
+  ],
+  "milestones": [
+    {
+      "title": "Started Data Structures & Algorithms",
+      "date": "November 2021",
+      "icon": "YouTube",
+      "color": "red",
+      "description": "Started Problem Solving "
+    },
+    {
+      "title": "Started Open Source",
+      "date": "December 2021",
+      "icon": "GitHub",
+      "color": "green",
+      "description": "Started Contibuting To Beginner friendly Issues"
+    },
+    {
+      "title": "Learning Api Development",
+      "date": "December 2021",
+      "icon": "Globe",
+      "color": "orange",
+      "description": "Reading FASTapi Docs!"
+    },
+    {
+      "title": "Started Website Designing",
+      "date": "August 2021",
+      "icon": "Web",
+      "color": "green",
+      "description": "Learning Web Designing"
+    }
+  ]
+}
