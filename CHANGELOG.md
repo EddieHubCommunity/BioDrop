@@ -1,3 +1,12 @@
+## [0.62.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.8...v0.62.9) (2022-02-20)
+
+
+### Bug Fixes
+
+* kendall profile removed ([#1137](https://github.com/EddieHubCommunity/LinkFree/issues/1137)) ([36617d7](https://github.com/EddieHubCommunity/LinkFree/commit/36617d7842252290d055e05e8c9346c9288a278d))
+
+
+
 ## [0.62.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.7...v0.62.8) (2022-02-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add dark color to github icon in footer ([#1081](https://github.com/EddieHubCommunity/LinkFree/issues/1081)) ([c863f5f](https://github.com/EddieHubCommunity/LinkFree/commit/c863f5f4352cc8f0c2fb16ca80ea708083b4f72d))
-
-
-
-## [0.62.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.3...v0.62.4) (2022-02-10)
-
-
-### Bug Fixes
-
-* issue in pfp ([#1108](https://github.com/EddieHubCommunity/LinkFree/issues/1108)) ([67bdef3](https://github.com/EddieHubCommunity/LinkFree/commit/67bdef3fdad4b1850f5efb4e71b9b54819a3e3ff))
 
 
 
