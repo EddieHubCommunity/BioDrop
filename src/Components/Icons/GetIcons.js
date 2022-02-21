@@ -27,8 +27,16 @@ import {
   FaSearch,
   FaTelegram,
   FaSnapchat,
+  FaGitlab,
 } from 'react-icons/fa'
-import { SiCodeforces, SiCodewars, SiHashnode, SiMedium } from 'react-icons/si'
+import {
+  SiCodeforces,
+  SiCodewars,
+  SiHackerrank,
+  SiHashnode,
+  SiMedium,
+  SiPolywork,
+} from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
 
 function GetIcons({ iconName, ...restProps }) {
@@ -57,10 +65,14 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaFacebook {...restProps} />
     case 'github':
       return <FaGithub {...restProps} />
+    case 'gitlab':
+      return <FaGitlab {...restProps} />
     case 'globe':
       return <FaGlobe {...restProps} />
     case 'graduation-hat':
       return <FaGraduationCap {...restProps} />
+    case 'hackerrank':
+      return <SiHackerrank {...restProps} />
     case 'hashnode':
       return <SiHashnode {...restProps} />
     case 'instagram':
@@ -75,6 +87,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaMicrosoft {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
+    case 'polywork':
+      return <SiPolywork {...restProps} />
     case 'search':
       return <FaSearch {...restProps} />
     case 'send':

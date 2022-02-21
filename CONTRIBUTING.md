@@ -57,6 +57,10 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
 ```bash
 git add public
 ```
@@ -76,6 +80,22 @@ git push origin YourBranchName
 **11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
+
+## Run automated tests
+
+After making changes make sure that tests passes
+
+**1.** Run the application
+
+```bash
+npm run start
+```
+
+**2.** Run the tests by running this command
+
+```bash
+npm run cypress:run
+```
 
 ## Style Guide for Git Commit Messages :memo:
 
