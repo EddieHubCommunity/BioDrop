@@ -1,0 +1,37 @@
+{
+  "name": "Devkant Swargiary",
+  "type": "personal",
+  "bio": "Web Developer & Open Source Enthusiast! | Currently learning NextJS",
+  "avatar": "https://github.com/Devkant21.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Devkant21",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Devkant21",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://dev21.hashnode.dev/",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Checkout my website (WIP)",
+      "url": "https://ds-portfolio-alpha.vercel.app/",
+      "icon": "globe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributed to Open-Source",
+      "date": "December 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "❤️ Open Source"
+    }
+  ]
+}
