@@ -1,0 +1,23 @@
+{
+  "name": "Shailesh Kumar",
+  "type": "personal",
+  "bio": "Open Source and ML Enthusiast",
+  "avatar": "https://github.com/shaileshkumar007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shaileshkumar007",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shailesh2002k",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-27799517a/",
+      "icon": "linkedin"
+    }
+  ]
+}

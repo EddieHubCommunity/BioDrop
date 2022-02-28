@@ -1,0 +1,23 @@
+{
+  "name": "David Leal",
+  "type": "personal",
+  "bio": "Open-source maintainer/contributor 💻 Maintainer @ EddieHub, @ The Algorithms, and many more 🚂 Moderating 20+ Discord servers 🛡",
+  "avatar": "https://github.com/Panquesito7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Panquesito7",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/David_Leal_7",
+      "icon": "twitter"
+    },
+    {
+      "name": "Check out Minetest and more gameplays on my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCcZmWPJygsJ_szWKwTy2wqA",
+      "icon": "youtube"
+    }
+  ]
+}

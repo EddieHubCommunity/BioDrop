@@ -1,0 +1,24 @@
+on:
+  fork:
+  push:
+    branches: [main]
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+  pull_request_target:
+    types: [opened]
+  pull_request_review_comment:
+    types: [created]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
+          pr-message: "<h1>It's great having you contribute to this project</h1> Welcome to the community :nerd_face:"
+          footer: 'If you would like to continue contributing to open source and would like to do it with an awesome inclusive community, you should join our <a href="http://discord.eddiehub.org">Discord</a> chat and our <a href="http://github.eddiehub.org">GitHub Organisation</a> - we help and encourage each other to contribute to open source little and often 🤓 . Any questions let us know.'

@@ -1,0 +1,28 @@
+{
+  "name": "Anushka Raj",
+  "type": "personal",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/Anushka-codergirl.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Anushka-codergirl",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnushCodergirl",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing for the first time",
+      "url": "https://anushkaraj.tech/"
+    }
+  ]
+}
