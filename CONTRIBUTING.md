@@ -117,6 +117,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 
 ## All the best! 🥇
 
-<p align="center">
-  [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
-</p>
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
