@@ -2,10 +2,10 @@
 
 # LinkFree by EddieHub
 
-<div align="center">
+<p align="center">
 <a href="https://github.com/EddieHubCommunity/Linkfree/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/EddieHubCommunity/Linkfree?color=yellow"></a>
 <a href="https://github.com/EddieHubCommunity/Linkfree/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed-raw/EddieHubCommunity/Linkfree?color=0059b3"></a> 
-</div>
+</p>
 
 - LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
