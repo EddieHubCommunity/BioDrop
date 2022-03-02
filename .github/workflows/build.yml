@@ -10,6 +10,7 @@ jobs:
         with:
           node-version: '16'
       - name: cache lookup
+        id: cache
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -17,6 +18,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: run linter
         run: npm run lint
@@ -31,6 +33,7 @@ jobs:
         with:
           node-version: '16'
       - name: cache lookup
+        id: cache
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -38,6 +41,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: install dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: run tests
         run: npm run test:e2e
