@@ -1,3 +1,12 @@
+## [0.62.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.9...v0.62.10) (2022-03-06)
+
+
+### Bug Fixes
+
+* move file to correct location ([#1166](https://github.com/EddieHubCommunity/LinkFree/issues/1166)) ([4bb2e52](https://github.com/EddieHubCommunity/LinkFree/commit/4bb2e52343528830748e8a1536c20b0936413ceb))
+
+
+
 ## [0.62.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.8...v0.62.9) (2022-02-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * pfp ([#1110](https://github.com/EddieHubCommunity/LinkFree/issues/1110)) ([33d6943](https://github.com/EddieHubCommunity/LinkFree/commit/33d6943f8b07b0fcb9f5d716e2a4ec6766bb8180))
-
-
-
-## [0.62.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.4...v0.62.5) (2022-02-10)
-
-
-### Bug Fixes
-
-* add dark color to github icon in footer ([#1081](https://github.com/EddieHubCommunity/LinkFree/issues/1081)) ([c863f5f](https://github.com/EddieHubCommunity/LinkFree/commit/c863f5f4352cc8f0c2fb16ca80ea708083b4f72d))
 
 
 
