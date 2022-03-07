@@ -1,0 +1,27 @@
+{
+    "name": "Anurag",
+    "type": "personal",
+    "bio": "Open Source Enthusiast!",
+    "avatar": "https://github.com/anuragrajanp.png",
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/anuragrajanp",
+        "icon": "github"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/anuragrajanp",
+        "icon": "twitter"
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Started Freelancing",
+        "date": "December 2021",
+        "icon": "dollar",
+        "color": "grey",
+        "description": "Started freelancing"
+      }
+    ]
+  }
