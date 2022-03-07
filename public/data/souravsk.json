@@ -13,26 +13,31 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/sourav_sovu_",
       "icon": "twitter"
-    }
+    },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/sourav-kumar-237958141",
       "icon": "linkedin"
-    }
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/itssourav/",
+      "icon": "Codeforces"
+    } 
   ],
   "milestones": [
     {
       "title": "Learning DSA",
       "date": "January 2022",
-      "icon": "dollar",
-      "color": "grey",
+      "icon": "Codeforces",
+      "color": "red",
       "description": "Learning"
-    }
+    },
     {
       "title": "Learning Kubernetes",
       "date": "January 2022",
-      "icon": "dollar",
-      "color": "grey",
+      "icon": "DEV.to",
+      "color": "blue",
       "description": "Learning"
     }
   ]
