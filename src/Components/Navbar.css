@@ -1,3 +1,32 @@
 .p-menubar-button {
   display: none !important;
 }
+
+.p-menubar-root-list {
+  display: flex;
+  justify-content: center;
+}
+
+.p-menubar {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.p-menubar-end {
+  margin-left: 8rem !important;
+}
+
+.p-menuitem-link {
+  cursor: default !important;
+}
+
+.linkfree-icon {
+  background-image: url('../images/linkfree.ico');
+  width: 1rem;
+  height: 1rem;
+  background-size: 1rem 1rem;
+}
+
+.p-menuitem-text {
+  font-weight: 600;
+}

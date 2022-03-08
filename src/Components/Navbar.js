@@ -12,6 +12,7 @@ import GetIcons from './Icons/GetIcons'
 
 function Navbar({ items, start, end }) {
   const [version, setVersion] = useState('')
+  const [loading, setLoading] = useState(true) // Added to prevent items shifting in the page before loading
 
   useEffect(() => {
     fetch('/app.json')
@@ -21,9 +22,10 @@ function Navbar({ items, start, end }) {
         console.log('Navbar useEffect', error)
         alert('An error occurred, please try again later.')
       })
+      .finally(() => setLoading(false))
   }, [])
 
-  if (!end) {
+  if (!end && !loading) {
     end = (
       <div className="flex justify-content-center align-items-center pr-2">
         <Link
@@ -40,14 +42,16 @@ function Navbar({ items, start, end }) {
     )
   }
 
-  return (
-    <Menubar
-      model={items}
-      start={start}
-      end={end}
-      className="mb-4 flex-wrap justify-content-center"
-    />
-  )
+  if (!items && !loading) {
+    items = [
+      {
+        label: 'LinkFree',
+        icon: 'linkfree-icon',
+      },
+    ]
+  }
+
+  return <Menubar model={items} start={start} end={end} className="mb-4" />
 }
 
 Navbar.propTypes = {
