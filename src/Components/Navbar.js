@@ -42,11 +42,12 @@ function Navbar({ items, start, end }) {
     )
   }
 
-  if (!items && !loading) {
+  if (!items) {
     items = [
       {
         label: 'LinkFree',
         icon: 'linkfree-icon',
+        url: '/',
       },
     ]
   }

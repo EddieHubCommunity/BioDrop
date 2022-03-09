@@ -34,7 +34,7 @@ function User() {
             to="/"
             aria-label="Go back to Home"
             style={{
-              'margin-right': '15rem', // Added to center the icon & label
+              marginRight: '13rem', // Added to center the icon & label
             }}
           >
             <GetIcons iconName="arrowLeft" size={20} />

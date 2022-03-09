@@ -13,20 +13,29 @@
 }
 
 .p-menubar-end {
-  margin-left: 8rem !important;
+  margin-left: 12rem !important;
 }
 
-.p-menuitem-link {
-  cursor: default !important;
+@media screen and (max-width: 550px) {
+  .p-menubar-end {
+    margin-left: auto !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .p-menubar-start {
+    width: 60% !important;
+  }
 }
 
 .linkfree-icon {
   background-image: url('../images/linkfree.ico');
-  width: 1rem;
-  height: 1rem;
-  background-size: 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+  background-size: 2rem 2rem;
 }
 
 .p-menuitem-text {
   font-weight: 600;
+  font-size: 20px;
 }
