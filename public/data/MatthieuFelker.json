@@ -1,0 +1,51 @@
+{
+  "name": "Matthieu Felker",
+  "type": "personal",
+  "bio": "Web Development student at Seattle Central College",
+  "avatar": "https://github.com/matthieu-ui.png",
+  "links": [
+    {
+      "name": "View my Resume",
+      "url": "https://github.com/matthieu-ui",
+      "icon": "Link"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/matthieu-ui",
+      "icon": "github"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
+      "icon": "LinkedIn"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "January 19, 2021",
+      "icon": "github",
+      "color": "green"
+    },
+    {
+      "title": "Enrolled in Seattle Centrals Web Development AAS-T program",
+      "date": "February 28, 2021",
+      "icon": "Envelope",
+      "color": "blue"
+    },
+    {
+      "title": "Completed my first freelance project for Bloom Salon",
+      "date": "December 13, 2021",
+      "url": "https://bloomsalon.dreamhosters.com",
+      "icon": "Globe",
+      "color": "purple"
+    },
+    {
+      "title": "Completed 50 credits",
+      "date": "March 13, 2022",
+
+      "icon": "book",
+      "color": "blue"
+    }
+  ]
+}
