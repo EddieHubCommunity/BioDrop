@@ -1,3 +1,12 @@
+## [0.62.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.10...v0.62.11) (2022-03-11)
+
+
+### Bug Fixes
+
+* MD034/no-bare-urls: Bare URL used ([#1173](https://github.com/EddieHubCommunity/LinkFree/issues/1173)) ([119884f](https://github.com/EddieHubCommunity/LinkFree/commit/119884fd5efcbbac0132ae8a3343a451c5ba584d))
+
+
+
 ## [0.62.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.9...v0.62.10) (2022-03-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * black GitHub icon ([#1116](https://github.com/EddieHubCommunity/LinkFree/issues/1116)) ([6d0e296](https://github.com/EddieHubCommunity/LinkFree/commit/6d0e29641a191e8974ac0d290b34250568149d2b))
-
-
-
-## [0.62.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.5...v0.62.6) (2022-02-10)
-
-
-### Bug Fixes
-
-* pfp ([#1110](https://github.com/EddieHubCommunity/LinkFree/issues/1110)) ([33d6943](https://github.com/EddieHubCommunity/LinkFree/commit/33d6943f8b07b0fcb9f5d716e2a4ec6766bb8180))
 
 
 
