@@ -91,6 +91,7 @@ Your brand new file should look something similar to this one:
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing"
+      "url": "https://www.eddiejaoude.io/"
     }
   ]
 }
