@@ -8,4 +8,8 @@
     flex: 100%;
     margin: 8px 0 0 !important;
   }
+
+  .p-menubar-end .pr-2 {
+    padding-right: 0 !important;
+  }
 }
