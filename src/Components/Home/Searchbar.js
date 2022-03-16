@@ -15,9 +15,6 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
           name="user"
           id="search-input"
           placeholder="Search user..."
-          style={{
-            width: '100%',
-          }}
         />
       </span>
     </div>
