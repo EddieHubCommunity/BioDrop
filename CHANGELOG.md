@@ -1,3 +1,12 @@
+## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
+
+
+### Bug Fixes
+
+* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
+
+
+
 ## [0.62.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.10...v0.62.11) (2022-03-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icon names ([#1120](https://github.com/EddieHubCommunity/LinkFree/issues/1120)) ([c7f72e0](https://github.com/EddieHubCommunity/LinkFree/commit/c7f72e09fd963d7aa9c0864f67b0824fc2b7070d))
-
-
-
-## [0.62.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.6...v0.62.7) (2022-02-13)
-
-
-### Bug Fixes
-
-* black GitHub icon ([#1116](https://github.com/EddieHubCommunity/LinkFree/issues/1116)) ([6d0e296](https://github.com/EddieHubCommunity/LinkFree/commit/6d0e29641a191e8974ac0d290b34250568149d2b))
 
 
 
