@@ -34,6 +34,12 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/saif-rahman-a62686201",
       "icon": "LinkedIn"
-    }
+    },
+      {
+         "name": "Visit my personal Website",
+         "url": "https://clomen.web.app/",
+         "icon": "Globe"
+       }
+          
     ]
   }
