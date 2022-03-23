@@ -1,7 +1,7 @@
 # 💥 How to Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
 
 - Take a look at the existing [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) or [create a new issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose)!
 - [Fork the Repo](https://github.com/EddieHubCommunity/LinkFree/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
@@ -117,8 +117,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 
 ## All the best! 🥇
 
-<p align="center">
-
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/unnati914/Care4ther-)
-
-</p>
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
