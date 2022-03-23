@@ -2,7 +2,7 @@
   display: none !important;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 320px) {
   .p-menubar-end {
     font-size: 12px;
     flex: 100%;
