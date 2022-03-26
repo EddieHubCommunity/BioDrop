@@ -107,7 +107,7 @@ For example: <http://github.com/eddiejaoude.png>
 
 ### Available Icons:
 
-Check [Icons.md](/icons.md) for the all the supported icons
+Check [Icons.md](/icons.md) for all the supported icons.
 
 ## 🛡️ License
 
