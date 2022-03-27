@@ -1,108 +1,93 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useRef, useCallback, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { Chip } from 'primereact/chip'
-import { Avatar } from 'primereact/avatar'
-import { Badge } from 'primereact/badge'
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 import ProfileTypeFilter from './filterProfileType'
-import utils from '../../utils'
+import UserChip from './UserChip'
 
+const getLimitForScreenSize = (viewPortWidth) => {
+  if (viewPortWidth > 1410) return 50
+  if (viewPortWidth > 1130 && viewPortWidth < 1410) return 40
+  if (viewPortWidth > 860 && viewPortWidth < 1130) return 30
+  if (viewPortWidth > 560 && viewPortWidth < 860) return 20
+  if (viewPortWidth < 560) return 10
+}
 function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
-  const [filteredList, setFilteredList] = useState(list)
+  const [lastIndex, setLastIndex] = useState(0)
+  const limit = useMemo(
+    () => getLimitForScreenSize(window.visualViewport.width),
+    [window.visualViewport.width],
+  )
 
-  const typeHandler = (value) => {
-    setProfileType(value)
-    if (value === 'all') {
-      return setFilteredList(
-        list.filter((User) =>
-          User.name
-            .normalize('NFD')
-            .toLowerCase()
-            .includes(searchTerm.normalize('NFD').toLowerCase()),
-        ),
-      )
-    }
-    setFilteredList(
-      list
-        .filter((User) => (User.type ? User.type === value : false))
-        .filter((User) =>
-          User.name
-            .normalize('NFD')
-            .toLowerCase()
-            .includes(searchTerm.normalize('NFD').toLowerCase()),
-        ),
+  let filteredList = list
+
+  filteredList =
+    profileType !== 'all'
+      ? list.filter((User) => (User.type ? User.type === profileType : false))
+      : list
+
+  filteredList = searchTerm
+    ? filteredList.filter((User) =>
+      User.name
+        .normalize('NFD')
+        .toLowerCase()
+        .includes(searchTerm.normalize('NFD').toLowerCase()),
     )
+    : filteredList
+
+  const listForRender = filteredList.slice(0, lastIndex + limit)
+  const hasMore = listForRender.length < filteredList.length
+
+  const loadMore = () => {
+    setLastIndex((prevIndex) => prevIndex + limit)
   }
 
-  const searchHandler = (value) => {
-    setSearchTerm(value || '')
-    setFilteredList(
-      list
-        .filter((User) =>
-          User.name
-            .normalize('NFD')
-            .toLowerCase()
-            .includes(value.normalize('NFD').toLowerCase()),
-        )
-        .filter((User) => {
-          if (profileType === 'all') return true
-          return User.type ? User.type === profileType : false
-        }),
-    )
-  }
+  const observer = useRef(null)
+  const lastElementRef = useCallback(
+    (node) => {
+      if (observer.current) observer.current.disconnect()
+      observer.current = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && hasMore) loadMore()
+      })
+      if (node) observer.current.observe(node)
+    },
+    [hasMore, loadMore],
+  )
 
   return (
     <>
       <Navbar
         start={
-          <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
+          <Searchbar searchTerm={searchTerm} searchHandler={setSearchTerm} />
         }
       />
       <div className="mb-2 flex justify-content-center align-items-center">
         <label className="p-2">Profile Type</label>
         <ProfileTypeFilter
           profileType={profileType}
-          typeHandler={typeHandler}
+          typeHandler={setProfileType}
         />
       </div>
       <div className="user-list flex flex-wrap justify-content-center">
-        {!!filteredList &&
-          filteredList.length > 0 &&
-          filteredList.map((user, key) => (
-            <Link to={user.username} key={`avatar-${key}`}>
-              <Chip
-                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
-                template={
-                  <>
-                    <Avatar
-                      image={user.avatar}
-                      size="large"
-                      className="p-overlay-badge"
-                      onImageError={(error) => {
-                        utils.setDefaultSVG(user.name, error)
-                      }}
-                    >
-                      <Badge
-                        value={user.linkCount > 9 ? '9+' : user.linkCount}
-                        severity="info"
-                        className="mr-3"
-                      ></Badge>
-                    </Avatar>
-                    <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
-                      {user.name}
-                    </span>
-                  </>
-                }
-              />
-            </Link>
-          ))}
-        {!!filteredList && filteredList.length === 0 && (
+        {!!listForRender &&
+          listForRender.length > 0 &&
+          listForRender.map((user, index) => {
+            if (listForRender.length === index + 1 && !searchTerm) {
+              return (
+                <UserChip
+                  key={index}
+                  user={user}
+                  lastElementRef={lastElementRef}
+                />
+              )
+            }
+            return <UserChip key={index} user={user} />
+          })}
+        {!!listForRender && listForRender.length === 0 && (
           <div className="flex justify-content-center align-items-center">
             <Message
               severity="error"
