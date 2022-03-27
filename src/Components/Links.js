@@ -20,7 +20,7 @@ function Links({ links }) {
 
   return (
     <section className="flex justify-content-center mb-4">
-      <div className="flex flex-column w-70">
+      <div className="flex flex-column sm:w-9 md:w-7">
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
