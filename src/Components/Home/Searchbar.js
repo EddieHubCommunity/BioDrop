@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { InputText } from 'primereact/inputtext'
 import GetIcons from '../Icons/GetIcons'
-import './Searchbar.css'
+import './Home.css'
 
 const Searchbar = ({ searchHandler, searchTerm }) => {
   return (
