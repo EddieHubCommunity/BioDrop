@@ -8,10 +8,18 @@ const config = {
 
 const externalConfigFile = path.join(__dirname, 'linkfree.json')
 
-if (fs.statSync(externalConfigFile).isFile()) {
-  const appConfig = require(externalConfigFile)
+try {
+  const stat = fs.statSync(externalConfigFile)
+  if (stat.isFile()) {
+    const appConfig = require(externalConfigFile)
 
-  if (appConfig.selected_user) config.selected_user = appConfig.selected_user
+    if (appConfig.selected_user) config.selected_user = appConfig.selected_user
+  }
+} catch (e) {
+  if (e.code !== 'ENOENT') {
+    // Gracefully allow inexistent config file
+    throw e
+  }
 }
 
 // load json files
