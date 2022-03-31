@@ -7,9 +7,10 @@ import { Toast } from 'primereact/toast'
 export default function ShareProfile({ username }) {
   const [show, setShow] = useState(false)
   const toast = useRef(null)
+  const profileUrl = location.href
 
   const CopyLink = () => {
-    navigator.clipboard.writeText(`http://linkfree.eddiehub.org/${username}`)
+    navigator.clipboard.writeText(profileUrl)
     toast.current.show({
       severity: 'success',
       summary: 'Link copied to clipboard.',
@@ -43,17 +44,17 @@ export default function ShareProfile({ username }) {
             className="flex bg-white justify-content-center z-5 p-6 absolute mx-auto align-items-center"
           >
             <ShareIcon
-              link={`https://www.facebook.com/sharer/sharer.php?u=https://linkfree.eddiehub.org/${username}`}
+              link={`https://www.facebook.com/sharer/sharer.php?u=${profileUrl}`}
               label="Share on Facebook"
               iconName="facebook"
             />
             <ShareIcon
-              link={`https://twitter.com/intent/tweet?text=Check out my LinkFree profile! https://linkfree.eddiehub.org/${username}`}
+              link={`https://twitter.com/intent/tweet?text=Check out my LinkFree profile! ${profileUrl}`}
               label="Share on Twitter"
               iconName="twitter"
             />
             <ShareIcon
-              link={`https://www.linkedin.com/sharing/share-offsite?url=https%3A%2F%2Flinkfree.eddiehub.org%2F${username}`}
+              link={`https://www.linkedin.com/sharing/share-offsite?url=${encodeURIComponent(profileUrl)}`}
               label="Share on LinkedIn"
               iconName="linkedin"
             />
