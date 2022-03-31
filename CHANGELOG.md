@@ -1,3 +1,12 @@
+## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
+
+
+### Bug Fixes
+
+* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
+
+
+
 ## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kendall profile removed ([#1137](https://github.com/EddieHubCommunity/LinkFree/issues/1137)) ([36617d7](https://github.com/EddieHubCommunity/LinkFree/commit/36617d7842252290d055e05e8c9346c9288a278d))
-
-
-
-## [0.62.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.7...v0.62.8) (2022-02-13)
-
-
-### Bug Fixes
-
-* icon names ([#1120](https://github.com/EddieHubCommunity/LinkFree/issues/1120)) ([c7f72e0](https://github.com/EddieHubCommunity/LinkFree/commit/c7f72e09fd963d7aa9c0864f67b0824fc2b7070d))
 
 
 
