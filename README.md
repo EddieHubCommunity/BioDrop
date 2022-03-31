@@ -109,6 +109,18 @@ For example: <http://github.com/eddiejaoude.png>
 
 Check [Icons.md](/icons.md) for all the supported icons.
 
+### Single user mode
+
+If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `src/config/user.json` add your username.
+
+For example
+
+```json
+{
+  "username": ""
+}
+```
+
 ## 🛡️ License
 
 LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
