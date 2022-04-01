@@ -13,6 +13,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/PritamP09066621",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pritam-panda-242892215/",
+      "icon": "linkedIn"
     }
   ],
   "milestones": [
@@ -21,8 +26,7 @@
       "date": "December 2020",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing"
-      "url": "http://linkfree.eddiehub.org/Pritam0077"
+      "description": "Started Coding"
     }
   ]
 }
