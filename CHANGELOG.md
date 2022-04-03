@@ -1,3 +1,12 @@
+# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
+
+
+### Features
+
+* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
+
+
+
 ## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * move file to correct location ([#1166](https://github.com/EddieHubCommunity/LinkFree/issues/1166)) ([4bb2e52](https://github.com/EddieHubCommunity/LinkFree/commit/4bb2e52343528830748e8a1536c20b0936413ceb))
-
-
-
-## [0.62.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.8...v0.62.9) (2022-02-20)
-
-
-### Bug Fixes
-
-* kendall profile removed ([#1137](https://github.com/EddieHubCommunity/LinkFree/issues/1137)) ([36617d7](https://github.com/EddieHubCommunity/LinkFree/commit/36617d7842252290d055e05e8c9346c9288a278d))
 
 
 
