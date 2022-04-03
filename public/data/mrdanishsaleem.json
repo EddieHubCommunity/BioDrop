@@ -1,0 +1,28 @@
+{
+  "name": "Danish Saleem",
+  "type": "personal",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/mrdanishsaleem.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mrdanishsaleem/",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MrDanishSaleem/",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Software Engineer",
+      "date": "Feb 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started job at University of South Asia",
+      "url": "https://www.usa.edu.pk/"
+    }
+  ]
+}
