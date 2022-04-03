@@ -17,7 +17,7 @@
     {
       "name": "Blogs & Articles about Development",
       "url": "https://blog.krshdev.co",
-      "icon": "book
+      "icon": "book",
     },
     {
       "name": "Connect with me on LinkedIn",
@@ -37,7 +37,7 @@
       "icon": "github",
       "color": "#1CADFD",
       "description": "Started a volunteer position at WebXDAO as a core maintainer and moderator!",
-      "url": "https://bio.link/webxdao",
+      "url": "https://bio.link/webxdao"
     },
     {
       "title": "Became a Collaborator at Dev Protocol",
@@ -69,7 +69,7 @@
       "icon": "github",
       "color": "#1CADFD",
       "description": "Started a volunteer position at EddieHub as a maintainer for the Hacktoberfest Practice Repository",
-      "url": "http://eddiehub.org",
+      "url": "http://eddiehub.org"
     },
     {
       "title": "Led a MLH Guild",
