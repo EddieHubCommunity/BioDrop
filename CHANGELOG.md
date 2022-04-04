@@ -1,45 +1,45 @@
-## [0.62.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.9...v0.62.10) (2022-03-06)
+## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
 
 
 ### Bug Fixes
 
-* move file to correct location ([#1166](https://github.com/EddieHubCommunity/LinkFree/issues/1166)) ([4bb2e52](https://github.com/EddieHubCommunity/LinkFree/commit/4bb2e52343528830748e8a1536c20b0936413ceb))
+* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
 
 
 
-## [0.62.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.8...v0.62.9) (2022-02-20)
+# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
 
 
-### Bug Fixes
+### Features
 
-* kendall profile removed ([#1137](https://github.com/EddieHubCommunity/LinkFree/issues/1137)) ([36617d7](https://github.com/EddieHubCommunity/LinkFree/commit/36617d7842252290d055e05e8c9346c9288a278d))
-
-
-
-## [0.62.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.7...v0.62.8) (2022-02-13)
-
-
-### Bug Fixes
-
-* icon names ([#1120](https://github.com/EddieHubCommunity/LinkFree/issues/1120)) ([c7f72e0](https://github.com/EddieHubCommunity/LinkFree/commit/c7f72e09fd963d7aa9c0864f67b0824fc2b7070d))
+* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
 
 
 
-## [0.62.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.6...v0.62.7) (2022-02-13)
+## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
 
 
 ### Bug Fixes
 
-* black GitHub icon ([#1116](https://github.com/EddieHubCommunity/LinkFree/issues/1116)) ([6d0e296](https://github.com/EddieHubCommunity/LinkFree/commit/6d0e29641a191e8974ac0d290b34250568149d2b))
+* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
 
 
 
-## [0.62.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.5...v0.62.6) (2022-02-10)
+## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
 
 
 ### Bug Fixes
 
-* pfp ([#1110](https://github.com/EddieHubCommunity/LinkFree/issues/1110)) ([33d6943](https://github.com/EddieHubCommunity/LinkFree/commit/33d6943f8b07b0fcb9f5d716e2a4ec6766bb8180))
+* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
+
+
+
+## [0.62.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.10...v0.62.11) (2022-03-11)
+
+
+### Bug Fixes
+
+* MD034/no-bare-urls: Bare URL used ([#1173](https://github.com/EddieHubCommunity/LinkFree/issues/1173)) ([119884f](https://github.com/EddieHubCommunity/LinkFree/commit/119884fd5efcbbac0132ae8a3343a451c5ba584d))
 
 
 

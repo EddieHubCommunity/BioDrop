@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ProgressBar } from 'primereact/progressbar'
+import PropTypes from 'prop-types'
 
 import ProfilePage from './ProfilePage'
 import Placeholder from './Placeholder'
@@ -8,12 +9,12 @@ import ErrorPage from './ErrorPage'
 import Navbar from '../Navbar'
 import GetIcons from '../Icons/GetIcons'
 
-function User() {
+function User({ singleUser }) {
   const [showProgress, setShowProgress] = useState(true)
   const [skeleton, setskeleton] = useState(true)
   const [profile, setProfile] = useState()
   const [error, setError] = useState(false)
-  const { username } = useParams()
+  const { username } = singleUser || useParams()
 
   useEffect(() => {
     fetch(`/data/${username}.json`)
@@ -28,7 +29,8 @@ function User() {
 
   return (
     <>
-      <Navbar
+      {!singleUser && (
+        <Navbar
         start={
           <Link
             to="/"
@@ -41,6 +43,7 @@ function User() {
           </Link>
         }
       />
+      )}
       <main>
         {showProgress && <ProgressBar mode="indeterminate" />}
         {skeleton && <Placeholder />}
@@ -51,6 +54,10 @@ function User() {
       </main>
     </>
   )
+}
+
+User.propTypes = {
+  singleUser: PropTypes.object,
 }
 
 export default User

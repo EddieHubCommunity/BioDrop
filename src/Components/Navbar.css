@@ -39,3 +39,15 @@
   font-weight: 600;
   font-size: 20px;
 }
+
+@media screen and (max-width: 380px) {
+  .p-menubar-end {
+    font-size: 12px;
+    flex: 100%;
+    margin: 8px 0 0 !important;
+  }
+
+  .p-menubar-end .pr-2 {
+    padding-right: 0 !important;
+  }
+}
