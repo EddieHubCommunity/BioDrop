@@ -1,3 +1,12 @@
+## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
+
+
+### Bug Fixes
+
+* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
+
+
+
 # [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * MD034/no-bare-urls: Bare URL used ([#1173](https://github.com/EddieHubCommunity/LinkFree/issues/1173)) ([119884f](https://github.com/EddieHubCommunity/LinkFree/commit/119884fd5efcbbac0132ae8a3343a451c5ba584d))
-
-
-
-## [0.62.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.9...v0.62.10) (2022-03-06)
-
-
-### Bug Fixes
-
-* move file to correct location ([#1166](https://github.com/EddieHubCommunity/LinkFree/issues/1166)) ([4bb2e52](https://github.com/EddieHubCommunity/LinkFree/commit/4bb2e52343528830748e8a1536c20b0936413ceb))
 
 
 
