@@ -4,6 +4,7 @@ Feature: User profile page
 
     Scenario: Navigating to a user's page and check name
         Given I open "home" page
+        Then I scroll to the "bottom" of window
         Then I see "eddiejaoude" as a link
         When I click on "eddiejaoude"
         Then I should see "eddiejaoude" in the url
