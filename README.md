@@ -61,7 +61,7 @@ Create a file named using your GitHub username `username.json` in the directory 
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
-- [nhcarrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
+- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
