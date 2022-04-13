@@ -91,7 +91,7 @@ After making changes make sure that tests passes
 npm run start
 ```
 
-**2.** Run the tests by running this command
+**2.** <!--Run the tests by running this command--> The project runs automated tests when creating a PR. It tests components of the App. If you wish to run tests manually use the command ‘npm run cypress:run’ . If you need help to fix failing tests please comment on the PR asking for help.
 
 ```bash
 npm run cypress:run
