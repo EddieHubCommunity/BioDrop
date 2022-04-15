@@ -18,7 +18,7 @@
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
-**3.** Navigate to the newly created LinkFree project directory :
+**3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
 cd LinkFree
