@@ -85,7 +85,7 @@ git push origin YourBranchName
 
 After making changes make sure that tests passes
 
-**1.** Start the LinkFree application by typing this command
+**1.** Start the LinkFree application by typing this command:
 
 ```bash
 npm run start
