@@ -91,7 +91,7 @@ After making changes make sure that tests passes
 npm run start
 ```
 
-**2.** Perform the tests by typing this command
+**2.** Perform the tests by typing this command:
 
 ```bash
 npm run cypress:run
