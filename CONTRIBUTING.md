@@ -1,4 +1,10 @@
-# 💥 How to Contribute
+# Prerequisite Skills to Contribute.
+
+- [Node.js](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+
+
+# 💥 How to Contribute?
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
@@ -8,7 +14,7 @@
 - Create a **[Pull Request](https://github.com/EddieHubCommunity/LinkFree/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
-## ⭐ HOW TO MAKE A PULL REQUEST:
+## ⭐ HOW TO MAKE A PULL REQUEST?
 
 **1.** Start by making a fork the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
 
