@@ -10,15 +10,15 @@
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a fork the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by making a Fork of the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
-**2.** Clone your new fork of the repository:
+**2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
-**3.** Navigate to the new project directory:
+**3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
 cd LinkFree
@@ -85,13 +85,13 @@ git push origin YourBranchName
 
 After making changes make sure that tests passes
 
-**1.** Run the application
+**1.** Start the LinkFree application by typing this command:
 
 ```bash
 npm run start
 ```
 
-**2.** Run the tests by running this command
+**2.** Perform the tests by typing this command:
 
 ```bash
 npm run cypress:run
