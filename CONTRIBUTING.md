@@ -1,3 +1,11 @@
+# 👨‍💻 Prerequisite Skills to Contribute.
+- [Git](https://git-scm.com/)
+- [JSON](https://www.json.org/json-en.html)
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+- [React](https://reactjs.org/)
+- [React Prime](https://www.primefaces.org/primereact/)
+
+
 # 💥 How to Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
