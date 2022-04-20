@@ -1,10 +1,18 @@
-# 👨‍💻 Prerequisite Skills to Contribute.
-- [Git](https://git-scm.com/)
-- [JSON](https://www.json.org/json-en.html)
-- [Markdown](https://www.markdownguide.org/basic-syntax/)
-- [React](https://reactjs.org/)
-- [React Prime](https://www.primefaces.org/primereact/)
+## 👨‍💻 Prerequisite Skills to Contribute.
 
+### Contribute in public/Profile
+
+- [Git](https://git-scm.com/) 
+- [JSON](https://www.json.org/json-en.html)
+
+### Contribute in Documents
+
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+
+### Contribute in Components/CSS.
+
+- [React](https://reactjs.org/)
+- [Prime React](https://www.primefaces.org/primereact/)
 
 # 💥 How to Contribute
 
