@@ -9,7 +9,7 @@
 
 - [Markdown](https://www.markdownguide.org/basic-syntax/)
 
-### Contribute in Components/CSS.
+### Contribute in Components/CSS
 
 - [React](https://reactjs.org/)
 - [Prime React](https://www.primefaces.org/primereact/)
