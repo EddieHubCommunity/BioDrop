@@ -1,3 +1,19 @@
+## 👨‍💻 Prerequisite Skills to Contribute
+
+### Contribute in public/Profile
+
+- [Git](https://git-scm.com/) 
+- [JSON](https://www.json.org/json-en.html)
+
+### Contribute in Documents
+
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+
+### Contribute in Components/CSS
+
+- [React](https://reactjs.org/)
+- [Prime React](https://www.primefaces.org/primereact/)
+
 # 💥 How to Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
