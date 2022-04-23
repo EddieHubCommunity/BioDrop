@@ -1,41 +1,83 @@
 {
   "name": "Krish Gupta",
   "type": "personal",
-  "bio": "An enthusiast student developer looking forward to contribute to open source!",
+  "bio": "An enthusiastic and ambitious full stack developer. Specialising in Web Development, JavaScript and GitHub",
   "avatar": "https://github.com/krshdev.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "Collaborative Work on GitHub",
       "url": "https://github.com/krshdev",
       "icon": "github"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Programming Content on Twitter",
       "url": "https://twitter.com/krshdev",
       "icon": "twitter"
     },
     {
-      "name": "Checkout my website",
-      "url": "https://krshdev.co",
-      "icon": "globe"
+      "name": "Blogs & Articles about Development",
+      "url": "https://blog.krshdev.co",
+      "icon": "book"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/krshdev",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check out my Instagram",
+      "url": "https://www.instagram.com/krishguptadev",
+      "icon": "instagram"
     }
   ],
   "milestones": [
     {
-      "title": "Started Learning to Code",
-      "date": "30th September 2021",
-      "icon": "book",
-      "color": "grey",
-      "description": "Started Learning to Code",
-      "url": "https://krshdev.co"
+      "title": "Became a Maintainer at WebXDAO",
+      "date": "October 2021",
+      "icon": "github",
+      "color": "#1CADFD",
+      "description": "Started a volunteer position at WebXDAO as a core maintainer and moderator!",
+      "url": "https://bio.link/webxdao"
     },
     {
-      "title": "Founded Cerulean Coders",
-      "date": "15th December 2021",
+      "title": "Became a Collaborator at Dev Protocol",
+      "date": "October 2021",
+      "icon": "discord",
+      "color": "#1CADFD",
+      "description": "Collaborating with the core team of Dev Protocol 🤝",
+      "url": "https://devprotocol.xyz"
+    },
+    {
+      "title": "Won the BUIDL Hackathon",
+      "date": "December 2021",
+      "icon": "Graduation Hat",
+      "color": "#1CADFD",
+      "description": "DevNFT - Won at BUIDL IT, Two Tracks: The Filecoin Track & Top 40",
+      "url": "https://devfolio.co/submissions/devnft-210b"
+    },
+    {
+      "title": "Selected as a MLH Mentor",
+      "date": "December 2021",
+      "icon": "Graduation Hat",
+      "color": "#1CADFD",
+      "description": "I got the pleasure to help new hackers, get into the universe of hackathons, through MLH",
+      "url": "https://mlh.io"
+    },
+    {
+      "title": "Became a Maintainer at EddieHub",
+      "date": "December 2021",
+      "icon": "github",
+      "color": "#1CADFD",
+      "description": "Started a volunteer position at EddieHub as a maintainer for the Hacktoberfest Practice Repository",
+      "url": "http://eddiehub.org"
+    },
+    {
+      "title": "Led a MLH Guild",
+      "date": "January 2022",
       "icon": "users",
-      "color": "grey",
-      "description": "Founded Cerulean Coders, An student-run open source community focusing on project based learning.",
-      "url": "http://linkfree.eddiehub.org/CeruleanCodersComm"
+      "color": "#1CADFD",
+      "description": "Founded Innate, An student-run open source community focusing on project based learning.",
+      "url": "http://linkfree.eddiehub.org/InnateComm"
     }
   ]
 }

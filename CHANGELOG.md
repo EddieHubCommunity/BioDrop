@@ -1,45 +1,45 @@
-## [0.62.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.1...v0.62.2) (2022-01-28)
-
-
-### Bug Fixes
-
-* trigger build ([c704018](https://github.com/EddieHubCommunity/LinkFree/commit/c7040185b14c83bac11427b6d0e6ae373e9afb45))
-
-
-
-## [0.62.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.0...v0.62.1) (2022-01-25)
-
-
-### Bug Fixes
-
-* change buttons to links [#1016](https://github.com/EddieHubCommunity/LinkFree/issues/1016) ([#1025](https://github.com/EddieHubCommunity/LinkFree/issues/1025)) ([11664b1](https://github.com/EddieHubCommunity/LinkFree/commit/11664b11b1bc6f8fa9bf0f47e97fb0b3bcd1b35e))
-
-
-
-# [0.62.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.61.0...v0.62.0) (2022-01-24)
+# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
 
 
 ### Features
 
-* add Polywork Icon ([#1026](https://github.com/EddieHubCommunity/LinkFree/issues/1026)) ([ed2d88e](https://github.com/EddieHubCommunity/LinkFree/commit/ed2d88e160f00f90d9d2a089fc8fd6def11bbc8b))
+* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
 
 
 
-# [0.61.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.3...v0.61.0) (2022-01-23)
-
-
-### Features
-
-* Add HackerRank Icon ([#1012](https://github.com/EddieHubCommunity/LinkFree/issues/1012)) ([9d14fcd](https://github.com/EddieHubCommunity/LinkFree/commit/9d14fcdeddd180f448a9eec419ca51da6bfed127))
-
-
-
-## [0.60.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.60.2...v0.60.3) (2022-01-23)
+## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
 
 
 ### Bug Fixes
 
-* Add tabIndex attribute to scroll to top btn ([#992](https://github.com/EddieHubCommunity/LinkFree/issues/992)) ([0666fab](https://github.com/EddieHubCommunity/LinkFree/commit/0666fab81e33039ad520b02e38e3f751fbdff877))
+* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
+
+
+
+# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
+
+
+### Features
+
+* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
+
+
+
+## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
+
+
+### Bug Fixes
+
+* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
+
+
+
+## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
+
+
+### Bug Fixes
+
+* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
 
 
 

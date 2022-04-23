@@ -1,7 +1,7 @@
 {
   "name": "VASANTI SUTHAR",
   "type": "personal",
-  "bio": "Open Source Enthusiast!",
+  "bio": "Web development | content writer | open-source",
   "avatar": "https://github.com/vasantisuthar.png",
   "links": [
     {
@@ -28,6 +28,11 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/vasanti_suthar/",
       "icon": "instagram"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://vasantisuthar.hashnode.dev/",
+      "icon": "hashnode"
     }
   ]
 }
