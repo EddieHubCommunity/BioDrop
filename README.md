@@ -107,7 +107,7 @@ For example: <http://github.com/eddiejaoude.png>
 
 ### A simple gif version of adding your profile
 
-<https://github.com/KarlGusta/LinkFree-docs/blob/main/Linkfree%20adding%20profile%20gif.gif>
+![Linkfree adding profile GIF](https://user-images.githubusercontent.com/51878265/165113896-35d34c1d-c95e-4bb4-b658-df1afb9ab658.gif)
 
 ### Available Icons:
 
