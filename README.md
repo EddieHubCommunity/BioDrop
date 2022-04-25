@@ -105,6 +105,9 @@ To include your `avatar`, You just have to replace `<yourusername>` with your **
 
 For example: <http://github.com/eddiejaoude.png>
 
+A simple gif version of adding your profile:
+<https://github.com/KarlGusta/LinkFree-docs/blob/main/Linkfree%20adding%20profile%20gif.gif>
+
 ### Available Icons:
 
 Check [Icons.md](/icons.md) for all the supported icons.
