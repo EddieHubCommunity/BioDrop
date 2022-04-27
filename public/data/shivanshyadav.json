@@ -13,6 +13,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_shivansh_13",
       "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivansh-yadav-61b619211/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Checkout my Blogs",
+      "url": "https://shivanshyadav.hashnode.dev/",
+      "icon": "hashnode"
     }
   ]
 }

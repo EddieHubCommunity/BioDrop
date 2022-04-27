@@ -13,6 +13,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/abbhishek_k",
       "icon": "twitter"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://AbhijithGanesh.tech",
+      "icon": "globe"
     }
   ],
   "milestones": [

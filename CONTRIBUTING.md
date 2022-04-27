@@ -1,7 +1,23 @@
+## 👨‍💻 Prerequisite Skills to Contribute
+
+### Contribute in public/Profile
+
+- [Git](https://git-scm.com/) 
+- [JSON](https://www.json.org/json-en.html)
+
+### Contribute in Documents
+
+- [Markdown](https://www.markdownguide.org/basic-syntax/)
+
+### Contribute in Components/CSS
+
+- [React](https://reactjs.org/)
+- [Prime React](https://www.primefaces.org/primereact/)
+
 # 💥 How to Contribute
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
 
 - Take a look at the existing [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) or [create a new issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose)!
 - [Fork the Repo](https://github.com/EddieHubCommunity/LinkFree/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
@@ -10,15 +26,15 @@
 
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
-**1.** Start by making a fork the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+**1.** Start by making a Fork of the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
-**2.** Clone your new fork of the repository:
+**2.** Clone your new fork of the repository in the terminal/CLI on your computer with the following command:
 
 ```bash
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
-**3.** Navigate to the new project directory:
+**3.** Navigate to the newly created LinkFree project directory:
 
 ```bash
 cd LinkFree
@@ -57,6 +73,10 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
+⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+
 ```bash
 git add public
 ```
@@ -76,6 +96,22 @@ git push origin YourBranchName
 **11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
+
+## Run automated tests
+
+After making changes make sure that tests passes
+
+**1.** Start the LinkFree application by typing this command:
+
+```bash
+npm run start
+```
+
+**2.** Perform the tests by typing this command:
+
+```bash
+npm run cypress:run
+```
 
 ## Style Guide for Git Commit Messages :memo:
 
@@ -97,8 +133,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 
 ## All the best! 🥇
 
-<p align="center">
-
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/unnati914/Care4ther-)
-
-</p>
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
