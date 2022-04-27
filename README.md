@@ -90,7 +90,7 @@ Your brand new file should look something similar to this one:
       "date": "December 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing"
+      "description": "Started freelancing",
       "url": "https://www.eddiejaoude.io/"
     }
   ]
