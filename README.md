@@ -49,7 +49,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 ## 👨‍💻 Contributing
 
-- Contributions make the open source community such an amazing place to learn, inspire,collaboration and create.
+- Contributions make the open source community such an amazing place to learn, inspire, collaborate and create.
 - Any contributions you make are **greatly appreciated**.
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
