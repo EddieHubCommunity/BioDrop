@@ -37,7 +37,7 @@ Before installation, please make sure you have already installed the following t
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project
+2. Clone the project `git clone <url>`
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm install`
 5. Run `npm start`
@@ -49,7 +49,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 ## 👨‍💻 Contributing
 
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Contributions make the open source community such an amazing place to learn, inspire,collaboration and create.
 - Any contributions you make are **greatly appreciated**.
 - Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
