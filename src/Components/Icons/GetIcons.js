@@ -15,9 +15,7 @@ import {
   FaYoutube,
   FaEnvelope,
   FaInstagram,
-  FaLaravel,
   FaLinkedin,
-  FaNodeJs,
   FaTwitch,
   FaDev,
   FaGlobe,
@@ -79,8 +77,6 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiHashnode {...restProps} />
     case 'instagram':
       return <FaInstagram {...restProps} />
-    case 'laravel':
-      return <FaLaravel {...restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':
@@ -89,8 +85,6 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiMedium {...restProps} />
     case 'microsoft':
       return <FaMicrosoft {...restProps} />
-    case 'nodejs':
-      return <FaNodeJs {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
