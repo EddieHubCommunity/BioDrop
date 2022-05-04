@@ -35,6 +35,11 @@
       "icon": "twitter"
     },
     {
+      "name": "Fediverse",
+      "url": "https://social.labmonkeys.space/@indigo",
+      "icon": "link"
+    },
+    {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/ronnytrommer/",
       "icon": "linkedin"

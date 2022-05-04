@@ -90,7 +90,7 @@ Your brand new file should look something similar to this one:
       "date": "December 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing"
+      "description": "Started freelancing",
       "url": "https://www.eddiejaoude.io/"
     }
   ]
@@ -104,6 +104,10 @@ For example: <http://linkfree.eddiehub.org/eddiejaoude>
 To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
 
 For example: <http://github.com/eddiejaoude.png>
+
+### A simple gif version of adding your profile
+
+![Linkfree adding profile GIF](https://user-images.githubusercontent.com/51878265/165113896-35d34c1d-c95e-4bb4-b658-df1afb9ab658.gif)
 
 ### Available Icons:
 
