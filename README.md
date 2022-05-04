@@ -37,7 +37,7 @@ Before installation, please make sure you have already installed the following t
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project `git clone <url>`
+2. Clone the project `git clone https://github.com/<your-github-username>/LinkFree`
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm install`
 5. Run `npm start`
