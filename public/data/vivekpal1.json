@@ -1,0 +1,49 @@
+{
+  "name": "Vivek Pal",
+  "type": "personal",
+  "bio": "Love to Learn n Explore!",
+  "avatar": "https://github.com/vivekpal1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vivekpal1",
+      "icon": "github"
+    },
+    {
+      "name": "My Website",
+      "url": "https://vivekpal.in/",
+      "icon": "globe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vivekpal_",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source",
+      "date": "February 2022",
+      "icon": "github",
+      "color": "Orange",
+      "description": "",
+      "url": "https://github.com/vivekpal1"
+    },
+    {
+      "title": "Started Web Development",
+      "date": "June 2021",
+      "icon": "globe",
+      "color": "Blue",
+      "description": "Started Web Development, contributed to many open source projects.",
+      "url": "https://vivekpal.in/"
+    },
+    {
+      "title": "Tech Journey Begins",
+      "date": "2018",
+      "icon": "globe",
+      "color": "grey",
+      "description": "Started learning programming. First language was Python",
+      "url": "https://vivekpal.in/blogs/"
+    }
+  ]
+}
