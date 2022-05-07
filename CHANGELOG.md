@@ -1,3 +1,12 @@
+## [0.64.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.0...v0.64.1) (2022-05-07)
+
+
+### Bug Fixes
+
+* Menubar icons position on mobile ([#1196](https://github.com/EddieHubCommunity/LinkFree/issues/1196)) ([e39fc59](https://github.com/EddieHubCommunity/LinkFree/commit/e39fc59868ec37b990114fd482d6d549e1396fa1))
+
+
+
 # [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
-
-
-
-## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
-
-
-### Bug Fixes
-
-* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
 
 
 
