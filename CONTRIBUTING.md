@@ -23,7 +23,7 @@
 - [Fork the Repo](https://github.com/EddieHubCommunity/LinkFree/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
 - Create a **[Pull Request](https://github.com/EddieHubCommunity/LinkFree/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
-
+---
 ## ⭐ HOW TO MAKE A PULL REQUEST:
 
 **1.** Start by making a Fork of the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
@@ -73,7 +73,7 @@ git merge upstream/main
 
 **8.** Stage your changes and commit:
 
-⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
+## Note ⚠️ Make sure *not to commit* `package.json` or `package-lock.json` file
 
 ⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
 
@@ -95,8 +95,11 @@ git push origin YourBranchName
 
 **11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
+---
+
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
+---
 ## Run automated tests
 
 After making changes make sure that tests passes
@@ -113,13 +116,14 @@ npm run start
 npm run cypress:run
 ```
 
+---
 ## Style Guide for Git Commit Messages :memo:
 
 **How you can add more value to your contribution logs:**
 
-- Use the present tense. (Example: "Add feature" instead of "Added feature")
-- Use the imperative mood. (Example: "Move item to...", instead of "Moves item to...")
-- Limit the first line (also called the Subject Line) to _50 characters or less_.
+- Use the present tense. (**Example**: "Add feature" instead of "Added feature")
+- Use the imperative mood. (**Example**: "Move item to...", instead of "Moves item to...")
+- Limit the first line *(also called the Subject Line)* to _50 characters or less_.
 - Capitalize the Subject Line.
 - Separate subject from body with a blank line.
 - Do not end the subject line with a period.
@@ -127,6 +131,7 @@ npm run cypress:run
 - Use the body to explain the _what_, _why_, _vs_, and _how_.
 - Reference [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) and [Pull Requests](https://github.com/EddieHubCommunity/LinkFree/pulls) liberally after the first line.
 
+---
 ## 💥 Issues
 
 In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
@@ -134,3 +139,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 ## All the best! 🥇
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
+
