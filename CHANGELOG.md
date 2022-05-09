@@ -1,3 +1,12 @@
+## [0.64.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.1...v0.64.2) (2022-05-09)
+
+
+### Bug Fixes
+
+* update link to https ([#1284](https://github.com/EddieHubCommunity/LinkFree/issues/1284)) ([96aa23b](https://github.com/EddieHubCommunity/LinkFree/commit/96aa23b188c2ce631fdadd92959c8bd2d315c618))
+
+
+
 ## [0.64.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.0...v0.64.1) (2022-05-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
-
-
-
-## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
-
-
-### Bug Fixes
-
-* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
 
 
 
