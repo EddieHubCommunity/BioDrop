@@ -26,6 +26,10 @@ a {
   opacity: 1;
 }
 
+.search-bar-resize {
+  width: 180px;
+}
+
 @media screen and (max-width: 768px) {
   .p-chip > .p-avatar > .p-badge {
     opacity: 1;

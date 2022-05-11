@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { InputText } from 'primereact/inputtext'
 import GetIcons from '../Icons/GetIcons'
+import './Home.css'
 
 const Searchbar = ({ searchHandler, searchTerm }) => {
   return (
@@ -12,6 +13,7 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
           type="search"
           value={searchTerm}
           onChange={({ target }) => searchHandler(target.value)}
+          className="search-bar-resize"
           name="user"
           id="search-input"
           placeholder="Search user..."
