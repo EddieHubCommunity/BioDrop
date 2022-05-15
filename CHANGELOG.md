@@ -1,3 +1,12 @@
+# [0.65.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.2...v0.65.0) (2022-05-15)
+
+
+### Features
+
+* io domain ([79e500a](https://github.com/EddieHubCommunity/LinkFree/commit/79e500aac111c39aefc1d1c409a1357142f49c1f))
+
+
+
 ## [0.64.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.1...v0.64.2) (2022-05-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
-
-
-
-# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
-
-
-### Features
-
-* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
 
 
 
