@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { BsFillArrowUpCircleFill } from 'react-icons/bs'
 import './ScrollToTopBtn.css'
+
+// icons
+import { BsFillArrowUpCircleFill } from 'react-icons/bs'
+
+// packages
+import { animateScroll } from 'react-scroll'
 
 function ScrollToTopBtn() {
   const [scrollBtnVisibility, setScrollBtnVisibility] = useState(false)
@@ -22,10 +27,7 @@ function ScrollToTopBtn() {
 
   const scrollToTop = (e) => {
     if (e.type === 'click' || e.key === 'Enter') {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth',
-      })
+      animateScroll.scrollToTop()
     }
   }
 
