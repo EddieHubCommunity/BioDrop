@@ -39,23 +39,19 @@
       "date": "Nov 2021",
       "icon": "dollar",
       "color": "red",
-      "url": "https://youtube.com/eddiejaoude"
     },
     {
-      "title": "GitHub Star",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Became a GitHub Star with 30 other people",
-      "url": "https://github.com/eddiejaoude"
+      "title": "GSWoC'21 Top 10 Java Contributor",
+      "date": "Nov 2020",
+      "icon": "trophy",
+      "color": "golden",      
     },
     {
-      "title": "GitHub Star of the Year",
+      "title": "Program Manager",
       "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "https://github.com/eddiejaoude"
+      "icon": "trophy",
+      "color": "golden",
+      "description": "Became the program manger of the open source program SWOC",
     },
     {
       "title": "GitHub Nova, Community Growth Award",
