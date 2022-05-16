@@ -25,7 +25,7 @@
 
 ## 👨‍💻 Demo
 
-Check out the website: [LinkFree](http://linkfree.eddiehub.org/)
+Check out the website: [LinkFree](https://linkfree.eddiehub.io/)
 
 ## 👇 Prerequisites
 
@@ -97,9 +97,9 @@ Your brand new file should look something similar to this one:
 }
 ```
 
-Your URL will be `http://linkfree.eddiehub.org/<yourusername>`
+Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
-For example: <http://linkfree.eddiehub.org/eddiejaoude>
+For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
 To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
 
