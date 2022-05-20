@@ -81,7 +81,7 @@ function Users({ list }) {
                 template={
                   <>
                     <Avatar
-                      image={user.avatar}
+                      // image={user.avatar}
                       size="large"
                       className="p-overlay-badge"
                       onImageError={(error) => {
