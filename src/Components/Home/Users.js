@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
 // import { Avatar } from 'primereact/avatar'
-// import { Badge } from 'primereact/badge'
+import { Badge } from 'primereact/badge'
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 import ProfileTypeFilter from './filterProfileType'
-// import utils from '../../utils'
+import utils from '../../utils'
 
 function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
@@ -80,6 +80,20 @@ function Users({ list }) {
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
                 template={
                   <>
+                    <Chip
+                      // image={user.avatar}
+                      size="large"
+                      className="p-overlay-badge"
+                      onImageError={(error) => {
+                        utils.setDefaultSVG(user.name, error)
+                      }}
+                    >
+                      <Badge
+                        value={user.linkCount > 9 ? '9+' : user.linkCount}
+                        severity="info"
+                        className="mr-3"
+                      ></Badge>
+                    </Chip>
                     <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
                       {user.name}
                     </span>
