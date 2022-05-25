@@ -1,3 +1,12 @@
+# [0.66.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.65.0...v0.66.0) (2022-05-25)
+
+
+### Features
+
+* removed images on homepage ([#1306](https://github.com/EddieHubCommunity/LinkFree/issues/1306)) ([74aa9a8](https://github.com/EddieHubCommunity/LinkFree/commit/74aa9a862c25fa39d2076eb0f69aeeeb002eea0f)), closes [#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)
+
+
+
 # [0.65.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.2...v0.65.0) (2022-05-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
-
-
-
-## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
-
-
-### Bug Fixes
-
-* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
 
 
 
