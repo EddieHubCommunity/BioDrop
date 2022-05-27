@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
@@ -12,6 +12,15 @@ function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
+
+  useEffect(() => {
+    if (localStorage.getItem('value') === null) {
+      typeHandler('all')
+    } else {
+      const value = localStorage.getItem('value')
+      typeHandler(value)
+    }
+  }, [])
 
   const typeHandler = (value) => {
     setProfileType(value)

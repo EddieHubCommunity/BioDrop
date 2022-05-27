@@ -13,7 +13,10 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
     <Dropdown
       value={profileType}
       options={profileTypes}
-      onChange={(e) => typeHandler(e.value)}
+      onChange={(e) => {
+        typeHandler(e.value)
+        localStorage.setItem('value', e.value)
+      }}
     />
   )
 }
