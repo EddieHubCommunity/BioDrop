@@ -1,71 +1,28 @@
 {
   "name": "Vedant Pople",
   "type": "personal",
-  "bio": "MCS Graduate Student at ASU, Tempe. Currently learning about Blockchain. Versed with Flutter and Deep Learning. Connect with me to talk Tech and share memes.",
+  "bio": "Hello !, I am an Open Source enthusiast, looking to contribute in projects related to Deep Learning, Flutter and Django. Currently learning Blockchain and basics of Javascript. Connect with me to talk Tech and share memes.",
   "avatar": "https://github.com/vedantpople4.png",
   "links": [
     {
+      "name": "Visit my Portfolio",
+      "url": "https://vedantpople4.github.io/Portfolio/",
+      "icon": "globe"
+    },
+    {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/eddiejaoude",
+      "url": "https://github.com/vedantpople4",
       "icon": "github"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/eddiejaoude",
+      "name": "Drop a Hi! on Twitter",
+      "url": "https://twitter.com/vedantpople",
       "icon": "twitter"
     },
     {
-      "name": "Learn more about Open Source on my YouTube channel",
-      "url": "https://youtube.com/eddiejaoude",
-      "icon": "youtube"
-    },
-    {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vedantpople/",
       "icon": "linkedin"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Started Freelancing",
-      "date": "May 2010",
-      "icon": "dollar",
-      "color": "grey",
-      "description": "Started freelancing again",
-      "url": "https://www.eddiejaoude.io/"
-    },
-    {
-      "title": "Started YouTube",
-      "image": "https://github.com/eddiejaoude.png",
-      "date": "June 2019",
-      "icon": "youtube",
-      "color": "red",
-      "description": "First real video",
-      "url": "https://youtube.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Became a GitHub Star with 30 other people",
-      "url": "https://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Star of the Year",
-      "date": "2020",
-      "icon": "github",
-      "color": "green",
-      "description": "Won GitHub Star of the Year out of 55+ million people",
-      "url": "https://github.com/eddiejaoude"
-    },
-    {
-      "title": "GitHub Nova, Community Growth Award",
-      "date": "2021",
-      "icon": "github",
-      "color": "green",
-      "description": "Won for growing the EddieHub Community to over 30k members.",
-      "url": "https://github.com/eddiejaoude"
     }
   ]
 }
