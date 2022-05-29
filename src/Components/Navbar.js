@@ -32,7 +32,7 @@ function Navbar({ items, start, end }) {
           className="mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <GetIcons iconName="github" size={16} />
+          <GetIcons className="text-gray-900" iconName="github" size={16} />
         </Link>
 
         <div>v{version}</div>

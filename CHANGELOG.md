@@ -1,45 +1,45 @@
-## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
+# [0.66.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.65.0...v0.66.0) (2022-05-25)
+
+
+### Features
+
+* removed images on homepage ([#1306](https://github.com/EddieHubCommunity/LinkFree/issues/1306)) ([74aa9a8](https://github.com/EddieHubCommunity/LinkFree/commit/74aa9a862c25fa39d2076eb0f69aeeeb002eea0f)), closes [#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)
+
+
+
+# [0.65.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.2...v0.65.0) (2022-05-15)
+
+
+### Features
+
+* io domain ([79e500a](https://github.com/EddieHubCommunity/LinkFree/commit/79e500aac111c39aefc1d1c409a1357142f49c1f))
+
+
+
+## [0.64.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.1...v0.64.2) (2022-05-09)
 
 
 ### Bug Fixes
 
-* improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
+* update link to https ([#1284](https://github.com/EddieHubCommunity/LinkFree/issues/1284)) ([96aa23b](https://github.com/EddieHubCommunity/LinkFree/commit/96aa23b188c2ce631fdadd92959c8bd2d315c618))
 
 
 
-# [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
-
-
-### Features
-
-* Add Scroll-to-top button ([#921](https://github.com/EddieHubCommunity/LinkFree/issues/921)) ([966389a](https://github.com/EddieHubCommunity/LinkFree/commit/966389a06e6356bbb67f7a5ebf2805b9f47e3bf7))
-
-
-
-# [0.57.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.1...v0.57.0) (2022-01-06)
-
-
-### Features
-
-* added profile sharing option ([#908](https://github.com/EddieHubCommunity/LinkFree/issues/908)) ([431d770](https://github.com/EddieHubCommunity/LinkFree/commit/431d770edfdbf58fd765c0f7876345bc0a8422c5))
-
-
-
-## [0.56.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.56.0...v0.56.1) (2022-01-06)
+## [0.64.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.0...v0.64.1) (2022-05-07)
 
 
 ### Bug Fixes
 
-* Correct item alignment on error page ([#924](https://github.com/EddieHubCommunity/LinkFree/issues/924)) ([313750e](https://github.com/EddieHubCommunity/LinkFree/commit/313750ed5226a35a35d876cceb1f0ff547d7054a))
+* Menubar icons position on mobile ([#1196](https://github.com/EddieHubCommunity/LinkFree/issues/1196)) ([e39fc59](https://github.com/EddieHubCommunity/LinkFree/commit/e39fc59868ec37b990114fd482d6d549e1396fa1))
 
 
 
-# [0.56.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.55.22...v0.56.0) (2022-01-05)
+# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
 
 
 ### Features
 
-* add snapchat and codeforces ([#898](https://github.com/EddieHubCommunity/LinkFree/issues/898)) ([7319bc7](https://github.com/EddieHubCommunity/LinkFree/commit/7319bc7f26ee183deb7ead892420a6137cca1360))
+* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
 
 
 
