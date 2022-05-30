@@ -25,6 +25,7 @@
     "start": "react-scripts start",
     "start:prod": "serve -s build",
     "build": "npm run generate && react-scripts build",
+    "postbuild": "purgecss --config ./purgecss.config.js --output build/static/css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "node generate.js",
@@ -52,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "concurrently": "^6.2.2",
     "cypress": "^8.5.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
