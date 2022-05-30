@@ -1,4 +1,4 @@
-import './Home.css'
+import './Search.css'
 
 import React, { useState, useEffect, useRef } from 'react'
 import { Toast } from 'primereact/toast'
@@ -6,7 +6,7 @@ import { Toast } from 'primereact/toast'
 import Placeholders from './Placeholders'
 import Users from './Users'
 
-function Home() {
+function Search() {
   const [list, setList] = useState([])
   const [skeleton, setskeleton] = useState(true)
   const toast = useRef(null)
@@ -21,7 +21,7 @@ function Home() {
       )
       .then((data) => setList(data))
       .catch((error) => {
-        console.log('Home useEffect', error)
+        console.log('Search useEffect', error)
         toast.current.show({
           severity: 'error',
           summary: 'Error Message',
@@ -44,4 +44,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Search
