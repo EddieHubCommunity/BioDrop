@@ -2,7 +2,7 @@
   "name": "linkfree",
   "version": "0.66.0",
   "private": false,
-  "homepage": "http://linkfree.eddiehub.org",
+  "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
