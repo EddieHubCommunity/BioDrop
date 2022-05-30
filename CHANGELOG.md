@@ -1,3 +1,12 @@
+# [0.67.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.66.0...v0.67.0) (2022-05-30)
+
+
+### Features
+
+* deploy purge-css ([6016f9a](https://github.com/EddieHubCommunity/LinkFree/commit/6016f9ab98b6985359d0fd0f3d056dab2c60bf1c))
+
+
+
 # [0.66.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.65.0...v0.66.0) (2022-05-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Menubar icons position on mobile ([#1196](https://github.com/EddieHubCommunity/LinkFree/issues/1196)) ([e39fc59](https://github.com/EddieHubCommunity/LinkFree/commit/e39fc59868ec37b990114fd482d6d549e1396fa1))
-
-
-
-# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
-
-
-### Features
-
-* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
 
 
 
