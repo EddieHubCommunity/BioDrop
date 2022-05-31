@@ -1,3 +1,12 @@
+## [0.67.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.0...v0.67.1) (2022-05-31)
+
+
+### Bug Fixes
+
+* typo in Shivendu Kumar's profile ([#1344](https://github.com/EddieHubCommunity/LinkFree/issues/1344)) ([168bf27](https://github.com/EddieHubCommunity/LinkFree/commit/168bf27cd5cc5b9347508c119fd304acfacb6c5c))
+
+
+
 # [0.67.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.66.0...v0.67.0) (2022-05-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update link to https ([#1284](https://github.com/EddieHubCommunity/LinkFree/issues/1284)) ([96aa23b](https://github.com/EddieHubCommunity/LinkFree/commit/96aa23b188c2ce631fdadd92959c8bd2d315c618))
-
-
-
-## [0.64.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.0...v0.64.1) (2022-05-07)
-
-
-### Bug Fixes
-
-* Menubar icons position on mobile ([#1196](https://github.com/EddieHubCommunity/LinkFree/issues/1196)) ([e39fc59](https://github.com/EddieHubCommunity/LinkFree/commit/e39fc59868ec37b990114fd482d6d549e1396fa1))
 
 
 
