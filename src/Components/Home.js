@@ -28,11 +28,13 @@ function Home() {
         </a>
         .
       </p>
-      <img
-        className="max-w-screen"
-        src="/mockup.png"
-        alt="Exapmle of the LinkFree app on Apple devices"
-      />
+      <p className="text-center">
+        <img
+          className="max-w-screen"
+          src="/mockup.png"
+          alt="Exapmle of the LinkFree app on Apple devices"
+        />
+      </p>
     </>
   )
 }
