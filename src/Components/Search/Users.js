@@ -7,6 +7,7 @@ import { Message } from 'primereact/message'
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 import ProfileTypeFilter from './filterProfileType'
+import GetIcons from '../Icons/GetIcons'
 
 function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
@@ -58,10 +59,13 @@ function Users({ list }) {
     <>
       <Navbar
         start={
-          <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
+          <Link to="/" aria-label="Go back to Home">
+            <GetIcons iconName="arrowLeft" size={20} />
+          </Link>
         }
       />
       <div className="mb-2 flex justify-content-center align-items-center">
+        <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         <label className="p-2">Profile Type</label>
         <ProfileTypeFilter
           profileType={profileType}
