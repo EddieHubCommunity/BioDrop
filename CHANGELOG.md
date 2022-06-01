@@ -1,3 +1,12 @@
+# [0.68.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.1...v0.68.0) (2022-06-01)
+
+
+### Features
+
+* revamp homepage ([#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)) ([#1341](https://github.com/EddieHubCommunity/LinkFree/issues/1341)) ([da767e0](https://github.com/EddieHubCommunity/LinkFree/commit/da767e06693b6e8ceee3e14f9d79ace1d22b487e))
+
+
+
 ## [0.67.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.0...v0.67.1) (2022-05-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * io domain ([79e500a](https://github.com/EddieHubCommunity/LinkFree/commit/79e500aac111c39aefc1d1c409a1357142f49c1f))
-
-
-
-## [0.64.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.1...v0.64.2) (2022-05-09)
-
-
-### Bug Fixes
-
-* update link to https ([#1284](https://github.com/EddieHubCommunity/LinkFree/issues/1284)) ([96aa23b](https://github.com/EddieHubCommunity/LinkFree/commit/96aa23b188c2ce631fdadd92959c8bd2d315c618))
 
 
 
