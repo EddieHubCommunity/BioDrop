@@ -1,23 +1,25 @@
 {
-  "name": "Abhijith Ganesh",
-  "type": "personal",
-  "bio": "An Aspiring Tech afficionado and a freshman in computer science",
-  "avatar": "https://github.com/AbhijithGanesh.png",
-  "links": [
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/AbhijithGanesh",
-      "icon": "github"
-    },
-    {
-      "name": "Connenct with me on LinkedIn",
-      "url": "https://linkedin.com/in/AbhijithGanesh14",
-      "icon": "linkedin"
-    },
-    {
-      "name": "Check out my website",
-      "url": "https://AbhijithGanesh.tech",
-      "icon": "globe"
-    }
-  ]
-}
+    "name": "William J Priest",
+    "type": "personal",
+    "bio": "!% Better Everyday",
+    "avatar": "https://github.com/WilliamJPriest.png",
+    "links": [
+      {
+        "name": "Code with me on GitHub",
+        "url": "https://github.com/WilliamJPriest",
+        "icon": "github"
+      },
+      {
+        "name": "laugh and learn with me on twitter" ,
+        "url": "https://twitter.com/WilliamJPriest1",
+        "icon": "twitter"
+      },
+      {
+        "name": "Job Hunt with me on Linkedin",
+        "url": "https://www.linkedin.com/in/william-j-priest-5aa7341a2/",
+        "icon": "linkedin"
+      }
+      {
+        "name": "Hire me, my Portfolio",
+        "url": "https://williamjpriest.github.io/WilliamJPriest/",
+        "icon": "send"
