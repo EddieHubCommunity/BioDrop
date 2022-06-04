@@ -1,23 +1,28 @@
 {
-  "name": "Yash Patel",
+  "name": "William J Priest",
   "type": "personal",
-  "bio": "MERN Stack Web Dev || Open Source || UI UX",
-  "avatar": "https://github.com/yash-0025.png",
+  "bio": "!% Better Everyday",
+  "avatar": "https://github.com/WilliamJPriest.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/yash-0025",
+      "name": "Code with me on GitHub",
+      "url": "https://github.com/WilliamJPriest",
       "icon": "github"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/YASH80914470",
+      "name": "laugh and learn with me on twitter" ,
+      "url": "https://twitter.com/WilliamJPriest1",
       "icon": "twitter"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/yash-patel-9343601b7/",
+      "name": "Job Hunt with me on Linkedin",
+      "url": "https://www.linkedin.com/in/william-j-priest-5aa7341a2/",
       "icon": "linkedin"
+    }
+    {
+      "name": "Hire me, my Portfolio",
+      "url": "https://williamjpriest.github.io/WilliamJPriest/",
+      "icon": "send"
     }
   ]
 }
