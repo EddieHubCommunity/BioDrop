@@ -18,8 +18,11 @@
         "name": "Job Hunt with me on Linkedin",
         "url": "https://www.linkedin.com/in/william-j-priest-5aa7341a2/",
         "icon": "linkedin"
-      }
+      },
       {
         "name": "Hire me, my Portfolio",
         "url": "https://williamjpriest.github.io/WilliamJPriest/",
         "icon": "send"
+      }
+    ]
+}
