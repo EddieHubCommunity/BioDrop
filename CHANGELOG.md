@@ -1,3 +1,12 @@
+## [0.68.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.1...v0.68.2) (2022-06-10)
+
+
+### Bug Fixes
+
+* kirtijain627([#1369](https://github.com/EddieHubCommunity/LinkFree/issues/1369)) ([38f65c2](https://github.com/EddieHubCommunity/LinkFree/commit/38f65c2b814ff30cf656a8169b3127ccab04dce1))
+
+
+
 ## [0.68.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.0...v0.68.1) (2022-06-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * deploy purge-css ([6016f9a](https://github.com/EddieHubCommunity/LinkFree/commit/6016f9ab98b6985359d0fd0f3d056dab2c60bf1c))
-
-
-
-# [0.66.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.65.0...v0.66.0) (2022-05-25)
-
-
-### Features
-
-* removed images on homepage ([#1306](https://github.com/EddieHubCommunity/LinkFree/issues/1306)) ([74aa9a8](https://github.com/EddieHubCommunity/LinkFree/commit/74aa9a862c25fa39d2076eb0f69aeeeb002eea0f)), closes [#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)
 
 
 
