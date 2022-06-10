@@ -1,3 +1,12 @@
+## [0.68.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.0...v0.68.1) (2022-06-10)
+
+
+### Bug Fixes
+
+* lockfile ([#1370](https://github.com/EddieHubCommunity/LinkFree/issues/1370)) ([d0903cb](https://github.com/EddieHubCommunity/LinkFree/commit/d0903cbd2556ec9b0f42209f1f35d77576019bca))
+
+
+
 # [0.68.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.1...v0.68.0) (2022-06-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * removed images on homepage ([#1306](https://github.com/EddieHubCommunity/LinkFree/issues/1306)) ([74aa9a8](https://github.com/EddieHubCommunity/LinkFree/commit/74aa9a862c25fa39d2076eb0f69aeeeb002eea0f)), closes [#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)
-
-
-
-# [0.65.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.2...v0.65.0) (2022-05-15)
-
-
-### Features
-
-* io domain ([79e500a](https://github.com/EddieHubCommunity/LinkFree/commit/79e500aac111c39aefc1d1c409a1357142f49c1f))
 
 
 
