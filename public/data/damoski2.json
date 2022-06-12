@@ -17,7 +17,7 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/oyindacodes/",
-      "icon": "linkedin"
+      "icon": "linkedIn"
     },
     {
       "name": "Check Out my Portfolio",
@@ -32,7 +32,7 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing",
-      "url": "https://www.linkedin.com/feed/"
+      "url": " https://www.linkedin.com/in/oyindacodes"
     }
   ]
 }
