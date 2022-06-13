@@ -6,7 +6,7 @@ import 'primereact/button/button.min.css'
 function StyledLink({ children, className = '', ...props }) {
   const classNames = ['p-button p-component', className].join(' ')
   return (
-    <a className={classNames} {...props}>
+    <a target={'_blank'} className={classNames} {...props}>
       {children}
     </a>
   )
