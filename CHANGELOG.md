@@ -1,45 +1,45 @@
-## [0.64.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.64.0...v0.64.1) (2022-05-07)
+## [0.68.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.1...v0.68.2) (2022-06-10)
 
 
 ### Bug Fixes
 
-* Menubar icons position on mobile ([#1196](https://github.com/EddieHubCommunity/LinkFree/issues/1196)) ([e39fc59](https://github.com/EddieHubCommunity/LinkFree/commit/e39fc59868ec37b990114fd482d6d549e1396fa1))
+* kirtijain627([#1369](https://github.com/EddieHubCommunity/LinkFree/issues/1369)) ([38f65c2](https://github.com/EddieHubCommunity/LinkFree/commit/38f65c2b814ff30cf656a8169b3127ccab04dce1))
 
 
 
-# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
+## [0.68.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.0...v0.68.1) (2022-06-10)
+
+
+### Bug Fixes
+
+* lockfile ([#1370](https://github.com/EddieHubCommunity/LinkFree/issues/1370)) ([d0903cb](https://github.com/EddieHubCommunity/LinkFree/commit/d0903cbd2556ec9b0f42209f1f35d77576019bca))
+
+
+
+# [0.68.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.1...v0.68.0) (2022-06-01)
 
 
 ### Features
 
-* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
+* revamp homepage ([#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)) ([#1341](https://github.com/EddieHubCommunity/LinkFree/issues/1341)) ([da767e0](https://github.com/EddieHubCommunity/LinkFree/commit/da767e06693b6e8ceee3e14f9d79ace1d22b487e))
 
 
 
-## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
+## [0.67.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.0...v0.67.1) (2022-05-31)
 
 
 ### Bug Fixes
 
-* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
+* typo in Shivendu Kumar's profile ([#1344](https://github.com/EddieHubCommunity/LinkFree/issues/1344)) ([168bf27](https://github.com/EddieHubCommunity/LinkFree/commit/168bf27cd5cc5b9347508c119fd304acfacb6c5c))
 
 
 
-# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
+# [0.67.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.66.0...v0.67.0) (2022-05-30)
 
 
 ### Features
 
-* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
-
-
-
-## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
-
-
-### Bug Fixes
-
-* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
+* deploy purge-css ([6016f9a](https://github.com/EddieHubCommunity/LinkFree/commit/6016f9ab98b6985359d0fd0f3d056dab2c60bf1c))
 
 
 

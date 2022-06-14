@@ -1,7 +1,7 @@
 {
   "name": "Shivam Sharma",
   "type": "personal",
-  "bio": "Member of @EddieHubCommunity, @fossasia | Full Stack Web Developer | Open Source & Cloud & DevOps Enthusiast |",
+  "bio": "Member of @EddieHubCommunity | Full Stack Web Developer | Open Source & Cloud & DevOps Enthusiast.",
   "avatar": "https://github.com/shivam-sharma7.png",
   "links": [
     {
@@ -15,13 +15,8 @@
       "icon": "Twitter"
     },
     {
-      "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/meshivamsharma",
-      "icon": "Linkedin"
-    },
-    {
-      "name": "My Social Links",
-      "url": "https://bio.link/shivams",
+      "name": "Blog's",
+      "url": "https://shivam-sharma.in",
       "icon": "Link"
     }
   ]

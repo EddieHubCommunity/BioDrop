@@ -28,6 +28,8 @@ import {
   FaTelegram,
   FaSnapchat,
   FaGitlab,
+  FaNodeJs,
+  FaLaravel,
 } from 'react-icons/fa'
 import {
   SiCodeforces,
@@ -77,6 +79,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiHashnode {...restProps} />
     case 'instagram':
       return <FaInstagram {...restProps} />
+    case 'laravel':
+      return <FaLaravel {... restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':
@@ -85,6 +89,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiMedium {...restProps} />
     case 'microsoft':
       return <FaMicrosoft {...restProps} />
+    case 'node-js':
+      return <FaNodeJs {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
