@@ -1,3 +1,12 @@
+## [0.68.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.2...v0.68.3) (2022-06-15)
+
+
+### Bug Fixes
+
+* update typos and add profile ([#1361](https://github.com/EddieHubCommunity/LinkFree/issues/1361)) ([00b485c](https://github.com/EddieHubCommunity/LinkFree/commit/00b485cae50ddae9ea585feaa310a9dd75d713a4))
+
+
+
 ## [0.68.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.1...v0.68.2) (2022-06-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in Shivendu Kumar's profile ([#1344](https://github.com/EddieHubCommunity/LinkFree/issues/1344)) ([168bf27](https://github.com/EddieHubCommunity/LinkFree/commit/168bf27cd5cc5b9347508c119fd304acfacb6c5c))
-
-
-
-# [0.67.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.66.0...v0.67.0) (2022-05-30)
-
-
-### Features
-
-* deploy purge-css ([6016f9a](https://github.com/EddieHubCommunity/LinkFree/commit/6016f9ab98b6985359d0fd0f3d056dab2c60bf1c))
 
 
 
