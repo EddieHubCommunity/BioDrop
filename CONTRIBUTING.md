@@ -145,4 +145,4 @@ In order to discuss changes, you are welcome to [open an issue](https://github.c
 
 ## All the best! 🥇
 
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.eddiehub.org/?r_done=1)
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.eddiehub.org/)
