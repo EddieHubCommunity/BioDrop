@@ -1,0 +1,41 @@
+{
+  "name": "Mrutunjay Singh",
+  "type": "personal",
+  "bio": "Frontend Engineer with a bit of Knowledge into Devops",
+  "avatar": "https://github.com/Mrityunjay1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Mrityunjay1",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mithsblaize",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started in Cloud Support",
+      "date": "January 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started in Cloud Support"
+    },
+    {
+      "title": "Switched into Cloud Devops",
+      "date": "January 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started in Cloud Devops"
+    },
+    {
+      "title": "Started in Frontend Engineering",
+      "date": "June 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started in Frontend Engineering"
+    }
+  ]
+}
