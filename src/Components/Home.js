@@ -32,7 +32,7 @@ function Home() {
         <img
           className="max-w-screen"
           src="/mockup.png"
-          alt="Exapmle of the LinkFree app on Apple devices"
+          alt="An Example of the LinkFree app on Apple devices"
         />
       </p>
     </main>
