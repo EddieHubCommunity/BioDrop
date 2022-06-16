@@ -13,6 +13,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/mithsblaize",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mrutunjay-singh-735aa7b1/",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
