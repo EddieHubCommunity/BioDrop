@@ -7,3 +7,11 @@
   border-radius: 56%;
   background: white;
 }
+
+@media screen and (hover: hover) {
+  .scrollToTop-btn:hover {
+    background: black;
+    border: 2px black solid;
+    transition: all 0.3s ease-in;
+  }
+}
