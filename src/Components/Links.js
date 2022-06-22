@@ -25,7 +25,6 @@ function Links({ links }) {
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
             <StyledLink
-              target="_blank"
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
@@ -47,7 +46,6 @@ function Links({ links }) {
           .filter((link) => !Object.keys(colors).includes(link.icon))
           .map((link, index) => (
             <StyledLink
-              target="_blank"
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors.globe)}
               onMouseOut={MouseOut}
