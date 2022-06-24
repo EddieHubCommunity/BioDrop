@@ -1,3 +1,12 @@
+## [0.68.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.3...v0.68.4) (2022-06-24)
+
+
+### Bug Fixes
+
+* YuriDevAT ([#1404](https://github.com/EddieHubCommunity/LinkFree/issues/1404)) ([23fb7ed](https://github.com/EddieHubCommunity/LinkFree/commit/23fb7ed4c87e87919d7e9c026d3ac6a128755fcd))
+
+
+
 ## [0.68.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.2...v0.68.3) (2022-06-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * revamp homepage ([#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)) ([#1341](https://github.com/EddieHubCommunity/LinkFree/issues/1341)) ([da767e0](https://github.com/EddieHubCommunity/LinkFree/commit/da767e06693b6e8ceee3e14f9d79ace1d22b487e))
-
-
-
-## [0.67.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.0...v0.67.1) (2022-05-31)
-
-
-### Bug Fixes
-
-* typo in Shivendu Kumar's profile ([#1344](https://github.com/EddieHubCommunity/LinkFree/issues/1344)) ([168bf27](https://github.com/EddieHubCommunity/LinkFree/commit/168bf27cd5cc5b9347508c119fd304acfacb6c5c))
 
 
 
