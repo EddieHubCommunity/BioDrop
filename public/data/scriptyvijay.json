@@ -1,0 +1,33 @@
+{
+  "name": "Vijay Choudhary",
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://avatars.githubusercontent.com/u/44915813?v=4",
+  "links": [
+    {
+      "name": "Connect on GitHub",
+      "url": "https://github.com/scriptyvijay",
+      "icon": "github"
+    },
+    {
+      "name": "Let's Connect on Twitter",
+      "url": "https://twitter.com/scriptyvijay",
+      "icon": "twitter"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/scriptyvijay/",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "image": "https://www.youtube.com/channel/scriptyvijay",
+      "date": "Jan 2018",
+      "icon": "youtube",
+      "color": "red",
+      "description": "First video on HTML"
+    }
+  ]
+}
