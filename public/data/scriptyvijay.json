@@ -1,0 +1,49 @@
+{
+  "name": "Vijay Choudhary",
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://avatars.githubusercontent.com/u/44915813?v=4",
+  "links": [
+    {
+      "name": "Connect on GitHub",
+      "url": "https://github.com/scriptyvijay",
+      "icon": "github"
+    },
+    {
+      "name": "Let's Connect on Twitter",
+      "url": "https://twitter.com/scriptyvijay",
+      "icon": "twitter"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/scriptyvijay/",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning full stack development",
+      "image": "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/10/Blog_Full-stack-dev.jpg",
+      "date": "Jan 2022",
+      "icon": "youtube",
+      "color": "red",
+      "description": "Learning"
+    },
+    {
+      "title": "Shifted to React",
+      "image": "https://pluralsight2.imgix.net/paths/images/react-c618d5c243.png",
+      "date": "May 2022",
+      "icon": "facebook",
+      "color": "red",
+      "description": "Development"
+    },
+    {
+      "title": "First Project",
+      "image": "https://www.youtube.com/channel/scriptyvijay",
+      "date": "July 2022",
+      "icon": "github",
+      "color": "red",
+      "description": "First Project"
+    }
+  ]
+}
