@@ -98,8 +98,9 @@ Your brand new file should look something similar to this one:
 ```
 
 Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
+For example: <https://linkfree.eddiehub.io/eddiejaoude> 
 
-For example: <https://linkfree.eddiehub.io/eddiejaoude>
+**Your profile might not be displayed after your PR is merged because we collect some profiles together and deploy the project.**
 
 To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
 
