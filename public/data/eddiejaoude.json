@@ -1,11 +1,21 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "bio": "Founder of EddieHub",
+  "bio": "Freelance DevRel | Founder of EddieHub",
   "avatar": "https://github.com/eddiejaoude.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "My business website",
+      "url": "http://eddiejaoude.io",
+      "icon": "link"
+    },
+    {
+      "name": "Inclusive Open Source community EddieHub",
+      "url": "http://eddiehub.org",
+      "icon": "link"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/eddiejaoude",
       "icon": "github"
     },
