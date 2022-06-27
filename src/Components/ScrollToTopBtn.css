@@ -7,3 +7,7 @@
   border-radius: 56%;
   background: white;
 }
+
+.scrollToTop-btn:hover {
+  background-color: #f53900;
+}
