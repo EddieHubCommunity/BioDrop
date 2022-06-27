@@ -1,3 +1,12 @@
+## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
+
+
+### Bug Fixes
+
+* update eddiejaoude ([#1413](https://github.com/EddieHubCommunity/LinkFree/issues/1413)) ([e42c0c8](https://github.com/EddieHubCommunity/LinkFree/commit/e42c0c8a41a9aa3bad18d79c3aa7ed07c83dfe65))
+
+
+
 ## [0.68.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.3...v0.68.4) (2022-06-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * lockfile ([#1370](https://github.com/EddieHubCommunity/LinkFree/issues/1370)) ([d0903cb](https://github.com/EddieHubCommunity/LinkFree/commit/d0903cbd2556ec9b0f42209f1f35d77576019bca))
-
-
-
-# [0.68.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.67.1...v0.68.0) (2022-06-01)
-
-
-### Features
-
-* revamp homepage ([#1264](https://github.com/EddieHubCommunity/LinkFree/issues/1264)) ([#1341](https://github.com/EddieHubCommunity/LinkFree/issues/1341)) ([da767e0](https://github.com/EddieHubCommunity/LinkFree/commit/da767e06693b6e8ceee3e14f9d79ace1d22b487e))
 
 
 
