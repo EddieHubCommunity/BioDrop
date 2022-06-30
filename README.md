@@ -5,7 +5,7 @@
 - LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
-![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/82458069/145549448-b1feb5df-78aa-4286-a709-6985f0dade4c.gif)
+![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176698701-1dacbcb5-4039-404d-90db-760ce8495727.gif)
 
 <details close>
   <summary><span style="font-size: 24px; font-weight: 700;"> Note for Hacktoberfest </span></summary>
