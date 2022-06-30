@@ -1,3 +1,12 @@
+## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
+
+
+### Bug Fixes
+
+* Eddie Jaoude text for EddieHub ([9e9c2f7](https://github.com/EddieHubCommunity/LinkFree/commit/9e9c2f70a36c8f77115565e4c53544034e0fe6bb))
+
+
+
 ## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kirtijain627([#1369](https://github.com/EddieHubCommunity/LinkFree/issues/1369)) ([38f65c2](https://github.com/EddieHubCommunity/LinkFree/commit/38f65c2b814ff30cf656a8169b3127ccab04dce1))
-
-
-
-## [0.68.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.0...v0.68.1) (2022-06-10)
-
-
-### Bug Fixes
-
-* lockfile ([#1370](https://github.com/EddieHubCommunity/LinkFree/issues/1370)) ([d0903cb](https://github.com/EddieHubCommunity/LinkFree/commit/d0903cbd2556ec9b0f42209f1f35d77576019bca))
 
 
 
