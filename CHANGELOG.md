@@ -1,3 +1,12 @@
+## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
+
+
+### Bug Fixes
+
+* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
+
+
+
 ## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update typos and add profile ([#1361](https://github.com/EddieHubCommunity/LinkFree/issues/1361)) ([00b485c](https://github.com/EddieHubCommunity/LinkFree/commit/00b485cae50ddae9ea585feaa310a9dd75d713a4))
-
-
-
-## [0.68.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.1...v0.68.2) (2022-06-10)
-
-
-### Bug Fixes
-
-* kirtijain627([#1369](https://github.com/EddieHubCommunity/LinkFree/issues/1369)) ([38f65c2](https://github.com/EddieHubCommunity/LinkFree/commit/38f65c2b814ff30cf656a8169b3127ccab04dce1))
 
 
 
