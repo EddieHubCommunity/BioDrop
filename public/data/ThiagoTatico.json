@@ -1,0 +1,28 @@
+{
+  "name": "Thiago Tatico",
+  "type": "personal",
+  "bio": "Back-End Developer Junior | TypeScript | NodeJs | ExpressJs",
+  "avatar": "https://github.com/ThiagoTatico.png",
+  "links": [
+    {
+      "name": "Check out my portfolio",
+      "url": "https://thiagotatico.github.io/PortfolioPage/",
+      "icon": "link"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/thiago-tatico-0b9057216/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/ThiagoTatico",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ThiagoTatico0",
+      "icon": "twitter"
+    }
+  ]
+}
