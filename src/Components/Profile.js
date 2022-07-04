@@ -12,6 +12,14 @@ function Profile({ profile, username }) {
   const { name, bio, avatar } = profile
   return (
     <section>
+      {profile.type === 'community' && (
+        <div className="flex justify-content-center align-items-center">
+          <div className="communityBadge">
+            <h1>Community</h1>
+          </div>
+        </div>
+      )}
+
       <div className="flex justify-content-center align-items-center">
         <Avatar
           image={avatar}
@@ -27,7 +35,6 @@ function Profile({ profile, username }) {
           <p className="text-2xl font-bold mx-2 my-0">({username})</p>
         </div>
         <ShareProfile username={username} />
-
       </div>
       <div className="flex justify-content-center w-50">
         <p>{bio}</p>
@@ -40,6 +47,7 @@ Profile.propTypes = {
   username: PropTypes.string.isRequired,
   profile: PropTypes.shape({
     name: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
   }),
