@@ -22,12 +22,15 @@ function Home() {
       </p>
       <p className="text-1xl text-center">
         See{' '}
-        <Link to="/eddiejaoude">
-          <u>Eddie Jaoude&apos;s</u>
+        <Link to="/eddiejaoude" className="underline">
+          Eddie Jaoude&apos;s
         </Link>{' '}
         profile for an example. Want to add your profile? Read the{' '}
-        <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile">
-          <u>instructions</u>
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile"
+          className="underline"
+        >
+          instructions
         </a>
         .
       </p>
