@@ -15,7 +15,7 @@ function Home() {
         }
       />
       <h1 className="text-4xl text-center">
-        Link connects audiences to all of your content with just one link
+        LinkFree connects audiences to all of your content with just one link
       </h1>
       <p className="text-2xl text-center">
         It is an open-source alternative to Linktree implemented in JavaScript
