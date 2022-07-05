@@ -22,11 +22,59 @@
   ],
   "milestones": [
     {
+      "title": "LKS 2019",
+      "date": "April 2019",
+      "color": "blue",
+      "description": "LKS 2019 winner in the field of IT Network and system administration"
+    },
+    {
+      "title": "LKS 2019",
+      "date": "May 2019",
+      "color": "red",
+      "description": "Second place in LKS 2019 in the field of IT Network and System Administration"
+    },
+    {
+      "title": "Asean Skills 2019",
+      "date": "June 2019",
+      "color": "purple",
+      "description": "Asean Skills 2019 winner in the field of IT Network and system administration"
+    },
+    {
+      "title": "Started university",
+      "date": "August 2020",
+      "color": "green",
+      "description": "Started university in the field of Computer Science"
+    },
+    {
       "title": "Started Freelancing",
       "date": "July 2021",
       "icon": "dollar",
       "color": "grey",
       "description": "Started Freelancing"
+    },
+    {
+      "title": "Started game development",
+      "date": "December 2021",
+      "color": "purple",
+      "description": "Started game development"
+    },
+    {
+      "title": "Started front-end development",
+      "date": "January 2022",
+      "color": "blue",
+      "description": "Started front-end development"
+    },
+    {
+      "title": "Started back-end development",
+      "date": "May 2022",
+      "color": "red",
+      "description": "Started back-end development"
+    },
+    {
+      "title": "Started web development",
+      "date": "June 2022",
+      "color": "green",
+      "description": "Started web development"
     }
   ]
 }
