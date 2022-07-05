@@ -15,16 +15,19 @@ function Home() {
         }
       />
       <h1 className="text-4xl text-center">
-        LinkFree connects audiences to all of your content with just one link
+        Link connects audiences to all of your content with just one link
       </h1>
       <p className="text-2xl text-center">
         It is an open-source alternative to Linktree implemented in JavaScript
       </p>
       <p className="text-1xl text-center">
-        See <Link to="/eddiejaoude">Eddie Jaoude&apos;s</Link> profile for an
-        example. Want to add your profile? Read the{' '}
+        See{' '}
+        <Link to="/eddiejaoude">
+          <u>Eddie Jaoude&apos;s</u>
+        </Link>{' '}
+        profile for an example. Want to add your profile? Read the{' '}
         <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile">
-          instructions
+          <u>instructions</u>
         </a>
         .
       </p>
