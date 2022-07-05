@@ -1,0 +1,32 @@
+{
+  "name": "Misael Jordy",
+  "type": "personal",
+  "bio": "Game Developer || Web Developer || Gamer",
+  "avatar": "https://github.com/zhenxxx7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zhenxxx7",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zhenxxx1",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/zhenxx1_/",
+      "icon": "instagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "July 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}
