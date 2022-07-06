@@ -72,7 +72,7 @@ Your brand new file should look something similar to this one:
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
-  "links": [
+  "links": "www.xyzzz.in"
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/YOUR_GITHUB_USERNAME",
