@@ -11,12 +11,12 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/ayushlohmod_",
+      "url": "https://twitter.com/ayushlohmod",
       "icon": "twitter"
     },
     {
       "name": "Connect with me on LinkedIn",
-      "url": "https://linkedin.com/in/ayushlohmod",
+      "url": "https://www.linkedin.com/in/ayush-lohmod-22411a139/",
       "icon": "linkedin"
     }
   ],
@@ -27,7 +27,7 @@
       "icon": "NodeJs",
       "color": "#90ee90",
       "description": "Started full stack development courrently learning Node Js",
-      "url": "https://ayushlohmod.github.com/oscar"
+      "url": "https://ayushlohmod.github.io/oscar/"
     },
     {
       "title": "Learning to Code!",
