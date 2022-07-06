@@ -14,11 +14,10 @@ function Profile({ profile, username }) {
   return (
     <section>
       {profile.type === 'community' && (
-        <div className="flex justify-content-center align-items-center">
+        <div className="flex justify-content-center">
           <Chip template="Community" />
         </div>
       )}
-
       <div className="flex justify-content-center align-items-center">
         <Avatar
           image={avatar}
