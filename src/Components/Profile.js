@@ -4,6 +4,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Avatar } from 'primereact/avatar'
+import { Chip } from 'primereact/chip'
 
 import utils from '../utils'
 import ShareProfile from './ShareProfile'
@@ -14,9 +15,7 @@ function Profile({ profile, username }) {
     <section>
       {profile.type === 'community' && (
         <div className="flex justify-content-center align-items-center">
-          <div className="communityBadge">
-            <h1>Community</h1>
-          </div>
+          <Chip template="Community" />
         </div>
       )}
 
