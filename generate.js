@@ -21,7 +21,7 @@ const output = profiles.map((profile) => ({
   name: profile.name,
   username: profile.username,
   avatar: profile.avatar,
-  linkCount: profile.links.length,
+  linkCount: profile.links ? profile.links.length : 0,
 }))
 
 fs.writeFileSync(writeDirectoryPath, JSON.stringify(output))
