@@ -1,45 +1,45 @@
-# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
-
-
-### Features
-
-* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
-
-
-
-## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
+## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
 
 
 ### Bug Fixes
 
-* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
+* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
 
 
 
-# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
-
-
-### Features
-
-* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
-
-
-
-## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
+## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
 
 
 ### Bug Fixes
 
-* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
+* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
 
 
 
-## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
+## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
 
 
 ### Bug Fixes
 
-* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
+* Eddie Jaoude text for EddieHub ([9e9c2f7](https://github.com/EddieHubCommunity/LinkFree/commit/9e9c2f70a36c8f77115565e4c53544034e0fe6bb))
+
+
+
+## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
+
+
+### Bug Fixes
+
+* update eddiejaoude ([#1413](https://github.com/EddieHubCommunity/LinkFree/issues/1413)) ([e42c0c8](https://github.com/EddieHubCommunity/LinkFree/commit/e42c0c8a41a9aa3bad18d79c3aa7ed07c83dfe65))
+
+
+
+## [0.68.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.3...v0.68.4) (2022-06-24)
+
+
+### Bug Fixes
+
+* YuriDevAT ([#1404](https://github.com/EddieHubCommunity/LinkFree/issues/1404)) ([23fb7ed](https://github.com/EddieHubCommunity/LinkFree/commit/23fb7ed4c87e87919d7e9c026d3ac6a128755fcd))
 
 
 

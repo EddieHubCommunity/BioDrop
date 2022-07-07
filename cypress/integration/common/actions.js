@@ -1,4 +1,4 @@
-import { Given } from 'cypress-cucumber-preprocessor/steps'
+import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 
 Given('I open {string} page', (uri) => {
   const baseUrl = 'http://localhost:3000'
@@ -6,6 +6,9 @@ Given('I open {string} page', (uri) => {
   switch (uri) {
     case 'home':
       path = '/'
+      break
+    case 'search':
+      path = '/search'
       break
     case 'eddiejaoude':
       path = '/eddiejaoude'
