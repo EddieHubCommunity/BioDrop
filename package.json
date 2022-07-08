@@ -20,7 +20,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "lint": "eslint public/data src --ext [.json,.js]",
+    "lint": "eslint public/data src cypress --ext [.json,.js]",
     "prestart": "npm run generate",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
@@ -60,6 +60,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-node": "^11.1.0",
