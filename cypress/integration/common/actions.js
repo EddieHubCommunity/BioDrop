@@ -22,6 +22,10 @@ Given('I open {string} page', (uri) => {
   cy.visit(baseUrl + path)
 })
 
+Given('I use single user mode with {string}', (username) => {
+  cy.writeFile('src/config/user.json', `{ "username": "${username}" }`)
+})
+
 When('I click on {string}', (text) => {
   cy.get(`a[href*="${text}"]`).click()
 })
@@ -48,4 +52,12 @@ Then('I do not see {string} text in section {string}', (text, location) => {
 
 Then('I see {string} item on the page', (location) => {
   cy.get(location).should('be.visible')
+})
+
+Then('I change back to regular mode', () => {
+  // adding exact same contents back to file so it wont show up as changes on git
+  cy.writeFile(
+    'src/config/user.json',
+    `${JSON.stringify({ username: '' }, null, 2)}\n`,
+  )
 })
