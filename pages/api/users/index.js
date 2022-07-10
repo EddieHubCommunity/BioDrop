@@ -29,7 +29,7 @@ export default function handler(req, res) {
     const stats = statistics.find((stat) => stat.username === user.username);
     return {
       ...user,
-      views: stats.views,
+      views: stats ? stats.views : 0,
     };
   });
 
