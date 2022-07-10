@@ -94,7 +94,7 @@
       {
         "title": "CHATBOT NPM",
         "date": "March 2022",
-        "icon": "node-s",
+        "icon": "node-js",
         "color": "Blue",
         "description": "Published My First NPM package for creating chatbots , Fast and Easy!",
         "link": "https://www.npmjs.com/package/chatbot-discord"
