@@ -86,7 +86,7 @@
       {
         "title": "CHATBOT APIs creation",
         "date": "Feb 2022",
-        "icon": "NodeJs",
+        "icon": "node-js",
         "color": "Blue",
         "description": "Created My First ever Chatbot Api",
         "link": "https://gist.github.com/CodeWhiteWeb/af80da4c1942f6a5df7118a3f64ea363"
@@ -94,7 +94,7 @@
       {
         "title": "CHATBOT NPM",
         "date": "March 2022",
-        "icon": "NodeJs",
+        "icon": "node-s",
         "color": "Blue",
         "description": "Published My First NPM package for creating chatbots , Fast and Easy!",
         "link": "https://www.npmjs.com/package/chatbot-discord"
