@@ -2,7 +2,7 @@ import './Links.css'
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button } from 'primereact/button'
+import StyledLink from './StyledLink'
 import GetIcons from './Icons/GetIcons'
 import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
@@ -20,18 +20,17 @@ function Links({ links }) {
 
   return (
     <section className="flex justify-content-center mb-4">
-      <div className="flex flex-column w-70">
+      <div className="flex flex-column sm:w-9 md:w-7">
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <Button
+            <StyledLink
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors[link.icon] }}
-              role="link"
-              onClick={() => window.open(link.url, '_blank')}
+              href={link.url}
             >
               <IconContext.Provider
                 value={{
@@ -41,19 +40,18 @@ function Links({ links }) {
                 <GetIcons iconName={link.icon} />
               </IconContext.Provider>
               <span className="px-3">{link.name}</span>
-            </Button>
+            </StyledLink>
           ))}
         {links
           .filter((link) => !Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <Button
+            <StyledLink
               key={`link.url_${index}`}
               onMouseOver={(e) => MouseOver(e, colors.globe)}
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors.globe }}
-              role="link"
-              onClick={() => window.open(link.url, '_blank')}
+              href={link.url}
             >
               <IconContext.Provider
                 value={{
@@ -63,7 +61,7 @@ function Links({ links }) {
                 <GetIcons iconName={link.icon} />
               </IconContext.Provider>
               <span className="px-3">{link.name}</span>
-            </Button>
+            </StyledLink>
           ))}
       </div>
     </section>

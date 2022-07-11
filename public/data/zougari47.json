@@ -1,0 +1,33 @@
+{
+  "name": "Ahmed Zougari",
+  "type": "personal",
+  "bio": "Open Source Enthusiast | Frontend Developer | JavaScript 💛",
+  "avatar": "https://github.com/zougari47.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zougari47",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zougari47",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/zougari47/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check my Blogs",
+      "url": "https://dev.to/zougari47",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Visit my Portfolio",
+      "url": "ahmedzougari.netlify.app",
+      "icon": "Globe"
+    }
+  ]
+}

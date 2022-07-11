@@ -1,18 +1,18 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) | ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json)
 
 # LinkFree by EddieHub
 
 - LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
-![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/82458069/145549448-b1feb5df-78aa-4286-a709-6985f0dade4c.gif)
+![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
 
 <details close>
-  <summary><span style="font-size: 24px; font-weight: 700;"> Note for Hacktoberfest </span></summary>
+  <summary><span style="font-size: 24px; font-weight: 700;">Note for Hacktoberfest </span></summary>
   <br>
 
-> A note for Hacktoberfest participants:
->
+**Warning**: A note for Hacktoberfest participants:
+
 > Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
 >
 > Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
@@ -25,7 +25,7 @@
 
 ## 👨‍💻 Demo
 
-Check out the website: [LinkFree](http://linkfree.eddiehub.org/)
+Check out the website: [LinkFree](https://linkfree.eddiehub.io/)
 
 ## 👇 Prerequisites
 
@@ -50,18 +50,18 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 ## 👨‍💻 Contributing
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are **greatly appreciated**.
-- Check out our [contribution guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/Contributing.md) for more information.
+- Any contributions you make are **truly appreciated**.
+- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
 
 ## 🎭 To Add Your Profile
 
-Create a file named `your-username.json` in the directory `public/data`.
+Create a file named using your GitHub username `username.json` in the directory `public/data`, this will ensure it is unique.
 
 **Optional fields: `links`, `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
-- [nhcarrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
+- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/nhcarrigan.json)
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
@@ -90,38 +90,46 @@ Your brand new file should look something similar to this one:
       "date": "December 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing"
+      "description": "Started freelancing",
+      "url": "https://www.eddiejaoude.io/"
     }
   ]
 }
 ```
 
-Your URL will be `http://linkfree.eddiehub.org/<yourusername>`
+Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
-For example: <http://linkfree.eddiehub.org/eddiejaoude>
+For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
-To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account. 
+To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
 
 For example: <http://github.com/eddiejaoude.png>
 
+Note: after your PR is merged, the project still needs to be deployed for your profile to be displayed
+
+### A simple gif version of adding your profile
+
+![Linkfree adding profile GIF](https://user-images.githubusercontent.com/51878265/165113896-35d34c1d-c95e-4bb4-b658-df1afb9ab658.gif)
+
 ### Available Icons:
 
-|  Socials   | Icons                                                                                                                                    |  Socials  | Icons                                                                                                                                    |    Socials     | Icons                                                                                                                                   |
-| :--------: | ---------------------------------------------------------------------------------------------------------------------------------------- | :-------: | ---------------------------------------------------------------------------------------------------------------------------------------- | :------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-|  Android   | <img src="https://user-images.githubusercontent.com/65664185/138502465-89cfadf2-6b54-4f3d-ac44-ceacdd4824ba.png" width=100% height=30%>  | Microsoft | <img src="https://user-images.githubusercontent.com/65664185/138503027-7395af2c-e6c5-45ac-96ac-3af3d252df3b.png" width=100% height=30%>  |     Apple      | <img src="https://user-images.githubusercontent.com/65664185/138502540-8e9b80bf-deae-4566-a41a-c63623e83c21.png" width=100% height=30%> |
-|   PayPal   | <img src="https://user-images.githubusercontent.com/65664185/138503083-7dc6ab6f-9c0e-40ca-b2b7-d5377f6b2981.png" width=100% height=30%>  |  Discord  | <img src="https://user-images.githubusercontent.com/65664185/138502295-d82d98cf-2b42-4926-ab68-e45b2cfe8605.png" width=100% height=30%>  |     Slack      | <img src="https://user-images.githubusercontent.com/65664185/138503148-791f88ac-01ac-4d11-9a63-1ffaaf649b21.png" width=100% height=30%> |
-|  Envelope  | <img src="https://user-images.githubusercontent.com/65664185/138503382-fc1db10b-0ddc-435a-8fe0-7ba4b91f1bd3.png" width=100% height=30%>  | Telegram  | <img src="https://user-images.githubusercontent.com/65664185/138503468-8f27e3a9-d9ad-4348-85a4-d2c1761cd81f.png" width=100% height=30%>  |    Facebook    | <img src="https://user-images.githubusercontent.com/65664185/138502603-e5db457f-576a-478b-8f58-391135cfff74.png" width=100% height=30%> |
-|  Twitter   | <img src="https://user-images.githubusercontent.com/65664185/138503209-1ce0ebbc-5590-4940-8cd0-2dadacbf09ed.png" width=100% height=30%>  |  GitHub   | <img src="https://user-images.githubusercontent.com/65664185/138502964-488bfe15-d6c4-4f0c-8221-9ef0d50bfb92.png" width=100% height=30%>  |     Vimeo      | <img src="https://user-images.githubusercontent.com/65664185/138503257-6af44a9c-c81a-4657-b182-6a991157810f.png" width=100% height=30%> |
-|   Globe    | <img src="https://user-images.githubusercontent.com/32780232/143367620-5fe98cfa-7a18-4db7-95e4-0cd496acce7b.png" width=100% height=30%>  |  YouTube  | <img src="https://user-images.githubusercontent.com/65664185/138503305-ff60cf54-6b0b-4e18-9446-b4f6869b9511.png" width=100% height=30%>  |      Link      | <img src="https://user-images.githubusercontent.com/65664185/138502383-35db30af-8f5a-4037-9dfb-125cdf6374fe.png" width=100% height=30%> |
-|    Book    | <img src="https://user-images.githubusercontent.com/76985777/145391108-f8c08f8e-679f-45a3-ad58-83ef60aa28fe.png" width=100% height=30%>  |  Dollar   | <img src="https://user-images.githubusercontent.com/76985777/145393429-c03c5c3e-0416-4d28-be21-8a01a0c3dff5.png" width=100% height=30%>  |   Instagram    | <img src="https://user-images.githubusercontent.com/76241195/147094225-202bb79d-5e06-4169-a0aa-712646f1159a.png" width=100% height=30%> |
-|  LinkedIn  | <img src="https://user-images.githubusercontent.com/76241195/147094289-252d533d-aeae-493c-a21a-21538162cea6.png" width=100% height=30%>  |  Twitch   | <img src="https://user-images.githubusercontent.com/76241195/147094354-12d3b38d-bb87-4c52-a3b7-4d934498da31.png" width=100% height=30%>  |     DEV.to     | <img src="https://user-images.githubusercontent.com/76241195/147094431-b194a188-0a63-4ce3-89c9-1d7578405318.png" width=100% height=30%> |
-|  Hashnode  | <img src="https://user-images.githubusercontent.com/76241195/147095015-e009e115-c7d6-4bc9-b330-66b29629a2dc.png"  width=100% height=30%> | Codewars  | <img src="https://user-images.githubusercontent.com/76241195/147094572-962f911f-9ebd-4615-b72f-ff076f4033e8.png"  width=100% height=30%> | Graduation Hat | <img src="https://user-images.githubusercontent.com/76241195/147094631-50f94887-db14-4b6a-ab41-938e41be00e4.png" width=100% height=30%> |
-|   TikTok   | <img src="https://user-images.githubusercontent.com/76241195/147094674-a0b67f90-c62e-4162-93b5-dd313611ff28.png" width=100% height=30%>  |   Send    | <img src="https://user-images.githubusercontent.com/76241195/147096133-20e75d9a-0f96-4881-a165-5e7edf1bfe96.png"  width=100% height=30%> |     Search     | <img src="https://user-images.githubusercontent.com/76241195/147102645-0d50ba65-5f21-4245-9275-6c3aec7d193c.png" width=100% height=30%> |
-| Left Arrow | <img src="https://user-images.githubusercontent.com/76241195/147102920-8bf2b8c2-ad45-456e-9e5b-fe748f41214b.png" width=100% height=30%>  |Snapchat|<img src="https://user-images.githubusercontent.com/91655303/148160774-755adc38-e089-4a20-910f-292b890e2c63.png" width=100% height=30%>|Codeforces|<img src="https://user-images.githubusercontent.com/91655303/148160942-870fdbb4-a57c-4861-afaa-241835390645.png" width=100% height=30%>|
+Check [Icons.md](/icons.md) for all the supported icons.
+
+### Single user mode
+
+If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `src/config/user.json` add your username.
+
+For example
+
+```json
+{
+  "username": ""
+}
+```
 
 ## 🛡️ License
 
-LinkFree is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 💪 Thanks to all Contributors
 

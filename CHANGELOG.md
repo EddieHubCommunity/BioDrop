@@ -1,45 +1,45 @@
-# [0.59.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.3...v0.59.0) (2022-01-10)
-
-
-### Features
-
-* filter by profile type ([#937](https://github.com/EddieHubCommunity/LinkFree/issues/937)) ([3db2c35](https://github.com/EddieHubCommunity/LinkFree/commit/3db2c357c0036bb23da1c59f28bf3a5e043254af))
-
-
-
-## [0.58.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.2...v0.58.3) (2022-01-08)
+## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
 
 
 ### Bug Fixes
 
-* improve  `avatar` section of README.md ([#930](https://github.com/EddieHubCommunity/LinkFree/issues/930)) ([e412074](https://github.com/EddieHubCommunity/LinkFree/commit/e4120748e6d1dc42201e48885fd62494ade9931e))
+* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
 
 
 
-## [0.58.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.1...v0.58.2) (2022-01-08)
-
-
-### Bug Fixes
-
-* improved the docs ([4d96088](https://github.com/EddieHubCommunity/LinkFree/commit/4d9608893c4bbfcd804b692c7df5caa6a671d4d9))
-
-
-
-## [0.58.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.58.0...v0.58.1) (2022-01-07)
+## [0.68.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.9...v0.68.10) (2022-07-09)
 
 
 ### Bug Fixes
 
-* improve documentation ([#920](https://github.com/EddieHubCommunity/LinkFree/issues/920)) ([48a4f61](https://github.com/EddieHubCommunity/LinkFree/commit/48a4f6162123f890d10b296559cb52511663f64f))
+* consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
 
 
 
-# [0.58.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.57.0...v0.58.0) (2022-01-06)
+## [0.68.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.8...v0.68.9) (2022-07-08)
 
 
-### Features
+### Bug Fixes
 
-* Add Scroll-to-top button ([#921](https://github.com/EddieHubCommunity/LinkFree/issues/921)) ([966389a](https://github.com/EddieHubCommunity/LinkFree/commit/966389a06e6356bbb67f7a5ebf2805b9f47e3bf7))
+* eslint-plugin-cypress package to source ([#1454](https://github.com/EddieHubCommunity/LinkFree/issues/1454)) ([f0105d8](https://github.com/EddieHubCommunity/LinkFree/commit/f0105d81658b594a3b665dbc155baee2446ce119))
+
+
+
+## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
+
+
+### Bug Fixes
+
+* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
+
+
+
+## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
+
+
+### Bug Fixes
+
+* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
 
 
 

@@ -61,7 +61,7 @@ function Milestones({ milestones }) {
         <Timeline
           value={milestones}
           align="alternate"
-          className="customized-timeline"
+          className="p-timeline-vertical p-timeline-alternate customized-timeline"
           marker={(milestone) => marker(milestone)}
           content={(milestone) => content(milestone)}
         />

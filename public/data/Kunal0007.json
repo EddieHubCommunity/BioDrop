@@ -13,6 +13,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/kunal-patil-61136521b",
       "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KunalPatil0007",
+      "icon": "twitter"
     }
   ]
 }

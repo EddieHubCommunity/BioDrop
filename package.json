@@ -1,8 +1,8 @@
 {
   "name": "linkfree",
-  "version": "0.59.0",
+  "version": "0.68.11",
   "private": false,
-  "homepage": "http://linkfree.eddiehub.org/",
+  "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -20,11 +20,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "lint": "eslint public/data src --ext [.json,.js]",
+    "lint": "eslint public/data src cypress --ext [.json,.js]",
     "prestart": "npm run generate",
     "start": "react-scripts start",
     "start:prod": "serve -s build",
     "build": "npm run generate && react-scripts build",
+    "postbuild": "purgecss --config ./purgecss.config.js --output build/static/css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "node generate.js",
@@ -52,12 +53,14 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "concurrently": "^6.2.2",
     "cypress": "^8.5.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-node": "^11.1.0",
