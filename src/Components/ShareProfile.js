@@ -54,7 +54,9 @@ export default function ShareProfile({ username }) {
               iconName="twitter"
             />
             <ShareIcon
-              link={`https://www.linkedin.com/sharing/share-offsite?url=${encodeURIComponent(profileUrl)}`}
+              link={`https://www.linkedin.com/sharing/share-offsite?url=${encodeURIComponent(
+                profileUrl,
+              )}`}
               label="Share on LinkedIn"
               iconName="linkedin"
             />
