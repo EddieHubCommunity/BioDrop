@@ -1,3 +1,21 @@
+## [0.69.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.0...v0.69.1) (2022-07-11)
+
+
+### Bug Fixes
+
+* (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
+
+
+
+# [0.69.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.11...v0.69.0) (2022-07-11)
+
+
+### Features
+
+* add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
+
+
+
 ## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * eslint-plugin-cypress package to source ([#1454](https://github.com/EddieHubCommunity/LinkFree/issues/1454)) ([f0105d8](https://github.com/EddieHubCommunity/LinkFree/commit/f0105d81658b594a3b665dbc155baee2446ce119))
-
-
-
-## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
-
-
-### Bug Fixes
-
-* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
-
-
-
-## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
-
-
-### Bug Fixes
-
-* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
 
 
 
