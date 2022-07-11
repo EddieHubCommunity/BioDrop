@@ -1,3 +1,12 @@
+# [0.69.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.11...v0.69.0) (2022-07-11)
+
+
+### Features
+
+* add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
+
+
+
 ## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
-
-
-
-## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
-
-
-### Bug Fixes
-
-* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
 
 
 
