@@ -1,6 +1,6 @@
 import './Milestone.css'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
@@ -9,6 +9,16 @@ import { Timeline } from 'primereact/timeline'
 import GetIcons from './Icons/GetIcons'
 
 function Milestones({ milestones }) {
+  useEffect(() => {
+    // Updates the styles of the component when there's only one milestone
+    if (milestones && milestones.length === 1) {
+      document.getElementsByClassName('p-timeline-event')[0].style.display =
+        'inline'
+      document.getElementsByClassName('p-card-body')[0].style.textAlign =
+        'center'
+    }
+  })
+
   const goToLinkHandle = (url) => {
     window.open(url, '__blank')
   }
