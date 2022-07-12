@@ -18,7 +18,6 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AmeliaDutta",
       "icon": "twitter"
-
     },
     {
       "name": "Follow me on CodeWars",
@@ -42,7 +41,6 @@
       "color": "blue",
       "description": "Started Contributing in Open Source",
       "url": "https://github.com/amelia2802/"
-
     }
   ]
 }
