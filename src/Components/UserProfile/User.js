@@ -38,7 +38,7 @@ function User({ singleUser }) {
       {!singleUser && (
         <Navbar
           start={
-            <Link to="/" aria-label="Go back to Home">
+            <Link to="/search" aria-label="Go back to Search">
               <GetIcons iconName="arrowLeft" size={20} />
             </Link>
           }
