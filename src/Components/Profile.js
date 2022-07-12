@@ -27,7 +27,6 @@ function Profile({ profile, username }) {
           <p className="text-2xl font-bold mx-2 my-0">({username})</p>
         </div>
         <ShareProfile username={username} />
-
       </div>
       <div className="flex justify-content-center w-50">
         <p>{bio}</p>

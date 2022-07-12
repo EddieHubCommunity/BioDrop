@@ -2,14 +2,12 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
-import { Avatar } from 'primereact/avatar'
-import { Badge } from 'primereact/badge'
 import { Message } from 'primereact/message'
 
 import Navbar from '../Navbar'
 import Searchbar from './Searchbar'
 import ProfileTypeFilter from './filterProfileType'
-import utils from '../../utils'
+import GetIcons from '../Icons/GetIcons'
 
 function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
@@ -61,10 +59,13 @@ function Users({ list }) {
     <>
       <Navbar
         start={
-          <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
+          <Link to="/" aria-label="Go back to Home">
+            <GetIcons iconName="arrowLeft" size={20} />
+          </Link>
         }
       />
       <div className="mb-2 flex justify-content-center align-items-center">
+        <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
         <label className="p-2">Profile Type</label>
         <ProfileTypeFilter
           profileType={profileType}
@@ -79,25 +80,9 @@ function Users({ list }) {
               <Chip
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
                 template={
-                  <>
-                    <Avatar
-                      image={user.avatar}
-                      size="large"
-                      className="p-overlay-badge"
-                      onImageError={(error) => {
-                        utils.setDefaultSVG(user.name, error)
-                      }}
-                    >
-                      <Badge
-                        value={user.linkCount > 9 ? '9+' : user.linkCount}
-                        severity="info"
-                        className="mr-3"
-                      ></Badge>
-                    </Avatar>
-                    <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
-                      {user.name}
-                    </span>
-                  </>
+                  <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
+                    {user.name}
+                  </span>
                 }
               />
             </Link>
