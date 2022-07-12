@@ -1,3 +1,12 @@
+## [0.69.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.1...v0.69.2) (2022-07-12)
+
+
+### Bug Fixes
+
+* Update back arrow to navigate to correct page ([#1482](https://github.com/EddieHubCommunity/LinkFree/issues/1482)) ([d9d3ce4](https://github.com/EddieHubCommunity/LinkFree/commit/d9d3ce47a7d0980293736db218409deafccdec51))
+
+
+
 ## [0.69.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.0...v0.69.1) (2022-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
-
-
-
-## [0.68.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.8...v0.68.9) (2022-07-08)
-
-
-### Bug Fixes
-
-* eslint-plugin-cypress package to source ([#1454](https://github.com/EddieHubCommunity/LinkFree/issues/1454)) ([f0105d8](https://github.com/EddieHubCommunity/LinkFree/commit/f0105d81658b594a3b665dbc155baee2446ce119))
 
 
 
