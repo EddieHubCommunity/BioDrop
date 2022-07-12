@@ -16,6 +16,9 @@ function Milestones({ milestones }) {
         'inline'
       document.getElementsByClassName('p-card-body')[0].style.textAlign =
         'center'
+      document.getElementsByClassName('p-timeline-event')[0].style.width = '80%'
+      document.getElementsByClassName('p-timeline-event')[0].style.margin =
+        'auto'
     }
   })
 

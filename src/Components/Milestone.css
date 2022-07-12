@@ -14,6 +14,10 @@
   line-height: 1;
 }
 
+.p-card {
+  padding-top: 0.6rem;
+}
+
 @media only screen and (max-width: 960px) {
   .p-timeline-event {
     display: inline;
