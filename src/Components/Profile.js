@@ -15,7 +15,7 @@ function Profile({ profile, username }) {
     <section>
       {profile.type === 'community' && (
         <div className="flex justify-content-center">
-          <Chip template="Community" />
+          <Chip template="Community" className="py-2 px-3" />
         </div>
       )}
       <div className="flex justify-content-center align-items-center">
