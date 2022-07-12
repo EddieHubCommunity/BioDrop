@@ -77,29 +77,41 @@ git merge upstream/main
 
 **7.** Make your changes to the source code.
 
-**8.** Stage your changes and commit:
+**8.** Stage your changes:
 
 ⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
 
-⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
+⚠️ **Make sure** not to run the commands `git add .` or `git add *`
+
+> Instead, stage your changes for each file/folder
+>
+> By using public path it means it will add all files and folders under that folder, it is better to be specific
 
 ```bash
 git add public
 ```
 
+_or_
+
+```bash
+git add "<files_you_have_changed>"
+```
+
+**9.** Commit your changes:
+
 ```bash
 git commit -m "<your_commit_message>"
 ```
 
-**9.** Push your local commits to the remote repository:
+**10.** Push your local commits to the remote repository:
 
 ```bash
 git push origin YourBranchName
 ```
 
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
+**11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
-**11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
+**12.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
