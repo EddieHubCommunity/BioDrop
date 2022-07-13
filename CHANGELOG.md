@@ -1,3 +1,12 @@
+## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
+
+
+### Bug Fixes
+
+* kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
+
+
+
 ## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
-
-
-
-## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
-
-
-### Bug Fixes
-
-* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
 
 
 
