@@ -1,3 +1,12 @@
+## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
+
+
+### Bug Fixes
+
+* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
+
+
+
 ## [0.69.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.1...v0.69.2) (2022-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
-
-
-
-## [0.68.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.9...v0.68.10) (2022-07-09)
-
-
-### Bug Fixes
-
-* consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
 
 
 
