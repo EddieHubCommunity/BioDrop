@@ -1,3 +1,12 @@
+# [0.70.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.5...v0.70.0) (2022-07-13)
+
+
+### Features
+
+* tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
+
+
+
 ## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Update back arrow to navigate to correct page ([#1482](https://github.com/EddieHubCommunity/LinkFree/issues/1482)) ([d9d3ce4](https://github.com/EddieHubCommunity/LinkFree/commit/d9d3ce47a7d0980293736db218409deafccdec51))
-
-
-
-## [0.69.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.0...v0.69.1) (2022-07-11)
-
-
-### Bug Fixes
-
-* (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
 
 
 
