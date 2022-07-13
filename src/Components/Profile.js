@@ -13,7 +13,7 @@ function Profile({ profile, username }) {
   const { name, bio, avatar } = profile
   return (
     <section>
-      {profile.type === 'community' && (
+      {profile.type && profile.type === 'community' && (
         <div className="flex justify-content-center">
           <Chip template="Community" className="py-2 px-3" />
         </div>
@@ -45,7 +45,7 @@ Profile.propTypes = {
   username: PropTypes.string.isRequired,
   profile: PropTypes.shape({
     name: PropTypes.string.isRequired,
-    type: PropTypes.string.isRequired,
+    type: PropTypes.string,
     bio: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
   }),
