@@ -80,7 +80,7 @@ function GetIcons({ iconName, ...restProps }) {
     case 'instagram':
       return <FaInstagram {...restProps} />
     case 'laravel':
-      return <FaLaravel {... restProps} />
+      return <FaLaravel {...restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':

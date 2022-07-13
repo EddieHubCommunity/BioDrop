@@ -19,12 +19,18 @@ function User({ singleUser }) {
   useEffect(() => {
     fetch(`/data/${username}.json`)
       .then((response) => response.json())
-      .then((data) => setProfile(data))
+      .then((data) => {
+        setProfile(data)
+        document.title = `${data.name} | LinkFree`
+      })
       .catch(() => setError(true))
       .finally(() => {
         setShowProgress(false)
         setTimeout(() => setskeleton(false), 500)
       })
+    return () => {
+      document.title = 'LinkFree'
+    }
   }, [username])
 
   return (
@@ -33,7 +39,7 @@ function User({ singleUser }) {
         <header>
           <Navbar
             start={
-              <Link to="/" aria-label="Go back to Home">
+              <Link to="/search" aria-label="Go back to Search">
                 <GetIcons iconName="arrowLeft" size={20} />
               </Link>
             }

@@ -1,45 +1,45 @@
-## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
+## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
 
 
 ### Bug Fixes
 
-* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
+* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
 
 
 
-## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
-
-
-### Bug Fixes
-
-* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
-
-
-
-## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
+## [0.69.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.1...v0.69.2) (2022-07-12)
 
 
 ### Bug Fixes
 
-* Eddie Jaoude text for EddieHub ([9e9c2f7](https://github.com/EddieHubCommunity/LinkFree/commit/9e9c2f70a36c8f77115565e4c53544034e0fe6bb))
+* Update back arrow to navigate to correct page ([#1482](https://github.com/EddieHubCommunity/LinkFree/issues/1482)) ([d9d3ce4](https://github.com/EddieHubCommunity/LinkFree/commit/d9d3ce47a7d0980293736db218409deafccdec51))
 
 
 
-## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
-
-
-### Bug Fixes
-
-* update eddiejaoude ([#1413](https://github.com/EddieHubCommunity/LinkFree/issues/1413)) ([e42c0c8](https://github.com/EddieHubCommunity/LinkFree/commit/e42c0c8a41a9aa3bad18d79c3aa7ed07c83dfe65))
-
-
-
-## [0.68.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.3...v0.68.4) (2022-06-24)
+## [0.69.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.0...v0.69.1) (2022-07-11)
 
 
 ### Bug Fixes
 
-* YuriDevAT ([#1404](https://github.com/EddieHubCommunity/LinkFree/issues/1404)) ([23fb7ed](https://github.com/EddieHubCommunity/LinkFree/commit/23fb7ed4c87e87919d7e9c026d3ac6a128755fcd))
+* (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
+
+
+
+# [0.69.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.11...v0.69.0) (2022-07-11)
+
+
+### Features
+
+* add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
+
+
+
+## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
+
+
+### Bug Fixes
+
+* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
 
 
 
