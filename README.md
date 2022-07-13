@@ -25,7 +25,7 @@
 
 ## 👨‍💻 Demo
 
-Check out the website: [LinkFree](https://linkfree.eddiehub.io/)
+Check out the website: https://linkfree.eddiehub.io
 
 ## 👇 Prerequisites
 
