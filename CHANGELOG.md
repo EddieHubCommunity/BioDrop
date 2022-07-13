@@ -1,3 +1,12 @@
+## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
+
+
+### Bug Fixes
+
+* share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
+
+
+
 ## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
-
-
-
-# [0.69.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.11...v0.69.0) (2022-07-11)
-
-
-### Features
-
-* add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
 
 
 
