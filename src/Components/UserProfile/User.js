@@ -36,13 +36,15 @@ function User({ singleUser }) {
   return (
     <>
       {!singleUser && (
-        <Navbar
-          start={
-            <Link to="/search" aria-label="Go back to Search">
-              <GetIcons iconName="arrowLeft" size={20} />
-            </Link>
-          }
-        />
+        <header>
+          <Navbar
+            start={
+              <Link to="/search" aria-label="Go back to Search">
+                <GetIcons iconName="arrowLeft" size={20} />
+              </Link>
+            }
+          />
+        </header>
       )}
       <main>
         {showProgress && <ProgressBar mode="indeterminate" />}
