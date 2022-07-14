@@ -1,0 +1,76 @@
+{
+
+  "name": "Nirav Prajapati",
+
+  "type": "personal",
+
+  "bio": "Love to learn. Open Source Enthusiast!",
+
+  "avatar": "https://github.com/Niravprajapati1.png",
+
+  "links": [
+
+    {
+
+      "name": "Follow me on GitHub",
+
+      "url": "https://github.com/Niravprajapati1",
+
+      "icon": "github"
+
+    },
+
+    {
+
+      "name": "Follow me on Twitter",
+
+      "url": "https://twitter.com/Nirav97120",
+
+      "icon": "twitter"
+
+    },
+
+    {
+
+      "name": "Check out my website",
+
+      "url": "https://www.showwcase.com/nirav",
+
+      "icon": "globe"
+
+    }
+
+  ],
+
+  "milestones": [
+
+    {
+
+      "title": "Started Data Structures & Algorithms",
+
+      "date": "January 2022",
+
+      "icon": "YouTube",
+
+      "color": "red",
+
+      "description": "Started Problem Solving "
+
+    },
+
+    {
+
+      "title": "Started Github",
+
+      "date": "2021",
+
+      "icon": "GitHub",
+
+      "color": "green",
+
+      "description": "Started using git and github."
+
+    },
+  ]
+
+}
