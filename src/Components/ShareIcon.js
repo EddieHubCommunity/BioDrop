@@ -12,8 +12,7 @@ function ShareIcon({ link, label, iconName }) {
       aria-label={label}
     >
       <GetIcons
-        style={{ color: '#333' }}
-        className="w-2rem h-2rem my-2rem cursor-pointer"
+        className={`w-2rem h-2rem my-2rem cursor-pointer share-icons share-${iconName}`}
         iconName={iconName}
         size={20}
       />
