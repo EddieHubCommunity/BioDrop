@@ -33,20 +33,20 @@
       "url": "https://github.com/nisabmohd?tab=repositories"
     },
     {
-      "title": "Started developing full stack application",
+      "title": "Started developing full-stack application",
       "date": "Febuary 2022",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started making worthy fullstack projects and simultaneously learned various NodejS frameworks",
+      "description": "Started making worthy full-stack projects and simultaneously learned various NodejS frameworks",
       "url": "https://github.com/nisabmohd?tab=repositories"
     },
-     {
-      "title": "Started my first opnsource full stack application",
+    {
+      "title": "Started my first opensource full-stack application",
       "date": "Febuary 2022",
       "icon": "dollar",
       "color": "red",
       "description": "Started exploring opensource community and made my first open source project called opencodegrep",
       "url": "https://github.com/nisabmohd/opencodegrep"
-    },
+    }
   ]
 }
