@@ -1,0 +1,52 @@
+{
+  "name": "Mohd Nisab",
+  "type": "personal",
+  "bio": "Hi, I'm Nisab, a Computer Science undergraduate.A Full-Stack Web Developer, a begginer Android developer and a Competitive Programming Enthusiast, who is obsessed with the idea of improving himself and wants a platform to grow and excel.",
+  "avatar": "https://avatars.githubusercontent.com/u/76525761?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nisabmohd",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohdNisab",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Web Dev",
+      "date": "August 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started learning web and web frameworks",
+      "url": "https://nisabmohd.github.io/portfolio/"
+    },
+    {
+      "title": "Started ReactJS",
+      "date": "October 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started making react based projects",
+      "url": "https://github.com/nisabmohd?tab=repositories"
+    },
+    {
+      "title": "Started developing full-stack application",
+      "date": "Febuary 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started making worthy full-stack projects and simultaneously learned various NodejS frameworks",
+      "url": "https://github.com/nisabmohd?tab=repositories"
+    },
+    {
+      "title": "Started my first opensource full-stack application",
+      "date": "Febuary 2022",
+      "icon": "dollar",
+      "color": "red",
+      "description": "Started exploring opensource community and made my first open source project called opencodegrep",
+      "url": "https://github.com/nisabmohd/opencodegrep"
+    }
+  ]
+}
