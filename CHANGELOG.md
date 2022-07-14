@@ -1,45 +1,45 @@
-## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
+## [0.70.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.0...v0.70.1) (2022-07-13)
 
 
 ### Bug Fixes
 
-* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
+* move menubar in header ([#1457](https://github.com/EddieHubCommunity/LinkFree/issues/1457)) ([683b8e8](https://github.com/EddieHubCommunity/LinkFree/commit/683b8e8d886ca1632d869caaaaf2d4efcdb45f05))
 
 
 
-## [0.68.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.9...v0.68.10) (2022-07-09)
+# [0.70.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.5...v0.70.0) (2022-07-13)
 
 
-### Bug Fixes
+### Features
 
-* consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
-
-
-
-## [0.68.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.8...v0.68.9) (2022-07-08)
-
-
-### Bug Fixes
-
-* eslint-plugin-cypress package to source ([#1454](https://github.com/EddieHubCommunity/LinkFree/issues/1454)) ([f0105d8](https://github.com/EddieHubCommunity/LinkFree/commit/f0105d81658b594a3b665dbc155baee2446ce119))
+* tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
 
 
 
-## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
+## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
 
 
 ### Bug Fixes
 
-* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
+* share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
 
 
 
-## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
+## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
 
 
 ### Bug Fixes
 
-* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
+* kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
+
+
+
+## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
+
+
+### Bug Fixes
+
+* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
 
 
 
