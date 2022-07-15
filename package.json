@@ -11,6 +11,7 @@
     "primeicons": "^5.0.0",
     "primereact": "^6.5.1",
     "react": "^17.0.2",
+    "react-awesome-reveal": "^3.8.1",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-router-dom": "^5.3.0",

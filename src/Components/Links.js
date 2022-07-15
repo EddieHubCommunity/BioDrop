@@ -6,6 +6,7 @@ import StyledLink from './StyledLink'
 import GetIcons from './Icons/GetIcons'
 import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
+import { Slide } from 'react-awesome-reveal'
 
 function Links({ links }) {
   const colors = linksConfig.validIcons
@@ -24,44 +25,57 @@ function Links({ links }) {
         {links
           .filter((link) => Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <StyledLink
+            <Slide
               key={`link.url_${index}`}
-              onMouseOver={(e) => MouseOver(e, colors[link.icon])}
-              onMouseOut={MouseOut}
-              className={`p-3 my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
-              href={link.url}
+              delay={index * 100}
+              direction={index % 2 === 0 ? 'left' : 'right'}
+              triggerOnce
             >
-              <IconContext.Provider
-                value={{
-                  className: 'buttonIcon',
-                }}
+              <StyledLink
+                onMouseOver={(e) => MouseOver(e, colors[link.icon])}
+                onMouseOut={MouseOut}
+                className={`p-3 my-2 p-button-outlined ${link.icon}`}
+                style={{ color: colors[link.icon] }}
+                href={link.url}
               >
-                <GetIcons iconName={link.icon} />
-              </IconContext.Provider>
-              <span className="px-3">{link.name}</span>
-            </StyledLink>
+                <IconContext.Provider
+                  value={{
+                    className: 'buttonIcon',
+                  }}
+                >
+                  <GetIcons iconName={link.icon} />
+                </IconContext.Provider>
+                <span className="px-3">{link.name}</span>
+              </StyledLink>
+            </Slide>
           ))}
         {links
           .filter((link) => !Object.keys(colors).includes(link.icon))
           .map((link, index) => (
-            <StyledLink
+            <Slide
               key={`link.url_${index}`}
-              onMouseOver={(e) => MouseOver(e, colors.globe)}
-              onMouseOut={MouseOut}
-              className={`p-3 my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors.globe }}
-              href={link.url}
+              delay={index * 100}
+              direction={index % 2 === 0 ? 'left' : 'right'}
+              triggerOnce
             >
-              <IconContext.Provider
-                value={{
-                  className: 'buttonIcon',
-                }}
+              <StyledLink
+                key={`link.url_${index}`}
+                onMouseOver={(e) => MouseOver(e, colors.globe)}
+                onMouseOut={MouseOut}
+                className={`p-3 my-2 p-button-outlined ${link.icon}`}
+                style={{ color: colors.globe }}
+                href={link.url}
               >
-                <GetIcons iconName={link.icon} />
-              </IconContext.Provider>
-              <span className="px-3">{link.name}</span>
-            </StyledLink>
+                <IconContext.Provider
+                  value={{
+                    className: 'buttonIcon',
+                  }}
+                >
+                  <GetIcons iconName={link.icon} />
+                </IconContext.Provider>
+                <span className="px-3">{link.name}</span>
+              </StyledLink>
+            </Slide>
           ))}
       </div>
     </section>
