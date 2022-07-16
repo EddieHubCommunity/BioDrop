@@ -1,3 +1,12 @@
+## [0.70.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.1...v0.70.2) (2022-07-16)
+
+
+### Bug Fixes
+
+* updated dependencies ([#1504](https://github.com/EddieHubCommunity/LinkFree/issues/1504)) ([e3df3b4](https://github.com/EddieHubCommunity/LinkFree/commit/e3df3b4d7257e6fe1df9e4a76fec215b49686000))
+
+
+
 ## [0.70.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.0...v0.70.1) (2022-07-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
-
-
-
-## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
-
-
-### Bug Fixes
-
-* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
 
 
 
