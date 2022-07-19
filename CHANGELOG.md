@@ -1,3 +1,12 @@
+## [0.70.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.2...v0.70.3) (2022-07-19)
+
+
+### Bug Fixes
+
+* podcast link ([#1511](https://github.com/EddieHubCommunity/LinkFree/issues/1511)) ([038b537](https://github.com/EddieHubCommunity/LinkFree/commit/038b537d96b1c35f96ff13dd7295afaf8af32438))
+
+
+
 ## [0.70.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.1...v0.70.2) (2022-07-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
-
-
-
-## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
-
-
-### Bug Fixes
-
-* kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
 
 
 
