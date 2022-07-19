@@ -13,16 +13,16 @@
         "name": "Follow me on Twitter",
         "url": "https://twitter.com/itsomsarraf_",
         "icon": "twitter"
-      }
+      },
       {
-        "name": "Follow me on Linkedin",
+        "name": "Connect with me on Linkedin",
         "url": "https://www.linkedin.com/in/itsomsarraf/?_l=en_US",
         "icon": "linkedin"
-      } 
+      }, 
       {
         "name": "Subscribe to my youtube channel",
         "url": "https://www.youtube.com/techygeeks",
         "icon": "youtube"
       } 
-    ],
+    ]
   }
