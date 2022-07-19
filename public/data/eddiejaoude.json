@@ -33,6 +33,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/eddiejaoude",
       "icon": "linkedin"
+    },
+    {
+      "name": "Listen to my Podcast",
+      "url": "https://anchor.fm/eddiejaoude",
+      "icon": "codeforces"
     }
   ],
   "milestones": [
