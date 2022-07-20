@@ -1,3 +1,12 @@
+## [0.70.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.6...v0.70.7) (2022-07-20)
+
+
+### Bug Fixes
+
+* fitdevs twitter ([26cacc1](https://github.com/EddieHubCommunity/LinkFree/commit/26cacc11c81089f09e9226e7ebdb74508d0db462))
+
+
+
 ## [0.70.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.5...v0.70.6) (2022-07-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * podcast link ([#1511](https://github.com/EddieHubCommunity/LinkFree/issues/1511)) ([038b537](https://github.com/EddieHubCommunity/LinkFree/commit/038b537d96b1c35f96ff13dd7295afaf8af32438))
-
-
-
-## [0.70.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.1...v0.70.2) (2022-07-16)
-
-
-### Bug Fixes
-
-* updated dependencies ([#1504](https://github.com/EddieHubCommunity/LinkFree/issues/1504)) ([e3df3b4](https://github.com/EddieHubCommunity/LinkFree/commit/e3df3b4d7257e6fe1df9e4a76fec215b49686000))
 
 
 
