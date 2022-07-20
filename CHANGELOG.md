@@ -1,3 +1,12 @@
+## [0.70.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.3...v0.70.4) (2022-07-20)
+
+
+### Bug Fixes
+
+* **ui:** link red flash on click ([#1496](https://github.com/EddieHubCommunity/LinkFree/issues/1496)) ([f9be15d](https://github.com/EddieHubCommunity/LinkFree/commit/f9be15d8fbda7e66a0b83e2997d2dab8f63529a2))
+
+
+
 ## [0.70.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.2...v0.70.3) (2022-07-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
-
-
-
-## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
-
-
-### Bug Fixes
-
-* share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
 
 
 
