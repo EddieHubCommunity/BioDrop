@@ -1,3 +1,12 @@
+## [0.70.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.4...v0.70.5) (2022-07-20)
+
+
+### Bug Fixes
+
+* fitdevs ([2af89fa](https://github.com/EddieHubCommunity/LinkFree/commit/2af89fa365e941a88de21766a140f337519ba63f))
+
+
+
 ## [0.70.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.3...v0.70.4) (2022-07-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * move menubar in header ([#1457](https://github.com/EddieHubCommunity/LinkFree/issues/1457)) ([683b8e8](https://github.com/EddieHubCommunity/LinkFree/commit/683b8e8d886ca1632d869caaaaf2d4efcdb45f05))
-
-
-
-# [0.70.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.5...v0.70.0) (2022-07-13)
-
-
-### Features
-
-* tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
 
 
 
