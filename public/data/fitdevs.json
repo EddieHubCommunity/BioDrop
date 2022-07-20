@@ -13,6 +13,11 @@
       "name": "Our Open Source projects",
       "url": "https://github.com/FitDevs-withKat",
       "icon": "github"
+    },
+    {
+      "name": "FitDev hashtag on Twitter",
+      "url": "https://twitter.com/search?q=%23fitdevs&src=typed_query&f=live",
+      "icon": "twitter"
     }
   ]
 }
