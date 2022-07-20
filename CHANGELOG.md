@@ -1,3 +1,12 @@
+## [0.70.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.5...v0.70.6) (2022-07-20)
+
+
+### Bug Fixes
+
+* fitdevs ([b6a5e7f](https://github.com/EddieHubCommunity/LinkFree/commit/b6a5e7fb433fa133f173493e52a5ed5bdb3a3e4c))
+
+
+
 ## [0.70.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.4...v0.70.5) (2022-07-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * updated dependencies ([#1504](https://github.com/EddieHubCommunity/LinkFree/issues/1504)) ([e3df3b4](https://github.com/EddieHubCommunity/LinkFree/commit/e3df3b4d7257e6fe1df9e4a76fec215b49686000))
-
-
-
-## [0.70.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.0...v0.70.1) (2022-07-13)
-
-
-### Bug Fixes
-
-* move menubar in header ([#1457](https://github.com/EddieHubCommunity/LinkFree/issues/1457)) ([683b8e8](https://github.com/EddieHubCommunity/LinkFree/commit/683b8e8d886ca1632d869caaaaf2d4efcdb45f05))
 
 
 
