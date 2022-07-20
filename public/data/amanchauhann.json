@@ -1,0 +1,28 @@
+{
+  "name": "AMAN CHAUHAN",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/amanchauhann.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amanchauhann",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/phantomthread_d",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started web development",
+      "date": "December 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "trying to break into tech",
+      "url": "https://amanchauhann.netlify.app/"
+    }
+  ]
+}
