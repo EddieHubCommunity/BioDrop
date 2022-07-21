@@ -16,7 +16,7 @@
       "date": "July 2019",
       "icon": "apple",
       "color": "#d17049",
-      "description": "Learned the fundementals of programming using swift programming language.",
+      "description": "Learned the fundementals of programming using the swift programming language.",
       "url": "https://www.swift.org"
     },
     {
@@ -24,7 +24,8 @@
       "date": "October 2020",
       "icon": "book",
       "color": "#961eeb",
-      "description": "Mastered the fundementals of the iOS SDK."
+      "description": "Mastered the fundementals of the iOS SDK.",
+      "url": "https://www.udemy.com/course/ios-12-app-development-bootcamp/"
     },
     {
       "title": "Built Crypto Aggregator",
@@ -35,12 +36,12 @@
       "url": "https://github.com/Bonganibendi/CryptoAggregator.git"
     },
     {
-      "title": "Learning Python",
+      "title": "Learned Python",
       "date": "April 2022",
       "icon": "book",
       "color": "#3d6fdb",
       "description": "Learning financial programming using python and the Jupyter Notebook/Anaconda ecosystem.",
-      "url": "#3d6fdb"
+      "url": "https://www.python.org"
     }
   ]
 }
