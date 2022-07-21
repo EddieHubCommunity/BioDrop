@@ -1,0 +1,46 @@
+{
+  "name": "Bongani Bendile",
+  "type": "personal",
+  "bio": "I'm a finance and investment management student enthusiastic about the intersection of finance and software",
+  "avatar": "https://avatars.githubusercontent.com/u/58882596?s=400&u=85fa39e4c5bf28dcce96a22eae70f1a8e45565f2&v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Bonganibendi",
+      "icon": "github"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learning Fundementals of Programming",
+      "date": "July 2019",
+      "icon": "apple",
+      "color": "#d17049",
+      "description": "Learned the fundementals of programming using swift programming language.",
+      "url": "https://www.swift.org"
+    },
+    {
+      "title": "Completed iOS Development Bootcamp",
+      "date": "October 2020",
+      "icon": "book",
+      "color": "#961eeb",
+      "description": "Mastered the fundementals of the iOS SDK."
+    },
+    {
+      "title": "Built Crypto Aggregator",
+      "date": "November 2021",
+      "icon": "github",
+      "color": "#18401c",
+      "description": "A SwiftUi app that allows you to monitor and aggregate the price of cryptocurrencies",
+      "url": "https://github.com/Bonganibendi/CryptoAggregator.git"
+    },
+    {
+      "title": "Learning Python",
+      "date": "April 2022",
+      "icon": "book",
+      "color": "#3d6fdb",
+      "description": "Learning financial programming using python and the Jupyter Notebook/Anaconda ecosystem.",
+      "url": "#3d6fdb"
+    }
+  ]
+}
