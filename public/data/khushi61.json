@@ -1,0 +1,23 @@
+{
+  "name": "Khushi Shukla",
+  "type": "personal",
+  "bio": "Learner| FrontendDev ^__^ ",
+  "avatar": "https://avatars.githubusercontent.com/u/81404366?s=400&u=02963fadebb7a1bef546afc02189d9dccf624f77&v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/khushi818",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KhushiS26",
+      "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/khushi-shukla-a008b2220/",
+      "icon": "linkedin"
+    }
+  ]
+}
