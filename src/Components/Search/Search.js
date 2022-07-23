@@ -1,12 +1,15 @@
-import './Home.css'
+import './Search.css'
 
 import React, { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { Toast } from 'primereact/toast'
 
 import Placeholders from './Placeholders'
 import Users from './Users'
+import Navbar from '../Navbar'
+import GetIcons from '../Icons/GetIcons'
 
-function Home() {
+function Search() {
   const [list, setList] = useState([])
   const [skeleton, setskeleton] = useState(true)
   const toast = useRef(null)
@@ -21,7 +24,7 @@ function Home() {
       )
       .then((data) => setList(data))
       .catch((error) => {
-        console.log('Home useEffect', error)
+        console.log('Search useEffect', error)
         toast.current.show({
           severity: 'error',
           summary: 'Error Message',
@@ -37,11 +40,22 @@ function Home() {
   }, [])
 
   return (
-    <main>
-      <Toast ref={toast} />
-      {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
-    </main>
+    <>
+      <header>
+        <Navbar
+          start={
+            <Link to="/" aria-label="Go back to Home">
+              <GetIcons iconName="arrowLeft" size={20} />
+            </Link>
+          }
+        />
+      </header>
+      <main>
+        <Toast ref={toast} />
+        {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
+      </main>
+    </>
   )
 }
 
-export default Home
+export default Search

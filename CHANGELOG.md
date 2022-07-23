@@ -1,45 +1,45 @@
-# [0.64.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.1...v0.64.0) (2022-04-09)
-
-
-### Features
-
-* Use current URL in share buttons ([#1211](https://github.com/EddieHubCommunity/LinkFree/issues/1211)) ([dc1b362](https://github.com/EddieHubCommunity/LinkFree/commit/dc1b362fdaf2992c42ef24d799d04c2abac9b827))
-
-
-
-## [0.63.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.63.0...v0.63.1) (2022-04-03)
+## [0.70.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.6...v0.70.7) (2022-07-20)
 
 
 ### Bug Fixes
 
-* User profile type ([#1220](https://github.com/EddieHubCommunity/LinkFree/issues/1220)) ([2e6f876](https://github.com/EddieHubCommunity/LinkFree/commit/2e6f87627b871597badf91942c293dddafd66482))
+* fitdevs twitter ([26cacc1](https://github.com/EddieHubCommunity/LinkFree/commit/26cacc11c81089f09e9226e7ebdb74508d0db462))
 
 
 
-# [0.63.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.13...v0.63.0) (2022-04-03)
-
-
-### Features
-
-* single user ([#1197](https://github.com/EddieHubCommunity/LinkFree/issues/1197)) ([#1210](https://github.com/EddieHubCommunity/LinkFree/issues/1210)) ([fe22efd](https://github.com/EddieHubCommunity/LinkFree/commit/fe22efdb27a9b28d42875093c573e15e56a27332))
-
-
-
-## [0.62.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.12...v0.62.13) (2022-03-31)
+## [0.70.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.5...v0.70.6) (2022-07-20)
 
 
 ### Bug Fixes
 
-* user data file ([#1209](https://github.com/EddieHubCommunity/LinkFree/issues/1209)) ([1b3e0dc](https://github.com/EddieHubCommunity/LinkFree/commit/1b3e0dc9e99bc7cf85caf13e6c9794e6389f55b8))
+* fitdevs ([b6a5e7f](https://github.com/EddieHubCommunity/LinkFree/commit/b6a5e7fb433fa133f173493e52a5ed5bdb3a3e4c))
 
 
 
-## [0.62.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.62.11...v0.62.12) (2022-03-17)
+## [0.70.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.4...v0.70.5) (2022-07-20)
 
 
 ### Bug Fixes
 
-* align version and input field on small screen ([#1180](https://github.com/EddieHubCommunity/LinkFree/issues/1180)) ([7ab810d](https://github.com/EddieHubCommunity/LinkFree/commit/7ab810da862b405fc011b82d24374639a3569235)), closes [#866](https://github.com/EddieHubCommunity/LinkFree/issues/866)
+* fitdevs ([2af89fa](https://github.com/EddieHubCommunity/LinkFree/commit/2af89fa365e941a88de21766a140f337519ba63f))
+
+
+
+## [0.70.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.3...v0.70.4) (2022-07-20)
+
+
+### Bug Fixes
+
+* **ui:** link red flash on click ([#1496](https://github.com/EddieHubCommunity/LinkFree/issues/1496)) ([f9be15d](https://github.com/EddieHubCommunity/LinkFree/commit/f9be15d8fbda7e66a0b83e2997d2dab8f63529a2))
+
+
+
+## [0.70.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.2...v0.70.3) (2022-07-19)
+
+
+### Bug Fixes
+
+* podcast link ([#1511](https://github.com/EddieHubCommunity/LinkFree/issues/1511)) ([038b537](https://github.com/EddieHubCommunity/LinkFree/commit/038b537d96b1c35f96ff13dd7295afaf8af32438))
 
 
 
