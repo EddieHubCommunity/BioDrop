@@ -23,6 +23,11 @@
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/ankushKun_",
       "icon": "instagram"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://youtube.com/ankushKun",
+      "icon": "youtube"
     }
   ]
 }
