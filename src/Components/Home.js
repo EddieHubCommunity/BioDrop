@@ -34,7 +34,7 @@ function Home() {
         </p>
         <p className="text-center">
           <img
-            className="max-w-screen"
+            className="max-w-full"
             src="/mockup.png"
             alt="An Example of the LinkFree app on Apple devices"
           />
