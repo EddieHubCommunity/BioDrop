@@ -1,3 +1,12 @@
+## [0.70.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.8...v0.70.9) (2022-07-24)
+
+
+### Bug Fixes
+
+* Removes unnecessary scrollbars from homepage ([#1421](https://github.com/EddieHubCommunity/LinkFree/issues/1421)) ([5a9c67f](https://github.com/EddieHubCommunity/LinkFree/commit/5a9c67f755242ad403a500384b2920b845a43a36))
+
+
+
 ## [0.70.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.7...v0.70.8) (2022-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fitdevs ([2af89fa](https://github.com/EddieHubCommunity/LinkFree/commit/2af89fa365e941a88de21766a140f337519ba63f))
-
-
-
-## [0.70.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.3...v0.70.4) (2022-07-20)
-
-
-### Bug Fixes
-
-* **ui:** link red flash on click ([#1496](https://github.com/EddieHubCommunity/LinkFree/issues/1496)) ([f9be15d](https://github.com/EddieHubCommunity/LinkFree/commit/f9be15d8fbda7e66a0b83e2997d2dab8f63529a2))
 
 
 
