@@ -1,3 +1,12 @@
+## [0.70.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.9...v0.70.10) (2022-07-27)
+
+
+### Bug Fixes
+
+* ingress for new k8s ([63779e3](https://github.com/EddieHubCommunity/LinkFree/commit/63779e3f2f033a92b794eb54f45cd44c29ec80ac))
+
+
+
 ## [0.70.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.8...v0.70.9) (2022-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fitdevs ([b6a5e7f](https://github.com/EddieHubCommunity/LinkFree/commit/b6a5e7fb433fa133f173493e52a5ed5bdb3a3e4c))
-
-
-
-## [0.70.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.4...v0.70.5) (2022-07-20)
-
-
-### Bug Fixes
-
-* fitdevs ([2af89fa](https://github.com/EddieHubCommunity/LinkFree/commit/2af89fa365e941a88de21766a140f337519ba63f))
 
 
 
