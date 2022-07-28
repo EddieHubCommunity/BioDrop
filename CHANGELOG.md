@@ -1,3 +1,12 @@
+## [0.70.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.10...v0.70.11) (2022-07-28)
+
+
+### Bug Fixes
+
+* improved docs ([30d32d5](https://github.com/EddieHubCommunity/LinkFree/commit/30d32d50cf096e9d047e2530bc6cd430ac77882e))
+
+
+
 ## [0.70.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.9...v0.70.10) (2022-07-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fitdevs twitter ([26cacc1](https://github.com/EddieHubCommunity/LinkFree/commit/26cacc11c81089f09e9226e7ebdb74508d0db462))
-
-
-
-## [0.70.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.5...v0.70.6) (2022-07-20)
-
-
-### Bug Fixes
-
-* fitdevs ([b6a5e7f](https://github.com/EddieHubCommunity/LinkFree/commit/b6a5e7fb433fa133f173493e52a5ed5bdb3a3e4c))
 
 
 
