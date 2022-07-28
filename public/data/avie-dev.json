@@ -26,15 +26,14 @@
       "date": "June 2010",
       "icon": "graduation-hat",
       "color": "pink",
-      "description": "Entered Asahi International School",
+      "description": "Entered Asahi International School"
     },
     {
       "title": "Started working as a Software Engineer in Tokyo",
       "date": "April 2014",
       "icon": "dollar",
       "color": "green",
-      "description": "Started working in Japan",
-      "url": ""
+      "description": "Started working in Japan"
     }
   ]
 }
