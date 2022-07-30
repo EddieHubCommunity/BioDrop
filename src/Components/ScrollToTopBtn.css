@@ -1,9 +1,0 @@
-.scrollToTop-btn {
-  position: fixed;
-  cursor: pointer;
-  bottom: 7%;
-  right: 4%;
-  z-index: 100;
-  border-radius: 56%;
-  background: white;
-}
