@@ -14,9 +14,7 @@ export default function UserPreview({ profile }) {
         className="rounded-full"
       />
       <div>
-        <h3 className="text-2xl font-bold">
-          {profile.name}({profile.views})
-        </h3>
+        <h3 className="text-2xl font-bold">{profile.name}</h3>
         <p>{profile.bio}</p>
       </div>
     </a>

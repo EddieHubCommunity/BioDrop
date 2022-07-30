@@ -36,7 +36,7 @@ export default function User({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx-auto container">
+      <div className="mx-auto container px-6">
         <div className="flex justify-center gap-x-6">
           <Image
             src={data.avatar}
