@@ -29,7 +29,7 @@ Check out the website: https://linkfree.eddiehub.io
 
 ## 👇 Prerequisites
 
-Before contributting or adding a new feature, please make sure you have already installed the following tools:
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
