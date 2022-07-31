@@ -35,7 +35,7 @@ function Navbar({ items, start, end }) {
           <GetIcons className="text-gray-900" iconName="github" size={16} />
         </Link>
 
-        <div>v{version}</div>
+        <div>v0.70.13</div>
       </div>
     )
   }
