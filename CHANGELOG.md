@@ -1,3 +1,12 @@
+## [0.70.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.12...v0.70.13) (2022-07-31)
+
+
+### Bug Fixes
+
+* typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
+
+
+
 ## [0.70.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.11...v0.70.12) (2022-07-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Removes unnecessary scrollbars from homepage ([#1421](https://github.com/EddieHubCommunity/LinkFree/issues/1421)) ([5a9c67f](https://github.com/EddieHubCommunity/LinkFree/commit/5a9c67f755242ad403a500384b2920b845a43a36))
-
-
-
-## [0.70.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.7...v0.70.8) (2022-07-24)
-
-
-### Bug Fixes
-
-* autoFocus to the search input ([#1517](https://github.com/EddieHubCommunity/LinkFree/issues/1517)) ([66b3ef6](https://github.com/EddieHubCommunity/LinkFree/commit/66b3ef615d24d5e3f337c8df6b3f3800246ec743))
 
 
 
