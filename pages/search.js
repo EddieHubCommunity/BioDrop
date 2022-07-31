@@ -10,7 +10,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${app.baseUrl}/api/users`);
     users = await res.json();
   } catch (e) {
-    console.log(e);
+    console.log("ERROR search users", e);
   }
 
   return {
@@ -20,7 +20,6 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const [filteredUsers, setFilteredUsers] = useState(users);
-  console.log(users.length);
   const filterData = (value) => {
     setFilteredUsers(
       value.length

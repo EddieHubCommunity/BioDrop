@@ -4,7 +4,7 @@
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
-    "@prisma/client": "^4.1.1",
+    "mongoose": "^6.5.0",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -41,7 +41,6 @@
     "husky": "^7.0.2",
     "lint-staged": "^12.1.4",
     "postcss": "^8.4.14",
-    "prisma": "^4.1.1",
     "tailwindcss": "^3.1.4"
   },
   "cypress-cucumber-preprocessor": {

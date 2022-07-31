@@ -9,21 +9,19 @@ import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
 
 export async function getServerSideProps(context) {
-  let data = {};
+  let dataGet = {};
   try {
-    const res = await fetch(
+    const resGet = await fetch(
       `${app.baseUrl}/api/users/${context.query.username}`
     );
-    data = await res.json();
+    dataGet = await resGet.json();
   } catch (e) {
     // TODO: redirect to 404
-    console.log(e);
+    console.log("ERROR user not found ", e);
   }
 
-  // TODO: 1. increment page views
-
   return {
-    props: { data },
+    props: { data: dataGet },
   };
 }
 
@@ -51,19 +49,21 @@ export default function User({ data }) {
           </div>
         </div>
         <p className="flex justify-center my-4">{data.bio}</p>
-        {data.links.map((link) => (
-          <UserLink link={link} username={data.username} />
-        ))}
+        {data.links &&
+          data.links.map((link) => (
+            <UserLink link={link} username={data.username} />
+          ))}
         <div className="my-8"></div>
-        {data.milestones.map((milestone) => (
-          <div className="flex">
-            <div className="w-14 border-l-4 flex flex-col">
-              <div className="border-dashed border-b-2 grow"></div>
-              <div className="grow"></div>
+        {data.milestones &&
+          data.milestones.map((milestone) => (
+            <div className="flex">
+              <div className="w-14 border-l-4 flex flex-col">
+                <div className="border-dashed border-b-2 grow"></div>
+                <div className="grow"></div>
+              </div>
+              <UserMilestone milestone={milestone} />
             </div>
-            <UserMilestone milestone={milestone} />
-          </div>
-        ))}
+          ))}
       </div>
     </>
   );

@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
 
-export default function handler(req, res) {
+import User from "../../../models/User";
+import connectMongo from "../../../config/mongo";
+
+export default async function handler(req, res) {
+  await connectMongo();
   const { username } = req.query;
 
   const directoryPath = path.join(process.cwd(), "data");
@@ -16,28 +20,44 @@ export default function handler(req, res) {
     fs.readFileSync(`${path.join(directoryPath, file)}`, "utf8")
   );
 
-  // TODO: get statistics from DB
-  const statistics = {
-    username: "eddiejaoude",
-    views: 411,
-    links: [
-      {
-        url: "https://github.com/eddiejaoude",
-        clicks: 109,
-      },
-    ],
-  };
+  let dbUser = [];
+  const getUser = await User.findOne({ username });
+  if (!getUser) {
+    try {
+      dbUser = await User.create({
+        username,
+        views: 1,
+      });
+    } catch (e) {
+      console.log("ERROR creating user stats", e);
+    }
+  }
+  if (getUser) {
+    try {
+      dbUser = await User.update(
+        {
+          username,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing user stats", e);
+    }
+  }
 
-  // merge links with link stats
   data.links = data.links.map((link) => ({
     ...link,
-    ...statistics.links.find((linkStats) => linkStats.url === link.url),
+    ...(dbUser.links
+      ? dbUser.links.find((linkStats) => linkStats.url === link.url)
+      : []),
   }));
 
   // merge profile with profile views
   const profile = {
     username,
-    views: statistics.views,
+    views: dbUser.views,
     ...data,
   };
 

@@ -9,7 +9,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${app.baseUrl}/api/users/popular`);
     data = await res.json();
   } catch (e) {
-    console.log(e);
+    console.log("ERROR loading popular profiles", e);
   }
 
   return {
@@ -18,7 +18,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Popular({ data }) {
-  console.log(data);
   return (
     <>
       <Head>
