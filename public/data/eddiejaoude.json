@@ -35,6 +35,11 @@
       "icon": "linkedin"
     },
     {
+      "name": "Join my Open Source Discord EddieHub",
+      "url": "http://discord.eddiehub.org",
+      "icon": "discord"
+    },
+    {
       "name": "Listen to my Podcast",
       "url": "https://anchor.fm/eddiejaoude",
       "icon": "codeforces"
