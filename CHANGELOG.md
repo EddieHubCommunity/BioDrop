@@ -1,3 +1,12 @@
+## [0.70.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.11...v0.70.12) (2022-07-31)
+
+
+### Bug Fixes
+
+* discord for eddie ([1ff32db](https://github.com/EddieHubCommunity/LinkFree/commit/1ff32dbfe471ee58b00561cc1c1a0214a9c91aa8))
+
+
+
 ## [0.70.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.10...v0.70.11) (2022-07-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * autoFocus to the search input ([#1517](https://github.com/EddieHubCommunity/LinkFree/issues/1517)) ([66b3ef6](https://github.com/EddieHubCommunity/LinkFree/commit/66b3ef615d24d5e3f337c8df6b3f3800246ec743))
-
-
-
-## [0.70.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.6...v0.70.7) (2022-07-20)
-
-
-### Bug Fixes
-
-* fitdevs twitter ([26cacc1](https://github.com/EddieHubCommunity/LinkFree/commit/26cacc11c81089f09e9226e7ebdb74508d0db462))
 
 
 
