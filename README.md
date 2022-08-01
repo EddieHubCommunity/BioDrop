@@ -25,11 +25,11 @@
 
 ## 👨‍💻 Demo
 
-Check out the website: [LinkFree](https://linkfree.eddiehub.io/)
+Check out the website: https://linkfree.eddiehub.io
 
 ## 👇 Prerequisites
 
-Before installation, please make sure you have already installed the following tools:
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
@@ -65,6 +65,7 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
+(note: add/remove `links` objects to customise your profile, `milestones` are optional)
 
 ```json
 {

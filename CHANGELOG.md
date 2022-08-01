@@ -1,45 +1,45 @@
-## [0.69.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.0...v0.69.1) (2022-07-11)
+## [0.70.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.12...v0.70.13) (2022-07-31)
 
 
 ### Bug Fixes
 
-* (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
+* typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
 
 
 
-# [0.69.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.11...v0.69.0) (2022-07-11)
-
-
-### Features
-
-* add Custom title to pages ([#1475](https://github.com/EddieHubCommunity/LinkFree/issues/1475)) ([6f52af9](https://github.com/EddieHubCommunity/LinkFree/commit/6f52af91d7c4bb301dced666a0435b68e7a42068))
-
-
-
-## [0.68.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.10...v0.68.11) (2022-07-10)
+## [0.70.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.11...v0.70.12) (2022-07-31)
 
 
 ### Bug Fixes
 
-* kubernetes action ([#1472](https://github.com/EddieHubCommunity/LinkFree/issues/1472)) ([bd59936](https://github.com/EddieHubCommunity/LinkFree/commit/bd5993622c1f0cc842f357178ec0fff53e17a408))
+* discord for eddie ([1ff32db](https://github.com/EddieHubCommunity/LinkFree/commit/1ff32dbfe471ee58b00561cc1c1a0214a9c91aa8))
 
 
 
-## [0.68.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.9...v0.68.10) (2022-07-09)
-
-
-### Bug Fixes
-
-* consistent docs warnings ([d58a0e6](https://github.com/EddieHubCommunity/LinkFree/commit/d58a0e6f8ee7610910434dbd0d1f359ba863ac1f))
-
-
-
-## [0.68.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.8...v0.68.9) (2022-07-08)
+## [0.70.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.10...v0.70.11) (2022-07-28)
 
 
 ### Bug Fixes
 
-* eslint-plugin-cypress package to source ([#1454](https://github.com/EddieHubCommunity/LinkFree/issues/1454)) ([f0105d8](https://github.com/EddieHubCommunity/LinkFree/commit/f0105d81658b594a3b665dbc155baee2446ce119))
+* improved docs ([30d32d5](https://github.com/EddieHubCommunity/LinkFree/commit/30d32d50cf096e9d047e2530bc6cd430ac77882e))
+
+
+
+## [0.70.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.9...v0.70.10) (2022-07-27)
+
+
+### Bug Fixes
+
+* ingress for new k8s ([63779e3](https://github.com/EddieHubCommunity/LinkFree/commit/63779e3f2f033a92b794eb54f45cd44c29ec80ac))
+
+
+
+## [0.70.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.8...v0.70.9) (2022-07-24)
+
+
+### Bug Fixes
+
+* Removes unnecessary scrollbars from homepage ([#1421](https://github.com/EddieHubCommunity/LinkFree/issues/1421)) ([5a9c67f](https://github.com/EddieHubCommunity/LinkFree/commit/5a9c67f755242ad403a500384b2920b845a43a36))
 
 
 

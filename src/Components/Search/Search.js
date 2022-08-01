@@ -1,10 +1,13 @@
 import './Search.css'
 
 import React, { useState, useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { Toast } from 'primereact/toast'
 
 import Placeholders from './Placeholders'
 import Users from './Users'
+import Navbar from '../Navbar'
+import GetIcons from '../Icons/GetIcons'
 
 function Search() {
   const [list, setList] = useState([])
@@ -37,10 +40,21 @@ function Search() {
   }, [])
 
   return (
-    <main>
-      <Toast ref={toast} />
-      {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
-    </main>
+    <>
+      <header>
+        <Navbar
+          start={
+            <Link to="/" aria-label="Go back to Home">
+              <GetIcons iconName="arrowLeft" size={20} />
+            </Link>
+          }
+        />
+      </header>
+      <main>
+        <Toast ref={toast} />
+        {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
+      </main>
+    </>
   )
 }
 

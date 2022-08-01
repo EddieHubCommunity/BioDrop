@@ -17,6 +17,8 @@ export default function ShareProfile({ username }) {
     })
   }
 
+  document.querySelector('body').style.overflow = show ? 'hidden' : 'visible'
+
   return (
     <div className="flex justify-content-center">
       <Toast ref={toast} />
@@ -41,7 +43,7 @@ export default function ShareProfile({ username }) {
 
           <div
             style={{ marginTop: '40vh', borderRadius: '1rem' }}
-            className="flex bg-white justify-content-center z-5 p-6 absolute mx-auto align-items-center"
+            className="flex bg-white justify-content-center z-5 absolute mx-auto align-items-center p-3 sm:p-6"
           >
             <ShareIcon
               link={`https://www.facebook.com/sharer/sharer.php?u=${profileUrl}`}
@@ -61,12 +63,13 @@ export default function ShareProfile({ username }) {
               iconName="linkedin"
             />
             <a
+              className="mx-4 sm:mx-5"
               role="button"
               onClick={CopyLink}
               aria-label="Copy link to profile"
             >
               <GetIcons
-                className="w-2rem h-2rem my-2rem cursor-pointer mx-5 share-icons copyLink"
+                className="w-2rem h-2rem my-2rem cursor-pointer share-icons copyLink"
                 iconName="link"
                 size={20}
               />
