@@ -21,7 +21,7 @@ export default function NavLink({ path, item, mode }) {
 
   return (
     <Link href={item.url}>
-      <a className={className} aria-current="page" key={item.name}>
+      <a className={className} aria-current="page">
         {item.name}
       </a>
     </Link>

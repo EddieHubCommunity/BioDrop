@@ -36,20 +36,22 @@ export default function Search({ users }) {
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline">Search</h1>
+      <div className="flex flex-col px-6 align-center">
+      <h1 className="text-3xl mb-4  font-bold underline">Search</h1>
       <input
         placeholder="Search users"
-        className="border-2 border-sky-500 rounded"
+        className="border-2 hover:border-sky-500 transition-all duration-250 ease-linear rounded px-6 py-2"
         name="keyword"
         onChange={(e) => filterData(e.target.value)}
       />
       <ul>
         {filteredUsers.map((user) => (
-          <li>
+          <li key={user.username}>
             <UserPreview profile={user} />
           </li>
         ))}
       </ul>
+      </div>
     </>
   );
 }

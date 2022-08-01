@@ -4,9 +4,9 @@ import Footer from "../Footer";
 export default function MultiLayout({ children }) {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <main>{children}</main>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }

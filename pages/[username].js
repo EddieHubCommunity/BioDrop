@@ -49,14 +49,16 @@ export default function User({ data }) {
           </div>
         </div>
         <p className="flex justify-center my-4">{data.bio}</p>
+        <div className="flex flex-col items-center w-full">
         {data.links &&
-          data.links.map((link) => (
-            <UserLink link={link} username={data.username} />
+          data.links.map((link, index) => (
+            <UserLink key={index} link={link} username={data.username} />
           ))}
+        </div>
         <div className="my-8"></div>
         {data.milestones &&
-          data.milestones.map((milestone) => (
-            <div className="flex">
+          data.milestones.map((milestone, index) => (
+            <div className="flex" key={index}>
               <div className="w-14 border-l-4 flex flex-col">
                 <div className="border-dashed border-b-2 grow"></div>
                 <div className="grow"></div>

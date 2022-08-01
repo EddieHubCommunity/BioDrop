@@ -4,7 +4,7 @@ export default function SingleLayout({ children }) {
   return (
     <>
       <main>{children}</main>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }

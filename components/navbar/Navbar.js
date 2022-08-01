@@ -35,7 +35,7 @@ export default function Navbar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink path={router.asPath} item={item} />
+                    <NavLink key={item.name} path={router.asPath} item={item} />
                   ))}
                 </div>
               </div>
@@ -99,8 +99,8 @@ export default function Navbar() {
 
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {primary.map((item) => (
-              <NavLink path={router.asPath} item={item} mode="mobile" />
+            {primary.map((item, index) => (
+              <NavLink key={index} path={router.asPath} item={item} mode="mobile" />
             ))}
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
