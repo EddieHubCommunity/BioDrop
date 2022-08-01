@@ -3,8 +3,9 @@
 
 ## QUICKSTART
 
-1. npm install
-2. npx prisma db push
+1. copy the `.env.example` file to `.env` and update any details required
+2. `npm install`
+3. `npm run dev`
 
 
 
