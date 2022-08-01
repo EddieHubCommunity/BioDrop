@@ -16,7 +16,7 @@ export default async function handler(req, res) {
             username: data[0],
           },
           {
-            $inc: { views: 1 },
+            $inc: { views: 1 }, // TODO: increment link that was clicked?
           }
         );
       } catch (e) {

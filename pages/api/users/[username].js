@@ -46,18 +46,18 @@ export default async function handler(req, res) {
       console.log("ERROR incrementing user stats", e);
     }
   }
+  const latestUser = await User.findOne({ username });
 
   data.links = data.links.map((link) => ({
     ...link,
-    ...(dbUser.links
-      ? dbUser.links.find((linkStats) => linkStats.url === link.url)
+    ...(latestUser.links
+      ? latestUser.links.find((linkStats) => linkStats.url === link.url)
       : []),
   }));
 
-  // merge profile with profile views
   const profile = {
     username,
-    views: dbUser.views,
+    views: latestUser.views,
     ...data,
   };
 
