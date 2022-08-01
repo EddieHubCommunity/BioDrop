@@ -18,6 +18,16 @@
   padding-top: 0.6rem;
 }
 
+.p-timeline-centered .p-timeline-event {
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.p-timeline-centered .p-timeline-event .p-card {
+  text-align: center;
+}
+
 @media only screen and (max-width: 960px) {
   .p-timeline-event {
     display: inline;

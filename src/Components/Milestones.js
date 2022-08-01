@@ -1,6 +1,6 @@
 import './Milestone.css'
 
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 
 import { Button } from 'primereact/button'
@@ -9,19 +9,6 @@ import { Timeline } from 'primereact/timeline'
 import GetIcons from './Icons/GetIcons'
 
 function Milestones({ milestones }) {
-  useEffect(() => {
-    // Updates the styles of the component when there's only one milestone
-    if (milestones && milestones.length === 1) {
-      document.getElementsByClassName('p-timeline-event')[0].style.display =
-        'inline'
-      document.getElementsByClassName('p-card-body')[0].style.textAlign =
-        'center'
-      document.getElementsByClassName('p-timeline-event')[0].style.width = '80%'
-      document.getElementsByClassName('p-timeline-event')[0].style.margin =
-        'auto'
-    }
-  })
-
   const goToLinkHandle = (url) => {
     window.open(url, '__blank')
   }
@@ -68,13 +55,17 @@ function Milestones({ milestones }) {
     </Card>
   )
 
+  const isTimelineCentered = milestones.length === 1
+
   return (
     <section className="flex justify-content-center mb-5">
       <div className="md:col-8">
         <Timeline
           value={milestones}
           align="alternate"
-          className="p-timeline-vertical p-timeline-alternate customized-timeline"
+          className={`p-timeline-vertical p-timeline-alternate customized-timeline ${
+            isTimelineCentered ? 'p-timeline-centered' : ''
+          }`}
           marker={(milestone) => marker(milestone)}
           content={(milestone) => content(milestone)}
         />
