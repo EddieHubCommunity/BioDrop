@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import User from "../../../models/User";
+import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -20,21 +20,20 @@ export default async function handler(req, res) {
     fs.readFileSync(`${path.join(directoryPath, file)}`, "utf8")
   );
 
-  let dbUser = [];
-  const getUser = await User.findOne({ username });
-  if (!getUser) {
+  const getProfile = await Profile.findOne({ username });
+  if (!getProfile) {
     try {
-      dbUser = await User.create({
+      await Profile.create({
         username,
         views: 1,
       });
     } catch (e) {
-      console.log("ERROR creating user stats", e);
+      console.log("ERROR creating profile stats", e);
     }
   }
-  if (getUser) {
+  if (getProfile) {
     try {
-      dbUser = await User.update(
+      await Profile.update(
         {
           username,
         },
@@ -43,23 +42,29 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      console.log("ERROR incrementing user stats", e);
+      console.log("ERROR incrementing profile stats", e);
     }
   }
-  const latestUser = await User.findOne({ username });
-
-  data.links = data.links.map((link) => ({
-    ...link,
-    ...(latestUser.links
-      ? latestUser.links.find((linkStats) => linkStats.url === link.url)
-      : []),
-  }));
-
-  const profile = {
+  const latestProfile = await Profile.findOne({ username }).populate("links");
+  console.log(latestProfile);
+  const profileWithStats = {
     username,
-    views: latestUser.views,
     ...data,
+    views: latestProfile.views,
+    links: data.links.map((link) => {
+      const statFound = latestProfile.links.find(
+        (linkStats) => linkStats.url === link.url
+      );
+      if (statFound) {
+        return {
+          ...link,
+          clicks: statFound.clicks,
+        };
+      }
+
+      return link;
+    }),
   };
 
-  res.status(200).json(profile);
+  res.status(200).json(profileWithStats);
 }

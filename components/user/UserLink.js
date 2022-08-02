@@ -1,7 +1,20 @@
+import app from "../../config/app.json";
+
 export default function UserLink({ link, username }) {
-  const clickLink = () => {
-    console.log("click", username, link);
-    // TODO: 1. increment link counter
+  const clickLink = async () => {
+    const data = {};
+    try {
+      const res = await fetch(
+        `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
+          link.url
+        )}`,
+        { method: "PUT" }
+      );
+      data = await res.json();
+    } catch (e) {
+      // TODO: link not found
+      console.log("ERROR link not found ", e);
+    }
     // TODO: 2. visit link
   };
 

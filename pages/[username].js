@@ -1,27 +1,27 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
-import app from "../config/app.json";
 import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
 
 export async function getServerSideProps(context) {
-  let dataGet = {};
+  let data = {};
   try {
-    const resGet = await fetch(
+    const res = await fetch(
       `${app.baseUrl}/api/users/${context.query.username}`
     );
-    dataGet = await resGet.json();
+    data = await res.json();
   } catch (e) {
     // TODO: redirect to 404
     console.log("ERROR user not found ", e);
   }
 
   return {
-    props: { data: dataGet },
+    props: { data },
   };
 }
 
