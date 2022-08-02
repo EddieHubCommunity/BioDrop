@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import Placeholder from "../components/Placeholder/Placeholder";
 
 import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
@@ -19,6 +20,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({ users }) {
+  const [scrollPos, setScrollPos] = useState(0);
   const [filteredUsers, setFilteredUsers] = useState(users);
   const filterData = (value) => {
     setFilteredUsers(
@@ -46,9 +48,9 @@ export default function Search({ users }) {
       />
       <ul>
         {filteredUsers.map((user) => (
-          <li key={user.username}>
-            <UserPreview profile={user} />
-          </li>
+          user ? <li key={user.username}>
+          <UserPreview profile={user} />
+        </li> : <Placeholder key={user.username} />
         ))}
       </ul>
       </div>

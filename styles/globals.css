@@ -18,3 +18,44 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* CSS for placeholder */
+.shiner {
+  overflow: hidden;
+  position: relative;
+}
+.shiner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.4) 50%,
+    rgba(255,255,255,0) 100%
+  );
+  z-index: 1;
+  -webkit-animation: shiner 1s infinite;
+          animation: shiner 1s infinite;
+}
+
+@-webkit-keyframes shiner {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes shiner {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

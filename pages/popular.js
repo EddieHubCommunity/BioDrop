@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Placeholder from "../components/Placeholder/Placeholder";
 
 import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
@@ -33,9 +34,9 @@ export default function Popular({ data }) {
         <h1 className="text-3xl font-bold underline">Popular Profiles</h1>
         <ul>
           {data.map((profile) => (
-            <li key={profile.username}>
-              <UserPreview profile={profile} />
-            </li>
+            profile ? <li key={profile.username}>
+            <UserPreview profile={profile} />
+          </li> : <Placeholder key={profile.username} />
           ))}
         </ul>
       </div>
