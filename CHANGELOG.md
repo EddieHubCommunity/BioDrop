@@ -1,3 +1,12 @@
+## [0.70.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.13...v0.70.14) (2022-08-03)
+
+
+### Bug Fixes
+
+* Update vedanshi555 username ([#1563](https://github.com/EddieHubCommunity/LinkFree/issues/1563)) ([0247cf3](https://github.com/EddieHubCommunity/LinkFree/commit/0247cf3a7f1af2f2af1f44a30b0e633d7de5030a))
+
+
+
 ## [0.70.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.12...v0.70.13) (2022-07-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ingress for new k8s ([63779e3](https://github.com/EddieHubCommunity/LinkFree/commit/63779e3f2f033a92b794eb54f45cd44c29ec80ac))
-
-
-
-## [0.70.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.8...v0.70.9) (2022-07-24)
-
-
-### Bug Fixes
-
-* Removes unnecessary scrollbars from homepage ([#1421](https://github.com/EddieHubCommunity/LinkFree/issues/1421)) ([5a9c67f](https://github.com/EddieHubCommunity/LinkFree/commit/5a9c67f755242ad403a500384b2920b845a43a36))
 
 
 
