@@ -20,7 +20,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({ users }) {
-  const [scrollPos, setScrollPos] = useState(0);
   const [filteredUsers, setFilteredUsers] = useState(users);
   const filterData = (value) => {
     setFilteredUsers(
