@@ -26,7 +26,8 @@ function Milestones({ milestones }) {
     <Card
       title={milestone.title}
       subTitle={milestone.date}
-      className="my-5 md:mx-5 shadow-8"
+      className="my-5 md:mx-5 shadow-8  "
+      style={{ borderRadius: '20px' }}
     >
       {milestone.image && (
         <img
