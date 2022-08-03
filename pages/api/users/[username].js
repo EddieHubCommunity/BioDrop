@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import Profile from "../../../models/Profile";
+import Link from "../../../models/Link";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -17,7 +18,7 @@ export default async function handler(req, res) {
   }
 
   const data = JSON.parse(
-    fs.readFileSync(`${path.join(directoryPath, file)}`, "utf8")
+    fs.readFileSync(path.join(directoryPath, file), "utf8")
   );
 
   const getProfile = await Profile.findOne({ username });
@@ -45,16 +46,15 @@ export default async function handler(req, res) {
       console.log("ERROR incrementing profile stats", e);
     }
   }
-  const latestProfile = await Profile.findOne({ username }).populate("links");
+  const latestProfile = await Profile.findOne({ username });
+  const links = await Link.find({ profile: latestProfile._id });
   console.log(latestProfile);
   const profileWithStats = {
     username,
     ...data,
     views: latestProfile.views,
     links: data.links.map((link) => {
-      const statFound = latestProfile.links.find(
-        (linkStats) => linkStats.url === link.url
-      );
+      const statFound = links.find((linkStats) => linkStats.url === link.url);
       if (statFound) {
         return {
           ...link,

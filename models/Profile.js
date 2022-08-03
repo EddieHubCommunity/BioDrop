@@ -8,7 +8,7 @@ const ProfileSchema = new mongoose.Schema({
   },
   links: {
     default: [],
-    type: [{ type: mongoose.Schema.Types.ObjectId, ref: "link" }],
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
   },
 });
 

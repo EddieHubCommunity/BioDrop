@@ -6,7 +6,7 @@ export default function handler(req, res) {
   const files = fs.readdirSync(directoryPath);
 
   const users = files.map((file) => ({
-    ...JSON.parse(fs.readFileSync(`${path.join(directoryPath, file)}`, "utf8")),
+    ...JSON.parse(fs.readFileSync(path.join(directoryPath, file), "utf8")),
     username: file.split(".")[0],
   }));
 
