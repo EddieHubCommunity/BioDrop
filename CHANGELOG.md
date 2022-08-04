@@ -1,3 +1,12 @@
+## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
+
+
+### Bug Fixes
+
+* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
+
+
+
 ## [0.70.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.14...v0.70.15) (2022-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * discord for eddie ([1ff32db](https://github.com/EddieHubCommunity/LinkFree/commit/1ff32dbfe471ee58b00561cc1c1a0214a9c91aa8))
-
-
-
-## [0.70.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.10...v0.70.11) (2022-07-28)
-
-
-### Bug Fixes
-
-* improved docs ([30d32d5](https://github.com/EddieHubCommunity/LinkFree/commit/30d32d50cf096e9d047e2530bc6cd430ac77882e))
 
 
 
