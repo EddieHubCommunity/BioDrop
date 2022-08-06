@@ -7,3 +7,17 @@
   border-radius: 56%;
   background: white;
 }
+
+/* hover animation: start*/
+
+.scrollToTop-btn:hover {
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
+    background-color:#3c85de;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+/* hover animation: end*/
