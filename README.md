@@ -4,8 +4,9 @@
 ## QUICKSTART
 
 1. copy the `.env.example` file to `.env` and update any details required
-2. `npm install`
-3. `npm run dev`
+2. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
+3. `npm install`
+4. `npm run dev`
 
 
 
