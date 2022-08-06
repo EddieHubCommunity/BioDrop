@@ -8,9 +8,6 @@
 3. `npm install`
 4. `npm run dev`
 
-
-
-
 # LinkFree by EddieHub
 
 - LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
