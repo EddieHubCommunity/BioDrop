@@ -1,0 +1,28 @@
+{
+  "name": "Chandraprakash Darji",
+  "type": "personal",
+  "bio": "Front-end Web dev | Currently Mastering JavaScript, React, NextJS",
+  "avatar": "https://github.com/Chandraprakash-Darji.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Chandraprakash-Darji",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chandra_7852",
+      "icon": "twitter"
+    },
+    {
+      "name": "Connect on LinkedIN",
+      "url": "https://www.linkedin.com/in/chandra-prakash-6065b2224/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Connect on LinkedIN",
+      "url": "https://www.linkedin.com/in/chandra-prakash-6065b2224/",
+      "icon": "linkedin"
+    }
+  ]
+}
