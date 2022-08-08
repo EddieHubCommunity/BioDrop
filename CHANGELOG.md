@@ -1,3 +1,12 @@
+## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
+
+
+### Bug Fixes
+
+* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
+
+
+
 ## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
-
-
-
-## [0.70.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.11...v0.70.12) (2022-07-31)
-
-
-### Bug Fixes
-
-* discord for eddie ([1ff32db](https://github.com/EddieHubCommunity/LinkFree/commit/1ff32dbfe471ee58b00561cc1c1a0214a9c91aa8))
 
 
 
