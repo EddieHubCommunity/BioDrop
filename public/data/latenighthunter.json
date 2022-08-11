@@ -1,12 +1,12 @@
 {
-  "name": "Giovanny Martinez",
+  "name": "Latenighthunter",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/giovanny-martinez.png",
+  "avatar": "https://github.com/Latenighthunter.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/giovanny-martinez",
+      "url": "https://github.com/Latenighthunter",
       "icon": "github"
     },
     {
@@ -22,7 +22,7 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Getting into the coding world",
-      "url": "https://linkfree.eddiehub.io/giovanny-martinez"
+      "url": "https://linkfree.eddiehub.io/latenighthunter"
     }
   ]
 }
