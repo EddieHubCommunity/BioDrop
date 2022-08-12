@@ -45,15 +45,22 @@ export default function User({ data }) {
           />
           <div className="flex flex-col self-center">
             <h1 className="text-3xl font-bold">{data.name}</h1>
-            <h2 className="text-1xl text-gray-600">Views: {data.views}</h2>
+            {data.displayStatsPublic && (
+              <h2 className="text-1xl text-gray-600">Views: {data.views}</h2>
+            )}
           </div>
         </div>
         <p className="flex justify-center my-4">{data.bio}</p>
         <div className="flex flex-col items-center w-full">
-        {data.links &&
-          data.links.map((link, index) => (
-            <UserLink key={index} link={link} username={data.username} />
-          ))}
+          {data.links &&
+            data.links.map((link, index) => (
+              <UserLink
+                key={index}
+                link={link}
+                username={data.username}
+                displayStatsPublic={data.displayStatsPublic}
+              />
+            ))}
         </div>
         <div className="my-8"></div>
         {data.milestones &&

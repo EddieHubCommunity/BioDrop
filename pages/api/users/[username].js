@@ -46,9 +46,14 @@ export default async function handler(req, res) {
       console.log("ERROR incrementing profile stats", e);
     }
   }
+
+  if (!data.displayStatsPublic) {
+    return res.status(200).json(data);
+  }
+
   const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
-  console.log(latestProfile);
+
   const profileWithStats = {
     username,
     ...data,

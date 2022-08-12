@@ -76,6 +76,7 @@ Your brand new file should look something similar to this one:
 ```json
 {
   "name": "YOUR NAME",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
