@@ -3,6 +3,7 @@ import path from "path";
 
 import Profile from "../../../models/Profile";
 import Link from "../../../models/Link";
+import Stats from "../../../models/Stats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -44,6 +45,34 @@ export default async function handler(req, res) {
       );
     } catch (e) {
       console.log("ERROR incrementing profile stats", e);
+    }
+  }
+
+  const date = new Date(new Date().toLocaleDateString());
+  const getPlatformStats = await Stats.findOne({ date });
+  if (getPlatformStats) {
+    try {
+      await Stats.update(
+        {
+          date,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing platform stats", e);
+    }
+  }
+
+  if (!getPlatformStats) {
+    try {
+      await Stats.create({
+        date,
+        views: 1,
+      });
+    } catch (e) {
+      console.log("ERROR creating platform stats", e);
     }
   }
 
