@@ -10,12 +10,14 @@ import Footer from './Components/Footer'
 import User from './Components/UserProfile/User'
 import Home from './Components/Home'
 import Search from './Components/Search/Search'
+import NavMenu from './Components/NavMenu'
 
 import user from './config/user.json'
 
 function App() {
   return (
     <Router>
+      <NavMenu />
       <div className="m-2 md:m-4">
         {user.username && <User singleUser={user} />}
         {!user.username && (
