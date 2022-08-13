@@ -1,0 +1,23 @@
+{
+  "name": "Saptarshi Sarkar",
+  "type": "personal",
+  "bio": "Hi, I am Saptarshi Sarkar, a software developer and an open-source enthusiast!",
+  "avatar": "https://github.com/SaptarshiSarkar12.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SaptarshiSarkar12",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SSarkar2007",
+      "icon": "twitter"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://saptarshisarkar.hashnode.dev/",
+      "icon": "hashnode"
+    }
+  ]
+}

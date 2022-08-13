@@ -1,3 +1,30 @@
+## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
+
+
+### Bug Fixes
+
+* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
+
+
+
+## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
+
+
+### Bug Fixes
+
+* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
+
+
+
+## [0.70.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.14...v0.70.15) (2022-08-04)
+
+
+### Bug Fixes
+
+* lubnafathima more data ([#1571](https://github.com/EddieHubCommunity/LinkFree/issues/1571)) ([e425573](https://github.com/EddieHubCommunity/LinkFree/commit/e4255732491582d3aa4c0dc2a133b2489fc9ea6e))
+
+
+
 ## [0.70.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.13...v0.70.14) (2022-08-03)
 
 
@@ -13,33 +40,6 @@
 ### Bug Fixes
 
 * typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
-
-
-
-## [0.70.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.11...v0.70.12) (2022-07-31)
-
-
-### Bug Fixes
-
-* discord for eddie ([1ff32db](https://github.com/EddieHubCommunity/LinkFree/commit/1ff32dbfe471ee58b00561cc1c1a0214a9c91aa8))
-
-
-
-## [0.70.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.10...v0.70.11) (2022-07-28)
-
-
-### Bug Fixes
-
-* improved docs ([30d32d5](https://github.com/EddieHubCommunity/LinkFree/commit/30d32d50cf096e9d047e2530bc6cd430ac77882e))
-
-
-
-## [0.70.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.9...v0.70.10) (2022-07-27)
-
-
-### Bug Fixes
-
-* ingress for new k8s ([63779e3](https://github.com/EddieHubCommunity/LinkFree/commit/63779e3f2f033a92b794eb54f45cd44c29ec80ac))
 
 
 

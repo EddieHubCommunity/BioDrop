@@ -36,6 +36,7 @@ import {
   SiCodewars,
   SiHackerrank,
   SiHashnode,
+  SiLeetcode,
   SiMedium,
   SiPolywork,
 } from 'react-icons/si'
@@ -81,6 +82,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaInstagram {...restProps} />
     case 'laravel':
       return <FaLaravel {...restProps} />
+    case 'leetcode':
+      return <SiLeetcode {...restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':
