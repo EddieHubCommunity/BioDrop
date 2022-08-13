@@ -24,7 +24,7 @@ export default function ShareProfile({ username }) {
       <Toast ref={toast} />
 
       <div onClick={() => setShow(!show)}>
-        <GetIcons className="shareprofile" iconName="shareprofile" />
+        <GetIcons iconName="shareprofile" />
       </div>
 
       {show

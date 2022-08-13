@@ -53,12 +53,12 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaArrowLeft {...restProps} />
     case 'book':
       return <FaBook {...restProps} />
+    case 'shareprofile':
+      return <FiShare2 {...restProps} />
     case 'codeforces':
       return <SiCodeforces {...restProps} />
     case 'codewars':
       return <SiCodewars {...restProps} />
-    case 'shareprofile':
-      return <FiShare2 {...restProps} />
     case 'dev.to':
       return <FaDev {...restProps} />
     case 'discord':
