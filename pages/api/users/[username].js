@@ -48,7 +48,9 @@ export default async function handler(req, res) {
     }
   }
 
-  const date = new Date(new Date().toLocaleDateString());
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
     try {
@@ -77,7 +79,7 @@ export default async function handler(req, res) {
   }
 
   if (!data.displayStatsPublic) {
-    return res.status(200).json(data);
+    return res.status(200).json({ username, ...data });
   }
 
   const latestProfile = await Profile.findOne({ username });

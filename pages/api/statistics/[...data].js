@@ -1,5 +1,6 @@
 import Link from "../../../models/Link";
 import Profile from "../../../models/Profile";
+import Stats from "../../../models/Stats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -61,7 +62,35 @@ export default async function handler(req, res) {
     }
   }
 
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+  const getPlatformStats = await Stats.findOne({ date });
+  if (getPlatformStats) {
+    try {
+      await Stats.update(
+        {
+          date,
+        },
+        {
+          $inc: { clicks: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing platform stats", e);
+    }
+  }
+
+  if (!getPlatformStats) {
+    try {
+      await Stats.create({
+        date,
+        clicks: 1,
+      });
+    } catch (e) {
+      console.log("ERROR creating platform stats", e);
+    }
+  }
+
   const latestLink = await Link.findOne({ username, url });
-  console.log(latestLink);
   res.status(201).json(latestLink);
 }
