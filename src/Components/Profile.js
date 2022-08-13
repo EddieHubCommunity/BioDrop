@@ -30,9 +30,11 @@ function Profile({ profile, username }) {
         />
         <div className="flex flex-column sm:flex-row justify-content-center align-items-center">
           <h1 className="mx-2 my-0">{name}</h1>
-          <p className="text-2xl font-bold mx-2 my-0">({username})</p>
+          <p className="text-2xl font-bold mx-3 my-0">({username})</p>
         </div>
-        <ShareProfile username={username} />
+        <div className="shareprofile-icon">
+          <ShareProfile username={username} />
+        </div>
       </div>
       <div className="flex justify-content-center w-50">
         <p>{bio}</p>

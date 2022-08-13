@@ -41,6 +41,7 @@ import {
   SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
+import { FiShare2 } from 'react-icons/fi'
 
 function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
@@ -56,6 +57,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiCodeforces {...restProps} />
     case 'codewars':
       return <SiCodewars {...restProps} />
+    case 'shareprofile':
+      return <FiShare2 {...restProps} />
     case 'dev.to':
       return <FaDev {...restProps} />
     case 'discord':
