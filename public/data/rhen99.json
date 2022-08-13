@@ -1,0 +1,28 @@
+{
+  "name": "Arhen Santiago",
+  "type": "personal",
+  "bio": "Self-Taught Programmer",
+  "avatar": "https://github.com/rhen99.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rhen99",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/lincoldarhen/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/lags_coding",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://facebook.com/lincoldarhen.santiago",
+      "icon": "facebook"
+    }
+  ]
+}
