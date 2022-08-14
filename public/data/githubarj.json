@@ -1,5 +1,5 @@
 {
-  "name": "RICHARD JEREMY GITHUBA",
+  "name": "Richard Jeremy Githuba",
   "type": "personal",
   "bio": "Full Stack Software Developer",
   "avatar": "https://github.com/githubarj.png",
@@ -22,16 +22,16 @@
   ],
   "milestones": [
     {
-      "title": "Learning to Code!",
+      "title": "Learning Web Development!",
       "date": "February 2022",
       "icon": "github",
       "color": "blue",
-      "description": "Started learning to code with the freeCodeCamp curriculum!",
+      "description": "Started learning web development with the freeCodeCamp curriculum!",
       "url": "https://www.freecodecamp.org/learn"
     },
     {
-      "title": "Started open Source",
-      "date": "August 2020",
+      "title": "Started Open Source Contribution",
+      "date": "August 2022",
       "icon": "github",
       "color": "grey",
       "description": "Started Contributing to Open Source",
