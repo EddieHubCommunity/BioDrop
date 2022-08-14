@@ -41,7 +41,7 @@ import {
   SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
-import { DiOpensource } from "react-icons/di";
+import { DiOpensource } from 'react-icons/di';
 
 function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
