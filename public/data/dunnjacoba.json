@@ -28,6 +28,14 @@
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://dunnjacob.vercel.app/"
+    },
+    {
+      "title": "Started Contributing to Open Source Projects",
+      "date": "August 2022",
+      "icon": "github",
+      "color": "grey",
+      "description": "Contributed to the expo/snack repo, addressing issue #278",
+      "url": "https://github.com/expo/snack"
     }
   ]
 }
