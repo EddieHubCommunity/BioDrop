@@ -7,6 +7,7 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "user-images.githubusercontent.com",
       "cdn.nhcarrigan.com",
+      "d1aettbyeyfilo.cloudfront.net"
     ],
   },
 };
