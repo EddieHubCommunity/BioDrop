@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-
 import app from "../config/app.json";
 import singleUser from "../config/user.json";
 
