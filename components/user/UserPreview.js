@@ -7,7 +7,7 @@ export default function UserPreview({ profile }) {
       className="flex gap-x-6 rounded-full border-2 border-gray-200 hover:border-gray-500 p-4 my-2"
     >
       <Image
-        src={profile.avatar ? profile.avatar : "https://d1aettbyeyfilo.cloudfront.net/eddiejaoude/19083469_1619470266Fpchubber-hi.webp"}
+        src={profile.avatar}
         alt={`Profile picture of ${profile.name}`}
         width={80}
         height={80}
