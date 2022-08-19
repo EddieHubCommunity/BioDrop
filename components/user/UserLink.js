@@ -1,6 +1,8 @@
 import app from "../../config/app.json";
+import {useRouter} from 'next/router'
 
 export default function UserLink({ link, username, displayStatsPublic }) {
+  const router = useRouter()
   const clickLink = async () => {
     const data = {};
     try {
@@ -15,18 +17,16 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       // TODO: link not found
       console.log("ERROR link not found ", e);
     }
-    // TODO: 2. visit link
+    router.push(`${link.url}`)
   };
 
   return (
-    <a className="w-full" rel="noreferrer" target="_blank" href={link.url}>
-      <button
-        onClick={() => clickLink()}
-        className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
-      >
-        {link.name}{" "}
-        {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
-      </button>
-    </a>
+    <button
+      onClick={() => clickLink()}
+      className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
+    >
+      {link.name}{" "}
+      {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
+    </button>
   );
 }
