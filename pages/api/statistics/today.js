@@ -1,22 +1,22 @@
 import Stats from "../../../models/Stats";
 import Profile from "../../../models/Profile";
-import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
-  await connectMongo();
-  let dailyStats = await Stats.find({});
-
-  let views = 0;
-  let clicks = 0;
-  dailyStats.map((stat) => {
-    views += stat.views;
-    clicks += stat.clicks;
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+  let statsToday = await Stats.findOne({
+    date,
   });
-
+  if (!statsToday) {
+    statsToday = {
+      views: 0,
+      clicks: 0,
+    };
+  }
   const totalProfiles = await Profile.find({}).estimatedDocumentCount();
   const data = {
-    views,
-    clicks,
+    views: statsToday.views,
+    clicks: statsToday.clicks,
     users: totalProfiles,
   };
 
