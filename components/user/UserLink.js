@@ -19,12 +19,14 @@ export default function UserLink({ link, username, displayStatsPublic }) {
   };
 
   return (
-    <button
-      onClick={() => clickLink()}
-      className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
-    >
-      {link.name}{" "}
-      {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
-    </button>
+    <a className="w-full" rel="noreferrer" target="_blank" href={link.url}>
+      <button
+        onClick={() => clickLink()}
+        className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
+      >
+        {link.name}{" "}
+        {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
+      </button>
+    </a>
   );
 }
