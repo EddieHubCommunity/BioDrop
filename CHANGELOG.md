@@ -1,3 +1,12 @@
+## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
+
+
+### Bug Fixes
+
+* Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
+
+
+
 ## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Update vedanshi555 username ([#1563](https://github.com/EddieHubCommunity/LinkFree/issues/1563)) ([0247cf3](https://github.com/EddieHubCommunity/LinkFree/commit/0247cf3a7f1af2f2af1f44a30b0e633d7de5030a))
-
-
-
-## [0.70.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.12...v0.70.13) (2022-07-31)
-
-
-### Bug Fixes
-
-* typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
 
 
 
