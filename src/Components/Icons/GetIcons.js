@@ -41,6 +41,7 @@ import {
   SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
+import { DiOpensource } from 'react-icons/di'
 
 function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
@@ -94,6 +95,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaMicrosoft {...restProps} />
     case 'node-js':
       return <FaNodeJs {...restProps} />
+    case 'open-source':
+      return <DiOpensource {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
