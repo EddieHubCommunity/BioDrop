@@ -22,6 +22,7 @@ import {
   FaNodeJs,
   FaPaypal,
   FaSearch,
+  FaShowwcase,
   FaSlack,
   FaSnapchat,
   FaTelegram,
@@ -103,6 +104,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiPolywork {...restProps} />
     case 'search':
       return <FaSearch {...restProps} />
+    case 'showwcase':
+      return <FaShowwcase {...restProps} />
     case 'send':
       return <RiSendPlaneFill {...restProps} />
     case 'slack':
