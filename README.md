@@ -39,7 +39,7 @@ Before contributing or adding a new feature, please make sure you have already i
 1. Fork the project
 2. Clone the project
 3. Navigate to the project directory `cd LinkFree`
-4. Install dependencies with `npm install`
+4. Install dependencies with `npm ci`
 5. Run `npm start`
 6. Optional: Run the tests with `npm run cypress:run`
 
