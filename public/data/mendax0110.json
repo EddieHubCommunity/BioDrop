@@ -17,12 +17,12 @@
   ],
   "milestones": [
     {
-      "title": "Started Freelancing",
-      "date": "December 2021",
+      "title": "Created my Blog and my Gitbook.",
+      "date": "2022",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing",
-      "url": "https://www.eddiejaoude.io/"
+      "description": "Blog, Gitbook",
+      "url": "https://m3ndax.gitbook.io/internal-wiki/"
     }
   ]
 }
