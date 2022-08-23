@@ -23,7 +23,7 @@
   "milestones": [
     {
       "title": "My blogs",
-      "icon": "book",
+      "icon": "dev.to",
       "color": "grey",
       "description": "Check out my blogs on dev.to",
       "url": "https://dev.to/chinmaymhatre"
