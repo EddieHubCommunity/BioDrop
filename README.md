@@ -46,7 +46,7 @@ Before installation, please make sure you have already installed the following t
 1. Fork the project
 2. Clone the project
 3. Navigate to the project directory `cd LinkFree`
-4. Install dependencies with `npm install`
+4. Install dependencies with `npm ci`
 5. Run `npm start`
 6. Optional: Run the tests with `npm run cypress:run`
 
@@ -64,7 +64,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 Create a file named using your GitHub username `username.json` in the directory `public/data`, this will ensure it is unique.
 
-**Optional fields: `links`, `milestones` and `type(personal | community)`**\
+**Optional fields: `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/eddiejaoude.json)
