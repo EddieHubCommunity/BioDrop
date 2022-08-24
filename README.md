@@ -70,7 +70,7 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
-(note: add/remove `links` objects to customise your profile, `milestones` are optional)
+> **Note**: add/remove `links` objects to customise your profile, `milestones` are optional
 
 ```json
 {
