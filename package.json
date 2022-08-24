@@ -6,6 +6,7 @@
   "dependencies": {
     "mongoose": "^6.5.0",
     "next": "12.2.0",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -17,7 +18,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write ."
   },
   "browserslist": {
     "production": [
