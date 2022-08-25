@@ -2,12 +2,17 @@
   "name": "Kumar Kalyan",
   "type": "personal",
   "bio": "Hi, there I'm a student developer from  India. I love to inspire the community by delivering talks and writing blogs on web development & blockchain  topics. ",
-  "avatar": "https://github.com/kum9748ar.png",
+  "avatar": "https://github.com/kumar-kalyan.png",
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/kum9748ar",
+      "url": "https://github.com/kumar-kalyan",
       "icon": "github"
+    },
+    {
+      "name": "Follow me on GitLab",
+      "url": "https://gitlab.com/kumar-kalyan",
+      "icon": "gitlab"
     },
     {
       "name": "Follow me on Twitter",
