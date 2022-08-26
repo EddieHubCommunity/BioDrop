@@ -1,3 +1,12 @@
+## [0.70.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.18...v0.70.19) (2022-08-26)
+
+
+### Bug Fixes
+
+* Dockerfile npm command ([#1625](https://github.com/EddieHubCommunity/LinkFree/issues/1625)) ([c6eae67](https://github.com/EddieHubCommunity/LinkFree/commit/c6eae67f79813ae567b10c35071d3749423f2378))
+
+
+
 ## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * lubnafathima more data ([#1571](https://github.com/EddieHubCommunity/LinkFree/issues/1571)) ([e425573](https://github.com/EddieHubCommunity/LinkFree/commit/e4255732491582d3aa4c0dc2a133b2489fc9ea6e))
-
-
-
-## [0.70.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.13...v0.70.14) (2022-08-03)
-
-
-### Bug Fixes
-
-* Update vedanshi555 username ([#1563](https://github.com/EddieHubCommunity/LinkFree/issues/1563)) ([0247cf3](https://github.com/EddieHubCommunity/LinkFree/commit/0247cf3a7f1af2f2af1f44a30b0e633d7de5030a))
 
 
 
