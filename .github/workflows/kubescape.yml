@@ -1,5 +1,11 @@
 name: Kubescape
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - 'kubernetes/**'
+  pull_request:
+    paths:
+      - 'kubernetes/**'
 
 jobs:
   security:
