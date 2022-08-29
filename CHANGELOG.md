@@ -1,3 +1,12 @@
+## [0.71.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.0...v0.71.1) (2022-08-29)
+
+
+### Bug Fixes
+
+* github actions to be scoped ([#1685](https://github.com/EddieHubCommunity/LinkFree/issues/1685)) ([d625b94](https://github.com/EddieHubCommunity/LinkFree/commit/d625b94ef94367caaf6c578acb4c9eb6df4e5978))
+
+
+
 # [0.71.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.20...v0.71.0) (2022-08-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
-
-
-
-## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
-
-
-### Bug Fixes
-
-* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
 
 
 
