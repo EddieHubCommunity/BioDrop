@@ -2,14 +2,14 @@ name: Build
 on:
   push:
     paths:
-      - public/
-      - src/
-      - cypress/
+      - public/**
+      - src/**
+      - cypress/**
   pull_request:
     paths:
-      - public/
-      - src/
-      - cypress/
+      - public/**
+      - src/**
+      - cypress/**
 
 jobs:
   build:
