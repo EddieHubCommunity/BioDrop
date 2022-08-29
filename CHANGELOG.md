@@ -1,3 +1,12 @@
+# [0.71.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.20...v0.71.0) (2022-08-29)
+
+
+### Features
+
+* kubescape action ([#1683](https://github.com/EddieHubCommunity/LinkFree/issues/1683)) ([4b780a4](https://github.com/EddieHubCommunity/LinkFree/commit/4b780a460e55452d4c53ca1bce37e7241b32bc91))
+
+
+
 ## [0.70.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.19...v0.70.20) (2022-08-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
-
-
-
-## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
-
-
-### Bug Fixes
-
-* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
 
 
 
