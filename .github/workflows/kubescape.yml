@@ -12,4 +12,4 @@ jobs:
       - name: Install Kubescape
         run: curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
       - name: Kubescape
-        run: kubescape scan kubernetes/*.yaml -v --fail-threshold 30
+        run: kubescape scan kubernetes/*.yaml -v --fail-threshold 40
