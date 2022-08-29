@@ -1,9 +1,9 @@
 name: Kubescape
 on:
-  - push
+  push:
     paths:
       - 'kubernetes/**'
-  - pull_request
+  pull_request:
     paths:
       - 'kubernetes/**'
 
