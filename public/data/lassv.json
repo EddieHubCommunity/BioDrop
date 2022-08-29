@@ -1,5 +1,4 @@
 {
-
   "name": "Lasse Vesstergaard",
 
   "type": "personal",
@@ -9,33 +8,25 @@
   "avatar": "https://github.com/lassv.png",
 
   "links": [
-
     {
-
       "name": "Follow me on GitHub",
 
       "url": "https://github.com/lassv",
 
       "icon": "github"
-
     },
 
     {
-
       "name": "Follow me on Twitter",
 
       "url": "https://twitter.com/lassv_05",
 
       "icon": "twitter"
-
     }
-
   ],
 
   "milestones": [
-
     {
-
       "title": "Started Coding",
 
       "date": "December 2020",
@@ -47,9 +38,6 @@
       "description": "Started coding back in december 2020.",
 
       "url": "https://hypll.org"
-
     }
-
   ]
-
 }
