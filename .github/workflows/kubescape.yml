@@ -1,4 +1,4 @@
-name: Build
+name: Kubescape
 on: [push, pull_request]
 
 jobs:
