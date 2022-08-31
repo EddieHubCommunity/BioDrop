@@ -1,3 +1,12 @@
+# [0.72.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.2...v0.72.0) (2022-08-31)
+
+
+### Features
+
+* reviewpad action ([#1700](https://github.com/EddieHubCommunity/LinkFree/issues/1700)) ([df3c856](https://github.com/EddieHubCommunity/LinkFree/commit/df3c856d54c8f862c8bf6744517bac908d06f2f4))
+
+
+
 ## [0.71.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.1...v0.71.2) (2022-08-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * why is my profile not visible ([fd74662](https://github.com/EddieHubCommunity/LinkFree/commit/fd74662222fefcc7d5bcdd9c9e7b515eea1152aa))
-
-
-
-## [0.70.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.18...v0.70.19) (2022-08-26)
-
-
-### Bug Fixes
-
-* Dockerfile npm command ([#1625](https://github.com/EddieHubCommunity/LinkFree/issues/1625)) ([c6eae67](https://github.com/EddieHubCommunity/LinkFree/commit/c6eae67f79813ae567b10c35071d3749423f2378))
 
 
 
