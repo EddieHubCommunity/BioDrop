@@ -42,7 +42,7 @@ workflows:
       - rule: $pullRequestCountBy($author(), "all") == 1
         extra-actions:
           - '$commentOnce($sprintf("Welcome @%v! Thank you so much for your first pull request!", [$author()]))'
-      
+
       - rule: $pullRequestCountBy($author(), "all") == 10
         extra-actions:
           - $addLabel("kudos")
