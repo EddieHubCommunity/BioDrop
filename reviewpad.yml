@@ -33,5 +33,11 @@ workflows:
         extra-actions:
           - $addLabel("kudos")
           - $info("Kudos for your 10th pull request! You are awesome")
-          
-      
+
+  - name: waiting-for-reviewers
+    always-run: true
+    if:
+      - rule: $reviewers() == []
+        extra-actions:
+          - '$info("A maintainer will review your pull request soon!")'
+          - '$addLabel("waiting-for-reviewers")'
