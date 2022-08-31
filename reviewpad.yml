@@ -1,0 +1,22 @@
+api-version: reviewpad.com/v3.x
+
+labels:
+  small:
+    color: "294b69"
+  medium:
+    color: "a8c3f7"
+  large:
+    color: "8a2138"
+
+workflows:
+  - name: label-pull-request-with-size
+    if:
+      - rule: $size() <= 10
+        extra-actions:
+          - $addLabel("small")
+      - rule: $size() > 10 && $size() <= 30
+        extra-actions:
+          - $addLabel("medium")
+      - rule: $size() > 30
+        extra-actions:
+          - $addLabel("large")
