@@ -13,6 +13,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/imLakshay08",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/imlakshay08/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Mail me on",
+      "url": "mailto:tyagilakshay119@gmail.com",
+      "icon": "gmail"
     }
   ],
   "milestones": [
