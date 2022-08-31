@@ -1,3 +1,12 @@
+## [0.71.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.1...v0.71.2) (2022-08-31)
+
+
+### Bug Fixes
+
+* share profile icon ([#1597](https://github.com/EddieHubCommunity/LinkFree/issues/1597)) ([fbc3656](https://github.com/EddieHubCommunity/LinkFree/commit/fbc365634d9a35c2ed56385119eb4fdf6ffebc48))
+
+
+
 ## [0.71.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.0...v0.71.1) (2022-08-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Dockerfile npm command ([#1625](https://github.com/EddieHubCommunity/LinkFree/issues/1625)) ([c6eae67](https://github.com/EddieHubCommunity/LinkFree/commit/c6eae67f79813ae567b10c35071d3749423f2378))
-
-
-
-## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
-
-
-### Bug Fixes
-
-* Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
 
 
 
