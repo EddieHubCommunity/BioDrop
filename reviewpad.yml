@@ -8,8 +8,20 @@ labels:
   large:
     color: "8a2138"
 
+rules:
+  - name: check-for-file-name
+    description: Checks for the correct name
+    spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
+
+  - name: modifies-only-one-file
+    spec: $fileCount() == 1
+
+  - name: check-for-profile-addition
+    spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
+
 workflows:
   - name: label-pull-request-with-size
+    always-run: true
     if:
       - rule: $size() <= 10
         extra-actions:
@@ -20,3 +32,49 @@ workflows:
       - rule: $size() > 30
         extra-actions:
           - $addLabel("large")
+
+  - name: first-time-contributor
+    always-run: true
+    if:
+      - rule: $pullRequestCountBy($author(), "all") == 1
+        extra-actions:
+          - '$commentOnce($sprintf("Welcome @%v! Thank you so much for your first pull request!", [$author()]))'
+      
+      - rule: $pullRequestCountBy($author(), "all") == 10
+        extra-actions:
+          - $addLabel("kudos")
+          - $info("Kudos for your 10th pull request! You are awesome")
+
+  - name: waiting-for-reviewers
+    always-run: true
+    if:
+      - rule: $reviewers() == []
+        extra-actions:
+          - '$info("A maintainer will review your pull request soon!")'
+          - '$addLabel("waiting-for-reviewers")'
+
+  - name: lint-commits
+    description: Lint commit messages
+    always-run: true
+    if:
+      - rule: '!$hasLinearHistory()'
+        extra-actions:
+          - '$warn("This pull request does not have linear history - please fix this!")'
+      - rule: 'true'
+        extra-actions:
+          - '$commitLint()'
+
+  - name: add-label-for-chore-profile-addition
+    always-run: true
+    if:
+      - rule: $hasFilePattern("public/data/**")
+    then:
+      - '$addLabel("chore: profile-adition")'
+
+  - name: chore-profile-addition
+    description: Automates profile addition
+    always-run: true
+    if:
+      - rule: check-for-profile-addition
+    then:
+      - '$addLabel("LGTM")'
