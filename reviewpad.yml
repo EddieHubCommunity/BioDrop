@@ -8,6 +8,17 @@ labels:
   large:
     color: "8a2138"
 
+rules:
+  - name: check-for-file-name
+    description: Checks for the correct name
+    spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
+
+  - name: modifies-only-one-file
+    spec: $fileCount() == 1
+
+  - name: check-for-profile-addition
+    spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
+
 workflows:
   - name: label-pull-request-with-size
     always-run: true
@@ -44,6 +55,7 @@ workflows:
 
   - name: lint-commits
     description: Lint commit messages
+    always-run: true
     if:
       - rule: '!$hasLinearHistory()'
         extra-actions:
@@ -52,3 +64,17 @@ workflows:
         extra-actions:
           - '$commitLint()'
 
+  - name: add-label-for-chore-profile-addition
+    always-run: true
+    if:
+      - rule: $hasFilePattern("public/data/**")
+    then:
+      - '$addLabel("chore: profile-adition")'
+
+  - name: chore-profile-addition
+    description: Automates profile addition
+    always-run: true
+    if:
+      - rule: check-for-profile-addition
+    then:
+      - '$addLabel("LGTM")'
