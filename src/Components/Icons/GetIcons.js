@@ -24,6 +24,7 @@ import {
   FaSearch,
   FaSlack,
   FaSnapchat,
+  FaStackOverflow,
   FaTelegram,
   FaTiktok,
   FaTwitch,
@@ -112,6 +113,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaSlack {...restProps} />
     case 'snapchat':
       return <FaSnapchat {...restProps} />
+    case 'stackoverflow':
+      return <FaStackOverflow {...restProps} />
     case 'telegram':
       return <FaTelegram {...restProps} />
     case 'tiktok':
