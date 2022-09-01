@@ -1,3 +1,12 @@
+## [0.72.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.1...v0.72.2) (2022-09-01)
+
+
+### Bug Fixes
+
+* update Eddie's profile ([#1701](https://github.com/EddieHubCommunity/LinkFree/issues/1701)) ([3bd9c7b](https://github.com/EddieHubCommunity/LinkFree/commit/3bd9c7b1e11f7bd4a9522fab6e94be5c001c0f0a))
+
+
+
 ## [0.72.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.0...v0.72.1) (2022-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github actions to be scoped ([#1685](https://github.com/EddieHubCommunity/LinkFree/issues/1685)) ([d625b94](https://github.com/EddieHubCommunity/LinkFree/commit/d625b94ef94367caaf6c578acb4c9eb6df4e5978))
-
-
-
-# [0.71.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.20...v0.71.0) (2022-08-29)
-
-
-### Features
-
-* kubescape action ([#1683](https://github.com/EddieHubCommunity/LinkFree/issues/1683)) ([4b780a4](https://github.com/EddieHubCommunity/LinkFree/commit/4b780a460e55452d4c53ca1bce37e7241b32bc91))
 
 
 
