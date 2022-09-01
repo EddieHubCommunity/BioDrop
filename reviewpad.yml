@@ -56,17 +56,6 @@ workflows:
           - '$info("A maintainer will review your pull request soon!")'
           - '$addLabel("waiting-for-reviewers")'
 
-  - name: lint-commits
-    description: Lint commit messages
-    always-run: true
-    if:
-      - rule: '!$hasLinearHistory()'
-        extra-actions:
-          - '$warn("This pull request does not have linear history - please fix this!")'
-      - rule: 'true'
-        extra-actions:
-          - '$commitLint()'
-
   - name: add-label-for-chore-profile-addition
     always-run: true
     if:
