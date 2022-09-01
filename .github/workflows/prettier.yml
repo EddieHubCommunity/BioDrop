@@ -1,5 +1,12 @@
 name: Format
-on: [push, workflow_dispatch, pull_request]
+on:
+  push:
+    paths:
+      - 'public/data/**'
+  pull_request:
+    paths:
+      - 'public/data/**'
+  workflow_dispatch:
 
 jobs:
   format:

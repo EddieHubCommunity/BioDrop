@@ -16,6 +16,18 @@
   opacity: 0.7;
 }
 
+.shareprofile-icon {
+  width: 50px;
+  cursor: pointer;
+  font-size: 23px;
+  color: rgb(68, 68, 68);
+  transition: all 0.2s ease-in-out;
+}
+
+.shareprofile-icon:hover {
+  font-size: 28px;
+}
+
 @media screen and (max-width: 768px) {
   .w-50 {
     max-width: 90vw;
