@@ -1,3 +1,12 @@
+## [0.72.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.2...v0.72.3) (2022-09-01)
+
+
+### Bug Fixes
+
+* add the StackOverflow icon ([#1696](https://github.com/EddieHubCommunity/LinkFree/issues/1696)) ([462b9bb](https://github.com/EddieHubCommunity/LinkFree/commit/462b9bb36e778f5e5904b130c38ebfd2cddf07e1))
+
+
+
 ## [0.72.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.1...v0.72.2) (2022-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * share profile icon ([#1597](https://github.com/EddieHubCommunity/LinkFree/issues/1597)) ([fbc3656](https://github.com/EddieHubCommunity/LinkFree/commit/fbc365634d9a35c2ed56385119eb4fdf6ffebc48))
-
-
-
-## [0.71.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.0...v0.71.1) (2022-08-29)
-
-
-### Bug Fixes
-
-* github actions to be scoped ([#1685](https://github.com/EddieHubCommunity/LinkFree/issues/1685)) ([d625b94](https://github.com/EddieHubCommunity/LinkFree/commit/d625b94ef94367caaf6c578acb4c9eb6df4e5978))
 
 
 
