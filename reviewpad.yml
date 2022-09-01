@@ -2,10 +2,13 @@ api-version: reviewpad.com/v3.x
 
 labels:
   small:
+    description: "Pull request with less than 10 changed lines"
     color: "294b69"
   medium:
+    description: "Pull request with changed lines between 10 and 30"
     color: "a8c3f7"
   large:
+    description: "Pull request with more than 30 changed lines"
     color: "8a2138"
 
 rules:
@@ -39,7 +42,7 @@ workflows:
       - rule: $pullRequestCountBy($author(), "all") == 1
         extra-actions:
           - '$commentOnce($sprintf("Welcome @%v! Thank you so much for your first pull request!", [$author()]))'
-      
+
       - rule: $pullRequestCountBy($author(), "all") == 10
         extra-actions:
           - $addLabel("kudos")
