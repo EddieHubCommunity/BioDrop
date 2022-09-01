@@ -1,3 +1,12 @@
+## [0.72.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.0...v0.72.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* removed enforcing lint commits ([#1711](https://github.com/EddieHubCommunity/LinkFree/issues/1711)) ([b4063b5](https://github.com/EddieHubCommunity/LinkFree/commit/b4063b578ab73d5e5d7560fa2906f0487d776a2e))
+
+
+
 # [0.72.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.2...v0.72.0) (2022-08-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * kubescape action ([#1683](https://github.com/EddieHubCommunity/LinkFree/issues/1683)) ([4b780a4](https://github.com/EddieHubCommunity/LinkFree/commit/4b780a460e55452d4c53ca1bce37e7241b32bc91))
-
-
-
-## [0.70.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.19...v0.70.20) (2022-08-29)
-
-
-### Bug Fixes
-
-* why is my profile not visible ([fd74662](https://github.com/EddieHubCommunity/LinkFree/commit/fd74662222fefcc7d5bcdd9c9e7b515eea1152aa))
 
 
 
