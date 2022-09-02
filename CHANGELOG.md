@@ -1,3 +1,12 @@
+## [0.72.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.4...v0.72.5) (2022-09-02)
+
+
+### Bug Fixes
+
+* run prettier for data files ([#1713](https://github.com/EddieHubCommunity/LinkFree/issues/1713)) ([3644e72](https://github.com/EddieHubCommunity/LinkFree/commit/3644e729c22de061d1fb5172bd9d23d7c429227a))
+
+
+
 ## [0.72.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.3...v0.72.4) (2022-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed enforcing lint commits ([#1711](https://github.com/EddieHubCommunity/LinkFree/issues/1711)) ([b4063b5](https://github.com/EddieHubCommunity/LinkFree/commit/b4063b578ab73d5e5d7560fa2906f0487d776a2e))
-
-
-
-# [0.72.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.2...v0.72.0) (2022-08-31)
-
-
-### Features
-
-* reviewpad action ([#1700](https://github.com/EddieHubCommunity/LinkFree/issues/1700)) ([df3c856](https://github.com/EddieHubCommunity/LinkFree/commit/df3c856d54c8f862c8bf6744517bac908d06f2f4))
 
 
 
