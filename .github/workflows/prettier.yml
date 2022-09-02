@@ -12,7 +12,7 @@ jobs:
           node-version: "16"
       - run: npm ci
       - name: Prettier
-        run: npx prettier --write public/data/*.json
+        run: npx prettier --write data/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
