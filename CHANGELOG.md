@@ -1,3 +1,12 @@
+## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+
+
+### Bug Fixes
+
+* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
+
+
+
 # [0.73.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.5...v0.73.0) (2022-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add the StackOverflow icon ([#1696](https://github.com/EddieHubCommunity/LinkFree/issues/1696)) ([462b9bb](https://github.com/EddieHubCommunity/LinkFree/commit/462b9bb36e778f5e5904b130c38ebfd2cddf07e1))
-
-
-
-## [0.72.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.1...v0.72.2) (2022-09-01)
-
-
-### Bug Fixes
-
-* update Eddie's profile ([#1701](https://github.com/EddieHubCommunity/LinkFree/issues/1701)) ([3bd9c7b](https://github.com/EddieHubCommunity/LinkFree/commit/3bd9c7b1e11f7bd4a9522fab6e94be5c001c0f0a))
 
 
 
