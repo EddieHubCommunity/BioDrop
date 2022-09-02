@@ -3,10 +3,6 @@ on:
   push:
     paths:
       - 'public/data/**'
-  pull_request:
-    paths:
-      - 'public/data/**'
-  workflow_dispatch:
 
 jobs:
   format:
