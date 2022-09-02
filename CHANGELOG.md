@@ -1,3 +1,12 @@
+## [0.72.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.3...v0.72.4) (2022-09-02)
+
+
+### Bug Fixes
+
+* viktorcodes ([#1609](https://github.com/EddieHubCommunity/LinkFree/issues/1609)) ([5de1e3b](https://github.com/EddieHubCommunity/LinkFree/commit/5de1e3bfa3ad8b9368f170cdcc30ac991cf06fa6))
+
+
+
 ## [0.72.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.2...v0.72.3) (2022-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * reviewpad action ([#1700](https://github.com/EddieHubCommunity/LinkFree/issues/1700)) ([df3c856](https://github.com/EddieHubCommunity/LinkFree/commit/df3c856d54c8f862c8bf6744517bac908d06f2f4))
-
-
-
-## [0.71.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.1...v0.71.2) (2022-08-31)
-
-
-### Bug Fixes
-
-* share profile icon ([#1597](https://github.com/EddieHubCommunity/LinkFree/issues/1597)) ([fbc3656](https://github.com/EddieHubCommunity/LinkFree/commit/fbc365634d9a35c2ed56385119eb4fdf6ffebc48))
 
 
 
