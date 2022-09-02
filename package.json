@@ -32,7 +32,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "create": "npx linkfree-cli"
   },
   "eslintConfig": {
     "extends": [
@@ -67,6 +68,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.25.1",
     "husky": "^7.0.2",
+    "linkfree-cli": "^1.1.3",
     "lint-staged": "^12.1.4",
     "prettier": "2.4.0"
   },
