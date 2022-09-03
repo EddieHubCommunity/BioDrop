@@ -1,3 +1,12 @@
+## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+
+
+### Bug Fixes
+
+* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+
+
+
 ## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * viktorcodes ([#1609](https://github.com/EddieHubCommunity/LinkFree/issues/1609)) ([5de1e3b](https://github.com/EddieHubCommunity/LinkFree/commit/5de1e3bfa3ad8b9368f170cdcc30ac991cf06fa6))
-
-
-
-## [0.72.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.2...v0.72.3) (2022-09-01)
-
-
-### Bug Fixes
-
-* add the StackOverflow icon ([#1696](https://github.com/EddieHubCommunity/LinkFree/issues/1696)) ([462b9bb](https://github.com/EddieHubCommunity/LinkFree/commit/462b9bb36e778f5e5904b130c38ebfd2cddf07e1))
 
 
 
