@@ -10,12 +10,14 @@
       "icon": "github"
     }
   ],
-  "milestones": [{
-        "title": "Joined GitHub",
-        "date": "December 2013",
-        "icon": "github",
-        "color": "grey",
-        "url": "https://github.com/7flash",
-        "description": "Contribute to OpenSource repos"
-  }]
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "December 2013",
+      "icon": "github",
+      "color": "grey",
+      "url": "https://github.com/7flash",
+      "description": "Contribute to OpenSource repos"
+    }
+  ]
 }
