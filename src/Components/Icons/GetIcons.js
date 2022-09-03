@@ -24,6 +24,7 @@ import {
   FaSearch,
   FaSlack,
   FaSnapchat,
+  FaStackOverflow,
   FaTelegram,
   FaTiktok,
   FaTwitch,
@@ -41,6 +42,8 @@ import {
   SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
+import { FiShare2 } from 'react-icons/fi'
+import { DiOpensource } from 'react-icons/di'
 
 function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
@@ -52,6 +55,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaArrowLeft {...restProps} />
     case 'book':
       return <FaBook {...restProps} />
+    case 'shareprofile':
+      return <FiShare2 {...restProps} />
     case 'codeforces':
       return <SiCodeforces {...restProps} />
     case 'codewars':
@@ -94,6 +99,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaMicrosoft {...restProps} />
     case 'node-js':
       return <FaNodeJs {...restProps} />
+    case 'open-source':
+      return <DiOpensource {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
@@ -106,6 +113,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaSlack {...restProps} />
     case 'snapchat':
       return <FaSnapchat {...restProps} />
+    case 'stackoverflow':
+      return <FaStackOverflow {...restProps} />
     case 'telegram':
       return <FaTelegram {...restProps} />
     case 'tiktok':
