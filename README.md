@@ -37,7 +37,7 @@ Before contributing or adding a new feature, please make sure you have already i
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project by running `git clone https://github.com/EddieHubCommunity/LinkFree.git`
+2. Clone the project by running `git clone https://github.com/<your-username>/LinkFree.git`
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm install`
 5. Run `npm start`
