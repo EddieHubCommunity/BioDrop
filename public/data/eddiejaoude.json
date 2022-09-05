@@ -48,6 +48,11 @@
       "name": "Donate to me on GitHub Sponsors",
       "url": "https://github.com/sponsors/eddiejaoude",
       "icon": "dollar"
+    },
+    {
+      "name": "Customising your GitHub Profile course (free)",
+      "url": "http://eddiejaoude.io/course-github-profile-landing",
+      "icon": "github"
     }
   ],
   "milestones": [
