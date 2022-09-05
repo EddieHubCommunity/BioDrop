@@ -1,3 +1,12 @@
+## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
+
+
+### Bug Fixes
+
+* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
+
+
+
 ## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * run prettier for data files ([#1713](https://github.com/EddieHubCommunity/LinkFree/issues/1713)) ([3644e72](https://github.com/EddieHubCommunity/LinkFree/commit/3644e729c22de061d1fb5172bd9d23d7c429227a))
-
-
-
-## [0.72.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.3...v0.72.4) (2022-09-02)
-
-
-### Bug Fixes
-
-* viktorcodes ([#1609](https://github.com/EddieHubCommunity/LinkFree/issues/1609)) ([5de1e3b](https://github.com/EddieHubCommunity/LinkFree/commit/5de1e3bfa3ad8b9368f170cdcc30ac991cf06fa6))
 
 
 
