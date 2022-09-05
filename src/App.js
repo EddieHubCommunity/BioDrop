@@ -16,7 +16,7 @@ import user from './config/user.json'
 function App() {
   return (
     <Router>
-      <div className="m-2 md:m-4">
+      <div className="p-2 md:p-4 max-h-screen">
         {user.username && <User singleUser={user} />}
         {!user.username && (
           <Switch>

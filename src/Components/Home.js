@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Home.css'
 
 import Navbar from './Navbar'
 import GetIcons from './Icons/GetIcons'
@@ -33,7 +34,7 @@ function Home() {
         </p>
         <p className="text-center">
           <img
-            className="max-w-screen"
+            className="max-w-full"
             src="/mockup.png"
             alt="An Example of the LinkFree app on Apple devices"
           />

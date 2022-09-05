@@ -1,45 +1,45 @@
-## [0.70.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.0...v0.70.1) (2022-07-13)
+## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
 
 
 ### Bug Fixes
 
-* move menubar in header ([#1457](https://github.com/EddieHubCommunity/LinkFree/issues/1457)) ([683b8e8](https://github.com/EddieHubCommunity/LinkFree/commit/683b8e8d886ca1632d869caaaaf2d4efcdb45f05))
+* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
 
 
 
-# [0.70.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.5...v0.70.0) (2022-07-13)
+## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+
+
+### Bug Fixes
+
+* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+
+
+
+## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+
+
+### Bug Fixes
+
+* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
+
+
+
+# [0.73.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.5...v0.73.0) (2022-09-02)
 
 
 ### Features
 
-* tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
+* linkfree-cli support ([#1695](https://github.com/EddieHubCommunity/LinkFree/issues/1695)) ([d553c96](https://github.com/EddieHubCommunity/LinkFree/commit/d553c965568ebc6dfa8fe3a8b004095fbb9fe3ba))
 
 
 
-## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
-
-
-### Bug Fixes
-
-* share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
-
-
-
-## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
+## [0.72.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.4...v0.72.5) (2022-09-02)
 
 
 ### Bug Fixes
 
-* kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
-
-
-
-## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
-
-
-### Bug Fixes
-
-* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
+* run prettier for data files ([#1713](https://github.com/EddieHubCommunity/LinkFree/issues/1713)) ([3644e72](https://github.com/EddieHubCommunity/LinkFree/commit/3644e729c22de061d1fb5172bd9d23d7c429227a))
 
 
 
