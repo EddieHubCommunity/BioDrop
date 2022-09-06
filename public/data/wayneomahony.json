@@ -1,0 +1,27 @@
+{
+  "name": "Wayne O'Mahony",
+  "type": "personal",
+  "bio": "Open Source Newbie!",
+  "avatar": "https://github.com/wayneomahony.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/wayneomahony",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sumosaurus",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Submitted MSc Thesis",
+      "date": "September 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Submitted MSc Thesis"
+    }
+  ]
+}
