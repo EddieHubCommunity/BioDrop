@@ -61,7 +61,7 @@ workflows:
     if:
       - rule: $hasFilePattern("public/data/**")
     then:
-      - '$addLabel("chore: profile-adition")'
+      - '$addLabel("✍ chore: profile addition")'
 
   - name: chore-profile-addition
     description: Automates profile addition
