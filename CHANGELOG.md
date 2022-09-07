@@ -1,3 +1,12 @@
+## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
+
+
+### Bug Fixes
+
+* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
+
+
+
 ## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * linkfree-cli support ([#1695](https://github.com/EddieHubCommunity/LinkFree/issues/1695)) ([d553c96](https://github.com/EddieHubCommunity/LinkFree/commit/d553c965568ebc6dfa8fe3a8b004095fbb9fe3ba))
-
-
-
-## [0.72.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.4...v0.72.5) (2022-09-02)
-
-
-### Bug Fixes
-
-* run prettier for data files ([#1713](https://github.com/EddieHubCommunity/LinkFree/issues/1713)) ([3644e72](https://github.com/EddieHubCommunity/LinkFree/commit/3644e729c22de061d1fb5172bd9d23d7c429227a))
 
 
 
