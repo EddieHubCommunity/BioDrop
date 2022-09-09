@@ -5,6 +5,11 @@
 > - To add your profile use the `main` branch
 > - To add new features use `nextjs` as we are migrating from React to NextJS
 
+> **Warning**
+>
+> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+
+
 # LinkFree by EddieHub
 
 - LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
@@ -42,7 +47,7 @@ Before contributing or adding a new feature, please make sure you have already i
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project
+2. Clone the project by running `git clone https://github.com/<your-username>/LinkFree.git`
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm ci`
 5. Run `npm start`
