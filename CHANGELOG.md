@@ -1,3 +1,12 @@
+## [0.73.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.5...v0.73.6) (2022-09-09)
+
+
+### Bug Fixes
+
+* dunnjacoba milestones ([#1740](https://github.com/EddieHubCommunity/LinkFree/issues/1740)) ([42371d3](https://github.com/EddieHubCommunity/LinkFree/commit/42371d3b8ae86e9253f5869b2c9dab9629869686))
+
+
+
 ## [0.73.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.4...v0.73.5) (2022-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
-
-
-
-## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
-
-
-### Bug Fixes
-
-* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
 
 
 
