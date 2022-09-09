@@ -1,45 +1,45 @@
-## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
+## [0.73.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.4...v0.73.5) (2022-09-08)
 
 
 ### Bug Fixes
 
-* Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
+* github sponsors ([#1725](https://github.com/EddieHubCommunity/LinkFree/issues/1725)) ([526a22f](https://github.com/EddieHubCommunity/LinkFree/commit/526a22f15b38976b11907f10218ce0525a3353e7))
 
 
 
-## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
-
-
-### Bug Fixes
-
-* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
-
-
-
-## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
+## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
 
 
 ### Bug Fixes
 
-* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
+* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
 
 
 
-## [0.70.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.14...v0.70.15) (2022-08-04)
-
-
-### Bug Fixes
-
-* lubnafathima more data ([#1571](https://github.com/EddieHubCommunity/LinkFree/issues/1571)) ([e425573](https://github.com/EddieHubCommunity/LinkFree/commit/e4255732491582d3aa4c0dc2a133b2489fc9ea6e))
-
-
-
-## [0.70.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.13...v0.70.14) (2022-08-03)
+## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
 
 
 ### Bug Fixes
 
-* Update vedanshi555 username ([#1563](https://github.com/EddieHubCommunity/LinkFree/issues/1563)) ([0247cf3](https://github.com/EddieHubCommunity/LinkFree/commit/0247cf3a7f1af2f2af1f44a30b0e633d7de5030a))
+* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
+
+
+
+## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+
+
+### Bug Fixes
+
+* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+
+
+
+## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+
+
+### Bug Fixes
+
+* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
 
 
 

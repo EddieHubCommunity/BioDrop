@@ -1,9 +1,14 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)  ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)  ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
 
 > **Note**
 >
 > - To add your profile use the `main` branch
 > - To add new features use `nextjs` as we are migrating from React to NextJS
+
+> **Warning**
+>
+> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+
 
 # LinkFree by EddieHub
 
@@ -42,7 +47,7 @@ Before contributing or adding a new feature, please make sure you have already i
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project
+2. Clone the project by running `git clone https://github.com/<your-username>/LinkFree.git`
 3. Navigate to the project directory `cd LinkFree`
 4. Install dependencies with `npm ci`
 5. Run `npm start`
@@ -70,7 +75,7 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
-(note: add/remove `links` objects to customise your profile, `milestones` are optional)
+> **Note**: add/remove `links` objects to customise your profile, `milestones` are optional
 
 ```json
 {
