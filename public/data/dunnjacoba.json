@@ -41,6 +41,14 @@
       "color": "grey",
       "description": "Contributed to the expo/snack repo, addressing issue #278",
       "url": "https://github.com/expo/snack"
+    },
+    {
+      "title": "Contributed to react-bootstrap",
+      "date": "September 2022",
+      "icon": "github",
+      "color": "grey",
+      "description": "Merged into main on react-bootstrap",
+      "url": "https://github.com/react-bootstrap/react-bootstrap/pull/6438"
     }
   ]
 }
