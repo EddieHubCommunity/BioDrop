@@ -13,6 +13,34 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/izzarzn",
       "icon": "twitter"
+    },
+    {
+      "name": "Check out my website",
+      "url": "izzarzn.github.io",
+      "icon": "globe"
     }
-  ] 
+  ],
+  "milestones": [
+    {
+      "title": "Started Engineering",
+      "date": "November 2020",
+      "icon": "linkedin",
+      "color": "red",
+      "description": "Started Problem Solving "
+    },
+    {
+      "title": "Started Open Source",
+      "date": "December 2020",
+      "icon": "GitHub",
+      "color": "green",
+      "description": "Started Contibuting To Beginner friendly Issues"
+    },
+    {
+      "title": "Learning Blockchain Development",
+      "date": "December 2021",
+      "icon": "Globe",
+      "color": "orange",
+      "description": "Reading FASTapi Docs!"
+    }
+  ]
 }
