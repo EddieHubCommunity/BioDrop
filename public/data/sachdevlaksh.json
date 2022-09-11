@@ -29,7 +29,7 @@
       "description": "Unenumerated hours of playing games on computer."
     },
     {
-      "title": "Joined Dual Degree B.Tech + M.Tech course in Electronics + VLSI. ",
+      "title": "Joined Dual Degree B.Tech + M.Tech course in Electronics + VLSI.",
       "date": "July 2010",
       "icon": "graduation-hat",
       "color": "#699cf7",
@@ -40,7 +40,7 @@
       "date": "March 2011",
       "icon": "book",
       "color": "#dadbe7",
-      "description": "At age 20 got book about Ansi C, started coding simple hello world programs. "
+      "description": "At age 20 got book about Ansi C, started coding simple hello world programs."
     },
     {
       "title": "Moved to BLR. Got Placed in Cognizant as Program Analyst Trainee",
@@ -54,7 +54,7 @@
       "date": "Aug 2019 - present",
       "icon": "dev.to",
       "color": "#3d0fbd",
-      "description": "Started work at Infosys as a power programmer, developed complex applications for Goverment Income Tax Dept. Tech stack: Java, Spring MVC, Postgres, Docker, Kafka"
+      "description": "Started work at Infosys as a power programmer, developed complex applications for Goverment Income Tax Dept. Tech stack: Java, Spring MVC, Postgres, Docker, Kafka."
     }
   ]
 }
