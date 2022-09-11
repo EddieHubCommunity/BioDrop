@@ -1,3 +1,12 @@
+# [0.74.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.6...v0.74.0) (2022-09-11)
+
+
+### Features
+
+* modified LABEL as Docker official documentation ([#1657](https://github.com/EddieHubCommunity/LinkFree/issues/1657)) ([c909560](https://github.com/EddieHubCommunity/LinkFree/commit/c9095608288e5421c51681225681ad2c3c477630))
+
+
+
 ## [0.73.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.5...v0.73.6) (2022-09-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
-
-
-
-## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
-
-
-### Bug Fixes
-
-* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
 
 
 
