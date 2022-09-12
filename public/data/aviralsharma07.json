@@ -20,14 +20,14 @@
       "icon": "linkedin"
     },
     {
-        "name": "The Curiosity Journal-Blog",
-        "url": "https://medium.com/@thecuriosityjournal",
-        "icon": "medium"
+      "name": "The Curiosity Journal-Blog",
+      "url": "https://medium.com/@thecuriosityjournal",
+      "icon": "medium"
     },
     {
-        "name": "Hashnode-Blog",
-        "url": "https://aviralsharma.hashnode.dev/",
-        "icon": "hashnode"
+      "name": "Hashnode-Blog",
+      "url": "https://aviralsharma.hashnode.dev/",
+      "icon": "hashnode"
     }
   ]
-}  
+}
