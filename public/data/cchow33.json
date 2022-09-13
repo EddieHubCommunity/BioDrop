@@ -1,0 +1,21 @@
+{
+  "name": "Carmen Chow",
+  "type": "personal",
+  "bio": "Aspiring FE Dev!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/cchow33",
+      "icon": "github"
+    },
+  ],
+  "milestones": [
+    {
+      "title": "Decided to join a bootcamp",
+      "date": "October 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Looking forward to accelerating my learning!",
+    }
+  ]
+}
