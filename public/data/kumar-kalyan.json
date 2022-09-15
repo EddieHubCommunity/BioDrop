@@ -46,6 +46,13 @@
       "icon": "book",
       "color": "red",
       "description": "Started leading the technical communities as a student leader"
+    },
+    {
+      "title": "Became Google DSC Lead",
+      "date": "August 2022",
+      "icon": "book",
+      "color": "red",
+      "description": "As a chapter lead I am helping everyone to grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and communites"
     }
   ]
 }
