@@ -1,3 +1,12 @@
+## [0.74.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.0...v0.74.1) (2022-09-15)
+
+
+### Bug Fixes
+
+* links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
+
+
+
 # [0.74.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.6...v0.74.0) (2022-09-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
-
-
-
-## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
-
-
-### Bug Fixes
-
-* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
 
 
 
