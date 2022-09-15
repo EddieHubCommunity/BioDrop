@@ -1,3 +1,12 @@
+## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
+
+
+### Bug Fixes
+
+* kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
+
+
+
 # [0.75.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.1...v0.75.0) (2022-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dunnjacoba milestones ([#1740](https://github.com/EddieHubCommunity/LinkFree/issues/1740)) ([42371d3](https://github.com/EddieHubCommunity/LinkFree/commit/42371d3b8ae86e9253f5869b2c9dab9629869686))
-
-
-
-## [0.73.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.4...v0.73.5) (2022-09-08)
-
-
-### Bug Fixes
-
-* github sponsors ([#1725](https://github.com/EddieHubCommunity/LinkFree/issues/1725)) ([526a22f](https://github.com/EddieHubCommunity/LinkFree/commit/526a22f15b38976b11907f10218ce0525a3353e7))
 
 
 
