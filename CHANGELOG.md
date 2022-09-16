@@ -1,3 +1,12 @@
+# [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
+
+
+### Features
+
+* label PR for nextjs ([#1757](https://github.com/EddieHubCommunity/LinkFree/issues/1757)) ([6f6a5bc](https://github.com/EddieHubCommunity/LinkFree/commit/6f6a5bc99c8309d803b551a2fce15d0c80c7818a))
+
+
+
 ## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * modified LABEL as Docker official documentation ([#1657](https://github.com/EddieHubCommunity/LinkFree/issues/1657)) ([c909560](https://github.com/EddieHubCommunity/LinkFree/commit/c9095608288e5421c51681225681ad2c3c477630))
-
-
-
-## [0.73.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.5...v0.73.6) (2022-09-09)
-
-
-### Bug Fixes
-
-* dunnjacoba milestones ([#1740](https://github.com/EddieHubCommunity/LinkFree/issues/1740)) ([42371d3](https://github.com/EddieHubCommunity/LinkFree/commit/42371d3b8ae86e9253f5869b2c9dab9629869686))
 
 
 
