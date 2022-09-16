@@ -1,0 +1,28 @@
+{
+  "name": "Mukul Ojha",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/mukul314.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mukul314",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Mukulsh69645170",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started coding",
+      "date": "December 2020",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started coding",
+      "url": "https://www.eddiejaoude.io/mukul314"
+    }
+  ]
+}
