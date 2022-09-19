@@ -1,3 +1,12 @@
+## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
+
+
+### Bug Fixes
+
+* improved hacktoberfest message ([83bb7d2](https://github.com/EddieHubCommunity/LinkFree/commit/83bb7d2ea24336c73575e55e406c6a5927cdbc4a))
+
+
+
 # [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
-
-
-
-# [0.74.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.6...v0.74.0) (2022-09-11)
-
-
-### Features
-
-* modified LABEL as Docker official documentation ([#1657](https://github.com/EddieHubCommunity/LinkFree/issues/1657)) ([c909560](https://github.com/EddieHubCommunity/LinkFree/commit/c9095608288e5421c51681225681ad2c3c477630))
 
 
 
