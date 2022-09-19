@@ -1,45 +1,45 @@
-## [0.70.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.19...v0.70.20) (2022-08-29)
+# [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
+
+
+### Features
+
+* label PR for nextjs ([#1757](https://github.com/EddieHubCommunity/LinkFree/issues/1757)) ([6f6a5bc](https://github.com/EddieHubCommunity/LinkFree/commit/6f6a5bc99c8309d803b551a2fce15d0c80c7818a))
+
+
+
+## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* why is my profile not visible ([fd74662](https://github.com/EddieHubCommunity/LinkFree/commit/fd74662222fefcc7d5bcdd9c9e7b515eea1152aa))
+* kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
 
 
 
-## [0.70.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.18...v0.70.19) (2022-08-26)
+# [0.75.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.1...v0.75.0) (2022-09-15)
 
 
-### Bug Fixes
+### Features
 
-* Dockerfile npm command ([#1625](https://github.com/EddieHubCommunity/LinkFree/issues/1625)) ([c6eae67](https://github.com/EddieHubCommunity/LinkFree/commit/c6eae67f79813ae567b10c35071d3749423f2378))
-
-
-
-## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
-
-
-### Bug Fixes
-
-* Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
+* border radius card ([#1581](https://github.com/EddieHubCommunity/LinkFree/issues/1581)) ([f8d9139](https://github.com/EddieHubCommunity/LinkFree/commit/f8d9139ccbce66f8060819493094ca692014b5c7))
 
 
 
-## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
+## [0.74.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.0...v0.74.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
+* links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
 
 
 
-## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
+# [0.74.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.6...v0.74.0) (2022-09-11)
 
 
-### Bug Fixes
+### Features
 
-* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
+* modified LABEL as Docker official documentation ([#1657](https://github.com/EddieHubCommunity/LinkFree/issues/1657)) ([c909560](https://github.com/EddieHubCommunity/LinkFree/commit/c9095608288e5421c51681225681ad2c3c477630))
 
 
 

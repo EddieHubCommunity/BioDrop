@@ -32,7 +32,9 @@ function Profile({ profile, username }) {
           <h1 className="mx-2 my-0">{name}</h1>
           <p className="text-2xl font-bold mx-2 my-0">({username})</p>
         </div>
-        <ShareProfile username={username} />
+        <div className="shareprofile-icon">
+          <ShareProfile username={username} />
+        </div>
       </div>
       <div className="flex justify-content-center w-50">
         <p>{bio}</p>
