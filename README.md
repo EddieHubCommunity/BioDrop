@@ -8,13 +8,11 @@
 > **Warning**
 >
 > Your profile will need to be deployed to appear, we try to collect a few together before deploying
-
-> **Warning**
 >
-> A note for Hacktoberfest participants:
-> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
+> ### A note for Hacktoberfest participants:
+> 
+> - Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+> - Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
 
 # LinkFree by EddieHub
 
