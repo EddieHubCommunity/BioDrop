@@ -9,6 +9,12 @@
 >
 > Your profile will need to be deployed to appear, we try to collect a few together before deploying
 
+> **Warning**
+>
+> A note for Hacktoberfest participants:
+> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+>
+> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
 
 # LinkFree by EddieHub
 
@@ -16,18 +22,6 @@
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
-
-<details close>
-  <summary><span style="font-size: 24px; font-weight: 700;">Note for Hacktoberfest </span></summary>
-  <br>
-
-**Warning**: A note for Hacktoberfest participants:
-
-> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
-
-</details>
 
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
 

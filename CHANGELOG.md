@@ -1,45 +1,45 @@
-## [0.73.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.4...v0.73.5) (2022-09-08)
+## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
 
 
 ### Bug Fixes
 
-* github sponsors ([#1725](https://github.com/EddieHubCommunity/LinkFree/issues/1725)) ([526a22f](https://github.com/EddieHubCommunity/LinkFree/commit/526a22f15b38976b11907f10218ce0525a3353e7))
+* improved hacktoberfest message ([83bb7d2](https://github.com/EddieHubCommunity/LinkFree/commit/83bb7d2ea24336c73575e55e406c6a5927cdbc4a))
 
 
 
-## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
+# [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
 
 
-### Bug Fixes
+### Features
 
-* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
-
-
-
-## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
-
-
-### Bug Fixes
-
-* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
+* label PR for nextjs ([#1757](https://github.com/EddieHubCommunity/LinkFree/issues/1757)) ([6f6a5bc](https://github.com/EddieHubCommunity/LinkFree/commit/6f6a5bc99c8309d803b551a2fce15d0c80c7818a))
 
 
 
-## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+* kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
 
 
 
-## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+# [0.75.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.1...v0.75.0) (2022-09-15)
+
+
+### Features
+
+* border radius card ([#1581](https://github.com/EddieHubCommunity/LinkFree/issues/1581)) ([f8d9139](https://github.com/EddieHubCommunity/LinkFree/commit/f8d9139ccbce66f8060819493094ca692014b5c7))
+
+
+
+## [0.74.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.0...v0.74.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
+* links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
 
 
 

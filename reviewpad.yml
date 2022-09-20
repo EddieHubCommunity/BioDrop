@@ -2,14 +2,14 @@ api-version: reviewpad.com/v3.x
 
 labels:
   small:
-    description: "Pull request with less than 10 changed lines"
-    color: "294b69"
+    description: 'Pull request with less than 10 changed lines'
+    color: '294b69'
   medium:
-    description: "Pull request with changed lines between 10 and 30"
-    color: "a8c3f7"
+    description: 'Pull request with changed lines between 10 and 30'
+    color: 'a8c3f7'
   large:
-    description: "Pull request with more than 30 changed lines"
-    color: "8a2138"
+    description: 'Pull request with more than 30 changed lines'
+    color: '8a2138'
 
 rules:
   - name: check-for-file-name
@@ -21,6 +21,10 @@ rules:
 
   - name: check-for-profile-addition
     spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
+
+  - name: check-for-version2
+    kind: patch
+    spec: $base() == "nextjs"
 
 workflows:
   - name: label-pull-request-with-size
@@ -70,3 +74,11 @@ workflows:
       - rule: check-for-profile-addition
     then:
       - '$addLabel("LGTM")'
+
+  - name: version 2 with nextjs
+    description: Automates v2 label
+    always-run: true
+    if:
+      - rule: check-for-version2
+    then:
+      - '$addLabel("v2")'
