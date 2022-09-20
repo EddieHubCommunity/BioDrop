@@ -1,8 +1,7 @@
 name: Releases
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron:  '00 00 * * *'
 
 jobs:
   changelog:
