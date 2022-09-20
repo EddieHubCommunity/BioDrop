@@ -7,7 +7,7 @@
 
 > **Warning**
 >
-> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+> Your profile will need to be deployed to appear, deployments happen at midnight UTC
 
 > **Warning**
 >
