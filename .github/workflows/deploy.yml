@@ -1,4 +1,4 @@
-name: Build & publish Docker image then deploy
+name: Deploy
 on:
   release:
     types: [published]
