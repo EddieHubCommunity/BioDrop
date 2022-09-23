@@ -5,7 +5,7 @@
   "avatar": "https://github.com/MasterReach1.png",
   "links": [
     {
-      "name": "Follow me here on Github!",
+      "name": "Follow me here on GitHub!",
       "url": "https://github.com/MasterReach1",
       "icon": "github"
     },
@@ -21,7 +21,7 @@
       "date": "October 2013",
       "icon": "book",
       "color": "orange",
-      "description": "Started with Python",
+      "description": "Started with Python"
     },
     {
       "title": "Started coding in college",
