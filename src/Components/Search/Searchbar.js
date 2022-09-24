@@ -17,6 +17,7 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
           name="user"
           id="search-input"
           placeholder="Search user..."
+          autoFocus
         />
       </span>
     </div>

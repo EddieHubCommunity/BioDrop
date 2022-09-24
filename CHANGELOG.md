@@ -1,45 +1,45 @@
-## [0.70.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.0...v0.70.1) (2022-07-13)
+## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
 
 
 ### Bug Fixes
 
-* move menubar in header ([#1457](https://github.com/EddieHubCommunity/LinkFree/issues/1457)) ([683b8e8](https://github.com/EddieHubCommunity/LinkFree/commit/683b8e8d886ca1632d869caaaaf2d4efcdb45f05))
+* improved hacktoberfest message ([83bb7d2](https://github.com/EddieHubCommunity/LinkFree/commit/83bb7d2ea24336c73575e55e406c6a5927cdbc4a))
 
 
 
-# [0.70.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.5...v0.70.0) (2022-07-13)
+# [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
 
 
 ### Features
 
-* tag for community profiles ([#1448](https://github.com/EddieHubCommunity/LinkFree/issues/1448)) ([4cc8a7a](https://github.com/EddieHubCommunity/LinkFree/commit/4cc8a7a90ec869646864d996a23d942cd10e92db))
+* label PR for nextjs ([#1757](https://github.com/EddieHubCommunity/LinkFree/issues/1757)) ([6f6a5bc](https://github.com/EddieHubCommunity/LinkFree/commit/6f6a5bc99c8309d803b551a2fce15d0c80c7818a))
 
 
 
-## [0.69.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.4...v0.69.5) (2022-07-13)
-
-
-### Bug Fixes
-
-* share overlay responsive ([#1443](https://github.com/EddieHubCommunity/LinkFree/issues/1443)) ([f9024ec](https://github.com/EddieHubCommunity/LinkFree/commit/f9024ec999ddf72402ec7dc786fcdbe9d95fadcf))
-
-
-
-## [0.69.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.3...v0.69.4) (2022-07-13)
+## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* kubernetes deploy ([b5a84fa](https://github.com/EddieHubCommunity/LinkFree/commit/b5a84fa9954086c7cd7b75829454e4699b2cd23a))
+* kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
 
 
 
-## [0.69.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.69.2...v0.69.3) (2022-07-13)
+# [0.75.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.1...v0.75.0) (2022-09-15)
+
+
+### Features
+
+* border radius card ([#1581](https://github.com/EddieHubCommunity/LinkFree/issues/1581)) ([f8d9139](https://github.com/EddieHubCommunity/LinkFree/commit/f8d9139ccbce66f8060819493094ca692014b5c7))
+
+
+
+## [0.74.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.0...v0.74.1) (2022-09-15)
 
 
 ### Bug Fixes
 
-* prefer showing full url in docs ([b338487](https://github.com/EddieHubCommunity/LinkFree/commit/b3384879e1aad9db9a39171121ddd2797b2d3ed4))
+* links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
 
 
 

@@ -1,4 +1,18 @@
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) | ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)  ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
+
+> **Note**
+>
+> - To add your profile use the `main` branch
+> - To add new features use `nextjs` as we are migrating from React to NextJS
+
+> **Warning**
+>
+> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+>
+> ### A note for Hacktoberfest participants:
+> 
+> - Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+> - Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
 
 # LinkFree by EddieHub
 
@@ -6,18 +20,6 @@
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
-
-<details close>
-  <summary><span style="font-size: 24px; font-weight: 700;">Note for Hacktoberfest </span></summary>
-  <br>
-
-**Warning**: A note for Hacktoberfest participants:
-
-> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
-
-</details>
 
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
 
@@ -29,7 +31,7 @@ Check out the website: https://linkfree.eddiehub.io
 
 ## 👇 Prerequisites
 
-Before installation, please make sure you have already installed the following tools:
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
@@ -37,9 +39,9 @@ Before installation, please make sure you have already installed the following t
 ## 🛠️ Installation Steps
 
 1. Fork the project
-2. Clone the project
+2. Clone the project by running `git clone https://github.com/<your-username>/LinkFree.git`
 3. Navigate to the project directory `cd LinkFree`
-4. Install dependencies with `npm install`
+4. Install dependencies with `npm ci`
 5. Run `npm start`
 6. Optional: Run the tests with `npm run cypress:run`
 
@@ -65,6 +67,7 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/public/data/kaiwalyakoparkar.json)
 
 Your brand new file should look something similar to this one:
+> **Note**: add/remove `links` objects to customise your profile, `milestones` are optional
 
 ```json
 {

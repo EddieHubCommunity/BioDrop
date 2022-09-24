@@ -12,6 +12,7 @@
     {
       "name": "Personal portfolio website",
       "url": "https://jovanportfolio.netlify.app/",
+     
       "icon": "link"
     },
     {
@@ -40,6 +41,7 @@
       "icon": "graduation-hat",
       "color": "grey",
       "description": "Certificate of Completion",
+
       "url": "https://jovanportfolio.netlify.app/"
     },
     {

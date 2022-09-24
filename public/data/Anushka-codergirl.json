@@ -13,6 +13,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AnushCodergirl",
       "icon": "twitter"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anushka-raj",
+      "icon": "linkedin"
+    },
+    {
+      "name": "View my profile on Peerlist",
+      "url": "https://peerlist.io/anushka",
+      "icon": "globe"
     }
   ],
   "milestones": [
@@ -22,7 +32,7 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing for the first time",
-      "url": "https://anushkaraj.tech/"
+      "url": "https://anushkaraj.me/"
     }
   ]
 }
