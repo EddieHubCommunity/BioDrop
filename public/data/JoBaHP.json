@@ -11,7 +11,8 @@
     },
     {
       "name": "Personal portfolio website",
-      "url": "https://jovan-portfolio.live/",
+      "url": "https://jovanportfolio.netlify.app/",
+
       "icon": "link"
     },
     {
@@ -32,7 +33,7 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing",
-      "url": "https://jovan-portfolio.live/"
+      "url": "https://jovanportfolio.netlify.app/"
     },
     {
       "title": "Java Web Development",
@@ -40,7 +41,8 @@
       "icon": "graduation-hat",
       "color": "grey",
       "description": "Certificate of Completion",
-      "url": "https://jovan-portfolio.live/"
+
+      "url": "https://jovanportfolio.netlify.app/"
     },
     {
       "title": "Basics of Java Development",
@@ -48,7 +50,7 @@
       "icon": "graduation-hat",
       "color": "grey",
       "description": "Certificate of Completion",
-      "url": "https://jovan-portfolio.live/"
+      "url": "https://jovanportfolio.netlify.app/"
     }
   ]
 }
