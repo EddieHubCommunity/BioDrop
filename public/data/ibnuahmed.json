@@ -10,19 +10,19 @@
       "icon": "github"
     },
     {
-      "name": "",
-      "url": "",
-      "icon": ""
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbdiFatah4Ahmed",
+      "icon": "twitter"
     }
   ],
   "milestones": [
     {
-      "title": "",
-      "date": "",
-      "icon": "",
-      "color": "",
-      "description": "",
-      "url": ""
+      "title": "Started working at Golis",
+      "date": "January 2014",
+      "icon": "dollar",
+      "color": "blue",
+      "description": "DevOps Engineer",
+      "url": "https://golistelecom.com/"
     }
   ]
 }
