@@ -10,19 +10,17 @@
       "icon": "github"
     },
     {
-      "name": "",
-      "url": "",
-      "icon": ""
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AhmedSilat3",
+      "icon": "twitter"
     }
   ],
   "milestones": [
     {
-      "title": "",
-      "date": "",
-      "icon": "",
-      "color": "",
-      "description": "",
-      "url": ""
+      "title": "Open Source",
+      "date": "26th September 2022",
+      "icon": "book", 
+      "description": "Made my first ever Open Source Contribution"
     }
   ]
 }
