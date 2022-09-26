@@ -1,3 +1,12 @@
+## [0.76.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.1...v0.76.2) (2022-09-26)
+
+
+### Bug Fixes
+
+* jessiebelle ([#1802](https://github.com/EddieHubCommunity/LinkFree/issues/1802)) ([67346fe](https://github.com/EddieHubCommunity/LinkFree/commit/67346fe2be2276654a33eeb0548e136b8ec0a21e))
+
+
+
 ## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * border radius card ([#1581](https://github.com/EddieHubCommunity/LinkFree/issues/1581)) ([f8d9139](https://github.com/EddieHubCommunity/LinkFree/commit/f8d9139ccbce66f8060819493094ca692014b5c7))
-
-
-
-## [0.74.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.0...v0.74.1) (2022-09-15)
-
-
-### Bug Fixes
-
-* links property is now optional ([#1458](https://github.com/EddieHubCommunity/LinkFree/issues/1458)) ([46f1cf8](https://github.com/EddieHubCommunity/LinkFree/commit/46f1cf80e646de2673ed5243b6ec591eb9a91bd4))
 
 
 
