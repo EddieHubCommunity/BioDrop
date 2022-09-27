@@ -12,8 +12,12 @@ labels:
     color: '8a2138'
 
 rules:
+  - name: check-for-profile
+    description: Checks for profile changed
+    spec: $hasFilePattern("public/data/**")
+
   - name: check-for-file-name
-    description: Checks for the correct name
+    description: Checks for the correct author
     spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
 
   - name: modifies-only-one-file
@@ -82,3 +86,12 @@ workflows:
       - rule: check-for-version2
     then:
       - '$addLabel("v2")'
+
+  - name: hacktoberfest exclude
+    description: Exclude pull requests from Hacktoberfest that are profile changes
+    always-run: true
+    if:
+      - rule: check-for-profile
+    then:
+      - '$addLabel("hacktoberfest-invalid")'
+      - '$commentOnce("Thank you for adding/editing your profile. Note this will not be included as part of Hacktoberfest.")'
