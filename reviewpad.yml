@@ -94,3 +94,4 @@ workflows:
       - rule: check-for-profile
     then:
       - '$addLabel("hacktoberfest-invalid")'
+      - '$commentOnce("Thank you for adding/editing your profile. Note this will not be included as part of Hacktoberfest.")'
