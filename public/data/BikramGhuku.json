@@ -1,0 +1,17 @@
+{
+    "name": "YOUR NAME",
+    "type": "personal",
+    "bio": "Open Source Enthusiast!",
+    "avatar": "https://github.com/Bikram-Ghuku.png",
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/Bikram-ghuku.png",
+        "icon": "github"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/BikramGhuku",
+        "icon": "twitter"
+      }
+    ]
