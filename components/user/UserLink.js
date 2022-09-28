@@ -17,7 +17,7 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       // TODO: link not found
       console.log("ERROR link not found ", e);
     }
-    router.push(`${link.url}`)
+    router.push(link.url)
   };
 
   return (
