@@ -1,3 +1,12 @@
+## [0.76.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.2...v0.76.3) (2022-09-28)
+
+
+### Bug Fixes
+
+* updated discord text ([c83f4c4](https://github.com/EddieHubCommunity/LinkFree/commit/c83f4c40ecce6c5a269d922bf179a46c55627c9a))
+
+
+
 ## [0.76.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.1...v0.76.2) (2022-09-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
-
-
-
-# [0.75.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.74.1...v0.75.0) (2022-09-15)
-
-
-### Features
-
-* border radius card ([#1581](https://github.com/EddieHubCommunity/LinkFree/issues/1581)) ([f8d9139](https://github.com/EddieHubCommunity/LinkFree/commit/f8d9139ccbce66f8060819493094ca692014b5c7))
 
 
 
