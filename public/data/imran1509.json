@@ -10,19 +10,29 @@
       "icon": "github"
     },
     {
-      "name": "",
-      "url": "",
-      "icon": ""
-    }
-  ],
-  "milestones": [
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/mohdimran1995/",
+      "icon": "linkedin"
+    },
     {
-      "title": "",
-      "date": "",
-      "icon": "",
-      "color": "",
-      "description": "",
-      "url": ""
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/codenameimmy",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://imransaifi.hashnode.dev/",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Follow and read my blog on Dev.to",
+      "url": "https://dev.to/imransaifi",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/codenameimmy/",
+      "icon": "instagram"
     }
   ]
 }
