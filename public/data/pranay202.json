@@ -4,31 +4,31 @@
   "bio": "I'm a full stack MERN developer and an open-source enthusiast specializing in building exceptional digital experiences. Currently focused on building responsive full stack web applications.",
   "avatar": "https://github.com/pranay202.png",
   "links": [
-  {
+    {
       "name": "Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/pranay-kharabe-b01456207/",
       "icon": "linkedin"
-  },
-  {
+    },
+    {
       "name": "Connect on GitHub",
       "url": "https://github.com/pranay202",
       "icon": "github"
-  },
-  {
+    },
+    {
       "name": "Connect on Discord",
       "url": "https://discord.com/channels/@me/KharabePranay#9791",
       "icon": "discord"
-  },
-  {
+    },
+    {
       "name": "Connect on Twitter",
       "url": "https://twitter.com/kharabePranay23",
       "icon": "twitter"
-  },
-  {
+    },
+    {
       "name": "Connect on Instagram",
       "url": "https://www.instagram.com/dev_root_/",
       "icon": "instagram"
-  }
+    }
   ],
   "milestones": [
     {
