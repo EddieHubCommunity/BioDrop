@@ -1,0 +1,28 @@
+{
+  "name": "Ilyas Rufai",
+  "type": "personal",
+  "bio": "DevOps Engineer & Open Source Enthusiast!",
+  "avatar": "https://avatars.githubusercontent.com/u/69714197?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rufilboy",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rufilboy",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started blog",
+      "date": "September 2022",
+      "icon": "blog",
+      "color": "grey",
+      "description": "Started blog",
+      "url": "https://rufilboy.substack.com/"
+    }
+  ]
+}
