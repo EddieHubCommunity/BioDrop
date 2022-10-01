@@ -18,22 +18,16 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/jfukai",
       "icon": "linkedin"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Enters Japanese Language School in Chiba, Japan",
-      "date": "June 2010",
-      "icon": "graduation-hat",
-      "color": "pink",
-      "description": "Entered Asahi International School"
     },
     {
-      "title": "Started working as a Software Engineer in Tokyo",
-      "date": "April 2014",
-      "icon": "dollar",
-      "color": "green",
-      "description": "Started working in Japan"
-    }
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aviehere/",
+      "icon": "instagram"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/channel/UC72dLWZcAjStrSq-FWHg2Lw",
+      "icon": "youtube"
+    }    
   ]
 }
