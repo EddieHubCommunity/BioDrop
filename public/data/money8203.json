@@ -2,7 +2,7 @@
   "name": "Manish Tyagi ",
   "type": "Personal",
   "bio": "Open Source Enthusiast",
- "avatar": "https://github.com/money8203.png",
+  "avatar": "https://github.com/money8203.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -10,7 +10,6 @@
       "icon": "github"
     },
     {
-
       "name": "Lets connect on LinkedIn",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
       "icon": "LinkedIn"
@@ -22,4 +21,3 @@
     }
   ]
 }
-
