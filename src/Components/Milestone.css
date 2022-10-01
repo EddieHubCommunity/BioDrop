@@ -18,6 +18,10 @@
   border-radius: 1rem;
 }
 
+.p-card:hover {
+  transform: scale(1.03);
+}
+
 .p-timeline {
   width: 60rem;
 }
