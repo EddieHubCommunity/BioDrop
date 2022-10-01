@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: true, 
   images: {
     domains: [
       "github.com",
@@ -8,7 +8,9 @@ const nextConfig = {
       "user-images.githubusercontent.com",
       "cdn.nhcarrigan.com",
     ],
+    formats: ['image/webp']
   },
+  compress: true,
 };
 
 module.exports = nextConfig;
