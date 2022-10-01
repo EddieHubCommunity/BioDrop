@@ -4,3 +4,7 @@ build
 .git
 .gitignore
 Dockerfile
+*.md
+kubernetes
+reviewpad.yml
+cypress.json
