@@ -5,7 +5,8 @@ build
 .github
 .gitignore
 Dockerfile
-*.md
+CHANGELOG.md
+CODE_OF_CONDUCT.md
 kubernetes
 reviewpad.yml
 cypress.json
