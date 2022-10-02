@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
@@ -19,7 +19,7 @@ function App() {
       <div className="p-2 md:p-4 max-h-screen">
         {user.username && <User singleUser={user} />}
         {!user.username && (
-          <Switch>
+          <Routes>
             <Route path="/search">
               <Search />
             </Route>
@@ -29,7 +29,7 @@ function App() {
             <Route path="/">
               <Home />
             </Route>
-          </Switch>
+          </Routes>
         )}
         <Footer />
       </div>
