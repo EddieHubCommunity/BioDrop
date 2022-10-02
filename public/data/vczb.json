@@ -18,6 +18,11 @@
       "name": "Find me at LinkedIn",
       "url": "https://www.linkedin.com/in/viniciuszucatti",
       "icon": "linkedin"
+    },
+    {
+      "name": "Visit my Behance",
+      "url": "https://www.behance.net/vczb",
+      "icon": "behance"
     }
   ]
 }
