@@ -30,9 +30,9 @@
       "icon": "youtube"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
-      "icon": "linkedin"
+      "name": "Watch behind the scenes on my 2nd YouTube channel (shorts)",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "youtube"
     },
     {
       "name": "Join my Open Source community EddieHub on Discord",
@@ -53,6 +53,11 @@
       "name": "Customising your GitHub Profile course (free)",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
