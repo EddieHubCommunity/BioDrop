@@ -1,3 +1,12 @@
+## [0.76.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.5...v0.76.6) (2022-10-03)
+
+
+### Bug Fixes
+
+* improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
+
+
+
 ## [0.76.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.4...v0.76.5) (2022-10-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * jessiebelle ([#1802](https://github.com/EddieHubCommunity/LinkFree/issues/1802)) ([67346fe](https://github.com/EddieHubCommunity/LinkFree/commit/67346fe2be2276654a33eeb0548e136b8ec0a21e))
-
-
-
-## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
-
-
-### Bug Fixes
-
-* improved hacktoberfest message ([83bb7d2](https://github.com/EddieHubCommunity/LinkFree/commit/83bb7d2ea24336c73575e55e406c6a5927cdbc4a))
 
 
 
