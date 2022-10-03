@@ -38,10 +38,10 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="bg-gray-50 mb-8 drop-shadow-md">
+        <div className="bg-gray-50 mb-8 drop-shadow-md dark:bg-gray-900">
           <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-              <span className="block">
+              <span className="block dark:text-white">
                 Connects your audience with a single link
               </span>
               <span className="block text-indigo-600">Open Source FTW</span>

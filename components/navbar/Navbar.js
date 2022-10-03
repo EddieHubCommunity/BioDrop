@@ -2,9 +2,11 @@ import { useRouter } from "next/router";
 import NavLink from "./NavLink";
 import app from "../../config/app.json";
 import Image from "next/image";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
   const router = useRouter();
+  const { theme, setTheme } = useTheme();
   const primary = [
     {
       name: "Home",
@@ -42,7 +44,7 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden md:flex flex-row">
               <div className="ml-4 flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 relative">
@@ -53,6 +55,17 @@ export default function Navbar() {
                   >
                     GitHub
                   </a>
+                </div>
+                <div className="ml-3 relative">
+                  <button
+                    onClick={() =>
+                      setTheme(() => (theme === "light" ? "dark" : "light"))
+                    }
+                    className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    aria-current="page"
+                  >
+                    {theme === "light" ? "☀️" : "🌙"}
+                  </button>
                 </div>
               </div>
             </div>
@@ -111,14 +124,25 @@ export default function Navbar() {
             ))}
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
-            <div className="flex items-center px-5">
-              <div className="ml-3">
+            <div className="flex items-center justify-between px-5">
+              <div className="flex flex-row items-center">
                 <div className="text-base font-medium leading-none text-white">
                   GitHub
                 </div>
-                <div className="text-sm font-medium leading-none text-gray-400">
+                <div className="text-sm font-medium leading-none text-gray-400 ml-2">
                   v{app.version}
                 </div>
+              </div>
+              <div>
+                <button
+                  onClick={() =>
+                    setTheme(() => (theme === "light" ? "dark" : "light"))
+                  }
+                  className="text-gray-300 bg-gray-700 hover:bg-gray-900 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  aria-current="page"
+                >
+                  {theme === "light" ? "☀️" : "🌙"}
+                </button>
               </div>
             </div>
           </div>
