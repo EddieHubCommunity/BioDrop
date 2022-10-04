@@ -27,20 +27,25 @@
   ],
   "milestones": [
     {
+      "title": "Personal Site",
+      "icon": "computer",
+      "color": "red",
+      "description": "Keep up with my personal projects",
+      "url": "http://www.randyhattab.dev"
+    },
+    {
       "title": "SWE @ ATP",
       "date": "March 2021",
       "icon": "plane",
       "color": "green",
-      "description": "Working on Maintenance and Operations software for the aviation industry",
-      "url": "https://www.randyhattab.dev"
+      "description": "Working on Maintenance and Operations software for the aviation industry"
     },
     {
       "title": "SWE @ Lee Health",
       "date": "March 2020",
       "icon": "racecar",
       "color": "blue",
-      "description": "Created and Automated the report to track COVID vaccinations in SWFL",
-      "url": "https://www.randyhattab.dev"
+      "description": "Created and Automated the report to track COVID vaccinations in SWFL"
     }
   ]
 }
