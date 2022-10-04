@@ -10,19 +10,20 @@
       "icon": "github"
     },
     {
-      "name": "",
-      "url": "",
-      "icon": ""
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/irfana-sulaiman-44a242240/",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
     {
-      "title": "",
-      "date": "",
+      "title": "Full-Stack Developer",
+      "date": "Nov-2019-Present",
       "icon": "",
-      "color": "",
+      "color": "red",
       "description": "",
-      "url": ""
+      "url": "https://irfana-portfolio.herokuapp.com/"
+      
     }
   ]
 }
