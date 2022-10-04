@@ -150,7 +150,7 @@ npm run cypress:run
 
 -Now you are into the LinkFree folder. Now type `git remote -v` ,press enter it will show your origin url.
 
-- Then open VS code by using this command `code `. hit enter.
+- Then open VS code by using this command `code .` hit enter.
 
 - Then select the LinkFree folder -> go to the Public folder -> then go to the Data folder -> Inside this folder create a JSON file, put your all details & stuff. Save it.
 
