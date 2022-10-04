@@ -54,7 +54,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
 ## 🎭 To Add Your Profile
 
