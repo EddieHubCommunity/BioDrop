@@ -7,7 +7,7 @@
     {
       "name": "Personal / Blog Website",
       "url": "http://kiritocode1.github.io/",
-      "icon": "link"
+      "icon": "Blog"
     },
     {
       "name": "Do give me a follow on my  Github :) ",
@@ -19,9 +19,6 @@
       "url": "https://twitter.com/kiritotwt1",
       "icon": "twitter"
     },
-
-
-
 
     {
       "name": "Donate to me on GitHub Sponsors",
@@ -36,24 +33,22 @@
     }
   ],
   "milestones": [
-            {
+    {
       "title": "Backend Engineer for a remote startup ",
       "date": "September 2022",
       "icon": "dollar",
       "color": "blue",
       "description": "Found eddiehub , comclassroom , odinproject and a lot of others ",
       "url": "https://kiritocode1.github.io"
-    }
-    ,
-        {
+    },
+    {
       "title": " Actively Contributing on github  ",
       "date": "Janauary 2022",
       "icon": "github",
       "color": "black",
       "description": "Found eddiehub , comclassroom , odinproject and a lot of others ",
       "url": "https://kiritocode1.github.io"
-    }
-    ,
+    },
     {
       "title": "Fullstack Intership @ Devtown ",
       "date": "November 2021",
@@ -61,8 +56,8 @@
       "color": "red",
       "description": "Started working again",
       "url": "https://kiritocode1.github.io"
-    }
-    ,{
+    },
+    {
       "title": "Started Coding",
       "date": "May 2021",
       "icon": "dollar",
@@ -70,6 +65,5 @@
       "description": "Started with python",
       "url": "https://kiritocode1.github.io"
     }
-    
   ]
 }
