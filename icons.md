@@ -1,3 +1,7 @@
+# Icons
+
+To use an icon, be sure to use the correct code in the `usage` column, not any other column.
+
 |   Socials   |    Usage    | Icons                                                                                                                                                        |    Socials     |     Usage      | Icons                                                                                                                                   |
 | :---------: | :---------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------: | :------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
 |   Android   |   android   | <img src="https://user-images.githubusercontent.com/65664185/138502465-89cfadf2-6b54-4f3d-ac44-ceacdd4824ba.png" width=65% height=30%>                       |     Apple      |     apple      | <img src="https://user-images.githubusercontent.com/65664185/138502540-8e9b80bf-deae-4566-a41a-c63623e83c21.png" width=100% height=30%> |

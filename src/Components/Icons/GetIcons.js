@@ -77,6 +77,7 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaGitlab {...restProps} />
     case 'globe':
       return <FaGlobe {...restProps} />
+    case 'Graduation Hat':
     case 'graduation-hat':
       return <FaGraduationCap {...restProps} />
     case 'hackerrank':
