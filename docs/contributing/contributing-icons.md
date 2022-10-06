@@ -12,6 +12,8 @@ You can run the following command to clone the forked repo locally (You must hav
 git clone https://github.com/<your-github-username>/LinkFree
 ```
 
+Replace `<your-github-username>` with your GitHub username.
+
 ## How to add icons
 
 To add icons, you need to modify three files: [GetIcons.js](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/Components/Icons/GetIcons.js), [icons.md](https://github.com/EddieHubCommunity/LinkFree/blob/main/icons.md), [links.json](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/config/links.json).
