@@ -22,7 +22,7 @@ The `icons.md` file is the index of all available icons. If you add a new icon, 
 
 The `links.json` file has `validIcons` object which specifies the color codes for the icons. Be sure to add the correct color for the new icon!
 
-## Commiting and pushing the changes
+## Committing and pushing the changes
 
 After you've finished making changes, you need to commit and push those first. 
 If you've cloned the forked repo locally and working on it, run these commands:
