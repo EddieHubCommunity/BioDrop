@@ -34,7 +34,7 @@
 
 **1.** Start by making a Fork of the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a>Fork symbol at the top right corner.
 
-Dont forget to uncheck the 'Copy the main branch only' option when forking the repo
+Dont forget to uncheck the 'Copy the main branch only' option when forking the repo.
 
 ![Screenshot 2022-10-05 235606](https://user-images.githubusercontent.com/32553276/194235257-5b53c801-514f-48d9-ba22-31352c24373c.png)
 
