@@ -16,7 +16,7 @@ Replace `<your-github-username>` with your GitHub username.
 
 ## How to add icons
 
-To add icons, you need to modify three files: [GetIcons.js](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/Components/Icons/GetIcons.js), [icons.md](https://github.com/EddieHubCommunity/LinkFree/blob/main/icons.md), [links.json](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/config/links.json).
+To add a new icon, you need to modify the following files: [`GetIcons.js`](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/Components/Icons/GetIcons.js), [`icons.md`](https://github.com/EddieHubCommunity/LinkFree/blob/main/icons.md), and [`links.json`](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/config/links.json).
 
 The `GetIcons.js` file contains the main code that shows the icons on the page. It has a `GetIcons` component which takes a `iconName` prop and returns an icon according to that. You need to add another case inside the switch statement in the component for the new icon.
 
