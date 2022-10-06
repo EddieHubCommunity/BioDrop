@@ -15,9 +15,11 @@ git clone https://github.com/EddieHubCommunity/LinkFree
 ## How to add icons
 
 To add icons, you need to modify three files: [GetIcons.js](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/Components/Icons/GetIcons.js), [icons.md](https://github.com/EddieHubCommunity/LinkFree/blob/main/icons.md), [links.json](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/config/links.json).
+
 The `GetIcons.js` file contains the main code that shows the icons on the page. It has a `GetIcons` component which takes a `iconName` prop and returns an icon according to that. You need to add another case inside the switch statement in the component for the new icon.
 
 The `icons.md` file is the index of all available icons. If you add a new icon, be sure to update this index so that people can see what's the code of the icon and how does it look like.
+
 The `links.json` file has `validIcons` object which specifies the color codes for the icons. Be sure to add the correct color for the new icon!
 
 ## Commiting and pushing the changes
