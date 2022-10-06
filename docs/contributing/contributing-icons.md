@@ -4,9 +4,9 @@ We're glad to know you've decided to contribute!
 You can get started by forking the repo or cloning it locally.
 
 Click on the "Fork" button at the top of the repository and that will take you to the fork creation page. You can select the owner, repo name etc there and create your fork.
-Alternatively, you can start making changes to the original repo and that will automatically create a fork and save changes to it.
+Alternatively, you can start making changes to the original repo on the GitHub website and that will automatically create a fork and save changes to it.
 
-You can run the following command to clone the repo locally (You must have [Git](https://git-scm.com/) installed):
+You can run the following command to clone the repo locally (You must have [Git](https://git-scm.com/) installed, and note that you will not have write access, create a fork to push changes):
 
 ```
 git clone https://github.com/EddieHubCommunity/LinkFree
@@ -23,7 +23,7 @@ The `links.json` file has `validIcons` object which specifies the color codes fo
 ## Commiting and pushing the changes
 
 After you've finished making changes, you need to commit and push those first. 
-If you've cloned the repo locally and working on it, run these commands:
+If you've cloned the forked repo locally and working on it, run these commands:
 
 ```
 git add --all
@@ -31,8 +31,11 @@ git commit -m "feat(icons): new icon"
 git push origin main
 ```
 
-You can of course change the commit message `feat(icons): new icon`.
-Otherwise if you're working on GitHub website, then you can just save the changes that it will commit changes for you. 
+This will push changes to the forked repo.
 
-After all of these, 
-You can go to the LinkFree repository, and click on the Pull Requests tab. Then click "New". It will take you to the creation page. You need to select appropriate repository and branch to compare. Keep the base repo and branch as is. Then click "Create Pull Request". This will create a Pull Request and the maintainers will review the changes and merge it if everything was good, otherwise they might request you to change some things. 
+You can of course change the commit message `feat(icons): new icon`.
+Otherwise if you're working on GitHub website, then you can just save the changes and then it will commit changes for you. 
+
+After all of these, you can go to your forked repo, and click on "Contribute" > "Create Pull Request". This will take you to the Pull Request creation page. Most of the things are automatically adjusted there so most of the times you don't need to change anything there. Then click "Create Pull Request".
+
+This will create a Pull Request and the maintainers will review the changes and merge it if everything was good, otherwise they might request you to change some things. 
