@@ -1,105 +1,40 @@
-export default function handler(req, res) {
-  // TODO: get top 10 active profiles
-  const statistics = [
-    {
-      username: "eddiejaoude",
-      views: 411,
-      links: [
-        {
-          url: "https://github.com/eddiejaoude",
-          clicks: 109,
-        },
-      ],
-    },
-  ];
+import fs from "fs";
+import path from "path";
 
-  // TODO: load matching profiles + merge
-  const profiles = [
-    {
-      username: "eddiejaoude",
-      name: "Eddie Jaoude",
-      type: "personal",
-      bio: "Freelance DevRel | Founder of EddieHub",
-      avatar: "https://github.com/eddiejaoude.png",
-      views: 500,
-      links: [
-        {
-          name: "My business website",
-          url: "http://eddiejaoude.io",
-          icon: "link",
-        },
-        {
-          name: "Inclusive Open Source community EddieHub (Discord, GitHub Org ...)",
-          url: "http://eddiehub.org",
-          icon: "link",
-        },
-        {
-          name: "Follow my Open Source on GitHub",
-          url: "https://github.com/eddiejaoude",
-          icon: "github",
-        },
-        {
-          name: "Follow me on Twitter",
-          url: "https://twitter.com/eddiejaoude",
-          icon: "twitter",
-        },
-        {
-          name: "Learn more about Open Source on my YouTube channel",
-          url: "https://youtube.com/eddiejaoude",
-          icon: "youtube",
-        },
-        {
-          name: "Follow me on LinkedIn",
-          url: "https://linkedin.com/in/eddiejaoude",
-          icon: "linkedin",
-        },
-      ],
-      milestones: [
-        {
-          title: "Started Freelancing",
-          date: "May 2010",
-          icon: "dollar",
-          color: "grey",
-          description: "Started freelancing again",
-          url: "https://www.eddiejaoude.io/",
-        },
-        {
-          title: "Started YouTube",
-          image: "https://github.com/eddiejaoude.png",
-          date: "June 2019",
-          icon: "youtube",
-          color: "red",
-          description: "First real video",
-          url: "https://youtube.com/eddiejaoude",
-        },
-        {
-          title: "GitHub Star",
-          date: "2020",
-          icon: "github",
-          color: "green",
-          description: "Became a GitHub Star with 30 other people",
-          url: "https://github.com/eddiejaoude",
-        },
-        {
-          title: "GitHub Star of the Year",
-          date: "2020",
-          icon: "github",
-          color: "green",
-          description: "Won GitHub Star of the Year out of 55+ million people",
-          url: "https://github.com/eddiejaoude",
-        },
-        {
-          title: "GitHub Nova, Community Growth Award",
-          date: "2021",
-          icon: "github",
-          color: "green",
-          description:
-            "Won for growing the EddieHub Community to over 30k members.",
-          url: "https://github.com/eddiejaoude",
-        },
-      ],
-    },
-  ];
+import connectMongo from "../../../config/mongo";
+import Profile from "../../../models/Profile";
+
+export default async function handler(req, res) {
+  await connectMongo();
+
+  // TODO: get top 10 popular profiles
+  const getProfiles = await Profile.find({});
+
+  // check for db results
+  if (getProfiles.length === 0) {
+    return res.status(404).json({ Error: "No popular profiles found" });
+  }
+
+  const directoryPath = path.join(process.cwd(), "data");
+
+  // merge profiles with their profile views if set to public
+  const profiles = getProfiles.map((profile) => {
+    const user = JSON.parse(
+      fs.readFileSync(
+        path.join(directoryPath, `${profile.username}.json`),
+        "utf8"
+      )
+    );
+
+    if (user.displayStatsPublic) {
+      return {
+        ...user,
+        ...profile._doc,
+      };
+    }
+
+    return user;
+  });
 
   res.status(200).json(profiles);
 }
