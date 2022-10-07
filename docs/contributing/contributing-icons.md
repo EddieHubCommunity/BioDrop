@@ -85,7 +85,7 @@ Then open `icons.md` file and add the new icon name, usage and preview image to 
 |   YouTube   |   `youtube`   | <img src="https://user-images.githubusercontent.com/65664185/138503305-ff60cf54-6b0b-4e18-9446-b4f6869b9511.png" width=65% height=30%>                       |    Spotify     |    `spotify`     | <img src="<icon_preview_url_here>" width="100%" height="30%">                                                                           |
 ```
 
-And that's it!
+And that's it! You can now commit, push, and [submit a PR](htttps://github.com/EddieHubCommunity/LinkFree/compare), and the maintainers will check your PR. 🙂
 
 ## Committing and pushing the changes
 
