@@ -3,28 +3,25 @@
 We're glad to know you've decided to contribute!
 You can get started by forking the repo or cloning it locally.
 
-Click on the "Fork" button at the top of the repository and that will take you to the fork creation page. You can select the owner, repo name etc there and create your fork.
-Alternatively, you can start making changes to the original repo on the GitHub website and that will automatically create a fork and save changes to it.
-
-You can run the following command to clone the forked repo locally (You must have [Git](https://git-scm.com/)):
-
-```
-git clone https://github.com/<your-github-username>/LinkFree
-```
-
-Replace `<your-github-username>` with your GitHub username.
+You can fork the repo by [clicking here](https://github.com/EddieHubCommunity/LinkFree/fork). Then create a branch for the issue that you're working on. After that, commit your changes. For more detailed information, see the [Contribution Guidelines](https://github.com/virtual-designer/LinkFree/blob/patch-4/docs/contributing/CONTRIBUTING.md#-how-to-contribute).
 
 ## How to add icons
 
 To add a new icon, you need to modify the following files: [`GetIcons.js`](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/Components/Icons/GetIcons.js), [`icons.md`](https://github.com/EddieHubCommunity/LinkFree/blob/main/icons.md), and [`links.json`](https://github.com/EddieHubCommunity/LinkFree/blob/main/src/config/links.json).
 
+### What to add in `GetIcons.js`
+
 The `GetIcons.js` file contains the main code that shows the icons on the page. It has a `GetIcons` component which takes a `iconName` prop and returns an icon according to that. You need to add another case inside the switch statement in the component for the new icon.
+
+### What to add in `icons.md`
 
 The `icons.md` file is the index of all available icons. If you add a new icon, be sure to update this index so that people can see what's the code of the icon and how does it look like.
 
+### What to add in `links.json`
+
 The `links.json` file has `validIcons` object which specifies the color codes for the icons. Be sure to add the correct color for the new icon!
 
-For example, if you want to add "Spotify" icon, you will need to add the following import statements at the top of the `GetIcons.js` file:
+1. To add the "Spotify" icon, add the following import statements at the top of the `GetIcons.js` file:
 
 ```js
 import {
@@ -37,9 +34,9 @@ import {
 } from 'react-icons/fa'
 ```
 
-The react icons library provides you icons from some other libraries like Font Awesome, Heroicons, Material Icons, etc. If you want to use them, make sure to use the correct imports! More information about react icons library can be found [here](https://react-icons.github.io/react-icons/).
+The react icons library provides access to icons from several libraries like Font Awesome, Heroicons, Material Icons, etc. To use them, make sure to use the correct imports! More information about react icons library can be found [here](https://react-icons.github.io/react-icons/).
 
-After adding imports, you need to add a new case to the switch statement inside of the `GetIcons` component:
+2. Add a new case to the switch statement in alphabetical order inside of the `GetIcons` component:
 
 ```js
 function GetIcons({ iconName, ...restProps }) {
@@ -57,7 +54,7 @@ function GetIcons({ iconName, ...restProps }) {
 }
 ```
 
-After that open `links.json` file and add a new property to the `validIcons` object. The property name must be same as the icon name (in this case, `spotify`).
+3. Open `links.json` file and add a new property to the `validIcons` object. The property name must be same as the icon name (in this case, `spotify`).
 
 ```json
 {
@@ -68,7 +65,7 @@ After that open `links.json` file and add a new property to the `validIcons` obj
 }
 ```
 
-Then open `icons.md` file and add the new icon name, usage and preview image to the icon table:
+4. Open `icons.md` file and add the new icon name, usage and preview image to the icon table in alphabetical order:
 
 ```markdown
 # Icons
@@ -82,10 +79,12 @@ Then open `icons.md` file and add the new icon name, usage and preview image to 
 
 <!-- ... -->
 
-|   YouTube   |   `youtube`   | <img src="https://user-images.githubusercontent.com/65664185/138503305-ff60cf54-6b0b-4e18-9446-b4f6869b9511.png" width=65% height=30%>                       |    Spotify     |    `spotify`     | <img src="<icon_preview_url_here>" width="100%" height="30%">                                                                           |
-```
 
-And that's it! You can now commit, push, and [submit a PR](htttps://github.com/EddieHubCommunity/LinkFree/compare), and the maintainers will check your PR. 🙂
+|  Snapchat   |  `snapchat`   | <img src="https://user-images.githubusercontent.com/91655303/148160774-755adc38-e089-4a20-910f-292b890e2c63.png" width=65% height=30%>                       |    Spotify     |   `spotify`      | <img src="<icon_preview_url_here>" width="100%" height="30%">                                                                           |      
+
+
+<!-- ... -->
+```
 
 ## Committing and pushing the changes
 
@@ -93,15 +92,27 @@ After you've finished making changes, you need to commit and push those first.
 If you've cloned the forked repo locally and working on it, run these commands:
 
 ```
-git add <files_you_have_changed>
+git add src/config/links.json src/Components/Icons/GetIcons.js icons.md
 git commit -m "<commit_message>"
 git push origin main
 ```
 
 This will push changes to the forked repo.
 
-Otherwise if you're working on GitHub website, then you can just save the changes and then it will commit changes for you. 
+Otherwise if you're working on GitHub website, first make sure that you're on the correct branch. If you don't have one, you can create it while you commit the changes.
 
-After all of these, you can go to your forked repo, and click on "Contribute" > "Create Pull Request". This will take you to the Pull Request creation page. Most of the things are automatically adjusted there so most of the times you don't need to change anything there. Then click "Create Pull Request".
+After that, do the following:
+
+1. Scroll down to the "Commit changes" section at the bottom of the page.
+2. Check if you have the correct branch selected. Otherwise you can click on "Create a new branch and start a pull request" option. This will create a new branch with the changes when you make the commit.
+3. Adjust the commit message.
+4. Click the "Commit Changes" button at the bottom of the page and then it will commit the changes for you.
+
+After all of these, do the following:
+
+1. Go to your forked repo.
+2. Click on "Contribute" > "Create Pull Request". This will take you to the Pull Request creation page. 
+3. Set the "base" branch to "main" and "compare" branch to the branch you're working on. You'll be able to select those branches. These things are automatically adjusted most of the times so you don't need to change anything there. 
+4. Click "Create Pull Request".
 
 This will create a Pull Request and the maintainers will review the changes and merge it if everything was good, otherwise they might request you to change some things. 
