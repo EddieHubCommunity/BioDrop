@@ -1,0 +1,68 @@
+{
+  "name": "Rohit Patil",
+  "type": "personal",
+  "bio": "Blockchain Developer | Web Developer | App Developer ",
+  "avatar": "https://github.com/rohit-raje-786.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rohit-raje-786",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohitraje123",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rohit-patil-576216192/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Dev",
+      "url": "https://dev.to/rohitraje786",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://rohit-patil.netlify.app/",
+      "icon": "globe"
+    },
+    {
+      "name": "Leetcode Profile",
+      "url": "https://leetcode.com/rohitraje/",
+      "icon": "leetcode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Data Structures & Algorithms",
+      "date": "November 2020",
+      "icon": "YouTube",
+      "color": "red",
+      "description": "Started Problem Solving"
+    },
+    {
+      "title": "Started Open Source",
+      "date": "December 2020",
+      "icon": "GitHub",
+      "color": "green",
+      "description": "Started Contibuting To Open Source Projects"
+    },
+    {
+      "title": "Learning Web Development",
+      "date": "January 2021",
+      "icon": "NodeJs",
+      "color": "orange",
+      "description": "Made Some Awesome Projects using MERN"
+    },
+    {
+      "title": "Learning Blockchain Developmen",
+      "date": "August 2022",
+      "icon": "Globe",
+      "color": "blue",
+      "description": "Made Some Awesome Dapps"
+    }
+  ]
+}
