@@ -1,3 +1,12 @@
+# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
+
+
+### Features
+
+* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
+
+
+
 ## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
-
-
-
-## [0.76.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.4...v0.76.5) (2022-10-01)
-
-
-### Bug Fixes
-
-* update hacktoberfest-invalid label to invalid ([#1850](https://github.com/EddieHubCommunity/LinkFree/issues/1850)) ([b20e5a8](https://github.com/EddieHubCommunity/LinkFree/commit/b20e5a86e5904a661b9612ea492d526988d5eda3))
 
 
 
