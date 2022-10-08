@@ -30,6 +30,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/kiritocode1",
       "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/kiritocode1",
+      "icon": "instagram"
     }
   ],
   "milestones": [
