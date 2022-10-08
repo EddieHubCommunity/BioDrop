@@ -1,3 +1,12 @@
+## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
+
+
+### Bug Fixes
+
+* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
+
+
+
 ## [0.76.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.7...v0.76.8) (2022-10-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update hacktoberfest-invalid label to invalid ([#1850](https://github.com/EddieHubCommunity/LinkFree/issues/1850)) ([b20e5a8](https://github.com/EddieHubCommunity/LinkFree/commit/b20e5a86e5904a661b9612ea492d526988d5eda3))
-
-
-
-## [0.76.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.3...v0.76.4) (2022-09-30)
-
-
-### Bug Fixes
-
-* goobric's twitter link ([#1835](https://github.com/EddieHubCommunity/LinkFree/issues/1835)) ([5487a19](https://github.com/EddieHubCommunity/LinkFree/commit/5487a19571a564f6e8e4a05000f909cee3bd9493))
 
 
 
