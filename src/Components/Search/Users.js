@@ -15,7 +15,6 @@ function Users({ list }) {
 
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : '#dee2e6'}`,
-    // border: `${darkTheme ? 'none' : '1px solid black'}`,
     color: `${darkTheme ? 'white' : 'grey'}`,
   }
 
