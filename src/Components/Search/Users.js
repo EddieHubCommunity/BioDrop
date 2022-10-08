@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import { Chip } from 'primereact/chip'
 import { Message } from 'primereact/message'
-
+import { useTheme } from '../../ThemeContext'
 import Searchbar from './Searchbar'
 import ProfileTypeFilter from './filterProfileType'
 
@@ -11,6 +11,12 @@ function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
+  const darkTheme = useTheme()
+
+  const theme = {
+    backgroundColor: `${darkTheme ? '#333333' : '#dee2e6'}`,
+    color: `${darkTheme ? 'white' : 'grey'}`,
+  }
 
   const typeHandler = (value) => {
     setProfileType(value)
@@ -69,6 +75,7 @@ function Users({ list }) {
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
+                style={theme}
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
                 template={
                   <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
