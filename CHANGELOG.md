@@ -1,3 +1,12 @@
+## [0.76.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.7...v0.76.8) (2022-10-08)
+
+
+### Bug Fixes
+
+* GitHub award ([#1923](https://github.com/EddieHubCommunity/LinkFree/issues/1923)) ([44bc07e](https://github.com/EddieHubCommunity/LinkFree/commit/44bc07e62a74f1b0c6a177bc640820c9ff191595))
+
+
+
 ## [0.76.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.6...v0.76.7) (2022-10-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * goobric's twitter link ([#1835](https://github.com/EddieHubCommunity/LinkFree/issues/1835)) ([5487a19](https://github.com/EddieHubCommunity/LinkFree/commit/5487a19571a564f6e8e4a05000f909cee3bd9493))
-
-
-
-## [0.76.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.2...v0.76.3) (2022-09-28)
-
-
-### Bug Fixes
-
-* updated discord text ([c83f4c4](https://github.com/EddieHubCommunity/LinkFree/commit/c83f4c40ecce6c5a269d922bf179a46c55627c9a))
 
 
 
