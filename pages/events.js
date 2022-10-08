@@ -30,12 +30,12 @@ export default function Events({ users }) {
       <div className="flex flex-col px-6 align-center">
         <ul>
           {users.map((user) => {
-            if (user.events != undefined) {
-              const event = user.events
+            if (user.events) {
+              const events = user.events
               return (
-                event.map((eve) => (
-                  <li key={user.username}>
-                    <EventPreview event={ eve } username={ user.username } />
+                events.map((event) => (
+                  <li key={event.name}>
+                    <EventPreview event={ event } username={ user.username } />
                   </li>
                 ))
               )
