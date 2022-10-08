@@ -1,45 +1,45 @@
-## [0.76.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.2...v0.76.3) (2022-09-28)
+## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
 
 
 ### Bug Fixes
 
-* updated discord text ([c83f4c4](https://github.com/EddieHubCommunity/LinkFree/commit/c83f4c40ecce6c5a269d922bf179a46c55627c9a))
+* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
 
 
 
-## [0.76.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.1...v0.76.2) (2022-09-26)
-
-
-### Bug Fixes
-
-* jessiebelle ([#1802](https://github.com/EddieHubCommunity/LinkFree/issues/1802)) ([67346fe](https://github.com/EddieHubCommunity/LinkFree/commit/67346fe2be2276654a33eeb0548e136b8ec0a21e))
-
-
-
-## [0.76.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.0...v0.76.1) (2022-09-19)
+## [0.76.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.7...v0.76.8) (2022-10-08)
 
 
 ### Bug Fixes
 
-* improved hacktoberfest message ([83bb7d2](https://github.com/EddieHubCommunity/LinkFree/commit/83bb7d2ea24336c73575e55e406c6a5927cdbc4a))
+* GitHub award ([#1923](https://github.com/EddieHubCommunity/LinkFree/issues/1923)) ([44bc07e](https://github.com/EddieHubCommunity/LinkFree/commit/44bc07e62a74f1b0c6a177bc640820c9ff191595))
 
 
 
-# [0.76.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.1...v0.76.0) (2022-09-16)
-
-
-### Features
-
-* label PR for nextjs ([#1757](https://github.com/EddieHubCommunity/LinkFree/issues/1757)) ([6f6a5bc](https://github.com/EddieHubCommunity/LinkFree/commit/6f6a5bc99c8309d803b551a2fce15d0c80c7818a))
-
-
-
-## [0.75.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.75.0...v0.75.1) (2022-09-15)
+## [0.76.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.6...v0.76.7) (2022-10-05)
 
 
 ### Bug Fixes
 
-* kumar-kalyan profile updated ([#1724](https://github.com/EddieHubCommunity/LinkFree/issues/1724)) ([a138059](https://github.com/EddieHubCommunity/LinkFree/commit/a138059f089ec4a067d5ecd64fe1689c2b7d1201))
+* graduation icon syntax ([#1890](https://github.com/EddieHubCommunity/LinkFree/issues/1890)) ([ceb0a99](https://github.com/EddieHubCommunity/LinkFree/commit/ceb0a99a1bc5920dddb3875b64bf2d3d4a3c1030))
+
+
+
+## [0.76.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.5...v0.76.6) (2022-10-03)
+
+
+### Bug Fixes
+
+* improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
+
+
+
+## [0.76.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.4...v0.76.5) (2022-10-01)
+
+
+### Bug Fixes
+
+* update hacktoberfest-invalid label to invalid ([#1850](https://github.com/EddieHubCommunity/LinkFree/issues/1850)) ([b20e5a8](https://github.com/EddieHubCommunity/LinkFree/commit/b20e5a86e5904a661b9612ea492d526988d5eda3))
 
 
 

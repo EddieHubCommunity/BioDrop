@@ -1,0 +1,19 @@
+{
+  "name": "Krish Gupta",
+  "type": "personal",
+  "bio": "13 • Dating CSS 💘 • Building with CSS 👷‍♂️ • Writing CSS ✍️ • Getting more and more people into CSS! 🚀",
+  "avatar": "https://github.com/krshkodes.png",
+  "links": [
+    {
+      "name": "Find my work on GitHub! 🐙",
+      "url": "https://github.com/krshkodes",
+      "icon": "github"
+    },
+    {
+      "name": "I write many things on Twitter ✍🏻",
+      "url": "https://twitter.com/krshkodes",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": []
+}
