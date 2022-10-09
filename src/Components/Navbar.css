@@ -2,6 +2,11 @@
   display: none !important;
 }
 
+.theme--button {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 320px) {
   .p-menubar-end {
     font-size: 12px;
