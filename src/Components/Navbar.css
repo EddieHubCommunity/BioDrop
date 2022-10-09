@@ -3,8 +3,8 @@
 }
 
 .theme--button {
-  background-color: transparent;
   border: none;
+  background-color: transparent;
   margin-left: 1rem;
   cursor: pointer;
 }
