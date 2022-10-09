@@ -1,0 +1,40 @@
+{
+  "name": "Favour Arua",
+  "type": "personal",
+  "bio": "Software Engineer and Open Source Enthusiast!",
+  "avatar": "https://github.com/favalcodes.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/favalcodes",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/godwinvalerie1",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedIn.com/in/favalcodes",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started coding",
+      "date": "2019",
+      "icon": "dollar",
+      "color": "black",
+      "description": "Portfolio",
+      "url": "https://www.favalcodes.netlify.app"
+    },
+    {
+      "title": "Started openSource",
+      "date": "October 2022",
+      "icon": "happy",
+      "color": "grey",
+      "description": "My journey on becoming an open source developer started here"
+    }
+  ]
+}
