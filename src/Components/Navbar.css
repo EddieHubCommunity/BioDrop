@@ -5,8 +5,9 @@
 .theme--button {
   border: none;
   background-color: transparent;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   cursor: pointer;
+  margin-right: -0.4rem;
 }
 
 @media screen and (max-width: 320px) {
