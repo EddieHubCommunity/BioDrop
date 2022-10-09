@@ -8,6 +8,10 @@ import { useTheme } from '../ThemeContext'
 function Home() {
   const darkTheme = useTheme()
 
+  const darkModeLinkColor = {
+    color: darkTheme ? '#219ebc' : '#355070',
+  }
+
   return (
     <>
       <header>
@@ -31,9 +35,9 @@ function Home() {
           It is an open-source alternative to Linktree implemented in JavaScript
         </p>
         <p className="text-1xl text-center">
-          See <Link to="/eddiejaoude">Eddie Jaoude&apos;s</Link> profile for an
+          See <Link to="/eddiejaoude"><span style={darkModeLinkColor}>Eddie Jaoude&apos;s</span></Link> profile for an
           example. Want to add your profile? Read the{' '}
-          <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile">
+          <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile" style={darkModeLinkColor}>
             instructions
           </a>
           .
