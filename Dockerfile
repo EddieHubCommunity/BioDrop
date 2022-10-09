@@ -21,4 +21,4 @@ COPY package*.json ./
 RUN npm install --production --ignore-scripts
 COPY . .
 COPY --from=development /usr/src/app/build ./build
-CMD ["npm", "run", "start:prod"]
+CMD ["npm", "start"]

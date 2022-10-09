@@ -1,12 +1,14 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: npm
-    init: npm install
-    command: npm run start
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 3000
-    onOpen: open-browser
+  - name: Install npm depdencies
+    init: npm i
+    command: |
+      gp await-port 27017
+      npm run dev
+  - name: Docker
+    command: |
+      docker-compose up
+
 github:
   prebuilds:
     master: true
@@ -16,3 +18,10 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
+
+image:
+  file: .gitpod.dockerfile
+
+vscode:
+  extensions:
+    - "asciidoctor.asciidoctor-vscode"
