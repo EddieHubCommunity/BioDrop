@@ -21,6 +21,8 @@ The `icons.md` file is the index of all available icons. If you add a new icon, 
 
 The `links.json` file has `validIcons` object which specifies the color codes for the icons. Be sure to add the correct color for the new icon!
 
+## Example of adding an icon
+
 1. To add the "Spotify" icon, add the following import statements at the top of the `GetIcons.js` file:
 
 ```js
