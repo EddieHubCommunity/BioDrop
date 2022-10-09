@@ -1,3 +1,12 @@
+## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
+
+
+### Bug Fixes
+
+* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+
+
+
 # [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * graduation icon syntax ([#1890](https://github.com/EddieHubCommunity/LinkFree/issues/1890)) ([ceb0a99](https://github.com/EddieHubCommunity/LinkFree/commit/ceb0a99a1bc5920dddb3875b64bf2d3d4a3c1030))
-
-
-
-## [0.76.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.5...v0.76.6) (2022-10-03)
-
-
-### Bug Fixes
-
-* improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
 
 
 
