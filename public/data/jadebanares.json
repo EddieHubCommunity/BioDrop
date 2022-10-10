@@ -1,0 +1,23 @@
+{
+  "name": "Jade Bañares",
+  "type": "personal",
+  "bio": "Front-end Web Developer | Traditional Artist",
+  "avatar": "http://github.com/jade-arinal-banares.png",
+  "links": [
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://jade-arinal-banares.vercel.app/",
+      "icon": "globe"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/notifications/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/jade-arinal-banares",
+      "icon": "github"
+    }
+  ]
+}
