@@ -13,20 +13,10 @@
 ### Contribute in Components/CSS
 
 - [React](https://reactjs.org/)
-- [Prime React](https://www.primefaces.org/primereact/)
+- [Next](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
 
 
----
-
-## 💥 How to Contribute
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
-
-- Take a look at the existing [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) or [create a new issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose)!
-- [Fork the Repo](https://github.com/EddieHubCommunity/LinkFree/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a **[Pull Request](https://github.com/EddieHubCommunity/LinkFree/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
-- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
 
 ---
 
@@ -57,6 +47,14 @@ git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
 ```
 
 **5.** Create a new branch:
+
+Switch to the nextjs branch first,
+
+```bash
+git checkout  nextjs
+```
+
+then make a new branch from the nextjs branch.
 
 ```bash
 git checkout -b YourBranchName
@@ -89,13 +87,7 @@ git merge upstream/nextjs
 
 > Instead, stage your changes for each file/folder
 >
-> By using public path it means it will add all files and folders under that folder, it is better to be specific
 
-```bash
-git add public
-```
-
-_or_
 
 ```bash
 git add "<files_you_have_changed>"
@@ -115,29 +107,21 @@ git push origin YourBranchName
 
 **11.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
 
+
+Before making a pull request,make sure to check the base branch is Linkfree/nextjs and not the main branch.
+
+
+![github2](https://user-images.githubusercontent.com/32553276/194803029-4d458b07-f4a0-44cc-b349-1d0b407d361d.png)
+
+
+
 **12.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
 
 **_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
 
 ---
 
-## Run automated tests
 
-After making changes make sure that tests passes
-
-**1.** Start the LinkFree application by typing this command:
-
-```bash
-npm run start
-```
-
-**2.** Perform the tests by typing this command:
-
-```bash
-npm run cypress:run
-```
-
----
 
 ## Style Guide for Git Commit Messages :memo:
 
