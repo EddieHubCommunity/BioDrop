@@ -1,0 +1,23 @@
+{
+   "name": "Mehedi Islam Ripon",
+   "type": "personal",
+   "bio": "Software Developer || Tech Enthusiast || Love to write code",
+   "avatar": "https://avatars.githubusercontent.com/u/51530291",
+   "links": [
+     {
+       "name": "Check out my GitHub",
+       "url": "https://github.com/MehedilslamRipon",
+       "icon": "github"
+     },
+     {
+       "name": "Add me on Facebook",
+       "url": "https://www.facebook.com/mehediislamripon",
+       "icon": "facebook"
+     },
+     {
+       "name": "Connect with me on LinkedIn",
+       "url": "https://www.linkedin.com/in/mehedi-islam-ripon/",
+       "icon": "linkedin"
+     }
+   ]
+ }
