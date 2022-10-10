@@ -1,3 +1,12 @@
+## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
+
+
+### Bug Fixes
+
+* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
+
+
+
 ## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * GitHub award ([#1923](https://github.com/EddieHubCommunity/LinkFree/issues/1923)) ([44bc07e](https://github.com/EddieHubCommunity/LinkFree/commit/44bc07e62a74f1b0c6a177bc640820c9ff191595))
-
-
-
-## [0.76.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.6...v0.76.7) (2022-10-05)
-
-
-### Bug Fixes
-
-* graduation icon syntax ([#1890](https://github.com/EddieHubCommunity/LinkFree/issues/1890)) ([ceb0a99](https://github.com/EddieHubCommunity/LinkFree/commit/ceb0a99a1bc5920dddb3875b64bf2d3d4a3c1030))
 
 
 
