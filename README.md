@@ -2,14 +2,23 @@
 
 ## QUICKSTART
 
+You can use Gitpod in the cloud or you can set this up locally with the following steps
+
 1. copy the `.env.example` file to `.env` and update any details required
 2. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
 3. `npm install`
 4. `npm run dev`
 
+## Storybook
+
+See what components are available
+
+1. `npm run storybook`
+2. navigte to http://localhost:6006
+
 # LinkFree by EddieHub
 
-- LinkFree connects audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
+- LinkFree connects audiences to all of your content with one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
