@@ -39,6 +39,9 @@ function Milestones({ milestones }) {
               <h3 className="vertical-timeline-element-title">
                 {milestone.title}
               </h3>
+              <h3 className="vertical-timeline-element-title">
+                {milestone.title}
+              </h3>
               {milestone.image && (
                 <img className="timeline-img" src={milestone.image} />
               )}
