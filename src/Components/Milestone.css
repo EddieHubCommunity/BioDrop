@@ -1,39 +1,60 @@
-.p-timeline .custom-marker {
-  display: flex;
-  width: 2rem;
-  height: 2rem;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  border-radius: 50%;
-  z-index: 1;
+.timeline-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: -7px;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
-.p-timeline .p-timeline-event-content,
-.p-timeline .p-timeline-event-opposite {
-  line-height: 1;
+.learn-more {
+  text-decoration: none;
+  border: none;
+  background: rgb(224, 59, 59);
+  height: 40px;
+  min-width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.p-card {
-  border-radius: 1rem;
+.learn-more > a {
+  color: white;
+  font-size: 17px;
 }
 
-.p-timeline {
-  width: 60rem;
+.learn-more:hover {
+  transition: 0.1s;
+  background-color: white;
+  border: 2px solid rgb(224, 59, 59);
 }
 
-@media only screen and (max-width: 960px) {
-  .p-timeline-event {
-    display: inline;
+.learn-more:hover > a {
+  transition: 0.1s;
+  color: rgb(224, 59, 59);
+}
+
+.vertical-timeline-element-content {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+  padding: 2em 3em !important;
+}
+
+@media screen and (max-width: 1600px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: black;
   }
+}
 
-  .p-timeline {
-    width: 100%;
-  }
-
-  .p-card-title,
-  .p-card-subtitle,
-  .p-card-content {
-    text-align: center;
-  }
+.vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background-color: rgb(59, 55, 55) !important;
 }

@@ -2,71 +2,58 @@ import './Milestone.css'
 
 import React from 'react'
 import PropTypes from 'prop-types'
-
-import { Button } from 'primereact/button'
-import { Card } from 'primereact/card'
-import { Timeline } from 'primereact/timeline'
 import GetIcons from './Icons/GetIcons'
 
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+
 function Milestones({ milestones }) {
-  const goToLinkHandle = (url) => {
-    window.open(url, '__blank')
+  function getStyle(idx) {
+    if (milestones[idx].icon === 'github') return 'black'
+    else return milestones[idx].color
   }
 
-  const marker = (milestone) => (
-    <span
-      className="custom-marker shadow-2"
-      style={{ backgroundColor: milestone.color }}
-    >
-      <GetIcons iconName={milestone.icon} />
-    </span>
-  )
-
-  const content = (milestone) => (
-    <Card
-      title={milestone.title}
-      subTitle={milestone.date}
-      className="my-5 md:mx-5 shadow-8"
-    >
-      {milestone.image && (
-        <img
-          src={milestone.image}
-          onError={(e) =>
-            (e.target.src = 'https://github.com/EddieHubCommunity.png')
-          }
-          alt={milestone.title}
-          width={100}
-          className="shadow-2"
-        />
-      )}
-      <p>{milestone.description}</p>
-      {milestone.url && (
-        <div className="flex justify-content-end">
-          <Button
-            label="Learn more"
-            role="link"
-            rel="noopener noreferrer"
-            className="p-button-raised p-button-rounded"
-            onClick={() => goToLinkHandle(milestone.url)}
-            style={{ backgroundColor: milestone.color }}
-          />
-        </div>
-      )}
-    </Card>
-  )
+  function getStyleColor(idx) {
+    if (milestones[idx].icon === 'github') return 'white'
+    else return 'white'
+  }
 
   return (
-    <section className="flex justify-content-center mb-5">
-      <div className="md:col-8">
-        <Timeline
-          value={milestones}
-          align="alternate"
-          className="p-timeline-vertical p-timeline-alternate customized-timeline"
-          marker={(milestone) => marker(milestone)}
-          content={(milestone) => content(milestone)}
-        />
-      </div>
-    </section>
+    <div>
+      <VerticalTimeline>
+        {milestones.map((milestone, idx) => {
+          return (
+            <VerticalTimelineElement
+              key={idx}
+              date={milestone.date}
+              icon={<GetIcons iconName={milestone.icon} />}
+              iconStyle={{
+                background: getStyle(idx),
+                color: getStyleColor(idx),
+              }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                {milestone.title}
+              </h3>
+              {milestone.image && (
+                <img className="timeline-img" src={milestone.image} />
+              )}
+              {milestone.description && (
+                <h5 id="description">{milestone.description}</h5>
+              )}
+              {milestone.url && (
+                <button className="learn-more">
+                  <a href={milestone.url}>Learn More</a>
+                </button>
+              )}
+            </VerticalTimelineElement>
+          )
+        })}
+      </VerticalTimeline>
+    </div>
   )
 }
 
