@@ -41,27 +41,43 @@
     },
     {
       "title": "Earned Gold Badge for 10DaysOfJS on HackerRank",
-      "date": "July 2021",
+      "date": "July 2022",
       "icon": "book",
       "color": "yellow",
       "description": "Gold badge for 10 Days of JS",
       "url": "https://www.hackerrank.com/kharabepranay"
     },
     {
-      "title": "Earned Linkedin skill Badge: Javascript",
-      "date": "July 2021",
+      "title": "Earned LinkedIn skill Badge: Javascript",
+      "date": "July 2022",
       "icon": "linkedin",
-      "color": "yellow",
+      "color": "blue",
       "description": "In the top 5% of 897.2k people who took this.",
       "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-javascript-skillshare-activity-6953234827391250432-PRcP?utm_source=share"
     },
     {
-      "title": "Earned Gold Badge for 10DaysOfJS on HackerRank",
-      "date": "July 2021",
+      "title": "Earned LinkedIn skill Badge: React.js",
+      "date": "July 2022",
       "icon": "linkedin",
-      "color": "yellow",
+      "color": "blue",
       "description": "In the top 2% of 691.0k people who took this.",
-      "url": "https://www.linkedin.com/feed/update/urn:li:activity:6953766735959179264/"
+      "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-react-reactjs-activity-6953766735959179264-NskE?utm_source=share"
+    },
+    {
+      "title": "Earned LinkedIn skill Badge: Java",
+      "date": "September 2022",
+      "icon": "linkedin",
+      "color": "blue",
+      "description": "In the top 5% of 2M people who took this.",
+      "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-java-activity-6979155728078917632-PgsS?utm_source=share"
+    },
+    {
+      "title": "Awarded as Top performer of #100DaysOfCodeChallenge by CodeIn Community",
+      "date": "October 2022",
+      "icon": "graduation-hat",
+      "color": "grey",
+      "description": "In the top 1% of 2.8k people who took this.",
+      "url": "https://codeincommunity.tech/100daysofcode"
     }
   ]
 }
