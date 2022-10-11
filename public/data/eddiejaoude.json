@@ -1,11 +1,11 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "bio": "Open Source DevRel | Founder of EddieHub",
+  "bio": "Open Source DevRel | Founder of EddieHub | GitHub Star",
   "avatar": "https://github.com/eddiejaoude.png",
   "links": [
     {
-      "name": "DevRel Services",
+      "name": "Business DevRel Services",
       "url": "http://eddiejaoude.io",
       "icon": "link"
     },
@@ -30,12 +30,12 @@
       "icon": "youtube"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
-      "icon": "linkedin"
+      "name": "Watch behind the scenes on my 2nd YouTube channel (shorts)",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "youtube"
     },
     {
-      "name": "Join my Open Source Discord EddieHub",
+      "name": "Join my Open Source community EddieHub on Discord",
       "url": "http://discord.eddiehub.org",
       "icon": "discord"
     },
@@ -53,6 +53,11 @@
       "name": "Customising your GitHub Profile course (free)",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
@@ -95,6 +100,14 @@
       "icon": "github",
       "color": "green",
       "description": "Won for growing the EddieHub Community to over 30k members.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Top Teacher Award",
+      "date": "2022",
+      "icon": "github",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
       "url": "https://github.com/eddiejaoude"
     }
   ]

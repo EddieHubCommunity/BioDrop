@@ -1,18 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
-
 import Navbar from './Navbar'
 import GetIcons from './Icons/GetIcons'
+import { useTheme } from '../ThemeContext'
 
 function Home() {
+  const darkTheme = useTheme()
+
   return (
     <>
       <header>
         <Navbar
           start={
             <Link to="/search" aria-label="Search">
-              <GetIcons iconName="search" size={20} />
+              <GetIcons
+                iconName="search"
+                className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+                size={20}
+              />
             </Link>
           }
         />

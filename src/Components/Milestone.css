@@ -21,6 +21,9 @@
 .p-timeline {
   width: 60rem;
 }
+.shadow-2{
+  border-radius: 50px;
+}
 
 @media only screen and (max-width: 960px) {
   .p-timeline-event {

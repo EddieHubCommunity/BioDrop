@@ -1,17 +1,19 @@
-import './Navbar.css'
-
 import React, { useState, useEffect } from 'react'
-
-import PropTypes from 'prop-types'
-
-import { Link } from 'react-router-dom'
-
-import { Menubar } from 'primereact/menubar'
-
+import './Navbar.css'
 import GetIcons from './Icons/GetIcons'
+import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
+import { Menubar } from 'primereact/menubar'
+import { useTheme, useThemeUpdate } from '../ThemeContext'
 
 function Navbar({ items, start, end }) {
   const [version, setVersion] = useState('')
+  const darkTheme = useTheme()
+  const toggleTheme = useThemeUpdate()
+
+  const theme = {
+    color: `${darkTheme ? 'white' : 'black'}`,
+  }
 
   useEffect(() => {
     fetch('/app.json')
@@ -32,10 +34,29 @@ function Navbar({ items, start, end }) {
           className="mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <GetIcons className="text-gray-900" iconName="github" size={16} />
+          <GetIcons
+            className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+            iconName="github"
+            size={16}
+          />
         </Link>
 
-        <div>v{version}</div>
+        <div style={theme}>v{version}</div>
+
+        <div className="theme--button">
+          {darkTheme
+            ? (
+            <GetIcons
+              iconName="moon"
+              className="text-white"
+              onClick={toggleTheme}
+              size={20}
+            />
+              )
+            : (
+            <GetIcons iconName="sun" onClick={toggleTheme} size={20} />
+              )}
+        </div>
       </div>
     )
   }
@@ -45,6 +66,10 @@ function Navbar({ items, start, end }) {
       model={items}
       start={start}
       end={end}
+      style={{
+        backgroundColor: `${darkTheme ? '#181818' : 'white'}`,
+        border: `${darkTheme ? 'none' : '1px solid #dee2e6'}`,
+      }}
       className="mb-4 flex-wrap justify-content-center"
     />
   )

@@ -32,7 +32,7 @@ function Profile({ profile, username }) {
           <h1 className="mx-2 my-0">{name}</h1>
           <p className="text-2xl font-bold mx-2 my-0">({username})</p>
         </div>
-        <div className="shareprofile-icon">
+        <div className="shareprofile-icon mt-2">
           <ShareProfile username={username} />
         </div>
       </div>
