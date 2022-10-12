@@ -3,7 +3,7 @@
 We're glad to know you've decided to contribute!
 You can get started by forking the repo or cloning it locally.
 
-You can fork the repo by [clicking here](https://github.com/EddieHubCommunity/LinkFree/fork). Then create a branch for the issue that you're working on. After that, commit your changes. For more detailed information, see the [Contribution Guidelines](https://github.com/virtual-designer/LinkFree/blob/patch-4/docs/contributing/CONTRIBUTING.md#-how-to-contribute).
+You can fork the repo by [clicking here](https://github.com/EddieHubCommunity/LinkFree/fork). Then create a branch for the issue that you're working on. After that, commit your changes. For more detailed information, see the [Contribution Guidelines](https://github.com/EddieHubCommunity/LinkFree/blob/main/docs/contributing/CONTRIBUTING.md).
 
 ## How to add icons
 
