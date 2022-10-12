@@ -1,0 +1,54 @@
+{
+  "name": "Prasun Das",
+  "type": "personal",
+  "bio": "SDE @Quantorix Ex-IEMLabs Ex-Aberrantz| Trainer | Web Developer| Microservices | Open Source Contributor | Blockchain | Innovation Enthusiastic",
+  "avatar": "https://github.com/prasundas99.png",
+  "links": [
+    {
+      "name": "Protfolio",
+      "url": "https://prasundas99.github.io/Portfolio/index.html",
+      "icon": "link"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/PrasunDas99",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@prasundas115",
+      "icon": "medium"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/prasun--das",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source",
+      "date": "May 2020",
+      "icon": "github",
+      "color": "grey",
+      "description": "Contributed to Twillo",
+      "url": "https://github.com/Prasundas99"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Became a GitHub Star with 30 other people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "Started PepHub",
+      "date": "July 2022",
+      "icon": "book",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
+      "url": "https://github.com/eddiejaoude"
+    }
+  ]
+}
