@@ -76,7 +76,7 @@ function Users({ list }) {
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
                 style={theme}
-                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
+                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300 hover:text-gray-900"
                 template={
                   <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
                     {user.name}
