@@ -1,21 +1,5 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) | ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json)
 
-## QUICKSTART
-
-You can use Gitpod in the cloud or you can set this up locally with the following steps
-
-1. copy the `.env.example` file to `.env` and update any details required
-2. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
-3. `npm install`
-4. `npm run dev`
-
-## Storybook
-
-See what components are available
-
-1. `npm run storybook`
-2. navigte to http://localhost:6006
-
 # LinkFree by EddieHub
 
 - LinkFree connects audiences to all of your content with one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
@@ -50,16 +34,28 @@ Before installation, please make sure you have already installed the following t
 - [Git](https://git-scm.com/downloads)
 - [NodeJs](https://nodejs.org/en/download/)
 
-## 🛠️ Installation Steps
+## QUICKSTART
 
-1. Fork the project
-2. Clone the project
-3. Navigate to the project directory `cd LinkFree`
-4. Install dependencies with `npm ci`
-5. Run `npm start`
-6. Optional: Run the tests with `npm run cypress:run`
+You can use Gitpod in the cloud or you can set this up locally with the following steps
 
-> **Warning**: After adding your profile, you'll not see it on the home page; you can see your profile in the main menu by running the command `npm run generate`.
+1. copy the `.env.example` file to `.env` and update any details required
+1. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
+1. `npm install`
+1. `npm run dev`
+
+## Storybook
+
+See what components are available
+
+1. `npm run storybook`
+1. navigte to http://localhost:6006
+
+### Contributing to Storybook
+
+1. Create story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
+1. Import the component into the story file, see existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/nextjs/stories/components/user/UserLink.stories.js)
+1. Set the default arguments by looking at the requirements from the component itself
+1. Run `npm run storybook` to see the added components and interact with them in the browser and visit http://localhost:6006
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
