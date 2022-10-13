@@ -7,7 +7,7 @@
 
 > **Warning** (2)
 >
-> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+> In order for your profile to appear, it must be deployed, and we try to collect a few profiles before we begin to deploy.
 >
 > ### A note for Hacktoberfest participants:
 > 

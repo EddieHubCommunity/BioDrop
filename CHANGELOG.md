@@ -1,3 +1,12 @@
+## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+
+
+### Bug Fixes
+
+* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+
+
+
 ## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
-
-
-
-## [0.76.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.7...v0.76.8) (2022-10-08)
-
-
-### Bug Fixes
-
-* GitHub award ([#1923](https://github.com/EddieHubCommunity/LinkFree/issues/1923)) ([44bc07e](https://github.com/EddieHubCommunity/LinkFree/commit/44bc07e62a74f1b0c6a177bc640820c9ff191595))
 
 
 
