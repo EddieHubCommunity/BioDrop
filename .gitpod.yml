@@ -4,7 +4,6 @@ tasks:
   - name: Install npm depdencies
     init: npm i
     command: |
-      mv .env.example .env
       gp ports await 27017
       npm run dev
   - name: Mongo
