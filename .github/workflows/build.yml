@@ -30,5 +30,7 @@ jobs:
           node-version: "16"
       - name: install dependencies
         run: npm ci
+      - name: Install Playwright's dependencies
+        run: npx playwright install --with-deps
       - name: run tests
         run: npm run test
