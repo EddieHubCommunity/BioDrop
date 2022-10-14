@@ -19,7 +19,8 @@
     "prepare": "husky install",
     "format": "prettier --write .",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "postinstall": "ncp ./.env.example ./.env"
   },
   "browserslist": {
     "production": [
@@ -52,6 +53,7 @@
     "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
     "lint-staged": "^12.1.4",
+    "ncp": "^2.0.0",
     "postcss": "^8.4.17",
     "storybook-addon-next": "^1.6.9",
     "tailwindcss": "^3.1.8"
