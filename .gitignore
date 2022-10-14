@@ -5,15 +5,9 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
 # next.js
 /.next/
 /out/
-
-# production
-/build
 
 # misc
 .DS_Store
