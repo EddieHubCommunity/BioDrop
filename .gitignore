@@ -32,9 +32,9 @@ yarn-error.log*
 # vercel
 .vercel
 
-# cypress
-cypress/screenshots
-cypress/videos
-/test-results/
+# testing
 /playwright-report/
 /playwright/.cache/
+
+# storybook
+/storybook-static
