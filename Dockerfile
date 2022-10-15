@@ -20,5 +20,6 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --production --ignore-scripts
 COPY . .
+COPY --from=development /usr/src/app/public ./public
 COPY --from=development /usr/src/app/.next ./next
 CMD ["npm", "start"]
