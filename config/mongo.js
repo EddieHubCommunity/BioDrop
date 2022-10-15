@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import * as fs from "fs";
 
 let hasConnection = false;
 const connectMongo = async () => {
@@ -6,7 +7,13 @@ const connectMongo = async () => {
     return;
   }
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    // DigitalOcean Apps has cert as environment variable but Mongo needs a file path
+    // Write Mongo cert file to disk
+    if (process.env.CA_CER) {
+      fs.writeFileSync("cert.pem", process.env.CA_CERT);
+    }
+
+    await mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
     hasConnection = true;
     console.log("DB connected");
   } catch (err) {
