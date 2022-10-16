@@ -9,7 +9,7 @@ const connectMongo = async () => {
   try {
     // DigitalOcean Apps has cert as environment variable but Mongo needs a file path
     // Write Mongo cert file to disk
-    if (process.env.CA_CER) {
+    if (process.env.CA_CERT) {
       fs.writeFileSync("cert.pem", process.env.CA_CERT);
     }
 
