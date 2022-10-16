@@ -15,7 +15,8 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       // TODO: link not found
       console.log("ERROR link not found ", e);
     }
-    // TODO: 2. visit link
+
+    window.open(link.url, "_blank");
   };
 
   return (
