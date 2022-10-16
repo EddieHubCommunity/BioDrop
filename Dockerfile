@@ -8,6 +8,8 @@ RUN npm install --production --ignore-scripts
 COPY . .
 
 RUN sed -i 's/0.0.0/'`npm -s run env echo '$npm_package_version'`'/g' config/app.json
+RUN sed -i 's/http:\/\/localhost:3000/'`${BASE_URL}`'./g' config/app.json
+
 RUN npm run build
 
 CMD ["npm", "start"]
