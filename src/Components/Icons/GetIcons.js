@@ -19,11 +19,13 @@ import {
   FaLink,
   FaLinkedin,
   FaMicrosoft,
+  FaMoon,
   FaNodeJs,
   FaPaypal,
   FaSearch,
   FaSlack,
   FaSnapchat,
+  FaSun,
   FaStackOverflow,
   FaTelegram,
   FaTiktok,
@@ -98,6 +100,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiMedium {...restProps} />
     case 'microsoft':
       return <FaMicrosoft {...restProps} />
+    case 'moon':
+      return <FaMoon {...restProps} />
     case 'node-js':
       return <FaNodeJs {...restProps} />
     case 'open-source':
@@ -116,6 +120,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaSnapchat {...restProps} />
     case 'stackoverflow':
       return <FaStackOverflow {...restProps} />
+    case 'sun':
+      return <FaSun {...restProps} />
     case 'telegram':
       return <FaTelegram {...restProps} />
     case 'tiktok':

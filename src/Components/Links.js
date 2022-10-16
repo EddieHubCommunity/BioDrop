@@ -1,14 +1,15 @@
 import './Links.css'
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import StyledLink from './StyledLink'
 import GetIcons from './Icons/GetIcons'
 import { IconContext } from 'react-icons/lib'
 import linksConfig from '../config/links.json'
+import { useTheme } from '../ThemeContext'
 
 function Links({ links }) {
   const colors = linksConfig.validIcons
+  const darkTheme = useTheme()
 
   function MouseOver(e, color) {
     e.target.style.background = color
@@ -29,7 +30,12 @@ function Links({ links }) {
               onMouseOver={(e) => MouseOver(e, colors[link.icon])}
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors[link.icon] }}
+              style={{
+                color:
+                  colors[link.icon] === 'links' || darkTheme
+                    ? 'white'
+                    : colors[link.icon],
+              }}
               href={link.url}
             >
               <IconContext.Provider

@@ -1,45 +1,45 @@
-## [0.76.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.6...v0.76.7) (2022-10-05)
+## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
 
 
 ### Bug Fixes
 
-* graduation icon syntax ([#1890](https://github.com/EddieHubCommunity/LinkFree/issues/1890)) ([ceb0a99](https://github.com/EddieHubCommunity/LinkFree/commit/ceb0a99a1bc5920dddb3875b64bf2d3d4a3c1030))
+* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
 
 
 
-## [0.76.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.5...v0.76.6) (2022-10-03)
-
-
-### Bug Fixes
-
-* improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
-
-
-
-## [0.76.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.4...v0.76.5) (2022-10-01)
+## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
 
 
 ### Bug Fixes
 
-* update hacktoberfest-invalid label to invalid ([#1850](https://github.com/EddieHubCommunity/LinkFree/issues/1850)) ([b20e5a8](https://github.com/EddieHubCommunity/LinkFree/commit/b20e5a86e5904a661b9612ea492d526988d5eda3))
+* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
 
 
 
-## [0.76.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.3...v0.76.4) (2022-09-30)
-
-
-### Bug Fixes
-
-* goobric's twitter link ([#1835](https://github.com/EddieHubCommunity/LinkFree/issues/1835)) ([5487a19](https://github.com/EddieHubCommunity/LinkFree/commit/5487a19571a564f6e8e4a05000f909cee3bd9493))
-
-
-
-## [0.76.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.2...v0.76.3) (2022-09-28)
+## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
 
 
 ### Bug Fixes
 
-* updated discord text ([c83f4c4](https://github.com/EddieHubCommunity/LinkFree/commit/c83f4c40ecce6c5a269d922bf179a46c55627c9a))
+* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+
+
+
+# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
+
+
+### Features
+
+* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
+
+
+
+## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
+
+
+### Bug Fixes
+
+* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
 
 
 
