@@ -1,0 +1,51 @@
+{
+  "name": "Randy Hattab",
+  "type": "personal",
+  "bio": "Software Engineering FGCU 2020, MBA FGCU 2023 | Full-Stack & Mobile Software Engineer",
+  "avatar": "https://github.com/randyh0120.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/randyh0120",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/randyhattab/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/randyhattab/",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/randyhattab/",
+      "icon": "instagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Personal Site",
+      "icon": "dev.to",
+      "color": "red",
+      "description": "Keep up with my personal projects",
+      "url": "http://www.randyhattab.dev"
+    },
+    {
+      "title": "SWE @ ATP",
+      "date": "March 2021",
+      "icon": "globe",
+      "color": "green",
+      "description": "Working on Maintenance and Operations software for the aviation industry"
+    },
+    {
+      "title": "SWE @ Lee Health",
+      "date": "March 2020",
+      "icon": "graduation-hat",
+      "color": "blue",
+      "description": "Created and Automated the report to track COVID vaccinations in SWFL"
+    }
+  ]
+}

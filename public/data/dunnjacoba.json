@@ -49,6 +49,14 @@
       "color": "grey",
       "description": "Merged into main on react-bootstrap",
       "url": "https://github.com/react-bootstrap/react-bootstrap/pull/6438"
+    },
+    {
+      "title": "Signed my first full time offer letter",
+      "date": "October 2022",
+      "icon": "github",
+      "color": "grey",
+      "description": "Signed my offer letter from The Seam on 10 Oct 2022! This is my first full time salaried position in tech!",
+      "url": "https://www.theseam.com/"
     }
   ]
 }

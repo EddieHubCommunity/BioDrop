@@ -10,13 +10,22 @@ import Footer from './Components/Footer'
 import User from './Components/UserProfile/User'
 import Home from './Components/Home'
 import Search from './Components/Search/Search'
-
 import user from './config/user.json'
+import { useTheme } from './ThemeContext'
 
 function App() {
+  const darkTheme = useTheme()
+  const body = document.querySelector('body')
+
+  const theme = {
+    color: `${darkTheme ? 'white' : 'black'}`,
+  }
+
+  body.style.backgroundColor = `${darkTheme ? '#202023' : 'white'}`
+
   return (
     <Router>
-      <div className="p-2 md:p-4 max-h-screen">
+      <div className="p-2 md:p-4 max-h-screen" style={theme}>
         {user.username && <User singleUser={user} />}
         {!user.username && (
           <Switch>

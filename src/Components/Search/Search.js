@@ -1,18 +1,18 @@
 import './Search.css'
-
 import React, { useState, useEffect, useRef } from 'react'
+import Navbar from '../Navbar'
+import Placeholders from './Placeholders'
+import GetIcons from '../Icons/GetIcons'
+import Users from './Users'
 import { Link } from 'react-router-dom'
 import { Toast } from 'primereact/toast'
-
-import Placeholders from './Placeholders'
-import Users from './Users'
-import Navbar from '../Navbar'
-import GetIcons from '../Icons/GetIcons'
+import { useTheme } from '../../ThemeContext'
 
 function Search() {
   const [list, setList] = useState([])
   const [skeleton, setskeleton] = useState(true)
   const toast = useRef(null)
+  const darkTheme = useTheme()
 
   useEffect(() => {
     fetch('/list.json')
@@ -45,7 +45,11 @@ function Search() {
         <Navbar
           start={
             <Link to="/" aria-label="Go back to Home">
-              <GetIcons iconName="arrowLeft" size={20} />
+              <GetIcons
+                iconName="arrowLeft"
+                size={20}
+                className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+              />
             </Link>
           }
         />

@@ -1,45 +1,45 @@
-# [0.74.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.6...v0.74.0) (2022-09-11)
+## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+
+
+### Bug Fixes
+
+* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+
+
+
+## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
+
+
+### Bug Fixes
+
+* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
+
+
+
+## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
+
+
+### Bug Fixes
+
+* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+
+
+
+# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
 
 
 ### Features
 
-* modified LABEL as Docker official documentation ([#1657](https://github.com/EddieHubCommunity/LinkFree/issues/1657)) ([c909560](https://github.com/EddieHubCommunity/LinkFree/commit/c9095608288e5421c51681225681ad2c3c477630))
+* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
 
 
 
-## [0.73.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.5...v0.73.6) (2022-09-09)
-
-
-### Bug Fixes
-
-* dunnjacoba milestones ([#1740](https://github.com/EddieHubCommunity/LinkFree/issues/1740)) ([42371d3](https://github.com/EddieHubCommunity/LinkFree/commit/42371d3b8ae86e9253f5869b2c9dab9629869686))
-
-
-
-## [0.73.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.4...v0.73.5) (2022-09-08)
+## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
 
 
 ### Bug Fixes
 
-* github sponsors ([#1725](https://github.com/EddieHubCommunity/LinkFree/issues/1725)) ([526a22f](https://github.com/EddieHubCommunity/LinkFree/commit/526a22f15b38976b11907f10218ce0525a3353e7))
-
-
-
-## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
-
-
-### Bug Fixes
-
-* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
-
-
-
-## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
-
-
-### Bug Fixes
-
-* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
+* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
 
 
 

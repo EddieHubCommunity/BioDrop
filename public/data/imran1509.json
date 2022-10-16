@@ -1,0 +1,38 @@
+{
+  "name": "Mohd Imran",
+  "type": "Personal",
+  "bio": "I am DevOps Engineer from India. I work with tools like Kubernetes, Docker, Git & GitHub, Ansible, Terraform, Jenkins, AWS, Linux-ubuntu etc. Python & Golang.",
+  "avatar": "https://github.com/imran1509.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/imran1509",
+      "icon": "github"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohdimran1995/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/codenameimmy",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://imransaifi.hashnode.dev/",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Follow and read my blog on Dev.to",
+      "url": "https://dev.to/imransaifi",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/codenameimmy/",
+      "icon": "instagram"
+    }
+  ]
+}

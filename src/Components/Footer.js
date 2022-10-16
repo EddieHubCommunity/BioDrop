@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import GetIcons from './Icons/GetIcons'
 import ScrollToTopBtn from './ScrollToTopBtn'
+import { useTheme } from '../ThemeContext'
 
 function Footer() {
+  const darkTheme = useTheme()
   const [version, setVersion] = useState('')
   useEffect(() => {
     fetch('/app.json')
@@ -25,7 +27,11 @@ function Footer() {
           className="mr-2"
           aria-label="LinkFree repository on GitHub"
         >
-          <GetIcons className="text-gray-900" iconName="github" size={16} />
+          <GetIcons
+            className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+            iconName="github"
+            size={16}
+          />
         </Link>
         <span>v{version}</span>
       </p>
