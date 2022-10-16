@@ -8,7 +8,9 @@
     "next": "^12",
     "prettier": "^2.7.1",
     "react": "^17",
-    "react-dom": "^17"
+    "react-dom": "^17",
+    "tailwindcss": "^3.1.8",
+    "autoprefixer": "^10.4.12"
   },
   "scripts": {
     "dev": "next dev",
@@ -45,7 +47,6 @@
     "@storybook/manager-webpack5": "^6.5.12",
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
-    "autoprefixer": "^10.4.12",
     "babel-loader": "^8.2.5",
     "concurrently": "^7.4.0",
     "eslint": "8.19.0",
@@ -55,8 +56,7 @@
     "lint-staged": "^12.1.4",
     "ncp": "^2.0.0",
     "postcss": "^8.4.17",
-    "storybook-addon-next": "^1.6.9",
-    "tailwindcss": "^3.1.8"
+    "storybook-addon-next": "^1.6.9"
   },
   "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {

@@ -1,25 +1,13 @@
-FROM node:15 as development
+FROM node:16
 LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
-
-WORKDIR /usr/src/app
-
-COPY package*.json ./
-RUN npm install --ignore-scripts
-COPY . .
-
-RUN sed -i 's/0.0.0/'`npm -s run env echo '$npm_package_version'`'/g' config/app.json
-RUN npm run build
-
-FROM node:15 as production
-LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
-
-ARG NODE_ENV=production
 
 WORKDIR /usr/src/app
 
 COPY package*.json ./
 RUN npm install --production --ignore-scripts
 COPY . .
-COPY --from=development /usr/src/app/public ./public
-COPY --from=development /usr/src/app/.next ./next
+
+RUN sed -i 's/0.0.0/'`npm -s run env echo '$npm_package_version'`'/g' config/app.json
+RUN npm run build
+
 CMD ["npm", "start"]
