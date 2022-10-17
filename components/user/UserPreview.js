@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function UserPreview({ profile }) {
   return (
     <Link href={`/${profile.username}`}>
-      <a className="flex flex-col gap-x-6 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-gray-500 p-4 my-2">
+      <a className="flex flex-col gap-x-4 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-gray-500 p-4 my-2">
         <div className="flex items-center gap-5">
           <div className="min-w-[5rem]">
             <Image
@@ -15,7 +15,7 @@ export default function UserPreview({ profile }) {
               className="rounded-full"
             />
           </div>
-          <h3 className="text-2xl font-bold md:hidden">
+          <h3 className="text-xl font-bold md:hidden">
             {profile.name} {profile.views && <span>({profile.views})</span>}
           </h3>
         </div>
