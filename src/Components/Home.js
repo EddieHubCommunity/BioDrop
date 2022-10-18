@@ -4,6 +4,7 @@ import './Home.css'
 import Navbar from './Navbar'
 import GetIcons from './Icons/GetIcons'
 import { useTheme } from '../ThemeContext'
+import Typewriter from 'typewriter-effect'
 
 function Home() {
   const darkTheme = useTheme()
@@ -25,7 +26,16 @@ function Home() {
       </header>
       <main>
         <h1 className="text-4xl text-center">
-          LinkFree connects audiences to all of your content with just one link
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  'LinkFree connects audiences to all of your content with just one link',
+                )
+                .pauseFor(2)
+                .start()
+            }}
+          />
         </h1>
         <p className="text-2xl text-center">
           It is an open-source alternative to Linktree implemented in JavaScript
