@@ -1,43 +1,43 @@
 {
-    "name": "Anirudh Patel",
-    "type": "personal",
-    "bio": "Student | Full Stack Web Developer | Machine Learning | Ai | DevOps",
-    "avatar": "https://github.com/anirudhp26.png",
-    "links": [
-      {
-        "name": "Follow me on GitHub",
-        "url": "https://github.com/anirudhp26",
-        "icon": "github"
-      },
-      {
-        "name": "Follow me on Twitter",
-        "url": "https://twitter.com/anirudh_p26",
-        "icon": "twitter"
-      }
-    ],
-    "milestones": [
-      {
-        "title": "Full Stack Web Developer",
-        "date": "August 2022",
-        "color": "blue"
-      }
-    ],
-    "events": [
-        {
-            "name": "Nextjs conference",
-            "link": "#",
-            "description": "Event organised to grow Next js community",
-            "date": "01-01-2023 18:00:00",
-            "type": "Both virtual and in-person",
-            "color": "blue"
-        },
-        {
-            "name": "Reactjs conference",
-            "link": "#",
-            "description": "Event organised to grow React js community",
-            "date": "01-01-2023 18:00:00",
-            "type": "Both virtual and in-person",
-            "color": "blue"
-        }
-    ]
-  }
+  "name": "Anirudh Patel",
+  "type": "personal",
+  "bio": "Student | Full Stack Web Developer | Machine Learning | Ai | DevOps",
+  "avatar": "https://github.com/anirudhp26.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/anirudhp26",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/anirudh_p26",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Full Stack Web Developer",
+      "date": "August 2022",
+      "color": "blue"
+    }
+  ],
+  "events": [
+    {
+      "name": "Nextjs conference",
+      "link": "#",
+      "description": "Event organised to grow Next js community",
+      "date": "01-01-2023 18:00:00",
+      "type": "Both virtual and in-person",
+      "color": "blue"
+    },
+    {
+      "name": "Reactjs conference",
+      "link": "#",
+      "description": "Event organised to grow React js community",
+      "date": "01-01-2023 18:00:00",
+      "type": "Both virtual and in-person",
+      "color": "blue"
+    }
+  ]
+}
