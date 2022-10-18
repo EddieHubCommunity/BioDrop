@@ -19,11 +19,10 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ users }) {
-
   return (
     <>
       <Head>
-        <title>LinkFree Check Events</title>
+        <title>Events the community members are going to</title>
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -31,14 +30,11 @@ export default function Events({ users }) {
         <ul>
           {users.map((user) => {
             if (user.events) {
-              const events = user.events
-              return (
-                events.map((event) => (
-                  <li key={event.name}>
-                    <EventPreview event={ event } username={ user.username } />
-                  </li>
-                ))
-              )
+              return user.events.map((event) => (
+                <li key={event.name}>
+                  <EventPreview event={event} username={user.username} />
+                </li>
+              ));
             }
           })}
         </ul>

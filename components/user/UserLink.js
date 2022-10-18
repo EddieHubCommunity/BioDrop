@@ -1,8 +1,8 @@
 import app from "../../config/app.json";
 
 export default function UserLink({ link, username, displayStatsPublic }) {
+  const data = {};
   const clickLink = async () => {
-    const data = {};
     try {
       const res = await fetch(
         `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
@@ -25,7 +25,12 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
     >
       {link.name}{" "}
-      {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
+      {displayStatsPublic && link.clicks && !data.clicks && (
+        <span>({link.clicks})</span>
+      )}
+      {displayStatsPublic && link.clicks && data.clicks && (
+        <span>({data.clicks})</span>
+      )}
     </button>
   );
 }

@@ -27,16 +27,18 @@
       "name": "Nextjs conference",
       "link": "#",
       "description": "Event organised to grow Next js community",
-      "date": "01-01-2023 18:00:00",
-      "type": "Both virtual and in-person",
+      "date": "2000-01-03T00:00:00.000Z",
+      "isInPerson": true,
+      "isVirtual": true,
       "color": "blue"
     },
     {
       "name": "Reactjs conference",
       "link": "#",
       "description": "Event organised to grow React js community",
-      "date": "01-01-2023 18:00:00",
-      "type": "Both virtual and in-person",
+      "date": "2001-01-03T00:00:00.000Z",
+      "isInPerson": true,
+      "isVirtual": true,
       "color": "blue"
     }
   ]
