@@ -1,0 +1,49 @@
+{
+  "name": "Sultan",
+  "type": "personal",
+  
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      
+    },
+    {
+      "name": "Follow me on Twitter",
+      
+    },
+    {
+      "name": "Check out my website",
+      
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Data Structures & Algorithms",
+      "date": "November 2021",
+      "icon": "YouTube",
+      "color": "red",
+      "description": "Started Problem Solving "
+    },
+    {
+      "title": "Started Open Source",
+      "date": "December 2021",
+      "icon": "GitHub",
+      "color": "green",
+      "description": "Started Contibuting To Beginner friendly Issues"
+    },
+    {
+      "title": "Learning Api Development",
+      "date": "December 2021",
+      "icon": "Globe",
+      "color": "orange",
+      "description": "Reading FASTapi Docs!"
+    },
+    {
+      "title": "Started Discord Bot Development",
+      "date": "August 2021",
+      "icon": "Discord",
+      "color": "green",
+      "description": "Learning Discord.Js"
+    }
+  ]
+}
