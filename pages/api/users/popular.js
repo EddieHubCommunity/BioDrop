@@ -33,7 +33,7 @@ export default async function handler(req, res) {
       };
     }
 
-    return user;
+    return { ...user, username: profile.username };
   });
 
   res.status(200).json(profiles);
