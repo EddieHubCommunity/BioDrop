@@ -27,7 +27,7 @@ Given('I use single user mode with {string}', (username) => {
 })
 
 When('I click on {string}', (text) => {
-  cy.get(`a[href*="${text}"]`).click()
+  cy.get(`a[href*="${text}"]`).contains('Profiles 🔎').click()
 })
 
 When('I type {string} in {string}', (type, location) => {
@@ -52,6 +52,10 @@ Then('I do not see {string} text in section {string}', (text, location) => {
 
 Then('I see {string} item on the page', (location) => {
   cy.get(location).should('be.visible')
+})
+
+Then('I should see {string} text in the section {string}', (text, location) => {
+  cy.get(location).should('contain', text)
 })
 
 Then('I change back to regular mode', () => {

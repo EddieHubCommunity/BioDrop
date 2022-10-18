@@ -34,8 +34,8 @@ function Home() {
           It is an open-source alternative to Linktree implemented in JavaScript
         </p>
         <p className="text-1xl text-center">
-          See <Link to="/search">Profiles 🔎 </Link> for inspiration. Want to
-          add your profile? Read the{' '}
+          See <Link to="/search">Profiles 🔎</Link> for inspiration. Want to add
+          your profile? Read the{' '}
           <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile">
             instructions
           </a>
