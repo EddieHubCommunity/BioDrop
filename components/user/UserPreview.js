@@ -16,7 +16,9 @@ export default function UserPreview({ profile }) {
               fallback={profile.name}
             />
           </div>
-          <h3 className="text-2xl font-bold md:hidden">{profile.name}</h3>
+          <h3 className="text-2xl font-bold md:hidden">
+            {profile.name} {profile.views && <span>({profile.views})</span>}
+          </h3>
         </div>
         <div>
           <h3 className="hidden md:block text-2xl font-bold">{profile.name}</h3>
