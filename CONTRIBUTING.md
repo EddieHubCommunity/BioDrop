@@ -1,4 +1,3 @@
-
 ---
 ## 👨‍💻 Prerequisite Skills to Contribute
 
