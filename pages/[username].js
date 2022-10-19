@@ -5,7 +5,7 @@ import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
 import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
-import { FallbackImage } from "../components/FallbackImage";
+import FallbackImage from "../components/FallbackImage";
 import EventPreview from "../components/events/EventPreview";
 
 export async function getServerSideProps(context) {

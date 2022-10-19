@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export const FallbackImage = ({ src, alt, fallback = "A A", ...rest }) => {
+export default function FallbackImage({ src, alt, fallback = "A A", ...rest }) {
   const [imgSrc, setImgSrc] = useState(src);
   const fallbackUrl = `https://avatars.dicebear.com/api/initials/${fallback}.svg`;
 
@@ -13,4 +13,4 @@ export const FallbackImage = ({ src, alt, fallback = "A A", ...rest }) => {
       onError={() => setImgSrc(fallbackUrl)}
     />
   );
-};
+}
