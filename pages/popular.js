@@ -4,7 +4,7 @@ import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
 
 export async function getServerSideProps(context) {
-  let data = {};
+  let data = [];
   try {
     const res = await fetch(`${app.baseUrl}/api/users/popular`);
     data = await res.json();

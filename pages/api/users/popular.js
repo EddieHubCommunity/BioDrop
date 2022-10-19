@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   // check for db results
   if (getProfiles.length === 0) {
-    return res.status(404).json({ Error: "No popular profiles found" });
+    return res.status(404).json([]);
   }
 
   const directoryPath = path.join(process.cwd(), "data");
