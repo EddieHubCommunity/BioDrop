@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { FallbackImage } from "../FallbackImage";
 
 export default function UserPreview({ profile }) {
   return (
@@ -7,12 +7,13 @@ export default function UserPreview({ profile }) {
       <a className="flex flex-col gap-x-6 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-gray-500 p-4 my-2">
         <div className="flex items-center gap-5">
           <div className="min-w-[5rem]">
-            <Image
+            <FallbackImage
               src={profile.avatar}
               alt={`Profile picture of ${profile.name}`}
               width={80}
               height={80}
               className="rounded-full"
+              fallback={profile.name}
             />
           </div>
           <h3 className="text-2xl font-bold md:hidden">

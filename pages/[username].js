@@ -1,12 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
-
 import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
 import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
+import { FallbackImage } from "../components/FallbackImage";
 import EventPreview from "../components/events/EventPreview";
 
 export async function getServerSideProps(context) {
@@ -37,11 +36,12 @@ export default function User({ data }) {
 
       <div className="mx-auto container px-6 mt-6">
         <div className="flex justify-center gap-x-6">
-          <Image
+          <FallbackImage
             src={data.avatar}
             alt={`Profile picture of ${data.name}`}
             width={120}
             height={120}
+            fallback={data.name}
             className="rounded-full"
           />
           <div className="flex flex-col self-center">
