@@ -1,7 +1,9 @@
 import { useState } from "react";
 import app from "../../config/app.json";
+import {useRouter} from 'next/router'
 
 export default function UserLink({ link, username, displayStatsPublic }) {
+  const router = useRouter()
   const [clicks, setClicks] = useState(link.clicks || 0);
 
   const clickLink = async () => {
@@ -19,7 +21,7 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       console.log("ERROR link not found ", e);
     }
 
-    window.open(link.url, "_blank");
+    router.push(link.url)
   };
 
   return (
