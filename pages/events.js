@@ -5,20 +5,20 @@ import EventPreview from "../components/events/EventPreview";
 import app from "../config/app.json";
 
 export async function getServerSideProps(context) {
-  let users = [];
+  let events = [];
   try {
-    const res = await fetch(`${app.baseUrl}/api/users`);
-    users = await res.json();
+    const res = await fetch(`${app.baseUrl}/api/events`);
+    events = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
   }
 
   return {
-    props: { users },
+    props: { events },
   };
 }
 
-export default function Events({ users }) {
+export default function Events({ events }) {
   return (
     <>
       <Head>
@@ -28,15 +28,11 @@ export default function Events({ users }) {
       </Head>
       <div className="flex flex-col px-6 align-center">
         <ul>
-          {users.map((user) => {
-            if (user.events) {
-              return user.events.map((event) => (
-                <li key={event.name}>
-                  <EventPreview event={event} username={user.username} />
-                </li>
-              ));
-            }
-          })}
+          {events.map((event) => (
+            <li key={event.name}>
+              <EventPreview event={event} username={event.username} />
+            </li>
+          ))}
         </ul>
       </div>
     </>
