@@ -1,8 +1,12 @@
+import { useState } from "react";
 import app from "../../config/app.json";
+import {useRouter} from 'next/router'
 
 export default function UserLink({ link, username, displayStatsPublic }) {
+  const router = useRouter()
+  const [clicks, setClicks] = useState(link.clicks || 0);
+
   const clickLink = async () => {
-    const data = {};
     try {
       const res = await fetch(
         `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
@@ -10,13 +14,14 @@ export default function UserLink({ link, username, displayStatsPublic }) {
         )}`,
         { method: "PUT" }
       );
-      data = await res.json();
+      const data = await res.json();
+      setClicks(data.clicks);
     } catch (e) {
       // TODO: link not found
       console.log("ERROR link not found ", e);
     }
 
-    window.open(link.url, "_blank");
+    router.push(link.url)
   };
 
   return (
@@ -24,8 +29,7 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       onClick={() => clickLink()}
       className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start"
     >
-      {link.name}{" "}
-      {displayStatsPublic && link.clicks && <span>({link.clicks})</span>}
+      {link.name} {displayStatsPublic && <span>({clicks})</span>}
     </button>
   );
 }

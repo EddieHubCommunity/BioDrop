@@ -21,6 +21,10 @@ export default function Navbar() {
       name: "Search",
       url: "/search",
     },
+    {
+      name: "Events",
+      url: "/events",
+    },
   ];
 
   return (

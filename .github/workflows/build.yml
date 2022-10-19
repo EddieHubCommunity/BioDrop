@@ -17,6 +17,7 @@ jobs:
         run: npm run build
 
   tests:
+    needs: build
     runs-on: ubuntu-latest
     services:
       mongo:
