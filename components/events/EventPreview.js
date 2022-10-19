@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
 export default function EventPreview({ event, username }) {
