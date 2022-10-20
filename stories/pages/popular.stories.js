@@ -8,5 +8,5 @@ export default {
 export const Basic = (args) => <Popular {...args} />;
 
 Basic.args = {
-  data: [profile]
+  data: [profile],
 };
