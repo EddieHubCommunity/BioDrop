@@ -1,0 +1,38 @@
+{
+  "name": "Rishav Mitra",
+  "type": "personal",
+  "bio": "Student | Learning | Contributing to Open Source",
+  "avatar": "https://github.com/Rishav-12.png",
+  "links": [
+    {
+      "name": "My Open Source journey on GitHub",
+      "url": "https://github.com/Rishav-12",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rishavmitra15",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rishav-mitra-69855a246",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow my blog on Hashnode",
+      "url": "https://rishav10.hashnode.dev",
+      "icon": "hashnode"
+    },
+    {
+      "name": "I'm also on Dev.to",
+      "url": "https://dev.to/rishav12",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Solving Katas on CodeWars",
+      "url": "https://www.codewars.com/users/Rishav-12",
+      "icon": "codewars"
+    }
+  ]
+}
