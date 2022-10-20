@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FallbackImage } from "../FallbackImage";
+import FallbackImage from "../FallbackImage";
 
 export default function UserPreview({ profile }) {
   return (
