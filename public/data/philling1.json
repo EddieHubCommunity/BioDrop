@@ -1,0 +1,28 @@
+{
+  "name": "phil",
+  "type": "Personal",
+  "bio": "Software engineer getting into Open Source",
+  "avatar": "https://github.com/philling1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/philling1",
+      "icon": "github"
+    },
+    {
+      "name": "",
+      "url": "",
+      "icon": ""
+    }
+  ],
+  "milestones": [
+    {
+      "title": "",
+      "date": "",
+      "icon": "",
+      "color": "",
+      "description": "",
+      "url": ""
+    }
+  ]
+}
