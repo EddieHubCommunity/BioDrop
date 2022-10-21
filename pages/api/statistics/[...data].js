@@ -26,7 +26,7 @@ export default async function handler(req, res) {
   const getLink = await Link.findOne({ username, url });
   if (getLink) {
     try {
-      await Link.update(
+      await Link.updateOne(
         {
           username,
           url,
@@ -48,7 +48,7 @@ export default async function handler(req, res) {
         url,
         clicks: 1,
       });
-      await Profile.update(
+      await Profile.updateOne(
         {
           username,
         },
@@ -67,7 +67,7 @@ export default async function handler(req, res) {
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
     try {
-      await Stats.update(
+      await Stats.updateOne(
         {
           date,
         },

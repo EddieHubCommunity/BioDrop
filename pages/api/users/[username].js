@@ -35,7 +35,7 @@ export default async function handler(req, res) {
   }
   if (getProfile) {
     try {
-      await Profile.update(
+      await Profile.updateOne(
         {
           username,
         },
@@ -54,7 +54,7 @@ export default async function handler(req, res) {
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
     try {
-      await Stats.update(
+      await Stats.updateOne(
         {
           date,
         },
