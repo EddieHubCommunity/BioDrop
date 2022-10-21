@@ -6,9 +6,11 @@ test("Profile has title", async ({ page }) => {
   await expect(page).toHaveTitle(/Eddie Jaoude/);
 });
 
-test.fixme("Name appears on the page", async ({ page }) => {
+test("Name appears on the page", async ({ page }) => {
   // 1. nagivate to profile page
+  await page.goto("/eddiejaoude");
   // 2. check for the text "profile" on the page
+  await expect(page.locator('h1')).toHaveText(/Eddie Jaoude/);
 });
 
 test.fixme("Profile views increase", async ({ page }) => {
