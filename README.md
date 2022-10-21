@@ -106,7 +106,7 @@ Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
 For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
-To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your github account.
+To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
 
 For example: <http://github.com/eddiejaoude.png>
 
