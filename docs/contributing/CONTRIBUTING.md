@@ -119,7 +119,7 @@ git push origin YourBranchName
 
 ## Run automated tests
 
-After making changes make sure that tests passes
+After making changes make sure that the tests pass
 
 **1.** Start the LinkFree application by typing this command:
 
