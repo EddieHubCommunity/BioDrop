@@ -46,7 +46,7 @@ function Milestones({ milestones }) {
             label="Learn more"
             role="link"
             rel="noopener noreferrer"
-            className="p-button-raised p-button-rounded"
+            className="p-button-raised p-button-rounded p-border"
             onClick={() => goToLinkHandle(milestone.url)}
             style={{ backgroundColor: milestone.color }}
           />
