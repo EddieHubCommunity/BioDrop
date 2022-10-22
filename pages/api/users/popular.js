@@ -7,8 +7,7 @@ import Profile from "../../../models/Profile";
 export default async function handler(req, res) {
   await connectMongo();
 
-  // TODO: get top 10 popular profiles
-  const getProfiles = await Profile.find({});
+  const getProfiles = await Profile.find({}).sort({ views: -1 }).limit(10);
 
   // check for db results
   if (getProfiles.length === 0) {
