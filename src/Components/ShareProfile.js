@@ -3,6 +3,7 @@ import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
 import ShareIcon from './ShareIcon'
 import { Toast } from 'primereact/toast'
+import './ShareProfile.css'
 
 export default function ShareProfile({ username }) {
   const [show, setShow] = useState(false)
@@ -22,7 +23,6 @@ export default function ShareProfile({ username }) {
   return (
     <div className="flex justify-content-center">
       <Toast ref={toast} />
-
       <div onClick={() => setShow(!show)}>
         <GetIcons iconName="shareprofile" />
       </div>
@@ -56,6 +56,12 @@ export default function ShareProfile({ username }) {
               label="Share on LinkedIn"
               iconName="linkedin"
             />
+            <div className="cross-icon">
+              <i
+                className="pi pi-times border-solid hidden sm:inline-flex"
+                onClick={() => setShow(null)}
+              ></i>
+            </div>
             <a
               className="mx-4 sm:mx-5"
               role="button"
