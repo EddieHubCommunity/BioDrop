@@ -74,14 +74,15 @@ function Users({ list }) {
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
-              <Chip
+             <Chip
                 style={theme}
-                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
-                template={
-                  <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
-                    {user.name}
-                  </span>
+                label={
+                  user.name.length > 22
+                    ? user.name.slice(-22) + ' ...'
+                    : user.name
                 }
+                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
+                image={user.avatar}
               />
             </Link>
           ))}
