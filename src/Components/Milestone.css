@@ -22,8 +22,8 @@
   width: 60rem;
 }
 
-.p-border {
-  border: none;
+.border-0 {
+  border: none !important;
 }
 
 .shadow-8 {
