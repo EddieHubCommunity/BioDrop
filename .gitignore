@@ -5,15 +5,9 @@
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
 # next.js
 /.next/
 /out/
-
-# production
-/build
 
 # misc
 .DS_Store
@@ -32,6 +26,9 @@ yarn-error.log*
 # vercel
 .vercel
 
-# cypress
-cypress/screenshots
-cypress/videos
+# testing
+/playwright-report/
+/playwright/.cache/
+
+# storybook
+/storybook-static

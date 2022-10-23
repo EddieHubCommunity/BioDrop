@@ -1,25 +1,29 @@
 {
   "name": "linkfree",
-  "version": "0.68.8",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
-    "mongoose": "^6.5.0",
-    "next": "12.2.0",
+    "autoprefixer": "^10.4.12",
+    "mongoose": "^6.6.5",
+    "next": "^12",
     "prettier": "^2.7.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^4.6.0",
+    "tailwindcss": "^3.1.8"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "test": "npx playwright test",
     "start": "next start",
     "lint": "next lint",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
     "prepare": "husky install",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "postinstall": "ncp ./.env.example ./.env"
   },
   "browserslist": {
     "production": [
@@ -34,19 +38,26 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "concurrently": "^6.2.2",
-    "cypress": "^8.5.0",
-    "cypress-cucumber-preprocessor": "^4.3.0",
+    "@babel/core": "^7.19.3",
+    "@playwright/test": "^1.27.1",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.4.0",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.0",
+    "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
     "lint-staged": "^12.1.4",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.4"
-  },
-  "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "ncp": "^2.0.0",
+    "postcss": "^8.4.17",
+    "storybook-addon-next": "^1.6.9"
   },
   "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {
