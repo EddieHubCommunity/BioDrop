@@ -1,9 +1,12 @@
 import { useRouter } from "next/router";
+import { useState } from "react";
 import NavLink from "./NavLink";
 import app from "../../config/app.json";
 import Image from "next/image";
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   const router = useRouter();
   const primary = [
     {
@@ -62,6 +65,7 @@ export default function Navbar() {
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
+                onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
                 className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
@@ -103,7 +107,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="md:hidden" id="mobile-menu">
+        <div className={`${!isOpen && 'hidden'} md:hidden`} id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {primary.map((item, index) => (
               <NavLink
