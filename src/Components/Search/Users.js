@@ -77,7 +77,7 @@ function Users({ list }) {
              <Chip
                 style={theme}
                 label={
-                  user.name.length > 22
+                  user.name.length > 25
                     ? user.name.slice(-22) + ' ...'
                     : user.name
                 }
