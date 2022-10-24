@@ -10,6 +10,7 @@ a {
   transform: scale(1.1);
   background: linear-gradient(145deg, #c8cbcf, #eef2f6);
   box-shadow: 8px 8px 15px #bdc0c4, -8px -8px 15px #ffffff;
+  color: black !important;
 }
 
 .p-chip .p-avatar img {
