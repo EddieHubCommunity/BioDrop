@@ -13,11 +13,21 @@ test("Name appears on the page", async ({ page }) => {
   await expect(page.locator('h1')).toHaveText(/Eddie Jaoude/);
 });
 
-test.fixme("Profile views increase", async ({ page }) => {
-  // 1. nagivate to profile
+test("Profile views increase", async ({ page }) => {
+  // 1. navigate to profile
+  await page.goto("/eddiejaoude");
   // 2. get the current profiles views
+  const startingViews = await (await page.innerText('h2')).split(" ");
+  console.log(startingViews);
   // 3. visit the profile page x3
+  for (let i = 0; i < 3; i++){
+    await page.goto("/");
+    await page.goto("/eddiejaoude");
+  }
   // 4. get the current profile views and see if increased by 3
+  const endingViews = await (await page.innerText('h2')).split(" ");
+  console.log(endingViews);
+  expect(parseInt(startingViews[1])).toEqual((parseInt(endingViews[1]) - 3));
 });
 
 test.fixme("Link clicks increase", async ({ page }) => {
