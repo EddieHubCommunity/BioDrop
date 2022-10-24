@@ -1,13 +1,23 @@
 {
   "name": "Ar Rakin",
   "type": "personal",
-  "bio": "A common man who loves coding.",
+  "bio": "A common man, student and a self-taught developer.",
   "avatar": "https://github.com/virtual-designer.png",
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/virtual-designer",
       "icon": "github"
+    },
+    {
+      "name": "Join The Everything Server",
+      "url": "https://discord.gg/dKArUwBMKw",
+      "icon": "discord"
+    },
+    {
+      "name": "Join OneSoftNet's Server",
+      "url": "https://discord.gg/pazm3tqYh5",
+      "icon": "discord"
     }
   ],
   "milestones": [
@@ -16,7 +26,35 @@
       "date": "November 2019",
       "icon": "globe",
       "color": "#007bff",
-      "description": "Started coding"
+      "description": "Started coding journey"
+    },
+    {
+      "title": "Started Learning Web Development",
+      "date": "February 2020",
+      "icon": "globe",
+      "color": "#f14a60",
+      "description": "Started learning basics of PHP, HTML, CSS and JavaScript"
+    },
+    {
+      "title": "Founded OneSoftNet",
+      "date": "December 2020",
+      "icon": "globe",
+      "color": "#007bff",
+      "description": "Founded an organization \"OneSoftNet\" (OSN)."
+    }, 
+    {
+      "title": "Learnt React",
+      "date": "January 2021",
+      "icon": "graduation-hat",
+      "color": "#007bff",
+      "description": "Completed learning React framework."
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "graduation-hat",
+      "color": "#f14a60",
+      "description": "Completed Hacktoberfest."
     }
   ]
 }
