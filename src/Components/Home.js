@@ -5,6 +5,15 @@ import Navbar from './Navbar'
 import GetIcons from './Icons/GetIcons'
 import { useTheme } from '../ThemeContext'
 
+document.addEventListener('keydown', (e) => {
+  e = e || window.event
+  const searchbox = document.getElementById('search-button')
+  if (e.key === 'k' && e.ctrlKey) {
+    searchbox.click()
+    e.preventDefault()
+  }
+})
+
 function Home() {
   const darkTheme = useTheme()
 
@@ -13,7 +22,7 @@ function Home() {
       <header>
         <Navbar
           start={
-            <Link to="/search" aria-label="Search">
+            <Link id="search-button" to="/search" aria-label="Search">
               <GetIcons
                 iconName="search"
                 className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
