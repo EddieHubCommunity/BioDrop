@@ -18,6 +18,21 @@
       "name": "Join OneSoftNet's Server",
       "url": "https://discord.gg/pazm3tqYh5",
       "icon": "discord"
+    },
+    {
+      "name": "Follow me on Reddit",
+      "url": "https://www.reddit.com/u/rakinar2",
+      "icon": "globe"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/rakinar2",
+      "icon": "dev.to"
+    },
+    {
+      "name": "StackOverflow Profile",
+      "url": "https://stackoverflow.com/users/14588484/ar-rakin",
+      "icon": "stackoverflow"
     }
   ],
   "milestones": [
