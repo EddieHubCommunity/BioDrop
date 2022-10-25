@@ -4,8 +4,7 @@ import app from "../../config/app.json";
 export default function UserLink({ link, username, displayStatsPublic }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
 
-  const clickLink = async (event) => {
-    event.preventDefault();
+  const clickLink = async () => {
     try {
       const res = await fetch(
         `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
@@ -19,8 +18,6 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       // TODO: link not found
       console.log("ERROR link not found ", e);
     }
-
-    window.open(link.url, '_blank', 'noopener,noreferrer');
   };
 
   return (
