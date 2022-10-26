@@ -73,7 +73,7 @@ function Users({ list }) {
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
-            <Link to={user.username} key={`avatar-${key}`}>
+            <Link to={`/${user.username}`} key={`avatar-${key}`}>
               <Chip
                 style={theme}
                 className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import 'primereact/resources/themes/saga-blue/theme.css'
 import 'primereact/resources/primereact.min.css'
@@ -24,25 +24,19 @@ function App() {
   body.style.backgroundColor = `${darkTheme ? '#202023' : 'white'}`
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className="p-2 md:p-4 max-h-screen" style={theme}>
         {user.username && <User singleUser={user} />}
         {!user.username && (
-          <Switch>
-            <Route path="/search">
-              <Search />
-            </Route>
-            <Route path="/:username">
-              <User />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/search" element={<Search />} />
+            <Route path="/:username" element={<User />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
         )}
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 
