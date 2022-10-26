@@ -14,7 +14,7 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
     border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
-    color: `${darkTheme ? 'white' : '#f3f3f3'}`,
+    or: `${darkTheme ? 'white' : '#f3f3f3'}`,
   }
 
   return (
