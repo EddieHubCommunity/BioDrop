@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
 import { Menubar } from 'primereact/menubar'
 import { useTheme, useThemeUpdate } from '../ThemeContext'
 
@@ -28,18 +27,19 @@ function Navbar({ items, start, end }) {
   if (!end) {
     end = (
       <div className="flex justify-content-center align-items-center pr-2">
-        <Link
-          to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree"
           target="_blank"
           className="mr-2"
           aria-label="LinkFree repository on GitHub"
+          rel="noreferrer"
         >
           <GetIcons
             className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
             iconName="github"
             size={16}
           />
-        </Link>
+        </a>
 
         <div style={theme}>v{version}</div>
 
