@@ -32,7 +32,7 @@ import {
   FaArrowLeft,
   FaBook,
   // ...
-  FaSpotify
+  FaSpotify,
 } from 'react-icons/fa'
 ```
 
@@ -60,10 +60,10 @@ function GetIcons({ iconName, ...restProps }) {
 
 ```json
 {
-   "validIcons": {
-      "android": "#3DDC84",
-      "spotify": "#1DB954"
-   }
+  "validIcons": {
+    "android": "#3DDC84",
+    "spotify": "#1DB954"
+  }
 }
 ```
 
@@ -74,24 +74,22 @@ function GetIcons({ iconName, ...restProps }) {
 
 <!-- ... -->
 
-|   Socials   |     Usage     | Icons                                                                                                                                                        |    Socials     |      Usage       | Icons                                                                                                                                   |
-| :---------: | :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------: | :--------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
-|   Android   |   `android`   | <img src="https://user-images.githubusercontent.com/65664185/138502465-89cfadf2-6b54-4f3d-ac44-ceacdd4824ba.png" width=65% height=30%>                       |     Apple      |     `apple`      | <img src="https://user-images.githubusercontent.com/65664185/138502540-8e9b80bf-deae-4566-a41a-c63623e83c21.png" width=100% height=30%> |
-|    Book     |    `book`     | <img src="https://user-images.githubusercontent.com/76985777/145391108-f8c08f8e-679f-45a3-ad58-83ef60aa28fe.png" width=65% height=30%>                       |   Codeforces   |   `codeforces`   | <img src="https://user-images.githubusercontent.com/91655303/148160942-870fdbb4-a57c-4861-afaa-241835390645.png" width=100% height=30%> |
+| Socials |   Usage   | Icons                                                                                                                                  |  Socials   |    Usage     | Icons                                                                                                                                   |
+| :-----: | :-------: | -------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------: | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Android | `android` | <img src="https://user-images.githubusercontent.com/65664185/138502465-89cfadf2-6b54-4f3d-ac44-ceacdd4824ba.png" width=65% height=30%> |   Apple    |   `apple`    | <img src="https://user-images.githubusercontent.com/65664185/138502540-8e9b80bf-deae-4566-a41a-c63623e83c21.png" width=100% height=30%> |
+|  Book   |  `book`   | <img src="https://user-images.githubusercontent.com/76985777/145391108-f8c08f8e-679f-45a3-ad58-83ef60aa28fe.png" width=65% height=30%> | Codeforces | `codeforces` | <img src="https://user-images.githubusercontent.com/91655303/148160942-870fdbb4-a57c-4861-afaa-241835390645.png" width=100% height=30%> |
 
 <!-- ... -->
 
-
-|  Snapchat   |  `snapchat`   | <img src="https://user-images.githubusercontent.com/91655303/148160774-755adc38-e089-4a20-910f-292b890e2c63.png" width=65% height=30%>                       |    Spotify     |   `spotify`      | <img src="<icon_preview_url_here>" width="100%" height="30%">                                                                           |      
-
+| Snapchat | `snapchat` | <img src="https://user-images.githubusercontent.com/91655303/148160774-755adc38-e089-4a20-910f-292b890e2c63.png" width=65% height=30%> | Spotify | `spotify` | <img src="<icon_preview_url_here>" width="100%" height="30%"> |
 
 <!-- ... -->
 ```
 
 ## Committing and pushing the changes
 
-After you've finished making changes, you need to commit and push those first. 
-If you've cloned the forked repo locally and working on it, run these commands:
+After you've finished making changes, you need to commit and push those first.
+If you've cloned the forked repo locally and are working on it, run these commands:
 
 ```
 git add src/config/links.json src/Components/Icons/GetIcons.js icons.md
@@ -101,20 +99,21 @@ git push origin main
 
 This will push changes to the forked repo.
 
-Otherwise if you're working on GitHub website, first make sure that you're on the correct branch. If you don't have one, you can create it while you commit the changes.
+Otherwise, if you're working on the GitHub website, make sure that you're on the correct branch. If you don't have one, you can create it while you commit the changes.
 
 After that, do the following:
 
 1. Scroll down to the "Commit changes" section at the bottom of the page.
-2. Check if you have the correct branch selected. Otherwise you can click on "Create a new branch and start a pull request" option. This will create a new branch with the changes when you make the commit.
+2. Check if you have the correct branch selected. Otherwise, you can click on "Create a new branch and start a pull request" option. This will create a new branch with the changes when you make the commit.
 3. Adjust the commit message.
-4. Click the "Commit Changes" button at the bottom of the page and then it will commit the changes for you.
+4. Click the "Commit Changes" button at the bottom of the page and it will commit the changes for you.
 
 After all of these, do the following:
 
 1. Go to your forked repo.
-2. Click on "Contribute" > "Create Pull Request". This will take you to the Pull Request creation page. 
-3. Set the "base" branch to "main" and "compare" branch to the branch you're working on. You'll be able to select those branches. These things are automatically adjusted most of the times so you don't need to change anything there. 
+2. Click on "Contribute" > "Create Pull Request". This will take you to the Pull Request creation page.
+3. Set the "base" branch to "main" and "compare" branch to the branch you're working on. You'll be able to select those branches. These things are automatically adjusted most of the times so you don't need to change anything there.
 4. Click "Create Pull Request".
 
-This will create a Pull Request and the maintainers will review the changes and merge it if everything was good, otherwise they might request you to change some things. 
+This will create a Pull Request and the maintainers will review the changes and merge it if everything was good. Otherwise they might request you to
+make some changes.
