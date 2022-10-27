@@ -34,12 +34,14 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Image
-                  src="/logo192.png"
-                  alt="EddieHub logo"
-                  width={32}
-                  height={32}
-                />
+                <a href="/">
+                  <Image
+                    src="/logo192.png"
+                    alt="EddieHub logo"
+                    width={32}
+                    height={32}
+                  />
+                </a>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
