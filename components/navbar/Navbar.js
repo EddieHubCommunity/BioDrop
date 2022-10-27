@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useState } from "react";
 import NavLink from "./NavLink";
 import app from "../../config/app.json";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
