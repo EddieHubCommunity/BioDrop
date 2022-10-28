@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true, 
+  reactStrictMode: true,
   images: {
     domains: [
       "github.com",
@@ -9,7 +9,7 @@ const nextConfig = {
       "cdn.nhcarrigan.com",
       "avatars.dicebear.com",
     ],
-    formats: ['image/webp']
+    formats: ["image/webp"],
   },
   compress: true,
 };

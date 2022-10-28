@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 import NavLink from "./NavLink";
+import Link from "next/link";
 import app from "../../config/app.json";
 import Image from "next/image";
 
@@ -34,12 +35,14 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Image
-                  src="/logo192.png"
-                  alt="EddieHub logo"
-                  width={32}
-                  height={32}
-                />
+                <Link href="/">
+                  <Image
+                    src="/logo192.png"
+                    alt="EddieHub logo"
+                    width={32}
+                    height={32}
+                  />
+                </Link>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
@@ -107,7 +110,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className={`${!isOpen && 'hidden'} md:hidden`} id="mobile-menu">
+        <div className={`${!isOpen && "hidden"} md:hidden`} id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {primary.map((item, index) => (
               <NavLink

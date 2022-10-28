@@ -9,7 +9,7 @@ module.exports = {
     "@storybook/addon-interactions",
     "storybook-addon-next",
   ],
-  staticDirs: ['../public'],
+  staticDirs: ["../public"],
   framework: "@storybook/react",
   core: {
     builder: "@storybook/builder-webpack5",
