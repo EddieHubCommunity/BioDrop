@@ -6,15 +6,16 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "mongoose": "^6.6.5",
-    "next": "^12",
+    "next": "^13",
     "prettier": "^2.7.1",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
     "dev": "next dev",
+    "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test",
     "start": "next start",
@@ -51,7 +52,7 @@
     "babel-loader": "^8.2.5",
     "concurrently": "^7.4.0",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.0",
+    "eslint-config-next": "13.0.0",
     "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
     "lint-staged": "^12.1.4",
