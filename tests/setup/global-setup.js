@@ -1,6 +1,8 @@
 const { chromium } = require("@playwright/test");
 const fs = require("fs");
 
+const { USERS } = require("./test-users.js");
+
 const user = (username) => {
   return {
     name: username.toUpperCase(),
@@ -24,13 +26,7 @@ const user = (username) => {
 };
 
 module.exports = async (config) => {
-  const users = [
-    "_test-profile-user-1",
-    "_test-profile-user-2",
-    "_test-profile-user-3",
-  ];
-
-  users.forEach((username) => {
+  USERS.forEach((username) => {
     const data = user(username);
 
     try {
