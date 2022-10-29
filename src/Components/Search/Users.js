@@ -70,9 +70,8 @@ function Users({ list }) {
           profileType={profileType}
           typeHandler={typeHandler}
         />
-      </div>
-     
-      {length>=3 && <div className="user-list flex flex-wrap justify-content-center">
+      </div>   
+      {length >= 3 && <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
