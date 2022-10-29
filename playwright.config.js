@@ -58,19 +58,19 @@ const config = {
       },
     },
 
-    {
-      name: "firefox",
-      use: {
-        ...devices["Desktop Firefox"],
-      },
-    },
+    // {
+    //   name: "firefox",
+    //   use: {
+    //     ...devices["Desktop Firefox"],
+    //   },
+    // },
 
-    {
-      name: "webkit",
-      use: {
-        ...devices["Desktop Safari"],
-      },
-    },
+    // {
+    //   name: "webkit",
+    //   use: {
+    //     ...devices["Desktop Safari"],
+    //   },
+    // },
 
     /* Test against mobile viewports. */
     // {
@@ -111,6 +111,8 @@ const config = {
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
   },
+  globalSetup: require.resolve("./tests/global-setup"),
+  globalTeardown: require.resolve("./tests/global-teardown"),
 };
 
 module.exports = config;
