@@ -2,34 +2,28 @@
 const { test, expect } = require("@playwright/test");
 
 test("Profile has title", async ({ page }) => {
-  await page.goto("/eddiejaoude");
-  await expect(page).toHaveTitle(/Eddie Jaoude/);
+  const username = "_test-profile-user-1";
+  await page.goto(`/${username}`);
+  await expect(page).toHaveTitle(username.toUpperCase());
 });
 
 // Test to make sure profile name is displayed on page
 test("Name appears on the page", async ({ page }) => {
-  await page.goto("/eddiejaoude");
-  await expect(page.locator("h1")).toHaveText(/Eddie Jaoude/);
+  const username = "_test-profile-user-2";
+  await page.goto(`/${username}`);
+  await expect(page.locator("h1")).toHaveText(username.toUpperCase());
 });
 
 // Test to see if going to a profile 3X increases views by 3
-test("Profile views increase", async ({ page, browserName }) => {
-  await page.goto("/eddiejaoude");
-  const startingViews = await (await page.innerText("h2")).split(" ");
+test("Profile views increase", async ({ page }) => {
+  await page.goto("/_test-profile-user-3");
+  const startingViews = (await page.innerText("h2")).split(" ")[1];
+  await page.goto("/_test-profile-user-3");
+  await page.goto("/_test-profile-user-3");
+  await page.goto("/_test-profile-user-3");
 
-  // loop to handle profile page navigation
-  for (let i = 0; i < 3; i++) {
-    await page.goto("/");
-    await page.goto("/eddiejaoude");
-  }
-  const endingViews = await (await page.innerText("h2")).split(" ");
-
-  // if statement to account for Firefox counting 5 instead of 3 🤷🏻‍♂️
-  if (browserName === "firefox") {
-    expect(parseInt(startingViews[1])).toEqual(parseInt(endingViews[1]) - 5);
-  } else {
-    expect(parseInt(startingViews[1])).toEqual(parseInt(endingViews[1]) - 3);
-  }
+  const endingViews = (await page.innerText("h2")).split(" ")[1];
+  expect(parseInt(startingViews)).toEqual(parseInt(endingViews) - 3);
 });
 
 test.fixme("Link clicks increase", async ({ page }) => {

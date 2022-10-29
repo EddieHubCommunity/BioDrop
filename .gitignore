@@ -29,6 +29,7 @@ yarn-error.log*
 # testing
 /playwright-report/
 /playwright/.cache/
+data/_test-*.json
 
 # storybook
 /storybook-static
