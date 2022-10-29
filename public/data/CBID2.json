@@ -1,0 +1,28 @@
+{
+	"name": "Christine Belzie",
+	"type": "personal",
+	"bio": "An Instructional Designer who codes",
+	"avatar": "https://github.com/<CBID2>.png",
+	"links": [
+	  {
+		"name": "Follow me on GitHub",
+		"url": "https://github.com/CBID2",
+		"icon": "github"
+	  },
+	  {
+		"name": "Follow me on Linkedin",
+		"url": "https://www.linkedin.com/in/christinebelzie?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbAD8xP0ER%2BqwZb8XdaDe9w%3D%3D",
+		"icon": "Linkedin"
+	  }
+	],
+	"milestones": [
+	  {
+		"title": "Earned a Pull Shark",
+		"date": "October 2022",
+		"icon": "shark",
+		"color": "grey",
+		"description": "My first award on GitHub",
+		"url": "https://www.github.com/CBID2"
+	  }
+	]
+  }
