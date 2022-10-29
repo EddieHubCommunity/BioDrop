@@ -75,7 +75,7 @@ function Users({ list }) {
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
-            <Link  to={user.username} key={`avatar-${key}`}>
+            <Link to={user.username} key={`avatar-${key}`}>
               <Chip
                 style={theme}
                 label={
@@ -94,7 +94,7 @@ function Users({ list }) {
               severity="error"
               text="No users found, please try with another name."
             />
-          </div> 
+          </div>
         )}
       </div>}
     </>
