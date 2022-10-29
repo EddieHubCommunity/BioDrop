@@ -30,7 +30,7 @@ export default function Popular({ data }) {
       </Head>
 
       <div className="mx-auto container">
-        <h1 className="text-3xl font-bold underline">Popular Profiles</h1>
+        <h1 className="text-4xl font-bold mb-4">Popular Profiles</h1>
         <ul>
           {data.map((profile) => (
             <li key={profile.username}>
