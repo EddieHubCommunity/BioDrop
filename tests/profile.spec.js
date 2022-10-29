@@ -1,5 +1,5 @@
 // @ts-check
-const { test, expect } = require("@playwright/test");
+import { test, expect } from "@playwright/test";
 
 test("Profile has title", async ({ page }) => {
   const username = "_test-profile-user-1";

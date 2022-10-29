@@ -1,5 +1,5 @@
-const { chromium } = require("@playwright/test");
-const fs = require("fs");
+import { chromium } from "@playwright/test";
+import fs from "fs";
 
 const { USERS } = require("./test-users.js");
 
