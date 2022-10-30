@@ -10,7 +10,6 @@ import { useTheme } from '../../ThemeContext'
 
 function Search() {
   const [list, setList] = useState([])
- 
   const toast = useRef(null)
   const darkTheme = useTheme()
 
