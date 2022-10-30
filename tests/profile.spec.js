@@ -26,11 +26,24 @@ test("Profile views increase", async ({ page }) => {
   expect(parseInt(startingViews)).toEqual(parseInt(endingViews) - 3);
 });
 
-test.fixme("Link clicks increase", async ({ page }) => {
-  // 1. nagivate to profile
-  // 2. get the current link clicks
-  // 3. click the link x3
+test("Link clicks increase", async ({ page }) => {
+  await page.goto("/_test-profile-user-4");
+
+  const link = page.locator("text=/Link 1\\s*/i");
+  const startingClicks = (await link.innerText()).match(/(\d+)/g);
+
+  await link.click();
+  await link.click();
+  await link.click();
+
+  await page.waitForResponse(
+    (resp) => resp.url().includes("/api/statistics") && resp.status() === 201
+  );
+
+  const endingClicks = (await link.innerText()).match(/(\d+)/g);
+
   // 4. get the current link views and see if increased by 3
+  expect(parseInt(startingClicks[1])).toEqual(parseInt(endingClicks[1]) - 3);
 });
 
 test.fixme("Link navigates", async ({ page }) => {
