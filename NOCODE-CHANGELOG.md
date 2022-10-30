@@ -19,3 +19,4 @@ YouTube (or blog)
 | CONTRIBUTOR | CONTRIBUTION | DATE (YYYY/MM/DD) | RESOURCE LINK (PR, Blog, Video) |
 | :---------- | :----------- | :---------------- | :------------------------------ |
 | [Christine Belzie](https://github.com/CBID2) | Pair programmed on Discord | 2022/10/29 | [#2060](https://github.com/EddieHubCommunity/LinkFree/pull/2060) |
+| [Arindam Majumder](https://github.com/Arindam200) | Blog | 2022/10/30 | [The Complete Beginner's Guide To GitHub: (Part-1)](https://arindam1729.hashnode.dev/the-complete-beginners-guide-to-github-part-1) |
