@@ -23,7 +23,7 @@ export default function Navbar() {
       url: "/search",
     },
     {
-      name: "Events",
+      name: "Community Events",
       url: "/events",
     },
   ];
