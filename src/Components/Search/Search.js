@@ -31,7 +31,6 @@ function Search() {
           life: 5000,
         })
       })
-      
   }, [])
 
   return (
