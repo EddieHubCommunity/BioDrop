@@ -5,6 +5,7 @@
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
     "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
     "mongoose": "^6.6.5",
     "next": "^13",
     "prettier": "^2.7.1",
