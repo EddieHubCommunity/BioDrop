@@ -24,8 +24,8 @@ export default function Search({ users }) {
     setFilteredUsers(
       value.length
         ? users.filter((user) =>
-          user.name.toLowerCase().includes(value.toLowerCase())
-        )
+            user.name.toLowerCase().includes(value.toLowerCase())
+          )
         : users
     );
   };
@@ -40,7 +40,7 @@ export default function Search({ users }) {
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users"
-          className="border-2 hover:border-sky-500 transition-all duration-250 ease-linear rounded px-6 py-2"
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
           name="keyword"
           onChange={(e) => filterData(e.target.value)}
         />

@@ -30,7 +30,7 @@ export default function Events({ events }) {
         <ul>
           {events.map((event) => (
             <li key={event.name}>
-              <EventPreview event={event} username={event.username} />
+              <EventPreview event={event} username={event.author} />
             </li>
           ))}
         </ul>

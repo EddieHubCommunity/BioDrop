@@ -5,7 +5,8 @@ export default function UserPreview({ profile }) {
   return (
     <Link
       href={`/${profile.username}`}
-      className="flex flex-col gap-x-4 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-gray-500 p-4 my-2">
+      className="flex flex-col gap-x-4 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-orange-600 p-4 my-2"
+    >
       <div className="flex items-center gap-5">
         <div className="min-w-[5rem]">
           <FallbackImage
