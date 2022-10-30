@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
+
 import app from "../config/app.json";
 import singleUser from "../config/user.json";
 
@@ -92,7 +94,13 @@ export default function Home({ data }) {
           </Link>
           .
         </p>
-        <img src="/mockup.png" className="grid place-items-center w-screen" />
+        <Image
+          src="/mockup.png"
+          className="grid place-items-center w-screen"
+          alt="Mock up of LinkFree project"
+          width="800"
+          height="500"
+        />
       </main>
     </>
   );
