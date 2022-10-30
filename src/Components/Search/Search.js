@@ -10,7 +10,7 @@ import { useTheme } from '../../ThemeContext'
 
 function Search() {
   const [list, setList] = useState([])
-  const [skeleton, setskeleton] = useState(false)
+ 
   const toast = useRef(null)
   const darkTheme = useTheme()
 
@@ -32,11 +32,7 @@ function Search() {
           life: 5000,
         })
       })
-      .finally(() => {
-        setTimeout(() => {
-          setskeleton(false)
-        }, 500)
-      })
+      
   }, [])
 
   return (
@@ -56,7 +52,7 @@ function Search() {
       </header>
       <main>
         <Toast ref={toast} />
-        {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
+         <Users list={list} />
       </main>
     </>
   )
