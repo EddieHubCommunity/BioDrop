@@ -1,7 +1,7 @@
 {
   "name": "Jaideep Singh",
   "type": "personal",
-  "bio": "A Philonoist, Developer",
+  "bio": "A Philonoist, Full Stack Developer",
   "avatar": "https://github.com/Jaideep25-tech.png",
   "links": [
     {
@@ -15,14 +15,14 @@
       "icon": "linkedin"
     },
     {
-      "name": "Check out my portfolio",
-      "url": "https://devaaquib.github.io/Aaquib-Ali-Portfolio/",
-      "icon": "globe"
-    },
-    {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/jaideep.java/",
       "icon": "instagram"
+    }
+    {
+      "name": "Book 1:1 session on Topmate",
+      "url": "http://topmate.io/jaideep_singh",
+      "icon": "link"
     }
   ],
   "milestones": [
@@ -48,18 +48,24 @@
     },
     {
       "title": "Program Manager",
-      "date": "2020",
-      "icon": "trophy",
-      "color": "golden",
+      "date": "NOV 2021",
+      "icon": "dollar",
+      "color": "grey",
       "description": "Became the program manger of the open source program SWOC"
     },
     {
-      "title": "GitHub Nova, Community Growth Award",
-      "date": "2021",
-      "icon": "github",
-      "color": "green",
-      "description": "Won for growing the EddieHub Community to over 30k members.",
-      "url": "https://github.com/eddiejaoude"
+      "title": "Started building SOS 42 under SDE internship at Edventure Club",
+      "date": "May 2022",
+      "icon": "dollar",
+      "color": "golden",
+      "description": "Building cross platform mobile application in flutter using state management and firebase", 
+    },
+    {
+      "title": "Started working at Rjwada (Startup of IIT Delhi)",
+      "date": "Aug 2022",
+      "icon": "dollar",
+      "color": "golden",
+      "description": "Building cross platform mobile application in flutter integrating AR/VR built in unity into Application and working with API ", 
     }
   ]
 }
