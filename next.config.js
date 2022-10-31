@@ -6,6 +6,7 @@ const nextConfig = {
       "github.com",
       "avatars.githubusercontent.com",
       "user-images.githubusercontent.com",
+      "camo.githubusercontent.com",
       "cdn.nhcarrigan.com",
       "avatars.dicebear.com",
     ],
