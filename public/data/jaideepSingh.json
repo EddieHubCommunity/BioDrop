@@ -14,7 +14,7 @@
       "url": "https://www.linkedin.com/in/jaideep-singh-26a226208/",
       "icon": "linkedin"
     },
-        {
+    {
       "name": "Check out my portfolio",
       "url": "https://devaaquib.github.io/Aaquib-Ali-Portfolio/",
       "icon": "globe"
@@ -38,20 +38,20 @@
       "title": "Completed java assosiate developer internship",
       "date": "Nov 2021",
       "icon": "dollar",
-      "color": "red",
+      "color": "red"
     },
     {
       "title": "GSWoC'21 Top 10 Java Contributor",
       "date": "Nov 2020",
       "icon": "trophy",
-      "color": "golden",      
+      "color": "golden"
     },
     {
       "title": "Program Manager",
       "date": "2020",
       "icon": "trophy",
       "color": "golden",
-      "description": "Became the program manger of the open source program SWOC",
+      "description": "Became the program manger of the open source program SWOC"
     },
     {
       "title": "GitHub Nova, Community Growth Award",
