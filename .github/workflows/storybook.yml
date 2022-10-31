@@ -11,5 +11,5 @@ jobs:
           node-version: "16"
       - name: install dependencies
         run: npm ci
-      - name: run build
-        run: npm run build-storybook
+      # - name: run build
+      #   run: npm run build-storybook
