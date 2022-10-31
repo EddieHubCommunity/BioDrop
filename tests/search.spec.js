@@ -40,3 +40,9 @@ test.fixme("After search click profile", async ({ page }) => {
   // 2. click on searched profile
   // 3. check profile is displayed
 });
+
+test.fixme("find the profile after providing concise name", async ({ page }) => {
+  // 1. click on search profile
+  // 2. type the whole name
+  // 3. Display the profile if the name is correct
+});
