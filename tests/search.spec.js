@@ -6,6 +6,12 @@ test("Search has title", async ({ page }) => {
   await expect(page).toHaveTitle(/Search/);
 });
 
+test.fixme("Search works correctly", async ({ page }) => {
+  // 1. nagivate to search page
+  // 2. show user is listed with all users (no search term)
+  // 3. type in search and check that user with the name exist and check a name doesn't exist from step 2
+});
+  
 test.fixme("Navigate to the Search page", async ({ page }) => {
   // 1. nagivate to homepage
   // 2. click on search on the navbar
