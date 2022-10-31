@@ -1,43 +1,51 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {
-  FaFacebook,
-  FaLink,
   FaAndroid,
   FaApple,
+  FaArrowLeft,
+  FaBook,
+  FaDev,
   FaDiscord,
+  FaDollarSign,
+  FaEnvelope,
+  FaFacebook,
   FaGithub,
+  FaGitlab,
+  FaGlobe,
+  FaGraduationCap,
+  FaInstagram,
+  FaLaravel,
+  FaLink,
+  FaLinkedin,
   FaMicrosoft,
+  FaMoon,
+  FaNodeJs,
   FaPaypal,
+  FaSearch,
   FaSlack,
+  FaSnapchat,
+  FaSun,
+  FaStackOverflow,
+  FaTelegram,
+  FaTiktok,
+  FaTwitch,
   FaTwitter,
   FaVimeo,
   FaYoutube,
-  FaEnvelope,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitch,
-  FaDev,
-  FaGlobe,
-  FaBook,
-  FaDollarSign,
-  FaGraduationCap,
-  FaTiktok,
-  FaArrowLeft,
-  FaSearch,
-  FaTelegram,
-  FaSnapchat,
-  FaGitlab,
 } from 'react-icons/fa'
 import {
   SiCodeforces,
   SiCodewars,
   SiHackerrank,
   SiHashnode,
+  SiLeetcode,
   SiMedium,
   SiPolywork,
 } from 'react-icons/si'
 import { RiSendPlaneFill } from 'react-icons/ri'
+import { FiShare2 } from 'react-icons/fi'
+import { DiOpensource } from 'react-icons/di'
 
 function GetIcons({ iconName, ...restProps }) {
   switch (iconName) {
@@ -49,6 +57,8 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaArrowLeft {...restProps} />
     case 'book':
       return <FaBook {...restProps} />
+    case 'shareprofile':
+      return <FiShare2 {...restProps} />
     case 'codeforces':
       return <SiCodeforces {...restProps} />
     case 'codewars':
@@ -69,6 +79,7 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaGitlab {...restProps} />
     case 'globe':
       return <FaGlobe {...restProps} />
+    case 'Graduation Hat':
     case 'graduation-hat':
       return <FaGraduationCap {...restProps} />
     case 'hackerrank':
@@ -77,6 +88,10 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiHashnode {...restProps} />
     case 'instagram':
       return <FaInstagram {...restProps} />
+    case 'laravel':
+      return <FaLaravel {...restProps} />
+    case 'leetcode':
+      return <SiLeetcode {...restProps} />
     case 'link':
       return <FaLink {...restProps} />
     case 'linkedin':
@@ -85,6 +100,12 @@ function GetIcons({ iconName, ...restProps }) {
       return <SiMedium {...restProps} />
     case 'microsoft':
       return <FaMicrosoft {...restProps} />
+    case 'moon':
+      return <FaMoon {...restProps} />
+    case 'node-js':
+      return <FaNodeJs {...restProps} />
+    case 'open-source':
+      return <DiOpensource {...restProps} />
     case 'paypal':
       return <FaPaypal {...restProps} />
     case 'polywork':
@@ -97,6 +118,10 @@ function GetIcons({ iconName, ...restProps }) {
       return <FaSlack {...restProps} />
     case 'snapchat':
       return <FaSnapchat {...restProps} />
+    case 'stackoverflow':
+      return <FaStackOverflow {...restProps} />
+    case 'sun':
+      return <FaSun {...restProps} />
     case 'telegram':
       return <FaTelegram {...restProps} />
     case 'tiktok':

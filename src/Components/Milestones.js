@@ -46,7 +46,7 @@ function Milestones({ milestones }) {
             label="Learn more"
             role="link"
             rel="noopener noreferrer"
-            className="p-button-raised p-button-rounded"
+            className="p-button-raised p-button-rounded border-0"
             onClick={() => goToLinkHandle(milestone.url)}
             style={{ backgroundColor: milestone.color }}
           />
@@ -61,7 +61,7 @@ function Milestones({ milestones }) {
         <Timeline
           value={milestones}
           align="alternate"
-          className="customized-timeline"
+          className="p-timeline-vertical p-timeline-alternate customized-timeline"
           marker={(milestone) => marker(milestone)}
           content={(milestone) => content(milestone)}
         />

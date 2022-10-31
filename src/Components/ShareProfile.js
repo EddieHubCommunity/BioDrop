@@ -17,19 +17,15 @@ export default function ShareProfile({ username }) {
     })
   }
 
+  document.querySelector('body').style.overflow = show ? 'hidden' : 'visible'
+
   return (
     <div className="flex justify-content-center">
       <Toast ref={toast} />
 
-      <svg
-        onClick={() => setShow(!show)}
-        height="25px"
-        viewBox="0 0 96 96"
-        width="25px"
-        className="cursor-pointer sm:ml-4"
-      >
-        <path d="M72,56c-4.813,0-9.12,2.137-12.054,5.501L39.643,51.35C39.873,50.269,40,49.149,40,48s-0.127-2.269-0.357-3.349  l20.303-10.152C62.879,37.864,67.187,40,72,40c8.836,0,16-7.164,16-16S80.836,8,72,8s-16,7.164-16,16  c0,1.149,0.127,2.269,0.357,3.349L36.054,37.501C33.121,34.136,28.814,32,24,32c-8.836,0-16,7.164-16,16c0,8.836,7.164,16,16,16  c4.814,0,9.12-2.137,12.054-5.501l20.304,10.152C56.127,69.731,56,70.851,56,72c0,8.836,7.164,16,16,16s16-7.164,16-16  S80.836,56,72,56z M72,16c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8S67.582,16,72,16z M24,56c-4.418,0-8-3.582-8-8  c0-4.418,3.582-8,8-8s8,3.582,8,8C32,52.418,28.418,56,24,56z M72,80c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S76.418,80,72,80  z" />
-      </svg>
+      <div onClick={() => setShow(!show)}>
+        <GetIcons iconName="shareprofile" />
+      </div>
 
       {show
         ? (
@@ -41,7 +37,7 @@ export default function ShareProfile({ username }) {
 
           <div
             style={{ marginTop: '40vh', borderRadius: '1rem' }}
-            className="flex bg-white justify-content-center z-5 p-6 absolute mx-auto align-items-center"
+            className="flex bg-white justify-content-center z-5 absolute mx-auto align-items-center p-3 sm:p-6"
           >
             <ShareIcon
               link={`https://www.facebook.com/sharer/sharer.php?u=${profileUrl}`}
@@ -54,17 +50,20 @@ export default function ShareProfile({ username }) {
               iconName="twitter"
             />
             <ShareIcon
-              link={`https://www.linkedin.com/sharing/share-offsite?url=${encodeURIComponent(profileUrl)}`}
+              link={`https://www.linkedin.com/sharing/share-offsite?url=${encodeURIComponent(
+                profileUrl,
+              )}`}
               label="Share on LinkedIn"
               iconName="linkedin"
             />
             <a
+              className="mx-4 sm:mx-5"
               role="button"
               onClick={CopyLink}
               aria-label="Copy link to profile"
             >
               <GetIcons
-                className="w-2rem h-2rem my-2rem cursor-pointer mx-5 share-icons copyLink"
+                className="w-2rem h-2rem my-2rem cursor-pointer share-icons copyLink"
                 iconName="link"
                 size={20}
               />

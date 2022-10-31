@@ -1,5 +1,15 @@
 name: Build
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - public/**
+      - src/**
+      - cypress/**
+  pull_request:
+    paths:
+      - public/**
+      - src/**
+      - cypress/**
 
 jobs:
   build:

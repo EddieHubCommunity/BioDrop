@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 function ShareIcon({ link, label, iconName }) {
   return (
     <a
-      className="mx-5"
+      className="mx-4 sm:mx-5"
       href={link}
       target="_blank"
       rel="noopener noreferrer"

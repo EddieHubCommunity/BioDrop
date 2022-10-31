@@ -46,3 +46,11 @@
     width: 90%;
   }
 }
+
+/* fixes issue in link button for long texts */
+@media screen and (max-width: 590px) {
+  .p-button.p-button-outlined {
+    max-width: 85vw;
+    margin: auto;
+  }
+}

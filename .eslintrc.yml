@@ -1,6 +1,7 @@
 env:
   browser: true
   es2021: true
+  cypress/globals: true
 extends:
   - 'plugin:react/recommended'
   - 'plugin:json/recommended'
@@ -13,6 +14,7 @@ parserOptions:
   sourceType: module
 plugins:
   - react
+  - eslint-plugin-cypress
 rules:
   {
     'space-before-function-paren': ['error', 'never'],
