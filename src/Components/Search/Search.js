@@ -1,7 +1,6 @@
 import './Search.css'
 import React, { useState, useEffect, useRef } from 'react'
 import Navbar from '../Navbar'
-import Placeholders from './Placeholders'
 import GetIcons from '../Icons/GetIcons'
 import Users from './Users'
 import { Link } from 'react-router-dom'
