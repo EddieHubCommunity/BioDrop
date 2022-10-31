@@ -18,6 +18,29 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AmeliaDutta",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on CodeWars",
+      "url": "https://www.codewars.com/users/amelia2802",
+      "icon": "codewars"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Internship",
+      "date": "March 2022",
+      "icon": "globe",
+      "color": "pink",
+      "description": "Started Internship as Data Analyst",
+      "url": "https://amelia2802.github.io/Portfolio/"
+    },
+    {
+      "title": "Started Contributing",
+      "date": "June 2022",
+      "icon": "github",
+      "color": "blue",
+      "description": "Started Contributing in Open Source",
+      "url": "https://github.com/amelia2802/"
     }
   ]
 }

@@ -21,12 +21,12 @@
     },
     {
       "name": "Check my Blogs",
-      "url": "https://dev.to/zougari47",
+      "url": "https://blog.ahmedzougari.com",
       "icon": "dev.to"
     },
     {
       "name": "Visit my Portfolio",
-      "url": "ahmedzougari.netlify.app",
+      "url": "https://ahmedzougari.com",
       "icon": "Globe"
     }
   ]

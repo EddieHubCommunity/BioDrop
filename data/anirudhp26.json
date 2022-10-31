@@ -1,7 +1,7 @@
 {
   "name": "Anirudh Patel",
   "type": "personal",
-  "bio": "Student | Full Stack Web Developer | Machine Learning | Ai | DevOps",
+  "bio": "Learning in Public, Building in Public",
   "avatar": "https://github.com/anirudhp26.png",
   "links": [
     {
@@ -11,35 +11,18 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/anirudh_p26",
+      "url": "https://github.com/anirudh_p26",
       "icon": "twitter"
     }
   ],
   "milestones": [
     {
-      "title": "Full Stack Web Developer",
-      "date": "August 2022",
-      "color": "blue"
-    }
-  ],
-  "events": [
-    {
-      "name": "Nextjs conference",
-      "link": "#",
-      "description": "Event organised to grow Next js community",
-      "date": "2000-01-03T00:00:00.000Z",
-      "isInPerson": true,
-      "isVirtual": true,
-      "color": "blue"
-    },
-    {
-      "name": "Reactjs conference",
-      "link": "#",
-      "description": "Event organised to grow React js community",
-      "date": "2001-01-03T00:00:00.000Z",
-      "isInPerson": true,
-      "isVirtual": true,
-      "color": "blue"
+      "title": "Found Open Source",
+      "date": "June 2022",
+      "icon": "github",
+      "color": "green",
+      "description": "Started Open Source in Aug 2022",
+      "url": "https://github.com/anirudhp26"
     }
   ]
 }

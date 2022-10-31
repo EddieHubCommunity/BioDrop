@@ -1,22 +1,23 @@
 {
   "name": "Shivam Sharma",
   "type": "personal",
-  "bio": "Contributor @kubesimplify | Web Developer | Open Source & Cloud & DevOps Enthusiast.",
+  "bio": "Web Development | Open Source & Communities | Contributor @kubesimplify | DevOps & ML Enthusiast.",
   "avatar": "https://github.com/shivam-sharma7.png",
   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shivamstwt1",
+      "icon": "Twitter"
+    },
     {
       "name": "Here's my GitHub",
       "url": "https://github.com/shivam-sharma7",
       "icon": "Github"
     },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/meshivamsharma",
-      "icon": "Twitter"
-    },
+
     {
       "name": "Blog's",
-      "url": "https://shivam-sharma.in",
+      "url": "https://shivam-sharma.hashnode.dev/",
       "icon": "Link"
     }
   ]
