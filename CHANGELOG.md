@@ -1,45 +1,45 @@
+## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
+
+
+### Bug Fixes
+
+* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
+
+
+
+## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
+
+
+### Bug Fixes
+
+* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
+
+
+
+## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
+
+
+### Bug Fixes
+
+* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
+
+
+
+## [0.78.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.0...v0.78.1) (2022-10-28)
+
+
+### Bug Fixes
+
+* color of hyperlinks in dark mode ([#1929](https://github.com/EddieHubCommunity/LinkFree/issues/1929)) ([7a073cb](https://github.com/EddieHubCommunity/LinkFree/commit/7a073cbac01550f68bb0fa8ebe79aafe7eaac2eb))
+
+
+
 # [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
 
 
 ### Features
 
 * keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
-
-
-
-## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
-
-
-### Bug Fixes
-
-* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
-
-
-
-## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
-
-
-### Bug Fixes
-
-* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
-
-
-
-## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
-
-
-### Bug Fixes
-
-* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
-
-
-
-# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
-
-
-### Features
-
-* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
 
 
 
