@@ -1,5 +1,6 @@
 import { useState } from "react";
 import app from "../../config/app.json";
+import colors from "../../config/icons.json";
 import Icon from "../Icon";
 
 export default function UserLink({ link, username, displayStatsPublic }) {
@@ -28,6 +29,9 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       rel="noopener noreferrer"
       onClick={clickLink}
       className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
+      style={{
+        color: colors[link.icon],
+      }}
     >
       <Icon name={link.icon} />
       <span className="grow">{link.name}</span>
