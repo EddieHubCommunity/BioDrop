@@ -5,7 +5,7 @@ test("Search has title", async ({ page }) => {
   await page.goto("/search");
   await expect(page).toHaveTitle(/Search/);
 });
-  
+
 test.fixme("Navigate to the Search page", async ({ page }) => {
   // 1. nagivate to homepage
   // 2. click on search on the navbar
