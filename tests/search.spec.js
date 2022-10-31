@@ -12,10 +12,21 @@ test.fixme("Navigate to the Search page", async ({ page }) => {
   // 3. check for the text "search" on the page
 });
 
-test.fixme("Search works correctly", async ({ page }) => {
-  // 1. nagivate to search page
-  // 2. show user is listed with all users (no search term)
-  // 3. type in search and check that user with the name exist and check a name doesn't exist from step 2
+test.fixme("Search page has no results when no search term used", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Check no results are displayed
+});
+
+test.fixme("Search page shows no results after typing 2 characters", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Type 2 characters
+  // 3. Check no results are displayed
+});
+
+test.fixme("Search page shows results after typing 3 characters", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Type 3 characters
+  // 3. Check if the results show up if the it get matched.
 });
 
 test.fixme("After search click profile", async ({ page }) => {
