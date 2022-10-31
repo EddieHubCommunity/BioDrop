@@ -70,7 +70,7 @@ function Users({ list }) {
           profileType={profileType}
           typeHandler={typeHandler}
         />
-      </div>   
+      </div>
       {length >= 3 && <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
