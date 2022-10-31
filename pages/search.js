@@ -19,14 +19,14 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({ users }) {
-  const [filteredUsers, setFilteredUsers] = useState(users);
+  const [filteredUsers, setFilteredUsers] = useState([]);
   const filterData = (value) => {
     setFilteredUsers(
-      value.length
+      value.length >= 3
         ? users.filter((user) =>
             user.name.toLowerCase().includes(value.toLowerCase())
           )
-        : users
+        : []
     );
   };
   return (
