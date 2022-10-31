@@ -1,4 +1,11 @@
-test.fixme("Popular profile view", async ({ page }) => {
-  // 1. click on the popular profile
-  // 2. check wheather the most popular profile is at thee top of the profile list
+// @ts-check
+import { test, expect } from "@playwright/test";
+
+test.fixme("Click on popular profile in navbar navigates to popular page", async ({ page }) => {
+  // 1. click on popular nav link
+  // 2. check if it takes us to the popular page
+
+test.fixme("Popular profiles listed", async ({ page }) => {
+  // 1. navigate to popular profile page
+  // 2. check the most popular profile is at the top of the profile list
 });
