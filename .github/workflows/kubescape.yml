@@ -1,0 +1,21 @@
+name: Kubescape
+on:
+  push:
+    paths:
+      - 'kubernetes/**'
+  pull_request:
+    paths:
+      - 'kubernetes/**'
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install Kubescape
+        run: curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
+      - name: Kubescape
+        run: kubescape scan kubernetes/*.yaml -v --fail-threshold 40

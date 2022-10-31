@@ -1,5 +1,8 @@
 name: Format
-on: [push, workflow_dispatch, pull_request]
+on:
+  push:
+    paths:
+      - 'data/**'
 
 jobs:
   format:
@@ -16,6 +19,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
         with:
           commit_message: "style: format files"

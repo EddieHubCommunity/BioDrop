@@ -1,4 +1,4 @@
-name: Build & publish Docker image then deploy
+name: Deploy
 on:
   release:
     types: [published]
@@ -53,22 +53,22 @@ jobs:
           tags: |
             ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
-  deploy:
-    name: deploy to kube cluster
-    needs: push_to_registry
-    runs-on: ubuntu-latest
-    steps:
-      - name: check out the repo
-        uses: actions/checkout@v2
-      - name: get-npm-version
-        id: package-version
-        uses: martinbeentjes/npm-get-version-action@master
-      - uses: Azure/k8s-set-context@v1
-        with:
-          kubeconfig: ${{ secrets.KUBE_CONFIG }}
-      - uses: Azure/k8s-deploy@v1.4
-        with:
-          namespace: "default"
-          manifests: kubernetes/deployment.yaml
-          images: "ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}"
-          kubectl-version: "latest"
+#   deploy:
+#     name: deploy to kube cluster
+#     needs: push_to_registry
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: check out the repo
+#         uses: actions/checkout@v2
+#       - name: get-npm-version
+#         id: package-version
+#         uses: martinbeentjes/npm-get-version-action@master
+#       - uses: Azure/k8s-set-context@v1
+#         with:
+#           kubeconfig: ${{ secrets.KUBE_CONFIG }}
+#       - uses: Azure/k8s-deploy@v1.4
+#         with:
+#           namespace: 'default'
+#           manifests: kubernetes/deployment.yaml
+#           images: 'ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}'
+#           kubectl-version: 'latest'

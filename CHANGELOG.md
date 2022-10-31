@@ -1,45 +1,45 @@
-## [0.68.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.7...v0.68.8) (2022-07-01)
+## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
 
 
 ### Bug Fixes
 
-* Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
+* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
 
 
 
-## [0.68.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v0.68.7) (2022-07-01)
-
-
-### Bug Fixes
-
-* loftwah profile ([#1428](https://github.com/EddieHubCommunity/LinkFree/issues/1428)) ([7128a78](https://github.com/EddieHubCommunity/LinkFree/commit/7128a78a806b50342f6df285243e6bd33b46094d))
-
-
-
-## [0.68.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.5...v0.68.6) (2022-06-30)
+## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
 
 
 ### Bug Fixes
 
-* Eddie Jaoude text for EddieHub ([9e9c2f7](https://github.com/EddieHubCommunity/LinkFree/commit/9e9c2f70a36c8f77115565e4c53544034e0fe6bb))
+* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
 
 
 
-## [0.68.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.4...v0.68.5) (2022-06-27)
-
-
-### Bug Fixes
-
-* update eddiejaoude ([#1413](https://github.com/EddieHubCommunity/LinkFree/issues/1413)) ([e42c0c8](https://github.com/EddieHubCommunity/LinkFree/commit/e42c0c8a41a9aa3bad18d79c3aa7ed07c83dfe65))
-
-
-
-## [0.68.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.3...v0.68.4) (2022-06-24)
+## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
 
 
 ### Bug Fixes
 
-* YuriDevAT ([#1404](https://github.com/EddieHubCommunity/LinkFree/issues/1404)) ([23fb7ed](https://github.com/EddieHubCommunity/LinkFree/commit/23fb7ed4c87e87919d7e9c026d3ac6a128755fcd))
+* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
+
+
+
+## [0.78.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.0...v0.78.1) (2022-10-28)
+
+
+### Bug Fixes
+
+* color of hyperlinks in dark mode ([#1929](https://github.com/EddieHubCommunity/LinkFree/issues/1929)) ([7a073cb](https://github.com/EddieHubCommunity/LinkFree/commit/7a073cbac01550f68bb0fa8ebe79aafe7eaac2eb))
+
+
+
+# [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
+
+
+### Features
+
+* keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
 
 
 

@@ -1,5 +1,15 @@
 name: Build
-on: [push, pull_request]
+on:
+  push:
+    paths:
+      - public/**
+      - src/**
+      - test/**
+  pull_request:
+    paths:
+      - public/**
+      - src/**
+      - test/**
 
 jobs:
   build:
