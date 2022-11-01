@@ -1,7 +1,7 @@
 {
   "name": "Omkar Ramishte",
   "type": "personal",
-  "bio": "Currently Cs Grad, beginning with open source journey, learner, share about open source and threads and also Blog on Twitter. Make sure to check out. Happy to connect❤️ ",
+  "bio": "Currently Cs Grad, beginning with open source journey, learner, shares about open source related threads and  Blogs on Twitter. Make sure to check out. Happy to connect❤️ ",
   "avatar": "https://github.com/omk-coder.png",
   "links": [
     {
@@ -20,9 +20,14 @@
       "icon": "twitter"
     }
   ],
-  "milestomes": [
+  "milestones": [
     {
-      "url": "https://www.eddiejaoude.io/omkar009"
+      "title": "Joined GitHub",
+      "date": "October 2021",
+      "icon": "github",
+      "color": "grey",
+      "url": "https://github.com/omk-coder",
+      "description": "Contribute to OpenSource repos"
     }
   ]
 }
