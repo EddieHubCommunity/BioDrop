@@ -12,10 +12,6 @@ labels:
     color: '8a2138'
 
 rules:
-  - name: check-for-profile
-    description: Checks for profile changed
-    spec: $hasFilePattern("public/data/**")
-
   - name: check-for-file-name
     description: Checks for the correct author
     spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
