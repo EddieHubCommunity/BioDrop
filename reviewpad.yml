@@ -86,12 +86,3 @@ workflows:
       - rule: check-for-version2
     then:
       - '$addLabel("v2")'
-
-  - name: hacktoberfest exclude
-    description: Exclude pull requests from Hacktoberfest that are profile changes
-    always-run: true
-    if:
-      - rule: check-for-profile
-    then:
-      - '$addLabel("invalid")'
-      - '$commentOnce("Thank you for adding/editing your profile. Note this will not be included as part of Hacktoberfest.")'
