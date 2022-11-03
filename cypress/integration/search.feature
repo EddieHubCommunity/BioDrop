@@ -19,7 +19,6 @@ Feature: Search
 
     Scenario: Search with no results
         Given I open "search" page
-        Then I see "Eddie Jaoude" text in section "main"
         When I type "abced" in ".search-section input"
         Then I see "No users found, please try with another name." text in section "main"
         And I do not see "Eddie Jaoude" text in section "main"
