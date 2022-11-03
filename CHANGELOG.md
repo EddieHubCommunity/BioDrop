@@ -1,3 +1,12 @@
+## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
+
+
+### Bug Fixes
+
+* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+
+
+
 ## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
-
-
-
-## [0.78.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.0...v0.78.1) (2022-10-28)
-
-
-### Bug Fixes
-
-* color of hyperlinks in dark mode ([#1929](https://github.com/EddieHubCommunity/LinkFree/issues/1929)) ([7a073cb](https://github.com/EddieHubCommunity/LinkFree/commit/7a073cbac01550f68bb0fa8ebe79aafe7eaac2eb))
 
 
 
