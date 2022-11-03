@@ -13,8 +13,6 @@ Feature: Search
 
     Scenario: Search with results
         Given I open "search" page
-        Then I see "Eddie Jaoude" text in section "main"
-        And I see "Kunal Verma" text in section "main"
         When I type "Eddie Jaoude" in ".search-section input"
         Then I see "Eddie Jaoude" text in section "main"
         And I do not see "Kunal Verma" text in section "main"
