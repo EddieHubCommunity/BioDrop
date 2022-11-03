@@ -36,6 +36,7 @@ function Links({ links }) {
                     ? 'white'
                     : colors[link.icon],
               }}
+              rel={link.rel ? link.rel : null}
               href={link.url}
             >
               <IconContext.Provider
@@ -57,6 +58,7 @@ function Links({ links }) {
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors.globe }}
+              rel={link.rel ? link.rel : null}
               href={link.url}
             >
               <IconContext.Provider
