@@ -55,7 +55,6 @@ function Home() {
             alt="An Example of the LinkFree app on Apple devices"
           />
         </p>
-
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>What is LinkFree</Accordion.Header>
