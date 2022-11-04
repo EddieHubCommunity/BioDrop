@@ -89,7 +89,7 @@ Your brand new file should look something similar to this one:
       "icon": "twitter"
     }
   ],
-  "milestones": [
+  "Milestones": [
     {
       "title": "Started Freelancing",
       "date": "December 2021",
