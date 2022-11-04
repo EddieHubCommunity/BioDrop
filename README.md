@@ -63,6 +63,29 @@ See what components are available
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
+## Tests
+
+We use Playwright for writing automated end to end (e2e) tests.
+
+1. `npm run test`
+
+```bash
+npm run test
+
+> linkfree@1.0.0 test
+> npx playwright test
+
+
+Running 18 tests using 4 workers
+
+  10 skipped
+  8 passed (13s)
+
+To open last HTML report run:
+
+  npx playwright show-report
+```
+
 ## 👨‍💻 Contributing
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
