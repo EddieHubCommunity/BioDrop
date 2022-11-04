@@ -3,6 +3,9 @@ export default function UserMilestone({ milestone }) {
     <div
       className="border-2 border-gray-200 p-4 my-2 rounded-tr-lg grow"
       key={milestone.title}
+      style={{
+        "border-color": milestone.color,
+      }}
     >
       <h2 className="text-xl">
         {milestone.date} {milestone.title}
