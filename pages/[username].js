@@ -1,4 +1,6 @@
 import Head from "next/head";
+import ReactMarkdown from "react-markdown";
+
 import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
@@ -51,7 +53,9 @@ export default function User({ data }) {
             )}
           </div>
         </div>
-        <p className="flex justify-center my-4">{data.bio}</p>
+        <div className="flex justify-center my-4">
+          <ReactMarkdown>{data.bio}</ReactMarkdown>
+        </div>
         <div className="flex flex-col items-center w-full">
           {data.links &&
             data.links.map((link, index) => (
