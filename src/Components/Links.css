@@ -1,3 +1,6 @@
+:root {
+  --link-hover-color: '';
+}
 .p-button {
   transition: transform 0.33s !important;
   border-radius: 40px;
@@ -6,12 +9,12 @@
 
 .p-button:hover {
   transform: scale(1.02);
+  background-color: var(--link-hover-color);
 }
 
 .p-button.p-button-outlined:not(a):not(.p-disabled).unknown:hover {
   background-color: #333;
 }
-
 .p-button.p-button-outlined span,
 .p-button.p-button-outlined .buttonIcon {
   pointer-events: none;
