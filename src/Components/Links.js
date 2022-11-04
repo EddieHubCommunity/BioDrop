@@ -18,7 +18,6 @@ function Links({ links }) {
   function MouseOut(e) {
     e.target.style.background = ''
   }
-  console.log(links)
   return (
     <section className="flex justify-content-center mb-4">
       <div className="flex flex-column sm:w-9 md:w-7">
