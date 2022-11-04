@@ -67,7 +67,8 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 We use Playwright for writing automated end to end (e2e) tests.
 
-1. `npm run test`
+1. Install Playwright dependencies `npx playwright install --with-deps`
+1. Run tests `npm run test`
 
 ```bash
 npm run test
