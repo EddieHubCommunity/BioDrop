@@ -2,7 +2,8 @@ import Icon from "../Icon";
 
 export default function UserMilestone({ milestone }) {
   return (
-    <div
+    <a
+      href={milestone.url}
       className="border-2 border-gray-200 p-4 my-2 rounded-tr-lg grow flex gap-4 items-center"
       key={milestone.title}
       style={{
@@ -16,6 +17,6 @@ export default function UserMilestone({ milestone }) {
         </h2>
         <p>{milestone.description}</p>
       </div>
-    </div>
+    </a>
   );
 }
