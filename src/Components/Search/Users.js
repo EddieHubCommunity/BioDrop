@@ -16,7 +16,7 @@ function Users({ list }) {
 
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : '#dee2e6'}`,
-    color: `${darkTheme ? 'white' : 'grey'}`,
+    color: `${darkTheme ? 'white' : 'black'}`,
   }
 
   const typeHandler = (value) => {

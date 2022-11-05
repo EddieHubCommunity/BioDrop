@@ -48,7 +48,7 @@ function Search() {
               <GetIcons
                 iconName="arrowLeft"
                 size={20}
-                className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+                className={`${darkTheme ? 'text-white' : 'text-black'}`}
               />
             </Link>
           }
