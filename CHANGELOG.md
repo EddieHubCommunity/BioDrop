@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.2...v1.1.3) (2022-11-05)
+
+
+### Bug Fixes
+
+* formatting data file ([fd7abd8](https://github.com/EddieHubCommunity/LinkFree/commit/fd7abd813145eaa657c967c54c4f1accd42718a9))
+
+
+
 ## [1.1.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.1...v1.1.2) (2022-11-05)
 
 
@@ -160,15 +169,6 @@
 ### Bug Fixes
 
 * remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
-
-
-
-## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
-
-
-### Bug Fixes
-
-* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
 
 
 
