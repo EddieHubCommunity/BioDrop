@@ -22,7 +22,14 @@ function Home() {
       <header>
         <Navbar
           start={
-            <Link to="/search" id="search-button" className="search-profiles" aria-label="Search">
+            <Link
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+              to="/search"
+              aria-label="Search"
+            >
               <GetIcons
                 iconName="search"
                 className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}

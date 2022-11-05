@@ -29,6 +29,10 @@ function Navbar({ items, start, end }) {
     end = (
       <div className="flex justify-content-center align-items-center pr-2">
         <Link
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+          }}
           to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
           target="_blank"
           className="mr-2"
@@ -43,7 +47,7 @@ function Navbar({ items, start, end }) {
 
         <div style={theme}>v{version}</div>
 
-        <button className="theme--button">
+        <div className="theme--button flex justify-content-center">
           {darkTheme
             ? (
             <GetIcons

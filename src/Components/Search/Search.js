@@ -37,7 +37,14 @@ function Search() {
       <header>
         <Navbar
           start={
-            <Link to="/" aria-label="Go back to Home">
+            <Link
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+              to="/"
+              aria-label="Go back to Home"
+            >
               <GetIcons
                 iconName="arrowLeft"
                 size={20}
