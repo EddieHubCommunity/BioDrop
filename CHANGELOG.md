@@ -1,3 +1,12 @@
+## [1.1.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.5...v1.1.6) (2022-11-05)
+
+
+### Bug Fixes
+
+* eddiejaoude profile markdown ([ed8df4f](https://github.com/EddieHubCommunity/LinkFree/commit/ed8df4f40579db35961496d412b4fc212e784b66))
+
+
+
 ## [1.1.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.4...v1.1.5) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * CBID2 milestones section ([#2123](https://github.com/EddieHubCommunity/LinkFree/issues/2123)) ([2732207](https://github.com/EddieHubCommunity/LinkFree/commit/2732207b128e02d2f61b01f01320c51c45398bcd))
-
-
-
-## [1.1.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.0...v1.1.1) (2022-11-05)
-
-
-### Bug Fixes
-
-* branching docs ([0519ebf](https://github.com/EddieHubCommunity/LinkFree/commit/0519ebf83e06effdd2b612af2dceea22ed622663))
 
 
 
