@@ -1,47 +1,32 @@
 {
   "name": "linkfree",
-  "version": "0.81.0",
+  "version": "1.0.0",
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "primeflex": "^3.1.2",
-    "primeicons": "^5.0.0",
-    "primereact": "^6.5.1",
-    "prop-types": "^15.8.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-icons": "^4.3.1",
-    "react-router-dom": "^6.4.2",
-    "react-scripts": "^5.0.1",
-    "react-transition-group": "^4.4.2",
-    "serve": "^12.0.1",
-    "typewriter-effect": "^2.19.0",
-    "web-vitals": "^1.1.2"
+    "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.6.5",
+    "next": "^13",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-markdown": "^8.0.3",
+    "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "lint": "eslint public/data src cypress --ext [.json,.js]",
-    "prestart": "npm run generate",
-    "start": "react-scripts start",
-    "start:prod": "serve -s build",
-    "build": "npm run generate && react-scripts build",
-    "postbuild": "purgecss --config ./purgecss.config.js --output build/static/css",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "generate": "node generate.js",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "test:e2e": "concurrently -k --success first \"npm run cypress:run\" \"npm run start\"",
+    "dev": "next dev",
+    "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
+    "build": "next build",
+    "test": "npx playwright test",
+    "start": "next start",
+    "lint": "next lint",
     "prepare": "husky install",
-    "create": "npx linkfree-cli"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "format": "prettier --write .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "postinstall": "ncp ./.env.example ./.env"
   },
   "browserslist": {
     "production": [
@@ -56,29 +41,19 @@
     ]
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "concurrently": "^6.2.2",
-    "cypress": "^8.5.0",
-    "cypress-cucumber-preprocessor": "^4.3.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.25.1",
+    "@babel/core": "^7.19.3",
+    "@playwright/test": "^1.27.1",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.4.0",
+    "eslint": "8.19.0",
+    "eslint-config-next": "13.0.0",
+    "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
-    "linkfree-cli": "^1.1.3",
     "lint-staged": "^12.1.4",
-    "prettier": "2.4.0"
-  },
-  "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "ncp": "^2.0.0",
+    "postcss": "^8.4.17"
   },
   "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
-  "main": "generate.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
@@ -95,13 +70,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
-  },
-  "lint-staged": {
-    "*.{js,css,md,json}": [
-      "prettier --write"
-    ],
-    "*.{js,json}": [
-      "eslint --ext [.json,.js] --fix"
-    ]
   }
 }

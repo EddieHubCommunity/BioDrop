@@ -1,12 +1,15 @@
+---
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: npm
-    init: npm install
-    command: npm run start
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 3000
-    onOpen: open-browser
+  - name: Install npm depdencies
+    init: npm i
+    command: |
+      gp ports await 27017
+      npm run dev
+  - name: Mongo
+    command: |
+      mkdir -p /workspace/data && mongod --dbpath /workspace/data
+
 github:
   prebuilds:
     master: true
@@ -16,3 +19,9 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
+
+image: gitpod/workspace-mongodb
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss

@@ -2,14 +2,14 @@ api-version: reviewpad.com/v3.x
 
 labels:
   small:
-    description: 'Pull request with less than 10 changed lines'
-    color: '294b69'
+    description: "Pull request with less than 10 changed lines"
+    color: "294b69"
   medium:
-    description: 'Pull request with changed lines between 10 and 30'
-    color: 'a8c3f7'
+    description: "Pull request with changed lines between 10 and 30"
+    color: "a8c3f7"
   large:
-    description: 'Pull request with more than 30 changed lines'
-    color: '8a2138'
+    description: "Pull request with more than 30 changed lines"
+    color: "8a2138"
 
 rules:
   - name: check-for-file-name
