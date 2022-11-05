@@ -1,3 +1,12 @@
+## [0.80.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.0...v0.80.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* profile names visible on hovering in dark mode ([#2026](https://github.com/EddieHubCommunity/LinkFree/issues/2026)) ([ec0d99f](https://github.com/EddieHubCommunity/LinkFree/commit/ec0d99f93eef64d9677157931920f6033236b0af))
+
+
+
 # [0.80.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.2...v0.80.0) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * typewriter effect  ([#1986](https://github.com/EddieHubCommunity/LinkFree/issues/1986)) ([a734367](https://github.com/EddieHubCommunity/LinkFree/commit/a7343673c061939af61d3e0b3608d5e4d718b5a2))
-
-
-
-## [0.78.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.13...v0.78.14) (2022-11-05)
-
-
-### Bug Fixes
-
-* improve search section ([#1982](https://github.com/EddieHubCommunity/LinkFree/issues/1982)) ([936e6c0](https://github.com/EddieHubCommunity/LinkFree/commit/936e6c061ff0c3be854db97ca585965deaa1c1ae))
 
 
 
