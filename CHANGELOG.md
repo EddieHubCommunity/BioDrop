@@ -1,3 +1,12 @@
+# [0.80.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.2...v0.80.0) (2022-11-05)
+
+
+### Features
+
+* close shareprofile popup ([#2020](https://github.com/EddieHubCommunity/LinkFree/issues/2020)) ([8d130fd](https://github.com/EddieHubCommunity/LinkFree/commit/8d130fd8cf0df88e2f016272229bf6607e73ff8c))
+
+
+
 ## [0.79.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.1...v0.79.2) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve search section ([#1982](https://github.com/EddieHubCommunity/LinkFree/issues/1982)) ([936e6c0](https://github.com/EddieHubCommunity/LinkFree/commit/936e6c061ff0c3be854db97ca585965deaa1c1ae))
-
-
-
-## [0.78.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.12...v0.78.13) (2022-11-05)
-
-
-### Bug Fixes
-
-* align icons in the home, navbar, footer and search components ([#1981](https://github.com/EddieHubCommunity/LinkFree/issues/1981)) ([bcaaab1](https://github.com/EddieHubCommunity/LinkFree/commit/bcaaab1bd18eed7af231e69d3f4019678c379eef))
 
 
 
