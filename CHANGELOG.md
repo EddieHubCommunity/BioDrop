@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.3...v1.1.4) (2022-11-05)
+
+
+### Bug Fixes
+
+* remove v2 lables ([#2136](https://github.com/EddieHubCommunity/LinkFree/issues/2136)) ([c57df80](https://github.com/EddieHubCommunity/LinkFree/commit/c57df807607c593be71947fa857f9e636bc904a5))
+
+
+
 ## [1.1.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.2...v1.1.3) (2022-11-05)
 
 
@@ -160,15 +169,6 @@
 * use the "rel" attribute for specific link types ([#2103](https://github.com/EddieHubCommunity/LinkFree/issues/2103)) ([04fc02b](https://github.com/EddieHubCommunity/LinkFree/commit/04fc02bf94df1589711c0521c1dee9169c57aa4a))
 * use theme from system ([#2039](https://github.com/EddieHubCommunity/LinkFree/issues/2039)) ([96905f4](https://github.com/EddieHubCommunity/LinkFree/commit/96905f44f75c566d2bca2ff3128ccfadc5c11a5a))
 * UserPreview to StoryBook ([#1946](https://github.com/EddieHubCommunity/LinkFree/issues/1946)) ([019e5d9](https://github.com/EddieHubCommunity/LinkFree/commit/019e5d92661038f5fe92d4e291fbcd1dcbc2fff0))
-
-
-
-## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
-
-
-### Bug Fixes
-
-* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
 
 
 
