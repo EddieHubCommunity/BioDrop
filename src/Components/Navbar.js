@@ -43,7 +43,7 @@ function Navbar({ items, start, end }) {
 
         <div style={theme}>v{version}</div>
 
-        <div className="theme--button">
+        <button className="theme--button">
           {darkTheme
             ? (
             <GetIcons
@@ -56,7 +56,7 @@ function Navbar({ items, start, end }) {
             : (
             <GetIcons iconName="sun" onClick={toggleTheme} size={20} />
               )}
-        </div>
+        </button>
       </div>
     )
   }
