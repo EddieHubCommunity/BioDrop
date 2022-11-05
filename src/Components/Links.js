@@ -37,6 +37,8 @@ function Links({ links }) {
                     : colors[link.icon],
               }}
               href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IconContext.Provider
                 value={{
@@ -58,6 +60,8 @@ function Links({ links }) {
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
               style={{ color: colors.globe }}
               href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IconContext.Provider
                 value={{
