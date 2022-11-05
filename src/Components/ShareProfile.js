@@ -3,11 +3,13 @@ import GetIcons from './Icons/GetIcons'
 import PropTypes from 'prop-types'
 import ShareIcon from './ShareIcon'
 import { Toast } from 'primereact/toast'
+import { useTheme } from '../ThemeContext'
 
 export default function ShareProfile({ username }) {
   const [show, setShow] = useState(false)
   const toast = useRef(null)
   const profileUrl = location.href
+  const darkTheme = useTheme()
 
   const CopyLink = () => {
     navigator.clipboard.writeText(profileUrl)
@@ -24,7 +26,10 @@ export default function ShareProfile({ username }) {
       <Toast ref={toast} />
 
       <div onClick={() => setShow(!show)}>
-        <GetIcons iconName="shareprofile" />
+        <GetIcons
+          className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
+          iconName="shareprofile"
+        />
       </div>
 
       {show
