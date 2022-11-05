@@ -1,0 +1,11 @@
+.cross-icon .pi {
+  position: absolute;
+  right: 1rem;
+  top: 0.9rem;
+  border-radius: 0.3rem;
+  border-color: #80808092;
+}
+
+.cross-icon:hover {
+  color: #80808092;
+}
