@@ -1,45 +1,45 @@
-## [0.73.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.3...v0.73.4) (2022-09-07)
+## [0.78.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.8...v0.78.9) (2022-11-05)
 
 
 ### Bug Fixes
 
-* minor typo in ankushtripathii.json ([#1723](https://github.com/EddieHubCommunity/LinkFree/issues/1723)) ([02a488b](https://github.com/EddieHubCommunity/LinkFree/commit/02a488b33e56461e628c756f2855561aaea44db0))
+* hover for search in dark mode [#2027](https://github.com/EddieHubCommunity/LinkFree/issues/2027) ([#2051](https://github.com/EddieHubCommunity/LinkFree/issues/2051)) ([1d31757](https://github.com/EddieHubCommunity/LinkFree/commit/1d31757379bd52a2f1d023d3046d52ce50770fa9))
 
 
 
-## [0.73.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.2...v0.73.3) (2022-09-04)
-
-
-### Bug Fixes
-
-* Ali reza twitter handle ([#1719](https://github.com/EddieHubCommunity/LinkFree/issues/1719)) ([3b0ead2](https://github.com/EddieHubCommunity/LinkFree/commit/3b0ead267e86f38a85f6436499a20678f7312184))
-
-
-
-## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
 
 
 ### Bug Fixes
 
-* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
 
 
 
-## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
+## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
 
 
 ### Bug Fixes
 
-* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
+* improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
 
 
 
-# [0.73.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.5...v0.73.0) (2022-09-02)
+## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
 
 
-### Features
+### Bug Fixes
 
-* linkfree-cli support ([#1695](https://github.com/EddieHubCommunity/LinkFree/issues/1695)) ([d553c96](https://github.com/EddieHubCommunity/LinkFree/commit/d553c965568ebc6dfa8fe3a8b004095fbb9fe3ba))
+* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+
+
+
+## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
+
+
+### Bug Fixes
+
+* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
 
 
 

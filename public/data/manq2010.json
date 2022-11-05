@@ -14,15 +14,16 @@
       "url": "https://twitter.com/mancoba_c",
       "icon": "twitter"
     },
-    
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/mancoba-sihlongonyane-99357970/",
+      "url": "https://www.linkedin.com/in/mancobasihlongonyane",
+
       "icon": "linkedin"
     }
   ],
   "milestones": [
     {
+
       "title": "Started Sotfware Development course with Microverse",
       "date": "September 2022",
       "icon": "dollar",

@@ -1,39 +1,33 @@
 {
   "name": "Avie Fukai",
   "type": "personal",
-  "bio": "A Filipino SE in Japan",
+  "bio": "A Filipino Engineer in Japan",
   "avatar": "https://github.com/avie-dev.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "GitHub",
       "url": "https://github.com/avie-dev",
       "icon": "github"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/AvieDev",
       "icon": "twitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/jfukai",
       "icon": "linkedin"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Enters Japanese Language School in Chiba, Japan",
-      "date": "June 2010",
-      "icon": "graduation-hat",
-      "color": "pink",
-      "description": "Entered Asahi International School"
     },
     {
-      "title": "Started working as a Software Engineer in Tokyo",
-      "date": "April 2014",
-      "icon": "dollar",
-      "color": "green",
-      "description": "Started working in Japan"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/aviehere",
+      "icon": "instagram"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UC72dLWZcAjStrSq-FWHg2Lw",
+      "icon": "youtube"
     }
   ]
 }

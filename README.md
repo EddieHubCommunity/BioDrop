@@ -1,14 +1,19 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)  ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
 
+
 > **Note**
 >
 > - To add your profile use the `main` branch
 > - To add new features use `nextjs` as we are migrating from React to NextJS
 
-> **Warning**
+> **Warning** (2)
 >
-> Your profile will need to be deployed to appear, we try to collect a few together before deploying
-
+> In order for your profile to appear, it must be deployed. We try to collect a few profiles before we begin to deploy.
+>
+> ### A note for Hacktoberfest participants:
+> 
+> - Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
+> - Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
 
 # LinkFree by EddieHub
 
@@ -16,18 +21,6 @@
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
-
-<details close>
-  <summary><span style="font-size: 24px; font-weight: 700;">Note for Hacktoberfest </span></summary>
-  <br>
-
-**Warning**: A note for Hacktoberfest participants:
-
-> Pull requests which add or edit your information in a `public/data/${yourname}.json` file will NOT be counted for Hacktoberfest.
->
-> Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. Maintainers will opt-in these PRs by applying the `hacktoberfest-accepted` label.
-
-</details>
 
 ## Example using Gitpod, ephemeral dev environment in the cloud (free)
 
@@ -42,7 +35,8 @@ Check out the website: https://linkfree.eddiehub.io
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [Git](https://git-scm.com/downloads)
-- [NodeJs](https://nodejs.org/en/download/)
+- [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v16.17.0)
+- Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
 
 ## 🛠️ Installation Steps
 
@@ -61,7 +55,7 @@ Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](/CONTRIBUTING.md) for more information.
+- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
 ## 🎭 To Add Your Profile
 
@@ -112,11 +106,11 @@ Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
 For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
-To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
+To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
 
 For example: <http://github.com/eddiejaoude.png>
 
-Note: after your PR is merged, the project still needs to be deployed for your profile to be displayed
+Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
 
 ### A simple gif version of adding your profile
 
