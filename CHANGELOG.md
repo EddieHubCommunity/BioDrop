@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.1...v1.1.2) (2022-11-05)
+
+
+### Bug Fixes
+
+* CBID2 milestones section ([#2123](https://github.com/EddieHubCommunity/LinkFree/issues/2123)) ([2732207](https://github.com/EddieHubCommunity/LinkFree/commit/2732207b128e02d2f61b01f01320c51c45398bcd))
+
+
+
 ## [1.1.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.0...v1.1.1) (2022-11-05)
 
 
@@ -160,15 +169,6 @@
 ### Bug Fixes
 
 * profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
-
-
-
-## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
-
-
-### Bug Fixes
-
-* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
 
 
 
