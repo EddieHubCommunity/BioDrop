@@ -1,3 +1,12 @@
+## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
+
+
+### Bug Fixes
+
+* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
+
+
+
 ## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
-
-
-
-## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
-
-
-### Bug Fixes
-
-* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
 
 
 
