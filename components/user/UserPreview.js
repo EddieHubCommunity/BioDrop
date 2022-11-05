@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+
 import FallbackImage from "../FallbackImage";
 
 export default function UserPreview({ profile }) {
@@ -24,7 +26,7 @@ export default function UserPreview({ profile }) {
       </div>
       <div>
         <h3 className="hidden md:block text-2xl font-bold">{profile.name}</h3>
-        <p>{profile.bio}</p>
+        <ReactMarkdown>{profile.bio}</ReactMarkdown>
       </div>
     </Link>
   );
