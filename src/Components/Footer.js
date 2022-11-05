@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import GetIcons from './Icons/GetIcons'
 import ScrollToTopBtn from './ScrollToTopBtn'
 import { useTheme } from '../ThemeContext'
@@ -21,18 +20,19 @@ function Footer() {
     <footer className="flex justify-content-center align-items-center">
       <p>
         <span className="mr-2">Contribute on</span>
-        <Link
-          to={{ pathname: 'https://github.com/EddieHubCommunity/LinkFree' }}
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree"
           target="_blank"
           className="mr-2"
           aria-label="LinkFree repository on GitHub"
+          rel="noreferrer"
         >
           <GetIcons
             className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
             iconName="github"
             size={16}
           />
-        </Link>
+        </a>
         <span>v{version}</span>
       </p>
       <ScrollToTopBtn />

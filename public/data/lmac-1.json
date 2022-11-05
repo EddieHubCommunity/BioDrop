@@ -1,0 +1,65 @@
+{
+  "name": "Lucy Macartney",
+  "type": "personal",
+  "bio": "Software Developer and Technical Writer",
+  "avatar": "https://github.com/lmac-1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lmac-1",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/codingwithlucy",
+      "icon": "twitter"
+    },
+    {
+      "name": "Subscribe to my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw",
+      "icon": "youtube"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/lucymacartney",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow my blog on Hashnode",
+      "url": "https://hashnode.com/@codingwithlucy",
+      "icon": "hashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Posted my first video on YouTube",
+      "date": "May 2021",
+      "icon": "youtube",
+      "color": "black",
+      "description": "My final project for CS50",
+      "url": "https://www.youtube.com/watch?v=q4hK0VSJWqg"
+    },
+    {
+      "title": "First job as a software developer",
+      "date": "March 2022",
+      "icon": "dollar",
+      "color": "black",
+      "description": "Building a web application with React, NextJS, Prisma and MongoDB"
+    },
+    {
+      "title": "Started working as a technical writer",
+      "date": "April 2022",
+      "icon": "book",
+      "color": "black"
+    },
+    {
+      "title": "Published my first blog",
+      "date": "May 2022",
+      "image": "https://codingwithlucy.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1652901031858%2FxyarmkONV.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
+      "icon": "hashnode",
+      "color": "black",
+      "description": "Why #100DaysOfCode is a great way to start a tech twitter account",
+      "url": "https://codingwithlucy.hashnode.dev/why-100daysofcode-is-a-great-way-to-start-a-tech-twitter-account"
+    }
+  ]
+}

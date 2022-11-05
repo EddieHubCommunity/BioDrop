@@ -1,5 +1,6 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
 
+
 > **Note**
 >
 > - To add your profile use the `main` branch
@@ -7,7 +8,7 @@
 
 > **Warning** (2)
 >
-> Your profile will need to be deployed to appear, we try to collect a few together before deploying
+> In order for your profile to appear, it must be deployed. We try to collect a few profiles before we begin to deploy.
 >
 > ### A note for Hacktoberfest participants:
 >
@@ -106,11 +107,11 @@ Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
 For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
-To include your `avatar`, You just have to replace `<yourusername>` with your **github username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from github account.
+To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
 
 For example: <http://github.com/eddiejaoude.png>
 
-Note: after your PR is merged, the project still needs to be deployed for your profile to be displayed
+Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
 
 ### A simple gif version of adding your profile
 
