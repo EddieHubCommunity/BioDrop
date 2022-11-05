@@ -2,7 +2,7 @@
   "name": "Eddie Jaoude",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "Open Source DevRel | Founder of EddieHub | GitHub Star",
+  "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
   "avatar": "https://github.com/eddiejaoude.png",
   "links": [
     {
@@ -11,7 +11,7 @@
       "icon": "link"
     },
     {
-      "name": "Inclusive Open Source community **EddieHub** (Discord, GitHub Org ...)",
+      "name": "Inclusive Open Source community EddieHub (Discord, GitHub Org ...)",
       "url": "http://eddiehub.org",
       "icon": "link"
     },
