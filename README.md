@@ -1,11 +1,6 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
 
 
-> **Note**
->
-> - To add your profile use the `main` branch
-> - To add new features use `nextjs` as we are migrating from React to NextJS
-
 > **Warning** (2)
 >
 > In order for your profile to appear, it must be deployed. We try to collect a few profiles before we begin to deploy.
