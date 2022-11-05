@@ -24,6 +24,8 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
       options={profileTypes}
       onChange={(e) => typeHandler(e.value)}
       style={theme}
+      ariaLabelledBy={profileType}
+      ariaLabel={profileType}
     />
   )
 }

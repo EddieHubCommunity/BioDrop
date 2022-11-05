@@ -11,6 +11,7 @@ function Users({ list }) {
   const [profileType, setProfileType] = useState('all')
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredList, setFilteredList] = useState(list)
+  const [length, setlength] = useState(0)
   const darkTheme = useTheme()
 
   const theme = {
@@ -43,7 +44,8 @@ function Users({ list }) {
   }
 
   const searchHandler = (value) => {
-    setSearchTerm(value || '')
+    setlength(value.length)
+    setSearchTerm(value)
     setFilteredList(
       list
         .filter((User) =>
@@ -73,19 +75,25 @@ function Users({ list }) {
           />
         </div>
       </div>
-      <div className="user-list flex flex-wrap justify-content-center">
+      {length >= 3 && <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
           filteredList.length > 0 &&
           filteredList.map((user, key) => (
             <Link to={user.username} key={`avatar-${key}`}>
               <Chip
                 style={theme}
-                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
+                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300 hover:text-gray-900"
                 template={
                   <span className="text-overflow-ellipsis white-space-nowrap overflow-hidden">
                     {user.name}
                   </span>
+                label={
+                  user.name.length > 20
+                    ? user.name.slice(-22) + ' ...'
+                    : user.name
                 }
+                className="m-2 w-16rem px-3 py-2 transition-all transition-duration-300"
+               image={user.avatar}
               />
             </Link>
           ))}
@@ -97,7 +105,7 @@ function Users({ list }) {
             />
           </div>
         )}
-      </div>
+      </div>}
     </>
   )
 }

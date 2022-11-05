@@ -91,7 +91,7 @@ function GetIcons({ iconName, ...restProps }) {
 ## Committing and pushing the changes
 
 After you've finished making changes, you need to commit and push those first. 
-If you've cloned the forked repo locally and working on it, run these commands:
+If you've cloned the forked repo locally and are working on it, run these commands:
 
 ```
 git add src/config/links.json src/Components/Icons/GetIcons.js icons.md
@@ -101,14 +101,14 @@ git push origin main
 
 This will push changes to the forked repo.
 
-Otherwise if you're working on GitHub website, first make sure that you're on the correct branch. If you don't have one, you can create it while you commit the changes.
+Otherwise, if you're working on the GitHub website, make sure that you're on the correct branch. If you don't have one, you can create it while you commit the changes.
 
 After that, do the following:
 
 1. Scroll down to the "Commit changes" section at the bottom of the page.
-2. Check if you have the correct branch selected. Otherwise you can click on "Create a new branch and start a pull request" option. This will create a new branch with the changes when you make the commit.
+2. Check if you have the correct branch selected. Otherwise, you can click on "Create a new branch and start a pull request" option. This will create a new branch with the changes when you make the commit.
 3. Adjust the commit message.
-4. Click the "Commit Changes" button at the bottom of the page and then it will commit the changes for you.
+4. Click the "Commit Changes" button at the bottom of the page and it will commit the changes for you.
 
 After all of these, do the following:
 
@@ -117,4 +117,5 @@ After all of these, do the following:
 3. Set the "base" branch to "main" and "compare" branch to the branch you're working on. You'll be able to select those branches. These things are automatically adjusted most of the times so you don't need to change anything there. 
 4. Click "Create Pull Request".
 
-This will create a Pull Request and the maintainers will review the changes and merge it if everything was good, otherwise they might request you to change some things. 
+This will create a Pull Request and the maintainers will review the changes and merge it if everything was good. Otherwise they might request you to 
+make some changes.
