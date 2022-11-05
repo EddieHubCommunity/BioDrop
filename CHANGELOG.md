@@ -1,3 +1,12 @@
+## [0.78.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.12...v0.78.13) (2022-11-05)
+
+
+### Bug Fixes
+
+* align icons in the home, navbar, footer and search components ([#1981](https://github.com/EddieHubCommunity/LinkFree/issues/1981)) ([bcaaab1](https://github.com/EddieHubCommunity/LinkFree/commit/bcaaab1bd18eed7af231e69d3f4019678c379eef))
+
+
+
 ## [0.78.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.11...v0.78.12) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hover for search in dark mode [#2027](https://github.com/EddieHubCommunity/LinkFree/issues/2027) ([#2051](https://github.com/EddieHubCommunity/LinkFree/issues/2051)) ([1d31757](https://github.com/EddieHubCommunity/LinkFree/commit/1d31757379bd52a2f1d023d3046d52ce50770fa9))
-
-
-
-## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
-
-
-### Bug Fixes
-
-* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
 
 
 
