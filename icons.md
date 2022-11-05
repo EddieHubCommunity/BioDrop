@@ -2,6 +2,7 @@
 
 To use an icon, be sure to use the correct code in the `usage` column, not any other column.
 
+
 |   Socials   |     Usage     | Icons                                                                                                                                                        |    Socials     |      Usage       | Icons                                                                                                                                   |
 | :---------: | :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------: | :--------------: | --------------------------------------------------------------------------------------------------------------------------------------- |
 |   Android   |   `android`   | <img src="https://user-images.githubusercontent.com/65664185/138502465-89cfadf2-6b54-4f3d-ac44-ceacdd4824ba.png" width=65% height=30%>                       |     Apple      |     `apple`      | <img src="https://user-images.githubusercontent.com/65664185/138502540-8e9b80bf-deae-4566-a41a-c63623e83c21.png" width=100% height=30%> |
@@ -23,3 +24,4 @@ To use an icon, be sure to use the correct code in the `usage` column, not any o
 |   TikTok    |   `tiktok`    | <img src="https://user-images.githubusercontent.com/76241195/147094674-a0b67f90-c62e-4162-93b5-dd313611ff28.png" width=65% height=30%>                       |     Twitch     |     `twitch`     | <img src="https://user-images.githubusercontent.com/76241195/147094354-12d3b38d-bb87-4c52-a3b7-4d934498da31.png" width=100% height=30%> |
 |   Twitter   |   `twitter`   | <img src="https://user-images.githubusercontent.com/65664185/138503209-1ce0ebbc-5590-4940-8cd0-2dadacbf09ed.png" width=65% height=30%>                       |     Vimeo      |     `vimeo`      | <img src="https://user-images.githubusercontent.com/65664185/138503257-6af44a9c-c81a-4657-b182-6a991157810f.png" width=100% height=30%> |
 |   YouTube   |   `youtube`   | <img src="https://user-images.githubusercontent.com/65664185/138503305-ff60cf54-6b0b-4e18-9446-b4f6869b9511.png" width=65% height=30%>                       |                |                  |                                                                                                                                         |
+

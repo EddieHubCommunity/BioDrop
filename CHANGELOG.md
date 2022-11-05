@@ -1,45 +1,45 @@
-## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+## [0.78.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.10...v0.78.11) (2022-11-05)
 
 
 ### Bug Fixes
 
-* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+* better navigation ([#1933](https://github.com/EddieHubCommunity/LinkFree/issues/1933)) ([b933afa](https://github.com/EddieHubCommunity/LinkFree/commit/b933afa5e8141d9afecebdfb36f240d4c82d9ffa))
 
 
 
-## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
-
-
-### Bug Fixes
-
-* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
-
-
-
-## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
+## [0.78.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.9...v0.78.10) (2022-11-05)
 
 
 ### Bug Fixes
 
-* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+* dark mode toggle reachable with keyboard ([#1931](https://github.com/EddieHubCommunity/LinkFree/issues/1931)) ([80fd19d](https://github.com/EddieHubCommunity/LinkFree/commit/80fd19dc65610070c95bd7c2f86251b1468491e2)), closes [#1927](https://github.com/EddieHubCommunity/LinkFree/issues/1927) [#1927](https://github.com/EddieHubCommunity/LinkFree/issues/1927)
 
 
 
-# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
-
-
-### Features
-
-* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
-
-
-
-## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
+## [0.78.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.8...v0.78.9) (2022-11-05)
 
 
 ### Bug Fixes
 
-* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
+* hover for search in dark mode [#2027](https://github.com/EddieHubCommunity/LinkFree/issues/2027) ([#2051](https://github.com/EddieHubCommunity/LinkFree/issues/2051)) ([1d31757](https://github.com/EddieHubCommunity/LinkFree/commit/1d31757379bd52a2f1d023d3046d52ce50770fa9))
+
+
+
+## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
+
+
+### Bug Fixes
+
+* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
+
+
+
+## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
+
+
+### Bug Fixes
+
+* improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
 
 
 

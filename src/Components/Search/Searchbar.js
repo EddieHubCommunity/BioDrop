@@ -5,13 +5,22 @@ import GetIcons from '../Icons/GetIcons'
 import './Search.css'
 import { useTheme } from '../../ThemeContext'
 
+document.addEventListener('keydown', (e) => {
+  e = e || window.event
+  const searchbox = document.getElementById('search-input')
+  if (e.key === 'k' && e.ctrlKey) {
+    searchbox.focus()
+    e.preventDefault()
+  }
+})
+
 const Searchbar = ({ searchHandler, searchTerm }) => {
   const darkTheme = useTheme()
 
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
     border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
-    color: `${darkTheme ? 'white' : 'grey'}`,
+    color: `${darkTheme ? 'white' : 'black'}`,
   }
 
   return (

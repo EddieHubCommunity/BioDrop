@@ -4,10 +4,9 @@ Feature: User profile page
 
     Scenario: Navigating to a user's page and check name
         Given I open "home" page
-        Then I see "eddiejaoude" as a link
-        When I click on "eddiejaoude"
-        Then I should see "eddiejaoude" in the url
-        And I see "Eddie Jaoude" text in section "h1"
+        Then I should see "Profiles 🔎" text in the section "p"
+        When I click on "search"
+        Then I should see "search" in the url
 
     Scenario: Going directly to a user's profile
         Given I open "eddiejaoude" page

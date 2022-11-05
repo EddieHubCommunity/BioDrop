@@ -15,6 +15,17 @@
 }
 
 .p-card {
+  padding-top: 0.6rem;
+}
+
+.p-timeline-centered .p-timeline-event {
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.p-timeline-centered .p-timeline-event .p-card {
+  text-align: center;
   border-radius: 1rem;
 }
 
