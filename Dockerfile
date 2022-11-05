@@ -8,7 +8,7 @@ RUN npm install --omit=dev --ignore-scripts
 COPY . .
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
-RUN sed -i 's/http:\/\/localhost:3000/https:\/\/beta.linkfree.eddiehub.io/g' config/app.json
+RUN sed -i 's/http:\/\/localhost:3000/https:\/\/linkfree.eddiehub.io/g' config/app.json
 
 RUN npm run build
 
