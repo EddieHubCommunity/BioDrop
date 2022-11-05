@@ -1,3 +1,12 @@
+## [0.78.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.10...v0.78.11) (2022-11-05)
+
+
+### Bug Fixes
+
+* better navigation ([#1933](https://github.com/EddieHubCommunity/LinkFree/issues/1933)) ([b933afa](https://github.com/EddieHubCommunity/LinkFree/commit/b933afa5e8141d9afecebdfb36f240d4c82d9ffa))
+
+
+
 ## [0.78.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.9...v0.78.10) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
-
-
-
-## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
-
-
-### Bug Fixes
-
-* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
 
 
 
