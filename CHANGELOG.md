@@ -1,3 +1,21 @@
+## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
+
+
+### Bug Fixes
+
+* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+
+
+
+## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
+
+
+### Bug Fixes
+
+* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
+
+
+
 ## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
-
-
-
-## [0.78.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.0...v0.78.1) (2022-10-28)
-
-
-### Bug Fixes
-
-* color of hyperlinks in dark mode ([#1929](https://github.com/EddieHubCommunity/LinkFree/issues/1929)) ([7a073cb](https://github.com/EddieHubCommunity/LinkFree/commit/7a073cbac01550f68bb0fa8ebe79aafe7eaac2eb))
-
-
-
-# [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
-
-
-### Features
-
-* keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
 
 
 
