@@ -18,7 +18,6 @@ function Links({ links }) {
   function MouseOut(e) {
     e.target.style.background = ''
   }
-
   return (
     <section className="flex justify-content-center mb-4">
       <div className="flex flex-column sm:w-9 md:w-7">
@@ -35,6 +34,7 @@ function Links({ links }) {
                   colors[link.icon] === 'links' || darkTheme
                     ? 'white'
                     : colors[link.icon],
+                '--link-hover-color': `${colors[link.icon]}`,
               }}
               rel={link.rel ? link.rel : null}
               href={link.url}
@@ -59,7 +59,10 @@ function Links({ links }) {
               onMouseOver={(e) => MouseOver(e, colors.globe)}
               onMouseOut={MouseOut}
               className={`p-3 my-2 p-button-outlined ${link.icon}`}
-              style={{ color: colors.globe }}
+              style={{
+                color: colors.globe,
+                '--link-hover-color': `${colors.globe}`,
+              }}
               rel={link.rel ? link.rel : null}
               href={link.url}
               target="_blank"
