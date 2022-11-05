@@ -1,3 +1,12 @@
+## [0.78.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.9...v0.78.10) (2022-11-05)
+
+
+### Bug Fixes
+
+* dark mode toggle reachable with keyboard ([#1931](https://github.com/EddieHubCommunity/LinkFree/issues/1931)) ([80fd19d](https://github.com/EddieHubCommunity/LinkFree/commit/80fd19dc65610070c95bd7c2f86251b1468491e2)), closes [#1927](https://github.com/EddieHubCommunity/LinkFree/issues/1927) [#1927](https://github.com/EddieHubCommunity/LinkFree/issues/1927)
+
+
+
 ## [0.78.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.8...v0.78.9) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
-
-
-
-## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
-
-
-### Bug Fixes
-
-* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
 
 
 
