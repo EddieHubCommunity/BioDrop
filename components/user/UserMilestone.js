@@ -7,7 +7,7 @@ export default function UserMilestone({ milestone }) {
       className="border-2 border-gray-200 p-4 my-2 rounded-tr-lg grow flex gap-4 items-center"
       key={milestone.title}
       style={{
-        "border-color": milestone.color,
+        borderColor: milestone.color,
       }}
     >
       <Icon name={milestone.icon} />
