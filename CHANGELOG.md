@@ -1,3 +1,12 @@
+## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
+
+
+### Bug Fixes
+
+* improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
+
+
+
 ## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
-
-
-
-## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
-
-
-### Bug Fixes
-
-* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
 
 
 
