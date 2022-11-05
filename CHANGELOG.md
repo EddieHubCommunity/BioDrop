@@ -1,45 +1,45 @@
-## [0.78.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.8...v0.78.9) (2022-11-05)
+# [0.81.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.1...v0.81.0) (2022-11-05)
+
+
+### Features
+
+* use theme from system ([#2039](https://github.com/EddieHubCommunity/LinkFree/issues/2039)) ([96905f4](https://github.com/EddieHubCommunity/LinkFree/commit/96905f44f75c566d2bca2ff3128ccfadc5c11a5a))
+
+
+
+## [0.80.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.0...v0.80.1) (2022-11-05)
 
 
 ### Bug Fixes
 
-* hover for search in dark mode [#2027](https://github.com/EddieHubCommunity/LinkFree/issues/2027) ([#2051](https://github.com/EddieHubCommunity/LinkFree/issues/2051)) ([1d31757](https://github.com/EddieHubCommunity/LinkFree/commit/1d31757379bd52a2f1d023d3046d52ce50770fa9))
+* profile names visible on hovering in dark mode ([#2026](https://github.com/EddieHubCommunity/LinkFree/issues/2026)) ([ec0d99f](https://github.com/EddieHubCommunity/LinkFree/commit/ec0d99f93eef64d9677157931920f6033236b0af))
 
 
 
-## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
+# [0.80.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.2...v0.80.0) (2022-11-05)
 
 
-### Bug Fixes
+### Features
 
-* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
-
-
-
-## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
-
-
-### Bug Fixes
-
-* improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
+* close shareprofile popup ([#2020](https://github.com/EddieHubCommunity/LinkFree/issues/2020)) ([8d130fd](https://github.com/EddieHubCommunity/LinkFree/commit/8d130fd8cf0df88e2f016272229bf6607e73ff8c))
 
 
 
-## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
+## [0.79.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.1...v0.79.2) (2022-11-05)
 
 
 ### Bug Fixes
 
-* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+* dark mode bug ([#2002](https://github.com/EddieHubCommunity/LinkFree/issues/2002)) ([1992194](https://github.com/EddieHubCommunity/LinkFree/commit/199219417aa67f2fc54ea930c18b1839b3078cbd))
 
 
 
-## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
+## [0.79.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.0...v0.79.1) (2022-11-05)
 
 
 ### Bug Fixes
 
-* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
+* visible links ([#1992](https://github.com/EddieHubCommunity/LinkFree/issues/1992)) ([cd7fbb7](https://github.com/EddieHubCommunity/LinkFree/commit/cd7fbb763dd745061e22dd27d8d75c33f8c48bbe))
 
 
 
