@@ -36,7 +36,10 @@ function Links({ links }) {
                     : colors[link.icon],
                 '--link-hover-color': `${colors[link.icon]}`,
               }}
+              rel={link.rel ? link.rel : null}
               href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IconContext.Provider
                 value={{
@@ -60,7 +63,10 @@ function Links({ links }) {
                 color: colors.globe,
                 '--link-hover-color': `${colors.globe}`,
               }}
+              rel={link.rel ? link.rel : null}
               href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IconContext.Provider
                 value={{
