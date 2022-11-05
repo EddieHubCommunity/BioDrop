@@ -1,3 +1,12 @@
+## [0.79.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.0...v0.79.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* visible links ([#1992](https://github.com/EddieHubCommunity/LinkFree/issues/1992)) ([cd7fbb7](https://github.com/EddieHubCommunity/LinkFree/commit/cd7fbb763dd745061e22dd27d8d75c33f8c48bbe))
+
+
+
 # [0.79.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.14...v0.79.0) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * color of the text on hover in dark mode ([#1954](https://github.com/EddieHubCommunity/LinkFree/issues/1954)) ([d67f18f](https://github.com/EddieHubCommunity/LinkFree/commit/d67f18f6b901eab97175328db261871f1aef194f))
-
-
-
-## [0.78.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.10...v0.78.11) (2022-11-05)
-
-
-### Bug Fixes
-
-* better navigation ([#1933](https://github.com/EddieHubCommunity/LinkFree/issues/1933)) ([b933afa](https://github.com/EddieHubCommunity/LinkFree/commit/b933afa5e8141d9afecebdfb36f240d4c82d9ffa))
 
 
 
