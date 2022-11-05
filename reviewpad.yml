@@ -14,7 +14,7 @@ labels:
 rules:
   - name: check-for-file-name
     description: Checks for the correct author
-    spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
+    spec: $hasFileName($sprintf("data/%v.json", [$author()]))
 
   - name: modifies-only-one-file
     spec: $fileCount() == 1
@@ -59,7 +59,7 @@ workflows:
   - name: add-label-for-chore-profile-addition
     always-run: true
     if:
-      - rule: $hasFilePattern("public/data/**")
+      - rule: $hasFilePattern("data/**")
     then:
       - '$addLabel("✍ chore: profile addition")'
 
