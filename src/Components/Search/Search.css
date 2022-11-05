@@ -7,9 +7,10 @@ a {
 }
 
 .p-chip:hover {
-  transform: scale(1.1);
-  background: linear-gradient(145deg, #c8cbcf, #eef2f6);
-  color: black !important;
+    transform: scale(1.1);
+    background: linear-gradient(145deg, #87888b, #363c3e);
+    box-shadow: 1px 1px 3px 3px rgba(255,247,255,0.71);
+    color: black !important;
 }
 
 .p-chip .p-avatar img {
