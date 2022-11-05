@@ -37,7 +37,7 @@ function ScrollToTopBtn() {
       className="scrollToTop-btn"
       onClick={scrollToTop}
       size={50}
-      color={'#b9b9b9'}
+      color={'#f53900'}
     />
   )
 }

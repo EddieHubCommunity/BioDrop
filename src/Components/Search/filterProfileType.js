@@ -15,6 +15,7 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
     backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
     border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
     color: `${darkTheme ? 'white' : '#f3f3f3'}`,
+    flexGrow: 1,
   }
 
   return (
@@ -23,6 +24,8 @@ export default function ProfileTypeFilter({ profileType, typeHandler }) {
       options={profileTypes}
       onChange={(e) => typeHandler(e.value)}
       style={theme}
+      ariaLabelledBy={profileType}
+      ariaLabel={profileType}
     />
   )
 }

@@ -20,18 +20,18 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
     border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
-    color: `${darkTheme ? 'white' : 'grey'}`,
+    color: `${darkTheme ? 'white' : 'black'}`,
   }
 
   return (
-    <div className="search-section">
-      <span className="p-input-icon-left">
+    <div className="search-section w-10 md:w-5 lg:w-3">
+      <span className="p-input-icon-left w-12">
         <GetIcons iconName="search" />
         <InputText
           type="search"
           value={searchTerm}
           onChange={({ target }) => searchHandler(target.value)}
-          className="search-bar-resize"
+          className="search-bar-resize w-12"
           name="user"
           id="search-input"
           placeholder="Search user..."
