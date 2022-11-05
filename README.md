@@ -95,7 +95,7 @@ To open last HTML report run:
 
 ## 🎭 To Add Your Profile
 
-Create a file named using your GitHub username `username.json` in the directory `public/data`, this will ensure it is unique.
+Create a file named using your GitHub username `username.json` in the directory `data`, this will ensure it is unique.
 
 **Optional fields: `milestones` and `type(personal | community)`**\
 Looking for inspiration? You can view the following profiles for an example:
