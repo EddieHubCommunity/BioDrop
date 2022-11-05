@@ -22,12 +22,15 @@ function Home() {
       <header>
         <Navbar
           start={
-            <Link id="search-button" to="/search" aria-label="Search">
+            <Link to="/search" id="search-button" className="search-profiles" aria-label="Search">
               <GetIcons
                 iconName="search"
                 className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
                 size={20}
               />
+              <p style={{ color: darkTheme ? 'white' : 'black' }}>
+                Search for Profiles
+              </p>
             </Link>
           }
         />
