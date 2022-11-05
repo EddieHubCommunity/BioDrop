@@ -60,7 +60,7 @@ function Navbar({ items, start, end }) {
             : (
             <GetIcons iconName="sun" onClick={toggleTheme} size={20} />
               )}
-        </div>
+        </button>
       </div>
     )
   }

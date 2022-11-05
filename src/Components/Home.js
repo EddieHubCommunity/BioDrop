@@ -5,6 +5,15 @@ import Navbar from './Navbar'
 import GetIcons from './Icons/GetIcons'
 import { useTheme } from '../ThemeContext'
 
+document.addEventListener('keydown', (e) => {
+  e = e || window.event
+  const searchbox = document.getElementById('search-button')
+  if (e.key === 'k' && e.ctrlKey) {
+    searchbox.click()
+    e.preventDefault()
+  }
+})
+
 function Home() {
   const darkTheme = useTheme()
 
@@ -26,6 +35,9 @@ function Home() {
                 className={`${darkTheme ? 'text-white' : 'text-gray-900'}`}
                 size={20}
               />
+              <p style={{ color: darkTheme ? 'white' : 'black' }}>
+                Search for Profiles
+              </p>
             </Link>
           }
         />
@@ -38,9 +50,18 @@ function Home() {
           It is an open-source alternative to Linktree implemented in JavaScript
         </p>
         <p className="text-1xl text-center">
-          See <Link to="/eddiejaoude">Eddie Jaoude&apos;s</Link> profile for an
-          example. Want to add your profile? Read the{' '}
-          <a href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile">
+          See{' '}
+          <Link
+            to="/eddiejaoude"
+            className={`${darkTheme ? 'text-blue-200' : ''}`}
+          >
+            Eddie Jaoude&apos;s
+          </Link>{' '}
+          profile for an example. Want to add your profile? Read the{' '}
+          <a
+            href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile"
+            className={`${darkTheme ? 'text-blue-200' : ''}`}
+          >
             instructions
           </a>
           .

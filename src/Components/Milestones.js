@@ -55,13 +55,17 @@ function Milestones({ milestones }) {
     </Card>
   )
 
+  const isTimelineCentered = milestones.length === 1
+
   return (
     <section className="flex justify-content-center mb-5">
       <div className="md:col-8">
         <Timeline
           value={milestones}
           align="alternate"
-          className="p-timeline-vertical p-timeline-alternate customized-timeline"
+          className={`p-timeline-vertical p-timeline-alternate customized-timeline ${
+            isTimelineCentered ? 'p-timeline-centered' : ''
+          }`}
           marker={(milestone) => marker(milestone)}
           content={(milestone) => content(milestone)}
         />
