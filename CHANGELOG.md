@@ -1,3 +1,12 @@
+# [0.81.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.1...v0.81.0) (2022-11-05)
+
+
+### Features
+
+* use theme from system ([#2039](https://github.com/EddieHubCommunity/LinkFree/issues/2039)) ([96905f4](https://github.com/EddieHubCommunity/LinkFree/commit/96905f44f75c566d2bca2ff3128ccfadc5c11a5a))
+
+
+
 ## [0.80.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.0...v0.80.1) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * visible links ([#1992](https://github.com/EddieHubCommunity/LinkFree/issues/1992)) ([cd7fbb7](https://github.com/EddieHubCommunity/LinkFree/commit/cd7fbb763dd745061e22dd27d8d75c33f8c48bbe))
-
-
-
-# [0.79.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.14...v0.79.0) (2022-11-05)
-
-
-### Features
-
-* typewriter effect  ([#1986](https://github.com/EddieHubCommunity/LinkFree/issues/1986)) ([a734367](https://github.com/EddieHubCommunity/LinkFree/commit/a7343673c061939af61d3e0b3608d5e4d718b5a2))
 
 
 
