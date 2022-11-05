@@ -22,10 +22,6 @@ rules:
   - name: check-for-profile-addition
     spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
 
-  - name: check-for-version2
-    kind: patch
-    spec: $base() == "nextjs"
-
 workflows:
   - name: label-pull-request-with-size
     always-run: true
@@ -75,10 +71,3 @@ workflows:
     then:
       - '$addLabel("LGTM")'
 
-  - name: version 2 with nextjs
-    description: Automates v2 label
-    always-run: true
-    if:
-      - rule: check-for-version2
-    then:
-      - '$addLabel("v2")'
