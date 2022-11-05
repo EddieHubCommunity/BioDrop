@@ -20,7 +20,7 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
   const theme = {
     backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
     border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
-    color: `${darkTheme ? 'white' : 'grey'}`,
+    color: `${darkTheme ? 'white' : 'black'}`,
   }
 
   return (
