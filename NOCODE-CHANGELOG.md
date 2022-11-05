@@ -19,3 +19,4 @@ YouTube (or blog)
 | CONTRIBUTOR | CONTRIBUTION | DATE (YYYY/MM/DD) | RESOURCE LINK (PR, Blog, Video) |
 | :---------- | :----------- | :---------------- | :------------------------------ |
 | [Christine Belzie](https://github.com/CBID2) | Pair programmed on Discord | 2022/10/29 | [#2060](https://github.com/EddieHubCommunity/LinkFree/pull/2060) |
+| [Jaynarayan vaishnav](https://github.com/jaynarayan-vaishnav) | Pair programmed on Discord | 2022/10/31 | [#2079](https://github.com/EddieHubCommunity/LinkFree/pull/2080) |
