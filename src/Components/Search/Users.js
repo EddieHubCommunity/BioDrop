@@ -62,14 +62,18 @@ function Users({ list }) {
   }
 
   return (
-     <>
-      <div className="mb-2 flex justify-content-center align-items-center">
+    <>
+      <div className="mb-2 flex flex-column md:flex-row justify-content-center align-items-center">
         <Searchbar searchTerm={searchTerm} searchHandler={searchHandler} />
-        <label className="p-2">Profile Type</label>
-        <ProfileTypeFilter
-          profileType={profileType}
-          typeHandler={typeHandler}
-        />
+        <div className="flex flex-nowrap w-10 md:w-6 lg:w-4 mt-2 md:mt-0">
+          <label className="flex flex-nowrap py-2 pr-2 md:pl-4 lg:pl-7">
+            Profile Type
+          </label>
+          <ProfileTypeFilter
+            profileType={profileType}
+            typeHandler={typeHandler}
+          />
+        </div>
       </div>
       {length >= 3 && <div className="user-list flex flex-wrap justify-content-center">
         {!!filteredList &&
