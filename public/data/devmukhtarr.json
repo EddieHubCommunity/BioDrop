@@ -24,5 +24,22 @@
       "url": "https://www.linkedin.com/in/abdulfatai-mukhtar-77a2131b1/",
       "icon": "linkedIn"
     }
+  ],
+  "milestones": [
+    {
+      "title": "Wrote my first blog post on hashnode",
+      "date": "Feb 6, 2021",
+      "icon": "hashnode",
+      "color": "blue",
+      "description": "Wrote my first ever blog post which was about setting up NodeJS and published it on Hashnode",
+      "url": "https://mukhtar.hashnode.dev/setting-up-nodejs"
+    },
+    {
+      "title": "Completed Udacity Fullstack Nanodegree sponsored by ALX-T",
+      "date": "Aug 19, 2022",
+      "icon": "book",
+      "color": "blue",
+      "description": "I completed and learnt more about fullstack development with Udacity course"
+    }
   ]
 }

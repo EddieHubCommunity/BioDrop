@@ -1,45 +1,45 @@
-## [0.73.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.1...v0.73.2) (2022-09-03)
+## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
 
 
 ### Bug Fixes
 
-* update discord icon [#1698](https://github.com/EddieHubCommunity/LinkFree/issues/1698) ([#1699](https://github.com/EddieHubCommunity/LinkFree/issues/1699)) ([bd62cd2](https://github.com/EddieHubCommunity/LinkFree/commit/bd62cd26fb29b0bbb6d64d33dcf29beefa03525e))
+* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
 
 
 
-## [0.73.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.73.0...v0.73.1) (2022-09-02)
-
-
-### Bug Fixes
-
-* gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
-
-
-
-# [0.73.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.5...v0.73.0) (2022-09-02)
-
-
-### Features
-
-* linkfree-cli support ([#1695](https://github.com/EddieHubCommunity/LinkFree/issues/1695)) ([d553c96](https://github.com/EddieHubCommunity/LinkFree/commit/d553c965568ebc6dfa8fe3a8b004095fbb9fe3ba))
-
-
-
-## [0.72.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.4...v0.72.5) (2022-09-02)
+## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
 
 
 ### Bug Fixes
 
-* run prettier for data files ([#1713](https://github.com/EddieHubCommunity/LinkFree/issues/1713)) ([3644e72](https://github.com/EddieHubCommunity/LinkFree/commit/3644e729c22de061d1fb5172bd9d23d7c429227a))
+* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
 
 
 
-## [0.72.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.72.3...v0.72.4) (2022-09-02)
+## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
 
 
 ### Bug Fixes
 
-* viktorcodes ([#1609](https://github.com/EddieHubCommunity/LinkFree/issues/1609)) ([5de1e3b](https://github.com/EddieHubCommunity/LinkFree/commit/5de1e3bfa3ad8b9368f170cdcc30ac991cf06fa6))
+* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
+
+
+
+## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
+
+
+### Bug Fixes
+
+* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
+
+
+
+## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
+
+
+### Bug Fixes
+
+* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
 
 
 

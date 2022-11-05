@@ -1,5 +1,5 @@
 FROM node:15 as development
-LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
+LABEL org.opencontainers.image.source = "https://github.com/eddiehubcommunity/LinkFree"
 
 WORKDIR /usr/src/app
 
@@ -11,7 +11,7 @@ RUN sed -i 's/0.0.0/'`npm -s run env echo '$npm_package_version'`'/g' public/app
 RUN npm run build
 
 FROM node:15 as production
-LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
+LABEL org.opencontainers.image.source = "https://github.com/eddiehubcommunity/LinkFree"
 
 ARG NODE_ENV=production
 
