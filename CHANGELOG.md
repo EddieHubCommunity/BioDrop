@@ -1,45 +1,45 @@
-## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
-
-
-### Bug Fixes
-
-* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
-
-
-
-## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
-
-
-### Bug Fixes
-
-* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
-
-
-
-## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
-
-
-### Bug Fixes
-
-* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
-
-
-
-## [0.78.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.0...v0.78.1) (2022-10-28)
-
-
-### Bug Fixes
-
-* color of hyperlinks in dark mode ([#1929](https://github.com/EddieHubCommunity/LinkFree/issues/1929)) ([7a073cb](https://github.com/EddieHubCommunity/LinkFree/commit/7a073cbac01550f68bb0fa8ebe79aafe7eaac2eb))
-
-
-
-# [0.78.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.3...v0.78.0) (2022-10-21)
+# [0.80.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.2...v0.80.0) (2022-11-05)
 
 
 ### Features
 
-* keyboard shortcut for seachbox ([#1971](https://github.com/EddieHubCommunity/LinkFree/issues/1971)) ([2eda13a](https://github.com/EddieHubCommunity/LinkFree/commit/2eda13afdaf61aad5e1884b193a8f73bb5c57465))
+* close shareprofile popup ([#2020](https://github.com/EddieHubCommunity/LinkFree/issues/2020)) ([8d130fd](https://github.com/EddieHubCommunity/LinkFree/commit/8d130fd8cf0df88e2f016272229bf6607e73ff8c))
+
+
+
+## [0.79.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.1...v0.79.2) (2022-11-05)
+
+
+### Bug Fixes
+
+* dark mode bug ([#2002](https://github.com/EddieHubCommunity/LinkFree/issues/2002)) ([1992194](https://github.com/EddieHubCommunity/LinkFree/commit/199219417aa67f2fc54ea930c18b1839b3078cbd))
+
+
+
+## [0.79.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.0...v0.79.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* visible links ([#1992](https://github.com/EddieHubCommunity/LinkFree/issues/1992)) ([cd7fbb7](https://github.com/EddieHubCommunity/LinkFree/commit/cd7fbb763dd745061e22dd27d8d75c33f8c48bbe))
+
+
+
+# [0.79.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.14...v0.79.0) (2022-11-05)
+
+
+### Features
+
+* typewriter effect  ([#1986](https://github.com/EddieHubCommunity/LinkFree/issues/1986)) ([a734367](https://github.com/EddieHubCommunity/LinkFree/commit/a7343673c061939af61d3e0b3608d5e4d718b5a2))
+
+
+
+## [0.78.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.13...v0.78.14) (2022-11-05)
+
+
+### Bug Fixes
+
+* improve search section ([#1982](https://github.com/EddieHubCommunity/LinkFree/issues/1982)) ([936e6c0](https://github.com/EddieHubCommunity/LinkFree/commit/936e6c061ff0c3be854db97ca585965deaa1c1ae))
 
 
 

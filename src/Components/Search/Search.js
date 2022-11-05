@@ -1,7 +1,6 @@
 import './Search.css'
 import React, { useState, useEffect, useRef } from 'react'
 import Navbar from '../Navbar'
-import Placeholders from './Placeholders'
 import GetIcons from '../Icons/GetIcons'
 import Users from './Users'
 import { Link } from 'react-router-dom'
@@ -10,7 +9,6 @@ import { useTheme } from '../../ThemeContext'
 
 function Search() {
   const [list, setList] = useState([])
-  const [skeleton, setskeleton] = useState(true)
   const toast = useRef(null)
   const darkTheme = useTheme()
 
@@ -32,11 +30,6 @@ function Search() {
           life: 5000,
         })
       })
-      .finally(() => {
-        setTimeout(() => {
-          setskeleton(false)
-        }, 500)
-      })
   }, [])
 
   return (
@@ -44,7 +37,14 @@ function Search() {
       <header>
         <Navbar
           start={
-            <Link to="/" aria-label="Go back to Home">
+            <Link
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+              to="/"
+              aria-label="Go back to Home"
+            >
               <GetIcons
                 iconName="arrowLeft"
                 size={20}
@@ -56,7 +56,7 @@ function Search() {
       </header>
       <main>
         <Toast ref={toast} />
-        {skeleton ? <Placeholders list={list} /> : <Users list={list} />}
+         <Users list={list} />
       </main>
     </>
   )
