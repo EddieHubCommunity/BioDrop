@@ -37,7 +37,6 @@ function Search() {
       <header>
         <Navbar
           start={
-            <Link
               style={{
                 display: 'flex',
                 justifyContent: 'center',
