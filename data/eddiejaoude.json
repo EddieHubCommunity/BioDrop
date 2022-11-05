@@ -26,6 +26,11 @@
       "icon": "twitter"
     },
     {
+      "name": "Connect with me on Mastodon",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "mastodon"
+    },
+    {
       "name": "Learn more about Open Source on my YouTube channel",
       "url": "https://youtube.com/eddiejaoude",
       "icon": "youtube"
