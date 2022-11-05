@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.0...v1.1.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* branching docs ([0519ebf](https://github.com/EddieHubCommunity/LinkFree/commit/0519ebf83e06effdd2b612af2dceea22ed622663))
+
+
+
 # [1.1.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v1.1.0) (2022-11-05)
 
 
@@ -160,15 +169,6 @@
 ### Bug Fixes
 
 * dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
-
-
-
-## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
-
-
-### Bug Fixes
-
-* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
 
 
 
