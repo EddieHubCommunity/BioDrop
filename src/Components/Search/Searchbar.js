@@ -3,8 +3,26 @@ import PropTypes from 'prop-types'
 import { InputText } from 'primereact/inputtext'
 import GetIcons from '../Icons/GetIcons'
 import './Search.css'
+import { useTheme } from '../../ThemeContext'
+
+document.addEventListener('keydown', (e) => {
+  e = e || window.event
+  const searchbox = document.getElementById('search-input')
+  if (e.key === 'k' && e.ctrlKey) {
+    searchbox.focus()
+    e.preventDefault()
+  }
+})
 
 const Searchbar = ({ searchHandler, searchTerm }) => {
+  const darkTheme = useTheme()
+
+  const theme = {
+    backgroundColor: `${darkTheme ? '#333333' : 'white'}`,
+    border: `${darkTheme ? 'none' : '1px solid #ced4da'}`,
+    color: `${darkTheme ? 'white' : 'black'}`,
+  }
+
   return (
     <div className="search-section">
       <span className="p-input-icon-left">
@@ -18,6 +36,7 @@ const Searchbar = ({ searchHandler, searchTerm }) => {
           id="search-input"
           placeholder="Search user..."
           autoFocus
+          style={theme}
         />
       </span>
     </div>

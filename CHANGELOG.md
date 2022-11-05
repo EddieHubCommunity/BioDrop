@@ -1,45 +1,45 @@
-## [0.70.17](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.16...v0.70.17) (2022-08-08)
+## [0.78.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.8...v0.78.9) (2022-11-05)
 
 
 ### Bug Fixes
 
-* update Anushka-codergirl.json ([#1583](https://github.com/EddieHubCommunity/LinkFree/issues/1583)) ([f3deafe](https://github.com/EddieHubCommunity/LinkFree/commit/f3deafe5e15c303a84440db359aea24a6e4a2b5f))
+* hover for search in dark mode [#2027](https://github.com/EddieHubCommunity/LinkFree/issues/2027) ([#2051](https://github.com/EddieHubCommunity/LinkFree/issues/2051)) ([1d31757](https://github.com/EddieHubCommunity/LinkFree/commit/1d31757379bd52a2f1d023d3046d52ce50770fa9))
 
 
 
-## [0.70.16](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.15...v0.70.16) (2022-08-04)
-
-
-### Bug Fixes
-
-* formatting json file ([bfae82a](https://github.com/EddieHubCommunity/LinkFree/commit/bfae82a748901533c1c3cabcc69159ca2eed2d20))
-
-
-
-## [0.70.15](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.14...v0.70.15) (2022-08-04)
+## [0.78.8](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.7...v0.78.8) (2022-11-05)
 
 
 ### Bug Fixes
 
-* lubnafathima more data ([#1571](https://github.com/EddieHubCommunity/LinkFree/issues/1571)) ([e425573](https://github.com/EddieHubCommunity/LinkFree/commit/e4255732491582d3aa4c0dc2a133b2489fc9ea6e))
+* footer urls open externally ([#2049](https://github.com/EddieHubCommunity/LinkFree/issues/2049)) ([95391f1](https://github.com/EddieHubCommunity/LinkFree/commit/95391f17fc769bcc2a554fc2ce7747ccb4b00bd1))
 
 
 
-## [0.70.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.13...v0.70.14) (2022-08-03)
-
-
-### Bug Fixes
-
-* Update vedanshi555 username ([#1563](https://github.com/EddieHubCommunity/LinkFree/issues/1563)) ([0247cf3](https://github.com/EddieHubCommunity/LinkFree/commit/0247cf3a7f1af2f2af1f44a30b0e633d7de5030a))
-
-
-
-## [0.70.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.12...v0.70.13) (2022-07-31)
+## [0.78.7](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.6...v0.78.7) (2022-11-05)
 
 
 ### Bug Fixes
 
-* typos Error in readme.md ([#1544](https://github.com/EddieHubCommunity/LinkFree/issues/1544)) ([3b11746](https://github.com/EddieHubCommunity/LinkFree/commit/3b117461e18fca353bf984ba1f6b19ffc566386b))
+* improved dark mode for search ([#2094](https://github.com/EddieHubCommunity/LinkFree/issues/2094)) ([306a4c0](https://github.com/EddieHubCommunity/LinkFree/commit/306a4c0b3756186f71460f8b680e90809c06665c))
+
+
+
+## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
+
+
+### Bug Fixes
+
+* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+
+
+
+## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
+
+
+### Bug Fixes
+
+* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
 
 
 
