@@ -11,8 +11,13 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/imakshay_ab",
+      "url": "https://twitter.com/AkshayBendadi",
       "icon": "twitter"
+    },
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akshay-bendadi/",
+      "icon": "linkedin"
     }
   ]
 }
