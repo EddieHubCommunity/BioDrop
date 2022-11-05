@@ -1,45 +1,45 @@
-## [0.78.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.5...v0.78.6) (2022-11-03)
+# [0.81.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.1...v0.81.0) (2022-11-05)
+
+
+### Features
+
+* use theme from system ([#2039](https://github.com/EddieHubCommunity/LinkFree/issues/2039)) ([96905f4](https://github.com/EddieHubCommunity/LinkFree/commit/96905f44f75c566d2bca2ff3128ccfadc5c11a5a))
+
+
+
+## [0.80.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.80.0...v0.80.1) (2022-11-05)
 
 
 ### Bug Fixes
 
-* remove hacktoberfest-exclude labler ([#2097](https://github.com/EddieHubCommunity/LinkFree/issues/2097)) ([4cf2bb6](https://github.com/EddieHubCommunity/LinkFree/commit/4cf2bb67299c3d65f16f78de5ac425b7c110ca6c))
+* profile names visible on hovering in dark mode ([#2026](https://github.com/EddieHubCommunity/LinkFree/issues/2026)) ([ec0d99f](https://github.com/EddieHubCommunity/LinkFree/commit/ec0d99f93eef64d9677157931920f6033236b0af))
 
 
 
-## [0.78.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.4...v0.78.5) (2022-11-03)
+# [0.80.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.2...v0.80.0) (2022-11-05)
 
 
-### Bug Fixes
+### Features
 
-* profile picture in chip ([#2024](https://github.com/EddieHubCommunity/LinkFree/issues/2024)) ([6f3dd4f](https://github.com/EddieHubCommunity/LinkFree/commit/6f3dd4f5eb4957ccc124e056f550ffee0e5c2008))
-
-
-
-## [0.78.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.3...v0.78.4) (2022-10-29)
-
-
-### Bug Fixes
-
-* dropdown label accessibility issue ([#2017](https://github.com/EddieHubCommunity/LinkFree/issues/2017)) ([b628c8b](https://github.com/EddieHubCommunity/LinkFree/commit/b628c8b81c16a951c68a7ed6e5abebc30e06a797))
+* close shareprofile popup ([#2020](https://github.com/EddieHubCommunity/LinkFree/issues/2020)) ([8d130fd](https://github.com/EddieHubCommunity/LinkFree/commit/8d130fd8cf0df88e2f016272229bf6607e73ff8c))
 
 
 
-## [0.78.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.2...v0.78.3) (2022-10-29)
+## [0.79.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.1...v0.79.2) (2022-11-05)
 
 
 ### Bug Fixes
 
-* color issue in the dark mode ([#2014](https://github.com/EddieHubCommunity/LinkFree/issues/2014)) ([9d6085b](https://github.com/EddieHubCommunity/LinkFree/commit/9d6085b2ae7695bbfcf0b77c56fa85b82bb1f776))
+* dark mode bug ([#2002](https://github.com/EddieHubCommunity/LinkFree/issues/2002)) ([1992194](https://github.com/EddieHubCommunity/LinkFree/commit/199219417aa67f2fc54ea930c18b1839b3078cbd))
 
 
 
-## [0.78.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.78.1...v0.78.2) (2022-10-29)
+## [0.79.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.79.0...v0.79.1) (2022-11-05)
 
 
 ### Bug Fixes
 
-* username font color ([#2029](https://github.com/EddieHubCommunity/LinkFree/issues/2029)) ([8c8a5da](https://github.com/EddieHubCommunity/LinkFree/commit/8c8a5daff03ddf93bf70d6e89a21cd92b7a07ded))
+* visible links ([#1992](https://github.com/EddieHubCommunity/LinkFree/issues/1992)) ([cd7fbb7](https://github.com/EddieHubCommunity/LinkFree/commit/cd7fbb763dd745061e22dd27d8d75c33f8c48bbe))
 
 
 

@@ -29,7 +29,6 @@ function Navbar({ items, start, end }) {
     end = (
       <div className="flex justify-content-center align-items-center pr-2">
         <Link
-       style={{
             display: 'flex',
             justifyContent: 'center',
           }}
@@ -60,7 +59,7 @@ function Navbar({ items, start, end }) {
             : (
             <GetIcons iconName="sun" onClick={toggleTheme} size={20} />
               )}
-        </div>
+        </button>
       </div>
     )
   }
