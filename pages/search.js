@@ -20,6 +20,8 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const [filteredUsers, setFilteredUsers] = useState([]);
+  const [showAlert, setshowAlert] = useState(true);
+
   const filterData = (value) => {
     setFilteredUsers(
       value.length >= 3
@@ -37,6 +39,13 @@ export default function Search({ users }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
+        <div
+          className={`bg-red-200 p-5 my-5 text-2xl ${
+            showAlert ? "flex" : "hidden"
+          }`}
+        >
+          User Not Found
+        </div>
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users"
