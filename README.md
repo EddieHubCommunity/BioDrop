@@ -145,10 +145,6 @@ For example: <http://github.com/eddiejaoude.png>
 
 Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
 
-### A simple gif version of adding your profile
-
-![Linkfree adding profile GIF](https://user-images.githubusercontent.com/51878265/165113896-35d34c1d-c95e-4bb4-b658-df1afb9ab658.gif)
-
 ### Available Icons:
 
 Check [Icons.md](/icons.md) for all the supported icons.
