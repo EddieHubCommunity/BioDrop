@@ -18,8 +18,16 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
   } catch (e) {
-    // TODO: redirect to 404
     console.log("ERROR user not found ", e);
+  }
+
+  if (!data.username) {
+    return {
+      redirect: {
+        destination: `/search?username=${context.query.username}`,
+        permanent: false,
+      },
+    };
   }
 
   return {
