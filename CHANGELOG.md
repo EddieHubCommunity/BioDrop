@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.0...v1.2.1) (2022-11-06)
+
+
+### Bug Fixes
+
+* formatting json file ([062c4dd](https://github.com/EddieHubCommunity/LinkFree/commit/062c4dd3121736ab6cdf95afc1feb24cb43cc8e2))
+
+
+
 # [1.2.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.6...v1.2.0) (2022-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove v2 lables ([#2136](https://github.com/EddieHubCommunity/LinkFree/issues/2136)) ([c57df80](https://github.com/EddieHubCommunity/LinkFree/commit/c57df807607c593be71947fa857f9e636bc904a5))
-
-
-
-## [1.1.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.2...v1.1.3) (2022-11-05)
-
-
-### Bug Fixes
-
-* formatting data file ([fd7abd8](https://github.com/EddieHubCommunity/LinkFree/commit/fd7abd813145eaa657c967c54c4f1accd42718a9))
 
 
 
