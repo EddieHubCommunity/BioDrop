@@ -1,8 +1,11 @@
 name: Format
 on:
+  pull_request:
+    paths:
+      - "data/**"
   push:
     paths:
-      - 'data/**'
+      - "data/**"
 
 jobs:
   format:
