@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.1...v1.2.2) (2022-11-06)
+
+
+### Bug Fixes
+
+* user not found ([#2154](https://github.com/EddieHubCommunity/LinkFree/issues/2154)) ([2441f9d](https://github.com/EddieHubCommunity/LinkFree/commit/2441f9dc3fb8942d8ce97bcf08593663ec1fdc88)), closes [#2151](https://github.com/EddieHubCommunity/LinkFree/issues/2151) [#2146](https://github.com/EddieHubCommunity/LinkFree/issues/2146)
+
+
+
 ## [1.2.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.0...v1.2.1) (2022-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * path for data files ([#2137](https://github.com/EddieHubCommunity/LinkFree/issues/2137)) ([6b32e7f](https://github.com/EddieHubCommunity/LinkFree/commit/6b32e7fa11fa0a5de8d3943871d1fabfe02521a2))
-
-
-
-## [1.1.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.3...v1.1.4) (2022-11-05)
-
-
-### Bug Fixes
-
-* remove v2 lables ([#2136](https://github.com/EddieHubCommunity/LinkFree/issues/2136)) ([c57df80](https://github.com/EddieHubCommunity/LinkFree/commit/c57df807607c593be71947fa857f9e636bc904a5))
 
 
 
