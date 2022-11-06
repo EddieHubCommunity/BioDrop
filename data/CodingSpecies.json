@@ -1,6 +1,7 @@
 {
   "name": "CodingSpecies",
   "type": "personal",
+  "displayStatsPublic": true,
   "bio": "Making Apps using React.js | Working on web and software engineering 👩‍💻 | Maintaining my organisation, App-Choreography 📛",
   "avatar": "https://github.com/CodingSpecies.png",
   "links": [
@@ -13,6 +14,43 @@
       "name": "Check out my website 🌐",
       "url": "https://codingspecies.github.io/MeAndMyApps/",
       "icon": "link"
+    }
+  ]
+  "milestones": [
+    {
+      "title": "Joined the world of Software Development",
+      "date": "June 2020",
+      "icon": "book",
+      "color": "grey",
+      "description": "Began learning front-end development",
+    },
+    {
+      "title": "Joined GitHub",
+      "date": "September 2020",
+      "icon": "github",
+      "color": "blue",
+      "description": "Began the journey of Open Source",
+    },
+    {
+      "title": "App-Choreography",
+      "date": "June 2021",
+      "icon": "github",
+      "color": "grey",
+      "description": "Established my GitHub organisation!",
+    },
+    {
+      "title": "Hacktoberfest 2021",
+      "date": "October 2021",
+      "icon": "book",
+      "color": "blue",
+      "description": "Successfully participated in Hacktoberfest 2021",
+    },
+    {
+      "title": "Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "book",
+      "color": "grey",
+      "description": "Successfully participated in Hacktoberfest 2022",
     }
   ]
 }
