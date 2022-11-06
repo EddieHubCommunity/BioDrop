@@ -1,3 +1,12 @@
+## [1.2.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.2...v1.2.3) (2022-11-06)
+
+
+### Bug Fixes
+
+* run prettier on pull requests ([caa0e6b](https://github.com/EddieHubCommunity/LinkFree/commit/caa0e6b3ce70ace3c982956d47626116df9da886))
+
+
+
 ## [1.2.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.1...v1.2.2) (2022-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * eddiejaoude profile markdown ([ed8df4f](https://github.com/EddieHubCommunity/LinkFree/commit/ed8df4f40579db35961496d412b4fc212e784b66))
-
-
-
-## [1.1.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.4...v1.1.5) (2022-11-05)
-
-
-### Bug Fixes
-
-* path for data files ([#2137](https://github.com/EddieHubCommunity/LinkFree/issues/2137)) ([6b32e7f](https://github.com/EddieHubCommunity/LinkFree/commit/6b32e7fa11fa0a5de8d3943871d1fabfe02521a2))
 
 
 
