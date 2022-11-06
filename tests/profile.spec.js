@@ -46,6 +46,15 @@ test("Link clicks increase", async ({ page }) => {
   expect(parseInt(startingClicks[1])).toEqual(parseInt(endingClicks[1]) - 3);
 });
 
+test("Profile not found redirects to search page with error message", async ({
+  page,
+}) => {
+  const username = "_test-profile-does-not-exist";
+  await page.goto(`/${username}`);
+  await expect(page).toHaveURL("search?username=_test-profile-does-not-exist");
+  await expect(page.locator("h2")).toHaveText(`${username} not found`);
+});
+
 test.fixme("Link navigates", async ({ page }) => {
   // 1. nagivate to profile
   // 2. get a link and href
