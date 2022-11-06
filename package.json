@@ -26,7 +26,8 @@
     "format": "prettier --write .",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "postinstall": "ncp ./.env.example ./.env"
+    "postinstall": "ncp ./.env.example ./.env",
+    "create": "npx linkfree-cli"
   },
   "browserslist": {
     "production": [
@@ -49,6 +50,7 @@
     "eslint-config-next": "13.0.0",
     "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
+    "linkfree-cli": "^1.4.0",
     "lint-staged": "^12.1.4",
     "ncp": "^2.0.0",
     "postcss": "^8.4.17"
