@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.6...v1.2.0) (2022-11-06)
+
+
+### Features
+
+* LinkFree CLI support ([#2164](https://github.com/EddieHubCommunity/LinkFree/issues/2164)) ([1cf1861](https://github.com/EddieHubCommunity/LinkFree/commit/1cf1861b19ca6eef0767334a20f19501bc73dd43))
+
+
+
 ## [1.1.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.5...v1.1.6) (2022-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * formatting data file ([fd7abd8](https://github.com/EddieHubCommunity/LinkFree/commit/fd7abd813145eaa657c967c54c4f1accd42718a9))
-
-
-
-## [1.1.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.1...v1.1.2) (2022-11-05)
-
-
-### Bug Fixes
-
-* CBID2 milestones section ([#2123](https://github.com/EddieHubCommunity/LinkFree/issues/2123)) ([2732207](https://github.com/EddieHubCommunity/LinkFree/commit/2732207b128e02d2f61b01f01320c51c45398bcd))
 
 
 
