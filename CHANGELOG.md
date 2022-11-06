@@ -1,3 +1,12 @@
+## [1.2.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.3...v1.2.4) (2022-11-06)
+
+
+### Bug Fixes
+
+* inspiration links ([#2166](https://github.com/EddieHubCommunity/LinkFree/issues/2166)) ([66a2e97](https://github.com/EddieHubCommunity/LinkFree/commit/66a2e97bc79ee3de2ef1b3254a8f333d8c282fc7))
+
+
+
 ## [1.2.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.2...v1.2.3) (2022-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * LinkFree CLI support ([#2164](https://github.com/EddieHubCommunity/LinkFree/issues/2164)) ([1cf1861](https://github.com/EddieHubCommunity/LinkFree/commit/1cf1861b19ca6eef0767334a20f19501bc73dd43))
-
-
-
-## [1.1.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.5...v1.1.6) (2022-11-05)
-
-
-### Bug Fixes
-
-* eddiejaoude profile markdown ([ed8df4f](https://github.com/EddieHubCommunity/LinkFree/commit/ed8df4f40579db35961496d412b4fc212e784b66))
 
 
 
