@@ -44,25 +44,32 @@ export default function User({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx-auto container px-6 mt-6">
-        <div className="flex justify-center gap-x-6">
+      <div className="mx-auto container px-6 mt-6 ">
+        <div className="flex flex-col gap-3 items-center relative px-5 pb-5 rounded-t-2xl bg-">
+          {data.displayStatsPublic && (
+            <h2 className="text-md lg:text-xl flex items-center self-end text-[#65615e]">
+              Views
+              <span className="text-white ml-3 px-5 rounded-2xl bg-[#3da639] font-medium">
+                {data.views}
+              </span>
+            </h2>
+          )}
           <FallbackImage
             src={data.avatar}
             alt={`Profile picture of ${data.name}`}
             width={120}
             height={120}
             fallback={data.name}
-            className="rounded-full"
+            className="rounded-full border-2 border-white"
           />
-          <div className="flex flex-col self-center">
-            <h1 className="text-3xl font-bold">{data.name}</h1>
-            {data.displayStatsPublic && (
-              <h2 className="text-1xl text-gray-600">Views: {data.views}</h2>
-            )}
+          <div className="flex gap-3">
+            <h1 className="text-xl lg:text-2xl text-[#ff5a00] font-bold">
+              {data.name}
+            </h1>
           </div>
-        </div>
-        <div className="flex justify-center my-4">
-          <ReactMarkdown>{data.bio}</ReactMarkdown>
+          <ReactMarkdown className="text-md lg:text-lg text-center text-[#65615e]">
+            {data.bio}
+          </ReactMarkdown>
         </div>
         <div className="flex flex-col items-center w-full">
           {data.links &&
