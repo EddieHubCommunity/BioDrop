@@ -15,7 +15,7 @@ export default async function handler(req, res) {
   const file = files.find((file) => file === `${username}.json`);
 
   if (!file) {
-    return res.status(404).json({ [username]: "Not found" });
+    return res.status(404).json({});
   }
 
   const data = JSON.parse(
