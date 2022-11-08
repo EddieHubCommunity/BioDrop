@@ -1,3 +1,12 @@
+## [1.2.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.4...v1.2.5) (2022-11-08)
+
+
+### Bug Fixes
+
+* image width limit ([#2172](https://github.com/EddieHubCommunity/LinkFree/issues/2172)) ([4078d3e](https://github.com/EddieHubCommunity/LinkFree/commit/4078d3e6c2fdbac100d683f04ffa4d3d412a05e0))
+
+
+
 ## [1.2.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.3...v1.2.4) (2022-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * formatting json file ([062c4dd](https://github.com/EddieHubCommunity/LinkFree/commit/062c4dd3121736ab6cdf95afc1feb24cb43cc8e2))
-
-
-
-# [1.2.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.1.6...v1.2.0) (2022-11-06)
-
-
-### Features
-
-* LinkFree CLI support ([#2164](https://github.com/EddieHubCommunity/LinkFree/issues/2164)) ([1cf1861](https://github.com/EddieHubCommunity/LinkFree/commit/1cf1861b19ca6eef0767334a20f19501bc73dd43))
 
 
 
