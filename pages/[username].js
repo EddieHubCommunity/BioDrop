@@ -58,7 +58,7 @@ export default function User({ data }) {
           <div className="flex flex-col self-center">
             <h1 className="text-3xl font-bold">{data.name}</h1>
             {data.displayStatsPublic && (
-              <h2 className="text-1xl text-gray-600">Views: {abbreviateNumber(4532313)}</h2>
+              <h2 className="text-1xl text-gray-600">Views: {abbreviateNumber(data.views)}</h2>
             )}
           </div>
         </div>
