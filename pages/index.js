@@ -94,13 +94,14 @@ export default function Home({ data }) {
           </Link>
           .
         </p>
-        <Image
-          src="/mockup.png"
-          className="grid place-items-center w-screen"
-          alt="Mock up of LinkFree project"
-          width="800"
-          height="500"
-        />
+        <div className="grid place-items-center w-screen">
+          <Image
+            src="/mockup.png"
+            alt="Mock up of LinkFree project"
+            width="1200"
+            height="638"
+          />
+        </div>
       </main>
     </>
   );
