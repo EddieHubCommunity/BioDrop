@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import { abbreviateNumber } from "js-abbreviation-number";
 
 import app from "../config/app.json";
 import singleUser from "../config/user.json";
@@ -52,21 +53,21 @@ export default function Home({ data }) {
               {data.users > 0 && (
                 <div className="inline-flex rounded-md drop-shadow-md">
                   <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400">
-                    {data.users} USERS
+                    {abbreviateNumber(data.users)} USERS
                   </div>
                 </div>
               )}
               {data.views > 0 && (
                 <div className="ml-3 inline-flex rounded-md drop-shadow-lg">
                   <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600">
-                    {data.views} PROFILE VIEWS
+                    {abbreviateNumber(data.views)} PROFILE VIEWS
                   </div>
                 </div>
               )}
               {data.clicks > 0 && (
                 <div className="ml-3 inline-flex rounded-md drop-shadow-xl">
                   <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800">
-                    {data.clicks} LINKS CLICKED
+                    {abbreviateNumber(data.clicks)} LINKS CLICKED
                   </div>
                 </div>
               )}

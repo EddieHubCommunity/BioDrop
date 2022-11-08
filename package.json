@@ -6,6 +6,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "dotenv": "^16.0.3",
+    "js-abbreviation-number": "^1.4.0",
     "mongoose": "^6.6.5",
     "next": "^13",
     "prettier": "^2.7.1",
