@@ -1,7 +1,8 @@
 {
   "name": "David Leal",
+  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Open-source advocate, community manager, coder, and app/game developer. Likes to play games and help people with their questions/doubts on my spare time.",
+  "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
   "avatar": "https://github.com/Panquesito7.png",
   "links": [
     {
@@ -15,12 +16,12 @@
       "icon": "twitter"
     },
     {
-      "name": "Support my work",
+      "name": "Support my work by donating",
       "url": "https://github.com/sponsors/Panquesito7",
       "icon": "dollar"
     },
     {
-      "name": "Check out Minetest and more gameplays on my YouTube channel",
+      "name": "Check out NSMBW speedruns on my YouTube channel",
       "url": "https://www.youtube.com/channel/UCcZmWPJygsJ_szWKwTy2wqA",
       "icon": "youtube"
     },
@@ -33,6 +34,32 @@
       "name": "Contact me via mail",
       "url": "mailto:halfpacho@gmail.com",
       "icon": "envelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Released PanqKart",
+      "date": "June 28, 2022",
+      "icon": "github",
+      "color": "#0030e7",
+      "description": "PanqKart is a WIP free racing game for Minetest",
+      "url": "https://github.com/panqkart/panqkart"
+    },
+    {
+      "title": "First community manager position",
+      "date": "March 11, 2021",
+      "icon": "discord",
+      "color": "#00BCB4",
+      "description": "Started managing TheAlgorithms' Discord server",
+      "url": "https://the-algorithms.com/discord"
+    },
+    {
+      "title": "First repository maintenance",
+      "date": "30 November, 2019",
+      "icon": "github",
+      "color": "#4D9A06",
+      "description": "Started my first maintaining repository",
+      "url": "https://github.com/minetest-mods/teleport-request"
     }
   ]
 }
