@@ -43,6 +43,14 @@ export default function User({ data }) {
         <title>{data.name}</title>
         <meta name="description" content={data.bio} />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:title" content={data.name} />
+        <meta property="og:type" content="image/png" />
+        <meta
+          property="og:url"
+          content={`https://linkfree.eddiehub.io/${data.username}`}
+        />
+        <meta property="og:image" content={data.avatar} />
       </Head>
 
       <div className="mx-auto container px-6 mt-6">
