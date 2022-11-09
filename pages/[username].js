@@ -39,7 +39,7 @@ export default function User({ data }) {
         <meta property="og:type" content="image/png" />
         <meta
           property="og:url"
-          content={`https://linkfree.eddiehub.io/tt0117500/${data.username}`}
+          content={`https://linkfree.eddiehub.io/${data.username}`}
         />
         <meta property="og:image" content={data.avatar} />
       </Head>
