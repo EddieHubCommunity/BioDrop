@@ -2,33 +2,25 @@ api-version: reviewpad.com/v3.x
 
 labels:
   small:
-    description: 'Pull request with less than 10 changed lines'
-    color: '294b69'
+    description: "Pull request with less than 10 changed lines"
+    color: "294b69"
   medium:
-    description: 'Pull request with changed lines between 10 and 30'
-    color: 'a8c3f7'
+    description: "Pull request with changed lines between 10 and 30"
+    color: "a8c3f7"
   large:
-    description: 'Pull request with more than 30 changed lines'
-    color: '8a2138'
+    description: "Pull request with more than 30 changed lines"
+    color: "8a2138"
 
 rules:
-  - name: check-for-profile
-    description: Checks for profile changed
-    spec: $hasFilePattern("public/data/**")
-
   - name: check-for-file-name
     description: Checks for the correct author
-    spec: $hasFileName($sprintf("public/data/%v.json", [$author()]))
+    spec: $hasFileName($sprintf("data/%v.json", [$author()]))
 
   - name: modifies-only-one-file
     spec: $fileCount() == 1
 
   - name: check-for-profile-addition
     spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
-
-  - name: check-for-version2
-    kind: patch
-    spec: $base() == "nextjs"
 
 workflows:
   - name: label-pull-request-with-size
@@ -67,7 +59,7 @@ workflows:
   - name: add-label-for-chore-profile-addition
     always-run: true
     if:
-      - rule: $hasFilePattern("public/data/**")
+      - rule: $hasFilePattern("data/**")
     then:
       - '$addLabel("✍ chore: profile addition")'
 
@@ -79,19 +71,3 @@ workflows:
     then:
       - '$addLabel("LGTM")'
 
-  - name: version 2 with nextjs
-    description: Automates v2 label
-    always-run: true
-    if:
-      - rule: check-for-version2
-    then:
-      - '$addLabel("v2")'
-
-  - name: hacktoberfest exclude
-    description: Exclude pull requests from Hacktoberfest that are profile changes
-    always-run: true
-    if:
-      - rule: check-for-profile
-    then:
-      - '$addLabel("invalid")'
-      - '$commentOnce("Thank you for adding/editing your profile. Note this will not be included as part of Hacktoberfest.")'

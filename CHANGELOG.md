@@ -1,45 +1,45 @@
-## [0.77.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.2...v0.77.3) (2022-10-12)
+## [1.2.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.4...v1.2.5) (2022-11-08)
 
 
 ### Bug Fixes
 
-* confusing line in README ([#1871](https://github.com/EddieHubCommunity/LinkFree/issues/1871)) ([72b0ab3](https://github.com/EddieHubCommunity/LinkFree/commit/72b0ab36d1d1c2ac54155764feba022e3c8670f7))
+* image width limit ([#2172](https://github.com/EddieHubCommunity/LinkFree/issues/2172)) ([4078d3e](https://github.com/EddieHubCommunity/LinkFree/commit/4078d3e6c2fdbac100d683f04ffa4d3d412a05e0))
 
 
 
-## [0.77.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.1...v0.77.2) (2022-10-10)
-
-
-### Bug Fixes
-
-* border-radius for milestones & images ([#1867](https://github.com/EddieHubCommunity/LinkFree/issues/1867)) ([e90ac72](https://github.com/EddieHubCommunity/LinkFree/commit/e90ac72d213c95d1758bd7fca72dd4dacf02d097))
-
-
-
-## [0.77.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.77.0...v0.77.1) (2022-10-09)
+## [1.2.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.3...v1.2.4) (2022-11-06)
 
 
 ### Bug Fixes
 
-* Shareicons color changing fix in build (purgecss) ([#1917](https://github.com/EddieHubCommunity/LinkFree/issues/1917)) ([84de04a](https://github.com/EddieHubCommunity/LinkFree/commit/84de04a97fa7663b2349d3bd52fbff36b1b6bf63))
+* inspiration links ([#2166](https://github.com/EddieHubCommunity/LinkFree/issues/2166)) ([66a2e97](https://github.com/EddieHubCommunity/LinkFree/commit/66a2e97bc79ee3de2ef1b3254a8f333d8c282fc7))
 
 
 
-# [0.77.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.9...v0.77.0) (2022-10-08)
-
-
-### Features
-
-* Implement the Dark/Light-Mode feature ([#1852](https://github.com/EddieHubCommunity/LinkFree/issues/1852)) ([7e718cc](https://github.com/EddieHubCommunity/LinkFree/commit/7e718ccf0858b6f9ea434cf7b1b38e9a9bc67b92))
-
-
-
-## [0.76.9](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.8...v0.76.9) (2022-10-08)
+## [1.2.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.2...v1.2.3) (2022-11-06)
 
 
 ### Bug Fixes
 
-* only publish container ([#1924](https://github.com/EddieHubCommunity/LinkFree/issues/1924)) ([df31fc7](https://github.com/EddieHubCommunity/LinkFree/commit/df31fc707a8d7d990d4a02e695b7ec8e907e3555))
+* run prettier on pull requests ([caa0e6b](https://github.com/EddieHubCommunity/LinkFree/commit/caa0e6b3ce70ace3c982956d47626116df9da886))
+
+
+
+## [1.2.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.1...v1.2.2) (2022-11-06)
+
+
+### Bug Fixes
+
+* user not found ([#2154](https://github.com/EddieHubCommunity/LinkFree/issues/2154)) ([2441f9d](https://github.com/EddieHubCommunity/LinkFree/commit/2441f9dc3fb8942d8ce97bcf08593663ec1fdc88)), closes [#2151](https://github.com/EddieHubCommunity/LinkFree/issues/2151) [#2146](https://github.com/EddieHubCommunity/LinkFree/issues/2146)
+
+
+
+## [1.2.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.0...v1.2.1) (2022-11-06)
+
+
+### Bug Fixes
+
+* formatting json file ([062c4dd](https://github.com/EddieHubCommunity/LinkFree/commit/062c4dd3121736ab6cdf95afc1feb24cb43cc8e2))
 
 
 

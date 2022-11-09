@@ -1,0 +1,120 @@
+{
+  "name": "Eddie Jaoude",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
+  "avatar": "https://github.com/eddiejaoude.png",
+  "links": [
+    {
+      "name": "Business DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "link"
+    },
+    {
+      "name": "Inclusive Open Source community EddieHub (Discord, GitHub Org ...)",
+      "url": "http://eddiehub.org",
+      "icon": "link"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on Mastodon",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "mastodon"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "https://youtube.com/eddiejaoude",
+      "icon": "youtube"
+    },
+    {
+      "name": "Watch behind the scenes on my 2nd YouTube channel (shorts)",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "youtube"
+    },
+    {
+      "name": "Join my Open Source community EddieHub on Discord",
+      "url": "http://discord.eddiehub.org",
+      "icon": "discord"
+    },
+    {
+      "name": "Listen to my Podcast",
+      "url": "https://anchor.fm/eddiejaoude",
+      "icon": "codeforces"
+    },
+    {
+      "name": "Donate to me on GitHub Sponsors",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "dollar"
+    },
+    {
+      "name": "Customising your GitHub Profile course (free)",
+      "url": "http://eddiejaoude.io/course-github-profile-landing",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2010",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing again",
+      "url": "https://www.eddiejaoude.io/"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/eddiejaoude.png",
+      "date": "June 2019",
+      "icon": "youtube",
+      "color": "red",
+      "description": "First real video",
+      "url": "https://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Became a GitHub Star with 30 other people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Top Teacher Award",
+      "date": "2022",
+      "icon": "github",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
+      "url": "https://github.com/eddiejaoude"
+    }
+  ]
+}
