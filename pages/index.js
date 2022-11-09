@@ -76,7 +76,7 @@ export default function Home({ data }) {
         </div>
 
         <p className="text-2xl font-normal text-center mb-6">
-          It is an open-source alternative to Linktree implemented in JavaScript
+          <b>LinkFree</b> is an open-source alternative to Linktree implemented in JavaScript
         </p>
 
         <p className="text-1xl text-center">
