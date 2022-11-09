@@ -3,7 +3,7 @@ import * as fs from "fs";
 
 if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
   throw new Error(
-    "Please define LINKFREE_MONGO_CONNECTION_STRING to .env.local"
+    "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
   );
 }
 
