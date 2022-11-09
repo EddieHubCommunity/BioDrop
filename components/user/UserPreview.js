@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
+import { abbreviateNumber } from "js-abbreviation-number";
 
 import FallbackImage from "../FallbackImage";
 
@@ -21,7 +22,7 @@ export default function UserPreview({ profile }) {
           />
         </div>
         <h3 className="text-xl font-bold md:hidden">
-          {profile.name} {profile.views && <span>({profile.views})</span>}
+          {profile.name} {profile.views && <span>({abbreviateNumber(profile.views)})</span>}
         </h3>
       </div>
       <div>
