@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.3.1...v1.4.0) (2022-11-09)
+
+
+### Features
+
+* opengraph meta data [#1366](https://github.com/EddieHubCommunity/LinkFree/issues/1366) ([#2148](https://github.com/EddieHubCommunity/LinkFree/issues/2148)) ([b0dc42b](https://github.com/EddieHubCommunity/LinkFree/commit/b0dc42b5cd431f020558d666e925f77f7ea169af))
+
+
+
 ## [1.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.3.0...v1.3.1) (2022-11-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * inspiration links ([#2166](https://github.com/EddieHubCommunity/LinkFree/issues/2166)) ([66a2e97](https://github.com/EddieHubCommunity/LinkFree/commit/66a2e97bc79ee3de2ef1b3254a8f333d8c282fc7))
-
-
-
-## [1.2.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.2...v1.2.3) (2022-11-06)
-
-
-### Bug Fixes
-
-* run prettier on pull requests ([caa0e6b](https://github.com/EddieHubCommunity/LinkFree/commit/caa0e6b3ce70ace3c982956d47626116df9da886))
 
 
 
