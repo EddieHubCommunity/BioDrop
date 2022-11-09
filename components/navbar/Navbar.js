@@ -60,6 +60,8 @@ export default function Navbar() {
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     aria-current="page"
+		             target="_blank"
+		             rel="noreferrer"
                   >
                     GitHub
                   </a>
