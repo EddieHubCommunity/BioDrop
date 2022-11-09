@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.5...v1.3.0) (2022-11-09)
+
+
+### Features
+
+* stats to use abbreviations ([#2183](https://github.com/EddieHubCommunity/LinkFree/issues/2183)) ([f0940a6](https://github.com/EddieHubCommunity/LinkFree/commit/f0940a6b5177955cd3f0cb8623c4b933c047c369))
+
+
+
 ## [1.2.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.4...v1.2.5) (2022-11-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user not found ([#2154](https://github.com/EddieHubCommunity/LinkFree/issues/2154)) ([2441f9d](https://github.com/EddieHubCommunity/LinkFree/commit/2441f9dc3fb8942d8ce97bcf08593663ec1fdc88)), closes [#2151](https://github.com/EddieHubCommunity/LinkFree/issues/2151) [#2146](https://github.com/EddieHubCommunity/LinkFree/issues/2146)
-
-
-
-## [1.2.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.0...v1.2.1) (2022-11-06)
-
-
-### Bug Fixes
-
-* formatting json file ([062c4dd](https://github.com/EddieHubCommunity/LinkFree/commit/062c4dd3121736ab6cdf95afc1feb24cb43cc8e2))
 
 
 
