@@ -1,3 +1,13 @@
+## [1.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.0...v1.5.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* improved no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([85e0cf5](https://github.com/EddieHubCommunity/LinkFree/commit/85e0cf53eb810be860ef1dd01c5b9a75199fd5b2))
+* no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([4d1db91](https://github.com/EddieHubCommunity/LinkFree/commit/4d1db918a9ac8949ab7aea5ecf3dd4d7111e05fb))
+
+
+
 # [1.5.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.4.0...v1.5.0) (2022-11-10)
 
 
@@ -31,15 +41,6 @@
 ### Features
 
 * stats to use abbreviations ([#2183](https://github.com/EddieHubCommunity/LinkFree/issues/2183)) ([f0940a6](https://github.com/EddieHubCommunity/LinkFree/commit/f0940a6b5177955cd3f0cb8623c4b933c047c369))
-
-
-
-## [1.2.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.4...v1.2.5) (2022-11-08)
-
-
-### Bug Fixes
-
-* image width limit ([#2172](https://github.com/EddieHubCommunity/LinkFree/issues/2172)) ([4078d3e](https://github.com/EddieHubCommunity/LinkFree/commit/4078d3e6c2fdbac100d683f04ffa4d3d412a05e0))
 
 
 
