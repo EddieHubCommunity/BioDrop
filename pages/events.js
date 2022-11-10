@@ -29,7 +29,7 @@ export default function Events({ events }) {
       <div className="flex flex-col px-6 align-center">
         {!events.length
           ?
-          <h3 className="text-center text-4xl mt-10 font-mono"> No Events Available</h3>
+          <h3 className="text-center text-4xl mt-10 font-mono">No events available.</h3>
           :
           <ul>
             {events.map((event) => (
