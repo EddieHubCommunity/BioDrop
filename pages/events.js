@@ -27,13 +27,18 @@ export default function Events({ events }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
-        <ul>
-          {events.map((event) => (
-            <li key={event.name}>
-              <EventPreview event={event} username={event.author} />
-            </li>
-          ))}
-        </ul>
+        {!events.length
+          ?
+          <h3 className="text-center text-4xl mt-10 font-mono">No events available.</h3>
+          :
+          <ul>
+            {events.map((event) => (
+              <li key={event.name}>
+                <EventPreview event={event} username={event.author} />
+              </li>
+            ))}
+          </ul>
+        }
       </div>
     </>
   );
