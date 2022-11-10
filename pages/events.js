@@ -27,7 +27,7 @@ export default function Events({ events }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
-        {events.length === 0 && (
+        {!events.length && (
           <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
             No events found
           </h2>
