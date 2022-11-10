@@ -61,11 +61,6 @@ export default function Search({ users }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
-        {notFound && (
-          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            {notFound} not found
-          </h2>
-        )}
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users (minimum 3 characters)"
@@ -73,6 +68,11 @@ export default function Search({ users }) {
           name="keyword"
           onChange={(e) => filterData(e.target.value)}
         />
+        {notFound && (
+          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
+            {notFound} not found
+          </h2>
+        )}
         <ul>
           {filteredUsers.map((user) => (
             <li key={user.username}>
