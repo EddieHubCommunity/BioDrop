@@ -10,9 +10,7 @@ export default function UserMilestone({ milestone }) {
         borderColor: milestone.color,
       }}
     >
-      <span>
-        <Icon name={milestone.icon} />
-      </span> 
+      <Icon name={milestone.icon} />
       <div>
         <h2 className="text-xl">
           {milestone.date} {milestone.title}

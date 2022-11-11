@@ -71,15 +71,11 @@ export default function User({ data }) {
                 Views: {abbreviateNumber(data.views)}
               </h2>
             )}
-            <div className="flex justify-center gap-4 mt-1">
+            <div className="flex gap-2">
               {data.socials &&
                 data.socials.map((social, index) => (
-                  <UserSocial 
-                    social={social}
-                    key={index}
-                  />
-                ))
-              }
+                  <UserSocial social={social} key={index} />
+                ))}
             </div>
           </div>
         </div>
