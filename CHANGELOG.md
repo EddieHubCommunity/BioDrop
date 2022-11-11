@@ -1,3 +1,12 @@
+## [1.6.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.4...v1.6.5) (2022-11-11)
+
+
+### Bug Fixes
+
+* social icons ([#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202)) ([ef875ba](https://github.com/EddieHubCommunity/LinkFree/commit/ef875ba076eca6dc6ec2b72b51e4944670104a3c))
+
+
+
 ## [1.6.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.3...v1.6.4) (2022-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile tags ([7231c72](https://github.com/EddieHubCommunity/LinkFree/commit/7231c727d6874589c9bd5fc27b257494bbe06b25))
-
-
-
-# [1.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.1...v1.6.0) (2022-11-11)
-
-
-### Features
-
-* profile tags ([#2204](https://github.com/EddieHubCommunity/LinkFree/issues/2204)) ([f333a2b](https://github.com/EddieHubCommunity/LinkFree/commit/f333a2b81eca480f6b9f1745c1688e18fc98010d))
 
 
 
