@@ -33,7 +33,9 @@ export default function UserLink({ link, username, displayStatsPublic }) {
         color: colors[link.icon],
       }}
     >
-      <Icon name={link.icon} />
+      <span>
+        <Icon name={link.icon} />
+      </span>
       <span className="grow">{link.name}</span>
       {displayStatsPublic && <span>{clicks}</span>}
     </a>

@@ -49,92 +49,92 @@ import { DiOpensource } from "react-icons/di";
 function Icon({ name }) {
   switch (name) {
     case "android":
-      return <FaAndroid />;
+      return <FaAndroid className="w-full h-full" />;
     case "apple":
-      return <FaApple />;
+      return <FaApple className="w-full h-full" />;
     case "arrowLeft":
-      return <FaArrowLeft />;
+      return <FaArrowLeft className="w-full h-full" />;
     case "book":
-      return <FaBook />;
+      return <FaBook className="w-full h-full" />;
     case "shareprofile":
-      return <FiShare2 />;
+      return <FiShare2 className="w-full h-full" />;
     case "codeforces":
-      return <SiCodeforces />;
+      return <SiCodeforces className="w-full h-full" />;
     case "codewars":
-      return <SiCodewars />;
+      return <SiCodewars className="w-full h-full" />;
     case "dev.to":
-      return <FaDev />;
+      return <FaDev className="w-full h-full" />;
     case "discord":
-      return <FaDiscord />;
+      return <FaDiscord className="w-full h-full" />;
     case "dollar":
-      return <FaDollarSign />;
+      return <FaDollarSign className="w-full h-full" />;
     case "envelope":
-      return <FaEnvelope />;
+      return <FaEnvelope className="w-full h-full" />;
     case "facebook":
-      return <FaFacebook />;
+      return <FaFacebook className="w-full h-full" />;
     case "github":
-      return <FaGithub />;
+      return <FaGithub className="w-full h-full" />;
     case "gitlab":
-      return <FaGitlab />;
+      return <FaGitlab className="w-full h-full" />;
     case "globe":
-      return <FaGlobe />;
+      return <FaGlobe className="w-full h-full" />;
     case "Graduation Hat":
     case "graduation-hat":
-      return <FaGraduationCap />;
+      return <FaGraduationCap className="w-full h-full" />;
     case "hackerrank":
-      return <SiHackerrank />;
+      return <SiHackerrank className="w-full h-full" />;
     case "hashnode":
-      return <SiHashnode />;
+      return <SiHashnode className="w-full h-full" />;
     case "instagram":
-      return <FaInstagram />;
+      return <FaInstagram className="w-full h-full" />;
     case "laravel":
-      return <FaLaravel />;
+      return <FaLaravel className="w-full h-full" />;
     case "leetcode":
-      return <SiLeetcode />;
+      return <SiLeetcode className="w-full h-full" />;
     case "link":
-      return <FaLink />;
+      return <FaLink className="w-full h-full" />;
     case "linkedin":
-      return <FaLinkedin />;
+      return <FaLinkedin className="w-full h-full" />;
     case "medium":
-      return <SiMedium />;
+      return <SiMedium className="w-full h-full" />;
     case "microsoft":
-      return <FaMicrosoft />;
+      return <FaMicrosoft className="w-full h-full" />;
     case "moon":
-      return <FaMoon />;
+      return <FaMoon className="w-full h-full" />;
     case "node-js":
-      return <FaNodeJs />;
+      return <FaNodeJs className="w-full h-full" />;
     case "open-source":
-      return <DiOpensource />;
+      return <DiOpensource className="w-full h-full" />;
     case "paypal":
-      return <FaPaypal />;
+      return <FaPaypal className="w-full h-full" />;
     case "polywork":
-      return <SiPolywork />;
+      return <SiPolywork className="w-full h-full" />;
     case "search":
-      return <FaSearch />;
+      return <FaSearch className="w-full h-full" />;
     case "send":
-      return <RiSendPlaneFill />;
+      return <RiSendPlaneFill className="w-full h-full" />;
     case "slack":
-      return <FaSlack />;
+      return <FaSlack className="w-full h-full" />;
     case "snapchat":
-      return <FaSnapchat />;
+      return <FaSnapchat className="w-full h-full" />;
     case "stackoverflow":
-      return <FaStackOverflow />;
+      return <FaStackOverflow className="w-full h-full" />;
     case "sun":
-      return <FaSun />;
+      return <FaSun className="w-full h-full" />;
     case "telegram":
-      return <FaTelegram />;
+      return <FaTelegram className="w-full h-full" />;
     case "tiktok":
-      return <FaTiktok />;
+      return <FaTiktok className="w-full h-full" />;
     case "twitch":
-      return <FaTwitch />;
+      return <FaTwitch className="w-full h-full" />;
     case "twitter":
-      return <FaTwitter />;
+      return <FaTwitter className="w-full h-full" />;
     case "vimeo":
-      return <FaVimeo />;
+      return <FaVimeo className="w-full h-full" />;
     case "youtube":
-      return <FaYoutube />;
+      return <FaYoutube className="w-full h-full" />;
     default:
-      return <FaGlobe />;
+      return <FaGlobe className="w-full h-full" />;
   }
 }
 
