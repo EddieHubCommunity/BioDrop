@@ -10,6 +10,7 @@ import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
 import FallbackImage from "../components/FallbackImage";
 import EventPreview from "../components/events/EventPreview";
+import UserSocial from "../components/user/UserSocials";
 
 export async function getServerSideProps(context) {
   let data = {};
@@ -68,6 +69,16 @@ export default function User({ data }) {
             {data.displayStatsPublic && (
               <h2 className="text-1xl text-gray-600">Views: {abbreviateNumber(data.views)}</h2>
             )}
+            <div className="flex justify-center gap-4 mt-1">
+              {data.socials &&
+                data.socials.map((social, index) => (
+                  <UserSocial 
+                    social={social}
+                    key={index}
+                  />
+                ))
+              }
+            </div>
           </div>
         </div>
         <div className="flex justify-center my-4">
