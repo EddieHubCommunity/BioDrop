@@ -24,20 +24,27 @@ export default function Search({ users }) {
   const { username } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [threeOrMore, setThreeOrMore] = useState();
+
+  let results = [];
 
   useEffect(() => {
     if (username) {
       setNotFound(username);
+      setThreeOrMore(false);
     }
   }, []);
 
   const filterData = (value) => {
     if (value.length <= 3) {
+      setThreeOrMore(false);
+      setFilteredUsers(results);
       setNotFound();
     }
 
     if (value.length >= 3) {
-      const results = users.filter((user) =>
+      setThreeOrMore(true);
+      results = users.filter((user) =>
         user.name.toLowerCase().includes(value.toLowerCase())
       );
 
@@ -61,18 +68,23 @@ export default function Search({ users }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
+        <h1 className="text-4xl mb-4  font-bold">Search</h1>
+        <input
+          placeholder="Search users"
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+          name="keyword"
+          onChange={(e) => filterData(e.target.value)}
+        />
         {notFound && (
           <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
             {notFound} not found
           </h2>
         )}
-        <h1 className="text-4xl mb-4  font-bold">Search</h1>
-        <input
-          placeholder="Search users (minimum 3 characters)"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
-          name="keyword"
-          onChange={(e) => filterData(e.target.value)}
-        />
+        {!threeOrMore && (
+          <h2 className="bg-yellow-200 text-yellow-600 border-2 border-yellow-600 p-5 my-5 text-xl">
+            You have to enter at least 3 characters to search for a user.
+          </h2>
+        )}
         <ul>
           {filteredUsers.map((user) => (
             <li key={user.username}>
