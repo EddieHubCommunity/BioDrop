@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.0...v1.6.1) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile tags ([7231c72](https://github.com/EddieHubCommunity/LinkFree/commit/7231c727d6874589c9bd5fc27b257494bbe06b25))
+
+
+
 # [1.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.1...v1.6.0) (2022-11-11)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * opengraph meta data [#1366](https://github.com/EddieHubCommunity/LinkFree/issues/1366) ([#2148](https://github.com/EddieHubCommunity/LinkFree/issues/2148)) ([b0dc42b](https://github.com/EddieHubCommunity/LinkFree/commit/b0dc42b5cd431f020558d666e925f77f7ea169af))
-
-
-
-## [1.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.3.0...v1.3.1) (2022-11-09)
-
-
-### Bug Fixes
-
-* name on landing page ([#2189](https://github.com/EddieHubCommunity/LinkFree/issues/2189)) ([a896ea7](https://github.com/EddieHubCommunity/LinkFree/commit/a896ea795dfb7d26f79f0ee6bedf7325a2cb83d0))
 
 
 
