@@ -76,7 +76,7 @@ export default function User({ data }) {
 //         profile tags
         <div className="flex justify-center">
           {
-            data?.tags? && 
+            data.tags && 
             data.tags.map((tag, index) => (
               <span key={index} className="inline-block  rounded-full px-3 py-1 text-sm font-mono border-2 hover:border-gray-500 mr-2 mb-2">
                 {tag}
