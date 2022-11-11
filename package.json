@@ -4,6 +4,9 @@
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
+    "@mdx-js/loader": "^2.1.5",
+    "@mdx-js/react": "^2.1.5",
+    "@next/mdx": "^13.0.3",
     "autoprefixer": "^10.4.12",
     "dotenv": "^16.0.3",
     "js-abbreviation-number": "^1.4.0",
@@ -45,6 +48,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@playwright/test": "^1.27.1",
+    "@tailwindcss/typography": "^0.5.8",
     "babel-loader": "^8.2.5",
     "concurrently": "^7.4.0",
     "eslint": "8.19.0",
