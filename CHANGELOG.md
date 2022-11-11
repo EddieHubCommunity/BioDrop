@@ -1,3 +1,12 @@
+## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
+
+
+### Bug Fixes
+
+* react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
+
+
+
 ## [1.6.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.7...v1.6.8) (2022-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * social icons ([#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202)) ([ef875ba](https://github.com/EddieHubCommunity/LinkFree/commit/ef875ba076eca6dc6ec2b72b51e4944670104a3c))
-
-
-
-## [1.6.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.3...v1.6.4) (2022-11-11)
-
-
-### Bug Fixes
-
-* mongo .env error handler ([#2193](https://github.com/EddieHubCommunity/LinkFree/issues/2193)) ([9ec30d1](https://github.com/EddieHubCommunity/LinkFree/commit/9ec30d15d40ad5d5f266fa69a80e4abcfd751a04))
 
 
 
