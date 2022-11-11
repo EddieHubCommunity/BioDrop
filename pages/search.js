@@ -2,8 +2,9 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
+import UserPreview from "../components/user/UserPreview";
+import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
   let users = [];
@@ -71,19 +72,16 @@ export default function Search({ users }) {
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           onChange={(e) => filterData(e.target.value)}
         />
-        {notFound && (
-          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            {notFound} not found
-          </h2>
-        )}
+        {notFound && <Alert type="error" message={`${notFound} not found`} />}
         {!threeOrMore && (
-          <h2 className="bg-yellow-200 text-yellow-600 border-2 border-yellow-600 p-5 my-5 text-xl">
-            You have to enter at least 3 characters to search for a user.
-          </h2>
+          <Alert
+            type="info"
+            message="You have to enter at least 3 characters to search for a user."
+          />
         )}
         <ul>
           {filteredUsers.map((user) => (
