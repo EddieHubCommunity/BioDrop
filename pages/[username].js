@@ -73,6 +73,17 @@ export default function User({ data }) {
         <div className="flex justify-center my-4">
           <ReactMarkdown>{data.bio}</ReactMarkdown>
         </div>
+//         profile tags
+        <div className="flex justify-center">
+          {
+            data.tags && 
+            data.tags.map((tag, index) => (
+              <span key={index} className="inline-block  rounded-full px-3 py-1 text-sm font-mono border-2 hover:border-gray-500 mr-2 mb-2">
+                {tag}
+              </span>
+            ))
+          }
+        </div>
         <div className="flex flex-col items-center w-full">
           {data.links &&
             data.links.map((link, index) => (

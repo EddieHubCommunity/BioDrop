@@ -110,6 +110,7 @@ Your brand new file should look something similar to this one:
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
+  "tags": ["javascript", "typescript"],
   "links": [
     {
       "name": "Follow me on GitHub",
