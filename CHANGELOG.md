@@ -1,3 +1,17 @@
+# [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
+
+
+### Bug Fixes
+
+* eddiejaoude profile data ([c6e8e46](https://github.com/EddieHubCommunity/LinkFree/commit/c6e8e465c9fa6ae62ea1a406733904f86c2d68e0))
+
+
+### Features
+
+* refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
+
+
+
 ## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
 
 
@@ -31,15 +45,6 @@
 ### Bug Fixes
 
 * massive links ([0c397f7](https://github.com/EddieHubCommunity/LinkFree/commit/0c397f78273eb5be65bc4bb9884469c59c84f8b7))
-
-
-
-## [1.6.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.4...v1.6.5) (2022-11-11)
-
-
-### Bug Fixes
-
-* social icons ([#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202)) ([ef875ba](https://github.com/EddieHubCommunity/LinkFree/commit/ef875ba076eca6dc6ec2b72b51e4944670104a3c))
 
 
 
