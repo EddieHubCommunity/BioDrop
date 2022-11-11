@@ -1,3 +1,12 @@
+## [1.6.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.5...v1.6.6) (2022-11-11)
+
+
+### Bug Fixes
+
+* massive links ([0c397f7](https://github.com/EddieHubCommunity/LinkFree/commit/0c397f78273eb5be65bc4bb9884469c59c84f8b7))
+
+
+
 ## [1.6.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.4...v1.6.5) (2022-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ptags different to links ([55213a2](https://github.com/EddieHubCommunity/LinkFree/commit/55213a21c3a175271306f7627bff5722564acf3e))
-
-
-
-## [1.6.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.0...v1.6.1) (2022-11-11)
-
-
-### Bug Fixes
-
-* profile tags ([7231c72](https://github.com/EddieHubCommunity/LinkFree/commit/7231c727d6874589c9bd5fc27b257494bbe06b25))
 
 
 
