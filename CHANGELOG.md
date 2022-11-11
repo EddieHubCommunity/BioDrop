@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.1...v1.6.2) (2022-11-11)
+
+
+### Bug Fixes
+
+* ptags different to links ([55213a2](https://github.com/EddieHubCommunity/LinkFree/commit/55213a21c3a175271306f7627bff5722564acf3e))
+
+
+
 ## [1.6.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.0...v1.6.1) (2022-11-11)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * no events text ([#2195](https://github.com/EddieHubCommunity/LinkFree/issues/2195)) ([142543c](https://github.com/EddieHubCommunity/LinkFree/commit/142543ca98ae4bb74160a3d0f6dae41b0a4e6ba2))
-
-
-
-# [1.4.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.3.1...v1.4.0) (2022-11-09)
-
-
-### Features
-
-* opengraph meta data [#1366](https://github.com/EddieHubCommunity/LinkFree/issues/1366) ([#2148](https://github.com/EddieHubCommunity/LinkFree/issues/2148)) ([b0dc42b](https://github.com/EddieHubCommunity/LinkFree/commit/b0dc42b5cd431f020558d666e925f77f7ea169af))
 
 
 
