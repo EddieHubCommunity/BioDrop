@@ -66,23 +66,25 @@ export default function User({ data }) {
           <div className="flex flex-col self-center">
             <h1 className="text-3xl font-bold">{data.name}</h1>
             {data.displayStatsPublic && (
-              <h2 className="text-1xl text-gray-600">Views: {abbreviateNumber(data.views)}</h2>
+              <h2 className="text-1xl text-gray-600">
+                Views: {abbreviateNumber(data.views)}
+              </h2>
             )}
           </div>
         </div>
         <div className="flex justify-center my-4">
           <ReactMarkdown>{data.bio}</ReactMarkdown>
         </div>
-//         profile tags
         <div className="flex justify-center">
-          {
-            data.tags && 
+          {data.tags &&
             data.tags.map((tag, index) => (
-              <span key={index} className="inline-block  rounded-full px-3 py-1 text-sm font-mono border-2 hover:border-gray-500 mr-2 mb-2">
+              <span
+                key={index}
+                className="flex flex-row p-2 m-2 rounded-full text-sm font-mono border-2"
+              >
                 {tag}
               </span>
-            ))
-          }
+            ))}
         </div>
         <div className="flex flex-col items-center w-full">
           {data.links &&
