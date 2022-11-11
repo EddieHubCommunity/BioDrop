@@ -80,7 +80,7 @@ export default function User({ data }) {
             data.tags.map((tag, index) => (
               <span
                 key={index}
-                className="flex flex-row p-2 m-2 rounded-full text-sm font-mono border-2"
+                className="flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 border-dashed"
               >
                 {tag}
               </span>
