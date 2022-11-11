@@ -1,3 +1,12 @@
+## [1.6.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.7...v1.6.8) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile views ([7a24be6](https://github.com/EddieHubCommunity/LinkFree/commit/7a24be68a32b9d4fa6fb937f0f79fcb618f37ffd))
+
+
+
 ## [1.6.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.6...v1.6.7) (2022-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * mongo .env error handler ([#2193](https://github.com/EddieHubCommunity/LinkFree/issues/2193)) ([9ec30d1](https://github.com/EddieHubCommunity/LinkFree/commit/9ec30d15d40ad5d5f266fa69a80e4abcfd751a04))
-
-
-
-## [1.6.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.2...v1.6.3) (2022-11-11)
-
-
-### Bug Fixes
-
-* refactor search page ([#2196](https://github.com/EddieHubCommunity/LinkFree/issues/2196)) ([d0439fb](https://github.com/EddieHubCommunity/LinkFree/commit/d0439fbab6413dbeefa68178ddfe6ec5b11629a4))
 
 
 
