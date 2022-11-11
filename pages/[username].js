@@ -56,21 +56,24 @@ export default function User({ data }) {
 
       <div className="mx-auto container px-6 mt-6">
         <div className="flex justify-center gap-x-6">
-          <FallbackImage
-            src={data.avatar}
-            alt={`Profile picture of ${data.name}`}
-            width={120}
-            height={120}
-            fallback={data.name}
-            className="rounded-full"
-          />
-          <div className="flex flex-col self-center">
-            <h1 className="text-3xl font-bold">{data.name}</h1>
+          <div class="inline-flex relative w-fit">
             {data.displayStatsPublic && (
-              <h2 className="text-1xl text-gray-600">
-                Views: {abbreviateNumber(data.views)}
-              </h2>
+              <div class="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-white rounded-full z-10">
+                {abbreviateNumber(data.views)}
+              </div>
             )}
+            <FallbackImage
+              src={data.avatar}
+              alt={`Profile picture of ${data.name}`}
+              width={120}
+              height={120}
+              fallback={data.name}
+              className="rounded-full"
+            />
+          </div>
+
+          <div className="flex flex-col self-center gap-3">
+            <h1 className="text-3xl font-bold">{data.name}</h1>
             <div className="flex gap-2">
               {data.socials &&
                 data.socials.map((social, index) => (
