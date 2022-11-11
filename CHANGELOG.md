@@ -1,3 +1,12 @@
+## [1.6.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.6...v1.6.7) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile social buttons [#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202) ([5119032](https://github.com/EddieHubCommunity/LinkFree/commit/5119032213933e16d62f5f292562a087bb6f26f6))
+
+
+
 ## [1.6.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.5...v1.6.6) (2022-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * refactor search page ([#2196](https://github.com/EddieHubCommunity/LinkFree/issues/2196)) ([d0439fb](https://github.com/EddieHubCommunity/LinkFree/commit/d0439fbab6413dbeefa68178ddfe6ec5b11629a4))
-
-
-
-## [1.6.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.1...v1.6.2) (2022-11-11)
-
-
-### Bug Fixes
-
-* ptags different to links ([55213a2](https://github.com/EddieHubCommunity/LinkFree/commit/55213a21c3a175271306f7627bff5722564acf3e))
 
 
 
