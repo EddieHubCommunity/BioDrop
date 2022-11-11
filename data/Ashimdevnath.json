@@ -19,5 +19,15 @@
       "url": "https://www.linkedin.com/in/ashim-devnath-1477a7235/",
       "icon": "Linkedin"
     }
+  ],
+  "milestones": [
+    {
+      "title": "Started Hashnode",
+      "date": "November 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Wote My First Blog",
+      "url": "https://ashimdevnath.hashnode.dev/altogic-the-chnage"
+    }
   ]
 }
