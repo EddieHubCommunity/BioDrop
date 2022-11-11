@@ -18,6 +18,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshay-bendadi/",
       "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on hashnode",
+      "url": "https://hashnode.com/@Akshay-bendadi",
+      "icon": "hashnode"
     }
   ]
 }
