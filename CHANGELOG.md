@@ -1,3 +1,12 @@
+## [1.6.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.2...v1.6.3) (2022-11-11)
+
+
+### Bug Fixes
+
+* refactor search page ([#2196](https://github.com/EddieHubCommunity/LinkFree/issues/2196)) ([d0439fb](https://github.com/EddieHubCommunity/LinkFree/commit/d0439fbab6413dbeefa68178ddfe6ec5b11629a4))
+
+
+
 ## [1.6.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.1...v1.6.2) (2022-11-11)
 
 
@@ -32,15 +41,6 @@
 
 * improved no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([85e0cf5](https://github.com/EddieHubCommunity/LinkFree/commit/85e0cf53eb810be860ef1dd01c5b9a75199fd5b2))
 * no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([4d1db91](https://github.com/EddieHubCommunity/LinkFree/commit/4d1db918a9ac8949ab7aea5ecf3dd4d7111e05fb))
-
-
-
-# [1.5.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.4.0...v1.5.0) (2022-11-10)
-
-
-### Features
-
-* no events text ([#2195](https://github.com/EddieHubCommunity/LinkFree/issues/2195)) ([142543c](https://github.com/EddieHubCommunity/LinkFree/commit/142543ca98ae4bb74160a3d0f6dae41b0a4e6ba2))
 
 
 
