@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.1...v1.6.0) (2022-11-11)
+
+
+### Features
+
+* profile tags ([#2204](https://github.com/EddieHubCommunity/LinkFree/issues/2204)) ([f333a2b](https://github.com/EddieHubCommunity/LinkFree/commit/f333a2b81eca480f6b9f1745c1688e18fc98010d))
+
+
+
 ## [1.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.0...v1.5.1) (2022-11-10)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * name on landing page ([#2189](https://github.com/EddieHubCommunity/LinkFree/issues/2189)) ([a896ea7](https://github.com/EddieHubCommunity/LinkFree/commit/a896ea795dfb7d26f79f0ee6bedf7325a2cb83d0))
-
-
-
-# [1.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.5...v1.3.0) (2022-11-09)
-
-
-### Features
-
-* stats to use abbreviations ([#2183](https://github.com/EddieHubCommunity/LinkFree/issues/2183)) ([f0940a6](https://github.com/EddieHubCommunity/LinkFree/commit/f0940a6b5177955cd3f0cb8623c4b933c047c369))
 
 
 
