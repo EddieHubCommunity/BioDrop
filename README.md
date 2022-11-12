@@ -52,7 +52,7 @@ See what components are available
 ### Contributing to Storybook
 
 1. Create story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
-1. Import the component into the story file, see existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/nextjs/stories/components/user/UserLink.stories.js)
+1. Import the component into the story file, see existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/main/stories/components/user/UserLink.stories.js)
 1. Set the default arguments by looking at the requirements from the component itself
 1. Run `npm run storybook` to see the added components and interact with them in the browser and visit http://localhost:6006
 
