@@ -15,6 +15,21 @@ a {
   box-sizing: border-box;
 }
 
+.vertical-timeline::before {
+  background: rgb(75, 69, 69) !important;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

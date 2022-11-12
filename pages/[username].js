@@ -12,6 +12,9 @@ import FallbackImage from "../components/FallbackImage";
 import EventPreview from "../components/events/EventPreview";
 import UserSocial from "../components/user/UserSocials";
 
+import { VerticalTimeline } from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+
 export async function getServerSideProps(context) {
   let data = {};
   try {
@@ -108,16 +111,12 @@ export default function User({ data }) {
             ))}
         </div>
         <div className="my-8"></div>
-        {data.milestones &&
-          data.milestones.map((milestone, index) => (
-            <div className="flex" key={index}>
-              <div className="w-14 border-l-4 flex flex-col">
-                <div className="border-dashed border-b-2 grow"></div>
-                <div className="grow"></div>
-              </div>
+        <VerticalTimeline>
+          {data.milestones &&
+            data.milestones.map((milestone, index) => (
               <UserMilestone milestone={milestone} />
-            </div>
-          ))}
+            ))}
+        </VerticalTimeline>
 
         <div className="my-8"></div>
         {data.events &&
