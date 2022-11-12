@@ -8,10 +8,10 @@ export default function UserPreview({ profile }) {
   return (
     <Link
       href={`/${profile.username}`}
-      className="flex flex-col gap-x-4 rounded md:rounded-full md:flex-row border-2 border-gray-200 hover:border-orange-600 p-4 my-2"
+      className="flex flex-col items-center border-2 max-w-[14rem] h-[17rem] overflow-hidden rounded-lg border-gray-200 h p-4 my-2 gap-3 "
     >
-      <div className="flex items-center gap-5">
-        <div className="min-w-[5rem]">
+      <div className="">
+        <div className="flex justify-center">
           <FallbackImage
             src={profile.avatar}
             alt={`Profile picture of ${profile.name}`}
@@ -21,13 +21,22 @@ export default function UserPreview({ profile }) {
             fallback={profile.name}
           />
         </div>
-        <h3 className="text-xl font-bold md:hidden">
-          {profile.name} {profile.views && <span>({abbreviateNumber(profile.views)})</span>}
+        <h3 className="text-lg  md:hidden text-center mt-2 text-[#ff5a00] font-bold">
+          {profile.name}{" "}
+          {profile.views && (
+            <span className="text-green-500">
+              ({abbreviateNumber(profile.views)})
+            </span>
+          )}
         </h3>
       </div>
       <div>
-        <h3 className="hidden md:block text-2xl font-bold">{profile.name}</h3>
-        <ReactMarkdown>{profile.bio}</ReactMarkdown>
+        <h3 className="hidden md:flex text-xl justify-center text-center text-[#ff5a00] mt-2 font-bold">
+          {profile.name}
+        </h3>
+        <ReactMarkdown className="text-center text-[#65615e] mt-1">
+          {profile.bio}
+        </ReactMarkdown>
       </div>
     </Link>
   );
