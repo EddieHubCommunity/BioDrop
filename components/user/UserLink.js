@@ -28,14 +28,16 @@ export default function UserLink({ link, username, displayStatsPublic }) {
       target="_blank"
       rel="noopener noreferrer"
       onClick={clickLink}
-      className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
+      className="p-3 flex flex-col bg-[#d4d1c5]/50 hover:bg-white w-[15rem] h-[10rem] rouned text-white rounded-lg gap-3 relative justify-center items-center font-mono border-2 border-[#65615e] border-dashed"
       style={{
-        color: colors[link.icon],
+        color: colors[link.icon] ? colors[link.icon] : "rgb(23, 21, 21)",
       }}
     >
       <Icon name={link.icon} />
-      <span className="grow">{link.name}</span>
-      {displayStatsPublic && <span>{clicks}</span>}
+      <span className=" text-center">{link.name}</span>
+      {displayStatsPublic && (
+        <span className="absolute top-2 right-3 ">{clicks}</span>
+      )}
     </a>
   );
 }

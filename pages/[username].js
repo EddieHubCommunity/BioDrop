@@ -96,16 +96,19 @@ export default function User({ data }) {
               </span>
             ))}
         </div>
-        <div className="flex flex-col items-center w-full">
-          {data.links &&
-            data.links.map((link, index) => (
-              <UserLink
-                key={index}
-                link={link}
-                username={data.username}
-                displayStatsPublic={data.displayStatsPublic}
-              />
-            ))}
+        <div className="flex flex-col gap-5 w-full p-3 rounded-lg my-5 border-2 py-5">
+          <h2 className="md:text-3xl text-lg font-semibold p-3 ">Socials</h2>
+          <div className="flex gap-3 flex-wrap justify-center">
+            {data.links &&
+              data.links.map((link, index) => (
+                <UserLink
+                  key={index}
+                  link={link}
+                  username={data.username}
+                  displayStatsPublic={data.displayStatsPublic}
+                />
+              ))}
+          </div>
         </div>
         <div className="my-8"></div>
         {data.milestones &&
