@@ -111,6 +111,10 @@ Your brand new file should look something similar to this one:
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
   "tags": ["javascript", "typescript"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",

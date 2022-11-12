@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
-import { useState } from "react";
+
 import EventPreview from "../components/events/EventPreview";
 import app from "../config/app.json";
+import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -27,12 +27,7 @@ export default function Events({ events }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col px-6 align-center">
-        {!events.length && (
-          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            No events found
-          </h2>
-        )}
-
+        {!events.length && <Alert type="info" message="No events found" />}
         <ul>
           {events.map((event) => (
             <li key={event.name}>

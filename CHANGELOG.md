@@ -1,46 +1,50 @@
-## [1.6.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.1...v1.6.2) (2022-11-11)
+## [1.7.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.0...v1.7.1) (2022-11-12)
 
 
 ### Bug Fixes
 
-* ptags different to links ([55213a2](https://github.com/EddieHubCommunity/LinkFree/commit/55213a21c3a175271306f7627bff5722564acf3e))
+* profile tags wrapping ([#2212](https://github.com/EddieHubCommunity/LinkFree/issues/2212)) ([3b36b60](https://github.com/EddieHubCommunity/LinkFree/commit/3b36b6085a1cf7c15c311d07cf51d2eb89b0bbff))
 
 
 
-## [1.6.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.0...v1.6.1) (2022-11-11)
+# [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
 
 
 ### Bug Fixes
 
-* profile tags ([7231c72](https://github.com/EddieHubCommunity/LinkFree/commit/7231c727d6874589c9bd5fc27b257494bbe06b25))
-
-
-
-# [1.6.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.1...v1.6.0) (2022-11-11)
+* eddiejaoude profile data ([c6e8e46](https://github.com/EddieHubCommunity/LinkFree/commit/c6e8e465c9fa6ae62ea1a406733904f86c2d68e0))
 
 
 ### Features
 
-* profile tags ([#2204](https://github.com/EddieHubCommunity/LinkFree/issues/2204)) ([f333a2b](https://github.com/EddieHubCommunity/LinkFree/commit/f333a2b81eca480f6b9f1745c1688e18fc98010d))
+* refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
 
 
 
-## [1.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.5.0...v1.5.1) (2022-11-10)
+## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
 
 
 ### Bug Fixes
 
-* improved no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([85e0cf5](https://github.com/EddieHubCommunity/LinkFree/commit/85e0cf53eb810be860ef1dd01c5b9a75199fd5b2))
-* no events notice [#2168](https://github.com/EddieHubCommunity/LinkFree/issues/2168) ([4d1db91](https://github.com/EddieHubCommunity/LinkFree/commit/4d1db918a9ac8949ab7aea5ecf3dd4d7111e05fb))
+* react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
 
 
 
-# [1.5.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.4.0...v1.5.0) (2022-11-10)
+## [1.6.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.7...v1.6.8) (2022-11-11)
 
 
-### Features
+### Bug Fixes
 
-* no events text ([#2195](https://github.com/EddieHubCommunity/LinkFree/issues/2195)) ([142543c](https://github.com/EddieHubCommunity/LinkFree/commit/142543ca98ae4bb74160a3d0f6dae41b0a4e6ba2))
+* profile views ([7a24be6](https://github.com/EddieHubCommunity/LinkFree/commit/7a24be68a32b9d4fa6fb937f0f79fcb618f37ffd))
+
+
+
+## [1.6.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.6...v1.6.7) (2022-11-11)
+
+
+### Bug Fixes
+
+* profile social buttons [#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202) ([5119032](https://github.com/EddieHubCommunity/LinkFree/commit/5119032213933e16d62f5f292562a087bb6f26f6))
 
 
 
