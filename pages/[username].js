@@ -114,7 +114,7 @@ export default function User({ data }) {
         <VerticalTimeline>
           {data.milestones &&
             data.milestones.map((milestone, index) => (
-              <UserMilestone milestone={milestone} />
+              <UserMilestone milestone={milestone} key={index} />
             ))}
         </VerticalTimeline>
 

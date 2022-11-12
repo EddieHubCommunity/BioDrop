@@ -1,6 +1,7 @@
 import Icon from "../Icon";
 import { VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
+import Image from "next/image";
 
 export default function UserMilestone({ milestone }) {
   console.log(milestone)
@@ -27,7 +28,12 @@ export default function UserMilestone({ milestone }) {
         {milestone.title}
       </h1>
       {milestone.image && (
-        <img className="w-28 h-28 rounded-sm mb-2 ml-1" src={milestone.image} />
+        <Image 
+          className="rounded-sm mb-2 ml-1" 
+          src={milestone.image} 
+          width={100}
+          height={100}
+        />
       )}
       {milestone.description && (
         <h5 className="mb-2 text-gray-500 ml-1">{milestone.description}</h5>
