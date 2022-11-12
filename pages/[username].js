@@ -85,7 +85,7 @@ export default function User({ data }) {
         <div className="flex justify-center my-4">
           <ReactMarkdown>{data.bio}</ReactMarkdown>
         </div>
-        <div className="flex justify-center">
+        <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag, index) => (
               <span
