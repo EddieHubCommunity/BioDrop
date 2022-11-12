@@ -4,7 +4,6 @@ import 'react-vertical-timeline-component/style.min.css'
 import Image from "next/image";
 
 export default function UserMilestone({ milestone }) {
-  console.log(milestone)
   function getStyle() {
     if (milestone.icon === 'github') return 'black'
     else return milestone.color
