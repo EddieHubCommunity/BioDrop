@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.0...v1.7.1) (2022-11-12)
+
+
+### Bug Fixes
+
+* profile tags wrapping ([#2212](https://github.com/EddieHubCommunity/LinkFree/issues/2212)) ([3b36b60](https://github.com/EddieHubCommunity/LinkFree/commit/3b36b6085a1cf7c15c311d07cf51d2eb89b0bbff))
+
+
+
 # [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * profile social buttons [#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202) ([5119032](https://github.com/EddieHubCommunity/LinkFree/commit/5119032213933e16d62f5f292562a087bb6f26f6))
-
-
-
-## [1.6.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.5...v1.6.6) (2022-11-11)
-
-
-### Bug Fixes
-
-* massive links ([0c397f7](https://github.com/EddieHubCommunity/LinkFree/commit/0c397f78273eb5be65bc4bb9884469c59c84f8b7))
 
 
 
