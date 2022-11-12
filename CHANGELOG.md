@@ -1,3 +1,12 @@
+## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
+
+
+### Bug Fixes
+
+* invalid data file location ([88baea2](https://github.com/EddieHubCommunity/LinkFree/commit/88baea2149c5aef1af97bc37b771860a21303e9c))
+
+
+
 ## [1.7.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.0...v1.7.1) (2022-11-12)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * profile views ([7a24be6](https://github.com/EddieHubCommunity/LinkFree/commit/7a24be68a32b9d4fa6fb937f0f79fcb618f37ffd))
-
-
-
-## [1.6.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.6...v1.6.7) (2022-11-11)
-
-
-### Bug Fixes
-
-* profile social buttons [#2202](https://github.com/EddieHubCommunity/LinkFree/issues/2202) ([5119032](https://github.com/EddieHubCommunity/LinkFree/commit/5119032213933e16d62f5f292562a087bb6f26f6))
 
 
 
