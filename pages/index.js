@@ -95,7 +95,7 @@ export default function Home({ data }) {
           </Link>
           .
         </p>
-        <div className="grid place-items-center w-screen">
+        <div className="grid place-items-center w-screen max-w-[100%]">
           <Image
             src="/mockup.png"
             alt="Mock up of LinkFree project"
@@ -107,3 +107,4 @@ export default function Home({ data }) {
     </>
   );
 }
+
