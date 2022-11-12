@@ -33,6 +33,7 @@ export default function UserMilestone({ milestone }) {
           src={milestone.image} 
           width={100}
           height={100}
+          alt="Milestone Image"
         />
       )}
       {milestone.description && (
