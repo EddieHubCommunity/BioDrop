@@ -1,7 +1,7 @@
 {
   "name": "Akshay Bendadi",
   "type": "personal",
-  "bio": "Open Source Enthusiast!",
+  "bio": "DevOps and Open Source Enthusiast! | Learning in public",
   "avatar": "https://github.com/Akshay-bendadi.png",
   "links": [
     {
@@ -15,7 +15,12 @@
       "icon": "twitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Cheak out my blogs on Hashnode",
+      "url": "https://hashnode.com/@Akshay-bendadi",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshay-bendadi/",
       "icon": "linkedin"
     }
