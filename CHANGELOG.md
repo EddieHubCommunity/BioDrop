@@ -1,3 +1,12 @@
+## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
+
+
+### Bug Fixes
+
+* horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
+
+
+
 ## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
-
-
-
-## [1.6.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.7...v1.6.8) (2022-11-11)
-
-
-### Bug Fixes
-
-* profile views ([7a24be6](https://github.com/EddieHubCommunity/LinkFree/commit/7a24be68a32b9d4fa6fb937f0f79fcb618f37ffd))
 
 
 
