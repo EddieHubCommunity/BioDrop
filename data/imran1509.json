@@ -5,7 +5,7 @@
   "bio": "DevOps | Tech Blogger | Open Source | Cloud Computing | DevRel Enthusiast | Cloud Native",
   "avatar": "https://github.com/imran1509.png",
   "tags": ["Open Source", "DevOps", "Cloud Native", "Devrel", "Go", "Python"],
-   "socials": [
+  "socials": [
     { "platform": "twitter", "url": "https://twitter.com/codenameimmy" },
     { "platform": "github", "url": "https://github.com/imran1509" }
   ],
