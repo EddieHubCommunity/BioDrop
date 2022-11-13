@@ -1,14 +1,14 @@
 import mongoose from "mongoose";
 import * as fs from "fs";
 
-if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
-  throw new Error(
-    "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
-  );
-}
-
 let hasConnection = false;
 const connectMongo = async () => {
+  if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
+    throw new Error(
+      "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
+    );
+  }
+
   if (hasConnection) {
     return;
   }
