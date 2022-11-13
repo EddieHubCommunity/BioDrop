@@ -3,9 +3,9 @@ import ReactMarkdown from "react-markdown";
 import { QRCodeSVG } from "qrcode.react";
 import { abbreviateNumber } from "js-abbreviation-number";
 
-import app from "../../../config/app.json";
-import FallbackImage from "../../../components/FallbackImage";
-import UserSocial from "../../../components/user/UserSocials";
+import app from "../../config/app.json";
+import FallbackImage from "../../components/FallbackImage";
+import UserSocial from "../../components/user/UserSocials";
 import Link from "next/link";
 
 export async function getServerSideProps(context) {
@@ -81,7 +81,7 @@ export default function UserQR({ data }) {
                   <UserSocial social={social} key={index} />
                 ))}
             </div>
-            <Link href={`/users/${data.username}`}>
+            <Link href={`/${data.username}`}>
               <span className="text-cyan-600 cursor-pointer">Profile</span>
             </Link>
           </div>

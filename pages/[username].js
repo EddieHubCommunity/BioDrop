@@ -2,16 +2,16 @@ import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import { abbreviateNumber } from "js-abbreviation-number";
 
-import app from "../../config/app.json";
-import SingleLayout from "../../components/layouts/SingleLayout";
-import MultiLayout from "../../components/layouts/MultiLayout";
-import singleUser from "../../config/user.json";
+import app from "../config/app.json";
+import SingleLayout from "../components/layouts/SingleLayout";
+import MultiLayout from "../components/layouts/MultiLayout";
+import singleUser from "../config/user.json";
 import Link from "next/link";
-import UserLink from "../../components/user/UserLink";
-import UserMilestone from "../../components/user/UserMilestone";
-import FallbackImage from "../../components/FallbackImage";
-import EventPreview from "../../components/events/EventPreview";
-import UserSocial from "../../components/user/UserSocials";
+import UserLink from "../components/user/UserLink";
+import UserMilestone from "../components/user/UserMilestone";
+import FallbackImage from "../components/FallbackImage";
+import EventPreview from "../components/events/EventPreview";
+import UserSocial from "../components/user/UserSocials";
 
 export async function getServerSideProps(context) {
   let data = {};
@@ -86,7 +86,7 @@ export default function User({ data }) {
                   <UserSocial social={social} key={index} />
                 ))}
             </div>
-            <Link href={`/users/qr/${data.username}`}>
+            <Link href={`/qr/${data.username}`}>
               <span className="text-cyan-600 cursor-pointer">QR</span>
             </Link>
           </div>
