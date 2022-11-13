@@ -4,11 +4,22 @@
   "displayStatsPublic": true,
   "bio": "I'm a Software Engineer who is interested in continuing skills development in JavaScript.",
   "avatar": "https://github.com/furkanmutlu.png",
-  "tags": ["Open Source", "javascript", "typescript", "react", "vue", "node", "d3.js"],
+  "tags": [
+    "Open Source",
+    "javascript",
+    "typescript",
+    "react",
+    "vue",
+    "node",
+    "d3.js"
+  ],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/furkanmutluu" },
     { "platform": "github", "url": "https://github.com/furkanmutlu" },
-    { "platform": "stackoverflow", "url": "https://stackoverflow.com/users/10797632/furkan-mutlu" }
+    {
+      "platform": "stackoverflow",
+      "url": "https://stackoverflow.com/users/10797632/furkan-mutlu"
+    }
   ],
   "links": [
     {
