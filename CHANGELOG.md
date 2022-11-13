@@ -1,3 +1,12 @@
+## [1.7.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.4...v1.7.5) (2022-11-13)
+
+
+### Bug Fixes
+
+* failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
+
+
+
 ## [1.7.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.3...v1.7.4) (2022-11-13)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * profile tags wrapping ([#2212](https://github.com/EddieHubCommunity/LinkFree/issues/2212)) ([3b36b60](https://github.com/EddieHubCommunity/LinkFree/commit/3b36b6085a1cf7c15c311d07cf51d2eb89b0bbff))
-
-
-
-# [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
-
-
-### Bug Fixes
-
-* eddiejaoude profile data ([c6e8e46](https://github.com/EddieHubCommunity/LinkFree/commit/c6e8e465c9fa6ae62ea1a406733904f86c2d68e0))
-
-
-### Features
-
-* refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
 
 
 
