@@ -1,3 +1,12 @@
+## [1.7.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.3...v1.7.4) (2022-11-13)
+
+
+### Bug Fixes
+
+* Storybook example link ([#2227](https://github.com/EddieHubCommunity/LinkFree/issues/2227)) ([1f56a01](https://github.com/EddieHubCommunity/LinkFree/commit/1f56a01257dcda3dfe5665e04ba0b53be00488a7))
+
+
+
 ## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
-
-
-
-## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
-
-
-### Bug Fixes
-
-* react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
 
 
 
