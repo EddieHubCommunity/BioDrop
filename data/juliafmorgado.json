@@ -8,9 +8,15 @@
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/juliafmorgado" },
     { "platform": "github", "url": "https://github.com/juliafmorgado" },
-    { "platform": "linkedin", "url": "https://www.linkedin.com/in/juliafmorgado" },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/juliafmorgado"
+    },
     { "platform": "youtube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
-    { "platform": "instagram", "url": "https://www.instagram.com/juliafmorgado/" }
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/juliafmorgado/"
+    }
   ],
   "links": [
     {
@@ -23,21 +29,21 @@
       "url": "https://twitter.com/juliafmorgado",
       "icon": "twitter"
     },
-        {
+    {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/juliafmorgado",
       "icon": "linkedin"
     },
-      {
+    {
       "name": "Check out my YouTube channel",
       "url": "https://youtube.com/juliafmorgado",
       "icon": "youtube"
     },
-      {
+    {
       "name": "Subscribe to my newsletter",
       "url": "https://www.getrevue.co/profile/juliafmorgado",
       "icon": "envelope"
-    },
+    }
   ],
   "milestones": [
     {
@@ -48,7 +54,7 @@
       "description": "Delivered my first Keynote at ADDO",
       "url": "https://www.alldaydevops.com/addo-speakers/julia-furst-morgado"
     },
-        {
+    {
       "title": "Became an AWS Community Builder",
       "date": "August 2022",
       "icon": "book",
@@ -56,7 +62,7 @@
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
     },
-        {
+    {
       "title": "Became a Girl Code ambassador",
       "date": "June 2022",
       "icon": "",
@@ -64,7 +70,7 @@
       "description": "Became a Girl Code ambassador",
       "url": "https://www.girl-code.co.uk/girlcodeambassadors/julia-furst-morgado"
     },
-            {
+    {
       "title": "Started organizing NYC Code & Coffee",
       "date": "January 2022",
       "icon": "open-source",
@@ -72,7 +78,7 @@
       "description": "Started organizing NYC Code & Coffee",
       "url": "https://www.newyorkcodeandcoffee.com/"
     },
-        {
+    {
       "title": "Started Freelancing",
       "date": "September 2021",
       "icon": "dollar",
