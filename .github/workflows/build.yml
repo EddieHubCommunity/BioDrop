@@ -9,6 +9,9 @@ on:
       - pages/**
       - test/**
 
+env:
+  NODE_ENV: dev
+
 jobs:
   build:
     runs-on: ubuntu-latest
