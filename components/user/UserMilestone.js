@@ -4,23 +4,13 @@ import 'react-vertical-timeline-component/style.min.css'
 import Image from "next/image";
 
 export default function UserMilestone({ milestone }) {
-  function getStyle() {
-    if (milestone.icon === 'github') return 'black'
-    else return milestone.color
-  }
-
-  function getStyleColor() {
-    if (milestone.icon === 'github') return 'white'
-    else return 'white'
-  }
-
   return (
     <VerticalTimelineElement
       date={milestone.date}
       icon={<Icon name={milestone.icon} />}
       iconStyle={{
-        background: getStyle(),
-        color: getStyleColor(),
+        background: ((milestone.icon === 'github')? 'black': milestone.color),
+        color: 'white',
       }}
     >
       <h1 className="mb-1 text-2xl">
