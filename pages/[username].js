@@ -6,6 +6,7 @@ import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
+import Link from "next/link";
 import UserLink from "../components/user/UserLink";
 import UserMilestone from "../components/user/UserMilestone";
 import FallbackImage from "../components/FallbackImage";
@@ -38,6 +39,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ data }) {
+  const fallbackImageSize = 120;
+
   return (
     <>
       <Head>
@@ -61,15 +64,15 @@ export default function User({ data }) {
               <div
                 id="profile-views"
                 className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-white rounded-full z-10"
-              >
+                >
                 {abbreviateNumber(data.views)}
               </div>
             )}
             <FallbackImage
               src={data.avatar}
               alt={`Profile picture of ${data.name}`}
-              width={120}
-              height={120}
+              width={fallbackImageSize}
+              height={fallbackImageSize}
               fallback={data.name}
               className="rounded-full"
             />
@@ -83,6 +86,9 @@ export default function User({ data }) {
                   <UserSocial social={social} key={index} />
                 ))}
             </div>
+            <Link href={`/qr/${data.username}`}>
+              <span className="text-cyan-600 cursor-pointer">QR</span>
+            </Link>
           </div>
         </div>
         <div className="flex justify-center my-4">
@@ -94,7 +100,7 @@ export default function User({ data }) {
               <span
                 key={index}
                 className="flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 border-dashed"
-              >
+                >
                 {tag}
               </span>
             ))}
