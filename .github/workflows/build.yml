@@ -2,13 +2,11 @@ name: Build
 on:
   push:
     paths:
-      - public/**
-      - src/**
+      - pages/**
       - test/**
   pull_request:
     paths:
-      - public/**
-      - src/**
+      - pages/**
       - test/**
 
 jobs:
