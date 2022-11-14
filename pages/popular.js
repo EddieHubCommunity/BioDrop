@@ -1,6 +1,6 @@
 import Head from "next/head";
+import UserCard from "../components/user/UserCard";
 
-import UserPreview from "../components/user/UserPreview";
 import app from "../config/app.json";
 
 export async function getServerSideProps(context) {
@@ -36,7 +36,7 @@ export default function Popular({ data }) {
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {data.map((profile) => (
             <li key={profile.username}>
-              <UserPreview profile={profile} />
+              <UserCard profile={profile} />
             </li>
           ))}
         </ul>
