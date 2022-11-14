@@ -1,0 +1,28 @@
+{
+  "name": "Gustavo Zitto",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/zitogustavo.png",
+  "tags": ["javascript", "typescript", "HTML", "PHP", "React"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "platform": "github", "url": "https://github.com/zittogustavo" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zittogustavo",
+      "icon": "github"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "JAnuary 2008",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Get my first developer paid job"
+    }
+  ]
+}
