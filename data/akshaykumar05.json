@@ -9,7 +9,7 @@
     { "platform": "twitter", "url": "https://twitter.com/akshayktwt" },
     { "platform": "github", "url": "https://github.com/akshaykumar05" }
   ],
-  "links": [ 
+  "links": [
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/akshaykumar05",
@@ -20,7 +20,7 @@
       "url": "https://twitter.com/akshayktwt",
       "icon": "twitter"
     },
-   
+
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshayktwt/",
@@ -28,4 +28,3 @@
     }
   ]
 }
- 
