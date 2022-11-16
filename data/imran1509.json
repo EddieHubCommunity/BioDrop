@@ -1,8 +1,14 @@
 {
   "name": "Mohd Imran",
   "type": "Personal",
-  "bio": "I am DevOps Engineer from India. I work with tools like Kubernetes, Docker, Git & GitHub, Ansible, Terraform, Jenkins, AWS, Linux-ubuntu etc. Python & Golang.",
+  "displayStatsPublic": true,
+  "bio": "DevOps | Tech Blogger | Open Source | Cloud Computing | DevRel Enthusiast | Cloud Native",
   "avatar": "https://github.com/imran1509.png",
+  "tags": ["Open Source", "DevOps", "Cloud Native", "Devrel", "Go", "Python"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/codenameimmy" },
+    { "platform": "github", "url": "https://github.com/imran1509" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -28,6 +34,11 @@
       "name": "Follow and read my blog on Dev.to",
       "url": "https://dev.to/imransaifi",
       "icon": "dev.to"
+    },
+    {
+      "name": "Connect with me on Mastodon",
+      "url": "https://fosstodon.org/web/@imran1509",
+      "icon": "mastodon"
     },
     {
       "name": "Follow me on Instagram",

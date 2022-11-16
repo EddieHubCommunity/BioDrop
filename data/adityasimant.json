@@ -1,0 +1,19 @@
+{
+  "name": "Aditya Simant",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Mobile Developer | Open-Source enthusiast",
+  "avatar": "https://github.com/adityasimant.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adityasimant",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/protagonist_z0",
+      "icon": "twitter"
+    }
+  ]
+}

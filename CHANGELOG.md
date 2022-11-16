@@ -1,45 +1,45 @@
-## [1.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.3.0...v1.3.1) (2022-11-09)
+## [1.7.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.5...v1.7.6) (2022-11-13)
 
 
 ### Bug Fixes
 
-* name on landing page ([#2189](https://github.com/EddieHubCommunity/LinkFree/issues/2189)) ([a896ea7](https://github.com/EddieHubCommunity/LinkFree/commit/a896ea795dfb7d26f79f0ee6bedf7325a2cb83d0))
+* removeLabels in reviewpad ([#2230](https://github.com/EddieHubCommunity/LinkFree/issues/2230)) ([eeab421](https://github.com/EddieHubCommunity/LinkFree/commit/eeab4217b487a24c6b0a6c9b56d0e3711e7250f7))
 
 
 
-# [1.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.5...v1.3.0) (2022-11-09)
-
-
-### Features
-
-* stats to use abbreviations ([#2183](https://github.com/EddieHubCommunity/LinkFree/issues/2183)) ([f0940a6](https://github.com/EddieHubCommunity/LinkFree/commit/f0940a6b5177955cd3f0cb8623c4b933c047c369))
-
-
-
-## [1.2.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.4...v1.2.5) (2022-11-08)
+## [1.7.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.4...v1.7.5) (2022-11-13)
 
 
 ### Bug Fixes
 
-* image width limit ([#2172](https://github.com/EddieHubCommunity/LinkFree/issues/2172)) ([4078d3e](https://github.com/EddieHubCommunity/LinkFree/commit/4078d3e6c2fdbac100d683f04ffa4d3d412a05e0))
+* failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
 
 
 
-## [1.2.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.3...v1.2.4) (2022-11-06)
-
-
-### Bug Fixes
-
-* inspiration links ([#2166](https://github.com/EddieHubCommunity/LinkFree/issues/2166)) ([66a2e97](https://github.com/EddieHubCommunity/LinkFree/commit/66a2e97bc79ee3de2ef1b3254a8f333d8c282fc7))
-
-
-
-## [1.2.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.2.2...v1.2.3) (2022-11-06)
+## [1.7.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.3...v1.7.4) (2022-11-13)
 
 
 ### Bug Fixes
 
-* run prettier on pull requests ([caa0e6b](https://github.com/EddieHubCommunity/LinkFree/commit/caa0e6b3ce70ace3c982956d47626116df9da886))
+* Storybook example link ([#2227](https://github.com/EddieHubCommunity/LinkFree/issues/2227)) ([1f56a01](https://github.com/EddieHubCommunity/LinkFree/commit/1f56a01257dcda3dfe5665e04ba0b53be00488a7))
+
+
+
+## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
+
+
+### Bug Fixes
+
+* horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
+
+
+
+## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
+
+
+### Bug Fixes
+
+* invalid data file location ([88baea2](https://github.com/EddieHubCommunity/LinkFree/commit/88baea2149c5aef1af97bc37b771860a21303e9c))
 
 
 

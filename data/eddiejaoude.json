@@ -4,6 +4,11 @@
   "displayStatsPublic": true,
   "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
   "avatar": "https://github.com/eddiejaoude.png",
+  "tags": ["Open Source", "javascript", "typescript", "nextjs", "DevOps"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/eddiejaoude" },
+    { "platform": "github", "url": "https://github.com/eddiejaoude" }
+  ],
   "links": [
     {
       "name": "Business DevRel Services",
