@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.6...v1.8.0) (2022-11-19)
+
+
+### Features
+
+* QR for users profiles ([#2235](https://github.com/EddieHubCommunity/LinkFree/issues/2235)) ([ec46b84](https://github.com/EddieHubCommunity/LinkFree/commit/ec46b8453c6c7efcf4fcc79eefa09ee93dd930e4)), closes [#2233](https://github.com/EddieHubCommunity/LinkFree/issues/2233)
+
+
+
 ## [1.7.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.5...v1.7.6) (2022-11-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
-
-
-
-## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
-
-
-### Bug Fixes
-
-* invalid data file location ([88baea2](https://github.com/EddieHubCommunity/LinkFree/commit/88baea2149c5aef1af97bc37b771860a21303e9c))
 
 
 
