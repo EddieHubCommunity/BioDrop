@@ -20,12 +20,10 @@ export default function UserCard({ profile }) {
         />
       </div>
       <div>
-        <h3 className="md:flex text-xl justify-center text-center text-orange-600 mt-2 font-bold">
+        <h3 className="text-xl justify-center text-center text-orange-600 font-bold mb-2">
           {profile.name}
         </h3>
-        <ReactMarkdown className="text-center mt-1">
-          {profile.bio}
-        </ReactMarkdown>
+        <ReactMarkdown className="text-center">{profile.bio}</ReactMarkdown>
       </div>
     </Link>
   );

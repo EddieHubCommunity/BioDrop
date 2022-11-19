@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import app from "../config/app.json";
-import UserPreview from "../components/user/UserPreview";
+import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
@@ -83,10 +83,10 @@ export default function Search({ users }) {
             message="You have to enter at least 3 characters to search for a user."
           />
         )}
-        <ul>
+        <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>
-              <UserPreview profile={user} />
+              <UserCard profile={user} />
             </li>
           ))}
         </ul>
