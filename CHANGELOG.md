@@ -1,3 +1,12 @@
+## [1.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.0...v1.8.1) (2022-11-19)
+
+
+### Bug Fixes
+
+* popular and search page ([#2245](https://github.com/EddieHubCommunity/LinkFree/issues/2245)) ([60041ce](https://github.com/EddieHubCommunity/LinkFree/commit/60041ceb6fcae1fbcc792b333593e5c1925b0f3e))
+
+
+
 # [1.8.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.6...v1.8.0) (2022-11-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * Storybook example link ([#2227](https://github.com/EddieHubCommunity/LinkFree/issues/2227)) ([1f56a01](https://github.com/EddieHubCommunity/LinkFree/commit/1f56a01257dcda3dfe5665e04ba0b53be00488a7))
-
-
-
-## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
-
-
-### Bug Fixes
-
-* horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
 
 
 
