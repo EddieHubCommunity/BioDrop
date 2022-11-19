@@ -17,12 +17,12 @@ test("Name appears on the page", async ({ page }) => {
 // Test to see if going to a profile 3X increases views by 3
 test("Profile views increase", async ({ page }) => {
   await page.goto("/_test-profile-user-3");
-  const startingViews = (await page.innerText("h2")).split(" ")[1];
+  const startingViews = await page.innerText("#profile-views");
   await page.goto("/_test-profile-user-3");
   await page.goto("/_test-profile-user-3");
   await page.goto("/_test-profile-user-3");
 
-  const endingViews = (await page.innerText("h2")).split(" ")[1];
+  const endingViews = await page.innerText("#profile-views");
   expect(parseInt(startingViews)).toEqual(parseInt(endingViews) - 3);
 });
 
@@ -52,7 +52,9 @@ test("Profile not found redirects to search page with error message", async ({
   const username = "_test-profile-does-not-exist";
   await page.goto(`/${username}`);
   await expect(page).toHaveURL("search?username=_test-profile-does-not-exist");
-  await expect(page.locator("h2")).toHaveText(`${username} not found`);
+  await expect(page.locator(".alert-error")).toHaveText(
+    `${username} not found`
+  );
 });
 
 test.fixme("Link navigates", async ({ page }) => {
