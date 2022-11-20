@@ -39,7 +39,7 @@
       "url": "https://youtube.com/juliafmorgado",
       "icon": "youtube"
     },
-        {
+    {
       "name": "KubeCof — your Kubernetes Coffee Chat",
       "url": "https://linktr.ee/kubecof",
       "icon": "link"
@@ -51,7 +51,7 @@
     }
   ],
   "milestones": [
-        {
+    {
       "title": "Google Women Techmakers Ambassador",
       "date": "November 2022",
       "icon": "book",
