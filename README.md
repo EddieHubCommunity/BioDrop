@@ -148,7 +148,7 @@ To include your `avatar`, you have to replace `<yourusername>` with your **GitHu
 
 For example: <http://github.com/eddiejaoude.png>
 
-Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
+Note: After your PR gets merged, the project still needs to be deployed for your profile to be displayed.
 
 ### Available Icons:
 
