@@ -127,12 +127,17 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
-              <div className="ml-3">
-                <div className="text-base font-medium leading-none text-white">
-                  GitHub
-                </div>
-                <div className="text-sm font-medium leading-none text-gray-400">
-                  v{app.version}
+            <div className="flex items-center md:ml-6">
+                <span className="text-gray-400">v{app.version}</span>
+                <div className="ml-3 relative">
+                  <a
+                    href="https://github.com/EddieHubCommunity/LinkFree"
+                    aria-current="page"
+                  >
+                    <IconContext.Provider value={{ color: "white", style: { verticalAlign: 'middle' } }}>
+                      <Icon name="github" />
+                    </IconContext.Provider>  
+                  </a>
                 </div>
               </div>
             </div>
