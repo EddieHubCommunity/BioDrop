@@ -39,6 +39,11 @@
       "url": "https://youtube.com/juliafmorgado",
       "icon": "youtube"
     },
+        {
+      "name": "KubeCof — your Kubernetes Coffee Chat",
+      "url": "https://linktr.ee/kubecof",
+      "icon": "link"
+    },
     {
       "name": "Subscribe to my newsletter",
       "url": "https://www.getrevue.co/profile/juliafmorgado",
@@ -46,8 +51,16 @@
     }
   ],
   "milestones": [
+        {
+      "title": "Google Women Techmakers Ambassador",
+      "date": "November 2022",
+      "icon": "book",
+      "color": "green",
+      "description": "Became a Google Women Techmakers Ambassador",
+      "url": "https://developers.google.com/womentechmakers"
+    },
     {
-      "title": "Delivered my first Keynote at ADDO",
+      "title": "All Day DevOps Conference",
       "date": "November 2022",
       "icon": "dollar",
       "color": "yellow",
@@ -55,7 +68,7 @@
       "url": "https://www.alldaydevops.com/addo-speakers/julia-furst-morgado"
     },
     {
-      "title": "Became an AWS Community Builder",
+      "title": "AWS Community Builder",
       "date": "August 2022",
       "icon": "book",
       "color": "orange",
@@ -63,23 +76,23 @@
       "url": "https://aws.amazon.com/developer/community/community-builders/"
     },
     {
-      "title": "Became a Girl Code ambassador",
+      "title": "Girl Code Ambassador",
       "date": "June 2022",
-      "icon": "",
+      "icon": "book",
       "color": "pink",
       "description": "Became a Girl Code ambassador",
       "url": "https://www.girl-code.co.uk/girlcodeambassadors/julia-furst-morgado"
     },
     {
-      "title": "Started organizing NYC Code & Coffee",
+      "title": "NYC Code & Coffee",
       "date": "January 2022",
       "icon": "open-source",
       "color": "blue",
-      "description": "Started organizing NYC Code & Coffee",
+      "description": "Started organizing NYC Code & Coffee — biweekly meetup in NYC",
       "url": "https://www.newyorkcodeandcoffee.com/"
     },
     {
-      "title": "Started Freelancing",
+      "title": "Freelancing",
       "date": "September 2021",
       "icon": "dollar",
       "color": "grey",
