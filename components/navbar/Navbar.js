@@ -4,6 +4,9 @@ import NavLink from "./NavLink";
 import Link from "next/link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
+import Icon from "../Icon";
+import { IconContext } from "react-icons";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,10 +61,11 @@ export default function Navbar() {
                 <div className="ml-3 relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     aria-current="page"
                   >
-                    GitHub
+                    <IconContext.Provider value={{ color: "white", style: { verticalAlign: 'middle' } }}>
+                      <Icon name="github" />
+                    </IconContext.Provider>  
                   </a>
                 </div>
               </div>
@@ -123,12 +127,17 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
-              <div className="ml-3">
-                <div className="text-base font-medium leading-none text-white">
-                  GitHub
-                </div>
-                <div className="text-sm font-medium leading-none text-gray-400">
-                  v{app.version}
+            <div className="flex items-center md:ml-6">
+                <span className="text-gray-400">v{app.version}</span>
+                <div className="ml-3 relative">
+                  <a
+                    href="https://github.com/EddieHubCommunity/LinkFree"
+                    aria-current="page"
+                  >
+                    <IconContext.Provider value={{ color: "white", style: { verticalAlign: 'middle' } }}>
+                      <Icon name="github" />
+                    </IconContext.Provider>  
+                  </a>
                 </div>
               </div>
             </div>
