@@ -4,7 +4,14 @@
   "displayStatsPublic": true,
   "bio": "Building open-sourced developer's future. Join me on this path! Ex-CTO at a few Fintech Startups, Co-Founder of JuicyScore.ai, open-source contributor, speaker 🎙",
   "avatar": "https://github.com/mazahaca.png",
-  "tags": ["Open Source", "javascript", "typescript", "golang", "DevOps", "microservices"],
+  "tags": [
+    "Open Source",
+    "javascript",
+    "typescript",
+    "golang",
+    "DevOps",
+    "microservices"
+  ],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/AndrewRedUK" },
     { "platform": "github", "url": "https://github.com/mazahaca" }
@@ -51,6 +58,5 @@
       "icon": "linkedin"
     }
   ],
-  "milestones": [
-  ]
+  "milestones": []
 }
