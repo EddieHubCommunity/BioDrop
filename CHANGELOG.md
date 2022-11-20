@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.1...v1.9.0) (2022-11-20)
+
+
+### Features
+
+* GitHub link to icon ([#2254](https://github.com/EddieHubCommunity/LinkFree/issues/2254)) ([1357c99](https://github.com/EddieHubCommunity/LinkFree/commit/1357c990e733ad568af8e8a159908f1a8a9c62b6))
+
+
+
 ## [1.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.0...v1.8.1) (2022-11-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
-
-
-
-## [1.7.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.3...v1.7.4) (2022-11-13)
-
-
-### Bug Fixes
-
-* Storybook example link ([#2227](https://github.com/EddieHubCommunity/LinkFree/issues/2227)) ([1f56a01](https://github.com/EddieHubCommunity/LinkFree/commit/1f56a01257dcda3dfe5665e04ba0b53be00488a7))
 
 
 
