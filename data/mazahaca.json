@@ -1,0 +1,62 @@
+{
+  "name": "Andrew Red",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Building open-sourced developer's future. Join me on this path! Ex-CTO at a few Fintech Startups, Co-Founder of JuicyScore.ai, open-source contributor, speaker 🎙",
+  "avatar": "https://github.com/mazahaca.png",
+  "tags": [
+    "Open Source",
+    "javascript",
+    "typescript",
+    "golang",
+    "DevOps",
+    "microservices"
+  ],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/AndrewRedUK" },
+    { "platform": "github", "url": "https://github.com/mazahaca" }
+  ],
+  "links": [
+    {
+      "name": "Techie blog",
+      "url": "http://andrew.red",
+      "icon": "link"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/mazahaca",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AndrewRedUK",
+      "icon": "twitter"
+    },
+    {
+      "name": "Learn more about Open Source on my YouTube channel",
+      "url": "https://www.youtube.com/@AndrewRedUK",
+      "icon": "youtube"
+    },
+    {
+      "name": "Drop me a message",
+      "url": "https://t.me/maZahaca",
+      "icon": "telegram"
+    },
+    {
+      "name": "Join my X-Technology community on Discord",
+      "url": "https://discord.gg/jBVn7xge6K",
+      "icon": "discord"
+    },
+    {
+      "name": "Donate to me on GitHub Sponsors",
+      "url": "https://github.com/sponsors/mazahaca",
+      "icon": "dollar"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/andrewred",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": []
+}
