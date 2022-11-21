@@ -3,6 +3,7 @@
 
 ### Contribute in public/Profile
 
+
 - [Git](https://git-scm.com/) 
 - [JSON](https://www.json.org/json-en.html)
 
@@ -14,8 +15,6 @@
 
 - [React](https://reactjs.org/)
 - [Prime React](https://www.primefaces.org/primereact/)
-
-
 ---
 
 ## 💥 How to Contribute

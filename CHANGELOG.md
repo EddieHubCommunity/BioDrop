@@ -1,45 +1,45 @@
-## [0.76.6](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.5...v0.76.6) (2022-10-03)
+# [1.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.1...v1.9.0) (2022-11-20)
+
+
+### Features
+
+* GitHub link to icon ([#2254](https://github.com/EddieHubCommunity/LinkFree/issues/2254)) ([1357c99](https://github.com/EddieHubCommunity/LinkFree/commit/1357c990e733ad568af8e8a159908f1a8a9c62b6))
+
+
+
+## [1.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.0...v1.8.1) (2022-11-19)
 
 
 ### Bug Fixes
 
-* improved the `.dockerignore` ([#1848](https://github.com/EddieHubCommunity/LinkFree/issues/1848)) ([cce9dba](https://github.com/EddieHubCommunity/LinkFree/commit/cce9dba37cb17c43ddec9471b1a4323899ceac3a))
+* popular and search page ([#2245](https://github.com/EddieHubCommunity/LinkFree/issues/2245)) ([60041ce](https://github.com/EddieHubCommunity/LinkFree/commit/60041ceb6fcae1fbcc792b333593e5c1925b0f3e))
 
 
 
-## [0.76.5](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.4...v0.76.5) (2022-10-01)
+# [1.8.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.6...v1.8.0) (2022-11-19)
 
 
-### Bug Fixes
+### Features
 
-* update hacktoberfest-invalid label to invalid ([#1850](https://github.com/EddieHubCommunity/LinkFree/issues/1850)) ([b20e5a8](https://github.com/EddieHubCommunity/LinkFree/commit/b20e5a86e5904a661b9612ea492d526988d5eda3))
-
-
-
-## [0.76.4](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.3...v0.76.4) (2022-09-30)
-
-
-### Bug Fixes
-
-* goobric's twitter link ([#1835](https://github.com/EddieHubCommunity/LinkFree/issues/1835)) ([5487a19](https://github.com/EddieHubCommunity/LinkFree/commit/5487a19571a564f6e8e4a05000f909cee3bd9493))
+* QR for users profiles ([#2235](https://github.com/EddieHubCommunity/LinkFree/issues/2235)) ([ec46b84](https://github.com/EddieHubCommunity/LinkFree/commit/ec46b8453c6c7efcf4fcc79eefa09ee93dd930e4)), closes [#2233](https://github.com/EddieHubCommunity/LinkFree/issues/2233)
 
 
 
-## [0.76.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.2...v0.76.3) (2022-09-28)
+## [1.7.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.5...v1.7.6) (2022-11-13)
 
 
 ### Bug Fixes
 
-* updated discord text ([c83f4c4](https://github.com/EddieHubCommunity/LinkFree/commit/c83f4c40ecce6c5a269d922bf179a46c55627c9a))
+* removeLabels in reviewpad ([#2230](https://github.com/EddieHubCommunity/LinkFree/issues/2230)) ([eeab421](https://github.com/EddieHubCommunity/LinkFree/commit/eeab4217b487a24c6b0a6c9b56d0e3711e7250f7))
 
 
 
-## [0.76.2](https://github.com/EddieHubCommunity/LinkFree/compare/v0.76.1...v0.76.2) (2022-09-26)
+## [1.7.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.4...v1.7.5) (2022-11-13)
 
 
 ### Bug Fixes
 
-* jessiebelle ([#1802](https://github.com/EddieHubCommunity/LinkFree/issues/1802)) ([67346fe](https://github.com/EddieHubCommunity/LinkFree/commit/67346fe2be2276654a33eeb0548e136b8ec0a21e))
+* failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
 
 
 

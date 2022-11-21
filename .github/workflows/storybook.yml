@@ -1,0 +1,15 @@
+name: Storybook
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16"
+      - name: install dependencies
+        run: npm ci
+      # - name: run build
+      #   run: npm run build-storybook
