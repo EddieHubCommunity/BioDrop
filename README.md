@@ -22,7 +22,6 @@
 ![Gitpod GIF with progress bar](https://user-images.githubusercontent.com/46727048/146048451-ed4ff31a-c178-4713-a9e0-95118be742dc.gif)
 
 ## 👨‍💻 Demo
-
 Check out the website: https://linkfree.eddiehub.io
 
 ## 👇 Prerequisites
