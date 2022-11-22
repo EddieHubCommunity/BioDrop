@@ -4,7 +4,7 @@ tasks:
   - name: Install npm dependencies
     init: |
       npm ci
-      npm playwright install chromium
+      npx playwright install chromium
     command: |
       gp ports await 27017
       npm run dev
