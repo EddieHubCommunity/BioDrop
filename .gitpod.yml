@@ -2,7 +2,9 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - name: Install npm dependencies
-    init: npm ci
+    init: |
+      npm ci
+      npm playwright install chromium
     command: |
       gp ports await 27017
       npm run dev

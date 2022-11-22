@@ -17,8 +17,3 @@ RUN install-packages libatk1.0-0 \
       libatspi2.0-0 \                              
       libwayland-client0
 
-USER gitpod
-
-RUN npm install -g npm@latest
-RUN npm install @playwright/test
-RUN npx playwright install chromium
