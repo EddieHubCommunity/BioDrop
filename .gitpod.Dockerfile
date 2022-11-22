@@ -1,2 +1,2 @@
 FROM gitpod/workspace-mongodb:latest
-RUN npx playwright install --with-deps chromium
+RUN apt-get update && npx playwright install-deps
