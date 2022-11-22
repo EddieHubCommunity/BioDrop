@@ -4,8 +4,8 @@ tasks:
   - name: Install npm dependencies
     init: |
       npm ci
-      npx playwright install chromium
     command: |
+      npx playwright install chromium
       gp ports await 27017
       npm run dev
   - name: Mongo
