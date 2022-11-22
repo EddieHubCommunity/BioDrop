@@ -1,8 +1,5 @@
 ---
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
-image:
-  file: .gitpod.Dockerfile
-
 tasks:
   - name: Install npm dependencies
     init: npm ci
@@ -23,7 +20,8 @@ github:
     addComment: false
     addBadge: true
 
-image: gitpod/workspace-mongodb
+image:
+  file: .gitpod.Dockerfile
 
 vscode:
   extensions:
