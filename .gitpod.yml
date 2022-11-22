@@ -1,10 +1,11 @@
 ---
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
   - name: Install npm dependencies
-    init: |
-      npm ci
-      npx playwright install --with-deps chromium
+    init: npm ci
     command: |
       gp ports await 27017
       npm run dev
