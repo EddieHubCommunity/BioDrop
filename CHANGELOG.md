@@ -1,3 +1,12 @@
+## [1.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.0...v1.9.1) (2022-11-23)
+
+
+### Bug Fixes
+
+* playwright setup on Gitpod ([#2261](https://github.com/EddieHubCommunity/LinkFree/issues/2261)) ([17cb5cf](https://github.com/EddieHubCommunity/LinkFree/commit/17cb5cf0b60a019d32e902dc2fd2635ecb5da519))
+
+
+
 # [1.9.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.1...v1.9.0) (2022-11-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removeLabels in reviewpad ([#2230](https://github.com/EddieHubCommunity/LinkFree/issues/2230)) ([eeab421](https://github.com/EddieHubCommunity/LinkFree/commit/eeab4217b487a24c6b0a6c9b56d0e3711e7250f7))
-
-
-
-## [1.7.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.4...v1.7.5) (2022-11-13)
-
-
-### Bug Fixes
-
-* failing tests ([8675cef](https://github.com/EddieHubCommunity/LinkFree/commit/8675cefe71bfa90a9e026bc272b4eb65b6438ad8))
 
 
 
