@@ -32,6 +32,7 @@ import {
   FaTwitter,
   FaVimeo,
   FaYoutube,
+  FaMastodon,
 } from "react-icons/fa";
 import {
   SiCodeforces,
@@ -133,6 +134,8 @@ function Icon({ name }) {
       return <FaVimeo />;
     case "youtube":
       return <FaYoutube />;
+    case "mastodon":
+      return <FaMastodon />;  
     default:
       return <FaGlobe />;
   }
