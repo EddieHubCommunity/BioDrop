@@ -11,7 +11,7 @@
 
 - Then get into the project folder through Git CLI. For that type `cd LinkFree` , press Enter.
 
--Now you are into the LinkFree folder. Now type `git remote -v` ,press enter it will show your origin url.
+- Now you are into the LinkFree folder. Now type `git remote -v`, press enter it will show your origin url.
 
 - Then open VS code by using this command `code .` hit enter.
 
