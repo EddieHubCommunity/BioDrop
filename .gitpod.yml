@@ -6,6 +6,7 @@ tasks:
       npm ci
       PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install chromium
     command: |
+      gp env PLAYWRIGHT_BROWSERS_PATH=0
       gp ports await 27017
       npm run dev
   - name: Mongo
