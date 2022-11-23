@@ -19,6 +19,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/GianlucaGalota",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/gianluca-galota/",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
