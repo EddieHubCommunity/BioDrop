@@ -10,17 +10,13 @@ export default async function handler(req, res) {
   await connectMongo();
   const { username } = req.query;
 
-  const directoryPath = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(directoryPath);
-  const file = files.find((file) => file === `${username}.json`);
+  const filePath = path.join(process.cwd(), "data", `${username}.json`);
 
-  if (!file) {
+  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+  if (!data) {
     return res.status(404).json({});
   }
-
-  const data = JSON.parse(
-    fs.readFileSync(path.join(directoryPath, file), "utf8")
-  );
 
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
