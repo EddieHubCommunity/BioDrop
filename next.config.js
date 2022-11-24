@@ -10,13 +10,37 @@ const withMDX = require("@next/mdx")({
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: [
-      "github.com",
-      "avatars.githubusercontent.com",
-      "user-images.githubusercontent.com",
-      "camo.githubusercontent.com",
-      "cdn.nhcarrigan.com",
-      "avatars.dicebear.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "github.com",
+        port: "",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "user-images.githubusercontent.com",
+        port: "",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+        port: "",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.nhcarrigan.com",
+        port: "",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "avatars.dicebear.com",
+        port: "",
+        pathname: "**",
+      },
     ],
     formats: ["image/webp"],
   },
