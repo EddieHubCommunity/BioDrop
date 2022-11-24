@@ -1,0 +1,20 @@
+{
+  "name": "Bhavesh Mishra",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Hey there, I am bhavesh a guy who loves writing bash script and currently working on my Devops & web pentesting skills. fun fact: I love distro hopping :) ",
+  "avatar": "https://github.com/thefool76.png",
+  "tags": ["Go", "linux","cloud","DevOps","Python","Web pentest"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/thefool76",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/k5l07h",
+      "icon": "twitter"
+    }
+  ],
+}
