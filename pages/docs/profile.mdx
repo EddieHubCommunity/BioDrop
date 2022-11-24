@@ -1,0 +1,37 @@
+import DocsLayout from "../../components/layouts/DocsLayout.js";
+
+## Full profile
+
+More data fields are allowed...
+
+_Note: the data fields `links` and `milestones` are arrays, so you can add multiple json objects to these_
+
+```js
+{
+  "name": "Eddie Jaoude",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
+  "avatar": "https://github.com/eddiejaoude.png",
+  "tags": ["Open Source", "javascript", "typescript", "nextjs", "DevOps"],
+  "links": [
+    {
+      "name": "Business DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "link"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2010",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing again",
+      "url": "https://www.eddiejaoude.io/"
+    }
+  ]
+}
+```
+
+export default ({ children }) => <DocsLayout>{children}</DocsLayout>;

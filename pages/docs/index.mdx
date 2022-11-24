@@ -1,0 +1,30 @@
+import DocsLayout from "../../components/layouts/DocsLayout.js";
+
+LinkFree is the Open Source alternative to LinkTree.
+
+We have features like...
+
+- Profile bio
+- Profile views
+- Link clicks counter
+- Milestones
+- Events
+
+## Minimum profile
+
+To add your profie you can create a json file in the `data/` directory with the contents...
+
+```js
+{
+  "name": "Eddie Jaoude",
+  "type": "personal",
+  "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
+  "avatar": "https://github.com/eddiejaoude.png",
+}
+```
+
+## Learn more
+
+- [Full profile](docs/profile)
+
+export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
