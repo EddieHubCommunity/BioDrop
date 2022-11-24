@@ -47,7 +47,7 @@ You can use Gitpod in the cloud or you can set this up locally with the followin
 See what components are available
 
 1. `npm run storybook`
-1. navigte to http://localhost:6006
+1. navigate to http://localhost:6006
 
 ### Contributing to Storybook
 
