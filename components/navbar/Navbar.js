@@ -26,6 +26,10 @@ export default function Navbar() {
       name: "Community Events",
       url: "/events",
     },
+    {
+      name: "Docs",
+      url: "/docs",
+    },
   ];
 
   return (
