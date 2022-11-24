@@ -1,3 +1,12 @@
+## [1.9.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.1...v1.9.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* GitHub link open in new tab ([#2190](https://github.com/EddieHubCommunity/LinkFree/issues/2190)) ([8fe7036](https://github.com/EddieHubCommunity/LinkFree/commit/8fe7036b4ddc193bddef7d0ff9b534dcaa7621a4)), closes [#2159](https://github.com/EddieHubCommunity/LinkFree/issues/2159)
+
+
+
 ## [1.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.0...v1.9.1) (2022-11-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * QR for users profiles ([#2235](https://github.com/EddieHubCommunity/LinkFree/issues/2235)) ([ec46b84](https://github.com/EddieHubCommunity/LinkFree/commit/ec46b8453c6c7efcf4fcc79eefa09ee93dd930e4)), closes [#2233](https://github.com/EddieHubCommunity/LinkFree/issues/2233)
-
-
-
-## [1.7.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.5...v1.7.6) (2022-11-13)
-
-
-### Bug Fixes
-
-* removeLabels in reviewpad ([#2230](https://github.com/EddieHubCommunity/LinkFree/issues/2230)) ([eeab421](https://github.com/EddieHubCommunity/LinkFree/commit/eeab4217b487a24c6b0a6c9b56d0e3711e7250f7))
 
 
 
