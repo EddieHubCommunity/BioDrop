@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
-import { useState } from "react";
-import EventPreview from "../components/events/EventPreview";
+
 import app from "../config/app.json";
+import EventPreview from "../components/events/EventPreview";
 
 export async function getServerSideProps(context) {
   let events = [];

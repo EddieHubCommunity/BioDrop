@@ -29,7 +29,7 @@ export default function Search({ users }) {
     if (username) {
       setNotFound(username);
     }
-  }, []);
+  }, [username]);
 
   const filterData = (value) => {
     if (value.length <= 3) {
