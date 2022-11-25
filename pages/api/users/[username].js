@@ -20,16 +20,23 @@ export default async function handler(req, res) {
 
   if (data.testimonials) {
     const filePathTestimonials = path.join(process.cwd(), "data", username);
-    const testimonials = data.testimonials.map((username) => ({
-      // TODO: error handling
-      ...JSON.parse(
-        fs.readFileSync(
-          path.join(filePathTestimonials, `${username}.json`),
-          "utf8"
-        )
-      ),
-      username,
-    }));
+    const testimonials = data.testimonials.flatMap((username) => {
+      try {
+        const testimonial = {
+          ...JSON.parse(
+            fs.readFileSync(
+              path.join(filePathTestimonials, `${username}.json`),
+              "utf8"
+            )
+          ),
+          username,
+        };
+
+        return testimonial;
+      } catch (e) {
+        return [];
+      }
+    });
     data = { ...data, testimonials };
   }
 

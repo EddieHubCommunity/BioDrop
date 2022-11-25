@@ -164,7 +164,13 @@ export default function User({ data }) {
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
-                <p>{testimonial.username}</p>
+                <a
+                  href={`https://github.com/${testimonial.username}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {testimonial.username}
+                </a>
 
                 <div className="prose prose-sm mt-4 max-w-none text-gray-500">
                   <p>{testimonial.description}</p>
