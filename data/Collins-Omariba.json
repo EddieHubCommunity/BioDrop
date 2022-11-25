@@ -3,9 +3,11 @@
 
   "type": "personal",
 
-  "bio": "Backend Web dev and Machine Learning Enthusiast!",
+  "bio": "Backend dev and Machine Learning",
 
   "avatar": "https://github.com/Collins-Omariba.png",
+   
+  "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
 
   "links": [
     {
