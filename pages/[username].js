@@ -149,15 +149,27 @@ export default function User({ data }) {
         <div className="my-8"></div>
         {data.testimonials &&
           data.testimonials.map((testimonial, key) => (
-            <div key={key} className="border-2 border-slate-200 p-4 m-2">
-              <h3 className="text-2xl">{testimonial.title}</h3>
-              <p>{testimonial.description}</p>
-              <p>By {testimonial.username}</p>
-              <img
-                src={`https://github.com/${testimonial.username}.png`}
-                className="rounded-full"
-                width="32"
-              />
+            <div
+              className="flex text-sm text-gray-500 border-2 my-4 px-4 rounded-xl shadow-xl"
+              key={key}
+            >
+              <div className="flex-none p-6">
+                <img
+                  src={`https://github.com/${testimonial.username}.png`}
+                  alt={testimonial.username}
+                  className="h-20 w-20 rounded-full bg-gray-100"
+                />
+              </div>
+              <div className="flex-1 p-6">
+                <h3 className="font-medium text-gray-900">
+                  {testimonial.title}
+                </h3>
+                <p>{testimonial.username}</p>
+
+                <div className="prose prose-sm mt-4 max-w-none text-gray-500">
+                  <p>{testimonial.description}</p>
+                </div>
+              </div>
             </div>
           ))}
 
