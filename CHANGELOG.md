@@ -1,3 +1,12 @@
+## [1.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.2...v1.9.3) (2022-11-25)
+
+
+### Bug Fixes
+
+* load json file directly ([#2269](https://github.com/EddieHubCommunity/LinkFree/issues/2269)) ([95d001f](https://github.com/EddieHubCommunity/LinkFree/commit/95d001fb1c89300f7885ab07025f037c4afee361))
+
+
+
 ## [1.9.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.1...v1.9.2) (2022-11-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * popular and search page ([#2245](https://github.com/EddieHubCommunity/LinkFree/issues/2245)) ([60041ce](https://github.com/EddieHubCommunity/LinkFree/commit/60041ceb6fcae1fbcc792b333593e5c1925b0f3e))
-
-
-
-# [1.8.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.6...v1.8.0) (2022-11-19)
-
-
-### Features
-
-* QR for users profiles ([#2235](https://github.com/EddieHubCommunity/LinkFree/issues/2235)) ([ec46b84](https://github.com/EddieHubCommunity/LinkFree/commit/ec46b8453c6c7efcf4fcc79eefa09ee93dd930e4)), closes [#2233](https://github.com/EddieHubCommunity/LinkFree/issues/2233)
 
 
 
