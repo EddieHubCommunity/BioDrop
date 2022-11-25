@@ -7,7 +7,12 @@
 
   "avatar": "https://github.com/Collins-Omariba.png",
    
-  "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
+  "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT" ],
+
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/OmaribaCollins " },
+    { "platform": "github", "url": "https://github.com/Collins-Omariba" }
+  ],
 
   "links": [
     {
