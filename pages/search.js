@@ -2,7 +2,6 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import app from "../config/app.json";
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 

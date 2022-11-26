@@ -3,8 +3,8 @@ import colors from "../../config/icons.json";
 import Icon from "../Icon";
 
 export default function UserLink({ link, username, displayStatsPublic }) {
+  console.log("COMPONENT", process.env.NEXT_PUBLIC_BASE_URL);
   const [clicks, setClicks] = useState(link.clicks || 0);
-  console.log(process.env.NEXT_PUBLIC_BASE_URL);
   const clickLink = async () => {
     try {
       const res = await fetch(

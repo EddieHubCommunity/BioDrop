@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 
-import app from "../config/app.json";
 import singleUser from "../config/user.json";
 
 export async function getServerSideProps(context) {

@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import EventPreview from "../components/events/EventPreview";
-import app from "../config/app.json";
 import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {

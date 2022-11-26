@@ -5,7 +5,6 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { QRCodeSVG } from "qrcode.react";
 import { IoQrCodeOutline } from "react-icons/io5";
 
-import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
@@ -41,6 +40,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ data }) {
+  console.log("PAGE", process.env.NEXT_PUBLIC_BASE_URL);
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
 

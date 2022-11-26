@@ -1,8 +1,6 @@
 import Head from "next/head";
 import UserCard from "../components/user/UserCard";
 
-import app from "../config/app.json";
-
 export async function getServerSideProps(context) {
   let data = [];
   try {
