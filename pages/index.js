@@ -18,7 +18,9 @@ export async function getServerSideProps(context) {
 
   let data = {};
   try {
-    const res = await fetch(`${app.baseUrl}/api/statistics/totals`);
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
+    );
     data = await res.json();
   } catch (e) {
     console.log("ERROR stats not found ", e);
@@ -76,7 +78,8 @@ export default function Home({ data }) {
         </div>
 
         <p className="text-2xl font-normal text-center mb-6">
-          <b>LinkFree</b> is an open-source alternative to Linktree implemented in JavaScript
+          <b>LinkFree</b> is an open-source alternative to Linktree implemented
+          in JavaScript
         </p>
 
         <p className="text-1xl text-center">
@@ -107,4 +110,3 @@ export default function Home({ data }) {
     </>
   );
 }
-

@@ -9,9 +9,9 @@ export default function UserLink({ link, username, displayStatsPublic }) {
   const clickLink = async () => {
     try {
       const res = await fetch(
-        `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
-          link.url
-        )}`,
+        `${
+          process.env.NEXT_PUBLIC_BASE_URL
+        }/api/statistics/${username}/${encodeURIComponent(link.url)}`,
         { method: "PUT" }
       );
       const data = await res.json();

@@ -6,7 +6,9 @@ import app from "../config/app.json";
 export async function getServerSideProps(context) {
   let data = [];
   try {
-    const res = await fetch(`${app.baseUrl}/api/users/popular`);
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/popular`
+    );
     data = await res.json();
   } catch (e) {
     console.log("ERROR loading popular profiles", e);

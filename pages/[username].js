@@ -19,7 +19,7 @@ export async function getServerSideProps(context) {
   let data = {};
   try {
     const res = await fetch(
-      `${app.baseUrl}/api/users/${context.query.username}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
     );
     data = await res.json();
   } catch (e) {
@@ -117,7 +117,7 @@ export default function User({ data }) {
         <div className="flex justify-center">
           {qrShow && (
             <QRCodeSVG
-              value={`${app.baseUrl}/${data.username}`}
+              value={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.username}`}
               size={fallbackImageSize * 2}
             />
           )}
