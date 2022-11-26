@@ -47,7 +47,7 @@ export default function Home({ data }) {
               <span className="block">
                 Connects your audience with a single link
               </span>
-              <span className="block text-indigo-600">Open Source FTW</span>
+              <span className="block text-indigo-600">100% Open Source</span>
             </h2>
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               {data.users > 0 && (

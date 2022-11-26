@@ -1,3 +1,12 @@
+# [1.10.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.3...v1.10.0) (2022-11-25)
+
+
+### Features
+
+* add the Mastodon icon ([#2272](https://github.com/EddieHubCommunity/LinkFree/issues/2272)) ([5f75c08](https://github.com/EddieHubCommunity/LinkFree/commit/5f75c08db8dd37d362438275d01e9831ccbe5090))
+
+
+
 ## [1.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.2...v1.9.3) (2022-11-25)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * GitHub link to icon ([#2254](https://github.com/EddieHubCommunity/LinkFree/issues/2254)) ([1357c99](https://github.com/EddieHubCommunity/LinkFree/commit/1357c990e733ad568af8e8a159908f1a8a9c62b6))
-
-
-
-## [1.8.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.8.0...v1.8.1) (2022-11-19)
-
-
-### Bug Fixes
-
-* popular and search page ([#2245](https://github.com/EddieHubCommunity/LinkFree/issues/2245)) ([60041ce](https://github.com/EddieHubCommunity/LinkFree/commit/60041ceb6fcae1fbcc792b333593e5c1925b0f3e))
 
 
 
