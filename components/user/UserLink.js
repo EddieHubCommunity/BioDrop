@@ -1,11 +1,10 @@
 import { useState } from "react";
-import app from "../../config/app.json";
 import colors from "../../config/icons.json";
 import Icon from "../Icon";
 
 export default function UserLink({ link, username, displayStatsPublic }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
-  console.log(`${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/`);
+  console.log(process.env.NEXT_PUBLIC_BASE_URL);
   const clickLink = async () => {
     try {
       const res = await fetch(
