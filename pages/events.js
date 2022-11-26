@@ -7,7 +7,7 @@ import Alert from "../components/Alert";
 export async function getServerSideProps(context) {
   let events = [];
   try {
-    const res = await fetch(`${app.baseUrl}/api/events`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
