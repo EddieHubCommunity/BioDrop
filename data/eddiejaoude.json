@@ -7,9 +7,10 @@
   "tags": ["Open Source", "javascript", "typescript", "nextjs", "DevOps"],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/eddiejaoude" },
-    { "platform": "github", "url": "https://github.com/eddiejaoude" }
+    { "platform": "github", "url": "https://github.com/eddiejaoude" },
+    { "platform": "youtube", "url": "https://youtube.com/eddiejaoude" }
   ],
-  "testimonials": ["CBID2"],
+  "testimonials": ["CBID2", "Akshu-on-github", "ZeeMonk-pixel"],
   "links": [
     {
       "name": "Business DevRel Services",

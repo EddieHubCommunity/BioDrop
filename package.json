@@ -4,6 +4,9 @@
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
+    "@headlessui/react": "^1.7.4",
+    "@heroicons/react": "^2.0.13",
+    "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.12",
     "dotenv": "^16.0.3",
     "js-abbreviation-number": "^1.4.0",

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import EventPreview from "../components/events/EventPreview";
+import Event from "../components/Event";
 import app from "../config/app.json";
 import Alert from "../components/Alert";
 
@@ -31,7 +31,7 @@ export default function Events({ events }) {
         <ul>
           {events.map((event) => (
             <li key={event.name}>
-              <EventPreview event={event} username={event.author} />
+              <Event event={event} username={event.author} />
             </li>
           ))}
         </ul>
