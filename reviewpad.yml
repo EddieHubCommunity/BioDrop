@@ -29,12 +29,15 @@ workflows:
       - rule: $size() <= 10
         extra-actions:
           - $addLabel("small")
+          - $removeLabels(["medium", "large"])
       - rule: $size() > 10 && $size() <= 30
         extra-actions:
-          - $addLabel("medium")
+          - $addLabel("medium") 
+          - $removeLabels(["small", "large"])
       - rule: $size() > 30
         extra-actions:
           - $addLabel("large")
+          - $removeLabels(["small", "medium"])
 
   - name: first-time-contributor
     always-run: true

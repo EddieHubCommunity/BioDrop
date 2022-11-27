@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.6.2",
+  "version": "1.11.0",
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
@@ -13,6 +13,7 @@
     "mongoose": "^6.6.5",
     "next": "^13",
     "prettier": "^2.7.1",
+    "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",

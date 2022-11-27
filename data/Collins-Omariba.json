@@ -1,12 +1,13 @@
 {
   "name": "Omariba Collins",
-
   "type": "personal",
-
-  "bio": "Backend Web dev and Machine Learning Enthusiast!",
-
+  "bio": "Backend dev and Machine Learning",
   "avatar": "https://github.com/Collins-Omariba.png",
-
+  "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
+  "socials": [
+    { "platform": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
+    { "platform": "FaGitHub", "url": "https://github.com/Collins-Omariba" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",

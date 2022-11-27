@@ -28,6 +28,13 @@
       "color": "green",
       "description": "Open-source contribution by fixing outdated links, typos, bug reports, code review and collaborating to improve repositories. My world changed!",
       "url": "https://github.com/jwasham/coding-interview-university/pull/1154"
+    },
+    {
+      "title": "First Hacktoberfest Participation",
+      "date": "1st October, 2022",
+      "color": "#4169e1",
+      "description": "Participated in Hacktoberfest as a maintainer. Reviewed many PRs and had a great experience of Open-source",
+      "url": "https://github.com/SaptarshiSarkar12/Drifty"
     }
   ]
 }

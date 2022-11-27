@@ -2,6 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
+import { IconContext } from "react-icons";
+import { MdHelpOutline } from "react-icons/md";
 
 import app from "../config/app.json";
 import singleUser from "../config/user.json";
@@ -47,7 +49,7 @@ export default function Home({ data }) {
               <span className="block">
                 Connects your audience with a single link
               </span>
-              <span className="block text-indigo-600">Open Source FTW</span>
+              <span className="block text-indigo-600">100% Open Source</span>
             </h2>
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               {data.users > 0 && (
@@ -96,7 +98,7 @@ export default function Home({ data }) {
           </Link>
           .
         </p>
-        <div className="grid place-items-center w-screen">
+        <div className="grid place-items-center w-screen max-w-[100%]">
           <Image
             src="/mockup.png"
             alt="Mock up of LinkFree project"
@@ -104,6 +106,21 @@ export default function Home({ data }) {
             height="638"
           />
         </div>
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree/discussions"
+          legacybehavior
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
+            <IconContext.Provider
+              value={{ color: "white", style: { verticalAlign: "middle" } }}
+            >
+              <MdHelpOutline />
+            </IconContext.Provider>
+            <p className="text-sm font-medium">Help</p>
+          </div>
+        </a>
       </main>
     </>
   );

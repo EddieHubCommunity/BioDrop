@@ -25,6 +25,10 @@ import * as WiIcons from "react-icons/wi";
 
 export default function getIcon(name) {
   let icon = FaIcons["FaGlobe"];
+  if (!name) {
+    return icon;
+  }
+
   switch (name.slice(0, 2)) {
     case "Ai":
       icon = AiIcons[name];
