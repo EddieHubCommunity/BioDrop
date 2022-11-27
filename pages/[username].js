@@ -117,7 +117,7 @@ export default function User({ data, BASE_URL }) {
         <div className="flex justify-center">
           {qrShow && (
             <QRCodeSVG
-              value={`${process.env.NEXT_PUBLIC_BASE_URL}/${data.username}`}
+              value={`${BASE_URL}/${data.username}`}
               size={fallbackImageSize * 2}
             />
           )}
