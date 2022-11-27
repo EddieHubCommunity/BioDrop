@@ -8,7 +8,6 @@ export default function UserLink({
   username,
   displayStatsPublic,
 }) {
-  console.log("COMPONENT", BASE_URL);
   const [clicks, setClicks] = useState(link.clicks || 0);
   const clickLink = async () => {
     try {

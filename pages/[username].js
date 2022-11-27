@@ -40,7 +40,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ data, BASE_URL }) {
-  console.log("PAGE", BASE_URL);
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
 
