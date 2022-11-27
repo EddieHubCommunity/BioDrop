@@ -2,15 +2,20 @@ import { useState } from "react";
 import colors from "../../config/icons.json";
 import Icon from "../Icon";
 
-export default function UserLink({ link, username, displayStatsPublic }) {
-  console.log("COMPONENT", process.env.NEXT_PUBLIC_BASE_URL);
+export default function UserLink({
+  BASE_URL,
+  link,
+  username,
+  displayStatsPublic,
+}) {
+  console.log("COMPONENT", BASE_URL);
   const [clicks, setClicks] = useState(link.clicks || 0);
   const clickLink = async () => {
     try {
       const res = await fetch(
-        `${
-          process.env.NEXT_PUBLIC_BASE_URL
-        }/api/statistics/${username}/${encodeURIComponent(link.url)}`,
+        `${BASE_URL}/api/statistics/${username}/${encodeURIComponent(
+          link.url
+        )}`,
         { method: "PUT" }
       );
       const data = await res.json();

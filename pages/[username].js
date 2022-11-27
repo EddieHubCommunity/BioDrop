@@ -35,12 +35,12 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ data }) {
-  console.log("PAGE", process.env.NEXT_PUBLIC_BASE_URL);
+export default function User({ data, BASE_URL }) {
+  console.log("PAGE", BASE_URL);
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
 
@@ -127,6 +127,7 @@ export default function User({ data }) {
           {data.links &&
             data.links.map((link, index) => (
               <UserLink
+                BASE_URL={BASE_URL}
                 key={index}
                 link={link}
                 username={data.username}
