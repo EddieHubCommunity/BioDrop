@@ -1,6 +1,6 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
 
-LinkFree is the Open Source alternative to LinkTree.
+LinkFree connects audiences to all of your content with one link. It is an **Open Source** alternative to _Linktree_ implemented in JavaScript using NextJS, Tailwind and MongoDB.
 
 We have features like...
 
@@ -8,6 +8,7 @@ We have features like...
 - Profile views
 - Link clicks counter
 - Milestones
+- Testimonials
 - Events
 
 ## Minimum profile
@@ -22,6 +23,64 @@ To add your profie you can create a json file in the `data/` directory with the 
   "avatar": "https://github.com/eddiejaoude.png",
 }
 ```
+
+## To Add Your Profile
+
+Create a file named using your GitHub username `username.json` in the directory `data`, this will ensure it is unique.
+
+**Optional fields: `milestones` and `type(personal | community)`**\
+Looking for inspiration? You can view the following profiles for an example:
+
+- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
+- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/nhcarrigan.json)
+- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/kaiwalyakoparkar.json)
+
+Your brand new file should look something similar to this one:
+
+> **Note**: add/remove `links` objects to customise your profile, `milestones` are optional
+
+```json
+{
+  "name": "YOUR NAME",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
+  "tags": ["javascript", "typescript"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/YOUR_GITHUB_USERNAME",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.eddiejaoude.io/"
+    }
+  ]
+}
+```
+
+Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
+
+For example: `https://linkfree.eddiehub.io/eddiejaoude`
+
+To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
+
+For example: `http://github.com/eddiejaoude.png`
+
+Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
 
 ## Learn more
 

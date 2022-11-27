@@ -1,141 +1,107 @@
-import React from "react";
-import {
-  FaAndroid,
-  FaApple,
-  FaArrowLeft,
-  FaBook,
-  FaDev,
-  FaDiscord,
-  FaDollarSign,
-  FaEnvelope,
-  FaFacebook,
-  FaGithub,
-  FaGitlab,
-  FaGlobe,
-  FaGraduationCap,
-  FaInstagram,
-  FaLaravel,
-  FaLink,
-  FaLinkedin,
-  FaMicrosoft,
-  FaMoon,
-  FaNodeJs,
-  FaPaypal,
-  FaSearch,
-  FaSlack,
-  FaSnapchat,
-  FaSun,
-  FaStackOverflow,
-  FaTelegram,
-  FaTiktok,
-  FaTwitch,
-  FaTwitter,
-  FaVimeo,
-  FaYoutube,
-} from "react-icons/fa";
-import {
-  SiCodeforces,
-  SiCodewars,
-  SiHackerrank,
-  SiHashnode,
-  SiLeetcode,
-  SiMedium,
-  SiPolywork,
-} from "react-icons/si";
-import { RiSendPlaneFill } from "react-icons/ri";
-import { FiShare2 } from "react-icons/fi";
-import { DiOpensource } from "react-icons/di";
+import * as AiIcons from "react-icons/ai";
+import * as BiIcons from "react-icons/bi";
+import * as BsIcons from "react-icons/bs";
+import * as CgIcons from "react-icons/ci";
+import * as CiIcons from "react-icons/cg";
+import * as DiIcons from "react-icons/di";
+import * as FaIcons from "react-icons/fa";
+import * as FcIcons from "react-icons/fc";
+import * as FiIcons from "react-icons/fi";
+import * as GiIcons from "react-icons/gi";
+import * as GoIcons from "react-icons/go";
+import * as GrIcons from "react-icons/gr";
+import * as HiIcons from "react-icons/hi2";
+import * as ImIcons from "react-icons/im";
+import * as MdIcons from "react-icons/md";
+import * as IoIcons from "react-icons/io5";
+import * as RiIcons from "react-icons/ri";
+import * as SiIcons from "react-icons/si";
+import * as SlIcons from "react-icons/sl";
+import * as TbIcons from "react-icons/tb";
+import * as TfiIcons from "react-icons/tfi";
+import * as TiIcons from "react-icons/ti";
+import * as VscIcons from "react-icons/vsc";
+import * as WiIcons from "react-icons/wi";
 
-function Icon({ name }) {
-  switch (name) {
-    case "android":
-      return <FaAndroid />;
-    case "apple":
-      return <FaApple />;
-    case "arrowLeft":
-      return <FaArrowLeft />;
-    case "book":
-      return <FaBook />;
-    case "shareprofile":
-      return <FiShare2 />;
-    case "codeforces":
-      return <SiCodeforces />;
-    case "codewars":
-      return <SiCodewars />;
-    case "dev.to":
-      return <FaDev />;
-    case "discord":
-      return <FaDiscord />;
-    case "dollar":
-      return <FaDollarSign />;
-    case "envelope":
-      return <FaEnvelope />;
-    case "facebook":
-      return <FaFacebook />;
-    case "github":
-      return <FaGithub />;
-    case "gitlab":
-      return <FaGitlab />;
-    case "globe":
-      return <FaGlobe />;
-    case "Graduation Hat":
-    case "graduation-hat":
-      return <FaGraduationCap />;
-    case "hackerrank":
-      return <SiHackerrank />;
-    case "hashnode":
-      return <SiHashnode />;
-    case "instagram":
-      return <FaInstagram />;
-    case "laravel":
-      return <FaLaravel />;
-    case "leetcode":
-      return <SiLeetcode />;
-    case "link":
-      return <FaLink />;
-    case "linkedin":
-      return <FaLinkedin />;
-    case "medium":
-      return <SiMedium />;
-    case "microsoft":
-      return <FaMicrosoft />;
-    case "moon":
-      return <FaMoon />;
-    case "node-js":
-      return <FaNodeJs />;
-    case "open-source":
-      return <DiOpensource />;
-    case "paypal":
-      return <FaPaypal />;
-    case "polywork":
-      return <SiPolywork />;
-    case "search":
-      return <FaSearch />;
-    case "send":
-      return <RiSendPlaneFill />;
-    case "slack":
-      return <FaSlack />;
-    case "snapchat":
-      return <FaSnapchat />;
-    case "stackoverflow":
-      return <FaStackOverflow />;
-    case "sun":
-      return <FaSun />;
-    case "telegram":
-      return <FaTelegram />;
-    case "tiktok":
-      return <FaTiktok />;
-    case "twitch":
-      return <FaTwitch />;
-    case "twitter":
-      return <FaTwitter />;
-    case "vimeo":
-      return <FaVimeo />;
-    case "youtube":
-      return <FaYoutube />;
-    default:
-      return <FaGlobe />;
+export default function getIcon(name) {
+  let icon = FaIcons["FaGlobe"];
+  switch (name.slice(0, 2)) {
+    case "Ai":
+      icon = AiIcons[name];
+      break;
+    case "Bi":
+      icon = BiIcons[name];
+      break;
+    case "Bs":
+      icon = BsIcons[name];
+      break;
+    case "Ci":
+      icon = CiIcons[name];
+      break;
+    case "Cg":
+      icon = CgIcons[name];
+      break;
+    case "Di":
+      icon = DiIcons[name];
+      break;
+    case "Fa":
+      icon = FaIcons[name];
+      break;
+    case "Fc":
+      icon = FcIcons[name];
+      break;
+    case "Fi":
+      icon = FiIcons[name];
+      break;
+    case "Gi":
+      icon = GiIcons[name];
+      break;
+    case "Go":
+      icon = GoIcons[name];
+      break;
+    case "Gr":
+      icon = GrIcons[name];
+      break;
+    case "Hi":
+      icon = HiIcons[name];
+      break;
+    case "Im":
+      icon = ImIcons[name];
+      break;
+    case "Io":
+      icon = IoIcons[name];
+      break;
+    case "Md":
+      icon = MdIcons[name];
+      break;
+    case "Si":
+      icon = SiIcons[name];
+      break;
+    case "Ri":
+      icon = RiIcons[name];
+      break;
+    case "Sl":
+      icon = SlIcons[name];
+      break;
+    case "Tb":
+      icon = TbIcons[name];
+      break;
+    case "Ti":
+      icon = TiIcons[name];
+      break;
+    case "Wi":
+      icon = WiIcons[name];
+      break;
   }
-}
 
-export default Icon;
+  switch (name.slice(0, 3)) {
+    case "Tfi":
+      icon = TfiIcons[name];
+      break;
+    case "Vsc":
+      icon = VscIcons[name];
+      break;
+  }
+
+  return icon;
+}

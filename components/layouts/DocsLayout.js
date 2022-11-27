@@ -1,6 +1,14 @@
 export default function DocsLayout({ children }) {
   const pages = [
     {
+      name: "Docs home",
+      path: "/docs",
+    },
+    {
+      name: "Getting Started",
+      path: "/docs/getting-started",
+    },
+    {
       name: "Basic Profile",
       path: "/docs",
     },
@@ -8,11 +16,23 @@ export default function DocsLayout({ children }) {
       name: "Advanced Profile",
       path: "/docs/profile",
     },
+    {
+      name: "Automated tests",
+      path: "/docs/automated-tests",
+    },
+    {
+      name: "Available Icons",
+      path: "/docs/icons",
+    },
+    {
+      name: "FAQs",
+      path: "/docs/faqs",
+    },
   ];
   return (
     <>
       <div className="bg-gray-50 mb-8 drop-shadow-md">
-        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6">
           <h1 className="text-3xl font-bold">Documentation</h1>
           <h2 className="text-2xl">
             LinkFree is the Open Source alternative to LinkTree.
@@ -21,21 +41,18 @@ export default function DocsLayout({ children }) {
             These docs are written in Markdown in the <code>docs</code>{" "}
             directory, improvements welcome.
           </p>
-          <div className="flex flex-row gap-4 mt-3">
+          <span className="isolate flex flex-col md:flex-row rounded-md shadow-sm">
             {pages.map((page) => (
-              <div
-                className="inline-flex rounded-md drop-shadow-md"
-                key={page.path}
+              <a
+                key={page.name}
+                type="button"
+                href={page.path}
+                className="relative inline-flex items-center border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
               >
-                <a
-                  className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600"
-                  href={page.path}
-                >
-                  {page.name}
-                </a>
-              </div>
+                {page.name}
+              </a>
             ))}
-          </div>
+          </span>
         </div>
       </div>
 

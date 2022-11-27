@@ -1,6 +1,8 @@
-import Icon from "../Icon";
+import getIcon from "../Icon";
 
 export default function UserMilestone({ milestone }) {
+  const DisplayIcon = getIcon(milestone.icon);
+
   return (
     <a
       href={milestone.url}
@@ -10,7 +12,7 @@ export default function UserMilestone({ milestone }) {
         borderColor: milestone.color,
       }}
     >
-      <Icon name={milestone.icon} />
+      <DisplayIcon />
       <div>
         <h2 className="text-xl">
           {milestone.date} {milestone.title}

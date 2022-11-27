@@ -55,14 +55,14 @@ export default function User({ data }) {
 
       <div className="mx-auto container px-6 mt-6">
         <div className="flex justify-center gap-x-6">
-          <FallbackImage
+          {/* <FallbackImage
             src={data.avatar}
             alt={`Profile picture of ${data.name}`}
             width={120}
             height={120}
             fallback={data.name}
             className="rounded-full"
-          />
+          /> */}
           <div className="flex flex-col self-center">
             <h1 className="text-3xl font-bold">{data.name}</h1>
             {data.displayStatsPublic && (
