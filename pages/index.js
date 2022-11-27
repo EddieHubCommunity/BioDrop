@@ -108,7 +108,9 @@ export default function Home({ data }) {
         </div>
         <a
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
-          legacyBehavior
+          legacybehavior
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider
