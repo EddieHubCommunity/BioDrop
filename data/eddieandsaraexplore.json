@@ -12,13 +12,12 @@
     {
       "name": "Follow us on YouTube",
       "url": "https://www.youtube.com/channel/UCS0qh4kCd5sReJuN5BhaFdA",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Website",
       "url": "https://www.eddieandsaraexplore.com",
-      "icon": "website"
+      "icon": "FaLink"
     }
-  ],
-  "milestones": []
+  ]
 }

@@ -17,7 +17,7 @@
     {
       "name": "Learn about Front End Developement",
       "url": "https://www.youtube.com/channel/UC61r1YBoNKSiI-c5ezj_FJQ",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on LinkedIn",
@@ -30,7 +30,7 @@
       "title": "Started YouTube",
       "image": "https://www.youtube.com/channel/UC61r1YBoNKSiI-c5ezj_FJQ",
       "date": "February 2022",
-      "icon": "FaYouTube",
+      "icon": "FaYoutube",
       "color": "red",
       "description": "First video on HTML",
       "url": "https://youtu.be/UqaxJG1vvMk"

@@ -103,5 +103,9 @@ export default function getIcon(name) {
       break;
   }
 
+  if (!icon) {
+    icon = FaIcons["FaGlobe"];
+  }
+
   return icon;
 }

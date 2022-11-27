@@ -3,9 +3,7 @@ import getIcon from "../Icon";
 
 export default function UserLink({ link, username, displayStatsPublic }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
-
   const DisplayIcon = getIcon(link.icon);
-
   const clickLink = async () => {
     try {
       const res = await fetch(

@@ -17,7 +17,7 @@
     {
       "name": "Subscribe to my YouTube channel",
       "url": "https://www.youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Connect with me on LinkedIn",
@@ -34,7 +34,7 @@
     {
       "title": "Posted my first video on YouTube",
       "date": "May 2021",
-      "icon": "FaYouTube",
+      "icon": "FaYoutube",
       "color": "black",
       "description": "My final project for CS50",
       "url": "https://www.youtube.com/watch?v=q4hK0VSJWqg"
