@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/eshan-sharma",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Eshan_Sharma__",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/eshan-sharma-a87b12190/",
-      "icon": "LinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check out my Blogs on Medium",
@@ -27,14 +27,14 @@
     {
       "name": "Check out my Technical Blogs on Hashnode.",
       "url": "https://eshansharma.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
       "title": "Started Open Souce",
       "date": "May 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started Open Source",
       "url": "https://github.com/eshan-sharma"

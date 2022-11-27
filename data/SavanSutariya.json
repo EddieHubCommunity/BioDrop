@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub (SavanSutariya)",
       "url": "https://github.com/SavanSutariya",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter (@savan_sutariya_)",
       "url": "https://twitter.com/savan_sutariya_",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn (Savan Sutariya)",
       "url": "https://linkedin.com/in/savan-sutariya-60b819203",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on YouTube (Savan)",
       "url": "https://www.youtube.com/c/SavanSutariya",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     }
   ]
 }

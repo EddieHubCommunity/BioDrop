@@ -13,7 +13,7 @@
 
       "url": "https://github.com/Collins-Omariba",
 
-      "icon": "github"
+      "icon": "FaGithub"
     },
 
     {
@@ -21,7 +21,7 @@
 
       "url": "https://twitter.com/OmaribaCollins",
 
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "portfolio website",
@@ -33,7 +33,7 @@
 
       "url": "https://www.linkedin.com/in/omariba-collins-b28b841b9",
 
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
 
@@ -43,7 +43,7 @@
 
       "date": "September 2022",
 
-      "icon": "dollar",
+      "icon": "FaDollarSign",
 
       "color": "grey",
 

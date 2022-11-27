@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/SaptarshiSarkar12",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SSarkar2007",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "My Hashnode Blog and Newsletter",
       "url": "https://saptarshisarkar.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
       "title": "Started Open-source contribution",
       "date": "29th May, 2022",
-      "icon": "open-source",
+      "icon": "DiOpensource",
       "color": "green",
       "description": "Open-source contribution by fixing outdated links, typos, bug reports, code review and collaborating to improve repositories. My world changed!",
       "url": "https://github.com/jwasham/coding-interview-university/pull/1154"

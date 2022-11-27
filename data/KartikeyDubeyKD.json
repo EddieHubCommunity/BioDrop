@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/KartikeyDubeyKD",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/KDKartikeyDubey",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/kartikeydubeykd",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started contributing to Open Source",
       "date": "2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "I've started working on Open Source after getting inspiration from Eddie Jaoude and Kunal Kushwaha.",
       "url": "https://github.com/KartikeyDubeyKD"

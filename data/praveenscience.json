@@ -12,17 +12,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/praveenscience",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/praveenscience",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Learn more about Web Development on my YouTube channel",
       "url": "https://rb.gy/fupw21",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "name": "Youtube Channel",
       "url": "https://youtube.com/c/Lumary",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     },
     {
       "name": "Github",
       "url": "https://github.com/Lumary2",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Business Contact",

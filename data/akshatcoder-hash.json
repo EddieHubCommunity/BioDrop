@@ -7,29 +7,29 @@
     {
       "name": "My Website",
       "url": "https://portfolio-six-omega-91.vercel.app/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/akshatcoder-hash",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/akshatwts",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Read on Hashnode",
       "url": "https://omega-91.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
       "title": "First Open Source Contribution",
       "date": "October 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Made first Open Source contribution",
       "url": "https://github.com/akshatcoder-hash?tab=overview&from=2021-12-01&to=2021-12-31#-some-of-my-github-stats"
@@ -38,7 +38,7 @@
       "title": "Started Building Shastra OS",
       "image": "https://avatars.githubusercontent.com/u/100306470?s=200&v=4",
       "date": "January 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "red",
       "description": "An Open Source Operating System focused on Web3.",
       "url": "https://shastraos.vercel.app/"
@@ -47,7 +47,7 @@
       "title": "First release of Shastra OS",
       "image": "https://avatars.githubusercontent.com/u/100306470?s=200&v=4",
       "date": "March 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "green",
       "description": "Beta version of Shastra OS released.",
       "url": "https://shastraos.vercel.app/"
@@ -56,7 +56,7 @@
       "title": "Established FOSS Community",
       "image": "https://opensource.org/files/osi_standard_logo_0.png",
       "date": "April 2022",
-      "icon": "DEV.to",
+      "icon": "FaDev",
       "color": "green",
       "description": "Established Free and Open Source Software Community to help other Open Source Enthusiasts with Open Source.",
       "url": "https://fossc.netlify.app/"

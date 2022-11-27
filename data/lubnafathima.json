@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/lubnafathima",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/MsCoder1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/lubna-fathima-4a30b4226/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check out My Portfolio",
       "url": "https://lubnafathima.github.io/portfolio/",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     }
   ],
   "milestones": [
     {
       "title": "Open Source Contribution",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Inspired from Eddie and Kunal Kushwaha, I started with to beginner friendly Open source contribution",
       "url": "https://github.com/lubnafathima"
@@ -37,7 +37,7 @@
     {
       "title": "Data Structures and Algorithm",
       "date": "July 2022",
-      "icon": "youtube",
+      "icon": "FaYouTube",
       "color": "red",
       "description": "In the following step in my roadmap, I started working with the MERN stack from Angela Yu's Bootcamp and built great projects along the way",
       "url": "https://twitter.com/MsCoder1/status/1550890126422822919"
@@ -45,7 +45,7 @@
     {
       "title": "MERN Stack Development",
       "date": "March 2022",
-      "icon": "twitter",
+      "icon": "FaTwitter",
       "color": "blue",
       "description": "In the following step in my roadmap, I started working with the MERN stack from Angela Yu's Bootcamp and built great projects along the way",
       "url": "https://twitter.com/MsCoder1/status/1503796812011884544"
@@ -53,7 +53,7 @@
     {
       "title": "100 Days of Code",
       "date": "August 2021",
-      "icon": "twitter",
+      "icon": "FaTwitter",
       "color": "grey",
       "description": "My first attempt in July 2021 failed! But i didn't give up and started again Aug 2021. At the end I gained Knowledge in JS, SASS, AJAX, JQuery and 1k friends in Twitter",
       "url": "https://twitter.com/MsCoder1/status/1427899230367010823?t=C4l1Qkv1htYHwUcaAiOlXA&s=19"

@@ -7,34 +7,34 @@
     {
       "name": "My Personal Website 🌐",
       "url": "https://akshithbellare.github.io",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on GitHub ❤️",
       "url": "https://github.com/AKSHITHBELLARE",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter 🗨️",
       "url": "https://twitter.com/AKSHITHBELLARE",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn 🤝",
       "url": "https://www.linkedin.com/in/AKSHITHBELLARE",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Go to my YouTube! 🎥",
       "url": "https://www.youtube.com/channel/UCt2DqsLcseQHp6bqFYVS0Sw",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     }
   ],
   "milestones": [
     {
       "title": "Completed my Internship!",
       "date": "June-May 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Interned in the Architecture team at GEP Worldwide.",
       "url": "https://www.gep.com"
@@ -42,7 +42,7 @@
     {
       "title": "Graduated from NITK Surathkal",
       "date": "April 2022",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "black",
       "description": "Completed my B.Tech in Information Technology from NITK Surathkal.",
       "url": "https://www.nitk.ac.in"
@@ -50,7 +50,7 @@
     {
       "title": "Started my first job!",
       "date": "June 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Started my new position as a Software Engineer at GEP Worldwide.",
       "url": "https://www.gep.com"

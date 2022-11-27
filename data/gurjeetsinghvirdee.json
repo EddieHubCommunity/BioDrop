@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/gurjeetsinghvirdee",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Add me on LinkedIn",
       "url": "https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -20,14 +20,14 @@
       "title": "Started Open Source Contribuitions",
       "date": "Sep 2020",
       "description": "Started some beginner-freindly open source projects",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue"
     },
     {
       "title": "Started Technical Content Writing",
       "date": "October 2020",
       "description": "Writing Technical Articles in GeeksforGeeks",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "red"
     }
   ]

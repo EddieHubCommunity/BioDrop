@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Deepanshu1334",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Deepans23454090",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Hashnode",
       "url": "https://deepanshu669.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on Medium",
@@ -27,7 +27,7 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/deepanshu-chaudhry-b35274231",
-      "icon": "linkedIn"
+      "icon": "FaLinkedin"
     }
   ]
 }

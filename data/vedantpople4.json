@@ -7,22 +7,22 @@
     {
       "name": "Visit my Portfolio",
       "url": "https://vedantpople4.github.io/Portfolio/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/vedantpople4",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Drop a Hi! on Twitter",
       "url": "https://twitter.com/vedantpople",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/vedantpople/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

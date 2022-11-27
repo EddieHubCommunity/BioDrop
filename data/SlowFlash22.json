@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/SlowFlash22",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_slowflash_",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Subscribe my gaming channel",
       "url": "https://www.youtube.com/channel/UClwrSGAIGYKg8vzwIuofSUw",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/slowflash",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Read my Medium Articles!",
@@ -34,7 +34,7 @@
     {
       "title": "Became a Binance Campus BUIDLER!",
       "date": "January 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Crypto and Blockchain Community builder for my college"
     }

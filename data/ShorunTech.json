@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ShorunTech",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/shoruntech",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/shorunke-gbenga-95295a197/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Youtube",
       "url": "https://www.youtube.com/channel/UCCEAthZ8ntnhz1umBAKlsRA",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     }
   ],
   "milestones": [
     {
       "title": "Frontend Developer",
       "date": "Febuary 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "yellow",
       "description": "Started freelancing",
       "url": "https://gstech123.netlify.app/"
@@ -37,7 +37,7 @@
     {
       "title": "YouTuber",
       "date": "December 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "red",
       "description": "Create Tutorial Generally On Programming",
       "url": "https://www.youtube.com/channel/UCCEAthZ8ntnhz1umBAKlsRA"
@@ -45,7 +45,7 @@
     {
       "title": "Full-Stack Web Developer",
       "date": "December 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "fulltime Developer",
       "url": "https://www.mikano-intl.com/"

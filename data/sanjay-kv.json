@@ -7,39 +7,39 @@
     {
       "name": "Checkout my repositories on GitHub",
       "url": "https://github.com/sanjay-kv",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/sanjay_k_v",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/sanjay-k-v/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Visit my portfolio",
       "url": "https://sanjaykv.com/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Get My Ebook 'Crack Data scientist Interview'",
       "url": "learn.recodehive.com/datascience",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Learn More about Data Science on my YouTube channel",
       "url": "https://www.youtube.com/channel/UCzyGIdENFVT36Yx4zTws4kw",
-      "icon": "youtube"
+      "icon": "FaYouTube"
     }
   ],
   "milestones": [
     {
       "title": "Founder",
       "date": "May 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Founder of Recode Hive. Platform to make Data Science Easy for everyone.",
       "url": "https://recodehive.com/"

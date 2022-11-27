@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ezinneanne",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ezinne_anne",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "I write technical(op-ed, tutorial) and fiction stories on Medium",
@@ -22,14 +22,14 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/ezinneanneemilia",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "March 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing again",
       "url": "https://ezinneanne.netlify.app/"
@@ -38,7 +38,7 @@
       "title": "Started Open Source Contribution",
       "image": "https://github.com/ezinneanne.png",
       "date": "April 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Contributing in open source projects",
       "url": "https://github.com/ezinneanne"

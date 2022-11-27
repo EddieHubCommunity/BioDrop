@@ -7,12 +7,12 @@
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/robertusbagaskara",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Look at my LinkedIn Profile",
       "url": "https://www.linkedin.com/in/robertusbagaskara/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

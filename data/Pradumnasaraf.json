@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Pradumnasaraf",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Conenct with me on LinkedIn",
       "url": "https://www.linkedin.com/in/pradumnasaraf",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check out my website",
       "url": "https://pradumnasaraf.me",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ]
 }

@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/AmrMonier",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/amr_monier",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/amr-monier-184b4b168/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Joined Ain Shams University",
       "date": "2016",
-      "icon": "Book",
+      "icon": "FaBook",
       "color": "black",
       "description": "Joined the Computer Science Program in Faculty of Science, Ain Shams Uni."
     },
@@ -37,7 +37,7 @@
     {
       "title": "My CS Degree",
       "date": "2020",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "green",
       "description": "Graduated from The Computer Science Program with 3.06 GPA"
     },

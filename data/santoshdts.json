@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Santosh1176",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/santoshdts",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
@@ -26,7 +26,7 @@
     {
       "title": "Learning Open Source",
       "date": "April 2022",
-      "icon": "GitHub",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started Contibuting To Beginner friendly Issues"
     },

@@ -7,31 +7,31 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/CodeWhiteWeb",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodeWhiteWeb1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/CodeWhiteWeb",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ],
   "milestones": [
     {
       "title": "Starting Programming",
       "date": "April 2020",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "Blue",
       "description": "Started to learn Html ,css ,js"
     },
     {
       "title": "Completed My First Game",
       "date": "Jan 2021",
-      "icon": "Book",
+      "icon": "FaBook",
       "color": "Blue",
       "description": "Completed My First game using Vanilla JS",
       "link": "https://github.com/CodeWhiteWeb/mario-kart"
@@ -39,7 +39,7 @@
     {
       "title": "Joined GitHub",
       "date": "Feb 2021",
-      "icon": "GitHub",
+      "icon": "FaGithub",
       "color": "Blue",
       "description": "Started my journey with Git and Github",
       "link": "https://github.com/CodeWhiteWeb"
@@ -47,7 +47,7 @@
     {
       "title": "Started My YouTube channel",
       "date": "March 2021",
-      "icon": "YouTube",
+      "icon": "FaYouTube",
       "color": "Blue",
       "description": "Started my journey with Youtube",
       "link": "https://www.youtube.com/c/CODEWHITEWEB"
@@ -55,14 +55,14 @@
     {
       "title": "New Start With Python",
       "date": "March 2021",
-      "icon": "Book",
+      "icon": "FaBook",
       "color": "Blue",
       "description": "Started to learn Python & Flask"
     },
     {
       "title": "Readme Profile",
       "date": "July 2021",
-      "icon": "GitHub",
+      "icon": "FaGithub",
       "color": "Blue",
       "description": "Created my Github Readme Profile",
       "link": "https://github.com/CodeWhiteWeb"
@@ -70,7 +70,7 @@
     {
       "title": "Mastering Discord.js",
       "date": "Jan 2022",
-      "icon": "Discord",
+      "icon": "FaDiscord",
       "color": "Blue",
       "description": "Getting a Deep knowledge of Discord.js",
       "link": "https://discord.js.org"
@@ -78,7 +78,7 @@
     {
       "title": "Love with AI CHAT BOT",
       "date": "Feb 2022",
-      "icon": "Discord",
+      "icon": "FaDiscord",
       "color": "Blue",
       "description": "Created My First Discord Bot , An AI CHATBOT!",
       "link": "https://chataribot.github.io"
@@ -86,7 +86,7 @@
     {
       "title": "CHATBOT APIs creation",
       "date": "Feb 2022",
-      "icon": "node-js",
+      "icon": "FaNodeJs",
       "color": "Blue",
       "description": "Created My First ever Chatbot Api",
       "link": "https://gist.github.com/CodeWhiteWeb/af80da4c1942f6a5df7118a3f64ea363"
@@ -94,7 +94,7 @@
     {
       "title": "CHATBOT NPM",
       "date": "March 2022",
-      "icon": "node-js",
+      "icon": "FaNodeJs",
       "color": "Blue",
       "description": "Published My First NPM package for creating chatbots , Fast and Easy!",
       "link": "https://www.npmjs.com/package/chatbot-discord"
@@ -102,7 +102,7 @@
     {
       "title": "Updating Portfolio",
       "date": "June 2022",
-      "icon": "Link",
+      "icon": "FaLink",
       "color": "Blue",
       "description": "Changed my full portfolio website from scratch",
       "link": "https://codewhiteweb.cf"

@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/the-lazy-learner",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/kidwhocodes",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect on LinkedIn",
       "url": "https://linkedin.com/in/sudhansu-bhushan-mishra",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -31,7 +31,7 @@
     {
       "title": "Opened GitHub acount",
       "date": "August 2015",
-      "icon": "github",
+      "icon": "FaGithub",
       "description": "Open source journey starts",
       "color": "#3a3240"
     },

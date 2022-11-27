@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/WasiqB",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/WasiqBhamla",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/wasiqbhamla",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started GitHub account",
       "date": "2014",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Opened GitHub account without knowing about anything about open source",
       "url": "https://github.com/WasiqB"
@@ -33,7 +33,7 @@
       "title": "coteafs-appium",
       "image": "https://github.com/WasiqB.png",
       "date": "April 2017",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "black",
       "description": "My first serious open source project for Mobile Automation testing",
       "url": "https://github.com/WasiqB/coteafs-appium"
@@ -41,7 +41,7 @@
     {
       "title": "coteafs-selenium",
       "date": "April 2018",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Open-sourced my 2nd project for Web automation testing",
       "url": "https://github.com/WasiqB/coteafs-selenium"
@@ -49,7 +49,7 @@
     {
       "title": "AppiumTestDistribution",
       "date": "May 2019",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "My first contribution to other project",
       "url": "https://github.com/AppiumTestDistribution/AppiumTestDistribution"
@@ -57,7 +57,7 @@
     {
       "title": "Silver winner in Applitools UltraFast Cross Browser Testing Hackathon",
       "date": "July 2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "red",
       "description": "Won $200 in the Hackathon organized by Applitools for UltraFast Cross-browser testing. Was placed in Top 100 out of 2000+ applications.",
       "url": "https://twitter.com/Applitools/status/1288492605253267456?s=20"
