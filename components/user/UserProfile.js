@@ -4,12 +4,10 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { IoQrCodeOutline } from "react-icons/io5";
 import { QRCodeSVG } from "qrcode.react";
 
-import app from "../../config/app.json";
-
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
 
-export default function UserProfile({ data }) {
+export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
   return (
@@ -70,7 +68,7 @@ export default function UserProfile({ data }) {
       <div className="flex justify-center">
         {qrShow && (
           <QRCodeSVG
-            value={`${app.baseUrl}/${data.username}`}
+            value={`${BASE_URL}/${data.username}`}
             size={fallbackImageSize * 2}
           />
         )}

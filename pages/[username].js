@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
 
-import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
@@ -16,7 +15,7 @@ export async function getServerSideProps(context) {
   let data = {};
   try {
     const res = await fetch(
-      `${app.baseUrl}/api/users/${context.query.username}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
     );
     data = await res.json();
   } catch (e) {
@@ -33,11 +32,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ data }) {
+export default function User({ data, BASE_URL }) {
   const [tabs, setTabs] = useState([
     { name: "My Links", href: "#", current: true },
     { name: "Milestones", href: "#", current: false },
@@ -62,12 +61,12 @@ export default function User({ data }) {
       </Head>
 
       <div className="mx-auto container px-6 mt-6">
-        <UserProfile data={data} />
+        <UserProfile data={data} BASE_URL={BASE_URL} />
 
         <UserTabs tabs={tabs} setTabs={setTabs} />
 
         {tabs.find((tab) => tab.name === "My Links").current && (
-          <UserLinks data={data} />
+          <UserLinks data={data} BASE_URL={BASE_URL} />
         )}
         <div className="my-8"></div>
         {tabs.find((tab) => tab.name === "Milestones").current && (

@@ -1,7 +1,7 @@
 import UserLink from "./UserLink";
 import Alert from "../Alert";
 
-export default function UserLinks({ data }) {
+export default function UserLinks({ BASE_URL, data }) {
   return (
     <>
       {!data.links && <Alert type="info" message="No links found" />}
@@ -10,6 +10,7 @@ export default function UserLinks({ data }) {
           {data.links &&
             data.links.map((link, index) => (
               <UserLink
+                BASE_URL={BASE_URL}
                 key={index}
                 link={link}
                 username={data.username}

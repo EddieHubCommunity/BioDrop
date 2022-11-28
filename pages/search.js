@@ -2,14 +2,13 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import app from "../config/app.json";
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
   let users = [];
   try {
-    const res = await fetch(`${app.baseUrl}/api/users`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     users = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
