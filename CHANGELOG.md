@@ -1,3 +1,12 @@
+## [1.12.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.12.0...v1.12.1) (2022-11-28)
+
+
+### Reverts
+
+* Revert "fix headline to use less characters" ([18463c4](https://github.com/EddieHubCommunity/LinkFree/commit/18463c4858c74cf5a42fe017ae0afb076fe691ef))
+
+
+
 # [1.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.6...v1.12.0) (2022-11-28)
 
 
@@ -277,15 +286,6 @@
 ### Bug Fixes
 
 * YuriDevAT ([#1404](https://github.com/EddieHubCommunity/LinkFree/issues/1404)) ([23fb7ed](https://github.com/EddieHubCommunity/LinkFree/commit/23fb7ed4c87e87919d7e9c026d3ac6a128755fcd))
-
-
-
-## [0.68.3](https://github.com/EddieHubCommunity/LinkFree/compare/v0.68.2...v0.68.3) (2022-06-15)
-
-
-### Bug Fixes
-
-* update typos and add profile ([#1361](https://github.com/EddieHubCommunity/LinkFree/issues/1361)) ([00b485c](https://github.com/EddieHubCommunity/LinkFree/commit/00b485cae50ddae9ea585feaa310a9dd75d713a4))
 
 
 
