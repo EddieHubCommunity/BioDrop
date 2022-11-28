@@ -4,6 +4,8 @@ import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 
 import singleUser from "../config/user.json";
+import { IconContext } from "react-icons";
+import Icon from "../components/Icon";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -105,6 +107,21 @@ export default function Home({ data }) {
             height="638"
           />
         </div>
+        <a
+          href="https://github.com/EddieHubCommunity/LinkFree/discussions"
+          legacybehavior
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
+            <IconContext.Provider
+              value={{ color: "white", style: { verticalAlign: "middle" } }}
+            >
+              <Icon name="help" />
+            </IconContext.Provider>
+            <p className="text-sm font-medium">Help</p>
+          </div>
+        </a>
       </main>
     </>
   );
