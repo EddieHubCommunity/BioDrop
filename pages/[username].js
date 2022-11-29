@@ -13,11 +13,13 @@ import UserEvents from "../components/user/UserEvents";
 
 export async function getServerSideProps(context) {
   let data = {};
+  let users = [];
+
   try {
-    const res = await fetch(
+    const resUser = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
     );
-    data = await res.json();
+    data = await resUser.json();
   } catch (e) {
     console.log("ERROR user not found ", e);
   }
@@ -31,12 +33,21 @@ export async function getServerSideProps(context) {
     };
   }
 
+  try {
+    const resUsers = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
+    );
+    users = (await resUsers.json()).map((user) => user.username);
+  } catch (e) {
+    console.log("ERROR user list", e);
+  }
+
   return {
-    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { users, data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ data, BASE_URL }) {
+export default function User({ users, data, BASE_URL }) {
   const [tabs, setTabs] = useState([
     { name: "My Links", href: "#", current: true },
     { name: "Milestones", href: "#", current: false },
@@ -75,7 +86,7 @@ export default function User({ data, BASE_URL }) {
 
         <div className="my-8"></div>
         {tabs.find((tab) => tab.name === "Testimonials").current && (
-          <UserTestimonials data={data} />
+          <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
         )}
 
         <div className="my-8"></div>

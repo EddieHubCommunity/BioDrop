@@ -1,13 +1,29 @@
 import Alert from "../Alert";
 
-export default function UserTestimonials({ data }) {
+export default function UserTestimonials({ users, data, BASE_URL }) {
+  const testimonials = data.testimonials.map((testimonial) => {
+    const user = users.find((u) => u === testimonial.username);
+
+    if (user) {
+      return {
+        ...testimonial,
+        url: `${BASE_URL}/${testimonial.username}`,
+      };
+    }
+
+    return {
+      ...testimonial,
+      url: `https://github.com/${testimonial.username}`,
+    };
+  });
+
   return (
     <>
       {!data.testimonials && (
         <Alert type="info" message="No testimonials found" />
       )}
       {data.testimonials &&
-        data.testimonials.map((testimonial, key) => (
+        testimonials.map((testimonial, key) => (
           <div
             className="flex text-sm text-gray-500 border-2 my-4 px-4 rounded-xl shadow-xl"
             key={key}
@@ -21,11 +37,7 @@ export default function UserTestimonials({ data }) {
             </div>
             <div className="flex-1 p-6">
               <h3 className="font-medium text-gray-900">{testimonial.title}</h3>
-              <a
-                href={`https://github.com/${testimonial.username}`}
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={testimonial.url} target="_blank" rel="noreferrer">
                 {testimonial.username}
               </a>
 
