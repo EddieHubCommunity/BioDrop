@@ -21,9 +21,10 @@
       "icon": "twitter"
     },
     {
-      "name": "Follow my Mastodon"
-      "URL": "https://fosstodon.org/@linuxgamer
+      "name": "Follow my Mastodon",
+      "URL": "https://fosstodon.org/@linuxgamer",
       "icon": "mastodon"
+     },
     {
       "name": "Follow my Twitch",
       "url": "https://twitch.tv/The_LinuxGamer",
