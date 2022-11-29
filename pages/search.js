@@ -68,11 +68,11 @@ export default function Search({ users }) {
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col px-6 align-center">
+      <div className="flex flex-col px-5 align-center">
         <h1 className="text-4xl mb-4  font-bold">Search</h1>
         <input
           placeholder="Search users"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-5 py-2 mb-4"
           name="keyword"
           onChange={(e) => filterData(e.target.value)}
         />

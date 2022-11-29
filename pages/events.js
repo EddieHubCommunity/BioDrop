@@ -26,7 +26,7 @@ export default function Events({ events }) {
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col px-6 align-center">
+      <div className="flex flex-col px-5 align-center">
         {!events.length && <Alert type="info" message="No events found" />}
         <ul>
           {events.map((event) => (
