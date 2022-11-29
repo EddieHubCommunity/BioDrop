@@ -18,31 +18,22 @@ test.fixme("Search works correctly", async ({ page }) => {
   // 3. type in search and check that user with the name exist and check a name doesn't exist from step 2
 });
 
-test.fixme(
-  "Search page has no results when no search term used",
-  async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Check no results are displayed
-  }
-);
+test.fixme("Search page has no results when no search term used", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Check no results are displayed
+});
 
-test.fixme(
-  "Search page shows no results after typing 2 characters",
-  async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Type 2 characters
-    // 3. Check no results are displayed
-  }
-);
+test.fixme("Search page shows no results after typing 2 characters", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Type 2 characters
+  // 3. Check no results are displayed
+});
 
-test.fixme(
-  "Search page shows results after typing 3 characters",
-  async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Type 3 characters
-    // 3. Check if the results show up if the it get matched.
-  }
-);
+test.fixme("Search page shows results after typing 3 characters", async ({ page }) => {
+  // 1. Navigate to search page
+  // 2. Type 3 characters
+  // 3. Check if the results show up if the it get matched.
+});
 
 test.fixme("After search click profile", async ({ page }) => {
   // 1. perform search
@@ -50,11 +41,8 @@ test.fixme("After search click profile", async ({ page }) => {
   // 3. check profile is displayed
 });
 
-test.fixme(
-  "find the profile after providing concise name",
-  async ({ page }) => {
-    // 1. click on search profile
-    // 2. type the whole name
-    // 3. Display the profile if the name is correct
-  }
-);
+test.fixme("find the profile after providing concise name", async ({ page }) => {
+  // 1. click on search profile
+  // 2. type the whole name
+  // 3. Display the profile if the name is correct
+});
