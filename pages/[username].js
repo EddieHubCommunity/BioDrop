@@ -48,9 +48,11 @@ export default function User({ data }) {
     <>
       <Head>
         <title>{data.name}</title>
-        <meta name="description" content={data.bio} />
         <link rel="icon" href="/favicon.ico" />
 
+
+        {/* Meta tag for normal previews */}
+        <meta name="og:description" content={data.bio} />
         <meta property="og:title" content={data.name} />
         <meta property="og:type" content="image/png" />
         <meta
@@ -58,8 +60,29 @@ export default function User({ data }) {
           content={`https://linkfree.eddiehub.io/${data.username}`}
         />
         <meta property="og:image" content={data.avatar} />
-      </Head>
 
+        {/* meta tags from twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={`https://linkfree.eddiehub.io/${data.username}`} />
+        <meta name="twitter:title" content={`${data.name} | LinkFree`} />
+        <meta
+          name="twitter:description"
+          content={data.bio}
+        />
+        <meta
+          name="twitter:image"
+          itemProp="image"
+          content={data.avatar}
+        />
+
+        {/*  Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`https://linkfree.eddiehub.io/${data.username}`} />
+        <meta property="og:title" content={`${data.name} | LinkFree`} />
+        <meta property="og:description" content={data.bio} />
+        <meta property="og:image" content={data.avatar} />
+
+      </Head>
       <div className="mx-auto container px-6 mt-6">
         <div className="flex justify-center gap-x-6">
           <div className="inline-flex relative w-fit">
