@@ -2,6 +2,7 @@
   "name": "LinuxGamer (aka CJ)",
   "type": "personal",
   "bio": "Open Source Enthusiast! Tech, Gaming, Art YouTuber and Streamer.",
+  "displayStatsPublic": true,
   "avatar": "https://github.com/LinuxGamer.png",
   "links": [
     {
@@ -18,6 +19,11 @@
       "name": "Follow my Twitter",
       "url": "https://twitter.com/the_linuxgamer",
       "icon": "twitter"
+    },
+    {
+      "name": "Follow my Mastodon",
+      "URL": "https://fosstodon.org/@linuxgamer",
+      "icon": "mastodon"
     },
     {
       "name": "Follow my Twitch",
