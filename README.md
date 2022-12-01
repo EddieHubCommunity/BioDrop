@@ -1,4 +1,4 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree?style=for-the-badge)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
 
 
 > **Warning** (2)
@@ -17,7 +17,7 @@
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
 
-## Example using Gitpod, ephemeral dev environment in the cloud (free)
+## Example using Gitpod, an ephemeral dev environment in the cloud (free)
 
 ![Gitpod GIF with progress bar](https://user-images.githubusercontent.com/46727048/146048451-ed4ff31a-c178-4713-a9e0-95118be742dc.gif)
 
@@ -47,14 +47,14 @@ You can use Gitpod in the cloud or you can set this up locally with the followin
 See what components are available
 
 1. `npm run storybook`
-1. navigte to http://localhost:6006
+1. navigate to http://localhost:6006
 
 ### Contributing to Storybook
 
-1. Create story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
-1. Import the component into the story file, see existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/nextjs/stories/components/user/UserLink.stories.js)
+1. Create a story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
+1. Import the component into the story file, see the existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/main/stories/components/user/UserLink.stories.js)
 1. Set the default arguments by looking at the requirements from the component itself
-1. Run `npm run storybook` to see the added components and interact with them in the browser and visit http://localhost:6006
+1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser 
 
 Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
@@ -148,7 +148,7 @@ To include your `avatar`, you have to replace `<yourusername>` with your **GitHu
 
 For example: <http://github.com/eddiejaoude.png>
 
-Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
+Note: After your PR gets merged, the project still needs to be deployed for your profile to be displayed.
 
 ### Available Icons:
 

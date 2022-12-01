@@ -2,23 +2,25 @@ name: Build
 on:
   push:
     paths:
-      - public/**
-      - src/**
+      - pages/**
       - test/**
   pull_request:
     paths:
-      - public/**
-      - src/**
+      - pages/**
       - test/**
+
+env:
+  NODE_ENV: dev
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: "16"
+          cache: "npm"
       - name: install dependencies
         run: npm ci
       - name: run linter
@@ -35,10 +37,11 @@ jobs:
         ports:
           - 27017:27017
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: "16"
+          cache: "npm"
       - name: install dependencies
         run: npm ci
       - name: Install Playwright's dependencies

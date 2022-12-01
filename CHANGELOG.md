@@ -1,50 +1,45 @@
-## [1.7.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.2...v1.7.3) (2022-11-12)
-
-
-### Bug Fixes
-
-* horizontal scroll ([#2219](https://github.com/EddieHubCommunity/LinkFree/issues/2219)) ([e7f682d](https://github.com/EddieHubCommunity/LinkFree/commit/e7f682dc4d702db71ed45327e5e098700b9f6610))
-
-
-
-## [1.7.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.1...v1.7.2) (2022-11-12)
-
-
-### Bug Fixes
-
-* invalid data file location ([88baea2](https://github.com/EddieHubCommunity/LinkFree/commit/88baea2149c5aef1af97bc37b771860a21303e9c))
-
-
-
-## [1.7.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.7.0...v1.7.1) (2022-11-12)
-
-
-### Bug Fixes
-
-* profile tags wrapping ([#2212](https://github.com/EddieHubCommunity/LinkFree/issues/2212)) ([3b36b60](https://github.com/EddieHubCommunity/LinkFree/commit/3b36b6085a1cf7c15c311d07cf51d2eb89b0bbff))
-
-
-
-# [1.7.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.9...v1.7.0) (2022-11-11)
-
-
-### Bug Fixes
-
-* eddiejaoude profile data ([c6e8e46](https://github.com/EddieHubCommunity/LinkFree/commit/c6e8e465c9fa6ae62ea1a406733904f86c2d68e0))
+# [1.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.10.0...v1.11.0) (2022-11-27)
 
 
 ### Features
 
-* refactor alerts ([c447adc](https://github.com/EddieHubCommunity/LinkFree/commit/c447adc99183f19fcb137ba638759ed7aad06a1a))
+* help button ([#2283](https://github.com/EddieHubCommunity/LinkFree/issues/2283)) ([7c46382](https://github.com/EddieHubCommunity/LinkFree/commit/7c4638276bc8e5e9bc776e97887dc2df6aae2fbb))
 
 
 
-## [1.6.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.6.8...v1.6.9) (2022-11-11)
+# [1.10.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.3...v1.10.0) (2022-11-25)
+
+
+### Features
+
+* add the Mastodon icon ([#2272](https://github.com/EddieHubCommunity/LinkFree/issues/2272)) ([5f75c08](https://github.com/EddieHubCommunity/LinkFree/commit/5f75c08db8dd37d362438275d01e9831ccbe5090))
+
+
+
+## [1.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.2...v1.9.3) (2022-11-25)
 
 
 ### Bug Fixes
 
-* react class name ([0b57f85](https://github.com/EddieHubCommunity/LinkFree/commit/0b57f85b932f295d1a40f725ae5363cf1064360b))
+* load json file directly ([#2269](https://github.com/EddieHubCommunity/LinkFree/issues/2269)) ([95d001f](https://github.com/EddieHubCommunity/LinkFree/commit/95d001fb1c89300f7885ab07025f037c4afee361))
+
+
+
+## [1.9.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.1...v1.9.2) (2022-11-24)
+
+
+### Bug Fixes
+
+* GitHub link open in new tab ([#2190](https://github.com/EddieHubCommunity/LinkFree/issues/2190)) ([8fe7036](https://github.com/EddieHubCommunity/LinkFree/commit/8fe7036b4ddc193bddef7d0ff9b534dcaa7621a4)), closes [#2159](https://github.com/EddieHubCommunity/LinkFree/issues/2159)
+
+
+
+## [1.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.0...v1.9.1) (2022-11-23)
+
+
+### Bug Fixes
+
+* playwright setup on Gitpod ([#2261](https://github.com/EddieHubCommunity/LinkFree/issues/2261)) ([17cb5cf](https://github.com/EddieHubCommunity/LinkFree/commit/17cb5cf0b60a019d32e902dc2fd2635ecb5da519))
 
 
 

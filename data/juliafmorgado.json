@@ -1,0 +1,103 @@
+{
+  "name": "Julia Furst Morgado",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "DevOps DevRel | Open Source Enthusiast | AWS Community Builder",
+  "avatar": "https://github.com/juliafmorgado.png",
+  "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/juliafmorgado" },
+    { "platform": "github", "url": "https://github.com/juliafmorgado" },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/juliafmorgado"
+    },
+    { "platform": "youtube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/juliafmorgado/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Main website",
+      "url": "https://juliafmorgado.com/",
+      "icon": "globe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/juliafmorgado",
+      "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/juliafmorgado",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Check out my YouTube channel",
+      "url": "https://youtube.com/juliafmorgado",
+      "icon": "youtube"
+    },
+    {
+      "name": "KubeCof — your Kubernetes Coffee Chat",
+      "url": "https://linktr.ee/kubecof",
+      "icon": "link"
+    },
+    {
+      "name": "Subscribe to my newsletter",
+      "url": "https://www.getrevue.co/profile/juliafmorgado",
+      "icon": "envelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Google Women Techmakers Ambassador",
+      "date": "November 2022",
+      "icon": "book",
+      "color": "green",
+      "description": "Became a Google Women Techmakers Ambassador",
+      "url": "https://developers.google.com/womentechmakers"
+    },
+    {
+      "title": "All Day DevOps Conference",
+      "date": "November 2022",
+      "icon": "dollar",
+      "color": "yellow",
+      "description": "Delivered my first Keynote at ADDO",
+      "url": "https://www.alldaydevops.com/addo-speakers/julia-furst-morgado"
+    },
+    {
+      "title": "AWS Community Builder",
+      "date": "August 2022",
+      "icon": "book",
+      "color": "orange",
+      "description": "Became an AWS Community Builder",
+      "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Girl Code Ambassador",
+      "date": "June 2022",
+      "icon": "book",
+      "color": "pink",
+      "description": "Became a Girl Code ambassador",
+      "url": "https://www.girl-code.co.uk/girlcodeambassadors/julia-furst-morgado"
+    },
+    {
+      "title": "NYC Code & Coffee",
+      "date": "January 2022",
+      "icon": "open-source",
+      "color": "blue",
+      "description": "Started organizing NYC Code & Coffee — biweekly meetup in NYC",
+      "url": "https://www.newyorkcodeandcoffee.com/"
+    },
+    {
+      "title": "Freelancing",
+      "date": "September 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://juliafmorgado.com/"
+    }
+  ]
+}
