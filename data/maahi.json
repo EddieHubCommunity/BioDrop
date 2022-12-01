@@ -1,0 +1,17 @@
+{
+    "name": "Mohit Singh",
+    "type": "personal",
+    "avatar": "https://github.com/singhmohit14072002.png",
+    "links": [
+    {
+        "name": "GitHub",
+        "url": "https://www.linkedin.com/in/mohit-singh-7964b1203/",
+        "icon": "github"
+    },
+    {
+        "name": "Twitter",
+        "url": "https://twitter.com/MohitDevops",
+        "icon": "twitter"
+    }
+    ]
+    }
