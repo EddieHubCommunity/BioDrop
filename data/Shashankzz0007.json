@@ -4,7 +4,7 @@
     "type": "personal",
     "bio": "Open Source Enthusiast! | DevOps | MERN Developer | Self-paced Full-Stack Developer",
     "avatar": "https://github.com/Shashankzz0007.png",
-    "tags": ["Open Source", "javascript", "typescript", "Reactjs", "DevOps"],
+    "tags": ["OpenSource", "javascript", "typescript", "Reactjs", "DevOps"],
     "socials": [
       { "platform": "twitter", "url": "https://twitter.com/shashankz007" },
       { "platform": "github", "url": "https://github.com/Shashankzz0007" },
@@ -33,7 +33,7 @@
         "icon": "showcase"
       },
       {
-        "name": "Follow me on Discord",
+        "name": "connect with me on Discord",
         "url": "https://discord.com/channels/@me",
         "icon": "discord"
       },
