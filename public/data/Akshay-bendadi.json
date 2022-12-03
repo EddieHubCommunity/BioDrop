@@ -23,6 +23,11 @@
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@Akshay-bendadi",
       "icon": "hashnode"
+    },
+    {
+      "name": "Cheak out my states on Leetcode",
+      "url": "https://leetcode.com/Akshay_bendadi/",
+      "icon": "leetcode"
     }
   ]
 }
