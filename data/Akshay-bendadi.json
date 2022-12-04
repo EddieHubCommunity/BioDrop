@@ -1,7 +1,7 @@
 {
   "name": "Akshay Bendadi",
   "type": "personal",
-  "bio": "DevOps and Open Source Enthusiast! | Learning in public",
+  "bio": "DevOps and Open-Source Enthusiast| Learning in Public", 
   "avatar": "https://github.com/Akshay-bendadi.png",
   "links": [
     {
@@ -14,15 +14,20 @@
       "url": "https://twitter.com/AkshayBendadi",
       "icon": "twitter"
     },
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akshay-bendadi/",
+      "icon": "linkedin"
+    },
     {
-      "name": "Cheak out my blogs on Hashnode",
+      "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@Akshay-bendadi",
       "icon": "hashnode"
     },
     {
-      "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/akshay-bendadi/",
-      "icon": "linkedin"
+      "name": "Cheak out my states on Leetcode",
+      "url": "https://leetcode.com/Akshay_bendadi/",
+      "icon": "leetcode"
     }
   ]
 }
