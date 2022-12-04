@@ -4,8 +4,16 @@
   "displayStatsPublic": true,
   "bio": "Making Apps using React.js | Working on web and software engineering 👩‍💻 | Maintaining my organisation, App-Choreography 📛",
   "avatar": "https://github.com/CodingSpecies.png",
-   "tags": ["javascript","react.js","HTML","CSS","typescript","python", "graphic design"],
-   "socials": [
+  "tags": [
+    "javascript",
+    "react.js",
+    "HTML",
+    "CSS",
+    "typescript",
+    "python",
+    "graphic design"
+  ],
+  "socials": [
     { "platform": "github", "url": "https://github.com/CodingSpecies" }
   ],
   "links": [
