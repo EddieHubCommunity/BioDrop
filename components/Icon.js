@@ -34,6 +34,7 @@ import {
   FaYoutube,
   FaMastodon,
   FaRegQuestionCircle,
+  FaReddit,
 } from "react-icons/fa";
 import {
   SiCodeforces,
@@ -48,7 +49,7 @@ import { RiSendPlaneFill } from "react-icons/ri";
 import { FiShare2 } from "react-icons/fi";
 import { DiOpensource } from "react-icons/di";
 
-function Icon({ name }) {
+const Icon = ({ name }) => {
   switch (name) {
     case "android":
       return <FaAndroid />;
@@ -139,6 +140,8 @@ function Icon({ name }) {
       return <FaMastodon />;
     case "help":
       return <FaRegQuestionCircle />;
+    case "reddit":
+      return <FaReddit />;
     default:
       return <FaGlobe />;
   }
