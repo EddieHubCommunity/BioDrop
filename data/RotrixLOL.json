@@ -7,7 +7,7 @@
   "tags": ["javascript", "golang", "express", "fiber", "react", "redux", "sass", "tailwindcss"],
   "socials": [
     { "platform": "github", "url": "https://github.com/RotrixLOL" },
-    { "platform": "twitter", "url": "https://twitter.com/RotrixxLOL" },
+    { "platform": "twitter", "url": "https://twitter.com/RotrixxLOL" }
   ],
   "links": [
     {
@@ -24,7 +24,7 @@
       "name": "Take a look at my website!",
       "url": "https://rotrixx.eu",
       "icon": "link"
-    },
+    }
   ],
   "milestones": [
     {
