@@ -4,6 +4,11 @@
   "type": "personal",
   "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
   "avatar": "https://github.com/Panquesito7.png",
+  "tags": ["cpp", "lua", "open-source", "shell", "bash", "community"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/David_Leal_7" },
+    { "platform": "github", "url": "https://github.com/Panquesito7" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -16,9 +21,14 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Support my work by donating",
+      "name": "Support my work and get special perks",
       "url": "https://github.com/sponsors/Panquesito7",
       "icon": "FaDollarSign"
+    },
+    {
+      "name": "Join PanqKart's Discord server",
+      "url": "https://discord.gg/HEweZuF3Vv",
+      "icon": "discord"
     },
     {
       "name": "Check out NSMBW speedruns on my YouTube channel",
