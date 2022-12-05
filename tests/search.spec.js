@@ -6,10 +6,10 @@ test("Search has title", async ({ page }) => {
   await expect(page).toHaveTitle(/Search/);
 });
 
-test.fixme("Navigate to the Search page", async ({ page }) => {
-  // 1. nagivate to homepage
-  // 2. click on search on the navbar
-  // 3. check for the text "search" on the page
+test("Navigate to the Search page", async ({ page }) => {
+  await page.goto("/");
+  await page.locator("a:visible", { hasText: "Search" }).click();
+  await expect(page.locator("h1")).toHaveText("Search");
 });
 
 test.fixme("Search works correctly", async ({ page }) => {

@@ -1,0 +1,30 @@
+{
+  "name": "Akshay Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source Contribution🎓 || Cloud Computing || Learning & sharing in Community || DevOps Enthusiast",
+  "avatar": "https://github.com/Akshaykumar05.png",
+  "tags": ["Open Source", "Cloud computing", "Devrel", "DevOps"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/akshayktwt" },
+    { "platform": "github", "url": "https://github.com/akshaykumar05" }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/akshaykumar05",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshayktwt",
+      "icon": "twitter"
+    },
+
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akshayktwt/",
+      "icon": "linkedin"
+    }
+  ]
+}
