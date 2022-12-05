@@ -12,10 +12,32 @@ export default async function handler(req, res) {
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
 
-  const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   if (!data) {
     return res.status(404).json({});
+  }
+
+  if (data.testimonials) {
+    const filePathTestimonials = path.join(process.cwd(), "data", username);
+    const testimonials = data.testimonials.flatMap((username) => {
+      try {
+        const testimonial = {
+          ...JSON.parse(
+            fs.readFileSync(
+              path.join(filePathTestimonials, `${username}.json`),
+              "utf8"
+            )
+          ),
+          username,
+        };
+
+        return testimonial;
+      } catch (e) {
+        return [];
+      }
+    });
+    data = { ...data, testimonials };
   }
 
   const getProfile = await Profile.findOne({ username });

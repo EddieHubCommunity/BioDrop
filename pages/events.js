@@ -1,13 +1,12 @@
 import Head from "next/head";
 
-import EventPreview from "../components/events/EventPreview";
-import app from "../config/app.json";
+import Event from "../components/Event";
 import Alert from "../components/Alert";
 
 export async function getServerSideProps(context) {
   let events = [];
   try {
-    const res = await fetch(`${app.baseUrl}/api/events`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
@@ -31,7 +30,7 @@ export default function Events({ events }) {
         <ul>
           {events.map((event) => (
             <li key={event.name}>
-              <EventPreview event={event} username={event.author} />
+              <Event event={event} username={event.author} />
             </li>
           ))}
         </ul>

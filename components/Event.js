@@ -1,6 +1,6 @@
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
-export default function EventPreview({ event, username }) {
+export default function Event({ event, username }) {
   return (
     <div className="flex flex-col rounded grow md:rounded-full md:flex-row border-2 border-gray-200 hover:border-orange-600 p-4 my-2 px-6">
       <div className="grow">

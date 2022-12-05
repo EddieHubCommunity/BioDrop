@@ -1,15 +1,18 @@
 import { useState } from "react";
-import app from "../../config/app.json";
 import colors from "../../config/icons.json";
 import Icon from "../Icon";
 
-export default function UserLink({ link, username, displayStatsPublic }) {
+export default function UserLink({
+  BASE_URL,
+  link,
+  username,
+  displayStatsPublic,
+}) {
   const [clicks, setClicks] = useState(link.clicks || 0);
-
   const clickLink = async () => {
     try {
       const res = await fetch(
-        `${app.baseUrl}/api/statistics/${username}/${encodeURIComponent(
+        `${BASE_URL}/api/statistics/${username}/${encodeURIComponent(
           link.url
         )}`,
         { method: "PUT" }
