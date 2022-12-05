@@ -5,7 +5,6 @@ import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
 import { MdHelpOutline } from "react-icons/md";
 
-import app from "../config/app.json";
 import singleUser from "../config/user.json";
 
 export async function getServerSideProps(context) {
@@ -20,7 +19,9 @@ export async function getServerSideProps(context) {
 
   let data = {};
   try {
-    const res = await fetch(`${app.baseUrl}/api/statistics/totals`);
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
+    );
     data = await res.json();
   } catch (e) {
     console.log("ERROR stats not found ", e);
