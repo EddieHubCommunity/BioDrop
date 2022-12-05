@@ -1,21 +1,23 @@
 import Alert from "../Alert";
 
 export default function UserTestimonials({ users, data, BASE_URL }) {
-  const testimonials = data.testimonials.map((testimonial) => {
-    const user = users.find((u) => u === testimonial.username);
+  const testimonials =
+    data.testimonials &&
+    data.testimonials.map((testimonial) => {
+      const user = users.find((u) => u === testimonial.username);
 
-    if (user) {
+      if (user) {
+        return {
+          ...testimonial,
+          url: `${BASE_URL}/${testimonial.username}`,
+        };
+      }
+
       return {
         ...testimonial,
-        url: `${BASE_URL}/${testimonial.username}`,
+        url: `https://github.com/${testimonial.username}`,
       };
-    }
-
-    return {
-      ...testimonial,
-      url: `https://github.com/${testimonial.username}`,
-    };
-  });
+    });
 
   return (
     <>

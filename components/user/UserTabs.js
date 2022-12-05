@@ -1,6 +1,7 @@
 export default function UserTabs({ tabs, setTabs }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
-  const changeTab = (value) =>
+  const changeTab = (e, value) => {
+    e.preventDefault();
     setTabs(
       tabs.map((tab) =>
         tab.name === value
@@ -8,6 +9,7 @@ export default function UserTabs({ tabs, setTabs }) {
           : { ...tab, current: false }
       )
     );
+  };
   return (
     <div>
       <div className="sm:hidden">
@@ -33,7 +35,7 @@ export default function UserTabs({ tabs, setTabs }) {
               <a
                 key={tab.name}
                 href={tab.href}
-                onClick={() => changeTab(tab.name)}
+                onClick={(e) => changeTab(e, tab.name)}
                 className={classNames(
                   tab.current
                     ? "border-indigo-500 text-indigo-600"
