@@ -1,3 +1,12 @@
+# [1.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.11.0...v1.12.0) (2022-12-05)
+
+
+### Features
+
+* label for tests and storybook ([8284675](https://github.com/EddieHubCommunity/LinkFree/commit/8284675b10f5d42c0d12935ca0dc60656518a624))
+
+
+
 # [1.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.10.0...v1.11.0) (2022-11-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * GitHub link open in new tab ([#2190](https://github.com/EddieHubCommunity/LinkFree/issues/2190)) ([8fe7036](https://github.com/EddieHubCommunity/LinkFree/commit/8fe7036b4ddc193bddef7d0ff9b534dcaa7621a4)), closes [#2159](https://github.com/EddieHubCommunity/LinkFree/issues/2159)
-
-
-
-## [1.9.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.0...v1.9.1) (2022-11-23)
-
-
-### Bug Fixes
-
-* playwright setup on Gitpod ([#2261](https://github.com/EddieHubCommunity/LinkFree/issues/2261)) ([17cb5cf](https://github.com/EddieHubCommunity/LinkFree/commit/17cb5cf0b60a019d32e902dc2fd2635ecb5da519))
 
 
 
