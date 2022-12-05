@@ -71,7 +71,8 @@
     "socials",
     "eddiehub",
     "reactjs",
-    "react"
+    "react",
+    "nextjs"
   ],
   "lint-staged": {
     "data/*.json": "prettier --write"
