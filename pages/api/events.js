@@ -3,7 +3,9 @@ import path from "path";
 
 export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(directoryPath);
+  const files = fs
+    .readdirSync(directoryPath)
+    .filter((item) => item.includes("json"));
 
   const users = files.map((file) => ({
     ...JSON.parse(fs.readFileSync(path.join(directoryPath, file), "utf8")),
