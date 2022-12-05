@@ -4,7 +4,16 @@
   "type": "personal",
   "bio": "Full-Stack webdev and Open Source lover!",
   "avatar": "https://github.com/RotrixLOL.png",
-  "tags": ["javascript", "golang", "express", "fiber", "react", "redux", "sass", "tailwindcss"],
+  "tags": [
+    "javascript",
+    "golang",
+    "express",
+    "fiber",
+    "react",
+    "redux",
+    "sass",
+    "tailwindcss"
+  ],
   "socials": [
     { "platform": "github", "url": "https://github.com/RotrixLOL" },
     { "platform": "twitter", "url": "https://twitter.com/RotrixxLOL" }
