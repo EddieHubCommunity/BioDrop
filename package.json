@@ -15,7 +15,6 @@
     "js-abbreviation-number": "^1.4.0",
     "mongoose": "^6.6.5",
     "next": "^13",
-    "prettier": "^2.7.1",
     "qrcode.react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -61,9 +60,10 @@
     "eslint-plugin-storybook": "^0.6.4",
     "husky": "^7.0.2",
     "linkfree-cli": "^1.4.0",
-    "lint-staged": "^12.1.4",
+    "lint-staged": "^12.5.0",
     "ncp": "^2.0.0",
-    "postcss": "^8.4.17"
+    "postcss": "^8.4.17",
+    "prettier": "^2.8.0"
   },
   "description": "LinkFree connect audiences to all of your content with just one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {
@@ -76,8 +76,12 @@
     "socials",
     "eddiehub",
     "reactjs",
-    "react"
+    "react",
+    "nextjs"
   ],
+  "lint-staged": {
+    "data/*.json": "prettier --write"
+  },
   "author": "EddieHubCommunity",
   "license": "MIT",
   "bugs": {
