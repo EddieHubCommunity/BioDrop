@@ -11,7 +11,7 @@
     { "platform": "linkedin", "url": "https://www.linkedin.com/in/rossanodan" },
     { "platform": "reddit", "url": "https://www.reddit.com/user/rossanodanuk" },
     { "platform": "twitter", "url": "https://twitter.com/rossanodan" },
-    { "platform": "globe", "url": "https://www.rossanodan.me" }
+    { "platform": "globe", "url": "https://rossanodan.dev/" }
   ],
   "links": [
     {
@@ -41,7 +41,7 @@
     },
     {
       "name": "Visit my website",
-      "url": "https://www.rossanodan.me",
+      "url": "https://rossanodan.dev/",
       "icon": "globe"
     }
   ]
