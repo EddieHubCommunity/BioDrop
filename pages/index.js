@@ -85,7 +85,13 @@ export default function Home({ data }) {
 
         <p className="text-1xl text-center">
           See{" "}
-          <Link href="/eddiejaoude" legacyBehavior>
+          <Link
+            href={{
+              pathname: "/blog/[username]",
+              query: { username: "eddiejaoude" },
+            }}
+            legacyBehavior
+          >
             <span className="text-cyan-600 cursor-pointer">
               Eddie Jaoude&apos;s
             </span>
