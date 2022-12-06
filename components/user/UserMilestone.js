@@ -12,7 +12,7 @@ export default function UserMilestone({ milestone }) {
       }}
     >
       <li
-        className="py-4 border-l-2 mb-2 pl-2 hover:border-l-4 pr-2"
+        className="py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md"
         style={{
           borderColor: milestone.color,
         }}
