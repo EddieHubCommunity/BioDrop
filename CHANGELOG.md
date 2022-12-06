@@ -1,3 +1,12 @@
+## [1.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.0...v1.13.1) (2022-12-06)
+
+
+### Bug Fixes
+
+* prettier pre-commit hook ([#2325](https://github.com/EddieHubCommunity/LinkFree/issues/2325)) ([2a6e5ec](https://github.com/EddieHubCommunity/LinkFree/commit/2a6e5ec6a5dc73b6ea26492bec4f45148dfedd79))
+
+
+
 # [1.13.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.12.0...v1.13.0) (2022-12-05)
 
 
@@ -56,15 +65,6 @@
 ### Features
 
 * add the Mastodon icon ([#2272](https://github.com/EddieHubCommunity/LinkFree/issues/2272)) ([5f75c08](https://github.com/EddieHubCommunity/LinkFree/commit/5f75c08db8dd37d362438275d01e9831ccbe5090))
-
-
-
-## [1.9.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.2...v1.9.3) (2022-11-25)
-
-
-### Bug Fixes
-
-* load json file directly ([#2269](https://github.com/EddieHubCommunity/LinkFree/issues/2269)) ([95d001f](https://github.com/EddieHubCommunity/LinkFree/commit/95d001fb1c89300f7885ab07025f037c4afee361))
 
 
 
