@@ -123,5 +123,30 @@
       "description": "Won top teacher award from GitHub.",
       "url": "https://github.com/eddiejaoude"
     }
+  ],
+  "events": [
+    {
+      "isVirtual": true,
+      "isInPerson": true,
+      "color": "green",
+      "name": "Google DevFest London",
+      "description": "This year, your DevFest will feature leading experts on Google technologies in areas like Web, Firebase, Flutter, Machine Learning, Artificial Intelligence, Cloud and so much more including a mini-careers fair!",
+      "date": {
+        "start": "2022-12-10T09:00:00.000+00:00",
+        "end": "2022-12-10T17:30:00.000+00:00"
+      },
+      "url": "https://www.eventbrite.com/e/gdg-london-devfest-2022-tickets-471199328877"
+    },
+    {
+      "isVirtual": true,
+      "color": "blue",
+      "name": "Eddie Jaoude GitHub Sponsors call",
+      "description": "Regular catch up call with my GitHub Sponsors. We can chat about whatever you like. Let's GEEK out!",
+      "date": {
+        "start": "2022-12-11T14:00:00.000+00:00",
+        "end": "2022-12-11T15:00:00.000+00:00"
+      },
+      "url": "https://github.com/sponsors/eddiejaoude"
+    }
   ]
 }
