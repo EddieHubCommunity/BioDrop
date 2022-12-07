@@ -7,7 +7,7 @@ on:
 
 jobs:
   add_testimonial:
-   if: contains(github.event.issue.labels.*.name, 'testimonial')
+   if: contains(github.event.issue.labels, 'testimonial')
    name: 'Add Testimonial file'
    runs-on: ubuntu-latest
    steps:
