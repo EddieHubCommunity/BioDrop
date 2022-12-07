@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Event from "../components/Event";
 import Alert from "../components/Alert";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -25,7 +26,7 @@ export default function Events({ events }) {
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col px-6 align-center">
+      <Page>
         {!events.length && <Alert type="info" message="No events found" />}
         <ul>
           {events.map((event) => (
@@ -34,7 +35,7 @@ export default function Events({ events }) {
             </li>
           ))}
         </ul>
-      </div>
+      </Page>
     </>
   );
 }
