@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Required Label
     steps:
-      - name: Required Label
-        uses: muhaddimu/required-labels@master
+      - uses: renanmav/match-label-action@v3
         with:
-          labels: "testimonial"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          allowed: >
+            testimonial
+      - name: Deploy blog
+        if: steps.label.outputs.match == 'testimonial'
+        run: echo "Adding testimonial"
