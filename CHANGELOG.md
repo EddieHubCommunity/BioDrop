@@ -1,3 +1,12 @@
+# [1.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.1...v1.14.0) (2022-12-07)
+
+
+### Features
+
+* milestones refactor ([#2331](https://github.com/EddieHubCommunity/LinkFree/issues/2331)) ([2a60f68](https://github.com/EddieHubCommunity/LinkFree/commit/2a60f68940e13848923c63eec280ec6afaba6d97))
+
+
+
 ## [1.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.0...v1.13.1) (2022-12-06)
 
 
@@ -56,15 +65,6 @@
 ### Features
 
 * help button ([#2283](https://github.com/EddieHubCommunity/LinkFree/issues/2283)) ([7c46382](https://github.com/EddieHubCommunity/LinkFree/commit/7c4638276bc8e5e9bc776e97887dc2df6aae2fbb))
-
-
-
-# [1.10.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.9.3...v1.10.0) (2022-11-25)
-
-
-### Features
-
-* add the Mastodon icon ([#2272](https://github.com/EddieHubCommunity/LinkFree/issues/2272)) ([5f75c08](https://github.com/EddieHubCommunity/LinkFree/commit/5f75c08db8dd37d362438275d01e9831ccbe5090))
 
 
 
