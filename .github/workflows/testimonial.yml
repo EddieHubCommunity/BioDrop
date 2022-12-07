@@ -1,0 +1,15 @@
+name: Testimonial creation
+  
+on:
+  issues:
+    types: [opened]
+    tags:
+      - 'testimonial'
+      
+jobs:
+  add_testimonial:
+   name: 'Add Testimonial file'
+   runs-on: ubuntu-latest
+   steps:
+      - name: Check out code
+        uses: actions/checkout@v3
