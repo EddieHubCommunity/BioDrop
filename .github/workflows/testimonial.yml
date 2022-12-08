@@ -28,7 +28,7 @@ jobs:
           FILE_DATA: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
   commit-changes:
      runs-on: ubuntu-latest
-     name: Create Testimonial File
+     name: Commit Testimonial File
      needs: [create-file]
      steps:
        - uses: actions/checkout@v3
@@ -40,7 +40,7 @@ jobs:
        - name: Commit
          run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git add -all
+          git add --all
           git commit -m "New testimonial"
           git push origin master
 
