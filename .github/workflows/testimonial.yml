@@ -22,8 +22,7 @@ jobs:
     needs: [check-label]
     steps:
       - uses: actions/checkout@master
-      - name: create json
-        id: create json
+      - name: create_json
         uses: jsdaniell/create-json@v1.2.2
         with:
           name: "user.json"
