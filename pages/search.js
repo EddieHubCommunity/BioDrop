@@ -69,7 +69,7 @@ export default function Search({ users }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 className="text-4xl mb-4  font-bold">Search</h1>
+        <h1 className="text-4xl mb-4 font-bold">Search</h1>
         <input
           placeholder="Search users"
           className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"

@@ -21,8 +21,8 @@ export default async function handler(req, res) {
       (previousValue, currentValue) => previousValue.concat(currentValue),
       []
     )
-    .filter((event) => new Date(event.date) > new Date())
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .filter((event) => new Date(event.date.end) > new Date())
+    .sort((a, b) => new Date(a.date.start) - new Date(b.date.start));
 
   res.status(200).json(events);
 }

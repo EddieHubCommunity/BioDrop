@@ -27,12 +27,11 @@ export default function Events({ events }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
+        <h1 className="text-4xl mb-4 font-bold">Community events</h1>
         {!events.length && <Alert type="info" message="No events found" />}
-        <ul>
-          {events.map((event) => (
-            <li key={event.name}>
-              <Event event={event} username={event.author} />
-            </li>
+        <ul role="list" className="divide-y divide-gray-200">
+          {events.map((event, index) => (
+            <Event event={event} username={event.author} key={index} />
           ))}
         </ul>
       </Page>
