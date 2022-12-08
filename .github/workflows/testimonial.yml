@@ -26,17 +26,14 @@ jobs:
         id: issue-parser
         with:
           body: ${{ github.event.issue.body }}
-      - run: echo ${{ steps.issue-parser.outputs.json }}
-      - name: Show parsed data JSON
-        run: |
-          echo "${{ github.event.issue.body }}"
+      - run: echo ${{ steps.issue-parser.outputs.json.title }}
       - name: Create folder
         run: |
           mkdir -p data/test
       - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "data/test/test-user.json"
-          FILE_DATA: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.json.title }}", "description": "testimonial description", "date": "2022-26-11"}'
       - name: Setup Git config
         run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
