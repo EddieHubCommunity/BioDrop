@@ -1,3 +1,12 @@
+# [1.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.15.0...v1.16.0) (2022-12-08)
+
+
+### Features
+
+* show count in tabs + hide tabs ([#2334](https://github.com/EddieHubCommunity/LinkFree/issues/2334)) ([#2339](https://github.com/EddieHubCommunity/LinkFree/issues/2339)) ([2c8a330](https://github.com/EddieHubCommunity/LinkFree/commit/2c8a3306532417abf2b3545852c9e5a6143e5bdd))
+
+
+
 # [1.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.14.0...v1.15.0) (2022-12-08)
 
 
@@ -56,15 +65,6 @@
 ### Reverts
 
 * Revert "chore: removed docker file to test deployment" ([3dbd7e5](https://github.com/EddieHubCommunity/LinkFree/commit/3dbd7e51288161f881d235169232de43c3de20ec))
-
-
-
-# [1.12.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.11.0...v1.12.0) (2022-12-05)
-
-
-### Features
-
-* label for tests and storybook ([8284675](https://github.com/EddieHubCommunity/LinkFree/commit/8284675b10f5d42c0d12935ca0dc60656518a624))
 
 
 
