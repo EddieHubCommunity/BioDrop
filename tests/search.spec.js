@@ -26,20 +26,27 @@ test("Search works correctly", async ({ page }) => {
   await expect(page.locator("li")).toHaveCount(3);
 });
 
-test.fixme(
+test(
   "Search page has no results when no search term used",
   async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Check no results are displayed
+    await page.goto("/search");
+
+    const input = page.locator("[name='keyword']");
+    await input.type("");
+
+    await expect(page.locator("li")).toHaveCount(0);
   }
 );
 
-test.fixme(
+test(
   "Search page shows no results after typing 2 characters",
   async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Type 2 characters
-    // 3. Check no results are displayed
+    await page.goto("/search");
+
+    const input = page.locator("[name='keyword']");
+    await input.type("ed");
+
+    await expect(page.locator("li")).toHaveCount(0);
   }
 );
 

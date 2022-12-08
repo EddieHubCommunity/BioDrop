@@ -51,7 +51,9 @@ export default function Search({ users }) {
         let tag = user.tags?.find((tag) =>
           tag.toLowerCase().includes(value.toLowerCase())
         );
-        if (tag) return true;
+        if (tag) {
+           return true;
+        }
       });
 
       if (!results.length) {
