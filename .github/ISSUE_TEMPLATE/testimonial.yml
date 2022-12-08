@@ -10,6 +10,13 @@ body:
       description: An antitlement of your testimonial
     validations:
       required: true
+  - type: input
+    id: name
+    attributes:
+      label: Title
+      description: An antitlement of your testimonial
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:

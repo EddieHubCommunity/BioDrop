@@ -28,17 +28,18 @@ jobs:
           template-path: .github/ISSUE_TEMPLATE/testimonial.yml
           body: ${{ github.event.issue.body }}
       - run: cat ${HOME}/issue-parser-result.json
-      - run: echo $TITLE
-        env:
-          TITLE: ${{ steps.issue-parser.outputs.issueparser_title }}
-          DESCRIPTION: ${{ steps.issue-parser.outputs.issueparser_DESCRIPTION }}
+      - name: Current Date
+        id: date
+        uses: Kaven-Universe/github-action-current-date-time@v1
+        with:
+          format: "YYYY-MM-DD"
       - name: Create folder
         run: |
           mkdir -p data/test
       - uses: finnp/create-file-action@master
         env:
-          FILE_NAME: "data/test/test-user.json"
-          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_DESCRIPTION }}", "date": "2022-26-11"}'
+          FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/test-user.json"
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
       - name: Setup Git config
         run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
