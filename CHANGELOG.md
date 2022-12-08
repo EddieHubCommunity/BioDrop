@@ -1,3 +1,12 @@
+# [1.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.14.0...v1.15.0) (2022-12-08)
+
+
+### Features
+
+* refactored events list ([#2335](https://github.com/EddieHubCommunity/LinkFree/issues/2335)) ([6febe0e](https://github.com/EddieHubCommunity/LinkFree/commit/6febe0ef3d641c6cc53c4cbc8beabf7ef8cbd53c))
+
+
+
 # [1.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.1...v1.14.0) (2022-12-07)
 
 
@@ -56,15 +65,6 @@
 ### Features
 
 * label for tests and storybook ([8284675](https://github.com/EddieHubCommunity/LinkFree/commit/8284675b10f5d42c0d12935ca0dc60656518a624))
-
-
-
-# [1.11.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.10.0...v1.11.0) (2022-11-27)
-
-
-### Features
-
-* help button ([#2283](https://github.com/EddieHubCommunity/LinkFree/issues/2283)) ([7c46382](https://github.com/EddieHubCommunity/LinkFree/commit/7c4638276bc8e5e9bc776e97887dc2df6aae2fbb))
 
 
 
