@@ -44,9 +44,14 @@ export default function Search({ users }) {
 
     if (value.length >= 3) {
       setThreeOrMore(true);
-      results = users.filter((user) =>
-        user.name.toLowerCase().includes(value.toLowerCase())
-      );
+      results = users.filter((user) => {
+        if (user.name.toLowerCase().includes(value.toLowerCase())) return true;
+
+        let tag = user.tags?.find((tag) =>
+          tag.toLowerCase().includes(value.toLowerCase())
+        );
+        if (tag) return true;
+      });
 
       if (!results.length) {
         setNotFound(value);
