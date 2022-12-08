@@ -13,8 +13,8 @@ body:
   - type: input
     id: name
     attributes:
-      label: Title
-      description: An antitlement of your testimonial
+      label: Name
+      description: The github username 
     validations:
       required: true
   - type: textarea
