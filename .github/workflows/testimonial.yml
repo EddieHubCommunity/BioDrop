@@ -35,7 +35,7 @@ jobs:
           format: "YYYY-MM-DD"
       - name: Create folder
         run: |
-          mkdir -p data/test
+          mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}
       - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/test-user.json"
