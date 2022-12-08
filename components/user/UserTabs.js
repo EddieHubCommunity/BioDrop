@@ -4,7 +4,7 @@ export default function UserTabs({ tabs, setTabs }) {
     e.preventDefault();
     setTabs(
       tabs.map((tab) =>
-        tab.name === value
+        tab.name === e.target?.value || tab.name === value
           ? { ...tab, current: true }
           : { ...tab, current: false }
       )
@@ -19,7 +19,7 @@ export default function UserTabs({ tabs, setTabs }) {
         <select
           id="tabs"
           name="tabs"
-          onChange={(e) => changeTab(e.target.value)}
+          onChange={changeTab}
           className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.current).name}
         >
