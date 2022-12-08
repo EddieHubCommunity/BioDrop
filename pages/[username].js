@@ -80,7 +80,6 @@ export default function User({ users, data, BASE_URL }) {
       return [];
     }
   });
-  console.log(displayTabs);
   const [tabs, setTabs] = useState(displayTabs);
 
   return (
