@@ -44,7 +44,7 @@ export default function UserTabs({ tabs, setTabs }) {
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
-                {tab.name}
+                {tab.name} ({tab.total})
               </a>
             ))}
           </nav>
