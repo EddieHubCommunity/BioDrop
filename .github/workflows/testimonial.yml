@@ -22,12 +22,10 @@ jobs:
     needs: [check-label]
     steps:
       - uses: actions/checkout@master
-      - name: create_json
-        uses: jsdaniell/create-json@v1.2.2
-        with:
-          name: "user.json"
-          json: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
-          dir: "/data/user"
+      - uses: "finnp/create-file-action@master"
+        env:
+          FILE_NAME: "/data/user/user.json"
+          FILE_DATA: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
   commit-changes:
      runs-on: ubuntu-latest
      needs: [create-file]
