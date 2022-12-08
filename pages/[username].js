@@ -109,19 +109,16 @@ export default function User({ users, data, BASE_URL }) {
             <UserLinks data={data} BASE_URL={BASE_URL} />
           )}
 
-        <div className="my-8"></div>
         {tabs.find((tab) => tab.name === "Milestones") &&
           tabs.find((tab) => tab.name === "Milestones").current && (
             <UserMilestones data={data} />
           )}
 
-        <div className="my-8"></div>
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
             <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
           )}
 
-        <div className="my-8"></div>
         {tabs.find((tab) => tab.name === "Events") &&
           tabs.find((tab) => tab.name === "Events").current && (
             <UserEvents data={data} />
