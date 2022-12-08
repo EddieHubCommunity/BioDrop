@@ -21,10 +21,11 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
-  const { username } = router.query;
+  const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
+  const [inputValue, setInputValue] = useState(search ? search : "");
 
   let results = [];
 
@@ -65,6 +66,10 @@ export default function Search({ users }) {
     }
   };
 
+  useEffect(() => {
+    filterData(inputValue);
+  }, [inputValue]);
+
   return (
     <>
       <Head>
@@ -78,7 +83,8 @@ export default function Search({ users }) {
           placeholder="Search users"
           className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
-          onChange={(e) => filterData(e.target.value)}
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
         />
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
         {!threeOrMore && (
