@@ -46,7 +46,9 @@ export default function Search({ users }) {
     if (value.length >= 3) {
       setThreeOrMore(true);
       results = users.filter((user) => {
-        if (user.name.toLowerCase().includes(value.toLowerCase())) return true;
+        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+           return true;
+        }
 
         let tag = user.tags?.find((tag) =>
           tag.toLowerCase().includes(value.toLowerCase())
