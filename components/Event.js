@@ -4,6 +4,7 @@ import {
   MdOutlinePeople,
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import FallbackImage from "./FallbackImage";
 
@@ -44,7 +45,7 @@ export default function Event({ event, username }) {
               >
                 {event.name}
               </Link>
-              <p className="text-sm text-gray-500">{event.description}</p>
+              <p className="text-sm text-gray-500"><ReactMarkdown>{event.description}</ReactMarkdown></p>
               <p className="text-sm text-gray-800 flex flex-row">
                 {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
                   new Date(event.date.start)

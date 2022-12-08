@@ -1,5 +1,4 @@
 import Icon from "../Icon";
-import reactMarkdown from "react-markdown";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function UserMilestone({ milestone }) {
