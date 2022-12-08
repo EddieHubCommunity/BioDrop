@@ -20,12 +20,8 @@ export default function UserMilestone({ milestone }) {
           <Icon name={milestone.icon} />
           <div className="flex-1 space-y-1">
             <div className="flex items-center justify-between">
-              <h3 className="text-lg font-medium">
-                <ReactMarkdown>{milestone.title}</ReactMarkdown>
-              </h3>
-              <p className="text-sm text-gray-500">
-                <ReactMarkdown>{milestone.date}</ReactMarkdown>
-                </p>
+              <h3 className="text-lg font-medium">{milestone.title}</h3>
+              <p className="text-sm text-gray-500">{milestone.date}</p>
             </div>
             <p className="text-sm text-gray-500">
               <ReactMarkdown>{milestone.description}</ReactMarkdown>
