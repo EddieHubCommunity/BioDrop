@@ -22,7 +22,7 @@ jobs:
     needs: [check-label]
     steps:
       - uses: actions/checkout@v3
-      - uses: GrantBirki/issue-template-parser@vX.X.X
+      - uses: GrantBirki/issue-template-parser@main
         id: issue-parser
         with:
           body: ${{ github.event.issue.body }}
