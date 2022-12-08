@@ -18,16 +18,17 @@ jobs:
         run: echo "Issue has the testimonial label"
   create-file:
     runs-on: ubuntu-latest
-    name: Create testimonial File
+    name: Create Testimonial File
     needs: [check-label]
     steps:
       - uses: actions/checkout@v3
       - uses: finnp/create-file-action@master
         env:
-          FILE_NAME: "data/user/user.json"
+          FILE_NAME: "data/eddiejaoude/user.json"
           FILE_DATA: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
   commit-changes:
      runs-on: ubuntu-latest
+     name: Create Testimonial File
      needs: [create-file]
      steps:
        - uses: actions/checkout@v3
