@@ -22,6 +22,12 @@ jobs:
     needs: [check-label]
     steps:
       - uses: actions/checkout@v3
+      - uses: peter-murray/issue-forms-body-parser@v2.0.0
+        with:
+          issue_id: ${{ github.event.issue.number }}
+      - name: Show parsed data JSON
+        run: |
+          echo "${{ steps.parse.outputs.payload }}"
       - name: Create folder
         run: |
           mkdir -p data/test
