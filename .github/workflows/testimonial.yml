@@ -28,6 +28,7 @@ jobs:
       - name: Show parsed data JSON
         run: |
           echo "${{ steps.parse.outputs.payload }}"
+          echo "${{ github.event.issue.body }}"
       - name: Create folder
         run: |
           mkdir -p data/test
