@@ -1,1 +1,1 @@
-{"title": "", "description": "testimonial description", "date": "2022-26-11"}
+{"title": $TITLE, "description": "testimonial $DESCRIPTION", "date": "2022-26-11"}
