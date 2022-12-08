@@ -21,8 +21,8 @@ jobs:
     name: Create testimonial File
     needs: [check-label]
     steps:
-      - uses: actions/checkout@master
-      - uses: "finnp/create-file-action@master"
+      - uses: actions/checkout@v3
+      - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "/data/user/user.json"
           FILE_DATA: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
