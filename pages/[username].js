@@ -10,6 +10,7 @@ import UserLinks from "../components/user/UserLinks";
 import UserMilestones from "../components/user/UserMilestones";
 import UserTestimonials from "../components/user/UserTestimonials";
 import UserEvents from "../components/user/UserEvents";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = {};
@@ -98,7 +99,7 @@ export default function User({ users, data, BASE_URL }) {
         <meta property="og:image" content={data.avatar} />
       </Head>
 
-      <div className="mx-auto container px-6 mt-6">
+      <Page>
         <UserProfile data={data} BASE_URL={BASE_URL} />
 
         <UserTabs tabs={tabs} setTabs={setTabs} />
@@ -125,7 +126,7 @@ export default function User({ users, data, BASE_URL }) {
           tabs.find((tab) => tab.name === "Events").current && (
             <UserEvents data={data} />
           )}
-      </div>
+      </Page>
     </>
   );
 }
