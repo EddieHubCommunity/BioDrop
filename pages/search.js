@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let users = [];
@@ -67,7 +68,7 @@ export default function Search({ users }) {
         <meta name="description" content="Search LinkFree user directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col p-5 align-center">
+      <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
         <input
           placeholder="Search users"
@@ -89,7 +90,7 @@ export default function Search({ users }) {
             </li>
           ))}
         </ul>
-      </div>
+      </Page>
     </>
   );
 }
