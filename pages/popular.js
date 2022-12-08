@@ -30,7 +30,7 @@ export default function Popular({ data }) {
       </Head>
 
       <div className="p-5">
-        <h1 className="text-4xl mb-4  font-bold">Popular Profiles</h1>
+        <h1 className="text-4xl mb-4 font-bold">Popular Profiles</h1>
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {data.map((profile) => (
             <li key={profile.username}>
