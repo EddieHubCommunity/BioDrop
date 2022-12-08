@@ -1,39 +1,73 @@
-import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import Link from "next/link";
+import {
+  MdOutlineOnlinePrediction,
+  MdOutlinePeople,
+  MdOutlineArrowRightAlt,
+} from "react-icons/md";
+
+import FallbackImage from "./FallbackImage";
 
 export default function Event({ event, username }) {
+  const fallbackImageSize = 60;
+  const dateTimeStyle = {
+    dateStyle: "full",
+    timeStyle: "long",
+  };
+
   return (
-    <div className="flex flex-col rounded grow md:rounded-full md:flex-row border-2 border-gray-200 hover:border-orange-600 p-4 my-2 px-6">
-      <div className="grow">
-        <p className="text-3xl font-bold flex gap-3">
-          {event.isVirtual && <MdOutlineOnlinePrediction />}
-          {event.isInPerson && <MdOutlinePeople />}
-          <span>{event.name}</span>
-        </p>
-        <p className="text-1xl">{event.description}</p>
+    <li
+      className="py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md"
+      style={{
+        borderColor: event.color,
+      }}
+    >
+      <div className="flex space-x-3">
+        <div className="flex flex-col">
+          <span>
+            {event.isVirtual && (
+              <MdOutlineOnlinePrediction title="Virual event" />
+            )}
+          </span>
+          <span>
+            {event.isInPerson && <MdOutlinePeople title="In pesron event" />}
+          </span>
+        </div>
+        <div className="flex-1 space-y-1">
+          <div className="flex items-center justify-between">
+            <div>
+              <Link
+                href={event.url}
+                key={event.url}
+                target="_blank"
+                rel="noreferrer"
+                className="text-lg font-medium"
+              >
+                {event.name}
+              </Link>
+              <p className="text-sm text-gray-500">{event.description}</p>
+              <p className="text-sm text-gray-800 flex flex-row">
+                {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+                  new Date(event.date.start)
+                )}
+                <MdOutlineArrowRightAlt className="self-center" />
+                {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+                  new Date(event.date.end)
+                )}
+              </p>
+            </div>
+            <Link href={`/${username}`} className="group block flex-shrink-0">
+              <FallbackImage
+                src={`https://github.com/${username}.png`}
+                alt={`Profile picture of ${username}`}
+                width={fallbackImageSize}
+                height={fallbackImageSize}
+                fallback={username}
+                className="rounded-full"
+              />
+            </Link>
+          </div>
+        </div>
       </div>
-      <div className="min-w-fit">
-        <p className="text-1xl font-bold">
-          {new Intl.DateTimeFormat("en-GB", {
-            year: "numeric",
-            month: "long",
-            day: "2-digit",
-          }).format(new Date(event.date))}
-        </p>
-        Join{" "}
-        <a
-          href={username}
-          className="underline decoration-orange-600 hover:text-orange-600 font-semibold"
-        >
-          {username}
-        </a>{" "}
-        at this{" "}
-        <a
-          href={event.link}
-          className="underline decoration-orange-600 hover:text-orange-600 font-semibold"
-        >
-          event
-        </a>
-      </div>
-    </div>
+    </li>
   );
 }
