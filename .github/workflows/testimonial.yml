@@ -38,7 +38,7 @@ jobs:
           mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}
       - uses: finnp/create-file-action@master
         env:
-          FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{github.event.issue.sender.login}}.json"
+          FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{context.payload.sender.login}}.json"
           FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
       - name: Setup Git config
         run: |
