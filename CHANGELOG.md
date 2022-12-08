@@ -1,3 +1,12 @@
+# [1.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.16.1...v1.17.0) (2022-12-08)
+
+
+### Features
+
+* page component wrapper ([#2336](https://github.com/EddieHubCommunity/LinkFree/issues/2336)) ([1139267](https://github.com/EddieHubCommunity/LinkFree/commit/113926767c8efb00bb495a5ca6d1ca3d97896df9))
+
+
+
 ## [1.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.16.0...v1.16.1) (2022-12-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * milestones refactor ([#2331](https://github.com/EddieHubCommunity/LinkFree/issues/2331)) ([2a60f68](https://github.com/EddieHubCommunity/LinkFree/commit/2a60f68940e13848923c63eec280ec6afaba6d97))
-
-
-
-## [1.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.0...v1.13.1) (2022-12-06)
-
-
-### Bug Fixes
-
-* prettier pre-commit hook ([#2325](https://github.com/EddieHubCommunity/LinkFree/issues/2325)) ([2a6e5ec](https://github.com/EddieHubCommunity/LinkFree/commit/2a6e5ec6a5dc73b6ea26492bec4f45148dfedd79))
 
 
 
