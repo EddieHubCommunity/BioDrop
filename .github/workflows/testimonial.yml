@@ -37,7 +37,7 @@ jobs:
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
           git add --all
           git commit -m "New testimonial"
-          git push origin master
+          git push origin main
       
 
      
