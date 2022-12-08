@@ -5,14 +5,49 @@ on:
     types: [opened]
 
 jobs:
-  add_testimonial:
+  check-label:
     runs-on: ubuntu-latest
-    name: Required Label
+    name: Check Testimonial Label
     steps:
       - uses: renanmav/match-label-action@v3
         with:
           allowed: >
             testimonial
-      - name: Deploy blog
+      - name: Validate label
         if: steps.label.outputs.match == 'testimonial'
-        run: echo "Adding testimonial"
+        run: echo "Issue has the testimonial label"
+  create-file:
+    runs-on: ubuntu-latest
+    name: Create testimonial File
+    needs: [check-label]
+    steps:
+      - uses: actions/checkout@master
+      - name: create json
+        id: create json
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          name: "user.json"
+          json: '{"title": "Testimonial title", "description": "testimonial description", "date": "2022-26-11"}'
+          dir: "/data/user"
+  commit-changes:
+     runs-on: ubuntu-latest
+     needs: [create-file]
+     steps:
+       - name: Setup Git config
+         run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+       - name: Commit
+         run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git add -all
+          git commit -m "New testimonial"
+          git push origin master
+
+      
+
+     
+          
+
+
