@@ -1,4 +1,4 @@
-name: Testimonial creation
+name: Testimonial
   
 on:
   issues:
@@ -39,7 +39,7 @@ jobs:
       - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json"
-          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", \n "description": "${{ steps.issue-parser.outputs.issueparser_description}}",\n "date": "${{ steps.date.outputs.time }}"}'
       - name: Setup Git config
         run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
