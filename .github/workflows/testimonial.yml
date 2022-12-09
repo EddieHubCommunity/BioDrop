@@ -13,9 +13,6 @@ jobs:
         with:
           allowed: >
             testimonial
-      - name: Validate label
-        if: steps.label.outputs.match == 'testimonial'
-        run: echo "Issue has the testimonial label"
       - uses: actions/checkout@v3
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
