@@ -1,3 +1,12 @@
+## [1.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.0...v1.19.1) (2022-12-09)
+
+
+### Bug Fixes
+
+* footer alignment ([d372214](https://github.com/EddieHubCommunity/LinkFree/commit/d372214f29f22700cc6e445b1421f733778ac9a9))
+
+
+
 # [1.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.1...v1.19.0) (2022-12-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * page component wrapper ([#2336](https://github.com/EddieHubCommunity/LinkFree/issues/2336)) ([1139267](https://github.com/EddieHubCommunity/LinkFree/commit/113926767c8efb00bb495a5ca6d1ca3d97896df9))
-
-
-
-## [1.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.16.0...v1.16.1) (2022-12-08)
-
-
-### Bug Fixes
-
-* user tabs click on small devices ([#2337](https://github.com/EddieHubCommunity/LinkFree/issues/2337)) ([0a5231e](https://github.com/EddieHubCommunity/LinkFree/commit/0a5231ee0d5ae414b55025a9110f087e8296bc59))
 
 
 
