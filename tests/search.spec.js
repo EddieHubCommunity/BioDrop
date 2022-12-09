@@ -50,12 +50,18 @@ test(
   }
 );
 
-test.fixme(
+test(
   "Search page shows results after typing 3 characters",
   async ({ page }) => {
-    // 1. Navigate to search page
-    // 2. Type 3 characters
-    // 3. Check if the results show up if the it get matched.
+  await page.goto('/search');
+  const input = page.locator("[name='keyword']");
+  await input.type('aka');
+  await page.waitForSelector('li', {
+    visible: true,
+  });
+  const searchResults = await page.$('li');
+  const searchResultText = await searchResults.textContent();
+  expect(searchResultText).toContain('aka');
   }
 );
 
