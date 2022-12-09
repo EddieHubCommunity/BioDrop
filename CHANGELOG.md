@@ -1,3 +1,12 @@
+# [1.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.17.0...v1.18.0) (2022-12-09)
+
+
+### Features
+
+* markdown to milestones and events ([#2343](https://github.com/EddieHubCommunity/LinkFree/issues/2343)) ([3c97a4f](https://github.com/EddieHubCommunity/LinkFree/commit/3c97a4fa80069db34246028fa74002ceb864e14c))
+
+
+
 # [1.17.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.16.1...v1.17.0) (2022-12-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * refactored events list ([#2335](https://github.com/EddieHubCommunity/LinkFree/issues/2335)) ([6febe0e](https://github.com/EddieHubCommunity/LinkFree/commit/6febe0ef3d641c6cc53c4cbc8beabf7ef8cbd53c))
-
-
-
-# [1.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.1...v1.14.0) (2022-12-07)
-
-
-### Features
-
-* milestones refactor ([#2331](https://github.com/EddieHubCommunity/LinkFree/issues/2331)) ([2a60f68](https://github.com/EddieHubCommunity/LinkFree/commit/2a60f68940e13848923c63eec280ec6afaba6d97))
 
 
 
