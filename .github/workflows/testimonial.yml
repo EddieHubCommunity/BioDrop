@@ -8,7 +8,6 @@ jobs:
   create-testimonial:
     runs-on: ubuntu-latest
     name: Create Testimonial
-    needs: [check-label]
     steps:
       - uses: renanmav/match-label-action@v3
         with:
