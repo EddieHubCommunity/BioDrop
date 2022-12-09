@@ -4,7 +4,7 @@ import { ImPowerCord } from "react-icons/im";
 
 export default function Footer() {
   return (
-    <footer className="max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between">
+    <footer className="py-12 px-4 sm:px-6 md:flex md:justify-between">
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree"
         className="text-gray-400 hover:text-gray-500 flex justify-center space-x-6 md:order-2 gap-2"
