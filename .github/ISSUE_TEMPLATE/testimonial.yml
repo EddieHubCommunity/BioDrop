@@ -1,5 +1,5 @@
 name: 🏆 Testimonial 
-title: Testimonial by {{ sender.login }}
+title: Testimonial by ${{ sender.login }}
 description: Make a testimonial for the LinkFree user
 labels: ["testimonial"]
 body: 
