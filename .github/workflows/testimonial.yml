@@ -51,7 +51,11 @@ jobs:
           git add --all
           git commit -m "New testimonial"
           git push origin main
-      
+      - name: Autoclose issues
+        uses: roots/issue-closer@v1.1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-close-message: "@${issue.user.login} this issue was automatically close, because testimonial was added"
 
      
           
