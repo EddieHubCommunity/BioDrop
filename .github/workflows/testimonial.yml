@@ -49,7 +49,7 @@ jobs:
           comment: |
             Testimonial is created
       - name: Trigger Deployment
-        uses: ./.github/actions/deploy
+        uses: ./.github/actions/deploy.yml
 
      
           
