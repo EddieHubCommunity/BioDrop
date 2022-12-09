@@ -23,15 +23,11 @@ export default function Event({ event, username }) {
       }}
     >
       <div className="flex space-x-3">
-        <div className="flex flex-col">
-          <span>
-            {event.isVirtual && (
-              <MdOutlineOnlinePrediction title="Virual event" />
-            )}
-          </span>
-          <span>
-            {event.isInPerson && <MdOutlinePeople title="In pesron event" />}
-          </span>
+        <div className="flex flex-col place-content-center">
+          {event.isVirtual && (
+            <MdOutlineOnlinePrediction title="Virual event" />
+          )}
+          {event.isInPerson && <MdOutlinePeople title="In pesron event" />}
         </div>
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
@@ -45,7 +41,9 @@ export default function Event({ event, username }) {
               >
                 {event.name}
               </Link>
-              <p className="text-sm text-gray-500"><ReactMarkdown>{event.description}</ReactMarkdown></p>
+              <ReactMarkdown className="text-sm text-gray-500">
+                {event.description}
+              </ReactMarkdown>
               <p className="text-sm text-gray-800 flex flex-row">
                 {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
                   new Date(event.date.start)
