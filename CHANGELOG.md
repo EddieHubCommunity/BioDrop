@@ -1,3 +1,12 @@
+# [1.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.1...v1.19.0) (2022-12-09)
+
+
+### Features
+
+* footer improvements ([#2346](https://github.com/EddieHubCommunity/LinkFree/issues/2346)) ([9a430cd](https://github.com/EddieHubCommunity/LinkFree/commit/9a430cda5474138804c6bf4a71d6c05a35e8e78a))
+
+
+
 ## [1.18.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.0...v1.18.1) (2022-12-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user tabs click on small devices ([#2337](https://github.com/EddieHubCommunity/LinkFree/issues/2337)) ([0a5231e](https://github.com/EddieHubCommunity/LinkFree/commit/0a5231ee0d5ae414b55025a9110f087e8296bc59))
-
-
-
-# [1.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.15.0...v1.16.0) (2022-12-08)
-
-
-### Features
-
-* show count in tabs + hide tabs ([#2334](https://github.com/EddieHubCommunity/LinkFree/issues/2334)) ([#2339](https://github.com/EddieHubCommunity/LinkFree/issues/2339)) ([2c8a330](https://github.com/EddieHubCommunity/LinkFree/commit/2c8a3306532417abf2b3545852c9e5a6143e5bdd))
 
 
 
