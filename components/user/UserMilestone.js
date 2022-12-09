@@ -1,4 +1,5 @@
 import getIcon from "../Icon";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function UserMilestone({ milestone }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -23,7 +24,9 @@ export default function UserMilestone({ milestone }) {
               <h3 className="text-lg font-medium">{milestone.title}</h3>
               <p className="text-sm text-gray-500">{milestone.date}</p>
             </div>
-            <p className="text-sm text-gray-500">{milestone.description}</p>
+            <p className="text-sm text-gray-500">
+              <ReactMarkdown>{milestone.description}</ReactMarkdown>
+            </p>
           </div>
         </div>
       </li>
