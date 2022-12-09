@@ -5,9 +5,10 @@ on:
     types: [opened]
 
 jobs:
-  check-label:
+  create-testimonial:
     runs-on: ubuntu-latest
-    name: Check Testimonial Label
+    name: Create Testimonial
+    needs: [check-label]
     steps:
       - uses: renanmav/match-label-action@v3
         with:
@@ -16,11 +17,6 @@ jobs:
       - name: Validate label
         if: steps.label.outputs.match == 'testimonial'
         run: echo "Issue has the testimonial label"
-  create-file:
-    runs-on: ubuntu-latest
-    name: Create Testimonial File and Commit it
-    needs: [check-label]
-    steps:
       - uses: actions/checkout@v3
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
@@ -39,7 +35,7 @@ jobs:
       - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json"
-          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", \n "description": "${{ steps.issue-parser.outputs.issueparser_description}}",\n "date": "${{ steps.date.outputs.time }}"}'
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
       - name: Setup Git config
         run: |
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
