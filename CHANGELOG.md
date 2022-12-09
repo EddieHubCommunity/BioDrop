@@ -1,3 +1,12 @@
+## [1.18.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.0...v1.18.1) (2022-12-09)
+
+
+### Bug Fixes
+
+* markdown for events ([#2345](https://github.com/EddieHubCommunity/LinkFree/issues/2345)) ([ed4bd68](https://github.com/EddieHubCommunity/LinkFree/commit/ed4bd680f64f4120745497717715b85eff6a950a))
+
+
+
 # [1.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.17.0...v1.18.0) (2022-12-09)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * show count in tabs + hide tabs ([#2334](https://github.com/EddieHubCommunity/LinkFree/issues/2334)) ([#2339](https://github.com/EddieHubCommunity/LinkFree/issues/2339)) ([2c8a330](https://github.com/EddieHubCommunity/LinkFree/commit/2c8a3306532417abf2b3545852c9e5a6143e5bdd))
-
-
-
-# [1.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.14.0...v1.15.0) (2022-12-08)
-
-
-### Features
-
-* refactored events list ([#2335](https://github.com/EddieHubCommunity/LinkFree/issues/2335)) ([6febe0e](https://github.com/EddieHubCommunity/LinkFree/commit/6febe0ef3d641c6cc53c4cbc8beabf7ef8cbd53c))
 
 
 
