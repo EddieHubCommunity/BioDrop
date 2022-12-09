@@ -1,26 +1,26 @@
-name: Testimonial
-title: Testimonial
-description: Make a testimonial for some user
+name: 🏆 Testimonial 
+title: Testimonial by {{ sender.login }}
+description: Make a testimonial for the LinkFree user
 labels: ["testimonial"]
 body: 
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: An antitlement of your testimonial
-    validations:
-      required: true
   - type: input
     id: name
     attributes:
       label: Name
-      description: The github username 
+      description: Enter the user name of the person this testimonial is for
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Please provide a title for the testimonial
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A more exteded description of testimonial
+      description: Please provide a brief description of the testimonial you are creating for this user
     validations:
       required: true
