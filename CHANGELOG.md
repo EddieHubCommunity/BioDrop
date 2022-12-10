@@ -1,3 +1,12 @@
+## [1.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.0...v1.21.1) (2022-12-10)
+
+
+### Bug Fixes
+
+* testimonial issue action ([09f0f04](https://github.com/EddieHubCommunity/LinkFree/commit/09f0f041108a32bc56d0f874d02725d785bb1ac2))
+
+
+
 # [1.21.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.2...v1.21.0) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * social icons increment stats ([#2357](https://github.com/EddieHubCommunity/LinkFree/issues/2357)) ([0f07fe9](https://github.com/EddieHubCommunity/LinkFree/commit/0f07fe9fd77537fad13cd7d2c1ae9fab8ea70b7e))
-
-
-
-## [1.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.0...v1.19.1) (2022-12-09)
-
-
-### Bug Fixes
-
-* footer alignment ([d372214](https://github.com/EddieHubCommunity/LinkFree/commit/d372214f29f22700cc6e445b1421f733778ac9a9))
 
 
 
