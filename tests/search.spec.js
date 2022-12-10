@@ -60,9 +60,9 @@ test.fixme(
 );
 
 test("After search click profile", async ({ page }) => {
-  await page.goto("/Search");
-  await page.locator('a:visible', { hasText: 'Search' }).click();
-  await expect(page.locator('h1')).toHaveText('Search');
+  await page.goto("/");
+  await page.locator("a:visible", { hasText: "Search" }).click();
+  await expect(page.locator("h1")).toHaveText("Search");
 });
 
 test.fixme(
