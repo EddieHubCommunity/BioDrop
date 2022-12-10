@@ -1,3 +1,12 @@
+## [1.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.0...v1.20.1) (2022-12-10)
+
+
+### Bug Fixes
+
+* set .nvmrc as text file instead of binary ([#2289](https://github.com/EddieHubCommunity/LinkFree/issues/2289)) ([ddb5d9c](https://github.com/EddieHubCommunity/LinkFree/commit/ddb5d9c85452cb86ec5007eed41c66d1588b1deb))
+
+
+
 # [1.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.1...v1.20.0) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * markdown for events ([#2345](https://github.com/EddieHubCommunity/LinkFree/issues/2345)) ([ed4bd68](https://github.com/EddieHubCommunity/LinkFree/commit/ed4bd680f64f4120745497717715b85eff6a950a))
-
-
-
-# [1.18.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.17.0...v1.18.0) (2022-12-09)
-
-
-### Features
-
-* markdown to milestones and events ([#2343](https://github.com/EddieHubCommunity/LinkFree/issues/2343)) ([3c97a4f](https://github.com/EddieHubCommunity/LinkFree/commit/3c97a4fa80069db34246028fa74002ceb864e14c))
 
 
 
