@@ -1,3 +1,12 @@
+# [1.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.1...v1.22.0) (2022-12-10)
+
+
+### Features
+
+* search users by tags ([#2341](https://github.com/EddieHubCommunity/LinkFree/issues/2341)) ([3c55875](https://github.com/EddieHubCommunity/LinkFree/commit/3c5587586aa2b1e40f5597fd1a26facc63544d81))
+
+
+
 ## [1.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.0...v1.21.1) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * set .nvmrc as text file instead of binary ([#2289](https://github.com/EddieHubCommunity/LinkFree/issues/2289)) ([ddb5d9c](https://github.com/EddieHubCommunity/LinkFree/commit/ddb5d9c85452cb86ec5007eed41c66d1588b1deb))
-
-
-
-# [1.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.1...v1.20.0) (2022-12-10)
-
-
-### Features
-
-* social icons increment stats ([#2357](https://github.com/EddieHubCommunity/LinkFree/issues/2357)) ([0f07fe9](https://github.com/EddieHubCommunity/LinkFree/commit/0f07fe9fd77537fad13cd7d2c1ae9fab8ea70b7e))
 
 
 
