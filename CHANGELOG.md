@@ -1,3 +1,12 @@
+## [1.20.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.1...v1.20.2) (2022-12-10)
+
+
+### Bug Fixes
+
+* navbar improvements ([#2308](https://github.com/EddieHubCommunity/LinkFree/issues/2308)) ([00490a9](https://github.com/EddieHubCommunity/LinkFree/commit/00490a90d391bfe10ffb296ee0463ec9791e11aa))
+
+
+
 ## [1.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.0...v1.20.1) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * footer improvements ([#2346](https://github.com/EddieHubCommunity/LinkFree/issues/2346)) ([9a430cd](https://github.com/EddieHubCommunity/LinkFree/commit/9a430cda5474138804c6bf4a71d6c05a35e8e78a))
-
-
-
-## [1.18.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.0...v1.18.1) (2022-12-09)
-
-
-### Bug Fixes
-
-* markdown for events ([#2345](https://github.com/EddieHubCommunity/LinkFree/issues/2345)) ([ed4bd68](https://github.com/EddieHubCommunity/LinkFree/commit/ed4bd680f64f4120745497717715b85eff6a950a))
 
 
 
