@@ -38,10 +38,9 @@ jobs:
           cache: "npm"
       - run: npm ci
       - name: prettier
-        run: npx prettier --write data/*.json
+        run: npx prettier --write data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-      - name: commit file
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
