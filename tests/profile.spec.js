@@ -63,3 +63,10 @@ test.fixme("Link navigates", async ({ page }) => {
   // 3. click the link
   // 4. get the current url and should match href
 });
+
+test.fixme("redirect to search when tag clicked", async ({ page }) => {
+  // 1. redirect to profile
+  // 2. get a link and href
+  // 3. click the link
+  // 4. get the current url and should match href
+});

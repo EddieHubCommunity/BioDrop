@@ -22,10 +22,13 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
-  const { username } = router.query;
+  const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
+  const [inputValue, setInputValue] = useState(
+    username ? username : search ? search : ""
+  );
 
   let results = [];
 
@@ -45,9 +48,18 @@ export default function Search({ users }) {
 
     if (value.length >= 3) {
       setThreeOrMore(true);
-      results = users.filter((user) =>
-        user.name.toLowerCase().includes(value.toLowerCase())
-      );
+      results = users.filter((user) => {
+        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+          return true;
+        }
+
+        let tag = user.tags?.find((tag) =>
+          tag.toLowerCase().includes(value.toLowerCase())
+        );
+        if (tag) {
+          return true;
+        }
+      });
 
       if (!results.length) {
         setNotFound(value);
@@ -60,6 +72,12 @@ export default function Search({ users }) {
       setFilteredUsers(results);
     }
   };
+
+  useEffect(() => {
+    if (inputValue) {
+      filterData(inputValue);
+    }
+  }, [inputValue]);
 
   return (
     <>
@@ -74,7 +92,8 @@ export default function Search({ users }) {
           placeholder="Search users"
           className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
-          onChange={(e) => filterData(e.target.value)}
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
         />
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
         {!threeOrMore && (
