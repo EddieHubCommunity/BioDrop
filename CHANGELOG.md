@@ -1,45 +1,45 @@
-## [1.16.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.16.0...v1.16.1) (2022-12-08)
+## [1.20.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.1...v1.20.2) (2022-12-10)
 
 
 ### Bug Fixes
 
-* user tabs click on small devices ([#2337](https://github.com/EddieHubCommunity/LinkFree/issues/2337)) ([0a5231e](https://github.com/EddieHubCommunity/LinkFree/commit/0a5231ee0d5ae414b55025a9110f087e8296bc59))
+* navbar improvements ([#2308](https://github.com/EddieHubCommunity/LinkFree/issues/2308)) ([00490a9](https://github.com/EddieHubCommunity/LinkFree/commit/00490a90d391bfe10ffb296ee0463ec9791e11aa))
 
 
 
-# [1.16.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.15.0...v1.16.0) (2022-12-08)
-
-
-### Features
-
-* show count in tabs + hide tabs ([#2334](https://github.com/EddieHubCommunity/LinkFree/issues/2334)) ([#2339](https://github.com/EddieHubCommunity/LinkFree/issues/2339)) ([2c8a330](https://github.com/EddieHubCommunity/LinkFree/commit/2c8a3306532417abf2b3545852c9e5a6143e5bdd))
-
-
-
-# [1.15.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.14.0...v1.15.0) (2022-12-08)
-
-
-### Features
-
-* refactored events list ([#2335](https://github.com/EddieHubCommunity/LinkFree/issues/2335)) ([6febe0e](https://github.com/EddieHubCommunity/LinkFree/commit/6febe0ef3d641c6cc53c4cbc8beabf7ef8cbd53c))
-
-
-
-# [1.14.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.1...v1.14.0) (2022-12-07)
-
-
-### Features
-
-* milestones refactor ([#2331](https://github.com/EddieHubCommunity/LinkFree/issues/2331)) ([2a60f68](https://github.com/EddieHubCommunity/LinkFree/commit/2a60f68940e13848923c63eec280ec6afaba6d97))
-
-
-
-## [1.13.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.13.0...v1.13.1) (2022-12-06)
+## [1.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.0...v1.20.1) (2022-12-10)
 
 
 ### Bug Fixes
 
-* prettier pre-commit hook ([#2325](https://github.com/EddieHubCommunity/LinkFree/issues/2325)) ([2a6e5ec](https://github.com/EddieHubCommunity/LinkFree/commit/2a6e5ec6a5dc73b6ea26492bec4f45148dfedd79))
+* set .nvmrc as text file instead of binary ([#2289](https://github.com/EddieHubCommunity/LinkFree/issues/2289)) ([ddb5d9c](https://github.com/EddieHubCommunity/LinkFree/commit/ddb5d9c85452cb86ec5007eed41c66d1588b1deb))
+
+
+
+# [1.20.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.1...v1.20.0) (2022-12-10)
+
+
+### Features
+
+* social icons increment stats ([#2357](https://github.com/EddieHubCommunity/LinkFree/issues/2357)) ([0f07fe9](https://github.com/EddieHubCommunity/LinkFree/commit/0f07fe9fd77537fad13cd7d2c1ae9fab8ea70b7e))
+
+
+
+## [1.19.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.19.0...v1.19.1) (2022-12-09)
+
+
+### Bug Fixes
+
+* footer alignment ([d372214](https://github.com/EddieHubCommunity/LinkFree/commit/d372214f29f22700cc6e445b1421f733778ac9a9))
+
+
+
+# [1.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.1...v1.19.0) (2022-12-09)
+
+
+### Features
+
+* footer improvements ([#2346](https://github.com/EddieHubCommunity/LinkFree/issues/2346)) ([9a430cd](https://github.com/EddieHubCommunity/LinkFree/commit/9a430cda5474138804c6bf4a71d6c05a35e8e78a))
 
 
 

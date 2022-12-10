@@ -1,0 +1,56 @@
+{
+  "name": "Satyam Singh(Klaus)",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source contributor, technology explorer, hackathon enthusiast",
+  "avatar": "https://github.com/KlausMikhaelson.png",
+  "tags": [
+    "javascript",
+    "typescript",
+    "svelte",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "docker",
+    "java"
+  ],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/__Klaus_31452" },
+    { "platform": "github", "url": "https://github.com/KlausMikhaelson" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KlausMikhaelson",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/__Klaus_31452",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started development",
+      "date": "*March 2022*",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started learning to **code** and got my hands into **development**"
+    }
+  ],
+  "events": [
+    {
+      "isVirtual": false,
+      "isInPerson": true,
+      "color": "green",
+      "name": "HackCon India",
+      "description": "First **HackCon** organized in India by MLH!",
+      "date": {
+        "start": "2022-12-10T09:00:00.000+00:00",
+        "end": "2022-12-10T17:30:00.000+00:00"
+      },
+      "url": "https://www.eventbrite.com/e/gdg-london-devfest-2022-tickets-471199328877"
+    }
+  ]
+}

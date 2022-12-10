@@ -109,7 +109,6 @@ export default function Home({ data }) {
         </div>
         <a
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
-          legacybehavior
           rel="noopener noreferrer"
           target="_blank"
         >
