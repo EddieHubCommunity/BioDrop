@@ -53,12 +53,12 @@ test(
 test(
   "Search page shows results after typing 3 characters",
   async ({ page }) => {
-  await page.goto('/search');
+  await page.goto("/search");
 
   const input = page.locator("[name='keyword']");
-  await input.type('aka');
+  await input.type("aka");
 
-  await expect(page.locator('li')).toContainText(['aka']);
+  await expect(page.locator("li")).toContainText(["aka"]);
   }
 );
 
