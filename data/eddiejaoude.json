@@ -17,7 +17,12 @@
     { "platform": "FaGitHub", "url": "https://github.com/eddiejaoude" },
     { "platform": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
   ],
-  "testimonials": ["CBID2", "Akshu-on-github", "ZeeMonk-pixel", "krupalitrivedi"],
+  "testimonials": [
+    "CBID2",
+    "Akshu-on-github",
+    "ZeeMonk-pixel",
+    "krupalitrivedi"
+  ],
   "links": [
     {
       "name": "Business DevRel Services",
