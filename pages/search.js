@@ -53,7 +53,7 @@ export default function Search({ users }) {
           tag.toLowerCase().includes(value.toLowerCase())
         );
         if (tag) {
-           return true;
+          return true;
         }
       });
 
@@ -70,7 +70,9 @@ export default function Search({ users }) {
   };
 
   useEffect(() => {
-    filterData(inputValue);
+    if (inputValue) {
+      filterData(inputValue);
+    }
   }, [inputValue]);
 
   return (
