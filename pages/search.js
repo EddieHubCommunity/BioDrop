@@ -26,7 +26,9 @@ export default function Search({ users }) {
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
-  const [inputValue, setInputValue] = useState(search ? search : "");
+  const [inputValue, setInputValue] = useState(
+    username ? username : search ? search : ""
+  );
 
   let results = [];
 
@@ -48,7 +50,7 @@ export default function Search({ users }) {
       setThreeOrMore(true);
       results = users.filter((user) => {
         if (user.name.toLowerCase().includes(value.toLowerCase())) {
-           return true;
+          return true;
         }
 
         let tag = user.tags?.find((tag) =>
