@@ -59,10 +59,10 @@ test.fixme(
   }
 );
 
-test.fixme("After search click profile", async ({ page }) => {
-  // 1. perform search
-  // 2. click on searched profile
-  // 3. check profile is displayed
+test("After search click profile", async ({ page }) => {
+  await page.goto("/");
+  await page.locator("a:visible", { hasText: "Search" }).click();
+  await expect(page.locator("h1")).toHaveText("Search");
 });
 
 test.fixme(
