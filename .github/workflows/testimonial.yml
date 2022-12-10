@@ -1,5 +1,5 @@
 name: Testimonial
-  
+
 on:
   issues:
     types: [opened]
@@ -20,31 +20,33 @@ jobs:
           template-path: .github/ISSUE_TEMPLATE/testimonial.yml
           body: ${{ github.event.issue.body }}
       - run: cat ${HOME}/issue-parser-result.json
-      - name: Current Date
+      - name: current date
         id: date
         uses: Kaven-Universe/github-action-current-date-time@v1
         with:
           format: "YYYY-MM-DD"
-      - name: Create folder
+      - name: create folder
         run: |
           mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}
       - uses: finnp/create-file-action@master
         env:
           FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json"
           FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
-      - name: Setup Git config
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-      - name: Commit
-        run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-          git add --all
-          git commit -m "New testimonial"
-          git push origin main
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "npm"
+      - run: npm ci
+      - name: prettier
+        run: npx prettier --write data/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      - name: commit file
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
       - name: Close Issue
         uses: YiiGuxing/close-issue@v2.1.0
         with:
           comment: |
-            Testimonial is created
+            Testimonial added. Thank you for your contribution!

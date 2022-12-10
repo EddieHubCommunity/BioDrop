@@ -1,8 +1,8 @@
-name: 🏆 Testimonial 
+name: 🏆 Testimonial
 title: New Testimonial
 description: Make a testimonial for the LinkFree user
 labels: ["testimonial"]
-body: 
+body:
   - type: input
     id: name
     attributes:
