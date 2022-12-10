@@ -43,7 +43,12 @@ export default function UserProfile({ BASE_URL, data }) {
           <div className="flex gap-2">
             {data.socials &&
               data.socials.map((social, index) => (
-                <UserSocial social={social} key={index} />
+                <UserSocial
+                  social={social}
+                  key={index}
+                  BASE_URL={BASE_URL}
+                  username={data.username}
+                />
               ))}
           </div>
         </div>
