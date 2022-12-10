@@ -1,0 +1,51 @@
+name: Testimonial
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-testimonial:
+    runs-on: ubuntu-latest
+    name: Create Testimonial
+    steps:
+      - uses: renanmav/match-label-action@v3
+        with:
+          allowed: >
+            testimonial
+      - uses: actions/checkout@v3
+      - uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/testimonial.yml
+          body: ${{ github.event.issue.body }}
+      - run: cat ${HOME}/issue-parser-result.json
+      - name: current date
+        id: date
+        uses: Kaven-Universe/github-action-current-date-time@v1
+        with:
+          format: "YYYY-MM-DD"
+      - name: create folder
+        run: |
+          mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}
+      - uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json"
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+          cache: "npm"
+      - run: npm ci
+      - name: prettier
+        run: npx prettier --write data/${{ steps.issue-parser.outputs.issueparser_name }}/${{ github.actor }}.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
+      - name: Close Issue
+        uses: YiiGuxing/close-issue@v2.1.0
+        with:
+          comment: |
+            Testimonial added. Thank you for your contribution!
