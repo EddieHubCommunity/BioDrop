@@ -3,10 +3,6 @@ on:
   release:
     types: [published]
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Testimonial"]
-    types:
-      - completed
 
 jobs:
   build:
@@ -58,6 +54,7 @@ jobs:
           tags: |
             ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
+
 #   deploy:
 #     name: deploy to kube cluster
 #     needs: push_to_registry

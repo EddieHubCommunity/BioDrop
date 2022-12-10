@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Name
-      description: Enter the user name of the person this testimonial is for
+      description: Enter the GitHub username of the person this testimonial is for
     validations:
       required: true
   - type: input
