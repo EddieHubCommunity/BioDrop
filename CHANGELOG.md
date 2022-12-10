@@ -1,3 +1,12 @@
+# [1.21.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.2...v1.21.0) (2022-12-10)
+
+
+### Features
+
+* testimonials via issues ([#2359](https://github.com/EddieHubCommunity/LinkFree/issues/2359)) ([0496822](https://github.com/EddieHubCommunity/LinkFree/commit/0496822b20c1f87e4d295bc5e03f623fb187eb73)), closes [#2344](https://github.com/EddieHubCommunity/LinkFree/issues/2344)
+
+
+
 ## [1.20.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.1...v1.20.2) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * footer alignment ([d372214](https://github.com/EddieHubCommunity/LinkFree/commit/d372214f29f22700cc6e445b1421f733778ac9a9))
-
-
-
-# [1.19.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.18.1...v1.19.0) (2022-12-09)
-
-
-### Features
-
-* footer improvements ([#2346](https://github.com/EddieHubCommunity/LinkFree/issues/2346)) ([9a430cd](https://github.com/EddieHubCommunity/LinkFree/commit/9a430cda5474138804c6bf4a71d6c05a35e8e78a))
 
 
 
