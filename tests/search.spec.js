@@ -54,14 +54,11 @@ test(
   "Search page shows results after typing 3 characters",
   async ({ page }) => {
   await page.goto('/search');
+
   const input = page.locator("[name='keyword']");
   await input.type('aka');
-  await page.waitForSelector('li', {
-    visible: true,
-  });
-  const searchResults = await page.$('li');
-  const searchResultText = await searchResults.textContent();
-  expect(searchResultText).toContain('aka');
+
+  await expect(page.locator('li')).toContainText(['aka']);
   }
 );
 
