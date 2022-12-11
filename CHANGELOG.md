@@ -1,3 +1,12 @@
+## [1.22.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.1...v1.22.2) (2022-12-11)
+
+
+### Bug Fixes
+
+* testimonials action only runs on label [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([8659084](https://github.com/EddieHubCommunity/LinkFree/commit/8659084125195faa9e0e185eaa2ad6e5e6bf563e))
+
+
+
 ## [1.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.0...v1.22.1) (2022-12-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * testimonials via issues ([#2359](https://github.com/EddieHubCommunity/LinkFree/issues/2359)) ([0496822](https://github.com/EddieHubCommunity/LinkFree/commit/0496822b20c1f87e4d295bc5e03f623fb187eb73)), closes [#2344](https://github.com/EddieHubCommunity/LinkFree/issues/2344)
-
-
-
-## [1.20.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.1...v1.20.2) (2022-12-10)
-
-
-### Bug Fixes
-
-* navbar improvements ([#2308](https://github.com/EddieHubCommunity/LinkFree/issues/2308)) ([00490a9](https://github.com/EddieHubCommunity/LinkFree/commit/00490a90d391bfe10ffb296ee0463ec9791e11aa))
 
 
 
