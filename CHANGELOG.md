@@ -1,3 +1,12 @@
+## [1.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.0...v1.22.1) (2022-12-11)
+
+
+### Bug Fixes
+
+* user not on platform ([44532b4](https://github.com/EddieHubCommunity/LinkFree/commit/44532b4b27d03ee993dae2531fb4d6b08afc287b))
+
+
+
 # [1.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.1...v1.22.0) (2022-12-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * navbar improvements ([#2308](https://github.com/EddieHubCommunity/LinkFree/issues/2308)) ([00490a9](https://github.com/EddieHubCommunity/LinkFree/commit/00490a90d391bfe10ffb296ee0463ec9791e11aa))
-
-
-
-## [1.20.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.20.0...v1.20.1) (2022-12-10)
-
-
-### Bug Fixes
-
-* set .nvmrc as text file instead of binary ([#2289](https://github.com/EddieHubCommunity/LinkFree/issues/2289)) ([ddb5d9c](https://github.com/EddieHubCommunity/LinkFree/commit/ddb5d9c85452cb86ec5007eed41c66d1588b1deb))
 
 
 
