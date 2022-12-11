@@ -6,7 +6,7 @@ on:
 
 jobs:
   create-testimonial:
-    if: ${{ github.event.label.name == 'testimonial' }}
+    if: contains(github.event.issue.labels.*.name, 'testimonial')
     runs-on: ubuntu-latest
     name: Create Testimonial
     steps:
