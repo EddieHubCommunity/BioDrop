@@ -1,3 +1,12 @@
+## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
+
+
+### Bug Fixes
+
+* deleting test testimonial file ([529c567](https://github.com/EddieHubCommunity/LinkFree/commit/529c5678fde412b984f5765f9eba6896d40d1249))
+
+
+
 ## [1.22.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.2...v1.22.3) (2022-12-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * search users by tags ([#2341](https://github.com/EddieHubCommunity/LinkFree/issues/2341)) ([3c55875](https://github.com/EddieHubCommunity/LinkFree/commit/3c5587586aa2b1e40f5597fd1a26facc63544d81))
-
-
-
-## [1.21.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.0...v1.21.1) (2022-12-10)
-
-
-### Bug Fixes
-
-* testimonial issue action ([09f0f04](https://github.com/EddieHubCommunity/LinkFree/commit/09f0f041108a32bc56d0f874d02725d785bb1ac2))
 
 
 
