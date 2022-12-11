@@ -6,13 +6,10 @@ on:
 
 jobs:
   create-testimonial:
+    if: ${{ github.event.label.name == 'testimonial' }}
     runs-on: ubuntu-latest
     name: Create Testimonial
     steps:
-      - uses: renanmav/match-label-action@v3
-        with:
-          allowed: >
-            testimonial
       - uses: actions/checkout@v3
       - uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
