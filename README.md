@@ -163,12 +163,6 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 - Any contributions you make are **truly appreciated**.
 - Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
-## 💪 Thanks to all Contributors
-
-Thank you for spending your time helping LinkFree grow...
-
-[![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)
-
 ## 🙏 Support
 
 Don't forget to leave a star ⭐️
