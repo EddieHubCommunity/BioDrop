@@ -117,7 +117,7 @@ To see what components are available, do the following steps...
 1. Set the default arguments by looking at the requirements from the component itself
 1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser 
 
-## Tests
+## 🧪 Tests
 
 We use [Playwright](http://playwright.dev) for writing automated end to end (e2e) tests.
 
@@ -141,13 +141,7 @@ To open last HTML report run:
   npx playwright show-report
 ```
 
-## 👨‍💻 Contributing
-
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
-- Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
-
-### Single user mode
+### 🚲 Single user mode
 
 If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
 
@@ -163,12 +157,18 @@ For example
 
 LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🧰 Contributing
+
+- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Any contributions you make are **truly appreciated**.
+- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
+
 ## 💪 Thanks to all Contributors
 
-Thanks a lot for spending your time helping LinkFree grow. Thanks a lot! Keep rocking 🍻
+Thank you for spending your time helping LinkFree grow...
 
 [![Contributors](https://contrib.rocks/image?repo=EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)
 
 ## 🙏 Support
 
-This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+Don't forget to leave a star ⭐️
