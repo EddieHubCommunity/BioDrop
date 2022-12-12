@@ -24,20 +24,20 @@ To add your profie you can create a json file in the `data/` directory with the 
 }
 ```
 
-## To Add Your Profile
+## How to add YOUR Profile
 
-Create a file named using your GitHub username `username.json` in the directory `data`, this will ensure it is unique.
+In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
 
-**Optional fields: `milestones` and `type(personal | community)`**\
+**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events` **\
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
-- [Naomi Carrigan](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/nhcarrigan.json)
-- [Kaiwalya Koparkar](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/kaiwalyakoparkar.json)
+- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
+- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
 
 Your brand new file should look something similar to this one:
 
-> **Note**: add/remove `links` objects to customise your profile, `milestones` are optional
+> **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
 
 ```json
 {
@@ -47,25 +47,27 @@ Your brand new file should look something similar to this one:
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
   "tags": ["javascript", "typescript"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "FaGithub",
-      "color": "#171515"
+      "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "FaTwitter",
-      "color": "#00ACEE"
+      "icon": "twitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "December 2021",
-      "icon": "FaDollarSign",
+      "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://www.eddiejaoude.io/"
@@ -76,13 +78,13 @@ Your brand new file should look something similar to this one:
 
 Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
 
-For example: `https://linkfree.eddiehub.io/eddiejaoude`
+For example: <https://linkfree.eddiehub.io/eddiejaoude>
 
 To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
 
-For example: `http://github.com/eddiejaoude.png`
+For example: <http://github.com/eddiejaoude.png>
 
-Note: after your PR gets merged, the project still needs to be deployed for your profile to be displayed
+Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
 ## Learn more
 
