@@ -1,21 +1,19 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
 
+# What is LinkFree?
 
-> **Warning** (2)
->
-> In order for your profile to appear, it must be deployed. We try to collect a few profiles before we begin to deploy.
->
-> ### A note for Hacktoberfest participants:
+LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community which has a say in where the project is going.
+
+Your profile will have links to your social media and content. You can also add your timeline, testimonials and upcoming events that you are participating in.
+
+Here is an example of a LinkFree Profile...
+
+![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
+
+> A note for Hacktoberfest participants:
 >
 > - Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
 > - Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. The project contains the `hacktoberfest` topic, so the PRs will be automatically counted towards Hacktoberfest. However, profile update PRs will have the label `invalid` and therefore won't be counted towards this event.
-
-# LinkFree by EddieHub
-
-- LinkFree connects audiences to all of your content with one link. It is an open-source alternative to [Linktree](https://linktr.ee/) implemented in JavaScript.
-- It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
-
-![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
 
 ## 👨‍💻 Demo
 
