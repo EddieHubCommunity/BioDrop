@@ -72,10 +72,6 @@ For example: <http://github.com/eddiejaoude.png>
 
 Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
-### Available Icons:
-
-Check [Icons.md](/icons.md) for all the supported icons.
-
 ## 🛠️ Quickstart for local development
 
 ### Prerequisites
