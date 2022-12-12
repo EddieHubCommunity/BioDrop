@@ -88,7 +88,7 @@ Before contributing or adding a new feature, please make sure you have already i
 
 ### In the cloud (optional)
 
-You can use Gitpod in the cloud
+You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 ### Local development 
 
@@ -117,11 +117,9 @@ To see what components are available, do the following steps...
 1. Set the default arguments by looking at the requirements from the component itself
 1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser 
 
-Alternatively, skip all the steps by using [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
-
 ## Tests
 
-We use Playwright for writing automated end to end (e2e) tests.
+We use [Playwright](http://playwright.dev) for writing automated end to end (e2e) tests.
 
 1. Install Playwright dependencies `npx playwright install --with-deps`
 1. Run tests `npm run test`
