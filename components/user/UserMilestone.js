@@ -1,5 +1,5 @@
-import getIcon from "../Icon";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import getIcon from "../Icon";
 
 export default function UserMilestone({ milestone }) {
   const DisplayIcon = getIcon(milestone.icon);
