@@ -1,5 +1,6 @@
 import Head from "next/head";
 import UserCard from "../components/user/UserCard";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = [];
@@ -28,9 +29,8 @@ export default function Popular({ data }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <div className="p-5">
-        <h1 className="text-4xl mb-4  font-bold">Popular Profiles</h1>
+      <Page>
+        <h1 className="text-4xl mb-4 font-bold">Popular Profiles</h1>
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {data.map((profile) => (
             <li key={profile.username}>
@@ -38,7 +38,7 @@ export default function Popular({ data }) {
             </li>
           ))}
         </ul>
-      </div>
+      </Page>
     </>
   );
 }

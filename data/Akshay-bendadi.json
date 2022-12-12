@@ -23,6 +23,11 @@
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshay-bendadi/",
       "icon": "linkedin"
+    },
+    {
+      "name": "Cheak out my states on Leetcode",
+      "url": "https://leetcode.com/Akshay_bendadi/",
+      "icon": "leetcode"
     }
   ]
 }

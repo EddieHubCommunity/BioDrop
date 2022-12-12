@@ -10,6 +10,7 @@ import UserLinks from "../components/user/UserLinks";
 import UserMilestones from "../components/user/UserMilestones";
 import UserTestimonials from "../components/user/UserTestimonials";
 import UserEvents from "../components/user/UserEvents";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = {};
@@ -48,12 +49,39 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ users, data, BASE_URL }) {
-  const [tabs, setTabs] = useState([
+  const defaultTabs = [
     { name: "My Links", href: "#", current: true },
     { name: "Milestones", href: "#", current: false },
     { name: "Testimonials", href: "#", current: false },
     { name: "Events", href: "#", current: false },
-  ]);
+  ];
+  let displayTabs = defaultTabs.flatMap((tab) => {
+    if (tab.name === "My Links") {
+      if (data.links && data.links.length) {
+        return { ...tab, total: data.links.length };
+      }
+      return [];
+    }
+    if (tab.name === "Milestones") {
+      if (data.milestones && data.milestones.length) {
+        return { ...tab, total: data.milestones.length };
+      }
+      return [];
+    }
+    if (tab.name === "Testimonials") {
+      if (data.testimonials && data.testimonials.length) {
+        return { ...tab, total: data.testimonials.length };
+      }
+      return [];
+    }
+    if (tab.name === "Events") {
+      if (data.events && data.events.length) {
+        return { ...tab, total: data.events.length };
+      }
+      return [];
+    }
+  });
+  const [tabs, setTabs] = useState(displayTabs);
 
   return (
     <>
@@ -71,29 +99,31 @@ export default function User({ users, data, BASE_URL }) {
         <meta property="og:image" content={data.avatar} />
       </Head>
 
-      <div className="mx-auto container px-6 mt-6">
+      <Page>
         <UserProfile data={data} BASE_URL={BASE_URL} />
 
         <UserTabs tabs={tabs} setTabs={setTabs} />
 
-        {tabs.find((tab) => tab.name === "My Links").current && (
-          <UserLinks data={data} BASE_URL={BASE_URL} />
-        )}
-        <div className="my-8"></div>
-        {tabs.find((tab) => tab.name === "Milestones").current && (
-          <UserMilestones data={data} />
-        )}
+        {tabs.find((tab) => tab.name === "My Links") &&
+          tabs.find((tab) => tab.name === "My Links").current && (
+            <UserLinks data={data} BASE_URL={BASE_URL} />
+          )}
 
-        <div className="my-8"></div>
-        {tabs.find((tab) => tab.name === "Testimonials").current && (
-          <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
-        )}
+        {tabs.find((tab) => tab.name === "Milestones") &&
+          tabs.find((tab) => tab.name === "Milestones").current && (
+            <UserMilestones data={data} />
+          )}
 
-        <div className="my-8"></div>
-        {tabs.find((tab) => tab.name === "Events").current && (
-          <UserEvents data={data} />
-        )}
-      </div>
+        {tabs.find((tab) => tab.name === "Testimonials") &&
+          tabs.find((tab) => tab.name === "Testimonials").current && (
+            <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
+          )}
+
+        {tabs.find((tab) => tab.name === "Events") &&
+          tabs.find((tab) => tab.name === "Events").current && (
+            <UserEvents data={data} />
+          )}
+      </Page>
     </>
   );
 }

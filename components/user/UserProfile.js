@@ -6,6 +6,7 @@ import { QRCodeSVG } from "qrcode.react";
 
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
+import Link from "next/link";
 
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -43,7 +44,12 @@ export default function UserProfile({ BASE_URL, data }) {
           <div className="flex gap-2">
             {data.socials &&
               data.socials.map((social, index) => (
-                <UserSocial social={social} key={index} />
+                <UserSocial
+                  social={social}
+                  key={index}
+                  BASE_URL={BASE_URL}
+                  username={data.username}
+                />
               ))}
           </div>
         </div>
@@ -55,12 +61,13 @@ export default function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag, index) => (
-              <span
+              <Link
+                href={`/search?search=${tag}`}
                 key={index}
-                className="flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 border-dashed"
+                className="flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 border-dashed cursor-pointer shadow-none hover:shadow-md"
               >
                 {tag}
-              </span>
+              </Link>
             ))}
         </div>
       )}
