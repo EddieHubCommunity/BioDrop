@@ -1,5 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
+const AxeBuilder = require('@axe-core/playwright').default;
 
 test("Profile has title", async ({ page }) => {
   const username = "_test-profile-user-1";
@@ -69,4 +70,12 @@ test.fixme("redirect to search when tag clicked", async ({ page }) => {
   // 2. get a link and href
   // 3. click the link
   // 4. get the current url and should match href
+});
+
+test('should pass axe wcag accessibility tests', async ({ page }) => {
+  await page.goto('/eddiejaoude');
+  const accessibilityScanResults = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .analyze();
+  expect(accessibilityScanResults.violations).toEqual([]);
 });
