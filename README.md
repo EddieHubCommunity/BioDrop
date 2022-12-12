@@ -10,6 +10,8 @@
 - LinkFree connects audiences to all of your content with one link. It is an **Open Source** alternative to _Linktree_ implemented in JavaScript using NextJS, Tailwind and MongoDB.
 - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).
 
+![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
+
 ## 👨‍💻 Demo
 
 Example profile for [Eddie Jaoude](https://linkfree.eddiehub.io/eddiejaoude)
