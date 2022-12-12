@@ -6,13 +6,9 @@ LinkFree is the Open Source alternative to LinkTree. A platform where people in 
 
 Your profile will have links to your social media and content. You can also add your timeline, testimonials and upcoming events that you are participating in.
 
-Here is an example of a LinkFree Profile...
+Here is an example of a LinkFree [Profile](https://linkfree.eddiehub.io/eddiejaoude)...
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
-
-## 👨‍💻 Demo
-
-Example profile for [Eddie Jaoude](https://linkfree.eddiehub.io/eddiejaoude)
 
 ## 👇 Prerequisites
 
