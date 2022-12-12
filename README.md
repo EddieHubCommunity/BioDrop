@@ -10,11 +10,6 @@ Here is an example of a LinkFree Profile...
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
 
-> A note for Hacktoberfest participants:
->
-> - Pull requests which add or edit your information in a `data/${yourname}.json` file will NOT be counted for Hacktoberfest.
-> - Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event will count. The project contains the `hacktoberfest` topic, so the PRs will be automatically counted towards Hacktoberfest. However, profile update PRs will have the label `invalid` and therefore won't be counted towards this event.
-
 ## 👨‍💻 Demo
 
 Check out the website: https://linkfree.eddiehub.io
