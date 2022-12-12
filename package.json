@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.5.2",
     "@babel/core": "^7.19.3",
     "@playwright/test": "^1.27.1",
     "babel-loader": "^8.2.5",
