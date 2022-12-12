@@ -17,10 +17,6 @@
 
 ![Eddie Jaoude's LinkFree profile GIF](https://user-images.githubusercontent.com/106697681/176986263-b8c278f1-41a8-4b85-80e6-be46e9cc9a00.gif)
 
-## Example using Gitpod, an ephemeral dev environment in the cloud (free)
-
-![Gitpod GIF with progress bar](https://user-images.githubusercontent.com/46727048/146048451-ed4ff31a-c178-4713-a9e0-95118be742dc.gif)
-
 ## 👨‍💻 Demo
 
 Check out the website: https://linkfree.eddiehub.io
