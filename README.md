@@ -99,18 +99,6 @@ You can set this up locally with the following steps
 1. `npm install`
 1. `npm run dev`
 
-### 🚲 Single user mode
-
-If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
-
-For example
-
-```json
-{
-  "username": "eddiejaoude"
-}
-```
-
 ## 🛡️ License
 
 LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
