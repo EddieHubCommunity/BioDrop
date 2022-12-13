@@ -41,19 +41,19 @@ Your brand new file should look something similar to this one:
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "github"
+      "icon": "FaGitHub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "December 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://www.eddiejaoude.io/"

@@ -36,6 +36,11 @@ export default function DocsLayout({ children }) {
       icon: "BsFillPersonCheckFill",
     },
     {
+      name: "Testimonials",
+      path: "/docs/testimonials",
+      icon: "TfiWrite",
+    },
+    {
       name: "Advanced Profile",
       path: "/docs/full-profile",
       icon: "GiProgression",
