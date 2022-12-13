@@ -1,3 +1,12 @@
+# [1.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.4...v1.23.0) (2022-12-13)
+
+
+### Features
+
+* move testimonials data [#2384](https://github.com/EddieHubCommunity/LinkFree/issues/2384) ([#2385](https://github.com/EddieHubCommunity/LinkFree/issues/2385)) ([679e47f](https://github.com/EddieHubCommunity/LinkFree/commit/679e47fcc0d4d752641680cbc44bd77df73ec489))
+
+
+
 ## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user not on platform ([44532b4](https://github.com/EddieHubCommunity/LinkFree/commit/44532b4b27d03ee993dae2531fb4d6b08afc287b))
-
-
-
-# [1.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.1...v1.22.0) (2022-12-10)
-
-
-### Features
-
-* search users by tags ([#2341](https://github.com/EddieHubCommunity/LinkFree/issues/2341)) ([3c55875](https://github.com/EddieHubCommunity/LinkFree/commit/3c5587586aa2b1e40f5597fd1a26facc63544d81))
 
 
 
