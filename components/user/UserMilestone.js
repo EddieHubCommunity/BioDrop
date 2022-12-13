@@ -22,9 +22,9 @@ export default function UserMilestone({ milestone }) {
               <h3 className="text-lg font-medium">{milestone.title}</h3>
               <p className="text-sm text-gray-500">{milestone.date}</p>
             </div>
-            <p className="text-sm text-gray-500">
-              <ReactMarkdown>{milestone.description}</ReactMarkdown>
-              </p>
+            <ReactMarkdown className="text-sm text-gray-500">
+              {milestone.description}
+            </ReactMarkdown>
           </div>
         </div>
       </li>
