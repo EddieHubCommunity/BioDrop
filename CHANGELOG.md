@@ -1,3 +1,12 @@
+## [1.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.1...v1.23.2) (2022-12-13)
+
+
+### Bug Fixes
+
+* remove file for testing ([0313cad](https://github.com/EddieHubCommunity/LinkFree/commit/0313cad411b43101732042ec5ffa405c109b2abf))
+
+
+
 ## [1.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.0...v1.23.1) (2022-12-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonial gh action filter [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([58504a6](https://github.com/EddieHubCommunity/LinkFree/commit/58504a668c8337d2e0466b91b81098c01c39889f))
-
-
-
-## [1.22.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.1...v1.22.2) (2022-12-11)
-
-
-### Bug Fixes
-
-* testimonials action only runs on label [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([8659084](https://github.com/EddieHubCommunity/LinkFree/commit/8659084125195faa9e0e185eaa2ad6e5e6bf563e))
 
 
 
