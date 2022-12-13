@@ -87,7 +87,7 @@ export default function Home({ data }) {
           See{" "}
           <Link
             href={{
-              pathname: "/blog/[username]",
+              pathname: "/[username]",
               query: { username: "eddiejaoude" },
             }}
             legacyBehavior
