@@ -1,3 +1,12 @@
+## [1.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.0...v1.23.1) (2022-12-13)
+
+
+### Bug Fixes
+
+* issue config for question ([f800369](https://github.com/EddieHubCommunity/LinkFree/commit/f800369747f1ff4833825ffd737cf053b558cc27))
+
+
+
 # [1.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.4...v1.23.0) (2022-12-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonials action only runs on label [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([8659084](https://github.com/EddieHubCommunity/LinkFree/commit/8659084125195faa9e0e185eaa2ad6e5e6bf563e))
-
-
-
-## [1.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.0...v1.22.1) (2022-12-11)
-
-
-### Bug Fixes
-
-* user not on platform ([44532b4](https://github.com/EddieHubCommunity/LinkFree/commit/44532b4b27d03ee993dae2531fb4d6b08afc287b))
 
 
 
