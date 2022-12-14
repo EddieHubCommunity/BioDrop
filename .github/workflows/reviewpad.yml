@@ -1,0 +1,30 @@
+# This file configures Reviewpad action to run on Issues and Pull Requests! 🦄
+name: Reviewpad
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+  issue_comment:
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - edited
+
+# These permissions are necessary to automate pull requests from forks.
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  reviewpad_job:
+    runs-on: ubuntu-latest
+    name: Reviewpad
+    steps:
+      - name: Reviewpad
+        uses: reviewpad/action@v3.x
+        with:
+          # Uncomment next line to use your own configuration file 💪
+          file: reviewpad.yml

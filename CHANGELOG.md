@@ -1,45 +1,45 @@
-## [0.5.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.5.0...v0.5.1) (2021-09-11)
+## [1.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.2...v1.23.3) (2022-12-14)
 
 
 ### Bug Fixes
 
-* kube typos ([bf96eb3](https://github.com/EddieHubCommunity/LinkFree/commit/bf96eb3a9a37c8cb7db045d5bb59649f5e445066))
+* main page will grow ([#2395](https://github.com/EddieHubCommunity/LinkFree/issues/2395)) ([37baab6](https://github.com/EddieHubCommunity/LinkFree/commit/37baab6b90291b8e59c33b1d6683301827636b44))
 
 
 
-# [0.5.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.4.0...v0.5.0) (2021-09-11)
-
-
-### Features
-
-* lint + prettier ([6c562cb](https://github.com/EddieHubCommunity/LinkFree/commit/6c562cba8428b2e90846ad6af6bfad6d1e2814ec))
-
-
-
-# [0.4.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.1...v0.4.0) (2021-09-10)
-
-
-### Features
-
-* lint data files ([67592d7](https://github.com/EddieHubCommunity/LinkFree/commit/67592d79d2c3e84175e891cccd06019afeea0c8c))
-
-
-
-## [0.3.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.3.0...v0.3.1) (2021-09-10)
+## [1.23.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.1...v1.23.2) (2022-12-13)
 
 
 ### Bug Fixes
 
-* kube file reference ([3d29b05](https://github.com/EddieHubCommunity/LinkFree/commit/3d29b05171cd163be1c532e631db5fd49d0c69ec))
+* remove file for testing ([0313cad](https://github.com/EddieHubCommunity/LinkFree/commit/0313cad411b43101732042ec5ffa405c109b2abf))
 
 
 
-# [0.3.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.2.0...v0.3.0) (2021-09-10)
+## [1.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.0...v1.23.1) (2022-12-13)
+
+
+### Bug Fixes
+
+* issue config for question ([f800369](https://github.com/EddieHubCommunity/LinkFree/commit/f800369747f1ff4833825ffd737cf053b558cc27))
+
+
+
+# [1.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.4...v1.23.0) (2022-12-13)
 
 
 ### Features
 
-* deployment ([4a9fa1f](https://github.com/EddieHubCommunity/LinkFree/commit/4a9fa1f4591d655fa844521ce5b01c7b541bb904))
+* move testimonials data [#2384](https://github.com/EddieHubCommunity/LinkFree/issues/2384) ([#2385](https://github.com/EddieHubCommunity/LinkFree/issues/2385)) ([679e47f](https://github.com/EddieHubCommunity/LinkFree/commit/679e47fcc0d4d752641680cbc44bd77df73ec489))
+
+
+
+## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
+
+
+### Bug Fixes
+
+* deleting test testimonial file ([529c567](https://github.com/EddieHubCommunity/LinkFree/commit/529c5678fde412b984f5765f9eba6896d40d1249))
 
 
 
