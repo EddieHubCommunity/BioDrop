@@ -1,6 +1,7 @@
 import { useState } from "react";
 import colors from "../../config/icons.json";
 import Icon from "../Icon";
+import { FaEye } from 'react-icons/fa';
 
 export default function UserLink({
   BASE_URL,
@@ -38,6 +39,7 @@ export default function UserLink({
     >
       <Icon name={link.icon} />
       <span className="grow">{link.name}</span>
+      <FaEye />
       {displayStatsPublic && <span>{clicks}</span>}
     </a>
   );
