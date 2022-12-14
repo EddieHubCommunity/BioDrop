@@ -7,7 +7,7 @@ export default function MultiLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main>{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
 
       {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
