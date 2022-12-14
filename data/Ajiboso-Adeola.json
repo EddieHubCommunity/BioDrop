@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "**Open Source** Enthusiast | Frontend Developer | Web3 Enthusiast |Writer",
-  "tags": ["Open Source", "Javascript", "Node.js"],
+  "tags": ["Open Source", "Javascript", "Writing"],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/dde_olla" },
     { "platform": "github", "url": "https://github.com/Ajiboso-Adeola" },
@@ -31,6 +31,5 @@
       "url": "https://hashnode.com/@Deola",
       "icon": "hashnode"
     }
-   
-  ]
+]
 }
