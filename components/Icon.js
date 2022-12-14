@@ -34,6 +34,7 @@ import {
   FaYoutube,
   FaMastodon,
   FaRegQuestionCircle,
+  FaEye,
 } from "react-icons/fa";
 import {
   SiCodeforces,
@@ -139,6 +140,8 @@ function Icon({ name }) {
       return <FaMastodon />;
     case "help":
       return <FaRegQuestionCircle />;
+    case "eye":
+      return <FaEye />;
     default:
       return <FaGlobe />;
   }
