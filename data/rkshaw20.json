@@ -37,11 +37,9 @@
       "icon": "linkedin"
     },
     {
-      
-        "name": "Open Source Blog",
-        "url": "https://hashnode.com/@rajkishorshaw",
-        "icon": "hashnode"
-      
+      "name": "Open Source Blog",
+      "url": "https://hashnode.com/@rajkishorshaw",
+      "icon": "hashnode"
     }
   ],
   "milestones": [
