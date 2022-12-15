@@ -1,3 +1,12 @@
+## [1.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.3...v1.23.4) (2022-12-15)
+
+
+### Bug Fixes
+
+* json in testimonials ([2f89053](https://github.com/EddieHubCommunity/LinkFree/commit/2f8905308ae7e96149ecc0f5632c89c13ea5b8a1))
+
+
+
 ## [1.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.2...v1.23.3) (2022-12-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * move testimonials data [#2384](https://github.com/EddieHubCommunity/LinkFree/issues/2384) ([#2385](https://github.com/EddieHubCommunity/LinkFree/issues/2385)) ([679e47f](https://github.com/EddieHubCommunity/LinkFree/commit/679e47fcc0d4d752641680cbc44bd77df73ec489))
-
-
-
-## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
-
-
-### Bug Fixes
-
-* deleting test testimonial file ([529c567](https://github.com/EddieHubCommunity/LinkFree/commit/529c5678fde412b984f5765f9eba6896d40d1249))
 
 
 
