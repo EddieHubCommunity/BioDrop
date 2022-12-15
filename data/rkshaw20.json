@@ -4,12 +4,7 @@
   "displayStatsPublic": true,
   "bio": " Web Developer | Open Source & communities | Blogger ",
   "avatar": "https://github.com/rkshaw20.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "Developer",
-    "Blogs"
-  ],
+  "tags": ["Open Source", "Javascript", "Developer", "Blogs"],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/RajKishorShaw17" },
     { "platform": "github", "url": "https://github.com/rkshaw20" },
