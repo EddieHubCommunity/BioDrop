@@ -1,3 +1,12 @@
+## [1.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.4...v1.23.5) (2022-12-15)
+
+
+### Bug Fixes
+
+* changing commit action step config ([e78ddc9](https://github.com/EddieHubCommunity/LinkFree/commit/e78ddc9f21b5c571ab8ae22972e20921db34e04b))
+
+
+
 ## [1.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.3...v1.23.4) (2022-12-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * issue config for question ([f800369](https://github.com/EddieHubCommunity/LinkFree/commit/f800369747f1ff4833825ffd737cf053b558cc27))
-
-
-
-# [1.23.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.4...v1.23.0) (2022-12-13)
-
-
-### Features
-
-* move testimonials data [#2384](https://github.com/EddieHubCommunity/LinkFree/issues/2384) ([#2385](https://github.com/EddieHubCommunity/LinkFree/issues/2385)) ([679e47f](https://github.com/EddieHubCommunity/LinkFree/commit/679e47fcc0d4d752641680cbc44bd77df73ec489))
 
 
 
