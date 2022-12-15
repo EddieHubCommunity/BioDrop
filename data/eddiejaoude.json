@@ -2,7 +2,8 @@
   "name": "Eddie Jaoude",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star","avatar": "https://github.com/eddiejaoude.png",
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
+  "avatar": "https://github.com/eddiejaoude.png",
   "tags": [
     "Open Source",
     "Javascript",
@@ -11,7 +12,7 @@
     "MongoDB",
     "Kubernetes",
     "DevOps",
-    "DevRel",
+    "DevRel"
   ],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/eddiejaoude" },
