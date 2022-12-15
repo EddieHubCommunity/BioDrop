@@ -17,22 +17,23 @@ export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
 
   // merge profiles with their profile views if set to public
-  const profiles = getProfiles.map((profile) => {
-    const user = JSON.parse(
-      fs.readFileSync(
-        path.join(directoryPath, `${profile.username}.json`),
-        "utf8"
-      )
-    );
+  const profiles = getProfiles.flatMap((profile) => {
+    const filePath = path.join(directoryPath, `${profile.username}.json`);
+    try {
+      const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-    if (user.displayStatsPublic) {
-      return {
-        ...user,
-        ...profile._doc,
-      };
+      if (user.displayStatsPublic) {
+        return {
+          ...user,
+          ...profile._doc,
+        };
+      }
+
+      return { ...user, username: profile.username };
+    } catch (e) {
+      console.log(`ERROR loading profile "${filePath}"`);
+      return [];
     }
-
-    return { ...user, username: profile.username };
   });
 
   res.status(200).json(profiles);
