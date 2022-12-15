@@ -1,3 +1,12 @@
+# [1.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.5...v1.24.0) (2022-12-15)
+
+
+### Features
+
+* homepage statistics ([#2391](https://github.com/EddieHubCommunity/LinkFree/issues/2391)) ([25f22d6](https://github.com/EddieHubCommunity/LinkFree/commit/25f22d6defbab04b519479fe920a787aab039e7d))
+
+
+
 ## [1.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.4...v1.23.5) (2022-12-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove file for testing ([0313cad](https://github.com/EddieHubCommunity/LinkFree/commit/0313cad411b43101732042ec5ffa405c109b2abf))
-
-
-
-## [1.23.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.0...v1.23.1) (2022-12-13)
-
-
-### Bug Fixes
-
-* issue config for question ([f800369](https://github.com/EddieHubCommunity/LinkFree/commit/f800369747f1ff4833825ffd737cf053b558cc27))
 
 
 
