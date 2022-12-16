@@ -1,3 +1,12 @@
+## [1.24.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.3...v1.24.4) (2022-12-16)
+
+
+### Bug Fixes
+
+* lang attribute to html tag ([#2415](https://github.com/EddieHubCommunity/LinkFree/issues/2415)) ([8fd99bc](https://github.com/EddieHubCommunity/LinkFree/commit/8fd99bca60860d5c5bf4322903eb70f19f2e5d9f))
+
+
+
 ## [1.24.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.2...v1.24.3) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * homepage statistics ([#2391](https://github.com/EddieHubCommunity/LinkFree/issues/2391)) ([25f22d6](https://github.com/EddieHubCommunity/LinkFree/commit/25f22d6defbab04b519479fe920a787aab039e7d))
-
-
-
-## [1.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.4...v1.23.5) (2022-12-15)
-
-
-### Bug Fixes
-
-* changing commit action step config ([e78ddc9](https://github.com/EddieHubCommunity/LinkFree/commit/e78ddc9f21b5c571ab8ae22972e20921db34e04b))
 
 
 
