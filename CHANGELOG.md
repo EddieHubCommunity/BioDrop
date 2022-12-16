@@ -1,3 +1,12 @@
+## [1.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.1...v1.24.2) (2022-12-16)
+
+
+### Bug Fixes
+
+* footer donate link ([8ba8028](https://github.com/EddieHubCommunity/LinkFree/commit/8ba802869e26ec4473d6a2875696c7b0102139ea))
+
+
+
 ## [1.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.0...v1.24.1) (2022-12-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * json in testimonials ([2f89053](https://github.com/EddieHubCommunity/LinkFree/commit/2f8905308ae7e96149ecc0f5632c89c13ea5b8a1))
-
-
-
-## [1.23.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.2...v1.23.3) (2022-12-14)
-
-
-### Bug Fixes
-
-* main page will grow ([#2395](https://github.com/EddieHubCommunity/LinkFree/issues/2395)) ([37baab6](https://github.com/EddieHubCommunity/LinkFree/commit/37baab6b90291b8e59c33b1d6683301827636b44))
 
 
 
