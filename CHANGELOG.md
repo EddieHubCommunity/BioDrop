@@ -1,3 +1,12 @@
+## [1.24.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.7...v1.24.8) (2022-12-16)
+
+
+### Bug Fixes
+
+* gh action secret ([a93ed77](https://github.com/EddieHubCommunity/LinkFree/commit/a93ed77a1d9524d4c3f11d5e67703d3da5a13c99))
+
+
+
 ## [1.24.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.6...v1.24.7) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * lang attribute to html tag ([#2415](https://github.com/EddieHubCommunity/LinkFree/issues/2415)) ([8fd99bc](https://github.com/EddieHubCommunity/LinkFree/commit/8fd99bca60860d5c5bf4322903eb70f19f2e5d9f))
-
-
-
-## [1.24.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.2...v1.24.3) (2022-12-16)
-
-
-### Bug Fixes
-
-* add `cursor-pointer` class to wrapping `div` ([#2412](https://github.com/EddieHubCommunity/LinkFree/issues/2412)) ([3dee416](https://github.com/EddieHubCommunity/LinkFree/commit/3dee416609317b8be0c17f0d54459eadb2665ce7))
 
 
 
