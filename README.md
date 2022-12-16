@@ -76,9 +76,44 @@ Note: After your PR gets merged, the project still needs to be deployed for your
 
 Check [Icons.md](/icons.md) for all the supported icons.
 
-## 🛠️ Quickstart for local development
+## 🛠️ Quickstart
 
-### Prerequisites
+You have 3 options to contribute to the repo, please pick your favourite from:
+
+1. GitHub UI
+2. Gitpod
+3. Local development with Docker Compose
+4. Local development native
+
+### GitHub UI
+
+This is great if you only want to add your Profile or make changes to it.
+
+*note: give extra attention to json formatting and the GitHub Action after you create the Pull Request*
+
+### Gitpod
+
+In the cloud free development environment which will have all the dependencies you need (for example MongoDB).
+
+You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
+
+### Local development with Docker Compose
+
+This environment is on your computer but with containers (for example MongoDB) supporting your environment.
+
+#### Prerequisites
+
+You will need [Docker and Docker Compose](https://docs.docker.com/compose/) installed.
+
+#### Commands
+
+1. `docker-compose up`
+
+### Local development native
+
+This environment is fully on computer, and requires each dependency (for example MongoDB) to be installed and setup, but gives you the most flexiblity for customisation.
+
+#### Prerequisites
 
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
@@ -86,13 +121,9 @@ Before contributing or adding a new feature, please make sure you have already i
 - [MongoDB](https://www.mongodb.com/home)
 - Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
 
-### In the cloud (optional)
+#### Commands
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
-
-### Local development 
-
-You can set this up locally with the following steps
+You can set this up locally with the following steps:
 
 1. copy the `.env.example` file to `.env` and update any details required
 1. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
