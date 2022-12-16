@@ -1,6 +1,8 @@
 name: Format
 on:
   push:
+    branches:
+      - 'main'
     paths:
       - "data/**"
 
