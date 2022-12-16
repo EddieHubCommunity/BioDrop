@@ -1,3 +1,12 @@
+## [1.24.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.5...v1.24.6) (2022-12-16)
+
+
+### Bug Fixes
+
+* gh action for json validate ([d041f87](https://github.com/EddieHubCommunity/LinkFree/commit/d041f87ecdf9a151008238e447b08aa87d94412f))
+
+
+
 ## [1.24.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.4...v1.24.5) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * footer donate link ([8ba8028](https://github.com/EddieHubCommunity/LinkFree/commit/8ba802869e26ec4473d6a2875696c7b0102139ea))
-
-
-
-## [1.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.0...v1.24.1) (2022-12-15)
-
-
-### Bug Fixes
-
-* ignore invalid json files [#2405](https://github.com/EddieHubCommunity/LinkFree/issues/2405) ([#2406](https://github.com/EddieHubCommunity/LinkFree/issues/2406)) ([4c3e1d4](https://github.com/EddieHubCommunity/LinkFree/commit/4c3e1d447418ce89049402d1d3b8b3aae5fdb037))
 
 
 
