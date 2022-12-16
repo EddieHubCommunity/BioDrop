@@ -1,3 +1,12 @@
+## [1.24.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.6...v1.24.7) (2022-12-16)
+
+
+### Bug Fixes
+
+* prettier event trigger ([106f27f](https://github.com/EddieHubCommunity/LinkFree/commit/106f27f89f742d1718bba3818b92149c87336b34))
+
+
+
 ## [1.24.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.5...v1.24.6) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add `cursor-pointer` class to wrapping `div` ([#2412](https://github.com/EddieHubCommunity/LinkFree/issues/2412)) ([3dee416](https://github.com/EddieHubCommunity/LinkFree/commit/3dee416609317b8be0c17f0d54459eadb2665ce7))
-
-
-
-## [1.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.1...v1.24.2) (2022-12-16)
-
-
-### Bug Fixes
-
-* footer donate link ([8ba8028](https://github.com/EddieHubCommunity/LinkFree/commit/8ba802869e26ec4473d6a2875696c7b0102139ea))
 
 
 
