@@ -25,3 +25,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "style: format files"
+          skip_checkout: true

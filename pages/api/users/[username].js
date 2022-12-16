@@ -19,7 +19,12 @@ export default async function handler(req, res) {
   }
 
   if (data.testimonials) {
-    const filePathTestimonials = path.join(process.cwd(), "data", username);
+    const filePathTestimonials = path.join(
+      process.cwd(),
+      "data",
+      username,
+      "testimonials"
+    );
     const testimonials = data.testimonials.flatMap((username) => {
       try {
         const testimonial = {

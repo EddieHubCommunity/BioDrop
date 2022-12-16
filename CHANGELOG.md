@@ -1,45 +1,45 @@
-## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
+## [1.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.1...v1.24.2) (2022-12-16)
 
 
 ### Bug Fixes
 
-* deleting test testimonial file ([529c567](https://github.com/EddieHubCommunity/LinkFree/commit/529c5678fde412b984f5765f9eba6896d40d1249))
+* footer donate link ([8ba8028](https://github.com/EddieHubCommunity/LinkFree/commit/8ba802869e26ec4473d6a2875696c7b0102139ea))
 
 
 
-## [1.22.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.2...v1.22.3) (2022-12-11)
-
-
-### Bug Fixes
-
-* testimonial gh action filter [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([58504a6](https://github.com/EddieHubCommunity/LinkFree/commit/58504a668c8337d2e0466b91b81098c01c39889f))
-
-
-
-## [1.22.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.1...v1.22.2) (2022-12-11)
+## [1.24.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.0...v1.24.1) (2022-12-15)
 
 
 ### Bug Fixes
 
-* testimonials action only runs on label [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([8659084](https://github.com/EddieHubCommunity/LinkFree/commit/8659084125195faa9e0e185eaa2ad6e5e6bf563e))
+* ignore invalid json files [#2405](https://github.com/EddieHubCommunity/LinkFree/issues/2405) ([#2406](https://github.com/EddieHubCommunity/LinkFree/issues/2406)) ([4c3e1d4](https://github.com/EddieHubCommunity/LinkFree/commit/4c3e1d447418ce89049402d1d3b8b3aae5fdb037))
 
 
 
-## [1.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.0...v1.22.1) (2022-12-11)
-
-
-### Bug Fixes
-
-* user not on platform ([44532b4](https://github.com/EddieHubCommunity/LinkFree/commit/44532b4b27d03ee993dae2531fb4d6b08afc287b))
-
-
-
-# [1.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.1...v1.22.0) (2022-12-10)
+# [1.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.5...v1.24.0) (2022-12-15)
 
 
 ### Features
 
-* search users by tags ([#2341](https://github.com/EddieHubCommunity/LinkFree/issues/2341)) ([3c55875](https://github.com/EddieHubCommunity/LinkFree/commit/3c5587586aa2b1e40f5597fd1a26facc63544d81))
+* homepage statistics ([#2391](https://github.com/EddieHubCommunity/LinkFree/issues/2391)) ([25f22d6](https://github.com/EddieHubCommunity/LinkFree/commit/25f22d6defbab04b519479fe920a787aab039e7d))
+
+
+
+## [1.23.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.4...v1.23.5) (2022-12-15)
+
+
+### Bug Fixes
+
+* changing commit action step config ([e78ddc9](https://github.com/EddieHubCommunity/LinkFree/commit/e78ddc9f21b5c571ab8ae22972e20921db34e04b))
+
+
+
+## [1.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.3...v1.23.4) (2022-12-15)
+
+
+### Bug Fixes
+
+* json in testimonials ([2f89053](https://github.com/EddieHubCommunity/LinkFree/commit/2f8905308ae7e96149ecc0f5632c89c13ea5b8a1))
 
 
 
