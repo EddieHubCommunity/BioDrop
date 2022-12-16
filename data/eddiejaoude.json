@@ -1,7 +1,8 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "displayStatsPublic": true,"bio": "**Open Source** DevRel | Founder of **EddieHub** | **GitHub** Star",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** DevRel | Founder of **EddieHub** | **GitHub** Star",
   "avatar": "https://github.com/eddiejaoude.png",
   "tags": [
     "Open Source",
