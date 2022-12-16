@@ -1,3 +1,12 @@
+## [1.24.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.2...v1.24.3) (2022-12-16)
+
+
+### Bug Fixes
+
+* add `cursor-pointer` class to wrapping `div` ([#2412](https://github.com/EddieHubCommunity/LinkFree/issues/2412)) ([3dee416](https://github.com/EddieHubCommunity/LinkFree/commit/3dee416609317b8be0c17f0d54459eadb2665ce7))
+
+
+
 ## [1.24.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.1...v1.24.2) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * changing commit action step config ([e78ddc9](https://github.com/EddieHubCommunity/LinkFree/commit/e78ddc9f21b5c571ab8ae22972e20921db34e04b))
-
-
-
-## [1.23.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.3...v1.23.4) (2022-12-15)
-
-
-### Bug Fixes
-
-* json in testimonials ([2f89053](https://github.com/EddieHubCommunity/LinkFree/commit/2f8905308ae7e96149ecc0f5632c89c13ea5b8a1))
 
 
 
