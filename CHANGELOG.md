@@ -1,3 +1,12 @@
+## [1.24.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.4...v1.24.5) (2022-12-16)
+
+
+### Bug Fixes
+
+* prettier not on pull requests ([0523900](https://github.com/EddieHubCommunity/LinkFree/commit/052390079b42bd3e79172654b6cbe2edf0f037ae))
+
+
+
 ## [1.24.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.3...v1.24.4) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ignore invalid json files [#2405](https://github.com/EddieHubCommunity/LinkFree/issues/2405) ([#2406](https://github.com/EddieHubCommunity/LinkFree/issues/2406)) ([4c3e1d4](https://github.com/EddieHubCommunity/LinkFree/commit/4c3e1d447418ce89049402d1d3b8b3aae5fdb037))
-
-
-
-# [1.24.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.23.5...v1.24.0) (2022-12-15)
-
-
-### Features
-
-* homepage statistics ([#2391](https://github.com/EddieHubCommunity/LinkFree/issues/2391)) ([25f22d6](https://github.com/EddieHubCommunity/LinkFree/commit/25f22d6defbab04b519479fe920a787aab039e7d))
 
 
 
