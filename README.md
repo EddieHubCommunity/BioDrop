@@ -83,7 +83,7 @@ You have 3 options to contribute to the repo, please pick your favourite from:
 1. GitHub UI
 2. Gitpod
 3. Local development with Docker Compose
-4. Local development native
+4. Local development
 
 ### GitHub UI
 
@@ -109,7 +109,7 @@ You will need [Docker and Docker Compose](https://docs.docker.com/compose/) inst
 
 1. `docker-compose up`
 
-### Local development native
+### Local development
 
 This environment is fully on computer, and requires each dependency (for example MongoDB) to be installed and setup, but gives you the most flexiblity for customisation.
 
