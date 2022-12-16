@@ -13,11 +13,11 @@ export default function Footer() {
         Powered by EddieHub
       </Link>
       <Link
-        href="https://github.com/EddieHubCommunity/LinkFree"
+        href="http://github.com/sponsors/eddiejaoude"
         className="text-gray-400 hover:text-gray-500 flex justify-center space-x-6 md:order-2 gap-2"
       >
         <GiMoneyStack className="h-6 w-6" aria-hidden="true" />
-        Donate with GitHub Sponsors
+        Donate to LinkFree
       </Link>
     </footer>
   );
