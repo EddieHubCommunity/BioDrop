@@ -14,6 +14,31 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/protagonist_z0",
       "icon": "twitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/aditya-simant/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aadisimant/",
+      "icon": "instagram"
+    },
+    {
+      "name": "Connect with me on Dev.to",
+      "url": "https://dev.to/adityasimant",
+      "icon": "dev.to"
+    },
+    {
+      "name": "Follow me on Devpost",
+      "url": "https://devpost.com/adityasimant88?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+      "icon": "link"
+    },
+    {
+      "name": "Follow me on Polywork",
+      "url": "https://www.polywork.com/aadisimt",
+      "icon": "polywork"
     }
   ]
 }
