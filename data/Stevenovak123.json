@@ -3,7 +3,13 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Software Developer | Web Developer",
-  "tags": ["Open Source", "javascript", "typescript", "nextjs", "Web-Development"],
+  "tags": [
+    "Open Source",
+    "javascript",
+    "typescript",
+    "nextjs",
+    "Web-Development"
+  ],
   "avatar": "https://github.com/stevenovak123.png",
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/stevenovak123" },
