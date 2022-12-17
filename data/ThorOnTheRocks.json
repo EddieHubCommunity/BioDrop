@@ -4,7 +4,14 @@
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/ThorOnTheRocks.png",
-  "tags": ["javascript", "typescript", "react", "node", "open source", "design system"],
+  "tags": [
+    "javascript",
+    "typescript",
+    "react",
+    "node",
+    "open source",
+    "design system"
+  ],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/GianlucaGalota" },
     { "platform": "github", "url": "https://github.com/ThorOnTheRocks" }
