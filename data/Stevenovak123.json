@@ -1,8 +1,14 @@
 {
   "name": "Steve Dsouza",
   "type": "personal",
+  "displayStatsPublic": true,
   "bio": "Software Developer | Web Developer",
+  "tags": ["Open Source", "javascript", "typescript", "nextjs", "Web-Development"],
   "avatar": "https://github.com/stevenovak123.png",
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/stevenovak123" },
+    { "platform": "github", "url": "https://github.com/stevenovak123" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
