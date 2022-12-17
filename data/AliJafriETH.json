@@ -1,0 +1,23 @@
+{
+  "name": "Ali Jafri",
+  "type": "personal",
+  "bio": "Blockchain | Solidity & Smart Contracts",
+  "avatar": "https://github.com/AliJafriETH.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AliJafriETH",
+      "icon": "github"
+    },
+    {
+      "name": "Twitter: Tweets about Web3 and my learnings",
+      "url": "https://twitter.com/uptopali",
+      "icon": "twitter"
+    },
+    {
+      "name": "Blogs regarding Code and Web3",
+      "url": "https://alijafri.hashnode.dev/",
+      "icon": "hashnode"
+    }
+  ]
+}

@@ -42,6 +42,10 @@ const nextConfig = {
     formats: ["image/webp"],
   },
   compress: true,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 };
 
 const withMDX = createMDX({

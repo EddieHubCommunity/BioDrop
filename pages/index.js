@@ -4,6 +4,7 @@ import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
 import { MdHelpOutline } from "react-icons/md";
+import { MdArrowUpward } from "react-icons/md";
 
 import singleUser from "../config/user.json";
 
@@ -17,22 +18,32 @@ export async function getServerSideProps(context) {
     };
   }
 
-  let data = {};
+  let total = {};
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
     );
-    data = await res.json();
+    total = await res.json();
   } catch (e) {
-    console.log("ERROR stats not found ", e);
+    console.log("ERROR total stats not found ", e);
+  }
+
+  let today = {};
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/today`
+    );
+    today = await res.json();
+  } catch (e) {
+    console.log("ERROR today stats not found ", e);
   }
 
   return {
-    props: { data },
+    props: { total, today },
   };
 }
 
-export default function Home({ data }) {
+export default function Home({ total, today }) {
   return (
     <>
       <Head>
@@ -44,38 +55,77 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="bg-gray-50 mb-8 drop-shadow-md">
-          <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-              <span className="block">
-                Connects your audience with a single link
-              </span>
-              <span className="block text-indigo-600">100% Open Source</span>
-            </h2>
-            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-              {data.users > 0 && (
-                <div className="inline-flex rounded-md drop-shadow-md">
-                  <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-400">
-                    {abbreviateNumber(data.users)} USERS
+        <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
+            <span className="block">
+              Connects your audience with a single link
+            </span>
+            <span className="block text-indigo-600">100% Open Source</span>
+          </h2>
+          <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+            {total.users > 0 && (
+              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                <dt className="truncate text-sm font-medium text-gray-500">
+                  Users
+                </dt>
+                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    {abbreviateNumber(total.users)}
                   </div>
-                </div>
-              )}
-              {data.views > 0 && (
-                <div className="ml-3 inline-flex rounded-md drop-shadow-lg">
-                  <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600">
-                    {abbreviateNumber(data.views)} PROFILE VIEWS
+                </dd>
+              </div>
+            )}
+            {total.views > 0 && (
+              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                <dt className="truncate text-sm font-medium text-gray-500">
+                  Profile views
+                </dt>
+                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    {abbreviateNumber(total.views)}
+                    <span className="ml-2 text-sm font-medium text-gray-500">
+                      from {abbreviateNumber(total.views - today.views)}
+                    </span>
                   </div>
-                </div>
-              )}
-              {data.clicks > 0 && (
-                <div className="ml-3 inline-flex rounded-md drop-shadow-xl">
-                  <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-800">
-                    {abbreviateNumber(data.clicks)} LINKS CLICKED
+
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                    <MdArrowUpward
+                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
+                      aria-hidden="true"
+                    />
+
+                    <span className="sr-only">Increased by </span>
+                    {abbreviateNumber(today.views)}
                   </div>
-                </div>
-              )}
-            </div>
-          </div>
+                </dd>
+              </div>
+            )}
+            {total.clicks > 0 && (
+              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
+                <dt className="truncate text-sm font-medium text-gray-500">
+                  Links clicked
+                </dt>
+                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
+                    {abbreviateNumber(total.clicks)}
+                    <span className="ml-2 text-sm font-medium text-gray-500">
+                      from {abbreviateNumber(total.clicks - today.clicks)}
+                    </span>
+                  </div>
+
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                    <MdArrowUpward
+                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
+                      aria-hidden="true"
+                    />
+
+                    <span className="sr-only">Increased by </span>
+                    {abbreviateNumber(today.clicks)}
+                  </div>
+                </dd>
+              </div>
+            )}
+          </dl>
         </div>
 
         <p className="text-2xl font-normal text-center mb-6">

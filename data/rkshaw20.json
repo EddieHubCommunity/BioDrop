@@ -1,0 +1,58 @@
+{
+  "name": "Raj Kishor Shaw",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": " Web Developer | Open Source & communities | Blogger ",
+  "avatar": "https://github.com/rkshaw20.png",
+  "tags": ["Open Source", "Javascript", "Developer", "Blogs"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/RajKishorShaw17" },
+    { "platform": "github", "url": "https://github.com/rkshaw20" },
+    { "platform": "website", "url": "https://rajkishor20.netlify.app/" }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/rkshaw20",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RajKishorShaw17",
+      "icon": "twitter"
+    },
+    {
+      "name": "Personal Website",
+      "url": "https://rajkishor20.netlify.app/",
+      "icon": "globe"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/raj-kishor-shaw-636759144/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://hashnode.com/@rajkishorshaw",
+      "icon": "hashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First contribution got merged",
+      "date": "April 2022",
+      "icon": "github",
+      "color": "grey",
+      "description": "My first open source contibution",
+      "url": "https://github.com/amplication/amplication/pull/2497"
+    },
+    {
+      "title": "Got selected for Level 1 of NeogCamp'23 ",
+      "date": "October 2022",
+      "icon": "link",
+      "color": "black",
+      "description": "A community for learning full stack development.",
+      "url": "https://neog.camp/"
+    }
+  ]
+}

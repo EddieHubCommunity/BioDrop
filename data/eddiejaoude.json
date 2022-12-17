@@ -25,67 +25,66 @@
   ],
   "links": [
     {
-      "name": "Business DevRel Services",
+      "name": "Business: DevRel Services",
       "url": "http://eddiejaoude.io",
       "icon": "FaLink"
     },
     {
-      "name": "Inclusive Open Source community EddieHub (Discord, GitHub Org ...)",
-      "url": "http://eddiehub.org",
-      "icon": "FaLink"
-    },
-    {
-      "name": "Follow my Open Source on GitHub",
-      "url": "https://github.com/eddiejaoude",
-      "icon": "FaGithub",
-      "color": "#171515"
-    },
-    {
-      "name": "Follow me on Twitter",
+      "name": "Twitter: Follow me",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
-      "name": "Connect with me on Mastodon",
-      "url": "https://fosstodon.org/@eddiejaoude",
-      "icon": "SiMastodon"
-    },
-    {
-      "name": "Learn more about Open Source on my YouTube channel",
+      "name": "YouTube: Learn more about Open Source",
       "url": "https://youtube.com/eddiejaoude",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
     {
-      "name": "Watch behind the scenes on my 2nd YouTube channel (shorts)",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube Shorts: Quick technical tips",
       "url": "https://youtube.com/eddiejaoudetv",
       "icon": "FaYoutube"
     },
     {
-      "name": "Join my Open Source community EddieHub on Discord",
+      "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
+      "url": "http://eddiehub.org",
+      "icon": "FaLink"
+    },
+    {
+      "name": "EddieHub: Discord",
       "url": "http://discord.eddiehub.org",
       "icon": "FaDiscord"
     },
     {
-      "name": "Listen to my Podcast",
+      "name": "Podcast: Open Source community conversations",
       "url": "https://anchor.fm/eddiejaoude",
-      "icon": "SiCodeforces"
+      "icon": "FaPodcast"
     },
     {
-      "name": "Donate to me on GitHub Sponsors",
-      "url": "https://github.com/sponsors/eddiejaoude",
-      "icon": "FaDollarSign"
-    },
-    {
-      "name": "Customising your GitHub Profile course (free)",
+      "name": "Course (free): Customising your GitHub Profile",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
-      "icon": "FaLinkedin"
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "FaRegMoneyBillAlt"
     }
   ],
   "milestones": [

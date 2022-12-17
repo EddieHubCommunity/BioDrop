@@ -7,10 +7,18 @@ export default async function handler(req, res) {
     .readdirSync(directoryPath)
     .filter((item) => item.includes("json"));
 
-  const users = files.map((file) => ({
-    ...JSON.parse(fs.readFileSync(path.join(directoryPath, file), "utf8")),
-    username: file.split(".")[0],
-  }));
+  const users = files.flatMap((file) => {
+    const filePath = path.join(directoryPath, file);
+    try {
+      return {
+        ...JSON.parse(fs.readFileSync(filePath, "utf8")),
+        username: file.split(".")[0],
+      };
+    } catch (e) {
+      console.log(`ERROR loading profile "${filePath}"`);
+      return [];
+    }
+  });
 
   const events = users
     .filter((user) => user.events)

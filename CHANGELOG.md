@@ -1,45 +1,45 @@
-## [1.22.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.3...v1.22.4) (2022-12-11)
+## [1.24.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.7...v1.24.8) (2022-12-16)
 
 
 ### Bug Fixes
 
-* deleting test testimonial file ([529c567](https://github.com/EddieHubCommunity/LinkFree/commit/529c5678fde412b984f5765f9eba6896d40d1249))
+* gh action secret ([a93ed77](https://github.com/EddieHubCommunity/LinkFree/commit/a93ed77a1d9524d4c3f11d5e67703d3da5a13c99))
 
 
 
-## [1.22.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.2...v1.22.3) (2022-12-11)
-
-
-### Bug Fixes
-
-* testimonial gh action filter [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([58504a6](https://github.com/EddieHubCommunity/LinkFree/commit/58504a668c8337d2e0466b91b81098c01c39889f))
-
-
-
-## [1.22.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.1...v1.22.2) (2022-12-11)
+## [1.24.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.6...v1.24.7) (2022-12-16)
 
 
 ### Bug Fixes
 
-* testimonials action only runs on label [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([8659084](https://github.com/EddieHubCommunity/LinkFree/commit/8659084125195faa9e0e185eaa2ad6e5e6bf563e))
+* prettier event trigger ([106f27f](https://github.com/EddieHubCommunity/LinkFree/commit/106f27f89f742d1718bba3818b92149c87336b34))
 
 
 
-## [1.22.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.22.0...v1.22.1) (2022-12-11)
+## [1.24.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.5...v1.24.6) (2022-12-16)
 
 
 ### Bug Fixes
 
-* user not on platform ([44532b4](https://github.com/EddieHubCommunity/LinkFree/commit/44532b4b27d03ee993dae2531fb4d6b08afc287b))
+* gh action for json validate ([d041f87](https://github.com/EddieHubCommunity/LinkFree/commit/d041f87ecdf9a151008238e447b08aa87d94412f))
 
 
 
-# [1.22.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.21.1...v1.22.0) (2022-12-10)
+## [1.24.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.4...v1.24.5) (2022-12-16)
 
 
-### Features
+### Bug Fixes
 
-* search users by tags ([#2341](https://github.com/EddieHubCommunity/LinkFree/issues/2341)) ([3c55875](https://github.com/EddieHubCommunity/LinkFree/commit/3c5587586aa2b1e40f5597fd1a26facc63544d81))
+* prettier not on pull requests ([0523900](https://github.com/EddieHubCommunity/LinkFree/commit/052390079b42bd3e79172654b6cbe2edf0f037ae))
+
+
+
+## [1.24.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.3...v1.24.4) (2022-12-16)
+
+
+### Bug Fixes
+
+* lang attribute to html tag ([#2415](https://github.com/EddieHubCommunity/LinkFree/issues/2415)) ([8fd99bc](https://github.com/EddieHubCommunity/LinkFree/commit/8fd99bca60860d5c5bf4322903eb70f19f2e5d9f))
 
 
 
