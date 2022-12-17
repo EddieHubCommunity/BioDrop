@@ -1,17 +1,98 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
 
-## Minimum profile
+## Add your profile
 
-To add your profie you can create a json file in the `data/` directory with the contents...
+There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+
+To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
+
+1. Log in to your GitHub Account
+2. Visit the [LinkFree repo](https://github.com/EddieHubCommunity/LinkFree)
+3. If you wish to be kept up to date with the repo, hit that "Star" at the top right
+4. Click on Fork
+5. Accept the default fork creating a copy of the LinkFree project in your account - this will take you to the forked repo
+6. Click add file and select "create new file"
+7. In the file path at the top, add `data/` then with your GitHub username exactly as it appears, and append `.json` (for example `data/SaraJaoude.json`)
+8. For the file contents use the json structure below:
 
 ```js
 {
-  "name": "Eddie Jaoude",
+  "name": "Sara Jaoude",
+  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Open Source DevRel | Founder of **EddieHub** | GitHub Star",
-  "avatar": "https://github.com/eddiejaoude.png",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/SaraJaoude.png",
 }
 ```
+
+| field              | type                 | description                                                                                                   |
+| :----------------- | :------------------- | :------------------------------------------------------------------------------------------------------------ |
+| name               | string               | Your display name on your Profile                                                                             |
+| displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter                                                         |
+| type               | personal / community | The type of account, is it a single person or a community                                                     |
+| bio                | string               | Your description about yourself (you an use markdown here)                                                    |
+| avatar             | string               | Here we recommend you use a magic GitHub link for your profile which is your GitHub link appended with `.png` |
+
+9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
+
+```js
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+```
+
+| field | type   | description                                                   |
+| :---- | :----- | :------------------------------------------------------------ |
+| name  | string | The display name for the button                               |
+| url   | string | Full url to the resource                                      |
+| icon  | string | The icon you would like displayed, please use available icons |
+
+To add more links add another object inside the links collection. For example:
+
+```js
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/EddieAndSaraExplore",
+      "icon": "FaInstagram"
+    }
+  ]
+```
+
+10. Commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+
+You can skip `optional extended message`
+
+11. Click `create new branch` and you can use the default name provided
+12. Then click `Propose new file`
+13. Click `compare across forks` and you will see 4 drop downs
+
+| Dropdown     | Description                          | Example values               |
+| :----------- | :----------------------------------- | :--------------------------- |
+| 1st dropdown | Base repository (destination)        | `EddieHubCommunity/LinkFree` |
+| 2nd dropdown | Base repository branch (destination) | `main`                       |
+| 3rd dropdown | Your repository (source)             | `your-username/LinkFree`     |
+| 4th dropdown | Your repository branch (source)      | `your-username-patch-1`      |
+
+14. Click `Create pull request`
+15. The description will be filled with a template, please fill in the appropiate sections
+16. Click `Create pull request`
+17. Now you need to wait to have your Pull Request (changes) reviewed
+18. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
+19. Once merged your profile will be available a few minutes later on your custom url (for example: [linkfree.eddiehub.io/SaraJaoude](https://linkfree.eddiehub.io/SaraJaoude))
+
+## Edit your profile
+
+---
 
 ## How to add YOUR Profile
 
