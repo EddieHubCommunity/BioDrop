@@ -23,42 +23,87 @@ export default function DocsLayout({ children }) {
     {
       name: "Docs home",
       path: "/docs",
-      icon: "AiOutlineHome",
+      icon: "FaHome",
+    },
+    {
+      name: "Quickstart",
+      path: "/docs/quickstart",
+      icon: "FaHome",
+    },
+    {
+      name: "GitHub UI",
+      path: "/docs/github-ui",
+      icon: "FaHandSparkles",
+    },
+    {
+      name: "Gitpod",
+      path: "/docs/gitpod",
+      icon: "FaHandSparkles",
     },
     {
       name: "Local development",
       path: "/docs/local-development",
-      icon: "FaTools",
+      icon: "FaHandSparkles",
+    },
+    {
+      name: "Docker Compose",
+      path: "/docs/local-development-docker-compose",
+      icon: "FaHandSparkles",
     },
     {
       name: "Basic Profile",
-      path: "/docs",
-      icon: "BsFillPersonCheckFill",
+      path: "/docs/basic",
+      icon: "FaTools",
+    },
+    {
+      name: "Milestones",
+      path: "/docs/testimonials",
+      icon: "FaTools",
     },
     {
       name: "Testimonials",
       path: "/docs/testimonials",
-      icon: "TfiWrite",
+      icon: "FaTools",
     },
     {
-      name: "Advanced Profile",
+      name: "Events",
+      path: "/docs/testimonials",
+      icon: "FaTools",
+    },
+    {
+      name: "Social shortcuts",
+      path: "/docs/testimonials",
+      icon: "FaTools",
+    },
+    {
+      name: "Tags",
+      path: "/docs/testimonials",
+      icon: "FaTools",
+    },
+    {
+      name: "Full Profile Example",
       path: "/docs/full-profile",
-      icon: "GiProgression",
+      icon: "FaUserCheck",
     },
     {
       name: "Storybook",
       path: "/docs/storybook",
-      icon: "SiStorybook",
+      icon: "FaLaptop",
     },
     {
       name: "Automated tests",
       path: "/docs/automated-tests",
-      icon: "TbSettingsAutomation",
+      icon: "FaLaptop",
+    },
+    {
+      name: "Hacktoberfest",
+      path: "/docs/hacktoberfest",
+      icon: "FaLaptop",
     },
     {
       name: "Single user mode",
       path: "/docs/single-user-mode",
-      icon: "BsPersonBoundingBox",
+      icon: "MdOutlineDraw",
     },
     {
       name: "Available Icons",
@@ -66,14 +111,9 @@ export default function DocsLayout({ children }) {
       icon: "MdOutlineDraw",
     },
     {
-      name: "Hacktoberfest",
-      path: "/docs/hacktoberfest",
-      icon: "BsCodeSlash",
-    },
-    {
       name: "FAQs",
       path: "/docs/faqs",
-      icon: "BsQuestionCircle",
+      icon: "FaQuestion",
     },
   ];
   return (
