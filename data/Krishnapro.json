@@ -4,11 +4,14 @@
   "type": "personal",
   "bio": "Software Developer | Open Sorce | DevOps Enthusiasts",
   "avatar": "https://github.com/Krishnapro.png",
-  "tags": ["Java","Scala","javascript"],
+  "tags": ["Java", "Scala", "javascript"],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/krishnapro_" },
     { "platform": "github", "url": "https://github.com/Krishnapro" },
-    { "platform": "linkedin", "url": "https://www.linkedin.com/in/krishnakumar25/" }
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/krishnakumar25/"
+    }
   ],
   "links": [
     {
