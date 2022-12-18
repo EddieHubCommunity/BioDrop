@@ -15,11 +15,6 @@ a {
   box-sizing: border-box;
 }
 
-.user-link:hover {
-  --user-link-color: #808080;
-  border-color: var(--user-link-color);
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

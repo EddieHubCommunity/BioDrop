@@ -31,9 +31,9 @@ export default function UserLink({
       target="_blank"
       rel="noopener noreferrer"
       onClick={clickLink}
-      className="rounded-full border-2 border-gray-200 hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center user-link"
+      className="rounded-full border-2 border-gray-200 hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
       style={{
-        "--user-link-color": colors[link.icon]
+        "--hover-color": colors[link.icon]
       }}
     >
       <span style={{color: colors[link.icon]}}>
