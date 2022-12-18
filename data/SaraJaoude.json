@@ -9,14 +9,9 @@
       "url": "https://twitter.com/SaraJaoude",
       "icon": "FaTwitter"
     },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/eddieandsaraexplore",
-      "icon": "FaYouTube"
-    },
-    {
+     {
       "name": "Instagram",
-      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "url": "https://www.instagram.com/littleashtangi/",
       "icon": "FaInstagram"
     },
     {
@@ -28,6 +23,16 @@
       "name": "GitHub",
       "url": "https://github.com/SaraJaoude",
       "icon": "FaGithub"
+    },
+    {
+      "name": "YouTube: Eddie and Sara Explore",
+      "url": "https://www.youtube.com/eddieandsaraexplore",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Instagram: Eddie and Sara Explore",
+      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "icon": "FaInstagram"
     }
   ]
 }
