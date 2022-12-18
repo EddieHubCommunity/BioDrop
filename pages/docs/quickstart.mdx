@@ -68,7 +68,7 @@ To add more links add another object inside the links collection. For example:
   ]
 ```
 
-10. Commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+10. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
 
 You can skip `optional extended message`
 
@@ -92,71 +92,48 @@ You can skip `optional extended message`
 
 ## Edit your profile
 
----
+If you want to edit your profile (for example update a link or remove a link), follow these steps:
 
-## How to add YOUR Profile
+1. Log into your GitHub Account
+2. Go to your Repositories
+3. Then click on the `LinkFree` repo (fork)
+4. Now we need to update your fork. You can do this by clicking on `Sync fork`
+5. Click `Go to file` and type your GitHub username
+6. Click on your json file
+7. Click the `edit` pencil icon at the top right
+8. Make the changes you require
+9. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
 
-In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique.
+You can skip `optional extended message`
 
-**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events` **\
+11. Click `create new branch` and you can use the default name provided
+12. Then click `Propose changes`
+13. Click `compare across forks` and select the destination on the left and the source on the right
+14. Click `Create pull request`
+15. You will see a title and description for the Pull Request, fill these in and click `Create pull request`
+16. Now you need to wait to have your Pull Request (changes) reviewed
+17. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
+18. Once merged your profile will be available a few minutes later on the same custom url (for example: [linkfree.eddiehub.io/SaraJaoude](https://linkfree.eddiehub.io/SaraJaoude))
+
+## Extra
+
+There are additional fields you can add to your profile, these are optional:
+
+| Sections                    | Json object  | Description                                                          |
+| :-------------------------- | :----------- | :------------------------------------------------------------------- |
+| milestone events            | milestones   | Milestones you wish to highlight (for example "First day on GitHub") |
+| social icons                | socials      | These are the icons at the top of your profile                       |
+| testimonials                | testimonials | Include testimonials from other people in the community              |
+| Virtual or in person events | events       | Show which events you are attending                                  |
+
+You can learn more about these later on in the documentation, in their respective sections.
+
+## Example profiles
+
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
 - [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
 - [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
-
-Your brand new file should look something similar to this one:
-
-> **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
-
-```json
-{
-  "name": "YOUR NAME",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
-  "tags": ["javascript", "typescript"],
-  "socials": [
-    {
-      "platform": "twitter",
-      "url": "https://twitter.com/YOUR_TWITTER_USERNAME"
-    },
-    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
-  ],
-  "links": [
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "github"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "twitter"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Started Freelancing",
-      "date": "December 2021",
-      "icon": "dollar",
-      "color": "grey",
-      "description": "Started freelancing",
-      "url": "https://www.eddiejaoude.io/"
-    }
-  ]
-}
-```
-
-Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
-
-For example: https://linkfree.eddiehub.io/eddiejaoude
-
-To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
-
-For example: `http://github.com/eddiejaoude.png`
-
-Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
 export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
