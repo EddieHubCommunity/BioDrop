@@ -25,64 +25,64 @@
   ],
   "links": [
     {
-      "name": "Business DevRel Services",
+      "name": "Business: DevRel Services",
       "url": "http://eddiejaoude.io",
       "icon": "link"
     },
     {
-      "name": "Inclusive Open Source community EddieHub (Discord, GitHub Org ...)",
-      "url": "http://eddiehub.org",
-      "icon": "link"
-    },
-    {
-      "name": "Follow my Open Source on GitHub",
-      "url": "https://github.com/eddiejaoude",
-      "icon": "github"
-    },
-    {
-      "name": "Follow me on Twitter",
+      "name": "Twitter: Follow me",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "twitter"
     },
     {
-      "name": "Connect with me on Mastodon",
-      "url": "https://fosstodon.org/@eddiejaoude",
-      "icon": "mastodon"
-    },
-    {
-      "name": "Learn more about Open Source on my YouTube channel",
+      "name": "YouTube: Learn more about Open Source",
       "url": "https://youtube.com/eddiejaoude",
       "icon": "youtube"
     },
     {
-      "name": "Watch behind the scenes on my 2nd YouTube channel (shorts)",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
+    },
+    {
+      "name": "YouTube Shorts: Quick technical tips",
       "url": "https://youtube.com/eddiejaoudetv",
       "icon": "youtube"
     },
     {
-      "name": "Join my Open Source community EddieHub on Discord",
+      "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
+      "url": "http://eddiehub.org",
+      "icon": "link"
+    },
+    {
+      "name": "EddieHub: Discord",
       "url": "http://discord.eddiehub.org",
       "icon": "discord"
     },
     {
-      "name": "Listen to my Podcast",
+      "name": "Podcast: Open Source community conversations",
       "url": "https://anchor.fm/eddiejaoude",
       "icon": "codeforces"
     },
     {
-      "name": "Donate to me on GitHub Sponsors",
-      "url": "https://github.com/sponsors/eddiejaoude",
-      "icon": "dollar"
-    },
-    {
-      "name": "Customising your GitHub Profile course (free)",
+      "name": "Course (free): Customising your GitHub Profile",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "github"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://linkedin.com/in/eddiejaoude",
-      "icon": "linkedin"
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "mastodon"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "dollar"
     }
   ],
   "milestones": [

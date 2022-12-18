@@ -2,7 +2,9 @@
   "name": "Shashank Deshpande",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Open Source Enthusiast! | DevOps | MERN Developer | Self-paced Full-Stack Developer",
+
+  "bio": "OpenSource Enthusiast! | DevOps | MERN-Developer | Self-paced Full-Stack Developer",
+
   "avatar": "https://github.com/Shashankzz0007.png",
   "tags": ["opensource", "javascript", "typescript", "Reactjs", "DevOps"],
   "socials": [
@@ -19,7 +21,8 @@
   ],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "Connect with me on GitHub",
+
       "url": "https://github.com/Shashankzz0007",
       "icon": "github"
     },
@@ -29,17 +32,20 @@
       "icon": "twitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
+
       "url": "https://www.linkedin.com/in/shashankd007",
       "icon": "linkedin"
     },
     {
-      "name": "Follow me on ShowCase",
+      "name": "Connect with me on ShowCase",
+
       "url": "https://www.showwcase.com/shashankzz0007",
       "icon": "showcase"
     },
     {
-      "name": "Join me on Discord",
+      "name": "Connect with me on Discord",
+
       "url": "https://discord.com/channels/@me",
       "icon": "discord"
     },
@@ -51,11 +57,12 @@
   ],
   "milestones": [
     {
-      "title": "Started Open Source Contributions!",
+      "title": "Participated in Hactoberfest in Open Source in eddiehub community ",
       "date": "October 2022",
       "icon": "dollar",
       "color": "grey",
-      "description": "I am newbie at Open Source to learn about tech and work in collaboration with great people.",
+      "description": "I am newbie at Open Source and to learn about tech and work in collaboration with great people.",
+
       "url": "https://github.com/Shashankzz0007"
     }
   ]
