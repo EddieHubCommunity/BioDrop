@@ -1,8 +1,15 @@
 {
   "name": "SAMUEL IGWESI",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Web Developer & Tech Enthusiast",
   "avatar": "https://github.com/SamuelIgwesi.png",
+  "tags": ["javascript", "nodeJS"],
+   "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/prime_developer" },
+    { "platform": "github", "url": "https://github.com/Samuel_Igwesi" },
+    { "platform": "linkedin", "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -13,6 +20,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/PRIME_DEVELOPER",
       "icon": "twitter"
+    },
+    {
+     "name": "Follow me on LinkedIn",
+     "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/",
+     "icon": "linkedin"
     }
   ],
   "milestones": [
@@ -21,7 +33,7 @@
       "date": "November 2021",
       "icon": "dollar",
       "color": "grey",
-      "description": "Started freelancing"
+      "description": "Started freelancing",
       "url": "https://samdev.onrender.com/"
     }
   ]
