@@ -1,3 +1,12 @@
+## [1.24.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.8...v1.24.9) (2022-12-19)
+
+
+### Bug Fixes
+
+* text contrast ratio on UserLink ([#2424](https://github.com/EddieHubCommunity/LinkFree/issues/2424)) ([e0b4cc5](https://github.com/EddieHubCommunity/LinkFree/commit/e0b4cc59777d2d98d72d93cf164141458ec76176))
+
+
+
 ## [1.24.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.7...v1.24.8) (2022-12-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * prettier not on pull requests ([0523900](https://github.com/EddieHubCommunity/LinkFree/commit/052390079b42bd3e79172654b6cbe2edf0f037ae))
-
-
-
-## [1.24.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.3...v1.24.4) (2022-12-16)
-
-
-### Bug Fixes
-
-* lang attribute to html tag ([#2415](https://github.com/EddieHubCommunity/LinkFree/issues/2415)) ([8fd99bc](https://github.com/EddieHubCommunity/LinkFree/commit/8fd99bca60860d5c5bf4322903eb70f19f2e5d9f))
 
 
 
