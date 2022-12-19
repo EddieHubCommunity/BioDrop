@@ -1,0 +1,73 @@
+{
+  "name": "Manish Bisht",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
+  "avatar": "https://github.com/eddiejaoude.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/eddiejaoude" },
+    { "platform": "github", "url": "https://github.com/eddiejaoude" },
+    { "platform": "youtube", "url": "https://youtube.com/eddiejaoude" }
+  ],
+
+  "links": [
+    {
+      "name": "Donate to me on GitHub Sponsors",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "dollar"
+    },
+    {
+      "name": "Customising your GitHub Profile course (free)",
+      "url": "http://eddiejaoude.io/course-github-profile-landing",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "linkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Became a **GitHub** Star with 30 other people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "isGoal": true,
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "isGoal": true,
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "github",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people"
+    }
+  ]
+}
