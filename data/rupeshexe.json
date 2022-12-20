@@ -4,12 +4,7 @@
   "type": "personal",
   "bio": "Student",
   "avatar": "https://github.com/rupeshexe.png",
-  "tags": [
-    "Python",
-    "Java",
-    "DSA",
-    "Data Science"
-  ],
+  "tags": ["Python", "Java", "DSA", "Data Science"],
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/rupeshtwt" },
     { "platform": "github", "url": "https://github.com/rupeshexe" },
