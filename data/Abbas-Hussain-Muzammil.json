@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Open Source Enthusiast | Blogger | Software Engineer",
   "avatar": "https://github.com/Abbas-Hussain-Muzammil.png",
-// tags
+
   "socials": [
     { "platform": "twitter", "url": "https://twitter.com/ahussain2399" },
     { "platform": "github", "url": "https://github.com/Abbas-Hussain-Muzammil" }
@@ -38,6 +38,6 @@
 
 
   ],
-  // milestones
+  
   ]
 }
