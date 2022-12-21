@@ -1,4 +1,4 @@
-## [1.24.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.8...v1.24.9) (2022-12-19)
+## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.24.10) (2022-12-21)
 
 
 ### Bug Fixes
@@ -7,25 +7,7 @@
 
 
 
-## [1.24.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.7...v1.24.8) (2022-12-16)
-
-
-### Bug Fixes
-
-* gh action secret ([a93ed77](https://github.com/EddieHubCommunity/LinkFree/commit/a93ed77a1d9524d4c3f11d5e67703d3da5a13c99))
-
-
-
-## [1.24.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.6...v1.24.7) (2022-12-16)
-
-
-### Bug Fixes
-
-* prettier event trigger ([106f27f](https://github.com/EddieHubCommunity/LinkFree/commit/106f27f89f742d1718bba3818b92149c87336b34))
-
-
-
-## [1.24.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.5...v1.24.6) (2022-12-16)
+# [1.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/fa1ac2cc6b9d967776e70346710b82d3e0143d7e...v1.25.0) (2022-12-18)
 
 
 ### Bug Fixes
@@ -261,7 +243,6 @@
 * generating data ([#472](https://github.com/EddieHubCommunity/LinkFree/issues/472)) ([ecac63b](https://github.com/EddieHubCommunity/LinkFree/commit/ecac63b91e20a96e82d38d7273010da94d54f7c6))
 * getting link stats ([8a46a85](https://github.com/EddieHubCommunity/LinkFree/commit/8a46a858fccbf9abd6b84927f0b1a36ca292bb6b))
 * gh action for json validate ([d041f87](https://github.com/EddieHubCommunity/LinkFree/commit/d041f87ecdf9a151008238e447b08aa87d94412f))
-<<<<<<< HEAD
 * gh action format ([#1715](https://github.com/EddieHubCommunity/LinkFree/issues/1715)) ([11acbab](https://github.com/EddieHubCommunity/LinkFree/commit/11acbabb1a3de0236bacf762f887b864a8038cbe))
 * gh action secret ([a93ed77](https://github.com/EddieHubCommunity/LinkFree/commit/a93ed77a1d9524d4c3f11d5e67703d3da5a13c99))
 * github actions ([a97f01c](https://github.com/EddieHubCommunity/LinkFree/commit/a97f01cc1ef9ef326e4ee44f334f65eee7fdcc14))
@@ -736,17 +717,6 @@
 ### Reverts
 
 * Revert "chore: removed docker file to test deployment" ([3dbd7e5](https://github.com/EddieHubCommunity/LinkFree/commit/3dbd7e51288161f881d235169232de43c3de20ec))
-=======
-
-
-
-## [1.24.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.4...v1.24.5) (2022-12-16)
-
-
-### Bug Fixes
-
-* prettier not on pull requests ([0523900](https://github.com/EddieHubCommunity/LinkFree/commit/052390079b42bd3e79172654b6cbe2edf0f037ae))
->>>>>>> a5e506194ab8c4789e5115796e13e4bd00129821
 
 
 
