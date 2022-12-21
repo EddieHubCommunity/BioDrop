@@ -6,11 +6,11 @@
   "avatar": "https://github.com/SaraJaoude.png",
   "socials": [
     {
-      "platform": "FaTwitter",
+      "platform": "twitter",
       "url": "https://twitter.com/SaraJaoude"
     },
     {
-      "platform": "FaYouTube",
+      "platform": "youtube",
       "url": "https://www.youtube.com/@EddieandSaraExplore"
     }
   ],
@@ -18,32 +18,32 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/SaraJaoude",
-      "icon": "FaTwitter"
+      "icon": "twitter"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/littleashtangi/",
-      "icon": "FaInstagram"
+      "icon": "instagram"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/sara-abou-jaoude-1a005425/",
-      "icon": "FaLinkedin"
+      "icon": "linkedin"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/SaraJaoude",
-      "icon": "FaGithub"
+      "icon": "github"
     },
     {
       "name": "YouTube: Eddie and Sara Explore",
       "url": "https://www.youtube.com/eddieandsaraexplore",
-      "icon": "FaYouTube"
+      "icon": "youtube"
     },
     {
       "name": "Instagram: Eddie and Sara Explore",
       "url": "https://www.instagram.com/eddieandsaraexplore/",
-      "icon": "FaInstagram"
+      "icon": "instagram"
     }
   ]
 }
