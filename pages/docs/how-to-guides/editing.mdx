@@ -1,0 +1,70 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+
+## Edit your profile
+
+There are two types of edits:
+
+1. Making new changes then creating a Pull Request
+2. Adding more changes to an existing open Pull request
+
+### New Edits
+
+If you want to edit your profile (for example update a link or remove a link), follow these steps:
+
+1. Log into your GitHub Account
+2. Go to your Repositories
+3. Then click on the `LinkFree` repo (fork)
+4. Now we need to make sure your fork is up to date. You can do this by clicking on `Sync fork` and click `Update branch` (if available)
+5. Click `Go to file` and type your GitHub username
+6. Click on your json file
+7. Click the `edit` pencil icon at the top right
+8. Make the changes you require
+
+Changes could include:
+
+- updating your bio
+- adding a new section (see examples below)
+
+| Sections                    | Json object        | Description                                                                                          |
+| :-------------------------- | :----------------- | :--------------------------------------------------------------------------------------------------- |
+| statistics                  | displayStatsPublic | Display the total Profile views and link clicks                                                      |
+| social shortcuts            | socials            | These are the icons at the top of your Profile                                                       |
+| tags                        | tags               | These are search keywords for people to discover your Profile (for example `DevRel` or `Javascript`) |
+| milestones                  | milestones         | Milestones you wish to highlight (for example "First day on GitHub")                                 |
+| testimonials                | testimonials       | Include testimonials from other people in the community                                              |
+| Virtual or in person events | events             | Show which events you are attending                                                                  |
+
+For how to add each of these sections, please referring to their relevant guides.
+
+9. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+
+You can skip `optional extended message`
+
+11. Click `create new branch` and you can use the default name provided
+12. Then click `Propose changes`
+13. Click `compare across forks` and select the destination on the left and the source on the right
+14. Click `Create pull request`
+15. You will see a title and description for the Pull Request, fill these in and click `Create pull request`
+16. Now you need to wait to have your Pull Request (changes) reviewed
+17. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
+18. Once merged your profile will be available a few minutes later on the same custom url (for example: [linkfree.eddiehub.io/SaraJaoude](https://linkfree.eddiehub.io/SaraJaoude))
+
+You can learn more about these later on in the documentation, in their respective sections.
+
+### Adding more changes to an open Pull Request
+
+The main two reasons for making additional edits to an open Pull Request are:
+
+1. GitHub Action failed
+2. Your Pull Request has received a comment requesting changes
+
+To make further changes to an open Pull Request, follow these steps:
+
+1. Go to your open Pull Request
+2. Click on the tab `Files Changed`
+3. At the top right of the file click on the 3 dots and then click `Edit file` (this will allow you to edit your file in your branch that is in your fork)
+4. Make changes and commit these to the same branch (this should automatically be selected)
+
+GitHub will automatically append these changes to your open Pull Request.
+
+export default ({ children }) => <DocsLayout>{children}</DocsLayout>;

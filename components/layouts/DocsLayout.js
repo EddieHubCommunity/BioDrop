@@ -51,8 +51,28 @@ export default function DocsLayout({ children }) {
       icon: "FaHandSparkles",
     },
     {
-      name: "Basic Profile",
-      path: "/docs/how-to-guides/basic-profile",
+      name: "Editing",
+      path: "/docs/how-to-guides/editing",
+      icon: "FaTools",
+    },
+    {
+      name: "Bio",
+      path: "/docs/how-to-guides/bio",
+      icon: "FaTools",
+    },
+    {
+      name: "Statistics",
+      path: "/docs/how-to-guides/statistics",
+      icon: "FaTools",
+    },
+    {
+      name: "Tags",
+      path: "/docs/how-to-guides/tags",
+      icon: "FaTools",
+    },
+    {
+      name: "Social shortcuts",
+      path: "/docs/how-to-guides/socials-shortcuts",
       icon: "FaTools",
     },
     {
@@ -68,16 +88,6 @@ export default function DocsLayout({ children }) {
     {
       name: "Events",
       path: "/docs/how-to-guides/events",
-      icon: "FaTools",
-    },
-    {
-      name: "Social shortcuts",
-      path: "/docs/how-to-guides/socials-shortcuts",
-      icon: "FaTools",
-    },
-    {
-      name: "Tags",
-      path: "/docs/how-to-guides/tags",
       icon: "FaTools",
     },
     {
