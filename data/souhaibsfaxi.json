@@ -1,0 +1,29 @@
+{
+  "name": "YOUR NAME",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/souhaibsfaxi.png",
+  "tags": ["javascript", "typescript"],
+  "socials": [
+    
+    { "platform": "github", "url": "https://github.com/souhaibsfaxi" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/YOUR_GITHUB_USERNAME",
+      "icon": "github"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.eddiejaoude.io/"
+    }
+  ]
+}
