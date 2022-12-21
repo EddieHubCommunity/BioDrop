@@ -35,19 +35,24 @@
       "icon": "linkedin"
     },
     {
-      "name": "Check out my YouTube channel",
+      "name": "Main YouTube channel (English)",
       "url": "https://youtube.com/juliafmorgado",
       "icon": "youtube"
     },
     {
-      "name": "KubeCof — your Kubernetes Coffee Chat",
-      "url": "https://linktr.ee/kubecof",
-      "icon": "link"
+      "name": "Canal do Youtube em Português",
+      "url": "https://youtube.com/@juliafmorgadoPT",
+      "icon": "youtube"
     },
     {
-      "name": "Subscribe to my newsletter",
-      "url": "https://www.getrevue.co/profile/juliafmorgado",
-      "icon": "envelope"
+      "name": "Chaîne Youtube en Français",
+      "url": "https://youtube.com/@juliafmorgadoFR",
+      "icon": "youtube"
+    },
+    {
+      "name": "Canal de Youtube en Español",
+      "url": "https://youtube.com/@juliafmorgadoES",
+      "icon": "youtube"
     }
   ],
   "milestones": [
