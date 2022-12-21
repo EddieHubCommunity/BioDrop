@@ -49,40 +49,87 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ users, data, BASE_URL }) {
+  const [userData, setUserData] = useState(data);
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
+    { name: "My Links", href: "#", current: true, order:"ASC" },
+    { name: "Milestones", href: "#", current: false, order:"ASC" },
+    { name: "Testimonials", href: "#", current: false, order:"ASC" },
+    { name: "Events", href: "#", current: false, order:"ASC" },
   ];
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "My Links") {
-      if (data.links && data.links.length) {
-        return { ...tab, total: data.links.length };
+      if (userData.links && userData.links.length) {
+        return { ...tab, total: userData.links.length };
       }
       return [];
     }
     if (tab.name === "Milestones") {
-      if (data.milestones && data.milestones.length) {
-        return { ...tab, total: data.milestones.length };
+      if (userData.milestones && userData.milestones.length) {
+        return { ...tab, total: userData.milestones.length };
       }
       return [];
     }
     if (tab.name === "Testimonials") {
-      if (data.testimonials && data.testimonials.length) {
-        return { ...tab, total: data.testimonials.length };
+      if (userData.testimonials && userData.testimonials.length) {
+        return { ...tab, total: userData.testimonials.length };
       }
       return [];
     }
     if (tab.name === "Events") {
-      if (data.events && data.events.length) {
-        return { ...tab, total: data.events.length };
+      if (userData.events && userData.events.length) {
+        return { ...tab, total: userData.events.length };
       }
       return [];
     }
   });
   const [tabs, setTabs] = useState(displayTabs);
-
+  const sortUserTabItems = (tabName, order) =>{
+    if (tabName === "Events") {
+      userData.events.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        if (order==="ASC") {
+            return new Date(a.date.start) > new Date(b.date.start) ? 1 : new Date(a.date.start) < new Date(b.date.start) ? -1 : 0;
+        } else {
+            return new Date(a.date.start) < new Date(b.date.start) ? 1 : new Date(a.date.start) > new Date(b.date.start) ? -1 : 0;
+        }
+      });
+    }
+    if (tabName === "Milestones") {
+      userData.milestones.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        if (order==="ASC") {
+            return new Date(a.date) > new Date(b.date) ? 1 : new Date(a.date) < new Date(b.date) ? -1 : 0;
+        } else {
+            return new Date(a.date) < new Date(b.date) ? 1 : new Date(a.date) > new Date(b.date) ? -1 : 0;
+        }
+      });
+    }
+    if (tabName === "Testimonials") {
+      userData.testimonials.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+        if (order==="ASC") {
+            return new Date(a.date) > new Date(b.date) ? 1 : new Date(a.date) < new Date(b.date) ? -1 : 0;
+        } else {
+            return new Date(a.date) < new Date(b.date) ? 1 : new Date(a.date) > new Date(b.date) ? -1 : 0;
+        }
+      });
+    }
+    if (tabName === "My Links") {
+      userData.links.sort(function(a,b){
+        // Turn your strings into dates, and then subtract them
+        // to get a value that is either negative, positive, or zero.
+          if (order==="ASC") {
+            return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 0;
+          } else {
+            return a.name.toLowerCase() < b.name.toLowerCase() ? 1 : a.name.toLowerCase() > b.name.toLowerCase() ? -1 : 0;
+          }
+      });
+    }
+    setUserData({...userData});
+  }
   return (
     <>
       <Head>
@@ -100,28 +147,28 @@ export default function User({ users, data, BASE_URL }) {
       </Head>
 
       <Page>
-        <UserProfile data={data} BASE_URL={BASE_URL} />
+        <UserProfile data={userData} BASE_URL={BASE_URL} />
 
-        <UserTabs tabs={tabs} setTabs={setTabs} />
+        <UserTabs tabs={tabs} setTabs={setTabs} sortUserTabItems={sortUserTabItems} />
 
         {tabs.find((tab) => tab.name === "My Links") &&
           tabs.find((tab) => tab.name === "My Links").current && (
-            <UserLinks data={data} BASE_URL={BASE_URL} />
+            <UserLinks data={userData} BASE_URL={BASE_URL} />
           )}
 
         {tabs.find((tab) => tab.name === "Milestones") &&
           tabs.find((tab) => tab.name === "Milestones").current && (
-            <UserMilestones data={data} />
+            <UserMilestones data={userData} />
           )}
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
+            <UserTestimonials data={userData} users={users} BASE_URL={BASE_URL} />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&
           tabs.find((tab) => tab.name === "Events").current && (
-            <UserEvents data={data} />
+            <UserEvents data={userData} />
           )}
       </Page>
     </>
