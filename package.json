@@ -31,7 +31,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "postinstall": "ncp ./.env.example ./.env",
-    "create": "npx linkfree-cli"
+    "create": "npx linkfree-cli",
+    "start:docker": "npm run build && npm start"
   },
   "browserslist": {
     "production": [
