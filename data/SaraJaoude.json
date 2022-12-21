@@ -9,7 +9,10 @@
       "platform": "FaTwitter",
       "url": "https://twitter.com/SaraJaoude"
     },
-    {"platform": "FaYouTube", "url": "https://www.youtube.com/@EddieandSaraExplore" }
+    {
+      "platform": "FaYouTube",
+      "url": "https://www.youtube.com/@EddieandSaraExplore"
+    }
   ],
   "links": [
     {
