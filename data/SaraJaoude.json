@@ -4,6 +4,11 @@
   "type": "personal",
   "bio": "Lawyer turned Digital Nomad, travel enthusiast, Yoga & Peloton aficionado",
   "avatar": "https://github.com/SaraJaoude.png",
+  "tags": [
+    "Digital Nomad",
+    "Open Source",
+    "Travel Vlogger"
+    ],
   "socials": [
     {
       "platform": "twitter",
