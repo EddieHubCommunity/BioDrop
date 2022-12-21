@@ -15,7 +15,7 @@
   ],
   "links": [
     {
-      "name": "GitHub: Let's Collaborate",
+      "name": "Let's Collaborate",
       "url": "https://github.com/anurag-rajawat",
       "icon": "github"
     },
@@ -38,7 +38,7 @@
   "milestones": [
     {
       "title": "Started Open Source",
-      "date": "Janurag 2022",
+      "date": "January 2022",
       "icon": "open-source",
       "color": "grey",
       "description": "Started contributing to Open Source projects"
