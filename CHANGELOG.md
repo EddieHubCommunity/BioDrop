@@ -1,3 +1,12 @@
+## [1.24.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.10...v1.24.11) (2022-12-22)
+
+
+### Bug Fixes
+
+* events user only on all list ([e163476](https://github.com/EddieHubCommunity/LinkFree/commit/e163476a8cb90eb9a3946c5d2403ec03aed1ada1))
+
+
+
 ## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.9...v1.24.10) (2022-12-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * prettier event trigger ([106f27f](https://github.com/EddieHubCommunity/LinkFree/commit/106f27f89f742d1718bba3818b92149c87336b34))
-
-
-
-## [1.24.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.5...v1.24.6) (2022-12-16)
-
-
-### Bug Fixes
-
-* gh action for json validate ([d041f87](https://github.com/EddieHubCommunity/LinkFree/commit/d041f87ecdf9a151008238e447b08aa87d94412f))
 
 
 
