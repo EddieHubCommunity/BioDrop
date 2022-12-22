@@ -81,13 +81,13 @@ export default function DocsLayout({ children }) {
       icon: "FaTools",
     },
     {
-      name: "Testimonials",
-      path: "/docs/how-to-guides/testimonials",
+      name: "Events",
+      path: "/docs/how-to-guides/events",
       icon: "FaTools",
     },
     {
-      name: "Events",
-      path: "/docs/how-to-guides/events",
+      name: "Testimonials",
+      path: "/docs/how-to-guides/testimonials",
       icon: "FaTools",
     },
     {
