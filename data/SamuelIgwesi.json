@@ -5,10 +5,13 @@
   "bio": "Web Developer & Tech Enthusiast",
   "avatar": "https://github.com/SamuelIgwesi.png",
   "tags": ["javascript", "nodeJS"],
-   "socials": [
+  "socials": [
     { "platform": "twitter", "url": "https://twitter.com/prime_developer" },
     { "platform": "github", "url": "https://github.com/SamuelIgwesi" },
-    { "platform": "linkedin", "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/" }
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/"
+    }
   ],
   "links": [
     {
@@ -22,9 +25,9 @@
       "icon": "twitter"
     },
     {
-     "name": "Follow me on LinkedIn",
-     "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/",
-     "icon": "linkedin"
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/",
+      "icon": "linkedin"
     }
   ],
   "milestones": [
