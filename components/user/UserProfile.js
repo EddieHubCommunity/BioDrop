@@ -72,7 +72,7 @@ export default function UserProfile({ BASE_URL, data }) {
         </div>
       )}
 
-      <div className="flex justify-center">
+      <div className="flex justify-center sm:my-4">
         {qrShow && (
           <QRCodeSVG
             value={`${BASE_URL}/${data.username}`}
