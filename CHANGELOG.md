@@ -1,3 +1,12 @@
+## [1.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.25.1) (2022-12-23)
+
+
+### Bug Fixes
+
+* QR code margin for mobile ([#2468](https://github.com/EddieHubCommunity/LinkFree/issues/2468)) ([949ef2d](https://github.com/EddieHubCommunity/LinkFree/commit/949ef2da2d6b1b035ec3f7df00306ad0a6d2cf76))
+
+
+
 # [1.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.11...v1.25.0) (2022-12-23)
 
 
@@ -84,15 +93,6 @@
 ### Bug Fixes
 
 * text contrast ratio on UserLink ([#2424](https://github.com/EddieHubCommunity/LinkFree/issues/2424)) ([e0b4cc5](https://github.com/EddieHubCommunity/LinkFree/commit/e0b4cc59777d2d98d72d93cf164141458ec76176))
-
-
-
-## [1.24.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.7...v1.24.8) (2022-12-16)
-
-
-### Bug Fixes
-
-* gh action secret ([a93ed77](https://github.com/EddieHubCommunity/LinkFree/commit/a93ed77a1d9524d4c3f11d5e67703d3da5a13c99))
 
 
 
