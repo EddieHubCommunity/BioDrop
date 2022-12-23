@@ -26,6 +26,10 @@ export default function Search() {
   });
 
   const searchIcons = (value) => {
+    setSearchedIconNames([]);
+    if (value.length < 3) {
+      return setNotFound("Please enter at least 3 characters to search...");
+    }
     const filteredIconNames = Object.keys(icons)
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
       .map((iconName) => icons[iconName]);
@@ -59,7 +63,7 @@ export default function Search() {
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
-        <ul className="flex flex-wrap gap-5">
+        <ul className="flex flex-wrap gap-4 mt-4">
           {searchedIconNames.map((iconName, index) => (
             <li key={index}>
               <IconCard iconName={iconName} />
