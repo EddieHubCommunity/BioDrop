@@ -15,8 +15,8 @@
     "tailwindcss"
   ],
   "socials": [
-    { "platform": "github", "url": "https://github.com/RotrixLOL" },
-    { "platform": "twitter", "url": "https://twitter.com/RotrixxLOL" }
+    { "icon": "FaGithub", "url": "https://github.com/RotrixLOL" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/RotrixxLOL" }
   ],
   "links": [
     {

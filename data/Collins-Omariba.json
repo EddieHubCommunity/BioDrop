@@ -5,8 +5,8 @@
   "avatar": "https://github.com/Collins-Omariba.png",
   "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
-    { "platform": "FaGitHub", "url": "https://github.com/Collins-Omariba" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
+    { "icon": "FaGithub", "url": "https://github.com/Collins-Omariba" }
   ],
   "links": [
     {

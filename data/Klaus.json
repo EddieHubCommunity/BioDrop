@@ -15,8 +15,8 @@
     "java"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/__Klaus_31452" },
-    { "platform": "github", "url": "https://github.com/KlausMikhaelson" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/__Klaus_31452" },
+    { "icon": "FaGithub", "url": "https://github.com/KlausMikhaelson" }
   ],
   "links": [
     {

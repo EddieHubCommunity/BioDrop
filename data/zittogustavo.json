@@ -5,9 +5,7 @@
   "bio": "Full Stack Developer",
   "avatar": "https://github.com/zitogustavo.png",
   "tags": ["javascript", "typescript", "HTML", "PHP", "React"],
-  "socials": [
-    { "platform": "FaGitHub", "url": "https://github.com/zittogustavo" }
-  ],
+  "socials": [{ "icon": "FaGithub", "url": "https://github.com/zittogustavo" }],
   "links": [
     {
       "name": "Follow me on GitHub",

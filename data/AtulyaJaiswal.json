@@ -6,8 +6,8 @@
   "avatar": "https://github.com/AtulyaJaiswal.png",
   "tags": ["javascript", "html", "css", "html", "react"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/AtulyaJaiswal22" },
-    { "platform": "github", "url": "https://github.com/AtulyaJaiswal" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/AtulyaJaiswal22" },
+    { "icon": "FaGithub", "url": "https://github.com/AtulyaJaiswal" }
   ],
   "links": [
     {

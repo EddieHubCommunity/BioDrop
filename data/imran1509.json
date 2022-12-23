@@ -6,8 +6,8 @@
   "avatar": "https://github.com/imran1509.png",
   "tags": ["Open Source", "DevOps", "Cloud Native", "Devrel", "Go", "Python"],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/codenameimmy" },
-    { "platform": "FaGitHub", "url": "https://github.com/imran1509" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/codenameimmy" },
+    { "icon": "FaGithub", "url": "https://github.com/imran1509" }
   ],
   "links": [
     {

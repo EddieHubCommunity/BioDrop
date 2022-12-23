@@ -13,8 +13,8 @@
     "microservices"
   ],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/AndrewRedUK" },
-    { "platform": "FaGitHub", "url": "https://github.com/mazahaca" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/AndrewRedUK" },
+    { "icon": "FaGithub", "url": "https://github.com/mazahaca" }
   ],
   "links": [
     {

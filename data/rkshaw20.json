@@ -6,9 +6,9 @@
   "avatar": "https://github.com/rkshaw20.png",
   "tags": ["Open Source", "Javascript", "Developer", "Blogs"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/RajKishorShaw17" },
-    { "platform": "github", "url": "https://github.com/rkshaw20" },
-    { "platform": "website", "url": "https://rajkishor20.netlify.app/" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/RajKishorShaw17" },
+    { "icon": "FaGithub", "url": "https://github.com/rkshaw20" },
+    { "icon": "website", "url": "https://rajkishor20.netlify.app/" }
   ],
   "links": [
     {

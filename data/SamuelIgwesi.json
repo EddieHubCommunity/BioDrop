@@ -6,10 +6,10 @@
   "avatar": "https://github.com/SamuelIgwesi.png",
   "tags": ["javascript", "nodeJS"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/prime_developer" },
-    { "platform": "github", "url": "https://github.com/SamuelIgwesi" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/prime_developer" },
+    { "icon": "FaGithub", "url": "https://github.com/SamuelIgwesi" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/"
     }
   ],

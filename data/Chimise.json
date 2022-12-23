@@ -6,8 +6,8 @@
   "avatar": "https://github.com/Chimise.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/chimisep" },
-    { "platform": "github", "url": "https://github.com/Chimise" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/chimisep" },
+    { "icon": "FaGithub", "url": "https://github.com/Chimise" }
   ],
   "links": [
     {

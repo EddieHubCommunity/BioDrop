@@ -7,11 +7,11 @@
   "tags": ["Digital Nomad", "Open Source", "Travel Vlogger"],
   "socials": [
     {
-      "platform": "twitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/SaraJaoude"
     },
     {
-      "platform": "youtube",
+      "icon": "FaYoutube",
       "url": "https://www.youtube.com/@EddieandSaraExplore"
     }
   ],

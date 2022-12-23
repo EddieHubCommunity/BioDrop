@@ -6,15 +6,15 @@
   "avatar": "https://github.com/juliafmorgado.png",
   "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
-    { "platform": "FaGitHub", "url": "https://github.com/juliafmorgado" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
+    { "icon": "FaGithub", "url": "https://github.com/juliafmorgado" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/juliafmorgado"
     },
-    { "platform": "youtube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
     {
-      "platform": "instagram",
+      "icon": "FaInstagram",
       "url": "https://www.instagram.com/juliafmorgado/"
     }
   ],

@@ -13,8 +13,8 @@
     "design system"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/GianlucaGalota" },
-    { "platform": "github", "url": "https://github.com/ThorOnTheRocks" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/GianlucaGalota" },
+    { "icon": "FaGithub", "url": "https://github.com/ThorOnTheRocks" }
   ],
   "links": [
     {

@@ -12,8 +12,8 @@
   ],
   "avatar": "https://github.com/stevenovak123.png",
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/stevenovak123" },
-    { "platform": "github", "url": "https://github.com/stevenovak123" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/stevenovak123" },
+    { "icon": "FaGithub", "url": "https://github.com/stevenovak123" }
   ],
   "links": [
     {

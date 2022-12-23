@@ -1,7 +1,7 @@
 import getIcon from "../Icon";
 
 function UserSocial({ BASE_URL, username, social }) {
-  const DisplayIcon = getIcon(social.platform);
+  const DisplayIcon = getIcon(social.icon);
   const clickLink = async () => {
     try {
       const res = await fetch(

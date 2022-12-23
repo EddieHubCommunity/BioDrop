@@ -6,9 +6,9 @@
   "avatar": "https://github.com/agung2001.png",
   "tags": ["WordPress", "PHP", "JavaScript", "TypeScript", "Svelte"],
   "socials": [
-    { "platform": "website", "url": "https://agung2001.github.io" },
-    { "platform": "github", "url": "https://github.com/agung2001" },
-    { "platform": "twitter", "url": "https://twitter.com/agung2001" }
+    { "icon": "website", "url": "https://agung2001.github.io" },
+    { "icon": "FaGithub", "url": "https://github.com/agung2001" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/agung2001" }
   ],
   "links": [
     {

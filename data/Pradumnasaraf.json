@@ -5,9 +5,9 @@
   "bio": "**Open Source** Advocate | DevOps Developer | EddieHub Ambassador",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
-    { "platform": "FaGitHub", "url": "https://github.com/Pradumnasaraf" },
-    { "platform": "website", "url": "https://pradumnasaraf.dev" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
+    { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
+    { "icon": "website", "url": "https://pradumnasaraf.dev" }
   ],
   "avatar": "https://github.com/Pradumnasaraf.png",
   "links": [

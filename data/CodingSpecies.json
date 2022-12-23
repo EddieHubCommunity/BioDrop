@@ -14,7 +14,7 @@
     "graphic design"
   ],
   "socials": [
-    { "platform": "github", "url": "https://github.com/CodingSpecies" }
+    { "icon": "FaGithub", "url": "https://github.com/CodingSpecies" }
   ],
   "links": [
     {

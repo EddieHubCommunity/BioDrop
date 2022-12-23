@@ -14,10 +14,10 @@
     "d3.js"
   ],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/furkanmutluu" },
-    { "platform": "FaGitHub", "url": "https://github.com/furkanmutlu" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/furkanmutluu" },
+    { "icon": "FaGithub", "url": "https://github.com/furkanmutlu" },
     {
-      "platform": "stackoverflow",
+      "icon": "FaStackOverflow",
       "url": "https://stackoverflow.com/users/10797632/furkan-mutlu"
     }
   ],

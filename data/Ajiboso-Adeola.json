@@ -5,9 +5,9 @@
   "bio": "**Open Source** Enthusiast | Frontend Developer | Web3 Enthusiast |Writer",
   "tags": ["Open Source", "Javascript", "Writing"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/dde_olla" },
-    { "platform": "github", "url": "https://github.com/Ajiboso-Adeola" },
-    { "platform": "Hashnode", "url": "https://hashnode.com/@Deola" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/dde_olla" },
+    { "icon": "FaGithub", "url": "https://github.com/Ajiboso-Adeola" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@Deola" }
   ],
   "avatar": "https://github.com/Ajiboso-Adeola.png",
   "links": [

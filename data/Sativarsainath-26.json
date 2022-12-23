@@ -11,10 +11,10 @@
     "Devops - Jenkins, Docker, Kubernetes, Podman, Git, Linux"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/Sainath_102" },
-    { "platform": "github", "url": "https://github.com/Sativarsainath-26" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/Sainath_102" },
+    { "icon": "FaGithub", "url": "https://github.com/Sativarsainath-26" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/sainath-sativar-75b162141"
     }
   ],

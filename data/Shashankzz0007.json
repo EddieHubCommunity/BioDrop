@@ -8,14 +8,14 @@
   "avatar": "https://github.com/Shashankzz0007.png",
   "tags": ["opensource", "javascript", "typescript", "Reactjs", "DevOps"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/shashankz007" },
-    { "platform": "github", "url": "https://github.com/Shashankzz0007" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/shashankz007" },
+    { "icon": "FaGithub", "url": "https://github.com/Shashankzz0007" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/shashankd007"
     },
     {
-      "platform": "showcase",
+      "icon": "showcase",
       "url": "https://www.showwcase.com/shashankzz0007"
     }
   ],

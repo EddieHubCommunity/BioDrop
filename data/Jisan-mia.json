@@ -6,8 +6,8 @@
   "avatar": "https://github.com/Jisan-mia.png",
   "tags": ["NextJS", "Typescript", "Javascript", "TailwindCSS", "Open Source"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/JisanMia4" },
-    { "platform": "github", "url": "https://github.com/Jisan-mia" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/JisanMia4" },
+    { "icon": "FaGithub", "url": "https://github.com/Jisan-mia" }
   ],
   "links": [
     {

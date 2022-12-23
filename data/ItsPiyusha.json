@@ -6,8 +6,8 @@
   "avatar": "https://github.com/ItsPiyusha.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/piyushavpawar" },
-    { "platform": "github", "url": "https://github.com/ItsPiyusha" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/piyushavpawar" },
+    { "icon": "FaGithub", "url": "https://github.com/ItsPiyusha" }
   ],
   "links": [
     {

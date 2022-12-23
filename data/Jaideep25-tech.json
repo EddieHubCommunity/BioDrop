@@ -13,9 +13,9 @@
     "Github"
   ],
   "socials": [
-    { "platform": "github", "url": "https://github.com/Jaideep25-tech/" },
+    { "icon": "FaGithub", "url": "https://github.com/Jaideep25-tech/" },
     {
-      "platform": "instagram",
+      "icon": "FaInstagram",
       "url": "https://www.instagram.com/beta_aesthetic_jaideep/"
     }
   ],

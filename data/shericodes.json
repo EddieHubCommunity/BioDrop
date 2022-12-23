@@ -7,10 +7,10 @@
   "tags": ["javascript", "gatsbyjs", "nextjs", "react", "open source", "css"],
   "socials": [
     {
-      "platform": "FaTwitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/shericodes"
     },
-    { "platform": "FaGitHub", "url": "https://github.com/shericodes" }
+    { "icon": "FaGithub", "url": "https://github.com/shericodes" }
   ],
   "links": [
     {

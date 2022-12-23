@@ -6,10 +6,10 @@
   "avatar": "https://github.com/anurag-rajawat.png",
   "tags": ["Open Source", "Kubernetes", "Java", "DevOps"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/anuragrajawat22" },
-    { "platform": "github", "url": "https://github.com/anurag-rajawat" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/anuragrajawat22" },
+    { "icon": "FaGithub", "url": "https://github.com/anurag-rajawat" },
     {
-      "platform": "linkedIn",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/anurag-rajawat22/"
     }
   ],

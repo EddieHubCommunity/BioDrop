@@ -5,9 +5,9 @@
   "bio": "**Open Source** Advocate | DevOps ",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/maheshstwt" },
-    { "platform": "github", "url": "https://github.com/Mahesh-Kasabe" },
-    { "platform": "website", "url": "https://mahesh-kasabe.github.io/" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/maheshstwt" },
+    { "icon": "FaGithub", "url": "https://github.com/Mahesh-Kasabe" },
+    { "icon": "website", "url": "https://mahesh-kasabe.github.io/" }
   ],
   "avatar": "https://github.com/Mahesh-Kasabe.png",
   "links": [

@@ -6,8 +6,8 @@
   "avatar": "https://github.com/Akshaykumar05.png",
   "tags": ["Open Source", "Cloud computing", "Devrel", "DevOps"],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/akshayktwt" },
-    { "platform": "FaGitHub", "url": "https://github.com/akshaykumar05" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/akshayktwt" },
+    { "icon": "FaGithub", "url": "https://github.com/akshaykumar05" }
   ],
   "links": [
     {

@@ -6,8 +6,8 @@
   "avatar": "https://github.com/Ansh-Rathod.png",
   "tags": ["flutter", "nodejs", "dart", "javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/AnshhRathod" },
-    { "platform": "github", "url": "https://github.com/Ansh-Rathod" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/AnshhRathod" },
+    { "icon": "FaGithub", "url": "https://github.com/Ansh-Rathod" }
   ],
   "links": [
     {

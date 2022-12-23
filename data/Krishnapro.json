@@ -6,10 +6,10 @@
   "avatar": "https://github.com/Krishnapro.png",
   "tags": ["Java", "Scala", "javascript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/krishnapro_" },
-    { "platform": "github", "url": "https://github.com/Krishnapro" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },
+    { "icon": "FaGithub", "url": "https://github.com/Krishnapro" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/krishnakumar25/"
     }
   ],

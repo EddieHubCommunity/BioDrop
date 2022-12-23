@@ -5,9 +5,9 @@
   "avatar": "https://github.com/mrabro.png",
   "tags": ["Open Source", "wordpress", "javascript", "nodejs", "DevOps"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/mrabro" },
-    { "platform": "github", "url": "https://github.com/mrabro" },
-    { "platform": "facebook", "url": "https://facebook.com/mrabro" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/mrabro" },
+    { "icon": "FaGithub", "url": "https://github.com/mrabro" },
+    { "icon": "FaFacebook", "url": "https://facebook.com/mrabro" }
   ],
   "links": [
     {

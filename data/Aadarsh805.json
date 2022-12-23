@@ -7,11 +7,11 @@
   "tags": ["nextJS", "typescript", "supabase", "reactJS", "tailwindCSS"],
   "socials": [
     {
-      "platform": "twitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/Aadarsh805"
     },
     {
-      "platform": "github",
+      "icon": "FaGithub",
       "url": "https://github.com/Aadarsh805"
     }
   ],

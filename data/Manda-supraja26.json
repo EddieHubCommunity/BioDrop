@@ -6,8 +6,8 @@
   "avatar": "https://github.com/Manda-supraja26.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/SuprajaManda" },
-    { "platform": "github", "url": "https://github.com/Manda-supraja26" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/SuprajaManda" },
+    { "icon": "FaGithub", "url": "https://github.com/Manda-supraja26" }
   ],
   "links": [
     {

@@ -17,8 +17,8 @@
     "dsa"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/David_Leal_7" },
-    { "platform": "github", "url": "https://github.com/Panquesito7" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
+    { "icon": "FaGithub", "url": "https://github.com/Panquesito7" }
   ],
   "links": [
     {

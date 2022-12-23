@@ -13,9 +13,9 @@
     "DevRel"
   ],
   "socials": [
-    { "platform": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
-    { "platform": "FaGitHub", "url": "https://github.com/eddiejaoude" },
-    { "platform": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
+    { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
   ],
   "testimonials": [
     "CBID2",
@@ -44,7 +44,7 @@
     {
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/eddiejaoude",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "name": "LinkedIn: Let's connect",
