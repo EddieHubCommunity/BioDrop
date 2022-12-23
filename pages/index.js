@@ -3,8 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
-import { MdHelpOutline } from "react-icons/md";
-import { MdArrowUpward } from "react-icons/md";
+import {
+  MdArrowUpward,
+  MdHelpOutline,
+  MdOutlineLink,
+  MdOutlinePersonPin,
+  MdOutlineAutoGraph,
+  MdOutlineEditCalendar,
+} from "react-icons/md";
+import { FaUsers, FaMedal } from "react-icons/fa";
 
 import singleUser from "../config/user.json";
 
@@ -44,10 +51,46 @@ export async function getServerSideProps(context) {
 }
 
 export default function Home({ total, today }) {
+  const features = [
+    {
+      name: "Links",
+      description: "Let people discover all your great content in one place",
+      icon: MdOutlineLink,
+    },
+    {
+      name: "Bio",
+      description:
+        "Encourage people to find out more about you and what you do",
+      icon: MdOutlinePersonPin,
+    },
+    {
+      name: "Statistics",
+      description: "Learn which of your links and content performs best",
+      icon: MdOutlineAutoGraph,
+    },
+    {
+      name: "Events",
+      description:
+        "Hosting or attending events, let people know what you are up to",
+      icon: MdOutlineEditCalendar,
+    },
+    {
+      name: "Milestones",
+      description:
+        "Demostrate the highlights of your career by adding Milestones to your Profile",
+      icon: FaMedal,
+    },
+    {
+      name: "Testimonials",
+      description: "Show off the great feedback you have received",
+      icon: FaUsers,
+    },
+  ];
+
   return (
     <>
       <Head>
-        <title>LinkFree</title>
+        <title>LinkFree - connects your audience with a single link</title>
         <meta
           name="description"
           content="Open Source alternative to LinkTree"
@@ -56,11 +99,9 @@ export default function Home({ total, today }) {
       </Head>
       <main>
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:tracking-tight">
-            <span className="block">
-              Connects your audience with a single link
-            </span>
-            <span className="block text-indigo-600">100% Open Source</span>
+          <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
+            <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
+            <span className="text-2xl text-gray-500">100% Open Source</span>
           </h2>
           <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
             {total.users > 0 && (
@@ -128,39 +169,107 @@ export default function Home({ total, today }) {
           </dl>
         </div>
 
-        <p className="text-2xl font-normal text-center mb-6">
-          <b>LinkFree</b> is an open-source alternative to Linktree implemented
-          in JavaScript
-        </p>
-
-        <p className="text-1xl text-center">
-          See{" "}
-          <Link
-            href={{
-              pathname: "/[username]",
-              query: { username: "eddiejaoude" },
-            }}
-            legacyBehavior
-          >
-            <span className="text-cyan-600 cursor-pointer">
-              Eddie Jaoude&apos;s
-            </span>
-          </Link>{" "}
-          profile for an example. Want to add your profile? Read the{" "}
-          <Link href="/docs" legacyBehavior>
-            <span className="text-cyan-600 cursor-pointer">instructions</span>
-          </Link>
-          .
-        </p>
-        <div className="grid place-items-center w-screen max-w-[100%]">
-          <Image
-            src="/mockup.png"
-            alt="Mock up of LinkFree project"
-            width="1200"
-            height="638"
-          />
+        <div className="bg-white">
+          <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+            <div className="overflow-hidden rounded-lg bg-indigo-700 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+              <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+                <div className="lg:self-center">
+                  <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                    <span className="block">Connect your audience</span>
+                    <span className="block">with a single link</span>
+                  </h2>
+                  <p className="mt-4 text-lg leading-6 text-indigo-200">
+                    Showcase the content you create and your projects in one
+                    place. Make it easier for people to find, follow and
+                    subscribe.
+                  </p>
+                </div>
+              </div>
+              <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
+                <Image
+                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+                  src="/mockup.png"
+                  alt="App screenshot"
+                  width={500}
+                  height={500}
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <a
+
+        <div className="bg-gray-50">
+          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <span className="block">Ready to dive in?</span>
+              <span className="block text-indigo-600">
+                Add your free profile today!
+              </span>
+            </h2>
+            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+              <div className="inline-flex rounded-md shadow">
+                <Link
+                  href="/docs/quickstart"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                >
+                  Get started
+                </Link>
+              </div>
+              <div className="ml-3 inline-flex rounded-md shadow">
+                <Link
+                  href="/eddiejaoude"
+                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+                >
+                  Example
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative bg-white py-24 sm:py-32 lg:py-40">
+          <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+            <h2 className="text-lg font-semibold text-indigo-600">
+              Main Features
+            </h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              It is not just links...
+            </p>
+            <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+              In addition to links to your favourite social media accounts, you
+              can also add a variety of features to make a complete profile, all
+              in one place.
+            </p>
+            <div className="mt-20">
+              <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+                {features.map((feature) => (
+                  <div key={feature.name} className="pt-6">
+                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                      <div className="-mt-6">
+                        <div>
+                          <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                            <feature.icon
+                              className="h-8 w-8 text-white"
+                              aria-hidden="true"
+                            />
+                          </span>
+                        </div>
+                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                          {feature.name}
+                        </h3>
+                        <p className="mt-5 text-base leading-7 text-gray-600">
+                          {feature.description}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <Link
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
           target="_blank"
@@ -173,7 +282,7 @@ export default function Home({ total, today }) {
             </IconContext.Provider>
             <p className="text-sm font-medium">Help</p>
           </div>
-        </a>
+        </Link>
       </main>
     </>
   );
