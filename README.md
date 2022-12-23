@@ -72,18 +72,16 @@ For example: <http://github.com/eddiejaoude.png>
 
 Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
-### Available Icons:
-
-Check [Icons.md](/icons.md) for all the supported icons.
-
 ## 🛠️ Quickstart
 
 You have 3 options to contribute to the repo, please pick your favourite from:
 
 1. GitHub UI
 2. Gitpod
-3. Local development with Docker Compose
-4. Local development
+3. Local development
+4. Local development with Docker Compose
+
+Brief documentation below, but full documentation can be found here https://linkfree.eddiehub.io/docs
 
 ### GitHub UI
 
@@ -96,18 +94,6 @@ This is great if you only want to add your Profile or make changes to it.
 In the cloud free development environment which will have all the dependencies you need (for example MongoDB).
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
-
-### Local development with Docker Compose
-
-This environment is on your computer but with containers (for example MongoDB) supporting your environment.
-
-#### Prerequisites
-
-You will need [Docker and Docker Compose](https://docs.docker.com/compose/) installed.
-
-#### Commands
-
-1. `docker-compose up`
 
 ### Local development
 
