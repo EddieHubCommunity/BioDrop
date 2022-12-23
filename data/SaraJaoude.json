@@ -7,11 +7,11 @@
   "tags": ["Digital Nomad", "Open Source", "Travel Vlogger"],
   "socials": [
     {
-      "platform": "twitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/SaraJaoude"
     },
     {
-      "platform": "youtube",
+      "icon": "FaYoutube",
       "url": "https://www.youtube.com/@EddieandSaraExplore"
     }
   ],
@@ -19,32 +19,32 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/SaraJaoude",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/littleashtangi/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/sara-abou-jaoude-1a005425/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/SaraJaoude",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "YouTube: Eddie and Sara Explore",
       "url": "https://www.youtube.com/eddieandsaraexplore",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Instagram: Eddie and Sara Explore",
       "url": "https://www.instagram.com/eddieandsaraexplore/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ]
 }

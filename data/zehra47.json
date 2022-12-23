@@ -7,12 +7,12 @@
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/zehra47",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/Z-oneOfThree",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

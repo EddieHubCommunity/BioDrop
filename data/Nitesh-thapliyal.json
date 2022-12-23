@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Nitesh-thapliyal",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Bauddhik_Geek",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Dev.to",
       "url": "https://dev.to/niteshthapliyal",
-      "icon": "dev.to"
+      "icon": "FaDev"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/nitesh-thapliyal",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

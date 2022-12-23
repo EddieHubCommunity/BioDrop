@@ -6,10 +6,10 @@
   "avatar": "https://github.com/SamuelIgwesi.png",
   "tags": ["javascript", "nodeJS"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/prime_developer" },
-    { "platform": "github", "url": "https://github.com/SamuelIgwesi" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/prime_developer" },
+    { "icon": "FaGithub", "url": "https://github.com/SamuelIgwesi" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/"
     }
   ],
@@ -17,24 +17,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/SamuelIgwesi",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/PRIME_DEVELOPER",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "November 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://samdev.onrender.com/"

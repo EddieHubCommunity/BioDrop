@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/raeeceip",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_Chisomu",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/chibogu-chisom-50a802205/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/someguynamedchiso/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Check out my Peerlist Profile",
@@ -34,7 +34,7 @@
     {
       "title": "Started Learning",
       "date": "January 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "blue",
       "description": "Started learning to code",
       "url": "https://www.codecademy.com/learn"
@@ -42,7 +42,7 @@
     {
       "title": "Joined Codewars",
       "date": "April 2022",
-      "icon": "codewars",
+      "icon": "SiCodewars",
       "color": "red",
       "description": "Started practicing coding",
       "url": "https://www.codewars.com/users/raeeceip"
@@ -50,7 +50,7 @@
     {
       "title": "Built my first project",
       "date": "May 2022",
-      "icon": "Github",
+      "icon": "FaGithub",
       "color": "purple",
       "description": "Check Out Aliens on Github",
       "url": "https://github.com/raeeceip/aliens"
@@ -58,7 +58,7 @@
     {
       "title": "Started Freelancing",
       "date": "August 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Hire me for your next web project",
       "url": "https://www.upwork.com/freelancers/~01f29bb9f88b0743e6"
@@ -66,7 +66,7 @@
     {
       "title": "Started Contributing",
       "date": "September 2022",
-      "icon": "open-source",
+      "icon": "DiOpensource",
       "color": "yellow",
       "description": "Started contributing to open source",
       "url": "https://github.com/EddieHubCommunity/LinkFree"
@@ -74,7 +74,7 @@
     {
       "title": "Currnetly Learning",
       "date": "September 2022",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "color": "orange",
       "description": "Currently learning React, Node.js, Express.js and MongoDB ",
       "url": "https://frontendmasters.com/"

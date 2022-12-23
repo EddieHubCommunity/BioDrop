@@ -5,41 +5,41 @@
   "bio": "**Open Source** Advocate | DevOps ",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/maheshstwt" },
-    { "platform": "github", "url": "https://github.com/Mahesh-Kasabe" },
-    { "platform": "website", "url": "https://mahesh-kasabe.github.io/" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/maheshstwt" },
+    { "icon": "FaGithub", "url": "https://github.com/Mahesh-Kasabe" },
+    { "icon": "website", "url": "https://mahesh-kasabe.github.io/" }
   ],
   "avatar": "https://github.com/Mahesh-Kasabe.png",
   "links": [
     {
       "name": "Daily tweets on Open Source",
       "url": "https://twitter.com/maheshstwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow my Open Source journey",
       "url": "https://github.com/Mahesh-Kasabe",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/maheshkasbe",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Portfolio",
       "url": "https://mahesh-kasabe.github.io/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "HashNode Blog",
       "url": "https://maheshkasbe.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Support my work",
       "url": "https://www.buymeacoffee.com/maheshkasbe",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     }
   ]
 }

@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/BoneNzy",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/geremsanrzr",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Learning Backend",
       "date": "September 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Starting out with node js and express js for backend",
       "url": "https://github.com/BoneNzy"
@@ -27,7 +27,7 @@
     {
       "title": "Learning web development",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "My curiosity of tech started to grow as i got my first laptop on July 2022 and now starting out with web development",
       "url": "https://github.com/BoneNzy"

@@ -7,17 +7,17 @@
     {
       "name": "Follow me on Github",
       "url": "https://github.com/abhishekY2401",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/abhishek-yadav-1a1808205",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AbhiY2852",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

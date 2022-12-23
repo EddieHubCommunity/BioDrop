@@ -6,45 +6,45 @@
   "avatar": "https://github.com/agung2001.png",
   "tags": ["WordPress", "PHP", "JavaScript", "TypeScript", "Svelte"],
   "socials": [
-    { "platform": "website", "url": "https://agung2001.github.io" },
-    { "platform": "github", "url": "https://github.com/agung2001" },
-    { "platform": "twitter", "url": "https://twitter.com/agung2001" }
+    { "icon": "website", "url": "https://agung2001.github.io" },
+    { "icon": "FaGithub", "url": "https://github.com/agung2001" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/agung2001" }
   ],
   "links": [
     {
       "name": "Every journey starts with a little step",
       "url": "https://agung2001.github.io",
-      "icon": "open-source"
+      "icon": "SiOpensourceinitiative"
     },
     {
       "name": "Reading a book together",
       "url": "https://goodreads.com/agungsundoro",
-      "icon": "book"
+      "icon": "FaBook"
     },
     {
       "name": "Any new tweet from Elon musk?",
       "url": "https://twitter.com/agung2001",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me or I call the police",
       "url": "https://instagram.com/agung2001",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "We all love open source",
       "url": "https://github.com/agung2001",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Find a job, Make Money, Repeat",
       "url": "https://www.linkedin.com/in/agungsundoro",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Having fun doing music and research",
       "url": "https://www.youtube.com/channel/UCI1uulkvet06Mm3wfpQvpLg",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "🤘 Heavy metal never die",
@@ -81,7 +81,7 @@
     {
       "title": "🎉 WordPress Plugin Got Accepted",
       "date": "October 2021",
-      "icon": "codeforces",
+      "icon": "SiCodeforces",
       "color": "black",
       "description": "One of my plugins got accepted to the WordPress plugin directory",
       "url": "https://wordpress.org/plugins/floating-awesome-button/"
@@ -89,7 +89,7 @@
     {
       "title": "🤯 Started Agency",
       "date": "January 2019",
-      "icon": "codeforces",
+      "icon": "SiCodeforces",
       "color": "black",
       "description": "Started a WordPress and Web Design Agency Company",
       "url": "https://artistudio.xyz"

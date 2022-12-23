@@ -1,6 +1,7 @@
 import { useState } from "react";
+
+import getIcon from "../Icon";
 import colors from "../../config/icons.json";
-import Icon from "../Icon";
 
 export default function UserLink({
   BASE_URL,
@@ -9,6 +10,7 @@ export default function UserLink({
   displayStatsPublic,
 }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
+  const DisplayIcon = getIcon(link.icon);
   const clickLink = async () => {
     try {
       const res = await fetch(
@@ -33,11 +35,11 @@ export default function UserLink({
       onClick={clickLink}
       className="rounded-full border-2 border-gray-200 hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
       style={{
-        "--hover-color": colors[link.icon]
+        "--hover-color": colors[link.icon],
       }}
     >
-      <span style={{color: colors[link.icon]}}>
-        <Icon name={link.icon}/>
+      <span style={{ color: colors[link.icon] }}>
+        <DisplayIcon />
       </span>
       <span className="grow">{link.name}</span>
       {displayStatsPublic && <span>{clicks}</span>}

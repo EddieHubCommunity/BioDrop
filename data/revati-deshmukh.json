@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/revati-deshmukh",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/DeshmukhRevati",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/revati-deshmukh/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Checkout my portfolio",
@@ -29,35 +29,35 @@
     {
       "title": "Jr. Software Engineer",
       "date": "November 2013",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Worked as a Jr. Software Engineer at Villagineer Technologies Pvt. Ltd., India"
     },
     {
       "title": "Full stack developer",
       "date": "August 2014",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Worked as a Full stack developer at Avant Imsights Pvt. Ltd., India"
     },
     {
       "title": "Technology Analyst",
       "date": "April 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Worked as a Technology Analyst at Infosys Ltd., India"
     },
     {
       "title": "System Engineer",
       "date": "Jan 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Worked as a System Engineer at Percept Solutions (Client: OCBC Bank), Singapore"
     },
     {
       "title": "Open Source enthusiast",
       "date": "May 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Currently, contributing to the Open Source Community"
     }

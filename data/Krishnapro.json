@@ -6,10 +6,10 @@
   "avatar": "https://github.com/Krishnapro.png",
   "tags": ["Java", "Scala", "javascript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/krishnapro_" },
-    { "platform": "github", "url": "https://github.com/Krishnapro" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },
+    { "icon": "FaGithub", "url": "https://github.com/Krishnapro" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/krishnakumar25/"
     }
   ],
@@ -17,32 +17,32 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Krishnapro",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/krishnapro_",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/krishnakumar25",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Personal website",
       "url": "https://krishnapro.github.io",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Checkout my - Technical Blog",
       "url": "https://krishnakumar.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Support my work - GitHub Sponsors",
       "url": "https://github.com/sponsors/Krishnapro",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     }
   ]
 }

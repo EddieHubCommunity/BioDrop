@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/imrosun",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/imrosun",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/roshan-sharma-bbb6ba178/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Got into Open Source",
       "date": "May 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "grey",
       "description": "Participated in Hacktoberfest, Awesome Github Profiles, LinkFree"
     }

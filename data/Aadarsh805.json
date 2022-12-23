@@ -7,11 +7,11 @@
   "tags": ["nextJS", "typescript", "supabase", "reactJS", "tailwindCSS"],
   "socials": [
     {
-      "platform": "twitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/Aadarsh805"
     },
     {
-      "platform": "github",
+      "icon": "FaGithub",
       "url": "https://github.com/Aadarsh805"
     }
   ],
@@ -19,22 +19,22 @@
     {
       "name": "Daily tweets on Web development and random shitposting",
       "url": "https://twitter.com/Aadarsh805",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow my web development journey",
       "url": "https://github.com/Aadarsh805",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/aadarsh-thakur-090a31227/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Hashnode Blog",
       "url": "https://aadarshthakur.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ]
 }

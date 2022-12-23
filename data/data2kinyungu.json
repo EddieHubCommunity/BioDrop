@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/data2kinyungu",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/denis-mashellkinyungu-1b79bb171/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/deno_exporter",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Technical Writing",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Started Technical Writing",
       "url": "https://dev.to/deno_exporter"

@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Horlakz",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Horlakzz",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/Horlakz",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Email",
       "url": "mailto:horlakz@protonmail.com",
-      "icon": "envelope"
+      "icon": "FaEnvelope"
     }
   ],
   "milestones": [
     {
       "title": "Started learning Programming",
       "date": "March 2016",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "color": "grey",
       "description": "Started learning programming",
       "url": "https://www.horlakz.com/"
@@ -37,7 +37,7 @@
     {
       "title": "Joined GitHub",
       "date": "June 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Created a GitHub account",
       "url": "https://github.com/Horlakz"
@@ -45,7 +45,7 @@
     {
       "title": "Joined Dev 47",
       "date": "October 2021",
-      "icon": "sun",
+      "icon": "FaSun",
       "color": "green",
       "description": "Joined the Dev 47 organisation",
       "url": "https://github.com/Horlakz"

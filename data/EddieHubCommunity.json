@@ -7,27 +7,27 @@
     {
       "name": "Visit EddieHub Website",
       "url": "http://eddiehub.org",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Contribute to Open Source in our GitHub Organisation",
       "url": "https://github.com/EddieHubCommunity",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Join our Discord Community",
       "url": "http://discord.eddiehub.org",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "LinkedIn Organisation",
       "url": "https://www.linkedin.com/company/eddiehub",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Join our Ambassadors program",
       "url": "http://eddiehub.org/ambassador-program",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ],
   "milestones": []

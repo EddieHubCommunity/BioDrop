@@ -34,26 +34,26 @@ Your brand new file should look something similar to this one:
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
-    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+    { "icon": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "icon": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "December 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://www.eddiejaoude.io/"
@@ -129,60 +129,6 @@ You can set this up locally with the following steps:
 1. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
 1. `npm install`
 1. `npm run dev`
-
-## 📘 Storybook
-
-We use [Storybook](https://storybook.js.org) to display what React components are available to use within our project. This also gives you the opportunity to play with the components' functionality and data it displays.
-
-To see what components are available, do the following steps...
-
-1. `npm run storybook`
-1. navigate to http://localhost:6006
-
-*note: not all components have been added, this is a great way to contribute to our project*
-
-### Updating LinkFree's Storybooks' components
-
-1. Create a story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
-1. Import the component into the story file, see the existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/main/stories/components/user/UserLink.stories.js)
-1. Set the default arguments by looking at the requirements from the component itself
-1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser 
-
-## 🧪 Tests
-
-We use [Playwright](http://playwright.dev) for writing automated end to end (e2e) tests.
-
-1. Install Playwright dependencies `npx playwright install --with-deps`
-1. Run tests `npm run test`
-
-```bash
-npm run test
-
-> linkfree@1.0.0 test
-> npx playwright test
-
-
-Running 18 tests using 4 workers
-
-  10 skipped
-  8 passed (13s)
-
-To open last HTML report run:
-
-  npx playwright show-report
-```
-
-### 🚲 Single user mode
-
-If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
-
-For example
-
-```json
-{
-  "username": "eddiejaoude"
-}
-```
 
 ## 🛡️ License
 

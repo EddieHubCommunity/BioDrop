@@ -7,32 +7,32 @@
     {
       "name": "My Open Source journey on GitHub",
       "url": "https://github.com/Rishav-12",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/rishavmitra15",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/rishav-mitra-69855a246",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow my blog on Hashnode",
       "url": "https://rishav10.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "I'm also on Dev.to",
       "url": "https://dev.to/rishav12",
-      "icon": "dev.to"
+      "icon": "FaDev"
     },
     {
       "name": "Solving Katas on CodeWars",
       "url": "https://www.codewars.com/users/Rishav-12",
-      "icon": "codewars"
+      "icon": "SiCodewars"
     }
   ]
 }

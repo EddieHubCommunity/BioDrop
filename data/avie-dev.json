@@ -7,27 +7,27 @@
     {
       "name": "GitHub",
       "url": "https://github.com/avie-dev",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Twitter",
       "url": "https://twitter.com/AvieDev",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/jfukai",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/aviehere",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "YouTube",
       "url": "https://www.youtube.com/channel/UC72dLWZcAjStrSq-FWHg2Lw",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     }
   ]
 }

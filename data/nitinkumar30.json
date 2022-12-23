@@ -7,36 +7,36 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/nitinkumar30",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/nitinkumar30",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/nitinkumar30.py/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Visit my portfolio",
       "url": "https://portfolio-nitin.netlify.app/",
-      "icon": "link"
+      "icon": "FaLink"
     }
   ],
   "milestones": [
     {
       "title": "Learned Python Basics & Intermediate",
       "date": "June 2019",
-      "icon": "youtube",
+      "icon": "FaYoutube",
       "color": "red",
       "description": "Begun my journey in Data Science & Machine Learning. Also focused on problem-solving first."
     },
     {
       "title": "Began as a freelancer",
       "date": "December 2019",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started as a freelancer as Web Developer."
     },

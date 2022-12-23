@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { abbreviateNumber } from "js-abbreviation-number";
-import { IoQrCodeOutline } from "react-icons/io5";
+import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
 
 import FallbackImage from "../FallbackImage";
@@ -35,7 +35,7 @@ export default function UserProfile({ BASE_URL, data }) {
             className="absolute inline-block bottom-0 left-0 top-auto right-auto translate-y-2/4 -translate-x-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 px-2 py-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold border-2 border-orange-600 rounded-xl z-10 animate-bounce text-orange-600 cursor-pointer"
             onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
           >
-            <IoQrCodeOutline />
+            <MdQrCode2 />
           </div>
         </div>
 
