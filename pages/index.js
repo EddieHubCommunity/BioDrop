@@ -56,34 +56,40 @@ export default function Home({ total, today }) {
       name: "Links",
       description: "Let people discover all your great content in one place",
       icon: MdOutlineLink,
+      path: "/docs/how-to-guides/links",
     },
     {
       name: "Bio",
       description:
         "Encourage people to find out more about you and what you do",
       icon: MdOutlinePersonPin,
+      path: "/docs/how-to-guides/bio",
     },
     {
       name: "Statistics",
       description: "Learn which of your links and content performs best",
       icon: MdOutlineAutoGraph,
+      path: "/docs/how-to-guides/statistics",
     },
     {
       name: "Events",
       description:
         "Hosting or attending events, let people know what you are up to",
       icon: MdOutlineEditCalendar,
+      path: "/docs/how-to-guides/events",
     },
     {
       name: "Milestones",
       description:
         "Demostrate the highlights of your career by adding Milestones to your Profile",
       icon: FaMedal,
+      path: "/docs/how-to-guides/milestones",
     },
     {
       name: "Testimonials",
       description: "Show off the great feedback you have received",
       icon: FaUsers,
+      path: "/docs/how-to-guides/testimonials",
     },
   ];
 
@@ -254,9 +260,11 @@ export default function Home({ total, today }) {
                             />
                           </span>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
-                          {feature.name}
-                        </h3>
+                        <Link href={feature.path}>
+                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                            {feature.name}
+                          </h3>
+                        </Link>
                         <p className="mt-5 text-base leading-7 text-gray-600">
                           {feature.description}
                         </p>
