@@ -11,32 +11,18 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "github.com",
-        port: "443",
-        pathname: "**",
       },
       {
         protocol: "https",
-        hostname: "user-images.githubusercontent.com",
-        port: "443",
-        pathname: "**",
-      },
-      {
-        protocol: "https",
-        hostname: "avatars.githubusercontent.com",
-        port: "443",
-        pathname: "**",
+        hostname: "**.githubusercontent.com",
       },
       {
         protocol: "https",
         hostname: "cdn.nhcarrigan.com",
-        port: "443",
-        pathname: "**",
       },
       {
         protocol: "https",
         hostname: "avatars.dicebear.com",
-        port: "443",
-        pathname: "**",
       },
     ],
     formats: ["image/webp"],
