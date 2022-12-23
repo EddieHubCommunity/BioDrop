@@ -13,19 +13,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/AtulyaJaiswal",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AtulyaJaiswal22",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Created some full stack projects",
       "date": "August 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Development",
       "url": "https://portfolio-fc6e8.firebaseapp.com/"

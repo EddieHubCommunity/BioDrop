@@ -39,12 +39,12 @@
     {
       "name": "Join PanqKart's Discord server",
       "url": "https://discord.gg/HEweZuF3Vv",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Join PanqKart's Discord server",
       "url": "https://discord.gg/HEweZuF3Vv",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Check out NSMBW speedruns on my YouTube channel",
@@ -54,7 +54,7 @@
     {
       "name": "Check my GitLab profile",
       "url": "https://gitlab.com/Panquesito7",
-      "icon": "gitlab"
+      "icon": "FaGitlab"
     },
     {
       "name": "Contact me via mail",
@@ -82,7 +82,7 @@
     {
       "title": "First GitHub Sponsor",
       "date": "March 4, 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "#EC6CB9",
       "description": "Obtained my first GitHub Sponsor: @maltejur",
       "url": "https://github.com/sponsors/Panquesito7"

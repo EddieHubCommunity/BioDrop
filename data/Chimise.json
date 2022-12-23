@@ -13,19 +13,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Chimise",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/chimisep",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Built my first full-stack application",
       "date": "Oct 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Developed my first full-stack app using React and Node.js",
       "url": "https://chimisepro.vercel.app/"

@@ -14,34 +14,34 @@
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/rkshaw20",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/RajKishorShaw17",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Personal Website",
       "url": "https://rajkishor20.netlify.app/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/raj-kishor-shaw-636759144/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Open Source Blog",
       "url": "https://hashnode.com/@rajkishorshaw",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
       "title": "First contribution got merged",
       "date": "April 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "My first open source contibution",
       "url": "https://github.com/amplication/amplication/pull/2497"
@@ -49,7 +49,7 @@
     {
       "title": "Got selected for Level 1 of NeogCamp'23 ",
       "date": "October 2022",
-      "icon": "link",
+      "icon": "FaLink",
       "color": "black",
       "description": "A community for learning full stack development.",
       "url": "https://neog.camp/"

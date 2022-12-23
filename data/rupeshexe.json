@@ -17,17 +17,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/rupeshexe",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/rupeshtwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/rupeshexe",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

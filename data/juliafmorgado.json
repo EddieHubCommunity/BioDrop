@@ -22,44 +22,44 @@
     {
       "name": "Main website",
       "url": "https://juliafmorgado.com/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/juliafmorgado",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/juliafmorgado",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Main YouTube channel (English)",
       "url": "https://youtube.com/juliafmorgado",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Canal do Youtube em Português",
       "url": "https://youtube.com/@juliafmorgadoPT",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Chaîne Youtube en Français",
       "url": "https://youtube.com/@juliafmorgadoFR",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Canal de Youtube en Español",
       "url": "https://youtube.com/@juliafmorgadoES",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     }
   ],
   "milestones": [
     {
       "title": "Google Women Techmakers Ambassador",
       "date": "November 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "green",
       "description": "Became a Google Women Techmakers Ambassador",
       "url": "https://developers.google.com/womentechmakers"
@@ -67,7 +67,7 @@
     {
       "title": "All Day DevOps Conference",
       "date": "November 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "yellow",
       "description": "Delivered my first Keynote at ADDO",
       "url": "https://www.alldaydevops.com/addo-speakers/julia-furst-morgado"
@@ -75,7 +75,7 @@
     {
       "title": "AWS Community Builder",
       "date": "August 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "orange",
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
@@ -83,7 +83,7 @@
     {
       "title": "Girl Code Ambassador",
       "date": "June 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "pink",
       "description": "Became a Girl Code ambassador",
       "url": "https://www.girl-code.co.uk/girlcodeambassadors/julia-furst-morgado"
@@ -91,7 +91,7 @@
     {
       "title": "NYC Code & Coffee",
       "date": "January 2022",
-      "icon": "open-source",
+      "icon": "SiOpensourceinitiative",
       "color": "blue",
       "description": "Started organizing NYC Code & Coffee — biweekly meetup in NYC",
       "url": "https://www.newyorkcodeandcoffee.com/"
@@ -99,7 +99,7 @@
     {
       "title": "Freelancing",
       "date": "September 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://juliafmorgado.com/"

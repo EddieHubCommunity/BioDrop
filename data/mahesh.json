@@ -14,32 +14,32 @@
     {
       "name": "Daily tweets on Open Source",
       "url": "https://twitter.com/maheshstwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow my Open Source journey",
       "url": "https://github.com/Mahesh-Kasabe",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/maheshkasbe",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Portfolio",
       "url": "https://mahesh-kasabe.github.io/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "HashNode Blog",
       "url": "https://maheshkasbe.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Support my work",
       "url": "https://www.buymeacoffee.com/maheshkasbe",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     }
   ]
 }

@@ -28,7 +28,7 @@
     {
       "name": "Connect with me on Dev.to",
       "url": "https://dev.to/adityasimant",
-      "icon": "dev.to"
+      "icon": "FaDev"
     },
     {
       "name": "Follow me on Devpost",
@@ -38,7 +38,7 @@
     {
       "name": "Follow me on Polywork",
       "url": "https://www.polywork.com/aadisimt",
-      "icon": "polywork"
+      "icon": "SiPolywork"
     }
   ]
 }

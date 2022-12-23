@@ -124,7 +124,7 @@
     {
       "title": "Started Open Source project Linkfree",
       "date": "2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
       "url": "https://linkfree.eddiehub.io"

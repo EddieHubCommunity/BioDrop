@@ -12,26 +12,26 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/zittogustavo",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/zittogustavo/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Coding",
       "date": "January 2008",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Get my first developer paid job"
     },
     {
       "title": "Join OpenSource Community",
       "date": "November 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Exploring & learning all about open source community"
     }
