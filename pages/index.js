@@ -96,7 +96,7 @@ export default function Home({ total, today }) {
   return (
     <>
       <Head>
-        <title>LinkFree - connects your audience with a single link</title>
+        <title>LinkFree - connect to your audience with a single link</title>
         <meta
           name="description"
           content="Open Source alternative to LinkTree"
@@ -181,7 +181,7 @@ export default function Home({ total, today }) {
               <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                    <span className="block">Connect your audience</span>
+                    <span className="block">Connect to your audience</span>
                     <span className="block">with a single link</span>
                   </h2>
                   <p className="mt-4 text-lg leading-6 text-indigo-200">
