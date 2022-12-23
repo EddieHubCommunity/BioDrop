@@ -85,6 +85,16 @@ export default function DocsIndex() {
           },
         },
         {
+          name: "Links",
+          path: "/docs/how-to-guides/links",
+          description:
+            "Let people discover all your great content in one place by adding links to your social media account and other resources.",
+          category: {
+            name: "beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
           name: "Statistics",
           path: "/docs/how-to-guides/statistics",
           description:
@@ -127,7 +137,8 @@ export default function DocsIndex() {
         {
           name: "Events",
           path: "/docs/how-to-guides/events",
-          description: "",
+          description:
+            "Hosting or attending events, let people know what you are up to by adding these events to your Profile.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -136,7 +147,7 @@ export default function DocsIndex() {
         {
           name: "Testimonials",
           path: "/docs/how-to-guides/testimonials",
-          description: "",
+          description: "Show off the great feedback you have received.",
           category: {
             name: "intermediate",
             color: "bg-orange-100 text-orange-800",
