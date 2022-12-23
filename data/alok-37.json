@@ -1,0 +1,58 @@
+{
+  "name": "Alokananda Y",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** Developer | Frontend Developer | Scrimba Bootcamp Student",
+  "tags": ["Open Source", "JavaScript", "React.js", "Docker", "Node.js"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/plantsfortrees" },
+    { "platform": "github", "url": "https://github.com/Pradumnasalok-37" },
+    {
+      "platform": "website",
+      "url": "http://phenomenal-peony-457f76.netlify.app/"
+    }
+  ],
+  "avatar": "https://github.com/alok-37.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source",
+      "url": "https://twitter.com/plantsfortrees",
+      "icon": "twitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/alok-37",
+      "icon": "github"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/alokananda-y-489260251/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "http://phenomenal-peony-457f76.netlify.app/",
+      "icon": "globe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://blog.pradumnasaraf.dev",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Support my work - GitHub Sponsors",
+      "url": "https://github.com/sponsors/alok-37",
+      "icon": "dollar"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Bootcamping",
+      "date": "December 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started Bootcamping with Scrimba",
+      "url": "https://scrimba.com/dashboard#overview"
+    }
+  ]
+}
