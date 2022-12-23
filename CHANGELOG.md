@@ -1,3 +1,12 @@
+## [1.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.1...v1.25.2) (2022-12-23)
+
+
+### Bug Fixes
+
+* strapline ([#2469](https://github.com/EddieHubCommunity/LinkFree/issues/2469)) ([7150461](https://github.com/EddieHubCommunity/LinkFree/commit/71504615e12ea93508a3d663ea16fd58e12579e4))
+
+
+
 ## [1.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.25.1) (2022-12-23)
 
 
@@ -84,15 +93,6 @@
 ### Bug Fixes
 
 * data file in wrong location ([2063878](https://github.com/EddieHubCommunity/LinkFree/commit/2063878dd88d22d23476b81f4241dd9d092c4e2d))
-
-
-
-## [1.24.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.8...v1.24.9) (2022-12-19)
-
-
-### Bug Fixes
-
-* text contrast ratio on UserLink ([#2424](https://github.com/EddieHubCommunity/LinkFree/issues/2424)) ([e0b4cc5](https://github.com/EddieHubCommunity/LinkFree/commit/e0b4cc59777d2d98d72d93cf164141458ec76176))
 
 
 
