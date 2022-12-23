@@ -16,5 +16,9 @@ export default function getIcon(name) {
       break;
   }
 
+  if (!icon) {
+    return FaIcons["FaGlobe"];
+  }
+
   return icon;
 }

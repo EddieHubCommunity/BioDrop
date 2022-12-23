@@ -1,5 +1,7 @@
 import { useState } from "react";
+
 import getIcon from "../Icon";
+import colors from "../../config/icons.json";
 
 export default function UserLink({
   BASE_URL,
@@ -31,12 +33,14 @@ export default function UserLink({
       target="_blank"
       rel="noopener noreferrer"
       onClick={clickLink}
-      className="rounded-full border-2 border-gray-200 hover:border-gray-500 hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
+      className="rounded-full border-2 border-gray-200 hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
       style={{
-        color: link.color || "#000",
+        "--hover-color": colors[link.icon],
       }}
     >
-      <DisplayIcon />
+      <span style={{ color: colors[link.icon] }}>
+        <DisplayIcon />
+      </span>
       <span className="grow">{link.name}</span>
       {displayStatsPublic && <span>{clicks}</span>}
     </a>

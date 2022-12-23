@@ -30,11 +30,6 @@
       "icon": "FaLink"
     },
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/indigo423",
-      "icon": "FaTwitter"
-    },
-    {
       "name": "Fediverse",
       "url": "https://social.labmonkeys.space/@indigo",
       "icon": "FaLink"
@@ -71,7 +66,7 @@
       "url": "https://www.opennms.com"
     },
     {
-      "title": "Created my SourceFroge account",
+      "title": "Created my SourceForge account",
       "date": "June 2007",
       "icon": "FaLink",
       "color": "grey",

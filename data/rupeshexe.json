@@ -1,0 +1,33 @@
+{
+  "name": "RUPESH DUBEY",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student",
+  "avatar": "https://github.com/rupeshexe.png",
+  "tags": ["Python", "Java", "DSA", "Data Science"],
+  "socials": [
+    { "platform": "twitter", "url": "https://twitter.com/rupeshtwt" },
+    { "platform": "github", "url": "https://github.com/rupeshexe" },
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/rupeshexe"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rupeshexe",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rupeshtwt",
+      "icon": "twitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/rupeshexe",
+      "icon": "linkedin"
+    }
+  ]
+}

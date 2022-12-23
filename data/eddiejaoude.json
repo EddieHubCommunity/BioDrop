@@ -93,7 +93,7 @@
       "date": "May 2010",
       "icon": "FaDollarSign",
       "color": "grey",
-      "description": "Started freelancing again",
+      "description": "Started my own business",
       "url": "https://www.eddiejaoude.io/"
     },
     {
@@ -102,7 +102,7 @@
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",
-      "description": "First real video",
+      "description": "Started creating content",
       "url": "https://youtube.com/eddiejaoude"
     },
     {
@@ -110,7 +110,7 @@
       "date": "2020",
       "icon": "FaGithub",
       "color": "green",
-      "description": "Became a **GitHub** Star with 30 other people",
+      "description": "Became a **GitHub** Star for the first year of the program",
       "url": "https://github.com/eddiejaoude"
     },
     {
@@ -120,6 +120,14 @@
       "color": "green",
       "description": "Won GitHub Star of the Year out of 55+ million people",
       "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "Started Open Source project Linkfree",
+      "date": "2021",
+      "icon": "github",
+      "color": "green",
+      "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
+      "url": "https://linkfree.eddiehub.io"
     },
     {
       "title": "GitHub Nova, Community Growth Award",
@@ -172,6 +180,18 @@
         "end": "2022-12-11T15:00:00.000+00:00"
       },
       "url": "https://github.com/sponsors/eddiejaoude"
+    },
+    {
+      "isVirtual": true,
+      "isInPerson": true,
+      "color": "blue",
+      "name": "DevRelCon Yokohama 2023",
+      "description": "an English language conference bringing the developer relations community back together in person for two days of sharing, learning, and communing.",
+      "date": {
+        "start": "2023-03-10T17:00:00.000+00:00",
+        "end": "2023-03-11T23:00:00.000+00:00"
+      },
+      "url": "https://yokohama-2023.devrelcon.dev"
     }
   ]
 }

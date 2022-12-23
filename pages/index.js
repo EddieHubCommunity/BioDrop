@@ -147,10 +147,7 @@ export default function Home({ total, today }) {
             </span>
           </Link>{" "}
           profile for an example. Want to add your profile? Read the{" "}
-          <Link
-            href="https://github.com/EddieHubCommunity/LinkFree#-to-add-your-profile"
-            legacyBehavior
-          >
+          <Link href="/docs" legacyBehavior>
             <span className="text-cyan-600 cursor-pointer">instructions</span>
           </Link>
           .
