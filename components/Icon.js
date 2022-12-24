@@ -1,5 +1,5 @@
 import * as FaIcons from "react-icons/fa";
-import * as MdIcons from "react-icons/md";
+import * as SiIcons from "react-icons/si";
 
 export default function getIcon(name) {
   let icon = FaIcons["FaGlobe"];
@@ -11,9 +11,13 @@ export default function getIcon(name) {
     case "Fa":
       icon = FaIcons[name];
       break;
-    case "Md":
-      icon = MdIcons[name];
+    case "Si":
+      icon = SiIcons[name];
       break;
+  }
+
+  if (!icon) {
+    return FaIcons["FaGlobe"];
   }
 
   return icon;

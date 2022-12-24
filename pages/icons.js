@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
-import * as MdIcons from "react-icons/md";
+import * as SiIcons from "react-icons/si";
 import IconCard from "../components/IconCard";
 
 export default function Icons() {
@@ -21,7 +21,7 @@ export default function Icons() {
     icons[key.toLocaleLowerCase()] = key;
   });
 
-  Object.keys(MdIcons).forEach((key) => {
+  Object.keys(SiIcons).forEach((key) => {
     icons[key.toLocaleLowerCase()] = key;
   });
 
