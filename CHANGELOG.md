@@ -1,30 +1,14 @@
-## [1.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.1...v1.25.2) (2022-12-23)
+# [1.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.10...v1.26.0) (2022-12-24)
 
 
 ### Bug Fixes
 
-* strapline ([#2469](https://github.com/EddieHubCommunity/LinkFree/issues/2469)) ([7150461](https://github.com/EddieHubCommunity/LinkFree/commit/71504615e12ea93508a3d663ea16fd58e12579e4))
-
-
-
-## [1.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.25.1) (2022-12-23)
-
-
-### Bug Fixes
-
-* QR code margin for mobile ([#2468](https://github.com/EddieHubCommunity/LinkFree/issues/2468)) ([949ef2d](https://github.com/EddieHubCommunity/LinkFree/commit/949ef2da2d6b1b035ec3f7df00306ad0a6d2cf76))
-
-
-
-# [1.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.11...v1.25.0) (2022-12-23)
-
-
-### Bug Fixes
-
+* data file in wrong location ([2063878](https://github.com/EddieHubCommunity/LinkFree/commit/2063878dd88d22d23476b81f4241dd9d092c4e2d))
 * deleting test testimonial file ([34a87f7](https://github.com/EddieHubCommunity/LinkFree/commit/34a87f71a1e1f33298718486e6ad741d6092c44c))
 * docs import path ([2a766cd](https://github.com/EddieHubCommunity/LinkFree/commit/2a766cd421a3e9c4ea8dd161cebf7de736b5ed8c))
 * docs layout width ([d5593cb](https://github.com/EddieHubCommunity/LinkFree/commit/d5593cb7e038b7e395b49e1d3ba1d947bab57ad8))
 * environment docs ([7a0a855](https://github.com/EddieHubCommunity/LinkFree/commit/7a0a855aba9c818207524d25d906bda435cc0c5f))
+* events user only on all list ([e163476](https://github.com/EddieHubCommunity/LinkFree/commit/e163476a8cb90eb9a3946c5d2403ec03aed1ada1))
 * failing tests ([8c43264](https://github.com/EddieHubCommunity/LinkFree/commit/8c43264904f93fc224b40a08b679182de23b80ed))
 * failing tests ([a288bf8](https://github.com/EddieHubCommunity/LinkFree/commit/a288bf810f127e6b38a7f9de40175ebd692f5841))
 * footer alignment ([6643e99](https://github.com/EddieHubCommunity/LinkFree/commit/6643e992ab9f3fd535a044931fb82cdff1f49eae))
@@ -41,9 +25,11 @@
 * navbar improvements ([#2308](https://github.com/EddieHubCommunity/LinkFree/issues/2308)) ([f1ab346](https://github.com/EddieHubCommunity/LinkFree/commit/f1ab3466d416fc0a4f7f5486474532c818820ce8))
 * platform to icon ([298eb52](https://github.com/EddieHubCommunity/LinkFree/commit/298eb52903936cf9528303aa8a3e19fc8b426d15))
 * prettier pre-commit hook ([#2325](https://github.com/EddieHubCommunity/LinkFree/issues/2325)) ([0a8bfe4](https://github.com/EddieHubCommunity/LinkFree/commit/0a8bfe47bc09d074771654c40ebc03ca5217b981))
+* QR code margin for mobile ([#2468](https://github.com/EddieHubCommunity/LinkFree/issues/2468)) ([949ef2d](https://github.com/EddieHubCommunity/LinkFree/commit/949ef2da2d6b1b035ec3f7df00306ad0a6d2cf76))
 * reduced icon libs used ([13e841e](https://github.com/EddieHubCommunity/LinkFree/commit/13e841ede5deeb9b1eef71c6c2c10501a7ec6694))
 * removed debug code ([7eb7393](https://github.com/EddieHubCommunity/LinkFree/commit/7eb73930c7194dcdf28e0b023ebd35b9b66244d5))
 * set .nvmrc as text file instead of binary ([#2289](https://github.com/EddieHubCommunity/LinkFree/issues/2289)) ([04ba788](https://github.com/EddieHubCommunity/LinkFree/commit/04ba788d4a838aaa512cb22dc4a289e76c652968))
+* strapline ([#2469](https://github.com/EddieHubCommunity/LinkFree/issues/2469)) ([7150461](https://github.com/EddieHubCommunity/LinkFree/commit/71504615e12ea93508a3d663ea16fd58e12579e4))
 * tailwind typography dependency ([ec3cf37](https://github.com/EddieHubCommunity/LinkFree/commit/ec3cf3785cf9ec92ab7dbccd4d1fd8195e521fad))
 * testimonial gh action filter [#2373](https://github.com/EddieHubCommunity/LinkFree/issues/2373) ([26dd71b](https://github.com/EddieHubCommunity/LinkFree/commit/26dd71b7e957e5746f7d6761f414397c89209653))
 * testimonial issue action ([6cc30e6](https://github.com/EddieHubCommunity/LinkFree/commit/6cc30e6c74fba32a903422e79487852f5a07e21e))
@@ -78,12 +64,20 @@
 
 
 
-## [1.24.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.10...v1.24.11) (2022-12-22)
+## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.24.10) (2022-12-21)
 
 
 ### Bug Fixes
 
-<<<<<<< HEAD
+* text contrast ratio on UserLink ([#2424](https://github.com/EddieHubCommunity/LinkFree/issues/2424)) ([e0b4cc5](https://github.com/EddieHubCommunity/LinkFree/commit/e0b4cc59777d2d98d72d93cf164141458ec76176))
+
+
+
+# [1.25.0](https://github.com/EddieHubCommunity/LinkFree/compare/fa1ac2cc6b9d967776e70346710b82d3e0143d7e...v1.25.0) (2022-12-18)
+
+
+### Bug Fixes
+
 * (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
 * Abhinav Dubey ([#806](https://github.com/EddieHubCommunity/LinkFree/issues/806)) ([540452f](https://github.com/EddieHubCommunity/LinkFree/commit/540452f727e378596c03a220052e750b0f84ba0b))
 * Abhishikth ([#1420](https://github.com/EddieHubCommunity/LinkFree/issues/1420)) ([9283e05](https://github.com/EddieHubCommunity/LinkFree/commit/9283e05bdbe27610b502639109a810f94294fa7a))
@@ -789,18 +783,6 @@
 ### Reverts
 
 * Revert "chore: removed docker file to test deployment" ([3dbd7e5](https://github.com/EddieHubCommunity/LinkFree/commit/3dbd7e51288161f881d235169232de43c3de20ec))
-=======
-* events user only on all list ([e163476](https://github.com/EddieHubCommunity/LinkFree/commit/e163476a8cb90eb9a3946c5d2403ec03aed1ada1))
-
-
-
-## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.9...v1.24.10) (2022-12-22)
-
-
-### Bug Fixes
-
-* data file in wrong location ([2063878](https://github.com/EddieHubCommunity/LinkFree/commit/2063878dd88d22d23476b81f4241dd9d092c4e2d))
->>>>>>> upstream/main
 
 
 
