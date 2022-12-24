@@ -4,7 +4,7 @@ import * as FaIcons from "react-icons/fa";
 import * as MdIcons from "react-icons/md";
 import IconCard from "../components/iconCard";
 
-export default function Search() {
+export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
   const [notFound, setNotFound] = useState();
 
