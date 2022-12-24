@@ -4,7 +4,16 @@
   "type": "personal",
   "bio": "Full Stack Developer | AOSP Device maintainer | Open source contributor",
   "avatar": "https://avatars.githubusercontent.com/u/47187468?v=4",
-  "tags": ["java", "android", "nodeJS", "reactJS", "tailwindCSS", "mongodb", "c", "cpp"],
+  "tags": [
+    "java",
+    "android",
+    "nodeJS",
+    "reactJS",
+    "tailwindCSS",
+    "mongodb",
+    "c",
+    "cpp"
+  ],
   "socials": [
     {
       "icon": "FaTwitter",
