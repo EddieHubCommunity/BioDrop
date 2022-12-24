@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as MdIcons from "react-icons/md";
-import IconCard from "../components/iconCard";
+import IconCard from "../components/IconCard";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
