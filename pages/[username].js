@@ -83,53 +83,55 @@ export default function User({ users, data, BASE_URL }) {
     }
   });
   const [tabs, setTabs] = useState(displayTabs);
-  const sortUserTabItems = (tabName, order) =>{
-    if (tabName === "Events") {
-      userData.events.sort(function(a,b){
-        // Turn your strings into dates, and then subtract them
-        // to get a value that is either negative, positive, or zero.
-        if (order==="ASC") {
-            return new Date(a.date.start) > new Date(b.date.start) ? 1 : new Date(a.date.start) < new Date(b.date.start) ? -1 : 0;
-        } else {
-            return new Date(a.date.start) < new Date(b.date.start) ? 1 : new Date(a.date.start) > new Date(b.date.start) ? -1 : 0;
-        }
-      });
+
+  const getDataKeyAndSortKey = (tabName) => {
+    let dataKeyObj = {};
+    switch (tabName) {
+      case "Events":
+        dataKeyObj.dataKey="events";
+        dataKeyObj.sortKey="date.start";
+        break;
+      case "Testimonials":
+        dataKeyObj.dataKey="testimonials";
+        dataKeyObj.sortKey="date";
+        break;
+      case "Milestones":
+        dataKeyObj.dataKey="milestones";
+        dataKeyObj.sortKey="date";
+        break;
+      default:
+        dataKeyObj.dataKey="links";
+        dataKeyObj.sortKey="name";
     }
-    if (tabName === "Milestones") {
-      userData.milestones.sort(function(a,b){
-        // Turn your strings into dates, and then subtract them
-        // to get a value that is either negative, positive, or zero.
-        if (order==="ASC") {
-            return new Date(a.date) > new Date(b.date) ? 1 : new Date(a.date) < new Date(b.date) ? -1 : 0;
-        } else {
-            return new Date(a.date) < new Date(b.date) ? 1 : new Date(a.date) > new Date(b.date) ? -1 : 0;
-        }
-      });
-    }
-    if (tabName === "Testimonials") {
-      userData.testimonials.sort(function(a,b){
-        // Turn your strings into dates, and then subtract them
-        // to get a value that is either negative, positive, or zero.
-        if (order==="ASC") {
-            return new Date(a.date) > new Date(b.date) ? 1 : new Date(a.date) < new Date(b.date) ? -1 : 0;
-        } else {
-            return new Date(a.date) < new Date(b.date) ? 1 : new Date(a.date) > new Date(b.date) ? -1 : 0;
-        }
-      });
-    }
-    if (tabName === "My Links") {
-      userData.links.sort(function(a,b){
-        // Turn your strings into dates, and then subtract them
-        // to get a value that is either negative, positive, or zero.
+    return dataKeyObj;
+  }
+
+  const sortUserTabItems = (tabName, order) => {
+    const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
+    userData[dataKey].sort(function(a,b){
+      const aVal = sortKey.includes(".") ? getNested(a, sortKey.split(".")) : a[sortKey];
+      const bVal = sortKey.includes(".") ? getNested(b, sortKey.split(".")) : b[sortKey];
+      if(tabName === "My Links"){
           if (order==="ASC") {
-            return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : a.name.toLowerCase() < b.name.toLowerCase() ? -1 : 0;
+            return aVal.toLowerCase() > bVal.toLowerCase() ? 1 : aVal.toLowerCase() < bVal.toLowerCase() ? -1 : 0;
           } else {
-            return a.name.toLowerCase() < b.name.toLowerCase() ? 1 : a.name.toLowerCase() > b.name.toLowerCase() ? -1 : 0;
+            return aVal.toLowerCase() < bVal.toLowerCase() ? 1 : aVal.toLowerCase() > bVal.toLowerCase() ? -1 : 0;
           }
-      });
-    }
+      }else{
+        if (order==="ASC") {
+            return new Date(aVal) > new Date(bVal) ? 1 : new Date(aVal) < new Date(bVal) ? -1 : 0;
+        } else {
+            return new Date(aVal) < new Date(bVal) ? 1 : new Date(aVal) > new Date(bVal) ? -1 : 0;
+        }
+      }
+    });
     setUserData({...userData});
   }
+
+  const getNested = (obj, args) => {
+    return args.reduce((obj, level) => obj && obj[level], obj)
+  }
+
   return (
     <>
       <Head>
