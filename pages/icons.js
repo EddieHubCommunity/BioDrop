@@ -3,6 +3,7 @@ import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 import IconCard from "../components/IconCard";
+import Page from "../components/Page";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
@@ -50,12 +51,7 @@ export default function Icons() {
         <meta name="description" content="Search LinkFree icon directory" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col px-20 pt-10 align-center">
-        {notFound && (
-          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            {notFound}
-          </h2>
-        )}
+      <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input
           placeholder="Search Icons (minimum 3 characters)"
@@ -63,6 +59,11 @@ export default function Icons() {
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
+        {notFound && (
+          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
+            {notFound}
+          </h2>
+        )}
         <ul className="flex flex-wrap gap-4 mt-4">
           {searchedIconNames.map((iconName, index) => (
             <li key={index}>
@@ -70,7 +71,7 @@ export default function Icons() {
             </li>
           ))}
         </ul>
-      </div>
+      </Page>
     </>
   );
 }
