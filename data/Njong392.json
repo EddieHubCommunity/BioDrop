@@ -7,52 +7,52 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Njong392",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/njong_emy",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check out my LinkedIn profile",
       "url": "https://www.linkedin.com/in/njong-emy-729764207/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started my tech journey",
       "date": "2020",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "blue",
       "description": "Started tech journey"
     },
     {
       "title": "My first Hacktoberfest",
       "date": "2020",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Started tech journey"
     },
     {
       "title": "Actively started technical writing",
       "date": "2020",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "red",
       "description": "Started writing"
     },
     {
       "title": "Wrote my first article for FreeCodeCamp",
       "date": "2021",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "red",
       "description": "Started writing for FCC"
     },
     {
       "title": "First writing job!",
       "date": "2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "first writing gig"
     }

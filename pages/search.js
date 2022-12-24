@@ -37,7 +37,7 @@ export default function Search({ users }) {
       setNotFound(username);
       setThreeOrMore(false);
     }
-  }, []);
+  }, [username]);
 
   const filterData = (value) => {
     if (value.length <= 3) {

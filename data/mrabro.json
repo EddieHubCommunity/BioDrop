@@ -5,30 +5,30 @@
   "avatar": "https://github.com/mrabro.png",
   "tags": ["Open Source", "wordpress", "javascript", "nodejs", "DevOps"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/mrabro" },
-    { "platform": "github", "url": "https://github.com/mrabro" },
-    { "platform": "facebook", "url": "https://facebook.com/mrabro" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/mrabro" },
+    { "icon": "FaGithub", "url": "https://github.com/mrabro" },
+    { "icon": "FaFacebook", "url": "https://facebook.com/mrabro" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/mrabro",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/mrabro",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/mrabro/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Connect with me on Facebook",
       "url": "https://www.facebook.com/mrabro/",
-      "icon": "facebook"
+      "icon": "FaFacebook"
     }
   ]
 }

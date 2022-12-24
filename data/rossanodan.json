@@ -6,28 +6,28 @@
   "avatar": "https://github.com/rossanodan.png",
   "tags": ["javascript", "typescript", "nextjs", "graphql"],
   "socials": [
-    { "platform": "dev.to", "url": "https://dev.to/rossanodan" },
-    { "platform": "github", "url": "https://github.com/rossanodan" },
-    { "platform": "linkedin", "url": "https://www.linkedin.com/in/rossanodan" },
-    { "platform": "reddit", "url": "https://www.reddit.com/user/rossanodanuk" },
-    { "platform": "twitter", "url": "https://twitter.com/rossanodan" },
-    { "platform": "globe", "url": "https://rossanodan.dev/" }
+    { "icon": "FaDev", "url": "https://dev.to/rossanodan" },
+    { "icon": "FaGithub", "url": "https://github.com/rossanodan" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/rossanodan" },
+    { "icon": "reddit", "url": "https://www.reddit.com/user/rossanodanuk" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/rossanodan" },
+    { "icon": "FaGlobe", "url": "https://rossanodan.dev/" }
   ],
   "links": [
     {
       "name": "Read my blog on Dev.to",
       "url": "https://dev.to/rossanodan",
-      "icon": "dev.to"
+      "icon": "FaDev"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/rossanodan",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/rossanodan/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Reddit",
@@ -37,12 +37,12 @@
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/rossanodan",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Visit my website",
       "url": "https://rossanodan.dev/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ]
 }

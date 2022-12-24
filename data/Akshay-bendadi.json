@@ -7,27 +7,27 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Akshay-bendadi",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AkshayBendadi",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Cheak out my blogs on Hashnode",
       "url": "https://hashnode.com/@Akshay-bendadi",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshay-bendadi/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Cheak out my states on Leetcode",
       "url": "https://leetcode.com/Akshay_bendadi/",
-      "icon": "leetcode"
+      "icon": "SiLeetcode"
     }
   ]
 }

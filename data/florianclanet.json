@@ -7,12 +7,12 @@
     {
       "name": "GitHub",
       "url": "https://github.com/Flolight",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Twitter",
       "url": "https://twitter.com/FlolightC",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

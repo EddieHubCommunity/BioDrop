@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/DarshanVaishya",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/darshan_vaishya",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check my blog posts",
       "url": "https://blog.darshanvaishya.xyz/",
-      "icon": "book"
+      "icon": "FaBook"
     }
   ]
 }

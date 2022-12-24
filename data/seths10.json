@@ -7,29 +7,29 @@
     {
       "name": "My personal website",
       "url": "https://seths10.github.io/main-portfolio/",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/seths10",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/set_addo",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/seth-addo-034327190/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "May 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing again",
       "url": "https://seths10.github.io/main-portfolio/"
@@ -38,7 +38,7 @@
       "title": "Started Blogging",
       "image": "https://github.com/seths10.png",
       "date": "2021",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "color": "red",
       "description": "Technical articles",
       "url": "https://dev.to/seths10"
