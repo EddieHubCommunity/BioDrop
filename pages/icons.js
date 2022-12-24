@@ -53,7 +53,7 @@ export default function Search() {
       <div className="flex flex-col px-20 pt-10 align-center">
         {notFound && (
           <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            {notFound} not found
+            {notFound}
           </h2>
         )}
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
