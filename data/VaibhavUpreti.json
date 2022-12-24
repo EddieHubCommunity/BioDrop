@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/VaibhavUpreti",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/vaibhav__upreti",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/vaibhav-upreti-739b0421a/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Joined MAIT BTech AI&ML",
       "date": "2021",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "green",
       "description": "Joined MAIT BTech AI&ML"
     }

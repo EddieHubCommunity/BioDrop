@@ -13,37 +13,37 @@
     "open-source"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/AbhishekBtwt" },
-    { "platform": "github", "url": "https://github.com/bhattabhi013" },
-    { "platform": "instagram", "url": "https://www.instagram.com/bwith_abhi" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/AbhishekBtwt" },
+    { "icon": "FaGithub", "url": "https://github.com/bhattabhi013" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/bwith_abhi" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/bhattabhi013",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Check out my Portfolio",
       "url": "https://bhattabhi013.github.io./",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AbhishekBtwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/bhatt-abhi/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Vritant App",
       "date": "Nov 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "white",
       "description": "Currenlty working on this amazing app.",
       "url": "https://github.com/bhattabhi013/Vritant"
@@ -51,7 +51,7 @@
     {
       "title": "Started Developing and open-source",
       "date": "March 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "black",
       "description": "One of my best and life changing decision ever.",
       "url": "https://github.com/Ansh-Rathod"
@@ -59,7 +59,7 @@
     {
       "title": "Launched first mobile application.",
       "date": "May 2021",
-      "icon": "android",
+      "icon": "FaAndroid",
       "color": "green",
       "description": "Launched my first mobile application on playstore.",
       "url": "https://play.google.com/store/apps/details?id=com.plasma.covid"

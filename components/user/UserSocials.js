@@ -1,6 +1,7 @@
-import Icon from "../Icon";
+import getIcon from "../Icon";
 
 function UserSocial({ BASE_URL, username, social }) {
+  const DisplayIcon = getIcon(social.icon);
   const clickLink = async () => {
     try {
       const res = await fetch(
@@ -25,7 +26,7 @@ function UserSocial({ BASE_URL, username, social }) {
       rel="noopener noreferrer"
       className="hover:scale-125 transition ease-in-out delay-100"
     >
-      <Icon name={social.platform} />
+      <DisplayIcon />
     </a>
   );
 }

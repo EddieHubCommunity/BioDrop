@@ -54,16 +54,18 @@ export default function Event({ event, username }) {
                 )}
               </p>
             </div>
-            <Link href={`/${username}`} className="group block flex-shrink-0">
-              <FallbackImage
-                src={`https://github.com/${username}.png`}
-                alt={`Profile picture of ${username}`}
-                width={fallbackImageSize}
-                height={fallbackImageSize}
-                fallback={username}
-                className="rounded-full"
-              />
-            </Link>
+            {username && (
+              <Link href={`/${username}`} className="group block flex-shrink-0">
+                <FallbackImage
+                  src={`https://github.com/${username}.png`}
+                  alt={`Profile picture of ${username}`}
+                  width={fallbackImageSize}
+                  height={fallbackImageSize}
+                  fallback={username}
+                  className="rounded-full"
+                />
+              </Link>
+            )}
           </div>
         </div>
       </div>

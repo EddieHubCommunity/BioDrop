@@ -7,30 +7,30 @@
     {
       "name": "Check me on GitHub",
       "url": "https://github.com/akashtrivedig",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "red"
     },
     {
       "name": "Check me on Twitter",
       "url": "https://twitter.com/akashtrivedip",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check me on Leetcode",
       "url": "https://leetcode.com/web_spaghetti",
-      "icon": "search"
+      "icon": "FaSearch"
     },
     {
       "name": "Check me on Codeforces",
       "url": "https://codeforces.com/profile/akash-trivedi",
-      "icon": "codeforces"
+      "icon": "SiCodeforces"
     }
   ],
   "milestones": [
     {
       "title": "Project : Discord Clone a.k.a ShareSpace",
       "date": "July 2022",
-      "icon": "discord",
+      "icon": "FaDiscord",
       "color": "#404eed",
       "description": "A place to join/create communities of your Interests. Create Groups and if want to discuss something in private then go for DM's.",
       "url": "https://github.com/akashtrivedig/discord-clone/"
@@ -38,7 +38,7 @@
     {
       "title": "Project : Realtime Chat App",
       "date": "June 2022",
-      "icon": "send",
+      "icon": "RiSendPlaneFill",
       "color": "#3BA55D",
       "description": "Connecting people online. Direct messages via internet. Supports group creation. Video calling(under development) & Voice calling(under development).",
       "url": "https://github.com/akashtrivedig/chat-app/"

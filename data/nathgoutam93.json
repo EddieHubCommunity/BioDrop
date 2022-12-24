@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/nathgoutam93",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/nathgoutam93",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check out my portfolio",
       "url": "https://nathgoutam93.github.io/Portfolio/",
-      "icon": "link"
+      "icon": "FaLink"
     }
   ],
   "milestones": [
@@ -30,14 +30,14 @@
     {
       "title": "Started Web Development",
       "date": "October 2021",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "blue",
       "description": "Got to learn about Web dev tools like HTML, CSS, Js, node and now playing with Js/CSS frameworks"
     },
     {
       "title": "Started Open Source Contribution",
       "date": "December 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started contributing to Open Source projects"
     }

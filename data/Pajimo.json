@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Pajimo",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/olamide_faniyan",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/olamide-faniyan-30ab7422b/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check my Portfolio",
       "url": "https://olamidefaniyan.netlify.app",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ],
   "milestones": [
     {
       "title": "Started Web development",
       "date": "2017",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Started Web dev",
       "url": "https://github.com/Pajimo"
@@ -37,7 +37,7 @@
     {
       "title": "Re-started web development with React",
       "date": "Jan 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Finally Progressed to framework and from there I found the confidence to create anything",
       "url": "https://github.com/Pajimo"
@@ -45,7 +45,7 @@
     {
       "title": "Started Open source and Mobile Development",
       "date": "June 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Starting Open source and Mobile Development"
     }

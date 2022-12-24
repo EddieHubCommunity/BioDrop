@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Kanika637",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/gola_kanika",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/kanika-gola-34778a203/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Postman Student Expert",
       "date": "May 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "#FF6C37",
       "description": "Became a Postman Student Expert",
       "url": "https://badgr.com/public/assertions/Sr88L1CQTfqCgc4hI6LRXg"

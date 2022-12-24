@@ -1,0 +1,131 @@
+import DocsLayout from "../../components/layouts/DocsLayout.js";
+
+## Quickstart
+
+### Add your profile
+
+There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+
+To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
+
+1. Log in to your GitHub Account
+2. Visit the [LinkFree repo](https://github.com/EddieHubCommunity/LinkFree)
+
+![LinkFree GitHub repo](https://user-images.githubusercontent.com/82668196/208292176-fb2bedf9-8dd1-4fff-b422-30d54f2fdd48.png)
+
+3. If you wish to be kept up to date with the repo, hit that "Star" at the top right
+4. Click on Fork
+
+![create a new fork](https://user-images.githubusercontent.com/82668196/208292177-7f1fe62e-a73d-4070-8a57-ca3ec47812fc.png)
+
+5. Accept the default fork creating a copy of the LinkFree project in your account - this will take you to the forked repo
+
+![LinkFree form](https://user-images.githubusercontent.com/82668196/208292178-92daccad-293d-407a-9d8d-0a86b63d6bd7.png)
+
+6. Click add file and select "create new file"
+7. In the file path at the top, add `data/` then with your GitHub username exactly as it appears, and append `.json` (for example `data/SaraJaoude.json`)
+
+![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
+
+8. For the file contents use the json structure below:
+
+```js
+{
+  "name": "Sara Jaoude",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/SaraJaoude.png",
+}
+```
+
+| field              | type                 | description                                                                                                   |
+| :----------------- | :------------------- | :------------------------------------------------------------------------------------------------------------ |
+| name               | string               | Your display name on your Profile                                                                             |
+| displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter                                                         |
+| type               | personal / community | The type of account, is it a single person or a community                                                     |
+| bio                | string               | Your description about yourself (you an use markdown here)                                                    |
+| avatar             | string               | Here we recommend you use a magic GitHub link for your profile which is your GitHub link appended with `.png` |
+
+9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
+
+```js
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+```
+
+| field | type   | description                                                                                                |
+| :---- | :----- | :--------------------------------------------------------------------------------------------------------- |
+| name  | string | The display name for the button                                                                            |
+| url   | string | Full url to the resource                                                                                   |
+| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. |
+
+![propose new file](https://user-images.githubusercontent.com/82668196/208292185-743dc114-5699-4b58-bf5c-c5fc74f0248d.png)
+
+To add more links add another object inside the links collection. For example:
+
+```js
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/EddieAndSaraExplore",
+      "icon": "FaInstagram"
+    }
+  ]
+```
+
+10. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+
+You can skip `optional extended message`
+
+11. Click `create new branch` and you can use the default name provided
+12. Then click `Propose new file`
+
+![propose new file](https://user-images.githubusercontent.com/82668196/208292186-d954f0e5-bdb0-4177-ac14-eb5d99b329dd.png)
+
+13. Click `compare across forks` and you will see 4 drop downs
+
+| Dropdown     | Description                          | Example values               |
+| :----------- | :----------------------------------- | :--------------------------- |
+| 1st dropdown | Base repository (destination)        | `EddieHubCommunity/LinkFree` |
+| 2nd dropdown | Base repository branch (destination) | `main`                       |
+| 3rd dropdown | Your repository (source)             | `your-username/LinkFree`     |
+| 4th dropdown | Your repository branch (source)      | `your-username-patch-1`      |
+
+![compare across forls](https://user-images.githubusercontent.com/82668196/208292189-513b4213-a3a7-4a45-a834-ac6ce6b9217a.png)
+
+14. Click `Create pull request`
+15. The description will be filled with a template, please fill in the appropiate sections
+
+![create pull request](https://user-images.githubusercontent.com/82668196/208292192-704402e7-c2d6-432e-8dab-cb6a678866c1.png)
+
+16. Click `Create pull request`
+
+17. Now you need to wait to have your Pull Request (changes) reviewed
+
+![pull request](https://user-images.githubusercontent.com/82668196/208292196-c374d328-6bed-4f7b-adbc-b55c29b7c367.png)
+
+18. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
+19. Once merged your profile will be available a few minutes later on your custom url (for example: [linkfree.eddiehub.io/SaraJaoude](https://linkfree.eddiehub.io/SaraJaoude))
+
+![merged pull request](https://user-images.githubusercontent.com/82668196/208292199-e7a01541-5356-4b2f-8b3e-94be121c661f.png)
+
+### Example Profiles
+
+Looking for inspiration? You can view the following profiles for an example:
+
+- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
+- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
+- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
+
+export default ({ children }) => <DocsLayout>{children}</DocsLayout>;

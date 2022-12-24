@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/AngelofVerdant",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AngelofVerdant",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }
