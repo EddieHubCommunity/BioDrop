@@ -5,15 +5,15 @@
   "bio": "Pursuing B. Tech in computer science and engineering",
   "avatar": "https://github.com/md-abid-hussain.png",
   "links": [
-      {
-        "name": "Connect me on LinkedIn",
-        "url": "https://www.linkedin.com/in/md-abid-hussain-52862b229/",
-        "icon": "FaLinkedin"
-      },
-      {
-        "name": "GitHub",
-        "url": "https://github.com/md-abid-hussain",
-        "icon": "FaGithub"
-      }
-    ]
-  }
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/md-abid-hussain-52862b229/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/md-abid-hussain",
+      "icon": "FaGithub"
+    }
+  ]
+}
