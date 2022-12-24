@@ -4,9 +4,8 @@ import NavLink from "./NavLink";
 import Link from "next/link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import Icon from "../Icon";
+import { FaGithub } from "react-icons/fa";
 import { IconContext } from "react-icons";
-
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,6 +27,10 @@ export default function Navbar() {
     {
       name: "Community Events",
       url: "/events",
+    },
+    {
+      name: "Docs",
+      url: "/docs",
     },
   ];
 
@@ -62,12 +65,17 @@ export default function Navbar() {
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
-		    target="_blank"
-		    rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    <IconContext.Provider value={{ color: "white", style: { verticalAlign: 'middle' } }}>
-                      <Icon name="github" />
-                    </IconContext.Provider>  
+                    <IconContext.Provider
+                      value={{
+                        color: "white",
+                        style: { verticalAlign: "middle" },
+                      }}
+                    >
+                      <FaGithub />
+                    </IconContext.Provider>
                   </a>
                 </div>
               </div>
@@ -129,16 +137,21 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
-            <div className="flex items-center md:ml-6">
+              <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                   >
-                    <IconContext.Provider value={{ color: "white", style: { verticalAlign: 'middle' } }}>
-                      <Icon name="github" />
-                    </IconContext.Provider>  
+                    <IconContext.Provider
+                      value={{
+                        color: "white",
+                        style: { verticalAlign: "middle" },
+                      }}
+                    >
+                      <FaGithub />
+                    </IconContext.Provider>
                   </a>
                 </div>
               </div>

@@ -7,29 +7,29 @@
     {
       "name": "Visit Website",
       "url": "http://joshuaizu.vercel.app",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Questionable code",
       "url": "https://github.com/izuutech",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Controversial opinions",
       "url": "https://twitter.com/amaechiizu1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn Profile",
       "url": "https://www.linkedin.com/in/joshua-amaechindukwe",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "March 2018",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://joshuaizu.vercel.app/"

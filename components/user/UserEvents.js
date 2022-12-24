@@ -8,7 +8,7 @@ export default function UserEvents({ data }) {
       <ul role="list" className="divide-y divide-gray-200">
         {data.events &&
           data.events.map((event, index) => (
-            <Event event={event} username={data.username} key={index} />
+            <Event event={event} key={index} />
           ))}
       </ul>
     </>

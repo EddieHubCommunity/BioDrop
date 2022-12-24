@@ -7,30 +7,30 @@
     {
       "name": "My business website",
       "url": "https://build-up.us",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Personal portfolio website",
       "url": "https://jovanportfolio.netlify.app/",
 
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/JoBaHP",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/joccoo",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "November 2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://jovanportfolio.netlify.app/"
@@ -38,7 +38,7 @@
     {
       "title": "Java Web Development",
       "date": "2019",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Certificate of Completion",
 
@@ -47,7 +47,7 @@
     {
       "title": "Basics of Java Development",
       "date": "2018",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Certificate of Completion",
       "url": "https://jovanportfolio.netlify.app/"

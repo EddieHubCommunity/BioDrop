@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Sajal24",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SajalShlan",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [

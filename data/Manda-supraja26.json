@@ -6,29 +6,29 @@
   "avatar": "https://github.com/Manda-supraja26.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/SuprajaManda" },
-    { "platform": "github", "url": "https://github.com/Manda-supraja26" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/SuprajaManda" },
+    { "icon": "FaGithub", "url": "https://github.com/Manda-supraja26" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Manda-supraja26",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SuprajaManda",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on HASHNODE",
       "url": "https://suprajamanda.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/suprajamanda/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

@@ -7,31 +7,31 @@
   "tags": ["javascript", "gatsbyjs", "nextjs", "react", "open source", "css"],
   "socials": [
     {
-      "platform": "twitter",
+      "icon": "FaTwitter",
       "url": "https://twitter.com/shericodes"
     },
-    { "platform": "github", "url": "https://github.com/shericodes" }
+    { "icon": "FaGithub", "url": "https://github.com/shericodes" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/shericodes",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Visit my Personal Portfolio",
       "url": "https://sheri.dev",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/shericodes",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/sheriallis/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

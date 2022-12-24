@@ -7,14 +7,14 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/kumar-rocks",
-      "icon": "github"
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
     {
       "title": "Started Open Source",
       "date": "September 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started Open Source",
       "url": "https://github.com/kumar-rocks"

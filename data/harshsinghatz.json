@@ -6,17 +6,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/harshsinghatz",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/HarshSinghAtZ",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/harshatz/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ]
 }

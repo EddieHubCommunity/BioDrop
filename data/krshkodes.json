@@ -7,12 +7,12 @@
     {
       "name": "Find my work on GitHub! 🐙",
       "url": "https://github.com/krshkodes",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "I write many things on Twitter ✍🏻",
       "url": "https://twitter.com/krshkodes",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": []

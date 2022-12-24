@@ -7,23 +7,23 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ChinmayMhatre",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/chinmaysmhatre",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/chinmaymhatre",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "My blogs",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "color": "grey",
       "description": "Check out my blogs on dev.to",
       "url": "https://dev.to/chinmaymhatre"

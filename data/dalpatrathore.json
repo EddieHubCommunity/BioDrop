@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/dalpatrathore",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ingenuity_brain",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check out my LinkedIn profile",
       "url": "https://www.linkedin.com/in/dalpatrathore",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }
