@@ -1,8 +1,10 @@
 {
   "name": "Rishav Mitra",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Student | Learning | Contributing to Open Source",
   "avatar": "https://github.com/Rishav-12.png",
+  "tags": ["Open Source", "Python", "Data Science", "JavaScript"],
   "links": [
     {
       "name": "My Open Source journey on GitHub",
