@@ -33,25 +33,25 @@
 
   "milestones": [
     {
-      "title": "Started Learning about Backend Developer",
+      "title": "Started Learning about Backend Development",
       "date": "2021",
       "icon": "FaSearch",
       "color": "red",
-      "description": "I was learning Backend development technologies like NodeJS,ExpressJS,MongoDB etc.."
+      "description": "I was learning Backend development technologies like NodeJS,ExpressJS,MongoDB etc..."
     },
     {
       "title": "Diploma Graduate in CSE",
       "date": "2022",
       "icon": "FaGraduationCap",
       "color": "blue",
-      "description": "I was learning Backend development technologies like NodeJS,ExpressJS,MongoDB etc.."
+      "description": "I completed diploma Computer Science and Engg."
     },
     {
       "title": "What I know",
       "date": "2022",
       "icon": "FaGlobe",
       "color": "green",
-      "description": "**NodeJS**, **ExpressJS**, **MongoDB**, JavaScript, HTML, CSS, PHP, C",
+      "description": "**NodeJS**, **ExpressJS**, **MongoDB**, JavaScript, HTML, CSS, PHP, C.",
       "url": "https://natours-sharat.cyclic.app/"
     }
   ]
