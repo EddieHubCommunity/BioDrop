@@ -74,7 +74,7 @@ Note: After your PR gets merged, the project still needs to be deployed for your
 
 ## 🛠️ Quickstart
 
-You have 3 options to contribute to the repo, please pick your favourite from:
+You have 4 options to contribute to the repo, please pick your favourite from:
 
 1. GitHub UI
 2. Gitpod
