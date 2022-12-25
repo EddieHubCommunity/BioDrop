@@ -56,7 +56,7 @@ You can set this up locally with the following steps:
 
 ### 🙂 How to add YOUR Profile
 
-Full docs can be found here https://linkfree.eddiehub.io/docs/quickstart
+Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
 1. Fork the repository in your profile which lets you do the changes in the project without affecting the main repository
 2. Create a new branch
