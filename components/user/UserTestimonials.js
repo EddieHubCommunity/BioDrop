@@ -12,6 +12,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
           url: `${BASE_URL}/${testimonial.username}`,
         };
       }
+      
 
       return {
         ...testimonial,
@@ -31,11 +32,13 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
             key={key}
           >
             <div className="flex-none p-6">
-              <img
-                src={`https://github.com/${testimonial.username}.png`}
-                alt={testimonial.username}
-                className="h-20 w-20 rounded-full bg-gray-100"
-              />
+              <a href={`https://github.com/${testimonial.username}`} target="_blank" rel="noreferrer">
+                <img
+                  src={`https://github.com/${testimonial.username}.png`}
+                  alt={testimonial.username}
+                  className="h-20 w-20 rounded-full bg-gray-100"
+                />
+              </a>
             </div>
             <div className="flex-1 p-6">
               <h3 className="font-medium text-gray-900">{testimonial.title}</h3>
