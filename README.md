@@ -12,7 +12,7 @@ Here is an example of a LinkFree [Profile](https://linkfree.eddiehub.io/eddiejao
 
 ## 🙂 How to add YOUR Profile
 
-In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
+Fork the repository in your profile which lets you do the changes in the project without affecting the main repository & create a new branch. For the next step, In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
 
 **Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events` **\
 Looking for inspiration? You can view the following profiles for an example:
