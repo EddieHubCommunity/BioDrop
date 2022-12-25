@@ -124,7 +124,6 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
 ## 🙏 Support
 
