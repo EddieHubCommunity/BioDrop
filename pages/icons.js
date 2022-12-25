@@ -2,12 +2,14 @@ import Head from "next/head";
 import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
+import Alert from "../components/Alert";
 import IconCard from "../components/IconCard";
 import Page from "../components/Page";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [threeOrMore, setThreeOrMore] = useState();
 
   /**
    creating an icons object to map the original name of the icon as value
@@ -29,8 +31,10 @@ export default function Icons() {
   const searchIcons = (value) => {
     setSearchedIconNames([]);
     if (value.length < 3) {
-      return setNotFound("Please enter at least 3 characters to search...");
+      return setThreeOrMore(false);
     }
+    setThreeOrMore(true);
+
     const filteredIconNames = Object.keys(icons)
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
       .map((iconName) => icons[iconName]);
@@ -55,14 +59,16 @@ export default function Icons() {
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input
           placeholder="Search Icons (minimum 3 characters)"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 "
+          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
-        {notFound && (
-          <h2 className="bg-red-200 text-red-600 border-2 border-red-600 p-5 my-5 text-xl">
-            {notFound}
-          </h2>
+        {notFound && <Alert type="error" message={`${notFound}`} />}
+        {!threeOrMore && (
+          <Alert
+            type="info"
+            message="You have to enter at least 3 characters to search for a user."
+          />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
           {searchedIconNames.map((iconName, index) => (
