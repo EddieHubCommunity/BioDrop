@@ -2,5 +2,9 @@ version: "3.9"
 services:
   mongodb:
     image: mongo
-    ports:
-      - "27017:27017"
+  linkfree:
+    build: .
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/linkfree
+    depends_on:
+      - mongodb
