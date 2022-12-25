@@ -48,16 +48,14 @@
       "date": "October 2020",
       "icon": "FaCode",
       "color": "blue",
-      "description": "Participated in my first hackathon and won it to got an internship offer",
-      "url": ""
+      "description": "Participated in my first hackathon and won it to got an internship offer"
     },
     {
       "title": "Started Working at Gravitas AI",
       "date": "Feb 2021",
       "icon": "FcOrganization",
       "color": "blue",
-      "description": "Worked as an intern at a startup called Gravitas AI",
-      "url": ""
+      "description": "Worked as an intern at a startup called Gravitas AI"
     },
     {
       "title": "Started Freelancing",
@@ -80,8 +78,7 @@
       "date": "June 2022",
       "icon": "FaCode",
       "color": "blue",
-      "description": "Won the Code for Good hackathon organized by JP Morgan Chase and Co.",
-      "url": ""
+      "description": "Won the Code for Good hackathon organized by JP Morgan Chase and Co."
     }
   ]
 }
