@@ -74,7 +74,7 @@ Note: After your PR gets merged, the project still needs to be deployed for your
 
 ## 🛠️ Quickstart
 
-You have 3 options to contribute to the repo, please pick your favourite from:
+You have 4 options to contribute to the repo, please pick your favourite from:
 
 1. GitHub UI
 2. Gitpod
@@ -124,7 +124,6 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
 ## 🙏 Support
 
