@@ -74,7 +74,7 @@ export default function Navbar() {
                         style: { verticalAlign: "middle" },
                       }}
                     >
-                      <FaGithub aria-label=“GitHub”/>
+                      <FaGithub aria-label="GitHub"/>
                     </IconContext.Provider>
                   </a>
                 </div>
