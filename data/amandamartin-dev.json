@@ -8,7 +8,7 @@
     "DevRel",
     "Web Dev",
     "Javascript",
-    "Open Source",
+    "Open Source"
   ],
 "links": [
     {
@@ -25,7 +25,7 @@
       "name": "Follow me on GitHub. Let's build together!",
       "url": "https://github.com/amandamartin-dev",
       "icon": "FaGithub"
-    }
+    },
   {
       "name": "Follow me here for blogging about devrel and other dev topics",
       "url": "https://dev.to/amandamartindev",
