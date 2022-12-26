@@ -1,3 +1,3 @@
 # Contributing Guide
 
-Please see the `docs` folder https://github.com/EddieHubCommunity/LinkFree/tree/main/docs/contributing
+Please see the `docs` in the app https://linkfree.eddiehub.io/docs

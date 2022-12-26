@@ -19,4 +19,8 @@ You can set this up locally with the following steps
 1. `npm install`
 1. `npm run dev`
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Local Development Documentation">
+    {children}
+  </DocsLayout>
+);

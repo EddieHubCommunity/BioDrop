@@ -1,0 +1,58 @@
+{
+  "name": "Sharat Katwa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Backend Developer | Open Source and Tech Enthusiast",
+  "avatar": "https://github.com/sharatkatwa.png",
+  "tags": ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "OpenSource"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/JkSharat" },
+    { "icon": "FaGithub", "url": "https://github.com/sharatkatwa" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sharat-katwa" }
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sharatkatwa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JkSharat",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sharat-katwa",
+      "icon": "FaLinkedin",
+      "color": "#0075D6"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Started Learning about Backend Development",
+      "date": "2021",
+      "icon": "FaSearch",
+      "color": "red",
+      "description": "I was learning Backend development technologies like NodeJS,ExpressJS,MongoDB etc..."
+    },
+    {
+      "title": "Diploma Graduate in CSE",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I completed diploma Computer Science and Engg."
+    },
+    {
+      "title": "What I know",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "**NodeJS**, **ExpressJS**, **MongoDB**, JavaScript, HTML, CSS, PHP, C.",
+      "url": "https://natours-sharat.cyclic.app/"
+    }
+  ]
+}

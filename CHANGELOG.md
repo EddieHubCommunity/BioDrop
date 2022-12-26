@@ -1,3 +1,12 @@
+## [1.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.2...v1.25.3) (2022-12-26)
+
+
+### Bug Fixes
+
+* docs to have titles [#2495](https://github.com/EddieHubCommunity/LinkFree/issues/2495) ([#2496](https://github.com/EddieHubCommunity/LinkFree/issues/2496)) ([57d21f0](https://github.com/EddieHubCommunity/LinkFree/commit/57d21f0f19a19dc2054ced2d302ee3dfe1309b2e))
+
+
+
 ## [1.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.1...v1.25.2) (2022-12-23)
 
 
@@ -84,15 +93,6 @@
 ### Bug Fixes
 
 * events user only on all list ([e163476](https://github.com/EddieHubCommunity/LinkFree/commit/e163476a8cb90eb9a3946c5d2403ec03aed1ada1))
-
-
-
-## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.9...v1.24.10) (2022-12-22)
-
-
-### Bug Fixes
-
-* data file in wrong location ([2063878](https://github.com/EddieHubCommunity/LinkFree/commit/2063878dd88d22d23476b81f4241dd9d092c4e2d))
 
 
 

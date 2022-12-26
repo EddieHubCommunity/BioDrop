@@ -18,4 +18,6 @@ _note: not all components have been added, this is a great way to contribute to 
 1. Set the default arguments by looking at the requirements from the component itself
 1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree StoryBook Documentation">{children}</DocsLayout>
+);
