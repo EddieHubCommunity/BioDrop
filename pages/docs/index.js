@@ -277,9 +277,9 @@ export default function DocsIndex() {
                       </span>
                     </div>
                     <a href={page.path} className="mt-4 block">
-                      <p className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-gray-900">
                         {page.name}
-                      </p>
+                      </h3>
                       <p className="mt-3 text-base text-gray-500">
                         {page.description}
                       </p>
