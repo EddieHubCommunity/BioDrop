@@ -1,0 +1,24 @@
+{
+  "name": "Tobiloba",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
+  "avatar": "https://github.com/tobySolutions.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/toby_solutions",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tobiloba-adedeji",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/tobySolutions",
+      "icon": "FaGithub"
+    }
+  ]
+}
