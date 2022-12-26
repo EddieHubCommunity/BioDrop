@@ -62,7 +62,7 @@ Step by step quickstart guide can be found in the full docs here https://linkfre
 2. Create a new branch
 3. In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
 
-**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events`**
+**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events`**\
 
 Looking for inspiration? You can view the following profiles for an example:
 
