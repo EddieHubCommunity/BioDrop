@@ -1,3 +1,6 @@
+import Head from "next/head";
+import Page from "../../components/Page";
+
 export default function DocsIndex() {
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -224,47 +227,70 @@ export default function DocsIndex() {
   ];
   return (
     <>
-      {sections.map((section) => (
-        <div
-          className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
-          key={section.title}
-        >
-          <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
-            <div>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                {section.title}
-              </h2>
-              <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-                {section.description}
-              </p>
-            </div>
-            <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-              {section.pages.map((page) => (
-                <div key={page.name}>
-                  <div>
-                    <span
-                      className={classNames(
-                        page.category.color,
-                        "inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
-                      )}
-                    >
-                      {page.category.name}
-                    </span>
+      <Head>
+        <title>LinkFree Documentation</title>
+        <meta
+          name="description"
+          content="Discover more people in your LinkFree community"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Page>
+        <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
+        <p>
+          Here you should find everything you need from getting started with
+          creating your Profile to more advanced topics. You can contribute to
+          our documentation and find the files here{" "}
+          <a
+            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
+          </a>
+        </p>
+        {sections.map((section) => (
+          <div
+            className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
+            key={section.title}
+          >
+            <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
+              <div>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  {section.title}
+                </h2>
+                <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+                  {section.description}
+                </p>
+              </div>
+              <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                {section.pages.map((page) => (
+                  <div key={page.name}>
+                    <div>
+                      <span
+                        className={classNames(
+                          page.category.color,
+                          "inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
+                        )}
+                      >
+                        {page.category.name}
+                      </span>
+                    </div>
+                    <a href={page.path} className="mt-4 block">
+                      <p className="text-xl font-semibold text-gray-900">
+                        {page.name}
+                      </p>
+                      <p className="mt-3 text-base text-gray-500">
+                        {page.description}
+                      </p>
+                    </a>
                   </div>
-                  <a href={page.path} className="mt-4 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      {page.name}
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      {page.description}
-                    </p>
-                  </a>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </Page>
     </>
   );
 }

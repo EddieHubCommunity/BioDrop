@@ -12,4 +12,8 @@ For example
 }
 ```
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Single User Mode Documentation">
+    {children}
+  </DocsLayout>
+);
