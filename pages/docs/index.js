@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 export default function DocsIndex() {
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -224,6 +226,14 @@ export default function DocsIndex() {
   ];
   return (
     <>
+      <Head>
+        <title>LinkFree Documentation</title>
+        <meta
+          name="description"
+          content="Discover more people in your LinkFree community"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       {sections.map((section) => (
         <div
           className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
