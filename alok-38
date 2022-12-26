@@ -1,0 +1,15 @@
+{
+  "name": "Alokananda Y",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer **Bootcamp Student at Scrimba**. Weight lifter and Physics enthusiast",
+  "avatar": "https://github.com/alok-38.png",
+}
+
+"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/alok-38",
+      "icon": "FaTwitter"
+    }
+  ]
