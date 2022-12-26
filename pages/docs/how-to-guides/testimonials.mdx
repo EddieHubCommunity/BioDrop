@@ -35,4 +35,8 @@ You can do this by including the usernames of the testimonials you wish to show 
 ]
 ```
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Testimonials Documentation">
+    {children}
+  </DocsLayout>
+);
