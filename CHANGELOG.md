@@ -1,3 +1,12 @@
+## [1.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.1...v1.26.2) (2022-12-27)
+
+
+### Bug Fixes
+
+* aria-label for GitHub icon ([#2506](https://github.com/EddieHubCommunity/LinkFree/issues/2506)) ([27ea0c9](https://github.com/EddieHubCommunity/LinkFree/commit/27ea0c966d8ae432ae64f34e04c06bb471ca43a7))
+
+
+
 ## [1.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.0...v1.26.1) (2022-12-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * strapline ([#2469](https://github.com/EddieHubCommunity/LinkFree/issues/2469)) ([7150461](https://github.com/EddieHubCommunity/LinkFree/commit/71504615e12ea93508a3d663ea16fd58e12579e4))
-
-
-
-## [1.25.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.0...v1.25.1) (2022-12-23)
-
-
-### Bug Fixes
-
-* QR code margin for mobile ([#2468](https://github.com/EddieHubCommunity/LinkFree/issues/2468)) ([949ef2d](https://github.com/EddieHubCommunity/LinkFree/commit/949ef2da2d6b1b035ec3f7df00306ad0a6d2cf76))
 
 
 
