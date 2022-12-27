@@ -11,13 +11,6 @@ export default function Icons() {
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
 
-  /**
-   creating an icons object to map the original name of the icon as value
-   the icons name are in camelCase so converting it into lowercase for searchig
-   after searching we need the camelcase string to get the icon from react-icons
-   eg: icons = { mdoutlinetoggleon: 'MdOutlineToggleOn'}
- */
-
   const icons = {};
 
   Object.keys(FaIcons).forEach((key) => {
@@ -39,13 +32,15 @@ export default function Icons() {
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
       .map((iconName) => icons[iconName]);
 
-    setSearchedIconNames(filteredIconNames);
-
     if (!filteredIconNames.length) {
       return setNotFound(value);
     }
 
-    setNotFound();
+    if (filteredIconNames.length) {
+      setNotFound();
+    }
+
+    setSearchedIconNames(filteredIconNames);
   };
 
   return (
@@ -63,7 +58,9 @@ export default function Icons() {
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
-        {notFound && <Alert type="error" message={`${notFound} not found`} />}
+        {threeOrMore && notFound && (
+          <Alert type="error" message={`${notFound} not found`} />
+        )}
         {!threeOrMore && (
           <Alert
             type="info"
