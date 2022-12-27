@@ -44,7 +44,7 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 | name               | string               | Your display name on your Profile                                                                             |
 | displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter                                                         |
 | type               | personal / community | The type of account, is it a single person or a community                                                     |
-| bio                | string               | Your description about yourself (you an use markdown here)                                                    |
+| bio                | string               | Your description about yourself (you can use markdown here)                                                    |
 | avatar             | string               | Here we recommend you use a magic GitHub link for your profile which is your GitHub link appended with `.png` |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
@@ -59,11 +59,11 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   ]
 ```
 
-| field | type   | description                                                                                                |
-| :---- | :----- | :--------------------------------------------------------------------------------------------------------- |
-| name  | string | The display name for the button                                                                            |
-| url   | string | Full url to the resource                                                                                   |
-| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. |
+| field | type   | description                                                                                                                                                                          |
+| :---- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  | string | The display name for the button                                                                                                                                                      |
+| url   | string | Full url to the resource                                                                                                                                                             |
+| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons here](https://linkfree.eddiehub.io/icons) |
 
 ![propose new file](https://user-images.githubusercontent.com/82668196/208292185-743dc114-5699-4b58-bf5c-c5fc74f0248d.png)
 
@@ -128,4 +128,6 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
 - [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree QuickStart Documentation">{children}</DocsLayout>
+);

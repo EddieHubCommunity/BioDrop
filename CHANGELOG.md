@@ -1,3 +1,21 @@
+# [1.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.3...v1.26.0) (2022-12-27)
+
+
+### Features
+
+* searching icons ([#2472](https://github.com/EddieHubCommunity/LinkFree/issues/2472)) ([#2512](https://github.com/EddieHubCommunity/LinkFree/issues/2512)) ([d98a55e](https://github.com/EddieHubCommunity/LinkFree/commit/d98a55ed8ab05b03ca4d1ba0045253c120ede021))
+
+
+
+## [1.25.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.2...v1.25.3) (2022-12-26)
+
+
+### Bug Fixes
+
+* docs to have titles [#2495](https://github.com/EddieHubCommunity/LinkFree/issues/2495) ([#2496](https://github.com/EddieHubCommunity/LinkFree/issues/2496)) ([57d21f0](https://github.com/EddieHubCommunity/LinkFree/commit/57d21f0f19a19dc2054ced2d302ee3dfe1309b2e))
+
+
+
 ## [1.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.1...v1.25.2) (2022-12-23)
 
 
@@ -75,24 +93,6 @@
 * social icons increment stats ([#2357](https://github.com/EddieHubCommunity/LinkFree/issues/2357)) ([2ba8146](https://github.com/EddieHubCommunity/LinkFree/commit/2ba8146d4931030008e1c5d0d425c7eb792b9194))
 * syntax highlighting ([0c274d3](https://github.com/EddieHubCommunity/LinkFree/commit/0c274d3fa998bff8292aee34816f11160563c5f4))
 * testimonials via issues ([#2359](https://github.com/EddieHubCommunity/LinkFree/issues/2359)) ([a7a5ce8](https://github.com/EddieHubCommunity/LinkFree/commit/a7a5ce8aad8693e1113e3a86f62b35e315dcf9f2)), closes [#2344](https://github.com/EddieHubCommunity/LinkFree/issues/2344)
-
-
-
-## [1.24.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.10...v1.24.11) (2022-12-22)
-
-
-### Bug Fixes
-
-* events user only on all list ([e163476](https://github.com/EddieHubCommunity/LinkFree/commit/e163476a8cb90eb9a3946c5d2403ec03aed1ada1))
-
-
-
-## [1.24.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.24.9...v1.24.10) (2022-12-22)
-
-
-### Bug Fixes
-
-* data file in wrong location ([2063878](https://github.com/EddieHubCommunity/LinkFree/commit/2063878dd88d22d23476b81f4241dd9d092c4e2d))
 
 
 
