@@ -63,11 +63,11 @@ export default function Icons() {
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
-        {notFound && <Alert type="error" message={`${notFound}`} />}
+        {notFound && <Alert type="error" message={`${notFound} not found`} />}
         {!threeOrMore && (
           <Alert
             type="info"
-            message="You have to enter at least 3 characters to search for a user."
+            message="You have to enter at least 3 characters to search for an icon."
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
