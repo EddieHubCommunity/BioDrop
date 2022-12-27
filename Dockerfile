@@ -10,4 +10,6 @@ COPY . .
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
 
-CMD ["npm", "run", "start:docker"]
+RUN npm run build
+
+CMD ["npm", "start"]

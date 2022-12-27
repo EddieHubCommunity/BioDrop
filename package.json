@@ -21,6 +21,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "dev:docker": "ncp ./.env.docker ./.env && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test",
@@ -31,8 +32,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "postinstall": "ncp ./.env.example ./.env",
-    "create": "npx linkfree-cli",
-    "start:docker": "npm run build && npm start"
+    "create": "npx linkfree-cli"
   },
   "browserslist": {
     "production": [
