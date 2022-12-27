@@ -67,7 +67,7 @@ export default function Icons() {
         {!threeOrMore && (
           <Alert
             type="info"
-            message="You have to enter at least 3 characters to search for a user."
+            message="You have to enter at least 3 characters to search for an icon."
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
