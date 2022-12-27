@@ -42,7 +42,7 @@ export default function Icons() {
     setSearchedIconNames(filteredIconNames);
 
     if (!filteredIconNames.length) {
-      return setNotFound("No Icons found");
+      return setNotFound(value);
     }
 
     setNotFound();
