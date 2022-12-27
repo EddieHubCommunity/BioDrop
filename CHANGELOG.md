@@ -1,3 +1,12 @@
+## [1.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.2...v1.26.3) (2022-12-27)
+
+
+### Bug Fixes
+
+* only run json check on data file changes ([#2517](https://github.com/EddieHubCommunity/LinkFree/issues/2517)) ([980a191](https://github.com/EddieHubCommunity/LinkFree/commit/980a191b72d9fd4750b776d55145344ef2e7a171))
+
+
+
 ## [1.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.1...v1.26.2) (2022-12-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docs to have titles [#2495](https://github.com/EddieHubCommunity/LinkFree/issues/2495) ([#2496](https://github.com/EddieHubCommunity/LinkFree/issues/2496)) ([57d21f0](https://github.com/EddieHubCommunity/LinkFree/commit/57d21f0f19a19dc2054ced2d302ee3dfe1309b2e))
-
-
-
-## [1.25.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.1...v1.25.2) (2022-12-23)
-
-
-### Bug Fixes
-
-* strapline ([#2469](https://github.com/EddieHubCommunity/LinkFree/issues/2469)) ([7150461](https://github.com/EddieHubCommunity/LinkFree/commit/71504615e12ea93508a3d663ea16fd58e12579e4))
 
 
 
