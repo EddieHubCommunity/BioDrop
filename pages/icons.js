@@ -63,7 +63,7 @@ export default function Icons() {
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />
-        {notFound && <Alert type="error" message={`${notFound}`} />}
+        {notFound && <Alert type="error" message={`${notFound} not found`} />}
         {!threeOrMore && (
           <Alert
             type="info"
