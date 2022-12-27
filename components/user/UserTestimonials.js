@@ -12,15 +12,9 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
           url: `${BASE_URL}/${testimonial.username}`,
         };
       }
-      
-
-      return {
-        ...testimonial,
-        url: `https://github.com/${testimonial.username}`,
-      };
+      return testimonial;
     });
-
-  return (
+    return (
     <>
       {!data.testimonials && (
         <Alert type="info" message="No testimonials found" />
@@ -32,7 +26,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
             key={key}
           >
             <div className="flex-none p-6">
-              <a href={`https://github.com/${testimonial.username}`} target="_blank" rel="noreferrer">
+              <a href={testimonial.url} target="_blank" rel="noreferrer">
                 <img
                   src={`https://github.com/${testimonial.username}.png`}
                   alt={testimonial.username}
