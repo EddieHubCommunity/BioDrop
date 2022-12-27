@@ -27,11 +27,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
           >
             <div className="flex-none p-6">
               <a href={testimonial.url} target="_blank" rel="noreferrer">
-                <img
-                  src={`https://github.com/${testimonial.username}.png`}
-                  alt={testimonial.username}
-                  className="h-20 w-20 rounded-full bg-gray-100"
-                />
+                <img src={`https://github.com/${testimonial.username}.png`} alt={testimonial.username} className="h-20 w-20 rounded-full bg-gray-100"/>
               </a>
             </div>
             <div className="flex-1 p-6">
