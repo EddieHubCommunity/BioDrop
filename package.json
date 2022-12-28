@@ -27,6 +27,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "dev:docker": "ncp ./.env.docker ./.env && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test --trace on",
