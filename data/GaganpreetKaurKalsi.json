@@ -1,0 +1,99 @@
+{
+  "name": "Gaganpreet Kaur Kalsi",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Frontend Developer | Open Source Contributor | Member @Layer5, Meshery",
+  "avatar": "https://github.com/GaganpreetKaurKalsi.png",
+  "tags": ["Open Source", "Javascript", "Typescript", "React"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/GaganpreetKalsi" },
+    { "icon": "FaGithub", "url": "https://github.com/GaganpreetKaurKalsi" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/gagancodes_" }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/gaganpreetkaurkalsi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/GaganpreetKalsi",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: I maintain really nice ReadMEs",
+      "url": "https://github.com/GaganpreetKaurKalsi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram: Post on Javascript fundamentals, React, Docker, etc.",
+      "url": "https://www.instagram.com/gagancodes_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Medium: Have written some nice blogs on 'Github'",
+      "url": "https://medium.com/@gaganpreetkaurkalsi",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Hashnode: Another blog platform I use",
+      "url": "https://gaganpreetkaurkalsi.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Personal Portfolio: Too lazy to update or restructure it",
+      "url": "https://gaganpreetkaurkalsi.netlify.app/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Tekie - Frontend Development",
+      "date": "Sep 2021 - Feb 2022",
+      "icon": "FaBuilding",
+      "color": "purple",
+      "description": "First Internship",
+      "url": "https://www.tekie.in/"
+    },
+    {
+      "title": "Hacktoberfest 2021",
+      "date": "Oct 2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "First Open Source program I participated in"
+    },
+    {
+      "title": "GirlScript Summer of Code",
+      "date": "Mar 2022 - May 2022",
+      "icon": "FaGithub",
+      "color": "orange",
+      "description": "Another Open Source Program. Worked on some amazing features for GSSOC Leaderboard",
+      "url": "https://gssoc.girlscript.tech/leaderboard"
+    },
+    {
+      "title": "Toddle - Frontend Developer",
+      "date": "Jul 2022 - Present",
+      "icon": "FaBuilding",
+      "color": "red",
+      "description": "Internship",
+      "url": "https://www.toddleapp.com/"
+    },
+    {
+      "title": "Hacktoberfest 2022",
+      "date": "Oct 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Planted a Pinus coulteri under Project Wildfire Recovery in California, USA"
+    },
+    {
+      "title": "Member - Layer5, Meshery",
+      "date": "Oct 2022 - Present",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Became official member of Layer5 and Meshery, actively contributing.",
+      "url": "https://layer5.io/community/members/gaganpreet-kaur-kalsi"
+    }
+  ]
+}
