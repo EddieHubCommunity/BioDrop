@@ -1,8 +1,8 @@
 {
   "name": "Roushanak Rahmat",
-  "type": "community",
-  "bio": "Inclusive **Open Source** community - Collaboration 1st, Code 2nd!",
-  "avatar": "https://github.com/EddieHubCommunity.png",
+  "type": "personal",
+  "bio": "AI Scientist",
+  "avatar": "https://github.com/roushanakrahmat.png",
   "links": [
     {
       "name": "Roushanak's Website",
@@ -15,19 +15,19 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Join our Discord Community",
-      "url": "http://discord.eddiehub.org",
-      "icon": "FaDiscord"
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@roushanakrahmat",
+      "icon": "FaMedium"
     },
     {
-      "name": "LinkedIn Organisation",
+      "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/roushanakrahmat/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Twitter Organisation",
+      "name": "Follow me on Twitter",
       "url": "https://twitter.com/RoushanakRahmat",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": []
