@@ -47,7 +47,11 @@ export default function UserTabs({ tabs, setTabs, sortUserTabItems }) {
               >
                 {tab.name} ({tab.total})
               </a>
-              {tab.current ? <BiSortAlt2 className="absolute sortIcon" name="sort-alt-2" onClick={(e) =>{
+              {tab.current ? <BiSortAlt2
+              className="absolute sortIcon"
+              name="sort-alt-2"
+              style={{ right: 59, top: 0, bottom: 0, margin: "auto", cursor: "pointer" }}
+              onClick={(e) =>{
                 e.preventDefault();
                 setTabs(
                   tabs.map((tab) =>
