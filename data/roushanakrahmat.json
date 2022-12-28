@@ -1,0 +1,34 @@
+{
+  "name": "Roushanak Rahmat",
+  "type": "community",
+  "bio": "Inclusive **Open Source** community - Collaboration 1st, Code 2nd!",
+  "avatar": "https://github.com/EddieHubCommunity.png",
+  "links": [
+    {
+      "name": "Roushanak's Website",
+      "url": "https://roushanakrahmat.github.io/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/RoushanakRahmat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join our Discord Community",
+      "url": "http://discord.eddiehub.org",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/in/roushanakrahmat/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter Organisation",
+      "url": "https://twitter.com/RoushanakRahmat",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": []
+}
