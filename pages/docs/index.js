@@ -61,6 +61,15 @@ export default function DocsIndex() {
             color: "bg-orange-100 text-orange-800",
           },
         },
+        {
+          name: "Available icons",
+          path: "/icons",
+          description: "Search available icons you can use on your profie.",
+          category: {
+            name: "beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {

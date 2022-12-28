@@ -1,0 +1,24 @@
+{
+  "name": "Jyothi Kumar D",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Computer Science Undergrad | Tech enthusiast | Full Stack | DEVOPS | Open Source",
+  "avatar": "https://github.com/JyothiKumar03.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jyothikumar003",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/JyothiKumar03",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/jyothikumard/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
