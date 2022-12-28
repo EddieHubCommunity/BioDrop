@@ -41,7 +41,7 @@ export default function UserProfile({ BASE_URL, data }) {
 
         <div className="flex flex-col self-center gap-3">
           <h1 className="text-3xl font-bold">{data.name}</h1>
-          <div className="flex gap-2 mx-auto text-xl">
+          <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials &&
               data.socials.map((social, index) => (
                 <UserSocial
@@ -83,3 +83,4 @@ export default function UserProfile({ BASE_URL, data }) {
     </>
   );
 }
+
