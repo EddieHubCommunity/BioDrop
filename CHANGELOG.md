@@ -1,3 +1,12 @@
+# [1.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.4...v1.27.0) (2022-12-28)
+
+
+### Features
+
+* improve docker compose ([#2515](https://github.com/EddieHubCommunity/LinkFree/issues/2515)) ([c06fcd5](https://github.com/EddieHubCommunity/LinkFree/commit/c06fcd5aede5f85f8239e4ce0e64126a273f32eb))
+
+
+
 ## [1.26.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.3...v1.26.4) (2022-12-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile qr margin ([#2514](https://github.com/EddieHubCommunity/LinkFree/issues/2514)) ([31a94d2](https://github.com/EddieHubCommunity/LinkFree/commit/31a94d2947d75cbf35cda9e779e312ff1d08a2bb))
-
-
-
-# [1.26.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.25.3...v1.26.0) (2022-12-27)
-
-
-### Features
-
-* searching icons ([#2472](https://github.com/EddieHubCommunity/LinkFree/issues/2472)) ([#2512](https://github.com/EddieHubCommunity/LinkFree/issues/2512)) ([d98a55e](https://github.com/EddieHubCommunity/LinkFree/commit/d98a55ed8ab05b03ca4d1ba0045253c120ede021))
 
 
 
