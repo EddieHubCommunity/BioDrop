@@ -19,7 +19,7 @@ const connectMongo = async () => {
       fs.writeFileSync("cert.pem", process.env.CA_CERT);
     }
 
-    mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
+    await mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
     hasConnection = true;
     console.log("DB connected");
   } catch (err) {

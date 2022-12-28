@@ -187,4 +187,8 @@ _Note: the data fields `links`, `milestones`, `testimonials`, `tags`, `socials` 
 }
 ```
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Full Example documentation">
+    {children}
+  </DocsLayout>
+);
