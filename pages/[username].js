@@ -51,10 +51,10 @@ export async function getServerSideProps(context) {
 export default function User({ users, data, BASE_URL }) {
   const [userData, setUserData] = useState(data);
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true, order:"ASC" },
-    { name: "Milestones", href: "#", current: false, order:"ASC" },
-    { name: "Testimonials", href: "#", current: false, order:"ASC" },
-    { name: "Events", href: "#", current: false, order:"ASC" },
+    { name: "My Links", href: "#", current: true, order: "ASC" },
+    { name: "Milestones", href: "#", current: false, order: "ASC" },
+    { name: "Testimonials", href: "#", current: false, order: "ASC" },
+    { name: "Events", href: "#", current: false, order: "ASC" },
   ];
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "My Links") {
@@ -84,54 +84,6 @@ export default function User({ users, data, BASE_URL }) {
   });
   const [tabs, setTabs] = useState(displayTabs);
 
-  const getDataKeyAndSortKey = (tabName) => {
-    let dataKeyObj = {};
-    switch (tabName) {
-      case "Events":
-        dataKeyObj.dataKey="events";
-        dataKeyObj.sortKey="date.start";
-        break;
-      case "Testimonials":
-        dataKeyObj.dataKey="testimonials";
-        dataKeyObj.sortKey="date";
-        break;
-      case "Milestones":
-        dataKeyObj.dataKey="milestones";
-        dataKeyObj.sortKey="date";
-        break;
-      default:
-        dataKeyObj.dataKey="links";
-        dataKeyObj.sortKey="name";
-    }
-    return dataKeyObj;
-  }
-
-  const sortUserTabItems = (tabName, order) => {
-    const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
-    userData[dataKey].sort(function(a,b){
-      const aVal = sortKey.includes(".") ? getNested(a, sortKey.split(".")) : a[sortKey];
-      const bVal = sortKey.includes(".") ? getNested(b, sortKey.split(".")) : b[sortKey];
-      if(tabName === "My Links"){
-          if (order==="ASC") {
-            return aVal.toLowerCase() > bVal.toLowerCase() ? 1 : aVal.toLowerCase() < bVal.toLowerCase() ? -1 : 0;
-          } else {
-            return aVal.toLowerCase() < bVal.toLowerCase() ? 1 : aVal.toLowerCase() > bVal.toLowerCase() ? -1 : 0;
-          }
-      }else{
-        if (order==="ASC") {
-            return new Date(aVal) > new Date(bVal) ? 1 : new Date(aVal) < new Date(bVal) ? -1 : 0;
-        } else {
-            return new Date(aVal) < new Date(bVal) ? 1 : new Date(aVal) > new Date(bVal) ? -1 : 0;
-        }
-      }
-    });
-    setUserData({...userData});
-  }
-
-  const getNested = (obj, args) => {
-    return args.reduce((obj, level) => obj && obj[level], obj)
-  }
-
   return (
     <>
       <Head>
@@ -151,7 +103,12 @@ export default function User({ users, data, BASE_URL }) {
       <Page>
         <UserProfile data={userData} BASE_URL={BASE_URL} />
 
-        <UserTabs tabs={tabs} setTabs={setTabs} sortUserTabItems={sortUserTabItems} />
+        <UserTabs
+          tabs={tabs}
+          setTabs={setTabs}
+          userData={userData}
+          setUserData={setUserData}
+        />
 
         {tabs.find((tab) => tab.name === "My Links") &&
           tabs.find((tab) => tab.name === "My Links").current && (
@@ -165,7 +122,11 @@ export default function User({ users, data, BASE_URL }) {
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials data={userData} users={users} BASE_URL={BASE_URL} />
+            <UserTestimonials
+              data={userData}
+              users={users}
+              BASE_URL={BASE_URL}
+            />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&
