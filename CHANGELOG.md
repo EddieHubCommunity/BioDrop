@@ -1,3 +1,12 @@
+# [1.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.28.0...v1.29.0) (2022-12-29)
+
+
+### Features
+
+* events key [#2414](https://github.com/EddieHubCommunity/LinkFree/issues/2414) ([#2527](https://github.com/EddieHubCommunity/LinkFree/issues/2527)) ([f6da1d6](https://github.com/EddieHubCommunity/LinkFree/commit/f6da1d6b58a6f7317e9059843f33dba76d5a4e71))
+
+
+
 # [1.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.27.0...v1.28.0) (2022-12-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * only run json check on data file changes ([#2517](https://github.com/EddieHubCommunity/LinkFree/issues/2517)) ([980a191](https://github.com/EddieHubCommunity/LinkFree/commit/980a191b72d9fd4750b776d55145344ef2e7a171))
-
-
-
-## [1.26.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.1...v1.26.2) (2022-12-27)
-
-
-### Bug Fixes
-
-* aria-label for GitHub icon ([#2506](https://github.com/EddieHubCommunity/LinkFree/issues/2506)) ([27ea0c9](https://github.com/EddieHubCommunity/LinkFree/commit/27ea0c966d8ae432ae64f34e04c06bb471ca43a7))
 
 
 
