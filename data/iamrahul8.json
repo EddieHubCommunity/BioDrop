@@ -4,13 +4,7 @@
   "type": "personal",
   "bio": "**Web Developer** | Student Expert @postmanlabs | Lead @Hack Club",
   "avatar": "https://github.com/iamrahul8.png",
-  "tags": [
-    "React.js",
-    "C++",
-    "Azure",
-    "Javascript",
-    "Programming"
-  ],
+  "tags": ["React.js", "C++", "Azure", "Javascript", "Programming"],
   "socials": [
     {
       "icon": "twitter",
