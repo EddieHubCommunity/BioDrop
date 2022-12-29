@@ -9,7 +9,7 @@
     { "icon": "FaGithub", "url": "https://github.com/iamthecloverly" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/thecloverly" }
   ],
-"links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/thecloverly",
@@ -25,7 +25,7 @@
       "url": "https://github.com/iamthecloverly",
       "icon": "FaGithub"
     },
-  {
+    {
       "name": "Blog",
       "url": "https://sribalaji.eu.org/",
       "icon": "FaDev"
