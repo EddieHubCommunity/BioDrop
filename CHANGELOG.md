@@ -1,3 +1,12 @@
+# [1.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.27.0...v1.28.0) (2022-12-29)
+
+
+### Features
+
+* responsive profile ([#2530](https://github.com/EddieHubCommunity/LinkFree/issues/2530)) ([9bf865c](https://github.com/EddieHubCommunity/LinkFree/commit/9bf865c6bf49948d8971b9decc04b95f57cd9bd9))
+
+
+
 # [1.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.4...v1.27.0) (2022-12-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * aria-label for GitHub icon ([#2506](https://github.com/EddieHubCommunity/LinkFree/issues/2506)) ([27ea0c9](https://github.com/EddieHubCommunity/LinkFree/commit/27ea0c966d8ae432ae64f34e04c06bb471ca43a7))
-
-
-
-## [1.26.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.0...v1.26.1) (2022-12-27)
-
-
-### Bug Fixes
-
-* profile qr margin ([#2514](https://github.com/EddieHubCommunity/LinkFree/issues/2514)) ([31a94d2](https://github.com/EddieHubCommunity/LinkFree/commit/31a94d2947d75cbf35cda9e779e312ff1d08a2bb))
 
 
 
