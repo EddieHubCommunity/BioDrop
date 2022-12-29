@@ -7,26 +7,26 @@
     {
       "name": "Here is my Github Accnt",
       "url": "https://github.com/viroopaksh-utrayak",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Here is my Twitter Accnt",
       "url": "https://twitter.com/utrayak",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Here is my Instagram Accnt",
       "url": "https://www.instagram.com/viroopaksh_utrayak/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Here is my  LinkedIn Accnt",
       "url": "https://www.linkedin.com/in/vanshika-sharma-6048b6221/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Here is my DEV.to",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "url": "https://dev.to/viroopaksh_utrayak"
     }
   ]

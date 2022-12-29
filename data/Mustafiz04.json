@@ -7,17 +7,17 @@
     {
       "name": "Take a look at my GitHub",
       "url": "https://github.com/Mustafiz04",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "See my awesome tweets on Twitter",
       "url": "https://twitter.com/mustafiz_kaifee",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/mustafizkaifee/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

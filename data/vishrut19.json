@@ -15,50 +15,50 @@
     "TypeScript"
   ],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/vishrut19" },
-    { "platform": "github", "url": "https://github.com/vishrut19" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
+    { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/vishut-agarwalla"
     },
-    { "platform": "hashnode", "url": "https://vishrut19.hashnode.dev" }
+    { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
   ],
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/vishrut19",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/vishrut19",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Interested in reading my blogs? Go here!",
       "url": "https://vishrut19.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
       "title": "Co-Founder at GrowInCommunity",
       "date": "December 2022",
-      "icon": "link",
+      "icon": "FaLink",
       "color": "grey",
       "description": "Co-Founder of GrowInCommunity"
     },
     {
       "title": "Associate Software Engineer",
       "date": "April 2022 - September 2022",
-      "icon": "link",
+      "icon": "FaLink",
       "color": "grey",
       "description": "Associate Software Engineer in Eurofins IT Solutions"
     },
     {
       "title": "Bachelor's of Engineering in Electronics and Telecommunications",
       "date": "August 2016 - July 2021",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Graduated with First Class of Engineering in Electronics and Telecommunications"
     }

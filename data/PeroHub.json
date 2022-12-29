@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/PeroHub",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Wuzpa",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
@@ -26,14 +26,14 @@
     {
       "title": "Started Open Source",
       "date": "January 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started Contibuting To Beginner friendly Issues"
     },
     {
       "title": "Block-Chain Development",
       "date": "January 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "orange",
       "description": "Working on the ethereum block-chain with solidity programming language"
     }

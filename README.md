@@ -10,80 +10,16 @@ Here is an example of a LinkFree [Profile](https://linkfree.eddiehub.io/eddiejao
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
 
-## 🙂 How to add YOUR Profile
-
-In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
-
-**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events` **\
-Looking for inspiration? You can view the following profiles for an example:
-
-- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
-- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
-- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
-
-Your brand new file should look something similar to this one:
-
-> **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
-
-```json
-{
-  "name": "YOUR NAME",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
-  "tags": ["javascript", "typescript"],
-  "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
-    { "platform": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
-  ],
-  "links": [
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "github"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "twitter"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Started Freelancing",
-      "date": "December 2021",
-      "icon": "dollar",
-      "color": "grey",
-      "description": "Started freelancing",
-      "url": "https://www.eddiejaoude.io/"
-    }
-  ]
-}
-```
-
-Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
-
-For example: <https://linkfree.eddiehub.io/eddiejaoude>
-
-To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
-
-For example: <http://github.com/eddiejaoude.png>
-
-Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
-
-### Available Icons:
-
-Check [Icons.md](/icons.md) for all the supported icons.
-
 ## 🛠️ Quickstart
 
-You have 3 options to contribute to the repo, please pick your favourite from:
+You have 4 options to contribute to the repo, please pick your favourite from:
 
 1. GitHub UI
 2. Gitpod
-3. Local development with Docker Compose
-4. Local development
+3. Local development
+4. Local development with Docker Compose
+
+Brief documentation below, but full documentation can be found here https://linkfree.eddiehub.io/docs
 
 ### GitHub UI
 
@@ -96,18 +32,6 @@ This is great if you only want to add your Profile or make changes to it.
 In the cloud free development environment which will have all the dependencies you need (for example MongoDB).
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
-
-### Local development with Docker Compose
-
-This environment is on your computer but with containers (for example MongoDB) supporting your environment.
-
-#### Prerequisites
-
-You will need [Docker and Docker Compose](https://docs.docker.com/compose/) installed.
-
-#### Commands
-
-1. `docker-compose up`
 
 ### Local development
 
@@ -130,59 +54,72 @@ You can set this up locally with the following steps:
 1. `npm install`
 1. `npm run dev`
 
-## 📘 Storybook
+### 🙂 How to add YOUR Profile
 
-We use [Storybook](https://storybook.js.org) to display what React components are available to use within our project. This also gives you the opportunity to play with the components' functionality and data it displays.
+Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
-To see what components are available, do the following steps...
+1. Fork the repository in your profile which lets you do the changes in the project without affecting the main repository
+2. Create a new branch
+3. In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
 
-1. `npm run storybook`
-1. navigate to http://localhost:6006
+**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events`**
 
-*note: not all components have been added, this is a great way to contribute to our project*
+Looking for inspiration? You can view the following profiles for an example:
 
-### Updating LinkFree's Storybooks' components
+- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
+- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
+- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
 
-1. Create a story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
-1. Import the component into the story file, see the existing [example](https://github.com/EddieHubCommunity/LinkFree/blob/main/stories/components/user/UserLink.stories.js)
-1. Set the default arguments by looking at the requirements from the component itself
-1. Run `npm run storybook` to see the added components and visit http://localhost:6006 to interact with them in the browser 
+Your brand new file should look something similar to this one:
 
-## 🧪 Tests
-
-We use [Playwright](http://playwright.dev) for writing automated end to end (e2e) tests.
-
-1. Install Playwright dependencies `npx playwright install --with-deps`
-1. Run tests `npm run test`
-
-```bash
-npm run test
-
-> linkfree@1.0.0 test
-> npx playwright test
-
-
-Running 18 tests using 4 workers
-
-  10 skipped
-  8 passed (13s)
-
-To open last HTML report run:
-
-  npx playwright show-report
-```
-
-### 🚲 Single user mode
-
-If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
-
-For example
+> **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
 
 ```json
 {
-  "username": "eddiejaoude"
+  "name": "YOUR NAME",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
+  "tags": ["javascript", "typescript"],
+  "socials": [
+    { "icon": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "icon": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/YOUR_GITHUB_USERNAME",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.eddiejaoude.io/"
+    }
+  ]
 }
 ```
+
+Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
+
+For example: <https://linkfree.eddiehub.io/eddiejaoude>
+
+To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
+
+For example: <http://github.com/eddiejaoude.png>
+
+Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
 ## 🛡️ License
 
@@ -192,7 +129,6 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
-- Check out our [contribution guidelines](./docs/contributing/CONTRIBUTING.md) for more information.
 
 ## 🙏 Support
 

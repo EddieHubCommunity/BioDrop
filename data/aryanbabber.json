@@ -7,12 +7,12 @@
     {
       "name": "Check my GitHub out",
       "url": "https://github.com/AryanBabber",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ABgoneCODING",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

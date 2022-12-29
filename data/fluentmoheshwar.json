@@ -8,22 +8,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/fluentmoheshwar",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/fluentmoheshwar",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Facebook",
       "url": "https://facebook.com/fluentmoheshwar",
-      "icon": "facebook"
+      "icon": "FaFacebook"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/fluentmoheshwar",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ]
 }

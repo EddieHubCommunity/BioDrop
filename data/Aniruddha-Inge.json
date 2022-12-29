@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Aniruddha-Inge",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AniruddhaInge",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Subscribe to my YouTube channel",
       "url": "https://www.youtube.com/channel/UCq6ajxHbIs4ldDRPU4w3Ong",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/aniruddhainge",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Contributing in Open Source",
       "date": "December 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started my Open Source journey with EddieHub!"
     }

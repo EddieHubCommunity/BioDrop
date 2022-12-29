@@ -7,37 +7,37 @@
     {
       "name": "Github",
       "url": "https://github.com/loftwah",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Twitter",
       "url": "https://twitter.com/loftwah",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Instagram",
       "url": "https://instagram.com/loftwah",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Facebook",
       "url": "https://facebook.com/loftwah",
-      "icon": "facebook"
+      "icon": "FaFacebook"
     },
     {
       "name": "Songs I've produced ",
       "url": "https://www.youtube.com/watch?v=txk5S_r7vkg&list=PLKBAUoCO_FtkHiwRzyGzfhauIhNMBFw66",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Loads of beats I've made (no lyrics)",
       "url": "https://www.youtube.com/playlist?list=PLKBAUoCO_FtlACntcZqTOD4hckJ8IAWZ3",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Download my music for free!",
       "url": "https://music.btsmf.link",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on Spotify!",

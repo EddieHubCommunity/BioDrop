@@ -7,17 +7,17 @@
     {
       "name": "Check out my Projects on GitHub",
       "url": "https://github.com/kr-anurag",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on Twitter",
       "url": "https://twitter.com/kr_anurag_",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Join my Discord community",
       "url": "https://discord.gg/MqsS6axMrZ",
-      "icon": "discord"
+      "icon": "FaDiscord"
     }
   ]
 }

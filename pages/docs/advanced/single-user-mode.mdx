@@ -1,0 +1,19 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+
+## Single user mode
+
+If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
+
+For example
+
+```json
+{
+  "username": "eddiejaoude"
+}
+```
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Single User Mode Documentation">
+    {children}
+  </DocsLayout>
+);

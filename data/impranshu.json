@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/IMPranshu",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/pkknowsnothing",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Join my Discord Community",
       "url": "https://discord.gg/pXvkR7MPBm",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Checkout my Blog Website",
@@ -27,7 +27,7 @@
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/pranshu-kumar-agrawal-74988152/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -42,7 +42,7 @@
     {
       "title": "Graduated from College",
       "date": "May 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "#red",
       "description": "Sucessfully graduated with a Bachelor's degree in Information Technology.",
       "url": "https://www.vssut.ac.in/"
@@ -58,7 +58,7 @@
     {
       "title": "Discovered Blockchain Technology.",
       "date": "January 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "yellow",
       "description": "Started learning about Blockchain Technology from the internet.",
       "url": "https://pkagrawal.me/why-is-blockchain-so-popular"

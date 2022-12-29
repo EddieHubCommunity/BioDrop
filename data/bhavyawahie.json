@@ -7,17 +7,17 @@
     {
       "name": "Follow here to see me talk in memes 😎",
       "url": "https://twitter.com/bhavyawahie",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow and See my recent side projects on GitHub 👩‍💻 ",
       "url": "https://github.com/bhavyawahie",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Instagram 👀",
       "url": "https://instagram.com/bhavyawahie",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ]
 }

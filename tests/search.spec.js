@@ -23,44 +23,41 @@ test("Search works correctly", async ({ page }) => {
   const input = page.locator("[name='keyword']");
   await input.type("eddie");
 
-  await expect(page.locator("li")).toHaveCount(3);
+  await expect(page.locator("li")).toHaveCount(4);
 });
 
-test(
-  "Search page has no results when no search term used",
-  async ({ page }) => {
-    await page.goto("/search");
+test("Search page has no results when no search term used", async ({
+  page,
+}) => {
+  await page.goto("/search");
 
-    const input = page.locator("[name='keyword']");
-    await input.type("");
+  const input = page.locator("[name='keyword']");
+  await input.type("");
 
-    await expect(page.locator("li")).toHaveCount(0);
-  }
-);
+  await expect(page.locator("li")).toHaveCount(0);
+});
 
-test(
-  "Search page shows no results after typing 2 characters",
-  async ({ page }) => {
-    await page.goto("/search");
+test("Search page shows no results after typing 2 characters", async ({
+  page,
+}) => {
+  await page.goto("/search");
 
-    const input = page.locator("[name='keyword']");
-    await input.type("ed");
+  const input = page.locator("[name='keyword']");
+  await input.type("ed");
 
-    await expect(page.locator("li")).toHaveCount(0);
-  }
-);
+  await expect(page.locator("li")).toHaveCount(0);
+});
 
-test(
-  "Search page shows results after typing 3 characters",
-  async ({ page }) => {
+test("Search page shows results after typing 3 characters", async ({
+  page,
+}) => {
   await page.goto("/search");
 
   const input = page.locator("[name='keyword']");
   await input.type("aka");
 
   await expect(page.locator("li")).toContainText(["aka"]);
-  }
-);
+});
 
 test.fixme("After search click profile", async ({ page }) => {
   // 1. perform search

@@ -6,10 +6,10 @@
   "avatar": "https://github.com/rupeshexe.png",
   "tags": ["Python", "Java", "DSA", "Data Science"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/rupeshtwt" },
-    { "platform": "github", "url": "https://github.com/rupeshexe" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
+    { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
     {
-      "platform": "linkedin",
+      "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/rupeshexe"
     }
   ],
@@ -17,17 +17,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/rupeshexe",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/rupeshtwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/rupeshexe",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

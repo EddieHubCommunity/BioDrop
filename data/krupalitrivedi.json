@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/krupalitrivedi",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Twitter: Threads and Random Talks",
       "url": "https://twitter.com/chai_really",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Interested in reading my blogs? Go here!",
       "url": "https://acodeandaword.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ]
 }

@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ioanat94",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/ioana-tiplea/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started studying programming",
       "date": "December 2021",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "blue",
       "description": "Started Harvard's CS50x Introduction to Programming",
       "url": "https://cs50.harvard.edu/x/2022/"
@@ -27,7 +27,7 @@
     {
       "title": "Finished CS50x",
       "date": "December 2021",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "green",
       "description": "Studied C, Python, HTML, CSS, JS",
       "url": "https://cs50.harvard.edu/x/2022/"
@@ -35,7 +35,7 @@
     {
       "title": "Started The Odin Project",
       "date": "February 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "red",
       "description": "Studying HTML, CSS, JS, React, Node, Mongo, Express",
       "url": "https://www.theodinproject.com/"
