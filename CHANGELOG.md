@@ -1,3 +1,12 @@
+## [1.32.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.0...v1.32.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* accessibility ([#2545](https://github.com/EddieHubCommunity/LinkFree/issues/2545)) ([cbd6734](https://github.com/EddieHubCommunity/LinkFree/commit/cbd67344b23bbfe98ddb96f6ddc94cb54bb685e8))
+
+
+
 # [1.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.31.0...v1.32.0) (2022-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * user testimonial image click ([#2503](https://github.com/EddieHubCommunity/LinkFree/issues/2503)) ([11fdc08](https://github.com/EddieHubCommunity/LinkFree/commit/11fdc088a866dc473b2eb09bbde0e0b5cc4a0d82))
-
-
-
-# [1.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.28.0...v1.29.0) (2022-12-29)
-
-
-### Features
-
-* events key [#2414](https://github.com/EddieHubCommunity/LinkFree/issues/2414) ([#2527](https://github.com/EddieHubCommunity/LinkFree/issues/2527)) ([f6da1d6](https://github.com/EddieHubCommunity/LinkFree/commit/f6da1d6b58a6f7317e9059843f33dba76d5a4e71))
 
 
 
