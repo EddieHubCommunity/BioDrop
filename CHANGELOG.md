@@ -1,3 +1,12 @@
+## [1.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.0...v1.30.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* refactored to nextjs code ([1f25858](https://github.com/EddieHubCommunity/LinkFree/commit/1f25858a84bd027b27393247391d4eb1df6cacfe))
+
+
+
 # [1.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.29.0...v1.30.0) (2022-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * improve docker compose ([#2515](https://github.com/EddieHubCommunity/LinkFree/issues/2515)) ([c06fcd5](https://github.com/EddieHubCommunity/LinkFree/commit/c06fcd5aede5f85f8239e4ce0e64126a273f32eb))
-
-
-
-## [1.26.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.3...v1.26.4) (2022-12-28)
-
-
-### Bug Fixes
-
-* responsiveness event ([#2516](https://github.com/EddieHubCommunity/LinkFree/issues/2516)) ([54a3b3e](https://github.com/EddieHubCommunity/LinkFree/commit/54a3b3e30d1a57f96da9490e2ce143c767c55f43))
 
 
 
