@@ -6,8 +6,8 @@
     "avatar": "https://github.com/adityassharma-ss.png",
     "tags": ["Java", "JavaScript", "ReactJS", "DevOps", "Open Source"],
     "socials": [
-      { "icon": "twitter", "url": "https://twitter.com/aadityatwt" },
-      { "icon": "github", "url": "https://github.com/adityassharma-ss" }
+      { "icon": "FaTwitter", "url": "https://twitter.com/aadityatwt" },
+      { "icon": "FaGithub", "url": "https://github.com/adityassharma-ss" }
     ],
     "links": [
       {
