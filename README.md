@@ -83,8 +83,8 @@ Your brand new file should look something similar to this one:
   "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "icon": "twitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
-    { "icon": "github", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
+    { "icon": "FaGitHub", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
   ],
   "links": [
     {
