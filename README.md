@@ -84,7 +84,7 @@ Your brand new file should look something similar to this one:
   "tags": ["javascript", "typescript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
-    { "icon": "FaGitHub", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
+    { "icon": "FaGithub", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
   ],
   "links": [
     {
