@@ -65,7 +65,7 @@ export default function Events({ events }) {
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
           {events.map((event, index) => (
-            <Event event={event} username={event.author} key={index} />
+            <Event event={event} username={event.username} key={index} />
           ))}
         </ul>
       </Page>
