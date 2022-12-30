@@ -61,6 +61,15 @@ export default function DocsIndex() {
             color: "bg-orange-100 text-orange-800",
           },
         },
+        {
+          name: "Available icons",
+          path: "/icons",
+          description: "Search available icons you can use on your profie.",
+          category: {
+            name: "beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -277,9 +286,9 @@ export default function DocsIndex() {
                       </span>
                     </div>
                     <a href={page.path} className="mt-4 block">
-                      <p className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-gray-900">
                         {page.name}
-                      </p>
+                      </h3>
                       <p className="mt-3 text-base text-gray-500">
                         {page.description}
                       </p>
