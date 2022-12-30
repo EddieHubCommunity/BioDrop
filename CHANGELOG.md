@@ -1,3 +1,12 @@
+# [1.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.29.0...v1.30.0) (2022-12-30)
+
+
+### Features
+
+* user testimonial image click ([#2503](https://github.com/EddieHubCommunity/LinkFree/issues/2503)) ([11fdc08](https://github.com/EddieHubCommunity/LinkFree/commit/11fdc088a866dc473b2eb09bbde0e0b5cc4a0d82))
+
+
+
 # [1.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.28.0...v1.29.0) (2022-12-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * responsiveness event ([#2516](https://github.com/EddieHubCommunity/LinkFree/issues/2516)) ([54a3b3e](https://github.com/EddieHubCommunity/LinkFree/commit/54a3b3e30d1a57f96da9490e2ce143c767c55f43))
-
-
-
-## [1.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.2...v1.26.3) (2022-12-27)
-
-
-### Bug Fixes
-
-* only run json check on data file changes ([#2517](https://github.com/EddieHubCommunity/LinkFree/issues/2517)) ([980a191](https://github.com/EddieHubCommunity/LinkFree/commit/980a191b72d9fd4750b776d55145344ef2e7a171))
 
 
 
