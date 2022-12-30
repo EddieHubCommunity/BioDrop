@@ -1,3 +1,12 @@
+# [1.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.1...v1.31.0) (2022-12-30)
+
+
+### Features
+
+* events to have specific folder ([#2540](https://github.com/EddieHubCommunity/LinkFree/issues/2540)) ([a5ecc14](https://github.com/EddieHubCommunity/LinkFree/commit/a5ecc14d8f195ee8423c4cf9f9368999061e1b8e))
+
+
+
 ## [1.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.0...v1.30.1) (2022-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * responsive profile ([#2530](https://github.com/EddieHubCommunity/LinkFree/issues/2530)) ([9bf865c](https://github.com/EddieHubCommunity/LinkFree/commit/9bf865c6bf49948d8971b9decc04b95f57cd9bd9))
-
-
-
-# [1.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.4...v1.27.0) (2022-12-28)
-
-
-### Features
-
-* improve docker compose ([#2515](https://github.com/EddieHubCommunity/LinkFree/issues/2515)) ([c06fcd5](https://github.com/EddieHubCommunity/LinkFree/commit/c06fcd5aede5f85f8239e4ce0e64126a273f32eb))
 
 
 
