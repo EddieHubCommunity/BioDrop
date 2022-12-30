@@ -4,6 +4,7 @@ import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
 import {
+  MdOutlinePlayArrow,
   MdArrowUpward,
   MdHelpOutline,
   MdOutlineLink,
@@ -53,6 +54,13 @@ export async function getServerSideProps(context) {
 export default function Home({ total, today }) {
   const features = [
     {
+      name: "QuickStart",
+      description:
+        "Learn how to add your basic LinkFree Profile within a few minutes",
+      icon: MdOutlinePlayArrow,
+      path: "/docs/quickstart",
+    },
+    {
       name: "Links",
       description: "Let people discover all your great content in one place",
       icon: MdOutlineLink,
@@ -85,13 +93,93 @@ export default function Home({ total, today }) {
       icon: FaMedal,
       path: "/docs/how-to-guides/milestones",
     },
+  ];
+
+  const featuresDetails = [
     {
-      name: "Testimonials",
-      description: "Show off the great feedback you have received",
-      icon: FaUsers,
-      path: "/docs/how-to-guides/testimonials",
+      name: "Your Bio, Social links and Stats",
+      description:
+        "Let people easily discover you and your links to your social accounts and content. Find out how many times your Profile has been viewed and your links clicked.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063800-796e29dd-3557-43c8-b84c-6fe24f44925f.png",
+      imageAlt:
+        "LinkFree screenshot of the bio and social links in example profile",
+    },
+    {
+      name: "Your Tags",
+      description:
+        "Make your Profile discoverable with tags that describe you.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063796-15c004cb-a4f4-4c5c-81fe-15c39b31912b.png",
+      imageAlt: "LinkFree screenshot of the tags in example profile",
+    },
+    {
+      name: "Search by Tags",
+      description:
+        "Search Profiles not just by name also by tags. This is a great way to connect with people and grow your network.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210064219-9df11665-a29c-4aef-b0d8-7d163c9401e2.png",
+      imageAlt:
+        "LinkFree screenshot of search page using tags for searching profiles.",
+    },
+    {
+      name: "Your QR code",
+      description:
+        "Make it easier to share your Profile when you meet people with your unique QR code.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063794-0dd4cd0c-a10e-4327-a7ce-05a4b8807cd5.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Your Links",
+      description:
+        "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Your Milestones",
+      description:
+        "Demostrate the highlights of your career by adding Milestones to your Profile",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Your Testimonials",
+      description: "Show off the great feedback you have received.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Your Events",
+      description:
+        "Hosting or attending events, let people know what you are up to.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Community Events",
+      description:
+        "Upcoming events from the community Profiles will be displayed on this page also.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/210064225-b792c186-1eb0-4451-8624-39d5d33724b1.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
     },
   ];
+
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(" ");
+  }
 
   return (
     <>
@@ -209,7 +297,7 @@ export default function Home({ total, today }) {
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <span className="block">Ready to dive in?</span>
               <span className="block text-indigo-600">
-                Add your free profile today!
+                Add your free Profile today!
               </span>
             </h2>
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
@@ -233,18 +321,72 @@ export default function Home({ total, today }) {
           </div>
         </div>
 
+        <div className="bg-indigo-700">
+          <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                Features
+              </h2>
+              <p className="mt-4 text-white">
+                It is not just links... Take a look at the Features you can add
+                to customise your LinkFree Profile.
+              </p>
+            </div>
+
+            <div className="mt-16 space-y-16">
+              {featuresDetails.map((feature, featureIdx) => (
+                <div
+                  key={feature.name}
+                  className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
+                >
+                  <div
+                    className={classNames(
+                      featureIdx % 2 === 0
+                        ? "lg:col-start-1"
+                        : "lg:col-start-8 xl:col-start-9",
+                      "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
+                    )}
+                  >
+                    <h3 className="text-lg font-medium text-white">
+                      {feature.name}
+                    </h3>
+                    <p className="mt-2 text-sm text-white">
+                      {feature.description}
+                    </p>
+                  </div>
+                  <div
+                    className={classNames(
+                      featureIdx % 2 === 0
+                        ? "lg:col-start-6 xl:col-start-5"
+                        : "lg:col-start-1",
+                      "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
+                    )}
+                  >
+                    <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+                      <img
+                        src={feature.imageSrc}
+                        alt={feature.imageAlt}
+                        className="object-cover object-center"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <div className="relative bg-white py-24 sm:py-32 lg:py-40">
           <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
             <h2 className="text-lg font-semibold text-indigo-600">
-              Main Features
+              Getting Started
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              It is not just links...
+              Popular User Guides
             </p>
             <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-              In addition to links to your favourite social media accounts, you
-              can also add a variety of features to make a complete profile, all
-              in one place.
+              Here is a selection of our popular documentation guides to help
+              you get started.
             </p>
             <div className="mt-20">
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
