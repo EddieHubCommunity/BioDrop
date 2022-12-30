@@ -1,6 +1,9 @@
+import Link from "next/link";
 import Alert from "../Alert";
+import FallbackImage from "../FallbackImage";
 
 export default function UserTestimonials({ users, data, BASE_URL }) {
+  const fallbackImageSize = 120;
   const testimonials =
     data.testimonials &&
     data.testimonials.map((testimonial) => {
@@ -17,7 +20,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
         url: `https://github.com/${testimonial.username}`,
       };
     });
-    return (
+  return (
     <>
       {!data.testimonials && (
         <Alert type="info" message="No testimonials found" />
@@ -29,15 +32,22 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
             key={key}
           >
             <div className="flex-none p-6">
-              <a href={testimonial.url} target="_blank" rel="noreferrer">
-                <img src={`https://github.com/${testimonial.username}.png`} alt={testimonial.username} className="h-20 w-20 rounded-full bg-gray-100"/>
-              </a>
+              <Link href={testimonial.url} target="_blank" rel="noreferrer">
+                <FallbackImage
+                  src={`https://github.com/${testimonial.username}.png`}
+                  alt={`Profile picture of ${testimonial.username}`}
+                  width={fallbackImageSize}
+                  height={fallbackImageSize}
+                  fallback={testimonial.name}
+                  className="h-20 w-20 rounded-full bg-gray-100"
+                />
+              </Link>
             </div>
             <div className="flex-1 p-6">
               <h3 className="font-medium text-gray-900">{testimonial.title}</h3>
-              <a href={testimonial.url} target="_blank" rel="noreferrer">
+              <Link href={testimonial.url} target="_blank" rel="noreferrer">
                 {testimonial.username}
-              </a>
+              </Link>
 
               <div className="prose prose-sm mt-4 max-w-none text-gray-500">
                 <p>{testimonial.description}</p>
