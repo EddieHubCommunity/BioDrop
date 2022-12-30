@@ -15,7 +15,7 @@ export default async function handler(req, res) {
       console.log(`ERROR no events in "${eventsPath}"`);
       return [];
     }
-    const eventFilesContent = eventFiles.map((file) => {
+    const eventFilesContent = eventFiles.flatMap((file) => {
       try {
         return {
           ...JSON.parse(fs.readFileSync(path.join(eventsPath, file), "utf8")),
@@ -29,7 +29,7 @@ export default async function handler(req, res) {
 
     return eventFilesContent;
   });
-  console.log(events);
+
   const eventsFiltered = events
     .reduce(
       (previousValue, currentValue) => previousValue.concat(currentValue),

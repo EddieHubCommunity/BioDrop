@@ -46,9 +46,14 @@ export default async function handler(req, res) {
   }
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
-  const eventFiles = fs
-    .readdirSync(filePathEvents)
-    .filter((item) => item.includes("json"));
+  let eventFiles = [];
+  try {
+    eventFiles = fs
+      .readdirSync(filePathEvents)
+      .filter((item) => item.includes("json"));
+  } catch (e) {
+    console.log(`ERROR loading events "${filePathEvents}"`);
+  }
   const events = eventFiles.flatMap((filename) => {
     try {
       const event = {
