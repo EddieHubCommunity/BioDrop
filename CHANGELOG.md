@@ -1,3 +1,12 @@
+# [1.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.31.0...v1.32.0) (2022-12-30)
+
+
+### Features
+
+* homepage features + screenshots [#2544](https://github.com/EddieHubCommunity/LinkFree/issues/2544) ([#2546](https://github.com/EddieHubCommunity/LinkFree/issues/2546)) ([97970a1](https://github.com/EddieHubCommunity/LinkFree/commit/97970a11fec79947379ff907e0dbca499db0155b))
+
+
+
 # [1.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.1...v1.31.0) (2022-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * events key [#2414](https://github.com/EddieHubCommunity/LinkFree/issues/2414) ([#2527](https://github.com/EddieHubCommunity/LinkFree/issues/2527)) ([f6da1d6](https://github.com/EddieHubCommunity/LinkFree/commit/f6da1d6b58a6f7317e9059843f33dba76d5a4e71))
-
-
-
-# [1.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.27.0...v1.28.0) (2022-12-29)
-
-
-### Features
-
-* responsive profile ([#2530](https://github.com/EddieHubCommunity/LinkFree/issues/2530)) ([9bf865c](https://github.com/EddieHubCommunity/LinkFree/commit/9bf865c6bf49948d8971b9decc04b95f57cd9bd9))
 
 
 
