@@ -12,7 +12,10 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
           url: `${BASE_URL}/${testimonial.username}`,
         };
       }
-      return testimonial;
+      return {
+        ...testimonial,
+        url: `https://github.com/${testimonial.username}`,
+      };
     });
     return (
     <>
