@@ -1,3 +1,12 @@
+## [1.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.0...v1.34.1) (2022-12-31)
+
+
+### Bug Fixes
+
+* formatting of copy component ([d132385](https://github.com/EddieHubCommunity/LinkFree/commit/d132385247274cb0d28f8f3a1da089872e6447bc))
+
+
+
 # [1.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.33.0...v1.34.0) (2022-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * accessibility ([#2545](https://github.com/EddieHubCommunity/LinkFree/issues/2545)) ([cbd6734](https://github.com/EddieHubCommunity/LinkFree/commit/cbd67344b23bbfe98ddb96f6ddc94cb54bb685e8))
-
-
-
-# [1.32.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.31.0...v1.32.0) (2022-12-30)
-
-
-### Features
-
-* homepage features + screenshots [#2544](https://github.com/EddieHubCommunity/LinkFree/issues/2544) ([#2546](https://github.com/EddieHubCommunity/LinkFree/issues/2546)) ([97970a1](https://github.com/EddieHubCommunity/LinkFree/commit/97970a11fec79947379ff907e0dbca499db0155b))
 
 
 
