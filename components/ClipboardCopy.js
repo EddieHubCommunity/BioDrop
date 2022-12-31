@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ClipboardCopy = ({ copyText, children }) => {
+const ClipboardCopy = ({ copyText, children}) => {
    const [isCopied, setIsCopied] = useState(false);
 
    async function copyTextToClipboard(text) {
@@ -11,17 +11,21 @@ const ClipboardCopy = ({ copyText, children }) => {
       }
    }
 
-   const handleCopyClick = () => {
-      copyTextToClipboard(copyText)
-         .then(() => {
-            setIsCopied(true);
-            setTimeout(() => {
-               setIsCopied(false);
-            }, 1500);
-         })
-         .catch((err) => {
-            console.log(err);
-         });
+   // const formatText = (str) => {
+   //    const start = 3 + language.length;
+   //    return str.slice(start, -3);
+   // }
+
+   const handleCopyClick = async () => {
+      try {
+         await copyTextToClipboard(copyText);
+         setIsCopied(true);
+         setTimeout(() => {
+            setIsCopied(false);
+         }, 1500);
+      } catch (error) {
+         console.log(err);
+      }
    };
 
    return (
@@ -37,15 +41,12 @@ const ClipboardCopy = ({ copyText, children }) => {
                   <span className="text-green-500 text-sm">Copied!</span>
                ) : (
                   <span className="text-gray-500 text-sm">Copy</span>
-               )
-               }
+               )}
             </button>
          </div>
          {children}
       </div>
    );
 };
-
-
 
 export default ClipboardCopy;
