@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { onlyText } from "react-children-utilities";
 
-const ClipboardCopy = ({ copyText, children}) => {
+const ClipboardCopy = ({children}) => {
    const [isCopied, setIsCopied] = useState(false);
 
    async function copyTextToClipboard(text) {
@@ -11,14 +12,9 @@ const ClipboardCopy = ({ copyText, children}) => {
       }
    }
 
-   // const formatText = (str) => {
-   //    const start = 3 + language.length;
-   //    return str.slice(start, -3);
-   // }
-
    const handleCopyClick = async () => {
       try {
-         await copyTextToClipboard(copyText);
+         await copyTextToClipboard(onlyText(children));
          setIsCopied(true);
          setTimeout(() => {
             setIsCopied(false);
