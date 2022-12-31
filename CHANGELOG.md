@@ -1,3 +1,12 @@
+# [1.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.33.0...v1.34.0) (2022-12-31)
+
+
+### Features
+
+* copy to clipboard ([#2551](https://github.com/EddieHubCommunity/LinkFree/issues/2551)) ([5fdbcfb](https://github.com/EddieHubCommunity/LinkFree/commit/5fdbcfb1b3161c1101e3d4b08faa2d9b799c552d))
+
+
+
 # [1.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.2...v1.33.0) (2022-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * homepage features + screenshots [#2544](https://github.com/EddieHubCommunity/LinkFree/issues/2544) ([#2546](https://github.com/EddieHubCommunity/LinkFree/issues/2546)) ([97970a1](https://github.com/EddieHubCommunity/LinkFree/commit/97970a11fec79947379ff907e0dbca499db0155b))
-
-
-
-# [1.31.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.1...v1.31.0) (2022-12-30)
-
-
-### Features
-
-* events to have specific folder ([#2540](https://github.com/EddieHubCommunity/LinkFree/issues/2540)) ([a5ecc14](https://github.com/EddieHubCommunity/LinkFree/commit/a5ecc14d8f195ee8423c4cf9f9368999061e1b8e))
 
 
 
