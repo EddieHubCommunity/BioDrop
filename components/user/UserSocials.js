@@ -26,7 +26,7 @@ function UserSocial({ BASE_URL, username, social }) {
       rel="noopener noreferrer"
       className="hover:scale-125 transition ease-in-out delay-100"
     >
-      <DisplayIcon />
+      <DisplayIcon aria-label={social.icon.slice(2)}/>
     </a>
   );
 }

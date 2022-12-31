@@ -1,7 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import Alert from "../Alert";
+import FallbackImage from "../FallbackImage";
 
 export default function UserTestimonials({ users, data, BASE_URL }) {
+  const fallbackImageSize = 120;
   const testimonials =
     data.testimonials &&
     data.testimonials.map((testimonial) => {
@@ -13,13 +16,11 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
           url: `${BASE_URL}/${testimonial.username}`,
         };
       }
-
       return {
         ...testimonial,
         url: `https://github.com/${testimonial.username}`,
       };
     });
-
   return (
     <>
       {!data.testimonials && (
@@ -50,7 +51,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
                 </a>
               </div>
             </div>
-
+            
             <div className="flex flex-col gap-4">
               <div className="flex-1 hidden lg:block">
                 <h3 className="font-medium text-gray-900">
