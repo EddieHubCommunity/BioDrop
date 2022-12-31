@@ -124,6 +124,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
                     className="hover:text-gray-400"
                     onClick={(e) => {
                       e.preventDefault();
+                      e.stopPropagation();
                       setTabs(
                         tabs.map((tab) =>
                           tab.current
