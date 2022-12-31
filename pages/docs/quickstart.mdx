@@ -1,4 +1,5 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../components/ClipboardCopy.js";
 
 ## Quickstart
 
@@ -29,6 +30,15 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 8. For the file contents use the json structure below:
 
+<ClipboardCopy 
+  copyText ={`{
+  "name": "Sara Jaoude",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/SaraJaoude.png",
+}`}
+>
 ```js
 {
   "name": "Sara Jaoude",
@@ -38,6 +48,7 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   "avatar": "https://github.com/SaraJaoude.png",
 }
 ```
+</ClipboardCopy>
 
 | field              | type                 | description                                                                                                   |
 | :----------------- | :------------------- | :------------------------------------------------------------------------------------------------------------ |
@@ -49,6 +60,15 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
+<ClipboardCopy 
+  copyText ={`"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]`}
+>
 ```js
   "links": [
     {
@@ -58,6 +78,7 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
     }
   ]
 ```
+</ClipboardCopy>
 
 | field | type   | description                                                                                                                                                                          |
 | :---- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,6 +90,20 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 To add more links add another object inside the links collection. For example:
 
+<ClipboardCopy 
+  copyText ={`"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/EddieAndSaraExplore",
+      "icon": "FaInstagram"
+    }
+  ]`}
+>
 ```js
   "links": [
     {
@@ -83,6 +118,7 @@ To add more links add another object inside the links collection. For example:
     }
   ]
 ```
+</ClipboardCopy>
 
 10. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
 
