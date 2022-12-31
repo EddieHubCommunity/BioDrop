@@ -1,3 +1,12 @@
+# [1.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.2...v1.33.0) (2022-12-31)
+
+
+### Features
+
+* profile events has key ([#2548](https://github.com/EddieHubCommunity/LinkFree/issues/2548)) ([4e5a7ec](https://github.com/EddieHubCommunity/LinkFree/commit/4e5a7ecf0f364b269943fbd0dc3d06e0e740df95))
+
+
+
 ## [1.32.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.1...v1.32.2) (2022-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * events to have specific folder ([#2540](https://github.com/EddieHubCommunity/LinkFree/issues/2540)) ([a5ecc14](https://github.com/EddieHubCommunity/LinkFree/commit/a5ecc14d8f195ee8423c4cf9f9368999061e1b8e))
-
-
-
-## [1.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.0...v1.30.1) (2022-12-30)
-
-
-### Bug Fixes
-
-* refactored to nextjs code ([1f25858](https://github.com/EddieHubCommunity/LinkFree/commit/1f25858a84bd027b27393247391d4eb1df6cacfe))
 
 
 
