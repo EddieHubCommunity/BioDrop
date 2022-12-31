@@ -29,10 +29,10 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
       {data.testimonials &&
         testimonials.map((testimonial, key) => (
           <div
-            className="flex flex-col lg:flex-row lg:gap-8 gap-2 lg:items-center text-sm text-gray-500 border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
+            className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm text-gray-500 border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
             key={key}
           >
-            <div className="flex items-center lg:px-4">
+            <div className="flex items-center sm:px-4">
               <div className="w-20 h-20">
                 <Image
                   width={100} // just to pass nextjs error
@@ -42,7 +42,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
                   className="rounded-full bg-gray-100"
                 />
               </div>
-              <div className="flex-1 p-6 lg:hidden">
+              <div className="flex-1 p-6 sm:hidden">
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
@@ -53,7 +53,7 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
             </div>
             
             <div className="flex flex-col gap-4">
-              <div className="flex-1 hidden lg:block">
+              <div className="flex-1 hidden sm:block">
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
