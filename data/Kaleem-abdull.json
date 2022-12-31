@@ -1,0 +1,38 @@
+{
+  "name": "Kaleem-abdull",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Doctor of pharmacy undergraduate in the world of web development",
+  "avatar": "https://github.com/Kaleem-abdull.png",
+  
+  
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/drabdrahaman_",
+      "icon": "FaTwitter"
+    },
+    
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/abdul-rahaman-mohammed",
+      "icon": "FalinkedIn"
+    },
+    
+    
+     {
+      "name": "Subscribe to my YouTube",
+      "url": "https://www.youtube.com/channel/UCeR0sR2CSaRT5HWRSs5AeoQ",
+      "icon": "FaYouTube"
+    },
+    
+    
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Kaleem-abdull/",
+      "icon": "FaGitHub"
+    }
+  ]
+}
+
+
