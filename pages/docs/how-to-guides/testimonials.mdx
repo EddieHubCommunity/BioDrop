@@ -1,4 +1,5 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy"
 
 ## Testimonials
 
@@ -12,6 +13,7 @@ You can give a Testimonial for another LinkFree user by submitting an issue http
 
 Also you can add a Testimonial manually by creating the `json` file `data/<username>/testimonials/<your-username>.json` with the content:
 
+<ClipboardCopy>
 ```js
 {
   "title": "Founder of an Amazing Community",
@@ -19,6 +21,7 @@ Also you can add a Testimonial manually by creating the `json` file `data/<usern
   "date": "2022-26-11"
 }
 ```
+</ClipboardCopy>
 
 ### Including a Testimonial on your Profile
 
@@ -26,6 +29,7 @@ If you receive a Testimonials, you can include this in the Testimonial section o
 
 You can do this by including the usernames of the testimonials you wish to show on your profile with the following `json` code:
 
+<ClipboardCopy>
 ```js
 "testimonials": [
   "CBID2",
@@ -34,6 +38,7 @@ You can do this by including the usernames of the testimonials you wish to show 
   "krupalitrivedi"
 ]
 ```
+</ClipboardCopy>
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Testimonials Documentation">
