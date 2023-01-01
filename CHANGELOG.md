@@ -1,3 +1,12 @@
+# [1.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.35.0...v1.36.0) (2023-01-01)
+
+
+### Features
+
+* copy to code blocks ([#2565](https://github.com/EddieHubCommunity/LinkFree/issues/2565)) ([dac79c8](https://github.com/EddieHubCommunity/LinkFree/commit/dac79c8d130907f34f29994eeb9ca5b27babb12e))
+
+
+
 # [1.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.1...v1.35.0) (2023-01-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * profile events has key ([#2548](https://github.com/EddieHubCommunity/LinkFree/issues/2548)) ([4e5a7ec](https://github.com/EddieHubCommunity/LinkFree/commit/4e5a7ecf0f364b269943fbd0dc3d06e0e740df95))
-
-
-
-## [1.32.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.1...v1.32.2) (2022-12-31)
-
-
-### Bug Fixes
-
-* mobile testimonial ([#2549](https://github.com/EddieHubCommunity/LinkFree/issues/2549)) ([390786b](https://github.com/EddieHubCommunity/LinkFree/commit/390786b07e5af3edb62369dc03d3a3786ca1d0bb))
 
 
 
