@@ -7,7 +7,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rahultwte" },
     { "icon": "FaGithub", "url": "https://github.com/Rahul-Prasad-07" },
-    { "icon": "website", "url": "https://dev.to/rahulprasad07" }
+    { "icon": "FaLink", "url": "https://dev.to/rahulprasad07" }
   ],
   "avatar": "https://github.com/Rahul-Prasad-07.png",
   "links": [
