@@ -1,0 +1,29 @@
+{
+  "name": "Imtiaz Ahmed",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Software Developer**",
+  "avatar": "https://github.com/imtiazpy.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imtiazpy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/imtiazpy",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/imtiazpy",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/imtiazpy",
+      "icon": "FaGithub"
+    }
+  ]
+}
