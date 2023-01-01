@@ -2,13 +2,7 @@
   "name": "Krupali Trivedi || Chai",
   "type": "personal",
   "bio": "Open source Advocate | Blogger | Content Writer ",
-  "tags": [
-    "Open Source",
-    "Content Writer",
-    "Blogging",
-    "Web3"
-    
-  ],
+  "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/chai_really" },
     { "icon": "FaGithub", "url": "https://github.com/krupalitrivedi" },
@@ -37,7 +31,7 @@
       "icon": "FaLinkedin"
     }
   ],
-"milestones": [
+  "milestones": [
     {
       "title": "Started Freelancing",
       "date": "April 2020",
@@ -46,7 +40,7 @@
       "description": "Started Content Writing",
       "url": "https://www.linkedin.com/in/krupalitrivedi/"
     },
-  {
+    {
       "title": "Joined Open Source",
       "date": "August 2022",
       "icon": "FaGithub",
@@ -54,7 +48,7 @@
       "description": "Started Advocating for Opensource Contributions",
       "url": "https://github.com/krupalitrivedi"
     },
-  {
+    {
       "title": "Started Tech Blog",
       "date": "August 2022",
       "icon": "SiHashnode",
