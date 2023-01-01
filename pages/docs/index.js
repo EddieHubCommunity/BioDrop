@@ -254,6 +254,7 @@ export default function DocsIndex() {
             href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
             target="_blank"
             rel="noreferrer"
+            className="text-sky-700"
           >
             https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
           </a>

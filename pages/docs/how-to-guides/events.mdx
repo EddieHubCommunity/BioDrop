@@ -12,11 +12,13 @@ All future events also appear on the Events page for the app.
 
 ### Add Event
 
-1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+1. Create a folder that matches your GitHub username in the `data` directory and then in that folder create another folder called `events`. For example `data/eddiejaoude/events/`
+
+2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name. For example `2023-09-13-javacsript-conference.json`.
 
 _If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
 
-2. Add a collection called `events` at the root of your `json` file which will contain one or more social objects. Each social object must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date` and `url`, which will look like this:
+3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date` and `url`, which will look like this:
 
 ```js
 {
@@ -41,25 +43,7 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 | date                   | Start and end date plus time of the event                   |
 | url                    | Where can people learn more about the event                 |
 
-This is what a complete example looks like:
-
-```js
-"events": [
-  {
-    "isVirtual": true,
-    "color": "red",
-    "name": "Open Source GitHub reviews",
-    "description": "In this livestream I will be going reviewing your **Open Source projects** and profiles! I will be joined by **Amanda**, a Developer Advocate.",
-    "date": {
-      "start": "2022-12-09T16:00:00.000+00:00",
-      "end": "2022-12-09T17:00:00.000+00:00"
-    },
-    "url": "https://www.youtube.com/watch?v=iqIFD02OkVE"
-  }
-]
-```
-
-3. Now you can commit your file and create a Pull Request, for more details please see [Editing guide](/docs/how-to-guides/editing)
+4. Now you can commit your file and create a Pull Request. For more details please see [Editing guide](/docs/how-to-guides/editing)
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>

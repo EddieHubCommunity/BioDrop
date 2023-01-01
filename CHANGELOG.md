@@ -1,45 +1,45 @@
-# [1.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.28.0...v1.29.0) (2022-12-29)
-
-
-### Features
-
-* events key [#2414](https://github.com/EddieHubCommunity/LinkFree/issues/2414) ([#2527](https://github.com/EddieHubCommunity/LinkFree/issues/2527)) ([f6da1d6](https://github.com/EddieHubCommunity/LinkFree/commit/f6da1d6b58a6f7317e9059843f33dba76d5a4e71))
-
-
-
-# [1.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.27.0...v1.28.0) (2022-12-29)
-
-
-### Features
-
-* responsive profile ([#2530](https://github.com/EddieHubCommunity/LinkFree/issues/2530)) ([9bf865c](https://github.com/EddieHubCommunity/LinkFree/commit/9bf865c6bf49948d8971b9decc04b95f57cd9bd9))
-
-
-
-# [1.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.4...v1.27.0) (2022-12-28)
-
-
-### Features
-
-* improve docker compose ([#2515](https://github.com/EddieHubCommunity/LinkFree/issues/2515)) ([c06fcd5](https://github.com/EddieHubCommunity/LinkFree/commit/c06fcd5aede5f85f8239e4ce0e64126a273f32eb))
-
-
-
-## [1.26.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.3...v1.26.4) (2022-12-28)
+## [1.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.0...v1.34.1) (2022-12-31)
 
 
 ### Bug Fixes
 
-* responsiveness event ([#2516](https://github.com/EddieHubCommunity/LinkFree/issues/2516)) ([54a3b3e](https://github.com/EddieHubCommunity/LinkFree/commit/54a3b3e30d1a57f96da9490e2ce143c767c55f43))
+* formatting of copy component ([d132385](https://github.com/EddieHubCommunity/LinkFree/commit/d132385247274cb0d28f8f3a1da089872e6447bc))
 
 
 
-## [1.26.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.2...v1.26.3) (2022-12-27)
+# [1.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.33.0...v1.34.0) (2022-12-31)
+
+
+### Features
+
+* copy to clipboard ([#2551](https://github.com/EddieHubCommunity/LinkFree/issues/2551)) ([5fdbcfb](https://github.com/EddieHubCommunity/LinkFree/commit/5fdbcfb1b3161c1101e3d4b08faa2d9b799c552d))
+
+
+
+# [1.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.2...v1.33.0) (2022-12-31)
+
+
+### Features
+
+* profile events has key ([#2548](https://github.com/EddieHubCommunity/LinkFree/issues/2548)) ([4e5a7ec](https://github.com/EddieHubCommunity/LinkFree/commit/4e5a7ecf0f364b269943fbd0dc3d06e0e740df95))
+
+
+
+## [1.32.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.1...v1.32.2) (2022-12-31)
 
 
 ### Bug Fixes
 
-* only run json check on data file changes ([#2517](https://github.com/EddieHubCommunity/LinkFree/issues/2517)) ([980a191](https://github.com/EddieHubCommunity/LinkFree/commit/980a191b72d9fd4750b776d55145344ef2e7a171))
+* mobile testimonial ([#2549](https://github.com/EddieHubCommunity/LinkFree/issues/2549)) ([390786b](https://github.com/EddieHubCommunity/LinkFree/commit/390786b07e5af3edb62369dc03d3a3786ca1d0bb))
+
+
+
+## [1.32.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.0...v1.32.1) (2022-12-30)
+
+
+### Bug Fixes
+
+* accessibility ([#2545](https://github.com/EddieHubCommunity/LinkFree/issues/2545)) ([cbd6734](https://github.com/EddieHubCommunity/LinkFree/commit/cbd67344b23bbfe98ddb96f6ddc94cb54bb685e8))
 
 
 
