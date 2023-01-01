@@ -72,7 +72,7 @@ Looking for inspiration? You can view the following profiles for an example:
 
 Your brand new file should look something similar to this one:
 
-> **CLI Profile Generator**: To generate the code for your profile using CLI, visit [Pradumna's Linkfree-CLI profile generator](https://github.com/Pradumnasaraf/LinkFree-CLI)
+> **Note** **CLI Profile Generator**: To generate the code for your profile using CLI, visit [Pradumna's Linkfree-CLI profile generator](https://github.com/Pradumnasaraf/LinkFree-CLI)
 
 > **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
 
