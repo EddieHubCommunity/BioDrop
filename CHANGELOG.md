@@ -1,3 +1,12 @@
+# [1.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.1...v1.35.0) (2023-01-01)
+
+
+### Features
+
+* profile tab sorting ([#2539](https://github.com/EddieHubCommunity/LinkFree/issues/2539)) ([cda7709](https://github.com/EddieHubCommunity/LinkFree/commit/cda7709c19fce96fd2af8da60dd4e7019bf586b8)), closes [#2474](https://github.com/EddieHubCommunity/LinkFree/issues/2474) [#2553](https://github.com/EddieHubCommunity/LinkFree/issues/2553)
+
+
+
 ## [1.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.0...v1.34.1) (2022-12-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * mobile testimonial ([#2549](https://github.com/EddieHubCommunity/LinkFree/issues/2549)) ([390786b](https://github.com/EddieHubCommunity/LinkFree/commit/390786b07e5af3edb62369dc03d3a3786ca1d0bb))
-
-
-
-## [1.32.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.0...v1.32.1) (2022-12-30)
-
-
-### Bug Fixes
-
-* accessibility ([#2545](https://github.com/EddieHubCommunity/LinkFree/issues/2545)) ([cbd6734](https://github.com/EddieHubCommunity/LinkFree/commit/cbd67344b23bbfe98ddb96f6ddc94cb54bb685e8))
 
 
 
