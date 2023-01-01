@@ -3,7 +3,14 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": " Blockchain Developer | **Open Source** Advocate | DevOps Developer",
-  "tags": ["Open Source","Blockchain", "DevOps", "Kubernetes", "Docker", "Node.js"],
+  "tags": [
+    "Open Source",
+    "Blockchain",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rahultwte" },
     { "icon": "FaGithub", "url": "https://github.com/Rahul-Prasad-07" },
