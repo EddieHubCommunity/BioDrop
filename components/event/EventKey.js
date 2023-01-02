@@ -2,10 +2,8 @@ import { IconContext } from "react-icons";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
 export default function EventKey({ events }) {
-  const inPersonEvents = events.filter(event => event.isInPerson)
-    .map(inPersonEvent => inPersonEvent)
-  const virtualEvents = events.filter(event => event.isVirtual)
-    .map(virtualEvent => virtualEvent)
+  const inPersonEvents = events.filter(event => event.isInPerson).length
+  const virtualEvents = events.filter(event => event.isVirtual).length
 
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-6">
@@ -25,7 +23,7 @@ export default function EventKey({ events }) {
         <div
           className="flex items-baseline text-2xl font-semibold"
         >
-          {inPersonEvents.length}
+          {inPersonEvents}
         </div>
       </div>
       <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2">
@@ -44,7 +42,7 @@ export default function EventKey({ events }) {
         <div
           className="flex items-baseline text-2xl font-semibold"
         >
-          {virtualEvents.length}
+          {virtualEvents}
         </div>
       </div>
     </div>
