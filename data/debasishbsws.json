@@ -4,15 +4,9 @@
   "type": "personal",
   "bio": "**OpenSource** || DevOps || **Photographer** || Blogger",
   "avatar": "https://github.com/debasishbsws.png",
-  
-  "tags": [
-    "Open Source",
-    "JAVA",
-    "Docker",
-    "DevOps",
-    "Web"
-  ],
-  
+
+  "tags": ["Open Source", "JAVA", "Docker", "DevOps", "Web"],
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/debasishbsws" },
     { "icon": "FaGithub", "url": "https://github.com/debasishbsws" },
