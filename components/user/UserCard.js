@@ -20,12 +20,12 @@ export default function UserCard({ profile }) {
         />
         {profile.displayStatsPublic && (
           <div class="relative">
-            <div
-              id="card-views"
-              className="absolute inline-block h-5 top-0 bottom-auto translate-x-2/4  rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10"
-            >
-              {abbreviateNumber(profile.views)}
-            </div>
+              <div
+                id="card-views"
+                className="absolute inline-block h-5 top-0 bottom-auto translate-x-2/4  rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10"
+              >
+                {abbreviateNumber(profile.views)}
+              </div>
             </div>
           )}
       </div>
