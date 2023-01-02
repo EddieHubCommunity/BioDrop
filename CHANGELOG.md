@@ -1,3 +1,12 @@
+# [1.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.36.0...v1.37.0) (2023-01-02)
+
+
+### Features
+
+* popular profiles views ([#2579](https://github.com/EddieHubCommunity/LinkFree/issues/2579)) ([99f3552](https://github.com/EddieHubCommunity/LinkFree/commit/99f3552b7d32d7b23398811b52347d928589a831))
+
+
+
 # [1.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.35.0...v1.36.0) (2023-01-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * copy to clipboard ([#2551](https://github.com/EddieHubCommunity/LinkFree/issues/2551)) ([5fdbcfb](https://github.com/EddieHubCommunity/LinkFree/commit/5fdbcfb1b3161c1101e3d4b08faa2d9b799c552d))
-
-
-
-# [1.33.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.32.2...v1.33.0) (2022-12-31)
-
-
-### Features
-
-* profile events has key ([#2548](https://github.com/EddieHubCommunity/LinkFree/issues/2548)) ([4e5a7ec](https://github.com/EddieHubCommunity/LinkFree/commit/4e5a7ecf0f364b269943fbd0dc3d06e0e740df95))
 
 
 
