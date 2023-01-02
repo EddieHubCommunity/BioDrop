@@ -4,7 +4,16 @@
   "type": "personal",
   "bio": "Software Developer and Linux Enthusiats",
   "avatar": "https://github.com/OlojaMuyiwa.png",
-  "tags": ["Javascript", "React", "PHP", "Laravel", "Vue", "MySQL", "Linux", "C"],
+  "tags": [
+    "Javascript",
+    "React",
+    "PHP",
+    "Laravel",
+    "Vue",
+    "MySQL",
+    "Linux",
+    "C"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iRedeploy__" },
     { "icon": "FaGithub", "url": "https://github.com/OlojaMuyiwa" },
