@@ -4,15 +4,8 @@
   "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
   "avatar": "https://github.com/loftwah.png",
-  "tags": [
-    "AWS",
-    "Beats",
-    "DevOps",
-    "Music",
-    "Open Source",
-    "Ruby"
-  ],
-    "socials": [
+  "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Ruby"],
+  "socials": [
     { "icon": "FaGithub", "url": "https://github.com/loftwah" },
     { "icon": "FaTwitter", "url": "https://twitter.com/loftwah" },
     { "icon": "FaYoutube", "url": "https://youtube.com/loftwahthebeatsmiff" }
