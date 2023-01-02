@@ -4,25 +4,39 @@
   "type": "personal",
   "bio": "**OpenSource** || DevOps || **Photographer** || Blogger",
   "avatar": "https://github.com/debasishbsws.png",
+  
+  "tags": [
+    "Open Source",
+    "JAVA",
+    "Docker",
+    "DevOps",
+    "Web"
+  ],
+  
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/debasishbsws" },
+    { "icon": "FaGithub", "url": "https://github.com/debasishbsws" },
+    { "icon": "SiInstagram", "url": "https://www.instagram.com/debasishbsws/" }
+  ],
 
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "Twitter: Intract with me",
       "url": "https://twitter.com/debasishbsws",
       "icon": "FaTwitter"
-    }
+    },
     {
-      "name": "Wanna Read my Blogs Follow me on Hashnode",
+      "name": "Hashnode: Wanna Read my Blogs",
       "url": "https://blog.debasishbsws.me",
       "icon": "SiHashnode"
-    }
+    },
     {
-      "name": "I am also a Photographer, Follow me on Instagram",
+      "name": "Instagram: I am also a Photographer",
       "url": "https://www.instagram.com/debasishbsws/",
       "icon": "SiInstagram"
-    }
+    },
     {
-      "name": "Most importantlly, Follow me on GitHub",
+      "name": "GitHub: Most importan stufs",
       "url": "https://github.com/debasishbsws",
       "icon": "SiGithub"
     }
