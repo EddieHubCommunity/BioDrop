@@ -1,0 +1,30 @@
+{
+  "name": "Debasish Biswas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**OpenSource** || DevOps || **Photographer** || Blogger",
+  "avatar": "https://github.com/debasishbsws.png",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/debasishbsws",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "Wanna Read my Blogs Follow me on Hashnode",
+      "url": "https://blog.debasishbsws.me",
+      "icon": "SiHashnode"
+    }
+    {
+      "name": "I am also a Photographer, Follow me on Instagram",
+      "url": "https://www.instagram.com/debasishbsws/",
+      "icon": "SiInstagram"
+    }
+    {
+      "name": "Most importantlly, Follow me on GitHub",
+      "url": "https://github.com/debasishbsws",
+      "icon": "SiGithub"
+    }
+  ]
+}
