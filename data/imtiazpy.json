@@ -4,14 +4,7 @@
   "type": "personal",
   "bio": "**Freelance Software Developer**",
   "avatar": "https://github.com/imtiazpy.png",
-  "tags": [
-    "Python",
-    "JavaScript",
-    "TypeScript",
-    "NextJS",
-    "Django",
-    "Wagtail"
-  ],
+  "tags": ["Python", "JavaScript", "TypeScript", "NextJS", "Django", "Wagtail"],
   "links": [
     {
       "name": "Follow me on Twitter",
