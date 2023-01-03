@@ -4,7 +4,15 @@
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/abhijeet-26.png",
-  "tags": ["javascript", "Springboot", "DataStructures and Algorithms", "react.js", "Microservices","junit/Mockito","Open source"],
+  "tags": [
+    "javascript",
+    "Springboot",
+    "DataStructures and Algorithms",
+    "react.js",
+    "Microservices",
+    "junit/Mockito",
+    "Open source"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/AbhijeetBasfore" },
     { "icon": "FaGithub", "url": "https://github.com/abhijeet-26" }
