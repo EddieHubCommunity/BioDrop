@@ -36,4 +36,4 @@ jobs:
         uses: YiiGuxing/close-issue@v2.1.0
         with:
           comment: |
-            Testimonial added for @${{ steps.issue-parser.outputs.issueparser_name }}. Thank you for your contribution!
+            Testimonial added for @${{ steps.issue-parser.outputs.issueparser_name }}. Thank you for your contribution! @${{ steps.issue-parser.outputs.issueparser_name }} if you wish to add it your LinkFree profile please follow the instructions in the docs https://linkfree.eddiehub.io/docs/how-to-guides/testimonials
