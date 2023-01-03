@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Backend Developer | Open Source and Tech Enthusiast",
-  "avatar": "https://github.com/kartiklk.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "OpenSource"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/kartikkhode21" },
@@ -14,7 +14,6 @@
     },
     { "icon": "FaHashnode", "url": "https://hashnode.com/@kartik21" }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -40,7 +39,6 @@
       "color": "#0075D6"
     }
   ],
-
   "milestones": [
     {
       "title": "Started Learning about Backend Development",

@@ -2,7 +2,7 @@
   "name": "Given Kibanza",
   "type": "personal",
   "bio": "Entreprenuer // Dev // Robotics X Space X Medicine",
-  "avatar": "https://github.com/givenkiban1.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

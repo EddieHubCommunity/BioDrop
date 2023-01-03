@@ -2,7 +2,7 @@
   "name": "Madhavi Mandalia",
   "type": "personal",
   "bio": "Open Source Enthusiast | Software Engineer | YouTuber",
-  "avatar": "https://github.com/MadhaviMandalia.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

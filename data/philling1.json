@@ -2,7 +2,7 @@
   "name": "Phil",
   "type": "personal",
   "bio": "Software engineer getting into Open Source",
-  "avatar": "https://github.com/philling1.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

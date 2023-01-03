@@ -3,17 +3,11 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Developer | Open source contributor",
-  "avatar": "https://github.com/Valentine-chinedu.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["nextJS", "typescript", "reactJS", "tailwindCSS", "web3"],
   "socials": [
-    {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/okosival"
-    },
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/Valentine-chinedu"
-    }
+    { "icon": "FaTwitter", "url": "https://twitter.com/okosival" },
+    { "icon": "FaGithub", "url": "https://github.com/Valentine-chinedu" }
   ],
   "links": [
     {

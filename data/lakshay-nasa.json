@@ -2,7 +2,7 @@
   "name": "Lakshay Nasa",
   "type": "personal",
   "bio": "Sophomore || Autodidactic Dev || Open Source || Cloud Computing || Animator",
-  "avatar": "https://github.com/lakshay-nasa.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Rupali",
   "type": "personal",
   "bio": "Backend Developer | Open-Source | Wordpress",
-  "avatar": "https://github.com/rupali-codes.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

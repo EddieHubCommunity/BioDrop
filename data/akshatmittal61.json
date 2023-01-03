@@ -2,7 +2,7 @@
   "name": "Akshat Mittal",
   "type": "personal",
   "bio": "MERN Stack Developer | Competitive Programmer",
-  "avatar": "https://github.com/akshatmittal61.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Veiw my projects on GitHub",

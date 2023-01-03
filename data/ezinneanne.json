@@ -2,7 +2,7 @@
   "name": "Ezinne Anne Emilia",
   "type": "personal",
   "bio": "Software engineer(Html, Css, Vanilla Javascript, python, Django, Vuejs, Nodejs), writer(technical, fiction), open source contributor",
-  "avatar": "https://github.com/ezinneanne.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

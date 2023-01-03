@@ -2,7 +2,7 @@
   "name": "Srinivas Karnati",
   "type": "personal",
   "bio": "Cloud Native and Open Source enthusiast",
-  "avatar": "https://github.com/karnatisrinivas.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

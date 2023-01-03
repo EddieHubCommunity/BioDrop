@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
-  "avatar": "https://github.com/loftwah.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Ruby"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/loftwah" },

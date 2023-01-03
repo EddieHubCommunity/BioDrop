@@ -2,7 +2,7 @@
   "name": "Abbey Santos",
   "type": "personal",
   "bio": "IT Student | DevOps | Networking | Cloud | Open Source Enthusiast!",
-  "avatar": "https://github.com/AbbeyIT.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Krish Gupta",
   "type": "personal",
   "bio": "Developing Stuff! Currently Learning! Volunteer at Open Source and @EddieHubCommunity",
-  "avatar": "https://github.com/krishdevdb.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

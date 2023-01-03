@@ -2,7 +2,7 @@
   "name": "Julia Undeutsch",
   "type": "personal",
   "bio": "I am an Accessibility & Frontend Developer (ReactJS)",
-  "avatar": "https://github.com/yuridevat.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Twitter",

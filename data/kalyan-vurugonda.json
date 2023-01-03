@@ -2,7 +2,7 @@
   "name": "Kalyan Vurugonda",
   "type": "personal",
   "bio": "DevOps | Open Source Enthusiast!",
-  "avatar": "https://github.com/kalyan-vurugonda.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

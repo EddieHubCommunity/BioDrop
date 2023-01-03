@@ -2,7 +2,7 @@
   "name": "Priyanshu Kumawat",
   "type": "personal",
   "bio": "Web developer | Tech writer | Open Source Enthusiast!",
-  "avatar": "https://github.com/kumarsonsoff3.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

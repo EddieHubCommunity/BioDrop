@@ -2,7 +2,7 @@
   "name": "Khalid Khan",
   "type": "personal",
   "bio": "Upcoming Full stack developer | Open source contributor",
-  "avatar": "https://github.com/khan-droid.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

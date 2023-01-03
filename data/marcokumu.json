@@ -2,7 +2,7 @@
   "name": "OKUMU MARK",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/marcokumu.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

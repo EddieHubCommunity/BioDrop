@@ -3,26 +3,13 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Cloud-Native Consultant | CKA | Loves **Automation**, **Orchestration** & **DevOps** ❤️",
-  "avatar": "https://github.com/mocdaniel.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Golang", "Rust", "Ansible"],
   "socials": [
-    {
-      "url": "https://twitter.com/d_bodky",
-      "icon": "FaTwitter"
-    },
-
-    {
-      "url": "https://github.com/mocdaniel",
-      "icon": "FaGithub"
-    },
-    {
-      "url": "https://gitlab.com/lackingdocumentation",
-      "icon": "SiGitlab"
-    },
-    {
-      "url": "https://linkedin.com/in/daniel-bodky",
-      "icon": "FaLinkedin"
-    }
+    { "url": "https://twitter.com/d_bodky", "icon": "FaTwitter" },
+    { "url": "https://github.com/mocdaniel", "icon": "FaGithub" },
+    { "url": "https://gitlab.com/lackingdocumentation", "icon": "SiGitlab" },
+    { "url": "https://linkedin.com/in/daniel-bodky", "icon": "FaLinkedin" }
   ],
   "links": [
     {

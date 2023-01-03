@@ -2,7 +2,7 @@
   "name": "Sourav Kumar",
   "type": "personal",
   "bio": "Open Source ",
-  "avatar": "https://github.com/souravsk.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

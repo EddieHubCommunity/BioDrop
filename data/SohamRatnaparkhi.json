@@ -2,7 +2,7 @@
   "name": "Soham Ratnaparkhi",
   "type": "personal",
   "bio": "Open Source Enthusiast! and a young developer.",
-  "avatar": "https://github.com/SohamRatnaparkhi.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

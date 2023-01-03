@@ -2,7 +2,7 @@
   "name": "Pranay Gupta",
   "type": "personal",
   "bio": "2nd-year undergrad from India | Web Dev and Open Source Enthusiast",
-  "avatar": "https://github.com/thepranaygupta.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Checkout my GitHub Repositories",

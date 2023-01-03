@@ -2,7 +2,7 @@
   "name": "Amr Monier",
   "type": "personal",
   "bio": "Backend Developer, JS enthusiast, and a learning JUNKY 😁",
-  "avatar": "https://github.com/AmrMonier.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

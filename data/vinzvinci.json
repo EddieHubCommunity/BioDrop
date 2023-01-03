@@ -2,7 +2,7 @@
   "name": "Vincent Villafuerte",
   "type": "personal",
   "bio": "DevRel & Open Sourcerer",
-  "avatar": "https://github.com/vinzvinci.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

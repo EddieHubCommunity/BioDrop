@@ -2,7 +2,7 @@
   "name": "Sajal Sharma",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/Sajal24.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -16,10 +16,6 @@
     }
   ],
   "milestones": [
-    {
-      "title": "Started Tweeting",
-      "date": "December 2021",
-      "color": "blue"
-    }
+    { "title": "Started Tweeting", "date": "December 2021", "color": "blue" }
   ]
 }

@@ -2,7 +2,7 @@
   "name": "Adil Khwaja",
   "type": "personal",
   "bio": "Exploring open source",
-  "avatar": "https://github.com/zadilkhwaja.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Developer Advocate | **CyberSecurity** | Tech enthusiast",
-  "avatar": "https://github.com/iamthecloverly.png",
+  "avatar": "https://github.com/${username}.png",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/thecloverly" },
     { "icon": "FaGithub", "url": "https://github.com/iamthecloverly" },
@@ -25,11 +25,7 @@
       "url": "https://github.com/iamthecloverly",
       "icon": "FaGithub"
     },
-    {
-      "name": "Blog",
-      "url": "https://sribalaji.eu.org/",
-      "icon": "FaDev"
-    }
+    { "name": "Blog", "url": "https://sribalaji.eu.org/", "icon": "FaDev" }
   ],
   "milestones": [
     {

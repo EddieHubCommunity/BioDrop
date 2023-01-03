@@ -2,7 +2,7 @@
   "name": "Aditya Priyadarshi",
   "type": "personal",
   "bio": "A dumb developer who loves Django.",
-  "avatar": "https://github.com/foxy4096.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "GitHub",

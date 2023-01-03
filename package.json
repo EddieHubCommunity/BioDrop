@@ -1,5 +1,6 @@
 {
   "name": "linkfree",
+  "type": "module",
   "version": "1.37.0",
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
@@ -13,6 +14,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.12",
     "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
     "js-abbreviation-number": "^1.4.0",
     "mongoose": "^6.6.5",
     "next": "^13",

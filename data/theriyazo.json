@@ -1,7 +1,7 @@
 {
   "name": "Riyaz Ahamad",
   "bio": "UI developer",
-  "avatar": "https://github.com/theriyazo.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -33,9 +33,6 @@
       "description": "Designed and Developed Personal Portfolio. From designing icon, UI/UX to hosting",
       "url": "https://www.theriyazo.com/"
     },
-    {
-      "title": "Graduated from Computer Science & Engineering",
-      "date": "2021"
-    }
+    { "title": "Graduated from Computer Science & Engineering", "date": "2021" }
   ]
 }

@@ -2,35 +2,21 @@
   "name": "Ritik Kumar",
   "type": "personal",
   "bio": "Full Stack Engineer | Freelance Developer | Part-time writer",
-  "avatar": "https://github.com/iamr-kumar.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Javascript", "Typescript", "React", "NextJS", "Node", "Flutter"],
   "socials": [
-    {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/itsr_kumar"
-    },
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/iamr-kumar"
-    },
-    {
-      "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/ritikkumar29/"
-    }
+    { "icon": "FaTwitter", "url": "https://twitter.com/itsr_kumar" },
+    { "icon": "FaGithub", "url": "https://github.com/iamr-kumar" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ritikkumar29/" }
   ],
   "links": [
-    {
-      "name": "Porfolio",
-      "url": "http://devritik.com",
-      "icon": "FaLink"
-    },
+    { "name": "Porfolio", "url": "http://devritik.com", "icon": "FaLink" },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/itsr_kumar",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
-
     {
       "name": "GitHub",
       "url": "https://github.com/iamr-kumar",

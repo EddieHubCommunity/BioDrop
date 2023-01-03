@@ -2,7 +2,7 @@
   "name": "Anantha Ramanathan A",
   "type": "personal",
   "bio": "Full-stack Java developer with Angular",
-  "avatar": "https://github.com/AnanthaRamanathan138.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

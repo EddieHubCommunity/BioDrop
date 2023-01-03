@@ -3,17 +3,11 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Developer | Open source contributor",
-  "avatar": "https://github.com/Aadarsh805.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["nextJS", "typescript", "supabase", "reactJS", "tailwindCSS"],
   "socials": [
-    {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/Aadarsh805"
-    },
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/Aadarsh805"
-    }
+    { "icon": "FaTwitter", "url": "https://twitter.com/Aadarsh805" },
+    { "icon": "FaGithub", "url": "https://github.com/Aadarsh805" }
   ],
   "links": [
     {

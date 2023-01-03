@@ -2,7 +2,7 @@
   "name": "Vasanth Srivatsa",
   "type": "personal",
   "bio": "Computer geek 👨‍💻 I make videos 📹 on YouTube & tweet 🐦 about JavaScript.",
-  "avatar": "https://github.com/vsnthdev.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Watch my high-quality 📹 technical tutorials",

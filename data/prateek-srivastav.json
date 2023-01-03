@@ -2,7 +2,7 @@
   "name": "Prateek Srivastava",
   "type": "personal",
   "bio": "Coding, Football, Chess, Guitar, Art, working on startups.",
-  "avatar": "https://github.com/prateek-srivastav.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

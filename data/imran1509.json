@@ -3,7 +3,7 @@
   "type": "Personal",
   "displayStatsPublic": true,
   "bio": "DevOps | Co-Founder of **GrowInCommunity** | DevRel Enthusiast | Tech Blogger | Open Source | Cloud Computing | Cloud Native",
-  "avatar": "https://github.com/imran1509.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Open Source", "DevOps", "Cloud Native", "Devrel", "Go", "Python"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/codenameimmy" },

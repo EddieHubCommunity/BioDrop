@@ -2,7 +2,7 @@
   "name": "Umar Khatab",
   "type": "personal",
   "bio": "React JS Developer",
-  "avatar": "https://github.com/umaresso.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Connect on GitHub",

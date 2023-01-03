@@ -2,7 +2,7 @@
   "name": "Vraj Desai",
   "type": "personal",
   "bio": "Android Developer",
-  "avatar": "https://github.com/vrajdesai78.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Luiz Felipe Amadeu",
   "type": "personal",
   "bio": "IT Student | Networking | Front-end | Open Source Enthusiast!",
-  "avatar": "https://github.com/Amad3eu.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -14,11 +14,7 @@
       "url": "https://twitter.com/Amad3eu",
       "icon": "FaTwitter"
     },
-    {
-      "name": "Dev Profile",
-      "url": "https://dev.to/amad3eu",
-      "icon": "FaDev"
-    },
+    { "name": "Dev Profile", "url": "https://dev.to/amad3eu", "icon": "FaDev" },
     {
       "name": "Read my blogs on Hashnode",
       "url": "https://amad3eu.hashnode.dev/",

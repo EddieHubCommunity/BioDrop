@@ -2,7 +2,7 @@
   "name": "Chinmay Mhatre",
   "type": "personal",
   "bio": "Developer | In a one-sided relationship with JavaScript",
-  "avatar": "https://github.com/ChinmayMhatre.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

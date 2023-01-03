@@ -2,7 +2,7 @@
   "name": "Eddie Jaoude Test profile",
   "type": "personal",
   "bio": "This is my profile where I test stuff",
-  "avatar": "https://github.com/eddiejaoude2.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Eddie Jaoude Official LinkFree profile",

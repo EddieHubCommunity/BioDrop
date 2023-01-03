@@ -2,7 +2,7 @@
   "name": "Huzaifa Khilawala",
   "type": "personal",
   "bio": "Leetcode Knight | Competetive Programmer",
-  "avatar": "https://github.com/RedHeadphone.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

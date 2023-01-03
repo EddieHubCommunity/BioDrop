@@ -2,7 +2,7 @@
   "name": "Falak Amin",
   "type": "personal",
   "bio": "Frontend Web Developer (Html, Css, Vanilla Javascript, React.js, Nodejs) open source contributor",
-  "avatar": "https://github.com/falakamin31.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Ankush Singh",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/ankushKun.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

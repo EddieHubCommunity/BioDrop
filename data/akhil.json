@@ -2,7 +2,7 @@
   "name": "Akhil Ullattil",
   "type": "personal",
   "bio": "ML engineer",
-  "avatar": "https://github.com/akhileshthite.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

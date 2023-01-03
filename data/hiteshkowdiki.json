@@ -2,7 +2,7 @@
   "name": "Hitesh Kowdiki",
   "type": "personal",
   "bio": "Open Source FTW",
-  "avatar": "https://github.com/kkhitesh.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

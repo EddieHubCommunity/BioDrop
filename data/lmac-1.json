@@ -2,7 +2,7 @@
   "name": "Lucy Macartney",
   "type": "personal",
   "bio": "Software Developer and Technical Writer",
-  "avatar": "https://github.com/lmac-1.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Saif Rahman",
   "type": "personal",
   "bio": "Engineer-Student-Enthusiast",
-  "avatar": "https://github.com/saifrahmn.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -24,7 +24,6 @@
       "url": "https://www.instagram.com/saif_rahm.n",
       "icon": "FaInstagram"
     },
-
     {
       "name": "Contact me",
       "url": "mailto:saifrahmn78@gmail.com",

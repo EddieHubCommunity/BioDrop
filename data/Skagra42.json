@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Computer Science student.",
-  "avatar": "https://github.com/Skagra42.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "GitHub",

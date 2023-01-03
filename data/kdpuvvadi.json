@@ -2,13 +2,9 @@
   "name": "KD Puvvadi",
   "type": "personal",
   "bio": "Everything DevOps",
-  "avatar": "https://github.com/kdpuvvadi.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
-    {
-      "name": "Website",
-      "url": "https://puvvadi.me",
-      "icon": "FaLink"
-    },
+    { "name": "Website", "url": "https://puvvadi.me", "icon": "FaLink" },
     {
       "name": "Read my Blog",
       "url": "http://blog.puvvadi.me",

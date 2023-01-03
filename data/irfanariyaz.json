@@ -2,7 +2,7 @@
   "name": "Irfana Sulaiman",
   "type": "Personal",
   "bio": "Full-Stack developer starting to opensource",
-  "avatar": "https://github.com/irfanariyaz.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

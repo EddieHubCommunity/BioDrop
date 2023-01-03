@@ -2,7 +2,7 @@
   "name": "Sulagna Dutta Roy",
   "type": "personal",
   "bio": "Frontend Developer",
-  "avatar": "https://github.com/sulagna-dutta-roy.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

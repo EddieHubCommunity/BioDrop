@@ -2,7 +2,7 @@
   "name": "Aarya Chopkar",
   "type": "personal",
   "bio": "Frontend Developer | Open Source Enthusiast | Python Dev | CSE Student @SMVDU",
-  "avatar": "https://github.com/accodes21.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "DevOps DevRel | Open Source Enthusiast | AWS Community Builder",
-  "avatar": "https://github.com/juliafmorgado.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
@@ -13,10 +13,7 @@
       "url": "https://www.linkedin.com/in/juliafmorgado"
     },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
-    {
-      "icon": "FaInstagram",
-      "url": "https://www.instagram.com/juliafmorgado/"
-    }
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
   ],
   "links": [
     {

@@ -2,7 +2,7 @@
   "name": "Amelia Hill",
   "type": "personal",
   "bio": "Frontend Web Developer | CS Student",
-  "avatar": "https://github.com/amehi0index.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "See my Portfolio",

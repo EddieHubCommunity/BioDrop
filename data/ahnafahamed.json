@@ -2,7 +2,7 @@
   "name": "Ahnaf Ahamed",
   "type": "personal",
   "bio": "Front-end developer",
-  "avatar": "https://github.com/AhnafAhamed.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

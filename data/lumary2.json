@@ -2,7 +2,7 @@
   "name": "Anja Bender",
   "type": "personal",
   "bio": "Software Engineer | Lawyer",
-  "avatar": "https://github.com/lumary2.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Youtube Channel",
@@ -14,10 +14,6 @@
       "url": "https://github.com/Lumary2",
       "icon": "FaGithub"
     },
-    {
-      "name": "Business Contact",
-      "url": "anja.bender@pm.me",
-      "icon": "email"
-    }
+    { "name": "Business Contact", "url": "anja.bender@pm.me", "icon": "email" }
   ]
 }

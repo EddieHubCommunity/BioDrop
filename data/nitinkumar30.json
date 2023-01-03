@@ -2,7 +2,7 @@
   "name": "Nitin Kumar",
   "type": "personal",
   "bio": "An enthusiast Python Developer",
-  "avatar": "https://github.com/nitinkumar30.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

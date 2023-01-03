@@ -2,7 +2,7 @@
   "name": "Aaquib Ali",
   "type": "personal",
   "bio": "Improving the world w/ better education...",
-  "avatar": "https://github.com/devaaquib.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Blogs",

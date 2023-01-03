@@ -2,7 +2,7 @@
   "name": "Anushka Raj",
   "type": "personal",
   "bio": "Software Engineer | Crowdsource Influencer | AngelHack Student Ambassador | Tech Enthusiast |",
-  "avatar": "https://github.com/Anushka-codergirl.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow my Open Source on GitHub",

@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Co-Founder - GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Enthusiast",
-  "avatar": "https://github.com/Vishrut19.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": [
     "HTML5",
     "CSS3",
@@ -17,10 +17,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
     { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
-    {
-      "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/vishut-agarwalla"
-    },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/vishut-agarwalla" },
     { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
   ],
   "links": [

@@ -2,7 +2,7 @@
   "name": "Mancoba Sihlongonyane",
   "type": "personal",
   "bio": "Sotfware Developer",
-  "avatar": "https://github.com/manq2010.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow my Open Source on GitHub",
@@ -14,7 +14,6 @@
       "url": "https://twitter.com/mancoba_c",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mancobasihlongonyane",

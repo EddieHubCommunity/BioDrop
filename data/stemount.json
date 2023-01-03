@@ -2,7 +2,7 @@
   "name": "Steve Mount",
   "type": "personal",
   "bio": "Interim CTO/Technical Architect",
-  "avatar": "https://github.com/stemount.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -3,17 +3,11 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "**Web Developer** | Student Expert @postmanlabs | Lead @Hack Club",
-  "avatar": "https://github.com/iamrahul8.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["React.js", "C++", "Azure", "Javascript", "Programming"],
   "socials": [
-    {
-      "icon": "twitter",
-      "url": "https://twitter.com/i_amrahul8"
-    },
-    {
-      "icon": "github",
-      "url": "https://github.com/iamrahul8"
-    },
+    { "icon": "twitter", "url": "https://twitter.com/i_amrahul8" },
+    { "icon": "github", "url": "https://github.com/iamrahul8" },
     {
       "icon": "linkedin",
       "url": "https://www.linkedin.com/in/rahul-kumar-072/"

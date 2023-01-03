@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Engineer | Open Source Enthusiast!",
-  "avatar": "https://github.com/devvsakib.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["javascript", "react"],
   "socials": [
     { "icon": "twitter", "url": "https://twitter.com/devvsakib" },

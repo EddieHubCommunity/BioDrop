@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Developer | Open Source | DevOps Enthusiasts",
-  "avatar": "https://github.com/Krishnapro.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Java", "Scala", "javascript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },

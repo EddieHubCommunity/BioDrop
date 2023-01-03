@@ -2,7 +2,7 @@
   "name": "Mohamed Salman",
   "type": "personal",
   "bio": "Programming Enthusiastic",
-  "avatar": "https://github.com/salmantec.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

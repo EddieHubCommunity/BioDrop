@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "🧑‍💻 Software engineer",
-  "avatar": "https://github.com/mpotane.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Nextjs", "typescript", "Prisma", "Supabase"],
   "links": [
     {

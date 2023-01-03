@@ -2,7 +2,7 @@
   "name": "Sarvesh Limaye",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/SarveshLimaye.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

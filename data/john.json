@@ -2,7 +2,7 @@
   "name": "johnbabu",
   "type": "personal",
   "bio": "open source enthusiast",
-  "avatar": "https://github.com/johnbabu021.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Gurjeet Singh Virdee",
   "type": "personal",
   "bio": "Self-taught MERN Stack Developer with a strong eye for innovative design and eager to join a creative, problem solving team.",
-  "avatar": "https://github.com/gurjeetsinghvirdee.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

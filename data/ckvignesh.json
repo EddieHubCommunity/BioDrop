@@ -2,7 +2,7 @@
   "name": "C K Vignesh",
   "type": "personal",
   "bio": "Programmer",
-  "avatar": "https://github.com/ckvignesh.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

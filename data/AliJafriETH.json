@@ -2,7 +2,7 @@
   "name": "Ali Jafri",
   "type": "personal",
   "bio": "Blockchain | Solidity & Smart Contracts",
-  "avatar": "https://github.com/AliJafriETH.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

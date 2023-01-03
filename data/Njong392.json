@@ -2,7 +2,7 @@
   "name": "Njong Emy",
   "type": "personal",
   "bio": "Technical writer, Front-end developer, student :)",
-  "avatar": "https://github.com/Njong392.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

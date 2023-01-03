@@ -2,7 +2,7 @@
   "name": "Ihtisham",
   "type": "personal",
   "bio": "MERN Stack enthusiast",
-  "avatar": "https://github.com/ihtishamKhan.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

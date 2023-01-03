@@ -2,7 +2,7 @@
   "name": "Anish Lohiya",
   "type": "personal",
   "bio": "Python Programmer | IT Student",
-  "avatar": "https://github.com/AnishLohiya.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

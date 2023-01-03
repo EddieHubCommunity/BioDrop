@@ -3,16 +3,13 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "**OpenSource** || DevOps || **Photographer** || Blogger",
-  "avatar": "https://github.com/debasishbsws.png",
-
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Open Source", "JAVA", "Docker", "DevOps", "Web"],
-
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/debasishbsws" },
     { "icon": "FaGithub", "url": "https://github.com/debasishbsws" },
     { "icon": "SiInstagram", "url": "https://www.instagram.com/debasishbsws/" }
   ],
-
   "links": [
     {
       "name": "Twitter: Intract with me",

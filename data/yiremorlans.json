@@ -2,7 +2,7 @@
   "name": "Yire Morlans",
   "type": "personal",
   "bio": "Full-stack Software Engineer | In my free time, I create apps and play Pokémon Go.",
-  "avatar": "https://github.com/yiremorlans.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "My portfolio website",

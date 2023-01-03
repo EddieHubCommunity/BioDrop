@@ -2,7 +2,7 @@
   "name": "Madhu Saini",
   "type": "personal",
   "bio": "Hello, I'm Madhu Saini. I am an Enthusiastic Open-Source contributor, Web Developer, currently diving straight in Open Source and believing in collaboration instead of competition.",
-  "avatar": "https://github.com/MadhuSaini22.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Check out my website",

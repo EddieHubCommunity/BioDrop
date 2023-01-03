@@ -2,7 +2,7 @@
   "name": "Minecodes",
   "type": "personal",
   "bio": "Hobby coder that builds apps for Discord, Markdown, GitHub, Linux, Windows, Guilded and Minecraft",
-  "avatar": "https://github.com/Minecodes.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Visit my YouTube Channel",

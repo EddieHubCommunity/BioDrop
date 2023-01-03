@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Building open-sourced developer's future. Join me on this path! Ex-CTO at a few Fintech Startups, Co-Founder of JuicyScore.ai, open-source contributor, speaker 🎙",
-  "avatar": "https://github.com/mazahaca.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": [
     "Open Source",
     "javascript",
@@ -17,11 +17,7 @@
     { "icon": "FaGithub", "url": "https://github.com/mazahaca" }
   ],
   "links": [
-    {
-      "name": "Techie blog",
-      "url": "http://andrew.red",
-      "icon": "FaLink"
-    },
+    { "name": "Techie blog", "url": "http://andrew.red", "icon": "FaLink" },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/mazahaca",

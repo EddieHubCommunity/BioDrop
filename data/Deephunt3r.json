@@ -2,7 +2,7 @@
   "name": "Rakesh Vaddi",
   "type": "personal",
   "bio": "Security Researcher || Open Source Enthusiast",
-  "avatar": "https://github.com/deephunt3r.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

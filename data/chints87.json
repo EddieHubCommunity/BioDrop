@@ -2,7 +2,7 @@
   "name": "Chintan",
   "type": "personal",
   "bio": "Front-end development",
-  "avatar": "https://github.com/chints87.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Mohan",
   "type": "personal",
   "bio": "Youtube watcher",
-  "avatar": "https://github.com/mohan-murali.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "GitHub",

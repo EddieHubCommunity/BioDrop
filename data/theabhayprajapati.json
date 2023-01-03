@@ -2,12 +2,11 @@
   "name": "Abhay Prajapati",
   "type": "personal",
   "bio": "frontend dev",
-  "avatar": "https://github.com/theabhayprajapati.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "My Personal Page",
       "url": "https://abhayprajapati.me",
-
       "icon": "FaLink"
     },
     {

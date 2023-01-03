@@ -2,7 +2,7 @@
   "name": "Aviral Sharma",
   "type": "personal",
   "bio": "Curious Explorer | Learning DSA and Web Development",
-  "avatar": "https://github.com/aviralsharma07.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "GitHub",

@@ -2,7 +2,7 @@
   "name": "Lailah Grant",
   "type": "personal",
   "bio": "HTML, CSS (beginner) and Environment Enthuisiat",
-  "avatar": "https://github.com/lailahgrant.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Checkout my Github",

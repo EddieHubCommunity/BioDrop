@@ -2,7 +2,7 @@
   "name": "Shivam Sharma",
   "type": "personal",
   "bio": "Web Development | Open Source & Communities | Contributor @kubesimplify | DevOps & ML Enthusiast.",
-  "avatar": "https://github.com/shivam-sharma7.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -14,7 +14,6 @@
       "url": "https://github.com/shivam-sharma7",
       "icon": "FaGithub"
     },
-
     {
       "name": "Blog's",
       "url": "https://shivam-sharma.hashnode.dev/",

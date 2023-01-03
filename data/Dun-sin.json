@@ -2,7 +2,7 @@
   "name": "Dunsin",
   "type": "personal",
   "bio": "Full Stack Web Developer, Content Creator and Open Source Enthusiast!",
-  "avatar": "https://github.com/Dun-sin.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Instagram",

@@ -2,7 +2,7 @@
   "name": "Seth Addo",
   "type": "personal",
   "bio": "Software Developer | Student of University of Cape Coast",
-  "avatar": "https://github.com/seths10.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "My personal website",

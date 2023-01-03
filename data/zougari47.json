@@ -2,7 +2,7 @@
   "name": "Ahmed Zougari",
   "type": "personal",
   "bio": "Open Source Enthusiast | Frontend Developer | JavaScript 💛",
-  "avatar": "https://github.com/zougari47.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

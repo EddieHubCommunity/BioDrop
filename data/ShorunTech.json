@@ -2,7 +2,7 @@
   "name": "ShorunTech",
   "type": "personal",
   "bio": "Self-Taught Fulk-Stack Web Developer,Youtuber,Content Creator,Open Source Enthusiast!",
-  "avatar": "https://github.com/ShorunTech.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

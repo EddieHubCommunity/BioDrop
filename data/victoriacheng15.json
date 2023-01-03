@@ -2,7 +2,7 @@
   "name": "Victoria Cheng",
   "type": "personal",
   "bio": "Full Stack Developer",
-  "avatar": "https://github.com/victoriacheng15.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

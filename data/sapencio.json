@@ -2,7 +2,7 @@
   "name": "Tibebe Solomon",
   "type": "personal",
   "bio": "Open Source Enthusiast!, worked on C, Java and Python",
-  "avatar": "https://github.com/sapencio.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

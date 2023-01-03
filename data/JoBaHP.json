@@ -2,7 +2,7 @@
   "name": "Jovan R.",
   "type": "personal",
   "bio": "Full Stack Web Developer!",
-  "avatar": "https://github.com/JoBaHP.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "My business website",
@@ -12,7 +12,6 @@
     {
       "name": "Personal portfolio website",
       "url": "https://jovanportfolio.netlify.app/",
-
       "icon": "FaLink"
     },
     {
@@ -41,7 +40,6 @@
       "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Certificate of Completion",
-
       "url": "https://jovanportfolio.netlify.app/"
     },
     {

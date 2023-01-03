@@ -2,7 +2,7 @@
   "name": "Fayaz Ahmed",
   "type": "personal",
   "bio": "Software Engineer » Web Developer since 2006 ✨",
-  "avatar": "https://github.com/fayazmiraz.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Twitter ⚡️",

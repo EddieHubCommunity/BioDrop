@@ -2,7 +2,7 @@
   "name": "Ioana Tiplea",
   "type": "personal",
   "bio": "Full Stack Developer, passionate about continuous learning",
-  "avatar": "https://github.com/ioanat94.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

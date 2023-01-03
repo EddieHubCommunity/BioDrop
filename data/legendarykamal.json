@@ -4,7 +4,7 @@
   "type": "personal",
   "tags": ["nextJS", "typescript", "reactJS", "tailwindCSS", "web3"],
   "bio": "MERN FullStack Developer turned into **Blockchain developer**. Create Apps , Dapps  , Travel , Life",
-  "avatar": "https://github.com/legendarykamal.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Twitter",

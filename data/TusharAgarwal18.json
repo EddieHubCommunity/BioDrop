@@ -2,7 +2,7 @@
   "name": "Tushar Agarwal",
   "type": "Personal",
   "bio": "Programmer",
-  "avatar": "https://github.com/TusharAgarwal18.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -2,7 +2,7 @@
   "name": "Susmita Dey",
   "type": "personal",
   "bio": "CS UnderGrad, Web Dev and Open Source Enthusiast!",
-  "avatar": "https://github.com/Susmita-Dey.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

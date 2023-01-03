@@ -2,7 +2,7 @@
   "name": "Om Avhad",
   "type": "personal",
   "bio": "Backend Developer",
-  "avatar": "https://github.com/OmAvhad.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

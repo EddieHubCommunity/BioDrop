@@ -2,7 +2,7 @@
   "name": "Eric Jakobsen",
   "type": "personal",
   "bio": "Dev, Hiker, Human!",
-  "avatar": "https://github.com/gentlegiantdev.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Check out my Portflio",

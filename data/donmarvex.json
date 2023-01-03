@@ -2,7 +2,7 @@
   "name": "Marvelous Emoghene",
   "type": "personal",
   "bio": "Software Engineer",
-  "avatar": "https://github.com/donmarvex.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

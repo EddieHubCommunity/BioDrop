@@ -2,7 +2,7 @@
   "name": "Sunil",
   "type": "personal",
   "bio": "Open Source Enthusiast",
-  "avatar": "https://github.com/iamsunil25.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

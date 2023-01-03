@@ -2,7 +2,7 @@
   "name": "Chirag Chhuchha (Kode with Chirag)",
   "type": "personal",
   "bio": "Full Stack Developer",
-  "avatar": "https://github.com/kodewithchirag.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Developer and Linux Enthusiats",
-  "avatar": "https://github.com/OlojaMuyiwa.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": [
     "Javascript",
     "React",

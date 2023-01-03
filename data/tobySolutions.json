@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
-  "avatar": "https://github.com/tobySolutions.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on Twitter",

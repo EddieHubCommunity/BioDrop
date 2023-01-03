@@ -2,7 +2,7 @@
   "name": "Emmanuel Soetan",
   "type": "personal",
   "bio": "Software Developer",
-  "avatar": "https://github.com/shoetan.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -14,7 +14,6 @@
       "url": "https://twitter.com/immanuelsoetan",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/emmanuelsoetan/",

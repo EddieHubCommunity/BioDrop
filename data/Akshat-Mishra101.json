@@ -2,7 +2,7 @@
   "name": "Akshat Mishra",
   "type": "personal",
   "bio": "Software Engineer",
-  "avatar": "https://github.com/Akshat-Mishra101.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

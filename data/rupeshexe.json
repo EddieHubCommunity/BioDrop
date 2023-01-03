@@ -3,15 +3,12 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Student",
-  "avatar": "https://github.com/rupeshexe.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["Python", "Java", "DSA", "Data Science"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
     { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
-    {
-      "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/rupeshexe"
-    }
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/rupeshexe" }
   ],
   "links": [
     {

@@ -2,7 +2,7 @@
   "name": "Segun Badmus",
   "type": "personal",
   "bio": "The African Dream...",
-  "avatar": "https://github.com/badmus306.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Check out my portfolio",

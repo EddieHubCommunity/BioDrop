@@ -2,7 +2,7 @@
   "name": "Raiyan Mukhtar",
   "type": "personal",
   "bio": "Solidity/Smart Contract developer",
-  "avatar": "https://github.com/raiyanmook27.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

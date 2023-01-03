@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full Stack Developer",
-  "avatar": "https://github.com/zitogustavo.png",
+  "avatar": "https://github.com/${username}.png",
   "tags": ["javascript", "typescript", "HTML", "PHP", "React"],
   "socials": [{ "icon": "FaGithub", "url": "https://github.com/zittogustavo" }],
   "links": [

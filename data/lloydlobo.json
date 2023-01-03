@@ -2,7 +2,7 @@
   "name": "Lloyd Lobo",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/lloydlobo.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",

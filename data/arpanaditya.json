@@ -2,7 +2,7 @@
   "name": "Aditya Arpan Sahoo",
   "type": "personal",
   "bio": "Loves hackathons | open-source contributor",
-  "avatar": "https://github.com/arpanaditya.png",
+  "avatar": "https://github.com/${username}.png",
   "links": [
     {
       "name": "Follow me on GitHub",
