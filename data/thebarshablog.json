@@ -1,0 +1,35 @@
+{
+  "name": "Barsha Das",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Founder of **The CookieButton Project**|Co-organizer of **KubeHuddle Toronto 2023** 🇨🇦",
+  "avatar": "https://github.com/thebarshablog.png",
+  "links": [
+    {
+      "name": "Join Me In Building My Personal Website",
+      "url": "https://thebarshablog.github.io/",
+      "icon": "fa-solid fa-browser"
+    },
+    {
+      "name": "Connect With Me On GitHub",
+      "url": "https://github.com/thebarshablog",
+      "icon": "fa-brands fa-github"
+    },
+    {
+      "name": "Sponsor Us On KubeHuddle",
+      "url": "https://kubehuddle.com/2023/",
+      "icon":"fa-sharp fa-solid fa-people-group"
+    },
+     {
+      "name": "Join us on The CookieButton Project",
+      "url": "https://github.com/The-CookieButton-Project",
+      "icon":"fa-solid fa-cookie-bite"
+    },
+     {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/thebarshablog",
+      "icon":"FaTwitter"
+    },
+  ]
+
+}
