@@ -1,0 +1,24 @@
+{
+  "name": "Rohinish k singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning frontend development and exploring a bit of machine learning and artificial intelligence.",
+  "avatar": "https://github.com/rohinish404.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohinish404",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rohinish404",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rohinish-singh-a0a52522b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

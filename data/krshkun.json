@@ -1,0 +1,65 @@
+{
+  "name": "Krish Gupta 🥑",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "That DevREL Folk. Helping teams connect with their developer userbase and grow ✨",
+  "tags": ["Open Source", "Javascript", "Typescript", "DevRel"],
+  "avatar": "https://github.com/krshkun.png",
+  "socials": [
+    {
+      "url": "https://github.com/krshkun",
+      "icon": "FaGitHub"
+    },
+    {
+      "url": "https://twitter.com/krshkun",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://linkedin.com/in/krshkun",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://instagram.com/krshkun",
+      "icon": "FaInstagram"
+    },
+    {
+      "url": "https://instagram.com/krshverse",
+      "icon": "FaInstagram"
+    },
+    {
+      "url": "https://discord.gg/sXM4taAZ",
+      "icon": "FaDiscord"
+    },
+    {
+      "url": "https://wa.me/+919354076946",
+      "icon": "FaWhatsapp"
+    }
+  ],
+  "links": [
+    {
+      "name": "Book A Video Chat 🌟",
+      "url": "https://cal.com/krshg",
+      "icon": "FaCalendar"
+    },
+    {
+      "name": "Some Useful Resources For You 🔥",
+      "url": "https://store.krshkun.eu.org",
+      "icon": "FaBook"
+    },
+    {
+      "name": "I Write My Own Blog ✍️",
+      "url": "https://blog.krshkun.eu.org",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Amazing Content On Twitter 🐦",
+      "url": "https://twitter.com/krshkun",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Random Things on Instagram 📷",
+      "url": "https://instagram.com/krshkun",
+      "icon": "FaInstagram"
+    }
+  ]
+}

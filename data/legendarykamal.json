@@ -1,0 +1,30 @@
+{
+  "name": "Kamal Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "tags": ["nextJS", "typescript", "reactJS", "tailwindCSS", "web3"],
+  "bio": "MERN FullStack Developer turned into **Blockchain developer**. Create Apps , Dapps  , Travel , Life",
+  "avatar": "https://github.com/legendarykamal.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/0xkamal7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/kamal-singh7",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://twitter.com/0xkamal7",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Lens",
+      "url": "https://www.lensfrens.xyz/0xkamal7.lens",
+      "icon": "FaTree"
+    }
+  ]
+}

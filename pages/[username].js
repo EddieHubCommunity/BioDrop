@@ -49,34 +49,35 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ users, data, BASE_URL }) {
+  const [userData, setUserData] = useState(data);
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
+    { name: "My Links", href: "#", current: true, order: "ASC" },
+    { name: "Milestones", href: "#", current: false, order: "ASC" },
+    { name: "Testimonials", href: "#", current: false, order: "ASC" },
+    { name: "Events", href: "#", current: false, order: "ASC" },
   ];
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "My Links") {
-      if (data.links && data.links.length) {
-        return { ...tab, total: data.links.length };
+      if (userData.links && userData.links.length) {
+        return { ...tab, total: userData.links.length };
       }
       return [];
     }
     if (tab.name === "Milestones") {
-      if (data.milestones && data.milestones.length) {
-        return { ...tab, total: data.milestones.length };
+      if (userData.milestones && userData.milestones.length) {
+        return { ...tab, total: userData.milestones.length };
       }
       return [];
     }
     if (tab.name === "Testimonials") {
-      if (data.testimonials && data.testimonials.length) {
-        return { ...tab, total: data.testimonials.length };
+      if (userData.testimonials && userData.testimonials.length) {
+        return { ...tab, total: userData.testimonials.length };
       }
       return [];
     }
     if (tab.name === "Events") {
-      if (data.events && data.events.length) {
-        return { ...tab, total: data.events.length };
+      if (userData.events && userData.events.length) {
+        return { ...tab, total: userData.events.length };
       }
       return [];
     }
@@ -100,28 +101,37 @@ export default function User({ users, data, BASE_URL }) {
       </Head>
 
       <Page>
-        <UserProfile data={data} BASE_URL={BASE_URL} />
+        <UserProfile data={userData} BASE_URL={BASE_URL} />
 
-        <UserTabs tabs={tabs} setTabs={setTabs} />
+        <UserTabs
+          tabs={tabs}
+          setTabs={setTabs}
+          userData={userData}
+          setUserData={setUserData}
+        />
 
         {tabs.find((tab) => tab.name === "My Links") &&
           tabs.find((tab) => tab.name === "My Links").current && (
-            <UserLinks data={data} BASE_URL={BASE_URL} />
+            <UserLinks data={userData} BASE_URL={BASE_URL} />
           )}
 
         {tabs.find((tab) => tab.name === "Milestones") &&
           tabs.find((tab) => tab.name === "Milestones").current && (
-            <UserMilestones data={data} />
+            <UserMilestones data={userData} />
           )}
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials data={data} users={users} BASE_URL={BASE_URL} />
+            <UserTestimonials
+              data={userData}
+              users={users}
+              BASE_URL={BASE_URL}
+            />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&
           tabs.find((tab) => tab.name === "Events").current && (
-            <UserEvents data={data} />
+            <UserEvents data={userData} />
           )}
       </Page>
     </>

@@ -1,0 +1,25 @@
+{
+  "name": "Antoine Gauthier",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "☕️ Just a Java developer trying to brew up some good code, one cup at a time.",
+  "avatar": "https://github.com/gantoin.png",
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/gant0in",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/gantoin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/gantoin",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
