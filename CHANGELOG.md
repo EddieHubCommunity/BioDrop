@@ -1,3 +1,12 @@
+## [1.37.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.1...v1.37.2) (2023-01-03)
+
+
+### Bug Fixes
+
+* testimonial github action docs link ([56568d3](https://github.com/EddieHubCommunity/LinkFree/commit/56568d3403c2d0054c87db14cc3fd3c7c82ae6f9))
+
+
+
 ## [1.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.0...v1.37.1) (2023-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * profile tab sorting ([#2539](https://github.com/EddieHubCommunity/LinkFree/issues/2539)) ([cda7709](https://github.com/EddieHubCommunity/LinkFree/commit/cda7709c19fce96fd2af8da60dd4e7019bf586b8)), closes [#2474](https://github.com/EddieHubCommunity/LinkFree/issues/2474) [#2553](https://github.com/EddieHubCommunity/LinkFree/issues/2553)
-
-
-
-## [1.34.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.0...v1.34.1) (2022-12-31)
-
-
-### Bug Fixes
-
-* formatting of copy component ([d132385](https://github.com/EddieHubCommunity/LinkFree/commit/d132385247274cb0d28f8f3a1da089872e6447bc))
 
 
 
