@@ -1,7 +1,7 @@
 {
   "name": "linkfree",
   "type": "module",
-  "version": "1.37.0",
+  "version": "1.38.0",
   "private": false,
   "homepage": "https://linkfree.eddiehub.org",
   "dependencies": {
