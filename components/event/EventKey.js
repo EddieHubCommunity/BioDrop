@@ -19,11 +19,7 @@ export default function EventKey({ events }) {
             These are in person events
           </p>
         </div>
-        <div
-          className="flex items-baseline text-2xl font-semibold"
-        >
-          {inPersonEvents}
-        </div>
+        <div className="text-2xl font-semibold">{inPersonEvents}</div>
       </div>
       <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2">
         <div className="flex-shrink-0">
@@ -38,11 +34,7 @@ export default function EventKey({ events }) {
             These are virtual events held online
           </p>
         </div>
-        <div
-          className="flex items-baseline text-2xl font-semibold"
-        >
-          {virtualEvents}
-        </div>
+        <div className="text-2xl font-semibold">{virtualEvents}</div>
       </div>
     </div>
   );
