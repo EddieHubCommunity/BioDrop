@@ -1,3 +1,12 @@
+# [1.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.2...v1.38.0) (2023-01-03)
+
+
+### Features
+
+* testimonial button on profile page ([#2627](https://github.com/EddieHubCommunity/LinkFree/issues/2627)) ([2a7acbc](https://github.com/EddieHubCommunity/LinkFree/commit/2a7acbcb5f2b06f346d05488348cdebf4c5867d3))
+
+
+
 ## [1.37.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.1...v1.37.2) (2023-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * copy to code blocks ([#2565](https://github.com/EddieHubCommunity/LinkFree/issues/2565)) ([dac79c8](https://github.com/EddieHubCommunity/LinkFree/commit/dac79c8d130907f34f29994eeb9ca5b27babb12e))
-
-
-
-# [1.35.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.34.1...v1.35.0) (2023-01-01)
-
-
-### Features
-
-* profile tab sorting ([#2539](https://github.com/EddieHubCommunity/LinkFree/issues/2539)) ([cda7709](https://github.com/EddieHubCommunity/LinkFree/commit/cda7709c19fce96fd2af8da60dd4e7019bf586b8)), closes [#2474](https://github.com/EddieHubCommunity/LinkFree/issues/2474) [#2553](https://github.com/EddieHubCommunity/LinkFree/issues/2553)
 
 
 
