@@ -3,7 +3,6 @@ import Alert from "../Alert";
 import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
-  console.log(data.events);
   return (
     <div className="mt-6">
       <EventKey events={data.events} />
