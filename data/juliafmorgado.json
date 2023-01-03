@@ -8,13 +8,14 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
     { "icon": "FaGithub", "url": "https://github.com/juliafmorgado" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/juliafmorgado" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/juliafmorgado"
+    },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
     { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
   ],
-    "testimonials": [
-    "eddiejaoude"
-  ],
+  "testimonials": ["eddiejaoude"],
   "links": [
     {
       "name": "Main website",
