@@ -1,3 +1,12 @@
+## [1.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.0...v1.37.1) (2023-01-03)
+
+
+### Bug Fixes
+
+* testimonial github action tag recipient ([80402b5](https://github.com/EddieHubCommunity/LinkFree/commit/80402b59de42f0e924cf29d22f7bf20328804728))
+
+
+
 # [1.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.36.0...v1.37.0) (2023-01-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * formatting of copy component ([d132385](https://github.com/EddieHubCommunity/LinkFree/commit/d132385247274cb0d28f8f3a1da089872e6447bc))
-
-
-
-# [1.34.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.33.0...v1.34.0) (2022-12-31)
-
-
-### Features
-
-* copy to clipboard ([#2551](https://github.com/EddieHubCommunity/LinkFree/issues/2551)) ([5fdbcfb](https://github.com/EddieHubCommunity/LinkFree/commit/5fdbcfb1b3161c1101e3d4b08faa2d9b799c552d))
 
 
 
