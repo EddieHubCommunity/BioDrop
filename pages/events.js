@@ -4,6 +4,7 @@ import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import EventKey from "../components/event/EventKey";
+import { useState } from "react";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -20,6 +21,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
+  console.log('events', events)
+  const [eventType, seteventType] = useState('virtual');
   return (
     <>
       <Head>
@@ -30,11 +33,19 @@ export default function Events({ events }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
 
-        <EventKey />
+        <EventKey onChange={(newValue) => seteventType(newValue)} />
 
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
-          {events.map((event, index) => (
+          {events
+          .filter((itm, _) => {
+            if (eventType === 'virtual') {
+              return itm.isVirtual === true 
+            } else {
+              return itm.isInPerson === true
+            }
+          })
+          .map((event, index) => (
             <EventCard event={event} username={event.username} key={index} />
           ))}
         </ul>
