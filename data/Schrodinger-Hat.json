@@ -1,0 +1,29 @@
+{
+  "name": "Schrödinger Hat",
+  "type": "community",
+  "bio": "Inclusive Open Source community",
+  "avatar": "https://github.com/Schrodinger-Hat.png",
+  "tags": ["Open Source", "Community"],
+  "links": [
+    {
+      "name": "Visit our Website",
+      "url": "https://schrodinger-hat.it",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/Schrodinger-Hat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blog",
+      "url": "https://medium.com/schr%C3%B6dinger-hat",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Join our Discord Community",
+      "url": "https://discord.schrodinger-hat.it",
+      "icon": "FaDiscord"
+    }
+  ]
+}
