@@ -21,8 +21,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
-  console.log('events', events)
-  const [eventType, seteventType] = useState('virtual');
+
+  const [eventType, seteventType] = useState('');
   return (
     <>
       <Head>
@@ -33,21 +33,23 @@ export default function Events({ events }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
 
-        <EventKey onChange={(newValue) => seteventType(newValue)} />
+        <EventKey onToggleEventType={(newValue) => seteventType(newValue)} />
 
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
           {events
-          .filter((itm, _) => {
-            if (eventType === 'virtual') {
-              return itm.isVirtual === true 
-            } else {
-              return itm.isInPerson === true
-            }
-          })
-          .map((event, index) => (
-            <EventCard event={event} username={event.username} key={index} />
-          ))}
+            .filter((event, index) => {
+              if (eventType === 'virtual') {
+                return event.isVirtual === true
+              } else if (eventType === 'in-person') {
+                return event.isInPerson === true
+              } else {
+                return event
+              }
+            })
+            .map((event, index) => (
+              <EventCard event={event} username={event.username} key={index} />
+            ))}
         </ul>
       </Page>
     </>
