@@ -1,3 +1,12 @@
+## [1.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.0...v1.38.1) (2023-01-03)
+
+
+### Bug Fixes
+
+* search page nan profile views [#2626](https://github.com/EddieHubCommunity/LinkFree/issues/2626) ([0921d7d](https://github.com/EddieHubCommunity/LinkFree/commit/0921d7d1449b722cb82a540e6158f3396a1f5441))
+
+
+
 # [1.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.2...v1.38.0) (2023-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * popular profiles views ([#2579](https://github.com/EddieHubCommunity/LinkFree/issues/2579)) ([99f3552](https://github.com/EddieHubCommunity/LinkFree/commit/99f3552b7d32d7b23398811b52347d928589a831))
-
-
-
-# [1.36.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.35.0...v1.36.0) (2023-01-01)
-
-
-### Features
-
-* copy to code blocks ([#2565](https://github.com/EddieHubCommunity/LinkFree/issues/2565)) ([dac79c8](https://github.com/EddieHubCommunity/LinkFree/commit/dac79c8d130907f34f29994eeb9ca5b27babb12e))
 
 
 
