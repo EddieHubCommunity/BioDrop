@@ -25,6 +25,11 @@
       "name": "Github",
       "url": "https://github.com/imtiazpy",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my Codepen",
+      "url": "https://codepen.io/imtiazpy",
+      "icon": "FaCodepen"
     }
   ]
 }
