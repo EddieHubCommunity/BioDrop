@@ -5,36 +5,37 @@ import connectMongo from "../../../config/mongo";
 import Profile from "../../../models/Profile";
 
 export default async function handler(req, res) {
-  await connectMongo();
+	await connectMongo();
 
-  const getProfiles = await Profile.find({}).sort({ views: -1 }).limit(10);
+	const getProfiles = await Profile.find({}).sort({ views: -1 });
 
-  // check for db results
-  if (getProfiles.length === 0) {
-    return res.status(404).json([]);
-  }
+	// check for db results
+	if (getProfiles.length === 0) {
+		return res.status(404).json([]);
+	}
 
-  const directoryPath = path.join(process.cwd(), "data");
+	const directoryPath = path.join(process.cwd(), "data");
 
-  // merge profiles with their profile views if set to public
-  const profiles = getProfiles.flatMap((profile) => {
-    const filePath = path.join(directoryPath, `${profile.username}.json`);
-    try {
-      const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
+	// merge profiles with their profile views if set to public
+	const profiles = getProfiles.flatMap((profile) => {
+		const filePath = path.join(directoryPath, `${profile.username}.json`);
+		try {
+			const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-      if (user.displayStatsPublic) {
-        return {
-          ...user,
-          ...profile._doc,
-        };
-      }
+			if (user.displayStatsPublic) {
+				return {
+					...user,
+					...profile._doc,
+				};
+			}
 
-      return { ...user, username: profile.username };
-    } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
-      return [];
-    }
-  });
+			return [];
+		} catch (e) {
+			console.log(`ERROR loading profile "${filePath}"`);
+			return [];
+		}
+	});
 
-  res.status(200).json(profiles);
+	const slicedProfiles = profiles.slice(0, 10);
+	res.status(200).json(slicedProfiles);
 }
