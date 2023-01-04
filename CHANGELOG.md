@@ -1,3 +1,12 @@
+# [1.39.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.2...v1.39.0) (2023-01-04)
+
+
+### Features
+
+* total on event cards ([#2603](https://github.com/EddieHubCommunity/LinkFree/issues/2603)) ([66d9b61](https://github.com/EddieHubCommunity/LinkFree/commit/66d9b614f200cfffe39c4e07dceb0cc52b2647fd))
+
+
+
 ## [1.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.1...v1.38.2) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonial github action docs link ([56568d3](https://github.com/EddieHubCommunity/LinkFree/commit/56568d3403c2d0054c87db14cc3fd3c7c82ae6f9))
-
-
-
-## [1.37.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.0...v1.37.1) (2023-01-03)
-
-
-### Bug Fixes
-
-* testimonial github action tag recipient ([80402b5](https://github.com/EddieHubCommunity/LinkFree/commit/80402b59de42f0e924cf29d22f7bf20328804728))
 
 
 
