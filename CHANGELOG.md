@@ -1,3 +1,12 @@
+## [1.40.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.4...v1.40.5) (2023-01-04)
+
+
+### Bug Fixes
+
+* github action jq to apt ([0022406](https://github.com/EddieHubCommunity/LinkFree/commit/00224060dd733ad66182efa8c4dc1709a45a2e36))
+
+
+
 ## [1.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.3...v1.40.4) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * validate testimonial json before merging ([#2660](https://github.com/EddieHubCommunity/LinkFree/issues/2660)) ([f17cc77](https://github.com/EddieHubCommunity/LinkFree/commit/f17cc77abe3ac0b4cdeb19d6decdfd61c052f349))
-
-
-
-# [1.40.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.2...v1.40.0) (2023-01-04)
-
-
-### Features
-
-* popular profiles public only ([#2655](https://github.com/EddieHubCommunity/LinkFree/issues/2655)) ([385d8fc](https://github.com/EddieHubCommunity/LinkFree/commit/385d8fc1927cddecd30b6066eb28d6f19e4cf943))
 
 
 
