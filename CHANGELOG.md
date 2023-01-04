@@ -1,3 +1,12 @@
+## [1.39.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.1...v1.39.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* invalid json ([3c4a5ed](https://github.com/EddieHubCommunity/LinkFree/commit/3c4a5edfb56288169e86230cb1eccc7b711d3493))
+
+
+
 ## [1.39.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.0...v1.39.1) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * search page nan profile views [#2626](https://github.com/EddieHubCommunity/LinkFree/issues/2626) ([0921d7d](https://github.com/EddieHubCommunity/LinkFree/commit/0921d7d1449b722cb82a540e6158f3396a1f5441))
-
-
-
-# [1.38.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.2...v1.38.0) (2023-01-03)
-
-
-### Features
-
-* testimonial button on profile page ([#2627](https://github.com/EddieHubCommunity/LinkFree/issues/2627)) ([2a7acbc](https://github.com/EddieHubCommunity/LinkFree/commit/2a7acbcb5f2b06f346d05488348cdebf4c5867d3))
 
 
 
