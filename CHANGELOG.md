@@ -1,3 +1,12 @@
+## [1.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.3...v1.40.4) (2023-01-04)
+
+
+### Bug Fixes
+
+* github action for jq ([7bdc59c](https://github.com/EddieHubCommunity/LinkFree/commit/7bdc59c8aaaa4ce8915b0399102eee0b65cb35c7))
+
+
+
 ## [1.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.2...v1.40.3) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * popular profiles public only ([#2655](https://github.com/EddieHubCommunity/LinkFree/issues/2655)) ([385d8fc](https://github.com/EddieHubCommunity/LinkFree/commit/385d8fc1927cddecd30b6066eb28d6f19e4cf943))
-
-
-
-## [1.39.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.1...v1.39.2) (2023-01-04)
-
-
-### Bug Fixes
-
-* invalid json ([3c4a5ed](https://github.com/EddieHubCommunity/LinkFree/commit/3c4a5edfb56288169e86230cb1eccc7b711d3493))
 
 
 
