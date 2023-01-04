@@ -16,7 +16,14 @@ jobs:
         with:
           template-path: .github/ISSUE_TEMPLATE/testimonial.yml
           body: ${{ github.event.issue.body }}
-      - run: cat ${HOME}/issue-parser-result.json
+      - name: Install jq
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+        run: |
+          npm install -g jq
+      - name: Validate JSON
+        run: jq . ${HOME}/issue-parser-result.json
       - name: current date
         id: date
         uses: Kaven-Universe/github-action-current-date-time@v1
