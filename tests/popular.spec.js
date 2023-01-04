@@ -1,11 +1,12 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
-test.fixme(
+test(
   "Click on popular profile in navbar navigates to popular page",
   async ({ page }) => {
-    // 1. click on popular nav link
-    // 2. check if it takes us to the popular page
+    await page.goto('/');
+    await page.getByRole('link', { name: 'Popular' }).click();
+    await expect(page).toHaveURL('/popular');
   }
 );
 
