@@ -1,7 +1,9 @@
 import { IconContext } from "react-icons";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
-export default function EventKey() {
+export default function EventKey({ events }) {
+  const inPersonEvents = events.filter(event => event.isInPerson).length;
+  const virtualEvents = events.filter(event => event.isVirtual).length;
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-6">
       <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2">
@@ -17,6 +19,7 @@ export default function EventKey() {
             These are in person events
           </p>
         </div>
+        <div className="text-2xl font-semibold">{inPersonEvents}</div>
       </div>
       <div className="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2">
         <div className="flex-shrink-0">
@@ -31,6 +34,7 @@ export default function EventKey() {
             These are virtual events held online
           </p>
         </div>
+        <div className="text-2xl font-semibold">{virtualEvents}</div>
       </div>
     </div>
   );
