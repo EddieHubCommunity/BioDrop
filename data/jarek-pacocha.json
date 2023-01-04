@@ -4,18 +4,15 @@
   "type": "personal",
   "bio": "**Python** Developer | **Cloud** Engineer | **Open Source** Contributor",
   "avatar": "https://github.com/jarek-pacocha.png",
-  "tags": [
-    "Python",
-    "Cloud",
-    "Data",
-    "Open Source",
-    "DevOps"
-  ],
+  "tags": ["Python", "Cloud", "Data", "Open Source", "DevOps"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/jarek-pacocha" },
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/jaroslaw-pacocha" },
     { "icon": "FaTwitter", "url": "https://twitter.com/thlyer" },
-    { "icon": "FaDiscord", "url": "http://discordapp.com/users/374991847363313665" }
+    {
+      "icon": "FaDiscord",
+      "url": "http://discordapp.com/users/374991847363313665"
+    }
   ],
   "links": [
     {
