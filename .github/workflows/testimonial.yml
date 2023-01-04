@@ -19,10 +19,9 @@ jobs:
       - name: Install jq
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "16.x"
       - name: Install jq
-        run: |
-          npm install -g jq
+        run: npm install -g jq
       - name: Validate JSON
         run: jq . ${HOME}/issue-parser-result.json
       - name: current date
