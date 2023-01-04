@@ -29,7 +29,7 @@ export default async function handler(req, res) {
         };
       }
 
-      return { ...user, username: profile.username };
+      return [];
     } catch (e) {
       console.log(`ERROR loading profile "${filePath}"`);
       return [];
