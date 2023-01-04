@@ -41,14 +41,6 @@
       "url": "https://calendly.com/thebarshablog",
       "icon": "SiKakaotalk"
     }
-  ],
-  "Events": [
-    {
-      "title": "KubeHuddle Toronto",
-      "icon": "SiKubernetes",
-      "color": "blue",
-      "description": "Co-organizing the 2nd-Edition",
-      "url": "https://kubehuddle.com/2023/"
-    }
   ]
 }
+
