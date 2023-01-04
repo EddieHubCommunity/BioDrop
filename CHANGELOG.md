@@ -1,3 +1,12 @@
+## [1.39.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.0...v1.39.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* testimonial in incorrect folder ([a8054ab](https://github.com/EddieHubCommunity/LinkFree/commit/a8054ab3dc0907c7500e1f03a8eac53c19aa3927))
+
+
+
 # [1.39.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.2...v1.39.0) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * testimonial button on profile page ([#2627](https://github.com/EddieHubCommunity/LinkFree/issues/2627)) ([2a7acbc](https://github.com/EddieHubCommunity/LinkFree/commit/2a7acbcb5f2b06f346d05488348cdebf4c5867d3))
-
-
-
-## [1.37.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.37.1...v1.37.2) (2023-01-03)
-
-
-### Bug Fixes
-
-* testimonial github action docs link ([56568d3](https://github.com/EddieHubCommunity/LinkFree/commit/56568d3403c2d0054c87db14cc3fd3c7c82ae6f9))
 
 
 
