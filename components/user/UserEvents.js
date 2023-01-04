@@ -1,7 +1,6 @@
 import EventCard from "../event/EventCard";
 import Alert from "../Alert";
 import EventKey from "../event/EventKey";
-import { useState } from "react";
 
 export default function UserEvents({ data }) {
 
