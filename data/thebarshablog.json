@@ -7,7 +7,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/thebarshablog" },
     { "icon": "FaGithub", "url": "https://github.com/thebarshablog" },
-    { "icon": "website", "url": "https://thebarshablog.github.io" }
+    { "icon": "FaLink", "url": "https://thebarshablog.github.io" }
   ],
   "avatar": "https://github.com/thebarshablog.png",
   "links": [
@@ -35,22 +35,18 @@
       "name": "Support My Initiatives",
       "url": "https://www.buymeacoffee.com/thebarshablog",
       "icon": "FaDollarSign"
-    }
-  ],
-  "Let's Talk": [
-    {
-      "title": "Speak To Me 1:1 for FREE",
-      "icon": "SiKakaotalk",
-      "color": "grey",
-      "description": "Speak to me about yourself",
-      "url": "https://calendly.com/thebarshablog"
+    },
+     {
+      "name": "Speak To Me 1:1 for FREE",
+      "url": "https://calendly.com/thebarshablog",
+      "icon": "SiKakaotalk"
     }
   ],
   "Events": [
     {
       "title": "KubeHuddle Toronto",
       "icon": "SiKubernetes",
-      "color": "grey",
+      "color": "blue",
       "description": "Co-organizing the 2nd-Edition",
       "url": "https://kubehuddle.com/2023/"
     }
