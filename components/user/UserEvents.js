@@ -3,8 +3,6 @@ import Alert from "../Alert";
 import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
-
-
   return (
     <div className="mt-6">
       <EventKey />
@@ -12,14 +10,9 @@ export default function UserEvents({ data }) {
       <ul role="list" className="divide-y divide-gray-200">
         {data.events &&
           data.events
-          .map((event, index) => {
-            console.log(event)
-            return (
-              (
-            <EventCard event={event} key={index} />
-          )
-            )
-          })}
+            .map((event, index) => (
+              <EventCard event={event} key={index} />
+            ))}
       </ul>
     </div>
   );
