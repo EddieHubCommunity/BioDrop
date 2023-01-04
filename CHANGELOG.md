@@ -1,3 +1,12 @@
+## [1.40.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.0...v1.40.1) (2023-01-04)
+
+
+### Bug Fixes
+
+* validate testimonial json before merging ([#2660](https://github.com/EddieHubCommunity/LinkFree/issues/2660)) ([f17cc77](https://github.com/EddieHubCommunity/LinkFree/commit/f17cc77abe3ac0b4cdeb19d6decdfd61c052f349))
+
+
+
 # [1.40.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.2...v1.40.0) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * total on event cards ([#2603](https://github.com/EddieHubCommunity/LinkFree/issues/2603)) ([66d9b61](https://github.com/EddieHubCommunity/LinkFree/commit/66d9b614f200cfffe39c4e07dceb0cc52b2647fd))
-
-
-
-## [1.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.1...v1.38.2) (2023-01-04)
-
-
-### Bug Fixes
-
-* http remote patterns for github in config ([#2638](https://github.com/EddieHubCommunity/LinkFree/issues/2638)) ([97aded3](https://github.com/EddieHubCommunity/LinkFree/commit/97aded387f68c61cfc0227fbe7b8de5f5af2cdd1))
 
 
 
