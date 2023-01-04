@@ -39,3 +39,4 @@ export default async function handler(req, res) {
 	const slicedProfiles = profiles.slice(0, 10);
 	res.status(200).json(slicedProfiles);
 }
+
