@@ -1,8 +1,9 @@
 import Head from "next/head";
 
-import Event from "../components/Event";
+import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
+import EventKey from "../components/event/EventKey";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -28,10 +29,13 @@ export default function Events({ events }) {
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
+
+        <EventKey />
+
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
           {events.map((event, index) => (
-            <Event event={event} username={event.author} key={index} />
+            <EventCard event={event} username={event.username} key={index} />
           ))}
         </ul>
       </Page>

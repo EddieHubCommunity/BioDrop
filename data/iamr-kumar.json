@@ -1,0 +1,84 @@
+{
+  "name": "Ritik Kumar",
+  "type": "personal",
+  "bio": "Full Stack Engineer | Freelance Developer | Part-time writer",
+  "avatar": "https://github.com/iamr-kumar.png",
+  "tags": ["Javascript", "Typescript", "React", "NextJS", "Node", "Flutter"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/itsr_kumar"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamr-kumar"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ritikkumar29/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Porfolio",
+      "url": "http://devritik.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsr_kumar",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+
+    {
+      "name": "GitHub",
+      "url": "https://github.com/iamr-kumar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ritikkumar29/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Hackathon",
+      "date": "October 2020",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Participated in my first hackathon and won it to got an internship offer"
+    },
+    {
+      "title": "Started Working at Gravitas AI",
+      "date": "Feb 2021",
+      "icon": "FcOrganization",
+      "color": "blue",
+      "description": "Worked as an intern at a startup called Gravitas AI"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "May 2021",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started working as a freelance developer and worked for multiple clients over the next few months",
+      "url": "https://devritik.com"
+    },
+    {
+      "title": "Started internship at Microsoft",
+      "date": "May 2022",
+      "icon": "FaWindows",
+      "color": "green",
+      "description": "Worked as a summer intern at Microsoft in their Whiteboard team",
+      "url": "https://drive.google.com/file/d/19Zd98G7mekCJ2CdF-I1zmZJFq1AZU7v3/view?usp=sharing"
+    },
+    {
+      "title": "Won Code for Good 2022",
+      "date": "June 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Won the Code for Good hackathon organized by JP Morgan Chase and Co."
+    }
+  ]
+}

@@ -6,9 +6,9 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-import FallbackImage from "./FallbackImage";
+import FallbackImage from "../FallbackImage";
 
-export default function Event({ event, username }) {
+export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",
@@ -25,9 +25,9 @@ export default function Event({ event, username }) {
       <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">
           {event.isVirtual && (
-            <MdOutlineOnlinePrediction title="Virual event" />
+            <MdOutlineOnlinePrediction title="Virtual event" />
           )}
-          {event.isInPerson && <MdOutlinePeople title="In pesron event" />}
+          {event.isInPerson && <MdOutlinePeople title="In person event" />}
         </div>
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
@@ -37,25 +37,32 @@ export default function Event({ event, username }) {
                 key={event.url}
                 target="_blank"
                 rel="noreferrer"
-                className="text-lg font-medium"
+                className="text-lg lg:text-xl tracking-wide font-medium capitalize"
               >
                 {event.name}
               </Link>
-              <ReactMarkdown className="text-sm text-gray-500">
+              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
-              <p className="text-sm text-gray-800 flex flex-row">
-                {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-                  new Date(event.date.start)
-                )}
-                <MdOutlineArrowRightAlt className="self-center" />
-                {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-                  new Date(event.date.end)
-                )}
+              <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
+                <span>
+                  {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+                    new Date(event.date.start)
+                  )}
+                </span>
+                <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
+                <span>
+                  {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+                    new Date(event.date.end)
+                  )}
+                </span>
               </p>
             </div>
             {username && (
-              <Link href={`/${username}`} className="group block flex-shrink-0">
+              <Link
+                href={`/${username}`}
+                className="group hidden lg:block flex-shrink-0 lg:pr-4"
+              >
                 <FallbackImage
                   src={`https://github.com/${username}.png`}
                   alt={`Profile picture of ${username}`}

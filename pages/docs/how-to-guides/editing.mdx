@@ -81,7 +81,6 @@ The main two reasons for making additional edits to an open Pull Request are:
 
 ![GitHub Action fail](https://user-images.githubusercontent.com/82668196/208976820-242c8b87-2108-480a-9882-a1f8dc652e89.png)
 
-
 To make further changes to an open Pull Request, follow these steps:
 
 1. Go to your open Pull Request
@@ -91,4 +90,8 @@ To make further changes to an open Pull Request, follow these steps:
 
 GitHub will automatically append these changes to your open Pull Request.
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Editing Profile Documentation">
+    {children}
+  </DocsLayout>
+);

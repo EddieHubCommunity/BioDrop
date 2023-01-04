@@ -1,0 +1,29 @@
+{
+  "name": "Arsalan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "avatar": "https://github.com/uddinArsalan.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Arsalan_0101",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/uddinarsalan91/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/uddinArsalan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/arsalan-uddin-2356b81b9/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
