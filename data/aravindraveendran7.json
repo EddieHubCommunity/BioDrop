@@ -2,8 +2,14 @@
   "name": "Aravind Raveendran",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Test Automation Engineer **Devops Enthusiast**. Stock market enthusiast|Swing Trader|Learning Derviative Trading",
-  "avatar": "https://github.com/aravindraveendran7",
+  "bio": "Test Automation Engineer |DevOps Enthusiast|Stock market enthusiast|Swing Trader|Learning Derviative Trading",
+  "tags": ["Open Source", "DevOps", "Selenium", "Java", "Rest API","Docker","QA Automation"],
+  "avatar": "https://github.com/aravindraveendran7.png",
+  "socials": [
+    { "icon": "FaTwitter",  "url": "https://twitter.com/AravindRaveend6" },
+    { "icon": "FaGithub",   "url": "https://github.com/aravindraveendran7" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/aravind-raveendran700" }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
