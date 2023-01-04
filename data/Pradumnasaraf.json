@@ -7,7 +7,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
     { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
-    { "icon": "website", "url": "https://pradumnasaraf.dev" }
+    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" }
   ],
   "testimonials": ["eddiejaoude"],
   "avatar": "https://github.com/Pradumnasaraf.png",
