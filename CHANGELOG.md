@@ -1,3 +1,12 @@
+## [1.40.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.5...v1.40.6) (2023-01-04)
+
+
+### Bug Fixes
+
+* testimonial gh action trigger ([5de6d7b](https://github.com/EddieHubCommunity/LinkFree/commit/5de6d7b19f98214cd13c491bd4e595925765c50b))
+
+
+
 ## [1.40.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.4...v1.40.5) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action use + run ([19d14b7](https://github.com/EddieHubCommunity/LinkFree/commit/19d14b7878d38dfcf967b9f2f869d70d29609d06))
-
-
-
-## [1.40.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.0...v1.40.1) (2023-01-04)
-
-
-### Bug Fixes
-
-* validate testimonial json before merging ([#2660](https://github.com/EddieHubCommunity/LinkFree/issues/2660)) ([f17cc77](https://github.com/EddieHubCommunity/LinkFree/commit/f17cc77abe3ac0b4cdeb19d6decdfd61c052f349))
 
 
 
