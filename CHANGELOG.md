@@ -1,3 +1,12 @@
+# [1.40.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.2...v1.40.0) (2023-01-04)
+
+
+### Features
+
+* popular profiles public only ([#2655](https://github.com/EddieHubCommunity/LinkFree/issues/2655)) ([385d8fc](https://github.com/EddieHubCommunity/LinkFree/commit/385d8fc1927cddecd30b6066eb28d6f19e4cf943))
+
+
+
 ## [1.39.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.1...v1.39.2) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * http remote patterns for github in config ([#2638](https://github.com/EddieHubCommunity/LinkFree/issues/2638)) ([97aded3](https://github.com/EddieHubCommunity/LinkFree/commit/97aded387f68c61cfc0227fbe7b8de5f5af2cdd1))
-
-
-
-## [1.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.0...v1.38.1) (2023-01-03)
-
-
-### Bug Fixes
-
-* search page nan profile views [#2626](https://github.com/EddieHubCommunity/LinkFree/issues/2626) ([0921d7d](https://github.com/EddieHubCommunity/LinkFree/commit/0921d7d1449b722cb82a540e6158f3396a1f5441))
 
 
 
