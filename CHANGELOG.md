@@ -1,3 +1,12 @@
+## [1.38.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.1...v1.38.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* http remote patterns for github in config ([#2638](https://github.com/EddieHubCommunity/LinkFree/issues/2638)) ([97aded3](https://github.com/EddieHubCommunity/LinkFree/commit/97aded387f68c61cfc0227fbe7b8de5f5af2cdd1))
+
+
+
 ## [1.38.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.38.0...v1.38.1) (2023-01-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonial github action tag recipient ([80402b5](https://github.com/EddieHubCommunity/LinkFree/commit/80402b59de42f0e924cf29d22f7bf20328804728))
-
-
-
-# [1.37.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.36.0...v1.37.0) (2023-01-02)
-
-
-### Features
-
-* popular profiles views ([#2579](https://github.com/EddieHubCommunity/LinkFree/issues/2579)) ([99f3552](https://github.com/EddieHubCommunity/LinkFree/commit/99f3552b7d32d7b23398811b52347d928589a831))
 
 
 
