@@ -1,3 +1,12 @@
+## [1.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.2...v1.40.3) (2023-01-04)
+
+
+### Bug Fixes
+
+* github action for jq ([30b79a3](https://github.com/EddieHubCommunity/LinkFree/commit/30b79a3685339e54fc9495254b1aa575f14f6225))
+
+
+
 ## [1.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.1...v1.40.2) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * invalid json ([3c4a5ed](https://github.com/EddieHubCommunity/LinkFree/commit/3c4a5edfb56288169e86230cb1eccc7b711d3493))
-
-
-
-## [1.39.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.39.0...v1.39.1) (2023-01-04)
-
-
-### Bug Fixes
-
-* testimonial in incorrect folder ([a8054ab](https://github.com/EddieHubCommunity/LinkFree/commit/a8054ab3dc0907c7500e1f03a8eac53c19aa3927))
 
 
 
