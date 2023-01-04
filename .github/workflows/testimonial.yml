@@ -3,7 +3,7 @@ name: Testimonial
 on:
   workflow_dispatch:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   create-testimonial:
