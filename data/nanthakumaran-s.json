@@ -1,0 +1,48 @@
+{
+  "name": "Nanthakumaran S",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software Developer | **Cloud** & **DevOps** Enthusiast | Open Source Beginner",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js",
+    "React.js"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/nanthakumaran_" },
+    { "icon": "FaGithub", "url": "https://github.com/nanthakumaran-s" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/nanthakumaran-s" },
+    { "icon": "FaGlobe", "url": "https://nanthakumaran.com" }
+  ],
+  "avatar": "https://github.com/nanthakumaran-s.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nanthakumaran_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/nanthakumaran-s",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nanthakumaran-s",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://nanthakumaran.com",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Articles",
+      "url": "https://blog.nanthakumaran.com",
+      "icon": "SiHashnode"
+    }
+  ]
+}

@@ -6,9 +6,9 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-import FallbackImage from "./FallbackImage";
+import FallbackImage from "../FallbackImage";
 
-export default function Event({ event, username }) {
+export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",

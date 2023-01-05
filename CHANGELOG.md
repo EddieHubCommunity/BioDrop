@@ -1,45 +1,45 @@
-## [1.30.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.30.0...v1.30.1) (2022-12-30)
+## [1.40.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.7...v1.40.8) (2023-01-05)
 
 
 ### Bug Fixes
 
-* refactored to nextjs code ([1f25858](https://github.com/EddieHubCommunity/LinkFree/commit/1f25858a84bd027b27393247391d4eb1df6cacfe))
+* docs line break ([#2688](https://github.com/EddieHubCommunity/LinkFree/issues/2688)) ([529c5dc](https://github.com/EddieHubCommunity/LinkFree/commit/529c5dcba084b9d8bdce795d30d767934e9623ad))
 
 
 
-# [1.30.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.29.0...v1.30.0) (2022-12-30)
+## [1.40.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.6...v1.40.7) (2023-01-05)
 
 
-### Features
+### Bug Fixes
 
-* user testimonial image click ([#2503](https://github.com/EddieHubCommunity/LinkFree/issues/2503)) ([11fdc08](https://github.com/EddieHubCommunity/LinkFree/commit/11fdc088a866dc473b2eb09bbde0e0b5cc4a0d82))
-
-
-
-# [1.29.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.28.0...v1.29.0) (2022-12-29)
-
-
-### Features
-
-* events key [#2414](https://github.com/EddieHubCommunity/LinkFree/issues/2414) ([#2527](https://github.com/EddieHubCommunity/LinkFree/issues/2527)) ([f6da1d6](https://github.com/EddieHubCommunity/LinkFree/commit/f6da1d6b58a6f7317e9059843f33dba76d5a4e71))
+* testimonial action with jq ([d7481ca](https://github.com/EddieHubCommunity/LinkFree/commit/d7481ca952a5d494c46632eb1aa74c2b5cbb6eb7))
 
 
 
-# [1.28.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.27.0...v1.28.0) (2022-12-29)
+## [1.40.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.5...v1.40.6) (2023-01-04)
 
 
-### Features
+### Bug Fixes
 
-* responsive profile ([#2530](https://github.com/EddieHubCommunity/LinkFree/issues/2530)) ([9bf865c](https://github.com/EddieHubCommunity/LinkFree/commit/9bf865c6bf49948d8971b9decc04b95f57cd9bd9))
-
-
-
-# [1.27.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.26.4...v1.27.0) (2022-12-28)
+* testimonial gh action trigger ([5de6d7b](https://github.com/EddieHubCommunity/LinkFree/commit/5de6d7b19f98214cd13c491bd4e595925765c50b))
 
 
-### Features
 
-* improve docker compose ([#2515](https://github.com/EddieHubCommunity/LinkFree/issues/2515)) ([c06fcd5](https://github.com/EddieHubCommunity/LinkFree/commit/c06fcd5aede5f85f8239e4ce0e64126a273f32eb))
+## [1.40.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.4...v1.40.5) (2023-01-04)
+
+
+### Bug Fixes
+
+* github action jq to apt ([0022406](https://github.com/EddieHubCommunity/LinkFree/commit/00224060dd733ad66182efa8c4dc1709a45a2e36))
+
+
+
+## [1.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.3...v1.40.4) (2023-01-04)
+
+
+### Bug Fixes
+
+* github action for jq ([7bdc59c](https://github.com/EddieHubCommunity/LinkFree/commit/7bdc59c8aaaa4ce8915b0399102eee0b65cb35c7))
 
 
 

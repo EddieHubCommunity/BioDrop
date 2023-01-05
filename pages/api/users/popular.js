@@ -7,7 +7,7 @@ import Profile from "../../../models/Profile";
 export default async function handler(req, res) {
   await connectMongo();
 
-  const getProfiles = await Profile.find({}).sort({ views: -1 }).limit(10);
+  const getProfiles = await Profile.find({}).sort({ views: -1 }).limit(50);
 
   // check for db results
   if (getProfiles.length === 0) {
@@ -29,12 +29,13 @@ export default async function handler(req, res) {
         };
       }
 
-      return { ...user, username: profile.username };
+      return [];
     } catch (e) {
       console.log(`ERROR loading profile "${filePath}"`);
       return [];
     }
   });
 
-  res.status(200).json(profiles);
+  const sortedProfiles = profiles.slice(0, 10)
+  res.status(200).json(sortedProfiles);
 }

@@ -1,0 +1,52 @@
+{
+  "name": "Daniel Bodky",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Cloud-Native Consultant | CKA | Loves **Automation**, **Orchestration** & **DevOps** ❤️",
+  "avatar": "https://github.com/mocdaniel.png",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Golang", "Rust", "Ansible"],
+  "socials": [
+    {
+      "url": "https://twitter.com/d_bodky",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "url": "https://github.com/mocdaniel",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://gitlab.com/lackingdocumentation",
+      "icon": "SiGitlab"
+    },
+    {
+      "url": "https://linkedin.com/in/daniel-bodky",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Personal Blog",
+      "url": "https://dbodky.me",
+      "icon": "FaRegNewspaper"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started as Consultant @ NETWAYS",
+      "date": "October 2021",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started working as on various cloud-native topics, e.g. Kubernetes or Prometheus.",
+      "url": "https://netways.de"
+    },
+    {
+      "title": "Shubhra Kar Linux Foundation Training (LIFT) Scholarship Recipient",
+      "date": "June 2022",
+      "icon": "FaStar",
+      "color": "blue",
+      "description": "Received one of 500 available LIFT scholarships for 2022, choosing the area 'Cloud Captain'.",
+      "url": "https://www.linuxfoundation.org/about/lift-scholarships"
+    }
+  ]
+}
