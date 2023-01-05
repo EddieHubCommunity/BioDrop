@@ -3,6 +3,13 @@
   "type": "community",
   "bio": "Inclusive **Open Source** community - Collaboration 1st, Code 2nd!",
   "avatar": "https://github.com/EddieHubCommunity.png",
+  "testimonials": [
+    "loftwah",
+    "LinuxGamer",
+    "yashdev9274",
+    "dren98",
+    "Susmita-Dey"
+  ],
   "links": [
     {
       "name": "Visit EddieHub Website",
