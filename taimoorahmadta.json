@@ -1,0 +1,24 @@
+{
+  "name": "Taimoor Ahmad",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Undergrad Student, Travel enthusiast, interested in android developement",
+  "avatar": "https://github.com/taimoorahmadta.png",
+    "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/taimoorahmadta",
+      "icon": "FaTwitter"
+    }
+          {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/taimoorahmadta/",
+      "icon": "FaLinkedin"
+    }
+          {
+      "name": "github",
+      "url": "https://github.com/taimoorahmadta",
+      "icon": "FaGithub"
+    }
+  ]
+}
