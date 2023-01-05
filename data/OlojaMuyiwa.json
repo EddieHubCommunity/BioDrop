@@ -2,6 +2,11 @@
   "name": "Oloja Muyiwa",
   "displayStatsPublic": true,
   "type": "personal",
+
+  "bio": "Software Developer and Linux Enthusiasts",
+  "avatar": "https://github.com/OlojaMuyiwa.png",
+  "tags": ["Javascript", "React", "PHP", "Laravel", "Vue", "MySQL", "Linux", "C"],
+
   "bio": "Software Developer and Linux Enthusiats",
   "avatar": "https://github.com/OlojaMuyiwa.png",
   "tags": [
@@ -31,6 +36,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/iRedeploy__",
       "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/redeployzaheer/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/oloja-muyiwa-b6b89a24b/",
+      "icon": "FaLinkedln"
     }
   ],
   "milestones": [
