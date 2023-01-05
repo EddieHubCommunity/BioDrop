@@ -1,7 +1,7 @@
 {
   "name": "PRITAM SAHA",
   "type": "personal",
-  "bio": "I am Pritam Saha, Computer Science graduate from Adamas University",
+  "bio": "I am Pritam Saha, Computer Science graduate. Exploring DevOps & Cloud-Native field & I also write blogs.",
   "avatar": "https://github.com/Saha-7.png",
   "links": [
     {
@@ -13,6 +13,16 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/saha7pritam",
       "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/pritam-saha-269704212/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My blogs",
+      "url": "https://saha7pritam.hashnode.dev/",
+      "icon": "FaHashnode"
     }
   ]
 }
