@@ -11,29 +11,29 @@
       "icon": "FaTwitter"
     },
     {
-     "name": "Github",
-     "url": "https://github.com/dannyhw",
-     "icon": "FaGithub"
+      "name": "Github",
+      "url": "https://github.com/dannyhw",
+      "icon": "FaGithub"
     },
     {
-     "name": "LinkedIn",
-     "url": "https://www.linkedin.com/in/danielhwilliams",
-     "icon": "FaLinkedin"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/danielhwilliams",
+      "icon": "FaLinkedin"
     },
     {
-     "name": "Website",
-     "url": "https://www.dannyhwilliams.co.uk",
-     "icon": "FaGlobe"
+      "name": "Website",
+      "url": "https://www.dannyhwilliams.co.uk",
+      "icon": "FaGlobe"
     },
     {
-     "name": "dev.to",
-     "url": "https://dev.to/dannyhw",
-     "icon": "FaDev"
+      "name": "dev.to",
+      "url": "https://dev.to/dannyhw",
+      "icon": "FaDev"
     },
     {
-     "name": "Medium",
-     "url": "https://medium.com/@dannyhyunsoowilliams",
-     "icon": "FaMedium"
-    },
+      "name": "Medium",
+      "url": "https://medium.com/@dannyhyunsoowilliams",
+      "icon": "FaMedium"
+    }
   ]
 }
