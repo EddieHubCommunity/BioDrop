@@ -8,7 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/AliJafriETH" },
     { "icon": "SiHashnode", "url": "https://alijafri.hashnode.dev/" },
     { "icon": "SiLens", "url": "https://lenster.xyz/u/alijafri" }
-    ],
+  ],
   "avatar": "https://github.com/AliJafriETH.png",
   "links": [
     {
@@ -31,7 +31,6 @@
       "url": "https://lenster.xyz/u/alijafri",
       "icon": "SiLens"
     }
-    
   ],
   "milestones": [
     {
@@ -55,8 +54,8 @@
       "date": "December 2022",
       "icon": "SiLens",
       "color": "green",
-      "description":"Documenting my learnings through the medium of blogs",
+      "description": "Documenting my learnings through the medium of blogs",
       "url": "https://lenster.xyz/u/alijafri"
     }
-  ]  
+  ]
 }
