@@ -12,7 +12,7 @@ import {
   MdOutlineAutoGraph,
   MdOutlineEditCalendar,
 } from "react-icons/md";
-import { FaUsers, FaMedal } from "react-icons/fa";
+import { FaMedal } from "react-icons/fa";
 
 import singleUser from "../config/user.json";
 

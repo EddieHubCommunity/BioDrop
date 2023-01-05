@@ -2,9 +2,23 @@
   "name": "Oloja Muyiwa",
   "displayStatsPublic": true,
   "type": "personal",
+
   "bio": "Software Developer and Linux Enthusiasts",
   "avatar": "https://github.com/OlojaMuyiwa.png",
   "tags": ["Javascript", "React", "PHP", "Laravel", "Vue", "MySQL", "Linux", "C"],
+
+  "bio": "Software Developer and Linux Enthusiats",
+  "avatar": "https://github.com/OlojaMuyiwa.png",
+  "tags": [
+    "Javascript",
+    "React",
+    "PHP",
+    "Laravel",
+    "Vue",
+    "MySQL",
+    "Linux",
+    "C"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iRedeploy__" },
     { "icon": "FaGithub", "url": "https://github.com/OlojaMuyiwa" },
@@ -52,4 +66,3 @@
       "url": "https://oloja-portfolio.vercel.app/"
     }
   ]
-}

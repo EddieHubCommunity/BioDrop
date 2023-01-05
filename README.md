@@ -6,7 +6,7 @@ LinkFree is the Open Source alternative to LinkTree. A platform where people in 
 
 Your profile will have links to your social media and content. You can also add your timeline, testimonials and upcoming events that you are participating in.
 
-Here is an example of a LinkFree [Profile](https://linkfree.eddiehub.io/eddiejaoude)...
+Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
 
@@ -14,7 +14,7 @@ Here is an example of a LinkFree [Profile](https://linkfree.eddiehub.io/eddiejao
 
 You have 4 options to contribute to the repo, please pick your favourite from:
 
-1. GitHub UI
+1. GitHub UI (recommended for adding/editing your profile)
 2. Gitpod
 3. Local development
 4. Local development with Docker Compose
@@ -24,6 +24,8 @@ Brief documentation below, but full documentation can be found here https://link
 ### GitHub UI
 
 This is great if you only want to add your Profile or make changes to it.
+
+Here is the **QuickStart** guide to add your profile https://linkfree.eddiehub.io/docs/quickstart
 
 *note: give extra attention to json formatting and the GitHub Action after you create the Pull Request*
 
@@ -51,75 +53,33 @@ You can set this up locally with the following steps:
 
 1. copy the `.env.example` file to `.env` and update any details required
 1. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
-1. `npm install`
+1. `npm ci`
 1. `npm run dev`
+
+### Local development with Docker Compose
+
+This will allow you to run your favourite IDE but not have to install any dependencies on your computer like NodeJS and MongoDB.
+
+#### Prerequisites
+
+- Docker
+- Docker Compose
+
+#### Commands
+
+1. `docker-compose up`
 
 ### 🙂 How to add YOUR Profile
 
 Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
-1. Fork the repository in your profile which lets you do the changes in the project without affecting the main repository
-2. Create a new branch
-3. In the `data` directory, create a `.json` file with the same name as your GitHub username. For example, if your GitHub username is `eddiehub`, create a file named `eddiehub.json`. This will ensure that your username is unique. 
-
-**Optional fields: `milestones`, `type(personal | community)`, `socials`, `testimonials` and `events`**
+---
 
 Looking for inspiration? You can view the following profiles for an example:
 
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
 - [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
 - [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
-
-Your brand new file should look something similar to this one:
-
-> **Note**: add/remove `links` objects to customise your Profile, `milestones` are optional
-
-```json
-{
-  "name": "YOUR NAME",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/YOUR_GITHUB_USERNAME.png",
-  "tags": ["javascript", "typescript"],
-  "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/YOUR_TWITTER_USERNAME" },
-    { "icon": "FaGithub", "url": "https://github.com/YOUR_GITHUB_USERNAME" }
-  ],
-  "links": [
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/YOUR_GITHUB_USERNAME",
-      "icon": "FaGithub"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
-      "icon": "FaTwitter"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Started Freelancing",
-      "date": "December 2021",
-      "icon": "FaDollarSign",
-      "color": "grey",
-      "description": "Started freelancing",
-      "url": "https://www.eddiejaoude.io/"
-    }
-  ]
-}
-```
-
-Your URL will be `https://linkfree.eddiehub.io/<yourusername>`
-
-For example: <https://linkfree.eddiehub.io/eddiejaoude>
-
-To include your `avatar`, you have to replace `<yourusername>` with your **GitHub username** in the format of `https://github.com/<yourusername>.png` and it will automatically be fetched from your GitHub account.
-
-For example: <http://github.com/eddiejaoude.png>
-
-Note: After your PR gets merged, the project still needs to be deployed for your Profile to be displayed.
 
 ## 🛡️ License
 

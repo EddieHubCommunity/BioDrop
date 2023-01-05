@@ -1,7 +1,7 @@
 {
   "name": "Gurjeet Singh Virdee",
   "type": "personal",
-  "bio": "Self-taught MERN Stack Developer with a strong eye for innovative design and eager to join a creative, problem solving team.",
+  "bio": "Co-Founder @Medictry || Postman Student Expert || Former Technical Team Member at GSSoC'22 & TCW at GFG || MERN Stack || UI Designer || Open Source Enthusiast",
   "avatar": "https://github.com/gurjeetsinghvirdee.png",
   "links": [
     {
@@ -10,25 +10,97 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Add me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/__gurii__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Add me on Discord",
+      "url": "Guri#6145",
+      "icon": "FaDiscord"
     }
   ],
   "milestones": [
     {
-      "title": "Started Open Source Contribuitions",
-      "date": "Sep 2020",
-      "description": "Started some beginner-freindly open source projects",
-      "icon": "FaGithub",
+      "title": "Co-Founder at MedicTry",
+      "date": "September 2022 - Present",
+      "icon": "FaBriefcase",
       "color": "blue"
     },
     {
-      "title": "Started Technical Content Writing",
-      "date": "October 2020",
-      "description": "Writing Technical Articles in GeeksforGeeks",
-      "icon": "FaBook",
+      "title": "Contributor at Hactoberfest 2022",
+      "date": "October 2022",
+      "description": "Contributing on different projects",
+      "icon": "FaGithub",
+      "color": "grey"
+    },
+    {
+      "title": "Project Admin at HackClubRait 2022",
+      "url": "https://soc.hackclubrait.co/#/Projects",
+      "date": "July 2022 - September 2022",
+      "description": "The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. New contributors can add more websites to the list and suggest new features to the existing ones. Also, there is scope to introduce new features to websites and thus create an upgraded version of their clone.",
+      "icon": "FaGithub",
       "color": "red"
+    },
+    {
+      "title": "Contributor at HackClubRait 2022",
+      "url": "https://leaderboard.hackclubrait.co/",
+      "date": "July 2022 - September 2022",
+      "description": "Contributing on different projects",
+      "icon": "FaGithub",
+      "color": "red"
+    },
+    {
+      "title": "Technical Team at GirlScript Summer of Code 2022",
+      "url": "https://gssoc.girlscript.tech/team",
+      "date": "March 2022 - July 2022",
+      "description": "Managing the activities of participants, mentors, and project admins throughout the program, Discord Moderator",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Mentor at GirlScript Summer of Code 2022",
+      "url": "https://github.com/khushi-purwar/WebDev-ProjectKart",
+      "date": "April 2022 - May 2022",
+      "description": "Mentor on 2 Projects: Bundli-Frontend & WebDev-ProjectKart, Mentored 150+ Contributors",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Contributor at GirlScript Summer of Code 2022",
+      "url": "https://gssoc.girlscript.tech/leaderboard",
+      "date": "March 2022 - May 2022",
+      "description": "Secured 10th Rank Globally",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Content Creator at Aviyel",
+      "url": "https://aviyel.com/@gurjeetsinghvirdee-0",
+      "date": "February 2022 - Present",
+      "description": "Aviyel is a platform you can collab with different Open-Source Projects",
+      "icon": "FaBook",
+      "color": "purple"
+    },
+    {
+      "title": "Technical Content Writing",
+      "url": "https://auth.geeksforgeeks.org/user/gurjeetsinghvirdee/articles",
+      "date": "October 2021 - April 2022",
+      "description": "Technical Content Writer Intern at GeeksforGeeks",
+      "icon": "FaBriefcase",
+      "color": "green"
+    },
+    {
+      "title": "Joined EddieHub Community",
+      "date": "September 2021 - Present",
+      "description": "Actively Contributed Member",
+      "icon": "FaDiscord",
+      "color": "blue"
     }
   ]
 }
