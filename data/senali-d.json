@@ -4,13 +4,7 @@
   "displayStatsPublic": true,
   "bio": "Frontend Developer | Fan of Open Source | **Python** Enthusiast",
   "avatar": "https://github.com/senali-d.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "Typescript",
-    "ReactJS",
-    "Python"
-  ],
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Python"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/senali_d" },
     { "icon": "FaGithub", "url": "https://github.com/senali-d" }
