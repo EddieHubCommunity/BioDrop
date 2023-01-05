@@ -4,6 +4,7 @@ import path from "path";
 import Profile from "../../../models/Profile";
 import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
+import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -82,6 +83,17 @@ export default async function handler(req, res) {
     } catch (e) {
       console.log("ERROR creating profile stats", e);
     }
+
+    try {
+      const date = new Date();
+      date.setHours(1, 0, 0, 0);
+      await ProfileStats.create({
+        username,
+        views: [{ views: 1, date: date }],
+      });
+    } catch (e) {
+      console.log("ERROR creating daily stats for profile", e);
+    }
   }
   if (getProfile) {
     try {
@@ -95,6 +107,31 @@ export default async function handler(req, res) {
       );
     } catch (e) {
       console.log("ERROR incrementing profile stats", e);
+    }
+
+    try {
+      const date = new Date();
+      date.setHours(1, 0, 0, 0);
+      const stats = await ProfileStats.findOne({ username });
+      if (stats) {
+        const statsTodayIndex = stats.views
+          .map((item) => item.date.toISOString())
+          .indexOf(date.toISOString());
+        if (statsTodayIndex == -1) {
+          stats.views.push({ views: 1, date: date });
+          stats.save();
+        } else {
+          stats.views[statsTodayIndex].views++;
+          stats.save();
+        }
+      } else {
+        await ProfileStats.create({
+          username,
+          views: [{ views: 1, date: date }],
+        });
+      }
+    } catch (e) {
+      console.log("ERROR incrementing daily stats for profile", e);
     }
   }
 
