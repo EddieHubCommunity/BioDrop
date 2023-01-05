@@ -1,0 +1,29 @@
+{
+  "name": "Ayaan Bhaskar Bordoloi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Engineering Student|Learning **DevOps** & **DSA**| Technical writer",
+  "avatar": "https://github.com/Ayaan49.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/twtayaan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayaan49/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "I write blogs here",
+      "url": "https://hashnode.com/@Ayaan49",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Ayaan49",
+      "icon": "FaGithub"
+    }
+  ]
+}
