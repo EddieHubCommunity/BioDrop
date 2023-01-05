@@ -50,7 +50,7 @@
       "date": "2022",
       "icon": "FaGraduationCap",
       "color": "green",
-      "description": "HTML, CSS, JavaScript, Typescript, Tailwind, Nodejs, React, Next, Python"
+      "description": "HTML, CSS, JavaScript, Typescript, Tailwind, Nodejs, React, Next, Python",
       "url": "https://alireza05.netlify.app/"
     },
     {
@@ -58,7 +58,7 @@
       "date": "2022",
       "icon": "FaGraduationCap",
       "color": "green",
-      "description": "Did an interview and got an offer to become a software engineer intern at Nithub Unilag"
+      "description": "Did an interview and got an offer to become a software engineer intern at Nithub Unilag",
       "url": "https://nithub.unilag.edu.ng"
     },
    {
@@ -66,7 +66,7 @@
       "date": "2022",
       "icon": "FaPeopleCarry",
       "color": "green",
-      "description": "Became a maintainer of the 4c site and got the repo through Hacktoberfest 2022"
+      "description": "Became a maintainer of the 4c site and got the repo through Hacktoberfest 2022",
       "url": "https://4c.rocks"
     },
     {
@@ -82,7 +82,7 @@
       "date": "2022",
       "icon": "CgCommunity",
       "color": "green",
-      "description": "Became staff member of the awesome community!"
+      "description": "Became staff member of the awesome community!",
       "url": "https://4c.rocks"
     },
     {
@@ -90,7 +90,7 @@
       "date": "2022",
       "icon": "SiWeb3Dotjs",
       "color": "green",
-      "description": "Became a maintainer of a repo with over 3k stars on Github, providing value for those getting started with Web3"
+      "description": "Became a maintainer of a repo with over 3k stars on Github, providing value for those getting started with Web3",
       "url": "https://freeweb3resources.com"
     },
     {
@@ -98,8 +98,9 @@
       "date": "2022",
       "icon": "SiFuturelearn",
       "color": "green",
-      "description": "Started the Programming Expert course to be a guide on my journey to becoming a Software Engineer"
+      "description": "Started the Programming Expert course to be a guide on my journey to becoming a Software Engineer",
       "url": "https://programmingexpert.io"
-    },
+    }
   ]
 }
+
