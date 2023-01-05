@@ -39,7 +39,7 @@ export default function Events({ events }) {
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
           {events
-            .filter((event, index) => {
+            .filter((event) => {
               if (eventType === 'virtual') {
                 return event.isVirtual === true
               } else if (eventType === 'in-person') {
