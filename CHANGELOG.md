@@ -1,3 +1,12 @@
+## [1.40.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.6...v1.40.7) (2023-01-05)
+
+
+### Bug Fixes
+
+* testimonial action with jq ([d7481ca](https://github.com/EddieHubCommunity/LinkFree/commit/d7481ca952a5d494c46632eb1aa74c2b5cbb6eb7))
+
+
+
 ## [1.40.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.5...v1.40.6) (2023-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action for jq ([30b79a3](https://github.com/EddieHubCommunity/LinkFree/commit/30b79a3685339e54fc9495254b1aa575f14f6225))
-
-
-
-## [1.40.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.1...v1.40.2) (2023-01-04)
-
-
-### Bug Fixes
-
-* github action use + run ([19d14b7](https://github.com/EddieHubCommunity/LinkFree/commit/19d14b7878d38dfcf967b9f2f869d70d29609d06))
 
 
 
