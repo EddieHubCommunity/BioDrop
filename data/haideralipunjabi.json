@@ -1,4 +1,3 @@
-
 {
   "name": "Haider Ali Punjabi",
   "type": "personal",
@@ -16,7 +15,7 @@
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/HAliPunjabi" },
-    { "icon": "FaGithub", "url": "https://github.com/haideralipunjabi" },
+    { "icon": "FaGithub", "url": "https://github.com/haideralipunjabi" }
   ],
   "links": [
     {
