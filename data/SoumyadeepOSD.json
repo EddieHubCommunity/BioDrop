@@ -4,18 +4,12 @@
   "type": "personal",
   "bio": "Open Source || Frontend developer",
   "avatar": "https://github.com/SaraJaoude.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "ReactNative",
-    "NodeJS",
-    "Python"
-  ],
+  "tags": ["Open Source", "Javascript", "ReactNative", "NodeJS", "Python"],
   "links": [
     {
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/SoumyadeepDasB6",
-      "icon": "FaTwitter",
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn: Let's connect",
