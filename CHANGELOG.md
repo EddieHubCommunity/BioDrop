@@ -1,3 +1,12 @@
+## [1.40.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.7...v1.40.8) (2023-01-05)
+
+
+### Bug Fixes
+
+* docs line break ([#2688](https://github.com/EddieHubCommunity/LinkFree/issues/2688)) ([529c5dc](https://github.com/EddieHubCommunity/LinkFree/commit/529c5dcba084b9d8bdce795d30d767934e9623ad))
+
+
+
 ## [1.40.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.6...v1.40.7) (2023-01-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action for jq ([7bdc59c](https://github.com/EddieHubCommunity/LinkFree/commit/7bdc59c8aaaa4ce8915b0399102eee0b65cb35c7))
-
-
-
-## [1.40.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.2...v1.40.3) (2023-01-04)
-
-
-### Bug Fixes
-
-* github action for jq ([30b79a3](https://github.com/EddieHubCommunity/LinkFree/commit/30b79a3685339e54fc9495254b1aa575f14f6225))
 
 
 
