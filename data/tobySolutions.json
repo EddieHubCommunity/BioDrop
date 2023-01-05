@@ -21,7 +21,7 @@
       "url": "https://github.com/tobySolutions",
       "icon": "FaGithub"
     }
-  ]
+  ],
   "milestones": [
     {
       "title": "Started Learning Python",
@@ -76,7 +76,7 @@
       "color": "#000",
       "description": "My open source journey started during Hacktoberfest 2022 and during that time I was already a maintainer of 4c's website",
       "url": "https://github.com/tobySolutions"
-    }
+    },
    {
       "title": "Became Staff Member at 4c",
       "date": "2022",
