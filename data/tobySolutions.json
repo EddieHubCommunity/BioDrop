@@ -3,8 +3,14 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
-   "avatar": "https://github.com/tobySolutions.png",
-  "tags": ["Open Source", "Javascript", "Typescript", "Frontend Engineering","Accessibility"],
+  "avatar": "https://github.com/tobySolutions.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Frontend Engineering",
+    "Accessibility"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -61,7 +67,7 @@
       "description": "Did an interview and got an offer to become a software engineer intern at Nithub Unilag",
       "url": "https://nithub.unilag.edu.ng"
     },
-   {
+    {
       "title": "Joined 4C as Website Maintainer",
       "date": "2022",
       "icon": "FaPeopleCarry",
@@ -77,7 +83,7 @@
       "description": "My open source journey started during Hacktoberfest 2022 and during that time I was already a maintainer of 4c's website",
       "url": "https://github.com/tobySolutions"
     },
-   {
+    {
       "title": "Became Staff Member at 4c",
       "date": "2022",
       "icon": "CgCommunity",
@@ -94,7 +100,7 @@
       "url": "https://freeweb3resources.com"
     },
     {
-       "title": "Took on the Programming Expert Course",
+      "title": "Took on the Programming Expert Course",
       "date": "2022",
       "icon": "SiFuturelearn",
       "color": "green",
@@ -103,4 +109,3 @@
     }
   ]
 }
-
