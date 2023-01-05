@@ -1,11 +1,11 @@
 import Head from "next/head";
+import { useState } from "react";
 
 import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import EventKey from "../components/event/EventKey";
 import { useState } from "react";
-
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -22,8 +22,19 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
+  const [eventType, seteventType] = useState();
+  let displayEvents = [];
+  switch (eventType) {
+    case "virtual":
+      displayEvents = events.filter((event) => event.isVirtual === true);
+      break;
+    case "in-person":
+      displayEvents = events.filter((event) => event.isInPerson === true);
+      break;
+    default:
+      displayEvents = events;
+  }
 
-  const [eventType, seteventType] = useState('');
   return (
     <>
       <Head>
@@ -34,23 +45,20 @@ export default function Events({ events }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
 
-        <EventKey onToggleEventType={(newValue) => seteventType(newValue)} />
+        <EventKey
+          events={events}
+          onToggleEventType={(newValue) => seteventType(newValue)}
+        />
 
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
-          {events
-            .filter((event) => {
-              if (eventType === 'virtual') {
-                return event.isVirtual === true
-              } else if (eventType === 'in-person') {
-                return event.isInPerson === true
-              } else {
-                return event
-              }
-            })
-            .map((event, index) => (
-              <EventCard event={event} username={event.username} key={index} />
-            ))}
+          {displayEvents.map((event) => (
+            <EventCard
+              event={event}
+              username={event.username}
+              key={event.name}
+            />
+          ))}
         </ul>
       </Page>
     </>
