@@ -21,18 +21,17 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
-  const [eventType, seteventType] = useState();
-  let displayEvents = [];
-  switch (eventType) {
-    case "virtual":
-      displayEvents = events.filter((event) => event.isVirtual === true);
-      break;
-    case "in-person":
-      displayEvents = events.filter((event) => event.isInPerson === true);
-      break;
-    default:
-      displayEvents = events;
-  }
+  const [eventType, seteventType] = useState("all");
+  let categorisedEvents = {
+    all: events,
+    virtual: events.filter((event) => event.isVirtual === true),
+    inPerson: events.filter((event) => event.isInPerson === true),
+    cfpOpen: events.filter(
+      (event) => new Date(event.date.cfpClose) > new Date()
+    ),
+  };
+
+  console.log(categorisedEvents[eventType]);
 
   return (
     <>
@@ -45,18 +44,14 @@ export default function Events({ events }) {
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
 
         <EventKey
-          events={events}
+          categorisedEvents={categorisedEvents}
           onToggleEventType={(newValue) => seteventType(newValue)}
         />
 
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
-          {displayEvents.map((event) => (
-            <EventCard
-              event={event}
-              username={event.username}
-              key={event.name}
-            />
+          {categorisedEvents[eventType].map((event, index) => (
+            <EventCard event={event} username={event.username} key={index} />
           ))}
         </ul>
       </Page>
