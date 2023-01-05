@@ -14,6 +14,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/christinebelzie",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my tech blog",
+      "url": "https://chrissycodes.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
@@ -32,6 +37,14 @@
       "color": "grey",
       "description": "Won for being an active participant in SheSharp.",
       "url": "https://www.linkedin.com/posts/christinebelzie_announcing-our-new-in-tech-scholarship-winner-activity-6993952117304508416-3oC5?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "Wrote my first blog post",
+      "date": "December 2022",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "In this blog post, I describe why I decided to learn to code and how I overcame imposter syndrome to start this journey",
+      "url": "https://chrissycodes.hashnode.dev/"
     }
   ]
 }
