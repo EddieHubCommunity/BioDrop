@@ -1,0 +1,18 @@
+{
+  "name": "Mikal Laane",
+  "type": "Personal",
+  "bio": "Learner 1st Teacher 2nd",
+  "avatar": "https://github.com/goobric.png",
+  "links": [
+    {
+      "name": "Collaborate on GitHub",
+      "url": "https://github.com/goobric",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Chat on Twitter",
+      "url": "https://twitter.com/goobric",
+      "icon": "FaTwitter"
+    }
+  ]
+}

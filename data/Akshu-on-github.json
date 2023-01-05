@@ -1,0 +1,18 @@
+{
+  "name": "Akshaya Kulasekaran",
+  "type": "personal",
+  "bio": "Internet of Things (IoT) | Opensource | GitHub Campus Expert",
+  "avatar": "https://github.com/Akshu-on-github.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Akshu-on-github",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Akshu_on_github",
+      "icon": "FaTwitter"
+    }
+  ]
+}

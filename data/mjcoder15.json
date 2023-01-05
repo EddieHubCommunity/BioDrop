@@ -1,0 +1,23 @@
+{
+  "name": "Ansari Mazhar",
+  "type": "personal",
+  "bio": "A student who wants to become MERN Full-stack Developer",
+  "avatar": "https://github.com/MJCoder15.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MJCoder15",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Intrestingboy5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mazhar-ansari-852713218/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

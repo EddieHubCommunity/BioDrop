@@ -1,0 +1,54 @@
+{
+  "name": "Jisan Mia",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Front-End Developer — JavaScript, React.js, Next.js",
+  "avatar": "https://github.com/Jisan-mia.png",
+  "tags": ["NextJS", "Typescript", "Javascript", "TailwindCSS", "Open Source"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/JisanMia4" },
+    { "icon": "FaGithub", "url": "https://github.com/Jisan-mia" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/JisanMia4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Jisan-mia",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/jisan-mia",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/jisan.mia4",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Medium: Share Learning",
+      "url": "https://jisanmia.medium.com",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/jisan",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Frontend Developer",
+      "date": "December 2021",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Frontend Developer Full time Job",
+      "url": "https://syscomatic.com/"
+    }
+  ]
+}

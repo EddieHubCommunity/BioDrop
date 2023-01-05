@@ -1,0 +1,23 @@
+{
+  "name": "Chinmay Sonawane",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/chinmay29hub.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/chinmay29hub",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chinmay29hub",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/chinmay-sonawane-38474019a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

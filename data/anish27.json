@@ -1,0 +1,18 @@
+{
+  "name": "Anish Dubey",
+  "type": "personal",
+  "bio": "DevOps Enthusiast!",
+  "avatar": "https://github.com/AnishDubey27.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AnishDubey27",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Anish_Dubey_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

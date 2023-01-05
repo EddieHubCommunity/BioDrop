@@ -1,0 +1,30 @@
+{
+  "name": "Amanda Martin",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Developer Advocate | Always Curious | Always Silly",
+  "avatar": "https://github.com/amandamartin-dev.png",
+  "tags": ["DevRel", "Web Dev", "Javascript", "Open Source"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hey_amandam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amandamartin-dev/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub. Let's build together!",
+      "url": "https://github.com/amandamartin-dev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me here for blogging about devrel and other dev topics",
+      "url": "https://dev.to/amandamartindev",
+      "icon": "FaDev"
+    }
+  ]
+}

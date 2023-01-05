@@ -1,0 +1,28 @@
+{
+  "name": "Anirudh Anup",
+  "type": "personal",
+  "bio": "A passionate 13-year-old developer from India. I am always open to collaborating on projects",
+  "avatar": "https://github.com/qwel-exe.png",
+  "links": [
+    {
+      "name": "Follow Me On GitHub",
+      "url": "https://github.com/qwel-exe",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow Me On Polywork",
+      "url": "https://www.polywork.com/anirudh_anup",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Read My Blog",
+      "url": "https://dev.to/qwe123coder",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Check Out My portfolio",
+      "url": "https://qwel-exe.github.io",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ankit Upadhyay",
+  "type": "personal",
+  "bio": "Computer Engineering Student | Web-dev | Open-Source ",
+  "avatar": "https://github.com/Ankkkitt.png",
+  "links": [
+    {
+      "name": "Connect with me on GitHub",
+      "url": "https://github.com/Ankkkitt",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://linkedin.com/in/Ankkkitt",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my YouTube Channel",
+      "url": "https://www.youtube.com/channel/UCut0zae4GO7vZ-RAlBhJ5ew",
+      "icon": "FaYoutube"
+    }
+  ]
+}

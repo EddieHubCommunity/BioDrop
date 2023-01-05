@@ -1,0 +1,53 @@
+{
+  "name": "Kay Jilesen",
+  "type": "personal",
+  "bio": "Freelance Designer & WordPress Developer",
+  "avatar": "https://github.com/kayjilesen.png",
+  "links": [
+    {
+      "name": "KayJilesen - Portfolio",
+      "url": "https://kayjilesen.nl",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/kayjilesen.nl",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kayjilesen/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kayjilesen",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Dribbble",
+      "url": "https://dribbble.com/kayjilesen",
+      "icon": "FaMicrosoft"
+    },
+    {
+      "name": "Follow me on Awwwards",
+      "url": "https://www.awwwards.com/kayjilesen/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "WordPress Onderhoud",
+      "url": "https://onlywp.nl",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "October 2017",
+      "icon": "FaDev",
+      "color": "blue",
+      "description": "Started freelancing",
+      "url": "https://kayjilesen.nl"
+    }
+  ]
+}

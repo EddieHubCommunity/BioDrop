@@ -1,0 +1,13 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+
+## Hacktoberfest
+
+Pull requests which add or edit your information in a `data/${yourname}.json` file WILL NOT be counted for Hacktoberfest.
+
+Pull requests which improve the codebase, documentation, or other aspects of the project and are in line with the core values of the event WILL count. The project contains the Hacktoberfest topic, so the PRs will automatically BE counted towards Hacktoberfest. However, Profile update PRs will have the label `invalid` and therefore won't be counted towards this event.
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Hacktoberfest Documentation">
+    {children}
+  </DocsLayout>
+);

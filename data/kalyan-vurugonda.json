@@ -1,0 +1,43 @@
+{
+  "name": "Kalyan Vurugonda",
+  "type": "personal",
+  "bio": "DevOps | Open Source Enthusiast!",
+  "avatar": "https://github.com/kalyan-vurugonda.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kalyan-vurugonda",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VurugondaKalyan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vurugondakalyan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Bio Link",
+      "url": "https://bio.link/kalyanvurugonda",
+      "icon": "bio link"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source Community Member",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "description": "Contributing to various open source projects, joined EddieHub Community as a Member",
+      "url": "https://github.com/EddieHubCommunity"
+    },
+    {
+      "title": "Started my Open Source Journey on GitHub",
+      "date": "2020",
+      "icon": "FaGithub",
+      "description": "Started using GitHub"
+    }
+  ]
+}

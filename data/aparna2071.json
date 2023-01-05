@@ -1,0 +1,82 @@
+{
+  "name": "Aparna Soneja",
+  "type": "personal",
+  "bio": "Open Source Enthusiast | MERN Stack Web developer at Accenture",
+  "avatar": "https://github.com/aparna2071.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aparna2071",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AparnaSoneja",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aparna-35066b191/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my Blog",
+      "url": "https://chattingappusingreact.blogspot.com/",
+      "icon": "FaBook"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open source contributor and Member of EddieHub community",
+      "date": "March 2022-Present",
+      "icon": "FaGithub",
+      "description": "Contributing to various open source projects, joined EddieHub as a Member on GitHub and as a helper on Discord",
+      "url": "https://github.com/EddieHubCommunity"
+    },
+    {
+      "title": "MERN Stack developer at Accenture",
+      "date": "August 2021-Present",
+      "icon": "FaDollarSign",
+      "description": "Started job as a Full stack web developer and got recognised as a Merit holder in MERN stack training",
+      "url": "https://www.accenture.com/in-en"
+    },
+    {
+      "title": "Graduated from GGSIPU, India with a CGPA of 9.12",
+      "date": "July 2021",
+      "icon": "FaGraduationCap",
+      "description": "I graduated with a CGPA of 9.12 in B.Tech(CSE) and I was among the top 3 students in my college",
+      "url": "http://www.ipu.ac.in/"
+    },
+    {
+      "title": "Authored 2 research papers on Machine Learning algorithms",
+      "date": "2021",
+      "icon": "FaBook",
+      "description": "Publications on ML models"
+    },
+    {
+      "title": "NLP Intern at Spotle.ai",
+      "date": "May 2020",
+      "icon": "FaBook",
+      "description": "Created a Chatbot using ML and got recognised for best project",
+      "url": "http://www.spotle.ai"
+    },
+    {
+      "title": "Python Intern",
+      "date": "June 2019",
+      "icon": "FaBook",
+      "description": "Created an Object detection machine learning algorithm using Computer vision and Tensorflow"
+    },
+    {
+      "title": "Content Writer and Team Lead",
+      "date": "2017-2019",
+      "icon": "FaBook",
+      "description": "Led the team in creating premium technical content for CSE department"
+    },
+    {
+      "title": "Started my Open source journey on GitHub",
+      "date": "2019",
+      "icon": "FaGithub",
+      "description": "Started using GitHub"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "David Leal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
+  "avatar": "https://github.com/Panquesito7.png",
+  "tags": [
+    "cpp",
+    "lua",
+    "open-source",
+    "shell",
+    "bash",
+    "community",
+    "app-dev",
+    "game-dev",
+    "minetest",
+    "dsa"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
+    { "icon": "FaGithub", "url": "https://github.com/Panquesito7" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Panquesito7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/David_Leal_7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Support my work and get special perks",
+      "url": "https://github.com/sponsors/Panquesito7",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Join PanqKart's Discord server",
+      "url": "https://discord.gg/HEweZuF3Vv",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Check out NSMBW speedruns on my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCcZmWPJygsJ_szWKwTy2wqA",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Check my GitLab profile",
+      "url": "https://gitlab.com/Panquesito7",
+      "icon": "FaGitlab"
+    },
+    {
+      "name": "Contact me via mail",
+      "url": "mailto:halfpacho@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Released PanqKart",
+      "date": "June 28, 2022",
+      "icon": "FaGithub",
+      "color": "#0030e7",
+      "description": "PanqKart is a WIP free racing game for Minetest",
+      "url": "https://github.com/panqkart/panqkart"
+    },
+    {
+      "title": "First community manager position",
+      "date": "March 11, 2021",
+      "icon": "FaDiscord",
+      "color": "#00BCB4",
+      "description": "Started managing TheAlgorithms' Discord server",
+      "url": "https://the-algorithms.com/discord"
+    },
+    {
+      "title": "First GitHub Sponsor",
+      "date": "March 4, 2021",
+      "icon": "FaDollarSign",
+      "color": "#EC6CB9",
+      "description": "Obtained my first GitHub Sponsor: @maltejur",
+      "url": "https://github.com/sponsors/Panquesito7"
+    },
+    {
+      "title": "First repository maintenance",
+      "date": "30 November, 2019",
+      "icon": "FaGithub",
+      "color": "#4D9A06",
+      "description": "Started my first maintaining repository",
+      "url": "https://github.com/minetest-mods/teleport-request"
+    }
+  ]
+}

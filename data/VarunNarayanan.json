@@ -1,0 +1,23 @@
+{
+  "name": "Varun Narayanan",
+  "type": "personal",
+  "bio": "Open Source Enthusiast! And a Web Developer too",
+  "avatar": "https://github.com/Varunmnx.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Varunmnx",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Varun_Narayana1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/varun-narayanan-74b653193",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kumar Kalyan",
+  "type": "personal",
+  "bio": "Hi, there I'm a student developer from  India. I love to inspire the community by delivering talks and writing blogs on web development & blockchain  topics. ",
+  "avatar": "https://github.com/kumar-kalyan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kumar-kalyan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on GitLab",
+      "url": "https://gitlab.com/kumar-kalyan",
+      "icon": "FaGitlab"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kumarkalyan_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kumar009/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Technical Writing",
+      "date": "November 2021",
+      "icon": "FaDev",
+      "color": "grey",
+      "description": "Started writing technical blogs on webdevelopment topics "
+    },
+    {
+      "title": "Opensource contribution ",
+      "date": "December 2021",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Started contributing to ethereum org website"
+    },
+    {
+      "title": "Community Contribution",
+      "date": "February 2022",
+      "icon": "FaBook",
+      "color": "red",
+      "description": "Started leading the technical communities as a student leader"
+    },
+    {
+      "title": "Became Google DSC Lead",
+      "date": "August 2022",
+      "icon": "FaBook",
+      "color": "red",
+      "description": "As a chapter lead I am helping everyone to grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and communites"
+    }
+  ]
+}

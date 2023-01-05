@@ -1,0 +1,41 @@
+{
+  "name": "Dean Lofts",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
+  "avatar": "https://github.com/loftwah.png",
+  "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Ruby"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/loftwah" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/loftwah" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/loftwahthebeatsmiff" }
+  ],
+  "links": [
+    {
+      "name": "Linux for Pirates!",
+      "url": "https://github.com/loftwah/linux-for-pirates",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Songs I've produced",
+      "url": "https://www.youtube.com/watch?v=txk5S_r7vkg&list=PLKBAUoCO_FtkHiwRzyGzfhauIhNMBFw66",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Loads of beats I've made (no lyrics)",
+      "url": "https://www.youtube.com/playlist?list=PLKBAUoCO_FtlACntcZqTOD4hckJ8IAWZ3",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Download my music for free!",
+      "url": "https://music.btsmf.link",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Spotify!",
+      "url": "https://open.spotify.com/artist/3akZxhPSJV5we4l7Hzo6V6?si=9GucsHjcQTyVcAJZLKQKmQ",
+      "icon": "FaSpotify"
+    }
+  ],
+  "testimonials": ["CBID2"]
+}

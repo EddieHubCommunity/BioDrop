@@ -1,0 +1,27 @@
+{
+  "name": "Divyansh Raj",
+  "type": "personal",
+  "bio": "Open Source Enthusiast! | Pursuing high school diploma | Doing 100DaysOfCode.",
+  "avatar": "https://github.com/divyanshraj0408.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/divyanshraj0408",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/divyanshraj04",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Participated and completed Hactoberfest 2021.",
+      "date": "October 2021",
+      "icon": "FaGlobe",
+      "color": "orange",
+      "description": "Completed 4 PRs and met amazing folks in the community."
+    }
+  ]
+}

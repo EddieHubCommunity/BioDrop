@@ -1,0 +1,23 @@
+{
+  "name": "Vedant Kakde",
+  "type": "personal",
+  "bio": "Open Source and Community Enthusiast",
+  "avatar": "https://github.com/vedant-kakde.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vedant-kakde",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vedantstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/vedant-kakde",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

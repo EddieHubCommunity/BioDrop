@@ -1,0 +1,25 @@
+{
+  "name": "Sajal Sharma",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Sajal24.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sajal24",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SajalShlan",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tweeting",
+      "date": "December 2021",
+      "color": "blue"
+    }
+  ]
+}

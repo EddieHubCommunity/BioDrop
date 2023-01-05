@@ -1,0 +1,60 @@
+{
+  "name": "Yire Morlans",
+  "type": "personal",
+  "bio": "Full-stack Software Engineer | In my free time, I create apps and play Pokémon Go.",
+  "avatar": "https://github.com/yiremorlans.png",
+  "links": [
+    {
+      "name": "My portfolio website",
+      "url": "https://yiremorlans.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/yiremorlans",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/xenaaMorph",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yiremorlans/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Join the 100devs community on Discord",
+      "url": "https://discord.com/invite/zNxhjnmDPy",
+      "icon": "FaDiscord"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Freelance",
+      "date": "Jan 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing as a web developer",
+      "url": "https://yiremorlans.netlify.app/"
+    },
+    {
+      "title": "48in48.org Volunteer Event",
+      "image": "https://48in48.org/wp-content/uploads/2017/05/48in48_logo_Official-1.png",
+      "date": "June 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Worked with a team as web developer to build a website for a non-profit ",
+      "url": "https://48in48.org/"
+    },
+    {
+      "title": "GitHub 100+ day streak",
+      "date": "Jul 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Completed 100days of code by commiting to GitHub",
+      "url": "https://github.com/yiremorlans"
+    }
+  ]
+}

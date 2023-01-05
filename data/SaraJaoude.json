@@ -1,0 +1,50 @@
+{
+  "name": "Sara Jaoude",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad** | **Travel** Vlogger | Yoga & Peloton aficionado | **EddieHub**",
+  "avatar": "https://github.com/SaraJaoude.png",
+  "tags": ["Digital Nomad", "Open Source", "Travel Vlogger"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SaraJaoude"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@EddieandSaraExplore"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/littleashtangi/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sara-abou-jaoude-1a005425/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/SaraJaoude",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "YouTube: Eddie and Sara Explore",
+      "url": "https://www.youtube.com/eddieandsaraexplore",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram: Eddie and Sara Explore",
+      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

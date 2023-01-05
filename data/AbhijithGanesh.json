@@ -1,0 +1,23 @@
+{
+  "name": "Abhijith Ganesh",
+  "type": "personal",
+  "bio": "An Aspiring Tech afficionado and a freshman in computer science",
+  "avatar": "https://github.com/AbhijithGanesh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AbhijithGanesh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/AbhijithGanesh14",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://AbhijithGanesh.tech",
+      "icon": "FaGlobe"
+    }
+  ]
+}

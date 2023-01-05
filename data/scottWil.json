@@ -1,0 +1,28 @@
+{
+  "name": "Scott Wilson",
+  "type": "personal",
+  "bio": "Passionate self taught software developer. With a focus on React & Next.js and SQL",
+  "avatar": "https://github.com/scottjwilson.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/scottjwilson",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/scottwildev",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "June 2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.scottwil.com/"
+    }
+  ]
+}

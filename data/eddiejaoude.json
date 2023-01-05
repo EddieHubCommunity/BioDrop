@@ -1,0 +1,151 @@
+{
+  "name": "Eddie Jaoude",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
+  "avatar": "https://github.com/eddiejaoude.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
+    { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+  ],
+  "testimonials": [
+    "MadhuSaini22",
+    "juliafmorgado",
+    "CBID2",
+    "Akshu-on-github",
+    "ZeeMonk-pixel",
+    "krupalitrivedi"
+  ],
+  "links": [
+    {
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/eddiejaoude",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
+      "url": "http://eddiehub.org",
+      "icon": "FaLink"
+    },
+    {
+      "name": "EddieHub: Discord",
+      "url": "http://discord.eddiehub.org",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Podcast: Open Source community conversations",
+      "url": "https://anchor.fm/eddiejaoude",
+      "icon": "FaPodcast"
+    },
+    {
+      "name": "Course (free): Customising your GitHub Profile",
+      "url": "http://eddiejaoude.io/course-github-profile-landing",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2010",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.eddiejaoude.io/"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/eddiejaoude.png",
+      "date": "June 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Star for the first year of the program",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "Started Open Source project Linkfree",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
+      "url": "https://linkfree.eddiehub.io"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Top Teacher Award",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
+      "url": "https://github.com/eddiejaoude"
+    }
+  ]
+}

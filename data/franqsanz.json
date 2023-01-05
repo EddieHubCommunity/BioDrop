@@ -1,0 +1,28 @@
+{
+  "name": "Franco Sánchez",
+  "type": "personal",
+  "bio": "Web Developer and Open Source Enthusiast!",
+  "avatar": "https://github.com/franqsanz.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Franqsanz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/franqsanz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Personal Website",
+      "url": "https://franqsanz.netlify.app",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "My Personal Blog",
+      "url": "https://dev.to/franqsanz",
+      "icon": "FaDev"
+    }
+  ]
+}

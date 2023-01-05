@@ -1,0 +1,13 @@
+{
+  "name": "Amanjot Singh",
+  "type": "Personal",
+  "bio": "I love open-source and love to learn new things whenever possible :)",
+  "avatar": "https://github.com/amanGit010.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amanGit010",
+      "icon": "FaGithub"
+    }
+  ]
+}

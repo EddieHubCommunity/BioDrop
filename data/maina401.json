@@ -1,0 +1,44 @@
+{
+  "name": "Mugwanjira Maina",
+  "type": "personal",
+  "bio": "Trying out Open Source!",
+  "avatar": "https://github.com/maina401.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/maina401",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mugwanjira_M",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "January 2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.cnexes.com/"
+    },
+    {
+      "title": "First Corporate Job",
+      "date": "March 2020",
+      "icon": "FaCheck",
+      "color": "blue",
+      "description": "Started a new Lead Developer, Africa Cloud Space",
+      "url": "https://www.africacloudspace.com/"
+    },
+    {
+      "title": "A change of scene",
+      "date": "Sept 2022",
+      "icon": "FaRotateRight",
+      "color": "green",
+      "description": "Started freelancing",
+      "url": "https://www.fatihsamur.com/"
+    }
+  ]
+}

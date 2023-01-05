@@ -1,0 +1,33 @@
+{
+  "name": "Ashim Devnath",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!,Computer Science Student",
+  "avatar": "https://github.com/Ashimdevnath.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ashimdevnath",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AshimDevnath4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ashim-devnath-1477a7235/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Hashnode",
+      "date": "November 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Wrote My First Blog",
+      "url": "https://ashimdevnath.hashnode.dev/altogic-the-chnage"
+    }
+  ]
+}

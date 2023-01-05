@@ -1,0 +1,18 @@
+{
+  "name": "Srinivas Karnati",
+  "type": "personal",
+  "bio": "Cloud Native and Open Source enthusiast",
+  "avatar": "https://github.com/karnatisrinivas.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/karnatisrinivas",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/__karnati",
+      "icon": "FaTwitter"
+    }
+  ]
+}

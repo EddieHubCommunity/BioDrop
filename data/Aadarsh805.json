@@ -1,0 +1,40 @@
+{
+  "name": "Aadarsh Thkaur",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer | Open source contributor",
+  "avatar": "https://github.com/Aadarsh805.png",
+  "tags": ["nextJS", "typescript", "supabase", "reactJS", "tailwindCSS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Aadarsh805"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Aadarsh805"
+    }
+  ],
+  "links": [
+    {
+      "name": "Daily tweets on Web development and random shitposting",
+      "url": "https://twitter.com/Aadarsh805",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my web development journey",
+      "url": "https://github.com/Aadarsh805",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aadarsh-thakur-090a31227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode Blog",
+      "url": "https://aadarshthakur.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

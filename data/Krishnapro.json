@@ -1,0 +1,48 @@
+{
+  "name": "Krishna Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Developer | Open Source | DevOps Enthusiasts",
+  "avatar": "https://github.com/Krishnapro.png",
+  "tags": ["Java", "Scala", "javascript"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },
+    { "icon": "FaGithub", "url": "https://github.com/Krishnapro" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/krishnakumar25/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Krishnapro",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/krishnapro_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/krishnakumar25",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://krishnapro.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Checkout my - Technical Blog",
+      "url": "https://krishnakumar.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Support my work - GitHub Sponsors",
+      "url": "https://github.com/sponsors/Krishnapro",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

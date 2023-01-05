@@ -1,0 +1,60 @@
+{
+  "name": "Ansh Rathod",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full-Stack developer | Flutter | Nextjs",
+  "avatar": "https://github.com/Ansh-Rathod.png",
+  "tags": ["flutter", "nodejs", "dart", "javascript", "typescript"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AnshhRathod" },
+    { "icon": "FaGithub", "url": "https://github.com/Ansh-Rathod" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ansh-Rathod",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://anshrathod.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnshhRathod",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/ansh-rathod",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Musive App",
+      "date": "Nov 2022",
+      "icon": "FaGlobe",
+      "color": "white",
+      "description": "Completed this amazing full-stack web app, built in nextjs with redux-toolkit and nodejs, PostgreSQL as backend.",
+      "url": "https://musive.vercel.app"
+    },
+    {
+      "title": "Launched first mobile application.",
+      "date": "April 2022",
+      "icon": "FaAndroid",
+      "color": "green",
+      "description": "Launched my first mobile application on playstore after two years of learning and building flutter development.",
+      "url": "https://play.google.com/store/apps/details?id=com.cineast.android"
+    },
+    {
+      "title": "Started Developing and open-source",
+      "date": "December 2020",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "One of my best and life changing decision ever.",
+      "url": "https://github.com/Ansh-Rathod"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Ankush Singh",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/ankushKun.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ankushKun",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ankushKun_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Reddit",
+      "url": "https://reddit.com/u/TECHIE6023",
+      "icon": "reddit"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/ankushKun_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://youtube.com/ankushKun",
+      "icon": "FaYoutube"
+    }
+  ]
+}

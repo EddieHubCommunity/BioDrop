@@ -1,0 +1,27 @@
+{
+  "name": "Peace Cyebukayire",
+  "type": "personal",
+  "bio": "Software Engineer and Open Source Enthusiast from Rwanda!",
+  "avatar": "https://github.com/Cyebukayire.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Cyebukayire",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/peace__cy",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "July 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

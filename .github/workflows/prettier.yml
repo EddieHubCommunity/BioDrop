@@ -1,21 +1,25 @@
 name: Format
-on: [push, workflow_dispatch, pull_request]
+on:
+  push:
+    paths:
+      - "data/**"
 
 jobs:
   format:
     runs-on: ubuntu-latest
     name: Format Files
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "16"
+          cache: "npm"
       - run: npm ci
       - name: Prettier
-        run: npx prettier --write public/data/*.json
+        run: npx prettier --write data/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
-        if: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
         with:
-          commit_message: 'style: format files'
+          commit_message: "style: format files"
+          skip_checkout: true

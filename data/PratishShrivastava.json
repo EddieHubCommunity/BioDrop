@@ -1,0 +1,63 @@
+{
+  "name": "Pratish Shrivastava",
+  "type": "personal",
+  "bio": "FullStack-Developer || Winners of smart India hackathan hardware edition 2020 || Finalist of AICTE National Level Chhatra Vishwakarma Awards 2020",
+  "avatar": "https://github.com/PratishShrivastava.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/PratishShrivastava",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PratishShtva",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Learn more about Coding and Tech on my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCxsMWEhnzCy85UDsxir66Yw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pratish-shrivastava",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started blogging",
+      "date": "March 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Sharing my Learning.",
+      "url": "https://pratishshrivastava.hashnode.dev/"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/eddiejaoude.png",
+      "date": "October 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "My First video",
+      "url": "https://www.youtube.com/channel/UCxsMWEhnzCy85UDsxir66Yw"
+    },
+    {
+      "title": "Winners of SIH hardware edition 2020",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a Winners of SIH other people",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:6784803031046230016/"
+    },
+    {
+      "title": "Participated in AICTE National Level Chhatra Vishvakarma Awards 2020",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "It's a great experience.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:6852133780166074368/"
+    }
+  ]
+}

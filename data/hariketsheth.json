@@ -1,0 +1,36 @@
+{
+  "name": "Hariket Sukesh Kumar Sheth",
+  "type": "personal",
+  "bio": "Passionate about coding and contributing to Open Source",
+  "avatar": "https://github.com/hariketsheth.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/hariketsheth",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://mobile.twitter.com/HariketSheth",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Finalist in IEEE SPS Hackathon",
+      "date": "Jul 2021",
+      "icon": "ieee",
+      "color": "blue",
+      "description": "Finalist at IEEE SPS Hackathon 🏆🎖",
+      "url": "https://drive.google.com/file/d/1G645XthzMdwas9pkNdldjKaRHuRWyPtN/preview"
+    },
+    {
+      "title": "Contributor in Girlscript Winter of Contributing",
+      "date": "Sep 2021",
+      "icon": "girlscript",
+      "color": "orange",
+      "description": "Contributor at Girlscript Winter of Contributing 🏆🎖",
+      "url": "https://drive.google.com/file/d/1mbbXHxFbz5x5CD-9BCc_099mBAWJB5uR/preview"
+    }
+  ]
+}

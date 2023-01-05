@@ -1,0 +1,23 @@
+{
+  "name": "Franklin Ohaegbulam",
+  "type": "personal",
+  "bio": "Frontend/UI Engineer & Visual Designer",
+  "avatar": "https://github.com/frankiefab100.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/frankiefab100",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/frankiefab100",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Personal Blog Website",
+      "url": "https://frankiefab.hashnode.dev",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Maaz Ahmed",
+  "type": "personal",
+  "bio": "A hard-working and passionate computer science student who likes to build solutions and contribute to ideas using different technologies and core fundamentals.",
+  "avatar": "https://github.com/Maaz-Code.png",
+  "links": [
+    {
+      "name": "Visit my Portfolio Website",
+      "url": "https://maaz-portfolio.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/isitMaaz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Maaz-Code",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/maaz-ahmed-6b9b98187/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://maaz-code.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

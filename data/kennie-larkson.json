@@ -1,0 +1,23 @@
+{
+  "name": "ABDULRAFIU LAWAL",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/kennie-larkson.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kennie-larkson",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kennie_larkson",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my Personal web page",
+      "url": "https://kenniecodecamp.netlify.app",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Adil Rehman",
+  "type": "personal",
+  "bio": "Software Engineer | Open Source Enthusiast!",
+  "avatar": "https://github.com/adilwahla.png",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/adil-rehman158",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://adilwahla.github.io/cv/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/adilwahla",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdilWahla9",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on dev.to",
+      "url": "https://dev.to/adilwahla",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.upwork.com/freelancers/~0169b7cd0e58547220"
+    },
+    {
+      "title": "Co-Founder Of BrahimFords",
+      "image": "https://github.com/adilwahla.png",
+      "date": "June 2021",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Check out official site",
+      "url": "https://brahimfords.com/"
+    },
+    {
+      "title": "Open Source Projects",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a GitHub Opensource contributor  with 30+ projects",
+      "url": "https://github.com/adilwahla"
+    }
+  ]
+}

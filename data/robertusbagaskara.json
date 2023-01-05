@@ -1,0 +1,31 @@
+{
+  "name": "Robertus Bagaskara",
+  "type": "personal",
+  "bio": "Computer Science Student that Loving Data Science 😊",
+  "avatar": "https://github.com/robertusbagaskara.png",
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/robertusbagaskara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Look at my LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/robertusbagaskara/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "My First Code in College",
+      "date": "August 2018",
+      "description": "Be a Computer Science Student",
+      "url": "https://www.uksw.edu/"
+    },
+    {
+      "title": "Data Science and Analyst Journey",
+      "date": "September 2021",
+      "description": "Starting Journey in Data Analyst/Science, start with intern"
+    }
+  ]
+}

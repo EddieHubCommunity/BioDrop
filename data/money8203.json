@@ -1,0 +1,23 @@
+{
+  "name": "Manish Tyagi ",
+  "type": "Personal",
+  "bio": "Open Source Enthusiast",
+  "avatar": "https://github.com/money8203.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/money8203",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets connect on LinkedIn",
+      "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ManishT93598843",
+      "icon": "FaTwitter"
+    }
+  ]
+}

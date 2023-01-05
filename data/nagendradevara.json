@@ -1,0 +1,28 @@
+{
+  "name": "Nagendra Devara",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/nagendradevara.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/NagendraDevara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nagendradevara1",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Arctic Code Vault Contributor",
+      "date": "December 2021",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Contributed code to several repositories in the 2020 GitHub Archive Program",
+      "url": "https://archiveprogram.github.com/"
+    }
+  ]
+}

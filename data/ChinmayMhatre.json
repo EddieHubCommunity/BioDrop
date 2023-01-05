@@ -1,0 +1,32 @@
+{
+  "name": "Chinmay Mhatre",
+  "type": "personal",
+  "bio": "Developer | In a one-sided relationship with JavaScript",
+  "avatar": "https://github.com/ChinmayMhatre.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ChinmayMhatre",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chinmaysmhatre",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/chinmaymhatre",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "My blogs",
+      "icon": "FaDev",
+      "color": "grey",
+      "description": "Check out my blogs on dev.to",
+      "url": "https://dev.to/chinmaymhatre"
+    }
+  ]
+}

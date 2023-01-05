@@ -1,0 +1,28 @@
+{
+  "name": "Som Datta",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Self-taught developer from India, every day striving to create amazing solutions to good problems. I specialize in Back-End development, but any activity requiring problem-solving and creative thinking is where you will find me. Currently exploring for developer roles and working on few personal projects.",
+  "avatar": "https://github.com/soumdatta81.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/soumdatta81",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/somstwt",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "September 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Shivlal Sharma",
+  "type": "personal",
+  "bio": "Community Manager at HackClub PyPro | DevOps Enthusiast | Open-source Contributor",
+  "avatar": "https://github.com/sshiv5768.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sshiv5768",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shivlal01596340",
+      "icon": "FaTwitter"
+    }
+  ]
+}

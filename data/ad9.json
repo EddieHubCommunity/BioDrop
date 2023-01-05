@@ -1,0 +1,23 @@
+{
+  "name": "Abhinav Dubey",
+  "type": "personal",
+  "bio": "Full stack developer || Passionate Engineer",
+  "avatar": "https://github.com/abhinavdubeyad9.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhinavdubeyad9",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hey_ad9",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/abhinavdubeyad9",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

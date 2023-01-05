@@ -1,0 +1,28 @@
+{
+  "name": "Praveen Kumar Purushothaman",
+  "type": "personal",
+  "bio": "Full Stack JavaScript Specialist",
+  "avatar": "https://github.com/praveenscience.png",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/praveentech/",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/praveenscience",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/praveenscience",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Learn more about Web Development on my YouTube channel",
+      "url": "https://rb.gy/fupw21",
+      "icon": "FaYoutube"
+    }
+  ]
+}

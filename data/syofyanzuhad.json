@@ -1,0 +1,28 @@
+{
+  "name": "Syofyan Zuhad",
+  "type": "personal",
+  "bio": "Web Artisan",
+  "avatar": "https://github.com/syofyanzuhad.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/syofyanzuhad",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/syofyan_zuhad",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.syofyanzuhad.my.id/"
+    }
+  ]
+}

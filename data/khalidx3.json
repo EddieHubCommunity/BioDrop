@@ -1,0 +1,25 @@
+{
+  "name": "Khalid Hasan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Fitness Tech and Books thats what describes me and yeah I'm an engineer",
+  "avatar": "https://github.com/khalidx3.png",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/khalidansariX3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/khalidx3",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/khalid._.13/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

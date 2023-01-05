@@ -1,0 +1,23 @@
+{
+  "name": "Manish Kumar Barnwal",
+  "type": "personal",
+  "bio": "Engineer & Web Developer",
+  "avatar": "https://github.com/imanishbarnwal.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/imanishbarnwal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imanishbarnwal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/imanishbarnwal",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

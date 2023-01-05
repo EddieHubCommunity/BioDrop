@@ -1,0 +1,28 @@
+{
+  "name": "Aryan Raj",
+  "type": "personal",
+  "bio": "Web Developer | Student | Open Source Enthusiast",
+  "avatar": "https://github.com/aryaraj132.png",
+  "links": [
+    {
+      "name": "Checkout my GitHub",
+      "url": "https://github.com/aryaraj132",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aryanankit_raj",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aryaraj132",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aryanankit.raj/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
