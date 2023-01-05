@@ -5,7 +5,6 @@ import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import EventKey from "../components/event/EventKey";
-import { useState } from "react";
 
 export async function getServerSideProps(context) {
   let events = [];
