@@ -7,27 +7,27 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/hfr58gb",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AnuragS41695054",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Hashnode",
       "url": "https://anuragk24.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on StackOverflow",
       "url": "https://stackoverflow.com/users/19466141/anurag",
-      "icon": "stackoverflow"
+      "icon": "FaStackOverflow"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/anurag-kumar-4490ba1a6/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

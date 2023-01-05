@@ -7,17 +7,17 @@
     {
       "name": "Join our Discord",
       "url": "https://discord.com/invite/A3k66qqQ",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Our Open Source projects",
       "url": "https://github.com/FitDevs-withKat",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "FitDev hashtag on Twitter",
       "url": "https://twitter.com/search?q=%23fitdevs&src=typed_query&f=live",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/amelia2802",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/amelia-dutta-40bb8a17b/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AmeliaDutta",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on CodeWars",
       "url": "https://www.codewars.com/users/amelia2802",
-      "icon": "codewars"
+      "icon": "SiCodewars"
     }
   ],
   "milestones": [
     {
       "title": "Started Internship",
       "date": "March 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "pink",
       "description": "Started Internship as Data Analyst",
       "url": "https://amelia2802.github.io/Portfolio/"
@@ -37,7 +37,7 @@
     {
       "title": "Started Contributing",
       "date": "June 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started Contributing in Open Source",
       "url": "https://github.com/amelia2802/"

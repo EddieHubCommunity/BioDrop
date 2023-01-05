@@ -1,0 +1,57 @@
+{
+  "name": "Rahul Prasad",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": " Blockchain Developer | **Open Source** Advocate | DevOps Developer",
+  "tags": [
+    "Open Source",
+    "Blockchain",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/rahultwte" },
+    { "icon": "FaGithub", "url": "https://github.com/Rahul-Prasad-07" },
+    { "icon": "FaLink", "url": "https://dev.to/rahulprasad07" }
+  ],
+  "avatar": "https://github.com/Rahul-Prasad-07.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source & Web3",
+      "url": "https://twitter.com/rahultwte",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/Rahul-Prasad-07",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rahulprasad17",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://rahul-prasad-07.github.io/rahul-master_1",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Technical Blog",
+      "url": "https://rahulprasad.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Support my work - GitHub Sponsors",
+      "url": "https://github.com/Rahul-Prasad-07",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCnnPvzXIJJQIZzOuDM58B6A",
+      "icon": "FaYouTube"
+    }
+  ]
+}

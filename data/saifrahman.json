@@ -7,38 +7,38 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/saifrahmn",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/saif_rahmn",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Read my Blogs",
       "url": "https://saifrahman.hashnode.dev",
-      "icon": "Hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/saif_rahm.n",
-      "icon": "Instagram"
+      "icon": "FaInstagram"
     },
 
     {
       "name": "Contact me",
       "url": "mailto:saifrahmn78@gmail.com",
-      "icon": "Envelope"
+      "icon": "FaEnvelope"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/saif-rahman-a62686201",
-      "icon": "LinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Visit my personal Website",
       "url": "https://clomen.web.app/",
-      "icon": "Globe"
+      "icon": "FaGlobe"
     }
   ]
 }

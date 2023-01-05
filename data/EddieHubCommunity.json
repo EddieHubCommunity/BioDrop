@@ -1,34 +1,40 @@
 {
   "name": "EddieHubCommunity",
   "type": "community",
-  "bio": "Inclusive Open Source community - Collaboration 1st, Code 2nd!",
+  "bio": "Inclusive **Open Source** community - Collaboration 1st, Code 2nd!",
   "avatar": "https://github.com/EddieHubCommunity.png",
+  "testimonials": [
+    "loftwah",
+    "LinuxGamer",
+    "yashdev9274",
+    "dren98",
+    "Susmita-Dey"
+  ],
   "links": [
-    { "name": "Visit Website", "url": "http://eddiehub.org", "icon": "globe" },
     {
-      "name": "Visit GitHub Organisation",
+      "name": "Visit EddieHub Website",
+      "url": "http://eddiehub.org",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
       "url": "https://github.com/EddieHubCommunity",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Join our Discord Community",
       "url": "http://discord.eddiehub.org",
-      "icon": "discord"
-    },
-    {
-      "name": "Follow us on Twitter",
-      "url": "https://twitter.com/eddiejaoude",
-      "icon": "twitter"
-    },
-    {
-      "name": "Learn more about Open Source",
-      "url": "https://youtube.com/eddiejaoude",
-      "icon": "youtube"
+      "icon": "FaDiscord"
     },
     {
       "name": "LinkedIn Organisation",
       "url": "https://www.linkedin.com/company/eddiehub",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Join our Ambassadors program",
+      "url": "http://eddiehub.org/ambassador-program",
+      "icon": "FaGlobe"
     }
   ],
   "milestones": []

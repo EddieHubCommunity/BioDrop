@@ -7,26 +7,26 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/nurakmal920207",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/nur-akmal/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Learning Data Analytics",
       "date": "August 2020",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Started Learning Data Analytics"
     },
     {
       "title": "Officially a Data Analyst!",
       "date": "May 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Start a Job as Data Analyst"
     }

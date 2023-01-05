@@ -7,48 +7,48 @@
     {
       "name": "Connect with me on my Website",
       "url": "https://kelvinnyadzayo.com",
-      "icon": "website"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Nyadzayo",
-      "icon": "github"
+      "icon": "FaGithub"
     },
 
     {
       "name": "My YouTube Channel",
       "url": "https://www.youtube.com/channel/UCVx38C7OXK3QU7HH7YWlpLQ/featured",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
 
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodeKyles",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/kelvin-nyadzayo-1b834a59/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Connect with me on Medium",
       "url": "https://medium.com/@kelvin.nyadzayo16",
-      "icon": "medium"
+      "icon": "SiMedium"
     }
   ],
   "milestones": [
     {
       "title": "Java Certified ",
       "date": "August 2018",
-      "icon": "GitHub",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Got certified in java oracle associate 8 in my second year of cs"
     },
     {
       "title": "Started Technical Writing",
       "date": "November 2019",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "grey",
       "description": "Started writing technical blogs on blockchain, web development, personal development and crypto topics "
     },
@@ -56,7 +56,7 @@
     {
       "title": "Graduated in CS",
       "date": "December 2021",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "blue",
       "description": "Got my first degree in computer science at University of Zimbabwe"
     }

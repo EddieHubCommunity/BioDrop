@@ -5,8 +5,8 @@
   "avatar": "https://github.com/Collins-Omariba.png",
   "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
   "socials": [
-    { "platform": "twitter", "url": "https://twitter.com/OmaribaCollins" },
-    { "platform": "github", "url": "https://github.com/Collins-Omariba" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
+    { "icon": "FaGithub", "url": "https://github.com/Collins-Omariba" }
   ],
   "links": [
     {
@@ -14,7 +14,7 @@
 
       "url": "https://github.com/Collins-Omariba",
 
-      "icon": "github"
+      "icon": "FaGithub"
     },
 
     {
@@ -22,7 +22,7 @@
 
       "url": "https://twitter.com/OmaribaCollins",
 
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "portfolio website",
@@ -34,7 +34,7 @@
 
       "url": "https://www.linkedin.com/in/omariba-collins-b28b841b9",
 
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
 
@@ -44,7 +44,7 @@
 
       "date": "September 2022",
 
-      "icon": "dollar",
+      "icon": "FaDollarSign",
 
       "color": "grey",
 

@@ -1,8 +1,5 @@
 name: Format
 on:
-  pull_request:
-    paths:
-      - "data/**"
   push:
     paths:
       - "data/**"
@@ -21,7 +18,8 @@ jobs:
       - name: Prettier
         run: npx prettier --write data/*.json
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "style: format files"
+          skip_checkout: true

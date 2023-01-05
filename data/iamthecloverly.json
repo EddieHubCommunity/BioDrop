@@ -1,0 +1,43 @@
+{
+  "name": "SriBalaji",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Developer Advocate | **CyberSecurity** | Tech enthusiast",
+  "avatar": "https://github.com/iamthecloverly.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/thecloverly" },
+    { "icon": "FaGithub", "url": "https://github.com/iamthecloverly" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/thecloverly" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thecloverly",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/thecloverly/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub. Let's build together!",
+      "url": "https://github.com/iamthecloverly",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blog",
+      "url": "https://sribalaji.eu.org/",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "FaHacktoberfest",
+      "color": "grey",
+      "description": "Completed Hacktoberfest 2022 challenge"
+    }
+  ]
+}

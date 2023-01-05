@@ -45,6 +45,33 @@ export default async function handler(req, res) {
     data = { ...data, testimonials };
   }
 
+  const filePathEvents = path.join(process.cwd(), "data", username, "events");
+  let eventFiles = [];
+  try {
+    eventFiles = fs
+      .readdirSync(filePathEvents)
+      .filter((item) => item.includes("json"));
+  } catch (e) {
+    console.log(`ERROR loading events "${filePathEvents}"`);
+  }
+  const events = eventFiles.flatMap((filename) => {
+    try {
+      const event = {
+        ...JSON.parse(
+          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
+        ),
+        username,
+      };
+
+      return event;
+    } catch (e) {
+      return [];
+    }
+  });
+  if (events.length) {
+    data = { ...data, events };
+  }
+
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
     try {

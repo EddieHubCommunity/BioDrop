@@ -7,29 +7,29 @@
     {
       "name": "My portfiolo site",
       "url": "https://shiny-starburst-6f2c53.netlify.app",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/chamberezigbo",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Chamberlin5050",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/chambertech",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Developed and maintained website for charity gate",
       "date": "May 2022",
-      "icon": "discord",
+      "icon": "FaDiscord",
       "color": "#3a3240",
       "description": "Developed a website for a non governmental organization ",
       "url": "http://charitygatefoundation.com/"
@@ -37,7 +37,7 @@
     {
       "title": "Started working for a IG Hub as intern",
       "date": "April 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "I maintained already existing code and together with other interns, we built sites from scratch for the company.",
       "url": "https://www.github.com/chamberezigbo"
@@ -45,7 +45,7 @@
     {
       "title": "Started working for a Rad5 as intern",
       "date": "April 2020",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Collaborated with fellow programmers and designers to build and review new and existing code during the internship",
       "url": "https://www.rad5.com"
@@ -53,7 +53,7 @@
     {
       "title": "Learning to Code!",
       "date": "April 2019",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started learning to code in a Bootcamp at rad5",
       "url": "https://www.rad5.com"

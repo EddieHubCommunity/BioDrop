@@ -7,17 +7,17 @@
     {
       "name": "Checkout my GitHub account",
       "url": "https://github.com/Rahulbaran",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Rahul9422dev",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/Rahulbaran",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }
