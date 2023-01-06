@@ -3,7 +3,13 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "BCA Graduate, Open source Advocate | Tech Blogger | Designer and Content Creator | Fullstack Web Development",
-  "tags": ["Open Source", "Content Writer", "Blogging", "Web3", "Fullstack Web Development"],
+  "tags": [
+    "Open Source",
+    "Content Writer",
+    "Blogging",
+    "Web3",
+    "Fullstack Web Development"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/code_shubh" },
     { "icon": "FaGithub", "url": "https://github.com/shubhsharma19" },
