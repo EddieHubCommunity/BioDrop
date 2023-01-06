@@ -1,3 +1,12 @@
+## [1.40.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.8...v1.40.9) (2023-01-06)
+
+
+### Bug Fixes
+
+* json scheme for profile ([2f1cc98](https://github.com/EddieHubCommunity/LinkFree/commit/2f1cc9889fc4c1960bfecde3921c1b257204ccd2))
+
+
+
 ## [1.40.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.7...v1.40.8) (2023-01-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action jq to apt ([0022406](https://github.com/EddieHubCommunity/LinkFree/commit/00224060dd733ad66182efa8c4dc1709a45a2e36))
-
-
-
-## [1.40.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.3...v1.40.4) (2023-01-04)
-
-
-### Bug Fixes
-
-* github action for jq ([7bdc59c](https://github.com/EddieHubCommunity/LinkFree/commit/7bdc59c8aaaa4ce8915b0399102eee0b65cb35c7))
 
 
 
