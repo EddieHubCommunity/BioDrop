@@ -1,0 +1,40 @@
+{
+  "name": "Himanshu Chhatwal",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "CSE 2025 🎒 • Open-source contributor 💻 • JavaScript ⛳ • React Js ⚛️ • Learning in public 🍁 • Devops enthusiastic 🐳 • Core team member 
+          @GrowInComm 🚀",
+  "avatar": "https://avatars.githubusercontent.com/u/32031706?s=400&u=3811c8ff72a21fdeb13dbf548553d16b9a79eb42&v=4",
+    "links": [
+    {
+      "name": "Visit My PortFolio",
+      "url": "https://himanshuchhatwal.netlify.app/",
+      "icon": "https://i.pinimg.com/564x/ce/0c/e1/ce0ce1501564fbe9e05b3ddf1e61eeb7.jpg"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/himanshuchhatw2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/Himanshu__2314",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@Himanshu2314",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/himanshu1221",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshu-c-537527215/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
