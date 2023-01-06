@@ -1,8 +1,26 @@
 {
   "name": "Wasiq Amjad Bhamla",
   "type": "personal",
-  "bio": "Open source enthusiast | Senior QA Consultant at Thoughtworks",
+  "displayStatsPublic": true,
+  "bio": "Open Source Advocate | Freelancer | Blogger | Mentor | Trainer",
   "avatar": "https://github.com/WasiqB.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Java",
+    "GitHub",
+    "Selenium WebDriver",
+    "Appium",
+    "WebDriverIO",
+    "Rest-Assured",
+    "GitHub Actions"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/WasiqBhamla" },
+    { "icon": "FaGithub", "url": "https://github.com/WasiqB" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/wasiqbhamla" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -15,9 +33,14 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/wasiqbhamla",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Join my QA Community Hub",
+      "url": "https://discord.gg/Ze74VQXjwc",
+      "icon": "FaDiscord"
     }
   ],
   "milestones": [
@@ -61,6 +84,14 @@
       "color": "red",
       "description": "Won $200 in the Hackathon organized by Applitools for UltraFast Cross-browser testing. Was placed in Top 100 out of 2000+ applications.",
       "url": "https://twitter.com/Applitools/status/1288492605253267456?s=20"
+    },
+    {
+      "title": "boyka-framework",
+      "date": "Feb 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Open-sourced an ultimate test automation framework for automating any application on any platform",
+      "url": "https://github.com/BoykaFramework/boyka-framework"
     }
   ]
 }
