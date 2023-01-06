@@ -13,6 +13,12 @@
     "Python",
     "Kotlin"
   ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/samyabrata-maji" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/sammaji15" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/samyabrata-maji" },
+    { "icon": "FaInstgram", "url": "https://instagram.com/sammaji15" }
+  ],
   "links": [
     {
       "name": "Checkout my code contributions on GitHub",
