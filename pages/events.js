@@ -31,8 +31,6 @@ export default function Events({ events }) {
     ),
   };
 
-  console.log(categorisedEvents[eventType]);
-
   return (
     <>
       <Head>
