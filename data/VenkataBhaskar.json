@@ -1,0 +1,25 @@
+{
+  "name": "Venkata Bhaskar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "just playing with technologies ",
+  "avatar": "https://github.com/VenkataBhaskarr.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bhaskartwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/VenkataBhaskarr",
+      "icon": "FaGithub"
+    },
+    {
+        "name": "Follow me on Instagram",
+        "url": "https://instagram.com/bhaskarsig",
+        "icon": "FaInstagram"
+    }
+  ]
+
+}
