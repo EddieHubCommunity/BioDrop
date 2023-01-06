@@ -50,7 +50,7 @@
       "name": "Dev-Profile",
       "url": "https://dev.to/krishchopra22",
       "icon": "FaDev"
-    },
+    }
   ],
   "milestones": [
     {
@@ -76,7 +76,7 @@
       "color": "red",
       "description": "I know they're not that professional, just expressed my thoughts",
       "url": "https://krishtechnorism.blogspot.com"
-    },
+    }
   ],
   "testimonials": []
 }
