@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
+import ScrollToTop from "react-scroll-to-top";
 import {
   MdOutlinePlayArrow,
   MdArrowUpward,
@@ -424,7 +425,7 @@ export default function Home({ total, today }) {
           rel="noopener noreferrer"
           target="_blank"
         >
-          <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
+          <div className="fixed bottom-1 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider
               value={{ color: "white", style: { verticalAlign: "middle" } }}
             >
@@ -433,6 +434,9 @@ export default function Home({ total, today }) {
             <p className="text-sm font-medium">Help</p>
           </div>
         </Link>
+        <div className="-mt-4 text-center">
+          <ScrollToTop smooth className="bg-black w-full text-center" />
+        </div>
       </main>
     </>
   );
