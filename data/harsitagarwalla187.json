@@ -13,12 +13,12 @@
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/harsit-agarwalla-b2b0871b8",
-      "icon": "FaTwitter"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Github",
       "url": "https://github.com/harsitagarwalla187",
-      "icon": "FaTwitter"
+      "icon": "FaGithub"
     }
   ]
 }
