@@ -5,8 +5,18 @@
   "bio": "SysAdmin turned into DevOps Engineer | Collaboration and Shared Responsibility",
   "avatar": "https://github.com/iamunnip.png",
   "tags": [
-    "Linux", "DevOps", "Containers", "Cloud", "Observability",
-    "Git", "Docker", "Kubernetes", "AWS", "Azure", "Azure DevOps", "Elastic Stack"
+    "Linux",
+    "DevOps",
+    "Containers",
+    "Cloud",
+    "Observability",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Azure DevOps",
+    "Elastic Stack"
   ],
   "socials": [
     {
