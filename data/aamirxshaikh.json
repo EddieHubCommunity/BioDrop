@@ -3,11 +3,23 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "23 🧑‍💻 | Associate Consultant @Atos | Full-stack Developer 💻 | Open Source | Cloud & DevOps enthusiast ⚡️",
-  "tags": ["JavaScript", "React", "Node JS", "Java", "Spring boot", "Cloud", "DevOps", "Open Source"],
+  "tags": [
+    "JavaScript",
+    "React",
+    "Node JS",
+    "Java",
+    "Spring boot",
+    "Cloud",
+    "DevOps",
+    "Open Source"
+  ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/aamirxShaikh" },
     { "icon": "FaTwitter", "url": "https://twitter.com/AamirxShaikh" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/aamir-shaikh-291934182" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aamir-shaikh-291934182"
+    }
   ],
   "avatar": "https://github.com/aamirxShaikh.png",
   "links": [
