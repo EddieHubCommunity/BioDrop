@@ -1,3 +1,12 @@
+## [1.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.41.0...v1.41.1) (2023-01-07)
+
+
+### Bug Fixes
+
+* events page ([86b672e](https://github.com/EddieHubCommunity/LinkFree/commit/86b672e3e29e59b51bc827b8f2a261cc1c4c222d))
+
+
+
 # [1.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.9...v1.41.0) (2023-01-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonial action with jq ([d7481ca](https://github.com/EddieHubCommunity/LinkFree/commit/d7481ca952a5d494c46632eb1aa74c2b5cbb6eb7))
-
-
-
-## [1.40.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.5...v1.40.6) (2023-01-04)
-
-
-### Bug Fixes
-
-* testimonial gh action trigger ([5de6d7b](https://github.com/EddieHubCommunity/LinkFree/commit/5de6d7b19f98214cd13c491bd4e595925765c50b))
 
 
 
