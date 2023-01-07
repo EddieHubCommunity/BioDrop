@@ -26,7 +26,7 @@ export default function Events({ events }) {
     all: events,
     virtual: events.filter((event) => event.isVirtual === true),
     inPerson: events.filter((event) => event.isInPerson === true),
-    cfpOpen: data.events.filter((event) =>
+    cfpOpen: events.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
   };
