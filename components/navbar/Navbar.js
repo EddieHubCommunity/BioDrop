@@ -20,6 +20,12 @@ export default function Navbar() {
       name: "Popular",
       url: "/popular",
     },
+
+    {
+      name: "Popular profiles of the month",
+      url: "/recentPopular",
+    },
+
     {
       name: "Search",
       url: "/search",
@@ -74,7 +80,7 @@ export default function Navbar() {
                         style: { verticalAlign: "middle" },
                       }}
                     >
-                      <FaGithub aria-label="GitHub"/>
+                      <FaGithub aria-label="GitHub" />
                     </IconContext.Provider>
                   </a>
                 </div>
