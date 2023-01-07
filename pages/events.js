@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState } from "react";
 
 import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
@@ -20,6 +21,16 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
+  const [eventType, seteventType] = useState("all");
+  let categorisedEvents = {
+    all: events,
+    virtual: events.filter((event) => event.isVirtual === true),
+    inPerson: events.filter((event) => event.isInPerson === true),
+    cfpOpen: data.events.filter((event) =>
+      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
+    ),
+  };
+
   return (
     <>
       <Head>
@@ -30,11 +41,14 @@ export default function Events({ events }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
 
-        <EventKey events={events} />
+        <EventKey
+          categorisedEvents={categorisedEvents}
+          onToggleEventType={(newValue) => seteventType(newValue)}
+        />
 
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
-          {events.map((event, index) => (
+          {categorisedEvents[eventType].map((event, index) => (
             <EventCard event={event} username={event.username} key={index} />
           ))}
         </ul>
