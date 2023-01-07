@@ -1,0 +1,25 @@
+{
+  "name": "Soumyadeep Das Bhowmick",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source || Frontend developer",
+  "avatar": "https://github.com/SoumyadeepOSD.png",
+  "tags": ["Open Source", "Javascript", "ReactNative", "NodeJS", "Python"],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/SoumyadeepDasB6",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/soumyadeep-das-bhowmick-01a882234/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: Contribute in public",
+      "url": "https://github.com/SoumyadeepOSD",
+      "icon": "FaGithub"
+    }
+  ]
+}
