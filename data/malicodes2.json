@@ -1,0 +1,34 @@
+{
+  "name": "Muhammad Ali",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "SE Undegrad | Front-end Developer | Freelancer",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/malicodes2" },
+    { "icon": "SiHashnode", "url": "https://malicodes.hashnode.dev/" },
+    { "icon": "FaGithub", "url": "https://github.com/malicodes2" }
+  ],
+  "avatar": "https://github.com/malicodes2.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/malicodes2",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me on Twitter",
+      "url": "https://twitter.com/malicodes2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "I also write blogs! Check them",
+      "url": "https://malicodes.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://linkedin.com/in/malicodes",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
