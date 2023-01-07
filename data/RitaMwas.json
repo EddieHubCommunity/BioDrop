@@ -1,0 +1,19 @@
+{
+  "name": "Rita Mwangi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lifelong learner transitioning into tech",
+  "avatar": "https://github.com/RitaMwas.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mwas_rita",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/RitaMwas",
+      "icon": "FaGithub"
+    }
+  ]
+}
