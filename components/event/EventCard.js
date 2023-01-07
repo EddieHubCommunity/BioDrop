@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaMicrophoneAlt } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -28,6 +29,10 @@ export default function EventCard({ event, username }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
+          {event.date.cfpClose &&
+            new Date(event.date.cfpClose) > new Date() && (
+              <FaMicrophoneAlt title="CFP is open" />
+            )}
         </div>
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
