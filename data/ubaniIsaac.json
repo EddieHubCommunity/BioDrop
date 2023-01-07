@@ -12,7 +12,7 @@
   "links": [
      {
       "name": "Here's a link to my portfolio",
-      "url": "iceu.netlify.app",
+      "url": "https://iceu.netlify.app",
       "icon": "FaGlobe"
     },
     {
