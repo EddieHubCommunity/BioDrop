@@ -2,8 +2,13 @@
   "name": "Abhishek Gupta",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Coding Enthusiast | Exploring Opensource | Student @ JSCOE | Currently writing",
+  "bio": "Coding Enthusiast | Opensource Enthusiast | Student @ JSCOE | Currently blogging",
   "avatar": "https://github.com/A10-g.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Abhishek_G101" },
+    { "icon": "FaGithub", "url": "https://github.com/A10-g" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/abhishek-gupta-95275b233" }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -19,6 +24,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/A10-g",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://abhishekgupta10.hashnode.dev",
+      "icon": "SiHashnode"
     }
   ]
 }
