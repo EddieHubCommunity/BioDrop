@@ -1,0 +1,39 @@
+{
+  "name": "Utkarsh Maurya",
+  "type": "Personal",
+  "displayStatsPublic": true,
+  "bio": "Computer Science student | Full Stack Web developer | Open source and Web3 enthusiast | Hardcore anime weeb",
+  "avatar": "https://github.com/utkarsh1311.png",
+  "tags": ["Open Source", "Full Stack Web dev", "JavaScript", "Java"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/coder_utkarsh" },
+    { "icon": "FaGithub", "url": "https://github.com/utkarsh1311" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/utkarsh1311",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/coder_utkarsh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/utkarsh-maurya/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Dev.to",
+      "url": "https://dev.to/utkarsh1311",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/iam.utkarsh",
+      "icon": "FaInstagram"
+    }
+  ]
+}

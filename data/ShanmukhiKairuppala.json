@@ -1,0 +1,29 @@
+{
+  "name": "Shanmukhi Kairuppala",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " I'm an Open Source enthusiast and an aesthete!",
+  "avatar": "https://github.com/ShanmukhiKairuppala.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sirius_2003",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/shanmukhi-k-56535525b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/shanmukhi_kairuppala/?next=%2F",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ShanmukhiKairuppala",
+      "icon": "FaGithub"
+    }
+  ]
+}

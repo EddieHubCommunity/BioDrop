@@ -12,7 +12,7 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/AyushSarode",
+
       "icon": "FaGithub"
     },
     {
@@ -34,6 +34,5 @@
       "icon": "FaGithub",
       "color": "red",
       "url": "https://github.com/AyushSarode"
-    },
   ]
 }
