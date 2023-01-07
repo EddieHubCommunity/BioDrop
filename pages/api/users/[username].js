@@ -83,17 +83,6 @@ export default async function handler(req, res) {
     } catch (e) {
       console.log("ERROR creating profile stats", e);
     }
-
-    try {
-      const date = new Date();
-      date.setHours(1, 0, 0, 0);
-      await ProfileStats.create({
-        username,
-        views: [{ views: 1, date: date }],
-      });
-    } catch (e) {
-      console.log("ERROR creating daily stats for profile", e);
-    }
   }
   if (getProfile) {
     try {
@@ -108,35 +97,42 @@ export default async function handler(req, res) {
     } catch (e) {
       console.log("ERROR incrementing profile stats", e);
     }
-
-    try {
-      const date = new Date();
-      date.setHours(1, 0, 0, 0);
-      const stats = await ProfileStats.findOne({ username });
-      if (stats) {
-        const statsTodayIndex = stats.views
-          .map((item) => item.date.toISOString())
-          .indexOf(date.toISOString());
-        if (statsTodayIndex == -1) {
-          stats.views.push({ views: 1, date: date });
-          stats.save();
-        } else {
-          stats.views[statsTodayIndex].views++;
-          stats.save();
-        }
-      } else {
-        await ProfileStats.create({
-          username,
-          views: [{ views: 1, date: date }],
-        });
-      }
-    } catch (e) {
-      console.log("ERROR incrementing daily stats for profile", e);
-    }
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
+  const latestProfile = await Profile.findOne({ username });
+  const getProfileStats = await ProfileStats.findOne({
+    username: username,
+    date: date,
+  });
+  if (getProfileStats) {
+    try {
+      await ProfileStats.updateOne(
+        {
+          username: username,
+          date,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing profile stats", e);
+    }
+  }
+  if (!getProfileStats) {
+    try {
+      await ProfileStats.create({
+        username: username,
+        date,
+        views: 1,
+        profile: latestProfile._id,
+      });
+    } catch (e) {
+      console.log("ERROR creating profile stats", e);
+    }
+  }
 
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
@@ -169,7 +165,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ username, ...data });
   }
 
-  const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
 
   const profileWithStats = {

@@ -1,14 +1,4 @@
 import mongoose from "mongoose";
-const viewSchema = new mongoose.Schema({
-  views: {
-    type: Number,
-    required: true,
-  },
-  date: {
-    type: Date,
-    required: true,
-  },
-});
 
 const profileStatsSchema = new mongoose.Schema({
   username: {
@@ -16,8 +6,16 @@ const profileStatsSchema = new mongoose.Schema({
     required: true,
   },
   views: {
-    type: [viewSchema],
-    default: [],
+    type: Number,
+    default: 0,
+  },
+  date: {
+    type: Date,
+    default: new Date(new Date().toLocaleDateString()),
+  },
+  profile: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "profile",
   },
 });
 
