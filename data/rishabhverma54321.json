@@ -1,0 +1,24 @@
+{
+  "name": "Rishabh Mandawariya",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am excited to continue learning and growing as a front-end developer and contribute my skills to new and challenging projects.",
+  "avatar": "https://github.com/rishabhverma54321.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Rishabhman1999",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/rishabh-mandawariya-5086b2223/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/rishabhverma54321",
+      "icon": "FaGithub"
+    }
+  ]
+}
