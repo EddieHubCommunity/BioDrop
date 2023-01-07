@@ -1,0 +1,19 @@
+{
+  "name": "ABHISHEK R",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web development learner currently working as an data analyst intern, Sports and movies Lover ",
+  "avatar": "https://github.com/SaraJaoude.png",
+   "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Abhishe70336609",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIN",
+      "url": "htttps://www.linkedin.com/in/abhishek-m-r-a6b5b0184",
+      "icon": "FaLinkedIN"
+    }
+  ]
+}
