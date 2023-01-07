@@ -2,7 +2,7 @@
   "name": "Kelvin Parmar",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Learning DevOps, searchinf internship in DevOps",
+  "bio": "Learning DevOps, searching internship in DevOps",
   "avatar": "https://github.com/kelvinparmar.png",
   "links": [
     {
@@ -24,6 +24,6 @@
       "name": "Follow me on Hashnode",
       "url": "https://kelvin-parmar.hashnode.dev/",
       "icon": "FaHashnode"
-    },
+    }
   ]
 }
