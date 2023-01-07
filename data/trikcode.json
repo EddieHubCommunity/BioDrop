@@ -1,0 +1,29 @@
+{
+  "name": "Nobert Patrick",
+  "type": "personal",
+  "bio": " **Full Stack Developer** | **Open Source Contributor!** ",
+  "avatar": "https://res.cloudinary.com/trikerl/image/upload/v1673061467/computer/img-2_ehxqwk.png",
+  "tags": ["Python", ".NET/C#", "Javascript", "Typescript", "C"],
+  "links": [
+    {
+      "name": "GitHub: Let's Collaborate",
+      "url": "https://github.com/Trikcode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LeetCode: Find out More",
+      "url": "https://leetcode.com/NobertPatrick/",
+      "icon": "FaLeetcode"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/trikcode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/nobert-patrick-a3001896/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
