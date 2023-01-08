@@ -1,3 +1,12 @@
+# [1.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.41.1...v1.42.0) (2023-01-07)
+
+
+### Features
+
+* discover random profiles [#2558](https://github.com/EddieHubCommunity/LinkFree/issues/2558) ([#2803](https://github.com/EddieHubCommunity/LinkFree/issues/2803)) ([ab1d8ad](https://github.com/EddieHubCommunity/LinkFree/commit/ab1d8adf38a1f7ff7e5687e4bde6e32175aae8a2))
+
+
+
 ## [1.41.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.41.0...v1.41.1) (2023-01-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docs line break ([#2688](https://github.com/EddieHubCommunity/LinkFree/issues/2688)) ([529c5dc](https://github.com/EddieHubCommunity/LinkFree/commit/529c5dcba084b9d8bdce795d30d767934e9623ad))
-
-
-
-## [1.40.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.6...v1.40.7) (2023-01-05)
-
-
-### Bug Fixes
-
-* testimonial action with jq ([d7481ca](https://github.com/EddieHubCommunity/LinkFree/commit/d7481ca952a5d494c46632eb1aa74c2b5cbb6eb7))
 
 
 
