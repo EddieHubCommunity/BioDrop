@@ -206,6 +206,18 @@ export default function Home({ total, today }) {
                 <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.users)}
+                    <span className="ml-2 text-sm font-medium text-gray-500">
+                      from {abbreviateNumber(total.users - today.users)}
+                    </span>
+                  </div>
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                    <MdArrowUpward
+                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
+                      aria-hidden="true"
+                    />
+
+                    <span className="sr-only">Increased by </span>
+                    {abbreviateNumber(today.users)}
                   </div>
                 </dd>
               </div>
