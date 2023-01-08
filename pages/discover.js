@@ -27,10 +27,9 @@ export default function Popular({ data }) {
       const res = await fetch(
         `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/discover`
       );
-      data = await res.json();
-      setProfiles(data);
+      setProfiles(await res.json());
     } catch (e) {
-      console.log("ERROR loading popular profiles", e);
+      console.log("ERROR refreshing profiles", e);
     }
   };
 
