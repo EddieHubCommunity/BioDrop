@@ -11,7 +11,10 @@ export default async function handler(req, res) {
   const popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(50);
 
   if (popularProfiles.length === 0) {
-    return res.status(404).json([]);
+    return res.status(404).json({
+      popular: [],
+      random: [],
+    });
   }
 
   const directoryPath = path.join(process.cwd(), "data");
