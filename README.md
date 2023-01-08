@@ -2,9 +2,9 @@
 
 # What is LinkFree?
 
-LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community which has a say in where the project is going.
+LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
 
-Your profile will have links to your social media and content. You can also add your timeline, testimonials and upcoming events that you are participating in.
+Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
 
 Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
 
@@ -19,7 +19,7 @@ You have 4 options to contribute to the repo, please pick your favourite from:
 3. Local development
 4. Local development with Docker Compose
 
-Brief documentation below, but full documentation can be found here https://linkfree.eddiehub.io/docs
+Brief documentation is below, but full documentation can be found here https://linkfree.eddiehub.io/docs
 
 ### GitHub UI
 
@@ -27,17 +27,17 @@ This is great if you only want to add your Profile or make changes to it.
 
 Here is the **QuickStart** guide to add your profile https://linkfree.eddiehub.io/docs/quickstart
 
-*note: give extra attention to json formatting and the GitHub Action after you create the Pull Request*
+*note: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request*
 
 ### Gitpod
 
-In the cloud free development environment which will have all the dependencies you need (for example MongoDB).
+In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 ### Local development
 
-This environment is fully on computer, and requires each dependency (for example MongoDB) to be installed and setup, but gives you the most flexiblity for customisation.
+This environment is fully on computer and requires each dependency (for example MongoDB) to be installed and set up, but gives you the most flexibility for customisation.
 
 #### Prerequisites
 
@@ -52,7 +52,7 @@ Before contributing or adding a new feature, please make sure you have already i
 You can set this up locally with the following steps:
 
 1. copy the `.env.example` file to `.env` and update any details required
-1. mongodb is required, it is possible to use `docker-compose up` to start the mongodb service
+1. MongoDB is required, it is possible to use `docker-compose up` to start the MongoDB service
 1. `npm ci`
 1. `npm run dev`
 
@@ -87,7 +87,7 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 
 ## 🧰 Contributing
 
-- Contributions make the open source community such an amazing place to learn, inspire, and create.
+- Contributions make the open source community an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
 - Let's continue contributing to keep the community active and growing.
 
