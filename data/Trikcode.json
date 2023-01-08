@@ -4,13 +4,7 @@
   "displayStatsPublic": true,
   "bio": "Full Stack Developer | **Open Source Contributor**",
   "avatar": "https://github.com/Trikcode.png",
-  "tags": [
-	"Python",
-	".NET/C#",
-	"Javascript",			
-	"Typescript",
-	"Open Source"
-  ],
+  "tags": ["Python", ".NET/C#", "Javascript", "Typescript", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/trikcode" },
     { "icon": "FaGithub", "url": "https://github.com/Trikcode" }
@@ -33,7 +27,7 @@
       "url": "https://github.com/Trikcode",
       "icon": "FaGithub"
     },
-				{
+    {
       "name": "LeetCode: Check Me out",
       "url": "https://leetcode.com/NobertPatrick/",
       "icon": "FaLeetcode"
@@ -43,5 +37,5 @@
       "url": "https://www.linkedin.com/in/nobert-patrick-a3001896/",
       "icon": "FaLinkedin"
     }
-   ]
-  }
+  ]
+}
