@@ -4,16 +4,18 @@
   "displayStatsPublic": true,
   "bio": "**Open Source** Enthusiast | Exploring **DevOps** | **Frontend** Developer",
   "avatar": "https://github.com/Rishav1707.png",
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "Frontend Developer"
-  ],
+  "tags": ["Open Source", "DevOps", "Frontend Developer"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/RishavRaj17Jul" },
     { "icon": "FaGithub", "url": "https://github.com/Rishav1707" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/rishav-raj-aa7256228/" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/harmony2_my_ear/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rishav-raj-aa7256228/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/harmony2_my_ear/"
+    }
   ],
   "links": [
     {
