@@ -27,13 +27,12 @@
     }
   ],
   "milestones": [
-
     {
       "title": "Joined Open Source at 15",
       "date": "September 30 2020",
       "icon": "FaGithub",
       "color": "red",
       "url": "https://github.com/AyushSarode"
-      }
+    }
   ]
 }
