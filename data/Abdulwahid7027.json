@@ -4,18 +4,14 @@
   "type": "personal",
   "bio": "Student • Frontend developer • Open Source Enthusiast • Python • Java",
   "avatar": "https://avatars.githubusercontent.com/u/110891341?s=96&v=4",
-    "tags": [
-    "Web Development",
-    "Html",
-    "Css",
-    "Open Source",
-    "Java",
-    "Python"
-  ],
+  "tags": ["Web Development", "Html", "Css", "Open Source", "Java", "Python"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Abdulwahid7027" },
     { "icon": "FaTwitter", "url": "https://twitter.com/Abdulwahid7027" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/abdul-wahid-shaik-611893259/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abdul-wahid-shaik-611893259/"
+    }
   ],
   "links": [
     {
