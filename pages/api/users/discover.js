@@ -45,14 +45,7 @@ export default async function handler(req, res) {
     try {
       const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-      if (user.displayStatsPublic) {
-        return {
-          ...user,
-          ...profile._doc,
-        };
-      }
-
-      return user;
+      return { ...user, username: profile.username };
     } catch (e) {
       console.log(`ERROR loading profile "${filePath}"`);
       return [];
