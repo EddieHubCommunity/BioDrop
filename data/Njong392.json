@@ -1,8 +1,22 @@
 {
   "name": "Njong Emy",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Technical writer, Front-end developer, student :)",
   "avatar": "https://github.com/Njong392.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "Tailwind CSS",
+    "Technical writing"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/njong_emy" },
+    { "icon": "FaGithub", "url": "https://github.com/Njong392" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/channel/UCY5NlsaRLVTMkfC7BQEj2Pg" },
+     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/njong-emy" }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -16,9 +30,15 @@
     },
     {
       "name": "Check out my LinkedIn profile",
-      "url": "https://www.linkedin.com/in/njong-emy-729764207/",
+      "url": "https://www.linkedin.com/in/njong-emy",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my content on YouTube",
+      "url": "https://youtube.com/channel/UCY5NlsaRLVTMkfC7BQEj2Pg",
+      "icon": "FaYoutube"
     }
+    
   ],
   "milestones": [
     {
@@ -54,7 +74,45 @@
       "date": "2021",
       "icon": "FaDollarSign",
       "color": "grey",
-      "description": "first writing gig"
+      "description": "First writing gig"
+    },
+    {
+      "title": "Second writing job!",
+      "date": "2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Second writing gig"
+    },
+    
+    {
+      "title": "Started my own open source project",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "First open source project"
+    },
+    {
+      "title": "Became an ambassador for GitKraken",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Became ambassador for GitKraken"
+    },
+    {
+      "title": "Started out on YouTube",
+      "date": "2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Posted first video"
+    },
+    {
+      "title": "Became a staff member for 4C",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "Became staff member"
     }
+    
+    
   ]
 }
