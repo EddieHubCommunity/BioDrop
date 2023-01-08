@@ -19,6 +19,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/hongcodes/",
       "icon": "FaLinkedIn"
-    }
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://www.twitch.tv/hongcodes",
+      "icon": "FaTwitch"
+    },
   ]
 }
