@@ -12,7 +12,7 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/krupalitrivedi",
+      "url": "https://github.com/AyushSarode",
       "icon": "FaGithub"
     },
     {
@@ -27,12 +27,13 @@
     }
   ],
   "milestones": [
+
     {
       "title": "Joined Open Source at 15",
       "date": "September 30 2020",
       "icon": "FaGithub",
       "color": "red",
       "url": "https://github.com/AyushSarode"
-    }
+      }
   ]
 }
