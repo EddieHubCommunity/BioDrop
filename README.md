@@ -4,22 +4,22 @@
 
 LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
 
-Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
+Your profile will include links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
 
-Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
+Take a look at an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/624760/207048057-0f8cc74f-cc50-4cb3-b1a9-7e37f1a66d2c.png)
 
 ## 🛠️ Quickstart
 
-You have 4 options to contribute to the repo, please pick your favourite from:
+You have 4 ways to contribute to this repo, please pick your favourite from:
 
 1. GitHub UI (recommended for adding/editing your profile)
 2. Gitpod
 3. Local development
 4. Local development with Docker Compose
 
-Brief documentation is below, but full documentation can be found here https://linkfree.eddiehub.io/docs
+Brief documentation is below, for full documentation can be found here https://linkfree.eddiehub.io/docs
 
 ### GitHub UI
 
