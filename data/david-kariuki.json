@@ -4,6 +4,7 @@
   "type": "personal",
   "bio": "Full Stack Software Engineer",
   "avatar": "https://github.com/david-kariuki.png",
+  
   "links": [
   {
       "name": "Follow me on GitHub",
@@ -25,5 +26,23 @@
       "url": "https://instagram.com/david_kariuki",
       "icon": "FaInstagram"
     }
-  ]
+  ],
+  
+  "tags": [
+    "Open Source",
+    "Software Engineering",
+    "Android Naitive",
+    "Mobile Multiplatform",
+    "Back End Software Engineering",
+    "Version Control",
+    "Code Collaboration",
+    "Front End Development",
+    "Web Based Software Engineering",
+    "Computer Science",
+    "DevOps",
+    "DevRel"
+    "Javascript",
+    "Typescript",  
+    "jQuery"  
+]
 }
