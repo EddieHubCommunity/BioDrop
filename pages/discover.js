@@ -1,6 +1,7 @@
 import Head from "next/head";
 import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
+import { useState } from "react";
 
 export async function getServerSideProps(context) {
   let data = [];
@@ -19,6 +20,20 @@ export async function getServerSideProps(context) {
 }
 
 export default function Popular({ data }) {
+  const [profiles, setProfiles] = useState(data);
+
+  const refreshProfiles = async () => {
+    try {
+      const res = await fetch(
+        `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/discover`
+      );
+      data = await res.json();
+      setProfiles(data);
+    } catch (e) {
+      console.log("ERROR loading popular profiles", e);
+    }
+  };
+
   return (
     <>
       <Head>
@@ -30,12 +45,24 @@ export default function Popular({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Discover LinkFree Profiles</h1>
+        <h1 className="text-2xl md:text-4xl mb-4 font-bold">
+          Discover LinkFree Profiles
+        </h1>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">Random LinkFree Profiles</h2>
+          <div className="flex flex-col md:flex-row gap-3 items-center justify-between mb-4">
+            <h2 className="text-md md:text-xl font-bold">
+              Random LinkFree Profiles
+            </h2>
+            <button
+              className=" text-orange-600 border border-gray-300 font-bold hover:border-orange-600 py-2 text-md md:text-lg px-3 rounded-md "
+              onClick={() => refreshProfiles()}
+            >
+              View More
+            </button>
+          </div>
           <ul className="flex flex-wrap gap-3 justify-center">
-            {data.random.map((profile) => (
+            {profiles.random.map((profile) => (
               <li key={profile.username}>
                 <UserCard profile={profile} />
               </li>
@@ -46,7 +73,7 @@ export default function Popular({ data }) {
         <div className="mb-12">
           <h2 className="text-xl font-bold mb-4">Popular LinkFree Profiles</h2>
           <ul className="flex flex-wrap gap-3 justify-center">
-            {data.popular.map((profile) => (
+            {profiles.popular.map((profile) => (
               <li key={profile.username}>
                 <UserCard profile={profile} />
               </li>
