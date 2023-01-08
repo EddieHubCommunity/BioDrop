@@ -1,8 +1,12 @@
 name: Releases
 on:
-  push:
+  workflow_run:
+    workflows:
+      - Format
     branches:
       - main
+    types:
+      - completed
 
 jobs:
   changelog:
@@ -43,7 +47,7 @@ jobs:
       # create PR using GitHub CLI
       - name: create PR with release info
         id: create-pr
-        run: gh pr create --branch main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
+        run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
