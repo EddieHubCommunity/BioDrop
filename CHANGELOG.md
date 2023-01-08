@@ -1,3 +1,12 @@
+# [1.43.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.42.0...v1.43.0) (2023-01-08)
+
+
+### Features
+
+* total and active users ([#2851](https://github.com/EddieHubCommunity/LinkFree/issues/2851)) ([da4ea67](https://github.com/EddieHubCommunity/LinkFree/commit/da4ea6781139d23856972858ff504c76f4bc7de0))
+
+
+
 # [1.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.41.1...v1.42.0) (2023-01-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * json scheme for profile ([2f1cc98](https://github.com/EddieHubCommunity/LinkFree/commit/2f1cc9889fc4c1960bfecde3921c1b257204ccd2))
-
-
-
-## [1.40.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.7...v1.40.8) (2023-01-05)
-
-
-### Bug Fixes
-
-* docs line break ([#2688](https://github.com/EddieHubCommunity/LinkFree/issues/2688)) ([529c5dc](https://github.com/EddieHubCommunity/LinkFree/commit/529c5dcba084b9d8bdce795d30d767934e9623ad))
 
 
 
