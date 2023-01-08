@@ -1,3 +1,12 @@
+## [1.43.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.43.1...v1.43.2) (2023-01-08)
+
+
+### Bug Fixes
+
+* user cards width ([#2896](https://github.com/EddieHubCommunity/LinkFree/issues/2896)) ([dd72af9](https://github.com/EddieHubCommunity/LinkFree/commit/dd72af9e66186d77e1908628e0b2b0694c994f46))
+
+
+
 ## [1.43.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.43.0...v1.43.1) (2023-01-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * events page ([86b672e](https://github.com/EddieHubCommunity/LinkFree/commit/86b672e3e29e59b51bc827b8f2a261cc1c4c222d))
-
-
-
-# [1.41.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.40.9...v1.41.0) (2023-01-07)
-
-
-### Features
-
-* event filters ([#2687](https://github.com/EddieHubCommunity/LinkFree/issues/2687)) ([574412d](https://github.com/EddieHubCommunity/LinkFree/commit/574412d5fd2285956f2932c908b9526531989cb7)), closes [#2605](https://github.com/EddieHubCommunity/LinkFree/issues/2605) [#2677](https://github.com/EddieHubCommunity/LinkFree/issues/2677)
 
 
 
