@@ -10,7 +10,7 @@
       "url": "https://twitter.com/idesignproblem",
       "icon": "FaTwitter"
     },
-     {
+    {
       "name": "Youtube",
       "url": "https://youtube.com/kapilishere",
       "icon": "FaYouTube"
@@ -20,7 +20,7 @@
       "url": "https://instagram.com/idesignproblem",
       "icon": "FaInstagram"
     },
-     {
+    {
       "name": "LinkedIn",
       "url": "https://linkedin.com/in/kapilmandowra",
       "icon": "FaLinkedin"
@@ -32,4 +32,3 @@
     }
   ]
 }
-
