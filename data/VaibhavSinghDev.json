@@ -4,14 +4,9 @@
   "type": "personal",
   "bio": "Self taught Web Developer | Python | JavaScript",
   "avatar": "https://github.com/VaibhavSinghDev.png",
-  
-  "tags": [
-    "Web Development",
-    "Programming",
-    "Python",
-    "JavaScript"
-  ],
-  
+
+  "tags": ["Web Development", "Programming", "Python", "JavaScript"],
+
   "links": [
     {
       "name": "Twitter",
@@ -29,13 +24,12 @@
       "icon": "FaGithub"
     },
     {
-      
       "name": "Hashnode",
       "url": "https://vaibhavsblog.hashnode.dev",
       "icon": "SiHashnode"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Completed JS Fundamentals track",
@@ -68,4 +62,3 @@
     }
   ]
 }
-
