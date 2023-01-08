@@ -1,5 +1,4 @@
 {
-
   "name": "Ritesh Gharat",
 
   "displayStatsPublic": true,
@@ -11,47 +10,36 @@
   "avatar": "https://github.com/riteshgharat.png",
 
   "links": [
-
-   {
-
+    {
       "name": "Portfolio",
 
       "url": "https://riteshgharat.github.io",
 
       "icon": "FaGlobe"
-
     },
 
     {
-
       "name": "Follow me on Twitter",
 
       "url": "https://twitter.com/riteshgharat05",
 
       "icon": "FaTwitter"
-
     },
 
-      {
-
+    {
       "name": "Follow me on Github",
 
       "url": "https://github.com/riteshgharat",
 
       "icon": "FaGithub"
-
     },
 
-     {
-
+    {
       "name": "Follow me on LinkedIn",
 
       "url": "https://www.linkedin.com/in/ritesh-g-69a0bb238/",
 
       "icon": "FaLinkedIn"
-
     }
-
   ]
-
 }
