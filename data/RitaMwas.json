@@ -4,6 +4,20 @@
   "type": "personal",
   "bio": "Lifelong learner transitioning into tech",
   "avatar": "https://github.com/RitaMwas.png",
+  "tags": [
+    "Python",
+    "C programming"
+    ],
+  "milestones": [
+    {
+      "title": "ALX Software Engineer Program",
+      "date": "September 2022",
+      "icon": "RiMacbookLine",
+      "color": "grey",
+       "description": "Started my software developer journey",
+      "url": "https://github.com/RitaMwas"
+    }
+    ],
   "links": [
     {
       "name": "Follow me on Twitter",
