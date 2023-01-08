@@ -1,0 +1,19 @@
+{
+  "name": "Shailesh Thakur",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Currently a 2nd year Undergrad,interested in project and research internship from abroad",
+  "avatar": "https://github.com/shaileshthakur1.png"
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "hhttps://twitter.com/shylesstwts",
+      "icon": "FaTwitter"
+    },
+{
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur-991316205/",
+      "icon": "FaLinkedIn"
+}
+  ]
+}
