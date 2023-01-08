@@ -10,7 +10,7 @@
     { "icon": "FaLink", "url": "https://manishtyagi.carrd.co/" }
   ],
   "links": [
-      {
+    {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ManishT93598843",
       "icon": "FaTwitter"
@@ -39,6 +39,6 @@
       "name": "Read my blogs!",
       "url": "https://manisht.hashnode.dev/",
       "icon": "SiHashnode"
-    },
+    }
   ]
 }
