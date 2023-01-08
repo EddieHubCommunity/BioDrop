@@ -3,7 +3,7 @@
     "type": "personal",
     "displayStatsPublic": true,
     "bio": "**DevRel Dojo** | Platform Advocate @ Solo.io | DevOps | Kubernetes | Service Mesh | Cloud-Native Open Source",
-    "tags": ["DevRel" "Cloud-Native Open Source", "DevOps", "Kubernetes", "Service Mesh", "Networking"],
+    "tags": ["DevRel", "Cloud-Native Open Source", "DevOps", "Kubernetes", "Service Mesh", "Networking"],
     "socials": [
       { "icon": "FaTwitter", "url": "https://twitter.com/virtualized6ix" },
       { "icon": "FaGithub", "url": "https://github.com/distributethe6ix" },
@@ -39,8 +39,8 @@
       {
         "name": "Youtube",
         "url": "https://www.youtube.com/@marinowijay/streams",
-        "icon": "FaYouTube"
-      }
+        "icon": "FaYoutube"
+      },
       {
         "name": "Twitch",
         "url": "https://www.twitch.tv/virtualized6ix",
