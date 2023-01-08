@@ -1,0 +1,24 @@
+{
+  "name": "Angel Mba",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Enthusiastic front end developer and studen",
+  "avatar": "https://pbs.twimg.com/profile_images/1577399378729439264/GcKWfEp3_400x400.jpg",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tech__angel",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/angel-mba-michelle",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://twitter.com/Michelle031",
+      "icon": "FaGithub"
+    }
+  ]
+}

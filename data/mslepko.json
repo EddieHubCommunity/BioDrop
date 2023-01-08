@@ -1,0 +1,34 @@
+{
+  "name": "Michal Slepko",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Senior web developer | Junior content creator and streamer | Dad",
+  "avatar": "https://github.com/mslepko.png",
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/michal.codes/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Tiktok",
+      "url": "https://www.tiktok.com/@michal.codes",
+      "icon": "FaTiktok"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/michal_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@michal_codes",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://michalslepko.dev",
+      "icon": "FaLaptopCode"
+    }
+  ]
+}
