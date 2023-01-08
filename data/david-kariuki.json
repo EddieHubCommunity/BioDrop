@@ -1,0 +1,14 @@
+{
+  "name": "David Kariuki",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Software Engineer",
+  "avatar": "https://github.com/david-kariuki.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/davidkariuki_",
+      "icon": "FaTwitter"
+    }
+  ]
+}
