@@ -1,9 +1,9 @@
-## 1.44.2 (2023-01-09)
+## 1.44.3 (2023-01-09)
 
 
 ### Bug Fixes
 
-* changelog for pull request ([a9d178a](https://github.com/EddieHubCommunity/LinkFree/commit/a9d178ad4c1a428c47bda6b79c87e0f92981fe72))
+* release action syntax ([86edc63](https://github.com/EddieHubCommunity/LinkFree/commit/86edc63c4ec0d8a54211a1c562a215e22e622082))
 
 
 
