@@ -55,16 +55,26 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: DEBUG
-      #   run: echo ${{ toJSON(steps.changelog.outputs) }}
+      - name: DEBUG
+        run: echo ${{ fromJson(steps.myRequest.outputs).clean_changelog }}
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
         uses: actions/create-release@v1
-        if: steps.changelog.outputs.skipped == 'false'
+        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.myRequest.outputs).clean_changelog != ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
+
+      - name: create release with last commit
+        uses: actions/create-release@v1
+        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.myRequest.outputs).clean_changelog == ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: "JSON data files"
