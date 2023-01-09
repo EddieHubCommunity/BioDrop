@@ -3,12 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "I'm a DevOps Engineer | Avacado Folk 🥑 | Believes in Code, Community, Content, Coffee",
-  "tags": [
-    "DevOps",
-    "Kubernetes",
-    "Cloud Native",
-    "DevRel"
-  ],
+  "tags": ["DevOps", "Kubernetes", "Cloud Native", "DevRel"],
   "avatar": "https://github.com/karnatisrinivas.png",
   "socials": [
     {
