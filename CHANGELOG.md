@@ -1,7 +1,8 @@
-# 1.44.0 (2023-01-09)
 
+## 1.44.6 (2023-01-09)
 
 ### Bug Fixes
+
 
 * (Accessibility) Links need distiguishing ([#1449](https://github.com/EddieHubCommunity/LinkFree/issues/1449)) ([73b79f8](https://github.com/EddieHubCommunity/LinkFree/commit/73b79f8755544970f08be961ffad45f75c06bf8d))
 * Abhinav Dubey ([#806](https://github.com/EddieHubCommunity/LinkFree/issues/806)) ([540452f](https://github.com/EddieHubCommunity/LinkFree/commit/540452f727e378596c03a220052e750b0f84ba0b))
@@ -809,6 +810,5 @@
 ### Reverts
 
 * Revert "chore: removed docker file to test deployment" ([3dbd7e5](https://github.com/EddieHubCommunity/LinkFree/commit/3dbd7e51288161f881d235169232de43c3de20ec))
-
-
-
+=======
+* gh release action ([#2958](https://github.com/EddieHubCommunity/LinkFree/issues/2958)) ([a67fe97](https://github.com/EddieHubCommunity/LinkFree/commit/a67fe97d764e25d439c2797d036590b08c911d26))
