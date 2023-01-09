@@ -1,0 +1,29 @@
+{
+    "name": "Tanvi Saini",
+    "type": "personal",
+    "displayStatsPublic": true,
+    "bio": "**MERN-Stack Developer | Cloud-Computing",
+    "tags": ["ReactJS", "JavaScript", "Cloud", "MongoDB", "NodeJS"],
+    "socials": [
+      { "icon": "FaTwitter", "url": "https://twitter.com/" },
+      { "icon": "FaGithub", "url": "https://github.com/theleocodes" }
+    ],
+    "links": [
+        {
+          "name": "Follow me on GitHub",
+          "url": "https://github.com/adityassharma-ss",
+          "icon": "FaGithub"
+        },
+        {
+          "name": "Follow me on Twitter",
+          "url": "https://twitter.com/",
+          "icon": "FaTwitter"
+        },
+        {
+          "name": "Connect with me on LinkedIn",
+          "url": "https://www.linkedin.com/in/tanvi-saini-0239b5213/",
+          "icon": "FaLinkedin"
+        }
+      ]
+  }
+  
