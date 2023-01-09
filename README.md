@@ -19,7 +19,7 @@ You have 4 ways to contribute to this repo, please pick your favourite from:
 3. Local development
 4. Local development with Docker Compose
 
-Brief documentation is below, for full documentation checkout: https://linkfree.eddiehub.io/docs
+Brief documentation is below, the full documentation can be found here https://linkfree.eddiehub.io/docs
 
 ### GitHub UI
 
@@ -72,7 +72,6 @@ This will allow you to run your favourite IDE but not have to install any depend
 ### 🙂 How to add YOUR Profile
 
 Step by step quickstart guide is given in the full docs here https://linkfree.eddiehub.io/docs/quickstart
-
 
 ---
 
