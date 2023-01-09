@@ -1,0 +1,12 @@
+{
+    "isVirtual": true,
+    "isInPerson": true,
+    "color": "green",
+    "name": "Google DevFest Bhopal",
+    "description": "This year, your DevFest will feature leading experts on Google technologies in areas like User Interfaces, Angular, Android Development, Building TV Apps by Flutter, SEO, Building a Chrome Extension, and so much including game activities like Guessing the Logo, and Guessing the Founder!",
+    "date": {
+        "start": "2022-12-18T10:00:00.000+00:00",
+        "end": "2022-12-18T17:30:00.000+00:00"
+    },
+    "url": "https://devfest.gdgbhopal.com"
+}
