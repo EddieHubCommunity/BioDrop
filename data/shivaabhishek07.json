@@ -24,11 +24,11 @@
       "name": "Blogs",
       "url": "https://shiva71.hashnode.dev/",
       "icon": "SiHashnode"
-    }
+    },
     {
       "name": "Checkout my DevOps learnings repo",
       "url": "https://www.github.com/shivaabhishek07/DevOps",
       "icon": "FaGithub"
-    },
+    }
   ]
 }
