@@ -1,0 +1,44 @@
+{
+  "name": "D S Rajesh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "An enthusiastic Tech Student. I develop softwares and websites, currently working on Full Stack Web Development.",
+  "avatar": "https://avatars.githubusercontent.com/u/104376917?s=400&u=932affed6d49d8afa5a12ebf2cf9b723f3db51eb&v=4",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/devangamsajjarajesh",
+      "icon": "faLinkedin"
+    }
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Rajeshds20",
+      "icon": "FaGithub"
+    }
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rajeshds55",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/dsrajesh20",
+      "icon": "FaInstagram"
+    }
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/dsrajesh71",
+      "icon": "FaHackerrank"
+    }
+    {
+      "name": "Codechef",
+      "url": "https://www.codechef.com/users/rajeshds",
+      "icon": "FaCodechef"
+    }
+    {
+      "name": "Email",
+      "url": "dsrajesh71@gmail.com",
+      "icon": "FaEmail"
+    }
+  ]
+}
