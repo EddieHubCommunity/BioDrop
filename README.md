@@ -71,7 +71,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 ### 🙂 How to add YOUR Profile
 
-Step by step quickstart guide is given in the full docs here https://linkfree.eddiehub.io/docs/quickstart
+Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
 ---
 
