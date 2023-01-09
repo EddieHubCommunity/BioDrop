@@ -7,6 +7,11 @@ on:
       - main
     types:
       - completed
+    paths-ignore:
+      - "data/**.json"
+
+concurrency:
+  group: "release"
 
 jobs:
   changelog:
