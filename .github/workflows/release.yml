@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       # Create a temporary, uniquely named branch to push release info to
       - name: create temporary branch
         uses: peterjgrainger/action-create-branch@v2.2.0
@@ -27,11 +26,9 @@ jobs:
       # check out the repository afterwards
       - uses: actions/checkout@v3
 
-
       # fetch branches and switch to the temporary branch
       - name: debug
         run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
-
 
       # create release info and push it upstream
       - name: conventional Changelog Action
@@ -59,12 +56,22 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # release info is now in main so we can continue as before
-      - name: create release
+      - name: create release with changelog
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        if: ${{ steps.changelog.outputs.skipped == 'false' }} && ${{ steps.changelog.outputs.clean_changelog != '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
+
+      - name: create release with last commit
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }} && ${{ steps.changelog.outputs.clean_changelog == '' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: "JSON data file changes"
