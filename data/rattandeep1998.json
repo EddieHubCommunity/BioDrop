@@ -3,7 +3,13 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Developer | Researcher | Innovator | NSIT Student",
-  "tags": ["Open Source", "Software Developer", "iOS", "Machine Learning", "Artificial Intelligence"],
+  "tags": [
+    "Open Source",
+    "Software Developer",
+    "iOS",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rattandeep1998" },
     { "icon": "FaGithub", "url": "https://github.com/rattandeep1998" },
