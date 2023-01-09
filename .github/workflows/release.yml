@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # fetch branches and switch to the temporary branch
-      - name: debug
+      - name: switch to new branch
         run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
 
       # create release info and push it upstream
@@ -54,6 +54,9 @@ jobs:
         run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: DEBUG
+        run: echo ${{ steps.changelog.outputs.clean_changelog }}
 
       # release info is now in main so we can continue as before
       - name: create release with changelog
