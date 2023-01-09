@@ -1,5 +1,5 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
-
+<a name="readme-top"></a>
 # What is LinkFree?
 
 LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
@@ -20,7 +20,7 @@ You have 4 options to contribute to the repo, please pick your favourite from:
 4. Local development with Docker Compose
 
 Brief documentation is below, but full documentation can be found here https://linkfree.eddiehub.io/docs
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### GitHub UI
 
 This is great if you only want to add your Profile or make changes to it.
@@ -46,7 +46,7 @@ Before contributing or adding a new feature, please make sure you have already i
 - [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v16.17.0)
 - [MongoDB](https://www.mongodb.com/home)
 - Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 #### Commands
 
 You can set this up locally with the following steps:
@@ -68,7 +68,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 #### Commands
 
 1. `docker-compose up`
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### 🙂 How to add YOUR Profile
 
 Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
@@ -94,3 +94,4 @@ LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for
 ## 🙏 Support
 
 Don't forget to leave a star ⭐️
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
