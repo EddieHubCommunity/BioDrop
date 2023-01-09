@@ -55,8 +55,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: DEBUG
-        run: echo ${{ toJSON(steps.changelog.outputs) }}
+      # - name: DEBUG
+      #   run: echo ${{ toJSON(steps.changelog.outputs) }}
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
