@@ -30,7 +30,7 @@ export default async function handler(req, res) {
       },
     },
     {
-      $limit: 50,
+      $limit: 20,
     },
   ]);
 

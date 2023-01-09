@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   await connectMongo();
 
   // get popular profiles
-  const popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(50);
+  const popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(20);
 
   if (popularProfiles.length === 0) {
     return res.status(404).json([]);
@@ -35,6 +35,6 @@ export default async function handler(req, res) {
     }
   });
 
-  const selectedPopularProfiles = fullPopularProfiles.slice(0, 10);
+  const selectedPopularProfiles = fullPopularProfiles.slice(0, 5);
   res.status(200).json(selectedPopularProfiles);
 }
