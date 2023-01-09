@@ -1,0 +1,57 @@
+{
+  "name": "Marino Wijay",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**DevRel Dojo** | Platform Advocate @ Solo.io | DevOps | Kubernetes | Service Mesh | Cloud-Native Open Source",
+  "tags": [
+    "DevRel",
+    "Cloud-Native Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Service Mesh",
+    "Networking"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/virtualized6ix" },
+    { "icon": "FaGithub", "url": "https://github.com/distributethe6ix" },
+    { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/mwijay/" }
+  ],
+  "avatar": "https://github.com/distributethe6ix.png",
+  "links": [
+    {
+      "name": "DevRel thoughts, Kubernetes, Service Mesh, and Fun",
+      "url": "https://twitter.com/virtualized6ix",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my GitHub Randomness",
+      "url": "https://github.com/distributethe6ix",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me along for #70DaysOfServiceMesh!!!",
+      "url": "https://github.com/distributethe6ix/70DaysOfServiceMesh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mwijay/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Tech Blogs",
+      "url": "https://marinow.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@marinowijay/streams",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/virtualized6ix",
+      "icon": "FaTwitch"
+    }
+  ]
+}
