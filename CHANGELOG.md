@@ -1,3 +1,12 @@
+## [1.43.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.43.3...v1.43.4) (2023-01-09)
+
+
+### Bug Fixes
+
+* license year ([#2911](https://github.com/EddieHubCommunity/LinkFree/issues/2911)) ([f21f74a](https://github.com/EddieHubCommunity/LinkFree/commit/f21f74a1649bf2e86e4cb75b09c91d9fee29f2cd))
+
+
+
 ## [1.43.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.43.2...v1.43.3) (2023-01-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * total and active users ([#2851](https://github.com/EddieHubCommunity/LinkFree/issues/2851)) ([da4ea67](https://github.com/EddieHubCommunity/LinkFree/commit/da4ea6781139d23856972858ff504c76f4bc7de0))
-
-
-
-# [1.42.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.41.1...v1.42.0) (2023-01-07)
-
-
-### Features
-
-* discover random profiles [#2558](https://github.com/EddieHubCommunity/LinkFree/issues/2558) ([#2803](https://github.com/EddieHubCommunity/LinkFree/issues/2803)) ([ab1d8ad](https://github.com/EddieHubCommunity/LinkFree/commit/ab1d8adf38a1f7ff7e5687e4bde6e32175aae8a2))
 
 
 
