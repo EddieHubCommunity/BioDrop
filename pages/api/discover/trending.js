@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     {
       $match: {
         date: {
-          $gte: new Date(new Date().setDate(new Date().getDate() - 28)),
+          $gte: new Date(new Date().setDate(new Date().getDate() - 1)),
         },
       },
     },
@@ -60,6 +60,6 @@ export default async function handler(req, res) {
       return [];
     }
   });
-  const slicedProfiles = profiles.slice(0, 10);
+  const slicedProfiles = profiles.slice(0, 5);
   res.status(200).json(slicedProfiles);
 }

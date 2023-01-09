@@ -3,14 +3,36 @@ import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
-  let data = [];
+  let data = {
+    popular: [],
+    random: [],
+    trending: [],
+  };
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/discover`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/popular`
     );
-    data = await res.json();
+    data.popular = await res.json();
   } catch (e) {
     console.log("ERROR loading popular profiles", e);
+  }
+
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/random`
+    );
+    data.random = await res.json();
+  } catch (e) {
+    console.log("ERROR loading random profiles", e);
+  }
+
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/trending`
+    );
+    data.trending = await res.json();
+  } catch (e) {
+    console.log("ERROR loading trending profiles", e);
   }
 
   return {
@@ -36,6 +58,19 @@ export default function Popular({ data }) {
           <h2 className="text-xl font-bold mb-4">Random LinkFree Profiles</h2>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.random.map((profile) => (
+              <li key={profile.username}>
+                <UserCard profile={profile} />
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="mb-12">
+          <h2 className="text-xl font-bold mb-4">
+            Last 24 hrs Trending LinkFree Profiles
+          </h2>
+          <ul className="flex flex-wrap gap-3 justify-center">
+            {data.trending.map((profile) => (
               <li key={profile.username}>
                 <UserCard profile={profile} />
               </li>

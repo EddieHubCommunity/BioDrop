@@ -20,12 +20,6 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
-
-    {
-      name: "Popular profiles of the month",
-      url: "/recentPopular",
-    },
-
     {
       name: "Search",
       url: "/search",
