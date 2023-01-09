@@ -405,7 +405,6 @@ export default function Home({ total, today }) {
                             />
                           </span>
                         </div>
-
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
                           <Link
                             href={feature.path}
