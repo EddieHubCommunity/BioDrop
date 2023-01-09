@@ -58,16 +58,6 @@ jobs:
       # release info is now in main so we can continue as before
       - name: create release with changelog
         uses: actions/create-release@v1
-        if: steps.changelog.outputs.skipped == 'false' && steps.changelog.outputs.clean_changelog != ''
-        env:
-          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
-
-      - name: create release with last commit
-        uses: actions/create-release@v1
         if: steps.changelog.outputs.skipped == 'false' && steps.changelog.outputs.clean_changelog == ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
@@ -75,3 +65,13 @@ jobs:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: "JSON data file changes"
+
+      - name: create release with last commit
+        uses: actions/create-release@v1
+        if: steps.changelog.outputs.skipped == 'false' && steps.changelog.outputs.clean_changelog != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
