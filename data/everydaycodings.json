@@ -4,9 +4,17 @@
   "type": "personal",
   "bio": "Freelance Python Developer | **Aspiring Machine Learning Engineer**| Medium Writer",
   "avatar": "https://github.com/everydaycodings.png",
-  "tags": ["Python Developer", "Machine Learning Engineer", "Tech Writer", "Open Source"],
+  "tags": [
+    "Python Developer",
+    "Machine Learning Engineer",
+    "Tech Writer",
+    "Open Source"
+  ],
   "socials": [
-    { "icon": "FaLinkdin", "url": "https://www.linkedin.com/in/kumar-saksham1891" },
+    {
+      "icon": "FaLinkdin",
+      "url": "https://www.linkedin.com/in/kumar-saksham1891"
+    },
     { "icon": "FaGithub", "url": "https://github.com/everydaycodings" }
   ],
   "links": [
@@ -41,5 +49,4 @@
       "icon": "FaInstagram"
     }
   ]
-
 }
