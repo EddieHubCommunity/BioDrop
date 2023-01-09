@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "An enthusiastic Tech Student. I develop softwares and websites, currently working on Full Stack Web Development.",
-  "avatar": "https://www.github.com/rajeshds20.png",
+  "avatar": "https://github.com/rajeshds20.png",
   "links": [
     {
       "name": "LinkedIn",
@@ -28,7 +28,7 @@
     {
       "name": "HashNode",
       "url": "https://rajeshds.hashnode.dev",
-      "icon": "FaHashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Medium",
@@ -48,12 +48,12 @@
     {
       "name": "Codechef",
       "url": "https://www.codechef.com/users/rajeshds",
-      "icon": "FaCodechef"
+      "icon": "SiCodechef"
     },
     {
       "name": "Email",
       "url": "dsrajesh71@gmail.com",
-      "icon": "FaEmail"
+      "icon": "FaEnvelope"
     }
   ]
 }
