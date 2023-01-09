@@ -13,12 +13,12 @@
     {
       "name": "My GitHub Profile",
       "url": "https://github.com/KrishJ4856",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "name": "I write technical blogs here",
       "url": "https://krishwebdev.hashnode.dev",
-      "icon": "FaHashnode"
+      "icon": "SiHashnode"
     }
   ]
 }
