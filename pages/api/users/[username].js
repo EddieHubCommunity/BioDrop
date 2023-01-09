@@ -4,6 +4,7 @@ import path from "path";
 import Profile from "../../../models/Profile";
 import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
+import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -100,6 +101,38 @@ export default async function handler(req, res) {
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
+  const latestProfile = await Profile.findOne({ username });
+  const getProfileStats = await ProfileStats.findOne({
+    username: username,
+    date: date,
+  });
+  if (getProfileStats) {
+    try {
+      await ProfileStats.updateOne(
+        {
+          username: username,
+          date,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing profile stats", e);
+    }
+  }
+  if (!getProfileStats) {
+    try {
+      await ProfileStats.create({
+        username: username,
+        date,
+        views: 1,
+        profile: latestProfile._id,
+      });
+    } catch (e) {
+      console.log("ERROR creating profile stats", e);
+    }
+  }
 
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
@@ -132,7 +165,6 @@ export default async function handler(req, res) {
     return res.status(200).json({ username, ...data });
   }
 
-  const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
 
   const profileWithStats = {
