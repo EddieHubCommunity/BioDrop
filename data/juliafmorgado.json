@@ -13,11 +13,9 @@
       "url": "https://www.linkedin.com/in/juliafmorgado"
     },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
-    {
-      "icon": "FaInstagram",
-      "url": "https://www.instagram.com/juliafmorgado/"
-    }
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
   ],
+  "testimonials": ["eddiejaoude", "payalpm"],
   "links": [
     {
       "name": "Main website",

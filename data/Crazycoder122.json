@@ -1,0 +1,19 @@
+{
+  "name": "Krishnendu Dasgupta",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Programmer by passion and also a Musician. Trying to solve the toughest Algorithms of life through Music..",
+  "avatar": "https://github.com/Crazycoder122.png",
+  "links": [
+    {
+      "name": "Krishnendu Dasgupta",
+      "url": "https://twitter.com/KrishnenduDG",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Krishnendu Dasgupta",
+      "url": "https://www.linkedin.com/in/krishnendudg/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

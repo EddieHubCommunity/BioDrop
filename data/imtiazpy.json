@@ -22,9 +22,19 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Github",
+      "name": "Checkout my Github",
       "url": "https://github.com/imtiazpy",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my Codepen",
+      "url": "https://codepen.io/imtiazpy",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/imtiazpy",
+      "icon": "FaHackerrank"
     }
   ]
 }

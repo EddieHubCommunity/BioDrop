@@ -1,0 +1,39 @@
+{
+  "name": "Kimberly Pangilinan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "BS in Information Tech Student | * Aspiring * Web Developer and Designer | Still Learning",
+  "avatar": "https://github.com/KimberlyPangilinan.png",
+  "tags": ["HTML", "CSS", "JavaScript", "PHP"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/kpangilinan_dev" },
+    { "icon": "FaGithub", "url": "https://github.com/KimberlyPangilinan" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@kimberlypangilinan"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kpangilinan_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@kimberlypangilinan",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/KimberlyPangilinan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/kimberlypangilinan",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

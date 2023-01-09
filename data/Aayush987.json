@@ -1,0 +1,24 @@
+{
+  "name": "Aayush Sharma",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "An aspiring developer who loves to build new things and do open source. Primarily interest lies in web development.",
+  "avatar": "https://github.com/Aayush987.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Aayush47163",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/aayush-sharma967",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Aayush987",
+      "icon": "FaGithub"
+    }
+  ]
+}
