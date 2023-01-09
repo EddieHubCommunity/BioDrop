@@ -8,6 +8,9 @@ on:
     types:
       - completed
 
+concurrency:
+  group: "release"
+
 jobs:
   changelog:
     runs-on: ubuntu-latest
