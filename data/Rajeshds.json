@@ -3,38 +3,53 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "An enthusiastic Tech Student. I develop softwares and websites, currently working on Full Stack Web Development.",
-  "avatar": "https://avatars.githubusercontent.com/u/104376917?s=400&u=932affed6d49d8afa5a12ebf2cf9b723f3db51eb&v=4",
+  "avatar": "https://www.github.com/rajeshds20.png",
   "links": [
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/devangamsajjarajesh",
-      "icon": "faLinkedin"
-    }
+      "icon": "FaLinkedin" 
+    },
     {
       "name": "GitHub",
       "url": "https://github.com/Rajeshds20",
       "icon": "FaGithub"
-    }
+    },
     {
       "name": "Twitter",
       "url": "https://twitter.com/rajeshds55",
       "icon": "FaTwitter"
-    }
+    },
     {
       "name": "Instagram",
-      "url": "https://www.instagram.com/dsrajesh20",
+      "url": "https://www.instagram.com/rajeshds20",
       "icon": "FaInstagram"
-    }
+    },
+    {
+      "name": "HashNode",
+      "url": "https://rajeshds.hashnode.dev",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Medium",
+      "url": "https://rajeshds.medium.com",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Dev Community",
+      "url": "https://dev.to/rajeshds",
+      "icon": "FaDev"
+    },
     {
       "name": "HackerRank",
       "url": "https://www.hackerrank.com/dsrajesh71",
       "icon": "FaHackerrank"
-    }
+    },
     {
       "name": "Codechef",
       "url": "https://www.codechef.com/users/rajeshds",
       "icon": "FaCodechef"
-    }
+    },
     {
       "name": "Email",
       "url": "dsrajesh71@gmail.com",
