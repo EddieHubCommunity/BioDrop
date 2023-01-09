@@ -67,7 +67,7 @@ export default function Popular({ data }) {
 
         <div className="mb-12">
           <h2 className="text-xl font-bold mb-4">
-            Last 24 hrs Trending LinkFree Profiles
+            Trending LinkFree Profiles (last 24 hours)
           </h2>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.trending.map((profile) => (
