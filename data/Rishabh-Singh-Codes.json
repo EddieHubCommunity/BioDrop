@@ -6,7 +6,7 @@
    "tags": ["Open Source", "Javascript", "MERN", "Full Stack Developer"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Rishabh8Singh" },
-    { "icon": "FaGithub", "url": "https://github.com/Rishabh-Singh-Codes" },
+    { "icon": "FaGithub", "url": "https://github.com/Rishabh-Singh-Codes" }
   ],
   "avatar": "https://github.com/Rishabh-Singh-Codes.png",
   "links": [
@@ -20,7 +20,7 @@
       "name": "Github: Personal projects and Open Source",
       "url": "https://github.com/Rishabh-Singh-Codes",
       "icon": "FaGithub"
-    },
+    }
   ],
   "milestones": [
     {
