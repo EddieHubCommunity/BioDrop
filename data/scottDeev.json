@@ -1,0 +1,32 @@
+{
+  "name": "Ameh Elijah Uma-ojo"
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "FRONTEND DEV - JavaScript || React || Firebase || TailwindCSS",
+  "avatar": "https://github.com/scottDeev.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/ElijahLauren" },
+    { "icon": "FaGithub", "url": "https://github.com/scottDeev" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ameh-elijah-6304bb193"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ElijahLauren",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishek-gupta-95275b233",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/scottDeev" ,
+      "icon": "FaGithub"
+    }
+  ]
+}
