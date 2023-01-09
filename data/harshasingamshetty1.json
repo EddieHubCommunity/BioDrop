@@ -1,0 +1,20 @@
+{
+  "name": "Harsha Singamshetty",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Blockchain Dev!",
+  "avatar": "https://github.com/harshasingamshetty1.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HarshaSingam29",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsha-vardhan-singamshetty-3a1a911b1/",
+      "icon": "FaLinkedin"
+    }
+  ]
+
+}
