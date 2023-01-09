@@ -58,7 +58,7 @@ jobs:
       # release info is now in main so we can continue as before
       - name: create release with changelog
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }} && ${{ steps.changelog.outputs.clean_changelog != '' }}
+        if: steps.changelog.outputs.skipped == 'false' && steps.changelog.outputs.clean_changelog != ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
@@ -68,7 +68,7 @@ jobs:
 
       - name: create release with last commit
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }} && ${{ steps.changelog.outputs.clean_changelog == '' }}
+        if: steps.changelog.outputs.skipped == 'false' && steps.changelog.outputs.clean_changelog == ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
