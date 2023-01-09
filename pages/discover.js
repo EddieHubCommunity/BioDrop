@@ -2,6 +2,7 @@ import Head from "next/head";
 import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
 import { useState } from "react";
+import { TbRefresh } from "react-icons/tb"
 
 export async function getServerSideProps(context) {
   let data = [];
@@ -54,10 +55,11 @@ export default function Popular({ data }) {
               Random LinkFree Profiles
             </h2>
             <button
-              className=" text-orange-600 border border-gray-300 font-bold hover:border-orange-600 py-2 text-md md:text-lg px-3 rounded-md "
+              className="flex gap-3 items-center text-orange-600 border border-gray-300 font-bold hover:border-orange-600 py-2 text-md md:text-lg px-3 rounded-md "
               onClick={() => refreshProfiles()}
             >
-              View More
+              <TbRefresh />
+              Refresh
             </button>
           </div>
           <ul className="flex flex-wrap gap-3 justify-center">
