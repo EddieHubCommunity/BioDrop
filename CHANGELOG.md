@@ -1,9 +1,9 @@
-# 1.45.0 (2023-01-09)
+## 1.45.1 (2023-01-09)
 
 
-### Features
+### Bug Fixes
 
-* trending profiles ([#2927](https://github.com/EddieHubCommunity/LinkFree/issues/2927)) ([0639a9f](https://github.com/EddieHubCommunity/LinkFree/commit/0639a9f167c3b2856bf698157e46fd07db657905)), closes [#2691](https://github.com/EddieHubCommunity/LinkFree/issues/2691) [#2888](https://github.com/EddieHubCommunity/LinkFree/issues/2888)
+* random profile refresh ([#2996](https://github.com/EddieHubCommunity/LinkFree/issues/2996)) ([1c9f4f0](https://github.com/EddieHubCommunity/LinkFree/commit/1c9f4f0ce047d1df31a5da7a4bee27e8e47a4b21))
 
 
 
