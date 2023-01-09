@@ -56,12 +56,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: DEBUG
-        run: echo ${{ steps.myRequest.outputs.clean_changelog }}
+        run: echo ${{ steps.changelog.outputs.clean_changelog }}
+      - name: DEBUG 2
+        run: echo ${{ fromJson(steps.changelog.outputs).clean_changelog }}
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
         uses: actions/create-release@v1
-        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.myRequest.outputs).clean_changelog != ''
+        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.changelog.outputs).clean_changelog != ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
@@ -71,7 +73,7 @@ jobs:
 
       - name: create release with json data files
         uses: actions/create-release@v1
-        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.myRequest.outputs).clean_changelog == ''
+        if: steps.changelog.outputs.skipped == 'false' && fromJson(steps.changelog.outputs).clean_changelog == ''
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
