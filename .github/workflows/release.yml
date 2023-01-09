@@ -56,8 +56,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: DEBUG
-        run: echo ${{ steps.changelog.outputs.clean_changelog }}
-      - name: DEBUG 2
         run: echo ${{ fromJson(steps.changelog.outputs).clean_changelog }}
 
       # release info is now in main so we can continue as before
