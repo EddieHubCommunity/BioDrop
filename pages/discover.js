@@ -38,18 +38,16 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Popular({ data }) {
+export default function Popular({ data, BASE_URL }) {
   const [randomProfiles, setRandomProfiles] = useState(data.random);
 
   const fetchRandom = async () => {
     try {
-      const res = await fetch(
-        `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/random`
-      );
+      const res = await fetch(`${BASE_URL}/api/discover/random`);
       setRandomProfiles(await res.json());
     } catch (e) {
       console.log("ERROR refreshing profiles", e);
