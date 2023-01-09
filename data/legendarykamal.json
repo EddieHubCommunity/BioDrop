@@ -1,11 +1,19 @@
 {
-  "name": "Kamal Singh",  
+  "name": "Kamal Singh",
   "displayStatsPublic": true,
   "type": "personal",
-  "tags": ["NextJS", "typescript", "ReactJS", "tailwindCSS", "web3", "DevOps", "Open Source"],
+  "tags": [
+    "NextJS",
+    "typescript",
+    "ReactJS",
+    "tailwindCSS",
+    "web3",
+    "DevOps",
+    "Open Source"
+  ],
   "bio": "MERN FullStack Developer turned into **Blockchain developer**. Create Apps , Dapps  , Travel , Life",
   "avatar": "https://github.com/legendarykamal.png",
-   "socials": [
+  "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/0xkamal7" },
     { "icon": "FaGithub", "url": "https://github.com/legendarykamal" },
     {
@@ -67,6 +75,5 @@
       "description": "Became a **GitHub** Open Source Contributor",
       "url": "https://github.com/legendarykamal"
     }
-    
-   ]
+  ]
 }
