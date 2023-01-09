@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Non-Tech -> **Full Stack Developer** | Learner | Explorer ",
-   "tags": ["Open Source", "Javascript", "MERN", "Full Stack Developer"],
+  "tags": ["Open Source", "Javascript", "MERN", "Full Stack Developer"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Rishabh8Singh" },
     { "icon": "FaGithub", "url": "https://github.com/Rishabh-Singh-Codes" }
