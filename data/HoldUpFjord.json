@@ -11,7 +11,7 @@
     "Node.js",
     "Tailwind",
     "React",
-    "MongoDb",
+    "MongoDb"
     ],
   
   "links": [
@@ -30,7 +30,7 @@
     }, {
       "name": "Here's my personal/portfolio site",
       "url": "https://dominickjmonaco.netlify.app/",
-      "icon": "FaTwitter"
+      "icon": "FaAngleDoubleRight"
     }, {
       "name": "Read my tech-blog if you want a better idea of how I think",
       "url": "https://dominickjmonaco.hashnode.dev/",
