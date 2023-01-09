@@ -1,9 +1,9 @@
-## 1.44.10 (2023-01-09)
+## 1.44.11 (2023-01-09)
 
 
 ### Bug Fixes
 
-* debug gh action ([#2968](https://github.com/EddieHubCommunity/LinkFree/issues/2968)) ([fdce32b](https://github.com/EddieHubCommunity/LinkFree/commit/fdce32b90b4ae237d8ac0cbcdce14514363d6b8c))
+* removed debug action code ([#2970](https://github.com/EddieHubCommunity/LinkFree/issues/2970)) ([9d0c8a2](https://github.com/EddieHubCommunity/LinkFree/commit/9d0c8a25329c08a33c3529bd4b12fe9654526735))
 
 
 
