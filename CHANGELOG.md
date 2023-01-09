@@ -1,9 +1,9 @@
-## 1.44.5 (2023-01-09)
+## 1.44.6 (2023-01-09)
 
 
 ### Bug Fixes
 
-* debugging gh action ([#2953](https://github.com/EddieHubCommunity/LinkFree/issues/2953)) ([1b14a60](https://github.com/EddieHubCommunity/LinkFree/commit/1b14a608e3e0a0532a3dd371d0bcd3e9d779ec11))
+* gh release action ([#2958](https://github.com/EddieHubCommunity/LinkFree/issues/2958)) ([a67fe97](https://github.com/EddieHubCommunity/LinkFree/commit/a67fe97d764e25d439c2797d036590b08c911d26))
 
 
 
