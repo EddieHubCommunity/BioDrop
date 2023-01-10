@@ -1,0 +1,24 @@
+{
+  "name": "Purva Rajyaguru",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Fronted Developer , Eddiehuber",
+  "avatar": "https://github.com/Purva2803.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Purva_28_03",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/purva-rajyaguru-a1a52a1a0/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Purva2803",
+      "icon": "FaGithub"
+    }
+  ]
+}
