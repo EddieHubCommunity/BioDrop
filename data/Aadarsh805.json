@@ -1,10 +1,17 @@
 {
-  "name": "Aadarsh Thkaur",
+  "name": "Aadarsh Thakur",
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Developer | Open source contributor",
   "avatar": "https://github.com/Aadarsh805.png",
-  "tags": ["nextJS", "typescript", "supabase", "reactJS", "tailwindCSS"],
+  "tags": [
+    "nextJS",
+    "typescript",
+    "Open Source",
+    "supabase",
+    "reactJS",
+    "tailwindCSS"
+  ],
   "socials": [
     {
       "icon": "FaTwitter",

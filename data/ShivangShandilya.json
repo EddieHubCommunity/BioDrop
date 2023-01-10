@@ -1,0 +1,74 @@
+{
+  "name": "Shivang Shandilya",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "DevOps | Open Source | Front - End Developer | DSA",
+  "avatar": "https://github.com/ShivangShandilya.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shivv_twt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivang-shandilya-8b926b218/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShivangShandilya",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my blogs on HashNode",
+      "url": "https://hashnode.com/@KubeMan",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Leetcode Profile !!",
+      "url": "https://leetcode.com/ShivangShandilya/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Checkout my DevOps Journey",
+      "url": "https://github.com/ShivangShandilya/DevOps-in-90",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My DSA Sheet for Tech-Interviews",
+      "url": "https://github.com/ShivangShandilya/SDE-Sheet",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my Golang Journey here !!",
+      "url": "https://github.com/ShivangShandilya/learning-golang",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started writing on HashNode",
+      "date": "December 2022",
+      "icon": "FaHashnode",
+      "color": "grey",
+      "description": "Wrote my first ever blog",
+      "url": "https://hashnode.com/@KubeMan"
+    },
+    {
+      "title": "Began working with BVPIEEE",
+      "date": "June 2022",
+      "icon": "SiIeee",
+      "color": "grey",
+      "description": "Began working at IEEE branch of my college as an Executive Web Developer and helped designing BVPIEEE website."
+    },
+    {
+      "title": "Microsoft AZ-900 Certification",
+      "date": "August 2021",
+      "icon": "SiMicrosoftazure",
+      "color": "grey",
+      "description": "Passed Microsoft Azure : Cloud Fundamentals Exam",
+      "url": "https://www.credly.com/badges/7acb24a1-30f9-4338-b3e6-70c92659b32a/linked_in"
+    }
+  ]
+}
