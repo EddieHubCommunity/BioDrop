@@ -73,6 +73,9 @@ export default async function handler(req, res) {
     data = { ...data, events };
   }
 
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
     try {
@@ -80,6 +83,15 @@ export default async function handler(req, res) {
         username,
         views: 1,
       });
+
+      await Stats.updateOne(
+        {
+          date,
+        },
+        {
+          $inc: { users: 1 },
+        }
+      );
     } catch (e) {
       console.log("ERROR creating profile stats", e);
     }
@@ -154,6 +166,7 @@ export default async function handler(req, res) {
       await Stats.create({
         date,
         views: 1,
+        users: 1,
       });
     } catch (e) {
       console.log("ERROR creating platform stats", e);

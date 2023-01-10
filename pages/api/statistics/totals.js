@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 
 import Stats from "../../../models/Stats";
-import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -11,12 +10,12 @@ export default async function handler(req, res) {
 
   let views = 0;
   let clicks = 0;
-  dailyStats.map((stat) => {
+  let users = 0;
+  dailyStats.forEach((stat) => {
     views += stat.views;
     clicks += stat.clicks;
+    users += stat.users;
   });
-
-  const activeProfiles = await Profile.find({}).estimatedDocumentCount();
 
   const directoryPath = path.join(process.cwd(), "data");
   const totalProfiles = fs
@@ -27,7 +26,7 @@ export default async function handler(req, res) {
     views,
     clicks,
     users: totalProfiles.length || 0,
-    active: activeProfiles || 0,
+    active: users,
   };
 
   res.status(200).json(data);
