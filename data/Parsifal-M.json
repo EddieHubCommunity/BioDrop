@@ -25,5 +25,29 @@
       "url": "https://hachyderm.io/@parcifal",
       "icon": "FaMastodon"
     }
+  ],
+  "tags": [
+    "Open Source",
+    "Rust",
+    "Go",
+    "Clojure",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Linux Fedora",
+    "Software Engineering",
+    "DevOps"
+  ],
+  "milestones": [
+    {
+      "title": "Became an OPA (Open Policy Agent) community champion",
+      "date": "Dec 2022",
+      "icon": "FaGrinStars",
+      "color": "grey",
+      "description": "Became an OPA (Open Policy Agent) community champion by helping out the community and contributing to the project!",
+      "url": "https://www.openpolicyagent.org/community"
+    }
   ]
 }
+
+
