@@ -120,7 +120,31 @@ export default function Events({ events }) {
           sortEvents={sortEvents}
         />
 
-        {tabs.find((tab) => tab.key === "all") &&
+        {filters.map(
+          (filter) =>
+            tabs.find((tab) => tab.key === filter.key) &&
+            tabs.find((tab) => tab.key === filter.key).current && (
+              <ul
+                key={filter.key}
+                role="list"
+                className="divide-y divide-gray-200 mt-6"
+              >
+                <h2 className="text-md md:text-2xl text-lg text-gray-600 font-bold md:mb-6 mb-3">
+                  {filter.description}
+                </h2>
+
+                {categorisedEvents[filter.key].map((event, index) => (
+                  <EventCard
+                    event={event}
+                    username={event.username}
+                    key={index}
+                  />
+                ))}
+              </ul>
+            )
+        )}
+
+        {/* {tabs.find((tab) => tab.key === "all") &&
           tabs.find((tab) => tab.key === "all").current && (
             <div className="bg-red-500 p-8 mt-12">
               <h1>all</h1>
@@ -145,7 +169,7 @@ export default function Events({ events }) {
             <div className="bg-red-500 p-8 mt-12">
               <h1>virtual</h1>
             </div>
-          )}
+          )} */}
       </Page>
     </>
   );
@@ -264,26 +288,26 @@ export function UserTabs2({ tabs, setTabs, sortEvents, setSortEvents }) {
                   tab.current
                     ? "border-indigo-500 text-indigo-600"
                     : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
-                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-4"
+                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2"
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
-                {tabs.key === "all" && (
+                {tab.key === "all" && (
                   <FaListUl title="Show All" className="text-base" />
                 )}
-                {tabs.key === "isVirtual" && (
+                {tab.key === "virtual" && (
                   <MdOutlineOnlinePrediction
                     title="Virtual event"
-                    className="text-lg"
+                    className="text-xl"
                   />
                 )}
-                {tabs.key === "isInPerson" && (
+                {tab.key === "inPerson" && (
                   <MdOutlinePeople
                     title="In person event"
-                    className="text-lg"
+                    className="text-xl"
                   />
                 )}
-                {tabs.key === "cfpClose" && (
+                {tab.key === "cfpOpen" && (
                   <FaMicrophoneAlt title="CFP is open" className="text-base" />
                 )}
                 <span>
