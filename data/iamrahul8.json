@@ -1,0 +1,44 @@
+{
+  "name": "Rahul Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Web Developer** | Student Expert @postmanlabs | Lead @Hack Club",
+  "avatar": "https://github.com/iamrahul8.png",
+  "tags": ["React.js", "C++", "Azure", "Javascript", "Programming"],
+  "socials": [
+    {
+      "icon": "twitter",
+      "url": "https://twitter.com/i_amrahul8"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/iamrahul8"
+    },
+    {
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/rahul-kumar-072/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://twitter.com/iamrahul8",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/i_amrahul8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rahul-kumar-072/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Support my work - GitHub Sponsors",
+      "url": "https://github.com/sponsors/iamrahul8",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

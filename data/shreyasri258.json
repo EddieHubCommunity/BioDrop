@@ -1,4 +1,5 @@
 {
+
    "name":"Shreya Sri",
    "displayStatsPublic":false,
    "type":"personal",
@@ -24,11 +25,12 @@
       "name":"Hashnode",
       "url":"https://hashnode.com/@ShreyaSri52",
       "icon":"FaHashnoder"
-   }
+   },
    {
       "name":"Medium",
       "url":"https://medium.com/@shreyasri.ankala",
       "icon":"FaMedium"
    }
 ]
+
 }

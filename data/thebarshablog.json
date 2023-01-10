@@ -1,0 +1,52 @@
+{
+  "name": "Barsha Das",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Founder of **The CookieButton Project** | Co-organizer of **KubeHuddle Toronto 2023** | **Women In Web3 2022** by CoinDCX",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Web Development",
+    "Cloud Computing",
+    "Platform Engineering",
+    "Network Engineering"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/thebarshablog" },
+    { "icon": "FaGithub", "url": "https://github.com/thebarshablog" },
+    { "icon": "FaLink", "url": "https://thebarshablog.github.io" }
+  ],
+  "avatar": "https://github.com/thebarshablog.png",
+  "links": [
+    {
+      "name": "Daily Tweets on Tech & Life",
+      "url": "https://twitter.com/thebarshablog",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Contribute Together",
+      "url": "https://github.com/thebarshablog",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Track My Career Updates",
+      "url": "https://www.linkedin.com/in/thebarshablog/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read Me",
+      "url": "https://thebarshablog.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Support My Initiatives",
+      "url": "https://www.buymeacoffee.com/thebarshablog",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Speak To Me 1:1 for FREE",
+      "url": "https://calendly.com/thebarshablog",
+      "icon": "SiKakaotalk"
+    }
+  ]
+}

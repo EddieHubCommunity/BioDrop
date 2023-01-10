@@ -1,0 +1,35 @@
+{
+  "name": "Gaurav Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Backend Developer | DevOps and OpenSource Lover | Freelancer",
+  "avatar": "https://github.com/GauravKumar2701.png",
+  "tags": ["Open Source", "Javascript", "Kubernetes", "Go", "Docker", "Python"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Gauravkumar_01" },
+    { "icon": "FaGithub", "url": "https://github.com/GauravKumar2701" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Gauravkumar_01",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Gauravkumar2701",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/gaurav-kumar-1314748a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "EddieHub: Discord",
+      "url": "http://discordapp.com/users/522716133917196288",
+      "icon": "FaDiscord"
+    }
+  ]
+}

@@ -24,4 +24,8 @@ To open last HTML report run:
   npx playwright show-report
 ```
 
-export default ({ children }) => <DocsLayout>{children}</DocsLayout>;
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Automated Tests Documentation">
+    {children}
+  </DocsLayout>
+);
