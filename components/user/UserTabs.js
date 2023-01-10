@@ -38,7 +38,6 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const sortUserTabItems = (tabName, order) => {
     const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
     userData[dataKey].sort(function (a, b) {
-      console.log(userData, "boo");
       const aVal = sortKey.includes(".")
         ? getNested(a, sortKey.split("."))
         : a[sortKey];
@@ -88,33 +87,17 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        {tabs.length > 1 ? (
-          <select
-            id="tabs"
-            name="tabs"
-            onChange={changeTab}
-            className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-            defaultValue={tabs.find((tab) => tab.current).name}
-          >
-            {tabs.map((tab) => (
-              <option key={tab.name}>{tab.name}</option>
-            ))}
-          </select>
-        ) : (
-          <p className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 text-center">
-            <a
-              key={tabs[0].name}
-              href={tabs[0].href}
-              onClick={(e) => changeTab(e, tabs[0].name)}
-              className="text-gray-600
-                py-4 px-1 text-center border-b-2 border-gray-300 font-medium flex justify-center items-center gap-4"
-            >
-              <span>
-                {tabs[0].name} ({tabs[0].total})
-              </span>
-            </a>
-          </p>
-        )}
+        <select
+          id="tabs"
+          name="tabs"
+          onChange={changeTab}
+          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          defaultValue={tabs.find((tab) => tab.current).name}
+        >
+          {tabs.map((tab) => (
+            <option key={tab.name}>{tab.name}</option>
+          ))}
+        </select>
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
