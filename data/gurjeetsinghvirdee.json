@@ -3,6 +3,18 @@
   "type": "personal",
   "bio": "Co-Founder @Medictry || Postman Student Expert || Former Technical Team Member at GSSoC'22 & TCW at GFG || MERN Stack || UI Designer || Open Source Enthusiast",
   "avatar": "https://github.com/gurjeetsinghvirdee.png",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "ReactJS",
+    "MextJS".
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/gurjeetsinghvirdee" }
+  ],
+  "testimonals": [
+    "utkarsh006"
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -21,7 +33,7 @@
     },
     {
       "name": "Add me on Discord",
-      "url": "Guri#6145",
+      "url": "https://discordapp.com/users/916597112882495510",
       "icon": "FaDiscord"
     }
   ],
