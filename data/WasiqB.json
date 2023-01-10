@@ -41,6 +41,11 @@
       "name": "Join my QA Community Hub",
       "url": "https://discord.gg/Ze74VQXjwc",
       "icon": "FaDiscord"
+    },
+    {
+      "name": "💲 Sponsor me on GitHub",
+      "url": "https://github.com/sponsors/WasiqB",
+      "icon": "FaGithub"
     }
   ],
   "milestones": [

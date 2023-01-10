@@ -1,0 +1,19 @@
+{
+  "name": "Fatima Khan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Aspiring front-end dev",
+  "avatar": "https://github.com/fatimakay.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/fatimkhn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my Portfolio",
+      "url": "https://fatimakay.github.io",
+      "icon": "FaRocket"
+    }
+  ]
+}

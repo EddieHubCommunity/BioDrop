@@ -1,0 +1,24 @@
+{
+  "name": "Anjuli Aggarwal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web Developer and Open Source Enthusiast",
+  "avatar": "https://github.com/Anjuli08.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/anjuliiii_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/anjuli-a-907846200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Anjuli08",
+      "icon": "FaGithub"
+    }
+  ]
+}

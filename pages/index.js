@@ -110,7 +110,7 @@ export default function Home({ total, today }) {
       description:
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063796-15c004cb-a4f4-4c5c-81fe-15c39b31912b.png",
+        "https://user-images.githubusercontent.com/100528412/210552842-70d6a823-5062-4ad9-aa51-78c990b72d63.png",
       imageAlt: "LinkFree screenshot of the tags in example profile",
     },
     {
@@ -127,7 +127,7 @@ export default function Home({ total, today }) {
       description:
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063794-0dd4cd0c-a10e-4327-a7ce-05a4b8807cd5.png",
+        "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
       imageAlt:
         "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
     },
