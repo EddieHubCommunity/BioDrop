@@ -8,15 +8,17 @@ on:
     types:
       - completed
 
+concurrency:
+  group: "release"
+
 jobs:
   changelog:
     runs-on: ubuntu-latest
 
     steps:
-
       # Create a temporary, uniquely named branch to push release info to
       - name: create temporary branch
-        uses: peterjgrainger/action-create-branch@v2.2.0
+        uses: peterjgrainger/action-create-branch@v2.3.0
         id: create-branch
         with:
           branch: "release-from-${{ github.sha }}"
@@ -27,11 +29,9 @@ jobs:
       # check out the repository afterwards
       - uses: actions/checkout@v3
 
-
       # fetch branches and switch to the temporary branch
-      - name: debug
+      - name: switch to new branch
         run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
-
 
       # create release info and push it upstream
       - name: conventional Changelog Action
@@ -59,9 +59,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # release info is now in main so we can continue as before
-      - name: create release
+      - name: create release with last commit
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        if: steps.changelog.outputs.skipped == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
