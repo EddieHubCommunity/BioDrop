@@ -1,34 +1,39 @@
 import fs from "fs";
 import path from "path";
 
+import { readAndParseJsonFile, getJsonFilesInDirectory, getNonJsonFilesInDirectory } from "../../utils";
+
 export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
-  const userFolders = fs
-    .readdirSync(directoryPath)
-    .filter((item) => !item.includes("json"));
-  const events = userFolders.flatMap((folder) => {
+  const userFolders = await getNonJsonFilesInDirectory(directoryPath);
+
+  const events = await Promise.all( userFolders.flatMap(async (folder) => {
     const eventsPath = path.join(directoryPath, folder, "events");
     let eventFiles = [];
     try {
-      eventFiles = fs.readdirSync(eventsPath);
-    } catch (e) {
-      console.log(`ERROR no events in "${eventsPath}"`);
-      return [];
-    }
-    const eventFilesContent = eventFiles.flatMap((file) => {
-      try {
-        return {
-          ...JSON.parse(fs.readFileSync(path.join(eventsPath, file), "utf8")),
-          username: folder,
-        };
+        eventFiles = await getJsonFilesInDirectory(eventsPath);
       } catch (e) {
-        console.log(`ERROR loading event "${file}" in "${eventsPath}"`);
+        console.log(`ERROR no events in "${eventsPath}"`);
         return [];
       }
-    });
+      const eventFilesContent = Promise.all( eventFiles.flatMap(async (file) => {
+          try {
+            const filePath = path.join(eventsPath, file);
+            const eventData = await readAndParseJsonFile(filePath);
+            return {
+              ...eventData,
+              username: folder,
+            };
+          } catch (e) {
+            console.log(`ERROR loading event "${file}" in "${eventsPath}"`);
+            return {};
+          }
+        })
+      );
 
-    return eventFilesContent;
-  });
+      return eventFilesContent;
+    })
+  );
 
   const eventsFiltered = events
     .reduce(

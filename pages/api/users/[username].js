@@ -1,4 +1,3 @@
-import fs from "fs";
 import path from "path";
 
 import Profile from "../../../models/Profile";
@@ -6,6 +5,7 @@ import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
 import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
+import { readAndParseJsonFile, filterEmptyObjects, getJsonFilesInDirectory } from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
 
-  let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  let data = await readAndParseJsonFile(filePath);
 
   if (!data) {
     return res.status(404).json({});
@@ -26,49 +26,48 @@ export default async function handler(req, res) {
       username,
       "testimonials"
     );
-    const testimonials = data.testimonials.flatMap((username) => {
-      try {
-        const testimonial = {
-          ...JSON.parse(
-            fs.readFileSync(
-              path.join(filePathTestimonials, `${username}.json`),
-              "utf8"
-            )
-          ),
-          username,
-        };
+    const testimonials = await Promise.all( data.testimonials.flatMap( async (username) => {
+        const filePath = path.join(filePathTestimonials, `${username}.json`);
+        try {
+          const userTestimonial = await readAndParseJsonFile(filePath);
+          const testimonial = {
+            ...userTestimonial,
+            username,
+          };
 
-        return testimonial;
-      } catch (e) {
-        return [];
-      }
-    });
-    data = { ...data, testimonials };
+          return testimonial;
+        } catch (e) {
+          return {};
+        }
+      })
+    );
+    const filteredTestimonials = filterEmptyObjects(testimonials);
+    data = { ...data, testimonials: filteredTestimonials };
   }
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
   let eventFiles = [];
   try {
-    eventFiles = fs
-      .readdirSync(filePathEvents)
-      .filter((item) => item.includes("json"));
+    eventFiles = await getJsonFilesInDirectory(filePathEvents);
   } catch (e) {
     console.log(`ERROR loading events "${filePathEvents}"`);
   }
-  const events = eventFiles.flatMap((filename) => {
-    try {
-      const event = {
-        ...JSON.parse(
-          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
-        ),
-        username,
-      };
+  const events = await Promise.all( eventFiles.flatMap(async (filename) => {
+      const filePath = path.join(filePathEvents, filename);
+      try {
+        const userEvent = await readAndParseJsonFile(filePath);
+        const event = {
+          ...userEvent,
+          username,
+        };
 
-      return event;
-    } catch (e) {
-      return [];
-    }
-  });
+        return event;
+      } catch (e) {
+        return {};
+      }
+    })
+  );
+
   if (events.length) {
     data = { ...data, events };
   }

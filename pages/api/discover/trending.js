@@ -1,8 +1,8 @@
-import fs from "fs";
 import path from "path";
 
 import connectMongo from "../../../config/mongo";
 import ProfileStats from "../../../models/ProfileStats";
+import { readAndParseJsonFile, filterEmptyObjects } from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -42,24 +42,27 @@ export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
 
   // merge profiles with their profile views if set to public
-  const profiles = getProfiles.flatMap((profile) => {
-    const filePath = path.join(directoryPath, `${profile.username}.json`);
-    try {
-      const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const profiles = await Promise.all(
+    getProfiles.flatMap( async (profile) => {
+      const filePath = path.join(directoryPath, `${profile.username}.json`);
+      try {
+        const user = await readAndParseJsonFile(filePath);
 
-      if (user.displayStatsPublic) {
-        return {
-          ...user,
-          ...profile,
-        };
+        if (user.displayStatsPublic) {
+          return {
+            ...user,
+            ...profile,
+          };
+        }
+
+        return {}; 
+      } catch (e) {
+        console.log(`ERROR loading profile "${filePath}"`);
+        return {};
       }
-
-      return [];
-    } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
-      return [];
-    }
-  });
-  const slicedProfiles = profiles.slice(0, 5);
+    })
+  );
+  const filteredProfiles = filterEmptyObjects(profiles);
+  const slicedProfiles = filteredProfiles.slice(0, 5);
   res.status(200).json(slicedProfiles);
 }

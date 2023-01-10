@@ -1,9 +1,10 @@
-import fs from "fs";
 import path from "path";
 
 import Stats from "../../../models/Stats";
 import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
+import { getJsonFilesInDirectory } from "../../../utils";
+
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -19,9 +20,7 @@ export default async function handler(req, res) {
   const activeProfiles = await Profile.find({}).estimatedDocumentCount();
 
   const directoryPath = path.join(process.cwd(), "data");
-  const totalProfiles = fs
-    .readdirSync(directoryPath)
-    .filter((item) => item.includes("json"));
+  const totalProfiles = await getJsonFilesInDirectory(directoryPath);
 
   const data = {
     views,

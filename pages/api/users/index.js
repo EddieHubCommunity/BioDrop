@@ -1,28 +1,28 @@
-import fs from "fs";
 import path from "path";
 
 import connectMongo from "../../../config/mongo";
 import Profile from "../../../models/Profile";
+import { readAndParseJsonFile, getJsonFilesInDirectory } from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
   const directoryPath = path.join(process.cwd(), "data");
-  const files = fs
-    .readdirSync(directoryPath)
-    .filter((item) => item.includes("json"));
+  const files = await getJsonFilesInDirectory(directoryPath);
 
-  const users = files.flatMap((file) => {
-    const filePath = path.join(directoryPath, file);
-    try {
-      return {
-        ...JSON.parse(fs.readFileSync(filePath, "utf8")),
-        username: file.split(".")[0],
-      };
-    } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
-      return [];
-    }
-  });
+  const users = await Promise.all( files.flatMap( async (file) => {
+      const filePath = path.join(directoryPath, file);
+      try {
+        const userData = await readAndParseJsonFile(filePath);
+        return {
+          ...userData,
+          username: file.split(".")[0],
+        };
+      } catch (e) {
+        console.log(`ERROR loading profile "${filePath}"`);
+        return {};
+      }
+    })
+  );
   const getStats = await Profile.find({});
 
   // merge profiles with their profile views if set to public
