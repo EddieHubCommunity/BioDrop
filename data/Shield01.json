@@ -1,0 +1,56 @@
+{
+  "name": "Tijani Hussein",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software Engineer | Open Source Enthusiast",
+  "avatar": "https://github.com/Shield01.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Fast API",
+    "C#",
+    "ASP.Net"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/DTechBroIndoor" },
+    { "icon": "FaGithub", "url": "https://github.com/Shield01" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/tijanihussein" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/DTechBroIndoor",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Shield01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/tijanihussein",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "CV: Read about me",
+      "url": "https://docs.google.com/document/d/1HlBIWpg2UCgHuUl12mCVRDWB6vmeGCwmp6Oxx1s0a58/edit?usp=sharing",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Created my profile on the Linkfree Open Source project",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "This project allows you to connect with your audience with a single link. It is the open source version of linktree.",
+      "url": "https://linkfree.eddiehub.io"
+    }
+  ]
+}
