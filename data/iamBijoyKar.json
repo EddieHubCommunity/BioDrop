@@ -8,7 +8,7 @@
     "socials": [
         { "icon": "FaTwitter", "url": "https://twitter.com/iamBijoyKar" },
         { "icon": "FaGithub", "url": "https://github.com/iamBijoyKar" },
-        { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/iambijoykar/" }
+        { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/iambijoykar/" }
     ],
     "links": [
       {
