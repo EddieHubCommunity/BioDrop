@@ -1,0 +1,19 @@
+{
+  "name": "Piyush Srivastava",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer, Passionate about Open Source,Exploring React and Mode js",
+  "avatar": "https://avatars.githubusercontent.com/u/67270567?s=400&u=5109dc524972127baa41ee2b692563c87150ae44&v=4",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/piyush-srivastava-395841192/",
+      "icon": "FaLinkedin"
+    },
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/piyush-sri",
+      "icon": "FaGithub"
+    }
+  ]
+}
