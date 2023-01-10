@@ -15,6 +15,11 @@
   ],
   "links": [
     {
+      "name": "Watch my interview with Eddie: Getting into tech with Lucy Macartney",
+      "url": "https://youtu.be/sSNCfuScBhA",
+      "icon": "FaYoutube"
+    },
+    {
       "name": "Follow me on GitHub",
       "url": "https://github.com/lmac-1",
       "icon": "FaGithub"
