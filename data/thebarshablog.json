@@ -2,14 +2,14 @@
   "name": "Barsha Das",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "Founder of **The CookieButton Project** | Co-organizer of **KubeHuddle Toronto 2023** | **Women In Web3 2022** by CoinDCX",
+  "bio": "Founder of **The CookieButton Project** | Co-organizer of **KubeHuddle Toronto 2023** | Co-organizer of **CNCF Kolkata** | **Women In Web3 2022** by CoinDCX" ,
   "tags": [
     "Open Source",
     "DevOps",
     "Web Development",
     "Cloud Computing",
-    "Platform Engineering",
-    "Network Engineering"
+    "Developer Evangelism",
+    "Technical Writer"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/thebarshablog" },
