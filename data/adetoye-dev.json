@@ -1,0 +1,29 @@
+{
+  "name": "Adetoye",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Front-End Developer | Open-Source Ethusiast | Utilizing my skills to create functional and visually appealing web applications.",
+  "avatar": "https://github.com/adetoye-dev.png",
+  "links": [
+    {
+      "name": "My Portfolio",
+      "url": "https://adetoye.vercel.app",
+      "icon": "FaPortrait"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/adetoye_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/adetoye-dev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/adetoye-dev",
+      "icon": "FaGithub"
+    }
+  ]
+}

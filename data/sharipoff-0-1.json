@@ -1,0 +1,14 @@
+{
+  "name": "Shakhzod Shariov",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Front end developer, healthy life style, cooking enthusiast casual reader",
+  "avatar": "https://github.com/sharipoff-0-1.png",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/sharipoff.shakh",
+      "icon": "FaInstagram"
+    }
+  ]
+}
