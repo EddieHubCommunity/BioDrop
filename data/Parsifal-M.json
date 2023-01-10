@@ -4,6 +4,23 @@
   "type": "personal",
   "bio": "Open Source Evangelist, Software Engineering, DevOps",
   "avatar": "https://github.com/Parsifal-M.png",
+  "tags": [
+    "Open Source",
+    "Rust",
+    "Go",
+    "Clojure",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Linux Fedora",
+    "Software Engineering",
+    "DevOps"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/_PeterM_" },
+    { "icon": "FaGithub", "url": "https://github.com/Parsifal-M" },
+    { "icon": "FaMastodon", "url": "https://hachyderm.io/@parcifal" }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -25,18 +42,6 @@
       "url": "https://hachyderm.io/@parcifal",
       "icon": "FaMastodon"
     }
-  ],
-  "tags": [
-    "Open Source",
-    "Rust",
-    "Go",
-    "Clojure",
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Linux Fedora",
-    "Software Engineering",
-    "DevOps"
   ],
   "milestones": [
     {
