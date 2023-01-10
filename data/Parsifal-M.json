@@ -1,29 +1,29 @@
 {
-    "name": "Peter Macdonald",
-    "displayStatsPublic": true,
-    "type": "personal",
-    "bio": "Open Source Evangelist, Software Engineering, DevOps",
-    "avatar": "https://github.com/Parsifal-M.png",
-    "links": [
-      {
-        "name": "Follow me on Twitter",
-        "url": "https://twitter.com/_PeterM_",
-        "icon": "FaTwitter"
-      },
-      {
-        "name": "Follow me on Github",
-        "url": "https://github.com/Parsifal-M",
-        "icon": "FaGithub"
-      },
-      {
-        "name": "Follow me on LinkedIn",
-        "url": "https://www.linkedin.com/in/peter-j-macdonald/",
-        "icon": "FaLinkedin"
-      },
-      {
-        "name": "Follow me on Mastodon",
-        "url": "https://hachyderm.io/@parcifal",
-        "icon": "FaMastodon"
-      }
-    ]
+  "name": "Peter Macdonald",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Evangelist, Software Engineering, DevOps",
+  "avatar": "https://github.com/Parsifal-M.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_PeterM_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Parsifal-M",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/peter-j-macdonald/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://hachyderm.io/@parcifal",
+      "icon": "FaMastodon"
+    }
+  ]
 }
