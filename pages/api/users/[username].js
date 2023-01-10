@@ -5,7 +5,11 @@ import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
 import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
-import { readAndParseJsonFile, filterEmptyObjects, getJsonFilesInDirectory } from "../../../utils";
+import {
+  memoizedReadAndParseJsonFile,
+  filterEmptyObjects,
+  getJsonFilesInDirectory,
+} from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -13,7 +17,7 @@ export default async function handler(req, res) {
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
 
-  let data = await readAndParseJsonFile(filePath);
+  let data = await memoizedReadAndParseJsonFile(filePath);
 
   if (!data) {
     return res.status(404).json({});
@@ -26,10 +30,11 @@ export default async function handler(req, res) {
       username,
       "testimonials"
     );
-    const testimonials = await Promise.all( data.testimonials.flatMap( async (username) => {
+    const testimonials = await Promise.all(
+      data.testimonials.flatMap(async (username) => {
         const filePath = path.join(filePathTestimonials, `${username}.json`);
         try {
-          const userTestimonial = await readAndParseJsonFile(filePath);
+          const userTestimonial = await memoizedReadAndParseJsonFile(filePath);
           const testimonial = {
             ...userTestimonial,
             username,
@@ -52,10 +57,11 @@ export default async function handler(req, res) {
   } catch (e) {
     console.log(`ERROR loading events "${filePathEvents}"`);
   }
-  const events = await Promise.all( eventFiles.flatMap(async (filename) => {
+  const events = await Promise.all(
+    eventFiles.flatMap(async (filename) => {
       const filePath = path.join(filePathEvents, filename);
       try {
-        const userEvent = await readAndParseJsonFile(filePath);
+        const userEvent = await memoizedReadAndParseJsonFile(filePath);
         const event = {
           ...userEvent,
           username,

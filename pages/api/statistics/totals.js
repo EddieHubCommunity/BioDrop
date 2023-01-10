@@ -5,7 +5,6 @@ import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
 import { getJsonFilesInDirectory } from "../../../utils";
 
-
 export default async function handler(req, res) {
   await connectMongo();
   let dailyStats = await Stats.find({});

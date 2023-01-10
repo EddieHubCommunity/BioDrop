@@ -2,7 +2,7 @@ import path from "path";
 
 import connectMongo from "../../../config/mongo";
 import Profile from "../../../models/Profile";
-import { readAndParseJsonFile } from "../../../utils";
+import { memoizedReadAndParseJsonFile } from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -16,10 +16,10 @@ export default async function handler(req, res) {
 
   const directoryPath = path.join(process.cwd(), "data");
   const fullRandomProfiles = await Promise.all(
-      randomProfiles.flatMap(async (profile) => {
+    randomProfiles.flatMap(async (profile) => {
       const filePath = path.join(directoryPath, `${profile.username}.json`);
       try {
-        const user = await readAndParseJsonFile(filePath);
+        const user = await memoizedReadAndParseJsonFile(filePath);
 
         return { ...user, username: profile.username };
       } catch (e) {

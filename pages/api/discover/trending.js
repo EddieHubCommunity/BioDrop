@@ -2,7 +2,10 @@ import path from "path";
 
 import connectMongo from "../../../config/mongo";
 import ProfileStats from "../../../models/ProfileStats";
-import { readAndParseJsonFile, filterEmptyObjects } from "../../../utils";
+import {
+  memoizedReadAndParseJsonFile,
+  filterEmptyObjects,
+} from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -43,10 +46,10 @@ export default async function handler(req, res) {
 
   // merge profiles with their profile views if set to public
   const profiles = await Promise.all(
-    getProfiles.flatMap( async (profile) => {
+    getProfiles.flatMap(async (profile) => {
       const filePath = path.join(directoryPath, `${profile.username}.json`);
       try {
-        const user = await readAndParseJsonFile(filePath);
+        const user = await memoizedReadAndParseJsonFile(filePath);
 
         if (user.displayStatsPublic) {
           return {
@@ -55,7 +58,7 @@ export default async function handler(req, res) {
           };
         }
 
-        return {}; 
+        return {};
       } catch (e) {
         console.log(`ERROR loading profile "${filePath}"`);
         return {};

@@ -2,17 +2,21 @@ import path from "path";
 
 import connectMongo from "../../../config/mongo";
 import Profile from "../../../models/Profile";
-import { readAndParseJsonFile, getJsonFilesInDirectory } from "../../../utils";
+import {
+  memoizedReadAndParseJsonFile,
+  getJsonFilesInDirectory,
+} from "../../../utils";
 
 export default async function handler(req, res) {
   await connectMongo();
   const directoryPath = path.join(process.cwd(), "data");
   const files = await getJsonFilesInDirectory(directoryPath);
 
-  const users = await Promise.all( files.flatMap( async (file) => {
+  const users = await Promise.all(
+    files.flatMap(async (file) => {
       const filePath = path.join(directoryPath, file);
       try {
-        const userData = await readAndParseJsonFile(filePath);
+        const userData = await memoizedReadAndParseJsonFile(filePath);
         return {
           ...userData,
           username: file.split(".")[0],
