@@ -14,7 +14,7 @@ test("Navigate to the Search page", async ({ page }) => {
 });
 
 test("Search works correctly", async ({ page }) => {
-  // 1. nagivate to search page
+  // 1. navigate to search page
   await page.goto("/search");
 
   // 2. show no users are listed

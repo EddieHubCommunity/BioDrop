@@ -59,7 +59,7 @@ test("Profile not found redirects to search page with error message", async ({
 });
 
 test.fixme("Link navigates", async ({ page }) => {
-  // 1. nagivate to profile
+  // 1. navigate to profile
   // 2. get a link and href
   // 3. click the link
   // 4. get the current url and should match href
