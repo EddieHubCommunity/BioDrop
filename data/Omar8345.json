@@ -1,0 +1,78 @@
+{
+  "name": "Omar Moustafa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Full-Stack Developer** 💻 | **Web3 Junior** 🪙 | **Technical Writer** ✍️",
+  "avatar": "https://github.com/Omar8345.png",
+  "tags": [
+    "NextJS",
+    "ReactJS",
+    "NodeJS",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "HTML",
+    "CSS",
+    "Open Source",
+    "Web3"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DevOmar100",
+      "icon": "FaTwitterSquare",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/omar-the-dev/",
+      "icon": "FaLinkedin",
+      "color": "#0072B1"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Omar8345",
+      "icon": "FaGithubSquare"
+    }
+  ],
+  "socials": [
+    { "icon": "FaTwitterSquare", "url": "https://twitter.com/DevOmar100" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/omar-the-dev/"
+    },
+    { "icon": "FaGithubSquare", "url": "https://github.com/Omar8345" }
+  ],
+  "milestones": [
+    {
+      "title": "Started my journey as a developer",
+      "date": "Feb 2015",
+      "icon": "FaCode",
+      "description": "Started learning Python"
+    },
+    {
+      "title": "Started my YouTube channel",
+      "date": "Jul 2020",
+      "icon": "FaYoutube",
+      "description": "Started my YouTube channel to share my skills with the world"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "Sep 2021",
+      "icon": "FaMoneyBillWave",
+      "description": "Started freelancing to help people build their projects and make revenue"
+    },
+    {
+      "title": "Co-Founded a startup (Jiusoft)",
+      "date": "Oct 2021",
+      "icon": "FaBusinessTime",
+      "description": "Co-Founded a startup to create open source projects"
+    },
+    {
+      "title": "Started my blog",
+      "date": "Dec 2021",
+      "icon": "SiHashnode",
+      "description": "Started my blog to share my developer journey with the world and help people learn"
+    }
+  ]
+}
