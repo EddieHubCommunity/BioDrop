@@ -5,6 +5,7 @@ import {
   MdOutlinePeople,
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import FallbackImage from "../FallbackImage";
@@ -28,6 +29,8 @@ export default function EventCard({ event, username }) {
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
+          {event.startingFrom > 0 && <TbCoin title="Paid event" />}
+          {event.startingFrom === 0 && <TbCoinOff title="Free event" />}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
           {event.date.cfpClose &&
             new Date(event.date.cfpClose) > new Date() && (
