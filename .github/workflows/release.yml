@@ -3,6 +3,7 @@ on:
   workflow_run:
     workflows:
       - Format
+      - Testimonial
     branches:
       - main
     types:
