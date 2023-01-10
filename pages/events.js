@@ -2,7 +2,11 @@ import Head from "next/head";
 import { useState } from "react";
 import { IconContext } from "react-icons";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
-import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import {
+  MdOutlineOnlinePrediction,
+  MdOutlinePeople,
+  MdSettingsRemote,
+} from "react-icons/md";
 
 import EventCard from "../components/event/EventCard";
 import Alert from "../components/Alert";
@@ -83,6 +87,7 @@ export default function Events({ events }) {
   });
 
   const [tabs, setTabs] = useState(displayTabs);
+  const [sortEvents, setSortEvents] = useState(categorisedEvents);
 
   // console.log(tabs, "bing bing boo");
   return (
@@ -108,7 +113,12 @@ export default function Events({ events }) {
         </ul> */}
 
         {/* new code */}
-        <UserTabs2 tabs={tabs} setTabs={setTabs} />
+        <UserTabs2
+          tabs={tabs}
+          setTabs={setTabs}
+          setSortEvents={setSortEvents}
+          sortEvents={sortEvents}
+        />
 
         {tabs.find((tab) => tab.key === "all") &&
           tabs.find((tab) => tab.key === "all").current && (
@@ -141,7 +151,7 @@ export default function Events({ events }) {
   );
 }
 
-export function UserTabs2({ tabs, setTabs }) {
+export function UserTabs2({ tabs, setTabs, sortEvents, setSortEvents }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
     e.preventDefault();
@@ -153,6 +163,75 @@ export function UserTabs2({ tabs, setTabs }) {
           : { ...tab, current: false }
       )
     );
+  };
+
+  const getDataKeyAndSortKey = (tabName) => {
+    let dataKeyObj = {};
+    switch (tabName) {
+      case "cfpOpen":
+        dataKeyObj.dataKey = "cfpOpen";
+        dataKeyObj.sortKey = "date.start";
+        break;
+      case "inPerson":
+        dataKeyObj.dataKey = "inPerson";
+        dataKeyObj.sortKey = "date.start";
+        break;
+      case "virtual":
+        dataKeyObj.dataKey = "virtual";
+        dataKeyObj.sortKey = "date.start";
+        break;
+      default:
+        dataKeyObj.dataKey = "all";
+        dataKeyObj.sortKey = "date.start";
+    }
+    return dataKeyObj;
+  };
+
+  const sortUserTabItems = (tabName, order, events, setEvents) => {
+    const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
+    sortEvents[dataKey].sort(function (a, b) {
+      console.log(sortEvents[dataKey]);
+      const aVal = sortKey.includes(".")
+        ? getNested(a, sortKey.split("."))
+        : a[sortKey];
+      const bVal = sortKey.includes(".")
+        ? getNested(b, sortKey.split("."))
+        : b[sortKey];
+      if (tabName === "My Links") {
+        if (order === "ASC") {
+          return aVal.toLowerCase() > bVal.toLowerCase()
+            ? 1
+            : aVal.toLowerCase() < bVal.toLowerCase()
+            ? -1
+            : 0;
+        } else {
+          return aVal.toLowerCase() < bVal.toLowerCase()
+            ? 1
+            : aVal.toLowerCase() > bVal.toLowerCase()
+            ? -1
+            : 0;
+        }
+      } else {
+        if (order === "ASC") {
+          return new Date(aVal) > new Date(bVal)
+            ? 1
+            : new Date(aVal) < new Date(bVal)
+            ? -1
+            : 0;
+        } else {
+          return new Date(aVal) < new Date(bVal)
+            ? 1
+            : new Date(aVal) > new Date(bVal)
+            ? -1
+            : 0;
+        }
+      }
+    });
+    setSortEvents({ ...sortEvents });
+  };
+
+  const getNested = (obj, args) => {
+    return args.reduce((obj, level) => obj && obj[level], obj);
   };
 
   return (
@@ -209,10 +288,10 @@ export function UserTabs2({ tabs, setTabs }) {
                             : { ...tab }
                         )
                       );
-                      // sortUserTabItems(
-                      //   tab.title,
-                      //   tab.order === "ASC" ? "DESC" : "ASC"
-                      // );
+                      sortUserTabItems(
+                        tab.title,
+                        tab.order === "ASC" ? "DESC" : "ASC"
+                      );
                     }}
                   />
                 )}
