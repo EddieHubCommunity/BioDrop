@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Front End Developer | Open source contributor",
   "avatar": "https://github.com/lewisushindi.png",
-   "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/lewisushindi",
@@ -16,5 +16,4 @@
       "icon": "FaInstagram"
     }
   ]
-
 }
