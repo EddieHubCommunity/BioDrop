@@ -1,5 +1,5 @@
 import Head from "next/head";
-import UserCard from "../components/user/UserCard";
+import UserCard from "../components/Card/UserCard";
 import Page from "../components/Page";
 import { useState } from "react";
 import { TbRefresh } from "react-icons/tb";

@@ -2,9 +2,9 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
+import UserCard from "../components/Card/UserCard";
 
 export async function getServerSideProps(context) {
   let users = [];

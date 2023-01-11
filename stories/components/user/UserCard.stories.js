@@ -1,4 +1,4 @@
-import UserCard from "../../../components/user/UserCard";
+import UserCard from "../../../components/Card/UserCard";
 import data from "../../../data/eddiejaoude.json";
 
 export default {
