@@ -3,12 +3,19 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "19| Frontend Developer | TechEnthusiast",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js","Frontend"],
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js",
+    "Frontend"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/2003vikask" },
     { "icon": "FaGithub", "url": "https://github.com/vikaskumar2703" }
   ],
-  
+
   "avatar": "https://github.com/vikaskumar2703.png",
   "links": [
     {
