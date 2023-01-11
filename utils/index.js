@@ -22,7 +22,7 @@ export async function getNonJsonFilesInDirectory(directoryPath) {
 
 export function memoize(fn) {
   return function (...args) {
-    const key = JSON.stringify(args);
+    const key = fn.name + JSON.stringify(args);
 
     const cachedResult = cache.get(key);
     if (cachedResult !== undefined) {
