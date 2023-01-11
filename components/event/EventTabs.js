@@ -119,24 +119,15 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
-                {tab.key === "all" && (
-                  <FaListUl title="Show All" className="text-base" />
-                )}
-                {tab.key === "virtual" && (
-                  <MdOutlineOnlinePrediction
-                    title="Virtual event"
-                    className="text-xl"
+                {
+                  <tab.icon
+                    className={`${
+                      tab.key === "all" || tab.key === "cfpOpen"
+                        ? "text-lg"
+                        : "text-xl"
+                    }`}
                   />
-                )}
-                {tab.key === "inPerson" && (
-                  <MdOutlinePeople
-                    title="In person event"
-                    className="text-xl"
-                  />
-                )}
-                {tab.key === "cfpOpen" && (
-                  <FaMicrophoneAlt title="CFP is open" className="text-base" />
-                )}
+                }
                 <span>
                   {tab.title} ({tab.total})
                 </span>
