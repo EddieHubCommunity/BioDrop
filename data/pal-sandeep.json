@@ -55,7 +55,7 @@
       "name": "Check out my Portfolio",
       "url": "https://pal-sandeep.github.io",
       "icon": "FaLink"
-    },
+    }
   ],
   "milestones": [
     {
@@ -95,7 +95,7 @@
       "color": "red",
       "description": "Started my DevOps Journey",
       "url": "https://linkedin.com/in/8sandeeppal"
-    }
+    },
     {
       "title": "What I know",
       "date": "2022",
@@ -103,6 +103,6 @@
       "color": "green",
       "description": "HTML, CSS, JavaScript, Python, Django, PostgreSQL, Postman, Docker, GitHub, AWS",
       "url": "https://pal-sandeep.github.io"
-    },
+    }
   ]
 }
