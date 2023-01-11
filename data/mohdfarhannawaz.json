@@ -1,0 +1,34 @@
+{
+  "name": "Mohd Farhan Nawaz",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "An Absolute Beginner In This Tech World.",
+  "avatar": "https://github.com/mohdfarhannawaz.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohdFarhanNawaz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohdfarhannawaz/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/mohdfarhannawaz/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mohdfarhannawaz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UCjmZ6yyXUnb1-cfi03Bn9sw",
+      "icon": "FaYoutube"
+    }
+  ]
+}
