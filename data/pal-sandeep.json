@@ -1,7 +1,99 @@
 {
   "name": "Sandeep Pal",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Django Developer, upcoming DevOps Engineer. Travel enthusiast Yoga & Anime lover",
-  "avatar": "https://github.com/Pal-Sandeep.png",
+  "displayStatsPublic": true,
+  "bio": "**Django Developer**, upcomming **DevOps** ∞ Engineer | Ambassador **@MGSU-Bikaner** | **Open Source** | Cloud & Container Enthusiast ⚡️",
+  "avatar": "https://github.com/pal-sandeep.png",
+  "tags": [
+    "Python",
+    "Django",
+    "DevOps",
+    "Cloud",
+    "Docker",
+    "AWS",
+    "Kubernetes",
+    "IaC",
+    "CI/CD",
+    "GitOps"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/8sandeeppal" },
+    { "icon": "FaGithub", "url": "https://github.com/pal-sandeep" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/iisandeepkumar"
+    },
+    { "icon": "FaGmail", "url": "mailto:mohite770.pm@gmail.com" }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/8sandeeppal",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/8sandeeppal",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/pal-sandeep",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs: Read the blogs",
+      "url": "https://medium.com/@pal-sandeep",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "Discord: Pratikkumar",
+      "url": "https://discordapp.com/users/435775830384181248",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Topmate: Connect for 1:1",
+      "url": "https://topmate.io/pratikkumar_mohite/69638",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Career",
+      "date": "2022",
+      "icon": "FaTech",
+      "color": "grey",
+      "description": "Started Working as Software proffessional",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "title": "DevOps & More",
+      "date": "2020",
+      "icon": "FaDevops",
+      "color": "red",
+      "description": "Started my DevOps Journey",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "title": "Certifications 2021",
+      "date": "2021",
+      "icon": "FaKubernetes",
+      "color": "blue",
+      "description": "Achieved CKA and Terraform associate Badge",
+      "url": "https://www.credly.com/users/pratik-mohite.df7e2712/badges"
+    },
+    {
+      "title": "Calico Big Cat Ambassador",
+      "date": "2023",
+      "icon": "FaCommunity",
+      "color": "grey",
+      "description": "Started as Ambassador @projectcalico ",
+      "url": "https://linkfree.eddiehub.io"
+    }
+  ]
 }
