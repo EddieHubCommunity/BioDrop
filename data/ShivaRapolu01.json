@@ -1,0 +1,67 @@
+{
+  "name": "Shiva Rapolu",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full-stack **MERN** Developer | Open Source | Hustler",
+  "avatar": "https://github.com/ShivaRapolu01.png",
+  "tags": ["Open Source", "ReactJS", "NextJS", "JavaScript", "Typescript"],
+  "links": [
+      {
+      "name": "Don't miss my valuable posts on LinkedIn",
+      "url": "https://www.linkedin.com/in/shiva-rapolu-706a931ba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Don't miss my useful content-rich threads on Twitter",
+      "url": "https://www.twitter.com/shivarapolu01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my New Portfolio",
+      "url": "https://shivarapolu01-portfolio.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShivaRapolu01",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning C++",
+      "date": "2020",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I was learning Python, but I stopped it after 2 months."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2021",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "I started learning web development starting from HTML,CSS and JS to MERN stack within 1.5 months and I found it interesting."
+    },
+    {
+      "title": "Started Practising DSA seriously",
+      "date": "Feb 2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I have learnt C++ before but I took long break from it and DSA. I have decided to consistently practice DSA and solve as many good problems as I can"
+    },
+    {
+      "title": "Got Summer Intern at Razorpay",
+      "date": "2022",
+      "icon": "FaTrophy",
+      "color": "green",
+      "description": "All that hardward paid off. After getting shortlisted for many companies I got my first intern at Razorpay"
+    },
+    {
+      "title": "Social Media",
+      "date": "Dec 2022",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "I am trying to be active on my Twitter and LinkedIn profiles by providing valuable quality-rich useful content and sharing my learning in form of posts, tweets and threads. Hence Do follow me on both Twitter and LinkedIn"
+    }
+  ]
+}
