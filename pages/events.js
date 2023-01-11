@@ -11,6 +11,8 @@ export async function getServerSideProps(context) {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
+
+    events = events.map((event, i) => ({ id: i, ...event }));
   } catch (e) {
     console.log("ERROR search users", e);
   }
@@ -49,7 +51,7 @@ export default function Events({ events }) {
         {!events.length && <Alert type="info" message="No events found" />}
         <ul role="list" className="divide-y divide-gray-200">
           {categorisedEvents[eventType].map((event, index) => (
-            <EventCard event={event} username={event.username} key={index} />
+            <EventCard event={event} username={event.username} key={event.id} />
           ))}
         </ul>
       </Page>
