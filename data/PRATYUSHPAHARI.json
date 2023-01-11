@@ -7,7 +7,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/PahariPratyush" },
     { "icon": "FaGithub", "url": "https://github.com/PRATYUSHPAHARI" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/pratyush-pahari-4141ab212/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/pratyush-pahari-4141ab212/"
+    }
   ],
   "avatar": "https://github.com/PRATYUSHPAHARI.png",
   "links": [
@@ -31,5 +34,5 @@
       "url": "https://www.instagram.com/pratyushpahari/",
       "icon": "FaInstagram"
     }
-]
+  ]
 }
