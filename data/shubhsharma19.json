@@ -44,10 +44,10 @@
       "url": "https://instagram.com/code.shubh",
       "icon": "FaInstagram"
     },
-     {
-      "name": "Support my work",
-      "url": "https://ko-fi.com/shubhsharma19",
-      "icon": "FaBuymeacoffee"
+    {
+        "name": "Support my work",
+        "url": "https://ko-fi.com/shubhsharma19",
+        "icon": "FaBuymeacoffee"
     }
   ],
   "milestones": [
