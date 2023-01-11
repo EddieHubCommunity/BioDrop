@@ -1,0 +1,85 @@
+{
+  "name": "Harsh Thakkar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "DSA | WebDev | BlockChain",
+  "avatar": "https://github.com/Harsh971.png",
+  "tags": ["DSA", "Javascript", "ReactJS", "BlockChain"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HarshThakkar971",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsh-thakkar-7764bb1a4/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@HarshThakkar",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Harsh971/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/harsh_thakkar09/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Mail me at",
+      "url": "harsh.thakkar0369@gmail.com",
+      "icon": "SiGmail"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Programming",
+      "date": "2018",
+      "icon": "FaLaptopCode",
+      "color": "blue",
+      "description": "I had learned Programming Languages like C, C++ and Java."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2019",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "Started to Learn HTML, CSS and Js."
+    },
+    {
+      "title": "Online Cources during Covid",
+      "date": "2020",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "IoT, Cloud Computing, AWS and Neural Networking."
+    },
+    {
+      "title": "Started Android Programming",
+      "date": "2021",
+      "icon": "SiAndroid",
+      "color": "green",
+      "description": ""
+    },
+    {
+      "title": "Started DSA",
+      "date": "2022",
+      "icon": "SiElectron",
+      "color": "yellow",
+      "description": "Started Practicing DSA on CodeChef, LeetCode, HackerRank and GeeksforGeek Platform."
+    },
+    {
+      "title": "Social Networking",
+      "date": "2022",
+      "icon": "SiGoogleclassroom",
+      "color": "green",
+      "description": "Started being Active on Social Media Platforms like Twitter and Linkedin and being Connected with Great Minds.",
+      "url": "https://twitter.com/HarshThakkar971"
+    }
+  ]
+}
