@@ -1,9 +1,9 @@
-# 1.46.0 (2023-01-11)
+## 1.46.1 (2023-01-11)
 
 
-### Features
+### Bug Fixes
 
-* accessibility tests ([#2379](https://github.com/EddieHubCommunity/LinkFree/issues/2379)) ([1790d6c](https://github.com/EddieHubCommunity/LinkFree/commit/1790d6c0e433f882dde82f49def120841d9dc9bf))
+* event card wrong avatar ([#3150](https://github.com/EddieHubCommunity/LinkFree/issues/3150)) ([7f1d276](https://github.com/EddieHubCommunity/LinkFree/commit/7f1d2762ef10b19699c47d57cb02f5ae5440a301))
 
 
 
