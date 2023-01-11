@@ -8,6 +8,7 @@ export default async function handler(req, res) {
   let statsToday = await Stats.findOne({
     date,
   });
+
   if (!statsToday) {
     statsToday = {
       views: 0,
@@ -16,5 +17,9 @@ export default async function handler(req, res) {
     };
   }
 
-  res.status(200).json(statsToday);
+  res.status(200).json({
+    views: statsToday.views || 0,
+    clicks: statsToday.clicks || 0,
+    users: statsToday.users || 0,
+  });
 }
