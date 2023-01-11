@@ -1,12 +1,9 @@
 import { BiSortAlt2 } from "react-icons/bi";
-import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
-import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
 export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
     e.preventDefault();
-    console.log(e.target.value);
     setTabs(
       tabs.map((tab) =>
         tab.title === e.target?.value || tab.title === value
@@ -41,7 +38,6 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
   const sortUserTabItems = (tabName, order) => {
     const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
     sortEvents[dataKey].sort(function (a, b) {
-      console.log(sortEvents[dataKey]);
       const aVal = sortKey.includes(".")
         ? getNested(a, sortKey.split("."))
         : a[sortKey];
