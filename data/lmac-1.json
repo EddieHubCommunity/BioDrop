@@ -1,9 +1,24 @@
 {
   "name": "Lucy Macartney",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Developer and Technical Writer",
+  "tags": ["Open Source", "Javascript", "React", "NextJS"],
   "avatar": "https://github.com/lmac-1.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/codingwithlucy" },
+    { "icon": "FaGithub", "url": "https://github.com/lmac-1" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw"
+    }
+  ],
   "links": [
+    {
+      "name": "Watch my interview with Eddie: Getting into tech with Lucy Macartney",
+      "url": "https://youtu.be/sSNCfuScBhA",
+      "icon": "FaYoutube"
+    },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/lmac-1",
@@ -15,7 +30,7 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Subscribe to my YouTube channel",
+      "name": "Subscribe to my YouTube channel: English and Spanish content",
       "url": "https://www.youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw",
       "icon": "FaYoutube"
     },
@@ -41,7 +56,7 @@
     },
     {
       "title": "First job as a software developer",
-      "date": "March 2022",
+      "date": "February 2022",
       "icon": "FaDollarSign",
       "color": "black",
       "description": "Building a web application with React, NextJS, Prisma and MongoDB"
@@ -50,16 +65,24 @@
       "title": "Started working as a technical writer",
       "date": "April 2022",
       "icon": "FaBook",
-      "color": "black"
+      "color": "black",
+      "description": "Writing and managing documentation on Intercom and writing a weekly newsletter curating the best content on open source and software development."
     },
     {
       "title": "Published my first blog",
       "date": "May 2022",
-      "image": "https://codingwithlucy.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1652901031858%2FxyarmkONV.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=3840&q=75",
       "icon": "SiHashnode",
       "color": "black",
       "description": "Why #100DaysOfCode is a great way to start a tech twitter account",
       "url": "https://codingwithlucy.hashnode.dev/why-100daysofcode-is-a-great-way-to-start-a-tech-twitter-account"
+    },
+    {
+      "title": "Posted my first video in Spanish on YouTube",
+      "date": "May 2021",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "Dando mis primeros pasos en Open Source",
+      "url": "https://youtu.be/y-zJyGZjK3E"
     }
   ]
 }
