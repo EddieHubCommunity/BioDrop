@@ -36,6 +36,7 @@ export default function Events({ events }) {
       key: "all",
       icon: FaListUl,
       current: true,
+      total: categorisedEvents.all.length,
     },
     {
       title: "CFP open",
@@ -43,6 +44,7 @@ export default function Events({ events }) {
       key: "cfpOpen",
       icon: FaMicrophoneAlt,
       current: false,
+      total: categorisedEvents.cfpOpen.length,
     },
     {
       title: "In person",
@@ -50,6 +52,7 @@ export default function Events({ events }) {
       key: "inPerson",
       icon: MdOutlinePeople,
       current: false,
+      total: categorisedEvents.inPerson.length,
     },
     {
       title: "Virtual",
@@ -57,22 +60,12 @@ export default function Events({ events }) {
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
       current: false,
+      total: categorisedEvents.virtual.length,
     },
   ];
 
   let displayTabs = filters.flatMap((tab) => {
-    if (tab.key === "all") {
-      return { ...tab, total: categorisedEvents.all.length };
-    }
-    if (tab.key === "cfpOpen") {
-      return { ...tab, total: categorisedEvents.cfpOpen.length };
-    }
-    if (tab.key === "inPerson") {
-      return { ...tab, total: categorisedEvents.inPerson.length };
-    }
-    if (tab.key === "virtual") {
-      return { ...tab, total: categorisedEvents.virtual.length };
-    }
+    return { ...tab };
   });
 
   const [tabs, setTabs] = useState(displayTabs);
