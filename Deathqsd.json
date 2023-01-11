@@ -6,9 +6,13 @@
   "avatar": "https://github.com/Deathqsd.png",
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/deathqsd",
       "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/deathqsd",
+      "icon": "FaInstagram"
     }
   ]
-}
