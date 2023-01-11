@@ -1,0 +1,14 @@
+{
+  "name": "Deathqsd",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/Deathqsd.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+}
