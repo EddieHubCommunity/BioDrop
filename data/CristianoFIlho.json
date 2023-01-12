@@ -1,0 +1,47 @@
+{
+  "name": "Cristiano Filho",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source CristianoFIlho | Developer of **freelancer** | **GitHub** CristianoFIlho",
+  "avatar": "https://github.com/CristianoFIlho.png",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Flask",
+    "RASA fremework",
+    "TensorFlow",
+    "React",
+    "Salesforce"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/crisfilho98" },
+    { "icon": "FaGithub", "url": "https://github.com/CristianoFIlho" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UC_JLEdjlXG6BfRPvT4_yHEQ"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Business: Cristiano Filho Services",
+      "url": "https://cristianofilho.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Linkedin: follow me on LinkedIn!",
+      "url": "https://www.linkedin.com/in/cristiano-filho/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github: Cristiano Filho",
+      "url": "https://github.com/CristianoFIlho",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/CristianoFIlho",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}
