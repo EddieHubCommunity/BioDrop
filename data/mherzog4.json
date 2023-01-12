@@ -1,0 +1,24 @@
+{
+  "name": "Matt Herzog",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/mherzog4.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mattherzog5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin,
+      "url": "https://twitter.com/https://www.linkedin.com/in/mattherzog3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my website,
+      "url": "http://mattherzog.me/",
+      "icon": "fa-solid fa-code-compare"
+    }
+  ]
+}
