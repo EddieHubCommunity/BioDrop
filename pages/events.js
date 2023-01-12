@@ -85,7 +85,7 @@ export default function Events({ events }) {
           setSortEvents={setSortEvents}
           sortEvents={sortEvents}
         />
-
+        
         {filters.map(
           (filter) =>
             tabs.find((tab) => tab.key === filter.key) &&
