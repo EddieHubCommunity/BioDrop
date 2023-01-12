@@ -6,9 +6,18 @@
   "avatar": "https://github.com/loftwah.png",
   "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Ruby"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/loftwah" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/loftwah" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/loftwahthebeatsmiff" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/loftwah"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/loftwah"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/loftwahthebeatsmiff"
+    }
   ],
   "links": [
     {
@@ -37,5 +46,5 @@
       "icon": "FaSpotify"
     }
   ],
-  "testimonials": ["CBID2"]
+  "testimonials": ["CBID2", "krshkun"]
 }
