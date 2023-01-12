@@ -65,7 +65,6 @@ export default function Events({ events }) {
   ];
 
   const [tabs, setTabs] = useState(filters);
-  const [sortEvents, setSortEvents] = useState(categorisedEvents);
 
   return (
     <>
@@ -76,13 +75,8 @@ export default function Events({ events }) {
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
-        <EventTabs
-          tabs={tabs}
-          setTabs={setTabs}
-          setSortEvents={setSortEvents}
-          sortEvents={sortEvents}
-        />
-        
+        <EventTabs tabs={tabs} setTabs={setTabs} />
+
         {filters.map(
           (filter) =>
             tabs.find((tab) => tab.key === filter.key) &&

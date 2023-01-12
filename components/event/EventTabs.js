@@ -1,5 +1,3 @@
-import { BiSortAlt2 } from "react-icons/bi";
-
 export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
@@ -11,74 +9,6 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
           : { ...tab, current: false }
       )
     );
-  };
-
-  const getDataKeyAndSortKey = (tabName) => {
-    let dataKeyObj = {};
-    switch (tabName) {
-      case "cfpOpen":
-        dataKeyObj.dataKey = "cfpOpen";
-        dataKeyObj.sortKey = "date.start";
-        break;
-      case "inPerson":
-        dataKeyObj.dataKey = "inPerson";
-        dataKeyObj.sortKey = "date.start";
-        break;
-      case "virtual":
-        dataKeyObj.dataKey = "virtual";
-        dataKeyObj.sortKey = "date.start";
-        break;
-      default:
-        dataKeyObj.dataKey = "all";
-        dataKeyObj.sortKey = "date.start";
-    }
-    return dataKeyObj;
-  };
-
-  const sortUserTabItems = (tabName, order) => {
-    const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
-    sortEvents[dataKey].sort(function (a, b) {
-      const aVal = sortKey.includes(".")
-        ? getNested(a, sortKey.split("."))
-        : a[sortKey];
-      const bVal = sortKey.includes(".")
-        ? getNested(b, sortKey.split("."))
-        : b[sortKey];
-      if (tabName === "My Links") {
-        if (order === "ASC") {
-          return aVal.toLowerCase() > bVal.toLowerCase()
-            ? 1
-            : aVal.toLowerCase() < bVal.toLowerCase()
-            ? -1
-            : 0;
-        } else {
-          return aVal.toLowerCase() < bVal.toLowerCase()
-            ? 1
-            : aVal.toLowerCase() > bVal.toLowerCase()
-            ? -1
-            : 0;
-        }
-      } else {
-        if (order === "ASC") {
-          return new Date(aVal) > new Date(bVal)
-            ? 1
-            : new Date(aVal) < new Date(bVal)
-            ? -1
-            : 0;
-        } else {
-          return new Date(aVal) < new Date(bVal)
-            ? 1
-            : new Date(aVal) > new Date(bVal)
-            ? -1
-            : 0;
-        }
-      }
-    });
-    setSortEvents({ ...sortEvents });
-  };
-
-  const getNested = (obj, args) => {
-    return args.reduce((obj, level) => obj && obj[level], obj);
   };
 
   return (
@@ -127,30 +57,6 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
                 <span>
                   {tab.title} ({tab.total})
                 </span>
-                {tab.current && (
-                  <BiSortAlt2
-                    size="20"
-                    className="hover:text-gray-400"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      setTabs(
-                        tabs.map((tab) =>
-                          tab.current
-                            ? {
-                                ...tab,
-                                order: tab.order === "ASC" ? "DESC" : "ASC",
-                              }
-                            : { ...tab }
-                        )
-                      );
-                      sortUserTabItems(
-                        tab.title,
-                        tab.order === "ASC" ? "DESC" : "ASC"
-                      );
-                    }}
-                  />
-                )}
               </a>
             ))}
           </nav>
