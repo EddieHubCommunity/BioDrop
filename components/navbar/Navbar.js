@@ -143,8 +143,8 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className={`${!isOpen && "hidden"} md:hidden`} id="mobile-menu" onClick={() => setIsOpen(false)}>
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className={`${!isOpen && "hidden"} md:hidden`} id="mobile-menu">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3" onClick={() => setIsOpen(false)}>
             {primary.map((item, index) => (
               <NavLink
                 key={index}
