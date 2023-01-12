@@ -15,15 +15,21 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ![LinkFree GitHub repo](https://user-images.githubusercontent.com/82668196/208292176-fb2bedf9-8dd1-4fff-b422-30d54f2fdd48.png)
 
 3. If you wish to be kept up to date with the repo, hit that "Star" at the top right
+
+![Start LinkFree](https://user-images.githubusercontent.com/51131670/210128265-8a23977a-e80e-4037-b94b-253f5a23b8e7.png)
+
 4. Click on Fork
 
-![create a new fork](https://user-images.githubusercontent.com/82668196/208292177-7f1fe62e-a73d-4070-8a57-ca3ec47812fc.png)
+![create a new fork](https://user-images.githubusercontent.com/51131670/210128263-0716b260-5922-4db3-933d-f7e992b668a9.png)
 
 5. Accept the default fork creating a copy of the LinkFree project in your account - this will take you to the forked repo
 
 ![LinkFree form](https://user-images.githubusercontent.com/82668196/208292178-92daccad-293d-407a-9d8d-0a86b63d6bd7.png)
 
 6. Click add file and select "create new file"
+
+![Create new file](https://user-images.githubusercontent.com/51131670/210201815-9c56ca28-19e8-4ef9-9934-6014d5262624.png)
+
 7. In the file path at the top, add `data/` then with your GitHub username exactly as it appears, and append `.json` (for example `data/SaraJaoude.json`)
 
 ![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
@@ -47,7 +53,7 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 | name               | string               | Your display name on your Profile                                                                             |
 | displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter                                                         |
 | type               | personal / community | The type of account, is it a single person or a community                                                     |
-| bio                | string               | Your description about yourself (you can use markdown here)                                                    |
+| bio                | string               | Your description about yourself (you can use markdown here)                                                   |
 | avatar             | string               | Here we recommend you use a magic GitHub link for your profile which is your GitHub link appended with `.png` |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
@@ -116,10 +122,12 @@ You can skip `optional extended message`
 | 3rd dropdown | Your repository (source)             | `your-username/LinkFree`     |
 | 4th dropdown | Your repository branch (source)      | `your-username-patch-1`      |
 
-![compare across forls](https://user-images.githubusercontent.com/82668196/208292189-513b4213-a3a7-4a45-a834-ac6ce6b9217a.png)
+The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/LinkFree` not your username `your-username/LinkFree`.
+
+![compare across forks](https://user-images.githubusercontent.com/82668196/208292189-513b4213-a3a7-4a45-a834-ac6ce6b9217a.png)
 
 14. Click `Create pull request`
-15. The description will be filled with a template, please fill in the appropiate sections
+15. The description will be filled with a template, please fill in the appropriate sections
 
 ![create pull request](https://user-images.githubusercontent.com/82668196/208292192-704402e7-c2d6-432e-8dab-cb6a678866c1.png)
 
@@ -141,6 +149,14 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
 - [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
 - [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
+
+### Next steps
+
+- How to [edit and add more](/docs/how-to-guides/editing) to your profile
+- Add [social shortcuts](/docs/how-to-guides/socials-shortcuts) to your profile
+- Add [tags](/docs/how-to-guides/tags) to your profile
+- Add [events](/docs/how-to-guides/events) to your profile
+- Add [testimonials](/docs/how-to-guides/testimonials) to your profile
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree QuickStart Documentation">{children}</DocsLayout>

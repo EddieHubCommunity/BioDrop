@@ -1,0 +1,24 @@
+{
+  "name": "Esaú Morais",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Full-Stack Web Developer",
+  "avatar": "https://github.com/esau-morais.png",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/emmorais",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/esau-morais",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_3morais",
+      "icon": "FaTwitter"
+    }
+  ]
+}
