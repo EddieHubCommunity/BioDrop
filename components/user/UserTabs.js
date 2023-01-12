@@ -49,28 +49,28 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
           return aVal.toLowerCase() > bVal.toLowerCase()
             ? 1
             : aVal.toLowerCase() < bVal.toLowerCase()
-            ? -1
-            : 0;
+              ? -1
+              : 0;
         } else {
           return aVal.toLowerCase() < bVal.toLowerCase()
             ? 1
             : aVal.toLowerCase() > bVal.toLowerCase()
-            ? -1
-            : 0;
+              ? -1
+              : 0;
         }
       } else {
         if (order === "ASC") {
           return new Date(aVal) > new Date(bVal)
             ? 1
             : new Date(aVal) < new Date(bVal)
-            ? -1
-            : 0;
+              ? -1
+              : 0;
         } else {
           return new Date(aVal) < new Date(bVal)
             ? 1
             : new Date(aVal) > new Date(bVal)
-            ? -1
-            : 0;
+              ? -1
+              : 0;
         }
       }
     });
@@ -92,7 +92,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
           name="tabs"
           onChange={changeTab}
           className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-          defaultValue={tabs.find((tab) => tab.current).name}
+          value={tabs.find((tab) => tab.current).name}
         >
           {tabs.map((tab) => (
             <option key={tab.name}>{tab.name}</option>
@@ -129,9 +129,9 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
                         tabs.map((tab) =>
                           tab.current
                             ? {
-                                ...tab,
-                                order: tab.order === "ASC" ? "DESC" : "ASC",
-                              }
+                              ...tab,
+                              order: tab.order === "ASC" ? "DESC" : "ASC",
+                            }
                             : { ...tab }
                         )
                       );
