@@ -1,0 +1,14 @@
+{
+  "name": "Tejender Upadhyay",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://github.com/Tejender1521.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tarun1521",
+      "icon": "FaTwitter"
+    }
+  ]
+}
