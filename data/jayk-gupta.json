@@ -17,7 +17,7 @@
       "icon":"FaLinkedIn"
     },
     {
-       "Follow me on Github",
+       "name": "Follow me on Github",
       "url":" https://github.com/jayk-gupta",
       "icon":"FaGithub"
     }
