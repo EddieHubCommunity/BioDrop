@@ -2,10 +2,12 @@ import ProjectCard from "../projects/ProjectCard";
 
 function UserProjects({ projects }) {
   return (
-    <div className="flex flex-wrap">
-      {projects.map((project, index) => (
-        <ProjectCard key={index} project={project} />
-      ))}
+    <div className="mt-6">
+      <ul role="list" className="divide-y divide-gray-200">
+        {projects.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+      </ul>
     </div>
   );
 }
