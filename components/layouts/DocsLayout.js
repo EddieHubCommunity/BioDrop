@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Page from "../Page";
+import Link from "../../components/Link";
+
 
 export default function DocsLayout({ children, title }) {
   return (
@@ -16,15 +18,10 @@ export default function DocsLayout({ children, title }) {
         <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with
-          creating your Profile to more advanced topics. You can contribute to
-          our documentation and find the files here{" "}
-          <a
-            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
-            target="_blank"
-            rel="noreferrer"
-          >
-            https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
-          </a>
+          creating your Profile to more advanced topics. We welcome contributions, check out the&nbsp;
+          <Link url="https://github.com/EddieHubCommunity/LinkFree">LinkFree Repo</Link> and the&nbsp;
+          <Link url="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs">documentation source</Link> and the&nbsp;
+          on GitHub for more information.
         </p>
         <div className="float-none my-0 max-w-[1440px] prose">
           <div className="flex flex-grow flex-row">
