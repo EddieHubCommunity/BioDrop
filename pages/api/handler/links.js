@@ -115,5 +115,5 @@ export default async function handler(req, res) {
     }
   }
 
-  return res.redirect(decodeURIComponent(url));
+  return res.status(201).redirect(decodeURIComponent(url));
 }
