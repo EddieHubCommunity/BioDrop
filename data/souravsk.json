@@ -1,44 +1,41 @@
 {
-  "name": "Sourav Kumar",
+  "name": "Sourav Kumar ",
+  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Open Source ",
-  "avatar": "https://github.com/souravsk.png",
+  "bio": "Learing in public Cloud, DevOps",
+  "avatar": "https://github.com/SaraJaoude.png",
+  "tags": ["Cloud", "Open Source", "DevOps", "Blog"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sourav_sovu_"
+    }
+  ],
   "links": [
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/souravsk",
-      "icon": "FaGithub"
-    },
-    {
-      "name": "Follow me on Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/sourav_sovu_",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/sourav-kumar-237958141",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sourav_sovu_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/souravsk",
       "icon": "FaLinkedin"
     },
     {
-      "name": "LeetCode",
-      "url": "https://leetcode.com/itssourav/",
-      "icon": "SiCodeforces"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Learning DSA",
-      "date": "January 2022",
-      "icon": "SiCodeforces",
-      "color": "red",
-      "description": "Learning"
+      "name": "GitHub",
+      "url": "https://github.com/souravsk",
+      "icon": "FaGithub"
     },
     {
-      "title": "Learning Kubernetes",
-      "date": "January 2022",
-      "icon": "FaDev",
-      "color": "blue",
-      "description": "Learning"
+      "name": "Blogs",
+      "url": "https://souravk.hashnode.dev",
+      "icon": "SiHashnode"
     }
   ]
 }

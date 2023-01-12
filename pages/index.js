@@ -405,11 +405,14 @@ export default function Home({ total, today }) {
                             />
                           </span>
                         </div>
-                        <Link href={feature.path}>
-                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
+                          <Link
+                            href={feature.path}
+                            className="text-gray-900 hover:text-indigo-600 hover:underline"
+                          >
                             {feature.name}
-                          </h3>
-                        </Link>
+                          </Link>
+                        </h3>
                         <p className="mt-5 text-base leading-7 text-gray-600">
                           {feature.description}
                         </p>
