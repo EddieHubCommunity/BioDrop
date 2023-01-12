@@ -1,0 +1,19 @@
+{
+  "name": "Martin Fischer",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "<3 the web and cloud native",
+  "avatar": "https://github.com/gabel.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gabel",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/martin-fischer-690ba817/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
