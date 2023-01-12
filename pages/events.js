@@ -64,12 +64,9 @@ export default function Events({ events }) {
     },
   ];
 
-  let displayTabs = filters.flatMap((tab) => {
-    return { ...tab };
-  });
-
-  const [tabs, setTabs] = useState(displayTabs);
+  const [tabs, setTabs] = useState(filters);
   const [sortEvents, setSortEvents] = useState(categorisedEvents);
+
   return (
     <>
       <Head>
