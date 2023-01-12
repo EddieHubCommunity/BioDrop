@@ -35,7 +35,6 @@ export default function Events({ events }) {
       description: "List all events with no filters",
       key: "all",
       icon: FaListUl,
-      current: true,
       total: categorisedEvents.all.length,
     },
     {
@@ -43,7 +42,6 @@ export default function Events({ events }) {
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
       icon: FaMicrophoneAlt,
-      current: false,
       total: categorisedEvents.cfpOpen.length,
     },
     {
@@ -51,7 +49,6 @@ export default function Events({ events }) {
       description: "These are in person events",
       key: "inPerson",
       icon: MdOutlinePeople,
-      current: false,
       total: categorisedEvents.inPerson.length,
     },
     {
@@ -59,12 +56,12 @@ export default function Events({ events }) {
       description: "Held virtually online event",
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
-      current: false,
       total: categorisedEvents.virtual.length,
     },
   ];
 
   const [tabs, setTabs] = useState(filters);
+  const [eventType, setEventType] = useState("all");
 
   return (
     <>
@@ -75,31 +72,21 @@ export default function Events({ events }) {
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
-        <EventTabs tabs={tabs} setTabs={setTabs} />
+        <EventTabs
+          tabs={tabs}
+          setTabs={setTabs}
+          eventType={eventType}
+          setEventType={setEventType}
+        />
+        <ul role="list" className="divide-y divide-gray-200 mt-6">
+          <h2 className="text-md md:text-2xl text-lg text-gray-600 font-bold md:mb-6 mb-3">
+            {filters.find((filter) => filter.key === eventType).description}
+          </h2>
 
-        {filters.map(
-          (filter) =>
-            tabs.find((tab) => tab.key === filter.key) &&
-            tabs.find((tab) => tab.key === filter.key).current && (
-              <ul
-                key={filter.key}
-                role="list"
-                className="divide-y divide-gray-200 mt-6"
-              >
-                <h2 className="text-md md:text-2xl text-lg text-gray-600 font-bold md:mb-6 mb-3">
-                  {filter.description}
-                </h2>
-
-                {categorisedEvents[filter.key].map((event, index) => (
-                  <EventCard
-                    event={event}
-                    username={event.username}
-                    key={index}
-                  />
-                ))}
-              </ul>
-            )
-        )}
+          {categorisedEvents[eventType]?.map((event, index) => (
+            <EventCard event={event} username={event.username} key={index} />
+          ))}
+        </ul>
       </Page>
     </>
   );

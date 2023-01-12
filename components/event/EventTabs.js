@@ -1,14 +1,10 @@
-export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
+export function EventTabs({ tabs, eventType, setEventType }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
-    e.preventDefault();
-    setTabs(
-      tabs.map((tab) =>
-        tab.title === e.target?.value || tab.title === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
-      )
-    );
+    setEventType(value);
+    if (!value) {
+      setEventType(tabs.find((tab) => tab.title === e.target.value).key);
+    }
   };
 
   return (
@@ -20,9 +16,9 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
         <select
           id="tabs"
           name="tabs"
-          onChange={changeTab}
+          onChange={(e) => changeTab(e)}
           className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-          defaultValue={tabs.find((tab) => tab.current)?.title}
+          defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
         >
           {tabs.map((tab) => (
             <option key={tab.key}>{tab.title}</option>
@@ -36,14 +32,14 @@ export function EventTabs({ tabs, setTabs, sortEvents, setSortEvents }) {
               <a
                 key={tab.key}
                 href={tab.href}
-                onClick={(e) => changeTab(e, tab.title)}
+                onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
-                  tab.current
+                  tab.key === eventType
                     ? "border-indigo-500 text-indigo-600"
                     : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}
-                aria-current={tab.current ? "page" : undefined}
+                aria-current={tab.key === eventType ? "page" : undefined}
               >
                 {
                   <tab.icon
