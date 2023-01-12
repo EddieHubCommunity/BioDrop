@@ -2,7 +2,7 @@
   "name": "Siddharth Khuntwal",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "GDSC Lead'22| Coding Insructor @Simplilearn | Incoming SWE intern @Microsoft | Blooger",
+  "bio": "GDSC Lead'22 | Coding Insructor @Simplilearn | Incoming SWE intern @Microsoft | Tech Speaker | Blogger",
   "avatar": "https://github.com/sid-khuntwal.png",
   "links": [
     {
@@ -11,12 +11,12 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Connect with me on Twitter",
       "url": "https://twitter.com/sid-khuntwal",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/sidlyf/",
       "icon": "FaLinkedin"
     },
@@ -26,7 +26,12 @@
       "icon": "SiHashnode"
     },
     {
-      "name": "Follow me on Instagram",
+      "name": "My Portfolio",
+      "url": "https://sidlyf-portfolio.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Connect with me on Instagram",
       "url": "https://www.instagram.com/sidlyf/",
       "icon": "FaInstagram"
     }
