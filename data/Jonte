@@ -1,0 +1,35 @@
+{
+  "name": "Jonte de Zwart",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Solutions Engineering | Backend Development | Cloud Security",
+  "avatar": "http://github.com/jontstaz.png",
+  "tags": [
+    "Open Source",
+    "Python",
+    "JavaScript",
+    "PHP",
+    "DevSecOps"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/jontstaz" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jontedez/" }
+  ],
+  "links": [
+    {
+      "name": "Jonte.au: Personal Website/Portfolio",
+      "url": "https://jonte.au",
+      "icon": "FaRegAddressCard"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/jontstaz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/jontedez/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
