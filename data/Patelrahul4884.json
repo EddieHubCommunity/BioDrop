@@ -10,12 +10,12 @@
       "url": "https://twitter.com/U_N_R_3_A_L",
       "icon": "FaTwitter"
     },
-     {
+    {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Patelrahul4884",
       "icon": "FaGithub"
     },
-        {
+    {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/rahul-patel-08805313a/",
       "icon": "FaLinkedin"
@@ -30,5 +30,5 @@
       "description": "Cleared exam with 843/1000 score",
       "url": "https://www.credly.com/badges/88e8b015-390c-48ba-b993-9ae9da5ce173/public_url"
     }
-   ]
+  ]
 }
