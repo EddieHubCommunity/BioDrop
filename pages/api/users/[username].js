@@ -167,6 +167,43 @@ export default async function handler(req, res) {
   const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
 
+  if (data.projects) {
+    data.projects = await Promise.all(
+      data.projects.flatMap(async (project) => {
+        const owner = project.owner;
+        const repo = project.repo;
+
+        try {
+          const res = await fetch(
+            `https://api.github.com/repos/${owner}/${repo}`
+          );
+          const project = await res.json();
+          const contributors = await fetch(
+            `https://api.github.com/repos/${owner}/${repo}/contributors`
+          );
+          const contributorsJson = await contributors.json();
+          const topContributors = contributorsJson.slice(0, 3);
+
+          return {
+            title: project.name,
+            description: project.description,
+            githubrepo: project.html_url,
+            techUsed: project.topics,
+            url: project.homepage,
+            contributors: topContributors.map((contributor) => {
+              return {
+                username: contributor.login,
+                avatar: contributor.avatar_url,
+              };
+            }),
+          };
+        } catch (error) {
+          console.log("Problem fetching projects", error);
+          return [];
+        }
+      })
+    );
+  }
   const profileWithStats = {
     username,
     ...data,

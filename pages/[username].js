@@ -14,6 +14,7 @@ import UserMilestones from "../components/user/UserMilestones";
 import UserTestimonials from "../components/user/UserTestimonials";
 import UserEvents from "../components/user/UserEvents";
 import Page from "../components/Page";
+import UserProjects from "../components/user/UserProjects";
 
 export async function getServerSideProps(context) {
   let data = {};
@@ -58,6 +59,7 @@ export default function User({ users, data, BASE_URL }) {
     { name: "Milestones", href: "#", current: false, order: "ASC" },
     { name: "Testimonials", href: "#", current: false, order: "ASC" },
     { name: "Events", href: "#", current: false, order: "ASC" },
+    { name: "Projects", href: "#", current: false, order: "ASC" },
   ];
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "My Links") {
@@ -81,6 +83,12 @@ export default function User({ users, data, BASE_URL }) {
     if (tab.name === "Events") {
       if (userData.events && userData.events.length) {
         return { ...tab, total: userData.events.length };
+      }
+      return [];
+    }
+    if (tab.name === "Projects") {
+      if (userData.projects && userData.projects.length) {
+        return { ...tab, total: userData.projects.length };
       }
       return [];
     }
@@ -135,6 +143,10 @@ export default function User({ users, data, BASE_URL }) {
         {tabs.find((tab) => tab.name === "Events") &&
           tabs.find((tab) => tab.name === "Events").current && (
             <UserEvents data={userData} />
+          )}
+        {tabs.find((tab) => tab.name === "Projects") &&
+          tabs.find((tab) => tab.name === "Projects").current && (
+            <UserProjects projects={userData.projects} />
           )}
       </Page>
 
