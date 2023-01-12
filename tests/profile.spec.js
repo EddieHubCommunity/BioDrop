@@ -38,7 +38,7 @@ test("Link clicks increase", async ({ page }) => {
   await link.click();
 
   await page.waitForResponse(
-    (resp) => resp.url().includes("/api/statistics") && resp.status() === 201
+    (resp) => resp.url().includes("/api/handler/links") && resp.status() === 201
   );
 
   const endingClicks = (await link.innerText()).match(/(\d+)/g);
