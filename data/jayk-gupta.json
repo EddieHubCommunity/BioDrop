@@ -6,7 +6,7 @@
   "avatar": "https://github.com/jayk-gupta.png",
   "links":[
     {
-    "Follow me on Twitter",
+    "name": "Follow me on Twitter",
       "url":"https://twitter.com/jayk_gupta",
       "icon":"FaTwitter"
       
