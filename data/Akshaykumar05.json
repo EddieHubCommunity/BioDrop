@@ -1,0 +1,71 @@
+{
+  "name": "Akshay Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Aspiring DevOps Engineer|| Founder **GrowInCommunity**|| Open Source enthusiast || Cloud Computing || Tech Blogger",
+  "avatar": "https://github.com/Akshaykumar05.png",
+  "tags": ["Open Source", "Cloud computing", "Devrel", "DevOps"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/akshayktwt" },
+    { "icon": "FaGithub", "url": "https://github.com/akshaykumar05" }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/akshaykumar05",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshayktwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Join our Inclusive Open Source community GrowInCommunity on Twitter & Discord",
+      "url": "https://twitter.com/GrowInComm",
+      "icon": "FaLink"
+    },
+
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/akshayktwt/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://hashnode.com/@Akshaykumar05",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/akshayktwt/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://github.com/akshaykumar05"
+    },
+    {
+      "title": "Founded our Inclusive **GrowInCommunity**",
+      "date": "8 December 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Started our Inclusive Open Source community **GrowInCommunity** where everyone learn, build and grow together",
+      "url": "https://twitter.com/GrowInComm"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://hashnode.com/@Akshaykumar05/"
+    }
+  ]
+}
