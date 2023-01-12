@@ -29,8 +29,8 @@ export default function Events({ events }) {
     cfpOpen: events.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
-    free: events.filter((event) => event.startingFrom === 0),
-    paid: events.filter((event) => event.startingFrom > 0),
+    free: events.filter((event) => event.price?.startingFrom === 0),
+    paid: events.filter((event) => event.price?.startingFrom > 0),
   };
 
   return (

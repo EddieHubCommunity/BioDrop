@@ -29,8 +29,8 @@ export default function EventCard({ event, username }) {
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
-          {event.startingFrom > 0 && <TbCoin title="Paid event" />}
-          {event.startingFrom === 0 && <TbCoinOff title="Free event" />}
+          {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
+          {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
           {event.date.cfpClose &&
             new Date(event.date.cfpClose) > new Date() && (

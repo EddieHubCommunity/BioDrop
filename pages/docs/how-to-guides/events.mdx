@@ -19,12 +19,14 @@ All future events also appear on the Events page for the app.
 
 _If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
 
-3. This `json` file will contain one object for the event and must have seven fields, `startingFrom`,`isVirtual`and/or`isInPerson`, `color`, `name`, `description`, `date`and`url`, which will look like this:
+3. This `json` file will contain one object for the event and must have seven fields, `price`, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`and`url`, which will look like this:
 
 <ClipboardCopy>
 ```js
 {
-  "startingFrom":0,
+  "price": {
+    "startingFrom": 0
+  },
   "isVirtual": true,
   "isInPerson": true,
   "color": "red",
@@ -42,7 +44,7 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 
 | Property               | Description                                                 |
 | :--------------------- | :---------------------------------------------------------- |
-| startingFrom           | What is the cost to attend event in USD.                    |
+| price                  | What is the cost to attend event in USD.                    |
 | isVirtual / isInPerson | Is the event virtual or in person or both                   |
 | color                  | What color would you like this milestone to be displayed in |
 | name                   | Name of the event                                           |
