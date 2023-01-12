@@ -28,10 +28,23 @@ test("Profile views increase", async ({ page }) => {
 });
 
 test.fixme("Link clicks increase", async ({ page }) => {
-  // 1. navigate to profile
-  // 2. get a link and href
-  // 3. click the link
-  // 4. get the current link count and match it with the previous
+  await page.goto("/_test-profile-user-4");
+
+  const link = page.locator("text=/Link 1\\s*/i");
+
+  const startingClicks = (await link.innerText()).match(/(\d+)/g);
+
+  for (const i in new Array(3)) {
+    await link.click();
+
+    await page.waitForURL("https://eddiejaoude.io");
+
+    await page.goto("/_test-profile-user-4");
+
+    const endingClicks = (await link.innerText()).match(/(\d+)/g);
+
+    expect(parseInt(startingClicks)).toEqual(parseInt(endingClicks) + i + 1);
+  }
 });
 
 test("Profile not found redirects to search page with error message", async ({
