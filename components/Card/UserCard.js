@@ -7,6 +7,7 @@ export default function UserCard({ profile }) {
   return (
     <Link
       href={`/${profile.username}`}
+      aria-label={`View profile for ${profile.name}`}
       className="p-4 flex items-center flex-col gap-3 w-[14rem] h-[17rem] border-2 border-solid border-gray-200 hover:border-orange-600 rounded-lg overflow-hidden"
     >
       <div className="relative flex items-center justify-center w-auto h-auto">
@@ -19,7 +20,10 @@ export default function UserCard({ profile }) {
           fallback={profile.name}
         />
         {profile.views && (
-          <div className="absolute top-0 right-0 bottom-auto left-auto inline-block align-baseline py-1 px-1.5 bg-orange-600 text-xs text-center text-black font-bold leading-none translate-x-1/2 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 rounded-full z-10">
+          <div
+            aria-hidden="true"
+            className="absolute top-0 right-0 bottom-auto left-auto inline-block align-baseline py-1 px-1.5 bg-orange-600 text-xs text-center text-black font-bold leading-none translate-x-1/2 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 rounded-full z-10"
+          >
             {abbreviateNumber(profile.views)}
           </div>
         )}
