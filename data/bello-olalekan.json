@@ -1,0 +1,14 @@
+{
+  "name": "Bello Olalekan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "SRE | DevOps Engineer **. Combat Sports fan",
+  "avatar": "https://github.com/bello-olalekan.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SenseiQyu",
+      "icon": "FaTwitter"
+    }
+  ]
+}

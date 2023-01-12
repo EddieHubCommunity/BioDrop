@@ -1,0 +1,69 @@
+{
+  "name": "Shashank Deshpande",
+  "displayStatsPublic": true,
+  "type": "personal",
+
+  "bio": "OpenSource Enthusiast! | DevOps | MERN-Developer | Self-paced Full-Stack Developer",
+
+  "avatar": "https://github.com/Shashankzz0007.png",
+  "tags": ["opensource", "javascript", "typescript", "Reactjs", "DevOps"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/shashankz007" },
+    { "icon": "FaGithub", "url": "https://github.com/Shashankzz0007" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shashankd007"
+    },
+    {
+      "icon": "showcase",
+      "url": "https://www.showwcase.com/shashankzz0007"
+    }
+  ],
+  "links": [
+    {
+      "name": "Connect with me on GitHub",
+
+      "url": "https://github.com/Shashankzz0007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shashankz007",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+
+      "url": "https://www.linkedin.com/in/shashankd007",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on ShowCase",
+
+      "url": "https://www.showwcase.com/shashankzz0007",
+      "icon": "showcase"
+    },
+    {
+      "name": "Connect with me on Discord",
+
+      "url": "https://discord.com/channels/@me",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://blogdart.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Participated in Hactoberfest in Open Source in eddiehub community ",
+      "date": "October 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "I am newbie at Open Source and to learn about tech and work in collaboration with great people.",
+
+      "url": "https://github.com/Shashankzz0007"
+    }
+  ]
+}

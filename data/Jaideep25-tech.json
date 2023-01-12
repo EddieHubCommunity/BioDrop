@@ -1,0 +1,119 @@
+{
+  "name": "Jaideep Singh",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full Stack **Flutter** developer | Open Source Advocate | Freelancer | Mentor",
+  "tags": [
+    "Flutter",
+    "Open Source",
+    "Full Stack Cross Platform Mobile Application Development",
+    "Firebase",
+    "Java",
+    "Javascript",
+    "Github"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Jaideep25-tech/" },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/beta_aesthetic_jaideep/"
+    }
+  ],
+  "avatar": "https://github.com/Jaideep25-tech.png",
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/Jaideep25-tech/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jaideep-singh-26a226208/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Know me personally",
+      "url": "https://www.instagram.com/beta_aesthetic_jaideep/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning android development",
+      "date": "Jun 2021",
+      "icon": "bgraduation-hat",
+      "color": "black",
+      "description": "Started learning native android developmnet in Java"
+    },
+    {
+      "title": "Got my First Internship",
+      "date": "Aug 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "First Java devloper internship where I practised and implemented **DSA** concepts in real life projects"
+    },
+    {
+      "title": "Started open source contribution",
+      "date": "Aug 2021",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "Became a **GitHub** Star with 30 other people"
+    },
+    {
+      "title": "Android Developement Internship",
+      "date": "Sept 2021",
+      "icon": "FaAndroid",
+      "color": "green",
+      "description": "Got my first native android development intership in java"
+    },
+    {
+      "title": "Selected in Top 10 open source contibrutor",
+      "date": "Nov 2021",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "Won for contributing to world's largest repository in field of Java under GSWoC'21 program"
+    },
+    {
+      "title": "Got selected as Program Manager for open source program",
+      "date": "Nov 2021",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "For managing and concducting SWoC'21."
+    },
+    {
+      "title": "Selected as Mentor in WOC'21 by IIITK",
+      "date": "Dec 2021",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "Flutter mentor for project Dezenix under open source program WoC'21 by IIITK"
+    },
+    {
+      "title": "Selected as Project Admin in GSSoC'22",
+      "date": "Mar 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "Project Admin of Dezenix using tech stacks like flutter, react, html-css-js, Figma"
+    },
+    {
+      "title": "Selected as SDE intern",
+      "date": "May 2022",
+      "icon": "FaDollarSign",
+      "color": "golden",
+      "description": "Developing full stack mobile application from scratch in flutter at a Startup of Banglore"
+    },
+    {
+      "title": "Selected as flutter intern",
+      "date": "Jun 2022",
+      "icon": "FaDollarSign",
+      "color": "golden",
+      "description": "Integrating different services liks s2 of AWS in flutter application at Unreal AI"
+    },
+    {
+      "title": "Selected as Senior mobile developer at Startup of IIT Delhi",
+      "date": "Aug 2022",
+      "icon": "FaDollarSign",
+      "color": "golden",
+      "description": "Developing full stack mobile application from scratch in flutter and integrating Unity Model of AR/VR"
+    }
+  ]
+}

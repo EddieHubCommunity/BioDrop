@@ -4,23 +4,74 @@ import path from "path";
 import Profile from "../../../models/Profile";
 import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
+import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
   await connectMongo();
   const { username } = req.query;
 
-  const directoryPath = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(directoryPath);
-  const file = files.find((file) => file === `${username}.json`);
+  const filePath = path.join(process.cwd(), "data", `${username}.json`);
 
-  if (!file) {
+  let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+  if (!data) {
     return res.status(404).json({});
   }
 
-  const data = JSON.parse(
-    fs.readFileSync(path.join(directoryPath, file), "utf8")
-  );
+  if (data.testimonials) {
+    const filePathTestimonials = path.join(
+      process.cwd(),
+      "data",
+      username,
+      "testimonials"
+    );
+    const testimonials = data.testimonials.flatMap((username) => {
+      try {
+        const testimonial = {
+          ...JSON.parse(
+            fs.readFileSync(
+              path.join(filePathTestimonials, `${username}.json`),
+              "utf8"
+            )
+          ),
+          username,
+        };
+
+        return testimonial;
+      } catch (e) {
+        return [];
+      }
+    });
+    data = { ...data, testimonials };
+  }
+
+  const filePathEvents = path.join(process.cwd(), "data", username, "events");
+  let eventFiles = [];
+  try {
+    eventFiles = fs
+      .readdirSync(filePathEvents)
+      .filter((item) => item.includes("json"));
+  } catch (e) {
+    console.log(`ERROR loading events "${filePathEvents}"`);
+  }
+  const events = eventFiles.flatMap((filename) => {
+    try {
+      const event = {
+        ...JSON.parse(
+          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
+        ),
+        username,
+      };
+
+      return event;
+    } catch (e) {
+      return [];
+    }
+  });
+  if (events.length) {
+    data = { ...data, events };
+  }
 
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
@@ -50,6 +101,37 @@ export default async function handler(req, res) {
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
+  const getProfileStats = await ProfileStats.findOne({
+    username: username,
+    date: date,
+  });
+  if (getProfileStats) {
+    try {
+      await ProfileStats.updateOne(
+        {
+          username: username,
+          date,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing profile stats", e);
+    }
+  }
+  if (!getProfileStats) {
+    try {
+      await ProfileStats.create({
+        username: username,
+        date,
+        views: 1,
+        profile: getProfile._id,
+      });
+    } catch (e) {
+      console.log("ERROR creating profile stats", e);
+    }
+  }
 
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {

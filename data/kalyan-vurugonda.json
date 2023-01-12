@@ -1,23 +1,30 @@
 {
   "name": "Kalyan Vurugonda",
   "type": "personal",
-  "bio": "DevOps | Open Source Enthusiast!",
+  "displayStatsPublic": true,
+  "bio": "Web Dev | DevOps & Open Source Enthusiast",
+  "tags": ["Web Dev", "DevOps", "Open Source"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/kalyanstwt" },
+    { "icon": "FaGithub", "url": "https://github.com/kalyan-vurugonda" },
+    { "icon": "SiHashnode", "url": "https://kalyanvurugonda.hashnode.dev/" }
+  ],
   "avatar": "https://github.com/kalyan-vurugonda.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/kalyan-vurugonda",
-      "icon": "github"
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kalyanstwt",
+      "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/VurugondaKalyan",
-      "icon": "twitter"
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kalyan-vurugonda",
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/vurugondakalyan/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Bio Link",
@@ -27,16 +34,26 @@
   ],
   "milestones": [
     {
+      "title": "Started Blogging",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started Writing Blogs",
+      "url": "https://kalyanvurugonda.hashnode.dev/"
+    },
+    {
       "title": "Open Source Community Member",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
+      "color": "red",
       "description": "Contributing to various open source projects, joined EddieHub Community as a Member",
       "url": "https://github.com/EddieHubCommunity"
     },
     {
       "title": "Started my Open Source Journey on GitHub",
       "date": "2020",
-      "icon": "github",
+      "icon": "FaGithub",
+      "color": "red",
       "description": "Started using GitHub"
     }
   ]

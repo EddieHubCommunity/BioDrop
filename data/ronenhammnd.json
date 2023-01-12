@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/RonenTGreat",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Ronen_T_G",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/ronen-hammond",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Portfolio Website",
       "url": "https://www.ronenhammond.me",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ],
   "milestones": [
     {
       "title": "Got into Open Source",
       "date": "October 2021",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "grey",
       "description": "Participated in Hacktoberfest"
     }

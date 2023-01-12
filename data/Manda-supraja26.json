@@ -1,0 +1,42 @@
+{
+  "name": "MANDA SUPRAJA",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Manda-supraja26.png",
+  "tags": ["javascript", "typescript"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/SuprajaManda" },
+    { "icon": "FaGithub", "url": "https://github.com/Manda-supraja26" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Manda-supraja26",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SuprajaManda",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on HASHNODE",
+      "url": "https://suprajamanda.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/suprajamanda/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "AWS Cloud Quest: Cloud Practitioner",
+      "color": "grey",
+      "description": "AWS cloud Certifed",
+      "url": "https://www.credly.com/badges/69d22939-fb90-42b2-aacc-a9df7b9c2464/public_url"
+    }
+  ]
+}

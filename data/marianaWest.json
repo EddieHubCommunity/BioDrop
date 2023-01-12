@@ -1,0 +1,29 @@
+{
+  "name": "Mariana Westphalen",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "MERN Stack Developer | Open Source Enthusiast | Creative Code Lover",
+  "avatar": "https://github.com/marianaWest.png",
+  "tags": ["javascript", "react"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Mariana_West_" },
+    { "icon": "FaGithub", "url": "https://github.com/marianaWest" }
+  ],
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/marianaWest",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on Twitter",
+      "url": "https://twitter.com/Mariana_West_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mariana-westphalen/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

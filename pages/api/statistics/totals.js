@@ -1,3 +1,6 @@
+import fs from "fs";
+import path from "path";
+
 import Stats from "../../../models/Stats";
 import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
@@ -13,11 +16,18 @@ export default async function handler(req, res) {
     clicks += stat.clicks;
   });
 
-  const totalProfiles = await Profile.find({}).estimatedDocumentCount();
+  const activeProfiles = await Profile.find({}).estimatedDocumentCount();
+
+  const directoryPath = path.join(process.cwd(), "data");
+  const totalProfiles = fs
+    .readdirSync(directoryPath)
+    .filter((item) => item.includes("json"));
+
   const data = {
     views,
     clicks,
-    users: totalProfiles || 0,
+    users: totalProfiles.length || 0,
+    active: activeProfiles || 0,
   };
 
   res.status(200).json(data);

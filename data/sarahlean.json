@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/weeyin83",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/techielsas",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Learn more about Microsoft Azure on my YouTube channel",
       "url": "https://youtube.com/techielass",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://in.linkedin.com/in/sazlean",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Blogging",
       "date": "March 2015",
-      "icon": "link",
+      "icon": "FaLink",
       "color": "purple",
       "description": "Started Blogging",
       "url": "https://www.techielass.com/"

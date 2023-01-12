@@ -7,12 +7,12 @@
     {
       "name": "Have a look at my projects",
       "url": "https://github.com/amitturare",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Amit_T18",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

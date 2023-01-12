@@ -7,28 +7,28 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/langnerdavid",
-      "icon": "github"
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
     {
       "title": "A-Levels",
       "date": "July 2022",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "green",
       "description": "Graduated with A-Levels in Germany (Abitur)"
     },
     {
       "title": "Open-Source",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started contributing to Open Source with EddieHub"
     },
     {
       "title": "CS Student",
       "date": "September 2022",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "green",
       "description": "Started studying CS as a corporate Student at Porsche"
     }

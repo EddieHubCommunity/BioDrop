@@ -4,6 +4,8 @@ import NavLink from "./NavLink";
 import Link from "next/link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
+import { FaGithub } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,8 +17,8 @@ export default function Navbar() {
       url: "/",
     },
     {
-      name: "Popular",
-      url: "/popular",
+      name: "Discover",
+      url: "/discover",
     },
     {
       name: "Search",
@@ -25,6 +27,10 @@ export default function Navbar() {
     {
       name: "Community Events",
       url: "/events",
+    },
+    {
+      name: "Docs",
+      url: "/docs",
     },
   ];
 
@@ -58,10 +64,18 @@ export default function Navbar() {
                 <div className="ml-3 relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     aria-current="page"
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    GitHub
+                    <IconContext.Provider
+                      value={{
+                        color: "white",
+                        style: { verticalAlign: "middle" },
+                      }}
+                    >
+                      <FaGithub aria-label="GitHub" />
+                    </IconContext.Provider>
                   </a>
                 </div>
               </div>
@@ -72,7 +86,7 @@ export default function Navbar() {
                 type="button"
                 className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 aria-controls="mobile-menu"
-                aria-expanded="false"
+                aria-expanded={isOpen}
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
@@ -123,12 +137,22 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
-              <div className="ml-3">
-                <div className="text-base font-medium leading-none text-white">
-                  GitHub
-                </div>
-                <div className="text-sm font-medium leading-none text-gray-400">
-                  v{app.version}
+              <div className="flex items-center md:ml-6">
+                <span className="text-gray-400">v{app.version}</span>
+                <div className="ml-3 relative">
+                  <a
+                    href="https://github.com/EddieHubCommunity/LinkFree"
+                    aria-current="page"
+                  >
+                    <IconContext.Provider
+                      value={{
+                        color: "white",
+                        style: { verticalAlign: "middle" },
+                      }}
+                    >
+                      <FaGithub />
+                    </IconContext.Provider>
+                  </a>
                 </div>
               </div>
             </div>

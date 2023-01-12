@@ -7,34 +7,34 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/nhcarrigan",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/nhcarrigan",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Join my Discord Community",
       "url": "https://chat.nhcarrigan.com",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Support my work!",
       "url": "https://donate.nhcarrigan.com",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/nhcarrigan",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started development on Rosalia",
       "date": "September 2021",
-      "icon": "discord",
+      "icon": "FaDiscord",
       "color": "#90ee90",
       "description": "Began development on the beta version of Rosalia Nightsong, a new Discord bot.",
       "url": "https://docs.rosalianightsong.com"
@@ -50,7 +50,7 @@
     {
       "title": "Started development on Becca",
       "date": "May 2020",
-      "icon": "discord",
+      "icon": "FaDiscord",
       "color": "#3a3240",
       "description": "Began development on Becca Lyria, a community management and moderation bot for Discord.",
       "url": "https://docs.beccalyria.com"
@@ -58,7 +58,7 @@
     {
       "title": "Learning to Code!",
       "date": "April 2020",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started learning to code with the freeCodeCamp curriculum!",
       "url": "https://www.nhcarrigan.com"

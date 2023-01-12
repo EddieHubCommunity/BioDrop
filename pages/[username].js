@@ -1,22 +1,29 @@
+import { useState } from "react";
 import Head from "next/head";
-import ReactMarkdown from "react-markdown";
+import Link from "next/link";
+import { IconContext } from "react-icons";
+import { FaRegComments } from "react-icons/fa";
 
-import app from "../config/app.json";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
-import UserLink from "../components/user/UserLink";
-import UserMilestone from "../components/user/UserMilestone";
-import FallbackImage from "../components/FallbackImage";
-import EventPreview from "../components/events/EventPreview";
+import UserProfile from "../components/user/UserProfile";
+import UserTabs from "../components/user/UserTabs";
+import UserLinks from "../components/user/UserLinks";
+import UserMilestones from "../components/user/UserMilestones";
+import UserTestimonials from "../components/user/UserTestimonials";
+import UserEvents from "../components/user/UserEvents";
+import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = {};
+  let users = [];
+
   try {
-    const res = await fetch(
-      `${app.baseUrl}/api/users/${context.query.username}`
+    const resUser = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
     );
-    data = await res.json();
+    data = await resUser.json();
   } catch (e) {
     console.log("ERROR user not found ", e);
   }
@@ -30,75 +37,123 @@ export async function getServerSideProps(context) {
     };
   }
 
+  try {
+    const resUsers = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
+    );
+    users = (await resUsers.json()).map((user) => user.username);
+  } catch (e) {
+    console.log("ERROR user list", e);
+  }
+
   return {
-    props: { data },
+    props: { users, data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ data }) {
+export default function User({ users, data, BASE_URL }) {
+  const [userData, setUserData] = useState(data);
+  const defaultTabs = [
+    { name: "My Links", href: "#", current: true, order: "ASC" },
+    { name: "Milestones", href: "#", current: false, order: "ASC" },
+    { name: "Testimonials", href: "#", current: false, order: "ASC" },
+    { name: "Events", href: "#", current: false, order: "ASC" },
+  ];
+  let displayTabs = defaultTabs.flatMap((tab) => {
+    if (tab.name === "My Links") {
+      if (userData.links && userData.links.length) {
+        return { ...tab, total: userData.links.length };
+      }
+      return [];
+    }
+    if (tab.name === "Milestones") {
+      if (userData.milestones && userData.milestones.length) {
+        return { ...tab, total: userData.milestones.length };
+      }
+      return [];
+    }
+    if (tab.name === "Testimonials") {
+      if (userData.testimonials && userData.testimonials.length) {
+        return { ...tab, total: userData.testimonials.length };
+      }
+      return [];
+    }
+    if (tab.name === "Events") {
+      if (userData.events && userData.events.length) {
+        return { ...tab, total: userData.events.length };
+      }
+      return [];
+    }
+  });
+  const [tabs, setTabs] = useState(displayTabs);
+
   return (
     <>
       <Head>
         <title>{data.name}</title>
         <meta name="description" content={data.bio} />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:title" content={data.name} />
+        <meta property="og:type" content="image/png" />
+        <meta
+          property="og:url"
+          content={`https://linkfree.eddiehub.io/${data.username}`}
+        />
+        <meta property="og:image" content={data.avatar} />
       </Head>
 
-      <div className="mx-auto container px-6 mt-6">
-        <div className="flex justify-center gap-x-6">
-          <FallbackImage
-            src={data.avatar}
-            alt={`Profile picture of ${data.name}`}
-            width={120}
-            height={120}
-            fallback={data.name}
-            className="rounded-full"
-          />
-          <div className="flex flex-col self-center">
-            <h1 className="text-3xl font-bold">{data.name}</h1>
-            {data.displayStatsPublic && (
-              <h2 className="text-1xl text-gray-600">Views: {data.views}</h2>
-            )}
-          </div>
-        </div>
-        <div className="flex justify-center my-4">
-          <ReactMarkdown>{data.bio}</ReactMarkdown>
-        </div>
-        <div className="flex flex-col items-center w-full">
-          {data.links &&
-            data.links.map((link, index) => (
-              <UserLink
-                key={index}
-                link={link}
-                username={data.username}
-                displayStatsPublic={data.displayStatsPublic}
-              />
-            ))}
-        </div>
-        <div className="my-8"></div>
-        {data.milestones &&
-          data.milestones.map((milestone, index) => (
-            <div className="flex" key={index}>
-              <div className="w-14 border-l-4 flex flex-col">
-                <div className="border-dashed border-b-2 grow"></div>
-                <div className="grow"></div>
-              </div>
-              <UserMilestone milestone={milestone} />
-            </div>
-          ))}
+      <Page>
+        <UserProfile data={userData} BASE_URL={BASE_URL} />
 
-        <div className="my-8"></div>
-        {data.events &&
-          data.events.map((event, index) => (
-            <div className="flex" key={index}>
-              <div className="w-14 border-l-4 flex flex-col">
-                <div className="border-dashed border-b-2 grow"></div>
-                <div className="grow"></div>
-              </div>
-              <EventPreview event={event} username={data.username} />
-            </div>
-          ))}
-      </div>
+        <UserTabs
+          tabs={tabs}
+          setTabs={setTabs}
+          userData={userData}
+          setUserData={setUserData}
+        />
+
+        {tabs.find((tab) => tab.name === "My Links") &&
+          tabs.find((tab) => tab.name === "My Links").current && (
+            <UserLinks data={userData} BASE_URL={BASE_URL} />
+          )}
+
+        {tabs.find((tab) => tab.name === "Milestones") &&
+          tabs.find((tab) => tab.name === "Milestones").current && (
+            <UserMilestones data={userData} />
+          )}
+
+        {tabs.find((tab) => tab.name === "Testimonials") &&
+          tabs.find((tab) => tab.name === "Testimonials").current && (
+            <UserTestimonials
+              data={userData}
+              users={users}
+              BASE_URL={BASE_URL}
+            />
+          )}
+
+        {tabs.find((tab) => tab.name === "Events") &&
+          tabs.find((tab) => tab.name === "Events").current && (
+            <UserEvents data={userData} />
+          )}
+      </Page>
+
+      <Link
+        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${userData.name}&name=${userData.username}`}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:bg-indigo-800">
+          <IconContext.Provider
+            value={{ color: "white", style: { verticalAlign: "middle" } }}
+          >
+            <FaRegComments />
+          </IconContext.Provider>
+          <p className="text-sm font-medium">
+            Add testimonial for {userData.name}
+          </p>
+        </div>
+      </Link>
     </>
   );
 }

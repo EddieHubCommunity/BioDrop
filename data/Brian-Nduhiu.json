@@ -1,0 +1,22 @@
+{
+  "name": "Brian Nduhiu",
+  "bio": "Full Stack Software Engineer at NCBA Group",
+  "avatar": "https://github.com/brian-nduhiu.png",
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/brian-nduhiu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BrianNduhiu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/brian-nduhiu-358b07121/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

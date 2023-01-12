@@ -7,18 +7,17 @@
     {
       "name": "Follow us on Instagram",
       "url": "https://www.instagram.com/eddieandsaraexplore/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow us on YouTube",
       "url": "https://www.youtube.com/channel/UCS0qh4kCd5sReJuN5BhaFdA",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Website",
       "url": "https://www.eddieandsaraexplore.com",
-      "icon": "website"
+      "icon": "FaLink"
     }
-  ],
-  "milestones": []
+  ]
 }

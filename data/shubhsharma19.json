@@ -1,0 +1,79 @@
+{
+  "name": "Shubh Sharma",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Designer and Content Creator | Tech Blogger | Music Producer",
+  "tags": [
+    "Open Source",
+    "Content Writer",
+    "Blogging",
+    "Web3",
+    "Fullstack Web Development",
+    "Designing"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/code_shubh" },
+    { "icon": "FaGithub", "url": "https://github.com/shubhsharma19" },
+    { "icon": "SiHashnode", "url": "https://shubhsharma19.hashnode.dev/" },
+    { "icon": "FaInstagram", "url": "https://instagram.com/code.shubh/" }
+  ],
+  "avatar": "https://github.com/shubhsharma19.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shubhsharma19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random talks about Tech",
+      "url": "https://twitter.com/code_shubh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Here you go!",
+      "url": "https://shubhsharma19.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/shubhsharma19",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram: I post Programming Content",
+      "url": "https://instagram.com/code.shubh",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Support my work",
+      "url": "https://ko-fi.com/shubhsharma19",
+      "icon": "FaBuymeacoffee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "December, 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "title": "Started Blogging",
+      "date": "October, 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through technical blogs",
+      "url": "https://shubhsharma19.hashnode.dev/"
+    },
+    {
+      "title": "Participated in GDSC Challenge, Commit your code",
+      "date": "October, 2021",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
+      "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
+    }
+  ]
+}
