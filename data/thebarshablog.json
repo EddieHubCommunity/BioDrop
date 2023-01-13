@@ -16,6 +16,7 @@
     { "icon": "FaGithub", "url": "https://github.com/thebarshablog" },
     { "icon": "FaLink", "url": "https://thebarshablog.github.io" }
   ],
+  "testimonials": ["krshkun"],
   "avatar": "https://github.com/thebarshablog.png",
   "links": [
     {
