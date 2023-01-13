@@ -12,7 +12,7 @@ import {
   MdOutlineAutoGraph,
   MdOutlineEditCalendar,
 } from "react-icons/md";
-import { FaMedal } from "react-icons/fa";
+import { FaGithub, FaMedal } from "react-icons/fa";
 
 import singleUser from "../config/user.json";
 
@@ -93,6 +93,13 @@ export default function Home({ total, today }) {
       icon: FaMedal,
       path: "/docs/how-to-guides/milestones",
     },
+    {
+      name: "Projects",
+      description:
+        "Showcase your projects and let people know how to get involved",
+      icon: FaGithub,
+      path: "/docs/how-to-guides/projects",
+    },
   ];
 
   const featuresDetails = [
@@ -163,6 +170,14 @@ export default function Home({ total, today }) {
         "Hosting or attending events, let people know what you are up to.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
+      imageAlt:
+        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+    },
+    {
+      name: "Your Projects",
+      description: "Show off the great projects you have worked on.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/72148710/212338674-eb5caca5-757b-4e2c-bf6e-b8b4933f0203.png",
       imageAlt:
         "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
     },
