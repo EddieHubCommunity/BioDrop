@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "../components/Link";
-import NextLink from "next/link"
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
