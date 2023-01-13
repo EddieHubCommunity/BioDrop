@@ -1,0 +1,29 @@
+{
+  "name": "Saidur Rahman",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Junior web developer",
+  "avatar": "https://github.com/saidurrahmanmisket.png",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://bd.linkedin.com/in/mdsaidurrahmanmisket",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://facebook.com/mdsaidurrahmanmisket",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Instragram",
+      "url": "https://www.instagram.com/mdsaidurrahmanmisket/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/saidurrahmanmisket",
+      "icon": "FaGithub"
+    }
+  ]
+}
