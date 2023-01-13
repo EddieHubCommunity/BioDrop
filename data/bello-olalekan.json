@@ -2,11 +2,16 @@
   "name": "Bello Olalekan",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "SRE | DevOps Engineer **. Combat Sports fan",
+  "bio": "SRE | DevOps Engineer. Cloud Native and Open Source Enthusiast",
   "avatar": "https://github.com/bello-olalekan.png",
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bello-olalekan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
       "url": "https://twitter.com/SenseiQyu",
       "icon": "FaTwitter"
     }
