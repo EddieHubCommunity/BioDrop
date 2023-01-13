@@ -30,7 +30,7 @@
     {
       "title": "Documented dev journey of 2022",
       "date": "January 2023",
-      "icon": "FaHashnode",
+      "icon": "SiHashnode",
       "color": "blue",
       "description": "Documented my journey as a developer in 2022",
       "url": "https://dhanushnehru.hashnode.dev/dev-retro-2022-journey-in-review"
@@ -38,7 +38,7 @@
     {
       "title": "Completed 100DaysOfCode",
       "date": "December 2020",
-      "icon": "FaHashnode",
+      "icon": "SiHashnode",
       "color": "blue",
       "description": "Consistently completed 100DaysOfCode and documented my journey in twitter",
       "url": "https://dhanushnehru.hashnode.dev/100daysofcode"
