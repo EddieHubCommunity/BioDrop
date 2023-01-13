@@ -38,6 +38,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const sortUserTabItems = (tabName, order) => {
     const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
     userData[dataKey].sort(function (a, b) {
+      console.log(userData, "boo");
       const aVal = sortKey.includes(".")
         ? getNested(a, sortKey.split("."))
         : a[sortKey];
