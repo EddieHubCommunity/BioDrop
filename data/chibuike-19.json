@@ -1,0 +1,24 @@
+{
+  "name": "Emmanuel Obiechina",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A petroleum and gas engineering undergraduate. Entered into the tech world to explore my passion for software development",
+  "avatar": "https://github.com/chibuike-19.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/official__ceo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/emmanuel-obiechina-341298235/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/chibuike-19",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Nitishkumar J G",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student @ RNSIT",
+  "avatar": "https://github.com/nitishkumar07.png",
+  "links": [
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/nitishkumarjg/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
