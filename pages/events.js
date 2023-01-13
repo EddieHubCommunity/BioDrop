@@ -74,7 +74,6 @@ export default function Events({ events }) {
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
         <EventTabs
           tabs={tabs}
-          setTabs={setTabs}
           eventType={eventType}
           setEventType={setEventType}
         />
