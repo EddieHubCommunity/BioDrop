@@ -1,0 +1,29 @@
+{
+  "name": "Nishit baria",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "❄ Interest in Space but Doing Coding 🤷 ❄C++ | Java | Open Source | Space Lover | 19 | ",
+  "avatar": "https://github.com/Nishitbaria.png",
+}
+"links": [
+    {
+      "name": "Nishitbaria",
+      "url": "https://twitter.com/Nishitbaria1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Nishitbaria",
+      "url": "https://github.com/Nishitbaria",
+      "icon": "FaGithub"
+    },
+   {
+      "name": "NishitHacks",
+      "url": "https://www.youtube.com/channel/UCwsZPZcuwBnyG1ytZjFsigA",
+      "icon": "FaYoutube"
+    },
+ {
+      "name": "Nishitbaria",
+      "url": "https://www.linkedin.com/in/nishitbaria/",
+      "icon": "FaLinkedin"
+    }
+  ]
