@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef} from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
@@ -22,6 +22,8 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
+  const inputref=useRef();
+
   const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -33,6 +35,7 @@ export default function Search({ users }) {
   let results = [];
 
   useEffect(() => {
+    inputref.current.focus();
     if (username) {
       setNotFound(username);
       setThreeOrMore(false);
@@ -90,6 +93,7 @@ export default function Search({ users }) {
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
         <input
           placeholder="Search users"
+          ref={inputref}
           className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           value={inputValue}
