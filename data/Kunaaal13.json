@@ -1,9 +1,10 @@
 {
-  "name": "Kunal",
+  "name": "Kunal Yadav",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "A pragmatic full stack developer",
+  "bio": "Full stack web developer | NextJs, Tailwind, Typescript",
   "avatar": "https://github.com/Kunaaal13.png",
+  "tags": ["Javascript", "Typescript", "NextJS"],
   "links": [
     {
       "name": "Twitter",
