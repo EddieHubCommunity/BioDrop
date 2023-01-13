@@ -157,6 +157,16 @@ export default function DocsIndex() {
           },
         },
         {
+          name: "Projects",
+          path: "/docs/how-to-guides/projects",
+          description:
+            "Show off your work by adding your projects to your Profile.",
+          category: {
+            name: "beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
           name: "Testimonials",
           path: "/docs/how-to-guides/testimonials",
           description: "Show off the great feedback you have received.",

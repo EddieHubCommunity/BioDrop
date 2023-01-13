@@ -1,0 +1,56 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+
+## Projects
+
+Have amazing projects, let people know what you are building by adding these projects to your Profile
+
+![Example of LinkFree Projects](https://user-images.githubusercontent.com/72148710/212338674-eb5caca5-757b-4e2c-bf6e-b8b4933f0203.png)
+
+### Add Project
+
+1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+
+_If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
+
+2. Add a new `projects` object to your `json` file which will contain field `github` which is an array of string values in the format `owner/repo` where `owner` is the owner of the GitHub repository and `repo` is the name of the project repository on GitHub
+
+<ClipboardCopy>
+```js
+{
+  "projects": {
+    "github": ["owner/repo"]
+  }
+}
+```
+</ClipboardCopy>
+
+| Property | Description                              |
+| :------- | :--------------------------------------- |
+| owner    | Owner of the GitHub repository           |
+| repo     | Name of the project repository on github |
+
+This is what a complete example looks like:
+
+<ClipboardCopy>
+```js
+{
+  "name": "Sara Jaoude",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/SaraJaoude.png",
+  "projects": {
+    "github": ["EddieHubCommunity/LinkFree"]
+  }
+}
+```
+</ClipboardCopy>
+
+3. Now you can commit your file and create a Pull Request. For more details please see [Editing guide](/docs/how-to-guides/editing)
+
+Please make sure you add information about the project in it's GitHub repository about section
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>
+);
