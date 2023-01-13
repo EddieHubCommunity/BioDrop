@@ -87,8 +87,8 @@ export default function User({ users, data, BASE_URL }) {
       return [];
     }
     if (tab.name === "Projects") {
-      if (userData.projects && userData.projects.length) {
-        return { ...tab, total: userData.projects.length };
+      if (userData.projects?.github && userData.projects?.github.length) {
+        return { ...tab, total: userData.projects.github.length };
       }
       return [];
     }
@@ -146,7 +146,7 @@ export default function User({ users, data, BASE_URL }) {
           )}
         {tabs.find((tab) => tab.name === "Projects") &&
           tabs.find((tab) => tab.name === "Projects").current && (
-            <UserProjects projects={userData.projects} />
+            <UserProjects projects={userData.projects.github} />
           )}
       </Page>
 
