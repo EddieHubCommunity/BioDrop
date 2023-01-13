@@ -5,7 +5,7 @@
   "bio": "SRE | DevOps Engineer. Cloud Native and Open Source Enthusiast",
   "avatar": "https://github.com/bello-olalekan.png",
   "links": [
-     {
+    {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/bello-olalekan",
       "icon": "FaLinkedin"
@@ -15,6 +15,5 @@
       "url": "https://twitter.com/SenseiQyu",
       "icon": "FaTwitter"
     }
-    
   ]
 }
