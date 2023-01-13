@@ -1,0 +1,14 @@
+{
+  "name": "Rahmad Al Habib Khasary",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm a software engineer based in Cibinong, Bogor specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.",
+  "avatar": "https://github.com/abewartech.png",
+  "links": [
+    {
+      "name": "Follow me on Tv Time",
+      "url": "https://www.tvtime.com/en/37120933",
+      "icon": "SiTvtime"
+    }
+  ]
+}
