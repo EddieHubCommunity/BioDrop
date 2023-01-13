@@ -1,0 +1,29 @@
+{
+  "name": "Akash Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Development Engineer",
+  "avatar": "https://github.com/aksh-kr.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/resilientbloke",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/aksh-kr",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/akaskr",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://resilientbloke.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}
