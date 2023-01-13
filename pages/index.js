@@ -201,7 +201,7 @@ export default function Home({ total, today }) {
             {total.users > 0 && (
               <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
                 <dt className="truncate text-sm font-medium text-gray-500">
-                  Users
+                  Active Users
                 </dt>
                 <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
