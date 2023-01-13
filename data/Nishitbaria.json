@@ -2,8 +2,8 @@
   "name": "Nishit Baria",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "**Open Source** Advocate | Web-Dev | Space Lover ",
-  "tags": ["Open Source", "c++", "Java", "SQL", "Open Source "],
+  "bio": "**open source** Advocate | Web-Dev | Space Lover ",
+  "tags": ["open source", "c++", "Java", "SQL", "open source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Nishitbaria1" },
     { "icon": "FaGithub", "url": "https://github.com/Nishitbaria" },
@@ -34,7 +34,7 @@
     {
       "name": "Youtube",
       "url": "https://www.youtube.com/@Nishitbaria",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     }
   ]
 }
