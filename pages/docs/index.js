@@ -9,7 +9,7 @@ export default function DocsIndex() {
   const sections = [
     {
       title: "Getting started",
-      description: "This is the best way to get started buiding your Profile",
+      description: "This is the best way to get started building your Profile",
       pages: [
         {
           name: "Quickstart",
