@@ -1,0 +1,47 @@
+{
+  "name": "Abhijeet Basfore",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/abhijeet-26.png",
+  "tags": [
+    "javascript",
+    "Springboot",
+    "DataStructures and Algorithms",
+    "react.js",
+    "Microservices",
+    "junit/Mockito",
+    "Open source"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AbhijeetBasfore" },
+    { "icon": "FaGithub", "url": "https://github.com/abhijeet-26" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhijeet-26",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbhijeetBasfore",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/abhijeet-basfore-8526b71b5/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source project Linkfree",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
+      "url": "https://linkfree.eddiehub.io"
+    }
+  ]
+}

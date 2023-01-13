@@ -61,6 +61,15 @@ export default function DocsIndex() {
             color: "bg-orange-100 text-orange-800",
           },
         },
+        {
+          name: "Available icons",
+          path: "/icons",
+          description: "Search available icons you can use on your profie.",
+          category: {
+            name: "beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -131,7 +140,7 @@ export default function DocsIndex() {
           name: "Milestones",
           path: "/docs/how-to-guides/milestones",
           description:
-            "Demostrate the highlights of your career by adding Milestones to your Profile. This could when you got your first job to reaching 100k followers/subscribers.",
+            "Demostrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -245,6 +254,7 @@ export default function DocsIndex() {
             href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
             target="_blank"
             rel="noreferrer"
+            className="text-sky-700 break-words"
           >
             https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
           </a>

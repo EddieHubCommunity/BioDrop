@@ -18,8 +18,8 @@ export default function Navbar() {
       url: "/",
     },
     {
-      name: "Popular",
-      url: "/popular",
+      name: "Discover",
+      url: "/discover",
     },
     {
       name: "Search",
@@ -75,7 +75,7 @@ export default function Navbar() {
                         style: { verticalAlign: "middle" },
                       }}
                     >
-                      <FaGithub />
+                      <FaGithub aria-label="GitHub" />
                     </IconContext.Provider>
                   </a>
                 </div>

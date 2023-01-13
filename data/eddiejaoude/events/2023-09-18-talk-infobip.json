@@ -1,0 +1,13 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Infobip Shift Conference",
+  "description": "This is not another developer event. This is an experience that brings together the global tech community for two days of learning, networking, and creating new memories. This is a gathering of professionals, founders, leaders, disruptors, and dreamers. This is Infobip Shift. And we want to Shift Your World.",
+  "date": {
+    "start": "2023-09-18T10:00:00.000+00:00",
+    "end": "2023-09-19T18:00:00.000+00:00",
+    "cfpClose": "2023-05-15T18:00:00.000+00:00"
+  },
+  "url": "https://shift.infobip.com"
+}

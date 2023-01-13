@@ -1,4 +1,5 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy"
 
 ## Social shortcuts
 
@@ -14,15 +15,18 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 
 2. Add a collection called `socials` at the root of your json file which will contain one or more social objects. Each social object must have two fields, `platform` and `url`, which will look like this:
 
+<ClipboardCopy>
 ```js
 {
   "icon": "FaTwitter",
   "url": "https://twitter.com/eddiejaoude"
 }
 ```
+</ClipboardCopy>
 
 This is what a complete example looks like:
 
+<ClipboardCopy>
 ```js
 "socials": [
   { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
@@ -30,6 +34,7 @@ This is what a complete example looks like:
   { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
 ]
 ```
+</ClipboardCopy>
 
 3. Now you can commit your file and create a Pull Request, for more details please see [Editing guide](/docs/how-to-guides/editing)
 

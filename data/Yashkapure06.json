@@ -1,0 +1,28 @@
+{
+  "name": "Yash Kapure",
+  "type": "Personal",
+  "bio": "As a full-stack web developer, I have a strong foundation in a range of technologies. My expertise spans from front-end development to back-end programming.One of my favorite technologies to work with is React.js, particularly within the MERN stack. I am currently expanding my skillset to include React Native 📱 for mobile development.",
+  "avatar": "https://avatars.githubusercontent.com/u/61585443?v=4",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KapureYash",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_yashkapure_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yash-kapure/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Yashkapure06",
+      "icon": "FaGithub"
+    }
+  ]
+}
