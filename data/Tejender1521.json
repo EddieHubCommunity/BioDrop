@@ -1,41 +1,35 @@
 {
-    "name": "Tejender Upadhyay",
-    "displayStatsPublic": true,
-    "type": "personal",
-    "bio": "Full Stack Developer",
-    "avatar": "https://github.com/Tejender1521.png",
-    "tags": [
-        "Javascript",
-        "ReactJS",
-        "NodeJS",
-        "MongoDB",
-        "AWS"
-    ],
-    "socials": [
-        {
-            "icon": "FaTwitter",
-            "url": "https://twitter.com/tarun1521"
-        },
-        {
-            "icon": "FaGithub",
-            "url": "https://github.com/Tejender1521"
-        }
-    ],
-    "links": [
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/tarun1521",
-            "icon": "FaTwitter"
-        },
-        {
-            "name": "GitHub: Collaborate on Open Source",
-            "url": "https://github.com/Tejender1521",
-            "icon": "FaGithub"
-        },
-        {
-            "name": "LinkedIn: Let's connect",
-            "url": "https://www.linkedin.com/in/tejender-upadhyay/",
-            "icon": "FaLinkedin"
-        }
-    ]
+  "name": "Tejender Upadhyay",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://github.com/Tejender1521.png",
+  "tags": ["Javascript", "ReactJS", "NodeJS", "MongoDB", "AWS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tarun1521"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Tejender1521"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tarun1521",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Tejender1521",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/tejender-upadhyay/",
+      "icon": "FaLinkedin"
+    }
+  ]
 }
