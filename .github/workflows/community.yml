@@ -1,3 +1,4 @@
+name: Greeting
 on:
   fork:
   issues:
