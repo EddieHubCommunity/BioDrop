@@ -4,11 +4,14 @@
   "type": "personal",
   "bio": "As a driven and ambitious Undergraduate student at L.D. College of Engineering, Ahmedabad, studying Information Technology, I am constantly seeking new challenges and opportunities to learn and grow. I am currently delving into the cutting-edge world of blockchain and web3 technology, and as an open-source enthusiast, I have gained valuable experience in web development, android development, and problem-solving. My passion for technology drives me to be highly motivated and dedicated to my work, constantly pushing the boundaries of what is possible. I am confident that my determination and drive will enable me to make a significant impact in the tech industry.",
   "avatar": "https://github.com/nik132-eng.png",
-   "tags": ["Open Source", "Web3", "UG-IT'23"],
-    "socials": [
+  "tags": ["Open Source", "Web3", "UG-IT'23"],
+  "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/nikunj_rohit10" },
     { "icon": "FaGithub", "url": "http://github.com/nik132-eng" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/nikunj-rohit/"},
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nikunj-rohit/"
+    },
     { "icon": "SiHashnode", "url": "https://hashnode.com/@rohit105" }
   ],
   "links": [
