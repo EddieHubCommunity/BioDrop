@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+concurrency:
+  group: "release"
+
 jobs:
   format:
     runs-on: ubuntu-latest
