@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
+import NextLink from "next/link"
 import Image from "next/image";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
@@ -306,16 +307,14 @@ export default function Home({ total, today }) {
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <Link
-                  href="/docs/quickstart"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  url="/docs/quickstart"
                 >
                   Get started
                 </Link>
               </div>
               <div className="ml-3 inline-flex rounded-md shadow">
                 <Link
-                  href="/eddiejaoude"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+                  url="/eddiejaoude"
                 >
                   Example
                 </Link>
@@ -407,7 +406,7 @@ export default function Home({ total, today }) {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
                           <Link
-                            href={feature.path}
+                            url={feature.path}
                             className="text-gray-900 hover:text-indigo-600 hover:underline"
                           >
                             {feature.name}
@@ -426,9 +425,8 @@ export default function Home({ total, today }) {
         </div>
 
         <Link
-          href="https://github.com/EddieHubCommunity/LinkFree/discussions"
+          url="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
-          target="_blank"
         >
           <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider
