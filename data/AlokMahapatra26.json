@@ -9,7 +9,7 @@
   "tags": [
     "Javascript",
     "UI UX",
-    "MERN Stack",
+    "MERN Stack"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/aloktwts" },
@@ -41,7 +41,7 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/alok-mahapatra/",
       "icon": "FaLinkedin"
-    },
+    }
    
    
   ],
@@ -52,7 +52,7 @@
       "date": "September 2022",
       "icon": "FaRegCompass",
       "color": "red"
-    },
+    }
     
   ]
 }
