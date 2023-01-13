@@ -11,6 +11,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
+
   const primary = [
     {
       name: "Home",
@@ -132,6 +133,7 @@ export default function Navbar() {
                 path={router.asPath}
                 item={item}
                 mode="mobile"
+                setIsOpen={setIsOpen}
               />
             ))}
           </div>
