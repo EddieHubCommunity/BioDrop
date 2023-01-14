@@ -1,8 +1,10 @@
 import Head from "next/head";
+
 import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
 import { useState } from "react";
 import { TbRefresh } from "react-icons/tb";
+import Tag from "../components/Tag";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -37,6 +39,15 @@ export async function getServerSideProps(context) {
     console.log("ERROR loading trending profiles", e);
   }
 
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+    );
+    data.tags = await res.json();
+  } catch (e) {
+    console.log("ERROR loading tags", e);
+  }
+
   return {
     props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
@@ -69,17 +80,26 @@ export default function Popular({ data, BASE_URL }) {
           Discover LinkFree Profiles
         </h1>
 
+        <div className="flex flex-wrap justify-center mb-4">
+          {data.tags &&
+            data.tags
+              .slice(0, 10)
+              .map((tag) => (
+                <Tag name={tag.name} key={tag.name} total={tag.total} />
+              ))}
+        </div>
+
         <div className="mb-12">
-          <div className="flex flex-col md:flex-row gap-3 items-center justify-between mb-4">
+          <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
             <h2 className="text-md md:text-xl font-bold">
               Random LinkFree Profiles
             </h2>
             <button
-              className="inline-flex gap-3 items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 border-indigo-600 hover:bg-indigo-50"
+              className="inline-flex gap-3 items-center justify-center rounded-full border border-transparent bg-white px-2 py-1 text-base font-medium text-indigo-600 border-indigo-600 hover:bg-indigo-50"
               onClick={() => fetchRandom()}
+              aria-label="refresh random profiles"
             >
               <TbRefresh />
-              Refresh
             </button>
           </div>
           <ul className="flex flex-wrap gap-3 justify-center">
