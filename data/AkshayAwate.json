@@ -4,11 +4,9 @@
   "type": "personal",
   "bio": "Cloud Native Engineer",
   "avatar": "https://github.com/AkshayAwate.png",
-  "links": [
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/AkshayAwate",
-      "icon": "FaTwitter"
-    }
+  "socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/AwateAkshay" },
+  { "icon": "FaGithub", "url": "https://github.com/AkshayAwate" },
+  { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/akshay-awate%E2%98%B8%EF%B8%8F-ba5a83131/" }
   ]
 }
