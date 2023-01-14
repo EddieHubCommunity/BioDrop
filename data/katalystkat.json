@@ -11,9 +11,19 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Check out my Youtube Channel",
-      "url": "https://youtube.com/@katalystkat,
+      "name": "Subcribe to my Youtube Channel!",
+      "url": "https://youtube.com/@katalystkat",
       "icon": "FaYouTube"
+    },
+    {
+      "name": "Livestream with me!",
+      "url": "https://www.twitch.tv/katalystyt",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "Join our #FitDevs Discord!",
+      "url": "https://discord.gg/c9BAJH2F",
+      "icon": "FaDiscord"
     },
     {
       "name": "Follow me on GitHub",
