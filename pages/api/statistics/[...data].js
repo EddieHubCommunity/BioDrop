@@ -84,7 +84,9 @@ export default async function handler(req, res) {
     try {
       await Stats.create({
         date,
+        views: 0,
         clicks: 1,
+        users: 0,
       });
     } catch (e) {
       console.log("ERROR creating platform stats", e);
