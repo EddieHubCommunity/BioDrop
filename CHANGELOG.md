@@ -1,9 +1,9 @@
-# 1.47.0 (2023-01-14)
+# 1.48.0 (2023-01-14)
 
 
 ### Features
 
-* popular tags on discover page [#3383](https://github.com/EddieHubCommunity/LinkFree/issues/3383) ([#3403](https://github.com/EddieHubCommunity/LinkFree/issues/3403)) ([be43dc0](https://github.com/EddieHubCommunity/LinkFree/commit/be43dc060088bc80d9e8021e52d1d6e430197184))
+* daily user stats ([#3344](https://github.com/EddieHubCommunity/LinkFree/issues/3344)) ([a66c3b9](https://github.com/EddieHubCommunity/LinkFree/commit/a66c3b92dfd9cb12f5f37d48c383a4103b6b052c)), closes [#2886](https://github.com/EddieHubCommunity/LinkFree/issues/2886)
 
 
 
