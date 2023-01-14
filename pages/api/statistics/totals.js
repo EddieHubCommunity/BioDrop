@@ -1,5 +1,8 @@
-import Stats from "../../../models/Stats";
+import fs from "fs";
+import path from "path";
+
 import Profile from "../../../models/Profile";
+import Stats from "../../../models/Stats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -8,16 +11,24 @@ export default async function handler(req, res) {
 
   let views = 0;
   let clicks = 0;
-  dailyStats.map((stat) => {
+  let users = 0;
+  dailyStats.forEach((stat) => {
     views += stat.views;
     clicks += stat.clicks;
   });
 
-  const totalProfiles = await Profile.find({}).estimatedDocumentCount();
+  const activeProfiles = await Profile.find({}).estimatedDocumentCount();
+
+  const directoryPath = path.join(process.cwd(), "data");
+  const totalProfiles = fs
+    .readdirSync(directoryPath)
+    .filter((item) => item.includes("json"));
+
   const data = {
     views,
     clicks,
-    users: totalProfiles || 0,
+    users: totalProfiles.length || 0,
+    active: activeProfiles || 0,
   };
 
   res.status(200).json(data);
