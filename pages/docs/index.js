@@ -184,7 +184,8 @@ export default function DocsIndex() {
         {
           name: "Storybook",
           path: "/docs/contributing/storybook",
-          description: "",
+          description:
+            "Run Storybook locally to see what React components are available to use.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -193,7 +194,8 @@ export default function DocsIndex() {
         {
           name: "Automated tests",
           path: "/docs/contributing/automated-tests",
-          description: "",
+          description:
+            "Run the Playwright testing framework that drives the browser as a user does via code.",
           category: {
             name: "intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -202,7 +204,8 @@ export default function DocsIndex() {
         {
           name: "Hacktoberfest",
           path: "/docs/contributing/hacktoberfest",
-          description: "",
+          description:
+            "Contribute to this annual Open Source event with LinkFree.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -217,7 +220,8 @@ export default function DocsIndex() {
         {
           name: "Full Profile Example",
           path: "/docs/full-profile-example",
-          description: "",
+          description:
+            "See the json code for a full Profile with all the features enabled.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -226,7 +230,7 @@ export default function DocsIndex() {
         {
           name: "Single user mode",
           path: "/docs/advanced/single-user-mode",
-          description: "",
+          description: "Self host LinkFree for your single Profile.",
           category: {
             name: "advanced",
             color: "bg-red-100 text-red-800",
@@ -235,7 +239,7 @@ export default function DocsIndex() {
         {
           name: "FAQs",
           path: "/docs/faqs",
-          description: "",
+          description: "Commonly asked questions and answers.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
