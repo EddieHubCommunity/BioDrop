@@ -284,8 +284,9 @@ export default function Home({ total, today }) {
               </div>
               <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
                 <Image
-                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20 h-auto w-auto"
                   src="/mockup.png"
+                  priority
                   alt="App screenshot"
                   width={500}
                   height={500}
@@ -366,10 +367,12 @@ export default function Home({ total, today }) {
                     )}
                   >
                     <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
-                      <img
+                      <Image
                         src={feature.imageSrc}
                         alt={feature.imageAlt}
                         className="object-cover object-center"
+                        width={1250}
+                        height={840}
                       />
                     </div>
                   </div>
