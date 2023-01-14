@@ -7,8 +7,8 @@
   "tags": ["Javascript", "C++", "Python", "ReactJS", "NodeJS", "MongoDB", "AWS", "Elasticsearch"],
   "socials": [
     {
-      "icon": "SiProgress"
-      "url": "https://www.tejender-upadhyay.tech",
+      "icon": "SiProgress",
+      "url": "https://www.tejender-upadhyay.tech"
     },
     {
       "icon": "FaTwitter",
