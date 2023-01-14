@@ -1,0 +1,34 @@
+{
+  "name": "Kapil",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I love to design and code",
+  "avatar": "https://github.com/karntheai.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/idesignproblem",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://youtube.com/kapilishere",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/idesignproblem",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/kapilmandowra",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "my github profile",
+      "url": "https://github.com/karntheai",
+      "icon": "FaGithub"
+    }
+  ]
+}

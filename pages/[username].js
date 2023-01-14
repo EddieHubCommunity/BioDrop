@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
+import { IconContext } from "react-icons";
+import { FaRegComments } from "react-icons/fa";
 
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
@@ -134,6 +137,23 @@ export default function User({ users, data, BASE_URL }) {
             <UserEvents data={userData} />
           )}
       </Page>
+
+      <Link
+        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${userData.name}&name=${userData.username}`}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:bg-indigo-800">
+          <IconContext.Provider
+            value={{ color: "white", style: { verticalAlign: "middle" } }}
+          >
+            <FaRegComments />
+          </IconContext.Provider>
+          <p className="text-sm font-medium">
+            Add testimonial for {userData.name}
+          </p>
+        </div>
+      </Link>
     </>
   );
 }

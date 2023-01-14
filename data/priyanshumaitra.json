@@ -1,0 +1,24 @@
+{
+  "name": "Priyanshu Maitra",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning in Public | Open Source Enthusiast",
+  "avatar": "https://github.com/priyanshumaitra.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/priyanshumaitra",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/priyanshumaitra",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/priyanshumaitra",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy"
 
 ## Links
 
@@ -14,6 +15,7 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 
 This is an example of a single link object:
 
+<ClipboardCopy>
 ```js
 {
   "name": "Follow me on Twitter",
@@ -21,6 +23,7 @@ This is an example of a single link object:
   "icon": "FaTwitter"
 }
 ```
+</ClipboardCopy>
 
 | field | type   | description                                                                                                |
 | :---- | :----- | :--------------------------------------------------------------------------------------------------------- |
@@ -30,6 +33,7 @@ This is an example of a single link object:
 
 To add more links add another object inside the links collection. For example:
 
+<ClipboardCopy>
 ```js
   "links": [
     {
@@ -44,6 +48,7 @@ To add more links add another object inside the links collection. For example:
     }
   ]
 ```
+</ClipboardCopy>
 
 3. Now you can commit your file and create a Pull Request, for more details please see [Editing guide](/docs/how-to-guides/editing)
 
@@ -52,3 +57,4 @@ _Clicks on these social shortcuts that match any of your links will also increme
 export default ({ children }) => (
   <DocsLayout title="LinkFree Links Documentation">{children}</DocsLayout>
 );
+

@@ -1,0 +1,62 @@
+{
+  "name": "Avishkar Gunjal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack web developer | Android with React Native | currently exploring and learning **opensource** and **DevOps**",
+  "avatar": "https://github.com/Avi-88.png",
+  "tags": ["React", "NextJs", "React Native", "nodejs", "tailwindCSS"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/_4vii_" },
+    { "icon": "FaGithub", "url": "https://github.com/Avi-88" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/avishkar-gunjal-30a344203/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter 👀",
+      "url": "https://twitter.com/_4vii_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my work 🚀",
+      "url": "https://github.com/Avi-88",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets connect! 🙌",
+      "url": "https://www.linkedin.com/in/avishkar-gunjal-30a344203/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram 🤷‍♂️",
+      "url": "https://www.instagram.com/_.avishkar._/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning web development",
+      "date": "November 2021",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Started learning full stack web development by following Angela Yu's udemy course :)"
+    },
+    {
+      "title": "Built my first full stack web app",
+      "date": "December 2021",
+      "icon": "FaBrowser",
+      "color": "purple",
+      "description": "Started building my first full stack web application which getches live crypto prices and allows users to make a custom watch list of starred coins",
+      "url": "https://github.com/Avi-88/Finlab"
+    },
+    {
+      "title": "Landed my first internship !",
+      "date": "June 2022",
+      "icon": "FaDollar",
+      "color": "cyan",
+      "description": "Started working as a backend developer in a IoT startup. Learnt a lot of new technologies and worked closely with the DevOps team which sparked an interest to explore it more."
+    }
+  ]
+}

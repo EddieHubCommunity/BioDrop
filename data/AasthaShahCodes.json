@@ -1,0 +1,30 @@
+{
+  "name": "Aastha Shah",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Newbie in tech | Learning Web-Dev | Learning from Communities",
+  "tags": ["Communities", "Frontend", "Beginner"],
+  "avatar": "https://github.com/AasthaShahCodes.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aasthaashahh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aastha-shah-she-her-81103620b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/aasthashahcodes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aasthaashahh/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

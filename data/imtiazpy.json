@@ -2,8 +2,9 @@
   "name": "Imtiaz Ahmed",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "**Software Developer**",
+  "bio": "**Freelance Software Developer**",
   "avatar": "https://github.com/imtiazpy.png",
+  "tags": ["Python", "JavaScript", "TypeScript", "NextJS", "Django", "Wagtail"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -21,9 +22,19 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Github",
+      "name": "Checkout my Github",
       "url": "https://github.com/imtiazpy",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my Codepen",
+      "url": "https://codepen.io/imtiazpy",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/imtiazpy",
+      "icon": "FaHackerrank"
     }
   ]
 }
