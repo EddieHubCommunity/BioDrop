@@ -27,7 +27,7 @@ test("Profile views increase", async ({ page }) => {
   expect(parseInt(startingViews)).toEqual(parseInt(endingViews) - 3);
 });
 
-test.fixme("Link clicks increase", async ({ page }) => {
+test("Link clicks increase", async ({ page }) => {
   await page.goto("/_test-profile-user-4");
 
   const link = page.locator("text=/Link 1\\s*/i");
