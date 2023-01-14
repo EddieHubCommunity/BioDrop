@@ -67,7 +67,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Commands
 
-1. `docker compose up` 
+1. `docker-compose up` 
 
 ### 🙂 How to add YOUR Profile
 
