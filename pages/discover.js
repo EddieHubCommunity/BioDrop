@@ -97,6 +97,7 @@ export default function Popular({ data, BASE_URL }) {
             <button
               className="inline-flex gap-3 items-center justify-center rounded-full border border-transparent bg-white px-2 py-1 text-base font-medium text-indigo-600 border-indigo-600 hover:bg-indigo-50"
               onClick={() => fetchRandom()}
+              aria-label="refresh random profiles"
             >
               <TbRefresh />
             </button>
