@@ -3,12 +3,12 @@
     "type": "personal",
     "displayStatsPublic": true,
     "bio": "**Front End** Developer | Angular | JavaScript | Nodejs | MongoDB | Open Source",
-    "avatar": "https://github.com/manthaank.png",
+    "avatar": "https://github.com/manthanank.png",
     "tags": ["Open Source", "Javascript", "Typescript", "Angular", "Nodejs", "MongoDB"],
     "links": [
       {
         "name": "Follow me on GitHub",
-        "url": "https://github.com/manthaank",
+        "url": "https://github.com/manthanank",
         "icon": "FaGithub"
       },
       {
