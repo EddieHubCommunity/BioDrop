@@ -3,27 +3,39 @@ import Profile from "../../../../../models/Profile";
 import Stats from "../../../../../models/Stats";
 import connectMongo from "../../../../../config/mongo";
 
+/**
+ * @type {import('next').NextApiHandler}
+ */
 export default async function handler(req, res) {
   await connectMongo();
-  const { data } = req.query;
-  const username = data[0];
-  const url = data[1];
 
-  if (req.method != "PUT" || !username || !url) {
+  const { username, url } = req.query;
+
+  if (req.method != "GET" || !username || !url) {
     return res
       .status(400)
-      .json({ error: "Invalid request: 'username' and url 'required'" });
+      .json({ error: "Invalid request: username and link required" });
   }
 
-  const getProfile = await Profile.findOne({ username });
+  let getProfile = await Profile.findOne({ username });
 
   if (!getProfile) {
-    return res
-      .status(404)
-      .json({ error: "Invalid request: 'username' not found" });
+    try {
+      await Profile.create({
+        username,
+        views: 1,
+      });
+
+      getProfile = await Profile.findOne({ username });
+    } catch (e) {
+      const err = `ERROR creating profile: ${e}`;
+      console.log(err);
+      return res.status(500).json({ message: err });
+    }
   }
 
   const getLink = await Link.findOne({ username, url });
+
   if (getLink) {
     try {
       await Link.updateOne(
@@ -36,7 +48,9 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      console.log("ERROR incrementing link", e);
+      const err = `ERROR incrementing link stats: ${e}`;
+      console.log(err);
+      return res.res(500).json({ message: err });
     }
   }
 
@@ -48,6 +62,7 @@ export default async function handler(req, res) {
         url,
         clicks: 1,
       });
+
       await Profile.updateOne(
         {
           username,
@@ -58,13 +73,18 @@ export default async function handler(req, res) {
         { new: true, useFindAndModify: false }
       );
     } catch (e) {
-      console.log("ERROR creating link", e);
+      const err = `ERROR creating link: ${e}`;
+      console.log(err);
+      return res.res(500).json({ message: err });
     }
   }
 
   const date = new Date();
+
   date.setHours(1, 0, 0, 0);
+
   const getPlatformStats = await Stats.findOne({ date });
+
   if (getPlatformStats) {
     try {
       await Stats.updateOne(
@@ -76,7 +96,9 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      console.log("ERROR incrementing platform stats", e);
+      const err = `ERROR incrementing platform stats: ${e}`;
+      console.log(err);
+      return res.res(500).json({ message: err });
     }
   }
 
@@ -89,10 +111,11 @@ export default async function handler(req, res) {
         users: 0,
       });
     } catch (e) {
-      console.log("ERROR creating platform stats", e);
+      const err = `ERROR incrementing platform stats: ${e}`;
+      console.log(err);
+      return res.res(500).json({ message: err });
     }
   }
 
-  const latestLink = await Link.findOne({ username, url });
-  res.status(201).json(latestLink);
+  return res.status(201).redirect(decodeURIComponent(url));
 }
