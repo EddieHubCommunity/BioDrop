@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "../Link"
 import Alert from "../Alert";
-import FallbackImage from "../FallbackImage";
 
 export default function UserTestimonials({ users, data, BASE_URL }) {
   const fallbackImageSize = 120;
@@ -46,20 +45,20 @@ export default function UserTestimonials({ users, data, BASE_URL }) {
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
-                <a href={testimonial.url} target="_blank" rel="noreferrer">
+                <Link href={testimonial.url} target="_blank">
                   {testimonial.username}
-                </a>
+                </Link>
               </div>
             </div>
-            
+
             <div className="flex flex-col gap-4">
               <div className="flex-1 hidden sm:block">
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
-                <a href={testimonial.url} target="_blank" rel="noreferrer">
+                <Link href={testimonial.url} target="_blank">
                   {testimonial.username}
-                </a>
+                </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-gray-500">
                 <p>{testimonial.description}</p>

@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 import NavLink from "./NavLink";
-import Link from "next/link";
+import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
 import { FaGithub } from "react-icons/fa";

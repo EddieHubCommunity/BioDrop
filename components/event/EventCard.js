@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../Link";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,

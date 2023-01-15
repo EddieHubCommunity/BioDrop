@@ -306,7 +306,7 @@ export default function Home({ total, today }) {
             <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <Link
-                  url="/docs/quickstart"
+                  href="/docs/quickstart"
                   className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
                 >
                   Get started
@@ -314,7 +314,7 @@ export default function Home({ total, today }) {
               </div>
               <div className="ml-3 inline-flex rounded-md shadow">
                 <Link
-                  url="/eddiejaoude"
+                  href="/eddiejaoude"
                   className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
                 >
                   Example
@@ -407,7 +407,7 @@ export default function Home({ total, today }) {
                         </div>
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
                           <Link
-                            url={feature.path}
+                            href={feature.path}
                             className="text-gray-900 hover:text-indigo-600 hover:underline"
                           >
                             {feature.name}
@@ -426,7 +426,7 @@ export default function Home({ total, today }) {
         </div>
 
         <Link
-          url="https://github.com/EddieHubCommunity/LinkFree/discussions"
+          href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
         >
           <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">

@@ -254,8 +254,8 @@ export default function DocsIndex() {
         <p>
           Here you should find everything you need from getting started with
           creating your Profile to more advanced topics. We welcome contributions, check out the&nbsp;
-          <Link target="_blank" url="https://github.com/EddieHubCommunity/LinkFree">LinkFree repo</Link> and the&nbsp;
-          <Link target="_blank" url="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs">documentation source</Link> on GitHub for more information.
+          <Link target="_blank" href="https://github.com/EddieHubCommunity/LinkFree">LinkFree repo</Link> and the&nbsp;
+          <Link target="_blank" href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs">documentation source</Link> on GitHub for more information.
         </p>
         {sections.map((section) => (
           <div

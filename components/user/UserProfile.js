@@ -6,7 +6,7 @@ import { QRCodeSVG } from "qrcode.react";
 
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
-import Link from "next/link";
+import Link from "../Link";
 
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
