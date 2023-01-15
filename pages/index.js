@@ -412,17 +412,14 @@ export default function Home({ total, today }) {
                     <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                       <div className="-mt-6">
                         <div>
-                        <Link 
-                          href={feature.path} 
-                             >
+                        <Link href={feature.path} >
                           <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
-                            
                             <feature.icon
                               className="h-8 w-8 text-white"
                               aria-hidden="true"
-                                 />    
+                            />    
                           </span>
-                          </Link>
+                        </Link>
                         </div>
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
                           <Link
