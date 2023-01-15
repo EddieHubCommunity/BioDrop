@@ -251,17 +251,15 @@ export default function DocsIndex() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
         <p>
-          Here you should find everything you need from getting started with
+          Here you should find everything you need, from getting started with
           creating your Profile to more advanced topics. You can contribute to
-          our documentation and find the files{" "}
+          our documentation and find the{" "}
           <a
             href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
             target="_blank"
             rel="noreferrer"
             className="text-sky-700 break-words"
-          >
-            here
-          </a>
+          >markdown files</a>
         </p>
         {sections.map((section) => (
           <div
