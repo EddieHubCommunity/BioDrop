@@ -1,0 +1,41 @@
+{
+  "name": "Nobert Patrick",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full Stack Developer | **Open Source Contributor**",
+  "avatar": "https://github.com/Trikcode.png",
+  "tags": ["Python", ".NET/C#", "Javascript", "Typescript", "Open Source"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/trikcode" },
+    { "icon": "FaGithub", "url": "https://github.com/Trikcode" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/trikcode",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube: Check out my YouTube Channel",
+      "url": "https://www.youtube.com/channel/UCryU2yhdMXsD5JHed3D0VkA",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/Trikcode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LeetCode: Check Me out",
+      "url": "https://leetcode.com/NobertPatrick/",
+      "icon": "FaLeetcode"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/nobert-patrick-a3001896/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

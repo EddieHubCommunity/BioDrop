@@ -1,0 +1,29 @@
+{
+  "name": "Hitarth Srivastava",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Generalist. Linux, Open Source and Web. Sports junkie.",
+  "avatar": "https://github.com/hitarth01.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/hitarth_srt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/hitarth01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/hitarth-srivastava/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hitarth_03/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

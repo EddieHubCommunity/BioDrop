@@ -1,0 +1,57 @@
+{
+  "name": "Jenil Gajjar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer 👨‍💻 || Self-learner || Eager to learn new technologies || Open Source ❤ || I write articles on Medium",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "JavaScript",
+    "Vue.js",
+    "Node.js",
+    "Open Source"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/JenilGajjar20" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/gajjar_jenil" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jenil-gajjar-27934920a/"
+    },
+    { "icon": "FaMedium", "url": "https://jenilgajjar.medium.com/" }
+  ],
+  "avatar": "https://github.com/JenilGajjar20.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gajjar_jenil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jenil-gajjar-27934920a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JenilGajjar20",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://jenilgajjar.medium.com/",
+      "icon": "FaMedium"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blogs",
+      "date": "July 2022",
+      "icon": "FaMedium",
+      "color": "black",
+      "description": "Started sharing content",
+      "url": "https://jenilgajjar.medium.com/"
+    }
+  ]
+}

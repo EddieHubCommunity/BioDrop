@@ -4,6 +4,7 @@ import path from "path";
 import Profile from "../../../models/Profile";
 import Link from "../../../models/Link";
 import Stats from "../../../models/Stats";
+import ProfileStats from "../../../models/ProfileStats";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -72,6 +73,9 @@ export default async function handler(req, res) {
     data = { ...data, events };
   }
 
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
     try {
@@ -81,6 +85,19 @@ export default async function handler(req, res) {
       });
     } catch (e) {
       console.log("ERROR creating profile stats", e);
+    }
+
+    try {
+      await Stats.updateOne(
+        {
+          date,
+        },
+        {
+          $inc: { users: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR app profile stats", e);
     }
   }
   if (getProfile) {
@@ -98,8 +115,37 @@ export default async function handler(req, res) {
     }
   }
 
-  const date = new Date();
-  date.setHours(1, 0, 0, 0);
+  const getProfileStats = await ProfileStats.findOne({
+    username: username,
+    date: date,
+  });
+  if (getProfileStats) {
+    try {
+      await ProfileStats.updateOne(
+        {
+          username: username,
+          date,
+        },
+        {
+          $inc: { views: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR incrementing profile stats", e);
+    }
+  }
+  if (!getProfileStats) {
+    try {
+      await ProfileStats.create({
+        username: username,
+        date,
+        views: 1,
+        profile: getProfile._id,
+      });
+    } catch (e) {
+      console.log("ERROR creating profile stats", e);
+    }
+  }
 
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
@@ -122,6 +168,8 @@ export default async function handler(req, res) {
       await Stats.create({
         date,
         views: 1,
+        clicks: 0,
+        users: 1,
       });
     } catch (e) {
       console.log("ERROR creating platform stats", e);
