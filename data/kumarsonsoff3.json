@@ -46,7 +46,11 @@
       "date": "October 2021",
       "icon": "SiHashnode",
       "color": "blue",
+<<<<<<< HEAD
       "description": "Published my first blog on Hashnode.",
+=======
+      "description": "Published my First ever Blog on Hashnode named 'The most Uncommon HTML5 Tags you should know!'.",
+>>>>>>> a89c4115 (fix: kumarsonsoff3)
       "url": "https://kumarsonsoff.hashnode.dev/"
     }
   ]
