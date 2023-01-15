@@ -1,0 +1,40 @@
+{
+  "name": "Ugyen Wangdi",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Full Stack** | Django Developer | Blogger ",
+  "tags": ["Python", "Django", "Blogging"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/wu_25iytt" },
+    { "icon": "FaGithub", "url": "https://github.com/Ugyenwangdi" },
+    { "icon": "FaLink", "url": "https://linktr.ee/wu_25iytt" }
+  ],
+  "avatar": "https://github.com/Ugyenwangdi.png",
+  "links": [
+    {
+      "name": "Tweets on my Tech journey",
+      "url": "https://twitter.com/wu_25iytt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Collaborate on GitHub",
+      "url": "https://github.com/Ugyenwangdi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ugyenwangdi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "http://wulfi.pythonanywhere.com/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Developer Blog",
+      "url": "https://wulfi.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

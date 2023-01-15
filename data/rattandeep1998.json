@@ -1,0 +1,46 @@
+{
+  "name": "Rattandeep Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Developer | Researcher | Innovator | NSIT Student",
+  "tags": [
+    "Open Source",
+    "Software Developer",
+    "iOS",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/rattandeep1998" },
+    { "icon": "FaGithub", "url": "https://github.com/rattandeep1998" },
+    { "icon": "FaLink", "url": "https://rattandeep1998.github.io/" }
+  ],
+  "avatar": "https://github.com/rattandeep1998.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source",
+      "url": "https://twitter.com/rattandeep1998",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/rattandeep1998",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rattandeep-singh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://rattandeep1998.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://medium.com/@rattandeep1998",
+      "icon": "SiHashnode"
+    }
+  ]
+}

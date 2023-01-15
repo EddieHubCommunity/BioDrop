@@ -1,0 +1,51 @@
+{
+  "name": "Rishabh Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Non-Tech -> **Full Stack Developer** | Learner | Explorer ",
+  "tags": ["Open Source", "Javascript", "MERN", "Full Stack Developer"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Rishabh8Singh" },
+    { "icon": "FaGithub", "url": "https://github.com/Rishabh-Singh-Codes" }
+  ],
+  "avatar": "https://github.com/Rishabh-Singh-Codes.png",
+  "links": [
+    {
+      "name": "Twitter: Follow my tech journey",
+      "url": "https://twitter.com/Rishabh8Singh",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Github: Personal projects and Open Source",
+      "url": "https://github.com/Rishabh-Singh-Codes",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Non-Tech **->** Full Stack",
+      "date": "June 2021",
+      "icon": "FaLaptopCode",
+      "color": "blue",
+      "description": "Transitioned from Non-tech background to Full Satck Development.",
+      "url": "https://github.com/Rishabh-Singh-Codes"
+    },
+    {
+      "title": "Joined 1st Tech Job",
+      "date": "December 2021",
+      "icon": "FaMoneyBillWave",
+      "color": "red",
+      "description": "Joined Fintech startup as a Full Stack Developer",
+      "url": "https://twitter.com/Rishabh8Singh"
+    },
+    {
+      "title": "Open Source Contribution",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "purple",
+      "description": "Started my Open Source contribution journey",
+      "url": "https://github.com/Rishabh-Singh-Codes"
+    }
+  ]
+}

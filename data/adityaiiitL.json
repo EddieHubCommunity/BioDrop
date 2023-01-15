@@ -1,0 +1,24 @@
+{
+  "name": "Aditya Agrawal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Competitive Programmer, Web dev and Machine Learning enthusiast",
+  "avatar": "https://github.com/adityaiiitL.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_agrawal__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-agrawal-87ab6a200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adityaiiitL",
+      "icon": "FaGithub"
+    }
+  ]
+}

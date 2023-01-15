@@ -1,0 +1,24 @@
+{
+  "name": "Ravi Sankar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Fullstack developer and freelance software engineer. Build apps majorly on MERN stack. I learn everyday",
+  "avatar": "https://github.com/Ravi-Rsankar.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RavisankarR93",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "www.linkedin.com/in/ravisankar-r",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Ravi-Rsankar",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Shyam Tawli",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer | HTML | CSS | ReactJS | DSA-Java |",
+  "avatar": "https://github.com/shyamtawli.png",
+  "tags": ["Open Source", "Frontend", "ReactJS", "Java"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/shyam_tawli",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/shyamtawli",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/shyamtawli",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shyamtawli/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
