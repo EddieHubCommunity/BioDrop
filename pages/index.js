@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { abbreviateNumber } from "js-abbreviation-number";
+import { abbreviateNumber } from "../util/number";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,

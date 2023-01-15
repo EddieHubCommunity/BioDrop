@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "js-abbreviation-number";
+import { abbreviateNumber } from "../../util/number";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
 
