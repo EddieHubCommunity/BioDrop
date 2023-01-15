@@ -5,9 +5,7 @@ function UserSocial({ BASE_URL, username, social }) {
 
   return (
     <a
-      href={`${BASE_URL}/api/handler/links?username=${username}&url=${encodeURIComponent(
-        social.url
-      )}`}
+      href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(social.url)}`}
       target="_blank"
       rel="noopener noreferrer"
       className="hover:scale-125 transition ease-in-out delay-100"
