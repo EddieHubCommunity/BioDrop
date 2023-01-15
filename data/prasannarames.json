@@ -1,0 +1,24 @@
+{
+  "name": "Prasanna Ramesh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend/UI dev sometimes fullstack on MERN",
+  "avatar": "https://github.com/prasannarames.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PrasannaRames",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prasannaramesh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/prasannarames",
+      "icon": "FaGithub"
+    }
+  ]
+}

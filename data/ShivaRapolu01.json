@@ -2,7 +2,7 @@
   "name": "Shiva Rapolu",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "Full-stack **MERN** Developer | Open Source | Hustler",
+  "bio": " HUSTLER | Full-stack **MERN** Developer | Open Source",
   "avatar": "https://github.com/ShivaRapolu01.png",
   "tags": ["Open Source", "ReactJS", "NextJS", "JavaScript", "Typescript"],
   "links": [
@@ -33,14 +33,14 @@
       "date": "2020",
       "icon": "FaGraduationCap",
       "color": "blue",
-      "description": "I was learning Python, but I stopped it after 2 months."
+      "description": "I got interested in programming and started learning C++, but I stopped it after 2 months."
     },
     {
       "title": "Started Learning Web development",
       "date": "2021",
       "icon": "FaGlobe",
       "color": "blue",
-      "description": "I started learning web development starting from HTML,CSS and JS to MERN stack within 1.5 months and I found it interesting."
+      "description": "I started learning web development from HTML,CSS and JS to MERN stack within 1.5 months and I found it joyful."
     },
     {
       "title": "Started Practising DSA seriously",
@@ -54,14 +54,14 @@
       "date": "2022",
       "icon": "FaTrophy",
       "color": "green",
-      "description": "All that hardward paid off. After getting shortlisted for many companies I got my first intern at Razorpay"
+      "description": "All that hardwork paid off. After getting shortlisted for many companies I got my first intern at Razorpay"
     },
     {
       "title": "Social Media",
       "date": "Dec 2022",
       "icon": "FaGlobe",
       "color": "blue",
-      "description": "I am trying to be active on my Twitter and LinkedIn profiles by providing valuable quality-rich useful content and sharing my learning in form of posts, tweets and threads. Hence Do follow me on both Twitter and LinkedIn"
+      "description": "I am trying to be active on my Twitter and LinkedIn profiles by providing valuable quality-rich useful content and sharing my learnings in form of posts, tweets and threads. Hence Do follow me on both Twitter and LinkedIn"
     }
   ]
 }

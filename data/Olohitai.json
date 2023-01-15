@@ -1,0 +1,24 @@
+{
+  "name": " Olohitai",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack developer with a passion for creating seamless, efficient backend systems. Proven experience in delivering high-performance, scalable solutions.",
+  "avatar": "https://github.com/olohitai.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/oloh_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/olohitai",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkendIn",
+      "url": "https://twitter.com/EddieAndSaraExplore",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
