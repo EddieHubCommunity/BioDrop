@@ -1,0 +1,52 @@
+{
+  "name": "Maharshi Sinha",
+  "type": "personal",
+  "bio": "Web Dev | Community | Open Source Enthusiast!",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Community", "Web3"],
+  "avatar": "https://github.com/maharshi-sinha.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/maharshi-sinha",
+      "icon": "github"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sinha_maharshi",
+      "icon": "twitter"
+    },
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/maharshi-sinha-78b1001b7/",
+      "icon": "linkedin"
+    },
+     {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://maharshisinha.hashnode.dev",
+      "icon": "hashnode"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://maharshi-sinha.github.io/portfolio-site/",
+      "icon": "globe"
+    }
+  ]
+   "milestones": [
+    {
+      "title": "Became GDSC Lead",
+      "date": "July 2020",
+      "icon": "fa-handshake-o",
+      "color": "blue",
+      "description": "Started Content Writing",
+      "url": "https://www.linkedin.com/in/krupalitrivedi/"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "April 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://maharshisinha.hashnode.dev/"
+    }
+  ]
+}
