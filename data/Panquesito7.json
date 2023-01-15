@@ -1,0 +1,307 @@
+{
+  "name": "David Leal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
+  "avatar": "https://github.com/Panquesito7.png",
+  "tags": [
+    "c++",
+    "lua",
+    "open source",
+    "shell",
+    "bash",
+    "community",
+    "app dev",
+    "game dev",
+    "minetest",
+    "dsa",
+    "documentation",
+    "algorithms",
+    "community management",
+    "coder",
+    "dotnet",
+    "advocacy"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
+    { "icon": "FaGithub", "url": "https://github.com/Panquesito7" },
+    { "icon": "FaDev", "url": "https://dev.to/panquesito7" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@panquesito7/" }
+  ],
+  "links": [
+    {
+      "name": "Checkout my open-source work",
+      "url": "https://github.com/Panquesito7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my tips and work on Twitter",
+      "url": "https://twitter.com/David_Leal_7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Get support & rewards by supporting my work on GitHub",
+      "url": "https://github.com/sponsors/Panquesito7",
+      "icon": "SiGithubsponsors"
+    },
+    {
+      "name": "Donate via Liberapay",
+      "url": "https://en.liberapay.com/Panquesito7",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Join PanqKart: Minetest racing! Discord server",
+      "url": "https://discord.gg/HEweZuF3Vv",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Contribute to PanqKart and get a green square",
+      "url": "https://github.com/panqkart/panqkart/",
+      "icon": "SiLua"
+    },
+    {
+      "name": "Check out SMB and Minetest gameplays on my YouTube channel",
+      "url": "https://www.youtube.com/@panquesito7/",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Read my blogs on DEV.to",
+      "url": "https://dev.to/panquesito7",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Miscellaneous GitLab contributions",
+      "url": "https://gitlab.com/Panquesito7",
+      "icon": "FaGitlab"
+    },
+    {
+      "name": "Contact me via mail",
+      "url": "mailto:halfpacho@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined CodeIN as a maintainer",
+      "date": "December 31, 2022",
+      "icon": "FaCode",
+      "color": "#FFCC02",
+      "description": "Joined the CodeIN community as a GitHub maintainer.",
+      "url": "https://github.com/CodeIN-Community"
+    },
+    {
+      "title": "Joined SurPathHub as a community moderator",
+      "date": "September 30, 2022",
+      "icon": "FaGraduationCap",
+      "color": "#7ED957",
+      "description": "Helped revamp the SurPathHub Discord community.",
+      "url": "https://discord.com/invite/RATJsSGM9d"
+    },
+    {
+      "title": "Released PanqKart: Minetest racing!",
+      "date": "June 28, 2022",
+      "icon": "SiMinetest",
+      "color": "#0030e7",
+      "description": "PanqKart is a WIP free racing game built with the Minetest engine.",
+      "url": "https://github.com/panqkart/panqkart"
+    },
+    {
+      "title": "Former Sema community moderator",
+      "date": "June 20, 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "#000",
+      "description": "Joined the Sema team as a community moderator.",
+      "url": "https://discord.gg/Byjr6rdBUZ"
+    },
+    {
+      "title": "Memory Game made in C++",
+      "date": "March 16, 2022",
+      "icon": "SiCplusplus",
+      "color": "#0066FF",
+      "description": "Created a simple (WIP) memory game using C++.",
+      "url": "https://github.com/Panquesito7/memory-game"
+    },
+    {
+      "title": "Core team at Design & Code",
+      "date": "February 15, 2022",
+      "icon": "FaDiscord",
+      "color": "#003B66",
+      "description": "Became part of the core team at GitHub and Discord.",
+      "url": "https://github.com/Design-and-code"
+    },
+    {
+      "title": "Administrator at World of Coding",
+      "date": "January 27, 2022",
+      "icon": "FaGlobeAmericas",
+      "color": "#43C4F4",
+      "description": "Joined World of Coding and later on became an administrator.",
+      "url": "https://discord.gg/program"
+    },
+    {
+      "title": "Community Manager at ChainwhiZ",
+      "date": "January 17, 2022",
+      "icon": "SiHiveBlockchain",
+      "color": "#D3FA2F",
+      "description": "Became a community manager at ChainwhiZ, an OS bounty marketplace for Web3 Protocols, builders, and communities.",
+      "url": "https://chainwhiz.app"
+    },
+    {
+      "title": "MT mods maintainer",
+      "date": "November 29, 2021",
+      "icon": "SiMinetest",
+      "color": "#8C2DE9",
+      "description": "Became a maintainer and moderator for an unofficial Minetest mods organization.",
+      "url": "https://github.com/mt-mods"
+    },
+    {
+      "title": "Community Coach at SAWO Labs",
+      "date": "November 16, 2021",
+      "icon": "Si1Password",
+      "color": "#FCDE59",
+      "description": "Became a community coach at SAWO Labs, a free passwordless authentication solution.",
+      "url": "https://discord.gg/TpnCfMUE5P"
+    },
+    {
+      "title": "WeMakeDevs team member",
+      "date": "November 15, 2021",
+      "icon": "FaDiscord",
+      "color": "#FFF",
+      "description": "Became a community and bot manager at WeMakeDevs.",
+      "url": "https://discord.gg/WeMakeDevs"
+    },
+    {
+      "title": "MLH (Major League Hacking) mentor",
+      "date": "November, 2021",
+      "icon": "SiMajorleaguehacking",
+      "color": "#1D539F",
+      "description": "Joined Major League Hacking as a mentor",
+      "url": "https://discord.mlh.io/"
+    },
+    {
+      "title": "Joined the Dev Protocol team",
+      "date": "October 21, 2021",
+      "icon": "SiHiveBlockchain",
+      "color": "#FF3815",
+      "description": "Joined Dev Protocol as a community moderator and GitHub maintainer",
+      "url": "https://devprotocol.xyz"
+    },
+    {
+      "title": "Maintainer at WebXDAO",
+      "date": "September 13, 2021",
+      "icon": "SiWebmoney",
+      "color": "#572A85",
+      "description": "Became a core maintainer and community administrator at WebXDAO.",
+      "url": "https://github.com/WebXDAO"
+    },
+    {
+      "title": "Community lead at LWC",
+      "date": "September 22, 2021",
+      "icon": "FaDiscord",
+      "color": "#8229DE",
+      "description": "Became the community, event, and GitHub manager for Learn with Community.",
+      "url": "https://github.com/LearnWithCommunity"
+    },
+    {
+      "title": "Joined the DEVSTRONS' community",
+      "date": "September 3, 2021",
+      "icon": "SiOpensourceinitiative",
+      "description": "Joined DEVSTRONS' as a moderator and GitHub maintainer.",
+      "url": "https://github.com/devstrons"
+    },
+    {
+      "title": "Became EddieHub maintainer",
+      "date": "August 19, 2021",
+      "icon": "FaSourcetree",
+      "color": "#FF5A00",
+      "description": "Started maintaining various GitHub repositories at EddieHub.",
+      "url": "http://github.eddiehub.org"
+    },
+    {
+      "title": "First community manager position",
+      "date": "March 11, 2021",
+      "icon": "SiHomeassistantcommunitystore",
+      "color": "#00C0B8",
+      "description": "Became a community manager for TheAlgorithms.",
+      "url": "https://the-algorithms.com/discord"
+    },
+    {
+      "title": "First GitHub Sponsor",
+      "date": "March 4, 2021",
+      "icon": "FaDollarSign",
+      "color": "#EC6CB9",
+      "description": "Obtained my first GitHub Sponsor: @maltejur.",
+      "url": "https://github.com/sponsors/Panquesito7"
+    },
+    {
+      "title": "Joined the Devicons project",
+      "date": "February 23, 2021",
+      "icon": "SiIcomoon",
+      "color": "#65D693",
+      "description": "Joined Devicons as a Discord and GitHub manager.",
+      "url": "https://devicon.dev"
+    },
+    {
+      "title": "First blog post",
+      "date": "February 1, 2021",
+      "icon": "SiDevdotto",
+      "color": "#0C02CA",
+      "description": "Published my first blog post on DEV.to.",
+      "url": "https://dev.to/panquesito7/how-to-create-a-tic-tac-toe-game-in-cli-c-in-windows-3l9g"
+    },
+    {
+      "title": "Former FtS modder",
+      "date": "November, 2020",
+      "icon": "SiLua",
+      "color": "#6C76AB",
+      "description": "Former Fear the Sky modder, a hardcore survival Minetest game.",
+      "url": "https://github.com/fearthesky"
+    },
+    {
+      "title": "Joined TheAlgorithms organization",
+      "date": "August 2, 2020",
+      "icon": "FaLaptopCode",
+      "color": "#00C0B8",
+      "description": "Joined TheAlgorithms as a maintainer for multiple repositories.",
+      "url": "https://github.com/TheAlgorithms"
+    },
+    {
+      "title": "Started coding in Lua/C++",
+      "date": "February, 2020",
+      "icon": "FaFileCode",
+      "color": "#f34b7d",
+      "description": "Began app development with C++ and game development with Lua."
+    },
+    {
+      "title": "Created Cloud Items",
+      "date": "December 1, 2019",
+      "icon": "SiMinetest",
+      "color": "#F8F8F8",
+      "description": "Started developing on one of my first Minetest mods: Cloud Items.",
+      "url": "https://github.com/minetest-mods/cloud_items"
+    },
+    {
+      "title": "First repository maintenance",
+      "date": "November 30, 2019",
+      "icon": "FaGithub",
+      "color": "#4D9A06",
+      "description": "Started my first maintaining repository.",
+      "url": "https://github.com/minetest-mods/teleport-request"
+    },
+    {
+      "title": "Joined my first GitHub organization (former maintainer)",
+      "date": "September 23, 2019",
+      "icon": "SiMinetest",
+      "color": "#CD87DE",
+      "description": "Joined MinetestForFun: a great Minetest server focusing on fun, survival, and community.",
+      "url": "https://github.com/MinetestForFun"
+    },
+    {
+      "title": "Joined the open-source world",
+      "date": "June 4, 2019",
+      "icon": "SiOpensourceinitiative",
+      "color": "#009E47",
+      "description": "Joined the amazing world of open-source.",
+      "url": "https://github.com/Panquesito7?tab=overview&from=2019-06-01&to=2019-06-30"
+    }
+  ]
+}

@@ -110,7 +110,7 @@ export default function Home({ total, today }) {
       description:
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063796-15c004cb-a4f4-4c5c-81fe-15c39b31912b.png",
+        "https://user-images.githubusercontent.com/100528412/210552842-70d6a823-5062-4ad9-aa51-78c990b72d63.png",
       imageAlt: "LinkFree screenshot of the tags in example profile",
     },
     {
@@ -127,7 +127,7 @@ export default function Home({ total, today }) {
       description:
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063794-0dd4cd0c-a10e-4327-a7ce-05a4b8807cd5.png",
+        "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
       imageAlt:
         "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
     },
@@ -201,11 +201,25 @@ export default function Home({ total, today }) {
             {total.users > 0 && (
               <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
                 <dt className="truncate text-sm font-medium text-gray-500">
-                  Users
+                  Active Users
                 </dt>
                 <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.users)}
+                    {abbreviateNumber(total.active)}
+                    <span className="ml-2 text-sm font-medium text-gray-500">
+                      <span title={total.users}>
+                        from {abbreviateNumber(total.users)}
+                      </span>
+                    </span>
+                  </div>
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                    <MdArrowUpward
+                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
+                      aria-hidden="true"
+                    />
+
+                    <span className="sr-only">Increased by </span>
+                    {abbreviateNumber(today.users)}
                   </div>
                 </dd>
               </div>
@@ -281,8 +295,9 @@ export default function Home({ total, today }) {
               </div>
               <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
                 <Image
-                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
+                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20 h-auto w-auto"
                   src="/mockup.png"
+                  priority
                   alt="App screenshot"
                   width={500}
                   height={500}
@@ -363,10 +378,12 @@ export default function Home({ total, today }) {
                     )}
                   >
                     <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
-                      <img
+                      <Image
                         src={feature.imageSrc}
                         alt={feature.imageAlt}
                         className="object-cover object-center"
+                        width={1250}
+                        height={840}
                       />
                     </div>
                   </div>
@@ -402,11 +419,14 @@ export default function Home({ total, today }) {
                             />
                           </span>
                         </div>
-                        <Link href={feature.path}>
-                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight text-gray-900">
+                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
+                          <Link
+                            href={feature.path}
+                            className="text-gray-900 hover:text-indigo-600 hover:underline"
+                          >
                             {feature.name}
-                          </h3>
-                        </Link>
+                          </Link>
+                        </h3>
                         <p className="mt-5 text-base leading-7 text-gray-600">
                           {feature.description}
                         </p>
