@@ -16,53 +16,53 @@
   "links": [
     {
       "name": "My Website",
-      "icon": "FaGlobe",
-      "url": "https://iamdeveloper.com"
+      "url": "https://iamdeveloper.com",
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
-      "icon": "FaGithub",
-      "url": "https://github.com/nickytonline"
+      "url": "https://github.com/nickytonline",
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitch",
-      "icon": "FaTwitch",
-      "url": "https://twitch.tv/nickytonline"
+      "url": "https://twitch.tv/nickytonline",
+      "icon": "FaTwitch"
     },
     {
       "name": "Follow me on Polywork",
-      "icon": "FaGlobe",
-      "url": "https://timeline.iamdeveloper.com"
+      "url": "https://timeline.iamdeveloper.com",
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on YouTube",
-      "icon": "FaYouTube",
-      "url": "https://youtube.iamdeveloper.com"
+      "url": "https://youtube.iamdeveloper.com",
+      "icon": "FaYouTube"
     },
     {
       "name": "Follow me on LinkedIn",
-      "icon": "FaLinkedIn",
-      "url": "https://www.linkedin.com/in/nickytonline"
+      "url": "https://www.linkedin.com/in/nickytonline",
+      "icon": "FaLinkedIn"
     },
     {
       "name": "Follow me on Mastodon",
-      "icon": "FaMastodon",
-      "url": "https://toot.cafe/@nickytonline"
+      "url": "https://toot.cafe/@nickytonline",
+      "icon": "FaMastodon"
     },
     {
       "name": "Follow me on Twitter",
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/nickytonline"
+      "url": "https://twitter.com/nickytonline",
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
-      "icon": "FaInstagram",
-      "url": "https://instagram.com/nickytonline"
+      "url": "https://instagram.com/nickytonline",
+      "icon": "FaInstagram"
     },
     {
       "name": "Join the iamdeveloper.com Discord community",
-      "icon": "FaDiscord",
-      "url": "https://discord.iamdeveloper.com"
+      "url": "https://discord.iamdeveloper.com",
+      "icon": "FaDiscord"
     }
   ]
 }
