@@ -38,8 +38,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shardIndex: [1, 2, 3, 4, 5]
-        shardTotal: [5]
+        shardIndex: [1, 2, 3, 4]
+        shardTotal: [4]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -49,7 +49,7 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: Install Playwright's dependencies
-        run: npx playwright install --with-deps
+        run: npx playwright install
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - uses: test-summary/action@v2
