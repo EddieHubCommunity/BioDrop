@@ -1,10 +1,5 @@
 name: Build
 on:
-  push:
-    paths:
-      - pages/**
-      - tests/**
-      - components/**
   pull_request:
     paths:
       - pages/**
@@ -49,7 +44,7 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: Install Playwright's dependencies
-        run: npx playwright install
+        run: npx playwright install chromium
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - uses: test-summary/action@v2
