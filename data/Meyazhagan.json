@@ -1,0 +1,56 @@
+{
+  "name": "Meyazhagan",
+  "type": "personal",
+  "bio": "I'm a Full Stack Web Application Developer. I develop primarily with React and Node.js, C#, Python, TypeScript.",
+  "avatar": "https://github.com/Meyazhagan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Meyazhagan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/meyazhaganstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/meyazhagan-c-n-7162901b0/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://meyazhagan.netlify.app/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/mey_azhagan/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Full Stack Development",
+      "date": "June 2021",
+      "icon": "FaNodeJs",
+      "color": "orange",
+      "description": "Started Learning MERN Stack Development"
+    },
+    {
+      "title": "Started Data Structures & Algorithms",
+      "date": "January 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started Problem Solving"
+    },
+    {
+      "title": "Started Open Source",
+      "date": "July 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started Contibuting To Beginner friendly Issues"
+    }
+  ]
+}

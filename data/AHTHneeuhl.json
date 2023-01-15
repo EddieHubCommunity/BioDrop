@@ -1,0 +1,35 @@
+{
+  "name": "Shubham Patrick",
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "avatar": "https://github.com/AHTHneeuhl.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AHTHneeuhl",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ahthneeuhl",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Frontend Developer",
+      "date": "December 2021 - January 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked on Angular and NodeJS project."
+    },
+    {
+      "title": "UI Software Engineer",
+      "date": "Junuary 2022 - Present",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started working as UI Software Engineer",
+      "url": "https://nullinnovation.com/"
+    }
+  ]
+}

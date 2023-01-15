@@ -1,0 +1,51 @@
+{
+  "name": "Nitin Kumar",
+  "type": "personal",
+  "bio": "An enthusiast Python Developer",
+  "avatar": "https://github.com/nitinkumar30.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nitinkumar30",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nitinkumar30",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/nitinkumar30.py/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Visit my portfolio",
+      "url": "https://portfolio-nitin.netlify.app/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learned Python Basics & Intermediate",
+      "date": "June 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Begun my journey in Data Science & Machine Learning. Also focused on problem-solving first."
+    },
+    {
+      "title": "Began as a freelancer",
+      "date": "December 2019",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started as a freelancer as Web Developer."
+    },
+    {
+      "title": "Finally placed in TCS",
+      "date": "Jan 2020",
+      "icon": "graduation hat",
+      "color": "blue",
+      "description": "Tried off-campus in TCS & got selected on Jan 2020."
+    }
+  ]
+}

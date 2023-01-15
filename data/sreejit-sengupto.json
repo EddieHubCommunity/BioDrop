@@ -1,0 +1,28 @@
+{
+  "name": "SREEJIT SENGUPTA",
+  "type": "personal",
+  "bio": "Open Source Enthusiast! On and into Web Development. Aspiring Open Sorcerer. Constantly trying to Upskill myself. Learning everyday!",
+  "avatar": "https://github.com/sreejit-sengupto.png",
+  "links": [
+    {
+      "name": "Catch me on GitHub",
+      "url": "https://github.com/sreejit-sengupto",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Catch me on Twitter",
+      "url": "https://twitter.com/SreeSen03",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "No such milestones but I Learnt!",
+      "date": "October 2022",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "No such milestones but I learnt too many things this past month, starting from Open Source to contributing to projects. Learnt HTML & CSS, created many projects using them, you can check them out GitHub. Started with Java and JavaSript now!",
+      "url": "https://github.com/sreejit-sengupto"
+    }
+  ]
+}

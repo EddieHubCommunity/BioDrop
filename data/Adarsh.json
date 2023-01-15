@@ -1,0 +1,18 @@
+{
+  "name": "Adarsh",
+  "type": "personal",
+  "bio": "I am a web developer and an open-source enthusiast.",
+  "avatar": "https://github.com/adarrssh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adarrssh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Adarsh87498341",
+      "icon": "FaTwitter"
+    }
+  ]
+}

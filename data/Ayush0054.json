@@ -1,0 +1,27 @@
+{
+  "name": "Ayush Jha",
+  "type": "personal",
+  "bio": "Open Source | DSA | Devlopement | Ui/Ux | Content Creating ",
+  "avatar": "https://github.com/Ayush0054.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ayush0054",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ayush_0_0_5",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started programming/development",
+      "date": "january 2022",
+      "icon": "FaGlobe",
+      "color": "violet",
+      "description": "Started programming/development"
+    }
+  ]
+}

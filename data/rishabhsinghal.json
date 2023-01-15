@@ -1,0 +1,13 @@
+{
+  "name": "Rishabh Singhal",
+  "type": "personal",
+  "bio": "Computer Science Student @ IIIT H",
+  "avatar": "https://github.com/rish-singhal.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rish-singhal",
+      "icon": "FaGithub"
+    }
+  ]
+}

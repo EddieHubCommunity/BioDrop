@@ -1,0 +1,80 @@
+{
+  "name": "Fayaz Ahmed",
+  "type": "personal",
+  "bio": "Software Engineer » Web Developer since 2006 ✨",
+  "avatar": "https://github.com/fayazmiraz.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter ⚡️",
+      "url": "https://twitter.com/FayazDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my website 🌎",
+      "url": "https://www.fayazmiraz.com/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub ⭐️",
+      "url": "https://github.com/fayazmiraz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Facebook 👥",
+      "url": "https://www.facebook.com/fayazmiraz.web/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Connect with me on LinkedIn 🖇",
+      "url": "https://www.linkedin.com/in/fayazdev/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started » Undergrad in CSE » NSU",
+      "image": "https://user-images.githubusercontent.com/1200316/135754687-a808e23e-7c67-4b57-9b45-75c224ecae4a.png",
+      "date": "2002",
+      "icon": "home",
+      "color": "green",
+      "description": "I started the Computer Science and Engineering undergraduate program in North South University (NSU) in 2002 and completed the degree in 2006 with Summa cum laude. While in NSU, I developed my first website in 2004 for the university robotics club. The second website I built was for the university library in 2006. I also participated in other extra curricular activities like tech fest, programming contest etc.",
+      "url": "http://www.northsouth.edu/"
+    },
+    {
+      "title": "Started my first job » NSU Library",
+      "image": "https://user-images.githubusercontent.com/1200316/135754687-a808e23e-7c67-4b57-9b45-75c224ecae4a.png",
+      "date": "2006",
+      "icon": "FaBook",
+      "color": "gray",
+      "description": "Started my first job at NSU Library as a developer. My job responsibility was to improved upon the NSU Library management software.",
+      "url": "http://library.northsouth.edu/"
+    },
+    {
+      "title": "My second job » Blueliner",
+      "image": "https://user-images.githubusercontent.com/1200316/135754643-6448257a-053b-4db6-bb3e-4131478e4967.png",
+      "date": "2007",
+      "icon": "FaLink",
+      "color": "blue",
+      "description": "Started my second job at BlueLiner as a Software Engineer. Developed e-commerce, social media portals & video sharing web sites with customized video player.",
+      "url": "https://blueliner.io/"
+    },
+    {
+      "title": "Freelancer » Elance » Upwork",
+      "image": "https://user-images.githubusercontent.com/1200316/135754741-f2435735-48ec-4010-a135-e62bd0681fad.png",
+      "date": "2009",
+      "icon": "FaDollarSign",
+      "color": "purple",
+      "description": "Started as a full time freelancer. Worked on all sorts of different projects - WordPress themes, plugins, full websites, chat applications & video players to name a few.",
+      "url": "https://www.freelancer.com/u/fayazmiraz"
+    },
+    {
+      "title": "Freedom",
+      "image": "https://user-images.githubusercontent.com/1200316/135755958-141dce90-3733-4573-9134-530a71908604.png",
+      "date": "2016",
+      "icon": "FaSun",
+      "color": "gold",
+      "description": "Started working on my own products. Currently working on for complete financial 💰 freedom 😎",
+      "url": "https://twitter.com/FayazDev"
+    }
+  ]
+}

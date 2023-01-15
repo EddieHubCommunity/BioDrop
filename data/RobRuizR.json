@@ -1,0 +1,29 @@
+{
+  "name": "Rob the Axolodev",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Content creator for Frontend and UX-related topics",
+  "avatar": "https://github.com/RobRuizR.png",
+  "links": [
+    {
+      "name": "Find me on Twitter!",
+      "url": "https://twitter.com/axolodev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My YouTube in Spanish: ",
+      "url": "https://youtube.com/@axolodev",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Here's my blog: ",
+      "url": "https://hashnode.com/@axolodev",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "My website: ",
+      "url": "https://robruizr.dev/",
+      "icon": "FaHashnode"
+    }
+  ]
+}

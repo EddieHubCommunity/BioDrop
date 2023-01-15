@@ -1,0 +1,23 @@
+{
+  "name": "Joe Shajan",
+  "type": "personal",
+  "bio": "Full Stack Web Dev and Open Source Enthusiast! | Learning in public",
+  "avatar": "https://github.com/joeshajan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/joeshajan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/joeshajan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/joe-shajan/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

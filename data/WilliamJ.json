@@ -1,0 +1,28 @@
+{
+  "name": "William J Priest",
+  "type": "personal",
+  "bio": "!% Better Everyday",
+  "avatar": "https://github.com/WilliamJPriest.png",
+  "links": [
+    {
+      "name": "Code with me on GitHub",
+      "url": "https://github.com/WilliamJPriest",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Laugh with me on Twitter",
+      "url": "https://twitter.com/WilliamJPriest1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Job Hunt with me on Linkedin",
+      "url": "www.linkedin.com/in/williamjpriest",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hire me, my Portfolio",
+      "url": "https://williamjpriest.github.io/WilliamJPriest/",
+      "icon": "RiSendPlaneFill"
+    }
+  ]
+}

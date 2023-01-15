@@ -1,0 +1,24 @@
+{
+  "name": "Matt Herzog",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Engineer",
+  "avatar": "https://github.com/mherzog4.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mattherzog5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/mattherzog3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my website",
+      "url": "http://mattherzog.me/",
+      "icon": "FaCodeBranch"
+    }
+  ]
+}

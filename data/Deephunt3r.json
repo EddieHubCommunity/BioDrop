@@ -1,0 +1,18 @@
+{
+  "name": "Rakesh Vaddi",
+  "type": "personal",
+  "bio": "Security Researcher || Open Source Enthusiast",
+  "avatar": "https://github.com/deephunt3r.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/deephunt3r",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/deephunt3r",
+      "icon": "FaTwitter"
+    }
+  ]
+}

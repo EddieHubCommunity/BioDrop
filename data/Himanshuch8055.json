@@ -1,0 +1,71 @@
+{
+  "name": "Himanshu Chauhan",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open source Advocate | Programmer | Content Writer | Developer | Competitive Coder",
+  "tags": [
+    "Open Source",
+    "Content Writer",
+    "Blogging",
+    "Web3",
+    "Developers",
+    "Competitive Coding"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/himanshuch8055" },
+    { "icon": "FaGithub", "url": "https://github.com/Himanshuch8055" },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/himanshuchauhan8055/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/himanshuchauhan8055"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCoBSwNEZRZ1ROny1RNACh7A"
+    },
+    { "icon": "FaDev", "url": "https://dev.to/himanshuch8055_99" }
+  ],
+  "avatar": "https://github.com/Himanshuch8055.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Himanshuch8055",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/himanshuch8055",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "April 2020",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started Content Writing",
+      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/Himanshuch8055"
+    }
+  ]
+}

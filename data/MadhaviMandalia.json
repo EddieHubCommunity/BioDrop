@@ -1,0 +1,39 @@
+{
+  "name": "Madhavi Mandalia",
+  "type": "personal",
+  "bio": "Open Source Enthusiast | Software Engineer | YouTuber",
+  "avatar": "https://github.com/MadhaviMandalia.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MadhaviMandalia",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Madhavi__M",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/trivedi-madhavi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "For some great Recipes check out my YouTube channel",
+      "url": "https://www.youtube.com/c/OurFoodShow",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/MadhaviMandalia.png",
+      "date": "Feb 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "I create Food videos",
+      "url": "https://www.youtube.com/c/OurFoodShow"
+    }
+  ]
+}

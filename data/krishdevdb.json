@@ -1,0 +1,18 @@
+{
+  "name": "Krish Gupta",
+  "type": "personal",
+  "bio": "Developing Stuff! Currently Learning! Volunteer at Open Source and @EddieHubCommunity",
+  "avatar": "https://github.com/krishdevdb.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/krishdevdb",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/krishdevdb",
+      "icon": "FaTwitter"
+    }
+  ]
+}

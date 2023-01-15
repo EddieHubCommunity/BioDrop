@@ -1,0 +1,29 @@
+{
+  "name": "Sakib Ahmed",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Engineer | Open Source Enthusiast!",
+  "avatar": "https://github.com/devvsakib.png",
+  "tags": ["javascript", "react"],
+  "socials": [
+    { "icon": "twitter", "url": "https://twitter.com/devvsakib" },
+    { "icon": "github", "url": "https://github.com/devvsakib" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/devvsakib",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devvsakib",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/devvsakib",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+name: Testimonial
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [opened, edited]
+
+concurrency:
+  group: "main-branch"
+
+jobs:
+  create-testimonial:
+    if: contains(github.event.issue.labels.*.name, 'testimonial')
+    runs-on: ubuntu-latest
+    name: Create Testimonial
+    steps:
+      # Create a temporary, uniquely named branch to push release info to
+      - name: create temporary branch
+        uses: peterjgrainger/action-create-branch@v2.3.0
+        id: create-branch
+        with:
+          branch: "testimonial-from-${{ github.sha }}"
+          sha: "${{ github.sha }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v3
+
+      # fetch branches and switch to the temporary branch
+      - name: switch to new branch
+        run: git fetch --all && git checkout --track origin/testimonial-from-${{ github.sha }}
+
+      # parse issue
+      - uses: stefanbuck/github-issue-parser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/testimonial.yml
+          body: ${{ github.event.issue.body }}
+      - name: current date
+        id: date
+        uses: Kaven-Universe/github-action-current-date-time@v1
+        with:
+          format: "YYYY-MM-DD"
+      - name: create folder
+        run: |
+          mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials
+      - uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
+          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
+      - name: validate JSON
+        run: jq . "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
+
+      # create PR using GitHub CLI
+      - name: create PR with testimonial info
+        id: create-pr
+        run: gh pr create --base main --head testimonial-from-${{ github.sha }} --title 'Merge testimonial into main' --body 'Created by Github action'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # merge PR using GitHub CLI
+      - name: merge PR with testimonial info
+        id: merge-pr
+        run: gh pr merge --admin --merge --subject 'Merge testimonial info' --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # close issue
+      - name: Close Issue
+        uses: YiiGuxing/close-issue@v2.1.0
+        with:
+          comment: |
+            Testimonial added for @${{ steps.issue-parser.outputs.issueparser_name }}. Thank you for your contribution! @${{ steps.issue-parser.outputs.issueparser_name }} if you wish to add it your LinkFree profile please follow the instructions in the docs https://linkfree.eddiehub.io/docs/how-to-guides/testimonials

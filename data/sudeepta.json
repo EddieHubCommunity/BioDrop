@@ -1,0 +1,23 @@
+{
+  "name": "SUDEEPTA GIRI",
+  "type": "personal",
+  "bio": "I am Sudeepta Giri, currently pursuing my BTech majoring in computer science from ITER (SOA) . I am a tech enthusiast & like problem solving . I am always open to collaborating on projects and innovative/disruptive ideas ",
+  "avatar": "https://github.com/SudeeptaGiri.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SudeeptaGiri",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/@sudeepta_giri",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sudeepta-giri-6a888521b",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

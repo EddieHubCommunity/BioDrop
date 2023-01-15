@@ -1,0 +1,45 @@
+{
+  "name": "Abhishek Gupta",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "BCA Graduate | Fullstack Web development | Open-Source Advocate | Consistent Learner",
+  "tags": ["Open Source", "Java", "Fullstack", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AGupta047" },
+    { "icon": "FaGithub", "url": "https://github.com/Abhishekgupta47" },
+    { "icon": "FaInstagram", "url": "https://instagram.com/learner392001/" }
+  ],
+  "avatar": "https://github.com/Abhishekgupta47.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Abhishekgupta47",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AGupta047",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/abhishek-gupta-2588571b9",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Instagram",
+      "url": "https://instagram.com/learner392001",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/Abhishekgupta47"
+    }
+  ]
+}

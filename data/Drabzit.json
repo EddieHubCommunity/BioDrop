@@ -1,0 +1,22 @@
+{
+  "name": "Chris Bardsley",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Living 1 Life at a Time, Crazy IT Dude",
+  "avatar": "https://github.com/Drabzit.png",
+  "tags": ["Noob", "Gamer", "Dad"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Drabzit"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https:www.linkedin.com/in/christopher-bardsley-1291b0191"
+    },
+    {
+      "icon": "FaInstagram",
+      "Url": "https://www.instagram.com/drabz86/"
+    }
+  ]
+}

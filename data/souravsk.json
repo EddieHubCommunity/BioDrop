@@ -1,0 +1,41 @@
+{
+  "name": "Sourav Kumar ",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learing in public Cloud, DevOps",
+  "avatar": "https://github.com/souravsk.png",
+  "tags": ["Cloud", "Open Source", "DevOps", "Blog"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sourav_sovu_"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sourav_sovu_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sourav_sovu_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/souravsk",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/souravsk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://souravk.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

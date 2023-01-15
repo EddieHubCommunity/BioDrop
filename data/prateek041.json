@@ -1,0 +1,23 @@
+{
+  "name": "Prateek singh",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/prateek041.png",
+  "links": [
+    {
+      "name": "prateek041",
+      "url": "https://github.com/prateek041",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "@prateek_0041",
+      "url": "https://twitter.com/prateek_0041",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "prateek singh",
+      "url": "https://www.linkedin.com/in/prateek-singh-903449211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

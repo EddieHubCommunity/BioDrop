@@ -1,0 +1,54 @@
+{
+  "name": "Tomasz Stanisz (DevThomas)",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Fremen1990.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Fremen1990",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check my portfolio",
+      "url": "https://devthomas.pl",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Catch me on Discord",
+      "url": "https://discord.gg/dMwYDwA7KH",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Check my LinkedIn profile",
+      "url": "https://www.linkedin.com/in/tomasz-stanisz-85818683",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "One year FullStack Developer Bootcamp 'MEGAK'",
+      "date": "October 2020 to December 2021",
+      "icon": "Graduation Hat",
+      "color": "red",
+      "description": "MEGAK it is one year back end bootcamp which will include JavaScript, Node, Express, MongoDB, TypeScript, React and full stack project with participation of software house guests.'",
+      "url": "https://www.megak.pl"
+    },
+    {
+      "title": "One year IT Bootcamp 'Studiuje IT'",
+      "date": "October 2020 to December 2021",
+      "icon": "Graduation Hat",
+      "color": "green",
+      "description": " Studiuje IT is one year IT bootcamp to cover all IT topics starting from Math for programmers, basics of the most popular programmin laguages, databese, computer architectures, Law in IT etc.",
+      "url": "https://studiuje.it"
+    },
+    {
+      "title": "First programming first experience",
+      "date": "October 2019 to April 2020",
+      "icon": "Graduation Hat",
+      "color": "blue",
+      "description": "Started Front-End Development journey with course 'Samuraj Programowania'",
+      "url": "https://websamuraj.pl"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Ashish Thomas",
+  "type": "personal",
+  "bio": "Flutter and web developer",
+  "avatar": "https://github.com/alceil.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/alceil",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ashishthomas6",
+      "icon": "FaTwitter"
+    }
+  ]
+}

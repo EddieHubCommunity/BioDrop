@@ -1,0 +1,23 @@
+{
+  "name": "Aldy Andika",
+  "type": "personal",
+  "bio": "Javascript | NodeJS | ReactJS",
+  "avatar": "https://github.com/aldyadk.png",
+  "links": [
+    {
+      "name": "Personal Website",
+      "url": "https://aldyandika.id",
+      "icon": "FaLink"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/aldyadk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/aldyandika",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

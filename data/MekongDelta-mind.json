@@ -1,0 +1,23 @@
+{
+  "name": "Prabin Kumar Nayak",
+  "type": "personal",
+  "bio": "Software developer and data scientist",
+  "avatar": "https://github.com/MekongDelta-mind.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MekongDelta-mind",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PrabinKNayak",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Learn more about projects related to Data Science on my Jovian Portfolio",
+      "url": "https://jovian.ai/pknayak0707-job",
+      "icon": "FaLink"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Krishnansh Agarwal",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/krishnanshagarwal112.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/krishnanshagarwal112",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/krishnanshdev",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started self-taught journey",
+      "date": "May 2022",
+      "icon": "FaDev",
+      "color": "grey",
+      "description": "",
+      "url": "https://github.com/krishnanshagarwal112"
+    }
+  ]
+}

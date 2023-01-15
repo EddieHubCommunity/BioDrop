@@ -1,0 +1,23 @@
+{
+  "name": "Rahul Kumar",
+  "type": "personal",
+  "bio": "Frontend developer | CSS, JavaScript, Python, MySQL, Git | Learning React.js",
+  "avatar": "https://github.com/Rahulbaran.png",
+  "links": [
+    {
+      "name": "Checkout my GitHub account",
+      "url": "https://github.com/Rahulbaran",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rahul9422dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/Rahulbaran",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

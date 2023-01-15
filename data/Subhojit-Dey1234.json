@@ -1,0 +1,32 @@
+{
+  "name": "Subhojit Dey",
+  "type": "personal",
+  "bio": "Full Stack Web Developer | Open Source Starter",
+  "avatar": "https://github.com/Subhojit-Dey1234.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Subhojit-Dey1234",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thesubhojitdey",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "www.linkedin.com/in/subhojit-dey-09",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Starting Open Source",
+      "date": "January 2022",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "My main goal is to progress in Open Source and make some contribution!"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Sayed Mohammed Nouman",
+  "type": "personal",
+  "bio": "My name is Sayed Mohammed Nouman and I go by the alias of Skyhero. I am in my second year pursuing my bachelor's of engineering in Information Technology. I am very interested in contributing to open source projects and collaborating with different people and learning new and more about different technologies. ",
+  "avatar": "https://github.com/Skyhero-admin.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Skyhero-admin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Skyhero_root",
+      "icon": "FaTwitter"
+    }
+  ]
+}

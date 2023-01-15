@@ -1,0 +1,42 @@
+{
+  "name": "C K Vignesh",
+  "type": "personal",
+  "bio": "Programmer",
+  "avatar": "https://github.com/ckvignesh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ckvignesh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vigneshCodes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Open Source Contributions",
+      "url": "https://ckvignesh.notion.site/List-of-Open-Source-Contributions-09b2368ec25742a0b9f0421a0d1c9f0c",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blogging",
+      "date": "October 2021",
+      "icon": "FaDollarSign",
+      "color": "black",
+      "description": "Sharing my journey through #100DaysOfCode",
+      "url": "https://hashnode.ckvignesh.dev"
+    },
+    {
+      "title": "Started #100DaysOfCode",
+      "image": "https://github.com/ckvignesh.png",
+      "date": "25 October 2021",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started this journey to upskill myself and document my learning",
+      "url": "https://twitter.com/vigneshCodes"
+    }
+  ]
+}

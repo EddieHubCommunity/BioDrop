@@ -1,0 +1,27 @@
+{
+  "name": "Sagnik Sahoo",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/heysagnik.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/heysagnik",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/heysagnik",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributed to Open-Source",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "❤️ Open Source"
+    }
+  ]
+}

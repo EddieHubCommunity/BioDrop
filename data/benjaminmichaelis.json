@@ -1,0 +1,37 @@
+{
+  "name": "Benjamin Michaelis",
+  "type": "personal",
+  "bio": "Full time Student | Part-time Adventure seeker | Traveler",
+  "avatar": "https://github.com/benjaminmichaelis.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/benjaminmichaelis",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me everywhere!",
+      "url": "https://benjamin.michaelis.net",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/benjamin-michaelis",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/benmichaelis",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "January 2020",
+      "icon": "FaGlobe",
+      "color": "#90ee90",
+      "description": "Began learning to code full time at Washington State University, and haven't stopped learning since."
+    }
+  ]
+}

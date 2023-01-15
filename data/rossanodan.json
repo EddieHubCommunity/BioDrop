@@ -1,0 +1,48 @@
+{
+  "name": "Rossano D'Angelo",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software engineer at The LEGO Group. I like reading manga and comic books.",
+  "avatar": "https://github.com/rossanodan.png",
+  "tags": ["javascript", "typescript", "nextjs", "graphql"],
+  "socials": [
+    { "icon": "FaDev", "url": "https://dev.to/rossanodan" },
+    { "icon": "FaGithub", "url": "https://github.com/rossanodan" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/rossanodan" },
+    { "icon": "reddit", "url": "https://www.reddit.com/user/rossanodanuk" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/rossanodan" },
+    { "icon": "FaGlobe", "url": "https://rossanodan.dev/" }
+  ],
+  "links": [
+    {
+      "name": "Read my blog on Dev.to",
+      "url": "https://dev.to/rossanodan",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rossanodan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rossanodan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Reddit",
+      "url": "https://www.reddit.com/user/rossanodanuk",
+      "icon": "reddit"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rossanodan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my website",
+      "url": "https://rossanodan.dev/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

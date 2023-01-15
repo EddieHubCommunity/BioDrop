@@ -1,0 +1,23 @@
+{
+  "name": "Subham sharma",
+  "type": "personal",
+  "bio": "Coder | contributor | Developer",
+  "avatar": "https://github.com/subhamengine.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/subhamengine",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/subham-sharma-b04689203/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check with me on Twitter",
+      "url": "https://twitter.com/subhamengine",
+      "icon": "FaTwitter"
+    }
+  ]
+}

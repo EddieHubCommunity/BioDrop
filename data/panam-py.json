@@ -1,0 +1,18 @@
+{
+  "name": "Hebron Panam Praise",
+  "type": "personal",
+  "bio": "Software Engineeer (Backend) with Python, Node.js and Go",
+  "avatar": "https://github.com/panam-py.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/panam-py",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thisispanam",
+      "icon": "FaTwitter"
+    }
+  ]
+}

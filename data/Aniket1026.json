@@ -1,0 +1,23 @@
+{
+  "name": "Aniket Dubey",
+  "type": "personal",
+  "bio": "FrontEnd Developer | Open Source Enthusiast",
+  "avatar": "https://github.com/Aniket1026.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Aniket1026",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AniketD94252873",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on hasnode",
+      "url": "https://hashnode.com/@kakkarot",
+      "icon": "SiHashnode"
+    }
+  ]
+}

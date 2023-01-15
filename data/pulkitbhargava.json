@@ -1,0 +1,13 @@
+{
+  "name": "Pulkit Bhargava",
+  "type": "personal",
+  "bio": "MERN stack developer",
+  "avatar": "https://github.com/Pulkit007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Pulkit007",
+      "icon": "FaGithub"
+    }
+  ]
+}

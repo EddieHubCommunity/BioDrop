@@ -1,0 +1,46 @@
+{
+  "name": "Philip Brown",
+  "type": "personal",
+  "bio": "On the path to become a full-time developer!",
+  "avatar": "https://github.com/PhilipBDev.png",
+  "links": [
+    {
+      "name": "Check out my portfolio ☕",
+      "url": "https://www.philipb.dev/",
+      "icon": "FaSearch"
+    },
+    {
+      "name": "Connect with me on LinkedIn 🤝",
+      "url": "https://www.linkedin.com/in/philiprbrown/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub 💻",
+      "url": "https://github.com/PhilipBDev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter 🐦",
+      "url": "https://twitter.com/PhilipBDev",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Sponsored Eddie!",
+      "date": "January 26, 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Thank you for creating such an awesome open source community! 😁",
+      "url": "https://github.com/sponsors/eddiejaoude"
+    },
+    {
+      "title": "Completed Portfolio",
+      "date": "October 31, 2021",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "Completed my very first developer portfolio!",
+      "url": "https://www.philipb.dev/"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sumit Prasad Sah",
+  "type": "personal",
+  "bio": "Hi there! I am Machine Learning Enthuiast and doing my best to contribute to open source. I'm not limited to ML only, I can do more fun things (it's a long list). Connect with me and find out😉",
+  "avatar": "https://github.com/Sumit-jr.png",
+  "links": [
+    {
+      "name": "Check out my Website",
+      "url": "https://sumit-jr.github.io/Portfolio/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Take a peek at my work",
+      "url": "https://github.com/Sumit-jr",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Get in touch with me on Telegram",
+      "url": "https://t.me/sumitsah1808",
+      "icon": "FaTelegram"
+    },
+    {
+      "name": "See me tweet on Twitter",
+      "url": "https://twitter.com/SumitSah_jr",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sumit-prasad-sah/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

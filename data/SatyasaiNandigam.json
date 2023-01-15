@@ -1,0 +1,23 @@
+{
+  "name": "Satya Sai Nandigam",
+  "type": "personal",
+  "bio": "Open Source Enthusiast | MERN Stack Web developer at Scketch- an Altumind Company | 4th Year Computer Science Student",
+  "avatar": "https://github.com/satyasainandigam.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/satyasainandigam",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Satya_sai_N",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/satyasainandigam/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

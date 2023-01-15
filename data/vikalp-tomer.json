@@ -1,0 +1,18 @@
+{
+  "name": "Vikalp Tomer",
+  "type": "personal",
+  "bio": "React Developer || Open Source Enthusiast",
+  "avatar": "https://github.com/vikalp-tomer.png",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vikalp-tomer/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/vikalp-tomer",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Shreya Sri",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Computer Science Undergrad | Tech enthusiast | Learning full-stack development",
+  "avatar": "https://twitter.com/Shreya_sri25/photo",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Shreya_sri25",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/shreyasri258",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/shreya-sri-a83a20205/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@ShreyaSri52",
+      "icon": "FaHashnoder"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@shreyasri.ankala",
+      "icon": "FaMedium"
+    }
+  ]
+}

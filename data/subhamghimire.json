@@ -1,0 +1,28 @@
+{
+  "name": "Shekhar Ghimire",
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://github.com/subhamghimire.png",
+  "links": [
+    {
+      "name": "View my Resume",
+      "url": "https://subhamghimire.github.io/resume/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/subhamghimire",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SubhamGhimire26",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/subham.ghimire",
+      "icon": "FaInstagram"
+    }
+  ]
+}

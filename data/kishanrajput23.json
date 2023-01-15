@@ -1,0 +1,43 @@
+{
+  "name": "Kishan Kumar Rai",
+  "type": "personal",
+  "bio": "Python Enthusiast!",
+  "avatar": "https://github.com/kishanrajput23.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kishanrajput23",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kishan_rajput23",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/kishan_rajput23",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/kishan-kumar-rai-23112000",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my YouTube channel",
+      "url": "https://www.youtube.com/channel/UC8acpUOssbWJLYtdRFMxx1A",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Connect with me on Facebook",
+      "url": "https://www.facebook.com/kishan.kumarrai.79",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Chat with me on Telegram",
+      "url": "https://telegram.me/kishan_rajput23",
+      "icon": "FaTelegram"
+    }
+  ]
+}

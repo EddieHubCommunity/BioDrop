@@ -1,0 +1,23 @@
+{
+  "name": "Roshan Mhatre",
+  "type": "personal",
+  "bio": "🤎Web Dev and Open-Source Enthusiast",
+  "avatar": "https://github.com/RoshanMhatre.png",
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/RoshanMhatre",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Twitter",
+      "url": "https://twitter.com/RoshanMhatre",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Instagram",
+      "url": "https://instagram.com/roshanmig",
+      "icon": "FaInstagram"
+    }
+  ]
+}

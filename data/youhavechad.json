@@ -1,0 +1,23 @@
+{
+  "name": "Chad Whitt",
+  "type": "personal",
+  "bio": "UX | Full Stack Software Engineer | Accessibility | Machine Learning",
+  "avatar": "https://github.com/youhavechad.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/youhavechad",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/youhavechad/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/youhavechad",
+      "icon": "FaTwitter"
+    }
+  ]
+}

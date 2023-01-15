@@ -1,0 +1,46 @@
+{
+  "name": "Aayush Deshmukh",
+  "type": "personal",
+  "bio": "Full Stack Developer | Web3 Developer | CS Student at IIT Bhilai",
+  "avatar": "https://github.com/aayushd18.png",
+  "links": [
+    {
+      "name": "My Portfolio Website",
+      "url": "https://aayushd.in",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on Github",
+      "url": "https://github.com/aayushd18",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aayushdeshmukh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/aayushd18",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Undergraduation",
+      "date": "July 2019",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Started pursuing my CS degree at IIT Bhilai",
+      "url": "https://www.iitbhilai.ac.in/"
+    },
+    {
+      "title": "Web3 Developer Internship",
+      "date": "April 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started my first internship as a Web3 Dev",
+      "url": "https://www.linkedin.com/company/myriadco/"
+    }
+  ]
+}

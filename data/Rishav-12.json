@@ -1,0 +1,81 @@
+{
+  "name": "Rishav Mitra",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student | Learning | Contributing to Open Source",
+  "avatar": "https://github.com/Rishav-12.png",
+  "tags": ["Open Source", "Python", "Data Science", "JavaScript"],
+  "links": [
+    {
+      "name": "My Open Source journey on GitHub",
+      "url": "https://github.com/Rishav-12",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rishavmitra15",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rishav-mitra-69855a246",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my blog on Hashnode",
+      "url": "https://rishav10.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "I'm also on Dev.to",
+      "url": "https://dev.to/rishav12",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Solving Katas on CodeWars",
+      "url": "https://www.codewars.com/users/Rishav-12",
+      "icon": "SiCodewars"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Python",
+      "date": "July 2020",
+      "icon": "FaPython",
+      "color": "blue",
+      "description": "Started learning Python from online resources",
+      "url": "https://www.python.org/"
+    },
+    {
+      "title": "Contributing to Open Source",
+      "date": "2021",
+      "icon": "FaGitHubAlt",
+      "color": "grey",
+      "description": "Started my Open Source journey on GitHub",
+      "url": "https://github.com/Rishav-12"
+    },
+    {
+      "title": "Writing Blogs",
+      "date": "January 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started writing technical blogs on Hashnode",
+      "url": "https://rishav10.hashnode.dev/"
+    },
+    {
+      "title": "Completed Hacktoberfest",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Completed Digital Ocean's Hacktoberfest 2022"
+    },
+    {
+      "title": "Started Participating in Hackathons",
+      "date": "December 2022",
+      "icon": "SiMajorleaguehacking",
+      "color": "red",
+      "description": "Hackathons are a great way to learn new tech and network with like-minded people.",
+      "url": "https://devpost.com/Rishav-12"
+    }
+  ]
+}

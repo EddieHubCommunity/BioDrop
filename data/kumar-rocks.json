@@ -1,0 +1,23 @@
+{
+  "name": "Deepak Kumar",
+  "type": "personal",
+  "bio": "Learning the technologies that shape the world to contribute to a better future.",
+  "avatar": "https://github.com/kumar-rocks.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kumar-rocks",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source",
+      "date": "September 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started Open Source",
+      "url": "https://github.com/kumar-rocks"
+    }
+  ]
+}

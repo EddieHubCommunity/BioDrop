@@ -1,0 +1,48 @@
+{
+  "name": "Santosh Kaluskar",
+  "type": "personal",
+  "bio": "Aspiring MERN stack developer and Open Source Enthusiast!. Exploring Cloud-native ecosystem",
+  "avatar": "https://github.com/Santosh1176.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Santosh1176",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/santoshdts",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Javascript in February-2022",
+      "date": "February 2022",
+      "icon": "Udemy",
+      "color": "blue",
+      "description": "Learnt creating dynamic and interactive web applications. "
+    },
+    {
+      "title": "Learning Open Source",
+      "date": "April 2022",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Started Contibuting To Beginner friendly Issues"
+    },
+    {
+      "title": "Learning Reactjs",
+      "date": "April 2022",
+      "icon": "Reactjs",
+      "color": "Blue",
+      "description": "Using components and React hooks!"
+    },
+    {
+      "title": "Started building my profile page",
+      "date": "April 2022",
+      "icon": "HTML5 and CSS3",
+      "color": "blue",
+      "description": "Learning interactive CSS layout"
+    }
+  ]
+}

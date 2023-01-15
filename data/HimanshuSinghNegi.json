@@ -1,0 +1,32 @@
+{
+  "name": "Himanshu Singh Negi",
+  "type": "personal",
+  "bio": "A student trying to learn new things daily.",
+  "avatar": "https://github.com/HimanshuSinghNegi.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/HimanshuSinghNegi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Hnegi2980Negi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshusinghnegi",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Souce Contribution",
+      "date": "October 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Open Source Contribution"
+    }
+  ]
+}

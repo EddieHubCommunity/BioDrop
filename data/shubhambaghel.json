@@ -1,0 +1,23 @@
+{
+  "name": "Shubham Baghel",
+  "type": "personal",
+  "bio": "Full Stack developer and Open Source Enthusiast!",
+  "avatar": "https://github.com/shubhambaghel34.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shubhambaghel34",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CoderRuntime",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shubhamsinha-baghel-261484147/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

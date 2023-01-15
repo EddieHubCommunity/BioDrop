@@ -1,0 +1,61 @@
+{
+  "name": "Krupali Trivedi || Chai",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open source Advocate | Blogger | Content Writer ",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/chai_really" },
+    { "icon": "FaGithub", "url": "https://github.com/krupalitrivedi" },
+    { "icon": "SiHashnode", "url": "https://acodeandaword.hashnode.dev/" }
+  ],
+  "avatar": "https://github.com/krupalitrivedi.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/krupalitrivedi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/chai_really",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://acodeandaword.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/krupalitrivedi",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "April 2020",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started Content Writing",
+      "url": "https://www.linkedin.com/in/krupalitrivedi/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/krupalitrivedi"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "August 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://acodeandaword.hashnode.dev/"
+    }
+  ]
+}

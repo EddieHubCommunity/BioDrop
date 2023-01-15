@@ -1,0 +1,18 @@
+{
+  "name": "Aditya Priyadarshi",
+  "type": "personal",
+  "bio": "A dumb developer who loves Django.",
+  "avatar": "https://github.com/foxy4096.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/foxy4096",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Foxy4096",
+      "icon": "FaTwitter"
+    }
+  ]
+}
