@@ -1,0 +1,38 @@
+{
+  "name": "SAINATH SATIVAR",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Backend Developer, Learning Devops tools, Devops Engineer, Open Source Enthusiast!",
+  "avatar": "https://github.com/Sativarsainath-26.png",
+  "tags": [
+    "Golang",
+    "python",
+    "Java",
+    "Devops - Linux, Shell Scripting, Jenkins, Docker, Kubernetes, Podman, Git, Linux"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Sainath_102" },
+    { "icon": "FaGithub", "url": "https://github.com/Sativarsainath-26" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/sainath-sativar-75b162141"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sativarsainath-26",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sainath_102",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://linkedin.com/in/sainath-sativar-75b162141",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

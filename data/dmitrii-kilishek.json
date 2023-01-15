@@ -1,0 +1,81 @@
+{
+  "name": "Dmitrii Kilishek",
+  "type": "personal",
+  "bio": "Hey dear visitor! I'm Dmitrii. A US-based Software Tester, Lifelong Learner, Former Sysadmin, I've been in IT since 1994, From: 🇷🇺 with ❤️",
+  "avatar": "https://github.com/mentalclear.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mentalclear",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DmitriiKilishek",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/dkilishek",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my personal Blog",
+      "url": "https://kilishek.com",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Job - IT Consultant",
+      "date": "June 1994",
+      "icon": "FaDollarSign",
+      "color": "#1cad90",
+      "description": "In Russia - Started as IT Consultant and a System Administrator"
+    },
+    {
+      "title": "Principal System Administrator role",
+      "date": "February 2004",
+      "icon": "FaDollarSign",
+      "color": "#079176",
+      "description": "After 10 years moved to a new company, accepted Principal SysAdmin position"
+    },
+    {
+      "title": "Started Own Business - Systems and Services LLC",
+      "date": "August 2007",
+      "icon": "FaDollarSign",
+      "color": "#036b57",
+      "description": "Still in Russia, the time was right to start own business! Created a System Administration Outsourcing Company. The link below is in Russian:",
+      "url": "https://web.archive.org/web/20110930145917/http://www.syserv.ru/"
+    },
+    {
+      "title": "Career change to QA Engineer",
+      "date": "October 2014",
+      "icon": "FaDollarSign",
+      "color": "#619e05",
+      "description": "Moved to the USA, decided to get into Software Development field as QA Engineer(Tester), got first freelance job as Software Tester"
+    },
+    {
+      "title": "Full-time job as QA Engineer",
+      "date": "June 2016",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started working as QA Engineer II, a full-time employment first time in the US"
+    },
+    {
+      "title": "Became Sr. QA Engineer",
+      "date": "February 2018",
+      "icon": "FaDollarSign",
+      "color": "#4d8000",
+      "description": "Moved to another company, an early startup, to work as Senior QA Engineer, soon became a team lead"
+    },
+    {
+      "title": "New Sr. QA Engineer Job",
+      "date": "November 2021",
+      "icon": "FaDollarSign",
+      "color": "#ffd700",
+      "description": "Changed a job to an exciting new opportunity with JumpCloud Inc to #MakeWorkHppen",
+      "url": "https://www.jumpcloud.com"
+    }
+  ]
+}

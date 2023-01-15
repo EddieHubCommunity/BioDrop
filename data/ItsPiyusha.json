@@ -1,0 +1,34 @@
+{
+  "name": "Piyusha Lomate",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Contribution Enthusiast!",
+  "avatar": "https://github.com/ItsPiyusha.png",
+  "tags": ["javascript", "typescript"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/piyushavpawar" },
+    { "icon": "FaGithub", "url": "https://github.com/ItsPiyusha" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ItsPiyusha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/piyushavpawar",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Professional Career",
+      "date": "April 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Data Analyst",
+      "url": "https://itspiyusha.github.io/"
+    }
+  ]
+}

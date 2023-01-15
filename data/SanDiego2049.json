@@ -1,0 +1,23 @@
+{
+  "name": "Oreoluwa Alaba",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/SanDiego2049.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SanDiego2049",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sandiego2049",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/oreoluwa-alaba-5240b1219",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

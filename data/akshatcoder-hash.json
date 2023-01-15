@@ -1,0 +1,28 @@
+{
+  "name": "Akshat Sharma",
+  "type": "personal",
+  "bio": "Blockchain Developer! Building Shastra OS",
+  "avatar": "https://github.com/akshatcoder-hash.png",
+  "links": [
+    {
+      "name": "My Website",
+      "url": "https://akshat.shastraos.co/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/akshatcoder-hash",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshatwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/akshatcoder/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Digambar Tupurwadi",
+  "type": "personal",
+  "bio": "Blockchain Enthusiast | Open Source Enthusiast | Web Developer",
+  "avatar": "https://github.com/digambar-t7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/digambar-t7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/DTupurwadi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/digambar-tupurwadi-6ba551219/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/digambar_t7/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Mohan Thilak",
+  "type": "personal",
+  "bio": "CS Student | Backend Development | Microservices | Docker | DevOps",
+  "avatar": "https://github.com/mohanthilak.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mohanthilak",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohanThilak4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohan-thilak/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

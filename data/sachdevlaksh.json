@@ -1,0 +1,60 @@
+{
+  "name": "Lakshay Sachdeva",
+  "type": "personal",
+  "bio": "Programmer | Backend Development | Microservices | Golang | Blockchain",
+  "avatar": "https://github.com/sachdevlaksh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sachdevlaksh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sachdevlaksh92",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/lakshaysachdeva/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First interactions with PC",
+      "date": "January 2005",
+      "icon": "FaSearch",
+      "color": "#dadbe7",
+      "description": "Unenumerated hours of playing games on computer."
+    },
+    {
+      "title": "Joined Dual Degree B.Tech + M.Tech course in Electronics + VLSI.",
+      "date": "July 2010",
+      "icon": "FaGraduationCap",
+      "color": "#699cf7",
+      "description": "Moved to Jaipur Rajasthan from Haryana"
+    },
+    {
+      "title": "First line of code!",
+      "date": "March 2011",
+      "icon": "FaBook",
+      "color": "#dadbe7",
+      "description": "At age 20 got book about Ansi C, started coding simple hello world programs."
+    },
+    {
+      "title": "Moved to BLR. Got Placed in Cognizant as Program Analyst Trainee",
+      "date": "April 2016",
+      "icon": "FaGlobe",
+      "color": "#3d0fbd",
+      "description": "Moved to Bangalore from Haryana"
+    },
+    {
+      "title": "Started a new position as Specialist Programmer, leading small team on building web application for finance dept.",
+      "date": "Aug 2019 - present",
+      "icon": "FaDev",
+      "color": "#3d0fbd",
+      "description": "Started work at Infosys as a power programmer, developed complex applications for Goverment Income Tax Dept. Tech stack: Java, Spring MVC, Postgres, Docker, Kafka."
+    }
+  ]
+}

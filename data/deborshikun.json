@@ -1,0 +1,22 @@
+{
+  "name": "Deborshi Chakrabarti",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/deborshikun.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub!!!",
+      "url": "https://github.com/deborshikun",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning about Open Source Contributions",
+      "date": "July 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Open Source learning"
+    }
+  ]
+}

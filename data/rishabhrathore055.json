@@ -1,0 +1,18 @@
+{
+  "name": "Rishabh Rathore",
+  "type": "personal",
+  "bio": "A Data Science Enthusiast",
+  "avatar": "https://github.com/rishabhrathore055.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rishabhrathore055",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rishabh_055",
+      "icon": "FaTwitter"
+    }
+  ]
+}

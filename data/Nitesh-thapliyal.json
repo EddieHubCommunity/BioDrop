@@ -1,0 +1,37 @@
+{
+  "name": "Nitesh Thapliyal",
+  "type": "personal",
+  "bio": "Curious soul learning and exploring technologies",
+  "avatar": "https://github.com/Nitesh-thapliyal.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Nitesh-thapliyal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bauddhik_Geek",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/niteshthapliyal",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nitesh-thapliyal",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "AWS Community Builder",
+      "date": "August 2022",
+      "color": "grey",
+      "description": "Became AWS Community Builder in the Category of Dev Tools",
+      "url": "https://aws.amazon.com/developer/community/community-builders/community-builders-directory"
+    }
+  ]
+}

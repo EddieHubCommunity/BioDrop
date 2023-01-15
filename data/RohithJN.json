@@ -1,0 +1,38 @@
+{
+  "name": "Rohith JN",
+  "type": "personal",
+  "bio": "Junior developer // React.js, Python, APIs",
+  "avatar": "https://github.com/Rohith-JN.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Rohith-JN",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RohithNambiar4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rohith-nambiar-496a52240/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal Porftolio",
+      "url": "https://rohithnambiar.in/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started software development",
+      "date": "December 2019",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "Started software development (Python, JavaScript, Flutter)",
+      "url": "https://rohithnambiar.in/"
+    }
+  ]
+}

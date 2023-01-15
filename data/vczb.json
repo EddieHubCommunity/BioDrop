@@ -1,0 +1,28 @@
+{
+  "name": "Vinicius Zucatti",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/vczb.png",
+  "links": [
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/vczb",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/viniciuszucatti",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me at LinkedIn",
+      "url": "https://www.linkedin.com/in/viniciuszucatti",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my Behance",
+      "url": "https://www.behance.net/vczb",
+      "icon": "behance"
+    }
+  ]
+}

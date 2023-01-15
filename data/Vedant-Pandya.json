@@ -1,0 +1,28 @@
+{
+  "name": "Vedant Pandya",
+  "type": "personal",
+  "bio": "Founder of Phoenix Tech | GTU-IND to NYIT-USA | desktop_computer IT Engineer | chart_with_upwards_trend Data Scientist | bookmark_tabs Machine Learner | computer Mentor @ BWC | innocent Women TechMaker | cloud Cloud Computing Practitioner |",
+  "avatar": "https://github.com/pandyaved98.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pandyaved98",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MrVedPandya1",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "January 2017",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://pandyaved98.github.io/Vedant"
+    }
+  ]
+}

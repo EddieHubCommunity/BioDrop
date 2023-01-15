@@ -1,0 +1,28 @@
+{
+  "name": "Vedant Pople",
+  "type": "personal",
+  "bio": "Hello !, I am an Open Source enthusiast, looking to contribute in projects related to Deep Learning, Flutter and Django. Currently learning Javascript to explore Blockchain in near future. Connect with me to talk Tech and share memes.",
+  "avatar": "https://github.com/vedantpople4.png",
+  "links": [
+    {
+      "name": "Visit my Portfolio",
+      "url": "https://vedantpople4.github.io/Portfolio/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vedantpople4",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Drop a Hi! on Twitter",
+      "url": "https://twitter.com/vedantpople",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vedantpople/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

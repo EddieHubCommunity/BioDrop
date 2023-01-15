@@ -1,0 +1,28 @@
+{
+  "name": "Deepanshu Anand",
+  "type": "personal",
+  "bio": "Data Analyst | Machine Learning | Web Development | Open Source",
+  "avatar": "https://github.com/Deepanshu0810.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Deepanshu0810",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/deepanshu0810",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/deepanshu-anand-55a6b4214/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@deep05anand",
+      "icon": "SiMedium"
+    }
+  ]
+}

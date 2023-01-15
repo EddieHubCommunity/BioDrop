@@ -1,0 +1,38 @@
+{
+  "name": "Ratheshan Sathiyamoorthy",
+  "type": "personal",
+  "bio": "BSc (Hons) Computer Science Undergraduate | Full-Stack Software developer | Open Source Enthusiast",
+  "avatar": "https://github.com/Ratheshan03.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ratheshan03",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ratheshan-sathiyamoorthy-3aa2891b9/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ratheshan_03",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ratheshan_03/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "June 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Full-Stack Web developement | UI/UX Designing",
+      "url": "https://www.fiverr.com/ratheshan03?up_rollout=true"
+    }
+  ]
+}

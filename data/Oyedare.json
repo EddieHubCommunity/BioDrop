@@ -1,0 +1,23 @@
+{
+  "name": "Oyedare Temiloluwa Stephen",
+  "type": "personal",
+  "bio": "Frontend Developer. Currently learning and working with REACT",
+  "avatar": "https://github.com/Oyedare.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Oyedare",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_stephentony_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/oyedaretemiloluwa/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

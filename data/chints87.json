@@ -1,0 +1,28 @@
+{
+  "name": "Chintan",
+  "type": "personal",
+  "bio": "Front-end development",
+  "avatar": "https://github.com/chints87.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/chints87",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/cgchintan",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Freelancing",
+      "date": "Jan 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://unquo.in/"
+    }
+  ]
+}

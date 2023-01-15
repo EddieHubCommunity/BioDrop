@@ -1,0 +1,23 @@
+{
+  "name": "Kartik Gajjar",
+  "type": "personal",
+  "bio": "I am Kartik, currently pursuing my Engg. majoring in computer science . I am a tech & open source enthusiast . I am always open to collaborating on projects .",
+  "avatar": "https://github.com/kartikgajjar7.png",
+  "links": [
+    {
+      "name": "Follow my open source on GitHub",
+      "url": "https://github.com/kartikgajjar7/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Take a look at my website",
+      "url": "https://kartikgajjar7.github.io/1.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Kartikt2twt/",
+      "icon": "FaTwitter"
+    }
+  ]
+}

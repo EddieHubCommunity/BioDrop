@@ -1,45 +1,9 @@
-## [0.71.1](https://github.com/EddieHubCommunity/LinkFree/compare/v0.71.0...v0.71.1) (2022-08-29)
-
-
-### Bug Fixes
-
-* github actions to be scoped ([#1685](https://github.com/EddieHubCommunity/LinkFree/issues/1685)) ([d625b94](https://github.com/EddieHubCommunity/LinkFree/commit/d625b94ef94367caaf6c578acb4c9eb6df4e5978))
-
-
-
-# [0.71.0](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.20...v0.71.0) (2022-08-29)
+# 1.50.0 (2023-01-15)
 
 
 ### Features
 
-* kubescape action ([#1683](https://github.com/EddieHubCommunity/LinkFree/issues/1683)) ([4b780a4](https://github.com/EddieHubCommunity/LinkFree/commit/4b780a460e55452d4c53ca1bce37e7241b32bc91))
-
-
-
-## [0.70.20](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.19...v0.70.20) (2022-08-29)
-
-
-### Bug Fixes
-
-* why is my profile not visible ([fd74662](https://github.com/EddieHubCommunity/LinkFree/commit/fd74662222fefcc7d5bcdd9c9e7b515eea1152aa))
-
-
-
-## [0.70.19](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.18...v0.70.19) (2022-08-26)
-
-
-### Bug Fixes
-
-* Dockerfile npm command ([#1625](https://github.com/EddieHubCommunity/LinkFree/issues/1625)) ([c6eae67](https://github.com/EddieHubCommunity/LinkFree/commit/c6eae67f79813ae567b10c35071d3749423f2378))
-
-
-
-## [0.70.18](https://github.com/EddieHubCommunity/LinkFree/compare/v0.70.17...v0.70.18) (2022-08-19)
-
-
-### Bug Fixes
-
-* Added open-source icon ([#1599](https://github.com/EddieHubCommunity/LinkFree/issues/1599)) ([15d3163](https://github.com/EddieHubCommunity/LinkFree/commit/15d31634849647977280f3959c89180d2e2ba4ab))
+* total users ([#3458](https://github.com/EddieHubCommunity/LinkFree/issues/3458)) ([8463d78](https://github.com/EddieHubCommunity/LinkFree/commit/8463d783b674c9b9d64fe6529ed220254187d5b3))
 
 
 

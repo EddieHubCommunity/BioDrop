@@ -1,0 +1,28 @@
+{
+  "name": "Shahid Hussain",
+  "type": "personal",
+  "bio": "Aspiring Full-Stack Developer & Open Source Enthusiast!",
+  "avatar": "https://github.com/shahidhussain07.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shahidhussain07",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shahidHtwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/ig_shahidhussain",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me On LinkedIn",
+      "url": "https://www.linkedin.com/in/shahid-hussain-500a93214",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

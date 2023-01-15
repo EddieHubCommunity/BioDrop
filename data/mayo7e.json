@@ -1,0 +1,23 @@
+{
+  "name": "Mayowa Adeboye",
+  "type": "personal",
+  "bio": "Frontend Developer, UI/UX designer",
+  "avatar": "https://github.com/mayo7e.png",
+  "links": [
+    {
+      "name": "View my projects on GitHub",
+      "url": "https://github.com/mayo7e",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MayowaWn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me at LinkedIn",
+      "url": "https://www.linkedin.com/in/mayowa-adeboye-95752120b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

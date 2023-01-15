@@ -1,0 +1,77 @@
+{
+  "name": "Lubna Fathima",
+  "type": "personal",
+  "bio": "I'm an Information Technology Undergraduate with keen interest in web development. MERN stack enthusiast and seeking to gain more expertise in backend development. Currently learning Data Structure Algorithm.",
+  "avatar": "https://camo.githubusercontent.com/ccddd8b1f13259ade2bce9ba8cdd50fcc538b4e32111a5c096962092720beb3e/68747470733a2f2f6d656469612d657870312e6c6963646e2e636f6d2f646d732f696d6167652f4335363033415146444c6f54664e69784539412f70726f66696c652d646973706c617970686f746f2d736872696e6b5f3230305f3230302f302f313634393630353233323135373f653d3136363434303936303026763d6265746126743d493856677633355741426955636f49466c4c4a78653937526e4f50795735696d43554e35774c5451795734",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lubnafathima",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MsCoder1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lubna-fathima-4a30b4226/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out My Portfolio",
+      "url": "https://lubnafathima.github.io/portfolio/",
+      "icon": "FaDollarSign"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source Contribution",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Inspired from Eddie and Kunal Kushwaha, I started with to beginner friendly Open source contribution",
+      "url": "https://github.com/lubnafathima"
+    },
+    {
+      "title": "Data Structures and Algorithm",
+      "date": "July 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "In the following step in my roadmap, I started working with the MERN stack from Angela Yu's Bootcamp and built great projects along the way",
+      "url": "https://twitter.com/MsCoder1/status/1550890126422822919"
+    },
+    {
+      "title": "MERN Stack Development",
+      "date": "March 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "In the following step in my roadmap, I started working with the MERN stack from Angela Yu's Bootcamp and built great projects along the way",
+      "url": "https://twitter.com/MsCoder1/status/1503796812011884544"
+    },
+    {
+      "title": "100 Days of Code",
+      "date": "August 2021",
+      "icon": "FaTwitter",
+      "color": "grey",
+      "description": "My first attempt in July 2021 failed! But i didn't give up and started again Aug 2021. At the end I gained Knowledge in JS, SASS, AJAX, JQuery and 1k friends in Twitter",
+      "url": "https://twitter.com/MsCoder1/status/1427899230367010823?t=C4l1Qkv1htYHwUcaAiOlXA&s=19"
+    },
+    {
+      "title": "Web Development",
+      "date": "December 2020",
+      "icon": "frontend mentor",
+      "color": "#0a0a23",
+      "description": "Learned Web Developemnt from Jonas schmedtmann's Udemy Course and started to contribute in Frontend mentor challenges",
+      "url": "https://www.frontendmentor.io/profile/lubnafathima"
+    },
+    {
+      "title": "Smart India Hackathon",
+      "date": "August 2020",
+      "icon": "smart india hackathon",
+      "color": "#3a3240",
+      "description": "Finalist in Smart India Hackathon"
+    }
+  ]
+}

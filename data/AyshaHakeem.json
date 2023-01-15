@@ -1,0 +1,41 @@
+{
+  "name": "Aysha Hakeem",
+  "type": "personal",
+  "bio": "Coding Enthusiast!",
+  "avatar": "https://github.com/AyshaHakeem.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AyshaHakeem",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aysha-hakeem/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AyshaHakeem77",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "October 2021",
+      "icon": "FaDev",
+      "color": "grey",
+      "description": "Started Coding",
+      "url": "https://github.com/AyshaHakeem"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "March 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Freelancing",
+      "url": "https://yourwebfren.com/"
+    }
+  ]
+}

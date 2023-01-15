@@ -1,0 +1,23 @@
+{
+  "name": "Sulagna Dutta Roy",
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "avatar": "https://github.com/sulagna-dutta-roy.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sulagna-dutta-roy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/sulagna-dutta-roy-26421b201",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SulagnaDuttaRo1",
+      "icon": "FaTwitter"
+    }
+  ]
+}

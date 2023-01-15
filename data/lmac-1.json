@@ -1,0 +1,88 @@
+{
+  "name": "Lucy Macartney",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Developer and Technical Writer",
+  "tags": ["Open Source", "Javascript", "React", "NextJS"],
+  "avatar": "https://github.com/lmac-1.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/codingwithlucy" },
+    { "icon": "FaGithub", "url": "https://github.com/lmac-1" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw"
+    }
+  ],
+  "links": [
+    {
+      "name": "Watch my interview with Eddie: Getting into tech with Lucy Macartney",
+      "url": "https://youtu.be/sSNCfuScBhA",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lmac-1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/codingwithlucy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe to my YouTube channel: English and Spanish content",
+      "url": "https://www.youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/lucymacartney",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my blog on Hashnode",
+      "url": "https://hashnode.com/@codingwithlucy",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Posted my first video on YouTube",
+      "date": "May 2021",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "My final project for CS50",
+      "url": "https://www.youtube.com/watch?v=q4hK0VSJWqg"
+    },
+    {
+      "title": "First job as a software developer",
+      "date": "February 2022",
+      "icon": "FaDollarSign",
+      "color": "black",
+      "description": "Building a web application with React, NextJS, Prisma and MongoDB"
+    },
+    {
+      "title": "Started working as a technical writer",
+      "date": "April 2022",
+      "icon": "FaBook",
+      "color": "black",
+      "description": "Writing and managing documentation on Intercom and writing a weekly newsletter curating the best content on open source and software development."
+    },
+    {
+      "title": "Published my first blog",
+      "date": "May 2022",
+      "icon": "SiHashnode",
+      "color": "black",
+      "description": "Why #100DaysOfCode is a great way to start a tech twitter account",
+      "url": "https://codingwithlucy.hashnode.dev/why-100daysofcode-is-a-great-way-to-start-a-tech-twitter-account"
+    },
+    {
+      "title": "Posted my first video in Spanish on YouTube",
+      "date": "May 2021",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "Dando mis primeros pasos en Open Source",
+      "url": "https://youtu.be/y-zJyGZjK3E"
+    }
+  ]
+}

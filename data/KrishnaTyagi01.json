@@ -1,0 +1,48 @@
+{
+  "name": "Krishna Tyagi",
+  "type": "personal",
+  "bio": "Full stack web developer!",
+  "avatar": "https://github.com/KrishnaTyagi01.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KrishnaTyagi01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tyagikrishna01",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    },
+    {
+      "title": "First Internship",
+      "date": "December 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Frontend developer intern at hitch"
+    },
+    {
+      "title": "Second Internship",
+      "date": "feburary 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Frontend developer intern at onpar labs"
+    },
+    {
+      "title": "Third Internship",
+      "date": "octuber 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Fullstack developer intern at Intellichains"
+    }
+  ]
+}

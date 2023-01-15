@@ -1,0 +1,56 @@
+{
+  "name": "Omariba Collins",
+  "type": "personal",
+  "bio": "Backend dev and Machine Learning",
+  "avatar": "https://github.com/Collins-Omariba.png",
+  "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
+    { "icon": "FaGithub", "url": "https://github.com/Collins-Omariba" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+
+      "url": "https://github.com/Collins-Omariba",
+
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "Follow me on Twitter",
+
+      "url": "https://twitter.com/OmaribaCollins",
+
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "portfolio website",
+
+      "url": "https://collins-omariba.github.io"
+    },
+    {
+      "name": "Connect on LinkedIn",
+
+      "url": "https://www.linkedin.com/in/omariba-collins-b28b841b9",
+
+      "icon": "FaLinkedin"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+
+      "date": "September 2022",
+
+      "icon": "FaDollarSign",
+
+      "color": "grey",
+
+      "description": "Started freelancing",
+
+      "url": "https://www.fiverr.com/collinsomariba"
+    }
+  ]
+}

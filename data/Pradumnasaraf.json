@@ -1,0 +1,51 @@
+{
+  "name": "Pradumna Saraf",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** Advocate | DevOps Developer | EddieHub Ambassador",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
+    { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
+    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" }
+  ],
+  "testimonials": ["eddiejaoude", "MadhuSaini22"],
+  "avatar": "https://github.com/Pradumnasaraf.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source",
+      "url": "https://twitter.com/pradumna_saraf",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/Pradumnasaraf",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pradumnasaraf",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://pradumnasaraf.dev",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://blog.pradumnasaraf.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Support my work - GitHub Sponsors",
+      "url": "https://github.com/sponsors/Pradumnasaraf",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@pradumnasaraf",
+      "icon": "FaYouTube"
+    }
+  ]
+}

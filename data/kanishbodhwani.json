@@ -1,0 +1,62 @@
+{
+  "name": "Kanish Bodhwani",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/kanishbodhwani.png",
+  "links": [
+    {
+      "name": "Personal portfolio",
+      "url": "https://kanishportfolio.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kanishbodhwani",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kanish-bodhwani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BodhwaniKanish",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Freelancer",
+      "date": "January 2022",
+      "icon": "FaDollarSign",
+      "color": "red",
+      "description": "Started freelancing",
+      "url": "https://kanishportfolio.netlify.com/"
+    },
+    {
+      "title": "Software developer Intern",
+      "date": "July 2022",
+      "icon": "FaLink",
+      "color": "blue",
+      "description": "Currently Interning",
+      "url": "https://www.linkedin.com/posts/kanish-bodhwani_newjob-internship-developer-activity-6963114914223652864-AYPh?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "GDSC Lead",
+      "date": "July 2022",
+      "icon": "google",
+      "color": "green",
+      "description": "Google developer student clubs lead at Amity University",
+      "url": "https://gdsc.community.dev/amity-university-lucknow/"
+    },
+    {
+      "title": "Alias open source volunteer",
+      "date": "December 2021",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Alias volunteering: Open source",
+      "url": "https://asetalias.in/"
+    }
+  ]
+}

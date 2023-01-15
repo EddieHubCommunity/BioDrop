@@ -1,0 +1,23 @@
+{
+  "name": "Lalit Dhane",
+  "type": "personal",
+  "bio": "Hi I am Lalit. I am a Full Stack Web Developer who loves to contribute to the Open source and collaborate with other developers.",
+  "avatar": "https://github.com/lalitdhane.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lalitdhane",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/LMD90367359",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lalit-dhane/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

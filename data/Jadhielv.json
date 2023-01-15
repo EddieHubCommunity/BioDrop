@@ -1,0 +1,28 @@
+{
+  "name": "Jadhiel Vélez",
+  "type": "personal",
+  "bio": "Software Developer, Open Source Enthusiast, Debugger and a drinker of coffee.",
+  "avatar": "https://github.com/Jadhielv.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Jadhielv",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JadhielV",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jadhielv/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my freeCodeCamp profile",
+      "url": "https://www.freecodecamp.org/jadhielv",
+      "icon": "freecodecamp"
+    }
+  ]
+}

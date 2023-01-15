@@ -1,0 +1,18 @@
+{
+  "name": "Pasindu Marasinghe",
+  "type": "personal",
+  "bio": "Computer Engineering Undergraduate",
+  "avatar": "https://github.com/pasindumarasinghe.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pasindumarasinghe",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/baqslash",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "salahawk",
+  "type": "personal",
+  "bio": "Web3 | Full-stack | Mobile | Open Source Enthusiast!",
+  "avatar": "https://github.com/salahawk.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/salahawk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/salahawk",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Portfolio website",
+      "url": "https://salahawk.netlify.app",
+      "icon": "FaGlobe"
+    }
+  ]
+}

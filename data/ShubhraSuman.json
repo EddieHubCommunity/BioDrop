@@ -1,0 +1,27 @@
+{
+  "name": "Shubhra Suman",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/ShubhraSuman.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShubhraSuman",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShubhraSuman5",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "September 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

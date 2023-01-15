@@ -1,0 +1,39 @@
+{
+  "name": "Supun Sathsara",
+  "type": "personal",
+  "bio": "I Don’t Suffer From Insanity. I Enjoy Every Minute Of It.",
+  "avatar": "https://github.com/supunsathsara.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/supunsathsara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ssupunsathsara",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check My Website",
+      "url": "https://supunsathsara.com",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Launched my personal Website",
+      "date": "November 2021",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "Website link - www.supunsathsara.com"
+    },
+    {
+      "title": "Joined GitHub",
+      "date": "June 2020",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "GitHub username - @supunsathsara"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Abhishek Shukla",
+  "type": "personal",
+  "bio": "Full-Stack developer and Open source contributor",
+  "avatar": "https://github.com/shukla007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shukla007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/avi0_07",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishek-shukla-682908211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

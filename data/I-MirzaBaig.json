@@ -1,0 +1,47 @@
+{
+  "name": "Mirza Baig",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source **DevRel** enthusiast | **Devops** enthusiast | **Travel** enthusaist",
+  "avatar": "https://github.com/I-MirzaBaig.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AmaanMiirza" },
+    { "icon": "FaGithub", "url": "https://github.com/I-MirzaBaig" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/AmaanMiirza",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Get connected",
+      "url": "https://github.com/I-MirzaBaig",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/amaan-mirza-b10b06208/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@AmaanMirza",
+      "icon": "FaHasnode"
+    },
+    {
+      "name": "Follow me on Showwcase",
+      "url": "https://www.showwcase.com/amaanmiirza",
+      "icon": "FaShowwcase"
+    }
+  ]
+}

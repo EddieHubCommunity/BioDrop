@@ -1,0 +1,28 @@
+{
+  "name": "Ravi Babu",
+  "type": "personal",
+  "bio": "Competitive Programmer, Bachelor of Computer Science and Engineering ( AI & ML ) student, and an Open Source Enthusiast!",
+  "avatar": "https://github.com/ravibabuvadde.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ravibabuvadde",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iamravibabu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_ravibabu_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ravibabuvadde",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

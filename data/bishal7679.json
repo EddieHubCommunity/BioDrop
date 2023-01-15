@@ -1,0 +1,18 @@
+{
+  "name": "Bishal Das",
+  "type": "personal",
+  "bio": "I am Bishal Das, currently pursuing my Btech. in computer science from Asansol Engineering College. I am a tech enthusiast & an open source contributor and currently learning DevOps. I am always open to collaborating on projects and innovative ideas",
+  "avatar": "https://github.com/bishal7679.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/bishal7679",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bishaltwt7679",
+      "icon": "FaTwitter"
+    }
+  ]
+}

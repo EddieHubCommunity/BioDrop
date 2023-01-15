@@ -1,0 +1,38 @@
+{
+  "name": "Akshat Mittal",
+  "type": "personal",
+  "bio": "MERN Stack Developer | Competitive Programmer",
+  "avatar": "https://github.com/akshatmittal61.png",
+  "links": [
+    {
+      "name": "Veiw my projects on GitHub",
+      "url": "https://github.com/akshatmittal61",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mail me to connect",
+      "url": "mailto:akshatmittal2506@gmail.com",
+      "icon": "email"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshatmittal61",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akshatmittal61/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "See my posts on Instagram",
+      "url": "https://instagram.com/akshatmittal61",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Join me on your FB",
+      "url": "https://www.facebook.com/akshatmittal61/",
+      "icon": "FaFacebook"
+    }
+  ]
+}

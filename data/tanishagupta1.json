@@ -1,0 +1,28 @@
+{
+  "name": "Tanisha Gupta",
+  "type": "personal",
+  "bio": "Software Developer | Tech-Writer | Open Source Enthusiast",
+  "avatar": "https://github.com/tanishagupta1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/tanishagupta1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tanisha_gupta12",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tanisha-gupta1",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Medium",
+      "url": "https://tanishagupta213.medium.com/",
+      "icon": "SiMedium"
+    }
+  ]
+}

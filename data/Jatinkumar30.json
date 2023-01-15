@@ -1,0 +1,27 @@
+{
+  "name": "Jatin Kumar",
+  "type": "personal",
+  "bio": "Open Source Enthusiast and Front end developer!",
+  "avatar": "https://github.com/Jatinkumar30.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Jatinkumar30",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JatinRawal30",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Getting grip on Open Source",
+      "date": "January 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Getting into open source"
+    }
+  ]
+}

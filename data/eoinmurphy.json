@@ -1,0 +1,18 @@
+{
+  "name": "Eoin Murphy",
+  "type": "personal",
+  "bio": "LinkFree is the first project I've contributed to! I do technical program management and am currently teaching myself web development.",
+  "avatar": "https://github.com/eoinmurphy.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/eoinmuprhy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/eoindotmurphy",
+      "icon": "FaTwitter"
+    }
+  ]
+}

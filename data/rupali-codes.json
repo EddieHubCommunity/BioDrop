@@ -1,0 +1,30 @@
+{
+  "name": "Rupali Haldiya",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full stack Developer | Open-Source ",
+  "tags": ["Open Source", "Javascript", "NodeJS", "ReactJS"],
+  "avatar": "https://github.com/rupali-codes.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rupali-codes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rupali_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rupali-codes/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://rupali-codes.netlify.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

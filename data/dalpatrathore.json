@@ -1,0 +1,23 @@
+{
+  "name": "Dalpat Rathore",
+  "type": "personal",
+  "bio": "Software Developer | Designer",
+  "avatar": "https://github.com/dalpatrathore.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dalpatrathore",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ingenuity_brain",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my LinkedIn profile",
+      "url": "https://www.linkedin.com/in/dalpatrathore",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

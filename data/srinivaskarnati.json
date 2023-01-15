@@ -1,0 +1,53 @@
+{
+  "name": "Srinivas Karnati ♾️",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm a DevOps Engineer | Avacado Folk 🥑 | Believes in Code, Community, Content, Coffee",
+  "tags": ["DevOps", "Kubernetes", "Cloud Native", "DevRel"],
+  "avatar": "https://github.com/karnatisrinivas.png",
+  "socials": [
+    {
+      "url": "https://twitter.com/__karnati",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/karnatisrinivas",
+      "icon": "FaGitHub"
+    },
+    {
+      "url": "https://linkedin.com/in/srinivas-karnati",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://instagram.com/__karnati",
+      "icon": "FaInstagram"
+    }
+  ],
+  "links": [
+    {
+      "name": "Shares tips and learnings on Twitter",
+      "url": "https://twitter.com/__karnati",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/srinivas-karnati",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Find me on GitHub",
+      "url": "https://github.com/karnatisrinivas",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "I Write blogs, find'em here ✍️",
+      "url": "https://srinivaskarnati.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Wanna have a chat?? ",
+      "url": "https://calendly.com/srinivaskarnati/",
+      "icon": "FaCalendar"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Emanuel Lugo",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Engineering in Computer Science, Cybersecurity Specialist, streamer, designer.",
+  "avatar": "https://github.com/netteNz.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter.",
+      "url": "https://twitter.com/netteNz_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram.",
+      "url": "https://www.instagram.com/nettenz_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me to see me live on Twitch!",
+      "url": "https://www.twitch.tv/nettenz",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/netteNz",
+      "icon": "FaGithub"
+    }
+  ]
+}

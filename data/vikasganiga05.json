@@ -1,0 +1,32 @@
+{
+  "name": "Vikas Ganiga",
+  "type": "personal",
+  "bio": "Full Stack Developer | Tech & Sports Enthusiast | Self-Taught JavaScript Developer | Work on LAMP or MERN Stack | Passionate programmer and curious learner!",
+  "avatar": "https://github.com/vikasganiga05.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vikasganiga05",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vikasganiga05",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/vikasganiga05",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Getting grip on Open Source",
+      "date": "May 2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started contributing to Open Source projects."
+    }
+  ]
+}

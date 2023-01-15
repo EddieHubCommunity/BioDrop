@@ -1,0 +1,18 @@
+{
+  "name": "Arghya Das",
+  "type": "personal",
+  "bio": "I am Arghya Das, currently pursuing my Bachelor's degree in computer science. I am an open-source advocate. I am always open to collaborating on projects and innovative ideas",
+  "avatar": "https://github.com/itsarghyadas.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/itsarghyadas",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsarghyadas",
+      "icon": "FaTwitter"
+    }
+  ]
+}

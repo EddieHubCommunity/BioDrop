@@ -1,0 +1,23 @@
+{
+  "name": "Mrinaal Arora",
+  "type": "personal",
+  "bio": "OpenSource Contributor",
+  "avatar": "https://github.com/aroramrinaal.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aroramrinaal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aroramrinaal25",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My YouTube channel",
+      "url": "https://www.youtube.com/channel/UCTD6LoSiaOUAKNS3KBOqgaA",
+      "icon": "FaYoutube"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Revati Deshmukh",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/revati-deshmukh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/revati-deshmukh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DeshmukhRevati",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/revati-deshmukh/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my portfolio",
+      "url": "https://revati-deshmukh.github.io/",
+      "icon": "portfolio"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Jr. Software Engineer",
+      "date": "November 2013",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked as a Jr. Software Engineer at Villagineer Technologies Pvt. Ltd., India"
+    },
+    {
+      "title": "Full stack developer",
+      "date": "August 2014",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked as a Full stack developer at Avant Imsights Pvt. Ltd., India"
+    },
+    {
+      "title": "Technology Analyst",
+      "date": "April 2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked as a Technology Analyst at Infosys Ltd., India"
+    },
+    {
+      "title": "System Engineer",
+      "date": "Jan 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked as a System Engineer at Percept Solutions (Client: OCBC Bank), Singapore"
+    },
+    {
+      "title": "Open Source enthusiast",
+      "date": "May 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Currently, contributing to the Open Source Community"
+    }
+  ]
+}
