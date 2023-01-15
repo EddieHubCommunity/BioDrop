@@ -12,7 +12,6 @@ export default async function handler(req, res) {
   const { username } = req.query;
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
-
   let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   if (!data) {
@@ -38,7 +37,22 @@ export default async function handler(req, res) {
           username,
         };
 
-        return testimonial;
+        // check testimonial author for LinkFree profile
+        try {
+          const filePath = path.join(process.cwd(), "data", `${username}.json`);
+          JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+          return {
+            ...testimonial,
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+          };
+        } catch (e) {
+          console.log(e);
+          return {
+            ...testimonial,
+            url: `https://github.com/${testimonial.username}`,
+          };
+        }
       } catch (e) {
         return [];
       }
@@ -73,6 +87,9 @@ export default async function handler(req, res) {
     data = { ...data, events };
   }
 
+  const date = new Date();
+  date.setHours(1, 0, 0, 0);
+
   const getProfile = await Profile.findOne({ username });
   if (!getProfile) {
     try {
@@ -82,6 +99,19 @@ export default async function handler(req, res) {
       });
     } catch (e) {
       console.log("ERROR creating profile stats", e);
+    }
+
+    try {
+      await Stats.updateOne(
+        {
+          date,
+        },
+        {
+          $inc: { users: 1 },
+        }
+      );
+    } catch (e) {
+      console.log("ERROR app profile stats", e);
     }
   }
   if (getProfile) {
@@ -99,8 +129,6 @@ export default async function handler(req, res) {
     }
   }
 
-  const date = new Date();
-  date.setHours(1, 0, 0, 0);
   const getProfileStats = await ProfileStats.findOne({
     username: username,
     date: date,
@@ -154,6 +182,8 @@ export default async function handler(req, res) {
       await Stats.create({
         date,
         views: 1,
+        clicks: 0,
+        users: 1,
       });
     } catch (e) {
       console.log("ERROR creating platform stats", e);
