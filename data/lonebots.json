@@ -1,0 +1,40 @@
+{
+  "name": "Jishnu Suresh",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Robotics** Enthusiast | Web Developer | Open Source Contributor",
+  "tags": ["Open Source", "React", "ROS", "JavaScript", "Node.js"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/lonebots" },
+    { "icon": "FaGithub", "url": "https://github.com/lonebots" },
+    { "icon": "FaLink", "url": "https://jishnusuresh.me" }
+  ],
+  "avatar": "https://github.com/lonebots.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source",
+      "url": "https://twitter.com/lonebots",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/lonebots",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lonebots",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://jishnusuresh.me",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://lonebots.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

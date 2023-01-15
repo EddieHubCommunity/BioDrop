@@ -1,0 +1,34 @@
+{
+  "name": "Priya Pahwa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "GitHub Campus Expert | Django Developer | ECE Junior",
+  "avatar": "https://github.com/priyapahwa.png",
+  "links": [
+    {
+      "name": "Tweet and Greet",
+      "url": "https://twitter.com/PriyaPahwa19",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn Spin",
+      "url": "https://www.linkedin.com/in/priya-pahwa/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Every Git speaks",
+      "url": "https://github.com/priyapahwa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Drop a mail",
+      "url": "mailto:pahwa.priya19@gmail.com",
+      "icon": "FaMail"
+    },
+    {
+      "name": "Medium drum rolls",
+      "url": "https://medium.com/@priyapahwa",
+      "icon": "FaMedium"
+    }
+  ]
+}
