@@ -14,17 +14,17 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/vidhi-makani-1876a7223/",
-      "icon": "FaInstagram"
+      "icon": "FaLinkedin"
     },
      {
       "name": "Follow me on GitHub",
       "url": "https://github.com/vidhimakani74",
-      "icon": "FaInstagram"
+      "icon": "FaGithub"
     },
      {
       "name": "CodeChef",
       "url": "https://www.codechef.com/users/vidhimakani007",
-      "icon": "FaInstagram"
+      "icon": "SiCodechef"
     },
      {
       "name": "Hackerrank",
