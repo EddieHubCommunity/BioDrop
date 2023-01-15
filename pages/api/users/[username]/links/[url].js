@@ -11,10 +11,10 @@ export default async function handler(req, res) {
 
   const { username, url } = req.query;
 
-  if (req.method != "GET" || !username || !url) {
+  if (req.method != "GET") {
     return res
       .status(400)
-      .json({ error: "Invalid request: username and link required" });
+      .json({ error: "Invalid request: Method not accepted" });
   }
 
   let getProfile = await Profile.findOne({ username });
