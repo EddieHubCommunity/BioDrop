@@ -72,6 +72,7 @@ test.fixme("redirect to search when tag clicked", async ({ page }) => {
   // 4. get the current url and should match href
 });
 
+//Accessibility Tests
 test('should pass axe wcag accessibility tests (eddiejaoude)', async ({ page }) => {
   await page.goto('/eddiejaoude');
   const accessibilityScanResults = await new AxeBuilder({ page })
