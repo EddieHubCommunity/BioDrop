@@ -1,11 +1,11 @@
 import fs from "fs";
 import path from "path";
 
-import Profile from "../../../models/Profile";
-import Link from "../../../models/Link";
-import Stats from "../../../models/Stats";
-import ProfileStats from "../../../models/ProfileStats";
-import connectMongo from "../../../config/mongo";
+import Profile from "../../../../models/Profile";
+import Link from "../../../../models/Link";
+import Stats from "../../../../models/Stats";
+import ProfileStats from "../../../../models/ProfileStats";
+import connectMongo from "../../../../config/mongo";
 
 export default async function handler(req, res) {
   await connectMongo();
