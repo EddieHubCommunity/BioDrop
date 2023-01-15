@@ -32,6 +32,7 @@
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test --trace on",
+    "test:ci": "npx playwright test",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",

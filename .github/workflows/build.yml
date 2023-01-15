@@ -4,13 +4,12 @@ on:
     paths:
       - pages/**
       - test/**
+      - components/**
   pull_request:
     paths:
       - pages/**
       - test/**
-
-env:
-  NODE_ENV: dev
+      - components/**
 
 jobs:
   build:
@@ -47,4 +46,7 @@ jobs:
       - name: Install Playwright's dependencies
         run: npx playwright install --with-deps
       - name: run tests
-        run: npm run test
+        run: npm run test:ci
+      - uses: test-summary/action@v2
+        with:
+          paths: "results.xml"
