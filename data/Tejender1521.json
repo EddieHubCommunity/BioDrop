@@ -4,7 +4,16 @@
   "type": "personal",
   "bio": "Full Stack Developer || Pre-Final Year C.S.E. Undergrad. || Self-Taught Developer",
   "avatar": "https://github.com/Tejender1521.png",
-  "tags": ["Javascript", "C++", "Python", "ReactJS", "NodeJS", "MongoDB", "AWS", "Elasticsearch"],
+  "tags": [
+    "Javascript",
+    "C++",
+    "Python",
+    "ReactJS",
+    "NodeJS",
+    "MongoDB",
+    "AWS",
+    "Elasticsearch"
+  ],
   "socials": [
     {
       "icon": "SiProgress",
