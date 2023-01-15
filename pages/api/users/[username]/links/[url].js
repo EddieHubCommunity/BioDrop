@@ -1,7 +1,7 @@
-import Link from "../../../models/Link";
-import Profile from "../../../models/Profile";
-import Stats from "../../../models/Stats";
-import connectMongo from "../../../config/mongo";
+import Link from "../../../../../models/Link";
+import Profile from "../../../../../models/Profile";
+import Stats from "../../../../../models/Stats";
+import connectMongo from "../../../../../config/mongo";
 
 export default async function handler(req, res) {
   await connectMongo();
