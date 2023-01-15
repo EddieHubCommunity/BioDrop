@@ -416,6 +416,9 @@ export default function Home({ total, today }) {
                             <feature.icon
                               className="h-8 w-8 text-white"
                               aria-hidden="true"
+                                <Link
+                            href={feature.path}>
+                          </Link>
                             />
                           </span>
                         </div>
