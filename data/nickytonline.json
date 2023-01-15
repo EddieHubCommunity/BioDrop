@@ -1,0 +1,59 @@
+{
+  "name": "Nick Taylor",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open source Enthusiast and Staff Software Engineer focusing on front-end technologies and tooling with a growing interest in serverless and edge computing.",
+  "avatar": "https://github.com/nickytonline.png",
+  "links": [
+    {
+      "name": "My Website",
+      "icon": "FaGlobe",
+      "url": "https://iamdeveloper.com"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "icon": "FaGithub",
+      "url": "https://github.com/nickytonline"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "icon": "FaTwitch",
+      "url": "https://twitch.tv/nickytonline"
+    },
+    {
+      "name": "Follow me on Polywork",
+      "icon": "FaGlobe",
+      "url": "https://timeline.iamdeveloper.com"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "icon": "FaYouTube",
+      "url": "https://youtube.iamdeveloper.com"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/nickytonline"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "icon": "FaMastodon",
+      "url": "https://toot.cafe/@nickytonline"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nickytonline"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/nickytonline"
+    },
+    {
+      "name": "Join the iamdeveloper.com Discord community",
+      "icon": "FaDiscord",
+      "url": "https://discord.iamdeveloper.com"
+    }
+  ]
+}
