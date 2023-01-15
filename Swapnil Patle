@@ -1,0 +1,39 @@
+{
+  "name": "Swapnil Patle",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/SwapnilPatle.png",
+"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SwapnilPatle01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SwapnilPatle",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/swappy___01/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/swapnil-patle-821534223/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/mdswapnil.patle",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/channel/UCn0F3wdlhYyS3G5mO8li8Jg",
+      "icon": "FaYouTube"
+    } 
+  ]
+  }
