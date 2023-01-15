@@ -12,7 +12,6 @@ export default async function handler(req, res) {
   const { username } = req.query;
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
-
   let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
   if (!data) {
@@ -38,7 +37,22 @@ export default async function handler(req, res) {
           username,
         };
 
-        return testimonial;
+        // check testimonial author for LinkFree profile
+        try {
+          const filePath = path.join(process.cwd(), "data", `${username}.json`);
+          JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+          return {
+            ...testimonial,
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+          };
+        } catch (e) {
+          console.log(e);
+          return {
+            ...testimonial,
+            url: `https://github.com/${testimonial.username}`,
+          };
+        }
       } catch (e) {
         return [];
       }
