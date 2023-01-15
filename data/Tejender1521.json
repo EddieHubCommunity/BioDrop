@@ -1,0 +1,76 @@
+{
+  "name": "Tejender Upadhyay",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Developer || Pre-Final Year C.S.E. Undergrad. || Self-Taught Developer",
+  "avatar": "https://github.com/Tejender1521.png",
+  "tags": [
+    "Javascript",
+    "C++",
+    "Python",
+    "ReactJS",
+    "NodeJS",
+    "MongoDB",
+    "AWS",
+    "Elasticsearch"
+  ],
+  "socials": [
+    {
+      "icon": "SiProgress",
+      "url": "https://www.tejender-upadhyay.tech"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tarun1521"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Tejender1521"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tejender-upadhyay"
+    }
+  ],
+  "links": [
+    {
+      "name": "Personal Portfolio",
+      "url": "https://www.tejender-upadhyay.tech",
+      "icon": "SiProgress"
+    },
+    {
+      "name": "Let's connect on Instagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tarun1521",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Tejender1521",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/tejender-upadhyay/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Dev.to: Active Community Member",
+      "url": "https://dev.to/tejender_upadhyay",
+      "icon": "FaDev"
+    },
+    {
+      "name": "LeetCode...",
+      "url": "https://leetcode.com/Tejender_Upadhyay/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}
