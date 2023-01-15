@@ -3,9 +3,8 @@
   "displayStatsPublic": false,
   "type": "personal",
   "bio": "Hi there! You can call me Joshua(Josh for short) and I'm a Junior Frontend Web developer",
-  "avatar": "https://github.com/joshuaedo.png"
-}
-"links": [
+  "avatar": "https://github.com/joshuaedo.png", 
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Thegr8Joshua",
@@ -22,3 +21,4 @@
       "icon": "FaGitHub"
     }
   ]
+}
