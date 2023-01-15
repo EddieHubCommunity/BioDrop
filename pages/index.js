@@ -413,13 +413,13 @@ export default function Home({ total, today }) {
                       <div className="-mt-6">
                         <div>
                           <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                            <Link
+                            href={feature.path}>
+                          </Link>
                             <feature.icon
                               className="h-8 w-8 text-white"
                               aria-hidden="true"
-                                <Link
-                            href={feature.path}>
-                          </Link>
-                            />
+                                 />
                           </span>
                         </div>
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
