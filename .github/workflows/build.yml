@@ -3,12 +3,12 @@ on:
   push:
     paths:
       - pages/**
-      - test/**
+      - tests/**
       - components/**
   pull_request:
     paths:
       - pages/**
-      - test/**
+      - tests/**
       - components/**
 
 jobs:
