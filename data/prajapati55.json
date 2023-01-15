@@ -1,0 +1,36 @@
+{
+  "name": "Pravendra Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Full Stack** Developer | Docker Beginner | Learning enthusiast ",
+  "tags": [
+    "Node.js",
+    "React",
+    "Next.js",
+    "Javascript",
+    "Open Source",
+    "Docker"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/pravendra93" },
+    { "icon": "FaGithub", "url": "https://github.com/prajapati55" }
+  ],
+  "avatar": "https://github.com/prajapati55.png",
+  "links": [
+    {
+      "name": "Follow me",
+      "url": "https://twitter.com/pravendra93",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/prajapati55",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pravendra-prajapati-42535550",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
