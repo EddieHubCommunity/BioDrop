@@ -4,16 +4,16 @@
   "type": "personal",
   "bio": "Web developer **Digital Nomad**. open source enthusiast",
   "avatar": "https://github.com/Hrishi5111998.png",
-  "links":[
+  "links": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/@hrishikesh7030",
       "icon": "FaTwitter"
     },
     {
-     "name": "Instagram",
-     "url": "https://instagram.com/hrishikesh2412",
-     "icon": "FaInstagram"
+      "name": "Instagram",
+      "url": "https://instagram.com/hrishikesh2412",
+      "icon": "FaInstagram"
     },
     {
       "name": "LinkedIn",
@@ -24,6 +24,6 @@
       "name": "Github",
       "url": "https://github.com/Hrishi5111998",
       "icon": "FaGithub"
-      }
+    }
   ]
 }
