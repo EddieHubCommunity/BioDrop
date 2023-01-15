@@ -1,0 +1,29 @@
+{
+  "name": "Harsh Deep",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack developer, open source Enthusiast, Always Learning",
+  "avatar": "https://github.com/HarshDeep61034.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HarshDeep61034",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC0pItWIca8hdO02YPtiG9_w",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hdeep61034/?igshid=ZDdkNTZiNTM%3D",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/HarshDeep61034",
+      "icon": "FaGithub"
+    }
+  ]
+}
