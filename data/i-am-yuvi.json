@@ -20,5 +20,13 @@
       "url": "https://github.com/i-am-yuvi",
       "icon": "FaGithub"
     }
-  ]
+  ],
+  "tags": [
+  "Open Source",
+  "Golang",
+  "Java",
+  "Machine Learning",
+  "DevOps",
+  "DevRel"
+]
 }
