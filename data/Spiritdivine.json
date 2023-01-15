@@ -1,0 +1,24 @@
+{
+  "name": "01spirit",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack developer, i love memes and stickers",
+  "avatar": "https://github.com/Spiritdivine.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/spiritdivine01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/madu-kelechi-4186b9208",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Spiritdivine",
+      "icon": "FaGithub"
+    }
+  ]
+}
