@@ -1,20 +1,22 @@
 import fs from "fs";
 import path from "path";
 
-import Profile from "../../../models/Profile";
-import Link from "../../../models/Link";
-import Stats from "../../../models/Stats";
-import ProfileStats from "../../../models/ProfileStats";
-import connectMongo from "../../../config/mongo";
+import Profile from "../../../../models/Profile";
+import Link from "../../../../models/Link";
+import Stats from "../../../../models/Stats";
+import ProfileStats from "../../../../models/ProfileStats";
+import connectMongo from "../../../../config/mongo";
 
 export default async function handler(req, res) {
   await connectMongo();
   const { username } = req.query;
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
-  let data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-
-  if (!data) {
+  let data = {};
+  try {
+    data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (e) {
+    console.log(`ERROR loading username ${username}`);
     return res.status(404).json({});
   }
 
