@@ -76,22 +76,29 @@ export default function Popular({ data, BASE_URL }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 className="text-2xl md:text-4xl mb-4 font-bold">
+        <h1 className="text-2xl md:text-4xl mb-8 font-bold text-center">
           Discover LinkFree Profiles
         </h1>
-
-        <div className="flex flex-wrap justify-center mb-4">
-          {data.tags &&
-            data.tags
-              .slice(0, 10)
-              .map((tag) => (
-                <Tag name={tag.name} key={tag.name} total={tag.total} />
-              ))}
+        
+        <div className="mb-12">
+          <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
+            <h2 className="text-lg md:text-xl font-bold">
+              Trending Tags
+            </h2>
+          </div>
+          <div className="flex flex-wrap justify-center">
+            {data.tags &&
+                data.tags
+                  .slice(0, 10)
+                  .map((tag) => (
+                    <Tag name={tag.name} key={tag.name} total={tag.total} />
+                  ))}
+          </div>
         </div>
 
         <div className="mb-12">
           <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
-            <h2 className="text-md md:text-xl font-bold">
+            <h2 className="text-lg md:text-xl font-bold">
               Random LinkFree Profiles
             </h2>
             <button
@@ -112,9 +119,11 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">
-            Trending LinkFree Profiles (last 24 hours)
-          </h2>
+          <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
+            <h2 className="text-lg md:text-xl font-bold">
+              Trending LinkFree Profiles (last 24 hours)
+            </h2>
+          </div>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.trending.map((profile) => (
               <li key={profile.username}>
@@ -125,7 +134,11 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">Popular LinkFree Profiles</h2>
+          <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
+            <h2 className="text-lg md:text-xl font-bold">
+              Popular LinkFree Profiles
+            </h2>
+          </div>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.popular.map((profile) => (
               <li key={profile.username}>
