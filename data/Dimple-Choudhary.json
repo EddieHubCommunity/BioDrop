@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Frontend developer",
   "avatar": "https://github.com/Dimple-Choudhary.png",
-}"links": [
+  "links": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/dimpi_choudhari",
@@ -21,3 +21,4 @@
       "icon": "FaGithub"
     }
   ]
+}
