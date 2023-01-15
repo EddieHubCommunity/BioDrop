@@ -35,6 +35,11 @@ jobs:
         image: mongo
         ports:
           - 27017:27017
+    strategy:
+      fail-fast: false
+      matrix:
+        shardIndex: [1, 2, 3, 4, 5]
+        shardTotal: [5]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -46,7 +51,7 @@ jobs:
       - name: Install Playwright's dependencies
         run: npx playwright install --with-deps
       - name: run tests
-        run: npm run test:ci
+        run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - uses: test-summary/action@v2
         with:
           paths: "results.xml"
