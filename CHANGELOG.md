@@ -1,9 +1,9 @@
-# 1.48.0 (2023-01-14)
+# 1.50.0 (2023-01-15)
 
 
 ### Features
 
-* daily user stats ([#3344](https://github.com/EddieHubCommunity/LinkFree/issues/3344)) ([a66c3b9](https://github.com/EddieHubCommunity/LinkFree/commit/a66c3b92dfd9cb12f5f37d48c383a4103b6b052c)), closes [#2886](https://github.com/EddieHubCommunity/LinkFree/issues/2886)
+* total users ([#3458](https://github.com/EddieHubCommunity/LinkFree/issues/3458)) ([8463d78](https://github.com/EddieHubCommunity/LinkFree/commit/8463d783b674c9b9d64fe6529ed220254187d5b3))
 
 
 
