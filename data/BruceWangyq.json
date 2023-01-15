@@ -1,0 +1,54 @@
+{
+  "name": "Bruce Wang",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source DevRel | Front End Developer | Web3 Developer",
+  "avatar": "https://github.com/brucewangyq.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Web3",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/brucewangdev" },
+    { "icon": "FaGithub", "url": "https://github.com/brucewangyq" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/@brucewangdev" }
+  ],
+  "links": [
+    {
+      "name": "Bruce Wang's Website",
+      "url": "http://brucewangdev.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/brucewangdev",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube: Learn more about Web3, Front End",
+      "url": "https://youtube.com/@brucewangdev",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Collaborate with Me",
+      "url": "https://github.com/brucewangyq",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/brucewangdev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/@brucewangdev",
+      "icon": "FaYoutube"
+    }
+  ]
+}

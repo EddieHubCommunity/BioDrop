@@ -1,0 +1,64 @@
+{
+  "name": "Vaibhav Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Self taught Web Developer | Python | JavaScript",
+  "avatar": "https://github.com/VaibhavSinghDev.png",
+
+  "tags": ["Web Development", "Programming", "Python", "JavaScript"],
+
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/VaibhavSinghDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vaibhavsinghdev",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/VaibhavSinghDev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://vaibhavsblog.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Completed JS Fundamentals track",
+      "date": "2022",
+      "icon": "FaCode",
+      "color": "yellow",
+      "description": "Completed 3 weeks JavaScript Fundamentals on Alchemy University"
+    },
+    {
+      "title": "Started Blogging",
+      "date": "2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Witing blogs to document learnings and share with people simultaneously.",
+      "url": "https://vaibhavsblog.hashnode.dev/"
+    },
+    {
+      "title": "Learnt Basic Django",
+      "date": "2022",
+      "icon": "FaCode",
+      "color": "green",
+      "description": "Learnt basic Django and built a blog project."
+    },
+    {
+      "title": "Self taught Python",
+      "date": "2022",
+      "icon": "FaPython",
+      "color": "blue",
+      "description": "Learnt Python to explore amazing things."
+    }
+  ]
+}

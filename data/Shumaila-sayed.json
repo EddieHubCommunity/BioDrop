@@ -1,0 +1,30 @@
+{
+  "name": "Shumaila sayed",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "On a journey to learn front-end development and contribute to open source",
+  "avatar": "https://github.com/Shumaila-sayed.png",
+
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/Heyyshum",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Read my blogs here",
+      "url": "https://shumaila-sayed.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Github Profile",
+      "url": "https://github.com/Shumaila-sayed",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/shumaila-sayed-520a1321a/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Himanshu Gupta",
+  "type": "personal",
+  "bio": "I am Software Developer in Mittal & Co. Pvt. Ltd.",
+  "avatar": "https://github.com/imhimansu28.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/imhimansu28/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imhimansu28",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshu-gupta-033793188/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

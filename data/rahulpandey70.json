@@ -1,0 +1,24 @@
+{
+  "name": "Rahul Pandey",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Web Developer(MERN STACK) | Learning Devops",
+  "avatar": "https://github.com/rahulpandey70.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rahulpandey5342",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/rahulpandey70",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/_imrahulpandey",
+      "icon": "FaInstagram"
+    }
+  ]
+}
