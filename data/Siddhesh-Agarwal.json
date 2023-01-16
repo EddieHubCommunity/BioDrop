@@ -1,0 +1,50 @@
+{
+  "name": "Siddhesh Agarwal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I love learning and explaing programming concept",
+  "avatar": "https://github.com/Siddhesh-Agarwal.png",
+  "tags": [
+    "Python",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
+    "Frontend Development",
+    "Backend Development"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Siddhesh-Agarwal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/siddhesh-agarwal"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Siddhesh2503"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://siddhesh-agarwal.github.io"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: For my open-source project",
+      "icon": "FaGithub",
+      "url": "https://github.com/Siddhesh-Agarwal"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/siddhesh-agarwal"
+    },
+    {
+      "name": "Twitter: Listen to my ideas",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Siddhesh2503"
+    }
+  ]
+}
