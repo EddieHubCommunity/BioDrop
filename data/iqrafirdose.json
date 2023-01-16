@@ -6,10 +6,10 @@
     "avatar": "https://github.com/iqrafirdose.png",
   "tags": ["Developer","Open Source", "Web dev", "Blogger"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" },
-    {"icon": "FaLinkedin", "url":"https://www.linkedin.com/in/iqrafirdose/" },
-    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" },
-    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" }
+    {"icon": "FaLinkedin", "url":"https://www.linkedin.com/in/iqrafirdose/" }
+    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" }
+    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" }
   ],
 "links": [
     {
@@ -64,7 +64,7 @@
       "color": "blue",
       "description": "I write blogs on open-source,Web development,my learnings and computer science.",
       "url": "https://iqra-firdose.hashnode.dev/"
-    }
+    },
     {
       "title": "Develevate Sliver Winner",
       "date": "December 2022",
@@ -72,7 +72,7 @@
       "color": "blue",
       "description": "Develevate is organised by Showwcase",
       "url": "https://www.showwcase.com/show/25223/dev-elevate-silver-winners"
-    }
+    },
     {
       "title": "DevRetro 2022 Winner",
       "date": "january 2023",
