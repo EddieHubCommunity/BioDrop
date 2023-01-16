@@ -1,0 +1,33 @@
+{
+  "name": "Harsh Gupta",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full Stack Web Developer | Currently exploring Docker | Let's Connect",
+  "avatar": "https://github.com/Harsh3341.png",
+  "tags": ["Open Source", "Javascript", "ReactJS", "MERN Stack"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/I_harsh_I" },
+    { "icon": "FaGithub", "url": "https://github.com/Harsh3341" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/harsh-gupta-5178b2232"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/I_harsh_I",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Let's work on some projects",
+      "url": "https://github.com/Harsh3341",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/harsh-gupta-5178b2232",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
