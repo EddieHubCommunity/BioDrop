@@ -10,7 +10,7 @@ export default function DocsIndex() {
   const sections = [
     {
       title: "Getting started",
-      description: "This is the best way to get started buiding your Profile",
+      description: "This is the best way to get started building your Profile",
       pages: [
         {
           name: "Quickstart",
@@ -91,7 +91,7 @@ export default function DocsIndex() {
           name: "Bio",
           path: "/docs/how-to-guides/bio",
           description:
-            "The bio string in the json file is special! It allow for the use of Markdown. This will allow you to use the formatting styles like italic and bold.",
+            "The bio string in the json file is special! It allows for the use of Markdown. This will allow you to use the formatting styles like italic and bold.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",

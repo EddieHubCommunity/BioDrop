@@ -145,6 +145,8 @@ export default function Navbar() {
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <IconContext.Provider
                       value={{

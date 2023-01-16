@@ -2,31 +2,14 @@ import Image from "next/image";
 import Link from "../Link"
 import Alert from "../Alert";
 
-export default function UserTestimonials({ users, data, BASE_URL }) {
-  const fallbackImageSize = 120;
-  const testimonials =
-    data.testimonials &&
-    data.testimonials.map((testimonial) => {
-      const user = users.find((u) => u === testimonial.username);
-
-      if (user) {
-        return {
-          ...testimonial,
-          url: `${BASE_URL}/${testimonial.username}`,
-        };
-      }
-      return {
-        ...testimonial,
-        url: `https://github.com/${testimonial.username}`,
-      };
-    });
+export default function UserTestimonials({ data }) {
   return (
     <>
       {!data.testimonials && (
         <Alert type="info" message="No testimonials found" />
       )}
       {data.testimonials &&
-        testimonials.map((testimonial, key) => (
+        data.testimonials.map((testimonial, key) => (
           <div
             className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm text-gray-500 border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
             key={key}
