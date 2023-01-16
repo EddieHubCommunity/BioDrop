@@ -1,9 +1,9 @@
-# 1.51.0 (2023-01-16)
+## 1.51.1 (2023-01-16)
 
 
-### Features
+### Bug Fixes
 
-* api handle redirects ([#3246](https://github.com/EddieHubCommunity/LinkFree/issues/3246)) ([#3502](https://github.com/EddieHubCommunity/LinkFree/issues/3502)) ([d06b814](https://github.com/EddieHubCommunity/LinkFree/commit/d06b814ec01b24d56d7bf67050cc05e24fd27363))
+* mobile nav ([#3538](https://github.com/EddieHubCommunity/LinkFree/issues/3538)) ([50d3139](https://github.com/EddieHubCommunity/LinkFree/commit/50d3139901cfda74e521a88a78a0a21941715e4f)), closes [#3202](https://github.com/EddieHubCommunity/LinkFree/issues/3202)
 
 
 
