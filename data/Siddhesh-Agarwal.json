@@ -1,0 +1,23 @@
+{
+  "name": "Siddhesh Agarwal",
+  "type": "personal",
+  "bio": "I love learning and explaing programming concept",
+  "avatar": "https://github.com/Siddhesh-Agarwal.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Siddhesh-Agarwal",
+      "icon": "FaGithub",
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/siddhesh-agarwal",
+      "icon": "FaLinkedin",
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Siddhesh2503",
+      "icon": "FaTwitter",
+    },
+  ]
+}
