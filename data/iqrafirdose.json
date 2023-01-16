@@ -6,10 +6,10 @@
     "avatar": "https://github.com/iqrafirdose.png",
   "tags": ["Developer","Open Source", "Web dev", "Blogger"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" };
-    {"icon": "FaLinkedin", "url":"https://www.linkedin.com/in/iqrafirdose/" };
-    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" };
-    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" };
+    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" },
+    {"icon": "FaLinkedin", "url":"https://www.linkedin.com/in/iqrafirdose/" },
+    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" },
+    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" },
   ],
 "links": [
     {
