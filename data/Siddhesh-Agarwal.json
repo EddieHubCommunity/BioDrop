@@ -10,20 +10,41 @@
     "Machine Learning",
     "Data Science",
     "Frontend Development",
-    "Backend Development",
+    "Backend Development"
   ],
-  "Socials": [
+  "socials": [
     {
-      "url": "https://github.com/Siddhesh-Agarwal",
       "icon": "FaGithub",
+      "url": "https://github.com/Siddhesh-Agarwal"
     },
     {
-      "url": "https://linkedin.com/in/siddhesh-agarwal",
       "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/siddhesh-agarwal"
     },
     {
-      "url": "https://twitter.com/Siddhesh2503",
       "icon": "FaTwitter",
+      "url": "https://twitter.com/Siddhesh2503"
     },
+    {
+      "icon": "FaGlobe",
+      "url": "https://siddhesh-agarwal.github.io"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: For my open-source project",
+      "icon": "FaGithub",
+      "url": "https://github.com/Siddhesh-Agarwal"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/siddhesh-agarwal"
+    },
+    {
+      "name": "Twitter: Listen to my ideas",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Siddhesh2503"
+    }
   ]
 }
