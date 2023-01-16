@@ -39,7 +39,6 @@
     }
   ]
    "milestones": [
-   
     {
       "title": "Joined Github",
       "date": "October 2022",
@@ -48,7 +47,7 @@
       "description": "Started contributing to open-source",
       "url": "https://github.com/iqrafirdose"
     },
-      {
+    {
       "title": "Hackthoberfest with Aviyel",
       "date": "October 2022",
       "icon": "FaGithub",
@@ -56,7 +55,6 @@
       "description": "Become a top creator of Hackthoberfest with Aviyel",
       "url": "https://aviyel.com/@iqrafirdose"
     },
-     
     {
       "title": "Started Tech Blog",
       "date": "October 2022",
