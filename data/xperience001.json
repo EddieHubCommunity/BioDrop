@@ -3,6 +3,7 @@
   "type": "personal",
   "bio": "MERN Stack Web Dev || Open Source || UI UX",
   "avatar": "https://github.com/xperience001.png",
+  "displayStatsPublic": "true",
   "links": [
     {
       "name": "Follow me on GitHub",
