@@ -1,11 +1,19 @@
 import fs from "fs";
 import path from "path";
 
+import logger from "../../../config/logger";
+
 export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
-  const files = fs
-    .readdirSync(directoryPath)
-    .filter((item) => item.includes("json"));
+  let files = [];
+
+  try {
+    files = fs
+      .readdirSync(directoryPath)
+      .filter((item) => item.includes("json"));
+  } catch (e) {
+    logger.error(e, "failed to load profiles");
+  }
 
   const tags = files.flatMap((file) => {
     const filePath = path.join(directoryPath, file);
@@ -13,7 +21,7 @@ export default async function handler(req, res) {
       const userTags = JSON.parse(fs.readFileSync(filePath, "utf8")).tags;
       return userTags.length ? userTags : [];
     } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
+      logger.error(e, `failed to get load profiles: ${filePath}`);
       return [];
     }
   });
