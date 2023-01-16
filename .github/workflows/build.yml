@@ -25,6 +25,8 @@ jobs:
   tests:
     needs: build
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.29.0-focal
     services:
       mongo:
         image: mongo
@@ -43,8 +45,8 @@ jobs:
           cache: "npm"
       - name: install dependencies
         run: npm ci
-      - name: Install Playwright's dependencies
-        run: npx playwright install chromium
+      # - name: Install Playwright's dependencies
+      #   run: npx playwright install chromium
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - uses: test-summary/action@v2
