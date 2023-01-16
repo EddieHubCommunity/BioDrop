@@ -1,0 +1,36 @@
+{
+  "name": "Vishal M",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "DevOps | AWS | SRE | CSE Student at PES University",
+  "tags": ["Open Source", "DevOps", "AWS", "SRE" , "Docker", "Kubernetes", "Terraform"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/VishalPraneeth" },
+    { "icon": "FaLink", "url": "https://vishal-m.netlify.app/" }
+  ],
+  "avatar": "https://github.com/VishalPraneeth.png",
+  "links": [
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/VishalPraneeth",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vishal-m-67920524b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://vishal-m.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://vishal7771.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+    
+    
+  ]
+}
