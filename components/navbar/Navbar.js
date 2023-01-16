@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+
 import NavLink from "./NavLink";
 import Link from "next/link";
 import app from "../../config/app.json";
@@ -14,20 +15,22 @@ export default function Navbar() {
   const navConRef = useRef();
 
   useEffect(() => {
-
     const detectClickOutsideHandler = (e) => {
-      if(isOpen && navConRef.current && !navConRef.current.contains(e.target)){
+      if (
+        isOpen &&
+        navConRef.current &&
+        !navConRef.current.contains(e.target)
+      ) {
         setIsOpen(false);
       }
-    }
+    };
 
-    isOpen && document.addEventListener('click', detectClickOutsideHandler);
+    isOpen && document.addEventListener("click", detectClickOutsideHandler);
 
     return () => {
-      document.removeEventListener('click', detectClickOutsideHandler);
-    }
-
-  }, [isOpen])
+      document.removeEventListener("click", detectClickOutsideHandler);
+    };
+  }, [isOpen]);
 
   const primary = [
     {
@@ -109,7 +112,7 @@ export default function Navbar() {
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`${isOpen ? 'hidden' : 'block'} h-6 w-6`}
+                  className={`${isOpen ? "hidden" : "block"} h-6 w-6`}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -124,7 +127,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <svg
-                  className={`${isOpen ? 'block' : 'hidden'} h-6 w-6`}
+                  className={`${isOpen ? "block" : "hidden"} h-6 w-6`}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
