@@ -1,0 +1,24 @@
+{
+  "name": "Dimple choudhary",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend developer",
+  "avatar": "https://github.com/Dimple-Choudhary.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dimpi_choudhari",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/dimple-choudhary--/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Dimple-Choudhary",
+      "icon": "FaGithub"
+    }
+  ]
+}
