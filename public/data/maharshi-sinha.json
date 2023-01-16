@@ -8,44 +8,44 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/maharshi-sinha",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/sinha_maharshi",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
      {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/maharshi-sinha-78b1001b7/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
      {
       "name": "Read my blogs on Hashnode",
       "url": "https://maharshisinha.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Check out my website",
       "url": "https://maharshi-sinha.github.io/portfolio-site/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ]
    "milestones": [
     {
       "title": "Became GDSC Lead",
       "date": "July 2020",
-      "icon": "fa-handshake-o",
+      "icon": "FaGoogle",
       "color": "blue",
-      "description": "Started Content Writing",
-      "url": "https://www.linkedin.com/in/krupalitrivedi/"
+      "description": "established Google Developer Student Club in my college campus for the first time",
+      "url": "https://gdsc.community.dev/government-engineering-college-jagdalpur/"
     },
     {
       "title": "Started Tech Blog",
       "date": "April 2022",
       "icon": "SiHashnode",
       "color": "blue",
-      "description": "Documenting my Journey through blogs",
+      "description": "Documenting my Journey as well as sharing my knowledges through blogs",
       "url": "https://maharshisinha.hashnode.dev/"
     }
   ]
