@@ -27,7 +27,10 @@ export default async function handler(req, res) {
     return res.status(404).json({ error: `ERROR ${username} not found` });
   }
 
-  if (!data.links.find((link) => link.url === url)) {
+  if (
+    !data.links.find((link) => link.url === url) &&
+    !data.socials.find((social) => social.url === url)
+  ) {
     console.log(`ERROR link ${url} not found for username ${username}`);
     return res.status(404).json({ error: `ERROR ${url} not found` });
   }
