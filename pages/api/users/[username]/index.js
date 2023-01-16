@@ -1,6 +1,5 @@
 import fs from "fs";
 import path from "path";
-import requestIp from "request-ip";
 
 import connectMongo from "../../../../config/mongo";
 import logger from "../../../../config/logger";
@@ -14,7 +13,7 @@ export default async function handler(req, res) {
   let log;
   await connectMongo();
   const { username } = req.query;
-  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
+  log = logger.child({ username: username });
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
   let data = {};
