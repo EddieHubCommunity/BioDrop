@@ -2,7 +2,7 @@
   "name": "Jainam shah",
   "displayStatsPublic": false,
   "type": "personal",
-  "bio": "Open Source Enthusiast | Frontend Developer",
+  "bio": "Frontend Developer",
   "tags": ["Open Source", "javascript", "React", "TypeScript" , "Nextjs"],
    "socials": [
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jainam-shah-21284814b/"},
@@ -13,12 +13,12 @@
     "links": [
     {
       "name": "LinkedIn: Let's connect",
-      "url": "https://twitter.com/EddieAndSaraExplore",
+      "url": "https://www.linkedin.com/in/jainam-shah-21284814b/",
       "icon": "FaInstagram"
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/SaraJaoude",
+      "url": "https://twitter.com/Jainamh_shah",
       "icon": "FaTwitter"
     },
     {
