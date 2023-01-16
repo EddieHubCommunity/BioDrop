@@ -14,9 +14,9 @@ Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoud
 
 LinkFree was built using the following technologies:
 
- - [![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) &nbsp; &nbsp; - A framework for building server-rendered React applications 
- - [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/) &nbsp; &nbsp; - A NoSQL database                                                                             
- - [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) &nbsp; &nbsp; - A utility-first CSS framework      
+- [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
+- [MongoDB](https://www.mongodb.com/) - a NoSQL database
+- [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework      
  
 
 ## 🛠️ Quickstart
