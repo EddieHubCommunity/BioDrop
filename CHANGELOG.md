@@ -1,9 +1,9 @@
-# 1.50.0 (2023-01-15)
+## 1.50.1 (2023-01-15)
 
 
-### Features
+### Bug Fixes
 
-* total users ([#3458](https://github.com/EddieHubCommunity/LinkFree/issues/3458)) ([8463d78](https://github.com/EddieHubCommunity/LinkFree/commit/8463d783b674c9b9d64fe6529ed220254187d5b3))
+* removed loading all users [#3476](https://github.com/EddieHubCommunity/LinkFree/issues/3476) ([#3477](https://github.com/EddieHubCommunity/LinkFree/issues/3477)) ([1d94a6f](https://github.com/EddieHubCommunity/LinkFree/commit/1d94a6fcc0e7f61325419d60f9b291276bb01d4d))
 
 
 
