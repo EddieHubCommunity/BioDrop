@@ -1,0 +1,73 @@
+{
+  "name": "Adebayo Olamilekan",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Frontend Web Developer | Smart Contract Developer | Web2 and Web3 Fullstack Developer",
+  "avatar": "https://github.com/oleanjikingcode.png",
+  "tags": ["Javascript", "Typescript", "NextJS", "Freelancer", "Solidity"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/oleanji_sol" },
+    { "icon": "FaGithub", "url": "https://github.com/oleanjikingcode" },
+    { "icon": "FaTiktok", "url": "https://www.tiktok.com/@oleanji_sol" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/oleanji_sol",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Tiktok: Learn more about programming",
+      "url": "https://www.tiktok.com/@oleanji_sol",
+      "icon": "FaTiktok",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/oleanjikingcode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/adebayo-olamilekan-oleanji/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal Website (Resume website)",
+      "url": "https://adebayo-s-portfolio.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Links Website",
+      "url": "https://links-website-one.vercel.app/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Twitter",
+      "date": "April 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Started Tweeting and helping people in web3 and web2",
+      "url": "https://twitter.com/oleanji_sol"
+    },
+    {
+      "title": "Got A Job ",
+      "date": " May 2022",
+      "icon": "FaLaptopCode",
+      "color": "grey",
+      "description": "My first job at Everipedia [IQ Wiki]",
+      "url": "https://iq.wiki/"
+    },
+    {
+      "title": "Started Tiktok",
+      "date": "November 2022",
+      "icon": "FaTiktok",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://www.tiktok.com/@oleanji_sol"
+    }
+  ]
+}

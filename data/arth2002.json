@@ -1,0 +1,33 @@
+{
+  "name": "ARTH PRAJAPATI",
+  "type": "personal",
+  "bio": "Debugging...",
+  "avatar": "https://github.com/arth2002.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/arth2002",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aparth11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/arth-prajapati-835325214/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@User64bit",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Dev Community",
+      "url": "https://dev.to/user64bit",
+      "icon": "FaDev"
+    }
+  ]
+}

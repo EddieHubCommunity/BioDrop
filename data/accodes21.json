@@ -1,0 +1,47 @@
+{
+  "name": "Aarya Chopkar",
+  "type": "personal",
+  "bio": "Frontend Developer | Open Source Enthusiast | Python Dev | CSE Student",
+  "avatar": "https://github.com/accodes21.png",
+  "tags": ["Open Source", "Javascript", "ReactJS", "Python"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/ChopkarAarya" },
+    { "icon": "FaGithub", "url": "https://github.com/accodes21" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aarya-chopkar-581aa2228/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/accodes21",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ChopkarAarya",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aarya-chopkar-581aa2228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://accodes21.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://github.com/accodes21"
+    }
+  ]
+}

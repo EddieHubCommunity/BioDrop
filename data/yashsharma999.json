@@ -1,0 +1,27 @@
+{
+  "name": "Yash Sharma",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/yashsharma999.png",
+  "links": [
+    {
+      "name": "Yash Sharma",
+      "url": "https://github.com/yashsharma999",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Yash Sharma",
+      "url": "https://twitter.com/5273Yash",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Software Development",
+      "date": "July 2021",
+      "icon": "FaDollarSign",
+      "color": "aliceblue",
+      "description": "Started my first job in the industry as a web-developer , primarily a React Developer 🔥"
+    }
+  ]
+}

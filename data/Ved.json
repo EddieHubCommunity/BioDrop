@@ -1,0 +1,43 @@
+{
+  "name": "Ved Prakash Nautiyal",
+  "type": "Personal",
+  "bio": "Learning Web Development & DSA | Exploring DevOps & Machine Learning | Sharing Experiences & Learnings",
+  "avatar": "https://github.com/vedprakashnautiyal.png",
+  "links": [
+    {
+      "name": "Follow My Projects On Github",
+      "url": "https://github.com/vedprakashnautiyal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout My Journey & Experiences On Twitter",
+      "url": "https://twitter.com/v3dprakash",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Personal Blog Channel",
+      "url": "https://vedprakashnautiyal.medium.com",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Technical Blog Channel",
+      "url": "https://vedprakashnautiyal.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Connect With Me On LinkedIn",
+      "url": "https://www.linkedin.com/in/vedprakashnautiyal",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Post On Twitter",
+      "date": "24 September 2021",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Started Learning In Public",
+      "url": "https://twitter.com/v3dprakash/status/1573418228755595270"
+    }
+  ]
+}

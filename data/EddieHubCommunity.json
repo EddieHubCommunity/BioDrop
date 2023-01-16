@@ -1,0 +1,42 @@
+{
+  "name": "EddieHubCommunity",
+  "type": "community",
+  "bio": "Inclusive **Open Source** community - Collaboration 1st, Code 2nd!",
+  "avatar": "https://github.com/EddieHubCommunity.png",
+  "tags": ["EddieHub", "Open Source", "GitHub", "Community", "Collaboration"],
+  "testimonials": [
+    "loftwah",
+    "LinuxGamer",
+    "yashdev9274",
+    "dren98",
+    "Susmita-Dey"
+  ],
+  "links": [
+    {
+      "name": "Visit EddieHub Website",
+      "url": "http://eddiehub.org",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/EddieHubCommunity",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join our Discord Community",
+      "url": "http://discord.eddiehub.org",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/company/eddiehub",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Join our Ambassadors program",
+      "url": "http://eddiehub.org/ambassador-program",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": []
+}

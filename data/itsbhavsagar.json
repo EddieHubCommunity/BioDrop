@@ -1,0 +1,13 @@
+{
+  "name": "Bhavsagar Chaudhary",
+  "type": "Personal",
+  "bio": "Front End developer, learning opensource.",
+  "avatar": "https://github.com/itsbhavsagar.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/itsbhavsagar",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Chidiebere Ernest",
+  "type": "personal",
+  "bio": "I’m a full-stack developer, who loves building responsive and fascinating web applications and contributing to open source. I have an eye for problem solving, and I also can rapidly adapt to new skills and concepts. I’m also a gamer and a tech enthusiast.",
+  "avatar": "https://github.com/Ernest2026.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ernest2026",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ernesto_tech",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/chidiebere-ernest-1078321ba/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

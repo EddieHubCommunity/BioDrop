@@ -1,0 +1,39 @@
+{
+  "name": "Mohasin Haque",
+  "type": "personal",
+  "bio": "Techie Teacher at Techie Tessie.",
+  "avatar": "https://github.com/Mohasin-Haque.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Mohasin-Haque",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mohasin_haque",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohasin-haque-759786200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/ajad.ali.3766",
+      "icon": "FaFacebook"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/Mohasin-Haque",
+      "date": "August 2021",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Free programming videos every Friday",
+      "url": "https://www.youtube.com/techietessie"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "L Divakar",
+  "type": "personal",
+  "bio": "I am L Divakar, currently pursuing my Btech majoring in computer science from KMIT . I am a tech enthusiast. I am always open to collaborating on projects and innovative/disruptive ideas",
+  "avatar": "https://github.com/diva-21.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/diva-21",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Divakar2163",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@diva1221",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/l-divakar-102205215/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

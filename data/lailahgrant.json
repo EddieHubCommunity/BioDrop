@@ -1,0 +1,46 @@
+{
+  "name": "Lailah Grant",
+  "type": "personal",
+  "bio": "HTML, CSS (beginner) and Environment Enthuisiat",
+  "avatar": "https://github.com/lailahgrant.png",
+  "links": [
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/lailahgrant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/lailah_grant",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lailah-grant-561692168/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestone": [
+    {
+      "title": "Started my Internship",
+      "date": "February 2019",
+      "icon": "FaBook",
+      "color": "green",
+      "description": "Started my Internship as a mobile app maintainer"
+    },
+    {
+      "title": "Field Researcher - WFP",
+      "date": "June 2019",
+      "icon": "food",
+      "color": "gray",
+      "description": "Carried out an E-health readiness awareness assessment"
+    },
+    {
+      "title": "I.T Administrator Intern",
+      "date": "February 2021",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Manage the school website, school social media, handle Graphics and Hardware"
+    }
+  ]
+}

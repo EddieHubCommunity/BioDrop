@@ -1,0 +1,33 @@
+{
+  "name": "Aviral Sharma",
+  "type": "personal",
+  "bio": "Curious Explorer | Learning DSA and Web Development",
+  "avatar": "https://github.com/aviralsharma07.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/aviralsharma07",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_aviral07",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aviral07",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "The Curiosity Journal-Blog",
+      "url": "https://medium.com/@thecuriosityjournal",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Hashnode-Blog",
+      "url": "https://aviralsharma.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

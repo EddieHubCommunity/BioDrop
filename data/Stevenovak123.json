@@ -1,0 +1,40 @@
+{
+  "name": "Steve Dsouza",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software Developer | Web Developer",
+  "tags": [
+    "Open Source",
+    "javascript",
+    "typescript",
+    "nextjs",
+    "Web-Development"
+  ],
+  "avatar": "https://github.com/stevenovak123.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/stevenovak123" },
+    { "icon": "FaGithub", "url": "https://github.com/stevenovak123" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/stevenovak123",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/stevenovak123",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/stevenovak123/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/stevenovak123/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

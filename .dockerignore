@@ -9,4 +9,4 @@ CHANGELOG.md
 CODE_OF_CONDUCT.md
 kubernetes
 reviewpad.yml
-cypress.json
+playwright.config.js

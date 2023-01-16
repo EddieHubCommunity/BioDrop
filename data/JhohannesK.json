@@ -1,0 +1,43 @@
+{
+  "name": "Domeh John Kelvin",
+  "type": "personal",
+  "bio": "Frontend developer | Content writer | Linux Enthusiast | Open Source Enthusiast!",
+  "avatar": "https://github.com/JhohannesK.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JhohannesK",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_jhohannes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://dev.to/_jhohannes",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/john-domeh-8a21861b5/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/khelvynj/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started blogging",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "I'm a web developer and also writes blogs.",
+      "url": "https://jhohannes.hashnode.dev/"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Kumar Saurabh",
+  "type": "personal",
+  "bio": "Full Stack Developer | Freelancer | Learner | Traveller",
+  "avatar": "https://github.com/ksaurabh4.png",
+  "links": [
+    {
+      "name": "My Portfolio website",
+      "url": "https://ksaurabh4.github.io/portfolio/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ksaurabh4",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ksaurabh4/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ksaurabh4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my Blogs",
+      "url": "https://www.whynotgoogleit.com",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "My Motivational Youtube Channel",
+      "url": "https://youtube.com/thoughtcurator",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "June 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.linkedin.com/in/ksaurabh4/"
+    },
+    {
+      "title": "Started Opensource",
+      "date": "June 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Created Video screen in an open source project animeworldz",
+      "url": "https://github.com/ksaurabh4/animeworldz"
+    }
+  ]
+}

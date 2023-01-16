@@ -1,0 +1,11 @@
+{
+  "isInPerson": true,
+  "color": "blue",
+  "name": "DevRelCon Yokohama 2023",
+  "description": "an English language conference bringing the developer relations community back together in person for two days of sharing, learning, and communing.",
+  "date": {
+    "start": "2023-03-10T17:00:00.000+00:00",
+    "end": "2023-03-11T23:00:00.000+00:00"
+  },
+  "url": "https://yokohama-2023.devrelcon.dev"
+}

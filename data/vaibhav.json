@@ -1,0 +1,24 @@
+{
+  "name": "Vaibhav Arora",
+  "type": "Personal",
+  "bio": "FullStack Web Developer trying to understand DevOps",
+  "avatar": "https://github.com/VaibhavArora19.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/VaibhavArora19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vaibhavtwts",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became a full stack web developer",
+      "date": "September 2022"
+    }
+  ]
+}

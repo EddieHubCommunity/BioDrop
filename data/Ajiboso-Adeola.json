@@ -1,0 +1,35 @@
+{
+  "name": "Ajiboso Adeola",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** Enthusiast | Frontend Developer | Web3 Enthusiast |Writer",
+  "tags": ["Open Source", "Javascript", "Writing"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/dde_olla" },
+    { "icon": "FaGithub", "url": "https://github.com/Ajiboso-Adeola" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@Deola" }
+  ],
+  "avatar": "https://github.com/Ajiboso-Adeola.png",
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/dde_olla",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on github",
+      "url": "https://github.com/Ajiboso-Adeola",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/adeola-ajiboso-a6842a183",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://hashnode.com/@Deola",
+      "icon": "SiHashnode"
+    }
+  ]
+}

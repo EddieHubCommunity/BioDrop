@@ -1,0 +1,33 @@
+{
+  "name": "Vishal Chauhan",
+  "type": "personal",
+  "bio": "OpenSource Enthusiast interested in Cloud Native Technologies",
+  "avatar": "https://github.com/vish-han.png",
+  "links": [
+    {
+      "name": "Here is my Github Account",
+      "url": "https://github.com/vish-han",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Here is my Twitter Accnt",
+      "url": "https://twitter.com/VishalDev09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here is my Instagram Account",
+      "url": "https://www.instagram.com/vish.han/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Here is my  LinkedIn Account",
+      "url": "https://www.linkedin.com/in/VishalDev09/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Here is my DEV.to(Read My Blogs Too)",
+      "icon": "FaDev",
+      "url": "https://dev.to/vishal576"
+    }
+  ]
+}

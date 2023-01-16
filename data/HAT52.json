@@ -1,0 +1,39 @@
+{
+  "name": "Hamza Ali",
+  "type": "personal",
+  "bio": "Tech Enthusiast!",
+  "avatar": "https://github.com/HAT52.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/HAT52",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Hami_Ali98",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "linkedin.com/in/hamza-ali-8b79171aa",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "March 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    },
+    {
+      "title": "Landed a job",
+      "date": "April 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Landed a job"
+    }
+  ]
+}

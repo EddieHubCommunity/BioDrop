@@ -1,0 +1,30 @@
+{
+  "name": "Abhishek Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "OpenSource | Cloud | DevOPS | Tech Blogger",
+  "avatar": "https://github.com/Abhi03-tech.png",
+  "tags": ["Open Source", "Cloud", "DevOPS", "Blogging"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Abhitech03",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhisheksingh003/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Abhi03-tech",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://hashnode.com/@Abhishek003",
+      "icon": "SiHashnode"
+    }
+  ]
+}

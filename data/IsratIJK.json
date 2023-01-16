@@ -1,0 +1,18 @@
+{
+  "name": "Israt Jahan Khan",
+  "type": "personal",
+  "bio": "Cat lover",
+  "avatar": "https://github.com/IsratIJK.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/IsratIJK",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/IsratIJK",
+      "icon": "FaTwitter"
+    }
+  ]
+}

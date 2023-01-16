@@ -3,24 +3,63 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "data/**"
+
+concurrency:
+  group: "main-branch"
 
 jobs:
   changelog:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      # Create a temporary, uniquely named branch to push release info to
+      - name: create temporary branch
+        uses: peterjgrainger/action-create-branch@v2.3.0
+        id: create-branch
+        with:
+          branch: "release-from-${{ github.sha }}"
+          sha: "${{ github.sha }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # check out the repository afterwards
+      - uses: actions/checkout@v3
+
+      # fetch branches and switch to the temporary branch
+      - name: switch to new branch
+        run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
+
+      # create release info and push it upstream
       - name: conventional Changelog Action
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+        uses: TriPSs/conventional-changelog-action@v3
         with:
-          github-token: ${{ secrets.CHANGELOG_RELEASE }}
-          version-file: './package.json,./package-lock.json'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          version-file: "./package.json,./package-lock.json"
+          git-branch: "release-from-${{ github.sha }}"
+          skip-on-empty: false
+          skip-git-pull: true
 
-      - name: create release
+      # create PR using GitHub CLI
+      - name: create PR with release info
+        id: create-pr
+        run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # merge PR using GitHub CLI
+      - name: merge PR with release info
+        id: merge-pr
+        run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # release info is now in main so we can continue as before
+      - name: create release with last commit
         uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        if: steps.changelog.outputs.skipped == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:

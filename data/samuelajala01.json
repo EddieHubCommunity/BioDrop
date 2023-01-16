@@ -1,0 +1,28 @@
+{
+  "name": "Samuel Ajala",
+  "type": "personal",
+  "bio": "Robotics Engineer & Software Developer!",
+  "avatar": "https://github.com/samuelajala01.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/samuelajala01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/samuelajala01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://linkedin.com/in/samuelajala01",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on IG",
+      "url": "https://instagram.com/xamy.dev",
+      "icon": "FaInstagram"
+    }
+  ]
+}

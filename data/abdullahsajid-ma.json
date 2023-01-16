@@ -1,0 +1,33 @@
+{
+  "name": "Abdullah Sajid",
+  "type": "personal",
+  "bio": "Learning Open Source",
+  "avatar": "https://github.com/abdullahsajid-ma.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abdullahsajid-ma",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aabdullahsajid",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aabdullahsajid/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abdullah-sajid-aa3892202/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100009606951466",
+      "icon": "FaFacebook"
+    }
+  ]
+}

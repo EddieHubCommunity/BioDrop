@@ -1,0 +1,23 @@
+{
+  "name": "Abhishek Yadav",
+  "type": "personal",
+  "bio": "Backend Enthusiast and keen about Web Development | Open Source Contributor",
+  "avatar": "https://github.com/abhishekY2401.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/abhishekY2401",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhishek-yadav-1a1808205",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbhiY2852",
+      "icon": "FaTwitter"
+    }
+  ]
+}

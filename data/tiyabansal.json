@@ -1,0 +1,24 @@
+{
+  "name": "Tiya Bansal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Incoming SWE Intern @JP Morgan Chase & Co, UK | Technical Writer | Problem Solver",
+  "avatar": "https://github.com/tiyabansal.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter where I host spaces and share job opportunites!",
+      "url": "https://twitter.com/TiyaTwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin!",
+      "url": "https://www.linkedin.com/in/tiyabansal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/tiyabansal",
+      "icon": "FaGithub"
+    }
+  ]
+}

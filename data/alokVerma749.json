@@ -1,0 +1,18 @@
+{
+  "name": "Alok Kumar Verma",
+  "type": "personal",
+  "bio": "I am Alok Kumar Verma, currently pursuing my Bachelors in computer Application from DDU Gorakhpur University. I am a tech enthusiast & a MERN developer. I am always open to collaborating on projects and innovative/disruptive ideas",
+  "avatar": "https://avatars.githubusercontent.com/u/87599400?s=400&v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/alokVerma749",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/alok_std",
+      "icon": "FaTwitter"
+    }
+  ]
+}

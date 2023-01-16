@@ -1,0 +1,33 @@
+{
+  "name": "Soham Ratnaparkhi",
+  "type": "personal",
+  "bio": "Open Source Enthusiast! and a young developer.",
+  "avatar": "https://github.com/SohamRatnaparkhi.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SohamRatnaparkhi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SohamR_7113",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My LinkedIn profile!",
+      "url": "https://www.linkedin.com/in/soham-ratnaparkhi-3a3775ab/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Know more about me!",
+      "url": "https://sohamratnaparkhi.github.io/PersonalWebsite_SohamR/",
+      "icon": "FaSearch"
+    },
+    {
+      "name": "Contact me",
+      "url": "https://sohamratnaparkhi.github.io/PersonalWebsite_SohamR/",
+      "icon": "FaEnvelope"
+    }
+  ]
+}

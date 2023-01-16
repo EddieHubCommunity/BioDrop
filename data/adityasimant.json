@@ -1,0 +1,44 @@
+{
+  "name": "Aditya Simant",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Mobile Developer | Open-Source enthusiast",
+  "avatar": "https://github.com/adityasimant.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adityasimant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/protagonist_z0",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/aditya-simant/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aadisimant/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on Dev.to",
+      "url": "https://dev.to/adityasimant",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Devpost",
+      "url": "https://devpost.com/adityasimant88?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Polywork",
+      "url": "https://www.polywork.com/aadisimt",
+      "icon": "SiPolywork"
+    }
+  ]
+}

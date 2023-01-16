@@ -1,0 +1,36 @@
+{
+  "name": "Stephanie Kui",
+  "type": "personal",
+  "bio": "Dipping my toes into Open Source!",
+  "avatar": "https://github.com/stephanie-kuihg.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/stephanie-kuihg",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/stephaniekuihg/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Graduated from Data Science Immersive course",
+      "date": "June 2021",
+      "icon": "Graduation Hat",
+      "color": "grey",
+      "description": "Completed four data science projects during the 3 months at General Assembly, including a salary prediction model for capstone. Check them out on my GitHub!",
+      "url": "https://github.com/stephanie-kuihg"
+    },
+    {
+      "title": "Started at Innovation and Integration",
+      "date": "September 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "First job in the tech industry as a Junior Data Scientist!",
+      "url": "https://www.linkedin.com/company/innovation-and-integration-ltd-/"
+    }
+  ]
+}

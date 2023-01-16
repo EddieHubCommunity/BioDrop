@@ -1,0 +1,23 @@
+{
+  "name": "Shafaq Israil",
+  "type": "personal",
+  "bio": "Open Source Enthusiast! | Learning Web Development | DevOps",
+  "avatar": "https://github.com/shafaq-here.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shafaq-here",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shafaq_israil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammad-shafaq-israil-b02b9b1ba/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

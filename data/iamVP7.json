@@ -1,0 +1,51 @@
+{
+  "name": "Viswaprasath K S",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Loves Developer Experience | Backend Engineer turned Product Manager",
+  "avatar": "https://github.com/iamVP7.png",
+  "tags": ["Open Source", "VueJS", "Java", "Backend Engineering", "DevEx"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/HeyVP7"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamVP7"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/VISWAPRASATHKS"
+    }
+  ],
+  "links": [
+    {
+      "name": "Vishy tech notes",
+      "url": "https://heyvp7.hashnode.dev/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Building Browser Extension",
+      "url": "https://heyvp7.gumroad.com/l/mozwebext",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributing to Open source",
+      "date": "Jan 2013",
+      "icon": "FaFirefox",
+      "color": "grey",
+      "description": "Started Contributed to MozillaReps Program"
+    },
+    {
+      "title": "Book on Browser Extension",
+      "date": "Nov 2018",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "Book for Browser Extensions",
+      "url": "https://heyvp7.gumroad.com/l/mozwebext"
+    }
+  ]
+}

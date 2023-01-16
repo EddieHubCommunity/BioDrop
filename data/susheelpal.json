@@ -1,0 +1,28 @@
+{
+  "name": "Susheel Pal",
+  "type": "personal",
+  "bio": "DevOps and Open Source Enthusiast!",
+  "avatar": "https://github.com/susheelpal.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/susheelpal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thesusheelpal",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started working in IT",
+      "date": "February 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "working professional",
+      "url": "https://susheelpal.github.io/"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Prasun Das",
+  "type": "personal",
+  "bio": "SDE @Quantorix Ex-IEMLabs Ex-Aberrantz | Trainer | Web Developer | Microservices | Open Source Contributor | Blockchain | Innovation Enthusiastic",
+  "avatar": "https://github.com/prasundas99.png",
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://prasundas99.github.io/Portfolio/index.html",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/PrasunDas99",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@prasundas115",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/prasun--das",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source",
+      "date": "May 2020",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Contributed to Twillo",
+      "url": "https://github.com/Prasundas99"
+    },
+    {
+      "title": "Started PepHub",
+      "date": "July 2022",
+      "icon": "FaBook",
+      "color": "green",
+      "description": "a collective effort to create a community for DSA and Dev",
+      "url": "https://pephub.tech"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Tibebe Solomon",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!, worked on C, Java and Python",
+  "avatar": "https://github.com/sapencio.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sapencio",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tibebesolo",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "Septembe 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://linkfree.eddiehub.io/sapencio"
+    }
+  ]
+}

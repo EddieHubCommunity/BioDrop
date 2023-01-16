@@ -1,0 +1,28 @@
+{
+  "name": "Manuchimso Oliver",
+  "type": "personal",
+  "bio": " Front-End Web3 developer and Open Source Enthusiast!",
+  "avatar": "https://github.com/mxnuchim.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mxnuchim",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manuchim_ix",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing and job hunting",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing and looking for employment ",
+      "url": "https://manuchimoliver.vercel.app/"
+    }
+  ]
+}

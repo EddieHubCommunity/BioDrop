@@ -1,0 +1,32 @@
+{
+  "name": "Shubham Gupta",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Shubhcs01.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Shubhcs01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/shubham.gupta.014",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/shubhamabes",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open-source contribution",
+      "date": "August 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "url": "https://github.com/Shubhcs01"
+    }
+  ]
+}

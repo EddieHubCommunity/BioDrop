@@ -1,0 +1,23 @@
+{
+  "name": "Gaurav Pandey",
+  "type": "personal",
+  "bio": "15 y/o High-School Student ❓ Working on Python and Machine Learning @Kaggle, Developer Contributing Open-Source @github, Writing about AI and Research!.",
+  "avatar": "https://github.com/giyednap.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/giyednap",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/giyednap",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/giyednap",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

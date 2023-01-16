@@ -1,0 +1,28 @@
+{
+  "name": "Amelia Hill",
+  "type": "personal",
+  "bio": "Frontend Web Developer | CS Student",
+  "avatar": "https://github.com/amehi0index.png",
+  "links": [
+    {
+      "name": "See my Portfolio",
+      "url": "https://www.ameliahill.me",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amehi0index",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/amehi0index",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amelia-hill-1648a6227/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

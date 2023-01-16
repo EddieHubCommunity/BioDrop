@@ -1,0 +1,33 @@
+{
+  "name": "Shivam Katare",
+  "type": "personal",
+  "bio": "Web Development | Open Source | Content Writing | DevOps",
+  "avatar": "https://github.com/Shivam-Katare.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Shivam-Katare",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shivamkatare_27",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on ShowwCase",
+      "url": "https://www.showwcase.com/shivam-katare",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@ShivamKatare",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivam-katare/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

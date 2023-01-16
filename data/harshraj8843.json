@@ -1,0 +1,18 @@
+{
+  "name": "Harsh Raj",
+  "type": "personal",
+  "bio": "Open Source ❤️ || Interested in Web Development",
+  "avatar": "https://github.com/harshraj8843.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/harshraj8843",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/harshraj8843",
+      "icon": "FaTwitter"
+    }
+  ]
+}

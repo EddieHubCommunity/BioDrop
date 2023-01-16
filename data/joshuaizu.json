@@ -1,0 +1,38 @@
+{
+  "name": "Joshua Izu",
+  "type": "personal",
+  "bio": "Software devloper/Backend Engineer",
+  "avatar": "https://github.com/izuutech.png",
+  "links": [
+    {
+      "name": "Visit Website",
+      "url": "http://joshuaizu.vercel.app",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Questionable code",
+      "url": "https://github.com/izuutech",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Controversial opinions",
+      "url": "https://twitter.com/amaechiizu1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/joshua-amaechindukwe",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "March 2018",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://joshuaizu.vercel.app/"
+    }
+  ]
+}

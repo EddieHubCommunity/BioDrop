@@ -1,0 +1,49 @@
+{
+  "name": "Ananjay Gurjar",
+  "type": "personal",
+  "bio": "Android Developer who loves to explore various tech",
+  "avatar": "http://github.com/AnanjayGurjar.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AnanjayGurjar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnanjayGurjar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ananjay-gurjar-86ab061b2/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Began working with GDSC-RIT",
+      "date": "May 2022",
+      "icon": "FaGithub",
+      "color": "#0a0a23",
+      "description": "Began working as a core member for RIT chapter of Google Developer Student Club, a non-profit organisation that aims to enhances the coding culture in college by organizing various events.",
+      "url": "https://github.com/DSC-RIT"
+    },
+    {
+      "title": "Started as Android Intern at Meduto",
+      "date": "Jan 2022",
+      "icon": "FaAndroid",
+      "color": "#3a3240",
+      "description": "Worked with Meduto as Android Developer Intern where I worked closely with the tech-founder to create few of the most interacted screens.",
+      "url": "https://play.google.com/store/apps/details?id=com.meduto"
+    },
+    {
+      "title": "Freelanced For Your Foot Doctor",
+      "date": "Jan 2022",
+      "icon": "FaAndroid",
+      "color": "blue",
+      "description": "Solely developed and deployed entire Android app for Shark Tank India funded Your Foot Doctor, which helped them to create foot profiles for all their users",
+      "url": "https://play.google.com/store/apps/details?id=cmm.yourfootdoctor.knowyourfeet"
+    }
+  ]
+}

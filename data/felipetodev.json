@@ -1,0 +1,23 @@
+{
+  "name": "Felipe Ossandon",
+  "type": "personal",
+  "bio": "Frontend Developer from 🇨🇱",
+  "avatar": "https://github.com/felipetodev.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/felipetodev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/fe_ossandon",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/felipeossandon",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

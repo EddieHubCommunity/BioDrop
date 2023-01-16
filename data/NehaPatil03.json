@@ -1,0 +1,23 @@
+{
+  "name": "Neha Patil",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/NehaPatil03.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/NehaPatil03",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Neha_Patil_03",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Hashnode Blog profile",
+      "url": "https://hashnode.com/@Nehapatil03",
+      "icon": "SiHashnode"
+    }
+  ]
+}

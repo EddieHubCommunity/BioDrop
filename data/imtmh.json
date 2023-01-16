@@ -1,0 +1,23 @@
+{
+  "name": "Thirumalesh Chinna",
+  "type": "personal",
+  "bio": "Full stack engineer & Frontend Specialist!",
+  "avatar": "https://github.com/imtmh.png",
+  "links": [
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/imtmh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imtmh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me at LinkedIn",
+      "url": "https://www.linkedin.com/in/imtmh/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

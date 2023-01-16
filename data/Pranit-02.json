@@ -1,0 +1,18 @@
+{
+  "name": "Pranit Utekar",
+  "type": "personal",
+  "bio": "Open Source Enthusiast ✨️",
+  "avatar": "https://github.com/Pranit-02.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Pranit-02",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_Pranit_Utekar_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

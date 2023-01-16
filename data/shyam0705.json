@@ -1,0 +1,58 @@
+{
+  "name": "Shyam Patel",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Upcoming intern at JP Morgan Chase | Former intern at Samsung | Full Stack Developer | Tech Enthusiast",
+  "avatar": "https://github.com/shyam0705.png",
+  "tags": ["javascript", "React"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/shyam_07_05" },
+    { "icon": "FaGithub", "url": "https://github.com/shyam0705" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shyam0705",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shyam_07_05",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shyam-patel-536508191/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed 900+ Problems on Leetcode",
+      "date": "December 2022",
+      "color": "grey",
+      "icon": "FaBook",
+      "description": "I have completed 900+ problems on Leetcode"
+    },
+    {
+      "title": "Started Internship at Samsung(SRIB)",
+      "date": "June 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Internship at Samsung(SRIB) as a Software Engineer"
+    },
+    {
+      "title": "Started Internship at Compliance Book",
+      "date": "April 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Internship at Compliance Book as a React Developer"
+    },
+    {
+      "title": "Started B.Tech at NIT Jaipur",
+      "date": "August 2019",
+      "icon": "FaGraduationCap",
+      "color": "grey"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Pratit Todkar",
+  "type": "personal",
+  "bio": "Cross-Platform Flutter Developer",
+  "avatar": "https://github.com/pratit989.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pratit989",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Pratit_todkar",
+      "icon": "FaTwitter"
+    }
+  ]
+}

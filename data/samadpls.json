@@ -1,0 +1,33 @@
+{
+  "name": "Abdul Samad",
+  "type": "personal",
+  "bio": "Python Developer | HTML & CSS | CHISEL",
+  "avatar": "https://github.com/samadpls.png",
+  "links": [
+    {
+      "name": "Follow my Open Source journey on GitHub",
+      "url": "https://github.com/samadpls",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/samadpls",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/samadpls",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open-Source",
+      "date": "Aug 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Project for beginner",
+      "url": "https://github.com/samadpls/opensource"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Ahmad Yahya",
+  "type": "personal",
+  "bio": "JavaScript-React-Dev || Open Source Enthusiast",
+  "avatar": "https://github.com/Yax-coder.png",
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/Yax-coder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Yahya_Ahmad_u",
+      "icon": "FaTwitter"
+    }
+  ]
+}

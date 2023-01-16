@@ -1,0 +1,23 @@
+{
+  "name": "Rakesh Sangem",
+  "type": "personal",
+  "bio": "A self-taught Web Developer from INDIA ",
+  "avatar": "https://avatars.githubusercontent.com/u/107752425?v=4",
+  "links": [
+    {
+      "name": "Connect with me on GitHub",
+      "url": "https://github.com/RakeshSangem",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Conenct with me on Twitter",
+      "url": "https://twitter.com/RakeshSangem8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my Portfolio",
+      "url": "https://links-rakesh.netlify.app",
+      "icon": "FaLink"
+    }
+  ]
+}

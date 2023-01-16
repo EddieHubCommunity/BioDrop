@@ -1,0 +1,33 @@
+{
+  "name": "viroopaksh-utrayak",
+  "type": "personal",
+  "bio": "well I'm a programmer(java) but first of all I'm a learner",
+  "avatar": "https://github.com/viroopaksh-utrayak.png",
+  "links": [
+    {
+      "name": "Here is my Github Accnt",
+      "url": "https://github.com/viroopaksh-utrayak",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Here is my Twitter Accnt",
+      "url": "https://twitter.com/utrayak",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here is my Instagram Accnt",
+      "url": "https://www.instagram.com/viroopaksh_utrayak/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Here is my  LinkedIn Accnt",
+      "url": "https://www.linkedin.com/in/vanshika-sharma-6048b6221/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Here is my DEV.to",
+      "icon": "FaDev",
+      "url": "https://dev.to/viroopaksh_utrayak"
+    }
+  ]
+}

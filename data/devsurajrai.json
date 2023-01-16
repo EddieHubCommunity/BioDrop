@@ -1,0 +1,18 @@
+{
+  "name": "Suraj Rai",
+  "type": "personal",
+  "bio": "Web Developer Aspirant",
+  "avatar": "https://github.com/devsurajrai.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/devsurajrai",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/surajrai_z",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Kunal Patil",
+  "type": "personal",
+  "bio": "I am Kunal Patil. A Frontend Developer | Open-Source Enthusiast",
+  "avatar": "https://github.com/Kunal0007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Kunal0007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kunal-patil-61136521b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KunalPatil0007",
+      "icon": "FaTwitter"
+    }
+  ]
+}

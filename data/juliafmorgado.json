@@ -1,0 +1,111 @@
+{
+  "name": "Julia Furst Morgado",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "DevOps DevRel | Open Source Enthusiast | AWS Community Builder",
+  "avatar": "https://github.com/juliafmorgado.png",
+  "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
+    { "icon": "FaGithub", "url": "https://github.com/juliafmorgado" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/juliafmorgado"
+    },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
+  ],
+  "testimonials": ["eddiejaoude", "payalpm"],
+  "links": [
+    {
+      "name": "Main website",
+      "url": "https://juliafmorgado.com/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/juliafmorgado",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/juliafmorgado",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Sponsor me on GitHub",
+      "url": "https://github.com/sponsors/juliafmorgado",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Main YouTube channel (English)",
+      "url": "https://youtube.com/juliafmorgado",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Canal do Youtube em Português",
+      "url": "https://youtube.com/@juliafmorgadoPT",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Chaîne Youtube en Français",
+      "url": "https://youtube.com/@juliafmorgadoFR",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Canal de Youtube en Español",
+      "url": "https://youtube.com/@juliafmorgadoES",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Google Women Techmakers Ambassador",
+      "date": "November 2022",
+      "icon": "FaBook",
+      "color": "green",
+      "description": "Became a Google Women Techmakers Ambassador",
+      "url": "https://developers.google.com/womentechmakers"
+    },
+    {
+      "title": "All Day DevOps Conference",
+      "date": "November 2022",
+      "icon": "FaDollarSign",
+      "color": "yellow",
+      "description": "Delivered my first Keynote at ADDO",
+      "url": "https://www.alldaydevops.com/addo-speakers/julia-furst-morgado"
+    },
+    {
+      "title": "AWS Community Builder",
+      "date": "August 2022",
+      "icon": "FaBook",
+      "color": "orange",
+      "description": "Became an AWS Community Builder",
+      "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Girl Code Ambassador",
+      "date": "June 2022",
+      "icon": "FaBook",
+      "color": "pink",
+      "description": "Became a Girl Code ambassador",
+      "url": "https://www.girl-code.co.uk/girlcodeambassadors/julia-furst-morgado"
+    },
+    {
+      "title": "NYC Code & Coffee",
+      "date": "January 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "blue",
+      "description": "Started organizing NYC Code & Coffee — biweekly meetup in NYC",
+      "url": "https://www.newyorkcodeandcoffee.com/"
+    },
+    {
+      "title": "Freelancing",
+      "date": "September 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://juliafmorgado.com/"
+    }
+  ]
+}
