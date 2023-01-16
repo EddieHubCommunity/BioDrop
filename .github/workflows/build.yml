@@ -22,10 +22,6 @@ jobs:
         run: npm ci
       - name: run ${{ matrix.step }}
         run: npm run ${{ matrix.step }}
-      # - name: run linter
-      #   run: npm run lint
-      # - name: run build
-      #   run: npm run build
 
   tests:
     needs: build
