@@ -1,9 +1,9 @@
-## 1.50.1 (2023-01-15)
+## 1.51.1 (2023-01-16)
 
 
 ### Bug Fixes
 
-* removed loading all users [#3476](https://github.com/EddieHubCommunity/LinkFree/issues/3476) ([#3477](https://github.com/EddieHubCommunity/LinkFree/issues/3477)) ([1d94a6f](https://github.com/EddieHubCommunity/LinkFree/commit/1d94a6fcc0e7f61325419d60f9b291276bb01d4d))
+* mobile nav ([#3538](https://github.com/EddieHubCommunity/LinkFree/issues/3538)) ([50d3139](https://github.com/EddieHubCommunity/LinkFree/commit/50d3139901cfda74e521a88a78a0a21941715e4f)), closes [#3202](https://github.com/EddieHubCommunity/LinkFree/issues/3202)
 
 
 
