@@ -30,7 +30,7 @@
     {
       "name": "Personal website",
       "url": "https://pradumnasaraf.dev",
-      "icon": "FaGlobe"
+      "icon": "FaLink"
     },
     {
       "name": "Open Source Blog",
@@ -45,7 +45,12 @@
     {
       "name": "Youtube",
       "url": "https://www.youtube.com/@pradumnasaraf",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      
     }
   ]
 }
