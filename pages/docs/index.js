@@ -259,7 +259,7 @@ export default function DocsIndex() {
             target="_blank"
             rel="noreferrer"
             className="text-sky-700 break-words"
-          >markdown files</a>
+          >Markdown files</a>
         </p>
         {sections.map((section) => (
           <div
