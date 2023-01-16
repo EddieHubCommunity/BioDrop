@@ -1,0 +1,42 @@
+{
+  "name": "Joff Tiquez",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Founder of OSSPH | CTO for Parmazip | Creator of Vue Stripe",
+  "avatar": "https://github.com/JoffTiquez.png",
+  "tags": ["Open Source", "Javascript", "VueJs", "NuxtJS", "Quasar"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/jrtiquez" },
+    { "icon": "FaGithub", "url": "https://github.com/jofftiquez" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/jofftiquez" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jofftiquez" }
+  ],
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://jofftiquez.dev",
+      "icon": "FaLink"
+    },
+    {
+      "name": "OSSPH",
+      "url": "https://ossph.org",
+      "icon": "FaCode"
+    },
+    {
+      "name": "Mighty Minds",
+      "url": "https://mightyminds.org/",
+      "icon": "FaGraduationCap"
+    },
+    {
+      "name": "Parmazip",
+      "url": "https://parmazip.com/",
+      "icon": "FaPills"
+    },
+    {
+      "name": "MYCURE",
+      "url": "https://mycure.md",
+      "icon": "FaFileMedicalAlt"
+    }
+  ],
+  "testimonials": ["mpotane"]
+}
