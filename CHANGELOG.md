@@ -1,9 +1,9 @@
-## 1.50.1 (2023-01-15)
+# 1.51.0 (2023-01-16)
 
 
-### Bug Fixes
+### Features
 
-* removed loading all users [#3476](https://github.com/EddieHubCommunity/LinkFree/issues/3476) ([#3477](https://github.com/EddieHubCommunity/LinkFree/issues/3477)) ([1d94a6f](https://github.com/EddieHubCommunity/LinkFree/commit/1d94a6fcc0e7f61325419d60f9b291276bb01d4d))
+* api handle redirects ([#3246](https://github.com/EddieHubCommunity/LinkFree/issues/3246)) ([#3502](https://github.com/EddieHubCommunity/LinkFree/issues/3502)) ([d06b814](https://github.com/EddieHubCommunity/LinkFree/commit/d06b814ec01b24d56d7bf67050cc05e24fd27363))
 
 
 
