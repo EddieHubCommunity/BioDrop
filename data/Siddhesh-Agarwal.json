@@ -1,8 +1,17 @@
 {
   "name": "Siddhesh Agarwal",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "I love learning and explaing programming concept",
   "avatar": "https://github.com/Siddhesh-Agarwal.png",
+  "tags": [
+    "Python",
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Data Science",
+    "Frontend Development",
+    "Backend Development",
+  ],
   "links": [
     {
       "name": "GitHub",
