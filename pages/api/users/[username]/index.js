@@ -14,7 +14,7 @@ export default async function handler(req, res) {
   let log;
   await connectMongo();
   const { username } = req.query;
-  log = logger.child({ ip: requestIp.getClientIp(req) });
+  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
   let data = {};
