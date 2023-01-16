@@ -36,5 +36,46 @@
       "url": "https://www.codewars.com/users/Rishav-12",
       "icon": "SiCodewars"
     }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Python",
+      "date": "July 2020",
+      "icon": "FaPython",
+      "color": "blue",
+      "description": "Started learning Python from online resources",
+      "url": "https://www.python.org/"
+    },
+    {
+      "title": "Contributing to Open Source",
+      "date": "2021",
+      "icon": "FaGitHubAlt",
+      "color": "grey",
+      "description": "Started my Open Source journey on GitHub",
+      "url": "https://github.com/Rishav-12"
+    },
+    {
+      "title": "Writing Blogs",
+      "date": "January 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started writing technical blogs on Hashnode",
+      "url": "https://rishav10.hashnode.dev/"
+    },
+    {
+      "title": "Completed Hacktoberfest",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Completed Digital Ocean's Hacktoberfest 2022"
+    },
+    {
+      "title": "Started Participating in Hackathons",
+      "date": "December 2022",
+      "icon": "SiMajorleaguehacking",
+      "color": "red",
+      "description": "Hackathons are a great way to learn new tech and network with like-minded people.",
+      "url": "https://devpost.com/Rishav-12"
+    }
   ]
 }

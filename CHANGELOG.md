@@ -1,9 +1,9 @@
-## 1.49.1 (2023-01-14)
+## 1.50.1 (2023-01-15)
 
 
 ### Bug Fixes
 
-* responsive url docs ([#3068](https://github.com/EddieHubCommunity/LinkFree/issues/3068)) ([3cbf8e3](https://github.com/EddieHubCommunity/LinkFree/commit/3cbf8e3a14390367ad46f9a69d234aa1df29fe16))
+* removed loading all users [#3476](https://github.com/EddieHubCommunity/LinkFree/issues/3476) ([#3477](https://github.com/EddieHubCommunity/LinkFree/issues/3477)) ([1d94a6f](https://github.com/EddieHubCommunity/LinkFree/commit/1d94a6fcc0e7f61325419d60f9b291276bb01d4d))
 
 
 
