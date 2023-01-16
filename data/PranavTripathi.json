@@ -1,0 +1,29 @@
+{
+  "name": "Pranav Tripathi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Lover, with a little bit knowledge of Front-End Development",
+  "avatar": "https://avatars.githubusercontent.com/u/111558974?v=4",
+  "links": [
+    {
+      "name": "Let's See each other on Twitter",
+      "url": "https://twitter.com/prnvtwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here's my LinkedIn",
+      "url": "https://linkedin.com/in/tripathipranav14/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Take a look on my github profile",
+      "url": "https://github.com/prnvtripathi/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Wanna read the blogs I wrote",
+      "url": "https://prnvtripathi.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}
