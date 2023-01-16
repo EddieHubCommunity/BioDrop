@@ -190,6 +190,56 @@ export default function Home({ total, today }) {
           content="Open Source alternative to LinkTree"
         />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* twitter card meta tags */}
+        <meta
+          key="twitter-title"
+          name="twitter:title"
+          content="LinkFree - connect to your audience with a single link"
+        />
+        <meta
+          key="twitter-description"
+          name="twitter:description"
+          content="Open Source alternative to LinkTree"
+        />
+        <meta
+          key="twitter-card"
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          key="twitter-image-src"
+          name="twitter:image:src"
+          content="https://linkfreeog.codinasion.org"
+        />
+        {/* og card meta tags */}
+        <meta
+          key="og-title"
+          property="og:title"
+          content="LinkFree - connect to your audience with a single link"
+        />
+        <meta
+          key="og-description"
+          property="og:description"
+          content="Open Source alternative to LinkTree"
+        />
+        <meta
+          key="og-url"
+          property="og:url"
+          content="https://linkfree.eddiehub.io/"
+        />
+        <meta key="og-site-name" property="og:site_name" content="LinkFree" />
+        <meta key="og-type" property="og:type" content="website" />
+        <meta
+          key="og-image"
+          property="og:image"
+          content="https://linkfreeog.codinasion.org"
+        />
+        <meta
+          key="og-image-alt"
+          property="og:image:alt"
+          content="LinkFree - connect to your audience with a single link"
+        />
       </Head>
       <main>
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">

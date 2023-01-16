@@ -84,13 +84,55 @@ export default function User({ data, BASE_URL }) {
         <meta name="description" content={data.bio} />
         <link rel="icon" href="/favicon.ico" />
 
-        <meta property="og:title" content={data.name} />
-        <meta property="og:type" content="image/png" />
+        {/* twitter card meta tags */}
         <meta
+          key="twitter-title"
+          name="twitter:title"
+          content={data.name}
+        />
+        <meta
+          key="twitter-description"
+          name="twitter:description"
+          content={data.bio}
+        />
+        <meta
+          key="twitter-card"
+          name="twitter:card"
+          content="summary_large_image"
+        />
+        <meta
+          key="twitter-image-src"
+          name="twitter:image:src"
+          content={`https://linkfreeog.codinasion.org/${data.username}`}
+        />
+        {/* og card meta tags */}
+        <meta
+          key="og-title"
+          property="og:title"
+          content={data.name}
+        />
+        <meta
+          key="og-description"
+          property="og:description"
+          content={data.bio}
+        />
+        <meta
+          key="og-url"
           property="og:url"
           content={`https://linkfree.eddiehub.io/${data.username}`}
         />
-        <meta property="og:image" content={data.avatar} />
+        <meta key="og-site-name" property="og:site_name" content="LinkFree" />
+        <meta key="og-type" property="og:type" content="website" />
+        <meta
+          key="og-image"
+          property="og:image"
+          content={`https://linkfreeog.codinasion.org/${data.username}`}
+        />
+        <meta
+          key="og-image-alt"
+          property="og:image:alt"
+          content={data.bio}
+        />
       </Head>
 
       <Page>
