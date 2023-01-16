@@ -48,7 +48,7 @@
             "icon": "",
             "color": "#27CE8E",
             "description": "Summarize Texts and URLs, Search for what to summarize, more still being integrated",
-            "url": "https://www.createsummary.com",
+            "url": "https://www.createsummary.com"
         },
         {
             "title": "Released EYE CSS",
@@ -56,7 +56,7 @@
             "icon": "",
             "color": "black",
             "description": "CSS Library similar to tailwind with more dynamic styling capabilities",
-            "url": "https://github.com/BMayowa/EYE_CSS",
+            "url": "https://github.com/BMayowa/EYE_CSS"
         }
     ]
 }
