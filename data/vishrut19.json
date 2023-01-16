@@ -9,17 +9,16 @@
     "CSS3",
     "Bootstrap",
     "JavaScript",
-    "JAVA",
-    "Python",
     "Git and GitHub",
-    "TypeScript"
+    "TypeScript",
+    "ReactJS"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
     { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
     {
       "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/vishut-agarwalla"
+      "url": "https://linkedin.com/in/vishrut-agarwalla"
     },
     { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
   ],
@@ -42,11 +41,11 @@
   ],
   "milestones": [
     {
-      "title": "Co-Founder at GrowInCommunity",
+      "title": "Building GrowInCommunity",
       "date": "December 2022",
       "icon": "FaLink",
       "color": "grey",
-      "description": "Co-Founder of GrowInCommunity"
+      "description": "Building GrowInCommunity"
     },
     {
       "title": "Associate Software Engineer",
