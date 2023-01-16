@@ -7,6 +7,27 @@ We use [Playwright](http://playwright.dev) for writing automated end to end (e2e
 1. Install Playwright dependencies `npx playwright install --with-deps`
 1. Run tests `npm run test`
 
+**Note**:use `npm ci` if step 1.throws following warning:
+<p>
+
+    WARNING: It looks like you are running 'npx playwright install' without first
+             installing your project's dependencies.
+                                                                                                              
+     To avoid unexpected behavior, please install your dependencies first, and     
+     then run Playwright's install command:
+
+       npm install                                                               
+       npx playwright install
+                                                                                                                               
+     If your project does not yet depend on Playwright, first install the          
+     applicable npm package (most commonly @playwright/test), and                  
+     then run Playwright's install command to download the browsers:
+
+       npm install @playwright/test                                              
+       npx playwright install  
+
+</p>
+
 ```bash
 npm run test
 
