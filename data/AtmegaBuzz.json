@@ -10,11 +10,6 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on Instagram",
-      "url": "https://twitter.com/EddieAndSaraExplore",
-      "icon": "FaInstagram"
-    },
-    {
       "name": "Follow me on Youtube",
       "url": "https://www.youtube.com/@swapnilshinde2540",
       "icon": "FaYoutube"
@@ -25,7 +20,7 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Linkedin",
+      "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/swapnil-shinde-5ba45118b/",
       "icon": "FaLinkedin"
     },
