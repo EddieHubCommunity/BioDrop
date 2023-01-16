@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  let statsToday = {};
+  let statsToday;
   try {
     statsToday = await Stats.findOne({
       date,
