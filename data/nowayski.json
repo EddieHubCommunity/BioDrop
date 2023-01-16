@@ -1,0 +1,34 @@
+{
+  "name": "Nick Lane",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software engineer who loves Korean language and food",
+  "avatar": "https://github.com/nowayski.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Nick_JLane",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Website",
+      "url": "https://www.nicholasjlane.com/",
+      "icon": "FaHome"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nicholas-lane92/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my dev.to blog",
+      "url": "https://dev.to/nicklane",
+      "icon": "FaDev"
+    },
+    {
+      "name": "See my code at github",
+      "url": "https://github.com/nowayski",
+      "icon": "FaGithub"
+    }
+  ]
+}

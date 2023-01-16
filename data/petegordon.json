@@ -1,0 +1,54 @@
+{
+  "name": "Pete Gordon",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Just a software guy on the Internet.",
+  "avatar": "https://github.com/PeteGordon.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/petegordon",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/petegordon",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check me out on Keybase",
+      "url": "https://keybase.io/petegordon",
+      "icon": "FaKeybase"
+    },
+    {
+      "name": "Check me out on Hacker News",
+      "url": "https://news.ycombinator.com/user?id=petegordon",
+      "icon": "FaHackerNews"
+    },
+    {
+      "name": "Check me out on YouTube",
+      "url": "https://www.youtube.com/petegordonusa",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Check me out on LinkedIn",
+      "url": "https://www.linkedin.com/in/petegordon",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Check me out on Reddit",
+      "url": "https://www.reddit.com/user/petegordonusa",
+      "icon": "FaReddit"
+    },
+    {
+      "name": "Check me out on Instagram",
+      "url": "https://www.instagram.com/petegordonUSA/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Check me out on Facebook",
+      "url": "https://www.facebook.com/petegordonUSA/",
+      "icon": "FaFacebook"
+    }
+  ]
+}

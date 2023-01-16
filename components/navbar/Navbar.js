@@ -11,14 +11,15 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
+
   const primary = [
     {
       name: "Home",
       url: "/",
     },
     {
-      name: "Popular",
-      url: "/popular",
+      name: "Discover",
+      url: "/discover",
     },
     {
       name: "Search",
@@ -74,7 +75,7 @@ export default function Navbar() {
                         style: { verticalAlign: "middle" },
                       }}
                     >
-                      <FaGithub aria-label="GitHub"/>
+                      <FaGithub aria-label="GitHub" />
                     </IconContext.Provider>
                   </a>
                 </div>
@@ -132,6 +133,7 @@ export default function Navbar() {
                 path={router.asPath}
                 item={item}
                 mode="mobile"
+                setIsOpen={setIsOpen}
               />
             ))}
           </div>
@@ -143,6 +145,8 @@ export default function Navbar() {
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <IconContext.Provider
                       value={{

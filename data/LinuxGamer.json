@@ -22,7 +22,7 @@
     },
     {
       "name": "Follow my Mastodon",
-      "url": "https://fosstodon.org/@linuxgamer",
+      "url": "https://mstdn.starnix.network/@linuxgamer",
       "icon": "FaMastodon"
     },
     {
@@ -62,6 +62,13 @@
       "icon": "tree",
       "color": "green",
       "description": "Pledged to become Greener and more sustainable within development and content creation."
+    },
+    {
+      "title": "Started Working With JavaScript!",
+      "date": "6 January 2023",
+      "icon": "SiJavascript",
+      "color": "yellow",
+      "description": "I started learning JavaScript by working on some JavaScript projects, like Linkfree and Collaborafolio"
     }
   ]
 }

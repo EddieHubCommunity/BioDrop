@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
+import { IconContext } from "react-icons";
+import { FaRegComments } from "react-icons/fa";
 
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
@@ -14,7 +17,6 @@ import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = {};
-  let users = [];
 
   try {
     const resUser = await fetch(
@@ -34,21 +36,12 @@ export async function getServerSideProps(context) {
     };
   }
 
-  try {
-    const resUsers = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
-    );
-    users = (await resUsers.json()).map((user) => user.username);
-  } catch (e) {
-    console.log("ERROR user list", e);
-  }
-
   return {
-    props: { users, data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ users, data, BASE_URL }) {
+export default function User({ data, BASE_URL }) {
   const [userData, setUserData] = useState(data);
   const defaultTabs = [
     { name: "My Links", href: "#", current: true, order: "ASC" },
@@ -122,11 +115,7 @@ export default function User({ users, data, BASE_URL }) {
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials
-              data={userData}
-              users={users}
-              BASE_URL={BASE_URL}
-            />
+            <UserTestimonials data={userData} />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&
@@ -134,6 +123,23 @@ export default function User({ users, data, BASE_URL }) {
             <UserEvents data={userData} />
           )}
       </Page>
+
+      <Link
+        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${userData.name}&name=${userData.username}`}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:bg-indigo-800">
+          <IconContext.Provider
+            value={{ color: "white", style: { verticalAlign: "middle" } }}
+          >
+            <FaRegComments />
+          </IconContext.Provider>
+          <p className="text-sm font-medium">
+            Add testimonial for {userData.name}
+          </p>
+        </div>
+      </Link>
     </>
   );
 }
