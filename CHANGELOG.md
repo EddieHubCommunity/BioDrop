@@ -1,9 +1,9 @@
-## 1.44.4 (2023-01-09)
+## 1.51.1 (2023-01-16)
 
 
 ### Bug Fixes
 
-* debug release action ([#2950](https://github.com/EddieHubCommunity/LinkFree/issues/2950)) ([14de2e3](https://github.com/EddieHubCommunity/LinkFree/commit/14de2e33fe0b982ab078f04ec847bf2fe0c0cc2a))
+* mobile nav ([#3538](https://github.com/EddieHubCommunity/LinkFree/issues/3538)) ([50d3139](https://github.com/EddieHubCommunity/LinkFree/commit/50d3139901cfda74e521a88a78a0a21941715e4f)), closes [#3202](https://github.com/EddieHubCommunity/LinkFree/issues/3202)
 
 
 

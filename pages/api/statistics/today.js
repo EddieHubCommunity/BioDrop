@@ -1,5 +1,4 @@
 import Stats from "../../../models/Stats";
-import Profile from "../../../models/Profile";
 import connectMongo from "../../../config/mongo";
 
 export default async function handler(req, res) {
@@ -9,18 +8,18 @@ export default async function handler(req, res) {
   let statsToday = await Stats.findOne({
     date,
   });
+
   if (!statsToday) {
     statsToday = {
       views: 0,
       clicks: 0,
+      users: 0,
     };
   }
-  const totalProfiles = await Profile.find({}).estimatedDocumentCount();
-  const data = {
-    views: statsToday.views,
-    clicks: statsToday.clicks,
-    users: totalProfiles || 0,
-  };
 
-  res.status(200).json(data);
+  res.status(200).json({
+    views: statsToday.views || 0,
+    clicks: statsToday.clicks || 0,
+    users: statsToday.users || 0,
+  });
 }

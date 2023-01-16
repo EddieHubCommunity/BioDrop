@@ -1,0 +1,24 @@
+{
+  "name": "Kel-VinTech",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web3 Developer **Technical writter**. Open source enthusiast",
+  "avatar": "https://github.com/Kel-VinTech.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Kel_VinTech",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Kel-VinTech",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/kelvin-monday-4857aa246",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

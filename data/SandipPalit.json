@@ -1,0 +1,19 @@
+{
+  "name": "Sandip Palit",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " **Data Engineer** | Data Ecience Explorer | Kaggle Expert | Speaker | Loading..",
+  "avatar": "https://github.com/SandipPalit.png",
+  "links": [
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sandip-palit/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sandip_travel_diaries/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

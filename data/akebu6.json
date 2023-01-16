@@ -41,6 +41,20 @@
       "color": "grey",
       "description": "Started writing articles and tutorials on Kotlin, Design Patterns, C++, Operating Systems and Web Development",
       "url": "https://akebu6.hashnode.dev/design-patterns-grasp"
+    },
+    {
+      "title": "GSOC Contributor",
+      "date": "June 2022",
+      "icon": "FaGoogle",
+      "color": "grey",
+      "description": "Contributed to the Google Summer of Code 2022"
+    },
+    {
+      "title": "Parcipant in Hacktoberfest",
+      "date": "October 2022",
+      "icon": "FaHackerrank",
+      "color": "grey",
+      "description": "Participated in Hacktoberfest 2022"
     }
   ]
 }

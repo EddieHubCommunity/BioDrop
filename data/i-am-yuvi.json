@@ -1,0 +1,32 @@
+{
+  "name": "Yuvraj Chhetri",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open source contributor | loves cloud computing | writes blogs | DevOps",
+  "avatar": "https://github.com/i-am-yuvi.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/uvource",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yuvraj-chhetri-9ba17018a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/i-am-yuvi",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Golang",
+    "Java",
+    "Machine Learning",
+    "DevOps",
+    "DevRel"
+  ]
+}

@@ -1,5 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
+const AxeBuilder = require('@axe-core/playwright').default;
 
 test("Search has title", async ({ page }) => {
   await page.goto("/search");
@@ -13,7 +14,7 @@ test("Navigate to the Search page", async ({ page }) => {
 });
 
 test("Search works correctly", async ({ page }) => {
-  // 1. nagivate to search page
+  // 1. navigate to search page
   await page.goto("/search");
 
   // 2. show no users are listed
@@ -73,3 +74,11 @@ test.fixme(
     // 3. Display the profile if the name is correct
   }
 );
+
+test('should pass axe wcag accessibility tests', async ({ page }) => {
+  await page.goto('/search');
+  const accessibilityScanResults = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .analyze();
+  expect(accessibilityScanResults.violations).toEqual([]);
+});
