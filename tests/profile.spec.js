@@ -31,20 +31,20 @@ test("Link clicks increase", async ({ page }) => {
   await page.goto("/_test-profile-user-4");
 
   const link = page.locator("text=/Link 1\\s*/i");
+
   const startingClicks = (await link.innerText()).match(/(\d+)/g);
 
-  await link.click();
-  await link.click();
-  await link.click();
+  for (const i in new Array(3)) {
+    await link.click();
 
-  await page.waitForResponse(
-    (resp) => resp.url().includes("/api/statistics") && resp.status() === 201
-  );
+    await page.waitForURL("https://eddiejaoude.io");
 
-  const endingClicks = (await link.innerText()).match(/(\d+)/g);
+    await page.goto("/_test-profile-user-4");
 
-  // 4. get the current link views and see if increased by 3
-  expect(parseInt(startingClicks[1])).toEqual(parseInt(endingClicks[1]) - 3);
+    const endingClicks = (await link.innerText()).match(/(\d+)/g);
+
+    expect(parseInt(startingClicks)).toEqual(parseInt(endingClicks) + i + 1);
+  }
 });
 
 test("Profile not found redirects to search page with error message", async ({
