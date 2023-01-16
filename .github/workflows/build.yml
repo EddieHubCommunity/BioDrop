@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        step: [lint, build]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -17,16 +20,16 @@ jobs:
           cache: "npm"
       - name: install dependencies
         run: npm ci
-      - name: run linter
-        run: npm run lint
-      - name: run build
-        run: npm run build
+      - name: run ${{ matrix.step }}
+        run: npm run ${{ matrix.step }}
+      # - name: run linter
+      #   run: npm run lint
+      # - name: run build
+      #   run: npm run build
 
   tests:
     needs: build
     runs-on: ubuntu-latest
-    container:
-      image: mcr.microsoft.com/playwright:v1.29.0-focal
     services:
       mongo:
         image: mongo
@@ -45,8 +48,8 @@ jobs:
           cache: "npm"
       - name: install dependencies
         run: npm ci
-      # - name: Install Playwright's dependencies
-      #   run: npx playwright install chromium
+      - name: Install Playwright's dependencies
+        run: npx playwright install chromium
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
       - uses: test-summary/action@v2
