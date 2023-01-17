@@ -10,6 +10,15 @@ Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoud
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/51878265/211527055-d90f94f5-f6a9-44a7-be0f-905f5e45429e.png)
 
+## Tech Stack
+
+LinkFree was built using the following technologies:
+
+- [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
+- [MongoDB](https://www.mongodb.com/) - a NoSQL database
+- [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework      
+ 
+
 ## 🛠️ Quickstart
 
 You have 4 options to contribute to the repo, please pick your favourite from:

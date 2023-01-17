@@ -1,0 +1,83 @@
+{
+  "name": "Iqra Firdose",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": " **Open Source** contributor  **Aviyel** ,Hackthoberfest|Web dev Enthisiast | Technical writer | Communities| ",
+  "avatar": "https://github.com/iqrafirdose.png",
+  "tags": ["Developer", "Open Source", "Web dev", "Blogger"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/iqrafirdose/" },
+    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" },
+    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" }
+  ],
+  "links": [
+    {
+      "name": "Be a Part of my journey by following me on Twitter",
+      "url": "https://twitter.com/iqra_firdose",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/iqrafirdose",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/iqrafirdose/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Blogs on open-source,learnings,Web development,Computer science",
+      "url": "https://iqra-firdose.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Blogs at Showwcase",
+      "url": "https://www.showwcase.com/iqrafirdose639401?tab=1",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Github",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started contributing to open-source",
+      "url": "https://github.com/iqrafirdose"
+    },
+    {
+      "title": "Hackthoberfest with Aviyel",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Become a top creator of Hackthoberfest with Aviyel",
+      "url": "https://aviyel.com/@iqrafirdose"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "October 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "I write blogs on open-source,Web development,my learnings and computer science.",
+      "url": "https://iqra-firdose.hashnode.dev/"
+    },
+    {
+      "title": "Develevate Sliver Winner",
+      "date": "December 2022",
+      "icon": "FiLink",
+      "color": "blue",
+      "description": "Develevate is organised by Showwcase",
+      "url": "https://www.showwcase.com/show/25223/dev-elevate-silver-winners"
+    },
+    {
+      "title": "DevRetro 2022 Winner",
+      "date": "january 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "DevRetro 2022 is organised by Hashnode",
+      "url": "https://townhall.hashnode.com/dev-retro-2022-winners"
+    }
+  ]
+}

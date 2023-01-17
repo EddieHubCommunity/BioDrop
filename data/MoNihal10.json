@@ -1,0 +1,29 @@
+{
+  "name": "Mohammed Nihal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " cs undergrad!!! ",
+  "avatar": "https://github.com/MoNihal10.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/n_ihal_10",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/n_ihal_10",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammed-nihal-b80b6b227",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/MoNihal10",
+      "icon": "FaGithub"
+    }
+  ]
+}

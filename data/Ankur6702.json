@@ -1,0 +1,66 @@
+{
+  "name": "Ankur Agarwal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "MERN Stack Developer | Google DSC Lead | Student Placement Coordinator | IIIT Kota",
+  "avatar": "https://github.com/Ankur6702.png",
+  "tags": [
+    "Javascript",
+    "C++",
+    "Python",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Docker"
+  ],
+    "socials": [
+    {
+      "icon": "SiProgress",
+      "url": "https://www.theankur.tech"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/ankur_agarwal_246/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_Ankur_Agarwal_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ankur6702"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ankur-8"
+    }
+  ],
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://www.theankur.tech",
+      "icon": "SiProgress"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_Ankur_Agarwal_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Will be happy to collab in open source projects",
+      "url": "https://github.com/Ankur6702",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/ankur-8/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Let's connect on Instagram",
+      "url": "https://www.instagram.com/ankur_agarwal_246/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
