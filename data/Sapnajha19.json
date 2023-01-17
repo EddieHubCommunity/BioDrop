@@ -1,0 +1,24 @@
+{
+  "name": "Sapna Jha",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer in React. Open source enthusiast",
+  "avatar": "https://github.com/Sapnajha19.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SapnaJ19",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sapna-jha-55287a233/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Sapnajha19/",
+      "icon": "FaGithub"
+    }
+  ]
+}

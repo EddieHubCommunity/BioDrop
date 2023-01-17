@@ -17,7 +17,6 @@ import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
   let data = {};
-  let users = [];
 
   try {
     const resUser = await fetch(
@@ -37,21 +36,12 @@ export async function getServerSideProps(context) {
     };
   }
 
-  try {
-    const resUsers = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
-    );
-    users = (await resUsers.json()).map((user) => user.username);
-  } catch (e) {
-    console.log("ERROR user list", e);
-  }
-
   return {
-    props: { users, data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ users, data, BASE_URL }) {
+export default function User({ data, BASE_URL }) {
   const [userData, setUserData] = useState(data);
   const defaultTabs = [
     { name: "My Links", href: "#", current: true, order: "ASC" },
@@ -125,11 +115,7 @@ export default function User({ users, data, BASE_URL }) {
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials
-              data={userData}
-              users={users}
-              BASE_URL={BASE_URL}
-            />
+            <UserTestimonials data={userData} />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&
