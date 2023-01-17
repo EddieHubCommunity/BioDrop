@@ -4,14 +4,14 @@
   "displayStatsPublic": true,
   "bio": " **Open Source** contributor  **Aviyel** ,Hackthoberfest|Web dev Enthisiast | Technical writer | Communities| ",
   "avatar": "https://github.com/iqrafirdose.png",
-  "tags": ["Developer","Open Source", "Web dev", "Blogger"],
+  "tags": ["Developer", "Open Source", "Web dev", "Blogger"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" },
-    {"icon": "FaLinkedin", "url":"https://www.linkedin.com/in/iqrafirdose/" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/iqrafirdose/" },
     { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" },
     { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" }
   ],
-"links": [
+  "links": [
     {
       "name": "Be a Part of my journey by following me on Twitter",
       "url": "https://twitter.com/iqra_firdose",
@@ -27,7 +27,7 @@
       "url": "https://www.linkedin.com/in/iqrafirdose/",
       "icon": "FaLinkedin"
     },
-   {
+    {
       "name": "Blogs on open-source,learnings,Web development,Computer science",
       "url": "https://iqra-firdose.hashnode.dev/",
       "icon": "SiHashnode"
@@ -38,7 +38,7 @@
       "icon": "FaLink"
     }
   ],
-   "milestones": [
+  "milestones": [
     {
       "title": "Joined Github",
       "date": "October 2022",
