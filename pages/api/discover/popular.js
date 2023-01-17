@@ -2,13 +2,18 @@ import fs from "fs";
 import path from "path";
 
 import connectMongo from "../../../config/mongo";
+import logger from "../../../config/logger";
 import Profile from "../../../models/Profile";
 
 export default async function handler(req, res) {
   await connectMongo();
 
-  // get popular profiles
-  const popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(20);
+  let popularProfiles = [];
+  try {
+    popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(20);
+  } catch (e) {
+    logger.error(e, "failed to load profiles");
+  }
 
   if (popularProfiles.length === 0) {
     return res.status(404).json([]);
@@ -30,7 +35,7 @@ export default async function handler(req, res) {
 
       return [];
     } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
+      logger.error(e, `failed to get load profiles: ${filePath}`);
       return [];
     }
   });
