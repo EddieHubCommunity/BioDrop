@@ -9,4 +9,5 @@ export const Basic = (args) => <User {...args} />;
 
 Basic.args = {
   data,
+  BASE_URL: "https://linkfree.eddiehub.io/"
 };

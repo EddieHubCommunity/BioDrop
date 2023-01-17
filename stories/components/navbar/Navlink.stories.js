@@ -4,12 +4,13 @@ export default {
   component: NavLink,
 };
 
-export const Basic = <NavLink {...args} />;
+export const Basic = (args) => <NavLink {...args} />;
 
 Basic.args = {
-  path: "",
+  path: "https://linkfree.eddiehub.io/docs",
   item: {
-    url: "",
+    url: "https://linkfree.eddiehub.io/docs",
+    name: "Docs"
   },
   mode: "",
 };
