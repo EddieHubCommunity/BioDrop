@@ -10,7 +10,10 @@ export default async function handler(req, res) {
 
   let randomProfiles = [];
   try {
-    randomProfiles = await Profile.aggregate([{ $sample: { size: 5 } }]);
+    randomProfiles = await Profile.aggregate([
+      { $sample: { size: 5 } },
+      { $match: { username: { $nin: process.env.SHADOWBAN.split(",") } } },
+    ]);
   } catch (e) {
     logger.error(e, "failed to load profiles");
   }
