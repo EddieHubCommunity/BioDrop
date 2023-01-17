@@ -1,0 +1,41 @@
+{
+  "name": "Rana Muskan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Contributor, Youtuber, love to code.",
+  "avatar": "https://github.com/RanaMuskan.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/theranamuskan",
+      "icon": "Fatwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/theranamuskan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/theranamuskan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/theranamuskan",
+      "icon": "FaGithub"
+    }
+  ]
+  "links": [
+   {
+      "name": "Follow on twitter",
+      "url": "https://twitter.com/theranamuskan",
+      "icon": "Fatwitter"
+   },
+   {
+     "name": "Follow me on Instagram",
+     "url": "https://www.instagram.com/theranamuskan/",
+     "icon": "FaInstagram"
+   }
+  ]
+}
