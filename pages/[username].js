@@ -3,7 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
+import requestIp from "request-ip";
 
+import logger from "../config/logger";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
@@ -16,21 +18,26 @@ import UserEvents from "../components/user/UserEvents";
 import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
+  const { req } = context;
+  const username = context.query.username;
+  let log;
+  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
   let data = {};
 
   try {
     const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
     );
     data = await resUser.json();
+    log.info(`data loaded for username: ${username}`);
   } catch (e) {
-    console.log("ERROR user not found ", e);
+    log.error(e, `profile loading failed for username: ${username}`);
   }
 
   if (!data.username) {
     return {
       redirect: {
-        destination: `/search?username=${context.query.username}`,
+        destination: `/search?username=${username}`,
         permanent: false,
       },
     };
