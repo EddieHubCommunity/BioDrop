@@ -25,7 +25,7 @@ export default function DocsIndex() {
           name: "GitHub UI",
           path: "/docs/environments/github-ui",
           description:
-            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub",
+            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
@@ -80,7 +80,7 @@ export default function DocsIndex() {
           name: "Editing",
           path: "/docs/how-to-guides/editing",
           description:
-            "If you want to edit your profile (for example update a link or remove a link), follow these steps",
+            "If you want to edit your profile (for example update a link or remove a link), follow these steps.",
           category: {
             name: "beginner",
             color: "bg-green-100 text-green-800",
