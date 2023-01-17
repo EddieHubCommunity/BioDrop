@@ -1,6 +1,7 @@
 export function EventTabs({ tabs, eventType, setEventType }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
+    e.preventDefault();
     setEventType(value);
     if (!value) {
       setEventType(tabs.find((tab) => tab.title === e.target.value).key);
