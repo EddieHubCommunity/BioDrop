@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     try {
       eventFiles = fs.readdirSync(eventsPath);
     } catch (e) {
-      logger.warn(e, `no events in ${eventsPath}`);
+      logger.info(e, `no events in ${eventsPath}`);
       return [];
     }
     const eventFilesContent = eventFiles.flatMap((file) => {
