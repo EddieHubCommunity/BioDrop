@@ -10,8 +10,8 @@ test("homepage has title", async ({ page }) => {
 test("homepage has example link", async ({ page }) => {
   await page.goto("/");
   const getStarted = page.getByText("Example");
-
   await getStarted.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/eddiejaoude/);
 });

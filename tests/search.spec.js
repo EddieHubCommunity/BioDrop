@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require('@axe-core/playwright').default;
+const AxeBuilder = require("@axe-core/playwright").default;
 
 test("Search has title", async ({ page }) => {
   await page.goto("/search");
@@ -22,9 +22,9 @@ test("Search works correctly", async ({ page }) => {
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
-  await input.type("eddie");
+  await input.type("_test-profile-user-1");
 
-  await expect(page.locator("li")).toHaveCount(4);
+  await expect(page.locator("li")).toHaveCount(1);
 });
 
 test("Search page has no results when no search term used", async ({
@@ -75,10 +75,10 @@ test.fixme(
   }
 );
 
-test('should pass axe wcag accessibility tests', async ({ page }) => {
-  await page.goto('/search');
+test("should pass axe wcag accessibility tests", async ({ page }) => {
+  await page.goto("/search");
   const accessibilityScanResults = await new AxeBuilder({ page })
-    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
     .analyze();
   expect(accessibilityScanResults.violations).toEqual([]);
 });
