@@ -1,4 +1,4 @@
-import * as pino from "pino";
+import * as PinoLogger from "pino";
 
 const config = {
   transport: {
@@ -9,6 +9,8 @@ const config = {
   },
 };
 
-const logger = pino(process.env.NODE_ENV === "development" ? config : {});
+const logger = PinoLogger.pino(
+  process.env.NODE_ENV === "development" ? config : {}
+);
 
 export default logger;
