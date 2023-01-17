@@ -20,6 +20,10 @@
       "url": "https://www.tejender-upadhyay.tech"
     },
     {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/"
+    },
+    {
       "icon": "FaTwitter",
       "url": "https://twitter.com/tarun1521"
     },
@@ -37,6 +41,11 @@
       "name": "Personal Portfolio",
       "url": "https://www.tejender-upadhyay.tech",
       "icon": "SiProgress"
+    },
+    {
+      "name": "Let's connect on Instagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/",
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow me on Twitter",
