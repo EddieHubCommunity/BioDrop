@@ -1,0 +1,24 @@
+{
+  "name": "Md Moinuddin",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Curious-technology-explorer** **Open-Source** Webdev Electronic-hobbyist",
+  "avatar": "https://github.com/Blaize15.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/noobyco",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/blaize15",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/noobyco",
+      "icon": "FaInstagram"
+    }
+  ]
+}
