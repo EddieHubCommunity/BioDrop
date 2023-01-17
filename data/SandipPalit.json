@@ -5,8 +5,14 @@
   "bio": " **Data Engineer** | Data Science Explorer | Kaggle Expert | Speaker | Loading..",
   "tags": ["Data Science", "Python", "Big Data", "Microsoft Azure"],
   "socials": [
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sandip-palit/" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/sandip_travel_diaries/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sandip-palit/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/sandip_travel_diaries/"
+    }
   ],
   "avatar": "https://github.com/SandipPalit.png",
   "links": [
