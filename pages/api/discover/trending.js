@@ -2,37 +2,43 @@ import fs from "fs";
 import path from "path";
 
 import connectMongo from "../../../config/mongo";
+import logger from "../../../config/logger";
 import ProfileStats from "../../../models/ProfileStats";
 
 export default async function handler(req, res) {
   await connectMongo();
 
-  const getProfiles = await ProfileStats.aggregate([
-    {
-      $match: {
-        date: {
-          $gte: new Date(new Date().setDate(new Date().getDate() - 1)),
+  let getProfiles = [];
+  try {
+    getProfiles = await ProfileStats.aggregate([
+      {
+        $match: {
+          date: {
+            $gte: new Date(new Date().setDate(new Date().getDate() - 1)),
+          },
         },
       },
-    },
-    {
-      $group: {
-        _id: "$profile",
-        username: { $first: "$username" },
-        views: {
-          $sum: "$views",
+      {
+        $group: {
+          _id: "$profile",
+          username: { $first: "$username" },
+          views: {
+            $sum: "$views",
+          },
         },
       },
-    },
-    {
-      $sort: {
-        views: -1,
+      {
+        $sort: {
+          views: -1,
+        },
       },
-    },
-    {
-      $limit: 20,
-    },
-  ]);
+      {
+        $limit: 20,
+      },
+    ]);
+  } catch (e) {
+    logger.error(e, "failed to load profile stats");
+  }
 
   // check for db results
   if (getProfiles.length === 0) {
@@ -56,7 +62,7 @@ export default async function handler(req, res) {
 
       return [];
     } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
+      logger.error(e, `failed to get load profiles: ${filePath}`);
       return [];
     }
   });
