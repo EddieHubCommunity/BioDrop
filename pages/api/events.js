@@ -1,6 +1,8 @@
 import fs from "fs";
 import path from "path";
 
+import logger from "../../config/logger";
+
 export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
 
@@ -19,7 +21,7 @@ export default async function handler(req, res) {
     try {
       eventFiles = fs.readdirSync(eventsPath);
     } catch (e) {
-      logger.error(e, `no events in ${eventsPath}`);
+      logger.warn(e, `no events in ${eventsPath}`);
       return [];
     }
     const eventFilesContent = eventFiles.flatMap((file) => {
