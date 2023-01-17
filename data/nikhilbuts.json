@@ -1,0 +1,29 @@
+{
+  "name": "Nikhil Butani",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Self-Learner || Node.js 💛 || Backend Developer || Eager to learn new technologies || Open Source Contributor ❤ || I write articles on Medium ||",
+  "avatar": "https://github.com/nikhilbuts.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/butani_nikhil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nikhilbutani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nikhilbuts",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@nikhilbutani",
+      "icon": "FaMedium"
+    }
+  ]
+}

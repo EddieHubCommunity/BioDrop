@@ -1,0 +1,44 @@
+{
+  "name": "Dominick J Monaco",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Conservation Tech turned Software Engineer. Interested in contributing to community, climate change solutions, and dinner parties",
+  "avatar": "https://github.com/HoldUpFjord.png",
+  "tags": [
+    "100Devs",
+    "Green-tech",
+    "Javascript",
+    "Node.js",
+    "Tailwind",
+    "React",
+    "MongoDb"
+  ],
+
+  "links": [
+    {
+      "name": "Follow my stream of consciousness",
+      "url": "https://twitter.com/JackMonaco1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkdln",
+      "url": "https://www.linkedin.com/in/dominick-j-monaco/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my github",
+      "url": "https://github.com/HoldUpFjord",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Here's my personal/portfolio site",
+      "url": "https://dominickjmonaco.netlify.app/",
+      "icon": "FaAngleDoubleRight"
+    },
+    {
+      "name": "Read my tech-blog if you want a better idea of how I think",
+      "url": "https://dominickjmonaco.hashnode.dev/",
+      "icon": "FaHashnode"
+    }
+  ]
+}

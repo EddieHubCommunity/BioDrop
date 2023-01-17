@@ -1,0 +1,30 @@
+{
+  "name": "Abhay Kumar Mittal",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source | Devops | Full Stack Developer",
+  "avatar": "https://github.com/MitAbhay.png",
+  "tags": ["Open Source", "Javascript", "Typescript", "NextJS", "DevOps"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/MitAbhay" },
+    { "icon": "FaGithub", "url": "https://github.com/MitAbhay" }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/MitAbhay",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/MitAbhay",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/mitabhay",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

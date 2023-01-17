@@ -1,0 +1,34 @@
+{
+  "name": "Swagata Roy",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "React Js | Open Source Enthusiast",
+  "avatar": "https://github.com/swagataroy30.png",
+  "tags": ["React Js", "HTML", "CSS", "Java"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/sTark10roy" },
+    { "icon": "FaGithub", "url": "https://github.com/swagataroy30" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sTark10roy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/swagata-roy-624565261/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/swagataroy30",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Hashnode blog",
+      "url": "https://swagataroy30.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

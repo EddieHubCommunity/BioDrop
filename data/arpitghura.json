@@ -1,0 +1,52 @@
+{
+  "name": "Arpit Ghura",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Advocate | Front End Developer | Upcoming SWE Intern @**Microsoft**",
+  "avatar": "https://github.com/arpitghura.png",
+  "tags": ["Open Source", "Javascript", "React", "Software Engineering", "DSA"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/arpitghura"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/arpitghura"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/arpitghura"
+    }
+  ],
+  "links": [
+    {
+      "name": "Personal Portfolio",
+      "url": "https://arpitghura.github.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source Journey on GitHub",
+      "url": "https://github.com/arpitghura",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/arpitghura",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Learn more about Technology on my YouTube channel",
+      "url": "https://youtube.com/@arpitghura",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/arpitghura",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
