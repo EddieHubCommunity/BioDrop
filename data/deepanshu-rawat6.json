@@ -1,0 +1,29 @@
+{
+  "name": "Deepanshu Rawat",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**DevOps** and **Web Dev** enthusiast",
+  "avatar": "https://github.com/deepanshu-rawat6.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/deepanshu-rawat6",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/deepanshuurawat",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/deepanshu-rawat-357141216/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_deepanshu.rawat_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

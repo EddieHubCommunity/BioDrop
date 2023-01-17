@@ -1,0 +1,48 @@
+{
+  "name": "Oyebolade Oladokun",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Physicist | Product Designer | Frontend Developer | Github Enthusiast",
+  "avatar": "https://github.com/Oyebolade.png",
+  "tags": ["Open Source", "Javascript", "HTML", "CSS", "UI/UX"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Bolade_ux" },
+    { "icon": "FaGithub", "url": "https://github.com/Oyebolade" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/oyebolade-oladokun-1a628a197/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bolade_ux",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/bolade_ux",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/oyebolade-oladokun-1a628a197/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Oyebolade",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Dribble",
+      "url": "https://dribbble.com/Bolade_ux",
+      "icon": "FaDribbble"
+    },
+    {
+      "name": "Follow me on Behance",
+      "url": "https://www.behance.net/bolade_ux",
+      "icon": "FaBehance"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Debasish Biswas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**OpenSource** || DevOps || **Photographer** || Blogger",
+  "avatar": "https://github.com/debasishbsws.png",
+
+  "tags": ["Open Source", "JAVA", "Docker", "DevOps", "Web"],
+
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/debasishbsws" },
+    { "icon": "FaGithub", "url": "https://github.com/debasishbsws" },
+    { "icon": "SiInstagram", "url": "https://www.instagram.com/debasishbsws/" }
+  ],
+
+  "links": [
+    {
+      "name": "Twitter: Intract with me",
+      "url": "https://twitter.com/debasishbsws",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Hashnode: Wanna Read my Blogs",
+      "url": "https://blog.debasishbsws.me",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Instagram: I am also a Photographer",
+      "url": "https://www.instagram.com/debasishbsws/",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "GitHub: Most importan stufs",
+      "url": "https://github.com/debasishbsws",
+      "icon": "SiGithub"
+    }
+  ]
+}

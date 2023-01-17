@@ -1,0 +1,38 @@
+{
+  "name": "Vishal M",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source Enthusiast | DevOps | AWS | SRE | CSE Undergrad at PES University",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "SRE",
+    "Tech Blogger"
+  ],
+  "avatar": "https://github.com/VishalPraneeth.png",
+  "links": [
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/VishalPraneeth",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vishal-m-67920524b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://vishal-m.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://vishal7771.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

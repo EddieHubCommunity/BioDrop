@@ -1,0 +1,14 @@
+{
+  "name": "Marlon Esparza",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full-time Customer Support Technician at NetFile, and full-stack developer.",
+  "avatar": "https://github.com/marlonaesparza.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/mindofmarlon_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

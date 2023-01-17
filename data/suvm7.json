@@ -1,0 +1,29 @@
+{
+  "name": "Shubham Biswas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student | New to OpenSource | Explorer",
+  "avatar": "https://github.com/suvm7.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/suv_m7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/suvm7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/suvm/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/suv_m7/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

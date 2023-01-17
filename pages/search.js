@@ -95,7 +95,9 @@ export default function Search({ users }) {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
+
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
+
         {!threeOrMore && (
           <Alert
             type="info"

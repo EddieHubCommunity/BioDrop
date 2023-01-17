@@ -1,0 +1,39 @@
+{
+  "name": "Isaac Ubani",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "I enjoy learning new technologies and trying out new fun things.",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/i_ce_u" },
+    { "icon": "FaGithub", "url": "https://github.com/ubaniIsaac" },
+    { "icon": "FaLink", "url": "https://iceu.netlify.app" }
+  ],
+  "avatar": "https://github.com/ubaniIsaac.png",
+  "links": [
+    {
+      "name": "Here's a link to my portfolio",
+      "url": "https://iceu.netlify.app",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/i_ce_u",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/ubaniIsaac",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/isaac-ubani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/i_ce_u",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function NavLink({ path, item, mode }) {
+export default function NavLink({ path, item, mode, setIsOpen }) {
   let className =
     "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
@@ -20,7 +20,12 @@ export default function NavLink({ path, item, mode }) {
   }
 
   return (
-    <Link href={item.url} className={className} aria-current="page">
+    <Link
+      href={item.url}
+      className={className}
+      aria-current="page"
+      onClick={() => setIsOpen && setIsOpen(false)}
+    >
       {item.name}
     </Link>
   );
