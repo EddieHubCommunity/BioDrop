@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   await connectMongo();
   const directoryPath = path.join(process.cwd(), "data");
 
-  const files = [];
+  let files = [];
   try {
     files = fs
       .readdirSync(directoryPath)
