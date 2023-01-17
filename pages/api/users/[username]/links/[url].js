@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import connectMongo from "../../../../../config/mongo";
-import logger from "../../config/logger";
+import logger from "../../../../../config/logger";
 
 import Link from "../../../../../models/Link";
 import Profile from "../../../../../models/Profile";
