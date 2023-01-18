@@ -1,18 +1,42 @@
 {
   "name": "Syofyan Zuhad",
   "type": "personal",
-  "bio": "Web Artisan",
+  "displayStatsPublic": true,
+  "bio": "Web Artisan | Made: **Freebio.dev**",
   "avatar": "https://github.com/syofyanzuhad.png",
+  "tags": [
+    "Open Source",
+    "php",
+    "Laravel",
+    "MySQL",
+    "DevOps",
+    "Javascript"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/syofyan_zuhad" },
+    { "icon": "FaGithub", "url": "https://github.com/syofyanzuhad" },
+    { "icon": "FaInstagram", "url": "https://instagram.com/syofyan_zuhad" }
+  ],
   "links": [
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/syofyanzuhad",
+      "name": "Freebio.dev",
+      "url": "https://freebio.dev/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Showwcase",
+      "url": "https://www.showwcase.com/syofyanzuhad",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/syofyan_zuhad",
-      "icon": "FaTwitter"
+      "name": "Web Profile",
+      "url": "https://syofyan-profile.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/syofyan-zuhad",
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -22,7 +46,7 @@
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
-      "url": "https://www.syofyanzuhad.my.id/"
+      "url": "https://freebio.dev/"
     }
   ]
 }
