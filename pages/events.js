@@ -82,8 +82,12 @@ export default function Events({ events }) {
             {filters.find((filter) => filter.key === eventType).description}
           </h2>
 
-          {categorisedEvents[eventType]?.map((event, index) => (
-            <EventCard event={event} username={event.username} key={index} />
+          {categorisedEvents[eventType]?.map((event) => (
+            <EventCard
+              event={event}
+              username={event.username}
+              key={`${event.name} ${event.username}`}
+            />
           ))}
         </ul>
       </Page>
