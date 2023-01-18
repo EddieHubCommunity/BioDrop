@@ -1,22 +1,27 @@
 import fs from "fs";
 import path from "path";
 
+import connectMongo from "../../../../config/mongo";
+import logger from "../../../../config/logger";
+
 import Profile from "../../../../models/Profile";
 import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
-import connectMongo from "../../../../config/mongo";
 
 export default async function handler(req, res) {
+  let log;
   await connectMongo();
   const { username } = req.query;
+  log = logger.child({ username: username });
 
   const filePath = path.join(process.cwd(), "data", `${username}.json`);
   let data = {};
   try {
     data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    log.info(`data loaded for username: ${username}`);
   } catch (e) {
-    console.log(`ERROR loading username ${username}`);
+    log.error(e, `profile loading failed for username: ${username}`);
     return res.status(404).json({});
   }
 
@@ -27,32 +32,38 @@ export default async function handler(req, res) {
       username,
       "testimonials"
     );
-    const testimonials = data.testimonials.flatMap((username) => {
+    const testimonials = data.testimonials.flatMap((testimonialUsername) => {
       try {
         const testimonial = {
           ...JSON.parse(
             fs.readFileSync(
-              path.join(filePathTestimonials, `${username}.json`),
+              path.join(filePathTestimonials, `${testimonialUsername}.json`),
               "utf8"
             )
           ),
-          username,
+          username: testimonialUsername,
         };
 
         // check testimonial author for LinkFree profile
         try {
-          const filePath = path.join(process.cwd(), "data", `${username}.json`);
+          const filePath = path.join(
+            process.cwd(),
+            "data",
+            `${testimonialUsername}.json`
+          );
           JSON.parse(fs.readFileSync(filePath, "utf8"));
 
           return {
             ...testimonial,
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonialUsername}`,
           };
         } catch (e) {
-          console.log(e);
+          log.warn(
+            `testimonial ${testimonialUsername} loading failed for username: ${username}`
+          );
           return {
             ...testimonial,
-            url: `https://github.com/${testimonial.username}`,
+            url: `https://github.com/${testimonialUsername}`,
           };
         }
       } catch (e) {
@@ -69,7 +80,7 @@ export default async function handler(req, res) {
       .readdirSync(filePathEvents)
       .filter((item) => item.includes("json"));
   } catch (e) {
-    console.log(`ERROR loading events "${filePathEvents}"`);
+    log.error(`loading events for ${username} in ${filePathEvents}`);
   }
   const events = eventFiles.flatMap((filename) => {
     try {
@@ -99,8 +110,9 @@ export default async function handler(req, res) {
         username,
         views: 1,
       });
+      log.info(`stats created for username: ${username}`);
     } catch (e) {
-      console.log("ERROR creating profile stats", e);
+      log.error(e, `failed to create profile stats for username: ${username}`);
     }
 
     try {
@@ -112,8 +124,9 @@ export default async function handler(req, res) {
           $inc: { users: 1 },
         }
       );
+      log.info(`app profile stats incremented for username: ${username}`);
     } catch (e) {
-      console.log("ERROR app profile stats", e);
+      log.error(e, `app profile stats failed for ${username}`);
     }
   }
   if (getProfile) {
@@ -126,8 +139,12 @@ export default async function handler(req, res) {
           $inc: { views: 1 },
         }
       );
+      log.info(`stats incremented for username: ${username}`);
     } catch (e) {
-      console.log("ERROR incrementing profile stats", e);
+      log.error(
+        e,
+        `failed to incremente profile stats for username: ${username}`
+      );
     }
   }
 
@@ -146,8 +163,12 @@ export default async function handler(req, res) {
           $inc: { views: 1 },
         }
       );
+      log.info(`profile daily stats incremented for username: ${username}`);
     } catch (e) {
-      console.log("ERROR incrementing profile stats", e);
+      log.error(
+        e,
+        "failed to increment profile stats for usernanme: ${username}"
+      );
     }
   }
   if (!getProfileStats) {
@@ -158,8 +179,9 @@ export default async function handler(req, res) {
         views: 1,
         profile: getProfile._id,
       });
+      log.info(`profile daily stats started for username: ${username}`);
     } catch (e) {
-      console.log("ERROR creating profile stats", e);
+      log.error(e, `failed creating profile stats for username: ${username}`);
     }
   }
 
@@ -174,8 +196,12 @@ export default async function handler(req, res) {
           $inc: { views: 1 },
         }
       );
+      log.info(`app daily stats incremented for username: ${username}`);
     } catch (e) {
-      console.log("ERROR incrementing platform stats", e);
+      log.error(
+        e,
+        `failed incrementing platform stats for username: ${username}`
+      );
     }
   }
 
@@ -187,8 +213,9 @@ export default async function handler(req, res) {
         clicks: 0,
         users: 1,
       });
+      log.info(`app daily stats created for username: ${username}`);
     } catch (e) {
-      console.log("ERROR creating platform stats", e);
+      log.error(e, `failed creating platform stats for username: ${username}`);
     }
   }
 

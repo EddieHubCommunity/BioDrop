@@ -1,0 +1,29 @@
+{
+  "name": "Vatsal Adhiya",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "An enthusiastic flutter developer.",
+  "avatar": "https://github.com/theVatsal3802.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/adhiya_vatsal_3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vatsal-adhiya-206479202/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/thevatsal3802",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub: Will be happy to colab on open-source projects",
+      "url": "https://github.com/theVatsal3802",
+      "icon": "FaGithub"
+    }
+  ]
+}
