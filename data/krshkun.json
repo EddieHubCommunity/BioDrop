@@ -20,7 +20,7 @@
     },
     {
       "url": "https://github.com/krshkun",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "url": "https://linkedin.com/in/krshkun",
@@ -35,12 +35,14 @@
     {
       "name": "Some Useful Resources For You 🔥",
       "url": "https://store.krshkun.eu.org",
-      "icon": "FaBook"
+      "icon": "FaBook",
+      "color": "#ef4444"
     },
     {
       "name": "Amazing Content On Twitter 🐦",
       "url": "https://twitter.com/krshkun",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#3b82f6"
     },
     {
       "name": "My Open Source Resume 🚀",
