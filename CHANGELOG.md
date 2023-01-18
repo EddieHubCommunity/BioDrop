@@ -1,9 +1,9 @@
-# 1.53.0 (2023-01-18)
+## 1.53.1 (2023-01-18)
 
 
-### Features
+### Bug Fixes
 
-* shadowban users ([#3581](https://github.com/EddieHubCommunity/LinkFree/issues/3581)) ([67d942b](https://github.com/EddieHubCommunity/LinkFree/commit/67d942b16389f6da05e8f631e5aaa985aa3c2228))
+* code example ([#3616](https://github.com/EddieHubCommunity/LinkFree/issues/3616)) ([16dc946](https://github.com/EddieHubCommunity/LinkFree/commit/16dc9468ca8daf12aa1430cd2116fad5062f7503))
 
 
 
