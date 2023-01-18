@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "FrontEnd Developer | Open Source Enthusiast | CS Student | Intrested in Cloud Technology & DevOps",
-  "tags": ["Open Source", "FrontEnd Dev", "JavaScript", "React" , "Java" , "C" , "C++" , ],
+  "tags": ["Open Source", "FrontEnd Dev", "JavaScript", "React" , "Java" , "C" , "C++"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/RishabhDhawad" },
     { "icon": "FaGithub", "url": "https://github.com/RishabhDhawad" },
@@ -32,6 +32,5 @@
       "url": "https://www.instagram.com/rishabhdhawad/",
       "icon": "FaInstagram"
     },
-    
   ],
 }
