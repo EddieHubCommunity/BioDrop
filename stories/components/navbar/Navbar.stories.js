@@ -4,6 +4,4 @@ export default {
   component: Navbar,
 };
 
-export const Basic = (args) => <Navbar />;
-
-Basic.args = {}
+export const Basic = {};

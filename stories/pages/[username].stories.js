@@ -5,9 +5,9 @@ export default {
   component: User,
 };
 
-export const Basic = (args) => <User {...args} />;
-
-Basic.args = {
-  data,
-  BASE_URL: "https://linkfree.eddiehub.io/"
+export const Basic = {
+  args: {
+    data,
+    BASE_URL: "https://linkfree.eddiehub.io/"
+  }
 };
