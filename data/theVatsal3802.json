@@ -13,7 +13,7 @@
     {
       "name": "Let's Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/vatsal-adhiya-206479202/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Instagram",
@@ -23,7 +23,7 @@
     {
       "name": "GitHub: Will be happy to colab on open-source projects",
       "url": "https://github.com/theVatsal3802",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     }
   ]
 }
