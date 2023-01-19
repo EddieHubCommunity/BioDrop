@@ -4,14 +4,7 @@
   "displayStatsPublic": true,
   "bio": "Web Artisan | Made: **Freebio.dev**",
   "avatar": "https://github.com/syofyanzuhad.png",
-  "tags": [
-    "Open Source",
-    "php",
-    "Laravel",
-    "MySQL",
-    "DevOps",
-    "Javascript"
-  ],
+  "tags": ["Open Source", "php", "Laravel", "MySQL", "DevOps", "Javascript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/syofyan_zuhad" },
     { "icon": "FaGithub", "url": "https://github.com/syofyanzuhad" },

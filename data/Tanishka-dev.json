@@ -14,7 +14,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/tanishka__yadav" },
     { "icon": "FaGithub", "url": "https://github.com/Tanishka-dev" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/tanishkayadav/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tanishkayadav/"
+    }
   ],
   "links": [
     {
@@ -52,7 +55,7 @@
       "name": "Email: Business Queries",
       "url": "mailto:tanishakayadav2110@gmail.com",
       "icon": "FaEnvelope"
-    }    
+    }
   ],
   "milestones": [
     {
