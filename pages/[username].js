@@ -3,7 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
+import requestIp from "request-ip";
 
+import logger from "../config/logger";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
@@ -16,42 +18,37 @@ import UserEvents from "../components/user/UserEvents";
 import Page from "../components/Page";
 
 export async function getServerSideProps(context) {
+  const { req } = context;
+  const username = context.query.username;
+  let log;
+  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
   let data = {};
-  let users = [];
 
   try {
     const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${context.query.username}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
     );
     data = await resUser.json();
+    log.info(`data loaded for username: ${username}`);
   } catch (e) {
-    console.log("ERROR user not found ", e);
+    log.error(e, `profile loading failed for username: ${username}`);
   }
 
   if (!data.username) {
     return {
       redirect: {
-        destination: `/search?username=${context.query.username}`,
+        destination: `/search?username=${username}`,
         permanent: false,
       },
     };
   }
 
-  try {
-    const resUsers = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users`
-    );
-    users = (await resUsers.json()).map((user) => user.username);
-  } catch (e) {
-    console.log("ERROR user list", e);
-  }
-
   return {
-    props: { users, data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function User({ users, data, BASE_URL }) {
+export default function User({ data, BASE_URL }) {
   const [userData, setUserData] = useState(data);
   const defaultTabs = [
     { name: "My Links", href: "#", current: true, order: "ASC" },
@@ -125,11 +122,7 @@ export default function User({ users, data, BASE_URL }) {
 
         {tabs.find((tab) => tab.name === "Testimonials") &&
           tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials
-              data={userData}
-              users={users}
-              BASE_URL={BASE_URL}
-            />
+            <UserTestimonials data={userData} />
           )}
 
         {tabs.find((tab) => tab.name === "Events") &&

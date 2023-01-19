@@ -1,0 +1,46 @@
+{
+  "name": "Alok Mahapatra",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Tech Enthusiast | Web Developer | UIUX ",
+  "avatar": "https://github.com/AlokMahapatra26.png",
+  "tags": ["Javascript", "UI UX", "MERN Stack"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/aloktwts" },
+    { "icon": "FaGithub", "url": "https://github.com/AlokMahapatra26" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@alokmahapatra1447" }
+  ],
+
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/aloktwts",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube : Learn about web dev ",
+      "url": "https://www.youtube.com/@alokmahapatra1447",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AlokMahapatra26",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/alok-mahapatra/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started My tech Journey",
+      "date": "September 2022",
+      "icon": "FaRegCompass",
+      "color": "red"
+    }
+  ]
+}

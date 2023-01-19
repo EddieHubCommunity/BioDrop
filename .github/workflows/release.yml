@@ -1,16 +1,13 @@
 name: Releases
 on:
-  workflow_run:
-    workflows:
-      - Format
-      - Testimonial
+  push:
     branches:
       - main
-    types:
-      - completed
+    paths-ignore:
+      - "data/**"
 
 concurrency:
-  group: "release"
+  group: "main-branch"
 
 jobs:
   changelog:

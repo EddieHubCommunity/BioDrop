@@ -1,0 +1,29 @@
+{
+  "name": "Tarek Hammami",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A passionate student developer that loves competitive programming, and software that is both free and open-sourced.",
+  "avatar": "https://github.com/THammami01.png",
+  "links": [
+    {
+      "name": "Telegram",
+      "url": "https://t.me/THammami01",
+      "icon": "FaTelegram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thammami01",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/THammami01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "StackOverflow",
+      "url": "https://stackoverflow.com/users/11542205/tarek-hammami",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}
