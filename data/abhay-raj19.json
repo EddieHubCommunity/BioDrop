@@ -2,13 +2,21 @@
   "name": "Abhay Rajpoot",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Learning **MERN** | **DevOps** Enthusiast | **Open Source** is Love | Codes In Python | C | C++ | **Solves Problem by Codes**",
+  "bio": "**MERN** | **DevOps** Enthusiast | **Open Source** |",
   "tags": ["Open Source", "DevOps", "Node.js"],
   "avatar": "https://github.com/Abhay-raj19.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/abhayraj423" },
+    { "icon": "FaGithub", "url": "https://github.com/abhay-raj19" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhay-rajpoot-799a00184"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/Abhay-raj19",
+      "url": "https://github.com/abhay-raj19",
       "icon": "FaGithub"
     },
     {
