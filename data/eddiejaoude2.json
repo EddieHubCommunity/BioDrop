@@ -1,0 +1,19 @@
+{
+  "name": "Eddie Jaoude (test)",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a fullstack developer",
+  "avatar": "https://github.com/eddiejaoude2.png",
+  "links": [
+      {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/eddiejaoude2",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}
