@@ -8,6 +8,7 @@ import Profile from "../../../../models/Profile";
 import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
+import getLocationByUsername from "../../../../services/github/getLocationByUsername";
 
 export default async function handler(req, res) {
   let log;
@@ -104,6 +105,7 @@ export default async function handler(req, res) {
   date.setHours(1, 0, 0, 0);
 
   const getProfile = await Profile.findOne({ username });
+
   if (!getProfile) {
     try {
       await Profile.create({
@@ -225,6 +227,31 @@ export default async function handler(req, res) {
 
   const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
+
+  if (!latestProfile.location.provided) {
+    const location = await getLocationByUsername(username);
+
+    try {
+      await Profile.updateOne(
+        {
+          username,
+        },
+        {
+          location: {
+            provided: location.provided,
+            name: location.name,
+            lat: location.lat,
+            lon: location.lon,
+          },
+        }
+      );
+    } catch (e) {
+      log.error(
+        e,
+        `failed to update profile location for username: ${username}`
+      );
+    }
+  }
 
   const profileWithStats = {
     username,

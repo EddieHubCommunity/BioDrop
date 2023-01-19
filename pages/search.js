@@ -1,6 +1,6 @@
 import Head from "next/head";
-
-import { useEffect, useState,useRef} from "react";
+import { useEffect, useState, useRef } from "react";
+import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
@@ -23,7 +23,7 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
-  const inputRef=useRef();
+  const inputRef = useRef();
   const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -31,6 +31,10 @@ export default function Search({ users }) {
   const [inputValue, setInputValue] = useState(
     username ? username : search ? search : ""
   );
+
+  const DynamicMap = dynamic(() => import("../components/map/map"), {
+    ssr: false,
+  });
 
   let results = [];
 
@@ -91,7 +95,6 @@ export default function Search({ users }) {
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
-
         <div className="relative">
           <input
             placeholder="Search users"
@@ -107,15 +110,14 @@ export default function Search({ users }) {
             </div>
           )}
         </div>
-
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
-
         {!threeOrMore && (
           <Alert
             type="info"
             message="You have to enter at least 3 characters to search for a user."
           />
         )}
+        <DynamicMap users={filteredUsers.length ? filteredUsers : users} />;
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>
