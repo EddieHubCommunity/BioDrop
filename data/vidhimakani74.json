@@ -16,6 +16,11 @@
   "avatar": "https://github.com/vidhimakani74.png",
 
   "links": [
+     {
+      "name": "Check out my Website",
+      "url": "https://vidhimakani.netlify.app/",
+      "icon": "globe"
+    },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/VIDHi477",
@@ -41,5 +46,16 @@
       "url": "https://www.hackerrank.com/vidhimakani007",
       "icon": "SiHackerrank"
     }
+  ]
+  
+  "milestones":[
+  {
+      "title": "Made Digital Token System For Jansevakendra",
+      "date": "October 2022",
+      "icon": "code",
+      "color": "blue",
+      "description": "This is Digital Token System for Jansevakendra, it is one type of token generations website for Queue management. it is a software to manage crowd/queues efficiently by issuing tokens in customer-facing businesses and departments. ",
+      "url": "https://github.com/vidhimakani74/Digital-Token-System-Hackathon"
+    },
   ]
 }
