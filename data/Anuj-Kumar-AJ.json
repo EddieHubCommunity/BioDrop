@@ -68,7 +68,7 @@
       {
         "title": "Started Learning Kubernetes",
         "date": "November 2022",
-        "icon": "dollar",
+        "icon": "FaDollarSign",
         "color": "grey",
         "description": "Started Learning Kubernetes, learnt about why we needed k8s,  different components of it like pods, replica, replicasets, probes,etc about its usage , installed minikube for it."
       },
