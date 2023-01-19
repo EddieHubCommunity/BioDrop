@@ -60,7 +60,7 @@
       {
         "title": "Started Learning Docker",
         "date": "October 2022",
-        "icon": "dollar",
+        "icon": "FaDollarSign",
         "color": "grey",
         "description": "Started Learning Docker, for containerise application , learned about containers , images , how to pull image from dockerHub, played with images and containers in terminal"
       },
