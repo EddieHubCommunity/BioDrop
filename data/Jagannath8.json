@@ -4,8 +4,17 @@
   "type": "personal",
   "bio": "**Student** | **ML Enthusiast** | **Open Source** ",
   "avatar": "https://github.com/Jagannath8.png",
-  "tags": ["C", "Java", "Python", "SQL", "Data Science", "Machine Learning", "Cloud", "Azure"],
-  
+  "tags": [
+    "C",
+    "Java",
+    "Python",
+    "SQL",
+    "Data Science",
+    "Machine Learning",
+    "Cloud",
+    "Azure"
+  ],
+
   "socials": [
     {
       "icon": "SiProgress",
@@ -32,7 +41,7 @@
       "url": "https://www.linkedin.com/in/jagannath-pal-a26403178/"
     }
   ],
-  
+
   "links": [
     {
       "name": "Portfolio",
