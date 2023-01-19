@@ -10,7 +10,11 @@ export default async function handler(req, res) {
 
   let popularProfiles = [];
   try {
-    popularProfiles = await Profile.find({}).sort({ views: -1 }).limit(20);
+    popularProfiles = await Profile.find({
+      username: { $nin: process.env.SHADOWBAN.split(",") },
+    })
+      .sort({ views: -1 })
+      .limit(20);
   } catch (e) {
     logger.error(e, "failed to load profiles");
   }

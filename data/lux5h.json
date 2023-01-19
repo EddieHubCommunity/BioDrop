@@ -1,0 +1,19 @@
+{
+  "name": "Shree Laxmi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " **Architect | Designer | Community Manager ** ",
+  "avatar": "https://github.com/lux5h.png",
+  "links": [
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/Ar_Shreelaxmi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ar-shreelaxmi/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}
