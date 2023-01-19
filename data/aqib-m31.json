@@ -1,0 +1,29 @@
+{
+  "name": "Aqib Javid Bhat",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Exploration stage - Open to learning | Avid learner | Programmer | Open Source Enthusiast",
+  "avatar": "https://github.com/aqib-m31.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/aqib-m31",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aqib_m31",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aqibm31/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/aqib_m31",
+      "icon": "FaInstagram"
+    }
+  ]
+}
