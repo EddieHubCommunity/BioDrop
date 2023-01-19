@@ -3,20 +3,20 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "world(!successfull=try)",
-  "avatar": "https://avatars.githubusercontent.com/u/90406016?s=400&u=65d5649db9b66f4c2478e322842d5d01aad3172a&v=4",
+  "avatar": "https://github.com/PSGitHubUser1.png",
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/PSGitHubUser1",
-      "icon": "FaTwitter"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Youtube",
-      "url": "https://github.com/@infoyps",
-      "icon": "FaGitHub"
+      "url": "https://youtube.com/@infoyps",
+      "icon": "FaYoutube"
     },
     {
-      "name": "Follow me on Discord (inactive)",
+      "name": "Follow me on Discord",
       "url": "PSPlaysMC#3778",
       "icon": "FaDiscord"
     }
