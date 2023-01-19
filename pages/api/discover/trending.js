@@ -16,6 +16,7 @@ export default async function handler(req, res) {
           date: {
             $gte: new Date(new Date().setDate(new Date().getDate() - 1)),
           },
+          username: { $nin: process.env.SHADOWBAN.split(",") },
         },
       },
       {
