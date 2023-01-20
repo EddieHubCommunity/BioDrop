@@ -1,0 +1,19 @@
+{
+  "name": "Rashidat Jimoh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student|| Technical Writer|| Developer",
+  "avatar": "https://github.com/RashidatJay.png",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rashidatjay",
+      "icon": "FaTwitter"
+    },
+     "name": "Follow me on LinkedIn"
+     "url": "https://www.linkedin.com/in/rashidatjimoh/",
+     "icon": "FaLinkedIn"
+     {
+     }
+  ]
+}
