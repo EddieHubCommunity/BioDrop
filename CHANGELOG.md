@@ -1,9 +1,9 @@
-## 1.55.2 (2023-01-20)
+## 1.55.3 (2023-01-20)
 
 
 ### Bug Fixes
 
-* licence year ([#3683](https://github.com/EddieHubCommunity/LinkFree/issues/3683)) ([0f4bbee](https://github.com/EddieHubCommunity/LinkFree/commit/0f4bbee5597d339de78cd0788227f0e95e381955))
+* padding on fixed buttons ([#3682](https://github.com/EddieHubCommunity/LinkFree/issues/3682)) ([a26a204](https://github.com/EddieHubCommunity/LinkFree/commit/a26a2042f77d1e777481a1388fe2e8f601794479))
 
 
 
