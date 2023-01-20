@@ -5,26 +5,26 @@
   "bio": "Newbie in tech | Learning Web-Development | Learning from Communities & Opensource ",
 
   "tags": ["Open Source", "Web Development", "Frontend"],
-  
+
   "socials": [
     {
       "icon": "FaGithub",
-      "url": "https://github.com/vidhimakani74" 
+      "url": "https://github.com/vidhimakani74"
     },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/vidhi-makani-1876a7223/"
     },
-     {
-      "icon": "FaTwitter", 
-      "url": "https://https://twitter.com/VIDHi477" 
+    {
+      "icon": "FaTwitter",
+      "url": "https://https://twitter.com/VIDHi477"
     }
   ],
-  
+
   "avatar": "https://github.com/vidhimakani74.png",
 
   "links": [
-     {
+    {
       "name": "Check out my Website",
       "url": "https://vidhimakani.netlify.app/",
       "icon": "FaGlobe"
@@ -55,9 +55,9 @@
       "icon": "SiHackerrank"
     }
   ],
-  
-  "milestones":[
-  {
+
+  "milestones": [
+    {
       "title": "Made Digital Token System For Jansevakendra",
       "date": "October 2022",
       "icon": "FaCode",

@@ -4,14 +4,7 @@
   "displayStatsPublic": true,
   "bio": "Senior Software Engineer | Founder greenchapel.dev | Gundog Trainer",
   "avatar": "https://github.com/greenchapeljohn.png",
-  "tags": [
-    "Typescript",
-    "Angular",
-    "DevOps",
-    "C#",
-    "C++",
-    "Embedded"
-  ],
+  "tags": ["Typescript", "Angular", "DevOps", "C#", "C++", "Embedded"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/JohnGreenDev" },
     { "icon": "FaGithub", "url": "https://github.com/greenchapeljohn" },
