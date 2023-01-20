@@ -12,6 +12,7 @@ export async function getServerSideProps(context) {
     random: [],
     trending: [],
   };
+
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/popular`
@@ -55,6 +56,18 @@ export async function getServerSideProps(context) {
 
 export default function Popular({ data, BASE_URL }) {
   const [randomProfiles, setRandomProfiles] = useState(data.random);
+  
+  const uniqueTags = [...data.tags.slice(0,10)].reduce((accumulated, tag) => {
+    /* Trimming the name of the tag and converting into LowerCase. */
+    /* Removing all special characters from the tag name. */
+    const name = tag.name.trim().toLowerCase().replace(/[^a-zA-Z0-9 ]/g, '');
+    if (accumulated[name]) {
+      accumulated[name] += tag.total;
+    } else {
+      accumulated[name] = tag.total;
+    }
+    return accumulated;
+  }, {})
 
   const fetchRandom = async () => {
     try {
@@ -82,11 +95,9 @@ export default function Popular({ data, BASE_URL }) {
 
         <div className="flex flex-wrap justify-center mb-4">
           {data.tags &&
-            data.tags
-              .slice(0, 10)
-              .map((tag) => (
-                <Tag name={tag.name} key={tag.name} total={tag.total} />
-              ))}
+          Object.keys(uniqueTags).map((key, index) => {
+            return <Tag name={Object.keys(uniqueTags)[index]} key={index} total={uniqueTags[key]} />
+          })}
         </div>
 
         <div className="mb-12">
