@@ -22,12 +22,12 @@
     },
     {
        "name": "Medium",
-       "url": "https://medium.com/@Amrendra_Singh/"
+       "url": "https://medium.com/@Amrendra_Singh/",
        "icon": "FaMedium"
     },
     {
       "name": "StackOverflow"
-      "url": "https://stackoverflow.com/users/20550455/amrendra-singh"
+      "url": "https://stackoverflow.com/users/20550455/amrendra-singh",
       "icon": "FaStackOverflow"
     }
   ]
