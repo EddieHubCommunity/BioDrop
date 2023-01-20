@@ -15,12 +15,12 @@
       "url": "https://twitter.com/sinha_maharshi",
       "icon": "FaTwitter"
     },
-     {
+    {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/maharshi-sinha-78b1001b7/",
       "icon": "FaLinkedin"
     },
-     {
+    {
       "name": "Read my blogs on Hashnode",
       "url": "https://maharshisinha.hashnode.dev",
       "icon": "SiHashnode"
@@ -31,7 +31,7 @@
       "icon": "FaGlobe"
     }
   ],
-   "milestones": [
+  "milestones": [
     {
       "title": "Became GDSC Lead",
       "date": "July 2021",
