@@ -1,0 +1,24 @@
+{
+  "name": "Baibhav Tiwari",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Universe is cool and so the code",
+  "avatar": "https://avatars.githubusercontent.com/u/75496387?v=4",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BaibhavTiwari11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/baibhav-tiwari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/baibhavtiwari/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

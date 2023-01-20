@@ -1,0 +1,54 @@
+{
+  "name": "Amrita Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Student** | **Web Developer** | **Open Source** ",
+  "avatar": "https://github.com/asingh101973.png",
+  "tags": ["Java", "Python", "SQL", "Machine Learning", "Cloud", "Azure"],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/amritasingh200"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@amritasingh5632"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/amrita_s_20/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/asingh101973"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/amrita-singh-5336841b0/"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/amritasingh200",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/amrita_s_20/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn: Let's connect!",
+      "url": "https://www.linkedin.com/in/amrita-singh-5336841b0/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: Will be happy to collab in open source projects",
+      "url": "https://github.com/asingh101973",
+      "icon": "FaGithub"
+    }
+  ]
+}
