@@ -22,6 +22,7 @@ export default function DocsLayout({ children, title }) {
             href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
             target="_blank"
             rel="noreferrer"
+            className="text-sky-700 break-words"
           >
             https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
           </a>

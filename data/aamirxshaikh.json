@@ -1,0 +1,88 @@
+{
+  "name": "Aamir Shaikh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "23 🧑‍💻 | Associate Consultant @Atos | Full-stack Developer 💻 | Open Source | Cloud & DevOps enthusiast ⚡️",
+  "tags": [
+    "JavaScript",
+    "React",
+    "Node JS",
+    "Java",
+    "Spring boot",
+    "Cloud",
+    "DevOps",
+    "Open Source"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/aamirxShaikh" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/AamirxShaikh" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aamir-shaikh-291934182"
+    }
+  ],
+  "avatar": "https://github.com/aamirxShaikh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aamirxShaikh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AamirxShaikh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aamir-shaikh-291934182",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/AamirxShaikh",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "View my Polywork Profile",
+      "url": "https://poly.me/AamirxShaikh",
+      "icon": "FaLink"
+    },
+    {
+      "name": "View my Portfolio",
+      "url": "https://aamir-shaikh-v1.web.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Book a Meeting",
+      "url": "https://calendly.com/AamirxShaikh",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started a new role",
+      "date": "September 2021",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Joined Atos as Associate Consultant",
+      "url": "https://poly.me/AamirxShaikh"
+    },
+    {
+      "title": "Started my Open Source journey",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Joined tech twitter and connected with many awesome folks, came across Open Source and joined various communities to provide value.",
+      "url": "https://github.com/aamirxShaikh"
+    },
+    {
+      "title": "Made my first contribution to Open Source",
+      "date": "December 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Made my first Open Source contribution. I came across project's GitHub documentation and found a bug in README file. I opened an issue. I also figured out how to resolve it. So, I made the changes and opened the PR. Finally, the issue and PR got closed and merged in with the main branch.",
+      "url": "https://github.com/aamirxShaikh"
+    }
+  ]
+}

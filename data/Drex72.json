@@ -1,0 +1,24 @@
+{
+  "name": "Okunoye David",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Engineer, Open Source enthusiast, Accessibility Advocate, and lover of the Cloud",
+  "avatar": "https://github.com/Drex72.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/drexJs",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/david-okunoye-777b691a8",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/Drex72",
+      "icon": "FaGithub"
+    }
+  ]
+}

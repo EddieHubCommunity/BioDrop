@@ -1,0 +1,18 @@
+{
+  "name": "Pritam Saha",
+  "type": "personal",
+  "bio": "Hi there, I am Pritam Saha, Computer Science graduate & DevOps enthuasist & Open Source lover",
+  "avatar": "https://github.com/Saha-7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Saha-7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/saha7pritam",
+      "icon": "FaTwitter"
+    }
+  ]
+}

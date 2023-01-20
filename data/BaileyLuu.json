@@ -1,0 +1,29 @@
+{
+  "name": "Bailey Luu",
+  "type": "personal",
+  "bio": "Hackathon Enthusiast | MLH Top 50",
+  "avatar": "https://github.com/BaileyLuu.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/bailey_luu" },
+    { "icon": "FaGithub", "url": "https://github.com/BaileyLuu" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/baileyluu/" }
+  ],
+  "tags": ["Web Development", "Hackathon Organizer"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bailey_luu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/BaileyLuu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/baileyluu/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

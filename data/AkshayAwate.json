@@ -1,0 +1,14 @@
+{
+  "name": "Akshay Awate",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Cloud Native Engineer",
+  "avatar": "https://github.com/AkshayAwate.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AkshayAwate",
+      "icon": "FaTwitter"
+    }
+  ]
+}

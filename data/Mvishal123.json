@@ -1,0 +1,36 @@
+{
+  "name": "Vishal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open-source | DSA | Blog | Freelance | Loading..",
+  "avatar": "https://github.com/Mvishal123.png",
+  "tags": ["Python", "JAVA", "HTML", "CSS", "Photoshop"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Mvishalx" },
+    { "icon": "FaGithub", "url": "https://github.com/Mvishal123" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/vishal-m0509/" },
+    { "icon": "SiHashnode", "url": "https://mvishal.hashnode.dev/" }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Mvishal123",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Mvishalx",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Blogs here",
+      "url": "https://mvishal.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/vishal-m0509/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

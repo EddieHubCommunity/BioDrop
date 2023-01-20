@@ -1,0 +1,24 @@
+{
+  "name": "Krish Jaiswal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a high school student currently learning about Web Development and making an attempt to share my learning in public.",
+  "avatar": "https://github.com/KrishJ4856.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Krish4856",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My GitHub Profile",
+      "url": "https://github.com/KrishJ4856",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "I write technical blogs here",
+      "url": "https://krishwebdev.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}
