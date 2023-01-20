@@ -91,7 +91,7 @@ export default function Popular({ data, BASE_URL }) {
 
         <div className="mb-12">
           <div className="flex flex-row gap-3 items-center mb-4">
-            <h2 className="text-xl mb-4 font-bold">
+            <h2 className="text-xl font-bold">
               Random LinkFree Profiles
             </h2>
             <button
