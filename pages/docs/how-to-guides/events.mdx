@@ -39,15 +39,15 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 ```
 </ClipboardCopy>
 
-| Property               | Description                                                 |
-| :--------------------- | :---------------------------------------------------------- |
-| isVirtual / isInPerson | Is the event virtual or in person or both                   |
-| color                  | What color would you like this milestone to be displayed in |
-| name                   | Name of the event                                           |
-| description            | More details about the event, this can include markdown     |
-| date                   | Start and end date plus time of the event                   |
-| cfpClose               | [optional] The date of when the CFP to submit a talk closes |
-| url                    | Where can people learn more about the event                 |
+| Property               | Required | Description                                                 |
+| :--------------------- | :------- | :---------------------------------------------------------- |
+| isVirtual / isInPerson | true     | Is the event virtual or in person or both                   |
+| color                  | true     | What color would you like this milestone to be displayed in |
+| name                   | true     | Name of the event                                           |
+| description            | true     | More details about the event, this can include markdown     |
+| date                   | true     | Start and end date plus time of the event                   |
+| cfpClose               | false    | The date of when the CFP to submit a talk closes            |
+| url                    | true     | Where can people learn more about the event                 |
 
 4. Now you can commit your file and create a Pull Request. For more details please see [Editing guide](/docs/how-to-guides/editing)
 

@@ -4,20 +4,19 @@ import getIcon from "../Icon";
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
   return (
-    <a
-      href={milestone.url ? milestone.url : "/"}
-      key={milestone.url ? milestone.url : milestone.title}
-      className={!milestone.url ? "pointer-events-none" : ""}
-      target="_blank"
-      rel="noreferrer"
+    <li
+      className={`py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md ${
+        isGoal ? "opacity-50" : ""
+      }`}
+      style={{
+        borderColor: milestone.color,
+      }}
     >
-      <li
-        className={`py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md ${
-          isGoal ? "opacity-50" : ""
-        }`}
-        style={{
-          borderColor: milestone.color,
-        }}
+      <a
+        href={milestone.url}
+        key={milestone.url}
+        target="_blank"
+        rel="noreferrer"
       >
         <div className="flex space-x-3">
           <DisplayIcon />
@@ -31,7 +30,7 @@ export default function UserMilestone({ milestone, isGoal }) {
             </ReactMarkdown>
           </div>
         </div>
-      </li>
-    </a>
+      </a>
+    </li>
   );
 }
