@@ -3,7 +3,15 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Open Source Enthusiast | DevOps | AWS | SRE | CSE Undergrad at PES University",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "AWS", "SRE", "Tech Blogger"], 
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "AWS",
+    "SRE",
+    "Tech Blogger"
+  ],
   "avatar": "https://github.com/VishalPraneeth.png",
   "links": [
     {

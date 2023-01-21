@@ -1,0 +1,26 @@
+{
+  "name": "Kiran Gurung",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Development Studies students turned ** iOS engineer**. Travel, Motorcycle, Yoga, Hiking",
+  "avatar": "https://github.com/KiranJungGurung.png",
+  "link": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nirantarsdc",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kiran-gurung/",
+      "icon": "FaLinkedin"
+    },
+
+    {
+      "name": "Github",
+      "url": "https://github.com/KiranJungGurung",
+      "icon": "FaGithub"
+    }
+  ]
+}
