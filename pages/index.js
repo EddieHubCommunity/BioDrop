@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -15,6 +14,7 @@ import {
 import { FaMedal } from "react-icons/fa";
 
 import singleUser from "../config/user.json";
+import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
