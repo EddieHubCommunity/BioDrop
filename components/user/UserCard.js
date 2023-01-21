@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "js-abbreviation-number";
+import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 import FallbackImage from "../FallbackImage";
 
 export default function UserCard({ profile }) {
