@@ -1,9 +1,9 @@
-## 1.55.2 (2023-01-20)
+## 1.55.5 (2023-01-20)
 
 
 ### Bug Fixes
 
-* licence year ([#3683](https://github.com/EddieHubCommunity/LinkFree/issues/3683)) ([0f4bbee](https://github.com/EddieHubCommunity/LinkFree/commit/0f4bbee5597d339de78cd0788227f0e95e381955))
+* reviewpad action ([#3729](https://github.com/EddieHubCommunity/LinkFree/issues/3729)) ([5d0dc03](https://github.com/EddieHubCommunity/LinkFree/commit/5d0dc033a5cd9939028d1025cd2a0c461cdab9df))
 
 
 

@@ -4,7 +4,15 @@
   "type": "personal",
   "bio": "**Python** Developer | **Web** Developer | **QA** Tester | **Open Source** Contributor",
   "avatar": "https://github.com/jarek-pacocha.png",
-  "tags": ["Python", "Data", "Testing", "Cloud", "DevOps", "Open Source", "Gaming"],
+  "tags": [
+    "Python",
+    "Data",
+    "Testing",
+    "Cloud",
+    "DevOps",
+    "Open Source",
+    "Gaming"
+  ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/jarek-pacocha" },
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/jaroslaw-pacocha" },
