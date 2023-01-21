@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Currently a College student | Web Developer | Open Source Enthusiast",
-  "avatar": "https://i.ibb.co/XyWdRrF/Me.jpg",
+  "avatar": "https://github.com/Labhk.png",
   "links": [
     {
       "name": "Twitter",
@@ -23,7 +23,7 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/labh-khatke-4436b0180",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     }
   ]
 }
