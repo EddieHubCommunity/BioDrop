@@ -428,7 +428,7 @@ export default function Home({ total, today }) {
                           {feature.description}
                         </p>
                       </div>
-                     </link>
+                     </Link>
                     </div>
                   </div>
                 ))}
