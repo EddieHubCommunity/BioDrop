@@ -1,7 +1,7 @@
 {
   "name": "Pradumna Saraf",
   "type": "personal",
-  "displayStatsPublic": false,
+  "displayStatsPublic": true,
   "bio": "**Open Source** Advocate | DevOps Developer | EddieHub Ambassador",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
   "avatar": "https://github.com/Pradumnasaraf.png",
