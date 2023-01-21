@@ -13,6 +13,7 @@
     "Web"
   ],
   "socials": [
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/piyush-chouhan-041050130/" },
     { "icon": "FaTwitter", "url": "https://twitter.com/chouhanpiyush14" },
     { "icon": "FaGithub", "url": "https://github.com/Piyush142" }  ],
   "links": [
@@ -33,8 +34,8 @@
     },
     {
         "name": "LinkedIn: Let's connect",
-        "url": "https://www.instagram.com/error__squared/",
-        "icon": "FaInstagram"
+        "url": "https://www.linkedin.com/in/piyush-chouhan-041050130/",
+        "icon": "FaLinkedin"
     }
   ],
   "milestones": [
