@@ -1,0 +1,14 @@
+{
+  "name": "Aatif Sohel",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Front-end Web Developer",
+  "avatar": "https://github.com/AatifSohel.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AatifSohel",
+      "icon": "FaTwitter"
+    }
+  ]
+}
