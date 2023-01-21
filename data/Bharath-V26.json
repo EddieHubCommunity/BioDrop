@@ -1,0 +1,14 @@
+{
+  "name": "Bharath V",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am an enthusiastic cloud-computing job seeker eager to utilize my technical and communication skills to help organization reach its goals.",
+  "avatar": "https://github.com/Bharath-V26.png",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/bharath-v-135300210/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

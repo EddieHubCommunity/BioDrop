@@ -1,0 +1,115 @@
+{
+  "name": "Sagar Eknath Bangade",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "B-Tech in Artificial intelligence || Full Stack **Java Developer** Intern at Asterisc Technocrat ",
+  "avatar": "https://github.com/sagarbangade.png",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Hibernate",
+    "Spring Boot",
+    "Machine learning",
+    "Deep learning",
+    "Big Data"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sagar-bangade/"
+    },
+    { "icon": "FaGithub", "url": "https://github.com/sagarbangade" },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/Captain._.sagar/"
+    }
+  ],
+  "testimonials": [],
+
+  "links": [
+    {
+      "name": "Visit Website: ShreeCode Services",
+      "url": "http://shreecode.in",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Personal portfolio:",
+      "url": "http://sagarb.engineer",
+      "icon": "FaLink"
+    },
+    {
+      "name": "YouTube **Personal**: My Vlogs",
+      "url": "https://www.youtube.com/channel/UCd93GgRkwFrNJjROYdWSu2w",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "YouTube **Professional**: Tech Videos",
+      "url": "https://www.youtube.com/@shreecode/featured",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/sagarbangade",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/sagar-bangade/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/Captain._.sagar/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Shree Code: GitHub Organisation",
+      "url": "https://github.com/ShreeCode7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/sagarbangade",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "April 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own small business",
+      "url": "https://shreecode.in/"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/sagarbangade.png",
+      "date": "Sept 2017",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://www.youtube.com/channel/UCd93GgRkwFrNJjROYdWSu2w"
+    },
+    {
+      "title": "Started ShreeCode YouTube Channel",
+      "image": "https://github.com/sagarbangade.png",
+      "date": "Aug 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating Tech content",
+      "url": "https://www.youtube.com/@shreecode/featured"
+    },
+    {
+      "title": "Got First Internship",
+      "image": "https://github.com/sagarbangade.png",
+      "date": "Oct 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Full Stack Java Developer",
+      "url": "https://www.linkedin.com/company/asterisc-technocrat/"
+    }
+  ]
+}
