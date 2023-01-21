@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Jatinkumar30",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/JatinRawal30",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Getting grip on Open Source",
       "date": "January 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Getting into open source"
     }

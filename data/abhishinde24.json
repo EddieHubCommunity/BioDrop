@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/abhishinde24",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/abhishek-shinde-0a1860192",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

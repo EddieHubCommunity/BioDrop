@@ -7,12 +7,12 @@
     {
       "name": "Check out my GitHub profile",
       "url": "https://github.com/kulkarnigaurav38",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/gauravkulk38",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

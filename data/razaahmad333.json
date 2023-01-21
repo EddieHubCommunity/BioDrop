@@ -1,0 +1,175 @@
+{
+  "name": "Ahmad Raza",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Web developer | Blogger | Freelancer | Student",
+  "avatar": "https://github.com/razaahmad333.png",
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Blogs"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahmadraza946_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/razaahmad333"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ahmadrazakhan946"
+    }
+  ],
+  "links": [
+    {
+      "name": "Visit my projects",
+      "url": "https://ahmad-raza.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ahmadraza946_",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/razaahmad333",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/ahmadrazakhan946",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode: Read my blogs",
+      "url": "https://hashnode.com/@ahmadrazakhan946",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Hashnode: Also write in Webd Essentials publication",
+      "url": "https://webdessentials.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Freelancer at Fiverr",
+      "url": "https://www.fiverr.com/ahmadrazakhan94",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Freelancer at Upwork",
+      "url": "https://www.upwork.com/freelancers/~01c11783dccfb422a3",
+      "icon": "FaDollarSign"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Was introduced programming",
+      "date": "Aug, 2018",
+      "icon": "FaCode",
+      "color": "#087f5b",
+      "description": "I was in 11th grade when I was introduced to programming, Basically I was introduced to C++ because it was in my school curriculum but didn't got addicted to it."
+    },
+    {
+      "title": "Bought my first laptop",
+      "date": "Mar, 2019",
+      "icon": "FaLaptop",
+      "color": "#087f5b",
+      "description": "I bought my first laptop and started with java and cpp, learned them a little bit."
+    },
+    {
+      "title": "Started learning JavaScript",
+      "date": "Apr, 2019",
+      "icon": "SiJavascript",
+      "color": "#087f5b",
+      "description": "I got an awesome javascript framework (P5.js) and started learning JavaScript with Daniel Shiffman's videos on youtube and made a lot board games.",
+      "url": "https://www.youtube.com/watch?v=yPWkPOfnGsw"
+    },
+    {
+      "title": "Completed my senior secondary education",
+      "date": "Mar, 2020",
+      "icon": "FaBook",
+      "color": "#087f5b",
+      "description": "I completed my senior secondary education and got admission in a university through JEE Mains (one of toughest exam in the world) ."
+    },
+    {
+      "title": "Made my first website using HTML and CSS",
+      "date": "Mar, 2021",
+      "icon": "FaHtml5",
+      "color": "#087f5b",
+      "description": "I made my first website using HTML and CSS. I was so excited that I could create a website from scratch. I was so happy that I could create something that I could show to my friends and family.",
+      "url": "https://compassionate-mccarthy-aacaae.netlify.app"
+    },
+    {
+      "title": "Started learning ReactJS",
+      "date": "July, 2021",
+      "icon": "FaReact",
+      "color": "#087f5b",
+      "description": "Learned react and made a lot of projects",
+      "url": "https://ahmad-raza.vercel.app/projectsPage"
+    },
+    {
+      "title": "Started Freelancing on Upwork",
+      "date": "Aug, 2021",
+      "icon": "FaDollarSign",
+      "color": "#087f5b",
+      "description": "Started my own business",
+      "url": "https://www.upwork.com/freelancers/~01c11783dccfb422a3"
+    },
+    {
+      "title": "Started Freelancing on Fiverr",
+      "date": "Dec, 2021",
+      "icon": "FaDollarSign",
+      "color": "#087f5b",
+      "description": "Started my own business",
+      "url": "https://www.fiverr.com/ahmadrazakhan94"
+    },
+    {
+      "title": "Joined My first internship as a fullStack web developer",
+      "date": "Feb, 2022",
+      "icon": "FaLaptopCode",
+      "color": "#087f5b",
+      "description": "I joined my first internship as a fullStack MERN web developer. ",
+      "url": "https://m16labs.com/"
+    },
+    {
+      "title": "Started doing Open Source",
+      "date": "Jun, 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "#087f5b",
+      "description": "I started doing open source. I started contributing to open source projects on GitHub.",
+      "url": "https://github.com/razaahmad333"
+    },
+    {
+      "title": "Became active on social media",
+      "date": "Mar, 2022",
+      "icon": "FaHandshake",
+      "color": "#087f5b",
+      "description": "I became active on LinkedIn and Twitter and started sharing my experiences and knowledge with others. I found tech-twitter an awesome community. I also started sharing my knowledge on LinkedIn."
+    },
+    {
+      "title": "Started algebra-for-you (Open Source)",
+      "date": "Jun, 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "#087f5b",
+      "description": "I started my own open source project to understand how things work.",
+      "url": "https://github.com/razaahmad333/algebra-for-you"
+    },
+    {
+      "title": "Started Writing Blogs",
+      "date": "July, 2022",
+      "icon": "SiHashnode",
+      "color": "#087f5b",
+      "description": "I started writing blogs on Hashnode. I write about web development, programming, and freelancing. I also write about my journey as a freelancer and web developer.",
+      "url": "https://hashnode.com/@ahmadrazakhan946"
+    },
+    {
+      "title": "Started writing blogs on Web development ( beginners)",
+      "date": "Dec, 2022",
+      "icon": "SiHashnode",
+      "color": "#087f5b",
+      "description": "I started writing blogs on Web development for absolute beginners on Hashnode. There I cover basic HTML, CSS and Javascript",
+      "url": "https://webdessentials.hashnode.dev/"
+    }
+  ]
+}

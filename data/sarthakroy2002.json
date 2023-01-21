@@ -1,0 +1,49 @@
+{
+  "name": "Sarthak Roy",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Developer | AOSP Device maintainer | Open source contributor",
+  "avatar": "https://avatars.githubusercontent.com/u/47187468?v=4",
+  "tags": [
+    "java",
+    "android",
+    "nodeJS",
+    "reactJS",
+    "tailwindCSS",
+    "mongodb",
+    "c",
+    "cpp"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sarthak2002"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sarthakroy2002"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sarthak2002",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Git",
+      "url": "https://github.com/sarthakroy2002",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sarthakroy2002/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my Hashnode Blog",
+      "url": "https://sarthakroy2002.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

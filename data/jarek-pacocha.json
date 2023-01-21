@@ -1,0 +1,53 @@
+{
+  "name": "Jarek Pacocha",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Python** Developer | **Web** Developer | **QA** Tester | **Open Source** Contributor",
+  "avatar": "https://github.com/jarek-pacocha.png",
+  "tags": [
+    "Python",
+    "Data",
+    "Testing",
+    "Cloud",
+    "DevOps",
+    "Open Source",
+    "Gaming"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/jarek-pacocha" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/jaroslaw-pacocha" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/thlyer" },
+    { "icon": "FaTwitch", "url": "https://twitch.tv/thlyer" },
+    {
+      "icon": "FaDiscord",
+      "url": "http://discordapp.com/users/374991847363313665"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Get in touch to collaborate",
+      "url": "https://github.com/jarek-pacocha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/jaroslaw-pacocha",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/thlyer",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Twitch: Hang out with me",
+      "url": "https://twitch.tv/thlyer",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "Discord: Let's chat",
+      "url": "http://discordapp.com/users/374991847363313665",
+      "icon": "FaDiscord"
+    }
+  ]
+}

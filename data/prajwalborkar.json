@@ -7,12 +7,12 @@
     {
       "name": "Checkout my GitHub",
       "url": "https://github.com/prajwalborkar",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect me on Linkedln",
       "url": "https://www.linkedin.com/in/prajwal-borkar/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

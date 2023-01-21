@@ -1,6 +1,6 @@
 import { FaInfoCircle } from "react-icons/fa";
 import { MdError, MdOutlineWarningAmber } from "react-icons/md";
-import { BsCheckCircleFill } from "react-icons/bs";
+import { FaRegCheckCircle } from "react-icons/fa";
 
 export default function alert({ type, message }) {
   switch (type) {
@@ -10,7 +10,7 @@ export default function alert({ type, message }) {
           className={`alert-${type} bg-green-100 rounded-lg py-5 px-6 mb-3 text-base text-green-700 inline-flex items-center w-full animate-pulse`}
           role="alert"
         >
-          <BsCheckCircleFill className="mr-2" />
+          <FaRegCheckCircle className="mr-2" />
           <span>{message}</span>
         </div>
       );

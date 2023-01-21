@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/eltociear",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/eltociear",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Dev Profile",
       "url": "https://dev.to/eltociear",
-      "icon": "dev.to"
+      "icon": "FaDev"
     }
   ]
 }

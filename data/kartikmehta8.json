@@ -7,37 +7,37 @@
     {
       "name": "Visit my Portfolio Website",
       "url": "https://www.kartikmehta.engineer",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/kartikmehta8",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/kartik_mehta8",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/kartikmehta17",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on LeetCode",
       "url": "https://leetcode.com/kartik_mehta8",
-      "icon": "leetcode"
+      "icon": "SiLeetcode"
     },
     {
       "name": "Follow me on Snapchat",
       "url": "https://www.snapchat.com/add/mehtaaaaaah",
-      "icon": "snapchat"
+      "icon": "FaSnapchat"
     },
     {
       "name": "Send a message on Telegram",
       "url": "https://t.me/mehtaaaaaah",
-      "icon": "telegram"
+      "icon": "FaTelegram"
     }
   ]
 }

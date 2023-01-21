@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Jai-Solania-29",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/jai_solania_29",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/jaideep-solania-a426691b6/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Postman Student Expert",
       "date": "May 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "#FF6C37",
       "description": "Became a Postman Student Expert",
       "url": "https://badgr.com/public/assertions/SPHXVVehTViAh7giMBVdYA"

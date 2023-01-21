@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/diva-21",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Divakar2163",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@diva1221",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/l-divakar-102205215/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

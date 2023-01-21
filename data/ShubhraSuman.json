@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ShubhraSuman",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ShubhraSuman5",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "September 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing"
     }

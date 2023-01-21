@@ -7,19 +7,19 @@
     {
       "name": "Check my Projects out on GitHub",
       "url": "https://github.com/Ugoo-Eze",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Check out my journey on Twitter",
       "url": "https://twitter.com/DerHerr66739164",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started my Tech Journey",
       "date": "August 2020",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "grey",
       "description": "Tech Journey"
     }

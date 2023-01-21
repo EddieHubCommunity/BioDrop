@@ -1,0 +1,23 @@
+{
+  "name": "Saurav Pant",
+  "type": "personal",
+  "bio": "Opensource || Web3 enthusiast",
+  "avatar": "https://github.com/Saurav-Pant.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Saurav-Pant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads ",
+      "url": "https://twitter.com/Saurav_Pant_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout My Blogs",
+      "url": "https://hashnode.com/@champ751",
+      "icon": "SiHashnode"
+    }
+  ]
+}

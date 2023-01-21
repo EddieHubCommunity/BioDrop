@@ -7,22 +7,22 @@
     {
       "name": "Check Out my Portfolio",
       "url": "https://chiragportfolio.vercel.app/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/chiraglal",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/notfromaladin",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/chirag-lal-141a0b19b/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

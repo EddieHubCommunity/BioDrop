@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/lavakush07",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/lavkushbiyani1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/lavkush-biyani-07/",
-      "icon": "Linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

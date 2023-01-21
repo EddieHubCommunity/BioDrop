@@ -6,17 +6,17 @@
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/brian-nduhiu",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/BrianNduhiu",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/brian-nduhiu-358b07121/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

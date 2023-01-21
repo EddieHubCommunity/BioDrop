@@ -7,12 +7,12 @@
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/RayyanRNKJ",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/RayyanRNKJ",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

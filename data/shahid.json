@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/shahidhussain07",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/shahidHtwts",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/ig_shahidhussain",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Connect with me On LinkedIn",
       "url": "https://www.linkedin.com/in/shahid-hussain-500a93214",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

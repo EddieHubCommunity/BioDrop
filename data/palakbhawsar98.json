@@ -7,34 +7,34 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/palak-bhawsar-ba339a183",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/palakbhawsar98",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/palak_bhawsar",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on HackerRank",
       "url": "https://www.hackerrank.com/palakbhawsar5",
-      "icon": "dollar"
+      "icon": "FaDollarSign"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/palak_bhawsar/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ],
   "milestones": [
     {
       "title": "Started with AWS",
       "date": "Jan 2022",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "green",
       "description": "Completed AWS Cloud Practitioner Certification",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:6944618892807782400/"
@@ -42,7 +42,7 @@
     {
       "title": "Started with DevOps",
       "date": "March 2022",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "green",
       "description": "Jenkins CI/CD Tool",
       "url": "https://www.linkedin.com/feed/update/urn:li:activity:6973640243526688768/"

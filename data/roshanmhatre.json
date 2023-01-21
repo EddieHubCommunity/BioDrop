@@ -7,17 +7,17 @@
     {
       "name": "My GitHub",
       "url": "https://github.com/RoshanMhatre",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "My Twitter",
       "url": "https://twitter.com/RoshanMhatre",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "My Instagram",
       "url": "https://instagram.com/roshanmig",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     }
   ]
 }

@@ -7,17 +7,17 @@
     {
       "name": "My Website",
       "url": "https://vivekpal.in/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/vivekpal1",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/vivekpal0x",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
@@ -25,7 +25,7 @@
       "title": "Published first book.",
       "image": "https://m.media-amazon.com/images/I/41HhrXSEazL._SL500_.jpg",
       "date": "Aug 10, 2020",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "teal",
       "description": "Edited and published first book with Mukul Pal on Amazon.",
       "url": "https://amzn.in/29wa0mW"
@@ -33,7 +33,7 @@
     {
       "title": "First Open Source Contribution",
       "date": "6 june 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Made first Open Source contribution",
       "url": "https://github.com/vivekpal1/"
@@ -42,7 +42,7 @@
       "title": "Completed CS50 2021",
       "image": "https://www.harvard.edu/wp-content/themes/core/assets/img/theme/branding-assets/footer-logo.svg",
       "date": "September 2021",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "red",
       "description": "Introduction to the intellectual enterprises of computer science and the art of programming by Harvard University.",
       "url": "https://cs50.harvard.edu/x/2021/"
@@ -50,7 +50,7 @@
     {
       "title": "Completed Full Stack open 2021",
       "date": "Nov 2021",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "orange",
       "description": "University of Helsinki's Full Stack open 2021, The course introduces modern web application development with JavaScript. The main focus is on single-page applications implemented with the React library, and REST interfaces implemented with Node.js that support them.",
       "url": "https://fullstackopen.com/"

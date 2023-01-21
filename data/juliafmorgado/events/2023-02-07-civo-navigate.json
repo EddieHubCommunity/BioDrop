@@ -1,0 +1,11 @@
+{
+  "isInPerson": true,
+  "color": "red",
+  "name": "CIVO Navigate",
+  "description": "A two-day conference in **Tampa, FL**, revolving around topics such as **Kubernetes**, **Edge Computing**, **Machine Learning**, **Dev/GitOps**, **Observability**, **Security**, and **Cloud Native Transformation**, where I will be delivering a workshop on Open Source developer tool **Acorn**.",
+  "date": {
+    "start": "2023-02-07T08:30:00.000-05:00",
+    "end": "2023-02-08T17:40:00.000-05:00"
+  },
+  "url": "https://civo.com/navigate"
+}

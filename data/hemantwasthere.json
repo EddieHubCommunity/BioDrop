@@ -7,29 +7,29 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/hemantwasthere",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/hemantwasthere",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/hemantwasthere",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Email",
       "url": "mailto:hemant.is.there@gmail.com",
-      "icon": "envelope"
+      "icon": "FaEnvelope"
     }
   ],
   "milestones": [
     {
       "title": "Started Remote Work",
       "date": "August 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started working at Digi-k-labs in part-time, as a Software Developer Intern. Mostly working on Vue.2x, Vue.3x and SCSS."
     }

@@ -7,26 +7,26 @@
     {
       "name": "Follow me here on GitHub!",
       "url": "https://github.com/MasterReach1",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter for tech info, development updates, and some meme content!",
       "url": "https://twitter.com/findevxone",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started developing games with Python & Blender",
       "date": "October 2013",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "orange",
       "description": "Started with Python"
     },
     {
       "title": "Started coding in college",
       "date": "September 2019",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "green",
       "description": "Started programming degree",
       "url": "https://www.escc.edu/"
@@ -34,7 +34,7 @@
     {
       "title": "Started learning web development on my own",
       "date": "January 2020",
-      "icon": "codewars",
+      "icon": "SiCodewars",
       "color": "red",
       "description": "Started learning web development",
       "url": "https://www.udemy.com/"
@@ -42,7 +42,7 @@
     {
       "title": "Started freelancing (programming tutor)",
       "date": "February 2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Started freelance tutoring",
       "url": "https://www.fiverr.com/"
@@ -50,7 +50,7 @@
     {
       "title": "Started being serious about learning web development",
       "date": "January 2021",
-      "icon": "dev.to",
+      "icon": "FaDev",
       "color": "black",
       "description": "Started focusing on goals in web development; built my personal site (WIP)",
       "url": "https://ethanr.dev/"

@@ -7,14 +7,14 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/srkds",
-      "icon": "github"
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
     {
       "title": "Started OpenSource Contribution",
       "date": "October 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Started contributing to open source by participating in Hacktoberfest 2021"
     }

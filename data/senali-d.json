@@ -1,0 +1,35 @@
+{
+  "name": "Senali Dilumika",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Frontend Developer | Fan of Open Source | **Python** Enthusiast",
+  "avatar": "https://github.com/senali-d.png",
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Python"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/senali_d" },
+    { "icon": "FaGithub", "url": "https://github.com/senali-d" }
+  ],
+  "links": [
+    {
+      "name": "Portfolio: Checkout",
+      "url": "https://senali-d.github.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/senali_d",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/senali-d",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/senali-d",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

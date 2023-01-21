@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/tarunmankar",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/tarun-mankar",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/tarunmankar04",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/favalcodes",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/godwinvalerie1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedIn.com/in/favalcodes",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started coding",
       "date": "2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "black",
       "description": "Portfolio",
       "url": "https://www.favalcodes.netlify.app"

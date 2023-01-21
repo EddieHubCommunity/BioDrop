@@ -7,22 +7,22 @@
     {
       "name": "Watch my high-quality 📹 technical tutorials",
       "url": "https://youtube.com/vasanthdeveloper",
-      "icon": "youtube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Read my well-researched 🧵 threads on Twitter",
       "url": "https://twitter.com/vsnthdev",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Checkout my 💻 coding projects",
       "url": "https://github.com/vsnthdev",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Join my Discord 🤝 community",
       "url": "https://vas.cx/discord",
-      "icon": "discord"
+      "icon": "FaDiscord"
     }
   ],
   "milestones": [
@@ -30,7 +30,7 @@
       "title": "Started YouTube channel",
       "image": "https://gravatar.com/avatar/14c98aa05a55fb4e11cd4eedd1ecfb86?s=256",
       "date": "February 2017",
-      "icon": "youtube",
+      "icon": "FaYoutube",
       "color": "red",
       "description": "First video on \"How To Block Websites Using Hosts File On Any Device\".",
       "url": "https://youtube.com/vasanthdeveloper"
@@ -38,7 +38,7 @@
     {
       "title": "Started freelancing",
       "date": "2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing via Discord friends.",
       "url": "https://vsnth.dev"

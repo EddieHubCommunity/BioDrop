@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/stephanie-kuihg",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/stephaniekuihg/",
-      "icon": "LinkedIn"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -27,7 +27,7 @@
     {
       "title": "Started at Innovation and Integration",
       "date": "September 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "First job in the tech industry as a Junior Data Scientist!",
       "url": "https://www.linkedin.com/company/innovation-and-integration-ltd-/"

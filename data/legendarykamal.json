@@ -1,0 +1,79 @@
+{
+  "name": "Kamal Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "tags": [
+    "NextJS",
+    "typescript",
+    "ReactJS",
+    "tailwindCSS",
+    "web3",
+    "DevOps",
+    "Open Source"
+  ],
+  "bio": "MERN FullStack Developer turned into **Blockchain developer**. Create Apps , Dapps  , Travel , Life",
+  "avatar": "https://github.com/legendarykamal.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/0xkamal7" },
+    { "icon": "FaGithub", "url": "https://github.com/legendarykamal" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kamal-singh7"
+    },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@0xkamal7" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/0xkamal7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/kamal-singh7",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/kamalthedev",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Lens",
+      "url": "https://www.lensfrens.xyz/0xkamal7.lens",
+      "icon": "FaTree"
+    },
+    {
+      "name": "Subscribe to My Youtube Channel",
+      "url": "https://youtube.com/@0xkamal7",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "Dec 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started providing freelancing services",
+      "url": "https://www.freelancer.com/u/workaholic1729"
+    },
+    {
+      "title": "Started YouTube",
+      "image": "https://github.com/legendarykamal.png",
+      "date": "jan 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/@0xkamal7"
+    },
+    {
+      "title": "GitHub Contributor with over 1100+ contributions",
+      "date": "November 2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Open Source Contributor",
+      "url": "https://github.com/legendarykamal"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Abhi Patel",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "MERN Stack web developer • **Open Source** contributor • Freelancer • WEB3.0 + Cloud Enthusiast",
+  "tags": ["Open Source", "Freelancer", "React.js", "Next.js", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abhirk247AbhiPatel0001"
+    },
+    { "icon": "FaGithub", "url": "https://github.com/AbhiPatel10" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhipatel001/"
+    },
+    { "icon": "website", "url": "https://abhipatelportfolio.netlify.app/" }
+  ],
+  "avatar": "https://github.com/AbhiPatel10.png",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhipatel001/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbhiPatel0001",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AbhiPatel10",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit my personal website",
+      "url": "https://abhipatelportfolio.netlify.app/",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Oepn-Source",
+      "date": "December 2022",
+      "icon": "FaUsers",
+      "color": "grey",
+      "description": "Started Open-source contribution and adding value to the community.",
+      "url": "https://github.com/AbhiPatel10"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "April 2022 - Present",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Building Clients Online Precence",
+      "url": "https://abhipatelportfolio.netlify.app/"
+    },
+    {
+      "title": "Technical Committee Chair at IEEE SOU SB",
+      "date": "March 2021 - December 2022",
+      "icon": "FaUserTie",
+      "color": "grey",
+      "description": "Volunteering · Team Leadership · Teamwork · Team Building · Technical Support · Technical Leadership · Student Activities · Event Management"
+    }
+  ]
+}

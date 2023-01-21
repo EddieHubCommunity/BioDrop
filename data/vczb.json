@@ -7,17 +7,17 @@
     {
       "name": "Take a look at my GitHub",
       "url": "https://github.com/vczb",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/viniciuszucatti",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Find me at LinkedIn",
       "url": "https://www.linkedin.com/in/viniciuszucatti",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Visit my Behance",

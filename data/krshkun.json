@@ -1,0 +1,176 @@
+{
+  "name": "Krish Gupta 🥑",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "That DevREL Folk. Helping teams connect with their developer user base and grow ✨",
+  "tags": [
+    "Open Source",
+    "NextJS",
+    "React",
+    "TypeScript",
+    "Documentation",
+    "DevREL"
+  ],
+  "testimonials": ["loftwah", "tobySolutions", "LinuxGamer"],
+  "avatar": "https://github.com/krshkun.png",
+  "socials": [
+    {
+      "url": "https://twitter.com/krshkun",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/krshkun",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://linkedin.com/in/krshkun",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://instagram.com/krshkun",
+      "icon": "FaInstagram"
+    }
+  ],
+  "links": [
+    {
+      "name": "Some Useful Resources For You 🔥",
+      "url": "https://store.krshkun.eu.org",
+      "icon": "FaBook",
+      "color": "#ef4444"
+    },
+    {
+      "name": "Amazing Content On Twitter 🐦",
+      "url": "https://twitter.com/krshkun",
+      "icon": "FaTwitter",
+      "color": "#3b82f6"
+    },
+    {
+      "name": "My Open Source Resume 🚀",
+      "url": "https://github.com/krshkun",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "I Write My Own Blog ✍️",
+      "url": "https://blog.krsh.eu.org",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Random Things on Instagram 📷",
+      "url": "https://instagram.com/krshkun",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Book A Video Chat 🌟",
+      "url": "https://cal.com/krshg",
+      "icon": "FaCalendar"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "The Beginning",
+      "description": "Started my journey as a developer",
+      "date": "September 2021",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Made My First Open Source Contribution",
+      "description": "Contributed to the open source community",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "First Hacktoberfest",
+      "description": "Participated in Hacktoberfest with over 100 PRs",
+      "date": "October 2021",
+      "icon": "FaGitHub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Became an Open Source Maintainer",
+      "description": "Started maintaining my own @WebXDAO Open Source Projects",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "First Hackathon",
+      "description": "Participated in my first hackathon",
+      "date": "October 2021",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Became an Open Source Maintainer at EddieHub",
+      "description": "Started maintaining @EddieHubCommunity Open Source Project: hacktoberfest-practice",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Led a GHW Guild",
+      "description": "Led a guild at MLH Global Hack Week, that topped the leader board",
+      "date": "Janurary 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Won 2 Hackathons in Quick Succession",
+      "description": "Won BUIDL IT and Road to Web3 Hackathons",
+      "date": "January 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Became a Mentor at MLH",
+      "description": "Started mentoring at MLH",
+      "date": "January 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Mentored Several Hackathons",
+      "description": "Mentored at several hackathons including MLH, Hack Club, and more",
+      "date": "January 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Campus Ambassador at DevStrons' Hack Club",
+      "description": "Started working as a Campus Ambassador at DevStrons' Hack Club event BugTrons",
+      "date": "March 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Interned at Sema Software",
+      "description": "Interned at Sema Software as a Community Lead and as a Program Manager",
+      "date": "May 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Organised Hackathon: @FreyHacks",
+      "description": "Performed the role of a Technical Lead at FreyHacks",
+      "date": "May 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "DevREL Intern at EduHub",
+      "description": "Interned at EduHub as a DevREL Intern",
+      "date": "June 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Writing Blogs",
+      "description": "Started writing blogs on my personal blog",
+      "date": "June 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff",
+      "url": "https://blog.krsh.eu.org"
+    }
+  ]
+}

@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/MJCoder15",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Intrestingboy5",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mazhar-ansari-852713218/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

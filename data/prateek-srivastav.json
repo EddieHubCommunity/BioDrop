@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/prateek-srivastav",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/prateek-sri/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Coding",
       "date": "December 2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started to learn coding in C as my first language."
     }

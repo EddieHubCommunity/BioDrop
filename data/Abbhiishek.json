@@ -7,45 +7,45 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Abbhiishek",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/abbhishek_k",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check out my website",
       "url": "https://AbhijithGanesh.tech",
-      "icon": "globe"
+      "icon": "FaGlobe"
     }
   ],
   "milestones": [
     {
       "title": "Started Data Structures & Algorithms",
       "date": "November 2021",
-      "icon": "YouTube",
+      "icon": "FaYoutube",
       "color": "red",
       "description": "Started Problem Solving "
     },
     {
       "title": "Started Open Source",
       "date": "December 2021",
-      "icon": "GitHub",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started Contibuting To Beginner friendly Issues"
     },
     {
       "title": "Learning Api Development",
       "date": "December 2021",
-      "icon": "Globe",
+      "icon": "FaGlobe",
       "color": "orange",
       "description": "Reading FASTapi Docs!"
     },
     {
       "title": "Started Discord Bot Development",
       "date": "August 2021",
-      "icon": "Discord",
+      "icon": "FaDiscord",
       "color": "green",
       "description": "Learning Discord.Js"
     }

@@ -7,17 +7,17 @@
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/Athul0491",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Athul0491",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/athul-tulasidasan-4901",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

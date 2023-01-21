@@ -1,0 +1,35 @@
+{
+  "name": "Rhythm Sharma",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A passionate frontend developer and Flutter Application Developer from India",
+  "avatar": "https://avatars.githubusercontent.com/u/64489317?s=400&u=4a6d970580dcc2986a64cdff154b50ce02f9863f&v=4",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RhythmS12892298",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/yyrhythm/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rhythm-sharma-708a421a8/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Rhythm-08",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/channel/UCHZCU_przTINB8IRsgX0lig",
+      "icon": "FaYouTube"
+    }
+  ]
+}

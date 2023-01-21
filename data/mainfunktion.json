@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/mainfunktion",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/0x6f0x67",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Add on me LinkedIn",
       "url": "https://www.linkedin.com/in/sm-motale/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

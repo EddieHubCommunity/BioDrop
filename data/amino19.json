@@ -7,32 +7,32 @@
     {
       "name": "Check out my portfolio",
       "url": "https://amino19.github.io/online-resume",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/anshumaankumarprasad",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check out my GitHub",
       "url": "https://github.com/amino19",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Read my blog",
       "url": "https://amino19.medium.com/",
-      "icon": "book"
+      "icon": "FaBook"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/anshumaankumarprasad/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/aminostwt",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

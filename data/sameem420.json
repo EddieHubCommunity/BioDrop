@@ -7,38 +7,38 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/sameem420",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/devsameem",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/devsameem/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "September 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing with C# (.NET)"
     },
     {
       "title": "React Developer",
       "date": "March 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "red",
       "description": "Started working as a React Developer for an US-based StartUP"
     },
     {
       "title": "Started some OS Projects",
       "date": "December 2021",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "blue",
       "description": "Building some projects for community use. Currently in progress but soon will launch them and they will be open for contributions!"
     }

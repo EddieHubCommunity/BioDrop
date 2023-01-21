@@ -7,22 +7,22 @@
     {
       "name": "Github profile",
       "url": "https://github.com/Ruchiket100",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Twitter Threads (on Js, React and more)",
       "url": "https://twitter.com/BorseRuchiket",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/ruchikets_world/",
-      "icon": "instagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Blogs (I write about my dev journey and tech stuff)",
       "url": "https://hashnode.com/@Ruchiket",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     }
   ]
 }

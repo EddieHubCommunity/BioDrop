@@ -7,19 +7,19 @@
     {
       "name": "Yash Sharma",
       "url": "https://github.com/yashsharma999",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Yash Sharma",
       "url": "https://twitter.com/5273Yash",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Software Development",
       "date": "July 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "aliceblue",
       "description": "Started my first job in the industry as a web-developer , primarily a React Developer 🔥"
     }

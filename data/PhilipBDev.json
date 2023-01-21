@@ -7,29 +7,29 @@
     {
       "name": "Check out my portfolio ☕",
       "url": "https://www.philipb.dev/",
-      "icon": "search"
+      "icon": "FaSearch"
     },
     {
       "name": "Connect with me on LinkedIn 🤝",
       "url": "https://www.linkedin.com/in/philiprbrown/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on GitHub 💻",
       "url": "https://github.com/PhilipBDev",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter 🐦",
       "url": "https://twitter.com/PhilipBDev",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Sponsored Eddie!",
       "date": "January 26, 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Thank you for creating such an awesome open source community! 😁",
       "url": "https://github.com/sponsors/eddiejaoude"
@@ -37,7 +37,7 @@
     {
       "title": "Completed Portfolio",
       "date": "October 31, 2021",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "blue",
       "description": "Completed my very first developer portfolio!",
       "url": "https://www.philipb.dev/"

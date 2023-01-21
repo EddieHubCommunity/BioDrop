@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/saugatrajbhandari",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/hey_saugat",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started College",
       "date": "December 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "blue"
     }
   ]

@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/githubarj",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/richard-jeremy-githuba-80548922a/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/githubarj",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Learning Web Development!",
       "date": "February 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "blue",
       "description": "Started learning web development with the freeCodeCamp curriculum!",
       "url": "https://www.freecodecamp.org/learn"
@@ -32,7 +32,7 @@
     {
       "title": "Started Open Source Contribution",
       "date": "August 2022",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Started Contributing to Open Source",
       "url": "https://github.com/githubarj"

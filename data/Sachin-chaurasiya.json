@@ -7,22 +7,22 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Sachin-chaurasiya",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/sachindotcom",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/sachin-chaurasiya",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Read my technical content on Hasnode",
       "url": "https://sachinchaurasiya.hashnode.dev/",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Read my technical content on dev.to",
@@ -34,7 +34,7 @@
     {
       "title": "Started Web Development",
       "date": "March 2019",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "purple",
       "description": "Started Web Development (learning HTML, CSS and Javascript...)",
       "url": "https://sachinchaurasiya.netlify.app/"
@@ -42,7 +42,7 @@
     {
       "title": "Started Freelancing",
       "date": "Feb 2020",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "purple",
       "description": "Started freelancing and build application with wordpress, javascript,react and django",
       "url": "https://sachinchaurasiya.netlify.app/"

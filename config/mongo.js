@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 import * as fs from "fs";
 
+import logger from "../config/logger";
+
 let hasConnection = false;
 const connectMongo = async () => {
   if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
@@ -19,12 +21,12 @@ const connectMongo = async () => {
       fs.writeFileSync("cert.pem", process.env.CA_CERT);
     }
 
-    mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
+    await mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
     hasConnection = true;
-    console.log("DB connected");
-  } catch (err) {
+    logger.info("MongoDB connected");
+  } catch (e) {
     hasConnection = false;
-    console.error("DB Not connected", err);
+    logger.error(e, "DB connection failed");
   }
 };
 

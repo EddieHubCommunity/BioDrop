@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/wayneomahony",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/sumosaurus",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Submitted MSc Thesis",
       "date": "September 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Submitted MSc Thesis"
     }

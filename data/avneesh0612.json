@@ -7,27 +7,27 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/avneesh0612",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/avneesh0612",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Join my Discord Server",
       "url": "https://discord.gg/XxyFwJPsJw",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Check out my portfolio",
       "url": "https://www.avneesh.tech/",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Check my blog posts",
       "url": "https://blog.avneesh.tech/",
-      "icon": "book"
+      "icon": "FaBook"
     }
   ]
 }

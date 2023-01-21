@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/enn-dee",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/EnDee404",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

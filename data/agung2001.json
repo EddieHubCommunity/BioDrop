@@ -1,0 +1,98 @@
+{
+  "name": "Agung Sundoro",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "👋😁 Hi there, I'm Agung Sundoro aka agung2001, a passionate full stack web developer and software engineer from Indonesia 🇮🇩",
+  "avatar": "https://github.com/agung2001.png",
+  "tags": ["WordPress", "PHP", "JavaScript", "TypeScript", "Svelte"],
+  "socials": [
+    { "icon": "website", "url": "https://agung2001.github.io" },
+    { "icon": "FaGithub", "url": "https://github.com/agung2001" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/agung2001" }
+  ],
+  "links": [
+    {
+      "name": "Every journey starts with a little step",
+      "url": "https://agung2001.github.io",
+      "icon": "SiOpensourceinitiative"
+    },
+    {
+      "name": "Reading a book together",
+      "url": "https://goodreads.com/agungsundoro",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Any new tweet from Elon musk?",
+      "url": "https://twitter.com/agung2001",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me or I call the police",
+      "url": "https://instagram.com/agung2001",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "We all love open source",
+      "url": "https://github.com/agung2001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Find a job, Make Money, Repeat",
+      "url": "https://www.linkedin.com/in/agungsundoro",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Having fun doing music and research",
+      "url": "https://www.youtube.com/channel/UCI1uulkvet06Mm3wfpQvpLg",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "🤘 Heavy metal never die",
+      "url": "https://open.spotify.com/user/21yip2zhtynpaalfr53tonr5a",
+      "icon": "url"
+    },
+    {
+      "name": "🤓 Just another WordPress Profile",
+      "url": "https://profiles.wordpress.org/agung2001/",
+      "icon": "url"
+    },
+    {
+      "name": "🐳 Living inside a container",
+      "url": "https://hub.docker.com/u/agung2001",
+      "icon": "url"
+    },
+    {
+      "name": "📝 Old collection of articles",
+      "url": "https://agungsundoro.blogspot.com/",
+      "icon": "url"
+    },
+    {
+      "name": "🎨 Design work",
+      "url": "https://dribbble.com/agung2001",
+      "icon": "url"
+    },
+    {
+      "name": "👩‍🚀 Meet the community",
+      "url": "https://www.facebook.com/cotothepong/",
+      "icon": "url"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "🎉 WordPress Plugin Got Accepted",
+      "date": "October 2021",
+      "icon": "SiCodeforces",
+      "color": "black",
+      "description": "One of my plugins got accepted to the WordPress plugin directory",
+      "url": "https://wordpress.org/plugins/floating-awesome-button/"
+    },
+    {
+      "title": "🤯 Started Agency",
+      "date": "January 2019",
+      "icon": "SiCodeforces",
+      "color": "black",
+      "description": "Started a WordPress and Web Design Agency Company",
+      "url": "https://artistudio.xyz"
+    }
+  ]
+}

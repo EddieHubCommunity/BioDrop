@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/HimanshuSinghNegi",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Hnegi2980Negi",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/himanshusinghnegi",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Open Souce Contribution",
       "date": "October 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Open Source Contribution"
     }

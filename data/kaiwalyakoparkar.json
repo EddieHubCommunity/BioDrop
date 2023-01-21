@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/kaiwalyakoparkar",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/kaiwalya_",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

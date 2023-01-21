@@ -7,26 +7,26 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/AHTHneeuhl",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ahthneeuhl",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Frontend Developer",
       "date": "December 2021 - January 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Worked on Angular and NodeJS project."
     },
     {
       "title": "UI Software Engineer",
       "date": "Junuary 2022 - Present",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started working as UI Software Engineer",
       "url": "https://nullinnovation.com/"

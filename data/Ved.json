@@ -7,34 +7,34 @@
     {
       "name": "Follow My Projects On Github",
       "url": "https://github.com/vedprakashnautiyal",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Checkout My Journey & Experiences On Twitter",
       "url": "https://twitter.com/v3dprakash",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "My Personal Blog Channel",
       "url": "https://vedprakashnautiyal.medium.com",
-      "icon": "medium"
+      "icon": "SiMedium"
     },
     {
       "name": "Technical Blog Channel",
       "url": "https://vedprakashnautiyal.hashnode.dev",
-      "icon": "hashnode"
+      "icon": "SiHashnode"
     },
     {
       "name": "Connect With Me On LinkedIn",
       "url": "https://www.linkedin.com/in/vedprakashnautiyal",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "First Post On Twitter",
       "date": "24 September 2021",
-      "icon": "twitter",
+      "icon": "FaTwitter",
       "color": "blue",
       "description": "Started Learning In Public",
       "url": "https://twitter.com/v3dprakash/status/1573418228755595270"

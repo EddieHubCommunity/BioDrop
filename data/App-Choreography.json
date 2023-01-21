@@ -7,22 +7,22 @@
     {
       "name": "Check out our website 🌐",
       "url": "https://app-choreography.github.io",
-      "icon": "globe"
+      "icon": "FaGlobe"
     },
     {
       "name": "Contact us here for questions 🙋‍♂️🙋‍♀️",
       "url": "https://github.com/App-Choreography/Support/issues/new/choose",
-      "icon": "envelope"
+      "icon": "FaEnvelope"
     },
     {
       "name": "Join the Organisation",
       "url": "https://github.com/App-Choreography/Get-An-Invite",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Check out our GitHub profile",
       "url": "https://github.com/App-Choreography",
-      "icon": "github"
+      "icon": "FaGithub"
     }
   ],
   "milestones": [

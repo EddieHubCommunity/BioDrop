@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/neerajrathore",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/neerajrathore/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started my career in Computer Engineering",
       "date": "July 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "magenta",
       "description": "Learned Programming Languages, Data Structures, Databases, Mobile App Development"
     }

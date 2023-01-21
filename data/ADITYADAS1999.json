@@ -1,0 +1,34 @@
+{
+  "name": "ADITYA DAS",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open source enthusiast",
+  "avatar": "https://github.com/ADITYADAS1999.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ADITYA90546170",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/aditya-das-7b2276202",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "visit my portfollio",
+      "url": "https://adityadas1999.github.io/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UCUBqrPu1GoR0Cfgl5rDHIbg",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "visit my Github profile",
+      "url": "https://github.com/ADITYADAS1999",
+      "icon": "FaGithub"
+    }
+  ]
+}

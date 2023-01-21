@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/abhinavdubeyad9",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/hey_ad9",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/abhinavdubeyad9",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub 😺",
       "url": "https://github.com/Felipeceballos12",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter ✨",
       "url": "https://twitter.com/codeandfelipex",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn ✨",
       "url": "https://www.linkedin.com/in/luisfelipeceballos",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Programming technician (Internship)",
       "date": "Mayo 2016",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "First job",
       "url": "https://www.datecsa.com/"

@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/falakamin31",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/falakamin31",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/falakamin",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -25,7 +25,7 @@
       "title": "Started Open Source Contribution",
       "image": "https://github.com/falakamin31.png",
       "date": "September 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Contributing in open source projects",
       "url": "https://github.com/falakammin31"

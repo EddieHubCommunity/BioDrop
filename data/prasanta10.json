@@ -7,12 +7,12 @@
     {
       "name": "Checkout my GitHub Repositories",
       "url": "https://github.com/prasanta10",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/prasanta-chettri-68a845223",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

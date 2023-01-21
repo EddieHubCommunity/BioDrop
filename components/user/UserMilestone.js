@@ -1,7 +1,8 @@
-import Icon from "../Icon";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import getIcon from "../Icon";
 
 export default function UserMilestone({ milestone, isGoal }) {
+  const DisplayIcon = getIcon(milestone.icon);
   return (
     <a
       href={milestone.url ? milestone.url : "/"}
@@ -19,7 +20,7 @@ export default function UserMilestone({ milestone, isGoal }) {
         }}
       >
         <div className="flex space-x-3">
-          <Icon name={milestone.icon} />
+          <DisplayIcon />
           <div className="flex-1 space-y-1">
             <div className="flex items-center justify-between">
               <h3 className="text-lg font-medium">{milestone.title}</h3>

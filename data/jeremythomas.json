@@ -7,14 +7,14 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/saucebox11",
-      "icon": "github"
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
     {
       "title": "Started My Coding Journey",
       "date": "December 2019",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started coding"
     }

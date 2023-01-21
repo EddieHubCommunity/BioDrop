@@ -7,29 +7,29 @@
     {
       "name": "Portfolio",
       "url": "https://prasundas99.github.io/Portfolio/index.html",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/PrasunDas99",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Medium",
       "url": "https://medium.com/@prasundas115",
-      "icon": "medium"
+      "icon": "SiMedium"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/prasun--das",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Open Source",
       "date": "May 2020",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Contributed to Twillo",
       "url": "https://github.com/Prasundas99"
@@ -37,7 +37,7 @@
     {
       "title": "Started PepHub",
       "date": "July 2022",
-      "icon": "book",
+      "icon": "FaBook",
       "color": "green",
       "description": "a collective effort to create a community for DSA and Dev",
       "url": "https://pephub.tech"

@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ayushlohmod",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ayushlohmod",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/ayush-lohmod-22411a139/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
@@ -32,7 +32,7 @@
     {
       "title": "Learning to Code!",
       "date": "April 2021",
-      "icon": "DEV.to",
+      "icon": "FaDev",
       "color": "blue",
       "description": "Started learning to code from freeCodeCamp and other youtubers"
     }

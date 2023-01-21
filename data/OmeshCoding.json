@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Omeshcoding",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Omesha_Sh?t=WXiuR3MFIBR261QErD7kkg&s=35",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

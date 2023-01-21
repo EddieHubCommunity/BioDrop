@@ -7,17 +7,17 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/damoski2",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AkogunOyindamo3",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/oyindacodes/",
-      "icon": "linkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Check Out my Portfolio",
@@ -29,7 +29,7 @@
     {
       "title": "Started Freelancing",
       "date": "May 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": " https://www.linkedin.com/in/oyindacodes"

@@ -7,19 +7,19 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Aditya-Narayan-Nayak",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AdityaN71677515",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Getting Started into IT Field",
       "date": "July 2020",
-      "icon": "YouTube",
+      "icon": "FaYoutube",
       "color": "red",
       "description": "Started learning Python From Udemy"
     }

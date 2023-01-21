@@ -7,18 +7,18 @@
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/shivamstwt1",
-      "icon": "Twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Here's my GitHub",
       "url": "https://github.com/shivam-sharma7",
-      "icon": "Github"
+      "icon": "FaGithub"
     },
 
     {
       "name": "Blog's",
       "url": "https://shivam-sharma.hashnode.dev/",
-      "icon": "Link"
+      "icon": "FaLink"
     }
   ]
 }

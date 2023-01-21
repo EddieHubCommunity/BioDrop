@@ -7,41 +7,41 @@
     {
       "name": "Motsoane Global Enterprise (MogenPty)",
       "url": "https://www.mogen.co.za",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/realsollym",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/realsollym",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Check my StackOverflow profile",
       "url": "https://stackoverflow.com/users/1168597/realsollym",
-      "icon": "stackoverflow"
+      "icon": "FaStackOverflow"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/realsollym",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "March 2004",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Co-founded Solvor Info Tech Solutions"
     },
     {
       "title": "More Freelancing",
       "date": "March 2009",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "blue",
       "description": "Co-founded Q Unlimited Group of Companies",
       "url": "https://za.ypgo.net/50197675755"
@@ -49,7 +49,7 @@
     {
       "title": "Sole Founder",
       "date": "Jan 2014",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "purple",
       "description": "Founded Motsoane Global Enterprise",
       "url": "https://www.mogen.co.za/"

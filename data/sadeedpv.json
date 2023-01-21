@@ -7,17 +7,17 @@
     {
       "name": "Follow on GitHub",
       "url": "https://github.com/sadeedpv",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow on Twitter",
       "url": "https://twitter.com/PvSadeed",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Personal Portfolio",
       "url": "https://sadeedpv.github.io/",
-      "icon": "link"
+      "icon": "FaLink"
     }
   ]
 }

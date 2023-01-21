@@ -7,43 +7,43 @@
     {
       "name": "let's connect on GitHub",
       "url": "https://github.com/Niravprajapati1",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Nirav97120",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/nirav-prajapati-77a588223",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on showwcase",
       "url": "https://www.showwcase.com/nirav",
-      "icon": "link"
+      "icon": "FaLink"
     }
   ],
   "milestones": [
     {
       "title": "Started learning java and dsa",
       "date": "june 2022",
-      "icon": "globe",
+      "icon": "FaGlobe",
       "color": "red",
       "description": "Started learning java and dsa ."
     },
     {
       "title": "Started Open Source Contribution",
       "date": "December 2021",
-      "icon": "github",
+      "icon": "FaGithub",
       "color": "green",
       "description": "Started contributing to Open Source projects"
     },
     {
       "title": "created first virtual machine",
       "date": "May 2022",
-      "icon": "link",
+      "icon": "FaLink",
       "color": "blue",
       "description": "learnt how to create virtual machine in Google cloud.",
       "url": "https://coursera.org/verify/TFQD5ZKM7MEZ"

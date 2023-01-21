@@ -7,12 +7,12 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Saha-7",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/saha7pritam",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

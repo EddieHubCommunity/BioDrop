@@ -7,29 +7,29 @@
     {
       "name": "My Portfolio Website",
       "url": "https://aayushd.in",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Follow my Open Source on Github",
       "url": "https://github.com/aayushd18",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/aayushdeshmukh",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/aayushd18",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Undergraduation",
       "date": "July 2019",
-      "icon": "graduation-hat",
+      "icon": "FaGraduationCap",
       "color": "grey",
       "description": "Started pursuing my CS degree at IIT Bhilai",
       "url": "https://www.iitbhilai.ac.in/"
@@ -37,7 +37,7 @@
     {
       "title": "Web3 Developer Internship",
       "date": "April 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "green",
       "description": "Started my first internship as a Web3 Dev",
       "url": "https://www.linkedin.com/company/myriadco/"

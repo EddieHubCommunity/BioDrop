@@ -7,12 +7,12 @@
     {
       "name": "My open source github",
       "url": "https://github.com/simrangupta234",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/simrangupta234",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

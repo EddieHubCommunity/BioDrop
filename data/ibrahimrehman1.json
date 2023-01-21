@@ -7,24 +7,24 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/ibrahimrehman1",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/ibrahimrehmanweb/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Ibrahim02572102",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Remote Work",
       "date": "April 2022",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started working at ConceptZi in part-time, as a Full Stack Web and Mobile App Developer. Mostly working on React, Vue and Flutter"
     }

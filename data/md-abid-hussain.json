@@ -1,0 +1,34 @@
+{
+  "name": "Md Abid Hussain",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Pursuing B. Tech in computer science and engineering.",
+  "avatar": "https://github.com/md-abid-hussain.png",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/md-abid-hussain-52862b229/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on GitHub",
+      "url": "https://github.com/md-abid-hussain",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my Website",
+      "url": "https://md-abid-hussain.github.io/CV/",
+      "icon": "FaDollarSign"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "FaHacktoberfest",
+      "color": "grey",
+      "description": "Completed Hacktoberfest 2022 challenge",
+      "url": "https://www.holopin.io/@mdabidhussain#"
+    }
+  ]
+}

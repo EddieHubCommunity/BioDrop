@@ -1,0 +1,27 @@
+{
+  "name": "Kiran Amin Panjwani ",
+
+  "type": "personal",
+
+  "bio": "Open Source Contributor | MERN Developer | Microsoft Learn Student Ambassador",
+
+  "avatar": "https://github.com/KiranAminPanjwani.png",
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+
+      "url": "https://github.com/KiranAminPanjwani",
+
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "Follow me on Twitter",
+
+      "url": "https://twitter.com/kiranpanjwani7",
+
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -7,17 +7,17 @@
     {
       "name": "Join our GitHub Organisation",
       "url": "https://github.com/InnateComm",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Join our Discord Community",
       "url": "https://innatecomm.us/chat",
-      "icon": "discord"
+      "icon": "FaDiscord"
     },
     {
       "name": "Follow us on Twitter",
       "url": "https://twitter.com/InnateComm",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

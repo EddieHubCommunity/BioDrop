@@ -7,17 +7,17 @@
     {
       "name": "Take a look at my GitHub",
       "url": "https://github.com/imtmh",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/imtmh",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Find me at LinkedIn",
       "url": "https://www.linkedin.com/in/imtmh/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

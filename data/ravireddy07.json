@@ -7,24 +7,24 @@
     {
       "name": "Follow on Twitter",
       "url": "https://twitter.com/ravi_reddy_07",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow on GitHub",
       "url": "https://github.com/ravireddy07",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Let's Connect on LinkedIn",
       "url": "https://linkedin.com/in/ravireddy07",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "Jan 2020",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing",
       "url": "https://github.com/ravireddy07/"
