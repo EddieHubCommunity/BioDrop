@@ -1,0 +1,35 @@
+{
+  "name": "Rayees Ahmad Rather",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A 20 year old kid **Learner | Programmer**. tech enthusiastic",
+  "tags": ["Open Source", "Learner", "Programmer", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Rayeesrather15" },
+    { "icon": "FaGithub", "url": "https://github.com/rayeesrather99" },
+    { "icon": "FaInstagram", "url": "https://instagram.com/rayeesrather786" }
+  ],
+  "avatar": "https://github.com/rayeesrather99.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rayeesrather15",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/rayeesrather786",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/rayees-rather-a82937240",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/rayeesrather99",
+      "icon": "FaGithub"
+    }
+  ]
+}

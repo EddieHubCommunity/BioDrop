@@ -1,0 +1,94 @@
+{
+  "name": "Tanishka Yadav",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "SWE Intern | Full-Stack Developer | Technical Writer |",
+  "avatar": "https://github.com/Tanishka-dev.png",
+  "tags": [
+    "Javascript",
+    "ReactJs",
+    "TailwindCSS",
+    "Typescript",
+    "Technical Writer"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/tanishka__yadav" },
+    { "icon": "FaGithub", "url": "https://github.com/Tanishka-dev" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tanishkayadav/"
+    }
+  ],
+  "links": [
+    {
+      "name": "About Me",
+      "url": "https://tanishka-yadav.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "LinkedIn: Let's connect 🤝",
+      "url": "https://www.linkedin.com/in/tanishkayadav/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Let's have a quick chat 💬",
+      "url": "https://twitter.com/tanishka__yadav",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: I've 317 followers on GitHub and It’s a flex! 💪🏼",
+      "url": "https://github.com/Tanishka-dev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Medium: Daily doze of Web development 👩🏼‍💻",
+      "url": "https://medium.com/@tanishka_yadav",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "TopMate Free Mentorship Session: Book a slot now!🔒",
+      "url": "https://topmate.io/tanishkayadav",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Email: Business Queries",
+      "url": "mailto:tanishakayadav2110@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "SDE Intern(Front-end)",
+      "date": "May 2022",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Worked on ReactJS, TypeScript, TailwindCSS and more",
+      "url": "https://www.parentune.com/"
+    },
+    {
+      "title": "SWE Intern(Full-Stack)",
+      "date": "July 2022",
+      "icon": "FaLink",
+      "color": "red",
+      "description": "Working on ReactJS, JavaScript, and SpringBoot",
+      "url": "https://www.wearemiq.com/"
+    },
+    {
+      "title": "Content creator",
+      "date": "2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Built an audience of 12k+ on Twiiter",
+      "url": "https://twitter.com/tanishka__yadav"
+    },
+    {
+      "title": "Mentor to 30+ students",
+      "date": "2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Free mentorship sessions on weekends",
+      "url": "https://topmate.io/tanishkayadav"
+    }
+  ]
+}
