@@ -2,7 +2,7 @@
   "name": "Aadarsh Thakur",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Frontend Developer | Open source contributor | Building cool projects | Love cats 🐈",
+  "bio": "Frontend Developer | Open source contributor | Building cool projects | Loves cats 🐈",
   "avatar": "https://github.com/Aadarsh805.png",
   "tags": [
     "nextJS",
@@ -22,6 +22,7 @@
       "url": "https://github.com/Aadarsh805"
     }
   ],
+  "testimonials": ["eddiejaoude"],
   "links": [
     {
       "name": "Daily tweets on Web development and random shitposting",

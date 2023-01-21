@@ -1,0 +1,42 @@
+{
+  "name": "John Green",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Senior Software Engineer | Founder greenchapel.dev | Gundog Trainer",
+  "avatar": "https://github.com/greenchapeljohn.png",
+  "tags": ["Typescript", "Angular", "DevOps", "C#", "C++", "Embedded"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/JohnGreenDev" },
+    { "icon": "FaGithub", "url": "https://github.com/greenchapeljohn" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/@JohnGreenDev" }
+  ],
+  "links": [
+    {
+      "name": "Blog: GreenChapel.dev",
+      "url": "https://greenchapel.dev",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/JohnGreenDev",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube: Learn more about the goings on of a Snr Dev",
+      "url": "https://youtube.com/@JohnGreenDev",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/john-green-dev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@JohnGreenDev",
+      "icon": "FaMastodon"
+    }
+  ]
+}
