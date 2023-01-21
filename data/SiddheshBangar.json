@@ -26,6 +26,11 @@
       "icon": "FaGithubSquare"
     },
     {
+      "name": "Hashnode: Check out my blogs",
+      "url": "https://sidddhesh.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
       "name": "Medium: Check out my blogs",
       "url": "https://medium.com/@siddheshb008",
       "icon": "FaMedium"
@@ -43,7 +48,7 @@
     {
       "name": "LinkedIn: Let's connect!",
       "url": "https://www.linkedin.com/in/siddheshbangar/",
-      "icon": "FaLinkedin"
+      "icon": "SiLinkedin"
     },
     {
       "name": "You can Email me at",

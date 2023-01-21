@@ -1,0 +1,58 @@
+{
+  "name": "Pranav Tripathi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Lover, with a little bit knowledge of Front-End Development",
+  "tags": ["Open Source", "Blogging", "Web Dev", "Public Speaker"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/prnvtwts" },
+    { "icon": "FaGithub", "url": "https://github.com/prnvtripathi/" },
+    { "icon": "SiHashnode", "url": "https://prnvtripathi.hashnode.dev/" }
+  ],
+  "avatar": "https://github.com/prnvtripathi.png",
+  "links": [
+    {
+      "name": "Checkout my portfolio website",
+      "url": "https://pranavtripathi.vercel.app",
+      "icon": "FaUser"
+    },
+    {
+      "name": "Let's See each other on Twitter",
+      "url": "https://twitter.com/prnvtwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here's my LinkedIn",
+      "url": "https://linkedin.com/in/tripathipranav14/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Take a look on my github profile",
+      "url": "https://github.com/prnvtripathi/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Wanna read the blogs I wrote",
+      "url": "https://prnvtripathi.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Jumped into the ocean of Open Source",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Participated in Hacktoberfest",
+      "url": "https://github.com/prnvtripathi/"
+    },
+    {
+      "title": "Blog about my hacktoberfest experiences",
+      "date": "October 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "My firrst hacktober experience",
+      "url": "https://prnvtripathi.hashnode.dev/"
+    }
+  ]
+}

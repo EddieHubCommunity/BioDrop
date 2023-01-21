@@ -1,0 +1,69 @@
+{
+  "name": "Vidhi Makani",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Newbie in tech | Learning Web-Development | Learning from Communities & Opensource ",
+
+  "tags": ["Open Source", "Web Development", "Frontend"],
+
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vidhimakani74"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vidhi-makani-1876a7223/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://https://twitter.com/VIDHi477"
+    }
+  ],
+
+  "avatar": "https://github.com/vidhimakani74.png",
+
+  "links": [
+    {
+      "name": "Check out my Website",
+      "url": "https://vidhimakani.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VIDHi477",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vidhi-makani-1876a7223/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vidhimakani74",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/users/vidhimakani007",
+      "icon": "SiCodechef"
+    },
+    {
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/vidhimakani007",
+      "icon": "SiHackerrank"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Made Digital Token System For Jansevakendra",
+      "date": "October 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "This is Digital Token System for Jansevakendra, it is one type of token generations website for Queue management. it is a software to manage crowd/queues efficiently by issuing tokens in customer-facing businesses and departments. ",
+      "url": "https://github.com/vidhimakani74/Digital-Token-System-Hackathon"
+    }
+  ]
+}

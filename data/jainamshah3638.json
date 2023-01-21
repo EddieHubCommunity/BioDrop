@@ -1,0 +1,33 @@
+{
+  "name": "Jainam shah",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "tags": ["Open Source", "javascript", "React", "TypeScript", "Nextjs"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jainam-shah-21284814b/"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/Jainamh_shah" },
+    { "icon": "FaGithub", "url": "https://github.com/jainamshah3638" }
+  ],
+  "avatar": "https://github.com/jainamshah3638.png",
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/jainam-shah-21284814b/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Jainamh_shah",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/jainamshah3638",
+      "icon": "FaGithub"
+    }
+  ]
+}

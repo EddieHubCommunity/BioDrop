@@ -1,18 +1,27 @@
 import fs from "fs";
 import path from "path";
 
+import logger from "../../config/logger";
+
 export default async function handler(req, res) {
   const directoryPath = path.join(process.cwd(), "data");
-  const userFolders = fs
-    .readdirSync(directoryPath)
-    .filter((item) => !item.includes("json"));
+
+  let userFolders;
+  try {
+    userFolders = fs
+      .readdirSync(directoryPath)
+      .filter((item) => !item.includes("json"));
+  } catch (e) {
+    logger.error(e, "failed to load profiles");
+  }
+
   const events = userFolders.flatMap((folder) => {
     const eventsPath = path.join(directoryPath, folder, "events");
     let eventFiles = [];
     try {
       eventFiles = fs.readdirSync(eventsPath);
     } catch (e) {
-      console.log(`ERROR no events in "${eventsPath}"`);
+      logger.info(e, `no events in ${eventsPath}`);
       return [];
     }
     const eventFilesContent = eventFiles.flatMap((file) => {
@@ -22,7 +31,7 @@ export default async function handler(req, res) {
           username: folder,
         };
       } catch (e) {
-        console.log(`ERROR loading event "${file}" in "${eventsPath}"`);
+        logger.error(e, `failed loading event "${file}" in "${eventsPath}"`);
         return [];
       }
     });

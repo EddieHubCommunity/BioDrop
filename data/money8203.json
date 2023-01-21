@@ -1,6 +1,7 @@
 {
   "name": "Manish Tyagi ",
   "type": "Personal",
+  "displayStatsPublic": true,
   "bio": "Open Source Advocate | Web Developer | Postman Student Expert",
   "avatar": "https://github.com/money8203.png",
   "tags": ["Open Source", "Web Development", "Frontend", "API's", "DevRel"],

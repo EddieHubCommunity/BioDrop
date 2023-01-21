@@ -1,0 +1,35 @@
+{
+  "name": "Harsha Singamshetty",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Blockchain Dev!",
+  "tags": ["Open Source", "Content Writer", "Web3", "Blockchain Dev"],
+  "avatar": "https://github.com/harshasingamshetty1.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HarshaSingam29",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsha-vardhan-singamshetty-3a1a911b1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/harshasingamshetty1",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started contributing to Open Source on Github",
+      "url": "https://github.com/harshasingamshetty1"
+    }
+  ]
+}
