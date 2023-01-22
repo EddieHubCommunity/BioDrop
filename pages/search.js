@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { useEffect, useState, useRef } from "react";
-import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
-
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
@@ -31,10 +29,6 @@ export default function Search({ users }) {
   const [inputValue, setInputValue] = useState(
     username ? username : search ? search : ""
   );
-
-  const DynamicMap = dynamic(() => import("../components/map/map"), {
-    ssr: false,
-  });
 
   let results = [];
 
@@ -117,7 +111,6 @@ export default function Search({ users }) {
             message="You have to enter at least 3 characters to search for a user."
           />
         )}
-        <DynamicMap users={filteredUsers.length ? filteredUsers : users} />;
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>

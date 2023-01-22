@@ -2,12 +2,9 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
-// note to other devs - this default marker from the leaflet docs won't
-// render without additional packages but we won't need them later so not
-// adding them. it will appear as a broken image on the map for now
-
+//TODO: map through users, add marker cluster, fix height for responsive- leaflet requires a height value unless the parent is defined 
 export default function Map({ users }) {
-  console.log(users.length);
+  console.log(users);
   return (
     <MapContainer
       style={{ height: "800px", zIndex: 10 }}
@@ -20,11 +17,26 @@ export default function Map({ users }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={[51.505, -0.09]}>
-        <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
-        </Popup>
-      </Marker>
+        <div>
+          <Marker
+            icon={L.icon({
+              className: "rounded-full",
+              iconUrl: users.avatar,
+              popupAnchor: [0, -10],
+              iconSize: [40, 40],
+              iconAnchor: [20, 20],
+            })}
+            position={[users.location.lat, users.location.lon]}
+          >
+            <Popup>
+              <div className="flex flex-col gap-[5px]">
+                <h1 className="font-[600]">{users.username}</h1>
+                <span>Location - {users.location.provided}</span>
+                <span>Bio - {users.bio}</span>
+              </div>
+            </Popup>
+          </Marker>
+          </div>
     </MapContainer>
   );
 }

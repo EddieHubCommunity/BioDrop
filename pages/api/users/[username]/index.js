@@ -13,7 +13,6 @@ export default async function handler(req, res) {
   const { username } = req.query;
   let log;
   log = logger.child({ username: username });
-
   const data = findOneByUsernameFull(username);
 
   if (!data.username) {
@@ -150,7 +149,6 @@ export default async function handler(req, res) {
 
   if (!latestProfile.location.provided) {
     const location = await getLocationByUsername(username);
-
     try {
       await Profile.updateOne(
         {
@@ -176,6 +174,7 @@ export default async function handler(req, res) {
   const profileWithStats = {
     username,
     ...data,
+    location: latestProfile.location ? latestProfile.location : "",
     views: latestProfile.views,
     links: data.links.map((link) => {
       const statFound = links.find((linkStats) => linkStats.url === link.url);
