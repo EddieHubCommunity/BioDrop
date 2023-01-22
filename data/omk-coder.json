@@ -12,10 +12,10 @@
     "Open Source" 
   ],
   "socials":[
-    {"icons":"FaGithub", "url":"https://github.com/omk-coder"},
-      {"icons":"FaLinkedin", "url":"https://www.linkedin.com/in/omkar-ramishte-9ba784207/"},
-      {"icons":"FaTwitter", "url":"https://twitter.com/ORamishte"},
-      {"icons":"SiHashnode", "url":"https://hashnode.com/@Omkar009"}
+    {"icon":"FaGithub", "url":"https://github.com/omk-coder"},
+      {"icon":"FaLinkedin", "url":"https://www.linkedin.com/in/omkar-ramishte-9ba784207/"},
+      {"icon":"FaTwitter", "url":"https://twitter.com/ORamishte"},
+      {"icon":"SiHashnode", "url":"https://hashnode.com/@Omkar009"}
   ],
   "avatar": "https://github.com/omk-coder.png",
   "links": [
@@ -68,7 +68,7 @@
     },
     {
       "title":"Started writing blogs",
-      "icons":"SiHashnode",
+      "icon":"SiHashnode",
       "description":"At frist started writting blog to win some challenges but eventually it started to becoming addictive and also we can gain more knowledge or share our knowledge with the help of blogs"
     }
 
