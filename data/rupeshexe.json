@@ -15,7 +15,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
     { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@rupeshexe" }
+    { "icon": "FaYoutube", "url": "https://youtube.com/@rupeshexe" },
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/rupeshexe" }
   ],
   "links": [
@@ -43,7 +43,7 @@
     {
       "name": "Open Source and Random Tech Blogs",
       "url": "https://rupeshexe.hashnode.dev/",
-      "icon": "FaHashnode"
+      "icon": "FaHashnode",
       "color": "#0755AA"
     },
     {
