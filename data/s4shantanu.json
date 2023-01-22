@@ -19,8 +19,10 @@
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/shantanu-raut/",
       "icon": "FaLinkedin"
+
     } ,
-{
+    {
+
       "name": "Follow me on Github",
       "url": "https://github.com/s4shantanu",
       "icon": "FaGithub"

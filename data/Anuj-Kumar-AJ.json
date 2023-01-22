@@ -1,0 +1,80 @@
+{
+  "name": "Anuj Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Cloud and Infrastructure enthusiast | OpenSource enthusiast | I am Anuj Kumar, Graduated in 2022 with mechanical Engineering degree. During my college i got to know about computer and got super excited in tech field, but due not getting to meet amazing people like Eddie and Kunal Kushwaha. I dont get chance to explore in this domain my peers are all about competitive programming. Well in lockdown period i meet eddie and kunal and got in tech Twitter. From them i got into openSource, I am very grateful to them that currently i am exploring with guidance in tech field . About my Domain in tech after exploration i have decided to pursue my career in the field of cloud and infrastructure.",
+  "avatar": "https://github.com/Anuj-Kumar-AJ.png",
+
+  "tags": [
+    "Open Source",
+    "Python",
+    "Javascript",
+    "DevOps",
+    "Cloud and Infrastructure"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AnujAJtwt" },
+    { "icon": "FaGithub", "url": "https://github.com/Anuj-Kumar-AJ" }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AnujAJtwt",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://cloud-native.social/@AnujAJ",
+      "icon": "FaMastodon",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "HashNode",
+      "url": "https://hashnode.com/@Anuj-kumar-aj",
+      "icon": "SiHashnode",
+      "color": "#00ACEE"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Web Development",
+      "date": "June 2022",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started Learning ReactJS"
+    },
+    {
+      "title": "Started my OpenSource Journey",
+      "date": "June 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Submitted my First PR in eddieHub Community. Added name to member file"
+    },
+
+    {
+      "title": "Started Learning Docker",
+      "date": "October 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Learning Docker, for containerise application , learned about containers , images , how to pull image from dockerHub, played with images and containers in terminal"
+    },
+
+    {
+      "title": "Started Learning Kubernetes",
+      "date": "November 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Learning Kubernetes, learnt about why we needed k8s,  different components of it like pods, replica, replicasets, probes,etc about its usage , installed minikube for it."
+    },
+
+    {
+      "title": "Officially learning infrastructure and cloud",
+      "date": "December 2022",
+      "icon": "FaDollarSign",
+      "color": "purple",
+      "description": "officially started learning cloud in structured way , by taking sayiam pathak guidance(roadmap) on this , and started sharing my learning on github repository. I have shared content about git , networking, linux , jenkins. till now this will continue to update."
+    }
+  ]
+}

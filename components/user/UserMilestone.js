@@ -1,21 +1,22 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import getIcon from "../Icon";
 
-export default function UserMilestone({ milestone }) {
+export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
-
   return (
-    <a
-      href={milestone.url}
-      key={milestone.url}
-      target="_blank"
-      rel="noreferrer"
+    <li
+      className={`py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md ${
+        isGoal ? "opacity-50" : ""
+      }`}
+      style={{
+        borderColor: milestone.color,
+      }}
     >
-      <li
-        className="py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md"
-        style={{
-          borderColor: milestone.color,
-        }}
+      <a
+        href={milestone.url}
+        key={milestone.url}
+        target="_blank"
+        rel="noreferrer"
       >
         <div className="flex space-x-3">
           <DisplayIcon />
@@ -29,7 +30,7 @@ export default function UserMilestone({ milestone }) {
             </ReactMarkdown>
           </div>
         </div>
-      </li>
-    </a>
+      </a>
+    </li>
   );
 }

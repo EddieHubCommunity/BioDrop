@@ -1,0 +1,19 @@
+{
+  "name": "Raymond Luanda",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Developer @Codeeit, In love with Javascript | React | React Native | Nodejs | Robotics | IoT",
+  "avatar": "https://avatars.githubusercontent.com/u/18146963?v=4",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rayben109",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/rayben109",
+      "icon": "FaInstagram"
+    }
+  ]
+}
