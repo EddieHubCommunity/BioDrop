@@ -50,9 +50,23 @@
       "name": "GitHub Sponsors: Support my Work",
       "url": "https://github.com/sponsors/rupeshexe",
       "icon": "FaDollarSign"
+    },
+    {
+      "name": "Mail me at",
+      "url": "mailto:contactrupeshdubey@gmail.com",
+      "icon": "SiGmail"
+      "color": "#FF651F"
     }
   ],
   "milestones": [
+    {
+      "title": "Learning to Code and Collaborate",
+      "date": "Always",
+      "icon": "FaLaptopCode",
+      "color": "orange",
+      "description": "Always Open to learn and collaborate on new tech stacks.",
+      "url": "https://twitter.com/rupeshtwt"
+    },
     {
       "title": "Appeared On Twitter",
       "date": "January 2023",
@@ -64,7 +78,7 @@
     {
       "title": "First Quality PR on Github",
       "date": "January 2023",
-      "icon": "FaGitHub",
+      "icon": "FaGithub",
       "color": "green",
       "description": "First PR merged in a live website. Contributed in HTML",
       "url": "https://github.com/rupeshexe"
@@ -72,7 +86,7 @@
     {
       "title": "Started with Open-Source",
       "date": "October 2021",
-      "icon": "FaGitHub",
+      "icon": "FaGithub",
       "color": "grey",
       "description": "Created my GitHub Account",
       "url": "https://github.com/rupeshexe"
