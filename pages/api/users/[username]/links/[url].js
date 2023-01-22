@@ -1,10 +1,10 @@
-import fs from "fs";
-import path from "path";
+import connectMongo from "../../../../../config/mongo";
+import logger from "../../../../../config/logger";
 
 import Link from "../../../../../models/Link";
 import Profile from "../../../../../models/Profile";
 import Stats from "../../../../../models/Stats";
-import connectMongo from "../../../../../config/mongo";
+import findOneByUsernameBasic from "../../../../../services/profiles/findOneByUsernameBasic";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -17,31 +17,41 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  // load profile json file and check link
-  const filePath = path.join(process.cwd(), "data", `${username}.json`);
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  } catch (e) {
-    console.log(`ERROR loading username ${username}`, e);
-    return res.status(404).json({ error: `ERROR ${username} not found` });
+  const data = findOneByUsernameBasic(username);
+
+  if (!data.username) {
+    logger.error(`failed loading profile username: ${username}`);
+    return res.status(404).json({ error: `${username} not found` });
   }
 
   if (
     !data.links.find((link) => link.url === url) &&
     !data.socials.find((social) => social.url === url)
   ) {
-    console.log(`ERROR link ${url} not found for username ${username}`);
+    logger.error(`link ${url} not found for username ${username}`);
     return res.status(404).json({ error: `ERROR ${url} not found` });
   }
 
-  let getProfile = await Profile.findOne({ username });
+  let getProfile;
+  try {
+    getProfile = await Profile.findOne({ username });
+  } catch (e) {
+    logger.error(e, `failed loading profile username: ${username}`);
+    return res.status(404).json({ error: `ERROR ${username} not found` });
+  }
 
   if (!getProfile) {
     return res.status(404).json({ error: `ERROR ${username} not found` });
   }
 
-  const getLink = await Link.findOne({ username, url });
+  let getLink;
+  try {
+    getLink = await Link.findOne({ username, url });
+  } catch (e) {
+    logger.error(e, `failed loading link ${url} for username: ${username}`);
+    return res.status(404).json({ error: `ERROR ${url} not found` });
+  }
+
   if (getLink) {
     try {
       await Link.updateOne(
@@ -54,9 +64,9 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      console.log(
-        `ERROR incrementing link: ${url} for username ${username}`,
-        e
+      logger.error(
+        e,
+        `failed incrementing link: ${url} for username ${username}`
       );
     }
   }
@@ -80,16 +90,22 @@ export default async function handler(req, res) {
         { new: true, useFindAndModify: false }
       );
     } catch (e) {
-      console.log(
-        `ERROR creating link stats: ${url} for username ${username}`,
-        e
+      logger.error(
+        e,
+        `failed create link stats ${url} for username ${username}`
       );
     }
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
-  const getPlatformStats = await Stats.findOne({ date });
+
+  let getPlatformStats;
+  try {
+    getPlatformStats = await Stats.findOne({ date });
+  } catch (e) {
+    logger.error(e, `failed finding platform stats for ${data}`);
+  }
 
   if (getPlatformStats) {
     try {
@@ -102,7 +118,7 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      console.log("ERROR incrementing platform stats", e);
+      logger.error(e, `failed incrementing platform stats for ${data}`);
     }
   }
 
@@ -115,7 +131,7 @@ export default async function handler(req, res) {
         users: 0,
       });
     } catch (e) {
-      console.log("ERROR creating platform stats", e);
+      logger.error(e, `failed creating platform stats for ${data}`);
     }
   }
 
