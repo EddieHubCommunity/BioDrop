@@ -1,0 +1,24 @@
+{
+  "name": "Abhay Prajapati",
+  "type": "personal",
+  "bio": "frontend dev",
+  "avatar": "https://github.com/theabhayprajapati.png",
+  "links": [
+    {
+      "name": "My Personal Page",
+      "url": "https://abhayprajapati.me",
+
+      "icon": "FaLink"
+    },
+    {
+      "name": "Check me on GitHub",
+      "url": "https://github.com/theabhayprajapati",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhayprajapati_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

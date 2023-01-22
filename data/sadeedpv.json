@@ -1,0 +1,23 @@
+{
+  "name": "Sadeedpv",
+  "type": "personal",
+  "bio": "Full-stack developer | Web designer | Open-Source | Chess",
+  "avatar": "https://github.com/sadeedpv.png",
+  "links": [
+    {
+      "name": "Follow on GitHub",
+      "url": "https://github.com/sadeedpv",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/PvSadeed",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Personal Portfolio",
+      "url": "https://sadeedpv.github.io/",
+      "icon": "FaLink"
+    }
+  ]
+}

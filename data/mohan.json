@@ -1,0 +1,18 @@
+{
+  "name": "Mohan",
+  "type": "personal",
+  "bio": "Youtube watcher",
+  "avatar": "https://github.com/mohan-murali.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mohan-murali",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_MohanMurali",
+      "icon": "FaTwitter"
+    }
+  ]
+}

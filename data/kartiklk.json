@@ -1,0 +1,68 @@
+{
+  "name": "Kartik khode",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Backend Developer | Open Source and Tech Enthusiast",
+  "avatar": "https://github.com/kartiklk.png",
+  "tags": ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "OpenSource"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/kartikkhode21" },
+    { "icon": "FaGithub", "url": "https://github.com/Kartiklk" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kartik-khode-32a7a325a/"
+    },
+    { "icon": "FaHashnode", "url": "https://hashnode.com/@kartik21" }
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Kartiklk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kartikkhode21",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kartik-khode-32a7a325a/",
+      "icon": "FaLinkedin",
+      "color": "#0075D6"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@kartik21",
+      "icon": "FaHashnode",
+      "color": "#0075D6"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Started Learning about Backend Development",
+      "date": "2021",
+      "icon": "FaSearch",
+      "color": "red",
+      "description": "I was learning Backend development technologies like NodeJS,ExpressJS,MongoDB etc..."
+    },
+    {
+      "title": "Diploma Graduate in CSE",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I completed diploma in Computer Science and Engg."
+    },
+    {
+      "title": "What I know",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "**NodeJS**, **ExpressJS**, **MongoDB**, JavaScript, HTML, CSS, PHP, C.",
+      "url": "https://natours-k.cyclic.app/"
+    }
+  ]
+}

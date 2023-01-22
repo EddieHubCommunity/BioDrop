@@ -1,0 +1,33 @@
+{
+  "name": "Inaolaji Taofeek",
+  "type": "personal",
+  "bio": "Full Stack Software Engineer | Open Source Enthusiast!",
+  "avatar": "https://github.com/aladdin4u.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aladdin4u",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devaladdin",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/aladdin4u",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://devaladdin.netlify.app/"
+    }
+  ]
+}

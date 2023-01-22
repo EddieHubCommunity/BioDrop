@@ -1,0 +1,71 @@
+{
+  "name": "Barsha Das",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Founder of **The CookieButton Project** | Co-organizer of **KubeHuddle Toronto 2023** | Co-organizer of **CNCF Kolkata** | **Women In Web3 2022** by CoinDCX | Microsoft Learn **Student Ambassador** ",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Web Development",
+    "Cloud Computing",
+    "Developer Evangelism",
+    "Technical Writer"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/thebarshablog" },
+    { "icon": "FaGithub", "url": "https://github.com/thebarshablog" },
+    { "icon": "FaLink", "url": "https://thebarshablog.github.io" }
+  ],
+  "testimonials": ["krshkun"],
+  "avatar": "https://github.com/thebarshablog.png",
+  "links": [
+    {
+      "name": "Daily Tweets on Tech & Life",
+      "url": "https://twitter.com/thebarshablog",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Contribute Together",
+      "url": "https://github.com/thebarshablog",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Track My Career Updates",
+      "url": "https://www.linkedin.com/in/thebarshablog/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read Me",
+      "url": "https://thebarshablog.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Support My Initiatives",
+      "url": "https://www.buymeacoffee.com/thebarshablog",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Speak To Me 1:1 for FREE",
+      "url": "https://calendly.com/thebarshablog",
+      "icon": "SiKakaotalk"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became a Microsoft Learn Student Ambassador",
+      "date": "January 2023",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Accepted into Microsoft Learn Student Ambassador Program!",
+      "url": "https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/013b814c-8cba-4c88-af0e-593cd0857338"
+    },
+    {
+      "title": "Became the Cloud Native Computing Foundation (CNCF), Kolkata Co-organizer",
+      "date": "January 2023",
+      "icon": "FaGlobe",
+      "color": "yellow",
+      "description": "Promoted to be the Co-organizer for CNCF Kolkata Chapter",
+      "url": "https://community.cncf.io/kolkata/"
+    }
+  ]
+}

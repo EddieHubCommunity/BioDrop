@@ -1,0 +1,72 @@
+{
+  "name": "Mohd Imran",
+  "type": "Personal",
+  "displayStatsPublic": true,
+  "bio": "DevOps | Co-Founder of **GrowInCommunity** | DevRel Enthusiast | Tech Blogger | Open Source | Cloud Computing | Cloud Native",
+  "avatar": "https://github.com/imran1509.png",
+  "tags": ["Open Source", "DevOps", "Cloud Native", "Devrel", "Go", "Python"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/codenameimmy" },
+    { "icon": "FaGithub", "url": "https://github.com/imran1509" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/imran1509",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join our Inclusive Open Source community GrowInCommunity on Twitter & Discord",
+      "url": "https://twitter.com/GrowInComm",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/codenameimmy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohdimran1995/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://imransaifi.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow and read my blog on Dev.to",
+      "url": "https://dev.to/imransaifi",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Connect with me on Mastodon",
+      "url": "https://fosstodon.org/web/@imran1509",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/codenameimmy/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://github.com/imran1509"
+    },
+    {
+      "title": "Started our Inclusive Open Source community **GrowInCommunity**",
+      "date": "8 December 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Started our Inclusive Open Source community **GrowInCommunity** where everyone learn, build and grow together",
+      "url": "https://twitter.com/GrowInComm"
+    }
+  ]
+}

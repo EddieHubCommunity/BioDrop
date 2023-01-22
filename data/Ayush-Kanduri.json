@@ -1,0 +1,72 @@
+{
+  "name": "Ayush Kanduri",
+  "type": "personal",
+  "bio": "Fullstack Web Developer (MERN) 🔥 | Exploring Open Source ⭐ | Tech Enthusiast 🚀",
+  "avatar": "https://github.com/Ayush-Kanduri.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ayush-Kanduri",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ayush_Codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayushkanduri",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Subscribe to my channel on YouTube",
+      "url": "https://www.youtube.com/user/MrAyushChamp",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on LeetCode",
+      "url": "https://leetcode.com/ayushkanduri",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow me on HackerRank",
+      "url": "https://www.hackerrank.com/ayushkanduri",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Project Engineer",
+      "date": "October 2019 - November 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked as Project Engineer at Wipro Ltd.",
+      "url": "https://www.wipro.com"
+    },
+    {
+      "title": "Front-End Developer Certification",
+      "date": "February 2022",
+      "icon": "FaLink",
+      "color": "red",
+      "description": "I completed the Front-End Developer Certification with the Top Score and built many projects as well.",
+      "url": "https://certificate.codingninjas.com/view/fa58e2e7a27939fe"
+    },
+    {
+      "title": "Back-End Developer Certification",
+      "date": "May 2022",
+      "icon": "FaLink",
+      "color": "red",
+      "description": "I completed the Back-End Developer Certification with the Top Score and built many projects as well.",
+      "url": "https://certificate.codingninjas.com/view/db5b4e8694453bea"
+    },
+    {
+      "title": "Completed the 100 Days of Code Challenge",
+      "date": "September 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "100 Days of Code is a challenge to code for 100 days in a row. I completed the challenge and learned a lot of new things in the process.",
+      "url": "https://twitter.com/i/events/1565809418305822720?s=20"
+    }
+  ]
+}

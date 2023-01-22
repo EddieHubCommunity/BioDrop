@@ -1,0 +1,65 @@
+{
+  "name": "Michael Godfrey",
+  "type": "personal",
+  "bio": "I'm a self-taught web developer who discovered my love for coding when I began building things on the web. I'm determined to master web development technologies and turn it into a profession.",
+  "avatar": "https://github.com/michagodfrey.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/michagodfrey",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Michael07865192",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/michael-godfrey-82258bb3/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First pull request merged on open-source project.",
+      "date": "September 2022",
+      "icon": "DiOpensource",
+      "color": "limegreen",
+      "description": "My first contribution to an open-source project. I forked the hacktoberfest-practice repo, added my own profile and made the pull request.",
+      "url": "https://github.com/EddieHubCommunity/hacktoberfest-practice/pull/1737"
+    },
+    {
+      "title": "First server side project published online",
+      "date": "June 2022",
+      "icon": "FaNodeJs",
+      "color": "limegreen",
+      "description": "I made an API and hosted it on Heroku (now on Firebase) to provide data for a cute phrase guessing game.",
+      "url": "https://github.com/michagodfrey/phrase-guessing-game"
+    },
+    {
+      "title": "Completed #100DaysOfCode Challenge",
+      "date": "March 2022",
+      "icon": "FaGithub",
+      "color": "darkslategray",
+      "description": "I coded for a minimum of 1 hour a day for 100 consecutive days and shared my work on Twitter for accountability.",
+      "url": "https://twitter.com/Michael07865192/status/1506234584106934272"
+    },
+    {
+      "title": "Completed TreeHouse TechDegree - Frontend Web Development",
+      "date": "November 2021",
+      "icon": "FaGraduationCap",
+      "color": "royalblue",
+      "description": "After several months of consistent work, I earned the TechDegree for frontend web development and had a foundation to build on.",
+      "url": "https://drive.google.com/file/d/1R1SfXJTaitwMBe0FAQgPIJAThU6KBhVs/view?usp=sharing"
+    },
+    {
+      "title": "Started TreeHouse TechDegree - Frontend Web Development",
+      "date": "August 2021",
+      "icon": "FaBook",
+      "color": "royalblue",
+      "description": "This is where it started. While I had dabbled in coding before, I signed up for the TechDegree because I DECIDED to get into tech.",
+      "url": "https://github.com/michagodfrey/treehouseProject1/"
+    }
+  ]
+}

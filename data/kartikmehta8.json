@@ -1,0 +1,43 @@
+{
+  "name": "Kartik Mehta",
+  "type": "personal",
+  "bio": "MLH Prep Fellow'22 | Postman Student Leader | Hack Club Lead",
+  "avatar": "https://github.com/kartikmehta8.png",
+  "links": [
+    {
+      "name": "Visit my Portfolio Website",
+      "url": "https://www.kartikmehta.engineer",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kartikmehta8",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kartik_mehta8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kartikmehta17",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on LeetCode",
+      "url": "https://leetcode.com/kartik_mehta8",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow me on Snapchat",
+      "url": "https://www.snapchat.com/add/mehtaaaaaah",
+      "icon": "FaSnapchat"
+    },
+    {
+      "name": "Send a message on Telegram",
+      "url": "https://t.me/mehtaaaaaah",
+      "icon": "FaTelegram"
+    }
+  ]
+}

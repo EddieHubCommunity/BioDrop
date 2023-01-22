@@ -1,0 +1,18 @@
+{
+  "name": "voidz",
+  "type": "personal",
+  "bio": "High School Student who likes Computer Science and Linux.",
+  "avatar": "https://github.com/voidz7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/voidz7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gg_voidz",
+      "icon": "FaTwitter"
+    }
+  ]
+}

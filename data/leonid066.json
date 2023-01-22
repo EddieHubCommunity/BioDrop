@@ -1,0 +1,105 @@
+{
+  "name": "Leonid Kierchiev",
+  "type": "personal",
+  "bio": "C / C++ | Python | JS / React / Node.JS | Git | Entity Framework / Architecture patterns | AWS  Main interests: Applied Mathematics | Corporate Accounting | Equities and Derivatives",
+  "avatar": "https://github.com/leonid066.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/leonid066",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/leonid066",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout Codewars",
+      "url": "https://www.codewars.com/users/leonid066",
+      "icon": "SiCodewars"
+    },
+    {
+      "name": "Checkout Hackerrank",
+      "url": "https://www.hackerrank.com/leonid_kerchev",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Checkout Leetcode",
+      "url": "https://leetcode.com/leonid066/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/leonid-kierchiev-6a8164aa/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First interactions with PC",
+      "date": "January 2000",
+      "icon": "FaSearch",
+      "color": "#dadbe7",
+      "description": "Unenumerated hours of playing games on family computer."
+    },
+    {
+      "title": "Disassembling PC",
+      "date": "September 2002",
+      "icon": "FaGraduationCap",
+      "color": "#dadbe7",
+      "description": "At age of 7 put my hands inside PC: assembly, simple upgrade, putting together local networks for gaming purposes."
+    },
+    {
+      "title": "First line of code!",
+      "date": "March 2005",
+      "icon": "FaBook",
+      "color": "#dadbe7",
+      "description": "At age 10 got book about MS Visual C++, started coding simple desktop programs. "
+    },
+    {
+      "title": "Winning national engineering competitions",
+      "date": "February 2010",
+      "icon": "FaDollarSign",
+      "color": "#0bdb42",
+      "description": "Getting 1st place in Engeneering section in national Intel-Techno and Intel-Eco competitions. "
+    },
+    {
+      "title": "Accepted to the best technical university in country. ",
+      "date": "July 2012",
+      "icon": "FaGraduationCap",
+      "color": "#699cf7",
+      "description": "I send paperwork only into one dream University and got accepted.",
+      "url": "https://kpi.ua/en/about"
+    },
+    {
+      "title": "Build many projects for myself and for graduate students.",
+      "date": "2014",
+      "icon": "FaDollarSign",
+      "color": "#699cf7",
+      "description": "One of most memorable was project about Balancing Machine for high speed rotors. Best part was compressing data with Fast Fourier Transformation to transfer it from microcontroller to computer. You can check couple photoes on my LinkedIn ",
+      "url": "https://www.linkedin.com/in/leonid-kierchiev-6a8164aa/"
+    },
+    {
+      "title": "Emigrated to USA.",
+      "date": "May 2015",
+      "icon": "FaGlobe",
+      "color": "#3d0fbd",
+      "description": "Moved to Chicago, IL, USA."
+    },
+    {
+      "title": "Data Analytic / Researcher",
+      "date": "Jan 2019",
+      "icon": "FaDev",
+      "color": "#3d0fbd",
+      "description": "Started work at proprietary trading desk as Data Analyst / Researcher, developing simple applications for traders and for risk department. Tech stack: VS C++, Python, WEB APIs, JavaScript"
+    },
+    {
+      "title": "Software Engineer",
+      "date": "Aug 2019 - present",
+      "icon": "FaDev",
+      "color": "#3d0fbd",
+      "description": "Started at new position as software engineer, leading small team on building analytical tools and applicactions for Real Estate investment company. Gathering and parsing complex data sets. Tech stack: Python, JavaScript, AWS ."
+    }
+  ]
+}

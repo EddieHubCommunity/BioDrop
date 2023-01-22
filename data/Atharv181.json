@@ -1,0 +1,49 @@
+{
+  "name": "Atharv Bobade",
+  "type": "personal",
+  "bio": "Reader | Learner | Coder",
+  "avatar": "https://github.com/Atharv181.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Atharv181",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/atharv_181",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/atharv-bobade-2273791b8/",
+      "icon": "linkkedin"
+    },
+    {
+      "name": "Hashnode Blog Profile",
+      "url": "https://atharvbobade.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LeetCode Profile",
+      "url": "https://leetcode.com/Atharvbobade/",
+      "icon": "SiLeetcode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Engineering in Information Technology",
+      "date": "August 2019",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Started Engineering in Information Technology"
+    },
+    {
+      "title": "Learning Blockchain",
+      "date": "January 2022",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "Started Learning Blockchain"
+    }
+  ]
+}

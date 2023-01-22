@@ -1,0 +1,18 @@
+{
+  "name": "Aditya Singla",
+  "type": "personal",
+  "bio": "Student | MERN Stack Developer | Open Source Enthusiast!",
+  "avatar": "https://github.com/2802AdityA.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/2802AdityA",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/2802AdityA",
+      "icon": "FaTwitter"
+    }
+  ]
+}

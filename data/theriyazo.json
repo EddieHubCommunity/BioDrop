@@ -1,0 +1,41 @@
+{
+  "name": "Riyaz Ahamad",
+  "bio": "UI developer",
+  "avatar": "https://github.com/theriyazo.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/theriyazo",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/theriyazo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/theriyazo/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Vist My Protfolio(beta)",
+      "url": "https://www.theriyazo.com",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Personal Portfolio",
+      "date": "May 2010",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Designed and Developed Personal Portfolio. From designing icon, UI/UX to hosting",
+      "url": "https://www.theriyazo.com/"
+    },
+    {
+      "title": "Graduated from Computer Science & Engineering",
+      "date": "2021"
+    }
+  ]
+}

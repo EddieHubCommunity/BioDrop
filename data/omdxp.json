@@ -1,0 +1,38 @@
+{
+  "name": "Omar Belghaouti",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/omdxp.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/omdxp",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/omdxp",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/omar-belghaouti/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Contact me via mail",
+      "url": "mailto:omarbelghaouti@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source Maintainer @dzcode-io",
+      "date": "June 2021",
+      "icon": "DiOpensource",
+      "color": "#369",
+      "description": "Maintaining multiple open-source projects that help in solving problems in the Algerian software market.",
+      "url": "https://github.com/dzcode-io"
+    }
+  ]
+}

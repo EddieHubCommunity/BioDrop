@@ -1,0 +1,28 @@
+{
+  "name": "Khairallah AL-Awady",
+  "type": "personal",
+  "bio": "Web3 Developer, Content Creator and Open Source Enthusiast!",
+  "avatar": "https://github.com/KhairallahA.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Eng_khairallah1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KhairallahA",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/khairallah-al-awady-54026a1a1",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/code_khairallah",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Tejas S",
+  "type": "personal",
+  "bio": "A Coding Enthusiast ",
+  "avatar": "https://github.com/Tejas-Teju.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Tejas-Teju",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tejas_teju97",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/tejassadashivappa",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Athul Tulasidasan",
+  "type": "personal",
+  "bio": "Open Source Enthusiast || Software Developer",
+  "avatar": "https://github.com/Athul0491.png",
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/Athul0491",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Athul0491",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/athul-tulasidasan-4901",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

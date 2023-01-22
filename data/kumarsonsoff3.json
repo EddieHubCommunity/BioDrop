@@ -1,0 +1,140 @@
+{
+  "name": "Priyanshu Kumawat",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open-Source Advocate 🥑 Web-Developer 👨‍💻 Content-Creator ✍ Active Maintainer @EddieHub 💻",
+  "avatar": "https://github.com/kumarsonsoff3.png",
+  "tags": [
+    "Open-Source",
+    "JavaScript",
+    "TailwindCSS",
+    "React",
+    "Content-Creation",
+    "Web-Development",
+    "TypeScript"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Kumar_Sons_off" },
+    { "icon": "FaGithub", "url": "https://github.com/kumarsonsoff3" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/kumarsonsoff" },
+    { "icon": "SiHashnode", "url": "https://kumarsonsoff.hashnode.dev" },
+    { "icon": "FaMediumM", "url": "https://kumarsonsoff.medium.com/" },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/priyanshu_kumawat_off"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Collaborate on Open-Source",
+      "url": "https://github.com/kumarsonsoff3",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode: Read our Blogs here",
+      "url": "https://kumarsonsoff.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Showwcase: Join us on Showwcase",
+      "url": "https://showwcase.com/kumar-sons-off",
+      "icon": "FaCodeBranch"
+    },
+    {
+      "name": "Twitter: Frequent Updates from Me",
+      "url": "https://twitter.com/Kumar_Sons_off",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram: Occassional Photos of Mine",
+      "url": "https://instagram.com/priyanshu_kumawat_off",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/kumarsonsoff",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Worked with Arduino for the First Time",
+      "date": "October 2022",
+      "icon": "FaToolbox",
+      "color": "#ff0000",
+      "description": "Worked with Arduino for the First time to control Hardwares & Integrated a program to build a Meshmerize bot which sense light to take a turn on it's own. 🤖",
+      "url": "https://drive.google.com/file/d/1k13knEIRUq5FwnAKAOu4Yxzoz2gtNmbN/view?usp=sharing"
+    },
+    {
+      "title": "Joined Indie Hackers Community",
+      "date": "August 2022",
+      "icon": "FaSearchDollar",
+      "color": "#fff700",
+      "description": "Started Exploring more on Indie Hacking world, how solopreneurs develop Mini-Saas tools to various Internet problems & make profit $$ from them.",
+      "url": "https://www.indiehackers.com/"
+    },
+    {
+      "title": "Created a Showwcase Community - Notion Nerds",
+      "date": "July 2022",
+      "icon": "SiNotion",
+      "color": "#000000",
+      "description": "Place where we can learn to use the Notion more effectively from each other. All Notion Related stuff in one place.",
+      "url": "https://www.showwcase.com/community/notion-nerds"
+    },
+    {
+      "title": "Officially became a Maintainer at EddieHub",
+      "date": "July 2022",
+      "icon": "FaTools",
+      "color": "#ff860d",
+      "description": "Became a maintainer for LinkFree at EddieHub. Started being more active to discord community helping more people to get started with open-source.",
+      "url": "https://github.com/orgs/EddieHubCommunity/teams"
+    },
+    {
+      "title": "Won a Writeathon",
+      "date": "June 2022",
+      "icon": "SiHashnode",
+      "color": "#42f2f5",
+      "description": "Won a writeathon organized be Hashnode in the month of May 2022. Made it to top 13 among 100s of awesome writers around the Globe.",
+      "url": "https://kumarsonsoff.hashnode.dev//animation-is-fun-with-gsap"
+    },
+    {
+      "title": "Received an offer for content creation at Aviyels & Tealfeed",
+      "date": "February 2022",
+      "icon": "FaPenFancy",
+      "color": "#fc03f8",
+      "description": "Being an Active Creator at Hashnode, got me an opportunity to work as a Content Creator for Aviyels & Tealfeed."
+    },
+    {
+      "title": "Learn JavaScript from Udemy & FreeCodeCamp",
+      "date": "December 2021",
+      "icon": "SiUdemy",
+      "color": "#07f707",
+      "description": "Completed JavaScript Udemy course by Jonas Schmedtmann, and build 6 major Projects on the way.",
+      "url": "https://github.com/kumarsonsoff3"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "November 2021",
+      "icon": "FaDollarSign",
+      "color": "#ffd700",
+      "description": "Step into freelancing as a Content Creator for an India based organization.",
+      "url": "https://www.linkedin.com/in/kumarsonsoff"
+    },
+    {
+      "title": "First ever Contribution to Open-Source.",
+      "date": "November 2021",
+      "icon": "SiOpensourceinitiative",
+      "color": "#000000",
+      "description": "Made my very First contribution to Open-Source. Started with EddieHub's 'Awesome GitHub profiles' sharing my modified GitHub Profile after completing free course from Eddie Jaoude.",
+      "url": "https://github.com/kumarsonsoff3?tab=overview&from=2021-12-01&to=2021-12-31"
+    },
+    {
+      "title": "First Blog on Hashnode",
+      "date": "October 2021",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Published my First ever Blog on Hashnode named 'The most Uncommon HTML5 Tags you should know!'.",
+      "url": "https://kumarsonsoff.hashnode.dev/"
+    }
+  ]
+}

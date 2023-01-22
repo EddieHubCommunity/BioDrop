@@ -1,0 +1,24 @@
+{
+  "name": "Denys Lins",
+  "type": "personal",
+  "bio": "Software Developer, Open Source Enthusiast",
+  "avatar": "https://github.com/denyslins.png",
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/denyslins",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/denys_lins",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/denyslins",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": []
+}

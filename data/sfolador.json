@@ -1,0 +1,14 @@
+{
+  "name": "Simone Folador",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web developer, **Laravel** and **TDD** enthusiast",
+  "avatar": "https://github.com/sfolador.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sfolador",
+      "icon": "FaTwitter"
+    }
+  ]
+}

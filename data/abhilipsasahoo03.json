@@ -1,0 +1,28 @@
+{
+  "name": "Abhilipsa Sahoo",
+  "type": "personal",
+  "bio": "I am Abhilipsa Sahoo, currently pursuing my BTech in Computer Science and Engineering from Gandhi Institute for Technological Advancement, Bhubaneswar, India.",
+  "avatar": "https://github.com/abhilipsasahoo03.png",
+  "links": [
+    {
+      "name": "Here's my GitHub",
+      "url": "https://github.com/abhilipsasahoo03",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_abelisaurus_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my LinkedIn profile",
+      "url": "https://www.linkedin.com/in/abhilipsa-sahoo-927542b1",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Find me on YouTube",
+      "url": "https://youtube.com/channel/UCQou4wzE0n2Ty1NRJauV1mQ",
+      "icon": "FaYoutube"
+    }
+  ]
+}

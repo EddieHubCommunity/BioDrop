@@ -1,0 +1,18 @@
+{
+  "name": "Vishal Shinde",
+  "type": "personal",
+  "bio": "Hey there I am Vishal, I am deeply passionate about software development & innovations & I also firmly believe in the power of the community. I have arranged various sessions in my college to make students aware of the community and about the advancements in technology. In my free time you can find me with my camera pointing towards nature.",
+  "avatar": "https://github.com/vishal-codes.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vishal-codes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishaltwts",
+      "icon": "FaTwitter"
+    }
+  ]
+}

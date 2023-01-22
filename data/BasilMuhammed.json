@@ -1,0 +1,36 @@
+{
+  "name": "Basil Muhammed",
+  "type": "personal",
+  "bio": "Self Taught Open Source Enthusiast!",
+  "avatar": "https://github.com/basilmuhammed.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/basilmuhammed",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/basilmuhd",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "March 2018",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing in design and development",
+      "url": "https://www.basilmuhd.design/"
+    },
+    {
+      "title": "Started Working For Co-operate",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started career",
+      "url": "https://www.basilmuhd.design/"
+    }
+  ]
+}

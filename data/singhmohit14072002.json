@@ -1,0 +1,19 @@
+{
+  "name": "Mohit Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "OpenSource  | DevOps | Docker | Blogger **Hashnode**",
+  "avatar": "https://github.com/singhmohit14072002.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohitDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/mohit-singh-9b4b42253/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Kunal Mondal",
+  "type": "personal",
+  "bio": "Full Stack | Web 3 | Blockchain",
+  "avatar": "https://github.com/Im-Kunal-13.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Im-Kunal-13",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ImKunal13z",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kunal-mondal-41baa8212/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

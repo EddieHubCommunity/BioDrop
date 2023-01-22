@@ -1,0 +1,28 @@
+{
+  "name": "Devesh Jain",
+  "type": "personal",
+  "bio": "Web Developer | Open Source Enthusiast | Computer Science Sophomore",
+  "avatar": "https://github.com/devesh2511.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/devesh2511",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devesh2511",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/devesh-jain-2511dj/",
+      "icon": "linkedinhttps://www.instagram.com/deveshjain._/"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/deveshjain._/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

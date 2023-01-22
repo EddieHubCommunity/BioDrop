@@ -1,0 +1,23 @@
+{
+  "name": "Harish Sheoran",
+  "type": "personal",
+  "bio": "Pythonista",
+  "avatar": "https://github.com/sheoranharis.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sheoranharis",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sheoranharis",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my Blog",
+      "url": "https://hashnode.com/@sheoranharis",
+      "icon": "SiHashnode"
+    }
+  ]
+}

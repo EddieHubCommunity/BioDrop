@@ -1,0 +1,27 @@
+{
+  "name": "Aditya Narayan Nayak",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Aditya-Narayan-Nayak.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Aditya-Narayan-Nayak",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdityaN71677515",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Getting Started into IT Field",
+      "date": "July 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started learning Python From Udemy"
+    }
+  ]
+}

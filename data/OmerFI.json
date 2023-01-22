@@ -1,0 +1,24 @@
+{
+  "name": "Omer Furkan Isleyen",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Loves Open-Source and is interested in Cyber Security. Focuses on Python & JavaScript. Makes web apps, CLI tools, browser extensions, games, and more.",
+  "avatar": "https://github.com/OmerFI.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/OmerFI",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omerfi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/OmerFi34",
+      "icon": "FaTwitter"
+    }
+  ]
+}

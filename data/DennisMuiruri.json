@@ -1,0 +1,28 @@
+{
+  "name": "DENNIS MUIRURI",
+  "type": "personal",
+  "bio": "Web developer ",
+  "avatar": "https://github.com/muiruriscode.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/muiruriscode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/dennis-muiruri-3a429b212",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "November 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://dennis-muiruri-portfolio.herokuapp.com/"
+    }
+  ]
+}

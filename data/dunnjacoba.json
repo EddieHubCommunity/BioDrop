@@ -1,0 +1,62 @@
+{
+  "name": "Jacob Dunn",
+  "type": "personal",
+  "bio": "Freelance Dev, Open source beginner",
+  "avatar": "https://github.com/dunnjacoba.png",
+  "links": [
+    {
+      "name": "Check out personal site!",
+      "url": "https://dunnjacob.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Check out my green boxes on GitHub!",
+      "url": "https://github.com/dunnjacoba",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join the conversations of Twitter",
+      "url": "https://twitter.com/devjdunn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me on LinkedIn",
+      "url": "https://www.linkedin.com/in/dunnjacoba/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "March 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://dunnjacob.vercel.app/"
+    },
+    {
+      "title": "Started Contributing to Open Source Projects",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Contributed to the expo/snack repo, addressing issue #278",
+      "url": "https://github.com/expo/snack"
+    },
+    {
+      "title": "Contributed to react-bootstrap",
+      "date": "September 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Merged into main on react-bootstrap",
+      "url": "https://github.com/react-bootstrap/react-bootstrap/pull/6438"
+    },
+    {
+      "title": "Signed my first full time offer letter",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Signed my offer letter from The Seam on 10 Oct 2022! This is my first full time salaried position in tech!",
+      "url": "https://www.theseam.com/"
+    }
+  ]
+}

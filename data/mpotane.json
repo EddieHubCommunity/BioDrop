@@ -1,0 +1,21 @@
+{
+  "name": "mpotane",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "🧑‍💻 Software engineer",
+  "avatar": "https://github.com/mpotane.png",
+  "tags": ["Nextjs", "typescript", "Prisma", "Supabase"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mpotane",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mpotane/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "testimonials": ["jofftiquez"]
+}

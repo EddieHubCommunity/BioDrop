@@ -1,0 +1,18 @@
+{
+  "name": "Amarjeet kumar",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/amarjeetk06.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amarjeetk06",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Amarjee73077825",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Lakshay Nasa",
+  "type": "personal",
+  "bio": "Sophomore || Autodidactic Dev || Open Source || Cloud Computing || Animator",
+  "avatar": "https://github.com/lakshay-nasa.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lakshay-nasa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/lakshay1717",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/lakshaynasa",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

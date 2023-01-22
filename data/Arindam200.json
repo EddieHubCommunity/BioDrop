@@ -1,0 +1,76 @@
+{
+  "name": "Arindam Majumder",
+  "type": "Personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source Enthusiast | Core Team Member of **GrowInCommunity** | Tech Blogger | DSA | Web Development  ",
+  "avatar": "https://github.com/Arindam200.png",
+  "tags": ["Open Source", "Web Development", "DSA", "Java", "Go", "Python"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Arindam_1729" },
+    { "icon": "FaGithub", "url": "https://github.com/Arindam200" }
+  ],
+  "testimonials": ["priyankarpal"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Arindam200",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join our Inclusive Open Source community GrowInCommunity on Twitter & Discord",
+      "url": "https://twitter.com/GrowInComm",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Arindam_1729",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/arindam-majumder-021bb623b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://arindam1729.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow and read my blog on Dev.to",
+      "url": "https://dev.to/arindam_1729",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/i_am_arindam_official/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://github.com/Arindam200"
+    },
+    {
+      "title": "Became Core Team Member of our Inclusive Open Source community **GrowInCommunity**",
+      "date": "8 December 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Started our Inclusive Open Source community **GrowInCommunity** where everyone learn, build and grow together",
+      "url": "https://twitter.com/GrowInComm"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "11 October 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://arindam1729.hashnode.dev/"
+    }
+  ]
+}

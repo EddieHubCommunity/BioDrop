@@ -1,0 +1,18 @@
+{
+  "name": "Harikrushn Kanani",
+  "type": "personal",
+  "bio": "Backend Developer",
+  "avatar": "https://github.com/harikanani.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/harikanani",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Harikrushn9",
+      "icon": "FaTwitter"
+    }
+  ]
+}

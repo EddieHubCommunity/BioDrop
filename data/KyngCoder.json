@@ -1,0 +1,23 @@
+{
+  "name": "Ricardo Merchant",
+  "type": "personal",
+  "bio": "continuous Learner",
+  "avatar": "https://github.com/KyngCoder.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KyngCoder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ricardo-merchant",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kyngCoder",
+      "icon": "FaTwitter"
+    }
+  ]
+}

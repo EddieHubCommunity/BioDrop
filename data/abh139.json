@@ -1,0 +1,23 @@
+{
+  "name": "Abhishek Kumar",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!, Loves talk about devops best practices",
+  "avatar": "https://github.com/abh139.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abh139",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbhishekKtwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhishek-kumar12/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

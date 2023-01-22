@@ -1,0 +1,40 @@
+{
+  "name": "Leonardo Montini",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Frontend Developer, Open Source Enthusiast & Content Creator",
+  "avatar": "https://github.com/balastrong.png",
+  "tags": ["Open Source", "GitHub", "vscode", "Typescript"],
+  "socials": [
+    { "icon": "FaYoutube", "url": "https://youtube.com/DevLeonardo" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/balastrong" },
+    { "icon": "FaGithub", "url": "https://github.com/balastrong" }
+  ],
+  "links": [
+    {
+      "name": "YouTube - I talk about Open Source, GitHub, Visual Studio Code and Web Development",
+      "url": "https://youtube.com/DevLeonardo",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Twitter - Something about me",
+      "url": "https://twitter.com/balastrong",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Discord - The server for my YouTube channel",
+      "url": "https://discord.gg/bqwyEa6We6",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Blog - The main platform for my articles",
+      "url": "https://leonardomontini.dev/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "dev.to Blog - Same articles as my blog, but on dev.to",
+      "url": "https://dev.to/balastrong",
+      "icon": "FaDev"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Vincent Villafuerte",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "GitHub Field Expert and Open Source Advocate that loves to interact with the Developer Community",
+  "avatar": "https://github.com/vinzvinci.png",
+  "tags": ["Open Source", "Javascript", "React", "NextJS", "MDX", "DevRel"],
+  "socials": [
+    { "icon": "FaLinkedIn", "url": "https://twitter.com/vinzvinci" },
+    { "icon": "FaGithub", "url": "https://github.com/vinzvinci" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/vinzvinci" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@vinzvinci" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vinzvinci/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vinzvinci",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my YouTube Vlog",
+      "url": "https://www.youtube.com/@vinzvinci",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/vinzvinci",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source Journey",
+      "date": "October 2020",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "Joined Hacktoberfest 2020 and EddieHub Community",
+      "url": "https://github.com/vinzvinci"
+    },
+    {
+      "title": "Microsoft Learn Student Ambassador",
+      "date": "January 2021",
+      "icon": "FaMicrosoft",
+      "color": "blue",
+      "description": "Became the first GitHub Campus Expert in the Philippines",
+      "url": "https://githubcampus.expert/vinzvinci/"
+    },
+    {
+      "title": "GitHub Campus Expert",
+      "date": "April 2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became the first GitHub Campus Expert in the Philippines",
+      "url": "https://githubcampus.expert/vinzvinci/"
+    },
+    {
+      "title": "Dream Job: DevRel",
+      "date": "April 2021",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "Got my first remote work as DevRel",
+      "url": "https://www.linkedin.com/in/vinzvinci/"
+    },
+    {
+      "title": "GitHub Field Expert",
+      "date": "January 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Join the ranks of the trusted of GitHub Education. Promoted to GitHub Field Expert",
+      "url": "https://githubcampus.expert/vinzvinci/"
+    },
+    {
+      "title": "Event: GitHub Field Day Philippines",
+      "date": "September 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Organized the first GitHub Field Day in the Philippines",
+      "url": "https://fb.watch/hXOhJO2bVm/"
+    }
+  ]
+}

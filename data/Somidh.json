@@ -1,0 +1,29 @@
+{
+  "name": "Somidh Roy",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "21, Learning Frontend Development",
+  "avatar": "https://github.com/Somidh.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RoySomidh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/somidh-roy-62757b1a1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@Somidh",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Somidh",
+      "icon": "FaGithub"
+    }
+  ]
+}

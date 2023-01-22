@@ -1,0 +1,28 @@
+{
+  "name": "Vinyl Davyl",
+  "type": "personal",
+  "bio": "Passionate Software Developer from Nigeria | Married to the Web | Open Source Enthusiast",
+  "avatar": "https://github.com/Vinyl-Davyl.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Vinyl-Davyl",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/david-okononfua-a88a1a1a8/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/Vinyl-Davyl/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.twitter.com/Vinyl-Davyl/",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Kelvin Nyadzayo",
+  "type": "personal",
+  "bio": "Hi, there I'm a software engineer and technical writter from  Zimbabwe. I love to inspire the community by delivering talks and writing blogs on web development & blockchain  topics. ",
+  "avatar": "https://github.com/Nyadzayo.png",
+  "links": [
+    {
+      "name": "Connect with me on my Website",
+      "url": "https://kelvinnyadzayo.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Nyadzayo",
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "My YouTube Channel",
+      "url": "https://www.youtube.com/channel/UCVx38C7OXK3QU7HH7YWlpLQ/featured",
+      "icon": "FaYoutube"
+    },
+
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodeKyles",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kelvin-nyadzayo-1b834a59/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Medium",
+      "url": "https://medium.com/@kelvin.nyadzayo16",
+      "icon": "SiMedium"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Java Certified ",
+      "date": "August 2018",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Got certified in java oracle associate 8 in my second year of cs"
+    },
+    {
+      "title": "Started Technical Writing",
+      "date": "November 2019",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "Started writing technical blogs on blockchain, web development, personal development and crypto topics "
+    },
+
+    {
+      "title": "Graduated in CS",
+      "date": "December 2021",
+      "icon": "FaBook",
+      "color": "blue",
+      "description": "Got my first degree in computer science at University of Zimbabwe"
+    }
+  ]
+}

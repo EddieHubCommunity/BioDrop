@@ -1,0 +1,34 @@
+{
+  "name": "Muhammad Anas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Machine Learning Maniac",
+  "avatar": "https://github.com/muhammadanas0716.png",
+  "links": [
+    {
+      "name": "Tweety Twitter",
+      "url": "https://twitter.com/MuhammadAnas707",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linky LinkedIn",
+      "url": "https://www.linkedin.com/in/muhammad-anas-63744b235/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Gitty GitHub",
+      "url": "https://github.com/muhammadanas0716",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogy HashnNode",
+      "url": "https://themachinelearningdude.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Sup Support",
+      "url": "https://www.buymeacoffee.com/muhammadanas",
+      "icon": "SiBuymeacoffee"
+    }
+  ]
+}

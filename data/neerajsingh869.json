@@ -1,0 +1,23 @@
+{
+  "name": "Neeraj Kumar Singh",
+  "type": "personal",
+  "bio": "I believe in Learning, Creating, and Contributing",
+  "avatar": "https://github.com/neerajsingh869.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/neerajsingh869",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/neerajsingh869",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/neeraj-kumar-singh-3b490a1b2/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

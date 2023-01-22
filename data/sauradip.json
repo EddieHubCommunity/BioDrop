@@ -1,0 +1,32 @@
+{
+  "name": "Sauradip Sengupta",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/sauradip007.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sauradip007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imssd7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sauradip-sengupta-aa1357202/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning javascript",
+      "date": "January 2022",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Started learning javascript and web development"
+    }
+  ]
+}

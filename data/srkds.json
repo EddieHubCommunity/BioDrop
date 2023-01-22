@@ -1,0 +1,22 @@
+{
+  "name": "Nirav",
+  "type": "personal",
+  "bio": "Open Source | Full Stack Dev",
+  "avatar": "https://github.com/srkds.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/srkds",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started OpenSource Contribution",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started contributing to open source by participating in Hacktoberfest 2021"
+    }
+  ]
+}

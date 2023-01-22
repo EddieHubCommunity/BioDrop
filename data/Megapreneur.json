@@ -1,0 +1,43 @@
+{
+  "name": "Ademola Megbabi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Marine Scientist || Software Engineer",
+  "tags": ["Open Source", "Back-end Developer", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AdemolaMegbabi" },
+    { "icon": "FaGithub", "url": "https://github.com/Megapreneur" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ademolamegbabi/"
+    }
+  ],
+  "avatar": "https://github.com/Megapreneur.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdemolaMegbabi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Megapreneur",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ademolamegbabi/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Open source",
+      "url": "https://github.com/Megapreneur"
+    }
+  ]
+}

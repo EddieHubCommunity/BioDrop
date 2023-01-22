@@ -1,0 +1,47 @@
+{
+  "name": "Vinit Hemadri",
+  "type": "personal",
+  "bio": "Likes to code!",
+  "avatar": "https://github.com/Vinitvh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Vinitvh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vinitvh009",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Diploma in Automobile Engineering",
+      "date": "May 2013",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Completed my Diploma"
+    },
+    {
+      "title": "Started with Web Development",
+      "date": "July 2016",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Learnt Html, CSS and JavaScript from Youtube"
+    },
+    {
+      "title": "Started Stock market trading",
+      "date": "August 2020",
+      "color": "green",
+      "description": "Started trading as a fulltime job."
+    },
+    {
+      "title": "Started Open Source",
+      "date": "July 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started with Open source with Eddie Hub Community"
+    }
+  ]
+}

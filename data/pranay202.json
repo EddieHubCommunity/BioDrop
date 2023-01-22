@@ -1,0 +1,83 @@
+{
+  "name": "Pranay Kharabe",
+  "type": "personal",
+  "bio": "I'm a full stack MERN developer and an open-source enthusiast specializing in building exceptional digital experiences. Currently focused on building responsive full stack web applications.",
+  "avatar": "https://github.com/pranay202.png",
+  "links": [
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/pranay-kharabe-b01456207/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect on GitHub",
+      "url": "https://github.com/pranay202",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on Discord",
+      "url": "https://discord.com/channels/@me/KharabePranay#9791",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Connect on Twitter",
+      "url": "https://twitter.com/kharabePranay23",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Instagram",
+      "url": "https://www.instagram.com/dev_root_/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://www.pranaykharabe.netlify.app/"
+    },
+    {
+      "title": "Earned Gold Badge for 10DaysOfJS on HackerRank",
+      "date": "July 2022",
+      "icon": "FaBook",
+      "color": "yellow",
+      "description": "Gold badge for 10 Days of JS",
+      "url": "https://www.hackerrank.com/kharabepranay"
+    },
+    {
+      "title": "Earned LinkedIn skill Badge: Javascript",
+      "date": "July 2022",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "In the top 5% of 897.2k people who took this.",
+      "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-javascript-skillshare-activity-6953234827391250432-PRcP?utm_source=share"
+    },
+    {
+      "title": "Earned LinkedIn skill Badge: React.js",
+      "date": "July 2022",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "In the top 2% of 691.0k people who took this.",
+      "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-react-reactjs-activity-6953766735959179264-NskE?utm_source=share"
+    },
+    {
+      "title": "Earned LinkedIn skill Badge: Java",
+      "date": "September 2022",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "In the top 5% of 2M people who took this.",
+      "url": "https://www.linkedin.com/posts/pranay-kharabe-b01456207_linkedinskillassessment-java-activity-6979155728078917632-PgsS?utm_source=share"
+    },
+    {
+      "title": "Awarded as Top performer of #100DaysOfCodeChallenge by CodeIn Community",
+      "date": "October 2022",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "In the top 1% of 2.8k people who took this.",
+      "url": "https://codeincommunity.tech/100daysofcode"
+    }
+  ]
+}

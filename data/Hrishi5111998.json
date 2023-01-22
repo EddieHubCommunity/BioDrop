@@ -1,0 +1,29 @@
+{
+  "name": "Hrishikesh Tule",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web developer **Digital Nomad**. open source enthusiast",
+  "avatar": "https://github.com/Hrishi5111998.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/@hrishikesh7030",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/hrishikesh2412",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/hrishikesh-tule",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Hrishi5111998",
+      "icon": "FaGithub"
+    }
+  ]
+}

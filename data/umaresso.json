@@ -1,0 +1,39 @@
+{
+  "name": "Umar Khatab",
+  "type": "personal",
+  "bio": "React JS Developer",
+  "avatar": "https://github.com/umaresso.png",
+  "links": [
+    {
+      "name": "Connect on GitHub",
+      "url": "https://github.com/umaresso",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's Connect on Twitter",
+      "url": "https://twitter.com/umarkhatab465",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Learn about Front End Developement",
+      "url": "https://www.youtube.com/channel/UC61r1YBoNKSiI-c5ezj_FJQ",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/umarkhatab465",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "image": "https://www.youtube.com/channel/UC61r1YBoNKSiI-c5ezj_FJQ",
+      "date": "February 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "First video on HTML",
+      "url": "https://youtu.be/UqaxJG1vvMk"
+    }
+  ]
+}

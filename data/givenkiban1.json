@@ -1,0 +1,68 @@
+{
+  "name": "Given Kibanza",
+  "type": "personal",
+  "bio": "Entreprenuer // Dev // Robotics X Space X Medicine",
+  "avatar": "https://github.com/givenkiban1.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/givenkiban1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Given_kibanza",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "I Build projects (Robotics, Drones, Micro-controllers)",
+      "url": "https://www.youtube.com/channel/UCfmT9Cn9a3ATd2NMtc7VyxA",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Introduction to programming",
+      "date": "January 2016",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "I took IT as a subject in high school and so we were introduced to Scratch, the no code platform for making programmes/games. I fell in love with computers/programming eversince and this steered me away from wanting to become a doctor.",
+      "url": "https://scratch.mit.edu/"
+    },
+    {
+      "title": "Enrolled into BSc Mechatronics",
+      "image": "https://pbs.twimg.com/profile_banners/954514146342600704/1547669348/1500x500",
+      "date": "February 2019",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Graduated from high school and now got into uni. Studying Mechatronics at the University of Cape Town in South Africa.",
+      "url": "https://www.uct.ac.za/"
+    },
+    {
+      "title": "My first Job",
+      "date": "August 2019",
+      "icon": "FaGithub",
+      "image": "https://i.imgur.com/psZXhqc.png",
+      "color": "green",
+      "description": "I got a job working as a full stack programmer for a client on campus. this was my introduction to web apps and i learned react on the job. The client wasn't aware of this all along :) and i sure did a great job.",
+      "url": "https://upstar.co.za/"
+    },
+    {
+      "title": "Launched my first app - Smart Student",
+      "date": "August 2020",
+      "icon": "FaGithub",
+      "image": "https://smartstudent-legacy.netlify.app/static/media/icon.c8272652.png",
+      "color": "purple",
+      "description": "I created an app to help students at my university stay up to date with their assignments/tests. worked on this app for 2 weeks and launched. 30 people signed up that year. ",
+      "url": "smartstudent-legacy.netlify.app/"
+    },
+    {
+      "title": "Released Smart Student 2.0",
+      "image": "https://pbs.twimg.com/media/E9e_MQVXMAgmsaE?format=jpg&name=large",
+      "color": "blue",
+      "date": "August 2021",
+      "icon": "FaGithub",
+      "description": "Collaborated with a friend, @cebo_soul on github, and worked to make the app better. which we did. currently near 200 users on campus are using this platform."
+    }
+  ]
+}

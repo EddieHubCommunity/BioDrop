@@ -1,0 +1,23 @@
+{
+  "name": "ArunKumar Nadikattu",
+  "type": "personal",
+  "bio": "Full Stack Developer | Freelancer",
+  "avatar": "https://github.com/Aru-Ku.png",
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/Aru-Ku",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Aru_Ku_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/aru-ku",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

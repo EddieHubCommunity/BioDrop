@@ -1,0 +1,51 @@
+{
+  "name": "Harsh Panchal",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open source| web developer|",
+  "tags": ["Open Source", "web-development"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/HarshPanchal26" },
+    { "icon": "FaGithub", "url": "https://github.com/HarshPanchal26" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/harsh-panchal-49a47019a/"
+    }
+  ],
+  "avatar": "https://github.com/HarshPanchal26.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/HarshPanchal26",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/HarshPanchal26",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsh-panchal-49a47019a/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my first Internship",
+      "date": " November 2022",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "Full Stack Developer",
+      "url": "https://www.linkedin.com/in/harsh-panchal-49a47019a/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Opensource Contributions",
+      "url": "https://github.com/HarshPanchal26"
+    }
+  ]
+}

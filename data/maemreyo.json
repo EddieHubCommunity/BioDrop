@@ -1,0 +1,28 @@
+{
+  "name": "Maemreyo",
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "avatar": "https://github.com/maemreyo.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_maemreyo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://maemreyo.github.io/portfolio",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/th%C3%A0nh-trung-38b669164/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/maemreyo",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Fit Devs",
+  "type": "community",
+  "bio": "#FitDevs with Kat!",
+  "avatar": "https://github.com/FitDevs-withKat.png",
+  "links": [
+    {
+      "name": "Join our Discord",
+      "url": "https://discord.com/invite/A3k66qqQ",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Our Open Source projects",
+      "url": "https://github.com/FitDevs-withKat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "FitDev hashtag on Twitter",
+      "url": "https://twitter.com/search?q=%23fitdevs&src=typed_query&f=live",
+      "icon": "FaTwitter"
+    }
+  ]
+}

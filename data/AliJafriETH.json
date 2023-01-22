@@ -1,0 +1,61 @@
+{
+  "name": "Ali Jafri",
+  "type": "personal",
+  "bio": "Web3 Dev, Open-Source & Technical Writing.",
+  "tags": ["Web3", "Blockchain", "Open-Source", "Tech Writing"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/uptopali" },
+    { "icon": "FaGithub", "url": "https://github.com/AliJafriETH" },
+    { "icon": "SiHashnode", "url": "https://alijafri.hashnode.dev/" },
+    { "icon": "SiLens", "url": "https://lenster.xyz/u/alijafri" }
+  ],
+  "avatar": "https://github.com/AliJafriETH.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AliJafriETH",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Tweets about Web3 and my learnings",
+      "url": "https://twitter.com/uptopali",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Blogs regarding Code and Web3",
+      "url": "https://alijafri.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Lenster Profile",
+      "url": "https://lenster.xyz/u/alijafri",
+      "icon": "SiLens"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributing to Open-Source",
+      "date": "December 2022",
+      "icon": "FaGithub",
+      "color": "Blue",
+      "description": "My Github Contributions",
+      "url": "https://github.com/AliJafriETH"
+    },
+    {
+      "title": "Started technical Blogging",
+      "date": "December 2022",
+      "icon": "SiHashnode",
+      "color": "red",
+      "description": "Documenting my learnings through the medium of blogs ",
+      "url": "https://alijafri.hashnode.dev/"
+    },
+    {
+      "title": "Got Onto Lenster(Lens Protocol)",
+      "date": "December 2022",
+      "icon": "SiLens",
+      "color": "green",
+      "description": "Documenting my learnings through the medium of blogs",
+      "url": "https://lenster.xyz/u/alijafri"
+    }
+  ]
+}

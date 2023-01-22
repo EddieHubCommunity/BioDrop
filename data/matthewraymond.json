@@ -1,0 +1,42 @@
+{
+  "name": "Matthew Raymond",
+  "type": "personal",
+  "bio": "I am a web and software developer, designer, open source contributor, and a student.",
+  "avatar": "https://github.com/matthewraymondh.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/matthewraymondh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MatthewRay03",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_matthewraymond_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/matthew-raymond-915310176/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://www.matthewraymond.me/",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started College",
+      "date": "August 2021",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "Started college"
+    }
+  ]
+}

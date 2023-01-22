@@ -1,0 +1,118 @@
+{
+  "name": "Njong Emy",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Technical writer, Front-end developer, student :)",
+  "avatar": "https://github.com/Njong392.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "Tailwind CSS",
+    "Technical writing"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/njong_emy" },
+    { "icon": "FaGithub", "url": "https://github.com/Njong392" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/channel/UCY5NlsaRLVTMkfC7BQEj2Pg"
+    },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/njong-emy" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Njong392",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/njong_emy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my LinkedIn profile",
+      "url": "https://www.linkedin.com/in/njong-emy",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my content on YouTube",
+      "url": "https://youtube.com/channel/UCY5NlsaRLVTMkfC7BQEj2Pg",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my tech journey",
+      "date": "2020",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "Started tech journey"
+    },
+    {
+      "title": "My first Hacktoberfest",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started tech journey"
+    },
+    {
+      "title": "Actively started technical writing",
+      "date": "2020",
+      "icon": "FaBook",
+      "color": "red",
+      "description": "Started writing"
+    },
+    {
+      "title": "Wrote my first article for FreeCodeCamp",
+      "date": "2021",
+      "icon": "FaBook",
+      "color": "red",
+      "description": "Started writing for FCC"
+    },
+    {
+      "title": "First writing job!",
+      "date": "2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "First writing gig"
+    },
+    {
+      "title": "Second writing job!",
+      "date": "2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Second writing gig"
+    },
+
+    {
+      "title": "Started my own open source project",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "First open source project"
+    },
+    {
+      "title": "Became an ambassador for GitKraken",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Became ambassador for GitKraken"
+    },
+    {
+      "title": "Started out on YouTube",
+      "date": "2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Posted first video"
+    },
+    {
+      "title": "Became a staff member for 4C",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "Became staff member"
+    }
+  ]
+}

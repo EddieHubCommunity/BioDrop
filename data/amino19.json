@@ -1,0 +1,38 @@
+{
+  "name": "Anshumaan Kumar Prasad",
+  "type": "personal",
+  "bio": "Junior at Information Technology & Services",
+  "avatar": "https://github.com/amino19.png",
+  "links": [
+    {
+      "name": "Check out my portfolio",
+      "url": "https://amino19.github.io/online-resume",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anshumaankumarprasad",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/amino19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my blog",
+      "url": "https://amino19.medium.com/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/anshumaankumarprasad/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aminostwt",
+      "icon": "FaTwitter"
+    }
+  ]
+}

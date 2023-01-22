@@ -1,0 +1,33 @@
+{
+  "name": "Deepanshu kumar",
+  "type": "personal",
+  "bio": "Open Source Enthusiast",
+  "avatar": "https://github.com/Deepanshu1334.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Deepanshu1334",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Deepans23454090",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://deepanshu669.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@deepanshuchaudhry852",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/deepanshu-chaudhry-b35274231",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
