@@ -145,7 +145,7 @@ export default async function handler(req, res) {
 
   const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
-  console.log(latestProfile, links);
+
   const profileWithStats = {
     username,
     ...data,
