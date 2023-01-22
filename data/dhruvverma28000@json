@@ -1,0 +1,19 @@
+{
+  "name": "Dhruv Verma",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Mechanical Engineer",
+  "avatar": "https://github.com/dhruvverma28000.png"
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DhruvVe19977409",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/dhruv-verma-7a8a65187/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
