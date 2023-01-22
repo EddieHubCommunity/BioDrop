@@ -1,0 +1,24 @@
+{
+  "name": "Mahek Rohit Gor",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Computer Engineering Student, Exploring Tech",
+  "avatar": "https://github.com/MahekRohitGor.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MahekGor17",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mahek-gor-917246225/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/MahekRohitGor",
+      "icon": "FaGithub"
+    }
+  ]
+}

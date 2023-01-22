@@ -1,9 +1,9 @@
-## 1.55.3 (2023-01-20)
+# 1.56.0 (2023-01-21)
 
 
-### Bug Fixes
+### Features
 
-* padding on fixed buttons ([#3682](https://github.com/EddieHubCommunity/LinkFree/issues/3682)) ([a26a204](https://github.com/EddieHubCommunity/LinkFree/commit/a26a2042f77d1e777481a1388fe2e8f601794479))
+* abbreviate numbers ([#3744](https://github.com/EddieHubCommunity/LinkFree/issues/3744)) ([ad2025f](https://github.com/EddieHubCommunity/LinkFree/commit/ad2025fb810ffa359e0a67a07f5b3980528526e9)), closes [#3484](https://github.com/EddieHubCommunity/LinkFree/issues/3484)
 
 
 
