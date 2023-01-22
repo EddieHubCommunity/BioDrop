@@ -12,13 +12,13 @@
     },
     {
       "name": "Github",
-      "url": "https://github.com",
-      "icon": "faGithub"
+      "url": "https://github.com/underager",
+      "icon": "FaGithub"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/atul-nirbhavane-554067b4/",
-      "icon": "faLinkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }
