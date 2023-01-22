@@ -1,0 +1,110 @@
+{
+  "name": "Manthan Ank",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Front End** Developer | Angular | JavaScript | Nodejs | MongoDB | Open Source",
+  "avatar": "https://github.com/manthanank.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Angular",
+    "Nodejs",
+    "MongoDB"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/manthanank" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/manthan_ank" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/manthanank"
+    }
+  ],
+  "links": [
+    {
+      "name": "Contact me via E-mail",
+      "url": "mailto:manthan.ank46@gmail.com",
+      "icon": "FaEnvelope"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/manthanank",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manthan_ank",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://manthanank.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/manthanank/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Subscribe my Channel!",
+      "url": "https://www.youtube.com/@manthanank",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Join my Channel!",
+      "url": "https://t.me/manthanank",
+      "icon": "FaTelegram"
+    },
+    {
+      "name": "Send me Request on FB!",
+      "url": "https://www.facebook.com/manthanank/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/manthan_ank/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Join my Discord Server!",
+      "url": "https://discord.gg/Vkr2FAGj",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/manthanank",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@manthanank",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://manthanank.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on CodePen",
+      "url": "https://codepen.io/manthanank",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Follow me on Dribble",
+      "url": "https://dribbble.com/manthanank",
+      "icon": "FaDribbble"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started My YouTube channel",
+      "date": "December 2022",
+      "icon": "FaYoutube",
+      "color": "Blue",
+      "description": "Started posting shorts on Youtube, soon posting videos too.",
+      "link": "https://www.youtube.com/@manthanank"
+    }
+  ]
+}

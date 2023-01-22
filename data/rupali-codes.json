@@ -1,7 +1,9 @@
 {
-  "name": "Rupali",
+  "name": "Rupali Haldiya",
   "type": "personal",
-  "bio": "Backend Developer | Open-Source | Wordpress",
+  "displayStatsPublic": true,
+  "bio": "Full stack Developer | Open-Source ",
+  "tags": ["Open Source", "Javascript", "NodeJS", "ReactJS"],
   "avatar": "https://github.com/rupali-codes.png",
   "links": [
     {

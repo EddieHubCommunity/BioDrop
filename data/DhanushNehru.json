@@ -1,0 +1,63 @@
+{
+  "name": "Dhanush Nehru",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Engineer | Technical Writer | Chess Player",
+  "avatar": "https://github.com/DhanushNehru.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Dhanush_Nehru",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/DhanushNehru",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/dhanush_nehru",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on CodePen",
+      "url": "https://codepen.io/dhanushnehru",
+      "icon": "FaCodepen"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Documented dev journey of 2022",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documented my journey as a developer in 2022",
+      "url": "https://dhanushnehru.hashnode.dev/dev-retro-2022-journey-in-review"
+    },
+    {
+      "title": "Completed 100DaysOfCode",
+      "date": "December 2020",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Consistently completed 100DaysOfCode and documented my journey in twitter",
+      "url": "https://dhanushnehru.hashnode.dev/100daysofcode"
+    },
+    {
+      "title": "Started Opensource",
+      "date": "December 2020",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Started with contributing to opensource",
+      "url": "https://github.com/DhanushNehru"
+    },
+    {
+      "title": "Award from Governor",
+      "date": "January 2014",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Prestigious award from the Governor",
+      "url": "https://twitter.com/Dhanush_Nehru/status/1419708448476864513"
+    }
+  ]
+}

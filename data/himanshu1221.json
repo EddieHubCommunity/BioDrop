@@ -1,0 +1,66 @@
+{
+  "name": "Himanshu Chhatwal",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open source Contributor | Blogger | Content Writer ",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Web Dev"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/himanshuchhatw2" },
+    { "icon": "FaGithub", "url": "https://github.com/himanshu1221" },
+    { "icon": "SiHashnode", "url": "https://blogsbyhimanshu.hashnode.dev/" }
+  ],
+  "avatar": "https://github.com/himanshu1221.png",
+  "links": [
+    {
+      "name": "My PortFolio",
+      "url": "https://himanshuchhatwal.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/himanshu1221",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/himanshuchhatw2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://blogsbyhimanshu.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshu-c-537527215/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Participated In HacktoberFest",
+      "url": "https://github.com/himanshu1221"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "December 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Writing About Tech",
+      "url": "https://blogsbyhimanshu.hashnode.dev/"
+    },
+    {
+      "title": "Core team member Of Grow In Community",
+      "date": "November 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Open Source community",
+      "url": "https://twitter.com/GrowInComm"
+    }
+  ]
+}

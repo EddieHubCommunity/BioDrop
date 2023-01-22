@@ -1,0 +1,19 @@
+{
+  "name": "Jainex Patel",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "MERN stack developer | Open-Source Enthusiast | Student",
+  "avatar": "https://github.com/Jainex17.png",
+  "links": [
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/jainex-patel17/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/jainex17",
+      "icon": "FaGithub"
+    }
+  ]
+}
