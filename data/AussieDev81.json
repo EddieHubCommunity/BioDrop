@@ -5,15 +5,15 @@
 	"bio": "Aussie software engineer, Java specialist, and programming mentor",
 	"avatar": "https://github.com/AussieDev81.png",
 	"tags": [ 
-        "Java", 
-        "Spring Boot", 
-        "JavaScript",
-        "MySQL",
-        "PostgreSQL",
-        "REST APIs",
-        "DevOps"
-    ],
-	"socials": [
+		"Java", 
+		"Spring Boot", 
+		"JavaScript",
+		"MySQL",
+		"PostgreSQL",
+		"REST APIs",
+		"DevOps"
+	],
+  	"socials": [
 		{
 			"url": "https://twitter.com/AussieDev81",
 			"icon": "FaTwitter"
@@ -32,19 +32,19 @@
 			"name": "View my website",
 			"url": "https://aussiedev81.com/",
 			"icon": "FaExternalLinkAlt",
-            "color": "#F97316"
+		"color": "#F97316"
 		},
 		{
 			"name": "Follow me on Twitter",
 			"url": "https://twitter.com/AussieDev81",
 			"icon": "FaTwitter",
-            "color": "#1DA1F2"
+		"color": "#1DA1F2"
 		},
 		{
 			"name": "Check me out on GitHub",
 			"url": "https://github.com/AussieDev81",
 			"icon": "FaGithub",
-            "color": "#181717"
+		"color": "#181717"
 		},
 		{
 			"name": "Chat to me on Discord",
