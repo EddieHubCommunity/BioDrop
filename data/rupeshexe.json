@@ -54,12 +54,28 @@
   ],
   "milestones": [
     {
+      "title": "Appeared On Twitter",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Recreated my Twitter Account and trying to stay active this time.",
+      "url": "https://twitter.com/rupeshtwt"
+    },
+    {
+      "title": "First Quality PR on Github",
+      "date": "January 2023",
+      "icon": "FaGitHub",
+      "color": "green",
+      "description": "First PR merged in a live website. Contributed in HTML",
+      "url": "https://github.com/rupeshexe"
+    },
+    {
       "title": "Started with Open-Source",
       "date": "October 2021",
       "icon": "FaGitHub",
       "color": "grey",
       "description": "Created my GitHub Account",
-      "url": "https://twitter.com/rupeshtwt"
+      "url": "https://github.com/rupeshexe"
     }
   ]
 }
