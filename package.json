@@ -59,6 +59,7 @@
     "@axe-core/playwright": "^4.5.2",
     "@babel/core": "^7.20.12",
     "@playwright/test": "^1.29.2",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "babel-loader": "^9.1.2",
     "concurrently": "^7.6.0",
     "eslint": "^8.31.0",
