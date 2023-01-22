@@ -1,9 +1,9 @@
-# 1.58.0 (2023-01-22)
+## 1.58.1 (2023-01-22)
 
 
-### Features
+### Bug Fixes
 
-* future goals ([#3774](https://github.com/EddieHubCommunity/LinkFree/issues/3774)) ([87bd3d5](https://github.com/EddieHubCommunity/LinkFree/commit/87bd3d532ca0ffdd388cefc36773faa9749d1a21)), closes [#2383](https://github.com/EddieHubCommunity/LinkFree/issues/2383)
+* move manishgupta416 to data directory ([#3794](https://github.com/EddieHubCommunity/LinkFree/issues/3794)) ([5d63944](https://github.com/EddieHubCommunity/LinkFree/commit/5d639441eec50ca1a7c7054d26e29391b53777bf))
 
 
 
