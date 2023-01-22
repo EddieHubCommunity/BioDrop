@@ -4,13 +4,14 @@
   "displayStatsPublic": true,
   "bio": "**Open Source** Advocate | DevOps Developer | EddieHub Ambassador",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
+  "avatar": "https://github.com/Pradumnasaraf.png",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
     { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
-    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" }
+    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" },
+    {"icon": "FaDollarSign", "url": "https://github.com/sponsors/Pradumnasaraf"}
   ],
   "testimonials": ["eddiejaoude", "MadhuSaini22", "krshkun"],
-  "avatar": "https://github.com/Pradumnasaraf.png",
   "links": [
     {
       "name": "Daily tweets on Open Source",
@@ -30,10 +31,10 @@
     {
       "name": "Personal website",
       "url": "https://pradumnasaraf.dev",
-      "icon": "FaGlobe"
+      "icon": "FaLink"
     },
     {
-      "name": "Open Source Blog",
+      "name": "Open Source and DevOps Blog",
       "url": "https://blog.pradumnasaraf.dev",
       "icon": "SiHashnode"
     },
@@ -43,9 +44,82 @@
       "icon": "FaDollarSign"
     },
     {
-      "name": "Youtube",
+      "name": "Subscribe to my YouTube channel",
       "url": "https://www.youtube.com/@pradumnasaraf",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pradumnasaraf",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Get Started with Open Source now",
+      "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My DevOps journey",
+      "url": "https://github.com/Pradumnasaraf/DevOps",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2022",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member after actively contributing to projects on both orgs",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "title": "Crossed 5K followers on LinkedIn",
+      "date": "2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross 5K followers milestone",
+      "url": "https://www.linkedin.com/in/pradumnasaraf"
+    },
+    {
+      "title": "Crossed 10K followers on Twitter",
+      "date": "2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross 10K followers milestone",
+      "url": "https://twitter.com/pradumna_saraf"
+    },
+    {
+      "title": "1st Open Source project to reach 500 stars",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Open Source With Pradumna was the first project of mine to reach 500 stars on GitHub",
+      "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna"
+    },
+    {
+      "title": "Became Postman Student Leader",
+      "date": "2022",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "Leader's advocates for API literacy and host events to help developers learn about APIs",
+      "url": "https://badgr.com/public/assertions/pwl4EICMTQm-YJwDCpKAGQ"
+    },
+    {
+      "title": "Became EddieHub Ambassador",
+      "date": "2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Being a Ambassador for EddieHub community, I take forward the value, vison and mission of the EddieHub community, to help people get started with Open Source and provide them an inclusive space to learn, grow and collaborate.",
+      "url": "https://www.eddiehub.org/ambassador-program"
+    },
+    {
+      "title": "Became MLH Mentor",
+      "date": "2021",
+      "icon": "SiMajorleaguehacking",
+      "color": "yellow",
+      "description": "Mentors provide both technical and non-technical support to the hackers throughout the hackathon.",
+      "url": "https://mlh.io/"
     }
   ]
 }
