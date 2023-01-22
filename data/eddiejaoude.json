@@ -148,6 +148,15 @@
       "color": "green",
       "description": "Won top teacher award from GitHub.",
       "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "isGoal": true,
+      "title": "Course on helping people get started with Open Source",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% of the way through my course of helping people getting into Open Source",
+      "url": "http://eddiejaoude.io"
     }
   ]
 }
