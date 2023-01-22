@@ -1,5 +1,5 @@
 {
-  "name": "YOUR NAME",
+  "name": "Souhaib Sfaxi",
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Enthusiast!",
@@ -12,7 +12,7 @@
   "links": [
     {
       "name": "Follow me on GitHub",
-      "url": "https://github.com/YOUR_GITHUB_USERNAME",
+      "url": "https://github.com/souhaibsfaxi",
       "icon": "github"
     }
   ],
@@ -23,7 +23,7 @@
       "icon": "dollar",
       "color": "grey",
       "description": "Started freelancing",
-      "url": "https://www.eddiejaoude.io/"
+      "url": "https://www.souhaibsfaxi.io/"
     }
   ]
 }
