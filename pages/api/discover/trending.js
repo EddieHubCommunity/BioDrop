@@ -1,9 +1,7 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../config/mongo";
 import logger from "../../../config/logger";
 import ProfileStats from "../../../models/ProfileStats";
+import loadProfiles from "../../../services/profiles/loadProfiles";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -46,27 +44,9 @@ export default async function handler(req, res) {
     return res.status(404).json([]);
   }
 
-  const directoryPath = path.join(process.cwd(), "data");
-
   // merge profiles with their profile views if set to public
-  const profiles = getProfiles.flatMap((profile) => {
-    const filePath = path.join(directoryPath, `${profile.username}.json`);
-    try {
-      const user = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const profiles = await loadProfiles(getProfiles);
 
-      if (user.displayStatsPublic) {
-        return {
-          ...user,
-          ...profile,
-        };
-      }
-
-      return [];
-    } catch (e) {
-      logger.error(e, `failed to get load profiles: ${filePath}`);
-      return [];
-    }
-  });
   const slicedProfiles = profiles.slice(0, 5);
   res.status(200).json(slicedProfiles);
 }
