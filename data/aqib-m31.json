@@ -4,9 +4,9 @@
   "type": "personal",
   "bio": "Exploration stage - Open to learning | Avid learner | Programmer | Open Source Enthusiast",
   "avatar": "https://github.com/aqib-m31.png",
-  "socials":[
-    {"icon": "FaGithub", "url": "https://github.com/aqib-m31"},
-    {"icon": "FaTwitter", "url": "https://twitter.com/aqib_m31"}
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/aqib-m31" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/aqib_m31" }
   ],
   "links": [
     {
