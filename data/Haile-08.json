@@ -1,0 +1,14 @@
+{
+  "name": "Haile Melaku",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "a cse student that is learing backend developemnt",
+  "avatar": "https://github.com/Haile-08.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Haile09774574",
+      "icon": "FaTwitter"
+    }
+  ]
+}

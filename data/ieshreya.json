@@ -1,0 +1,40 @@
+{
+  "name": "Shreya Purohit",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Data Analyst | Technical Writer",
+  "tags": ["Data Science", "Data Analytics", "Technical Writing", "SQL"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/eyeshreya" },
+    { "icon": "FaLink", "url": "https://shreyapurohit.now.sh" },
+    { "icon": "FaGithub", "url": "https://github.com/ieshreya" }
+  ],
+  "avatar": "https://github.com/ieshreya.png",
+  "links": [
+    {
+      "name": "Threads on data analytics",
+      "url": "https://twitter.com/eyeshreya",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my portfolio website",
+      "url": "https://shreyapurohit.now.sh",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Connect with me - GitHub",
+      "url": "https://github.com/eyeshreya",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me - LinkedIn",
+      "url": "https://www.linkedin.com/in/shreya-purohit",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my technical articles",
+      "url": "https://designctivity.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

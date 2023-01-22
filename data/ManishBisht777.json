@@ -1,0 +1,76 @@
+{
+  "name": "Manish Bisht",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full Stack Devloper | Trying out new things | Solving Problems",
+  "avatar": "https://github.com/manishbisht777.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Hackathons",
+    "Css"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/manishbisht9711"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/manishbisht777"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCvbes6whpVlY81Nz0ZjFSzg"
+    }
+  ],
+  "links": [
+    {
+      "name": "Sharing my learning",
+      "url": "https://twitter.com/manishbisht9711",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Hackathons Projects And Maybe Some More Things in future",
+      "url": "https://www.youtube.com/channel/UCvbes6whpVlY81Nz0ZjFSzg",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "View My Projects",
+      "url": "https://github.com/manishbisht777",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/manish-bisht-21b02b220/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hackathon Projects",
+      "url": "https://devpost.com/ManishBisht777",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Contribution",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "gray",
+      "description": "Made my first open source contribution during HacktoberFest",
+      "url": "https://github.com/Dun-sin/Code-Magic"
+    },
+    {
+      "title": "First Hackathon Project",
+      "date": "December 2022",
+      "icon": "FaLink",
+      "color": "gray",
+      "description": "Participated in my first ever hackathon and won as well",
+      "url": "https://github.com/Dun-sin/Code-Magic"
+    }
+  ]
+}
