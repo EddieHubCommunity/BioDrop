@@ -1,6 +1,3 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../../config/mongo";
 import logger from "../../../../config/logger";
 
@@ -8,96 +5,19 @@ import Profile from "../../../../models/Profile";
 import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
+import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
 
 export default async function handler(req, res) {
-  let log;
   await connectMongo();
   const { username } = req.query;
+  let log;
   log = logger.child({ username: username });
 
-  const filePath = path.join(process.cwd(), "data", `${username}.json`);
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    log.info(`data loaded for username: ${username}`);
-  } catch (e) {
-    log.error(e, `profile loading failed for username: ${username}`);
-    return res.status(404).json({});
-  }
+  const data = findOneByUsernameFull(username);
 
-  if (data.testimonials) {
-    const filePathTestimonials = path.join(
-      process.cwd(),
-      "data",
-      username,
-      "testimonials"
-    );
-    const testimonials = data.testimonials.flatMap((testimonialUsername) => {
-      try {
-        const testimonial = {
-          ...JSON.parse(
-            fs.readFileSync(
-              path.join(filePathTestimonials, `${testimonialUsername}.json`),
-              "utf8"
-            )
-          ),
-          username: testimonialUsername,
-        };
-
-        // check testimonial author for LinkFree profile
-        try {
-          const filePath = path.join(
-            process.cwd(),
-            "data",
-            `${testimonialUsername}.json`
-          );
-          JSON.parse(fs.readFileSync(filePath, "utf8"));
-
-          return {
-            ...testimonial,
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonialUsername}`,
-          };
-        } catch (e) {
-          log.warn(
-            `testimonial ${testimonialUsername} loading failed for username: ${username}`
-          );
-          return {
-            ...testimonial,
-            url: `https://github.com/${testimonialUsername}`,
-          };
-        }
-      } catch (e) {
-        return [];
-      }
-    });
-    data = { ...data, testimonials };
-  }
-
-  const filePathEvents = path.join(process.cwd(), "data", username, "events");
-  let eventFiles = [];
-  try {
-    eventFiles = fs
-      .readdirSync(filePathEvents)
-      .filter((item) => item.includes("json"));
-  } catch (e) {
-    log.error(`loading events for ${username} in ${filePathEvents}`);
-  }
-  const events = eventFiles.flatMap((filename) => {
-    try {
-      const event = {
-        ...JSON.parse(
-          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
-        ),
-        username,
-      };
-
-      return event;
-    } catch (e) {
-      return [];
-    }
-  });
-  if (events.length) {
-    data = { ...data, events };
+  if (!data.username) {
+    logger.error(`failed loading profile username: ${username}`);
+    return res.status(404).json({ error: `${username} not found` });
   }
 
   const date = new Date();

@@ -1,30 +1,11 @@
-import fs from "fs";
-import path from "path";
-
-import logger from "../../../config/logger";
+import findAllBasic from "../../../services/profiles/findAllBasic";
 
 export default async function handler(req, res) {
-  const directoryPath = path.join(process.cwd(), "data");
-  let files = [];
+  const profiles = findAllBasic();
 
-  try {
-    files = fs
-      .readdirSync(directoryPath)
-      .filter((item) => item.includes("json"));
-  } catch (e) {
-    logger.error(e, "failed to load profiles");
-  }
-
-  const tags = files.flatMap((file) => {
-    const filePath = path.join(directoryPath, file);
-    try {
-      const userTags = JSON.parse(fs.readFileSync(filePath, "utf8")).tags;
-      return userTags && userTags.length ? userTags : [];
-    } catch (e) {
-      logger.warn(e, `failed to get load profile tags for: ${filePath}`);
-      return [];
-    }
-  });
+  const tags = profiles.flatMap((profile) =>
+    profile.tags && profile.tags.length ? profile.tags : []
+  );
 
   const reducedTags = tags.reduce((allTags, name) => {
     const currCount = allTags[name] ?? 0;
