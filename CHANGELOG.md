@@ -1,9 +1,9 @@
-# 1.56.0 (2023-01-21)
+# 1.58.0 (2023-01-22)
 
 
 ### Features
 
-* abbreviate numbers ([#3744](https://github.com/EddieHubCommunity/LinkFree/issues/3744)) ([ad2025f](https://github.com/EddieHubCommunity/LinkFree/commit/ad2025fb810ffa359e0a67a07f5b3980528526e9)), closes [#3484](https://github.com/EddieHubCommunity/LinkFree/issues/3484)
+* future goals ([#3774](https://github.com/EddieHubCommunity/LinkFree/issues/3774)) ([87bd3d5](https://github.com/EddieHubCommunity/LinkFree/commit/87bd3d532ca0ffdd388cefc36773faa9749d1a21)), closes [#2383](https://github.com/EddieHubCommunity/LinkFree/issues/2383)
 
 
 
