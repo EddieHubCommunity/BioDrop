@@ -3,12 +3,12 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend developer **Beginner**. Like to read Books Yoga & Travel",
-  "avatar": "https://github.com/rashmip2408.png"
+  "avatar": "https://github.com/rashmip2408.png",
   "links": [
     {
       "name": "Follow me on LinkedIn",
-      "url": "linkedin.com/in/rashmi-pawar-b4888322b",
-      "icon": "FaLinkedIn"
+      "url": "https://linkedin.com/in/rashmi-pawar-b4888322b",
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Github",
