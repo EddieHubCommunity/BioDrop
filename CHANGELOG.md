@@ -1,9 +1,9 @@
-# 1.56.0 (2023-01-21)
+# 1.57.0 (2023-01-22)
 
 
 ### Features
 
-* abbreviate numbers ([#3744](https://github.com/EddieHubCommunity/LinkFree/issues/3744)) ([ad2025f](https://github.com/EddieHubCommunity/LinkFree/commit/ad2025fb810ffa359e0a67a07f5b3980528526e9)), closes [#3484](https://github.com/EddieHubCommunity/LinkFree/issues/3484)
+* refactor api to be more dry ([#3742](https://github.com/EddieHubCommunity/LinkFree/issues/3742)) ([d68527e](https://github.com/EddieHubCommunity/LinkFree/commit/d68527e35f0bf3969feebffed67840de950df69c)), closes [#3108](https://github.com/EddieHubCommunity/LinkFree/issues/3108)
 
 
 
