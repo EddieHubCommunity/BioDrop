@@ -1,33 +1,39 @@
 {
   "name": "Soham Ratnaparkhi",
   "type": "personal",
-  "bio": "Open Source Enthusiast! and a young developer.",
+  "bio": "An Open Source Enthusiast eager to learn and grow! ",
+  "tags": ["Next.js", "React.js", "Node.js", "TensorFlow", "Java"],
   "avatar": "https://github.com/SohamRatnaparkhi.png",
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/SohamRatnaparkhi",
-      "icon": "FaGithub"
+      "icon": "github"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SohamR_7113",
-      "icon": "FaTwitter"
+      "icon": "twitter"
     },
     {
-      "name": "My LinkedIn profile!",
+      "name": "Connect with me on LinkdIn profile!",
       "url": "https://www.linkedin.com/in/soham-ratnaparkhi-3a3775ab/",
-      "icon": "FaLinkedin"
+      "icon": "linkedin"
     },
     {
-      "name": "Know more about me!",
-      "url": "https://sohamratnaparkhi.github.io/PersonalWebsite_SohamR/",
-      "icon": "FaSearch"
+      "name": "Personal portfolio website",
+      "url": "https://soham-r-portfolio-website.vercel.app/",
+      "icon": "search"
+    },
+    {
+      "name": "Wanna checkout my blogs?",
+      "url": "https://sohamr.hashnode.dev/",
+      "icon": "SiHashnode"
     },
     {
       "name": "Contact me",
-      "url": "https://sohamratnaparkhi.github.io/PersonalWebsite_SohamR/",
-      "icon": "FaEnvelope"
+      "url": "mailto:soham.ratnaparkhi@gmail.com",
+      "icon": "envelope"
     }
   ]
 }
