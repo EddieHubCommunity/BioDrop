@@ -10,6 +10,9 @@
     { "icon": "FaGithub", "url": "https://github.com/money8203" },
     { "icon": "FaLink", "url": "https://manishtyagi.carrd.co/" }
   ],
+   "testimonials": [
+       "the-amazing-atharva"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",

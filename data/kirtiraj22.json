@@ -4,21 +4,21 @@
   "type": "personal",
   "bio": "Self taught Frontend developer.",
   "avatar": "https://github.com/kirtiraj22.png",
-  "links" : [
+  "links": [
     {
-      "name" : "Twitter",
-      "url" : "https://twitter.com/KirtirajThakor",
-      "icon" : "FaTwitter"
+      "name": "Twitter",
+      "url": "https://twitter.com/KirtirajThakor",
+      "icon": "FaTwitter"
     },
     {
-      "name" : "LinkedIn",
-      "url" : "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
-      "icon" : "FaLinkedIn"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
+      "icon": "FaLinkedIn"
     },
-     {
-      "name" : "Github",
-      "url" : "https://github.com/kirtiraj22",
-      "icon" : "FaGithub"
+    {
+      "name": "Github",
+      "url": "https://github.com/kirtiraj22",
+      "icon": "FaGithub"
     }
   ]
 }
