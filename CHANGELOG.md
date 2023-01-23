@@ -1,9 +1,9 @@
-# 1.59.0 (2023-01-23)
+## 1.59.1 (2023-01-23)
 
 
-### Features
+### Bug Fixes
 
-* ellipsis to profile cards ([#3798](https://github.com/EddieHubCommunity/LinkFree/issues/3798)) ([#3861](https://github.com/EddieHubCommunity/LinkFree/issues/3861)) ([a8f3f11](https://github.com/EddieHubCommunity/LinkFree/commit/a8f3f11950a383fe5513656aba0817e297d8c782))
+* backticks not getting rendered in docs ([#2566](https://github.com/EddieHubCommunity/LinkFree/issues/2566)) ([7cca1ac](https://github.com/EddieHubCommunity/LinkFree/commit/7cca1ac504cb2f80db93137afced7e006659e5e4)), closes [#2562](https://github.com/EddieHubCommunity/LinkFree/issues/2562) [#2562](https://github.com/EddieHubCommunity/LinkFree/issues/2562)
 
 
 
