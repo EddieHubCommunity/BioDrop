@@ -1,0 +1,48 @@
+{
+    "name": "Daniel J. Paulino",
+    "displayStatsPublic": true,
+    "type": "personal",
+    "bio": "Software and Web Dev | Data",
+    "avatar": "https://github.com/daniel-jp.png",
+    "links": [{
+            "name": "Connect me on Linkedin",
+            "url": "https://www.linkedin.com/in/daniel-j-paulino-737808198/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/Daniel28725148",
+            "icon": "FaTwitter"
+        },
+
+        {
+            "name": "Follow me on Instagram",
+            "url": "https://www.instagram.com/daniel_j_paulino/",
+            "icon": "FaInstagramSquare"
+        },
+
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/SaraJaoude",
+            "icon": "FaTwitter"
+        },
+
+        {
+            "name": "Follow me on Youtube",
+            "url": "https://www.youtube.com/@danieljoaquimpaulino5795/playlists",
+            "icon": "FaYoutubeSquare"
+        },
+
+        {
+            "name": "Follow me on Youtube",
+            "url": "https://www.youtube.com/@danieljoaquimpaulino5795/playlists",
+            "icon": "FaYoutubeSquare"
+        },
+        {
+            "name": "My virtual Badge",
+            "url": "https://daniel-jp.github.io/Badge-virtuel-mobile/",
+            "icon": "FaIdBadge"
+        }
+
+    ]
+}
