@@ -1,0 +1,34 @@
+{
+  "name": "Shiva Abhishek",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Intrested in DevOps | Open Source",
+  "avatar": "https://github.com/shivaabhishek07.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/shivaabhishek71",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/shivaabhishek07",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shivaabhishek71",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://shiva71.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Checkout my DevOps learnings repo",
+      "url": "https://www.github.com/shivaabhishek07/DevOps",
+      "icon": "FaGithub"
+    }
+  ]
+}

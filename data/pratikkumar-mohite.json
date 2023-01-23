@@ -1,0 +1,96 @@
+{
+  "name": "Pratikkumar Mohite",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**DevOps** ∞ Engineer | Ambassador **@ProjectCalico** | **Open Source** | Cloud & Container Enthusiast ⚡️",
+  "avatar": "https://github.com/pratikkumar-mohite.png",
+  "tags": [
+    "DevOps",
+    "Cloud",
+    "Kubernetes",
+    "IaC",
+    "CI/CD",
+    "GitOps",
+    "ServiceMesh"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/DotSlashMohite" },
+    { "icon": "FaGithub", "url": "https://github.com/pratikkumar-mohite" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/pratikkumar-mohite"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/pratikkumar_mohite"
+    },
+    { "icon": "FaGmail", "url": "mailto:mohite770.pm@gmail.com" }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/pratikkumar-mohite",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/DotSlashMohite",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/pratikkumar-mohite",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs: Read the blogs",
+      "url": "https://medium.com/@DotSlashMohite",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "Discord: Pratikkumar",
+      "url": "https://discordapp.com/users/435775830384181248",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Topmate: Connect for 1:1",
+      "url": "https://topmate.io/pratikkumar_mohite/69638",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Career",
+      "date": "2019",
+      "icon": "FaTech",
+      "color": "grey",
+      "description": "Started Working as Software proffessional",
+      "url": "https://linkedin.com/in/pratikkumar-mohite"
+    },
+    {
+      "title": "DevOps & More",
+      "date": "2020",
+      "icon": "FaDevops",
+      "color": "red",
+      "description": "Started my DevOps Journey",
+      "url": "https://linkedin.com/in/pratikkumar-mohite"
+    },
+    {
+      "title": "Certifications 2021",
+      "date": "2021",
+      "icon": "FaKubernetes",
+      "color": "blue",
+      "description": "Achieved CKA and Terraform associate Badge",
+      "url": "https://www.credly.com/users/pratik-mohite.df7e2712/badges"
+    },
+    {
+      "title": "Calico Big Cat Ambassador",
+      "date": "2023",
+      "icon": "FaCommunity",
+      "color": "grey",
+      "description": "Started as Ambassador @projectcalico ",
+      "url": "https://linkfree.eddiehub.io"
+    }
+  ]
+}

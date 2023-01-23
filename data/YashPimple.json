@@ -1,0 +1,53 @@
+{
+  "name": "Yash Pimple",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Contributor | Web Developer | Blogger",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "React", "Node.js"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Yashpimple22" },
+    { "icon": "FaGithub", "url": "https://github.com/YashPimple" },
+    { "icon": "FaHashnode", "url": "https://yashpimple.hashnode.dev/" }
+  ],
+  "avatar": "https://github.com/YashPimple.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Yashpimple22",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/YashPimple",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yash-pimple-623683222/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://yashpimple.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blog",
+      "date": "July 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started Documenting my learnings through blogs",
+      "url": "https://yashpimple.hashnode.dev/"
+    },
+    {
+      "title": "Started Development",
+      "date": "April 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started learning Web Development",
+      "url": "https://github.com/YashPimple"
+    }
+  ]
+}

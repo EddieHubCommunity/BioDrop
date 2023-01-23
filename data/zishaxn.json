@@ -1,0 +1,43 @@
+{
+  "name": "Zishan chaudhary",
+  "type": "personal",
+  "bio": "Web developer 💻 learning full stack development 🤓 Proficient in Java ☕️Open source Enthusiast 🤖  🚀 Connect with me to collaborate",
+  "avatar": "https://github.com/zishaxn.png",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Data Strcutures & Algorithm",
+    "Web Development"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/zishaxn"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/zishaxn"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/zishaxn/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Let's Collaborate ",
+      "url": "https://github.com/zishaxn",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let us connect on Twitter",
+      "url": "https://twitter.com/zishaxn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with On LinkedIn ",
+      "url": "https://www.linkedin.com/in/zishaxn/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

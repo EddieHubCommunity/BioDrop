@@ -1,0 +1,29 @@
+{
+  "name": "Kelvin Parmar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning DevOps , Looking for an opportunity in DevOps , Creating content on Twitter",
+  "avatar": "https://github.com/kelvinparmar.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kelvinparmar12",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/kelvinparmar",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kelvinparmar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://kelvin-parmar.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

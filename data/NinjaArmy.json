@@ -1,0 +1,24 @@
+{
+  "name": "Joschi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Mostly E-Commerce",
+  "avatar": "https://github.com/NinjaArmy.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NinjaJoschi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/NinjaArmy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "hashnode",
+      "url": "https://ninja-army.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

@@ -1,19 +1,24 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
 
-## Single user mode
+## Self hosted single user mode
 
-If you wish to self-host this app for a single user, follow the same steps as above, but then in the file `config/user.json` add your username.
+This allows you to host LinkFree yourself for your single Profile, but this will remove the top navigation bar.
 
-For example
+![Self hosted single user mode](https://user-images.githubusercontent.com/624760/212294357-e757236b-9f94-4754-9f1f-a9aae90284e9.png)
 
-```json
+1. Add your Profile as normal (see [QuickStart](/docs/quickstart) guide)
+2. In the config file `config/user.json` add your username:
+
+```js
 {
   "username": "eddiejaoude"
 }
 ```
 
+3. Host the app on your favourite platform
+
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Single User Mode Documentation">
+  <DocsLayout title="LinkFree Full Example documentation">
     {children}
   </DocsLayout>
 );

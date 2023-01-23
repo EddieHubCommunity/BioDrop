@@ -1,0 +1,82 @@
+{
+  "name": "Krish Chopra",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source Enthusiast, Mobile App Developer",
+  "avatar": "https://github.com/KrishChopra22.png",
+  "tags": ["Flutter", "Android", "Kotlin", "DSA", "Open Source", "Java"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/KrishChopra22" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/krishchopra22" },
+    { "icon": "FaLinkedinIn", "url": "https://linkedin.com/in/krishchopra22" }
+  ],
+  "links": [
+    {
+      "name": "My GitHub Profile - Please Sponsor🙏🏻",
+      "url": "https://github.com/KrishChopra22",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on Twitter",
+      "url": "https://twitter.com/krishchopra22",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/krishchopra22",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram 🙃",
+      "url": "https://instagram.com/__s_e_c_r_e_t__a_r_t_i_s_t__",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Discord 👾",
+      "url": "https://discord.gg/Krish#3024",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Tech Content on YouTube : Do Subscribe🥺",
+      "url": "https://youtube.com/@krishchopra22",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Face Emotions Detection - Project",
+      "url": "https://krishchopra22.github.io/face-emotions-detector/",
+      "icon": "FaCode"
+    },
+    {
+      "name": "Dev-Profile",
+      "url": "https://dev.to/krishchopra22",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Face Recognition - Open Source Project",
+      "date": "2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "This is a Face Recognition Web-Application which may help to save the attendance and can track the record of missing people.",
+      "url": "https://krishchopra22.github.io/Facial-Recognition-Engage22/"
+    },
+    {
+      "title": "Started practicing DSA on LeetCode",
+      "date": "2022",
+      "icon": "FaLaptopCode",
+      "color": "yellow",
+      "description": "while(true){ code }",
+      "url": "https://www.leetcode.com/krishchopra22"
+    },
+    {
+      "title": "Used to write some blogs",
+      "date": "2020",
+      "icon": "FaBloggerB",
+      "color": "red",
+      "description": "I know they're not that professional, just expressed my thoughts",
+      "url": "https://krishtechnorism.blogspot.com"
+    }
+  ],
+  "testimonials": []
+}

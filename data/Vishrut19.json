@@ -1,0 +1,67 @@
+{
+  "name": "Vishrut Agarwalla",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Building GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Enthusiast",
+  "avatar": "https://github.com/Vishrut19.png",
+  "tags": [
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "JavaScript",
+    "JAVA",
+    "Python",
+    "Git and GitHub",
+    "TypeScript",
+    "ReactJS"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
+    { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/vishrut-agarwalla"
+    },
+    { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vishrut19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishrut19",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://vishrut19.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Building GrowInCommunity",
+      "date": "December 2022",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Co-Founder of GrowInCommunity"
+    },
+    {
+      "title": "Associate Software Engineer",
+      "date": "April 2022 - September 2022",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Associate Software Engineer in Eurofins IT Solutions"
+    },
+    {
+      "title": "Bachelor's of Engineering in Electronics and Telecommunications",
+      "date": "August 2016 - July 2021",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Graduated with First Class of Engineering in Electronics and Telecommunications"
+    }
+  ]
+}

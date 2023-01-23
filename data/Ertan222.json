@@ -1,0 +1,76 @@
+{
+  "name": "Ertan Taner",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Jr. Backend Developer | Animal Lover | Open Source Is Everything | Linux Enthusiast | Terminal > GUI ",
+  "avatar": "https://github.com/Ertan222.png",
+  "tags": [
+    "C#",
+    "JavaScript",
+    "Backend",
+    "Open Source",
+    "API",
+    "Linux",
+    "Bash",
+    "NodeJS"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Ertan222" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ertan-taner/" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/Ertant11" }
+  ],
+  "links": [
+    {
+      "name": "Github: Open source contributation and personal projects",
+      "url": "https://github.com/Ertan222",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin: Connect with me throught Linkedin for job offers",
+      "url": "https://www.linkedin.com/in/ertan-taner/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Doing #100daysofcode in Twitter, you can follow my journey",
+      "url": "https://twitter.com/Ertant11",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Backend Development",
+      "date": "Aug 2022",
+      "icon": "SiCsharp",
+      "color": "purple",
+      "description": "I started backend development with C# language"
+    },
+    {
+      "title": "Started Open Source Contribution",
+      "date": "Dec 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Everything started with a contribution to EddieHub's hacktoberfest-pratice."
+    },
+    {
+      "title": "Finished my first course",
+      "date": "Jan 2023",
+      "icon": "FaBookOpen",
+      "color": "red",
+      "description": "I finished my course at Infotech Academy"
+    },
+    {
+      "title": "Started #100daysofcode",
+      "date": "Jan 2023",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "I wanted to improve my skills and make some projects. Thats why ı started a journey for myself"
+    },
+    {
+      "title": "First Certificate",
+      "date": "Nov 2022",
+      "icon": "FaCertificate",
+      "color": "darkblue",
+      "description": "I got my first development certificate from freeCodeCamp's Relational Database curriculum"
+    }
+  ]
+}
