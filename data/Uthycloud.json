@@ -7,17 +7,22 @@
 "links": [
 {
 "name": "Follow me on Twitter",
-"url": "https://twitter.com/hux_nan",
+"url": "https://twitter.com/hux_man",
 "icon": "FaTwitter"
 },
 {
 "name": "connect on linkedin",
-"url": "https://linkedin.com/in/uthnandevops",
-"icon": "Falinkedin"
+"url": "https://linkedin.com/in/uthmandevops",
+"icon": "FaLinkedin"
 },
+{
 "name": "github",
 "url": "https://github/uthycloud",
-"icon": "Fagithub"
-}
+"icon": "FaGithub"
+},
+{
+"name": "my blog",
+"url": "https://uthy.hashnode.dev",
+"icon": "FaHashnode"
 ]
 }
