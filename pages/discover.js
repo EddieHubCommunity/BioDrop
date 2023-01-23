@@ -90,8 +90,8 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <div className="flex flex-row gap-3 items-center mb-4">
-            <h2 className="text-xl font-bold">
+          <div className="flex flex-row justify-center md:justify-start gap-3 items-center mb-4">
+            <h2 className="text-md md:text-xl font-bold">
               Random LinkFree Profiles
             </h2>
             <button
@@ -112,7 +112,7 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">
+          <h2 className="text-md md:text-left md:text-xl text-center font-bold mb-4">
             Trending LinkFree Profiles (last 24 hours)
           </h2>
           <ul className="flex flex-wrap gap-3 justify-center">
@@ -125,7 +125,7 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">Popular LinkFree Profiles</h2>
+          <h2 className="text-md md:text-xl md:text-left text-center font-bold mb-4">Popular LinkFree Profiles</h2>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.popular.map((profile) => (
               <li key={profile.username}>
