@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../Link";
 import ReactMarkdown from "react-markdown";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 import FallbackImage from "../FallbackImage";
