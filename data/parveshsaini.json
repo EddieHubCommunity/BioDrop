@@ -10,20 +10,16 @@
       "url": "https://twitter.com/saini_parvesh11",
       "icon": "FaTwitter"
     },
-        {
+    {
       "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/parvesh-saini-a5345a229/",
       "icon": "FaLinkedin"
     },
-        {
+    {
       "name": "Checkout my Open-Source contributions ",
       "url": "https://github.com/parveshsaini",
       "icon": "FaGithub"
     }
   ],
-  "tags": [
-  "Open Source",
-  "Javascript",
-  "ReactJS"
-]
+  "tags": ["Open Source", "Javascript", "ReactJS"]
 }
