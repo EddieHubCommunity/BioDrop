@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "JavaScript Web Developer helping women become ✨ coding superheroes ✨ at Coder Woman",
-  "avatar": "https://avatars.githubusercontent.com/u/14938482?v=4",
+  "avatar": "https://github.com/agakadela.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -19,13 +19,13 @@
        "name": "Follow me on LinkedIn",
        "url": "https://www.linkedin.com/in/agakadela/",
        "icon": "FaLinkedin"
-     },
-  ],
+     }
+  ]
    "tags": [
      "Open Source",
      "JavaScript",
      "ReactJS",
      "NextJS",
      "Python"
- ],
+ ]
 }
