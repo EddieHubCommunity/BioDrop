@@ -1,9 +1,9 @@
-# 1.51.0 (2023-01-16)
+# 1.59.0 (2023-01-23)
 
 
 ### Features
 
-* api handle redirects ([#3246](https://github.com/EddieHubCommunity/LinkFree/issues/3246)) ([#3502](https://github.com/EddieHubCommunity/LinkFree/issues/3502)) ([d06b814](https://github.com/EddieHubCommunity/LinkFree/commit/d06b814ec01b24d56d7bf67050cc05e24fd27363))
+* ellipsis to profile cards ([#3798](https://github.com/EddieHubCommunity/LinkFree/issues/3798)) ([#3861](https://github.com/EddieHubCommunity/LinkFree/issues/3861)) ([a8f3f11](https://github.com/EddieHubCommunity/LinkFree/commit/a8f3f11950a383fe5513656aba0817e297d8c782))
 
 
 

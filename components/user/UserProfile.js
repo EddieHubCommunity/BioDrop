@@ -1,12 +1,12 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "js-abbreviation-number";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
 
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
 import Tag from "../Tag";
+import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);

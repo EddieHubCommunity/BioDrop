@@ -1,0 +1,54 @@
+{
+  "name": "Vamsi Penmetsa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "🧐 Curious **DevOps** Dude | 20K+ smart minds 👀 my content on LinkedIn | 1.5+ million constant impressions 📈 on Linkedin | ♾ DevOps Community Builder | Azure ☁️ | love 🥑 | 🛫 From 🇮🇳, Lives in Europe 🇪🇺 | 💁🏻‍♂️ 𝗙𝗢𝗟𝗟𝗢𝗪",
+  "tags": ["Personal branding", "DevOps", "Cloud", "Automation", "Technical Writing"],
+  "avatar": "https://github.com/vamsipenmetsa7.png",
+   "socials": [
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
+    { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" }
+  ],
+  "links": [
+     {
+      "name": "Follow me on LinkedIn (Join 20K+ followers)",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vamsi_penmetsa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe to my Youtube channel",
+      "url": "https://www.youtube.com/channel/UCecon2EsKZyPxvjA4WEaGlA",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vamsi__penmetsa/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "JOIN 👉🏼 **DevOps** Resource group 4k+ 👨‍👨‍👧‍👦(LinkedIn)",
+      "url": "https://linkedin.openinapp.co/groups-13986647",
+      "icon": "FaUsers"
+    }
+    ],
+    
+    "milestones": [
+   
+    {
+      "title": "Crossed 20K followers on LinkedIn",
+      "date": "2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on DevOps and connecting 20K followers milestone 🥳",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    }
+
+  ]
+
+}

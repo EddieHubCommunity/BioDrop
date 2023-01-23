@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "../components/Link";
 import Image from "next/image";
-import { abbreviateNumber } from "js-abbreviation-number";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -15,6 +14,7 @@ import {
 import { FaMedal } from "react-icons/fa";
 
 import singleUser from "../config/user.json";
+import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -89,7 +89,7 @@ export default function Home({ total, today }) {
     {
       name: "Milestones",
       description:
-        "Demostrate the highlights of your career by adding Milestones to your Profile",
+        "Demonstrate the highlights of your career by adding Milestones to your Profile",
       icon: FaMedal,
       path: "/docs/how-to-guides/milestones",
     },
@@ -143,7 +143,7 @@ export default function Home({ total, today }) {
     {
       name: "Your Milestones",
       description:
-        "Demostrate the highlights of your career by adding Milestones to your Profile",
+        "Demonstrate the highlights of your career by adding Milestones to your Profile",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
@@ -443,7 +443,7 @@ export default function Home({ total, today }) {
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
         >
-          <div className="fixed bottom-5 right-5 p-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
+          <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider
               value={{ color: "white", style: { verticalAlign: "middle" } }}
             >

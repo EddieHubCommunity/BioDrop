@@ -1,5 +1,5 @@
 import Link from "../components/Link";
-import { abbreviateNumber } from "js-abbreviation-number";
+import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
 export default function Tag({ name, total }) {
   return (
