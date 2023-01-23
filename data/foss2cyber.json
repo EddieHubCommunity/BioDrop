@@ -14,7 +14,8 @@
       "Infosec",
       "OSINT/DFIR",
     ],
-    "socials": [{
+    "socials": [
+        {
             "icon": "FaTwitter",
             "url": "https://twitter.com/thefoss_m"
         },
@@ -27,7 +28,8 @@
             "url": "https://linkedin.com/in/ishan-velle-fossie8"
         },
     ],
-    "links": [{
+    "links": [
+        {
             "name": "GitHub: Take a look at some my projects",
             "url": "https://github.com/foss2cyber",
             "icon": "FaGithub"
@@ -43,7 +45,8 @@
             "icon": "FaGlobe"
         },
     ],
-    "milestones": [{
+    "milestones": [
+        {
             "title": "Built & deployed my portfolio site",
             "date": "Jan 16, 2023",
             "icon": "FaGlobe",
