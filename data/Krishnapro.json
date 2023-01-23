@@ -2,9 +2,15 @@
   "name": "Krishna Kumar",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Software Developer | Open Source | DevOps Enthusiasts",
+  "bio": "**Software Developer** | Open Source | DevOps Enthusiasts",
   "avatar": "https://github.com/Krishnapro.png",
-  "tags": ["Java", "Scala", "javascript"],
+  "tags": [
+    "Java",
+    "Scala",
+    "javascript",
+    "Open Source",
+    "Spring Framework"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },
     { "icon": "FaGithub", "url": "https://github.com/Krishnapro" },
@@ -43,6 +49,24 @@
       "name": "Support my work - GitHub Sponsors",
       "url": "https://github.com/sponsors/Krishnapro",
       "icon": "FaDollarSign"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Software Developer",
+      "date": "July 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started working as Full-time Software Developer",
+      "url": "https://www.asmaka.biz/"
+    },
+    {
+      "title": "Software Developer intern",
+      "date": "March 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Internship as Software Developer",
+      "url": "https://www.asmaka.biz/"
     }
   ]
 }
