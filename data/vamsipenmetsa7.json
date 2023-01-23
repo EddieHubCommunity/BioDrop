@@ -7,11 +7,7 @@
    "socials": [
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/" },
     { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
-    { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" },
-    {
-      "icon": "FaDollarSign",
-      "url": "https://github.com/sponsors/Pradumnasaraf"
-    }
+    { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" }
   ],
   "links": [
      {
@@ -49,7 +45,7 @@
       "icon": "FaLinkedin",
       "color": "purple",
       "description": "Creating content on DevOps and connecting 20K followers milestone 🥳",
-      "url": "https://www.linkedin.com/in/pradumnasaraf"
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
     }
 
   ]
