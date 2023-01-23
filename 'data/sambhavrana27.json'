@@ -1,0 +1,19 @@
+{
+  "name": "Sambhav Rana",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "There are only two kinds of programming languages: those people always bitch about and those nobody uses",
+  "avatar": "https://github.com/SaraJaoude.png"
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sambhavnrana/?hl=en",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sambhav-rana-b03558229/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}
