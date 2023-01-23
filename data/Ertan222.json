@@ -53,10 +53,24 @@
     },
     {
       "title": "Finished my first course",
-      "date": "Nov 2022",
+      "date": "Jan 2023",
       "icon": "FaBookOpen",
       "color": "red",
       "description": "I finished my course at Infotech Academy"
+    },
+    {
+      "title": "Started #100daysofcode",
+      "date": "Jan 2023",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "I wanted to improve my skills and make some projects. Thats why ı started a journey for myself"
+    },
+    {
+      "title": "First Certificate",
+      "date": "Nov 2022",
+      "icon": "FaCertificate",
+      "color": "darkblue",
+      "description": "I got my first development certificate from freeCodeCamp's Relational Database curriculum"
     }
   ]
 }
