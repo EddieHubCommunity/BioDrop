@@ -5,6 +5,7 @@ import Alert from "../Alert";
 import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
+  console.log(data);
   const [eventType, seteventType] = useState("all");
   let categorisedEvents = {
     all: data.events,
@@ -26,7 +27,7 @@ export default function UserEvents({ data }) {
       <ul role="list" className="divide-y divide-gray-200">
         {data.events &&
           categorisedEvents[eventType].map((event, index) => (
-            <EventCard event={event} key={index} />
+            <EventCard name={data.name} event={event} key={index} />
           ))}
       </ul>
     </div>

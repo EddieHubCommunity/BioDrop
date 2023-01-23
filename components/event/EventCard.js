@@ -9,7 +9,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import FallbackImage from "../FallbackImage";
 
-export default function EventCard({ event, username }) {
+export default function EventCard({ event, username, name }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",
@@ -35,6 +35,26 @@ export default function EventCard({ event, username }) {
             )}
         </div>
         <div className="flex-1 space-y-1">
+          <div className="flex space-x-2">
+            <p>
+              {name} is{" "}
+              <span
+                className="font-bold"
+                style={{
+                  color: event.color,
+                }}
+              >
+                {event.userStatus}
+              </span>{" "}
+              {event.userStatus == "speaking" && "at"} this event.
+            </p>
+            {event.userStatus == "speaking" && (
+              <p>
+                ( <span className="font-bold">Topic: </span>{" "}
+                {event.speakingTopicDetails.topic} )
+              </p>
+            )}
+          </div>
           <div className="flex items-center justify-between">
             <div>
               <Link
@@ -46,9 +66,6 @@ export default function EventCard({ event, username }) {
               >
                 {event.name}
               </Link>
-              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
-                {event.description}
-              </ReactMarkdown>
               <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
@@ -62,6 +79,9 @@ export default function EventCard({ event, username }) {
                   )}
                 </span>
               </p>
+              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
+                {event.description}
+              </ReactMarkdown>
             </div>
             {username && (
               <Link
