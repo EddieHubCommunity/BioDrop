@@ -28,7 +28,7 @@ export default function UserCard({ profile }) {
         <h3 className="text-xl justify-center text-center text-orange-600 font-bold mb-2">
           {profile.name}
         </h3>
-        <ReactMarkdown className="text-center">{profile.bio}</ReactMarkdown>
+        <ReactMarkdown className="text-center line-clamp-5">{profile.bio}</ReactMarkdown>
       </div>
     </Link>
   );
