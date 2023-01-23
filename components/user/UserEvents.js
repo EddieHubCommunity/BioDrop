@@ -5,7 +5,6 @@ import Alert from "../Alert";
 import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
-  console.log(data);
   const [eventType, seteventType] = useState("all");
   let categorisedEvents = {
     all: data.events,
