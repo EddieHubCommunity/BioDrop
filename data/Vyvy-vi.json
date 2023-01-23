@@ -26,12 +26,5 @@
       "icon": ""
     }
   ],
-  "tags": [
-    "C",
-    "C++",
-    "Python",
-    "Javascript",
-    "Typescript",
-    "Automation"
-  ]
+  "tags": ["C", "C++", "Python", "Javascript", "Typescript", "Automation"]
 }
