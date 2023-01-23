@@ -32,10 +32,10 @@ export default function UserProfile({ BASE_URL, data }) {
             className="rounded-full object-contain"
           />
           <div
-            className="absolute inline-block bottom-0 left-0 top-auto right-auto translate-y-2/4 -translate-x-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 px-2 py-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold border-2 border-orange-600 rounded-xl z-10 animate-bounce text-orange-600 cursor-pointer"
+            className="absolute inline-block bottom-0 left-0 top-auto right-auto translate-y-2/4 -translate-x-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 px-2 py-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold border-2 border-red-600 rounded-xl z-10 animate-bounce text-red-600 cursor-pointer shadow-md shadow-red-600"
             onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
           >
-            <MdQrCode2 />
+            <MdQrCode2 size={21} />
           </div>
         </div>
 
