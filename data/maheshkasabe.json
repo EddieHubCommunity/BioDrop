@@ -2,14 +2,14 @@
   "name": "Mahesh Kasbe",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "**Open Source** Advocate | DevOps ",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
+  "bio": " Open Source | DevOps | DevRel ",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Java"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/maheshstwt" },
-    { "icon": "FaGithub", "url": "https://github.com/Mahesh-Kasabe" },
-    { "icon": "website", "url": "https://mahesh-kasabe.github.io/" }
+    { "icon": "FaGithub", "url": "https://github.com/MaheshKasabe" },
+    { "icon": "website", "url": "https://maheshkasabe.github.io/" }
   ],
-  "avatar": "https://github.com/Mahesh-Kasabe.png",
+  "avatar": "https://github.com/MaheshKasabe.png",
   "links": [
     {
       "name": "Daily tweets on Open Source",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Follow my Open Source journey",
-      "url": "https://github.com/Mahesh-Kasabe",
+      "url": "https://github.com/MaheshKasabe",
       "icon": "FaGithub"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "Portfolio",
-      "url": "https://mahesh-kasabe.github.io/",
+      "url": "https://maheshkasabe.github.io/",
       "icon": "FaGlobe"
     },
     {

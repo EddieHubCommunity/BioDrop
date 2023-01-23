@@ -2,7 +2,7 @@
   "name": "Ankur Agarwal",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "MERN Stack Developer | Google DSC Lead | Student Placement Coordinator | IIIT Kota",
+  "bio": "Google DSC Lead | MLSA | Student Placement Coordinator | MERN Stack Developer | IIIT Kota",
   "avatar": "https://github.com/Ankur6702.png",
   "tags": [
     "Javascript",
@@ -16,7 +16,7 @@
   ],
   "socials": [
     {
-      "icon": "SiProgress",
+      "icon": "FaGlobe",
       "url": "https://www.theankur.tech"
     },
     {
