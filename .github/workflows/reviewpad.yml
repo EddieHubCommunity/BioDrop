@@ -22,6 +22,12 @@ jobs:
   reviewpad_job:
     runs-on: ubuntu-latest
     name: Reviewpad
+    # Don't run reviewpad on automated PRs
+    if: |
+      github.event_name != 'pull_request_target' ||
+      (github.event.pull_request.title != 'Merge new release into main' &&
+      github.event.pull_request.title != 'Merge testimonial into main' &&
+      github.event.pull_request.title != 'Merge formatting into main')
     steps:
       - name: Reviewpad
         uses: reviewpad/action@v3.x

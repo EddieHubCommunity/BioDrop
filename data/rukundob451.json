@@ -1,0 +1,29 @@
+{
+  "name": "Benjamin Rukundo",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source | DevOps Enthusiast",
+  "avatar": "https://github.com/rukundob451.png",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rukundob451",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@rukundob451",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/benja_rukundo",
+      "icon": "FaTwitter"
+    }
+  ]
+}

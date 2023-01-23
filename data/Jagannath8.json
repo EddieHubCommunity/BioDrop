@@ -1,0 +1,72 @@
+{
+  "name": "Jagannath Pal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Student** | **ML Enthusiast** | **Open Source** ",
+  "avatar": "https://github.com/Jagannath8.png",
+  "tags": [
+    "C",
+    "Java",
+    "Python",
+    "SQL",
+    "Data Science",
+    "Machine Learning",
+    "Cloud",
+    "Azure"
+  ],
+
+  "socials": [
+    {
+      "icon": "SiProgress",
+      "url": "https://jagannath8.github.io/Portfolio/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Jagannath08"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@jagannathpal6897"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/_jagannath_08/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jagannath8"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jagannath-pal-a26403178/"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://jagannath8.github.io/Portfolio/",
+      "icon": "SiProgress"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Jagannath08",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_jagannath_08/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn: Let's connect!",
+      "url": "https://www.linkedin.com/in/jagannath-pal-a26403178/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: Will be happy to collab in open source projects",
+      "url": "https://github.com/Jagannath8",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SafeerAlEhsan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack dev looking to build things that are useful and building them right.",
+  "avatar": "https://github.com/safeeralehsan.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/safeeralehsan/",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/safeeralehsan/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
