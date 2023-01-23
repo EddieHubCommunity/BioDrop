@@ -8,8 +8,14 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/KunalVerma2468" },
     { "icon": "FaGithub", "url": "https://github.com/kunal00000" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/kunalverma2468" },
-    { "icon": "SiHashnode", "url": "https://www.linkedin.com/in/kunalverma2468" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    }
   ],
   "links": [
     {
