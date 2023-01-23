@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Avid Linux User **Web Dev**. Tech Enthusiast",
-  "avatar": "https://github.com/SaraJaoude.png",
+  "avatar": "https://github.com/priyankarpal.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -15,15 +15,15 @@
       "url": "https://github.com/priyankarpal",
       "icon": "FaGithub"
     },
-       {
+      {
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/priyankarpal",
       "icon": "FaLinkedin"
     },
-       {
+      {
       "name": "Instagram: Let's connect",
       "url": "https://instagram.com/priyankarpal1",
       "icon": "FaInstagram"
-    },
+    }
   ]
 }
