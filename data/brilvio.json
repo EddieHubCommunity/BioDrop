@@ -1,0 +1,24 @@
+{
+  "name": "Fernando Derkoski (Brilvio)",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Tech inthusiast and boardgame player",
+  "avatar": "https://github.com/brilvio.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/brilvio",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/brilvio",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://twitch.com/brilvio",
+      "icon": "FaTwitch"
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 {
-  "name": "LinuxGamer (aka CJ)",
+  "name": "CJ (LinuxGamer)",
   "type": "personal",
-  "bio": "Open Source Enthusiast! Tech, Gaming, Art YouTuber and Streamer.",
+  "bio": "**Open Source** Enthusiast! Tech and Art YouTuber and Streamer.",
   "displayStatsPublic": true,
   "avatar": "https://github.com/LinuxGamer.png",
+  "tags": ["Open Source", "Youtuber", "EddieHub", "GitHub", "Artist"],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -21,8 +22,8 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow my Mastodon",
-      "url": "https://mstdn.starnix.network/@linuxgamer",
+      "name": "Follow my main Fediverse account",
+      "url": "https://pl.starnix.network/users/CJLinuxGamer",
       "icon": "FaMastodon"
     },
     {
@@ -44,7 +45,7 @@
       "title": "First Appeared On Twitter",
       "date": "June 2022",
       "icon": "FaTwitter",
-      "color": "red",
+      "color": "blue",
       "description": "First appeared on Twitter.",
       "url": "https://twitter.com/the_linuxgamer"
     },

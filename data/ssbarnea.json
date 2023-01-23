@@ -1,0 +1,64 @@
+{
+  "name": "Sorin Sbarnea",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Python Software Engineer",
+  "avatar": "https://github.com/ssbarnea.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/sbarnea" },
+    { "icon": "FaGithub", "url": "https://github.com/ssbarnea" },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/sorinsbarnea/"
+    },
+    { "icon": "FaFacebook", "url": "https://facebook.com/sorin.sbarnea" }
+  ],
+  "tags": ["Open Source", "Python", "Ansible", "TypeScript"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ssbarnea",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@ssbarnea",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sbarnea",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sorinsbarnea/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My personal blog",
+      "url": "https://sbarnea.com/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Discord: Let's chat",
+      "url": "http://discordapp.com/users/414477577160228888",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/sorin.sbarnea/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Check me out on YouTube",
+      "url": "https://www.youtube.com/@ssbarnea",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Check me out on Reddit",
+      "url": "https://www.reddit.com/user/sbarnea",
+      "icon": "FaReddit"
+    }
+  ]
+}

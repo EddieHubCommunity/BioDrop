@@ -2,7 +2,7 @@
   "name": "Vishrut Agarwalla",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Co-Founder - GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Enthusiast",
+  "bio": "Building GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Enthusiast",
   "avatar": "https://github.com/Vishrut19.png",
   "tags": [
     "HTML5",
@@ -12,14 +12,15 @@
     "JAVA",
     "Python",
     "Git and GitHub",
-    "TypeScript"
+    "TypeScript",
+    "ReactJS"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
     { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
     {
       "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/vishut-agarwalla"
+      "url": "https://linkedin.com/in/vishrut-agarwalla"
     },
     { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
   ],
@@ -42,7 +43,7 @@
   ],
   "milestones": [
     {
-      "title": "Co-Founder at GrowInCommunity",
+      "title": "Building GrowInCommunity",
       "date": "December 2022",
       "icon": "FaLink",
       "color": "grey",

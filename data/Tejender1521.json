@@ -4,11 +4,24 @@
   "type": "personal",
   "bio": "Full Stack Developer || Pre-Final Year C.S.E. Undergrad. || Self-Taught Developer",
   "avatar": "https://github.com/Tejender1521.png",
-  "tags": ["Javascript", "C++", "Python", "ReactJS", "NodeJS", "MongoDB", "AWS", "Elasticsearch"],
+  "tags": [
+    "Javascript",
+    "C++",
+    "Python",
+    "ReactJS",
+    "NodeJS",
+    "MongoDB",
+    "AWS",
+    "Elasticsearch"
+  ],
   "socials": [
     {
       "icon": "SiProgress",
       "url": "https://www.tejender-upadhyay.tech"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/"
     },
     {
       "icon": "FaTwitter",
@@ -28,6 +41,11 @@
       "name": "Personal Portfolio",
       "url": "https://www.tejender-upadhyay.tech",
       "icon": "SiProgress"
+    },
+    {
+      "name": "Let's connect on Instagram",
+      "url": "https://www.instagram.com/tejender_upadhyay/",
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow me on Twitter",
