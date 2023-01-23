@@ -163,7 +163,7 @@ export default function Navbar() {
               <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
@@ -177,7 +177,7 @@ export default function Navbar() {
                     >
                       <FaGithub />
                     </IconContext.Provider>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

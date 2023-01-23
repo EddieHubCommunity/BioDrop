@@ -1,10 +1,11 @@
 import getIcon from "../Icon";
+import Link from "../Link";
 
 function UserSocial({ BASE_URL, username, social }) {
   const DisplayIcon = getIcon(social.icon);
 
   return (
-    <a
+    <Link
       href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
         social.url
       )}`}
@@ -13,7 +14,7 @@ function UserSocial({ BASE_URL, username, social }) {
       className="hover:scale-125 transition ease-in-out delay-100"
     >
       <DisplayIcon aria-label={social.icon.slice(2)} />
-    </a>
+    </Link>
   );
 }
 
