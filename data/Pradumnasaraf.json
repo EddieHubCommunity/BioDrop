@@ -9,9 +9,12 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
     { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
     { "icon": "FaLink", "url": "https://pradumnasaraf.dev" },
-    {"icon": "FaDollarSign", "url": "https://github.com/sponsors/Pradumnasaraf"}
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/Pradumnasaraf"
+    }
   ],
-  "testimonials": ["eddiejaoude", "MadhuSaini22", "krshkun"],
+  "testimonials": ["eddiejaoude", "MadhuSaini22", "krshkun", "tobySolutions"],
   "links": [
     {
       "name": "Daily tweets on Open Source",
