@@ -4,12 +4,7 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "JAVA",
-    "SCSS"
-  ],
+  "tags": ["Open Source", "Javascript", "JAVA", "SCSS"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
     { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
@@ -49,7 +44,7 @@
       "description": "Started learning how to code using HTML, CSS, Bootstrap",
       "url": "https://itspp.vercel.app"
     },
-     {
+    {
       "title": "Started My Own Blogs",
       "date": "september 2021",
       "icon": "FaLink",
