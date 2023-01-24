@@ -64,7 +64,7 @@ export default function DocsIndex() {
         {
           name: "Available icons",
           path: "/icons",
-          description: "Search available icons you can use on your profile.",
+          description: "Search for available icons you can use on your profile.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",

@@ -1,0 +1,29 @@
+{
+  "name": "Himanshu Balani",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "CSE Undergrad | Cloud Enthusiast | Flutter | Python | Astronomy Geek | Trying to be better each day :)",
+  "avatar": "https://github.com/himanshubalani.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/himanshubalani5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshubalani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Befriend me on Discord",
+      "url": "https://discord.com/users/759807486831099928",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Email Me",
+      "url": "mailto:himanshubalaniworks@gmail.com",
+      "icon": "SiGmail"
+    }
+  ]
+}

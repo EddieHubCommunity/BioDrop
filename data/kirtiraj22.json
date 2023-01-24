@@ -1,0 +1,24 @@
+{
+  "name": "Kirtiraj Thakor",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Self taught Frontend developer.",
+  "avatar": "https://github.com/kirtiraj22.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/KirtirajThakor",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kirtiraj-thakor-0a5440204/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/kirtiraj22",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Arunava Debnath",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a skilled coder and programmer with a passion for building new technology. I am committed to learning and exploring new languages and frameworks. A strong attention to detail and dedication to high-quality software make him an asset to any team.",
+  "avatar": "https://github.com/AwesomeArunava.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/awesome_arunava",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/arunava-debnath",
+      "icon": "FaInstagram"
+    }
+  ]
+}

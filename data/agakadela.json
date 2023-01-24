@@ -1,0 +1,25 @@
+{
+  "name": "Aga Kadela",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "JavaScript Web Developer helping women become ✨ coding superheroes ✨ at Coder Woman",
+  "avatar": "https://github.com/agakadela.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aga_kadela",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/agakadela",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/agakadela/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "tags": ["Open Source", "JavaScript", "ReactJS", "NextJS", "Python"]
+}
