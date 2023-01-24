@@ -1,5 +1,6 @@
 name: Format
 on:
+  workflow_dispatch:
   #Run every day at midnight UTC
   schedule:
     - cron: '0 0 * * *' 
