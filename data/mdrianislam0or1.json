@@ -24,6 +24,16 @@
       "name": "Portfolio",
       "url": "https://rianislam-me.web.app/",
       "icon": "FaHouseUser"
+    },
+     {
+      "name": "Behance",
+      "url": "https://www.behance.net/mdrianislam0or1",
+      "icon": "FaBehance"
+    },
+     {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hisdeveloperworld/",
+      "icon": "FaInstagram"
     }
    ]
 }
