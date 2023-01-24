@@ -35,26 +35,28 @@ export default function EventCard({ event, username, name }) {
             )}
         </div>
         <div className="flex-1 space-y-1">
-          <div className="flex space-x-2">
-            <p>
-              {name} is{" "}
-              <span
-                className="font-bold"
-                style={{
-                  color: event.color,
-                }}
-              >
-                {event.userStatus}
-              </span>{" "}
-              {event.userStatus == "speaking" && "at"} this event.
-            </p>
-            {event.userStatus == "speaking" && (
+          {!username && event.userStatus && (
+            <div className="flex space-x-2">
               <p>
-                ( <span className="font-bold">Topic: </span>{" "}
-                {event.speakingTopicDetails.topic} )
+                {name} is{" "}
+                <span
+                  className="font-bold"
+                  style={{
+                    color: event.color,
+                  }}
+                >
+                  {event.userStatus}
+                </span>{" "}
+                {event.userStatus == "speaking" && "at"} this event.
               </p>
-            )}
-          </div>
+              {event.userStatus == "speaking" && (
+                <p>
+                  ( <span className="font-bold">Topic: </span>{" "}
+                  {event.speakingTopicDetails.topic} )
+                </p>
+              )}
+            </div>
+          )}
           <div className="flex items-center justify-between">
             <div>
               <Link
