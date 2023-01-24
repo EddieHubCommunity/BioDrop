@@ -1,0 +1,29 @@
+{
+  "name": "Ayush",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source | Frontend Web Developer | Learning in Public really helps",
+  "avatar": "https://github.com/ayushsgithub.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ayushisreal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/ayushslink/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Github",
+      "url": "https://github.com/ayushsgithub",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs On Hashnode",
+      "url": "https://ayushisreal.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

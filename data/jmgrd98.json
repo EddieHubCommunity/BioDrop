@@ -4,11 +4,16 @@
   "type": "personal",
   "bio": "React Developer Jr.",
   "avatar": "https://github.com/jmgrd98.png",
-  "milestones: "First day on GitHub!"
+  "milestones: "First day on GitHub!",
+  "socials": [
+  { "icon": "FaGithub", "url": "https://github.com/jmgrd98" },
+  { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/joao-marcelo-dantas" },
+  { "icon": "FaTwitter", "url": "https://twitter.com/joaodantas_dev" }
+],
   "links": [
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/jo%C3%A3o-marcelo-dantas-3b519b18a/",
+      "url": "https://www.linkedin.com/in/joao-marcelo-dantas/",
       "icon": "FaLinkedin"
     },
     {

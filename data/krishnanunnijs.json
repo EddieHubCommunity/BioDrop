@@ -1,0 +1,14 @@
+{
+  "name": "Krishnan Unni",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Engineer | Coffee Lover | Globetrotter",
+  "avatar": "https://github.com/krishnanunnijs.png",
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/krishnanunnijs/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

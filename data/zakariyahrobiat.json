@@ -1,0 +1,29 @@
+{
+  "name": "Zakariyah Robiah",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm a food scientist turned frontend developer",
+  "avatar": "https://github.com/ZakariyahRobiat.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zakariyahrobia3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zakariyahrobiat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/m/in/robiat-zakariyah-743452225",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on instagram",
+      "url": "https://www.instagram.com/zakariyahrobiat2018",
+      "icon": "FaInstagram"
+    }
+  ]
+}

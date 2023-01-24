@@ -1,0 +1,24 @@
+{
+  "name": "Rajesh Anthari",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web developer and enthusiastic in learning interesting things",
+  "avatar": "https://github.com/antharir.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RajeshAnthari",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rajesh-anthari-88347480/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/antharir",
+      "icon": "FaGithub"
+    }
+  ]
+}

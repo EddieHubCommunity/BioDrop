@@ -1,0 +1,42 @@
+{
+  "name": "Partha Mallick",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full Stack Web Developer | Linux Administrator | Open Source Enthusiast!",
+  "avatar": "https://github.com/parthamk.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/parthamk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/impartha/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imparthamk",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learned Hardware and Networking",
+      "date": "May 2015",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "IT- Security, Hardware and Networking management, Server Management, Linux Administration",
+      "url": "https://www.brainware-india.com/site/index.php"
+    },
+    {
+      "title": "Started Learning Full Stack",
+      "date": "December 2021",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "Learning Java, DSA, Frontend, Backend",
+      "url": "https://my.newtonschool.co/user/partha0988/"
+    }
+  ]
+}

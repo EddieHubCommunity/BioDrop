@@ -1,0 +1,24 @@
+{
+  "name": "Madhavi Joshi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning Full Stack Web Development",
+  "avatar": "https://github.com/Madhavi210.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Madhavi_Joshi__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/madhavi-joshi-0b3228239/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Madhavi210",
+      "icon": "FaGithub"
+    }
+  ]
+}

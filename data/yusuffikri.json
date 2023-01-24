@@ -1,0 +1,24 @@
+{
+  "name": "Yusuf Fikri",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "learn and grow",
+  "avatar": "https://github.com/yusuffikri.png",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yusuf-fikri-mustanir-231250218/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/yusufikri_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/yusuffikri",
+      "icon": "FaGithub"
+    }
+  ]
+}

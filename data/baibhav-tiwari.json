@@ -1,0 +1,62 @@
+{
+  "name": "Baibhav Tiwari",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Web3** | **Web-developer** | **React** | **Open_Source**",
+  "avatar": "https://github.com/baibhav-tiwari.png",
+  "tags": ["Open Source", "Javascript", "ReactJS", "Web3"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BaibhavTiwari11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/baibhav-tiwari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/baibhavtiwari/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Cpp",
+      "date": "2021",
+      "icon": "FaSearch",
+      "color": "black",
+      "description": "It was my first programming language which I started Learning."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "i was always interested in creating websites, so i decided to learn web dev."
+    },
+    {
+      "title": "Social Media",
+      "date": "2022",
+      "icon": "FaAndroid",
+      "color": "black",
+      "description": "Firstly i thought Twitter is boring but as i started using it more i started loving it."
+    },
+    {
+      "title": "My tech stack/ what i know",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "black",
+      "description": "HTML, CSS, JavaScript, Tailwind, Nodejs, Expressjs, React, Python, Cpp"
+    },
+    {
+      "title": "Open-Source",
+      "date": "2022",
+      "icon": "DiOpensource",
+      "color": "black",
+      "description": "It's been 3 Months and more that I started contributing to other's project and doing Open-Source"
+    }
+  ]
+}

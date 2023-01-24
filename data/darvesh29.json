@@ -1,0 +1,34 @@
+{
+  "name": "Darvesh Chauhan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "21 | Begginner in Open Source | Learning DevOps | Learning Web-Development | Java | DSA",
+  "avatar": "https://github.com/darvesh29.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/darveshere",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/darveshchauhan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/darvesh29",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets Connect on Insta",
+      "url": "https://www.instagram.com/shubham.ss0001/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Read my Blogs on Hashnode",
+      "url": "https://hashnode.com/@darvesh29",
+      "icon": "SiHashnode"
+    }
+  ]
+}
