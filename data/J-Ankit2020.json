@@ -2,8 +2,22 @@
   "name": "Ankit Jha",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Full Stack Developer || DevOps || Web3",
+  "bio": "Full Stack Developer | DevOps | Open Source Enthusiast",
   "avatar": "https://github.com/J-Ankit2020.png",
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ankitjha121/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ankit_the_beast"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/J-Ankit2020"
+    }
+  ],
   "links": [
     {
       "name": "LinkedIn",
