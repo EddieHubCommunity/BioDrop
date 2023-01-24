@@ -6,11 +6,15 @@ import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
   const [eventType, seteventType] = useState("all");
+  const futureEvents = data.events.filter(
+    (event) => new Date(event.date.end) > new Date()
+  );
+
   let categorisedEvents = {
-    all: data.events,
-    virtual: data.events.filter((event) => event.isVirtual === true),
-    inPerson: data.events.filter((event) => event.isInPerson === true),
-    cfpOpen: data.events.filter((event) =>
+    all: futureEvents,
+    virtual: futureEvents.filter((event) => event.isVirtual === true),
+    inPerson: futureEvents.filter((event) => event.isInPerson === true),
+    cfpOpen: futureEvents.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
   };
