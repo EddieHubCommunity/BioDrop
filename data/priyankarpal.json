@@ -20,20 +20,20 @@
     {
       "name": "Check my Latest Blogs",
       "url": "https://priyankarpal.hashnode.dev",
-      "icon": "FaLink"
-       "color": "#3466F6"
+      "icon": "FaLink",
+      "color": "#3466F6"
     },
     {
       "name": "Proof of Works",
       "url": "https://fueler.io/priyankarpal",
       "icon": "FaLink",
-       "color": "#5ACAE3"
+      "color": "#5ACAE3"
     },
     {
       "name": "All Twitter Threads",
       "url": "https://fueler.io/priyankarpal/twitter-threads/96db7bf8-10dd-4110-b899-bd69fbae9835",
       "icon": "FaLink",
-       "color": "#5ACAE3"
+      "color": "#5ACAE3"
     },
     {
       "name": "My Portfolio",
