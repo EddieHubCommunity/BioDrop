@@ -25,7 +25,23 @@
     }
   ],
 
-  "testimonial": ["VittorOlliveira", "Badr281", "joelkabamba"],
+  "testimonial": [
+    {
+      "title": "He is very serious at work",
+      "description": "Daniel, we already had together in one of the projects at the end of the course, in addition to being very outgoing, he also doesn't forget when the work needs a lot of commitment and seriousness.",
+      "date": "2023-01-24"
+    },
+    {
+      "title": "Good Spring Boot Dev",
+      "description": "I know Daniel, is the one good Spring. boot Dev that I knew and resilient developer with coding skills. Daniel has so much energy when it comes to delivering scalable.",
+      "date": "2023-01-24"
+    },
+    {
+      "title": "Exceptional Dev",
+      "description": "Daniel is an exceptional Dev. freelancer with a deep understanding of cloud-native open-source technologies, DevOps practices, and networking principles..",
+      "date": "2023-01-24"
+    }
+  ],
 
   "links": [
     {
