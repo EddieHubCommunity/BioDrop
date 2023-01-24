@@ -7,7 +7,9 @@ export default {
 
 export const Basic = {
   args: {
-    data: {...profile},
+    data: {
+      ...profile
+    },
     BASE_URL: "https://linkfree.eddiehub.io/"
   }
 };
