@@ -1,0 +1,25 @@
+{
+  "name": "Mohit Parmar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning Frontend💻,Exploring Open source💡,let's connect 🫂",
+  "avatar": "https://github.com/mohitparmar.png"
+  
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mohitparmar1_",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/mohitparmar1_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mohitparmar1",
+      "icon": "FaGithub"
+    }
+  ]
+}
