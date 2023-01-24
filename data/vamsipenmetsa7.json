@@ -21,9 +21,14 @@
       "icon": "FaTwitter"
     },
     {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@vamsipenmetsa",
+      "icon": "FaMedium"
+    },
+    {
       "name": "Subscribe to my Youtube channel",
       "url": "https://www.youtube.com/channel/UCecon2EsKZyPxvjA4WEaGlA",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on Instagram",
@@ -31,7 +36,7 @@
       "icon": "FaInstagram"
     },
     {
-      "name": "JOIN 👉🏼 DevOps Resource group 4k+ members 👨‍👨‍👧‍👦 LinkedIn",
+      "name": "Join DevOps Resource group (4k+ members 👨‍👨‍👧‍👦) LinkedIn",
       "url": "https://linkedin.openinapp.co/groups-13986647",
       "icon": "FaUsers"
     }
@@ -50,10 +55,18 @@
     {
       "title": "Epam Systems Poland Brand Ambassador",
       "date": "Jan '23 to April '23",
-      "icon": "GiAchievement",
+      "icon": "FaMedal",
       "color": "gold",
       "description": "Selected by the team of Epam leaders by going though my activity on LinkedIn ",
       "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    },
+    {
+      "title": "Wrote 10 articles on Medium",
+      "date": "Jan '23 to April '23",
+      "icon": "FaNewspaper",
+      "color": "black",
+      "description": "Completed writing first 10 free articles on medium",
+      "url": "https://medium.com/@vamsipenmetsa"
     }
 
   ]
