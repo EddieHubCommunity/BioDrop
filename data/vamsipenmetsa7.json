@@ -7,7 +7,9 @@
    "socials": [
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/" },
     { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
+    { "icon": "FaMedium", "url": "https://medium.com/@vamsipenmetsa" },
     { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" }
+
   ],
   "links": [
      {
@@ -62,7 +64,7 @@
     },
     {
       "title": "Wrote 10 articles on Medium",
-      "date": "Jan '23 to April '23",
+      "date": "Aug '22 to 2023",
       "icon": "FaNewspaper",
       "color": "black",
       "description": "Completed writing first 10 free articles on medium",
