@@ -1,0 +1,24 @@
+{
+  "name": "Thomas A. McGonagle",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Living made off of open source since Linux kernel 2.2.5-15.",
+  "avatar": "https://github.com/mcgonagle.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mcgonagle",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thomasmcgonagle",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/mcgonagle",
+      "icon": "FaTwitter"
+    }
+  ]
+}
