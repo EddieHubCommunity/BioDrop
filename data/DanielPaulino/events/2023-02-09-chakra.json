@@ -1,0 +1,11 @@
+{
+    "isVirtual": true,
+    "color": "red",
+    "name": "Spring JPA",
+    "description": "In this livestream I will talk about JPA.",
+    "date": {
+        "start": "2023-02-09T18:00:00.000+00:00",
+        "end": "2023-02-09T19:00:00.000+00:00"
+    },
+    "url": "https://www.youtube.com/@danieljoaquimpaulino5795"
+}

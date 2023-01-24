@@ -1,0 +1,12 @@
+{
+    "isVirtual": true,
+    "isInPerson": true,
+    "color": "#553C9A",
+    "name": "Chakra-ui and React",
+    "description": "In this year I'll start to learning how to implement chakra-ui in react js",
+    "date": {
+        "start": "2023-03-02T09:00:00.000+00:00",
+        "end": "2023-04-02T17:30:00.000+00:00"
+    },
+    "url": "https://github.com/daniel-jp"
+}

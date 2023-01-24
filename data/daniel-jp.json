@@ -1,48 +1,129 @@
 {
-    "name": "Daniel J. Paulino",
-    "displayStatsPublic": true,
-    "type": "personal",
-    "bio": "Software and Web Dev | Data",
-    "avatar": "https://github.com/daniel-jp.png",
-    "links": [{
-            "name": "Connect me on Linkedin",
-            "url": "https://www.linkedin.com/in/daniel-j-paulino-737808198/",
-            "icon": "FaLinkedin"
-        },
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/Daniel28725148",
-            "icon": "FaTwitter"
-        },
+  "name": "Daniel J. Paulino",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software and Web Dev | Data",
+  "avatar": "https://github.com/daniel-jp.png",
 
-        {
-            "name": "Follow me on Instagram",
-            "url": "https://www.instagram.com/daniel_j_paulino/",
-            "icon": "FaInstagramSquare"
-        },
+  "tags": [
+    "Java",
+    "SpringBoot",
+    "React",
+    "Angular",
+    "MySql",
+    "Chakra-ui",
+    "NodeJs",
+    "TypeScript"
+  ],
 
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/SaraJaoude",
-            "icon": "FaTwitter"
-        },
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Daniel28725148" },
+    { "icon": "FaGithub", "url": "https://github.com/daniel-jp" },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/daniel_j_paulino/"
+    }
+  ],
 
-        {
-            "name": "Follow me on Youtube",
-            "url": "https://www.youtube.com/@danieljoaquimpaulino5795/playlists",
-            "icon": "FaYoutubeSquare"
-        },
+  "testimonial": ["VittorOlliveira", "joelkabamba"],
 
-        {
-            "name": "Follow me on Youtube",
-            "url": "https://www.youtube.com/@danieljoaquimpaulino5795/playlists",
-            "icon": "FaYoutubeSquare"
-        },
-        {
-            "name": "My virtual Badge",
-            "url": "https://daniel-jp.github.io/Badge-virtuel-mobile/",
-            "icon": "FaIdBadge"
-        }
+  "links": [
+    {
+      "name": "Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/daniel-j-paulino-737808198/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Daniel28725148",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/daniel_j_paulino/",
+      "icon": "FaInstagramSquare",
+      "color": "#702459"
+    },
 
-    ]
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@danieljoaquimpaulino5795/playlists",
+      "icon": "FaYoutubeSquare",
+      "color": "#FF0000"
+    },
+    {
+      "name": "My Virtual-Badge",
+      "url": "https://daniel-jp.github.io/Badge-virtuel-mobile/",
+      "icon": "FaIdBadge",
+      "color": "#553C9A"
+    }
+  ],
+  "events": [
+    {
+      "isVirtual": true,
+      "color": "red",
+      "name": "Spring JPA",
+      "description": "In this livestream I will talk about JPA.",
+      "date": {
+        "start": "2023-02-09T18:00:00.000+00:00",
+        "end": "2023-02-09T19:00:00.000+00:00"
+      },
+      "url": "https://www.youtube.com/@danieljoaquimpaulino5795"
+    },
+    {
+      "isVirtual": true,
+      "isInPerson": true,
+      "color": "#553C9A",
+      "name": "Chakra-ui and React",
+      "description": "In this year I'll start to learning how to implement chakra-ui in react js",
+      "date": {
+        "start": "2023-03-02T09:00:00.000+00:00",
+        "end": "2023-04-02T17:30:00.000+00:00"
+      },
+      "url": "https://github.com/daniel-jp"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Started Full Stack development",
+      "date": "September 2021",
+      "icon": "NodeJs",
+      "color": "#90ee90",
+      "description": "Started full stack development courrently learning Node Js",
+      "url": "https://ayushlohmod.github.io/oscar/"
+    },
+    {
+      "title": "Started Learning DevOps",
+      "date": "August 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Learning DevOps",
+      "url": "https://github.com/Itsfoss0"
+    },
+    {
+      "title": "Started my coding journey",
+      "date": "March 2019",
+      "icon": "FaDollarSign",
+      "color": "black",
+      "description": "Started my journey by opting diploma in computer engineering",
+      "url": "https://hasnainmakada-99.github.io"
+    },
+    {
+      "title": "GitHub Nova, Top Teacher Award",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "Course on helping people get started with Open Source",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% of the way through my course of helping people getting into Open Source",
+      "url": "http://eddiejaoude.io"
+    }
+  ]
 }
