@@ -24,12 +24,30 @@
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/yash-pimple-623683222/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Interested in reading my blogs? Go here!",
       "url": "https://yashpimple.hashnode.dev/",
       "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blog",
+      "date": "July 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started Documenting my learnings through blogs",
+      "url": "https://yashpimple.hashnode.dev/"
+    },
+    {
+      "title": "Started Development",
+      "date": "April 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started learning Web Development",
+      "url": "https://github.com/YashPimple"
     }
   ]
 }

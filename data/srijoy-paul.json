@@ -1,0 +1,29 @@
+{
+  "name": "Srijoy Paul",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend || JS|| ML Enthusiast",
+  "avatar": "https://github.com/srijoy-paul.png",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/srijoy-paul-292a1919a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SdDecent",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/srijoy-paul",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCoHRM1dJ5VtncUwkogtVKtA",
+      "icon": "FaYoutube"
+    }
+  ]
+}

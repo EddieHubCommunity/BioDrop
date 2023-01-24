@@ -1,0 +1,24 @@
+{
+  "name": "Raviraj Kushwaha",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm kind of Noob and a tech nerd, Watching so many tech updates and learning little bit as well",
+  "avatar": "https://github.com/ravi0900.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ravi0541",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow/Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/ravi0900",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ravi0900",
+      "icon": "FaGithub"
+    }
+  ]
+}

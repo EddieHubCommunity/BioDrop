@@ -1,0 +1,35 @@
+{
+  "name": "Bereket Lemma",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Programmer | CS Student ",
+  "avatar": "https://github.com/bereky.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/berek_et" },
+    { "icon": "FaGithub", "url": "https://github.com/bereky" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/bereket-lemma" }
+  ],
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://bereketlemma.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/berek_et",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bereket-lemma",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/bereky",
+      "icon": "FaGithub"
+    }
+  ]
+}

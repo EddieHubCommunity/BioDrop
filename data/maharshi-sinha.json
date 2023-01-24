@@ -1,0 +1,52 @@
+{
+  "name": "Maharshi Sinha",
+  "type": "personal",
+  "bio": "Web Dev | Community | Open Source Enthusiast!",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Community", "Web3"],
+  "avatar": "https://github.com/maharshi-sinha.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/maharshi-sinha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sinha_maharshi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/maharshi-sinha-78b1001b7/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://maharshisinha.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://maharshi-sinha.github.io/portfolio-site/",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became GDSC Lead",
+      "date": "July 2021",
+      "icon": "FaGoogle",
+      "color": "blue",
+      "description": "established Google Developer Student Club in my college campus for the first time",
+      "url": "https://gdsc.community.dev/government-engineering-college-jagdalpur/"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "April 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey as well as sharing my knowledges through blogs",
+      "url": "https://maharshisinha.hashnode.dev/"
+    }
+  ]
+}

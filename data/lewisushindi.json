@@ -1,0 +1,24 @@
+{
+  "name": "Lewis ushindi",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Front End Developer | Open source contributor",
+  "avatar": "https://github.com/lewisushindi.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/lewisushindi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/coder_flame",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/its_lewyyy",
+      "icon": "FaInstagram"
+    }
+  ]
+}

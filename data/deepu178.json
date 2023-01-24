@@ -1,0 +1,29 @@
+{
+  "name": "Deependra Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Academic nerd turned **Developer**. finding issues on Stackoverflow",
+  "avatar": "https://github.com/deepu178.png",
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://deependra.vercel.app/",
+      "icon": "FaEye"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/deepuReact",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.linkedin.com/in/deependra-kumar-760563166/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://github.com/Deepu178",
+      "icon": "FaGithub"
+    }
+  ]
+}

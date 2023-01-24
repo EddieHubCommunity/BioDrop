@@ -1,0 +1,44 @@
+{
+  "name": "Nikunj Rohit",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student of LDCE'23 IT || WEB3 enthusiast || Open source || Trying to code Everyday",
+  "avatar": "https://github.com/nik132-eng.png",
+  "tags": ["Open Source", "Web3", "UG-IT'23", "Learning in Public 2023"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/nikunj_rohit10" },
+    { "icon": "FaGithub", "url": "http://github.com/nik132-eng" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nikunj-rohit/"
+    },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@rohit105" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nikunj_rohit10",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/nikunj-rohit/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Get to know about my Projects on Github",
+      "url": "http://github.com/nik132-eng",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Learning Technical Writing, check my blogs",
+      "url": "https://hashnode.com/@rohit105",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Email me",
+      "url": "mailto:nikunjrohit10@gmail.com",
+      "icon": "FaGmail"
+    }
+  ]
+}

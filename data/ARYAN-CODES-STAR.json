@@ -1,0 +1,19 @@
+{
+  "name": "Aryan Sharma",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Coder, Blogger, college student",
+  "avatar": "https://github.com/ARYAN-CODES-STAR.png",
+  "links": [
+    {
+      "name": "Let's connect on Twitter",
+      "url": "https://twitter.com/i_AryanSharma17",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/aryan-sharma17/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

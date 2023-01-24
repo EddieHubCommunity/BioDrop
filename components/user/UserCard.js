@@ -1,13 +1,13 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "js-abbreviation-number";
+import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 import FallbackImage from "../FallbackImage";
 
 export default function UserCard({ profile }) {
   return (
     <Link
       href={`/${profile.username}`}
-      className="flex flex-col items-center border-2 max-w-[14rem] h-[17rem] overflow-hidden rounded-lg border-gray-200 p-4 gap-3 hover:border-orange-600"
+      className="flex flex-col items-center border-2 w-[14rem] h-[17rem] overflow-hidden rounded-lg border-gray-200 p-4 gap-3 hover:border-orange-600"
     >
       <div className="flex justify-center relative">
         <FallbackImage
@@ -28,7 +28,7 @@ export default function UserCard({ profile }) {
         <h3 className="text-xl justify-center text-center text-orange-600 font-bold mb-2">
           {profile.name}
         </h3>
-        <ReactMarkdown className="text-center">{profile.bio}</ReactMarkdown>
+        <ReactMarkdown className="text-center line-clamp-5">{profile.bio}</ReactMarkdown>
       </div>
     </Link>
   );
