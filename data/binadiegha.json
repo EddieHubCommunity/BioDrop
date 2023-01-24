@@ -1,0 +1,38 @@
+{
+  "name": "Jones Binadiegha(Bina) Gabriel",
+  "type": "personal",
+  "bio": "I'm Jones Binadiegha(Bina for short) Gabriel, A softfware developer starting his journey one PR at a time... Looking forward to creating magic on the internet. #Opensource Enthusiast",
+  "avatar": "https://avatars.githubusercontent.com/u/19647826?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/binadiegha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jbg4k",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jones-gabriel-507b9b101/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio.. On the works 🥴.",
+      "url": "https://binadiegha-portfolio.netlify.app",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Souce",
+      "date": "Dec 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Open Source",
+      "url": "https://github.com/binadiegha"
+    }
+  ]
+}
