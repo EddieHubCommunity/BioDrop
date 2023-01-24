@@ -1,8 +1,6 @@
 name: Storybook
 on:
-  push:
-    branches:
-      - main
+  pull_request:
     paths:
       - pages/**
       - components/**
@@ -17,29 +15,8 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
-          
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
 
       - name: install dependencies
         run: npm ci
       - name: run build
         run: npm run build-storybook
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: './storybook-static'
-
-# Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
-
