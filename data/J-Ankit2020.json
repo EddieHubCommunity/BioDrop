@@ -4,23 +4,23 @@
   "type": "personal",
   "bio": "Full Stack Developer || DevOps || Web3",
   "avatar": "https://github.com/J-Ankit2020.png",
-	 "links": [
+  "links": [
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/ankitjha121/",
       "icon": "FaLinkedin"
     },
-		  {
+    {
       "name": "GitHub",
       "url": "https://github.com/J-Ankit2020",
       "icon": "FaGithub"
     },
-       {
+    {
       "name": "LeetCode",
       "url": "https://leetcode.com/zasyg",
       "icon": "SiLeetcode"
     },
-      {
+    {
       "name": "HashNode",
       "url": "https://zasyg.hashnode.dev/",
       "icon": "SiHashnode"
