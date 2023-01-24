@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Living made off of open source since Linux kernel 2.2.5-15.",
   "avatar": "https://github.com/mcgonagle.png",
-   "links": [
+  "links": [
     {
       "name": "GitHub",
       "url": "https://github.com/mcgonagle",
@@ -15,8 +15,8 @@
       "url": "https://www.linkedin.com/in/thomasmcgonagle",
       "icon": "FaLinkedin"
     },
-     {
-       "name": "Twitter",
+    {
+      "name": "Twitter",
       "url": "https://twitter.com/mcgonagle",
       "icon": "FaTwitter"
     }
