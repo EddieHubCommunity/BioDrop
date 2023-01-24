@@ -2,7 +2,7 @@
   "name": "Priyankar Pal",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Avid Linux User **Web Dev**. Tech Enthusiast",
+  "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
   "tags": [
     "Open Source",
@@ -18,7 +18,7 @@
   ],
   "links": [
     {
-      "name": "Check my Latest Blogs",
+      "name": "Check My Latest Blogs",
       "url": "https://priyankarpal.hashnode.dev",
       "icon": "FaLink",
       "color": "#3466F6"
@@ -54,7 +54,7 @@
       "date": "september 2021",
       "icon": "FaLink",
       "color": "grey",
-      "description": "Started coding content but failed",
+      "description": "Started coding content but failed"
     },
     {
       "title": "Started Open Source Contributions",
