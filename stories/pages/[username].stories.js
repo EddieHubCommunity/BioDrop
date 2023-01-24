@@ -1,12 +1,15 @@
 import User from "../../pages/[username]";
-import data from "../../data/eddiejaoude.json";
+import profile from "../../data/eddiejaoude.json";
 
 export default {
   component: User,
 };
 
-export const Basic = (args) => <User {...args} />;
-
-Basic.args = {
-  data,
+export const Basic = {
+  args: {
+    data: {
+      ...profile
+    },
+    BASE_URL: "https://linkfree.eddiehub.io/"
+  }
 };
