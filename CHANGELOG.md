@@ -1,9 +1,9 @@
-## 1.46.46 (2023-01-13)
+# 1.60.0 (2023-01-24)
 
 
-### Bug Fixes
+### Features
 
-* mobile navbar close on click [#2464](https://github.com/EddieHubCommunity/LinkFree/issues/2464) ([#2507](https://github.com/EddieHubCommunity/LinkFree/issues/2507)) ([734a7ba](https://github.com/EddieHubCommunity/LinkFree/commit/734a7bab6e3710eaa1a9ccdf3b86004ebfacd979))
+* workflow dispatch to prettier ([#3894](https://github.com/EddieHubCommunity/LinkFree/issues/3894)) ([d590f18](https://github.com/EddieHubCommunity/LinkFree/commit/d590f18b5b309bfe5427b5ae1ad7f9c94e6501a2))
 
 
 

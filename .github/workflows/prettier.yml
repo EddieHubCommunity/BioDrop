@@ -1,11 +1,12 @@
 name: Format
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  #Run every day at midnight UTC
+  schedule:
+    - cron: '0 0 * * *' 
 
 concurrency:
-  group: "release"
+  group: "main-branch"
 
 jobs:
   format:

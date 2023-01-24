@@ -1,0 +1,45 @@
+{
+  "name": "Mahesh Kasbe",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": " Open Source | DevOps | DevRel ",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Java"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/maheshstwt" },
+    { "icon": "FaGithub", "url": "https://github.com/MaheshKasabe" },
+    { "icon": "website", "url": "https://maheshkasabe.github.io/" }
+  ],
+  "avatar": "https://github.com/MaheshKasabe.png",
+  "links": [
+    {
+      "name": "Daily tweets on Open Source",
+      "url": "https://twitter.com/maheshstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/MaheshKasabe",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/maheshkasbe",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://maheshkasabe.github.io/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "HashNode Blog",
+      "url": "https://maheshkasbe.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Support my work",
+      "url": "https://www.buymeacoffee.com/maheshkasbe",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

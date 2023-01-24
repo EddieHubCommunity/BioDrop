@@ -1,0 +1,52 @@
+{
+  "name": "Tomasz Hamerla",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "at the intersection of software & data engineering",
+  "avatar": "https://github.com/thamerla.png",
+  "tags": [
+    "cloud",
+    "Azure",
+    "AWS",
+    "JavaScript",
+    "Go",
+    "accessibility",
+    "data",
+    "cybersecurity",
+    "law"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thamerla"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/TomaszHamerla"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://hachyderm.io/@TomaszHamerla"
+    },
+    {
+      "icon": "FaBlog",
+      "url": "https://tomaszhamerla.com"
+    },
+    {
+      "icon": "FaEnvelope",
+      "url": "mailto:hello@tomaszhamerla.com"
+    }
+  ],
+  "links": [
+    {
+      "name": "Hiring? Looking for a job? Check out the hiring bot!",
+      "url": "https://hachyderm.io/@hiringbot",
+      "icon": "FaRobot"
+    },
+    {
+      "name": "Erotetics - the superpower of hiring managers, recruiters and job seekers",
+      "url": "https://tomaszhamerla.com/blog/erotetics",
+      "icon": "FaLink"
+    }
+  ]
+}

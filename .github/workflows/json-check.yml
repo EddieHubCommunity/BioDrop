@@ -1,9 +1,6 @@
 name: JSON check
 
 on:
-  push:
-    paths:
-      - "data/**.json"
   pull_request:
     paths:
       - "data/**.json"

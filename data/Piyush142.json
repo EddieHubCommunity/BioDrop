@@ -1,0 +1,63 @@
+{
+  "name": "Piyush Chouhan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm a Software Engineer with 2.6 years of experience in the software industry. My focus area for the past few years has been back-end development with Asp.Net , but I'm also skilled in front-end development with React. I am a lifelong inventor, and I am passionate about fixing things and wanting to discover ways to make things work in practice.",
+  "avatar": "https://github.com/Piyush142.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "ReactJS",
+    "ADO.NET",
+    "Web"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/piyush-chouhan-041050130/"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/chouhanpiyush14" },
+    { "icon": "FaGithub", "url": "https://github.com/Piyush142" }
+  ],
+  "links": [
+    {
+      "name": "Github Profile",
+      "url": "https://github.com/Piyush142",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chouhanpiyush14",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/error__squared/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/piyush-chouhan-041050130/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started OpenSource",
+      "date": "Jan 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Baby steps towards contributing",
+      "url": "https://github.com/Piyush142"
+    },
+    {
+      "title": "First Full Time Job",
+      "date": "Aug 2020",
+      "icon": "FaSuitcase",
+      "color": "green",
+      "description": "Full Stack Developer at Dunnhumby",
+      "url": "https://www.dunnhumby.com/"
+    }
+  ]
+}

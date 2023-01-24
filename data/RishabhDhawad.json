@@ -1,0 +1,47 @@
+{
+  "name": "Rishabh Dhawad",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "FrontEnd Developer | Open Source Enthusiast | CS Student | Intrested in Cloud Technology & DevOps",
+  "tags": [
+    "Open Source",
+    "FrontEnd Dev",
+    "JavaScript",
+    "React",
+    "Java",
+    "C",
+    "C++"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/RishabhDhawad" },
+    { "icon": "FaGithub", "url": "https://github.com/RishabhDhawad" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rishabhdhawad/"
+    },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/rishabhdhawad/" }
+  ],
+  "avatar": "https://github.com/RishabhDhawad.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RishabhDhawad",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RishabhDhawad",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rishabhdhawad/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/rishabhdhawad/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

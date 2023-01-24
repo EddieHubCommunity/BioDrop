@@ -1,0 +1,29 @@
+{
+  "name": "Sri Harsha Majeti",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**sriharshamajeti**, a developer with a passion for **open-source**, **anime & manga** and always on the lookout for **new challenges**.",
+  "avatar": "https://github.com/sriharshamajeti.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sriharshamajeti",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sree_harsha.majeti",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sri-harsha-majeti/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sriharshamajeti",
+      "icon": "FaGithub"
+    }
+  ]
+}

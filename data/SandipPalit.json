@@ -1,0 +1,80 @@
+{
+  "name": "Sandip Palit",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Speaker | Loading.. ",
+  "tags": [
+    "Data Science",
+    "Python",
+    "SQL",
+    "Big Data",
+    "Databricks",
+    "Microsoft Azure"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sandip-palit/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/sandip_travel_diaries/"
+    }
+  ],
+  "avatar": "https://github.com/SandipPalit.png",
+  "links": [
+    {
+      "name": "Research Article on 'Real Time Sentiment Analysis'",
+      "url": "https://www.igi-global.com/chapter/real-time-sentiment-analysis/308478",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Speech on 'Movie Recommendation System using NLP' at Google Cloud Community Days 2022 Kolkata",
+      "url": "https://youtu.be/UGeV37z7kjs?t=5589",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Checkout my Python package 'Relocate'",
+      "url": "https://pypi.org/project/relocate/",
+      "icon": "FaPython"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sandip-palit/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Blogs on Data Science",
+      "url": "https://medium.com/@sandippalit009",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Collaborate on Open Source",
+      "url": "https://github.com/SandipPalit",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sandip_travel_diaries/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Public Speaking",
+      "date": "August 2022",
+      "icon": "FaUserTie",
+      "color": "blue",
+      "description": "Gave my first Speech at Google Cloud Community Days 2022 Kolkata.",
+      "url": "https://www.linkedin.com/posts/sandip-palit_community-ccdkol-googlecloudcommunitydays-activity-6970401268519333888-t0Uc"
+    },
+    {
+      "title": "Started my Career in Tech",
+      "date": "August 2020",
+      "icon": "FaBriefcase",
+      "color": "green",
+      "description": "Initialized my journey in the IT industry.",
+      "url": "https://www.linkedin.com/in/sandip-palit/"
+    }
+  ]
+}
