@@ -5,10 +5,10 @@ export default {
   component: UserCard,
 };
 
-export const Basic = (args) => <UserCard {...args} />;
-
-Basic.args = {
-  profile: {
-    ...data,
-  },
+export const Basic = {
+  args: {
+    profile: {
+      ...data,
+    },
+  }
 };

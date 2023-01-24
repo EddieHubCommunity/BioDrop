@@ -1,9 +1,9 @@
-# 1.60.0 (2023-01-24)
+# 1.61.0 (2023-01-24)
 
 
 ### Features
 
-* workflow dispatch to prettier ([#3894](https://github.com/EddieHubCommunity/LinkFree/issues/3894)) ([d590f18](https://github.com/EddieHubCommunity/LinkFree/commit/d590f18b5b309bfe5427b5ae1ad7f9c94e6501a2))
+* storybook v7 ([#3632](https://github.com/EddieHubCommunity/LinkFree/issues/3632)) ([b533357](https://github.com/EddieHubCommunity/LinkFree/commit/b533357863e30bbfa2ee6e5f5965f17f6c8b8668))
 
 
 
