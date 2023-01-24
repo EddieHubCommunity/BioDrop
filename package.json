@@ -77,6 +77,8 @@
         "type": "git",
         "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
     },
+
+
     "keywords": [
         "javascript",
         "linktree",
@@ -86,6 +88,8 @@
         "react",
         "nextjs"
     ],
+
+
     "lint-staged": {
         "data/*.json": "prettier --write"
     },
