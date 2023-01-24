@@ -4,7 +4,15 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
-  "tags": ["Open Source", "Javascript", "JAVA", "SCSS"],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "JAVA",
+    "Kali Linux",
+    "SCSS",
+    "Python"
+  ],
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
     { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
@@ -15,41 +23,37 @@
     {
       "name": "Check My Latest Blogs",
       "url": "https://priyankarpal.hashnode.dev",
-      "icon": "SiHashnode",
-      "color": "#3466F6"
+      "icon": "SiHashnode"
     },
     {
       "name": "Proof of Works",
       "url": "https://fueler.io/priyankarpal",
-      "icon": "FaLink",
-      "color": "#5ACAE3"
+      "icon": "FaLink"
     },
     {
       "name": "All Twitter Threads",
       "url": "https://fueler.io/priyankarpal/twitter-threads/96db7bf8-10dd-4110-b899-bd69fbae9835",
-      "icon": "FaLink",
-      "color": "#5ACAE3"
+      "icon": "FaTwitter"
     },
     {
       "name": "My Portfolio",
       "url": "https://itspp.vercel.app",
-      "icon": "FaLink"
+      "icon": "FaGlobe"
     }
   ],
   "milestones": [
     {
       "title": "Started Coding Journey",
-      "date": "octobar 2020",
+      "date": "October 2020",
       "color": "grey",
-      "description": "Started learning how to code using HTML, CSS, Bootstrap",
-      "url": "https://itspp.vercel.app"
+      "description": "Started learning how to code using HTML, CSS, Bootstrap"
     },
-    {
-      "title": "Started My Own Blogs",
+     {
+      "title": "Started My Own Website",
       "date": "september 2021",
       "icon": "FaLink",
       "color": "grey",
-      "description": "Started coding content but failed"
+      "description": "Started coding blog but website got hacked"
     },
     {
       "title": "Started Open Source Contributions",
@@ -57,8 +61,15 @@
       "date": "November 2022",
       "icon": "FaGithub",
       "color": "grey",
-      "description": "Started learning how to contribute to Open Source",
-      "url": "https://github.com/priyankarpal"
+      "description": "Started learning how to contribute to Open Source"
+    },
+    {
+      "title": "Again started Publishing Blogs",
+      "date": "November 2022",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "Again I started publishing blogs to Hashnode Platform",
+      "url":"https://priyankarpal.hashnode.dev"
     }
   ]
 }
