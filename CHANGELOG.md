@@ -1,9 +1,9 @@
-## 1.59.4 (2023-01-24)
+## 1.59.5 (2023-01-24)
 
 
 ### Bug Fixes
 
-* hacktoberfest page url (FAQs) ([#3881](https://github.com/EddieHubCommunity/LinkFree/issues/3881)) ([e903033](https://github.com/EddieHubCommunity/LinkFree/commit/e90303378ef8844a1df93997c61f1f7a1bb78eae))
+* show future events only ([#3887](https://github.com/EddieHubCommunity/LinkFree/issues/3887)) ([ac08cc8](https://github.com/EddieHubCommunity/LinkFree/commit/ac08cc80cab6a5f4d73bf744d09d862a233d1870))
 
 
 
