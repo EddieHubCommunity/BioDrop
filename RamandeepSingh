@@ -1,0 +1,20 @@
+{
+  "name": "RamandeepSingh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Html!Css!",
+  "avatar": "https://github.com/RamandeepSingh.png"
+{
+  "name": "RamandeepSingh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Html!Css!Javascript!",
+  "avatar": "https://github.com/Ramandeep97.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+}
