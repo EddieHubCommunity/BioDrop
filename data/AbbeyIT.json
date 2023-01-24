@@ -1,0 +1,77 @@
+{
+  "name": "Abbey Santos",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source Enthusiast!** | DevOps | Cloud | Fedora User BTW",
+  "tags": ["Open Source", "DevOps", "Python", "AWS", "Fediverse"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/abbeywilltech" },
+    { "icon": "FaGithub", "url": "https://github.com/AbbeyIT" },
+    { "icon": "FaMastodon", "url": "https://fosstodon.org/@abbey" }
+  ],
+  "avatar": "https://github.com/AbbeyIT.png",
+  "links": [
+    {
+      "name": "Follow my Open Source journey on GitHub",
+      "url": "https://github.com/AbbeyIT",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Random tweets on Twitter",
+      "url": "https://twitter.com/abbeywilltech",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://abbeywillblog.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Check out my Mastodon",
+      "url": "https://fosstodon.org/@abbey",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Random Photos at Pixelfed",
+      "url": "https://pixelfed.de/Abbey",
+      "icon": "FaCamera"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "The Beginning",
+      "description": "I began my open source journey on GitHub.",
+      "date": "July 2022",
+      "icon": "FaGithub",
+      "color": "#1e3530"
+    },
+    {
+      "title": "First Blog",
+      "description": "Started writing blogs in Hashnode",
+      "date": "July 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "First Hacktoberfest",
+      "description": "I participated in my first Hacktoberfest.",
+      "date": "October 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Winner of the special track blogging competition",
+      "description": "I won WeMakeDevs' Hashnode blogging competition by writing about my Hacktoberfest experience.",
+      "date": "November 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Become a Moderator in StackUp",
+      "description": "I started my journey as a community moderator at StackUp",
+      "date": "November 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    }
+  ]
+}

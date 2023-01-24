@@ -1,0 +1,56 @@
+{
+  "name": "Jovan R.",
+  "type": "personal",
+  "bio": "Full Stack Web Developer!",
+  "avatar": "https://github.com/JoBaHP.png",
+  "links": [
+    {
+      "name": "My business website",
+      "url": "https://build-up.us",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Personal portfolio website",
+      "url": "https://jovanportfolio.netlify.app/",
+
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JoBaHP",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/joccoo",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "November 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://jovanportfolio.netlify.app/"
+    },
+    {
+      "title": "Java Web Development",
+      "date": "2019",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Certificate of Completion",
+
+      "url": "https://jovanportfolio.netlify.app/"
+    },
+    {
+      "title": "Basics of Java Development",
+      "date": "2018",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Certificate of Completion",
+      "url": "https://jovanportfolio.netlify.app/"
+    }
+  ]
+}

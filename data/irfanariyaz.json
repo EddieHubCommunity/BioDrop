@@ -1,0 +1,28 @@
+{
+  "name": "Irfana Sulaiman",
+  "type": "Personal",
+  "bio": "Full-Stack developer starting to opensource",
+  "avatar": "https://github.com/irfanariyaz.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/irfanariyaz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/irfana-sulaiman-44a242240/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Full-Stack Developer",
+      "date": "Nov-2019-Present",
+      "icon": "",
+      "color": "red",
+      "description": "",
+      "url": "https://irfana-portfolio.herokuapp.com/"
+    }
+  ]
+}

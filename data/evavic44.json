@@ -1,0 +1,41 @@
+{
+  "name": "Victor Eke",
+  "type": "personal",
+  "bio": "Frontend web developer, technical writer who is passionate about web development and open-source",
+  "avatar": "https://github.com/evavic44.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/evavic44",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/evavic44",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my articles on Hashnode",
+      "url": "https://hashnode.com/@Eke",
+      "icon": "FaBook"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning web development",
+      "date": "March 27 2020",
+      "icon": "FaBook",
+      "color": "#655496",
+      "url": "https://victoreke.netlify.app"
+    },
+    {
+      "title": "Participated in OSCA",
+      "image": "https://github.com/oscafrica/open-source-challenge-2021/blob/main/assets/oss-ch-header.png?raw=true",
+      "date": "September 2021",
+      "icon": "FaGithub",
+      "color": "#F2994A",
+      "description": "Open source challenge 2021",
+      "url": "https://github.com/oscafrica"
+    }
+  ]
+}

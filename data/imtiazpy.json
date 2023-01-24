@@ -1,0 +1,58 @@
+{
+  "name": "Imtiaz Ahmed",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Freelance Software Developer**",
+  "avatar": "https://github.com/imtiazpy.png",
+  "tags": ["Python", "JavaScript", "TypeScript", "NextJS", "Django", "Wagtail"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imtiazpy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/imtiazpy",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/imtiazpy",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/imtiazpy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my Codepen",
+      "url": "https://codepen.io/imtiazpy",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/imtiazpy",
+      "icon": "FaHackerrank"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Writing Blogs",
+      "date": "Jan 2023",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "I began sharing my programming journey and tips and tricks related to web development through blogging. I hope to help others learn and improve their skills in the field.",
+      "url": "https://imtiazpy.hashnode.dev/"
+    },
+    {
+      "title": "Started Full time Freelancing",
+      "date": "Jan 2022",
+      "icon": "SiUpwork",
+      "color": "grey",
+      "description": "I started freelancing as a full-time Fullstack web developer in January 2022. I have gained experience in Web Development through both part-time and full-time freelancing. I am able to work independently and deliver high-quality results within tight deadlines, having the autonomy to manage my own time and workload.",
+      "url": "https://www.upwork.com/freelancers/~01838636f6b962f97a?viewMode=1&s=1110580755057594368"
+    }
+  ]
+}

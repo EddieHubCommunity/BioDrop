@@ -1,0 +1,27 @@
+{
+  "name": "Tara Choudhary",
+  "bio": "I'm passionate and enthusiast about exploring new things and web development",
+  "avatar": "https://github.com/ChoudharyTara.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ChoudharyTara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tara-choudhary-257156219",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ChoudhariTara",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Reach out to me via email",
+      "url": "mailto:choudharytara0208@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ]
+}

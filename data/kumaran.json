@@ -1,0 +1,27 @@
+{
+  "name": "T.kumaran",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/synackred.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/synackred",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kumaran923",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing, Pentesting, and Bugbounty Hunting",
+      "date": "September 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

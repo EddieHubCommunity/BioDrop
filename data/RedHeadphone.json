@@ -1,0 +1,33 @@
+{
+  "name": "Huzaifa Khilawala",
+  "type": "personal",
+  "bio": "Software Developer | Open Source & Blockchain Enthusiast",
+  "avatar": "https://github.com/RedHeadphone.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RedHeadphone",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Leetcode Profile",
+      "url": "https://leetcode.com/RedHeadphone/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Codeforces Profile",
+      "url": "https://codeforces.com/profile/redheadphone",
+      "icon": "SiCodeforces"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/huzaifa-khilawala/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/huzaifa_Khila",
+      "icon": "FaTwitter"
+    }
+  ]
+}

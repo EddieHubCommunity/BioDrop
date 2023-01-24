@@ -1,0 +1,48 @@
+{
+  "name": "RotrixX",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full-Stack webdev and Open Source lover!",
+  "avatar": "https://github.com/RotrixLOL.png",
+  "tags": [
+    "javascript",
+    "golang",
+    "express",
+    "fiber",
+    "react",
+    "redux",
+    "sass",
+    "tailwindcss"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/RotrixLOL" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/RotrixxLOL" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RotrixLOL",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RotrixxLOL",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Take a look at my website!",
+      "url": "https://rotrixx.eu",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Created my Portfolio",
+      "date": "September 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "I used Vercel for the deploy and React, Redux, Scss and Sanity CMS.",
+      "url": "https://www.rotrixx.eu"
+    }
+  ]
+}

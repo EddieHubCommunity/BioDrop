@@ -1,0 +1,28 @@
+{
+  "name": "Kyrios Heylel",
+  "type": "personal",
+  "bio": "Fullstack web developer focusing on Frontend. Pushing illegal pixels 💊",
+  "avatar": "https://avatars.githubusercontent.com/u/67266933?v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lucky-chap",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hunchodotdev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/obedboakyedanquah",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out My Portfolio",
+      "url": "https://quavo.vercel.app",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

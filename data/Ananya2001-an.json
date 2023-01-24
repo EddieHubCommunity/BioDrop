@@ -1,0 +1,39 @@
+{
+  "name": "Ananya Nayak",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Budding Full Stack Dev, Open Source contributor and DevOps enthusiast",
+  "avatar": "https://github.com/Ananya2001-an.png",
+  "tags": [
+    "javascript",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "docker",
+    "java",
+    "linux",
+    "reactjs"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ananya_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ananya-nayak-9bb2a4231/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Ananya2001-an",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://ananyacodes.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

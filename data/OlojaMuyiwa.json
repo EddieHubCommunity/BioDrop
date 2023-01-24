@@ -1,0 +1,78 @@
+{
+  "name": "Oloja Muyiwa",
+  "displayStatsPublic": true,
+  "type": "personal",
+
+  "bio": "Software Developer and Linux Enthusiasts",
+  "avatar": "https://github.com/OlojaMuyiwa.png",
+  "tags": [
+    "Javascript",
+    "React",
+    "PHP",
+    "Laravel",
+    "Vue",
+    "MySQL",
+    "Linux",
+    "C"
+  ],
+
+  "bio": "Software Developer and Linux Enthusiats",
+  "avatar": "https://github.com/OlojaMuyiwa.png",
+  "tags": [
+    "Javascript",
+    "React",
+    "PHP",
+    "Laravel",
+    "Vue",
+    "MySQL",
+    "Linux",
+    "C"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/iRedeploy__" },
+    { "icon": "FaGithub", "url": "https://github.com/OlojaMuyiwa" },
+    { "icon": "FaLinkedln", "url": "https://t.co/oXKU6HHuuu" },
+    { "icon": "FaFacebook", "url": "https://t.co/FLbTvMuQ5i" },
+    { "icon": "FaInstagram", "url": "https://t.co/FLbTvMuQ5i" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/OlojaMuyiwa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iRedeploy__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/redeployzaheer/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/oloja-muyiwa-b6b89a24b/",
+      "icon": "FaLinkedln"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Programming",
+      "date": "December 2021",
+      "icon": "FaMailchimp",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://oloja-portfolio.vercel.app/"
+    },
+    {
+      "title": "Pro Linux user",
+      "date": "June 2022",
+      "icon": "FaLinux",
+      "color": "yellow",
+      "description": "Linux Programming",
+      "url": "https://oloja-portfolio.vercel.app/"
+    }
+  ]
+}

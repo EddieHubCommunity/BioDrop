@@ -1,0 +1,32 @@
+{
+  "name": "Antony Kimani",
+  "type": "personal",
+  "bio": "Frontend Web Developer | Open Source Enthusiast | Blogger",
+  "avatar": "https://github.com/AntonyKimani.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AntonyKimani",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kimani_dev",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Web Development",
+      "date": "September 2021",
+      "color": "grey",
+      "description": "Discovered Web Development and currently learning JavaScript"
+    },
+    {
+      "title": "Open Source Contributor",
+      "date": "January 2022",
+      "color": "grey",
+      "description": "Learning Git and GitHub, actively contributing to Open Source and Collaboration"
+    }
+  ]
+}

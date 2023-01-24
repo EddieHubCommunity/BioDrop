@@ -1,0 +1,87 @@
+{
+  "name": "Aadarsh Thakur",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer | Open source contributor | Building cool projects | Loves cats 🐈",
+  "avatar": "https://github.com/Aadarsh805.png",
+  "tags": [
+    "nextJS",
+    "typescript",
+    "Open Source",
+    "supabase",
+    "reactJS",
+    "tailwindCSS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Aadarsh805"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Aadarsh805"
+    }
+  ],
+  "testimonials": ["eddiejaoude"],
+  "links": [
+    {
+      "name": "Daily tweets on Web development and random shitposting",
+      "url": "https://twitter.com/Aadarsh805",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my web development journey",
+      "url": "https://github.com/Aadarsh805",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aadarsh-thakur-090a31227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode Blog",
+      "url": "https://aadarshthakur.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Hackathon",
+      "description": "Participated in my first hackathon at UPES Dehradun",
+      "date": "August 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "First Hacktoberfest As Maintainer And Contributer",
+      "description": "Maintainer a project with over 30 contributors",
+      "date": "October 2022",
+      "icon": "FaGitHub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Started Writing Blogs",
+      "description": "Started writing blogs on Hashnode",
+      "date": "November 2022",
+      "icon": "FaCode",
+      "color": "#1e90ff",
+      "url": "https://aadarshthakur.hashnode.dev/"
+    },
+    {
+      "title": "Made My First Open Source Contribution",
+      "description": "Contributed to novuhq repository",
+      "date": "December 2022",
+      "icon": "FaGithub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Became an Open Source Maintainer",
+      "description": "Started maintaining my own @TweetSage Open Source Project",
+      "date": "December 2022",
+      "icon": "FaGithub",
+      "color": "#1e90ff",
+      "url": "https://github.com/Aadarsh805/TweetSage"
+    }
+  ]
+}

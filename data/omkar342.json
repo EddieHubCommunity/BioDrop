@@ -1,0 +1,18 @@
+{
+  "name": "Omkar Jadhav",
+  "type": "personal",
+  "bio": "Web Developer || Open Source Enthusiast.",
+  "avatar": "https://github.com/omkar342.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/omkar342",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/anthropic_o3",
+      "icon": "FaTwitter"
+    }
+  ]
+}

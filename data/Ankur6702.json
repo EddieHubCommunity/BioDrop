@@ -1,0 +1,83 @@
+{
+  "name": "Ankur Agarwal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Google DSC Lead | MLSA | Student Placement Coordinator | MERN Stack Developer | IIIT Kota",
+  "avatar": "https://github.com/Ankur6702.png",
+  "tags": [
+    "Javascript",
+    "ReactJS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB",
+    "Docker",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://www.theankur.tech"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/ankur_agarwal_246/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_Ankur_Agarwal_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ankur6702"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ankur-8"
+    }
+  ],
+  "links": [
+    {
+      "name": "Portfolio Website",
+      "url": "https://www.theankur.tech",
+      "icon": "SiProgress"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_Ankur_Agarwal_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Happy to collab in open source projects",
+      "url": "https://github.com/Ankur6702",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/ankur-8/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ankur_agarwal_246/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Microsoft Learn Student Ambassador",
+      "date": "2023",
+      "icon": "FaMicrosoft",
+      "color": "black",
+      "description": "Became Microsoft Learn Student Ambassador after a long application process",
+      "url": "https://studentambassadors.microsoft.com/"
+    },
+    {
+      "title": "Google Developer Student Clubs Lead",
+      "date": "2022",
+      "icon": "SiCodersrank",
+      "color": "black",
+      "description": "Became Google DSC Lead at IIIT Kota. Organised many technical events in both online and offline modes.",
+      "url": "https://gdsc.community.dev/indian-institute-of-information-technology-kota/"
+    }
+  ]
+}

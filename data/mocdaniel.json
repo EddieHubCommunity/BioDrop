@@ -1,0 +1,60 @@
+{
+  "name": "Daniel Bodky",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Cloud-Native Consultant | CKA | Loves **Automation**, **Orchestration** & **DevOps** ❤️",
+  "avatar": "https://github.com/mocdaniel.png",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Golang", "Rust", "Ansible"],
+  "socials": [
+    {
+      "url": "https://twitter.com/d_bodky",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/mocdaniel",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://linkedin.com/in/daniel-bodky",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "name": "Stay up to date and connect on Twitter 🐦",
+      "url": "https://twitter.com/d_bodky",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "Read about Kubernetes, Programming, and Open-Source on my Blog 📚",
+      "url": "https://dbodky.me",
+      "icon": "FaPencilAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started as Consultant @ NETWAYS",
+      "date": "October 2021",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started working on various cloud-native topics, e.g. Kubernetes or Prometheus. 💼",
+      "url": "https://netways.de"
+    },
+    {
+      "title": "Shubhra Kar Linux Foundation Training (LIFT) Scholarship Recipient",
+      "date": "June 2022",
+      "icon": "FaStar",
+      "color": "blue",
+      "description": "Received one of 500 available LIFT scholarships for 2022, choosing the area 'Cloud Captain'. 🐳",
+      "url": "https://www.linuxfoundation.org/about/lift-scholarships"
+    },
+    {
+      "title": "CivoCloud Developer Advocate Demo Program Member",
+      "date": "January 2023",
+      "icon": "FaMicrophone",
+      "color": "blue",
+      "description": "Got admitted to Civo's Developer Advocate Program for powering my blog articles, demos, and experiments with their products. 💭",
+      "url": "https://www.civo.com/demo-program"
+    }
+  ]
+}

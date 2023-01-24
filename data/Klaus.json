@@ -1,0 +1,42 @@
+{
+  "name": "Satyam Singh(Klaus)",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source contributor, technology explorer, hackathon enthusiast",
+  "avatar": "https://github.com/KlausMikhaelson.png",
+  "tags": [
+    "javascript",
+    "typescript",
+    "svelte",
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "docker",
+    "java"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/__Klaus_31452" },
+    { "icon": "FaGithub", "url": "https://github.com/KlausMikhaelson" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KlausMikhaelson",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/__Klaus_31452",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started development",
+      "date": "March 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started learning to **code** and got my hands into **development**"
+    }
+  ]
+}

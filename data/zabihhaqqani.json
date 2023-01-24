@@ -1,0 +1,28 @@
+{
+  "name": "Zabih Haqqani",
+  "type": "personal",
+  "bio": "Web developer | Learning Open Source!",
+  "avatar": "https://github.com/zabihhaqqani.png",
+  "links": [
+    {
+      "name": "Check my portfolio",
+      "url": "https://zabihhaqqani.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zabih01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check by blogs on Hasnode",
+      "url": "https://zabihhaqqani.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/zabih-haqqani-7ab187191",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

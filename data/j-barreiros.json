@@ -1,0 +1,22 @@
+{
+  "name": "João Barreiros",
+  "type": "personal",
+  "bio": "Front End Developer WIP",
+  "avatar": "https://github.com/j-barreiros.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/j-barreiros",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning to Code",
+      "date": "January 2022",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "Started learning to code for real"
+    }
+  ]
+}

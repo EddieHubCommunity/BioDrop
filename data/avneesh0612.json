@@ -1,0 +1,33 @@
+{
+  "name": "Avneesh Agarwal",
+  "type": "personal",
+  "bio": "I am a web developer, designer, content creator, open source contributor, and a student.",
+  "avatar": "https://github.com/avneesh0612.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/avneesh0612",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/avneesh0612",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Join my Discord Server",
+      "url": "https://discord.gg/XxyFwJPsJw",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://www.avneesh.tech/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Check my blog posts",
+      "url": "https://blog.avneesh.tech/",
+      "icon": "FaBook"
+    }
+  ]
+}

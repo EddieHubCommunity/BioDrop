@@ -1,0 +1,28 @@
+{
+  "name": "Abdifatah Ahmed",
+  "type": "Personal",
+  "bio": "DevOps Engineer and new open source contributor",
+  "avatar": "https://github.com/ibnuahmed.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ibnuahmed",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbdiFatah4Ahmed",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started working at Golis",
+      "date": "January 2014",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "DevOps Engineer",
+      "url": "https://golistelecom.com/"
+    }
+  ]
+}

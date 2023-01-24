@@ -1,0 +1,37 @@
+{
+  "name": "Vikas Kumar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "19| Frontend Developer | TechEnthusiast",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js",
+    "Frontend"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/2003vikask" },
+    { "icon": "FaGithub", "url": "https://github.com/vikaskumar2703" }
+  ],
+
+  "avatar": "https://github.com/vikaskumar2703.png",
+  "links": [
+    {
+      "name": "Daily tweets on computer science and technoology",
+      "url": "https://twitter.com/2003vikask",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/vikaskumar2703",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vikas-kumar-0146ab23a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Anjan Diyora",
+  "type": "personal",
+  "bio": "OpenSource Contributer",
+  "avatar": "https://github.com/Anjan50.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Anjan50",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DiyoraAnjan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My YouTube channel",
+      "url": "https://youtube.com/AnjanDiyora",
+      "icon": "FaYoutube"
+    }
+  ]
+}

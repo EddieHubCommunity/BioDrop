@@ -1,0 +1,18 @@
+{
+  "name": "Benjamin Duffield-Harding",
+  "type": "personal",
+  "bio": "Crypto, generative-art, and open source enthusiast",
+  "avatar": "https://github.com/ben-dh3.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ben-dh3",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ben_dh3",
+      "icon": "FaTwitter"
+    }
+  ]
+}

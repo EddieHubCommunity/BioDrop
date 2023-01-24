@@ -1,0 +1,71 @@
+{
+  "name": "Anastestia Onyekaba",
+  "type": "personal",
+  "bio": "UI/UX Designer | Frontend Developer | Co-Founder of N&S Tech | Open Source Enthusiast!",
+  "avatar": "https://github.com/Ann-design-max.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub ",
+      "url": "https://github.com/Ann-design-max",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Send Me an Email",
+      "url": "mailto:anastestiao@gmail.com",
+      "icon": "FaEnvelope"
+    },
+    {
+      "name": "Hire Me On Upwork",
+      "url": "https://www.upwork.com/freelancers/~012ebb79b6daca1a90",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ann_design_max",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anastestia/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2019",
+      "image": "https://www.upwork.com/static/marketing/ui/master/img/logo-1200x630.png",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing on Upwork",
+      "url": "https://www.upwork.com/freelancers/~012ebb79b6daca1a90"
+    },
+    {
+      "title": "Upwork's Rising Talent",
+      "date": "April 2020",
+      "image": "https://qph.fs.quoracdn.net/main-qimg-b7332127d16908d339367beb12166c83",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Became a Rising Talent on Upwork with 3 Completed Jobs sucessfully rated a 5 Star",
+      "url": "https://www.upwork.com/freelancers/~012ebb79b6daca1a90"
+    },
+    {
+      "title": "Co-Founded N&S Tech",
+      "date": "Feb 2021",
+      "image": "https://media-exp1.licdn.com/dms/image/C4E0BAQGlANRnHdj5zQ/company-logo_200_200/0/1612464086486?e=2147483647&v=beta&t=JmGx5K1f5QY875gliqy5d29I3s8vty4BcuIEfSQpLm0",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started A Tech Agency with a Team of Quality Developers and Designers",
+      "url": "https://www.nands.io/"
+    },
+    {
+      "title": "Upwork's Top Rated Talent",
+      "date": "May 2021",
+      "image": "https://upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com/org-logo/1291124587942522880",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Became a Top Rated Talent on Upwork with over 10 Completed Jobs sucessfully rated a 5 Star",
+      "url": "https://www.upwork.com/freelancers/~012ebb79b6daca1a90"
+    }
+  ]
+}

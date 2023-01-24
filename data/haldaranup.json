@@ -1,0 +1,41 @@
+{
+  "name": "Anup Haldar",
+  "type": "personal",
+  "bio": "A passionate web developer who writes interesting bugs.",
+  "avatar": "https://github.com/haldaranup.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/haldaranup",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/haldar_anup1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/haldaranup",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributing to open source!",
+      "date": "Aug 2022",
+      "icon": "code",
+      "color": "blue",
+      "description": "Started contrubuting to open-source to grow together",
+      "url": "https://www.github.com/haldaranup"
+    },
+    {
+      "title": "Started Learning Web Development!",
+      "date": "May 2021",
+      "icon": "code",
+      "color": "blue",
+      "description": "Started learning web development from freecodecamp.org",
+      "url": "https://www.github.com/haldaranup"
+    }
+  ]
+}

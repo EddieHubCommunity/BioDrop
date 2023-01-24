@@ -1,0 +1,112 @@
+{
+  "name": "Tobiloba Adedeji",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
+  "avatar": "https://github.com/tobySolutions.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Frontend Engineering",
+    "Accessibility"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/toby_solutions",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tobiloba-adedeji",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/tobySolutions",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Python",
+      "date": "2020",
+      "icon": "FaSearch",
+      "color": "red",
+      "description": "I was learning Python, but I stopped it after a month."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "Joined Nithub's 3-month Nitdev training for Frontend development"
+    },
+    {
+      "title": "Social Media",
+      "date": "July 2022",
+      "icon": "FaAndroid",
+      "color": "green",
+      "description": "Started becoming active on my Twitter account, I've had my Twitter account for years, but didn't know Tech Twitter",
+      "url": "https://twitter.com/toby_solutions"
+    },
+    {
+      "title": "What I know",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "green",
+      "description": "HTML, CSS, JavaScript, Typescript, Tailwind, Nodejs, React, Next, Python",
+      "url": "https://alireza05.netlify.app/"
+    },
+    {
+      "title": "Became a Software Engineer Intern",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "green",
+      "description": "Did an interview and got an offer to become a software engineer intern at Nithub Unilag",
+      "url": "https://nithub.unilag.edu.ng"
+    },
+    {
+      "title": "Joined 4C as Website Maintainer",
+      "date": "2022",
+      "icon": "FaPeopleCarry",
+      "color": "green",
+      "description": "Became a maintainer of the 4c site and got the repo through Hacktoberfest 2022",
+      "url": "https://4c.rocks"
+    },
+    {
+      "title": "Open-Source",
+      "date": "2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "#000",
+      "description": "My open source journey started during Hacktoberfest 2022 and during that time I was already a maintainer of 4c's website",
+      "url": "https://github.com/tobySolutions"
+    },
+    {
+      "title": "Became Staff Member at 4c",
+      "date": "2022",
+      "icon": "CgCommunity",
+      "color": "green",
+      "description": "Became staff member of the awesome community!",
+      "url": "https://4c.rocks"
+    },
+    {
+      "title": "Became a maintainer of the Free Web3 Resources",
+      "date": "2022",
+      "icon": "SiWeb3Dotjs",
+      "color": "green",
+      "description": "Became a maintainer of a repo with over 3k stars on Github, providing value for those getting started with Web3",
+      "url": "https://freeweb3resources.com"
+    },
+    {
+      "title": "Took on the Programming Expert Course",
+      "date": "2022",
+      "icon": "SiFuturelearn",
+      "color": "green",
+      "description": "Started the Programming Expert course to be a guide on my journey to becoming a Software Engineer",
+      "url": "https://programmingexpert.io"
+    }
+  ],
+  "testimonials": ["MadhuSaini22", "krshkun"]
+}

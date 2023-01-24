@@ -1,0 +1,47 @@
+{
+  "name": "Akash Trivedi",
+  "type": "personal",
+  "bio": "Full-Stack Web App Developer | Open Source Explorer | DSA - Java",
+  "avatar": "https://github.com/akashtrivedig.png",
+  "links": [
+    {
+      "name": "Check me on GitHub",
+      "url": "https://github.com/akashtrivedig",
+      "icon": "FaGithub",
+      "color": "red"
+    },
+    {
+      "name": "Check me on Twitter",
+      "url": "https://twitter.com/akashtrivedip",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check me on Leetcode",
+      "url": "https://leetcode.com/web_spaghetti",
+      "icon": "FaSearch"
+    },
+    {
+      "name": "Check me on Codeforces",
+      "url": "https://codeforces.com/profile/akash-trivedi",
+      "icon": "SiCodeforces"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Project : Discord Clone a.k.a ShareSpace",
+      "date": "July 2022",
+      "icon": "FaDiscord",
+      "color": "#404eed",
+      "description": "A place to join/create communities of your Interests. Create Groups and if want to discuss something in private then go for DM's.",
+      "url": "https://github.com/akashtrivedig/discord-clone/"
+    },
+    {
+      "title": "Project : Realtime Chat App",
+      "date": "June 2022",
+      "icon": "RiSendPlaneFill",
+      "color": "#3BA55D",
+      "description": "Connecting people online. Direct messages via internet. Supports group creation. Video calling(under development) & Voice calling(under development).",
+      "url": "https://github.com/akashtrivedig/chat-app/"
+    }
+  ]
+}

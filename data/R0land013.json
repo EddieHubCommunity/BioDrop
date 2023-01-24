@@ -1,0 +1,36 @@
+{
+  "name": "Rolando Rio Garaboa",
+  "type": "personal",
+  "bio": "Developer. Always learning!",
+  "avatar": "https://github.com/R0land013.png",
+  "links": [
+    {
+      "name": "Here is my Github",
+      "url": "https://github.com/R0land013",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/r0landorio",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My LinkedIn",
+      "url": "https://www.linkedin.com/in/rolando-juan-rio-garaboa-689428214",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "You can find me on Dev Community",
+      "url": "https://dev.to/r0land013",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Computer Engineering studies",
+      "date": "September 2018",
+      "icon": "FaGraduationCap",
+      "color": "green"
+    }
+  ]
+}

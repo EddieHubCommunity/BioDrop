@@ -1,0 +1,28 @@
+{
+  "name": "Andre Almeida",
+  "type": "personal",
+  "bio": "Software Engineer and Frontend Specialist!",
+  "avatar": "https://github.com/aalmeida00.png",
+  "links": [
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/aalmeida00",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aalmeida00",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me at LinkedIn",
+      "url": "https://www.linkedin.com/in/andre-almeida1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check it out my blog",
+      "url": "https://aalmeida.tech/",
+      "icon": "blog"
+    }
+  ]
+}

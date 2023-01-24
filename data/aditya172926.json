@@ -1,0 +1,96 @@
+{
+  "name": "Aditya Singh",
+  "type": "personal",
+  "bio": "Full Stack dev | Web3 and Python dev | Open Source Contributor",
+  "avatar": "https://github.com/aditya172926.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aditya172926",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdityaS25414560",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-26",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@aditya26sg",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "My Web3 profile on BuildSpace",
+      "url": "https://buildspace.so/@aditya",
+      "icon": "FaLink"
+    },
+    {
+      "name": "My Website",
+      "url": "https://aditya26sg.pythonanywhere.com/",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "BuildSpace Nights & Weekends S1 Fellow",
+      "date": "May 2022",
+      "icon": "FaLink",
+      "color": "purple",
+      "description": "Live developing my Web3 project BlockOverflow with peers for 6 weeks",
+      "url": "https://twitter.com/AdityaS25414560/status/1538789321641447424?s=20&t=MpeyJIDf6O8_VBQqvoS9vg"
+    },
+    {
+      "title": "Building Fresa",
+      "date": "May 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Built a point-of-sale marketplace on Celo Blockchain",
+      "url": "https://github.com/FresaClubWallet"
+    },
+    {
+      "title": "Building BlockOverflow",
+      "date": "March 2022",
+      "icon": "FaGithub",
+      "color": "orange",
+      "description": "Web3 project to support real-time stream rewards mechanism for real-time progress",
+      "url": "https://github.com/aditya172926/BlockOverflow_frontend"
+    },
+    {
+      "title": "ETHernals 2022 Hackathon Winner",
+      "date": "April 2022",
+      "icon": "FaGlobe",
+      "color": "red",
+      "description": "Among Top 10 winners in this Hackathon, India's largest Web3 competition by Devfolio and ETHIndia",
+      "url": "https://twitter.com/AdityaS25414560/status/1535855352415395840?s=20&t=CxqPJc_gF1U04JhAyMP_gg"
+    },
+    {
+      "title": "Blockchain Research Paper",
+      "date": "April 2022",
+      "icon": "FaBook",
+      "color": "green",
+      "description": "Published a paper on Healthcare systems using Blockchains",
+      "url": "https://www.irjet.net/archives/V9/i4/IRJET-V9I4309.pdf"
+    },
+    {
+      "title": "Began working at Setlor LLC.",
+      "date": "September 2019",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Worked as a Software developer",
+      "url": "https://drive.google.com/file/d/1_pjHwpsblFM5CSO1L82Is4rKcZJ7gJbf/view"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "February 2019",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started my freelancing journey in Python and Web Dev",
+      "url": ""
+    }
+  ]
+}

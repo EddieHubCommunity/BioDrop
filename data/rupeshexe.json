@@ -1,0 +1,95 @@
+{
+  "name": "Rupesh Dubey",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source | **Student** | Currently Learning **Machine Learning** & **Data Science**",
+  "avatar": "https://github.com/rupeshexe.png",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Python",
+    "DSA",
+    "Machine Learning",
+    "Data Science"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
+    { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/@rupeshexe" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/rupeshexe" }
+  ],
+  "links": [
+    {
+      "name": "Lets Create Something on GitHub",
+      "url": "https://github.com/rupeshexe",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rupeshtwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/rupeshexe",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube: First Video Soon",
+      "url": "https://youtube.com/@rupeshexe",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "Open Source and Random Tech Blogs",
+      "url": "https://rupeshexe.hashnode.dev/",
+      "icon": "SiHashnode",
+      "color": "#0755AA"
+    },
+    {
+      "name": "GitHub Sponsors: Support my Work",
+      "url": "https://github.com/sponsors/rupeshexe",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Mail me at",
+      "url": "mailto:contactrupeshdubey@gmail.com",
+      "icon": "SiGmail",
+      "color": "#FF651F"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learning to Code and Collaborate",
+      "date": "Always",
+      "icon": "FaLaptopCode",
+      "color": "orange",
+      "description": "Always Open to learn and collaborate on new tech stacks.",
+      "url": "https://twitter.com/rupeshtwt"
+    },
+    {
+      "title": "Appeared On Twitter",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Recreated my Twitter Account and trying to stay active this time.",
+      "url": "https://twitter.com/rupeshtwt"
+    },
+    {
+      "title": "First Quality PR on Github",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "First PR merged in a live website. Contributed in HTML",
+      "url": "https://github.com/rupeshexe"
+    },
+    {
+      "title": "Started with Open-Source",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Created my GitHub Account",
+      "url": "https://github.com/rupeshexe"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Chinwendu Enyinna",
+  "type": "personal",
+  "bio": "Tech Enthusiast!",
+  "avatar": "https://github.com/wendeee.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/wendeee",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_ChinwenduE",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/enyinna-chinwendu-promise/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://chinwendu.medium.com/",
+      "icon": "SiMedium"
+    }
+  ]
+}

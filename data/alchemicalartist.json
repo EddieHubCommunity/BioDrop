@@ -1,0 +1,24 @@
+{
+  "name": "Chris Denton",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "artist, musician, human",
+  "avatar": "https://GitHub.com/alchemicalartist.png",
+  "links": [
+    {
+      "name": "Subscribe on YouTube!",
+      "url": "https://YouTube.com/@AlchemicalArtist",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Listen to my music!",
+      "url": "https://artist.link/chrisdenton",
+      "icon": "FaMusic"
+    },
+    {
+      "name": "Follow me on Instagram!",
+      "url": "https://Instagram.com/anauthenticpiece",
+      "icon": "FaInstagram"
+    }
+  ]
+}

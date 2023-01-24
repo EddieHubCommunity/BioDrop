@@ -1,0 +1,29 @@
+{
+  "name": "Rohit Udamale",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Student**, Currently learning web3 and react, Want to contribute to real life projects",
+  "avatar": "https://github.com/RoHit4100.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/RoHit4100",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_____zolo_____/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohit__udamale",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkden",
+      "url": "https://www.linkedin.com/in/rohit-udamale-5b3023236",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Chinmay Mhatre",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full stack JavaScript Developer | Open Source",
+  "avatar": "https://github.com/ChinmayMhatre.png",
+  "tags": ["NextJS", "JavaScript", "Open Source", "React Native"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/chinmaysmhatre" },
+    { "icon": "FaGithub", "url": "https://github.com/ChinmayMhatre" },
+    { "icon": "FaLink", "url": "https://www.chinmaymhatre.in/" }
+  ],
+  "testimonials": ["Aadarsh805"],
+  "links": [
+    {
+      "name": "Personal website",
+      "url": "https://www.chinmaymhatre.in/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Blogs on JavaScript Stuff",
+      "url": "https://dev.to/chinmaymhatre",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ChinmayMhatre",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's all laugh together at tech Twitter memes.",
+      "url": "https://twitter.com/chinmaysmhatre",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/chinmaymhatre",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

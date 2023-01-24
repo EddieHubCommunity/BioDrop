@@ -1,0 +1,92 @@
+{
+  "name": "Bilal Khan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "College Dropout ➞ Self-Taught DevOps Guy | Open Source Contributor, Content Creator on @YouTube & a Technical Writer at @hashnode.",
+  "avatar": "https://github.com/ibilalkayy.png",
+  "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
+  "socials": [
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@ibilalkayy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ibilalkayy"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@ibilalkayy"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ibilalkayy"
+    }
+  ],
+  "links": [
+    {
+      "name": "Resume: Hire me",
+      "url": "https://ibilalkayy.github.io/digital-resume/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "YouTube: Checkout my DevOps Videos",
+      "url": "https://www.youtube.com/@ibilalkayy",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "GitHub: Checkout my Projects",
+      "url": "https://github.com/ibilalkayy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode: Read my Blogs",
+      "url": "https://hashnode.com/@ibilalkayy",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ibilalkayy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/ibilalkayy/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "Jun 26, 2020",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://www.youtube.com/@ibilalkayy/"
+    },
+    {
+      "title": "Created 60 Days Of DevOps Videos",
+      "date": "Dec 1, 2022",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Completed 60DaysOfDevOps Video Series",
+      "url": "https://www.youtube.com/watch?v=e0gfLJVz9rY&list=PLptbpfKzsc3BtEki4tHQm5Xmpj8w1_JlM&index=60"
+    },
+    {
+      "title": "Wrote 60 Days Of DevOps Notes",
+      "date": "Dec 3, 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Completed 60DaysOfDevOps Notes",
+      "url": "https://github.com/ibilalkayy/60-Days-Of-DevOps"
+    },
+    {
+      "title": "Started Hashnode",
+      "date": "Aug, 2022",
+      "icon": "FaPencilAlt",
+      "color": "blue",
+      "description": "Started writing blogs",
+      "url": "https://hashnode.com/@ibilalkayy"
+    }
+  ]
+}

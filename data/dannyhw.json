@@ -1,0 +1,39 @@
+{
+  "name": "Daniel Williams",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend developer and React Native Storybook maintainer",
+  "avatar": "https://github.com/dannyhw.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Danny_H_W",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/dannyhw",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/danielhwilliams",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Website",
+      "url": "https://www.dannyhwilliams.co.uk",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "dev.to",
+      "url": "https://dev.to/dannyhw",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@dannyhyunsoowilliams",
+      "icon": "FaMedium"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Hussain Shariff",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Mechanical engineer exploring web dev | Starting with Open Source journey",
+  "tags": ["reactJs", "nextJs", "tailwindCSS", "Sanity"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/hussainshariff_" },
+    { "icon": "FaGithub", "url": "https://github.com/hussain-shariff" }
+  ],
+  "avatar": "https://github.com/hussain-shariff.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hussainshariff_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/hussain-shariff",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/hussain-shariff",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Web Development",
+      "date": "November 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started Learning Dev",
+      "url": "https://github.com/hussain-shariff"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Opensource Contributions",
+      "url": "https://github.com/hussain-shariff"
+    }
+  ]
+}

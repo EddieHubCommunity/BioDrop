@@ -1,0 +1,27 @@
+{
+  "name": "Vivek Kumar Singh",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/vivekthedev.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vivekthdev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vivekthedev",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won Hackathon",
+      "date": "October 2021",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Won prize for notable mentions"
+    }
+  ]
+}

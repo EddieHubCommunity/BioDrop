@@ -1,0 +1,28 @@
+{
+  "name": "Shubham Sigdar",
+  "type": "personal",
+  "bio": "I'm a Software Engineer at @100Devs",
+  "avatar": "https://github.com/shubhamsigdar1.png",
+  "links": [
+    {
+      "name": "My business website",
+      "url": "https://shubhamsigdar.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/shubhamsigdar1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shubhamsigdar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shubhamsigdar/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Omkar Ramishte",
+  "type": "personal",
+  "bio": " CS UnderGrad | Frontend Developer | shares about open source related threads and  Blogs on Twitter| Happy to connect❤️ ",
+
+  "tags": [
+    "C++",
+    "ReactJS",
+    "Javascript",
+    "tailwindCSS",
+    "HTML/CSS",
+    "Open Source"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/omk-coder" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/omkar-ramishte-9ba784207/"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/ORamishte" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@Omkar009" }
+  ],
+  "avatar": "https://github.com/omk-coder.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub tO see My Art Of Work",
+      "url": "https://github.com/omk-coder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/omkar-ramishte-9ba784207/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "documenting my journey, talks about open source and tech on twitter follow to know more ",
+      "url": "https://twitter.com/ORamishte",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Tutorials doesn't always helps but Blogs does. Do Checkout my Blogs",
+      "url": "https://hashnode.com/@Omkar009",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/notintocoding/?next=%2F",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "grey",
+      "url": "https://github.com/omk-coder",
+      "description": "Contribute to OpenSource repos"
+    },
+    {
+      "title": "Participated in Hacktoberfest for the first time",
+      "date": "October 2022",
+      "icon": "FaHacktoberfest",
+      "description": "Started Contributed to so many project learn new framework while contribute make some new connection with maintainers, so far so good"
+    },
+    {
+      "title": "Hackathon Participation",
+      "description": "Started Participating in Hackathons learning new things with building real-world projects and getting experienced"
+    },
+    {
+      "title": "Started writing blogs",
+      "icon": "SiHashnode",
+      "description": "At frist started writting blog to win some challenges but eventually it started to becoming addictive and also we can gain more knowledge or share our knowledge with the help of blogs"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Eric Jakobsen",
+  "type": "personal",
+  "bio": "Dev, Hiker, Human!",
+  "avatar": "https://github.com/gentlegiantdev.png",
+  "links": [
+    {
+      "name": "Check out my Portflio",
+      "url": "https://ericjakobsen.com/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "See my latest videos on my YouTube Channel",
+      "url": "https://www.youtube.com/channel/UCaKj0UYH6-fuFQAFsyJ4V7Q/",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ericjakobsen/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read recent articles on my Hashnode blog",
+      "url": "https://gentlegiantdev.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/gentlegiantdev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/gentlegiantdev/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gentlegiantdev",
+      "icon": "FaTwitter"
+    }
+  ]
+}

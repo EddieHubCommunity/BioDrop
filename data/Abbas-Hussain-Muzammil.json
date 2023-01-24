@@ -1,0 +1,39 @@
+{
+  "name": "Abbas Hussain Muzammil",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast | Blogger | Software Engineer",
+  "avatar": "https://github.com/Abbas-Hussain-Muzammil.png",
+
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/ahussain2399" },
+    { "icon": "FaGithub", "url": "https://github.com/Abbas-Hussain-Muzammil" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/YOUR_GITHUB_USERNAME",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YOUR_TWITTER_USERNAME",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://abbasblogs.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/abbas-hussain-muzammil/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "LeetCode: My problem solving journey",
+      "url": "https://leetcode.com/Abbas_Hussain/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}

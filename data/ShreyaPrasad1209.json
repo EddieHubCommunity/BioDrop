@@ -1,0 +1,43 @@
+{
+  "name": "Shreya Prasad",
+  "type": "personal",
+  "bio": "Software Engineer at Intuit | CS @IGDTUW",
+  "avatar": "https://github.com/ShreyaPrasad1209.png",
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/ShreyaPrasad1209",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shreyacasmalert",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/-shreya-prasad/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@shreyapd06",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/shreyacasmalert_?igshid=YmMyMTA2M2Y=",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Software Engineer at Intuit",
+      "date": "Aug 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my career as a Software Engineer at Intuit.",
+      "url": "https://www.intuit.com/"
+    }
+  ]
+}

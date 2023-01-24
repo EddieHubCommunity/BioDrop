@@ -1,0 +1,38 @@
+{
+  "name": "damoski2",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/damoski2.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/damoski2",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AkogunOyindamo3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/oyindacodes/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check Out my Portfolio",
+      "url": "https://aqua-portfolio.vercel.app/",
+      "icon": "web"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": " https://www.linkedin.com/in/oyindacodes"
+    }
+  ]
+}

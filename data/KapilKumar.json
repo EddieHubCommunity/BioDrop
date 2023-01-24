@@ -1,0 +1,23 @@
+{
+  "name": "Kapil Kumar",
+  "type": "personal",
+  "bio": " Java Software Developer",
+  "avatar": "https://github.com/KapilKumar7.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KapilKumar7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KpilKumar7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kapilkumar7/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

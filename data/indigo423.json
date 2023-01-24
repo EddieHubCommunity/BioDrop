@@ -1,0 +1,179 @@
+{
+  "name": "Ronny Trommer",
+  "type": "personal",
+  "bio": "Full-time open source contributor at OpenNMS",
+  "avatar": "https://github.com/indigo423.png",
+  "links": [
+    {
+      "name": "Personal blog",
+      "url": "https://blog.no42.org/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "My happy workplace at OpenNMS",
+      "url": "https://www.opennms.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/indigo423",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Artifact Hub",
+      "url": "https://artifacthub.io/packages/search?org=labmonkeys&sort=relevance&page=1",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Container Images",
+      "url": "https://quay.io/organization/labmonkeys",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Fediverse",
+      "url": "https://social.labmonkeys.space/@indigo",
+      "icon": "FaLink"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ronnytrommer/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Xing",
+      "url": "https://www.xing.com/profile/Ronny_Trommer",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Research Gate",
+      "url": "https://www.researchgate.net/profile/Ronny-Trommer",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Co-founder MCL2000",
+      "date": "2000",
+      "color": "#a320be",
+      "description": "Co-founder MCL2000, a non-profit organization organizing LAN-Parties in Fulda. Helped mainly in the network infrastructure team to get up to 828 people playing peacefully together."
+    },
+    {
+      "title": "Started using OpenNMS",
+      "date": "2004",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Used OpenNMS the first time to monitor network and IT infrastructure.",
+      "url": "https://www.opennms.com"
+    },
+    {
+      "title": "Created my SourceForge account",
+      "date": "June 2007",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Getting involved in the OpenNMS community and working with the code base",
+      "url": "https://sourceforge.net/u/indigo423/profile/"
+    },
+    {
+      "title": "Published: Rundumkontrolle - Enterprise Netzwerk-Management mit OpenNMS in iX",
+      "date": "May 2009",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Published an article in german iX Magazin about network monitoring with OpenNMS in enterprise environments.",
+      "url": "https://shop.heise.de/katalog/rundumkontrolle"
+    },
+    {
+      "title": "Published: OpenNMS Netzwerkmanagement mit freier Software",
+      "date": "June 2010",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Worked with my friends Alexander Finger and Klaus Thielking-Richard on an german book with an introduction to OpenNMS.",
+      "url": "https://dpunkt.de/produkt/opennms/"
+    },
+    {
+      "title": "Co-founder OpenNMS Foundation Europe e.V.",
+      "color": "#a320be",
+      "date": "August 2010",
+      "description": "Co-founder of a non-profit foundation in germany for the OpenNMS community."
+    },
+    {
+      "title": "Co-founder Hacker space Magrathea Laboratories e.V.",
+      "date": "October 2010",
+      "color": "#a320be",
+      "icon": "FaLink",
+      "description": "Co-founder of a non-profit foundation in germany around teaching technology and impact on society in Fulda. I'm not an active member.",
+      "url": "https://maglab.space/"
+    },
+    {
+      "title": "Co-founder OpenNMS Foundation Europe e.V.",
+      "date": "August 2010",
+      "color": "#a320be",
+      "description": "Created a non-profit foundation in germany for the OpenNMS community and contributors."
+    },
+    {
+      "title": "Created my GitHub account",
+      "date": "October 2011",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Migrated from Source Forge with our project to GitHub",
+      "url": "https://github.com/indigo423"
+    },
+    {
+      "title": "GSoC Mentor OpenNMS",
+      "date": "February 2012",
+      "color": "#a320be",
+      "description": "Volunteer as a mentor in the Google Summer of Code project for OpenNMS to deal with a large volume of log data using Flume and Elasticsearch."
+    },
+    {
+      "title": "Published: Monitoring VMware-Based Virtual Infrastructure with OpenNMS",
+      "date": "July 2012",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Published a paper together with Christian Pape at CSECS conference at the Boston University about monitoring VMware based virtual infrastructure with OpenNMS.",
+      "url": "https://wiki.opennms.org/documentation/CSECS2012-Pape-Trommer.pdf"
+    },
+    {
+      "title": "Published: Durchleuchtet: VMware-Monitoring mit OpenNMS in ADMIN-Magazin",
+      "date": "February 2013",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Published a german article about monitoring VMware based virtual infrastructure with OpenNMS in german language.",
+      "url": "https://www.admin-magazin.de/Das-Heft/2013/02"
+    },
+    {
+      "title": "GSoC Mentor OpenNMS",
+      "date": "February 2013",
+      "color": "#a320be",
+      "description": "Volunteer as a mentor in the Google Summer of Code project for OpenNMS to distribute service monitoring tasks for resilients and scalability on volume."
+    },
+    {
+      "title": "Published: X-rayed: VMware monitoring with OpenNMS in Linux Magazine",
+      "date": "May 2013",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Published article about monitoring VMware based virtual infrastructure with OpenNMS in english language.",
+      "url": "https://www.linux-magazine.com/Issues/2013/150/VMware-Monitoring"
+    },
+    {
+      "title": "Created my DockerHub account",
+      "date": "November 2013",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "My first serious open source project for Mobile Automation testing",
+      "url": "https://hub.docker.com/u/indigo"
+    },
+    {
+      "title": "Published: OCS Integration mit OpenNMS",
+      "date": "March 2014",
+      "icon": "FaLink",
+      "color": "#ff4157",
+      "description": "Published an article in german ADMIN-Magazin about integration of OpenNMS with OCS Inventory",
+      "url": "https://www.admin-magazin.de/Das-Heft/2014/03/OCS-Informationen-in-die-Ueberwachung-mit-OpenNMS-integrieren/(language)/ger-DE"
+    },
+    {
+      "title": "Full-time contributor for OpenNMS",
+      "date": "June 2015",
+      "color": "#6f89e9",
+      "description": "Changed from a freelancer to full-time engagement with OpenNMS"
+    }
+  ]
+}

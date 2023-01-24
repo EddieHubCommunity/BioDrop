@@ -1,0 +1,92 @@
+{
+  "name": "Anushka Raj",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software Engineer | Crowdsource Influencer | AngelHack Student Ambassador | Tech Enthusiast |",
+  "tags": ["Java", "JavaScript", "Open Source", "DevOps", "Docker"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AnushCodergirl" },
+    { "icon": "FaGithub", "url": "https://github.com/Anushka-codergirl" },
+    { "icon": "FaLink", "url": "https://anushkaraj.me" }
+  ],
+  "avatar": "https://github.com/Anushka-codergirl.png",
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/Anushka-codergirl",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnushCodergirl",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anushka-raj",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Medium",
+      "url": "https://medium.com/@anushcodergirl",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "View my profile on Peerlist",
+      "url": "https://peerlist.io/anushka",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": " Cool & Creative Dev Space Discord Community",
+      "url": "https://discord.com/invite/wFdXpYRauy",
+      "icon": "FaLink"
+    },
+    {
+      "name": "View my profile on Instagram",
+      "url": "https://instagram.com/anush.codergirl",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing for the first time",
+      "url": "https://anushkaraj.me/"
+    },
+    {
+      "title": "Software Engineer",
+      "date": "Aug 2021",
+      "icon": "job",
+      "color": "grey",
+      "description": "Started working remotely as a Software Engineer Trainee at a startup",
+      "url": "https://shivaitsolutions.com/"
+    },
+    {
+      "title": "Crowdsource Influencer",
+      "date": "May 2022",
+      "icon": "code",
+      "color": "yellow",
+      "description": "Started contributing to Crowdsource actively & got selected as a Crowdsource Influencer",
+      "url": "https://crowdsource.app.goo.gl/s1om"
+    },
+    {
+      "title": "TFUG Hajipur Organizer",
+      "date": "Aug 2022",
+      "icon": "code",
+      "color": "orange",
+      "description": "Community for AI/ML Enthusiasts - TensorFlow User Group Hajipur",
+      "url": "https://meetup.com/tfug-hajipur"
+    },
+    {
+      "title": "Student Ambassador",
+      "date": "Aug 2022",
+      "icon": "code",
+      "color": "red",
+      "description": "Got selected as a Student Ambassador for AngelHack",
+      "url": "https://angelhack.com/"
+    }
+  ]
+}

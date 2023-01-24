@@ -1,0 +1,44 @@
+{
+  "name": "Rohit Dasu",
+  "type": "personal",
+  "bio": "I am a student studying B.Sc. in Information Technology. Currently focusing on web development. I am open to collaborating on any open source project to increase my skill.",
+  "avatar": "https://github.com/rohitdasu.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rohitdasu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohit_dasu_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rohit-dasu",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Portfolio Website",
+      "url": "https://rohit-dasu.web.app",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Got into Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Participated in an Open Source project"
+    },
+    {
+      "title": "Started my own Open Source project",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Participated in an Open Source project"
+    }
+  ]
+}

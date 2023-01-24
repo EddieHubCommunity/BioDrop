@@ -1,0 +1,37 @@
+{
+  "name": "Ronen Hammond",
+  "type": "personal",
+  "bio": "I am a student studying B.Sc. in Information Technology. Currently focusing on web development. I am open to collaborating on any open source project to increase my skill.",
+  "avatar": "https://github.com/RonenTGreat.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RonenTGreat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ronen_T_G",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ronen-hammond",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Portfolio Website",
+      "url": "https://www.ronenhammond.me",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Got into Open Source",
+      "date": "October 2021",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "Participated in Hacktoberfest"
+    }
+  ]
+}

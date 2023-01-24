@@ -1,0 +1,33 @@
+{
+  "name": "Rakesh Potnuru",
+  "type": "personal",
+  "bio": "2nd year cs student",
+  "avatar": "https://github.com/RakeshPotnuru.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RakeshPotnuru",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rakesh_at_tweet",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rakesh-potnuru-067a8b1b1/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won a hackathon",
+      "date": "September 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Won a hackathon organized by developer days(developerdays.tech)",
+      "url": "https://devfolio.co/submissions/silver-screen-42c6"
+    }
+  ]
+}

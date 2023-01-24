@@ -1,0 +1,33 @@
+{
+  "name": "Luiz Felipe Amadeu",
+  "type": "personal",
+  "bio": "IT Student | Networking | Front-end | Open Source Enthusiast!",
+  "avatar": "https://github.com/Amad3eu.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Amad3eu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Amad3eu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Dev Profile",
+      "url": "https://dev.to/amad3eu",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://amad3eu.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/luiz-felipe-warmling-amadeu-752692211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

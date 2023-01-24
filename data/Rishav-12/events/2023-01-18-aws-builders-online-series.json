@@ -1,0 +1,11 @@
+{
+  "isVirtual": true,
+  "color": "red",
+  "name": "AWS Builders Online Series",
+  "description": "Jumpstart your journey with AWS. Whether you are new to the cloud or an experienced user, you can learn something new and explore techniques to build, secure and deploy your first workload on AWS.",
+  "date": {
+    "start": "2023-01-18T10:00:00.000+05:30",
+    "end": "2023-01-18T13:15:00.000+05:30"
+  },
+  "url": "https://aws.amazon.com/events/builders-online-series"
+}

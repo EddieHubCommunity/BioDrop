@@ -1,0 +1,35 @@
+{
+  "name": "Sajiyah Salat",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/Sajiyah-Salat.png",
+  "tags": ["DevOps", "Docker", "Kubernetes"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sajiyah-Salat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIN",
+      "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SajiyaSalat",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won Hacktoberfest 2022 ",
+      "date": "October 2022",
+      "icon": "hacktoberfest",
+      "color": "grey",
+      "description": "Made Github profile on June 2022 | Started documenting my journey via linkedIn and Twitter| Started Writing blog on Hashnode",
+      "url": "https://www.Sajiyah-Salat.io/"
+    }
+  ]
+}

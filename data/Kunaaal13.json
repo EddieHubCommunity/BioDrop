@@ -1,0 +1,35 @@
+{
+  "name": "Kunal Yadav",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack web developer | NextJs, Tailwind, Typescript",
+  "avatar": "https://github.com/Kunaaal13.png",
+  "tags": ["Javascript", "Typescript", "NextJS"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Kunaaal13",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kunaaal13",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kunalyadav1308/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Devfolio",
+      "url": "https://kunaaal13.vercel.app/",
+      "icon": "FaPortrait"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://kunaaal13.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

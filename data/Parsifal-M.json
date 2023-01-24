@@ -1,0 +1,56 @@
+{
+  "name": "Peter Macdonald",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source Evangelist, Software Engineering, DevOps",
+  "avatar": "https://github.com/Parsifal-M.png",
+  "tags": [
+    "Open Source",
+    "Rust",
+    "Go",
+    "Clojure",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Linux Fedora",
+    "Software Engineering",
+    "DevOps"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/_PeterM_" },
+    { "icon": "FaGithub", "url": "https://github.com/Parsifal-M" },
+    { "icon": "FaMastodon", "url": "https://hachyderm.io/@parcifal" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_PeterM_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Parsifal-M",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/peter-j-macdonald/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://hachyderm.io/@parcifal",
+      "icon": "FaMastodon"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became an OPA (Open Policy Agent) community champion",
+      "date": "Dec 2022",
+      "icon": "FaGrinStars",
+      "color": "grey",
+      "description": "Became an OPA (Open Policy Agent) community champion by helping out the community and contributing to the project!",
+      "url": "https://www.openpolicyagent.org/community"
+    }
+  ]
+}

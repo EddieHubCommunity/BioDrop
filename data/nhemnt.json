@@ -1,0 +1,33 @@
+{
+  "name": "Hemant Negi",
+  "type": "personal",
+  "bio": "Software Developer || Web Developer || Tech Enthusiast",
+  "avatar": "https://github.com/nhemnt.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nhemnt",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nhemnt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://linkedin.com/in/nhemnt",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check my Portfolio",
+      "url": "https://codelutto.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/coderalchemy/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

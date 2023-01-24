@@ -1,0 +1,51 @@
+{
+  "name": "Abone Kosiso",
+  "type": "personal",
+  "bio": "I am a fullStack Web Developer(MERN Stack), a coding instructor and an open source enthusiast. I love understanding how things work under the hood. I enjoy solving complex problems. Kindly connect with me to find out more about me...",
+  "avatar": "https://github.com/KosyAbone.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub to see my work",
+      "url": "https://github.com/KosyAbone",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kosiso_harriet",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/kosiso-abone/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Get in touch with me on Telegram",
+      "url": "https://t.me/kosiso1",
+      "icon": "FaTelegram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Tech Journey",
+      "date": "July 2019",
+      "icon": "FaDev",
+      "color": "white",
+      "description": "Started my Tech Journey by working on frontend at the later stage of 2019."
+    },
+    {
+      "title": "Open-Source",
+      "date": "April 2022",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Learning to contribute to Open-Source."
+    },
+    {
+      "title": "Education",
+      "date": "January 2020",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Pulled off my BCS Certificate in IT Tech Certification."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "name": "Unni P",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "SysAdmin turned into DevOps Engineer | Collaboration and Shared Responsibility",
+  "avatar": "https://github.com/iamunnip.png",
+  "tags": [
+    "Linux",
+    "DevOps",
+    "Containers",
+    "Cloud",
+    "Observability",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "Azure DevOps",
+    "Elastic Stack"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamunnip"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iamunnip"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/iamunnip"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/iamunnip",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iamunnip",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/iamunnip",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://cloud-native.social/@iamunnip",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Xing",
+      "url": "https://www.xing.com/profile/Unni_P",
+      "icon": "FaXing"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@iamunnip",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Dev",
+      "url": "https://dev.to/iamunnip",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@iamunnip",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "AWS Certified Solutions Architect – Associate",
+      "date": "December 2022 - December 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from Amazon Web Services",
+      "url": "https://www.credly.com/badges/83f9a869-58e7-4556-970e-31cabc8c4ecf/public_url"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "date": "November 2022 - December 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Foundational Level Certification from Amazon Web Services",
+      "url": "https://www.credly.com/badges/2dd0c54d-d410-4bbd-911e-91a7c41e0735/public_url"
+    },
+    {
+      "title": "Google Cloud Certified Cloud Digital Leader",
+      "date": "November 2022 - December 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Foundational Level Certification from Google Cloud",
+      "url": "https://www.credential.net/20b27552-ea4c-4461-82aa-271dc27716a5"
+    },
+    {
+      "title": "CKS: Certified Kubernetes Security Specialist",
+      "date": "April 2022 - April 2024",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Expert Level Certification from Linux Foundation",
+      "url": "https://www.credly.com/badges/8d181d10-03a5-44d2-a22a-6aef835d6c2f/public_url"
+    },
+    {
+      "title": "CKAD: Certified Kubernetes Application Developer",
+      "date": "February 2022 - February 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from Linux Foundation",
+      "url": "https://www.credly.com/badges/46c4910a-0012-4f5f-9283-dd7eb537fdf6/public_url"
+    },
+    {
+      "title": "CKA: Certified Kubernetes Administrator",
+      "date": "February 2022 - February 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from Linux Foundation",
+      "url": "https://www.credly.com/badges/5702d469-605e-479e-9c17-ff5101fc49fc/public_url"
+    },
+    {
+      "title": "Microsoft Certified: DevOps Engineer Expert",
+      "date": "November 2021 - November 2023",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Expert Level Certification from Microsoft",
+      "url": "https://www.credly.com/badges/533bf6bf-c007-4ce0-aa09-56445ca781c0/public_url"
+    },
+    {
+      "title": "HashiCorp Certified: Consul Associate",
+      "date": "September 2021 - September 2023",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from HashiCorp",
+      "url": "https://www.credly.com/badges/2ef6b60f-4c46-4b1b-914f-0f18d2e9ae2c/public_url"
+    },
+    {
+      "title": "HashiCorp Certified: Vault Associate",
+      "date": "August 2021 - August 2023",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from HashiCorp",
+      "url": "https://www.credly.com/badges/a1c8b1cb-7d77-44ff-90ab-922d0efd9502/public_url"
+    },
+    {
+      "title": "Microsoft Certified: Azure Administrator Associate",
+      "date": "December 2020 - December 2023",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from Microsoft",
+      "url": "https://www.credly.com/badges/565cde9c-68fa-45fd-bc19-5c568ca8a1d2/public_url"
+    },
+    {
+      "title": "HashiCorp Certified: Terraform Associate",
+      "date": "September 2020 - March 2023",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Associate Level Certification from HashiCorp",
+      "url": "https://www.credly.com/badges/92498295-5712-411e-812d-1d13334fb4c6/public_url"
+    }
+  ]
+}

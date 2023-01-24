@@ -1,0 +1,54 @@
+{
+  "name": "Anurag Rajawat",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open Source is ❤️ | Gooogle Summer of Code 2022 contributor",
+  "avatar": "https://github.com/anurag-rajawat.png",
+  "tags": ["Open Source", "Kubernetes", "Java", "DevOps"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/anuragrajawat22" },
+    { "icon": "FaGithub", "url": "https://github.com/anurag-rajawat" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/anurag-rajawat22/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Let's Collaborate",
+      "url": "https://github.com/anurag-rajawat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/anuragrajawat22",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/anurag-rajawat22/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode: Check blogs",
+      "url": "https://anuragr.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source",
+      "date": "January 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Started contributing to Open Source projects"
+    },
+    {
+      "title": "Google Summer of Code 2022 Contributor",
+      "date": "May 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Worked on Eclipse JKube project as part of Google Summer of Code 2022"
+    }
+  ]
+}

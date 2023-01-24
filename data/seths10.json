@@ -1,0 +1,47 @@
+{
+  "name": "Seth Addo",
+  "type": "personal",
+  "bio": "Software Developer | Student of University of Cape Coast",
+  "avatar": "https://github.com/seths10.png",
+  "links": [
+    {
+      "name": "My personal website",
+      "url": "https://seths10.github.io/main-portfolio/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/seths10",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/set_addo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/seth-addo-034327190/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing again",
+      "url": "https://seths10.github.io/main-portfolio/"
+    },
+    {
+      "title": "Started Blogging",
+      "image": "https://github.com/seths10.png",
+      "date": "2021",
+      "icon": "FaDev",
+      "color": "red",
+      "description": "Technical articles",
+      "url": "https://dev.to/seths10"
+    }
+  ]
+}

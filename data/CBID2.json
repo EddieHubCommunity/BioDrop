@@ -1,0 +1,56 @@
+{
+  "name": "Christine Belzie",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "An Instructional Designer who codes",
+  "avatar": "https://github.com/CBID2.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/CBID2",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/christinebelzie",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my tech blog",
+      "url": "https://chrissycodes.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/cbid2",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Earned a Pull Shark",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "My first award on GitHub",
+      "url": "https://github.com/users/CBID2/achievements/pull-shark"
+    },
+    {
+      "title": "SheSharp New in Tech Scholarship Receipient",
+      "date": "November 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Won for being an active participant in SheSharp.",
+      "url": "https://www.linkedin.com/posts/christinebelzie_announcing-our-new-in-tech-scholarship-winner-activity-6993952117304508416-3oC5"
+    },
+    {
+      "title": "Wrote my first blog post",
+      "date": "December 2022",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "In this blog post, I describe why I decided to learn to code and how I overcame imposter syndrome to start this journey",
+      "url": "https://chrissycodes.hashnode.dev/"
+    }
+  ],
+  "testimonials": ["loftwah"]
+}

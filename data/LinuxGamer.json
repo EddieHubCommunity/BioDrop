@@ -1,0 +1,75 @@
+{
+  "name": "CJ (LinuxGamer)",
+  "type": "personal",
+  "bio": "**Open Source** Enthusiast! Tech and Art YouTuber and Streamer.",
+  "displayStatsPublic": true,
+  "avatar": "https://github.com/LinuxGamer.png",
+  "tags": ["Open Source", "Youtuber", "EddieHub", "GitHub", "Artist"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/LinuxGamer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Subscribe to my YouTube",
+      "url": "https://www.youtube.com/channel/UCbBtLFxKBpcwt85EoP0kXRg",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow my Twitter",
+      "url": "https://twitter.com/the_linuxgamer",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my main Fediverse account",
+      "url": "https://pl.starnix.network/users/CJLinuxGamer",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Follow my Twitch",
+      "url": "https://twitch.tv/The_LinuxGamer",
+      "icon": "FaTwitch"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Appeared Online",
+      "date": "December 2020",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "First appeared online.",
+      "url": "https://linuxgamer.github.io"
+    },
+    {
+      "title": "First Appeared On Twitter",
+      "date": "June 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "First appeared on Twitter.",
+      "url": "https://twitter.com/the_linuxgamer"
+    },
+    {
+      "title": "Started Work On Open Source",
+      "date": "12 September 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started work on open source (properly).",
+      "url": "https://github.com/LinuxGamer"
+    },
+    {
+      "title": "Pledged To Become Greener!",
+      "date": "12 September 2022",
+      "icon": "tree",
+      "color": "green",
+      "description": "Pledged to become Greener and more sustainable within development and content creation."
+    },
+    {
+      "title": "Started Working With JavaScript!",
+      "date": "6 January 2023",
+      "icon": "SiJavascript",
+      "color": "yellow",
+      "description": "I started learning JavaScript by working on some JavaScript projects, like Linkfree and Collaborafolio"
+    }
+  ]
+}

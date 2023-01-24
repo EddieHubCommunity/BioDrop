@@ -1,0 +1,45 @@
+{
+  "name": "Mukhtar Abdulfatai",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!",
+  "avatar": "https://github.com/DevMukhtarr.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/DevMukhtarr",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DevMukhtar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://mukhtar.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abdulfatai-mukhtar-77a2131b1/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Wrote my first blog post on hashnode",
+      "date": "Feb 6, 2021",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Wrote my first ever blog post which was about setting up NodeJS and published it on Hashnode",
+      "url": "https://mukhtar.hashnode.dev/setting-up-nodejs"
+    },
+    {
+      "title": "Completed Udacity Fullstack Nanodegree sponsored by ALX-T",
+      "date": "Aug 19, 2022",
+      "icon": "FaBook",
+      "color": "blue",
+      "description": "I completed and learnt more about fullstack development with Udacity course"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Siva Reddy",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Test Analyst** in profession. DevOps enthusiast &  On a learning spree",
+  "avatar": "https://github.com/SivaReddy184.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sivareddy184",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/venkata-siva-reddy-m/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SivaReddy184",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://sivareddy.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

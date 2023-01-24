@@ -1,0 +1,40 @@
+{
+  "name": "Pranshu Patel",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** Developer | **Open-source** Enthusiast ",
+  "tags": ["Open Source", "JavaScript", "Python", "MongoDB", "Node.js"],
+  "avatar": "https://github.com/pranshu05.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/pranshu_05" },
+    { "icon": "FaGithub", "url": "https://github.com/pranshu05" },
+    { "icon": "FaLink", "url": "https://pranshu05.thedev.id" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pranshu05",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pranshu05",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://pranshu05.thedev.id",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter!",
+      "url": "https://twitter.com/Pranshu_05",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe to my YouTube channel",
+      "url": "https://www.youtube.com/@pranshu05",
+      "icon": "FaYoutube"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Brian Kiarie Mwaniki",
+  "type": "personal",
+  "bio": "Open Source Enthusiast!Passionate about software & coding!",
+  "avatar": "https://github.com/BrianKiarieMwaniki.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/BrianKiarieMwaniki",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Brian_mwaniki_k",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/brian-kiarie-097b1b20b/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started OpenSource",
+      "date": "August 2022",
+      "icon": "DiOpensource",
+      "color": "#3bc2cb",
+      "description": "Joined https://github.com/EddieHubCommunity for my open source journey"
+    },
+    {
+      "title": "Began working at Seltime Pty Ltd.",
+      "date": "July 2021",
+      "icon": "FaMicrosoft",
+      "color": "#00a1f1",
+      "description": "Began working at Seltime Pty Ltd. as a frontend developer working with ASP.NET Blazor and C#.",
+      "url": "https://www.selltime.com/"
+    },
+    {
+      "title": "Learning to Code!",
+      "date": "August 2016",
+      "icon": "FaGraduationCap",
+      "color": "#000000",
+      "description": "Started learning"
+    }
+  ]
+}

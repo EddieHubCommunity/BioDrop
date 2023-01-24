@@ -1,0 +1,28 @@
+{
+  "name": "Samsor Rahman",
+  "type": "personal",
+  "bio": "Software Engineering and Frontend Specialist!| Love sharing Knowledge",
+  "avatar": "https://github.com/samsorrahman.png",
+  "links": [
+    {
+      "name": "Take a look at my GitHub",
+      "url": "https://github.com/samsorrahman",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/samsor_rahman",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me at LinkedIn",
+      "url": "https://www.linkedin.com/in/samsorrahman100pro",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check it out my blog",
+      "url": "https://stalwart-twilight-c2926c.netlify.app/",
+      "icon": "blog"
+    }
+  ]
+}

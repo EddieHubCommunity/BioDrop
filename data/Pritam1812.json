@@ -1,0 +1,75 @@
+{
+  "name": "Pritam Hore",
+  "type": "personal",
+  "bio": "Aspiring Software Developer | Open Source Enthusiast!",
+  "avatar": "https://github.com/Pritam1812.png",
+  "links": [
+    {
+      "name": "Check me on GitHub!",
+      "url": "https://github.com/Pritam1812",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn!",
+      "url": "https://www.linkedin.com/in/pritam1812",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Website!",
+      "url": "https://pritam1812.github.io/PortfolioWebsite",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Add me on Facebook!",
+      "url": "https://www.facebook.com/Pritam1812",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Ping me on Instagram!",
+      "url": "https://instagram.com/__pritam.___",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Find me on Twitter!",
+      "url": "https://twitter.com/_Pritam_1812",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learning C",
+      "date": "October 2020",
+      "icon": "FaBook",
+      "color": "blue",
+      "description": "My First Programming Langauge"
+    },
+    {
+      "title": "Started Algorithms and Data Structures",
+      "date": "December 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Basics Of DSA in C"
+    },
+    {
+      "title": "Learning Java",
+      "date": "April 2021",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Started Learning Java"
+    },
+    {
+      "title": "Learning HTML Essential Training",
+      "date": "November 2021",
+      "icon": "FaLinkedin",
+      "color": "yellow",
+      "description": "Started Learning about Web Fondations"
+    },
+    {
+      "title": "Learning CSS Essential Training",
+      "date": "February 2022",
+      "icon": "FaLinkedin",
+      "color": "green",
+      "description": "Started Learning about Web Designs"
+    }
+  ]
+}

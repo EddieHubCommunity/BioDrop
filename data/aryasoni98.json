@@ -1,0 +1,34 @@
+{
+  "name": "Arya Soni",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Building Startup | NLP Intern @IITP'22 | NSUT'21 Intern | DevOps | ML Enthusiast",
+  "avatar": "https://github.com/aryasoni98.png",
+  "links": [
+    {
+      "name": "Blog",
+      "url": "https://blog.aryasoni.tech/",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aryasoni98",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://aryasoni.tech/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aryasoni/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/aryasoni98",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Sumudu Siriwardana",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Project Manager | Web Developer | Technical Writer",
+  "avatar": "https://github.com/sumusiriwardana.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sumusiriwardana",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sumusiriwardana",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my blog on Hashnode",
+      "url": "https://sumudusiriwardana.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow my blog on Dev.to",
+      "url": "https://dev.to/sumusiriwardana",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow my blog on Medium",
+      "url": "https://medium.com/@sumudusiriwardana",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sumudusiriwardana/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

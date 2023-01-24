@@ -1,0 +1,23 @@
+{
+  "name": "Khushi Saxena",
+  "type": "personal",
+  "bio": "Software Developer || Coder || Open Source Enthusiast",
+  "avatar": "https://github.com/Khushi0321.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Khushi0321",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/khushi_321",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check my Portfolio",
+      "url": "https://khushi0321.github.io/portfolio/#/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

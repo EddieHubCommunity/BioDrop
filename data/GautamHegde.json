@@ -1,0 +1,27 @@
+{
+  "name": "Gautam Hegde",
+  "type": "personal",
+  "bio": "Front end developer | Open Source Enthusiast!",
+  "avatar": "https://github.com/Gautam-Hegde.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Gautam-Hegde",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/GautamHegde12",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Web Development",
+      "date": "June 2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Learning Web Development"
+    }
+  ]
+}

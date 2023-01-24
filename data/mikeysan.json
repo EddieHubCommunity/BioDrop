@@ -1,0 +1,18 @@
+{
+  "name": "Mikey San",
+  "type": "personal",
+  "bio": "Support Engineer and Community Moderator",
+  "avatar": "https://github.com/mikeysan.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mikeysan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/whoismikey",
+      "icon": "FaTwitter"
+    }
+  ]
+}

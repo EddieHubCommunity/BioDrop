@@ -1,0 +1,23 @@
+{
+  "name": "Ali Raza",
+  "type": "personal",
+  "bio": "React Native | Web Development |Mern Stack| Open Source Enthusiast",
+  "avatar": "https://github.com/aliraza944.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aliraza944",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ali-raza-sabri/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/alisabri059",
+      "icon": "FaTwitter"
+    }
+  ]
+}

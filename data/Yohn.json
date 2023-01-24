@@ -1,0 +1,115 @@
+{
+  "name": "Yohn aka John Brittain III",
+  "type": "personal",
+  "bio": "Self taught w3b enthusiast that's ready to break out with some new and exciting techniques, never seen before on the web, that seem to just 'work'.",
+  "avatar": "https://github.com/Yohn.png",
+  "links": [
+    {
+      "name": "Get Notified When SKEM9 Comes Back Online!",
+      "url": "https://skem9.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Yohn",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout My Blog",
+      "url": "https://yohn.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/skem9/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/iyohn",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Peerlist?",
+      "url": "https://peerlist.io/iyohn",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Graduated Highschool",
+      "date": "2003",
+      "icon": "FaGraduationCap",
+      "color": "gold",
+      "description": "Graduated highschool after excelling 3 years of AutoCAD for architectural drafting, while renting a house and working night shift."
+    },
+    {
+      "title": "Started Customizing my MySpace",
+      "image": "https://yohn.github.io/assets/img/linkfree/myspace-logo.webp",
+      "date": "2004",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "This was the beginning on my programming journey."
+    },
+    {
+      "title": "Created My First Website",
+      "image": "https://yohn.github.io/assets/img/linkfree/skem9.webp",
+      "date": "2005",
+      "icon": "FaGlobe",
+      "color": "#6e9dd4",
+      "description": "This was when I broke into the developer scene with my first website focused around helping people with their myspace profiles."
+    },
+    {
+      "title": "Social Network",
+      "image": "https://yohn.github.io/assets/img/linkfree/skem9.webp",
+      "date": "2006",
+      "icon": "FaGlobe",
+      "color": "#333333",
+      "description": "Created my first social networking website, for layout makers to share the layouts they've created."
+    },
+    {
+      "title": "500K Members",
+      "image": "https://yohn.github.io/assets/img/linkfree/skem9.webp",
+      "date": "Jan 2008",
+      "icon": "FaGlobe",
+      "color": "red",
+      "description": "Grew Skem9.com to have over 500K members, and about the same amount of layouts to be used on multiple different websites."
+    },
+    {
+      "title": "Internet Crash",
+      "date": "June 2008",
+      "icon": "FaDollarSign",
+      "color": "red",
+      "description": "Lost everything."
+    },
+    {
+      "title": "Hit the road",
+      "date": "2009",
+      "image": "https://yohn.github.io/assets/img/linkfree/road-trip.webp",
+      "icon": "FaSearch",
+      "color": "white",
+      "description": "New life experiences through traveling around the country."
+    },
+    {
+      "title": "Helping Hungry Kids",
+      "date": "July 2009",
+      "icon": "FaSearch",
+      "color": "#f0c",
+      "description": "Started helping a non profit organization to give homeless families a place to stay and food to eat."
+    },
+    {
+      "title": "Visual Impressions",
+      "date": "2013",
+      "icon": "FaGlobe",
+      "color": "orange",
+      "description": "Started working for Visual Impressions adding onto the digital menu board system they already had and upgrading all their websites."
+    },
+    {
+      "title": "JW3B",
+      "date": "2022",
+      "icon": "SiCodeforces",
+      "color": "#3e9dd4",
+      "description": "While still working with Visual Impressions, I started realizing how I wanted to have my own business again. Its going to be run under the umbrella JW3B, which are my initials, except the 3 got moved, and can be pronounced as J-Web. The beginning has started."
+    }
+  ]
+}

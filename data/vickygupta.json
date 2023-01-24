@@ -1,0 +1,18 @@
+{
+  "name": "Vicky Gupta",
+  "type": "personal",
+  "bio": "I am Vicky Gupta, currently pursuing my Engineering majoring in Electronics & telecommunication from Atharva college of engineering Institute. I am a tech & an open-source enthusiast. I always like to interact with people and open to collaborating on projects and innovative & disruptive ideas",
+  "avatar": "https://github.com/viki4545.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/viki4545",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vicky67383383",
+      "icon": "FaTwitter"
+    }
+  ]
+}
