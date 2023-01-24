@@ -7,7 +7,9 @@
    "socials": [
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/" },
     { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
+    { "icon": "FaMedium", "url": "https://medium.com/@vamsipenmetsa" },
     { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" }
+
   ],
   "links": [
      {
