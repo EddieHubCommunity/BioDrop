@@ -16,16 +16,10 @@
       "icon": "FaGithub"
     },
     {
-       "name": "Follow me on LinkedIn",
-       "url": "https://www.linkedin.com/in/agakadela/",
-       "icon": "FaLinkedin"
-     }
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/agakadela/",
+      "icon": "FaLinkedin"
+    }
   ],
-   "tags": [
-     "Open Source",
-     "JavaScript",
-     "ReactJS",
-     "NextJS",
-     "Python"
- ]
+  "tags": ["Open Source", "JavaScript", "ReactJS", "NextJS", "Python"]
 }
