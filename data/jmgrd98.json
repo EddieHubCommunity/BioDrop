@@ -2,8 +2,9 @@
   "name": "João Marcelo Dantas",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "React Jr. Developer",
+  "bio": "React Developer Jr.",
   "avatar": "https://github.com/jmgrd98.png",
+  "milestones: "First day on GitHub!",
   "socials": [
   { "icon": "FaGithub", "url": "https://github.com/jmgrd98" },
   { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/joao-marcelo-dantas" },
