@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../components/Link";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
 export default function Tag({ name, total }) {
