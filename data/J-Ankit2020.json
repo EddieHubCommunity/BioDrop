@@ -4,6 +4,15 @@
   "type": "personal",
   "bio": "Full Stack Developer | DevOps | Open Source Enthusiast",
   "avatar": "https://github.com/J-Ankit2020.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Node",
+    "React",
+    "Java",
+    "algorithms",
+    "dsa"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -20,12 +29,12 @@
   ],
   "links": [
     {
-      "name": "LinkedIn",
+      "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/ankitjha121/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "GitHub",
+      "name": "Checkout my contributions on GitHub",
       "url": "https://github.com/J-Ankit2020",
       "icon": "FaGithub"
     },
@@ -35,9 +44,14 @@
       "icon": "SiLeetcode"
     },
     {
-      "name": "HashNode",
+      "name": "Read my blogs on HashNode",
       "url": "https://zasyg.hashnode.dev/",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Contact Me via mail",
+      "url": "mail:jhaa11701@gmail.com",
+      "icon": "SiMinutemailer"
     }
   ]
 }
