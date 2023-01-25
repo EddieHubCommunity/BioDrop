@@ -1,9 +1,9 @@
-## 1.62.2 (2023-01-25)
+# 1.63.0 (2023-01-25)
 
 
-### Bug Fixes
+### Features
 
-* milestone with no url ([#3958](https://github.com/EddieHubCommunity/LinkFree/issues/3958)) ([a57dc7d](https://github.com/EddieHubCommunity/LinkFree/commit/a57dc7d049aae90777ca56536d6bf5ba260ba704))
+* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
 
 
 
