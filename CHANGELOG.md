@@ -1,9 +1,9 @@
-# 1.63.0 (2023-01-25)
+# 1.64.0 (2023-01-25)
 
 
 ### Features
 
-* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
+* refactored milestones ([#3967](https://github.com/EddieHubCommunity/LinkFree/issues/3967)) ([bb836a7](https://github.com/EddieHubCommunity/LinkFree/commit/bb836a7c065ae5be23d74626d3eedb379e97ff05))
 
 
 
