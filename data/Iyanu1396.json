@@ -1,0 +1,18 @@
+{
+  "name": "IyanuOluwa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer | Javascript ",
+  "avatar": "https://pbs.twimg.com/profile_images/1608188593742176257/bz6f-H1O_400x400.jpg"
+}"links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/iyanu_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://t.co/LEuD34NGk2",
+      "icon": "FaGithub"
+    }
+  ]
