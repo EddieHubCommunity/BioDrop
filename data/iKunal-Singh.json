@@ -11,7 +11,7 @@
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ikunalsingha" },
     { "icon": "FaSoundcloud", "url": "https://soundcloud.com/kunal-singh-558758897" },
   ],
-  "testimonials": [ ],
+
   "links": [
     {
       "name": "Follow for daily Lit tweets",
@@ -89,6 +89,6 @@
       "date": "2022",
       "icon": "FaDollarSign",
       "color": "yellow",
-    },
+    }
   ]
 }
