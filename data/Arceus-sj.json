@@ -1,0 +1,44 @@
+{
+  "name": "Shantanu Jana",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Open Source Enthusiast | An Explorer 👨‍🚀 | TechGeektion  | UnderGrad Nerd 👨🏻‍💻",
+  "avatar": "https://github.com/Arceus-sj.png",
+  "tags": [
+    "Open Source", 
+    "Javascript",
+    "AI",
+    "Node JS",
+    "API's",
+    "Github",
+    "Developer"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/cypherJana" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/Shantanu-Jana/"},
+    { "icon": "FaGithub", "url": "https://github.com/Arceus-sj" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/it.s_just_shan/" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/cypherJana",
+      "icon": "SiTwitter",
+      "color": "#22ACEE"
+    },
+    {
+     "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/Shantanu-Jana/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Connect-Contribute-Code With me @GitHub",
+      "url":"https://github.com/Arceus-sj",
+      "icon": "SiGithub",
+      "color": "#171515"
+    }
+    
+  ]
+}
+
+
