@@ -411,7 +411,7 @@ export default function Home({ total, today }) {
                   <div key={feature.name} className="pt-6">
                     <Link aria-label="Go to ${feature.name} page"
                       href={feature.path}
-                      className="text-gray-900 hover:text-indigo-600"
+                      className="text-gray-900 group"
                     >
                       <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                         <div className="-mt-6">
@@ -423,7 +423,7 @@ export default function Home({ total, today }) {
                               />
                             </span>
                           </div>
-                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
+                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                             {feature.name}
                           </h3>
                           <p className="mt-5 text-base leading-7 text-gray-600">
