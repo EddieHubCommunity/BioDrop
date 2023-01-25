@@ -1,0 +1,35 @@
+{
+    "name": "Pratyaksh Mehrotra",
+    "displayStatsPublic": true,
+    "type": "personal",
+    "bio": "I'm a Computer Science sophomore with experience in Android development and cybersecurity. I've Co-Founded FlameGApps (1.6M+ downloads), served as Product Manager for the RevengeOS Android firmware (200K+ downloads), and built and maintained the WinRice project (4K+ downloads). I'm learning C++ and full stack web development.",
+    "avatar": "https://github.com/pratyakshm.png",
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/pratyakshm_",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/pratyakshm",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/pratyakshm",
+        "icon": "FaGitHub"
+      },
+      {
+        "name": "Blog",
+        "url": "https://blog.pratyakshm.com",
+        "icon": "FaBlog"
+      },
+      {
+        "name": "Website",
+        "url": "https://pratyakshm.com",
+        "icon": "FaGlobeAsia"
+      }
+    ]
+  }
+  
