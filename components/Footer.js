@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../components/Link";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { FaRocket } from "react-icons/fa";
 

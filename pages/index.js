@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
@@ -442,7 +442,6 @@ export default function Home({ total, today }) {
         <Link
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
-          target="_blank"
         >
           <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider

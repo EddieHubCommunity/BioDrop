@@ -1,5 +1,6 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import getIcon from "../Icon";
+import Link from "../Link";
 
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -12,12 +13,29 @@ export default function UserMilestone({ milestone, isGoal }) {
         borderColor: milestone.color,
       }}
     >
-      <a
-        href={milestone.url}
-        key={milestone.url}
-        target="_blank"
-        rel="noreferrer"
-      >
+      {milestone.url && (
+        <Link
+          href={milestone.url}
+          key={milestone.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="flex space-x-3">
+            <DisplayIcon />
+            <div className="flex-1 space-y-1">
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-medium">{milestone.title}</h3>
+                <p className="text-sm text-gray-500">{milestone.date}</p>
+              </div>
+              <ReactMarkdown className="text-sm text-gray-500">
+                {milestone.description}
+              </ReactMarkdown>
+            </div>
+          </div>
+        </Link>
+      )}
+
+      {!milestone.url && (
         <div className="flex space-x-3">
           <DisplayIcon />
           <div className="flex-1 space-y-1">
@@ -30,7 +48,7 @@ export default function UserMilestone({ milestone, isGoal }) {
             </ReactMarkdown>
           </div>
         </div>
-      </a>
+      )}
     </li>
   );
 }
