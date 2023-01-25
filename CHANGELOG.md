@@ -1,9 +1,9 @@
-# 1.64.0 (2023-01-25)
+## 1.64.1 (2023-01-25)
 
 
-### Features
+### Bug Fixes
 
-* refactored milestones ([#3967](https://github.com/EddieHubCommunity/LinkFree/issues/3967)) ([bb836a7](https://github.com/EddieHubCommunity/LinkFree/commit/bb836a7c065ae5be23d74626d3eedb379e97ff05))
+* navbar in storybook ([#3970](https://github.com/EddieHubCommunity/LinkFree/issues/3970)) ([2496cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2496cb595b0f57acf2ac2a271966918118253bde))
 
 
 
