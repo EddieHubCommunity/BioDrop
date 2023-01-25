@@ -31,7 +31,7 @@
     {
       "name": "Check Out SoundCloud",
       "url": "https://soundcloud.com/kunal-singh-558758897",
-      "icon": "FaSoundcloud"
+      "icon": "SiSoundcloud"
     },
     {
       "name": "Open Source, DevOps and Linux Blog",
@@ -44,9 +44,8 @@
       "title": "The Big Drop",
       "date": "2019",
       "icon": "SiGooglescholar",
-      "color": "red",
+      "color": "green",
       "description": "I took a drop year to focus on preparing for the JEE Mains exam and was able to achieve my goal by scoring **98.711 percentile** in the test.",
-      "url": "https://github.com/Pradumnasaraf"
     },
     {
       "title": "The Beginning",
@@ -75,6 +74,8 @@
       "icon": "SiSoundcloud",
       "color": "orange",
       "description": "Started producing music",
+      "url": "https://soundcloud.com/kunal-singh-558758897",
+      
     },
     {
       "title": "Started Youtube",
@@ -88,14 +89,6 @@
       "date": "2022",
       "icon": "FaDollarSign",
       "color": "yellow",
-      "description": "Mentors provide both technical and non-technical support to the hackers throughout the hackathon.",
     },
-    {
-      "title": "Started Freelancing",
-      "date": "2022",
-      "icon": "FaDollarSign",
-      "color": "yellow",
-      "description": "Mentors provide both technical and non-technical support to the hackers throughout the hackathon.",
-    }
   ]
 }
