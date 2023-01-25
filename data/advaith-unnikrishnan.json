@@ -8,7 +8,10 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/advaith_u" },
     { "icon": "FaGithub", "url": "https://github.com/advaith-unnikrishnan" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/advaithu/" },
-    { "icon": "FaProductHunt", "url": "https://www.producthunt.com/@advaith_unnikrishnan"}
+    {
+      "icon": "FaProductHunt",
+      "url": "https://www.producthunt.com/@advaith_unnikrishnan"
+    }
   ],
   "links": [
     {
