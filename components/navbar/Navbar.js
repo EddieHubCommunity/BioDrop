@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 
 import NavLink from "./NavLink";
-import Link from "next/link";
+import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
 import { FaGithub } from "react-icons/fa";
@@ -163,7 +163,7 @@ export default function Navbar() {
               <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
@@ -177,7 +177,7 @@ export default function Navbar() {
                     >
                       <FaGithub />
                     </IconContext.Provider>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";

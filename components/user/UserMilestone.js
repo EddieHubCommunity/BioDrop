@@ -1,5 +1,6 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import getIcon from "../Icon";
+import Link from "../Link";
 
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -12,7 +13,7 @@ export default function UserMilestone({ milestone, isGoal }) {
         borderColor: milestone.color,
       }}
     >
-      <a
+      <Link
         href={milestone.url}
         key={milestone.url}
         target="_blank"
@@ -30,7 +31,7 @@ export default function UserMilestone({ milestone, isGoal }) {
             </ReactMarkdown>
           </div>
         </div>
-      </a>
+      </Link>
     </li>
   );
 }
