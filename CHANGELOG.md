@@ -1,9 +1,9 @@
-## 1.62.1 (2023-01-25)
+# 1.63.0 (2023-01-25)
 
 
-### Bug Fixes
+### Features
 
-* event tabs url ([#3951](https://github.com/EddieHubCommunity/LinkFree/issues/3951)) ([e75f610](https://github.com/EddieHubCommunity/LinkFree/commit/e75f6105c86f010a5c68908b160b54ade5e8a5b3))
+* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
 
 
 

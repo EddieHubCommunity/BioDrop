@@ -26,11 +26,12 @@ This is an example of a single link object:
 ```
 </ClipboardCopy>
 
-| field | type   | description                                                                                                |
-| :---- | :----- | :--------------------------------------------------------------------------------------------------------- |
-| name  | string | The display name for the button                                                                            |
-| url   | string | Full url to the resource                                                                                   |
-| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. |
+| field | type   | required | description                                                                                                                                                                                    |
+| :---- | :----- | :------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  | string | true     | The display name for the button                                                                                                                                                                |
+| url   | string | true     | Full url to the resource                                                                                                                                                                       |
+| icon  | string | true     | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons.                                                                                     |
+| group | string | false    | Optional property to group links together, any without a group will be added to the end in a new group called "Others". If no groups are used then no groups are displayed including "Others". |
 
 To add more links add another object inside the links collection. For example:
 
