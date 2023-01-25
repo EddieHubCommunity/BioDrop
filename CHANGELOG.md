@@ -1,9 +1,9 @@
-## 1.55.4 (2023-01-20)
+# 1.63.0 (2023-01-25)
 
 
-### Bug Fixes
+### Features
 
-* avoid running reviewpad on automated pull requests ([#3397](https://github.com/EddieHubCommunity/LinkFree/issues/3397)) ([ff246dc](https://github.com/EddieHubCommunity/LinkFree/commit/ff246dcd78943ca036d0374a4594606a4be32a24))
+* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
 
 
 

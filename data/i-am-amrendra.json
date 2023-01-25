@@ -11,19 +11,19 @@
       "icon": "FaLinkedin"
     },
     {
-       "name": "GitHub",
-       "url":  "https://github.com/i-am-amrendra/",
-       "icon": "FaGithub"
+      "name": "GitHub",
+      "url": "https://github.com/i-am-amrendra/",
+      "icon": "FaGithub"
     },
     {
-       "name": "Instagram",
-       "url":  "https://instagram.com/amrendra_xsingh",
-       "icon": "FaInstagram"
+      "name": "Instagram",
+      "url": "https://instagram.com/amrendra_xsingh",
+      "icon": "FaInstagram"
     },
     {
-       "name": "Medium",
-       "url": "https://medium.com/@Amrendra_Singh/",
-       "icon": "FaMedium"
+      "name": "Medium",
+      "url": "https://medium.com/@Amrendra_Singh/",
+      "icon": "FaMedium"
     },
     {
       "name": "StackOverflow",
