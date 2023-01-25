@@ -5,10 +5,13 @@
   "bio": "React Jr. Developer",
   "avatar": "https://github.com/jmgrd98.png",
   "socials": [
-  { "icon": "FaGithub", "url": "https://github.com/jmgrd98" },
-  { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/joao-marcelo-dantas" },
-  { "icon": "FaTwitter", "url": "https://twitter.com/joaodantas_dev" }
-],
+    { "icon": "FaGithub", "url": "https://github.com/jmgrd98" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/joao-marcelo-dantas"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/joaodantas_dev" }
+  ],
   "links": [
     {
       "name": "Follow me on LinkedIn",

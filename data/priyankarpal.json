@@ -4,14 +4,7 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "JAVA",
-    "Kali Linux",
-    "SCSS",
-    "Python"
-  ],
+  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
@@ -48,7 +41,7 @@
       "color": "grey",
       "description": "Started learning how to code using HTML, CSS, Bootstrap"
     },
-     {
+    {
       "title": "Started My Own Website",
       "date": "september 2021",
       "icon": "FaLink",
@@ -69,7 +62,7 @@
       "icon": "SiHashnode",
       "color": "grey",
       "description": "Again I started publishing blogs to Hashnode Platform",
-      "url":"https://priyankarpal.hashnode.dev"
+      "url": "https://priyankarpal.hashnode.dev"
     }
   ]
 }
