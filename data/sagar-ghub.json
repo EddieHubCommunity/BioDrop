@@ -1,0 +1,19 @@
+{
+  "name": "Sagar Mohanty",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "With a passion for creating innovative and user-friendly websites and applications, I am dedicated to staying up-to-date on the latest industry trends and technologies to deliver exceptional results ",
+  "avatar": "https://github.com/sagar-ghub.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sagartweetz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit My Website",
+      "url": "https://iamsagar.live",
+      "icon": "FaGlobe"
+    }
+  ]
+}
