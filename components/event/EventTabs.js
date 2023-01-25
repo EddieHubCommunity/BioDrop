@@ -34,7 +34,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
             {tabs.map((tab) => (
               <Link
                 key={tab.key}
-                href={tab.href}
+                href=""
                 onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
                   tab.key === eventType
