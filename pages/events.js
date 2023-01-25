@@ -67,16 +67,16 @@ export default function Events({ events }) {
     <>
       <Head>
         <title>Events the community members are going to</title>
-        <meta name="description" content="Search LinkFree user directory" />
+        <meta name="description" content="Events by the LinkFree community" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community events</h1>
-        <EventTabs
+        {/* <EventTabs
           tabs={tabs}
           eventType={eventType}
           setEventType={setEventType}
-        />
+        /> */}
         <ul role="list" className="divide-y divide-gray-200 mt-6">
           <h2 className="text-md md:text-2xl text-lg text-gray-600 font-bold md:mb-6 mb-3">
             {filters.find((filter) => filter.key === eventType).description}
