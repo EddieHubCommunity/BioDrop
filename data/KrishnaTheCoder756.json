@@ -4,4 +4,8 @@
   "type": "personal",
   "bio": "Python, Web Developer.",
   "avatar": "https://pbs.twimg.com/profile_images/1614971735903993856/FC2ibH_8_400x400.png"
+  {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesKae",
+      "icon": "FaTwitter"
 }
