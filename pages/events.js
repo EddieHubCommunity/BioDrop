@@ -67,7 +67,7 @@ export default function Events({ events }) {
     <>
       <Head>
         <title>Events the community members are going to</title>
-        <meta name="description" content="Search LinkFree user directory" />
+        <meta name="description" content="Events by the LinkFree community" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>

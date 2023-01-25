@@ -4,15 +4,20 @@
   "type": "personal",
   "bio": "🧐 Curious **DevOps** Dude | 20K+ smart minds 👀 my content on LinkedIn | 1.5+ million constant impressions 📈 | ♾ DevOps Community Builder | Azure ☁️ | love 🥑 | 🛫 From 🇮🇳, Lives in Europe 🇪🇺 | 💁🏻‍♂️ 𝗙𝗢𝗟𝗟𝗢𝗪",
   "avatar": "https://github.com/vamsipenmetsa7.png",
-   "socials": [
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/" },
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    },
     { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
     { "icon": "FaMedium", "url": "https://medium.com/@vamsipenmetsa" },
-    { "icon": "FaUsers", "url": "https://linkedin.openinapp.co/groups-13986647" }
-
+    {
+      "icon": "FaUsers",
+      "url": "https://linkedin.openinapp.co/groups-13986647"
+    }
   ],
   "links": [
-     {
+    {
       "name": "Follow me on LinkedIn for DevOps & personal brand realted content 👉🏼 20K+ followers",
       "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/",
       "icon": "FaLinkedin"
@@ -42,10 +47,9 @@
       "url": "https://linkedin.openinapp.co/groups-13986647",
       "icon": "FaUsers"
     }
-    ],
-    
-    "milestones": [
-   
+  ],
+
+  "milestones": [
     {
       "title": "Crossed 20K followers on LinkedIn",
       "date": "Jan 2023",
@@ -70,7 +74,5 @@
       "description": "Completed writing first 10 free articles on medium",
       "url": "https://medium.com/@vamsipenmetsa"
     }
-
   ]
-
 }
