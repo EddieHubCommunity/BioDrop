@@ -1,0 +1,61 @@
+{
+  "name": "Jintao Zhang",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Kubernetes Ingress-NGINX maintainer | Apache APISIX PMC | Microsoft MVP",
+  "avatar": "https://github.com/tao12345666333.png",
+  "tags": [
+    "Open Source",
+    "Cloud Native",
+    "Kubernetes",
+    "Docker",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/zhangjintao9020" },
+    { "icon": "FaGithub", "url": "https://github.com/tao12345666333" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@zhangjintao" }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/zhangjintao9020",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Blog: Learn more about Cloud Native",
+      "url": "https://blog.moelove.info",
+      "icon": "FaLink",
+      "color": "#00B800"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/tao12345666333",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/jintao-zhang-402645193/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube: Talk about Open Source and Cloud Native",
+      "url": "https://youtube.com/@zhangjintao",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Microsoft MVP Award",
+      "date": "2022",
+      "icon": "FaLink",
+      "color": "#00ACEE",
+      "description": "Microsoft Most Valuable Professional Award",
+      "url": "https://mvp.microsoft.com/en-us/PublicProfile/5004660?fullName=Jintao%20Zhang"
+    }
+  ]
+}

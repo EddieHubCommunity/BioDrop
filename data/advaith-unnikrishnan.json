@@ -1,0 +1,33 @@
+{
+  "name": "Advaith U",
+  "type": "personal",
+  "displayStatsPublic": false,
+  "bio": "Developer | Community Evangelist | Product Enthusiast",
+  "avatar": "https://github.com/advaith-unnikrishnan.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/advaith_u" },
+    { "icon": "FaGithub", "url": "https://github.com/advaith-unnikrishnan" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/advaithu/" },
+    {
+      "icon": "FaProductHunt",
+      "url": "https://www.producthunt.com/@advaith_unnikrishnan"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Portfolio",
+      "url": "https://advaith.co/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "My Story",
+      "url": "https://medium.com/tinkerhub/finding-strength-in-being-a-jack-of-all-trades-c56e019f7c71",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Read my blogs",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "SiHashnode"
+    }
+  ]
+}
