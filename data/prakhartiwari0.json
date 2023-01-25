@@ -4,6 +4,25 @@
   "type": "personal",
   "bio": "Student Developer from India, passionate about Science & Technology",
   "avatar": "https://github.com/prakhartiwari0.png",
+  "tags": ["Open Source", "Javascript", "HTML", "CSS", "Community"],
+  "socials": [
+    {
+      "url": "https://twitter.com/prakhartiwari0",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/prakhartiwari0",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://linkedin.com/in/prakhartiwari0",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://instagram.com/prakhartiwari0",
+      "icon": "FaInstagram"
+    }
+    ],
   "links": [
     {
       "name": "Take a look at my tweets",
@@ -16,14 +35,14 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/prakhartiwari0/",
       "icon": "FaInstagram"
     },
     {
       "name": "Checkout my experience",
       "url": "https://www.linkedin.com/in/prakhartiwari0/",
-      "icon": "FaTwitter"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Read my blogs",
