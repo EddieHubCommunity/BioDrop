@@ -1,0 +1,63 @@
+{
+    "name": "Ishan Velle",
+    "displayStatsPublic": true,
+    "type": "personal",
+    "bio": "Front-end Web Developer | Self-taught | Designer | Freelancer | Blogger",
+    "avatar": "https://github.com/foss2cyber.png"
+    "tags": [
+      "FOSS",
+      "Web Developement",
+      "Freelancing",
+      "GNU/Linux",
+      "Homelab",
+      "Self-hosting",
+      "Infosec",
+      "OSINT/DFIR",
+    ],
+    "socials": [{
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/thefoss_m"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/foss2cyber"
+        },
+        {
+            "icon": "SiLinkedin",
+            "url": "https://linkedin.com/in/ishan-velle-fossie8"
+        },
+    ],
+    "links": [{
+            "name": "GitHub: Take a look at some my projects",
+            "url": "https://github.com/foss2cyber",
+            "icon": "FaGithub"
+        },
+         { 
+           "name": "My Blog",
+           "url": "https://psibr-oh.hashnode.dev/",
+           "icon": "SiHashnode",
+        },
+        {
+            "name": "CV",
+            "url": "https://www.yourishanvelle.dev/cv",
+            "icon": "FaGlobe"
+        },
+    ],
+    "milestones": [{
+            "title": "Built & deployed my portfolio site",
+            "date": "Jan 16, 2023",
+            "icon": "FaGlobe",
+            "color": "crimson",
+            "description": "My Portfolio site built with Astro & TailwindCSS",
+            "url": "https://www.yourishanvelle.dev/"
+        },
+        {
+            "title": "Started my second round of the 100DaysOfCode challenge",
+            "date": "Jan 18, 2023",
+            "icon": "",
+            "color": "crimson",
+            "description": "100DaysOfCode Challenge - Round 2",
+            "url": "https://github.com/foss2cyber/100-days-of-code/blob/master/R2-log.md"
+        }
+    ] 
+}
