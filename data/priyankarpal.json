@@ -4,13 +4,31 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
-  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
-
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "JAVA",
+    "Kali Linux",
+    "SCSS",
+    "Python"
+  ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
-    { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/priyankarpal" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/priyankarpal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/priyankarpal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/priyankarpal"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/priyankarpal1"
+    }
   ],
   "links": [
     {
