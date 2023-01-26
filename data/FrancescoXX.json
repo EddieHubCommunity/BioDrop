@@ -6,26 +6,72 @@
   "avatar": "https://github.com/Francescoxx.png",
   "links": [
     {
-      "name": "Subscribe on YouTube",
-      "url": "https://www.youtube.com/@francescociulla",
-      "icon": "FaYoutube"
+      "name": "Newsletter",
+      "url": "https://cdn.forms-content.sg-form.com/71b3f15c-9495-11ed-be9a-ba854da8d35f",
+      "icon": "SiMaildotru"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Discord Community",
+      "url": "https://discord.com/invite/ns5x8bTz25",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@francescociulla",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Twitter",
       "url": "https://twitter.com/FrancescoCiull4",
-      "icon": "FaTwitter"
+      "icon": "SiTwitter"
     },
     {
       "name": "GitHub Profile",
       "url": "https://github.com/FrancescoXX",
-      "icon": "FaGithub"
+      "icon": "SiGithub"
     },
     {
-      "name": "Connect on Linkedin",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/francescociullaroma/",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Linkedin",
       "url": "https://www.linkedin.com/in/francesco-ciulla-roma/",
-      "icon": "FaLinkedin"
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@francesco.ciulla",
+      "icon": "SiTiktok"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/francesco_ciulla",
+      "icon": "SiTwitch"
+    },
+    {
+      "name": "Lens Protocol",
+      "url": "https://lenster.xyz/u/francescociulla",
+      "icon": "SiGumtree"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/francescoxx",
+      "icon": "FaDev"
+    },
+    {
+      "name": "GitHub Sponsor",
+      "url": "https://github.com/sponsors/FrancescoXX",
+      "icon": "FaHeart"
     }
   ],
   "tags": [ "Open Source", "Javascript", "NextJS", "DevOps", "Node.js", "DevRel", "Blockchain" ],
-  "testimonials": [ "Njong392", "LinuxGamer"]
+  "testimonials": [ "Njong392", "LinuxGamer", "devvsakib", "chriskalmar"],
+  "socials": [
+  { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
+  { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },  
+  { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
+  { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
+]
 }
