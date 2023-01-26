@@ -1,9 +1,9 @@
-# 1.63.0 (2023-01-25)
+# 1.66.0 (2023-01-26)
 
 
 ### Features
 
-* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
+* gh action to check profile filenames ([#3835](https://github.com/EddieHubCommunity/LinkFree/issues/3835)) ([466e581](https://github.com/EddieHubCommunity/LinkFree/commit/466e581fd553411793449c68503d00c0da8bf9bd))
 
 
 
