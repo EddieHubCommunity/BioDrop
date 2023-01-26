@@ -1,0 +1,29 @@
+{
+  "name": "Uthman Abdul-Lateef",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I'm a DevOps Engineer, Open Source Enthusiast and a Technical Writer. I'm passionate about Learning, sharing knowledge and taking up new challenges",
+  "avatar": "https://github.com/uthycloud.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hux_man",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "connect on linkedin",
+      "url": "https://linkedin.com/in/uthmandevops",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "github",
+      "url": "https://github/uthycloud",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "my blog",
+      "url": "https://uthy.hashnode.dev",
+      "icon": "FaHashnode"
+    }
+  ]
+}

@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import getIcon from "../Icon";
 import colors from "../../config/icons.json";
+import Link from "../Link";
 
 export default function UserLink({
   BASE_URL,
@@ -13,7 +14,7 @@ export default function UserLink({
   const DisplayIcon = getIcon(link.icon);
 
   return (
-    <a
+    <Link
       href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
         link.url
       )}`}
@@ -30,6 +31,6 @@ export default function UserLink({
       </span>
       <span className="grow">{link.name}</span>
       {displayStatsPublic && <span>{clicks}</span>}
-    </a>
+    </Link>
   );
 }

@@ -1,0 +1,29 @@
+{
+  "name": "JP Canindo",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I-Banking/Corporate Finance grunt turned Full-stack Developer. Hit me up for project collaboration & coffee chats",
+  "avatar": "https://github.com/Illuztrado.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jpleease",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jpcanindo",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://docodo.netlify.app",
+      "icon": "SiFreelancer"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Illuztrado",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

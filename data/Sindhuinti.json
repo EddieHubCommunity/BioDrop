@@ -1,0 +1,30 @@
+{
+  "name": "Sindhu Inti",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full stack developer | Learning DevOps tools | Open source",
+  "tags": ["Open Source", "Full stack developer", "DevOps", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/intisindhu" },
+    { "icon": "FaGithub", "url": "https://github.com/sindhuinti" },
+    { "icon": "FaLink", "url": "https://www.sindhuinti.me" }
+  ],
+  "avatar": "https://github.com/sindhuinti.png",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sindhuinti",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/intisindhu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sindhu-inti-47a228235/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Vamsi Penmetsa",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "🧐 Curious **DevOps** Dude | 20K+ smart minds 👀 my content on LinkedIn | 1.5+ million constant impressions 📈 | ♾ DevOps Community Builder | Azure ☁️ | love 🥑 | 🛫 From 🇮🇳, Lives in Europe 🇪🇺 | 💁🏻‍♂️ 𝗙𝗢𝗟𝗟𝗢𝗪",
+  "avatar": "https://github.com/vamsipenmetsa7.png",
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
+    { "icon": "FaMedium", "url": "https://medium.com/@vamsipenmetsa" },
+    {
+      "icon": "FaUsers",
+      "url": "https://linkedin.openinapp.co/groups-13986647"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn for DevOps & personal brand realted content 👉🏼 20K+ followers",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vamsi_penmetsa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@vamsipenmetsa",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Subscribe to my Youtube channel",
+      "url": "https://www.youtube.com/channel/UCecon2EsKZyPxvjA4WEaGlA",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vamsi__penmetsa/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Join DevOps Resource group (4k+ members 👨‍👨‍👧‍👦) LinkedIn",
+      "url": "https://linkedin.openinapp.co/groups-13986647",
+      "icon": "FaUsers"
+    }
+  ],
+
+  "milestones": [
+    {
+      "title": "Crossed 20K followers on LinkedIn",
+      "date": "Jan 2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on DevOps and connecting 20K followers milestone 🥳",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    },
+    {
+      "title": "Epam Systems Poland Brand Ambassador",
+      "date": "Jan '23 to April '23",
+      "icon": "FaMedal",
+      "color": "gold",
+      "description": "Selected by the team of Epam leaders by going though my activity on LinkedIn ",
+      "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
+    },
+    {
+      "title": "Wrote 10 articles on Medium",
+      "date": "Aug '22 to 2023",
+      "icon": "FaNewspaper",
+      "color": "black",
+      "description": "Completed writing first 10 free articles on medium",
+      "url": "https://medium.com/@vamsipenmetsa"
+    }
+  ]
+}
