@@ -24,6 +24,12 @@
     },
     {
       "group": "Socials Primary",
+      "name": "Blog: Self-Taught the X Generation",
+      "url": "https://selftaughttxg.com/",
+      "icon": "FaLink"
+    },    
+    {
+      "group": "Socials Primary",
       "name": "Twitter: @MikeJudeLarocca",
       "url": "https://twitter.com/MikeJudeLarocca",
       "icon": "FaTwitter",
