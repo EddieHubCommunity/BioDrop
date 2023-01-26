@@ -8,7 +8,7 @@
     {
       "name": "Subscribe on YouTube",
       "url": "https://www.youtube.com/@francescociulla",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on Twitter",
@@ -16,9 +16,15 @@
       "icon": "FaTwitter"
     },
     {
+      "name": "GitHub Profile",
+      "url": "https://github.com/FrancescoXX",
+      "icon": "FaGithub"
+    },
+    {
       "name": "Connect on Linkedin",
       "url": "https://www.linkedin.com/in/francesco-ciulla-roma/",
       "icon": "FaLinkedin"
     }
-  ]
+  ],
+  "tags": [ "Open Source", "Javascript", "NextJS", "DevOps", "Node.js", "DevRel", "Blockchain" ]
 }
