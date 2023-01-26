@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
 
+import PageHead from "../components/PageHead";
 import logger from "../config/logger";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
@@ -86,19 +86,14 @@ export default function User({ data, BASE_URL }) {
 
   return (
     <>
-      <Head>
-        <title>{data.name}</title>
-        <meta name="description" content={data.bio} />
-        <link rel="icon" href="/favicon.ico" />
-
-        <meta property="og:title" content={data.name} />
-        <meta property="og:type" content="image/png" />
-        <meta
-          property="og:url"
-          content={`https://linkfree.eddiehub.io/${data.username}`}
-        />
-        <meta property="og:image" content={data.avatar} />
-      </Head>
+      <PageHead
+        title={data.name}
+        description={data.bio}
+        ogTitle={data.name}
+        ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
+        ogImage={data.avatar}
+        ogType="image/png"
+      />
 
       <Page>
         <UserProfile data={userData} BASE_URL={BASE_URL} />
