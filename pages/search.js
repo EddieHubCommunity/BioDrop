@@ -1,11 +1,10 @@
-import Head from "next/head";
-
 import { useEffect, useState,useRef} from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
+import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 
 export async function getServerSideProps(context) {
@@ -116,11 +115,10 @@ export default function Search({ data }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree Search Users</title>
-        <meta name="description" content="Search LinkFree user directory" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="LinkFree Search Users"
+        description="Search LinkFree user directory by name, tags, skills, languages"
+      />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
