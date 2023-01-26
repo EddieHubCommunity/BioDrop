@@ -1,11 +1,10 @@
-import Head from "next/head";
-
-import { useEffect, useState,useRef} from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
+import PageHead from "../components/PageHead";
 
 export async function getServerSideProps(context) {
   let users = [];
@@ -23,7 +22,7 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
-  const inputRef=useRef();
+  const inputRef = useRef();
   const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -84,11 +83,11 @@ export default function Search({ users }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree Search Users</title>
-        <meta name="description" content="Search LinkFree user directory" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="LinkFree Search Users"
+        description="Search LinkFree user directory by name, tags, skills, languages"
+      />
+
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
