@@ -20,5 +20,6 @@
       "url": "https://github.com/SuperBatata",
       "icon": "FaGithub"
     },
-  ]
+  ],
+  "tags": [ "Open Source", "Javascript", "NextJS", "Web3", "Node.js", "Near Protocol", "Blockchain" ],
 }
