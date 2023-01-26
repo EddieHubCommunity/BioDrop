@@ -10,11 +10,11 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodesKae",
       "icon": "FaTwitter"
-    },
+    }, 
     {
       "name": "Subscribe my YT Channel",
       "url": "https://youtube.com/@techboykrish",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     }
   ]
 }
