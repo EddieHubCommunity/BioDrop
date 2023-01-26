@@ -1,0 +1,20 @@
+{
+  "name": "Krishna Sarathi Ghosh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Python, Web Developer.",
+  "avatar": "https://pbs.twimg.com/profile_images/1614971735903993856/FC2ibH_8_400x400.png",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesKae",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe my YT Channel",
+      "url": "https://youtube.com/@techboykrish",
+      "icon": "FaYouTube"
+    }
+  ]
+}

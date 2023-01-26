@@ -19,6 +19,11 @@
       "name": "Follow my tech blog",
       "url": "https://chrissycodes.hashnode.dev/",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/cbid2",
+      "icon": "FaDev"
     }
   ],
   "milestones": [
@@ -36,7 +41,7 @@
       "icon": "FaGithub",
       "color": "grey",
       "description": "Won for being an active participant in SheSharp.",
-      "url": "https://www.linkedin.com/posts/christinebelzie_announcing-our-new-in-tech-scholarship-winner-activity-6993952117304508416-3oC5?utm_source=share&utm_medium=member_desktop"
+      "url": "https://www.linkedin.com/posts/christinebelzie_announcing-our-new-in-tech-scholarship-winner-activity-6993952117304508416-3oC5"
     },
     {
       "title": "Wrote my first blog post",

@@ -1,0 +1,39 @@
+{
+  "name": "Rian Islam",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a front-end developer and Curious about Web Application Development & Security. I like to work with javascript and its framework(React, NodeJs) and having experience in Back-End Technology Nodejs, MongoDB. I always like to learn about trending technologies.",
+  "avatar": "https://github.com/mdrianislam0or1.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mdrianislam0or1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mdrianislam0or1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mdrianislam0or1/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://rianislam-me.web.app/",
+      "icon": "FaHouseUser"
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/mdrianislam0or1",
+      "icon": "FaBehance"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hisdeveloperworld/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

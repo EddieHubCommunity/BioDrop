@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Page from "../../components/Page";
+import Link from "../../components/Link";
 
 export default function DocsIndex() {
   function classNames(...classes) {
@@ -17,7 +18,7 @@ export default function DocsIndex() {
           description:
             "There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -25,9 +26,9 @@ export default function DocsIndex() {
           name: "GitHub UI",
           path: "/docs/environments/github-ui",
           description:
-            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub",
+            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -37,7 +38,7 @@ export default function DocsIndex() {
           description:
             "When you want to make more advanced changes, you will need to have a development environment. Gitpod runs VSCode and a whole environment in your browser.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -47,7 +48,7 @@ export default function DocsIndex() {
           description:
             "This allows you the most customisation to your development environment, but requires more setup time.",
           category: {
-            name: "intermediate",
+            name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
@@ -57,16 +58,17 @@ export default function DocsIndex() {
           description:
             "This might sound scary but it is actually the easiest solution for a local development environment.",
           category: {
-            name: "intermediate",
+            name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
         {
           name: "Available icons",
           path: "/icons",
-          description: "Search available icons you can use on your profile.",
+          description:
+            "Search for available icons you can use on your profile.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -80,9 +82,9 @@ export default function DocsIndex() {
           name: "Editing",
           path: "/docs/how-to-guides/editing",
           description:
-            "If you want to edit your profile (for example update a link or remove a link), follow these steps",
+            "If you want to edit your profile (for example update a link or remove a link), follow these steps.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -92,7 +94,7 @@ export default function DocsIndex() {
           description:
             "The bio string in the json file is special! It allows for the use of Markdown. This will allow you to use the formatting styles like italic and bold.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -102,7 +104,7 @@ export default function DocsIndex() {
           description:
             "Let people discover all your great content in one place by adding links to your social media account and other resources.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -112,7 +114,7 @@ export default function DocsIndex() {
           description:
             "This will show the number of people who have viewed your Profile, as well as the number of people who have clicked on the links you have on your Profile.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -122,7 +124,7 @@ export default function DocsIndex() {
           description:
             "These are searchable keywords for people to discover your Profile. They can be your area of expertise, interests or tech you use (for example `DevRel` or `Javascript`).",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -132,7 +134,7 @@ export default function DocsIndex() {
           description:
             "Add a shortcut to your favourite social media accounts at the top of your Profile.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -142,7 +144,7 @@ export default function DocsIndex() {
           description:
             "Demostrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -152,7 +154,7 @@ export default function DocsIndex() {
           description:
             "Hosting or attending events, let people know what you are up to by adding these events to your Profile.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -161,7 +163,7 @@ export default function DocsIndex() {
           path: "/docs/how-to-guides/testimonials",
           description: "Show off the great feedback you have received.",
           category: {
-            name: "intermediate",
+            name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
@@ -177,7 +179,7 @@ export default function DocsIndex() {
           description:
             "Run Storybook locally to see what React components are available to use.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -187,7 +189,7 @@ export default function DocsIndex() {
           description:
             "Run the Playwright testing framework that drives the browser as a user does via code.",
           category: {
-            name: "intermediate",
+            name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
@@ -197,7 +199,7 @@ export default function DocsIndex() {
           description:
             "Contribute to this annual Open Source event with LinkFree.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -213,7 +215,7 @@ export default function DocsIndex() {
           description:
             "See the json code for a full Profile with all the features enabled.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -222,7 +224,7 @@ export default function DocsIndex() {
           path: "/docs/advanced/single-user-mode",
           description: "Self host LinkFree for your single Profile.",
           category: {
-            name: "advanced",
+            name: "Advanced",
             color: "bg-red-100 text-red-800",
           },
         },
@@ -231,7 +233,7 @@ export default function DocsIndex() {
           path: "/docs/faqs",
           description: "Commonly asked questions and answers.",
           category: {
-            name: "beginner",
+            name: "Beginner",
             color: "bg-green-100 text-green-800",
           },
         },
@@ -252,16 +254,22 @@ export default function DocsIndex() {
         <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with
-          creating your Profile to more advanced topics. You can contribute to
-          our documentation and find the files here{" "}
-          <a
-            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+          creating your Profile to more advanced topics. We welcome
+          contributions, check out the&nbsp;
+          <Link
             target="_blank"
-            rel="noreferrer"
-            className="text-sky-700 break-words"
+            href="https://github.com/EddieHubCommunity/LinkFree"
           >
-            https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
-          </a>
+            LinkFree repo
+          </Link>{" "}
+          and the&nbsp;
+          <Link
+            target="_blank"
+            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+          >
+            documentation source
+          </Link>{" "}
+          on GitHub for more information.
         </p>
         {sections.map((section) => (
           <div
@@ -290,14 +298,14 @@ export default function DocsIndex() {
                         {page.category.name}
                       </span>
                     </div>
-                    <a href={page.path} className="mt-4 block">
+                    <Link href={page.path} className="mt-4 block">
                       <h3 className="text-xl font-semibold text-gray-900">
                         {page.name}
                       </h3>
                       <p className="mt-3 text-base text-gray-500">
                         {page.description}
                       </p>
-                    </a>
+                    </Link>
                   </div>
                 ))}
               </div>

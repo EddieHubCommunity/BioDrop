@@ -1,0 +1,84 @@
+{
+  "name": "Ivan Klimchuk",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Engineering Manager, Seniour Software Developer, Indie Maker and Micro SaaS Builder",
+  "avatar": "https://github.com/alroniks.png",
+  "links": [
+    {
+      "name": "Ivan's Weekly Focus: Newsletter with productivity tips & insights",
+      "url": "https://ivanklimchuk.substack.com/",
+      "icon": "SiSubstack"
+    },
+    {
+      "name": "Ivan Klimhuk: Personal website and notes",
+      "url": "https://klimchuk.dev",
+      "icon": "SiHugo"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ivnklm",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's conect",
+      "url": "https://www.linkedin.com/in/ivanklimchuk/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/alroniks",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Buy Me a Coffee: Donate & Support",
+      "url": "https://www.buymeacoffee.com/ivanklimchuk",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "name": "Patreon: Donate & Support",
+      "url": "https://www.patreon.com/ivanklimchuk",
+      "icon": "FaPatreon"
+    },
+    {
+      "name": "Indie Hackers: Share Builder Insights",
+      "url": "https://www.indiehackers.com/ivanklimchuk",
+      "icon": "SiHackerearth"
+    },
+    {
+      "name": "Product Hunt: Launch & Ship Products",
+      "url": "https://www.producthunt.com/@ivanklimchuk",
+      "icon": "FaProductHunt"
+    },
+    {
+      "name": "Hashnode: Yet another tech blog",
+      "url": "https://ivanklimchuk.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Medium: Writing about technolgoies & life",
+      "url": "https://medium.com/@ivanklimchuk",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "DEV: Nerdie software blog",
+      "url": "https://dev.to/ivanklimchuk",
+      "icon": "FaDev"
+    },
+    {
+      "name": "GoodReads: Readings and reviews",
+      "url": "https://www.goodreads.com/user/show/47526080-ivan-klimchuk",
+      "icon": "FaGoodreads"
+    },
+    {
+      "name": "YouTube: Learn more about software development",
+      "url": "https://www.youtube.com/@klimchukdev",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Strava: My run & cycling achievements",
+      "url": "https://www.strava.com/athletes/9599844",
+      "icon": "FaStrava"
+    }
+  ]
+}

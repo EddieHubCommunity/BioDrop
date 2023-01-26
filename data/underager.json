@@ -1,0 +1,24 @@
+{
+  "name": "Atul Nirbhavane",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A Software Engineer navigating his way through tech and open source :D",
+  "avatar": "https://github.com/underager.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/underager_d",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/underager",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/atul-nirbhavane-554067b4/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
