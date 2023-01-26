@@ -2,6 +2,7 @@ import UserMilestone from "../../../components/user/UserMilestone";
 
 export default {
   component: UserMilestone,
+  decorators: [(story) => <ul role="list">{story()}</ul>],
 };
 
 export const Basic = {
@@ -11,5 +12,5 @@ export const Basic = {
       date: "October 2022",
       description: "My first Storybook for the LinkFree project",
     },
-  }
+  },
 };
