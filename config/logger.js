@@ -9,8 +9,18 @@ const config = {
   },
 };
 
-const logger = PinoLogger.pino(
-  process.env.NODE_ENV === "development" ? config : {}
-);
+let logger
+
+if (process.env.STORYBOOK_RUN) {
+  logger = {
+    child: console.log,
+    info: console.log,
+    error: console.log,
+  }
+} else {
+  logger = PinoLogger.pino(
+    process.env.NODE_ENV === "development" ? config : {}
+  );
+}
 
 export default logger;

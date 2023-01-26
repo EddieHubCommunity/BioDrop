@@ -1,9 +1,9 @@
-# 1.60.0 (2023-01-24)
+## 1.64.1 (2023-01-25)
 
 
-### Features
+### Bug Fixes
 
-* workflow dispatch to prettier ([#3894](https://github.com/EddieHubCommunity/LinkFree/issues/3894)) ([d590f18](https://github.com/EddieHubCommunity/LinkFree/commit/d590f18b5b309bfe5427b5ae1ad7f9c94e6501a2))
+* navbar in storybook ([#3970](https://github.com/EddieHubCommunity/LinkFree/issues/3970)) ([2496cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2496cb595b0f57acf2ac2a271966918118253bde))
 
 
 
