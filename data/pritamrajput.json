@@ -2,7 +2,7 @@
   "name": "Pritam Chauhan",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Electronics Engineer turned **Frontend Developer**. Learning frontend Technologies and love coding. ",
+  "bio": "Electronics Engineer turned **Frontend Developer**. Learning and exploring frontend Technologies.",
   "avatar": "https://github.com/pritamrajput.png",
   "links": [
     {
@@ -21,4 +21,6 @@
       "icon": "FaGithub"
     }
   ]
+  
+  "tags": [ "Open Source", "Javascript", "ReactJS", "Frontend Developer"]
 }
