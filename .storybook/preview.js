@@ -7,4 +7,9 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  nextjs: {
+    router: {
+      basePath: '.'
+    },
+  },
 };

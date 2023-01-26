@@ -1,0 +1,29 @@
+{
+  "name": "Hounaida El ghannami",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Travel enthusiast Yoga & Peloton aficionado",
+  "avatar": "https://github.com/Hounaida-elghannamii.png",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ha__noda.elg/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://web.facebook.com/hounaida.el.90",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/el-ghannami-hounaida-a35202216/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Hounaida-elghannamii",
+      "icon": "FaGithub"
+    }
+  ]
+}

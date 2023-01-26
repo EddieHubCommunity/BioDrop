@@ -11,7 +11,7 @@ export default function findOneByUsernameFull(username) {
   let data = findOneByUsernameBasic(username);
 
   if (!data.username) {
-    log.error(e, `profile loading failed for username: ${username}`);
+    log.error(`profile loading failed for username: ${username}`);
     return data;
   }
 
