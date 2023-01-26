@@ -402,29 +402,29 @@ export default function Home({ total, today }) {
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
-                            <feature.icon
-                              className="h-8 w-8 text-white"
-                              aria-hidden="true"
-                            />
-                          </span>
-                        </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
-                          <Link
-                            href={feature.path}
-                            className="text-gray-900 hover:text-indigo-600 hover:underline"
-                          >
+                    <Link aria-label="Go to ${feature.name} page"
+                      href={feature.path}
+                      className="text-gray-900 group"
+                    >
+                      <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div className="-mt-6">
+                          <div>
+                            <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                              <feature.icon
+                                className="h-8 w-8 text-white"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </div>
+                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                             {feature.name}
-                          </Link>
-                        </h3>
-                        <p className="mt-5 text-base leading-7 text-gray-600">
-                          {feature.description}
-                        </p>
+                          </h3>
+                          <p className="mt-5 text-base leading-7 text-gray-600">
+                            {feature.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
