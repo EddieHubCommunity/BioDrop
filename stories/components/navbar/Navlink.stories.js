@@ -4,12 +4,20 @@ export default {
   component: NavLink,
 };
 
-export const Basic = <NavLink {...args} />;
-
-Basic.args = {
-  path: "",
-  item: {
-    url: "",
-  },
-  mode: "",
+export const Basic = {
+  args: {
+    path: "https://linkfree.eddiehub.io/docs",
+    item: {
+      url: "https://linkfree.eddiehub.io/docs",
+      name: "Docs"
+    },
+    mode: "",
+  }
 };
+
+export const Mobile = {
+  args: {
+    ...Basic.args,
+    mode: "mobile"
+  }
+}

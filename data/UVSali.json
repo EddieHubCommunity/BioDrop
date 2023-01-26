@@ -1,0 +1,13 @@
+{
+  "name": "mohd Uvais Ali Khan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Backend developer enthusiast for OpenSource contributions",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/uvaisalik",
+      "icon": "FaTwitter"
+    }
+  ]
+}

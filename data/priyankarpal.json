@@ -4,14 +4,7 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
   "avatar": "https://github.com/priyankarpal.png",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "JAVA",
-    "Kali Linux",
-    "SCSS",
-    "Python"
-  ],
+  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
@@ -44,11 +37,12 @@
   "milestones": [
     {
       "title": "Started Coding Journey",
+      "icon": "FaCode",
       "date": "October 2020",
       "color": "grey",
       "description": "Started learning how to code using HTML, CSS, Bootstrap"
     },
-     {
+    {
       "title": "Started My Own Website",
       "date": "september 2021",
       "icon": "FaLink",
@@ -61,7 +55,8 @@
       "date": "November 2022",
       "icon": "FaGithub",
       "color": "grey",
-      "description": "Started learning how to contribute to Open Source"
+      "description": "Started learning how to contribute to Open Source",
+      "url": "https://github.com/priyankarpal"
     },
     {
       "title": "Again started Publishing Blogs",
@@ -69,7 +64,7 @@
       "icon": "SiHashnode",
       "color": "grey",
       "description": "Again I started publishing blogs to Hashnode Platform",
-      "url":"https://priyankarpal.hashnode.dev"
+      "url": "https://priyankarpal.hashnode.dev"
     }
   ]
 }

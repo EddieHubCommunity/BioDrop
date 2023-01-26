@@ -1,0 +1,44 @@
+{
+  "name": "Lavanya Yangala",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Aspiring **Developer** , upskilling along with working in a full time job at Astoria Solutions,Hyderabad and open to work for Remote and community based companies.",
+  "avatar": "https://github.com/lavanyayangala.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Lavanya45752554",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UCq0XOjnIdC1cZyIaW7BZKeQ",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/lavanyayangala",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lavanya-yangala/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://lavanyayangala.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Showwcase",
+      "url": "https://www.showwcase.com/lavanyayangala516",
+      "icon": "SiShowwcase"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/lavanya_yangala_/",
+      "icon": "SiInstagram"
+    }
+  ]
+}
