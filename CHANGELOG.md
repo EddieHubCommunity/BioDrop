@@ -1,9 +1,9 @@
-## 1.64.1 (2023-01-25)
+## 1.64.2 (2023-01-26)
 
 
 ### Bug Fixes
 
-* navbar in storybook ([#3970](https://github.com/EddieHubCommunity/LinkFree/issues/3970)) ([2496cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2496cb595b0f57acf2ac2a271966918118253bde))
+* search placeholder ([#4001](https://github.com/EddieHubCommunity/LinkFree/issues/4001)) ([905e541](https://github.com/EddieHubCommunity/LinkFree/commit/905e5410338c907b5935f743c635e09948120f10))
 
 
 
