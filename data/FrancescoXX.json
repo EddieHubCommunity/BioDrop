@@ -1,0 +1,24 @@
+{
+  "name": "Francesco Ciulla",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
+  "avatar": "https://github.com/Francescoxx.png",
+  "links": [
+    {
+      "name": "Subscribe on YouTube",
+      "url": "https://www.youtube.com/@francescociulla",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/FrancescoCiull4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/francesco-ciulla-roma/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
