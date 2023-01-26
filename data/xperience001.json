@@ -1,0 +1,33 @@
+{
+  "name": "Habeeb Tijani",
+  "type": "personal",
+  "bio": "MERN Stack Web Dev || Open Source || UI UX",
+  "avatar": "https://github.com/xperience001.png",
+  "displayStatsPublic": "true",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/xperience001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/habeebullahhh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/habeeb-tijani/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Software Development",
+      "date": "July 2017",
+      "icon": "FaDollarSign",
+      "color": "aliceblue",
+      "description": "Started my first job in the industry as a web-developer, primarily a React Developer 🔥"
+    }
+  ]
+}

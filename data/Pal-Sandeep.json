@@ -1,0 +1,108 @@
+{
+  "name": "Sandeep Pal",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Django Developer**, upcomming **DevOps** ∞ Engineer | Ambassador **@MGSU-Bikaner** | **Open Source** | Cloud & Container Enthusiast ⚡️",
+  "avatar": "https://github.com/pal-sandeep.png",
+  "tags": [
+    "Python",
+    "Django",
+    "DevOps",
+    "Cloud",
+    "Docker",
+    "AWS",
+    "Kubernetes",
+    "IaC",
+    "CI/CD",
+    "GitOps"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/8sandeeppal" },
+    { "icon": "FaGithub", "url": "https://github.com/pal-sandeep" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/iisandeepkumar"
+    },
+    { "icon": "FaGmail", "url": "mailto:skumar8work@gmail.com" }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/8sandeeppal",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/8sandeeppal",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/pal-sandeep",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs: Read the blogs",
+      "url": "https://medium.com/@pal-sandeep",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://pal-sandeep.github.io",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Python",
+      "date": "2022",
+      "icon": "FaSearch",
+      "color": "red",
+      "description": "I was learning Python, and I am still learning."
+    },
+    {
+      "title": "Started Learning Django",
+      "date": "2020",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "along-side learning Python, I started learning Django, and I found it amazing."
+    },
+    {
+      "title": "Started Career",
+      "date": "2022",
+      "icon": "FaTech",
+      "color": "grey",
+      "description": "Started Working as Software proffessional",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "title": "Open-Source",
+      "date": "2022",
+      "icon": "DiOpensource",
+      "color": "#000",
+      "description": "It's been 4 Months that I'm contributing to other's project and doing Open-Source",
+      "url": "https://github.com/pal-sandeep"
+    },
+    {
+      "title": "DevOps & More",
+      "date": "2022",
+      "icon": "FaDevops",
+      "color": "red",
+      "description": "Started my DevOps Journey",
+      "url": "https://linkedin.com/in/8sandeeppal"
+    },
+    {
+      "title": "What I know",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "green",
+      "description": "HTML, CSS, JavaScript, Python, Django, PostgreSQL, Postman, Docker, GitHub, AWS",
+      "url": "https://pal-sandeep.github.io"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Elyanah Aco",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Data analyst by morning, artist by night. Hoping to be a quant someday.",
+  "tags": ["Python", "Data Analytics", "Quantitative Finance", "Open Source"],
+  "avatar": "https://github.com/elyanah-aco.png",
+  "links": [
+    {
+      "name": "View my Github projects",
+      "url": "https://github.com/elyanah-aco",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Connect with me on LinkedIn!",
+      "url": "https://www.linkedin.com/in/elyanahaco2000/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Art Twitter",
+      "url": "https://twitter.com/gising_gising",
+      "icon": "FaTwitter"
+    }
+  ]
+}

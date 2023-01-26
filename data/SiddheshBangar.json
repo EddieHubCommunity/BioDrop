@@ -1,0 +1,92 @@
+{
+  "name": "Siddhesh Bangar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am an Undergraduate Researcher at IIIT-Delhi, a Data Science Practitioner, Content Creator and Technical Writer",
+  "avatar": "https://github.com/SiddheshBangar.png",
+  "tags": [
+    "Data Science",
+    "Machine Learning",
+    "Deep Learning",
+    "Artificial Intelligence",
+    "Technical writing"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/siddddhesh" },
+    { "icon": "FaGithub", "url": "https://github.com/SiddheshBangar" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/siddheshbangar/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: For Data Science related projects",
+      "url": "https://github.com/SiddheshBangar",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Hashnode: Check out my blogs",
+      "url": "https://sidddhesh.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Medium: Check out my blogs",
+      "url": "https://medium.com/@siddheshb008",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Twitter: For Data Science related content",
+      "url": "https://twitter.com/siddddhesh",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "Instagram: Sharing life",
+      "url": "https://www.instagram.com/thatsiddhesh/",
+      "icon": "FaInstagramSquare"
+    },
+    {
+      "name": "LinkedIn: Let's connect!",
+      "url": "https://www.linkedin.com/in/siddheshbangar/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "You can Email me at",
+      "url": "siddheshb008@gmail.com",
+      "icon": "SiGmail"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started My Tech Journey",
+      "date": "August 2017",
+      "icon": "FaLaptop",
+      "color": "grey",
+      "description": "Joined College as a Computer Science Student"
+    },
+    {
+      "title": "Started My Blog",
+      "image": "https://github.com/eddiejaoude.png",
+      "date": "January 2021",
+      "icon": "FaMedium",
+      "color": "grey",
+      "description": "Started writing content regarding data science and machine learning",
+      "url": "https://medium.com/@siddheshb008"
+    },
+    {
+      "title": "Joined IIIT-Delhi as an Undergraduate Researcher",
+      "date": "May 2022",
+      "icon": "FaStar",
+      "color": "grey",
+      "description": "I was selected for an Internship at IIIT-Delhi for position of an AI Researcher"
+    },
+    {
+      "title": "Started creating content on Twitter",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "color": "grey",
+      "description": "I started making content related to data science, technical writing and productivity on Twitter",
+      "url": "https://twitter.com/siddddhesh"
+    }
+  ]
+}

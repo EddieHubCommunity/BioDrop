@@ -1,0 +1,24 @@
+{
+  "name": "Thomas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Self-Taught Full Stack Web Developer - Switched Hardware for Software.",
+  "avatar": "https://github.com/ThomasCode92.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ThomasCode92",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ThomasVoets92",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/thomas-voets-93194a90/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

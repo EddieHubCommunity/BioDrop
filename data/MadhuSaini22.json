@@ -1,7 +1,14 @@
 {
   "name": "Madhu Saini",
   "type": "personal",
-  "bio": "Hello, I'm Madhu Saini. I am an Enthusiastic Open-Source contributor, Web Developer, currently diving straight in Open Source and believing in collaboration instead of competition.",
+  "displayStatsPublic": true,
+  "bio": "**Open Source**  Enthusiast | Full Stack Developer ",
+  "tags": ["Open Source", "Full Stack", "MERN Stack", "Student"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/MadhuSaini22" },
+    { "icon": "FaGithub", "url": "https://github.com/MadhuSaini22.png" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/madhu-saini/" }
+  ],
   "avatar": "https://github.com/MadhuSaini22.png",
   "links": [
     {
@@ -20,7 +27,7 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Interested in Open Source stuff? follow me on Twitter",
       "url": "https://twitter.com/MadhuSaini22",
       "icon": "FaTwitter"
     }

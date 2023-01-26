@@ -1,0 +1,33 @@
+{
+  "name": "Kirtika",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Newbie in tech| learning web-dev| Exploring Web3",
+  "avatar": "https://github.com/Kirtikagoyal.png",
+  "tags": ["frontend", "open source beginner", "communities"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kirtikastwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Kirtikagoyal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkeIn",
+      "url": "https://linkedin.com/in/Kirtika-goyal",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won at ODCC challenge",
+      "date": "Jan 2023",
+      "color": "purple",
+      "description": "pitched solutions to the problem statements given to me by Bitbns"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Atharva Salitri",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Programming Beginner | Open Source Enthusiast | Blogger | Content Writer | Canva Designer ",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Programming"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/atharvas_twt" },
+    { "icon": "FaGithub", "url": "https://github.com/the-amazing-atharva" },
+    { "icon": "SiHashnode", "url": "https://theamazingatharva.hashnode.dev/" }
+  ],
+  "avatar": "https://avatars.githubusercontent.com/u/121221252?s=400&u=a75232614fbf37d046d654bb6ef42b0c908fb9d0&v=4",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/the-amazing-atharva",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Discussions and Learnings",
+      "url": "https://twitter.com/atharvas_twt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Wanna keep up with my blogs? Go here!",
+      "url": "https://theamazingatharva.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/atharva-salitri-89342a25b/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Non-Code Opensource Contributions",
+      "url": "https://github.com/the-amazing-atharva"
+    },
+    {
+      "title": "Started a Tech Blog",
+      "date": "November 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting My Journey Through Blogs",
+      "url": "https://theamazingatharva.hashnode.dev/"
+    }
+  ]
+}

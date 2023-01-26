@@ -1,0 +1,47 @@
+{
+  "name": "Ritika Agrawal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "CSS Enthusiast|Technical Writer • Love reading novels and watching anime",
+  "avatar": "https://github.com/Ritika-Agrawal811.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RitikaAgrawal08",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ritika-Agrawal811",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on CodePen",
+      "url": "https://codepen.io/RitikaAgrawal08",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Checkout my blogs here!",
+      "url": "https://medium.com/@ritikaagrawal08",
+      "icon": "FaMediumM"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Content Creation",
+      "date": "September 2021",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Started creating tutorial threads on web development mainly CSS and JS.",
+      "url": "https://twitter.com/RitikaAgrawal08"
+    },
+    {
+      "title": "Started writing blogs",
+      "date": "December 2022",
+      "icon": "FaMediumM",
+      "color": "blue",
+      "description": "Started sharing my learnings with blogs.",
+      "url": "https://medium.com/@ritikaagrawal08"
+    }
+  ]
+}

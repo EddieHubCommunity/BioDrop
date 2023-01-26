@@ -1,0 +1,65 @@
+{
+  "name": "Haider Ali Punjabi",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Software Developer | Open Source & Linux Enthusiast",
+  "avatar": "https://github.com/haideralipunjabi.png",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NextJS",
+    "Python",
+    "Flutter",
+    "Linux",
+    "FitDevs"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/HAliPunjabi" },
+    { "icon": "FaGithub", "url": "https://github.com/haideralipunjabi" }
+  ],
+  "links": [
+    {
+      "name": "Personal Website",
+      "url": "https://haideralipunjabi.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Lens Profile",
+      "url": "https://www.lensfrens.xyz/haideralipunjabi.lens",
+      "icon": "FaLink",
+      "color": "#ABFE2C"
+    },
+    {
+      "name": "Join FitDevs Discord",
+      "url": "https://www.lensfrens.xyz/haideralipunjabi.lens",
+      "icon": "FaDiscord",
+      "color": "#fbca4d"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/HAliPunjabi",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/haideralipunjabi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/haideralipunjabi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Mastodon: Connect with me",
+      "url": "https://a.sc/@haider",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/haideralipunjabi",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Labh Khatke",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Currently a College student | Web Developer | Open Source Enthusiast",
+  "avatar": "https://github.com/Labhk.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Labh__K",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/labhk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/labh_k77",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/labh-khatke-4436b0180",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

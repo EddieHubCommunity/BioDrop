@@ -1,0 +1,47 @@
+{
+  "name": "Kunal Verma",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** | Frontend WebDeveloper",
+  "tags": ["Open Source", "MERN", "Tailwind", "Next Js", "MySQL"],
+  "avatar": "https://github.com/kunal00000.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/KunalVerma2468" },
+    { "icon": "FaGithub", "url": "https://github.com/kunal00000" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    }
+  ],
+  "links": [
+    {
+      "name": "Opensource and Tech Blogs",
+      "url": "https://kunalverma2468.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/kunal00000",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kunalverma2468",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/KunalVerma2468",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/kunaahl",
+      "icon": "FaInstagram"
+    }
+  ]
+}
