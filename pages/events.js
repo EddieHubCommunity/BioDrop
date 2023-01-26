@@ -6,6 +6,7 @@ import EventCard from "../components/event/EventCard";
 import Page from "../components/Page";
 import { EventTabs } from "../components/event/EventTabs";
 import PageHead from "../components/PageHead";
+import HintIcon from '../components/hint/HintIcon'
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -72,7 +73,13 @@ export default function Events({ events }) {
       />
 
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Community events</h1>
+        <div className="flex flex-row items-center">
+          <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
+          <HintIcon
+            path={'/docs/how-to-guides/events'}
+            placeholderText={'Go To Event Docs'}
+          />
+        </div>
         <EventTabs
           tabs={tabs}
           eventType={eventType}
