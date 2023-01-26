@@ -12,6 +12,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
+  const getLink = (path) => `${router.basePath}${path}`;
   const navConRef = useRef();
 
   useEffect(() => {
@@ -64,7 +65,7 @@ export default function Navbar() {
               <div className="flex-shrink-0">
                 <Link href="/">
                   <Image
-                    src="/logo192.png"
+                    src={getLink("/logo192.png")}
                     alt="EddieHub logo"
                     width={32}
                     height={32}
