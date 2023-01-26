@@ -1,5 +1,6 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
-import ClipboardCopy from "../../../components/ClipboardCopy"
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
 
 ## Statistics
 
@@ -13,7 +14,7 @@ To enable statistics on your Profile, you need to make a change to your `json` f
 
 1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
 
-_If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
 2. Add another field under your name that is `displayStatsPublic` this will need the value `true` and it should look like this:
 
@@ -29,7 +30,7 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 ```
 </ClipboardCopy>
 
-3. Now you can commit your file and create a Pull Request, for more details please see [Editing guide](/docs/how-to-guides/editing)
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Statistics Documentation">{children}</DocsLayout>

@@ -94,7 +94,7 @@ export default function Search({ users }) {
 
         <div className="relative">
           <input
-            placeholder="Search users"
+            placeholder="Search users,tags or languages"
             ref={inputRef}
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
