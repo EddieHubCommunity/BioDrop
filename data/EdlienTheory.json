@@ -1,0 +1,68 @@
+{
+  "name": "Edlien Theory",
+  "type": "personal",
+  "bio": "I've brought you a bargain community member, become a open source legend in trade of never using non-inclusive language",
+  "avatar": "https://github.com/EdlienTheory.png",
+  "tags": [
+     "Theory",
+     "Eddie Jaoude",
+     "EddieHubCommunity",
+     "OpenSource"
+  ],
+  "links": [
+    {
+      "group": "Theory",
+      "name": "Edlien is a what we call the true form of Eddie",
+      "url": "#",
+      "icon": "FaRegStar"
+    },
+    {
+      "group": "Theory",
+      "name": "Surprise Eddie is a Alien, the Edlien",
+      "url": "#",
+      "icon": "FaRegStar"
+    },
+    {
+      "group": "Theory",
+      "name": "Edlien's big picture plan is to destroy all corporates",
+      "url": "#",
+      "icon": "FaRegStar"
+    },
+    {
+      "group": "Theory",
+      "name": "And make everything open source - down to every person's life",
+      "url": "#",
+      "icon": "FaRegStar"
+    },
+    {
+      "group": "Official Eddie",
+      "name": "Eddie => Twitter",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Official Eddie",
+      "name": "EddieHub => Discord",
+      "url": "https://discord.gg/jwaGCJvNKE",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Submit Theories",
+      "name": "On Twitter",
+      "url": "https://twitter.com/krshkun",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Submit Theories",
+      "name": "On Mail",
+      "url": "mailto:krshg@outlook.com",
+      "icon": "FaEnvelopeOpen"
+    },
+    {
+      "group": "Submit Theories",
+      "name": "On GitHub",
+      "url": "https://github.com/EdlienTheory/LinkFree",
+      "icon": "FaGitHub"
+    }
+  ]
+}
