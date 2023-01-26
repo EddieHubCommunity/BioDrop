@@ -1,9 +1,9 @@
-## 1.66.6 (2023-01-26)
+## 1.66.7 (2023-01-26)
 
 
 ### Bug Fixes
 
-* subtitle font size ([#3964](https://github.com/EddieHubCommunity/LinkFree/issues/3964)) ([2a77622](https://github.com/EddieHubCommunity/LinkFree/commit/2a77622b5efad2ca7acaf7d65d0b153ce85e4a8a))
+* si icon colours ([#4079](https://github.com/EddieHubCommunity/LinkFree/issues/4079)) ([5e660e3](https://github.com/EddieHubCommunity/LinkFree/commit/5e660e30da5dbe17be69acba09a1e4cf34953863))
 
 
 
