@@ -9,7 +9,10 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/_ikunalsingh" },
     { "icon": "FaGithub", "url": "https://github.com/iKunal-Singh" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ikunalsingha" },
-    { "icon": "FaSoundcloud", "url": "https://soundcloud.com/kunal-singh-558758897" }
+    {
+      "icon": "FaSoundcloud",
+      "url": "https://soundcloud.com/kunal-singh-558758897"
+    }
   ],
 
   "links": [
@@ -75,7 +78,6 @@
       "color": "orange",
       "description": "Started producing music",
       "url": "https://soundcloud.com/kunal-singh-558758897"
-      
     },
     {
       "title": "Started Youtube",
