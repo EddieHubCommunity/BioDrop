@@ -1,9 +1,9 @@
-## 1.66.7 (2023-01-26)
+# 1.67.0 (2023-01-26)
 
 
-### Bug Fixes
+### Features
 
-* si icon colours ([#4079](https://github.com/EddieHubCommunity/LinkFree/issues/4079)) ([5e660e3](https://github.com/EddieHubCommunity/LinkFree/commit/5e660e30da5dbe17be69acba09a1e4cf34953863))
+* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
 
 
 
