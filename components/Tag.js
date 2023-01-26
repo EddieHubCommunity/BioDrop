@@ -10,7 +10,7 @@ export default function Tag({ name, total, path, selected }) {
       <Link
         href={path && path ==='/search'?
         (!selected?
-        (search.length === 0?
+        (search && search.length === 0?
         `/search?search=${name}`: `/search?search=${search}and${name}`)
         :`/search?search=${search.split('and').filter(query => query !== name).join('and')}`
         ):`/search?search=${name}`}
