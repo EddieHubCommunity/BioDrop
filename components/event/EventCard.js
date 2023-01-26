@@ -9,7 +9,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import FallbackImage from "../FallbackImage";
 
-export default function EventCard({ event, username, name }) {
+export default function EventCard({ event, username, isUserPage }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",
@@ -35,10 +35,10 @@ export default function EventCard({ event, username, name }) {
             )}
         </div>
         <div className="flex-1 space-y-1">
-          {!username && event.userStatus && (
+          {isUserPage && event.userStatus && (
             <div className="flex space-x-2">
               <p>
-                {name} is{" "}
+                {username} is{" "}
                 <span
                   className="font-bold"
                   style={{
@@ -49,12 +49,13 @@ export default function EventCard({ event, username, name }) {
                 </span>{" "}
                 {event.userStatus == "speaking" && "at"} this event.
               </p>
-              {event.userStatus == "speaking" && (
-                <p>
-                  ( <span className="font-bold">Topic: </span>{" "}
-                  {event.speakingTopicDetails.topic} )
-                </p>
-              )}
+              {event.userStatus == "speaking" &&
+                event?.speakingTopicDetails?.topic && (
+                  <p>
+                    ( <span className="font-bold">Topic: </span>{" "}
+                    {event.speakingTopicDetails.topic} )
+                  </p>
+                )}
             </div>
           )}
           <div className="flex items-center justify-between">

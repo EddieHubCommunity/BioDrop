@@ -26,7 +26,12 @@ export default function UserEvents({ data }) {
       <ul role="list" className="divide-y divide-gray-200">
         {data.events &&
           categorisedEvents[eventType].map((event, index) => (
-            <EventCard name={data.name} event={event} key={index} />
+            <EventCard
+              username={data.name}
+              event={event}
+              key={index}
+              isUserPage={true}
+            />
           ))}
       </ul>
     </div>
