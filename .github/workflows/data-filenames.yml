@@ -1,0 +1,36 @@
+name: Data Filenames Check
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test changed-files
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+
+      - name: Get changed files between base & head
+        id: base-changed-files
+        uses: tj-actions/changed-files@v35
+        with:
+          base_sha: ${{ github.event.pull_request.head.sha }}
+
+      - name: Check changed files
+        env:
+          BASE_FILENAMES: ${{ steps.base-changed-files.outputs.all_changed_files }}
+          FILENAMES: ${{ steps.changed-files.outputs.all_changed_files }}
+          USERNAME: ${{ github.actor }}
+        run: |
+          node .github/scripts/check-filenames.js

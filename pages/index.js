@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
@@ -13,6 +12,7 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
+import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
@@ -183,14 +183,7 @@ export default function Home({ total, today }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree - connect to your audience with a single link</title>
-        <meta
-          name="description"
-          content="Open Source alternative to LinkTree"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead />
       <main>
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
           <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
