@@ -26,5 +26,6 @@
       "icon": "FaLinkedin"
     }
   ],
-  "tags": [ "Open Source", "Javascript", "NextJS", "DevOps", "Node.js", "DevRel", "Blockchain" ]
+  "tags": [ "Open Source", "Javascript", "NextJS", "DevOps", "Node.js", "DevRel", "Blockchain" ],
+  "testimonials": [ "Njong392", "LinuxGamer"]
 }
