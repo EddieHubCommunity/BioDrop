@@ -1,0 +1,52 @@
+{
+  "name": "Guy Menahem - The Good Guy",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Spreading Cloud-Native Knowledge & Adoption 🚀 | SA @ Komodor",
+  "avatar": "https://github.com/guymenahem.png",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Kubernetes",
+    "DevOps",
+    "SRE",
+    "Backend Developer",
+    "CI/CD",
+    "Containers",
+    "Linux",
+    "k8s"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/the_good_guym" },
+    { "icon": "FaGithub", "url": "https://github.com/guymenahem" },
+    { "icon": "FaYoutube", "url": "https://www.youtube.com/@the_good_guy" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/guy-menahem/" }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/the_good_guym",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Kubernetes, DevOps & Development",
+      "url": "https://www.youtube.com/@the_good_guy",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/guymenaheme",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/guy-menahem/",
+      "icon": "FaLinkedin"
+     }]
+}
