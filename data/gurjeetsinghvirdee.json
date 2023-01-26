@@ -1,7 +1,7 @@
 {
   "name": "Gurjeet Singh Virdee",
   "type": "personal",
-  "bio": "Co-Founder @Medictry || Postman Student Expert || Former Technical Team Member at GSSoC'22 & TCW at GFG || MERN Stack || UI Designer || Open Source Enthusiast",
+  "bio": "MERN Stack Developer | Open Source Enthusiast",
   "avatar": "https://github.com/gurjeetsinghvirdee.png",
   "tags": ["Open Source", "JavaScript", "ReactJS", "NextJS"],
   "socials": [
@@ -27,7 +27,7 @@
   ],
   "milestones": [
     {
-      "title": "Web Developer Intern at NullClass",
+      "title": "Full Stack Developer Intern at NullClass",
       "date": "January 2023 - Present",
       "icon": "FaBriefcase",
       "color": "violet"
@@ -94,10 +94,10 @@
       "color": "purple"
     },
     {
-      "title": "Technical Content Writing",
+      "title": "Technical Content Writer Intern",
       "url": "https://auth.geeksforgeeks.org/user/gurjeetsinghvirdee/articles",
       "date": "October 2021 - April 2022",
-      "description": "Technical Content Writer Intern at GeeksforGeeks",
+      "description": "Published 15 articles related to Babel, Ember, Materialize JavaScript, etc",
       "icon": "FaBriefcase",
       "color": "green"
     },

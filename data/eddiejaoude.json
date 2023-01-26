@@ -29,48 +29,57 @@
   ],
   "links": [
     {
+      "group": "Business",
       "name": "Business: DevRel Services",
       "url": "http://eddiejaoude.io",
       "icon": "FaLink"
     },
     {
+      "group": "Socials Primary",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/eddiejaoude",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
+      "group": "Socials Primary",
       "name": "YouTube: Learn more about Open Source",
       "url": "https://youtube.com/eddiejaoude",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
     {
+      "group": "Socials Primary",
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/eddiejaoude",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials Primary",
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/eddiejaoude",
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials Secondary",
       "name": "YouTube Shorts: Quick technical tips",
       "url": "https://youtube.com/eddiejaoudetv",
       "icon": "FaYoutube"
     },
     {
+      "group": "EddieHub Community",
       "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
       "url": "http://eddiehub.org",
       "icon": "FaLink"
     },
     {
+      "group": "EddieHub Community",
       "name": "EddieHub: Discord",
       "url": "http://discord.eddiehub.org",
       "icon": "FaDiscord"
     },
     {
+      "group": "Socials Secondary",
       "name": "Podcast: Open Source community conversations",
       "url": "https://anchor.fm/eddiejaoude",
       "icon": "FaPodcast"
@@ -81,6 +90,7 @@
       "icon": "FaGithub"
     },
     {
+      "group": "Socials Secondary",
       "name": "Mastodon: Connect with me",
       "url": "https://fosstodon.org/@eddiejaoude",
       "icon": "FaMastodon"
