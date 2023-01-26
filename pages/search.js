@@ -1,34 +1,51 @@
-import { useEffect, useState, useRef } from "react";
+import Head from "next/head";
+
+import { useEffect, useState,useRef} from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
-import PageHead from "../components/PageHead";
+import Tag from "../components/Tag";
 
 export async function getServerSideProps(context) {
-  let users = [];
+  let data ={
+    users: [],
+    tags:[]
+  }
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    users = await res.json();
+    data.users = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
   }
 
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+    );
+    data.tags = await res.json();
+  } catch (e) {
+    console.log("ERROR loading tags", e);
+  }
+
   return {
-    props: { users },
+    props: { data }
   };
 }
 
-export default function Search({ users }) {
+export default function Search({ data }) {
+  let {users, tags} = data
+  
   const router = useRouter();
-  const inputRef = useRef();
+  const inputRef=useRef();
   const { username, search } = router.query;
+  let [searchQuery, setSearchQuery] = useState(search)
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
   const [inputValue, setInputValue] = useState(
-    username ? username : search ? search : ""
+    username ? username : search ? searchQuery && searchQuery.split('and').join(', ') : ""
   );
 
   let results = [];
@@ -40,6 +57,22 @@ export default function Search({ users }) {
       setThreeOrMore(false);
     }
   }, [username]);
+
+  useEffect(()=>{
+      setSearchQuery(search)
+      setInputValue(search && search.split('and').join(', ') || '')
+  },[search])
+
+  function arraysEqual(a, b) {
+    if (a === b) return true;
+    if (a == null || b == null) return false;
+    if (a.length !== b.length) return false;
+  
+    for (var i = 0; i < a.length; ++i) {
+      if (a[i] !== b[i]) return false;
+    }
+    return true;
+  }
 
   const filterData = (value) => {
     if (value.length <= 3) {
@@ -55,10 +88,10 @@ export default function Search({ users }) {
           return true;
         }
 
-        let tag = user.tags?.find((tag) =>
-          tag.toLowerCase().includes(value.toLowerCase())
+        let filteredtags = user.tags?.filter((tag) =>
+          value.toLowerCase().includes(tag.toLowerCase())
         );
-        if (tag) {
+        if(arraysEqual(filteredtags && filteredtags.join(', ').toLowerCase().split(', ').sort(), value.toLowerCase().split(', ').sort())){
           return true;
         }
       });
@@ -83,17 +116,27 @@ export default function Search({ users }) {
 
   return (
     <>
-      <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
-      />
-
+      <Head>
+        <title>LinkFree Search Users</title>
+        <meta name="description" content="Search LinkFree user directory" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
+        <div className="flex flex-wrap justify-center mb-4">
+          {tags &&
+            tags
+              .slice(0, 10)
+              .map((tag) => (
+                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' 
+                selected ={searchQuery && searchQuery.split('and').some(query => query === tag.name)}/>
+              ))}
+        </div>
+
         <div className="relative">
           <input
-            placeholder="Search users,tags or languages"
+            placeholder="Search user by name or tags; eg: open source, reactjs"
             ref={inputRef}
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
