@@ -8,12 +8,17 @@
     {
       "name": "Subscribe on YouTube",
       "url": "https://www.youtube.com/@francescociulla",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/FrancescoCiull4",
       "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/FrancescoXX",
+      "icon": "FaGithub"
     },
     {
       "name": "Connect on Linkedin",
