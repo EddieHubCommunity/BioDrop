@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "avatar": "https://github.com/Sajiyah-Salat.png",
-  "tags": ["DevOps", "Docker", "Kubernetes"],
+  "tags": ["DevOps", "Docker", "Kubernetes", "Open Source", "Golang"],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -12,9 +12,14 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on LinkedIN",
+      "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://sajiyah-salat.hashnode.dev/",
+      "icon": "SiHashnode"
     },
     {
       "name": "Follow me on Twitter",
@@ -24,12 +29,27 @@
   ],
   "milestones": [
     {
+      "title": "Started Hashnode",
+      "date": "Oct, 2022",
+      "icon": "FaPencilAlt",
+      "color": "blue",
+      "description": "Started writing blogs",
+      "url": "https://sajiyah-salat.hashnode.dev/"
+    },
+    {
       "title": "Won Hacktoberfest 2022 ",
       "date": "October 2022",
       "icon": "hacktoberfest",
       "color": "grey",
       "description": "Made Github profile on June 2022 | Started documenting my journey via linkedIn and Twitter| Started Writing blog on Hashnode",
       "url": "https://www.Sajiyah-Salat.io/"
+    },
+    {
+    "title": "Completed #100DaysOf Code",
+    "date": "25th Nov 2022",
+    "icon": "FaTwitter",
+    "color": "blue",
+    "description": "I started as a complete beginner on july 18 2022"
     }
   ]
 }
