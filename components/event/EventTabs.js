@@ -1,3 +1,5 @@
+import Link from "../Link";
+
 export function EventTabs({ tabs, eventType, setEventType }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
@@ -30,9 +32,9 @@ export function EventTabs({ tabs, eventType, setEventType }) {
         <div className="border-b border-gray-200">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
-              <a
+              <Link
                 key={tab.key}
-                href={tab.href}
+                href=""
                 onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
                   tab.key === eventType
@@ -54,7 +56,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 <span>
                   {tab.title} ({tab.total})
                 </span>
-              </a>
+              </Link>
             ))}
           </nav>
         </div>

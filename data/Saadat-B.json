@@ -1,0 +1,24 @@
+{
+  "name": "Saadat Badgujar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer - React ⚛️ | Exploring Open Source 👨‍💻",
+  "avatar": "https://github.com/Saadat-B.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/saadat_1997",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Saadat-B",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saadat-badgujar-ba85b5211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

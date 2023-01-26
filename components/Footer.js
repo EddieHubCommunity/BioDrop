@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "../components/Link";
 import { FaMoneyBillAlt } from "react-icons/fa";
-import { FaPowerOff } from "react-icons/fa";
+import { FaRocket } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -9,7 +9,7 @@ export default function Footer() {
         href="https://github.com/EddieHubCommunity/LinkFree"
         className="text-gray-500 hover:text-gray-600 flex justify-center space-x-6 md:order-2 gap-2"
       >
-        <FaPowerOff className="h-6 w-6" aria-hidden="true" />
+        <FaRocket className="h-6 w-6" aria-hidden="true" />
         Powered by EddieHub
       </Link>
       <Link
