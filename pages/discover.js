@@ -11,40 +11,43 @@ export async function getServerSideProps(context) {
     random: [],
     trending: [],
   };
+
+  const popularPromise = fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/popular`
+  );
+  const randomPromise = fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/random`
+  );
+  const tagsPromise = fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+  );
+  const trendingPromise = fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/trending`
+  );
+
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/popular`
-    );
-    data.popular = await res.json();
-  } catch (e) {
+    data.popular = await (await popularPromise).json()
+  }
+  catch (e) {
     console.log("ERROR loading popular profiles", e);
   }
-
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/random`
-    );
-    data.random = await res.json();
-  } catch (e) {
-    console.log("ERROR loading random profiles", e);
+    data.tags = await (await tagsPromise).json()
   }
-
+  catch (e) {
+    console.log("ERROR loading tags", e);
+  }
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/trending`
-    );
-    data.trending = await res.json();
-  } catch (e) {
+    data.trending = await (await trendingPromise).json()
+  }
+  catch (e) {
     console.log("ERROR loading trending profiles", e);
   }
-
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
-  } catch (e) {
-    console.log("ERROR loading tags", e);
+    data.random = await (await randomPromise).json()
+  }
+  catch (e) {
+    console.log("ERROR loading random profiles", e);
   }
 
   return {
