@@ -2,7 +2,13 @@ import UserMilestone from "../../../components/user/UserMilestone";
 
 export default {
   component: UserMilestone,
-  decorators: [(story) => <ul role="list">{story()}</ul>],
+  decorators: [
+    (Story) => (
+      <ul role="list">
+        <Story />
+      </ul>
+    ),
+  ],
 };
 
 export const BasicMilestone = {
