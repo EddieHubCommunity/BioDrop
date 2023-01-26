@@ -5,13 +5,13 @@
   "bio": "React Developer Jr.",
   "avatar": "https://github.com/jmgrd98.png",
   "milestones": [
-  {
-        "title": "Started coding!",
-        "date": "March 2022",
-        "icon": "FaDollarSign",
-        "color": "green",
-        "description": "Started my programming studies.",
-        "url": "https://www.github.com/jmgrd98/"
+    {
+      "title": "Started coding!",
+      "date": "March 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started my programming studies.",
+      "url": "https://www.github.com/jmgrd98/"
     }
   ],
   "socials": [
