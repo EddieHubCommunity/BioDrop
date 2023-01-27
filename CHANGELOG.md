@@ -1,9 +1,9 @@
-## 1.64.1 (2023-01-25)
+# 1.67.0 (2023-01-26)
 
 
-### Bug Fixes
+### Features
 
-* navbar in storybook ([#3970](https://github.com/EddieHubCommunity/LinkFree/issues/3970)) ([2496cb5](https://github.com/EddieHubCommunity/LinkFree/commit/2496cb595b0f57acf2ac2a271966918118253bde))
+* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
 
 
 
