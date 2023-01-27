@@ -1,0 +1,29 @@
+{
+  "name": "Salman Akhtar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web Developer | Content Writer | Machine Learning Enthusiast",
+  "avatar": "https://github.com/salmanakhtar57.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/salman_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/salman-akhtar-09a210198/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://salman1234.medium.com/",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Substack",
+      "url": "https://salman1.substack.com/",
+      "icon": "FaSubstack"
+    } 
+  ]
+}
