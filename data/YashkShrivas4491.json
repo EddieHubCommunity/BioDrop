@@ -1,0 +1,40 @@
+{
+  "name": "Yash Kumar Shrivas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio":  "Open-Source Oriented person and want to connect , collaborate with others peers.",
+  "avatar": "https://github.com/YashkShrivas4491.png",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/YashkShrivas4491",
+      "icon": "FaGithub"
+    },
+    
+    {
+       "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YashKumarS4491",
+      "icon": "FaTwitter"
+      
+    },
+    
+    {
+       "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
+      "icon": "FaLinkedin"
+      
+    },
+    
+    {
+       "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@YashkShrivas4491",
+      "icon": "FaHashnode"  
+    },
+    
+    {
+       "name": "Follow me on Commudle",
+      "url": "https://hashnode.com/@YashkShrivas4491",
+      "icon": "FaCommudle" 
+    }
+  ]
+}
