@@ -1,9 +1,9 @@
-## 1.67.3 (2023-01-27)
+# 1.68.0 (2023-01-27)
 
 
-### Bug Fixes
+### Features
 
-* merwinmathew33 ([#4116](https://github.com/EddieHubCommunity/LinkFree/issues/4116)) ([a127586](https://github.com/EddieHubCommunity/LinkFree/commit/a1275860e7a055ed9b1acfee23a1c97a61240e37))
+* Add data persistency and improve docs - Docker Compose ([#4100](https://github.com/EddieHubCommunity/LinkFree/issues/4100)) ([d1e0725](https://github.com/EddieHubCommunity/LinkFree/commit/d1e0725c372e33d5649680b459781d68d97d2932))
 
 
 
