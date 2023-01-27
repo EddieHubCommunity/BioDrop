@@ -2,7 +2,13 @@
   "name": "Shantanu Raut",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Graduate || Backend Developer || Python || Java | |DSA || Leetcode 2🌟 || Hackerrank 5🌟 || Open-source || Postman Student Expert || Technical Volunteer in All About Programming || GDSC Member",
+  "bio": "**Open Source** Enthusiast | Backend Developer ", 
+  "tags": ["Open Source", "Python", "Java", "Student"], 
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/s4shaantanu" },
+    { "icon": "FaGithub", "url": "https://github.com/s4shantanu.png" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/shantanu-raut/" }
+  ],
   "avatar": "https://github.com/s4shantanu.png",
   "links": [
     {
@@ -11,19 +17,19 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/s4shantanu/",
-      "icon": "FaInstagram"
+      "name": "Follow me on Github",
+      "url": "https://github.com/s4shantanu",
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/shantanu-raut/",
       "icon": "FaLinkedin"
-    },
+    } ,
     {
-      "name": "Follow me on Github",
-      "url": "https://github.com/s4shantanu",
-      "icon": "FaGithub"
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/s4shantanu/",
+      "icon": "FaInstagram"
     }
   ]
 }
