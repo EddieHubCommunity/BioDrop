@@ -6,10 +6,10 @@
   "avatar": "https://github.com/Iyanu1396.png",
 "socials": [
   { "icon": "FaTwitter", "url": "https://twitter.com/iyanu_codes" },
-  { "icon": "FaGithub", "url": "https://github.com/Iyanu1396" },
+  { "icon": "FaGithub", "url": "https://github.com/Iyanu1396" }
 ],
   "tags": [
-    "Javascript",
+    "Javascript"
   ],
 "links": [
     {
