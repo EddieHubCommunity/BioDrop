@@ -1,0 +1,36 @@
+{
+  "name": "Mohd Amaan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Computer Science Student 👨‍💻 | Learning Java + DSA | Learning MERN Stack Web Development 🌐 | Bachelor of Computer Applications (BCA) | Tech & Open Source Enthusiast 🚀",
+  "avatar": "https://github.com/mhdamaan79.png",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "Javascript",
+    "Java",
+    "DSA"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/mhdamaan79" },
+    { "icon": "FaGithub", "url": "https://github.com/mhdamaan79" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mhdamaan79/" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mhdamaan79",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mhdamaan79",
+      "icon": "FaGithub"
+    },
+     {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mhdamaan79/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
