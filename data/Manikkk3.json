@@ -1,0 +1,34 @@
+{
+  "name": "Manik Acharya",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Computer Science Student | Web Developer | Travel Lover",
+  "avatar": "https://github.com/Manikkk3.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/acharyamanik7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/wholesomemanik",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/manik-acharya-1698181b7",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Manikkk3",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@duluwa7179",
+      "icon": "FaYoutube"
+    }    
+  ]
+}

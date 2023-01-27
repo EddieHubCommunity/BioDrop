@@ -1,0 +1,54 @@
+{
+  "name": "Mahir Mahdi",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Web Developer | Open Source Advocate | Content Writer ",
+  "tags": [
+    "Web Development",
+    "Open Source", 
+    "Content Writer", 
+    "Javascript"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/MahirMahdi" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/_MahirMahdi" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mahirmahdi" }
+  ],
+  "avatar": "https://github.com/MahirMahdi.png",
+   "links": [
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/MahirMahdi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_MahirMahdi",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/mahirmahdi",
+      "icon": "FaLinkedin"
+    }
+  ],
+   "milestones": [
+  {
+      "title": "Started Freelancing",
+      "date": "January 2023",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started bulding websites",
+      "url": "https://www.fiverr.com/mahirmahdi"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "July 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started Advocating for Open Source",
+      "url": "https://github.com/MahirMahdi"
+    }
+   ]
+}
