@@ -1,0 +1,51 @@
+{
+  "name": "Jainish Shah",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Building cool projects and POCs | Open source contributor | Backend Developer | Machine Learner",
+  "avatar": "https://github.com/Jainish-shah.png",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Machine Learning",
+    "Django",
+    "Computer Vision"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Jainish-shah" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jainish-shah25/"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/jainish-shah25/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Find my project stuff vault",
+      "url": "https://github.com/Jainish-shah",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Tweet time",
+      "url": "https://twitter.com/jainishshah25",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me",
+      "url": "https://www.instagram.com/_jainish.shah_25/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source Contribution",
+      "date": "April 2021",
+      "icon": "FaGithub",
+      "description": "Contributed to FaceX"
+    }
+  ]
+}
