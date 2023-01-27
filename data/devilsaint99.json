@@ -1,0 +1,19 @@
+{
+  "name": "Anshul Suresh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "B.Tech Graduate. Working at Accenture as Associate Software Engineer. Aspire to work in Product Based Companies",
+  "avatar": "https://github.com/devilsaint99.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devilsaint1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anshulsuresh/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
