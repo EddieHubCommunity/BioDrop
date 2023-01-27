@@ -5,6 +5,7 @@ on:
       - pages/**
       - tests/**
       - components/**
+      - config/**
 
 jobs:
   build:
