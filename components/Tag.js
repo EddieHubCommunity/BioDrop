@@ -16,16 +16,17 @@ export default function Tag({ name, total, path,currentInput, selected, tags }) 
         (currentInput !== '' && search === '' ||currentInput !== '' && search === undefined?
         `/search?search=${currentInput}and${name}`:currentInput === ''?
         search === ''||search === undefined?
-        `/search?search=${name}`: search.split('and').every(s => tagNames.indexOf(s)>=0)?
-        `/search?search=${search}and${name}`: search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and') === ''?
+        `/search?search=${name}`: search !== undefined && search.split('and').every(s => tagNames.indexOf(s)>=0)?
+        `/search?search=${search}and${name}`: search !== undefined && search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and') === ''?
         `/search?search=${name}`:`/search?search=${search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and')}and${name}`
         
-        :search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and') === ''?
-        `/search?search=${currentInput.split(', ').join('and')}and${name}`:currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and') === ''?
+        :search !== undefined && search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and') === ''?
+        `/search?search=${currentInput.split(', ').join('and')}and${name}`:currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and') === '' && search !== undefined?
         `/search?search=${search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and')}and${name}`:`/search?search=${currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and')}and${search.split('and').filter(s => tagNames.indexOf(s) < 0).reduce((result, word) => result.replace(word, ''), search).split('and').filter(s=> s!=='').join('and')}and${name}`)
-        : currentInput === ''?
-        `/search?search=${search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and')}`:currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and') === ''?
-        `/search?search=${search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and')}`:search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and') === ''?
+        
+        : currentInput === '' && search !== undefined?
+        `/search?search=${search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and')}`:currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and') === '' && search !== undefined?
+        `/search?search=${search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and')}`:search !== undefined && search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and') === ''?
         `/search?search=${currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and')}`:`/search?search=${currentInput.split(', ').filter(input => tagNames.indexOf(input) < 0).join('and')}and${search.split('and').filter(query => query !== name).filter(query => tagNames.indexOf(query) >= 0).join('and')}`
         ):`/search?search=${name}`}
         
