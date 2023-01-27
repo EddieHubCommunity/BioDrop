@@ -8,13 +8,13 @@ import Link from "../../../models/Link";
 
 export default async function handler(req, res) {
   const session = await unstable_getServerSession(req, res, authOptions);
-  console.log(session);
+
   if (!session) {
     res.status(401).json({ message: "You must be logged in." });
     return;
   }
 
-  const username = "eddiejaoude"; // session.username
+  const username = "eddiejaoude"; // TODO: session.username
   await connectMongo();
 
   let profileViews = [];

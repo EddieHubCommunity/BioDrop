@@ -24,7 +24,11 @@ export async function getServerSideProps(context) {
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
-      { credentials: "same-origin" }
+      {
+        headers: {
+          cookie: context.req.headers.cookie || "",
+        },
+      }
     );
     data = await res.json();
   } catch (e) {
@@ -65,16 +69,17 @@ export default function Search({ data }) {
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200 bg-white">
-            {data.links.individual.map((link) => (
-              <tr key={link.url}>
-                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                  {link.url}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.clicks}
-                </td>
-              </tr>
-            ))}
+            {data.links &&
+              data.links.individual.map((link) => (
+                <tr key={link.url}>
+                  <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                    {link.url}
+                  </td>
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                    {link.clicks}
+                  </td>
+                </tr>
+              ))}
           </tbody>
         </table>
       </Page>
