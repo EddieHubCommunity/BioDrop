@@ -10,10 +10,21 @@ export async function getServerSideProps(context) {
     context.res,
     authOptions
   );
+
+  if (!session) {
+    return {
+      redirect: {
+        destination: "/",
+        permanent: false,
+      },
+    };
+  }
+
   let data = {};
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
+      { credentials: "same-origin" }
     );
     data = await res.json();
   } catch (e) {
