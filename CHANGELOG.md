@@ -1,9 +1,9 @@
-# 1.65.0 (2023-01-26)
+# 1.67.0 (2023-01-26)
 
 
 ### Features
 
-* head to component ([#4008](https://github.com/EddieHubCommunity/LinkFree/issues/4008)) ([2fbba9b](https://github.com/EddieHubCommunity/LinkFree/commit/2fbba9b3183fbc84e2a9dccd9a356acc6d155d15))
+* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
 
 
 
