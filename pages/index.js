@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
@@ -13,6 +12,7 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
+import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
@@ -183,14 +183,7 @@ export default function Home({ total, today }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree - connect to your audience with a single link</title>
-        <meta
-          name="description"
-          content="Open Source alternative to LinkTree"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead />
       <main>
         <div className="grid place-content-center place-items-center text-center  gap-2 px-3 h-full py-20 md:py-32 lg:py-52">
           <span className="bg-gray-200 border border-solid text-slate-700 uppercase border-gray-400 px-10 leading-loose py-1 rounded-full font-helix-bold">
@@ -338,6 +331,7 @@ export default function Home({ total, today }) {
               Want to get started
             </span>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-helix-bold">
+
               Popular User Guides
             </h2>
             <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500 font-helix">
@@ -349,6 +343,7 @@ export default function Home({ total, today }) {
               <div className=" max-w-screen-xl  mx-auto grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
+
                     <div className="flow-root h-full rounded-lxl  bg-gray-50 px-10 pb-12">
                       <div className="-mt-6">
                         <div>
@@ -371,7 +366,7 @@ export default function Home({ total, today }) {
                           {feature.description}
                         </p>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
@@ -382,17 +377,3 @@ export default function Home({ total, today }) {
     </>
   );
 }
-/*
-
-
-
-  
-                  
-
-*/
-
-/*
-
- <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-            
-*/

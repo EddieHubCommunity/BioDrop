@@ -37,6 +37,7 @@
   "milestones": [
     {
       "title": "Started Coding Journey",
+      "icon": "FaCode",
       "date": "October 2020",
       "color": "grey",
       "description": "Started learning how to code using HTML, CSS, Bootstrap"
@@ -54,7 +55,8 @@
       "date": "November 2022",
       "icon": "FaGithub",
       "color": "grey",
-      "description": "Started learning how to contribute to Open Source"
+      "description": "Started learning how to contribute to Open Source",
+      "url": "https://github.com/priyankarpal"
     },
     {
       "title": "Again started Publishing Blogs",

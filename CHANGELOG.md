@@ -1,9 +1,9 @@
-## 1.62.1 (2023-01-25)
+# 1.67.0 (2023-01-26)
 
 
-### Bug Fixes
+### Features
 
-* event tabs url ([#3951](https://github.com/EddieHubCommunity/LinkFree/issues/3951)) ([e75f610](https://github.com/EddieHubCommunity/LinkFree/commit/e75f6105c86f010a5c68908b160b54ade5e8a5b3))
+* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
 
 
 

@@ -1,5 +1,4 @@
-import Head from "next/head";
-
+import PageHead from "../components/PageHead";
 import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
 import { useState } from "react";
@@ -67,14 +66,11 @@ export default function Popular({ data, BASE_URL }) {
 
   return (
     <>
-      <Head>
-        <title>Discover LinkFree Profiles</title>
-        <meta
-          name="description"
-          content="Discover more people in your LinkFree community"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="Discover LinkFree Profiles"
+        description="Discover more people in your LinkFree community"
+      />
+
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">
           Discover LinkFree Profiles

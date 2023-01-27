@@ -1,0 +1,34 @@
+{
+  "name": "Pratyaksh Mehrotra",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Presently Web Dev, Ex-Android Platform, into Windows Platform and Cybersecurity. I occasionaly write.",
+  "avatar": "https://github.com/pratyakshm.png",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/pratyakshm_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pratyakshm",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/pratyakshm",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.pratyakshm.com",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "Website",
+      "url": "https://pratyakshm.com",
+      "icon": "FaGlobeAsia"
+    }
+  ]
+}

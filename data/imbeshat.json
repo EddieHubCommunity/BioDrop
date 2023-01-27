@@ -1,0 +1,39 @@
+{
+  "name": "Imbeshat Aslam",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web Development Enthusiast | Software Developer | Technical Writer | Open Source",
+  "tags": ["JavaScript", "Open Source", "Developer", "Technical Writer"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/imbeshat7" },
+    { "icon": "FaGithub", "url": "https://github.com/imbeshat" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/imbeshataslam7/"
+    },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@imbeshat" }
+  ],
+  "avatar": "https://github.com/imbeshat.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imbeshat7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/imbeshat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/imbeshataslam7/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Blogs on topics of Web Development",
+      "url": "https://hashnode.com/@imbeshat",
+      "icon": "SiHashnode"
+    }
+  ]
+}
