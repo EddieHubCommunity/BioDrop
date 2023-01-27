@@ -1,9 +1,9 @@
-# 1.67.0 (2023-01-26)
+# 1.68.0 (2023-01-27)
 
 
 ### Features
 
-* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
+* Add data persistency and improve docs - Docker Compose ([#4100](https://github.com/EddieHubCommunity/LinkFree/issues/4100)) ([d1e0725](https://github.com/EddieHubCommunity/LinkFree/commit/d1e0725c372e33d5649680b459781d68d97d2932))
 
 
 

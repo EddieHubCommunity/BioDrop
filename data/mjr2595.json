@@ -1,0 +1,39 @@
+{
+  "name": "Michael Raymond",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Just a guy trying to dev stuff",
+  "avatar": "https://github.com/mjr2595.png",
+  "links": [
+    {
+      "name": "Git over here",
+      "url": "https://github.com/mjr2595",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Link with me",
+      "url": "https://www.linkedin.com/in/mjraymond",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "I got cred",
+      "url": "https://www.credly.com/users/michael-raymond.ec76dad1/badges",
+      "icon": "FaAward"
+    },
+    {
+      "name": "Let's be pen pals",
+      "url": "https://codepen.io/mjraymond",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "I don't blog",
+      "url": "https://dev.to/michael_raymond",
+      "icon": "FaDev"
+    },
+    {
+      "name": "chirp chirp",
+      "url": "https://twitter.com/MFRayRay",
+      "icon": "FaTwitter"
+    }
+  ]
+}

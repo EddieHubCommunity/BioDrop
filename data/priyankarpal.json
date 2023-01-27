@@ -44,7 +44,7 @@
     },
     {
       "title": "Started My Own Website",
-      "date": "september 2021",
+      "date": "September 2021",
       "icon": "FaLink",
       "color": "grey",
       "description": "Started coding blog but website got hacked"
@@ -53,10 +53,9 @@
       "title": "Started Open Source Contributions",
       "image": "https://github.com/priyankarpal.png",
       "date": "November 2022",
-      "icon": "FaGithub",
+      "icon": "SiOpensourceinitiative",
       "color": "grey",
-      "description": "Started learning how to contribute to Open Source",
-      "url": "https://github.com/priyankarpal"
+      "description": "Started learning how to contribute to Open Source"
     },
     {
       "title": "Again started Publishing Blogs",

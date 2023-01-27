@@ -1,0 +1,53 @@
+{
+  "name": "Sachin Sharma",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Engineering undergraduate. Passionate about writing. Open Source Enthusiast. Let's collaborate",
+  "avatar": "https://github.com/devsachinsharma.png",
+  
+  "tags": [
+    "Open Source",
+    "Blogger",
+    "DevOps",
+    "Docker",
+    "Linux",
+    "Kubernetes"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/sachintwts" },
+    { "icon": "SiHashnode", "url": "https://sachinsharma.info/" },
+    { "icon": "FaGithub", "url": "https://github.com/devsachinsharma" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sachin-sharma-648b1b200/" }
+    
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sachintwts",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Check out my Blogs on Hashnode",
+      "url": "https://sachinsharma.info/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/devsachinsharma",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/sachin-sharma-648b1b200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@sachin.09",
+      "icon": "FaMedium"
+    }
+  ]
+  
+}

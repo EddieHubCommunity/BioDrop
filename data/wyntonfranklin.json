@@ -1,0 +1,35 @@
+{
+  "name": "Wynton Franklin",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Programmer, Software developer, Life long learner",
+  "avatar": "https://github.com/wyntonfranklin.png",
+    "links": [
+          {
+      "name": "Follow me on Github",
+      "url": "https://github.com/wyntonfranklin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/wyntonfranklin",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/wyntonfranklin/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my youtube channel",
+      "url": "https://www.youtube.com/@wftutorials1085",
+      "icon": "FaYoutube"
+    },
+     {
+      "name": "Learn how to code on my tutorials website",
+      "url": "https://app.wftutorials.com/",
+      "icon": "FaInternetExplorer"
+    }
+      
+  ]
+}
