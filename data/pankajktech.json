@@ -1,0 +1,43 @@
+{
+  "name": "Pankaj Kumar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Web Developer, Student",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
+  "avatar": "https://github.com/pankajktech.png",
+  
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PankajThakurOff",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/pankajthakuroff/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/pankajktech/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/pankajktech",
+      "icon": "FaGitHub"
+    }
+  ],
+
+  "milestones": [
+    {
+   "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Opensource",
+      "url": "https://github.com/pankajktech"
+    }
+  ]
+}
