@@ -30,7 +30,7 @@
     },
   ],
 
-  "Special Milestones"[
+  "milestones": [
     {
    "title": "Joined Open Source",
       "date": "January 2023",
