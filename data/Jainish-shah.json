@@ -13,7 +13,10 @@
   ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Jainish-shah" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jainish-shah25/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jainish-shah25/"
+    }
   ],
   "links": [
     {

@@ -66,12 +66,20 @@
       "icon": "FaHeart"
     }
   ],
-  "tags": [ "Open Source", "Javascript", "NextJS", "DevOps", "Node.js", "DevRel", "Blockchain" ],
-  "testimonials": [ "Njong392", "LinuxGamer", "devvsakib", "chriskalmar"],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NextJS",
+    "DevOps",
+    "Node.js",
+    "DevRel",
+    "Blockchain"
+  ],
+  "testimonials": ["Njong392", "LinuxGamer", "devvsakib", "chriskalmar"],
   "socials": [
-  { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
-  { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },  
-  { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
-  { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
-]
+    { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
+    { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },
+    { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
+    { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
+  ]
 }

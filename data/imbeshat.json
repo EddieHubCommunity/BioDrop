@@ -7,7 +7,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/imbeshat7" },
     { "icon": "FaGithub", "url": "https://github.com/imbeshat" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/imbeshataslam7/" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/imbeshataslam7/"
+    },
     { "icon": "SiHashnode", "url": "https://hashnode.com/@imbeshat" }
   ],
   "avatar": "https://github.com/imbeshat.png",
