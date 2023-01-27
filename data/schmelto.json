@@ -17,6 +17,11 @@
   ],
   "links": [
     {
+      "name": "Portfolio Website",
+      "url": "https://schmelto.github.io/Portfolio/",
+      "icon": "FaUser"
+    },
+    {
       "name": "GitHub Sponsors: Donate",
       "url": "https://github.com/sponsors/schmelto",
       "icon": "FaRegMoneyBillAlt"
