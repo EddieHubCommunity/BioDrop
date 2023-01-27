@@ -1,0 +1,13 @@
+{
+  "name": "Aman Yadav",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Undergrad at KCCITM, just exploring this world :)",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/its_aman_yadav",
+      "icon": "FaTwitter"
+    }
+  ]
+}
