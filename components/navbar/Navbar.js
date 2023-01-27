@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 import NavLink from "./NavLink";
 import Link from "../Link";
@@ -9,6 +10,7 @@ import { FaGithub } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export default function Navbar() {
+  const { data: session } = useSession();
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
@@ -35,10 +37,6 @@ export default function Navbar() {
 
   const primary = [
     {
-      name: "Home",
-      url: "/",
-    },
-    {
       name: "Discover",
       url: "/discover",
     },
@@ -55,6 +53,30 @@ export default function Navbar() {
       url: "/docs",
     },
   ];
+
+  const authControls = () => (
+    <>
+      {!session && (
+        <NavLink item={{ name: "Login", url: "" }} onClick={() => signIn()} />
+      )}
+
+      {session && (
+        <>
+          <NavLink
+            item={{ name: "Account", url: "/account/statistics" }}
+            onClick={() => setIsOpen(false)}
+          />
+          <NavLink
+            item={{ name: "Logout", url: "/" }}
+            onClick={() => {
+              setIsOpen(false);
+              signOut();
+            }}
+          />
+        </>
+      )}
+    </>
+  );
 
   return (
     <div className="min-h-full" ref={navConRef}>
@@ -82,9 +104,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="ml-4 flex items-center md:ml-6">
-                <span className="text-gray-400">v{app.version}</span>
-                <div className="ml-3 relative">
+              <div className="flex items-center gap-3">
+                <span className="text-gray-600">v{app.version}</span>
+                <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
@@ -101,6 +123,7 @@ export default function Navbar() {
                     </IconContext.Provider>
                   </a>
                 </div>
+                {authControls()}
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -180,6 +203,7 @@ export default function Navbar() {
                     </IconContext.Provider>
                   </Link>
                 </div>
+                {authControls()}
               </div>
             </div>
           </div>

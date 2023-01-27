@@ -3,7 +3,6 @@ import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
-  MdArrowUpward,
   MdHelpOutline,
   MdOutlineLink,
   MdOutlinePersonPin,
@@ -15,6 +14,7 @@ import { FaMedal } from "react-icons/fa";
 import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
+import BasicCards from "../components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -190,84 +190,28 @@ export default function Home({ total, today }) {
             <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
             <span className="text-2xl text-gray-500">100% Open Source</span>
           </h2>
-          <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-            {total.users > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Active Users
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.active)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      <span title={total.users}>
-                        from {abbreviateNumber(total.users)}
-                      </span>
-                    </span>
-                  </div>
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
-
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.users)}
-                  </div>
-                </dd>
-              </div>
-            )}
-            {total.views > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Profile views
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.views)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      from {abbreviateNumber(total.views - today.views)}
-                    </span>
-                  </div>
-
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
-
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.views)}
-                  </div>
-                </dd>
-              </div>
-            )}
-            {total.clicks > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Links clicked
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.clicks)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      from {abbreviateNumber(total.clicks - today.clicks)}
-                    </span>
-                  </div>
-
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
-
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.clicks)}
-                  </div>
-                </dd>
-              </div>
-            )}
-          </dl>
+          <BasicCards
+            data={[
+              {
+                name: "Active Users",
+                current: total.active,
+                total: total.users,
+                delta: today.users,
+              },
+              {
+                name: "Profile Views",
+                current: total.views,
+                total: total.views - today.views,
+                delta: today.views,
+              },
+              {
+                name: "Links Clicked",
+                current: total.clicks,
+                total: total.clicks - today.clicks,
+                delta: today.clicks,
+              },
+            ]}
+          />
         </div>
 
         <div className="bg-white">
@@ -402,7 +346,8 @@ export default function Home({ total, today }) {
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <Link aria-label="Go to ${feature.name} page"
+                    <Link
+                      aria-label="Go to ${feature.name} page"
                       href={feature.path}
                       className="text-gray-900 group"
                     >

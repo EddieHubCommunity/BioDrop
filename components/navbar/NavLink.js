@@ -1,6 +1,6 @@
 import Link from "../Link";
 
-export default function NavLink({ path, item, mode, setIsOpen }) {
+export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =
     "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
@@ -24,7 +24,12 @@ export default function NavLink({ path, item, mode, setIsOpen }) {
       href={item.url}
       className={className}
       aria-current="page"
-      onClick={() => setIsOpen && setIsOpen(false)}
+      onClick={() => {
+        setIsOpen && setIsOpen(false);
+        if (onClick) {
+          onClick();
+        }
+      }}
     >
       {item.name}
     </Link>
