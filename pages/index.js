@@ -192,84 +192,78 @@ export default function Home({ total, today }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
-          <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
-            <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
-            <span className="text-2xl text-gray-500">100% Open Source</span>
-          </h2>
-          <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-            {total.users > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Active Users
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.active)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      <span title={total.users}>
-                        from {abbreviateNumber(total.users)}
-                      </span>
-                    </span>
-                  </div>
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
+        <div className="grid place-content-center place-items-center text-center  gap-2 px-3 h-full py-20 md:py-32 lg:py-52">
+          <span className="bg-gray-200 border border-solid text-slate-700 uppercase border-gray-400 px-10 leading-loose py-1 rounded-full font-helix-bold">
+            100% <span className="pl-1">Opensource</span>
+          </span>
+          <h1 className="text-3xl md:text-4xl xl:text-6xl font-helix text-slate-900 leading-snug md:leading-tight xl:leading-tight ">
+            Connect to your audience
+            <br className="md:block hidden" aria-hidden /> with a{" "}
+            <strong className="text-indigo-600 font-helix-bold">
+              single link
+            </strong>
+          </h1>
+          <p className=" mt-2 md:mt-6   text-xl font-helix  text-slate-900 text-opacity-80 max-w-screen-sm  leading-snug ">
+            Showcase the content you create and your projects in one place. Make
+            it easier for people to find, follow and subscribe.
+          </p>
+          <div className="flex  flex-nowrap gap-3 mt-5">
+            <Link
+              href="/docs/quickstart"
+              className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 font-helix text-lg text-white hover:bg-indigo-700"
+            >
+              Get started
+            </Link>
+            <Link
+              href="/eddiejaoude"
+              className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3  font-medium text-indigo-600 font-helix text-lg hover:bg-indigo-50"
+            >
+              Example
+            </Link>
+          </div>
+        </div>
 
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.users)}
+        <div className="pb-20 lg:pb-28">
+          <dl class="mt-5 grid grid-cols-1  sm:grid-cols-3 max-w-screen-xl  mx-auto divide-x divide-gray-100 ">
+            {total.users > 0 && (
+              <div class="overflow-hidden rounded-lg bg-white px-4 py-5  sm:py-6 md:px-10 ">
+                <dd class="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div class="flex flex-col  gap-3 items-baseline text-2xl font-semibold ">
+                    <span className="font-helix-bold text-5xl text-indigo-600">
+                      {abbreviateNumber(total.active)}
+                    </span>
+                    <span className="text-xl text-gray-600 font-helix">
+                      Active Users
+                    </span>
                   </div>
                 </dd>
               </div>
             )}
+
             {total.views > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Profile views
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.views)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      from {abbreviateNumber(total.views - today.views)}
+              <div class="overflow-hidden rounded-lg bg-white px-4 py-5  sm:py-6 md:px-10 ">
+                <dd class="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div class="flex flex-col  gap-3 items-baseline text-2xl font-semibold ">
+                    <span className="font-helix-bold text-5xl text-indigo-600">
+                      {abbreviateNumber(total.views)}
                     </span>
-                  </div>
-
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
-
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.views)}
+                    <span className="text-xl text-gray-600 font-helix">
+                      Profile views
+                    </span>
                   </div>
                 </dd>
               </div>
             )}
             {total.clicks > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
-                  Links clicked
-                </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
-                  <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                    {abbreviateNumber(total.clicks)}
-                    <span className="ml-2 text-sm font-medium text-gray-500">
-                      from {abbreviateNumber(total.clicks - today.clicks)}
+              <div class="overflow-hidden rounded-lg bg-white px-4 py-5  sm:py-6 md:px-10 ">
+                <dd class="mt-1 flex items-baseline justify-between md:block lg:flex">
+                  <div class="flex flex-col  gap-3 items-baseline text-2xl font-semibold ">
+                    <span className="font-helix-bold text-5xl text-indigo-600">
+                      {abbreviateNumber(total.clicks)}
                     </span>
-                  </div>
-
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                    <MdArrowUpward
-                      className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                      aria-hidden="true"
-                    />
-
-                    <span className="sr-only">Increased by </span>
-                    {abbreviateNumber(today.clicks)}
+                    <span className="text-xl text-gray-600 font-helix">
+                      Links clicked
+                    </span>
                   </div>
                 </dd>
               </div>
@@ -277,149 +271,95 @@ export default function Home({ total, today }) {
           </dl>
         </div>
 
-        <div className="bg-white">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-            <div className="overflow-hidden rounded-lg bg-indigo-700 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
-              <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-                <div className="lg:self-center">
-                  <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                    <span className="block">Connect to your audience</span>
-                    <span className="block">with a single link</span>
-                  </h2>
-                  <p className="mt-4 text-lg leading-6 text-indigo-200">
-                    Showcase the content you create and your projects in one
-                    place. Make it easier for people to find, follow and
-                    subscribe.
-                  </p>
-                </div>
-              </div>
-              <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
-                <Image
-                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20 h-auto w-auto"
-                  src="/mockup.png"
-                  priority
-                  alt="App screenshot"
-                  width={500}
-                  height={500}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+        <div>
+          <div className="bg-indigo-700 text-white  py-10 md:py-16 ">
+            <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+              <div className="mx-auto max-w-3xl text-center pb-10 md:pb-16">
+                <h2 className="mt-2 leading-tight  font-bold tracking-tight text-3xl lg:leading-tight  lg:text-4xl font-helix-bold">
+                  Features
+                </h2>
 
-        <div className="bg-gray-50">
-          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              <span className="block">Ready to dive in?</span>
-              <span className="block text-indigo-600">
-                Add your free Profile today!
-              </span>
-            </h2>
-            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-              <div className="inline-flex rounded-md shadow">
-                <Link
-                  href="/docs/quickstart"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                >
-                  Get started
-                </Link>
+                <p className="mt-4 text-white font-helix  text-lg ">
+                  It is not just links... Take a look at the Features
+                  <br className="md:block hidden" /> you can add to customise
+                  your LinkFree Profile.
+                </p>
               </div>
-              <div className="ml-3 inline-flex rounded-md shadow">
-                <Link
-                  href="/eddiejaoude"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-                >
-                  Example
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="bg-indigo-700">
-          <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
-            <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Features
-              </h2>
-              <p className="mt-4 text-white">
-                It is not just links... Take a look at the Features you can add
-                to customise your LinkFree Profile.
-              </p>
-            </div>
-
-            <div className="mt-16 space-y-16">
-              {featuresDetails.map((feature, featureIdx) => (
-                <div
-                  key={feature.name}
-                  className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
-                >
+              <div className="mt-20 space-y-32">
+                {featuresDetails.map((feature, featureIdx) => (
                   <div
-                    className={classNames(
-                      featureIdx % 2 === 0
-                        ? "lg:col-start-1"
-                        : "lg:col-start-8 xl:col-start-9",
-                      "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
-                    )}
+                    key={feature.name}
+                    className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
                   >
-                    <h3 className="text-lg font-medium text-white">
-                      {feature.name}
-                    </h3>
-                    <p className="mt-2 text-sm text-white">
-                      {feature.description}
-                    </p>
-                  </div>
-                  <div
-                    className={classNames(
-                      featureIdx % 2 === 0
-                        ? "lg:col-start-6 xl:col-start-5"
-                        : "lg:col-start-1",
-                      "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
-                    )}
-                  >
-                    <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
-                      <Image
-                        src={feature.imageSrc}
-                        alt={feature.imageAlt}
-                        className="object-cover object-center"
-                        width={1250}
-                        height={840}
-                      />
+                    <div
+                      className={classNames(
+                        featureIdx % 2 === 0
+                          ? "lg:col-start-1"
+                          : "lg:col-start-8 xl:col-start-8",
+                        "mt-6  lg:mt-0 lg:row-start-1 lg:col-span-5 md:px-10 xl:col-span-5 grid  gap-4"
+                      )}
+                    >
+                      <h3 className="mt-2 leading-tight font-bold tracking-tight  text-2xl lg:leading-tight  lg:text-3xl font-helix-bold">
+                        {feature.name}
+                      </h3>
+                      <p className="  text-base text-white md:text-lg font-helix max-w-[300px]  leading-snug md:leading-snug">
+                        {feature.description}
+                      </p>
+                    </div>
+                    <div
+                      className={classNames(
+                        featureIdx % 2 === 0
+                          ? "lg:col-start-8 xl:col-start-6"
+                          : "lg:col-start-1",
+                        "flex-auto lg:row-start-1  lg:col-span-6 xl:col-span-7"
+                      )}
+                    >
+                      <div className="min-h-[300px] grid place-content-center overflow-hidden rounded-lg bg-gray-100">
+                        <Image
+                          src={feature.imageSrc}
+                          alt={feature.imageAlt}
+                          className=" h-full w-full object-cover object-center"
+                          width={1250}
+                          height={840}
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
         <div className="relative bg-white py-24 sm:py-32 lg:py-40">
           <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-            <h2 className="text-lg font-semibold text-indigo-600">
-              Getting Started
-            </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <span className=" text-base md:text-lg font-helix font-semibold text-indigo-600">
+              Want to get started
+            </span>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-helix-bold">
               Popular User Guides
-            </p>
-            <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-              Here is a selection of our popular documentation guides to help
+            </h2>
+            <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500 font-helix">
+              Here is a selection of our popular
+              <br className="md:block hidden" /> documentation guides to help
               you get started.
             </p>
-            <div className="mt-20">
-              <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+            <div className=" pt-10 md:mt-16 lg:mt-20">
+              <div className=" max-w-screen-xl  mx-auto grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                    <div className="flow-root h-full rounded-lxl  bg-gray-50 px-10 pb-12">
                       <div className="-mt-6">
                         <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                          <span className="inline-flex  items-center justify-center  h-20 w-20 rounded-full bg-indigo-500 p-3 shadow-lg">
                             <feature.icon
-                              className="h-8 w-8 text-white"
+                              className="h-10 w-auto object-contain object-center text-white"
                               aria-hidden="true"
                             />
                           </span>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
+                        <h3 className="mt-8   font-helix-bold text-2xl  text-slate-800 lg:text-3xl font-semibold leading-8 tracking-tight">
                           <Link
                             href={feature.path}
                             className="text-gray-900 hover:text-indigo-600 hover:underline"
@@ -427,7 +367,7 @@ export default function Home({ total, today }) {
                             {feature.name}
                           </Link>
                         </h3>
-                        <p className="mt-5 text-base leading-7 text-gray-600">
+                        <p className="mt-5 text-base leading-7 text-gray-600 font-helix px-2 ">
                           {feature.description}
                         </p>
                       </div>
@@ -438,21 +378,21 @@ export default function Home({ total, today }) {
             </div>
           </div>
         </div>
-
-        <Link
-          href="https://github.com/EddieHubCommunity/LinkFree/discussions"
-          rel="noopener noreferrer"
-        >
-          <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
-            <IconContext.Provider
-              value={{ color: "white", style: { verticalAlign: "middle" } }}
-            >
-              <MdHelpOutline />
-            </IconContext.Provider>
-            <p className="text-sm font-medium">Help</p>
-          </div>
-        </Link>
       </main>
     </>
   );
 }
+/*
+
+
+
+  
+                  
+
+*/
+
+/*
+
+ <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+            
+*/

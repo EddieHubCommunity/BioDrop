@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        helix: ["helix", "sans-serif"],
+        "helix-bold": ["helix-bold", "sans-serif"],
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),

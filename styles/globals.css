@@ -17,10 +17,25 @@ a {
   box-sizing: border-box;
 }
 
-code.language-unknown::before, code.language-unknown::after {
-  content: ""
+code.language-unknown::before,
+code.language-unknown::after {
+  content: "";
+}
+@font-face {
+  font-family: helix-bold;
+  src: url("/Hellix-Bold.woff2");
+}
+@font-face {
+  font-family: helix;
+  src: url("/Hellix-Regular.woff2");
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .d {
+    @apply border border-solid border-red-900;
+  }
+}

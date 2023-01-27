@@ -57,7 +57,7 @@ export default function Navbar() {
 
   return (
     <div className="min-h-full" ref={navConRef}>
-      <nav className="bg-gray-800">
+      <nav className="bg-slate-900 font-helix ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -106,7 +106,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+                className="bg-slate-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >

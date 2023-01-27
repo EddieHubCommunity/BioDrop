@@ -4,7 +4,7 @@ import { FaRocket } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="pt-12 pb-14 px-4 sm:px-6 md:flex md:justify-between">
+    <footer className="pt-12 px-3  pb-14 max-w-screen-2xl w-full border-t border-gray-200 mx-auto sm:px-6 md:flex md:justify-between">
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree"
         className="text-gray-500 hover:text-gray-600 flex justify-center space-x-6 md:order-2 gap-2"
