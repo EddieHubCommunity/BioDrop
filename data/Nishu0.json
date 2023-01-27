@@ -1,0 +1,27 @@
+{
+  "name": "Nisarg Thakkar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Full Stack MERN Web Developer | Currently exploring Blockchain, Cloud | Open source contributor",
+  "avatar": "https://github.com/Nishu0.png",
+  "tags": ["Open Source", "Javascript", "ReactJS", "MERN Stack", "Kubernetes", "Blockchain"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Nishu0" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nisarg-thakkar-08811a21a"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Let's work on some projects",
+      "url": "https://github.com/Nishu0",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/nisarg-thakkar-08811a21a",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

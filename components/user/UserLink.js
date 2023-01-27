@@ -27,7 +27,7 @@ export default function UserLink({
       onClick={() => setClicks(clicks + 1)}
     >
       <span style={{ color: colors[link.icon] }}>
-        <DisplayIcon />
+        <DisplayIcon aria-label={`${link.icon.slice(2)} icon`}/>
       </span>
       <span className="grow">{link.name}</span>
       {displayStatsPublic && <span>{clicks}</span>}

@@ -1,0 +1,24 @@
+{
+  "name": "Khaled Battiche",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A web3 developer with a passion for building decentralized applications on the blockchain and continuously learning the latest in the web3 space.",
+  "avatar": "https://github.com/SuperBatata.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BatticheKhaled",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/khaled-battiche/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/SuperBatata",
+      "icon": "FaGithub"
+    }
+  ]
+}

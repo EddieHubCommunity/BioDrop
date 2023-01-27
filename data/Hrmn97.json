@@ -1,0 +1,34 @@
+{
+    "name": "Harman",
+    "displayStatsPublic": true,
+    "type": "personal",
+    "bio": "Full Stack Web developer || MERN || DevOps Enthusiast ",
+    "avatar": "https://github.com/Hrmn97.png",
+    "tags": ["javascript", "html", "css", "html", "react","NextJs","Typescript","NodeJs","MongoDb","Express"],
+    "socials": [
+        { "icon": "FaTwitter", "url": "https://twitter.com/Harman9765" },
+        { "icon": "FaGithub", "url": "https://github.com/Hrmn97" }
+      ],
+    "links": [
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/Harman9765",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "Follow me on Instagram",
+        "url": "https://www.instagram.com/h_97singh/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "COnnect with me on GitHub",
+        "url": "https://github.com/Hrmn97",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Connect on Linkedin",
+        "url": "https://www.linkedin.com/in/chetan-harman-56310424a/",
+        "icon": "FaLinkedin"
+      }
+    ]
+  }
