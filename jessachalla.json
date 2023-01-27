@@ -1,5 +1,5 @@
 {
-  "name": "Jessa",
+  "name": "Jessa Challa",
   "type": "personal",
   "bio": "I'm a developer. I want to make things that inspire curiosity and action.",
   "avatar": "https://github.com/jessachalla.png",
@@ -12,10 +12,10 @@
     "Three.js",
     "GitHub"
   ],
-  "displayStatsPublic": false,
+  "displayStatsPublic": true,
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/JessaChalla" },
-    { "icon": "FaGithub", "url": "https://github.com/jessachalla" },
+    { "icon": "FaGithub", "url": "https://github.com/jessachalla" }
   ],
   "links": [
     {
