@@ -29,8 +29,12 @@ export default function BasicCards({ data }) {
                     aria-hidden="true"
                   />
 
-                  <span className="sr-only">Increased by </span>
-                  {abbreviateNumber(item.delta)}
+                  {item.delta && (
+                    <>
+                      <span className="sr-only">Increased by </span>
+                      {abbreviateNumber(item.delta)}
+                    </>
+                  )}
                 </div>
               </dd>
             </div>
