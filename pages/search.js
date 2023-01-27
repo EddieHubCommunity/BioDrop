@@ -127,7 +127,7 @@ export default function Search({ data }) {
             tags
               .slice(0, 10)
               .map((tag) => (
-                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' 
+                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' tags={tags} currentInput={inputValue}
                 selected ={searchQuery && searchQuery.split('and').some(query => query === tag.name)}/>
               ))}
         </div>
