@@ -1,0 +1,25 @@
+{
+  "name": "Samarth Dhawan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learner",
+  "avatar": "https://github.com/samarth8765.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/samd_twts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/samarthdhawan2911/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/samarth8765",
+      "icon": "FaGithub"
+    }
+    
+  ]
+}
