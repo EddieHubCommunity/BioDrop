@@ -1,0 +1,35 @@
+{
+  "name": "Elisha David",
+
+  "displayStatsPublic": true,
+
+  "type": "personal",
+
+  "bio": "Blockchain Developer **Digital Nomad*",
+
+  "avatar": "https://github.com/Elishaokon13.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+
+      "url": "https://twitter.com/Elishaokon13",
+
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": "Follow me on Instagram",
+
+      "url": "https://instagram.com/Elishaokon13",
+
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+
+      "url": "https://linkedin.com/in/Elishaokon13",
+
+      "icon": "FaInstagram"
+    }
+  ]
+}

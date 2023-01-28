@@ -1,0 +1,69 @@
+{
+  "name": "Priyankar Pal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
+  "avatar": "https://github.com/priyankarpal.png",
+  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
+
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
+    { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/priyankarpal" },
+    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" }
+  ],
+  "links": [
+    {
+      "name": "Check My Latest Blogs",
+      "url": "https://priyankarpal.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Proof of Works",
+      "url": "https://fueler.io/priyankarpal",
+      "icon": "FaLink"
+    },
+    {
+      "name": "All Twitter Threads",
+      "url": "https://fueler.io/priyankarpal/twitter-threads/96db7bf8-10dd-4110-b899-bd69fbae9835",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Portfolio",
+      "url": "https://itspp.vercel.app",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding Journey",
+      "icon": "FaCode",
+      "date": "October 2020",
+      "color": "grey",
+      "description": "Started learning how to code using HTML, CSS, Bootstrap"
+    },
+    {
+      "title": "Started My Own Website",
+      "date": "September 2021",
+      "icon": "FaLink",
+      "color": "grey",
+      "description": "Started coding blog but website got hacked"
+    },
+    {
+      "title": "Started Open Source Contributions",
+      "image": "https://github.com/priyankarpal.png",
+      "date": "November 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Started learning how to contribute to Open Source"
+    },
+    {
+      "title": "Again started Publishing Blogs",
+      "date": "November 2022",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "Again I started publishing blogs to Hashnode Platform",
+      "url": "https://priyankarpal.hashnode.dev"
+    }
+  ]
+}

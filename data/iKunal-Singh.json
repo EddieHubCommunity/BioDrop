@@ -1,0 +1,96 @@
+{
+  "name": "Kunal Singh",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Engineering undergrad** | **Blogger** | **Music Producer** | **Bringing imagination to life**",
+  "tags": ["Open Source", "DevOps", "Linux", "Docker", "Kubernetes"],
+  "avatar": "https://github.com/iKunal-Singh.png",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/_ikunalsingh" },
+    { "icon": "FaGithub", "url": "https://github.com/iKunal-Singh" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ikunalsingha" },
+    {
+      "icon": "FaSoundcloud",
+      "url": "https://soundcloud.com/kunal-singh-558758897"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Follow for daily lit 🔥 tweets",
+      "url": "https://twitter.com/_ikunalsingh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my DevOps journey",
+      "url": "https://github.com/iKunal-Singh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ikunalsingha",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check Out my beats on SoundCloud",
+      "url": "https://soundcloud.com/kunal-singh-558758897",
+      "icon": "SiSoundcloud"
+    },
+    {
+      "name": "Open Source, DevOps and Linux Blog",
+      "url": "https://ikunalsingh.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "The Big Drop",
+      "date": "2019",
+      "icon": "SiGooglescholar",
+      "color": "green",
+      "description": "Took a drop year to focus on preparing for the JEE Mains exam and was able to achieve my goal by scoring **98.711 percentile** in the test."
+    },
+    {
+      "title": "The Beginning",
+      "date": "2019",
+      "icon": "FaHourglassStart",
+      "color": "blue",
+      "description": "Started my journey as a developer"
+    },
+    {
+      "title": "First Hacktoberfest",
+      "date": "2019",
+      "icon": "FaGlobeAsia",
+      "color": "purple",
+      "description": "Participated in my Hacktoberfest"
+    },
+    {
+      "title": "First Hackathon",
+      "date": "2020",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "Participated in my first hackathon"
+    },
+    {
+      "title": "Started Music Production",
+      "date": "2020",
+      "icon": "SiSoundcloud",
+      "color": "orange",
+      "description": "Started producing music",
+      "url": "https://soundcloud.com/kunal-singh-558758897"
+    },
+    {
+      "title": "Started Youtube",
+      "date": "2020",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Started uploading my music on youtube and got more than **1 lakh impressions, 20K+ views and 50K+ watch time** in **2 months**"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "2022",
+      "icon": "FaDollarSign",
+      "color": "blue"
+    }
+  ]
+}
