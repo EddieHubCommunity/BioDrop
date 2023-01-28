@@ -14,7 +14,13 @@ export default async function handler(req, res) {
     return;
   }
 
-  const username = "eddiejaoude"; // TODO: session.username
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
+  const username = session.username;
   await connectMongo();
 
   let profileViews = [];
@@ -35,7 +41,7 @@ export default async function handler(req, res) {
 
   let linkClicks = [];
   try {
-    linkClicks = await Link.find({ username });
+    linkClicks = await Link.find({ username }).sort({ clicks: -1 });
   } catch (e) {
     logger.error(e, "failed to load stats");
   }

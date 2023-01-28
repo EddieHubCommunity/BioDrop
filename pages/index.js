@@ -13,7 +13,6 @@ import { FaMedal } from "react-icons/fa";
 
 import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
-import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 import BasicCards from "../components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {

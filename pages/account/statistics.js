@@ -1,8 +1,20 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { unstable_getServerSession } from "next-auth/next";
 
+import {
+  BarChart,
+  Bar,
+  CartesianGrid,
+  XAxis,
+  YAxis,
+  ResponsiveContainer,
+} from "recharts";
+
+import logger from "../../config/logger";
+import Alert from "../../components/Alert";
 import Page from "../../components/Page";
 import PageHead from "../../components/PageHead";
+import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 
 export async function getServerSideProps(context) {
   const session = await unstable_getServerSession(
@@ -15,6 +27,26 @@ export async function getServerSideProps(context) {
     return {
       redirect: {
         destination: "/",
+        permanent: false,
+      },
+    };
+  }
+  const username = session.username;
+
+  let profile = {};
+  try {
+    const resUser = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+    );
+    profile = await resUser.json();
+  } catch (e) {
+    logger.error(e, `profile loading failed for username: ${username}`);
+  }
+
+  if (!profile.username) {
+    return {
+      redirect: {
+        destination: "/account/create",
         permanent: false,
       },
     };
@@ -36,11 +68,22 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { session, data },
+    props: { session, data, profile },
   };
 }
 
-export default function Search({ data }) {
+export default function Search({ data, profile }) {
+  const dateTimeStyle = {
+    dateStyle: "short",
+  };
+  const dailyViews = data.profile.daily.slice(-30).map((day) => {
+    return {
+      views: day.views,
+      date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(day.date)
+      ),
+    };
+  });
   return (
     <>
       <PageHead
@@ -49,7 +92,35 @@ export default function Search({ data }) {
       />
 
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Your Statistics</h1>
+        <h1 className="text-4xl mb-4 font-bold">
+          Your Statistics for {profile.username}
+        </h1>
+
+        {!data.links && (
+          <Alert type="info" message="You don't have a proile yet." />
+        )}
+
+        <div className="border mb-6">
+          <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
+            <h3 className="text-lg font-medium leading-6 text-gray-900">
+              Profile views
+            </h3>
+            <p className="mt-1 text-sm text-gray-500">
+              How many profile visits you got per day. You have
+              {abbreviateNumber(data.profile.views)} in total.
+            </p>
+          </div>
+          <div className="w-full h-80">
+            <ResponsiveContainer height="100%">
+              <BarChart data={dailyViews}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="date" />
+                <YAxis />
+                <Bar dataKey="views" fill="#82ca9d" />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
 
         <table className="min-w-full divide-y divide-gray-300">
           <thead className="bg-gray-50">
@@ -58,13 +129,13 @@ export default function Search({ data }) {
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
               >
-                Url
+                Url ({data.links.individual.length})
               </th>
               <th
                 scope="col"
                 className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
               >
-                Clicks
+                Clicks ({abbreviateNumber(data.links.clicks)})
               </th>
             </tr>
           </thead>
@@ -76,7 +147,7 @@ export default function Search({ data }) {
                     {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                    {link.clicks}
+                    {abbreviateNumber(link.clicks)}
                   </td>
                 </tr>
               ))}
