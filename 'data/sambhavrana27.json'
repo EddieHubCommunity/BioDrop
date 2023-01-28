@@ -3,7 +3,8 @@
   "displayStatsPublic": false,
   "type": "personal",
   "bio": "There are only two kinds of programming languages: those people always bitch about and those nobody uses",
-  "avatar": "https://github.com/SaraJaoude.png"
+  "avatar": "https://github.com/SaraJaoude.png",
+  "tags" : ["Front-End" , "React" , "Open Source" , "Python" , "Java"],
   "links": [
     {
       "name": "Instagram",
