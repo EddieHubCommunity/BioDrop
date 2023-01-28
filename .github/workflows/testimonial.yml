@@ -16,7 +16,7 @@ jobs:
     steps:
       # Create a temporary, uniquely named branch to push release info to
       - name: create temporary branch
-        uses: peterjgrainger/action-create-branch@v2.3.0
+        uses: peterjgrainger/action-create-branch@v2.4.0
         id: create-branch
         with:
           branch: "testimonial-from-${{ github.sha }}"
@@ -25,6 +25,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
 
       # fetch branches and switch to the temporary branch
       - name: switch to new branch
@@ -35,7 +38,7 @@ jobs:
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/testimonial.yml
-          body: ${{ github.event.issue.body }}
+          issue-body: ${{ github.event.issue.body }}
       - name: current date
         id: date
         uses: Kaven-Universe/github-action-current-date-time@v1
@@ -44,10 +47,14 @@ jobs:
       - name: create folder
         run: |
           mkdir -p data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials
-      - uses: finnp/create-file-action@master
+      - name: create json file
+        run: |
+          node .github/scripts/testimonial.mjs
         env:
           FILE_NAME: "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
-          FILE_DATA: '{"title": "${{ steps.issue-parser.outputs.issueparser_title }}", "description": "${{ steps.issue-parser.outputs.issueparser_description}}", "date": "${{ steps.date.outputs.time }}"}'
+          DATA_TITLE: ${{ steps.issue-parser.outputs.issueparser_title }}
+          DATA_DESCRIPTION: ${{ steps.issue-parser.outputs.issueparser_description}}
+          DATA_DATE: ${{ steps.date.outputs.time }}
       - name: validate JSON
         run: jq . "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
       - uses: stefanzweifel/git-auto-commit-action@v4

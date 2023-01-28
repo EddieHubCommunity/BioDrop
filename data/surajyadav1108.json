@@ -1,0 +1,34 @@
+{
+  "name": "Suraj yadav",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning full stack development and DevOps",
+  "avatar": "https://github.com/surajyadav1108.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Surajthethinker",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/surajyadav1108",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/surajmoonwalker/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/suraj-yadav-b91701221/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on hashnode",
+      "url": "https://hashnode.com/@surajyadav1108",
+      "icon": "SiHashnode"
+    }
+  ]
+}

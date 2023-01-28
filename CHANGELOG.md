@@ -1,9 +1,9 @@
-# 1.66.0 (2023-01-26)
+## 1.68.1 (2023-01-27)
 
 
-### Features
+### Bug Fixes
 
-* gh action to check profile filenames ([#3835](https://github.com/EddieHubCommunity/LinkFree/issues/3835)) ([466e581](https://github.com/EddieHubCommunity/LinkFree/commit/466e581fd553411793449c68503d00c0da8bf9bd))
+* improve testimonials action ([#4117](https://github.com/EddieHubCommunity/LinkFree/issues/4117)) ([9f3d0a3](https://github.com/EddieHubCommunity/LinkFree/commit/9f3d0a365097992db2894f062deda312fbed2271))
 
 
 
