@@ -108,8 +108,8 @@ export default function Search({ data, profile }) {
             </h3>
             <p className="mt-1 text-sm text-gray-500">
               How many profile visits you got per day. You have{" "}
-              {abbreviateNumber(data.profile.views)} Profile views in the last
-              30 days.
+              {abbreviateNumber(data.profile.monthly)} Profile views in the last
+              30 days with a total of {abbreviateNumber(data.profile.total)}.
             </p>
           </div>
           <div className="w-full h-80">

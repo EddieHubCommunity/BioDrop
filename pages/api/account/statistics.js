@@ -3,6 +3,7 @@ import { unstable_getServerSession } from "next-auth/next";
 
 import connectMongo from "../../../config/mongo";
 import logger from "../../../config/logger";
+import Profile from "../../../models/Profile";
 import ProfileStats from "../../../models/ProfileStats";
 import Link from "../../../models/Link";
 
@@ -22,6 +23,13 @@ export default async function handler(req, res) {
 
   const username = session.username;
   await connectMongo();
+
+  let profileData = {};
+  try {
+    profileData = await Profile.findOne({ username });
+  } catch (e) {
+    logger.error(e, "failed to load profile");
+  }
 
   let profileViews = [];
   try {
@@ -57,7 +65,8 @@ export default async function handler(req, res) {
 
   const data = {
     profile: {
-      views: totalViews,
+      total: profileData.views,
+      monthly: totalViews,
       daily: dailyStats,
     },
     links: {
