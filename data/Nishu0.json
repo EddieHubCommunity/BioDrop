@@ -4,7 +4,14 @@
   "displayStatsPublic": true,
   "bio": "Full Stack MERN Web Developer | Currently exploring Blockchain, Cloud | Open source contributor",
   "avatar": "https://github.com/Nishu0.png",
-  "tags": ["Open Source", "Javascript", "ReactJS", "MERN Stack", "Kubernetes", "Blockchain"],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "MERN Stack",
+    "Kubernetes",
+    "Blockchain"
+  ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Nishu0" },
     {
