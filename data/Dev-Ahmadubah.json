@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Front-end Engineer | Reactjs | Open source",
-  "avatar": "https://github.com/Dev-Ahmadubah.png",
+
   "tags": ["Reactjs", "Open source", "Tailwindcss", "javascript", "Css"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/ahmadubahh" },
@@ -32,7 +32,6 @@
     }
   ],
   "milestones": [
-   
     {
       "title": "Started Developing and open-source",
       "date": "October 2020",
