@@ -13,6 +13,16 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/hrshtmlng/",
       "icon": "FaInstagram"
-    }
+    },
+     {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/harshit-malang-3968011aa/",
+      "icon": "FaLinkedi"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/in/hrshtmlng",
+      "icon": "FaGithub"
+    },
    ]
 }
