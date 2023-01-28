@@ -4,8 +4,8 @@
   "type": "personal",
   "bio": "Programmer, Software developer, Life long learner",
   "avatar": "https://github.com/wyntonfranklin.png",
-    "links": [
-          {
+  "links": [
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/wyntonfranklin",
       "icon": "FaGithub"
@@ -25,11 +25,10 @@
       "url": "https://www.youtube.com/@wftutorials1085",
       "icon": "FaYoutube"
     },
-     {
+    {
       "name": "Learn how to code on my tutorials website",
       "url": "https://app.wftutorials.com/",
       "icon": "FaInternetExplorer"
     }
-      
   ]
 }

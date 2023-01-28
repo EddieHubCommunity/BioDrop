@@ -2,12 +2,15 @@
   "name": "Shantanu Raut",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "**Open Source** Enthusiast | Backend Developer ", 
-  "tags": ["Open Source", "Python", "Java", "Student"], 
+  "bio": "**Open Source** Enthusiast | Backend Developer ",
+  "tags": ["Open Source", "Python", "Java", "Student"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/s4shaantanu" },
     { "icon": "FaGithub", "url": "https://github.com/s4shantanu.png" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/shantanu-raut/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shantanu-raut/"
+    }
   ],
   "avatar": "https://github.com/s4shantanu.png",
   "links": [
@@ -25,7 +28,7 @@
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/shantanu-raut/",
       "icon": "FaLinkedin"
-    } ,
+    },
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/s4shantanu/",
