@@ -2,7 +2,7 @@
   "name": "Kunal Singh",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "**Engineering undergrad** | **Blogger** | **Music Producer** bringing imagination to life.",
+  "bio": "**Engineering undergrad** | **Blogger** | **Music Producer** | **Bringing imagination to life**",
   "tags": ["Open Source", "DevOps", "Linux", "Docker", "Kubernetes"],
   "avatar": "https://github.com/iKunal-Singh.png",
   "socials": [
@@ -17,7 +17,7 @@
 
   "links": [
     {
-      "name": "Follow for daily Lit tweets",
+      "name": "Follow for daily lit 🔥 tweets",
       "url": "https://twitter.com/_ikunalsingh",
       "icon": "FaTwitter"
     },
@@ -32,7 +32,7 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Check Out SoundCloud",
+      "name": "Check Out my beats on SoundCloud",
       "url": "https://soundcloud.com/kunal-singh-558758897",
       "icon": "SiSoundcloud"
     },
@@ -48,7 +48,7 @@
       "date": "2019",
       "icon": "SiGooglescholar",
       "color": "green",
-      "description": "I took a drop year to focus on preparing for the JEE Mains exam and was able to achieve my goal by scoring **98.711 percentile** in the test."
+      "description": "Took a drop year to focus on preparing for the JEE Mains exam and was able to achieve my goal by scoring **98.711 percentile** in the test."
     },
     {
       "title": "The Beginning",
@@ -62,7 +62,7 @@
       "date": "2019",
       "icon": "FaGlobeAsia",
       "color": "purple",
-      "description": "Participated in Hacktoberfest"
+      "description": "Participated in my Hacktoberfest"
     },
     {
       "title": "First Hackathon",
@@ -84,13 +84,13 @@
       "date": "2020",
       "icon": "SiYoutube",
       "color": "red",
-      "description": "Started uploading my music on youtube and got more than **1 lakh impressions, 20K+ views and 50K+ watch time**"
+      "description": "Started uploading my music on youtube and got more than **1 lakh impressions, 20K+ views and 50K+ watch time** in **2 months**"
     },
     {
       "title": "Started Freelancing",
       "date": "2022",
       "icon": "FaDollarSign",
-      "color": "yellow"
+      "color": "blue"
     }
   ]
 }
