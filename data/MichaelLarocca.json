@@ -4,14 +4,12 @@
   "displayStatsPublic": true,
   "bio": "Front-End Web Developer | **Writer** | Musician",
   "avatar": "https://github.com/MichaelLarocca.png",
-  "tags": [
-    "frontend",
-    "javascript",
-    "writing",
-    "music"
-  ],
+  "tags": ["frontend", "javascript", "writing", "music"],
   "socials": [
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/michael-larocca-9315a3202/" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/michael-larocca-9315a3202/"
+    },
     { "icon": "FaTwitter", "url": "https://twitter.com/MikeJudeLarocca" },
     { "icon": "FaGithub", "url": "https://github.com/MichaelLarocca" }
   ],
@@ -27,7 +25,7 @@
       "name": "Blog: Self-Taught the X Generation",
       "url": "https://selftaughttxg.com/",
       "icon": "FaLink"
-    },    
+    },
     {
       "group": "Socials Primary",
       "name": "Twitter: @MikeJudeLarocca",
@@ -69,7 +67,7 @@
       "color": "grey",
       "description": "Started my blog",
       "url": "https://selftaughttxg.com/"
-    },    
+    },
     {
       "title": "Earned a Certification",
       "date": "May 2nd, 2020",

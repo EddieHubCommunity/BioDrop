@@ -1,39 +1,39 @@
 {
-"name" : "sumit",
-"diaplayStatsPublic" : true,
-"type" : "personal",
-"bio" : "Undergraduate || new for open source || enthusiast about tech world || web dev",
-"avatar" : "https://github.com/kushvahasumit.png",
-"links" : [
-  {
-    "name" : "follow me on Linkedin",
-    "url" : "https://www.linkedin.com/in/sumit-kumar-4a1344254",
-    "icon" : "FaLinkedin"
-  },
-   {
-    "name" : "follow me on Twitter",
-    "url" : "https://twitter.com/ur_samy007",
-    "icon" : "FaTwitter"
-  },
-   {
-    "name" : "follow me on GitHub",
-    "url" : "https://github.com/kushvahasumit",
-    "icon" : "FaGitHub"
-  },
-   {
-    "name" : "subscribe to my YouTube",
-    "url" : "https://youtube.com/@samcode130",
-    "icon" : "FaYouTube"
-  },
-   {
-    "name" : "here is my Hashnode blog",
-    "url" : "https://hashnode.com/@kushvaha687",
-    "icon" : "SiHashnode"
-  },
-   {
-    "name" : "follow me on Instagram",
-    "url" : "https://instagram.com/the_fellow_person?igshid=Mzc0YWU1OWY=",
-    "icon" : "FaInstagram"
-  }
- ]
+  "name": "sumit",
+  "diaplayStatsPublic": true,
+  "type": "personal",
+  "bio": "Undergraduate || new for open source || enthusiast about tech world || web dev",
+  "avatar": "https://github.com/kushvahasumit.png",
+  "links": [
+    {
+      "name": "follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/sumit-kumar-4a1344254",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "follow me on Twitter",
+      "url": "https://twitter.com/ur_samy007",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "follow me on GitHub",
+      "url": "https://github.com/kushvahasumit",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "subscribe to my YouTube",
+      "url": "https://youtube.com/@samcode130",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "here is my Hashnode blog",
+      "url": "https://hashnode.com/@kushvaha687",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "follow me on Instagram",
+      "url": "https://instagram.com/the_fellow_person?igshid=Mzc0YWU1OWY=",
+      "icon": "FaInstagram"
+    }
+  ]
 }

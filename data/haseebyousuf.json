@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "**JavaScript** Developer | Open Source",
   "avatar": "https://github.com/haseebyousuf.png",
-  "tags": ["Javascript","React Js","Open Source"],
+  "tags": ["Javascript", "React Js", "Open Source"],
   "links": [
     {
       "name": "Check out my Portfolio",
@@ -25,6 +25,6 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/haseebyousuf/",
       "icon": "FaLinkedin"
-    }   
+    }
   ]
 }

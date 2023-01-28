@@ -5,7 +5,7 @@
   "bio": "Web Developer, Student",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
   "avatar": "https://github.com/pankajktech.png",
-  
+
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -32,7 +32,7 @@
 
   "milestones": [
     {
-   "title": "Joined Open Source",
+      "title": "Joined Open Source",
       "date": "January 2023",
       "icon": "FaGithub",
       "color": "red",
