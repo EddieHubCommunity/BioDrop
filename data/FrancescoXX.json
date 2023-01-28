@@ -11,14 +11,14 @@
       "icon": "SiMaildotru"
     },
     {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/c/FrancescoCiulla",
+      "icon": "SiYoutube"
+    },
+    {
       "name": "Discord Community",
       "url": "https://discord.com/invite/ns5x8bTz25",
       "icon": "SiDiscord"
-    },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/@francescociulla",
-      "icon": "SiYoutube"
     },
     {
       "name": "Twitter",
@@ -87,5 +87,32 @@
     { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },
     { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
     { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
-  ]
+  ],
+  "milestones": [
+    {
+        "title": "Started my YouTube Channel",
+        "date": "August 2020",
+        "icon": "FaYoutube",
+        "color": "red",
+        "description": "My VERY first video on youtube. It's not about tech but it's me running for charity.",
+        "url": "https://youtu.be/SaJSNHXBLkc"
+    },
+    {
+        "title": "Quit Full Time Job at the European Space Agency",
+        "date": "March 2021",
+        "icon": "FaSpaceShuttle",
+        "color": "grey",
+        "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link the Celebration video",
+        "url": "https://www.youtube.com/watch?v=519nUxZx51w"
+    },
+    {
+        "title": "Became Docker Captain",
+        "date": "March 2021",
+        "icon": "FaDocker",
+        "color": "blue",
+        "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link a part of the story",
+        "url": "https://www.youtube.com/watch?v=vI6bQJ463Sc&t=31s&pp=ugMICgJpdBABGAE%3D"
+    }
+]
+
 }
