@@ -1,0 +1,26 @@
+{
+  "name": "Pratik Rajput",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Open-Source enthusiastic",
+  "avatar": "https://github.com/prrajput1199.png",
+  "tags": ["Open Source", "react"],
+  "links":[
+  {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PratikR61035031",
+      "icon": "FaTwitter"
+  },
+  {
+    "name": "Follow me on Github",
+    "url" :"https://github.com/prrajput1199",
+    "icon": "FaGithub"
+  },
+ {
+    "name": "Follow me on Linkedin",
+    "url" :"https://www.linkedin.com/in/pratik-rajput-154bb5234/",
+    "icon": "FaLinkedin" 
+ }
+
+  ]
+ }
