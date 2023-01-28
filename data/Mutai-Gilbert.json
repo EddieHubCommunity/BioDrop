@@ -1,24 +1,24 @@
 {
-   "name": "Gilbert Mutai",
-   "displayStatsPublic": true,
-   "type": "personal",
-   "bio": "Entrepreneur **Digital Nomad**. Travel enthusiast Swimming & Books",
-   "avatar": "https://github.com/Mutai-Gilbert.png",
-   "links": [
-     {
-       "name": "Follow me on Twitter",
-       "url": "https://twitter.com/iam_pkoech",
-       "icon": "FaTwitter"
-     },
-      {
-       "name": "Follow me on Linkedin",
-       "url": "https://www.linkedin.com/in/mutai-gilbert-2a5a42137/",
-       "icon": "FaLinkedin"
-     },
-      {
-       "name": "Follow me on Github",
-       "url": "https://github.com/Mutai-Gilbert",
-       "icon": "FaGithub"
-     }
-   ]
- }
+  "name": "Gilbert Mutai",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Entrepreneur **Digital Nomad**. Travel enthusiast Swimming & Books",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iam_pkoech",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mutai-gilbert-2a5a42137/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Mutai-Gilbert",
+      "icon": "FaGithub"
+    }
+  ]
+}

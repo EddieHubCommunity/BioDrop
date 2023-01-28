@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Frontend Developer | Open Source Enthusiast | HTML | CSS | ReactJS | DSA-Java | ",
   "tags": ["Frontend", "Open Source", "Javascript", "ReactJs", "Java"],
-  "avatar": "https://github.com/snehalsenapati23.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/SenapatiSnehal" },
     { "icon": "FaGithub", "url": "https://github.com/snehalsenapati23" },

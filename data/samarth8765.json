@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Learner",
-  "avatar": "https://github.com/samarth8765.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -20,6 +20,5 @@
       "url": "https://github.com/samarth8765",
       "icon": "FaGithub"
     }
-    
   ]
 }
