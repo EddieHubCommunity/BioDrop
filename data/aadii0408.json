@@ -1,0 +1,32 @@
+{
+  "name": "Aaditya Champaneri || Aadi ",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Artist By Choice, Engineer By Default | Python Developer",
+  
+  "tags": [ "Python", "Machine Learning", "Open Source", "Marketing", "Communities"],
+  
+  "avatar": "https://github.com/aadii0408.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aadii0408",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/aadii0408",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/aadityachampaneri0408/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aadii0408/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

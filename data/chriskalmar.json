@@ -1,0 +1,29 @@
+{
+  "name": "Chris Kalmar",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Senior Software Engineer from Vienna",
+  "avatar": "https://github.com/chriskalmar.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chriskalmar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/chriskalmar",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/@chriskalmar5046",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/chris-kalmar/",
+      "icon": "FaGitHub"
+    }
+  ]
+}
