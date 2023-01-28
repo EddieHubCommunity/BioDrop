@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 
   let profileViews = [];
   try {
-    profileViews = await ProfileStats.find({ username });
+    profileViews = await ProfileStats.find({ username }).sort({ views: -1 });
   } catch (e) {
     logger.error(e, "failed to load stats");
   }

@@ -5,6 +5,7 @@ import {
   BarChart,
   Bar,
   CartesianGrid,
+  Tooltip,
   XAxis,
   YAxis,
   ResponsiveContainer,
@@ -93,7 +94,7 @@ export default function Search({ data, profile }) {
 
       <Page>
         <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.username}
+          Your Statistics for {profile.name} ({profile.username})
         </h1>
 
         {!data.links && (
@@ -106,8 +107,9 @@ export default function Search({ data, profile }) {
               Profile views
             </h3>
             <p className="mt-1 text-sm text-gray-500">
-              How many profile visits you got per day. You have
-              {abbreviateNumber(data.profile.views)} in total.
+              How many profile visits you got per day. You have{" "}
+              {abbreviateNumber(data.profile.views)} Profile views in the last
+              30 days.
             </p>
           </div>
           <div className="w-full h-80">
@@ -117,6 +119,7 @@ export default function Search({ data, profile }) {
                 <XAxis dataKey="date" />
                 <YAxis />
                 <Bar dataKey="views" fill="#82ca9d" />
+                <Tooltip />
               </BarChart>
             </ResponsiveContainer>
           </div>
