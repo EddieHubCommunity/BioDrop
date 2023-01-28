@@ -3,19 +3,14 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Web Developer | Open Source Advocate | Content Writer ",
-  "tags": [
-    "Web Development",
-    "Open Source", 
-    "Content Writer", 
-    "Javascript"
-  ],
+  "tags": ["Web Development", "Open Source", "Content Writer", "Javascript"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/MahirMahdi" },
     { "icon": "FaTwitter", "url": "https://twitter.com/_MahirMahdi" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mahirmahdi" }
   ],
   "avatar": "https://github.com/MahirMahdi.png",
-   "links": [
+  "links": [
     {
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/MahirMahdi",
@@ -33,8 +28,8 @@
       "icon": "FaLinkedin"
     }
   ],
-   "milestones": [
-  {
+  "milestones": [
+    {
       "title": "Started Freelancing",
       "date": "January 2023",
       "icon": "FaDollarSign",
@@ -50,5 +45,5 @@
       "description": "Started Advocating for Open Source",
       "url": "https://github.com/MahirMahdi"
     }
-   ]
+  ]
 }
