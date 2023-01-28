@@ -1,0 +1,30 @@
+{
+  "name": "Vyom Jain",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Currently a student, who tries to make stuff after getting tired by things. All in for making inclusive non-toxic programming environments",
+  "avatar": "https://github.com/Vyvy-vi.png",
+  "links": [
+    {
+      "name": "Check out my Twitter",
+      "url": "https://twitter.com/Vyvy_viM",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Collaborate with me on GitHub",
+      "url": "https://github.com/Vyvy-vi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Contact me with LinkedIn",
+      "url": "https://www.linkedin.com/in/vyvy-vi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "",
+      "url": "https://www.codewars.com/users/Vyvy-vi",
+      "icon": ""
+    }
+  ],
+  "tags": ["C", "C++", "Python", "Javascript", "Typescript", "Automation"]
+}

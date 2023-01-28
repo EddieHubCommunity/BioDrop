@@ -1,0 +1,29 @@
+{
+  "name": "Jonathan Torres",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Computer Science Students, Full Stack Developer MEAN | AWS | WordPress | Python",
+  "avatar": "https://github.com/ShonnyAIO.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter :D",
+      "url": "https://twitter.com/Linux_AIO",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn :D",
+      "url": "https://www.linkedin.com/in/jonathan-torres-a5796b117",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Instagram :D",
+      "url": "https://www.instagram.com/shonny.aio",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github :D",
+      "url": "https://github.com/ShonnyAIO",
+      "icon": "FaGithub"
+    }
+  ]
+}

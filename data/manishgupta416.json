@@ -1,0 +1,29 @@
+{
+  "name": "Manish Gupta",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Engineer | Learning Full Stack Web Development |",
+  "avatar": "https://github.com/manishgupta416.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manish_gupta416",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin.",
+      "url": "https://www.linkedin.com/in/imanishgupta1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/manishgupta416",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/manish_gupta416",
+      "icon": "FaInstagram"
+    }
+  ]
+}

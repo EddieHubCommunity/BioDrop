@@ -1,0 +1,35 @@
+{
+  "name": "Nazia Suleman",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "**Front-end Developer** | **Javascript** | **React** | **Open_Source Ethusiast** | **UI Designer**",
+  "avatar": "https://github.com/Naziasuleman.png",
+  "tags": ["Open Source", "Javascript", "ReactJS"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Naziaa__",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/naziaa-0011/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Naziasuleman",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Read my Tech Blogs",
+      "url": "https://medium.com/@naziasuleman",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "My Portfolio",
+      "url": "https://www.behance.net/_naziaa",
+      "icon": "SiBehance"
+    }
+  ]
+}

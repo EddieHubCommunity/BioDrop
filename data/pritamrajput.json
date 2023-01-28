@@ -1,0 +1,26 @@
+{
+  "name": "Pritam Chauhan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Electronics Engineer turned **Frontend Developer**. Learning and exploring frontend Technologies.",
+  "avatar": "https://github.com/pritamrajput.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Im_pritam18",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/pritam-chauhan-5b28ab16a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/pritamrajput",
+      "icon": "FaGithub"
+    }
+  ],
+
+  "tags": ["Open Source", "Javascript", "ReactJS", "Frontend Developer"]
+}

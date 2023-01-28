@@ -1,0 +1,88 @@
+{
+  "name": "Shiva Rapolu",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": " HUSTLER | Full-stack Developer | Open Source",
+  "avatar": "https://github.com/ShivaRapolu01.png",
+  "tags": ["Open Source", "ReactJS", "NextJS", "JavaScript", "Typescript"],
+  "links": [
+    {
+      "name": "Don't miss my valuable posts on LinkedIn",
+      "url": "https://www.linkedin.com/in/shiva-rapolu-706a931ba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "I create helpful content-rich threads on Twitter",
+      "url": "https://www.twitter.com/shivarapolu01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my New Portfolio",
+      "url": "https://shivarapolu01-portfolio.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShivaRapolu01",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning C++",
+      "date": "2020",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I got interested in programming and started learning C++, but I stopped it after 2 months."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2021",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "I started learning web development from HTML,CSS and JS to MERN stack within 1.5 months and I found it joyful."
+    },
+    {
+      "title": "Secured 4th in CodePeak IITGxIITP",
+      "date": "Dec 2021",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "A month-long open-source competition organized by Coding club IIT Guwahati and NWOC IIT Patna. Contributed to over 10+ projects"
+    },
+    {
+      "title": "Started Practising DSA seriously",
+      "date": "Feb 2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "I have learnt C++ before but I took long break from it and DSA. I have decided to consistently practice DSA and solve as many good problems as I can"
+    },
+    {
+      "title": "Took Part in HacktoberFest",
+      "date": "Oct 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Participated in Hacktoberfest for the first time"
+    },
+    {
+      "title": "Got Summer Intern at Razorpay",
+      "date": "2022",
+      "icon": "FaTrophy",
+      "color": "green",
+      "description": "All that hardwork paid off. After getting shortlisted for many companies I got my first intern at Razorpay"
+    },
+    {
+      "title": "Social Media",
+      "date": "Dec 2022",
+      "icon": "FaGlobe",
+      "color": "blue",
+      "description": "I am trying to be active on my Twitter and LinkedIn profiles by providing valuable quality-rich useful content and sharing my learnings in form of posts, tweets and threads. Hence Do follow me on both Twitter and LinkedIn"
+    },
+    {
+      "title": "Joined Clueless as Mentor, Web Developer and Core Team Member",
+      "date": "Jan 2023",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "Clueless is a student-driven development community built with the vision to make everyone fall in love with Open-source"
+    }
+  ]
+}
