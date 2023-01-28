@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Founder of OSSPH | CTO for Parmazip | Creator of Vue Stripe",
-  "avatar": "https://github.com/JoffTiquez.png",
+
   "tags": ["Open Source", "Javascript", "VueJs", "NuxtJS", "Quasar"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/jrtiquez" },
