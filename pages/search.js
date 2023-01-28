@@ -59,7 +59,8 @@ export default function Search({ data }) {
 
   useEffect(()=>{
       setSearchQuery(search)
-      setInputValue(search && search.split('and').join(', ') || '')
+      if(search !== undefined)
+        setInputValue(search.split('and').join(', ') || '')
   },[search])
 
   function arraysEqual(a, b) {
@@ -74,7 +75,7 @@ export default function Search({ data }) {
   }
 
   const filterData = (value) => {
-    if (value.length <= 3) {
+    if (value.length < 3) {
       setThreeOrMore(false);
       setFilteredUsers(results);
       setNotFound();
