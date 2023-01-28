@@ -1,0 +1,48 @@
+{
+"name": "Md Mahabubul Hasan Sowrov⚛️",
+"displayStatsPublic": true,
+"type": "personal",
+"bio": "- Frontend Developer Specialist In React Js⚛️ - Open Source Contributor 👨🏻‍💻 - Building React Mastery Dev Community & Creating Content 🚀",
+"avatar": "https://avatars.githubusercontent.com/u/59117363?v=4",
+"tags": [
+"Open Source",
+"Frontend Development",
+"Javascript",
+"ReactJs",
+"NextJS",
+"MERN Stack"
+],
+"socials": [
+{"icon": "FaGithub", "url": "https://github.com/sowrovsarkar63"},
+{"icon": "FaTwitter", "url": "https://twitter.com/sowrovsarkar63"},
+{"icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sowrovsarkar63/"},
+{ "icon": "FaYoutube", "url": "https://www.youtube.com/@React-Mastery"}
+],
+"links": [
+{
+"group": "Socials Primary",
+"name": "GitHub: Collaborate on Open Source",
+"url": "https://github.com/sowrovsarkar63",
+"icon": "FaGithub"
+},
+{
+"group": "Socials Primary",
+"name": "Twitter: Follow me",
+"url": "https://twitter.com/sowrovsarkar63",
+"icon": "FaTwitter"
+},
+{
+"group": "Socials Primary",
+"name": "LinkedIn: Let's connect",
+"url": "https://www.linkedin.com/in/sowrovsarkar63/",
+"icon": "FaLinkedin"
+},
+{
+"group": "Socials Secondary",
+"name": "YouTube: Video Tutorial On Frontend Development, React Js, Next Js & Open Source Contribution",
+"url": "https://www.youtube.com/@React-Mastery",
+"icon": "FaYoutube"
+}
+]
+
+}
