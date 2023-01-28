@@ -57,7 +57,14 @@ export default function Navbar() {
   const authControls = () => (
     <>
       {!session && (
-        <NavLink item={{ name: "Login", url: "" }} onClick={() => signIn()} />
+        <NavLink
+          item={{ name: "Login", url: "" }}
+          onClick={(e) => {
+            e.preventDefault();
+            setIsOpen(false);
+            signIn();
+          }}
+        />
       )}
 
       {session && (

@@ -24,10 +24,10 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
       href={item.url}
       className={className}
       aria-current="page"
-      onClick={() => {
+      onClick={(e) => {
         setIsOpen && setIsOpen(false);
         if (onClick) {
-          onClick();
+          onClick(e);
         }
       }}
     >
