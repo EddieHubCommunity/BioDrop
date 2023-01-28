@@ -1,5 +1,6 @@
 import DocsLayout from "../../../components/layouts/DocsLayout.js";
 import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
 
 ## Events
 
@@ -17,7 +18,7 @@ All future events also appear on the Events page for the app.
 
 2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name. For example `2023-09-13-javascript-conference.json`.
 
-_If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
 3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date` and `url`, which will look like this:
 
@@ -49,7 +50,7 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
 | cfpClose               | false    | The date of when the CFP to submit a talk closes            |
 | url                    | true     | Where can people learn more about the event                 |
 
-4. Now you can commit your file and create a Pull Request. For more details please see [Editing guide](/docs/how-to-guides/editing)
+4. Now you can commit your file and create a Pull Request. For more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>

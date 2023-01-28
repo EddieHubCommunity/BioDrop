@@ -9,7 +9,7 @@
     { "icon": "FaGithub", "url": "https://github.com/AbbeyIT" },
     { "icon": "FaMastodon", "url": "https://fosstodon.org/@abbey" }
   ],
-  "avatar": "https://github.com/AbbeyIT.png",
+
   "links": [
     {
       "name": "Follow my Open Source journey on GitHub",
