@@ -15,7 +15,7 @@ export default function loadProfiles(profiles) {
         name: json.name,
         bio: json.bio,
         displayStatsPublic: json.displayStatsPublic,
-        avatar: json.avatar,
+        avatar: `https://github.com/${profile.username}.png`,
         tags: json.tags,
       };
     } catch (e) {

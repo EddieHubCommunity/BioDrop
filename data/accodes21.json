@@ -2,7 +2,7 @@
   "name": "Aarya Chopkar",
   "type": "personal",
   "bio": "Frontend Developer | Open Source Enthusiast | Python Dev | CSE Student",
-  "avatar": "https://github.com/accodes21.png",
+
   "tags": ["Open Source", "Javascript", "ReactJS", "Python"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/ChopkarAarya" },
