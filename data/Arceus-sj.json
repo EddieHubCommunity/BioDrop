@@ -5,7 +5,7 @@
   "bio": "Open Source Enthusiast | An Explorer 👨‍🚀 | TechGeektion  | UnderGrad Nerd 👨🏻‍💻",
   "avatar": "https://github.com/Arceus-sj.png",
   "tags": [
-    "Open Source", 
+    "Open Source",
     "Javascript",
     "AI",
     "Node JS",
@@ -15,9 +15,15 @@
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/cypherJana" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/Shantanu-Jana/"},
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/Shantanu-Jana/"
+    },
     { "icon": "FaGithub", "url": "https://github.com/Arceus-sj" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/it.s_just_shan/" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/it.s_just_shan/"
+    }
   ],
   "links": [
     {
@@ -27,18 +33,15 @@
       "color": "#22ACEE"
     },
     {
-     "name": "Let's connect on LinkedIn",
+      "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/Shantanu-Jana/",
       "icon": "SiLinkedin"
     },
     {
       "name": "Connect-Contribute-Code With me @GitHub",
-      "url":"https://github.com/Arceus-sj",
+      "url": "https://github.com/Arceus-sj",
       "icon": "SiGithub",
       "color": "#171515"
     }
-    
   ]
 }
-
-

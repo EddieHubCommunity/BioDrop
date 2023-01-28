@@ -4,17 +4,13 @@
   "displayStatsPublic": false,
   "bio": "IT Application Consultant SAP FI/CO",
   "avatar": "https://github.com/schmelto.png",
-  "tags": [
-    "SAP",
-    "ABAP"
-  ],
+  "tags": ["SAP", "ABAP"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/schmelto2" },
     { "icon": "FaGithub", "url": "https://github.com/schmelto" },
     { "icon": "FaInstagram", "url": "https://instagram.com/schmelto" }
   ],
-  "testimonials": [
-  ],
+  "testimonials": [],
   "links": [
     {
       "name": "Portfolio Website",
@@ -27,6 +23,5 @@
       "icon": "FaRegMoneyBillAlt"
     }
   ],
-  "milestones": [
-  ]
+  "milestones": []
 }

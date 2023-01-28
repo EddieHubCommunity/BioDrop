@@ -3,20 +3,17 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": " Web Developer | Open Source Contributer | Ex-SDE Intern @TigerAnalytics | Coder | Communities",
-  "avatar" : "https://pbs.twimg.com/profile_images/1618252955773198336/Na8GobmE_400x400.jpg",
+  "avatar": "https://pbs.twimg.com/profile_images/1618252955773198336/Na8GobmE_400x400.jpg",
   "links": [
-  {
-     "name": "follow me on Twitter",
-     "url": "https://twitter.com/pocco_loco",
-     "icon": "FaTwitter"
-  },
-  {
-    "name" : "follow me on Github",
-    "url": "https://github.com/afreen0102",
-    "icon" : "FaGithubAlt"
-  }
- ]
+    {
+      "name": "follow me on Twitter",
+      "url": "https://twitter.com/pocco_loco",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "follow me on Github",
+      "url": "https://github.com/afreen0102",
+      "icon": "FaGithubAlt"
+    }
+  ]
 }
-  
-  
-  
