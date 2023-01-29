@@ -2,7 +2,7 @@
   "name": "Kavya Madasu",
   "displayStatsPublic": false,
   "type": "personal",
-  "bio": "Iam a full stack Java Developer"
+  "bio": "Iam a full stack Java Developer",
   "links": [
     {
       "name": "Twitter",
@@ -15,8 +15,8 @@
       "icon": "FaGithub"
     },{
       "name": "LinkedIn",
-      "url": "www.linkedin.com/in/kavyamadasu-782337171",
-      "icon": "FaLinkedIn"
+      "url": "https://www.linkedin.com/in/kavyamadasu-782337171",
+      "icon": "FaLinkedin"
     }
   ]
 }
