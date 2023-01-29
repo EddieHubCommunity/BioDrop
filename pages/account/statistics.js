@@ -38,7 +38,7 @@ export async function getServerSideProps(context) {
   let profile = {};
   try {
     const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/amandamartin-dev`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
     );
     profile = await resUser.json();
   } catch (e) {
