@@ -8,8 +8,9 @@ import PageHead from "../components/PageHead";
 export async function getServerSideProps(context) {
   let users = [];
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users?per_page=1`);
     users = await res.json();
+    console.log(users.length)
   } catch (e) {
     console.log("ERROR search users", e);
   }

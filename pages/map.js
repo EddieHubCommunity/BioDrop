@@ -8,22 +8,35 @@ const DynamicMap = dynamic(() => import("../components/map/map"), {
 //hardcoded my name for testing - replace with API
 export async function getServerSideProps(context) {
   let users = [];
+  let allUsers = [];
+  let usersWithLoc = [];
   try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/amandamartin-dev/`
+//get all users
+const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users?page=1`);
+     allUsers = await res.json();
+     let sample = allUsers.slice(0,10);
+console.log(sample)
+usersWithLoc = await Promise.all(
+  sample.map(async(user) =>{
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${user.username}/`
     );
-    users = await resUser.json();
-    // const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    // users = await res.json();
+    
+    users = await response.json();
+    
+   return users
+  })
+)
+
   } catch (e) {
     console.log("ERROR search users", e);
   }
 
   return {
-    props: { users },
+    props: { usersWithLoc },
   };
 }
 
-export default function Map({users}) {
-  return <DynamicMap users={users} />;
+export default function Map({usersWithLoc}) {
+  return <DynamicMap users={usersWithLoc} />;
 }
