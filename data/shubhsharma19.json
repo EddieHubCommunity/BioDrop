@@ -5,14 +5,12 @@
   "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Designer and Content Creator | Tech Blogger | Music Producer",
   "tags": [
     "Open Source",
-    "Content Writer",
+    "Content Creation",
     "Technical Writing",
     "Blogging",
     "Web3",
     "Fullstack Web Development",
-    "Designing",
-    "UIUX",
-    "Content Creation"
+    "Designing"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/code_shubh" },
@@ -67,7 +65,7 @@
   "milestones": [
     {
       "title": "Started contributing to Open Source",
-      "date": "December, 2022",
+      "date": "January, 2023",
       "icon": "FaGithub",
       "color": "green",
       "description": "Advocating for Open Source",
@@ -86,8 +84,7 @@
       "date": "October, 2022",
       "icon": "SiHashnode",
       "color": "blue",
-      "description": "Documenting my Journey through technical blogs",
-      "description": "Documenting my Journey through Technical Writing",
+      "description": "Documenting my journey through Technical Blogs",
       "url": "https://shubhsharma19.hashnode.dev/"
     },
     {
@@ -97,14 +94,6 @@
       "color": "orange",
       "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
       "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
-    },
-    {
-      "title": "Started learning about Programming",
-      "date": "July, 2020",
-      "icon": "FaGithub",
-      "color": "blue",
-      "description": "Started learning C++, Python and Html",
-      "url": "https://github.com/shubhsharma19"
     }
   ]
 }
