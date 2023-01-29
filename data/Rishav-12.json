@@ -2,9 +2,13 @@
   "name": "Rishav Mitra",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Student | Learning | Contributing to Open Source",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/rishavmitra15" },
+    { "icon": "FaLinkedinIn", "url": "https://www.linkedin.com/in/rishav-mitra" }
+  ],
+  "bio": "**Learning** new stuff | **Collaborating** on Open Source | Love **Python & JavaScript**",
 
-  "tags": ["Open Source", "Python", "Data Science", "JavaScript"],
+  "tags": ["Open Source", "Python", "Flask", "Data Science", "JavaScript", "NodeJS", "Web Development"],
   "links": [
     {
       "name": "My Open Source journey on GitHub",
@@ -18,7 +22,7 @@
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/rishav-mitra-69855a246",
+      "url": "https://www.linkedin.com/in/rishav-mitra",
       "icon": "FaLinkedin"
     },
     {
