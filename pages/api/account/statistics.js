@@ -21,6 +21,7 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const username = session.username;
   await connectMongo();
 
   let profileData = {};
