@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "SE Undergrad | OpenSource Enthusiast | Freelance Web Developer ",
-  "avatar": "https://github.com/malicodes2.png",
+
   "tags": ["React JS", "JavaScript", "Front-end Developer", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/malicodes2" },

@@ -1,9 +1,9 @@
-# 1.68.0 (2023-01-27)
+## 1.69.2 (2023-01-29)
 
 
-### Features
+### Bug Fixes
 
-* Add data persistency and improve docs - Docker Compose ([#4100](https://github.com/EddieHubCommunity/LinkFree/issues/4100)) ([d1e0725](https://github.com/EddieHubCommunity/LinkFree/commit/d1e0725c372e33d5649680b459781d68d97d2932))
+* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
 
 
 

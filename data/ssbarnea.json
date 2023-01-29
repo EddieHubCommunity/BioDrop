@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Python Software Engineer",
-  "avatar": "https://github.com/ssbarnea.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/sbarnea" },
     { "icon": "FaGithub", "url": "https://github.com/ssbarnea" },
