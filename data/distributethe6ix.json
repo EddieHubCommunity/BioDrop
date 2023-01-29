@@ -16,7 +16,7 @@
     { "icon": "FaGithub", "url": "https://github.com/distributethe6ix" },
     { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/mwijay/" }
   ],
-  "avatar": "https://github.com/distributethe6ix.png",
+
   "links": [
     {
       "name": "DevRel thoughts, Kubernetes, Service Mesh, and Fun",

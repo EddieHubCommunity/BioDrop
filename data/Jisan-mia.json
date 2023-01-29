@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Front-End Developer — JavaScript, React.js, Next.js",
-  "avatar": "https://github.com/Jisan-mia.png",
+
   "tags": ["NextJS", "Typescript", "Javascript", "TailwindCSS", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/JisanMia4" },
