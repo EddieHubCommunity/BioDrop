@@ -24,7 +24,7 @@ export default function UserProfile({ BASE_URL, data }) {
             </div>
           )}
           <FallbackImage
-            src={data.avatar}
+            src={`https://github.com/${data.username}.png`}
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}

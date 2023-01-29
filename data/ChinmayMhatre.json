@@ -3,8 +3,14 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Front End Developer | **Open Source** Collaborator | Writer",
-  "avatar": "https://github.com/ChinmayMhatre.png",
-  "tags": ["Open Source", "NextJS", "TailwindCSS", "JavaScript",  "React Native"],
+
+  "tags": [
+    "Open Source",
+    "NextJS",
+    "TailwindCSS",
+    "JavaScript",
+    "React Native"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/chinmaysmhatre" },
     { "icon": "FaGithub", "url": "https://github.com/ChinmayMhatre" },
@@ -68,7 +74,7 @@
       "icon": "FaCode",
       "color": "red"
     },
-     {
+    {
       "title": "Writing Blogs",
       "description": "Started writing blogs on dev.to",
       "date": "May 2021",

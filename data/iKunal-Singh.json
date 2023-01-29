@@ -4,7 +4,7 @@
   "displayStatsPublic": true,
   "bio": "**Engineering undergrad** | **Blogger** | **Music Producer** | **Bringing imagination to life**",
   "tags": ["Open Source", "DevOps", "Linux", "Docker", "Kubernetes"],
-  "avatar": "https://github.com/iKunal-Singh.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/_ikunalsingh" },
     { "icon": "FaGithub", "url": "https://github.com/iKunal-Singh" },
