@@ -37,6 +37,11 @@
       "name": "My Themes",
       "url": "https://marketplace.visualstudio.com/publishers/PriyankarPal",
       "icon": "FaCode"
+    },
+     {
+      "name": "Free Coding Books",
+      "url": "https://github.com/priyankarpal/FreeCodingBooks",
+      "icon": "SiBookstack"
     }
   ],
   "milestones": [
