@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "DevOps Engineer | Community Organizer @ **Schrödinger Hat** | IT Instructor and Mentor",
-  "avatar": "https://github.com/davideimola.png",
+
   "tags": ["Open Source", "Go", "DevOps", "Kubernetes", "TypeScript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/DavideImola" },

@@ -2,7 +2,7 @@
   "name": "Adil Rehman",
   "type": "personal",
   "bio": "Software Engineer | Open Source Enthusiast!",
-  "avatar": "https://github.com/adilwahla.png",
+
   "links": [
     {
       "name": "Follow me on LinkedIn",
@@ -41,7 +41,7 @@
     },
     {
       "title": "Co-Founder Of BrahimFords",
-      "image": "https://github.com/adilwahla.png",
+
       "date": "June 2021",
       "icon": "FaGithub",
       "color": "red",

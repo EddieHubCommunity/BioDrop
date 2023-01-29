@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "An Economist turned **Web Developer/Data Scientist**. Love reading and writing",
-  "avatar": "https://github.com/dr-adada.png",
+
   "tags": ["Python", "Data Science", "Front-end"],
   "links": [
     {
@@ -11,20 +11,20 @@
       "url": "https://twitter.com/pythoncodestar",
       "icon": "FaTwitter"
     },
-  {
-    "name": "Connect with me on LinkedIn",
+    {
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/abdul-rahim-adada-mohammed-55a5b545/",
       "icon": "FaLinkedin"
-  },
-  {
-    "name": "Connect with me on Facebook",
+    },
+    {
+      "name": "Connect with me on Facebook",
       "url": "https://www.facebook.com/profile.php?id=100073926426580",
       "icon": "FaFacebook"
-  },
-  {
-    "name": "Connect with me on Github",
+    },
+    {
+      "name": "Connect with me on Github",
       "url": "https://github.com/dr-adada",
       "icon": "FaGithub"
-  }
+    }
   ]
 }

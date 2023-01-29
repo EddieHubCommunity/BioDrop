@@ -11,7 +11,7 @@ export default function UserCard({ profile }) {
     >
       <div className="flex justify-center relative">
         <FallbackImage
-          src={profile.avatar}
+          src={`https://github.com/${profile.username}.png`}
           alt={`Profile picture of ${profile.name}`}
           width={80}
           height={80}
@@ -28,7 +28,9 @@ export default function UserCard({ profile }) {
         <h3 className="text-xl justify-center text-center text-orange-600 font-bold mb-2">
           {profile.name}
         </h3>
-        <ReactMarkdown className="text-center line-clamp-5">{profile.bio}</ReactMarkdown>
+        <ReactMarkdown className="text-center line-clamp-5">
+          {profile.bio}
+        </ReactMarkdown>
       </div>
     </Link>
   );

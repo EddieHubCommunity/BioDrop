@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
-  "avatar": "https://github.com/priyankarpal.png",
+
   "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
 
   "socials": [
@@ -32,6 +32,11 @@
       "name": "My Portfolio",
       "url": "https://itspp.vercel.app",
       "icon": "FaGlobe"
+    },
+    {
+      "name": "My Themes",
+      "url": "https://marketplace.visualstudio.com/publishers/PriyankarPal",
+      "icon": "FaCode"
     }
   ],
   "milestones": [
@@ -51,14 +56,14 @@
     },
     {
       "title": "Started Open Source Contributions",
-      "image": "https://github.com/priyankarpal.png",
+
       "date": "November 2022",
       "icon": "SiOpensourceinitiative",
       "color": "grey",
       "description": "Started learning how to contribute to Open Source"
     },
     {
-      "title": "Again started Publishing Blogs",
+      "title": "Again Started Publishing Blogs",
       "date": "November 2022",
       "icon": "SiHashnode",
       "color": "grey",
