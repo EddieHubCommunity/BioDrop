@@ -4,14 +4,14 @@ export default {
   component: UserLink,
 };
 
-export const Basic = (args) => <UserLink {...args} />;
-
-Basic.args = {
-  link: {
-    url: "https://www.youtube.com",
-    clicks: 2,
-    name: "My youtube channel",
-  },
-  username: "test",
-  displayStatsPublic: true,
+export const Basic = {
+  args: {
+    link: {
+      url: "https://www.youtube.com",
+      clicks: 2,
+      name: "My youtube channel",
+    },
+    username: "test",
+    displayStatsPublic: true,
+  }
 };

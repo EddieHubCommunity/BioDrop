@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "../Link";
 
 export default function NavLink({ path, item, mode, setIsOpen }) {
   let className =

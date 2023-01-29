@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Frontend Web Developer | Smart Contract Developer | Web2 and Web3 Fullstack Developer",
-  "avatar": "https://github.com/oleanjikingcode.png",
+
   "tags": ["Javascript", "Typescript", "NextJS", "Freelancer", "Solidity"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/oleanji_sol" },

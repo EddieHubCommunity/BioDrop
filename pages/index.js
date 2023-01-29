@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
@@ -13,6 +12,7 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
+import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
@@ -183,14 +183,7 @@ export default function Home({ total, today }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree - connect to your audience with a single link</title>
-        <meta
-          name="description"
-          content="Open Source alternative to LinkTree"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead />
       <main>
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
           <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
@@ -395,7 +388,7 @@ export default function Home({ total, today }) {
 
         <div className="relative bg-white py-24 sm:py-32 lg:py-40">
           <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-            <h2 className="text-lg font-semibold text-indigo-600">
+            <h2 className="font-semibold text-indigo-600 text-3xl">
               Getting Started
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -409,29 +402,29 @@ export default function Home({ total, today }) {
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
-                            <feature.icon
-                              className="h-8 w-8 text-white"
-                              aria-hidden="true"
-                            />
-                          </span>
-                        </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
-                          <Link
-                            href={feature.path}
-                            className="text-gray-900 hover:text-indigo-600 hover:underline"
-                          >
+                    <Link aria-label="Go to ${feature.name} page"
+                      href={feature.path}
+                      className="text-gray-900 group"
+                    >
+                      <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div className="-mt-6">
+                          <div>
+                            <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                              <feature.icon
+                                className="h-8 w-8 text-white"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </div>
+                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                             {feature.name}
-                          </Link>
-                        </h3>
-                        <p className="mt-5 text-base leading-7 text-gray-600">
-                          {feature.description}
-                        </p>
+                          </h3>
+                          <p className="mt-5 text-base leading-7 text-gray-600">
+                            {feature.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
@@ -442,7 +435,6 @@ export default function Home({ total, today }) {
         <Link
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
-          target="_blank"
         >
           <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider

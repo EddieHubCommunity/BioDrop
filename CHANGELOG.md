@@ -1,9 +1,9 @@
-# 1.56.0 (2023-01-21)
+## 1.69.2 (2023-01-29)
 
 
-### Features
+### Bug Fixes
 
-* abbreviate numbers ([#3744](https://github.com/EddieHubCommunity/LinkFree/issues/3744)) ([ad2025f](https://github.com/EddieHubCommunity/LinkFree/commit/ad2025fb810ffa359e0a67a07f5b3980528526e9)), closes [#3484](https://github.com/EddieHubCommunity/LinkFree/issues/3484)
+* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
 
 
 
