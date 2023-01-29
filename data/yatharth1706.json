@@ -1,0 +1,28 @@
+{
+	"name": "Yatharth Verma",
+	"displayStatsPublic": true,
+	"type": "personal",
+	"bio": "Full Stack Software Engineer. Currently working @LeadSquared. Love designing websites and bringing them to life using my skills 🚀",
+
+	"links": [{
+			"name": "Twitter",
+			"url": "https://twitter.com/yatharth170699",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Youtube",
+			"url": "https://www.youtube.com/c/YatharthVerma/",
+			"icon": "FaYoutube"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/yatharth1706",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Portfolio",
+			"url": "https://yatharth-portfolio.vercel.app/",
+			"icon": "SiWebmoney"
+		}
+	]
+}
