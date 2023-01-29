@@ -1,6 +1,3 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../config/mongo";
 import logger from "../../../config/logger";
 import Profile from "../../../models/Profile";
