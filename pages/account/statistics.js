@@ -16,7 +16,6 @@ import Alert from "../../components/Alert";
 import Page from "../../components/Page";
 import PageHead from "../../components/PageHead";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
-import { FaSort } from "react-icons/fa";
 
 export async function getServerSideProps(context) {
   const session = await unstable_getServerSession(
