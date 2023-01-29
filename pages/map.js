@@ -15,7 +15,7 @@ export async function getServerSideProps(context) {
 const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users?page=1`);
      allUsers = await res.json();
      //increase num here to test with more data
-     let sample = allUsers.slice(0,15);
+     let sample = allUsers.slice(0,10);
 
 usersWithLoc = await Promise.all(
   sample.map(async(user) =>{

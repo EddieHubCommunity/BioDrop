@@ -32,7 +32,7 @@ export default function Map({ users }) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MarkerCluster>
-      {users.filter(user => user.location != {}).map((user) => (
+      {users.filter(user => user.location != null).map((user) => (
         
         <div key={user.username}>
           <Marker
