@@ -46,7 +46,13 @@
       "icon": "FaSpotify"
     }
   ],
-  "testimonials": ["CBID2", "eddiejaoude", "krshkun", "stevenovak123", "AussieDev81"],
+  "testimonials": [
+    "CBID2",
+    "eddiejaoude",
+    "krshkun",
+    "stevenovak123",
+    "AussieDev81"
+  ],
   "milestones": [
     {
       "title": "Received the Iraq Medal",
