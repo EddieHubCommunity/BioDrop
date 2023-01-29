@@ -1,0 +1,14 @@
+{
+  "name": "Swapnil Patle",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend Developer,Youtuber",
+  "avatar": "https://github.com/SwapnilPatle01.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SwapnilPatle01",
+      "icon": "FaTwitter"
+    }
+  ]
+}
