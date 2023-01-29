@@ -3,9 +3,15 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Artist By Choice, Engineer By Default | Python Developer",
-  
-  "tags": [ "Python", "Machine Learning", "Open Source", "Marketing", "Communities"],
-  
+
+  "tags": [
+    "Python",
+    "Machine Learning",
+    "Open Source",
+    "Marketing",
+    "Communities"
+  ],
+
   "avatar": "https://github.com/aadii0408.png",
   "links": [
     {
