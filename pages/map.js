@@ -5,7 +5,7 @@ const DynamicMap = dynamic(() => import("../components/map/map"), {
   ssr: false,
 });
 
-//hardcoded my name for testing - replace with API
+//testing garbage until API solution
 export async function getServerSideProps(context) {
   let users = [];
   let allUsers = [];
@@ -14,8 +14,9 @@ export async function getServerSideProps(context) {
 //get all users
 const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users?page=1`);
      allUsers = await res.json();
-     let sample = allUsers.slice(0,10);
-console.log(sample)
+     //increase num here to test with more data
+     let sample = allUsers.slice(0,15);
+
 usersWithLoc = await Promise.all(
   sample.map(async(user) =>{
     const response = await fetch(
@@ -33,9 +34,10 @@ usersWithLoc = await Promise.all(
   }
 
   return {
-    props: { usersWithLoc },
+    props: { allUsers },
   };
 }
+//end testing garbage api calls
 
 export default function Map({usersWithLoc}) {
   return <DynamicMap users={usersWithLoc} />;

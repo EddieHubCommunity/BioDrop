@@ -1,11 +1,12 @@
 import React from "react";
 import PageHead from "../PageHead";
 import Page from "../Page";
+import MarkerCluster from "./MarkerCluster";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
 
-//TODO: map through users, add marker cluster, fix height for responsive- leaflet requires a height value unless the parent is defined 
+
 export default function Map({ users }) {
   console.log(users);
   return (
@@ -20,18 +21,20 @@ export default function Map({ users }) {
       style={{ height: "100vh",
        width:"width: 100vw",
         zIndex: 10 }}
-      center={[51.505, -0.09]}
-      zoom={3}
+      center={[16.843908, -18.09]}
+      zoom={2}
       zoomControl={true}
       scrollWheelZoom={true}
+      maxBounds={null}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {/* {users.filter(user => user.location).map((user) => (
+      <MarkerCluster>
+      {users.filter(user => user.location != {}).map((user) => (
         
-        <div>
+        <div key={user.username}>
           <Marker
             icon={L.icon({
               className: "rounded-full",
@@ -51,7 +54,8 @@ export default function Map({ users }) {
             </Popup>
           </Marker>
           </div>
-           ))} */}
+           ))}
+           </MarkerCluster>
     </MapContainer>
     </Page>
 </>
