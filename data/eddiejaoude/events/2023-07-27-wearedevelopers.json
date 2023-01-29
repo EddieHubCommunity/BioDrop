@@ -1,0 +1,11 @@
+{
+  "isInPerson": true,
+  "color": "#fe2043",
+  "name": "WeAreDevelopers World Congress",
+  "description": "SHAPING THE FUTURE TOGETHER. Every year, we are dedicated to bringing together software developers and tech decision-makers from all around the globe to discuss and learn about the latest trends and innovations shaping our world.",
+  "date": {
+    "start": "2023-07-27T09:00:00.000+00:00",
+    "end": "2023-07-28T17:00:00.000+00:00"
+  },
+  "url": "https://www.wearedevelopers.com/world-congress"
+}

@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Frontend Developer, Open Source Enthusiast & Content Creator",
-  "avatar": "https://github.com/balastrong.png",
+
   "tags": ["Open Source", "GitHub", "vscode", "Typescript"],
   "socials": [
     { "icon": "FaYoutube", "url": "https://youtube.com/DevLeonardo" },
