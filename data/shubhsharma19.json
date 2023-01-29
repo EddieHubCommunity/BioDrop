@@ -66,14 +66,11 @@
   ],
   "milestones": [
     {
-      "title": "Joined Open Source",
+      "title": "Started contributing to Open Source",
       "date": "December, 2022",
-      "title": "Open Source Contribution",
-      "date": "January, 2023",
       "icon": "FaGithub",
-      "color": "red",
-      "description": "Started Advocating for Opensource Contributions",
-      "description": "Started Advocating for Open Source Contributions",
+      "color": "green",
+      "description": "Advocating for Open Source",
       "url": "https://github.com/shubhsharma19"
     },
     {
@@ -97,7 +94,7 @@
       "title": "Participated in GDSC Challenge, Commit your code",
       "date": "October, 2021",
       "icon": "FaGithub",
-      "color": "blue",
+      "color": "orange",
       "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
       "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
     },
