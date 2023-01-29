@@ -1,9 +1,9 @@
-# 1.67.0 (2023-01-26)
+# 1.69.0 (2023-01-28)
 
 
 ### Features
 
-* whole docs card clickable ([#3828](https://github.com/EddieHubCommunity/LinkFree/issues/3828)) ([dc78480](https://github.com/EddieHubCommunity/LinkFree/commit/dc78480a7d1371595222e35c88fa77f0cf04a816))
+* use github profile [#4018](https://github.com/EddieHubCommunity/LinkFree/issues/4018) ([#4021](https://github.com/EddieHubCommunity/LinkFree/issues/4021)) ([9fb30d2](https://github.com/EddieHubCommunity/LinkFree/commit/9fb30d2dc35dc6c9bbd2f2329aed71b6d88b1787))
 
 
 

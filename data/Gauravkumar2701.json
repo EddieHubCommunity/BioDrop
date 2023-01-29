@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Backend Developer | DevOps and OpenSource Lover | Freelancer",
-  "avatar": "https://github.com/GauravKumar2701.png",
+
   "tags": ["Open Source", "Javascript", "Kubernetes", "Go", "Docker", "Python"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Gauravkumar_01" },
