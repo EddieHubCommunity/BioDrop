@@ -7,7 +7,7 @@
      {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/akshaykamath45/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Twitter",
@@ -17,7 +17,7 @@
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/akshaykamath45",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     }
   ]
 }
