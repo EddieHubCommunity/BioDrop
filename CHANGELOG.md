@@ -1,9 +1,9 @@
-## 1.69.1 (2023-01-29)
+## 1.69.2 (2023-01-29)
 
 
 ### Bug Fixes
 
-* removing unused imports ([#4215](https://github.com/EddieHubCommunity/LinkFree/issues/4215)) ([5a98e58](https://github.com/EddieHubCommunity/LinkFree/commit/5a98e58517c919ae42bbfecf5fc28ac25d4bad96))
+* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
 
 
 
