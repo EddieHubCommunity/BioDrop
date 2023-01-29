@@ -1,9 +1,9 @@
-# 1.69.0 (2023-01-28)
+## 1.69.1 (2023-01-29)
 
 
-### Features
+### Bug Fixes
 
-* use github profile [#4018](https://github.com/EddieHubCommunity/LinkFree/issues/4018) ([#4021](https://github.com/EddieHubCommunity/LinkFree/issues/4021)) ([9fb30d2](https://github.com/EddieHubCommunity/LinkFree/commit/9fb30d2dc35dc6c9bbd2f2329aed71b6d88b1787))
+* removing unused imports ([#4215](https://github.com/EddieHubCommunity/LinkFree/issues/4215)) ([5a98e58](https://github.com/EddieHubCommunity/LinkFree/commit/5a98e58517c919ae42bbfecf5fc28ac25d4bad96))
 
 
 
