@@ -3,7 +3,7 @@ import Script from "next/script";
 export default function BlankLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
-      <main>{children}</main>
+      {children}
 
       {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (
         <>
