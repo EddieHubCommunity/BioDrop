@@ -2,9 +2,9 @@
   "name": "Akshay Kamath",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Learning  **Web Development**.Computer Engineering Student"
-}
-"links": [
+  "bio": "Learning  **Web Development**.Computer Engineering Student",
+  "avatar":"https://github.com/akshaykamath45.png",
+  "links": [
      {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/akshaykamath45/",
@@ -15,11 +15,10 @@
       "url": "https://twitter.com/akshaykamath_45",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/akshaykamath45",
       "icon": "FaGitHub"
-    },
-  
+    }
   ]
+}
