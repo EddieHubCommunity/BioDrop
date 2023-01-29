@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "**MERN** | **DevOps** Enthusiast | **Open Source** |",
   "tags": ["Open Source", "DevOps", "Node.js"],
-  "avatar": "https://github.com/Abhay-raj19.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/abhayraj423" },
     { "icon": "FaGithub", "url": "https://github.com/abhay-raj19" },

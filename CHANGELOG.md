@@ -1,9 +1,9 @@
-## 1.68.1 (2023-01-27)
+# 1.69.0 (2023-01-28)
 
 
-### Bug Fixes
+### Features
 
-* improve testimonials action ([#4117](https://github.com/EddieHubCommunity/LinkFree/issues/4117)) ([9f3d0a3](https://github.com/EddieHubCommunity/LinkFree/commit/9f3d0a365097992db2894f062deda312fbed2271))
+* use github profile [#4018](https://github.com/EddieHubCommunity/LinkFree/issues/4018) ([#4021](https://github.com/EddieHubCommunity/LinkFree/issues/4021)) ([9fb30d2](https://github.com/EddieHubCommunity/LinkFree/commit/9fb30d2dc35dc6c9bbd2f2329aed71b6d88b1787))
 
 
 
