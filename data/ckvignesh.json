@@ -2,7 +2,7 @@
   "name": "C K Vignesh",
   "type": "personal",
   "bio": "Programmer",
-  "avatar": "https://github.com/ckvignesh.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -31,7 +31,7 @@
     },
     {
       "title": "Started #100DaysOfCode",
-      "image": "https://github.com/ckvignesh.png",
+
       "date": "25 October 2021",
       "icon": "FaGithub",
       "color": "red",

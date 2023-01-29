@@ -1,29 +1,34 @@
 {
-  "name": "Sakib Ahmed",
+  "name": "DevvSakib",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Frontend Engineer | Open Source Enthusiast!",
-  "avatar": "https://github.com/devvsakib.png",
-  "tags": ["javascript", "react"],
+  "bio": "Frontend Engineer | Open Source Enthusiast | WordPress Expert",
+
+  "tags": ["javascript", "react", "Open Source"],
   "socials": [
-    { "icon": "twitter", "url": "https://twitter.com/devvsakib" },
-    { "icon": "github", "url": "https://github.com/devvsakib" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/devvsakib" },
+    { "icon": "FaGithub", "url": "https://github.com/devvsakib" }
   ],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "GitHub: Follow me",
       "url": "https://github.com/devvsakib",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Twitter: Follow me",
       "url": "https://twitter.com/devvsakib",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on Linkedin",
+      "name": "Linkedin: Connect With Me",
       "url": "https://www.linkedin.com/in/devvsakib",
-      "icon": "FaGithub"
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "DevDot: Read article",
+      "url": "https://dev.to/devvsakib",
+      "icon": "FaDev"
     }
   ]
 }

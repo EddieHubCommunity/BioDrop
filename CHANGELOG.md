@@ -1,9 +1,9 @@
-# 1.63.0 (2023-01-25)
+## 1.69.2 (2023-01-29)
 
 
-### Features
+### Bug Fixes
 
-* group links [#2437](https://github.com/EddieHubCommunity/LinkFree/issues/2437) ([#3961](https://github.com/EddieHubCommunity/LinkFree/issues/3961)) ([171a16b](https://github.com/EddieHubCommunity/LinkFree/commit/171a16be83962115f19d37fccb65ecceba099590))
+* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
 
 
 
