@@ -2,7 +2,7 @@
   "name": "Piyush Goyani",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Full Stack Software Engineer(Majorly Front), Occasionally Python Coder, ML Enthusiastic, Plant Based Programmer",
+  "bio": "Full Stack Software Engineer(Majorly Front), Occasionally Python Coder, ML Enthusiastic, Plant Based Programmer | Blogger",
   "avatar": "https://github.com/SaraJaoude.png",
   "links": [
     {
@@ -41,5 +41,15 @@
       "url": "https://piyushgoyani.thesourcepedia.org/",
       "icon": "SiMicrodotblog"
     }
+  ],
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "Node.js",
+    "Vue.js",
+    "Nuxt.js",
+    "TailwindCSS",
+    "GraphQL",
+    "PostgreSQL"
   ]
 }
