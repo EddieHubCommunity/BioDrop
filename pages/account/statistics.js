@@ -16,6 +16,7 @@ import Alert from "../../components/Alert";
 import Page from "../../components/Page";
 import PageHead from "../../components/PageHead";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
+import { FaSort } from "react-icons/fa";
 
 export async function getServerSideProps(context) {
   const session = await unstable_getServerSession(
@@ -33,11 +34,11 @@ export async function getServerSideProps(context) {
     };
   }
   const username = session.username;
-
+  
   let profile = {};
   try {
     const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/amandamartin-dev`
     );
     profile = await resUser.json();
   } catch (e) {
@@ -64,6 +65,7 @@ export async function getServerSideProps(context) {
       }
     );
     data = await res.json();
+
   } catch (e) {
     console.log("ERROR get user's account statistics", e);
   }
@@ -77,7 +79,9 @@ export default function Search({ data, profile }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
-  const dailyViews = data.profile.daily.slice(-30).map((day) => {
+  
+  let sortedByDate = data.profile.daily.sort((a, b) => new Date(a.date) - new Date(b.date));
+  const dailyViews = sortedByDate.slice(-30).map((day) => {
     return {
       views: day.views,
       date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
