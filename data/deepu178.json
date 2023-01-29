@@ -3,11 +3,23 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Academic nerd turned **Developer**. finding issues on Stackoverflow",
+  
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Reactjs",
+    "Node.js",
+    "MongoDB",
+    "TailwindCSS",
+    "REST APIs"
+    "Typescript",
+    "NextJS"
+  ],
 
-  "links": [
+  "socials": [
     {
       "name": "Portfolio",
-      "url": "https://deependra.vercel.app/",
+      "url": "https://www.deependra.biz/",
       "icon": "FaEye"
     },
     {
