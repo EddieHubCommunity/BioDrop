@@ -54,6 +54,10 @@ export default function Navbar() {
       name: "Docs",
       url: "/docs",
     },
+    {
+      name: "Playground",
+      url: "/playground",
+    },
   ];
 
   return (

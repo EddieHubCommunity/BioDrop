@@ -11,6 +11,7 @@ import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
+  console.log(data);
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -65,10 +66,7 @@ export default function UserProfile({ BASE_URL, data }) {
 
       <div className="flex justify-center my-4">
         {qrShow && (
-          <QRCodeSVG
-            value={`${BASE_URL}/${data.username}`}
-            size={fallbackImageSize * 2}
-          />
+          <QRCodeSVG value={`${BASE_URL}/${data.username}`} size={fallbackImageSize * 2} />
         )}
       </div>
     </>
