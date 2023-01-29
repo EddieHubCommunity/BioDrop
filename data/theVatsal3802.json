@@ -5,7 +5,7 @@
     "socials": [
         {
             "icon": "SiGmail",
-            "url": "vatsaladhiya248@gmail.com"
+            "url": "mailto:vatsaladhiya248@gmail.com"
         },
         {
             "icon": "FaTwitter",
@@ -35,8 +35,8 @@
     ],
     "links": [
         {
-            "name": "Mail ID",
-            "url": "vatsaladhiya248@gmail.com",
+            "name": "Have Project Ideas? Mail for collaboration",
+            "url": "mailto:vatsaladhiya248@gmail.com",
             "icon": "SiGmail",
             "group": "Connect and Project Ideas"
         },
