@@ -112,7 +112,7 @@ export default function Search({ users }) {
         {!threeOrMore && (
           <Alert
             type="info"
-            message="You have to enter at least 3 characters to search for a user."
+            message="You have to enter at least 3 characters to search for users,tags or languages."
           />
         )}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
