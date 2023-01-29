@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Open Source | Devops | Full Stack Developer",
-  "avatar": "https://github.com/MitAbhay.png",
+
   "tags": ["Open Source", "Javascript", "Typescript", "NextJS", "DevOps"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/MitAbhay" },

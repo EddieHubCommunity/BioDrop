@@ -2,7 +2,7 @@
   "name": "Victor Eke",
   "type": "personal",
   "bio": "Frontend web developer, technical writer who is passionate about web development and open-source",
-  "avatar": "https://github.com/evavic44.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -30,7 +30,7 @@
     },
     {
       "title": "Participated in OSCA",
-      "image": "https://github.com/oscafrica/open-source-challenge-2021/blob/main/assets/oss-ch-header.png?raw=true",
+
       "date": "September 2021",
       "icon": "FaGithub",
       "color": "#F2994A",

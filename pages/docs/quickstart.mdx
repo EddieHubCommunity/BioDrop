@@ -43,19 +43,17 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   "name": "Sara Jaoude",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
-  "avatar": "https://github.com/SaraJaoude.png"
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
 }
 ```
 </ClipboardCopy>
 
-| field              | type                 | description                                                                                                   |
-| :----------------- | :------------------- | :------------------------------------------------------------------------------------------------------------ |
-| name               | string               | Your display name on your Profile                                                                             |
-| displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter                                                         |
-| type               | personal / community | The type of account, is it a single person or a community                                                     |
-| bio                | string               | Your description about yourself (you can use markdown here)                                                   |
-| avatar             | string               | Here we recommend you use a magic GitHub link for your profile which is your GitHub link appended with `.png` |
+| field              | type                 | description                                                 |
+| :----------------- | :------------------- | :---------------------------------------------------------- |
+| name               | string               | Your display name on your Profile                           |
+| displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter       |
+| type               | personal / community | The type of account, is it a single person or a community   |
+| bio                | string               | Your description about yourself (you can use markdown here) |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
@@ -66,7 +64,6 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
-  "avatar": "https://github.com/SaraJaoude.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -108,6 +105,8 @@ To add more links add another object inside the links collection. For example:
 10. Scroll to the bottom and commit new file by adding the commit message that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
 
 You can skip `optional extended message`
+
+**NOTE**: Please use the online [JSON Lint](https://jsonlint.com) tool to check if your JSON file is *error free* before committing your pull request.
 
 11. Click `create new branch` and you can use the default name provided
 12. Then click `Propose new file`

@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Tech Enthusiast | Web Developer | UIUX ",
-  "avatar": "https://github.com/AlokMahapatra26.png",
+
   "tags": ["Javascript", "UI UX", "MERN Stack"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/aloktwts" },
