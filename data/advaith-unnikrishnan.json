@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": false,
   "bio": "Developer | Community Evangelist | Product Enthusiast",
-  "avatar": "https://github.com/advaith-unnikrishnan.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/advaith_u" },
     { "icon": "FaGithub", "url": "https://github.com/advaith-unnikrishnan" },

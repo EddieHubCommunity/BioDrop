@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Frontend Developer | Open Source Contributor | Member @Layer5, Meshery",
-  "avatar": "https://github.com/GaganpreetKaurKalsi.png",
+
   "tags": ["Open Source", "Javascript", "Typescript", "React"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/GaganpreetKalsi" },

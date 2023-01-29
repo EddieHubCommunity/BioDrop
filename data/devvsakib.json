@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Engineer | Open Source Enthusiast | WordPress Expert",
-  "avatar": "https://github.com/devvsakib.png",
+
   "tags": ["javascript", "react", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/devvsakib" },

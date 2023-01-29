@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
-  "avatar": "https://github.com/Francescoxx.png",
+
   "links": [
     {
       "name": "Newsletter",
@@ -90,29 +90,28 @@
   ],
   "milestones": [
     {
-        "title": "Started my YouTube Channel",
-        "date": "August 2020",
-        "icon": "FaYoutube",
-        "color": "red",
-        "description": "My VERY first video on youtube. It's not about tech but it's me running for charity.",
-        "url": "https://youtu.be/SaJSNHXBLkc"
+      "title": "Started my YouTube Channel",
+      "date": "August 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "My VERY first video on youtube. It's not about tech but it's me running for charity.",
+      "url": "https://youtu.be/SaJSNHXBLkc"
     },
     {
-        "title": "Quit Full Time Job at the European Space Agency",
-        "date": "March 2021",
-        "icon": "FaSpaceShuttle",
-        "color": "grey",
-        "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link the Celebration video",
-        "url": "https://www.youtube.com/watch?v=519nUxZx51w"
+      "title": "Quit Full Time Job at the European Space Agency",
+      "date": "March 2021",
+      "icon": "FaSpaceShuttle",
+      "color": "grey",
+      "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link the Celebration video",
+      "url": "https://www.youtube.com/watch?v=519nUxZx51w"
     },
     {
-        "title": "Became Docker Captain",
-        "date": "March 2021",
-        "icon": "FaDocker",
-        "color": "blue",
-        "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link a part of the story",
-        "url": "https://www.youtube.com/watch?v=vI6bQJ463Sc&t=31s&pp=ugMICgJpdBABGAE%3D"
+      "title": "Became Docker Captain",
+      "date": "March 2021",
+      "icon": "FaDocker",
+      "color": "blue",
+      "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link a part of the story",
+      "url": "https://www.youtube.com/watch?v=vI6bQJ463Sc&t=31s&pp=ugMICgJpdBABGAE%3D"
     }
-]
-
+  ]
 }

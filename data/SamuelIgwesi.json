@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Web Developer & Tech Enthusiast",
-  "avatar": "https://github.com/SamuelIgwesi.png",
+
   "tags": ["javascript", "nodeJS"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/prime_developer" },
