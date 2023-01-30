@@ -3,6 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Student|| Technical Writer|| Developer",
+  "tags": ["JavaScript", "python", "open source"],
   "avatar": "https://github.com/RashidatJay.png",
    "links": [
     {
@@ -10,10 +11,16 @@
       "url": "https://twitter.com/Rashidatjay",
       "icon": "FaTwitter"
     },
-     "name": "Follow me on LinkedIn"
+    {
+     "name": "Follow me on LinkedIn",
      "url": "https://www.linkedin.com/in/rashidatjimoh/",
      "icon": "FaLinkedIn"
+     
+     },
      {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RashidatJay",
+      "icon": "FaGithub"
      }
   ]
 }
