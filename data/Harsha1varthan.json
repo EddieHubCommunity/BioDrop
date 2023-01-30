@@ -3,6 +3,8 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "A Budding Frontend Developer",
+   "tags": [ "Open Source", "Javascript", "HTML", "CSS","Java"],
+  
   "links": [
     {
       "name": "On Twitter",
@@ -10,7 +12,7 @@
       "icon": "FaTwitter"
     },
      {
-      "name": "On GitHub",
+      "name": "On Github",
       "url": "https://github.com/Harsha1varthan",
       "icon": "FaGithub"
     },
@@ -21,4 +23,6 @@
     }
 
   ]
+ 
+ 
 }
