@@ -3,7 +3,7 @@
   "type": "Personal",
   "displayStatsPublic": true,
   "bio": "Computer Science student | Full Stack Web developer | Open source and Web3 enthusiast | Hardcore anime weeb",
-  "avatar": "https://github.com/utkarsh1311.png",
+
   "tags": ["Open Source", "Full Stack Web dev", "JavaScript", "Java"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/coder_utkarsh" },
