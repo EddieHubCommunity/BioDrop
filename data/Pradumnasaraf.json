@@ -2,9 +2,8 @@
   "name": "Pradumna Saraf",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "**Open Source** Advocate | DevOps Developer | EddieHub Ambassador",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js"],
-
+  "bio": "**Open Source** Advocate | DevOps Engineer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js", "Go"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
     { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
