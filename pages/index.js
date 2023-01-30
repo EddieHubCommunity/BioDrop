@@ -129,7 +129,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of a QR code example",
     },
     {
       name: "Your Links",
@@ -138,7 +138,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of links section of an example profile",
     },
     {
       name: "Your Milestones",
@@ -147,7 +147,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of milestones section of an example profile",
     },
     {
       name: "Your Testimonials",
@@ -155,7 +155,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of testimonials section of an example profile",
     },
     {
       name: "Your Events",
@@ -164,7 +164,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of events section of an example profile",
     },
     {
       name: "Community Events",
@@ -173,7 +173,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210064225-b792c186-1eb0-4451-8624-39d5d33724b1.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of community events section in the Community Section tab",
     },
   ];
 
