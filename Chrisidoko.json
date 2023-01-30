@@ -1,0 +1,23 @@
+{
+	"name": "Chris Idoko",
+	"displayStatsPublic": true,
+	"type": "personal",
+	"bio": "Front-end Developer | Open Source",
+	"links": [{
+		"name": "Follow me on Github",
+		"url": "https://twitter.com/Chris_devxo",
+		"icon": "FaGithub"
+	}, {
+		"name": "Check my Porfolio",
+		"url": "https://portfolio-vercel-puce.vercel.app/",
+		"icon": "FaLink"
+	}, {
+		"name": "Follow me on Twitter",
+		"url": "https://twitter.com/Chris_devxo",
+		"icon": "FaTwitter"
+	}, {
+		"name": "Follow me on Linkedin",
+		"url": "https://twitter.com/Chris_devxo",
+		"icon": "FaLinkedin"
+	}]
+}
