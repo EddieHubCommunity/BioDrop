@@ -4,7 +4,7 @@
   "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
 
-  "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Rapper", "Ruby"],
+  "tags": ["AWS", "Beats", "DevOps", "DevRel", "Music", "Open Source", "Rapper", "Ruby", "Rust"],
   "socials": [
     {
       "icon": "FaGithub",
@@ -46,7 +46,13 @@
       "icon": "FaSpotify"
     }
   ],
-  "testimonials": ["CBID2", "eddiejaoude", "krshkun", "stevenovak123", "AussieDev81"],
+  "testimonials": [
+    "CBID2",
+    "eddiejaoude",
+    "krshkun",
+    "stevenovak123",
+    "AussieDev81"
+  ],
   "milestones": [
     {
       "title": "Received the Iraq Medal",
