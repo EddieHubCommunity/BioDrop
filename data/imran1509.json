@@ -20,7 +20,10 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/codenameimmy" },
     { "icon": "FaGithub", "url": "https://github.com/imran1509" }
   ],
-  "testimonials": ["aasthashahcodes"],
+  "testimonials": [
+    "aasthashahcodes",
+    "gagan-baghel"
+  ],
   "links": [
     {
       "name": "Schedule a one-on-one session with me",
