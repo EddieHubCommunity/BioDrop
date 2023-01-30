@@ -13,41 +13,50 @@
     "Designing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/code_shubh" },
-    { "icon": "FaGithub", "url": "https://github.com/shubhsharma19" },
-    { "icon": "SiHashnode", "url": "https://shubhsharma19.hashnode.dev/" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/code.shubh/" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/code_shubh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://shubhsharma19.hashnode.dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/code.shubh/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA"
+    }
   ],
-
   "links": [
     {
-      "name": "Follow me on GitHub",
       "name": "My GitHub",
       "url": "https://github.com/shubhsharma19",
       "icon": "FaGithub"
     },
     {
-      "name": "Twitter: Threads and Random talks about Tech",
       "name": "Threads about Tech and Random Talk",
       "url": "https://twitter.com/code_shubh",
       "icon": "FaTwitter"
     },
     {
-      "name": "Interested in reading my blogs? Here you go!",
       "name": "My Blogs",
       "url": "https://shubhsharma19.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
-      "name": "Follow me on LinkedIn",
       "name": "My LinkedIn",
       "url": "https://linkedin.com/in/shubhsharma19",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Instagram: I post Programming Content",
-      "name": "I create content on Instagram",
+      "name": "Content on Instagram",
       "url": "https://instagram.com/code.shubh",
       "icon": "FaInstagram"
     },
