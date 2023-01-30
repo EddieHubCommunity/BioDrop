@@ -63,6 +63,8 @@ export default function Playground() {
 
   const handleReset = () => {
     localStorage.removeItem("PREVIEW_PROFILE_DATA");
+    setSuccessMsg("");
+    setErrMsg("");
     handleInitialData();
   };
 
