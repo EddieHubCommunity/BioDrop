@@ -3,6 +3,7 @@ import Page from "../components/Page";
 import { useEffect, useState } from "react";
 import Alert from "./../components/Alert";
 import { useRouter } from "next/router";
+import PreviewModal from "../components/PreviewModal";
 
 export default function Playground() {
   const [profileJson, setProfileJson] = useState("");
@@ -10,6 +11,7 @@ export default function Playground() {
   const [successMsg, setSuccessMsg] = useState("");
   const router = useRouter();
   const [gitUsername, setGitUsername] = useState("");
+  const [previewModalState, setPreviewModalState] = useState(false);
 
   useEffect(() => {
     handleInitialData();
@@ -40,6 +42,7 @@ export default function Playground() {
       return true;
     } catch (err) {
       setErrMsg(err.toString());
+      setSuccessMsg("");
       return false;
     }
   };
@@ -54,6 +57,7 @@ export default function Playground() {
       }
     } catch (err) {
       setErrMsg(err.toString());
+      setSuccessMsg("");
     }
   };
 
@@ -66,9 +70,11 @@ export default function Playground() {
     try {
       if (!profileJson) {
         setErrMsg("Profile json required");
+        setSuccessMsg("");
       }
       if (!gitUsername) {
         setErrMsg("Github username required");
+        setSuccessMsg("");
       }
 
       if (gitUsername && profileJson && handleValidateJson()) {
@@ -77,10 +83,11 @@ export default function Playground() {
         actualJson = JSON.stringify(actualJson);
         console.log(actualJson);
         localStorage.setItem("PREVIEW_PROFILE_DATA", actualJson);
-        router.push("/preview");
+        setPreviewModalState(true);
       }
     } catch (err) {
       setErrMsg(err.toString());
+      setSuccessMsg("");
     }
   };
 
@@ -93,7 +100,7 @@ export default function Playground() {
 
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">Playground</h1>
-        <p>Enter profile json below and preview how it will actually look</p>
+        <p>Enter github username, profile json below and preview how it will actually look</p>
         <input
           type="text"
           placeholder="Enter github username"
@@ -125,6 +132,10 @@ export default function Playground() {
         </div>
         {errMsg && <Alert type="error" message={errMsg} />}
         {successMsg && <Alert type="success" message={successMsg} />}
+        <PreviewModal
+          isOpen={previewModalState}
+          toggle={() => setPreviewModalState(!previewModalState)}
+        />
       </Page>
     </>
   );
