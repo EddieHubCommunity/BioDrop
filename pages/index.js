@@ -110,7 +110,7 @@ export default function Home({ total, today }) {
       description:
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
-        "https://user-images.githubusercontent.com/100528412/210552842-70d6a823-5062-4ad9-aa51-78c990b72d63.png",
+        "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
       imageAlt: "LinkFree screenshot of the tags in example profile",
     },
     {
