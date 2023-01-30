@@ -4,11 +4,22 @@
   "type": "personal",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rishavmitra15" },
-    { "icon": "FaLinkedinIn", "url": "https://www.linkedin.com/in/rishav-mitra" }
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/rishav-mitra"
+    }
   ],
   "bio": "**Learning** new stuff | **Collaborating** on Open Source | Love **Python & JavaScript**",
 
-  "tags": ["Open Source", "Python", "Flask", "Data Science", "JavaScript", "NodeJS", "Web Development"],
+  "tags": [
+    "Open Source",
+    "Python",
+    "Flask",
+    "Data Science",
+    "JavaScript",
+    "NodeJS",
+    "Web Development"
+  ],
   "links": [
     {
       "name": "My Open Source journey on GitHub",
