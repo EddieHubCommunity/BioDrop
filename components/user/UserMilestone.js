@@ -3,6 +3,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 import getIcon from "../Icon";
 import Link from "../Link";
+import Image from "next/image";
 
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -18,7 +19,7 @@ export default function UserMilestone({ milestone, isGoal }) {
           <DisplayIcon className="h-8 w-8 rounded-full" />
         )}
         {milestone.image && (
-          <img
+          <Image
             className="h-8 w-8 rounded-full"
             src={milestone.image}
             alt={milestone.title}
