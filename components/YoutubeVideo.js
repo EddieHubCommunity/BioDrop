@@ -1,11 +1,13 @@
 export default function YoutubeVideo({url, title}) {
     return (
-        <iframe width="410" 
-        height="220"
+        <div className="relative">
+        <iframe
         src={url}
         title={title}
+        className="aspect-video w-full"
         allow="accelerometer; autoplay;" 
         allowFullScreen>
         </iframe>
+        </div>
     );
 }
