@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Open Source Enthusiast, Mobile App Developer",
-  "avatar": "https://github.com/KrishChopra22.png",
+
   "tags": ["Flutter", "Android", "Kotlin", "DSA", "Open Source", "Java"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/KrishChopra22" },

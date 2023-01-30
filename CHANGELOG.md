@@ -1,9 +1,9 @@
-## 1.68.1 (2023-01-27)
+## 1.69.2 (2023-01-29)
 
 
 ### Bug Fixes
 
-* improve testimonials action ([#4117](https://github.com/EddieHubCommunity/LinkFree/issues/4117)) ([9f3d0a3](https://github.com/EddieHubCommunity/LinkFree/commit/9f3d0a365097992db2894f062deda312fbed2271))
+* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
 
 
 

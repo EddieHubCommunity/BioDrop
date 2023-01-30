@@ -9,7 +9,7 @@
     { "icon": "FaGithub", "url": "https://github.com/MadhuSaini22.png" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/madhu-saini/" }
   ],
-  "avatar": "https://github.com/MadhuSaini22.png",
+
   "links": [
     {
       "name": "Check out my website",
@@ -35,7 +35,7 @@
   "milestones": [
     {
       "title": "Made Chatting Application",
-      "image": "https://user-images.githubusercontent.com/81684710/151691029-d040cb55-19b5-4e66-b98b-21099044431f.jpg",
+
       "date": "May 2021",
       "icon": "code",
       "color": "blue",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Made Virtual Assistant",
-      "image": "https://user-images.githubusercontent.com/81684710/151691009-fa178f95-55cd-4669-8dc0-d78a5b00eab2.jpg",
+
       "date": "April 2021",
       "icon": "code",
       "color": "red",
@@ -53,7 +53,7 @@
     },
     {
       "title": "Made Web Video Caller",
-      "image": "https://user-images.githubusercontent.com/81684710/151691064-8787f244-62e7-4578-b169-4fc66644f4f9.jpg",
+
       "date": "November 2021",
       "icon": "code",
       "color": "green",

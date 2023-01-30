@@ -3,7 +3,7 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Full Stack Developer | **Open Source Contributor**",
-  "avatar": "https://github.com/Trikcode.png",
+
   "tags": ["Python", ".NET/C#", "Javascript", "Typescript", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/trikcode" },
