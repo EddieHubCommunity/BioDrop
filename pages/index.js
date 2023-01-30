@@ -110,7 +110,7 @@ export default function Home({ total, today }) {
       description:
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
-        "https://user-images.githubusercontent.com/100528412/210552842-70d6a823-5062-4ad9-aa51-78c990b72d63.png",
+        "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
       imageAlt: "LinkFree screenshot of the tags in example profile",
     },
     {
@@ -185,18 +185,18 @@ export default function Home({ total, today }) {
     <>
       <PageHead />
       <main>
-        <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
-          <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
+        <div className="p-8 mb-8 bg-gray-50 drop-shadow-md">
+          <h2 className="flex flex-col items-center justify-between tracking-tight sm:tracking-tight sm:flex-row">
             <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
             <span className="text-2xl text-gray-500">100% Open Source</span>
           </h2>
-          <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+          <dl className="grid grid-cols-1 gap-5 mt-5 sm:grid-cols-3">
             {total.users > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
+              <div className="px-4 py-5 overflow-hidden bg-white rounded-lg shadow sm:p-6">
+                <dt className="text-sm font-medium text-gray-500 truncate">
                   Active Users
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="flex items-baseline justify-between mt-1 md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.active)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -218,11 +218,11 @@ export default function Home({ total, today }) {
               </div>
             )}
             {total.views > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
+              <div className="px-4 py-5 overflow-hidden bg-white rounded-lg shadow sm:p-6">
+                <dt className="text-sm font-medium text-gray-500 truncate">
                   Profile views
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="flex items-baseline justify-between mt-1 md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.views)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -243,11 +243,11 @@ export default function Home({ total, today }) {
               </div>
             )}
             {total.clicks > 0 && (
-              <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-                <dt className="truncate text-sm font-medium text-gray-500">
+              <div className="px-4 py-5 overflow-hidden bg-white rounded-lg shadow sm:p-6">
+                <dt className="text-sm font-medium text-gray-500 truncate">
                   Links clicked
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="flex items-baseline justify-between mt-1 md:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.clicks)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -271,8 +271,8 @@ export default function Home({ total, today }) {
         </div>
 
         <div className="bg-white">
-          <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-            <div className="overflow-hidden rounded-lg bg-indigo-700 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+          <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div className="overflow-hidden bg-indigo-700 rounded-lg shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
               <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
                 <div className="lg:self-center">
                   <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -286,9 +286,9 @@ export default function Home({ total, today }) {
                   </p>
                 </div>
               </div>
-              <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
+              <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
                 <Image
-                  className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20 h-auto w-auto"
+                  className="object-cover object-left-top w-auto h-auto transform translate-x-6 translate-y-6 rounded-md sm:translate-x-16 lg:translate-y-20"
                   src="/mockup.png"
                   priority
                   alt="App screenshot"
@@ -301,26 +301,26 @@ export default function Home({ total, today }) {
         </div>
 
         <div className="bg-gray-50">
-          <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+          <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               <span className="block">Ready to dive in?</span>
               <span className="block text-indigo-600">
                 Add your free Profile today!
               </span>
             </h2>
-            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div className="flex mt-8 lg:mt-0 lg:flex-shrink-0">
               <div className="inline-flex rounded-md shadow">
                 <Link
                   href="/docs/quickstart"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                  className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700"
                 >
                   Get started
                 </Link>
               </div>
-              <div className="ml-3 inline-flex rounded-md shadow">
+              <div className="inline-flex ml-3 rounded-md shadow">
                 <Link
                   href="/eddiejaoude"
-                  className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+                  className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-indigo-50"
                 >
                   Example
                 </Link>
@@ -330,8 +330,8 @@ export default function Home({ total, today }) {
         </div>
 
         <div className="bg-indigo-700">
-          <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
-            <div className="mx-auto max-w-3xl text-center">
+          <div className="max-w-2xl px-4 py-12 mx-auto sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+            <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 Features
               </h2>
@@ -370,7 +370,7 @@ export default function Home({ total, today }) {
                       "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
                     )}
                   >
-                    <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
+                    <div className="overflow-hidden bg-gray-100 rounded-lg aspect-w-5 aspect-h-2">
                       <Image
                         src={feature.imageSrc}
                         alt={feature.imageAlt}
@@ -386,15 +386,15 @@ export default function Home({ total, today }) {
           </div>
         </div>
 
-        <div className="relative bg-white py-24 sm:py-32 lg:py-40">
-          <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-            <h2 className="font-semibold text-indigo-600 text-3xl">
+        <div className="relative py-24 bg-white sm:py-32 lg:py-40">
+          <div className="max-w-md px-6 mx-auto text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+            <h2 className="text-3xl font-semibold text-indigo-600">
               Getting Started
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Popular User Guides
             </p>
-            <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+            <p className="mx-auto mt-5 text-xl text-gray-500 max-w-prose">
               Here is a selection of our popular documentation guides to help
               you get started.
             </p>
@@ -406,12 +406,12 @@ export default function Home({ total, today }) {
                       href={feature.path}
                       className="text-gray-900 group"
                     >
-                      <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                      <div className="flow-root px-6 pb-8 rounded-lg bg-gray-50">
                         <div className="-mt-6">
                           <div>
-                            <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                            <span className="inline-flex items-center justify-center p-3 bg-indigo-500 shadow-lg rounded-xl">
                               <feature.icon
-                                className="h-8 w-8 text-white"
+                                className="w-8 h-8 text-white"
                                 aria-hidden="true"
                               />
                             </span>
@@ -436,7 +436,7 @@ export default function Home({ total, today }) {
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
         >
-          <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
+          <div className="fixed flex items-center gap-1 px-4 py-2 text-white bg-indigo-600 rounded-full bottom-5 right-5 hover:drop-shadow-lg">
             <IconContext.Provider
               value={{ color: "white", style: { verticalAlign: "middle" } }}
             >
