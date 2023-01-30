@@ -33,7 +33,7 @@ export async function getServerSideProps(context) {
     };
   }
   const username = session.username;
-  
+
   let profile = {};
   try {
     const resUser = await fetch(
@@ -64,7 +64,6 @@ export async function getServerSideProps(context) {
       }
     );
     data = await res.json();
-
   } catch (e) {
     console.log("ERROR get user's account statistics", e);
   }
@@ -78,9 +77,7 @@ export default function Search({ data, profile }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
-  
-  let sortedByDate = data.profile.daily.sort((a, b) => new Date(a.date) - new Date(b.date));
-  const dailyViews = sortedByDate.slice(-30).map((day) => {
+  const dailyViews = data.profile.daily.slice(-30).map((day) => {
     return {
       views: day.views,
       date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
