@@ -1,16 +1,22 @@
 {
-  "name": "SOUMYA KUSHWAHA",
+  "name": "Soumya Kushwaha",
+  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Enthusiast!",
 
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "GitHub",
       "url": "https://github.com/Soumya-Kushwaha",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/kushwaha-soumya",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
       "url": "https://twitter.com/kush_soumya",
       "icon": "FaTwitter"
     }
