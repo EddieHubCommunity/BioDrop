@@ -1,0 +1,27 @@
+{
+	"name": "Zuber Ustad",
+	"displayStatsPublic": true,
+	"type": "personal",
+	"bio": "Final *Engineering Student* ,JavaScript Developer.Started writing blogs on Hashnode   ",
+	"links": [{
+			"name": "Twitter",
+			"url": "https://twitter.com/Zuber763",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Linkedin ",
+			"url": "https://www.instagram.com/eddieandsaraexplore/",
+			"icon": "FaLinkedin"
+		},
+		{
+			"name": "hashnode",
+			"url": "https://zuberustad.hashnode.dev/",
+			"icon": "FaHashnode"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/Zuber8040",
+			"icon": "FaGithub"
+		}
+	]
+}
