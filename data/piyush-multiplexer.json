@@ -9,7 +9,7 @@
       "url": "https://twitter.com/thesourcepedia",
       "icon": "FaTwitter"
     },
-     {
+    {
       "name": "Socialize on Instagram",
       "url": "https://www.instagram.com/goyanipiyush/",
       "icon": "FaInstagram"
@@ -19,8 +19,8 @@
       "url": "https://www.linkedin.com/in/goyanipiyush/",
       "icon": "FaLinkedin"
     },
-    
-     {
+
+    {
       "name": "GitHub Profile",
       "url": "https://github.com/piyush-multiplexer",
       "icon": "FaGithub"
@@ -35,7 +35,7 @@
       "url": "https://blog.thesourcepedia.org",
       "icon": "SiHashnode"
     },
-     {
+    {
       "name": "My Personal Website",
       "url": "https://piyushgoyani.thesourcepedia.org/",
       "icon": "SiMicrodotblog"
