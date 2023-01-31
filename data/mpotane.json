@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "🧑‍💻 Software engineer",
-  "avatar": "https://github.com/mpotane.png",
+
   "tags": ["Nextjs", "typescript", "Prisma", "Supabase"],
   "links": [
     {
@@ -16,5 +16,6 @@
       "url": "https://www.linkedin.com/in/mpotane/",
       "icon": "FaLinkedin"
     }
-  ]
+  ],
+  "testimonials": ["jofftiquez"]
 }

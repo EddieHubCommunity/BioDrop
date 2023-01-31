@@ -1,0 +1,23 @@
+{
+  "name": "Vaishnav Jois",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Tech Enthusiast |.| **Revamping personality to repurpose life** |.| Always on the 0.0.0.0 and 127.0.0.1 |.| ",
+  "links": [
+    {
+      "name": "Follow me on Twitter [Don't hate me. I love memes there]",
+      "url": "https://twitter.com/VaishnavJois",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/VaishnavJois",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vaishnavjois/",
+      "icon": "FaLinkedinIn"
+    }
+  ]
+}
