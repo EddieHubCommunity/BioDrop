@@ -3,7 +3,6 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
-
   "tags": [
     "c++",
     "lua",
@@ -20,7 +19,8 @@
     "community management",
     "coder",
     "dotnet",
-    "advocacy"
+    "advocacy",
+    "youtube"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
@@ -30,57 +30,133 @@
   ],
   "links": [
     {
+      "group": "Socials",
       "name": "Checkout my open-source work",
       "url": "https://github.com/Panquesito7",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Follow my tips and work on Twitter",
       "url": "https://twitter.com/David_Leal_7",
       "icon": "FaTwitter"
     },
     {
-      "name": "Get support & rewards by supporting my work on GitHub",
-      "url": "https://github.com/sponsors/Panquesito7",
-      "icon": "SiGithubsponsors"
-    },
-    {
-      "name": "Donate via Liberapay",
-      "url": "https://en.liberapay.com/Panquesito7",
-      "icon": "FaDollarSign"
-    },
-    {
-      "name": "Join PanqKart: Minetest racing! Discord server",
-      "url": "https://discord.gg/HEweZuF3Vv",
-      "icon": "FaDiscord"
-    },
-    {
-      "name": "Contribute to PanqKart and get a green square",
-      "url": "https://github.com/panqkart/panqkart/",
-      "icon": "SiLua"
-    },
-    {
-      "name": "Check out SMB and Minetest gameplays on my YouTube channel",
+      "group": "Socials",
+      "name": "Gameplays, speedruns, and upcoming tutorials on YouTube",
       "url": "https://www.youtube.com/@panquesito7/",
       "icon": "FaYoutube"
     },
     {
+      "group": "Socials",
       "name": "Read my blogs on DEV.to",
       "url": "https://dev.to/panquesito7",
       "icon": "FaDev"
     },
     {
+      "group": "Socials",
       "name": "Miscellaneous GitLab contributions",
       "url": "https://gitlab.com/Panquesito7",
       "icon": "FaGitlab"
     },
     {
+      "group": "Socials",
       "name": "Contact me via mail",
       "url": "mailto:halfpacho@gmail.com",
       "icon": "FaEnvelope"
+    },
+    {
+      "group": "Donations",
+      "name": "Get support & rewards by supporting my work on GitHub",
+      "url": "https://github.com/sponsors/Panquesito7",
+      "icon": "SiGithubsponsors"
+    },
+    {
+      "group": "Donations",
+      "name": "Donate via Liberapay",
+      "url": "https://en.liberapay.com/Panquesito7",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "Join PanqKart: Minetest racing! Discord server",
+      "url": "https://discord.gg/HEweZuF3Vv",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "Contribute to PanqKart: Minetest racing!",
+      "url": "https://github.com/panqkart/panqkart/",
+      "icon": "SiMinetest"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "A viable Git Submodules alternative (WIP)",
+      "url": "https://github.com/Panquesito7/submodules-alternative",
+      "icon": "FaGit"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "Cloud items: a mod for Minetest",
+      "url": "https://github.com/minetest-mods/cloud_items",
+      "icon": "FaCloud"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "Simple memory game made in C++",
+      "url": "https://github.com/Panquesito7/memory-game",
+      "icon": "SiCplusplus"
     }
   ],
   "milestones": [
+    {
+      "isGoal": "true",
+      "title": "Reach 1K+ followers on GitHub",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "#000",
+      "description": "Grow on the GitHub community and contribute to more projects."
+    },
+    {
+      "isGoal": "true",
+      "title": "Create more open-source related content on socials",
+      "date": "2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "lightblue",
+      "description": "Help other people get started in open-source and create useful tools/projects."
+    },
+    {
+      "isGoal": "true",
+      "title": "Moderate 40+ communities",
+      "date": "2023",
+      "icon": "FaDiscord",
+      "color": "#00C0B8",
+      "description": "Manage/moderate 40+ open-source communities and help them grow and succeed."
+    },
+    {
+      "isGoal": "true",
+      "date": "2023",
+      "title": "Expand my programming knowledge",
+      "icon": "FaCode",
+      "color": "purple",
+      "description": "Learn more about programming and other programming languages/frameworks."
+    },
+    {
+      "isGoal": "true",
+      "date": "2023",
+      "title": "Create coding/open-source tutorials on YouTube",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Start creating tutorials on YouTube to make things easier for the community."
+    },
+    {
+      "isGoal": "true",
+      "date": "2023",
+      "title": "Grow on the Minetest community",
+      "icon": "SiMinetest",
+      "color": "#0030e7",
+      "description": "Grow my Minetest projects as well as help and improve the community."
+    },
     {
       "title": "Joined CodeIN as a maintainer",
       "date": "December 31, 2022",
@@ -112,6 +188,14 @@
       "color": "#000",
       "description": "Joined the Sema team as a community moderator.",
       "url": "https://discord.gg/Byjr6rdBUZ"
+    },
+    {
+      "title": "Manager at Universal Network",
+      "date": "April 29, 2022",
+      "icon": "SiWebpack",
+      "color": "#005AC6",
+      "description": "Helped build various web development projects and became an administrator.",
+      "url": "https://github.com/my-universal-network"
     },
     {
       "title": "Memory Game made in C++",
@@ -217,6 +301,14 @@
       "url": "http://github.eddiehub.org"
     },
     {
+      "title": "Tic Tac Toe in C++",
+      "date": "March 24, 2021",
+      "icon": "SiCplusplus",
+      "color": "#2508BF",
+      "description": "Created a Tic Tac Toe game in C++ with Windows Forms.",
+      "url": "https://github.com/Panquesito7/tic-tac-toe"
+    },
+    {
       "title": "First community manager position",
       "date": "March 11, 2021",
       "icon": "SiHomeassistantcommunitystore",
@@ -235,7 +327,7 @@
     {
       "title": "Joined the Devicons project",
       "date": "February 23, 2021",
-      "icon": "SiIcomoon",
+      "icon": "FaIcons",
       "color": "#65D693",
       "description": "Joined Devicons as a Discord and GitHub manager.",
       "url": "https://devicon.dev"
