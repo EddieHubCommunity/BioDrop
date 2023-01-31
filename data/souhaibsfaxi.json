@@ -7,7 +7,7 @@
   "tags": ["javascript", "typescript"],
   "socials": [
     
-    { "platform": "github", "url": "https://github.com/souhaibsfaxi" }
+    { "icon": "FaGithub", "url": "https://github.com/souhaibsfaxi" }
   ],
   "links": [
     {
