@@ -6,7 +6,7 @@
 	"tags": ["DevOps", "technical writer", "Kubernetes"],
 
 
-	"Links": [{
+	"links": [{
 			"name": "Portfolio",
 			"url": "https://iamdev.netlify.app/home.html",
 			"icon": "FaPortrait"
