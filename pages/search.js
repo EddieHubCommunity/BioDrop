@@ -35,16 +35,16 @@ export async function getServerSideProps(context) {
 
 export default function Search({ data }) {
   let {users, tags} = data
-  
+  const tagNames = []
+  tags && tags.map(tag => tagNames.push(tag.name.toLowerCase()))
   const router = useRouter();
   const inputRef=useRef();
   const { username, search } = router.query;
-  let [searchQuery, setSearchQuery] = useState(search)
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
   const [inputValue, setInputValue] = useState(
-    username ? username : search ? searchQuery && searchQuery.split('and').join(', ') : ""
+    username ? username : search ? search : ""
   );
 
   let results = [];
@@ -56,23 +56,6 @@ export default function Search({ data }) {
       setThreeOrMore(false);
     }
   }, [username]);
-
-  useEffect(()=>{
-      setSearchQuery(search)
-      if(search !== undefined)
-        setInputValue(search.split('and').join(', ') || '')
-  },[search])
-
-  function arraysEqual(a, b) {
-    if (a === b) return true;
-    if (a == null || b == null) return false;
-    if (a.length !== b.length) return false;
-  
-    for (var i = 0; i < a.length; ++i) {
-      if (a[i] !== b[i]) return false;
-    }
-    return true;
-  }
 
   const filterData = (value) => {
     if (value.length < 3) {
@@ -89,9 +72,21 @@ export default function Search({ data }) {
         }
 
         let filteredtags = user.tags?.filter((tag) =>
-          value.toLowerCase().includes(tag.toLowerCase())
+          value.toLowerCase().split(',').includes(tag.toLowerCase()) || value.toLowerCase().split(',')
+          .some(val => val==='java'?tag.toLowerCase() !== 'javascript'?tag.toLowerCase().indexOf(val) !== -1 : false : val !== ''?tag.toLowerCase().indexOf(val) !== -1:false)
         );
-        if(arraysEqual(filteredtags && filteredtags.join(', ').toLowerCase().split(', ').sort(), value.toLowerCase().split(', ').sort())){
+     
+        if(filteredtags && filteredtags.length >= value.split(',').filter(val => val !== '').length){
+          let filteredArr = tagNames.filter(tag => value.toLowerCase().split(',').includes(tag))
+          if(filteredArr.length !== 0)
+          {
+            if(filteredArr.every(tag => filteredtags.join(',').toLowerCase().split(',').includes(tag))){
+              return true
+            }
+            else{
+              return false
+            }
+          }
           return true;
         }
       });
@@ -128,14 +123,16 @@ export default function Search({ data }) {
             tags
               .slice(0, 10)
               .map((tag) => (
-                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' tags={tags} currentInput={inputValue}
-                selected ={searchQuery && searchQuery.split('and').some(query => query === tag.name)}/>
+                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' currentInput={inputValue} method={setInputValue}
+                selected ={inputValue && inputValue.toLowerCase().split(',')
+                .some(input => input==='java'?tag.name.toLowerCase() !== 'javascript'?tag.name.toLowerCase().indexOf(input) !== -1: false:input !== ''? tag.name.toLowerCase().indexOf(input) !== -1:false)?
+                true: false}/>
               ))}
         </div>
 
         <div className="relative">
           <input
-            placeholder="Search user by name or tags; eg: open source, reactjs"
+            placeholder="Search user by name or tags; eg: open source,reactjs"
             ref={inputRef}
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
