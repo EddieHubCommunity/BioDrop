@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import '../styles/globals.css';
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
@@ -12,4 +12,12 @@ export const parameters = {
       basePath: '.'
     },
   },
+  a11y: {
+    options: {
+      runOnly: {
+        type: 'tag',
+        values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']
+      }
+    }
+  }
 };
