@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend Engineer, Tech Sis and enthusiast",
-  "avatar": "https://github.com/Ellah120.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -20,5 +20,6 @@
       "url": "https://github.com/Ellah120",
       "icon": "FaGithub"
     }
-  ]
+  ],
+  "testimonials": ["tobySolutions"]
 }

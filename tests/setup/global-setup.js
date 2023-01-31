@@ -2,6 +2,23 @@ import { chromium } from "@playwright/test";
 import fs from "fs";
 
 const { USERS } = require("./test-users.js");
+import icons from '../../config/icons.json';
+const links = Object.keys(icons).map((icon, index) => {
+  return {
+    name: `Link ${index} - ${icon} icon`,
+    url: "https://github.com/EddieHubCommunity/LinkFree",
+    icon: icon
+  }
+})
+
+const wcagUser = {
+  name: "_TEST-WCAG-USER",
+  displayStatsPublic: true,
+  type: "personal",
+  bio: `Bio for _test-wcag-user`,
+  avatar: "https://github.com/eddiejaoude.png",
+  links: links
+}
 
 const user = (username) => {
   return {
@@ -36,4 +53,11 @@ module.exports = async (config) => {
       throw new Error(`Test data "${username}" not created`);
     }
   });
+
+  try {
+    fs.writeFileSync(`./data/_test-wcag-user.json`, JSON.stringify(wcagUser));
+  } catch (e) {
+    console.log(e);
+    throw new Error(`Test data "_test-wcag-user" not created`);
+  }
 };

@@ -1,10 +1,10 @@
-import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
+import PageHead from "../components/PageHead";
 
 export async function getServerSideProps(context) {
   let users = [];
@@ -22,6 +22,7 @@ export async function getServerSideProps(context) {
 
 export default function Search({ users }) {
   const router = useRouter();
+  const inputRef = useRef();
   const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -33,6 +34,7 @@ export default function Search({ users }) {
   let results = [];
 
   useEffect(() => {
+    inputRef.current.focus();
     if (username) {
       setNotFound(username);
       setThreeOrMore(false);
@@ -81,25 +83,36 @@ export default function Search({ users }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree Search Users</title>
-        <meta name="description" content="Search LinkFree user directory" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="LinkFree Search Users"
+        description="Search LinkFree user directory by name, tags, skills, languages"
+      />
+
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
-        <input
-          placeholder="Search users"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
-          name="keyword"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
+
+        <div className="relative">
+          <input
+            placeholder="Search users,tags or languages"
+            ref={inputRef}
+            className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+            name="keyword"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+          />
+          {filteredUsers && (
+            <div className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-1/4 -translate-y-1/3 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10">
+              {filteredUsers.length}
+            </div>
+          )}
+        </div>
+
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
+
         {!threeOrMore && (
           <Alert
             type="info"
-            message="You have to enter at least 3 characters to search for a user."
+            message="You have to enter at least 3 characters to search for users,tags or languages."
           />
         )}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">

@@ -1,0 +1,12 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "red",
+  "name": "Harvard WECODE Conference 2023",
+  "description": "The Harvard WECode (Women Engineers Code) Conference is organized by undergraduate women at Harvard University and is an initiative of Harvard Undergraduate Women in CS. WECode hosts the largest student-run women in tech conference in the world. ",
+  "date": {
+    "start": "2023-02-18",
+    "end": "2023-02-19"
+  },
+  "url": "https://www.harvardwecode.com/"
+}
