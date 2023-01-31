@@ -193,7 +193,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Active Users
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block min-[868px]:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.active)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -219,7 +219,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Profile views
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block min-[868px]:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.views)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -244,7 +244,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Links clicked
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block min-[868px]:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.clicks)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
