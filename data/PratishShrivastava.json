@@ -2,7 +2,7 @@
   "name": "Pratish Shrivastava",
   "type": "personal",
   "bio": "FullStack-Developer || Winners of smart India hackathan hardware edition 2020 || Finalist of AICTE National Level Chhatra Vishwakarma Awards 2020",
-  "avatar": "https://github.com/PratishShrivastava.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -36,7 +36,7 @@
     },
     {
       "title": "Started YouTube",
-      "image": "https://github.com/eddiejaoude.png",
+
       "date": "October 2020",
       "icon": "FaYoutube",
       "color": "red",

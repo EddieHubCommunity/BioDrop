@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from "../Link";
+import { FaMicrophoneAlt } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -17,7 +18,7 @@ export default function EventCard({ event, username }) {
 
   return (
     <li
-      className="py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md"
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-105 duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}
@@ -28,6 +29,10 @@ export default function EventCard({ event, username }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
+          {event.date.cfpClose &&
+            new Date(event.date.cfpClose) > new Date() && (
+              <FaMicrophoneAlt title="CFP is open" />
+            )}
         </div>
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">

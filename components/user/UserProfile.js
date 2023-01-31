@@ -1,12 +1,12 @@
 import { useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "js-abbreviation-number";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
 
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
-import Link from "next/link";
+import Tag from "../Tag";
+import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -24,7 +24,7 @@ export default function UserProfile({ BASE_URL, data }) {
             </div>
           )}
           <FallbackImage
-            src={data.avatar}
+            src={`https://github.com/${data.username}.png`}
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}
@@ -59,16 +59,7 @@ export default function UserProfile({ BASE_URL, data }) {
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
-          {data.tags &&
-            data.tags.map((tag, index) => (
-              <Link
-                href={`/search?search=${tag}`}
-                key={index}
-                className="flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 border-dashed cursor-pointer shadow-none hover:shadow-md"
-              >
-                {tag}
-              </Link>
-            ))}
+          {data.tags && data.tags.map((tag) => <Tag name={tag} key={tag} />)}
         </div>
       )}
 

@@ -2,7 +2,7 @@
   "name": "Aditya Arpan Sahoo",
   "type": "personal",
   "bio": "Loves hackathons | open-source contributor",
-  "avatar": "https://github.com/arpanaditya.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -35,7 +35,7 @@
     },
     {
       "title": "First Open-source contribution",
-      "image": "https://github.com/arpanaditya.png",
+
       "date": "Dec 2020",
       "icon": "FaGithub",
       "color": "grey",
