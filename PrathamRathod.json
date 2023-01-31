@@ -1,0 +1,37 @@
+{
+  "name": "Pratham Rathod",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": " Improving on my coding skills || **BCA Sophomore** ||Code as poetry, be brief and concise.",
+  
+  "tags": [
+    "Java",
+    "Data Structures and Algorithms"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/_PrathamRathod_" }
+  ],
+    
+  "links": [
+   {
+      "name": "Twitter",
+      "url": "https://twitter.com/_PrathamRathod_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pratham_rathod_99/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://twitter.com/_PrathamRathod_",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pratham-rathod-a00846241/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
