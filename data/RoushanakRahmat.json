@@ -1,0 +1,34 @@
+{
+  "name": "Roushanak Rahmat",
+  "type": "personal",
+  "bio": "AI Scientist",
+  "avatar": "https://github.com/roushanakrahmat.png",
+  "links": [
+    {
+      "name": "Roushanak's Website",
+      "url": "https://roushanakrahmat.github.io/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/RoushanakRahmat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@roushanakrahmat",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/roushanakrahmat/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RoushanakRahmat",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": []
+}
