@@ -1,9 +1,9 @@
-## 1.69.2 (2023-01-29)
+# 1.70.0 (2023-01-31)
 
 
-### Bug Fixes
+### Features
 
-* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
+* record daily link clicks ([#4258](https://github.com/EddieHubCommunity/LinkFree/issues/4258)) ([79ac3db](https://github.com/EddieHubCommunity/LinkFree/commit/79ac3dbdf69ae11bd62a7435d7f0e189e39d4d04))
 
 
 
