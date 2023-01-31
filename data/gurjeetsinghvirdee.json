@@ -7,10 +7,7 @@
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/gurjeetsinghvirdee" }
   ],
-  "testimonials": [
-    "utkarsh006",
-    "ishikagoyal02"
-  ],
+  "testimonials": ["utkarsh006", "ishikagoyal02"],
   "links": [
     {
       "name": "Follow me on GitHub",
