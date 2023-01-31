@@ -128,8 +128,7 @@ export default function Home({ total, today }) {
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
         "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
-      imageAlt:
-        "LinkFree screenshot of a QR code example",
+      imageAlt: "LinkFree screenshot of a QR code example",
     },
     {
       name: "Your Links",
@@ -137,8 +136,7 @@ export default function Home({ total, today }) {
         "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
-      imageAlt:
-        "LinkFree screenshot of links section of an example profile",
+      imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
       name: "Your Milestones",
@@ -163,8 +161,7 @@ export default function Home({ total, today }) {
         "Hosting or attending events, let people know what you are up to.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
-      imageAlt:
-        "LinkFree screenshot of events section of an example profile",
+      imageAlt: "LinkFree screenshot of events section of an example profile",
     },
     {
       name: "Community Events",
@@ -196,7 +193,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Active Users
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.active)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -205,7 +202,7 @@ export default function Home({ total, today }) {
                       </span>
                     </span>
                   </div>
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium sm:mt-2 lg:mt-0">
                     <MdArrowUpward
                       className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
                       aria-hidden="true"
@@ -222,7 +219,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Profile views
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.views)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -230,7 +227,7 @@ export default function Home({ total, today }) {
                     </span>
                   </div>
 
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium sm:mt-2 lg:mt-0">
                     <MdArrowUpward
                       className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
                       aria-hidden="true"
@@ -247,7 +244,7 @@ export default function Home({ total, today }) {
                 <dt className="truncate text-sm font-medium text-gray-500">
                   Links clicked
                 </dt>
-                <dd className="mt-1 flex items-baseline justify-between md:block lg:flex">
+                <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
                   <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
                     {abbreviateNumber(total.clicks)}
                     <span className="ml-2 text-sm font-medium text-gray-500">
@@ -255,7 +252,7 @@ export default function Home({ total, today }) {
                     </span>
                   </div>
 
-                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
+                  <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium sm:mt-2 lg:mt-0">
                     <MdArrowUpward
                       className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
                       aria-hidden="true"
@@ -402,7 +399,8 @@ export default function Home({ total, today }) {
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <Link aria-label="Go to ${feature.name} page"
+                    <Link
+                      aria-label="Go to ${feature.name} page"
                       href={feature.path}
                       className="text-gray-900 group"
                     >
