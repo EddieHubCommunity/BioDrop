@@ -4,7 +4,17 @@
   "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
 
-  "tags": ["AWS", "Beats", "DevOps", "DevRel", "Music", "Open Source", "Rapper", "Ruby", "Rust"],
+  "tags": [
+    "AWS",
+    "Beats",
+    "DevOps",
+    "DevRel",
+    "Music",
+    "Open Source",
+    "Rapper",
+    "Ruby",
+    "Rust"
+  ],
   "socials": [
     {
       "icon": "FaGithub",
