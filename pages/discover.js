@@ -8,8 +8,9 @@ import Tag from "../components/Tag";
 export async function getServerSideProps(context) {
   let data = {
     popular: [],
-    random: [],
+    tags: [],
     trending: [],
+    random: []
   };
 
   const popularPromise = fetch(
@@ -25,30 +26,14 @@ export async function getServerSideProps(context) {
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/trending`
   );
 
-  try {
-    data.popular = await (await popularPromise).json()
-  }
-  catch (e) {
-    console.log("ERROR loading popular profiles", e);
-  }
-  try {
-    data.tags = await (await tagsPromise).json()
-  }
-  catch (e) {
-    console.log("ERROR loading tags", e);
-  }
-  try {
-    data.trending = await (await trendingPromise).json()
-  }
-  catch (e) {
-    console.log("ERROR loading trending profiles", e);
-  }
-  try {
-    data.random = await (await randomPromise).json()
-  }
-  catch (e) {
-    console.log("ERROR loading random profiles", e);
-  }
+  await Promise.all([popularPromise, randomPromise, tagsPromise, trendingPromise])
+    .then(async ([popular, random, tags, trending]) => {
+      data.popular = await popular.json();
+      data.random = await random.json();
+      data.tags = await tags.json();
+      data.trending = await trending.json();
+    })
+    .catch(() => console.log(" some error occured"))
 
   return {
     props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
@@ -57,6 +42,8 @@ export async function getServerSideProps(context) {
 
 export default function Popular({ data, BASE_URL }) {
   const [randomProfiles, setRandomProfiles] = useState(data.random);
+
+  console.log(data)
 
   const fetchRandom = async () => {
     try {
