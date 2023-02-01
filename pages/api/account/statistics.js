@@ -6,6 +6,7 @@ import logger from "../../../config/logger";
 import Profile from "../../../models/Profile";
 import ProfileStats from "../../../models/ProfileStats";
 import Link from "../../../models/Link";
+import LinkStats from "../../../models/LinkStats";
 
 export default async function handler(req, res) {
   const session = await unstable_getServerSession(req, res, authOptions);
@@ -54,12 +55,28 @@ export default async function handler(req, res) {
     logger.error(e, "failed to load stats");
   }
 
+  let dailyClicks = [];
+  try {
+    dailyClicks = await LinkStats.find({ username }).sort({
+      date: "asc",
+    });
+  } catch (e) {
+    logger.error(e, `failed to load url stats for ${username}`);
+  }
+
   let totalClicks = 0;
-  const linkStats = linkClicks.map((item) => {
+  const linkDailyStats = linkClicks.map((item) => {
     totalClicks += item.clicks;
+
     return {
       url: item.url,
       clicks: item.clicks,
+      daily: dailyClicks
+        .filter((link) => link.url === item.url)
+        .map((stat) => ({
+          clicks: stat.clicks,
+          date: stat.date,
+        })),
     };
   });
 
@@ -71,7 +88,7 @@ export default async function handler(req, res) {
     },
     links: {
       clicks: totalClicks,
-      individual: linkStats,
+      individual: linkDailyStats,
     },
   };
 
