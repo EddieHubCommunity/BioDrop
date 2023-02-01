@@ -1,0 +1,25 @@
+{
+  "name": "Praise Freedom Dike",
+  "type": "personal",
+  "bio": "I am a Backend Developer with experience in JavaScript and Python",
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/freedompraise",
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/praise-dike-7a25011b3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/freedom_praise",
+      "icon": "FaTwitter"
+    },
+
+  ]
+}
