@@ -23,9 +23,9 @@ usersWithLoc = await Promise.all(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${user.username}/`
     );
     
-    users = await response.json();
+    usersWithLoc = await response.json();
     
-   return users
+   return usersWithLoc
   })
 )
 
@@ -34,7 +34,7 @@ usersWithLoc = await Promise.all(
   }
 
   return {
-    props: { allUsers },
+    props: { usersWithLoc },
   };
 }
 //end testing garbage api calls
