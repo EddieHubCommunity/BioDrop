@@ -1,7 +1,7 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
 import ClipboardCopy from "../../components/ClipboardCopy.js";
 import Link from "../../components/Link.js";
-import Table from "../../components/Table.js";
+
 
 ## Quickstart
 
@@ -49,14 +49,14 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 }
 ```
 </ClipboardCopy>
-<Table className="buggyTable">
+<div className="tablecss">
 | field              | type                 | description                                                 |
 | :----------------- | :------------------- | :---------------------------------------------------------- |
 | name               | string               | Your display name on your Profile                           |
 | displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter       |
 | type               | personal / community | The type of account, is it a single person or a community   |
 | bio                | string               | Your description about yourself (you can use markdown here) |
-</Table>
+</div>
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
 <ClipboardCopy>
@@ -77,13 +77,13 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```
 </ClipboardCopy>
 
-<Table className="buggyTable">
+<div className="tablecss">
 | field | type   | description                                                                                                                                                                          |
 | :---- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | name  | string | The display name for the button                                                                                                                                                      |
 | url   | string | Full url to the resource                                                                                                                                                             |
 | icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons here](https://linkfree.eddiehub.io/icons) |
-</Table>
+</div>
 ![propose new file](https://user-images.githubusercontent.com/82668196/208292185-743dc114-5699-4b58-bf5c-c5fc74f0248d.png)
 
 To add more links add another object inside the links collection. For example:
@@ -117,7 +117,8 @@ You can skip `optional extended message`
 ![propose new file](https://user-images.githubusercontent.com/82668196/208292186-d954f0e5-bdb0-4177-ac14-eb5d99b329dd.png)
 
 13. Click `compare across forks` and you will see 4 drop downs (**HIGHLY IMPORTANT - MANY GO WRONG HERE**)
-<Table className="buggyTable">
+
+<div className="tablecss">
 
 | Dropdown     | Description                          | Example values               |
 | :----------- | :----------------------------------- | :--------------------------- |
@@ -126,7 +127,7 @@ You can skip `optional extended message`
 | 3rd dropdown | Your repository (source)             | `your-username/LinkFree`     |
 | 4th dropdown | Your repository branch (source)      | `your-username-patch-1`      |
 
-</Table>
+</div>
 
 The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/LinkFree` not your username `your-username/LinkFree`.
 

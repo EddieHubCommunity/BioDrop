@@ -24,7 +24,7 @@ code.language-unknown::before, code.language-unknown::after {
 
 
 @media (width < 400px ){
-  .buggyTable{
+  .tablecss{
     width: 100%;
     overflow: auto;
   }
