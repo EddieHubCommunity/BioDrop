@@ -2,7 +2,7 @@
   "name": "Parth Ranalkar",
   "type": "personal",
   "displayStatsPublic": true,
-  "bio": "Open Source | Java Devloper | Web Devloper ",
+  "bio": "Open Source | Java Developer | Web Developer ",
   
   "tags": [
     "Open Source",
@@ -37,7 +37,6 @@
       "name": "Instagram : Follow me ",
       "url": "https://www.instagram.com/parthranalkar.28/",
       "icon": "SiInstagram"
-    },
+    }
   ]
-  
 }
