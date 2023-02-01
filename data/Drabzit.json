@@ -1,22 +1,21 @@
 {
-  "name": "Chris Bardsley",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Living 1 Life at a Time, Crazy IT Dude",
-
-  "tags": ["Noob", "Gamer", "Dad"],
-  "socials": [
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/Drabzit"
-    },
-    {
-      "icon": "FaLinkedin",
-      "url": "https:www.linkedin.com/in/christopher-bardsley-1291b0191"
-    },
-    {
-      "icon": "FaInstagram",
-      "Url": "https://www.instagram.com/drabz86/"
-    }
-  ]
-}
+    "name": "Chris Bardsley",
+    "displayStatsPublic": true,
+    "type": "personal",
+    "bio": "Living 1 Life at a Time, Crazy IT Dude, Small Fish in a big pond trying to get with the times and learn. Ready to Take next step in life and become more",
+    "tags": ["Open Source", "GitHub", "Dad"],
+    "socials": [
+      {
+        "icon": "FaGithub",
+        "url": "https://github.com/Drabzit"
+      },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://wwww.linkedin.com/in/christopher-bardsley-1291b0191"
+      },
+      {
+        "icon": "FaInstagram",
+        "Url": "https://www.instagram.com/drabz86/"
+      }
+    ]
+  }
