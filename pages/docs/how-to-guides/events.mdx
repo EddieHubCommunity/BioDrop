@@ -25,6 +25,8 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 <ClipboardCopy>
 ```js
 {
+  "userStatus": "speaking",
+  "speakerDetails": "Cloud Computing with Spring Cloud",
   "isVirtual": true,
   "isInPerson": true,
   "color": "red",
@@ -42,6 +44,8 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 
 | Property               | Required | Description                                                 |
 | :--------------------- | :------- | :---------------------------------------------------------- |
+| userStatus             | false    | Is user `attending` or `speaking`                           |
+| speakerDetails         | false    | Topic of your talk at the event                             |
 | isVirtual / isInPerson | true     | Is the event virtual or in person or both                   |
 | color                  | true     | What color would you like this milestone to be displayed in |
 | name                   | true     | Name of the event                                           |
