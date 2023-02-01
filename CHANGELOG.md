@@ -1,9 +1,9 @@
-# 1.70.0 (2023-01-31)
+## 1.70.2 (2023-01-31)
 
 
-### Features
+### Bug Fixes
 
-* record daily link clicks ([#4258](https://github.com/EddieHubCommunity/LinkFree/issues/4258)) ([79ac3db](https://github.com/EddieHubCommunity/LinkFree/commit/79ac3dbdf69ae11bd62a7435d7f0e189e39d4d04))
+* milestone image is not supported ([#4312](https://github.com/EddieHubCommunity/LinkFree/issues/4312)) ([a994ecf](https://github.com/EddieHubCommunity/LinkFree/commit/a994ecffb9abb67776a82a378f6c4f0d0b9d0c9d))
 
 
 
