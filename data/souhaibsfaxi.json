@@ -4,10 +4,7 @@
   "type": "personal",
   "bio": "Open Source Enthusiast!",
   "tags": ["javascript", "typescript"],
-  "socials": [
-    
-    { "icon": "FaGithub", "url": "https://github.com/souhaibsfaxi" }
-  ],
+  "socials": [{ "icon": "FaGithub", "url": "https://github.com/souhaibsfaxi" }],
   "links": [
     {
       "name": "Follow me on GitHub",
