@@ -11,7 +11,7 @@ pre[class*="language-"] {
   text-align: left;
   white-space: pre;
   word-spacing: normal;
-  word-break: normal;
+  word-break: break-all;
   word-wrap: normal;
   line-height: 1.5;
   -moz-tab-size: 4;
@@ -62,6 +62,8 @@ pre[class*="language-"] {
   padding: 0.1em;
   border-radius: 0.3em;
   white-space: normal;
+  /* word-break: break-all; */
+
 }
 
 .token.comment,

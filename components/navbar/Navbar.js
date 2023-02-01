@@ -103,7 +103,7 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="flex md:hidden">
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
