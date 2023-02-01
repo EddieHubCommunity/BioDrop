@@ -1,0 +1,18 @@
+{
+  "name": "why-sid",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Something turned **Digital Nomad**. Travel aficionado",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ImSid2001",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/siddharthhhh08/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

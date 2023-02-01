@@ -65,11 +65,10 @@ test.fixme("Link navigates", async ({ page }) => {
   // 4. get the current url and should match href
 });
 
-test.fixme("redirect to search when tag clicked", async ({ page }) => {
-  // 1. redirect to profile
-  // 2. get a link and href
-  // 3. click the link
-  // 4. get the current url and should match href
+test("redirect to search when tag clicked", async ({ page }) => {
+  await page.goto('/eddiejaoude');
+  await page.getByRole('link', { name: 'Open Source' }).first().click();
+  await expect(page).toHaveURL("search?search=Open%20Source");
 });
 
 test("should pass axe wcag accessibility tests (eddiejaoude)", async ({
