@@ -3,7 +3,6 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Engineer and Tech Entrepreneur",
-  "avatar": "https://github.com/raghu-007.png",
   "links":[
       {
       "name": "Follow me on Twitter",
@@ -14,6 +13,6 @@
       "name": "Follow me on Github",
       "url": "https://github.com/raghu-007",
       "icon": "FaGithub"
-       },
+       }
     ]
 }
