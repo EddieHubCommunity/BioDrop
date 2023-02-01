@@ -3,7 +3,6 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "I am a Software Engineer. A noob who always try to learn new things!",
-  "avatar":"https://avatars.githubusercontent.com/u/60433144?s=400&u=1945de7a9bb08a5ed799907763f2367285e77e80&v=4",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -23,7 +22,7 @@
     {
       "name": "Youtube",
       "url": "https://www.youtube.com/channel/UCYpQICoB6LNdHRyvpPSuILw",
-      "icon": "FaYouTube"
+      "icon": "FaYoutube"
     },
     {
       "name": "Check out my playlist on Spotify",
