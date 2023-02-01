@@ -4,18 +4,19 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
 
-  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
+  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python","TailWind CSS"],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
     { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/priyankarpal" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" }
+    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" },
+    { "icon": "FaDiscord", "url": "https://discordapp.com/users/1040252995130101821" }
   ],
   "links": [
     {
       "name": "Check My Latest Blogs",
-      "url": "https://priyankarpal.hashnode.dev",
+      "url": "https://itspp.hashnode.dev",
       "icon": "SiHashnode"
     },
     {
