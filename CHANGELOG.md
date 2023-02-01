@@ -1,9 +1,9 @@
-## 1.69.2 (2023-01-29)
+## 1.70.2 (2023-01-31)
 
 
 ### Bug Fixes
 
-* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
+* milestone image is not supported ([#4312](https://github.com/EddieHubCommunity/LinkFree/issues/4312)) ([a994ecf](https://github.com/EddieHubCommunity/LinkFree/commit/a994ecffb9abb67776a82a378f6c4f0d0b9d0c9d))
 
 
 
