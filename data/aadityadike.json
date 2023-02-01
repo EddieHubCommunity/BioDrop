@@ -7,17 +7,17 @@
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/adityastwt1",
-      "icon": "Fa-twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/aditya-dike-72837a221",
-      "icon": "Fa-linkedin"
+      "icon": "FaLinkedin"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/aadityadike",
-      "icon": "Fa-github"
+      "icon": "FaGithub"
     }
   ]
 }
