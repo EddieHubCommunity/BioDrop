@@ -1,9 +1,9 @@
-# 1.69.0 (2023-01-28)
+## 1.70.3 (2023-02-01)
 
 
-### Features
+### Bug Fixes
 
-* use github profile [#4018](https://github.com/EddieHubCommunity/LinkFree/issues/4018) ([#4021](https://github.com/EddieHubCommunity/LinkFree/issues/4021)) ([9fb30d2](https://github.com/EddieHubCommunity/LinkFree/commit/9fb30d2dc35dc6c9bbd2f2329aed71b6d88b1787))
+* removed extra main tag ([#4317](https://github.com/EddieHubCommunity/LinkFree/issues/4317)) ([7e9f654](https://github.com/EddieHubCommunity/LinkFree/commit/7e9f654963af32a176f3d349ceb8a0452f9ab15a))
 
 
 
