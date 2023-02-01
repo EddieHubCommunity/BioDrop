@@ -9,7 +9,7 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 import FallbackImage from "../FallbackImage";
 
-export default function EventCard({ event, username, isUserPage }) {
+export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",
@@ -23,7 +23,7 @@ export default function EventCard({ event, username, isUserPage }) {
         borderColor: event.color,
       }}
     >
-      <div className="flex space-x-3">
+      <div className="flex space-x-3  w-full">
         <div className="flex flex-col place-content-center">
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
@@ -34,41 +34,32 @@ export default function EventCard({ event, username, isUserPage }) {
               <FaMicrophoneAlt title="CFP is open" />
             )}
         </div>
-        <div className="flex-1 space-y-1">
-          {isUserPage && event.userStatus && (
-            <div className="flex space-x-2">
-              <p>
-                {username} is{" "}
-                <span
-                  className="font-bold"
-                  style={{
-                    color: event.color,
-                  }}
-                >
-                  {event.userStatus}
-                </span>{" "}
-                {event.userStatus == "speaking" && "at"} this event.
-              </p>
-              {event.userStatus == "speaking" &&
-                event?.speakingTopicDetails?.topic && (
-                  <p>
-                    ( <span className="font-bold">Topic: </span>{" "}
-                    {event.speakingTopicDetails.topic} )
-                  </p>
-                )}
-            </div>
-          )}
+        <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
             <div>
-              <Link
-                href={event.url}
-                key={event.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-              >
-                {event.name}
-              </Link>
+              <div className="flex justify-between">
+                <Link
+                  href={event.url}
+                  key={event.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
+                >
+                  {event.name}
+                </Link>
+                {event.userStatus && (
+                  <div className="text-slate-300 italic">
+                    {event.userStatus}
+                    {event.userStatus == "speaking" && " at "} this event
+                    {event.userStatus == "speaking" && event?.speakingTopic && (
+                      <>
+                        {" "}
+                        on <b>{event.speakingTopic}</b>
+                      </>
+                    )}
+                  </div>
+                )}
+              </div>
               <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
