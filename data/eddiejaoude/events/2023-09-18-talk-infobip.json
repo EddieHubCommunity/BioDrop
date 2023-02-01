@@ -1,6 +1,8 @@
 {
   "isVirtual": true,
   "isInPerson": true,
+  "userStatus": "speaking",
+  "speakingTopic": "Open Source",
   "color": "blue",
   "name": "Infobip Shift Conference",
   "description": "This is not another developer event. This is an experience that brings together the global tech community for two days of learning, networking, and creating new memories. This is a gathering of professionals, founders, leaders, disruptors, and dreamers. This is Infobip Shift. And we want to Shift Your World.",
