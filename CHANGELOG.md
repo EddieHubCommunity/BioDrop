@@ -1,9 +1,9 @@
-## 1.70.2 (2023-01-31)
+## 1.70.3 (2023-02-01)
 
 
 ### Bug Fixes
 
-* milestone image is not supported ([#4312](https://github.com/EddieHubCommunity/LinkFree/issues/4312)) ([a994ecf](https://github.com/EddieHubCommunity/LinkFree/commit/a994ecffb9abb67776a82a378f6c4f0d0b9d0c9d))
+* removed extra main tag ([#4317](https://github.com/EddieHubCommunity/LinkFree/issues/4317)) ([7e9f654](https://github.com/EddieHubCommunity/LinkFree/commit/7e9f654963af32a176f3d349ceb8a0452f9ab15a))
 
 
 
