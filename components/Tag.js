@@ -8,13 +8,14 @@ export default function Tag({ name, total, path, currentInput, selected, method 
       <Link
         onClick={()=>{
           if(!selected){
-            if(currentInput !== '')
+            if(currentInput !== '' && currentInput !== undefined)
             {
               method(`${currentInput.toLowerCase().split(',').filter(input => input !== '').join(',')},${name}`)
             }
-            else{
+            else if(currentInput !== undefined){
               method(`${name}`)
             }
+            else{}
           }else{
             method(currentInput.toLowerCase().split(',').filter(input => input !== '' && input !== name.toLowerCase()).join(','))
           }

@@ -77,17 +77,9 @@ export default function Search({ data }) {
         );
      
         if(filteredtags && filteredtags.length >= value.split(',').filter(val => val !== '').length){
-          let filteredArr = tagNames.filter(tag => value.toLowerCase().split(',').includes(tag))
-          if(filteredArr.length !== 0)
-          {
-            if(filteredArr.every(tag => filteredtags.join(',').toLowerCase().split(',').includes(tag))){
+            if(value.toLowerCase().split(',').every(val => filteredtags.join(',').toLowerCase().indexOf(val) !== -1)){
               return true
             }
-            else{
-              return false
-            }
-          }
-          return true;
         }
       });
 
