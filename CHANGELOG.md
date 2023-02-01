@@ -1,9 +1,9 @@
-## 1.70.3 (2023-02-01)
+# 1.71.0 (2023-02-01)
 
 
-### Bug Fixes
+### Features
 
-* removed extra main tag ([#4317](https://github.com/EddieHubCommunity/LinkFree/issues/4317)) ([7e9f654](https://github.com/EddieHubCommunity/LinkFree/commit/7e9f654963af32a176f3d349ceb8a0452f9ab15a))
+* attend / speak info event card ([#3841](https://github.com/EddieHubCommunity/LinkFree/issues/3841)) ([#4343](https://github.com/EddieHubCommunity/LinkFree/issues/4343)) ([5605329](https://github.com/EddieHubCommunity/LinkFree/commit/56053295c047d5c66865a742271c0ffa4b8dc767))
 
 
 
