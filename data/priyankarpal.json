@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Avid Linux User | **Web Dev** | Tech Enthusiast",
 
-  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python"],
+  "tags": ["Open Source", "Javascript", "JAVA", "Kali Linux", "SCSS", "Python","TailWind CSS"],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
@@ -16,7 +16,7 @@
   "links": [
     {
       "name": "Check My Latest Blogs",
-      "url": "https://priyankarpal.hashnode.dev",
+      "url": "https://itspp.hashnode.dev",
       "icon": "SiHashnode"
     },
     {
