@@ -23,7 +23,7 @@ export default function EventCard({ event, username }) {
         borderColor: event.color,
       }}
     >
-      <div className="flex space-x-3  w-full">
+      <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
