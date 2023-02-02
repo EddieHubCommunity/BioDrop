@@ -38,9 +38,6 @@
   "socials": [
     { "icon": "SiTwitter", "url": "https://twitter.com/samd_twts" },
     { "icon": "SiGithub", "url": "https://github.com/samarth8765" },
-    {
-      "icon": "SiLinkedin",
-      "url": "https://www.linkedin.com/in/samarthdhawan2911/"
-    }
+    {"icon": "SiLinkedin","url": "https://www.linkedin.com/in/samarthdhawan2911/"}
   ]
 }
