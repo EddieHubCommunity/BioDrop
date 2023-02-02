@@ -1,4 +1,4 @@
-import { useEffect, useState,useRef} from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
@@ -8,10 +8,10 @@ import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 
 export async function getServerSideProps(context) {
-  let data ={
+  let data = {
     users: [],
-    tags:[]
-  }
+    tags: [],
+  };
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
@@ -29,16 +29,16 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data }
+    props: { data },
   };
 }
 
 export default function Search({ data }) {
-  let {users, tags} = data
-  const tagNames = []
-  tags && tags.map(tag => tagNames.push(tag.name.toLowerCase()))
+  let { users, tags } = data;
+  const tagNames = [];
+  tags && tags.map((tag) => tagNames.push(tag.name.toLowerCase()));
   const router = useRouter();
-  const inputRef=useRef();
+  const inputRef = useRef();
   const { username, search } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -71,15 +71,39 @@ export default function Search({ data }) {
           return true;
         }
 
-        let filteredtags = user.tags?.filter((tag) =>
-          value.toLowerCase().split(',').includes(tag.toLowerCase()) || value.toLowerCase().split(',')
-          .some(val => val==='java'?tag.toLowerCase() !== 'javascript'?tag.toLowerCase().indexOf(val) !== -1 : false : val !== ''?tag.toLowerCase().indexOf(val) !== -1:false)
+        let filteredtags = user.tags?.filter(
+          (tag) =>
+            value.toLowerCase().split(",").includes(tag.toLowerCase()) ||
+            value
+              .toLowerCase()
+              .split(",")
+              .some((val) =>
+                val === "java"
+                  ? tag.toLowerCase() !== "javascript"
+                    ? tag.toLowerCase().indexOf(val) !== -1
+                    : false
+                  : val !== ""
+                  ? tag.toLowerCase().indexOf(val) !== -1
+                  : false
+              )
         );
-     
-        if(filteredtags && filteredtags.length >= value.split(',').filter(val => val !== '').length){
-            if(value.toLowerCase().split(',').every(val => filteredtags.join(',').toLowerCase().indexOf(val) !== -1)){
-              return true
-            }
+
+        if (
+          filteredtags &&
+          filteredtags.length >=
+            value.split(",").filter((val) => val !== "").length
+        ) {
+          if (
+            value
+              .toLowerCase()
+              .split(",")
+              .every(
+                (val) =>
+                  filteredtags.join(",").toLowerCase().indexOf(val) !== -1
+              )
+          ) {
+            return true;
+          }
         }
       });
 
@@ -112,14 +136,33 @@ export default function Search({ data }) {
 
         <div className="flex flex-wrap justify-center mb-4">
           {tags &&
-            tags
-              .slice(0, 10)
-              .map((tag) => (
-                <Tag name={tag.name} key={tag.name} total={tag.total} path='/search' currentInput={inputValue} method={setInputValue}
-                selected ={inputValue && inputValue.toLowerCase().split(',')
-                .some(input => input==='java'?tag.name.toLowerCase() !== 'javascript'?tag.name.toLowerCase().indexOf(input) !== -1: false:input !== ''? tag.name.toLowerCase().indexOf(input) !== -1:false)?
-                true: false}/>
-              ))}
+            tags.slice(0, 10).map((tag) => (
+              <Tag
+                name={tag.name}
+                key={tag.name}
+                total={tag.total}
+                path="/search"
+                currentInput={inputValue}
+                setInputValue={setInputValue}
+                selected={
+                  inputValue &&
+                  inputValue
+                    .toLowerCase()
+                    .split(",")
+                    .some((input) =>
+                      input === "java"
+                        ? tag.name.toLowerCase() !== "javascript"
+                          ? tag.name.toLowerCase().indexOf(input) !== -1
+                          : false
+                        : input !== ""
+                        ? tag.name.toLowerCase().indexOf(input) !== -1
+                        : false
+                    )
+                    ? true
+                    : false
+                }
+              />
+            ))}
         </div>
 
         <div className="relative">
