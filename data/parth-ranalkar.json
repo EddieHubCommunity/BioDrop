@@ -1,0 +1,40 @@
+{
+  "name": "Parth Ranalkar",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "Open Source | Java Developer | Web Developer ",
+
+  "tags": ["Open Source", "Javascript", "Java", "Spring"],
+
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/ParthRanalkar" },
+    { "icon": "FaGithub", "url": "https://github.com/parth-ranalkar" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/parth-ranalkar"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ParthRanalkar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github: Collaborate on Open Source",
+      "url": "https://github.com/parth-ranalkar",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Linkedin: Let's Connect",
+      "url": "https://www.linkedin.com/in/parth-ranalkar",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Instagram : Follow me ",
+      "url": "https://www.instagram.com/parthranalkar.28/",
+      "icon": "SiInstagram"
+    }
+  ]
+}
