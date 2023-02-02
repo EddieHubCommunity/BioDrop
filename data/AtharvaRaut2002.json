@@ -31,7 +31,7 @@
       "name": "Follow me on Leetcode",
       "url": "https://leetcode.com/Atharva_Raut/",
       "icon": "FaLeetcode"
-    },
+    }
   ],
   "milestones": [
     {
@@ -47,6 +47,6 @@
       "icon": "FaGraduationCap",
       "color": "blue",
       "description": "Currently working as a Full Stack Developer from Indian Startup"
-    },
+    }
   ]
 }
