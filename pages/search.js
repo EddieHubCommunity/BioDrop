@@ -39,13 +39,11 @@ export default function Search({ data }) {
   tags && tags.map((tag) => tagNames.push(tag.name.toLowerCase()));
   const router = useRouter();
   const inputRef = useRef();
-  const { username, search } = router.query;
+  const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
-  const [inputValue, setInputValue] = useState(
-    username ? username : search ? search : ""
-  );
+  const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
 
@@ -58,6 +56,8 @@ export default function Search({ data }) {
   }, [username]);
 
   const filterData = (value) => {
+    const valueLower = value.toLowerCase();
+    const terms = valueLower.split(",");
     if (value.length < 3) {
       setThreeOrMore(false);
       setFilteredUsers(results);
@@ -67,44 +67,17 @@ export default function Search({ data }) {
     if (value.length >= 3) {
       setThreeOrMore(true);
       results = users.filter((user) => {
-        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+        if (user.name.toLowerCase().includes(valueLower)) {
           return true;
         }
 
-        let filteredtags = user.tags?.filter(
-          (tag) =>
-            value.toLowerCase().split(",").includes(tag.toLowerCase()) ||
-            value
-              .toLowerCase()
-              .split(",")
-              .some((val) =>
-                val === "java"
-                  ? tag.toLowerCase() !== "javascript"
-                    ? tag.toLowerCase().indexOf(val) !== -1
-                    : false
-                  : val !== ""
-                  ? tag.toLowerCase().indexOf(val) !== -1
-                  : false
-              )
-        );
+        let userTags = user.tags?.map((tag) => tag.toLowerCase());
 
-        if (
-          filteredtags &&
-          filteredtags.length >=
-            value.split(",").filter((val) => val !== "").length
-        ) {
-          if (
-            value
-              .toLowerCase()
-              .split(",")
-              .every(
-                (val) =>
-                  filteredtags.join(",").toLowerCase().indexOf(val) !== -1
-              )
-          ) {
-            return true;
-          }
+        if (terms.every((keyword) => userTags?.includes(keyword))) {
+          return true;
         }
+
+        return false;
       });
 
       if (!results.length) {
@@ -117,6 +90,25 @@ export default function Search({ data }) {
 
       setFilteredUsers(results);
     }
+  };
+
+  const search = (keyword) => {
+    if (!inputValue.length) {
+      return setInputValue(keyword);
+    }
+
+    const items = inputValue.split(",");
+    if (inputValue.length) {
+      if (items.includes(keyword)) {
+        return setInputValue(
+          items.filter((item) => item !== keyword).join(",")
+        );
+      }
+
+      return setInputValue([...items, keyword].join(","));
+    }
+
+    setInputValue(keyword);
   };
 
   useEffect(() => {
@@ -136,33 +128,17 @@ export default function Search({ data }) {
 
         <div className="flex flex-wrap justify-center mb-4">
           {tags &&
-            tags.slice(0, 10).map((tag) => (
-              <Tag
-                name={tag.name}
-                key={tag.name}
-                total={tag.total}
-                path="/search"
-                currentInput={inputValue}
-                setInputValue={setInputValue}
-                selected={
-                  inputValue &&
-                  inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .some((input) =>
-                      input === "java"
-                        ? tag.name.toLowerCase() !== "javascript"
-                          ? tag.name.toLowerCase().indexOf(input) !== -1
-                          : false
-                        : input !== ""
-                        ? tag.name.toLowerCase().indexOf(input) !== -1
-                        : false
-                    )
-                    ? true
-                    : false
-                }
-              />
-            ))}
+            tags
+              .slice(0, 10)
+              .map((tag) => (
+                <Tag
+                  key={tag.name}
+                  name={tag.name}
+                  total={tag.total}
+                  selected={inputValue.includes(tag.name)}
+                  onClick={() => search(tag.name)}
+                />
+              ))}
         </div>
 
         <div className="relative">
