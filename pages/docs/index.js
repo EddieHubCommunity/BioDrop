@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Page from "../../components/Page";
+import Link from "../../components/Link";
 
 export default function DocsIndex() {
   function classNames(...classes) {
@@ -64,7 +65,8 @@ export default function DocsIndex() {
         {
           name: "Available icons",
           path: "/icons",
-          description: "Search for available icons you can use on your profile.",
+          description:
+            "Search for available icons you can use on your profile.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -252,16 +254,22 @@ export default function DocsIndex() {
         <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with
-          creating your Profile to more advanced topics. You can contribute to
-          our documentation and find the files here{" "}
-          <a
-            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+          creating your Profile to more advanced topics. We welcome
+          contributions, check out the&nbsp;
+          <Link
             target="_blank"
-            rel="noreferrer"
-            className="text-sky-700 break-words"
+            href="https://github.com/EddieHubCommunity/LinkFree"
           >
-            https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs
-          </a>
+            LinkFree repo
+          </Link>{" "}
+          and the&nbsp;
+          <Link
+            target="_blank"
+            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+          >
+            documentation source
+          </Link>{" "}
+          on GitHub for more information.
         </p>
         {sections.map((section) => (
           <div
@@ -290,14 +298,14 @@ export default function DocsIndex() {
                         {page.category.name}
                       </span>
                     </div>
-                    <a href={page.path} className="mt-4 block">
+                    <Link href={page.path} className="mt-4 block">
                       <h3 className="text-xl font-semibold text-gray-900">
                         {page.name}
                       </h3>
                       <p className="mt-3 text-base text-gray-500">
                         {page.description}
                       </p>
-                    </a>
+                    </Link>
                   </div>
                 ))}
               </div>

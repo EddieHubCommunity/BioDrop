@@ -1,5 +1,4 @@
-import Head from "next/head";
-import Link from "next/link";
+import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
@@ -13,6 +12,7 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
+import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
 
@@ -110,7 +110,7 @@ export default function Home({ total, today }) {
       description:
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
-        "https://user-images.githubusercontent.com/100528412/210552842-70d6a823-5062-4ad9-aa51-78c990b72d63.png",
+        "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
       imageAlt: "LinkFree screenshot of the tags in example profile",
     },
     {
@@ -129,7 +129,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of a QR code example",
     },
     {
       name: "Your Links",
@@ -138,7 +138,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of links section of an example profile",
     },
     {
       name: "Your Milestones",
@@ -147,7 +147,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of milestones section of an example profile",
     },
     {
       name: "Your Testimonials",
@@ -155,7 +155,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of testimonials section of an example profile",
     },
     {
       name: "Your Events",
@@ -164,7 +164,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of events section of an example profile",
     },
     {
       name: "Community Events",
@@ -173,7 +173,7 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210064225-b792c186-1eb0-4451-8624-39d5d33724b1.png",
       imageAlt:
-        "White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.",
+        "LinkFree screenshot of community events section in the Community Section tab",
     },
   ];
 
@@ -183,15 +183,8 @@ export default function Home({ total, today }) {
 
   return (
     <>
-      <Head>
-        <title>LinkFree - connect to your audience with a single link</title>
-        <meta
-          name="description"
-          content="Open Source alternative to LinkTree"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
+      <PageHead />
+      
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
           <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
             <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
@@ -395,7 +388,7 @@ export default function Home({ total, today }) {
 
         <div className="relative bg-white py-24 sm:py-32 lg:py-40">
           <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-            <h2 className="text-lg font-semibold text-indigo-600">
+            <h2 className="font-semibold text-indigo-600 text-3xl">
               Getting Started
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -409,29 +402,29 @@ export default function Home({ total, today }) {
               <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
                 {features.map((feature) => (
                   <div key={feature.name} className="pt-6">
-                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
-                            <feature.icon
-                              className="h-8 w-8 text-white"
-                              aria-hidden="true"
-                            />
-                          </span>
-                        </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight">
-                          <Link
-                            href={feature.path}
-                            className="text-gray-900 hover:text-indigo-600 hover:underline"
-                          >
+                    <Link aria-label="Go to ${feature.name} page"
+                      href={feature.path}
+                      className="text-gray-900 group"
+                    >
+                      <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div className="-mt-6">
+                          <div>
+                            <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
+                              <feature.icon
+                                className="h-8 w-8 text-white"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </div>
+                          <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                             {feature.name}
-                          </Link>
-                        </h3>
-                        <p className="mt-5 text-base leading-7 text-gray-600">
-                          {feature.description}
-                        </p>
+                          </h3>
+                          <p className="mt-5 text-base leading-7 text-gray-600">
+                            {feature.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
@@ -442,7 +435,6 @@ export default function Home({ total, today }) {
         <Link
           href="https://github.com/EddieHubCommunity/LinkFree/discussions"
           rel="noopener noreferrer"
-          target="_blank"
         >
           <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
             <IconContext.Provider
@@ -453,7 +445,7 @@ export default function Home({ total, today }) {
             <p className="text-sm font-medium">Help</p>
           </div>
         </Link>
-      </main>
+      
     </>
   );
 }

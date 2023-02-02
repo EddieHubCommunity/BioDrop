@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "A very passionate full-stack developer with passion for building highly interactive and responsive web applications as well as secure and scalable RESTful APIs using modern technologies",
-  "avatar": "https://github.com/Chimise.png",
+
   "tags": ["javascript", "typescript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/chimisep" },

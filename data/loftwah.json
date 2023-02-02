@@ -3,8 +3,18 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
-  "avatar": "https://github.com/loftwah.png",
-  "tags": ["AWS", "Beats", "DevOps", "Music", "Open Source", "Ruby"],
+
+  "tags": [
+    "AWS",
+    "Beats",
+    "DevOps",
+    "DevRel",
+    "Music",
+    "Open Source",
+    "Rapper",
+    "Ruby",
+    "Rust"
+  ],
   "socials": [
     {
       "icon": "FaGithub",
@@ -46,7 +56,13 @@
       "icon": "FaSpotify"
     }
   ],
-  "testimonials": ["CBID2", "eddiejaoude", "krshkun"],
+  "testimonials": [
+    "CBID2",
+    "eddiejaoude",
+    "krshkun",
+    "stevenovak123",
+    "AussieDev81"
+  ],
   "milestones": [
     {
       "title": "Received the Iraq Medal",
@@ -121,6 +137,14 @@
       "url": "https://grindmodecypher.com"
     },
     {
+      "title": "Released an album as a member of the Hip Hop group Protektahz",
+      "date": "2020",
+      "icon": "FaMusic",
+      "color": "#224960",
+      "description": "I wrote the music and produced this album with Protektahz",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_kO8bRKVWIAFGFNDjVkI9NiKtHSsqGEndQ"
+    },
+    {
       "title": "Produced and released OptiMystic - Salty Waterz 2",
       "date": "2020",
       "icon": "FaMusic",
@@ -135,6 +159,14 @@
       "color": "#EF5904",
       "description": "I taught myself to code, discovered EddieHub and joined LinkFree",
       "url": "https://linkfree.eddiehub.io"
+    },
+    {
+      "title": "Became an EddieHub 0.2 Ambassador",
+      "date": "2023",
+      "icon": "FaCode",
+      "color": "#EF5904",
+      "description": "I accepted the role as EddieHub Ambassador 0.2",
+      "url": "https://www.eddiehub.org/ambassador-program"
     }
   ]
 }

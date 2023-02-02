@@ -2,15 +2,47 @@
   "name": "João Marcelo Dantas",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "React Jr. Developer",
-  "avatar": "https://github.com/jmgrd98.png",
+  "bio": "Frontend Developer Jr.",
+
+  "milestones": [
+    {
+      "title": "Started coding!",
+      "date": "March 2022",
+      "icon": "FaCode",
+      "color": "green",
+      "description": "Started my programming studies.",
+      "url": "https://www.github.com/jmgrd98/"
+    },
+    {
+      "title": "Started in open source!",
+      "date": "January 2023",
+      "icon": "FaCodeBranch",
+      "color": "green",
+      "description": "Started contributing to open source projects as a way to improve my coding skills.",
+      "url": "https://www.github.com/jmgrd98/"
+    },
+    {
+      "title": "Got hired as a frontend developer!",
+      "date": "February 2023",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Got my first job as a developer on a real company.",
+      "url": "https://www.github.com/jmgrd98/"
+    }
+  ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/jmgrd98" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jmgrd98"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/joao-marcelo-dantas"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/joaodantas_dev" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/joaodantas_dev"
+    }
   ],
   "links": [
     {
@@ -25,7 +57,7 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://github.com/joaodantas_dev",
+      "url": "https://twitter.com/joaodantas_dev",
       "icon": "FaTwitter"
     }
   ]

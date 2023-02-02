@@ -2,28 +2,55 @@
   "name": "Akhilesh Nadgiri",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Engineering Undergrad **DevOps Guy**. F1 & E-sports enthusiast.",
-  "avatar": "https://github.com/akhil3shh.png",
+  "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
+  "tags": ["Docker", "Kubernetes", "Python", "GCP", "AWS"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
+    { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/akhileshhh.exe" }
+  ],
   "links": [
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/akhil3shh",
-      "icon": "FaTwitter"
-    },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/akhilesh-nadgiri",
       "icon": "FaLinkedIn"
     },
     {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/akhileshhh.exe/",
-      "icon": "FaInstagram"
-    },
-    {
       "name": "GitHub",
       "url": "https://github.com/akhil3shh",
       "icon": "FaGithub"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/akhil3sh",
+      "icon": "FaLeetCode"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/akhil3shh",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/akhileshhh.exe/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Intern",
+      "date": "Jan - July 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Content Creator at GeeksForGeeks"
+    },
+    {
+      "title": "Intern",
+      "date": "July - Sept 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "AWS Cloud Computing"
     }
   ]
 }

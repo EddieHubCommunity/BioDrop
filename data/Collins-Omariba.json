@@ -2,7 +2,7 @@
   "name": "Omariba Collins",
   "type": "personal",
   "bio": "Backend dev and Machine Learning",
-  "avatar": "https://github.com/Collins-Omariba.png",
+
   "tags": ["Open Source", "Python", "JavaScript", "ML", "IoT"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/OmaribaCollins" },
@@ -35,6 +35,13 @@
       "url": "https://www.linkedin.com/in/omariba-collins-b28b841b9",
 
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Articles",
+
+      "url": "https://medium.com/@collinsomariba",
+
+      "icon": "FaMedium"
     }
   ],
 

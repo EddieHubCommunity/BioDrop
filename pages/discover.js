@@ -1,5 +1,4 @@
-import Head from "next/head";
-
+import PageHead from "../components/PageHead";
 import UserCard from "../components/user/UserCard";
 import Page from "../components/Page";
 import { useState } from "react";
@@ -67,14 +66,11 @@ export default function Popular({ data, BASE_URL }) {
 
   return (
     <>
-      <Head>
-        <title>Discover LinkFree Profiles</title>
-        <meta
-          name="description"
-          content="Discover more people in your LinkFree community"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="Discover LinkFree Profiles"
+        description="Discover more people in your LinkFree community"
+      />
+
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">
           Discover LinkFree Profiles
@@ -90,7 +86,7 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <div className="flex flex-col md:flex-row gap-3 items-center mb-4">
+          <div className="flex flex-row justify-center md:justify-start gap-3 items-center mb-4">
             <h2 className="text-md md:text-xl font-bold">
               Random LinkFree Profiles
             </h2>
@@ -112,7 +108,7 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">
+          <h2 className="text-md md:text-left md:text-xl text-center font-bold mb-4">
             Trending LinkFree Profiles (last 24 hours)
           </h2>
           <ul className="flex flex-wrap gap-3 justify-center">
@@ -125,7 +121,7 @@ export default function Popular({ data, BASE_URL }) {
         </div>
 
         <div className="mb-12">
-          <h2 className="text-xl font-bold mb-4">Popular LinkFree Profiles</h2>
+          <h2 className="text-md md:text-xl md:text-left text-center font-bold mb-4">Popular LinkFree Profiles</h2>
           <ul className="flex flex-wrap gap-3 justify-center">
             {data.popular.map((profile) => (
               <li key={profile.username}>
