@@ -1,8 +1,23 @@
 {
   "name": "Dunsin",
   "type": "personal",
-  "bio": "Full Stack Web Developer, Content Creator and Open Source Enthusiast!",
-  "avatar": "https://github.com/Dun-sin.png",
+  "bio": "Web Developer, Content Creator and Open Source Enthusiast!",
+
+  "tags": [
+    "Content Creation",
+    "Open Source",
+    "GitHub",
+    "Web Developer",
+    "JavaScript",
+    "Reactjs/Nextjs",
+    "TailwindCSS"
+  ],
+  "displayStatsPublic": true,
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/dunsinwebdev" },
+    { "icon": "FaGithub", "url": "https://github.com/Dun-sin" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/dunsincodes" }
+  ],
   "links": [
     {
       "name": "Follow me on Instagram",
@@ -16,7 +31,7 @@
     },
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/dunsin_codes",
+      "url": "https://twitter.com/dunsinwebdev",
       "icon": "FaTwitter"
     },
     {
@@ -26,8 +41,39 @@
     },
     {
       "name": "Let's connect on LinkedIn",
-      "url": "https://www.linkedin.com/in/favourfaiyetoleweb-developer",
+      "url": "https://linkedin.com/in/favour-faiyetole-99a438229",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://buymeacoffee.com/dunsinCodes",
+      "icon": "FaCoffee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Web Development",
+      "date": "August 2021",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started Learning Web Development",
+      "url": "https://dunsin.vercel.app/"
+    },
+    {
+      "title": "Content Creation",
+      "date": "December 2021",
+      "icon": "FaInstagram",
+      "color": "pink",
+      "description": "Started Content Creating on Instagram",
+      "url": "https://www.instagram.com/dunsincodes"
+    },
+    {
+      "title": "First Internship",
+      "date": "March 2022",
+      "icon": "FaCode",
+      "color": "purple",
+      "description": "Got my first internship at pixul",
+      "url": "https://dunsin.vercel.app/"
     }
   ]
 }

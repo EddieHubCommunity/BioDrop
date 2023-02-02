@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "../Link"
 import Alert from "../Alert";
 import FallbackImage from "../FallbackImage";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
@@ -30,9 +30,9 @@ export default function UserTestimonials({ data }) {
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
-                <a href={testimonial.url} target="_blank" rel="noreferrer">
+                <Link href={testimonial.url} target="_blank">
                   {testimonial.username}
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -41,9 +41,9 @@ export default function UserTestimonials({ data }) {
                 <h3 className="font-medium text-gray-900">
                   {testimonial.title}
                 </h3>
-                <a href={testimonial.url} target="_blank" rel="noreferrer">
+                <Link href={testimonial.url} target="_blank">
                   {testimonial.username}
-                </a>
+                </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-gray-500">
                 <ReactMarkdown>{testimonial.description}</ReactMarkdown>

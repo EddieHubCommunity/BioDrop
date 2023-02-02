@@ -5,44 +5,65 @@
   "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Designer and Content Creator | Tech Blogger | Music Producer",
   "tags": [
     "Open Source",
-    "Content Writer",
+    "Content Creation",
+    "Technical Writing",
     "Blogging",
     "Web3",
     "Fullstack Web Development",
     "Designing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/code_shubh" },
-    { "icon": "FaGithub", "url": "https://github.com/shubhsharma19" },
-    { "icon": "SiHashnode", "url": "https://shubhsharma19.hashnode.dev/" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/code.shubh/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/code_shubh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://shubhsharma19.hashnode.dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/code.shubh/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA"
+    }
   ],
-  "avatar": "https://github.com/shubhsharma19.png",
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "My GitHub",
       "url": "https://github.com/shubhsharma19",
       "icon": "FaGithub"
     },
     {
-      "name": "Twitter: Threads and Random talks about Tech",
+      "name": "Threads about Tech and Random Talk",
       "url": "https://twitter.com/code_shubh",
       "icon": "FaTwitter"
     },
     {
-      "name": "Interested in reading my blogs? Here you go!",
+      "name": "My Blogs",
       "url": "https://shubhsharma19.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "My LinkedIn",
       "url": "https://linkedin.com/in/shubhsharma19",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Instagram: I post Programming Content",
+      "name": "Content on Instagram",
       "url": "https://instagram.com/code.shubh",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "My YouTube",
+      "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA",
+      "icon": "FaYoutube"
     },
     {
       "name": "Support my work",
@@ -52,26 +73,34 @@
   ],
   "milestones": [
     {
-      "title": "Joined Open Source",
-      "date": "December, 2022",
+      "title": "Started contributing to Open Source",
+      "date": "January, 2023",
       "icon": "FaGithub",
-      "color": "red",
-      "description": "Started Advocating for Opensource Contributions",
+      "color": "green",
+      "description": "Advocating for Open Source",
       "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "title": "Reached 200k profile views on Instagram",
+      "date": "December, 2022",
+      "icon": "FaInstagram",
+      "color": "purple",
+      "description": "My content on Instagram reached around 200k views per month",
+      "url": "https://instagram.com/code.shubh/"
     },
     {
       "title": "Started Blogging",
       "date": "October, 2022",
       "icon": "SiHashnode",
       "color": "blue",
-      "description": "Documenting my Journey through technical blogs",
+      "description": "Documenting my journey through Technical Blogs",
       "url": "https://shubhsharma19.hashnode.dev/"
     },
     {
       "title": "Participated in GDSC Challenge, Commit your code",
       "date": "October, 2021",
       "icon": "FaGithub",
-      "color": "blue",
+      "color": "orange",
       "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
       "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
     }
