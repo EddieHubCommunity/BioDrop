@@ -26,6 +26,11 @@
       "name": "Github",
       "url": "https://github.com/tobySolutions",
       "icon": "FaGithub"
+    },
+     {
+      "name": "Check out my Awesome YouTube Channel",
+      "url": "https://www.youtube.com/channel/UC9JYiFFgkOQxg2kwTWauwzw",
+      "icon": "FaYoutube"
     }
   ],
   "milestones": [

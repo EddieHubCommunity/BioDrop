@@ -31,7 +31,7 @@ export default function UserTestimonials({ data }) {
                   {testimonial.title}
                 </h3>
                 <Link href={testimonial.url} target="_blank">
-                  {testimonial.username}
+                  @{testimonial.username}
                 </Link>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function UserTestimonials({ data }) {
                   {testimonial.title}
                 </h3>
                 <Link href={testimonial.url} target="_blank">
-                  {testimonial.username}
+                  @{testimonial.username}
                 </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-gray-500">
