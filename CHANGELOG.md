@@ -1,9 +1,9 @@
-## 1.70.3 (2023-02-01)
+## 1.71.3 (2023-02-02)
 
 
 ### Bug Fixes
 
-* removed extra main tag ([#4317](https://github.com/EddieHubCommunity/LinkFree/issues/4317)) ([7e9f654](https://github.com/EddieHubCommunity/LinkFree/commit/7e9f654963af32a176f3d349ceb8a0452f9ab15a))
+* alignment of discover headings ([#3597](https://github.com/EddieHubCommunity/LinkFree/issues/3597)) ([55397c9](https://github.com/EddieHubCommunity/LinkFree/commit/55397c96eb2b958a496960d62dcb843347ed170c))
 
 
 
