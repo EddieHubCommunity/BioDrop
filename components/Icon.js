@@ -6,12 +6,12 @@ let icon;
   switch (name.slice(0, 2)) {
     case "Fa":
       icon = dynamic(() =>
-        import('react-icons/fa').then((mod) => mod[name])
+        import('react-icons/fa').then((mod) => mod[name]).catch(() => null)
       )
       break;
     case "Si":
       icon = dynamic(() =>
-        import('react-icons/si').then((mod) => mod[name])
+        import('react-icons/si').then((mod) => mod[name]).catch(() => null)
       )
       break;
   }
