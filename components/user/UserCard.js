@@ -25,7 +25,7 @@ export default function UserCard({ profile }) {
         )}
       </div>
       <div>
-        <h3 className="text-xl justify-center text-center font-light mb-2">
+        <h3 className="text-xl justify-center text-center font-light mb-2 hover:underline">
           {profile.name}
         </h3>
         <ReactMarkdown className="text-center line-clamp-5">{profile.bio}</ReactMarkdown>
