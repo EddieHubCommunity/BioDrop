@@ -1,9 +1,9 @@
-# 1.70.0 (2023-01-31)
+# 1.71.0 (2023-02-01)
 
 
 ### Features
 
-* record daily link clicks ([#4258](https://github.com/EddieHubCommunity/LinkFree/issues/4258)) ([79ac3db](https://github.com/EddieHubCommunity/LinkFree/commit/79ac3dbdf69ae11bd62a7435d7f0e189e39d4d04))
+* attend / speak info event card ([#3841](https://github.com/EddieHubCommunity/LinkFree/issues/3841)) ([#4343](https://github.com/EddieHubCommunity/LinkFree/issues/4343)) ([5605329](https://github.com/EddieHubCommunity/LinkFree/commit/56053295c047d5c66865a742271c0ffa4b8dc767))
 
 
 

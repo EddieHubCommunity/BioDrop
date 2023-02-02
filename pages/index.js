@@ -183,7 +183,7 @@ export default function Home({ total, today }) {
   return (
     <>
       <PageHead />
-      <main>
+      
         <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
           <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
             <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
@@ -389,7 +389,7 @@ export default function Home({ total, today }) {
             <p className="text-sm font-medium">Help</p>
           </div>
         </Link>
-      </main>
+      
     </>
   );
 }
