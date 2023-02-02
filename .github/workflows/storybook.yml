@@ -1,0 +1,57 @@
+name: Storybook
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - pages/**
+      - components/**
+      - stories/**
+  pull_request:
+    paths:
+      - pages/**
+      - components/**
+      - stories/**
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: install dependencies
+        run: npm ci
+      - name: run build
+        run: npm run build-storybook
+
+      - name: Upload artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './storybook-static'
+
+# Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+

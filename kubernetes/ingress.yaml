@@ -5,8 +5,29 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
+  ingressClassName: nginx
   rules:
-    - host: 'linkfree.eddiehub.org'
+    - host: "linkfree.eddiehub.org"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: eddiehub-linkfree-service
+                port:
+                  number: 5000
+    - host: "linkfree.eddiehub.io"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: eddiehub-linkfree-service
+                port:
+                  number: 5000
+    - host: 'linkfree.eddiehubcommunity.org'
       http:
         paths:
           - path: /

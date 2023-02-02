@@ -1,0 +1,188 @@
+{
+  "name": "Pradumna Saraf",
+  "type": "personal",
+  "displayStatsPublic": true,
+  "bio": "**Open Source** Advocate | DevOps Engineer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Node.js", "Go"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
+    { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/pradumnasaraf" },
+    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/Pradumnasaraf"
+    }
+  ],
+  "testimonials": [
+    "eddiejaoude",
+    "FrancescoXX",
+    "loftwah",
+    "krshkun",
+    "tobySolutions",
+    "Njong392",
+    "MadhuSaini22"
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Services - Open Source and content creation",
+      "url": "https://pradumnasaraf.dev/services",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Daily tips on Open Source and DevOps",
+      "url": "https://twitter.com/pradumna_saraf",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Pradumnasaraf",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/pradumnasaraf",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Open Source and DevOps",
+      "url": "https://blog.pradumnasaraf.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/pradumnasaraf",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe for video content",
+      "url": "https://www.youtube.com/@pradumnasaraf",
+      "icon": "FaYoutube"
+    },
+
+    {
+      "group": "Support My Work",
+      "name": "GitHub Sponsors - Any help is more than appreciated",
+      "url": "https://github.com/sponsors/Pradumnasaraf",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Get Started with Open Source now - 600+ stars ⭐️",
+      "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "My DevOps journey - 900+ stars ⭐️",
+      "url": "https://github.com/Pradumnasaraf/DevOps",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Crossed 1K followers on GitHub",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Building Open Source projects in public and collaborating with people on Pull Requests helped me to cross the 1K followers milestone",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2022",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member after actively contributing to projects on both orgs",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "title": "Crossed 5K followers on LinkedIn",
+      "date": "2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 5K followers milestone",
+      "url": "https://www.linkedin.com/in/pradumnasaraf"
+    },
+    {
+      "title": "Crossed 10K followers on Twitter",
+      "date": "2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 10K followers milestone",
+      "url": "https://twitter.com/pradumna_saraf"
+    },
+    {
+      "title": "1st Open Source project to reach 500 stars",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Open Source With Pradumna was the first project of mine to reach 500 stars on GitHub",
+      "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna"
+    },
+    {
+      "title": "Won 1st international hackathon - daily.dev RSS feed Hackathon",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Interestingly this was 1st hackathon daily.dev hosted and 1st time I participated. I build a Discord bot that uses an RSS feed to fetch the latest bookmarks of users from daily.dev. To see the project, click on the link",
+      "url": "https://github.com/dailydotdev/hackathon-participants-March-2022"
+    },
+    {
+      "title": "Became Postman Student Leader",
+      "date": "2022",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "Leaders advocate for API literacy and host events to help developers learn about APIs",
+      "url": "https://badgr.com/public/assertions/pwl4EICMTQm-YJwDCpKAGQ"
+    },
+    {
+      "title": "Became EddieHub Ambassador",
+      "date": "2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Being an Ambassador for the EddieHub community, I take forward the value, vision, and mission of the EddieHub community, to help people get started with Open Source and provide them an inclusive space to learn, grow and collaborate.",
+      "url": "https://www.eddiehub.org/ambassador-program"
+    },
+    {
+      "title": "Became MLH Mentor",
+      "date": "2021",
+      "icon": "SiMajorleaguehacking",
+      "color": "blue",
+      "description": "Mentors provide both technical and non-technical support to the hackers throughout the hackathon.",
+      "url": "https://mlh.io/"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a DevRel",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a Developer Advocate 🥑 for an Open Source company or projects which come under the CNCF ecosystem"
+    },
+    {
+      "isGoal": true,
+      "title": "Start video content on YouTube and get 1K subscribers by the end of 2023",
+      "date": "2023",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "I want to start video content on YouTube to help people get started with Open Source and DevOps",
+      "url": "https://www.youtube.com/@pradumnasaraf"
+    },
+    {
+      "isGoal": true,
+      "title": "Speak and attend international conferences",
+      "date": "2023",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak and attend international conferences to share my knowledge and learn from others"
+    }
+  ]
+}
