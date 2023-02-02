@@ -3,18 +3,12 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
-  "tags":[
-    "Docker",
-    "Kubernetes",
-    "Python",
-    "GCP",
-    "AWS"
-    ],
+  "tags": ["Docker", "Kubernetes", "Python", "GCP", "AWS"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
     { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
     { "icon": "FaInstagram", "url": "https://www.instagram.com/akhileshhh.exe" }
-    ],
+  ],
   "links": [
     {
       "name": "LinkedIn",
@@ -36,7 +30,7 @@
       "url": "https://twitter.com/akhil3shh",
       "icon": "FaTwitter"
     },
-    
+
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/akhileshhh.exe/",
@@ -50,13 +44,13 @@
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Content Creator at GeeksForGeeks"
-    }, 
+    },
     {
       "title": "Intern",
       "date": "July - Sept 2022",
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "AWS Cloud Computing"
-    } 
+    }
   ]
 }
