@@ -2,7 +2,8 @@
   "name": "Diana Marcela Prieto",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "I like getting to know people from all over the world while we try to solve problems and create software",
+  "bio": "Software Engineer | Exploring Open Source collaboration",
+  "tags": [ "Reactjs", "Javascript", "Go", "Java"],
   "links": [
     {
       "name": "Follow me on GitHub",
