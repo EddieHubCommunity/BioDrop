@@ -2,23 +2,31 @@
   "name": "João Marcelo Dantas",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "React Developer Jr.",
+  "bio": "Frontend Developer Jr.",
 
   "milestones": [
     {
       "title": "Started coding!",
       "date": "March 2022",
-      "icon": "FaDollarSign",
+      "icon": "FaCode",
       "color": "green",
       "description": "Started my programming studies.",
       "url": "https://www.github.com/jmgrd98/"
     },
     {
       "title": "Started in open source!",
-      "date": "January 2021",
-      "icon": "FaDollarSign",
+      "date": "January 2023",
+      "icon": "FaCodeBranch",
       "color": "green",
       "description": "Started contributing to open source projects as a way to improve my coding skills.",
+      "url": "https://www.github.com/jmgrd98/"
+    },
+    {
+      "title": "Got hired as a frontend developer!",
+      "date": "February 2023",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Got my first job as a developer on a real company.",
       "url": "https://www.github.com/jmgrd98/"
     }
   ],
