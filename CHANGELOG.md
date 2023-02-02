@@ -1,9 +1,9 @@
-## 1.71.3 (2023-02-02)
+# 1.72.0 (2023-02-02)
 
 
-### Bug Fixes
+### Features
 
-* alignment of discover headings ([#3597](https://github.com/EddieHubCommunity/LinkFree/issues/3597)) ([55397c9](https://github.com/EddieHubCommunity/LinkFree/commit/55397c96eb2b958a496960d62dcb843347ed170c))
+* add @ sign ([#4381](https://github.com/EddieHubCommunity/LinkFree/issues/4381)) ([bd006fb](https://github.com/EddieHubCommunity/LinkFree/commit/bd006fbc1d6d6e54203dd566afb1dfe86c463c20))
 
 
 
