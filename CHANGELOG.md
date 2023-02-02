@@ -1,9 +1,9 @@
-## 1.69.2 (2023-01-29)
+# 1.72.0 (2023-02-02)
 
 
-### Bug Fixes
+### Features
 
-* search placeholder ([#4197](https://github.com/EddieHubCommunity/LinkFree/issues/4197)) ([c22b181](https://github.com/EddieHubCommunity/LinkFree/commit/c22b181c34b89d527f070d8f9cf68d8f74f36686))
+* add @ sign ([#4381](https://github.com/EddieHubCommunity/LinkFree/issues/4381)) ([bd006fb](https://github.com/EddieHubCommunity/LinkFree/commit/bd006fbc1d6d6e54203dd566afb1dfe86c463c20))
 
 
 
