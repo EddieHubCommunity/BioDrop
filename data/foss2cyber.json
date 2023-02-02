@@ -1,0 +1,18 @@
+{
+  "name": "Ishan Velle",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Front-end Web Developer | Freelancer | Designer | Blogger",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thefoss_m",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here's my Github profile",
+      "url": "https://github.com/foss2cyber",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}
