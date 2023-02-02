@@ -3,7 +3,12 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "A Filipino Engineer in Japan",
-
+  "testimonials": [
+   "mpotane",
+   "krshkun",
+   "Spiritdivine",
+   "tobySolutions"
+  ],
   "links": [
     {
       "name": "GitHub",
@@ -30,11 +35,5 @@
       "url": "https://www.youtube.com/channel/UC72dLWZcAjStrSq-FWHg2Lw",
       "icon": "FaYoutube"
     },
-    "testimonials": [
-    "mpotane",
-    "krshkun",
-    "Spiritdivine",
-    "tobySolutions"
-    ]
   ]
 }
