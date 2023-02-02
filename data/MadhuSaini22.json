@@ -3,23 +3,16 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "**Open Source**  Enthusiast | Full Stack Developer",
-  "tags": [
-    "Open Source",
-    "JavaScript",
-    "Full Stack",
-    "MERN Stack",
-    "Node.js"],
+  "tags": ["Open Source", "JavaScript", "Full Stack", "MERN Stack", "Node.js"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/MadhuSaini22" },
     { "icon": "FaGithub", "url": "https://github.com/MadhuSaini22.png" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/madhu-saini/" },
-    { "icon" : "SiHashnode", "url": "https://hashnode.com/@MadhuSaini22" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@MadhuSaini22" },
     { "icon": "FaLink", "url": "https://madhusaini.netlify.app/" }
   ],
 
-  "testimonials": [
-    "loftwah"
-  ],
+  "testimonials": ["loftwah"],
 
   "links": [
     {
@@ -56,7 +49,7 @@
       "description": "Started becoming active on my Twitter account, I've had my Twitter account for past months, but didn't know Tech Twitter",
       "url": "https://twitter.com/MadhuSaini22"
     },
-     {
+    {
       "title": "Technologies I know",
       "date": "2023",
       "icon": "FaGlobe",
@@ -72,7 +65,7 @@
       "description": "Currently working as a Full Stack Developer from Indian Startup",
       "url": "https://enacton.com/"
     },
-     {
+    {
       "title": "Open-Source",
       "date": "2022",
       "icon": "SiOpensourceinitiative",
@@ -80,13 +73,13 @@
       "description": "My open source journey started after joining EddieHub and 4C community",
       "url": "https://github.com/MadhuSaini22"
     },
-     {
+    {
       "title": "Became Staff Member at 4C",
       "date": "2022",
       "icon": "FaPeopleCarry",
       "color": "green",
       "description": "Became staff member of the mind-blowing community!",
       "url": "https://4c.rocks"
-    } 
+    }
   ]
 }
