@@ -7,8 +7,14 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/shivv_twt" },
     { "icon": "FaGithub", "url": "https://github.com/ShivangShandilya" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/shivang-shandilya-8b926b218/" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/shivangshandilyaa" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shivang-shandilya-8b926b218/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/shivangshandilyaa"
+    }
   ],
 
   "links": [
@@ -67,7 +73,7 @@
       "icon": "FaGithub"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Became Postman Student Expert",
