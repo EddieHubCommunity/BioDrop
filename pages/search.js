@@ -35,8 +35,6 @@ export async function getServerSideProps(context) {
 
 export default function Search({ data }) {
   let { users, tags } = data;
-  const tagNames = [];
-  tags && tags.map((tag) => tagNames.push(tag.name.toLowerCase()));
   const router = useRouter();
   const inputRef = useRef();
   const { username, keyword } = router.query;
@@ -46,6 +44,7 @@ export default function Search({ data }) {
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
+  tags = tags.map((tag) => ({ ...tag, name: tag.name.toLowerCase() }));
 
   useEffect(() => {
     inputRef.current.focus();
