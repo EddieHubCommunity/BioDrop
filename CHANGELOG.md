@@ -1,9 +1,9 @@
-# 1.73.0 (2023-02-03)
+## 1.73.1 (2023-02-03)
 
 
-### Features
+### Bug Fixes
 
-* dynamically import icons ([#4387](https://github.com/EddieHubCommunity/LinkFree/issues/4387)) ([1f2729b](https://github.com/EddieHubCommunity/LinkFree/commit/1f2729b5dc855c325cc0ea0801bac957055f7de0))
+* missing icon [#4393](https://github.com/EddieHubCommunity/LinkFree/issues/4393) ([#4394](https://github.com/EddieHubCommunity/LinkFree/issues/4394)) ([a19562e](https://github.com/EddieHubCommunity/LinkFree/commit/a19562eddc42763cd634721283407fb61ff70a56))
 
 
 
