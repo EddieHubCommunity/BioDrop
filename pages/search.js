@@ -134,7 +134,7 @@ export default function Search({ data }) {
                   name={tag.name}
                   total={tag.total}
                   selected={inputValue
-                    .toLowerCase()
+                    .toLowerCase().split(',')
                     .includes(tag.name.toLowerCase())}
                   onClick={() => search(tag.name)}
                 />
