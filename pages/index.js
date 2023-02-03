@@ -116,9 +116,9 @@ export default function Home({ total, today }) {
     {
       name: "Search by Tags",
       description:
-        "Search Profiles not just by name also by tags. This is a great way to connect with people and grow your network.",
+        "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210064219-9df11665-a29c-4aef-b0d8-7d163c9401e2.png",
+        "https://user-images.githubusercontent.com/55504616/216514019-abbd642a-150e-4ebf-acbf-41651bbddcc4.png",
       imageAlt:
         "LinkFree screenshot of search page using tags for searching profiles.",
     },
