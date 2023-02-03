@@ -1,0 +1,20 @@
+{
+  "name": "Philip Oyenola",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "16 year old **Programmer**. Building and helping others achieve their dreams",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/oyenolaayomi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/oyenolaphilipinc",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": [ "Open Source", "Javascript", "Typescript", "NextJS", "DevOps",
+  "DevRel" ]
+}
