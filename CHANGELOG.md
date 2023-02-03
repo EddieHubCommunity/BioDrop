@@ -1,9 +1,9 @@
-# 1.74.0 (2023-02-03)
+## 1.74.2 (2023-02-03)
 
 
-### Features
+### Bug Fixes
 
-* multi tag search ([#4375](https://github.com/EddieHubCommunity/LinkFree/issues/4375)) ([d7ef2d6](https://github.com/EddieHubCommunity/LinkFree/commit/d7ef2d6c50880854581b9201460bc9c0f7dfdacb)), closes [#4030](https://github.com/EddieHubCommunity/LinkFree/issues/4030) [#4030](https://github.com/EddieHubCommunity/LinkFree/issues/4030)
+* tag greedy trigger ([#4400](https://github.com/EddieHubCommunity/LinkFree/issues/4400)) ([ea189ad](https://github.com/EddieHubCommunity/LinkFree/commit/ea189ad0d19b68c60ab14279f978f30d9cb22c4d))
 
 
 
