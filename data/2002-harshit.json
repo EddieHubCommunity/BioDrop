@@ -1,23 +1,23 @@
 {
-    "name": "Harshit khanna",
-    "displayStatsPublic": true,
-    "type": "personal",
-    "bio": "I like to code anything and everything.",
-    "links": [
-        {
-            "name": "Github",
-            "url": "https://github.com/2002-harshit",
-            "icon": "FaGithub"
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/harshit-khanna-79125321a",
-            "icon": "FaLinkedin"
-        },
-        {
-            "name": "Leetcode",
-            "url": "https://leetcode.com/2002-harshit/",
-            "icon": "SiLeetcode"
-        }
-    ]
+  "name": "Harshit khanna",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I like to code anything and everything.",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/2002-harshit",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshit-khanna-79125321a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/2002-harshit/",
+      "icon": "SiLeetcode"
+    }
+  ]
 }
