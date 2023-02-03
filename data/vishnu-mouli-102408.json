@@ -1,0 +1,33 @@
+{
+  "name": "Ganivada Mouli",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iamVishnuMouli",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ganivada-mouli/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/vishnu-mouli-102408",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Showwcase",
+      "url": "https://www.showwcase.com/vishnu-mouli-102408",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vishnu.mouli/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
