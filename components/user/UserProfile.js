@@ -62,7 +62,11 @@ export default function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag) => (
-              <Link href={`/search?keyword=${tag}`} key={tag}>
+              <Link
+                href={`/search?keyword=${tag}`}
+                key={tag}
+                className="no-underline"
+              >
                 <Tag name={tag} />
               </Link>
             ))}
