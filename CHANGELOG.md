@@ -1,9 +1,9 @@
-## 1.73.1 (2023-02-03)
+# 1.74.0 (2023-02-03)
 
 
-### Bug Fixes
+### Features
 
-* missing icon [#4393](https://github.com/EddieHubCommunity/LinkFree/issues/4393) ([#4394](https://github.com/EddieHubCommunity/LinkFree/issues/4394)) ([a19562e](https://github.com/EddieHubCommunity/LinkFree/commit/a19562eddc42763cd634721283407fb61ff70a56))
+* multi tag search ([#4375](https://github.com/EddieHubCommunity/LinkFree/issues/4375)) ([d7ef2d6](https://github.com/EddieHubCommunity/LinkFree/commit/d7ef2d6c50880854581b9201460bc9c0f7dfdacb)), closes [#4030](https://github.com/EddieHubCommunity/LinkFree/issues/4030) [#4030](https://github.com/EddieHubCommunity/LinkFree/issues/4030)
 
 
 

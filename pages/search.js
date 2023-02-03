@@ -5,31 +5,43 @@ import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import PageHead from "../components/PageHead";
+import Tag from "../components/Tag";
 
 export async function getServerSideProps(context) {
-  let users = [];
+  let data = {
+    users: [],
+    tags: [],
+  };
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    users = await res.json();
+    data.users = await res.json();
   } catch (e) {
     console.log("ERROR search users", e);
   }
 
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+    );
+    data.tags = await res.json();
+  } catch (e) {
+    console.log("ERROR loading tags", e);
+  }
+
   return {
-    props: { users },
+    props: { data },
   };
 }
 
-export default function Search({ users }) {
+export default function Search({ data }) {
+  let { users, tags } = data;
   const router = useRouter();
   const inputRef = useRef();
-  const { username, search } = router.query;
+  const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
-  const [inputValue, setInputValue] = useState(
-    username ? username : search ? search : ""
-  );
+  const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
 
@@ -42,7 +54,9 @@ export default function Search({ users }) {
   }, [username]);
 
   const filterData = (value) => {
-    if (value.length <= 3) {
+    const valueLower = value.toLowerCase();
+    const terms = valueLower.split(",");
+    if (value.length < 3) {
       setThreeOrMore(false);
       setFilteredUsers(results);
       setNotFound();
@@ -51,16 +65,17 @@ export default function Search({ users }) {
     if (value.length >= 3) {
       setThreeOrMore(true);
       results = users.filter((user) => {
-        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+        if (user.name.toLowerCase().includes(valueLower)) {
           return true;
         }
 
-        let tag = user.tags?.find((tag) =>
-          tag.toLowerCase().includes(value.toLowerCase())
-        );
-        if (tag) {
+        let userTags = user.tags?.map((tag) => tag.toLowerCase());
+
+        if (terms.every((keyword) => userTags?.includes(keyword))) {
           return true;
         }
+
+        return false;
       });
 
       if (!results.length) {
@@ -75,6 +90,25 @@ export default function Search({ users }) {
     }
   };
 
+  const search = (keyword) => {
+    if (!inputValue.length) {
+      return setInputValue(keyword);
+    }
+
+    const items = inputValue.split(",");
+    if (inputValue.length) {
+      if (items.includes(keyword)) {
+        return setInputValue(
+          items.filter((item) => item !== keyword).join(",")
+        );
+      }
+
+      return setInputValue([...items, keyword].join(","));
+    }
+
+    setInputValue(keyword);
+  };
+
   useEffect(() => {
     if (inputValue) {
       filterData(inputValue);
@@ -87,13 +121,29 @@ export default function Search({ users }) {
         title="LinkFree Search Users"
         description="Search LinkFree user directory by name, tags, skills, languages"
       />
-
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
+        <div className="flex flex-wrap justify-center mb-4">
+          {tags &&
+            tags
+              .slice(0, 10)
+              .map((tag) => (
+                <Tag
+                  key={tag.name}
+                  name={tag.name}
+                  total={tag.total}
+                  selected={inputValue
+                    .toLowerCase()
+                    .includes(tag.name.toLowerCase())}
+                  onClick={() => search(tag.name)}
+                />
+              ))}
+        </div>
+
         <div className="relative">
           <input
-            placeholder="Search users,tags or languages"
+            placeholder="Search user by name or tags; eg: open source,reactjs"
             ref={inputRef}
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
