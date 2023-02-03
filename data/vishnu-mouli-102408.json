@@ -3,7 +3,6 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
-  "avatar": "https://github.com/vishnu-mouli-102408.png",
    "links": [
     {
       "name": "Follow me on Twitter",
@@ -29,6 +28,6 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/vishnu.mouli/",
       "icon": "FaInstagram"
-    },
+    }
   ]
 }
