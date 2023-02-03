@@ -31,7 +31,7 @@ const user = (username) => {
       {
         name: "Link 1",
         url: "http://eddiejaoude.io",
-        icon: "link",
+        icon: "FaBad-Icon",
       },
       {
         name: "Link 2",
