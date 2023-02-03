@@ -42,7 +42,7 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm, remarkPrism],
+    remarkPlugins: [remarkGfm, [remarkPrism, {transformInlineCode: true}]],
     rehypePlugins: [],
   },
 });

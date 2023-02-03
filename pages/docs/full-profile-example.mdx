@@ -1,4 +1,5 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
+import Link from "../../components/Link";
 
 ## Full profile
 
@@ -12,7 +13,6 @@ _Note: the data fields `links`, `milestones`, `testimonials`, `tags`, `socials` 
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
-  "avatar": "https://github.com/eddiejaoude.png",
   "tags": [
     "Open Source",
     "Javascript",
@@ -151,7 +151,7 @@ _Note: the data fields `links`, `milestones`, `testimonials`, `tags`, `socials` 
 }
 ```
 
-Click on the relevant section to learn more about [Events](/docs/how-to-guides/events) and [Testimonials](/docs/how-to-guides/testimonials).
+Click on the relevant section to learn more about <Link href="/docs/how-to-guides/events">Events</Link> and <Link href="/docs/how-to-guides/testimonials">Testimonials</Link>.
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Full Example documentation">

@@ -1,8 +1,9 @@
 name: Format
 on:
+  workflow_dispatch:
   #Run every day at midnight UTC
   schedule:
-    - cron: '0 0 * * *' 
+    - cron: "0 0 * * *"
 
 concurrency:
   group: "main-branch"
@@ -16,7 +17,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: "16"
+          node-version: "18"
           cache: "npm"
 
       - run: npm ci

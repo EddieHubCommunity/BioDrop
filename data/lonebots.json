@@ -9,7 +9,7 @@
     { "icon": "FaGithub", "url": "https://github.com/lonebots" },
     { "icon": "FaLink", "url": "https://jishnusuresh.me" }
   ],
-  "avatar": "https://github.com/lonebots.png",
+
   "links": [
     {
       "name": "Daily tweets on Open Source",

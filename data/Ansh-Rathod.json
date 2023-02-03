@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full-Stack developer | Flutter | Nextjs",
-  "avatar": "https://github.com/Ansh-Rathod.png",
+
   "tags": ["flutter", "nodejs", "dart", "javascript", "typescript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/AnshhRathod" },

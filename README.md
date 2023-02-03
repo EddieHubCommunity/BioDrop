@@ -1,4 +1,4 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
 
 # What is LinkFree?
 
@@ -9,6 +9,15 @@ Your profile will have links to your social media and content. You can also add 
 Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/51878265/211527055-d90f94f5-f6a9-44a7-be0f-905f5e45429e.png)
+
+## Tech Stack
+
+LinkFree was built using the following technologies:
+
+- [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
+- [MongoDB](https://www.mongodb.com/) - a NoSQL database
+- [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework      
+ 
 
 ## 🛠️ Quickstart
 
