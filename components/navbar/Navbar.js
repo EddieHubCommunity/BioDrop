@@ -5,8 +5,10 @@ import NavLink from "./NavLink";
 import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import { FaGithub } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import getIcon from "../Icon";
+import { IconContext } from "react-icons/lib/cjs/iconContext";
+
+const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

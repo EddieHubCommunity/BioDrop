@@ -1,6 +1,7 @@
 import Link from "../components/Link";
-import { FaMoneyBillAlt } from "react-icons/fa";
-import { FaRocket } from "react-icons/fa";
+import getIcon from "./Icon";
+const FaMoneyBillAlt = getIcon("FaMoneyBillAlt");
+const FaRocket = getIcon("FaRocket");
 
 export default function Footer() {
   return (
