@@ -77,16 +77,12 @@ export default function EventCard({ event, username }) {
                 {event.description}
               </ReactMarkdown>
               <p className="text-sm text-gray-800 py-1 flex-wrap">
-                {event.isVirtual === true && event.isInPerson === false ? (<span>Remote</span>) : 
-                (<span>
-                  <span>{event.location.road}</span> 
-                  <span>, </span>
-                  <span>{event.location.city}</span>
-                  <span>, </span>
-                  <span>{event.location.state}</span>
-                  <span>, </span>
-                  <span>{event.location.country}</span>
-                </span>)}
+                {event.isVirtual === true && event.isInPerson === false ? (`Remote`) : 
+                event.hasOwnProperty('location') ? (
+                  `${event.location.road!== undefined ? event.location.road + ", " : ""} 
+                  ${event.location.city!== undefined ? event.location.city + ", " : ""} 
+                  ${event.location.state!== undefined ? event.location.state + ", " : ""}
+                  ${event.location.country!== undefined ? event.location.country : ""}`) : ``}
               </p>
             </div>
             {username && (
