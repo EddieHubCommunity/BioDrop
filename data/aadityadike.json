@@ -11,22 +11,22 @@
     ],
     "links": [
         {
-            "Name":"Twitter",
+            "name":"Twitter",
             "icon": "FaTwitter",
             "url": "https://twitter.com/adityastwt1"
         },
         {
-            "Name":"Github",
+            "name":"Github",
             "icon": "FaGithub",
             "url": "https://github.com/aadityadike"
         },
         {
-            "Name":"LinkedIn",
+            "name":"LinkedIn",
             "icon": "FaLinkedin",
             "url": "https://www.linkedin.com/in/aditya-dike-72837a221"
         },
         {
-            "Name":"HashNode",
+            "name":"HashNode",
             "icon": "SiHashnode",
             "url": "https://adityadike.hashnode.dev/"
           }
