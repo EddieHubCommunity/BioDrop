@@ -1,9 +1,9 @@
-# 1.75.0 (2023-02-03)
+## 1.75.1 (2023-02-03)
 
 
-### Features
+### Bug Fixes
 
-* quickstart YouTube video embed ([#4426](https://github.com/EddieHubCommunity/LinkFree/issues/4426)) ([0bf3825](https://github.com/EddieHubCommunity/LinkFree/commit/0bf38253ec19c20381f3aae3e1e60d9d25becebb)), closes [#4148](https://github.com/EddieHubCommunity/LinkFree/issues/4148) [#3905](https://github.com/EddieHubCommunity/LinkFree/issues/3905)
+* triage label to features ([#4430](https://github.com/EddieHubCommunity/LinkFree/issues/4430)) ([e523de5](https://github.com/EddieHubCommunity/LinkFree/commit/e523de5917bbabe930bb0d18280ccac25421fcc0))
 
 
 
