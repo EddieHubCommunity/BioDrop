@@ -2,12 +2,12 @@
   "name": "mpotane",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "🧑‍💻 Software engineer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
-  "tags": ["Nextjs", "TypeScript", "Prisma", "Supabase"],
+  "bio": "🧑‍💻 MarTech Developer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
+  "tags": ["Open Source", "NextJS", "Typescript", "Prisma", "Supabase"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/mpotanedev" },
     { "icon": "FaGithub", "url": "https://github.com/mpotane" },
-    { "icon": "FaLinkedinIn", "url": "https://www.linkedin.com/in/mpotane/" }
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mpotane/" }
   ],
   "links": [
     {
@@ -18,7 +18,7 @@
     },
     {
       "name": "Hashnode: blogs & tutorials",
-      "url": "https://blogs.mpotane.com/",
+      "url": "https://blog.mpotane.com/",
       "icon": "SiHashnode",
       "group": "Primary"
     },
@@ -43,7 +43,7 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mpotane/",
-      "icon": "FaLinkedinIn",
+      "icon": "FaLinkedin",
       "group": "Socials"
     },
     {
@@ -57,10 +57,18 @@
     {
       "title": "Started Blogging",
       "date": "Dec 2022",
-      "icon": "FaBloggerB",
+      "icon": "FaBlogger",
       "color": "pink",
       "description": "Started my own blogs",
-      "url": "https://blogs.mpotane.com/"
+      "url": "https://blog.mpotane.com/"
+    },
+    {
+      "title": "Junior Marketing Technology Developer",
+      "date": "Feb 2023",
+      "icon": "FaLaptopCode",
+      "color": "aqua",
+      "description": "Started working at Altus Digital",
+      "url": "https://www.linkedin.com/in/mpotane/"
     }
   ]
 }
