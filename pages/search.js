@@ -44,7 +44,6 @@ export default function Search({ data }) {
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
-  tags = tags.map((tag) => ({ ...tag, name: tag.name.toLowerCase() }));
 
   useEffect(() => {
     inputRef.current.focus();
@@ -134,7 +133,9 @@ export default function Search({ data }) {
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={inputValue.includes(tag.name)}
+                  selected={inputValue
+                    .toLowerCase()
+                    .includes(tag.name.toLowerCase())}
                   onClick={() => search(tag.name)}
                 />
               ))}
