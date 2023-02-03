@@ -1,9 +1,9 @@
-## 1.74.6 (2023-02-03)
+# 1.75.0 (2023-02-03)
 
 
-### Reverts
+### Features
 
-* Revert "feat: dynamically import icons (#4387)" (#4414) ([ca6078e](https://github.com/EddieHubCommunity/LinkFree/commit/ca6078e38dbbc4ed10b61cbfd15ab3e1eb73e03c)), closes [#4387](https://github.com/EddieHubCommunity/LinkFree/issues/4387) [#4414](https://github.com/EddieHubCommunity/LinkFree/issues/4414)
+* quickstart YouTube video embed ([#4426](https://github.com/EddieHubCommunity/LinkFree/issues/4426)) ([0bf3825](https://github.com/EddieHubCommunity/LinkFree/commit/0bf38253ec19c20381f3aae3e1e60d9d25becebb)), closes [#4148](https://github.com/EddieHubCommunity/LinkFree/issues/4148) [#3905](https://github.com/EddieHubCommunity/LinkFree/issues/3905)
 
 
 
