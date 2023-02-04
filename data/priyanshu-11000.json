@@ -9,7 +9,8 @@
       "Python",
       "C++",
       "JAVA",
-      "HTML/CSS"
+      "HTML",
+      "CSS"
     ],
     "links": [
       {
@@ -18,7 +19,7 @@
         "icon": "FaTwitter"
       },
       {
-        "name": "Let's connect on Linkedin",
+        "name": "Let's connect through Linkedin",
         "url": "https://www.linkedin.com/in/priyanshu-kumar-singh-7956b7244",
         "icon": "FaLinkedin"
       },
@@ -33,7 +34,7 @@
         "icon": "FaInstagram"
       },
       {
-        "name": "Leetcode",
+        "name": "Leetcode Profile",
         "url": "https://leetcode.com/priyanshu_11000/",
         "icon": "SiLeetcode"
       }
