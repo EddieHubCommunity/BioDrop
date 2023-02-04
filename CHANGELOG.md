@@ -1,9 +1,9 @@
-## 1.75.2 (2023-02-03)
+## 1.75.3 (2023-02-04)
 
 
 ### Bug Fixes
 
-* re-implement dynamic icons import ([#4435](https://github.com/EddieHubCommunity/LinkFree/issues/4435)) ([a102b15](https://github.com/EddieHubCommunity/LinkFree/commit/a102b154d5a0153508314b480e3747ebc0fbf287))
+* outline to hamburger on tab ([#4245](https://github.com/EddieHubCommunity/LinkFree/issues/4245)) ([cd7e2de](https://github.com/EddieHubCommunity/LinkFree/commit/cd7e2de1d52d083a36f6f0f426ea0fefad11b8e7))
 
 
 
