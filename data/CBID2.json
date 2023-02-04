@@ -21,6 +21,11 @@
       "icon": "SiHashnode"
     },
     {
+    "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesChrissy",
+      "icon": "FaTwitter"
+    },
+    {
       "name": "Follow me on Dev.to",
       "url": "https://dev.to/cbid2",
       "icon": "FaDev"
