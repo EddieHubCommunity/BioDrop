@@ -15,13 +15,19 @@
   "links": [
     {
       "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/ahul-kumar-0674bb214/",
+      "url": "https://www.linkedin.com/in/rahul-kumar-0674bb214/",
       "icon": "FaLinkedin"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/rahul152-ai",
       "icon": "FaGithub"
+    },
+        {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/rahul152-ai/",
+      "icon": "FaLeetcode"
     }
+    
   ]
 }
