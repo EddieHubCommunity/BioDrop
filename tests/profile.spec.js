@@ -66,9 +66,9 @@ test.fixme("Link navigates", async ({ page }) => {
 });
 
 test("redirect to search when tag clicked", async ({ page }) => {
-  await page.goto('/eddiejaoude');
-  await page.getByRole('link', { name: 'Open Source' }).first().click();
-  await expect(page).toHaveURL("search?search=Open%20Source");
+  await page.goto("/eddiejaoude");
+  await page.getByRole("link", { name: "Open Source" }).first().click();
+  await expect(page).toHaveURL("search?keyword=Open%20Source");
 });
 
 test("should pass axe wcag accessibility tests (eddiejaoude)", async ({
