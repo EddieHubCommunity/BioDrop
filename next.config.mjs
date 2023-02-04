@@ -10,6 +10,10 @@ const nextConfig = {
     minimumCacheTTL: 60 * 60 * 24,
     remotePatterns: [
       {
+        protocol: "http",
+        hostname: "github.com",
+      },
+      {
         protocol: "https",
         hostname: "github.com",
       },
@@ -38,7 +42,7 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm, remarkPrism],
+    remarkPlugins: [remarkGfm, [remarkPrism, {transformInlineCode: true}]],
     rehypePlugins: [],
   },
 });
