@@ -1,0 +1,12 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "red",
+  "name": "WeAreDevelopers World Congress",
+  "description": "The World's Leading Event for Developers",
+  "date": {
+    "start": "2023-07-27",
+    "end": "2023-07-28"
+  },
+  "url": "https://www.wearedevelopers.com/world-congress"
+}
