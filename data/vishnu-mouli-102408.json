@@ -3,6 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
+  vishnu-mouli-102408-patch-3
    "tags": [
     "Open Source",
     "Javascript",
@@ -18,6 +19,7 @@
   { "icon": "FaInstagram", "url": "https://www.instagram.com/vishnu.mouli/" }
 ],
    "links": [
+  "links": [ main
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/iamVishnuMouli",
