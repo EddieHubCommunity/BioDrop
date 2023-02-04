@@ -2,20 +2,14 @@ import { useState, useEffect } from "react";
 import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
-import requestIp from "request-ip";
-import PageHead from "../components/PageHead";
-import SingleLayout from "../components/layouts/SingleLayout";
-import MultiLayout from "../components/layouts/MultiLayout";
-import singleUser from "../config/user.json";
 import UserProfile from "../components/user/UserProfile";
 import UserTabs from "../components/user/UserTabs";
 import UserLinks from "../components/user/UserLinks";
 import UserMilestones from "../components/user/UserMilestones";
 import UserTestimonials from "../components/user/UserTestimonials";
 import UserEvents from "../components/user/UserEvents";
-import Page from "../components/Page";
 
-export default function Preview({ isOpen, toggle }) {
+export default function Preview({ isOpen, toggle, data }) {
   const [userData, setUserData] = useState();
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
@@ -26,10 +20,9 @@ export default function Preview({ isOpen, toggle }) {
   }, [isOpen]);
 
   const handlePreviewData = () => {
-    let userPreviewData = localStorage.getItem("PREVIEW_PROFILE_DATA");
+    let userPreviewData = data;
     let parsedData = JSON.parse(userPreviewData);
     setUserData(parsedData);
-    console.log(parsedData);
     handleTabs(parsedData);
   };
 
@@ -72,7 +65,6 @@ export default function Preview({ isOpen, toggle }) {
   ];
 
   const [tabs, setTabs] = useState([]);
-  console.log(tabs);
 
   return (
     <>
@@ -178,10 +170,3 @@ export default function Preview({ isOpen, toggle }) {
     </>
   );
 }
-
-// User.getLayout = function getLayout(page) {
-//   if (singleUser.username) {
-//     return <SingleLayout>{page}</SingleLayout>;
-//   }
-//   return <MultiLayout>{page}</MultiLayout>;
-// };

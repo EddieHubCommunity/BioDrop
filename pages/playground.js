@@ -1,6 +1,6 @@
 import PageHead from "../components/PageHead";
 import Page from "../components/Page";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Alert from "./../components/Alert";
 import { useRouter } from "next/router";
 import PreviewModal from "../components/PreviewModal";
@@ -12,25 +12,7 @@ export default function Playground() {
   const router = useRouter();
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
-
-  useEffect(() => {
-    handleInitialData();
-  }, []);
-
-  const handleInitialData = () => {
-    let userPreviewData = localStorage.getItem("PREVIEW_PROFILE_DATA");
-    if (userPreviewData) {
-      let parsedJson = JSON.parse(userPreviewData);
-      let parsedJsonCopy = { ...parsedJson };
-      delete parsedJsonCopy["username"];
-      let formattedJson = JSON.stringify(parsedJsonCopy, undefined, 4);
-      setProfileJson(formattedJson);
-      setGitUsername(parsedJson?.username);
-    } else {
-      setProfileJson("");
-      setGitUsername("");
-    }
-  };
+  const [previewModalData, setPreviewModalData] = useState();
 
   const handleValidateJson = () => {
     try {
@@ -62,10 +44,11 @@ export default function Playground() {
   };
 
   const handleReset = () => {
-    localStorage.removeItem("PREVIEW_PROFILE_DATA");
+    setPreviewModalData();
+    setGitUsername("");
+    setProfileJson("");
     setSuccessMsg("");
     setErrMsg("");
-    handleInitialData();
   };
 
   const handlePreview = () => {
@@ -83,8 +66,7 @@ export default function Playground() {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
         actualJson = JSON.stringify(actualJson);
-        console.log(actualJson);
-        localStorage.setItem("PREVIEW_PROFILE_DATA", actualJson);
+        setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
     } catch (err) {
@@ -137,6 +119,7 @@ export default function Playground() {
         <PreviewModal
           isOpen={previewModalState}
           toggle={() => setPreviewModalState(!previewModalState)}
+          data={previewModalData}
         />
       </Page>
     </>
