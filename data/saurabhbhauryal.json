@@ -1,0 +1,29 @@
+{
+  "name": "Saurabh Bhauryal",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "20  /  Learning Web Development / Building in public and sharing my learnings/Open for connecting with New Folks"
+  
+  
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sauravcodes",
+      "icon": "FaTwitter"
+    },
+     
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/saurabhbhauryal/",
+      "icon": "FaLinkedIn"
+    },
+
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/saurabhbhauryal",
+      "icon": "FaGithub"
+    }
+
+  ]
+
+}
