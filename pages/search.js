@@ -53,7 +53,6 @@ export default function Search({ data }) {
   }, [username]);
 
   const filterData = (value) => {
-    console.log("ran with", value);
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
 
