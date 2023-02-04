@@ -1,0 +1,54 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
+
+## Testimonials
+
+Show off the great feedback you have received.
+
+![LinkFree Testimonial Profile example](https://user-images.githubusercontent.com/624760/210418401-3337352a-ee07-4b38-b929-f62209e27be4.png)
+
+### Giving a Testimonial
+
+You can give a Testimonial for another LinkFree user by going to their Profile and clicking on the "Add testimonial" button. This will take you to GitHub issue with the fields pre-populated for that user and you can fill in your testimonial.
+
+The issue will look like this:
+
+![LinkFree testimonial issue](https://user-images.githubusercontent.com/624760/210427249-25848dd6-463a-4748-aa60-45c6e53f49a8.png)
+
+**NOTE**: Don't have a LinkFree account but want to give a testimonial? Do not worry! Log in to your GitHub account (if you don't have one, check out <Link href="https://www.eddiejaoude.io/course-github-profile-landing">Eddie's Course</Link> to help you) and follow the steps above.
+
+### Manually adding a Testimonial
+
+Also you can add a Testimonial manually by creating the `json` file `data/<username>/testimonials/<your-username>.json` with the content:
+
+<ClipboardCopy>
+```js
+{
+  "title": "Founder of an Amazing Community",
+  "description": "Eddie founded EddieHub, an opensource community, which sparked my interest in all things FOSS and FOSH. Eddie's YouTube videos are also inspiring, especially the livestreams, where one can really see the community come together. My number one reccommendation to anyone who's starting thier opensource jouney :sparkles:",
+  "date": "2022-26-11"
+}
+```
+</ClipboardCopy>
+
+### Including a Testimonial on your Profile
+
+If you receive a Testimonial, you can include this in the Testimonial section of your Profile.
+
+You can do this by including the usernames of the testimonials you wish to show on your profile with the following `json` code:
+
+```js
+"testimonials": [
+  "CBID2",
+  "Akshu-on-github",
+  "ZeeMonk-pixel",
+  "krupalitrivedi"
+]
+```
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Testimonials Documentation">
+    {children}
+  </DocsLayout>
+);

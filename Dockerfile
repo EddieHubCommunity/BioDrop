@@ -4,7 +4,8 @@ LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkF
 WORKDIR /usr/src/app
 
 COPY package*.json ./
-RUN npm install --omit=dev --ignore-scripts
+ARG NODE_ENV
+RUN if [ "$NODE_ENV" = "development" ]; then npm install --ignore-scripts; else npm install  --omit=dev --ignore-scripts; fi
 COPY . .
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json

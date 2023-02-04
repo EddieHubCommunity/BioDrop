@@ -1,0 +1,32 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import Link from "../../../components/Link";
+
+## Automated Tests
+
+We use <Link href="http://playwright.dev">Playwright</Link> for writing automated end to end (e2e) tests.
+
+1. Install Playwright dependencies `npx playwright install --with-deps`
+1. Run tests `npm run test`
+
+```bash
+npm run test
+
+> linkfree@1.0.0 test
+> npx playwright test
+
+
+Running 18 tests using 4 workers
+
+  10 skipped
+  8 passed (13s)
+
+To open last HTML report run:
+
+  npx playwright show-report
+```
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Automated Tests Documentation">
+    {children}
+  </DocsLayout>
+);

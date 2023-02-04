@@ -1,0 +1,68 @@
+{
+  "name": "Mayowa Obisesan",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Software Engineer | Built [createsummary.com](https://www.createsummary.com) | [Eye CSS](https://github.com/BMayowa/EYE_CSS)",
+  "tags": [
+    "Python",
+    "JavaScript",
+    "Django",
+    "FastAPI",
+    "Vue JS",
+    "NodeJS",
+    "CSS",
+    "AWS | DigitalOcean"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://www.twitter.com/blessed_mayowa"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://www.github.com/BMayowa"
+    }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://bmayowa.github.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/blessed_mayowa",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/BMayowa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/mayowa-obisesan",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Released Summary",
+      "date": "November 30, 2022",
+      "icon": "",
+      "color": "#27CE8E",
+      "description": "Summarize Texts and URLs, Search for what to summarize, more features being integrated",
+      "url": "https://www.createsummary.com"
+    },
+    {
+      "title": "Released EYE CSS",
+      "date": "September 7, 2022",
+      "icon": "",
+      "color": "black",
+      "description": "CSS Library similar to tailwind with dynamic styling capabilities",
+      "url": "https://github.com/BMayowa/EYE_CSS"
+    }
+  ]
+}

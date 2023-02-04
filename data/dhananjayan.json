@@ -2,17 +2,17 @@
   "name": "Dhananjayan D.",
   "type": "personal",
   "bio": "Web Development | Mobile Development | Open-Source | Chess",
-  "avatar": "https://github.com/dhananjayandayalan.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/dhananjayandayalan",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/dhananstonks",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

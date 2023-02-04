@@ -9,6 +9,10 @@ const StatsSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  users: {
+    type: Number,
+    default: 0,
+  },
   date: {
     type: Date,
     default: new Date(new Date().toLocaleDateString()),

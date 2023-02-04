@@ -1,32 +1,20 @@
-import Icon from "../Icon";
+import getIcon from "../Icon";
+import Link from "../Link";
 
 function UserSocial({ BASE_URL, username, social }) {
-  const clickLink = async () => {
-    try {
-      const res = await fetch(
-        `${BASE_URL}/api/statistics/${username}/${encodeURIComponent(
-          social.url
-        )}`,
-        { method: "PUT" }
-      );
-      const data = await res.json();
-      setClicks(data.clicks);
-    } catch (e) {
-      // TODO: link not found
-      console.log("ERROR link not found ", e);
-    }
-  };
+  const DisplayIcon = getIcon(social.icon);
 
   return (
-    <a
-      href={social.url}
-      onClick={clickLink}
+    <Link
+      href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
+        social.url
+      )}`}
       target="_blank"
       rel="noopener noreferrer"
       className="hover:scale-125 transition ease-in-out delay-100"
     >
-      <Icon name={social.platform} />
-    </a>
+      <DisplayIcon aria-label={social.icon.slice(2)} />
+    </Link>
   );
 }
 

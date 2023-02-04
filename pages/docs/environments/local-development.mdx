@@ -1,0 +1,30 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import Link from "../../../components/Link";
+
+## Quickstart for local development
+
+### Prerequisites
+
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
+
+- <Link href="https://nodejs.org/en/download/">NodeJs</Link> (Works with Node LTS
+  version v16.17.0)
+- <Link href="https://www.mongodb.com/home">MongoDB</Link>
+- Optional <Link href="https://github.com/nvm-sh/nvm">NVM</Link>: Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
+
+### Local development
+
+You can set this up locally with the following steps
+
+1. make sure Mongo is running
+1. install npm depenedencies with `npm ci`
+1. a new file will be created `.env` update any details required for example mongo connection string (but usually the default will work fine)
+1. start the app with `npm run dev` and visit in the browser `http://localhost:3000`
+
+Any changes you make will automatically be reloaded in the browser.
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Local Development Documentation">
+    {children}
+  </DocsLayout>
+);

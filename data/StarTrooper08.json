@@ -2,17 +2,17 @@
   "name": "Atharva Shirdhankar",
   "type": "personal",
   "bio": "Open Source Enthusiast | Android Dev | Learning DevOps",
-  "avatar": "https://github.com/StarTrooper08.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/StarTrooper08",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/_Atharva_08",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

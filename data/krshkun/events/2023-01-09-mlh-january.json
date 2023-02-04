@@ -1,0 +1,11 @@
+{
+  "isVirtual": true,
+  "color": "green",
+  "name": "Global Hack Week: Beginners",
+  "description": "Spend a week hacking with the MLH community at GHW Beginners Week! Global Hack Week takes place throughout the year to give you a chance to complete technical challenges, network with the community, enjoy fun live sessions, build technical projects, and make new memories.",
+  "date": {
+    "start": "2022-01-09T12:00:00.000-05:00",
+    "end": "2022-01-16T12:00:00.000-05:00"
+  },
+  "url": "https://ghw.mlh.io"
+}
