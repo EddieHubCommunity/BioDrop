@@ -6,8 +6,6 @@ import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
 import getIcon from "../Icon";
-import { IconContext } from "react-icons/lib/cjs/iconContext";
-
 const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
@@ -92,15 +90,9 @@ export default function Navbar() {
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub aria-label="GitHub" />
-                    </IconContext.Provider>
+                    <FaGithub aria-label="GitHub" />
                   </a>
                 </div>
               </div>
@@ -171,15 +163,9 @@ export default function Navbar() {
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub />
-                    </IconContext.Provider>
+                      <FaGithub aria-label="GitHub" />
                   </Link>
                 </div>
               </div>
