@@ -1,0 +1,28 @@
+{
+  "name": "Yash Kumar Shrivas",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Information Technology Student || Open-Source || Learning DSA || Learning Web Development || Bachelor of Technology (BTech) || Techy Geek",
+  "links": [
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/YashkShrivas4491.png",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YashKumarS4491",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yash-kumar-shrivas-98a759126/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@YashkShrivas4491",
+      "icon": "SiHashnode"
+    }
+  ]
+}
