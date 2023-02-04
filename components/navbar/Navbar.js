@@ -112,7 +112,7 @@ export default function Navbar() {
             </div>
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
-                <span className="text-gray-600">v{app.version}</span>
+                <span className="text-gray-400">v{app.version}</span>
                 <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
