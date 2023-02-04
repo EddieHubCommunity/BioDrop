@@ -72,6 +72,20 @@
       "date": "November 2022",
       "icon": "FaCode",
       "color": "#1e3530"
+    },
+    {
+      "title": "Have my own event",
+      "description": "I hosted my own event and promoted open source to my fellow community members at StackUp.",
+      "date": "January 2023",
+      "icon": "FaMicrophone",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Finally a maintainer",
+      "description": "I become a maintainer in Marko Denic's awesome tech blogs repository project.",
+      "date": "January 2023",
+      "icon": "FaMicrophone",
+      "color": "#1e3530"
     }
   ]
 }
