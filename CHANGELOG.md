@@ -1,9 +1,9 @@
-## 1.75.3 (2023-02-04)
+## 1.77.3 (2023-02-05)
 
 
 ### Bug Fixes
 
-* outline to hamburger on tab ([#4245](https://github.com/EddieHubCommunity/LinkFree/issues/4245)) ([cd7e2de](https://github.com/EddieHubCommunity/LinkFree/commit/cd7e2de1d52d083a36f6f0f426ea0fefad11b8e7))
+* issue template label ([#4503](https://github.com/EddieHubCommunity/LinkFree/issues/4503)) ([f89ea68](https://github.com/EddieHubCommunity/LinkFree/commit/f89ea6890d91e1826f377439081612a4c0b4d17f))
 
 
 
