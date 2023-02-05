@@ -4,6 +4,12 @@ import ProfileStats from "../../../models/ProfileStats";
 import loadProfiles from "../../../services/profiles/loadProfiles";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
 
   let getProfiles = [];
