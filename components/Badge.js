@@ -5,7 +5,15 @@
 
 import Link from "./Link";
 
-export default function Badge({ title, content, path, position, children }) {
+export default function Badge({
+  title,
+  content,
+  path,
+  position,
+  className,
+  children,
+  display = true,
+}) {
   let css = "";
   const cssTopRight = "top-0 right-0 bottom-auto left-auto";
   const cssTopLeft = "top-0 left-0 bottom-auto right-auto";
@@ -27,7 +35,7 @@ export default function Badge({ title, content, path, position, children }) {
     default:
       css = cssTopRight;
   }
-  console.log(position, css);
+
   const badge = (
     <div
       title={title}
@@ -43,9 +51,9 @@ export default function Badge({ title, content, path, position, children }) {
   }
 
   return (
-    <div className="inline-flex relative w-fit">
+    <div className={`inline-flex relative ${className ? className : "w-fit"}`}>
       {children}
-      {clickable ? clickable : badge}
+      {display && (clickable ? clickable : badge)}
     </div>
   );
 }
