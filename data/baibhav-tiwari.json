@@ -5,6 +5,11 @@
   "bio": "**Web3** | **Web-developer** | **React** | **Open_Source**",
   "avatar": "https://github.com/baibhav-tiwari.png",
   "tags": ["Open Source", "Javascript", "ReactJS", "Web3"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/BaibhavTiwari11" },
+    { "icon": "FaGithub", "url": "https://github.com/baibhav-tiwari" },
+    { "icon": "SiHashnode", "url": "https://www.linkedin.com/in/baibhavtiwari" }
+   ],
   "links": [
     {
       "name": "Twitter",
@@ -18,8 +23,13 @@
     },
     {
       "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/baibhavtiwari/",
+      "url": "https://www.linkedin.com/in/baibhavtiwari",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@baibhavv",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
