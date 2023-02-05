@@ -102,7 +102,6 @@ export default function Search({ data }) {
   useEffect(() => {
     if (!inputValue) return
     const timer = setTimeout(() => {
-      console.log("fetch data")
       filterData(inputValue)
     }, 500)
 
