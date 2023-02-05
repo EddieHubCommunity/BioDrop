@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "../components/user/UserCard";
@@ -6,7 +6,6 @@ import Alert from "../components/Alert";
 import Page from "../components/Page";
 import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
-import { debounce } from "lodash";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -100,20 +99,14 @@ export default function Search({ data }) {
     setInputValue(keyword);
   };
 
-  const debounceSave = useCallback(
-    debounce((inputValue) => filterData(inputValue), 200),
-    []
-  );
-
-  const debouncedResults = (inputValue) => {
-    setInputValue(inputValue);
-    debounceSave(inputValue)
-  };
-
   useEffect(() => {
-    if (inputValue) {
-      debounceSave(inputValue)
-    }
+    if (!inputValue) return
+    const timer = setTimeout(() => {
+      console.log("fetch data")
+      filterData(inputValue)
+    }, 500)
+
+    return () => clearTimeout(timer)
   }, [inputValue]);
 
   return (
@@ -150,7 +143,7 @@ export default function Search({ data }) {
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
-            onChange={(e) => debouncedResults(e.target.value)}
+            onChange={(e) => setInputValue(e.target.value)}
           />
           {filteredUsers && (
             <div className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-1/4 -translate-y-1/3 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10">
