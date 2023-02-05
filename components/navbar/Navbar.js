@@ -6,8 +6,8 @@ import NavLink from "./NavLink";
 import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import { FaGithub } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import getIcon from "../Icon";
+const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
   const { data: session } = useSession();
@@ -119,15 +119,9 @@ export default function Navbar() {
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub aria-label="GitHub" />
-                    </IconContext.Provider>
+                    <FaGithub aria-label="GitHub" />
                   </a>
                 </div>
                 {authControls()}
@@ -199,15 +193,9 @@ export default function Navbar() {
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub />
-                    </IconContext.Provider>
+                      <FaGithub aria-label="GitHub" />
                   </Link>
                 </div>
                 {authControls()}

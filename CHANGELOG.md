@@ -1,9 +1,9 @@
-## 1.75.3 (2023-02-04)
+## 1.75.4 (2023-02-05)
 
 
 ### Bug Fixes
 
-* outline to hamburger on tab ([#4245](https://github.com/EddieHubCommunity/LinkFree/issues/4245)) ([cd7e2de](https://github.com/EddieHubCommunity/LinkFree/commit/cd7e2de1d52d083a36f6f0f426ea0fefad11b8e7))
+* reduce _app bundle size to improve load time ([#4440](https://github.com/EddieHubCommunity/LinkFree/issues/4440)) ([eaee6cd](https://github.com/EddieHubCommunity/LinkFree/commit/eaee6cd3e2162639b34468e52dd065423823fdc1))
 
 
 
