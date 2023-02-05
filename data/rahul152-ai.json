@@ -2,7 +2,7 @@
   "name": "Rahul Kumar",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "New in opens source",
+  "bio": "New to open source",
 
   "tags": [
     "javascript",
@@ -10,7 +10,8 @@
     "expressjs",
     "mongodb",
     "linux",
-    "reactjs"
+    "reactjs",
+    "git"
   ],
   "links": [
     {
