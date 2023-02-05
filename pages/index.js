@@ -372,10 +372,11 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
-
+      
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
         rel="noopener noreferrer"
+        target="_blank"
       >
         <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
           <IconContext.Provider
@@ -386,6 +387,7 @@ export default function Home({ total, today }) {
           <p className="text-sm font-medium">Help</p>
         </div>
       </Link>
+
     </>
   );
 }

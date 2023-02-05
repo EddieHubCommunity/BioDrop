@@ -27,7 +27,7 @@
       "url": "http://rohit-ghumare.super.site/services",
       "icon": "FaLink"
     },
-     {
+    {
       "group": "Socials Primary",
       "name": "Subscribe to monthly dose of DevOps and cloud native",
       "url": "https://thatdevopsguy.substack.com/",
@@ -40,7 +40,7 @@
       "url": "https://twitter.com/ghumare64",
       "icon": "FaTwitter"
     },
-     {
+    {
       "group": "Socials Primary",
       "name": "Medium: My Blogs",
       "url": "https://medium.com/@ghumare64",
@@ -70,19 +70,19 @@
       "url": "http://devopscommunity.in",
       "icon": "FaLink"
     },
-     {
+    {
       "group": "Keep Up",
       "name": "Community as a helping hand to people in need",
       "url": "https://www.linkedin.com/company/trainings-internships/",
       "icon": "FaLink"
     },
-     {
+    {
       "group": "DevRel Community",
       "name": "DevReler: Inclusive DevRel Community",
       "url": "http://devreler.weavr.cafe",
       "icon": "FaLink"
     },
-     {
+    {
       "name": "Support my Work",
       "url": "https://www.paypal.com/paypalme/rohitghumare",
       "icon": "FaPaypal"
