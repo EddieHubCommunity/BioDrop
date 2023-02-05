@@ -1,9 +1,9 @@
-## 1.76.1 (2023-02-05)
+# 1.77.0 (2023-02-05)
 
 
-### Bug Fixes
+### Features
 
-* help button open in new tab ([#4361](https://github.com/EddieHubCommunity/LinkFree/issues/4361)) ([ed3f1ca](https://github.com/EddieHubCommunity/LinkFree/commit/ed3f1ca8a97dc63c39c41a422813859f69f6712b))
+* a11y plugin for storybook ([#4315](https://github.com/EddieHubCommunity/LinkFree/issues/4315)) ([cad9d54](https://github.com/EddieHubCommunity/LinkFree/commit/cad9d54d0803b0e4d3c14068cf6a11222fa01c6e))
 
 
 
