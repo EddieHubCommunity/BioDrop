@@ -1,9 +1,9 @@
-## 1.75.4 (2023-02-05)
+# 1.76.0 (2023-02-05)
 
 
-### Bug Fixes
+### Features
 
-* reduce _app bundle size to improve load time ([#4440](https://github.com/EddieHubCommunity/LinkFree/issues/4440)) ([eaee6cd](https://github.com/EddieHubCommunity/LinkFree/commit/eaee6cd3e2162639b34468e52dd065423823fdc1))
+* oauth and basic statistics ([#4091](https://github.com/EddieHubCommunity/LinkFree/issues/4091)) ([e734fd2](https://github.com/EddieHubCommunity/LinkFree/commit/e734fd23df5ad9d09ac57615c1cb8f397f398593))
 
 
 
