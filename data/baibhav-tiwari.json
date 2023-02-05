@@ -10,8 +10,6 @@
     { "icon": "FaGithub", "url": "https://github.com/baibhav-tiwari" },
     { "icon": "SiHashnode", "url": "https://www.linkedin.com/in/baibhavtiwari" }
    ],
-  "tags": ["Open Source", "Javascript", "ReactJS", "Web3"],
-
   "links": [
     {
       "name": "Twitter",
