@@ -4,6 +4,12 @@ import path from "path";
 import logger from "../../config/logger";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   const directoryPath = path.join(process.cwd(), "data");
 
   let userFolders;

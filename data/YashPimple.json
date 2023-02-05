@@ -48,6 +48,14 @@
       "color": "blue",
       "description": "Started learning Web Development",
       "url": "https://github.com/YashPimple"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "blue",
+      "description": "Participated in my first ever Hacktoberfest",
+      "url": "https://github.com/YashPimple"
     }
   ]
 }
