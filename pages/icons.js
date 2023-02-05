@@ -1,10 +1,11 @@
-import Head from "next/head";
 import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
+
 import Alert from "../components/Alert";
 import IconCard from "../components/IconCard";
 import Page from "../components/Page";
+import PageHead from "../components/PageHead";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
@@ -45,11 +46,11 @@ export default function Icons() {
 
   return (
     <>
-      <Head>
-        <title>LinkFree Search Icons</title>
-        <meta name="description" content="Search LinkFree icon directory" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <PageHead
+        title="LinkFree Search Icons"
+        description="Search LinkFree icon directory"
+      />
+
       <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input

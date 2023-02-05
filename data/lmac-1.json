@@ -4,7 +4,7 @@
   "type": "personal",
   "bio": "Software Developer and Technical Writer",
   "tags": ["Open Source", "Javascript", "React", "NextJS"],
-  "avatar": "https://github.com/lmac-1.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/codingwithlucy" },
     { "icon": "FaGithub", "url": "https://github.com/lmac-1" },

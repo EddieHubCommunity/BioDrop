@@ -9,12 +9,12 @@
     { "icon": "FaGithub", "url": "https://github.com/prnvtripathi/" },
     { "icon": "SiHashnode", "url": "https://prnvtripathi.hashnode.dev/" }
   ],
-  "avatar": "https://github.com/prnvtripathi.png",
+
   "links": [
     {
       "name": "Checkout my portfolio website",
-      "url": "https://pranav-tripathi.netlify.app",
-      "icon": "FaTwitter"
+      "url": "https://pranavtripathi.vercel.app",
+      "icon": "FaUser"
     },
     {
       "name": "Let's See each other on Twitter",

@@ -3,11 +3,10 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "I am an Undergraduate Researcher at IIIT-Delhi, a Data Science Practitioner, Content Creator and Technical Writer",
-  "avatar": "https://github.com/SiddheshBangar.png",
+
   "tags": [
+    "Python",
     "Data Science",
-    "Machine Learning",
-    "Deep Learning",
     "Artificial Intelligence",
     "Technical writing"
   ],
@@ -19,11 +18,12 @@
       "url": "https://www.linkedin.com/in/siddheshbangar/"
     }
   ],
+  "testimonials": ["Arindam200"],
   "links": [
     {
       "name": "GitHub: For Data Science related projects",
       "url": "https://github.com/SiddheshBangar",
-      "icon": "FaGithubSquare"
+      "icon": "SiGithub"
     },
     {
       "name": "Hashnode: Check out my blogs",
@@ -33,17 +33,17 @@
     {
       "name": "Medium: Check out my blogs",
       "url": "https://medium.com/@siddheshb008",
-      "icon": "FaMedium"
+      "icon": "SiMedium"
     },
     {
       "name": "Twitter: For Data Science related content",
       "url": "https://twitter.com/siddddhesh",
-      "icon": "FaTwitterSquare"
+      "icon": "SiTwitter"
     },
     {
       "name": "Instagram: Sharing life",
       "url": "https://www.instagram.com/thatsiddhesh/",
-      "icon": "FaInstagramSquare"
+      "icon": "SiInstagram"
     },
     {
       "name": "LinkedIn: Let's connect!",
@@ -66,7 +66,7 @@
     },
     {
       "title": "Started My Blog",
-      "image": "https://github.com/eddiejaoude.png",
+
       "date": "January 2021",
       "icon": "FaMedium",
       "color": "grey",

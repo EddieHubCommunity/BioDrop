@@ -1,17 +1,20 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 import NavLink from "./NavLink";
-import Link from "next/link";
+import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import { FaGithub } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import getIcon from "../Icon";
+const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
+  const { data: session } = useSession();
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
+  const getLink = (path) => `${router.basePath}${path}`;
   const navConRef = useRef();
 
   useEffect(() => {
@@ -34,10 +37,6 @@ export default function Navbar() {
 
   const primary = [
     {
-      name: "Home",
-      url: "/",
-    },
-    {
       name: "Discover",
       url: "/discover",
     },
@@ -55,6 +54,37 @@ export default function Navbar() {
     },
   ];
 
+  const authControls = () => (
+    <>
+      {!session && (
+        <NavLink
+          item={{ name: "Login", url: "" }}
+          onClick={(e) => {
+            e.preventDefault();
+            setIsOpen(false);
+            signIn();
+          }}
+        />
+      )}
+
+      {session && (
+        <>
+          <NavLink
+            item={{ name: "Account", url: "/account/statistics" }}
+            onClick={() => setIsOpen(false)}
+          />
+          <NavLink
+            item={{ name: "Logout", url: "/" }}
+            onClick={() => {
+              setIsOpen(false);
+              signOut();
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+
   return (
     <div className="min-h-full" ref={navConRef}>
       <nav className="bg-gray-800">
@@ -64,7 +94,7 @@ export default function Navbar() {
               <div className="flex-shrink-0">
                 <Link href="/">
                   <Image
-                    src="/logo192.png"
+                    src={getLink("/logo192.png")}
                     alt="EddieHub logo"
                     width={32}
                     height={32}
@@ -81,32 +111,27 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="ml-4 flex items-center md:ml-6">
+              <div className="flex items-center gap-3">
                 <span className="text-gray-400">v{app.version}</span>
-                <div className="ml-3 relative">
+                <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub aria-label="GitHub" />
-                    </IconContext.Provider>
+                    <FaGithub aria-label="GitHub" />
                   </a>
                 </div>
+                {authControls()}
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+                className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >
@@ -163,22 +188,17 @@ export default function Navbar() {
               <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub />
-                    </IconContext.Provider>
-                  </a>
+                      <FaGithub aria-label="GitHub" />
+                  </Link>
                 </div>
+                {authControls()}
               </div>
             </div>
           </div>
