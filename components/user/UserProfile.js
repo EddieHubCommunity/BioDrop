@@ -7,6 +7,7 @@ import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
 import Tag from "../Tag";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
+import Link from "../Link";
 
 export default function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -59,7 +60,16 @@ export default function UserProfile({ BASE_URL, data }) {
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
-          {data.tags && data.tags.map((tag) => <Tag name={tag} key={tag} />)}
+          {data.tags &&
+            data.tags.map((tag) => (
+              <Link
+                href={`/search?keyword=${tag}`}
+                key={tag}
+                className="no-underline"
+              >
+                <Tag name={tag} />
+              </Link>
+            ))}
         </div>
       )}
 

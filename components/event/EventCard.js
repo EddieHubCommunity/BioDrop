@@ -34,21 +34,32 @@ export default function EventCard({ event, username }) {
               <FaMicrophoneAlt title="CFP is open" />
             )}
         </div>
-        <div className="flex-1 space-y-1">
+        <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
             <div>
-              <Link
-                href={event.url}
-                key={event.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-              >
-                {event.name}
-              </Link>
-              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
-                {event.description}
-              </ReactMarkdown>
+              <div className="flex justify-between">
+                <Link
+                  href={event.url}
+                  key={event.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
+                >
+                  {event.name}
+                </Link>
+                {event.userStatus && (
+                  <div className="text-slate-300 italic">
+                    {event.userStatus}
+                    {event.userStatus == "speaking" && " at "} this event
+                    {event.userStatus == "speaking" && event?.speakingTopic && (
+                      <>
+                        {" "}
+                        on <b>{event.speakingTopic}</b>
+                      </>
+                    )}
+                  </div>
+                )}
+              </div>
               <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
@@ -62,6 +73,9 @@ export default function EventCard({ event, username }) {
                   )}
                 </span>
               </p>
+              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
+                {event.description}
+              </ReactMarkdown>
             </div>
             {username && (
               <Link
