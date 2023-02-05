@@ -51,6 +51,16 @@ export default function Search({ data }) {
     }
   }, [username]);
 
+  const randomizeData = (users) => {
+    let newArray = []
+    while(users.length != 0) {
+      let randomIndex = Math.floor(users.length * Math.random())
+      newArray.push(users[randomIndex])
+      users.splice(randomIndex, 1)
+    }
+    return newArray
+  }
+
   const filterData = (value) => {
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
@@ -77,7 +87,7 @@ export default function Search({ data }) {
       setNotFound();
     }
 
-    setFilteredUsers(results);
+    setFilteredUsers(randomizeData(results));
   };
 
   const search = (keyword) => {
