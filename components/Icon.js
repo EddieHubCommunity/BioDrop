@@ -1,23 +1,35 @@
-import * as FaIcons from "react-icons/fa";
-import * as SiIcons from "react-icons/si";
+import dynamic from "next/dynamic";
 
-export default function getIcon(name) {
-  let icon = FaIcons["FaGlobe"];
-  if (!name) {
-    return icon;
-  }
+function defaultIcon() {
+  return dynamic(() => import("react-icons/fa").then((mod) => mod.FaGlobe));
+}
+
+export default function getIcon(name = "FaGlobe") {
+  let icon;
 
   switch (name.slice(0, 2)) {
     case "Fa":
-      icon = FaIcons[name];
+      icon = dynamic(() =>
+        import("react-icons/fa").then((mod) => {
+          let node = mod[name];
+          if (!node) node = defaultIcon();
+          return node;
+        })
+      );
       break;
     case "Si":
-      icon = SiIcons[name];
+      icon = dynamic(() =>
+        import("react-icons/si").then((mod) => {
+          let node = mod[name];
+          if (!node) node = defaultIcon();
+          return node;
+        })
+      );
       break;
   }
 
   if (!icon) {
-    return FaIcons["FaGlobe"];
+    return defaultIcon();
   }
 
   return icon;

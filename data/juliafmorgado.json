@@ -3,7 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "DevOps DevRel | Open Source Enthusiast | AWS Community Builder",
-  "avatar": "https://github.com/juliafmorgado.png",
+
   "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
@@ -13,11 +13,9 @@
       "url": "https://www.linkedin.com/in/juliafmorgado"
     },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
-    {
-      "icon": "FaInstagram",
-      "url": "https://www.instagram.com/juliafmorgado/"
-    }
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
   ],
+  "testimonials": ["eddiejaoude", "payalpm"],
   "links": [
     {
       "name": "Main website",
@@ -33,6 +31,11 @@
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/juliafmorgado",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Sponsor me on GitHub",
+      "url": "https://github.com/sponsors/juliafmorgado",
+      "icon": "FaGithub"
     },
     {
       "name": "Main YouTube channel (English)",

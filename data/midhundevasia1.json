@@ -1,0 +1,23 @@
+{
+  "name": "Midhun Devasia",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A passionate **Python developer and Data Enthusiast** with expertise in Python and SQL from India ",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/midhundevasia1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MidhunDevasia",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/midhundevasia1/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

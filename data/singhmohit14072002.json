@@ -1,0 +1,28 @@
+{
+  "name": "Mohit Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "OpenSource  | DevOps | Docker | Blogger **Hashnode**",
+
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "AWS",
+    "Auzur",
+    "Blogger",
+    "Frontend Devloper",
+    "Kubernetes"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohitDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/mohit-singh-9b4b42253/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
