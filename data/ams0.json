@@ -14,7 +14,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/bongo" },
     { "icon": "FaGithub", "url": "https://github.com/ams0" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/alessandrovozza/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/alessandrovozza/"
+    }
   ],
   "links": [
     {
