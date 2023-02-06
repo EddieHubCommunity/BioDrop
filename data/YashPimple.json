@@ -11,22 +11,26 @@
   ],
 
   "links": [
-    { "group": "Socials",
+    {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Yashpimple22",
       "icon": "FaTwitter"
     },
-    { "group": "Socials",
+    {
+      "group": "Socials",
       "name": "Follow me on Github",
       "url": "https://github.com/YashPimple",
       "icon": "FaGithub"
     },
-    { "group": "Socials",
+    {
+      "group": "Socials",
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/yash-pimple-623683222/",
       "icon": "FaLinkedin"
     },
-    { "group": "Socials",
+    {
+      "group": "Socials",
       "name": "Interested in reading my blogs? Go here!",
       "url": "https://yashpimple.hashnode.dev/",
       "icon": "SiHashnode"
