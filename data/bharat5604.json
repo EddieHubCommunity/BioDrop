@@ -2,7 +2,7 @@
   "name": "Bharat Singh",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Full stack developer",
+  "bio": "Full stack developer | open source",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -24,5 +24,14 @@
       "url": "https://www.linkedin.com/in/bharat-singh-192b03171/",
       "icon": "FaLinkedin"
     }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Tailwindcss",
+    "NextJS",
+    "DevOps",
+    "Node.js",
+    "DevRel"
   ]
 }
