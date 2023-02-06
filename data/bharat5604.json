@@ -1,0 +1,28 @@
+{
+  "name": "Bharat Singh",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Full stack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BharatS_rajput",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/bharat5604",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/bharat_singh._rajput/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/bharat-singh-192b03171/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
