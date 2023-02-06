@@ -92,7 +92,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
           id="tabs"
           name="tabs"
           onChange={changeTab}
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md mb-4 border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.current).name}
         >
           {tabs.map((tab) => (
@@ -102,7 +102,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
-          <nav className="-mb-px flex" aria-label="Tabs">
+          <nav className="mb-4  flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
                 key={tab.name}
