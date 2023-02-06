@@ -1,9 +1,9 @@
-# 1.79.0 (2023-02-06)
+## 1.79.1 (2023-02-06)
 
 
-### Features
+### Bug Fixes
 
-* debounce search results ([#4476](https://github.com/EddieHubCommunity/LinkFree/issues/4476)) ([a8fd7fa](https://github.com/EddieHubCommunity/LinkFree/commit/a8fd7fa7fcad993e3fde7870bb17e63121da281d))
+* rename 'Community Events' to 'Events' ([#4499](https://github.com/EddieHubCommunity/LinkFree/issues/4499)) ([#4548](https://github.com/EddieHubCommunity/LinkFree/issues/4548)) ([93edf7f](https://github.com/EddieHubCommunity/LinkFree/commit/93edf7f0c5e55560c46fddf7d26ba8160951c1f5))
 
 
 
