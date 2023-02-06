@@ -15,6 +15,12 @@
       "icon": "FaGithub"
     }
   ],
-  "tags": [ "Open Source", "Javascript", "Typescript", "NextJS", "DevOps",
-  "DevRel" ]
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ]
 }
