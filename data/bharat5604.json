@@ -3,7 +3,6 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full stack developer",
-  "avatar":"https://github.com/bharat5604.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -24,6 +23,6 @@
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/bharat-singh-192b03171/",
       "icon": "FaLinkedin"
-    },
+    }
   ]
 }
