@@ -1,9 +1,9 @@
-## 1.75.2 (2023-02-03)
+# 1.79.0 (2023-02-06)
 
 
-### Bug Fixes
+### Features
 
-* re-implement dynamic icons import ([#4435](https://github.com/EddieHubCommunity/LinkFree/issues/4435)) ([a102b15](https://github.com/EddieHubCommunity/LinkFree/commit/a102b154d5a0153508314b480e3747ebc0fbf287))
+* debounce search results ([#4476](https://github.com/EddieHubCommunity/LinkFree/issues/4476)) ([a8fd7fa](https://github.com/EddieHubCommunity/LinkFree/commit/a8fd7fa7fcad993e3fde7870bb17e63121da281d))
 
 
 

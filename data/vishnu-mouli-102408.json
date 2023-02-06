@@ -3,6 +3,7 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
+
   "tags": [
     "Open Source",
     "Javascript",
@@ -17,7 +18,10 @@
   { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ganivada-mouli/" },
   { "icon": "FaInstagram", "url": "https://www.instagram.com/vishnu.mouli/" }
 ],
-   "links": [
+  
+
+  "links": [
+
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/iamVishnuMouli",
