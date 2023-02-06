@@ -32,7 +32,7 @@ export default function DocsLayout({ children, title }) {
           >
             documentation source
           </Link>{" "}
-          and the&nbsp; on GitHub for more information.
+          on GitHub for more information.
         </p>
         <div className="float-none my-0 max-w-[1440px] prose">
           <div className="flex flex-grow flex-row">

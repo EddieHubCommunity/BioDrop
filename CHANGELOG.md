@@ -1,9 +1,9 @@
-## 1.77.3 (2023-02-05)
+## 1.77.5 (2023-02-06)
 
 
 ### Bug Fixes
 
-* issue template label ([#4503](https://github.com/EddieHubCommunity/LinkFree/issues/4503)) ([f89ea68](https://github.com/EddieHubCommunity/LinkFree/commit/f89ea6890d91e1826f377439081612a4c0b4d17f))
+* do not run GH Action on fork [#4537](https://github.com/EddieHubCommunity/LinkFree/issues/4537) ([#4538](https://github.com/EddieHubCommunity/LinkFree/issues/4538)) ([5010c74](https://github.com/EddieHubCommunity/LinkFree/commit/5010c74d182a48cb5c87a8fbe4b4cc80e10d5089))
 
 
 
