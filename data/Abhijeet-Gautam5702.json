@@ -1,0 +1,24 @@
+{
+  "name": "Abhijeet Gautam",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Student. Passionate frontend developer, aspiring to go fullstack. Love problem solving.",
+  "avatar": "https://github.com/Abhijeet-Gautam5702.png",
+  "links": [
+        {
+          "name": "Follow me on Twitter",
+          "url": "https://twitter.com/abhijeet_gautam",
+          "icon": "FaTwitter"
+        },
+        {
+          "name": "Explore my GitHub",
+          "url": "https://github.com/Abhijeet-Gautam5702",
+          "icon": "FaGithub"
+        },
+        {
+          "name": "Connect with me on LinkedIn",
+          "url": "https://www.linkedin.com/in/abhijeet-gautam-a413b1211/",
+          "icon": "FaLinkedin"
+        }
+  ]
+}
