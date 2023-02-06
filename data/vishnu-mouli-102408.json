@@ -3,7 +3,25 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
+
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React JS",
+    "Web Dev"
+  ],
+   "socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/iamVishnuMouli" },
+  { "icon": "FaGithub", "url": "https://github.com/vishnu-mouli-102408" },
+  { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ganivada-mouli/" },
+  { "icon": "FaInstagram", "url": "https://www.instagram.com/vishnu.mouli/" }
+],
+  
+
   "links": [
+
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/iamVishnuMouli",
