@@ -31,7 +31,7 @@
       "url": "https://itspp.hashnode.dev",
       "icon": "SiHashnode"
     },
-     {
+    {
       "group": "Blogs",
       "name": "Linux Blogs",
       "url": "https://itspp.hashnode.dev/tag/linux",
@@ -44,19 +44,19 @@
       "icon": "SiOpensourceinitiative"
     },
     {
-     "group": "Projects",
+      "group": "Projects",
       "name": "Proof of Works",
       "url": "https://fueler.io/priyankarpal",
       "icon": "FaLink"
     },
-     {
-     "group": "Projects",
+    {
+      "group": "Projects",
       "name": "JokeHub",
       "url": "https://github.com/priyankarpal/JokeHub",
       "icon": "FaLink"
     },
-     {
-     "group": "Projects",
+    {
+      "group": "Projects",
       "name": "Thea Theme",
       "url": "https://github.com/priyankarpal/TheaTheme",
       "icon": "FaLink"
