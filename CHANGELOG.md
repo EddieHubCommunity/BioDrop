@@ -1,9 +1,9 @@
-## 1.77.3 (2023-02-05)
+# 1.78.0 (2023-02-06)
 
 
-### Bug Fixes
+### Features
 
-* issue template label ([#4503](https://github.com/EddieHubCommunity/LinkFree/issues/4503)) ([f89ea68](https://github.com/EddieHubCommunity/LinkFree/commit/f89ea6890d91e1826f377439081612a4c0b4d17f))
+* robots.txt for SEO ([#4542](https://github.com/EddieHubCommunity/LinkFree/issues/4542)) ([7d0a7fa](https://github.com/EddieHubCommunity/LinkFree/commit/7d0a7fa599239a6c175b106774317613bad18d83))
 
 
 
