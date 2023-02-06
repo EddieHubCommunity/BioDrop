@@ -5,9 +5,9 @@
     "bio": "Full-Stack developer | Flutter | NodeJs | Angular | React",
     "tags": ["Flutter", "Node,js", "Angular", "Javascript", "Typescript", "open-source"],
     "socials": [
-      { "platform": "FaTwitter", "url": "https://twitter.com/AbhishekBtwt" },
-      { "platform": "FaGithub", "url": "https://github.com/bhattabhi013" },
-      { "platform": "FaInstagram", "url": "https://www.instagram.com/bwith_abhi" }
+      { "icon": "FaTwitter", "url": "https://twitter.com/AbhishekBtwt" },
+      { "icon": "FaGithub", "url": "https://github.com/bhattabhi013" },
+      { "icon": "FaInstagram", "url": "https://www.instagram.com/bwith_abhi" }
     ],
     "links": [
       {
