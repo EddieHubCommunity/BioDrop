@@ -1,0 +1,76 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import Link from "../../../components/Link";
+
+## Commit Style
+
+On EddieHub, we use the <Link href="https://www.conventionalcommits.org"> Conventional Commits</Link> format for all changes to the source repositories. This format embeds semantic information in each commit, which is used to generate changelog automatically.
+
+The format for Conventional Commits is as follows:
+
+```swift
+<type>([optional scope]): <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+###  Type
+
+- `fix:` a commit that fixes a bug
+- `feat:` a commit that adds new feature
+- `docs:` a commit that adds or improves documentation
+- `style:` a commit that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- `refactor:` a commit that neither adds a feature nor fixes a bug - such as removing redundant code, simplifying the code, renaming variables, etc.
+- `perf:` a commit that improves performance
+- `test:` a commit that adds test or corrects existing tests
+
+### Scope
+A scope may be provided to a commit’s type, to provide additional contextual information and is contained within parenthesis, e.g.,
+```swift 
+feat(parser): add ability to parse arrays.
+```
+
+### Description
+Description contains concise description of the change:
+- use the imperative, present tense: "change" not "changed" nor "changes"
+- don't capitalize the first letter
+- no dot (.) at the end
+
+### Body 
+Just as in the **description**, use the imperative, present tense: "change" not "changed" nor "changes". The body should include the motivation for the change and contrast this with previous behavior.
+
+### Footer
+The footer should contain any information about Breaking Changes. Breaking Changes should start with the word **BREAKING CHANGE:** with a space or two newlines.
+
+### Examples
+
+#### Commit message with no body
+``` 
+docs: correct spelling of CHANGELOG
+```
+
+#### Commit message with description and breaking change footer
+``` 
+feat: allow provided config object to extend other configs
+
+BREAKING CHANGE: `extends` key in config file is now used for extending other config files
+```
+
+#### Commit message with scope
+``` 
+feat(lang): add Polish language
+```
+
+
+ 
+
+
+Learn more about <Link href="https://www.conventionalcommits.org"> Conventional Commits</Link>
+
+
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Hacktoberfest Documentation">
+    {children}
+  </DocsLayout>
+);
