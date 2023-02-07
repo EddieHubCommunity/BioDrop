@@ -1,9 +1,9 @@
-## 1.80.2 (2023-02-07)
+# 1.81.0 (2023-02-07)
 
 
-### Bug Fixes
+### Features
 
-* docs on small screen ([#4564](https://github.com/EddieHubCommunity/LinkFree/issues/4564)) ([39de254](https://github.com/EddieHubCommunity/LinkFree/commit/39de2548c9c93373cfad4b5151822868491ff468)), closes [#4448](https://github.com/EddieHubCommunity/LinkFree/issues/4448)
+* hover effects to user card ([#3893](https://github.com/EddieHubCommunity/LinkFree/issues/3893)) ([#4568](https://github.com/EddieHubCommunity/LinkFree/issues/4568)) ([1d24fbb](https://github.com/EddieHubCommunity/LinkFree/commit/1d24fbb8375d32257f0c4f9a01e181ba569b6fd4))
 
 
 
