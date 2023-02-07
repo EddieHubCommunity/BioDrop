@@ -2,7 +2,6 @@ import remarkGfm from "remark-gfm";
 import remarkPrism from "remark-prism";
 import createMDX from "@next/mdx";
 
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -43,7 +42,7 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm, [remarkPrism, {transformInlineCode: true}]],
+    remarkPlugins: [remarkGfm, [remarkPrism, { transformInlineCode: true }]],
     rehypePlugins: [],
     providerImportSource: "@mdx-js/react",
   },
