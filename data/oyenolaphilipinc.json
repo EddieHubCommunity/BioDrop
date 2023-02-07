@@ -23,4 +23,23 @@
     "DevOps",
     "DevRel"
   ]
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "August 2018",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Coding",
+      "url": "https://philipoyenola.vercel.app"
+    },
+    {
+      "title": "Started Twitter",
+
+      "date": "June 2021",
+      "icon": "FaTwitter",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://twitter.com/oyenolaayomi"
+    }
+  ]
 }
