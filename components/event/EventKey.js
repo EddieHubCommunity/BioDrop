@@ -1,14 +1,21 @@
 import { IconContext } from "react-icons";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
-import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import { MdOutlineOnlinePrediction, MdOutlinePeople, MdOutlineDoneAll, MdTimelapse } from "react-icons/md";
+import {RiCalendarTodoFill} from "react-icons/ri";
 
 export default function EventKey({ categorisedEvents, onToggleEventType }) {
   const filters = [
     {
-      title: "Show all",
-      description: "List all events with no filters",
-      key: "all",
-      icon: FaListUl,
+      title: "Show all future events",
+      description: "All upcoming events",
+      key: "future",
+      icon: RiCalendarTodoFill,
+    },
+    {
+      title: "Show all ongoing events",
+      description: "All ongoing events",
+      key: "ongoing",
+      icon: MdTimelapse,
     },
     {
       title: "CFP open",
@@ -27,6 +34,12 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       description: "Held virtually online event",
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
+    },
+    {
+      title: "Past Events",
+      description: "Events already held",
+      key: "past",
+      icon: MdOutlineDoneAll,
     },
   ];
 
