@@ -4,6 +4,12 @@ import logger from "../../../config/logger";
 import Stats from "../../../models/Stats";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
   const date = new Date();
   date.setHours(1, 0, 0, 0);

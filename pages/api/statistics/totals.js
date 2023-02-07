@@ -7,6 +7,12 @@ import Profile from "../../../models/Profile";
 import Stats from "../../../models/Stats";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
 
   let dailyStats = [];
