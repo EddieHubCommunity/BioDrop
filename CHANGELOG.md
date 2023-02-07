@@ -1,9 +1,9 @@
-# 1.82.0 (2023-02-07)
+## 1.82.1 (2023-02-07)
 
 
-### Features
+### Bug Fixes
 
-* mobile nav animation ([#4382](https://github.com/EddieHubCommunity/LinkFree/issues/4382)) ([4e7b3a6](https://github.com/EddieHubCommunity/LinkFree/commit/4e7b3a6f322b352f8162f42d4a0e7ce5845a8a24))
+* Storybook plugin next-auth-mock ([#4566](https://github.com/EddieHubCommunity/LinkFree/issues/4566)) ([87f647a](https://github.com/EddieHubCommunity/LinkFree/commit/87f647a5229e261d28326e4fc3619b646364c0fb))
 
 
 
