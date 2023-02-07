@@ -77,7 +77,7 @@ export default function Search({ data }) {
       setNotFound();
     }
 
-    setFilteredUsers(results);
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
   };
 
   const search = (keyword) => {
