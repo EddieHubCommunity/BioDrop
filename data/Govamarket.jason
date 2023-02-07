@@ -1,0 +1,21 @@
+{
+  "name": "Clinton Chidera",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a frontend developer",
+  "avatar": https://github.com/Govamarket.png"
+  
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Govamarket",
+      "icon": "FaGithub"
+    }
+  ]
+}
