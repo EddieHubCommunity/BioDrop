@@ -1,9 +1,9 @@
-# 1.82.0 (2023-02-07)
+## 1.82.2 (2023-02-07)
 
 
-### Features
+### Bug Fixes
 
-* mobile nav animation ([#4382](https://github.com/EddieHubCommunity/LinkFree/issues/4382)) ([4e7b3a6](https://github.com/EddieHubCommunity/LinkFree/commit/4e7b3a6f322b352f8162f42d4a0e7ce5845a8a24))
+* run storybook workflow on config changes ([#4590](https://github.com/EddieHubCommunity/LinkFree/issues/4590)) ([e4686c6](https://github.com/EddieHubCommunity/LinkFree/commit/e4686c689a7cc1615541c6d184b519fa823e347f))
 
 
 
