@@ -3,12 +3,11 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Android Developer",
-  "links":[
-   
+  "links": [
     {
-      "name":"Follow me on Twitter",
-      "url":"https://twitter.com/vishalr206",
-      "icon":"FaTwitter"
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishalr206",
+      "icon": "FaTwitter"
     }
-    ]
+  ]
 }

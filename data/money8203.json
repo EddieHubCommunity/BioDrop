@@ -2,9 +2,9 @@
   "name": "Manish Tyagi ",
   "type": "Personal",
   "displayStatsPublic": true,
-  "bio": "**Open Source** Advocate | Web Developer | Postman *Student Leader*",
+  "bio": "**Open Source** Advocate | Web Developer | **Postman** Student Leader",
 
-  "tags": ["Open Source", "Web Development", "Java", "API's", "DevRel"],
+  "tags": ["Open Source", "Web Development", "Content Writing", "API", "DevRel"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/ManishT93598843" },
     { "icon": "FaGithub", "url": "https://github.com/money8203" },
@@ -18,7 +18,7 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Let's collab on GitHub",
+      "name": "See my work on GitHub",
       "url": "https://github.com/money8203",
       "icon": "FaGithub"
     },
@@ -28,14 +28,24 @@
       "icon": "FaLinkedin"
     },
     {
+      "name": "Google Developer Profile",
+      "url": "https://g.dev/manisht",
+      "icon": "SiGoogle"
+    },
+    {
       "name": "Follow me on Insta",
       "url": "https://instagram.com/manish_tyagi.__",
       "icon": "FaInstagram"
     },
     {
-      "name": "Personal Portfolio",
+      "name": "Personal Profile",
       "url": "https://manishtyagi.carrd.co/",
       "icon": "FaGlobe"
+    },
+    {
+      "name": "Microsoft Learn Profile",
+      "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
+      "icon": "SiMicrosoft"
     },
     {
       "name": "Read my blogs!",
