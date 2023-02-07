@@ -13,12 +13,12 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/nafiu-atanda-7685681a7/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Github",
       "url": "https://github.com/atanda0x",
       "icon": "FaGithub"
-    },
+    }
   ]
 }
