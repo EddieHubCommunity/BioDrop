@@ -1,9 +1,9 @@
-## 1.77.3 (2023-02-05)
+# 1.80.0 (2023-02-07)
 
 
-### Bug Fixes
+### Features
 
-* issue template label ([#4503](https://github.com/EddieHubCommunity/LinkFree/issues/4503)) ([f89ea68](https://github.com/EddieHubCommunity/LinkFree/commit/f89ea6890d91e1826f377439081612a4c0b4d17f))
+* randomize users on tag search ([#4521](https://github.com/EddieHubCommunity/LinkFree/issues/4521)) ([8eb7c1c](https://github.com/EddieHubCommunity/LinkFree/commit/8eb7c1cb5be4b0b9aa516fc4d58758d17e927e28)), closes [#3380](https://github.com/EddieHubCommunity/LinkFree/issues/3380) [#3380](https://github.com/EddieHubCommunity/LinkFree/issues/3380)
 
 
 

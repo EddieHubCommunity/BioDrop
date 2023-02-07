@@ -45,7 +45,7 @@ export default function Navbar() {
       url: "/search",
     },
     {
-      name: "Community Events",
+      name: "Events",
       url: "/events",
     },
     {
@@ -195,7 +195,7 @@ export default function Navbar() {
                     rel="noreferrer"
                     className="text-white"
                   >
-                      <FaGithub aria-label="GitHub" />
+                    <FaGithub aria-label="GitHub" />
                   </Link>
                 </div>
                 {authControls()}
