@@ -1,9 +1,9 @@
-## 1.82.2 (2023-02-07)
+## 1.82.3 (2023-02-07)
 
 
 ### Bug Fixes
 
-* run storybook workflow on config changes ([#4590](https://github.com/EddieHubCommunity/LinkFree/issues/4590)) ([e4686c6](https://github.com/EddieHubCommunity/LinkFree/commit/e4686c689a7cc1615541c6d184b519fa823e347f))
+* storybook warning & deploy on dispatch ([#4592](https://github.com/EddieHubCommunity/LinkFree/issues/4592)) ([33fd772](https://github.com/EddieHubCommunity/LinkFree/commit/33fd772512f738c64ae7849e1dbae7dccaada27b))
 
 
 
