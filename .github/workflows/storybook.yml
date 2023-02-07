@@ -1,5 +1,6 @@
 name: Storybook
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -7,11 +8,15 @@ on:
       - pages/**
       - components/**
       - stories/**
+      - .storybook/**
+      - package.json
   pull_request:
     paths:
       - pages/**
       - components/**
       - stories/**
+      - .storybook/**
+      - package.json
 
 permissions:
   contents: read
