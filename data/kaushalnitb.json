@@ -2,13 +2,13 @@
   "name": "Kaushal Kishor",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "I am a DevOps engineer"
+  "bio": "I am a DevOps engineer",
   "links": [
   {
-  "name": "Sara Jaoude",
+  "name": "Kaushal Kishor",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "bio": "Learning new things everyday is the key to success",
   "links": [
            {
       "name": "Follow me on Twitter",
@@ -19,6 +19,6 @@
       "name": "Follow me on github",
       "url": "https://github.com/kaushalnitb",
       "icon": "FaGitHub"
-   },
+   }
   ]
 }
