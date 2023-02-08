@@ -1,9 +1,9 @@
-# 1.82.0 (2023-02-07)
+## 1.82.4 (2023-02-08)
 
 
-### Features
+### Bug Fixes
 
-* mobile nav animation ([#4382](https://github.com/EddieHubCommunity/LinkFree/issues/4382)) ([4e7b3a6](https://github.com/EddieHubCommunity/LinkFree/commit/4e7b3a6f322b352f8162f42d4a0e7ce5845a8a24))
+* pin changed-files action ([#4615](https://github.com/EddieHubCommunity/LinkFree/issues/4615)) ([4d95b14](https://github.com/EddieHubCommunity/LinkFree/commit/4d95b14bbaec8a943d972619a2cde92b79f64eaf))
 
 
 
