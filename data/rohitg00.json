@@ -15,6 +15,9 @@
     "platform",
     "Cloud native"
   ],
+  "testimonials": [
+  "Rahul-Prasad-07"
+],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/ghumare64" },
     { "icon": "FaGithub", "url": "https://github.com/rohitg00" },
