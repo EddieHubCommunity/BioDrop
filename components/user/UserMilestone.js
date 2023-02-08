@@ -13,6 +13,7 @@ export default function UserMilestone({ milestone, isGoal }) {
         borderColor: milestone.color,
       }}
     >
+      <div className="mt-2">
       <div className="flex space-x-3">
         {milestone.icon && (
           <DisplayIcon className="h-8 w-8 rounded-full" />
@@ -33,6 +34,7 @@ export default function UserMilestone({ milestone, isGoal }) {
             {milestone.description}
           </ReactMarkdown>
         </div>
+      </div>
       </div>
     </li>
   );
