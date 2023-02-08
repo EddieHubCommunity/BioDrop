@@ -1,4 +1,4 @@
-import Link from "@/components/Link";
+import Link from "@components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
@@ -11,7 +11,7 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import PageHead from "@/components/PageHead";
+import PageHead from "@components/PageHead";
 import singleUser from "../config/user.json";
 import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
