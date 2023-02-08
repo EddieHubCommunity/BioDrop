@@ -18,6 +18,14 @@ export default async function hydrateWithStats(users) {
   // merge profiles with their profile views if set to public
   const profiles = users.map((user) => {
     const stats = getStats.find((stat) => stat.username === user.username);
+
+    if (stats && stats._doc.location.provided) {
+      user = {
+        ...user,
+        location: stats._doc.location,
+      };
+    }
+
     if (stats && user.displayStatsPublic) {
       return {
         ...user,
