@@ -1,9 +1,9 @@
-## 1.75.1 (2023-02-03)
+## 1.82.4 (2023-02-08)
 
 
 ### Bug Fixes
 
-* triage label to features ([#4430](https://github.com/EddieHubCommunity/LinkFree/issues/4430)) ([e523de5](https://github.com/EddieHubCommunity/LinkFree/commit/e523de5917bbabe930bb0d18280ccac25421fcc0))
+* pin changed-files action ([#4615](https://github.com/EddieHubCommunity/LinkFree/issues/4615)) ([4d95b14](https://github.com/EddieHubCommunity/LinkFree/commit/4d95b14bbaec8a943d972619a2cde92b79f64eaf))
 
 
 
