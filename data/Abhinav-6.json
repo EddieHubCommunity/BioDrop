@@ -3,7 +3,6 @@
   "type": "personal",
   "displayStatsPublic": true,
   "bio": "Frontend developer | diving deep into **Node.js** | **TypeScript** Enthusiast",
-  "avatar": "https://github.com/Abhinav-6.png",
   
   "tags": [
     "Open Source",
@@ -28,6 +27,6 @@
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/Abhinav-6",
       "icon": "FaGithub"
-    },
+    }
   ]
 }
