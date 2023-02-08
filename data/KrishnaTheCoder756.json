@@ -3,14 +3,13 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": "Python, Web Developer.",
-  
+
   "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodesKae",
       "icon": "FaTwitter"
-
-    }, 
+    },
     {
       "name": "Subscribe my YT Channel",
       "url": "https://youtube.com/@techboykrish",
@@ -32,13 +31,11 @@
       "color": "green",
       "description": "Completed an online course and completed a test with it. Scored more than 80% so received a certificate.",
       "url": "https://app.programming-hero.com/certificates/PH9481"
-
     },
     {
       "name": "Subscribe my YT Channel",
       "url": "https://youtube.com/@techboykrish",
       "icon": "FaYouTube"
-
     }
   ]
 }
