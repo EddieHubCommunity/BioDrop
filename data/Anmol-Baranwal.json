@@ -15,7 +15,10 @@
   ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Anmol-Baranwal" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/heyanmolbaranwal/" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/heyanmolbaranwal/"
+    },
     { "icon": "FaDribbble", "url": "https://dribbble.com/Anmol-Baranwal/" },
     { "icon": "SiLeetcode", "url": "https://leetcode.com/anmol4coder/" },
     { "icon": "SiGumroad", "url": "https://anmolbaranwal.gumroad.com/" }
