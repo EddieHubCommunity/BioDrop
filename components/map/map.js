@@ -4,6 +4,7 @@ import "leaflet/dist/leaflet.css";
 
 import PageHead from "../PageHead";
 import Page from "../Page";
+import Link from "../Link";
 import MarkerCluster from "./MarkerCluster";
 
 export default function Map({ users }) {
@@ -44,7 +45,13 @@ export default function Map({ users }) {
                 >
                   <Popup>
                     <div className="flex flex-col gap-[5px]">
-                      <h1 className="font-[600]">{user.name}</h1>
+                      <h1 className="font-[600]">
+                        <Link
+                          href={`https://linkfree.eddiehub.io/${user.username}`}
+                        >
+                          {user.name}
+                        </Link>
+                      </h1>
                       <span>{user.location.provided}</span>
                       <span>{user.bio}</span>
                     </div>
