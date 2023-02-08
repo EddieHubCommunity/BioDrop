@@ -111,6 +111,14 @@
       "color": "green",
       "description": "Started the Programming Expert course to be a guide on my journey to becoming a Software Engineer",
       "url": "https://programmingexpert.io"
+    },
+     {
+      "title": "Attended the Microsoft ADC Learnathon",
+      "date": "2023",
+      "icon": "SiMicrosoft",
+      "color": "blue",
+      "description": "I attended the Microsoft Learnathon organized by the ADC ecosystem and hosted at the Microsoft Nigeria's branch",
+      "url": "https://twitter.com/toby_solutions/status/1623026397055680512"
     }
   ],
   "testimonials": ["MadhuSaini22", "krshkun", "shubhsharma19"]
