@@ -1,6 +1,9 @@
+import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
+
 import Page from "../Page";
 import Link from "../../components/Link";
+import { ComponentStyle } from "../mdx/ComponentStyle";
 
 export default function DocsLayout({ children, title }) {
   return (
@@ -14,7 +17,7 @@ export default function DocsLayout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
+        <h1 className="mb-4 font-bold text-2xl md:text-4xl">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with
           creating your Profile to more advanced topics. We welcome
@@ -36,7 +39,11 @@ export default function DocsLayout({ children, title }) {
         </p>
         <div className="float-none my-0 max-w-[1440px] prose">
           <div className="flex flex-grow flex-row">
-            <main className="max-w-7xl px-4 sm:px-6 lg:px-8">{children}</main>
+            <MDXProvider components={ComponentStyle}>
+              <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+                {children}
+              </div>
+            </MDXProvider>
           </div>
         </div>
       </Page>

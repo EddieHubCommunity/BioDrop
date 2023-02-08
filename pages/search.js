@@ -77,7 +77,7 @@ export default function Search({ data }) {
       setNotFound();
     }
 
-    setFilteredUsers(results);
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
   };
 
   const search = (keyword) => {
@@ -100,12 +100,15 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
-    if (!inputValue) return
-    const timer = setTimeout(() => {
-      filterData(inputValue)
-    }, 500)
+    if (!inputValue) {
+      return;
+    }
 
-    return () => clearTimeout(timer)
+    const timer = setTimeout(() => {
+      filterData(inputValue);
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, [inputValue]);
 
   return (
