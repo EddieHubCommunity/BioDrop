@@ -1,29 +1,37 @@
 {
   "name": "Benjamin Rukundo",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Open Source | DevOps Enthusiast",
+  "displayStatsPublic": true,
+  "bio": "Open Source Enthusiast | ML & AI",
 
+  "tags": [
+    "Open Source",
+    "Java",
+    "Python",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/benja_rukundo" },
+    { "icon": "FaGithub", "url": "https://github.com/rukundob451" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/" }
+  ],
   "links": [
     {
-      "name": "Follow me on Linkedin",
-      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/",
-      "icon": "FaLinkedin"
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/benja_rukundo",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
-      "name": "Follow me on Github",
+      "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/rukundob451",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Hashnode",
-      "url": "https://hashnode.com/@rukundob451",
-      "icon": "SiHashnode"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/benja_rukundo",
-      "icon": "FaTwitter"
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/",
+      "icon": "FaLinkedin"
     }
   ]
 }
