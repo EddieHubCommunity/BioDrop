@@ -114,21 +114,13 @@ export default async function handler(req, res) {
 
   const now = new Date();
   const cacheDays = 7;
-  const expireOn = new Date(getProfile.location.updatedAt).setDate(cacheDays);
-  console.log(
-    "DATES================",
-    new Date(getProfile.location.updatedAt).getTime(),
-    expireOn,
-    expireOn < now.getDate()
+  const updatedAt = new Date(getProfile.location.updatedAt);
+  const expireOn = new Date(getProfile.location.updatedAt).setDate(
+    updatedAt.getDate() + cacheDays
   );
-  if (
-    !getProfile.location.provided ||
-    !getProfile.location.updatedAt ||
-    expireOn < now.getDate()
-  ) {
+  if (!getProfile.location.updatedAt || expireOn < now.getTime()) {
     const location = await getLocationByUsername(username);
     try {
-      console.log("=================== GET GITHUB LOCATION");
       await Profile.updateOne(
         {
           username,
