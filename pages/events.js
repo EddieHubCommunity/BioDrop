@@ -73,8 +73,8 @@ export default function Events({ events }) {
       />
 
       <Page>
-        <div className="flex flex-row items-center">
-          <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
+        <div className="flex flex-row items-center mb-4">
+          <h1 className="text-4xl font-bold">Community events</h1>
           <HintIcon
             path={"/docs/how-to-guides/events"}
             placeholderText={"Go To Event Docs"}
