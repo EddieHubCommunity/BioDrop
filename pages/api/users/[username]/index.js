@@ -145,29 +145,5 @@ export default async function handler(req, res) {
     }
   }
 
-  if (!data.displayStatsPublic) {
-    return res.status(200).json({ username, ...data });
-  }
-
-  const latestProfile = await Profile.findOne({ username });
-  const links = await Link.find({ profile: latestProfile._id });
-
-  const profileWithStats = {
-    username,
-    ...data,
-    views: latestProfile.views,
-    links: data.links.map((link) => {
-      const statFound = links.find((linkStats) => linkStats.url === link.url);
-      if (statFound) {
-        return {
-          ...link,
-          clicks: statFound.clicks,
-        };
-      }
-
-      return link;
-    }),
-  };
-
-  res.status(200).json(profileWithStats);
+  return res.status(200).json({ username, ...data });
 }

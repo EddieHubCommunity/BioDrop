@@ -2,28 +2,26 @@ import { chromium } from "@playwright/test";
 import fs from "fs";
 
 const { USERS } = require("./test-users.js");
-import icons from '../../config/icons.json';
+import icons from "../../config/icons.json";
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
     url: "https://github.com/EddieHubCommunity/LinkFree",
-    icon: icon
-  }
-})
+    icon: icon,
+  };
+});
 
 const wcagUser = {
   name: "_TEST-WCAG-USER",
-  displayStatsPublic: true,
   type: "personal",
   bio: `Bio for _test-wcag-user`,
   avatar: "https://github.com/eddiejaoude.png",
-  links: links
-}
+  links: links,
+};
 
 const user = (username) => {
   return {
     name: username.toUpperCase(),
-    displayStatsPublic: true,
     type: "personal",
     bio: `Bio for ${username}`,
     avatar: "https://github.com/eddiejaoude.png",
