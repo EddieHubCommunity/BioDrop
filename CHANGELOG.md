@@ -1,9 +1,9 @@
-## 1.82.4 (2023-02-08)
+## 1.82.5 (2023-02-09)
 
 
 ### Bug Fixes
 
-* pin changed-files action ([#4615](https://github.com/EddieHubCommunity/LinkFree/issues/4615)) ([4d95b14](https://github.com/EddieHubCommunity/LinkFree/commit/4d95b14bbaec8a943d972619a2cde92b79f64eaf))
+* package lock ([#4622](https://github.com/EddieHubCommunity/LinkFree/issues/4622)) ([b6b7932](https://github.com/EddieHubCommunity/LinkFree/commit/b6b793252403967700f5d1e65edacf67ca637db4))
 
 
 
