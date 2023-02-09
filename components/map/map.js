@@ -11,7 +11,7 @@ export default function Map({ users }) {
   return (
     <>
       <PageHead
-        title="LinkFree Users Around The Wrold"
+        title="LinkFree Users Around The World"
         description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
       />
       <Page>
