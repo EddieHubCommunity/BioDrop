@@ -1,18 +1,55 @@
 {
   "name": "Kaiwalya Koparkar",
+  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "I am Kaiwalya Koparkar, currently pursuing my Diploma majoring in computer science from M. S. Gosavi Polytechnic Institute. I am a tech enthusiast & an open-source advocate. I am always open to collaborating on projects and innovative/disruptive ideas",
-
+  "bio": "Open Source Advocate, DevRel 🥑",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Rust",
+    "DevOps",
+    "DevRel",
+    "WASM"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/kaiwalya_" },
+    { "icon": "FaGithub", "url": "https://github.com/kaiwalyakoparkar" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/@kaiwalya_koparkar" }
+  ],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/kaiwalya_",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://linkedin.com/in/kaiwalyakoparkar",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "YouTube: Learn more about Open Source, DevRel and DevOps",
+      "url": "https://youtube.com/@kaiwalya_koparkar",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/kaiwalyakoparkar",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/kaiwalya_",
-      "icon": "FaTwitter"
+      "group": "Support",
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/kaiwalyakoparkar",
+      "icon": "FaRegMoneyBillAlt"
     }
   ]
 }
