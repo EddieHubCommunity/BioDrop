@@ -3,7 +3,14 @@
   "displayStatsPublic": true,
   "type": "personal",
   "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Speaker | Loading.. ",
-  "tags": ["Python","SQL","Big Data","Databricks","Microsoft Azure","Data Science"],
+  "tags": [
+    "Python",
+    "SQL",
+    "Big Data",
+    "Databricks",
+    "Microsoft Azure",
+    "Data Science"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -37,7 +44,7 @@
       "url": "https://pypi.org/project/relocate/",
       "icon": "FaPython"
     },
-     {
+    {
       "group": "Portfolio",
       "name": "Blogs on Data Science",
       "url": "https://medium.com/@sandippalit009",
