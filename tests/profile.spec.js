@@ -15,7 +15,7 @@ test("Name appears on the page", async ({ page }) => {
   await expect(page.locator("h1")).toHaveText(username.toUpperCase());
 });
 
-test("Profile views increase", async ({ page }) => {
+test.fixme("Profile views increase", async ({ page }) => {
   // will need DB integration
 });
 
