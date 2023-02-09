@@ -1,9 +1,9 @@
-## 1.82.3 (2023-02-07)
+## 1.82.5 (2023-02-09)
 
 
 ### Bug Fixes
 
-* storybook warning & deploy on dispatch ([#4592](https://github.com/EddieHubCommunity/LinkFree/issues/4592)) ([33fd772](https://github.com/EddieHubCommunity/LinkFree/commit/33fd772512f738c64ae7849e1dbae7dccaada27b))
+* package lock ([#4622](https://github.com/EddieHubCommunity/LinkFree/issues/4622)) ([b6b7932](https://github.com/EddieHubCommunity/LinkFree/commit/b6b793252403967700f5d1e65edacf67ca637db4))
 
 
 
