@@ -1,0 +1,19 @@
+{
+  "name": "Sheriff Oladimeji",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "Frontend web developer, CS student"
+   "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/sheriffOladimeji",
+      "icon": "FaGithub"
+    },
+{
+    "name": "Follow me on Twitter",
+     "url": "https://twitter.com/sheriffWebDev",
+     "icon": "FaTwitter"
+    }
+  ]
+
+}
