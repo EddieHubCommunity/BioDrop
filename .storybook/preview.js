@@ -7,4 +7,17 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  nextjs: {
+    router: {
+      basePath: '.'
+    },
+  },
+  a11y: {
+    options: {
+      runOnly: {
+        type: 'tag',
+        values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa']
+      }
+    }
+  }
 };

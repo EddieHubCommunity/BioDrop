@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Link from "../Link";
 
-export default function NavLink({ path, item, mode }) {
+export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =
-    "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+    "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
   if (mode === "mobile") {
     className =
-      "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium";
+      "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium";
   }
 
   if (path === item.url) {
@@ -20,7 +20,17 @@ export default function NavLink({ path, item, mode }) {
   }
 
   return (
-    <Link href={item.url} className={className} aria-current="page">
+    <Link
+      href={item.url}
+      className={className}
+      aria-current="page"
+      onClick={(e) => {
+        setIsOpen && setIsOpen(false);
+        if (onClick) {
+          onClick(e);
+        }
+      }}
+    >
       {item.name}
     </Link>
   );

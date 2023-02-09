@@ -11,7 +11,8 @@
     "Documentation",
     "DevREL"
   ],
-  "avatar": "https://github.com/krshkun.png",
+  "testimonials": ["eddiejaoude", "loftwah", "tobySolutions", "LinuxGamer"],
+
   "socials": [
     {
       "url": "https://twitter.com/krshkun",
@@ -19,7 +20,7 @@
     },
     {
       "url": "https://github.com/krshkun",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "url": "https://linkedin.com/in/krshkun",
@@ -34,17 +35,19 @@
     {
       "name": "Some Useful Resources For You 🔥",
       "url": "https://store.krshkun.eu.org",
-      "icon": "FaBook"
+      "icon": "FaBook",
+      "color": "#ef4444"
     },
     {
       "name": "Amazing Content On Twitter 🐦",
       "url": "https://twitter.com/krshkun",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#3b82f6"
     },
     {
       "name": "My Open Source Resume 🚀",
       "url": "https://github.com/krshkun",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "name": "I Write My Own Blog ✍️",
