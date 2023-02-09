@@ -7,6 +7,7 @@ const ProfileSchema = new mongoose.Schema({
     name: String,
     lat: Number,
     lon: Number,
+    updatedAt: Date,
   },
   views: {
     type: Number,

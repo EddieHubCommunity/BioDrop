@@ -106,6 +106,45 @@ export default async function handler(req, res) {
     }
   }
 
+  const now = new Date();
+  const cacheDays = 7;
+  const expireOn = new Date(getProfile.location.updatedAt).setDate(cacheDays);
+  console.log(
+    "DATES================",
+    new Date(getProfile.location.updatedAt).getTime(),
+    expireOn,
+    expireOn < now.getDate()
+  );
+  if (
+    !getProfile.location.provided ||
+    !getProfile.location.updatedAt ||
+    expireOn < now.getDate()
+  ) {
+    const location = await getLocationByUsername(username);
+    try {
+      console.log("=================== GET GITHUB LOCATION");
+      await Profile.updateOne(
+        {
+          username,
+        },
+        {
+          location: {
+            provided: location.provided,
+            name: location.name,
+            lat: location.lat,
+            lon: location.lon,
+            updatedAt: new Date(),
+          },
+        }
+      );
+    } catch (e) {
+      log.error(
+        e,
+        `failed to update profile location for username: ${username}`
+      );
+    }
+  }
+
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
     try {
@@ -146,30 +185,6 @@ export default async function handler(req, res) {
 
   const latestProfile = await Profile.findOne({ username });
   const links = await Link.find({ profile: latestProfile._id });
-
-  if (!latestProfile.location.provided) {
-    const location = await getLocationByUsername(username);
-    try {
-      await Profile.updateOne(
-        {
-          username,
-        },
-        {
-          location: {
-            provided: location.provided,
-            name: location.name,
-            lat: location.lat,
-            lon: location.lon,
-          },
-        }
-      );
-    } catch (e) {
-      log.error(
-        e,
-        `failed to update profile location for username: ${username}`
-      );
-    }
-  }
 
   const profileWithStats = {
     username,
