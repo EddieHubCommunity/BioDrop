@@ -5,8 +5,9 @@ import Profile from "../../../../models/Profile";
 import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
-import getLocationByUsername from "../../../../services/github/getLocationByUsername";
+
 import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
+import addLocation from "../../../../services/profiles/addLocation";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -112,37 +113,6 @@ export default async function handler(req, res) {
     }
   }
 
-  const now = new Date();
-  const cacheDays = 7;
-  const updatedAt = new Date(getProfile.location.updatedAt);
-  const expireOn = new Date(getProfile.location.updatedAt).setDate(
-    updatedAt.getDate() + cacheDays
-  );
-  if (!getProfile.location.updatedAt || expireOn < now.getTime()) {
-    const location = await getLocationByUsername(username);
-    try {
-      await Profile.updateOne(
-        {
-          username,
-        },
-        {
-          location: {
-            provided: location.provided,
-            name: location.name,
-            lat: location.lat,
-            lon: location.lon,
-            updatedAt: new Date(),
-          },
-        }
-      );
-    } catch (e) {
-      log.error(
-        e,
-        `failed to update profile location for username: ${username}`
-      );
-    }
-  }
-
   const getPlatformStats = await Stats.findOne({ date });
   if (getPlatformStats) {
     try {
@@ -177,17 +147,22 @@ export default async function handler(req, res) {
     }
   }
 
+  const latestProfile = await Profile.findOne({ username });
+  await addLocation(username, latestProfile);
+  const profileWithLocation = await Profile.findOne({ username });
+
   if (!data.displayStatsPublic) {
-    return res.status(200).json({ username, ...data });
+    return res
+      .status(200)
+      .json({ username, ...data, location: profileWithLocation.location });
   }
 
-  const latestProfile = await Profile.findOne({ username });
-  const links = await Link.find({ profile: latestProfile._id });
+  const links = await Link.find({ profile: profileWithLocation._id });
 
   const profileWithStats = {
     username,
     ...data,
-    location: latestProfile.location ? latestProfile.location : "",
+    location: profileWithLocation.location,
     views: latestProfile.views,
     links: data.links.map((link) => {
       const statFound = links.find((linkStats) => linkStats.url === link.url);

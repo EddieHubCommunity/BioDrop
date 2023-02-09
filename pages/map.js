@@ -14,7 +14,11 @@ export async function getServerSideProps() {
     console.log("ERROR search users", e);
   }
 
-  users = users.filter((user) => user.location);
+  users = users.filter(
+    (user) =>
+      user.location &&
+      (user.location.provided !== "unknown" || user.location.name !== "unknown")
+  );
 
   return {
     props: { users },
