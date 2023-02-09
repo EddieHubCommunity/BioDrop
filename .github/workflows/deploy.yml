@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -23,6 +24,7 @@ jobs:
           path: build/
 
   push_to_registry:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     name: Push Docker image to GitHub Packages
     needs: build
     permissions:
@@ -56,6 +58,7 @@ jobs:
             ghcr.io/eddiehubcommunity/linkfree:latest
 
 #   deploy:
+#     if: github.repository == 'EddieHubCommunity/LinkFree'
 #     name: deploy to kube cluster
 #     needs: push_to_registry
 #     runs-on: ubuntu-latest

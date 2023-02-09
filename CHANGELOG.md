@@ -1,9 +1,9 @@
-## 1.70.2 (2023-01-31)
+## 1.82.5 (2023-02-09)
 
 
 ### Bug Fixes
 
-* milestone image is not supported ([#4312](https://github.com/EddieHubCommunity/LinkFree/issues/4312)) ([a994ecf](https://github.com/EddieHubCommunity/LinkFree/commit/a994ecffb9abb67776a82a378f6c4f0d0b9d0c9d))
+* package lock ([#4622](https://github.com/EddieHubCommunity/LinkFree/issues/4622)) ([b6b7932](https://github.com/EddieHubCommunity/LinkFree/commit/b6b793252403967700f5d1e65edacf67ca637db4))
 
 
 

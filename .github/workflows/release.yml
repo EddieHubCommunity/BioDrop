@@ -11,6 +11,7 @@ concurrency:
 
 jobs:
   changelog:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
 
     steps:

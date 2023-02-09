@@ -9,6 +9,12 @@ import getLocationByUsername from "../../../../services/github/getLocationByUser
 import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
   const { username } = req.query;
   let log;

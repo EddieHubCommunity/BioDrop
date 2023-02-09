@@ -16,7 +16,7 @@ export default function DocsIndex() {
           name: "Quickstart",
           path: "/docs/quickstart",
           description:
-            "There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.",
+            "There are 4 ways you can add your profile, but for this Quickstart we will use the GitHub UI.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
