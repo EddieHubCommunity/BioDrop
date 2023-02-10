@@ -1,7 +1,6 @@
 {
   "name": "Alessandro Vozza",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Platform Advocate @ Solo.io | Organizer at Kubernetes Community Days Amsterdam | Kubernetes | Service Mesh | Cloud-Native Open Source",
   "tags": [
     "DevRel",
