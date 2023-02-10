@@ -22,7 +22,6 @@ export default function findAllBasic() {
       return {
         name: json.name,
         bio: json.bio,
-        displayStatsPublic: json.displayStatsPublic,
         avatar: `https://github.com/${file.split(".")[0]}.png`,
         tags: json.tags,
         username: file.split(".")[0],
