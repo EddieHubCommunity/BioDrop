@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
@@ -153,9 +152,7 @@ export default function Search({ data }) {
             </div>
           )}
         </div>
-
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
-
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>
