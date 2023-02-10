@@ -45,6 +45,10 @@ export default function Navbar() {
       url: "/events",
     },
     {
+      name: "Map",
+      url: "/map",
+    },
+    {
       name: "Docs",
       url: "/docs",
     },
