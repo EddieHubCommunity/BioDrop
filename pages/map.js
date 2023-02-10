@@ -19,7 +19,7 @@ export async function getServerSideProps() {
       user.location &&
       (user.location.provided !== "unknown" &&
         user.location.name !== "unknown" &&
-        user.location.name.toLowerCase() !== "remote")
+        user.location.provided.toLowerCase() !== "remote")
   );
 
   return {
