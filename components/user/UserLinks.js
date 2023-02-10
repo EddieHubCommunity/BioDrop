@@ -40,7 +40,6 @@ export default function UserLinks({ BASE_URL, data }) {
                     key={link.id}
                     link={link}
                     username={data.username}
-                    displayStatsPublic={data.displayStatsPublic}
                   />
                 ))}
               </div>

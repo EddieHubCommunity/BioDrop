@@ -14,7 +14,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/benja_rukundo" },
     { "icon": "FaGithub", "url": "https://github.com/rukundob451" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/"
+    }
   ],
   "links": [
     {
