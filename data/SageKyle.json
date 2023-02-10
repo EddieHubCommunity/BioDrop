@@ -1,6 +1,5 @@
 {
   "name": "ominyi Paul, Saje",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "I'm a front-end web developer with a passion for creating interfaces and products that solves problems. And I love to share knowledge",
   "tags": [ "Open Source", "Javascript", "React", "Front-end", "blogging", "content creation" ],
@@ -12,9 +11,9 @@
   ],
    "links": [
     {
-      "name": "Read my articles about web development",
+      "name": "Read my Latest articles about web development",
       "url": "https://saje.hashnode.dev",
-      "icon": "FaHashnode",
+      "icon": "SiHashnode",
       "color": "#00ACEE"
     },
      {
