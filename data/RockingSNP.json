@@ -2,7 +2,7 @@
   "name": "Souvik Pramanick",
   "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Full Stack Web Developer **Digital Nomad**. Explporer & Karma -te Prastut"
+  "bio": "Full Stack Web Developer **Digital Nomad**. Explporer & Karma -te Prastut",
 
 "links": [
     {
@@ -13,12 +13,12 @@
     {
       "name": "Follow me on Github",
       "url": "https://www.github.com/RockingSNP/",
-      "icon": "Fagithub"
+      "icon": "FaGithub"
     },
   {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/souvik-p-117647218/",
-      "icon": "FaLinkedIn"
+      "icon": "FalinkedIn"
     },
    {
       "name": "Checkout my works on replit",
