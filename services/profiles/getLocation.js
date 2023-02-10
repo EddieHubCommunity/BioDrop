@@ -27,7 +27,7 @@ async function saveLocation(username) {
   }
 }
 
-export default async function addLocation(username, getProfile) {
+export default async function getLocation(username, getProfile) {
   const now = new Date();
   const cacheDays = 7;
   let updatedAt = now.setDate(now.getDate() - cacheDays);

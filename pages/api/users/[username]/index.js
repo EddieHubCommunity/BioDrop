@@ -2,12 +2,11 @@ import connectMongo from "../../../../config/mongo";
 import logger from "../../../../config/logger";
 
 import Profile from "../../../../models/Profile";
-import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
 
 import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
-import addLocation from "../../../../services/profiles/addLocation";
+import getLocation from "../../../../services/profiles/getLocation";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -148,7 +147,7 @@ export default async function handler(req, res) {
   }
 
   const latestProfile = await Profile.findOne({ username });
-  await addLocation(username, latestProfile);
+  await getLocation(username, latestProfile);
   const profileWithLocation = await Profile.findOne({ username });
 
   return res
