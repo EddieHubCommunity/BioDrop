@@ -20,7 +20,7 @@ export default async function getLocationByUsername(username) {
     return location;
   }
 
-  if (!github.data.location) {
+  if (!github.data.location || github.data.location.toLowerCase() === 'remote') {
     return location;
   }
 
