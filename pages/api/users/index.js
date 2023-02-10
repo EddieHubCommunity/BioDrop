@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     const profile = dbProfiles.find(
       (dbProfile) => dbProfile.username === fileProfile.username
     );
-    if (profile) {
+    if (profile && profile._doc.location.name !== "unknown") {
       return {
         ...fileProfile,
         location: profile._doc.location,
