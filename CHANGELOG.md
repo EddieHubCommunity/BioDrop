@@ -1,9 +1,9 @@
-## 1.82.5 (2023-02-09)
+# 1.83.0 (2023-02-10)
 
 
-### Bug Fixes
+### Features
 
-* package lock ([#4622](https://github.com/EddieHubCommunity/LinkFree/issues/4622)) ([b6b7932](https://github.com/EddieHubCommunity/LinkFree/commit/b6b793252403967700f5d1e65edacf67ca637db4))
+* remove public stats [#4641](https://github.com/EddieHubCommunity/LinkFree/issues/4641) ([#4642](https://github.com/EddieHubCommunity/LinkFree/issues/4642)) ([9f33866](https://github.com/EddieHubCommunity/LinkFree/commit/9f33866abc6035b903db7878960668ff9a25ede2))
 
 
 
