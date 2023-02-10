@@ -1,0 +1,19 @@
+{
+"name": "SrimanNarayana",
+"displayStatsPublic": true,
+"type": "personal",
+"bio": "Software Developer and Tech-Enthusiast, learning Blockchain Technology and Java Full stack",
+"avatar": "https://github.com/SrimanNarayana7.png"
+"links": [
+{
+"name": "Follow me on HashNode for the latest blogs",
+"url": "https://sriman.hashnode.dev/",
+"icon": "SiHashnode"
+},
+{
+"name": "Follow me on GitHub",
+"url": "https://github.com/SrimanNarayana7",
+"icon": "SiGithub"
+},
+]
+}
