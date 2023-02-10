@@ -12,7 +12,6 @@
     "Reactjs/Nextjs",
     "TailwindCSS"
   ],
-  "displayStatsPublic": true,
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/dunsinwebdev" },
     { "icon": "FaGithub", "url": "https://github.com/Dun-sin" },
