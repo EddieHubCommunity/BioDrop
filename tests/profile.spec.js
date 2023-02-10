@@ -15,36 +15,12 @@ test("Name appears on the page", async ({ page }) => {
   await expect(page.locator("h1")).toHaveText(username.toUpperCase());
 });
 
-// Test to see if going to a profile 3X increases views by 3
-test("Profile views increase", async ({ page }) => {
-  await page.goto("/_test-profile-user-3");
-  const startingViews = await page.innerText("#profile-views");
-  await page.goto("/_test-profile-user-3");
-  await page.goto("/_test-profile-user-3");
-  await page.goto("/_test-profile-user-3");
-
-  const endingViews = await page.innerText("#profile-views");
-  expect(parseInt(startingViews)).toEqual(parseInt(endingViews) - 3);
+test.fixme("Profile views increase", async ({ page }) => {
+  // will need DB integration
 });
 
-test("Link clicks increase", async ({ page }) => {
-  await page.goto("/_test-profile-user-4");
-
-  const link = page.locator("text=/Link 1\\s*/i");
-
-  const startingClicks = (await link.innerText()).match(/(\d+)/g);
-
-  for (const i in new Array(3)) {
-    await link.click();
-
-    await page.waitForURL("https://eddiejaoude.io");
-
-    await page.goto("/_test-profile-user-4");
-
-    const endingClicks = (await link.innerText()).match(/(\d+)/g);
-
-    expect(parseInt(startingClicks)).toEqual(parseInt(endingClicks) + i + 1);
-  }
+test.fixme("Link clicks increase", async ({ page }) => {
+  // will need DB integration
 });
 
 test("Profile not found redirects to search page with error message", async ({

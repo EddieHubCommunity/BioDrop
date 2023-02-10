@@ -13,7 +13,6 @@ const links = Object.keys(icons).map((icon, index) => {
 
 const wcagUser = {
   name: "_TEST-WCAG-USER",
-  displayStatsPublic: true,
   type: "personal",
   bio: `Bio for _test-wcag-user`,
   links: links,
@@ -22,7 +21,6 @@ const wcagUser = {
 const user = (username) => {
   return {
     name: username.toUpperCase(),
-    displayStatsPublic: true,
     type: "personal",
     bio: `Bio for ${username}`,
     links: [
