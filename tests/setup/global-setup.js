@@ -15,7 +15,6 @@ const wcagUser = {
   name: "_TEST-WCAG-USER",
   type: "personal",
   bio: `Bio for _test-wcag-user`,
-  avatar: "https://github.com/eddiejaoude.png",
   links: links,
 };
 
@@ -24,7 +23,6 @@ const user = (username) => {
     name: username.toUpperCase(),
     type: "personal",
     bio: `Bio for ${username}`,
-    avatar: "https://github.com/eddiejaoude.png",
     links: [
       {
         name: "Link 1",
