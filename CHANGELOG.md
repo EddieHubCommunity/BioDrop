@@ -1,9 +1,9 @@
-## 1.82.5 (2023-02-09)
+# 1.84.0 (2023-02-10)
 
 
-### Bug Fixes
+### Features
 
-* package lock ([#4622](https://github.com/EddieHubCommunity/LinkFree/issues/4622)) ([b6b7932](https://github.com/EddieHubCommunity/LinkFree/commit/b6b793252403967700f5d1e65edacf67ca637db4))
+* user map ([#3169](https://github.com/EddieHubCommunity/LinkFree/issues/3169)) ([1d79cc8](https://github.com/EddieHubCommunity/LinkFree/commit/1d79cc8fc5a7b9c52adbca6dfce9cc83109d8043))
 
 
 
