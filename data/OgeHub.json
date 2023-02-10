@@ -1,6 +1,5 @@
 {
   "name": "Success Ezeh",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Backend developer",
   "links": [
@@ -9,7 +8,7 @@
       "url": "https://github.com/OgeHub",
       "icon": "FaGithub"
     },
-     {
+    {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/success-ezeh",
       "icon": "FaLinkedin"

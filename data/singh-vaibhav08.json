@@ -1,6 +1,5 @@
 {
   "name": "Vaibhav Singh",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Self taught Web Developer | Python | JavaScript",
 
@@ -28,7 +27,7 @@
       "icon": "SiHashnode"
     },
     {
-      "name":"Dev.to",
+      "name": "Dev.to",
       "url": "https://dev.to/singh_vaibhav08",
       "icon": "FaDev"
     }

@@ -1,7 +1,6 @@
 {
   "name": "Dean Lofts",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
 
   "tags": [
@@ -60,6 +59,21 @@
       "name": "Read my blog on Medium",
       "url": "https://blog.beatsmiff.com",
       "icon": "FaMedium"
+    },
+    {
+      "name": "Schedule a meeting with Calendly",
+      "url": "https://calendly.com/loftwah",
+      "icon": "FaCalendar"
+    },
+    {
+      "name": "Beatsmiff Dare",
+      "url": "https://dare.btsmf.link",
+      "icon": "FaMoney"
+    },
+    {
+      "name": "Angry Tux",
+      "url": "https://angrytux.lofts.sh",
+      "icon": "FaLinux"
     }
   ],
   "testimonials": [
