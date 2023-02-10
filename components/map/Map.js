@@ -23,7 +23,7 @@ export default function Map({ users }) {
           center={[16.843908, -18.09]}
           zoom={2}
           zoomControl={true}
-          scrollWheelZoom={true}
+          scrollWheelZoom={false}
           maxBounds={null}
         >
           <TileLayer
