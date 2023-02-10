@@ -18,7 +18,7 @@ export default function Map({ users }) {
         <h1 className="text-4xl mb-4 font-bold">
           LinkFree Users Around The World
         </h1>
-        <p className="py-5">This map shows locations of Linkfree users based on the location of their GitHub profile location. New data points are added each time a profile is visited.</p>
+        <p className="py-5">This map shows locations of Linkfree users based on the location listed in their GitHub profile. New data points are added each time a profile is visited.</p>
         <MapContainer
           style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
           center={[16.843908, -18.09]}
