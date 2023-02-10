@@ -1,0 +1,129 @@
+{
+   "basics": {
+    "name": "S.Jayanth Kumar",
+    "label": "BTech UnderGraduate at VIT Chennai",
+    "image": "https://github.com/SJ-Kumar/SJ-Kumar/blob/main/Jayanth.jpg",
+    "summary": "I am a second year CSE undergraduate at VIT Chennai who is passionate about learning technologies and solving real world problems. Having worked with Python, C++, and Java. Getting to know more about machine learning and data science. Strong Advocate for 📜 open source, ☁️ Cloud computing, 🚀 DevOps, 🆕 Innovation and Automation 🤖.",
+    "website": "https://jayanth-kumars-profile.onrender.com/",
+    "email": "jayanthkumar@live.com",
+    "location": {
+      "city": "Bangalore",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "username": "Jayanth Kumar",
+        "url": "https://www.linkedin.com/in/sjayanthkumar/",
+        "icon": "FaLinkedIn"
+      },
+      {
+        "username": "Jayanth_2003",
+        "url": "https://twitter.com/Jayanth_2003",
+        "icon": "FaTwitter"
+      },
+      {
+        "url": "https://github.com/SJ-Kumar",
+        "username": "SJ-Kumar",
+        "network": "FaGitHub"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2025-06-31",
+      "startDate": "2021-05-01",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelors of Technology",
+      "institution": "Vellore Institute of Technology"
+    },
+    {
+      "endDate": "2021-05-10",
+      "startDate": "2019-05-10",
+      "area": "Computer Science",
+      "studyType": "Higher Education",
+      "institution": "CMR National Public School"
+    }
+  ],
+  "projects": [
+    {
+      "summary": "Developed a chat based portfolio page that displays education, skills, projects, and resume (pdf) version from repository based on the word user types in a dynamic chat window. Employed technologies like HTML, Javascript, and CSS.",
+      "name": "Profile Page (Whatsapp type chat)"
+    },
+    {
+      "reference": "Created a new user interface for Thom’s bakery. Analyzed the technical limitations and developed a thoroughly tested solution. Employed technologies like HTML, Javascript, and CSS.",
+      "name": "Company website for Thom’s Bakery"
+    },
+    {
+      "reference": "Developing a dynamic finder repository that you can use to query repo or select based on the type of language. Retrieve repositories based on stars, language, forks, and last updated details. Its being developed by using Python and GitHub APIs.",
+      "name": "GitHub Repo Finder"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["HTML", "CSS" , "Javascript" , "React" , "BootStrap"],
+      "level": "Intermediate",
+      "name": "Frontend"
+    },
+    {
+      "keywords": ["Python", "Java", "C", "C++"],
+      "level": "Intermediate",
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": ["Google Cloud", "Node.js" , "MongoDB"],
+      "level": "Beginner",
+      "name": "Devops/Backend"
+    },
+    {
+      "keywords": ["Visual Studio Code", "GitHub"],
+      "level": "Senior",
+      "name": "Other Technologies"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Completed course on Python 3.4.3, C and Advanced C++",
+      "awarder": "IIT Mumbai",
+      "Date": "2022-02-01"
+    },
+    {
+      "title": "Google Cloud Certifications",
+      "awarder": "Google Cloud Skills Boost",
+      "Date": "2022-12-15"
+    }
+  ],
+  "work": [
+    {
+      "summary": "Successfully completed my Web Dev Internship with The Sparks Foundation",
+      "name": "The Sparks Foundation",
+      "location": "Remote",
+      "position": "Web Developer Intern",
+      "startDate": "2022-09-01",
+      "endDate": "2022-09-30",
+      "highlights": ["HTML", "CSS", "JavaScript", "React","BootStrap"]
+    },
+    {
+      "summary": "Successfully completed my Java Developer Internship with LetsGrowMore",
+      "name": "LetsGrowMore",
+      "location": "Remote",
+      "position": "Java Developer Intern",
+      "startDate": "2022-12-01",
+      "endDate": "2022-12-31",
+      "highlights": ["Core Java","Java Swing","Java GUI"]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cricket"
+    },
+    {
+      "name": "Music / Movies"
+    },
+    {
+      "name": "Web Development"
+    },
+    {
+      "name": "Open Source"
+    }
+  ]
+}
