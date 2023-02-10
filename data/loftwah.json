@@ -60,6 +60,21 @@
       "name": "Read my blog on Medium",
       "url": "https://blog.beatsmiff.com",
       "icon": "FaMedium"
+    },
+    {
+      "name": "Schedule a meeting with Calendly",
+      "url": "https://calendly.com/loftwah",
+      "icon": "FaCalendar"
+    },
+    {
+      "name": "Beatsmiff Dare",
+      "url": "https://dare.btsmf.link",
+      "icon": "FaMoney"
+    },
+    {
+      "name": "Angry Tux",
+      "url": "https://angrytux.lofts.sh",
+      "icon": "FaLinux"
     }
   ],
   "testimonials": [
