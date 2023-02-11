@@ -1,7 +1,6 @@
 {
   "name": "Shubh Sharma",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Designer and Content Creator | Tech Blogger | Music Producer",
   "tags": [
     "Open Source",
@@ -68,7 +67,7 @@
     {
       "name": "Support my work",
       "url": "https://ko-fi.com/shubhsharma19",
-      "icon": "FaBuymeacoffee"
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [

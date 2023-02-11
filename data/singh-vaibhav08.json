@@ -1,6 +1,5 @@
 {
   "name": "Vaibhav Singh",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Self taught Web Developer | Python | JavaScript",
 
@@ -9,23 +8,28 @@
   "links": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/VaibhavSinghDev",
+      "url": "https://twitter.com/singh_vaibhav08",
       "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/vaibhavsinghdev",
-      "icon": "FaLinkedIn"
+      "url": "https://www.linkedin.com/in/singh-vaibhav08",
+      "icon": "FaLinkedin"
     },
     {
       "name": "Github",
-      "url": "https://github.com/VaibhavSinghDev",
+      "url": "https://github.com/singh-vaibhav08",
       "icon": "FaGithub"
     },
     {
       "name": "Hashnode",
       "url": "https://vaibhavsblog.hashnode.dev",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/singh_vaibhav08",
+      "icon": "FaDev"
     }
   ],
 

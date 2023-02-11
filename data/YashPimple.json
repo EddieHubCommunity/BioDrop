@@ -1,6 +1,5 @@
 {
   "name": "Yash Pimple",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Contributor | Web Developer | Blogger",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "React", "Node.js"],
@@ -12,24 +11,34 @@
 
   "links": [
     {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Yashpimple22",
       "icon": "FaTwitter"
     },
     {
+      "group": "Socials",
       "name": "Follow me on Github",
       "url": "https://github.com/YashPimple",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/yash-pimple-623683222/",
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials",
       "name": "Interested in reading my blogs? Go here!",
       "url": "https://yashpimple.hashnode.dev/",
       "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/yashpimple._.22/",
+      "icon": "FaInstagram"
     }
   ],
   "milestones": [
@@ -47,6 +56,14 @@
       "icon": "FaCode",
       "color": "blue",
       "description": "Started learning Web Development",
+      "url": "https://github.com/YashPimple"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "blue",
+      "description": "Participated in my first ever Hacktoberfest",
       "url": "https://github.com/YashPimple"
     }
   ]

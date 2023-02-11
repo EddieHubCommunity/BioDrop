@@ -1,14 +1,16 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
+import { useSession, signIn, signOut } from "next-auth/react";
 
 import NavLink from "./NavLink";
 import Link from "../Link";
 import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import { FaGithub } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import getIcon from "../Icon";
+const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
+  const { data: session } = useSession();
   const [isOpen, setIsOpen] = useState(false);
 
   const router = useRouter();
@@ -35,20 +37,16 @@ export default function Navbar() {
 
   const primary = [
     {
-      name: "Home",
-      url: "/",
-    },
-    {
-      name: "Discover",
-      url: "/discover",
-    },
-    {
       name: "Search",
       url: "/search",
     },
     {
-      name: "Community Events",
+      name: "Events",
       url: "/events",
+    },
+    {
+      name: "Map",
+      url: "/map",
     },
     {
       name: "Docs",
@@ -56,10 +54,41 @@ export default function Navbar() {
     },
   ];
 
+  const authControls = () => (
+    <>
+      {!session && (
+        <NavLink
+          item={{ name: "Login", url: "" }}
+          onClick={(e) => {
+            e.preventDefault();
+            setIsOpen(false);
+            signIn();
+          }}
+        />
+      )}
+
+      {session && (
+        <>
+          <NavLink
+            item={{ name: "Account", url: "/account/statistics" }}
+            onClick={() => setIsOpen(false)}
+          />
+          <NavLink
+            item={{ name: "Logout", url: "/" }}
+            onClick={() => {
+              setIsOpen(false);
+              signOut();
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+
   return (
     <div className="min-h-full" ref={navConRef}>
-      <nav className="bg-gray-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className=" relative top-0">
+        <div className=" z-30 bg-gray-800 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
@@ -82,32 +111,27 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="ml-4 flex items-center md:ml-6">
+              <div className="flex items-center gap-3">
                 <span className="text-gray-400">v{app.version}</span>
-                <div className="ml-3 relative">
+                <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub aria-label="GitHub" />
-                    </IconContext.Provider>
+                    <FaGithub aria-label="GitHub" />
                   </a>
                 </div>
+                {authControls()}
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
+                className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >
@@ -147,7 +171,14 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className={`${!isOpen && "hidden"} md:hidden`} id="mobile-menu">
+        <div
+          className={`${
+            isOpen
+              ? "transform translate-y-0 opacity-100"
+              : "transform -translate-y-96 opacity-0 "
+          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out  w-full`}
+          id="mobile-menu"
+        >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {primary.map((item, index) => (
               <NavLink
@@ -163,23 +194,18 @@ export default function Navbar() {
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
-                <div className="ml-3 relative">
+                <div className="ml-3 mr-2 relative">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
                     rel="noreferrer"
+                    className="text-white"
                   >
-                    <IconContext.Provider
-                      value={{
-                        color: "white",
-                        style: { verticalAlign: "middle" },
-                      }}
-                    >
-                      <FaGithub />
-                    </IconContext.Provider>
+                    <FaGithub aria-label="GitHub" />
                   </Link>
                 </div>
+                {authControls()}
               </div>
             </div>
           </div>

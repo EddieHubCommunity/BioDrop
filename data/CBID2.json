@@ -1,6 +1,5 @@
 {
   "name": "Christine Belzie",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "An Instructional Designer who codes",
   "tags": ["Open Source", "Blogging", "Content Creation"],
@@ -19,6 +18,11 @@
       "name": "Follow my tech blog",
       "url": "https://chrissycodes.hashnode.dev/",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesChrissy",
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Dev.to",

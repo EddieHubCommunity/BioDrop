@@ -16,7 +16,7 @@ export default function DocsIndex() {
           name: "Quickstart",
           path: "/docs/quickstart",
           description:
-            "There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.",
+            "There are 4 ways you can add your profile, but for this Quickstart we will use the GitHub UI.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -198,6 +198,16 @@ export default function DocsIndex() {
           path: "/docs/contributing/hacktoberfest",
           description:
             "Contribute to this annual Open Source event with LinkFree.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Commit Style",
+          path: "/docs/contributing/commits",
+          description:
+            "On EddieHub repos we use Conventional Commits standards. This allows us to create a changelog and release from the commits.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",

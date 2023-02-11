@@ -1,21 +1,73 @@
 {
   "name": "mpotane",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "🧑‍💻 Software engineer",
-
-  "tags": ["Nextjs", "typescript", "Prisma", "Supabase"],
+  "bio": "🧑‍💻 MarTech Developer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
+  "tags": ["Open Source", "NextJS", "Typescript", "Prisma", "Supabase"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/mpotanedev" },
+    { "icon": "FaGithub", "url": "https://github.com/mpotane" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mpotane/" }
+  ],
   "links": [
+    {
+      "name": "Personal website",
+      "url": "https://mpotane.com/",
+      "icon": "FaCat",
+      "group": "Portfolio"
+    },
+    {
+      "name": "Hashnode: blogs & tutorials",
+      "url": "https://blog.mpotane.com/",
+      "icon": "SiHashnode",
+      "group": "Primary"
+    },
+    {
+      "name": "Polywork: work profile",
+      "url": "https://work.mpotane.com/",
+      "icon": "SiPolywork",
+      "group": "Primary"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mpotanedev",
+      "icon": "FaTwitter",
+      "group": "Socials"
+    },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/mpotane",
-      "icon": "FaGithub"
+      "icon": "FaGithub",
+      "group": "Socials"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mpotane/",
-      "icon": "FaLinkedin"
+      "icon": "FaLinkedin",
+      "group": "Socials"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/mpotane",
+      "icon": "SiGithubsponsors"
     }
   ],
-  "testimonials": ["jofftiquez"]
+  "testimonials": ["jofftiquez"],
+  "milestones": [
+    {
+      "title": "Started Blogging",
+      "date": "Dec 2022",
+      "icon": "FaBlogger",
+      "color": "pink",
+      "description": "Started my own blogs",
+      "url": "https://blog.mpotane.com/"
+    },
+    {
+      "title": "Junior Marketing Technology Developer",
+      "date": "Feb 2023",
+      "icon": "FaLaptopCode",
+      "color": "aqua",
+      "description": "Started working at Altus Digital",
+      "url": "https://www.linkedin.com/in/mpotane/"
+    }
+  ]
 }
