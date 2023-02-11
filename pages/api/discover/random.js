@@ -1,20 +1,20 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../config/mongo";
 import logger from "../../../config/logger";
 import Profile from "../../../models/Profile";
 import loadProfiles from "../../../services/profiles/loadProfiles";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
 
   let profiles = [];
   try {
-    profiles = await Profile.aggregate([
-      { $sample: { size: 5 } },
-      { $match: { username: { $nin: process.env.SHADOWBAN.split(",") } } },
-    ]);
+    profiles = await Profile.aggregate([{ $sample: { size: 5 } }]);
   } catch (e) {
     logger.error(e, "failed to load profiles");
   }

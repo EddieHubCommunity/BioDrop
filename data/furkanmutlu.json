@@ -1,9 +1,8 @@
 {
   "name": "Furkan Mutlu",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "I'm a Software Engineer who is interested in continuing skills development in JavaScript.",
-  "avatar": "https://github.com/furkanmutlu.png",
+
   "tags": [
     "Open Source",
     "javascript",
