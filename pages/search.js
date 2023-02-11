@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
@@ -41,7 +40,6 @@ export default function Search({ data }) {
   const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
-  const [threeOrMore, setThreeOrMore] = useState();
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
@@ -50,45 +48,36 @@ export default function Search({ data }) {
     inputRef.current.focus();
     if (username) {
       setNotFound(username);
-      setThreeOrMore(false);
     }
   }, [username]);
 
   const filterData = (value) => {
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
-    if (value.length < 3) {
-      setThreeOrMore(false);
-      setFilteredUsers(results);
+
+    results = users.filter((user) => {
+      if (user.name.toLowerCase().includes(valueLower)) {
+        return true;
+      }
+
+      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+
+      if (terms.every((keyword) => userTags?.includes(keyword))) {
+        return true;
+      }
+
+      return false;
+    });
+
+    if (!results.length) {
+      setNotFound(value);
+    }
+
+    if (results.length) {
       setNotFound();
     }
 
-    if (value.length >= 3) {
-      setThreeOrMore(true);
-      results = users.filter((user) => {
-        if (user.name.toLowerCase().includes(valueLower)) {
-          return true;
-        }
-
-        let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-        if (terms.every((keyword) => userTags?.includes(keyword))) {
-          return true;
-        }
-
-        return false;
-      });
-
-      if (!results.length) {
-        setNotFound(value);
-      }
-
-      if (results.length) {
-        setNotFound();
-      }
-
-      setFilteredUsers(results);
-    }
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
   };
 
   const search = (keyword) => {
@@ -111,9 +100,15 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
-    if (inputValue) {
-      filterData(inputValue);
+    if (!inputValue) {
+      return;
     }
+
+    const timer = setTimeout(() => {
+      filterData(inputValue);
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, [inputValue]);
 
   return (
@@ -159,13 +154,6 @@ export default function Search({ data }) {
         </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
-
-        {!threeOrMore && (
-          <Alert
-            type="info"
-            message="You have to enter at least 3 characters to search for users,tags or languages."
-          />
-        )}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>
