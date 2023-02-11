@@ -12,7 +12,7 @@ export default function UserMilestones({ data }) {
   return (
     <>
       {!data.milestones && <Alert type="info" message="No milestones found" />}
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-gray-200 mt-4">
         {data.milestones &&
           historicMilestones.map((milestone, key) => (
             <UserMilestone milestone={milestone} isGoal={false} key={key} />

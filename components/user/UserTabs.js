@@ -102,7 +102,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
-          <nav className="-mb-px  flex" aria-label="Tabs">
+          <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
                 key={tab.name}
