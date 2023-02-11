@@ -1,7 +1,4 @@
-// profile photo numbers/stats
 // QR code?
-// discover tag
-// user card
 
 import Link from "./Link";
 
@@ -11,8 +8,10 @@ export default function Badge({
   path,
   position,
   className,
+  badgeClassName,
   children,
   display = true,
+  onClick,
 }) {
   let css = "";
   const cssTopRight = "top-0 right-0 bottom-auto left-auto";
@@ -39,7 +38,8 @@ export default function Badge({
   const badge = (
     <div
       title={title}
-      className={`absolute inline-block translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10 ${css}`}
+      className={`absolute inline-block translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10 ${css} ${badgeClassName}`}
+      onClick={() => (onClick ? onClick() : null)}
     >
       {content}
     </div>
