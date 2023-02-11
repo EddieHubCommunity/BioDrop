@@ -1,6 +1,5 @@
 {
   "name": "Vishal Kumar",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Data Engineer turned *Content Creator*",
   "links": [
@@ -14,6 +13,5 @@
       "url": "https://www.linkedin.com/in/vishal304094/",
       "icon": "FaLinkedIn"
     }
-    
   ]
 }

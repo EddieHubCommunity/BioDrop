@@ -16,14 +16,6 @@ export default function UserProfile({ BASE_URL, data }) {
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
         <div className="inline-flex relative w-fit">
-          {data.displayStatsPublic && (
-            <div
-              id="profile-views"
-              className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-2/4 -translate-y-1/2 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10"
-            >
-              {abbreviateNumber(data.views)}
-            </div>
-          )}
           <FallbackImage
             src={`https://github.com/${data.username}.png`}
             alt={`Profile picture of ${data.name}`}
