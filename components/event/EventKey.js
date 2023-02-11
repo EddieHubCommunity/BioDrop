@@ -6,14 +6,14 @@ import {RiCalendarTodoFill} from "react-icons/ri";
 export default function EventKey({ categorisedEvents, onToggleEventType }) {
   const filters = [
     {
-      title: "Show all future events",
-      description: "All upcoming events",
+      title: "All future events",
+      description: "List all upcoming events",
       key: "future",
       icon: RiCalendarTodoFill,
     },
     {
-      title: "Show all ongoing events",
-      description: "All ongoing events",
+      title: "All ongoing events",
+      description: "List all ongoing events",
       key: "ongoing",
       icon: MdTimelapse,
     },
