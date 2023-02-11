@@ -1,0 +1,37 @@
+{
+  "name": "Nikhil Raikwar",
+  "type": "personal",
+  "bio": "Full Stack Developer **OpenSource Enthusiast **. Technical Writer ",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/NikhilRaikwar",
+      "icon": "FaGithub"
+    },
+
+    {    
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/NikhilRaikwarr",
+      "icon": "FaTwitter"
+    },
+
+    {    
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/nikhilraikwar_18",
+      "icon": "FaInstagram"
+    },
+
+    {    
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nikhilraikwar16/",
+      "icon": "FaLinkedin"
+    },
+
+    {    
+      "name": "Follow me on Youtube",
+      "url": "https://youtube.com/@nikhilraikwar2521",
+      "icon": "FaYoutube"
+    }
+
+  ]
+}
