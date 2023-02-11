@@ -1,9 +1,8 @@
 {
   "name": "Abhijeet Basfore",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/abhijeet-26.png",
+
   "tags": [
     "javascript",
     "Springboot",
