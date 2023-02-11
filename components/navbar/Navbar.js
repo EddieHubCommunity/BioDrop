@@ -194,7 +194,7 @@ export default function Navbar() {
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
                 <span className="text-gray-400">v{app.version}</span>
-                <div className="ml-3 relative">
+                <div className="ml-3 mr-2 relative">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
