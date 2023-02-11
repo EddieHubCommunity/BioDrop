@@ -1,7 +1,6 @@
 {
   "name": "Jisan Mia",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Front-End Developer — JavaScript, React.js, Next.js",
 
   "tags": ["NextJS", "Typescript", "Javascript", "TailwindCSS", "Open Source"],
