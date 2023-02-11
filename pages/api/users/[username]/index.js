@@ -29,11 +29,11 @@ export default async function handler(req, res) {
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  const getProfile = await Profile.findOne({ username });
+  let getProfile = await Profile.findOne({ username });
 
   if (!getProfile) {
     try {
-      await Profile.create({
+      getProfile = await Profile.create({
         username,
         views: 1,
       });
@@ -55,8 +55,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(e, `app profile stats failed for ${username}`);
     }
-  }
-  if (getProfile) {
+  } else {
     try {
       await Profile.updateOne(
         {
@@ -70,7 +69,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        `failed to incremente profile stats for username: ${username}`
+        `failed to increment profile stats for username: ${username}`
       );
     }
   }
@@ -94,7 +93,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        "failed to increment profile stats for usernanme: ${username}"
+        "failed to increment profile stats for username: ${username}"
       );
     }
   }
