@@ -98,7 +98,7 @@ export default function Search({ data, profile }) {
         </h1>
 
         {!data.links && (
-          <Alert type="info" message="You don't have a proile yet." />
+          <Alert type="info" message="You don't have a profile yet." />
         )}
 
         <div className="border mb-6">
