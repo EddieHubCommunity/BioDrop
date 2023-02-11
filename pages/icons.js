@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 
@@ -43,6 +43,24 @@ export default function Icons() {
 
     setSearchedIconNames(filteredIconNames);
   };
+  
+  useEffect(() => {
+    const recommendedIconNames = [
+      "github",
+      "twitter",
+      "linkedin",
+      "email",
+      "upload",
+    ]
+      .map((value) => {
+        return Object.keys(icons)
+          .filter((icon) => icon.includes(value.toLocaleLowerCase()))
+          .map((iconName) => icons[iconName]);
+      })
+      .flat();
+
+    setSearchedIconNames(recommendedIconNames);
+  }, []);
 
   return (
     <>
