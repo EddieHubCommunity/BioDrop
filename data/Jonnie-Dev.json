@@ -1,31 +1,32 @@
 {
   "name": "John Areola",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Software engineer - 👨‍💻 Front end developer || UI Designer",
-  "avatar": "https://github.com/Jonnie-Dev.png",
-  "tags": ["frontend", "Open Source", "design", "internship"],
+  "bio": "Software Engineer - Frontend Developer || UI Designer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "REACT"
+  ],
   "socials": [
-    {
-      "platform": "twitter",
-      "url": "https://twitter.com/JonnieDev"
-    }
+    { "icon": "FaTwitter", "url": "https://twitter.com/JonnieDev" },
+    { "icon": "FaGithub", "url": "https://github.com/Jonnie-Dev" }
   ],
   "links": [
     {
-      "name": "Twitter",
+      "name": "Portfolio website - Software Engineer",
+      "url": "http://jon-nie.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
       "url": "https://twitter.com/JonnieDev",
-      "icon": "twitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/john-areola",
-      "icon": "linkedin"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/Jonnie-Dev",
-      "icon": "github"
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/john-areola",
+      "icon": "FaLinkedin"
     }
   ]
 }
