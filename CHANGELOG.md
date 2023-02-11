@@ -1,9 +1,9 @@
-## 1.84.4 (2023-02-11)
+## 1.84.5 (2023-02-11)
 
 
 ### Bug Fixes
 
-* profile daily stats init ([#4663](https://github.com/EddieHubCommunity/LinkFree/issues/4663)) ([2033c99](https://github.com/EddieHubCommunity/LinkFree/commit/2033c9988ec3a51caf7aadea4d3370dda44224a3))
+* mobile login button space ([#4575](https://github.com/EddieHubCommunity/LinkFree/issues/4575)) ([ea4d3bd](https://github.com/EddieHubCommunity/LinkFree/commit/ea4d3bd64b01130a07ff028e9edc44c6a12ac227))
 
 
 
