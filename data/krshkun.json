@@ -1,6 +1,5 @@
 {
   "name": "Krish Gupta 🥑",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "That DevREL Folk. Helping teams connect with their developer user base and grow ✨",
   "tags": [
@@ -11,8 +10,8 @@
     "Documentation",
     "DevREL"
   ],
-  "testimonials": ["loftwah", "tobySolutions", "LinuxGamer"],
-  "avatar": "https://github.com/krshkun.png",
+  "testimonials": ["eddiejaoude", "loftwah", "tobySolutions", "LinuxGamer"],
+
   "socials": [
     {
       "url": "https://twitter.com/krshkun",
