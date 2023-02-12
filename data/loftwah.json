@@ -68,12 +68,17 @@
     {
       "name": "Beatsmiff Dare",
       "url": "https://dare.btsmf.link",
-      "icon": "FaMoney"
+      "icon": "FaLink"
     },
     {
       "name": "Angry Tux",
       "url": "https://angrytux.lofts.sh",
       "icon": "FaLinux"
+    },
+    {
+      "name": "Support what I do with GitHub Sponsors",
+      "url": "https://github.com/sponsors/loftwah",
+      "icon": "FaLink"
     }
   ],
   "testimonials": [
@@ -82,7 +87,8 @@
     "krshkun",
     "stevenovak123",
     "AussieDev81",
-    "shubhsharma19"
+    "shubhsharma19",
+    "ibilalkayy"
   ],
   "milestones": [
     {
