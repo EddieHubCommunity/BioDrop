@@ -2,10 +2,10 @@
   "name": "Asha Gadiraju",
   "type": "personal",
   "bio": "Learning web development ,open source enthusiast",
-  
+
   "links": [
     {
-      "name":"Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/Ashas_twt",
       "icon": "FaTwitter"
     },
@@ -19,5 +19,5 @@
       "url": "https://github.com/Ashasindhu",
       "icon": "FaGithub"
     }
-    ]
+  ]
 }
