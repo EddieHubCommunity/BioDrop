@@ -13,17 +13,13 @@
 		{
 			"icon": "FaGithub",
 			"url": "https://github.com/eddiejaoude"
-		},
-		{
-			"icon": "FaYoutube",
-			"url": "https://youtube.com/eddiejaoude"
 		}
 	],
 
 	"links": [{
 			"group": "Primary Socials",
 			"name": "Twitter: Follow me",
-			"url": "https://twitter.com/eddiejaoude",
+			"url": "https://twitter.com/Yasshu55",
 			"icon": "FaTwitter",
 			"color": "#00ACEE"
 		},
