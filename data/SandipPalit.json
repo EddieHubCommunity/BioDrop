@@ -1,15 +1,14 @@
 {
   "name": "Sandip Palit",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Speaker | Loading.. ",
   "tags": [
-    "Data Science",
     "Python",
     "SQL",
     "Big Data",
     "Databricks",
-    "Microsoft Azure"
+    "Microsoft Azure",
+    "Data Science"
   ],
   "socials": [
     {
@@ -17,43 +16,59 @@
       "url": "https://www.linkedin.com/in/sandip-palit/"
     },
     {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SandipPalit_"
+    },
+    {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/sandip_travel_diaries/"
     }
   ],
-
   "links": [
     {
-      "name": "Research Article on 'Real Time Sentiment Analysis'",
+      "group": "Achievements & Recognitions",
+      "name": "Research Article on 'Real Time Sentiment Analysis' published by IGI Global",
       "url": "https://www.igi-global.com/chapter/real-time-sentiment-analysis/308478",
       "icon": "FaBook"
     },
     {
+      "group": "Achievements & Recognitions",
       "name": "Speech on 'Movie Recommendation System using NLP' at Google Cloud Community Days 2022 Kolkata",
       "url": "https://youtu.be/UGeV37z7kjs?t=5589",
       "icon": "FaYoutube"
     },
     {
+      "group": "Portfolio",
       "name": "Checkout my Python package 'Relocate'",
       "url": "https://pypi.org/project/relocate/",
       "icon": "FaPython"
     },
     {
-      "name": "Let's connect on LinkedIn",
-      "url": "https://www.linkedin.com/in/sandip-palit/",
-      "icon": "FaLinkedin"
-    },
-    {
+      "group": "Portfolio",
       "name": "Blogs on Data Science",
       "url": "https://medium.com/@sandippalit009",
       "icon": "FaMedium"
     },
     {
+      "group": "Socials",
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sandip-palit/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
       "name": "Collaborate on Open Source",
       "url": "https://github.com/SandipPalit",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SandipPalit_",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/sandip_travel_diaries/",
       "icon": "FaInstagram"

@@ -3,6 +3,32 @@
   "type": "personal",
   "bio": "Everything DevOps",
 
+  "tags": [
+    "AWS",
+    "Azure",
+    "DevOps",
+    "DevRel",
+    "Open Source",
+    "Ansible",
+    "kubernetes",
+    "Terraform"
+  ],
+
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kdpuvvadi"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kdpuvvadi"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "http://infosec.exchange/@kdpuvvadi"
+    }
+  ],
+
   "links": [
     {
       "name": "Website",
@@ -13,16 +39,6 @@
       "name": "Read my Blog",
       "url": "http://blog.puvvadi.me",
       "icon": "FaLink"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/kdpuvvadi",
-      "icon": "FaGithub"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/kdpuvvadi",
-      "icon": "FaTwitter"
     }
   ]
 }

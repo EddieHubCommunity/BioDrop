@@ -1,9 +1,9 @@
-## 1.82.3 (2023-02-07)
+## 1.84.7 (2023-02-12)
 
 
 ### Bug Fixes
 
-* storybook warning & deploy on dispatch ([#4592](https://github.com/EddieHubCommunity/LinkFree/issues/4592)) ([33fd772](https://github.com/EddieHubCommunity/LinkFree/commit/33fd772512f738c64ae7849e1dbae7dccaada27b))
+* function component name ([#4726](https://github.com/EddieHubCommunity/LinkFree/issues/4726)) ([6873748](https://github.com/EddieHubCommunity/LinkFree/commit/687374814cb91d303f062179729866d3b9a67d74))
 
 
 
