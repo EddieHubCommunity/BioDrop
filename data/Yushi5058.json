@@ -1,0 +1,17 @@
+{
+	"name": "Yushi",
+	"type": "personal",
+	"bio": "Self-taught web developer, passionate about the tech industry and constantly improving my skills to advance my career.",
+	"links": [{
+			"name": "Discord",
+			"url": "discord.com/users/1071758711330193478",
+			"icon": "FaDiscord"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/Yushi5058",
+			"icon": "FaGithub"
+		}
+	]
+
+}

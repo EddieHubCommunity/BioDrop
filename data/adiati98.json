@@ -2,13 +2,7 @@
   "name": "Ayu Adiati",
   "type": "personal",
   "bio": "Self-taught Front-end Developer | Tech Blogger | Open Source Contributor | Community Enthusiast",
-  "tags": [
-    "Open Source",
-    "JavaScript",
-    "React",
-    "Tech Blogger",
-    "Community"
-  ],
+  "tags": ["Open Source", "JavaScript", "React", "Tech Blogger", "Community"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/adiatiayu" },
     { "icon": "FaMastodon", "url": "https://hachyderm.io/@AdiatiAyu" },
