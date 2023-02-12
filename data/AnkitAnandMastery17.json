@@ -1,0 +1,22 @@
+{
+  "name": "Ankit Anand",
+  "type": "personal",
+  "bio": "",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/An46959780Anand",
+      "icon": "FaTwitter"
+    }
+      {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ankit-anand-mastery/",
+      "icon": "FaLinkedIn"
+    }
+ {
+      "name": "I write about Front-End  and summarizes my daily learning",
+      "url": "https://hashnode.com/@Ankit1705",
+      "icon": "SiHashnode"
+    }
+  ]
+}
