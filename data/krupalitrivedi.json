@@ -8,9 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/krupalitrivedi" },
     { "icon": "SiHashnode", "url": "https://acodeandaword.hashnode.dev/" }
   ],
-  "testimonials":[
-    "shubhsharma19",
-    "Njong392"],
+  "testimonials": ["shubhsharma19", "Njong392"],
 
   "links": [
     {
@@ -32,6 +30,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/krupalitrivedi",
       "icon": "FaLinkedin"
+    },
+    {
+    "name": "Buy Coffe for Chai",
+    "url": "https://www.buymeacoffee.com/krupalitrivedi",
+    "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
