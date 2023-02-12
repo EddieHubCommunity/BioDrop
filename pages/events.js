@@ -1,13 +1,12 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
-
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import EventCard from "../components/event/EventCard";
 import Page from "../components/Page";
 import { EventTabs } from "../components/event/EventTabs";
 import PageHead from "../components/PageHead";
 import HintIcon from "../components/hint/HintIcon";
-import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 export async function getServerSideProps(context) {
   let events = [];
