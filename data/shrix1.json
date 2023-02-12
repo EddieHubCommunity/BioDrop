@@ -2,7 +2,6 @@
   "name": "Shriprasanna",
   "type": "personal",
   "bio": "Front-End developer based in India",
-  "avator": "https://github.com/shrix1.png",
   "links": [
     {
       "name": "Twitter",
@@ -13,6 +12,6 @@
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/shrix1",
       "icon": "FaLinkedin"
-    },
+    }
   ]
 }
