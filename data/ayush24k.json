@@ -3,7 +3,6 @@
  
   "type": "personal",
   "bio": "I am Frontend Web Developer"
-  "avatar": "https://github.com/ayush24k.png",
   "links": [
      {
       "name": "Follow me on Twitter",
@@ -34,7 +33,7 @@
       "name": "Join our WeHelpDev Community",
       "url": "https://discord.com/invite/VPy2Vhqfp8",
       "icon": "FaDiscord"
-    },
+    }
     
   ]
 }
