@@ -1,0 +1,34 @@
+{
+  "name": "IslamAiouni",
+  "type": "personal",
+  "bio": "",
+  "links": [
+    {
+      "name": "Follow me on instagram",
+      "url": "https://www.instagram.com/islemaiounihh/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/islem.aiouni.5/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on linkedin ",
+      "url": "https://www.linkedin.com/in/islam-aiouni-96676a23a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github ",
+      "url": "https://github.com/islemaiouni",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Behance",
+      "url": "https://www.behance.net/islemaiouni",
+      "icon": "FaBehance"
+    },
+    
+    
+    
+  ]
