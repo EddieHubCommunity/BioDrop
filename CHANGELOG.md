@@ -1,9 +1,9 @@
-# 1.85.0 (2023-02-12)
+## 1.86.2 (2023-02-12)
 
 
-### Features
+### Bug Fixes
 
-* account cards ([#4684](https://github.com/EddieHubCommunity/LinkFree/issues/4684)) ([0dfd84d](https://github.com/EddieHubCommunity/LinkFree/commit/0dfd84dd29981a5677e516f7e706cb898ff8c870))
+* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
 
 
 
