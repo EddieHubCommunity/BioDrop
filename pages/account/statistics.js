@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
   if (!profile.username) {
     return {
       redirect: {
-        destination: "/account/create",
+        destination: "/account/no-profile",
         permanent: false,
       },
     };
@@ -73,7 +73,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Search({ data, profile }) {
+export default function Statistics({ data, profile }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
