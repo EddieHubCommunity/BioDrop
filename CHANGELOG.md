@@ -1,9 +1,9 @@
-# 1.86.0 (2023-02-12)
+## 1.86.1 (2023-02-12)
 
 
-### Features
+### Bug Fixes
 
-* popular icons ([#4712](https://github.com/EddieHubCommunity/LinkFree/issues/4712)) ([884e45e](https://github.com/EddieHubCommunity/LinkFree/commit/884e45e2db7dea5e58e92951bd87bba80795b0b4)), closes [#3707](https://github.com/EddieHubCommunity/LinkFree/issues/3707)
+* refactor badges to component ([#4479](https://github.com/EddieHubCommunity/LinkFree/issues/4479)) ([9fb02a0](https://github.com/EddieHubCommunity/LinkFree/commit/9fb02a0df7b76048ba07b56e44a08d9a15b6a9a5))
 
 
 
