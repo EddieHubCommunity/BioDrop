@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 
@@ -12,6 +12,7 @@ export default function Icons() {
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
 
+  const popularIcons = ["FaGithub", "FaTwitter", "FaLinkedin", "FaGit"];
   const icons = {};
 
   Object.keys(FaIcons).forEach((key) => {
@@ -44,24 +45,6 @@ export default function Icons() {
     setSearchedIconNames(filteredIconNames);
   };
   
-  useEffect(() => {
-    const recommendedIconNames = [
-      "github",
-      "twitter",
-      "linkedin",
-      "email",
-      "upload",
-    ]
-      .map((value) => {
-        return Object.keys(icons)
-          .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-          .map((iconName) => icons[iconName]);
-      })
-      .flat();
-
-    setSearchedIconNames(recommendedIconNames);
-  }, []);
-
   return (
     <>
       <PageHead
@@ -87,11 +70,13 @@ export default function Icons() {
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
-          {searchedIconNames.map((iconName, index) => (
-            <li key={index}>
-              <IconCard iconName={iconName} />
-            </li>
-          ))}
+          {(searchedIconNames.length ? searchedIconNames : popularIcons).map(
+            (iconName, index) => (
+              <li key={index}>
+                <IconCard iconName={iconName} />
+              </li>
+            )
+          )}
         </ul>
       </Page>
     </>
