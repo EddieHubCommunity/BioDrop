@@ -1,0 +1,38 @@
+{
+	"name": "Yashwanth Sai",
+	"type": "personal",
+	"bio": "Full Stack developer, Open source enthusiast",
+	"tags": [
+		"Open Source",
+		"JavaScript"
+	],
+	"socials": [{
+			"icon": "FaTwitter",
+			"url": "https://twitter.com/Yasshu55"
+		},
+		{
+			"icon": "FaGithub",
+			"url": "https://github.com/eddiejaoude"
+		},
+		{
+			"icon": "FaYoutube",
+			"url": "https://youtube.com/eddiejaoude"
+		}
+	],
+
+	"links": [{
+			"group": "Primary Socials",
+			"name": "Twitter: Follow me",
+			"url": "https://twitter.com/eddiejaoude",
+			"icon": "FaTwitter",
+			"color": "#00ACEE"
+		},
+		{
+			"group": "Primary Socials",
+			"name": "LinkedIn: Let's connect",
+			"url": "https://www.linkedin.com/in/yasshu/",
+			"icon": "FaLinkedin"
+		}
+	]
+
+}
