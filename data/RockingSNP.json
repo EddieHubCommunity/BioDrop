@@ -3,6 +3,7 @@
   "type": "personal",
   "bio": "Full Stack Web Developer, **Programmer** into Explorer with a good learner too...",
 
+
 "tags": [
     "Open Source","Web Development","Javascript","DSA","PYTHON","React","CSS"],
   
@@ -25,7 +26,7 @@
       "url": "https://www.github.com/RockingSNP/",
       "icon": "FaGithub"
     },
-  {
+    {
        "group": "Socials",
        "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/souvik-p-117647218/",
@@ -63,6 +64,5 @@
   }
 
   ]
-
 
 }
