@@ -1,6 +1,6 @@
 {
   "name": "Andrew Irorere",
-  "displayStatsPublic": true,
+
   "type": "personal",
   "bio": "FullStack dev **Toad Sage🐱‍👤**. | Open-Source Contributor &  | Mobile Dev",
   "socials": [
@@ -14,7 +14,7 @@
       "url": "https://twitter.com/Andreyscott247",
       "icon": "FaTwitter"
     },
-        {
+    {
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/andrew-irorere",
       "icon": "FaLinkedin"
