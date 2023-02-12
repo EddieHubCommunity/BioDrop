@@ -1,7 +1,7 @@
 {
   "name": "Manish Kumar",
   "type": "personal",
-  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "bio": "A fullstack developer",
   
   "links": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Follow me on Github",
       "url": "https://github.com/mkbhru",
-      "icon": "FaGithubAlt"
-    },
+      "icon": "FaGithub"
+    }
   ]
 }
