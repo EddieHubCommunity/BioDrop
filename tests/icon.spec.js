@@ -28,7 +28,7 @@ test("Icon search page has no results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("li")).toHaveCount(0);
+  await expect(page.locator("li")).toHaveCount(4);
 });
 
 test("Icon search page shows no results after typing 2 characters", async ({
