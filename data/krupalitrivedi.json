@@ -30,6 +30,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/krupalitrivedi",
       "icon": "FaLinkedin"
+    },
+    {
+    "name": "Buy Coffe for Chai",
+    "url": "https://www.buymeacoffee.com/krupalitrivedi",
+    "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
