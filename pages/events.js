@@ -7,6 +7,7 @@ import Page from "../components/Page";
 import { EventTabs } from "../components/event/EventTabs";
 import PageHead from "../components/PageHead";
 import HintIcon from "../components/hint/HintIcon";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -30,6 +31,8 @@ export default function Events({ events }) {
     cfpOpen: events.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
+    free: events.filter((event) => event.price?.startingFrom === 0),
+    paid: events.filter((event) => event.price?.startingFrom > 0),
   };
   const filters = [
     {
@@ -59,6 +62,20 @@ export default function Events({ events }) {
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
       total: categorisedEvents.virtual.length,
+    },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+      total: categorisedEvents.free.length,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
+      total: categorisedEvents.paid.length,
     },
   ];
 

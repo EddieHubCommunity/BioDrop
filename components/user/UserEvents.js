@@ -17,6 +17,8 @@ export default function UserEvents({ data }) {
     cfpOpen: futureEvents.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
+    free: data.events.filter((event) => event.price?.startingFrom === 0),
+    paid: data.events.filter((event) => event.price?.startingFrom > 0),
   };
 
   return (
