@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
   if (!profile.username) {
     return {
       redirect: {
-        destination: "/account/create",
+        destination: "/account/no-profile",
         permanent: false,
       },
     };
