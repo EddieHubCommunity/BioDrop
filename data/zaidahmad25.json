@@ -1,0 +1,32 @@
+{
+  "name": "Zaid Ahmad",
+  "type": "personal",
+  "bio": "Empowering growth and learning through my passion for web development and open source ❤️",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zaidahmad25",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/zaidahmad25",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/zaidahmad25",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "I write some blogs here and there...",
+      "url": "https://zaid-ahmad.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Buy Me A Coffee",
+      "url": "https://www.buymeacoffee.com/zaidahmad25",
+      "icon": "SiBuymeacoffee"
+    }
+  ]
+}
