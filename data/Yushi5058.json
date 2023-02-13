@@ -1,19 +1,17 @@
 {
-	"name": "Yushi",
-	"type": "personal",
-	"bio": "Self taught web dev | Front-end web dev | Linux & Bash Enthusiast",
-	"tags": ["Open Source", "Front-End", "Linux", "Javascript"],
-	"socials": [
-		{"icon": "FaGithub", "url":"https://github.com/Yushi5058"},
-		{"icon": "SiCodewars", "url": "https://www.codewars.com/users/Yushi5058"}
-		
-	],
-	"links": [
-		{
-			"name": "Follow me on Github",
-			"url": "https://github.com/Yushi5058",
-			"icon": "FaGithub"
-}
-	]
-
+  "name": "Yushi",
+  "type": "personal",
+  "bio": "Self taught web dev | Front-end web dev | Linux & Bash Enthusiast",
+  "tags": ["Open Source", "Front-End", "Linux", "Javascript"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Yushi5058" },
+    { "icon": "SiCodewars", "url": "https://www.codewars.com/users/Yushi5058" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Yushi5058",
+      "icon": "FaGithub"
+    }
+  ]
 }
