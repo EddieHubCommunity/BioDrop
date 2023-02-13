@@ -2,6 +2,14 @@
   "name": "Vamsi Penmetsa",
   "type": "personal",
   "bio": "🧐 Curious **DevOps** Dude | 20K+ smart minds 👀 my content on LinkedIn | 1.5+ million constant impressions 📈 | ♾ DevOps Community Builder | Azure ☁️ | love 🥑 | 🛫 From 🇮🇳, Lives in Europe 🇪🇺 | 💁🏻‍♂️ 𝗙𝗢𝗟𝗟𝗢𝗪",
+  "tags": [
+    "DevOps",
+    "Personal Branding",
+    "Cloud",
+    "Automation",
+    "Technical Writing",
+    "DevOps community builder"
+  ],
 
   "socials": [
     {
@@ -17,31 +25,37 @@
   ],
   "links": [
     {
+      "group": "Socials",
       "name": "Follow me on LinkedIn for DevOps & personal brand realted content 👉🏼 20K+ followers",
       "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/vamsi_penmetsa",
-      "icon": "FaTwitter"
-    },
-    {
+      "group": "Socials",
       "name": "Follow me on Medium",
       "url": "https://medium.com/@vamsipenmetsa",
       "icon": "FaMedium"
     },
     {
+      "group": "Socials",
       "name": "Subscribe to my Youtube channel",
       "url": "https://www.youtube.com/channel/UCecon2EsKZyPxvjA4WEaGlA",
       "icon": "FaYoutube"
     },
     {
+      "group": "Socials",
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/vamsi__penmetsa/",
       "icon": "FaInstagram"
     },
     {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vamsi_penmetsa",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "DevOps Community",
       "name": "Join DevOps Resource group (4k+ members 👨‍👨‍👧‍👦) LinkedIn",
       "url": "https://linkedin.openinapp.co/groups-13986647",
       "icon": "FaUsers"
@@ -58,7 +72,7 @@
       "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
     },
     {
-      "title": "Epam Systems Poland Brand Ambassador",
+      "title": "Epam Systems Poland Ambassador (Club Member)",
       "date": "Jan '23 to April '23",
       "icon": "FaMedal",
       "color": "gold",
