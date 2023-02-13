@@ -1,9 +1,9 @@
-## 1.86.2 (2023-02-12)
+# 1.87.0 (2023-02-13)
 
 
-### Bug Fixes
+### Features
 
-* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
+* save login user to db [#4767](https://github.com/EddieHubCommunity/LinkFree/issues/4767) ([#4769](https://github.com/EddieHubCommunity/LinkFree/issues/4769)) ([41c01a7](https://github.com/EddieHubCommunity/LinkFree/commit/41c01a75e95c7209ad7d1fda554c58604e84c128))
 
 
 
