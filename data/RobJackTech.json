@@ -1,0 +1,20 @@
+{
+  "name": "Robert Jackson",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "avatar": "https://github.com/RobJackTech.png
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RobJackTech",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/RobJackTech",
+      "icon": "FaGithubAlt",
+    }
+
+  ]
+}
