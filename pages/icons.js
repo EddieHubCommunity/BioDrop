@@ -12,6 +12,7 @@ export default function Icons() {
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
 
+  const popularIcons = ["FaGithub", "FaTwitter", "FaLinkedin", "FaGit"];
   const icons = {};
 
   Object.keys(FaIcons).forEach((key) => {
@@ -43,7 +44,7 @@ export default function Icons() {
 
     setSearchedIconNames(filteredIconNames);
   };
-
+  
   return (
     <>
       <PageHead
@@ -69,11 +70,13 @@ export default function Icons() {
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
-          {searchedIconNames.map((iconName, index) => (
-            <li key={index}>
-              <IconCard iconName={iconName} />
-            </li>
-          ))}
+          {(searchedIconNames.length ? searchedIconNames : popularIcons).map(
+            (iconName, index) => (
+              <li key={index}>
+                <IconCard iconName={iconName} />
+              </li>
+            )
+          )}
         </ul>
       </Page>
     </>

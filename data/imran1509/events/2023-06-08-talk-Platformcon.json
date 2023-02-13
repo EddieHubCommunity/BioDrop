@@ -1,0 +1,13 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "PlatformCon 2023",
+  "description": "he brightest Platform and DevOps pioneers, on one stage 🚀 PlatformCon was born to celebrate our community of 10k+ Platform Engineers. The response to the first-ever edition was overwhelming. PlatformCon 2023 is already making us dream big.",
+  "date": {
+    "start": "2023-06-08T10:00:00.000+00:00",
+    "end": "2023-06-09T18:00:00.000+00:00",
+    "cfpClose": "2023-02-28T18:00:00.000+00:00"
+  },
+  "url": "https://platformcon.com/"
+}
