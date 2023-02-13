@@ -2,13 +2,8 @@
   "name": "Sheriff Oladimeji",
   "type": "personal",
   "bio": "Frontend web developer, CS student  , Learning and building cool stuffs",
-  
-    "tags": [
-    "Open Source",
-    "Javascript",
-    "React",
-    "CSS"
-  ],
+
+  "tags": ["Open Source", "Javascript", "React", "CSS"],
   "links": [
     {
       "name": "Github",

@@ -1,9 +1,9 @@
-# 1.85.0 (2023-02-12)
+# 1.87.0 (2023-02-13)
 
 
 ### Features
 
-* account cards ([#4684](https://github.com/EddieHubCommunity/LinkFree/issues/4684)) ([0dfd84d](https://github.com/EddieHubCommunity/LinkFree/commit/0dfd84dd29981a5677e516f7e706cb898ff8c870))
+* save login user to db [#4767](https://github.com/EddieHubCommunity/LinkFree/issues/4767) ([#4769](https://github.com/EddieHubCommunity/LinkFree/issues/4769)) ([41c01a7](https://github.com/EddieHubCommunity/LinkFree/commit/41c01a75e95c7209ad7d1fda554c58604e84c128))
 
 
 

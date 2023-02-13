@@ -117,7 +117,7 @@ export default function Statistics({ data, profile }) {
         </h1>
 
         {!data.links && (
-          <Alert type="info" message="You don't have a proile yet." />
+          <Alert type="info" message="You don't have a profile yet." />
         )}
 
         <BasicCards data={cardData} />

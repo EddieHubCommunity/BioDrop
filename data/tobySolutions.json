@@ -12,24 +12,34 @@
   ],
   "links": [
     {
+      "group": "Socials Primary",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/toby_solutions",
       "icon": "FaTwitter"
     },
     {
+      "group": "Socials Primary",
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/tobiloba-adedeji",
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials Primary",
       "name": "Github",
       "url": "https://github.com/tobySolutions",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials Primary",
       "name": "Check out my Awesome YouTube Channel",
       "url": "https://www.youtube.com/channel/UC9JYiFFgkOQxg2kwTWauwzw",
       "icon": "FaYoutube"
+    },
+    {
+      "group": "Sponsorship",
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/tobySolutions",
+      "icon": "FaCoffee"
     }
   ],
   "milestones": [
