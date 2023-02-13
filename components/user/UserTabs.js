@@ -92,7 +92,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
           id="tabs"
           name="tabs"
           onChange={changeTab}
-          className="block w-full rounded-md -mb-px border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.current).name}
         >
           {tabs.map((tab) => (
