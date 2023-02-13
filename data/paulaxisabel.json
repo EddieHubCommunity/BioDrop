@@ -1,23 +1,57 @@
 {
-  "name": "Paula Isabel",
+  "name": "Paula Isabel Signo",
   "type": "personal",
-  "bio": "Full Stack Software Engineer in the making",
+  "bio": "Web Developer | Technical Writer | Open Source Advocate",
+  "tags": ["Web Developer", "Javascript", "React", "Vue", "PHP", "Technical Writer", "Open Source"],
+   "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/codewithpau" },
+    { "icon": "FaGithub", "url": "https://github.com/paulaxisabel" },
+    { "icon": "FaPen", "url": "https://blog.ossph.org/author/paula/" }
+  ],
 
   "links": [
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/paulaxisabel",
-      "icon": "FaGithub"
-    },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/codewithpau",
       "icon": "FaTwitter"
     },
     {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/paulaxisabel",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on CodePen",
+      "url": "https://codepen.io/paulaxisabel",
+      "icon": "FaCodepen"
+    },
+    {
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/paulasigno",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs",
+      "url": "https://blog.ossph.org/author/paula/",
+      "icon": "FaPen"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Point One Integrated Technologies Inc.",
+      "date": "March 2023",
+      "icon": "FaLaptop",
+      "color": "pink",
+      "description": "Became a Web Developer at Point One",
+      "url": "https://www.pointonesolutions.com.ph/"
+    },
+    {
+      "title": "Open Source Software Philippines",
+      "date": "September 2022",
+      "icon": "FaPen",
+      "color": "aqua",
+      "description": "Became a Technical Writer at OSSPH",
+      "url": "https://ossph.org/"
     }
   ]
 }
