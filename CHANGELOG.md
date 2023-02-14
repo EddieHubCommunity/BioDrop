@@ -1,9 +1,9 @@
-# 1.87.0 (2023-02-13)
+## 1.87.1 (2023-02-14)
 
 
-### Features
+### Bug Fixes
 
-* save login user to db [#4767](https://github.com/EddieHubCommunity/LinkFree/issues/4767) ([#4769](https://github.com/EddieHubCommunity/LinkFree/issues/4769)) ([41c01a7](https://github.com/EddieHubCommunity/LinkFree/commit/41c01a75e95c7209ad7d1fda554c58604e84c128))
+* refactored buttons ([#4804](https://github.com/EddieHubCommunity/LinkFree/issues/4804)) ([062d7e6](https://github.com/EddieHubCommunity/LinkFree/commit/062d7e616d49927cf16d43f449af560376ae88fb))
 
 
 
