@@ -19,19 +19,19 @@
       "icon": "FaDochub"
     },
     {
-       "name": "GitHub",
-       "url": "https://github.com/CoffeeGeek101",
-       "icon": "FaGithub"
+      "name": "GitHub",
+      "url": "https://github.com/CoffeeGeek101",
+      "icon": "FaGithub"
     },
     {
-       "name": "LinkedIn",
-       "url": "https://www.linkedin.com/in/shoumyadeep/",
-       "icon": "FaLinkedin"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shoumyadeep/",
+      "icon": "FaLinkedin"
     },
     {
       "name": "YouTube",
-       "url": "https://www.youtube.com/@shoumyadeep2068",
-       "icon": "FaYoutube"
+      "url": "https://www.youtube.com/@shoumyadeep2068",
+      "icon": "FaYoutube"
     }
   ]
 }
