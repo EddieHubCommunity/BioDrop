@@ -46,6 +46,11 @@
       "icon": "FaYoutube"
     },
     {
+      "name": "Tech videos I am part of",
+      "url": "https://www.github.com/sponsors/loftwah",
+      "icon": "FaYoutube"
+    },
+    {
       "name": "Download my music for free!",
       "url": "https://music.btsmf.link",
       "icon": "FaLink"
@@ -78,7 +83,7 @@
     {
       "name": "Support what I do with GitHub Sponsors",
       "url": "https://github.com/sponsors/loftwah",
-      "icon": "FaLink"
+      "icon": "FaGithub"
     }
   ],
   "testimonials": [
@@ -202,6 +207,14 @@
       "color": "#EF5904",
       "description": "I accepted the role as EddieHub Ambassador 0.2",
       "url": "https://www.eddiehub.org/ambassador-program"
+    },
+    {
+      "title": "Received my first GitHub Sponsor",
+      "date": "2023",
+      "icon": "FaCode",
+      "color": "black",
+      "description": "I received my first sponsorship on GitHub Sponsors",
+      "url": "https://www.github.com/sponsors/loftwah"
     }
   ]
 }
