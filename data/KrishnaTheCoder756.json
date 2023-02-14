@@ -1,6 +1,5 @@
 {
   "name": "Krishna Sarathi Ghosh",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Python, Web Developer.",
 
@@ -33,9 +32,11 @@
       "url": "https://app.programming-hero.com/certificates/PH9481"
     },
     {
-      "name": "Subscribe my YT Channel",
+      "title": "Joined YouTube",
       "url": "https://youtube.com/@techboykrish",
-      "icon": "FaYouTube"
+      "icon": "FaYouTube",
+      "date": "25 June 2022",
+      "icon": "FaYoutube"
     }
   ]
 }
