@@ -1,52 +1,64 @@
 {
-	"name": "SARVESH DEVRUKHAKAR",
-	"type": "personal",
-	"bio": "**Student** | **Technology Enthusiast** | **Open Source Contributor**",
-	"tags": ["C", "C++", "JAVA", "Python", "Django", "Git", "GitHub", "Vercel", "Open Source"],
-	"socials": [{
-			"icon": "FaLinkedin",
-			"url": "https://www.linkedin.com/in/sadcoder"
-		},
-		{
-			"icon": "FaGithub",
-			"url": "https://github.com/SAD0XER"
-		},
-		{
-			"icon": "SiSololearn",
-			"url": "https://www.sololearn.com/profile/18241219"
-		},
-		{
-			"icon": "FaTelegram",
-			"url": "https://t.me/SAD0XER"
-		},
-		{
-			"icon": "FaDiscord",
-			"url": "https://discord.com/users/1068163198051696750"
-		}
-	],
-	"links": [{
-			"group": "Primary Socials",
-			"name": "Let's Connect on LinkedIn",
-			"url": "https://www.linkedin.com/in/sadcoder",
-			"icon": "FaLinkedin"
-		},
-		{
-			"group": "Primary Socials",
-			"name": "Collaborate on GitHub",
-			"url": "https://github.com/SAD0XER",
-			"icon": "FaGithub"
-		},
-		{
-			"group": "Secondary Socials",
-			"name": "Join Our Telegram Group",
-			"url": "https://t.me/PARA_C0DER",
-			"icon": "SiTelegram"
-		},
-		{
-			"group": "Secondary Socials",
-			"name": "Let's Learn Something",
-			"url": "https://www.sololearn.com/profile/18241219https://t.me/PARA_C0DER",
-			"icon": "SiSololearn"
-		}
-	]
+  "name": "SARVESH DEVRUKHAKAR",
+  "type": "personal",
+  "bio": "**Student** | **Technology Enthusiast** | **Open Source Contributor**",
+  "tags": [
+    "C",
+    "C++",
+    "JAVA",
+    "Python",
+    "Django",
+    "Git",
+    "GitHub",
+    "Vercel",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sadcoder"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SAD0XER"
+    },
+    {
+      "icon": "SiSololearn",
+      "url": "https://www.sololearn.com/profile/18241219"
+    },
+    {
+      "icon": "FaTelegram",
+      "url": "https://t.me/SAD0XER"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discord.com/users/1068163198051696750"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sadcoder",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Collaborate on GitHub",
+      "url": "https://github.com/SAD0XER",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Secondary Socials",
+      "name": "Join Our Telegram Group",
+      "url": "https://t.me/PARA_C0DER",
+      "icon": "SiTelegram"
+    },
+    {
+      "group": "Secondary Socials",
+      "name": "Let's Learn Something",
+      "url": "https://www.sololearn.com/profile/18241219https://t.me/PARA_C0DER",
+      "icon": "SiSololearn"
+    }
+  ]
 }
