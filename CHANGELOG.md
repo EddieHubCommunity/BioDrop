@@ -1,9 +1,9 @@
-## 1.87.1 (2023-02-14)
+## 1.87.2 (2023-02-14)
 
 
 ### Bug Fixes
 
-* refactored buttons ([#4804](https://github.com/EddieHubCommunity/LinkFree/issues/4804)) ([062d7e6](https://github.com/EddieHubCommunity/LinkFree/commit/062d7e616d49927cf16d43f449af560376ae88fb))
+* `.dockerignore` ([#4774](https://github.com/EddieHubCommunity/LinkFree/issues/4774)) ([8612c2c](https://github.com/EddieHubCommunity/LinkFree/commit/8612c2ce98033beb9620f7644adcba48e2f1b2a5))
 
 
 
