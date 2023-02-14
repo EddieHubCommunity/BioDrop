@@ -2,20 +2,12 @@
   "name": "Shubham Chikane",
   "type": "personal",
   "bio": "Open Source, DevRel, DevOps ",
- "tags": [
-    "Open Source",
-    "C++",
-    "JAVA",
-    "HTML",
-     "CSS",
-    "DevOps",
-    "DevRel"
-  ],
- "socials": [
+  "tags": ["Open Source", "C++", "JAVA", "HTML", "CSS", "DevOps", "DevRel"],
+  "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/shubhamchikane_" },
     { "icon": "FaGithub", "url": "https://github.com/ShubhamChikane99" }
-   ],
-"links": [
+  ],
+  "links": [
     {
       "group": "Primary Socials",
       "name": "Twitter: Follow me",
@@ -23,14 +15,14 @@
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
-   {
+    {
       "group": "Primary Socials",
       "name": "LinkedIn: Connect with me ",
       "url": "https://linkedin.com/in/shubhamchikane99",
       "icon": "FaLinkedin",
       "color": "#00ACEE"
     },
-  {
+    {
       "group": "Primary Socials",
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/ShubhamChikane99",

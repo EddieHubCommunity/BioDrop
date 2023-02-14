@@ -1,5 +1,5 @@
 {
-"name": "Jayanth Kumar",
+  "name": "Jayanth Kumar",
   "type": "personal",
   "bio": "Open Source DevRel |CSE Student | **GitHub** Star",
   "tags": [
@@ -11,10 +11,12 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/sjayanthkumar/"}, 
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/sjayanthkumar/"
+    },
     { "icon": "FaTwitter", "url": "https://twitter.com/Jayanth_2003" },
     { "icon": "FaGithub", "url": "https://github.com/SJ-Kumar" }
-    
   ],
   "links": [
     {

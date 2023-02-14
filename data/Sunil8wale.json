@@ -2,7 +2,7 @@
   "name": "Sunil Athawale",
   "type": "personal",
   "bio": "Open Source Enthusiast, Front-End Developer",
-    "socials": [
+  "socials": [
     {
       "url": "https://twitter.com/sunilathawale10",
       "icon": "FaTwitter"
@@ -12,6 +12,4 @@
       "icon": "FaGithub"
     }
   ]
-     
- 
 }

@@ -2,8 +2,16 @@
   "name": "Paula Isabel Signo",
   "type": "personal",
   "bio": "Web Developer | Technical Writer | Open Source Advocate",
-  "tags": ["Web Developer", "Javascript", "React", "Vue", "PHP", "Technical Writer", "Open Source"],
-   "socials": [
+  "tags": [
+    "Web Developer",
+    "Javascript",
+    "React",
+    "Vue",
+    "PHP",
+    "Technical Writer",
+    "Open Source"
+  ],
+  "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/codewithpau" },
     { "icon": "FaGithub", "url": "https://github.com/paulaxisabel" },
     { "icon": "FaPen", "url": "https://blog.ossph.org/author/paula/" }
