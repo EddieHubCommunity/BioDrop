@@ -20,6 +20,11 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/bejadirajeshreddy_/",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rajesh-reddy-bejadi/",
+      "icon": "FaLinkedin"
     }
   ]
 }
