@@ -1,0 +1,23 @@
+{
+  "name": "Rakesh Shaw",
+  "type": "personal",
+  "bio": "👋Upcoming **Dev**👋. Success requires persistent practice, guided by patience."
+  "avatar": "https://github.com/dev-rakeshshaw.png"
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dev_rakeshshaw",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dev-rakeshshaw",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Chat with me on Telegram",
+      "url": "https://t.me/dev_rakeshshaw",
+      "icon": "FaTelegram"
+    },
+  ]
+}
