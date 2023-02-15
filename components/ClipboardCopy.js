@@ -21,7 +21,7 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      logger.error(err);
+      logger.error(error);
     }
   };
 
