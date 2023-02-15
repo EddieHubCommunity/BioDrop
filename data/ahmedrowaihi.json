@@ -13,15 +13,30 @@
     "Open Source"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ahmedrowaihi" },
-    { "icon": "FaGithub", "url": "https://github.com/ahmedrowaihi" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahmedrowaihi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ahmedrowaihi"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/ahmed-rowaihi"
     },
-    { "icon": "FaEnvelope", "url": "mailto:developer@ahmedrowaihi.lol" },
-    { "icon": "FaCat", "url": "https://curiouscat.live/AskAhmed1" },
-    { "icon": "FaComment", "url": "https://tellonym.me/ahmedrowaihi" }
+    {
+      "icon": "FaEnvelope",
+      "url": "mailto:developer@ahmedrowaihi.lol"
+    },
+    {
+      "icon": "FaCat",
+      "url": "https://curiouscat.live/AskAhmed1"
+    },
+    {
+      "icon": "FaComment",
+      "url": "https://tellonym.me/ahmedrowaihi"
+    }
   ],
   "links": [
     {
@@ -54,5 +69,5 @@
       "url": "https://discord.com/invite/td9WGydjxM",
       "icon": "FaDiscord"
     }
-  ],
+  ]
 }
