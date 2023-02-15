@@ -2,11 +2,7 @@
   "name": "Ali Calimli",
   "type": "personal",
   "bio": "Frontend Developer | Content Creator",
-  "tags": [
-    "React",
-    "Javascript",
-    "Typescript"
-  ],
+  "tags": ["React", "Javascript", "Typescript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/alicalimli_dev" },
     { "icon": "FaGithub", "url": "https://github.com/alicalimli" },
