@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
@@ -6,6 +6,7 @@ import Page from "../components/Page";
 import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 import Badge from "../components/Badge";
+import SearchBar from "../components/SearchBar";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -36,7 +37,6 @@ export async function getServerSideProps(context) {
 export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
-  const inputRef = useRef();
   const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
@@ -45,7 +45,6 @@ export default function Search({ data }) {
   let results = [];
 
   useEffect(() => {
-    inputRef.current.focus();
     if (username) {
       setNotFound(username);
     }
@@ -143,14 +142,7 @@ export default function Search({ data }) {
           display={!!filteredUsers}
           className="w-full"
         >
-          <input
-            placeholder="Search user by name or tags; eg: open source,reactjs"
-            ref={inputRef}
-            className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
-            name="keyword"
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-          />
+          <SearchBar inputValue={inputValue} setInputValue={setInputValue} />
         </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
