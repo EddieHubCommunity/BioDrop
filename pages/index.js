@@ -34,7 +34,7 @@ export async function getServerSideProps(context) {
     );
     total = await res.json();
   } catch (e) {
-    logger.error("ERROR total stats not found ", e);
+    logger.error(e, "ERROR total stats not found ");
   }
 
   let today = {};
@@ -44,7 +44,7 @@ export async function getServerSideProps(context) {
     );
     today = await res.json();
   } catch (e) {
-    logger.error("ERROR today stats not found ", e);
+    logger.error(e, "ERROR today stats not found");
   }
 
   return {

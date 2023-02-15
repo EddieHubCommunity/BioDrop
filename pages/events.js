@@ -15,7 +15,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
-    logger.error("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   return {
