@@ -67,7 +67,7 @@
       "date": "June 2022",
       "icon": "SiLinkedin",
       "color": "blue",
-      "description": "I post daily about my learnings on twitter and linkedin. Many poeple support my work and I have made great connections."
+      "description": "I post daily about my learnings on twitter and linkedin. Many poeple support my work and I have made great connections.",
       "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/",
     },
       {
@@ -75,7 +75,7 @@
       "date": "October 2022",
       "icon": "FaPencilAlt",
       "color": "blue",
-      "description": "My blog are my stories of how I achieved a certain height. Many poeple got inspired by my journey."
+      "description": "My blog are my stories of how I achieved a certain height. Many poeple got inspired by my journey.",
       "url": "https://medium.com/@Sajiyah-Salat"
     },
     {
@@ -83,7 +83,7 @@
       "date": "November 2022",
       "icon": "SiGithub",
       "color": "black",
-      "description": "After Completing my DevOps Basics. I started making Projects. My projects mainly contain the knowledge of Docker, Kubernetes, AWS, Golang. My Projects are live on Github."
+      "description": "After Completing my DevOps Basics. I started making Projects. My projects mainly contain the knowledge of Docker, Kubernetes, AWS, Golang. My Projects are live on Github.",
       "url": "https://github.com/Sajiyah-Salat",
     },
     {
@@ -91,7 +91,7 @@
       "date": "December 2022",
       "icon": "FaPencilAlt",
       "color": "blue",
-      "description": "DevOps is my passion and I have completd all the basics about it. I have a good hold in kuberenetes and soon I will give cka(certified kubernetes administrator) exam. I have written a blogs on this topic."
+      "description": "DevOps is my passion and I have completd all the basics about it. I have a good hold in kuberenetes and soon I will give cka(certified kubernetes administrator) exam. I have written a blogs on this topic.",
       "url": "https://medium.com/@Sajiyah-Salat"
     },
     {
@@ -99,7 +99,7 @@
       "date": "February 2022",
       "icon": "SiYoutube",
       "color": "red",
-      "description": "This youtube channel will be based on github contributions and community work. If you are just starting out in open source, I have many things to serve you."
+      "description": "This youtube channel will be based on github contributions and community work. If you are just starting out in open source, I have many things to serve you.",
       "url": "https://www.youtube.com/@sajiyasalat"
     }
   ]
