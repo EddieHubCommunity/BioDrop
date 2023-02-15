@@ -2,85 +2,85 @@ import { BiSortAlt2 } from "react-icons/bi";
 import Link from "../Link";
 
 export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
- const classNames = (...classes) => classes.filter(Boolean).join(" ");
- const changeTab = (e, value) => {
-  e.preventDefault();
-  setTabs(
-   tabs.map((tab) =>
-    tab.name === e.target?.value || tab.name === value
-     ? { ...tab, current: true }
-     : { ...tab, current: false },
-   ),
-  );
- };
+  const classNames = (...classes) => classes.filter(Boolean).join(" ");
+  const changeTab = (e, value) => {
+    e.preventDefault();
+    setTabs(
+      tabs.map((tab) =>
+        tab.name === e.target?.value || tab.name === value
+          ? { ...tab, current: true }
+          : { ...tab, current: false }
+      )
+    );
+  };
 
- const getDataKeyAndSortKey = (tabName) => {
-  let dataKeyObj = {};
-  switch (tabName) {
-   case "Events":
-    dataKeyObj.dataKey = "events";
-    dataKeyObj.sortKey = "date.start";
-    break;
-   case "Testimonials":
-    dataKeyObj.dataKey = "testimonials";
-    dataKeyObj.sortKey = "date";
-    break;
-   case "Milestones":
-    dataKeyObj.dataKey = "milestones";
-    dataKeyObj.sortKey = "date";
-    break;
-   default:
-    dataKeyObj.dataKey = "links";
-    dataKeyObj.sortKey = "name";
-  }
-  return dataKeyObj;
- };
-
- const sortUserTabItems = (tabName, order) => {
-  const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
-  userData[dataKey].sort(function (a, b) {
-   const aVal = sortKey.includes(".")
-    ? getNested(a, sortKey.split("."))
-    : a[sortKey];
-   const bVal = sortKey.includes(".")
-    ? getNested(b, sortKey.split("."))
-    : b[sortKey];
-   if (tabName === "My Links") {
-    if (order === "ASC") {
-     return aVal.toLowerCase() > bVal.toLowerCase()
-      ? 1
-      : aVal.toLowerCase() < bVal.toLowerCase()
-      ? -1
-      : 0;
-    } else {
-     return aVal.toLowerCase() < bVal.toLowerCase()
-      ? 1
-      : aVal.toLowerCase() > bVal.toLowerCase()
-      ? -1
-      : 0;
+  const getDataKeyAndSortKey = (tabName) => {
+    let dataKeyObj = {};
+    switch (tabName) {
+      case "Events":
+        dataKeyObj.dataKey = "events";
+        dataKeyObj.sortKey = "date.start";
+        break;
+      case "Testimonials":
+        dataKeyObj.dataKey = "testimonials";
+        dataKeyObj.sortKey = "date";
+        break;
+      case "Milestones":
+        dataKeyObj.dataKey = "milestones";
+        dataKeyObj.sortKey = "date";
+        break;
+      default:
+        dataKeyObj.dataKey = "links";
+        dataKeyObj.sortKey = "name";
     }
-   } else {
-    if (order === "ASC") {
-     return new Date(aVal) > new Date(bVal)
-      ? 1
-      : new Date(aVal) < new Date(bVal)
-      ? -1
-      : 0;
-    } else {
-     return new Date(aVal) < new Date(bVal)
-      ? 1
-      : new Date(aVal) > new Date(bVal)
-      ? -1
-      : 0;
-    }
-   }
-  });
-  setUserData({ ...userData });
- };
+    return dataKeyObj;
+  };
 
- const getNested = (obj, args) => {
-  return args.reduce((obj, level) => obj && obj[level], obj);
- };
+  const sortUserTabItems = (tabName, order) => {
+    const { dataKey, sortKey } = getDataKeyAndSortKey(tabName);
+    userData[dataKey].sort(function (a, b) {
+      const aVal = sortKey.includes(".")
+        ? getNested(a, sortKey.split("."))
+        : a[sortKey];
+      const bVal = sortKey.includes(".")
+        ? getNested(b, sortKey.split("."))
+        : b[sortKey];
+      if (tabName === "My Links") {
+        if (order === "ASC") {
+          return aVal.toLowerCase() > bVal.toLowerCase()
+            ? 1
+            : aVal.toLowerCase() < bVal.toLowerCase()
+            ? -1
+            : 0;
+        } else {
+          return aVal.toLowerCase() < bVal.toLowerCase()
+            ? 1
+            : aVal.toLowerCase() > bVal.toLowerCase()
+            ? -1
+            : 0;
+        }
+      } else {
+        if (order === "ASC") {
+          return new Date(aVal) > new Date(bVal)
+            ? 1
+            : new Date(aVal) < new Date(bVal)
+            ? -1
+            : 0;
+        } else {
+          return new Date(aVal) < new Date(bVal)
+            ? 1
+            : new Date(aVal) > new Date(bVal)
+            ? -1
+            : 0;
+        }
+      }
+    });
+    setUserData({ ...userData });
+  };
+
+  const getNested = (obj, args) => {
+    return args.reduce((obj, level) => obj && obj[level], obj);
+  };
  
  return (
   <div>
