@@ -22,6 +22,11 @@
       "name": "Follow me on Youtube",
       "url": "https://www.youtube.com/channel/UCvTnPARwoVco9eRYbcivbbQ",
       "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Devpost",
+      "url": "https://devpost.com/akshitagupta15june",
+      "icon": "SiDevpost"
     }
   ]
 }
