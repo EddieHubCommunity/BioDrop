@@ -20,7 +20,7 @@
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/SajiyaSalat"
-    }
+    },
      {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/"
@@ -94,7 +94,6 @@
       "description": "DevOps is my passion and I have completd all the basics about it. I have a good hold in kuberenetes and soon I will give cka(certified kubernetes administrator) exam. I have written a blogs on this topic."
       "url": "https://medium.com/@Sajiyah-Salat"
     },
-    
     {
       "title": "Started my youtube video",
       "date": "February 2022",
@@ -102,6 +101,6 @@
       "color": "red",
       "description": "This youtube channel will be based on github contributions and community work. If you are just starting out in open source, I have many things to serve you."
       "url": "https://www.youtube.com/@sajiyasalat"
-    },
+    }
   ]
 }
