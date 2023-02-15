@@ -1,0 +1,19 @@
+{
+  "name": "Ajay",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a MERN Stack Developer",
+  "avatar":"https://avatars.githubusercontent.com/u/98752820?v=4",
+    "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ajay-84sia/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ajay84sia",
+      "icon": "FaGithub"
+    }
+  ]
+}
