@@ -81,7 +81,6 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
  const getNested = (obj, args) => {
   return args.reduce((obj, level) => obj && obj[level], obj);
  };
- console.log(tabs);
  return (
   <div>
    <div className="sm:hidden">
@@ -103,7 +102,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
       </select>
      </>
     ) : (
-     <h3 className="font-medium border-b-2 text-center">
+     <h3 className="font-medium border-b-2 text-center pb-2">
       {tabs[0].name} <span>({tabs[0].total})</span>
      </h3>
     )}
