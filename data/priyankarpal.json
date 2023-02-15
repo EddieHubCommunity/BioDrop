@@ -1,6 +1,5 @@
 {
   "name": "Priyankar Pal",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Web Developer ➝ Talks about Linux, Code, Open Source 💡",
 
@@ -45,9 +44,9 @@
     },
     {
       "group": "Projects",
-      "name": "Proof of Works",
-      "url": "https://fueler.io/priyankarpal",
-      "icon": "SiCodeproject"
+      "name": "Contribute to ProjectsHut",
+      "url": "https://github.com/priyankarpal/ProjectsHut",
+      "icon": "SiOpensourceinitiative"
     },
     {
       "group": "Projects",
