@@ -2,13 +2,13 @@
   "name": "Will Beebe",
   "type": "personal",
   "bio": "Still learning how to speak computer.",
-    "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/willbaebae",
       "icon": "FaTwitter"
     },
-     {
+    {
       "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/will-beebe/",
       "icon": "FaLinkedin"
