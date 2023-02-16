@@ -1,0 +1,13 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "KubeHuddle Toronto 2023",
+  "description": "KubeHuddle is a community conference where Developers, Platform Engineers, DevOps, SRE, Cloud Enthusiasts, Technical and Business Strategists come together to learn from each other, collaborate and, innovate.",
+  "date": {
+    "start": "2023-05-17T10:00:00.000+00:00",
+    "end": "2023-05-18T18:00:00.000+00:00",
+    "cfpClose": "2023-03-03T11:59:00.000+00:00"
+  },
+  "url": "https://kubehuddle.com/2023/toronto/"
+}

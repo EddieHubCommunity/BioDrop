@@ -1,6 +1,5 @@
 {
   "name": "Himanshu Balani",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "CSE Undergrad | Cloud Enthusiast | Flutter | Python | Astronomy Geek",
   "tags": ["Open Source", "Cloud", "Flutter", "Python"],
@@ -36,7 +35,7 @@
     {
       "group": "Socials",
       "name": "Collab with me on Github",
-      "url": "https://github.com/Pradumnasaraf",
+      "url": "https://github.com/himanshubalani",
       "icon": "FaGithub"
     },
     {
