@@ -74,7 +74,7 @@ export default function DocsIndex() {
         },
         {
           name: "Environment variables",
-          path: "/environment-variables",
+          path: "/docs/environments/environment-variables",
           description:
             "To run the application you need to have environment variables set for the application to work correctly.",
           category: {
