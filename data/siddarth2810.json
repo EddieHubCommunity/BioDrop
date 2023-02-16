@@ -2,8 +2,7 @@
   "name": "Siddarth",
   "type": "personal",
   "bio": "tech enthusiast",
-  
-  "links": [
+   "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Siddarth_0910",
@@ -20,7 +19,5 @@
       "url": "https://github.com/siddarth2810",
       "icon": "FaGithub"
     }
-    
-    
-  ]
+    ]
 }
