@@ -1,9 +1,7 @@
 {
 	"name": "Atul Gawade",
-	"displayStatsPublic": "true",
 	"type": "personal",
 	"bio": "I am Backend Developer",
-	"avatar": "https://github.com/gawadeatul.png",
 	"links": [{
 			"name": "Follow me on Twitter",
 			"url": "https://twitter.com/gawadeatul27",
