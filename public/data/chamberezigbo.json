@@ -5,8 +5,8 @@
   "avatar": "https://github.com/chamberezigbo.png",
   "links": [
     {
-      "name": "My portfiolo site",
-      "url": "https://shiny-starburst-6f2c53.netlify.app",
+      "name": "My portfolio site",
+      "url": "https://wondrous-churros-f6aea2.netlify.app",
       "icon": "link"
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "milestones": [
+         {
+      "title": "This JavaScript library helps to validate your frontend (HTML) forms using validation rules, sophisticated regular expressions and form input attributes.",
+      "date": "May 2022",
+      "icon": "discord",
+      "color": "#3a3240",
+      "description": "Use the NodeJS release of this library to validate your forms server-side.",
+      "url": "https://github.com/Octagon-simon/octaValidate"
+    },
     {
       "title": "Developed and maintained website for charity gate",
       "date": "May 2022",
@@ -35,6 +43,14 @@
       "url": "http://charitygatefoundation.com/"
     },
     {
+      "title": "Tailor Skit",
+      "date": "december 2022",
+      "icon": "github",
+      "color": "blue",
+      "description": "Tailor's kit is a large database & productivity software that helps Tailors to save, manage, access client's data, and track client's orders from anywhere and at anytime with ease.",
+      "url": "https://tailorskit.com/"
+    },
+     {
       "title": "Started working for a IG Hub as intern",
       "date": "April 2021",
       "icon": "github",
