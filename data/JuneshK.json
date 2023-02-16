@@ -1,4 +1,3 @@
-
 {
   "name": "Junesh Kumar",
   "type": "personal",
@@ -9,7 +8,7 @@
       "url": "https://twitter.com/JuneshK1",
       "icon": "FaTwitter"
     },
-    
+
     {
       "name": "Youtube",
       "url": "https://www.youtube.com/channel/UCburH8LA-mVat8dW9VVoUxw",
@@ -28,12 +27,10 @@
       "icon": "FaGithub"
     },
 
-   {
+    {
       "name": "Hashnode",
-      "url" : "https://juneshk.hashnode.dev/" , 
+      "url": "https://juneshk.hashnode.dev/",
       "icon": "FaHashnode"
     }
-
-
   ]
 }
