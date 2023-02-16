@@ -1,8 +1,8 @@
 {
   "name": "Mahir Mahdi",
   "type": "personal",
-  "bio": "Web Developer | Open Source Advocate | Content Writer ",
-  "tags": ["Web Development", "Open Source", "Content Writer", "Javascript"],
+  "bio": "Web Developer | Open Source Advocate | Technical Writer ",
+  "tags": ["Web Development", "Open Source", "Technical Writer", "Javascript"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/MahirMahdi" },
     { "icon": "FaTwitter", "url": "https://twitter.com/_MahirMahdi" },
@@ -25,6 +25,11 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/mahirmahdi",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "You can read my blogs here.",
+      "url": "https://mahirmahdi.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
