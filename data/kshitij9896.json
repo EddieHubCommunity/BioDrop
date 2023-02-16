@@ -2,12 +2,33 @@
   "name": "Kshitij Bansod",
   "type": "personal",
   "bio": "Full Stack Web Developer | Designer | Author ",
-
+  "tags": [
+    "Developer",
+    "Front-End Developer",
+    "UI/UX"
+  ],
+   "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/kshitij_bansod" },
+    { "icon": "FaGithub", "url": "https://github.com/kshitij9896" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/thisiskshitijbansod" }
+  ],
   "links": [
     {
-      "name": "Let's Connect on Twitter",
+      "name": "Let's Connect On GitHub",
+      "url": "https://github.com/kshitij9896",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Let's Connect On Twitter",
       "url": "https://twitter.com/kshitij_bansod",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Let's Connect On LinkedIn",
+      "url": "https://linkedin.com/in/kshitij-bansod",
+      "icon": "FaLinkedin"
     }
-  ]
+ ]
 }
