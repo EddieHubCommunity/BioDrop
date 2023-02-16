@@ -1,7 +1,11 @@
 {
   "name": "Samuel Mintah",
   "type": "personal",
-  "bio": "Software Engineer, Tech junkie, early adopter, and futurist. #AI #ML #gadgetlove #innovation",
+  "bio": "Software Engineer, Tech junkie, early adopter, and futurist.",
+  
+  "tags": [ "Open Source", "Javascript", "Node", "NextJS", "Python",
+   "Rect","full-stack developer"]
+  
   
   "links": [
     {
