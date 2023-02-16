@@ -24,7 +24,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function NotExist() {
+export default function NoProfile() {
   return (
     <>
       <PageHead

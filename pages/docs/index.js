@@ -203,6 +203,26 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Commit Style",
+          path: "/docs/contributing/commits",
+          description:
+            "On EddieHub repos we use Conventional Commits standards. This allows us to create a changelog and release from the commits.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Labels",
+          path: "/docs/contributing/labels",
+          description:
+            "We use labels to display various information about the issue, for example: is it ready for development or is it still waiting for the maintainers to review, the complexity of the issue and more.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
