@@ -1,0 +1,12 @@
+{
+  "name": "Nischay Gowda",
+  "type": "personal",
+  "bio": "Creative Thinker and Data Detective. Avid Reader"
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imnischaygowda",
+      "icon": "FaTwitter"
+    }
+  ]
+}
