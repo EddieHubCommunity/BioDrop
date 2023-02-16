@@ -2,7 +2,6 @@
   "name": "Kamran Memon",
   "type": "personal",
   "bio": "I am a frontend Developer working with Vue.js",
-  "avatar" : "https://github.com/kammy1996.png",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -15,7 +14,7 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Github"
+      "name": "Follow me on Github",
       "url": "https://github.com/kammy1996",
       "icon": "FaGithub"
     }
