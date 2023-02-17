@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import logger from "../config/logger";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -11,7 +12,7 @@ export async function getServerSideProps() {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     users = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   users = users.filter(
