@@ -4,14 +4,15 @@
     "tags": [
       "HTML",
       "CSS",
-      "javaScript",
-      "typescript",
+      "Javascript",
+      "Typescript",
       "MongoDB",
       "ExpressJS",
       "ReactJS",
-      "NodeJS"
+      "NodeJS",
+      "Python"
     ],
-    "bio": "**Full-Stack Web Developer** | **MERN Stack Developer** | Create Web Apps",
+    "bio": "**Full-Stack Web Developer** | **MERN Stack Developer** | **Tech Enthusiast**",
   
     "socials": [
       { "icon": "FaTwitter", "url": "https://twitter.com/ajay84sia" },
@@ -35,7 +36,7 @@
     ],
     "milestones": [
       {
-        "title": "3 - star HackerRank Problem-Solving",
+        "title": "3 - Star HackerRank Problem-Solving",
         "date": "Dec 2021",
         "icon": "SiHackerrank",
         "color": "grey",
