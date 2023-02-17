@@ -22,6 +22,11 @@
 			"icon": "FaGithub"
 		},
 		{
+			"name": "Follow me on LinkedIn",
+			"url": "https://linkedin.com/in/nischayggowda",
+			"icon": "FaLinkedin"
+		},
+		{
 			"name": "Twitter: Threads and Random Talks",
 			"url": "https://twitter.com/imnischaygowda",
 			"icon": "FaTwitter"
@@ -30,11 +35,7 @@
 			"name": "Interested in reading my blogs? Go here!",
 			"url": "https://imnischaygowda.hashnode.dev/",
 			"icon": "SiHashnode"
-		},
-		{
-			"name": "Follow me on LinkedIn",
-			"url": "https://linkedin.com/in/nischayggowda",
-			"icon": "FaLinkedin"
 		}
+
 	]
 }
