@@ -1,0 +1,17 @@
+{
+  "name": "Mario",
+  "type": "personal",
+  "bio": "2d artist."
+  "links": [
+    {
+     "name": "Follow me on Instagram",
+     "url": "https://www.instagram.com/marioz.art/",
+     "icon": "FaInstagram"
+  },
+    {
+      "name": "Follow me on PixelFed",
+      "url": "https://pixelfed.de/mariozart",
+      "icon": ""
+    }
+  ]
+}
