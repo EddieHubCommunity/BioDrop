@@ -27,6 +27,7 @@ export default function UserProfile({ BASE_URL, data }) {
             width={fallbackImageSize}
             height={fallbackImageSize}
             fallback={data.name}
+            priority
             className="rounded-full object-contain"
           />
         </Badge>
