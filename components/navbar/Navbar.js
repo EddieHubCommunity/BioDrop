@@ -98,6 +98,7 @@ export default function Navbar() {
                     alt="EddieHub logo"
                     width={32}
                     height={32}
+                    priority
                     onClick={() => setIsOpen(false)}
                   />
                 </Link>
