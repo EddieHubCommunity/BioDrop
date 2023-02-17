@@ -66,7 +66,7 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
   } catch (e) {
-    console.log("ERROR get user's account statistics", e);
+    logger.error(e, "ERROR get user's account statistics");
   }
 
   return {
@@ -117,7 +117,7 @@ export default function Statistics({ data, profile }) {
         </h1>
 
         {!data.links && (
-          <Alert type="info" message="You don't have a proile yet." />
+          <Alert type="info" message="You don't have a profile yet." />
         )}
 
         <BasicCards data={cardData} />

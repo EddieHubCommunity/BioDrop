@@ -1,9 +1,9 @@
-# 1.86.0 (2023-02-12)
+## 1.87.8 (2023-02-17)
 
 
-### Features
+### Bug Fixes
 
-* popular icons ([#4712](https://github.com/EddieHubCommunity/LinkFree/issues/4712)) ([884e45e](https://github.com/EddieHubCommunity/LinkFree/commit/884e45e2db7dea5e58e92951bd87bba80795b0b4)), closes [#3707](https://github.com/EddieHubCommunity/LinkFree/issues/3707)
+* check geo location ([#4891](https://github.com/EddieHubCommunity/LinkFree/issues/4891)) ([dc644d0](https://github.com/EddieHubCommunity/LinkFree/commit/dc644d062d93f7a9f54560368eb88ba3713c6319))
 
 
 

@@ -6,7 +6,8 @@ import EventCard from "../components/event/EventCard";
 import Page from "../components/Page";
 import { EventTabs } from "../components/event/EventTabs";
 import PageHead from "../components/PageHead";
-import HintIcon from "../components/hint/HintIcon";
+import Badge from "../components/Badge";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   let events = [];
@@ -14,7 +15,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   return {
@@ -74,11 +75,13 @@ export default function Events({ events }) {
 
       <Page>
         <div className="flex flex-row items-center">
-          <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
-          <HintIcon
-            path={"/docs/how-to-guides/events"}
-            placeholderText={"Go To Event Docs"}
-          />
+          <Badge
+            content="?"
+            path="/docs/how-to-guides/events"
+            title="Go To Event Docs"
+          >
+            <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
+          </Badge>
         </div>
         <EventTabs
           tabs={tabs}

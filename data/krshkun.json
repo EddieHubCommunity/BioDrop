@@ -10,7 +10,14 @@
     "Documentation",
     "DevREL"
   ],
-  "testimonials": ["eddiejaoude", "loftwah", "tobySolutions", "LinuxGamer", "MadhuSaini22", "shubhsharma19"],
+  "testimonials": [
+    "eddiejaoude",
+    "loftwah",
+    "tobySolutions",
+    "LinuxGamer",
+    "MadhuSaini22",
+    "shubhsharma19"
+  ],
 
   "socials": [
     {
