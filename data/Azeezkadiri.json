@@ -1,9 +1,7 @@
 {
   "name": "Abdulazeez Kadiri",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Frontend engineer | JavaScript | react |technical writer | open source contributor",
-  "avatar": "https://github.com/Azeezkadiri.png"
   "links": [
     {
       "name": "Follow me on twitter",
@@ -19,6 +17,6 @@
       "name": "Follow me on github",
       "url": "https://github.com/Azeezkadiri",
       "icon": "FaGithub"
-    },
+    }
   ]
 }
