@@ -1,11 +1,11 @@
 name: Other
 description: Use this for any other issues. Please do NOT create blank issues
-title: '[OTHER]'
-labels: ['🚦 status: awaiting triage']
+title: "[OTHER]"
+labels: ["🚦 status: awaiting triage"]
 body:
   - type: markdown
     attributes:
-      value: '# Other issue'
+      value: "# Other issue"
   - type: textarea
     id: issuedescription
     attributes:

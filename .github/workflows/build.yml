@@ -1,29 +1,54 @@
 name: Build
-on: [push, pull_request]
+on:
+  pull_request:
+    paths:
+      - pages/**
+      - tests/**
+      - components/**
+      - config/**
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        step: [lint, build]
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "18"
+          cache: "npm"
       - name: install dependencies
         run: npm ci
-      - name: run linter
-        run: npm run lint
-      - name: run build
-        run: npm run build
+      - name: run ${{ matrix.step }}
+        run: npm run ${{ matrix.step }}
 
   tests:
+    needs: build
     runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
+    strategy:
+      fail-fast: false
+      matrix:
+        shardIndex: [1, 2, 3]
+        shardTotal: [3]
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "18"
+          cache: "npm"
       - name: install dependencies
         run: npm ci
+      - name: Install Playwright's dependencies
+        run: npx playwright install chromium
       - name: run tests
-        run: npm run test:e2e
+        run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+      - uses: test-summary/action@v2.0
+        with:
+          paths: "results.xml"

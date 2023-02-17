@@ -1,0 +1,13 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "green",
+  "name": "Google Devfest Kanpur",
+  "description":"At this devfest, We met many young Devlopers enlightining their career in Emerging Tech Domains, got hands-on into those tech stacks, and had an awesome experience",
+  "date": {
+    "start": "2022-12-09T16:00:00.000+00:00",
+    "end": "2022-12-09T17:00:00.000+00:00",
+    "cfpClose": "2022-10-09T17:00:00.000+00:00"
+  },
+  "url": "https://www.linkedin.com/posts/abhay-rajpoot-799a00184_100daysofcybersecurity-androiddevelopment-activity-7007625729009987584-upMi?utm_source=share&utm_medium=member_desktop"
+}

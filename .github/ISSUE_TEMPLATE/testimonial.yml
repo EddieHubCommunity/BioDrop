@@ -1,0 +1,26 @@
+name: 🏆 Testimonial
+title: New Testimonial
+description: Make a testimonial for the LinkFree user
+labels: ["testimonial"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Enter the GitHub username of the person this testimonial is for
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Please provide a title for the testimonial
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please provide a brief description of the testimonial you are creating for this user
+    validations:
+      required: true

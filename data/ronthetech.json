@@ -1,0 +1,21 @@
+{
+	"name": "Ron Jean-Francois",
+	"type": "personal",
+	"bio": "Tech and Code Enthusiast, Basketball Fanatic⛹🏾, and when I'm not at my computer desk, I'm usually working on old cars like my '04 E46 BMW🏎️.",
+	"links": [{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/ronjtech",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Connect with me on LinkedIn",
+			"url": "https://www.linkedin.com/in/ronjf/",
+			"icon": "FaLinkedin"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/ronthetech",
+			"icon": "FaGithub"
+		}
+	]
+}
