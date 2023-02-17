@@ -15,6 +15,7 @@ import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import BasicCards from "../components/statistics/BasicCards";
 import Button from "../components/Button";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -33,7 +34,7 @@ export async function getServerSideProps(context) {
     );
     total = await res.json();
   } catch (e) {
-    console.log("ERROR total stats not found ", e);
+    logger.error(e, "ERROR total stats not found ");
   }
 
   let today = {};
@@ -43,7 +44,7 @@ export async function getServerSideProps(context) {
     );
     today = await res.json();
   } catch (e) {
-    console.log("ERROR today stats not found ", e);
+    logger.error(e, "ERROR today stats not found");
   }
 
   return {
