@@ -88,7 +88,7 @@ export default function User({ data, BASE_URL }) {
     <>
       <PageHead
         title={data.name}
-        description={data.bio}
+        description={data.bio.replaceAll("*","")}
         ogTitle={data.name}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
         ogImage={data.avatar}
