@@ -18,9 +18,10 @@ export async function getServerSideProps() {
   users = users.filter(
     (user) =>
       user.location &&
-      (user.location.provided !== "unknown" &&
-        user.location.name !== "unknown" &&
-        user.location.provided.toLowerCase() !== "remote")
+      user.location.provided &&
+      user.location.provided !== "unknown" &&
+      user.location.name !== "unknown" &&
+      user.location.provided.toLowerCase() !== "remote"
   );
 
   return {
