@@ -1,23 +1,45 @@
 import Page from "../components/Page";
 import PageHead from "../components/PageHead";
-import { CalendarIcon, MapPinIcon, UsersIcon } from "@heroicons/react/20/solid";
+import { CalendarIcon } from "@heroicons/react/20/solid";
 
 export default function Changelog() {
+  const colors = {
+    addition: "text-green-800 bg-green-100",
+    removal: "text-red-800 bg-red-100",
+  };
   const changes = [
     {
-      id: 1,
-      title: "World Map",
-      description: "See LinkFree users on a world wide map",
-      type: "feature",
-      date: "2023-01-07",
+      title: "Accounts statistics summary",
+      description:
+        "On your private dashboard you have a summary of your stats at the top",
+      type: "addition",
+      date: "2023-02-11",
     },
     {
-      id: 2,
       title: "Logging in and Accounts statistics",
       description:
         "After logging in with GitHub, you can see your account statistics",
-      type: "feature",
+      type: "addition",
       date: "2023-02-01",
+    },
+    {
+      title: "World Map",
+      description: "See LinkFree users on a world wide map",
+      type: "addition",
+      date: "2023-01-24",
+    },
+    {
+      title: "Trending page removed",
+      description:
+        "This page was super useful to discover people, but became less valuable as people tried to cheat the system",
+      type: "removal",
+      date: "2023-01-15",
+    },
+    {
+      title: "`avatar` json property no longer required",
+      description: "Now will default to using people's GitHub proile picture",
+      type: "removal",
+      date: "2023-01-07",
     },
   ];
 
@@ -33,14 +55,18 @@ export default function Changelog() {
         <div className="overflow-hidden bg-white shadow sm:rounded-md">
           <ul role="list" className="divide-y divide-gray-200">
             {changes.map((change) => (
-              <li key={change.id}>
+              <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
                   <div className="flex items-center justify-between">
                     <p className="truncate text-lg font-medium">
                       {change.title}
                     </p>
                     <div className="ml-2 flex flex-shrink-0">
-                      <p className="inline-flex rounded-full bg-green-100 px-2 text-xs font-semibold leading-5 text-green-800">
+                      <p
+                        className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
+                          colors[change.type]
+                        }`}
+                      >
                         {change.type}
                       </p>
                     </div>
