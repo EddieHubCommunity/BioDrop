@@ -2,29 +2,46 @@
   "name": "Kshitij Bansod",
   "type": "personal",
   "bio": "Full Stack Web Developer | Designer | Author ",
-  "tags": ["Developer", "Front-End Developer", "UI/UX"],
+  "tags": ["Front-End Developer", "UI/UX"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/kshitij_bansod" },
     { "icon": "FaGithub", "url": "https://github.com/kshitij9896" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/thisiskshitijbansod" }
+    { "icon": "FaDev", "url" : "https://dev.to/kshitij9896"},
+    { "icon": "FaBlog", "url" : "https://www.showwcase.com/thisiskshitijbansod"}
   ],
   "links": [
     {
-      "name": "Let's Connect On GitHub",
-      "url": "https://github.com/kshitij9896",
-      "icon": "FaGithub",
-      "color": "#171515"
-    },
-    {
+      "group":"Socials",
       "name": "Let's Connect On Twitter",
       "url": "https://twitter.com/kshitij_bansod",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
+      "group":"Socials",
       "name": "Let's Connect On LinkedIn",
       "url": "https://linkedin.com/in/kshitij-bansod",
       "icon": "FaLinkedin"
+    },
+    
+    {
+      "group":"Socials",
+      "name": "Let's Connect On GitHub",
+      "url": "https://github.com/kshitij9896",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "group":"Socials",
+      "name": "Let's Connect On Dev",
+      "url": "https://dev.to/kshitij9896",
+      "icon": "FaDev"
+    },
+    {
+      "group":"Socials",
+      "name": "Let's Connect On Showwcase",
+      "url": "https://www.showwcase.com/thisiskshitijbansod",
+      "icon": "FaBlog"
     }
   ]
 }
