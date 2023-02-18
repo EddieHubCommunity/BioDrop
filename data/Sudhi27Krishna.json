@@ -14,7 +14,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/SudhiKrishnaNA1" },
     { "icon": "FaGithub", "url": "https://github.com/Sudhi27Krishna" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sudhi-krishna-n-a-b1571b211/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sudhi-krishna-n-a-b1571b211/"
+    }
   ],
   "links": [
     {
