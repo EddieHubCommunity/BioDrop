@@ -1,10 +1,10 @@
 {
   "name": "Sourav Mandal",
-  
+
   "type": "personal",
   "bio": "Python Development | Open Source Enthusiast | Putting My Work Here",
   "tags": ["Open Source", "Android", "Flutter", "Python"],
-  
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -20,6 +20,6 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/souravmandal091/",
       "icon": "FaLinkedin"
-    } 
- ]
+    }
+  ]
 }
