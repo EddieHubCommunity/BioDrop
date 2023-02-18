@@ -1,0 +1,23 @@
+{
+  "name": "Deepak Tripathy",
+  "type": "personal",
+  "bio": "Student passionate about learning new technologies. ML and open source enthusiast",
+  "tags": ["Open Source", "Machine Learning"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/deepakkttwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Hashnode Blog",
+      "url": "https://deeps07.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Deepakktripathy",
+      "icon": "FaGithub"
+    }
+  ]
+}

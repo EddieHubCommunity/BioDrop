@@ -14,6 +14,8 @@ import { FaMedal } from "react-icons/fa";
 import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import BasicCards from "../components/statistics/BasicCards";
+import Button from "../components/Button";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -32,7 +34,7 @@ export async function getServerSideProps(context) {
     );
     total = await res.json();
   } catch (e) {
-    console.log("ERROR total stats not found ", e);
+    logger.error(e, "ERROR total stats not found ");
   }
 
   let today = {};
@@ -42,7 +44,7 @@ export async function getServerSideProps(context) {
     );
     today = await res.json();
   } catch (e) {
-    console.log("ERROR today stats not found ", e);
+    logger.error(e, "ERROR today stats not found");
   }
 
   return {
@@ -100,7 +102,7 @@ export default function Home({ total, today }) {
       description:
         "Let people easily discover you and your links to your social accounts and content. Find out how many times your Profile has been viewed and your links clicked.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063800-796e29dd-3557-43c8-b84c-6fe24f44925f.png",
+        "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
       imageAlt:
         "LinkFree screenshot of the bio and social links in example profile",
     },
@@ -134,7 +136,7 @@ export default function Home({ total, today }) {
       description:
         "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
+        "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
       imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
@@ -250,20 +252,14 @@ export default function Home({ total, today }) {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <Link
+              <Button
+                text="Get started"
                 href="/docs/quickstart"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-              >
-                Get started
-              </Link>
+                primary={true}
+              />
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
-              <Link
-                href="/eddiejaoude"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-              >
-                Example
-              </Link>
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -372,7 +368,7 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
-      
+
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
         rel="noopener noreferrer"
@@ -387,7 +383,6 @@ export default function Home({ total, today }) {
           <p className="text-sm font-medium">Help</p>
         </div>
       </Link>
-
     </>
   );
 }

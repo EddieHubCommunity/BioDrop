@@ -1,11 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
+import Badge from "../components/Badge";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -16,7 +17,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   try {
@@ -25,7 +26,7 @@ export async function getServerSideProps(context) {
     );
     data.tags = await res.json();
   } catch (e) {
-    console.log("ERROR loading tags", e);
+    logger.error(e, "ERROR loading tags");
   }
 
   return {
@@ -138,7 +139,11 @@ export default function Search({ data }) {
               ))}
         </div>
 
-        <div className="relative">
+        <Badge
+          content={filteredUsers.length}
+          display={!!filteredUsers}
+          className="w-full"
+        >
           <input
             placeholder="Search user by name or tags; eg: open source,reactjs"
             ref={inputRef}
@@ -147,15 +152,9 @@ export default function Search({ data }) {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          {filteredUsers && (
-            <div className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-1/4 -translate-y-1/3 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10">
-              {filteredUsers.length}
-            </div>
-          )}
-        </div>
+        </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
-
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>

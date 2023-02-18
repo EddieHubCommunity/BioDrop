@@ -1,8 +1,7 @@
 {
   "name": "Bilal Khan",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "College Dropout ➞ Self-Taught DevOps Guy | Open Source Contributor, Content Creator on @YouTube & a Technical Writer at @hashnode.",
+  "bio": "College Dropout ➞ Self-Taught DevOps Guy | Open Source Contributor to Kubernetes, Content Creator on YouTube & a Technical Writer at Hashnode.",
 
   "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
   "socials": [
@@ -21,7 +20,17 @@
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/ibilalkayy"
+    },
+    {
+      "icon": "SiBuymeacoffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy"
     }
+  ],
+  "testimonials": [
+    "eddiejaoude",
+    "hola-soy-milk",
+    "loftwah",
+    "the-amazing-atharva"
   ],
   "links": [
     {
@@ -53,6 +62,11 @@
       "name": "LinkedIn: Connect with me",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
