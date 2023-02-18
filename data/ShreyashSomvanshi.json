@@ -1,0 +1,40 @@
+{
+  "name": "Shreyash Somvanshi",
+  "type": "personal",
+  "bio": "Artificial Intelligence and Data Science Engineer | Open Source Beginner | Technical Content Writer ",
+  "tags": ["Data Science", "AI", "Open Source", "Technical Blogging"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/ShreyashSomvanshi" },
+    { "icon": "FaLinkedIn" , "url": "https://linkedin.com/in/shreyash-somvanshi-859893215/"},
+    { "icon": "SiMedium", "url": "https://medium.com/@ShreyashSomvanshi" }
+  ],
+  "testimonials": ["None .."],
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShreyashSomvanshi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Interested in reading Data Science related blogs? Go here!",
+      "url": "https://medium.com/@ShreyashSomvanshi/",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://linkedin.com/in/shreyash-somvanshi-859893215/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blog",
+      "date": "December 2022",
+      "icon": "SiMedium",
+      "color": "blue",
+      "description": "Sharing some technical insights through blogs",
+      "url": "https://medium.com/@ShreyashSomvanshi/"
+    }
+  ]
+}
