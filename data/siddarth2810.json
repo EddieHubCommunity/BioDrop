@@ -2,21 +2,21 @@
   "name": "Siddarth",
   "type": "personal",
   "bio": "tech enthusiast",
-   "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Siddarth_0910",
       "icon": "FaTwitter"
     },
     {
-     "name": "LinkedIn - Let's connect and grow together",
+      "name": "LinkedIn - Let's connect and grow together",
       "url": "https://www.linkedin.com/in/siddarth-g-bb11a6216/",
       "icon": "FaLinkedin"
     },
-     {
+    {
       "name": "GitHub - Open for collaboration",
       "url": "https://github.com/siddarth2810",
       "icon": "FaGithub"
     }
-    ]
+  ]
 }
