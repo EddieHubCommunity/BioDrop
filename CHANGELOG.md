@@ -1,9 +1,9 @@
-## 1.87.9 (2023-02-17)
+# 1.88.0 (2023-02-18)
 
 
-### Bug Fixes
+### Features
 
-* logger on frontend ([#4909](https://github.com/EddieHubCommunity/LinkFree/issues/4909)) ([990116c](https://github.com/EddieHubCommunity/LinkFree/commit/990116cead626c0366adfa98ecfbd9f9d3673dde))
+* remove donate from footer ([#4921](https://github.com/EddieHubCommunity/LinkFree/issues/4921)) ([42c0a65](https://github.com/EddieHubCommunity/LinkFree/commit/42c0a65fad855427919921809be7208a0abe4851))
 
 
 
