@@ -6,6 +6,7 @@ import Page from "../components/Page";
 import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 import Badge from "../components/Badge";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -16,7 +17,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   try {
@@ -25,7 +26,7 @@ export async function getServerSideProps(context) {
     );
     data.tags = await res.json();
   } catch (e) {
-    console.log("ERROR loading tags", e);
+    logger.error(e, "ERROR loading tags");
   }
 
   return {

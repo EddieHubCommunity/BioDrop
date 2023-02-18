@@ -6,8 +6,8 @@
   "tags": [
     "Open Source",
     "Web Development",
+    "Community Management",
     "Content Writing",
-    "API",
     "DevRel"
   ],
   "socials": [
@@ -17,6 +17,11 @@
   ],
   "testimonials": ["the-amazing-atharva"],
   "links": [
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
+    },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/manishtyagi__",

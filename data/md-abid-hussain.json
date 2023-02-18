@@ -18,6 +18,11 @@
       "name": "Check out my Website",
       "url": "https://md-abid-hussain.github.io/CV/",
       "icon": "FaDollarSign"
+    },
+    {
+      "name": "CodePen",
+      "url": "https://codepen.io/md-abid-hussain",
+      "icon": "FaCodePen"
     }
   ],
   "milestones": [
