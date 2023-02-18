@@ -13,7 +13,7 @@ export default function MyApp({
     Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
 
   return (
-    <ThemeProvider>
+    <ThemeProvider attribute="class">
       <SessionProvider session={session}>
         {getLayout(<Component {...pageProps} />)}
       </SessionProvider>
