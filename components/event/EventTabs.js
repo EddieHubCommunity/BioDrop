@@ -20,7 +20,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           id="tabs"
           name="tabs"
           onChange={(e) => changeTab(e)}
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md border-gray-300 dark:focus:border-indigo-400 dark:focus:ring-indigo-400  focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
         >
           {tabs.map((tab) => (
