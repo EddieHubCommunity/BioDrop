@@ -82,7 +82,7 @@
       "title": "The beginning",
       "icon": "FaFileCode",
       "date": "October 2020",
-      "color": "grey",
+      "color": "red",
       "description": "This was the time when I started learning to code using HTML,CSS, and Bootstrap"
     },
     {
@@ -96,16 +96,24 @@
       "title": "Started Open Source Contributions",
       "date": "November 2022",
       "icon": "SiOpensourceinitiative",
-      "color": "grey",
+      "color": "blue",
       "description": "Started learning how to contribute to Open Source and contributed some Open Source Projects "
     },
     {
       "title": "Again Started Publishing Blogs",
       "date": "November 2022",
       "icon": "SiHashnode",
-      "color": "grey",
+      "color": "green",
       "description": "Again I started publishing blogs to Hashnode Platform as a developer",
       "url": "https://priyankarpal.hashnode.dev"
+    },
+     {
+      "title": "Created Open Source Project",
+      "date": "February 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Created ProjectsHut Open Source website. A place where you will find lots of cool projects",
+      "url": "https://github.com/priyankarpal/ProjectsHut"
     }
   ]
 }
