@@ -183,10 +183,10 @@ export default function Home({ total, today }) {
     <>
       <PageHead />
 
-      <div className="bg-gray-50 dark:bg-gray-800 mb-8 p-8 dark:drop-shadow-none drop-shadow-md">
+      <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
-          <span className="text-2xl text-gray-500 dark:text-gray-300">100% Open Source</span>
+          <span className="text-2xl text-gray-500">100% Open Source</span>
         </h2>
         <BasicCards
           data={[
@@ -212,7 +212,7 @@ export default function Home({ total, today }) {
         />
       </div>
 
-      <div className="bg-white dark:bg-gray-800">
+      <div className="bg-white">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-indigo-700 shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
@@ -242,9 +242,9 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="bg-gray-50 dark:bg-gray-800">
+      <div className="bg-gray-50">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">Ready to dive in?</span>
             <span className="block text-indigo-600">
               Add your free Profile today!
@@ -258,8 +258,8 @@ export default function Home({ total, today }) {
                 primary={true}
               />
             </div>
-            <div className="ml-3 inline-flex rounded-md dark:bg-[#233042] shadow">
-              <Button text="Example" className="" href="/eddiejaoude" />
+            <div className="ml-3 inline-flex rounded-md shadow">
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -322,28 +322,28 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="relative bg-white dark:bg-gray-800 py-24 sm:py-32 lg:py-40">
+      <div className="relative bg-white py-24 sm:py-32 lg:py-40">
         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
           <h2 className="font-semibold text-indigo-600 text-3xl">
             Getting Started
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight dark:text-gray-300 text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Popular User Guides
           </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl dark:text-gray-400 text-gray-500">
+          <p className="mx-auto mt-5 max-w-prose text-xl text-gray-500">
             Here is a selection of our popular documentation guides to help you
             get started.
           </p>
           <div className="mt-20">
             <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
               {features.map((feature) => (
-                <div key={feature.name} className="pt-6 ">
+                <div key={feature.name} className="pt-6">
                   <Link
                     aria-label="Go to ${feature.name} page"
                     href={feature.path}
                     className="text-gray-900 group"
                   >
-                    <div className="flow-root rounded-lg dark:bg-[#233042] bg-gray-50 px-6 pb-8">
+                    <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
                       <div className="-mt-6">
                         <div>
                           <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">
@@ -353,10 +353,10 @@ export default function Home({ total, today }) {
                             />
                           </span>
                         </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline dark:text-gray-300 group-hover:text-indigo-600">
+                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                           {feature.name}
                         </h3>
-                        <p className="mt-5 text-base leading-7 dark:text-gray-400 text-gray-700">
+                        <p className="mt-5 text-base leading-7 text-gray-700">
                           {feature.description}
                         </p>
                       </div>
