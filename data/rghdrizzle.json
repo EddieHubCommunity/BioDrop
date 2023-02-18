@@ -2,7 +2,7 @@
   "name": "Luqmaan Hakeem",
   "type": "personal",
   "bio": "Just a typical devops guy (continously learning)",
-  "tags": ["Open Source", "Golang", "Python", "Devops", "Deep learning"],
+  "tags": [ "Open Source", "Golang", "Python" ,"Devops","Deep learning"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -18,6 +18,11 @@
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/luqmaan-hakeem-57964a227/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs",
+      "url": "https://rghdrizzle.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }
