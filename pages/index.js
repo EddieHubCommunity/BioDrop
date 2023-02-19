@@ -183,10 +183,10 @@ export default function Home({ total, today }) {
     <>
       <PageHead />
 
-      <div className="bg-gray-50 mb-8 p-8 drop-shadow-md">
+      <div className="bg-gray-50 dark:drop-shadow-none dark:bg-gray-800 mb-8 p-8 drop-shadow-md">
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
-          <span className="text-2xl text-gray-500">100% Open Source</span>
+          <span className="text-2xl dark:text-gray-300 text-gray-500">100% Open Source</span>
         </h2>
         <BasicCards
           data={[
