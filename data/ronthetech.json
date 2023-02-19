@@ -1,22 +1,36 @@
 {
-  "name": "Ron Jean-Francois",
-  "type": "personal",
-  "bio": "Tech and Code Enthusiast, Basketball Fanatic⛹🏾, and when I'm not at my computer desk, I'm usually working on old cars like my '04 E46 BMW🏎️.",
-  "links": [
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/ronjtech",
-      "icon": "FaTwitter"
-    },
-    {
-      "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/ronjf/",
-      "icon": "FaLinkedin"
-    },
-    {
-      "name": "Github",
-      "url": "https://github.com/ronthetech",
-      "icon": "FaGithub"
-    }
-  ]
+	"name": "Ron Jean-Francois",
+	"type": "personal",
+	"bio": "Fullstack Developer | Writer | JavaScript,TypeScript | Python",
+	"tags": [
+		"Open Source",
+		"JavaScript",
+		"TypeScript",
+		"Node.js",
+		"Next.js",
+		"React.js",
+		"Python"
+	],
+	"links": [
+		{
+			"name": "Check out my portfolio",
+			"url": "https://ronjeanfrancois.com/",
+			"icon": "FaLink"
+		},
+		{
+			"name": "Github - Open to collaborate",
+			"url": "https://github.com/ronthetech",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/ronjtech",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Let's connect on LinkedIn",
+			"url": "https://www.linkedin.com/in/ronjf/",
+			"icon": "FaLinkedin"
+		}
+	]
 }
