@@ -32,7 +32,7 @@ export default function Navbar() {
 
     if (currentTheme === 'dark') {
       return (
-        <button className=""
+        <button className="px-2"
           onClick={() => setTheme('light')}
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
@@ -42,7 +42,7 @@ export default function Navbar() {
       )
     } else {
       return (
-        <button className=""
+        <button className="px-2"
           onClick={() => setTheme('dark')}
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
@@ -231,6 +231,7 @@ export default function Navbar() {
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
+              {renderThemeChanger()}
                 <span className="text-gray-400">v{app.version}</span>
                 <div className="ml-3 mr-2 relative">
                   <Link
