@@ -20,7 +20,7 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      console.log(err);
+      console.error(error);
     }
   };
 
