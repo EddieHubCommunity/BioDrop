@@ -3,7 +3,7 @@ import Badge from "./Badge";
 
 export default function Tag({ name, total, selected, onClick }) {
   return (
-    <Badge content={abbreviateNumber(total)} display={!!total}>
+    <Badge content={abbreviateNumber(total)} display={!!total} badgeClassName={"translate-x-2/4 -translate-y-1/2"}>
       <div
         onClick={onClick}
         className={`flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 cursor-pointer shadow-none ${
