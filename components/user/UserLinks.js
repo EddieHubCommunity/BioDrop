@@ -25,10 +25,10 @@ export default function UserLinks({ BASE_URL, data }) {
                     key={name}
                   >
                     <div className="-ml-2 -mt-2 flex flex-wrap items-baseline">
-                      <h3 className="ml-2 mt-2 text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-gray-300 text-gray-900">
                         {name}
                       </h3>
-                      <p className="ml-2 mt-1 truncate text-sm text-gray-500">
+                      <p className="ml-2 mt-1 truncate text-sm dark:text-gray-400 text-gray-500">
                         ({buckets[name].length})
                       </p>
                     </div>
