@@ -2,9 +2,9 @@
   "name": "Mahfuz Ronnie",
   "type": "personal",
   "bio": "Aspiring Data Scientist",
-  
+
   "links": [
-  {
+    {
       "name": "GitHub",
       "url": "https://github.com/mahfuztbt",
       "icon": "FaGithub"
@@ -14,7 +14,7 @@
       "url": "https://www.linkedin.com/in/mahfuztbt/",
       "icon": "FaLinkedin"
     },
-  
+
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/mahfuztbt",
@@ -26,5 +26,4 @@
       "icon": "FaTwitter"
     }
   ]
-
 }
