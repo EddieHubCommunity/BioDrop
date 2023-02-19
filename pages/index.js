@@ -142,7 +142,7 @@ export default function Home({ total, today }) {
     {
       name: "Your Milestones",
       description:
-        "Demonstrate the highlights of your career by adding Milestones to your Profile",
+        "Demonstrate the highlights of your career by adding Milestones to your Profile.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
