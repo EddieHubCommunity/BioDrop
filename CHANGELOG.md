@@ -1,9 +1,9 @@
-# 1.89.0 (2023-02-19)
+# 1.90.0 (2023-02-19)
 
 
 ### Features
 
-* remove bounce effect on QR codes ([#4835](https://github.com/EddieHubCommunity/LinkFree/issues/4835)) ([52be532](https://github.com/EddieHubCommunity/LinkFree/commit/52be532470acbe022fbcfe2c9a785f9e4da2b066))
+* add reactmarkdown on use bio in map.js ([#4873](https://github.com/EddieHubCommunity/LinkFree/issues/4873)) ([6627abe](https://github.com/EddieHubCommunity/LinkFree/commit/6627abe2d68c95156aa663d6e8b5bf8901d0f63d))
 
 
 
