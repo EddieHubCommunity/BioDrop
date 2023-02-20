@@ -1,0 +1,27 @@
+import DocsLayout from "../../components/layouts/DocsLayout.js";
+import Link from "../../components/Link";
+
+## Understanding the LinkFree map
+
+This area will describe the linkfree map and answer common questions.
+
+## Technology
+
+In addition to the tech listed in the <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/README.md">readme</Link>, the map utilizes open source mapping library <Link href="https://leafletjs.com/">LeafletJS</Link> and <Link href="https://nominatim.openstreetmap.org/ui/search.html?q=">Nominatum</Link> by Open Street Map for retrieving Lat/Long values.
+
+## How do I add myself to the map?
+
+The map data is based on your <Link href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-your-location-and-time-zone">GitHub profile location</Link>. This data is refreshed every 7 days. If you have recently updated your GitHub profile, please wait for the data to refresh until after this period of time.
+
+## I have a location in my profile and it has been longer than 7 days but I still do not see myself.
+
+Test the <Link href="https://nominatim.openstreetmap.org/ui/search.html?q=">Nominatum API endpoint</Link> swith your exact profile location to see if it returns a value
+If yes, you may ask in Discord for someone to take a look
+
+## How can I contribute to this map?
+
+Contribution to the map or any other part of the LinkFree is detailed in the <Link href="/docs">contributing section</Link> of the docs page. We welcome all contributions.
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Map documentation">{children}</DocsLayout>
+);
