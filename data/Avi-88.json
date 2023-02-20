@@ -1,9 +1,8 @@
 {
   "name": "Avishkar Gunjal",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full stack web developer | Android with React Native | currently exploring and learning **opensource** and **DevOps**",
-  "avatar": "https://github.com/Avi-88.png",
+
   "tags": ["React", "NextJs", "React Native", "nodejs", "tailwindCSS"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/_4vii_" },

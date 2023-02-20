@@ -1,7 +1,6 @@
+name: Greeting
 on:
   fork:
-  push:
-    branches: [main]
   issues:
     types: [opened]
   issue_comment:

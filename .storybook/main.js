@@ -1,17 +1,22 @@
-module.exports = {
+const config = {
   stories: [
     "../stories/**/*.stories.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
-    "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions",
-    "storybook-addon-next",
+    "@storybook/addon-a11y",
+    "@tomfreudenberg/next-auth-mock/storybook",
   ],
   staticDirs: ["../public"],
-  framework: "@storybook/react",
-  core: {
-    builder: "@storybook/builder-webpack5",
+  framework: {
+    name: "@storybook/nextjs",
+    options: {},
   },
+  env: (config) => ({
+    ...config,
+    STORYBOOK_RUN: true,
+  }),
 };
+
+export default config

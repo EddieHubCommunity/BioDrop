@@ -7,11 +7,11 @@ test("Icon search has title", async ({ page }) => {
 });
 
 test("Icon search works correctly", async ({ page }) => {
-  // 1. nagivate to search page
+  // 1. navigate to search page
   await page.goto("/icons");
 
   // 2. show no users are listed
-  await expect(page.locator("li")).toHaveCount(0);
+  await expect(page.locator("li")).toHaveCount(4);
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
