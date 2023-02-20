@@ -14,7 +14,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/sumitisheree" },
     { "icon": "FaGithub", "url": "https://github.com/sumitmukharjeeeeee" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/"
+    }
   ],
   "links": [
     {
