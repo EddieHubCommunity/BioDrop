@@ -20,6 +20,10 @@
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/ibilalkayy"
+    },
+    {
+      "icon": "SiBuymeacoffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy"
     }
   ],
   "testimonials": [
@@ -58,6 +62,11 @@
       "name": "LinkedIn: Connect with me",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [

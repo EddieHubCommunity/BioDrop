@@ -66,7 +66,7 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
   } catch (e) {
-    console.log("ERROR get user's account statistics", e);
+    logger.error(e, "ERROR get user's account statistics");
   }
 
   return {
