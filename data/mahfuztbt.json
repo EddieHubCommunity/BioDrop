@@ -1,7 +1,13 @@
 {
   "name": "Mahfuz Ronnie",
   "type": "personal",
-  "bio": "Aspiring Data Scientist",
+  "bio": "Software Engineer | Aspiring Data Scientist",
+  "tags": [
+    "Artificial Intelligence", 
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science"
+    ],
 
   "links": [
     {
