@@ -1,22 +1,39 @@
 {
   "name": "Patrick Murimi",
   "type": "personal",
-  "bio": "I am a Junior Full Stack Developer doubling as a computer science student",
+  "bio": "I am a Junior Full Stack Web Developer, specializing in JavaScript | GDSC Web Lead | Postman Student Expert",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "React",
+    "Angular",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/grandrick001" },
+    { "icon": "FaGithub", "url": "https://github.com/grand-rick001" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/patrick-murimi/" }
+  ],
   "links": [
     {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/grandrick001",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/grand-rick001",
-      "icon": "FaGithub"
-    },
-    {
-      "name": "Let's connect on LinkedIn",
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/patrick-murimi/",
       "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate on Open Source",
+      "url": "https://github.com/grand-rick001",
+      "icon": "FaGithub"
     }
   ]
 }
