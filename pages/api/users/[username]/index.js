@@ -1,112 +1,39 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../../config/mongo";
 import logger from "../../../../config/logger";
 
 import Profile from "../../../../models/Profile";
-import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
 
+import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
+import getLocation from "../../../../services/profiles/getLocation";
+
 export default async function handler(req, res) {
-  let log;
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
   const { username } = req.query;
+  let log;
   log = logger.child({ username: username });
+  const data = findOneByUsernameFull(username);
 
-  const filePath = path.join(process.cwd(), "data", `${username}.json`);
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-    log.info(`data loaded for username: ${username}`);
-  } catch (e) {
-    log.error(e, `profile loading failed for username: ${username}`);
-    return res.status(404).json({});
-  }
-
-  if (data.testimonials) {
-    const filePathTestimonials = path.join(
-      process.cwd(),
-      "data",
-      username,
-      "testimonials"
-    );
-    const testimonials = data.testimonials.flatMap((testimonialUsername) => {
-      try {
-        const testimonial = {
-          ...JSON.parse(
-            fs.readFileSync(
-              path.join(filePathTestimonials, `${testimonialUsername}.json`),
-              "utf8"
-            )
-          ),
-          username: testimonialUsername,
-        };
-
-        // check testimonial author for LinkFree profile
-        try {
-          const filePath = path.join(
-            process.cwd(),
-            "data",
-            `${testimonialUsername}.json`
-          );
-          JSON.parse(fs.readFileSync(filePath, "utf8"));
-
-          return {
-            ...testimonial,
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonialUsername}`,
-          };
-        } catch (e) {
-          log.warn(
-            `testimonial ${testimonialUsername} loading failed for username: ${username}`
-          );
-          return {
-            ...testimonial,
-            url: `https://github.com/${testimonialUsername}`,
-          };
-        }
-      } catch (e) {
-        return [];
-      }
-    });
-    data = { ...data, testimonials };
-  }
-
-  const filePathEvents = path.join(process.cwd(), "data", username, "events");
-  let eventFiles = [];
-  try {
-    eventFiles = fs
-      .readdirSync(filePathEvents)
-      .filter((item) => item.includes("json"));
-  } catch (e) {
-    log.error(`loading events for ${username} in ${filePathEvents}`);
-  }
-  const events = eventFiles.flatMap((filename) => {
-    try {
-      const event = {
-        ...JSON.parse(
-          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
-        ),
-        username,
-      };
-
-      return event;
-    } catch (e) {
-      return [];
-    }
-  });
-  if (events.length) {
-    data = { ...data, events };
+  if (!data.username) {
+    logger.error(`failed loading profile username: ${username}`);
+    return res.status(404).json({ error: `${username} not found` });
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  const getProfile = await Profile.findOne({ username });
+  let getProfile = await Profile.findOne({ username });
+
   if (!getProfile) {
     try {
-      await Profile.create({
+      getProfile = await Profile.create({
         username,
         views: 1,
       });
@@ -128,8 +55,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(e, `app profile stats failed for ${username}`);
     }
-  }
-  if (getProfile) {
+  } else {
     try {
       await Profile.updateOne(
         {
@@ -143,7 +69,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        `failed to incremente profile stats for username: ${username}`
+        `failed to increment profile stats for username: ${username}`
       );
     }
   }
@@ -167,7 +93,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        "failed to increment profile stats for usernanme: ${username}"
+        "failed to increment profile stats for username: ${username}"
       );
     }
   }
@@ -219,29 +145,11 @@ export default async function handler(req, res) {
     }
   }
 
-  if (!data.displayStatsPublic) {
-    return res.status(200).json({ username, ...data });
-  }
-
   const latestProfile = await Profile.findOne({ username });
-  const links = await Link.find({ profile: latestProfile._id });
+  await getLocation(username, latestProfile);
+  const profileWithLocation = await Profile.findOne({ username });
 
-  const profileWithStats = {
-    username,
-    ...data,
-    views: latestProfile.views,
-    links: data.links.map((link) => {
-      const statFound = links.find((linkStats) => linkStats.url === link.url);
-      if (statFound) {
-        return {
-          ...link,
-          clicks: statFound.clicks,
-        };
-      }
-
-      return link;
-    }),
-  };
-
-  res.status(200).json(profileWithStats);
+  return res
+    .status(200)
+    .json({ username, ...data, location: profileWithLocation.location });
 }

@@ -1,12 +1,11 @@
-import fs from "fs";
-import path from "path";
-
 import connectMongo from "../../../../../config/mongo";
 import logger from "../../../../../config/logger";
 
 import Link from "../../../../../models/Link";
 import Profile from "../../../../../models/Profile";
+import LinkStats from "../../../../../models/LinkStats";
 import Stats from "../../../../../models/Stats";
+import findOneByUsernameBasic from "../../../../../services/profiles/findOneByUsernameBasic";
 
 export default async function handler(req, res) {
   await connectMongo();
@@ -19,14 +18,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  // load profile json file and check link
-  const filePath = path.join(process.cwd(), "data", `${username}.json`);
-  let data = {};
-  try {
-    data = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  } catch (e) {
-    logger.error(e, `failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `ERROR ${username} not found` });
+  const data = findOneByUsernameBasic(username);
+
+  if (!data.username) {
+    logger.error(`failed loading profile username: ${username}`);
+    return res.status(404).json({ error: `${username} not found` });
   }
 
   if (
@@ -109,7 +105,7 @@ export default async function handler(req, res) {
   try {
     getPlatformStats = await Stats.findOne({ date });
   } catch (e) {
-    logger.error(e, `failed finding platform stats for ${data}`);
+    logger.error(e, `failed finding ${date} platform stats for ${username}`);
   }
 
   if (getPlatformStats) {
@@ -123,7 +119,10 @@ export default async function handler(req, res) {
         }
       );
     } catch (e) {
-      logger.error(e, `failed incrementing platform stats for ${data}`);
+      logger.error(
+        e,
+        `failed incrementing ${date} platform stats for ${username}`
+      );
     }
   }
 
@@ -136,7 +135,47 @@ export default async function handler(req, res) {
         users: 0,
       });
     } catch (e) {
-      logger.error(e, `failed creating platform stats for ${data}`);
+      logger.error(
+        e,
+        `failed creating platform stats on ${date} for ${username}`
+      );
+    }
+  }
+
+  let getLinkDailyStats;
+  try {
+    getLinkDailyStats = await LinkStats.findOne({ username, url, date });
+  } catch (e) {
+    logger.error(e, `failed finding link stats on ${date} for ${username}`);
+  }
+
+  if (getLinkDailyStats) {
+    try {
+      await LinkStats.updateOne(
+        {
+          username,
+          date,
+          url,
+        },
+        {
+          $inc: { clicks: 1 },
+        }
+      );
+    } catch (e) {
+      logger.error(e, `failed incrementing platform stats for ${data}`);
+    }
+  }
+
+  if (!getLinkDailyStats) {
+    try {
+      await LinkStats.create({
+        username,
+        url,
+        date,
+        clicks: 1,
+      });
+    } catch (e) {
+      logger.error(e, `failed creating link stats on ${date} for ${username}`);
     }
   }
 

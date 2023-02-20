@@ -1,0 +1,44 @@
+{
+  "name": "Sumit Mukharjee",
+  "type": "personal",
+  "bio": "Final Year CS Undergrad, Front End Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React Js",
+    "GoLang",
+    "Java"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/sumitisheree" },
+    { "icon": "FaGithub", "url": "https://github.com/sumitmukharjeeeeee" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/sumitisheree",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/sumitmukharjeeeeee",
+      "icon": "FaGithub"
+    }
+  ]
+}

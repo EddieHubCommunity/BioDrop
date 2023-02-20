@@ -1,7 +1,6 @@
 {
   "name": "Vishal M",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source Enthusiast | DevOps | AWS | SRE | CSE Undergrad at PES University",
   "tags": [
     "Open Source",
@@ -12,7 +11,7 @@
     "SRE",
     "Tech Blogger"
   ],
-  "avatar": "https://github.com/VishalPraneeth.png",
+
   "links": [
     {
       "name": "Follow my Open Source journey",
