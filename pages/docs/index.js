@@ -279,6 +279,21 @@ export default function DocsIndex() {
           content="Discover more people in your LinkFree community"
         />
         <link rel="icon" href="/favicon.ico" />
+        <style>
+          {`
+            
+            .card {
+              border: 1px solid #e5e7eb;
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+              padding: 1rem;
+              transistion:0.5s ease-in-out;
+            }
+            .card:hover
+            {
+              transform:translateY(20px);
+            }
+          `}
+          </style>
       </Head>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Documentation</h1>
@@ -317,7 +332,7 @@ export default function DocsIndex() {
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div key={page.name}>
+                  <div key={page.name} className="card">
                     <div>
                       <span
                         className={classNames(
