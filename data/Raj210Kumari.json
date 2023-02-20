@@ -1,0 +1,27 @@
+{
+  "name": "Sara Jaoude",
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Raj210Kumari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my portfolio",
+      "url": "http://raj210kumari.github.io/",
+      "icon": "FaWeb"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Girl_WhoCode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/k-rajnandani210/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
