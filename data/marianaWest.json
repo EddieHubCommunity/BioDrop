@@ -1,9 +1,8 @@
 {
   "name": "Mariana Westphalen",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "MERN Stack Developer | Open Source Enthusiast | Creative Code Lover",
-  "avatar": "https://github.com/marianaWest.png",
+
   "tags": ["javascript", "react"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Mariana_West_" },

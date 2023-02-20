@@ -1,9 +1,8 @@
 {
   "name": "Bereket Lemma",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Programmer | CS Student ",
-  "avatar": "https://github.com/bereky.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/berek_et" },
     { "icon": "FaGithub", "url": "https://github.com/bereky" },
