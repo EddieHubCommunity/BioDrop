@@ -259,6 +259,16 @@ export default function DocsIndex() {
           },
         },
         {
+          name: "Map Information",
+          path: "/docs/map",
+          description:
+            "Information describing how the map feature works.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
           name: "FAQs",
           path: "/docs/faqs",
           description: "Commonly asked questions and answers.",
