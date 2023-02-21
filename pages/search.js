@@ -148,7 +148,7 @@ export default function Search({ data }) {
           <input
             placeholder="Search user by name or tags; eg: open source,reactjs"
             ref={inputRef}
-            className="border-2 hover:border-orange-600 outline-none dark:bg-gray-800 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+            className="border-2 hover:border-orange-600 dark:bg-gray-800 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
