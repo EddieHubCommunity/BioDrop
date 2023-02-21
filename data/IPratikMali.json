@@ -1,0 +1,19 @@
+{
+  "name": "Pratik Mali",
+  "displayStatsPublic" : true,
+  "type": "personal",
+  "bio": "Aspiring App-Dev",
+  "avatar" : "https://github.com/IPratikMali.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/IPratikMali",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/pratik-mali-6a16251a0/",
+      "icon": "SiLinkedin"
+    } 
+  ]
+}
