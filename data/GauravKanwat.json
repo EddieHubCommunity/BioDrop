@@ -1,0 +1,22 @@
+{
+  "name": "Gaurav Kanwat",
+  "type": "personal",
+  "bio": "Learning development, love travelling",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Kanwat_Gaurav1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/gauravkanwat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/gaurav-kanwat/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

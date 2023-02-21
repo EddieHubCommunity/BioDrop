@@ -1,7 +1,7 @@
 {
   "name": "Pravendra Kumar",
   "type": "personal",
-  "bio": "**Full Stack** Developer | Kean Learner",
+  "bio": "**Full Stack** Developer | OpenSource Enthusiast | Quick Learner",
   "tags": [
     "Javascript",
     "React",
@@ -12,7 +12,7 @@
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/pravendra93" },
-    { "icon": "FaGithub", "url": "https://github.com/prajapati55" }
+    { "icon": "FaGithub", "url": "https://github.com/pravendra93" }
   ],
 
   "links": [
@@ -23,7 +23,7 @@
     },
     {
       "name": "Connect with me on Github",
-      "url": "https://github.com/prajapati55",
+      "url": "https://github.com/pravendra93",
       "icon": "FaGithub"
     },
     {

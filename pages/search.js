@@ -143,6 +143,7 @@ export default function Search({ data }) {
           content={filteredUsers.length}
           display={!!filteredUsers}
           className="w-full"
+          badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <input
             placeholder="Search user by name or tags; eg: open source,reactjs"

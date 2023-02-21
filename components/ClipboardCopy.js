@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { onlyText } from "react-children-utilities";
-import logger from "../config/logger";
 
 const ClipboardCopy = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
@@ -21,7 +20,7 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      logger.error(error);
+      console.error(error);
     }
   };
 
