@@ -17,11 +17,6 @@ const config = {
     ...config,
     STORYBOOK_RUN: true,
   }),
-  webpackFinal: (config) => {
-    config.resolve.fallback.fs = false;
-
-    return config;
-  },
 };
 
 export default config
