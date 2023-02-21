@@ -10,13 +10,8 @@ import logger from "../config/logger";
 import SingleLayout from "../components/layouts/SingleLayout";
 import MultiLayout from "../components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
-import UserProfile from "../components/user/UserProfile";
-import UserTabs from "../components/user/UserTabs";
-import UserLinks from "../components/user/UserLinks";
-import UserMilestones from "../components/user/UserMilestones";
-import UserTestimonials from "../components/user/UserTestimonials";
-import UserEvents from "../components/user/UserEvents";
 import Page from "../components/Page";
+import UserPage from "../components/user/UserPage";
 
 export async function getServerSideProps(context) {
   const { req } = context;
@@ -48,40 +43,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ data, BASE_URL }) {
-  const [userData, setUserData] = useState(data);
-  const defaultTabs = [
-    { name: "My Links", href: "#", current: true, order: "ASC" },
-    { name: "Milestones", href: "#", current: false, order: "ASC" },
-    { name: "Testimonials", href: "#", current: false, order: "ASC" },
-    { name: "Events", href: "#", current: false, order: "ASC" },
-  ];
-  let displayTabs = defaultTabs.flatMap((tab) => {
-    if (tab.name === "My Links") {
-      if (userData.links && userData.links.length) {
-        return { ...tab, total: userData.links.length };
-      }
-      return [];
-    }
-    if (tab.name === "Milestones") {
-      if (userData.milestones && userData.milestones.length) {
-        return { ...tab, total: userData.milestones.length };
-      }
-      return [];
-    }
-    if (tab.name === "Testimonials") {
-      if (userData.testimonials && userData.testimonials.length) {
-        return { ...tab, total: userData.testimonials.length };
-      }
-      return [];
-    }
-    if (tab.name === "Events") {
-      if (userData.events && userData.events.length) {
-        return { ...tab, total: userData.events.length };
-      }
-      return [];
-    }
-  });
-  const [tabs, setTabs] = useState(displayTabs);
 
   return (
     <>
@@ -95,34 +56,7 @@ export default function User({ data, BASE_URL }) {
       />
 
       <Page>
-        <UserProfile data={userData} BASE_URL={BASE_URL} />
-
-        <UserTabs
-          tabs={tabs}
-          setTabs={setTabs}
-          userData={userData}
-          setUserData={setUserData}
-        />
-
-        {tabs.find((tab) => tab.name === "My Links") &&
-          tabs.find((tab) => tab.name === "My Links").current && (
-            <UserLinks data={userData} BASE_URL={BASE_URL} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Milestones") &&
-          tabs.find((tab) => tab.name === "Milestones").current && (
-            <UserMilestones data={userData} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Testimonials") &&
-          tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials data={userData} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Events") &&
-          tabs.find((tab) => tab.name === "Events").current && (
-            <UserEvents data={userData} />
-          )}
+        <userPage data={data} BASE_PATH={BASE_PATH} />
       </Page>
 
       <Link
