@@ -56,11 +56,11 @@ export default function User({ data, BASE_URL }) {
       />
 
       <Page>
-        <userPage data={data} BASE_PATH={BASE_PATH} />
+        <UserPage data={data} BASE_URL={BASE_URL} />
       </Page>
 
       <Link
-        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${userData.name}&name=${userData.username}`}
+        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -71,7 +71,7 @@ export default function User({ data, BASE_URL }) {
             <FaRegComments />
           </IconContext.Provider>
           <p className="text-sm font-medium">
-            Add testimonial for {userData.name}
+            Add testimonial for {data.name}
           </p>
         </div>
       </Link>
