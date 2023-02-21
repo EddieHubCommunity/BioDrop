@@ -142,7 +142,7 @@ export default function Home({ total, today }) {
     {
       name: "Your Milestones",
       description:
-        "Demonstrate the highlights of your career by adding Milestones to your Profile",
+        "Demonstrate the highlights of your career by adding Milestones to your Profile.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
@@ -173,6 +173,15 @@ export default function Home({ total, today }) {
       imageAlt:
         "LinkFree screenshot of community events section in the Community Section tab",
     },
+    {
+      name: "LinkFree Map",
+      description:
+        "Discover people around the world from the LinkFree Map.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
+      imageAlt:
+        "LinkFree screenshot of Map Page",
+    }
   ];
 
   function classNames(...classes) {

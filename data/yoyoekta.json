@@ -1,21 +1,21 @@
 {
-  "name": "Kamran Memon",
+  "name": "Ekta",
   "type": "personal",
-  "bio": "I am a frontend Developer working with Vue.js",
+  "bio": "Full Stack Web Developer | 3rd year Undergrad at DCRUST, Murthal",
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/kamranmemon25",
+      "url": "https://twitter.com/ekta_9290",
       "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/kamran-memon-1003a2111/",
+      "url": "https://linkedin.com/in/ekta9290",
       "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Github",
-      "url": "https://github.com/kammy1996",
+      "url": "https://github.com/yoyoekta",
       "icon": "FaGithub"
     }
   ]
