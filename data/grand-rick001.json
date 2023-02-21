@@ -13,7 +13,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/grandrick001" },
     { "icon": "FaGithub", "url": "https://github.com/grand-rick001" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/patrick-murimi/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/patrick-murimi/"
+    }
   ],
   "links": [
     {
