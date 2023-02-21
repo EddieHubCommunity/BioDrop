@@ -15,15 +15,26 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const {status, userData} = await getUserApi(req.query.username);
+  return res.status(status).json(userData);
+}
+
+
+export async function getUserApi(username) {
   await connectMongo();
-  const { username } = req.query;
+
   let log;
   log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
   if (!data.username) {
     logger.error(`failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `${username} not found` });
+    return {
+      status: 404,
+      userData: {
+        error: `${username} not found`
+      }
+    };
   }
 
   const date = new Date();
@@ -149,7 +160,14 @@ export default async function handler(req, res) {
   await getLocation(username, latestProfile);
   const profileWithLocation = await Profile.findOne({ username });
 
-  return res
-    .status(200)
-    .json({ username, ...data, location: profileWithLocation.location });
+  const retData = {
+    status: 200,
+    userData: {
+      username,
+      ...data,
+      location: profileWithLocation.location
+    }
+  };
+  
+  return JSON.parse(JSON.stringify(retData));
 }

@@ -3,6 +3,7 @@ import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
+import { getUserApi } from "./api/users/[username]/index";
 
 import PageHead from "../components/PageHead";
 import logger from "../config/logger";
@@ -24,14 +25,12 @@ export async function getServerSideProps(context) {
   log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
   let data = {};
 
-  try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
-    );
-    data = await resUser.json();
+  const { status, userData } = await getUserApi(username);
+  if(status === 200) {
+    data = userData;
     log.info(`data loaded for username: ${username}`);
-  } catch (e) {
-    log.error(e, `profile loading failed for username: ${username}`);
+  } else {
+    log.error(userData.error, `profile loading failed for username: ${username}`);
   }
 
   if (!data.username) {
