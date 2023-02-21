@@ -1,7 +1,4 @@
 import { useState } from "react";
-import { IconContext } from "react-icons";
-import { FaRegComments } from "react-icons/fa";
-
 
 import UserProfile from "./UserProfile";
 import UserTabs from "./UserTabs";

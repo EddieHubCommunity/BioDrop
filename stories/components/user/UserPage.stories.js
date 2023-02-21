@@ -16,6 +16,7 @@ export const Basic = {
   args: {
     data: {
       ...profile,
+      testimonials: [],
       views: 1,
       username: "eddiejaoude"
     },
