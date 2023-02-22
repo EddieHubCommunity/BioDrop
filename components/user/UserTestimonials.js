@@ -13,7 +13,7 @@ export default function UserTestimonials({ data }) {
       {data.testimonials &&
         data.testimonials.map((testimonial, key) => (
           <div
-            className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm dark:text-gray-300 dark:bg-[#233042] text-gray-500 dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
+            className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm dark:text-gray-300 dark:bg-dark text-gray-500 dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
             key={key}
           >
             <div className="flex items-center sm:px-4">

@@ -352,7 +352,7 @@ export default function Home({ total, today }) {
                     href={feature.path}
                     className="text-gray-900 group"
                   >
-                    <div className="flow-root rounded-lg bg-gray-50 dark:bg-[#233042] px-6 pb-8">
+                    <div className="flow-root rounded-lg bg-gray-50 dark:bg-dark px-6 pb-8">
                       <div className="-mt-6">
                         <div>
                           <span className="inline-flex items-center justify-center rounded-xl bg-indigo-500 p-3 shadow-lg">

@@ -8,7 +8,7 @@ export default function BasicCards({ data }) {
         (item) =>
           item.current > 0 && (
             <div
-              className="overflow-hidden rounded-lg bg-white dark:bg-[#233042] px-4 py-5 shadow sm:p-6"
+              className="overflow-hidden rounded-lg bg-white dark:bg-dark px-4 py-5 shadow sm:p-6"
               key={item.name}
             >
               <dt className="truncate text-sm font-medium text-gray-500 dark:text-gray-300">
