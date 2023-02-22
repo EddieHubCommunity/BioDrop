@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { useRouter } from "next/router";
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
@@ -7,6 +7,7 @@ import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 import Badge from "../components/Badge";
 import logger from "../config/logger";
+import { useDebounce } from "../services/utils/hooks";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -40,6 +41,7 @@ export default function Search({ data }) {
   const inputRef = useRef();
   const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
+ 
   const [notFound, setNotFound] = useState();
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
@@ -52,7 +54,7 @@ export default function Search({ data }) {
     }
   }, [username]);
 
-  const filterData = (value) => {
+  const filterData = useCallback((value) => {
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
 
@@ -79,7 +81,9 @@ export default function Search({ data }) {
     }
 
     setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
+  },[filteredUsers])
+
+  const debounce = useDebounce(filterData,500)
 
   const search = (keyword) => {
     if (!inputValue.length) {
@@ -100,17 +104,14 @@ export default function Search({ data }) {
     setInputValue(keyword);
   };
 
-  useEffect(() => {
-    if (!inputValue) {
-      return;
-    }
+ 
 
-    const timer = setTimeout(() => {
-      filterData(inputValue);
-    }, 500);
+  const handleChange=(e)=>{
+    const value = e.target.value
+    setInputValue(value)
+    debounce(value)
+  }
 
-    return () => clearTimeout(timer);
-  }, [inputValue]);
 
   return (
     <>
@@ -150,7 +151,7 @@ export default function Search({ data }) {
             ref={inputRef}
             className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
-            value={inputValue}
+            value={handleChange}
             onChange={(e) => setInputValue(e.target.value)}
           />
         </Badge>
