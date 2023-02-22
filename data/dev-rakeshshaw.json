@@ -1,32 +1,83 @@
 {
-  "name": "Rakesh Shaw",
-  "type": "personal",
-  "bio": "👋Upcoming Dev👋 | Success requires persistent practice, guided by patience.",
-  "links": [
-    {
-      "name": "View my Resume",
-      "url": "https://drive.google.com/file/d/1aBuysfNWHlq4BqacD-DVKsfDqglh6Drl/view",
-      "icon": "SiDocusign"
-    },
-    {
-      "name": "Follow me on GitHub",
-      "url": "https://github.com/dev-rakeshshaw",
-      "icon": "SiGithub"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/dev_rakeshshaw",
-      "icon": "SiTwitter"
-    },
-    {
-      "name": "Connect with me on Telegram",
-      "url": "https://t.me/dev_rakeshshaw",
-      "icon": "SiTelegram"
-    },
-    {
-      "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/rakesh-shaw-937514263/",
-      "icon": "SiLinkedin"
-    }
-  ]
+	"name": "Rakesh Shaw",
+	"type": "personal",
+	"bio": "👋**Upcoming Dev**👋 | Success requires persistent practice, guided by patience.",
+	"tags": [
+		"Open Source",
+		"Python",
+		"Streamlit",
+		"HTML",
+		"CSS",
+		"SQL",
+		"NoSQL"
+	],
+	"socials": [{
+			"icon": "FaTwitter",
+			"url": "https://twitter.com/dev_rakeshshaw"
+		},
+		{
+			"icon": "FaGithub",
+			"url": "https://github.com/dev-rakeshshaw"
+		},
+		{
+			"icon": "FaLinkedin",
+			"url": "https://www.linkedin.com/in/rakesh-shaw-937514263/"
+		}
+	],
+	"links": [{
+			"group": "Socials Primary",
+			"name": "View my Resume",
+			"url": "https://drive.google.com/file/d/1aBuysfNWHlq4BqacD-DVKsfDqglh6Drl/view",
+			"icon": "SiDocusign"
+		},
+		{
+			"group": "Socials Primary",
+			"name": "Follow me on GitHub",
+			"url": "https://github.com/dev-rakeshshaw",
+			"icon": "SiGithub"
+		},
+		{
+			"group": "Socials Primary",
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/dev_rakeshshaw",
+			"icon": "SiTwitter"
+		},
+		{
+			"group": "Socials Primary",
+			"name": "Connect with me on Telegram",
+			"url": "https://t.me/dev_rakeshshaw",
+			"icon": "SiTelegram"
+		},
+		{
+			"group": "Socials Primary",
+			"name": "Connect with me on LinkedIn",
+			"url": "https://www.linkedin.com/in/rakesh-shaw-937514263/",
+			"icon": "SiLinkedin"
+		}
+	],
+	"milestones": [{
+			"title": "Cleared the assessment for Python (Basic) from HackerRank",
+			"date": "10 Sep, 2020",
+			"icon": "FaCertificate",
+			"color": "green",
+			"description": "I cleared the assessment for Python (Basic) from HackerRank",
+			"url": "https://www.hackerrank.com/certificates/63b1317eed00"
+		},
+		{
+			"title": "Cleared the assessment for Python (Intermediate) from HackerRank",
+			"date": "11 Sep, 2020",
+			"icon": "FaCertificate",
+			"color": "green",
+			"description": "I cleared the assessment for Python (Intermediate) from HackerRank",
+			"url": "https://www.hackerrank.com/certificates/1e49ebfd770f"
+		},
+		{
+			"title": "Cleared the assessment for Python(Advanced) from HackerRank",
+			"date": "12 Sep, 2020",
+			"icon": "FaCertificate",
+			"color": "green",
+			"description": "I cleared the assessment for Python (Basic) from HackerRank",
+			"url": "https://www.hackerrank.com/certificates/7189fad890e8"
+		}
+	]
 }
