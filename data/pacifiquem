@@ -1,0 +1,23 @@
+{
+  "name": "Pacifique Murangwa",
+  "avatar":"https://github.com/pacifiquem.png",
+  "type": "personal",
+  "bio": "Open Source enthusiast FullStack Developer",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/pacifiquem",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linked",
+      "url": "https://www.linkedin.com/in/pacifique-murangwa-10394722b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PacifiqueMuran1",
+      "icon": "FaTwitter"
+    }
+  ]
+}
