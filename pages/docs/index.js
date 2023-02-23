@@ -72,6 +72,16 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Environment variables",
+          path: "/docs/environments/environment-variables",
+          description:
+            "To run the application you need to have environment variables set for the application to work correctly.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -246,6 +256,16 @@ export default function DocsIndex() {
           category: {
             name: "Advanced",
             color: "bg-red-100 text-red-800",
+          },
+        },
+        {
+          name: "Map Information",
+          path: "/docs/map",
+          description:
+            "Information describing how the map feature works.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
           },
         },
         {

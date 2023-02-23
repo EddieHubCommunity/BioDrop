@@ -9,14 +9,15 @@ const config = {
   },
 };
 
-let logger
+let logger;
 
 if (process.env.STORYBOOK_RUN) {
   logger = {
     child: console.log,
     info: console.log,
+    warn: console.log,
     error: console.log,
-  }
+  };
 } else {
   logger = PinoLogger.pino(
     process.env.NODE_ENV === "development" ? config : {}

@@ -1,0 +1,27 @@
+{
+  "name": "Abhishek Parmar",
+  "type": "public",
+  "bio": "A Web Dev Enthusiast who love open source",
+  "links": [
+    {
+      "name": "Let's Tweet",
+      "url": "https://twitter.com/helloworldwiz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow on Instagram",
+      "url": "https://www.instagram.com/2b_a_rancho/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Let's connect",
+      "url": "https://www.linkedin.com/in/abhishek-parmar-567422262",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Let's contribute",
+      "url": "https://twitter.com/GitWiz01",
+      "icon": "FaGithub"
+    }
+  ]
+}

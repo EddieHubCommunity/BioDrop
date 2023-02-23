@@ -1,7 +1,7 @@
 {
   "name": "Sagar Malhotra",
   "type": "personal",
-  "bio": "Android Developer + (AI && Open Source Enthusiast)",
+  "bio": "Android | Open Source | YouTube",
 
   "links": [
     {
@@ -16,12 +16,12 @@
     },
     {
       "name": "Follow me on YouTube",
-      "url": "https://www.youtube.com/c/SagarMalhotra0-0",
+      "url": "https://www.youtube.com/@Sagar0-0",
       "icon": "FaYoutube"
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/sagar-malhotra7015/",
+      "url": "https://www.linkedin.com/in/sagar0-0malhotra/",
       "icon": "FaLinkedin"
     }
   ]
