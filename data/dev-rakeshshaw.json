@@ -50,6 +50,13 @@
     }
   ],
   "milestones": [
+     {
+      "title": "Turning the Tassel: Celebrating the Achievements of Graduation",
+      "date": "10 Jun, 2019",
+      "icon": "FaUserGraduate",
+      "color": "black",
+      "description": "Successfully completed the program requirements and was awarded a Bachelor of Science degree with Honors in Computer Science."
+    },
     {
       "title": "Cleared the assessment for Python (Basic) from HackerRank",
       "date": "10 Sep, 2020",
