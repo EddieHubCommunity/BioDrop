@@ -144,7 +144,7 @@ export default function Search({ data }) {
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <SearchBar inputValue={inputValue} setInputValue={setInputValue} />
+          <SearchBar value={inputValue} onChange={setInputValue} />
         </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
