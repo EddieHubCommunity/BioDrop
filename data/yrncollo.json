@@ -39,12 +39,6 @@
     },
     {
       "group": "Socials Primary",
-      "name": "GitHub: Collaborate on Open Source",
-      "url": "https://github.com/yrncollo",
-      "icon": "FaGithub"
-    },
-    {
-      "group": "Socials Primary",
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/collins-ngeno",
       "icon": "FaLinkedin"
