@@ -17,6 +17,15 @@ import UserTestimonials from "../components/user/UserTestimonials";
 import UserEvents from "../components/user/UserEvents";
 import Page from "../components/Page";
 
+import { remark } from 'remark'
+import strip from 'strip-markdown'
+
+const convertToText = async (markdown) => {
+  const textOutput = await remark()
+    .use(strip)
+    .process(markdown)
+  return String(textOutput)
+}
 export async function getServerSideProps(context) {
   const { req } = context;
   const username = context.query.username;
@@ -83,12 +92,11 @@ export default function User({ data, BASE_URL }) {
     }
   });
   const [tabs, setTabs] = useState(displayTabs);
-
   return (
     <>
       <PageHead
         title={data.name}
-        description={data.bio}
+        description={convertToText(data.bio)}
         ogTitle={data.name}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
         ogImage={data.avatar}
