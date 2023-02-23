@@ -51,7 +51,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "postinstall": "ncp ./.env.example ./.env",
-    "create": "npx linkfree-cli"
+    "cli": "npx linkfree-cli"
   },
   "browserslist": {
     "production": [
@@ -82,7 +82,7 @@
     "eslint-config-next": "^13.1.6",
     "eslint-plugin-storybook": "^0.6.10",
     "husky": "^8.0.3",
-    "linkfree-cli": "^1.4.1",
+    "linkfree-cli": "^2.0.0",
     "lint-staged": "^13.1.0",
     "ncp": "^2.0.0",
     "postcss": "^8.4.21",
