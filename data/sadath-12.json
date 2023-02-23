@@ -2,18 +2,18 @@
   "name": "sadath-12",
   "type": "personal",
   "bio": "Full stack web dev , devops and a movie lover",
-   "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SyedSadathull17",
       "icon": "FaTwitter"
     },
-      {
+    {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/syed-sadath-9b987420b/",
       "icon": "FaLinkedin"
     },
-      {
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/sadath-12",
       "icon": "FaGithub"
