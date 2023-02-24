@@ -90,11 +90,18 @@ Looking for inspiration? You can view the following profiles for an example:
 - [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
 - [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
 
-# ⛩️ Testimonials
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are some testimonials from individuals who have used LinkFree:
+<!-- Testimonials STARTs Here -->
 
-## &nbsp;&nbsp;&nbsp;Francesco Ciulla
+
+## ⛩️ Testimonials
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are some testimonials from individuals who have used LinkFree:<br><br>
+
+<!-- Section 1 -->
+
+### &nbsp;&nbsp;&nbsp;&nbsp;Francesco Ciulla
 
 <p align="center">
   <img src="https://github.com/FrancescoXX.png" alt="Francesco Ciulla" width="200" height="200">
@@ -104,9 +111,11 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - **Name :** Francesco Ciulla
 - **Bio :** Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong><br>
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong><br><br>
 
-## &nbsp;&nbsp;&nbsp; Amanda Martin
+<!-- Section 2 -->
+
+### &nbsp;&nbsp;&nbsp;&nbsp; Amanda Martin
 
 <p align="center">
   <img src="https://github.com/amandamartin-dev.png" alt="Amanda Martin" width="200" height="200">
@@ -116,9 +125,12 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - **Name :** Amanda Martin
 - **Bio :** Developer Advocate | Always Curious | Always Silly
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong><br>
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong><br><br>
 
-## &nbsp;&nbsp;&nbsp; Pradumna Saraf
+
+<!-- Section 3 -->
+
+### &nbsp;&nbsp;&nbsp;&nbsp; Pradumna Saraf
 
 <p align="center">
   <img src="https://github.com/Pradumnasaraf.png" alt="Pradumna Saraf" width="200" height="200">
@@ -129,6 +141,9 @@ Looking for inspiration? You can view the following profiles for an example:
 - **Name :** Pradumna Saraf
 - **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
 - **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong><br>
+
+
+<!-- Testimonials ENDs Here -->
 
 
 ## 🛡️ License
