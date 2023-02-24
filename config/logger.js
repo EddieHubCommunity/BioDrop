@@ -9,7 +9,7 @@ const config = {
   },
 };
 
-let logger
+let logger;
 
 logger = PinoLogger.pino(
   process.env.NODE_ENV === "development" ? config : {}

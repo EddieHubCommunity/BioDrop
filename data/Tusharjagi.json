@@ -17,6 +17,16 @@
       "name": "Follow me on GitHub",
       "url": "https://github.com/Tusharjagi",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@tusharjagi",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Follow me on Dev",
+      "url": "https://dev.to/tusharjagi",
+      "icon": "FaDev"
     }
   ]
 }

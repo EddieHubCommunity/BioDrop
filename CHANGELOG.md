@@ -1,9 +1,9 @@
-# 1.92.0 (2023-02-21)
+## 1.93.4 (2023-02-24)
 
 
-### Features
+### Bug Fixes
 
-* map in homepage features ([#4991](https://github.com/EddieHubCommunity/LinkFree/issues/4991)) ([8bd74d5](https://github.com/EddieHubCommunity/LinkFree/commit/8bd74d5d99d383bb2f7d7bcdea5247f8a681ad9e))
+* social preview removing markdown from bio ([#5022](https://github.com/EddieHubCommunity/LinkFree/issues/5022)) ([cf13b97](https://github.com/EddieHubCommunity/LinkFree/commit/cf13b976263cc7c0f81f424fa0ee5242f8c69b62)), closes [#4898](https://github.com/EddieHubCommunity/LinkFree/issues/4898)
 
 
 
