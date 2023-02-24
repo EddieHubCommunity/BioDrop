@@ -2,7 +2,7 @@
   "name": "ADAMU MUHAMMAD MUHAMMAD",
   "type": "personal",
   "bio": "CS Student **open Source Advocate**. Lead open-source-learners",
-  "links": [ 
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/AdamsGeeky",
@@ -19,5 +19,4 @@
       "icon": "FaLinkedin"
     }
   ]
-
 }
