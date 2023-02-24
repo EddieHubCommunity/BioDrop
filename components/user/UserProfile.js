@@ -18,7 +18,7 @@ export default function UserProfile({ BASE_URL, data }) {
         <Badge
           content={<MdQrCode2 size="2em" />}
           position="bottom-left"
-          badgeClassName="animate-bounce cursor-pointer"
+          badgeClassName="cursor-pointer"
           onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
         >
           <FallbackImage

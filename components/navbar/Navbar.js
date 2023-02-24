@@ -113,7 +113,9 @@ export default function Navbar() {
             </div>
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
-                <span className="text-gray-400">v{app.version}</span>
+                <Link href="/changelog" className="text-gray-400">
+                  v{app.version}
+                </Link>
                 <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
@@ -193,7 +195,9 @@ export default function Navbar() {
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
-                <span className="text-gray-400">v{app.version}</span>
+                <Link href="/changelog" className="text-gray-400">
+                  v{app.version}
+                </Link>
                 <div className="ml-3 mr-2 relative">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
