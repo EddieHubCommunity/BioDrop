@@ -4,6 +4,8 @@ import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
 import { getUserApi } from "./api/users/[username]/index";
+import { remark } from "remark";
+import strip from "strip-markdown";
 
 import PageHead from "../components/PageHead";
 import logger from "../config/logger";
