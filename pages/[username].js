@@ -16,19 +16,13 @@ import UserPage from "../components/user/UserPage";
 export async function getServerSideProps(context) {
   const { req } = context;
   const username = context.query.username;
-  let log;
-  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
-  let data = {};
+  const log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
+
 
   const { status, userData } = await getUserApi(username);
-  if(status === 200) {
-    data = userData;
-    log.info(`data loaded for username: ${username}`);
-  } else {
+  if(status !== 200) {
     log.error(userData.error, `profile loading failed for username: ${username}`);
-  }
 
-  if (!data.username) {
     return {
       redirect: {
         destination: `/search?username=${username}`,
@@ -36,9 +30,11 @@ export async function getServerSideProps(context) {
       },
     };
   }
+  
+  log.info(`data loaded for username: ${username}`);
 
   return {
-    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: userData, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 

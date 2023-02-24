@@ -23,8 +23,7 @@ export default async function handler(req, res) {
 export async function getUserApi(username) {
   await connectMongo();
 
-  let log;
-  log = logger.child({ username: username });
+  const log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
   if (!data.username) {
