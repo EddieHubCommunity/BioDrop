@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.93.2",
+  "version": "1.93.3",
   "private": false,
   "homepage": "https://linkfree.eddiehub.io",
   "engines": {
@@ -82,7 +82,7 @@
     "eslint-config-next": "^13.1.6",
     "eslint-plugin-storybook": "^0.6.10",
     "husky": "^8.0.3",
-    "linkfree-cli": "^2.0.0",
+    "linkfree-cli": "^2.0.1",
     "lint-staged": "^13.1.0",
     "ncp": "^2.0.0",
     "postcss": "^8.4.21",
