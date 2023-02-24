@@ -2,7 +2,17 @@
   "name": "Subhadeep Chakraborty",
   "type": "personal",
   "bio": "Coding Enthusiast | Final Year Student | Student @ Narula Institute of Technology ",
-  "tags": ["Java", "ReactJS", "Javascript", "DSA", "HTML", "CSS", "Python", "C++", "dotNet"],
+  "tags": [
+    "Java",
+    "ReactJS",
+    "Javascript",
+    "DSA",
+    "HTML",
+    "CSS",
+    "Python",
+    "C++",
+    "dotNet"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/subhadeepzilong" },
     { "icon": "FaGithub", "url": "https://github.com/SubhadeepZilong" },

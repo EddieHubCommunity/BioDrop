@@ -1,9 +1,9 @@
-# 1.93.0 (2023-02-22)
+## 1.93.4 (2023-02-24)
 
 
-### Features
+### Bug Fixes
 
-* app testimonials [#4895](https://github.com/EddieHubCommunity/LinkFree/issues/4895) ([#5015](https://github.com/EddieHubCommunity/LinkFree/issues/5015)) ([e89d4d4](https://github.com/EddieHubCommunity/LinkFree/commit/e89d4d45351ec42831bd104012bc95c5d41305b9))
+* social preview removing markdown from bio ([#5022](https://github.com/EddieHubCommunity/LinkFree/issues/5022)) ([cf13b97](https://github.com/EddieHubCommunity/LinkFree/commit/cf13b976263cc7c0f81f424fa0ee5242f8c69b62)), closes [#4898](https://github.com/EddieHubCommunity/LinkFree/issues/4898)
 
 
 
