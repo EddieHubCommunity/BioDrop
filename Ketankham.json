@@ -1,0 +1,12 @@
+{
+  "name": "Ketan Khamgaonakar",
+  "type": "personal",
+  "bio": "A research scholar turned full stack developer and machine learning enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KKhamgaonkar",
+      "icon": "FaTwitter"
+    }
+  ]
+}
