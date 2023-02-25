@@ -3,6 +3,8 @@ import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
+import { remark } from "remark";
+import strip from "strip-markdown";
 
 import PageHead from "../components/PageHead";
 import logger from "../config/logger";
@@ -41,6 +43,12 @@ export async function getServerSideProps(context) {
         permanent: false,
       },
     };
+  }
+
+  try {
+    data.cleanBio = String(await remark().use(strip).process(data.bio));
+  } catch (e) {
+    log.error(e, `cannot strip markdown for: ${username}`);
   }
 
   return {
@@ -88,7 +96,7 @@ export default function User({ data, BASE_URL }) {
     <>
       <PageHead
         title={data.name}
-        description={data.bio}
+        description={data.cleanBio}
         ogTitle={data.name}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
         ogImage={data.avatar}
