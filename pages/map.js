@@ -77,7 +77,7 @@ export default function Map({ data }) {
 
     setFilteredUsers(results);
   };
-  console.log('FILTERED'+JSON.stringify(filteredUsers));
+
   return (
   <>
   <PageHead

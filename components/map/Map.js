@@ -7,7 +7,6 @@ import MarkerCluster from "./MarkerCluster";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function Map({ users }) {
-  console.log(users)
   return (
     <>
         <MapContainer
