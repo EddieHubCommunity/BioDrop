@@ -8,10 +8,10 @@
       "url": "https://twitter.com/kwame_saka",
       "icon": "FaTwitter"
     },
-  {
-    "name": "Github",
-    "url": "https://github.com/easaka",
-    "icon": "FaGithub"
-  }
+    {
+      "name": "Github",
+      "url": "https://github.com/easaka",
+      "icon": "FaGithub"
+    }
   ]
 }
