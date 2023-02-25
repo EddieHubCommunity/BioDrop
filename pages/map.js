@@ -37,6 +37,12 @@ export async function getServerSideProps() {
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
     );
     data.tags = await res.json();
+    data.tags = data.tags.filter(
+      (tag) => 
+      data.users.find(
+        (user) => 
+        user.tags.includes(tag.name))
+      );
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
