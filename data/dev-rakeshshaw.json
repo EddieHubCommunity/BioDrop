@@ -50,16 +50,24 @@
     }
   ],
   "milestones": [
+     {
+      "title": "Successfully completed the MLDL program offered by Ineuron.ai.",
+      "date": "28th Aug, 2022",
+      "icon": "FaCertificate",
+      "color": "black",
+      "description": "I have had the opportunity to expand my knowledge by learning a multitude of topics, including Machine Learning Algorithms, Python, API using Flask, Model Deployment in Heroku, databases such as MySQL and MongoDB Atlas, various statistical modules, and more. Additionally, I have applied my learning by creating a few end-to-end projects.",
+      "url": "https://drive.google.com/file/d/13qvvZlT3rzeZSAqHxCHr0SNaqMe7VJqI/view?usp=share_link"
+    },
     {
       "title": "Turning the Tassel: Celebrating the Achievements of Post Graduation",
-      "date": "24 Jun, 2022",
+      "date": "24th Jun, 2022",
       "icon": "FaUserGraduate",
       "color": "black",
       "description": "Successfully completed the program requirements and was awarded a Master of Science degree in Data Analytics."
     },
     {
       "title": "Participated in Google Cloud Community Days India, 2021",
-      "date": "22 Jan, 2021",
+      "date": "22th Jan, 2021",
       "icon": "SiGooglecloud",
       "color": "black",
       "description": "At Google Cloud Community Days India 2021, I had the valuable opportunity to gain knowledge on Cloud Technology and Google Cloud Certifications from esteemed industry professionals.",
@@ -67,22 +75,15 @@
     },
     {
       "title": "Participated in Codathon 2021 organised by NIT-Bhopal",
-      "date": "17 Jan, 2021",
+      "date": "17th Jan, 2021",
       "icon": "SiHackerearth",
       "color": "black",
       "description": "I had the privilege of participating in a hackathon for the first time, where I had the opportunity to interact with some of the brightest minds from NIT-Bhopal.",
       "url": "https://drive.google.com/file/d/10r0TnSWMvNvhzlofWuDuiN1C_tCaHOP5/view?usp=share_link"
     },
     {
-      "title": "Turning the Tassel: Celebrating the Achievements of Graduation",
-      "date": "10 Jun, 2019",
-      "icon": "FaUserGraduate",
-      "color": "black",
-      "description": "Successfully completed the program requirements and was awarded a Bachelor of Science degree with Honors in Computer Science."
-    },
-    {
       "title": "Cleared the assessment for Python (Basic) from HackerRank",
-      "date": "10 Sep, 2020",
+      "date": "10th Sep, 2020",
       "icon": "FaCertificate",
       "color": "green",
       "description": "I cleared the assessment for Python (Basic) from HackerRank",
@@ -90,7 +91,7 @@
     },
     {
       "title": "Cleared the assessment for Python (Intermediate) from HackerRank",
-      "date": "11 Sep, 2020",
+      "date": "11th Sep, 2020",
       "icon": "FaCertificate",
       "color": "green",
       "description": "I cleared the assessment for Python (Intermediate) from HackerRank",
@@ -98,11 +99,18 @@
     },
     {
       "title": "Cleared the assessment for Python(Advanced) from HackerRank",
-      "date": "12 Sep, 2020",
+      "date": "12th Sep, 2020",
       "icon": "FaCertificate",
       "color": "green",
       "description": "I cleared the assessment for Python (Basic) from HackerRank",
       "url": "https://www.hackerrank.com/certificates/7189fad890e8"
+    },
+    {
+      "title": "Turning the Tassel: Celebrating the Achievements of Graduation",
+      "date": "10th Jun, 2019",
+      "icon": "FaUserGraduate",
+      "color": "black",
+      "description": "Successfully completed the program requirements and was awarded a Bachelor of Science degree with Honors in Computer Science."
     }
   ]
 }
