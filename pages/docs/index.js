@@ -63,6 +63,16 @@ export default function DocsIndex() {
           },
         },
         {
+          name: "LinkFree CLI",
+          path: "/docs/environments/linkfree-cli",
+          description:
+            "This CLI tool will allow you to create profile, update profile, add testimonal and more from the command line.",
+          category: {
+            name: "Intermediate",
+            color: "bg-orange-100 text-orange-800",
+          },
+        },
+        {
           name: "Available icons",
           path: "/icons",
           description:
@@ -256,6 +266,16 @@ export default function DocsIndex() {
           category: {
             name: "Advanced",
             color: "bg-red-100 text-red-800",
+          },
+        },
+        {
+          name: "Map Information",
+          path: "/docs/map",
+          description:
+            "Information describing how the map feature works.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
           },
         },
         {
