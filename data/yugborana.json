@@ -1,0 +1,12 @@
+{
+  "name": "Yug Borana",
+  "type": "personal",
+  "bio": "Learning!!**."
+"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/yugb_twt",
+      "icon": "FaTwitter"
+    }
+  ]
+}
