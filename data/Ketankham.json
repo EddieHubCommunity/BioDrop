@@ -1,0 +1,14 @@
+{
+  "name": "Ketan Khamgaonkar",
+  "displayStatspublic":true,
+  "type": "personal",
+  "bio": "A research scholar turned no code developer, machine learning enthusiast and looking to make open source contributions",
+  "avatar": "https://github.com/Ketankham.png",\
+    "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KKhamgaonkar",
+      "icon": "FaTwitter"
+    }
+      ]
+}
