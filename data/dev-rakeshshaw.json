@@ -51,6 +51,14 @@
   ],
   "milestones": [
     {
+      "title": "Empowering Myself and Others: How Open Source Contribution and Linkfree Changed My Life",
+      "date": "6th Feb, 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "black",
+      "description": "In January 2023, I began learning about Open Source contribution. Firstly, I revised my Python concepts, and in addition, I learned Git and Github from YouTube. After that, I decided to learn the basics of Web Development, as it would help me understand open-source projects better. My first contribution was fixing a typo on a personal portfolio of a developer. Although my PR was rejected for some reasons, it was a great learning experience. Later on, I joined Twitter and learned about Eddie Jaoude's Linkfree project, which was open-source. It was a life-changing moment for me. Immediately, I started learning about it, and on February 14th, 2023, I made my second PR on the Linkfree repository. However, I closed the PR since I was not confident about my contributions. I took some time to learn more about Git, and on February 19th, 2023, I made a proper PR that was accepted. From that day onwards, I am actively contributing to two projects simultaneously.",
+      "url": "https://github.com/dev-rakeshshaw"
+    },
+    {
       "title": "Successfully completed the MLDL program offered by Ineuron.ai.",
       "date": "28th Aug, 2022",
       "icon": "FaCertificate",
