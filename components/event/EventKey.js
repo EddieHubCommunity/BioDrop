@@ -1,7 +1,12 @@
 import { IconContext } from "react-icons";
-import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
-import { MdOutlineOnlinePrediction, MdOutlinePeople, MdOutlineDoneAll, MdTimelapse } from "react-icons/md";
-import {RiCalendarTodoFill} from "react-icons/ri";
+import { FaMicrophoneAlt } from "react-icons/fa";
+import {
+  MdOutlineOnlinePrediction,
+  MdOutlinePeople,
+  MdOutlineDoneAll,
+  MdTimelapse,
+} from "react-icons/md";
+import { RiCalendarTodoFill } from "react-icons/ri";
 
 export default function EventKey({ categorisedEvents, onToggleEventType }) {
   const filters = [
