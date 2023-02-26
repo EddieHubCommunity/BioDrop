@@ -139,8 +139,8 @@ export default function Statistics({ data, profile }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Bar dataKey="views" fill="#82ca9d" />
                 <Tooltip />
+                <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>
           </div>
