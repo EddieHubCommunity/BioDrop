@@ -1,9 +1,9 @@
-## 1.94.1 (2023-02-26)
+## 1.94.2 (2023-02-26)
 
 
 ### Bug Fixes
 
-* future events filter ([#5086](https://github.com/EddieHubCommunity/LinkFree/issues/5086)) ([a65fa75](https://github.com/EddieHubCommunity/LinkFree/commit/a65fa758caaae3a6cfd1bd2db26afa3c6175903c))
+* chart display on hover bug ([#5092](https://github.com/EddieHubCommunity/LinkFree/issues/5092)) ([35f6dc9](https://github.com/EddieHubCommunity/LinkFree/commit/35f6dc9c593f391b7be3fca4b7fb233cd135b3b2))
 
 
 
