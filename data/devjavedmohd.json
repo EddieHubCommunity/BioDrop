@@ -13,7 +13,7 @@
     "Cloud"
   ],
   "socials": [
-    { "name" : "Twitter", "icon": "FaTwitter", "url": "https://twitter.com/devjavedmohd" },
-    { "name" : "Github", "icon": "FaGithub", "url": "https://github.com/devjavedmohd" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/devjavedmohd" },
+    { "icon": "FaGithub", "url": "https://github.com/devjavedmohd" }
   ],
 }
