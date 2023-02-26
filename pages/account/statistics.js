@@ -16,6 +16,7 @@ import Alert from "../../components/Alert";
 import Page from "../../components/Page";
 import PageHead from "../../components/PageHead";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
+import BasicCards from "../../components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {
   const session = await unstable_getServerSession(
@@ -47,7 +48,7 @@ export async function getServerSideProps(context) {
   if (!profile.username) {
     return {
       redirect: {
-        destination: "/account/create",
+        destination: "/account/no-profile",
         permanent: false,
       },
     };
@@ -65,7 +66,7 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
   } catch (e) {
-    console.log("ERROR get user's account statistics", e);
+    logger.error(e, "ERROR get user's account statistics");
   }
 
   return {
@@ -73,7 +74,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Search({ data, profile }) {
+export default function Statistics({ data, profile }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -85,6 +86,24 @@ export default function Search({ data, profile }) {
       ),
     };
   });
+
+  const cardData = [
+    {
+      name: "Total views",
+      current: data.profile.monthly,
+      total: data.profile.total,
+      delta: data.profile.total - data.profile.monthly,
+    },
+    {
+      name: "Total links",
+      current: data.links.individual.length,
+    },
+    {
+      name: "Total link clicks",
+      current: data.links.clicks,
+    },
+  ];
+
   return (
     <>
       <PageHead
@@ -98,10 +117,12 @@ export default function Search({ data, profile }) {
         </h1>
 
         {!data.links && (
-          <Alert type="info" message="You don't have a proile yet." />
+          <Alert type="info" message="You don't have a profile yet." />
         )}
 
-        <div className="border mb-6">
+        <BasicCards data={cardData} />
+
+        <div className="border my-6">
           <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
             <h3 className="text-lg font-medium leading-6 text-gray-900">
               Profile views
@@ -146,7 +167,7 @@ export default function Search({ data, profile }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                     {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">

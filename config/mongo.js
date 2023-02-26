@@ -3,7 +3,7 @@ import * as fs from "fs";
 
 import logger from "../config/logger";
 
-let hasConnection = false;
+let hasConnection;
 const connectMongo = async () => {
   if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
     throw new Error(
@@ -12,7 +12,7 @@ const connectMongo = async () => {
   }
 
   if (hasConnection) {
-    return;
+    return hasConnection;
   }
   try {
     // DigitalOcean Apps has cert as environment variable but Mongo needs a file path
@@ -21,9 +21,12 @@ const connectMongo = async () => {
       fs.writeFileSync("cert.pem", process.env.CA_CERT);
     }
 
-    await mongoose.connect(process.env.LINKFREE_MONGO_CONNECTION_STRING);
+    hasConnection = await mongoose.connect(
+      process.env.LINKFREE_MONGO_CONNECTION_STRING
+    );
     hasConnection = true;
     logger.info("MongoDB connected");
+    return hasConnection;
   } catch (e) {
     hasConnection = false;
     logger.error(e, "DB connection failed");

@@ -1,11 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
 import Page from "../components/Page";
 import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
+import Badge from "../components/Badge";
+import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -16,7 +17,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   try {
@@ -25,7 +26,7 @@ export async function getServerSideProps(context) {
     );
     data.tags = await res.json();
   } catch (e) {
-    console.log("ERROR loading tags", e);
+    logger.error(e, "ERROR loading tags");
   }
 
   return {
@@ -40,7 +41,6 @@ export default function Search({ data }) {
   const { username, keyword } = router.query;
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
-  const [threeOrMore, setThreeOrMore] = useState();
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
@@ -49,45 +49,36 @@ export default function Search({ data }) {
     inputRef.current.focus();
     if (username) {
       setNotFound(username);
-      setThreeOrMore(false);
     }
   }, [username]);
 
   const filterData = (value) => {
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
-    if (value.length < 3) {
-      setThreeOrMore(false);
-      setFilteredUsers(results);
+
+    results = users.filter((user) => {
+      if (user.name.toLowerCase().includes(valueLower)) {
+        return true;
+      }
+
+      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+
+      if (terms.every((keyword) => userTags?.includes(keyword))) {
+        return true;
+      }
+
+      return false;
+    });
+
+    if (!results.length) {
+      setNotFound(value);
+    }
+
+    if (results.length) {
       setNotFound();
     }
 
-    if (value.length >= 3) {
-      setThreeOrMore(true);
-      results = users.filter((user) => {
-        if (user.name.toLowerCase().includes(valueLower)) {
-          return true;
-        }
-
-        let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-        if (terms.every((keyword) => userTags?.includes(keyword))) {
-          return true;
-        }
-
-        return false;
-      });
-
-      if (!results.length) {
-        setNotFound(value);
-      }
-
-      if (results.length) {
-        setNotFound();
-      }
-
-      setFilteredUsers(results);
-    }
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
   };
 
   const search = (keyword) => {
@@ -110,9 +101,15 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
-    if (inputValue) {
-      filterData(inputValue);
+    if (!inputValue) {
+      return;
     }
+
+    const timer = setTimeout(() => {
+      filterData(inputValue);
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, [inputValue]);
 
   return (
@@ -134,14 +131,20 @@ export default function Search({ data }) {
                   name={tag.name}
                   total={tag.total}
                   selected={inputValue
-                    .toLowerCase().split(',')
+                    .toLowerCase()
+                    .split(",")
                     .includes(tag.name.toLowerCase())}
                   onClick={() => search(tag.name)}
                 />
               ))}
         </div>
 
-        <div className="relative">
+        <Badge
+          content={filteredUsers.length}
+          display={!!filteredUsers}
+          className="w-full"
+          badgeClassName={"translate-x-2/4 -translate-y-1/2"}
+        >
           <input
             placeholder="Search user by name or tags; eg: open source,reactjs"
             ref={inputRef}
@@ -150,21 +153,9 @@ export default function Search({ data }) {
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          {filteredUsers && (
-            <div className="absolute inline-block top-0 right-0 bottom-auto left-auto translate-x-1/4 -translate-y-1/3 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10">
-              {filteredUsers.length}
-            </div>
-          )}
-        </div>
+        </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
-
-        {!threeOrMore && (
-          <Alert
-            type="info"
-            message="You have to enter at least 3 characters to search for users,tags or languages."
-          />
-        )}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {filteredUsers.map((user) => (
             <li key={user.username}>

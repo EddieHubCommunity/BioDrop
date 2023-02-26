@@ -1,0 +1,160 @@
+{
+  "name": "Anmol Baranwal",
+  "type": "personal",
+  "bio": "Open Source | **Full Stack** Developer | UI Designer | **GitHub** Lover",
+
+  "tags": [
+    "Web Developer",
+    "Javascript",
+    "User Interface Designer",
+    "Open Source",
+    "DevOps",
+    "C++",
+    "DSA"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Anmol-Baranwal" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/heyanmolbaranwal/"
+    },
+    { "icon": "FaDribbble", "url": "https://dribbble.com/Anmol-Baranwal/" },
+    { "icon": "SiLeetcode", "url": "https://leetcode.com/anmol4coder/" },
+    { "icon": "SiGumroad", "url": "https://anmolbaranwal.gumroad.com/" }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Services - hire me for dev & design-related work",
+      "url": "https://www.upwork.com/freelancers/~010842271acf1bc3ab",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Social Presence",
+      "name": "GitHub: Follow me for new resources",
+      "url": "https://github.com/Anmol-Baranwal",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social Presence",
+      "name": "LinkedIn: Let's chat here",
+      "url": "https://www.linkedin.com/in/heyanmolbaranwal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Dribbble: Check my designs",
+      "url": "https://dribbble.com/Anmol-Baranwal/",
+      "icon": "FaDribbble"
+    },
+    {
+      "group": "Support My Work !!",
+      "name": "Buy me a Coffee: I will donate half to anyone in need",
+      "url": "https://www.buymeacoffee.com/heyanmol",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "group": "Support My Work !!",
+      "name": "Gumroad: 10x growth with these design assets",
+      "url": "https://anmolbaranwal.gumroad.com/",
+      "icon": "SiGumroad"
+    },
+    {
+      "group": "Resources for You !!",
+      "name": "Illustrations: Awesome List of 200+ free & paid illustrations",
+      "url": "https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects",
+      "icon": "FaFigma"
+    },
+    {
+      "group": "Resources for You !!",
+      "name": "Cool Ideas (free): Boost your GitHub Profile",
+      "url": "https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub",
+      "icon": "FaGift"
+    },
+    {
+      "group": "Others",
+      "name": "Discord: pin me to participate in hackathons",
+      "url": "https://discordapp.com/users/776749637826117640",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Others",
+      "name": "Leetcode: check my coding journey",
+      "url": "https://leetcode.com/anmol4coder/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Others",
+      "name": "Geeksforgeeks: check my coding journey",
+      "url": "https://auth.geeksforgeeks.org/user/anmolbaranwal119",
+      "icon": "SiGeeksforgeeks"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "MarQuest: completed 15 prizes",
+      "date": "2022",
+      "icon": "FaAward",
+      "color": "red",
+      "description": "Secured 15th prize with MarQuest conducted by **Management Development Institute (MDI), Gurgaon** under Imperium 2022 (8374 registrations)",
+      "url": "https://www.linkedin.com/posts/marquity_marquity-treasurehunt-marketing-activity-6902261286164426752-VBFT"
+    },
+    {
+      "title": "Best PIET Achiever Award",
+      "date": "2022",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "In the award ceremony of **Best PIET Achiever Awards** 2022, I received the 10th position(1600 students) after validation of 2 months by a panel of 5 judges",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_kudos-achiever-awards2022-activity-6921162278369144832-pTqA"
+    },
+    {
+      "title": "Completed two internships",
+      "date": "June 2022",
+      "icon": "FaWaze",
+      "color": "black",
+      "description": "Completed internship at **NICMAR (Pune)** under Dr. Avinash Bagul",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_internship2022-research-analysis-activity-6964216080428871680-aqS6"
+    },
+    {
+      "title": "Social Variable 3rd Prize",
+      "date": "November 2021",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "Powered by **Connecting Dreams Foundation** and **Amazon Web Services** by the CDF SRCC chapter (International Competition comprising four unique rounds)",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_third-prize-certificate-in-the-social-variable-activity-6876969548847947776-gYX-"
+    },
+    {
+      "title": "Finalist in National Level Technical Hackathon",
+      "date": "2021",
+      "icon": "SiCodeproject",
+      "color": "black",
+      "description": "Organized by the **Ministry of Education Innovation Cell** (64 teams from India)",
+      "url": "https://drive.google.com/drive/folders/1x_WpiIdhR5mUTqD1Y3oNZsDJ4QNZ95IP?usp=sharing"
+    },
+    {
+      "title": "Won 1st Competition (IIT Bombay)",
+      "date": "2021",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "3rd rank: conducted by SJMSOM and IIT Bombay on the topic of Vigilance Awareness",
+      "url": "https://www.facebook.com/Avenues.SJMSOM.IITB/posts/4408676002520439"
+    },
+    {
+      "title": "Selection in Super 30 Batch",
+      "date": "2020",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "Received a 100% scholarship after an extensive process over two months",
+      "url": "https://www.piet.co.in/PKAT-super30/"
+    },
+    {
+      "isGoal": true,
+      "title": "To solve 250 questions on Leetcode",
+      "date": "2023",
+      "icon": "SiTarget",
+      "color": "black",
+      "description": "Solving 250 questions on Leetcode with various data structures",
+      "url": "https://leetcode.com/anmol4coder/"
+    }
+  ]
+}
