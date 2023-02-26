@@ -1,9 +1,9 @@
-# 1.94.0 (2023-02-26)
+## 1.94.1 (2023-02-26)
 
 
-### Features
+### Bug Fixes
 
-* past events and filters ([#5084](https://github.com/EddieHubCommunity/LinkFree/issues/5084)) ([9d7fda2](https://github.com/EddieHubCommunity/LinkFree/commit/9d7fda292d17f2f22a98febb891a0494871278aa)), closes [#4574](https://github.com/EddieHubCommunity/LinkFree/issues/4574)
+* future events filter ([#5086](https://github.com/EddieHubCommunity/LinkFree/issues/5086)) ([a65fa75](https://github.com/EddieHubCommunity/LinkFree/commit/a65fa758caaae3a6cfd1bd2db26afa3c6175903c))
 
 
 
