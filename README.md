@@ -82,14 +82,6 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
----
-
-Looking for inspiration? You can view the following profiles for an example:
-
-- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
-- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
-- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
-
 
 <!-- Testimonials STARTs Here -->
 
@@ -97,11 +89,12 @@ Looking for inspiration? You can view the following profiles for an example:
 ## ⛩️ Testimonials
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here are some testimonials from individuals who have used LinkFree:<br><br>
+Here are some testimonials from individuals who have used LinkFree:- 
+
 
 <!-- Section 1 -->
 
-### &nbsp;&nbsp;&nbsp;&nbsp;Francesco Ciulla
+### Francesco Ciulla
 
 <p align="center">
   <img src="https://github.com/FrancescoXX.png" alt="Francesco Ciulla" width="200" height="200">
@@ -111,11 +104,11 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - **Name :** Francesco Ciulla
 - **Bio :** Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong><br><br>
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong>
 
 <!-- Section 2 -->
 
-### &nbsp;&nbsp;&nbsp;&nbsp; Amanda Martin
+### Amanda Martin
 
 <p align="center">
   <img src="https://github.com/amandamartin-dev.png" alt="Amanda Martin" width="200" height="200">
@@ -125,12 +118,12 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - **Name :** Amanda Martin
 - **Bio :** Developer Advocate | Always Curious | Always Silly
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong><br><br>
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong>
 
 
 <!-- Section 3 -->
 
-### &nbsp;&nbsp;&nbsp;&nbsp; Pradumna Saraf
+### Pradumna Saraf
 
 <p align="center">
   <img src="https://github.com/Pradumnasaraf.png" alt="Pradumna Saraf" width="200" height="200">
@@ -140,7 +133,7 @@ Looking for inspiration? You can view the following profiles for an example:
 
 - **Name :** Pradumna Saraf
 - **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong><br>
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
 
 <!-- Testimonials ENDs Here -->
