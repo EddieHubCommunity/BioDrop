@@ -8,17 +8,17 @@
   "links": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/singh_vaibhav08",
+      "url": "https://twitter.com/VaibhavSinghDev",
       "icon": "FaTwitter"
     },
     {
       "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/singh-vaibhav08",
+      "url": "https://www.linkedin.com/in/vaibhavsinghdev",
       "icon": "FaLinkedin"
     },
     {
       "name": "Github",
-      "url": "https://github.com/singh-vaibhav08",
+      "url": "https://github.com/VaibhavSinghDev",
       "icon": "FaGithub"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "Dev.to",
-      "url": "https://dev.to/singh_vaibhav08",
+      "url": "https://dev.to/vaibhavsinghdev",
       "icon": "FaDev"
     }
   ],
