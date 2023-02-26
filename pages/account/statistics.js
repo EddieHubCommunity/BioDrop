@@ -66,7 +66,7 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
   } catch (e) {
-    console.log("ERROR get user's account statistics", e);
+    logger.error(e, "ERROR get user's account statistics");
   }
 
   return {
@@ -167,7 +167,7 @@ export default function Statistics({ data, profile }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                     {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">

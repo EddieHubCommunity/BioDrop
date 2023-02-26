@@ -61,7 +61,7 @@ Before contributing or adding a new feature, please make sure you have already i
 You can set this up locally with the following steps:
 
 1. copy the `.env.example` file to `.env` and update any details required
-1. MongoDB is required, it is possible to use `docker-compose up` to start the MongoDB service
+1. MongoDB is required, it is possible to use `docker compose up` to start the MongoDB service
 1. `npm ci`
 1. `npm run dev`
 

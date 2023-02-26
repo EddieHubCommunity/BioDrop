@@ -1,9 +1,9 @@
-## 1.86.2 (2023-02-12)
+## 1.94.1 (2023-02-26)
 
 
 ### Bug Fixes
 
-* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
+* future events filter ([#5086](https://github.com/EddieHubCommunity/LinkFree/issues/5086)) ([a65fa75](https://github.com/EddieHubCommunity/LinkFree/commit/a65fa758caaae3a6cfd1bd2db26afa3c6175903c))
 
 
 

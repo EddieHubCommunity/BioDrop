@@ -2,7 +2,7 @@
   "name": "Aditya Dafe",
   "type": "personal",
   "bio": "**CS UnderGrad** && **Open soure Enthusiast** ",
-  "tags": [ "Open Source", "Tech"],
+  "tags": ["Open Source", "Tech"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -10,10 +10,9 @@
       "icon": "FaTwitter"
     },
     {
-      "name":"Connect with me on LinkedIn",
-      "url":"https://www.linkedin.com/in/aditya-dafe-601a2a243/",
-      "icon":"SiLinkedin"
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-dafe-601a2a243/",
+      "icon": "SiLinkedin"
     }
-    
   ]
 }

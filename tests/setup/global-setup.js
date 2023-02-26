@@ -3,6 +3,7 @@ import fs from "fs";
 
 const { USERS } = require("./test-users.js");
 import icons from "../../config/icons.json";
+import logger from "../../config/logger";
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
@@ -45,7 +46,7 @@ module.exports = async (config) => {
     try {
       fs.writeFileSync(`./data/${username}.json`, JSON.stringify(data));
     } catch (e) {
-      console.log(e);
+      logger.error(e);
       throw new Error(`Test data "${username}" not created`);
     }
   });
@@ -53,7 +54,7 @@ module.exports = async (config) => {
   try {
     fs.writeFileSync(`./data/_test-wcag-user.json`, JSON.stringify(wcagUser));
   } catch (e) {
-    console.log(e);
+    logger.error(e);
     throw new Error(`Test data "_test-wcag-user" not created`);
   }
 };

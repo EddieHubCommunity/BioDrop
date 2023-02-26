@@ -1,7 +1,7 @@
 {
   "name": "Shubh Sharma",
   "type": "personal",
-  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Designer and Content Creator | Tech Blogger | Music Producer",
+  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Content Creator | Tech Writer | Music Producer",
   "tags": [
     "Open Source",
     "Content Creation",
@@ -27,10 +27,6 @@
     {
       "icon": "FaInstagram",
       "url": "https://instagram.com/code.shubh/"
-    },
-    {
-      "icon": "FaYoutube",
-      "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA"
     }
   ],
   "links": [
@@ -40,7 +36,7 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Threads about Tech and Random Talk",
+      "name": "Threads about tech",
       "url": "https://twitter.com/code_shubh",
       "icon": "FaTwitter"
     },
@@ -60,12 +56,12 @@
       "icon": "FaInstagram"
     },
     {
-      "name": "My YouTube",
-      "url": "https://www.youtube.com/channel/UCstK23e40gGC7VbqNJW6AjA",
+      "name": "My Music",
+      "url": "https://www.youtube.com/sikstepmusic",
       "icon": "FaYoutube"
     },
     {
-      "name": "Support my work",
+      "name": "Support my work :)",
       "url": "https://ko-fi.com/shubhsharma19",
       "icon": "SiBuymeacoffee"
     }
