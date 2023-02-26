@@ -2,6 +2,15 @@
   "name": "Shaik Dadapeer",
   "type": "public",
   "bio": "Computer Science student just starting out with open source and soon be landing on a remote job",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Java",
+    "React",
+    "Python",
+    "Docker",
+    "Kubernetes"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
