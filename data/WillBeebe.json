@@ -20,6 +20,10 @@
       {
          "icon":"FaGithub",
          "url":"https://github.com/WillBeebe"
+      },
+      {
+         "icon":"FaInstagram",
+         "url":"https://www.instagram.com/ld_photo_co/"
       }
    ],
    "links":[
@@ -34,10 +38,15 @@
          "icon":"FaLinkedin"
       },
       {
-         "name":"Buy Me A Coffee",
+         "name":"Yeet Me A Coffee",
          "url":"https://www.buymeacoffee.com/willbeebeT",
          "icon":"FaLink"
-      }
+      },
+      {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ld_photo_co/",
+      "icon": "FaInstagram"
+    }
    ],
    "milestones":[
       {
