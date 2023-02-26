@@ -6,11 +6,12 @@ import EventKey from "../event/EventKey";
 
 export default function UserEvents({ data }) {
   const [eventType, seteventType] = useState("future");
+  const futureEvents = data.events.filter(
+    (event) => new Date(event.date.start) > new Date()
+  );
 
   let categorisedEvents = {
-    future: data.events.filter(
-      (event) => new Date(event.date.start) > new Date()
-    ),
+    future: futureEvents,
     ongoing: data.events.filter(
       (event) =>
         new Date(event.date.start) < new Date() &&
