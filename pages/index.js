@@ -1,5 +1,7 @@
 import Link from "../components/Link";
 import Image from "next/image";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -29,23 +31,30 @@ export async function getServerSideProps(context) {
   }
 
   let total = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
-    );
-    total = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR total stats not found ");
+  const {statusCode, totalStats} = await getTotalStats();
+  if (statusCode !== 200) {
+    logger.error(totalStats.error, "ERROR total stats not found ");
+    total = {
+      views: 0,
+      clicks: 0,
+      users:  0,
+      active:  0,
+    }
+  } else {
+    total = totalStats;
   }
 
   let today = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/today`
-    );
-    today = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR today stats not found");
+  const {statusCode: status, todayStats} = await getTodayStats();
+  if (status !== 200) {
+    logger.error(todayStats.error, "ERROR today stats not found");
+    today = {
+      views: 0,
+      clicks: 0,
+      users: 0,
+    };
+  } else {
+    today = todayStats;
   }
 
   return {
@@ -305,7 +314,7 @@ export default function Home({ total, today }) {
             </h2>
             <p className="mt-4 text-white">
               It is not just links... Take a look at the Features you can add to
-              customise your LinkFree Profile.
+              customize your LinkFree Profile.
             </p>
           </div>
 

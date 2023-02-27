@@ -13,6 +13,13 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const {statusCode, todayStats} = await getTotalStats();
+  return res
+    .status(statusCode)
+    .json(totalStats);
+}
+
+export async function getTotalStats(){
   await connectMongo();
 
   let dailyStats = [];
@@ -53,5 +60,8 @@ export default async function handler(req, res) {
     active: activeProfiles || 0,
   };
 
-  res.status(200).json(data);
+  return {
+    statusCode: 200,
+    totalStats: data
+  };
 }
