@@ -82,15 +82,11 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
-
 <!-- Testimonials STARTs Here -->
-
 
 ## ⛩️ Testimonials
 
-
 Here are some testimonials from individuals who have used LinkFree:- 
-
 
 <!-- Section 1 -->
 
@@ -120,7 +116,6 @@ Here are some testimonials from individuals who have used LinkFree:-
 - **Bio :** Developer Advocate | Always Curious | Always Silly
 - **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong>
 
-
 <!-- Section 3 -->
 
 ### Pradumna Saraf
@@ -135,9 +130,7 @@ Here are some testimonials from individuals who have used LinkFree:-
 - **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
 - **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
-
 <!-- Testimonials ENDs Here -->
-
 
 ## 🛡️ License
 
