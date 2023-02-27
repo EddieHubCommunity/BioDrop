@@ -19,6 +19,11 @@
       "name": "Watch my videos on YouTube",
       "url": "https://youtube.com/@thelazycoder64",
       "icon": "FaYoutube"
+    },
+    {
+      "name": "Check out my Projects on GitHub",
+      "url": "https://github.com/Judeadeniji",
+      "icon": "FaGithub"
     }
 
   ]
