@@ -1,0 +1,22 @@
+{
+  "name": "Shaik Dadapeer",
+  "type": "public",
+  "bio": "Computer Science student just starting out with open source and soon be landing on a remote job",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Dadudev1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/ig.dadu",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/DaduDev",
+      "icon": "FaGithub"
+    }
+  ]
+}

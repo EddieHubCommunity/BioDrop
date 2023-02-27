@@ -1,9 +1,9 @@
-## 1.93.4 (2023-02-24)
+## 1.94.1 (2023-02-26)
 
 
 ### Bug Fixes
 
-* social preview removing markdown from bio ([#5022](https://github.com/EddieHubCommunity/LinkFree/issues/5022)) ([cf13b97](https://github.com/EddieHubCommunity/LinkFree/commit/cf13b976263cc7c0f81f424fa0ee5242f8c69b62)), closes [#4898](https://github.com/EddieHubCommunity/LinkFree/issues/4898)
+* future events filter ([#5086](https://github.com/EddieHubCommunity/LinkFree/issues/5086)) ([a65fa75](https://github.com/EddieHubCommunity/LinkFree/commit/a65fa758caaae3a6cfd1bd2db26afa3c6175903c))
 
 
 
