@@ -1,3 +1,4 @@
+import { getEventListeners } from "events";
 import fs from "fs";
 import path from "path";
 
@@ -10,6 +11,13 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const {statusCode, events} = await getEvents();
+  return res
+    .json(statusCode)
+    .json(events);
+}
+
+export async function getEvents() {
   const directoryPath = path.join(process.cwd(), "data");
 
   let userFolders;
@@ -19,6 +27,12 @@ export default async function handler(req, res) {
       .filter((item) => !item.includes("json"));
   } catch (e) {
     logger.error(e, "failed to load profiles");
+    return {
+      statusCode: 400,
+      events: {
+        error: "failed to load profiles"
+      }
+    }
   }
 
   const events = userFolders.flatMap((folder) => {
@@ -53,5 +67,10 @@ export default async function handler(req, res) {
     .filter((event) => new Date(event.date.end) > new Date())
     .sort((a, b) => new Date(a.date.start) - new Date(b.date.start));
 
-  res.status(200).json(eventsFiltered);
+  return {
+    statusCode: 200,
+    events: {
+      eventsArray: eventsFiltered
+    }
+  }
 }

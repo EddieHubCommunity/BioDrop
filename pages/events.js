@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import { getEvents } from "./api/events";
 
 import EventCard from "../components/event/EventCard";
 import Page from "../components/Page";
@@ -10,21 +11,23 @@ import Badge from "../components/Badge";
 import logger from "../config/logger";
 
 export async function getServerSideProps(context) {
-  let events = [];
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
-    events = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR search users");
+  let eventsArray = [];
+  const {statusCode, events} = await getEvents();
+  if (statusCode !== 200) {
+    logger.error(events.error, "ERROR get events");
+  } else {
+    eventsArray = events.eventsArray;
   }
 
   return {
-    props: { events },
+    props: {
+      events: eventsArray
+    },
   };
 }
 
 export default function Events({ events }) {
-  let categorisedEvents = {
+  let categorizedEvents = {
     all: events,
     virtual: events.filter((event) => event.isVirtual === true),
     inPerson: events.filter((event) => event.isInPerson === true),
@@ -38,28 +41,28 @@ export default function Events({ events }) {
       description: "List all events with no filters",
       key: "all",
       icon: FaListUl,
-      total: categorisedEvents.all.length,
+      total: categorizedEvents.all.length,
     },
     {
       title: "CFP open",
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
       icon: FaMicrophoneAlt,
-      total: categorisedEvents.cfpOpen.length,
+      total: categorizedEvents.cfpOpen.length,
     },
     {
       title: "In person",
       description: "These are in person events",
       key: "inPerson",
       icon: MdOutlinePeople,
-      total: categorisedEvents.inPerson.length,
+      total: categorizedEvents.inPerson.length,
     },
     {
       title: "Virtual",
       description: "Held virtually online event",
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
-      total: categorisedEvents.virtual.length,
+      total: categorizedEvents.virtual.length,
     },
   ];
 
@@ -94,7 +97,7 @@ export default function Events({ events }) {
             {filters.find((filter) => filter.key === eventType).description}
           </h2>
 
-          {categorisedEvents[eventType]?.map((event) => (
+          {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
               username={event.username}
