@@ -1,16 +1,8 @@
 {
   "name": "Aaditya Champaneri || Aadi ",
   "type": "personal",
-  "bio": "Artist By Choice, Engineer By Default | Python Developer",
-
-  "tags": [
-    "Python",
-    "Machine Learning",
-    "Open Source",
-    "Marketing",
-    "Communities"
-  ],
-
+  "bio": "Artist By Choice, Engineer By Default | Python Developer", 
+  "tags": [ "Python", "Machine Learning", "Open Source", "Marketing", "Communities"],
   "links": [
     {
       "name": "Follow me on Twitter",
