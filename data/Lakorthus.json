@@ -31,8 +31,8 @@
     },
     {
       "group": "Socials Primary",
-      "name": "YouTube: Learn more about Open Source",
-      "url": "https://youtube.com/Lakorthus",
+      "name": "YouTube: Learn more about Frontend",
+      "url": "https://www.youtube.com/channel/UCGa_J2FKCsrE0_6-42TH4QA",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
@@ -88,7 +88,7 @@
       "date": "2022",
       "icon": "FaGithub",
       "color": "green",
-      "description": "I am 50% of the way through a project to connect people and help them to learn pair Programming",
+      "description": "I am 80% of the way through a project to connect people and help them to learn pair Programming",
       "url": "http://codigoclub.co.uk"
     }
   ]
