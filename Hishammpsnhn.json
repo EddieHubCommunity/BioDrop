@@ -1,0 +1,12 @@
+{
+  "name": "Mohammed Hisham",
+  "type": "personal",
+  "bio": "Self-taught js developer",
+  "links": [
+    {
+      "name": "Follow me on Linkdin",
+      "url": "https://www.linkedin.com/in/mohammad-hisham-b14296228/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
