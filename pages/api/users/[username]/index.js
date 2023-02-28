@@ -9,16 +9,15 @@ import findOneByUsernameFull from "../../../../services/profiles/findOneByUserna
 import getLocation from "../../../../services/profiles/getLocation";
 
 export default async function handler(req, res) {
-  if (req.method != "GET") {
+  if (req.method != "GET" || !req.query.username) {
     return res
       .status(400)
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const {status, userData} = await getUserApi(req.query.username);
-  return res.status(status).json(userData);
+  const { status, profile } = await getUserApi(req.query.username);
+  return res.status(status).json(profile);
 }
-
 
 export async function getUserApi(username) {
   await connectMongo();
@@ -30,9 +29,9 @@ export async function getUserApi(username) {
     logger.error(`failed loading profile username: ${username}`);
     return {
       status: 404,
-      userData: {
-        error: `${username} not found`
-      }
+      profile: {
+        error: `${username} not found`,
+      },
     };
   }
 
@@ -65,7 +64,9 @@ export async function getUserApi(username) {
     } catch (e) {
       log.error(e, `app profile stats failed for ${username}`);
     }
-  } else {
+  }
+
+  if (getProfile) {
     try {
       await Profile.updateOne(
         {
@@ -107,6 +108,7 @@ export async function getUserApi(username) {
       );
     }
   }
+
   if (!getProfileStats) {
     try {
       await ProfileStats.create({
@@ -159,14 +161,14 @@ export async function getUserApi(username) {
   await getLocation(username, latestProfile);
   const profileWithLocation = await Profile.findOne({ username });
 
-  const retData = {
-    status: 200,
-    userData: {
-      username,
-      ...data,
-      location: profileWithLocation.location
-    }
-  };
-  
-  return JSON.parse(JSON.stringify(retData));
+  return JSON.parse(
+    JSON.stringify({
+      status: 200,
+      profile: {
+        username,
+        ...data,
+        location: profileWithLocation.location,
+      },
+    })
+  );
 }

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
@@ -18,12 +17,17 @@ import UserPage from "../components/user/UserPage";
 export async function getServerSideProps(context) {
   const { req } = context;
   const username = context.query.username;
-  const log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
+  const log = logger.child({
+    username: username,
+    ip: requestIp.getClientIp(req),
+  });
 
-
-  const { status, userData } = await getUserApi(username);
-  if(status !== 200) {
-    log.error(userData.error, `profile loading failed for username: ${username}`);
+  const { status, profile } = await getUserApi(username);
+  if (status !== 200) {
+    log.error(
+      profile.error,
+      `profile loading failed for username: ${username}`
+    );
 
     return {
       redirect: {
@@ -32,22 +36,21 @@ export async function getServerSideProps(context) {
       },
     };
   }
-  
+
   log.info(`data loaded for username: ${username}`);
 
   try {
-    data.cleanBio = String(await remark().use(strip).process(data.bio));
+    profile.cleanBio = String(await remark().use(strip).process(profile.bio));
   } catch (e) {
     log.error(e, `cannot strip markdown for: ${username}`);
   }
 
   return {
-    props: { data: userData, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
 export default function User({ data, BASE_URL }) {
-
   return (
     <>
       <PageHead
@@ -74,9 +77,7 @@ export default function User({ data, BASE_URL }) {
           >
             <FaRegComments />
           </IconContext.Provider>
-          <p className="text-sm font-medium">
-            Add testimonial for {data.name}
-          </p>
+          <p className="text-sm font-medium">Add testimonial for {data.name}</p>
         </div>
       </Link>
     </>

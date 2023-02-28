@@ -56,8 +56,7 @@ export default function UserPage({ data, BASE_URL }) {
       {tabs.find((tab) => tab.name === "My Links") &&
         tabs.find((tab) => tab.name === "My Links").current && (
           <UserLinks data={userData} BASE_URL={BASE_URL} />
-        )
-        }
+        )}
       {tabs.find((tab) => tab.name === "Milestones") &&
         tabs.find((tab) => tab.name === "Milestones").current && (
           <UserMilestones data={userData} />
@@ -72,8 +71,6 @@ export default function UserPage({ data, BASE_URL }) {
         tabs.find((tab) => tab.name === "Events").current && (
           <UserEvents data={userData} />
         )}
-
     </>
   );
 }
-
