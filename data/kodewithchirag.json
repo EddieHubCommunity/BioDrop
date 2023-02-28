@@ -2,7 +2,7 @@
   "name": "Chirag Chhuchha (Kode with Chirag)",
   "type": "personal",
   "bio": "Full Stack Developer",
-  "avatar": "https://github.com/kodewithchirag.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -45,7 +45,7 @@
     },
     {
       "title": "Active on Twitter",
-      "image": "https://github.com/kodewithchirag.png",
+
       "date": "August 2021",
       "icon": "FaTwitter",
       "color": "black",

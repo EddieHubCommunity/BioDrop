@@ -1,0 +1,12 @@
+{
+  "name": "Obaid Ashfaq",
+  "type": "personal",
+  "bio": "a Ruby developer who is enthusiastic about writing clean code",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/obaidashfaq20",
+      "icon": "FaTwitter"
+    }
+  ]
+}

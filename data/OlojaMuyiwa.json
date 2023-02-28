@@ -1,10 +1,9 @@
 {
   "name": "Oloja Muyiwa",
-  "displayStatsPublic": true,
   "type": "personal",
 
   "bio": "Software Developer and Linux Enthusiasts",
-  "avatar": "https://github.com/OlojaMuyiwa.png",
+
   "tags": [
     "Javascript",
     "React",
@@ -17,7 +16,7 @@
   ],
 
   "bio": "Software Developer and Linux Enthusiats",
-  "avatar": "https://github.com/OlojaMuyiwa.png",
+
   "tags": [
     "Javascript",
     "React",
