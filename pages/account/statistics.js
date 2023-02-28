@@ -139,8 +139,8 @@ export default function Statistics({ data, profile }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Bar dataKey="views" fill="#82ca9d" />
                 <Tooltip />
+                <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -167,7 +167,7 @@ export default function Statistics({ data, profile }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                     {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
