@@ -1,0 +1,50 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
+
+## Social shortcuts
+
+Add a shortcut to your favourite social media accounts at the top of your Profile.
+
+![Example of LinkFree Social Shortcut icons](https://user-images.githubusercontent.com/624760/208973239-cc6a8541-3e34-47fd-8f76-104a3cf6ee4f.png)
+
+### Add Social shortcuts
+
+1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
+
+2. Add a collection called `socials` at the root of your json file which will contain one or more social objects. Each social object must have two fields, `platform` and `url`, which will look like this:
+
+<ClipboardCopy>
+```js
+{
+  "icon": "FaTwitter",
+  "url": "https://twitter.com/eddiejaoude"
+}
+```
+</ClipboardCopy>
+
+This is what a complete example looks like:
+
+<ClipboardCopy>
+```js
+"socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
+  { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
+  { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+]
+```
+</ClipboardCopy>
+
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons.
+
+_Clicks on these social shortcuts that match any of your links will also increment their respective counters_
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Social Shortcuts Documentation">
+    {children}
+  </DocsLayout>
+);

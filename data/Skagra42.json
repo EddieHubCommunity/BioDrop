@@ -1,0 +1,13 @@
+{
+  "name": "Flynn Salbenblatt",
+  "type": "personal",
+  "bio": "Computer Science student.",
+
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Skagra42",
+      "icon": "FaGithub"
+    }
+  ]
+}

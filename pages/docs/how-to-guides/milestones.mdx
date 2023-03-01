@@ -1,0 +1,63 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
+
+## Milestones
+
+Demonstrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.
+
+![Example of LinkFree Milestones](https://user-images.githubusercontent.com/624760/209209651-87e4f75f-425d-4837-82d0-84030e82ae6f.png)
+
+### Add Milestone
+
+1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
+
+2. Add a collection called `milestones` at the root of your `json` file which will contain one or more social objects. Each social object must have six fields, `title`, `date`, `icon`, `color`, `description` and `url`, which will look like this:
+
+<ClipboardCopy>
+```js
+{
+    "title": "Started Freelancing",
+    "date": "May 2010",
+    "icon": "FaDollarSign",
+    "color": "grey", // or #808080
+    "description": "Started my own business",
+    "url": "https://www.eddiejaoude.io/"
+}
+```
+</ClipboardCopy>
+
+| Property    | Required | Description                                                                                     |
+| :---------- | :------- | :---------------------------------------------------------------------------------------------- |
+| title       | true     | Main heading of the milestone                                                                   |
+| date        | true     | Month and Year                                                                                  |
+| icon        | true     | What icon would you like displayed with this milestone                                          |
+| color       | true     | What color would you like this milestone to be displayed in. Use hex codes or name of the color |
+| description | true     | More details about the milestone, this can include markdown                                     |
+| url         | true     | Where can people learn more about the milestone                                                 |
+| isGoal      | false    | If this is a future goal                                                                        |
+
+This is what a complete example looks like:
+
+<ClipboardCopy>
+```js
+"milestones": [
+    {
+        "title": "Started Freelancing",
+        "date": "May 2010",
+        "icon": "FaDollarSign",
+        "color": "grey",
+        "description": "Started my own business",
+        "url": "https://www.eddiejaoude.io/"
+    }
+]
+```
+</ClipboardCopy>
+
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Milestones Documentation">{children}</DocsLayout>
+);

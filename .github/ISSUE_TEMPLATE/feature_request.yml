@@ -1,7 +1,7 @@
 name: 💡 General Feature Request
 description: Have a new idea/feature for LinkFree? Please suggest!
-title: '[FEATURE] <description>'
-labels: ['⭐ goal: addition']
+title: "[FEATURE] <description>"
+labels: ["⭐ goal: addition","🚦 status: awaiting triage"]
 body:
   - type: textarea
     id: description

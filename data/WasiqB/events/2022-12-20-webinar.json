@@ -1,0 +1,11 @@
+{
+  "isVirtual": true,
+  "color": "red",
+  "name": "End of the Year Panel",
+  "description": "Webinar discussion with LambdaTest Spartans, a team filled with QA industry experts and thought leaders for a panel discussion on the advancements in automation testing, the biggest trends in the QA world, the impact of AI/ML on the testing landscape, various shifts in the industry over the past years and much more.",
+  "date": {
+    "start": "2022-12-20T20:30:00.000+05:30",
+    "end": "2022-12-20T21:30:00.000+05:30"
+  },
+  "url": "https://www.youtube.com/watch?v=YQmGx8OrL54"
+}
