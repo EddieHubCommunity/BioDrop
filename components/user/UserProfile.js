@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
@@ -9,9 +9,10 @@ import Tag from "../Tag";
 import Link from "../Link";
 import Badge from "../Badge";
 
-export default function UserProfile({ BASE_URL, data }) {
+function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
+
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -76,3 +77,5 @@ export default function UserProfile({ BASE_URL, data }) {
     </>
   );
 }
+
+export default React.memo(UserProfile);
