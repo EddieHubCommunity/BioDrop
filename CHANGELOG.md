@@ -1,9 +1,9 @@
-# 1.93.0 (2023-02-22)
+## 1.94.13 (2023-03-01)
 
 
-### Features
+### Bug Fixes
 
-* app testimonials [#4895](https://github.com/EddieHubCommunity/LinkFree/issues/4895) ([#5015](https://github.com/EddieHubCommunity/LinkFree/issues/5015)) ([e89d4d4](https://github.com/EddieHubCommunity/LinkFree/commit/e89d4d45351ec42831bd104012bc95c5d41305b9))
+* memoize user profile component ([#5158](https://github.com/EddieHubCommunity/LinkFree/issues/5158)) ([47e124a](https://github.com/EddieHubCommunity/LinkFree/commit/47e124aa34208109318c89a472f63c471c6b9241))
 
 
 
