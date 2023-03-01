@@ -1,5 +1,4 @@
 {
-
   "name": "Adeniji OluwaFeranmi",
 
   "type": "personal",
@@ -7,13 +6,10 @@
   "bio": "FullStack JavaScript Wev Developer || Open Source Enthusiast || Content Creator || Super Lazy",
 
   "links": [
-
     {
-
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/feranmiwebdev",
       "icon": "FaTwitter"
-
     },
     {
       "name": "Watch my videos on YouTube",
@@ -25,8 +21,5 @@
       "url": "https://github.com/Judeadeniji",
       "icon": "FaGithub"
     }
-
   ]
-
 }
-
