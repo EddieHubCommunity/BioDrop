@@ -6,7 +6,12 @@
 {
 "name": "LinkedIn",
 "url": "https://www.linkedin.com/in/satish-sutar/",
-"icon": "FaLinkedIn"
+"icon": "FaLinkedin"
+},
+{
+"name": "Twitter",
+"url": "https://twitter.com/SGSMaven",
+"icon": "FaTwitter"
 },
 {
 "name": "Medium",
@@ -16,12 +21,12 @@
 {
 "name": "GitHub",
 "url": "https://github.com/BSatishSutar",
-"icon": "FaGitHub"
+"icon": "FaGithub"
 },
 {
 "name": "GitLab",
 "url": "https://gitlab.com/SatishSutar",
-"icon": "FaGitLab"
+"icon": "FaGitlab"
 },
 {
 "name": "Hashnode",
