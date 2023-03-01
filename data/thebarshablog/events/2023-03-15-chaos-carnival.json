@@ -1,0 +1,12 @@
+{
+  "isVirtual": true,
+  "isInPerson": false,
+  "color": "red",
+  "name": "Chaos Carnival 2023",
+  "description": "Chaos Carnival is a global two-day virtual conference for All Things Chaos Engineering",
+  "date": {
+    "start": "2023-02-15T16:00:00.000+00:00",
+    "end": "2023-02-17T17:00:00.000+00:00"
+  },
+  "url": "https://chaoscarnival.io/"
+}
