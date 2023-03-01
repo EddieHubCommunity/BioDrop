@@ -8,14 +8,13 @@ export default async function handler(req, res) {
     return res
       .status(400)
       .json({ error: "Invalid request: GET request required" });
-    }
-    
-  const {statusCode, todayStats} = await getTodayStats();
-  return res
-    .status(statusCode)
-    .json(todayStats);
+  }
+
+  const { statusCode, stats } = await getTodayStats();
+  return res.status(statusCode).json(stats);
 }
-export async function getTodayStats(){ 
+
+export async function getTodayStats() {
   await connectMongo();
   const date = new Date();
   date.setHours(1, 0, 0, 0);
@@ -39,10 +38,10 @@ export async function getTodayStats(){
 
   return {
     statusCode: 200,
-    todayStats: {
+    stats: {
       views: statsToday.views || 0,
       clicks: statsToday.clicks || 0,
       users: statsToday.users || 0,
-    }
+    },
   };
 }

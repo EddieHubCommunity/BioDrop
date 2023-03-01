@@ -17,7 +17,6 @@ import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import BasicCards from "../components/statistics/BasicCards";
 import Button from "../components/Button";
-import logger from "../config/logger";
 import Testimonials from "../components/Testimonials";
 
 export async function getServerSideProps(context) {
@@ -30,35 +29,11 @@ export async function getServerSideProps(context) {
     };
   }
 
-  let total = {};
-  const {statusCode, totalStats} = await getTotalStats();
-  if (statusCode !== 200) {
-    logger.error(totalStats.error, "ERROR total stats not found ");
-    total = {
-      views: 0,
-      clicks: 0,
-      users:  0,
-      active:  0,
-    }
-  } else {
-    total = totalStats;
-  }
-
-  let today = {};
-  const {statusCode: status, todayStats} = await getTodayStats();
-  if (status !== 200) {
-    logger.error(todayStats.error, "ERROR today stats not found");
-    today = {
-      views: 0,
-      clicks: 0,
-      users: 0,
-    };
-  } else {
-    today = todayStats;
-  }
+  const { stats: totalStats } = await getTotalStats();
+  const { stats: todayStats } = await getTodayStats();
 
   return {
-    props: { total, today },
+    props: { total: totalStats, today: todayStats },
   };
 }
 
