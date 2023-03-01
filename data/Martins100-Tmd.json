@@ -1,0 +1,22 @@
+{
+  "name": "Martins Olumide",
+  "type": "personal",
+  "bio": "I am a fullstack developer (MERN Stack)",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/martinsolumide8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Martins100-Tmd",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/martins100tmd",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

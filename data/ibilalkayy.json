@@ -1,9 +1,9 @@
 {
   "name": "Bilal Khan",
   "type": "personal",
-  "bio": "College Dropout ➞ Self-Taught DevOps Guy | Open Source Contributor to Kubernetes, Content Creator on YouTube & a Technical Writer at Hashnode.",
+  "bio": "College Dropout ➞ Self-Taught DevOps Guy | AWS Community Builder, Open Source Contributor, Content Creator on YouTube & Hashnode.",
 
-  "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
+  "tags": ["Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
     {
       "icon": "SiYoutube",
@@ -79,6 +79,22 @@
       "url": "https://www.youtube.com/@ibilalkayy/"
     },
     {
+      "title": "Started Hashnode",
+      "date": "Aug, 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started writing blogs",
+      "url": "https://hashnode.com/@ibilalkayy"
+    },
+    {
+      "title": "AWS Community Builder",
+      "date": "Feb, 2023",
+      "icon": "SiAmazonaws",
+      "color": "blue",
+      "description": "Became an AWS Community Builder",
+      "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
       "title": "Created 60 Days Of DevOps Videos",
       "date": "Dec 1, 2022",
       "icon": "SiYoutube",
@@ -93,14 +109,6 @@
       "color": "black",
       "description": "Completed 60DaysOfDevOps Notes",
       "url": "https://github.com/ibilalkayy/60-Days-Of-DevOps"
-    },
-    {
-      "title": "Started Hashnode",
-      "date": "Aug, 2022",
-      "icon": "FaPencilAlt",
-      "color": "blue",
-      "description": "Started writing blogs",
-      "url": "https://hashnode.com/@ibilalkayy"
     }
   ]
 }

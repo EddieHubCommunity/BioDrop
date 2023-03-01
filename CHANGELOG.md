@@ -1,9 +1,9 @@
-# 1.89.0 (2023-02-19)
+## 1.94.9 (2023-03-01)
 
 
-### Features
+### Bug Fixes
 
-* remove bounce effect on QR codes ([#4835](https://github.com/EddieHubCommunity/LinkFree/issues/4835)) ([52be532](https://github.com/EddieHubCommunity/LinkFree/commit/52be532470acbe022fbcfe2c9a785f9e4da2b066))
+* remove lint-staged & prettier from husky ([#5148](https://github.com/EddieHubCommunity/LinkFree/issues/5148)) ([b91b7c3](https://github.com/EddieHubCommunity/LinkFree/commit/b91b7c38ec4c7fdf0cc3bb0116fe3402cf2f7091))
 
 
 

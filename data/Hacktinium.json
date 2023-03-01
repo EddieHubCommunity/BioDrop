@@ -1,0 +1,17 @@
+{
+  "name": "Steve Beecheno",
+  "type": "personal",
+  "bio": "Mech. Engineer turned **Web Developer**. Geek Dad. Studio Ghibli lover.",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Hacktinium",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/stevebeecheno/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
