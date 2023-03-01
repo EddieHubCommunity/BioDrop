@@ -1,34 +1,32 @@
 {
-  "name": "Satish Sutar",
-  "type": "personal",
-  "bio": "Non-IT turned **Digital Nomad** Travel enthusiast Yoga & Tech aficionado"
-  "links": [
-    {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/satish-sutar/",
-      "icon": "FaLinkedIn"
-    }
-    {
-      "name": "Medium",
-      "url": "https://medium.com/@CloudDevOpsEngineer",
-      "icon": "FaMedium"
-    }
-    {
-      "name": "GitHub",
-      "url": "https://github.com/BSatishSutar",
-      "icon": "FaGitHub"
-    }
-    {
-      "name": "GitLab",
-      "url": "https://gitlab.com/SatishSutar",
-      "icon": "FaGitLab"
-    }
-    
-    {
-      "name": "Hashnode",
-      "url": "https://hashnode.com/@Satish-S",
-      "icon": "FaHashnode"
-    }
-    
-  ]
+"name": "Satish Sutar",
+"type": "personal",
+"bio": "Non-IT turned Digital Nomad. Travel enthusiast Yoga & Tech aficionado",
+"links": [
+{
+"name": "LinkedIn",
+"url": "https://www.linkedin.com/in/satish-sutar/",
+"icon": "FaLinkedIn"
+},
+{
+"name": "Medium",
+"url": "https://medium.com/@CloudDevOpsEngineer",
+"icon": "FaMedium"
+},
+{
+"name": "GitHub",
+"url": "https://github.com/BSatishSutar",
+"icon": "FaGitHub"
+},
+{
+"name": "GitLab",
+"url": "https://gitlab.com/SatishSutar",
+"icon": "FaGitLab"
+},
+{
+"name": "Hashnode",
+"url": "https://hashnode.com/@Satish-S",
+"icon": "FaHashnode"
+}
+]
 }
