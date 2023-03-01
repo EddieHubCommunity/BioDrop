@@ -1,0 +1,24 @@
+{
+    "name": "Jonathan Legault LMT",
+  "displayStatsPublic":true,
+  "type": "personal",
+  "bio": "Hello, I am a Massage Therapist Ready to take on New Clients.",
+  "avatar": "https://github.com/JohnnyLegault.png",
+    "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/jonathanlegault_lmt/",
+      "icon": "SiInstagram"
+    },
+ {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100074141631002",
+      "icon": "FaFacebook"
+    },
+ {
+      "name": "Learn more on our website.",
+      "url": "https://www.aaspinalrehab.com/",
+      "icon": "FaLink"
+    }
+]
+}
