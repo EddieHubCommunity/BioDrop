@@ -1,20 +1,16 @@
 {
   "name": "Chris Bardsley",
   "type": "personal",
-  "bio": "Living 1 Life at a Time, Crazy IT Dude, Small Fish in a big pond trying to get with the times and learn. Ready to Take next step in life and become more",
-  "tags": ["Open Source", "GitHub", "Dad"],
+  "bio": "Living 1 Life at a Time, Crazy IT Dude",
+
+  "tags": [
+    "Open Source",
+    "Noob",
+    "Gamer"
+  ],
   "socials": [
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/Drabzit"
-    },
-    {
-      "icon": "FaLinkedin",
-      "url": "https://wwww.linkedin.com/in/christopher-bardsley-1291b0191"
-    },
-    {
-      "icon": "FaInstagram",
-      "Url": "https://www.instagram.com/drabz86/"
-    }
+    { "icon": "FaGithub", "url": "https://github.com/Drabzit" },
+    { "icon": "FaLinkedin", "url": "https:www.linkedin.com/in/christopher-bardsley-1291b0191" },
+    { "icon": "FaInstergram", "url": "https://www.instagram.com/drabz86/" }
   ]
 }
