@@ -1,7 +1,7 @@
 {
     "name": "Jonathan Legault LMT",
   "type": "personal",
-  "bio": "Hello, I am a Massage Therapist Ready to take on New Clients.",
+  "bio": "Hello, I am a Massage Therapist Ready to take on New Clients. Call or text: (509) 951-6457",
     "links": [
     {
       "name": "Follow me on Instagram",
@@ -17,6 +17,15 @@
       "name": "Learn more on our website.",
       "url": "https://www.aaspinalrehab.com/",
       "icon": "FaLink"
+    },
+         {
+      "name": "Call/Text:(509) 951-6457",
+      "icon": "FaPhoneAlt",
+    },
+                 {
+      "name": "Schedule by Gmail",
+      "url": "https://mail.google.com/mail/u/0/?to=jlmassagetherapist@gmail.com&su=SUBJECT&body=BODY&bcc=Schedule&fs=1&tf=cm",
+      "icon": "SiGmail",
     }
 ]
 }
