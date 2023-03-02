@@ -3,17 +3,11 @@
   "type": "personal",
   "bio": "Open Source Contributor | Cyber Security researcher| Reverse engineer | Red teamer",
 
-  "tags": [
-    "Open Source",
-    "C++",
-    "Python",
-    "C",
-    "VimScript"
-  ],
+  "tags": ["Open Source", "C/C++", "Python", "Bash", "VimScript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/Yrn_Collo" },
     { "icon": "FaGithub", "url": "https://github.com/yrncollo" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/yrncollo" }
+    { "icon": "FaYoutube", "url": "https://youtube.com/@yrncollo" }
   ],
   "links": [
     {
@@ -26,14 +20,14 @@
     {
       "group": "Socials Primary",
       "name": "Blog: Let's share ideas",
-      "url": "https://yrncollo.github.io/",
+      "url": "https://yrncollo.com/",
       "icon": "FaMicroblog",
       "color": "#FF0000"
     },
     {
       "group": "Socials Primary",
       "name": "YouTube: Just for fun",
-      "url": "https://youtube.com/yrncollo",
+      "url": "https://youtube.com/@yrncollo",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },

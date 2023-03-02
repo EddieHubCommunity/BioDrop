@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.94.4",
+  "version": "1.94.15",
   "private": false,
   "homepage": "https://linkfree.eddiehub.io",
   "engines": {
@@ -85,7 +85,6 @@
     "eslint-plugin-storybook": "^0.6.10",
     "husky": "^8.0.3",
     "linkfree-cli": "^2.0.1",
-    "lint-staged": "^13.1.0",
     "ncp": "^2.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
@@ -105,9 +104,6 @@
     "react",
     "nextjs"
   ],
-  "lint-staged": {
-    "data/*.json": "prettier --write"
-  },
   "author": "EddieHubCommunity",
   "license": "MIT",
   "bugs": {
