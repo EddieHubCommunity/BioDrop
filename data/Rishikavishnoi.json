@@ -1,67 +1,51 @@
 {
+  "name": "Rishika Vishnoi",
 
-	"name": "Rishika Vishnoi",
+  "type": "personal",
 
-	
+  "bio": "Full Stack Developer | JavaScript | React | Open Source Enthusiast",
 
-	"type": "personal",
+  "tags": ["ReactJS", "Javascript", "OpenSource", "NodeJS"],
 
-	"bio": "Full Stack Developer | JavaScript | React | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Let's Connect",
 
-	
-	"tags": ["ReactJS", "Javascript", "OpenSource", "NodeJS"],
+      "url": "https://www.linkedin.com/in/rishikavishnoi/",
 
-	"links": [
+      "icon": "FaLinkedin"
+    },
 
-		{
+    {
+      "name": "Collabrate in Open Source",
 
-			"name": "Let's Connect",
+      "url": "https://github.com/Rishikavishnoi",
 
-			"url": "https://www.linkedin.com/in/rishikavishnoi/",
+      "icon": "FaGithub"
+    },
 
-			"icon": "FaLinkedin"
+    {
+      "name": "Follow me on Twitter",
 
-		},
+      "url": "https://twitter.com/vishnoi_rishika",
 
-		{
+      "icon": "FaTwitter"
+    },
 
-			"name": "Collabrate in Open Source",
+    {
+      "name": "Blog",
 
-			"url": "https://github.com/Rishikavishnoi",
+      "url": "https://hashnode.com/@rishikavishnoi",
 
-			"icon": "FaGithub"
+      "icon": "FaHashnode"
+    },
 
-		},
+    {
+      "name": "Let's Subscribe",
 
-		{
+      "url": "https://www.youtube.com/@codingclass4805",
 
-			"name": "Follow me on Twitter",
-
-			"url": "https://twitter.com/vishnoi_rishika",
-
-			"icon": "FaTwitter"
-
-		},
-
-		{
-
-			"name": "Blog",
-
-			"url": "https://hashnode.com/@rishikavishnoi",
-
-			"icon": "FaHashnode"
-
-		},
-
-		{
-
-			"name": "Let's Subscribe",
-
-			"url": "https://www.youtube.com/@codingclass4805",
-
-			"icon": "FaYoutube"
-
-		}
-	]
-
+      "icon": "FaYoutube"
+    }
+  ]
 }
