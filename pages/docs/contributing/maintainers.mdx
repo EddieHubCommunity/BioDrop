@@ -1,0 +1,87 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+
+## Maintainers
+
+- Only assign issues with the label `status: ready for dev`
+- Each person should only be assigned 1 open issue at a time
+
+---
+
+> `avatar` json property is included
+
+This is no longer used, please leave an inline comment with the code sugestion to remove it - this will allow another maintainer to accept the changes and we can get the Pull Request merged without delay.
+
+```diff
+- "avatar": "http://github.com/SaraJaoude.png",
++
+```
+
+If you wish to make the fix yourself, you can merge to a temporary branch and fix, then create a new Pull Request.
+
+_Note: multiple Pull Requests that need fixing can go into this temporary branch, but please make sure this branch is not open for longer than a few hours to avoid any confusion._
+
+---
+
+> Where there are typos by the author
+
+Feel free to leave a comment highlighting these, but these errors should **not** block merging the Pull Request.
+
+Explain when merging that the author can submit a new Pull Request correcting the typos with a link to the `Editing` profile docs https://linkfree.eddiehub.io/docs/how-to-guides/editing
+
+---
+
+> Where a reviewer (maintainer or not) has highlighted typos and has raised these as a “suggested change”
+
+We should not accept and commit the suggested change as this represents changing the author's profile.
+
+This should not block merging a Pull Request. Explain when merging that the author can submit a new Pull Request correcting the typos with a link to the `Editing` profile docs https://linkfree.eddiehub.io/docs/how-to-guides/editing
+
+---
+
+> Where an author has used the wrong icon, either:
+>
+> - non-existent icon (“Twitter” instead of “FaTwitter”)
+> - or a mismatched platform icon (“FaTwitter” when the link is for instagram)
+
+This should not block merging a Pull Request because it will fall back to the default icon. Explain when merging that the author can submit a new Pull Request correcting this and include a link to the `Editing` profile docs https://linkfree.eddiehub.io/docs/how-to-guides/editing and the icon page https://linkfree.eddiehub.io/icons
+
+If someone has made inline suggestions, check the suggested changes are correct and feel free to `commit suggestion`, please then merge Pull Request.
+
+---
+
+> If the author used an alternative icon (for example, a `FaDollarSign` for their Instagram).
+
+Please do **not** accept any suggested changes on their behalf, this should **not** block merging the Pull Request.
+
+---
+
+> Author has misspelt their GitHub username (including the incorrect case) and the PR has been open for over 5 days and there are no other changes requested/required
+
+1. Create a temporary branch, update the PR to go to this temporary branch
+2. Leave a comment in the original Pull Request explaining you will merge into a temporary branch and make the changes
+3. Merge into your temporary branch, make the changes
+4. Create a new Pull Request and merge to main
+
+_Note: multiple Pull Requests that need fixing can go into this temporary branch, but please make sure this branch is not open for longer than a few hours to avoid any confusion._
+
+---
+
+> Json package lock fix
+
+---
+
+> Not having any links should not be a blocker to merging the PR (despite the name being LinkFree!)
+
+Please suggest they add links when they are ready and make reference to the Editing Guide in Docs. Then merge the PR.
+
+---
+
+> Conflicts have arisen as the fork is outdated
+
+In the first instance please ask them to resolve these and you may want to provide a link to this video that explains how: https://youtu.be/eze7Y4Rxwtc
+
+If there is no activity by the author to resolve this (approx 5 days or more) then consider resolving the conflicts by accepting the changes in the PR
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Maintainers Documentation">{children}</DocsLayout>
+);

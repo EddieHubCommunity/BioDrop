@@ -194,6 +194,15 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
+          name: "Maintainers",
+          path: "/docs/contributing/maintainers",
+          description: "Reviewing Pull Requests",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
           name: "Storybook",
           path: "/docs/contributing/storybook",
           description:
@@ -271,8 +280,7 @@ export default function DocsIndex() {
         {
           name: "Map Information",
           path: "/docs/map",
-          description:
-            "Information describing how the map feature works.",
+          description: "Information describing how the map feature works.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
