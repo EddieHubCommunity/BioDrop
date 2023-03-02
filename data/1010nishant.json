@@ -1,0 +1,27 @@
+{
+	"name": "Nishant-Jangid",
+	"type": "personal",
+	"bio": "I'm Full Stack Web & App Developer and Admin of the Wonderful Tech Community Called 'Dev Hac'. Feel Free to reach me out!",
+	"links": [{
+			"name": "Let's Connect on Twitter",
+			"url": "https://twitter.com/1010nishant",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Let's Connect on Github",
+			"url": "https://www.github.com/1010nishant",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Let's Connect on Linkedin",
+			"url": "https://www.linkedin.com/1010nishant",
+			"icon": "FaLinkedin"
+		},
+		{
+			"name": "Let's Connect on Instagram",
+			"url": "https://www.instagram.com/nishant.jangir.1010",
+			"icon": "FaInstagram"
+		}
+
+	]
+}
