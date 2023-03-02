@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export default function SearchBar({ value, onChange }) {
+export default function SearchInput({ value, onChange }) {
   const inputRef = useRef();
 
   useEffect(() => {

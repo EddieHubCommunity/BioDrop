@@ -7,7 +7,7 @@ import PageHead from "../components/PageHead";
 import Tag from "../components/Tag";
 import Badge from "../components/Badge";
 import logger from "../config/logger";
-import SearchBar from "../components/SearchBar";
+import SearchInput from "../components/SearchInput";
 
 export async function getServerSideProps(context) {
   let data = {
@@ -144,7 +144,7 @@ export default function Search({ data }) {
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <SearchBar value={inputValue} onChange={setInputValue} />
+          <SearchInput value={inputValue} onChange={setInputValue} />
         </Badge>
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
