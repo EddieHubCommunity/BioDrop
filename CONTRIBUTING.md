@@ -44,5 +44,4 @@ We welcome everyone to review Pull Requests, it is a great way to learn and netw
 
 ---
 
-
 Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
