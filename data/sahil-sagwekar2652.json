@@ -1,0 +1,31 @@
+{
+	"name": "Sahil Sagwekar",
+	"type": "personal",
+	"bio": "Student, Developer, Open Source enthusiast",
+	"links": [{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/sagwekar_sahil",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://www.youtube.com/@SahilSagwekar",
+			"icon": "FaYouTube"
+		},
+		{
+			"name": "LinkedIn",
+			"url": "https://www.linkedin.com/in/sahil-sagwekar-0b955b223/",
+			"icon": "SiLinkedin"
+		},
+		{
+			"name": "GitHub",
+			"url": "https://github.com/sahil-sagwekar2652",
+			"icon": "FaGitHub"
+		},
+		{
+			"name": "My Hashnode blog",
+			"url": "https://sagwekarsahil2652.hashnode.dev",
+			"icon": "SiHashnode"
+		}
+	]
+}
