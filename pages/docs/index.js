@@ -322,7 +322,7 @@ export default function DocsIndex() {
           on GitHub for more information.
         </p>
         {sections.map((section) => (
-          <div 
+          <div
             className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
