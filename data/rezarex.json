@@ -1,0 +1,27 @@
+{
+  "name": "Marvin Okwaro",
+  "type": "personal",
+  "bio": "Backend Engineer | Data Science | Python | Javascript | Always Learning Something New ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/wekessah",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "dev.to",
+      "url": "https://twitter.com/wekessah",
+      "icon": "fa-dev-to "
+    },
+      {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/marvin-wekesa-58112b44/",
+      "icon": "FaLinkedIn"
+    },
+     {
+      "name": "GitHub",
+      "url": "https://www.instagram.com/rezarex/",
+      "icon": "FaGithub"
+    }
+  ]
+}
