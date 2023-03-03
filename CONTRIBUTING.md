@@ -26,8 +26,8 @@ Before working on an existing Issue please follow these steps:
 1. reference the Issue in your Pull Request (for example `closes #123`)
 
 > Notes:
-- any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
-- only request to be assigned an issue if you know how to work on it
+> - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
+> - only request to be assigned an issue if you know how to work on it
 
 ## Reviewing Pull Requests
 
@@ -43,4 +43,6 @@ We welcome everyone to review Pull Requests, it is a great way to learn and netw
 - do not repeat feedback, this creates more noise than value (check the existing conversation)
 
 ---
+
+
 Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
