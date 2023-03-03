@@ -24,7 +24,7 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
     { "icon": "FaGithub", "url": "https://github.com/Panquesito7" },
-    { "icon": "FaDev", "url": "https://dev.to/panquesito7" },
+    { "icon": "SiHashnodde", "url": "https://hashnode.com/@Panquesito7" },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/@panquesito7/" }
   ],
   "links": [
@@ -48,7 +48,13 @@
     },
     {
       "group": "Socials",
-      "name": "Read my blogs on DEV.to",
+      "name": "Read my blogs on Hashnode",
+      "url": "https://panquesito7.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Read my blogs on DEV.to (using Hashnode now)",
       "url": "https://dev.to/panquesito7",
       "icon": "FaDev"
     },
@@ -107,6 +113,7 @@
       "icon": "SiCplusplus"
     }
   ],
+  "testimonials": ["YashDaga17"],
   "milestones": [
     {
       "isGoal": "true",
@@ -213,11 +220,11 @@
       "url": "https://github.com/Design-and-code"
     },
     {
-      "title": "Administrator at World of Coding",
+      "title": "Former Head administrator at World of Coding",
       "date": "January 27, 2022",
       "icon": "FaGlobeAmericas",
       "color": "#43C4F4",
-      "description": "Joined World of Coding and later on became an administrator.",
+      "description": "Joined World of Coding and later on became a head administrator.",
       "url": "https://discord.gg/program"
     },
     {

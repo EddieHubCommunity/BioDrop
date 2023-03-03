@@ -4,16 +4,16 @@
 
 ### Creating an Issue
 
-Before **creating** an Issue for features/bugs/improvements please follow these steps:
+Before **creating** an Issue for `features`/`bugs`/`improvements` please follow these steps:
 
-*note: this does not apply to creating/editing your profile*
+> *Note: this does not apply to creating/editing your profile*
 
 1. search existing issues before creating a new issue (has someone raised this already)
 1. if it doesn't exist create a new issue giving as much context as possible (please select the correct Issue type, for example `bug` or `feature`)
 1. all Issues are automatically given the label `status: waiting for triage`. Please wait until the maintainers review the Issue and update the labels
 1. look out for when the Issue label changes to `status: ready for dev`
 1. comment on the Issue asking for it to be assigned to you (do not tag maintainers as all maintainers receive your comment notifications)
-1. **only** start woriking on this issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used.
+1. **only** start working on this issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used.
 
 ### Working on an Issue (get it assigned to you)
 
@@ -25,9 +25,9 @@ Before working on an existing Issue please follow these steps:
 1. do **not** enable GitHub Actions on your fork
 1. reference the Issue in your Pull Request (for example `closes #123`)
 
-Notes:
-- any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
-- only request to be assigned an issue if you know how to work on it
+> Notes:
+> - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
+> - only request to be assigned an issue if you know how to work on it
 
 ## Reviewing Pull Requests
 
@@ -44,4 +44,4 @@ We welcome everyone to review Pull Requests, it is a great way to learn and netw
 
 ---
 
-Please see more imformation in the `Contributing` section in the docs in the app https://linkfree.eddiehub.io/docs
+Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
