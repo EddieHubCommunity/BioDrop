@@ -82,13 +82,55 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
 
----
+<!-- Testimonials STARTs Here -->
 
-Looking for inspiration? You can view the following profiles for an example:
+## ⛩️ Testimonials
 
-- [Eddie Jaoude](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json)
-- [Krupali Trivedi || Chai](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json)
-- [Pradumna Saraf](https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json)
+Here are some testimonials from individuals who have used LinkFree:- 
+
+<!-- Section 1 -->
+
+### Francesco Ciulla
+
+<p align="center">
+  <img src="https://github.com/FrancescoXX.png" alt="Francesco Ciulla" width="200" height="200">
+</p>
+
+> "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very satisfied. It's not just a list of links but it's backed by a great Open Source community."
+
+- **Name :** Francesco Ciulla
+- **Bio :** Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong>
+
+<!-- Section 2 -->
+
+### Amanda Martin
+
+<p align="center">
+  <img src="https://github.com/amandamartin-dev.png" alt="Amanda Martin" width="200" height="200">
+</p>
+
+> "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space."
+
+- **Name :** Amanda Martin
+- **Bio :** Developer Advocate | Always Curious | Always Silly
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong>
+
+<!-- Section 3 -->
+
+### Pradumna Saraf
+
+<p align="center">
+  <img src="https://github.com/Pradumnasaraf.png" alt="Pradumna Saraf" width="200" height="200">
+</p>
+
+> "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app."
+
+- **Name :** Pradumna Saraf
+- **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
+- **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong>
+
+<!-- Testimonials ENDs Here -->
 
 ## 🛡️ License
 

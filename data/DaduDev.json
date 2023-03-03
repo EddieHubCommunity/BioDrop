@@ -2,15 +2,24 @@
   "name": "Shaik Dadapeer",
   "type": "public",
   "bio": "Computer Science student just starting out with open source and soon be landing on a remote job",
+  "tags": [
+    "OpenSource",
+    "Javascript",
+    "Java",
+    "React",
+    "Python",
+    "Docker",
+    "Kubernetes"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/Dadudev1",
+      "url": "https://twitter.com/Dadu_Dev_",
       "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
-      "url": "https://twitter.com/ig.dadu",
+      "url": "https://www.instagram.com/dadu_dev_/",
       "icon": "FaInstagram"
     },
     {
