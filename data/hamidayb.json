@@ -1,0 +1,23 @@
+{
+  "name": "Sara Jaoude",
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
+  "avatar": "https://github.com/hamidayb.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HamidAy15686995",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/hamidayb",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/hamidayubdev/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
