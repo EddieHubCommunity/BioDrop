@@ -59,7 +59,7 @@
 	],
 	"milestones": [{
 			"title": "Started Freelancing",
-			"date": "Dec 2022",
+			"date": "Jan 2022",
 			"icon": "FaDollarSign",
 			"color": "blue",
 			"description": "Started Content Writing",
@@ -90,4 +90,5 @@
 			"url": "https://cloud101-newsletter-09c659.beehiiv.com/"
 		}
 	]
+
 }
