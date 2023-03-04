@@ -1,0 +1,12 @@
+{
+  "name": "DEEPRAJ KUSHWAHA",
+  "type": "personal",
+  "bio": "I am a android and full stack developer"
+  "links" :[
+  {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Codingenthusias",
+      "icon": "FaTwitter"
+    }
+  ]
+}
