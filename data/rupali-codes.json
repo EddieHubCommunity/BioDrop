@@ -33,19 +33,19 @@
   ],
   "milestones": [
     {
-      "title": "Began my open-source journey",
-      "date": "October 2022",
+      "title": "Began my Open Source journey",
+      "date": "September 2022",
       "icon": "FaRocket",
       "color": "#7a5c4b",
-      "description": "Started my Open Source journey with Hacktober2022",
+      "description": "Made my first Open Source contribution",
       "url": "https://github.com/rupali-codes"
     },
     {
-      "title": "Got my first Job",
+      "title": "Landed my first Job",
       "date": "December 2022",
       "icon": "FaLaptop",
       "color": "#7a5c4b",
-      "description": "Got hired for the role of SDE at a startup compnay",
+      "description": "Got hired for the role of SDE at a startup company",
       "url": "https://www.linkedin.com/in/rupali-codes/"
     },
     {
@@ -53,7 +53,7 @@
       "date": "January 2023",
       "icon": "FaGithub",
       "color": "#7a5c4b",
-      "description": "Gettting developers right resources at the right time",
+      "description": "Helping developers getting the right resources at the right time",
       "url": "https://linkshub.vercel.app"
     }
   ]
