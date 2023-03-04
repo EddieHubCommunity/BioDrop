@@ -2,17 +2,15 @@
   "name": "Danish Saleem",
   "type": "personal",
   "bio": "Software Engineer 💻",
-  "avatar": "https://github.com/mrdanishsaleem.png"
-  
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/SaraJaoude",
+      "url": "https://twitter.com/MrDanishSaleem",
       "icon": "FaTwitter"
     },
     {
       "name": "Let's Connect on LinkedIn",
-      "url": "https://www.linkedin.com/in/mrdanishsaleem/"
+      "url": "https://www.linkedin.com/in/mrdanishsaleem/",
       "icon": "FaLinkedin"
     },
     {
@@ -27,7 +25,7 @@
     },
     {
       "name": "Dev",
-      "url": "https://dev.to/mrdanishsaleem"
+      "url": "https://dev.to/mrdanishsaleem",
       "icon": "FaDev"
     }
   ]
