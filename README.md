@@ -38,11 +38,15 @@ Here is the **QuickStart** guide to add your profile https://linkfree.eddiehub.i
 
 *note: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request*
 
+Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/github-ui
+
 ### Gitpod
 
 In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
+
+Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/gitpod 
 
 ### Local development
 
@@ -65,6 +69,8 @@ You can set this up locally with the following steps:
 1. `npm ci`
 1. `npm run dev`
 
+Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/local-development
+
 ### Local development with Docker Compose
 
 This will allow you to run your favourite IDE but not have to install any dependencies on your computer like NodeJS and MongoDB.
@@ -77,6 +83,8 @@ This will allow you to run your favourite IDE but not have to install any depend
 #### Commands
 
 1. `docker compose up` 
+
+Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/local-development-docker-compose
 
 ### 🙂 How to add YOUR Profile
 
