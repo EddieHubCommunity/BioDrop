@@ -19,29 +19,70 @@
 
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "group": "Socials",
+      "name": "Twitter - Follow my tech journey",
       "url": "https://twitter.com/codewithpau",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on GitHub",
+      "group": "Socials",
+      "name": "GitHub - View my projects",
       "url": "https://github.com/paulaxisabel",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on CodePen",
+      "group": "Socials",
+      "name": "CodePen - View my CSS arts",
       "url": "https://codepen.io/paulaxisabel",
       "icon": "FaCodepen"
     },
     {
-      "name": "Connect with me on LinkedIn",
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
       "url": "https://linkedin.com/in/paulasigno",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Read my blogs",
-      "url": "https://blog.ossph.org/author/paula/",
-      "icon": "FaPen"
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH - Visit our website",
+      "url": "https://ossph.org/",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH - Read our blog",
+      "url": "https://blog.ossph.org/",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH - Like our Facebook Page",
+      "url": "https://www.facebook.com/ossph.org",
+      "icon": "FaFacebook"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH - Follow our Twitter",
+      "url": "https://www.twitter.com/OSSPhilippines",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Point One",
+      "name": "Point One Solutions - Follow our Facebook Page",
+      "url": "https://www.facebook.com/pointonesolutions",
+      "icon": "FaFacebook"
+    },
+    {
+      "group": "Point One",
+      "name": "Point One Integrated Technologies, Inc. - Follow our Facebook Page",
+      "url": "https://www.facebook.com/pointonesolution",
+      "icon": "FaFacebook"
+    },
+    {
+      "group": "Point One",
+      "name": "Onepos - Follow our Facebook Page",
+      "url": "https://www.facebook.com/onepos.ph",
+      "icon": "FaFacebook"
     }
   ],
   "milestones": [
@@ -50,16 +91,23 @@
       "date": "March 2023",
       "icon": "FaLaptop",
       "color": "pink",
-      "description": "Became a Web Developer at Point One",
-      "url": "https://www.pointonesolutions.com.ph/"
+      "description": "Joined Point One as a Web Developer",
     },
     {
       "title": "Open Source Software Philippines",
       "date": "September 2022",
       "icon": "FaPen",
       "color": "aqua",
-      "description": "Became a Technical Writer at OSSPH",
+      "description": "Joined OSSPH as a Technical Writer",
       "url": "https://ossph.org/"
+    },
+    {
+      "title": "100devs",
+      "date": "April 2022",
+      "icon": "FaPen",
+      "color": "blue",
+      "description": "Started my web development journey with 100devs ",
+      "url": "https://leonnoel.com/100devs/"
     }
   ]
 }
