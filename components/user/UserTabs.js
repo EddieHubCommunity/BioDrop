@@ -1,4 +1,5 @@
 import { BiSortAlt2 } from "react-icons/bi";
+import Link from "../Link";
 
 export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
@@ -103,7 +104,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
         <div className="border-b border-gray-200">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
-              <a
+              <Link
                 key={tab.name}
                 href={tab.href}
                 onClick={(e) => changeTab(e, tab.name)}
@@ -142,7 +143,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
                     }}
                   />
                 )}
-              </a>
+              </Link>
             ))}
           </nav>
         </div>

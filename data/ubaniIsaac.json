@@ -1,14 +1,13 @@
 {
   "name": "Isaac Ubani",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Just some guy that likes to code and do calisthenics",
+  "bio": "I enjoy learning new technologies and trying out new fun things.",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/i_ce_u" },
     { "icon": "FaGithub", "url": "https://github.com/ubaniIsaac" },
     { "icon": "FaLink", "url": "https://iceu.netlify.app" }
   ],
-  "avatar": "https://github.com/ubaniIsaac.png",
+
   "links": [
     {
       "name": "Here's a link to my portfolio",
@@ -28,7 +27,7 @@
     {
       "name": "LinkedIn",
       "url": "https://linkedin.com/in/isaac-ubani/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on Instagram",
