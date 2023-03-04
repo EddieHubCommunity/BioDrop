@@ -10,7 +10,7 @@
         { "icon": "FaTwitter", "url": "https://twitter.com/jagan_1607" },
         { "icon": "FaGithub", "url": "https://github.com/J-CODE07" }
     ],
-    "Links": [
+    "links": [
         {
             "group": "socials",
             "name": "Twitter - Learning in Public!",
