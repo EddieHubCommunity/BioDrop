@@ -10,8 +10,7 @@
     ],
     "socials": [
       { "icon": "FaTwitter", "url": "https://twitter.com/thanuragdev" },
-      { "icon": "FaGithub", "url": "https://github.com/anuragts" },
-      { "icon": "FaYoutube", "url": "https://youtube.com/thanuragdev" }
+      { "icon": "FaGithub", "url": "https://github.com/anuragts" }    
     ],
     "links": [
       {
