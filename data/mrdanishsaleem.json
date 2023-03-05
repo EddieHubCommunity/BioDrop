@@ -2,6 +2,23 @@
   "name": "Danish Saleem",
   "type": "personal",
   "bio": "Software Engineer 💻",
+  "tags": [
+    "JavaScript",
+    "ReactJS",
+    "NodeJs",
+    "Web Development",
+    "Automation"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MrDanishSaleem"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mrdanishsaleem"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
