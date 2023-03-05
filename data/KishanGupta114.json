@@ -11,17 +11,17 @@
   ],
   "links": [
     {
-      "name": "Follow Me on Twitter",
+      "name": "Check Out My Twitter Profile",
       "url": "https://twitter.com/i_kishan_",
       "icon": "FaTwitter"
     },
     {
-      "name": "Connect Me on LinkedIn",
+      "name": "Let's Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/i-kishan",
       "icon": "SiLinkedin"
     },
     {
-      "name": "Follow Me on GitHub",
+      "name": "Check Out My GitHub Profile",
       "url": "https://github.com/kishangupta114",
       "icon": "FaGithub"
     }
