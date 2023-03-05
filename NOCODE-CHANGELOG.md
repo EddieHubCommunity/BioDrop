@@ -22,3 +22,4 @@ YouTube (or blog)
 | [Jaynarayan vaishnav](https://github.com/jaynarayan-vaishnav) | Pair programmed on Discord | 2022/10/31 | [#2079](https://github.com/EddieHubCommunity/LinkFree/pull/2080) |
 | [Bilal Khan](https://github.com/ibilalkayy) | YouTube | 2023/01/18 | [Submitting My First PR with Dean - LinkFree Account Creation for Beginners](https://www.youtube.com/watch?v=I8wNateK3hM) |
 | [Bilal Khan](https://github.com/ibilalkayy) | Blog | 2023/01/21 | [How to create a LinkFree account? [Part 1]](https://ibilalkayy.hashnode.dev/how-to-create-a-linkfree-account-part-1) |
+| [Rohit](https://github.com/TRohit20) | Blog | 2023/03/01 | [Beyond Code: How Anyone Can Contribute to Open-Source Projects](https://rohitlogs.com/beyond-code-how-anyone-can-contribute-to-open-source-projects) |
