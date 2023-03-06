@@ -1,9 +1,9 @@
 {
-	"name": "Shivam Katare",
-	"type": "personal",
-	"bio": "Fullstack Development | Contributer at **[ReactPlay](https://reactplay.io/)** | Technical Content Writer | DevOps Enthusiast",
+  "name": "Shivam Katare",
+  "type": "personal",
+  "bio": "Fullstack Development | Contributer at **[ReactPlay](https://reactplay.io/)** | Technical Content Writer | DevOps Enthusiast",
 
-	"tags": [
+	 "tags": [
 		"Open Source",
 		"Javascript",
 		"ReactJS",
@@ -11,8 +11,7 @@
 		"DevOps"
 	],
 
-	"socials": [
-    {
+	"socials": [{
 			"icon": "FaTwitter",
 			"url": "https://twitter.com/Shivamkatare_27"
 		},
@@ -30,8 +29,7 @@
 		}
 	],
 
-	"links": [
-    {
+	"links": [{
 			"group": "Socials Primary",
 			"name": "Follow me on GitHub",
 			"url": "https://github.com/Shivam-Katare",
@@ -75,8 +73,7 @@
 		}
 	],
 
-	"milestones": [
-    {
+	"milestones": [{
 			"title": "ShowwCase DevElevate Silver Winner",
 			"date": "January 2023",
 			"icon": "FaTrophy",
