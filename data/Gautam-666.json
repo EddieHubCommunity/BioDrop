@@ -2,7 +2,8 @@
   "name": "Gautam Rai",
   "type": "personal",
   "bio": "A aspiring full stack webdeveloper. Guitarist and Travel enthusiast",
-  "links": [
+  
+"links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/GAUTAM_66?t=DFQ10blt8ucPQEJVJ6g3pQ&s=09",
@@ -28,5 +29,19 @@
       "url": "https://www.quora.com/profile/GAUTAM-RAI-163",
       "icon": "FaQuora"
     }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Node.js",
+    "React",
+  ],
+  "socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/GAUTAM_66" },
+  { "icon": "FaGithub", "url": "https://github.com/Gautam-666" },
+  { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/gautam-rai-01184324a" }
   ]
 }
+
+
+
