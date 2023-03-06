@@ -1,0 +1,13 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Dev Cloud Conference '23",
+  "description": "If you want to learn more about cloud technologies, you can't miss the Dev-Cloud Conference (DCC). With lectures, dev sessions and workshops, programmers have a wide range of opportunities to educate themselves on important topics in the cloud sector - whether on big data, artificial intelligence, hosting via Kubernetes, setting up entire landscapes via Terraform or connecting or migrating from one cloud to another.",
+  "date": {
+    "start": "2023-11-27T10:00:00.000+00:00",
+    "end": "2023-11-29T18:00:00.000+00:00",
+    "cfpClose": "2023-04-27T18:00:00.000+00:00"
+  },
+  "url": "https://www.dev-cloud-conference.de/"
+}
