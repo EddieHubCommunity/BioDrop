@@ -9,7 +9,8 @@
     "Express",
     "Node.js",
     "Next.js",
-    "React Native"
+    "React Native",
+    "BlockChain"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/tusharjagi" },
