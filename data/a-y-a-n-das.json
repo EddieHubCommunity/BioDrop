@@ -1,0 +1,14 @@
+{
+  "name": "Ayan Das",
+  "type": "personal",
+  "bio": "I am a Student and have a keen intrest in Web Development "
+    "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ayan_das_",
+      "icon": "FaTwitter"
+    }
+  ]
+
+  
+}
