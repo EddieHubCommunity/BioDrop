@@ -27,6 +27,11 @@
       "name": "Follow me on Dev",
       "url": "https://dev.to/tusharjagi",
       "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://tusharjagi.hashnode.dev",
+      "icon": "SiHashnode"
     }
   ]
 }
