@@ -1,0 +1,37 @@
+{
+  "name": "Victoria Johnson",
+  "type": "personal",
+  "bio": "Software developer with a love for user-friendly and responsive websites",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EdikanVickie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url":  "https://www.instagram.com/vickie_edikan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url":  "https://www.linkedin.com/in/victoriaedjohnson/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url":  "https://github.com/DrVickie8",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit my blog - Hashnode",
+      "url":  "https://vickiejohnson.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Visit my blog - Medium",
+      "url":  "https://medium.com/@EdikanVickie",
+      "icon": "FaMedium"
+    }
+  ]
+}
