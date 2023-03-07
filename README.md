@@ -82,7 +82,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Commands
 
-1. `docker compose up` 
+1. `docker-compose up` 
 
 Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/local-development-docker-compose
 
