@@ -54,6 +54,7 @@ export default function Playground() {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
+        delete actualJson.testimonials;
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
