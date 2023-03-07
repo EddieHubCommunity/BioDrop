@@ -2,7 +2,7 @@
   "name": "Dunsin",
   "type": "personal",
   "bio": "Web Developer, Content Creator and Open Source Enthusiast!",
-  "avatar": "https://github.com/Dun-sin.png",
+
   "tags": [
     "Content Creation",
     "Open Source",
@@ -12,7 +12,6 @@
     "Reactjs/Nextjs",
     "TailwindCSS"
   ],
-  "displayStatsPublic": true,
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/dunsinwebdev" },
     { "icon": "FaGithub", "url": "https://github.com/Dun-sin" },

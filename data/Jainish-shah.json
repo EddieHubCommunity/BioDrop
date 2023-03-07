@@ -1,9 +1,8 @@
 {
   "name": "Jainish Shah",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Building cool projects and POCs | Open source contributor | Backend Developer | Machine Learner",
-  "avatar": "https://github.com/Jainish-shah.png",
+
   "tags": [
     "Open Source",
     "Python",

@@ -1,6 +1,5 @@
 {
   "name": "Rayees Ahmad Rather",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "A 20 year old kid **Learner | Programmer**. tech enthusiastic",
   "tags": ["Open Source", "Learner", "Programmer", "Web3"],
@@ -9,7 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/rayeesrather99" },
     { "icon": "FaInstagram", "url": "https://instagram.com/rayeesrather786" }
   ],
-  "avatar": "https://github.com/rayeesrather99.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",

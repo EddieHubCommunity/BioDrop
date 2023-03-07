@@ -1,9 +1,8 @@
 {
   "name": "Shadman Ali",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full Stack Developer | React | Javascript | Typescript| Express | Nodejs",
-  "avatar": "https://github.com/shadmanhere.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",

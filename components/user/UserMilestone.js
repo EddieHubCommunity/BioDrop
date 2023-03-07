@@ -14,16 +14,7 @@ export default function UserMilestone({ milestone, isGoal }) {
       }}
     >
       <div className="flex space-x-3">
-        {!milestone.image && milestone.icon && (
-          <DisplayIcon className="h-8 w-8 rounded-full" />
-        )}
-        {milestone.image && (
-          <img
-            className="h-8 w-8 rounded-full"
-            src={milestone.image}
-            alt={milestone.title}
-          />
-        )}
+        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-medium flex gap-2 items-center">

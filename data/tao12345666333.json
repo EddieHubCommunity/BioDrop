@@ -1,9 +1,8 @@
 {
   "name": "Jintao Zhang",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Kubernetes Ingress-NGINX maintainer | Apache APISIX PMC | Microsoft MVP",
-  "avatar": "https://github.com/tao12345666333.png",
+
   "tags": [
     "Open Source",
     "Cloud Native",

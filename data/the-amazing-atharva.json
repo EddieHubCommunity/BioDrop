@@ -1,7 +1,6 @@
 {
   "name": "Atharva Salitri",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Programming Beginner | Open Source Enthusiast | Blogger | Content Writer | Canva Designer ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Programming"],
   "socials": [
@@ -9,7 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/the-amazing-atharva" },
     { "icon": "SiHashnode", "url": "https://theamazingatharva.hashnode.dev/" }
   ],
-  "avatar": "https://avatars.githubusercontent.com/u/121221252?s=400&u=a75232614fbf37d046d654bb6ef42b0c908fb9d0&v=4",
+
   "links": [
     {
       "name": "Follow me on GitHub",
