@@ -4,12 +4,36 @@
   "bio": "Full Stack Web Developer | Designer | Author ",
   "tags": ["Front-End Developer", "UI/UX"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kshitij_bansod" },
-    { "icon": "FaGithub", "url": "https://github.com/kshitij9896" },
-    { "icon": "FaDev", "url": "https://dev.to/kshitij9896" },
-    { "icon": "FaBlog", "url": "https://www.showwcase.com/thisiskshitijbansod" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kshitij_bansod"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kshitij9896"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/kshitij9896"
+    },
+    {
+      "icon": "FaBlog",
+      "url": "https://www.showwcase.com/thisiskshitijbansod"
+    }
   ],
   "links": [
+    {
+      "group": "Services",
+      "name": "Can Help You With",
+      "url": "https://thisiskshitijbansod.netlify.app",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Services",
+      "name": "Bussiness Queries | For Hiring ",
+      "url": "mailto:contactkshitij9@gmail.com",
+      "icon": "SiGmail"
+    },
     {
       "group": "Socials",
       "name": "Let's Connect On Twitter",

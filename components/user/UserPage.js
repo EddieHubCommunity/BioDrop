@@ -16,12 +16,6 @@ export default function UserPage({ data, BASE_URL }) {
     { name: "Events", href: "#", current: false, order: "ASC" },
   ];
   let displayTabs = defaultTabs.flatMap((tab) => {
-    if (tab.name === "My Links") {
-      if (userData.links && userData.links.length) {
-        return { ...tab, total: userData.links.length };
-      }
-      return [];
-    }
     if (tab.name === "Milestones") {
       if (userData.milestones && userData.milestones.length) {
         return { ...tab, total: userData.milestones.length };
@@ -40,6 +34,8 @@ export default function UserPage({ data, BASE_URL }) {
       }
       return [];
     }
+
+    return { ...tab, total: userData.links.length };
   });
   const [tabs, setTabs] = useState(displayTabs);
 
