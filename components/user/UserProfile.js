@@ -68,10 +68,7 @@ function UserProfile({ BASE_URL, data }) {
 
       <div className="flex justify-center my-4">
         {qrShow && (
-          <QRCodeSVG
-            value={`${BASE_URL}/${data.username}`}
-            size={fallbackImageSize * 2}
-          />
+          <QRCodeSVG value={`${BASE_URL}/${data.username}`} size={fallbackImageSize * 2} />
         )}
       </div>
     </>
