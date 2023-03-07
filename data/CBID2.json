@@ -54,7 +54,15 @@
       "color": "blue",
       "description": "In this blog post, I describe why I decided to learn to code and how I overcame imposter syndrome to start this journey",
       "url": "https://chrissycodes.hashnode.dev/"
-    }
+    },
+    {
+      "title": "Winner of CoCode's Feburary Blog-A-Thon",
+      "date": "March 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "For this event, I wrote about how developers can increase their productivity during the DevOps process.",
+      "url": "https://chrissycodes.hashnode.dev/devops-secret-sauce-5-uncommon-productivity-tips"
+    } 
   ],
   "testimonials": ["loftwah"]
 }
