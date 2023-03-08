@@ -63,10 +63,30 @@ export default function DocsIndex() {
           },
         },
         {
+          name: "LinkFree CLI",
+          path: "/docs/environments/linkfree-cli",
+          description:
+            "This CLI tool will allow you to create profile, update profile, add testimonal and more from the command line.",
+          category: {
+            name: "Intermediate",
+            color: "bg-orange-100 text-orange-800",
+          },
+        },
+        {
           name: "Available icons",
           path: "/icons",
           description:
             "Search for available icons you can use on your profile.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Environment variables",
+          path: "/docs/environments/environment-variables",
+          description:
+            "To run the application you need to have environment variables set for the application to work correctly.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -213,6 +233,16 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Labels",
+          path: "/docs/contributing/labels",
+          description:
+            "We use labels to display various information about the issue, for example: is it ready for development or is it still waiting for the maintainers to review, the complexity of the issue and more.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -236,6 +266,16 @@ export default function DocsIndex() {
           category: {
             name: "Advanced",
             color: "bg-red-100 text-red-800",
+          },
+        },
+        {
+          name: "Map Information",
+          path: "/docs/map",
+          description:
+            "Information describing how the map feature works.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
           },
         },
         {
