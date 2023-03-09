@@ -16,6 +16,7 @@ import singleUser from "../config/user.json";
 import BasicCards from "../components/statistics/BasicCards";
 import Button from "../components/Button";
 import logger from "../config/logger";
+import Testimonials from "../components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -175,13 +176,35 @@ export default function Home({ total, today }) {
     },
     {
       name: "LinkFree Map",
-      description:
-        "Discover people around the world from the LinkFree Map.",
+      description: "Discover people around the world from the LinkFree Map.",
       imageSrc:
         "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
-      imageAlt:
-        "LinkFree screenshot of Map Page",
-    }
+      imageAlt: "LinkFree screenshot of Map Page",
+    },
+  ];
+
+  const testimonials = [
+    {
+      image: "https://github.com/FrancescoXX.png",
+      name: "Francesco Ciulla",
+      bio: "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
+      username: "FrancescoXX",
+      text: "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community",
+    },
+    {
+      image: "https://github.com/amandamartin-dev.png",
+      name: "Amanda Martin",
+      bio: "Developer Advocate | Always Curious | Always Silly",
+      username: "amandamartin-dev",
+      text: "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.",
+    },
+    {
+      image: "https://github.com/Pradumnasaraf.png",
+      name: "Pradumna Saraf",
+      bio: "Open Source Advocate | DevOps Engineer | EddieHub Ambassador",
+      username: "Pradumnasaraf",
+      text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
+    },
   ];
 
   function classNames(...classes) {
@@ -377,6 +400,8 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
+
+      <Testimonials data={testimonials} />
 
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
