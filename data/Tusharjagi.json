@@ -1,7 +1,29 @@
 {
   "name": "Tushar Jagi",
   "type": "personal",
-  "bio": "I'm Front End Developer starting journey in open source",
+  "bio": "JavaScript developer | **MERN Stack** | Open Source | Enthusiast in BlockChain",
+  "tags": [
+    "Open Source",
+    "React",
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "Next.js",
+    "React Native",
+    "BlockChain"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/tusharjagi" },
+    { "icon": "FaGithub", "url": "https://github.com/Tusharjagi" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tushar-jagi-519025215/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://tusharjagi.hashnode.dev"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -27,6 +49,11 @@
       "name": "Follow me on Dev",
       "url": "https://dev.to/tusharjagi",
       "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://tusharjagi.hashnode.dev",
+      "icon": "SiHashnode"
     }
   ]
 }

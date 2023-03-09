@@ -40,7 +40,8 @@ We welcome everyone to review Pull Requests, it is a great way to learn and netw
 
 ### DON'Ts
 - don't be rude, disrespectful or aggressive
-- do not repeat feedback, this creates more noise than value (check the existing conversation)
+- do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
+- do not blindly approve pull requests to improve your GitHub contributors graph
 
 ---
 

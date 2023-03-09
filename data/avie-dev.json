@@ -3,6 +3,12 @@
   "type": "personal",
   "bio": "A Filipino Engineer in Japan",
 
+  "testimonials": [
+   "mpotane",
+   "krshkun",
+   "Spiritdivine",
+   "tobySolutions"
+  ],
   "links": [
     {
       "name": "GitHub",
