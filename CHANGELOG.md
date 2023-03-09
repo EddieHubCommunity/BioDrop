@@ -1,9 +1,9 @@
-# 1.96.0 (2023-03-09)
+## 1.96.1 (2023-03-09)
 
 
-### Features
+### Bug Fixes
 
-* filter map by tag ([#5067](https://github.com/EddieHubCommunity/LinkFree/issues/5067)) ([95af37f](https://github.com/EddieHubCommunity/LinkFree/commit/95af37f6abd43370a3ff2099b1304f3f49e6915a))
+* fetches to function calls for home page ([#5124](https://github.com/EddieHubCommunity/LinkFree/issues/5124)) ([fd3da5d](https://github.com/EddieHubCommunity/LinkFree/commit/fd3da5d57c70dc093861ccf20d849f63b8bd0fc2))
 
 
 
