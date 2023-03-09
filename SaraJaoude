@@ -1,0 +1,12 @@
+{
+  "name": "Sara Jaoude",
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+}
