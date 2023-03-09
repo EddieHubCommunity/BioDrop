@@ -1,0 +1,22 @@
+{
+  "name": "Odetunde Mayowa",
+  "type": "personal",
+  "bio": "An aspiring software engineer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tipomuerto",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/odetunde._",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Odetundemay",
+      "icon": "FaGithub"
+    },
+  ]
+}
