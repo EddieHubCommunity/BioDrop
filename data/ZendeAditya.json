@@ -1,7 +1,15 @@
 {
   "name": "Aditya Zende",
   "type": "personal",
-  "bio": "A freelance web developer",
+  "bio": "**A freelance web developer** Technical Writer",
+  "tags":[
+  "open source",
+  "Web developer",
+  "Technical writer",
+  "javascript",
+  "React",
+  "MERN"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
