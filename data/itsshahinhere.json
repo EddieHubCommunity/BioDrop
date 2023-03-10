@@ -3,6 +3,11 @@
   "type": "personal",
   "bio": "Why getting addicted to Applications and tech? Instead Create them",
    "links": [
+     {
+      "name": "Github",
+      "url": "https://github.com/itsshahinhere",
+      "icon": "SiGithub"
+    },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/itsshahinhere",
