@@ -2,6 +2,13 @@
   "name": "Aditya Zende",
   "type": "personal",
   "bio": "**A freelance web developer** Technical Writer",
+  "tags":[
+  "open source",
+  "Web developer",
+  "Technical writer",
+  "javascript",
+  "React"
+  ]
   "links": [
     {
       "name": "Follow me on Twitter",
