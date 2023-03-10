@@ -1,0 +1,22 @@
+{
+  "name": "Eslem Ouederni",
+  "type": "personal",
+  "bio": "Fullstack developer, I'm looking forward to starting a new journey with open source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EslemOuederni",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/EslemOuederni",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/eslem-ouederni-858a13182/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
