@@ -1,12 +1,18 @@
 import DocsLayout from "../../components/layouts/DocsLayout.js";
 import ClipboardCopy from "../../components/ClipboardCopy.js";
 import Link from "../../components/Link.js";
+import Youtube from "../../components/embeds/Youtube.js";
 
 ## Quickstart
 
+<Youtube
+  url="https://www.youtube.com/embed/05HEeCQSKRE"
+  title="Linkfree Quickstart Video"
+></Youtube>
+
 ### Add your profile
 
-There are 3 ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+There are 4 ways you can add your profile, but for this Quickstart we will use the GitHub UI.
 
 To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
 
@@ -41,19 +47,17 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
 }
 ```
 </ClipboardCopy>
 
-| field              | type                 | description                                                 |
-| :----------------- | :------------------- | :---------------------------------------------------------- |
-| name               | string               | Your display name on your Profile                           |
-| displayStatsPublic | `true` or `false`    | Display your page view counter and link click counter       |
-| type               | personal / community | The type of account, is it a single person or a community   |
-| bio                | string               | Your description about yourself (you can use markdown here) |
+| field | type                 | description                                                 |
+| :---- | :------------------- | :---------------------------------------------------------- |
+| name  | string               | Your display name on your Profile                           |
+| type  | personal / community | The type of account, is it a single person or a community   |
+| bio   | string               | Your description about yourself (you can use markdown here) |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
@@ -61,7 +65,6 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
   "links": [
@@ -75,11 +78,11 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```
 </ClipboardCopy>
 
-| field | type   | description                                                                                                                                                                          |
-| :---- | :----- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| name  | string | The display name for the button                                                                                                                                                      |
-| url   | string | Full url to the resource                                                                                                                                                             |
-| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://linkfree.eddiehub.io/icons)  |
+| field | type   | description                                                                                                                                                                     |
+| :---- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| name  | string | The display name for the button                                                                                                                                                 |
+| url   | string | Full url to the resource                                                                                                                                                        |
+| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://linkfree.eddiehub.io/icons) |
 
 ![propose new file](https://user-images.githubusercontent.com/82668196/208292185-743dc114-5699-4b58-bf5c-c5fc74f0248d.png)
 
@@ -113,7 +116,7 @@ You can skip `optional extended message`
 
 ![propose new file](https://user-images.githubusercontent.com/82668196/208292186-d954f0e5-bdb0-4177-ac14-eb5d99b329dd.png)
 
-13. Click `compare across forks` and you will see 4 drop downs (**HIGHLY IMPORTANT - MANY GO WRONG HERE**)
+13. **HIGHLY IMPORTANT** Click `compare across forks` and you will see 4 drop downs
 
 | Dropdown     | Description                          | Example values               |
 | :----------- | :----------------------------------- | :--------------------------- |
@@ -136,6 +139,10 @@ The first dropdown for the `base` repository (destination) should be set to `Edd
 17. Now you need to wait to have your Pull Request (changes) reviewed
 
 ![pull request](https://user-images.githubusercontent.com/82668196/208292196-c374d328-6bed-4f7b-adbc-b55c29b7c367.png)
+
+An approving review from one of LinkFree's maintainers will show a green check mark next to their id.
+
+![maintainer review](https://user-images.githubusercontent.com/35927536/217060602-ba3678d1-f655-4805-a47d-e40f1ddcd59f.png)
 
 18. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
 19. Once merged your profile will be available a few minutes later on your custom url (<Link href="https://linkfree.eddiehub.io/SaraJaoude">linkfree.eddiehub.io/SaraJaoude</Link>)

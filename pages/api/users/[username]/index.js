@@ -2,31 +2,47 @@ import connectMongo from "../../../../config/mongo";
 import logger from "../../../../config/logger";
 
 import Profile from "../../../../models/Profile";
-import Link from "../../../../models/Link";
 import Stats from "../../../../models/Stats";
 import ProfileStats from "../../../../models/ProfileStats";
+
 import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
+import getLocation from "../../../../services/profiles/getLocation";
 
 export default async function handler(req, res) {
-  await connectMongo();
-  const { username } = req.query;
-  let log;
-  log = logger.child({ username: username });
+  if (req.method != "GET" || !req.query.username) {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
 
+  const { status, profile } = await getUserApi(req.query.username);
+  return res.status(status).json(profile);
+}
+
+export async function getUserApi(username) {
+  await connectMongo();
+
+  const log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
   if (!data.username) {
     logger.error(`failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `${username} not found` });
+    return {
+      status: 404,
+      profile: {
+        error: `${username} not found`,
+      },
+    };
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  const getProfile = await Profile.findOne({ username });
+  let getProfile = await Profile.findOne({ username });
+
   if (!getProfile) {
     try {
-      await Profile.create({
+      getProfile = await Profile.create({
         username,
         views: 1,
       });
@@ -49,6 +65,7 @@ export default async function handler(req, res) {
       log.error(e, `app profile stats failed for ${username}`);
     }
   }
+
   if (getProfile) {
     try {
       await Profile.updateOne(
@@ -63,7 +80,7 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        `failed to incremente profile stats for username: ${username}`
+        `failed to increment profile stats for username: ${username}`
       );
     }
   }
@@ -87,10 +104,11 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(
         e,
-        "failed to increment profile stats for usernanme: ${username}"
+        "failed to increment profile stats for username: ${username}"
       );
     }
   }
+
   if (!getProfileStats) {
     try {
       await ProfileStats.create({
@@ -139,29 +157,18 @@ export default async function handler(req, res) {
     }
   }
 
-  if (!data.displayStatsPublic) {
-    return res.status(200).json({ username, ...data });
-  }
-
   const latestProfile = await Profile.findOne({ username });
-  const links = await Link.find({ profile: latestProfile._id });
+  await getLocation(username, latestProfile);
+  const profileWithLocation = await Profile.findOne({ username });
 
-  const profileWithStats = {
-    username,
-    ...data,
-    views: latestProfile.views,
-    links: data.links.map((link) => {
-      const statFound = links.find((linkStats) => linkStats.url === link.url);
-      if (statFound) {
-        return {
-          ...link,
-          clicks: statFound.clicks,
-        };
-      }
-
-      return link;
-    }),
-  };
-
-  res.status(200).json(profileWithStats);
+  return JSON.parse(
+    JSON.stringify({
+      status: 200,
+      profile: {
+        username,
+        ...data,
+        location: profileWithLocation.location,
+      },
+    })
+  );
 }

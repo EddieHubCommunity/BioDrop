@@ -9,6 +9,7 @@ export const Basic = {
   args: {
     profile: {
       ...data,
+      username: "eddiejaoude"
     },
   }
 };

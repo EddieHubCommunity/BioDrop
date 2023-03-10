@@ -1,6 +1,5 @@
 {
   "name": "Samarth Dhawan",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Love to learn new things",
   "tags": [
@@ -27,6 +26,11 @@
       "name": "GitHub",
       "url": "https://github.com/samarth8765",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/samarthdhawan007/",
+      "icon": "SiLeetcode"
     }
   ],
   "socials": [

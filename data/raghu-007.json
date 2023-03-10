@@ -1,10 +1,9 @@
 {
   "name": "RAGHU S (test)",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Engineer and Tech Entrepreneur",
-  "links":[
-      {
+  "links": [
+    {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/raghu7_",
       "icon": "FaTwitter"
@@ -13,6 +12,6 @@
       "name": "Follow me on Github",
       "url": "https://github.com/raghu-007",
       "icon": "FaGithub"
-       }
-    ]
+    }
+  ]
 }

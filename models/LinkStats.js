@@ -15,7 +15,7 @@ const linkStatsSchema = new mongoose.Schema({
   },
   date: {
     type: Date,
-    default: new Date(new Date().toLocaleDateString()),
+    default: new Date(),
   },
   profile: {
     type: mongoose.Schema.Types.ObjectId,

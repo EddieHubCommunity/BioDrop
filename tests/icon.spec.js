@@ -11,7 +11,7 @@ test("Icon search works correctly", async ({ page }) => {
   await page.goto("/icons");
 
   // 2. show no users are listed
-  await expect(page.locator("li")).toHaveCount(0);
+  await expect(page.locator("li")).toHaveCount(4);
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");

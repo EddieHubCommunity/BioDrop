@@ -1,7 +1,6 @@
 {
   "name": "Dean Lofts",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "DevOps Engineer, Music Producer, and big fan of Open Source.",
 
   "tags": [
@@ -13,7 +12,8 @@
     "Open Source",
     "Rapper",
     "Ruby",
-    "Rust"
+    "Rust",
+    "Terraform"
   ],
   "socials": [
     {
@@ -46,6 +46,11 @@
       "icon": "FaYoutube"
     },
     {
+      "name": "Tech videos I am part of",
+      "url": "https://www.github.com/sponsors/loftwah",
+      "icon": "FaYoutube"
+    },
+    {
       "name": "Download my music for free!",
       "url": "https://music.btsmf.link",
       "icon": "FaLink"
@@ -54,6 +59,31 @@
       "name": "Follow me on Spotify!",
       "url": "https://open.spotify.com/artist/3akZxhPSJV5we4l7Hzo6V6?si=9GucsHjcQTyVcAJZLKQKmQ",
       "icon": "FaSpotify"
+    },
+    {
+      "name": "Read my blog on Medium",
+      "url": "https://blog.beatsmiff.com",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Schedule a meeting with Calendly",
+      "url": "https://calendly.com/loftwah",
+      "icon": "FaCalendar"
+    },
+    {
+      "name": "Beatsmiff Dare",
+      "url": "https://dare.btsmf.link",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Angry Tux",
+      "url": "https://angrytux.lofts.sh",
+      "icon": "FaLinux"
+    },
+    {
+      "name": "Support what I do with GitHub Sponsors",
+      "url": "https://github.com/sponsors/loftwah",
+      "icon": "FaGithub"
     }
   ],
   "testimonials": [
@@ -61,7 +91,9 @@
     "eddiejaoude",
     "krshkun",
     "stevenovak123",
-    "AussieDev81"
+    "AussieDev81",
+    "shubhsharma19",
+    "ibilalkayy"
   ],
   "milestones": [
     {
@@ -137,6 +169,14 @@
       "url": "https://grindmodecypher.com"
     },
     {
+      "title": "Released my first solo album called The Beat Down",
+      "date": "2020",
+      "icon": "FaMusic",
+      "color": "red",
+      "description": "I released my first solo album which is a collection of beats of mine from a beat battle",
+      "url": "https://www.youtube.com/playlist?list=PLKBAUoCO_FtkJB7uAExD3BO_KB0qLcr5O"
+    },
+    {
       "title": "Released an album as a member of the Hip Hop group Protektahz",
       "date": "2020",
       "icon": "FaMusic",
@@ -167,6 +207,14 @@
       "color": "#EF5904",
       "description": "I accepted the role as EddieHub Ambassador 0.2",
       "url": "https://www.eddiehub.org/ambassador-program"
+    },
+    {
+      "title": "Received my first GitHub Sponsor",
+      "date": "2023",
+      "icon": "FaCode",
+      "color": "black",
+      "description": "I received my first sponsorship on GitHub Sponsors",
+      "url": "https://www.github.com/sponsors/loftwah"
     }
   ]
 }
