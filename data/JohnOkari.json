@@ -1,0 +1,24 @@
+{
+  "name": "John Okari",
+  "type": "personal",
+  "bio": "**Full-Stack Developer**| JavaScript | ReactJs | Ruby on Rails | Technical Writer ",
+  "avatar": "https://media.licdn.com/dms/image/C4D03AQFQ-TQCaXGhGQ/profile-displayphoto-shrink_800_800/0/1611950036081?e=1683763200&v=beta&t=a1RvqcN7e55SjEZSfQNTe2BKXPhAqKxjIs8rnrSbc58",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/johnnokari",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "linkedin.com/in/johnnokari-001",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/JohnOkari",
+      "icon": "FaGithub"
+    }
+
+  ]
+}
