@@ -5,8 +5,22 @@
 
   "tags": ["Open Source", "Web Development", "DSA", "Java", "Go", "Python"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Arindam_1729" },
-    { "icon": "FaGithub", "url": "https://github.com/Arindam200" }
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@Arindam_1729"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Arindam200"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://arindam1729.hashnode.dev/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/intent/follow?screen_name=Arindam_1729"
+    }
   ],
   "testimonials": ["priyankarpal", "Malavi1", "MadhuSaini22"],
   "links": [
@@ -16,9 +30,9 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Join our Inclusive Open Source community GrowInCommunity on Twitter & Discord",
-      "url": "https://twitter.com/GrowInComm",
-      "icon": "FaLink"
+      "name": "Watch My Youtube Videos",
+      "url": "https://www.youtube.com/@Arindam_1729",
+      "icon": "SiYoutube"
     },
     {
       "name": "Follow me on Twitter",
@@ -70,6 +84,15 @@
       "color": "blue",
       "description": "Documenting my Journey through blogs",
       "url": "https://arindam1729.hashnode.dev/"
+    },
+    {
+      "title": "Started My Youtube Channel",
+      "date": "10 March 2023",
+      "icon": "SiYoutube",
+      "color": "blue",
+      "description": "Sharing my learnings via Videos",
+      "url": "https://www.youtube.com/@Arindam_1729"
     }
+    
   ]
 }
