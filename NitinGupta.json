@@ -1,0 +1,17 @@
+{
+  "name": "Nitin Gupta",
+  "type": "personal",
+  "bio": "JS Developer and DevOps guy. Big sport enthusiast.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nitingupta220",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nitingupta220",
+      "icon": "FaGithub
+    }
+  ]
+}
