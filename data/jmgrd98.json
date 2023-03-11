@@ -1,7 +1,7 @@
 {
   "name": "João Marcelo Dantas",
   "type": "personal",
-  "bio": "Frontend Developer Jr.",
+  "bio": "Fullstack Developer",
 
   "milestones": [
     {
@@ -21,7 +21,7 @@
       "url": "https://www.github.com/jmgrd98/"
     },
     {
-      "title": "Got hired as a frontend developer!",
+      "title": "Got hired as a fullstack developer!",
       "date": "February 2023",
       "icon": "FaDollarSign",
       "color": "green",
