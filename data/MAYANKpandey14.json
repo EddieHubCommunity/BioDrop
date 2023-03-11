@@ -1,0 +1,26 @@
+{
+  "name": "Mayank Pandey",
+  "type": "personal",
+  "bio": "Web and Game developer | Open source enthusiast | Computer Science Student",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/reallyMayankP",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/manu.pandey_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/MAYANKpandey14/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mayank-pandey-21a5bb195/",
+      "icon": "FaLinkedin"
+    }
+}
