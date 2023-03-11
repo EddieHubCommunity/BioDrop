@@ -1,9 +1,7 @@
 {
   "name": "Doug DeVaney",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Development, Carpentry, Mathematics, & Retro Video Games.",
-  "avatar": "https://github.com/dfdevaney.png",
     "links": [
     {
       "name": "GitHub",
@@ -19,6 +17,6 @@
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/doug-devaney",
       "icon": "FaLinkdedIn"
-    },
+    }
   ]
 }
