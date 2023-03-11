@@ -14,7 +14,7 @@
   "socials": [
     {
       "icon": "FaTwitter",
-      "url": "https://twitter.com/code_shubh"
+      "url": "https://twitter.com/shubhstwt"
     },
     {
       "icon": "FaGithub",
@@ -68,6 +68,14 @@
   ],
   "milestones": [
     {
+      "title": "Won Hashnode Blogging Challenge",
+      "date": "March, 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "I won the hashnode Blogging Challenge organized by WeMakeDevs and Also by CoCode in the month of February",
+      "url": "https://shubhsharma19.hashnode.dev/open-source-for-beginners"
+    },
+    {
       "title": "Started contributing to Open Source",
       "date": "January, 2023",
       "icon": "FaGithub",
@@ -76,7 +84,7 @@
       "url": "https://github.com/shubhsharma19"
     },
     {
-      "title": "Reached 200k profile views on Instagram",
+      "title": "Reached 200k views on Instagram",
       "date": "December, 2022",
       "icon": "FaInstagram",
       "color": "purple",
