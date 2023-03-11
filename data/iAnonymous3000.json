@@ -1,0 +1,22 @@
+{
+  "name": "Sooraj Sathyanarayanan",
+  "type": "personal",
+  "bio": "Security & Privacy Researcher, International Chess Player♟️",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iAnonymous3000",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/soorajsathyanarayanan",
+      "icon": "FaLinkedin"
+    },
+     {
+      "name": "GitHub",
+      "url": "https://github.com/iAnonymous3000",
+      "icon": "FaGithub"
+     }
+  ]
+}
