@@ -1,0 +1,39 @@
+{
+  "name": "Jyotiraditya Singh",
+  "type": "personal",
+  "bio": "**Your Bio**",
+
+  "tags": ["WebDev", "tag2", "tag3"],
+
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/<Your Twitter Username>" },
+    { "icon": "FaGithub", "url": "https://github.com/<Your GitHub Username>" }, //for mini icons
+    {
+      "icon": "FaLinkedin",
+      "url": "Your Linkedin Profile URL"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/jyotir07",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/<Your Twitter Username>",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "Your Linkedin Profile URL",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/j_is_sus",
+      "icon": "FaInstagram"
+    }
+  ]
+}
