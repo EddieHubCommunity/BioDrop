@@ -9,12 +9,12 @@
 		},
 		{
 			"name": "Follow me on Github",
-			"url": "https://twitter.com/Tweetsoftejas",
+			"url": "https://twitter.com/Tejasp2003",
 			"icon": "FaGithub"
 		}, {
 			"name": "Follow me on LinkedIn",
 			"url": "https://www.linkedin.com/in/tejas2003/",
-			"icon": "FaGithub"
+			"icon": "FaLinkedin"
 		}
 	]
 }
