@@ -50,7 +50,7 @@ Read more in the official documentation https://linkfree.eddiehub.io/docs/enviro
 
 ### Local development
 
-This environment is fully on computer and requires each dependency (for example MongoDB) to be installed and set up, but gives you the most flexibility for customisation.
+This environment is fully on a computer and requires each dependency (for example MongoDB) to be installed and set up, but gives you the most flexibility for customization.
 
 #### Prerequisites
 
