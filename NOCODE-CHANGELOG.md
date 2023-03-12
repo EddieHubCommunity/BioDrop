@@ -23,3 +23,4 @@ YouTube (or blog)
 | [Bilal Khan](https://github.com/ibilalkayy) | YouTube | 2023/01/18 | [Submitting My First PR with Dean - LinkFree Account Creation for Beginners](https://www.youtube.com/watch?v=I8wNateK3hM) |
 | [Bilal Khan](https://github.com/ibilalkayy) | Blog | 2023/01/21 | [How to create a LinkFree account? [Part 1]](https://ibilalkayy.hashnode.dev/how-to-create-a-linkfree-account-part-1) |
 | [Rohit](https://github.com/TRohit20) | Blog | 2023/03/01 | [Beyond Code: How Anyone Can Contribute to Open-Source Projects](https://rohitlogs.com/beyond-code-how-anyone-can-contribute-to-open-source-projects) |
+| [Madhu Saini](https://github.com/MadhuSaini22) | Blog | 2023/03/12 | [Beyond Code: A Beginner's Guide to Open Source](https://madhusaini22.hashnode.dev/a-beginners-guide-to-open-source) |
