@@ -62,10 +62,13 @@ export default function Map({ data }) {
   const updateSelectedTagsFilter = (tagSelected) => {
     const updatedSelectedTags = new Set(selectedTags);
 
-    if (updatedSelectedTags.has(tagSelected)) updatedSelectedTags.delete(tagSelected)
-    else updatedSelectedTags.add(tagSelected)
+    if (updatedSelectedTags.has(tagSelected)) {
+      updatedSelectedTags.delete(tagSelected);
+    } else {
+      updatedSelectedTags.add(tagSelected);
+    }
 
-    setSelectedTags(updatedSelectedTags)
+    setSelectedTags(updatedSelectedTags);
   }
 
   const filterData = (value) => {
