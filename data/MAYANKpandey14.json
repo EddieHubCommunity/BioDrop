@@ -2,7 +2,7 @@
   "name": "Mayank Pandey",
   "type": "personal",
   "bio": "Web and Game developer | Open source enthusiast | Computer Science Student",
-   "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/reallyMayankP",
@@ -23,5 +23,5 @@
       "url": "https://www.linkedin.com/in/mayank-pandey-21a5bb195/",
       "icon": "FaLinkedin"
     }
-   ]
+  ]
 }
