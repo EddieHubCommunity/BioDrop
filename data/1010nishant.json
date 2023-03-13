@@ -31,33 +31,33 @@
   ],
   "links": [
     {
-      "name": "Let's Connect on **Linkedin**",
+      "name": "Let's Connect on Linkedin",
       "url": "https://www.linkedin.com/1010nishant",
       "icon": "FaLinkedin"
     },
     {
-      "name": "**Twitter**: For Threads And Thoughts",
+      "name": "Twitter: For Threads And Thoughts",
       "url": "https://twitter.com/1010nishant",
       "icon": "FaTwitter"
     },
     {
-      "name": "Check My **Github**",
+      "name": "Check My Github",
       "url": "https://www.github.com/1010nishant",
       "icon": "FaGithub"
     },
     {
-      "name": "Join Our Tech Community **Dev Hac**",
+      "name": "Join Our Tech Community Dev Hac",
       "url": "https://discord.gg/p4TWyft886",
       "icon": "SiDiscord"
     },
 
     {
-      "name": "Let's Connect on **Instagram**",
+      "name": "Let's Connect on Instagram",
       "url": "https://www.instagram.com/nishant.jangir.1010",
       "icon": "FaInstagram"
     },
     {
-      "name": "Interested In Reading **Blogs**? Click Here!",
+      "name": "Interested In Reading Blogs? Click Here!",
       "url": "https://1010nishant.hashnode.dev/",
       "icon": "SiHashnode"
     }

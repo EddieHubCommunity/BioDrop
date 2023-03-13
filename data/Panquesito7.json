@@ -25,6 +25,7 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
     { "icon": "FaGithub", "url": "https://github.com/Panquesito7" },
     { "icon": "SiHashnode", "url": "https://hashnode.com/@Panquesito7" },
+    { "icon": "FaDev", "url": "https://dev.to/panquesito7" },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/@panquesito7/" }
   ],
   "links": [
@@ -48,13 +49,13 @@
     },
     {
       "group": "Socials",
-      "name": "Read my blogs on Hashnode",
+      "name": "Miscellaneous/personal blogs on Hashnode",
       "url": "https://panquesito7.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
       "group": "Socials",
-      "name": "Read my blogs on DEV.to (using Hashnode now)",
+      "name": "Technical/community blogs on DEV.to",
       "url": "https://dev.to/panquesito7",
       "icon": "FaDev"
     },
@@ -162,6 +163,14 @@
       "icon": "SiMinetest",
       "color": "#0030e7",
       "description": "Grow my Minetest projects as well as help and improve the community."
+    },
+    {
+      "title": "50+ followers on Dev.to",
+      "date": "March 6, 2023",
+      "icon": "FaDev",
+      "color": "#0b11bc",
+      "description": "Got 50+ followers on my Dev.to profile.",
+      "url": "https://dev.to/panquesito7"
     },
     {
       "title": "Joined CodeIN as a maintainer",

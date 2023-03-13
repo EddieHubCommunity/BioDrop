@@ -1,20 +1,27 @@
 {
   "name": "Kishan Gupta",
   "type": "personal",
-  "bio": "A Full Stack Developer and Looking for contribute in Open Source Projects.",
+  "bio": "Full Stack Developer | Lead Engineer at @69coders",
+  "tags": ["ReactJS", "NodeJS", "JavaScript", "OpenSource"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/i_kishan_" },
+    { "icon": "FaGithub", "url": "https://github.com/kishangupta114" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/i-kishan" },
+    { "icon": "SiHashnode", "url": "https://ikishan.hashnode.dev/" }
+  ],
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "Check Out My Twitter Profile",
       "url": "https://twitter.com/i_kishan_",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Let's Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/i-kishan",
       "icon": "SiLinkedin"
     },
     {
-      "name": "Follow me on GitHub",
+      "name": "Check Out My GitHub Profile",
       "url": "https://github.com/kishangupta114",
       "icon": "FaGithub"
     }
