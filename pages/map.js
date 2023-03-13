@@ -38,11 +38,11 @@ export async function getServerSideProps() {
     );
     data.tags = await res.json();
     data.tags = data.tags.filter(
-      (tag) => 
-      data.users.find(
-        (user) => 
-        user.tags.includes(tag.name))
-      );
+      (tag) =>
+        data.users.find(
+          (user) =>
+            user.tags.includes(tag.name))
+    );
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
@@ -78,9 +78,13 @@ export default function Map({ data }) {
     setFilteredUsers(results);
   };
 
+  const resetFilter = () => {
+    setFilteredUsers([]);
+  };
+
   return (
-  <>
-  <PageHead
+    <>
+      <PageHead
         title="LinkFree Users Around The World"
         description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
       />
@@ -89,7 +93,11 @@ export default function Map({ data }) {
           LinkFree Users Around The World
         </h1>
         <p className="py-5">This map shows locations of Linkfree users based on the location listed in their GitHub profile. New data points are added each time a profile is visited.</p>
-  <div className="flex flex-wrap justify-center mb-4">
+        <div className="flex flex-wrap justify-center mb-4">
+          <Tag
+            onClick={resetFilter}
+            name="Clear/Reset Filters"
+          />
           {tags &&
             tags
               .slice(0, 10)
@@ -102,8 +110,8 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-  <DynamicMap users={filteredUsers.length > 0 ? filteredUsers : users} />
-  </Page>
-  </>
+        <DynamicMap users={filteredUsers.length > 0 ? filteredUsers : users} />
+      </Page>
+    </>
   );
 }
