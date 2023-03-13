@@ -2,6 +2,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import logger from "../config/logger";
 import Tag from "../components/Tag";
+import Button from "../components/Button";
 
 import PageHead from "../components/PageHead";
 import Page from "../components/Page";
@@ -94,9 +95,10 @@ export default function Map({ data }) {
         </h1>
         <p className="py-5">This map shows locations of Linkfree users based on the location listed in their GitHub profile. New data points are added each time a profile is visited.</p>
         <div className="flex flex-wrap justify-center mb-4">
-          <Tag
+          <Button
             onClick={resetFilter}
-            name="Clear/Reset Filters"
+            text="Clear/Reset Filters"
+            primary={false}
           />
           {tags &&
             tags
