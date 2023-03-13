@@ -13,6 +13,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const { statusCode, stats } = await getTotalStats();
+  return res.status(statusCode).json(stats);
+}
+
+export async function getTotalStats() {
   await connectMongo();
 
   let dailyStats = [];
@@ -46,12 +51,13 @@ export default async function handler(req, res) {
     logger.error(e, "failed to load profile list");
   }
 
-  const data = {
-    views,
-    clicks,
-    users: totalProfiles.length || 0,
-    active: activeProfiles || 0,
+  return {
+    statusCode: 200,
+    stats: {
+      views,
+      clicks,
+      users: totalProfiles.length || 0,
+      active: activeProfiles || 0,
+    },
   };
-
-  res.status(200).json(data);
 }
