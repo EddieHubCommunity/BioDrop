@@ -2,6 +2,15 @@
   "name": "Varchasv Hoon",
   "type": "personal",
   "bio": "DevOps Engineer | Open Source Enthusiast | Constantly learning and Constantly Delivering",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "GCP",
+    "CI/CD",
+    "Golang"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -25,6 +34,12 @@
       "name": "My Portfolio",
       "url": "https://varchasvh.carrd.co",
       "icon": "FaPortrait"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/varchasvh",
+      "icon": "FaInstagram"
     }
   ]
 }

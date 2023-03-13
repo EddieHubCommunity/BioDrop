@@ -1,5 +1,7 @@
 import Link from "../components/Link";
 import Image from "next/image";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -15,7 +17,7 @@ import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
 import BasicCards from "../components/statistics/BasicCards";
 import Button from "../components/Button";
-import logger from "../config/logger";
+import Testimonials from "../components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -27,28 +29,11 @@ export async function getServerSideProps(context) {
     };
   }
 
-  let total = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
-    );
-    total = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR total stats not found ");
-  }
-
-  let today = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/today`
-    );
-    today = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR today stats not found");
-  }
+  const { stats: totalStats } = await getTotalStats();
+  const { stats: todayStats } = await getTodayStats();
 
   return {
-    props: { total, today },
+    props: { total: totalStats, today: todayStats },
   };
 }
 
@@ -173,6 +158,37 @@ export default function Home({ total, today }) {
       imageAlt:
         "LinkFree screenshot of community events section in the Community Section tab",
     },
+    {
+      name: "LinkFree Map",
+      description: "Discover people around the world from the LinkFree Map.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
+      imageAlt: "LinkFree screenshot of Map Page",
+    },
+  ];
+
+  const testimonials = [
+    {
+      image: "https://github.com/FrancescoXX.png",
+      name: "Francesco Ciulla",
+      bio: "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
+      username: "FrancescoXX",
+      text: "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community",
+    },
+    {
+      image: "https://github.com/amandamartin-dev.png",
+      name: "Amanda Martin",
+      bio: "Developer Advocate | Always Curious | Always Silly",
+      username: "amandamartin-dev",
+      text: "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.",
+    },
+    {
+      image: "https://github.com/Pradumnasaraf.png",
+      name: "Pradumna Saraf",
+      bio: "Open Source Advocate | DevOps Engineer | EddieHub Ambassador",
+      username: "Pradumnasaraf",
+      text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
+    },
   ];
 
   function classNames(...classes) {
@@ -273,7 +289,7 @@ export default function Home({ total, today }) {
             </h2>
             <p className="mt-4 text-white">
               It is not just links... Take a look at the Features you can add to
-              customise your LinkFree Profile.
+              customize your LinkFree Profile.
             </p>
           </div>
 
@@ -368,6 +384,8 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
+
+      <Testimonials data={testimonials} />
 
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"

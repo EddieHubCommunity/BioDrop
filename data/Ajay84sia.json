@@ -10,6 +10,7 @@
     "ExpressJS",
     "ReactJS",
     "NodeJS",
+    "React",
     "Python",
     "Open Source"
   ],
@@ -42,7 +43,7 @@
   ],
   "milestones": [
     {
-      "title": "3 - star HackerRank Problem-Solving",
+      "title": "3 - Star HackerRank Problem-Solving",
       "date": "Dec 2021",
       "icon": "SiHackerrank",
       "color": "grey",
