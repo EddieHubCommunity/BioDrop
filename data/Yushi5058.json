@@ -1,8 +1,8 @@
 {
   "name": "Yushi",
   "type": "personal",
-  "bio": "Self taught web dev | Front-end web dev | Linux & Bash Enthusiast",
-  "tags": ["Open Source", "Front-End", "Linux", "Javascript"],
+  "bio": "DevOps learner | Linux & Bash Enthusiast",
+  "tags": ["Open Source", "DevOps", "Linux"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Yushi5058" },
     { "icon": "SiProtonmail", "url": "mailto:yushi_61@proton.me" }
