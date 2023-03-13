@@ -1,7 +1,7 @@
 {
   "isVirtual": false,
   "isInPerson": true,
-  "color": "orange",
+  "color": "blue",
   "name": "TFUG Kolkata Reboot",
   "description": "The purpose of this event is to bring together TensorFlow enthusiasts, professionals, and experts to share their knowledge, experiences, and insights about the latest developments in TensorFlow.",
   "date": {
