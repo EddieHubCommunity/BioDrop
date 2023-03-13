@@ -2,8 +2,6 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 
-import PageHead from "../PageHead";
-import Page from "../Page";
 import Link from "../Link";
 import MarkerCluster from "./MarkerCluster";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
@@ -11,15 +9,6 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 export default function Map({ users }) {
   return (
     <>
-      <PageHead
-        title="LinkFree Users Around The World"
-        description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
-      />
-      <Page>
-        <h1 className="text-4xl mb-4 font-bold">
-          LinkFree Users Around The World
-        </h1>
-        <p className="py-5">This map shows locations of Linkfree users based on the location listed in their GitHub profile. New data points are added each time a profile is visited.</p>
         <MapContainer
           style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
           center={[16.843908, -18.09]}
@@ -63,7 +52,6 @@ export default function Map({ users }) {
             ))}
           </MarkerCluster>
         </MapContainer>
-      </Page>
     </>
   );
 }

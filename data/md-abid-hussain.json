@@ -22,7 +22,12 @@
     {
       "name": "CodePen",
       "url": "https://codepen.io/md-abid-hussain",
-      "icon": "FaCodePen"
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Glitch",
+      "url": "https://glitch.com/@md-abid-hussain",
+      "icon": "SiGlitch"
     }
   ],
   "milestones": [
