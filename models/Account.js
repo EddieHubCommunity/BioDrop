@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const AccountSchema = new mongoose.Schema({
+export const AccountSchema = new mongoose.Schema({
   userId: {
     type: String,
     trim: true,
@@ -55,5 +55,4 @@ const AccountSchema = new mongoose.Schema({
   },
 });
 
-module.exports =
-  mongoose.models.Account || mongoose.model("Account", AccountSchema);
+export default mongoose.models.Account || mongoose.model("Account", AccountSchema);
