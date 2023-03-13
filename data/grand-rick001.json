@@ -37,6 +37,12 @@
       "name": "GitHub: Let's Collaborate on Open Source",
       "url": "https://github.com/grand-rick001",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Others",
+      "name": "Postman: Let's develop APIs",
+      "url": "https://www.postman.com/grand-rick001",
+      "icon": "SiPostman"
     }
   ]
 }
