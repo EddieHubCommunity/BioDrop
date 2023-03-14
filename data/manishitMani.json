@@ -1,0 +1,19 @@
+{
+  "name": "Manishit Mani",
+  "displayStatsPublic": "true",
+  "type": "personal",
+  "bio": "I am a devloper",
+  "avatar": "http://github.com/manishitMani.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manishit080",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/manishitMani",
+      "icon": "FaGithubAlt"
+    }
+    
+}
