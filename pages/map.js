@@ -67,13 +67,12 @@ export default function Map({ data }) {
     }
 
     setSelectedTags(updatedSelectedTags);
+    return updatedSelectedTags;
   };
 
   const filterData = (value) => {
     const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
-
-    updateSelectedTagsFilter(value);
+    const terms = updateSelectedTagsFilter(value);
 
     results = users.filter((user) => {
       if (user.name.toLowerCase().includes(valueLower)) {
@@ -82,7 +81,7 @@ export default function Map({ data }) {
 
       let userTags = user.tags?.map((tag) => tag.toLowerCase());
 
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
+      if ([...terms].every((keyword) => userTags?.includes(keyword))) {
         return true;
       }
 
