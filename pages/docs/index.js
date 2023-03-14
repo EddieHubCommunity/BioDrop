@@ -337,7 +337,7 @@ export default function DocsIndex() {
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div key={page.name}>
+                  <div key={page.name} className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear  rounded px-6 py-2"  >
                     <div>
                       <span
                         className={classNames(
