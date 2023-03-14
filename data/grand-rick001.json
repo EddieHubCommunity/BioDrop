@@ -43,6 +43,12 @@
       "name": "Postman: Developing APIs with Postman",
       "url": "https://www.postman.com/grand-rick001",
       "icon": "SiPostman"
-    }
+    },
+    {
+            "group": "Others",
+            "name": "Kaggle: Machine Learning journey",
+            "url": "https://www.kaggle.com/grandrick001",
+            "icon": "SiKaggle"
+     }
   ]
 }
