@@ -1,5 +1,4 @@
-import Link from "../Link";
-import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -7,6 +6,7 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
+import Link from "../Link";
 import FallbackImage from "../FallbackImage";
 
 export default function EventCard({ event, username }) {
@@ -76,6 +76,21 @@ export default function EventCard({ event, username }) {
               <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
+              <p className="text-sm text-gray-800 py-1 flex gap-2 flex-wrap">
+                {(event.isVirtual || (event.isInPerson && event.location)) && (
+                  <FaMapPin />
+                )}
+                <span>
+                  {event.isVirtual && "Remote"}
+                  {event.isVirtual &&
+                    event.isInPerson &&
+                    event.location &&
+                    " AND in "}
+                  {event.isInPerson &&
+                    event.location &&
+                    Object.values(event.location).join(", ")}
+                </span>
+              </p>
             </div>
             {username && (
               <Link
