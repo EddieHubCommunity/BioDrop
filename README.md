@@ -6,7 +6,7 @@ LinkFree is the Open Source alternative to LinkTree. A platform where people in 
 
 Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
 
-Here is an example of a LinkFree Profile https://linkfree.eddiehub.io/eddiejaoude
+Here is an example of a LinkFree Profile https://linkfree.io/eddiejaoude
 
 ![Example profile on LinkFree](https://user-images.githubusercontent.com/51878265/211527055-d90f94f5-f6a9-44a7-be0f-905f5e45429e.png)
 
@@ -28,17 +28,17 @@ You have 4 options to contribute to the repo, please pick your favourite from:
 3. Local development
 4. Local development with Docker Compose
 
-Brief documentation is below, but full documentation can be found here https://linkfree.eddiehub.io/docs
+Brief documentation is below, but full documentation can be found here https://linkfree.io/docs
 
 ### GitHub UI
 
 This is great if you only want to add your Profile or make changes to it.
 
-Here is the **QuickStart** guide to add your profile https://linkfree.eddiehub.io/docs/quickstart
+Here is the **QuickStart** guide to add your profile https://linkfree.io/docs/quickstart
 
 *note: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request*
 
-Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/github-ui
+Read more in the official documentation https://linkfree.io/docs/environments/github-ui
 
 ### Gitpod
 
@@ -46,7 +46,7 @@ In the cloud-free development environment which will have all the dependencies y
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
-Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/gitpod 
+Read more in the official documentation https://linkfree.io/docs/environments/gitpod 
 
 ### Local development
 
@@ -69,7 +69,7 @@ You can set this up locally with the following steps:
 1. `npm ci`
 1. `npm run dev`
 
-Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/local-development
+Read more in the official documentation https://linkfree.io/docs/environments/local-development
 
 ### Local development with Docker Compose
 
@@ -84,11 +84,11 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 1. `docker compose up` 
 
-Read more in the official documentation https://linkfree.eddiehub.io/docs/environments/local-development-docker-compose
+Read more in the official documentation https://linkfree.io/docs/environments/local-development-docker-compose
 
 ### 🙂 How to add YOUR Profile
 
-Step by step quickstart guide can be found in the full docs here https://linkfree.eddiehub.io/docs/quickstart
+Step by step quickstart guide can be found in the full docs here https://linkfree.io/docs/quickstart
 
 <!-- Testimonials STARTs Here -->
 
@@ -108,7 +108,7 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 - **Name :** Francesco Ciulla
 - **Bio :** Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/FrancescoXX">Francesco Ciulla</a></strong>
+- **Username :** <strong><a href="https://linkfree.io/FrancescoXX">Francesco Ciulla</a></strong>
 
 <!-- Section 2 -->
 
@@ -122,7 +122,7 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 - **Name :** Amanda Martin
 - **Bio :** Developer Advocate | Always Curious | Always Silly
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/amandamartin-dev">Amanda Martin</a></strong>
+- **Username :** <strong><a href="https://linkfree.io/amandamartin-dev">Amanda Martin</a></strong>
 
 <!-- Section 3 -->
 
@@ -136,7 +136,7 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 - **Name :** Pradumna Saraf
 - **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
-- **Username :** <strong><a href="https://linkfree.eddiehub.io/Pradumnasaraf">Pradumna Saraf</a></strong>
+- **Username :** <strong><a href="https://linkfree.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
 <!-- Testimonials ENDs Here -->
 
