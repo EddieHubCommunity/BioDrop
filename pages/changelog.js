@@ -14,7 +14,7 @@ export default function Changelog() {
         "You can start using the shorter url linkfree.io, the previous domain still works also",
       type: "addition",
       date: "2023-03-12",
-    },,
+    },
     {
       title: "Playground",
       description:
