@@ -15,11 +15,11 @@ export default function UserLinks({ BASE_URL, data }) {
     <>
       {!data.links && <Alert type="info" message="No links found" />}
       {data.links && (
-        <div className="flex flex-col items-center w-full">
+        <>
           {data.links &&
             Object.keys(buckets).map((name) => (
-              <>
-                {Object.keys(buckets).length !== 1 && (
+              <div key={name} className="flex flex-col items-center w-full">
+                {Object.keys(buckets).length > 1 && (
                   <div
                     className="border-b border-gray-200 pb-3 w-full mt-6 mb-3"
                     key={name}
@@ -40,12 +40,11 @@ export default function UserLinks({ BASE_URL, data }) {
                     key={link.id}
                     link={link}
                     username={data.username}
-                    displayStatsPublic={data.displayStatsPublic}
                   />
                 ))}
-              </>
+              </div>
             ))}
-        </div>
+        </>
       )}
     </>
   );

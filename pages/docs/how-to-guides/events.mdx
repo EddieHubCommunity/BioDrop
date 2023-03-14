@@ -20,7 +20,7 @@ All future events also appear on the Events page for the app.
 
 _If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
-3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date` and `url`, which will look like this:
+3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location`, which will look like this:
 
 <ClipboardCopy>
 ```js
@@ -35,7 +35,13 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
     "end": "2022-12-09T17:00:00.000+00:00",
     "cfpClose": "2022-10-09T17:00:00.000+00:00"
   },
-  "url": "https://www.youtube.com/watch?v=iqIFD02OkVE"
+  "url": "https://www.youtube.com/watch?v=iqIFD02OkVE",
+  "location": {
+    "road": "Messe Berlin South Entrance & CityCube",
+    "city": "Jafféstrasse",
+    "state": "Berlin",
+    "country": "Germany"
+  }
 }
 ```
 </ClipboardCopy>
@@ -49,8 +55,18 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 | date                   | true     | Start and end date plus time of the event                   |
 | cfpClose               | false    | The date of when the CFP to submit a talk closes            |
 | url                    | true     | Where can people learn more about the event                 |
+| location               | false    | Address of the event venue                                  |
+
+| Location property | Required | Description                            |
+| :---------------- | :------- | :------------------------------------- |
+| road              | false    | In which road, the event is hosting    |
+| city              | false    | In which city, the event is hosting    |
+| state             | false    | In which state, the event is hosting   |
+| country           | false    | In which country, the event is hosting |
 
 4. Now you can commit your file and create a Pull Request. For more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+If you want to know how to properly add start, end, and CFP Close times, feel free to check [Unix Time stamp](https://www.unixtimestamp.com/).
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>

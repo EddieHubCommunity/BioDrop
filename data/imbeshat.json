@@ -1,6 +1,5 @@
 {
   "name": "Imbeshat Aslam",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Web Development Enthusiast | Software Developer | Technical Writer | Open Source",
   "tags": ["JavaScript", "Open Source", "Developer", "Technical Writer"],
@@ -13,7 +12,7 @@
     },
     { "icon": "SiHashnode", "url": "https://hashnode.com/@imbeshat" }
   ],
-  "avatar": "https://github.com/imbeshat.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",

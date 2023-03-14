@@ -1,9 +1,8 @@
 {
   "name": "Sarthak Roy",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Full Stack Developer | AOSP Device maintainer | Open source contributor",
-  "avatar": "https://avatars.githubusercontent.com/u/47187468?v=4",
+
   "tags": [
     "java",
     "android",

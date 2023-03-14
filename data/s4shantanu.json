@@ -1,6 +1,5 @@
 {
   "name": "Shantanu Raut",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "**Open Source** Enthusiast | Backend Developer ",
   "tags": ["Open Source", "Python", "Java", "Student"],
@@ -12,7 +11,7 @@
       "url": "https://www.linkedin.com/in/shantanu-raut/"
     }
   ],
-  "avatar": "https://github.com/s4shantanu.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",

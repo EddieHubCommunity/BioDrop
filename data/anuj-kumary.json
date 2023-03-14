@@ -1,9 +1,8 @@
 {
   "name": "Anujkumar Yadav",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Software Developer",
-  "avatar": "https://github.com/anuj-kumary.png",
+
   "tags": ["JavaScript", "ReactJS", "TypeScript", "Open Source"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/TheRealAnujK" },

@@ -1,9 +1,8 @@
 {
   "name": "Christine Belzie",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "An Instructional Designer who codes",
-  "avatar": "https://github.com/CBID2.png",
+  "bio": "Open Source Enthusiast|Tech Blogger|Instructional Designer",
+  "tags": ["Open Source", "Blogging", "Content Creation"],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -21,6 +20,11 @@
       "icon": "SiHashnode"
     },
     {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesChrissy",
+      "icon": "FaTwitter"
+    },
+    {
       "name": "Follow me on Dev.to",
       "url": "https://dev.to/cbid2",
       "icon": "FaDev"
@@ -31,7 +35,7 @@
       "title": "Earned a Pull Shark",
       "date": "October 2022",
       "icon": "FaGithub",
-      "color": "grey",
+      "color": "blue",
       "description": "My first award on GitHub",
       "url": "https://github.com/users/CBID2/achievements/pull-shark"
     },
@@ -39,7 +43,7 @@
       "title": "SheSharp New in Tech Scholarship Receipient",
       "date": "November 2022",
       "icon": "FaGithub",
-      "color": "grey",
+      "color": "green",
       "description": "Won for being an active participant in SheSharp.",
       "url": "https://www.linkedin.com/posts/christinebelzie_announcing-our-new-in-tech-scholarship-winner-activity-6993952117304508416-3oC5"
     },
@@ -47,9 +51,17 @@
       "title": "Wrote my first blog post",
       "date": "December 2022",
       "icon": "SiHashnode",
-      "color": "grey",
+      "color": "blue",
       "description": "In this blog post, I describe why I decided to learn to code and how I overcame imposter syndrome to start this journey",
       "url": "https://chrissycodes.hashnode.dev/"
+    },
+    {
+      "title": "Winner of CoCode's Feburary Blog-A-Thon",
+      "date": "March 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "For this event, I wrote about how developers can increase their productivity during the DevOps process.",
+      "url": "https://chrissycodes.hashnode.dev/devops-secret-sauce-5-uncommon-productivity-tips"
     }
   ],
   "testimonials": ["loftwah"]

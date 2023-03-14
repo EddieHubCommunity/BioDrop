@@ -1,7 +1,6 @@
 {
   "name": "Harsh Panchal",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open source| web developer|",
   "tags": ["Open Source", "web-development"],
   "socials": [
@@ -12,7 +11,7 @@
       "url": "https://www.linkedin.com/in/harsh-panchal-49a47019a/"
     }
   ],
-  "avatar": "https://github.com/HarshPanchal26.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",

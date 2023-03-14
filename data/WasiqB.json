@@ -1,9 +1,8 @@
 {
   "name": "Wasiq Amjad Bhamla",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source Advocate | Freelancer | Blogger | Mentor | Trainer",
-  "avatar": "https://github.com/WasiqB.png",
+
   "tags": [
     "Open Source",
     "Javascript",
@@ -59,7 +58,7 @@
     },
     {
       "title": "coteafs-appium",
-      "image": "https://github.com/WasiqB.png",
+
       "date": "April 2017",
       "icon": "FaGithub",
       "color": "black",

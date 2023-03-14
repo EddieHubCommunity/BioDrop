@@ -1,9 +1,9 @@
 {
   "name": "Avie Fukai",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "A Filipino Engineer in Japan",
-  "avatar": "https://github.com/avie-dev.png",
+
+  "testimonials": ["mpotane", "krshkun", "Spiritdivine", "tobySolutions"],
   "links": [
     {
       "name": "GitHub",

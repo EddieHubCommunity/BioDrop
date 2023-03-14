@@ -1,0 +1,17 @@
+{
+  "name": "Anas Bashir",
+  "type": "personal",
+  "bio": "Linux Enthusiast, Learning Web Development",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/an4s911",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/an4s911",
+      "icon": "FaGithub"
+    }
+  ]
+}

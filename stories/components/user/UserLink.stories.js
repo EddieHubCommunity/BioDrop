@@ -10,8 +10,8 @@ export const Basic = {
       url: "https://www.youtube.com",
       clicks: 2,
       name: "My youtube channel",
+      icon: "FaYoutube",
     },
     username: "test",
-    displayStatsPublic: true,
-  }
+  },
 };

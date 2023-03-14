@@ -1,24 +1,23 @@
 {
   "name": "Francesco Ciulla",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
-  "avatar": "https://github.com/Francescoxx.png",
+
   "links": [
     {
       "name": "Newsletter",
-      "url": "https://cdn.forms-content.sg-form.com/71b3f15c-9495-11ed-be9a-ba854da8d35f",
+      "url": "https://substack.com/profile/11407185-francesco-ciulla",
       "icon": "SiMaildotru"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/c/FrancescoCiulla",
+      "icon": "SiYoutube"
     },
     {
       "name": "Discord Community",
       "url": "https://discord.com/invite/ns5x8bTz25",
       "icon": "SiDiscord"
-    },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/@francescociulla",
-      "icon": "SiYoutube"
     },
     {
       "name": "Twitter",
@@ -76,16 +75,48 @@
     "Blockchain"
   ],
   "testimonials": [
+    "eddiejaoude",
     "Njong392",
     "LinuxGamer",
     "devvsakib",
     "chriskalmar",
-    "priyankarpal"
+    "priyankarpal",
+    "tobySolutions",
+    "oyenolaphilipinc",
+    "Shukla007",
+    "shubhsharma19",
+    "MsAkiNom"
   ],
   "socials": [
     { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
     { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },
     { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
     { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
+  ],
+  "milestones": [
+    {
+      "title": "Started my YouTube Channel",
+      "date": "August 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "My VERY first video on youtube. It's not about tech but it's me running for charity.",
+      "url": "https://youtu.be/SaJSNHXBLkc"
+    },
+    {
+      "title": "Quit Full Time Job at the European Space Agency",
+      "date": "March 2021",
+      "icon": "FaSpaceShuttle",
+      "color": "grey",
+      "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link the Celebration video",
+      "url": "https://www.youtube.com/watch?v=519nUxZx51w"
+    },
+    {
+      "title": "Became Docker Captain",
+      "date": "March 2021",
+      "icon": "FaDocker",
+      "color": "blue",
+      "description": "I decided to quit my job to dedicate time to Content Creation and Community Building. In the link a part of the story",
+      "url": "https://www.youtube.com/watch?v=vI6bQJ463Sc&t=31s&pp=ugMICgJpdBABGAE%3D"
+    }
   ]
 }

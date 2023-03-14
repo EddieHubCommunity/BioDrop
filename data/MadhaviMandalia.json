@@ -2,7 +2,7 @@
   "name": "Madhavi Mandalia",
   "type": "personal",
   "bio": "Open Source Enthusiast | Software Engineer | YouTuber",
-  "avatar": "https://github.com/MadhaviMandalia.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -28,7 +28,7 @@
   "milestones": [
     {
       "title": "Started YouTube",
-      "image": "https://github.com/MadhaviMandalia.png",
+
       "date": "Feb 2019",
       "icon": "FaYoutube",
       "color": "red",

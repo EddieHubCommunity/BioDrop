@@ -1,9 +1,8 @@
 {
   "name": "Swapnil Shinde",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "println!() pro rust developer",
-  "avatar": "https://github.com/AtmegaBuzz.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",

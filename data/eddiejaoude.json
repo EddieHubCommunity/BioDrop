@@ -1,9 +1,8 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
-  "avatar": "https://github.com/eddiejaoude.png",
+
   "tags": [
     "Open Source",
     "Javascript",
@@ -112,7 +111,7 @@
     },
     {
       "title": "Started YouTube",
-      "image": "https://github.com/eddiejaoude.png",
+
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",
