@@ -7,7 +7,10 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/sagwekar_sahil" },
     { "icon": "FaGithub", "url": "https://github.com/sahil-sagwekar2652" },
     { "icon": "SiHashnode", "url": "https://sagwekarsahil2652.hashnode.dev/" },
-    { "icon": "SiLinkedin", "url": "https://www.linkedin.com/in/sahil-sagwekar-0b955b223/" }
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/sahil-sagwekar-0b955b223/"
+    }
   ],
   "links": [
     {

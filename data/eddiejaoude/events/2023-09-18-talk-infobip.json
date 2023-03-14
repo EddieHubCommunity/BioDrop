@@ -11,5 +11,8 @@
     "end": "2023-09-19T18:00:00.000+00:00",
     "cfpClose": "2023-05-15T18:00:00.000+00:00"
   },
+  "location": {
+    "country": "Croatia"
+  },
   "url": "https://shift.infobip.com"
 }
