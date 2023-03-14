@@ -1,9 +1,9 @@
-# 1.98.0 (2023-03-14)
+# 1.99.0 (2023-03-14)
 
 
 ### Features
 
-* clear filters for map ([#5312](https://github.com/EddieHubCommunity/LinkFree/issues/5312)) ([#5396](https://github.com/EddieHubCommunity/LinkFree/issues/5396)) ([88fbb44](https://github.com/EddieHubCommunity/LinkFree/commit/88fbb4496828b1f4fcee579140de47b4c6421a63))
+* event location ([#5424](https://github.com/EddieHubCommunity/LinkFree/issues/5424)) ([e28eeca](https://github.com/EddieHubCommunity/LinkFree/commit/e28eeca194aa18561f7d821ff0b942dafa39ba4c)), closes [#4438](https://github.com/EddieHubCommunity/LinkFree/issues/4438)
 
 
 
