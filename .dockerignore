@@ -17,3 +17,5 @@ README.md
 docker-compose.yml
 mongo-compose.yml
 LICENSE
+CONTRIBUTING.md
+NOCODE-CHANGELOG.md

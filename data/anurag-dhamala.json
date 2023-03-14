@@ -35,6 +35,11 @@
       "icon": "FaGithub"
     },
     {
+      "name": "Hashnode",
+      "url": "https://anurag-dhamala.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
       "name": "Twitter",
       "url": "https://twitter.com/theanurag_d",
       "icon": "FaTwitter"

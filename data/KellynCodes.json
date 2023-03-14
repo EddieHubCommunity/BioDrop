@@ -3,14 +3,14 @@
   "type": "personal",
   "bio": "Creative and Passionate Software Engineer | **C#/.NET** || **Angular** || **NextJs** || **ExpressJs** ...",
   "tags": [
-  "Backend Engineer",
-  "Frontend Engineer",
-   "C#/.Net Engineer",
-   "Angular",
-   "NextJs",
-   "TypeScript",
-   "JavaScript",
-   "ReactJs"
+    "Backend Engineer",
+    "Frontend Engineer",
+    "C#/.Net Engineer",
+    "Angular",
+    "NextJs",
+    "TypeScript",
+    "JavaScript",
+    "ReactJs"
   ],
   "links": [
     {
@@ -44,5 +44,4 @@
       "icon": "FaDiscord"
     }
   ]
-  
 }
