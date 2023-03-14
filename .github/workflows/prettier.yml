@@ -10,6 +10,7 @@ concurrency:
 
 jobs:
   format:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
     name: Format Files
     steps:

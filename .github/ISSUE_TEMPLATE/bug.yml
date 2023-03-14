@@ -1,6 +1,6 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
-labels: ["🛠 goal: fix"]
+labels: ["🛠 goal: fix","🚦 status: awaiting triage"]
 body:
   - type: textarea
     id: description

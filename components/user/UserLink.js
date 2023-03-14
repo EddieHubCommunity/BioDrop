@@ -4,12 +4,7 @@ import getIcon from "../Icon";
 import colors from "../../config/icons.json";
 import Link from "../Link";
 
-export default function UserLink({
-  BASE_URL,
-  link,
-  username,
-  displayStatsPublic,
-}) {
+export default function UserLink({ BASE_URL, link, username }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
   const DisplayIcon = getIcon(link.icon);
   let aria = "";
@@ -37,7 +32,6 @@ export default function UserLink({
         <DisplayIcon aria-label={`${aria} icon`} />
       </span>
       <span className="grow">{link.name}</span>
-      {displayStatsPublic && <span>{clicks}</span>}
     </Link>
   );
 }

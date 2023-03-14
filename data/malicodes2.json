@@ -1,7 +1,6 @@
 {
   "name": "Muhammad Ali",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "SE Undergrad | OpenSource Enthusiast | Freelance Web Developer ",
 
   "tags": ["React JS", "JavaScript", "Front-end Developer", "Open Source"],

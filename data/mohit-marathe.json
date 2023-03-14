@@ -1,7 +1,6 @@
 {
   "name": "Mohit Marathe",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source Enthusiast",
 
   "tags": ["Open Source", "Go", "C++", "Python", "Javascript"],

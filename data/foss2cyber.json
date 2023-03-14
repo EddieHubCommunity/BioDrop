@@ -1,6 +1,5 @@
 {
   "name": "Ishan Velle",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Front-end Web Developer | Freelancer | Designer | Blogger",
   "links": [
@@ -13,6 +12,21 @@
       "name": "Here's my Github profile",
       "url": "https://github.com/foss2cyber",
       "icon": "FaGithubAlt"
+    },
+    {
+      "name": "My Codepen Projects",
+      "url": "https://codepen.io/mfosscoder",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Let's Connect!",
+      "url": "https://linkedin.com/in/ishan-velle-fossie8",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Blog",
+      "url": "https://psibr-oh.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }

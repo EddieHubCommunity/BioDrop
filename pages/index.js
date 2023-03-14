@@ -1,9 +1,10 @@
 import Link from "../components/Link";
 import Image from "next/image";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
-  MdArrowUpward,
   MdHelpOutline,
   MdOutlineLink,
   MdOutlinePersonPin,
@@ -14,7 +15,9 @@ import { FaMedal } from "react-icons/fa";
 
 import PageHead from "../components/PageHead";
 import singleUser from "../config/user.json";
-import { abbreviateNumber } from "../services/utils/abbreviateNumbers";
+import BasicCards from "../components/statistics/BasicCards";
+import Button from "../components/Button";
+import Testimonials from "../components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -26,28 +29,11 @@ export async function getServerSideProps(context) {
     };
   }
 
-  let total = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
-    );
-    total = await res.json();
-  } catch (e) {
-    console.log("ERROR total stats not found ", e);
-  }
-
-  let today = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/today`
-    );
-    today = await res.json();
-  } catch (e) {
-    console.log("ERROR today stats not found ", e);
-  }
+  const { stats: totalStats } = await getTotalStats();
+  const { stats: todayStats } = await getTodayStats();
 
   return {
-    props: { total, today },
+    props: { total: totalStats, today: todayStats },
   };
 }
 
@@ -101,7 +87,7 @@ export default function Home({ total, today }) {
       description:
         "Let people easily discover you and your links to your social accounts and content. Find out how many times your Profile has been viewed and your links clicked.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063800-796e29dd-3557-43c8-b84c-6fe24f44925f.png",
+        "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
       imageAlt:
         "LinkFree screenshot of the bio and social links in example profile",
     },
@@ -135,13 +121,13 @@ export default function Home({ total, today }) {
       description:
         "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063791-91499fe2-3f30-4333-9623-78d5075a3d79.png",
+        "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
       imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
       name: "Your Milestones",
       description:
-        "Demonstrate the highlights of your career by adding Milestones to your Profile",
+        "Demonstrate the highlights of your career by adding Milestones to your Profile.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
@@ -172,6 +158,37 @@ export default function Home({ total, today }) {
       imageAlt:
         "LinkFree screenshot of community events section in the Community Section tab",
     },
+    {
+      name: "LinkFree Map",
+      description: "Discover people around the world from the LinkFree Map.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
+      imageAlt: "LinkFree screenshot of Map Page",
+    },
+  ];
+
+  const testimonials = [
+    {
+      image: "https://github.com/FrancescoXX.png",
+      name: "Francesco Ciulla",
+      bio: "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
+      username: "FrancescoXX",
+      text: "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community",
+    },
+    {
+      image: "https://github.com/amandamartin-dev.png",
+      name: "Amanda Martin",
+      bio: "Developer Advocate | Always Curious | Always Silly",
+      username: "amandamartin-dev",
+      text: "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.",
+    },
+    {
+      image: "https://github.com/Pradumnasaraf.png",
+      name: "Pradumna Saraf",
+      bio: "Open Source Advocate | DevOps Engineer | EddieHub Ambassador",
+      username: "Pradumnasaraf",
+      text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
+    },
   ];
 
   function classNames(...classes) {
@@ -187,84 +204,28 @@ export default function Home({ total, today }) {
           <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
           <span className="text-2xl text-gray-500">100% Open Source</span>
         </h2>
-        <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-          {total.users > 0 && (
-            <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-              <dt className="truncate text-sm font-medium text-gray-500">
-                Active Users
-              </dt>
-              <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
-                <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                  {abbreviateNumber(total.active)}
-                  <span className="ml-2 text-sm font-medium text-gray-500">
-                    <span title={total.users}>
-                      from {abbreviateNumber(total.users)}
-                    </span>
-                  </span>
-                </div>
-                <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                  <MdArrowUpward
-                    className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                    aria-hidden="true"
-                  />
-
-                  <span className="sr-only">Increased by </span>
-                  {abbreviateNumber(today.users)}
-                </div>
-              </dd>
-            </div>
-          )}
-          {total.views > 0 && (
-            <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-              <dt className="truncate text-sm font-medium text-gray-500">
-                Profile views
-              </dt>
-              <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
-                <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                  {abbreviateNumber(total.views)}
-                  <span className="ml-2 text-sm font-medium text-gray-500">
-                    from {abbreviateNumber(total.views - today.views)}
-                  </span>
-                </div>
-
-                <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                  <MdArrowUpward
-                    className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                    aria-hidden="true"
-                  />
-
-                  <span className="sr-only">Increased by </span>
-                  {abbreviateNumber(today.views)}
-                </div>
-              </dd>
-            </div>
-          )}
-          {total.clicks > 0 && (
-            <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
-              <dt className="truncate text-sm font-medium text-gray-500">
-                Links clicked
-              </dt>
-              <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
-                <div className="flex items-baseline text-2xl font-semibold text-indigo-600">
-                  {abbreviateNumber(total.clicks)}
-                  <span className="ml-2 text-sm font-medium text-gray-500">
-                    from {abbreviateNumber(total.clicks - today.clicks)}
-                  </span>
-                </div>
-
-                <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
-                  <MdArrowUpward
-                    className="-ml-1 mr-0.5 h-5 w-5 flex-shrink-0 self-center text-green-500"
-                    aria-hidden="true"
-                  />
-
-                  <span className="sr-only">Increased by </span>
-                  {abbreviateNumber(today.clicks)}
-                </div>
-              </dd>
-            </div>
-          )}
-        </dl>
+        <BasicCards
+          data={[
+            {
+              name: "Active Users",
+              current: total.active,
+              total: total.users,
+              delta: today.users,
+            },
+            {
+              name: "Profile Views",
+              current: total.views,
+              total: total.views - today.views,
+              delta: today.views,
+            },
+            {
+              name: "Links Clicked",
+              current: total.clicks,
+              total: total.clicks - today.clicks,
+              delta: today.clicks,
+            },
+          ]}
+        />
       </div>
 
       <div className="bg-white">
@@ -307,20 +268,14 @@ export default function Home({ total, today }) {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <Link
+              <Button
+                text="Get started"
                 href="/docs/quickstart"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-              >
-                Get started
-              </Link>
+                primary={true}
+              />
             </div>
             <div className="ml-3 inline-flex rounded-md shadow">
-              <Link
-                href="/eddiejaoude"
-                className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-              >
-                Example
-              </Link>
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -334,7 +289,7 @@ export default function Home({ total, today }) {
             </h2>
             <p className="mt-4 text-white">
               It is not just links... Take a look at the Features you can add to
-              customise your LinkFree Profile.
+              customize your LinkFree Profile.
             </p>
           </div>
 
@@ -417,7 +372,7 @@ export default function Home({ total, today }) {
                         <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-indigo-600">
                           {feature.name}
                         </h3>
-                        <p className="mt-5 text-base leading-7 text-gray-600">
+                        <p className="mt-5 text-base leading-7 text-gray-700">
                           {feature.description}
                         </p>
                       </div>
@@ -430,9 +385,12 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
+      <Testimonials data={testimonials} />
+
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
         rel="noopener noreferrer"
+        target="_blank"
       >
         <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg">
           <IconContext.Provider

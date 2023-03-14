@@ -1,7 +1,6 @@
 {
   "name": "Rossano D'Angelo",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Software engineer at The LEGO Group. I like reading manga and comic books.",
 
   "tags": ["javascript", "typescript", "nextjs", "graphql"],

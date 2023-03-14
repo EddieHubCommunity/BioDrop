@@ -1,6 +1,5 @@
 {
   "name": "Uthman Abdul-Lateef",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "I'm a DevOps Engineer, Open Source Enthusiast and a Technical Writer. I'm passionate about Learning, sharing knowledge and taking up new challenges",
 
@@ -16,8 +15,8 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "github",
-      "url": "https://github/uthycloud",
+      "name": "my github",
+      "url": "https://github.com/uthycloud",
       "icon": "FaGithub"
     },
     {

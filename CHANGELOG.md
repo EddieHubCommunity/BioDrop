@@ -1,9 +1,9 @@
-## 1.75.2 (2023-02-03)
+# 1.98.0 (2023-03-14)
 
 
-### Bug Fixes
+### Features
 
-* re-implement dynamic icons import ([#4435](https://github.com/EddieHubCommunity/LinkFree/issues/4435)) ([a102b15](https://github.com/EddieHubCommunity/LinkFree/commit/a102b154d5a0153508314b480e3747ebc0fbf287))
+* clear filters for map ([#5312](https://github.com/EddieHubCommunity/LinkFree/issues/5312)) ([#5396](https://github.com/EddieHubCommunity/LinkFree/issues/5396)) ([88fbb44](https://github.com/EddieHubCommunity/LinkFree/commit/88fbb4496828b1f4fcee579140de47b4c6421a63))
 
 
 
