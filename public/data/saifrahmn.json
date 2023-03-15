@@ -5,12 +5,12 @@
     "avatar": "https://github.com/saifrahmn.png",
     "links": [
       {
-        "name": "Follow me on GitHub",
+        "name": "For Collaboration",
         "url": "https://github.com/saifrahmn",
         "icon": "github"
       },
       {
-        "name": "Follow me on Twitter",
+        "name": "See my tweets",
         "url": "https://twitter.com/saif_rahmn",
         "icon": "twitter"
       },
@@ -31,7 +31,7 @@
         "icon": "Envelope"
       },
       {
-      "name": "Follow me on LinkedIn",
+      "name": "Work with me",
       "url": "https://www.linkedin.com/in/saif-rahman-a62686201",
       "icon": "LinkedIn"
     },
