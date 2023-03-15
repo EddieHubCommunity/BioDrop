@@ -1,9 +1,7 @@
 {
   "name": "Tanmay Bhosale",
-  "displayStatsPublic" : true,
   "type": "personal",
   "bio": "Trying to come up with innovative digital solutions | Developer",
-  "avatar" : "https://github.com/TanmayBhosale.png"
   "links": [
     {
       "name": "Twitter",
@@ -19,6 +17,6 @@
       "name" : "AutoBird",
       "url" : "https://auto-bird.com",
       "icon" : "FaLink"
-    },
+    }
   ]
 }
