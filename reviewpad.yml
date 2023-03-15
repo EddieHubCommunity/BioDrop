@@ -23,7 +23,7 @@ rules:
     spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
   
   - name: check-for-chore-profile-label
-    spec: $isElementOf("✍ chore: profile addition", $labels()) == false
+    spec: '$isElementOf("✍ chore: profile addition", $labels()) == false'
   
   - name: check-for-linked-issues
     spec: $hasLinkedIssues() == false
