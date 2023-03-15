@@ -50,7 +50,7 @@
     "milestones": [
         {
             "title": "Joined GitHub",
-            "date": "March 20122",
+            "date": "March 2022",
             "icon": "FaGithub",
             "color": "grey",
             "url": "https://github.com/Sduttt",
@@ -59,7 +59,7 @@
         {
             "title": "Started writing Technical Blogs",
             "date": "July 2022",
-            "icon": "FaBlog",
+            "icon": "SiHashnode",
             "color": "#2962FF",
             "url": "https://sdutta.hashnode.dev/",
             "description": "Read my articles"
