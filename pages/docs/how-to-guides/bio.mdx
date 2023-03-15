@@ -1,0 +1,35 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
+
+## Bio
+
+Describe in a few words who you are.
+
+The bio string in the json file is special! It allows for the use of Markdown. This will allow you to use the formatting styles like italic and bold.
+
+### Markdown
+
+1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
+
+2. In the `bio` string, you can wrap text in double asterix to make it bold, here is an example
+
+<ClipboardCopy>
+```js
+{
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star"
+}
+```
+</ClipboardCopy>
+
+![LinkFree profile using markdown in bio](https://user-images.githubusercontent.com/624760/208985171-9f337433-92c6-43b7-86a4-05d6af691690.png)
+
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+_Clicks on these social shortcuts that match any of your links will also increment their respective counters_
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Bio Documentation">{children}</DocsLayout>
+);

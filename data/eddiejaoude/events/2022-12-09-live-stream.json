@@ -1,0 +1,11 @@
+{
+  "isVirtual": true,
+  "color": "red",
+  "name": "Open Source GitHub reviews",
+  "description": "In this livestream I will be going reviewing your **Open Source projects** and profiles! I will be joined by **Amanda**, a Developer Advocate.",
+  "date": {
+    "start": "2022-12-09T16:00:00.000+00:00",
+    "end": "2022-12-09T17:00:00.000+00:00"
+  },
+  "url": "https://www.youtube.com/watch?v=iqIFD02OkVE"
+}

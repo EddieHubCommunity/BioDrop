@@ -1,0 +1,26 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import Link from "../../../components/Link";
+
+## Storybook
+
+We use <Link href="https://storybook.js.org">Storybook</Link> to display what React components are available to use within our project. This also gives you the opportunity to play with the components' functionality and data it displays.
+
+The deployed version is available here https://eddiehubcommunity.github.io/LinkFree/?path=/story/pages-username--basic
+
+To see what components are available locally and contribute, do the following steps...
+
+1. `npm run storybook`
+1. navigate to `http://localhost:6006`
+
+_note: not all components have been added, this is a great way to contribute to our project_
+
+### Updating LinkFree's Storybooks' components
+
+1. Create a story file in `stories/components` with the same filename as the component but append `.stories.js` to the filename
+1. Import the component into the story file, see the existing <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/stories/components/user/UserLink.stories.js">example</Link>
+1. Set the default arguments by looking at the requirements from the component itself
+1. Run `npm run storybook` to see the added components and visit `http://localhost:6006` to interact with them in the browser
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree StoryBook Documentation">{children}</DocsLayout>
+);

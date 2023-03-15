@@ -1,120 +1,48 @@
-# 💥 How to Contribute
+# Contributing Guide
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/EddieHubCommunity/LinkFree/pulls)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/EddieHubCommunity/)
+## Issues & Pull Requests (not for Profiles)
 
-- Take a look at the existing [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) or [create a new issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose)!
-- [Fork the Repo](https://github.com/EddieHubCommunity/LinkFree/fork). Then, create a branch for any issue that you are working on. Finally, commit your work.
-- Create a **[Pull Request](https://github.com/EddieHubCommunity/LinkFree/compare)** (_PR_), which will be promptly reviewed and given suggestions for improvements by the community.
-- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes proposed in your PR.
+### Creating an Issue
 
-## ⭐ HOW TO MAKE A PULL REQUEST:
+Before **creating** an Issue for `features`/`bugs`/`improvements` please follow these steps:
 
-**1.** Start by making a fork the [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree) repository. Click on the <a href="https://github.com/EddieHubCommunity/LinkFree/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+> *Note: this does not apply to creating/editing your profile*
 
-**2.** Clone your new fork of the repository:
+1. search existing issues before creating a new issue (has someone raised this already)
+1. if it doesn't exist create a new issue giving as much context as possible (please select the correct Issue type, for example `bug` or `feature`)
+1. all Issues are automatically given the label `status: waiting for triage`. Please wait until the maintainers review the Issue and update the labels
+1. look out for when the Issue label changes to `status: ready for dev`
+1. comment on the Issue asking for it to be assigned to you (do not tag maintainers as all maintainers receive your comment notifications)
+1. **only** start working on this issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used.
 
-```bash
-git clone https://github.com/<your-github-username>/LinkFree
-```
+### Working on an Issue (get it assigned to you)
 
-**3.** Navigate to the new project directory:
+Before working on an existing Issue please follow these steps:
 
-```bash
-cd LinkFree
-```
+1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
+1. comment asking for the issue to be assigned to you (do not tag any maintainers as all maintainers receive your comment notifications)
+1. after the issue is assigned to you, you can start working on it
+1. do **not** enable GitHub Actions on your fork
+1. reference the Issue in your Pull Request (for example `closes #123`)
 
-**4.** Set upstream command:
+> Notes:
+> - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
+> - only request to be assigned an issue if you know how to work on it
 
-```bash
-git remote add upstream https://github.com/EddieHubCommunity/LinkFree.git
-```
+## Reviewing Pull Requests
 
-**5.** Create a new branch:
+We welcome everyone to review Pull Requests, it is a great way to learn and network.
 
-```bash
-git checkout -b YourBranchName
-```
+### DOs
+- be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
+- use inline comments to explain your suggestions
+- use inline suggestions to propose changes
 
-**6.** Sync your fork or your local repository with the origin repository:
+### DON'Ts
+- don't be rude, disrespectful or aggressive
+- do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
+- do not blindly approve pull requests to improve your GitHub contributors graph
 
-- In your forked repository, click on "Fetch upstream"
-- Click "Fetch and merge"
+---
 
-### Alternatively, Git CLI way to Sync forked repository with origin repository:
-
-```bash
-git fetch upstream
-```
-
-```bash
-git merge upstream/main
-```
-
-### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
-
-**7.** Make your changes to the source code.
-
-**8.** Stage your changes and commit:
-
-⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
-
-⚠️ **Make sure** not to run the commands `git add .` or `git add *`. Instead, stage your changes for each file/folder
-
-```bash
-git add public
-```
-
-```bash
-git commit -m "<your_commit_message>"
-```
-
-**9.** Push your local commits to the remote repository:
-
-```bash
-git push origin YourBranchName
-```
-
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
-
-**11.** **Congratulations!** You've made your first contribution to [**LinkFree**](https://github.com/EddieHubCommunity/LinkFree/graphs/contributors)! 🙌🏼
-
-**_:trophy: After this, the maintainers will review the PR and will merge it if it helps move the LinkFree project forward. Otherwise, it will be given constructive feedback and suggestions for the changes needed to add the PR to the codebase._**
-
-## Run automated tests
-
-After making changes make sure that tests passes
-
-**1.** Run the application
-
-```bash
-npm run start
-```
-
-**2.** Run the tests by running this command
-
-```bash
-npm run cypress:run
-```
-
-## Style Guide for Git Commit Messages :memo:
-
-**How you can add more value to your contribution logs:**
-
-- Use the present tense. (Example: "Add feature" instead of "Added feature")
-- Use the imperative mood. (Example: "Move item to...", instead of "Moves item to...")
-- Limit the first line (also called the Subject Line) to _50 characters or less_.
-- Capitalize the Subject Line.
-- Separate subject from body with a blank line.
-- Do not end the subject line with a period.
-- Wrap the body at _72 characters_.
-- Use the body to explain the _what_, _why_, _vs_, and _how_.
-- Reference [Issues](https://github.com/EddieHubCommunity/LinkFree/issues) and [Pull Requests](https://github.com/EddieHubCommunity/LinkFree/pulls) liberally after the first line.
-
-## 💥 Issues
-
-In order to discuss changes, you are welcome to [open an issue](https://github.com/EddieHubCommunity/LinkFree/issues/new/choose) about what you would like to contribute. Enhancements are always encouraged and appreciated.
-
-## All the best! 🥇
-
-[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](eddiehub.org)
+Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs

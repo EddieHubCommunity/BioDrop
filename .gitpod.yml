@@ -1,12 +1,19 @@
+---
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - name: npm
-    init: npm install
-    command: npm run start
-# List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
-ports:
-  - port: 3000
-    onOpen: open-browser
+  - name: Database
+    command: |
+      mkdir -p /workspace/data && mongod --dbpath /workspace/data
+  - name: Server
+    init: |
+      npm ci
+      PLAYWRIGHT_BROWSERS_PATH=0 npx playwright install chromium
+    command: |
+      gp env PLAYWRIGHT_BROWSERS_PATH=0
+      eval $(gp env -e)
+      gp ports await 27017
+      npm run dev
+
 github:
   prebuilds:
     master: true
@@ -16,3 +23,10 @@ github:
     addCheck: true
     addComment: false
     addBadge: true
+
+image:
+  file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss

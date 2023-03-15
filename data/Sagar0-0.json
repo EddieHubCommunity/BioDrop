@@ -1,0 +1,107 @@
+{
+  "name": "Sagar Malhotra",
+  "type": "personal",
+  "bio": "Android | Open Source | YouTube | Building **D4 Community**",
+
+  "tags": ["Open Source", "Android", "Kotlin", "Java", "DevRel"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/sagar0_o" },
+    { "icon": "FaGithub", "url": "https://github.com/Sagar0-0" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/@Sagar0-0" }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: Content Creation",
+      "url": "https://www.linkedin.com/in/sagar0-0malhotra/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/sagar0_o",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: Start your journey in Tech",
+      "url": "https://youtube.com/@Sagar0-0",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate in Open Source",
+      "url": "https://github.com/Sagar0-0",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/sagar0-0malhotra",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "D4 Community",
+      "name": "D4 Community: For the Students! By the Students!",
+      "url": "https://github.com/D4Community",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "D4 Community",
+      "name": "D4 Community: GitHub open source org to start your Journey",
+      "url": "https://d4community.netlify.app",
+      "icon": "FaLink"
+    },
+    {
+      "group": "D4 Community",
+      "name": "D4 Community: Discord",
+      "url": "https://discord.gg/BvBTbk43Cx",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "D4 Community",
+      "name": "LinkedIn Page",
+      "url": "https://www.linkedin.com/company/d4community",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "D4 Community",
+      "name": "Twitter Page",
+      "url": "https://twitter.com/D4Community",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Buy me a Coffee",
+      "url": "https://www.buymeacoffee.com/0sagar0",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started with Open Source",
+      "date": "January 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Created my first open source contribution",
+      "url": "https://github.com/Sagar0-0"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "March 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/@Sagar0-0"
+    },
+    {
+      "title": "Established D4 Community",
+      "date": "2022",
+      "icon": "FaPodcast",
+      "color": "green",
+      "description": "Established a successful Student driven community in college",
+      "url": "https://www.linkedin.com/company/d4community"
+    }
+  ]
+}

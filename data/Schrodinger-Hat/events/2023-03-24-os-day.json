@@ -1,0 +1,12 @@
+{
+  "isInPerson": true,
+  "isVirtual": true,
+  "color": "red",
+  "name": "Open Source Day 2023",
+  "description": "an English language conference about the Open Source world",
+  "date": {
+    "start": "2023-03-24T09:00:00.000+00:00",
+    "end": "2023-03-24T21:30:00.000+00:00"
+  },
+  "url": "https://2023.osday.dev"
+}
