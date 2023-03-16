@@ -6,6 +6,7 @@ import Button from "../components/Button";
 
 import PageHead from "../components/PageHead";
 import Page from "../components/Page";
+import Badge from "../components/Badge";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -113,11 +114,17 @@ export default function Map({ data }) {
           profile is visited.
         </p>
         <div className="flex flex-wrap justify-center mb-4">
-          <Button
-            onClick={resetFilter}
-            text="Clear/Reset Filters"
-            primary={false}
-          />
+          <Badge
+            content={
+              filteredUsers.length > 0 ? filteredUsers.length : users.length
+            }
+          >
+            <Button
+              onClick={resetFilter}
+              text="Clear/Reset Filters"
+              primary={false}
+            />
+          </Badge>
           {tags &&
             tags
               .slice(0, 10)

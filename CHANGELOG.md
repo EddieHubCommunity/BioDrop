@@ -1,9 +1,9 @@
-## 1.99.4 (2023-03-14)
+# 1.100.0 (2023-03-16)
 
 
-### Bug Fixes
+### Features
 
-* docs hover ([#5430](https://github.com/EddieHubCommunity/LinkFree/issues/5430)) ([30e475b](https://github.com/EddieHubCommunity/LinkFree/commit/30e475b9dd7a541e140440327e59b6a79ad34458)), closes [#5125](https://github.com/EddieHubCommunity/LinkFree/issues/5125) [#4944](https://github.com/EddieHubCommunity/LinkFree/issues/4944) [#4944](https://github.com/EddieHubCommunity/LinkFree/issues/4944)
+* total results for map display [#5405](https://github.com/EddieHubCommunity/LinkFree/issues/5405) ([#5471](https://github.com/EddieHubCommunity/LinkFree/issues/5471)) ([9735cf0](https://github.com/EddieHubCommunity/LinkFree/commit/9735cf0c53f96a98fb50d2bab9a3df43ca0f2704))
 
 
 
