@@ -2,16 +2,14 @@
   "name": "Tausiq Samantaray",
   "type": "personal",
   "bio": "CS Student | Major focus: **Web dev** and **software dev** | Exploring different technologies",
-  "tags": [
-    "Open Source",
-    "Python",
-    "Web Dev",
-    "Java"
-  ],
+  "tags": ["Open Source", "Python", "Web Dev", "Java"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/tausiqtweets" },
     { "icon": "FaGithub", "url": "https://github.com/tausiq2003" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/tausiq-samantaray" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tausiq-samantaray"
+    }
   ],
   "links": [
     {
@@ -50,7 +48,6 @@
       "url": "https://github.com/tausiq2003/cs50-final-project",
       "icon": "SiFlask"
     }
-
   ],
   "milestones": [
     {
@@ -101,8 +98,5 @@
       "description": "Selected and became and alpha MLSA",
       "url": "https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/14a25f76-f58c-4c9d-b330-88a3378eec5e"
     }
-
-
   ]
-
 }
