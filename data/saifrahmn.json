@@ -1,43 +1,42 @@
 {
-    "name": "Saif Rahman",
-    "type": "personal",
-    "bio": "Engineer-Student-Enthusiast",
-    "avatar": "https://github.com/saifrahmn.png",
+  "name": "Sara Jaoude",
+  "type": "personal",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
     "links": [
       {
         "name": "For Collaboration",
         "url": "https://github.com/saifrahmn",
-        "icon": "github"
+        "icon": "FaGithub"
       },
       {
         "name": "See my tweets",
         "url": "https://twitter.com/saif_rahmn",
-        "icon": "twitter"
+        "icon": "FaTwitter"
       },
       {
         "name": "Read my Blogs",
         "url": "https://saifrahman.hashnode.dev",
-        "icon": "Hashnode"
+        "icon": "SiHashnode"
       },
       {
         "name": "Follow me on Instagram",
         "url": "https://www.instagram.com/saif_rahm.n",
-        "icon": "Instagram"
+        "icon": "FaInstagram"
       },
       {
         "name": "Contact me",
         "url": "mailto:saifrahmn78@gmail.com",
-        "icon": "Envelope"
+        "icon": "SiGmail"
       },
       {
       "name": "Work with me",
       "url": "https://www.linkedin.com/in/saif-rahman-a62686201",
-      "icon": "LinkedIn"
+      "icon": "FaLinkedin"
     },
       {
          "name": "Visit my Personal Website",
          "url": "https://clomen.web.app/",
-         "icon": "Globe"
+         "icon": "FaGlobe"
        }     
     ]
   }
