@@ -1,6 +1,5 @@
 {
   "name": "Vengala Uday",
-  "displayStatusPublic":true,
   "type": "personal",
   "bio": "Iam a CSE Undergraduate",
   "avatar":"https://github.com/Chintu1509",
@@ -9,7 +8,7 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/VengalaUday",
       "icon": "FaTwitter"
-    }.
+    },
     {
       "name": "Connect with me on Linkedin",
       "url": "https://www.linkedin.com/in/vengala-uday-868359218/",
