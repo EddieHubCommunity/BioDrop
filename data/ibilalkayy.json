@@ -1,10 +1,14 @@
 {
   "name": "Bilal Khan",
   "type": "personal",
-  "bio": "College Dropout ➞ Self-Taught DevOps Guy | AWS Community Builder, Open Source Contributor, Content Creator on YouTube & Hashnode.",
+  "bio": "College Dropout ➞ Book Loop Founder, Self-Taught DevOps Guy & a Golang Developer | AWS Community Builder, Open Source Contributor, Content Creator on YouTube & Hashnode.",
 
-  "tags": ["Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://bookloop.club"
+    },
     {
       "icon": "SiYoutube",
       "url": "https://www.youtube.com/@ibilalkayy"
@@ -36,6 +40,11 @@
     {
       "name": "Resume: Hire me",
       "url": "https://ibilalkayy.github.io/digital-resume/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Book Loop: A Startup",
+      "url": "https://bookloop.club",
       "icon": "FaGlobe"
     },
     {
