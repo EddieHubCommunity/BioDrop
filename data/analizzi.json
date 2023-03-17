@@ -1,10 +1,10 @@
 {
   "name": "Ana Lizzi",
   "type": "personal",
-  "bio": "Civil engineer by day, **coder** by night. Travel enthusiast Yoga & Peloton aficionado",
-  "links": [
+  "bio": "From Blueprints to Binary: Civil Engineer Takes a Byte Out of Coding.",
+"links": [
     {
-      "name": "Check out my github Github",
+      "name": "Check out my Github",
       "url": "https://github.com/analizzi",
       "icon": "FaGithub"
     },
