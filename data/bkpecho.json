@@ -1,22 +1,52 @@
 {
   "name": "BK Pecho",
   "type": "personal",
-  "bio": "👨🏽‍💻 Software Engineer at 100Devs | 🧙‍♂️ Web Wizard | 🌱 Open Source Advocate | 🤖 AI Explorer",
+  "bio": "Software Engineer | Web Wizard | Open Source Advocate | AI Explorer",
+  
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "MERN",
+    "Pop!_OS",
+    "Linux"
+  ],
+  
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/bkpecho" },
+    { "icon": "FaGithub", "url": "https://github.com/bkpecho" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/bkpecho" }
+  ],
+  
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "group": "Socials",
+      "name": "GitHub: Let's Create Something Amazing Together",
       "url": "https://github.com/bkpecho",
       "icon": "FaGithub"
     },
     {
-      "name": "Let's Connect on Linkedin",
+      "group": "Socials",
+      "name": "Twitter: Follow My Tech Journey",
+      "url": "https://twitter.com/bkpecho",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's Connect",
       "url": "https://www.linkedin.com/in/bkpecho/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/bkpecho",
-      "icon": "FaTwitter"
+      "group": "Coding Challenges",
+      "name": "Codewars: Achieve Code Mastery Through Challenge",
+      "url": "https://codewars.com/users/bkpecho",
+      "icon": "SiCodewars"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "FrontEnd Mentor: Front-end Coding Challenges",
+      "url": "https://frontendmentor.io/profile/bkpecho",
+      "icon": "SiFrontendmentor"
     }
   ]
 }
