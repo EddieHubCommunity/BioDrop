@@ -1,14 +1,14 @@
 {
   "name": "Pradumna Saraf",
   "type": "personal",
-  "bio": "**Open Source** Advocate | DevOps Engineer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
+  "bio": "**Open Source** | DevOps | Go Developer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
   "tags": [
     "Open Source",
     "DevOps",
     "Kubernetes",
     "Docker",
-    "Node.js",
-    "Golang"
+    "Golang",
+    "Node.js"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
@@ -81,85 +81,97 @@
     },
     {
       "group": "Open Source Projects",
+      "name": "Candy - A CLI tool that every DevOps person should have",
+      "url": "https://github.com/Pradumnasaraf/candy",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "LinkFree CLI - A CLI tool to create and update your LinkFree profile",
+      "url": "https://github.com/Pradumnasaraf/linkfree-CLI",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
       "name": "Get Started with Open Source now - 600+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna",
       "icon": "FaGithub"
     },
     {
       "group": "Open Source Projects",
-      "name": "My DevOps journey - 900+ stars ⭐️",
+      "name": "My DevOps journey and learnings - 1k+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/DevOps",
       "icon": "FaGithub"
     }
   ],
   "milestones": [
     {
+      "title": "First repo to reach 1K stars",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "My DevOps journey and learnings was the first repo of mine to reach 1K stars on GitHub",
+      "url": "https://github.com/Pradumnasaraf/DevOps"
+    },
+      {
+      "title": "Crossed 20K followers on Twitter",
+      "date": "Mar 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 20K followers milestone",
+      "url": "https://twitter.com/pradumna_saraf"
+    },
+    {
       "title": "Crossed 1K followers on GitHub",
-      "date": "2023",
+      "date": "Feb 2023",
       "icon": "FaGithub",
       "color": "black",
       "description": "Building Open Source projects in public and collaborating with people on Pull Requests helped me to cross the 1K followers milestone",
       "url": "https://github.com/Pradumnasaraf"
     },
     {
-      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
-      "date": "2022",
-      "icon": "SiKubernetes",
-      "color": "lightblue",
-      "description": "Became Kubernetes and Kubernetes SIGs org member after actively contributing to projects on both orgs",
-      "url": "https://github.com/Pradumnasaraf"
-    },
-    {
-      "title": "Crossed 5K followers on LinkedIn",
-      "date": "2022",
-      "icon": "FaLinkedin",
-      "color": "purple",
-      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 5K followers milestone",
-      "url": "https://www.linkedin.com/in/pradumnasaraf"
-    },
-    {
-      "title": "Crossed 10K followers on Twitter",
-      "date": "2022",
-      "icon": "FaTwitter",
-      "color": "blue",
-      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 10K followers milestone",
-      "url": "https://twitter.com/pradumna_saraf"
-    },
-    {
-      "title": "1st Open Source project to reach 500 stars",
-      "date": "2022",
-      "icon": "FaGithub",
-      "color": "black",
-      "description": "Open Source With Pradumna was the first project of mine to reach 500 stars on GitHub",
-      "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna"
-    },
-    {
-      "title": "Won 1st international hackathon - daily.dev RSS feed Hackathon",
-      "date": "2022",
-      "icon": "FaGithub",
-      "color": "black",
-      "description": "Interestingly this was 1st hackathon daily.dev hosted and 1st time I participated. I build a Discord bot that uses an RSS feed to fetch the latest bookmarks of users from daily.dev. To see the project, click on the link",
-      "url": "https://github.com/dailydotdev/hackathon-participants-March-2022"
-    },
-    {
-      "title": "Became Postman Student Leader",
-      "date": "2022",
-      "icon": "SiPostman",
-      "color": "orange",
-      "description": "Leaders advocate for API literacy and host events to help developers learn about APIs",
-      "url": "https://badgr.com/public/assertions/pwl4EICMTQm-YJwDCpKAGQ"
-    },
-    {
       "title": "Became EddieHub Ambassador",
-      "date": "2022",
+      "date": "Jan 2023",
       "icon": "SiOpensourceinitiative",
       "color": "red",
       "description": "Being an Ambassador for the EddieHub community, I take forward the value, vision, and mission of the EddieHub community, to help people get started with Open Source and provide them an inclusive space to learn, grow and collaborate.",
       "url": "https://www.eddiehub.org/ambassador-program"
     },
     {
+      "title": "Crossed 5K followers on LinkedIn",
+      "date": "Dec 2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 5K followers milestone",
+      "url": "https://www.linkedin.com/in/pradumnasaraf"
+    },
+    {
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "Nov 2022",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member after actively contributing to projects on both orgs",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "title": "Became Postman Student Leader",
+      "date": "May 2022",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "Leaders advocate for API literacy and host events to help developers learn about APIs",
+      "url": "https://badgr.com/public/assertions/pwl4EICMTQm-YJwDCpKAGQ"
+    },
+    {
+      "title": "Won 1st international hackathon - daily.dev RSS feed Hackathon",
+      "date": "Mar 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Interestingly this was 1st hackathon daily.dev hosted and 1st time I participated. I build a Discord bot that uses an RSS feed to fetch the latest bookmarks of users from daily.dev. To see the project, click on the link",
+      "url": "https://github.com/dailydotdev/hackathon-participants-March-2022"
+    },
+    {
       "title": "Became MLH Mentor",
-      "date": "2021",
+      "date": "Dec 2021",
       "icon": "SiMajorleaguehacking",
       "color": "blue",
       "description": "Mentors provide both technical and non-technical support to the hackers throughout the hackathon.",
