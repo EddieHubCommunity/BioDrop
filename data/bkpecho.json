@@ -1,21 +1,22 @@
 {
-	"name": "BK Pecho",
-	"type": "personal",
-	"bio": "👨🏽‍💻 Software Engineer at 100Devs | 🧙‍♂️ Web Wizard | 🌱 Open Source Advocate | 🤖 AI Explorer",
-	"links": [{
-			"name": "Follow me on GitHub",
-			"url": "https://github.com/bkpecho",
-			"icon": "FaGithub"
-		},
-		{
-			"name": "Let's Connect on Linkedin",
-			"url": "https://www.linkedin.com/in/bkpecho/",
-			"icon": "FaLinkedin"
-		},
-		{
-			"name": "Follow me on Twitter",
-			"url": "https://twitter.com/bkpecho",
-			"icon": "FaTwitter"
-		}
-	]
+  "name": "BK Pecho",
+  "type": "personal",
+  "bio": "👨🏽‍💻 Software Engineer at 100Devs | 🧙‍♂️ Web Wizard | 🌱 Open Source Advocate | 🤖 AI Explorer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/bkpecho",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/bkpecho/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bkpecho",
+      "icon": "FaTwitter"
+    }
+  ]
 }
