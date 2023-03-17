@@ -2,7 +2,7 @@
   "name": "Wei-Lin Cheng",
   "type": "personal",
   "bio": "Father, husband, and software engineer. Let's connect and grow together!",
-  "tags": ["Backend", "Go"],
+  "tags": ["Open Source", "DevOps", "Go"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/weilincheng" },
     { "icon": "FaGithub", "url": "https://github.com/weilincheng" }
@@ -30,6 +30,14 @@
     }
   ],
   "milestones": [
+    {
+      "title": "Crossing the Threshold: Contributing to Open Source for the First Time",
+      "date": "March 2023",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Even if it's just a small enhancement, being able to contribute to the vibrant and diverse EiddeHub Community is an important milestone in my journey as a developer.",
+      "url": "https://github.com/EddieHubCommunity/LinkFree/pull/5396"
+    },
     {
       "title": "Become a Software Engineer",
       "date": "Oct 2022",
