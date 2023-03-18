@@ -2,21 +2,15 @@
   "name": "BK Pecho",
   "type": "personal",
   "bio": "Software Engineer | Web Wizard | Open Source Advocate | AI Explorer",
-  
-  "tags": [
-    "Open Source",
-    "JavaScript",
-    "MERN",
-    "Pop!_OS",
-    "Linux"
-  ],
-  
+
+  "tags": ["Open Source", "JavaScript", "MERN", "Pop!_OS", "Linux"],
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/bkpecho" },
     { "icon": "FaGithub", "url": "https://github.com/bkpecho" },
     { "icon": "FaLinkedin", "url": "https://linkedin.com/bkpecho" }
   ],
-  
+
   "links": [
     {
       "group": "Socials",
