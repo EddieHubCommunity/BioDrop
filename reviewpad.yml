@@ -27,7 +27,7 @@ rules:
     spec: $hasLinkedIssues() == false
 
   - name: check-for-status-block
-    spec: $rule("check-for-profile-addition") && $rule("check-for-linked-issues")
+    spec: $rule("check-for-profile-addition") == false && $rule("check-for-linked-issues")
 
 workflows:
   - name: label-pull-request-with-size
