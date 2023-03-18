@@ -100,4 +100,4 @@ workflows:
     if:
       - rule: check-for-status-block
     then:
-      - '$addLabel("status: blocked")'
+      - '$addLabel("🚧 status: blocked")'
