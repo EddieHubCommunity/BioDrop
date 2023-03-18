@@ -18,11 +18,6 @@
   "testimonials": ["the-amazing-atharva"],
   "links": [
     {
-      "name": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/manisht",
-      "icon": "SiBuymeacoffee"
-    },
-    {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/manishtyagi__",
       "icon": "FaTwitter"
@@ -36,6 +31,11 @@
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
     },
     {
       "name": "Google Developer Profile",
@@ -56,11 +56,6 @@
       "name": "Microsoft Learn Profile",
       "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
       "icon": "SiMicrosoft"
-    },
-    {
-      "name": "Read my blogs!",
-      "url": "https://manisht.hashnode.dev/",
-      "icon": "SiHashnode"
     }
   ]
 }

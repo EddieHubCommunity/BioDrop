@@ -1,9 +1,9 @@
-## 1.96.1 (2023-03-09)
+## 1.100.7 (2023-03-18)
 
 
 ### Bug Fixes
 
-* fetches to function calls for home page ([#5124](https://github.com/EddieHubCommunity/LinkFree/issues/5124)) ([fd3da5d](https://github.com/EddieHubCommunity/LinkFree/commit/fd3da5d57c70dc093861ccf20d849f63b8bd0fc2))
+* reviewpad verbose off ([#5537](https://github.com/EddieHubCommunity/LinkFree/issues/5537)) ([3076b4a](https://github.com/EddieHubCommunity/LinkFree/commit/3076b4aeaba1774d7c0e921f2a9431b39e0b5f82))
 
 
 
