@@ -9,6 +9,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Dedicated domain (url)",
+      description:
+        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      type: "addition",
+      date: "2023-03-12",
+    },
+    {
+      title: "Playground",
+      description:
+        "You can now test and preview your profile with any json changes",
+      type: "addition",
+      date: "2023-03-07",
+    },
+    {
       title: "Accounts statistics summary",
       description:
         "On your private dashboard you have a summary of your stats at the top",

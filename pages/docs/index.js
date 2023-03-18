@@ -66,7 +66,7 @@ export default function DocsIndex() {
           name: "LinkFree CLI",
           path: "/docs/environments/linkfree-cli",
           description:
-            "This CLI tool will allow you to create profile, update profile, add testimonal and more from the command line.",
+            "This CLI tool will allow you to create profile, update profile, add testimonials and more from the command line.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -162,7 +162,7 @@ export default function DocsIndex() {
           name: "Milestones",
           path: "/docs/how-to-guides/milestones",
           description:
-            "Demostrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
+            "Demonstrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -345,7 +345,10 @@ export default function DocsIndex() {
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div key={page.name}>
+                  <div
+                    key={page.name}
+                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+                  >
                     <div>
                       <span
                         className={classNames(
