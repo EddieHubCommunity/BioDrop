@@ -2,6 +2,8 @@
     "name": "Nikhil Barik",
     "type": "personal",
     "bio": "Software Engineer at Yahoo. Loves FOSS.",
+    "displayStatePublic": true,
+    "avatar": "http://github.com/nerdynikhil.png",
     "tags": [
         "Open Source",
         "Javascript",
