@@ -1,4 +1,5 @@
 api-version: reviewpad.com/v3.x
+mode: verbose
 
 labels:
   small:
