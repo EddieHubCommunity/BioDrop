@@ -2,7 +2,7 @@
 
 # What is LinkFree?
 
-DO NOT MERGE
+DO NOT MERGE - this is a test
 
 LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
 
