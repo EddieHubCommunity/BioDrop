@@ -7,19 +7,25 @@ import MarkerCluster from "./MarkerCluster";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function Map({ users }) {
+  const boundsMap = [
+    [-90, -180], // Southwest coordinates
+    [90, 180] // Northeast coordinates
+  ];
+
   return (
     <>
       <MapContainer
-        style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
-        center={[16.843908, 0]}
-        zoom={3}
-        minZoom={1}
+
+        center={[0, 0]}
+        zoom={2}
         zoomControl={true}
         scrollWheelZoom={false}
-        maxBounds={null}
+        maxBounds={boundsMap}
+        maxBoundsViscosity={0.7}
+        style={{ height: "100vh" }}
       >
         <TileLayer
-          noWrap="true"
+
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
