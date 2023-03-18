@@ -95,9 +95,9 @@ workflows:
     then:
       - '$addLabel("storybook")'
 
-  - name: label-pull-request-with-block-status
-    always-run: true
-    if:
-      - rule: check-for-status-block
-    then:
-      - '$addLabel("🚧 status: blocked")'
+  # - name: label-pull-request-with-block-status
+  #   always-run: true
+  #   if:
+  #     - rule: check-for-status-block
+  #   then:
+  #     - '$addLabel("🚧 status: blocked")'
