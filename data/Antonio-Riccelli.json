@@ -1,29 +1,24 @@
 {
-	"name": "Antonio Riccelli",
-	"type": "personal",
-	"bio": "Full Stack Developer | Guitar Player | Musician",
-	"tags": [
-		"Javascript",
-		"Typescript",
-		"ReactJS",
-		"NodeJS",
-		"AWS"
-	],
-	"links": [{
-			"url": "https://www.linkedin.com/in/antonioriccelli/",
-			"icon": "FaLinkedin"
-		},
-		{
-			"url": "https://twitter.com/atnori_",
-			"icon": "FaTwitter"
-		},
-		{
-			"icon": "FaGithub",
-			"url": "https://github.com/Antonio-Riccelli"
-		},
-		{
-			"icon": "FaMedium",
-			"url": "https://medium.com/@antonio.riccelli"
-		}
-	]
+  "name": "Antonio Riccelli",
+  "type": "personal",
+  "bio": "Full Stack Developer | Guitar Player | Musician",
+  "tags": ["Javascript", "Typescript", "ReactJS", "NodeJS", "AWS"],
+  "links": [
+    {
+      "url": "https://www.linkedin.com/in/antonioriccelli/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://twitter.com/atnori_",
+      "icon": "FaTwitter"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Antonio-Riccelli"
+    },
+    {
+      "icon": "FaMedium",
+      "url": "https://medium.com/@antonio.riccelli"
+    }
+  ]
 }

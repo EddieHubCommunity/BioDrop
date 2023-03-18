@@ -2,7 +2,7 @@
   "name": "Vengala Uday",
   "type": "personal",
   "bio": "Iam a CSE Undergraduate",
-  "Links":[
+  "Links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/VengalaUday",
@@ -18,6 +18,5 @@
       "url": "https://github.com/Chintu1509",
       "icon": "FaGithub"
     }
-  
   ]
 }
