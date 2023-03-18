@@ -1,9 +1,9 @@
-# 1.100.0 (2023-03-16)
+## 1.100.7 (2023-03-18)
 
 
-### Features
+### Bug Fixes
 
-* total results for map display [#5405](https://github.com/EddieHubCommunity/LinkFree/issues/5405) ([#5471](https://github.com/EddieHubCommunity/LinkFree/issues/5471)) ([9735cf0](https://github.com/EddieHubCommunity/LinkFree/commit/9735cf0c53f96a98fb50d2bab9a3df43ca0f2704))
+* reviewpad verbose off ([#5537](https://github.com/EddieHubCommunity/LinkFree/issues/5537)) ([3076b4a](https://github.com/EddieHubCommunity/LinkFree/commit/3076b4aeaba1774d7c0e921f2a9431b39e0b5f82))
 
 
 
