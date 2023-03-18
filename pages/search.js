@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import UserCard from "../components/user/UserCard";
 import Alert from "../components/Alert";
@@ -25,7 +25,41 @@ export async function getServerSideProps(context) {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
     );
-    data.tags = await res.json();
+
+    const tags = await res.json();
+
+    /*
+      right now the tags that we get from db looks like this
+       [
+        {name:javascript,total:300},
+        {name:Javascript,total:200},
+        {name:JavaScript,total:100},
+      ]
+
+      we have to make it as [{name:javascript,total:600}]
+
+      why because if we dont do it in ui it will show 3 javascript tags
+      if we convert all the tags to lowercase this issue will be solved
+     */
+
+    const tagsWithOutDuplicates = {};
+
+    tags.forEach(({ name, total }) => {
+      const lowerName = name.toLowerCase();
+      if (tagsWithOutDuplicates[lowerName]) {
+        tagsWithOutDuplicates[lowerName] = {
+          ...tagsWithOutDuplicates[lowerName],
+          total: tagsWithOutDuplicates[lowerName].total + total,
+        };
+      } else {
+        tagsWithOutDuplicates[lowerName] = {
+          name: lowerName,
+          total,
+        };
+      }
+    });
+
+    data.tags = tagsWithOutDuplicates;
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
@@ -121,8 +155,8 @@ export default function Search({ data }) {
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
         <div className="flex flex-wrap justify-center mb-4">
-          {tags &&
-            tags
+          {Object.values(tags).length > 0 &&
+            Object.values(tags)
               .slice(0, 10)
               .map((tag) => (
                 <Tag
