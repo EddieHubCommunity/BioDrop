@@ -114,6 +114,14 @@
       "color": "red",
       "description": "Created ProjectsHut Open Source website. A place where you will find lots of cool projects",
       "url": "https://github.com/priyankarpal/ProjectsHut"
+    },
+       {
+      "title": "Contributor to Maintainer",
+      "date": "March 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "From a great meeting to a new journey as a maintainer of the GitOpener OSS project",
+      "url": "https://github.com/pbclife/gitopener.vercel.app"
     }
   ]
 }
