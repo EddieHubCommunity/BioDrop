@@ -1,4 +1,5 @@
-import Link from "../components/Link";
+import { useState } from "react";
+import Link from "@components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
@@ -6,13 +7,19 @@ import { getUserApi } from "./api/users/[username]/index";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-import PageHead from "../components/PageHead";
+import PageHead from "@components/PageHead";
 import logger from "../config/logger";
-import SingleLayout from "../components/layouts/SingleLayout";
-import MultiLayout from "../components/layouts/MultiLayout";
+import SingleLayout from "@components/layouts/SingleLayout";
+import MultiLayout from "@components/layouts/MultiLayout";
 import singleUser from "../config/user.json";
-import Page from "../components/Page";
-import UserPage from "../components/user/UserPage";
+import UserProfile from "@components/user/UserProfile";
+import UserTabs from "@components/user/UserTabs";
+import UserLinks from "@components/user/UserLinks";
+import UserMilestones from "@components/user/UserMilestones";
+import UserTestimonials from "@components/user/UserTestimonials";
+import UserEvents from "@components/user/UserEvents";
+import Page from "@components/Page";
+import UserPage from "@components/user/UserPage";
 
 export async function getServerSideProps(context) {
   const { req } = context;
