@@ -79,6 +79,7 @@ export default function Events({ events }) {
             content="?"
             path="/docs/how-to-guides/events"
             title="Go To Event Docs"
+            badgeClassName={"translate-x-2/4 -translate-y-1/2"}
           >
             <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
           </Badge>

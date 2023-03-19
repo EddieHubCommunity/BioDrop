@@ -18,6 +18,11 @@
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/luqmaan-hakeem-57964a227/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs",
+      "url": "https://rghdrizzle.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }
