@@ -1,9 +1,9 @@
-## 1.100.7 (2023-03-18)
+## 1.100.8 (2023-03-19)
 
 
 ### Bug Fixes
 
-* reviewpad verbose off ([#5537](https://github.com/EddieHubCommunity/LinkFree/issues/5537)) ([3076b4a](https://github.com/EddieHubCommunity/LinkFree/commit/3076b4aeaba1774d7c0e921f2a9431b39e0b5f82))
+* bump LinkFree-CLI version to 2.2.2 ([#5541](https://github.com/EddieHubCommunity/LinkFree/issues/5541)) ([7c1b8e4](https://github.com/EddieHubCommunity/LinkFree/commit/7c1b8e40d8c8e239985cb049b4a70be2963cce4a))
 
 
 
