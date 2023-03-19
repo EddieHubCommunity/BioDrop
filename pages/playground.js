@@ -78,7 +78,7 @@ export default function Playground() {
         {errorMessage && <Alert type="error" message={errorMessage} />}
         {successMessage && <Alert type="success" message={successMessage} />}
 
-        <p>
+        <p className="mt-4 mb-5">
           Enter github username, profile json below and preview how it will
           actually look
         </p>
@@ -89,7 +89,18 @@ export default function Playground() {
           onChange={(e) => setGitUsername(e.target.value)}
         />
         <textarea
-          placeholder="Enter profile json"
+          placeholder={`{           
+            name: "user name",
+            type: "personal",
+            bio: "about the user",
+            links: [
+              {
+                name: "Follow on Twitter",
+                url: "https://twitter.com/username",
+                icon: "FaTwitter",
+              },
+            ],
+ }`}
           className="mt-4 h-80 border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           name="profileJson"
           value={profileJson}
