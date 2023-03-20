@@ -1,0 +1,43 @@
+{
+  "name": "Sandra Ashipala",
+  "type": "personal",
+  "bio": "Software Engineer - Frontend | Open Source Contributor | Hackathon Enthusiast",
+    "tags": [
+    "React.js",
+    "Python",
+    "Typescript",
+    "WordPress",
+    "Open Source",
+     "Web3"
+  ],
+  "socials": [
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/sandraashipala" }
+  ],
+
+   "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/sandraashipala",
+      "icon": "FaLinkedin"
+    }
+  ],
+  
+  "milestones": [
+    {
+      "title": "Completed first Chingu Voyage",
+      "date": "March 2023",
+      "icon": "SiCodeproject",
+      "color": "grey",
+      "description": "A 6 week long team project - build a fullstack app",
+      "url": "https://github.com/chingu-voyages/v42-bears-team-26"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "November 2023",
+      "icon": "SiSubstack",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://sandraashipala.substack.com/"
+    }
+  ]
+}
