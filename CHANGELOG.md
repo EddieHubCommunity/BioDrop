@@ -1,9 +1,9 @@
-## 1.99.4 (2023-03-14)
+## 1.100.8 (2023-03-19)
 
 
 ### Bug Fixes
 
-* docs hover ([#5430](https://github.com/EddieHubCommunity/LinkFree/issues/5430)) ([30e475b](https://github.com/EddieHubCommunity/LinkFree/commit/30e475b9dd7a541e140440327e59b6a79ad34458)), closes [#5125](https://github.com/EddieHubCommunity/LinkFree/issues/5125) [#4944](https://github.com/EddieHubCommunity/LinkFree/issues/4944) [#4944](https://github.com/EddieHubCommunity/LinkFree/issues/4944)
+* bump LinkFree-CLI version to 2.2.2 ([#5541](https://github.com/EddieHubCommunity/LinkFree/issues/5541)) ([7c1b8e4](https://github.com/EddieHubCommunity/LinkFree/commit/7c1b8e40d8c8e239985cb049b4a70be2963cce4a))
 
 
 
