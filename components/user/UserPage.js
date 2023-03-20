@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 import UserProfile from "./UserProfile";
 import UserTabs from "./UserTabs";
@@ -9,6 +9,24 @@ import UserEvents from "./UserEvents";
 
 export default function UserPage({ data, BASE_URL }) {
   const [userData, setUserData] = useState(data);
+
+  const userProfileData = useMemo(
+    () => ({
+      name: userData.name,
+      username: userData.username,
+      socials: userData.socials,
+      bio: userData.bio,
+      tags: userData.tags,
+    }),
+    [
+      userData.bio,
+      userData.name,
+      userData.socials,
+      userData.tags,
+      userData.username,
+    ]
+  );
+
   const defaultTabs = [
     { name: "My Links", href: "#", current: true, order: "ASC" },
     { name: "Milestones", href: "#", current: false, order: "ASC" },
@@ -41,7 +59,7 @@ export default function UserPage({ data, BASE_URL }) {
 
   return (
     <>
-      <UserProfile data={userData} BASE_URL={BASE_URL} />
+      <UserProfile data={userProfileData} BASE_URL={BASE_URL} />
       <UserTabs
         tabs={tabs}
         setTabs={setTabs}
