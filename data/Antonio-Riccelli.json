@@ -5,18 +5,22 @@
   "tags": ["Javascript", "Typescript", "ReactJS", "NodeJS", "AWS"],
   "links": [
     {
+      "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/antonioriccelli/",
       "icon": "FaLinkedin"
     },
     {
+      "name": "Twitter",
       "url": "https://twitter.com/atnori_",
       "icon": "FaTwitter"
     },
     {
+      "name": "GitHub",
       "icon": "FaGithub",
       "url": "https://github.com/Antonio-Riccelli"
     },
     {
+      "name": "Medium",
       "icon": "FaMedium",
       "url": "https://medium.com/@antonio.riccelli"
     }
