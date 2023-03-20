@@ -2,30 +2,29 @@
   "name": "Akshat Shukla",
   "type": "personal",
   "bio": "As An enthusiastic tech aficionado, I am constantly fueled by my passion to explore and discover",
-"links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/axat_1302",
       "icon": "FaTwitterSquare"
     },
-  
-   {
+
+    {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/akshat1302",
       "icon": "FaLinkedin"
     },
 
-{
+    {
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@Akshat1302",
       "icon": "SiHashnode"
     },
 
-{
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/akshatshukla13",
       "icon": "FaGithub"
     }
   ]
-  
 }

@@ -1,9 +1,9 @@
-## 1.100.6 (2023-03-18)
+## 1.100.8 (2023-03-19)
 
 
 ### Bug Fixes
 
-* removed pull request link to issue check ([#5528](https://github.com/EddieHubCommunity/LinkFree/issues/5528)) ([1d791c7](https://github.com/EddieHubCommunity/LinkFree/commit/1d791c7f507ef92e6dcd54c46b7477173802cd0a))
+* bump LinkFree-CLI version to 2.2.2 ([#5541](https://github.com/EddieHubCommunity/LinkFree/issues/5541)) ([7c1b8e4](https://github.com/EddieHubCommunity/LinkFree/commit/7c1b8e40d8c8e239985cb049b4a70be2963cce4a))
 
 
 
