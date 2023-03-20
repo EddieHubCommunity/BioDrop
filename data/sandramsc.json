@@ -1,11 +1,10 @@
 {
   "name": "Sandra Ashipala",
-  "displayStatsPublic": "true",
   "type": "personal",
   "bio": "Software Engineer - Frontend | Open Source Contributor | Hackathon Enthusiast",
-  "avatar": "https://github.com/sandramsc.png",
     "tags": [
     "React.js",
+    "Python",
     "Typescript",
     "WordPress",
     "Open Source",
