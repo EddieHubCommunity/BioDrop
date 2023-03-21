@@ -1,9 +1,8 @@
 {
   "name": "Sharat Katwa",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Backend Developer | Open Source and Tech Enthusiast",
-  "avatar": "https://github.com/sharatkatwa.png",
+
   "tags": ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "OpenSource"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/JkSharat" },

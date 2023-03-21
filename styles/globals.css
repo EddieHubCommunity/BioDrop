@@ -17,6 +17,10 @@ a {
   box-sizing: border-box;
 }
 
+code.language-unknown::before, code.language-unknown::after {
+  content: ""
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

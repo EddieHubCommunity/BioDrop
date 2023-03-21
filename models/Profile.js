@@ -2,6 +2,13 @@ import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema({
   username: String,
+  location: {
+    provided: String,
+    name: String,
+    lat: Number,
+    lon: Number,
+    updatedAt: Date,
+  },
   views: {
     type: Number,
     default: 0,

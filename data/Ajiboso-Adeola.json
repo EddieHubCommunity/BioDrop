@@ -1,7 +1,6 @@
 {
   "name": "Ajiboso Adeola",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "**Open Source** Enthusiast | Frontend Developer | Web3 Enthusiast |Writer",
   "tags": ["Open Source", "Javascript", "Writing"],
   "socials": [
@@ -9,7 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/Ajiboso-Adeola" },
     { "icon": "SiHashnode", "url": "https://hashnode.com/@Deola" }
   ],
-  "avatar": "https://github.com/Ajiboso-Adeola.png",
+
   "links": [
     {
       "name": "Connect with me on Twitter",

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -6,6 +6,7 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
+import Link from "../Link";
 import FallbackImage from "../FallbackImage";
 
 export default function EventCard({ event, username }) {
@@ -17,7 +18,7 @@ export default function EventCard({ event, username }) {
 
   return (
     <li
-      className="py-4 border-l-2 mb-4 pl-2 hover:border-l-4 pr-2 shadow-md"
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-105 duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}
@@ -28,22 +29,37 @@ export default function EventCard({ event, username }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
+          {event.date.cfpClose &&
+            new Date(event.date.cfpClose) > new Date() && (
+              <FaMicrophoneAlt title="CFP is open" />
+            )}
         </div>
-        <div className="flex-1 space-y-1">
+        <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
             <div>
-              <Link
-                href={event.url}
-                key={event.url}
-                target="_blank"
-                rel="noreferrer"
-                className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-              >
-                {event.name}
-              </Link>
-              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
-                {event.description}
-              </ReactMarkdown>
+              <div className="flex justify-between">
+                <Link
+                  href={event.url}
+                  key={event.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
+                >
+                  {event.name}
+                </Link>
+                {event.userStatus && (
+                  <div className="text-slate-300 italic">
+                    {event.userStatus}
+                    {event.userStatus == "speaking" && " at "} this event
+                    {event.userStatus == "speaking" && event?.speakingTopic && (
+                      <>
+                        {" "}
+                        on <b>{event.speakingTopic}</b>
+                      </>
+                    )}
+                  </div>
+                )}
+              </div>
               <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
@@ -55,6 +71,24 @@ export default function EventCard({ event, username }) {
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
                     new Date(event.date.end)
                   )}
+                </span>
+              </p>
+              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
+                {event.description}
+              </ReactMarkdown>
+              <p className="text-sm text-gray-800 py-1 flex gap-2 flex-wrap">
+                {(event.isVirtual || (event.isInPerson && event.location)) && (
+                  <FaMapPin />
+                )}
+                <span>
+                  {event.isVirtual && "Remote"}
+                  {event.isVirtual &&
+                    event.isInPerson &&
+                    event.location &&
+                    " AND in "}
+                  {event.isInPerson &&
+                    event.location &&
+                    Object.values(event.location).join(", ")}
                 </span>
               </p>
             </div>

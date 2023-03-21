@@ -25,7 +25,12 @@ services:
     container_name: mongodb
     networks:
       - linkfree-network
+    volumes:
+      - mongodb:/data/db
 
 networks:
   linkfree-network:
     driver: bridge
+
+volumes:
+  mongodb:

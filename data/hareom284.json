@@ -2,7 +2,7 @@
   "name": "Zaw Zaw Win",
   "type": "personal",
   "bio": "Web Developer",
-  "avatar": "https://github.com/hareom284.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -18,7 +18,7 @@
   "milestones": [
     {
       "title": "Started Using Twiiter",
-      "image": "https://github.com/hareom284.png",
+
       "date": "June 2021",
       "icon": "FaTwitter",
       "color": "red",
