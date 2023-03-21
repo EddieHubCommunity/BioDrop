@@ -29,7 +29,7 @@ You have 4 options to contribute to the repo, please pick your favourite from:
 3. Local development
 4. Local development with Docker Compose
 
-Brief documentation is below, but full documentation can be found here https://linkfree.eddiehub.io/docs
+Brief documentation is below, but full documentation can be found here https://linkfree.io/docs
 
 
 ### GitHub UI
