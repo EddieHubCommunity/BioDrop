@@ -2,26 +2,26 @@
   "name": "Sandra Ashipala",
   "type": "personal",
   "bio": "Software Engineer - Frontend | Open Source Contributor | Hackathon Enthusiast",
-    "tags": [
+  "tags": [
     "React.js",
     "Python",
     "Typescript",
     "WordPress",
     "Open Source",
-     "Web3"
+    "Web3"
   ],
   "socials": [
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/sandraashipala" }
   ],
 
-   "links": [
+  "links": [
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/sandraashipala",
       "icon": "FaLinkedin"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Completed first Chingu Voyage",
