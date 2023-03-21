@@ -2,7 +2,7 @@
   "name": "Mohit Bisht",
   "type": "personal",
   "bio": "Passionate about Learning, Creating, and Contributing to the World of Web Development and Cloud.",
-  "followMe": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Mohiit70",
@@ -11,17 +11,17 @@
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mohit-bisht70/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Mohiit70",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on hashnode",
       "url": "https://mohitbisht70.hashnode.dev/",
-      "icon": "Fahashnode"
+      "icon": "FaHashnode"
     }
   ]
 }
