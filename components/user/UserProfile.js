@@ -17,9 +17,7 @@ function UserProfile({ BASE_URL, data }) {
 
   const downloadQR = () => {
     const qrCode = document.getElementById("qrcode");
-    qrCode.toBlob(function (blob) {
-      saveAs(blob, "qrcode.png");
-    });
+    qrCode.toBlob((blob) => saveAs(blob, `linkfree-${data.username}.png`));
   };
 
   return (
