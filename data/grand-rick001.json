@@ -47,20 +47,20 @@
       "icon": "SiPostman"
     },
     {
-            "group": "Others",
-            "name": "Kaggle: Machine Learning journey",
-            "url": "https://www.kaggle.com/grandrick001",
-            "icon": "SiKaggle"
-     }
+      "group": "Others",
+      "name": "Kaggle: Machine Learning journey",
+      "url": "https://www.kaggle.com/grandrick001",
+      "icon": "SiKaggle"
+    }
   ],
-   "milestones": [
-        {
-            "title": "Became a Postman Student Leader",
-            "date": "March 2023",
-            "icon": "SiPostman",
-            "color": "#FF6C37",
-            "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
-            "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA?identity__email=kabugap02%40gmail.com"
-        }
-    ]
+  "milestones": [
+    {
+      "title": "Became a Postman Student Leader",
+      "date": "March 2023",
+      "icon": "SiPostman",
+      "color": "#FF6C37",
+      "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
+      "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA?identity__email=kabugap02%40gmail.com"
+    }
+  ]
 }

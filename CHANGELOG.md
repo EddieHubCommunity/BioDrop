@@ -1,9 +1,9 @@
-# 1.100.0 (2023-03-16)
+## 1.100.9 (2023-03-20)
 
 
-### Features
+### Bug Fixes
 
-* total results for map display [#5405](https://github.com/EddieHubCommunity/LinkFree/issues/5405) ([#5471](https://github.com/EddieHubCommunity/LinkFree/issues/5471)) ([9735cf0](https://github.com/EddieHubCommunity/LinkFree/commit/9735cf0c53f96a98fb50d2bab9a3df43ca0f2704))
+* move tanitoluwam to data folder ([#5573](https://github.com/EddieHubCommunity/LinkFree/issues/5573)) ([bb4075e](https://github.com/EddieHubCommunity/LinkFree/commit/bb4075e5475a821c5c97133d64212b221aa04cb9))
 
 
 
