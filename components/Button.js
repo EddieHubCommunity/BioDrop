@@ -3,7 +3,7 @@ import Link from "./Link";
 export default function Button({
   text,
   primary = false,
-  disable = false,
+  disable,
   ...restProps
 }) {
   let className =
@@ -12,7 +12,7 @@ export default function Button({
     ? " text-white bg-indigo-600  hover:bg-indigo-700"
     : " text-indigo-600 hover:bg-indigo-50";
   className += disable
-    ? " border-2 border-red-600 hover:bg-red-600"
+    ? " border-2 border-red bg-[#f4f4f4] hover:bg-[#f3f3f3] opacity-[.5] text-[gray] cursor-not-allowed"
     : " cursor-pointer";
 
   const link = (
