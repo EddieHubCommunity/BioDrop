@@ -82,8 +82,10 @@ function UserProfile({ BASE_URL, data }) {
           />
         )}
       </div>
-      <div className="flex justify-center mb-4" >
-        {qrShow && (<Button text="Download QR code" primary={true} onClick={downloadQR} />)}
+      <div className="flex justify-center mb-4">
+        {qrShow && (
+          <Button text="Download QR code" primary={true} onClick={downloadQR} />
+        )}
       </div>
     </>
   );
