@@ -1,5 +1,5 @@
 import UserLink from "./UserLink";
-import Alert from "../Alert";
+import Alert from "@components/Alert";
 
 export default function UserLinks({ BASE_URL, data }) {
   const defaultBucket = "Others";

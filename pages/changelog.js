@@ -1,6 +1,7 @@
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
 import { CalendarIcon } from "@heroicons/react/20/solid";
+
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 
 export default function Changelog() {
   const colors = {
