@@ -1,10 +1,9 @@
-import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import "leaflet/dist/leaflet.css";
 
-import Link from "../Link";
-import MarkerCluster from "./MarkerCluster";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Link from "@components/Link";
+import MarkerCluster from "@components/map/MarkerCluster";
 
 export default function Map({ users }) {
   const boundsMap = [
@@ -16,6 +15,7 @@ export default function Map({ users }) {
     <>
       <MapContainer
 
+
         center={[0, 0]}
         zoom={2}
         zoomControl={true}
@@ -23,6 +23,15 @@ export default function Map({ users }) {
         maxBounds={boundsMap}
         maxBoundsViscosity={0.7}
         style={{ height: "100vh" }}
+      >
+        <TileLayer
+
+        style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
+        center={[16.843908, -18.09]}
+        zoom={2}
+        zoomControl={true}
+        scrollWheelZoom={false}
+        maxBounds={null}
       >
         <TileLayer
 
@@ -52,7 +61,13 @@ export default function Map({ users }) {
                       </Link>
                     </h1>
                     <span>{user.location.provided}</span>
+
                     <span><ReactMarkdown>{user.bio}</ReactMarkdown></span>
+
+                    <span>
+                      <ReactMarkdown>{user.bio}</ReactMarkdown>
+                    </span>
+
                   </div>
                 </Popup>
               </Marker>

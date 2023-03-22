@@ -1,10 +1,9 @@
-import DocsLayout from "../../../components/layouts/DocsLayout.js";
-import Link from "../../../components/Link";
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
 
-## Quick demo 
+## Quick demo
 
 ![LinkFree CLI demo](https://user-images.githubusercontent.com/51878265/220884496-3025e260-bcfe-4abe-b639-b66592dd4038.gif)
-
 
 ## What is LinkFree CLI?
 
@@ -39,7 +38,5 @@ npm run cli
 If you find any kind of bug you can use the 5th option `🐛 Report a bug` in the main prompt to report the bug. You can also create an issue in the [LinkFree CLI](https://github.com/Pradumnasaraf/LinkFree-CLI/issues/new?assignees=&labels=bug&template=bug.yaml) repository.
 
 export default ({ children }) => (
-  <DocsLayout title="Creating profile via LinkFree CLI">
-    {children}
-  </DocsLayout>
+  <DocsLayout title="Creating profile via LinkFree CLI">{children}</DocsLayout>
 );

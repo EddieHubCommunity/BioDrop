@@ -1,4 +1,4 @@
-import Link from "../Link";
+import Link from "@components/Link";
 
 export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =

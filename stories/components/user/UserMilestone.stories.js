@@ -1,4 +1,4 @@
-import UserMilestone from "../../../components/user/UserMilestone";
+import UserMilestone from "@components/user/UserMilestone";
 
 export default {
   component: UserMilestone,

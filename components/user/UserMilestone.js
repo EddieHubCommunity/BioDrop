@@ -1,8 +1,8 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import getIcon from "../Icon";
-import Link from "../Link";
+import getIcon from "@components/Icon";
+import Link from "@components/Link";
 
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);

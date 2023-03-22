@@ -1,12 +1,13 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-
-import NavLink from "./NavLink";
-import Link from "../Link";
-import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import getIcon from "../Icon";
+
+import app from "@config/app.json";
+import NavLink from "@components/navbar/NavLink";
+import Link from "@components/Link";
+import getIcon from "@components/Icon";
+
 const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
@@ -179,10 +180,11 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${isOpen
+          className={`${
+            isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0 "
-            } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
+          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

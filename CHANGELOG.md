@@ -1,9 +1,9 @@
-# 1.100.0 (2023-03-16)
+## 1.101.1 (2023-03-22)
 
 
-### Features
+### Bug Fixes
 
-* total results for map display [#5405](https://github.com/EddieHubCommunity/LinkFree/issues/5405) ([#5471](https://github.com/EddieHubCommunity/LinkFree/issues/5471)) ([9735cf0](https://github.com/EddieHubCommunity/LinkFree/commit/9735cf0c53f96a98fb50d2bab9a3df43ca0f2704))
+* high outdated dependencies ([#5592](https://github.com/EddieHubCommunity/LinkFree/issues/5592)) ([92c111f](https://github.com/EddieHubCommunity/LinkFree/commit/92c111f234b82c1435ed8ed4e7004193c0cb282a))
 
 
 
