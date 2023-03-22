@@ -56,8 +56,6 @@ export default function Map({ data }) {
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [selectedTags, setSelectedTags] = useState(new Set());
 
-  console.log(selectedTags);
-
   let results = [];
 
   const updateSelectedTagsFilter = (tagSelected) => {
