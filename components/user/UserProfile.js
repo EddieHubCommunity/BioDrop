@@ -3,11 +3,11 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeSVG } from "qrcode.react";
 
-import FallbackImage from "../FallbackImage";
+import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
-import Tag from "../Tag";
-import Link from "../Link";
-import Badge from "../Badge";
+import Tag from "@components/Tag";
+import Link from "@components/Link";
+import Badge from "@components/Badge";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -68,7 +68,10 @@ function UserProfile({ BASE_URL, data }) {
 
       <div className="flex justify-center my-4">
         {qrShow && (
-          <QRCodeSVG value={`${BASE_URL}/${data.username}`} size={fallbackImageSize * 2} />
+          <QRCodeSVG
+            value={`${BASE_URL}/${data.username}`}
+            size={fallbackImageSize * 2}
+          />
         )}
       </div>
     </>
