@@ -1,9 +1,9 @@
-## 1.100.9 (2023-03-20)
+# 1.101.0 (2023-03-22)
 
 
-### Bug Fixes
+### Features
 
-* move tanitoluwam to data folder ([#5573](https://github.com/EddieHubCommunity/LinkFree/issues/5573)) ([bb4075e](https://github.com/EddieHubCommunity/LinkFree/commit/bb4075e5475a821c5c97133d64212b221aa04cb9))
+* alias imports ([#5579](https://github.com/EddieHubCommunity/LinkFree/issues/5579)) ([d26cc22](https://github.com/EddieHubCommunity/LinkFree/commit/d26cc222c2cc5e9f6c575d3be13d29a1b3a93c4e)), closes [#3564](https://github.com/EddieHubCommunity/LinkFree/issues/3564) [#4543](https://github.com/EddieHubCommunity/LinkFree/issues/4543) [#3564](https://github.com/EddieHubCommunity/LinkFree/issues/3564)
 
 
 
