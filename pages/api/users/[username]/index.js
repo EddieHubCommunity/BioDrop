@@ -22,7 +22,6 @@ export default async function handler(req, res) {
   if (session) {
     sameUser = (session.username === req.query.username) ? true : false;
   }
-  console.log(session.username) 
   const { status, profile } = await getUserApi(req.query.username, sameUser);
   return res.status(status).json(profile);
 }
