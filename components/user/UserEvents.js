@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import EventCard from "../event/EventCard";
-import Alert from "../Alert";
-import EventKey from "../event/EventKey";
+import EventCard from "@components/event/EventCard";
+import Alert from "@components/Alert";
+import EventKey from "@components/event/EventKey";
 
 export default function UserEvents({ data }) {
   const [eventType, seteventType] = useState("future");

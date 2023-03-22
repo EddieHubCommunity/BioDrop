@@ -1,4 +1,4 @@
-import UserPage from "../user/UserPage";
+import UserPage from "@components/user/UserPage";
 
 export default function Preview({ toggle, data }) {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
