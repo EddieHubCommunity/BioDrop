@@ -1,9 +1,9 @@
-## 1.100.8 (2023-03-19)
+## 1.101.1 (2023-03-22)
 
 
 ### Bug Fixes
 
-* bump LinkFree-CLI version to 2.2.2 ([#5541](https://github.com/EddieHubCommunity/LinkFree/issues/5541)) ([7c1b8e4](https://github.com/EddieHubCommunity/LinkFree/commit/7c1b8e40d8c8e239985cb049b4a70be2963cce4a))
+* high outdated dependencies ([#5592](https://github.com/EddieHubCommunity/LinkFree/issues/5592)) ([92c111f](https://github.com/EddieHubCommunity/LinkFree/commit/92c111f234b82c1435ed8ed4e7004193c0cb282a))
 
 
 
