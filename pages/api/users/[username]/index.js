@@ -17,16 +17,17 @@ export default async function handler(req, res) {
       .status(400)
       .json({ error: "Invalid request: GET request required" });
   }
-  let sameUser = false;
-  const session = await unstable_getServerSession(req, res, authOptions);
-  if (session) {
-    sameUser = (session.username === req.query.username) ? true : false;
-  }
-  const { status, profile } = await getUserApi(req.query.username, sameUser);
+  
+  const { status, profile } = await getUserApi(req, res, req.query.username);
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(username, sameUser) {
+export async function getUserApi(req, res, username) {
+  let sameUser = false;
+  const session = await unstable_getServerSession(req, res, authOptions);
+  if (session) {
+    sameUser = (session.username === username) ? true : false;
+  }
   await connectMongo();
 
   const log = logger.child({ username: username });

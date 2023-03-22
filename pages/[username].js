@@ -15,14 +15,14 @@ import Page from "../components/Page";
 import UserPage from "../components/user/UserPage";
 
 export async function getServerSideProps(context) {
-  const { req } = context;
+  const { req, res } = context;
   const username = context.query.username;
   const log = logger.child({
     username: username,
     ip: requestIp.getClientIp(req),
   });
 
-  const { status, profile } = await getUserApi(username);
+  const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
     log.error(
       profile.error,
