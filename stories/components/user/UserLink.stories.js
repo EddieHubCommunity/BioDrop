@@ -1,4 +1,4 @@
-import UserLink from "../../../components/user/UserLink";
+import UserLink from "@components/user/UserLink";
 
 export default {
   component: UserLink,

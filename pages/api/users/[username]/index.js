@@ -1,12 +1,12 @@
-import connectMongo from "../../../../config/mongo";
-import logger from "../../../../config/logger";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
 
-import Profile from "../../../../models/Profile";
-import Stats from "../../../../models/Stats";
-import ProfileStats from "../../../../models/ProfileStats";
+import Profile from "@models/Profile";
+import Stats from "@models/Stats";
+import ProfileStats from "@models/ProfileStats";
 
-import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
-import getLocation from "../../../../services/profiles/getLocation";
+import findOneByUsernameFull from "@services/profiles/findOneByUsernameFull";
+import getLocation from "@services/profiles/getLocation";
 
 export default async function handler(req, res) {
   if (req.method != "GET" || !req.query.username) {

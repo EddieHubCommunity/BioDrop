@@ -1,7 +1,4 @@
-import Link from "../components/Link";
 import Image from "next/image";
-import { getTodayStats } from "./api/statistics/today";
-import { getTotalStats } from "./api/statistics/totals";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -13,11 +10,14 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import PageHead from "../components/PageHead";
-import singleUser from "../config/user.json";
-import BasicCards from "../components/statistics/BasicCards";
-import Button from "../components/Button";
-import Testimonials from "../components/Testimonials";
+import singleUser from "@config/user.json";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
+import Link from "@components/Link";
+import PageHead from "@components/PageHead";
+import BasicCards from "@components/statistics/BasicCards";
+import Button from "@components/Button";
+import Testimonials from "@components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
