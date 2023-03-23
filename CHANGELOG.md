@@ -1,9 +1,9 @@
-## 1.101.1 (2023-03-22)
+# 1.102.0 (2023-03-23)
 
 
-### Bug Fixes
+### Features
 
-* high outdated dependencies ([#5592](https://github.com/EddieHubCommunity/LinkFree/issues/5592)) ([92c111f](https://github.com/EddieHubCommunity/LinkFree/commit/92c111f234b82c1435ed8ed4e7004193c0cb282a))
+* playground ui improvements ([#5554](https://github.com/EddieHubCommunity/LinkFree/issues/5554)) ([e43aace](https://github.com/EddieHubCommunity/LinkFree/commit/e43aace1d02d0b9a9cf23258ef60f7107eb3e092))
 
 
 
