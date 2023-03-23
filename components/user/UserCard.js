@@ -1,7 +1,7 @@
-import Link from "../Link";
 import ReactMarkdown from "react-markdown";
-import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
-import FallbackImage from "../FallbackImage";
+
+import Link from "@components/Link";
+import FallbackImage from "@components/FallbackImage";
 
 export default function UserCard({ profile }) {
   return (

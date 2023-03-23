@@ -12,9 +12,9 @@ import {
 } from "recharts";
 
 import logger from "../../config/logger";
-import Alert from "../../components/Alert";
-import Page from "../../components/Page";
-import PageHead from "../../components/PageHead";
+import Alert from "@components/Alert";
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 import BasicCards from "../../components/statistics/BasicCards";
 
