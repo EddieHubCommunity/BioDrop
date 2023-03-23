@@ -1,5 +1,6 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { unstable_getServerSession } from "next-auth/next";
+import ProfileProgress from "../../components/statistics/ProfileProgress"
 
 import {
   BarChart,
@@ -55,6 +56,7 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
+  let progress
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
@@ -65,16 +67,37 @@ export async function getServerSideProps(context) {
       }
     );
     data = await res.json();
+
+    let profileSections = [
+      "bio",
+      "links",
+      "milestones",
+      "tags",
+      "socials",
+      "location",
+      "kakaka"
+    ]
+
+    progress = {
+      percentage:0,
+      missing:[]
+    }
+
+    progress.missing = profileSections.filter((property)=> !Object.keys(profile).includes(property) )
+    progress.percentage = (((profileSections.length - progress.missing.length) / profileSections.length)*100).toFixed(2) 
+    console.log(progress);
+
+
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
   return {
-    props: { session, data, profile },
+    props: { session, data, profile, progress},
   };
 }
 
-export default function Statistics({ data, profile }) {
+export default function Statistics({ data, profile,missing }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -104,6 +127,8 @@ export default function Statistics({ data, profile }) {
     },
   ];
 
+  console.log(missing,profile);
+
   return (
     <>
       <PageHead
@@ -112,6 +137,7 @@ export default function Statistics({ data, profile }) {
       />
 
       <Page>
+        <ProfileProgress profile={profile}/>
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} ({profile.username})
         </h1>
