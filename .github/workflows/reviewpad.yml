@@ -3,15 +3,8 @@ name: Reviewpad
 
 on:
   issues:
-    types:
-      - opened
-      - edited
   issue_comment:
   pull_request_target:
-    types:
-      - opened
-      - synchronize
-      - edited
 
 # These permissions are necessary to automate pull requests from forks.
 permissions:

@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import getIcon from "../Icon";
-import colors from "../../config/icons.json";
-import Link from "../Link";
+import getIcon from "@components/Icon";
+import colors from "@config/icons.json";
+import Link from "@components/Link";
 
 export default function UserLink({ BASE_URL, link, username }) {
   const [clicks, setClicks] = useState(link.clicks || 0);

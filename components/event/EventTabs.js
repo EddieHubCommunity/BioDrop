@@ -1,4 +1,4 @@
-import Link from "../Link";
+import Link from "@components/Link";
 
 export function EventTabs({ tabs, eventType, setEventType }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");

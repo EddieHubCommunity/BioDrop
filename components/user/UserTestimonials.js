@@ -1,7 +1,8 @@
-import Link from "../Link";
-import Alert from "../Alert";
-import FallbackImage from "../FallbackImage";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+
+import Link from "@components/Link";
+import Alert from "@components/Alert";
+import FallbackImage from "@components/FallbackImage";
 
 export default function UserTestimonials({ data }) {
   return (

@@ -1,5 +1,6 @@
-import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
 import { MdArrowUpward } from "react-icons/md";
+
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
 export default function BasicCards({ data }) {
   return (
