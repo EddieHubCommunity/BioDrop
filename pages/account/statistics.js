@@ -85,8 +85,6 @@ export async function getServerSideProps(context) {
 
     progress.missing = profileSections.filter((property)=> !Object.keys(profile).includes(property) )
     progress.percentage = (((profileSections.length - progress.missing.length) / profileSections.length)*100).toFixed(2) 
-    console.log(progress);
-
 
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
@@ -97,7 +95,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Statistics({ data, profile,missing }) {
+export default function Statistics({ data, profile,progress }) { 
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -127,8 +125,6 @@ export default function Statistics({ data, profile,missing }) {
     },
   ];
 
-  console.log(missing,profile);
-
   return (
     <>
       <PageHead
@@ -137,7 +133,7 @@ export default function Statistics({ data, profile,missing }) {
       />
 
       <Page>
-        <ProfileProgress profile={profile}/>
+        <ProfileProgress progress={progress}/>
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} ({profile.username})
         </h1>
