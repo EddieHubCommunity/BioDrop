@@ -25,8 +25,8 @@ export default async function handler(req, res) {
 export async function getUserApi(req, res, username) {
   let sameUser = false;
   const session = await unstable_getServerSession(req, res, authOptions);
-  if (session) {
-    sameUser = (session.username === username) ? true : false;
+  if (session && session.username === username) {
+    sameUser = true;
   }
   await connectMongo();
 
