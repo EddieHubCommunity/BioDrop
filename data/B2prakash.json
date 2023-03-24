@@ -1,0 +1,50 @@
+{
+  "name": "ved prakash",
+  "type": "personal",
+  "bio": "student , open source contributer ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "c++",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/VedPrak39212943" },
+    { "icon": "FaGithub", "url": "https://github.com/B2prakash" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/vedprakash2431" }
+  ],
+   "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/VedPrak39212943",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with  me",
+      "url": "https://linkedin.com/in/vedprakash",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/@vedprakash2431",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/B2prakash",
+      "icon": "FaGithub"
+    },
+   
+    
+  ]
+}  
+  
