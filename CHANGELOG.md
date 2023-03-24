@@ -1,9 +1,9 @@
-## 1.102.3 (2023-03-24)
+## 1.102.4 (2023-03-24)
 
 
 ### Bug Fixes
 
-* stats page increment ([#5628](https://github.com/EddieHubCommunity/LinkFree/issues/5628)) ([ebb2bf9](https://github.com/EddieHubCommunity/LinkFree/commit/ebb2bf989237f040bcdd0be6dcc4911f2552c912))
+* map toggle off tag filter ([#5420](https://github.com/EddieHubCommunity/LinkFree/issues/5420)) ([#5447](https://github.com/EddieHubCommunity/LinkFree/issues/5447)) ([c83d3eb](https://github.com/EddieHubCommunity/LinkFree/commit/c83d3eb5d1014cf17fc8fb5edff40c055fddbcf7))
 
 
 
