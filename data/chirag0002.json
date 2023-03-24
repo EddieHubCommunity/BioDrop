@@ -3,11 +3,7 @@
   "type": "personal",
   "bio": "DevOps Enthusiast | Web Developer | Started Journey In Open Source | Communities💙 | Let's Connect🤝 ",
 
-  "tags": [
-    "DevOps",
-    "Open Source",
-    "Javascript"
-  ],
+  "tags": ["DevOps", "Open Source", "Javascript"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/ChiragV01" },
     { "icon": "FaGithub", "url": "https://github.com/chirag0002" },
