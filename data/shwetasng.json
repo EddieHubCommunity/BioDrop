@@ -6,7 +6,10 @@
   "tags": ["DevOps", "WebDev", "Open Source"],
 
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/<Your Twitter Username>" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/<Your Twitter Username>"
+    },
     { "icon": "FaGithub", "url": "https://github.com/shwetasng" },
     {
       "icon": "FaLinkedin",
