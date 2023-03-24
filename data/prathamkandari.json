@@ -6,7 +6,10 @@
   "tags": ["WebDev", "DataScience", "OpenSource", "Cloud"],
 
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/<Your Twitter Username>" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/<Your Twitter Username>"
+    },
     { "icon": "FaGithub", "url": "https://github.com/prathamkandari" },
     {
       "icon": "FaLinkedin",
