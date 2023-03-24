@@ -29,7 +29,7 @@ export async function getUserApi(req, res, username) {
   if (session && session.username === username) {
     isOwner = true;
   }
-  console.log("====", session, isOwner);
+
   const log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
