@@ -1,17 +1,17 @@
 {
-    "name": "Souriddha Sen",
-    "type": "personal",
-    "bio": "Student, learner, developer, most of the time. Adventurer, writer, artist, in spare time.",
-    "links": [
-        {
-            "name": "Website",
-            "url": "https://senozphere.wordpress.com/",
-            "icon": "FaWordpress"
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/souriddha/",
-            "icon": "FaLinkedin"
-        }
-    ]
+  "name": "Souriddha Sen",
+  "type": "personal",
+  "bio": "Student, learner, developer, most of the time. Adventurer, writer, artist, in spare time.",
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://senozphere.wordpress.com/",
+      "icon": "FaWordpress"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/souriddha/",
+      "icon": "FaLinkedin"
+    }
+  ]
 }
