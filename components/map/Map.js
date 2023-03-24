@@ -6,17 +6,27 @@ import Link from "@components/Link";
 import MarkerCluster from "@components/map/MarkerCluster";
 
 export default function Map({ users }) {
+  const boundsMap = [
+    [-90, -180], // Southwest coordinates
+    [90, 180] // Northeast coordinates
+  ];
+
   return (
     <>
       <MapContainer
-        style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
-        center={[16.843908, -18.09]}
+
+
+        center={[0, 0]}
         zoom={2}
         zoomControl={true}
         scrollWheelZoom={false}
-        maxBounds={null}
+        maxBounds={boundsMap}
+        maxBoundsViscosity={0.7}
+        style={{ height: "100vh" }}
       >
+  
         <TileLayer
+
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
@@ -43,9 +53,13 @@ export default function Map({ users }) {
                       </Link>
                     </h1>
                     <span>{user.location.provided}</span>
+
+                    <span><ReactMarkdown>{user.bio}</ReactMarkdown></span>
+
                     <span>
                       <ReactMarkdown>{user.bio}</ReactMarkdown>
                     </span>
+
                   </div>
                 </Popup>
               </Marker>
