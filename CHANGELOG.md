@@ -1,9 +1,9 @@
-## 1.101.1 (2023-03-22)
+## 1.102.4 (2023-03-24)
 
 
 ### Bug Fixes
 
-* high outdated dependencies ([#5592](https://github.com/EddieHubCommunity/LinkFree/issues/5592)) ([92c111f](https://github.com/EddieHubCommunity/LinkFree/commit/92c111f234b82c1435ed8ed4e7004193c0cb282a))
+* map toggle off tag filter ([#5420](https://github.com/EddieHubCommunity/LinkFree/issues/5420)) ([#5447](https://github.com/EddieHubCommunity/LinkFree/issues/5447)) ([c83d3eb](https://github.com/EddieHubCommunity/LinkFree/commit/c83d3eb5d1014cf17fc8fb5edff40c055fddbcf7))
 
 
 

@@ -12,7 +12,8 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/engeniusam/",
       "icon": "FaLinkedin"
-    },{
+    },
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/Engeniusam",
       "icon": "FaGithub"
