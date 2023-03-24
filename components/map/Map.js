@@ -24,15 +24,7 @@ export default function Map({ users }) {
         maxBoundsViscosity={0.7}
         style={{ height: "100vh" }}
       >
-        <TileLayer
-
-        style={{ height: "100vh", width: "width: 100vw", zIndex: 10 }}
-        center={[16.843908, -18.09]}
-        zoom={2}
-        zoomControl={true}
-        scrollWheelZoom={false}
-        maxBounds={null}
-      >
+  
         <TileLayer
 
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
