@@ -1,9 +1,9 @@
-# 1.102.0 (2023-03-23)
+## 1.102.2 (2023-03-24)
 
 
-### Features
+### Bug Fixes
 
-* playground ui improvements ([#5554](https://github.com/EddieHubCommunity/LinkFree/issues/5554)) ([e43aace](https://github.com/EddieHubCommunity/LinkFree/commit/e43aace1d02d0b9a9cf23258ef60f7107eb3e092))
+* account stats own visitor ([#5595](https://github.com/EddieHubCommunity/LinkFree/issues/5595)) ([#5626](https://github.com/EddieHubCommunity/LinkFree/issues/5626)) ([fa4eb01](https://github.com/EddieHubCommunity/LinkFree/commit/fa4eb01f09e83ac58ed8cb2e7209bc440304f573))
 
 
 
