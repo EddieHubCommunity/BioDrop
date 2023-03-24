@@ -1,5 +1,5 @@
 import { authOptions } from "../../auth/[...nextauth]";
-import { unstable_getServerSession } from 'next-auth/next';
+import { unstable_getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -17,19 +17,19 @@ export default async function handler(req, res) {
       .status(400)
       .json({ error: "Invalid request: GET request required" });
   }
-  
+
   const { status, profile } = await getUserApi(req, res, req.query.username);
   return res.status(status).json(profile);
 }
 
 export async function getUserApi(req, res, username) {
-  let sameUser = false;
+  await connectMongo();
+  let isOwner = false;
   const session = await unstable_getServerSession(req, res, authOptions);
   if (session && session.username === username) {
-    sameUser = true;
+    isOwner = true;
   }
-  await connectMongo();
-
+  console.log("====", session, isOwner);
   const log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
@@ -74,7 +74,7 @@ export async function getUserApi(req, res, username) {
     }
   }
 
-  if (getProfile && !sameUser) {
+  if (getProfile && !isOwner) {
     try {
       await Profile.updateOne(
         {
@@ -97,7 +97,7 @@ export async function getUserApi(req, res, username) {
     username: username,
     date: date,
   });
-  if (getProfileStats && !sameUser) {
+  if (getProfileStats && !isOwner) {
     try {
       await ProfileStats.updateOne(
         {
@@ -132,7 +132,7 @@ export async function getUserApi(req, res, username) {
   }
 
   const getPlatformStats = await Stats.findOne({ date });
-  if (getPlatformStats && !sameUser) {
+  if (getPlatformStats && !isOwner) {
     try {
       await Stats.updateOne(
         {
