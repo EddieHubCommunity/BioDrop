@@ -1,0 +1,36 @@
+{
+	"name": "Sambhav Gandhi",
+	"type": "personal",
+	"tags": ["Open Source", "Javascript", "Collaboration", "ReactJS"],
+	"bio": "Frontend Developer,BibliophileVoyager,WellnessWizard",
+	"socials": [{
+			"icon": "FaTwitter",
+			"url": "https://twitter.com/Sambhav_Gandhi"
+		},
+		{
+			"icon": "FaGithub",
+			"url": "https://github.com/geeky_sambhav"
+		},
+		{
+			"icon": "FaLinkedin",
+			"url": "https://github.com/sambhav-gandhi"
+		}
+	],
+	"links": [{
+			"name": "Follow me on GitHub",
+			"url": "https://github.com/geky-sambhav",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Follow me on Linkedin",
+			"url": "https://www.linkedin.com/in/sambhav-gandhi",
+			"icon": "FaLinkedin"
+		},
+		{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/Sambhav_Gandhi",
+			"icon": "FaTwitter"
+		}
+
+	]
+}
