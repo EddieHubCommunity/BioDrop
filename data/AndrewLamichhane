@@ -1,0 +1,22 @@
+{
+  "name": "Andrew Lamichhane",
+  "type": "personal",
+  "bio": "A enthusiast who likes to tinker.",
+  "links": [
+     {
+      "name": "Twitter",
+      "url": "",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/andrew-lamichhane-34a397219/",
+      "icon": "FaLinkedIN"
+    },
+     {
+      "name": "Github",
+      "url": "https://github.com/Andrew-LC",
+      "icon": "Github"
+    }
+  ]
+}
