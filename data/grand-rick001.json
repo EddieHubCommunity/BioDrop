@@ -53,10 +53,10 @@
       "icon": "SiKaggle"
     },
     {
-            "group": "Others",
-            "name": "Wakatime: Powerful coding Insights",
-            "url": "https://wakatime.com/@grandrick001",
-            "icon": "SiWakatime"
+      "group": "Others",
+      "name": "Wakatime: Powerful coding Insights",
+      "url": "https://wakatime.com/@grandrick001",
+      "icon": "SiWakatime"
     }
   ],
   "milestones": [
