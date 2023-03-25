@@ -1,9 +1,9 @@
-## 1.84.7 (2023-02-12)
+## 1.102.7 (2023-03-25)
 
 
 ### Bug Fixes
 
-* function component name ([#4726](https://github.com/EddieHubCommunity/LinkFree/issues/4726)) ([6873748](https://github.com/EddieHubCommunity/LinkFree/commit/687374814cb91d303f062179729866d3b9a67d74))
+* nav links state not persisted with deep links ([#5197](https://github.com/EddieHubCommunity/LinkFree/issues/5197)) ([7894ee3](https://github.com/EddieHubCommunity/LinkFree/commit/7894ee335b519d67a1872730e905536379897adf))
 
 
 

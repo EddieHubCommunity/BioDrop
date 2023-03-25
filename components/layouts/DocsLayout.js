@@ -1,9 +1,9 @@
 import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
 
-import Page from "../Page";
-import Link from "../../components/Link";
-import { ComponentStyle } from "../mdx/ComponentStyle";
+import Page from "@components/Page";
+import Link from "@components/Link";
+import { ComponentStyle } from "@components/mdx/ComponentStyle";
 
 export default function DocsLayout({ children, title }) {
   return (

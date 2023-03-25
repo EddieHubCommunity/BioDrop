@@ -25,34 +25,58 @@
   ],
   "links": [
     {
-      "name": "GitHub: Collaborate on Open-Source",
-      "url": "https://github.com/kumarsonsoff3",
-      "icon": "FaGithub"
+      "group": "Community",
+      "name": "Notion Nerds: Place where we learn to use the Notion more effectively from each other",
+      "url": "https://www.showwcase.com/community/notion-nerds",
+      "icon": "SiNotion"
     },
     {
-      "name": "Hashnode: Read our Blogs here",
-      "url": "https://kumarsonsoff.hashnode.dev/",
-      "icon": "SiHashnode"
-    },
-    {
-      "name": "Showwcase: Join us on Showwcase",
-      "url": "https://showwcase.com/kumar-sons-off",
-      "icon": "FaCodeBranch"
-    },
-    {
+      "group": "Socials Primary",
       "name": "Twitter: Frequent Updates from Me",
       "url": "https://twitter.com/Kumar_Sons_off",
       "icon": "FaTwitter"
     },
     {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open-Source",
+      "url": "https://github.com/kumarsonsoff3",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/kumarsonsoff",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Hashnode: Read our Blogs here",
+      "url": "https://kumarsonsoff.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Showwcase: Join us on Showwcase",
+      "url": "https://showwcase.com/kumar-sons-off",
+      "icon": "FaCodeBranch"
+    },
+    {
+      "group": "Socials Secondary",
       "name": "Instagram: Occassional Photos of Mine",
       "url": "https://instagram.com/priyanshu_kumawat_off",
       "icon": "FaInstagram"
     },
     {
-      "name": "LinkedIn: Let's Connect",
-      "url": "https://www.linkedin.com/in/kumarsonsoff",
-      "icon": "FaLinkedin"
+      "group": "Coffee Chat",
+      "name": "Calendly: Let's Geek out on a Coffee Chat",
+      "url": "https://calendly.com/priyanshukumawat/",
+      "icon": "FaCalendarCheck"
+    },
+    {
+      "group": "Support 💕",
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/kumarsonsoff3",
+      "icon": "FaHeart"
     }
   ],
   "milestones": [

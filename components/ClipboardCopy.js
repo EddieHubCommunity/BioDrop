@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { onlyText } from "react-children-utilities";
 
 const ClipboardCopy = ({ children }) => {
@@ -20,7 +20,7 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      console.log(err);
+      console.error(error);
     }
   };
 

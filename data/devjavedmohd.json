@@ -1,0 +1,18 @@
+{
+  "name": "Mohd Javed",
+  "type": "personal",
+  "bio": "UI/UX Front End Developer | Open Source",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "VueJS",
+    "DevOps",
+    "Cloud"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/devjavedmohd" },
+    { "icon": "FaGithub", "url": "https://github.com/devjavedmohd" }
+  ]
+}

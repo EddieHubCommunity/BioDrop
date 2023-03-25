@@ -50,16 +50,22 @@
       "icon": "FaMedium"
     },
     {
+      "group": "Portfolio",
+      "name": "Collaborate on Github",
+      "url": "https://github.com/SandipPalit",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Portfolio",
+      "name": "Collaborate on Kaggle",
+      "url": "https://www.kaggle.com/sandippalit009",
+      "icon": "FaKaggle"
+    },
+    {
       "group": "Socials",
       "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/sandip-palit/",
       "icon": "FaLinkedin"
-    },
-    {
-      "group": "Socials",
-      "name": "Collaborate on Open Source",
-      "url": "https://github.com/SandipPalit",
-      "icon": "FaGithub"
     },
     {
       "group": "Socials",

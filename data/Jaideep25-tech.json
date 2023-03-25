@@ -5,7 +5,7 @@
   "tags": [
     "Flutter",
     "Open Source",
-    "Full Stack Cross Platform Mobile Application Development",
+    "Full Stack Developer",
     "Firebase",
     "Java",
     "Javascript",
@@ -14,12 +14,21 @@
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Jaideep25-tech/" },
     {
+      "icon": "FaGlobe",
+      "url": "http://www.jaideepsingh.in/"
+    },
+    {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/beta_aesthetic_jaideep/"
     }
   ],
 
   "links": [
+    {
+      "name": "Wanna explore me in detail?",
+      "url": "http://www.jaideepsingh.in/",
+      "icon": "FaGlobe"
+    },
     {
       "name": "Follow my Open Source on GitHub",
       "url": "https://github.com/Jaideep25-tech/",
@@ -29,6 +38,11 @@
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/jaideep-singh-26a226208/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Book 1:1 session or wanna discuss something?",
+      "url": "https://topmate.io/jaideep_singh",
+      "icon": "SiGooglemeet"
     },
     {
       "name": "Know me personally",
@@ -56,7 +70,7 @@
       "date": "Aug 2021",
       "icon": "SiOpensourceinitiative",
       "color": "green",
-      "description": "Became a **GitHub** Star with 30 other people"
+      "description": "Got selected at GSWoC'21 as java contributor"
     },
     {
       "title": "Android Developement Internship",

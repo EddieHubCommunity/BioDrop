@@ -1,5 +1,6 @@
 import { BiSortAlt2 } from "react-icons/bi";
-import Link from "../Link";
+
+import Link from "@components/Link";
 
 export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
