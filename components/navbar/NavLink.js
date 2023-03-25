@@ -9,7 +9,7 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
       "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium";
   }
 
-  if (path === item.url) {
+  if (path?.split("/")[1] === item.url.split("/")[1]) {
     if (mode === "mobile") {
       className =
         "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium";
