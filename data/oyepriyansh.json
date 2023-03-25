@@ -1,238 +1,198 @@
 {
+  "name": "Priyansh Prajapat",
 
-	"name": "Priyansh Prajapat",
+  "type": "personal",
 
-	"type": "personal",
+  "bio": "Aspirant Full stack Web Developer",
 
-	"bio": "Aspirant Full stack Web Developer",
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/oyepriyansh"
+    },
 
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/oyepriyansh"
+    },
 
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/oyepriyansh"
+    }
+  ],
 
-	"socials": [
+  "links": [
+    {
+      "group": "Overview",
 
-		{
-			"icon": "FaInstagram",
-			"url": "https://instagram.com/oyepriyansh"
-		},
+      "name": "Portfolio",
 
-		{
-			"icon": "FaTwitter",
-			"url": "https://twitter.com/oyepriyansh"
-		},
+      "url": "https://oyepriyansh.pages.dev",
 
-		{
-			"icon": "FaGithub",
-			"url": "https://github.com/oyepriyansh"
-		}
+      "icon": "FaGlobe"
+    },
 
-	],
+    {
+      "group": "Overview",
 
+      "name": "Minifolio",
 
+      "url": "https://oyepriyansh.github.io",
 
-	"links": [
+      "icon": "FaLink"
+    },
 
-		{
+    {
+      "group": "Overview",
 
-			"group": "Overview",
+      "name": "Email",
 
-			"name": "Portfolio",
+      "url": "mailto:hi@priyansh.app",
 
-			"url": "https://oyepriyansh.pages.dev",
+      "icon": "SiGmail"
+    },
 
-			"icon": "FaGlobe"
+    {
+      "group": "Socials",
 
-		},
+      "name": "Instagram:Follow me",
 
-		{
+      "url": "https://instagram.com/oyepriyansh",
 
-			"group": "Overview",
+      "icon": "FaInstagram",
 
-			"name": "Minifolio",
+      "color": "#cc0066"
+    },
 
-			"url": "https://oyepriyansh.github.io",
+    {
+      "group": "Socials",
 
-			"icon": "FaLink"
+      "name": "Twitter: Follow me",
 
-		},
+      "url": "https://twitter.com/oyepriyansh",
 
-		{
+      "icon": "FaTwitter",
 
-			"group": "Overview",
+      "color": "#00ACEE"
+    },
 
-			"name": "Email",
+    {
+      "group": "Socials",
 
-			"url": "mailto:hi@priyansh.app",
+      "name": "YouTube: Subscribe :)",
 
-			"icon": "SiGmail"
+      "url": "https://youtube.com/channel/UCmLi-IDLR5l7ZAlrSTd4LqQ",
 
-		},
+      "icon": "FaYoutube",
 
-		{
+      "color": "#FF0000"
+    },
 
-			"group": "Socials",
+    {
+      "group": "Socials",
 
-			"name": "Instagram:Follow me",
+      "name": "GitHub:Collaborateron Open Source",
 
-			"url": "https://instagram.com/oyepriyansh",
+      "url": "https://github.com/oyepriyansh",
 
-			"icon": "FaInstagram",
+      "icon": "FaGithub"
+    },
 
-			"color": "#cc0066"
+    {
+      "group": "Socials",
 
-		},
+      "name": "LinkedIn: Let's connect",
 
-		{
+      "url": "https://linkedin.com/in/oyepriyansh",
 
-			"group": "Socials",
+      "icon": "FaLinkedin",
 
-			"name": "Twitter: Follow me",
+      "color": "#0033cc"
+    },
 
-			"url": "https://twitter.com/oyepriyansh",
+    {
+      "group": "Socials",
 
-			"icon": "FaTwitter",
+      "name": "Discord: Let`s hang out",
 
-			"color": "#00ACEE"
+      "url": "https://discord.com/invite/AeAjegXn6D",
 
-		},
+      "icon": "FaDiscord",
 
-		{
+      "color": "#0033cc"
+    },
 
-			"group": "Socials",
+    {
+      "group": "Sponsor",
 
-			"name": "YouTube: Subscribe :)",
+      "name": "Github Sponsor",
 
-			"url": "https://youtube.com/channel/UCmLi-IDLR5l7ZAlrSTd4LqQ",
+      "url": "https://github.com/sponsors/oyepriyansh",
 
-			"icon": "FaYoutube",
+      "icon": "SiGithubsponsors",
 
-			"color": "#FF0000"
+      "color": "#cc0066"
+    },
 
-		},
+    {
+      "group": "Sponsor",
 
-		{
+      "name": "Buy me a coffee",
 
-			"group": "Socials",
+      "url": "https://buymeacoffee.com/oyepriyansh",
 
-			"name": "GitHub:Collaborateron Open Source",
+      "icon": "SiBuymeacoffee",
 
-			"url": "https://github.com/oyepriyansh",
+      "color": "#f1c40f"
+    },
 
-			"icon": "FaGithub"
+    {
+      "group": "Sponsor",
 
-		},
+      "name": "Ko-Fi",
 
-		{
+      "url": "https://ko-fi.com/oyepriyansh",
 
-			"group": "Socials",
+      "icon": "SiKofi",
 
-			"name": "LinkedIn: Let's connect",
+      "color": "#3498db"
+    },
 
-			"url": "https://linkedin.com/in/oyepriyansh",
+    {
+      "group": "Sponsor",
 
-			"icon": "FaLinkedin",
+      "name": "UPI",
 
-			"color": "#0033cc"
+      "url": "https://oyepriyansh.pages.dev/upi",
 
-		},
+      "icon": "SiPhonepe",
 
-		{
+      "color": "#9900cc"
+    },
 
-			"group": "Socials",
+    {
+      "group": "Sponsor",
 
-			"name": "Discord: Let`s hang out",
+      "name": "GiftApp",
 
-			"url": "https://discord.com/invite/AeAjegXn6D",
+      "url": "https://giftapp.com/priyansh",
 
-			"icon": "FaDiscord",
+      "icon": "FaGift",
 
-			"color": "#0033cc"
+      "color": "#ff3399"
+    },
 
-		},
+    {
+      "group": "Sponsor",
 
-		{
+      "name": "PayPal",
 
-			"group": "Sponsor",
+      "url": "https://paypal.me/oyepriyansh",
 
-			"name": "Github Sponsor",
+      "icon": "FaPaypal",
 
-			"url": "https://github.com/sponsors/oyepriyansh",
-
-			"icon": "SiGithubsponsors",
-
-			"color": "#cc0066"
-
-		},
-
-		{
-
-			"group": "Sponsor",
-
-			"name": "Buy me a coffee",
-
-			"url": "https://buymeacoffee.com/oyepriyansh",
-
-			"icon": "SiBuymeacoffee",
-
-			"color": "#f1c40f"
-
-		},
-
-		{
-
-			"group": "Sponsor",
-
-			"name": "Ko-Fi",
-
-			"url": "https://ko-fi.com/oyepriyansh",
-
-			"icon": "SiKofi",
-
-			"color": "#3498db"
-
-		},
-
-		{
-
-			"group": "Sponsor",
-
-			"name": "UPI",
-
-			"url": "https://oyepriyansh.pages.dev/upi",
-
-			"icon": "SiPhonepe",
-
-			"color": "#9900cc"
-
-		},
-
-		{
-
-			"group": "Sponsor",
-
-			"name": "GiftApp",
-
-			"url": "https://giftapp.com/priyansh",
-
-			"icon": "FaGift",
-
-			"color": "#ff3399"
-
-		},
-
-		{
-
-			"group": "Sponsor",
-
-			"name": "PayPal",
-
-			"url": "https://paypal.me/oyepriyansh",
-
-			"icon": "FaPaypal",
-
-			"color": "#3399ff"
-
-		}
-
-	]
-
+      "color": "#3399ff"
+    }
+  ]
 }
