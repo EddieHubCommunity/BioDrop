@@ -1,6 +1,5 @@
 {
-    "name": "Landouda",
-    "displayStatsPublic" : true,    
+    "name": "Landouda",  
     "type": "personal",
     "bio": " I am a software engineering student",
     "links": [
@@ -10,4 +9,4 @@
         "icon": "FaGithub"
       }
     ]
-  }
+}
