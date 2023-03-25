@@ -1,9 +1,9 @@
-## 1.100.8 (2023-03-19)
+## 1.102.7 (2023-03-25)
 
 
 ### Bug Fixes
 
-* bump LinkFree-CLI version to 2.2.2 ([#5541](https://github.com/EddieHubCommunity/LinkFree/issues/5541)) ([7c1b8e4](https://github.com/EddieHubCommunity/LinkFree/commit/7c1b8e40d8c8e239985cb049b4a70be2963cce4a))
+* nav links state not persisted with deep links ([#5197](https://github.com/EddieHubCommunity/LinkFree/issues/5197)) ([7894ee3](https://github.com/EddieHubCommunity/LinkFree/commit/7894ee335b519d67a1872730e905536379897adf))
 
 
 

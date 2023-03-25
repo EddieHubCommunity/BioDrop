@@ -1,0 +1,22 @@
+{
+  "name": "Gambhir Sharma",
+  "type": "personal",
+  "bio": "Web-Developer(MERN)",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gambhir_sharma",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_gambhir_sharma_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Git-Hub",
+      "url": "https://github.com/gambhirsharma",
+      "icon": "FaGithub"
+    }
+  ]
+}
