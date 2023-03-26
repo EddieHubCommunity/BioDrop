@@ -1,9 +1,9 @@
-## 1.102.8 (2023-03-25)
+## 1.102.9 (2023-03-26)
 
 
 ### Bug Fixes
 
-* prevent eventcard overflow ([#4840](https://github.com/EddieHubCommunity/LinkFree/issues/4840)) ([#5143](https://github.com/EddieHubCommunity/LinkFree/issues/5143)) ([e6d5dce](https://github.com/EddieHubCommunity/LinkFree/commit/e6d5dce857e26c40838f4524f0a1b6552138b88e))
+* removed extra space from testimonials ([#5648](https://github.com/EddieHubCommunity/LinkFree/issues/5648)) ([a47c4f2](https://github.com/EddieHubCommunity/LinkFree/commit/a47c4f23d4b10961aceb28b5c9fc6369f7bfe04b))
 
 
 
