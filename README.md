@@ -23,10 +23,10 @@ LinkFree was built using the following technologies:
 
 You have 4 options to contribute to the repo, please pick your favourite from:
 
-1. GitHub UI (recommended for adding/editing your profile)
-2. Gitpod
-3. Local development
-4. Local development with Docker Compose
+1. [GitHub UI (recommended for adding/editing your profile)](https://github.com/EddieHubCommunity/LinkFree#github-ui)
+2. [Gitpod](https://github.com/EddieHubCommunity/LinkFree#gitpod)
+3. [Local development](https://github.com/EddieHubCommunity/LinkFree#local-development)
+4. [Local development with Docker Compose](https://github.com/EddieHubCommunity/LinkFree#local-development-with-docker-compose)
 
 Brief documentation is below, but full documentation can be found here https://linkfree.io/docs
 
@@ -34,11 +34,11 @@ Brief documentation is below, but full documentation can be found here https://l
 
 This is great if you only want to add your Profile or make changes to it.
 
-Here is the **QuickStart** guide to add your profile https://linkfree.io/docs/quickstart
+Here is the **QuickStart** guide to add your profile - https://linkfree.io/docs/quickstart
 
-*note: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request*
+> **Note**: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request
 
-Read more in the official documentation https://linkfree.io/docs/environments/github-ui
+Read more in the official documentation - https://linkfree.io/docs/environments/github-ui
 
 ### Gitpod
 
@@ -46,11 +46,11 @@ In the cloud-free development environment which will have all the dependencies y
 
 You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
-Read more in the official documentation https://linkfree.io/docs/environments/gitpod 
+Read more in the official documentation - https://linkfree.io/docs/environments/gitpod 
 
 ### Local development
 
-This environment is fully on computer and requires each dependency (for example MongoDB) to be installed and set up, but gives you the most flexibility for customisation.
+This environment is fully on your computer and requires each dependency (for example MongoDB) to be installed and set up, but it gives you the most flexibility for customisation.
 
 #### Prerequisites
 
@@ -77,18 +77,18 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Prerequisites
 
-- Docker
+- [Docker](https://www.docker.com/)
 - [Docker Compose](https://github.com/docker/compose) V2.
 
 #### Commands
 
 1. `docker compose up` 
 
-Read more in the official documentation https://linkfree.io/docs/environments/local-development-docker-compose
+Read more in the official documentation - https://linkfree.io/docs/environments/local-development-docker-compose
 
 ### 🙂 How to add YOUR Profile
 
-Step by step quickstart guide can be found in the full docs here https://linkfree.io/docs/quickstart
+Step by step quickstart guide can be found in the full docs here - https://linkfree.io/docs/quickstart
 
 <!-- Testimonials STARTs Here -->
 
@@ -142,14 +142,14 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 ## 🛡️ License
 
-LinkFree is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+LinkFree is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## 🧰 Contributing
 
-- Contributions make the open source community an amazing place to learn, inspire, and create.
+- Contributions make the open source community an amazing place to _learn_, _inspire_, and _create_.
 - Any contributions you make are **truly appreciated**.
-- Let's continue contributing to keep the community active and growing.
+- Let's continue contributing to keep the community _active_ and _growing_.
 
 ## 🙏 Support
 
-Don't forget to leave a star ⭐️
+Don't forget to leave a star ⭐️.

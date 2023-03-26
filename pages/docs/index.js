@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Page from "../../components/Page";
-import Link from "../../components/Link";
+import Page from "@components/Page";
+import Link from "@components/Link";
 
 export default function DocsIndex() {
   function classNames(...classes) {

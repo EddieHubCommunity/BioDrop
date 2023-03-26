@@ -1,12 +1,12 @@
 import { useState } from "react";
 import dynamic from "next/dynamic";
-import logger from "../config/logger";
-import Tag from "../components/Tag";
-import Button from "../components/Button";
 
-import PageHead from "../components/PageHead";
-import Page from "../components/Page";
-import Badge from "../components/Badge";
+import logger from "@config/logger";
+import Tag from "@components/Tag";
+import Button from "@components/Button";
+import PageHead from "@components/PageHead";
+import Page from "@components/Page";
+import Badge from "@components/Badge";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -68,13 +68,12 @@ export default function Map({ data }) {
     }
 
     setSelectedTags(updatedSelectedTags);
+    return updatedSelectedTags;
   };
 
   const filterData = (value) => {
     const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
-
-    updateSelectedTagsFilter(value);
+    const terms = [...updateSelectedTagsFilter(value)];
 
     results = users.filter((user) => {
       if (user.name.toLowerCase().includes(valueLower)) {
@@ -83,7 +82,7 @@ export default function Map({ data }) {
 
       let userTags = user.tags?.map((tag) => tag.toLowerCase());
 
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
+      if (terms.every((keyword) => userTags?.includes(keyword.toLowerCase()))) {
         return true;
       }
 
