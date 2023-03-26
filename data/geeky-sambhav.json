@@ -9,21 +9,21 @@
 		},
 		{
 			"icon": "FaGithub",
-			"url": "https://github.com/geeky_sambhav"
+			"url": "https://github.com/geeky-sambhav"
 		},
 		{
 			"icon": "FaLinkedin",
-			"url": "https://github.com/sambhav-gandhi"
+			"url": "https://www.linkedin.com/in/sambhav-gandhi-52214a156/"
 		}
 	],
 	"links": [{
 			"name": "Follow me on GitHub",
-			"url": "https://github.com/geky-sambhav",
+			"url": "https://github.com/geeky-sambhav",
 			"icon": "FaGithub"
 		},
 		{
 			"name": "Follow me on Linkedin",
-			"url": "https://www.linkedin.com/in/sambhav-gandhi",
+			"url": "https://www.linkedin.com/in/sambhav-gandhi-52214a156/",
 			"icon": "FaLinkedin"
 		},
 		{
