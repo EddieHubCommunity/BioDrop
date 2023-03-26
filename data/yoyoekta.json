@@ -2,21 +2,46 @@
   "name": "Ekta",
   "type": "personal",
   "bio": "Full Stack Web Developer | 3rd year Undergrad at DCRUST, Murthal",
+  
+  "socials": [
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/ekta9290" },
+    { "icon": "FaGithub", "url": "https://github.com/yoyoekta" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/ekta_9290" }
+  ],
+  
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "group": "Socials",
+      "name": "Follow me",
       "url": "https://twitter.com/ekta_9290",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "group": "Socials",
+      "name": "Let's connect",
       "url": "https://linkedin.com/in/ekta9290",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Github",
+      "group": "Socials",
+      "name": "Collaborate on Open Source",
       "url": "https://github.com/yoyoekta",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source",
+      "name": "LinkFree: Open Source alternative to LinkTree",
+      "url": "https://github.com/EddieHubCommunity/LinkFree",
+      "icon": "FaGithub"
     }
+  ],
+  
+  "tags": [ 
+    "Javascript", 
+    "ReactJS", 
+    "Django", 
+    "Python", 
+     "C++"
   ]
 }
