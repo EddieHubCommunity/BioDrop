@@ -1,0 +1,17 @@
+{
+  "name": "Dinesh Kumar Lalam (test)",
+  "type": "personal",
+  "bio": "I've been coding simce few months. I mostly code in Java. A newbie to JavaScript!",
+    "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dineshlalam15",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dineshlalam15",
+      "icon": "FaGithub"
+    }
+  ]
+}
