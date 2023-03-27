@@ -1,9 +1,9 @@
-## 1.100.9 (2023-03-20)
+## 1.102.9 (2023-03-26)
 
 
 ### Bug Fixes
 
-* move tanitoluwam to data folder ([#5573](https://github.com/EddieHubCommunity/LinkFree/issues/5573)) ([bb4075e](https://github.com/EddieHubCommunity/LinkFree/commit/bb4075e5475a821c5c97133d64212b221aa04cb9))
+* removed extra space from testimonials ([#5648](https://github.com/EddieHubCommunity/LinkFree/issues/5648)) ([a47c4f2](https://github.com/EddieHubCommunity/LinkFree/commit/a47c4f23d4b10961aceb28b5c9fc6369f7bfe04b))
 
 
 
