@@ -1,9 +1,9 @@
-# 1.102.0 (2023-03-23)
+## 1.102.9 (2023-03-26)
 
 
-### Features
+### Bug Fixes
 
-* playground ui improvements ([#5554](https://github.com/EddieHubCommunity/LinkFree/issues/5554)) ([e43aace](https://github.com/EddieHubCommunity/LinkFree/commit/e43aace1d02d0b9a9cf23258ef60f7107eb3e092))
+* removed extra space from testimonials ([#5648](https://github.com/EddieHubCommunity/LinkFree/issues/5648)) ([a47c4f2](https://github.com/EddieHubCommunity/LinkFree/commit/a47c4f23d4b10961aceb28b5c9fc6369f7bfe04b))
 
 
 

@@ -4,9 +4,9 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
+import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
 import logger from "@config/logger";
-import { getUserApi } from "./api/users/[username]/index";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import SingleLayout from "@components/layouts/SingleLayout";
@@ -15,14 +15,14 @@ import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 
 export async function getServerSideProps(context) {
-  const { req } = context;
+  const { req, res } = context;
   const username = context.query.username;
   const log = logger.child({
     username: username,
     ip: requestIp.getClientIp(req),
   });
 
-  const { status, profile } = await getUserApi(username);
+  const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
     log.error(
       profile.error,
