@@ -67,8 +67,7 @@ export async function getServerSideProps(context) {
       "milestones",
       "tags",
       "socials",
-      "location",
-      "kakaka"
+      "location"
     ]
 
     progress = {
