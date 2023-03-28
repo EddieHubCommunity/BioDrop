@@ -11,19 +11,17 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import logger from "../../config/logger";
+import { getUserApi } from "../api/users/[username]";
+import logger from "@config/logger";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
-import BasicCards from "../../components/statistics/BasicCards";
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
+import BasicCards from "@components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {
-  const session = await unstable_getServerSession(
-    context.req,
-    context.res,
-    authOptions
-  );
+  const { req, res } = context;
+  const session = await unstable_getServerSession(req, res, authOptions);
 
   if (!session) {
     return {
@@ -34,18 +32,13 @@ export async function getServerSideProps(context) {
     };
   }
   const username = session.username;
-
-  let profile = {};
-  try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+  const { status, profile } = await getUserApi(req, res, username);
+  if (status !== 200) {
+    logger.error(
+      profile.error,
+      `profile loading failed for username: ${username}`
     );
-    profile = await resUser.json();
-  } catch (e) {
-    logger.error(e, `profile loading failed for username: ${username}`);
-  }
 
-  if (!profile.username) {
     return {
       redirect: {
         destination: "/account/no-profile",
