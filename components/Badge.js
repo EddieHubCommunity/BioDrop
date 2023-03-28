@@ -7,6 +7,7 @@ export default function Badge({
   position,
   className,
   badgeClassName,
+  disable,
   children,
   display = true,
   onClick,
@@ -36,7 +37,11 @@ export default function Badge({
   const badge = (
     <div
       title={title}
-      className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 text-black rounded-full z-10 ${css} ${badgeClassName}`}
+      className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 ${
+        disable ? "text-[#EEEEEE]" : "text-black"
+      } ${
+        disable ? "bg-[#C2C2C2]" : "bg-orange-600"
+      } rounded-full z-10 ${css} ${badgeClassName}`}
       onClick={() => (onClick ? onClick() : null)}
     >
       {content}
