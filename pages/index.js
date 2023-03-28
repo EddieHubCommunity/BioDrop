@@ -1,4 +1,3 @@
-import Link from "../components/Link";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import {
@@ -11,12 +10,14 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import PageHead from "../components/PageHead";
-import singleUser from "../config/user.json";
-import BasicCards from "../components/statistics/BasicCards";
-import Button from "../components/Button";
-import logger from "../config/logger";
-import Testimonials from "../components/Testimonials";
+import singleUser from "@config/user.json";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
+import Link from "@components/Link";
+import PageHead from "@components/PageHead";
+import BasicCards from "@components/statistics/BasicCards";
+import Button from "@components/Button";
+import Testimonials from "@components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -28,28 +29,11 @@ export async function getServerSideProps(context) {
     };
   }
 
-  let total = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/totals`
-    );
-    total = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR total stats not found ");
-  }
-
-  let today = {};
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/statistics/today`
-    );
-    today = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR today stats not found");
-  }
+  const { stats: totalStats } = await getTotalStats();
+  const { stats: todayStats } = await getTodayStats();
 
   return {
-    props: { total, today },
+    props: { total: totalStats, today: todayStats },
   };
 }
 
@@ -305,7 +289,7 @@ export default function Home({ total, today }) {
             </h2>
             <p className="mt-4 text-white">
               It is not just links... Take a look at the Features you can add to
-              customise your LinkFree Profile.
+              customize your LinkFree Profile.
             </p>
           </div>
 

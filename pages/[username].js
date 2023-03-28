@@ -1,28 +1,28 @@
-import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
-import { getUserApi } from "./api/users/[username]/index";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-import PageHead from "../components/PageHead";
-import logger from "../config/logger";
-import SingleLayout from "../components/layouts/SingleLayout";
-import MultiLayout from "../components/layouts/MultiLayout";
-import singleUser from "../config/user.json";
-import Page from "../components/Page";
-import UserPage from "../components/user/UserPage";
+import { getUserApi } from "./api/users/[username]/index";
+import singleUser from "@config/user.json";
+import logger from "@config/logger";
+import Link from "@components/Link";
+import PageHead from "@components/PageHead";
+import SingleLayout from "@components/layouts/SingleLayout";
+import MultiLayout from "@components/layouts/MultiLayout";
+import Page from "@components/Page";
+import UserPage from "@components/user/UserPage";
 
 export async function getServerSideProps(context) {
-  const { req } = context;
+  const { req, res } = context;
   const username = context.query.username;
   const log = logger.child({
     username: username,
     ip: requestIp.getClientIp(req),
   });
 
-  const { status, profile } = await getUserApi(username);
+  const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
     log.error(
       profile.error,

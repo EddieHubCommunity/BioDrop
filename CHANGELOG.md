@@ -1,9 +1,9 @@
-## 1.94.20 (2023-03-07)
+# 1.103.0 (2023-03-28)
 
 
-### Bug Fixes
+### Features
 
-* broken link in how to docs ([#5287](https://github.com/EddieHubCommunity/LinkFree/issues/5287)) ([#5286](https://github.com/EddieHubCommunity/LinkFree/issues/5286)) ([655528e](https://github.com/EddieHubCommunity/LinkFree/commit/655528e12c1eb168223da95b112736a0675add2e))
+* map disable clear tag filter ([#5678](https://github.com/EddieHubCommunity/LinkFree/issues/5678)) ([8a14e99](https://github.com/EddieHubCommunity/LinkFree/commit/8a14e9917cb5557f7e376148f62413a6ec9f6f3f)), closes [#5588](https://github.com/EddieHubCommunity/LinkFree/issues/5588)
 
 
 

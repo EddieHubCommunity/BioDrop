@@ -1,6 +1,7 @@
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
 import { CalendarIcon } from "@heroicons/react/20/solid";
+
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 
 export default function Changelog() {
   const colors = {
@@ -8,6 +9,20 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Dedicated domain (url)",
+      description:
+        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      type: "addition",
+      date: "2023-03-12",
+    },
+    {
+      title: "Playground",
+      description:
+        "You can now test and preview your profile with any json changes",
+      type: "addition",
+      date: "2023-03-07",
+    },
     {
       title: "Accounts statistics summary",
       description:

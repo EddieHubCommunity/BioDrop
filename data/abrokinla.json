@@ -18,6 +18,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/abrokinla",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://araoye-portfolio.netlify.app/",
+      "icon": "FaBriefcase"
     }
   ]
 }

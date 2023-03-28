@@ -36,6 +36,12 @@
       "icon": "FaYoutube"
     },
     {
+      "group": "Coffee chat",
+      "name": "Book a coffee chat with me",
+      "url": "https://cal.com/toby-solutions/30min",
+      "icon": "FaCoffee"
+    },
+    {
       "group": "Sponsorship",
       "name": "Buy me a coffee",
       "url": "https://www.buymeacoffee.com/tobySolutions",
