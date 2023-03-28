@@ -7,9 +7,11 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/Shubham6803" },
     { "icon": "FaGithub", "url": "https://github.com/ShubhamMore6688" },
     { "icon": "SiHashnode", "url": "https://shubhammore.hashnode.dev/" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/shubham-more-31ba18253" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shubham-more-31ba18253"
+    }
   ],
-  
 
   "links": [
     {
@@ -33,5 +35,4 @@
       "icon": "FaLinkedin"
     }
   ]
- 
 }
