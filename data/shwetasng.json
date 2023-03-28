@@ -1,5 +1,20 @@
 {
   "name": "Shweta Singh",
   "type":"personal",
-  "bio":"student"
+  "bio":"student",
+  
+   "tags": [
+    "Open Source",
+    "WebDevelopment",
+    "Java",
+    "C",
+    "DevOps",
+    "Python"
+  ],
+  
+   "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Shweta_sng17" },
+    { "icon": "FaGithub", "url": "https://github.com/shwetasng" },
+   
+  ],
 }
