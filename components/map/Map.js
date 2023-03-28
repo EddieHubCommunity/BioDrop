@@ -18,6 +18,7 @@ export default function Map({ users }) {
 
         center={[0, 0]}
         zoom={2}
+        minZoom={2}
         zoomControl={true}
         scrollWheelZoom={false}
         maxBounds={boundsMap}

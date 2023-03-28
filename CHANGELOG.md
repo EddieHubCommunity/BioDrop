@@ -1,9 +1,9 @@
-## 1.102.9 (2023-03-26)
+# 1.103.0 (2023-03-28)
 
 
-### Bug Fixes
+### Features
 
-* removed extra space from testimonials ([#5648](https://github.com/EddieHubCommunity/LinkFree/issues/5648)) ([a47c4f2](https://github.com/EddieHubCommunity/LinkFree/commit/a47c4f23d4b10961aceb28b5c9fc6369f7bfe04b))
+* map disable clear tag filter ([#5678](https://github.com/EddieHubCommunity/LinkFree/issues/5678)) ([8a14e99](https://github.com/EddieHubCommunity/LinkFree/commit/8a14e9917cb5557f7e376148f62413a6ec9f6f3f)), closes [#5588](https://github.com/EddieHubCommunity/LinkFree/issues/5588)
 
 
 
