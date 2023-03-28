@@ -1,0 +1,27 @@
+{
+  "name" : "Suryansh Upadhyay",
+  "type" : "Personal",
+  "bio" : "Full-Stack Web Developer | Competitive Programmer ",
+  "links" : [
+    {
+      "name" : "Follow me on Twiiter",
+      "url" : "https://twitter.com/linneszyx",
+      "icon" : "FaTwiiter"
+    },
+     {
+      "name" : "Follow me on Instagram",
+      "url" : "https://www.instagram.com/linneszyx/",
+      "icon" : "FaInstagram"
+    },
+     {
+      "name" : "Follow me on Github",
+      "url" : "https://github.com/linneszyx",
+      "icon" : "FaGithub"
+    },
+     {
+      "name" : "LinkediIn",
+      "url" : "https://www.linkedin.com/in/suryansh-upadhyay/x",
+      "icon" : "FaLinkedIn"
+    }
+  ]
+}
