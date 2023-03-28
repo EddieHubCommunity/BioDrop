@@ -13,7 +13,7 @@ export default function Badge({
   onClick,
 }) {
   let css = "";
-  const cssTopRight = "top-0 right-0 bottom-auto left-auto";
+  const cssTopRight = "top-2 right-1 bottom-auto left-auto";
   const cssTopLeft = "top-0 left-0 bottom-auto right-auto";
   const cssBottomRight = "bottom-0 right-0 top-auto left-auto";
   const cssBottomLeft = "bottom-0 left-0 top-auto right-auto";
@@ -37,8 +37,8 @@ export default function Badge({
   const badge = (
     <div
       title={title}
-      className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold bg-orange-600 ${
-        disable ? "text-gray-500 bg-gray-200" : "text-black bg-orange-600"
+      className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold ${
+        disable ? "text-gray-100 bg-gray-300" : "text-black bg-orange-500"
       } rounded-full z-10 ${css} ${badgeClassName}`}
       onClick={() => (onClick ? onClick() : null)}
     >
