@@ -3,19 +3,25 @@
   "type": "personal",
   "bio": "**Frontend Developer**",
   "socials": [
-  { "icon": "FaTwitter", "url": "https://twitter.com/durga_prasad08" },
-  { "icon": "FaGithub", "url": "https://github.com/durgaprasad118" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/durga_prasad08" },
+    { "icon": "FaGithub", "url": "https://github.com/durgaprasad118" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/dp1108/" }
-],
-   "tags": [ "React Js", "Javascript", "Tailwind CSS", "CSS", "HTML",
-  "Git and GitHub" ],
- "links": [
+  ],
+  "tags": [
+    "React Js",
+    "Javascript",
+    "Tailwind CSS",
+    "CSS",
+    "HTML",
+    "Git and GitHub"
+  ],
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/durga_prasad08",
       "icon": "FaTwitter"
     },
-   {
+    {
       "name": "Let's collaborate on GitHub",
       "url": "https://github.com/durgaprasad118",
       "icon": "FaGithub"
