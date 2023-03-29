@@ -1,6 +1,5 @@
 import { BiSortAlt2 } from "react-icons/bi";
-
-import Link from "@components/Link";
+import Link from "../Link";
 
 export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
@@ -82,27 +81,10 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
   const getNested = (obj, args) => {
     return args.reduce((obj, level) => obj && obj[level], obj);
   };
-
-  return (
-    <div>
-      <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
-        <select
-          id="tabs"
-          name="tabs"
-          onChange={changeTab}
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-          defaultValue={tabs.find((tab) => tab.current).name}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
-          ))}
-        </select>
-      </div>
-      <div className="hidden sm:block">
-        <div className="border-b border-gray-200">
+ 
+  function MultipleTabsDisplay() {
+    return (
+      <div className="border-b border-gray-200">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
@@ -113,7 +95,7 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
                   tab.current
                     ? "border-indigo-500 text-indigo-600"
                     : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
-                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-4"
+                  "w-1/2 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-4"
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
@@ -148,6 +130,34 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
             ))}
           </nav>
         </div>
+    )
+  }
+  return (
+    <div>
+      <div className="sm:hidden">
+        {tabs.length === 1 ? (
+        < MultipleTabsDisplay />
+        ) : ( 
+          <div>
+              <label htmlFor="tabs" className="sr-only">
+              Select a tab
+            </label>
+            <select
+              id="tabs"
+              name="tabs"
+              onChange={changeTab}
+              className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+              defaultValue={tabs.find((tab) => tab.current).name}
+            >
+              {tabs.map((tab) => (
+                <option key={tab.name}>{tab.name}</option>
+              ))}
+            </select>
+          </div>
+      ) }
+      </div>
+      <div className="hidden sm:block">
+        < MultipleTabsDisplay />
       </div>
     </div>
   );
