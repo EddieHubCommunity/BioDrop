@@ -1,0 +1,14 @@
+{
+"name" : "Olaleye Oyewunmi",
+"type" : "personal",
+"bio" : "Physicist turned Frontend developer",
+"links" : [
+  {"name" : "Kindly follow me on Twitter",
+  "url": "https://twitter.com/Badboyjunny07"
+  "icon" : "FaTwitter"
+  },
+   {"name" : "Kindly follow me on LinkedIn",
+  "url": "https://www.linkedin.com/in/olaleye-oyewunmi-4967a5223"
+  "icon" : "FaLinkedin"
+  }
+]}
