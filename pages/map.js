@@ -112,7 +112,7 @@ export default function Map({ data }) {
           listed in their GitHub profile. New data points are added each time a
           profile is visited.
         </p>
-        <div className="flex flex-wrap items-center gap-2 justify-center mb-4">
+        <div className="flex flex-wrap justify-center mb-4">
           <Badge
             disable={selectedTags.size == 0 ? true : false}
             content={
