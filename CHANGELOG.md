@@ -1,9 +1,9 @@
-# 1.103.0 (2023-03-28)
+## 1.103.1 (2023-03-29)
 
 
-### Features
+### Bug Fixes
 
-* map disable clear tag filter ([#5678](https://github.com/EddieHubCommunity/LinkFree/issues/5678)) ([8a14e99](https://github.com/EddieHubCommunity/LinkFree/commit/8a14e9917cb5557f7e376148f62413a6ec9f6f3f)), closes [#5588](https://github.com/EddieHubCommunity/LinkFree/issues/5588)
+* map clear topics button ([#5701](https://github.com/EddieHubCommunity/LinkFree/issues/5701)) ([c875159](https://github.com/EddieHubCommunity/LinkFree/commit/c8751592649812b46ef761f2694e1a627565d350)), closes [#5681](https://github.com/EddieHubCommunity/LinkFree/issues/5681)
 
 
 
