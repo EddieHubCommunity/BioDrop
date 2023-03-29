@@ -1,0 +1,12 @@
+{
+  "name": "Suhel Khan",
+  "type": "personal",
+  "bio": "Junior Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/moonlight7k1",
+      "icon": "FaTwitter"
+    }
+  ]
+}
