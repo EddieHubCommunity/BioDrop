@@ -1,9 +1,9 @@
-## 1.102.7 (2023-03-25)
+## 1.103.1 (2023-03-29)
 
 
 ### Bug Fixes
 
-* nav links state not persisted with deep links ([#5197](https://github.com/EddieHubCommunity/LinkFree/issues/5197)) ([7894ee3](https://github.com/EddieHubCommunity/LinkFree/commit/7894ee335b519d67a1872730e905536379897adf))
+* map clear topics button ([#5701](https://github.com/EddieHubCommunity/LinkFree/issues/5701)) ([c875159](https://github.com/EddieHubCommunity/LinkFree/commit/c8751592649812b46ef761f2694e1a627565d350)), closes [#5681](https://github.com/EddieHubCommunity/LinkFree/issues/5681)
 
 
 
