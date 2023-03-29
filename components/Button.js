@@ -2,8 +2,8 @@ import Link from "./Link";
 
 export default function Button({
   text,
-  disable,
   primary = false,
+  disable,
   ...restProps
 }) {
   let className =

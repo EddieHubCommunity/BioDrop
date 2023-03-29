@@ -122,8 +122,8 @@ export default function Map({ data }) {
             <Button
               onClick={resetFilter}
               text="Clear/Reset Filters"
-              disable={selectedTags.size == 0 ? true : false}
               primary={false}
+              disable={selectedTags.size == 0 ? true : false}
             />
           </Badge>
           {tags &&
