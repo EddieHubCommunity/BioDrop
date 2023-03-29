@@ -11,12 +11,12 @@
     {
       "name": "My LinkedIn Profile",
       "url": "https://www.linkedin.com/in/roberatoye/",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "My GitHub Account",
       "url": "https://github.com/roberanegussie",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     }
   ]
 }
