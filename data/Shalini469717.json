@@ -1,18 +1,22 @@
 {
-	"name": "Shalini Muskula",
-	"type": "personal",
-	"bio": "Web Developer",
-	"links": [{
-		"name": "Twitter",
-		"url": "https://twitter.com/noname469717",
-		"icon": "FaTwitter"
-	}, {
-		"name": "LinkedIn",
-		"url": "https://www.linkedin.com/in/shalini-muskula-52323922a/",
-		"icon": "FaLinkedin"
-	}, {
-		"name": "Github",
-		"url": "https://github.com/Shalini469717",
-		"icon": "FaGithub"
-	}]
+  "name": "Shalini Muskula",
+  "type": "personal",
+  "bio": "Web Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/noname469717",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shalini-muskula-52323922a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Shalini469717",
+      "icon": "FaGithub"
+    }
+  ]
 }
