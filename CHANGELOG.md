@@ -1,9 +1,9 @@
-## 1.103.1 (2023-03-29)
+# 1.104.0 (2023-03-30)
 
 
-### Bug Fixes
+### Features
 
-* map clear topics button ([#5701](https://github.com/EddieHubCommunity/LinkFree/issues/5701)) ([c875159](https://github.com/EddieHubCommunity/LinkFree/commit/c8751592649812b46ef761f2694e1a627565d350)), closes [#5681](https://github.com/EddieHubCommunity/LinkFree/issues/5681)
+* profile progress bar ([#5713](https://github.com/EddieHubCommunity/LinkFree/issues/5713)) ([00a4fca](https://github.com/EddieHubCommunity/LinkFree/commit/00a4fcaaabf2a533e516761c463af1de752f3336)), closes [#5617](https://github.com/EddieHubCommunity/LinkFree/issues/5617) [#5496](https://github.com/EddieHubCommunity/LinkFree/issues/5496)
 
 
 
