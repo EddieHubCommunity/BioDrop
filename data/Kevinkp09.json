@@ -1,0 +1,23 @@
+{
+  "name": "Kevin Patel",
+  "type": "personal",
+  "bio": "Travel enthusiast & Web Developer",
+  
+  "links": [
+    {
+      "name": "Lets connect on Twitter",
+      "url": "https://twitter.com/kevinpatelkp384",
+      "icon": "FaTwitter"
+    },
+{
+      "name": "Lets connect on Linkedin",
+      "url":  "https://www.linkedin.com/in/kevin-patel-6b96a5201/",
+      "icon": "FaLinkedin"
+},
+    {
+    "name": "Lets Colloborate on Github",
+      "url":  "https://github.com/Kevinkp09",
+      "icon": "FaGithub"
+    }
+  ]
+}
