@@ -1,9 +1,9 @@
-## 1.87.2 (2023-02-14)
+# 1.104.0 (2023-03-30)
 
 
-### Bug Fixes
+### Features
 
-* `.dockerignore` ([#4774](https://github.com/EddieHubCommunity/LinkFree/issues/4774)) ([8612c2c](https://github.com/EddieHubCommunity/LinkFree/commit/8612c2ce98033beb9620f7644adcba48e2f1b2a5))
+* profile progress bar ([#5713](https://github.com/EddieHubCommunity/LinkFree/issues/5713)) ([00a4fca](https://github.com/EddieHubCommunity/LinkFree/commit/00a4fcaaabf2a533e516761c463af1de752f3336)), closes [#5617](https://github.com/EddieHubCommunity/LinkFree/issues/5617) [#5496](https://github.com/EddieHubCommunity/LinkFree/issues/5496)
 
 
 

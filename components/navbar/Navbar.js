@@ -1,12 +1,13 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-
-import NavLink from "./NavLink";
-import Link from "../Link";
-import app from "../../config/app.json";
 import Image from "next/legacy/image";
-import getIcon from "../Icon";
+
+import app from "@config/app.json";
+import NavLink from "@components/navbar/NavLink";
+import Link from "@components/Link";
+import getIcon from "@components/Icon";
+
 const FaGithub = getIcon("FaGithub");
 
 export default function Navbar() {
@@ -52,6 +53,10 @@ export default function Navbar() {
       name: "Docs",
       url: "/docs",
     },
+    {
+      name: "Playground",
+      url: "/playground",
+    },
   ];
 
   const authControls = () => (
@@ -88,7 +93,7 @@ export default function Navbar() {
   return (
     <div className="min-h-full" ref={navConRef}>
       <nav className=" relative top-0">
-        <div className=" z-30 bg-gray-800 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
+        <div className="z-30 bg-gray-800 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
@@ -98,6 +103,7 @@ export default function Navbar() {
                     alt="EddieHub logo"
                     width={32}
                     height={32}
+                    priority
                     onClick={() => setIsOpen(false)}
                   />
                 </Link>
@@ -105,14 +111,16 @@ export default function Navbar() {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink key={item.name} path={router.asPath} item={item} />
+                    <NavLink key={item.name} path={router.pathname} item={item} />
                   ))}
                 </div>
               </div>
             </div>
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
-                <span className="text-gray-400">v{app.version}</span>
+                <Link href="/changelog" className="text-gray-400">
+                  v{app.version}
+                </Link>
                 <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
@@ -176,14 +184,14 @@ export default function Navbar() {
             isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out  w-full`}
+          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {primary.map((item, index) => (
               <NavLink
                 key={index}
-                path={router.asPath}
+                path={router.pathname}
                 item={item}
                 mode="mobile"
                 setIsOpen={setIsOpen}
@@ -193,7 +201,9 @@ export default function Navbar() {
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
-                <span className="text-gray-400">v{app.version}</span>
+                <Link href="/changelog" className="text-gray-400">
+                  v{app.version}
+                </Link>
                 <div className="ml-3 mr-2 relative">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
