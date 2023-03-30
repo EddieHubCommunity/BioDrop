@@ -1,7 +1,7 @@
 {
-  "name": "Dinesh Kumar Lalam (test)",
+  "name": "Dinesh Kumar Lalam",
   "type": "personal",
-  "bio": "I've been coding simce few months. I mostly code in Java. A newbie to JavaScript!",
+  "bio": "I've been coding since few months. I mostly code in Java. A newbie to JavaScript. I also started writing blogs an hashnode as an initiative to learning in public.",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -12,6 +12,16 @@
       "name": "Follow me on GitHub",
       "url": "https://github.com/dineshlalam15",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Hey! Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/dinesh-kumar-lalam-2584a8207/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Look into my blogs here :)",
+      "url": "https://hashnode.com/@dineshlalam15",
+      "icon": "SiHashnode"
     }
   ]
 }
