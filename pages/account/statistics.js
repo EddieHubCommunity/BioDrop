@@ -49,7 +49,6 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
-  let progress
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
@@ -61,33 +60,36 @@ export async function getServerSideProps(context) {
     );
     data = await res.json();
 
-    let profileSections = [
-      "bio",
-      "links",
-      "milestones",
-      "tags",
-      "socials",
-      "location"
-    ]
 
-    progress = {
-      percentage:0,
-      missing:[]
-    }
-
-    progress.missing = profileSections.filter((property)=> !Object.keys(profile).includes(property) )
-    progress.percentage = (((profileSections.length - progress.missing.length) / profileSections.length)*100).toFixed(2) 
 
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
+  let profileSections = [
+    "bio",
+    "links",
+    "milestones",
+    "tags",
+    "socials",
+    "location",
+    "testimonials",
+  ];
+
+  let progress = {
+    percentage: 0,
+    missing: [],
+  };
+
+  progress.missing = profileSections.filter((property) => !Object.keys(profile).includes(property))
+  progress.percentage = (((profileSections.length - progress.missing.length) / profileSections.length) * 100).toFixed(2)
+
   return {
-    props: { session, data, profile, progress},
+    props: { session, data, profile, progress },
   };
 }
 
-export default function Statistics({ data, profile,progress }) { 
+export default function Statistics({ data, profile, progress }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -125,7 +127,7 @@ export default function Statistics({ data, profile,progress }) {
       />
 
       <Page>
-        <ProfileProgress progress={progress}/>
+        <ProfileProgress progress={progress} />
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} ({profile.username})
         </h1>
