@@ -1,0 +1,18 @@
+{
+  "name": "Shubham Yadav",
+  "type": "personal",
+  "bio": "Software Devloper",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shubham185y",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Shubham185y",
+      "icon": "FaGithub"
+    }
+    
+  ]
+}
