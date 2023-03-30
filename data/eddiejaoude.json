@@ -3,6 +3,14 @@
   "type": "personal",
   "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
 
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
     { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
