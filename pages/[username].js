@@ -13,6 +13,7 @@ import SingleLayout from "@components/layouts/SingleLayout";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
+import UserMeta from "@components/UserMeta";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -61,6 +62,8 @@ export default function User({ data, BASE_URL }) {
         ogImage={data.avatar}
         ogType="image/png"
       />
+
+      <UserMeta gAnalytics={data.gAnalytics} />
 
       <Page>
         <UserPage data={data} BASE_URL={BASE_URL} />
