@@ -1,0 +1,24 @@
+{ 
+"name": "Prasun Kundu",
+  "type": "personal",
+  "bio": "Electrical engineering grad who have a deep passion in **Cs and Softwares**. Learning new tech stacks by contributing in OpenSource"
+  "links": [
+  {
+  "name": "Follow me on Twitter",
+  "url": "https://twitter.com/Prasunkundu11",
+  "icon": "FaTwitter"
+},
+
+{ "name": "Follow me on Linkedin",
+  "url": "https://www.linkedin.com/in/prasun-kundu-b59009225/",
+  "icon": "FaLinkedin"
+},
+{ "name": "Follow me on Instagram",
+  "url": "https://www.instagram.com/_praasun/",
+  "icon": "FaInstagram",
+ {"name": "Follow me on Github",
+  "url": "https://github.com/PrasunKundu",
+  "icon": "FaGithub",
+}
+]
+}
