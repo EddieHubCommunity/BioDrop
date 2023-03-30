@@ -1,0 +1,15 @@
+{"name":"Apurva Basule",
+ "displayStatsPublic":true,
+ "type":"personal",
+ "bio":"i am a fullstack developer"
+ "avatar":"https://github.com/ApurvaBasule.png"
+ "links":[
+ {
+  "name":"follow me on twitter",
+ "url":"https://twitter.com/ApurvaBaule",
+ "icon":"FaTwitter"
+
+}
+ ]
+}
+
