@@ -1,8 +1,8 @@
 {
   "name": "Rohan Sharma",
   "type": "personal",
-  "bio": "Web Developer, Cybersecurity enthusiast"
-   "links": [
+  "bio": "Web Developer, Cybersecurity enthusiast",
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/therohanx",
@@ -25,3 +25,4 @@
     }
   ]
 }
+
