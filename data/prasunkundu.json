@@ -15,7 +15,8 @@
 },
 { "name": "Follow me on Instagram",
   "url": "https://www.instagram.com/_praasun/",
-  "icon": "FaInstagram",
+  "icon": "FaInstagram"
+}
  {"name": "Follow me on Github",
   "url": "https://github.com/PrasunKundu",
   "icon": "FaGithub",
