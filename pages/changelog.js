@@ -10,6 +10,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Profile QR code download",
+      description:
+        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      type: "addition",
+      date: "2023-03-31",
+    },
+    {
       title: "Dedicated domain (url)",
       description:
         "You can start using the shorter url linkfree.io, the previous domain still works also",
