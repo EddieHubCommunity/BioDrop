@@ -1,0 +1,23 @@
+{ "name": Prasun Kundu",
+ "displayStatsPublic": true,
+ "type": "personal",
+ "bio": "I am a fullstack developer and wanna be a digital nomad",
+"avatar": "https://github.com/PrasunKundu",
+"links": [
+{
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Prasunkundu11",
+      "icon": "FaTwitter"
+    },
+{
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_praasun/",
+      "icon": "FaInstagram"
+    },
+{
+      "name": "Follow me on Github",
+      "url": "https://github.com/PrasunKundu",
+      "icon": "FaGithubAlt"
+    },
+ ]
+}
