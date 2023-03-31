@@ -17,6 +17,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.13",
     "dotenv": "^16.0.3",
+    "file-saver": "^2.0.5",
     "leaflet": "^1.9.3",
     "leaflet.markercluster": "^1.5.3",
     "mongoose": "^6.9.0",
