@@ -1,9 +1,9 @@
-# 1.102.0 (2023-03-23)
+## 1.105.2 (2023-03-31)
 
 
-### Features
+### Bug Fixes
 
-* playground ui improvements ([#5554](https://github.com/EddieHubCommunity/LinkFree/issues/5554)) ([e43aace](https://github.com/EddieHubCommunity/LinkFree/commit/e43aace1d02d0b9a9cf23258ef60f7107eb3e092))
+* removed tab sorting ([#5742](https://github.com/EddieHubCommunity/LinkFree/issues/5742)) ([5590d64](https://github.com/EddieHubCommunity/LinkFree/commit/5590d64f473495368bcef9e6d16ab91049056f5f))
 
 
 
