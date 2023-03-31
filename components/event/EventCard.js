@@ -6,8 +6,8 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-import Link from "../Link";
-import FallbackImage from "../FallbackImage";
+import Link from "@components/Link";
+import FallbackImage from "@components/FallbackImage";
 
 export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
@@ -18,7 +18,7 @@ export default function EventCard({ event, username }) {
 
   return (
     <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-105 duration-500 ease-in-out"
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}

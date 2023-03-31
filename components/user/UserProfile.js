@@ -4,21 +4,21 @@ import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 
-import FallbackImage from "../FallbackImage";
+import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
-import Tag from "../Tag";
-import Link from "../Link";
-import Badge from "../Badge";
-import Button from "../Button";
+import Tag from "@components/Tag";
+import Link from "@components/Link";
+import Badge from "@components/Badge";
+import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
 
-  const downloadQR = () => {
-    const qrCode = document.getElementById("qrcode");
-    qrCode.toBlob((blob) => saveAs(blob, `linkfree-${data.username}.png`));
-  };
+  const downloadQR = () =>
+    document
+      .getElementById("qrcode")
+      .toBlob((blob) => saveAs(blob, `linkfree-${data.username}.png`));
 
   return (
     <>
