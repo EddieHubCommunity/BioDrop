@@ -2,17 +2,17 @@
   "name": "Nikhil T",
   "type": "personal",
   "bio": " ",
- 
- "Links": [
- {
- "name": "Follow me on Twitter :)",
- "url": "https://twitter.com/Nikhilfy",
- "icon": "FaTwitter"
- },
-{
- "name": "Follow me on Github :)",
- "url": "https://github.com/Nikhilfy",
- "icon": "FaGithubAlt"
- }
- ]
+
+  "Links": [
+    {
+      "name": "Follow me on Twitter :)",
+      "url": "https://twitter.com/Nikhilfy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github :)",
+      "url": "https://github.com/Nikhilfy",
+      "icon": "FaGithubAlt"
+    }
+  ]
 }
