@@ -1,17 +1,24 @@
 import React, { useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
-import { QRCodeSVG } from "qrcode.react";
+import { QRCodeCanvas } from "qrcode.react";
+import { saveAs } from "file-saver";
 
 import FallbackImage from "../FallbackImage";
 import UserSocial from "./UserSocials";
 import Tag from "../Tag";
 import Link from "../Link";
 import Badge from "../Badge";
+import Button from "../Button";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
   const fallbackImageSize = 120;
+
+  const downloadQR = () => {
+    const qrCode = document.getElementById("qrcode");
+    qrCode.toBlob((blob) => saveAs(blob, `linkfree-${data.username}.png`));
+  };
 
   return (
     <>
@@ -68,7 +75,16 @@ function UserProfile({ BASE_URL, data }) {
 
       <div className="flex justify-center my-4">
         {qrShow && (
-          <QRCodeSVG value={`${BASE_URL}/${data.username}`} size={fallbackImageSize * 2} />
+          <QRCodeCanvas
+            value={`${BASE_URL}/${data.username}`}
+            size={fallbackImageSize * 2}
+            id="qrcode"
+          />
+        )}
+      </div>
+      <div className="flex justify-center mb-4">
+        {qrShow && (
+          <Button text="Download QR code" primary={true} onClick={downloadQR} />
         )}
       </div>
     </>
