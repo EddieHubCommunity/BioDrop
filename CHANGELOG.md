@@ -1,9 +1,9 @@
-## 1.100.6 (2023-03-18)
+## 1.105.2 (2023-03-31)
 
 
 ### Bug Fixes
 
-* removed pull request link to issue check ([#5528](https://github.com/EddieHubCommunity/LinkFree/issues/5528)) ([1d791c7](https://github.com/EddieHubCommunity/LinkFree/commit/1d791c7f507ef92e6dcd54c46b7477173802cd0a))
+* removed tab sorting ([#5742](https://github.com/EddieHubCommunity/LinkFree/issues/5742)) ([5590d64](https://github.com/EddieHubCommunity/LinkFree/commit/5590d64f473495368bcef9e6d16ab91049056f5f))
 
 
 

@@ -1,10 +1,10 @@
 import fs from "fs";
 import path from "path";
 
-import connectMongo from "../../../config/mongo";
-import logger from "../../../config/logger";
-import Profile from "../../../models/Profile";
-import Stats from "../../../models/Stats";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
+import Stats from "@models/Stats";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
