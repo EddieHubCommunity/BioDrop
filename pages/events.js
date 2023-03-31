@@ -1,13 +1,9 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
-
 import logger from "@config/logger";
-import EventCard from "@components/event/EventCard";
-import Page from "@components/Page";
-import { EventTabs } from "@components/event/EventTabs";
-import PageHead from "@components/PageHead";
-import Badge from "@components/Badge";
+import { EventCard, Page, EventTabs, PageHead, Badge } from "@components";
+
 
 export async function getServerSideProps(context) {
   let events = [];

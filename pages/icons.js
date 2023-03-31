@@ -1,11 +1,8 @@
 import { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
+import { Alert, IconCard, Page, PageHead } from "@components";
 
-import Alert from "@components/Alert";
-import IconCard from "@components/IconCard";
-import Page from "@components/Page";
-import PageHead from "@components/PageHead";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);

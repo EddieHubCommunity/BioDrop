@@ -1,18 +1,15 @@
-import { IconContext } from "react-icons";
-import { FaRegComments } from "react-icons/fa";
+import { IconContext, FaRegComments } from "react-icons";
 import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
 import logger from "@config/logger";
-import Link from "@components/Link";
-import PageHead from "@components/PageHead";
-import SingleLayout from "@components/layouts/SingleLayout";
-import MultiLayout from "@components/layouts/MultiLayout";
-import Page from "@components/Page";
-import UserPage from "@components/user/UserPage";
+import { Link, PageHead, SingleLayout, MultiLayout, Page, UserPage } from "@components";
+
+
+import { getUserApi } from "./api/users/[username]/index";
+
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
