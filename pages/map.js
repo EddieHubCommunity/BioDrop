@@ -1,9 +1,7 @@
 import { useState } from "react";
 import {dynamic} from "next";
-
 import {logger} from "@config";
 import {Tag,Button,PageHead,Page,Badge} from "@components";
-
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {

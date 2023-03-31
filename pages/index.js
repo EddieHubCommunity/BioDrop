@@ -9,11 +9,10 @@ import {
   MdOutlineEditCalendar,
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
-
 import singleUser from "@config/user.json";
 import { getTodayStats,getTotalStats } from "./api/statistics";
 import {Link,PageHead,Button,Testimonials} from "@components";
-import BasicCards from "@components/statistics/BasicCards";
+import {BasicCards} from "@components/statistics";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {

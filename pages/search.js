@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import {UserCard} from "@components/user";
 import {Alert,Page,PageHead} from "@components";
 import {Tag,Badge} from "@components";
-import {logger} from "@config";
+import logger from "@config/logger";
 import {Input} from "@components/form";
 
 export async function getServerSideProps(context) {

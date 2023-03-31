@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
-
-import {logger} from "@config";
+import logger from "@config/logger";
 import {Page,PageHead,Badge }from "@components";
 import { EventTabs,EventCard } from "@components/event";
 

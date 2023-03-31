@@ -1,9 +1,7 @@
 import { useState } from "react";
-
 import {PageHead,Page,Alert,Button} from "@components";
-
 import {PreviewModal} from "@components/modals";
-import {Input} from "@components/form";
+import Input from "@components/form/Input";
 
 export default function Playground() {
   const [profileJson, setProfileJson] = useState("");
