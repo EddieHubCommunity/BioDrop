@@ -82,8 +82,77 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
     return args.reduce((obj, level) => obj && obj[level], obj);
   };
  
-  function MultipleTabsDisplay() {
-    return (
+  
+  return (
+    <div>
+      <div className="sm:hidden">
+        {tabs.length === 1 ? (
+        <div className="border-b border-gray-200">
+          <nav className="-mb-px flex" aria-label="Tabs">
+            {tabs.map((tab) => (
+              <Link
+                key={tab.name}
+                href={tab.href}
+                onClick={(e) => changeTab(e, tab.name)}
+                className={classNames(
+                  tab.current
+                    ? "border-indigo-500 text-indigo-600"
+                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
+                  "w-1/2 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-4"
+                )}
+                aria-current={tab.current ? "page" : undefined}
+              >
+                <span>
+                  {tab.name} ({tab.total})
+                </span>
+                {tab.current && (
+                  <BiSortAlt2
+                    size="20"
+                    className="hover:text-gray-400"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setTabs(
+                        tabs.map((tab) =>
+                          tab.current
+                            ? {
+                                ...tab,
+                                order: tab.order === "ASC" ? "DESC" : "ASC",
+                              }
+                            : { ...tab }
+                        )
+                      );
+                      sortUserTabItems(
+                        tab.name,
+                        tab.order === "ASC" ? "DESC" : "ASC"
+                      );
+                    }}
+                  />
+                )}
+              </Link>
+            ))}
+          </nav>
+        </div>
+        ) : ( 
+        <div>
+            <label htmlFor="tabs" className="sr-only">
+            Select a tab
+          </label>
+          <select
+            id="tabs"
+            name="tabs"
+            onChange={changeTab}
+            className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+            defaultValue={tabs.find((tab) => tab.current).name}
+          >
+            {tabs.map((tab) => (
+              <option key={tab.name}>{tab.name}</option>
+            ))}
+          </select>
+        </div>
+      ) }
+      </div>
+      <div className="hidden sm:block">
       <div className="border-b border-gray-200">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
@@ -130,34 +199,6 @@ export default function UserTabs({ tabs, setTabs, setUserData, userData }) {
             ))}
           </nav>
         </div>
-    )
-  }
-  return (
-    <div>
-      <div className="sm:hidden">
-        {tabs.length === 1 ? (
-        < MultipleTabsDisplay />
-        ) : ( 
-          <div>
-              <label htmlFor="tabs" className="sr-only">
-              Select a tab
-            </label>
-            <select
-              id="tabs"
-              name="tabs"
-              onChange={changeTab}
-              className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-              defaultValue={tabs.find((tab) => tab.current).name}
-            >
-              {tabs.map((tab) => (
-                <option key={tab.name}>{tab.name}</option>
-              ))}
-            </select>
-          </div>
-      ) }
-      </div>
-      <div className="hidden sm:block">
-        < MultipleTabsDisplay />
       </div>
     </div>
   );
