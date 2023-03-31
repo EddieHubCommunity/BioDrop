@@ -1,5 +1,6 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { unstable_getServerSession } from "next-auth/next";
+import ProgressBar from "@components/statistics/ProgressBar";
 
 import {
   BarChart,
@@ -48,6 +49,20 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
+  let profileSections = [
+    "bio",
+    "links",
+    "milestones",
+    "tags",
+    "socials",
+    "location",
+    "testimonials",
+  ];
+  let progress = {
+    percentage: 0,
+    missing: [],
+  };
+
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
@@ -62,12 +77,21 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
+  progress.missing = profileSections.filter(
+    (property) => !Object.keys(profile).includes(property)
+  );
+  progress.percentage = (
+    ((profileSections.length - progress.missing.length) /
+      profileSections.length) *
+    100
+  ).toFixed(0);
+
   return {
-    props: { session, data, profile },
+    props: { session, data, profile, progress },
   };
 }
 
-export default function Statistics({ data, profile }) {
+export default function Statistics({ data, profile, progress }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -105,6 +129,22 @@ export default function Statistics({ data, profile }) {
       />
 
       <Page>
+        <div className="w-full border p-4 my-6">
+          <span className="flex flex-row justify-between">
+            <span className="text-lg font-medium text-gray-600">
+              Profile Completion: {progress.percentage}%
+            </span>
+            {progress.missing.length > 0 && (
+              <span className="text-gray-400">
+                (missing sections in your profile are:{" "}
+                {progress.missing.join(",")})
+              </span>
+            )}
+          </span>
+
+          <ProgressBar progress={progress} />
+        </div>
+
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} ({profile.username})
         </h1>
