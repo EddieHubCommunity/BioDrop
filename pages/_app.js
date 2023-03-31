@@ -1,7 +1,7 @@
 import { SessionProvider } from "next-auth/react";
 
 import "../styles/globals.css";
-import MultiLayout from "@components/layouts/MultiLayout";
+import {MultiLayout} from "@components/layouts";
 
 export default function MyApp({
   Component,

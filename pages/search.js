@@ -1,14 +1,10 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-
-import UserCard from "@components/user/UserCard";
-import Alert from "@components/Alert";
-import Page from "@components/Page";
-import PageHead from "@components/PageHead";
-import Tag from "@components/Tag";
-import Badge from "@components/Badge";
+import {UserCard} from "@components/user";
+import {Alert,Page,PageHead} from "@components";
+import {Tag,Badge} from "@components";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import {Input} from "@components/form";
 
 export async function getServerSideProps(context) {
   let data = {

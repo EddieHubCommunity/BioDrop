@@ -6,13 +6,11 @@ import strip from "strip-markdown";
 
 import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
-import logger from "@config/logger";
-import Link from "@components/Link";
-import PageHead from "@components/PageHead";
-import SingleLayout from "@components/layouts/SingleLayout";
-import MultiLayout from "@components/layouts/MultiLayout";
-import Page from "@components/Page";
-import UserPage from "@components/user/UserPage";
+import {logger,Link,PageHead} from "@config";
+
+import {SingleLayout,MultiLayout} from "@components/layouts";
+import {Page} from "@components";
+import {UserPage} from "@components/user";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
