@@ -11,13 +11,9 @@ import {
 import { FaMedal } from "react-icons/fa";
 
 import singleUser from "@config/user.json";
-import { getTodayStats } from "./api/statistics/today";
-import { getTotalStats } from "./api/statistics/totals";
-import Link from "@components/Link";
-import PageHead from "@components/PageHead";
+import { getTodayStats,getTotalStats } from "./api/statistics";
+import {Link,PageHead,Button,Testimonials} from "@components";
 import BasicCards from "@components/statistics/BasicCards";
-import Button from "@components/Button";
-import Testimonials from "@components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
