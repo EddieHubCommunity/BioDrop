@@ -295,6 +295,15 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Community Resources",
+          path: "/docs/contributors-changelog",
+          description: "More information about Community Resources .",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
   ];
