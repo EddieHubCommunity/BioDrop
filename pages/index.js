@@ -129,7 +129,7 @@ export default function Home({ total, today }) {
       description: "Explore your Linkfree, profile views and URL hits",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
-      imageAlt: "LinkFree screenshot of /account/statistics page",
+      imageAlt: "LinkFree screenshot of account statistics page",
     },
     {
       name: "Your Milestones",
