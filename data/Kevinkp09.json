@@ -1,7 +1,15 @@
 {
   "name": "Kevin Patel",
   "type": "personal",
-  "bio": "Travel enthusiast & Web Developer",
+  "bio": "Open source enthusiast & Web Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "ReactJS",
+    "NodeJS",
+    "DevOps"
+  ],
 
   "links": [
     {
@@ -19,5 +27,16 @@
       "url": "https://github.com/Kevinkp09",
       "icon": "FaGithub"
     }
-  ]
+  ],
+  "milestones": [
+   {
+    "title": "Advanced to Azadi ka Amrut Mahotsav Hackathon's regional round.",
+    "date": "October 2022",
+    "icon": "FaLightbulb",
+    "color": "green",
+    "decription": "Succesfully advanced to Azadi ka Amrut Mahotsav Hackathon's regional round."
+  }
+]
+
+  
 }

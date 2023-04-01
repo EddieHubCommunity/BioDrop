@@ -11,12 +11,12 @@
     "DevRel"
   ],
   "socials": [
-   { "icon": "FaTwitter", "url": "https://twitter.com/VedPrak39212943" },
-   { "icon": "FaGithub", "url": "https://github.com/B2prakash" },
-   { "icon": "FaYoutube", "url": "https://youtube.com/vedprakash2431" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/VedPrak39212943" },
+    { "icon": "FaGithub", "url": "https://github.com/B2prakash" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/vedprakash2431" }
   ],
   "links": [
-     {
+    {
       "group": "Primary socials",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/vedprak39212943",
@@ -43,5 +43,5 @@
       "url": "https://github.com/B2prakash",
       "icon": "FaGithub"
     }
-  ]  
+  ]
 }
