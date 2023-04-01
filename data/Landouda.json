@@ -1,0 +1,12 @@
+{
+  "name": "Landouda",
+  "type": "personal",
+  "bio": " I am a software engineering student",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Landouda",
+      "icon": "FaGithub"
+    }
+  ]
+}
