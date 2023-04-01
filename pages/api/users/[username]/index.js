@@ -12,13 +12,62 @@ import findOneByUsernameFull from "@services/profiles/findOneByUsernameFull";
 import getLocation from "@services/profiles/getLocation";
 
 export default async function handler(req, res) {
-  if (req.method != "GET" || !req.query.username) {
+  const username = req.query.username;
+  if (!username) {
     return res
       .status(400)
-      .json({ error: "Invalid request: GET request required" });
+      .json({ error: "Invalid request: username is required" });
   }
 
-  const { status, profile } = await getUserApi(req, res, req.query.username);
+  if (req.method === "PUT") {
+    const session = await unstable_getServerSession(req, res, authOptions);
+    if (!session || session.username !== username) {
+      return res.status(401).json({
+        error: "Permission denied: cannot update somene else's profile",
+      });
+    }
+
+    await connectMongo();
+    const log = logger.child({ username });
+
+    let getProfile = await Profile.findOne({ username });
+    if (!getProfile) {
+      try {
+        getProfile = await Profile.create({
+          source: req.body.source,
+          username,
+          name: req.body.name,
+          bio: req.body.bio,
+        });
+        log.info(`profile created for username: ${username}`);
+      } catch (e) {
+        log.error(
+          e,
+          `failed to create profile stats for username: ${username}`
+        );
+      }
+    }
+
+    if (getProfile) {
+      try {
+        await Profile.updateOne(
+          {
+            username,
+          },
+          {
+            source: req.body.source,
+            name: req.body.name,
+            bio: req.body.bio,
+          }
+        );
+        log.info(`profile updated for username: ${username}`);
+      } catch (e) {
+        log.error(e, `failed to update profile for username: ${username}`);
+      }
+    }
+  }
+
+  const { status, profile } = await getUserApi(req, res, username);
   return res.status(status).json(profile);
 }
 
@@ -30,14 +79,15 @@ export async function getUserApi(req, res, username) {
     isOwner = true;
   }
 
-  const log = logger.child({ username: username });
-  const data = findOneByUsernameFull(username);
+  const log = logger.child({ username });
+  const data = await findOneByUsernameFull(username);
 
   if (!data.username) {
     logger.error(`failed loading profile username: ${username}`);
     return {
       status: 404,
       profile: {
+        sources: { available: [] },
         error: `${username} not found`,
       },
     };

@@ -4,11 +4,11 @@ import path from "path";
 import logger from "../../config/logger";
 import findOneByUsernameBasic from "./findOneByUsernameBasic";
 
-export default function findOneByUsernameFull(username) {
+export default async function findOneByUsernameFull(username) {
   let log;
   log = logger.child({ username: username });
 
-  let data = findOneByUsernameBasic(username);
+  let data = await findOneByUsernameBasic(username);
 
   if (!data.username) {
     log.error(`profile loading failed for username: ${username}`);
