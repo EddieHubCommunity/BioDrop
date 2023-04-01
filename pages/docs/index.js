@@ -92,6 +92,16 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Community Resources",
+          path: "/docs/community-resources",
+          description:
+            "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -290,15 +300,6 @@ export default function DocsIndex() {
           name: "FAQs",
           path: "/docs/faqs",
           description: "Commonly asked questions and answers.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Community Resources",
-          path: "/docs/contributors-changelog",
-          description: "More information about Community Resources .",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
