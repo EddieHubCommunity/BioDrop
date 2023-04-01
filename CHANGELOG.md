@@ -1,9 +1,9 @@
-## 1.106.1 (2023-04-01)
+# 1.107.0 (2023-04-01)
 
 
-### Bug Fixes
+### Features
 
-* community resources link ([#5773](https://github.com/EddieHubCommunity/LinkFree/issues/5773)) ([bc410e8](https://github.com/EddieHubCommunity/LinkFree/commit/bc410e8cadd990f93b672f086e88d2406418990c))
+* statistics screenshot features section ([#5775](https://github.com/EddieHubCommunity/LinkFree/issues/5775)) ([720311b](https://github.com/EddieHubCommunity/LinkFree/commit/720311b7b6ee8b0864819cdf3f4f1d6ffc8d19b2)), closes [#5771](https://github.com/EddieHubCommunity/LinkFree/issues/5771)
 
 
 
