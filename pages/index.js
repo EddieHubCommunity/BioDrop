@@ -125,7 +125,7 @@ export default function Home({ total, today }) {
       imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
-      name: "LinkFree Statistics ", 
+      name: "LinkFree Statistics", 
       description: "Explore your Linkfree, profile views and URL hits",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
