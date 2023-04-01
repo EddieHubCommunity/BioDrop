@@ -11,7 +11,7 @@
     "DevOps"
   ],
 
-  "Find Me Here": [
+  "links": [
     {
       "name": "Lets connect on Twitter",
       "url": "https://twitter.com/kevinpatelkp384",
@@ -28,7 +28,7 @@
       "icon": "FaGithub"
     }
   ],
-  "Milestones": [
+  "milestones": [
    {
     "title": "Advanced to Azadi ka Amrut Mahotsav Hackathon's regional round.",
     "date": "October 2022",
