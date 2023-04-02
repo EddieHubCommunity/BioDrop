@@ -197,6 +197,16 @@ export default function DocsIndex() {
             color: "bg-orange-100 text-orange-800",
           },
         },
+        {
+          name: "Google Analytics",
+          path: "/docs/how-to-guides/google-analytics",
+          description:
+            "Add a Google Analytics tag to get insights of your linkfree page.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {

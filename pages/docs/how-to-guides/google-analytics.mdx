@@ -1,0 +1,33 @@
+import DocsLayout from "../../../components/layouts/DocsLayout.js";
+import ClipboardCopy from "../../../components/ClipboardCopy";
+import Link from "../../../components/Link";
+
+## Google Analytics
+
+Add a Google Analytics tag to track analytics of your linkfree page.
+
+
+### Add Google Analytics tag
+
+1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
+
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
+
+2. Add a property called `gAnalytics` at the root of your json file which will contain Google Analytics tag, which will look like this:
+
+<ClipboardCopy>
+```js
+{
+  "gAnalytics": "G-XXXXXXXXXX"
+}
+```
+</ClipboardCopy>
+
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Google Analytics Documentation">
+    {children}
+  </DocsLayout>
+);
