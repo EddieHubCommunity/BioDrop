@@ -155,7 +155,7 @@ export default function Search({ data }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center mb-4">
+        <article className="flex flex-wrap justify-center mb-4">
           {Object.values(tags).length > 0 &&
             Object.values(tags)
               .slice(0, 10)
