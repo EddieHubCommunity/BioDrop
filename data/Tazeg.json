@@ -2,7 +2,19 @@
   "name": "JeffProd",
   "type": "personal",
   "bio": "Coding for fun",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Svelte",
+    "Golang"
+  ],
   "links": [
+    {
+      "name": "Web",
+      "url": "https://jeffprod.com",
+      "icon": "FaLink"
+    },
     {
       "name": "Twitter",
       "url": "https://twitter.com/jeffprod",
