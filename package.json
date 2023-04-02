@@ -23,6 +23,7 @@
     "mongoose": "^6.9.0",
     "next": "^13.1.6",
     "next-auth": "^4.18.10",
+    "next-themes": "^0.2.1",
     "octokit": "^2.0.11",
     "pino": "^8.8.0",
     "pino-pretty": "^9.1.1",

@@ -18,7 +18,7 @@ export default function EventCard({ event, username }) {
 
   return (
     <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-dark hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}
@@ -60,7 +60,7 @@ export default function EventCard({ event, username }) {
                   </div>
                 )}
               </div>
-              <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
+              <p className="text-sm text-gray-800 dark:text-gray-200 flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
                     new Date(event.date.start)
@@ -73,7 +73,7 @@ export default function EventCard({ event, username }) {
                   )}
                 </span>
               </p>
-              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
+              <ReactMarkdown className="text-sm text-gray-500 dark:text-gray-400 py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
               <p className="text-sm text-gray-800 py-1 flex gap-2 flex-wrap">
