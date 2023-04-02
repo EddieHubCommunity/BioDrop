@@ -60,6 +60,9 @@ export default function Search({ data }) {
       if (user.name.toLowerCase().includes(valueLower)) {
         return true;
       }
+      if (user.username.toLowerCase().includes(valueLower)) {
+        return true;
+      }
 
       let userTags = user.tags?.map((tag) => tag.toLowerCase());
 
