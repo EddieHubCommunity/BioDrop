@@ -3,7 +3,15 @@
   "type": "personal",
   "bio": "**Java Developer** | **Git + GitHub** | **Open Source Contributor at Mozilla** ",
 
-  "tags": ["Java", "Python", "SQL", "Backend Development", "Linux", "Mozilla", "Open Source"],
+  "tags": [
+    "Java",
+    "Python",
+    "SQL",
+    "Backend Development",
+    "Linux",
+    "Mozilla",
+    "Open Source"
+  ],
 
   "socials": [
     {

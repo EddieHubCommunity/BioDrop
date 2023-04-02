@@ -4,27 +4,32 @@
   "bio": "Open Source Enthusiast|Tech Blogger|Instructional Designer",
   "tags": ["Open Source", "Blogging", "Content Creation"],
   "links": [
-    {  "group": "Socials Secondary",
+    {
+      "group": "Socials Secondary",
       "name": "Follow me on GitHub",
       "url": "https://github.com/CBID2",
       "icon": "FaGithub"
     },
-    {  "group": "Socials Primary",
+    {
+      "group": "Socials Primary",
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/christinebelzie",
       "icon": "FaLinkedin"
     },
-    {  "group": "Blogs Primary",
+    {
+      "group": "Blogs Primary",
       "name": "Follow my tech blog",
       "url": "https://chrissycodes.hashnode.dev/",
       "icon": "SiHashnode"
     },
-    {  "group": "Socials Secondary",
+    {
+      "group": "Socials Secondary",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodesChrissy",
       "icon": "FaTwitter"
     },
-    {  "group": "Blogs Secondary",
+    {
+      "group": "Blogs Secondary",
       "name": "Follow me on Dev.to",
       "url": "https://dev.to/cbid2",
       "icon": "FaDev"
