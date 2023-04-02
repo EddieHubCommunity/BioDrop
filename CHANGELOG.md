@@ -1,9 +1,9 @@
-## 1.105.2 (2023-03-31)
+# 1.107.0 (2023-04-01)
 
 
-### Bug Fixes
+### Features
 
-* removed tab sorting ([#5742](https://github.com/EddieHubCommunity/LinkFree/issues/5742)) ([5590d64](https://github.com/EddieHubCommunity/LinkFree/commit/5590d64f473495368bcef9e6d16ab91049056f5f))
+* statistics screenshot features section ([#5775](https://github.com/EddieHubCommunity/LinkFree/issues/5775)) ([720311b](https://github.com/EddieHubCommunity/LinkFree/commit/720311b7b6ee8b0864819cdf3f4f1d6ffc8d19b2)), closes [#5771](https://github.com/EddieHubCommunity/LinkFree/issues/5771)
 
 
 

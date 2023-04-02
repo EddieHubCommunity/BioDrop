@@ -125,6 +125,13 @@ export default function Home({ total, today }) {
       imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
+      name: "LinkFree Statistics", 
+      description: "View details of your LinkFree profile, with views and url clicks",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
+      imageAlt: "LinkFree screenshot of account statistics page",
+    },
+    {
       name: "Your Milestones",
       description:
         "Demonstrate the highlights of your career by adding Milestones to your Profile.",
