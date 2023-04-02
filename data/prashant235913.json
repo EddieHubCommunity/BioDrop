@@ -1,9 +1,9 @@
 {
   "name": "Prashant Mishra",
   "type": "personal",
-  "bio": "Discovering tech.Learing about Devops",
+  "bio": "Discovering tech. Learning about Devops",
   "links": [
-      {
+    {
       "name": "I'll see you on Twitter",
       "url": "https://twitter.com/EatandCode",
       "icon": "FaTwitter"
@@ -17,6 +17,6 @@
       "name": "I'll see you on Linkedin",
       "url": "https://www.linkedin.com/in/prashant-mishra-78a91b14a/",
       "icon": "FaLinkedin"
-    },
+    }
   ]
 }
