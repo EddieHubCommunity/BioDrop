@@ -1,9 +1,9 @@
-# 1.107.0 (2023-04-01)
+# 1.108.0 (2023-04-02)
 
 
 ### Features
 
-* statistics screenshot features section ([#5775](https://github.com/EddieHubCommunity/LinkFree/issues/5775)) ([720311b](https://github.com/EddieHubCommunity/LinkFree/commit/720311b7b6ee8b0864819cdf3f4f1d6ffc8d19b2)), closes [#5771](https://github.com/EddieHubCommunity/LinkFree/issues/5771)
+* search includes username ([#5795](https://github.com/EddieHubCommunity/LinkFree/issues/5795)) ([1b0adff](https://github.com/EddieHubCommunity/LinkFree/commit/1b0adff340e298680ac28ff0b73100f6171e26dd))
 
 
 
