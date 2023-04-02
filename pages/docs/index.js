@@ -92,6 +92,16 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Community Resources",
+          path: "/docs/community-resources",
+          description:
+            "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -194,6 +204,15 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
+          name: "Maintainers",
+          path: "/docs/contributing/maintainers",
+          description: "Guidelines for reviewing Issues and Pull Requests",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
+          },
+        },
+        {
           name: "Storybook",
           path: "/docs/contributing/storybook",
           description:
@@ -237,7 +256,7 @@ export default function DocsIndex() {
           name: "Labels",
           path: "/docs/contributing/labels",
           description:
-            "We use labels to display various information about the issue, for example: is it ready for development or is it still waiting for the maintainers to review, the complexity of the issue and more.",
+            "We use labels to display various information about the issue (for example: is it ready for development or is it still waiting for the maintainers to review), the complexity of the issue (with points) and more.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",

@@ -1,9 +1,9 @@
-# 1.104.0 (2023-03-30)
+# 1.107.0 (2023-04-01)
 
 
 ### Features
 
-* profile progress bar ([#5713](https://github.com/EddieHubCommunity/LinkFree/issues/5713)) ([00a4fca](https://github.com/EddieHubCommunity/LinkFree/commit/00a4fcaaabf2a533e516761c463af1de752f3336)), closes [#5617](https://github.com/EddieHubCommunity/LinkFree/issues/5617) [#5496](https://github.com/EddieHubCommunity/LinkFree/issues/5496)
+* statistics screenshot features section ([#5775](https://github.com/EddieHubCommunity/LinkFree/issues/5775)) ([720311b](https://github.com/EddieHubCommunity/LinkFree/commit/720311b7b6ee8b0864819cdf3f4f1d6ffc8d19b2)), closes [#5771](https://github.com/EddieHubCommunity/LinkFree/issues/5771)
 
 
 
