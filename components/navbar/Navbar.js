@@ -152,7 +152,7 @@ export default function Navbar() {
 
   return (
     <div className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 dark:bg-dark-medium">
+      <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -249,7 +249,7 @@ export default function Navbar() {
             isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
+          } md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -267,7 +267,7 @@ export default function Navbar() {
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
                 {renderThemeChanger()}
-                <Link href="/changelog" className="text-gray-400">
+                <Link href="/changelog" className="text-primary-low">
                   v{app.version}
                 </Link>
                 <div className="ml-3 mr-2 relative">

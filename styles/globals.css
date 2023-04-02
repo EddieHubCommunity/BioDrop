@@ -23,7 +23,7 @@ code.language-unknown::before, code.language-unknown::after {
 
 @layer base{
   body {
-    @apply dark:bg-gray-800 dark:text-white bg-white text-black
+    @apply dark:bg-primary-high dark:text-white bg-white text-black
   }
   h1,h2,h3,h4,h5,h6{
     @apply dark:text-white
@@ -32,10 +32,10 @@ code.language-unknown::before, code.language-unknown::after {
     @apply dark:text-white
   }
   td{
-    @apply dark:text-gray-300
+    @apply dark:text-primary-low
   }
   code{
-    @apply dark:text-gray-300
+    @apply dark:text-primary-low 
   }
 }
 

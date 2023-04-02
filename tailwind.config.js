@@ -10,14 +10,15 @@ module.exports = {
       colors: {
         primary: {
           // slate
-          low: "rgb(226 232 240)",
-          medium: "rgb(100 116 139)",
-          high: "rgb(15 23 42)",
+          low: "rgb(249 250 251)",
+          medium: "#233042",
+          high: "rgb(17 24 39)",
         },
         secondary: {
           // purple
           low: "rgb(165 180 252)",
-          high: "rgb(79 70 229)",
+          medium: "rgb(79 70 229)",
+          high: "rgb(67 56 202)",
         },
         tertiary: {
           // orange
