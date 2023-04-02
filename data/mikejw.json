@@ -2,13 +2,8 @@
   "name": "Mike Whiting",
   "type": "personal",
   "bio": "Senior Frontend Developer",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "Typescript",
-    "DevOps"
-  ],
-   "socials": [
+  "tags": ["Open Source", "Javascript", "Typescript", "DevOps"],
+  "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/mikejw" },
     { "icon": "FaGithub", "url": "https://github.com/mikejw" },
     { "icon": "FaInstagram", "url": "https://www.instagram.com/mikejw9000" }
@@ -23,5 +18,6 @@
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/mikeyjw",
       "icon": "FaLinkedin"
-    }]
+    }
+  ]
 }

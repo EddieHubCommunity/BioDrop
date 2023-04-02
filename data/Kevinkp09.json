@@ -29,14 +29,12 @@
     }
   ],
   "milestones": [
-   {
-    "title": "Advanced to Azadi ka Amrut Mahotsav Hackathon's regional round.",
-    "date": "October 2022",
-    "icon": "FaLightbulb",
-    "color": "green",
-    "decription": "Succesfully advanced to Azadi ka Amrut Mahotsav Hackathon's regional round."
-  }
-]
-
-  
+    {
+      "title": "Advanced to Azadi ka Amrut Mahotsav Hackathon's regional round.",
+      "date": "October 2022",
+      "icon": "FaLightbulb",
+      "color": "green",
+      "decription": "Succesfully advanced to Azadi ka Amrut Mahotsav Hackathon's regional round."
+    }
+  ]
 }
