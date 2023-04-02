@@ -125,8 +125,9 @@ export default function Home({ total, today }) {
       imageAlt: "LinkFree screenshot of links section of an example profile",
     },
     {
-      name: "LinkFree Statistics", 
-      description: "View details of your LinkFree profile, with views and url clicks",
+      name: "LinkFree Statistics",
+      description:
+        "View details of your LinkFree profile, with views and url clicks",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
       imageAlt: "LinkFree screenshot of account statistics page",
@@ -206,10 +207,14 @@ export default function Home({ total, today }) {
     <>
       <PageHead />
 
-      <div className="bg-gray-50 dark:drop-shadow-none dark:bg-gray-800 mb-8 p-8 drop-shadow-md">
+      <div className="bg-gray-50 dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
-          <span className="text-4xl font-bold text-indigo-600">LinkFree</span>
-          <span className="text-2xl dark:text-gray-300 text-gray-500">100% Open Source</span>
+          <span className="text-4xl font-bold text-secondary-high">
+            LinkFree
+          </span>
+          <span className="text-2xl dark:text-primary-low text-gray-500">
+            100% Open Source
+          </span>
         </h2>
         <BasicCards
           data={[

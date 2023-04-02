@@ -2,7 +2,7 @@ import Link from "@components/Link";
 
 export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =
-    "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+    "text-gray-300 hover:ring-2 hover:ring-gray-700 dark:hover:ring-dark-low hover:text-white px-3 py-2 rounded-md text-sm font-medium";
 
   if (mode === "mobile") {
     className =
