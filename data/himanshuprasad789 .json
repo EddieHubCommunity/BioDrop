@@ -1,0 +1,23 @@
+{
+  "name": "Himanshu Prasad",
+  "type": "personal",
+  "bio": "Curiousity got me weaving the web, I am a fullstack developer",
+  "avatar":"https://media4.giphy.com/media/VbnUQpnihPSIgIXuZv/giphy.gif?cid=ecf05e47j7mu1kh87nu3b9078ym8vg84if4dunruylfrlyux&rid=giphy.gif&ct=g",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/himanshu_web",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/himanshhuu_10/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/himanshuprasad789/",
+      "icon": "FaGithub"
+    }
+  ]
+}
