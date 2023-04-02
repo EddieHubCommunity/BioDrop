@@ -1,25 +1,25 @@
 {
   "name": "Ankur Agarwal",
   "type": "personal",
-  "bio": "Google DSC Lead | MLSA | Student Placement Coordinator | MERN Stack Developer | IIIT Kota",
+  "bio": "MLH Prep Fellow'23 | MLSA | Google DSC Lead'22 | Student Placement Coordinator | Open Source Contributor | MERN Stack Developer | Speaker",
 
   "tags": [
+    "C++",
+    "Python",
     "Javascript",
     "ReactJS",
     "NodeJS",
     "ExpressJS",
     "MongoDB",
     "Docker",
-    "Open Source"
+    "Community",
+    "Open Source",
+    "Linux"
   ],
   "socials": [
     {
       "icon": "FaGlobe",
       "url": "https://www.theankur.tech"
-    },
-    {
-      "icon": "SiInstagram",
-      "url": "https://www.instagram.com/ankur_agarwal_246/"
     },
     {
       "icon": "FaTwitter",
@@ -32,36 +32,53 @@
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/ankur-8"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/ankur_agarwal_246/"
     }
   ],
   "links": [
     {
-      "name": "Portfolio Website",
-      "url": "https://www.theankur.tech",
-      "icon": "SiProgress"
-    },
-    {
-      "name": "Follow me on Twitter",
+      "group":"Socials",
+      "name": "Let's connect on Twitter",
       "url": "https://twitter.com/_Ankur_Agarwal_",
       "icon": "FaTwitter"
     },
     {
-      "name": "GitHub: Happy to collab in open source projects",
-      "url": "https://github.com/Ankur6702",
-      "icon": "FaGithub"
-    },
-    {
+      "group":"Socials",
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/ankur-8/",
       "icon": "FaLinkedin"
     },
     {
+      "group":"Socials",
+      "name": "GitHub: Happy to collab in open source projects",
+      "url": "https://github.com/Ankur6702",
+      "icon": "FaGithub"
+    },
+    {
+      "group":"Socials",
+      "name": "Portfolio Website",
+      "url": "https://www.theankur.tech",
+      "icon": "SiProgress"
+    },
+    {
+      "group":"Socials",
       "name": "Instagram",
       "url": "https://www.instagram.com/ankur_agarwal_246/",
       "icon": "FaInstagram"
     }
   ],
   "milestones": [
+    {
+      "title": "MLH Prep Fellow'23",
+      "date": "2023",
+      "icon": "FaMicrosoft",
+      "color": "black",
+      "description": "Got selected in MLH Fellowship after thorough application and interview process",
+      "url": "https://fellowship.mlh.io/"
+    },
     {
       "title": "Microsoft Learn Student Ambassador",
       "date": "2023",
