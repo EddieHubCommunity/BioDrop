@@ -27,7 +27,9 @@ export default function Navbar() {
   const navConRef = useRef();
 
   const renderThemeChanger = () => {
-    if (!mounted) return null;
+    if (!mounted) {
+      return null;
+    }
 
     const currentTheme = theme === 'system' ? systemTheme : theme;
 
@@ -219,11 +221,10 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${
-            isOpen
-              ? "transform translate-y-0 opacity-100"
-              : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
+          className={`${isOpen
+            ? "transform translate-y-0 opacity-100"
+            : "transform -translate-y-96 opacity-0 "
+            } md:hidden z-20 absolute t-0 bg-gray-800 transition-all duration-700 ease-in-out w-full`}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -240,7 +241,7 @@ export default function Navbar() {
           <div className="pt-4 pb-3 border-t border-gray-700">
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
-              {renderThemeChanger()}
+                {renderThemeChanger()}
                 <Link href="/changelog" className="text-gray-400">
                   v{app.version}
                 </Link>
