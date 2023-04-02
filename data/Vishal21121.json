@@ -1,9 +1,9 @@
 {
   "name": "Vishal Singh",
- 
+
   "type": "personal",
   "bio": "A full stack developer and a student pursuing B.Tech",
-  
+
   "links": [
     {
       "name": "GitHub",
@@ -16,12 +16,12 @@
       "icon": "FaTwitter"
     },
     {
-       "name": "Linkedin",
+      "name": "Linkedin",
       "url": "https://www.linkedin.com/in/vishal21121/",
       "icon": "FaLinkedin"
     },
-     {
-       "name": "Hashnode",
+    {
+      "name": "Hashnode",
       "url": "https://hashnode.com/@vishal21121",
       "icon": "SiHashnode"
     }
