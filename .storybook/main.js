@@ -1,14 +1,22 @@
 const config = {
-  stories: ["../stories/**/*.stories.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
-  addons: ["@storybook/addon-essentials", "@storybook/addon-a11y", "@tomfreudenberg/next-auth-mock/storybook", "@storybook/addon-mdx-gfm"],
+  stories: [
+    "../stories/**/*.stories.mdx",
+    "../stories/**/*.stories.@(js|jsx|ts|tsx)"
+  ],
+  addons: [
+    "@storybook/addon-essentials",
+    "@storybook/addon-a11y",
+    "@tomfreudenberg/next-auth-mock/storybook",
+    "@storybook/addon-mdx-gfm"
+  ],
   staticDirs: ["../public"],
   framework: {
     name: "@storybook/nextjs",
-    options: {}
+    options: {},
   },
-  env: config => ({
+  env: (config) => ({
     ...config,
-    STORYBOOK_RUN: true
-  })
+    STORYBOOK_RUN: true,
+  }),
 };
 export default config;
