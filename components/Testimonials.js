@@ -8,7 +8,7 @@ export default function Testimonials({ data }) {
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-secondary-medium dark:text-secondary-medium">
             Testimonials
           </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low">
             What people are saying about LinkFree...
           </p>
         </div>
@@ -22,18 +22,18 @@ export default function Testimonials({ data }) {
                   </blockquote>
                   <figcaption className="mt-6 flex items-center gap-x-4">
                     <img
-                      className="h-10 w-10 rounded-full bg-gray-50"
+                      className="h-10 w-10 rounded-full bg-primary-low"
                       src={testimonial.image}
                       alt={`Profile picture for ${testimonial.name}`}
                     />
                     <div>
                       <Link
-                        className="font-semibold text-primary-high dark:text-gray-300"
+                        className="font-semibold text-primary-high dark:text-white"
                         href={`/${testimonial.username}`}
                       >
                         {testimonial.name} ({`@${testimonial.username}`})
                       </Link>
-                      <div className="text-gray-600 dark:text-gray-400">{testimonial.bio}</div>
+                      <div className="text-primary-medium dark:text-primary-low-medium">{testimonial.bio}</div>
                     </div>
                   </figcaption>
                 </figure>
