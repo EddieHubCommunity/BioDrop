@@ -123,10 +123,10 @@ export default function Navbar() {
     <>
       {!session && (
         <NavLink
-          item={{ name: "Login", url: "" }}
+          item={{ name: "Login", url: "/login" }}
+          setIsOpen={setIsOpen}
           onClick={(e) => {
             e.preventDefault();
-            setIsOpen(false);
             signIn();
           }}
         />
@@ -136,14 +136,12 @@ export default function Navbar() {
         <>
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
-            onClick={() => setIsOpen(false)}
+            setIsOpen={setIsOpen}
           />
           <NavLink
             item={{ name: "Logout", url: "/" }}
-            onClick={() => {
-              setIsOpen(false);
-              signOut();
-            }}
+            setIsOpen={setIsOpen}
+            onClick={() => signOut()}
           />
         </>
       )}
@@ -175,6 +173,7 @@ export default function Navbar() {
                       key={item.name}
                       path={router.pathname}
                       item={item}
+                      setIsOpen={setIsOpen}
                     />
                   ))}
                 </div>
@@ -183,9 +182,10 @@ export default function Navbar() {
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
-                <Link href="/changelog" className="text-gray-400">
-                  v{app.version}
-                </Link>
+                <NavLink
+                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  setIsOpen={setIsOpen}
+                />
                 <div className="relative">
                   <a
                     href="https://github.com/EddieHubCommunity/LinkFree"
@@ -267,9 +267,10 @@ export default function Navbar() {
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
                 {renderThemeChanger()}
-                <Link href="/changelog" className="text-primary-low">
-                  v{app.version}
-                </Link>
+                <NavLink
+                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  setIsOpen={setIsOpen}
+                />
                 <div className="ml-3 mr-2 relative">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
