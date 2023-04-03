@@ -40,31 +40,31 @@
   ],
   "links": [
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Let's connect on Twitter",
       "url": "https://twitter.com/_Ankur_Agarwal_",
       "icon": "FaTwitter"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/ankur-8/",
       "icon": "FaLinkedin"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "GitHub: Happy to collab in open source projects",
       "url": "https://github.com/Ankur6702",
       "icon": "FaGithub"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Portfolio Website",
       "url": "https://www.theankur.tech",
       "icon": "SiProgress"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Instagram",
       "url": "https://www.instagram.com/ankur_agarwal_246/",
       "icon": "FaInstagram"
