@@ -12,7 +12,7 @@ module.exports = {
           // slate
           "low": "rgb(249 250 251)",
           "low-medium":"rgb(209 213 219)",
-          "medium": "#233042",
+          "medium": "rgb(35,48,66)",
           "high": "rgb(17 24 39)",
         },
         secondary: {
