@@ -19,7 +19,7 @@ export default function UserTabs({ tabs, setTabs }) {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        {tabs.length>1 && 
+        {tabs.length>1 && // if tabs contains more than one options, then show dropdown menu
         <select
           id="tabs"
           name="tabs"
@@ -32,8 +32,11 @@ export default function UserTabs({ tabs, setTabs }) {
           ))}
         </select>
         }
-        {tabs.length==1 && 
-          <div class="border-b border-gray-200"><nav class="-mb-px flex" style={{justifyContent: "center"}}aria-label="Tabs"><Link rel="noreferrer" class="border-indigo-500 text-indigo-600 w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm" aria-current="page" href="/dhruvilmehta#">My Links ({tabs[0].total})</Link></nav></div>
+        {tabs.length==1 && // if tabs has only links in it, then no dropdown is needed
+          <div className="border-b border-gray-200 flex justify-center">
+            <div className="border-b-2 border-indigo-500 text-indigo-600 py-4 px-1 text-center border-b-2 font-medium text-sm">My Links ({tabs[0].total})
+            </div>
+          </div>
         }
       </div>
       <div className="hidden sm:block">
