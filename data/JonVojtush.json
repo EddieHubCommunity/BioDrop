@@ -1,0 +1,135 @@
+{
+  "name": "Jonathan (Jon) Vojtush",
+  "type": "personal",
+  "bio": "Technical Business Analyst in Healthcare",
+  "tags": [
+    "JavaScript",
+    "SQL",
+    "Python",
+    "PHP",
+    "CSS",
+    "HTML",
+    "XML",
+    "BASH",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/JonVojtush"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jonvojtush/"
+    }
+  ],
+  "testimonials": [
+    "bethDubyak",
+    "rickPollick"
+  ],
+  "links": [
+    {
+      "group": "Social",
+      "name": "GitHub",
+      "url": "https://github.com/JonVojtush",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Social",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jonvojtush/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social",
+      "name": "Fosstodon",
+      "url": "https://fosstodon.org/@jvojtushjr",
+      "icon": "FaMastodon"
+    },
+    {
+      "group": "Social",
+      "name": "Pixelfed",
+      "url": "https://pixelfed.social/i/web/profile/409936547239403305",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Social",
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/jonathanvojtush",
+      "icon": "FaHackerrank"
+    },
+    {
+      "group": "Usernames",
+      "name": "Discord: JVojtush#5003",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Support Me",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/JonVojtush",
+      "icon": "FaRegMoneyBillAlt"
+    },
+    {
+      "group": "Support Me",
+      "name": "Buy Me A Coffee",
+      "url": "https://www.buymeacoffee.com/jvojtushjr",
+      "icon": "FaRegMoneyBillAlt"
+    },
+    {
+      "group": "Support Me",
+      "name": "ETH: 0x7531d86D5Dbda398369ec43205F102e79B3c647A",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Support Me",
+      "name": "BTC: bc1qtkuzp85vph7y37rqjlznuta293qsay07cgg90s",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Support Me",
+      "name": "LTC: ltc1q9pquzquaj6peplygqdrcxxvcnd5fcud7x80lh8",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Support Me",
+      "name": "DOGE: DNQ3GHBVEcNpzXNeB7B4sPqd7L1GhUpMg3",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Support Me",
+      "name": "Traveling Mailbox (Affiliate)",
+      "url": "https://travelingmailbox.com/?ref=844&campaign=EddieHub",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    
+    {
+      "title": "Created this page.",
+      "date": "March 2023",
+      "icon": "",
+      "color": "green",
+      "description": "",
+      "url": ""
+    },
+    {
+      "isGoal": true,
+      "title": "Transition to full time software developer from Business Analyst.",
+      "date": "",
+      "icon": "",
+      "color": "red",
+      "description": "",
+      "url": ""
+    }
+  ]
+}
