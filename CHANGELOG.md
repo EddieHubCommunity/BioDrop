@@ -1,9 +1,9 @@
-# 1.108.0 (2023-04-02)
+## 1.108.3 (2023-04-03)
 
 
-### Features
+### Bug Fixes
 
-* search includes username ([#5795](https://github.com/EddieHubCommunity/LinkFree/issues/5795)) ([1b0adff](https://github.com/EddieHubCommunity/LinkFree/commit/1b0adff340e298680ac28ff0b73100f6171e26dd))
+* consistency in the manifest ([#5752](https://github.com/EddieHubCommunity/LinkFree/issues/5752)) ([5a8bab7](https://github.com/EddieHubCommunity/LinkFree/commit/5a8bab784c17fdf05f22a5d997da18b18d5e7970))
 
 
 
