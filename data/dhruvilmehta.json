@@ -1,7 +1,8 @@
 {
   "name": "Dhruvil Mehta",
   "type": "personal",
-  "bio": "A Student Passionate about Programming"
+  "bio": "Full Stack Engineer",
+
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -9,8 +10,13 @@
       "icon": "FaTwitter"
     },
     {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dhruvilmehta",
+      "icon": "FaGithub"
+    },
+    {
       "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/dhruvil_mehta_/",
+      "url": "https://www.instagram.com/dhruvil_mehta_",
       "icon": "FaInstagram"
     }
   ]

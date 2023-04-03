@@ -12,13 +12,14 @@ export default function UserTabs({ tabs, setTabs }) {
       )
     );
   };
-
+  
   return (
     <div>
       <div className="sm:hidden">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
+        {tabs.length>1 && 
         <select
           id="tabs"
           name="tabs"
@@ -30,6 +31,10 @@ export default function UserTabs({ tabs, setTabs }) {
             <option key={tab.name}>{tab.name}</option>
           ))}
         </select>
+        }
+        {tabs.length==1 && 
+          <div class="border-b border-gray-200"><nav class="-mb-px flex" style={{justifyContent: "center"}}aria-label="Tabs"><Link rel="noreferrer" class="border-indigo-500 text-indigo-600 w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm" aria-current="page" href="/dhruvilmehta#">My Links ({tabs[0].total})</Link></nav></div>
+        }
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
