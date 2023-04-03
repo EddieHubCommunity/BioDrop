@@ -7,7 +7,6 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
     "@tomfreudenberg/next-auth-mock/storybook",
-    "@storybook/addon-mdx-gfm"
   ],
   staticDirs: ["../public"],
   framework: {
@@ -20,4 +19,4 @@ const config = {
   }),
 };
 
-export default config;
+export default config
