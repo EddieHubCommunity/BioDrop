@@ -1,17 +1,19 @@
 import { useState } from "react";
 
-import getIcon from "../Icon";
-import colors from "../../config/icons.json";
-import Link from "../Link";
+import getIcon from "@components/Icon";
+import colors from "@config/icons.json";
+import Link from "@components/Link";
 
-export default function UserLink({
-  BASE_URL,
-  link,
-  username,
-  displayStatsPublic,
-}) {
+export default function UserLink({ BASE_URL, link, username }) {
   const [clicks, setClicks] = useState(link.clicks || 0);
   const DisplayIcon = getIcon(link.icon);
+  let aria = "";
+
+  try {
+    aria = link.icon.slice(2);
+  } catch (e) {
+    aria = "Globe";
+  }
 
   return (
     <Link
@@ -27,10 +29,9 @@ export default function UserLink({
       onClick={() => setClicks(clicks + 1)}
     >
       <span style={{ color: colors[link.icon] }}>
-        <DisplayIcon aria-label={`${link.icon.slice(2)} icon`}/>
+        <DisplayIcon aria-label={`${aria} icon`} />
       </span>
       <span className="grow">{link.name}</span>
-      {displayStatsPublic && <span>{clicks}</span>}
     </Link>
   );
 }

@@ -1,11 +1,11 @@
 {
   "name": "Vaishnav Jois",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Tech Enthusiast |.| **Revamping personality to repurpose life** |.| Always on the 0.0.0.0 and 127.0.0.1 |.| ",
+  "bio": "// **Tech Enthusiast** // **Revamping personality to repurpose life** // Always on the 0.0.0.0 and 127.0.0.1 // ",
   "links": [
     {
-      "name": "Follow me on Twitter [Don't hate me. I love memes there]",
+      "group": "Socials",
+      "name": "Follow me on Twitter",
       "url": "https://twitter.com/VaishnavJois",
       "icon": "SiTwitter"
     },
@@ -15,9 +15,15 @@
       "icon": "SiGithub"
     },
     {
+      "group": "Socials",
       "name": "Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/vaishnavjois/",
       "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "GitHub Sponsors : Donate",
+      "url": "https://github.com/sponsors/VaishnavJois/",
+      "icon": "SiGithubsponsors"
     }
   ]
 }

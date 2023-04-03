@@ -1,4 +1,4 @@
-import UserLink from "../../../components/user/UserLink";
+import UserLink from "@components/user/UserLink";
 
 export default {
   component: UserLink,
@@ -10,8 +10,8 @@ export const Basic = {
       url: "https://www.youtube.com",
       clicks: 2,
       name: "My youtube channel",
+      icon: "FaYoutube",
     },
     username: "test",
-    displayStatsPublic: true,
-  }
+  },
 };

@@ -1,5 +1,6 @@
 name: Storybook
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -7,11 +8,15 @@ on:
       - pages/**
       - components/**
       - stories/**
+      - .storybook/**
+      - package.json
   pull_request:
     paths:
       - pages/**
       - components/**
       - stories/**
+      - .storybook/**
+      - package.json
 
 permissions:
   contents: read
@@ -37,7 +42,7 @@ jobs:
         run: npm run build-storybook
 
       - name: Upload artifact
-        if: github.event_name == 'push'
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v1
         with:
           path: './storybook-static'
@@ -48,7 +53,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
+    if: github.event_name != 'pull_request'
     needs: build
     steps:
       - name: Deploy to GitHub Pages

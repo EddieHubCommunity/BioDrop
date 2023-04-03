@@ -1,7 +1,6 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
 
   "tags": [
@@ -18,6 +17,8 @@
     { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
   ],
   "testimonials": [
+    "FrancescoXX",
+    "loftwah",
     "sagarbangade",
     "KrishChopra22",
     "MadhuSaini22",
@@ -25,7 +26,11 @@
     "CBID2",
     "Akshu-on-github",
     "ZeeMonk-pixel",
-    "krupalitrivedi"
+    "krupalitrivedi",
+    "shubhsharma19",
+    "Shukla007",
+    "tobySolutions",
+    "Njong392"
   ],
   "links": [
     {
@@ -96,7 +101,7 @@
       "icon": "FaMastodon"
     },
     {
-      "name": "GitHub Sponsors: Donate",
+      "name": "Donate: GitHub Sponsors",
       "url": "https://github.com/sponsors/eddiejaoude",
       "icon": "FaRegMoneyBillAlt"
     }

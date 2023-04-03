@@ -1,7 +1,6 @@
 {
   "name": "Gaurav Burande",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Full stack JavaScript Developer | JavaScript, React, TailwindCSS, FireBase | Open Source Collaborator",
 
   "tags": [
@@ -18,7 +17,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/gauravvan" },
     { "icon": "FaGithub", "url": "https://github.com/GauravBurande" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/gaurav-burande-1a769b250" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/gaurav-burande-1a769b250"
+    }
   ],
   "links": [
     {

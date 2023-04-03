@@ -1,5 +1,5 @@
 import UserMilestone from "./UserMilestone";
-import Alert from "../Alert";
+import Alert from "@components/Alert";
 
 export default function UserMilestones({ data }) {
   const historicMilestones = data.milestones.filter(
@@ -12,7 +12,7 @@ export default function UserMilestones({ data }) {
   return (
     <>
       {!data.milestones && <Alert type="info" message="No milestones found" />}
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-gray-200 mt-4">
         {data.milestones &&
           historicMilestones.map((milestone, key) => (
             <UserMilestone milestone={milestone} isGoal={false} key={key} />
@@ -25,7 +25,7 @@ export default function UserMilestones({ data }) {
         </div>
       )}
 
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-gray-200 mt-4">
         {futureMilestones.map((goal, key) => (
           <UserMilestone milestone={goal} isGoal={true} key={key} />
         ))}

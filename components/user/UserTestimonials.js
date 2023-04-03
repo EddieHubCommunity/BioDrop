@@ -1,8 +1,8 @@
-import Image from "next/image";
-import Link from "../Link"
-import Alert from "../Alert";
-import FallbackImage from "../FallbackImage";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+
+import Link from "@components/Link";
+import Alert from "@components/Alert";
+import FallbackImage from "@components/FallbackImage";
 
 export default function UserTestimonials({ data }) {
   return (
@@ -18,7 +18,7 @@ export default function UserTestimonials({ data }) {
           >
             <div className="flex items-center sm:px-4">
               <div className="w-20 h-20">
-                <Image
+                <FallbackImage
                   width={100} // just to pass nextjs error
                   height={100}
                   src={`https://github.com/${testimonial.username}.png`}
@@ -31,7 +31,7 @@ export default function UserTestimonials({ data }) {
                   {testimonial.title}
                 </h3>
                 <Link href={testimonial.url} target="_blank">
-                  {testimonial.username}
+                  @{testimonial.username}
                 </Link>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function UserTestimonials({ data }) {
                   {testimonial.title}
                 </h3>
                 <Link href={testimonial.url} target="_blank">
-                  {testimonial.username}
+                  @{testimonial.username}
                 </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-gray-500">

@@ -1,0 +1,13 @@
+{
+  "userStatus": "speaking",
+  "speakerDetails": "Kubernetes Observability with eBPF",
+  "isInPerson": true,
+  "color": "red",
+  "name": "State of Open Con",
+  "description": "A two-day conference in **London, UK**, revolving around topics such as **Open source**, **Kubernetes**, **Edge Computing**, **Machine Learning**, **Dev/GitOps**, **Observability**, **Security**, and **Cloud Native Transformation**, where I will be delivering a workshop on Kubernetes Observability with **eBPF**.",
+  "date": {
+    "start": "2023-02-07T08:30:00.000-05:00",
+    "end": "2023-02-08T17:30:00.000-05:00"
+  },
+  "url": "https://stateofopencon.com/"
+}
