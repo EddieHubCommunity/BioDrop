@@ -2,10 +2,10 @@ import Link from "./Link";
 
 export default function Testimonials({ data }) {
   return (
-    <div className="bg-white dark:bg-gray-800 pt-0 pb-24">
+    <div className="bg-white dark:bg-primary-high pt-0 pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
+          <h2 className="text-lg font-semibold leading-8 tracking-tight text-secondary-medium dark:text-secondary-medium">
             Testimonials
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-300">
@@ -16,8 +16,8 @@ export default function Testimonials({ data }) {
           <div className="-mt-8 sm:-mx-4">
             {data.map((testimonial) => (
               <div key={testimonial.username} className="pt-8">
-                <figure className="rounded-2xl bg-gray-50 dark:bg-dark p-8 text-sm leading-6">
-                  <blockquote className="text-gray-900 dark:text-gray-300 italic">
+                <figure className="rounded-2xl bg-primary-low dark:bg-primary-medium p-8 text-sm leading-6">
+                  <blockquote className="text-primary-high dark:text-primary-low italic">
                     <p>{`“${testimonial.text}”`}</p>
                   </blockquote>
                   <figcaption className="mt-6 flex items-center gap-x-4">
@@ -28,7 +28,7 @@ export default function Testimonials({ data }) {
                     />
                     <div>
                       <Link
-                        className="font-semibold text-gray-900 dark:text-gray-300"
+                        className="font-semibold text-primary-high dark:text-gray-300"
                         href={`/${testimonial.username}`}
                       >
                         {testimonial.name} ({`@${testimonial.username}`})
