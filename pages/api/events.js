@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {

@@ -1,5 +1,6 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { unstable_getServerSession } from "next-auth/next";
+import ProgressBar from "@components/statistics/ProgressBar";
 
 import {
   BarChart,
@@ -11,19 +12,17 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import logger from "../../config/logger";
-import Alert from "../../components/Alert";
-import Page from "../../components/Page";
-import PageHead from "../../components/PageHead";
-import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
-import BasicCards from "../../components/statistics/BasicCards";
+import { getUserApi } from "../api/users/[username]";
+import logger from "@config/logger";
+import Alert from "@components/Alert";
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
+import BasicCards from "@components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {
-  const session = await unstable_getServerSession(
-    context.req,
-    context.res,
-    authOptions
-  );
+  const { req, res } = context;
+  const session = await unstable_getServerSession(req, res, authOptions);
 
   if (!session) {
     return {
@@ -34,18 +33,13 @@ export async function getServerSideProps(context) {
     };
   }
   const username = session.username;
-
-  let profile = {};
-  try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+  const { status, profile } = await getUserApi(req, res, username);
+  if (status !== 200) {
+    logger.error(
+      profile.error,
+      `profile loading failed for username: ${username}`
     );
-    profile = await resUser.json();
-  } catch (e) {
-    logger.error(e, `profile loading failed for username: ${username}`);
-  }
 
-  if (!profile.username) {
     return {
       redirect: {
         destination: "/account/no-profile",
@@ -55,6 +49,20 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
+  let profileSections = [
+    "bio",
+    "links",
+    "milestones",
+    "tags",
+    "socials",
+    "location",
+    "testimonials",
+  ];
+  let progress = {
+    percentage: 0,
+    missing: [],
+  };
+
   try {
     const res = await fetch(
       `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
@@ -69,12 +77,21 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
+  progress.missing = profileSections.filter(
+    (property) => !Object.keys(profile).includes(property)
+  );
+  progress.percentage = (
+    ((profileSections.length - progress.missing.length) /
+      profileSections.length) *
+    100
+  ).toFixed(0);
+
   return {
-    props: { session, data, profile },
+    props: { session, data, profile, progress },
   };
 }
 
-export default function Statistics({ data, profile }) {
+export default function Statistics({ data, profile, progress }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -112,6 +129,22 @@ export default function Statistics({ data, profile }) {
       />
 
       <Page>
+        <div className="w-full border p-4 my-6">
+          <span className="flex flex-row justify-between">
+            <span className="text-lg font-medium text-gray-600">
+              Profile Completion: {progress.percentage}%
+            </span>
+            {progress.missing.length > 0 && (
+              <span className="text-gray-400">
+                (missing sections in your profile are:{" "}
+                {progress.missing.join(",")})
+              </span>
+            )}
+          </span>
+
+          <ProgressBar progress={progress} />
+        </div>
+
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} ({profile.username})
         </h1>

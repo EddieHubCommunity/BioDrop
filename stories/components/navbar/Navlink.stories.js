@@ -1,4 +1,4 @@
-import NavLink from "../../../components/navbar/NavLink";
+import NavLink from "@components/navbar/NavLink";
 
 export default {
   component: NavLink,

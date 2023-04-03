@@ -2,10 +2,19 @@
   "name": "Sooraj Sathyanarayanan",
   "type": "personal",
   "bio": "Security & Privacy Researcher, International Chess Player♟️",
+  "tags": ["Open Source", "Javascript", "Python"],
   "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/soorajsathyanarayanan"
+    },
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/iAnonymous3000"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/ianonymous3000"
     },
     {
       "icon": "FaGithub",
@@ -18,19 +27,19 @@
   ],
   "links": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/iAnonymous3000",
-      "icon": "FaTwitter"
+      "name": "Secure your Data using these Tools",
+      "url": "https://alternativeto.net/list/34604/cyberverse",
+      "icon": "FaShieldAlt"
     },
     {
-      "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/soorajsathyanarayanan",
-      "icon": "FaLinkedin"
+      "name": "Direct Message on Matrix",
+      "url": "https://matrix.to/#/@ianonymous:matrix.org",
+      "icon": "SiMatrix"
     },
     {
-      "name": "GitHub",
-      "url": "https://github.com/iAnonymous3000",
-      "icon": "FaGithub"
+      "name": "Must Read Books",
+      "url": "https://www.goodreads.com/review/list/161492675?shelf=to-read&sort=position&order=a",
+      "icon": "SiGoodreads"
     },
     {
       "name": "Blog",

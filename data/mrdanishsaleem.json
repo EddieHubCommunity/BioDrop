@@ -38,6 +38,11 @@
       "name": "Dev",
       "url": "https://dev.to/mrdanishsaleem",
       "icon": "FaDev"
+    },
+    {
+      "name": "Showwcase",
+      "url": "https://www.showwcase.com/mrdanishsaleem",
+      "icon": "FaBriefcase"
     }
   ]
 }

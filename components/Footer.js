@@ -1,4 +1,4 @@
-import Link from "../components/Link";
+import Link from "@components/Link";
 import getIcon from "./Icon";
 const FaMoneyBillAlt = getIcon("FaMoneyBillAlt");
 const FaRocket = getIcon("FaRocket");

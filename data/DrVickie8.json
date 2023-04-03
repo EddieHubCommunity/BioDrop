@@ -1,23 +1,13 @@
 {
   "name": "Victoria Johnson",
   "type": "personal",
-  "bio": "Software developer with a love for user-friendly and responsive websites",
+  "bio": "Frontend developer | Technical writer",
+  
+  "tags": [
+    "Open Source",
+    "Javascript"
+  ],
   "links": [
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/EdikanVickie",
-      "icon": "FaTwitter"
-    },
-    {
-      "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/vickie_edikan/",
-      "icon": "FaInstagram"
-    },
-    {
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/victoriaedjohnson/",
-      "icon": "FaLinkedin"
-    },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/DrVickie8",

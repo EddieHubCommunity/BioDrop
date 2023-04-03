@@ -15,7 +15,8 @@
     "AWS",
     "Azure",
     "Azure DevOps",
-    "Elastic Stack"
+    "Elastic Stack",
+    "Vault"
   ],
   "socials": [
     {
@@ -145,6 +146,14 @@
       "color": "green",
       "description": "Associate Level Certification from HashiCorp",
       "url": "https://www.credly.com/badges/a1c8b1cb-7d77-44ff-90ab-922d0efd9502/public_url"
+    },
+    {
+      "title": "HashiCorp Certified: Vault Operations Professional",
+      "date": "March 2023 - March 2025",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "Professional Level Certification from HashiCorp",
+      "url": "https://www.credly.com/badges/955828a6-8bb9-429a-88e0-6bc0844102d9/public_url"
     },
     {
       "title": "Microsoft Certified: Azure Administrator Associate",
