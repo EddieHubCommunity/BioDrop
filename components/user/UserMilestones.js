@@ -1,5 +1,5 @@
 import UserMilestone from "./UserMilestone";
-import Alert from "../Alert";
+import Alert from "@components/Alert";
 
 export default function UserMilestones({ data }) {
   const historicMilestones = data.milestones.filter(

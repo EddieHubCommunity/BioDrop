@@ -1,7 +1,4 @@
-import Link from "../components/Link";
 import Image from "next/image";
-import { getTodayStats } from "./api/statistics/today";
-import { getTotalStats } from "./api/statistics/totals";
 import { IconContext } from "react-icons";
 import {
   MdOutlinePlayArrow,
@@ -13,11 +10,14 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import PageHead from "../components/PageHead";
-import singleUser from "../config/user.json";
-import BasicCards from "../components/statistics/BasicCards";
-import Button from "../components/Button";
-import Testimonials from "../components/Testimonials";
+import singleUser from "@config/user.json";
+import { getTodayStats } from "./api/statistics/today";
+import { getTotalStats } from "./api/statistics/totals";
+import Link from "@components/Link";
+import PageHead from "@components/PageHead";
+import BasicCards from "@components/statistics/BasicCards";
+import Button from "@components/Button";
+import Testimonials from "@components/Testimonials";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -123,6 +123,13 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
       imageAlt: "LinkFree screenshot of links section of an example profile",
+    },
+    {
+      name: "LinkFree Statistics", 
+      description: "View details of your LinkFree profile, with views and url clicks",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
+      imageAlt: "LinkFree screenshot of account statistics page",
     },
     {
       name: "Your Milestones",

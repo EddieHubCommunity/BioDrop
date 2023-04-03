@@ -1,6 +1,7 @@
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
 import { CalendarIcon } from "@heroicons/react/20/solid";
+
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 
 export default function Changelog() {
   const colors = {
@@ -8,6 +9,20 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Profile progress bar",
+      description:
+        "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
+    },
+    {
+      title: "Profile QR code download",
+      description:
+        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      type: "addition",
+      date: "2023-03-31",
+    },
     {
       title: "Dedicated domain (url)",
       description:

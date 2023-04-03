@@ -1,7 +1,7 @@
-import connectMongo from "../../../config/mongo";
-import logger from "../../../config/logger";
-import Profile from "../../../models/Profile";
-import findAllBasic from "../../../services/profiles/findAllBasic";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
+import findAllBasic from "@services/profiles/findAllBasic";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
