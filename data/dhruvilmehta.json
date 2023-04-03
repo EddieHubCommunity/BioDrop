@@ -1,0 +1,17 @@
+{
+  "name": "Dhruvil Mehta",
+  "type": "personal",
+  "bio": "A Student Passionate about Programming"
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dhruvilmehta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/dhruvil_mehta_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
