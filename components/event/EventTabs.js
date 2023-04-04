@@ -39,7 +39,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 className={classNames(
                   tab.key === eventType
                     ? "border-indigo-500 text-indigo-600"
-                    : "border-transparent text-gray-500 dark:text-gray-400 dark:hover:text-gray-300 hover:text-gray-700 hover:border-gray-300",
+                    : "border-transparent text-primary-medium dark:text-gray-400 dark:hover:text-gray-300 hover:text-primary-medium hover:border-gray-300",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}
                 aria-current={tab.key === eventType ? "page" : undefined}

@@ -131,7 +131,7 @@ export default function Statistics({ data, profile, progress }) {
       <Page>
         <div className="w-full border p-4 my-6">
           <span className="flex flex-row justify-between">
-            <span className="text-lg font-medium text-gray-600">
+            <span className="text-lg font-medium text-primary-medium">
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
@@ -160,7 +160,7 @@ export default function Statistics({ data, profile, progress }) {
             <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
-            <p className="mt-1 text-sm text-gray-500">
+            <p className="mt-1 text-sm text-primary-medium">
               How many profile visits you got per day. You have{" "}
               {abbreviateNumber(data.profile.monthly)} Profile views in the last
               30 days with a total of {abbreviateNumber(data.profile.total)}.
@@ -203,7 +203,7 @@ export default function Statistics({ data, profile, progress }) {
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high sm:pl-6">
                     {link.url}
                   </td>
-                  <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium">
                     {abbreviateNumber(link.clicks)}
                   </td>
                 </tr>

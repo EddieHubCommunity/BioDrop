@@ -39,7 +39,7 @@ export default function NoProfile() {
               <h2 className="text-4xl font-bold tracking-tight text-primary-high">
                 Your LinkFree Profile does not exist yet
               </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-700">
+              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium">
                 Please follow the QuickStart guide to create your Profile
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">

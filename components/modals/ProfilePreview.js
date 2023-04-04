@@ -14,10 +14,10 @@ export default function Preview({ toggle, data }) {
         {/* <!-- Modal content --> */}
         <div class="relative bg-white text-primary-high rounded-lg">
           {/* <!-- Modal header --> */}
-          <div class="flex items-start justify-between p-4  rounded-t border-gray-600">
+          <div class="flex items-start justify-between p-4  rounded-t border-primary-medium">
             <button
               type="button"
-              class="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-gray-600 hover:text-white"
+              class="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-primary-medium hover:text-white"
               data-modal-hide="defaultModal"
               onClick={toggle}
             >

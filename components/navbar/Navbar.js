@@ -204,7 +204,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-offset-2"
+                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-primary-medium focus:outline-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >
@@ -263,7 +263,7 @@ export default function Navbar() {
               />
             ))}
           </div>
-          <div className="pt-4 pb-3 border-t border-gray-700">
+          <div className="pt-4 pb-3 border-t border-primary-medium">
             <div className="flex items-center px-5">
               <div className="flex items-center md:ml-6">
                 {renderThemeChanger()}
