@@ -13,7 +13,7 @@ export default function Button({
         ? " text-white bg-secondary-medium hover:bg-secondary-high"
         : " text-secondary-medium dark:text-secondary-high dark:hover:text-secondary-low dark:bg-secondary-low hover:bg-secondary-medium dark:hover:bg-secondary-medium")
     : (className += disable
-        ? " border-2 border-red bg-gray-50 hover:bg-gray-50 text-gray-200 cursor-not-allowed"
+        ? " border-2 border-red bg-primary-low hover:bg-primary-low text-primary-low cursor-not-allowed"
         : " cursor-pointer");
 
   const link = (

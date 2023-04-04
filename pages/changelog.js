@@ -82,7 +82,7 @@ export default function Changelog() {
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
         <div className="overflow-hidden bg-white shadow sm:rounded-md">
-          <ul role="list" className="divide-y divide-gray-200">
+          <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">

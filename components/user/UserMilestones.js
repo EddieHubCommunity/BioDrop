@@ -25,7 +25,7 @@ export default function UserMilestones({ data }) {
         </div>
       )}
 
-      <ul role="list" className="divide-y divide-gray-200 mt-4">
+      <ul role="list" className="divide-y divide-primary-low mt-4">
         {futureMilestones.map((goal, key) => (
           <UserMilestone milestone={goal} isGoal={true} key={key} />
         ))}

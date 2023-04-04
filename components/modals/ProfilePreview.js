@@ -8,7 +8,7 @@ export default function Preview({ toggle, data }) {
       id="defaultModal"
       tabindex="-1"
       aria-hidden="true"
-      class="fixed top-0 left-0 right-0 z-50  w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full bg-gray-200/50"
+      class="fixed top-0 left-0 right-0 z-50  w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full bg-primary-low/50"
     >
       <div class="relative w-full h-full max-w-5xl md:h-auto mx-auto shadow-2xl">
         {/* <!-- Modal content --> */}

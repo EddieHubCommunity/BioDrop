@@ -156,7 +156,7 @@ export default function Statistics({ data, profile, progress }) {
         <BasicCards data={cardData} />
 
         <div className="border my-6">
-          <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
+          <div className="border-b border-primary-low bg-white px-4 py-5 mb-2 sm:px-6">
             <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
@@ -180,7 +180,7 @@ export default function Statistics({ data, profile, progress }) {
         </div>
 
         <table className="min-w-full divide-y divide-primary-low-medium">
-          <thead className="bg-gray-50">
+          <thead className="bg-primary-low">
             <tr>
               <th
                 scope="col"
@@ -196,7 +196,7 @@ export default function Statistics({ data, profile, progress }) {
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 bg-white">
+          <tbody className="divide-y divide-primary-low bg-white">
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
