@@ -2,9 +2,9 @@
   "name": "Aditya Chaudhary",
   "type": "personal",
   "bio": "Web Developer | DevOps | Open Source",
-  
+
   "tags": ["Web Developer", "Open Source", "DevOps"],
-   "socials": [
+  "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/aditya_script"
