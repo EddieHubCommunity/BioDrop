@@ -12,13 +12,14 @@ export default function UserTabs({ tabs, setTabs }) {
       )
     );
   };
-
+  
   return (
     <div>
       <div className="sm:hidden">
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
+        {tabs.length>1 && // if tabs contains more than one options, then show dropdown menu
         <select
           id="tabs"
           name="tabs"
@@ -30,6 +31,13 @@ export default function UserTabs({ tabs, setTabs }) {
             <option key={tab.name}>{tab.name}</option>
           ))}
         </select>
+        }
+        {tabs.length==1 && // if tabs has only links in it, then no dropdown is needed
+          <div className="border-b border-gray-200 flex justify-center">
+            <div className="border-b-2 border-indigo-500 text-indigo-600 py-4 px-1 text-center border-b-2 font-medium text-sm">My Links ({tabs[0].total})
+            </div>
+          </div>
+        }
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-gray-200">
