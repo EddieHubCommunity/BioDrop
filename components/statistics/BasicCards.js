@@ -12,14 +12,14 @@ export default function BasicCards({ data }) {
               className="overflow-hidden rounded-lg bg-white dark:bg-primary-medium px-4 py-5 shadow sm:p-6"
               key={item.name}
             >
-              <dt className="truncate text-sm font-medium text-gray-500 dark:text-primary-low">
+              <dt className="truncate text-sm font-medium text-primary-medium dark:text-primary-low-medium">
                 {item.name}
               </dt>
               <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
                 <div className="flex items-baseline text-2xl font-semibold text-secondary-high dark:text-secondary-low">
                   {abbreviateNumber(item.current)}
                   {item.total && (
-                    <span className="ml-2 text-sm font-medium text-gray-500 dark:text-primary-low">
+                    <span className="ml-2 text-sm font-medium text-primary-medium dark:text-primary-low-medium">
                       <span title={item.total}>
                         from {abbreviateNumber(item.total)}
                       </span>
