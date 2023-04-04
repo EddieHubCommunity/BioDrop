@@ -43,7 +43,7 @@ export default function EventCard({ event, username }) {
                   key={event.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-lg lg:text-xl tracking-wide font-medium capitalize hover:underline"
+                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
                 >
                   {event.name}
                 </Link>
