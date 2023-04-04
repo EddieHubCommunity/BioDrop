@@ -1,7 +1,7 @@
 {
   "name": "dybran",
   "type": "personal",
-  "bio": "I am a DevOps Engineer - passionate about learning, sharing knowledge, collabration and i embrace new challenges ",
+  "bio": "I am a **DevOps Engineer** - passionate about learning, sharing knowledge, collabration and i embrace new challenges ",
   "links": [
     {
       "name": "Twitter",
@@ -12,6 +12,11 @@
       "name": "Github",
       "url": "https://github.com/dybran",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect - Linkedin",
+      "url": "https://www.linkedin.com/in/solomon-onwuasoanya-55b41180",
+      "icon": "FaLinkedin"
     }
   ]
 }
