@@ -7,7 +7,7 @@ export default function Link({ children, className, rel, ...restProps }) {
       className={
         `${className
           ? className
-          : "text-blue-600 underline decoration-dotted dark:text-blue-500 hover:underline hover:decoration-solid"} hover:underline`
+          : "text-blue-600 underline decoration-dotted dark:text-blue-500 hover:decoration-solid"} hover:underline`
       }
       {...restProps}
     >
