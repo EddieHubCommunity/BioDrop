@@ -27,10 +27,7 @@
       "url": "https://www.linkedin.com/in/jonvojtush/"
     }
   ],
-  "testimonials": [
-    "bethDubyak",
-    "rickPollick"
-  ],
+  "testimonials": ["bethDubyak", "rickPollick"],
   "links": [
     {
       "group": "Social",
@@ -113,7 +110,6 @@
     }
   ],
   "milestones": [
-    
     {
       "title": "Created this page.",
       "date": "March 2023",
