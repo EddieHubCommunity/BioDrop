@@ -135,7 +135,7 @@ export default function Statistics({ data, profile, progress }) {
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
-              <span className="text-gray-400">
+              <span className="text-primary-low-medium">
                 (missing sections in your profile are:{" "}
                 {progress.missing.join(",")})
               </span>
@@ -179,7 +179,7 @@ export default function Statistics({ data, profile, progress }) {
           </div>
         </div>
 
-        <table className="min-w-full divide-y divide-gray-300">
+        <table className="min-w-full divide-y divide-primary-low-medium">
           <thead className="bg-gray-50">
             <tr>
               <th

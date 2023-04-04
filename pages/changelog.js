@@ -104,7 +104,7 @@ export default function Changelog() {
                     <div className="sm:flex">{change.description}</div>
                     <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-low-medium"
                         aria-hidden="true"
                       />
                       <p>{change.date}</p>

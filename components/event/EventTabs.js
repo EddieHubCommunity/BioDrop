@@ -20,7 +20,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           id="tabs"
           name="tabs"
           onChange={(e) => changeTab(e)}
-          className="block w-full rounded-md border-gray-300 dark:focus:border-indigo-400 dark:focus:ring-indigo-400  focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md border-primary-low-medium dark:focus:border-indigo-400 dark:focus:ring-indigo-400  focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
         >
           {tabs.map((tab) => (
@@ -39,7 +39,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 className={classNames(
                   tab.key === eventType
                     ? "border-indigo-500 text-indigo-600"
-                    : "border-transparent text-primary-medium dark:text-gray-400 dark:hover:text-gray-300 hover:text-primary-medium hover:border-gray-300",
+                    : "border-transparent text-primary-medium dark:text-primary-low-medium dark:hover:text-primary-low-medium hover:text-primary-medium hover:border-primary-low-medium",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}
                 aria-current={tab.key === eventType ? "page" : undefined}

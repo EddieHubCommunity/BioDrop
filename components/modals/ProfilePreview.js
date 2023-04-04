@@ -17,7 +17,7 @@ export default function Preview({ toggle, data }) {
           <div class="flex items-start justify-between p-4  rounded-t border-primary-medium">
             <button
               type="button"
-              class="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-primary-medium hover:text-white"
+              class="text-primary-low-medium bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-primary-medium hover:text-white"
               data-modal-hide="defaultModal"
               onClick={toggle}
             >

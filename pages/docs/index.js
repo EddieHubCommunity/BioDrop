@@ -344,12 +344,12 @@ export default function DocsIndex() {
             className="bg-white dark:bg-primary-high  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
-            <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 dark:divide-gray-400 lg:max-w-7xl">
+            <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 dark:divide-primary-low-medium lg:max-w-7xl">
               <div>
                 <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-gray-100 sm:text-4xl">
                   {section.title}
                 </h2>
-                <p className="mt-3 text-xl text-primary-medium dark:text-gray-400 sm:mt-4">
+                <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-medium sm:mt-4">
                   {section.description}
                 </p>
               </div>
@@ -373,7 +373,7 @@ export default function DocsIndex() {
                       <h3 className="text-xl font-semibold text-primary-high dark:text-gray-100">
                         {page.name}
                       </h3>
-                      <p className="mt-3 text-base text-primary-medium dark:text-gray-400">
+                      <p className="mt-3 text-base text-primary-medium dark:text-primary-low-medium">
                         {page.description}
                       </p>
                     </Link>
