@@ -20,7 +20,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           id="tabs"
           name="tabs"
           onChange={(e) => changeTab(e)}
-          className="block w-full rounded-md border-primary-low-medium dark:focus:border-indigo-400 dark:focus:ring-indigo-400  focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md border-primary-low-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
           defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
         >
           {tabs.map((tab) => (
@@ -38,7 +38,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
                   tab.key === eventType
-                    ? "border-indigo-500 text-indigo-600"
+                    ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
                     : "border-transparent text-primary-medium dark:text-primary-low-medium dark:hover:text-primary-low-medium hover:text-primary-medium hover:border-primary-low-medium",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}

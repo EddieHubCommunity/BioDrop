@@ -10,7 +10,7 @@ export default function IconCard({ iconName }) {
   return (
     <>
       <button
-        className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-indigo-600 hover:cursor-pointer active:border-green-600 focus:border-green-600"
+        className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-secondary-high hover:cursor-pointer active:border-green-600 focus:border-green-600"
         onClick={() => {
           navigator.clipboard.writeText(iconName);
           setShow(true);
@@ -50,7 +50,7 @@ export default function IconCard({ iconName }) {
                   <div className="ml-4 flex flex-shrink-0">
                     <button
                       type="button"
-                      className="inline-flex rounded-md bg-white text-primary-low-medium hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                      className="inline-flex rounded-md bg-white text-primary-low-medium hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-secondary-low focus:ring-offset-2"
                       onClick={() => {
                         setShow(false)
                       }}
