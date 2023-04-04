@@ -1,16 +1,17 @@
 {
   "name": "Priyankar Pal",
   "type": "personal",
-  "bio": "Web Developer ➝ Talks about Linux, Code, Open Source 💡",
+  "bio": "Linux, Frontend Web Dev, Open Source Maintainer",
 
   "tags": [
     "Open Source",
     "Javascript",
     "JAVA",
-    "Kali Linux",
+    "Linux",
     "SCSS",
     "Python",
-    "TailWind"
+    "TailWind",
+    "ReactJs"
   ],
 
   "socials": [
@@ -59,6 +60,12 @@
       "name": "Thea Theme",
       "url": "https://github.com/priyankarpal/TheaTheme",
       "icon": "SiVisualstudiocode"
+    },
+      {
+      "group": "Projects",
+      "name": "Open Source Projects List",
+      "url": "https://github.com/stars/priyankarpal/lists/open-source-projects",
+      "icon": "SiOpensourceinitiative"
     },
     {
       "group": "Twitter Threads",
