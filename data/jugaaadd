@@ -1,0 +1,26 @@
+{
+	"name": "Jugaad",
+	"type": "personal",
+	"bio": "AI is nothing but a joke.",
+	"links": [{
+			"name": "Explore Behance",
+			"url": "https://www.behance.net/Jugaad",
+			"icon": "FaBehance"
+		},
+		{
+			"name": "Explore Dribbble",
+			"url": "https://dribbble.com/jugaaad",
+			"icon": "FaDribbble"
+		},
+		{
+			"name": "Explore LinkedIn",
+			"url": "https://www.linkedin.com/in/jugaad/",
+			"icon": "FaLinkedinIn"
+		},
+		{
+			"name": "Explore LinkedIn",
+			"url": "https://github.com/jugaaadd",
+			"icon": "FaGithub"
+		}
+	]
+}
