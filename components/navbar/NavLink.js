@@ -12,10 +12,10 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   if (path?.split("/")[1] === item.url.split("/")[1]) {
     if (mode === "mobile") {
       className =
-        "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium";
+        "bg-primary-high text-white block px-3 py-2 rounded-md text-base font-medium";
     } else {
       className =
-        "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium";
+        "bg-primary-high text-white px-3 py-2 rounded-md text-sm font-medium";
     }
   }
 

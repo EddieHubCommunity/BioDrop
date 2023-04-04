@@ -12,7 +12,7 @@ export default function Preview({ toggle, data }) {
     >
       <div class="relative w-full h-full max-w-5xl md:h-auto mx-auto shadow-2xl">
         {/* <!-- Modal content --> */}
-        <div class="relative bg-white text-gray-900 rounded-lg">
+        <div class="relative bg-white text-primary-high rounded-lg">
           {/* <!-- Modal header --> */}
           <div class="flex items-start justify-between p-4  rounded-t border-gray-600">
             <button

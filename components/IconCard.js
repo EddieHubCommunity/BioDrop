@@ -44,7 +44,7 @@ export default function IconCard({ iconName }) {
                     <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
-                    <p className="text-sm font-medium text-gray-900">Successfully copied!</p>
+                    <p className="text-sm font-medium text-primary-high">Successfully copied!</p>
                     <p className="mt-1 text-sm text-gray-500">Copied {iconName} to clipboard</p>
                   </div>
                   <div className="ml-4 flex flex-shrink-0">

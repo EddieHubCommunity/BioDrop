@@ -157,7 +157,7 @@ export default function Statistics({ data, profile, progress }) {
 
         <div className="border my-6">
           <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
-            <h3 className="text-lg font-medium leading-6 text-gray-900">
+            <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
             <p className="mt-1 text-sm text-gray-500">
@@ -184,13 +184,13 @@ export default function Statistics({ data, profile, progress }) {
             <tr>
               <th
                 scope="col"
-                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high sm:pl-6"
               >
                 Url ({data.links.individual.length})
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className="px-3 py-3.5 text-left text-sm font-semibold text-primary-high"
               >
                 Clicks ({abbreviateNumber(data.links.clicks)})
               </th>
@@ -200,7 +200,7 @@ export default function Statistics({ data, profile, progress }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high sm:pl-6">
                     {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">

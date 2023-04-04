@@ -346,7 +346,7 @@ export default function DocsIndex() {
           >
             <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 dark:divide-gray-400 lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
+                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-gray-100 sm:text-4xl">
                   {section.title}
                 </h2>
                 <p className="mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-4">
@@ -370,7 +370,7 @@ export default function DocsIndex() {
                       </span>
                     </div>
                     <Link href={page.path} className="mt-4 block">
-                      <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                      <h3 className="text-xl font-semibold text-primary-high dark:text-gray-100">
                         {page.name}
                       </h3>
                       <p className="mt-3 text-base text-gray-500 dark:text-gray-400">
