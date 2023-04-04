@@ -1,3 +1,5 @@
+import remarkGfm from "remark-gfm";
+
 const config = {
   stories: [
     "../stories/**/*.stories.mdx",
@@ -7,6 +9,16 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
     "@tomfreudenberg/next-auth-mock/storybook",
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        mdxPluginOptions: {
+          mdxCompileOptions: {
+            remarkPlugins: [remarkGfm],
+          },
+        },
+      },
+    },
   ],
   staticDirs: ["../public"],
   framework: {

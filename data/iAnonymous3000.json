@@ -1,0 +1,92 @@
+{
+  "name": "Sooraj Sathyanarayanan",
+  "type": "personal",
+  "bio": "Security & Privacy Researcher, International Chess Player♟️",
+  "tags": ["Open Source", "Javascript", "Python"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/soorajsathyanarayanan"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iAnonymous3000"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/ianonymous3000"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iAnonymous3000"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCCLuKma1_hspG8DrRqaNlOw"
+    }
+  ],
+  "links": [
+    {
+      "name": "Secure your Data using these Tools",
+      "url": "https://alternativeto.net/list/34604/cyberverse",
+      "icon": "FaShieldAlt"
+    },
+    {
+      "name": "Direct Message on Matrix",
+      "url": "https://matrix.to/#/@ianonymous:matrix.org",
+      "icon": "SiMatrix"
+    },
+    {
+      "name": "Must Read Books",
+      "url": "https://www.goodreads.com/review/list/161492675?shelf=to-read&sort=position&order=a",
+      "icon": "SiGoodreads"
+    },
+    {
+      "name": "Blog",
+      "url": "https://ianonymous.substack.com",
+      "icon": "SiSubstack"
+    },
+    {
+      "group": "Decentralized Social Media",
+      "name": "Mastodon",
+      "url": "https://mastodon.social/@ianonymous3000",
+      "icon": "SiMastodon"
+    },
+    {
+      "group": "Decentralized Social Media",
+      "name": "Minds",
+      "url": "https://www.minds.com/ianonymous3000",
+      "icon": "SiMinds"
+    },
+    {
+      "group": "Cybersecurity Portfolios/Playgrounds",
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com/p/iAnonymous3000",
+      "icon": "SiTryhackme"
+    },
+    {
+      "group": "Cybersecurity Portfolios/Playgrounds",
+      "name": "HackTheBox",
+      "url": "https://app.hackthebox.com/profile/124762",
+      "icon": "SiHackthebox"
+    },
+    {
+      "group": "Cybersecurity Portfolios/Playgrounds",
+      "name": "Must Watch - Movies & TV Shows",
+      "url": "https://www.imdb.com/user/ur147409641/watchlist",
+      "icon": "SiImdb"
+    },
+    {
+      "group": "Chess Profiles",
+      "name": "Lichess",
+      "url": "https://lichess.org/@/Sooraj99",
+      "icon": "SiLichess"
+    },
+    {
+      "group": "Chess Profiles",
+      "name": "Chess Movies & TV Shows",
+      "url": "https://www.imdb.com/list/ls562153368",
+      "icon": "SiImdb"
+    }
+  ]
+}
