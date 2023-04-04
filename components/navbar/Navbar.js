@@ -75,8 +75,14 @@ export default function Navbar() {
       {session && (
         <>
           <NavLink
-            item={{ name: "Account", url: "/account/statistics" }}
+            item={{ name: "Account Stats", url: "/account/statistics" }}
             onClick={() => setIsOpen(false)}
+          />
+          <NavLink
+            item={{ name: "Profile", url: `/${session.username}` }}
+            onClick={() => {
+              setIsOpen(false);
+            }}
           />
           <NavLink
             item={{ name: "Logout", url: "/" }}
