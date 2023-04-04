@@ -1,7 +1,7 @@
 {
   "name": "Shubh Sharma",
   "type": "personal",
-  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Content Creator | Tech Writer | Music Producer",
+  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Content Creator | Technical Writer | Designer",
   "tags": [
     "Open Source",
     "Content Creation",
@@ -68,6 +68,14 @@
   ],
   "milestones": [
     {
+      "title": "Got selected as Elite Mentor at ShowwcaseHQ",
+      "date": "March, 2023",
+      "icon": "FaBookOpen",
+      "color": "purple",
+      "description": "As a volunteer technical writing mentor at Showwcase Elite-Writers Program, I am helping aspiring writers develop their skills and get started in the world of tech writing.",
+      "url": "https://www.showwcase.com/shubhsharma19"
+    },
+    {
       "title": "Won Hashnode Blogging Challenge",
       "date": "March, 2023",
       "icon": "SiHashnode",
@@ -82,14 +90,6 @@
       "color": "green",
       "description": "Advocating for Open Source",
       "url": "https://github.com/shubhsharma19"
-    },
-    {
-      "title": "Reached 200k views on Instagram",
-      "date": "December, 2022",
-      "icon": "FaInstagram",
-      "color": "purple",
-      "description": "My content on Instagram reached around 200k views per month",
-      "url": "https://instagram.com/code.shubh/"
     },
     {
       "title": "Started Blogging",
