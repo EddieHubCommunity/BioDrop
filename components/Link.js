@@ -5,9 +5,9 @@ export default function Link({ children, className, rel, ...restProps }) {
     <NextLink
       rel={rel ? rel : "noreferrer"}
       className={
-        className
+        `${className
           ? className
-          : "text-blue-600 underline decoration-dotted dark:text-blue-500 hover:underline hover:decoration-solid"
+          : "text-blue-600 underline decoration-dotted dark:text-blue-500 hover:underline hover:decoration-solid"} hover:underline`
       }
       {...restProps}
     >
