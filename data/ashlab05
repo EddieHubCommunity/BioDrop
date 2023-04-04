@@ -1,0 +1,22 @@
+{
+  "name": "Mohammed Ashlab",
+  "type": "personal",
+  "bio": "Love to learn new things everyday",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ashlab6"
+      "icon": "FaTwitter"
+    },
+       {
+      "name": "See my works at Github"
+      "url": "https://github.com/ashlab05"
+      "icon": "FaGithub"
+    },
+       {
+      "name": "Connect with me on linkedin"
+      "url": "https://www.linkedin.com/in/mohammed-ashlab-b95335260/"
+      "icon": "FaLinkedin"
+    },
+  ]
+}
