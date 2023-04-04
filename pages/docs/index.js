@@ -341,7 +341,7 @@ export default function DocsIndex() {
         </p>
         {sections.map((section) => (
           <div
-            className="bg-white dark:bg-gray-800  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
+            className="bg-white dark:bg-primary-high  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
             <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 dark:divide-gray-400 lg:max-w-7xl">

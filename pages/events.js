@@ -90,7 +90,7 @@ export default function Events({ events }) {
           setEventType={setEventType}
         />
         <ul role="list" className="divide-y divide-gray-200 mt-6">
-          <h2 className="text-md md:text-2xl text-lg text-gray-800 font-bold md:mb-6 mb-3">
+          <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
             {filters.find((filter) => filter.key === eventType).description}
           </h2>
 
