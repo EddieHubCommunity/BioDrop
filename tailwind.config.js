@@ -24,7 +24,8 @@ module.exports = {
         tertiary: {
           // orange
           "low": "rgb(253 186 116)",
-          "high": "rgb(234 88 12)",
+          "medium":"rgb(234 88 12)",
+          "high": "rgb(154 52 18)",
         },
       },
     },
