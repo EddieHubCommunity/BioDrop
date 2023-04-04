@@ -1,0 +1,80 @@
+{
+  "name": "Mike Whiting",
+  "type": "personal",
+  "bio": "Senior Frontend Developer",
+  "tags": ["Open Source", "Javascript", "Typescript", "DevOps", "ReactJS"],
+  "socials": [{ "icon": "SiLinktree", "url": "https://linktr.ee/mikejw" }],
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://www.mikejw.co.uk",
+      "icon": "FaLink"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mikejw",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://mastodon.xyz/@mikejw",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mikeyjw",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Commercial Website",
+      "icon": "SiInternetarchive",
+      "date": "November 1999",
+      "description": "Website for freight forwarding business created using self-taught skills in HTML, CSS, JavaScript and Perl cgi scripts."
+    },
+    {
+      "title": "First Commercial Web Development Work Experience",
+      "icon": "FaDesktop",
+      "date": "April 2004",
+      "description": "In-house LAMP software development using (OO PHP5, JavaScript 1.5, CSS and Linux) for a small IT support company. Work experience placement secured by posting on the mailing list for the Greater London Linux User Group."
+    },
+    {
+      "title": "Career as Web Development Software Consultant Began",
+      "icon": "FaDollarSign",
+      "date": "August 2007",
+      "description": "First client was eBay UK"
+    },
+    {
+      "title": "Created Software Development Consultancy Business",
+      "icon": "FaDollarSign",
+      "date": "April 2008",
+      "url": "https://www.ai-em.net"
+    },
+    {
+      "title": "First Lead ReactJS Developer Contract Role",
+      "icon": "FaReact",
+      "date": "September 2017"
+    },
+    {
+      "title": "First DevOps Engineer (CI/CD, IAC) Contract Role",
+      "icon": "SiTerraform",
+      "date": "November 2018"
+    },
+    {
+      "title": "GitHub Artic Code Vault Contributor",
+      "icon": "FaDGithub",
+      "date": "February 2020",
+      "url": "https://github.com/mikejw/empathy",
+      "description": "Three repositories captured belonging to the Open Source Empathy PHP MVC framework project that I began in 2008."
+    },
+    {
+      "isGoal": true,
+      "title": "Website for all docs/resources for Empathy PHP Framework",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I have finally began the process of documenting the code in markdown files within respective GitHub repos. Now there needs to be a new website to act as a hub for these resources."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-## 1.105.2 (2023-03-31)
+## 1.108.4 (2023-04-03)
 
 
 ### Bug Fixes
 
-* removed tab sorting ([#5742](https://github.com/EddieHubCommunity/LinkFree/issues/5742)) ([5590d64](https://github.com/EddieHubCommunity/LinkFree/commit/5590d64f473495368bcef9e6d16ab91049056f5f))
+* storybook to v7 GA ([#5818](https://github.com/EddieHubCommunity/LinkFree/issues/5818)) ([c52e3d4](https://github.com/EddieHubCommunity/LinkFree/commit/c52e3d45dd4189909f625c6d06812f477b97cb83))
 
 
 

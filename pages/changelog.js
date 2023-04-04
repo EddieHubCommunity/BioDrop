@@ -10,6 +10,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Profile progress bar",
+      description:
+        "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
+    },
+    {
       title: "Profile QR code download",
       description:
         "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
