@@ -2,11 +2,8 @@
   "name": "Victoria Johnson",
   "type": "personal",
   "bio": "Frontend developer | Technical writer",
-  
-  "tags": [
-    "Open Source",
-    "Javascript"
-  ],
+
+  "tags": ["Open Source", "Javascript"],
   "links": [
     {
       "name": "Follow me on GitHub",
