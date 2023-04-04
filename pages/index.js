@@ -249,7 +249,7 @@ export default function Home({ total, today }) {
                   <span className="block">Connect to your audience</span>
                   <span className="block">with a single link</span>
                 </h2>
-                <p className="mt-4 text-lg leading-6 text-secondary-low">
+                <p className="mt-4 text-lg leading-6 text-primary-low">
                   Showcase the content you create and your projects in one
                   place. Make it easier for people to find, follow and
                   subscribe.
