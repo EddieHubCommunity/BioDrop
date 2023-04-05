@@ -1,7 +1,7 @@
 {
-  "name": "Jonathan (Jon) Vojtush",
+  "name": "Jonathan Vojtush",
   "type": "personal",
-  "bio": "Technical Business Analyst in Healthcare",
+  "bio": "Nomadic Technical Business Analyst, working in healthcare",
   "tags": [
     "JavaScript",
     "SQL",
@@ -11,35 +11,40 @@
     "HTML",
     "XML",
     "BASH",
+    "jQuery",
     "Open Source"
   ],
   "socials": [
     {
-      "icon": "FaGithub",
-      "url": "https://github.com/JonVojtush"
+      "url": "https://github.com/JonVojtush",
+      "icon": "FaGithubAlt"
     },
     {
-      "icon": "FaInstagram",
-      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/"
+      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/",
+      "icon": "SiInstagram"
     },
     {
-      "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/jonvojtush/"
+      "url": "https://www.linkedin.com/in/jonvojtush/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://fosstodon.org/@jvojtushjr",
+      "icon": "SiMastodon"
     }
   ],
-  "testimonials": ["bethDubyak", "rickPollick"],
+  "testimonials": ["rickPollick", "BethDubyak-LinkedIn"],
   "links": [
     {
       "group": "Social",
       "name": "GitHub",
       "url": "https://github.com/JonVojtush",
-      "icon": "FaGithub"
+      "icon": "SiGithub"
     },
     {
       "group": "Social",
       "name": "Instagram",
       "url": "https://www.instagram.com/jon.hannas_tiny_adventures/",
-      "icon": "FaInstagram"
+      "icon": "SiInstagram"
     },
     {
       "group": "Social",
@@ -51,13 +56,13 @@
       "group": "Social",
       "name": "Fosstodon",
       "url": "https://fosstodon.org/@jvojtushjr",
-      "icon": "FaMastodon"
+      "icon": "SiMastodon"
     },
     {
       "group": "Social",
       "name": "Pixelfed",
       "url": "https://pixelfed.social/i/web/profile/409936547239403305",
-      "icon": "FaLink"
+      "icon": "SiGooglechrome"
     },
     {
       "group": "Social",
@@ -68,64 +73,51 @@
     {
       "group": "Usernames",
       "name": "Discord: JVojtush#5003",
-      "icon": "FaDiscord"
+      "url": "https://discord.com/",
+      "icon": "SiDiscord"
     },
     {
       "group": "Support Me",
       "name": "GitHub Sponsors",
       "url": "https://github.com/sponsors/JonVojtush",
-      "icon": "FaRegMoneyBillAlt"
-    },
-    {
-      "group": "Support Me",
-      "name": "Buy Me A Coffee",
-      "url": "https://www.buymeacoffee.com/jvojtushjr",
-      "icon": "FaRegMoneyBillAlt"
-    },
-    {
-      "group": "Support Me",
-      "name": "ETH: 0x7531d86D5Dbda398369ec43205F102e79B3c647A",
-      "icon": "FaDollarSign"
-    },
-    {
-      "group": "Support Me",
-      "name": "BTC: bc1qtkuzp85vph7y37rqjlznuta293qsay07cgg90s",
-      "icon": "FaDollarSign"
-    },
-    {
-      "group": "Support Me",
-      "name": "LTC: ltc1q9pquzquaj6peplygqdrcxxvcnd5fcud7x80lh8",
-      "icon": "FaDollarSign"
-    },
-    {
-      "group": "Support Me",
-      "name": "DOGE: DNQ3GHBVEcNpzXNeB7B4sPqd7L1GhUpMg3",
-      "icon": "FaDollarSign"
+      "icon": "FaHeart"
     },
     {
       "group": "Support Me",
       "name": "Traveling Mailbox (Affiliate)",
       "url": "https://travelingmailbox.com/?ref=844&campaign=EddieHub",
-      "icon": "FaLink"
+      "icon": "FaMailBulk"
+    },
+    {
+      "group": "Projects",
+      "name": "Hanna's Tiny Adventures (RV Travel)",
+      "url": "https://HannasTinyAdventures.com",
+      "icon": "FaTruckMonster"
+    },
+    {
+      "group": "Projects",
+      "name": "Agile Estimation Calculator",
+      "url": "https://JonVojtush.com",
+      "icon": "FaCalculator"
     }
   ],
   "milestones": [
     {
-      "title": "Created this page.",
-      "date": "March 2023",
-      "icon": "",
-      "color": "green",
-      "description": "",
-      "url": ""
+      "isGoal": true,
+      "title": "Become an Enterprise developer",
+      "date": "April 9th 2023",
+      "icon": "FaCode",
+      "description": "Transition from a Technical Business Analyst to a Software Developer."
     },
     {
-      "isGoal": true,
-      "title": "Transition to full time software developer from Business Analyst.",
-      "date": "",
-      "icon": "",
-      "color": "red",
-      "description": "",
-      "url": ""
+      "title": "Created this page",
+      "date": "March 2023",
+      "icon": "FaCodeBranch"
+    },
+    {
+      "title": "Freelance web developer",
+      "date": "2010",
+      "icon": "SiWordpress"
     }
   ]
 }
