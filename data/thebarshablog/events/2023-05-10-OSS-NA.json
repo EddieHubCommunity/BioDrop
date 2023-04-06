@@ -1,0 +1,13 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "purple",
+  "name": "Open Source Summit North America 2023",
+  "description": "Open Source Summit is the premier event for open source developers, technologists, and community leaders to collaborate, share information, solve problems, and gain knowledge, furthering open source innovation and ensuring a sustainable open source ecosystem. It is the gathering place for open-source code and community contributors.",
+  "date": {
+    "start": "2023-05-10",
+    "end": "2023-05-12",
+    "cfpClose": "2023-02-05"
+  },
+  "url": "https://events.linuxfoundation.org/open-source-summit-north-america/"
+}

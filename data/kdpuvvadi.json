@@ -2,27 +2,43 @@
   "name": "KD Puvvadi",
   "type": "personal",
   "bio": "Everything DevOps",
-  "avatar": "https://github.com/kdpuvvadi.png",
+
+  "tags": [
+    "AWS",
+    "Azure",
+    "DevOps",
+    "DevRel",
+    "Open Source",
+    "Ansible",
+    "kubernetes",
+    "Terraform"
+  ],
+
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kdpuvvadi"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kdpuvvadi"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "http://infosec.exchange/@kdpuvvadi"
+    }
+  ],
+
   "links": [
     {
       "name": "Website",
       "url": "https://puvvadi.me",
-      "icon": "link"
+      "icon": "FaLink"
     },
     {
       "name": "Read my Blog",
       "url": "http://blog.puvvadi.me",
-      "icon": "link"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/kdpuvvadi",
-      "icon": "github"
-    },
-    {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/kdpuvvadi",
-      "icon": "twitter"
+      "icon": "FaLink"
     }
   ]
 }

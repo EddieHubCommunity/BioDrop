@@ -2,29 +2,29 @@
   "name": "Nikhil Sharma",
   "type": "personal",
   "bio": "Learning to contribute!",
-  "avatar": "https://github.com/itsmenikhill.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/itsmenikhill",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/heyitsmenikhil",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/itsnikhilhere",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
       "title": "Started Working Full Time",
       "date": "January 2021",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started Working Full Time"
     }

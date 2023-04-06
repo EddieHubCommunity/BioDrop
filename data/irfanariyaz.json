@@ -2,17 +2,17 @@
   "name": "Irfana Sulaiman",
   "type": "Personal",
   "bio": "Full-Stack developer starting to opensource",
-  "avatar": "https://github.com/irfanariyaz.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/irfanariyaz",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/irfana-sulaiman-44a242240/",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [

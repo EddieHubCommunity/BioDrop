@@ -2,17 +2,17 @@
   "name": "Aryan Babber",
   "type": "personal",
   "bio": "Your friendly neighbourhood developer. JS | Coffee | Music | Open Source Enthusiast",
-  "avatar": "https://github.com/AryanBabber.png",
+
   "links": [
     {
       "name": "Check my GitHub out",
       "url": "https://github.com/AryanBabber",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/ABgoneCODING",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

@@ -5,15 +5,13 @@
 
   "bio": "Hey, my name is Lasse, I am 16 years old and from Denmark. I spend most of my free time coding.",
 
-  "avatar": "https://github.com/lassv.png",
-
   "links": [
     {
       "name": "Follow me on GitHub",
 
       "url": "https://github.com/lassv",
 
-      "icon": "github"
+      "icon": "FaGithub"
     },
 
     {
@@ -21,7 +19,7 @@
 
       "url": "https://twitter.com/lassv_05",
 
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
 
@@ -31,7 +29,7 @@
 
       "date": "December 2020",
 
-      "icon": "dollar",
+      "icon": "FaDollarSign",
 
       "color": "grey",
 

@@ -2,17 +2,17 @@
   "name": "Kaushik",
   "type": "personal",
   "bio": "Student",
-  "avatar": "https://github.com/KaushikK.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/KaushikK",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Kaushikk1704",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ]
 }

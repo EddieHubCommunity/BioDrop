@@ -1,26 +1,57 @@
 import fs from "fs";
 import path from "path";
 
+import logger from "@config/logger";
+
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   const directoryPath = path.join(process.cwd(), "data");
-  const files = fs.readdirSync(directoryPath);
 
-  const users = files.map((file) => ({
-    ...JSON.parse(fs.readFileSync(path.join(directoryPath, file), "utf8")),
-    username: file.split(".")[0],
-  }));
+  let userFolders;
+  try {
+    userFolders = fs
+      .readdirSync(directoryPath)
+      .filter((item) => !item.includes("json"));
+  } catch (e) {
+    logger.error(e, "failed to load profiles");
+  }
 
-  const events = users
-    .filter((user) => user.events)
-    .map((user) =>
-      user.events.map((event) => ({ ...event, author: user.username }))
-    )
+  const events = userFolders.flatMap((folder) => {
+    const eventsPath = path.join(directoryPath, folder, "events");
+    let eventFiles = [];
+    try {
+      eventFiles = fs.readdirSync(eventsPath);
+    } catch (e) {
+      logger.warn(`no events in ${eventsPath}`);
+      return [];
+    }
+    const eventFilesContent = eventFiles.flatMap((file) => {
+      try {
+        return {
+          ...JSON.parse(fs.readFileSync(path.join(eventsPath, file), "utf8")),
+          username: folder,
+        };
+      } catch (e) {
+        logger.error(e, `failed loading event "${file}" in "${eventsPath}"`);
+        return [];
+      }
+    });
+
+    return eventFilesContent;
+  });
+
+  const eventsFiltered = events
     .reduce(
       (previousValue, currentValue) => previousValue.concat(currentValue),
       []
     )
-    .filter((event) => new Date(event.date) > new Date())
-    .sort((a, b) => new Date(a.date) - new Date(b.date));
+    .filter((event) => new Date(event.date.end) > new Date())
+    .sort((a, b) => new Date(a.date.start) - new Date(b.date.start));
 
-  res.status(200).json(events);
+  res.status(200).json(eventsFiltered);
 }

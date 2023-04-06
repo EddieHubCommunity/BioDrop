@@ -2,19 +2,19 @@ name: Kubescape
 on:
   push:
     paths:
-      - 'kubernetes/**'
+      - "kubernetes/**"
   pull_request:
     paths:
-      - 'kubernetes/**'
+      - "kubernetes/**"
 
 jobs:
   security:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: "18"
       - name: Install Kubescape
         run: curl -s https://raw.githubusercontent.com/kubescape/kubescape/master/install.sh | /bin/bash
       - name: Kubescape

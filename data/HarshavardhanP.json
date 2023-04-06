@@ -2,17 +2,17 @@
   "name": "Harshavardhan Patekar",
   "type": "personal",
   "bio": "Pre-final year Student at Vellore Institute Of technology Bhopal",
-  "avatar": "https://github.com/MaxHarsh.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/MaxHarsh",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/HappyVersion_17",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [

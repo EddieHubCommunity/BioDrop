@@ -2,24 +2,24 @@
   "name": "Bala Hantsi",
   "type": "personal",
   "bio": "Open Source Enthusiast!",
-  "avatar": "https://github.com/bhantsi.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/bhantsi",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/b_hantsi",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     }
   ],
   "milestones": [
     {
       "title": "Started Freelancing",
       "date": "December 2018",
-      "icon": "dollar",
+      "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing"
     },

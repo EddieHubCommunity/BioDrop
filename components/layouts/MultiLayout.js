@@ -1,13 +1,13 @@
 import Script from "next/script";
 
-import Navbar from "../navbar/Navbar";
-import Footer from "../Footer";
+import Navbar from "@components/navbar/Navbar";
+import Footer from "@components/Footer";
 
 export default function MultiLayout({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main>{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
 
       {process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID && (

@@ -1,0 +1,111 @@
+{
+  "name": "Shubh Sharma",
+  "type": "personal",
+  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Content Creator | Technical Writer | Designer",
+  "tags": [
+    "Open Source",
+    "Content Creation",
+    "Technical Writing",
+    "Blogging",
+    "Web3",
+    "Fullstack Web Development",
+    "Designing"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shubhstwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://shubhsharma19.hashnode.dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/code.shubh/"
+    }
+  ],
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/shubhsharma19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Threads about tech",
+      "url": "https://twitter.com/shubhstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Blogs",
+      "url": "https://shubhsharma19.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My LinkedIn",
+      "url": "https://linkedin.com/in/shubhsharma19",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Content on Instagram",
+      "url": "https://instagram.com/code.shubh",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My Music",
+      "url": "https://www.youtube.com/sikstepmusic",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Support my work :)",
+      "url": "https://ko-fi.com/shubhsharma19",
+      "icon": "SiBuymeacoffee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Got selected as Elite Mentor at ShowwcaseHQ",
+      "date": "March, 2023",
+      "icon": "FaBookOpen",
+      "color": "purple",
+      "description": "As a volunteer technical writing mentor at Showwcase Elite-Writers Program, I am helping aspiring writers develop their skills and get started in the world of tech writing.",
+      "url": "https://www.showwcase.com/shubhsharma19"
+    },
+    {
+      "title": "Won Hashnode Blogging Challenge",
+      "date": "March, 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "I won the hashnode Blogging Challenge organized by WeMakeDevs and Also by CoCode in the month of February",
+      "url": "https://shubhsharma19.hashnode.dev/open-source-for-beginners"
+    },
+    {
+      "title": "Started contributing to Open Source",
+      "date": "January, 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Advocating for Open Source",
+      "url": "https://github.com/shubhsharma19"
+    },
+    {
+      "title": "Started Blogging",
+      "date": "October, 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my journey through Technical Blogs",
+      "url": "https://shubhsharma19.hashnode.dev/"
+    },
+    {
+      "title": "Participated in GDSC Challenge, Commit your code",
+      "date": "October, 2021",
+      "icon": "FaGithub",
+      "color": "orange",
+      "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
+      "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
+    }
+  ]
+}

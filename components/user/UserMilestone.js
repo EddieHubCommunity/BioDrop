@@ -1,22 +1,37 @@
-import Icon from "../Icon";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
-export default function UserMilestone({ milestone }) {
+import getIcon from "@components/Icon";
+import Link from "@components/Link";
+
+export default function UserMilestone({ milestone, isGoal }) {
+  const DisplayIcon = getIcon(milestone.icon);
   return (
-    <a
-      href={milestone.url}
-      className="border-2 border-gray-200 p-4 my-2 rounded-tr-lg grow flex gap-4 items-center"
-      key={milestone.title}
+    <li
+      className={`py-4 ${isGoal ? "opacity-50" : ""}`}
       style={{
         borderColor: milestone.color,
       }}
     >
-      <Icon name={milestone.icon} />
-      <div>
-        <h2 className="text-xl">
-          {milestone.date} {milestone.title}
-        </h2>
-        <p>{milestone.description}</p>
+      <div className="flex space-x-3">
+        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
+        <div className="flex-1 space-y-1">
+          <div className="flex items-center justify-between">
+            <h3 className="text-sm font-medium flex gap-2 items-center">
+              <span>{milestone.title}</span>
+              {milestone.url && (
+                <Link href={milestone.url} target="_blank">
+                  <FaExternalLinkAlt />
+                </Link>
+              )}
+            </h3>
+            <p className="text-sm text-gray-500">{milestone.date}</p>
+          </div>
+          <ReactMarkdown className="text-sm text-gray-500">
+            {milestone.description}
+          </ReactMarkdown>
+        </div>
       </div>
-    </a>
+    </li>
   );
 }

@@ -2,22 +2,22 @@
   "name": "Suman Roy",
   "type": "personal",
   "bio": " Web developer 💻 || Exploring tech domains 🌱 || Open Source Enthusiast!👋",
-  "avatar": "https://github.com/Suman373.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Suman373",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/IamSuman011",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/sumanroy369",
-      "icon": "linkedin"
+      "icon": "FaLinkedin"
     }
   ]
 }

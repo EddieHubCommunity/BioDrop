@@ -2,22 +2,22 @@
   "name": "Lavakush Biyani",
   "type": "personal",
   "bio": "I am Lavakush Biyani, currently pursuing my B.tech. I am a tech enthusiast & an open-source contributor. I am always open to collaborating on projects and innovative/disruptive ideas",
-  "avatar": "https://github.com/lavakush07.png",
+
   "links": [
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/lavakush07",
-      "icon": "github"
+      "icon": "FaGithub"
     },
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/lavkushbiyani1",
-      "icon": "twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/lavkush-biyani-07/",
-      "icon": "Linkedin"
+      "icon": "FaLinkedin"
     }
   ],
   "milestones": [
