@@ -1,0 +1,40 @@
+{
+    "name": "Naveen P",
+    "type": "personal",
+    "bio": "Developing..........",
+    "tags": [
+        "Javascript",
+        "NextJS",
+        "React",
+        "Machine Learning"
+    ],
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/NP__offl"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/naveen13-06"
+        }
+    ],
+    "links": [
+        {
+            "name": "Follow my Open Source on GitHub",
+            "url": "https://github.com/naveen13-06",
+            "icon": "FaGithub",
+            "color": "#171515"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/NP__offl",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/naveen-p-71b9771b1",
+            "icon": "FaLinkedin"
+        }
+    ]
+}
