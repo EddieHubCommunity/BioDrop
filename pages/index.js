@@ -209,7 +209,7 @@ export default function Home({ total, today }) {
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
-          <span className="text-4xl font-bold text-secondary-high">
+          <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree
           </span>
           <span className="text-2xl dark:text-primary-low text-primary-medium">
@@ -274,7 +274,7 @@ export default function Home({ total, today }) {
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
             <span className="block">Ready to dive in?</span>
-            <span className="block text-secondary-medium">
+            <span className="block text-secondary-high dark:text-secondary-low">
               Add your free Profile today!
             </span>
           </h2>
@@ -286,8 +286,8 @@ export default function Home({ total, today }) {
                 primary={true}
               />
             </div>
-            <div className="ml-3 inline-flex rounded-md shadow">
-              <Button text="Example" href="/eddiejaoude" />
+            <div className="ml-3 inline-flex rounded-md shadow ">
+              <Button text="Example" href="/eddiejaoude"/>
             </div>
           </div>
         </div>
