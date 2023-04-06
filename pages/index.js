@@ -286,8 +286,8 @@ export default function Home({ total, today }) {
                 primary={true}
               />
             </div>
-            <div className="ml-3 inline-flex rounded-md shadow">
-              <Button text="Example" href="/eddiejaoude" />
+            <div className="ml-3 inline-flex rounded-md shadow ">
+              <Button text="Example" href="/eddiejaoude"/>
             </div>
           </div>
         </div>
