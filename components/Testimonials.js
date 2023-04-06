@@ -5,7 +5,7 @@ export default function Testimonials({ data }) {
     <div className="bg-white dark:bg-primary-high pt-0 pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight text-secondary-medium dark:text-secondary-medium">
+          <h2 className="text-lg font-semibold leading-8 tracking-tight text-secondary-medium dark:text-secondary-low">
             Testimonials
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low">
