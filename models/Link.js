@@ -2,7 +2,10 @@ import mongoose from "mongoose";
 
 const LinkSchema = new mongoose.Schema({
   username: String,
+  group: String,
+  name: String,
   url: String,
+  icon: String,
   clicks: {
     type: Number,
     default: 0,

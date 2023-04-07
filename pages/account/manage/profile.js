@@ -8,7 +8,7 @@
 // form testimonials
 // form events
 
-import { authOptions } from "../api/auth/[...nextauth]";
+import { authOptions } from "../../api/auth/[...nextauth]";
 import { unstable_getServerSession } from "next-auth/next";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { useState } from "react";
@@ -58,14 +58,14 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Manage({ BASE_URL, profile }) {
+export default function Profile({ BASE_URL, profile }) {
   const [source, setSource] = useState(profile.sources.current || "database");
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`${BASE_URL}/api/users/${profile.username}`, {
+    const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -237,82 +237,6 @@ export default function Manage({ BASE_URL, profile }) {
                   <p className="mt-2 text-sm text-gray-500">
                     Preview of your bio with rendered markdown.
                   </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
-            <div className="space-y-6 sm:space-y-5">
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  What links would you like to appear on your profile?
-                </h3>
-                <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                  Some can be promoted to under your name
-                </p>
-              </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Group
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Link
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Url
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Icon
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
                 </div>
               </div>
             </div>

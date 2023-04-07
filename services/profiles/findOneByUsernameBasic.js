@@ -25,7 +25,7 @@ export default async function findOneByUsername(username) {
 
   let getProfile = await Profile.findOne({ username });
   let getLinks = await Link.find({ username });
-  console.log(getProfile);
+
   if (getProfile && getProfile.source) {
     available.push("database");
     if (getProfile.source === "database" || !data.username) {
