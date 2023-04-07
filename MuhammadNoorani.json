@@ -1,0 +1,26 @@
+{
+	"name": "Muhammad Noorani",
+	"type": "personal",
+	"bio": "Coder ‎‍💻 | Web-Development🌐 | Learning DSA 📙 | Open Source Contributor 🟩 | Documenting my Journey 📄 | Technical writer ✍️ | Public Speaker 🎙️ | Networking & Collaborating 🤝 | Always Open to Opportunities🚪",
+	"links": [{
+			"name": "Twitter: Follow me",
+			"url": "https://twitter.com/MuhammadNoorani",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Linkedin: Connect with me",
+			"url": "https://www.linkedin.com/in/muhammadnoorani/",
+			"icon": "FaLinkedin"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/MuhammadNoorani",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Blog: Read my Blogs",
+			"url": "http://blog.muhammadnoorani.com/",
+			"icon": "SiHashnode"
+		}
+	]
+}
