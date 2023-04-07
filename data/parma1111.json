@@ -15,8 +15,8 @@
     ],
     "socials": [
       { "icon": "FaTwitter", "url": "https://twitter.com/BuldakParma" },
-      { "icon": "FaGithub", "url": "https://github.com/parma1111" },
       { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/parma-ram-349b16228/" },
+      { "icon": "FaGithub", "url": "https://github.com/parma1111" },
       { "icon": "SiHashnode", "url": "https://hashnode.com/@ParmaRam" }
     ],
     "links": [
