@@ -1,41 +1,38 @@
-import fs from "fs";
-import path from "path";
-
-import connectMongo from "../../../config/mongo";
-import Profile from "../../../models/Profile";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
+import findAllBasic from "@services/profiles/findAllBasic";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
-  const directoryPath = path.join(process.cwd(), "data");
-  const files = fs
-    .readdirSync(directoryPath)
-    .filter((item) => item.includes("json"));
 
-  const users = files.flatMap((file) => {
-    const filePath = path.join(directoryPath, file);
-    try {
-      return {
-        ...JSON.parse(fs.readFileSync(filePath, "utf8")),
-        username: file.split(".")[0],
-      };
-    } catch (e) {
-      console.log(`ERROR loading profile "${filePath}"`);
-      return [];
-    }
-  });
-  const getStats = await Profile.find({});
+  const fileProfiles = findAllBasic();
 
-  // merge profiles with their profile views if set to public
-  const profiles = users.map((user) => {
-    const stats = getStats.find((stat) => stat.username === user.username);
-    if (stats && user.displayStatsPublic) {
+  let dbProfiles = [];
+  try {
+    dbProfiles = await Profile.find({ location: { $ne: null } });
+  } catch (e) {
+    logger.error(e, "failed loading profile from db");
+    return fileProfiles;
+  }
+
+  const profiles = fileProfiles.map((fileProfile) => {
+    const profile = dbProfiles.find(
+      (dbProfile) => dbProfile.username === fileProfile.username
+    );
+    if (profile && profile._doc.location.name !== "unknown") {
       return {
-        ...user,
-        ...stats._doc,
+        ...fileProfile,
+        location: profile._doc.location,
       };
     }
-
-    return user;
+    return fileProfile;
   });
 
   res.status(200).json(profiles);

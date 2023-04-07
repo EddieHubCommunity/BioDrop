@@ -1,7 +1,6 @@
 {
   "name": "Krupali Trivedi || Chai",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open source Advocate | Blogger | Content Writer ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
   "socials": [
@@ -9,7 +8,8 @@
     { "icon": "FaGithub", "url": "https://github.com/krupalitrivedi" },
     { "icon": "SiHashnode", "url": "https://acodeandaword.hashnode.dev/" }
   ],
-  "avatar": "https://github.com/krupalitrivedi.png",
+  "testimonials": ["shubhsharma19", "Njong392"],
+
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -30,6 +30,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/krupalitrivedi",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy Coffee for Chai",
+      "url": "https://www.buymeacoffee.com/krupalitrivedi",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [

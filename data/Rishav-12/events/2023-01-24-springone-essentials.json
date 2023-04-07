@@ -1,0 +1,11 @@
+{
+  "isVirtual": true,
+  "color": "green",
+  "name": "SpringOne Essentials",
+  "description": "Join us for an online experience that brings together the developer community to inspire and connect. The virtual event will enable software companies, enterprises, and cloud experts to collaborate, share knowledge, and create transformational software.",
+  "date": {
+    "start": "2023-01-24T21:30:00.000+05:30",
+    "end": "2023-01-27T00:30:00.000+05:30"
+  },
+  "url": "https://springone.io/"
+}

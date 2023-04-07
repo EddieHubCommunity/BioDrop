@@ -1,0 +1,22 @@
+{
+  "name": "Stiaan Wolfaardt",
+  "type": "personal",
+  "bio": "Software Engineer based in Cape Town, South Africa.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/StiaanW",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/STIAANWOL",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "www.linkedin.com/in/stiaanwolfaardt",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

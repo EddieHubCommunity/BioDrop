@@ -1,9 +1,8 @@
 {
   "name": "Bruce Wang",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Open Source DevRel | Front End Developer | Web3 Developer",
-  "avatar": "https://github.com/brucewangyq.png",
+
   "tags": [
     "Open Source",
     "Javascript",

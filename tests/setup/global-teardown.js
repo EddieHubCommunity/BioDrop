@@ -12,6 +12,7 @@ dotenv.config();
 module.exports = async (config) => {
   // remove test file data
   USERS.forEach((username) => fs.unlinkSync(`./data/${username}.json`));
+  fs.unlinkSync(`./data/_test-wcag-user.json`)
 
   // remove test data in database
   await connectMongo();
