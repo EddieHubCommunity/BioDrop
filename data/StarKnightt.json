@@ -1,0 +1,32 @@
+{
+  "name": "Prasenjit Nayak",
+  "type": "personal",
+  "bio": "A college student trying to be a **Programmer**. Programming enthusiast, touch typing & Love to play video games",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Star_Knight12",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/starknight__/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prasenjitnayak/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/StarKnightt",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/17071919/star-knight",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}
