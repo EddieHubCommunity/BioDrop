@@ -19,17 +19,19 @@ export default function UserTabs({ tabs, setTabs }) {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        <select
-          id="tabs"
-          name="tabs"
-          onChange={changeTab}
-          className="block w-full rounded-md border-primary-low-medium dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
-          defaultValue={tabs.find((tab) => tab.current).name}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
-          ))}
-        </select>
+        {tabs.length > 1 && (
+          <select
+            id="tabs"
+            name="tabs"
+            onChange={changeTab}
+            className="block w-full rounded-md border-primary-low-medium dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
+            defaultValue={tabs.find((tab) => tab.current).name}
+          >
+            {tabs.map((tab) => (
+              <option key={tab.name}>{tab.name}</option>
+            ))}
+          </select>
+        )}
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low-medium">
