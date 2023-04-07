@@ -10,11 +10,11 @@ export default function Changelog() {
   };
   const changes = [
     {
-      title: "Profile progress bar",
+      title: "LinkFree now has DarkMode",
       description:
-        "It is now possible to track your LinkFree profile progress",
+        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
       type: "addition",
-      date: "2023-03-26",
+      date: "2023-04-08",
     },
     {
       title: "Profile QR code download",
@@ -22,6 +22,12 @@ export default function Changelog() {
         "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
       type: "addition",
       date: "2023-03-31",
+    },
+    {
+      title: "Profile progress bar",
+      description: "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
     },
     {
       title: "Dedicated domain (url)",
