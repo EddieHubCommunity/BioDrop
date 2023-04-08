@@ -85,6 +85,7 @@ export default function Playground() {
         <Input
           name={gitUsername}
           value={gitUsername}
+          className="dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium"
           placeholder="Enter github username"
           onChange={(e) => setGitUsername(e.target.value)}
         />
@@ -101,7 +102,7 @@ export default function Playground() {
               },
             ],
  }`}
-          className="mt-4 h-80 border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+          className="mt-4 h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           name="profileJson"
           value={profileJson}
           onChange={(e) => {

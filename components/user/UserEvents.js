@@ -35,7 +35,7 @@ export default function UserEvents({ data }) {
       />
 
       {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-primary-low">
         {data.events &&
           categorisedEvents[eventType].map((event, index) => (
             <EventCard event={event} key={index} />
