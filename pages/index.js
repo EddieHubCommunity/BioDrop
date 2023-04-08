@@ -258,8 +258,8 @@ export default function Home({ total, today }) {
             </div>
             <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
               <Image
-                className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20 h-auto w-auto"
-                src="/mockup.png"
+                className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 h-auto w-auto"
+                src="https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png"
                 priority
                 alt="App screenshot"
                 width={500}
