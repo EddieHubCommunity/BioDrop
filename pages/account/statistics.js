@@ -129,7 +129,7 @@ export default function Statistics({ data, profile, progress }) {
       />
 
       <Page>
-        <div className="w-full border p-4 my-6">
+        <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
               Profile Completion: {progress.percentage}%
@@ -155,8 +155,8 @@ export default function Statistics({ data, profile, progress }) {
 
         <BasicCards data={cardData} />
 
-        <div className="border my-6">
-          <div className="border-b border-primary-low bg-white dark:bg-primary-high px-4 py-5 mb-2 sm:px-6">
+        <div className="border my-6 dark:border-primary-medium">
+          <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
             <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
@@ -196,14 +196,14 @@ export default function Statistics({ data, profile, progress }) {
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-primary-low bg-white dark:bg-primary-high">
+          <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
                     {link.url}
                   </td>
-                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low-medium">
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}
                   </td>
                 </tr>
