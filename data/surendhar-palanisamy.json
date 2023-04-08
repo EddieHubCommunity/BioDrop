@@ -1,0 +1,12 @@
+{
+  "name": "Surendhar Palanisamy",
+  "type": "personal",
+  "bio": "I break and build stuff",
+  "links": [
+    {
+      "name": "Let's connect on twitter",
+      "url": "https://twitter.com/juz_ren",
+      "icon": "FaTwitterSquare"
+    }
+  ]
+}
