@@ -16,7 +16,7 @@ test.fixme("Events listed", async ({ page }) => {
 });
 
 test("should pass axe wcag accessibility tests", async ({ page }) => {
-  await page.goto("/events");
+  await page.goto("/");
   const accessibilityScanResults = await new AxeBuilder({ page })
     .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
     .analyze();

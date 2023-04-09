@@ -34,10 +34,10 @@ test("docs has gitpod link", async ({ page }) => {
   await expect(page).toHaveURL(/gitpod/);
 });
 
-test('should pass axe wcag accessibility tests', async ({ page }) => {
-  await page.goto('/docs');
+test("should pass axe wcag accessibility tests", async ({ page }) => {
+  await page.goto("/");
   const accessibilityScanResults = await new AxeBuilder({ page })
-    .withTags(['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'])
+    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
     .analyze();
   expect(accessibilityScanResults.violations).toEqual([]);
 });
