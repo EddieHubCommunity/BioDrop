@@ -1,0 +1,19 @@
+{
+  "name": "nickaldwin",
+  "displayStatsPublic": "true",
+  "type": "personal",
+  "bio": "I'am a fullstack software developer",
+  "avatar": "https://github.com/nickaldwin.png",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nicklemoncito",
+      "icon": "Fatwitter"
+    },
+     {
+      "name": "Follow me on Github",
+      "url": "https://twitter.com/nickaldwin",
+      "icon": "FaGithub"
+     },
+  ]
+ }
