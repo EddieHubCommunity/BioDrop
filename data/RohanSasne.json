@@ -2,6 +2,19 @@
   "name": "Rohan Sasne",
   "type": "personal",
   "bio": "Chase down your dreams and don’t be fearful. Let your faith be stronger than your fear :)",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Golang"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/nottmuffin" },
+    { "icon": "FaGithub", "url": "https://github.com/RohanSasne" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@rohansasne30" }
+  ],
+  
+  
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -15,7 +28,7 @@
     },
     {
       "name": "I Write Technical Blogs",
-      "url": "https://rohansasne30.hashnode.dev/",
+      "url": "https://hashnode.com/@rohansasne30",
       "icon": "SiHashnode"
     },
     {
