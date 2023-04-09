@@ -12,7 +12,7 @@ export default function UserMilestones({ data }) {
   return (
     <>
       {!data.milestones && <Alert type="info" message="No milestones found" />}
-      <ul role="list" className="divide-y divide-gray-200 mt-4">
+      <ul role="list" className="divide-y divide-primary-low mt-4">
         {data.milestones &&
           historicMilestones.map((milestone, key) => (
             <UserMilestone milestone={milestone} isGoal={false} key={key} />
@@ -20,12 +20,12 @@ export default function UserMilestones({ data }) {
       </ul>
 
       {futureMilestones.length > 0 && (
-        <div className="flex justify-center items-center gap-3 text-gray-500 my-4 text-xl p-4">
+        <div className="flex justify-center items-center gap-3 text-primary-low-medium my-4 text-xl p-4">
           Future Goals
         </div>
       )}
 
-      <ul role="list" className="divide-y divide-gray-200 mt-4">
+      <ul role="list" className="divide-y divide-primary-low mt-4">
         {futureMilestones.map((goal, key) => (
           <UserMilestone milestone={goal} isGoal={true} key={key} />
         ))}

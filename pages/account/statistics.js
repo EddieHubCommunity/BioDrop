@@ -129,13 +129,13 @@ export default function Statistics({ data, profile, progress }) {
       />
 
       <Page>
-        <div className="w-full border p-4 my-6">
+        <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
-            <span className="text-lg font-medium text-gray-600">
+            <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
-              <span className="text-gray-400">
+              <span className="text-primary-low-medium">
                 (missing sections in your profile are:{" "}
                 {progress.missing.join(",")})
               </span>
@@ -155,12 +155,12 @@ export default function Statistics({ data, profile, progress }) {
 
         <BasicCards data={cardData} />
 
-        <div className="border my-6">
-          <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
-            <h3 className="text-lg font-medium leading-6 text-gray-900">
+        <div className="border my-6 dark:border-primary-medium">
+          <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
+            <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
-            <p className="mt-1 text-sm text-gray-500">
+            <p className="mt-1 text-sm text-primary-medium dark:text-primary-low-medium">
               How many profile visits you got per day. You have{" "}
               {abbreviateNumber(data.profile.monthly)} Profile views in the last
               30 days with a total of {abbreviateNumber(data.profile.total)}.
@@ -179,31 +179,31 @@ export default function Statistics({ data, profile, progress }) {
           </div>
         </div>
 
-        <table className="min-w-full divide-y divide-gray-300">
-          <thead className="bg-gray-50">
+        <table className="min-w-full divide-y divide-primary-low-medium">
+          <thead className="bg-primary-low dark:bg-primary-medium">
             <tr>
               <th
                 scope="col"
-                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high dark:text-primary-low sm:pl-6"
               >
                 Url ({data.links.individual.length})
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className="px-3 py-3.5 text-left text-sm font-semibold text-primary-high"
               >
                 Clicks ({abbreviateNumber(data.links.clicks)})
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 bg-white">
+          <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
                     {link.url}
                   </td>
-                  <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}
                   </td>
                 </tr>

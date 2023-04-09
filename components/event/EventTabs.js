@@ -20,7 +20,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           id="tabs"
           name="tabs"
           onChange={(e) => changeTab(e)}
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md border-primary-low-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
           defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
         >
           {tabs.map((tab) => (
@@ -29,7 +29,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
         </select>
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-gray-200">
+        <div className="border-b border-primary-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
@@ -38,8 +38,8 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
                   tab.key === eventType
-                    ? "border-indigo-500 text-indigo-600"
-                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
+                    ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
+                    : "border-transparent text-primary-medium dark:text-primary-low-medium dark:hover:text-primary-low-medium hover:text-primary-medium hover:border-primary-low-medium",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}
                 aria-current={tab.key === eventType ? "page" : undefined}

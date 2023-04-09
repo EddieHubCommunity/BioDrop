@@ -36,22 +36,22 @@ export default function NoProfile() {
         <div className="bg-white">
           <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-4xl font-bold tracking-tight text-gray-900">
+              <h2 className="text-4xl font-bold tracking-tight text-primary-high">
                 Your LinkFree Profile does not exist yet
               </h2>
-              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-700">
+              <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium">
                 Please follow the QuickStart guide to create your Profile
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="https://linkfree.eddiehub.io/eddiejaoude"
-                  className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-secondary-high px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-secondary-low focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
                 >
                   Example
                 </a>
                 <a
                   href="https://linkfree.eddiehub.io/docs/quickstart"
-                  className="text-base font-semibold leading-7 text-gray-900"
+                  className="text-base font-semibold leading-7 text-primary-high"
                 >
                   QuickStart Guide <span aria-hidden="true">→</span>
                 </a>
