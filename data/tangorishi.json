@@ -3,7 +3,7 @@
   "type": "personal",
   "bio": "Just a guy passionate for Web Development",
 
-  "tags": [ "C++","Open Source", "WebDev" "Javascript", "Java", "C", "Frontend"],
+  "tags": [ "C++","Open Source", "WebDev", "Javascript", "Java", "C", "Frontend"],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iamrishijo" },
