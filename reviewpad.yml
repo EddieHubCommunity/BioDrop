@@ -100,3 +100,10 @@ workflows:
   #     - rule: check-for-status-block
   #   then:
   #     - '$addLabel("🚧 status: blocked")'
+  
+  - name: mark-PR-blocked-if-not-status-ready-for-dev
+    always-run: true
+    if: 
+      - '$isElementOf("🏁 status: ready for dev", $labels()) == false'
+    then:
+      - '$addLabel("🚧 status: blocked")'
