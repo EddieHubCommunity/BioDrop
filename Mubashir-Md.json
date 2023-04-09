@@ -1,0 +1,22 @@
+{
+  "name": "Mohammad Mubashir Ahmed",
+  "type": "personal",
+  "bio": "Front end web developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Mubashir_061",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mubashir061",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Mubashir-Md",
+      "icon": "FaGithub"
+    }
+  ]
+}
