@@ -38,7 +38,7 @@ export default function Badge({
     <div
       title={title}
       className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 py-1 px-1.5 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold ${
-        disable ? "text-gray-500 bg-gray-200" : "text-black bg-orange-600"
+        disable ? "text-primary-medium bg-primary-low" : "text-black bg-tertiary-medium"
       } rounded-full z-10 ${css} ${badgeClassName}`}
       onClick={() => (onClick ? onClick() : null)}
     >

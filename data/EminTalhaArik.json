@@ -3,12 +3,7 @@
   "type": "personal",
   "bio": "Business Analyst | Software Developer | **Full Time Learner**",
 
-  "tags": [
-    "Entrepreneurship",
-    "Analysis",
-    "Python",
-    "Django"
-  ],
+  "tags": ["Entrepreneurship", "Analysis", "Python", "Django"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/talheminn" },
     { "icon": "FaGithub", "url": "https://github.com/EminTalhaArik" },

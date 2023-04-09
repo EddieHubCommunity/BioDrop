@@ -5,7 +5,8 @@
   "tags": ["Open Source", "DevOps"],
   "Socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/jagan_1607" },
-    { "icon": "FaGithub", "url": "https://github.com/J-CODE07" }
+    { "icon": "FaGithub", "url": "https://github.com/J-CODE07" },
+    { "icon": "SiHashnode", "url": "https://j-code.hashnode.dev/" }
   ],
   "links": [
     {
@@ -20,6 +21,13 @@
       "name": "GitHub - Open Source",
       "url": "https://github.com/J-CODE07",
       "icon": "FaGithub"
+    },
+
+    {
+      "group": "socials",
+      "name": "Hashnode - Blog",
+      "url": "https://j-code.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }
