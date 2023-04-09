@@ -1,0 +1,23 @@
+{
+  "name": "Vivek nath",
+  "type": "personal",
+  "bio": "The java code , OpenSource,remote work ,Linux, every one to learn code  because it develop you logic power",
+  "links": [
+  {
+  "name": "Follow me on twitter",
+  "url": "https://twitter.com/Viveknath",
+  "icon": "FaTwitter"
+},
+{
+  "name": "Follow me on Github",
+  "url": "https://github.com/vivek839",
+  "icon": "GithubAlt"
+},
+{
+  "name": "Follow me on Linkdin",
+  "url": "https://www.linkedin.com/in/VivekNath",
+  "icon": "FaLinkedin"
+  
+},
+  ]
+}
