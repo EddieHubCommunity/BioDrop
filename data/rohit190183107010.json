@@ -1,5 +1,4 @@
 {
-  
   "name": "Rohiit Yaddav",
   "type": "personal",
   "bio": "**TechOps Engineer** | **DevOps** | **Open Source** | **GitHub** Star",
@@ -37,7 +36,7 @@
       "icon": "FaTwitter"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Postman API Fundamentals Student Expert",
@@ -64,6 +63,5 @@
       "description": "**AWS** Cloud Practitioner Essentials ",
       "url": "https://www.amazon.com/courses/certificates/c652ca49-6b76-40cd-a249-5f60b2563e25?ref_=cm_sw_r_cp_ud_aloc_cert_HQFZ0YSR8JNARBAB7DMT"
     }
-    
   ]
 }
