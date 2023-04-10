@@ -1,13 +1,13 @@
 {
   "name": "Stiaan Wolfaardt",
   "type": "personal",
-  "bio": "**Software Engineer** based in Cape Town, South Africa.",
+  "bio": "Software Engineer based in Cape Town, South Africa",
   "tags": ["Javascript", "Typescript", "React"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/StiaanW" },
     { "icon": "FaGithub", "url": "https://github.com/STIAANWOL" },
     {
-      "icon": "FaYoutube",
+      "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/stiaanwolfaardt"
     }
   ],
