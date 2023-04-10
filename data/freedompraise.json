@@ -11,12 +11,12 @@
     {
       "name": "Checkout my GitHub",
       "url": "https://github.com/freedompraise",
-      "icon": "FaGitHub"
+      "icon": "FaGithub"
     },
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/praise-dike",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     }
   ]
 }
