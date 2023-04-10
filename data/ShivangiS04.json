@@ -3,7 +3,7 @@
   "type": "Personal",
   "bio": "Just an Engineering undergrad trying to find her place in the world.",
 
-"links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/aloobandar01",
@@ -20,17 +20,14 @@
       "icon": "FaLinkedin"
     },
     {
-   "name": "Follow me on Youtube",
+      "name": "Follow me on Youtube",
       "url": "https://www.youtube.com/@shivangisingh1388/channels",
       "icon": "FaYoutube"
     },
     {
-   "name": "Add me on Discord",
+      "name": "Add me on Discord",
       "url": "shivzkewlkid#2471",
       "icon": "FaDiscord"
     }
-      
-    ]
-
+  ]
 }
-  
