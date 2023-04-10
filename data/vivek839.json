@@ -11,13 +11,13 @@
 {
   "name": "Follow me on Github",
   "url": "https://github.com/vivek839",
-  "icon": "GithubAlt"
+  "icon": "Github"
 },
 {
   "name": "Follow me on Linkdin",
   "url": "https://www.linkedin.com/in/VivekNath",
   "icon": "FaLinkedin"
   
-},
+}
   ]
 }
