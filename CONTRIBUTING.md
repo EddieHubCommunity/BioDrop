@@ -29,6 +29,7 @@ Before working on an existing Issue please follow these steps:
 > Notes:
 > - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
 > - only request to be assigned an issue if you know how to work on it
+> - an issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
 
 ## Reviewing Pull Requests
 
