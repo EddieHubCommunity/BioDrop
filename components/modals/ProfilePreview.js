@@ -3,21 +3,23 @@ import { useEffect, useRef } from "react";
 
 export default function Preview({ toggle, data }) {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
-  const modalContentRef = useRef(null)
-
+  const modalContentRef = useRef(null);
 
   const handleClickOutsideContentBox = (event) => {
-    if (modalContentRef.current && !modalContentRef.current.contains(event.target)) {
+    if (
+      modalContentRef.current &&
+      !modalContentRef.current.contains(event.target)
+    ) {
       toggle();
     }
-  }
+  };
 
   useEffect(() => {
     const handleEscapeKeyPress = (event) => {
       if (event.key === "Escape") {
         toggle();
       }
-    }
+    };
 
     document.addEventListener("keydown", handleEscapeKeyPress);
 
@@ -36,7 +38,10 @@ export default function Preview({ toggle, data }) {
     >
       <div class="relative w-full h-full max-w-5xl md:h-auto mx-auto shadow-2xl">
         {/* <!-- Modal content --> */}
-        <div ref={modalContentRef} class="relative bg-white text-primary-high rounded-lg">
+        <div
+          ref={modalContentRef}
+          class="relative bg-white text-primary-high rounded-lg"
+        >
           {/* <!-- Modal header --> */}
           <div class="flex items-start justify-between p-4  rounded-t border-primary-medium">
             <button
