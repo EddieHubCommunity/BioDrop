@@ -3,20 +3,21 @@
   "type": "personal",
   "bio": "Passionate problem solver with a love for Python and Django. Always learning and building projects to sharpen my skills",
   "links":[
-  {
-  "name": "Follow me on Twitter",
-  "url": "https://twitter.com/freedom_praise",
-  "icon": "FaTwitter"
-},
-{
-  "name": "Checkout my GitHub",
-  "url": "https://github.com/freedompraise",
-  "icon": "FaGitHub"
-},
-{
-  "name": "Connect with my on LinkedIn"
-  "url": "https://www.linkedin.com/in/praise-dike",
-  "icon": "FaLinkedIn"
-  }
-]
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/freedom_praise",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my GitHub",
+      "url": "https://github.com/freedompraise",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/praise-dike",
+      "icon": "FaLinkedIn"
+    }
+  ]
 }
+
