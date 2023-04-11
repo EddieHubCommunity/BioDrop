@@ -38,9 +38,9 @@ export default function Navbar() {
     if (currentTheme === "dark") {
       return (
         <button className="p-2 text-white" onClick={() => setTheme("light")}>
-          <FaSun />
+          <FaSun className="text-gray-400 hover:text-white"/>
         </button>
-      );
+      )
     }
 
     return (
@@ -49,7 +49,7 @@ export default function Navbar() {
         onClick={() => setTheme("dark")}
         aria-label="Toggle Theme"
       >
-        <FaRegMoon />
+        <FaRegMoon className="text-gray-400 hover:text-white" />
       </button>
     );
   };
@@ -170,7 +170,7 @@ export default function Navbar() {
                     rel="noreferrer"
                     className="text-white"
                   >
-                    <FaGithub aria-label="GitHub" />
+                    <FaGithub className="text-gray-400 hover:text-white" aria-label="GitHub" />
                   </a>
                 </div>
                 {authControls()}
@@ -255,7 +255,7 @@ export default function Navbar() {
                     rel="noreferrer"
                     className="text-white"
                   >
-                    <FaGithub aria-label="GitHub" />
+                    <FaGithub className="text-gray-400 hover:text-white" aria-label="GitHub" />
                   </Link>
                 </div>
                 {authControls()}
