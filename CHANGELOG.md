@@ -1,9 +1,9 @@
-## 1.109.4 (2023-04-11)
+## 1.109.5 (2023-04-11)
 
 
 ### Bug Fixes
 
-* hover button in light mode ([#5928](https://github.com/EddieHubCommunity/LinkFree/issues/5928)) ([9a0e655](https://github.com/EddieHubCommunity/LinkFree/commit/9a0e655a6bb42e3b57a597146d73bba07fec7057))
+* icon hover on NavBar ([#5974](https://github.com/EddieHubCommunity/LinkFree/issues/5974)) ([dafd581](https://github.com/EddieHubCommunity/LinkFree/commit/dafd5815c1db01d584c9afdf1203737288812282)), closes [#5972](https://github.com/EddieHubCommunity/LinkFree/issues/5972)
 
 
 
