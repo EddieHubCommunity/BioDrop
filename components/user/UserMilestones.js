@@ -6,15 +6,18 @@ export default function UserMilestones({ data }) {
     (milestone) => !milestone.isGoal
   );
 
+  const descendingMilestones = historicMilestones.reverse();
+
   const futureMilestones = data.milestones.filter(
     (milestone) => milestone.isGoal
   );
+
   return (
     <>
       {!data.milestones && <Alert type="info" message="No milestones found" />}
       <ul role="list" className="divide-y divide-primary-low mt-4">
         {data.milestones &&
-          historicMilestones.map((milestone, key) => (
+          descendingMilestones.map((milestone, key) => (
             <UserMilestone milestone={milestone} isGoal={false} key={key} />
           ))}
       </ul>
