@@ -1,0 +1,22 @@
+{
+  "name": "Wes MacDonald",
+  "type": "personal",
+  "bio": "Hi! I'm a Software Engineer with a background in Microbiology. I love learning, gardening, cooking, making coffee & cocktails, & living in the PNW! Currently job hunting, interning, and building my Python, JavaScript, & Open source skills.",
+  "links": [
+    {
+    "name": "Check out my work on GitHub",
+    "url": "https://github.com/wrmacdonald",
+    "icon": "FaGithub"
+  },
+{
+    "name": "Follow me on Mastodon",
+    "url": "@wrmacdonald@hachyderm.io",
+    "icon": "FaMastodon"
+  },
+{
+    "name": "Glance at my LinkedIn",
+    "url": "https://www.linkedin.com/in/wes-macdonald-2016/",
+    "icon": "FaLinkedin"
+  }
+  ]
+}
