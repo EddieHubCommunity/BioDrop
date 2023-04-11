@@ -25,6 +25,12 @@
     },
     {
       "group": "Primary Socials",
+      "name": "Follow me on Hashnode",
+      "url": "https://ashutoshsahu07.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "group": "Primary Socials",
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/Ashutosh-s07",
       "icon": "FaGithub"
