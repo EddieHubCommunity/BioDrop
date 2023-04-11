@@ -11,7 +11,7 @@ export default function Button({
   !disable
     ? (className += primary
         ? " text-white bg-secondary-medium hover:bg-secondary-high"
-        : " text-secondary-high dark:text-secondary-high dark:hover:text-white dark:bg-secondary-low hover:bg-secondary-medium dark:hover:bg-secondary-medium")
+        : " text-secondary-high dark:text-secondary-high hover:text-white dark:hover:text-white dark:bg-secondary-low hover:bg-secondary-medium dark:hover:bg-secondary-medium")
     : (className += disable
         ? " border-2 border-red border shadow-sm bg-primary-low text-primary-medium cursor-not-allowed "
         : " cursor-pointer");
