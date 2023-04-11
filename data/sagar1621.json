@@ -9,7 +9,8 @@
 		"Tailwind CSS",
 		"React Native"
 	],
-	"socials": [{
+	"socials": [
+		{
 			"icon": "FaLinkedin",
 			"url": "https://www.linkedin.com/in/sagar-biradar-673552211/"
 		},
@@ -22,7 +23,8 @@
 			"url": "https://github.com/sagar1621"
 		}
 	],
-	"links": [{
+	"links": [
+		{
 			"group": "Portfolio",
 			"name": "Portfolio Website",
 			"url": "https://sagar1621-portfolio-website.netlify.app/",
