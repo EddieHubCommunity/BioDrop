@@ -1,0 +1,21 @@
+{
+  "name": "Pushkar Roy",
+  "type": "personal",
+  "bio": "Software Developer **Full Stack developer**. Travel enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/roy2pushkar",
+      "icon": "FaTwitter"
+    }
+    
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/roy2pushkar/",
+      "icon": "FaLinkedin"
+    },
+   
+  
+
+  ]
+}
