@@ -171,7 +171,6 @@ export default function Navbar() {
                     className="text-white"
                   >
                     <FaGithub className="text-gray-400 hover:text-white" aria-label="GitHub" />
-
                   </a>
                 </div>
                 {authControls()}
