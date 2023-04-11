@@ -4,18 +4,27 @@
   "bio": "Software Developer **Full Stack developer**. Travel enthusiast ",
   "links": [
     {
+      "name": "Github",
+      "url": "https://github.com/roy2pushkar",
+      "icon": "FaGithub"
+    },
+    {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/roy2pushkar",
       "icon": "FaTwitter"
-    }
-,
+    },
     {
-      "name": "Follow me on Linkedin",
+      "name": "Reach out on LinkedIn",
       "url": "https://www.linkedin.com/in/roy2pushkar/",
       "icon": "FaLinkedin"
     }
-
-
-
   ]
 }
+
+
+
+
+
+
+
+
