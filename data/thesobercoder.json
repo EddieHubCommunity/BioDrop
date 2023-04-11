@@ -13,7 +13,8 @@
     "Go",
     "Rust",
     "Docker",
-    "Kubernetes"
+    "Kubernetes",
+    "Helm"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/thesobercoder" },
