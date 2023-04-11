@@ -1,9 +1,9 @@
-## 1.109.5 (2023-04-11)
+## 1.109.6 (2023-04-11)
 
 
 ### Bug Fixes
 
-* icon hover on NavBar ([#5974](https://github.com/EddieHubCommunity/LinkFree/issues/5974)) ([dafd581](https://github.com/EddieHubCommunity/LinkFree/commit/dafd5815c1db01d584c9afdf1203737288812282)), closes [#5972](https://github.com/EddieHubCommunity/LinkFree/issues/5972)
+* nav buttons and hover colours ([#5982](https://github.com/EddieHubCommunity/LinkFree/issues/5982)) ([af7051c](https://github.com/EddieHubCommunity/LinkFree/commit/af7051c1d1f75e1500482ceb5a89435a752fcb06))
 
 
 
