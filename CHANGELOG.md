@@ -1,9 +1,9 @@
-## 1.109.8 (2023-04-11)
+## 1.109.9 (2023-04-12)
 
 
 ### Bug Fixes
 
-* qr code dark mode white border ([#5994](https://github.com/EddieHubCommunity/LinkFree/issues/5994)) ([825c6cf](https://github.com/EddieHubCommunity/LinkFree/commit/825c6cf988364133211ed83120e1aa7577b56f56))
+* dark mode docs ([#6005](https://github.com/EddieHubCommunity/LinkFree/issues/6005)) ([e3a43ea](https://github.com/EddieHubCommunity/LinkFree/commit/e3a43eab6c7b7ef5fdc5f42df6b815114122a7ac)), closes [#6000](https://github.com/EddieHubCommunity/LinkFree/issues/6000)
 
 
 
