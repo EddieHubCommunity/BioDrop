@@ -1,9 +1,9 @@
-## 1.109.9 (2023-04-12)
+## 1.109.10 (2023-04-12)
 
 
 ### Bug Fixes
 
-* dark mode docs ([#6005](https://github.com/EddieHubCommunity/LinkFree/issues/6005)) ([e3a43ea](https://github.com/EddieHubCommunity/LinkFree/commit/e3a43eab6c7b7ef5fdc5f42df6b815114122a7ac)), closes [#6000](https://github.com/EddieHubCommunity/LinkFree/issues/6000)
+* click outside profile preview modal ([#6009](https://github.com/EddieHubCommunity/LinkFree/issues/6009)) ([4be9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/4be9ab2c2f577e44be29e99a05f350c36b6da286)), closes [#5932](https://github.com/EddieHubCommunity/LinkFree/issues/5932)
 
 
 
