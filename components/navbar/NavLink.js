@@ -2,11 +2,11 @@ import Link from "@components/Link";
 
 export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =
-    "text-primary-low-medium hover:ring-2 hover:ring-primary-medium dark:hover:ring-dark-low hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+    "text-primary-low hover:ring-2 hover:ring-primary-medium dark:hover:ring-secondary-low hover:text-secondary-low px-3 py-2 rounded-md text-sm font-medium";
 
   if (mode === "mobile") {
     className =
-      "text-primary-low-medium hover:ring-2 hover:ring-primary-medium hover:text-white block px-3 py-2 rounded-md text-base font-medium";
+      "text-primary-low hover:ring-2 hover:ring-primary-medium hover:text-secondary-low block px-3 py-2 rounded-md text-base font-medium";
   }
 
   if (path?.split("/")[1] === item.url.split("/")[1]) {

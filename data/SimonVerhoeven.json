@@ -2,14 +2,7 @@
   "name": "Simon Verhoeven",
   "type": "public",
   "bio": "I'm a software developer living in Belgium that's always open for an interesting chat.ob",
-  "tags": [
-    "OpenSource",
-    "Javascript",
-    "Java",
-    "Angular",
-    "SQL",
-    "Docker"
-  ],
+  "tags": ["OpenSource", "Javascript", "Java", "Angular", "SQL", "Docker"],
   "links": [
     {
       "name": "Follow me on Twitter",
