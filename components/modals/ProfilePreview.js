@@ -1,31 +1,30 @@
-import UserPage from "@components/user/UserPage";
 import { useEffect, useRef } from "react";
+
+import UserPage from "@components/user/UserPage";
 
 export default function Preview({ toggle, data }) {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
   const modalContentRef = useRef(null);
 
-  const handleClickOutsideContentBox = (event) => {
+  const handleClickOutsideContentBox = (e) => {
     if (
       modalContentRef.current &&
-      !modalContentRef.current.contains(event.target)
+      !modalContentRef.current.contains(e.target)
     ) {
       toggle();
     }
   };
 
   useEffect(() => {
-    const handleEscapeKeyPress = (event) => {
-      if (event.key === "Escape") {
+    const handleEscapeKeyPress = (e) => {
+      if (e.key === "Escape") {
         toggle();
       }
     };
 
     document.addEventListener("keydown", handleEscapeKeyPress);
 
-    return () => {
-      document.removeEventListener("keydown", handleEscapeKeyPress);
-    };
+    return () => document.removeEventListener("keydown", handleEscapeKeyPress);
   }, []);
 
   return (
