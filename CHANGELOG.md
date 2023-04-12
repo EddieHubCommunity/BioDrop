@@ -1,9 +1,9 @@
-## 1.109.10 (2023-04-12)
+## 1.109.11 (2023-04-12)
 
 
 ### Bug Fixes
 
-* click outside profile preview modal ([#6009](https://github.com/EddieHubCommunity/LinkFree/issues/6009)) ([4be9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/4be9ab2c2f577e44be29e99a05f350c36b6da286)), closes [#5932](https://github.com/EddieHubCommunity/LinkFree/issues/5932)
+* speaker details hidden in mobile [#5962](https://github.com/EddieHubCommunity/LinkFree/issues/5962) ([#5967](https://github.com/EddieHubCommunity/LinkFree/issues/5967)) ([acc761f](https://github.com/EddieHubCommunity/LinkFree/commit/acc761f7270c12657efc69e42cd1c72b415b2201))
 
 
 
