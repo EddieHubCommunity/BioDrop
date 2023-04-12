@@ -1,9 +1,8 @@
 {
   "name": "Ayaan Bhaskar Bordoloi",
-  "displayStatsPublic": true,
   "type": "personal",
-  "bio": "Engineering Student|Learning **DevOps** & **DSA**| Technical writer",
-  "avatar": "https://github.com/Ayaan49.png",
+  "bio": "Engineering Sophomore | Learning **DevOps** | Technical writer",
+  "tags": ["Open Source", "DevOps", "Blogging", "Cloud"],
   "links": [
     {
       "name": "Follow me on Twitter",

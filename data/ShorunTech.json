@@ -1,8 +1,9 @@
 {
   "name": "ShorunTech",
   "type": "personal",
-  "bio": "Self-Taught Fulk-Stack Web Developer,Youtuber,Content Creator,Open Source Enthusiast!",
-  "avatar": "https://github.com/ShorunTech.png",
+  "bio": "**Self-Taught Full-Stack Web Developer** | Youtuber | Content Creator | Open Source Enthusiast!",
+  "tags": ["Open Source", "Javascript", "Web3", "Content Creator", "YouTuber"],
+
   "links": [
     {
       "name": "Follow me on GitHub",

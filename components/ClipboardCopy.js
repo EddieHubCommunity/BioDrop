@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { onlyText } from "react-children-utilities";
 
 const ClipboardCopy = ({ children }) => {
@@ -20,7 +20,7 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      console.log(err);
+      console.error(error);
     }
   };
 
@@ -36,7 +36,7 @@ const ClipboardCopy = ({ children }) => {
           {isCopied ? (
             <span className="text-green-500 text-sm">Copied!</span>
           ) : (
-            <span className="text-gray-500 text-sm">Copy</span>
+            <span className="text-primary-medium text-sm">Copy</span>
           )}
         </button>
       </div>

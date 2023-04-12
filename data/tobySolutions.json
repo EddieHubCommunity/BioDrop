@@ -1,9 +1,8 @@
 {
   "name": "Tobiloba Adedeji",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
-  "avatar": "https://github.com/tobySolutions.png",
+
   "tags": [
     "Open Source",
     "Javascript",
@@ -13,19 +12,40 @@
   ],
   "links": [
     {
+      "group": "Socials Primary",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/toby_solutions",
       "icon": "FaTwitter"
     },
     {
+      "group": "Socials Primary",
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/tobiloba-adedeji",
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials Primary",
       "name": "Github",
       "url": "https://github.com/tobySolutions",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Check out my Awesome YouTube Channel",
+      "url": "https://www.youtube.com/channel/UC9JYiFFgkOQxg2kwTWauwzw",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Coffee chat",
+      "name": "Book a coffee chat with me",
+      "url": "https://cal.com/toby-solutions/30min",
+      "icon": "FaCoffee"
+    },
+    {
+      "group": "Sponsorship",
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/tobySolutions",
+      "icon": "FaCoffee"
     }
   ],
   "milestones": [
@@ -106,7 +126,31 @@
       "color": "green",
       "description": "Started the Programming Expert course to be a guide on my journey to becoming a Software Engineer",
       "url": "https://programmingexpert.io"
+    },
+    {
+      "title": "Attended the Microsoft ADC Learnathon",
+      "date": "2023",
+      "icon": "SiMicrosoft",
+      "color": "blue",
+      "description": "I attended the Microsoft Learnathon organized by the ADC ecosystem and hosted at the Microsoft Nigeria's branch",
+      "url": "https://twitter.com/toby_solutions/status/1623026397055680512"
+    },
+    {
+      "title": "Became Web team volunteer PAADC Cohort 7.0",
+      "date": "2023",
+      "icon": "CgCommunity",
+      "color": "green",
+      "description": "I became a member of the Web team for the Cohort 7.0 of the Professor Ayodele Awojobi Design Competition",
+      "url": "https://paadc.com/about-us"
     }
   ],
-  "testimonials": ["MadhuSaini22"]
+  "testimonials": [
+    "MadhuSaini22",
+    "krshkun",
+    "shubhsharma19",
+    "oyenolaphilipinc",
+    "Shukla007",
+    "Ellah120",
+    "AliReza1083"
+  ]
 }

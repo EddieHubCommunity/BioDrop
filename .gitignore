@@ -34,3 +34,6 @@ test-results/
 
 # storybook
 /storybook-static
+
+# vscode
+.vscode

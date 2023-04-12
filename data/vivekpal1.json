@@ -2,7 +2,7 @@
   "name": "Vivek Pal",
   "type": "personal",
   "bio": "Full Stack Deveoper. Learning Web3. Open Source Enthusiast! Founder and Developer Shastra OS",
-  "avatar": "https://github.com/vivekpal1.png",
+
   "links": [
     {
       "name": "My Website",
@@ -23,7 +23,7 @@
   "milestones": [
     {
       "title": "Published first book.",
-      "image": "https://m.media-amazon.com/images/I/41HhrXSEazL._SL500_.jpg",
+
       "date": "Aug 10, 2020",
       "icon": "FaBook",
       "color": "teal",
@@ -40,7 +40,7 @@
     },
     {
       "title": "Completed CS50 2021",
-      "image": "https://www.harvard.edu/wp-content/themes/core/assets/img/theme/branding-assets/footer-logo.svg",
+
       "date": "September 2021",
       "icon": "FaBook",
       "color": "red",
@@ -57,7 +57,7 @@
     },
     {
       "title": "Started working on ShastraOS",
-      "image": "https://avatars.githubusercontent.com/u/100306470?s=200&v=4",
+
       "date": "Feb 2022",
       "icon": "Left arrow",
       "color": "purple",

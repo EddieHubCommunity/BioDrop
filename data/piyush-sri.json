@@ -1,0 +1,18 @@
+{
+  "name": "Piyush Srivastava",
+  "type": "personal",
+  "bio": "Frontend Developer, Passionate about Open Source,Exploring React and Node js",
+
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/piyush-srivastava-395841192/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/piyush-sri",
+      "icon": "FaGithub"
+    }
+  ]
+}

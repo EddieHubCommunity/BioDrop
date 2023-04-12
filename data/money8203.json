@@ -1,23 +1,61 @@
 {
   "name": "Manish Tyagi ",
   "type": "Personal",
-  "bio": "Open Source Enthusiast",
-  "avatar": "https://github.com/money8203.png",
+  "bio": "**Open Source** Advocate | Web Developer | Postman **Student Leader**",
+
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "Community Management",
+    "Content Writing",
+    "DevRel"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/ManishT93598843" },
+    { "icon": "FaGithub", "url": "https://github.com/money8203" },
+    { "icon": "FaLink", "url": "https://manishtyagi.carrd.co/" }
+  ],
+  "testimonials": ["the-amazing-atharva"],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manishtyagi__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "See my work on GitHub",
       "url": "https://github.com/money8203",
       "icon": "FaGithub"
     },
     {
-      "name": "Lets connect on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/ManishT93598843",
-      "icon": "FaTwitter"
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "name": "Google Developer Profile",
+      "url": "https://g.dev/manisht",
+      "icon": "SiGoogle"
+    },
+    {
+      "name": "Follow me on Insta",
+      "url": "https://instagram.com/manish_tyagi.__",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Personal Profile",
+      "url": "https://manishtyagi.carrd.co/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Microsoft Learn Profile",
+      "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
+      "icon": "SiMicrosoft"
     }
   ]
 }

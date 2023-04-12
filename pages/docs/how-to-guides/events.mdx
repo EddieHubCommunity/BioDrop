@@ -1,5 +1,6 @@
-import DocsLayout from "../../../components/layouts/DocsLayout.js";
-import ClipboardCopy from "../../../components/ClipboardCopy";
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
 
 ## Events
 
@@ -15,11 +16,11 @@ All future events also appear on the Events page for the app.
 
 1. Create a folder that matches your GitHub username in the `data` directory and then in that folder create another folder called `events`. For example `data/eddiejaoude/events/`
 
-2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name. For example `2023-09-13-javacsript-conference.json`.
+2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name. For example `2023-09-13-javascript-conference.json`.
 
-_If you need help on how to edit this file, please see the [Editing guide](/docs/how-to-guides/editing)_
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
-3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date` and `url`, which will look like this:
+3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location`, which will look like this:
 
 <ClipboardCopy>
 ```js
@@ -34,22 +35,38 @@ _If you need help on how to edit this file, please see the [Editing guide](/docs
     "end": "2022-12-09T17:00:00.000+00:00",
     "cfpClose": "2022-10-09T17:00:00.000+00:00"
   },
-  "url": "https://www.youtube.com/watch?v=iqIFD02OkVE"
+  "url": "https://www.youtube.com/watch?v=iqIFD02OkVE",
+  "location": {
+    "road": "Messe Berlin South Entrance & CityCube",
+    "city": "Jafféstrasse",
+    "state": "Berlin",
+    "country": "Germany"
+  }
 }
 ```
 </ClipboardCopy>
 
-| Property               | Description                                                 |
-| :--------------------- | :---------------------------------------------------------- |
-| isVirtual / isInPerson | Is the event virtual or in person or both                   |
-| color                  | What color would you like this milestone to be displayed in |
-| name                   | Name of the event                                           |
-| description            | More details about the event, this can include markdown     |
-| date                   | Start and end date plus time of the event                   |
-| cfpClose               | [optional] The date of when the CFP to submit a talk closes |
-| url                    | Where can people learn more about the event                 |
+| Property               | Required | Description                                                 |
+| :--------------------- | :------- | :---------------------------------------------------------- |
+| isVirtual / isInPerson | true     | Is the event virtual or in person or both                   |
+| color                  | true     | What color would you like this milestone to be displayed in |
+| name                   | true     | Name of the event                                           |
+| description            | true     | More details about the event, this can include markdown     |
+| date                   | true     | Start and end date plus time of the event                   |
+| cfpClose               | false    | The date of when the CFP to submit a talk closes            |
+| url                    | true     | Where can people learn more about the event                 |
+| location               | false    | Address of the event venue                                  |
 
-4. Now you can commit your file and create a Pull Request. For more details please see [Editing guide](/docs/how-to-guides/editing)
+| Location property | Required | Description                            |
+| :---------------- | :------- | :------------------------------------- |
+| road              | false    | In which road, the event is hosting    |
+| city              | false    | In which city, the event is hosting    |
+| state             | false    | In which state, the event is hosting   |
+| country           | false    | In which country, the event is hosting |
+
+4. Now you can commit your file and create a Pull Request. For more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+
+If you want to know how to properly add start, end, and CFP Close times, feel free to check [Unix Time stamp](https://www.unixtimestamp.com/).
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>

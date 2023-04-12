@@ -1,0 +1,13 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Swiss Cloud Native Day 2023",
+  "description": "The local Cloud Native community is organizing the third edition of the Swiss Cloud Native Day. Our event aims to bring newcomers and experts in the cloud-native space together and be an inspirational place where different perspectives and experiences meet.",
+  "date": {
+    "start": "2023-09-20T10:00:00.000+00:00",
+    "end": "2023-09-21T18:00:00.000+00:00",
+    "cfpClose": "2023-04-30T18:00:00.000+00:00"
+  },
+  "url": "https://cloudnativeday.ch/"
+}
