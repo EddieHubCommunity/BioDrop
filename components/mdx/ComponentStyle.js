@@ -1,8 +1,6 @@
+import Table from "./Table";
+
 export const ComponentStyle = {
-  table: (props) => (
-    <div className="w-full overflow-auto">
-      <table {...props}></table>
-    </div>
-  ),
+  table: Table,
   li: (props) => <li className="w-full break-all" {...props}></li>,
 };
