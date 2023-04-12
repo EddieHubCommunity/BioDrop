@@ -9,7 +9,7 @@ export const ComponentStyle = {
       <table {...props}></table>
     </div>
   ),
-  li: (props) => <li className="w-full break-all" {...props}></li>,
+  li: (props) => <Li {...props}></Li>,
   a: Link,
   strong: Strong,
   blockquote: BlockQuote,
