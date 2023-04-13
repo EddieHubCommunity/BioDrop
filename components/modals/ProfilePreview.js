@@ -1,10 +1,35 @@
+import { useEffect, useRef } from "react";
+
 import UserPage from "@components/user/UserPage";
 
 export default function Preview({ toggle, data }) {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+  const modalContentRef = useRef(null);
+
+  const handleClickOutsideContentBox = (e) => {
+    if (
+      modalContentRef.current &&
+      !modalContentRef.current.contains(e.target)
+    ) {
+      toggle();
+    }
+  };
+
+  useEffect(() => {
+    const handleEscapeKeyPress = (e) => {
+      if (e.key === "Escape") {
+        toggle();
+      }
+    };
+
+    document.addEventListener("keydown", handleEscapeKeyPress);
+
+    return () => document.removeEventListener("keydown", handleEscapeKeyPress);
+  }, []);
 
   return (
     <div
+      onClick={handleClickOutsideContentBox}
       id="defaultModal"
       tabindex="-1"
       aria-hidden="true"
@@ -12,7 +37,10 @@ export default function Preview({ toggle, data }) {
     >
       <div class="relative w-full h-full max-w-5xl md:h-auto mx-auto shadow-2xl">
         {/* <!-- Modal content --> */}
-        <div class="relative bg-white text-primary-high rounded-lg">
+        <div
+          ref={modalContentRef}
+          class="relative bg-white text-primary-high rounded-lg"
+        >
           {/* <!-- Modal header --> */}
           <div class="flex items-start justify-between p-4  rounded-t border-primary-medium">
             <button
