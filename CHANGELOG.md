@@ -1,9 +1,9 @@
-## 1.109.14 (2023-04-13)
+## 1.109.15 (2023-04-13)
 
 
 ### Bug Fixes
 
-* alias imports in services ([#6035](https://github.com/EddieHubCommunity/LinkFree/issues/6035)) ([1f36638](https://github.com/EddieHubCommunity/LinkFree/commit/1f3663801301ba6573553b50a76c513cb4ba7e03))
+* search stats reset ([#6030](https://github.com/EddieHubCommunity/LinkFree/issues/6030)) ([83828d4](https://github.com/EddieHubCommunity/LinkFree/commit/83828d4a68b2f5107242e4befb4ed3e5ebb1f73a))
 
 
 
