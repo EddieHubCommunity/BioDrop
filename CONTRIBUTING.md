@@ -19,6 +19,7 @@ Before **creating** an Issue for `features`/`bugs`/`improvements` please follow 
 
 Before working on an existing Issue please follow these steps:
 
+1. only ask to be assigned 1 issue at a time
 1. please do not ask to be assigned an issue that has the label `status: awaiting triage` - this creates more notifications for maintainers and it will not be assigned
 1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
 1. comment asking for the issue to be assigned to you (do not tag any maintainers as all maintainers receive your comment notifications)
