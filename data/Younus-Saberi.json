@@ -1,49 +1,49 @@
 {
-    "name": "Younus-Saberi",
-    "type": "personal",
-    "bio": "Enthusiastic in Cloud Computing | BackEnd Developer | Learning about DevOps Tools such as Docker, Kubernetes, CI/CD, IaaC, ",
-    "tags": [
-        "Open Source",
-        "DevOps",
-        "Kubernetes",
-        "Docker",
-        "Python",
-        "Node.js"
-    ],
-    "socials": [
-        {
-            "icon": "FaTwitter",
-            "url": "https://twitter.com/younussaberi"
-        },
-        {
-            "icon": "FaGithub",
-            "url": "https://github.com/Younus-Saberi"
-        },
-        {
-            "icon": "FaLinkedin",
-            "url": "https://www.linkedin.com/in/younus-saberi/"
-        }
-    ],
-    "links": [
-        {
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/younussaberi",
-            "icon": "FaTwitter"
-        },
-        {
-            "name": "Let's connect on Linkedin 🤝 ",
-            "url": "https://twitter.com/younussaberi",
-            "icon": "FaLinkedin"
-        },
-        {
-            "name": "My GitHub Profile💻",
-            "url": "https://github.com/Younus-Saberi",
-            "icon": "FaGithub"
-        },
-        {
-            "name": "Read some of my blogs 📃",
-            "url": "https://blog.younussaberi.me",
-            "icon": "SiHashnode"
-        }
-    ]
+  "name": "Younus-Saberi",
+  "type": "personal",
+  "bio": "Enthusiastic in Cloud Computing | BackEnd Developer | Learning about DevOps Tools such as Docker, Kubernetes, CI/CD, IaaC, ",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Python",
+    "Node.js"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/younussaberi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Younus-Saberi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/younus-saberi/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/younussaberi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on Linkedin 🤝 ",
+      "url": "https://twitter.com/younussaberi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My GitHub Profile💻",
+      "url": "https://github.com/Younus-Saberi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read some of my blogs 📃",
+      "url": "https://blog.younussaberi.me",
+      "icon": "SiHashnode"
+    }
+  ]
 }
