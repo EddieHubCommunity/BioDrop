@@ -22,26 +22,15 @@ test("Playground Opens correctly", async ({ page }) => {
   await page.getByPlaceholder("Enter github username").click();
   await page.getByPlaceholder("Enter github username").fill(username);
 
-  const userInput = await page.$("textarea[name = profileJson]");
+  const fs = require("fs");
+  const jsonFilePath = `data/${username}.json`;
+  const jsonData = fs.readFileSync(jsonFilePath, "utf8");
+  const data = JSON.parse(jsonData);
+  
+  const userInput = await page.$("textarea[name=profileJson]");
   await userInput.click();
-  await userInput.fill(`{
-    "name" : "${username.toUpperCase()}",
-    "type": "personal",
-    "bio" : "Bio for ${username}",
-    "links" : [
-      {
-        "name" : "Link 1",
-        "url" : "http://eddiejaoude.io",
-        "icon" : "FaBad-Icon"
-      },
-      {
-        "name" : "Link 2",
-        "url" : "http://eddiehub.org",
-        "icon" : "link"
-      }
-    ]
-  }`);
-
+  await userInput.fill(JSON.stringify(data));
+  
   await page.getByRole("button", { name: "Format" }).click();
 
   await page.getByRole("button", { name: "Validate" }).click();
