@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Page from "../../components/Page";
-import Link from "../../components/Link";
+import Page from "@components/Page";
+import Link from "@components/Link";
 
 export default function DocsIndex() {
   function classNames(...classes) {
@@ -66,7 +66,7 @@ export default function DocsIndex() {
           name: "LinkFree CLI",
           path: "/docs/environments/linkfree-cli",
           description:
-            "This CLI tool will allow you to create profile, update profile, add testimonal and more from the command line.",
+            "This CLI tool will allow you to create profile, update profile, add testimonials and more from the command line.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -87,6 +87,16 @@ export default function DocsIndex() {
           path: "/docs/environments/environment-variables",
           description:
             "To run the application you need to have environment variables set for the application to work correctly.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Community Resources",
+          path: "/docs/community-resources",
+          description:
+            "More information about Community resources and their collaborations.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -162,7 +172,7 @@ export default function DocsIndex() {
           name: "Milestones",
           path: "/docs/how-to-guides/milestones",
           description:
-            "Demostrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
+            "Demonstrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -193,6 +203,15 @@ export default function DocsIndex() {
       title: "Contributing",
       description: "You can contribute to our project in multiple ways",
       pages: [
+        {
+          name: "Maintainers",
+          path: "/docs/contributing/maintainers",
+          description: "Guidelines for reviewing Issues and Pull Requests",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
+          },
+        },
         {
           name: "Storybook",
           path: "/docs/contributing/storybook",
@@ -237,7 +256,7 @@ export default function DocsIndex() {
           name: "Labels",
           path: "/docs/contributing/labels",
           description:
-            "We use labels to display various information about the issue, for example: is it ready for development or is it still waiting for the maintainers to review, the complexity of the issue and more.",
+            "We use labels to display various information about the issue (for example: is it ready for development or is it still waiting for the maintainers to review), the complexity of the issue (with points) and more.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -271,8 +290,7 @@ export default function DocsIndex() {
         {
           name: "Map Information",
           path: "/docs/map",
-          description:
-            "Information describing how the map feature works.",
+          description: "Information describing how the map feature works.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -323,21 +341,24 @@ export default function DocsIndex() {
         </p>
         {sections.map((section) => (
           <div
-            className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
+            className="bg-white dark:bg-primary-high  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
-            <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
+            <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-medium lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
                   {section.title}
                 </h2>
-                <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+                <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-medium sm:mt-4">
                   {section.description}
                 </p>
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div key={page.name}>
+                  <div
+                    key={page.name}
+                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+                  >
                     <div>
                       <span
                         className={classNames(
@@ -349,10 +370,10 @@ export default function DocsIndex() {
                       </span>
                     </div>
                     <Link href={page.path} className="mt-4 block">
-                      <h3 className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-primary-high dark:text-primary-low">
                         {page.name}
                       </h3>
-                      <p className="mt-3 text-base text-gray-500">
+                      <p className="mt-3 text-base text-primary-medium dark:text-primary-low-medium">
                         {page.description}
                       </p>
                     </Link>

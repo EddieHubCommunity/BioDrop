@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import EventCard from "../event/EventCard";
-import Alert from "../Alert";
-import EventKey from "../event/EventKey";
+import EventCard from "@components/event/EventCard";
+import Alert from "@components/Alert";
+import EventKey from "@components/event/EventKey";
 
 export default function UserEvents({ data }) {
   const [eventType, seteventType] = useState("future");
@@ -35,7 +35,7 @@ export default function UserEvents({ data }) {
       />
 
       {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-primary-low">
         {data.events &&
           categorisedEvents[eventType].map((event, index) => (
             <EventCard event={event} key={index} />

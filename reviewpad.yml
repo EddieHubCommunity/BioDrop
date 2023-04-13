@@ -22,6 +22,12 @@ rules:
   - name: check-for-profile-addition
     spec: $rule("check-for-file-name") && $rule("modifies-only-one-file")
 
+  - name: check-for-linked-issues
+    spec: $hasLinkedIssues() == false
+
+  - name: check-for-status-block
+    spec: $rule("check-for-profile-addition") == false && $rule("check-for-linked-issues")
+
 workflows:
   - name: label-pull-request-with-size
     always-run: true
@@ -87,3 +93,10 @@ workflows:
       - rule: $hasFilePattern("stories/**")
     then:
       - '$addLabel("storybook")'
+
+  # - name: label-pull-request-with-block-status
+  #   always-run: true
+  #   if:
+  #     - rule: check-for-status-block
+  #   then:
+  #     - '$addLabel("🚧 status: blocked")'

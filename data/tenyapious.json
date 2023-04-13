@@ -4,6 +4,11 @@
   "bio": "Web Developer",
   "links": [
     {
+      "name": "Github",
+      "url": "https://github.com/tenyapious",
+      "icon": "FaGithub"
+    },
+    {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/tenyapious",
       "icon": "FaTwitter"

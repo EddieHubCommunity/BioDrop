@@ -1,6 +1,7 @@
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
 import { CalendarIcon } from "@heroicons/react/20/solid";
+
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 
 export default function Changelog() {
   const colors = {
@@ -8,6 +9,40 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "LinkFree now has DarkMode",
+      description:
+        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
+      type: "addition",
+      date: "2023-04-08",
+    },
+    {
+      title: "Profile QR code download",
+      description:
+        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      type: "addition",
+      date: "2023-03-31",
+    },
+    {
+      title: "Profile progress bar",
+      description: "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
+    },
+    {
+      title: "Dedicated domain (url)",
+      description:
+        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      type: "addition",
+      date: "2023-03-12",
+    },
+    {
+      title: "Playground",
+      description:
+        "You can now test and preview your profile with any json changes",
+      type: "addition",
+      date: "2023-03-07",
+    },
     {
       title: "Accounts statistics summary",
       description:
@@ -52,8 +87,8 @@ export default function Changelog() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white shadow sm:rounded-md">
-          <ul role="list" className="divide-y divide-gray-200">
+        <div className="overflow-hidden bg-white dark:bg-primary-high dark:border dark:border-primary-medium shadow sm:rounded-md">
+          <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
@@ -72,13 +107,17 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex">{change.description}</div>
-                    <div className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
+                    <div className="sm:flex dark:text-primary-low-medium">
+                      {change.description}
+                    </div>
+                    <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-low-medium dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p>{change.date}</p>
+                      <p className="dark:text-primary-low-medium">
+                        {change.date}
+                      </p>
                     </div>
                   </div>
                 </div>
