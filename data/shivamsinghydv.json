@@ -1,0 +1,12 @@
+{
+  "name": "Shivam Kumar",
+  "type": "personal",
+  "bio": "High School student passionate about open source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shivamsinghydv",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-# 1.107.0 (2023-04-01)
+## 1.109.18 (2023-04-13)
 
 
-### Features
+### Bug Fixes
 
-* statistics screenshot features section ([#5775](https://github.com/EddieHubCommunity/LinkFree/issues/5775)) ([720311b](https://github.com/EddieHubCommunity/LinkFree/commit/720311b7b6ee8b0864819cdf3f4f1d6ffc8d19b2)), closes [#5771](https://github.com/EddieHubCommunity/LinkFree/issues/5771)
+* story points [#5375](https://github.com/EddieHubCommunity/LinkFree/issues/5375) ([#6041](https://github.com/EddieHubCommunity/LinkFree/issues/6041)) ([eb285dd](https://github.com/EddieHubCommunity/LinkFree/commit/eb285dd56defda1e30c2159ee9ed5912a68be46c))
 
 
 

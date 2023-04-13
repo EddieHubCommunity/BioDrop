@@ -3,14 +3,7 @@
   "type": "personal",
   "bio": "Talk about 📱 #Android 🌱 || #DevOps 🚀 || Learn in public method follower👨‍💻",
 
-  "tags": [
-    "Open Source",
-    "Kotlin",
-    "Java",
-    "Android",
-    "DevOps",
-    "SQL"
-  ],
+  "tags": ["Open Source", "Kotlin", "Java", "Android", "DevOps", "SQL"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/surajmyt" },
     { "icon": "FaGithub", "url": "https://github.com/surajmaity1" },
