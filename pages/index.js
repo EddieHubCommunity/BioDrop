@@ -19,7 +19,7 @@ import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   if (singleUser.username) {
     return {
       redirect: {
@@ -34,6 +34,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: { total: totalStats, today: todayStats },
+    revalidate: 60 * 15, //15 minutes
   };
 }
 
