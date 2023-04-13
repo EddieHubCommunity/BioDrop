@@ -1,7 +1,7 @@
 {
   "name": "Younus-Saberi",
   "type": "personal",
-  "bio": "Enthusiastic in Cloud Computing | BackEnd Developer | Learning about DevOps Tools such as Docker, Kubernetes, CI/CD, IaaC, ",
+  "bio": "Enthusiast in **Cloud Computing** | BackEnd Developer | Learning about **DevOps** Tools such as Docker, Kubernetes, CI/CD, IaaC, ",
   "tags": [
     "Open Source",
     "DevOps",
@@ -26,24 +26,46 @@
   ],
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "group":"Personal",
+      "name": "My Portfolio Website 🧑‍💻",
+      "url": "https://younussaberi.me/PersonalWebsite/",
+      "icon": "FaLink"
+    },
+    {
+      "group":"Personal",
+      "name": "Resume 📄",
+      "url": "https://drive.google.com/file/d/1TLVk4vwgDLubI8zEzH9PHNYNzBotX4a0/view?usp=share_link",
+      "icon": "FaBookmark"
+    },
+    {
+      "group":"Socials",
+      "name": "Twitter: Follow me on Twitter 🐦",
       "url": "https://twitter.com/younussaberi",
       "icon": "FaTwitter"
     },
     {
-      "name": "Let's connect on Linkedin 🤝 ",
-      "url": "https://twitter.com/younussaberi",
+      "group":"Socials",
+      "name": "Linkedin: Let's connect on Linkedin 🤝 ",
+      "url": "https://www.linkedin.com/in/younus-saberi/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "My GitHub Profile💻",
+      "group":"Socials",
+      "name": "GitHub: Collaborate on Open Source💻",
       "url": "https://github.com/Younus-Saberi",
       "icon": "FaGithub"
     },
     {
-      "name": "Read some of my blogs 📃",
+      "group":"Socials",
+      "name": "Hashnode: Read some of my blogs 📃",
       "url": "https://blog.younussaberi.me",
       "icon": "SiHashnode"
+    },
+     {
+      "group":"Socials",
+      "name": "YouTube: Watch some of my content and work 📹",
+      "url": "https://www.youtube.com/@younussaberi",
+      "icon": "FaYoutube"
     }
   ]
 }
