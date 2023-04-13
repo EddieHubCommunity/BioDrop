@@ -1,9 +1,9 @@
-## 1.109.17 (2023-04-13)
+## 1.109.18 (2023-04-13)
 
 
 ### Bug Fixes
 
-* google analytics ([#6039](https://github.com/EddieHubCommunity/LinkFree/issues/6039)) ([7aaba96](https://github.com/EddieHubCommunity/LinkFree/commit/7aaba96f86386ad995865c61b969deb53f2d062e))
+* story points [#5375](https://github.com/EddieHubCommunity/LinkFree/issues/5375) ([#6041](https://github.com/EddieHubCommunity/LinkFree/issues/6041)) ([eb285dd](https://github.com/EddieHubCommunity/LinkFree/commit/eb285dd56defda1e30c2159ee9ed5912a68be46c))
 
 
 
