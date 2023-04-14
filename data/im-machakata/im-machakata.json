@@ -7,12 +7,12 @@
     "Javascript",
     "Typescript",
     "VueJS",
-    "DevOps",
+    "DevOps"
   ],
   "socials": [
     { "icon": "FaInstagram", "url": "https://instagram.com/immachakata" },
     { "icon": "FaTwitter", "url": "https://twitter.com/immachakata" },
-    { "icon": "FaGithub", "url": "https://github.com/im-machakata" },
+    { "icon": "FaGithub", "url": "https://github.com/im-machakata" }
   ],
   "links": [
     {
@@ -41,7 +41,7 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/immachakata",
       "icon": "FaLinkedin"
-    },
+    }
   ],
   "milestones": [
     {
@@ -51,6 +51,6 @@
       "color": "green",
       "description": "Online School Managements System",
       "url": "https://caims.caasi.co.zw"
-    },
+    }
   ]
 }
