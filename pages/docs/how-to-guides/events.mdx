@@ -20,7 +20,7 @@ All future events also appear on the Events page for the app.
 
 _If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
-3. This `json` file will contain one object for the event and must have six fields, `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location`, which will look like this:
+3. This `json` file will contain one object for the event and must have these six fields: `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location`. It can also optionally include other fields. For instance: `userStatus` & `speakingTopic`. It will look like this:
 
 <ClipboardCopy>
 ```js
@@ -41,7 +41,9 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
     "city": "Jafféstrasse",
     "state": "Berlin",
     "country": "Germany"
-  }
+  },
+  "userStatus": "speaking",
+  "speakingTopic": "Open Source"
 }
 ```
 </ClipboardCopy>
@@ -53,9 +55,11 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 | name                   | true     | Name of the event                                           |
 | description            | true     | More details about the event, this can include markdown     |
 | date                   | true     | Start and end date plus time of the event                   |
-| cfpClose               | false    | The date of when the CFP to submit a talk closes            |
 | url                    | true     | Where can people learn more about the event                 |
+| cfpClose               | false    | The date of when the CFP to submit a talk closes            |
 | location               | false    | Address of the event venue                                  |
+| userStatus             | false    | What your role is at the event                              |
+| speakingTopic          | false    | The topic of the event                                      |
 
 | Location property | Required | Description                            |
 | :---------------- | :------- | :------------------------------------- |
