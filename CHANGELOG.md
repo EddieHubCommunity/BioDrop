@@ -1,9 +1,9 @@
-## 1.109.18 (2023-04-13)
+## 1.109.20 (2023-04-13)
 
 
 ### Bug Fixes
 
-* story points [#5375](https://github.com/EddieHubCommunity/LinkFree/issues/5375) ([#6041](https://github.com/EddieHubCommunity/LinkFree/issues/6041)) ([eb285dd](https://github.com/EddieHubCommunity/LinkFree/commit/eb285dd56defda1e30c2159ee9ed5912a68be46c))
+* move mdx table to separate component ([#6021](https://github.com/EddieHubCommunity/LinkFree/issues/6021)) ([24a5ed8](https://github.com/EddieHubCommunity/LinkFree/commit/24a5ed8991f23c4686317cfc5549891b6c2b7525)), closes [#6012](https://github.com/EddieHubCommunity/LinkFree/issues/6012)
 
 
 
