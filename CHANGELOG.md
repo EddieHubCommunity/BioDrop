@@ -1,9 +1,9 @@
-## 1.108.8 (2023-04-04)
+## 1.109.20 (2023-04-13)
 
 
 ### Bug Fixes
 
-* badges better positions ([#5829](https://github.com/EddieHubCommunity/LinkFree/issues/5829)) ([9765ba7](https://github.com/EddieHubCommunity/LinkFree/commit/9765ba7bd5aa5eaa4be73fb415c92992ff5df6ba))
+* move mdx table to separate component ([#6021](https://github.com/EddieHubCommunity/LinkFree/issues/6021)) ([24a5ed8](https://github.com/EddieHubCommunity/LinkFree/commit/24a5ed8991f23c4686317cfc5549891b6c2b7525)), closes [#6012](https://github.com/EddieHubCommunity/LinkFree/issues/6012)
 
 
 

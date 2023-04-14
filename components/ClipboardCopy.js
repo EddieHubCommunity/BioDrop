@@ -36,7 +36,7 @@ const ClipboardCopy = ({ children }) => {
           {isCopied ? (
             <span className="text-green-500 text-sm">Copied!</span>
           ) : (
-            <span className="text-gray-500 text-sm">Copy</span>
+            <span className="text-primary-medium text-sm">Copy</span>
           )}
         </button>
       </div>
