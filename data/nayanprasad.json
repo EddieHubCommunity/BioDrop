@@ -1,0 +1,33 @@
+{
+  "name": "Nayan Prasad P K",
+  "type": "personal",
+  "bio": "Developer who always enthusiastic to explore new things",
+  "tags": ["Javascript", "React", "NodeJs", "Typescript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nayanprasad096"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nayanprasad"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nayanprasad",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nayanprasad096",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nayan-prasad-p-k-9ba900200/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
