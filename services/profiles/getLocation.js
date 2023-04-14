@@ -1,6 +1,6 @@
-import logger from "../../config/logger";
-import getLocationByUsername from "../github/getLocationByUsername";
-import Profile from "../../models/Profile";
+import logger from "@config/logger";
+import getLocationByUsername from "@services/github/getLocationByUsername";
+import Profile from "@models/Profile";
 
 async function saveLocation(username) {
   const location = await getLocationByUsername(username);
