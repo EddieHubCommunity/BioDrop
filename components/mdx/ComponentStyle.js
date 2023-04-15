@@ -1,4 +1,3 @@
-import { Li } from "./Li";
 import Link from "@components/Link";
 import Strong from "@components/mdx/Strong";
 import BlockQuote from "@components/mdx/BlockQuote";
