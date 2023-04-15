@@ -1,12 +1,13 @@
 {
 
-  "name": "Harsh Singh || Web developer and Designer || Looking for 6/12 months internship opportunities 😊 || Please 😊 Hire me",
+  "name": "Harsh Singh"
 
   "type": "personal",
 
-  "bio": "Open source Enthusiast | Pursuing Bachelor of Technology,CSE, prefinal year| Content Writer | Based in India",
+  "bio": "Open source Enthusiast || Pursuing Bachelor of Technology(CSE), prefinal year| Content Writer | Based in India || Web developer and Designer || Looking for 6/12 months internship opportunities for Frontend developer and Devrel || Please 😊 Hire me",
+",
 
-  "tags": ["Open Source", "Content Writer", "Student", "Web3"],
+  "tags": ["Open Source", "Content Writer", "Git", "JavaScript", "Python" , "TypeScript", "HTML5" , "React" , "NextJs", "CSS3" , "Sass", "TailwindCSS", "Webpack", "Fast API", "MongoBD",
 
   "socials": [
 
@@ -15,6 +16,7 @@
     { "icon": "FaGithub", "url": "https://github.com/harshsingh32" },
 
     { "icon": "SiHashnode", "url": "https://hashnode.com/@harshsin327" }
+     
 
   ],
 
@@ -23,7 +25,6 @@
   "links": [
 
     {
-
       "name": "GitHub",
 
       "url": "https://github.com/harshsingh32. ",
@@ -33,7 +34,6 @@
     },
 
     {
-
       "name": "Twitter",
 
       "url": "https://mobile.twitter.com/harsh_hasew7890",
@@ -43,7 +43,6 @@
     },
 
     {
-
       "name": "Hashnode",
 
       "url": "https://hashnode.com/@harshsin327",
@@ -53,19 +52,20 @@
     },
 
     {
-
       "name": "LinkedIn",
 
       "url": "https://www.linkedin.com/in/harsh-singh-4245771a2",
 
       "icon": "FaLinkedin"
 
-    }
+    },
+   {
+      "name": "Dev.to",
 
-   
+      "url": "https://dev.to/harshsingh32",
 
+      "icon": "FaDev"
+
+   },
   ]
-
- 
-
 }
