@@ -20,15 +20,15 @@ export default function SignIn({ providers }) {
                     src="/logo512.png"
                     alt="Your Company"
                 />
-                <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-                    <span className="text-secondary-high"> Connect to your audience </span>
+                <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium">
+                    <span className="text-secondary-medium"> Connect to your audience </span>
                     with a single link
                 </h2>
                 {Object.values(providers).map((provider) => (
                     <button
                         key={provider.name}
                         onClick={() => signIn(provider.id)}
-                        className="group relative transition-all flex gap-4 items-center w-full justify-center rounded-md bg-primary-medium p-3 text-sm font-medium text-white hover:bg-primary-medium/60 outline-none"
+                        className="group relative transition-all flex gap-4 items-center w-full justify-center rounded-md bg-primary-medium p-3 text-sm font-medium text-primary-low hover:bg-primary-medium/90 dark:hover:bg-primary-medium/60 outline-none"
                     >
                         {handleProviderIcon(provider.name)} Continue with {provider.name}
                     </button>
