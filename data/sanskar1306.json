@@ -1,0 +1,19 @@
+{
+  "name": "Sanskar Kabra",
+  "type": "personal",
+  "bio": "MERN stack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sans13_ke",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sanskar-kabra-a3a347178/",
+      "icon": "FaLinkedin"
+    }
+    
+  ]
+  
+}
