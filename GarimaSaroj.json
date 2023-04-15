@@ -1,0 +1,27 @@
+{
+  "name": "Garima Saroj",
+  "type": "personal",
+  "bio": "artist turned **AI aficionado**. MLOps enthusiast and a designer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/garimasaroj/",
+      "icon": "FaLinkedin"
+    }
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Andro_Gari",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/AndroGari",
+      "icon": "FaGithub"
+    }
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@garimak9",
+      "icon": "FaMedium"
+    } 
+  ]
+}
