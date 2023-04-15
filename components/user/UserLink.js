@@ -22,7 +22,7 @@ export default function UserLink({ BASE_URL, link, username }) {
       )}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="rounded-full border-2 border-gray-200 hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center"
+      className="rounded-full border border-primary-low-medium dark:border-primary-low-medium dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium"
       style={{
         "--hover-color": colors[link.icon],
       }}
