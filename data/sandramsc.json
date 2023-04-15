@@ -9,17 +9,16 @@
     "Typescript",
     "WordPress",
     "Open Source",
-    "Artificial Intelligence (AI)"
+    "Artificial Intelligence (AI)",
     "Web3"
   ],
-  
-    "socials": [
+  "socials": [
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/sandraashipala" },
     { "icon": "FaGithub", "url": "https://github.com/sandramsc" },
   ],
 
   "links": [
-    
+  
     {
       "group": "Socials Primary",
       "name": "GitHub: Collaborate on Open Source",
@@ -59,6 +58,5 @@
       "description": "Documenting my Journey through blogs",
       "url": "https://sandraashipala.substack.com/"
     }
-
   ]
 }
