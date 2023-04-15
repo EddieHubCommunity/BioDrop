@@ -86,6 +86,22 @@ export async function getServerSideProps(context) {
     100
   ).toFixed(0);
 
+  data.links.individual.forEach(link => {
+    if(!profile.links.find(pLink => pLink.url === link.url)) {
+      link.deleted = true;
+    }
+  });
+
+  data.links.individual.sort((a, b) => {
+    if (a.deleted && !b.deleted) {
+      return 1;
+    } else if (!a.deleted && b.deleted) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
+
   return {
     props: { session, data, profile, progress },
   };
@@ -199,7 +215,7 @@ export default function Statistics({ data, profile, progress }) {
           <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
-                <tr key={link.url}>
+                <tr key={link.url} className={link.deleted ? 'opacity-30' : ''}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
                     {link.url}
                   </td>
