@@ -1,36 +1,37 @@
 import { useState } from "react";
-
 import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
-import EventKey from "@components/event/EventKey";
 
 export default function UserEvents({ data }) {
   const [eventType, setEventType] = useState("all");
-  const futureEvents = data.events.filter(
-    (event) => new Date(event.date.start) > new Date()
-  );
-
-  let categorisedEvents = {
-    all: data.events,
-    future: futureEvents,
-    ongoing: data.events.filter(
-      (event) =>
-        new Date(event.date.start) < new Date() &&
-        new Date(event.date.end) > new Date()
-    ),
-    virtual: futureEvents.filter((event) => event.isVirtual === true),
-    inPerson: futureEvents.filter((event) => event.isInPerson === true),
-    cfpOpen: futureEvents.filter((event) =>
-      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
-    ),
-    past: data.events
-      .filter((event) => new Date(event.date.end) < new Date())
-      .sort((a, b) => new Date(b.date.start) - new Date(a.date.start)),
-  };
+  
+  const eventOptions = [
+    { value: 'all' , name: 'All Events'},
+    { value: 'future' , name: 'Future Events'},
+    { value: 'ongoing', name: 'Ongoing Events'},
+    { value: 'virtual', name: 'Virtual Events'},
+    { value: 'inPerson', name: 'In-Person Events'},
+    { value: 'cfpOpen', name:'Events with open CFP'},
+    { value: 'past', name: 'Past Events'}
+  ]
 
   const handleEventTypeChange = (event) => {
     setEventType(event.target.value);
   };
+
+  const eventsToShow = eventType === "all"
+    ? data.events
+    : data.events.filter(event => {
+        const startDate = new Date(event.date.start);
+        const endDate = new Date(event.date.end);
+        const now = new Date();
+        return eventType === "future" && startDate > now
+          || eventType === "ongoing" && startDate <= now && now <= endDate
+          || eventType === "virtual" && startDate > now && event.isVirtual
+          || eventType === "inPerson" && startDate > now && event.isInPerson
+          || eventType === "cfpOpen" && startDate > now && event.date.cfpClose > now
+          || eventType === "past" && endDate < now;
+      });
 
   return (
     <div className="mt-6">
@@ -46,22 +47,20 @@ export default function UserEvents({ data }) {
         onChange={handleEventTypeChange}
         className="block w-full max-w-lg px-4 py-2 border border-orange-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
       >
-        <option value="all">All Events</option>
-        <option value="future">Future Events</option>
-        <option value="ongoing">Ongoing Events</option>
-        <option value="virtual">Virtual Events</option>
-        <option value="inPerson">In-Person Events</option>
-        <option value="cfpOpen">Events with Open CFP</option>
-        <option value="past">Past Events</option>
+        {eventOptions.map(option => (
+          <option key={option.value} value={option.value}>{option.name}</option>
+        ))}
       </select>
 
-      {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-primary-low mt-4">
-        {data.events &&
-          categorisedEvents[eventType].map((event, index) => (
+      {eventsToShow.length > 0 ? (
+        <ul role="list" className="divide-y divide-primary-low mt-4">
+          {eventsToShow.map((event, index) => (
             <EventCard event={event} key={index} />
           ))}
-      </ul>
+        </ul>
+      ) : (
+        <Alert message="No events found." />
+      )}
     </div>
   );
 }
