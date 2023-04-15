@@ -114,6 +114,7 @@ export default function Map({ data }) {
         </p>
         <div className="flex flex-wrap justify-center mb-4">
           <Badge
+            disable={selectedTags.size == 0 ? true : false}
             content={
               filteredUsers.length > 0 ? filteredUsers.length : users.length
             }
@@ -121,7 +122,8 @@ export default function Map({ data }) {
             <Button
               onClick={resetFilter}
               text="Clear/Reset Filters"
-              primary={false}
+              primary={true}
+              disable={selectedTags.size == 0 ? true : false}
             />
           </Badge>
           {tags &&

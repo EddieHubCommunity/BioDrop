@@ -1,9 +1,9 @@
-## 1.102.9 (2023-03-26)
+## 1.109.20 (2023-04-13)
 
 
 ### Bug Fixes
 
-* removed extra space from testimonials ([#5648](https://github.com/EddieHubCommunity/LinkFree/issues/5648)) ([a47c4f2](https://github.com/EddieHubCommunity/LinkFree/commit/a47c4f23d4b10961aceb28b5c9fc6369f7bfe04b))
+* move mdx table to separate component ([#6021](https://github.com/EddieHubCommunity/LinkFree/issues/6021)) ([24a5ed8](https://github.com/EddieHubCommunity/LinkFree/commit/24a5ed8991f23c4686317cfc5549891b6c2b7525)), closes [#6012](https://github.com/EddieHubCommunity/LinkFree/issues/6012)
 
 
 

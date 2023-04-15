@@ -8,7 +8,7 @@ Your profile will have links to your social media and content. You can also add 
 
 Here is an example of a LinkFree Profile https://linkfree.io/eddiejaoude
 
-![Example profile on LinkFree](https://user-images.githubusercontent.com/51878265/211527055-d90f94f5-f6a9-44a7-be0f-905f5e45429e.png)
+![Example profile and statistics page on LinkFree with light and dark mode](https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png)
 
 ## Tech Stack
 

@@ -1,0 +1,17 @@
+{
+  "name": "Nitish singh",
+  "type": "personal",
+  "bio": "Open Source contributer ",
+
+  "tags": ["Open Source", "Javascript", "java", "NextJS", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/0nitishtwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nitisjan"
+    }
+  ]
+}

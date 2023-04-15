@@ -60,6 +60,9 @@ export default function Search({ data }) {
       if (user.name.toLowerCase().includes(valueLower)) {
         return true;
       }
+      if (user.username.toLowerCase().includes(valueLower)) {
+        return true;
+      }
 
       let userTags = user.tags?.map((tag) => tag.toLowerCase());
 
@@ -102,6 +105,10 @@ export default function Search({ data }) {
 
   useEffect(() => {
     if (!inputValue) {
+      //Setting the users as null when the input field is empty
+      setFilteredUsers([]);
+      //Removing the not found field when the input field is empty
+      setNotFound();
       return;
     }
 
@@ -121,7 +128,7 @@ export default function Search({ data }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center mb-4">
+        <div className="flex flex-wrap justify-center space-x-3 mb-4">
           {tags &&
             tags
               .slice(0, 10)
@@ -147,7 +154,7 @@ export default function Search({ data }) {
         >
           <Input
             placeholder="Search user by name or tags; eg: open source,reactjs"
-            className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+            className="border-2 hover:border-tertiary-medium transition-all dark:bg-primary-high duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
