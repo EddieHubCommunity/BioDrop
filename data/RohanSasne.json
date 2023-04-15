@@ -36,7 +36,7 @@
       "icon": "SiInstagram"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Started to Actively Contribute to Open Source",
@@ -87,7 +87,7 @@
       "color": "black",
       "description": "I want to become a Developer Advocate 🥑 and travel the world to meet and interact with new people"
     },
-    
+
     {
       "isGoal": true,
       "title": "Get a CFP accepted for Kubeconk",
