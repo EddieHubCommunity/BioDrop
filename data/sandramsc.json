@@ -18,8 +18,7 @@
   ],
 
   "links": [
-  
-    {
+     {
       "group": "Socials Primary",
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/sandramsc",
@@ -33,7 +32,6 @@
     },
   ],
   "milestones": [
-
     {
       "title": "TOP 5 Best projects of ChatGPT and Whisper Hackathon",
       "date": "April 2023",
