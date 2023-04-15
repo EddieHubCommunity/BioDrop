@@ -40,12 +40,12 @@
       "icon": "FaSpotify"
     },
     {
-      "name": "Schedule a meeting with Calendly",
+      "name": "Schedule with Calendly",
       "url": "https://calendly.com/loftwah",
       "icon": "FaCalendar"
     },
     {
-      "name": "Support what I do with GitHub Sponsors",
+      "name": "Buy me a goffer on GitHub Sponsors",
       "url": "https://github.com/sponsors/loftwah",
       "icon": "FaGithub"
     }
@@ -107,22 +107,6 @@
       "color": "black",
       "description": "I wrote the music and produced this album with OptiMystic",
       "url": "https://www.youtube.com/playlist?list=OLAK5uy_k43n5Fa7wfl0kLTic2-WTyF0rNFknI1vs"
-    },
-    {
-      "title": "Became a Grind Mode Cypher affiliate",
-      "date": "2019",
-      "icon": "FaMusic",
-      "color": "red",
-      "description": "I was asked to become an affiliate with Grind Mode Cypher",
-      "url": "https://www.youtube.com/watch?v=oJNF2eFp6us"
-    },
-    {
-      "title": "Built website for Grind Mode Cypher",
-      "date": "2019",
-      "icon": "FaMusic",
-      "color": "red",
-      "description": "I built the website for Grind Mode Cypher",
-      "url": "https://grindmodecypher.com"
     },
     {
       "title": "Released my first solo album called The Beat Down",
