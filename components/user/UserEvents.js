@@ -34,7 +34,7 @@ export default function UserEvents({ data }) {
       });
 
   return (
-    <div className="mt-6">
+    <div className="m-6">
       <label
         htmlFor="event-type-select"
         className=" mr-2 font-semibold text-gray-700"
@@ -59,7 +59,7 @@ export default function UserEvents({ data }) {
           ))}
         </ul>
       ) : (
-        <Alert message="No events found." />
+        <Alert className="m-4" type="info" message="No events found" />
       )}
     </div>
   );
