@@ -1,0 +1,17 @@
+{
+  "name": "Divya Prakash Pandey",
+  "type": "personal",
+  "bio": "IET Lucknow '26 CSE Hare Krishna!",
+  "links": [
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@TheCentrons",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/divyprakash5768/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

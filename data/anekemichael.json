@@ -27,6 +27,11 @@
       "name": "Subscribe to My Channel on Youtube",
       "url": "https://youtube.com/@geekybuds/",
       "icon": "FaYoutube"
+    },
+    {
+      "name": "My Website",
+      "url": "https://anekemichael.vercel.app/",
+      "icon": "FaLink"
     }
   ]
 }
