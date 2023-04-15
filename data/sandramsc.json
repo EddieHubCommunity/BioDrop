@@ -1,7 +1,7 @@
 {
   "name": "Sandra Ashipala",
   "type": "personal",
-  "bio": "Software Engineer - Frontend | Open Source Contributor | Hackathon Enthusiast",
+  "bio": "**Software Engineer - Frontend** | Open Source Contributor | Hackathon Enthusiast",
 
   "tags": [
     "React.js",
@@ -35,10 +35,10 @@
   "milestones": [
 
     {
-      "title": "TOP 5 Best projects of ChatGPT and Whisper Hack",
+      "title": "TOP 5 Best projects of ChatGPT and Whisper Hackathon",
       "date": "April 2023",
       "icon": "SiCodeproject",
-      "color": "grey",
+      "color": "blue",
       "description": "48-Hours ChatGPT API & Whisper API Global Hackathon- hosted by lablab.ai",
       "url": "https://lablab.ai/event/chatgpt-api-and-whisper-api-global-hackathon/team101/cultivate"
     },
@@ -46,7 +46,7 @@
       "title": "Completed first Chingu Voyage",
       "date": "March 2023",
       "icon": "SiCodeproject",
-      "color": "grey",
+      "color": "green",
       "description": "A 6 week long team project - build a fullstack app",
       "url": "https://github.com/chingu-voyages/v42-bears-team-26"
     },
@@ -54,7 +54,7 @@
       "title": "Started Tech Blog",
       "date": "November 2023",
       "icon": "SiSubstack",
-      "color": "blue",
+      "color": "pink",
       "description": "Documenting my Journey through blogs",
       "url": "https://sandraashipala.substack.com/"
     }
