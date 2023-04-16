@@ -12,21 +12,20 @@ You will need <Link href="https://docs.docker.com/compose/">Docker and Docker Co
 ### Setup
 
 1. Make sure you have cloned the repository and are in the root of the project.
-2. Setup environment [variables](/docs/environments/environment-variables)
-3. Execute the following command, this will build the images and start the containers.
+2. Execute the following command, this will build the images and start the containers.
 
 ```bash
 docker compose up
 ```
 
-4. You can now access the application at `http://localhost:3000`.
-5. If you make any changes to the dependencies, it's recommended to rebuild the images with the following command.
+3. You can now access the application at `http://localhost:3000`.
+4. If you make any changes to the dependencies, it's recommended to rebuild the images with the following command.
 
 ```bash
 docker compose up --build
 ```
 
-6. If you want to stop the containers, you can use the following command.
+5. If you want to stop the containers, you can use the following command.
 
 ```bash
 docker compose down
