@@ -1,14 +1,26 @@
 import { IconContext } from "react-icons";
-import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
-import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import { FaMicrophoneAlt } from "react-icons/fa";
+import {
+  MdOutlineOnlinePrediction,
+  MdOutlinePeople,
+  MdOutlineDoneAll,
+  MdTimelapse,
+} from "react-icons/md";
+import { RiCalendarTodoFill } from "react-icons/ri";
 
 export default function EventKey({ categorisedEvents, onToggleEventType }) {
   const filters = [
     {
-      title: "Show all",
-      description: "List all events with no filters",
-      key: "all",
-      icon: FaListUl,
+      title: "All future events",
+      description: "List all upcoming events",
+      key: "future",
+      icon: RiCalendarTodoFill,
+    },
+    {
+      title: "All ongoing events",
+      description: "List all ongoing events",
+      key: "ongoing",
+      icon: MdTimelapse,
     },
     {
       title: "CFP open",
@@ -28,6 +40,12 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
     },
+    {
+      title: "Past Events",
+      description: "Events already held",
+      key: "past",
+      icon: MdOutlineDoneAll,
+    },
   ];
 
   return (
@@ -35,7 +53,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       {filters.map((filter) => (
         <div
           onClick={() => onToggleEventType(filter.key)}
-          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2"
+          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-primary-low-medium bg-white dark:border-none dark:bg-primary-medium px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-secondary-medium focus-within:ring-offset-2"
           key={filter.key}
         >
           <div className="flex-shrink-0">
@@ -45,8 +63,8 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           </div>
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
-            <p className="text-sm font-medium text-gray-900">{filter.title}</p>
-            <p className="truncate text-sm text-gray-500">
+            <p className="text-sm font-medium text-primary-high dark:text-white">{filter.title}</p>
+            <p className="truncate text-sm text-primary-medium dark:text-primary-low-medium">
               {filter.description}
             </p>
           </div>

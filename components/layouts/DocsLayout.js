@@ -1,9 +1,9 @@
 import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
 
-import Page from "../Page";
-import Link from "../../components/Link";
-import { ComponentStyle } from "../mdx/ComponentStyle";
+import Page from "@components/Page";
+import Link from "@components/Link";
+import { ComponentStyle } from "@components/mdx/ComponentStyle";
 
 export default function DocsLayout({ children, title }) {
   return (
@@ -37,10 +37,10 @@ export default function DocsLayout({ children, title }) {
           </Link>{" "}
           on GitHub for more information.
         </p>
-        <div className="float-none my-0 max-w-[1440px] prose">
+        <div className="float-none my-0 max-w-[1440px] prose ">
           <div className="flex flex-grow flex-row">
             <MDXProvider components={ComponentStyle}>
-              <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white">
                 {children}
               </div>
             </MDXProvider>

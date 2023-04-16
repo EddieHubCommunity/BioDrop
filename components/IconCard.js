@@ -2,7 +2,7 @@ import { Fragment, useState } from 'react'
 import { Transition } from '@headlessui/react'
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
 import { XMarkIcon } from '@heroicons/react/20/solid'
-import getIcon from "../components/Icon";
+import getIcon from "@components/Icon";
 
 export default function IconCard({ iconName }) {
   const [show, setShow] = useState(false)
@@ -10,7 +10,7 @@ export default function IconCard({ iconName }) {
   return (
     <>
       <button
-        className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-indigo-600 hover:cursor-pointer active:border-green-600 focus:border-green-600"
+        className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-secondary-high hover:cursor-pointer active:border-green-600 focus:border-green-600"
         onClick={() => {
           navigator.clipboard.writeText(iconName);
           setShow(true);
@@ -24,7 +24,7 @@ export default function IconCard({ iconName }) {
       </button>
       <div
         aria-live="assertive"
-        className="pointer-events-none fixed inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
+        className="pointer-events-none fixed z-40 inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
       >
         <div className="flex w-full flex-col items-center space-y-4 sm:items-end">
           <Transition
@@ -44,13 +44,13 @@ export default function IconCard({ iconName }) {
                     <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
-                    <p className="text-sm font-medium text-gray-900">Successfully copied!</p>
-                    <p className="mt-1 text-sm text-gray-500">Copied {iconName} to clipboard</p>
+                    <p className="text-sm font-medium text-primary-high">Successfully copied!</p>
+                    <p className="mt-1 text-sm text-primary-medium">Copied {iconName} to clipboard</p>
                   </div>
                   <div className="ml-4 flex flex-shrink-0">
                     <button
                       type="button"
-                      className="inline-flex rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                      className="inline-flex rounded-md bg-white text-primary-low-medium hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-secondary-low focus:ring-offset-2"
                       onClick={() => {
                         setShow(false)
                       }}

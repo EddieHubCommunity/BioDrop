@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 
 export default function findOneByUsername(username) {
   const filePath = path.join(process.cwd(), "data", `${username}.json`);

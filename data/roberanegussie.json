@@ -1,0 +1,22 @@
+{
+  "name": "Robera Negussie ",
+  "type": "personal",
+  "bio": "Software Developer **OSS enthusiast**.",
+  "links": [
+    {
+      "name": "My Twitter Handle",
+      "url": "https://twitter.com/roberanegussie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/roberatoye/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My GitHub Account",
+      "url": "https://github.com/roberanegussie",
+      "icon": "FaGithub"
+    }
+  ]
+}

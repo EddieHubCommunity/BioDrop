@@ -1,8 +1,8 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-import getIcon from "../Icon";
-import Link from "../Link";
+import getIcon from "@components/Icon";
+import Link from "@components/Link";
 
 export default function UserMilestone({ milestone, isGoal }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -14,9 +14,7 @@ export default function UserMilestone({ milestone, isGoal }) {
       }}
     >
       <div className="flex space-x-3">
-        {milestone.icon && (
-          <DisplayIcon className="h-8 w-8 rounded-full" />
-        )}
+        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-medium flex gap-2 items-center">
@@ -27,9 +25,9 @@ export default function UserMilestone({ milestone, isGoal }) {
                 </Link>
               )}
             </h3>
-            <p className="text-sm text-gray-500">{milestone.date}</p>
+            <p className="text-sm text-primary-medium dark:text-primary-low-medium">{milestone.date}</p>
           </div>
-          <ReactMarkdown className="text-sm text-gray-500">
+          <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium">
             {milestone.description}
           </ReactMarkdown>
         </div>
