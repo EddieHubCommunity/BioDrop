@@ -36,12 +36,12 @@ const ClipboardCopy = ({ children }) => {
         >
           {isCopied ? (
             <div className="inline-flex items-center text-green-500">
-              <FaClipboardCheck className="mr-2" />
+              <FaClipboardCheck className="mr-2 text-green-500" />
               <span className="text-green-500 text-sm">Copied!</span>
             </div>
           ) : (
             <div className="inline-flex items-center transition-all ease-out">
-              <FaRegClipboard className="mr-2" />
+              <FaRegClipboard className="mr-2 text-primary-low" />
               <span className="text-primary-low text-sm">Copy</span>
             </div>
           )}
