@@ -16,9 +16,9 @@
       "url": "https://mobile.twitter.com/harsh_hasew7890"
     },
 
-    { "icon": "FaGithub", "url": "https://github.com/harshsingh32" },
+    { "icon": "FaGithub", "url": "https://github.com/harshsingh32"},
 
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@harshsin327" }<<<<<<< harshsingh32-patch-2
+    { "icon": "SiHashnode", "url": "https://hashnode.com/@harshsin327"}
      
 
 
@@ -28,7 +28,7 @@
     {
       "name": "GitHub",
 
-      "url": "https://github.com/harshsingh32. ",
+      "url": "https://github.com/harshsingh32",
 
       "icon": "FaGithub"
     },
