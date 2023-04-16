@@ -76,6 +76,7 @@ function UserProfile({ BASE_URL, data }) {
       <div className="flex justify-center my-4">
         {qrShow && (
           <QRCodeCanvas
+            className="border border-white"
             value={`${BASE_URL}/${data.username}`}
             size={fallbackImageSize * 2}
             id="qrcode"

@@ -2,12 +2,7 @@
   "name": "Ayaan Bhaskar Bordoloi",
   "type": "personal",
   "bio": "Engineering Sophomore | Learning **DevOps** | Technical writer",
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "Blogging",
-    "Cloud"
-  ],
+  "tags": ["Open Source", "DevOps", "Blogging", "Cloud"],
   "links": [
     {
       "name": "Follow me on Twitter",

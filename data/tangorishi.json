@@ -3,7 +3,15 @@
   "type": "personal",
   "bio": "Just a guy passionate for Web Development",
 
-  "tags": [ "C++","Open Source", "WebDev", "Javascript", "Java", "C", "Frontend"],
+  "tags": [
+    "C++",
+    "Open Source",
+    "WebDev",
+    "Javascript",
+    "Java",
+    "C",
+    "Frontend"
+  ],
 
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iamrishijo" },
@@ -46,7 +54,7 @@
       "icon": "FaEnvelope"
     }
   ],
-"milestones": [
+  "milestones": [
     {
       "title": "First Open Source Contribution",
       "date": " January 2023",
