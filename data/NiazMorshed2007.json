@@ -1,0 +1,26 @@
+{
+  "name": "Niaz Morshed",
+  "type": "personal",
+  "bio": "Frontend Developer | Learning Full Stack | Works with React.js & Next.js | Learning Nest.js & Databases | Open Source contributor 🎯 | Open for opportunity 🙂",
+  "links": [
+  {
+    "name": "Follow me on Twitter",
+    "url": "https://twitter.com/niazmorshed_",
+    "icon": "FaTwitter"
+},
+{
+  "name": "Explore my projects & contributions on GitHub",
+  "url": "https://github.com/NiazMorshed2007",
+  "icon": "FaGithub"
+},
+{
+  "name": "Connect on Linkedin",
+  "url": "https://www.linkedin.com/in/niazmorsheddev/",
+  "icon": "FaLinkedin"
+},
+    {
+    "name": "My Portfolio",
+     "url": "https://niazmorshed.me"
+    }
+  ]
+}
