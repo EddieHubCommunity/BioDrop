@@ -1,9 +1,9 @@
-## 1.109.25 (2023-04-16)
+## 1.109.26 (2023-04-16)
 
 
 ### Bug Fixes
 
-* line-clamp is now built into tailwind ([#6108](https://github.com/EddieHubCommunity/LinkFree/issues/6108)) ([de8a58b](https://github.com/EddieHubCommunity/LinkFree/commit/de8a58b09d6ab8b43f48b5eb5dfb4e855a5029f6))
+* dark mode for playground preview [#5911](https://github.com/EddieHubCommunity/LinkFree/issues/5911) ([#6110](https://github.com/EddieHubCommunity/LinkFree/issues/6110)) ([2bedc4e](https://github.com/EddieHubCommunity/LinkFree/commit/2bedc4e1b6874e244d948cb2338274127f5cf21f))
 
 
 
