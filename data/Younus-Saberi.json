@@ -67,5 +67,15 @@
       "url": "https://www.youtube.com/@younussaberi",
       "icon": "FaYoutube"
     }
-  ]
+  ],
+   "milestones": [
+        {
+            "title": "Selected as Cloud Lead",
+            "date": "October 2022",
+            "icon": "FaGoogle",
+            "color": "grey",
+            "description": "Being Recognized by Google Developer Student Clubs as Cloud Computing Lead at my Campus",
+            "url": "https://gdsc.community.dev/amc-engineering-college-bengaluru/"
+        }
+    ]
 }

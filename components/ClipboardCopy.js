@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { onlyText } from "react-children-utilities";
+import { FaRegClipboard, FaClipboardCheck } from "react-icons/fa";
 
 const ClipboardCopy = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
@@ -26,7 +27,7 @@ const ClipboardCopy = ({ children }) => {
 
   return (
     <div className="relative">
-      <div className="absolute flex items-center space-x-2 top-0 right-0 m-2">
+      <div className="absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300">
         <button
           type="button"
           aria-label="Copy to Clipboard"
@@ -34,9 +35,15 @@ const ClipboardCopy = ({ children }) => {
           className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
         >
           {isCopied ? (
-            <span className="text-green-500 text-sm">Copied!</span>
+            <div className="inline-flex items-center text-green-500">
+              <FaClipboardCheck className="mr-2 text-green-500" />
+              <span className="text-green-500 text-sm">Copied!</span>
+            </div>
           ) : (
-            <span className="text-primary-medium text-sm">Copy</span>
+            <div className="inline-flex items-center transition-all ease-out">
+              <FaRegClipboard className="mr-2 text-primary-low" />
+              <span className="text-primary-low text-sm">Copy</span>
+            </div>
           )}
         </button>
       </div>
