@@ -4,7 +4,6 @@ import { FaRegClipboard, FaClipboardCheck } from "react-icons/fa";
 
 const ClipboardCopy = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
-  const [clicked, setClicked] = useState(false);
 
   async function copyTextToClipboard(text) {
     if ("clipboard" in navigator) {
@@ -15,7 +14,6 @@ const ClipboardCopy = ({ children }) => {
   }
 
   const handleCopyClick = async () => {
-    setClicked(true);
     try {
       await copyTextToClipboard(onlyText(children));
       setIsCopied(true);
