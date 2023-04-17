@@ -355,11 +355,12 @@ export default function DocsIndex() {
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div
+                  <Link
+                    href={page.path}
                     key={page.name}
-                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                   >
-                    <div>
+                    <div className="py-2">
                       <span
                         className={classNames(
                           page.category.color,
@@ -369,15 +370,15 @@ export default function DocsIndex() {
                         {page.category.name}
                       </span>
                     </div>
-                    <Link href={page.path} className="mt-4 block">
+                    <div className="py-2">
                       <h3 className="text-xl font-semibold text-primary-high dark:text-primary-low">
                         {page.name}
                       </h3>
                       <p className="mt-3 text-base text-primary-medium dark:text-primary-low-medium">
                         {page.description}
                       </p>
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 ))}
               </div>
             </div>
