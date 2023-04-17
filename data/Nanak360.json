@@ -1,0 +1,44 @@
+{
+  "name": "Nanak Bandyopadhyay",
+  "type": "personal",
+  "bio": "Full stack web developer 👨‍💻 | Web3 developer 🪙| JS & Python 💪",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "ReactJS",
+    "NodeJS",
+    "Angular"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/NBandyopadhyay" },
+    { "icon": "FaGithub", "url": "https://github.com/Nanak360" },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/nanak.bandyopadhyay"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/NBandyopadhyay",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/nanakbandyopadhyay/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Let's code together on Github",
+      "url": "https://github.com/Nanak360",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's be friends on Facebook",
+      "url": "https://www.facebook.com/nanak.bandyopadhyay",
+      "icon": "FaFacebook"
+    }
+  ]
+}
