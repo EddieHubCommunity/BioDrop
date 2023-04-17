@@ -1,0 +1,12 @@
+{
+	"name": "Felipe Lenzi",
+	"type": "personal",
+	"bio": "Lawyer turned **fotografo**. User of GNU/LINUX",
+
+
+	"links": [{
+		"name": "Follow me on Twitter",
+		"url": "https://twitter.com/Felilenzi2",
+		"icon": "FaTwitter"
+	}]
+}
