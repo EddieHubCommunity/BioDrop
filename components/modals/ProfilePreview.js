@@ -39,7 +39,7 @@ export default function Preview({ toggle, data }) {
         {/* <!-- Modal content --> */}
         <div
           ref={modalContentRef}
-          class="relative bg-white text-primary-high rounded-lg"
+          class="dark:bg-primary-high dark:text-white relative bg-white text-primary-high rounded-lg"
         >
           {/* <!-- Modal header --> */}
           <div class="flex items-start justify-between p-4  rounded-t border-primary-medium">
