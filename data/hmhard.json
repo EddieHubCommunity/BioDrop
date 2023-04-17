@@ -14,14 +14,13 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/MiniyahilK" },
     { "icon": "FaGithub", "url": "https://github.com/hmhard" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/channel/UCusEOZTekp3ODvaGJHKkXHg" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCusEOZTekp3ODvaGJHKkXHg"
+    }
   ],
-  "testimonials": [
-    "vernu",
-    "abubekerseifu"
-  ],
+  "testimonials": ["vernu", "abubekerseifu"],
   "links": [
-  
     {
       "group": "Socials Primary",
       "name": "Twitter: Follow me",
