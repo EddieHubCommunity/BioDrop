@@ -3,12 +3,7 @@
   "type": "personal",
   "bio": "Developer",
 
-  "tags": [
-    "Javascript",
-    "Typescript",
-    "VueJS",
-    "DevOps"
-  ],
+  "tags": ["Javascript", "Typescript", "VueJS", "DevOps"],
   "socials": [
     { "icon": "FaInstagram", "url": "https://instagram.com/immachakata" },
     { "icon": "FaTwitter", "url": "https://twitter.com/immachakata" },
