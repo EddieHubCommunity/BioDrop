@@ -1,7 +1,7 @@
 {
   "name": "Wes MacDonald",
   "type": "personal",
-  "bio": "Developer | Learner | Microbiologist | Gardener | Mixologist",
+  "bio": "Developer | Microbiologist | Coffee Nerd | Mixologist | Gardener",
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/wrmacdonald" },
     { "icon": "FaMastodon", "url": "@wrmacdonald@hachyderm.io" },
@@ -48,6 +48,13 @@
       "color": "blue",
       "description": "Completed my Computer Science Bachelor's with a 4.00 GPA",
       "url": "https://ecampus.oregonstate.edu"
+    },
+    {
+      "title": "Began working in Coffee!",
+      "date": "October 2019",
+      "icon": "FaCoffee",
+      "color": "blue",
+      "description": "Provided great customer service, a passion for coffee, & invented seasonal cocktails"
     }
   ]
 }
