@@ -5,12 +5,12 @@
   "links" : [
       {
         "name" : "Twitter",
-        "url" : "https://twitter.com/joeboaadiDev_",
+        "url" : "https://twitter.com/joeboadiDev_",
         "icon" : "FaTwitter"
       },
        {
         "name" : "Github",
-        "url" : "https://github.com/joeboaadiDev",
+        "url" : "https://github.com/joeboadiDev",
         "icon" : "FaGithubAlt"
       }
    ]
