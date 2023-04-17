@@ -3,11 +3,10 @@
   "type": "personal",
   "bio": "Learning Full Stack development",
   "links": [
-  {
-  "name": "Follow me on Github",
-  "url": "https://github.com/SahilSinghTomar",
-  "icon": "FaGithubAlt"
-  }
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/SahilSinghTomar",
+      "icon": "FaGithubAlt"
+    }
   ]
 }
-  
