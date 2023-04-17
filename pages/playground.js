@@ -5,7 +5,7 @@ import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Button from "@components/Button";
 import PreviewModal from "@components/modals/ProfilePreview";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
 
 export default function Playground() {
   const [profileJson, setProfileJson] = useState("");
