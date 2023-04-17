@@ -1,0 +1,25 @@
+{
+  "name": "Anamika Mudotiya",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "I'm a Frontend Developer",
+  "avatar": "https://github.com/anamika133m.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Coder01Still",
+      "icon": "FaTwitter"
+    },
+   {
+      "name": "Follow me on Github",
+      "url": "https://github.com/anamika133m",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://twitter.com/anamikamudotiya",
+      "icon": "FaLinkedin"
+    }
+
+  ]
+}
