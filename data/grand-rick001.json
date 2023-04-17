@@ -48,12 +48,6 @@
     },
     {
       "group": "Others",
-      "name": "Kaggle: Machine Learning journey",
-      "url": "https://www.kaggle.com/grandrick001",
-      "icon": "SiKaggle"
-    },
-    {
-      "group": "Others",
       "name": "Wakatime: Powerful coding Insights",
       "url": "https://wakatime.com/@grandrick001",
       "icon": "SiWakatime"
