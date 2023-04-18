@@ -1,0 +1,22 @@
+	{
+  "name": "Khushbu Maheshwari",
+  "displayStarsPublic":true,
+  "type": "personal",
+  "bio": "Student | frontend developer | Exploring **Open Source**",
+  "avaar":"https://github.com/khushbumaheshwarii.png"
+
+
+  "links": [
+   
+    {
+      "name": "FolLow me on Github",
+      "url": "https://github.com/khushbumaheshwarii",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/khushbu-maheshwari-004214219/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
