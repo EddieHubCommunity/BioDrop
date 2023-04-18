@@ -1,0 +1,32 @@
+{
+  "name": "Rushikesh Gandhmal",
+  "type": "personal",
+  "bio": "Software Engineer, reader, anime lover, football lover !",
+  "links": [
+    {
+      "name": "Check out Github",
+      "url": "https://github.com/RushikeshGandhmal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out Linkedin",
+      "url": "https://www.linkedin.com/in/rushikesh-gandhmal/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Check out Portfolio",
+      "url": "https://rushikesh-portofolio.netlify.app/",
+      "icon": "SiPersonio"
+    },
+    {
+      "name": "Check out Twitter",
+      "url": "https://twitter.com/rushikesh1s",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out HashNode",
+      "url": "https://hashnode.com/@rushikeshdotjs",
+      "icon": "SiHashnode"
+    }
+  ]
+}
