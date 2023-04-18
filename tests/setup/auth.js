@@ -9,7 +9,7 @@ import Account from "@models/Account";
 const login = async () => {
   await connectMongo();
 
-  const storagePath = path.resolve(__dirname, "storageState.json");
+  const storagePath = path.resolve(__dirname, "storage-state.json");
   const date = new Date();
   const sessionToken = "04456e41-ec3b-4edf-92c1-48c14e57cacd2";
   let testUser;
@@ -29,7 +29,7 @@ const login = async () => {
   }
 
   try {
-    const session = await Session.findOneAndUpdate(
+    await Session.findOneAndUpdate(
       {
         userId: testUser._id,
       },
@@ -44,7 +44,7 @@ const login = async () => {
   }
 
   try {
-    const account = await Account.findOneAndUpdate(
+    await Account.findOneAndUpdate(
       {
         userId: testUser._id,
       },
@@ -74,7 +74,7 @@ const login = async () => {
       path: "/",
       httpOnly: true,
       sameSite: "Lax",
-      expires: 1661406204,
+      expires: -1,
     },
   ]);
   await context.storageState({ path: storagePath });
