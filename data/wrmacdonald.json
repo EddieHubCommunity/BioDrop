@@ -9,20 +9,20 @@
     ],
   "links": [
     {
-    "name": "Check out my work on GitHub",
-    "url": "https://github.com/wrmacdonald",
-    "icon": "FaGithub"
-  },
-{
-    "name": "Follow me on Mastodon",
-    "url": "@wrmacdonald@hachyderm.io",
-    "icon": "FaMastodon"
-  },
-{
-    "name": "Glance at my LinkedIn",
-    "url": "https://www.linkedin.com/in/wes-macdonald-2016/",
-    "icon": "FaLinkedin"
-  }
+      "name": "Check out my work on GitHub",
+      "url": "https://github.com/wrmacdonald",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "@wrmacdonald@hachyderm.io",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Glance at my LinkedIn",
+      "url": "https://www.linkedin.com/in/wes-macdonald-2016/",
+      "icon": "FaLinkedin"
+    }
   ],
   "milestones": [
     {

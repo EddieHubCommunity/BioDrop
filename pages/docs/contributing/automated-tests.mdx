@@ -5,9 +5,15 @@ import Link from "@components/Link";
 
 We use <Link href="http://playwright.dev">Playwright</Link> for writing automated end to end (e2e) tests.
 
+**Dev environment variations**
+
+Gitpod: Skip to step 3
+
+Docker: Start docker for mongo only with the command `docker compose -f mongo-compose.yml` then continue in a second terminal window with steps 1-3.
+
 1. Install dependencies with `npm ci`
 1. Install Playwright dependencies `npx playwright install --with-deps`
-1. Run tests `npm run test`
+1. Run tests `npm run test` (Note: if you would like to run a single test, include the name of the file in your command `npm run test my-test.js`
 
 ```bash
 npm run test
