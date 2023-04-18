@@ -1,10 +1,10 @@
 {
   "name": "Haris Khan",
-
   "type": "personal",
   "bio": "Computer Science guy in a Software Engineering world!",
 
-  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Frontend Developer", "Open Source"],
+
   "socials": [
     {
       "icon": "FaGithub",
