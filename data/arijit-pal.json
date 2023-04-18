@@ -1,0 +1,12 @@
+{
+  "name": "Arijit Pal",
+  "type": "personal",
+  "bio": "Masters in Tech. Yoga enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aripaljit",
+      "icon": "FaTwitter"
+    }
+  ]
+}
