@@ -4,7 +4,7 @@
   "bio": "Developer | Microbiologist | Coffee Nerd | Mixologist | Gardener",
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/wrmacdonald" },
-    { "icon": "FaMastodon", "url": "@wrmacdonald@hachyderm.io" },
+    { "icon": "FaMastodon", "url": "https://hachyderm.io/@wrmacdonald#" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/wes-macdonald-2016/" }
     ],
   "links": [
@@ -15,7 +15,7 @@
     },
     {
       "name": "Follow me on Mastodon",
-      "url": "@wrmacdonald@hachyderm.io",
+      "url": "https://hachyderm.io/@wrmacdonald#",
       "icon": "FaMastodon"
     },
     {
