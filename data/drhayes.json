@@ -1,0 +1,12 @@
+{
+  "name": "David Hayes",
+  "type": "personal",
+  "bio": "I do things with computers. Catpants forever.",
+  "links": [
+    {
+      "name": "My home on the Internet",
+      "url": "https://drhayes.io",
+      "icon": "FaHouseUser"
+    }
+  ]
+}

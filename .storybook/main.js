@@ -9,6 +9,7 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-a11y",
     "@tomfreudenberg/next-auth-mock/storybook",
+    "storybook-dark-mode",
     {
       name: '@storybook/addon-docs',
       options: {

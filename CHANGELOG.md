@@ -1,9 +1,9 @@
-## 1.108.8 (2023-04-04)
+## 1.109.32 (2023-04-18)
 
 
 ### Bug Fixes
 
-* badges better positions ([#5829](https://github.com/EddieHubCommunity/LinkFree/issues/5829)) ([9765ba7](https://github.com/EddieHubCommunity/LinkFree/commit/9765ba7bd5aa5eaa4be73fb415c92992ff5df6ba))
+* ignore bad event dates ([#6171](https://github.com/EddieHubCommunity/LinkFree/issues/6171)) ([cde3420](https://github.com/EddieHubCommunity/LinkFree/commit/cde34208dc347b6a6a163b6296d6050acf8659bd))
 
 
 

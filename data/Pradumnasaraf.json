@@ -5,9 +5,9 @@
   "tags": [
     "Open Source",
     "DevOps",
+    "Golang",
     "Kubernetes",
     "Docker",
-    "Golang",
     "Node.js"
   ],
   "socials": [
@@ -93,13 +93,13 @@
     },
     {
       "group": "Open Source Projects",
-      "name": "Get Started with Open Source now - 600+ stars ⭐️",
+      "name": "Get Started with Open Source now - 700+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/open-source-with-pradumna",
       "icon": "FaGithub"
     },
     {
       "group": "Open Source Projects",
-      "name": "My DevOps journey and learnings - 1k+ stars ⭐️",
+      "name": "My DevOps journey and learnings - 1.1k+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/DevOps",
       "icon": "FaGithub"
     }

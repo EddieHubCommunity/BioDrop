@@ -1,0 +1,29 @@
+{
+    "name": "Gautham Prasath",
+    "type": "personal",
+    "bio": "Pentester | Red Teaming",
+    "tags": [
+        "Open Source"
+    ],
+    "socials": [
+        {
+            "icon": "FaLinkedin",
+            "url": "https://www.linkedin.com/in/gauthamprasath"
+        },
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/Gauthamprasath8"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/Gauthamprasath"
+        }
+    ],
+    "links": [
+        {
+            "name": "Blog",
+            "url": "https://medium.com/@gauthamprasath",
+            "icon": "SiMedium"
+        }
+    ]
+}
