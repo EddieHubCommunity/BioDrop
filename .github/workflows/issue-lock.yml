@@ -14,7 +14,7 @@ jobs:
       - uses: dessant/repo-lockdown@v3
         with:
           close-issue: false
-          exclude-issue-labels: "🏁 status: ready for dev,💬 talk: discussion"
+          exclude-issue-labels: "🏁 status: ready for dev,💬 talk: discussion,testimonial"
           process-only: "issues"
           skip-closed-issue-comment: true
           issue-comment: >
