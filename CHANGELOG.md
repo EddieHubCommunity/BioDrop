@@ -1,9 +1,9 @@
-## 1.109.32 (2023-04-18)
+# 1.110.0 (2023-04-18)
 
 
-### Bug Fixes
+### Features
 
-* ignore bad event dates ([#6171](https://github.com/EddieHubCommunity/LinkFree/issues/6171)) ([cde3420](https://github.com/EddieHubCommunity/LinkFree/commit/cde34208dc347b6a6a163b6296d6050acf8659bd))
+* lock issue during triage [#6142](https://github.com/EddieHubCommunity/LinkFree/issues/6142) ([#6176](https://github.com/EddieHubCommunity/LinkFree/issues/6176)) ([774a635](https://github.com/EddieHubCommunity/LinkFree/commit/774a635b00a86da8d84997098f349d4f7b7f36e0))
 
 
 
