@@ -7,6 +7,16 @@
       "name": "My home on the Internet",
       "url": "https://drhayes.io",
       "icon": "FaHouseUser"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/drhayes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Keybase",
+      "url": "https://keybase.io/drhayes",
+      "icon": "FaKeybase"
     }
   ]
 }
