@@ -1,9 +1,9 @@
-## 1.110.1 (2023-04-18)
+## 1.110.2 (2023-04-18)
 
 
 ### Bug Fixes
 
-* removed community action ([#6180](https://github.com/EddieHubCommunity/LinkFree/issues/6180)) ([41514c8](https://github.com/EddieHubCommunity/LinkFree/commit/41514c86f25f35cbefbe98709682cca55e008600))
+* issue-lock ignore testimonial label ([#6182](https://github.com/EddieHubCommunity/LinkFree/issues/6182)) ([b40c4e7](https://github.com/EddieHubCommunity/LinkFree/commit/b40c4e7a02e67bbf65fe907165feca00cfdd36e4))
 
 
 
