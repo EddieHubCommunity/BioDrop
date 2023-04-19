@@ -86,9 +86,9 @@ export async function getServerSideProps(context) {
     100
   ).toFixed(0);
 
-  data.links.individual = data.links.individual.filter(link => {
-    return profile.links.some(pLink => pLink.url === link.url);
-  });
+  data.links.individual = data.links.individual.filter((link) =>
+    profile.links.some((pLink) => pLink.url === link.url)
+  );
 
   const totalClicks = data.links.individual.reduce((acc, link) => {
     return acc + link.clicks;
