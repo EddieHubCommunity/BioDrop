@@ -42,7 +42,7 @@ export default function DocsLayout({ children, title }) {
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white">
                 <h3 className="mb-8 font-bold text-xl md:text-3xl">
-                  You can setup the LinkFree code base in the following two ways.
+                  You can setup LinkFree code base in the following two ways.
                 </h3>
                 {children}
               </div>
