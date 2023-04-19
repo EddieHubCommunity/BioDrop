@@ -1,9 +1,9 @@
-## 1.110.2 (2023-04-18)
+## 1.110.4 (2023-04-19)
 
 
 ### Bug Fixes
 
-* issue-lock ignore testimonial label ([#6182](https://github.com/EddieHubCommunity/LinkFree/issues/6182)) ([b40c4e7](https://github.com/EddieHubCommunity/LinkFree/commit/b40c4e7a02e67bbf65fe907165feca00cfdd36e4))
+* dashboard hide old links ([#6207](https://github.com/EddieHubCommunity/LinkFree/issues/6207)) ([32855a3](https://github.com/EddieHubCommunity/LinkFree/commit/32855a3f7f0efc7cbf65bc629033552fc588efcc)), closes [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#6095](https://github.com/EddieHubCommunity/LinkFree/issues/6095) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202)
 
 
 
