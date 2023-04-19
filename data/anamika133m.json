@@ -8,7 +8,7 @@
       "url": "https://twitter.com/Coder01Still",
       "icon": "FaTwitter"
     },
-   {
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/anamika133m",
       "icon": "FaGithub"
@@ -18,6 +18,5 @@
       "url": "https://twitter.com/anamikamudotiya",
       "icon": "FaLinkedin"
     }
-
   ]
 }

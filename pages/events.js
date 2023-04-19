@@ -15,8 +15,29 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
-    logger.error(e, "ERROR search users");
+    logger.error(e, "ERROR events list");
   }
+
+  // remove any invalid events
+  events = events.filter((event) => {
+    const dateTimeStyle = {
+      dateStyle: "full",
+      timeStyle: "long",
+    };
+    try {
+      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.start)
+      );
+      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.end)
+      );
+
+      return true;
+    } catch (e) {
+      logger.error(e, `ERROR event date for: "${event.name}"`);
+      return false;
+    }
+  });
 
   return {
     props: { events },
