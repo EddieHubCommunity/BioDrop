@@ -1,0 +1,26 @@
+
+{
+  "name": "P.Nikhil",
+  "type": "personal",
+  "bio": "Open source enthusiast",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Pnikhil003",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/p-nikhil-180035237",
+      "icon": "FaLinkedin"
+    },
+ 
+
+    {
+      "name": "visit my Github profile",
+      "url": "https://github.com/Nikhil202003",
+      "icon": "FaGithub"
+    }
+  ]
+}
