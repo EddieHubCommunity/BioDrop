@@ -46,7 +46,7 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-            "This allows you the most customisation to your development environment, but requires more setup time.",
+            "This allows you the most customization to your development environment, but requires more setup time.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
