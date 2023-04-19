@@ -12,9 +12,7 @@
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/sheriffWebDev" },
-    { "icon": "FaGithub", "url": "https://github.com/Sheriff-Oladimeji" }, 
-  ],
-
+    { "icon": "FaGithub", "url": "https://github.com/Sheriff-Oladimeji" },
     {
       "group": "Socials Primary",
       "name": "Twitter: Follow me",
