@@ -105,6 +105,10 @@ export default function Search({ data }) {
 
   useEffect(() => {
     if (!inputValue) {
+      //Setting the users as null when the input field is empty
+      setFilteredUsers([]);
+      //Removing the not found field when the input field is empty
+      setNotFound();
       return;
     }
 
