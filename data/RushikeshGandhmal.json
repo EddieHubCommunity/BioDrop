@@ -1,7 +1,7 @@
 {
   "name": "Rushikesh Gandhmal",
   "type": "personal",
-  "bio": "Software Engineer, reader, anime lover, football lover !",
+  "bio": "**Open Source** DevRel | Full-stack Dev | ReactJs | JavaScript | Frontend Developer",
   "links": [
     {
       "name": "Check out Github",
@@ -27,6 +27,11 @@
       "name": "Check out HashNode",
       "url": "https://hashnode.com/@rushikeshdotjs",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Check out Instagram",
+      "url": "https://www.instagram.com/rushikesh_gandhmal/",
+      "icon": "FaInstagram"
     }
   ]
 }
