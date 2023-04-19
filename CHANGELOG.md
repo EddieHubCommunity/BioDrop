@@ -1,9 +1,9 @@
-## 1.110.2 (2023-04-18)
+## 1.110.3 (2023-04-19)
 
 
 ### Bug Fixes
 
-* issue-lock ignore testimonial label ([#6182](https://github.com/EddieHubCommunity/LinkFree/issues/6182)) ([b40c4e7](https://github.com/EddieHubCommunity/LinkFree/commit/b40c4e7a02e67bbf65fe907165feca00cfdd36e4))
+* uptime badge in README ([#6193](https://github.com/EddieHubCommunity/LinkFree/issues/6193)) ([c0f114c](https://github.com/EddieHubCommunity/LinkFree/commit/c0f114c34dc334300899bd4b8896b28acb142ad3))
 
 
 
