@@ -2,6 +2,15 @@
   "name": "Rushikesh Gandhmal",
   "type": "personal",
   "bio": "Software Engineer, reader, anime lover, football lover !",
+  
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevRel"
+  ],
+  
   "links": [
     {
       "name": "Check out Github",
