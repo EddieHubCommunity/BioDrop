@@ -6,13 +6,31 @@ Gitpod is an open-source application that provides a prebuilt development enviro
 It automates the provisioning of a ready-to-code developer environment, so you will have all the dependencies you need (for example MongoDB).<br />
 With Gitpod, there’s no need to download any code to your machine. It can spin up a server-side-dev-environment for you in seconds from any Git Repository.<br />
 
-## How to use Gitpod
+### How to use Gitpod
 
 There are 2 ways you can open a repository with Gitpod:
 
 - Prefix the url with `gitpod.io/#`
 - Use the [Browser Extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension)
 
+### Development
+
+Once you have open't a repository, you can develop as you are used to! In the next example, we will update our profile on LinkFree.<br />
+Be sure that you have a forked of LinkFree in your Github Profile. If you don't have it, checkout our Quickstart Guide.<br />
+Open your fork and follow along.
+
+As a first step, we will make sure that we have the latest version of the code. To achieve this, run the following commands:
+
+```bash
+git checkout main
+git pull upstream main
+```
+
+Now we can update our profile. To do this, checkout a new branch with the following command
+```bash
+# Replace YOUR_PROFILE_NAME with your actual profile name.
+git checkout -b update-YOUR_PROFILE_NAME
+```
 Setup environment [variables](/docs/environments/environment-variables)
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
