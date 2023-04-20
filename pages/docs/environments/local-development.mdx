@@ -1,12 +1,10 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
+import Heading from "@components/mdx/Heading.js";
 
+<Heading fontSize="large" customClasses="mt-6 mb-6"> You can setup LinkFree code base in the following two ways. </Heading>
 
-## You can setup LinkFree code base in the following two ways.
-
-<div id="docker-compose">
-
-## 1. Docker Compose (recommended)
+<Heading id="docker-compose">1. Docker Compose (recommended)</Heading>
 
 This might sound scary but it is actually the easiest solution for a local development environment.
 The environment will allow you to run the application locally with Docker Compose. Everything will run in containers (e.g.,MongoDB), so you don't need to install anything on your machine.
@@ -41,11 +39,7 @@ docker compose down
 
 If you are getting an error, try to rebuild the images with `docker compose up --build`. If that doesn't work, stop the containers with `docker compose down` and remove the stopped linkfree container with `docker rm linkfree`. Then, remove the images with `docker rmi linkfree-app`. Lastly, rebuild the images with `docker compose up --build`.
 
-</div>
-
-<div id="local">
-
-## 2. Complete local development setup (advanced)
+<Heading id="local" fontSize = "text-3xl">2. Complete local development setup (advanced)</Heading>
 
 If you're not comfortable using Docker, don't worry! We have an alternative method for you to set up the LinkFree codebase locally.
 By following the steps outlined below, you'll have a local codebase ready for development.
@@ -72,7 +66,6 @@ You can set this up locally with the following steps
 
 Any changes you make will automatically be reloaded in the browser.
 
-</div>
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Local Development Documentation">
