@@ -10,11 +10,11 @@ export default function Changelog() {
   };
   const changes = [
     {
-      title: "Profile progress bar",
+      title: "LinkFree now has DarkMode",
       description:
-        "It is now possible to track your LinkFree profile progress",
+        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
       type: "addition",
-      date: "2023-03-26",
+      date: "2023-04-08",
     },
     {
       title: "Profile QR code download",
@@ -22,6 +22,12 @@ export default function Changelog() {
         "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
       type: "addition",
       date: "2023-03-31",
+    },
+    {
+      title: "Profile progress bar",
+      description: "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
     },
     {
       title: "Dedicated domain (url)",
@@ -81,8 +87,8 @@ export default function Changelog() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white shadow sm:rounded-md">
-          <ul role="list" className="divide-y divide-gray-200">
+        <div className="overflow-hidden bg-white dark:bg-primary-high dark:border dark:border-primary-medium shadow sm:rounded-md">
+          <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
@@ -101,13 +107,17 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex">{change.description}</div>
-                    <div className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
+                    <div className="sm:flex dark:text-primary-low-medium">
+                      {change.description}
+                    </div>
+                    <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-low-medium dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p>{change.date}</p>
+                      <p className="dark:text-primary-low-medium">
+                        {change.date}
+                      </p>
                     </div>
                   </div>
                 </div>

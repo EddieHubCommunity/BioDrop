@@ -142,6 +142,14 @@
       "color": "green",
       "description": "I became a member of the Web team for the Cohort 7.0 of the Professor Ayodele Awojobi Design Competition",
       "url": "https://paadc.com/about-us"
+    },
+    {
+      "title": "Became Maintainer and Dev Advocate For Milionjs",
+      "date": "2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "pink",
+      "description": "I became a Developer Advocate and Maintainer of the Millionjs React library that provides a Virtual DOM solution for React",
+      "url": "https://millionjs.org/"
     }
   ],
   "testimonials": [

@@ -1,0 +1,17 @@
+{
+  "name": "Aditya Raj",
+  "type": "personal",
+  "bio": "Blockchain Developer|| open source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rajaditya02",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rajaditya06",
+      "icon": "FaGithub"
+    }
+  ]
+}
