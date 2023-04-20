@@ -2,9 +2,9 @@
 
 # What is LinkFree?
 
-LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
+LinkFree is an open-source alternative to LinkTree, a platform where people in tech can have a single hub to showcase their content and accelerate their careers while contributing to an open-source project and being part of a community that has a say in where the project is going.
 
-Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
+Your profile will have links to your social media and content, and you can also add your timeline, testimonials, and upcoming events in which you are participating.
 
 Here is an example of a LinkFree Profile https://linkfree.io/eddiejaoude
 
@@ -21,20 +21,20 @@ LinkFree was built using the following technologies:
 
 ## 🛠️ Quickstart
 
-You have 4 options to contribute to the repo, please pick your favourite from:
+You have four options to contribute to the repo; please pick your favorite from:
 
 1. [GitHub UI (recommended for adding/editing your profile)](https://github.com/EddieHubCommunity/LinkFree#github-ui)
 2. [Gitpod](https://github.com/EddieHubCommunity/LinkFree#gitpod)
 3. [Local development](https://github.com/EddieHubCommunity/LinkFree#local-development)
 4. [Local development with Docker Compose](https://github.com/EddieHubCommunity/LinkFree#local-development-with-docker-compose)
 
-Brief documentation is below, but full documentation can be found here https://linkfree.io/docs
+Brief documentation is below, but full documentation can be found here:  https://linkfree.io/docs
 
 ### GitHub UI
 
-This is great if you only want to add your Profile or make changes to it.
+This is great if you only want to add your profile or make changes to it.
 
-Here is the **QuickStart** guide to add your profile - https://linkfree.io/docs/quickstart
+Here is the **QuickStart** guide to add your profile: https://linkfree.io/docs/quickstart
 
 > **Note**: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request
 
@@ -42,9 +42,9 @@ Read more in the official documentation - https://linkfree.io/docs/environments/
 
 ### Gitpod
 
-In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
+A cloud-free development environment that will have all the dependencies you need (for example, MongoDB).
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
+You can use Gitpod in the cloud: [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
 
 Read more in the official documentation - https://linkfree.io/docs/environments/gitpod 
 
@@ -73,7 +73,7 @@ Read more in the official documentation https://linkfree.io/docs/environments/lo
 
 ### Local development with Docker Compose
 
-This will allow you to run your favourite IDE but not have to install any dependencies on your computer like NodeJS and MongoDB.
+This will allow you to run your favorite IDE but not have to install any dependencies on your computer like Node.js and MongoDB.
 
 #### Prerequisites
 
@@ -84,17 +84,17 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 1. `docker compose up` 
 
-Read more in the official documentation - https://linkfree.io/docs/environments/local-development-docker-compose
+Read more in the official documentation: https://linkfree.io/docs/environments/local-development-docker-compose
 
 ### 🙂 How to add YOUR Profile
 
-Step by step quickstart guide can be found in the full docs here - https://linkfree.io/docs/quickstart
+The step-by-step QuickStart guide can be found in the full docs here:  https://linkfree.io/docs/quickstart
 
 <!-- Testimonials STARTs Here -->
 
 ## ⛩️ Testimonials
 
-Here are some testimonials from individuals who have used LinkFree:- 
+Here are some testimonials from individuals who have used LinkFree: 
 
 <!-- Section 1 -->
 
