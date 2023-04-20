@@ -1,6 +1,8 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
 
+<div id="docker-compose">
+
 ## 1. Docker Compose (recommended)
 
 This might sound scary but it is actually the easiest solution for a local development environment.
@@ -36,6 +38,10 @@ docker compose down
 
 If you are getting an error, first try to rebuild the images with `docker compose up --build`. If that doesn't work, stop the containers with `docker compose down` and then remove the stopped linkfree container with `docker rm linkfree`. Then remove the images with `docker rmi linkfree-app`. Then rebuild the images with `docker compose up --build`.
 
+</div>
+
+<div id="local">
+
 ## 2. Complete local development setup (advanced)
 
 If you're not comfortable using Docker, don't worry! We have an alternative method for you to set up the LinkFree codebase locally.
@@ -62,6 +68,8 @@ You can set this up locally with the following steps
 1. start the app with `npm run dev` and visit in the browser `http://localhost:3000`
 
 Any changes you make will automatically be reloaded in the browser.
+
+</div>
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Local Development Documentation">
