@@ -1,12 +1,19 @@
 {
-  "name": "Shivam Kumar",
+  "name": "Shivam Singh",
   "type": "personal",
-  "bio": "High School student passionate about open source",
+  "bio": "Student learning",
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/shivamsinghydv",
+      "url": "https://twitter.com/SaraJaoude",
       "icon": "FaTwitter"
-    }
+    },{
+      "name": "Github",
+      "url": "https://github.com/shivamsinghydv",
+      "icon": "FaGithub"
+    },{
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/shivamsinghydv/",
+      "icon": "FaLinkedIn"}
   ]
 }
