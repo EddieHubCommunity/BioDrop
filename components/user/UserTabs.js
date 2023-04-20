@@ -19,20 +19,22 @@ export default function UserTabs({ tabs, setTabs }) {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        <select
-          id="tabs"
-          name="tabs"
-          onChange={changeTab}
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
-          defaultValue={tabs.find((tab) => tab.current).name}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
-          ))}
-        </select>
+        {tabs.length > 1 && (
+          <select
+            id="tabs"
+            name="tabs"
+            onChange={changeTab}
+            className="block w-full rounded-md border-primary-low-medium dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
+            defaultValue={tabs.find((tab) => tab.current).name}
+          >
+            {tabs.map((tab) => (
+              <option key={tab.name}>{tab.name}</option>
+            ))}
+          </select>
+        )}
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-gray-200">
+        <div className="border-b border-primary-low-medium">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
@@ -41,8 +43,8 @@ export default function UserTabs({ tabs, setTabs }) {
                 onClick={(e) => changeTab(e, tab.name)}
                 className={classNames(
                   tab.current
-                    ? "border-indigo-500 text-indigo-600"
-                    : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300",
+                    ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
+                    : "border-transparent text-primary-medium dark:text-primary-low-medium dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-low-medium",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm"
                 )}
                 aria-current={tab.current ? "page" : undefined}
