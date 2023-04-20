@@ -1,0 +1,19 @@
+{
+  "name": "nedro",
+  "type": "personal",
+  "bio": "Matematico libertario, massimalista, insegnante. nedro@nostr.red.",
+  
+   "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dro_ned",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/n3dro",
+      "icon": "FaTelegram"
+    }
+  
+  ]
+}
