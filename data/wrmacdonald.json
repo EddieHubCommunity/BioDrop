@@ -5,8 +5,11 @@
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/wrmacdonald" },
     { "icon": "FaMastodon", "url": "https://hachyderm.io/@wrmacdonald#" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/wes-macdonald-2016/" }
-    ],
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/wes-macdonald-2016/"
+    }
+  ],
   "links": [
     {
       "name": "Check out my work on GitHub",

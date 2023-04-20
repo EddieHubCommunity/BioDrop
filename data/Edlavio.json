@@ -1,0 +1,17 @@
+{
+  "name": "Pedro Alberto",
+  "type": "personal",
+  "bio": "I.T. Student. Nerd & Anime lover",
+    "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/edlavio/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Edlavio",
+      "icon": "FaGithub"
+    }
+  ]
+}
