@@ -1,49 +1,47 @@
 {
-    "name": "Gautham Prasath",
-    "type": "personal",
-    "bio": "Pentester | Red Teaming",
-    "tags": [
-        "Open Source"
-    ],
-    "socials": [
-        {
-            "icon": "FaLinkedin",
-            "url": "https://www.linkedin.com/in/gauthamprasath"
-        },
-        {
-            "icon": "FaTwitter",
-            "url": "https://twitter.com/Gauthamprasath8"
-        },
-        {
-            "icon": "FaGithub",
-            "url": "https://github.com/Gauthamprasath"
-        }
-    ],
-    "links": [
-        {
-            "group": "Socials Primary",
-            "name": "Twitter: Follow me",
-            "url": "https://twitter.com/Gauthamprasath8",
-            "icon": "FaTwitter",
-            "color": "#00ACEE"
-        },
-        {
-            "group": "Socials Primary",
-            "name": "GitHub: Collaborate on Open Source",
-            "url": "https://github.com/Gauthamprasath",
-            "icon": "FaGithub"
-        },
-        {
-            "group": "Socials Primary",
-            "name": "LinkedIn: Let's connect",
-            "url": "https://www.linkedin.com/in/gauthamprasath",
-            "icon": "FaLinkedin"
-        },
-        {
-            "group": "Socials Secondary",
-            "name": "Medium : Read my stories",
-            "url": "https://medium.com/@gauthamprasath",
-            "icon": "FaMediumM"
-        }
-    ]
+  "name": "Gautham Prasath",
+  "type": "personal",
+  "bio": "Pentester | Red Teaming",
+  "tags": ["Open Source"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/gauthamprasath"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Gauthamprasath8"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Gauthamprasath"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Gauthamprasath8",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Gauthamprasath",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/gauthamprasath",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Medium : Read my stories",
+      "url": "https://medium.com/@gauthamprasath",
+      "icon": "FaMediumM"
+    }
+  ]
 }
