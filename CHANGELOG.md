@@ -1,9 +1,9 @@
-## 1.110.5 (2023-04-21)
+## 1.110.6 (2023-04-21)
 
 
 ### Bug Fixes
 
-* node version nvmrc and engines ([#6233](https://github.com/EddieHubCommunity/LinkFree/issues/6233)) ([#6241](https://github.com/EddieHubCommunity/LinkFree/issues/6241)) ([f984ad1](https://github.com/EddieHubCommunity/LinkFree/commit/f984ad1753a3e084170c76082ab0d0ca3e9de1d6))
+* remove duplicate code for loading profiles ([#6247](https://github.com/EddieHubCommunity/LinkFree/issues/6247)) ([3132958](https://github.com/EddieHubCommunity/LinkFree/commit/3132958ea8549fbabc6a65ce66215724dc24845e))
 
 
 
