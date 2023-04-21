@@ -19,10 +19,9 @@
       "icon": "FaInstagram"
     },
     {
-      "name" : "Collaborate with me on Github",
-      "url" : "https://github.com/amanpreet-dev",
-      "icon" : "FaGithub"
+      "name": "Collaborate with me on Github",
+      "url": "https://github.com/amanpreet-dev",
+      "icon": "FaGithub"
     }
   ]
 }
-
