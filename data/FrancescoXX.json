@@ -5,14 +5,19 @@
 
   "links": [
     {
-      "name": "Newsletter",
-      "url": "https://substack.com/profile/11407185-francesco-ciulla",
-      "icon": "SiMaildotru"
-    },
-    {
       "name": "YouTube",
       "url": "https://www.youtube.com/c/FrancescoCiulla",
       "icon": "SiYoutube"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/francescoxx",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Newsletter",
+      "url": "https://substack.com/profile/11407185-francesco-ciulla",
+      "icon": "SiMaildotru"
     },
     {
       "name": "Discord Community",
@@ -55,11 +60,6 @@
       "icon": "SiGumtree"
     },
     {
-      "name": "Dev.to",
-      "url": "https://dev.to/francescoxx",
-      "icon": "FaDev"
-    },
-    {
       "name": "GitHub Sponsor",
       "url": "https://github.com/sponsors/FrancescoXX",
       "icon": "FaHeart"
@@ -68,11 +68,17 @@
   "tags": [
     "Open Source",
     "Javascript",
+    "JavaScript",
+    "React",
+    "Java"
+    "TypeScript",
     "NextJS",
     "DevOps",
     "Node.js",
     "DevRel",
-    "Blockchain"
+    "Blockchain",
+    "Python"
+    
   ],
   "testimonials": [
     "eddiejaoude",
