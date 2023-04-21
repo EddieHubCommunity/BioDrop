@@ -25,9 +25,9 @@ export default function UserMilestone({ milestone, isGoal }) {
                 </Link>
               )}
             </h3>
-            <p className="text-sm text-gray-500">{milestone.date}</p>
+            <p className="text-sm text-primary-medium dark:text-primary-low-medium">{milestone.date}</p>
           </div>
-          <ReactMarkdown className="text-sm text-gray-500">
+          <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium">
             {milestone.description}
           </ReactMarkdown>
         </div>
