@@ -3,7 +3,7 @@
   "type": "personal",
   "bio": "Student | frontend developer | Exploring **Open Source**",
 
-  "tags": ["JavaScript","C","Bootstrap"],
+  "tags": ["JavaScript", "C", "Bootstrap"],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/khushbumaheshwarii" }
   ],
@@ -18,7 +18,6 @@
       "url": "https://www.linkedin.com/in/khushbu-maheshwari-004214219/",
       "icon": "FaLinkedin"
     }
-    
   ],
   "milestones": [
     {
@@ -27,6 +26,5 @@
       "icon": "FaBriefcase",
       "color": "violet"
     }
-    
   ]
 }
