@@ -1,0 +1,17 @@
+{
+  "name": "Cornel Baciu",
+  "type": "personal",
+  "bio": "Blockchain programming enthusiast",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CornelWeb3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/cornel_web3/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
