@@ -1,17 +1,4 @@
-[
-  {
-    "isVirtual": true,
-    "isInPerson": true,
-    "color": "blue",
-    "name": "KubeCon + CloudNativeCon Europ 2023",
-    "description": "Attending this KubeCon was an enriching experience for me in which I learned about the latest innovations in Kubernetes.",
-    "date": {
-      "start": "Apr, 18, 2023",
-      "end": "Apr, 21, 2023"
-    },
-    "url": "https://kubecon-cloudnativecon-europe.com/"
-  },
-  {
+{
     "isVirtual": true,
     "isInPerson": true,
     "color": "blue",
@@ -22,5 +9,4 @@
       "end": "Oct, 28, 2022"
     },
     "url": "https://kccncna2022.sched.com/"
-  }
-]
+}
