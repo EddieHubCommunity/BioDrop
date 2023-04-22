@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 import findOneByUsernameBasic from "./findOneByUsernameBasic";
 
 export default function findOneByUsernameFull(username) {

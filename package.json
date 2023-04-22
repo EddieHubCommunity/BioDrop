@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.109.10",
+  "version": "1.110.9",
   "private": false,
   "homepage": "https://linkfree.eddiehub.io",
   "engines": {
@@ -13,7 +13,6 @@
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.2.4",
     "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.14",
     "dotenv": "^16.0.3",
@@ -24,6 +23,7 @@
     "next": "^13.2.4",
     "next-auth": "^4.21.1",
     "next-themes": "^0.2.1",
+    "nextjs-google-analytics": "^2.3.3",
     "octokit": "^2.0.14",
     "pino": "^8.11.0",
     "pino-pretty": "^10.0.0",

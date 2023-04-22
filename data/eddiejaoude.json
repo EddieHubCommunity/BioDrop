@@ -104,6 +104,11 @@
       "name": "Donate: GitHub Sponsors",
       "url": "https://github.com/sponsors/eddiejaoude",
       "icon": "FaRegMoneyBillAlt"
+    },
+    {
+      "name": "Open Source project LinkFree",
+      "url": "https://github.com/EddieHubCommunity/LinkFree",
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
