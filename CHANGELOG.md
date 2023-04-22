@@ -1,9 +1,9 @@
-## 1.110.6 (2023-04-21)
+## 1.110.7 (2023-04-22)
 
 
 ### Bug Fixes
 
-* remove duplicate code for loading profiles ([#6247](https://github.com/EddieHubCommunity/LinkFree/issues/6247)) ([3132958](https://github.com/EddieHubCommunity/LinkFree/commit/3132958ea8549fbabc6a65ce66215724dc24845e))
+* vercel not to auto deploy ([#6265](https://github.com/EddieHubCommunity/LinkFree/issues/6265)) ([3d95ef9](https://github.com/EddieHubCommunity/LinkFree/commit/3d95ef967500a603aa492504d97e784e60a11d79))
 
 
 
