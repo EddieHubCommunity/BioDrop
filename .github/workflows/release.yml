@@ -43,6 +43,10 @@ jobs:
           skip-on-empty: false
           skip-git-pull: true
 
+      # update app config with version
+      - name: update app config
+        run: sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
+
       # create PR using GitHub CLI
       - name: create PR with release info
         id: create-pr
