@@ -1,0 +1,20 @@
+{
+  "name": "Anuraag Sendhilnathan",
+  "type": "personal",
+  "bio": "Aspiring Network Security Engineer",
+
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "www.linkedin.com/in/anuraag-sendhilnathan"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NathanRag"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://toot.io/@nathanhardy"
+    }
+  ]
+}

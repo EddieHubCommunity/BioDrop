@@ -1,0 +1,27 @@
+{
+  "name": "Samuel Macharia",
+  "type": "personal",
+  "bio": "I am a Frontend Software Engineer.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/engeniusam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/engeniusam/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Engeniusam",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@Engeniusam",
+      "icon": "SiHashnode"
+    }
+  ]
+}

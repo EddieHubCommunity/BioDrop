@@ -1,0 +1,17 @@
+{
+  "name": "Renzo Romares",
+  "type": "personal",
+  "bio": "Software Engineer.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RenzoRomares",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/renzoromares/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
