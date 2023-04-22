@@ -1,0 +1,17 @@
+{
+  "name": "Aaron Li",
+  "type": "personal",
+  "bio": "Animation industry practitioners, Developers, Graphics enthusiasts, Travel enthusiast",
+   "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aaaron_li",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/aaronmack",
+      "icon": "FaGithub"
+    }
+  ]
+}
