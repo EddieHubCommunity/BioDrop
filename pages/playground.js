@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -6,9 +6,25 @@ import Alert from "@components/Alert";
 import Button from "@components/Button";
 import PreviewModal from "@components/modals/ProfilePreview";
 import Input from "@components/form/input";
+import { enableTabToIndent } from "indent-textarea";
+
+// This is working as placeholder and default value of textarea
+const defaultProfileJSON = `{
+  "name": "username",
+  "type": "personal",
+  "bio": "Your bio goes here",
+  "links": [
+    {
+      "name": "Follow me on platform_name",
+      "url": "https://platform.com/profile_username",
+      "icon": "search_icon_from_linkfree"
+    }
+  ]
+}
+`;
 
 export default function Playground() {
-  const [profileJson, setProfileJson] = useState("");
+  const [profileJson, setProfileJson] = useState(defaultProfileJSON);
   const [validateComplete, setValidateComplete] = useState(false);
   const [formatComplete, setFormatComplete] = useState(false);
   const [errorMessage, setErrMsg] = useState("");
@@ -65,6 +81,14 @@ export default function Playground() {
     }
   };
 
+  // adding tab functionality to the textarea
+  useEffect(() => {
+    if (document) {
+      const jsonTextarea = document.querySelector(`#jsonTextarea`);
+      enableTabToIndent(jsonTextarea);
+    }
+  }, []);
+
   return (
     <>
       <PageHead
@@ -90,18 +114,8 @@ export default function Playground() {
           onChange={(e) => setGitUsername(e.target.value)}
         />
         <textarea
-          placeholder={`{           
-            name: "user name",
-            type: "personal",
-            bio: "about the user",
-            links: [
-              {
-                name: "Follow on Twitter",
-                url: "https://twitter.com/username",
-                icon: "FaTwitter",
-              },
-            ],
- }`}
+          id="jsonTextarea"
+          placeholder={defaultProfileJSON}
           className="mt-4 h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           name="profileJson"
           value={profileJson}
