@@ -1,9 +1,9 @@
-## 1.86.2 (2023-02-12)
+## 1.110.6 (2023-04-21)
 
 
 ### Bug Fixes
 
-* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
+* remove duplicate code for loading profiles ([#6247](https://github.com/EddieHubCommunity/LinkFree/issues/6247)) ([3132958](https://github.com/EddieHubCommunity/LinkFree/commit/3132958ea8549fbabc6a65ce66215724dc24845e))
 
 
 

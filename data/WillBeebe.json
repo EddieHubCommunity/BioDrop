@@ -1,0 +1,60 @@
+{
+  "name": "William Beebe",
+  "type": "personal",
+  "bio": "Experimenting with a different way of interacting. I see the world differently. I've been put inside a box my entire life and now I'm free. I’ve never met someone who has known what to do with me, ask anyone who has known me for more than 5 seconds. If you figure it out, I'd love to hear. It's been tough but I'm trying to have fun. If I'm too much, unfollow or say something. I'm not here for war but I'll fight to the death for peace.",
+  "tags": [
+    "Kubernetes",
+    "CloudComputing",
+    "GCP",
+    "Azure",
+    "AWS",
+    "Scaleway",
+    "PlatformAsAService"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/willbaebae"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/WillBeebe"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ld_photo_co/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/willbaebae",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/will-beebe/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Yeet Me A Coffee",
+      "url": "https://www.buymeacoffee.com/willbeebeT",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ld_photo_co/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Raw Dog Saturdays - #0",
+      "date": "2023-02-25",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Tried to write a blog _experience_ about TypeScript",
+      "url": "https://gist.github.com/WillBeebe/3bbdf660688b344986798996acc01324"
+    }
+  ]
+}

@@ -1,5 +1,4 @@
-import Link from "../Link";
-import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -7,7 +6,8 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-import FallbackImage from "../FallbackImage";
+import Link from "@components/Link";
+import FallbackImage from "@components/FallbackImage";
 
 export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
@@ -18,7 +18,7 @@ export default function EventCard({ event, username }) {
 
   return (
     <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 hover:scale-105 duration-500 ease-in-out"
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}
@@ -48,7 +48,7 @@ export default function EventCard({ event, username }) {
                   {event.name}
                 </Link>
                 {event.userStatus && (
-                  <div className="text-slate-300 italic">
+                  <div className="text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
@@ -60,7 +60,7 @@ export default function EventCard({ event, username }) {
                   </div>
                 )}
               </div>
-              <p className="text-sm text-gray-800 flex flex-col lg:flex-row gap-2">
+              <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
                 <span>
                   {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
                     new Date(event.date.start)
@@ -73,9 +73,24 @@ export default function EventCard({ event, username }) {
                   )}
                 </span>
               </p>
-              <ReactMarkdown className="text-sm text-gray-500 py-1 flex-wrap">
+              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
+              <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
+                {(event.isVirtual || (event.isInPerson && event.location)) && (
+                  <FaMapPin />
+                )}
+                <span>
+                  {event.isVirtual && "Remote"}
+                  {event.isVirtual &&
+                    event.isInPerson &&
+                    event.location &&
+                    " AND in "}
+                  {event.isInPerson &&
+                    event.location &&
+                    Object.values(event.location).join(", ")}
+                </span>
+              </p>
             </div>
             {username && (
               <Link
