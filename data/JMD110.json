@@ -11,6 +11,20 @@
         "React",
         "Openstack"
       ],
+    "socials": [
+        {
+          "icon": "FaTwitter",
+          "url": "https://twitter.com/suanqy"
+        },
+        {
+          "icon": "FaGithub",
+          "url": "https://github.com/JMD110"
+        },
+        {
+          "icon": "FaLinkedin",
+          "url": "https://www.linkedin.com/in/della-ji-ba6519110"
+        }
+      ],
     "links": [
         {
             "name": "Follow me on Github",
@@ -19,7 +33,7 @@
         },
         {
             "name": "Follow me on Linkedin",
-            "url": "https://www.linkedin.com/in/della-ji-ba6519110/",
+            "url": "https://www.linkedin.com/in/della-ji-ba6519110",
             "icon": "FaLinkedin"
         }
     ]
