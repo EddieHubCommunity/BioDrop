@@ -1,9 +1,9 @@
-## 1.110.11 (2023-04-22)
+# 1.111.0 (2023-04-23)
 
 
-### Bug Fixes
+### Features
 
-* release to include app version config ([#6277](https://github.com/EddieHubCommunity/LinkFree/issues/6277)) ([1af0621](https://github.com/EddieHubCommunity/LinkFree/commit/1af0621809bef1858df15d02a2b20f198f25995a))
+* test for events data change ([#6307](https://github.com/EddieHubCommunity/LinkFree/issues/6307)) ([111f040](https://github.com/EddieHubCommunity/LinkFree/commit/111f040cf75d04779e13d0c16b4d1feb84bfc9d1))
 
 
 
