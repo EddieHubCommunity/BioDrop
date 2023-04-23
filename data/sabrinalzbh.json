@@ -1,7 +1,7 @@
 {
   "name": "Sabrina Chacon",
   "type": "personal",
-  "bio": "Freelancer | Coffee Lover | Code Love",
+  "bio": "Freelancer | Coffee Lover | Code Lover",
   "tags": ["Open Source", "DevRel", "Blogging"],
   "links": [
     {
@@ -23,10 +23,10 @@
       "icon": "FaGithub"
     }
   ]
-}
+},
 
-
- {"group": "Socials Primary",
+{
+"group": "Socials Primary",
    "name": "Follow me on GitHub",
    "url": "https://github.com/sabrinalzbh/",
    "icon": "FaGithub"
