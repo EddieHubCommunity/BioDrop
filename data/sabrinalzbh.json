@@ -3,18 +3,18 @@
   "type": "personal",
   "Bio": "Freelancer | Coffee Lover | Code Love",
   "links": [
- {
-  "name": "Twitter",
+ {"group": "Socials Primary",
+  "name": "Follow me on Twitter",
   "url": "https://twitter.com/Dev_HopeFuture",
   "icon": "FaTwitter"
  },
- {
-   "name": "Instagram",
+ {"group": "Socials Secondary",
+   "name": "Follow me on Instagram",
    "url": "https://www.instagram.com/dev_hopefuture/",
    "icon": "FaInstagram"
  },
- {
-   "name": "Github",
+ {"group": "Socials Primary",
+   "name": "Follow me on GitHub",
    "url": "https://github.com/sabrinalzbh/",
    "icon": "FaGithub"
    
