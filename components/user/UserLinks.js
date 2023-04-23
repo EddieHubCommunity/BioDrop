@@ -3,8 +3,10 @@ import Alert from "@components/Alert";
 
 export default function UserLinks({ BASE_URL, data }) {
   const defaultBucket = "Others";
-  data.links = data.links.map((link, i) => ({ id: i, ...link }));
-  const buckets = data.links.reduce((acc, obj) => {
+  // Solved bug 2.1 shown in the image
+  data.links = data.links?.map((link, i) => ({ id: i, ...link }));
+  // Solved bug 2.2 shown in the image
+  const buckets = data.links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
     const curGroup = acc[group] ?? [];
 
