@@ -104,7 +104,7 @@ export default function Home({ total, today }) {
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/55504616/216514019-abbd642a-150e-4ebf-acbf-41651bbddcc4.png",
+        "https://user-images.githubusercontent.com/83087385/233839025-bf33a2f1-e1da-4f43-a008-be28ed402c8f.png",
       imageAlt:
         "LinkFree screenshot of search page using tags for searching profiles.",
     },
