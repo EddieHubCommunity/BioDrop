@@ -1,7 +1,8 @@
 {
   "name": " Sabrina Chacon",
   "type": "personal",
-  "Bio": "Freelancer | Coffee Lover | Code Love",
+  "bio": "Freelancer | Coffee Lover | Code Love",
+  "tags": ["Open Source", "DevRel", "Blogging"]
   "links": [
  {"group": "Socials Primary",
   "name": "Follow me on Twitter",
