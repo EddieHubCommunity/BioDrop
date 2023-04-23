@@ -5,9 +5,7 @@ on:
       - data/**/events/*.json
 
 jobs:
-  build:
   test:
-    needs: build
     runs-on: ubuntu-latest
     services:
       mongo:
