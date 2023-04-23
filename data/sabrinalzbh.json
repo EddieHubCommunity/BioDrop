@@ -1,0 +1,23 @@
+{
+  "name": " Sabrina Chacon",
+  "type": "personal",
+  "Bio": "Freelancer | Coffee Lover | Code Love",
+  "links": [
+ {
+  "name": "Twitter",
+  "url": "https://twitter.com/Dev_HopeFuture",
+  "icon": "FaTwitter"
+ },
+ {
+   "name": "Instagram",
+   "url": "https://www.instagram.com/dev_hopefuture/",
+   "icon": "FaInstagram"
+ },
+ {
+   "name": "Github",
+   "url": "https://github.com/sabrinalzbh/",
+   "icon": "FaGithub"
+   
+   }
+  ]
+}
