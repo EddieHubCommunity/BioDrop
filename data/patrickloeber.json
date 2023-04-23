@@ -15,5 +15,5 @@
     },
     { "icon": "FaGithub", "url": "https://github.com/patrickloeber" }
   ],
-  "tags": [ "Python", "Machine Learning", "DevRel" ]
+  "tags": ["Python", "Machine Learning", "DevRel"]
 }
