@@ -1,0 +1,30 @@
+{
+  "name": "Khushbu Maheshwari",
+  "type": "personal",
+  "bio": "Student | frontend developer | Exploring **Open Source**",
+
+  "tags": ["JavaScript", "C", "Bootstrap"],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/khushbumaheshwarii" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/khushbumaheshwarii",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/khushbu-maheshwari-004214219/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Web Developer Internship",
+      "date": "April 2023 - Present",
+      "icon": "FaBriefcase",
+      "color": "violet"
+    }
+  ]
+}
