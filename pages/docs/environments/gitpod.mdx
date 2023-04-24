@@ -31,6 +31,23 @@ Now we can update our profile. To do this, create a new branch with the followin
 # Replace YOUR_PROFILE_NAME with your actual profile name.
 git checkout -b update-YOUR_PROFILE_NAME
 ```
+
+Now we are ready to make some modification to our profile. Find the file with your account name in the `data` folder, and modify it as you want.<br />
+For example, you can copy and past the following code
+```json
+"milestones": [
+    {
+      "title": "Used Gitpod to Update my Profile",
+      "date": "May 2023", // update to the correct date
+      "icon": "FaCode",
+      "color": "#FFAE33",
+      "description": "Started my profile by using Gitpod",
+      "url": "https://gitpod.com/"
+    }
+  ]
+```
+As a last step, commit the changes and create a PR in the LinkFree Repository.
+
 Setup environment [variables](/docs/environments/environment-variables)
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
