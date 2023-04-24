@@ -1,10 +1,8 @@
 {
   "name": "Saarthak Maini",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Open Source Contributor | DevOps | React | IIT Madras",
   "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
-  "avatar": "https://github.com/SaarthakMaini.png",
   "socials": [{
 			"icon": "SiYoutube",
 			"url": "https://www.youtube.com/@saarthakmaini1819"
