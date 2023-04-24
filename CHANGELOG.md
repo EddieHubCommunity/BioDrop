@@ -1,9 +1,9 @@
-# 1.111.0 (2023-04-23)
+## 1.111.1 (2023-04-24)
 
 
-### Features
+### Bug Fixes
 
-* test for events data change ([#6307](https://github.com/EddieHubCommunity/LinkFree/issues/6307)) ([111f040](https://github.com/EddieHubCommunity/LinkFree/commit/111f040cf75d04779e13d0c16b4d1feb84bfc9d1))
+* package homepage ([#6318](https://github.com/EddieHubCommunity/LinkFree/issues/6318)) ([c1e675a](https://github.com/EddieHubCommunity/LinkFree/commit/c1e675a9f2d5d7a254cb938cc18c49ef43fa2717))
 
 
 
