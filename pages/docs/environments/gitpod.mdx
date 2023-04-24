@@ -16,7 +16,7 @@ There are 2 ways you can open a repository with Gitpod:
 ### Development
 
 Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.<br />
-***NOTE:*** Be sure that you have a forked of LinkFree in your Github Profile. If you don't have it, check out Quickstart Guide](https://linkfree.io/docs/quickstart).<br />
+**_NOTE:_** Be sure that you have a fork of LinkFree in your Github Profile. If you don't have it, check out the [Quickstart Guide](https://linkfree.io/docs/quickstart).<br />
 Open your fork and follow along.
 
 First, Let's make sure that we have the latest version of the code. To achieve this, run the following commands:
@@ -27,6 +27,7 @@ git pull upstream main
 ```
 
 Now we can update our profile. To do this, create a new branch with the following command
+
 ```bash
 # Replace YOUR_PROFILE_NAME with your actual profile name.
 git checkout -b update-YOUR_PROFILE_NAME
@@ -34,6 +35,7 @@ git checkout -b update-YOUR_PROFILE_NAME
 
 Now we are ready to make some modification to our profile. Find the file with your account name in the `data` folder, and modify it as you want.<br />
 For example, you can copy and past the following code
+
 ```json
 "milestones": [
     {
@@ -46,11 +48,18 @@ For example, you can copy and past the following code
     }
   ]
 ```
+
 As a last step, commit the changes and create a PR in the LinkFree Repository.
 
-Setup environment [variables](/docs/environments/environment-variables)
+### Permissions
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
+If you encounter permission issues, follow the next steps:
+
+- Open the user settings of your Gitpod profile and click on _Integrations_.<br />
+- Click on the 3 dots after Github and choose _Edit Permissions_.<br />
+- Make sure that you have checked _public_repo_ and _workflow_
+
+[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 export default ({ children }) => (
   <DocsLayout title="LinkFree Gitpod Development Documentation">
