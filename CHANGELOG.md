@@ -1,9 +1,9 @@
-## 1.111.1 (2023-04-24)
+# 1.112.0 (2023-04-24)
 
 
-### Bug Fixes
+### Features
 
-* package homepage ([#6318](https://github.com/EddieHubCommunity/LinkFree/issues/6318)) ([c1e675a](https://github.com/EddieHubCommunity/LinkFree/commit/c1e675a9f2d5d7a254cb938cc18c49ef43fa2717))
+* vercel analytics ([#6325](https://github.com/EddieHubCommunity/LinkFree/issues/6325)) ([f1a5fb7](https://github.com/EddieHubCommunity/LinkFree/commit/f1a5fb7ada007524f32b576d192555e8f5afe524))
 
 
 
