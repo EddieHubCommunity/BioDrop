@@ -1,0 +1,42 @@
+{
+  "name": "Jaydeep Khatri",
+  "type": "personal",
+  "bio": "Frontend Developer",
+  "tags": ["HTML", "CSS", "Javascript", "ReactJs", "NextJS", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://jaydeepkhatri.me"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jaydeepkhatri"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/jaydeepkhatri79"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jaydeepkhatri79",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lnkedin",
+      "url": "https://www.linkedin.com/in/jaydeep-khatri/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/jaydeepkhatri",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/code.architects",
+      "icon": "FaInstagram"
+    }
+  ]
+}
