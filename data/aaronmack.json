@@ -2,22 +2,17 @@
   "name": "Aaron Li",
   "type": "personal",
   "bio": "Animation industry practitioners | Developers | Graphics enthusiasts | Travel enthusiast",
-  
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "Python",
-    "C++"
-  ],
-  
+
+  "tags": ["Open Source", "Javascript", "Python", "C++"],
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/aaaron_li" },
     { "icon": "FaGithub", "url": "https://github.com/aaronmack" },
     { "icon": "FaYoutube", "url": "https://www.youtube.com/@aaaronli" },
     { "icon": "FaLink", "url": "https://space.bilibili.com/170823442" }
   ],
-  
-   "links": [
+
+  "links": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/aaaron_li",
@@ -29,7 +24,7 @@
       "icon": "FaGithub"
     }
   ],
-  
+
   "milestones": [
     {
       "title": "Discover",
