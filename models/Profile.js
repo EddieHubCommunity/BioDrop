@@ -5,6 +5,10 @@ const ProfileSchema = new mongoose.Schema({
   username: String,
   name: String,
   bio: String,
+  tags: {
+    type: [String],
+    default: [],
+  },
   location: {
     provided: String,
     name: String,

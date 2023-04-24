@@ -4,16 +4,13 @@ import { unstable_getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
-import Link from "@models/Link";
 
 export default async function handler(req, res) {
   const allowedRequests = ["GET", "PUT", "DELETE"];
   if (!allowedRequests.includes(req.method)) {
-    return res
-      .status(400)
-      .json({
-        error: `Invalid request: ${allowedRequests.join(",")} required`,
-      });
+    return res.status(400).json({
+      error: `Invalid request: ${allowedRequests.join(",")} required`,
+    });
   }
 
   const session = await unstable_getServerSession(req, res, authOptions);

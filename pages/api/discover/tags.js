@@ -1,4 +1,4 @@
-import findAllBasic from "@services/profiles/findAllBasic";
+import findAllBasic from "@services/data/findAllBasic.mjs";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {

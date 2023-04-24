@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const profileStatsSchema = new mongoose.Schema({
+  // TODO: is username still needed after forms?
   username: {
     type: String,
     required: true,

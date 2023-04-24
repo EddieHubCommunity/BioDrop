@@ -5,7 +5,7 @@ import Link from "@models/Link";
 import Profile from "@models/Profile";
 import LinkStats from "@models/LinkStats";
 import Stats from "@models/Stats";
-import findOneByUsernameBasic from "@services/profiles/findOneByUsernameBasic";
+import findOneByUsernameBasic from "@services/data/findOneByUsernameBasic";
 
 export default async function handler(req, res) {
   await connectMongo();
