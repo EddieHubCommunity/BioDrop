@@ -1,17 +1,30 @@
-import { chromium } from "@playwright/test";
 import path from "node:path";
 import connectMongo from "@config/mongo";
+import jsonwebtoken from "jsonwebtoken";
+import { encode } from 'next-auth/jwt';
 
 import User from "@models/User";
 import Session from "@models/Session";
 import Account from "@models/Account";
 
-const login = async () => {
+const login = async (browser) => {
   await connectMongo();
 
-  const storagePath = path.resolve(__dirname, "storage-state.json");
   const date = new Date();
-  const sessionToken = "04456e41-ec3b-4edf-92c1-48c14e57cacd2";
+  const sessionToken = await encode(
+    {
+      token: {
+        name: "Automate Test",
+        email: "testemail@test.com",
+        image: "https://github.com/eddiejaoude.png",
+        access_token: "ggg_zZl1pWIvKkf3UDynZ09zLvuyZsm1yC0YoRPt",
+        username: "eddiejaoude",
+        id: "22222222"
+      },
+      secret: process.env.NEXTAUTH_SECRET,
+    }
+  );
+
   let testUser;
 
   try {
@@ -62,10 +75,7 @@ const login = async () => {
     console.log(e, `failed for step 3`);
   }
 
-  const browser = await chromium.launch();
-  const context = await browser.newContext({ storageState: storagePath });
-  // 4.1. This cookie is what `NextAuth` will look after to validate if our user is authenticated
-  // Please note that the `value` of the cookie **must be the same** as the `sessionToken` we added in `step 2.`
+  const context = await browser.newContext();
   await context.addCookies([
     {
       name: "next-auth.session-token",
@@ -74,16 +84,17 @@ const login = async () => {
       path: "/",
       httpOnly: true,
       sameSite: "Lax",
+      secure: true,
       expires: -1,
     },
   ]);
-  await context.storageState({ path: storagePath });
-  await browser.close();
+
+  return context;
 };
-const logout = async () => {
-  const browser = await chromium.launch();
+const logout = async (browser) => {
   const context = await browser.newContext();
   await context.clearCookies();
+  return context;
 };
 
 export { login, logout };
