@@ -1,9 +1,9 @@
-## 1.110.2 (2023-04-18)
+## 1.112.1 (2023-04-24)
 
 
 ### Bug Fixes
 
-* issue-lock ignore testimonial label ([#6182](https://github.com/EddieHubCommunity/LinkFree/issues/6182)) ([b40c4e7](https://github.com/EddieHubCommunity/LinkFree/commit/b40c4e7a02e67bbf65fe907165feca00cfdd36e4))
+* deploy data files on merge ([#6323](https://github.com/EddieHubCommunity/LinkFree/issues/6323)) ([a90d86d](https://github.com/EddieHubCommunity/LinkFree/commit/a90d86d6d838b7f67ad8b9daccae15522974d965))
 
 
 
