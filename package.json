@@ -14,6 +14,7 @@
     "@next/mdx": "^13.2.4",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
+    "@vercel/analytics": "^1.0.0",
     "autoprefixer": "^10.4.14",
     "dotenv": "^16.0.3",
     "file-saver": "^2.0.5",
