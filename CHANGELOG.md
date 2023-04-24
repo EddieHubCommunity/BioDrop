@@ -1,9 +1,9 @@
-# 1.112.0 (2023-04-24)
+## 1.112.1 (2023-04-24)
 
 
-### Features
+### Bug Fixes
 
-* vercel analytics ([#6325](https://github.com/EddieHubCommunity/LinkFree/issues/6325)) ([f1a5fb7](https://github.com/EddieHubCommunity/LinkFree/commit/f1a5fb7ada007524f32b576d192555e8f5afe524))
+* deploy data files on merge ([#6323](https://github.com/EddieHubCommunity/LinkFree/issues/6323)) ([a90d86d](https://github.com/EddieHubCommunity/LinkFree/commit/a90d86d6d838b7f67ad8b9daccae15522974d965))
 
 
 
