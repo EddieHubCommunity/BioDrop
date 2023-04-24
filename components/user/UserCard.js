@@ -11,7 +11,7 @@ export default function UserCard({ profile }) {
     >
       <div className="flex justify-center relative">
         <FallbackImage
-          src={`https://github.com/${profile.username}.png`}
+          src={`https://github.com/${profile.githubID ? profile.githubID : profile.username}.png`}
           alt={`Profile picture of ${profile.name}`}
           width={80}
           height={80}
