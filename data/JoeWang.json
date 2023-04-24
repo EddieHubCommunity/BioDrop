@@ -1,0 +1,21 @@
+{
+	"name": "Sara Jaoude",
+	"type": "personal",
+	"bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+	"links": [{
+			"name": "Follow me on Github",
+			"url": "https://github.com/joe94113",
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/joe94113",
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Follow me on Linkedin",
+			"url": "https://www.linkedin.com/in/joe94113",
+			"icon": "FaLinkedin"
+		}
+	]
+}
