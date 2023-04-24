@@ -23,12 +23,11 @@
       "icon": "FaGithub"
     },
 
-{
-"group": "Socials Primary",
-   "name": "Follow me on GitHub",
-   "url": "https://github.com/sabrinalzbh/",
-   "icon": "FaGithub"
-   
-   }
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sabrinalzbh/",
+      "icon": "FaGithub"
+    }
   ]
 }
