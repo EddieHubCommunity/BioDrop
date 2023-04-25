@@ -338,7 +338,7 @@ export default function Home({ total, today }) {
                     <Image
                       src={feature.imageSrc}
                       alt={feature.imageAlt}
-                      className="object-cover object-center"
+                      className="object-cover object-right"
                       width={1250}
                       height={840}
                     />
