@@ -1,0 +1,27 @@
+{
+  "name": "Pavan H",
+  "type": "personal",
+  "bio": "Back-end developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Pavanh007",
+      "icon": "FaTwitter"
+    },
+      {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/pavanh_98/?next=%2F",
+      "icon": "FaInstagram"
+    },
+      {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pavanh007/",
+      "icon": "FaLinedin"
+    },
+      {
+      "name": "Follow me on Github",
+      "url": "https://github.com/pavanh007",
+      "icon": "Fagithub"
+    }
+  ]
+}
