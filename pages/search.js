@@ -128,23 +128,27 @@ export default function Search({ data }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center space-x-3 mb-4">
-          {tags &&
-            tags
-              .slice(0, 10)
-              .map((tag) => (
-                <Tag
+    <div className="flex flex-wrap justify-center space-x-3 mb-4">
+         {tags &&
+          tags
+           .filter(
+              (tag, index, self) =>
+               self.findIndex((t) => t.name.match(new RegExp(`^${tag.name.replace(/\+/g, "\\+")}$`, "i"))) === index
+                   )
+                .slice(0, 10)
+                  .map((tag) => (
+               <Tag
                   key={tag.name}
                   name={tag.name}
-                  total={tag.total}
-                  selected={inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .includes(tag.name.toLowerCase())}
-                  onClick={() => search(tag.name)}
-                />
-              ))}
-        </div>
+                   total={tag.total}
+                    selected={inputValue
+                   .toLowerCase()
+                   .split(",")
+                   .includes(tag.name.toLowerCase())}
+                    onClick={() => search(tag.name)}
+                    />
+                         ))}
+    </div>
 
         <Badge
           content={filteredUsers.length}
