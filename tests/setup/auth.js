@@ -72,7 +72,7 @@ const login = async (browser) => {
       { new: true, upsert: true }
     );
   } catch (e) {
-    console.log(e, `failed for step 3`);
+    console.error(e, `Test Account creation failed`);
   }
 
   const context = await browser.newContext();
