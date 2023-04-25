@@ -38,7 +38,7 @@ const login = async (browser) => {
       { new: true, upsert: true }
     );
   } catch (e) {
-    console.log("Test user creation failed", e);
+    console.error("Test user creation failed", e);
   }
 
   try {
