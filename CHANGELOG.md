@@ -1,9 +1,9 @@
-## 1.114.2 (2023-04-26)
+## 1.114.3 (2023-04-26)
 
 
 ### Bug Fixes
 
-* mongo indexes [#6345](https://github.com/EddieHubCommunity/LinkFree/issues/6345) ([#6368](https://github.com/EddieHubCommunity/LinkFree/issues/6368)) ([286aaea](https://github.com/EddieHubCommunity/LinkFree/commit/286aaea5e78c6b5f7fb8f5642a5f8a9275847366))
+* mongo indexes ([#6371](https://github.com/EddieHubCommunity/LinkFree/issues/6371)) ([bd6d3fd](https://github.com/EddieHubCommunity/LinkFree/commit/bd6d3fda7cefe1e24f8970c863d786a837b60843)), closes [#6345](https://github.com/EddieHubCommunity/LinkFree/issues/6345)
 
 
 
