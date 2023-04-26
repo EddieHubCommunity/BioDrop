@@ -104,7 +104,7 @@ export default function Home({ total, today }) {
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/55504616/216514019-abbd642a-150e-4ebf-acbf-41651bbddcc4.png",
+        "https://user-images.githubusercontent.com/109926117/234534971-3be7c702-c95c-4dda-b558-f04da2b46608.png",
       imageAlt:
         "LinkFree screenshot of search page using tags for searching profiles.",
     },
@@ -129,7 +129,7 @@ export default function Home({ total, today }) {
       description:
         "View details of your LinkFree profile, with views and url clicks",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
+        "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
       imageAlt: "LinkFree screenshot of account statistics page",
     },
     {
@@ -162,7 +162,7 @@ export default function Home({ total, today }) {
       description:
         "Upcoming events from the community Profiles will be displayed on this page also.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210064225-b792c186-1eb0-4451-8624-39d5d33724b1.png",
+        "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
         "LinkFree screenshot of community events section in the Community Section tab",
     },
@@ -170,7 +170,7 @@ export default function Home({ total, today }) {
       name: "LinkFree Map",
       description: "Discover people around the world from the LinkFree Map.",
       imageSrc:
-        "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
+        "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
       imageAlt: "LinkFree screenshot of Map Page",
     },
   ];
