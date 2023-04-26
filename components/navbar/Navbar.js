@@ -37,7 +37,11 @@ export default function Navbar() {
 
     if (currentTheme === "dark") {
       return (
-        <button className="p-2" onClick={() => setTheme("light")}>
+        <button
+          className="p-2" 
+          onClick={() => setTheme("light")}
+          aria-label="Toggle Theme"
+        >
           <FaSun className="text-primary-low hover:text-secondary-low" />
         </button>
       );

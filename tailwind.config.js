@@ -11,13 +11,15 @@ module.exports = {
         primary: {
           // slate
           "low": "rgb(249 250 251)",
-          "low-medium":"rgb(156 163 175)",
+          "low-medium":"rgb(111 118 128)",
+          "low-high":"rgb(143 151 166)",
           "medium": "rgb(35,48,66)",
           "high": "rgb(17 24 39)",
         },
         secondary: {
           // purple
           "low": "rgb(165 180 252)",
+          "low-medium":"rgb(121 129 140)",
           "medium": "rgb(79 70 229)",
           "high": "rgb(67 56 202)",
         },

@@ -48,7 +48,7 @@ export default function EventCard({ event, username }) {
                   {event.name}
                 </Link>
                 {event.userStatus && (
-                  <div className="text-primary-low-medium italic hidden lg:block">
+                  <div className="text-primary-low-medium dark:text-primary-low-high italic hidden lg:block">
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
@@ -73,10 +73,10 @@ export default function EventCard({ event, username }) {
                   )}
                 </span>
               </p>
-              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
+              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-high py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
-              <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
+              <p className="text-sm text-primary-high dark:text-primary-low-high py-1 flex gap-2 flex-wrap">
                 {(event.isVirtual || (event.isInPerson && event.location)) && (
                   <FaMapPin />
                 )}
