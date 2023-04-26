@@ -1,7 +1,10 @@
 import mongoose from "mongoose";
 
 const LinkSchema = new mongoose.Schema({
-  username: String,
+  username: {
+    type: String,
+    index: true,
+  },
   url: String,
   clicks: {
     type: Number,
@@ -12,5 +15,7 @@ const LinkSchema = new mongoose.Schema({
     ref: "profile",
   },
 });
+
+LinkSchema.index({ username: 1, url: -1 });
 
 module.exports = mongoose.models.Link || mongoose.model("Link", LinkSchema);
