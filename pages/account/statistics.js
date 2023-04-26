@@ -144,7 +144,7 @@ export default function Statistics({ data, profile, progress }) {
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
-              <span className="text-primary-low-medium">
+              <span className="text-primary-medium-low">
                 (missing sections in your profile are:{" "}
                 {progress.missing.join(",")})
               </span>
@@ -169,7 +169,7 @@ export default function Statistics({ data, profile, progress }) {
             <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views
             </h3>
-            <p className="mt-1 text-sm text-primary-medium dark:text-primary-low-medium">
+            <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
               How many profile visits you got per day. You have{" "}
               {abbreviateNumber(data.profile.monthly)} Profile views in the last
               30 days with a total of {abbreviateNumber(data.profile.total)}.
@@ -188,7 +188,7 @@ export default function Statistics({ data, profile, progress }) {
           </div>
         </div>
 
-        <table className="min-w-full divide-y divide-primary-low-medium">
+        <table className="min-w-full divide-y divide-primary-medium-low">
           <thead className="bg-primary-low dark:bg-primary-medium">
             <tr>
               <th

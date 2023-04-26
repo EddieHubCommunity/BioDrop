@@ -13,7 +13,7 @@ export default function UserTestimonials({ data }) {
       {data.testimonials &&
         data.testimonials.map((testimonial, key) => (
           <div
-            className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm dark:text-primary-low dark:bg-primary-medium text-primary-low-medium dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
+            className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm dark:text-primary-low dark:bg-primary-medium text-primary-medium-low dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
             key={key}
           >
             <div className="flex items-center sm:px-4">
@@ -27,7 +27,7 @@ export default function UserTestimonials({ data }) {
                 />
               </div>
               <div className="flex-1 p-6 sm:hidden">
-                <h3 className="font-medium dark:text-primary-low-medium text-primary-high">
+                <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
                 </h3>
                 <Link href={testimonial.url} target="_blank">
@@ -45,7 +45,7 @@ export default function UserTestimonials({ data }) {
                   @{testimonial.username}
                 </Link>
               </div>
-              <div className="prose prose-sm max-w-none w-fit text-primary-medium dark:text-primary-low-medium ">
+              <div className="prose prose-sm max-w-none w-fit text-primary-medium dark:text-primary-medium-low ">
                 <ReactMarkdown>{testimonial.description}</ReactMarkdown>
               </div>
             </div>
