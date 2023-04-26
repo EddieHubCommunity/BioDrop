@@ -3,7 +3,7 @@ import Link from "@components/Link";
 
 ## Environment variables
 
-Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables.
+Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables. Please note that if you are working in Gitpod and wish to access authenticated pages, you will need to complete these steps each time with the URL Gitpod generates for your dev environment as localhost will not work. To avoid this, you may choose to work in Docker which only requires this setup once. 
 
 | variable                         | example                            | required | description                                         |
 | :------------------------------- | :--------------------------------- | :------- | :-------------------------------------------------- |
@@ -24,7 +24,7 @@ Environment variables are needed in the `.env` file to allow the application to 
 | Form field                 | value                                            |
 | :------------------------- | :----------------------------------------------- |
 | Application name           | `LinkFree local`                                 |
-| Homepage URL               | `http://linkfree.eddiehub.io`                    |
+| Homepage URL               | `https://linkfree.io`                    |
 | Application description    | `Open Source alternative to LinkTree`            |
 | Authorization callback URL | `http://localhost:3000/api/auth/callback/github` |
 

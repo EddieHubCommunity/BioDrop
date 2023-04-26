@@ -23,5 +23,7 @@ const linkStatsSchema = new mongoose.Schema({
   },
 });
 
+linkStatsSchema.index({ username: 1, date: 1 });
+
 module.exports =
   mongoose.models.LinkStats || mongoose.model("LinkStats", linkStatsSchema);
