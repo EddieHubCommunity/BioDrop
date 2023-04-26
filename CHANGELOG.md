@@ -1,9 +1,9 @@
-## 1.112.2 (2023-04-24)
+# 1.114.0 (2023-04-26)
 
 
-### Bug Fixes
+### Features
 
-* gitpod oauth docs ([#6334](https://github.com/EddieHubCommunity/LinkFree/issues/6334)) ([a6ea0f7](https://github.com/EddieHubCommunity/LinkFree/commit/a6ea0f7ea83b8886364d80a71fa9510598ee1a2c))
+* fade transition on buttons ([#6355](https://github.com/EddieHubCommunity/LinkFree/issues/6355)) ([e5d6141](https://github.com/EddieHubCommunity/LinkFree/commit/e5d6141fa611a200de6b754daa16c0486a6abd3f))
 
 
 
