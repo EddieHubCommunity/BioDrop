@@ -1,10 +1,7 @@
 import mongoose from "mongoose";
 
 const LinkSchema = new mongoose.Schema({
-  username: {
-    type: String,
-    index: true,
-  },
+  username: String,
   url: String,
   clicks: {
     type: Number,
@@ -16,6 +13,6 @@ const LinkSchema = new mongoose.Schema({
   },
 });
 
-LinkSchema.index({ username: 1, url: -1 });
+LinkSchema.index({ username: 1, url: 1 });
 
 module.exports = mongoose.models.Link || mongoose.model("Link", LinkSchema);
