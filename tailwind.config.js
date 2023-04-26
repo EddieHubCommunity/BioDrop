@@ -11,7 +11,9 @@ module.exports = {
         primary: {
           // slate
           "low": "rgb(249 250 251)",
-          "low-medium":"rgb(156 163 175)",
+          "low-medium":"rgb(143 151 166)",
+          "low-high":"rgb(121 129 140)",
+          "medium-low":"rgb(111 118 128)",
           "medium": "rgb(35,48,66)",
           "high": "rgb(17 24 39)",
         },
@@ -20,6 +22,7 @@ module.exports = {
           "low": "rgb(165 180 252)",
           "medium": "rgb(79 70 229)",
           "high": "rgb(67 56 202)",
+          "high-high": "rgb(61 50 179)",
         },
         tertiary: {
           // orange
