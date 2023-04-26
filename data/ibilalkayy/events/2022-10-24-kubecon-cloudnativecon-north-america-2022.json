@@ -1,0 +1,12 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "KubeCon + CloudNativeCon North America 2022",
+  "description": "This was my first virtual event that I attended and I learned many things from people around the world.",
+  "date": {
+    "start": "Oct, 24, 2022",
+    "end": "Oct, 28, 2022"
+  },
+  "url": "https://kccncna2022.sched.com/"
+}
