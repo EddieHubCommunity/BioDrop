@@ -5,6 +5,9 @@ env:
 on:
   release:
     types: [published]
+  push:
+    branches:
+      - main # this will deploy data files
 jobs:
   deploy:
     runs-on: ubuntu-latest

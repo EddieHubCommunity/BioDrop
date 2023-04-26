@@ -1,9 +1,9 @@
-## 1.111.1 (2023-04-24)
+## 1.114.6 (2023-04-26)
 
 
 ### Bug Fixes
 
-* package homepage ([#6318](https://github.com/EddieHubCommunity/LinkFree/issues/6318)) ([c1e675a](https://github.com/EddieHubCommunity/LinkFree/commit/c1e675a9f2d5d7a254cb938cc18c49ef43fa2717))
+* screenshots on home page ([#6333](https://github.com/EddieHubCommunity/LinkFree/issues/6333)) ([#6375](https://github.com/EddieHubCommunity/LinkFree/issues/6375)) ([6178b21](https://github.com/EddieHubCommunity/LinkFree/commit/6178b21ac88086a606951290d668bff8ca4d4ee2))
 
 
 

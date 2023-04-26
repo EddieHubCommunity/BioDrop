@@ -53,7 +53,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       {filters.map((filter) => (
         <div
           onClick={() => onToggleEventType(filter.key)}
-          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-primary-low-medium bg-white dark:border-none dark:bg-primary-medium px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-secondary-medium focus-within:ring-offset-2"
+          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-primary-medium-low bg-white dark:border-none dark:bg-primary-medium px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-secondary-medium focus-within:ring-offset-2"
           key={filter.key}
         >
           <div className="flex-shrink-0">
@@ -64,7 +64,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
             <p className="text-sm font-medium text-primary-high dark:text-white">{filter.title}</p>
-            <p className="truncate text-sm text-primary-medium dark:text-primary-low-medium">
+            <p className="truncate text-sm text-primary-medium dark:text-primary-low-high">
               {filter.description}
             </p>
           </div>
