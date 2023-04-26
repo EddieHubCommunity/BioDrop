@@ -64,7 +64,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
             <p className="text-sm font-medium text-primary-high dark:text-white">{filter.title}</p>
-            <p className="truncate text-sm text-primary-medium dark:text-primary-medium-low">
+            <p className="truncate text-sm text-primary-medium dark:text-primary-low-high">
               {filter.description}
             </p>
           </div>

@@ -44,7 +44,7 @@ export default function UserTabs({ tabs, setTabs }) {
                 className={classNames(
                   tab.current
                     ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
-                    : "border-transparent text-primary-medium dark:text-primary-medium-low dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-medium-low",
+                    : "border-transparent text-primary-medium dark:text-primary-low-high dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-medium-low",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm"
                 )}
                 aria-current={tab.current ? "page" : undefined}
