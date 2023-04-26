@@ -1,10 +1,7 @@
 import mongoose from "mongoose";
 
 const LinkSchema = new mongoose.Schema({
-  username: {
-    type: String,
-    index: true,
-  },
+  username: String,
   url: String,
   clicks: {
     type: Number,
