@@ -1,9 +1,9 @@
-## 1.110.2 (2023-04-18)
+## 1.114.4 (2023-04-26)
 
 
 ### Bug Fixes
 
-* issue-lock ignore testimonial label ([#6182](https://github.com/EddieHubCommunity/LinkFree/issues/6182)) ([b40c4e7](https://github.com/EddieHubCommunity/LinkFree/commit/b40c4e7a02e67bbf65fe907165feca00cfdd36e4))
+* improve mongo indexes ([#6373](https://github.com/EddieHubCommunity/LinkFree/issues/6373)) ([dfdd54a](https://github.com/EddieHubCommunity/LinkFree/commit/dfdd54a85308ee8fdf06ce405ad3a5838e3f7951))
 
 
 
