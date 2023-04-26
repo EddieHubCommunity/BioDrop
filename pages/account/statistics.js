@@ -96,7 +96,7 @@ export async function getServerSideProps(context) {
   data.links.clicks = totalClicks;
 
   return {
-    props: { session, data, profile, progress },
+    props: { data, profile, progress },
   };
 }
 

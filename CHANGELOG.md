@@ -1,9 +1,9 @@
-## 1.112.1 (2023-04-24)
+# 1.113.0 (2023-04-26)
 
 
-### Bug Fixes
+### Features
 
-* deploy data files on merge ([#6323](https://github.com/EddieHubCommunity/LinkFree/issues/6323)) ([a90d86d](https://github.com/EddieHubCommunity/LinkFree/commit/a90d86d6d838b7f67ad8b9daccae15522974d965))
+* mock GitHub oauth for testing ([#6164](https://github.com/EddieHubCommunity/LinkFree/issues/6164)) ([9da69cc](https://github.com/EddieHubCommunity/LinkFree/commit/9da69cc076960ee63c2045ed2fc41d4a4057893d)), closes [#6151](https://github.com/EddieHubCommunity/LinkFree/issues/6151)
 
 
 
