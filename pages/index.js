@@ -358,7 +358,7 @@ export default function Home({ total, today }) {
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
             Popular User Guides
           </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-medium">
+          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-high">
             Here is a selection of our popular documentation guides to help you
             get started.
           </p>
@@ -367,9 +367,9 @@ export default function Home({ total, today }) {
               {features.map((feature) => (
                 <div key={feature.name} className="pt-6">
                   <Link
-                    aria-label="Go to ${feature.name} page"
+                    aria-label={`Go to ${feature.name} page`}
                     href={feature.path}
-                    className="text-primary-high group"
+                    className="text-primary-high dark:text-primary-low-medium group"
                   >
                     <div className="flow-root rounded-lg bg-primary-low dark:bg-primary-medium px-6 pb-8">
                       <div className="-mt-6">
