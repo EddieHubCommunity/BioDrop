@@ -1,9 +1,9 @@
-## 1.109.20 (2023-04-13)
+## 1.112.2 (2023-04-24)
 
 
 ### Bug Fixes
 
-* move mdx table to separate component ([#6021](https://github.com/EddieHubCommunity/LinkFree/issues/6021)) ([24a5ed8](https://github.com/EddieHubCommunity/LinkFree/commit/24a5ed8991f23c4686317cfc5549891b6c2b7525)), closes [#6012](https://github.com/EddieHubCommunity/LinkFree/issues/6012)
+* gitpod oauth docs ([#6334](https://github.com/EddieHubCommunity/LinkFree/issues/6334)) ([a6ea0f7](https://github.com/EddieHubCommunity/LinkFree/commit/a6ea0f7ea83b8886364d80a71fa9510598ee1a2c))
 
 
 

@@ -2,7 +2,15 @@
   "name": "Pratik Patel",
   "type": "personal",
   "bio": "Solution developer.Part-time open-sourcerer. Loves Quasar Framework.",
-  "tags": ["Open Sourcerer", "Freelancer", "Vuejs", "Quasar Framework", "AWS", "Python", "AWS Lambda"],
+  "tags": [
+    "Open Sourcerer",
+    "Freelancer",
+    "Vuejs",
+    "Quasar Framework",
+    "AWS",
+    "Python",
+    "AWS Lambda"
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",

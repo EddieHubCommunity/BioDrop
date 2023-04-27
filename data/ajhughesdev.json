@@ -1,0 +1,37 @@
+{
+  "name": "Andrew J Hughes",
+  "type": "personal",
+  "bio": "Frontend web developer | he, him",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ajhughesdev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/ajhughesdev",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://mastodon.ajhughes.dev/@ajhughesdev",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Codepen",
+      "url": "https://codepen.io/ajhughesdev",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/user/ajhughedev",
+      "icon": "FaReddit"
+    },
+    {
+      "name": "Twitter...while it lasts",
+      "url": "https://twitter.com/ajhughesdev",
+      "icon": "FaTwitter"
+    }
+  ]
+}
