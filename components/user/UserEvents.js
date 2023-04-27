@@ -7,13 +7,13 @@ export default function UserEvents({ data }) {
   const [eventType, setEventType] = useState("all");
 
   const eventOptions = [
-    { value: 'all' , name: 'All Events'},
-    { value: 'future' , name: 'Future Events'},
-    { value: 'ongoing', name: 'Ongoing Events'},
-    { value: 'virtual', name: 'Virtual Events'},
-    { value: 'inPerson', name: 'In-Person Events'},
-    { value: 'cfpOpen', name:'Events with open CFP'},
-    { value: 'past', name: 'Past Events'}
+    { value: "all", name: "All Events" },
+    { value: "future", name: "Future Events" },
+    { value: "ongoing", name: "Ongoing Events" },
+    { value: "virtual", name: "Virtual Events" },
+    { value: "inPerson", name: "In-Person Events" },
+    { value: "cfpOpen", name: "Events with open CFP" },
+    { value: "past", name: "Past Events" },
   ];
 
   const handleEventTypeChange = (event) => {
@@ -54,13 +54,11 @@ export default function UserEvents({ data }) {
   return (
     <div className="m-6">
       <DropdownMenu
-
-      eventType={eventType}
-      handleEventTypeChange={handleEventTypeChange} 
-      options={eventOptions} 
-      label="Select Event Type:"
-      className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5" 
-      
+        eventType={eventType}
+        handleEventTypeChange={handleEventTypeChange}
+        options={eventOptions}
+        label="Select Event Type:"
+        className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
       />
 
       {eventsToShow.length > 0 ? (

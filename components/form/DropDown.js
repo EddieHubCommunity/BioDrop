@@ -1,6 +1,6 @@
 import React from "react";
 
-const DropdownMenu = ({ eventType, handleEventTypeChange, options, label, className }) => {
+export default function DropdownMenu({ eventType, handleEventTypeChange, options, label, className }){
   return (
     <div className="text-center">
       <label htmlFor="event-type" className={className}>
@@ -22,4 +22,3 @@ const DropdownMenu = ({ eventType, handleEventTypeChange, options, label, classN
   );
 };
 
-export default DropdownMenu;
