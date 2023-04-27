@@ -43,6 +43,8 @@ export async function getUserApi(req, res, username) {
     };
   }
 
+  await getLocation(username, getProfile);
+
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 

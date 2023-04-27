@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 
+import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
@@ -8,9 +9,10 @@ import getLocation from "@services/github/getLocation";
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
-    // TODO: lock down to system only
+    // TODO: lock down to system only, check for environment variable
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
+  await connectMongo();
 
   // 1. load all profiles
   const basicProfiles = findAllBasic();
@@ -26,8 +28,10 @@ export default async function handler(req, res) {
     const currentProfile = await Profile.findOne({
       username: profile.username,
     });
-    // await getLocation(profile.username, currentProfile);
+
+    console.log("import file", currentProfile.username);
     if (currentProfile.source === "database") {
+      console.log("database", "skip", currentProfile.username);
       return;
     }
 
@@ -42,14 +46,12 @@ export default async function handler(req, res) {
       { upsert: true }
     );
 
-    // LINKS
-    let links = await Link.find({ username: profile.username });
     try {
       const enabledLinks = [];
       profile.links.map(async (link) => {
         enabledLinks.push(link.url);
         await Link.findOneAndUpdate(
-          { username: profile.username },
+          { username: profile.username, url: link.url },
           {
             group: link.group,
             name: link.name,
@@ -66,7 +68,7 @@ export default async function handler(req, res) {
       currentProfile.links
         .filter((link) => link.url !== enabledLinks)
         .map(async (link) => {
-          await Link.updateMany(
+          await Link.findOneAndUpdate(
             { username: profile.username, url: link.url },
             { isEnabled: false }
           );
@@ -79,7 +81,7 @@ export default async function handler(req, res) {
   const postloadProfiles = await Profile.find({});
 
   // - milestones
-  // - testimonials
+  // - testimonials (enable select testimonials)
   // - events
 
   return res.status(200).json({
@@ -152,17 +154,13 @@ function findOneByUsernameFull(data) {
       });
 
     data = { ...data, testimonials: allTestimonials };
-  } catch (e) {
-    logger.warn(`no testimonials for: ${username}`);
-  }
+  } catch (e) {}
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
   let eventFiles = [];
   try {
     eventFiles = fs.readdirSync(filePathEvents);
-  } catch (e) {
-    logger.warn(`no events for: ${username}`);
-  }
+  } catch (e) {}
 
   const events = eventFiles.flatMap((filename) => {
     try {
