@@ -69,7 +69,7 @@ You can set this up locally with the following steps:
 1. `npm ci`
 1. `npm run dev`
 
-Read more in the official documentation https://linkfree.io/docs/environments/local-development#local
+Read more in the official documentation https://linkfree.io/docs/environments/local-development#local-development
 
 ### Local development with Docker Compose
 
