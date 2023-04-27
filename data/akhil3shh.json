@@ -2,7 +2,17 @@
   "name": "Akhilesh Nadgiri",
   "type": "personal",
   "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
-  "tags": ["Python", "GCP", "AWS", "Azure", "Docker", "Kubernetes", "Ansible", "Jenkins", "Prometheus"],
+  "tags": [
+    "Python",
+    "GCP",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Jenkins",
+    "Prometheus"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
     { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
