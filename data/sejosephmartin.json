@@ -2,19 +2,19 @@
   "name": "Joseph Martin",
   "type": "personal",
   "bio": "Aspiring Front end developer 🚀 | Self-Taught Developer ✨ | Undergraduate",
-  
-   "links": [
+
+  "links": [
     {
       "name": "Let's Connect on Twitter",
       "url": "https://twitter.com/SEJosephMartin",
       "icon": "FaTwitter"
     },
-  {
+    {
       "name": "Let's Connect on Github",
       "url": "https://github.com/sejosephmartin",
       "icon": "FaGithub"
     },
-  {
+    {
       "name": "Let's Connect on Linkedin",
       "url": "https://www.linkedin.com/in/joseph-martin-348482270/",
       "icon": "FaLinkedin"
