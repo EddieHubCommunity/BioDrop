@@ -1,9 +1,9 @@
-## 1.114.5 (2023-04-26)
+## 1.114.11 (2023-04-27)
 
 
 ### Bug Fixes
 
-* dark mode accessibility tests ([#5992](https://github.com/EddieHubCommunity/LinkFree/issues/5992)) ([a765b53](https://github.com/EddieHubCommunity/LinkFree/commit/a765b53a3968620ecd351c244c9e8d0b45a52251))
+* unstable prefix from getServerSession ([#6175](https://github.com/EddieHubCommunity/LinkFree/issues/6175)) ([5d58210](https://github.com/EddieHubCommunity/LinkFree/commit/5d58210b3f3d6941cf54441ae441479ff33a7e2b))
 
 
 
