@@ -1,4 +1,4 @@
-name: Build
+name: Events
 on:
   pull_request:
     paths:
