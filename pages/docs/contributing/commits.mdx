@@ -1,0 +1,56 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Commit Style
+
+On EddieHub, we use the <Link href="https://www.conventionalcommits.org"> Conventional Commits</Link> format for all changes to the source repositories. This format embeds semantic information in each commit, which is used to generate changelog automatically.
+
+The format for Conventional Commits is as follows:
+
+```swift
+<type>([optional scope]): <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Examples
+
+#### Add features
+
+```
+feat: setup storybook (#1234)
+```
+
+#### Fix existing features
+
+```
+fix: storybook warning & deploy on dispatch (#1234)
+```
+
+#### Add/Update documentation
+
+```
+docs: contributing file links to docs
+```
+
+#### Add/Update Continious Integration
+
+```
+ci: improve Test Performance (#1234)
+```
+
+#### Add/Update Tests
+
+```
+test: profile tag redirect (#1234)
+```
+
+Learn more about <Link href="https://www.conventionalcommits.org"> Conventional Commits</Link>
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Conventional Commits Documentation">
+    {children}
+  </DocsLayout>
+);

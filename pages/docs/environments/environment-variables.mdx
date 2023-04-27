@@ -1,0 +1,39 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Environment variables
+
+Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables. Please note that if you are working in Gitpod and wish to access authenticated pages, you will need to complete these steps each time with the URL Gitpod generates for your dev environment as localhost will not work. To avoid this, you may choose to work in Docker which only requires this setup once. 
+
+| variable                         | example                            | required | description                                         |
+| :------------------------------- | :--------------------------------- | :------- | :-------------------------------------------------- |
+| LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree | true     | Database connection string                          |
+| NEXT_PUBLIC_GA_MEASUREMENT_ID    | -                                  | false    | Google analytics id                                 |
+| NEXT_PUBLIC_BASE_URL             | http://localhost:3000              | true     | Hosting url                                         |
+| NODE_ENV                         | development                        | true     | -                                                   |
+| GITHUB_ID                        | abcedfghil12345                    | true     | GitHub OAuth ID                                     |
+| GITHUB_SECRET                    | a1b2c3e4f5e6                       | true     | GitHub OAuth Secret                                 |
+| NEXTAUTH_SECRET                  | afsfdsafadsf                       | true     | Next Auth Secret, this can be any random characters |
+
+### GitHub OAuth
+
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `New OAuth app` and fill in the form details
+
+| Form field                 | value                                            |
+| :------------------------- | :----------------------------------------------- |
+| Application name           | `LinkFree local`                                 |
+| Homepage URL               | `https://linkfree.io`                    |
+| Application description    | `Open Source alternative to LinkTree`            |
+| Authorization callback URL | `http://localhost:3000/api/auth/callback/github` |
+
+Then use the generated **Client ID** and **Client Secret** in the `.env`.
+
+Full details on GitHub docs https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Local Development Documentation">
+    {children}
+  </DocsLayout>
+);

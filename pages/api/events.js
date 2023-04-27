@@ -1,9 +1,15 @@
 import fs from "fs";
 import path from "path";
 
-import logger from "../../config/logger";
+import logger from "@config/logger";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   const directoryPath = path.join(process.cwd(), "data");
 
   let userFolders;
@@ -21,7 +27,7 @@ export default async function handler(req, res) {
     try {
       eventFiles = fs.readdirSync(eventsPath);
     } catch (e) {
-      logger.info(e, `no events in ${eventsPath}`);
+      logger.warn(`no events in ${eventsPath}`);
       return [];
     }
     const eventFilesContent = eventFiles.flatMap((file) => {

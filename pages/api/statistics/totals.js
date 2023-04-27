@@ -1,12 +1,23 @@
 import fs from "fs";
 import path from "path";
 
-import connectMongo from "../../../config/mongo";
-import logger from "../../../config/logger";
-import Profile from "../../../models/Profile";
-import Stats from "../../../models/Stats";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
+import Stats from "@models/Stats";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
+  const { statusCode, stats } = await getTotalStats();
+  return res.status(statusCode).json(stats);
+}
+
+export async function getTotalStats() {
   await connectMongo();
 
   let dailyStats = [];
@@ -40,12 +51,13 @@ export default async function handler(req, res) {
     logger.error(e, "failed to load profile list");
   }
 
-  const data = {
-    views,
-    clicks,
-    users: totalProfiles.length || 0,
-    active: activeProfiles || 0,
+  return {
+    statusCode: 200,
+    stats: {
+      views,
+      clicks,
+      users: totalProfiles.length || 0,
+      active: activeProfiles || 0,
+    },
   };
-
-  res.status(200).json(data);
 }

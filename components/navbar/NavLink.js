@@ -1,21 +1,21 @@
-import Link from "../Link";
+import Link from "@components/Link";
 
-export default function NavLink({ path, item, mode, setIsOpen }) {
+export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
   let className =
-    "text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+    "text-primary-low hover:ring-2 hover:ring-primary-medium dark:hover:ring-secondary-low hover:text-secondary-low px-3 py-2 rounded-md text-sm font-medium";
 
   if (mode === "mobile") {
     className =
-      "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium";
+      "text-primary-low hover:ring-2 hover:ring-primary-medium hover:text-secondary-low block px-3 py-2 rounded-md text-base font-medium";
   }
 
-  if (path === item.url) {
+  if (path?.split("/")[1] === item.url.split("/")[1]) {
     if (mode === "mobile") {
       className =
-        "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium";
+        "bg-primary-high text-white block px-3 py-2 rounded-md text-base font-medium";
     } else {
       className =
-        "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium";
+        "bg-primary-high text-white px-3 py-2 rounded-md text-sm font-medium";
     }
   }
 
@@ -24,7 +24,12 @@ export default function NavLink({ path, item, mode, setIsOpen }) {
       href={item.url}
       className={className}
       aria-current="page"
-      onClick={() => setIsOpen && setIsOpen(false)}
+      onClick={(e) => {
+        setIsOpen && setIsOpen(false);
+        if (onClick) {
+          onClick(e);
+        }
+      }}
     >
       {item.name}
     </Link>

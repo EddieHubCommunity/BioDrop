@@ -1,6 +1,5 @@
 {
   "name": "Araoye Abraham A.",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Teacher turned **Web Developer**. Motivated by the possibility of solving human problems with code",
 
@@ -19,6 +18,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/abrokinla",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://araoye-portfolio.netlify.app/",
+      "icon": "FaBriefcase"
     }
   ]
 }

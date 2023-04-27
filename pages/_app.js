@@ -1,10 +1,30 @@
-import "../styles/globals.css";
-import MultiLayout from "../components/layouts/MultiLayout";
+import { SessionProvider } from "next-auth/react";
+import { ThemeProvider } from "next-themes";
+import { GoogleAnalytics } from "nextjs-google-analytics";
+import { Analytics } from "@vercel/analytics/react";
 
-export default function MyApp({ Component, pageProps }) {
+import "../styles/globals.css";
+import MultiLayout from "@components/layouts/MultiLayout";
+
+export default function MyApp({
+  Component,
+  pageProps: { session, ...pageProps },
+}) {
   // Use the layout defined at the page level, if available
   const getLayout =
     Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
 
-  return getLayout(<Component {...pageProps} />);
+  return (
+    <ThemeProvider attribute="class">
+      <SessionProvider session={session}>
+        {getLayout(
+          <>
+            <GoogleAnalytics trackPageViews />
+            <Component {...pageProps} />
+            <Analytics />
+          </>
+        )}
+      </SessionProvider>
+    </ThemeProvider>
+  );
 }

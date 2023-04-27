@@ -1,17 +1,20 @@
-import connectMongo from "../../../config/mongo";
-import logger from "../../../config/logger";
-import Profile from "../../../models/Profile";
-import loadProfiles from "../../../services/profiles/loadProfiles";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
+import findAllBasic from "@services/profiles/findAllBasic";
 
 export default async function handler(req, res) {
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
+  }
+
   await connectMongo();
 
   let profiles = [];
   try {
-    profiles = await Profile.aggregate([
-      { $sample: { size: 5 } },
-      { $match: { username: { $nin: process.env.SHADOWBAN.split(",") } } },
-    ]);
+    profiles = await Profile.aggregate([{ $sample: { size: 5 } }]);
   } catch (e) {
     logger.error(e, "failed to load profiles");
   }
@@ -20,7 +23,9 @@ export default async function handler(req, res) {
     return res.status(404).json([]);
   }
 
-  const fullRandomProfiles = await loadProfiles(profiles);
+  const fullRandomProfiles = await findAllBasic(
+    profiles.map((profile) => profile.username)
+  );
 
   res.status(200).json(fullRandomProfiles);
 }
