@@ -178,7 +178,7 @@ export default function Search({ data }) {
                   onClick={() => search(tag.name)}
                 />
               ))}
-        </div>
+        </article>
 
         <Badge
           content={filteredUsers.length}
