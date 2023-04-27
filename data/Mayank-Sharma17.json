@@ -1,0 +1,42 @@
+{
+  "name": "Mayank Sharma",
+  "type": "personal",
+  "bio": "Open Source Contributor **@Hacktoberfest** | java | DSA | frontend development",
+
+  "tags": [
+    "Open Source",
+    "GitHub",
+    "Gitbash",
+    "Java",
+    "DSA",
+    "Frontend Developer",
+    "Bootstrap",
+    "jQuery"
+  ],
+  "socials": [
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/mayank257" },
+    { "icon": "FaGithub", "url": "https://github.com/Mayank-Sharma17" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/MayankS93339625" }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/MayankS93339625",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Mayank-Sharma17",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/mayank257",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
