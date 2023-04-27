@@ -7,9 +7,7 @@
     { "icon": "FaTwitter", "url": "https://twitter.com/cheehieu" },
     { "icon": "FaInstagram", "url": "https://www.instagram.com/cheehieu" }
   ],
-  "testimonials": [
-    "cheehieu"
-  ],
+  "testimonials": ["cheehieu"],
   "links": [
     {
       "name": "Web",
