@@ -1,9 +1,9 @@
-## 1.110.6 (2023-04-21)
+## 1.114.11 (2023-04-27)
 
 
 ### Bug Fixes
 
-* remove duplicate code for loading profiles ([#6247](https://github.com/EddieHubCommunity/LinkFree/issues/6247)) ([3132958](https://github.com/EddieHubCommunity/LinkFree/commit/3132958ea8549fbabc6a65ce66215724dc24845e))
+* unstable prefix from getServerSession ([#6175](https://github.com/EddieHubCommunity/LinkFree/issues/6175)) ([5d58210](https://github.com/EddieHubCommunity/LinkFree/commit/5d58210b3f3d6941cf54441ae441479ff33a7e2b))
 
 
 

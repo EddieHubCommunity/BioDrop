@@ -2,7 +2,10 @@ import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema({
   source: String,
-  username: String,
+  username: {
+    type: String,
+    index: true,
+  },
   name: String,
   bio: String,
   tags: {
