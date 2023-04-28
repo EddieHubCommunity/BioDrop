@@ -2,6 +2,7 @@ import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { Fragment } from "react";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
