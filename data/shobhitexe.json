@@ -21,6 +21,27 @@
       "name": "BlockEstate a decentralized real estate dealing platform",
       "url": "https://github.com/shobhitexe/BlockEstate",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/shobhitexe",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Github",
+      "url": "https://github.com/shobhitexe",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/shobhitx/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
     }
   ],
   "milestones": [
