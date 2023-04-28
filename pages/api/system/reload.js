@@ -25,17 +25,16 @@ export default async function handler(req, res) {
   // only if `source` is not `database` (this will be set when using forms)
   const preloadProfiles = await Profile.find({});
   fullProfile.map(async (profile) => {
-    const currentProfile = await Profile.findOne({
+    let currentProfile = await Profile.findOne({
       username: profile.username,
     });
 
-    console.log("import file", currentProfile.username);
-    if (currentProfile.source === "database") {
+    if (currentProfile && currentProfile.source === "database") {
       console.log("database", "skip", currentProfile.username);
       return;
     }
 
-    await Profile.findOneAndUpdate(
+    currentProfile = await Profile.findOneAndUpdate(
       { username: profile.username },
       {
         source: "file",
@@ -47,38 +46,55 @@ export default async function handler(req, res) {
     );
 
     try {
-      const enabledLinks = [];
-      profile.links.map(async (link) => {
-        enabledLinks.push(link.url);
-        await Link.findOneAndUpdate(
-          { username: profile.username, url: link.url },
-          {
-            group: link.group,
-            name: link.name,
-            url: link.url,
-            icon: link.icon,
-            isEnabled: true,
-            profile: currentProfile._id,
-          },
-          { upsert: true }
-        );
-      });
-
-      // disable LINKS not in json file
-      currentProfile.links
-        .filter((link) => link.url !== enabledLinks)
-        .map(async (link) => {
+      if (profile.links) {
+        const enabledLinks = [];
+        profile.links.map(async (link, position) => {
+          enabledLinks.push(link.url);
           await Link.findOneAndUpdate(
             { username: profile.username, url: link.url },
-            { isEnabled: false }
+            {
+              group: link.group,
+              name: link.name,
+              url: link.url,
+              icon: link.icon,
+              isEnabled: true,
+              isPinned: link.isPinned,
+              profile: currentProfile._id,
+              order: position,
+            },
+            { upsert: true }
           );
         });
+
+        currentProfile = await Profile.findOneAndUpdate(
+          { username: profile.username },
+          {
+            links: (
+              await Link.find({ username: profile.username })
+            ).map((link) => link._id),
+          }
+        );
+
+        // disable LINKS not in json file
+        currentProfile.links
+          .filter((link) => link.url !== enabledLinks)
+          .map(async (link) => {
+            await Link.findOneAndUpdate(
+              { username: profile.username, url: link.url },
+              { isEnabled: false }
+            );
+          });
+      }
     } catch (e) {
       logger.error(e, `failed to update links for ${profile.username}`);
     }
   });
 
   const postloadProfiles = await Profile.find({});
+
+  console.log(
+    await Profile.findOne({ username: "eddiejaoude" }).populate("links")
+  );
 
   // - milestones
   // - testimonials (enable select testimonials)
@@ -149,7 +165,7 @@ function findOneByUsernameFull(data) {
             )
           ),
           username: username,
-          pinned: !!data.testimonials.includes(username),
+          isPinned: !!data.testimonials.includes(username),
         };
       });
 
@@ -184,9 +200,12 @@ function findOneByUsernameFull(data) {
   if (data.links && data.socials) {
     const links = [];
     data.links.map((link) =>
-      data.socials.map((social) =>
-        links.push({ ...link, pinned: social.url === link.url ? true : false })
-      )
+      links.push({
+        ...link,
+        isPinned: data.socials.find((social) => social.url === link.url)
+          ? true
+          : false,
+      })
     );
     data.links = links;
     delete data.socials;

@@ -4,7 +4,7 @@
 // delete existing link
 
 import { authOptions } from "../../api/auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 
 import logger from "@config/logger";
@@ -14,11 +14,7 @@ import Alert from "@components/Alert";
 import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
-  const session = await unstable_getServerSession(
-    context.req,
-    context.res,
-    authOptions
-  );
+  const session = await getServerSession(context.req, context.res, authOptions);
 
   if (!session) {
     return {

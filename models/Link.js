@@ -7,6 +7,8 @@ const LinkSchema = new mongoose.Schema({
   url: String,
   icon: String,
   isEnabled: Boolean,
+  isPinned: Boolean,
+  order: Number,
   clicks: {
     type: Number,
     default: 0,

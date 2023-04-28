@@ -31,7 +31,10 @@ export async function getUserApi(req, res, username) {
   }
 
   const log = logger.child({ username });
-  const getProfile = await Profile.findOne({ username });
+  const getProfile = await Profile.findOne({ username }).populate({
+    path: "links",
+    options: { sort: { order: 1 } },
+  });
 
   if (!getProfile) {
     logger.error(`Failed loading profile username: ${username}`);

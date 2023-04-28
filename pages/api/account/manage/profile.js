@@ -1,5 +1,5 @@
 import { authOptions } from "../../auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid request: PUT required" });
   }
 
-  const session = await unstable_getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions);
   const username = session.username;
 
   await connectMongo();
