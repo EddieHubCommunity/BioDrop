@@ -3,13 +3,7 @@
   "type": "personal",
   "bio": "Open Source Enthusiast | Alpha ⭐ - Microsoft Learn Student Ambassador 🎓| **DSA** 🧠 | **Machine Learning** 🐍",
 
-  "tags": [
-    "Open Source",
-    "Java",
-    "Python",
-    "DSA",
-    "Machine Learning"
-  ],
+  "tags": ["Open Source", "Java", "Python", "DSA", "Machine Learning"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
     { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
