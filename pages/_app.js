@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
 import { GoogleAnalytics } from "nextjs-google-analytics";
@@ -18,11 +19,11 @@ export default function MyApp({
     <ThemeProvider attribute="class">
       <SessionProvider session={session}>
         {getLayout(
-          <>
+          <Fragment>
             <GoogleAnalytics trackPageViews />
             <Component {...pageProps} />
             <Analytics />
-          </>
+          </Fragment>
         )}
       </SessionProvider>
     </ThemeProvider>

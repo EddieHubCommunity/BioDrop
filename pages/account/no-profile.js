@@ -4,11 +4,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 
 export async function getServerSideProps(context) {
-  const session = await getServerSession(
-    context.req,
-    context.res,
-    authOptions
-  );
+  const session = await getServerSession(context.req, context.res, authOptions);
 
   if (!session) {
     return {
@@ -26,7 +22,7 @@ export async function getServerSideProps(context) {
 
 export default function NoProfile() {
   return (
-    <>
+    <Fragment>
       <PageHead
         title="Profile does not exist"
         description="You must create a profile first"
@@ -60,6 +56,6 @@ export default function NoProfile() {
           </div>
         </div>
       </Page>
-    </>
+    </Fragment>
   );
 }

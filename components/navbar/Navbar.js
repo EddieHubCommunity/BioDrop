@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, Fragment } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import Image from "next/legacy/image";
 
@@ -38,7 +38,7 @@ export default function Navbar() {
     if (currentTheme === "dark") {
       return (
         <button
-          className="p-2" 
+          className="p-2"
           onClick={() => setTheme("light")}
           aria-label="Toggle Theme"
         >
@@ -100,7 +100,7 @@ export default function Navbar() {
   ];
 
   const authControls = () => (
-    <>
+    <Fragment>
       {!session && (
         <NavLink
           item={{ name: "Login", url: "/login" }}
@@ -113,7 +113,7 @@ export default function Navbar() {
       )}
 
       {session && (
-        <>
+        <Fragment>
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -123,9 +123,9 @@ export default function Navbar() {
             setIsOpen={setIsOpen}
             onClick={() => signOut()}
           />
-        </>
+        </Fragment>
       )}
-    </>
+    </Fragment>
   );
 
   return (

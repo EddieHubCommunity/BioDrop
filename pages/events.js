@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 
@@ -88,7 +88,7 @@ export default function Events({ events }) {
   const [eventType, setEventType] = useState("all");
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="Events the LinkFree community members are interested in"
         description="Events by the LinkFree community"
@@ -111,10 +111,9 @@ export default function Events({ events }) {
           setEventType={setEventType}
         />
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
-            {filters.find((filter) => filter.key === eventType).description}
+          {filters.find((filter) => filter.key === eventType).description}
         </h2>
         <ul role="list" className="divide-y divide-primary-low mt-6">
-
           {categorisedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
@@ -124,6 +123,6 @@ export default function Events({ events }) {
           ))}
         </ul>
       </Page>
-    </>
+    </Fragment>
   );
 }

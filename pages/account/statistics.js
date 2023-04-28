@@ -1,6 +1,7 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import ProgressBar from "@components/statistics/ProgressBar";
+import { Fragment } from "react";
 
 import {
   BarChart,
@@ -131,7 +132,7 @@ export default function Statistics({ data, profile, progress }) {
   ];
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="LinkFree Statistics"
         description="Private statistics for your account"
@@ -220,6 +221,6 @@ export default function Statistics({ data, profile, progress }) {
           </tbody>
         </table>
       </Page>
-    </>
+    </Fragment>
   );
 }

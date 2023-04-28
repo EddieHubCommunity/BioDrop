@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, Fragment } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -120,7 +120,7 @@ export default function Search({ data }) {
   }, [inputValue]);
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="LinkFree Search Users"
         description="Search LinkFree user directory by name, tags, skills, languages"
@@ -170,6 +170,6 @@ export default function Search({ data }) {
           ))}
         </ul>
       </Page>
-    </>
+    </Fragment>
   );
 }

@@ -5,6 +5,7 @@ import {
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import { Fragment } from "react";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
@@ -52,10 +53,10 @@ export default function EventCard({ event, username }) {
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
-                      <>
+                      <Fragment>
                         {" "}
                         on <b>{event.speakingTopic}</b>
-                      </>
+                      </Fragment>
                     )}
                   </div>
                 )}

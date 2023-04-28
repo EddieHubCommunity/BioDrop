@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -66,7 +66,7 @@ export default function Playground() {
   };
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="Playground"
         description="Playground for verifying and preview linkfree profile json"
@@ -136,6 +136,6 @@ export default function Playground() {
           />
         )}
       </Page>
-    </>
+    </Fragment>
   );
 }

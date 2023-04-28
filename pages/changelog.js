@@ -1,5 +1,5 @@
 import { CalendarIcon } from "@heroicons/react/20/solid";
-
+import { Fragment } from "react";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 
@@ -79,7 +79,7 @@ export default function Changelog() {
   ];
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="LinkFree Search Users"
         description="Search LinkFree user directory by name, tags, skills, languages"
@@ -126,6 +126,6 @@ export default function Changelog() {
           </ul>
         </div>
       </Page>
-    </>
+    </Fragment>
   );
 }

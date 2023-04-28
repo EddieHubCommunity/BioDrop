@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, Fragment } from "react";
 import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
@@ -23,7 +23,7 @@ function UserProfile({ BASE_URL, data }) {
     );
 
   return (
-    <>
+    <Fragment>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
         <Badge
           content={<MdQrCode2 size="2em" />}
@@ -90,7 +90,7 @@ function UserProfile({ BASE_URL, data }) {
           <Button text="Download QR code" primary={true} onClick={downloadQR} />
         )}
       </div>
-    </>
+    </Fragment>
   );
 }
 

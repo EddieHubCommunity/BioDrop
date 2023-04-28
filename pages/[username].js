@@ -3,6 +3,7 @@ import { FaRegComments } from "react-icons/fa";
 import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
+import { Fragment } from "react";
 
 import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
@@ -52,7 +53,7 @@ export async function getServerSideProps(context) {
 
 export default function User({ data, BASE_URL }) {
   return (
-    <>
+    <Fragment>
       <PageHead
         title={data.name}
         description={data.cleanBio}
@@ -80,7 +81,7 @@ export default function User({ data, BASE_URL }) {
           <p className="text-sm font-medium">Add testimonial for {data.name}</p>
         </div>
       </Link>
-    </>
+    </Fragment>
   );
 }
 

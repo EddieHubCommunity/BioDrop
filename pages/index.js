@@ -9,6 +9,7 @@ import {
   MdOutlineEditCalendar,
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
+import { Fragment } from "react";
 
 import singleUser from "@config/user.json";
 import { getTodayStats } from "./api/statistics/today";
@@ -204,7 +205,7 @@ export default function Home({ total, today }) {
   }
 
   return (
-    <>
+    <Fragment>
       <PageHead />
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
@@ -287,7 +288,7 @@ export default function Home({ total, today }) {
               />
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude"/>
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -413,6 +414,6 @@ export default function Home({ total, today }) {
           <p className="text-sm font-medium">Help</p>
         </div>
       </Link>
-    </>
+    </Fragment>
   );
 }

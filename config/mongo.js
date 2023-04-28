@@ -3,6 +3,8 @@ import * as fs from "fs";
 
 import logger from "../config/logger";
 
+mongoose.set("strictQuery", true);
+
 let hasConnection;
 const connectMongo = async () => {
   if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {

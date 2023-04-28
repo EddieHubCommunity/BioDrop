@@ -1,7 +1,7 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import "leaflet/dist/leaflet.css";
-
+import { Fragment } from "react";
 import Link from "@components/Link";
 import MarkerCluster from "@components/map/MarkerCluster";
 
@@ -12,7 +12,7 @@ export default function Map({ users }) {
   ];
 
   return (
-    <>
+    <Fragment>
       <MapContainer
         center={[0, 0]}
         zoom={2}
@@ -65,6 +65,6 @@ export default function Map({ users }) {
           ))}
         </MarkerCluster>
       </MapContainer>
-    </>
+    </Fragment>
   );
 }

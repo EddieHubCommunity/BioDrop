@@ -1,14 +1,14 @@
-import { Fragment, useState } from 'react'
-import { Transition } from '@headlessui/react'
-import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import { XMarkIcon } from '@heroicons/react/20/solid'
+import { Fragment, useState } from "react";
+import { Transition } from "@headlessui/react";
+import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon } from "@heroicons/react/20/solid";
 import getIcon from "@components/Icon";
 
 export default function IconCard({ iconName }) {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
   const Icon = getIcon(iconName);
   return (
-    <>
+    <Fragment>
       <button
         className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-secondary-high hover:cursor-pointer active:border-green-600 focus:border-green-600"
         onClick={() => {
@@ -41,18 +41,25 @@ export default function IconCard({ iconName }) {
               <div className="p-4">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
-                    <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />
+                    <CheckCircleIcon
+                      className="h-6 w-6 text-green-400"
+                      aria-hidden="true"
+                    />
                   </div>
                   <div className="ml-3 w-0 flex-1 pt-0.5">
-                    <p className="text-sm font-medium text-primary-high">Successfully copied!</p>
-                    <p className="mt-1 text-sm text-primary-medium">Copied {iconName} to clipboard</p>
+                    <p className="text-sm font-medium text-primary-high">
+                      Successfully copied!
+                    </p>
+                    <p className="mt-1 text-sm text-primary-medium">
+                      Copied {iconName} to clipboard
+                    </p>
                   </div>
                   <div className="ml-4 flex flex-shrink-0">
                     <button
                       type="button"
                       className="inline-flex rounded-md bg-white text-primary-medium-low hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-secondary-low focus:ring-offset-2"
                       onClick={() => {
-                        setShow(false)
+                        setShow(false);
                       }}
                     >
                       <span className="sr-only">Close</span>
@@ -65,6 +72,6 @@ export default function IconCard({ iconName }) {
           </Transition>
         </div>
       </div>
-    </>
+    </Fragment>
   );
 }

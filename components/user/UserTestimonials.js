@@ -1,4 +1,5 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import { Fragment } from "react";
 
 import Link from "@components/Link";
 import Alert from "@components/Alert";
@@ -6,7 +7,7 @@ import FallbackImage from "@components/FallbackImage";
 
 export default function UserTestimonials({ data }) {
   return (
-    <>
+    <Fragment>
       {!data.testimonials && (
         <Alert type="info" message="No testimonials found" />
       )}
@@ -51,6 +52,6 @@ export default function UserTestimonials({ data }) {
             </div>
           </div>
         ))}
-    </>
+    </Fragment>
   );
 }

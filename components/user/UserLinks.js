@@ -1,5 +1,6 @@
 import UserLink from "./UserLink";
 import Alert from "@components/Alert";
+import { Fragment } from "react";
 
 export default function UserLinks({ BASE_URL, data }) {
   const defaultBucket = "Others";
@@ -12,10 +13,10 @@ export default function UserLinks({ BASE_URL, data }) {
   }, {});
 
   return (
-    <>
+    <Fragment>
       {!data.links && <Alert type="info" message="No links found" />}
       {data.links && (
-        <>
+        <Fragment>
           {data.links &&
             Object.keys(buckets).map((name) => (
               <div key={name} className="flex flex-col items-center w-full">
@@ -44,8 +45,8 @@ export default function UserLinks({ BASE_URL, data }) {
                 ))}
               </div>
             ))}
-        </>
+        </Fragment>
       )}
-    </>
+    </Fragment>
   );
 }

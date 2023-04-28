@@ -1,5 +1,6 @@
 import UserMilestone from "./UserMilestone";
 import Alert from "@components/Alert";
+import { Fragment } from "react";
 
 export default function UserMilestones({ data }) {
   const historicMilestones = data.milestones.filter(
@@ -10,7 +11,7 @@ export default function UserMilestones({ data }) {
     (milestone) => milestone.isGoal
   );
   return (
-    <>
+    <Fragment>
       {!data.milestones && <Alert type="info" message="No milestones found" />}
       <ul role="list" className="divide-y divide-primary-low mt-4">
         {data.milestones &&
@@ -30,6 +31,6 @@ export default function UserMilestones({ data }) {
           <UserMilestone milestone={goal} isGoal={true} key={key} />
         ))}
       </ul>
-    </>
+    </Fragment>
   );
 }

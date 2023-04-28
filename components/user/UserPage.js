@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 
 import UserProfile from "./UserProfile";
 import UserTabs from "./UserTabs";
@@ -39,7 +39,7 @@ export default function UserPage({ data, BASE_URL }) {
   const [tabs, setTabs] = useState(displayTabs);
 
   return (
-    <>
+    <Fragment>
       <UserProfile data={data} BASE_URL={BASE_URL} />
       <UserTabs tabs={tabs} setTabs={setTabs} />
 
@@ -61,6 +61,6 @@ export default function UserPage({ data, BASE_URL }) {
         tabs.find((tab) => tab.name === "Events").current && (
           <UserEvents data={data} />
         )}
-    </>
+    </Fragment>
   );
 }

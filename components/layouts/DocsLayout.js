@@ -1,13 +1,14 @@
 import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
-
+import { Fragment } from "react";
 import Page from "@components/Page";
 import Link from "@components/Link";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
 
+
 export default function DocsLayout({ children, title }) {
   return (
-    <>
+    <Fragment>
       <Head>
         <title>{title}</title>
         <meta
@@ -47,6 +48,6 @@ export default function DocsLayout({ children, title }) {
           </div>
         </div>
       </Page>
-    </>
+    </Fragment>
   );
 }

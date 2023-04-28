@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 
@@ -44,9 +44,9 @@ export default function Icons() {
 
     setSearchedIconNames(filteredIconNames);
   };
-  
+
   return (
-    <>
+    <Fragment>
       <PageHead
         title="LinkFree Search Icons"
         description="Search LinkFree icon directory"
@@ -79,6 +79,6 @@ export default function Icons() {
           )}
         </ul>
       </Page>
-    </>
+    </Fragment>
   );
 }

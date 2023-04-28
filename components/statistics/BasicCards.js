@@ -1,4 +1,5 @@
 import { MdArrowUpward } from "react-icons/md";
+import { Fragment } from "react";
 
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
@@ -33,10 +34,10 @@ export default function BasicCards({ data }) {
                       aria-hidden="true"
                     />
 
-                    <>
+                    <Fragment>
                       <span className="sr-only">Increased by </span>
                       {abbreviateNumber(item.delta)}
-                    </>
+                    </Fragment>
                   </div>
                 )}
               </dd>

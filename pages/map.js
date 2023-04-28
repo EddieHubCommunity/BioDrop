@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import dynamic from "next/dynamic";
 
 import logger from "@config/logger";
@@ -98,7 +98,7 @@ export default function Map({ data }) {
   };
 
   return (
-    <>
+    <Fragment>
       <PageHead
         title="LinkFree Users Around The World"
         description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
@@ -141,6 +141,6 @@ export default function Map({ data }) {
         </div>
         <DynamicMap users={filteredUsers.length > 0 ? filteredUsers : users} />
       </Page>
-    </>
+    </Fragment>
   );
 }

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Page from "@components/Page";
 import Link from "@components/Link";
+import { Fragment } from "react";
 
 export default function DocsIndex() {
   function classNames(...classes) {
@@ -309,7 +310,7 @@ export default function DocsIndex() {
     },
   ];
   return (
-    <>
+    <Fragment>
       <Head>
         <title>LinkFree Documentation</title>
         <meta
@@ -385,6 +386,6 @@ export default function DocsIndex() {
           </div>
         ))}
       </Page>
-    </>
+    </Fragment>
   );
 }
