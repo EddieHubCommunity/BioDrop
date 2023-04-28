@@ -1,0 +1,17 @@
+{
+  "name": "Rahul Verma",
+  "type": "personal",
+  "bio": "Senior Software Engineer Cimpress | 🇮🇳 Indian | ♟ Cat-D Player Chess.com | 🏋️‍♂️ Fitness & 💰 Investment Enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rahulverma0008",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on ",
+      "url": "https://github.com/rahulverma0008",
+      "icon": "FaGithub"
+    }
+  ]
+}

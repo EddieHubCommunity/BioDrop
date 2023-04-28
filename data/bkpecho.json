@@ -1,7 +1,7 @@
 {
-  "name": "BK Pecho",
+  "name": "Bryan King Pecho",
   "type": "personal",
-  "bio": "Software Engineer | Web Wizard | Open Source Advocate | AI Explorer",
+  "bio": "**Software Engineer** | Web Wizard | Open Source Advocate",
 
   "tags": ["Open Source", "JavaScript", "MERN", "Pop!_OS", "Linux"],
 
@@ -26,7 +26,7 @@
     },
     {
       "group": "Socials",
-      "name": "LinkedIn: Let's Connect",
+      "name": "LinkedIn: Let's Connect!",
       "url": "https://www.linkedin.com/in/bkpecho/",
       "icon": "FaLinkedin"
     },
@@ -41,6 +41,24 @@
       "name": "FrontEnd Mentor: Front-end Coding Challenges",
       "url": "https://frontendmentor.io/profile/bkpecho",
       "icon": "SiFrontendmentor"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Best GitHub Repos To Master JavaScript",
+      "url": "https://github.com/stars/bkpecho/lists/8-github-repos-to-master-js",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Must-Have React Repos on Github",
+      "url": "https://github.com/stars/bkpecho/lists/must-have-react-repos-on-github",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Useful GitHub Repositories for Web Developers",
+      "url": "https://github.com/stars/bkpecho/lists/useful-github-repos-for-web-devs",
+      "icon": "FaGithub"
     }
   ]
 }

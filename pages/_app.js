@@ -1,4 +1,7 @@
 import { SessionProvider } from "next-auth/react";
+import { ThemeProvider } from "next-themes";
+import { GoogleAnalytics } from "nextjs-google-analytics";
+import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/globals.css";
 import MultiLayout from "@components/layouts/MultiLayout";
@@ -12,8 +15,16 @@ export default function MyApp({
     Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
 
   return (
-    <SessionProvider session={session}>
-      {getLayout(<Component {...pageProps} />)}
-    </SessionProvider>
+    <ThemeProvider attribute="class">
+      <SessionProvider session={session}>
+        {getLayout(
+          <>
+            <GoogleAnalytics trackPageViews />
+            <Component {...pageProps} />
+            <Analytics />
+          </>
+        )}
+      </SessionProvider>
+    </ThemeProvider>
   );
 }
