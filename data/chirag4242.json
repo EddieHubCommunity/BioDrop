@@ -2,14 +2,13 @@
   "name": "Chirag Patil",
   "type": "personal",
   "bio": "I am a fullstack software developer",
-  "avatar": "https://github.com/chirag4242.png",
   "tags": [
     "Open Source",
     "Javascript",
     "Typescript",
     "ReactJs",
     "C#",
-    "Python"
+    "Python",
     "DevOps"
   ],
   "socials": [
