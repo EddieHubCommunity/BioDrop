@@ -1,0 +1,13 @@
+{
+  "name": "Roshan Sharma",
+  "type": "personal",
+  "bio": "Digital Nomad || Travel enthusiast Yoga & Peloton aficionado || B.tech CSE || Gamer open world",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+      "name": "Follow on Linkedin",
+      "url": "https://www.linkedin.com/in/roshan-sharma-773a82252",
+      "icon": "FaLinkedin"
+}
