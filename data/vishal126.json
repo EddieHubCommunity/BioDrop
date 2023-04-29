@@ -1,0 +1,17 @@
+{
+  "name": "Vishal Menariya",
+  "type": "personal",
+  "bio": "jai shree ram",
+  "links": [
+    {
+      "name": "Follow me on FACEBOOK",
+      "url": "https://www.facebook.com/vishal.menaria.3956/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on google",
+      "url": "www.google.com",
+      "icon": "FaGoogle"
+    }
+  ]
+}
