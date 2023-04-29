@@ -1,0 +1,17 @@
+{
+  "name": "FOSS Tech",
+  "type": "community",
+  "bio": "OPEN SOURCE COMMUNITY",
+ "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/FOSS_TECH",
+      "icon": "FaGitHub"
+    },
+   {
+      "name": "Follow me on Instagram",
+      "url": "https://github.com/FOSS_TECH",
+      "icon": "FaInstagram"
+    }
+]
+}
