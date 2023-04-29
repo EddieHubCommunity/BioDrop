@@ -23,7 +23,7 @@ const connectMongo = async () => {
 
     hasConnection = await mongoose.connect(
       process.env.LINKFREE_MONGO_CONNECTION_STRING,
-      { autoIndex: true }
+      { autoIndex: true, family: 4 }
     );
     hasConnection = true;
     logger.info("MongoDB connected");
