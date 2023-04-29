@@ -1,8 +1,27 @@
 import BlankLayout from "@components/layouts/BlankLayout"
 import { getServerSession } from "next-auth/next"
 import { getProviders, signIn } from "next-auth/react"
+import Image from "next/image"
 import { authOptions } from "pages/api/auth/[...nextauth]"
 import { BsGithub } from "react-icons/bs"
+import { AiOutlineLock } from "react-icons/ai"
+
+
+export async function getServerSideProps(context) {
+    const session = await getServerSession(context.req, context.res, authOptions);
+
+    // if the user is logged in redirect, (note: don't redirect to the same page otherwise it'll be in a infinite loop)
+    if (session) {
+        return { redirect: { destination: "/account/statistics" } };
+    }
+
+    const providers = await getProviders();
+
+    return {
+        props: { providers: providers ?? [] },
+    }
+}
+
 
 export default function SignIn({ providers }) {
 
@@ -10,12 +29,15 @@ export default function SignIn({ providers }) {
         if (provider_name === "GitHub") {
             return <BsGithub className="text-xl" />
         }
+        return <AiOutlineLock />
     }
 
     return (
         <div className="flex min-h-screen items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
             <div className="w-full max-w-sm space-y-8">
-                <img
+                <Image
+                    width={50}
+                    height={50}
                     className="mx-auto h-16 w-auto"
                     src="/logo512.png"
                     alt="Your Company"
@@ -44,20 +66,4 @@ SignIn.getLayout = function getLayout(page) {
             {page}
         </BlankLayout>
     )
-}
-
-
-export async function getServerSideProps(context) {
-    const session = await getServerSession(context.req, context.res, authOptions);
-
-    // if the user is logged in redirect, (note: don't redirect to the same page otherwise it'll be in a infinite loop)
-    if (session) {
-        return { redirect: { destination: "/" } };
-    }
-
-    const providers = await getProviders();
-
-    return {
-        props: { providers: providers ?? [] },
-    }
 }
