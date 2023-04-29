@@ -1,0 +1,17 @@
+{
+  "name": "someone",
+  "Type": "personal",
+  "Bio": "bio is not available",
+
+"links": [
+    {
+      "name": "Follow me on instagram",
+      "url": "https://instagram.com/_dinesh_audichya_/",
+      "icon": "Fainstagram"
+    },
+  {
+      "name": "Follow me on github",
+      "url": "https://github.com/Dinesh_audichya/",
+      "icon": "Fagithub"
+    }
+  ]
