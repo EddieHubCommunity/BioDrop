@@ -1,0 +1,22 @@
+{
+  "name": "Rupal soni",
+  "type": "personal",
+  "bio": "pursuing B.tech in Computer Science and Engineering",
+   "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rupal-soni-ba2754228/",
+      "icon": "FaLinkedin"
+    },
+     {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/official_queen_rupa/?next=%2F",
+      "icon": "FaInstagram"
+     },
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Rupalsoni123",
+      "icon": "FaGithub"
+    }
+  ]
+}
