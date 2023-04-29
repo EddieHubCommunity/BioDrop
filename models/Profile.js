@@ -27,6 +27,10 @@ const ProfileSchema = new mongoose.Schema({
     default: [],
     type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
   },
+  milestones: {
+    default: [],
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Milestone" }],
+  },
 });
 
 module.exports =

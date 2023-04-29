@@ -5,7 +5,7 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
-import getLocation from "@services/github/getLocation";
+import Milestone from "@models/Milestone";
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
@@ -20,8 +20,7 @@ export default async function handler(req, res) {
     findOneByUsernameFull(profile)
   );
 
-  // 2. save profiles to database
-  // - profile upsert by username
+  // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
   const preloadProfiles = await Profile.find({});
   fullProfile.map(async (profile) => {
@@ -88,17 +87,53 @@ export default async function handler(req, res) {
     } catch (e) {
       logger.error(e, `failed to update links for ${profile.username}`);
     }
+
+    // 2. milestones
+    try {
+      if (profile.milestones) {
+        const enabledMilestones = [];
+        profile.milestones.map(async (milestone, position) => {
+          enabledMilestones.push(milestone.url);
+          await Milestone.findOneAndUpdate(
+            { username: profile.username, url: milestone.url },
+            {
+              isGoal: milestone.isGoal || false,
+              title: milestone.title,
+              icon: milestone.icon,
+              description: milestone.description,
+              color: milestone.color,
+              date: milestone.date,
+              order: position,
+              isEnabled: true,
+              profile: currentProfile._id,
+            },
+            { upsert: true }
+          );
+        });
+
+        currentProfile.milestones
+          .filter((milestone) => milestone.url !== enabledMilestones)
+          .map(async (link) => {
+            await Milestone.findOneAndUpdate(
+              { username: profile.username, url: link.url },
+              { isEnabled: false }
+            );
+          });
+      }
+    } catch (e) {
+      logger.error(e, `failed to update milestones for ${profile.username}`);
+    }
+    // - testimonials (enable selected testimonials)
+    // - events
   });
 
   const postloadProfiles = await Profile.find({});
 
   console.log(
-    await Profile.findOne({ username: "eddiejaoude" }).populate("links")
+    await Profile.findOne({ username: "eddiejaoude" })
+      .populate("links")
+      .populate("milestones")
   );
-
-  // - milestones
-  // - testimonials (enable select testimonials)
-  // - events
 
   return res.status(200).json({
     profiles: {
