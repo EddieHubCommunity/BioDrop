@@ -1,0 +1,25 @@
+{
+  "name": "Animesh Raj",
+  "type": "personal",
+  "bio": "Full Stack Developer & Software Engineer🔥Open Source🚀📈 Committing every day!",
+   "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/itsarraj" },
+    { "icon": "FaGithub", "url": "https://github.com/itsarraj" },
+  ],
+  "tags": [
+    "Open Source",
+    ,"C","C++","Python","Java","Javascript","Go","NodeJS","ReactJS","MongoDB","MYSQL","Linux"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/itsarraj",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/itsarraj",
+      "icon": "FaTwitter"
+    }
+  ]
+}
