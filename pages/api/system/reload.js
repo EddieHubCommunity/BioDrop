@@ -12,7 +12,9 @@ export default async function handler(req, res) {
     // TODO: lock down to system only, check for environment variable
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
-  await connectMongo();
+  const connection = await connectMongo();
+  const session = await connection.startSession();
+  await session.startTransaction();
 
   // 1. load all profiles
   const basicProfiles = findAllBasic();
@@ -22,11 +24,19 @@ export default async function handler(req, res) {
 
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
-  const preloadProfiles = await Profile.find({});
   fullProfile.map(async (profile) => {
-    let currentProfile = await Profile.findOne({
-      username: profile.username,
-    });
+    // TODO: DEBUG
+    if (profile.username === "eddiejaoude") {
+      console.log(profile.milestones);
+    }
+
+    let currentProfile = await Profile.findOne(
+      {
+        username: profile.username,
+      },
+      null,
+      { session }
+    );
 
     if (currentProfile && currentProfile.source === "database") {
       console.log("database", "skip", currentProfile.username);
@@ -41,14 +51,14 @@ export default async function handler(req, res) {
         bio: profile.bio,
         tags: profile.tags,
       },
-      { upsert: true }
+      { upsert: true, session }
     );
 
     try {
       if (profile.links) {
         const enabledLinks = [];
         profile.links.map(async (link, position) => {
-          enabledLinks.push(link.url);
+          enabledLinks.push(link);
           await Link.findOneAndUpdate(
             { username: profile.username, url: link.url },
             {
@@ -61,7 +71,7 @@ export default async function handler(req, res) {
               profile: currentProfile._id,
               order: position,
             },
-            { upsert: true }
+            { upsert: true, session }
           );
         });
 
@@ -69,79 +79,81 @@ export default async function handler(req, res) {
           { username: profile.username },
           {
             links: (
-              await Link.find({ username: profile.username })
+              await Link.find({ username: profile.username }, null, { session })
             ).map((link) => link._id),
-          }
+          },
+          { session }
         );
 
         // disable LINKS not in json file
         currentProfile.links
-          .filter((link) => link.url !== enabledLinks)
+          .filter((link) => link.url !== enabledLinks.url)
           .map(async (link) => {
             await Link.findOneAndUpdate(
               { username: profile.username, url: link.url },
-              { isEnabled: false }
+              { isEnabled: false },
+              { session }
             );
           });
       }
     } catch (e) {
+      await session.abortTransaction();
       logger.error(e, `failed to update links for ${profile.username}`);
     }
 
     // 2. milestones
+    // TRY: transaction to delete milestones and then create new ones every time
     try {
       if (profile.milestones) {
-        const enabledMilestones = [];
-        profile.milestones.map(async (milestone, position) => {
-          enabledMilestones.push(milestone.url);
-          await Milestone.findOneAndUpdate(
-            { username: profile.username, url: milestone.url },
-            {
-              isGoal: milestone.isGoal || false,
-              title: milestone.title,
-              icon: milestone.icon,
-              description: milestone.description,
-              color: milestone.color,
-              date: milestone.date,
-              order: position,
-              isEnabled: true,
-              profile: currentProfile._id,
-            },
-            { upsert: true }
-          );
-        });
+        // delete all milestones
+        await Milestone.deleteMany({ username: profile.username }, { session });
 
-        currentProfile.milestones
-          .filter((milestone) => milestone.url !== enabledMilestones)
-          .map(async (link) => {
-            await Milestone.findOneAndUpdate(
-              { username: profile.username, url: link.url },
-              { isEnabled: false }
-            );
-          });
+        // create milestones
+
+        await Milestone.create(
+          profile.milestones.map(async (milestone, position) => ({
+            username: profile.username,
+            url: milestone.url,
+            date: milestone.date,
+            isGoal: milestone.isGoal || false,
+            title: milestone.title,
+            icon: milestone.icon,
+            description: milestone.description,
+            color: milestone.color,
+            order: position,
+            isEnabled: true,
+            profile: currentProfile._id,
+          })),
+          { session }
+        );
+
+        // add milestones to profile
+        currentProfile = await Profile.findOneAndUpdate(
+          { username: profile.username },
+          {
+            milestones: (
+              await Milestone.find({ username: profile.username }, null, {
+                session,
+              })
+            ).map((milestone) => milestone._id),
+          },
+          { session }
+        );
+
+        await session.commitTransaction();
       }
     } catch (e) {
+      await session.abortTransaction();
       logger.error(e, `failed to update milestones for ${profile.username}`);
     }
+
     // - testimonials (enable selected testimonials)
     // - events
   });
 
-  const postloadProfiles = await Profile.find({});
+  await session.endSession();
 
-  console.log(
-    await Profile.findOne({ username: "eddiejaoude" })
-      .populate("links")
-      .populate("milestones")
-  );
-
-  return res.status(200).json({
-    profiles: {
-      basic: basicProfiles.length,
-      full: fullProfile.length,
-      db: { before: preloadProfiles.length, after: postloadProfiles.length },
-    },
-  });
+  return res.status(200).json({ message: "success" });
 }
 
 function findAllBasic() {

@@ -26,5 +26,7 @@ const MilestoneSchema = new mongoose.Schema({
   },
 });
 
+// MilestoneSchema.index({ username: 1, url: 1, date: 1 });
+
 module.exports =
   mongoose.models.Milestone || mongoose.model("Milestone", MilestoneSchema);
