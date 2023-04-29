@@ -1,0 +1,19 @@
+{
+  "name": "Siddharth",
+  "type": "personal",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://www.linkedin.com/in/siddharth-kumar-singh-031260250",
+      "icon": "Falinkedin"
+      
+    }
+    {
+      "name": "Follow me on youtube",
+      "url": "https://youtube.com/@sonukumarsingh6792",
+      "icon": "Fayoutube"
+    }
+  ]
+  
+}
