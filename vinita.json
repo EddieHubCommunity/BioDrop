@@ -1,0 +1,12 @@
+{
+  "name": "Vinita Menaria",
+  "type": "personal",
+  "bio": "open source",
+  "links" :  [
+  {  "name" : "follow me on insta",
+      "url" : ""https://instagram.com/vinita_menaria_?igshid=ZDdkNTZiNTM=",
+      "icon" : "FaInstagram"
+   }
+ ]
+  
+}
