@@ -14,14 +14,14 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/QaidjoharJ53",
-      "icon": "FaTwitter"
-    },
-    {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/qaidjoharjukker53",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/QaidjoharJ53",
+      "icon": "FaTwitter"
     }
   ],
   "testimonials": [
