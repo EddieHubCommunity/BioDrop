@@ -1,0 +1,17 @@
+{
+  "name": "VikRam",
+  "type": "personal",
+  "bio" : "Hello Guys Welcome back my YouTube channel ",
+  "links" : [
+    {
+      "name": "GitHub",
+      "url" : "https://github.com/vikram-8290",
+      "icon" : "FaGitHub"
+    },
+    {
+      "name": "LinkedIn",
+      "url" : "https://www.linkedin.com/in/vikram-singh-sisodiya-25a302234/",
+      "icon" : "FaLinkedin"
+    }
+  ]
+}
