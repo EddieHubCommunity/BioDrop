@@ -1,0 +1,12 @@
+{
+  "name": "Habibur Rahman",
+  "type": "personal",
+  "bio": "Full Stack Developer and Devops Engineer",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HRahman429",
+      "icon": "FaTwitter"
+    }
+  ]
+}
