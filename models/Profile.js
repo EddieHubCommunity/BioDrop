@@ -39,6 +39,16 @@ const ProfileSchema = new mongoose.Schema({
       order: Number,
     },
   ],
+  testimonials: [
+    {
+      username: String,
+      title: String,
+      description: String,
+      date: String,
+      order: Number,
+      isPinned: Boolean,
+    },
+  ],
 });
 
 module.exports =

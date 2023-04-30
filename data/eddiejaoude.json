@@ -115,6 +115,14 @@
       "url": "https://youtube.com/eddiejaoude"
     },
     {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Star for the first year of the program",
+      "url": "https://stars.github.com/profiles/eddiejaoude/"
+    },
+    {
       "title": "GitHub Star of the Year",
       "date": "2020",
       "icon": "FaGithub",

@@ -24,7 +24,7 @@ export default async function handler(req, res) {
   fullProfile.map(async (profile) => {
     // TODO: DEBUG
     if (profile.username === "eddiejaoude") {
-      console.log(profile.milestones);
+      console.log(profile.testimonials);
     }
 
     let currentProfile;
@@ -119,7 +119,29 @@ export default async function handler(req, res) {
       logger.error(e, `failed to update milestones for ${profile.username}`);
     }
 
-    // - testimonials (enable selected testimonials)
+    // 3. testimonials (enable selected testimonials)
+    try {
+      if (profile.testimonials) {
+        await Profile.findOneAndUpdate(
+          { username: profile.username },
+          {
+            testimonials: profile.testimonials.map(
+              (testimonials, position) => ({
+                username: testimonials.username,
+                date: testimonials.date,
+                title: testimonials.title,
+                description: testimonials.description,
+                order: position,
+                isPinned: testimonials.isPinned || false,
+              })
+            ),
+          }
+        );
+      }
+    } catch (e) {
+      logger.error(e, `failed to update testimonials for ${profile.username}`);
+    }
+
     // - events
   });
 

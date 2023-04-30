@@ -54,7 +54,9 @@ export default function UserPage({ data, BASE_URL }) {
 
       {tabs.find((tab) => tab.name === "Testimonials") &&
         tabs.find((tab) => tab.name === "Testimonials").current && (
-          <UserTestimonials data={data} />
+          <UserTestimonials
+            testimonials={data.testimonials.filter((t) => t.isPinned)}
+          />
         )}
 
       {tabs.find((tab) => tab.name === "Events") &&
