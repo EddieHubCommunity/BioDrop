@@ -1,0 +1,17 @@
+{
+  "name": "Medhavi Kaushik",
+  "type": "personal",
+  "bio": "CS Student",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Medhavi2025",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/medhavi-kaushik-a85357251/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}
