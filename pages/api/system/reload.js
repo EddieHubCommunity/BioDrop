@@ -5,7 +5,6 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
-import Milestone from "@models/Milestone";
 
 export default async function handler(req, res) {
   if (req.method !== "GET") {
@@ -13,8 +12,6 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
   const connection = await connectMongo();
-  const session = await connection.startSession();
-  await session.startTransaction();
 
   // 1. load all profiles
   const basicProfiles = findAllBasic();
@@ -30,16 +27,17 @@ export default async function handler(req, res) {
       console.log(profile.milestones);
     }
 
-    let currentProfile = await Profile.findOne(
-      {
+    let currentProfile;
+    try {
+      currentProfile = await Profile.findOne({
         username: profile.username,
-      },
-      null,
-      { session }
-    );
+      });
+    } catch (e) {
+      logger.error(e, `failed to find profile ${profile.username}`);
+    }
 
-    if (currentProfile && currentProfile.source === "database") {
-      console.log("database", "skip", currentProfile.username);
+    if (!currentProfile || currentProfile.source === "database") {
+      console.log("database", "skip", profile.username);
       return;
     }
 
@@ -51,7 +49,7 @@ export default async function handler(req, res) {
         bio: profile.bio,
         tags: profile.tags,
       },
-      { upsert: true, session }
+      { upsert: true }
     );
 
     try {
@@ -71,7 +69,7 @@ export default async function handler(req, res) {
               profile: currentProfile._id,
               order: position,
             },
-            { upsert: true, session }
+            { upsert: true }
           );
         });
 
@@ -79,10 +77,9 @@ export default async function handler(req, res) {
           { username: profile.username },
           {
             links: (
-              await Link.find({ username: profile.username }, null, { session })
+              await Link.find({ username: profile.username })
             ).map((link) => link._id),
-          },
-          { session }
+          }
         );
 
         // disable LINKS not in json file
@@ -91,67 +88,40 @@ export default async function handler(req, res) {
           .map(async (link) => {
             await Link.findOneAndUpdate(
               { username: profile.username, url: link.url },
-              { isEnabled: false },
-              { session }
+              { isEnabled: false }
             );
           });
       }
     } catch (e) {
-      await session.abortTransaction();
       logger.error(e, `failed to update links for ${profile.username}`);
     }
 
     // 2. milestones
-    // TRY: transaction to delete milestones and then create new ones every time
     try {
       if (profile.milestones) {
-        // delete all milestones
-        await Milestone.deleteMany({ username: profile.username }, { session });
-
-        // create milestones
-
-        await Milestone.create(
-          profile.milestones.map(async (milestone, position) => ({
-            username: profile.username,
-            url: milestone.url,
-            date: milestone.date,
-            isGoal: milestone.isGoal || false,
-            title: milestone.title,
-            icon: milestone.icon,
-            description: milestone.description,
-            color: milestone.color,
-            order: position,
-            isEnabled: true,
-            profile: currentProfile._id,
-          })),
-          { session }
-        );
-
-        // add milestones to profile
-        currentProfile = await Profile.findOneAndUpdate(
+        await Profile.findOneAndUpdate(
           { username: profile.username },
           {
-            milestones: (
-              await Milestone.find({ username: profile.username }, null, {
-                session,
-              })
-            ).map((milestone) => milestone._id),
-          },
-          { session }
+            milestones: profile.milestones.map((milestone, position) => ({
+              url: milestone.url,
+              date: milestone.date,
+              isGoal: milestone.isGoal || false,
+              title: milestone.title,
+              icon: milestone.icon,
+              description: milestone.description,
+              color: milestone.color,
+              order: position,
+            })),
+          }
         );
-
-        await session.commitTransaction();
       }
     } catch (e) {
-      await session.abortTransaction();
       logger.error(e, `failed to update milestones for ${profile.username}`);
     }
 
     // - testimonials (enable selected testimonials)
     // - events
   });
-
-  await session.endSession();
 
   return res.status(200).json({ message: "success" });
 }
