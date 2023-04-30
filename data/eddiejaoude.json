@@ -16,7 +16,22 @@
     { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
     { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
   ],
-  "testimonials": ["FrancescoXX", "loftwah"],
+  "testimonials": [
+    "FrancescoXX",
+    "loftwah",
+    "sagarbangade",
+    "KrishChopra22",
+    "MadhuSaini22",
+    "juliafmorgado",
+    "CBID2",
+    "Akshu-on-github",
+    "ZeeMonk-pixel",
+    "krupalitrivedi",
+    "shubhsharma19",
+    "Shukla007",
+    "tobySolutions",
+    "Njong392"
+  ],
   "links": [
     {
       "group": "Business",
@@ -120,7 +135,7 @@
       "icon": "FaGithub",
       "color": "green",
       "description": "Became a **GitHub** Star for the first year of the program",
-      "url": "https://stars.github.com/profiles/eddiejaoude/"
+      "url": "https://github.com/eddiejaoude"
     },
     {
       "title": "GitHub Star of the Year",
