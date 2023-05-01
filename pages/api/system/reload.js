@@ -22,11 +22,6 @@ export default async function handler(req, res) {
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
   fullProfile.map(async (profile) => {
-    // TODO: DEBUG
-    if (profile.username === "eddiejaoude") {
-      console.log(profile.testimonials);
-    }
-
     let currentProfile;
     try {
       currentProfile = await Profile.findOne({

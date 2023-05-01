@@ -1,7 +1,6 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
-import findAllBasic from "@services/data/findAllBasic.mjs";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -12,36 +11,19 @@ export default async function handler(req, res) {
 
   await connectMongo();
 
-  const fileProfiles = findAllBasic();
-
-  let dbProfiles = [];
+  let profiles = [];
   try {
-    dbProfiles = await Profile.find({ location: { $ne: null } });
+    profiles = await Profile.find({ name: { $exists: true } }, [
+      "username",
+      "name",
+      "bio",
+      "tags",
+      "location",
+    ]);
   } catch (e) {
-    logger.error(e, "failed loading profile from db");
-    return fileProfiles;
+    logger.error(e, "failed loading profiles");
+    return profiles;
   }
-
-  const profiles = fileProfiles.map((fileProfile) => {
-    const profile = dbProfiles.find(
-      (dbProfile) => dbProfile.username === fileProfile.username
-    );
-
-    const basicProfile = {
-      username: fileProfile.username,
-      name: fileProfile.name,
-      bio: fileProfile.bio,
-      tags: fileProfile.tags,
-    };
-
-    if (profile && profile._doc.location.name !== "unknown") {
-      return {
-        ...basicProfile,
-        location: profile._doc.location,
-      };
-    }
-    return basicProfile;
-  });
 
   res.status(200).json(profiles);
 }
