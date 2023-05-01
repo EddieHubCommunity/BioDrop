@@ -1,5 +1,5 @@
 import { authOptions } from "../../auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -25,7 +25,7 @@ export default async function handler(req, res) {
 export async function getUserApi(req, res, username) {
   await connectMongo();
   let isOwner = false;
-  const session = await unstable_getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions);
   if (session && session.username === username) {
     isOwner = true;
   }
