@@ -35,7 +35,7 @@ export default function UserPage({ data, BASE_URL }) {
       return [];
     }
 
-    return { ...tab, total: data.links.length };
+    return { ...tab, total: data.links?.length };
   });
   const [tabs, setTabs] = useState(displayTabs);
 

@@ -20,19 +20,18 @@ export default async function handler(req, res) {
 export async function getTotalStats() {
   await connectMongo();
 
-  let dailyStats = [];
+  let totalStats = [];
   try {
-    dailyStats = await Stats.find({});
+    totalStats = await Stats.aggregate([{
+      $group: {
+        _id: null,
+        totalViews:  { $sum: "$views" },
+        totalClicks: { $sum: "$clicks" },
+      }
+    }]);
   } catch (e) {
     logger.error(e, "failed to load stats");
   }
-
-  let views = 0;
-  let clicks = 0;
-  dailyStats.forEach((stat) => {
-    views += stat.views;
-    clicks += stat.clicks;
-  });
 
   let activeProfiles = 0;
   try {
@@ -54,8 +53,8 @@ export async function getTotalStats() {
   return {
     statusCode: 200,
     stats: {
-      views,
-      clicks,
+      views: totalStats[0]?.totalViews || 0,
+      clicks: totalStats[0]?.totalClicks || 0,
       users: totalProfiles.length || 0,
       active: activeProfiles || 0,
     },
