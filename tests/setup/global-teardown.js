@@ -1,4 +1,3 @@
-import { chromium } from "@playwright/test";
 import fs from "fs";
 import * as dotenv from "dotenv";
 
@@ -9,10 +8,10 @@ import Link from "../../models/Link";
 
 dotenv.config();
 
-module.exports = async (config) => {
+module.exports = async () => {
   // remove test file data
   USERS.forEach((username) => fs.unlinkSync(`./data/${username}.json`));
-  fs.unlinkSync(`./data/_test-wcag-user.json`)
+  fs.unlinkSync(`./data/_test-wcag-user.json`);
 
   // remove test data in database
   await connectMongo();

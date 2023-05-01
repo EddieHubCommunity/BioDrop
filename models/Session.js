@@ -3,15 +3,14 @@ import mongoose from "mongoose";
 const SessionSchema = new mongoose.Schema({
   expires: {
     type: Date,
-    trim: true,
   },
   sessionToken: {
     type: String,
     trim: true,
   },
   userId: {
-    type: String,
-    ref: "User",
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "user",
   },
 });
 
