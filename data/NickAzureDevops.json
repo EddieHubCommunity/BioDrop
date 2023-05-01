@@ -8,7 +8,7 @@
     "Terraform",
     "DevOps",
     "Cloud Native",
-    "Github",
+    "Github"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/nick_cloudops" },
@@ -71,7 +71,7 @@
       "name": "Certifications",
       "url": "https://www.credly.com/users/nicholas-chang.280d1eca/badges",
       "icon": "FaCloud"
-    },
+    }
     
   ]
 }
