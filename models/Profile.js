@@ -49,6 +49,20 @@ const ProfileSchema = new mongoose.Schema({
       isPinned: Boolean,
     },
   ],
+  events: [
+    {
+      isVirtual: Boolean,
+      color: String,
+      name: String,
+      description: String,
+      date: {
+        start: Date,
+        end: Date,
+      },
+      url: String,
+      order: Number,
+    },
+  ],
 });
 
 module.exports =

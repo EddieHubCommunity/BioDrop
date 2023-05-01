@@ -143,6 +143,29 @@ export default async function handler(req, res) {
     }
 
     // - events
+    try {
+      if (profile.events) {
+        await Profile.findOneAndUpdate(
+          { username: profile.username },
+          {
+            events: profile.events.map((event, position) => ({
+              isVirtual: event.isVirtual,
+              color: event.color,
+              name: event.name,
+              description: event.description,
+              date: {
+                start: event.date.start,
+                end: event.date.end,
+              },
+              url: event.url,
+              order: position,
+            })),
+          }
+        );
+      }
+    } catch (e) {
+      logger.error(e, `failed to update events for ${profile.username}`);
+    }
   });
 
   return res.status(200).json({ message: "success" });
