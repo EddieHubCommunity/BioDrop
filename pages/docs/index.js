@@ -46,17 +46,7 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-            "This allows you the most customisation to your development environment, but requires more setup time.",
-          category: {
-            name: "Intermediate",
-            color: "bg-orange-100 text-orange-800",
-          },
-        },
-        {
-          name: "Docker Compose",
-          path: "/docs/environments/local-development-docker-compose",
-          description:
-            "This might sound scary but it is actually the easiest solution for a local development environment.",
+          "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",

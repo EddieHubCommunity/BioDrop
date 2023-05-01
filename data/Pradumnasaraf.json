@@ -99,12 +99,20 @@
     },
     {
       "group": "Open Source Projects",
-      "name": "My DevOps journey and learnings - 1.1k+ stars ⭐️",
+      "name": "My DevOps journey and learnings - 1.6k+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/DevOps",
       "icon": "FaGithub"
     }
   ],
   "milestones": [
+    {
+      "title": "Delivered my 1st in-person talk",
+      "date": "15th April 2023",
+      "icon": "FaMicrophone",
+      "color": "orange",
+      "description": "Delivered my first in-person talk on Docker and Docker Compose.",
+      "url": "https://twitter.com/pradumna_saraf/status/1652138152151117824?s=20"
+    },
     {
       "title": "First repo to reach 1K stars",
       "date": "Mar 2023",
