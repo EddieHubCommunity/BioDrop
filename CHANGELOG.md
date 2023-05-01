@@ -1,9 +1,9 @@
-## 1.110.4 (2023-04-19)
+## 1.114.17 (2023-05-01)
 
 
 ### Bug Fixes
 
-* dashboard hide old links ([#6207](https://github.com/EddieHubCommunity/LinkFree/issues/6207)) ([32855a3](https://github.com/EddieHubCommunity/LinkFree/commit/32855a3f7f0efc7cbf65bc629033552fc588efcc)), closes [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#6095](https://github.com/EddieHubCommunity/LinkFree/issues/6095) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202) [#5202](https://github.com/EddieHubCommunity/LinkFree/issues/5202)
+* mongoose aggregate to sum views & clicks ([#6539](https://github.com/EddieHubCommunity/LinkFree/issues/6539)) ([9981890](https://github.com/EddieHubCommunity/LinkFree/commit/9981890b08bbdc2bdb0caf60859857cae98043f8))
 
 
 

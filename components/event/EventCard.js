@@ -48,7 +48,7 @@ export default function EventCard({ event, username }) {
                   {event.name}
                 </Link>
                 {event.userStatus && (
-                  <div className="text-primary-low-medium italic hidden lg:block">
+                  <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
