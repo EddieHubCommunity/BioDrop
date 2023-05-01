@@ -1,7 +1,7 @@
 {
   "name": "Nicholas Chang",
   "type": "personal",
-  "bio": "Platform Engineer, | Blogger, Azure and Community Advocate ",
+  "bio": "Platform Engineer, | Blogger, Azure and Community Advocate",
   "tags": [
     "Azure",
     "Azure DevOps",
@@ -66,5 +66,12 @@
       "url": "https://hachyderm.io/web/@nick_cloudops",
       "icon": "FaCloud"
     },
+     {
+      "group": "Socials",
+      "name": "Certifications",
+      "url": "https://www.credly.com/users/nicholas-chang.280d1eca/badges",
+      "icon": "FaCloud"
+    },
+    
   ]
 }
