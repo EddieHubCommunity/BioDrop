@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
@@ -7,7 +6,7 @@ import Button from "@components/Button";
 import PreviewModal from "@components/modals/ProfilePreview";
 import Input from "@components/form/input";
 
-  const defaultJson = `{
+const defaultJson = `{
   "name": "Your Name",
   "type": "personal",
   "bio": "Write a short bio about yourself",
@@ -28,8 +27,6 @@ export default function Playground() {
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
-  
-
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
