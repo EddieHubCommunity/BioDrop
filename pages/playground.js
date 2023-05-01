@@ -85,7 +85,6 @@ export default function Playground() {
         <Input
           name={gitUsername}
           value={gitUsername}
-          // className="dark:bg-primary-high dark:text-white rounded border-2 hover:border-tertiary-medium"
           placeholder="Enter github username"
           onChange={(e) => setGitUsername(e.target.value)}
         />
