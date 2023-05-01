@@ -22,17 +22,16 @@ export async function getTotalStats() {
 
   let dailyStats = [];
   try {
-    dailyStats = await Stats.find({});
+    dailyStats = await Stats.aggregate([{
+      $group: {
+        _id: null,
+        totalViews:  { $sum: "$views" },
+        totalClicks: { $sum: "$clicks" },
+      }
+    }]);
   } catch (e) {
     logger.error(e, "failed to load stats");
   }
-
-  let views = 0;
-  let clicks = 0;
-  dailyStats.forEach((stat) => {
-    views += stat.views;
-    clicks += stat.clicks;
-  });
 
   let activeProfiles = 0;
   try {
@@ -54,8 +53,8 @@ export async function getTotalStats() {
   return {
     statusCode: 200,
     stats: {
-      views,
-      clicks,
+      views: dailyStats[0]?.totalViews || 0,
+      clicks: dailyStats[0]?.totalClicks || 0,
       users: totalProfiles.length || 0,
       active: activeProfiles || 0,
     },
