@@ -7,8 +7,14 @@ import Profile from "@models/Profile";
 import Link from "@models/Link";
 
 export default async function handler(req, res) {
-  if (req.method !== "GET") {
-    // TODO: lock down to system only, check for environment variable
+  console.log(req.query.secret, process.env.LINKFREE_RELOAD_SECRET);
+  if (
+    req.method !== "GET" ||
+    req.query.secret !== process.env.LINKFREE_RELOAD_SECRET
+  ) {
+    logger.error(
+      `attempt to load profile json but security check failed: "${req.query.secret}"`
+    );
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
   const connection = await connectMongo();
