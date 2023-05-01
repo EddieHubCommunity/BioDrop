@@ -39,7 +39,7 @@
     {
       "title": "Discover",
       "date": "March 2023",
-      "icon": "FaExternalLinkAlt",
+      "icon": "FaExternalLinkSquareAlt",
       "color": "grey",
       "description": "A place developed to relax (vue+django)",
       "url": "https://xyzzyxwz.top:5173"
@@ -107,6 +107,38 @@
       "color": "grey",
       "description": "Knowledge-based community software, Q&A (Github Fork)",
       "url": "https://server7.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Webssh",
+      "date": "May 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Web based ssh client (Github Fork)",
+      "url": "https://server8.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Lama-cleaner",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Image inpainting tool powered by SOTA AI Model (Github Fork)",
+      "url": "https://server9.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Rocket.chat",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "The communications platform (Github Fork)",
+      "url": "https://server10.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Wiki.js",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Wiki App (Github Fork)",
+      "url": "https://server11.xyzzyxwz.top:12030"
     }
   ]
 }
