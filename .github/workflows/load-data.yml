@@ -1,0 +1,9 @@
+name: Load json
+
+on:
+  deployment_status:
+
+jobs:
+  load-json-profies:
+    if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'
+    run: curl https://linkfree.io/api/system/reload?token=${{ secrets.LINKFREE_API_SECRET }}
