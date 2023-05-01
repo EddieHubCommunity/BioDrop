@@ -7,7 +7,6 @@ import Profile from "@models/Profile";
 import Link from "@models/Link";
 
 export default async function handler(req, res) {
-  console.log(req.query.secret, process.env.LINKFREE_RELOAD_SECRET);
   if (
     req.method !== "GET" ||
     req.query.secret !== process.env.LINKFREE_RELOAD_SECRET
@@ -17,17 +16,17 @@ export default async function handler(req, res) {
     );
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
-  const connection = await connectMongo();
+  await connectMongo();
 
   // 1. load all profiles
   const basicProfiles = findAllBasic();
-  const fullProfile = basicProfiles.map((profile) =>
+  const fullProfiles = basicProfiles.map((profile) =>
     findOneByUsernameFull(profile)
   );
 
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
-  fullProfile.map(async (profile) => {
+  fullProfiles.map(async (profile) => {
     let currentProfile;
     try {
       currentProfile = await Profile.findOne({
@@ -37,8 +36,8 @@ export default async function handler(req, res) {
       logger.error(e, `failed to find profile ${profile.username}`);
     }
 
-    if (!currentProfile || currentProfile.source === "database") {
-      console.log("database", "skip", profile.username);
+    if (currentProfile && currentProfile.source === "database") {
+      logger.info(`Skipped profile "${profile.username}" as using forms`);
       return;
     }
 
@@ -169,7 +168,10 @@ export default async function handler(req, res) {
     }
   });
 
-  return res.status(200).json({ message: "success" });
+  return res.status(200).json({
+    message: "success",
+    statistics: { basic: basicProfiles.length, full: fullProfiles.length },
+  });
 }
 
 function findAllBasic() {

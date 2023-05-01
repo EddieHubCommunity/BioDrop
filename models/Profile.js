@@ -25,7 +25,7 @@ const ProfileSchema = new mongoose.Schema({
   },
   links: {
     default: [],
-    type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
+    type: [{ type: mongoose.Schema.Types.ObjectId, ref: "link" }],
   },
   milestones: [
     {
