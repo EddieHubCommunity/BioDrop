@@ -2,7 +2,7 @@
   "name": "Nisha Lohar",
   "Type": "Personal",
   "bio": "Why don't visit my social medias",
-  "links":[
+  "links": [
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/_nuit__noire_/?next=%2F",
@@ -13,5 +13,5 @@
       "url": "https://open.spotify.com/user/31jzl2y7qmsu7frt7bnnrk4birae?si=8_W-LmLbSuKAY39B2brieQ",
       "icon": "FaSpotify"
     }
-    ]
+  ]
 }

@@ -9,6 +9,11 @@
       "icon": "FaGithub"
     },
     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/qaidjoharj53",
+      "icon": "FaLinkedin"
+    },
+    {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/qaidjoharjukker53",
       "icon": "FaInstagram"
@@ -18,5 +23,6 @@
       "url": "https://twitter.com/QaidjoharJ53",
       "icon": "FaTwitter"
     }
-  ]
+  ],
+  "testimonials": ["qaidjoharj53"]
 }
