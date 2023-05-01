@@ -56,8 +56,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "postinstall": "ncp ./.env.example ./.env",
-    "cli": "npx linkfree-cli",
-    "loadProfiles": "node --experimental-modules ./services/data/loadProfiles.mjs"
+    "cli": "npx linkfree-cli"
   },
   "browserslist": {
     "production": [
