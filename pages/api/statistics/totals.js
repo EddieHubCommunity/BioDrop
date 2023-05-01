@@ -20,9 +20,9 @@ export default async function handler(req, res) {
 export async function getTotalStats() {
   await connectMongo();
 
-  let dailyStats = [];
+  let totalStats = [];
   try {
-    dailyStats = await Stats.aggregate([{
+    totalStats = await Stats.aggregate([{
       $group: {
         _id: null,
         totalViews:  { $sum: "$views" },
@@ -53,8 +53,8 @@ export async function getTotalStats() {
   return {
     statusCode: 200,
     stats: {
-      views: dailyStats[0]?.totalViews || 0,
-      clicks: dailyStats[0]?.totalClicks || 0,
+      views: totalStats[0]?.totalViews || 0,
+      clicks: totalStats[0]?.totalClicks || 0,
       users: totalProfiles.length || 0,
       active: activeProfiles || 0,
     },
