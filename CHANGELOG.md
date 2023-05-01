@@ -1,9 +1,9 @@
-## 1.114.11 (2023-04-27)
+## 1.114.17 (2023-05-01)
 
 
 ### Bug Fixes
 
-* unstable prefix from getServerSession ([#6175](https://github.com/EddieHubCommunity/LinkFree/issues/6175)) ([5d58210](https://github.com/EddieHubCommunity/LinkFree/commit/5d58210b3f3d6941cf54441ae441479ff33a7e2b))
+* mongoose aggregate to sum views & clicks ([#6539](https://github.com/EddieHubCommunity/LinkFree/issues/6539)) ([9981890](https://github.com/EddieHubCommunity/LinkFree/commit/9981890b08bbdc2bdb0caf60859857cae98043f8))
 
 
 
