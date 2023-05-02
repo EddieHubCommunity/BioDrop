@@ -18,6 +18,7 @@ function UserProfile({ BASE_URL, data }) {
   //Declared Ref object for QR
   const qrRef = useRef(null);
 
+  //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
       saveAs(blob, `linkfree-${data.username}.png`)
