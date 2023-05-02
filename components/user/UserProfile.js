@@ -84,7 +84,6 @@ function UserProfile({ BASE_URL, data }) {
             className="border border-white"
             value={`${BASE_URL}/${data.username}`}
             size={fallbackImageSize * 2}
-            id="qrcode"
           />
         )}
       </div>
