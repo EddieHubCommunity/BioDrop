@@ -1,0 +1,51 @@
+{
+  "name": "Rahul Verma",
+  "type": "personal",
+  "bio": "Senior Software Engineer Cimpress | 🇮🇳 Indian | ♟ Cat-D Player Chess.com | 🏋️‍♂️ Fitness & 💰 Investment Enthusiast",
+  "tags": ["Open Source", "Java", "PHP", "Javascript", "HTML", "CSS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rahulverma0008"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rahulverma0008"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/rahulverma0008",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/rahulverma0008",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Career",
+      "date": "April 2015",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my career as Software Engineer"
+    },
+    {
+      "title": "First Open Source Project",
+      "date": "2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published my first open source project as Recently Viewed Products for Opencart",
+      "url": "https://github.com/rahulverma0008/opencart-recently-viewed-products"
+    },
+    {
+      "title": "Started Contribution to Open Source project Linkfree",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green"
+    }
+  ]
+}
