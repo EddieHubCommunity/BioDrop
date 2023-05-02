@@ -1,6 +1,5 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import loadProfiles from "@services/profiles/loadProfiles";
 import findAllBasic from "@services/profiles/findAllBasic";
 import { Profile } from "@models/index";
 
