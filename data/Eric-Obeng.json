@@ -17,6 +17,11 @@
       "name": "Lets connect on LinkedIn",
       "url": "https://www.linkedin.com/in/eric-obeng-66a839179/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Lets connect on Instagram",
+      "url": "https://www.instagram.com/psalmistpraise/",
+      "icon": "FaInstagram"
     }
   ]
 }
