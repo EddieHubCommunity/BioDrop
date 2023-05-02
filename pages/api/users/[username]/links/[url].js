@@ -1,10 +1,6 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-
-import Link from "@models/Link";
-import Profile from "@models/Profile";
-import LinkStats from "@models/LinkStats";
-import Stats from "@models/Stats";
+import { Link, Profile, LinkStats, Stats } from "@models/index";
 import findOneByUsernameBasic from "@services/profiles/findOneByUsernameBasic";
 
 export default async function handler(req, res) {
