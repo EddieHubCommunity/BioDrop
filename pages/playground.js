@@ -1,14 +1,25 @@
 import { useState } from "react";
-
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Button from "@components/Button";
 import PreviewModal from "@components/modals/ProfilePreview";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
 
 export default function Playground() {
-  const [profileJson, setProfileJson] = useState("");
+  const defaultJson = `{
+    "name": "Your Name",
+    "type": "personal",
+    "bio": "Write a short bio about yourself",
+    "links": [
+      {
+        "name": "Follow on Twitter",
+        "url": "https://twitter.com/yourusername",
+        "icon": "FaTwitter"
+      }
+    ]
+  }`;
+  const [profileJson, setProfileJson] = useState(defaultJson);
   const [validateComplete, setValidateComplete] = useState(false);
   const [formatComplete, setFormatComplete] = useState(false);
   const [errorMessage, setErrMsg] = useState("");
@@ -16,7 +27,6 @@ export default function Playground() {
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
-
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
@@ -78,31 +88,21 @@ export default function Playground() {
         {errorMessage && <Alert type="error" message={errorMessage} />}
         {successMessage && <Alert type="success" message={successMessage} />}
 
-        <p className="mt-4 mb-5">
-          Enter github username, profile json below and preview how it will
-          actually look
-        </p>
         <Input
-          name={gitUsername}
+          name="username"
+          label="Enter github username, profile json below and preview how it will
+          actually look"
           value={gitUsername}
-          className="dark:bg-primary-high dark:text-white rounded border-2 hover:border-tertiary-medium"
           placeholder="Enter github username"
           onChange={(e) => setGitUsername(e.target.value)}
         />
+
+        <label htmlFor="profileJson" className="mt-4 mb-3">
+          Your Profile Json
+        </label>
         <textarea
-          placeholder={`{           
-            name: "user name",
-            type: "personal",
-            bio: "about the user",
-            links: [
-              {
-                name: "Follow on Twitter",
-                url: "https://twitter.com/username",
-                icon: "FaTwitter",
-              },
-            ],
- }`}
-          className="mt-4 h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+          className="h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+          id="profileJson"
           name="profileJson"
           value={profileJson}
           onChange={(e) => {
