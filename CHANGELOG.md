@@ -1,9 +1,9 @@
-## 1.114.17 (2023-05-01)
+## 1.115.1 (2023-05-02)
 
 
 ### Bug Fixes
 
-* mongoose aggregate to sum views & clicks ([#6539](https://github.com/EddieHubCommunity/LinkFree/issues/6539)) ([9981890](https://github.com/EddieHubCommunity/LinkFree/commit/9981890b08bbdc2bdb0caf60859857cae98043f8))
+* dark mode date visibility on stats page ([#6549](https://github.com/EddieHubCommunity/LinkFree/issues/6549)) ([41bad8e](https://github.com/EddieHubCommunity/LinkFree/commit/41bad8edabc0d086a918944ad227a155da7bbbbf))
 
 
 

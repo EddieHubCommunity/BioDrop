@@ -16,7 +16,7 @@ const profileStatsSchema = new mongoose.Schema({
   },
   profile: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "profile",
+    ref: "Profile",
   },
 });
 

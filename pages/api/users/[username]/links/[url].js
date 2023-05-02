@@ -1,9 +1,6 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-
-import Link from "@models/Link";
-import LinkStats from "@models/LinkStats";
-import Stats from "@models/Stats";
+import { Link, LinkStats, Stats } from "@models/index";
 
 export default async function handler(req, res) {
   await connectMongo();

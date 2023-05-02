@@ -1,7 +1,5 @@
-import User from "@models/User";
-import Account from "@models/Account";
-import Session from "@models/Session";
-import VerificationToken from "@models/VerificationToken";
+import { User, Account, Session, VerificationToken } from "@models/index"
+
 
 /** @return { import("next-auth/adapters").Adapter } */
 export default function DbAdapter(client, options = {}) {
