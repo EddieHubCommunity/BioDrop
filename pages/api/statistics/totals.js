@@ -3,8 +3,9 @@ import path from "path";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
-import Stats from "@models/Stats";
+
+import { Profile, Stats } from "@models/index"
+
 
 export default async function handler(req, res) {
   if (req.method != "GET") {

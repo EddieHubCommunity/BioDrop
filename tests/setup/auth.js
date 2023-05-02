@@ -1,29 +1,23 @@
-import path from "node:path";
 import connectMongo from "@config/mongo";
-import jsonwebtoken from "jsonwebtoken";
-import { encode } from 'next-auth/jwt';
+import { encode } from "next-auth/jwt";
 
-import User from "@models/User";
-import Session from "@models/Session";
-import Account from "@models/Account";
+import { User, Session, Account } from "@models/index";
 
 const login = async (browser) => {
   await connectMongo();
 
   const date = new Date();
-  const sessionToken = await encode(
-    {
-      token: {
-        name: "Automate Test",
-        email: "testemail@test.com",
-        image: "https://github.com/eddiejaoude.png",
-        access_token: "ggg_zZl1pWIvKkf3UDynZ09zLvuyZsm1yC0YoRPt",
-        username: "eddiejaoude",
-        id: "22222222"
-      },
-      secret: process.env.NEXTAUTH_SECRET,
-    }
-  );
+  const sessionToken = await encode({
+    token: {
+      name: "Automate Test",
+      email: "testemail@test.com",
+      image: "https://github.com/eddiejaoude.png",
+      access_token: "ggg_zZl1pWIvKkf3UDynZ09zLvuyZsm1yC0YoRPt",
+      username: "eddiejaoude",
+      id: "22222222",
+    },
+    secret: process.env.NEXTAUTH_SECRET,
+  });
 
   let testUser;
 
