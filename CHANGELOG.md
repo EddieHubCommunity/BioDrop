@@ -1,9 +1,9 @@
-# 1.115.0 (2023-05-02)
+## 1.115.1 (2023-05-02)
 
 
-### Features
+### Bug Fixes
 
-* playground json example ([#6552](https://github.com/EddieHubCommunity/LinkFree/issues/6552)) ([d9eab49](https://github.com/EddieHubCommunity/LinkFree/commit/d9eab494e2110c1bf25756415e1723200577e18a)), closes [#6294](https://github.com/EddieHubCommunity/LinkFree/issues/6294)
+* dark mode date visibility on stats page ([#6549](https://github.com/EddieHubCommunity/LinkFree/issues/6549)) ([41bad8e](https://github.com/EddieHubCommunity/LinkFree/commit/41bad8edabc0d086a918944ad227a155da7bbbbf))
 
 
 
