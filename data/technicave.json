@@ -1,0 +1,33 @@
+{
+  "name": "Aryan Tiwari",
+  "type": "personal",
+  "bio": "CCO @Showwcase | Creator @Technicave | Computer Programmer, Innovator and Tech Enthusiast."
+}
+
+"links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/technicave",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/technicave/",
+      "icon": "FaInstagram"
+    }
+   {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/technicave/",
+      "icon": "FaLinkedin"
+    }
+ {
+      "name": "Follow me on Github",
+      "url": "https://github.com/technicave",
+      "icon": "FaGithub"
+    }
+{
+      "name": "Follow me on Youtube",
+      "url": "http://youtube.com/@technicave",
+      "icon": "FaYoutube"
+    }
+  ]
