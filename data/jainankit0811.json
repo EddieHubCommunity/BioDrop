@@ -1,13 +1,12 @@
 {
   "name": "Ankit Dhanawat",
   "type": "personal",
-  "bio": "Student"
-},
+  "bio": "I am a student currently studing computer science and engineering",
   "links": [
     {
-      "name": "Follow me on Twitter",
-      "url": "https://jainankit0811/SaraJaoude",
-      "icon": "GitHub"
+      "name": "Follow me on Github",
+      "url": "https://github.com/jainankit0811",
+      "icon": "FaGithub"
     }
   ]
 }
