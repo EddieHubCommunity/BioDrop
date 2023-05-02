@@ -19,8 +19,10 @@ module.exports = async () => {
   const testUsers = await Profile.find({ username: /_test-/ });
 
   // delete test documents
-  testUsers.map(async (user) => {
-    await Profile.deleteOne({ username: user.username });
-    await Link.deleteMany({ username: user.username });
-  });
+  await Promise.all(
+    testUsers.map(async (user) => {
+      await Profile.deleteOne({ username: user.username });
+      await Link.deleteMany({ username: user.username });
+    })
+  );
 };
