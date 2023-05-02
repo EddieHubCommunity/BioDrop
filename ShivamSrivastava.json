@@ -1,0 +1,32 @@
+{
+  "name": "Shivam Srivastava",
+  "type": "personal",
+  "bio": "Fresher | Aspiring Web Developer | Seeking Entry- level Programming Position",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/itsshivamsrivastava/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/itsshivamsrivastava/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/itsshivamsrivastava",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shivam_142",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/itsmeshivamsrivastava",
+      "icon": "FaFacebook"
+    }
+  ]
+}
