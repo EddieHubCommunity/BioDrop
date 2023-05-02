@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
@@ -7,8 +6,20 @@ import Button from "@components/Button";
 import PreviewModal from "@components/modals/ProfilePreview";
 import Input from "@components/form/input";
 
+const defaultJson = `{
+  "name": "Your Name",
+  "type": "personal",
+  "bio": "Write a short bio about yourself",
+  "links": [
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/yourusername",
+      "icon": "FaTwitter"
+    }
+  ]
+}`;
 export default function Playground() {
-  const [profileJson, setProfileJson] = useState("");
+  const [profileJson, setProfileJson] = useState(defaultJson);
   const [validateComplete, setValidateComplete] = useState(false);
   const [formatComplete, setFormatComplete] = useState(false);
   const [errorMessage, setErrMsg] = useState("");
@@ -16,7 +27,6 @@ export default function Playground() {
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
-
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
@@ -89,18 +99,6 @@ export default function Playground() {
           onChange={(e) => setGitUsername(e.target.value)}
         />
         <textarea
-          placeholder={`{           
-            name: "user name",
-            type: "personal",
-            bio: "about the user",
-            links: [
-              {
-                name: "Follow on Twitter",
-                url: "https://twitter.com/username",
-                icon: "FaTwitter",
-              },
-            ],
- }`}
           className="mt-4 h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           name="profileJson"
           value={profileJson}
