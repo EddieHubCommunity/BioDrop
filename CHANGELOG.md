@@ -1,9 +1,9 @@
-# 1.115.0 (2023-05-02)
+# 1.116.0 (2023-05-02)
 
 
 ### Features
 
-* playground json example ([#6552](https://github.com/EddieHubCommunity/LinkFree/issues/6552)) ([d9eab49](https://github.com/EddieHubCommunity/LinkFree/commit/d9eab494e2110c1bf25756415e1723200577e18a)), closes [#6294](https://github.com/EddieHubCommunity/LinkFree/issues/6294)
+* models use single import ([#6554](https://github.com/EddieHubCommunity/LinkFree/issues/6554)) ([e08f93f](https://github.com/EddieHubCommunity/LinkFree/commit/e08f93f174bcd98f9e8ac20c48c18c876c43fabc)), closes [#5654](https://github.com/EddieHubCommunity/LinkFree/issues/5654) [#6147](https://github.com/EddieHubCommunity/LinkFree/issues/6147) [#5962](https://github.com/EddieHubCommunity/LinkFree/issues/5962)
 
 
 
