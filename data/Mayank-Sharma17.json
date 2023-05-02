@@ -1,7 +1,7 @@
 {
   "name": "Mayank Sharma",
   "type": "personal",
-  "bio": "Open Source Contributor **@Hacktoberfest** | java | DSA | frontend development",
+  "bio": "Open Source Contributor **@Hacktoberfest** | java | DSA | Learning **(MERN)** Full Stack Dev | DevOps Enthusiast",
 
   "tags": [
     "Open Source",
@@ -9,9 +9,7 @@
     "Gitbash",
     "Java",
     "DSA",
-    "Frontend Developer",
-    "Bootstrap",
-    "jQuery"
+    "DevOps"
   ],
   "socials": [
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/mayank257" },
@@ -21,22 +19,34 @@
   "links": [
     {
       "group": "Socials Primary",
-      "name": "Twitter: Follow me",
+      "name": "LinkedIn - Let's connect",
+      "url": "https://linkedin.com/in/mayank257",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub - Collaborate on Open Source",
+      "url": "https://github.com/Mayank-Sharma17",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Twitter - Follow me",
       "url": "https://twitter.com/MayankS93339625",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
-      "group": "Socials Primary",
-      "name": "GitHub: Collaborate on Open Source",
-      "url": "https://github.com/Mayank-Sharma17",
-      "icon": "FaGithub"
+      "group": "Socials Secondary",
+      "name": "Hashnode - My Blogs",
+      "url": "https://mynksblog.hashnode.dev",
+      "icon": "SiHashnode"
     },
     {
-      "group": "Socials Primary",
-      "name": "LinkedIn: Let's connect",
-      "url": "https://linkedin.com/in/mayank257",
-      "icon": "FaLinkedin"
+      "group": "Socials Secondary",
+      "name": "Instagram - ask me anything here",
+      "url": "https://www.instagram.com/m.ayank_s.harma",
+      "icon": "FaInstagram"
     }
   ]
 }
