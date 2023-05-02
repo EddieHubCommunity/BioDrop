@@ -1,9 +1,9 @@
-## 1.114.18 (2023-05-02)
+# 1.115.0 (2023-05-02)
 
 
-### Bug Fixes
+### Features
 
-* double borders on inputs [#6310](https://github.com/EddieHubCommunity/LinkFree/issues/6310) ([#6524](https://github.com/EddieHubCommunity/LinkFree/issues/6524)) ([41c676d](https://github.com/EddieHubCommunity/LinkFree/commit/41c676d933e54e5a9649a698d413a2738c95e236))
+* playground json example ([#6552](https://github.com/EddieHubCommunity/LinkFree/issues/6552)) ([d9eab49](https://github.com/EddieHubCommunity/LinkFree/commit/d9eab494e2110c1bf25756415e1723200577e18a)), closes [#6294](https://github.com/EddieHubCommunity/LinkFree/issues/6294)
 
 
 

@@ -8,7 +8,7 @@ import PageHead from "@components/PageHead";
 import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
 
 export async function getServerSideProps(context) {
   let data = {
