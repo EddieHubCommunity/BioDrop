@@ -26,147 +26,152 @@ export default async function handler(req, res) {
 
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
-  fullProfiles.map(async (profile) => {
-    let currentProfile;
-    try {
-      currentProfile = await Profile.findOne({
-        username: profile.username,
-      });
-    } catch (e) {
-      logger.error(e, `failed to find profile ${profile.username}`);
-    }
-
-    if (currentProfile && currentProfile.source === "database") {
-      logger.info(`Skipped profile "${profile.username}" as using forms`);
-      return;
-    }
-
-    currentProfile = await Profile.findOneAndUpdate(
-      { username: profile.username },
-      {
-        source: "file",
-        name: profile.name,
-        bio: profile.bio,
-        tags: profile.tags,
-      },
-      { upsert: true }
-    );
-
-    try {
-      if (profile.links) {
-        const enabledLinks = [];
-        profile.links.map(async (link, position) => {
-          enabledLinks.push(link);
-          await Link.findOneAndUpdate(
-            { username: profile.username, url: link.url },
-            {
-              group: link.group,
-              name: link.name,
-              url: link.url,
-              icon: link.icon,
-              isEnabled: true,
-              isPinned: link.isPinned,
-              profile: currentProfile._id,
-              order: position,
-            },
-            { upsert: true }
-          );
+  await Promise.all(
+    fullProfiles.map(async (profile) => {
+      let currentProfile;
+      try {
+        currentProfile = await Profile.findOne({
+          username: profile.username,
         });
+      } catch (e) {
+        logger.error(e, `failed to find profile ${profile.username}`);
+      }
 
-        currentProfile = await Profile.findOneAndUpdate(
-          { username: profile.username },
-          {
-            links: (
-              await Link.find({ username: profile.username })
-            ).map((link) => link._id),
-          }
-        );
+      if (currentProfile && currentProfile.source === "database") {
+        logger.info(`Skipped profile "${profile.username}" as using forms`);
+        return;
+      }
 
-        // disable LINKS not in json file
-        currentProfile.links
-          .filter((link) => link.url !== enabledLinks.url)
-          .map(async (link) => {
+      currentProfile = await Profile.findOneAndUpdate(
+        { username: profile.username },
+        {
+          source: "file",
+          name: profile.name,
+          bio: profile.bio,
+          tags: profile.tags,
+        },
+        { upsert: true }
+      );
+
+      try {
+        if (profile.links) {
+          const enabledLinks = [];
+          profile.links.map(async (link, position) => {
+            enabledLinks.push(link);
             await Link.findOneAndUpdate(
               { username: profile.username, url: link.url },
-              { isEnabled: false }
+              {
+                group: link.group,
+                name: link.name,
+                url: link.url,
+                icon: link.icon,
+                isEnabled: true,
+                isPinned: link.isPinned,
+                profile: currentProfile._id,
+                order: position,
+              },
+              { upsert: true }
             );
           });
-      }
-    } catch (e) {
-      logger.error(e, `failed to update links for ${profile.username}`);
-    }
 
-    // 2. milestones
-    try {
-      if (profile.milestones) {
-        await Profile.findOneAndUpdate(
-          { username: profile.username },
-          {
-            milestones: profile.milestones.map((milestone, position) => ({
-              url: milestone.url,
-              date: milestone.date,
-              isGoal: milestone.isGoal || false,
-              title: milestone.title,
-              icon: milestone.icon,
-              description: milestone.description,
-              color: milestone.color,
-              order: position,
-            })),
-          }
-        );
-      }
-    } catch (e) {
-      logger.error(e, `failed to update milestones for ${profile.username}`);
-    }
+          currentProfile = await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              links: (
+                await Link.find({ username: profile.username })
+              ).map((link) => link._id),
+            }
+          );
 
-    // 3. testimonials (enable selected testimonials)
-    try {
-      if (profile.testimonials) {
-        await Profile.findOneAndUpdate(
-          { username: profile.username },
-          {
-            testimonials: profile.testimonials.map(
-              (testimonials, position) => ({
-                username: testimonials.username,
-                date: testimonials.date,
-                title: testimonials.title,
-                description: testimonials.description,
+          // disable LINKS not in json file
+          currentProfile.links
+            .filter((link) => link.url !== enabledLinks.url)
+            .map(async (link) => {
+              await Link.findOneAndUpdate(
+                { username: profile.username, url: link.url },
+                { isEnabled: false }
+              );
+            });
+        }
+      } catch (e) {
+        logger.error(e, `failed to update links for ${profile.username}`);
+      }
+
+      // 2. milestones
+      try {
+        if (profile.milestones) {
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              milestones: profile.milestones.map((milestone, position) => ({
+                url: milestone.url,
+                date: milestone.date,
+                isGoal: milestone.isGoal || false,
+                title: milestone.title,
+                icon: milestone.icon,
+                description: milestone.description,
+                color: milestone.color,
                 order: position,
-                isPinned: testimonials.isPinned || false,
-              })
-            ),
-          }
-        );
+              })),
+            }
+          );
+        }
+      } catch (e) {
+        logger.error(e, `failed to update milestones for ${profile.username}`);
       }
-    } catch (e) {
-      logger.error(e, `failed to update testimonials for ${profile.username}`);
-    }
 
-    // - events
-    try {
-      if (profile.events) {
-        await Profile.findOneAndUpdate(
-          { username: profile.username },
-          {
-            events: profile.events.map((event, position) => ({
-              isVirtual: event.isVirtual,
-              color: event.color,
-              name: event.name,
-              description: event.description,
-              date: {
-                start: event.date.start,
-                end: event.date.end,
-              },
-              url: event.url,
-              order: position,
-            })),
-          }
+      // 3. testimonials (enable selected testimonials)
+      try {
+        if (profile.testimonials) {
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              testimonials: profile.testimonials.map(
+                (testimonials, position) => ({
+                  username: testimonials.username,
+                  date: testimonials.date,
+                  title: testimonials.title,
+                  description: testimonials.description,
+                  order: position,
+                  isPinned: testimonials.isPinned || false,
+                })
+              ),
+            }
+          );
+        }
+      } catch (e) {
+        logger.error(
+          e,
+          `failed to update testimonials for ${profile.username}`
         );
       }
-    } catch (e) {
-      logger.error(e, `failed to update events for ${profile.username}`);
-    }
-  });
+
+      // - events
+      try {
+        if (profile.events) {
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              events: profile.events.map((event, position) => ({
+                isVirtual: event.isVirtual,
+                color: event.color,
+                name: event.name,
+                description: event.description,
+                date: {
+                  start: event.date.start,
+                  end: event.date.end,
+                },
+                url: event.url,
+                order: position,
+              })),
+            }
+          );
+        }
+      } catch (e) {
+        logger.error(e, `failed to update events for ${profile.username}`);
+      }
+    })
+  );
 
   return res.status(200).json({
     message: "success",
