@@ -56,23 +56,25 @@ export default async function handler(req, res) {
       try {
         if (profile.links) {
           const enabledLinks = [];
-          profile.links.map(async (link, position) => {
-            enabledLinks.push(link);
-            await Link.findOneAndUpdate(
-              { username: profile.username, url: link.url },
-              {
-                group: link.group,
-                name: link.name,
-                url: link.url,
-                icon: link.icon,
-                isEnabled: true,
-                isPinned: link.isPinned,
-                profile: currentProfile._id,
-                order: position,
-              },
-              { upsert: true }
-            );
-          });
+          await Promise.all(
+            profile.links.map(async (link, position) => {
+              enabledLinks.push(link);
+              await Link.findOneAndUpdate(
+                { username: profile.username, url: link.url },
+                {
+                  group: link.group,
+                  name: link.name,
+                  url: link.url,
+                  icon: link.icon,
+                  isEnabled: true,
+                  isPinned: link.isPinned,
+                  profile: currentProfile._id,
+                  order: position,
+                },
+                { upsert: true }
+              );
+            })
+          );
 
           currentProfile = await Profile.findOneAndUpdate(
             { username: profile.username },
@@ -84,14 +86,16 @@ export default async function handler(req, res) {
           );
 
           // disable LINKS not in json file
-          currentProfile.links
-            .filter((link) => link.url !== enabledLinks.url)
-            .map(async (link) => {
-              await Link.findOneAndUpdate(
-                { username: profile.username, url: link.url },
-                { isEnabled: false }
-              );
-            });
+          await Promise.all(
+            currentProfile.links
+              .filter((link) => link.url !== enabledLinks.url)
+              .map(async (link) => {
+                await Link.findOneAndUpdate(
+                  { username: profile.username, url: link.url },
+                  { isEnabled: false }
+                );
+              })
+          );
         }
       } catch (e) {
         logger.error(e, `failed to update links for ${profile.username}`);
