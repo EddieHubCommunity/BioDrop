@@ -3,10 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
-import ProfileStats from "@models/ProfileStats";
-import Link from "@models/Link";
-import LinkStats from "@models/LinkStats";
+import { Profile, ProfileStats, Link, LinkStats } from "@models/index";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
