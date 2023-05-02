@@ -1,0 +1,17 @@
+{
+  "name": "Tasnimul Hasan Tauhid",
+  "type": "personal",
+  "bio": "Backend Dev",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/thtauhid",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thtauhid",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
