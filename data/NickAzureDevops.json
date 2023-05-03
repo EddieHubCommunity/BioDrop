@@ -13,7 +13,10 @@
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/nick_cloudops" },
     { "icon": "FaGithub", "url": "https://github.com/NickAzureDevops" },
-    { "icon": "FaLinkedin", "url": "http://www.linkedin.com/in/nicholas-chang-41b83052" }
+    {
+      "icon": "FaLinkedin",
+      "url": "http://www.linkedin.com/in/nicholas-chang-41b83052"
+    }
   ],
   "links": [
     {
@@ -46,14 +49,14 @@
       "url": "https://github.com/NickAzureDevops",
       "icon": "FaGithub"
     },
-    
-     {
+
+    {
       "group": "Content creation",
       "name": "Youtube",
       "url": "https://youtube.com/@learnazurewithnick",
       "icon": "SiDarkreader"
     },
-     
+
     {
       "group": "Support",
       "name": "BuyMeACoffee:",
@@ -66,12 +69,11 @@
       "url": "https://hachyderm.io/web/@nick_cloudops",
       "icon": "FaCloud"
     },
-     {
+    {
       "group": "Socials",
       "name": "Certifications",
       "url": "https://www.credly.com/users/nicholas-chang.280d1eca/badges",
       "icon": "FaCloud"
     }
-    
   ]
 }

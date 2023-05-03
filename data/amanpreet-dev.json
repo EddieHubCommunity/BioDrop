@@ -12,8 +12,14 @@
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/AmanpreetDev" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/amanpreet-dev/" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/amanpreet.dev/" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/amanpreet-dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/amanpreet.dev/"
+    },
     { "icon": "FaGithub", "url": "https://github.com/amanpreet-dev" }
   ],
   "links": [
@@ -89,15 +95,14 @@
       "description": "Make a difference in the world of tech by contributing my skills and knowledge to projects that benefit everyone",
       "url": "https://github.com/amanpreet-dev"
     },
-     {
+    {
       "isGoal": true,
       "title": "Start creating Youtube content",
       "date": "2024",
       "icon": "FaYoutube",
       "color": "green",
       "description": "Own a Youtube channel, with awesome content",
-       "url": "https://www.youtube.com/@amanpreet-dev"
+      "url": "https://www.youtube.com/@amanpreet-dev"
     }
-    
   ]
 }
