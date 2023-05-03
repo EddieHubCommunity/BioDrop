@@ -2,8 +2,8 @@ import fs from "fs";
 
 const { USERS } = require("./test-users.js");
 
-import icons from "../../config/icons.json";
-import logger from "../../config/logger";
+import icons from "@config/icons.json";
+import logger from "@config/logger";
 
 const links = Object.keys(icons).map((icon, index) => {
   return {
