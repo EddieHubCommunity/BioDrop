@@ -140,15 +140,11 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 <!-- Testimonials ENDs Here -->
 
-## 🛡️ License
+## GitHub Accelerator
 
-LinkFree is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🧰 Contributing
-
-- Contributions make the open source community an amazing place to _learn_, _inspire_, and _create_.
-- Any contributions you make are **truly appreciated**.
-- Let's continue contributing to keep the community _active_ and _growing_.
+LinkFree was accepted into the GitHub Accelerator program...
+![GitHub Accelerator](https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png)
+https://accelerator.github.com
 
 ## 🙏 Support
 
