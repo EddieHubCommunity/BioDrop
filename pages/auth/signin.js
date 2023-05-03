@@ -1,69 +1,60 @@
-import BlankLayout from "@components/layouts/BlankLayout"
-import { getServerSession } from "next-auth/next"
-import { getProviders, signIn } from "next-auth/react"
-import Image from "next/image"
-import { authOptions } from "pages/api/auth/[...nextauth]"
-import { BsGithub } from "react-icons/bs"
-import { AiOutlineLock } from "react-icons/ai"
+import Image from "next/image";
+import { getServerSession } from "next-auth/next";
+import { signIn } from "next-auth/react";
 
+import BlankLayout from "@components/layouts/BlankLayout";
+import { authOptions } from "pages/api/auth/[...nextauth]";
+import { BsGithub } from "react-icons/bs";
+import { AiOutlineLock } from "react-icons/ai";
+import Button from "@components/Button";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
-    const session = await getServerSession(context.req, context.res, authOptions);
+  const session = await getServerSession(context.req, context.res, authOptions);
 
-    // if the user is logged in redirect, (note: don't redirect to the same page otherwise it'll be in a infinite loop)
-    if (session) {
-        return { redirect: { destination: "/account/statistics" } };
-    }
+  if (session) {
+    return { redirect: { destination: "/account/statistics" } };
+  }
 
-    const providers = await getProviders();
-
-    return {
-        props: { providers: providers ?? [] },
-    }
+  return {
+    props: {},
+  };
 }
 
+export default function SignIn() {
+  return (
+    <div className="flex min-h-screen items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
+      <div className="w-full max-w-sm space-y-8 min-w-max">
+        <Link href="/">
+          <Image
+            width={100}
+            height={100}
+            className="mx-auto h-64 w-auto"
+            src="/logo512.png"
+            alt="LinkFree logo"
+          />
+        </Link>
+        <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium flex flex-col">
+          <span>Connect to YOUR audience</span>
+          <span className="text-tertiary-medium">with a single link</span>
+        </h2>
 
-export default function SignIn({ providers }) {
+        <Button
+          primary={true}
+          icon={<BsGithub className="text-2xl" />}
+          text={"Continue with GitHub"}
+          key="github"
+          onClick={() => signIn("github")}
+        />
 
-    const handleProviderIcon = (provider_name) => {
-        if (provider_name === "GitHub") {
-            return <BsGithub className="text-xl" />
-        }
-        return <AiOutlineLock />
-    }
-
-    return (
-        <div className="flex min-h-screen items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
-            <div className="w-full max-w-sm space-y-8">
-                <Image
-                    width={50}
-                    height={50}
-                    className="mx-auto h-16 w-auto"
-                    src="/logo512.png"
-                    alt="Your Company"
-                />
-                <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium">
-                    <span className="text-secondary-medium"> Connect to your audience </span>
-                    with a single link
-                </h2>
-                {Object.values(providers).map((provider) => (
-                    <button
-                        key={provider.name}
-                        onClick={() => signIn(provider.id)}
-                        className="group relative transition-all flex gap-4 items-center w-full justify-center rounded-md bg-primary-medium p-3 text-sm font-medium text-primary-low hover:bg-primary-medium/90 dark:hover:bg-primary-medium/60 outline-none"
-                    >
-                        {handleProviderIcon(provider.name)} Continue with {provider.name}
-                    </button>
-                ))}
-            </div>
-        </div>
-    )
+        <p className="mt-10 text-center text-sm text-gray-500">
+          Sign up for FREE forever!
+        </p>
+      </div>
+    </div>
+  );
 }
 
 SignIn.getLayout = function getLayout(page) {
-    return (
-        <BlankLayout>
-            {page}
-        </BlankLayout>
-    )
-}
+  return <BlankLayout>{page}</BlankLayout>;
+};
