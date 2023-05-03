@@ -10,33 +10,29 @@
       "icon": "FaTwitter"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "LinkedIn - Let's connect",
       "url": "https://www.linkedin.com/in/shalini-muskula-52323922a/",
       "icon": "FaLinkedin"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Github - Open for Collaboration",
       "url": "https://github.com/Shalini469717",
       "icon": "FaGithub"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Blog - I write about Web Development",
       "url": "https://hashnode.com/@Shalini469717",
       "icon": "FaHashnode"
     },
     {
-      "group":"Support my Work",
+      "group": "Support my Work",
       "name": "Github Sponsors - Any help is appreciated"
     }
   ],
-  "tags": [
-    "Open Source",
-    "Blogger",
-    "Web Developer"
-  ],
+  "tags": ["Open Source", "Blogger", "Web Developer"],
   "socials": [
     {
       "icon": "FaTwitter",
