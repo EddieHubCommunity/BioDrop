@@ -1,5 +1,5 @@
 import { authOptions } from "../api/auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 import ProgressBar from "@components/statistics/ProgressBar";
 
 import {
@@ -22,7 +22,7 @@ import BasicCards from "@components/statistics/BasicCards";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
-  const session = await unstable_getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions);
 
   if (!session) {
     return {
@@ -181,7 +181,9 @@ export default function Statistics({ data, profile, progress }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Tooltip />
+                <Tooltip contentStyle={{
+                  color: "black"
+                }} />
                 <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>
