@@ -1,11 +1,13 @@
 {
   "name": "Viktar Patotski",
   "type": "personal",
-  "bio": "Back End Developer, DevOps, Architect, Tech Lead.",
+  "bio": "Tech Lead,Back End Developer, DevOps, Architect, Tech Lead.",
   "tags": [
     "Java",
     "DevOps",
-    "DevOps",
+    "Clean Code",
+    "TDD",
+    "Clouds",
     "Architecture"
   ],
   "links": [
@@ -28,6 +30,16 @@
       "name": "Visit my Site",
       "url": "https://patotski.com/",
       "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my site",
+      "date": "Dec 2020",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "I have launched my site to share my experience and knowledge with others.",
+      "url": "https://patotski.com/"
     }
   ]
 }
