@@ -155,7 +155,7 @@ export default function Statistics({ data, profile, progress }) {
         </div>
 
         <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} ({profile.username})
+          Your Statistics for {profile.name} ({profile.username}) - <u> <a href={"https://linkfree.io/" + (profile.username)}>View Page</a> </u>
         </h1>
 
         {!data.links && (
