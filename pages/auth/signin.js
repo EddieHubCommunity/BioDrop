@@ -48,7 +48,7 @@ export default function SignIn() {
         />
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          Sign up for FREE forever!
+          100% Open Source and FREE forever!
         </p>
       </div>
     </div>
