@@ -23,7 +23,7 @@ jobs:
       - name: Install Playwright's dependencies
         run: npx playwright install chromium
       - name: run tests
-        run: npx playwright test events.js
+        run: npx playwright test events.spec.js
       - uses: test-summary/action@v2.0
         with:
           paths: "results.xml"
