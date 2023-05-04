@@ -22,6 +22,11 @@
       "name": "Instagram",
       "url": "https://www.instagram.com/_kshitiz_rana_/",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "hashnode",
+      "url":"https://hashnode.com/@Kshitiz1983",
+      "icon":"Fahashnode"
     }
   ]
 }
