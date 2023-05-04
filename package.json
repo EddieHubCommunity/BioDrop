@@ -1,8 +1,8 @@
 {
   "name": "linkfree",
-  "version": "1.109.24",
+  "version": "1.117.2",
   "private": false,
-  "homepage": "https://linkfree.eddiehub.io",
+  "homepage": "https://linkfree.io",
   "engines": {
     "node": "18.x"
   },
@@ -13,8 +13,8 @@
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.2.4",
     "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.4",
     "@tailwindcss/typography": "^0.5.9",
+    "@vercel/analytics": "^1.0.0",
     "autoprefixer": "^10.4.14",
     "dotenv": "^16.0.3",
     "file-saver": "^2.0.5",

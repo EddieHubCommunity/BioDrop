@@ -19,6 +19,8 @@ const profileStatsSchema = new mongoose.Schema({
   },
 });
 
+profileStatsSchema.index({ username: 1, date: 1 });
+
 module.exports =
   mongoose.models.ProfileStats ||
   mongoose.model("ProfileStats", profileStatsSchema);

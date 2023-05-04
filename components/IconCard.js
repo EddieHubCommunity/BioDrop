@@ -50,7 +50,7 @@ export default function IconCard({ iconName }) {
                   <div className="ml-4 flex flex-shrink-0">
                     <button
                       type="button"
-                      className="inline-flex rounded-md bg-white text-primary-low-medium hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-secondary-low focus:ring-offset-2"
+                      className="inline-flex rounded-md bg-white text-primary-medium-low hover:text-primary-medium focus:outline-none focus:ring-2 focus:ring-secondary-low focus:ring-offset-2"
                       onClick={() => {
                         setShow(false)
                       }}

@@ -10,6 +10,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Custom login page",
+      description:
+        "We were using the standard Next-Auth page but now we have a branded login page",
+      type: "addition",
+      date: "2023-05-04",
+    },
+    {
       title: "LinkFree now has DarkMode",
       description:
         "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
@@ -107,15 +114,15 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex dark:text-primary-low-medium">
+                    <div className="sm:flex dark:text-primary-medium-low">
                       {change.description}
                     </div>
                     <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-low-medium dark:text-primary-low"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p className="dark:text-primary-low-medium">
+                      <p className="dark:text-primary-medium-low">
                         {change.date}
                       </p>
                     </div>
