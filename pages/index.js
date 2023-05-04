@@ -401,19 +401,23 @@ export default function Home({ total, today }) {
 
       <div>
         <div>
-          <img
+          <Image
             className="h-32 w-full object-cover lg:h-48"
             src="https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png"
-            alt=""
+            alt="GitHub Accelerator banner"
+            width={600}
+            height={200}
           />
         </div>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <div className="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
             <div className="flex">
-              <img
+              <Image
                 className="h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32"
                 src="https://user-images.githubusercontent.com/624760/235977104-a0b6ae9c-1d02-489c-ae26-1311c20fd3d4.png"
                 alt="GitHub logo"
+                width={100}
+                height={100}
               />
             </div>
             <div className="mt-6 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1">

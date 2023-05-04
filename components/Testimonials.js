@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Link from "./Link";
 
 export default function Testimonials({ data }) {
@@ -21,10 +23,12 @@ export default function Testimonials({ data }) {
                     <p>{`“${testimonial.text}”`}</p>
                   </blockquote>
                   <figcaption className="mt-6 flex items-center gap-x-4">
-                    <img
+                    <Image
                       className="h-10 w-10 rounded-full bg-primary-low"
                       src={testimonial.image}
                       alt={`Profile picture for ${testimonial.name}`}
+                      width={100}
+                      height={100}
                     />
                     <div>
                       <Link
