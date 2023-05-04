@@ -2,26 +2,26 @@
   "name": "Kshitiz Rana",
   "type": "personal",
   "bio": "Open Source",
-  "links":[
+  "links": [
     {
-      "name":"Twitter",
-      "url":"https://twitter.com/Kshitiztwt",
-      "icon":"FaTwitter"
+      "name": "Twitter",
+      "url": "https://twitter.com/Kshitiztwt",
+      "icon": "FaTwitter"
     },
     {
-      "name":"LinkedIn",
-      "url":"https://www.linkedin.com/in/kshitiz-rana-264457226/",
-      "icon":"FaLinkedIn"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kshitiz-rana-264457226/",
+      "icon": "FaLinkedIn"
     },
     {
-      "name":"GitHub",
-      "url":"https://github.com/KshitizRana",
-      "icon":"FaGithub"
+      "name": "GitHub",
+      "url": "https://github.com/KshitizRana",
+      "icon": "FaGithub"
     },
     {
-    "name":"Instagram",
-    "url":"https://www.instagram.com/_kshitiz_rana_/",
-    "icon": "FaInstagram"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_kshitiz_rana_/",
+      "icon": "FaInstagram"
     }
   ]
-  }
+}
