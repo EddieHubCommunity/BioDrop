@@ -1,7 +1,8 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
 import findAllBasic from "@services/profiles/findAllBasic";
+import { Profile } from "@models/index";
+
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -26,13 +27,21 @@ export default async function handler(req, res) {
     const profile = dbProfiles.find(
       (dbProfile) => dbProfile.username === fileProfile.username
     );
+
+    const basicProfile = {
+      username: fileProfile.username,
+      name: fileProfile.name,
+      bio: fileProfile.bio,
+      tags: fileProfile.tags,
+    };
+
     if (profile && profile._doc.location.name !== "unknown") {
       return {
-        ...fileProfile,
+        ...basicProfile,
         location: profile._doc.location,
       };
     }
-    return fileProfile;
+    return basicProfile;
   });
 
   res.status(200).json(profiles);

@@ -1,9 +1,10 @@
-import { chromium } from "@playwright/test";
 import fs from "fs";
 
 const { USERS } = require("./test-users.js");
-import icons from "../../config/icons.json";
-import logger from "../../config/logger";
+
+import icons from "@config/icons.json";
+import logger from "@config/logger";
+
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
@@ -39,7 +40,7 @@ const user = (username) => {
   };
 };
 
-module.exports = async (config) => {
+module.exports = async () => {
   USERS.forEach((username) => {
     const data = user(username);
 

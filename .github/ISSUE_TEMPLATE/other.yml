@@ -1,6 +1,6 @@
 name: Other
 description: Use this for any other issues. Please do NOT create blank issues
-title: "[OTHER]"
+title: "[OTHER] <Add your title here>"
 labels: ["🚦 status: awaiting triage"]
 body:
   - type: markdown

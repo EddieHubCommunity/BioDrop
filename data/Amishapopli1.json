@@ -19,7 +19,7 @@
       "icon": "FaLinkedin"
     }
   ],
-  "Links": [
+  "links": [
     {
       "group": "Primary Socials",
       "name": "Github: Collaborate on Open Source",

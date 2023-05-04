@@ -1,4 +1,4 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free-linkfree-io%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
 
 # What is LinkFree?
 
@@ -69,7 +69,7 @@ You can set this up locally with the following steps:
 1. `npm ci`
 1. `npm run dev`
 
-Read more in the official documentation https://linkfree.io/docs/environments/local-development
+Read more in the official documentation https://linkfree.io/docs/environments/local-development#local-development
 
 ### Local development with Docker Compose
 
@@ -84,7 +84,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 1. `docker compose up` 
 
-Read more in the official documentation - https://linkfree.io/docs/environments/local-development-docker-compose
+Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
 ### 🙂 How to add YOUR Profile
 
@@ -140,15 +140,11 @@ Here are some testimonials from individuals who have used LinkFree:-
 
 <!-- Testimonials ENDs Here -->
 
-## 🛡️ License
+## GitHub Accelerator
 
-LinkFree is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🧰 Contributing
-
-- Contributions make the open source community an amazing place to _learn_, _inspire_, and _create_.
-- Any contributions you make are **truly appreciated**.
-- Let's continue contributing to keep the community _active_ and _growing_.
+LinkFree was accepted into the GitHub Accelerator program...
+![GitHub Accelerator](https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png)
+https://accelerator.github.com
 
 ## 🙏 Support
 
