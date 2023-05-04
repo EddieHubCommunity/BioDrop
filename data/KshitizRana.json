@@ -24,4 +24,11 @@
       "icon": "FaInstagram"
     }
   ]
+  "socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/Kshitiztwt" },
+  { "icon": "FaGithub", "url": "https://github.com/KshitizRana" },
+  { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/kshitiz-rana-264457226/" }
+]
+
+  
 }
