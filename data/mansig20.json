@@ -1,0 +1,17 @@
+{
+  "name": "Mansi Gehlot",
+  "type": "personal",
+  "bio": "cse student",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Gehlot_Mansi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.instagram.com/maanseee.20/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
