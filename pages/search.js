@@ -29,20 +29,6 @@ export async function getServerSideProps(context) {
 
     const tags = await res.json();
 
-    /*
-      right now the tags that we get from db looks like this
-       [
-        {name:javascript,total:300},
-        {name:Javascript,total:200},
-        {name:JavaScript,total:100},
-      ]
-
-      we have to make it as [{name:javascript,total:600}]
-
-      why because if we dont do it in ui it will show 3 javascript tags
-      if we convert all the tags to lowercase this issue will be solved
-     */
-
     const tagsWithOutDuplicates = {};
 
     tags.forEach(({ name, total }) => {
