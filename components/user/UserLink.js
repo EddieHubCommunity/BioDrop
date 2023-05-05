@@ -26,7 +26,7 @@ export default function UserLink({ BASE_URL, link, username }) {
       style={{
         "--hover-color": colors[link.icon],
       }}
-      onClick={() => setClicks(clicks + 1)}
+      onClick={() => setClicks((prevState) => prevState + 1)}
     >
       <span style={{ color: colors[link.icon] }}>
         <DisplayIcon aria-label={`${aria} icon`} />
