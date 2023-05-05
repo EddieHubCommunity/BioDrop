@@ -22,7 +22,7 @@ jobs:
       - name: assign beta domain
         run: |
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
-          sleep 60
-          vercel alias --token=${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` beta-linkfree.vercel.app
+          cat domain.txt
+      #    vercel alias --token=${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` beta-linkfree.vercel.app
       # - name: load json files
       #  run: curl https://beta.linkfree.io/api/system/reload?token=${{ secrets.LINKFREE_BETA_API_SECRET }}
