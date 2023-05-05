@@ -19,3 +19,5 @@ jobs:
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: deploy project artifacts to Vercel
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+      - name: assign beta domain
+        run: vercel alias --token=${{ secrets.VERCEL_TOKEN }} set "beta.linkfree.io" your-alias.app
