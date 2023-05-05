@@ -54,10 +54,6 @@ export default function Map({ users }) {
                     <span>
                       <ReactMarkdown>{user.bio}</ReactMarkdown>
                     </span>
-
-                    <span>
-                      <ReactMarkdown>{user.bio}</ReactMarkdown>
-                    </span>
                   </div>
                 </Popup>
               </Marker>
