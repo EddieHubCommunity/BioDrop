@@ -2,15 +2,15 @@
   "name": "Rushikesh Gandhmal",
   "type": "personal",
   "bio": "**Open Source** DevRel | Full-stack Dev | ReactJs | JavaScript | Frontend Developer",
-  
   "tags": [
     "Open Source",
     "Javascript",
+    "ReactJS",
     "Typescript",
     "NextJS",
     "DevRel"
   ],
-  
+
   "links": [
     {
       "name": "Check out Github",
@@ -30,7 +30,8 @@
     {
       "name": "Check out Twitter",
       "url": "https://twitter.com/rushikesh1s",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
       "name": "Check out HashNode",
