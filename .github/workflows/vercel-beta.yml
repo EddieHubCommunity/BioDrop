@@ -24,5 +24,5 @@ jobs:
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
           cat domain.txt
       #    vercel alias --token=${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` beta-linkfree.vercel.app
-      # - name: load json files
-      #  run: curl https://beta.linkfree.io/api/system/reload?token=${{ secrets.LINKFREE_BETA_API_SECRET }}
+      - name: load json files
+        run: curl https://linkfree-eddiejaoude-eddiehub.vercel.app/api/system/reload?token=${{ secrets.LINKFREE_API_SECRET }}

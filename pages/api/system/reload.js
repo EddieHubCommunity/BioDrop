@@ -9,7 +9,7 @@ import Link from "@models/Link";
 export default async function handler(req, res) {
   if (
     req.method !== "GET" ||
-    req.query.secret !== process.env.LINKFREE_RELOAD_SECRET
+    req.query.secret !== process.env.LINKFREE_API_SECRET
   ) {
     logger.error(
       `attempt to load profile json but security check failed: "${req.query.secret}"`
