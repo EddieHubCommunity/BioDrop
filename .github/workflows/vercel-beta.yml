@@ -23,5 +23,16 @@ jobs:
         run: |
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
       #    vercel alias --token=${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` beta-linkfree.vercel.app
+  load-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            data:
+              - 'data/**'
       - name: load json files
+        if: steps.changes.outputs.data == 'true'
         run: curl -f https://linkfree-eddiejaoude-eddiehub.vercel.app/api/system/reload?secret=${{ secrets.LINKFREE_API_SECRET }}
