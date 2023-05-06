@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:20
 LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
 
 WORKDIR /usr/src/app
