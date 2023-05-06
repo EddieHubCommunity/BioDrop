@@ -41,16 +41,10 @@ export default function EventCard({ event, username }) {
               key={event.url}
               target="_blank"
               rel="noreferrer"
-              className="text-decoration-line: none"
+              className="text-decoration-line:none"
             >
               <div className="flex justify-between">
-                <p
-                  href={event.url}
-                  key={event.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-                >
+                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                   {event.name}
                 </p>
                 {event.userStatus && (
