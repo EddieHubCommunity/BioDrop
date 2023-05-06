@@ -39,6 +39,12 @@
       "name": "GitHub",
       "url": "https://github.com/shivamsinghydv",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Work",
+      "name": "Personal Website",
+      "url": "https://shivamsinghydv.me",
+      "icon": "FaGlobe"
     }
   ],
   "milestones": [

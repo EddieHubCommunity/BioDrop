@@ -46,17 +46,7 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-            "This allows you the most customisation to your development environment, but requires more setup time.",
-          category: {
-            name: "Intermediate",
-            color: "bg-orange-100 text-orange-800",
-          },
-        },
-        {
-          name: "Docker Compose",
-          path: "/docs/environments/local-development-docker-compose",
-          description:
-            "This might sound scary but it is actually the easiest solution for a local development environment.",
+          "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -344,22 +334,23 @@ export default function DocsIndex() {
             className="bg-white dark:bg-primary-high  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
-            <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-medium lg:max-w-7xl">
+            <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
               <div>
                 <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
                   {section.title}
                 </h2>
-                <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-medium sm:mt-4">
+                <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-high sm:mt-4">
                   {section.description}
                 </p>
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div
+                  <Link
+                    href={page.path}
                     key={page.name}
-                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2"
+                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                   >
-                    <div>
+                    <div className="py-2">
                       <span
                         className={classNames(
                           page.category.color,
@@ -369,15 +360,15 @@ export default function DocsIndex() {
                         {page.category.name}
                       </span>
                     </div>
-                    <Link href={page.path} className="mt-4 block">
+                    <div className="py-2">
                       <h3 className="text-xl font-semibold text-primary-high dark:text-primary-low">
                         {page.name}
                       </h3>
-                      <p className="mt-3 text-base text-primary-medium dark:text-primary-low-medium">
+                      <p className="mt-3 text-base text-primary-medium dark:text-primary-low-high">
                         {page.description}
                       </p>
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 ))}
               </div>
             </div>
