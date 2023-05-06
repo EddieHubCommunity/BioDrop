@@ -1,0 +1,69 @@
+{
+  "name": "Sandra Ashipala",
+  "type": "personal",
+  "bio": "**Software Engineer - Frontend** | Open Source Contributor | Hackathon Enthusiast",
+
+  "tags": [
+    "React.js",
+    "Python",
+    "Typescript",
+    "WordPress",
+    "Open Source",
+    "Artificial Intelligence (AI)",
+    "Web3"
+  ],
+
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "color": "#0000FF",
+      "url": "https://linkedin.com/in/sandraashipala"
+    },
+    {
+      "icon": "FaGithub",
+      "color": "#000000",
+      "url": "https://github.com/sandramsc"
+    }
+  ],
+
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/sandramsc",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/sandraashipala",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "TOP 5 Best projects of ChatGPT and Whisper Hack",
+      "date": "April 2023",
+      "icon": "SiCodeproject",
+      "color": "blue",
+      "description": "48-Hours ChatGPT API & Whisper API Global Hackathon- hosted by lablab.ai",
+      "url": "https://lablab.ai/event/chatgpt-api-and-whisper-api-global-hackathon/team101/cultivate"
+    },
+    {
+      "title": "Completed first Chingu Voyage",
+      "date": "March 2023",
+      "icon": "SiCodeproject",
+      "color": "green",
+      "description": "A 6 week long team project - build a fullstack app",
+      "url": "https://github.com/chingu-voyages/v42-bears-team-26"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "November 2022",
+      "icon": "SiSubstack",
+      "color": "pink",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://sandraashipala.substack.com/"
+    }
+  ]
+}

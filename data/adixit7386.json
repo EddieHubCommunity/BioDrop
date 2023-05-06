@@ -1,0 +1,17 @@
+{
+  "name": "Abhay Dixit",
+  "type": "personal",
+  "bio": "Full Stack Developer",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/adixit7386",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abhay-dixit-4a519a204/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

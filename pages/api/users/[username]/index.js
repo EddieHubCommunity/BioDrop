@@ -1,29 +1,43 @@
-import connectMongo from "../../../../config/mongo";
-import logger from "../../../../config/logger";
+import { authOptions } from "../../auth/[...nextauth]";
+import { getServerSession } from "next-auth/next";
 
-import Profile from "../../../../models/Profile";
-import Stats from "../../../../models/Stats";
-import ProfileStats from "../../../../models/ProfileStats";
+import connectMongo from "@config/mongo";
+import logger from "@config/logger";
+import { Profile, Stats, ProfileStats } from "@models/index";
 
-import findOneByUsernameFull from "../../../../services/profiles/findOneByUsernameFull";
-import getLocation from "../../../../services/profiles/getLocation";
+import findOneByUsernameFull from "@services/profiles/findOneByUsernameFull";
+import getLocation from "@services/profiles/getLocation";
 
 export default async function handler(req, res) {
-  if (req.method != "GET") {
+  if (req.method != "GET" || !req.query.username) {
     return res
       .status(400)
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const { status, profile } = await getUserApi(req, res, req.query.username);
+  return res.status(status).json(profile);
+}
+
+export async function getUserApi(req, res, username) {
   await connectMongo();
-  const { username } = req.query;
-  let log;
-  log = logger.child({ username: username });
+  let isOwner = false;
+  const session = await getServerSession(req, res, authOptions);
+  if (session && session.username === username) {
+    isOwner = true;
+  }
+
+  const log = logger.child({ username: username });
   const data = findOneByUsernameFull(username);
 
   if (!data.username) {
     logger.error(`failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `${username} not found` });
+    return {
+      status: 404,
+      profile: {
+        error: `${username} not found`,
+      },
+    };
   }
 
   const date = new Date();
@@ -55,7 +69,9 @@ export default async function handler(req, res) {
     } catch (e) {
       log.error(e, `app profile stats failed for ${username}`);
     }
-  } else {
+  }
+
+  if (getProfile && !isOwner) {
     try {
       await Profile.updateOne(
         {
@@ -78,7 +94,7 @@ export default async function handler(req, res) {
     username: username,
     date: date,
   });
-  if (getProfileStats) {
+  if (getProfileStats && !isOwner) {
     try {
       await ProfileStats.updateOne(
         {
@@ -97,6 +113,7 @@ export default async function handler(req, res) {
       );
     }
   }
+
   if (!getProfileStats) {
     try {
       await ProfileStats.create({
@@ -112,7 +129,7 @@ export default async function handler(req, res) {
   }
 
   const getPlatformStats = await Stats.findOne({ date });
-  if (getPlatformStats) {
+  if (getPlatformStats && !isOwner) {
     try {
       await Stats.updateOne(
         {
@@ -149,7 +166,14 @@ export default async function handler(req, res) {
   await getLocation(username, latestProfile);
   const profileWithLocation = await Profile.findOne({ username });
 
-  return res
-    .status(200)
-    .json({ username, ...data, location: profileWithLocation.location });
+  return JSON.parse(
+    JSON.stringify({
+      status: 200,
+      profile: {
+        username,
+        ...data,
+        location: profileWithLocation.location,
+      },
+    })
+  );
 }

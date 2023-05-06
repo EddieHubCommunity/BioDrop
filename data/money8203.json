@@ -6,8 +6,8 @@
   "tags": [
     "Open Source",
     "Web Development",
+    "Community Management",
     "Content Writing",
-    "API",
     "DevRel"
   ],
   "socials": [
@@ -33,6 +33,11 @@
       "icon": "FaLinkedin"
     },
     {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
+    },
+    {
       "name": "Google Developer Profile",
       "url": "https://g.dev/manisht",
       "icon": "SiGoogle"
@@ -51,11 +56,6 @@
       "name": "Microsoft Learn Profile",
       "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
       "icon": "SiMicrosoft"
-    },
-    {
-      "name": "Read my blogs!",
-      "url": "https://manisht.hashnode.dev/",
-      "icon": "SiHashnode"
     }
   ]
 }

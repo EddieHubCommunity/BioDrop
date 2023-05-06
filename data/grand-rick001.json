@@ -1,0 +1,66 @@
+{
+  "name": "Patrick Murimi",
+  "type": "personal",
+  "bio": "Postman Student Leader | GDSC Web Development Team Lead | Frontend Web Developer",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "React",
+    "Angular",
+    "JavaScript",
+    "TypeScript",
+    "Node",
+    "Express"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/grandrick001" },
+    { "icon": "FaGithub", "url": "https://github.com/grand-rick001" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/patrick-murimi/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/grandrick001",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/patrick-murimi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate on Open Source",
+      "url": "https://github.com/grand-rick001",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Others",
+      "name": "Postman: Developing APIs",
+      "url": "https://www.postman.com/grand-rick001",
+      "icon": "SiPostman"
+    },
+    {
+      "group": "Others",
+      "name": "Wakatime: Powerful coding Insights",
+      "url": "https://wakatime.com/@grandrick001",
+      "icon": "SiWakatime"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became a Postman Student Leader",
+      "date": "March 2023",
+      "icon": "SiPostman",
+      "color": "#FF6C37",
+      "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
+      "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA"
+    }
+  ]
+}
