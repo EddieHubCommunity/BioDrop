@@ -1,0 +1,22 @@
+{
+  "name": "Abhishek Patel",
+  "type": "personal",
+  "bio": "Full Stack Blockchain Developer, OpenSource Contributor, Defi enthusiastic",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/abhishekpatel946",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhishekpatel946/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhishekpatel_0",
+      "icon": "FaTwitter"
+    }
+  ]
+}
