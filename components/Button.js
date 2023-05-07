@@ -1,13 +1,14 @@
 import Link from "./Link";
 
 export default function Button({
+  icon,
   text,
   primary = false,
   disable,
   ...restProps
 }) {
   let className =
-    "inline-flex items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
+    "w-full inline-flex items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
   !disable
     ? (className += primary
         ? " text-white bg-secondary-medium hover:bg-secondary-high"
@@ -18,12 +19,14 @@ export default function Button({
 
   const link = (
     <Link className={className} {...restProps}>
+      {icon && <span className="mr-2">{icon}</span>}
       {text}
     </Link>
   );
 
   const button = (
     <button className={className} disabled={disable} {...restProps}>
+      {icon && <span className="mr-2">{icon}</span>}
       {text}
     </button>
   );
