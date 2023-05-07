@@ -1,15 +1,14 @@
 {
   "name": "Manish Tyagi ",
   "type": "Personal",
-  "bio": "**Open Source** Advocate | Web Developer | Postman **Student Leader**",
+  "bio": "**Open Source** Advocate🥑 | Developer | Postman **Student Leader**",
 
   "tags": [
     "Open Source",
-    "Web Development",
-    "Community Management",
-    "Content Writing",
     "DevRel",
-    "Golang"
+    "Community Management",
+    "Golang",
+    "Content Creator"
   ],
 
   "socials": [
@@ -38,6 +37,7 @@
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
       "icon": "FaLinkedin"
