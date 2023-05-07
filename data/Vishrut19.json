@@ -1,18 +1,22 @@
 {
   "name": "Vishrut Agarwalla",
   "type": "personal",
-  "bio": "Building GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Enthusiast",
+  "bio": " Ambassador at Wilco | Building GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Advocate",
 
   "tags": [
+    "Git and GitHub",
     "HTML5",
     "CSS3",
     "Bootstrap",
     "JavaScript",
-    "JAVA",
-    "Python",
-    "Git and GitHub",
+    "MySQL",
+    "NodeJS",
+    "PHP",
     "TypeScript",
-    "ReactJS"
+    "ReactJS",
+    "Tailwind CSS",
+    "Python",
+    "Public Speaking"
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
@@ -35,18 +39,42 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Interested in reading my blogs? Go here!",
+      "name": "Check Out some of my Blog",
       "url": "https://vishrut19.hashnode.dev/",
       "icon": "SiHashnode"
     }
   ],
   "milestones": [
     {
+      "title": "Joined Wilco as their Ambassador",
+      "date": "March 2023",
+      "description": "Joined trywilco as their invite only Ambassador"
+    },
+    {
+      "title": "Participated in WeMakeDevs blogging challenge",
+      "date": "31 January 2023",
+      "icon": "SiHashnode",
+      "description": "Wrote a blog post on 2022 Wrap Up(A Detailed Summary of my 2022 Journey)"
+    },
+    {
+      "title": "Participated in DevRetro 2022 by HashNode and wrote my first blog post",
+      "date": "6 January 2023",
+      "icon": "SiHashnode"
+    },
+    {
       "title": "Building GrowInCommunity",
       "date": "December 2022",
       "icon": "FaLink",
       "color": "grey",
       "description": "Co-Founder of GrowInCommunity"
+    },
+    {
+      "title": "Completed Hacktoberfest",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://github.com/vishrut19"
     },
     {
       "title": "Associate Software Engineer",

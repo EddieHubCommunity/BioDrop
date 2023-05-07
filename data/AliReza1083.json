@@ -4,6 +4,16 @@
   "bio": "**React** Developer | Refugee Boy | Open Source",
 
   "tags": ["Open Source", "Javascript", "Typescript", "ReactJS"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Ali_Developer05" },
+    { "icon": "FaGithub", "url": "https://github.com/AliReza1083" },
+    { "icon": "FaInstagram", "url": "https://www.instagram.com/alireza2o05/" },
+    { "icon": "FaLink", "url": "https://www.alirezasamadi.com/" },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://www.paypal.com/paypalme/alirezasamadi"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -17,53 +27,18 @@
     },
     {
       "name": "Check out my Portfolio",
-      "url": "https://alireza05.netlify.app/",
+      "url": "https://www.alirezasamadi.com/",
       "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Insagram",
+      "url": "https://www.instagram.com/alireza2o05/",
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/alireza17/",
       "icon": "FaLinkedin"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Started Learning Python",
-      "date": "2020",
-      "icon": "FaSearch",
-      "color": "red",
-      "description": "I was learning Python, but I stopped it after 2 months."
-    },
-    {
-      "title": "Started Learning Web development",
-      "date": "2020",
-      "icon": "FaGlobe",
-      "color": "green",
-      "description": "after I stopped learning Python, I started learning Web development, and I found it amazing."
-    },
-    {
-      "title": "Social Media",
-      "date": "January 2022",
-      "icon": "FaAndroid",
-      "color": "green",
-      "description": "First Social Media that I used was Twitter, I wasn't active at the first time but Now I'm trying to be active and start engaging with other.",
-      "url": "https://twitter.com/Ali_Developer05"
-    },
-    {
-      "title": "What I know",
-      "date": "2022",
-      "icon": "FaGraduationCap",
-      "color": "green",
-      "description": "HTML, CSS, JavaScript, Tailwind, Nodejs, Expressjs, React, Next, Figma",
-      "url": "https://alireza05.netlify.app/"
-    },
-    {
-      "title": "Open-Source",
-      "date": "2022",
-      "icon": "DiOpensource",
-      "color": "#000",
-      "description": "It's been 1 or 2 Months that I'm contributing to other's project and doing Open-Source",
-      "url": "https://github.com/AliReza1083"
     }
   ],
   "testimonials": ["cjayjonathan"]

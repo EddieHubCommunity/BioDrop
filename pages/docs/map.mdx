@@ -1,0 +1,37 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Understanding the LinkFree map
+
+This area will describe the linkfree map and answer common questions.
+
+## Technology
+
+In addition to the tech listed in the <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/README.md">readme</Link>, the map utilizes open source mapping library <Link href="https://leafletjs.com/">LeafletJS</Link> and <Link href="https://nominatim.openstreetmap.org/ui/search.html?q=">Nominatum</Link> by Open Street Map for retrieving Lat/Long values.
+
+## How do I add myself to the map?
+
+The map data is based on your <Link href="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile#setting-your-location-and-time-zone">GitHub profile location</Link>. This data is refreshed every 7 days. If you have recently updated your GitHub profile, please wait for the data to refresh until after this period of time.
+
+## I have a location in my profile and it has been longer than 7 days but I still do not see myself.
+
+Test the <Link href="https://nominatim.openstreetmap.org/ui/search.html?q=">Nominatum API endpoint</Link> with your exact profile location to see if it returns a value
+If yes, you may ask in Discord for someone to take a look
+
+## How can I contribute to this map?
+
+Contribution to the map or any other part of the LinkFree is detailed in the <Link href="/docs">contributing section</Link> of the docs page. We welcome all contributions.
+
+## Why are user markers not appearing on the map in the local development environment?
+
+In the current implementation, the location information of a user is only updated when they visit their specific profile page. Therefore, during local development, no user has their location information in the database, leading to the map page not displaying any user markers.
+
+To display user markers on the map page during local development, you can run the automated tests. The automated tests will visit some user profiles and create location information in the database. This will allow the user markers to appear on the map. For more information on how to execute the automated tests, please refer to the [Automated Tests Doc](https://linkfree.eddiehub.io/docs/contributing/automated-tests). Alternatively, you can manually visit multiple user profiles to populate the database with location information.
+
+You can find the relevant code that retrieves the location information for each user in the [`getLocation.js`](https://github.com/EddieHubCommunity/LinkFree/blob/main/services/profiles/getLocation.js) file in the `services/profiles` directory.
+
+Note: This situation only affects the local development environment and not the production environment. In production, the user markers will appear on the map since the location information of all users is already available in the database.
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Map documentation">{children}</DocsLayout>
+);

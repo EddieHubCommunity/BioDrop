@@ -1,9 +1,9 @@
-## 1.86.2 (2023-02-12)
+## 1.117.10 (2023-05-07)
 
 
 ### Bug Fixes
 
-* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
+* removed unnecessary useState  ([#6580](https://github.com/EddieHubCommunity/LinkFree/issues/6580)) ([71187d4](https://github.com/EddieHubCommunity/LinkFree/commit/71187d43be8b67115dc1ac1587e5ffc9d445365c))
 
 
 

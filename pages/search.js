@@ -1,13 +1,16 @@
 import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
-import UserCard from "../components/user/UserCard";
-import Alert from "../components/Alert";
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
-import Tag from "../components/Tag";
-import Badge from "../components/Badge";
 
-export async function getServerSideProps(context) {
+import UserCard from "@components/user/UserCard";
+import Alert from "@components/Alert";
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
+import Tag from "@components/Tag";
+import Badge from "@components/Badge";
+import logger from "@config/logger";
+import Input from "@components/form/Input";
+
+export async function getServerSideProps() {
   let data = {
     users: [],
     tags: [],
@@ -16,7 +19,7 @@ export async function getServerSideProps(context) {
     const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
-    console.log("ERROR search users", e);
+    logger.error(e, "ERROR search users");
   }
 
   try {
@@ -25,7 +28,7 @@ export async function getServerSideProps(context) {
     );
     data.tags = await res.json();
   } catch (e) {
-    console.log("ERROR loading tags", e);
+    logger.error(e, "ERROR loading tags");
   }
 
   return {
@@ -36,16 +39,14 @@ export async function getServerSideProps(context) {
 export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
-  const inputRef = useRef();
   const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
 
   useEffect(() => {
-    inputRef.current.focus();
     if (username) {
       setNotFound(username);
     }
@@ -57,6 +58,9 @@ export default function Search({ data }) {
 
     results = users.filter((user) => {
       if (user.name.toLowerCase().includes(valueLower)) {
+        return true;
+      }
+      if (user.username.toLowerCase().includes(valueLower)) {
         return true;
       }
 
@@ -101,6 +105,10 @@ export default function Search({ data }) {
 
   useEffect(() => {
     if (!inputValue) {
+      //Setting the users as null when the input field is empty
+      setFilteredUsers([]);
+      //Removing the not found field when the input field is empty
+      setNotFound();
       return;
     }
 
@@ -120,7 +128,7 @@ export default function Search({ data }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center mb-4">
+        <div className="flex flex-wrap justify-center space-x-3 mb-4">
           {tags &&
             tags
               .slice(0, 10)
@@ -142,11 +150,10 @@ export default function Search({ data }) {
           content={filteredUsers.length}
           display={!!filteredUsers}
           className="w-full"
+          badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <input
+          <Input
             placeholder="Search user by name or tags; eg: open source,reactjs"
-            ref={inputRef}
-            className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}

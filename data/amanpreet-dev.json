@@ -1,0 +1,108 @@
+{
+  "name": "Aman Preet Singh",
+  "type": "personal",
+  "bio": "**Passionate Developer** and **Software Crafter** with a passion for problem-solving.",
+  "tags": [
+    "Javascript",
+    "Typescript",
+    "NestJS",
+    "Node.js",
+    "Angular",
+    "MongoDB"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AmanpreetDev" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/amanpreet-dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/amanpreet.dev/"
+    },
+    { "icon": "FaGithub", "url": "https://github.com/amanpreet-dev" }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AmanpreetDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amanpreet-dev/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/amanpreet.dev/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Collaborate with me on Github",
+      "url": "https://github.com/amanpreet-dev",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my career in Web Development",
+      "date": "May 2008",
+      "icon": "FaRupeeSign",
+      "color": "grey",
+      "description": "Started web development using PHP & Myqsql - LAMP Stack"
+    },
+    {
+      "title": "Got into the world of Javascript & Typescript",
+      "date": "April 2015",
+      "icon": "FaCode",
+      "color": "red",
+      "description": "Started building web applications using MEAN Stack"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "April 2019",
+      "icon": "FaDollarSign",
+      "color": "red",
+      "description": "Earned my first earnings in dollars by working as a remote freelancer"
+    },
+    {
+      "title": "Joined KOCO - an Ed-Tech startup, Singapore",
+      "date": "February 2020",
+      "icon": "FaUsers",
+      "color": "red",
+      "description": "We're here to - Create tomorrow's learning community today where no child gets left behind"
+    },
+    {
+      "isGoal": true,
+      "title": "Become an awesome technical writer",
+      "date": "2023",
+      "icon": "FaBlog",
+      "color": "green",
+      "description": "Breaking down barriers and making information accessible to all",
+      "url": "https://blog.amanpreet.dev"
+    },
+    {
+      "isGoal": true,
+      "title": "Start contributing to Open-Source community",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Make a difference in the world of tech by contributing my skills and knowledge to projects that benefit everyone",
+      "url": "https://github.com/amanpreet-dev"
+    },
+    {
+      "isGoal": true,
+      "title": "Start creating Youtube content",
+      "date": "2024",
+      "icon": "FaYoutube",
+      "color": "green",
+      "description": "Own a Youtube channel, with awesome content",
+      "url": "https://www.youtube.com/@amanpreet-dev"
+    }
+  ]
+}
