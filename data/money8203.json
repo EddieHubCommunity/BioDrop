@@ -1,61 +1,76 @@
 {
   "name": "Manish Tyagi ",
   "type": "Personal",
-  "bio": "**Open Source** Advocate | Web Developer | Postman **Student Leader**",
+  "bio": "**Open Source** Advocate🥑 | Developer | Postman **Student Leader**",
 
   "tags": [
     "Open Source",
-    "Web Development",
+    "DevRel",
     "Community Management",
-    "Content Writing",
-    "DevRel"
+    "Golang",
+    "Content Creator"
   ],
+
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ManishT93598843" },
+    { "icon": "FaTwitter", "url": "https://twitter.com/manishtyagi__" },
     { "icon": "FaGithub", "url": "https://github.com/money8203" },
-    { "icon": "FaLink", "url": "https://manishtyagi.carrd.co/" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/manish-tyagi-8b7b22217"
+    },
+    { "icon": "FaInstagram", "url": "https://instagram.com/manish_tyagi.__" }
   ],
+
   "testimonials": ["the-amazing-atharva"],
+
   "links": [
     {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/manishtyagi__",
       "icon": "FaTwitter"
     },
     {
-      "name": "See my work on GitHub",
+      "group": "Socials",
+      "name": "Let's collab on GitHub",
       "url": "https://github.com/money8203",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Connect with me on LinkedIn",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/manisht",
-      "icon": "SiBuymeacoffee"
-    },
-    {
+      "group": "Socials",
       "name": "Google Developer Profile",
       "url": "https://g.dev/manisht",
       "icon": "SiGoogle"
     },
     {
+      "group": "Socials",
       "name": "Follow me on Insta",
       "url": "https://instagram.com/manish_tyagi.__",
       "icon": "FaInstagram"
     },
     {
+      "group": "Socials",
       "name": "Personal Profile",
       "url": "https://manishtyagi.carrd.co/",
       "icon": "FaGlobe"
     },
     {
+      "group": "Socials",
       "name": "Microsoft Learn Profile",
       "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
       "icon": "SiMicrosoft"
+    },
+    {
+      "group": "Support My Work",
+      "name": "Like what I am doing? Buy me a Coffee/ Book ",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
     }
   ]
 }
