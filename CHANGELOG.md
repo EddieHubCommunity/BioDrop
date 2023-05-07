@@ -1,9 +1,9 @@
-## 1.117.5 (2023-05-06)
+## 1.117.6 (2023-05-07)
 
 
 ### Bug Fixes
 
-* duplicate bio in map popup ([#6633](https://github.com/EddieHubCommunity/LinkFree/issues/6633)) ([67a447c](https://github.com/EddieHubCommunity/LinkFree/commit/67a447c9c216c1155a450f03117de0535a450a2f))
+* github icon visibility on both light and dark mode ([#6646](https://github.com/EddieHubCommunity/LinkFree/issues/6646)) ([736e324](https://github.com/EddieHubCommunity/LinkFree/commit/736e32424a6898e14b9e15469d533ebf225818f6))
 
 
 
