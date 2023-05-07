@@ -1,0 +1,22 @@
+{
+  "name": "Rohit Gupta",
+  "type": "personal",
+  "bio": "👨‍💻 Full-stack Developer | 🎓 B.Tech-CSE  | 💻 Proficient in Python, JavaScript, SQL, MERN | 🏆 CodeChef 3-stars |  🎯 Pursuing excellence in every projects",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/im_rohitgupta11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://linkedin.com/in/rohitg11",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Github Profile!, I've some cool personal projects.",
+      "url": "https://github.com/Rohit-Gupta11",
+      "icon": "FaGithub"
+    }
+  ]
+}
