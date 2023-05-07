@@ -9,12 +9,12 @@
       "icon": "FaTwitter"
     },
     {
-      "Name": "Checkout Github",
+      "name": "Checkout Github",
       "url": "https://github.com/technicave",
       "icon": "FaGithub"
     },
     {
-      "Name": "Follow on LinkedIn",
+      "name": "Follow on LinkedIn",
       "url": "https://www.linkedin.com/in/technicave/",
       "icon": "FaLinkedin"
     }
