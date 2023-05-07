@@ -10,7 +10,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 
-export async function getServerSideProps(_) {
+export async function getServerSideProps() {
   let data = {
     users: [],
     tags: [],
