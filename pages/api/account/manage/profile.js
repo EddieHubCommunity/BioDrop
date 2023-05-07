@@ -17,40 +17,21 @@ export default async function handler(req, res) {
   await connectMongo();
   const log = logger.child({ username });
 
-  let getProfile = await Profile.findOne({ username });
-  if (!getProfile) {
-    try {
-      getProfile = await Profile.create({
+  try {
+    await Profile.findOneAndUpdate(
+      { username },
+      {
         source: req.body.source,
-        username,
         name: req.body.name,
         bio: req.body.bio,
-      });
-      log.info(`profile created for username: ${username}`);
-    } catch (e) {
-      log.error(e, `failed to create profile stats for username: ${username}`);
-    }
-  }
-
-  if (getProfile) {
-    try {
-      await Profile.updateOne(
-        {
-          username,
-        },
-        {
-          source: req.body.source,
-          name: req.body.name,
-          bio: req.body.bio,
-        }
-      );
-      log.info(`profile updated for username: ${username}`);
-    } catch (e) {
-      log.error(e, `failed to update profile for username: ${username}`);
-    }
+      },
+      { upsert: true }
+    );
+    log.info(`profile created for username: ${username}`);
+  } catch (e) {
+    log.error(e, `failed to create profile stats for username: ${username}`);
   }
 
   const { status, profile } = await getUserApi(req, res, username);
   return res.status(status).json(profile);
 }
-

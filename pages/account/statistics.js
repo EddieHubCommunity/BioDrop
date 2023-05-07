@@ -27,7 +27,7 @@ export async function getServerSideProps(context) {
   if (!session) {
     return {
       redirect: {
-        destination: "/",
+        destination: "/auth/signin",
         permanent: false,
       },
     };
@@ -181,9 +181,11 @@ export default function Statistics({ data, profile, progress }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Tooltip contentStyle={{
-                  color: "black"
-                }} />
+                <Tooltip
+                  contentStyle={{
+                    color: "black",
+                  }}
+                />
                 <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>
