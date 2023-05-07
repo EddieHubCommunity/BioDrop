@@ -54,7 +54,6 @@ export async function getServerSideProps(context) {
     "links",
     "milestones",
     "tags",
-    "socials",
     "location",
     "testimonials",
   ];
