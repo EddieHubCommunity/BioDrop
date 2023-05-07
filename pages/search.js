@@ -57,6 +57,7 @@ export default function Search({ data }) {
     const terms = valueLower.split(",");
 
     results = users.filter((user) => {
+      console.log(user);
       if (user.name.toLowerCase().includes(valueLower)) {
         return true;
       }
