@@ -1,8 +1,9 @@
-name: Deploy
+name: Publish Image - GHCR
 on:
-  # release:
-  #   types: [published]
   workflow_dispatch:
+  #Runs at 01:01 UTC
+  schedule:
+    - cron: "1 1 * * *"
 
 jobs:
   build:
