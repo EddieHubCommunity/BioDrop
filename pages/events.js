@@ -53,7 +53,7 @@ export default function Events({ events }) {
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
   };
-  const filters = [
+  const tabFilters = [
     {
       title: "Show all",
       description: "List all events with no filters",
@@ -84,7 +84,6 @@ export default function Events({ events }) {
     },
   ];
 
-  const [tabs, setTabs] = useState(filters);
   const [eventType, setEventType] = useState("all");
 
   return (
@@ -106,15 +105,14 @@ export default function Events({ events }) {
           </Badge>
         </div>
         <EventTabs
-          tabs={tabs}
+          tabs={tabFilters}
           eventType={eventType}
           setEventType={setEventType}
         />
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
-            {filters.find((filter) => filter.key === eventType).description}
+          {tabFilters.find((filter) => filter.key === eventType).description}
         </h2>
         <ul role="list" className="divide-y divide-primary-low mt-6">
-
           {categorisedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}

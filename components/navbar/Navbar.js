@@ -14,19 +14,18 @@ const FaRegMoon = getIcon("FaRegMoon");
 const FaSun = getIcon("FaSun");
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+
+  const router = useRouter();
+  const navConRef = useRef();
+  const { data: session } = useSession();
+  const { systemTheme, theme, setTheme } = useTheme();
+  const getLink = (path) => `${router.basePath}${path}`;
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const { data: session } = useSession();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const router = useRouter();
-  const getLink = (path) => `${router.basePath}${path}`;
-  const navConRef = useRef();
 
   const renderThemeChanger = () => {
     if (!mounted) {
@@ -38,7 +37,7 @@ export default function Navbar() {
     if (currentTheme === "dark") {
       return (
         <button
-          className="p-2" 
+          className="p-2"
           onClick={() => setTheme("light")}
           aria-label="Toggle Theme"
         >
