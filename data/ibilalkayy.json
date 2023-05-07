@@ -7,7 +7,11 @@
   "socials": [
     {
       "icon": "FaGlobe",
-      "url": "https://bookloop.club"
+      "url": "https://ibilalkayy.github.io/digital-resume/"
+    },
+    {
+      "icon": "FaCircleNotch",
+      "url": "https://bookloop.club/"
     },
     {
       "icon": "SiYoutube",
@@ -19,7 +23,7 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@ibilalkayy"
+      "url": "https://ibilalkayy.hashnode.dev/"
     },
     {
       "icon": "FaTwitter",
@@ -59,7 +63,7 @@
     },
     {
       "name": "Hashnode: Read my Blogs",
-      "url": "https://hashnode.com/@ibilalkayy",
+      "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
