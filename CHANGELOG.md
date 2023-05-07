@@ -1,9 +1,9 @@
-## 1.117.6 (2023-05-07)
+## 1.117.7 (2023-05-07)
 
 
 ### Bug Fixes
 
-* github icon visibility on both light and dark mode ([#6646](https://github.com/EddieHubCommunity/LinkFree/issues/6646)) ([736e324](https://github.com/EddieHubCommunity/LinkFree/commit/736e32424a6898e14b9e15469d533ebf225818f6))
+* prettier cron schedule ([#6655](https://github.com/EddieHubCommunity/LinkFree/issues/6655)) ([5df1589](https://github.com/EddieHubCommunity/LinkFree/commit/5df1589cf5ae34ce2ac698f235f8335253dbc7b3))
 
 
 
