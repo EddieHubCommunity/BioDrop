@@ -28,8 +28,12 @@ export async function getUserApi(req, res, username) {
   }
 
   const log = logger.child({ username });
-  let getProfile = await Profile.findOne({ username }).populate({
+  let getProfile = await Profile.findOne(
+    { username },
+    "-__v -views -source"
+  ).populate({
     path: "links",
+    select: "-__v -clicks -profile",
     options: { sort: { order: 1 } },
   });
 
