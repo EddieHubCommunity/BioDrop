@@ -38,13 +38,13 @@ test("Search page has no results when no search term used", async ({
   await expect(page.locator("li")).toHaveCount(0);
 });
 
-test("Search page shows no results after typing 2 characters", async ({
+test("Search page shows no results after typing 1 characters", async ({
   page,
 }) => {
   await page.goto("/search");
 
   const input = page.locator("[name='keyword']");
-  await input.type("ed");
+  await input.type("e");
 
   await expect(page.locator("li")).toHaveCount(0);
 });
