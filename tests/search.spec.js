@@ -18,13 +18,13 @@ test("Search works correctly", async ({ page }) => {
   await page.goto("/search");
 
   // 2. show no users are listed
-  await expect(page.locator("li:has(a:has(div:has(img)))")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(0);
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
   await input.type("_test-profile-user-1");
 
-  await expect(page.locator("li:has(a:has(div:has(img)))")).toHaveCount(1);
+  await expect(page.locator("main li")).toHaveCount(1);
 });
 
 test("Search page has no results when no search term used", async ({
@@ -35,7 +35,7 @@ test("Search page has no results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("li:has(a:has(div:has(img)))")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(0);
 });
 
 test("Search page shows no results after typing 1 characters", async ({
@@ -46,7 +46,7 @@ test("Search page shows no results after typing 1 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("li:has(a:has(div:has(img)))")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(0);
 });
 
 test("Search page shows results after typing 3 characters", async ({
@@ -57,7 +57,7 @@ test("Search page shows results after typing 3 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("aka");
 
-  await expect(page.locator("li:has(a:has(div:has(img)))")).toContainText(["aka"]);
+  await expect(page.locator("main li")).toContainText(["aka"]);
 });
 
 test.fixme("After search click profile", async ({ page }) => {
