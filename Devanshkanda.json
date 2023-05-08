@@ -1,0 +1,24 @@
+{
+  "name": "Devansh kanda",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "i am a Tech Geek, a Software Developer with Security Mindset",
+  "avatar": "https://github.com/Devanshkanda.png",
+  "links": [
+    {
+      "name": "Devansh kanda",
+      "url": "https://twitter.com/Devanshkanda",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Devansh kanda",
+      "url": "https://github.com/Devanshkanda",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Devansh kanda",
+      "url": "https://in.linkedin.com/in/devansh-kanda-0b60b0218",
+      "icon": "FaLinkedinIn"
+    }
+  ]
+}
