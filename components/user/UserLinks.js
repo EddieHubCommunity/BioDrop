@@ -3,7 +3,6 @@ import Alert from "@components/Alert";
 
 export default function UserLinks({ BASE_URL, data }) {
   const defaultBucket = "Others";
-  data.links = data.links?.map((link, i) => ({ id: i, ...link }));
   const buckets = data.links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
     const curGroup = acc[group] ?? [];
@@ -36,7 +35,7 @@ export default function UserLinks({ BASE_URL, data }) {
               {Object.values(buckets[name]).map((link) => (
                 <UserLink
                   BASE_URL={BASE_URL}
-                  key={link.id}
+                  key={link._id}
                   link={link}
                   username={data.username}
                 />

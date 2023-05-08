@@ -30,7 +30,6 @@ export async function getUserApi(req, res, username) {
   const log = logger.child({ username });
   let getProfile = await Profile.findOne({ username }).populate({
     path: "links",
-    match: { isEnabled: true },
     options: { sort: { order: 1 } },
   });
 
@@ -43,6 +42,12 @@ export async function getUserApi(req, res, username) {
       },
     };
   }
+
+  getProfile = {
+    ...getProfile._doc,
+    links: getProfile.links.filter((link) => link.isEnabled),
+    socials: getProfile.links.filter((link) => link.isPinned),
+  };
 
   await getLocation(username, getProfile);
 
@@ -123,10 +128,7 @@ export async function getUserApi(req, res, username) {
   return JSON.parse(
     JSON.stringify({
       status: 200,
-      profile: {
-        username,
-        ...getProfile._doc,
-      },
+      profile: getProfile,
     })
   );
 }
