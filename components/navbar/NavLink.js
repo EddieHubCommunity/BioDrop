@@ -15,7 +15,7 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
         "bg-primary-high text-white block px-3 py-2 rounded-md text-base font-medium";
     } else {
       className =
-        "bg-primary-high text-white px-3 py-2 rounded-md text-sm font-medium";
+        "bg-primary-medium dark:bg-primary-high text-white px-3 py-2 rounded-md text-sm font-medium";
     }
   }
 

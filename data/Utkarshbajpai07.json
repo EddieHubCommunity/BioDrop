@@ -2,17 +2,17 @@
   "name": "Utkarsh Bajpai",
   "type": "personal",
   "bio": "OPEN SOURCE COMMUNITY",
-"links": [
-    
-  {  "name": "Follow me on Instagram",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
       "url": "https://instagram.com/ub_utkarshbajpai?igshid=ZDdkNTZiNTM=",
       "icon": "FaInstagram"
     },
-      
-  {  "name": "Follow me github",
+
+    {
+      "name": "Follow me github",
       "url": "https://github.com/Utkarshbajpai07",
       "icon": "FaGithub"
     }
-  
   ]
 }
