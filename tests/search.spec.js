@@ -9,7 +9,7 @@ test("Search has title", async ({ page }) => {
 
 test("Navigate to the Search page", async ({ page }) => {
   await page.goto("/");
-  await page.locator("a:visible", { hasText: "Search" }).click();
+  await page.getByRole('link', { name: 'Search' }).click();
   await expect(page.locator("h1")).toHaveText("Search");
 });
 
