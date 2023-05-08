@@ -2,7 +2,8 @@ import Image from "next/image";
 
 import { FaLinkedin, FaGithub, FaYoutube, FaRocket } from "react-icons/fa";
 import Button from "./Button";
-
+import Link from "@components/Link";
+import getIcon from "./Icon";
 export default function Footer() {
   const navigation = {
     solutions: [
@@ -167,8 +168,11 @@ export default function Footer() {
             href="/premium"
           />
         </div>
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-          <div className="flex space-x-6 md:order-2">
+        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
+          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
+            <p className=" text-xs leading-5 text-gray-400 md:mt-0">
+              100% Open Source on GitHub
+            </p>
             {navigation.social.map((item) => (
               <a
                 key={item.name}
@@ -179,10 +183,15 @@ export default function Footer() {
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
+
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-            100% Open Source on GitHub
-          </p>
+          <Link
+            href="https://github.com/EddieHubCommunity/LinkFree"
+            className="text-primary-medium hover:text-primary-high dark:text-primary-low-high dark:hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+          >
+            <FaRocket className="h-6 w-6" aria-hidden="true" />
+            Powered by EddieHub
+          </Link>
         </div>
       </div>
     </footer>
