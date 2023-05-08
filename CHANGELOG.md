@@ -1,9 +1,9 @@
-## 1.117.2 (2023-05-04)
+## 1.117.11 (2023-05-07)
 
 
 ### Bug Fixes
 
-* github accelerator section ([#6603](https://github.com/EddieHubCommunity/LinkFree/issues/6603)) ([6710d93](https://github.com/EddieHubCommunity/LinkFree/commit/6710d934ef6ddaed48694b55281f945d94ee0ac0))
+* highlight nav page in lightmode ([#6676](https://github.com/EddieHubCommunity/LinkFree/issues/6676)) ([9bc32c6](https://github.com/EddieHubCommunity/LinkFree/commit/9bc32c69c72956b6dceae42d85468c35468c6ad8))
 
 
 

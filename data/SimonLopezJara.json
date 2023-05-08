@@ -2,7 +2,7 @@
   "name": "LoArt & Dev",
   "type": "personal",
   "bio": "**Simon Lopez**'s links",
-   "tags": [
+  "tags": [
     "Indie",
     "Games",
     "Web Design",
@@ -13,7 +13,6 @@
     "Unreal Engine",
     "3D",
     "Art"
-     
   ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/LoArtDev" },
