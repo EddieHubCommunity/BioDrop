@@ -2,7 +2,8 @@ import Image from "next/image";
 
 import { FaLinkedin, FaGithub, FaYoutube, FaRocket } from "react-icons/fa";
 import Button from "./Button";
-
+import Link from "@components/Link";
+import getIcon from "./Icon";
 export default function Footer() {
   const navigation = {
     solutions: [
@@ -87,7 +88,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -104,7 +105,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -123,7 +124,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -140,7 +141,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -151,12 +152,12 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">
+        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
+          <div className="flex-1 text-center lg:text-left pb-4 lg:pb-0">
+            <h3 className="font-semibold leading-6 text-white">
               Subscribe to learn more about future Premium Paid Features
             </h3>
-            <p className="mt-2 text-sm leading-6 text-gray-300">
+            <p className="mt-2 text-sm leading-6 text-primary-low-high">
               LinkFree will always be 100% Open Source and have a free tier.
             </p>
           </div>
@@ -167,22 +168,30 @@ export default function Footer() {
             href="/premium"
           />
         </div>
-        <div className="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between">
-          <div className="flex space-x-6 md:order-2">
+        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
+          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
+            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
+              100% Open Source on GitHub
+            </p>
             {navigation.social.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-500 hover:text-gray-400"
+                className="text-primary-low-high hover:text-primary-low"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>
             ))}
+
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-400 md:order-1 md:mt-0">
-            100% Open Source on GitHub
-          </p>
+          <Link
+            href="https://github.com/EddieHubCommunity/LinkFree"
+            className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+          >
+            <FaRocket className="h-6 w-6" aria-hidden="true" />
+            Powered by EddieHub
+          </Link>
         </div>
       </div>
     </footer>
