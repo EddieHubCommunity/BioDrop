@@ -88,7 +88,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -105,7 +105,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -124,7 +124,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -141,7 +141,7 @@ export default function Footer() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className="text-sm leading-6 text-gray-300 hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-white"
                       >
                         {item.name}
                       </a>
@@ -157,7 +157,7 @@ export default function Footer() {
             <h3 className="font-semibold leading-6 text-white">
               Subscribe to learn more about future Premium Paid Features
             </h3>
-            <p className="mt-2 text-sm leading-6 text-gray-300">
+            <p className="mt-2 text-sm leading-6 text-primary-low-high">
               LinkFree will always be 100% Open Source and have a free tier.
             </p>
           </div>
@@ -170,14 +170,14 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
           <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
-            <p className=" text-xs leading-5 text-gray-400 md:mt-0">
+            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
               100% Open Source on GitHub
             </p>
             {navigation.social.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-500 hover:text-gray-400"
+                className="text-primary-low-high hover:text-primary-low"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -187,7 +187,7 @@ export default function Footer() {
           </div>
           <Link
             href="https://github.com/EddieHubCommunity/LinkFree"
-            className="text-primary-medium hover:text-primary-high dark:text-primary-low-high dark:hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+            className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
           >
             <FaRocket className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub
