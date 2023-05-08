@@ -151,9 +151,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between">
-          <div>
-            <h3 className="text-sm font-semibold leading-6 text-white">
+        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
+          <div className="flex-1 text-center lg:text-left pb-4 lg:pb-0">
+            <h3 className="font-semibold leading-6 text-white">
               Subscribe to learn more about future Premium Paid Features
             </h3>
             <p className="mt-2 text-sm leading-6 text-gray-300">
