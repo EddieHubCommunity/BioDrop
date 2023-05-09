@@ -36,7 +36,7 @@ export default function Footer() {
       },
       {
         name: "Maintainers",
-        href: "https://github.com/orgs/EddieHubCommunity/teams/linkfree/members",
+        href: "/maintainers",
       },
       { name: "Resources", href: "/docs/community-resources" },
       {
