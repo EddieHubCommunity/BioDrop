@@ -1,14 +1,14 @@
 {
   "name": "Ivan Avila",
-  displayStatsPublic: true,
-  type: "personal",
-  bio: "unemployed but smart enough to create apple 2",
-  avatar:"https://github.com/althios/althios.github.io/blob/main/IMG_20230117_172417.jpg"
-  links:[
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "unemployed but smart enough to create apple 2",
+  "avatar": "https://github.com/althios/althios.github.io/blob/main/IMG_20230117_172417.jpg"
+  "links": [
   {
-  name: "Follow me on Github",
-  url: "https://github.com/althios",
-  icon: "FaGithubAlt"
+  "name": "Follow me on Github",
+  "url": "https://github.com/althios",
+  "icon": "FaGithubAlt"
   }
   ]
 }
