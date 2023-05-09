@@ -102,7 +102,6 @@
             "icon": "FaCodeBranch",
             "color": "#2ecc71",
             "description": "Made my first open source contribution to a project on GitHub.",
-            "url": ""
         },
         {
             "title": "Started as Software Engineer at 100Devs",
@@ -142,7 +141,6 @@
             "icon": "FaMusic",
             "color": "#e74c3c ",
             "description": "Led an organization of student musicians in supporting and promoting university music programs. Managed events, coordinated rehearsals and meetings, and fostered a positive community.",
-            "url": ""
         },
         {
             "title": "Beginning of My College Life ",
@@ -158,7 +156,6 @@
             "icon": "FaGraduationCap",
             "color": "#3498db",
             "description": "Completed my Senior High School studies with an ICT strand at LVISS.",
-            "url": ""
         },
         {
             "title": "Programmer Role for Senior High School Research",
@@ -166,7 +163,6 @@
             "icon": "FaCode",
             "color": "#27ae60",
             "description": "Coded a desktop application using Visual Basic and SQL using Eclipse and XAMPP for our senior high school research project. Also did some freelance programming work during this time.",
-            "url": ""
         },
         {
             "title": "Started Senior High School with ICT Strand at LVISS",
@@ -174,7 +170,6 @@
             "icon": "FaSchool",
             "color": "#8e44ad",
             "description": "Learned Turbo Pascal and Java while studying at La Vlaize Integrated Science School with a focus on ICT.",
-            "url": ""
         },
         {
             "title": "Built My First Calculator App with Visual Basic",
@@ -182,7 +177,6 @@
             "icon": "FaCalculator",
             "color": "#F6993F",
             "description": "Built my first calculator application with Visual Basic and began experimenting with coding.",
-            "url": ""
         },
         {
             "title": "Written My First Code",
@@ -190,7 +184,6 @@
             "icon": "FaCode",
             "color": "#c0392b",
             "description": "Got amazed with the marquee feature of HTML and started playing around with HTML, writing my first lines of code.",
-            "url": ""
         }
     ]
 }
