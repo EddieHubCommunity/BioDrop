@@ -204,8 +204,8 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
-          name: "Maintainers",
-          path: "/docs/contributing/maintainers",
+          name: "Reviewers",
+          path: "/docs/contributing/reviewers",
           description: "Guidelines for reviewing Issues and Pull Requests",
           category: {
             name: "Advanced",
@@ -303,6 +303,15 @@ export default function DocsIndex() {
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Maintainers",
+          path: "/docs/maintainers",
+          description: "Maintainers guide to LinkFree.",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
           },
         },
       ],
