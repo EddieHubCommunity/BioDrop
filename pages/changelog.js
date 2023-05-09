@@ -88,8 +88,8 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title="LinkFree user changelog"
+        description="What are the latest features and changes to LinkFree"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
