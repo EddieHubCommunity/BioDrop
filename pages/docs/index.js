@@ -46,7 +46,7 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-          "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
+            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -87,6 +87,16 @@ export default function DocsIndex() {
           path: "/docs/community-resources",
           description:
             "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "MongoDB Atlas for Local Development",
+          path: "/docs/environments/local-with-atlas",
+          description:
+            "A step-by-step guide to setting up a MongoDB Atlas account and establishing a connection for local development.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
