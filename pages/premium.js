@@ -69,8 +69,7 @@ export default function Premium() {
                   Sign up to be notified when Premium Features are available (no
                   obligation)
                 </p>
-                <div 
-                class="kartra_optin_container182be0c5cdcd5072bb1864cdee4d3d6e"></div>
+                <div className="kartra_optin_container182be0c5cdcd5072bb1864cdee4d3d6e"></div>
                 <Script src="https://app.kartra.com/optin/WUzmL8l9nFXc" />
               </div>
               <dl className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:gap-y-16">

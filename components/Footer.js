@@ -1,9 +1,15 @@
 import Image from "next/image";
 
-import { FaLinkedin, FaGithub, FaYoutube, FaRocket } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaYoutube,
+  FaRocket,
+  FaDollarSign,
+} from "react-icons/fa";
 import Button from "./Button";
 import Link from "@components/Link";
-import getIcon from "./Icon";
+
 export default function Footer() {
   const navigation = {
     solutions: [
@@ -86,12 +92,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -103,12 +109,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -122,12 +128,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.community.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -139,12 +145,12 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a
+                      <Link
                         href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-white"
+                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -164,7 +170,7 @@ export default function Footer() {
           <Button
             text="Learn more about Premium"
             primary={true}
-            icon={<FaRocket />}
+            icon={<FaDollarSign />}
             href="/premium"
           />
         </div>
@@ -174,16 +180,15 @@ export default function Footer() {
               100% Open Source on GitHub
             </p>
             {navigation.social.map((item) => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
-              </a>
+              </Link>
             ))}
-
           </div>
           <Link
             href="https://github.com/EddieHubCommunity/LinkFree"
