@@ -101,7 +101,7 @@
             "date": "March 2023",
             "icon": "FaCodeBranch",
             "color": "#2ecc71",
-            "description": "Made my first open source contribution to a project on GitHub.",
+            "description": "Made my first open source contribution to a project on GitHub."
         },
         {
             "title": "Started as Software Engineer at 100Devs",
@@ -140,7 +140,7 @@
             "date": "May 2019",
             "icon": "FaMusic",
             "color": "#e74c3c ",
-            "description": "Led an organization of student musicians in supporting and promoting university music programs. Managed events, coordinated rehearsals and meetings, and fostered a positive community.",
+            "description": "Led an organization of student musicians in supporting and promoting university music programs. Managed events, coordinated rehearsals and meetings, and fostered a positive community."
         },
         {
             "title": "Beginning of My College Life ",
@@ -155,35 +155,35 @@
             "date": "April 2018",
             "icon": "FaGraduationCap",
             "color": "#3498db",
-            "description": "Completed my Senior High School studies with an ICT strand at LVISS.",
+            "description": "Completed my Senior High School studies with an ICT strand at LVISS."
         },
         {
             "title": "Programmer Role for Senior High School Research",
             "date": "January 2018",
             "icon": "FaCode",
             "color": "#27ae60",
-            "description": "Coded a desktop application using Visual Basic and SQL using Eclipse and XAMPP for our senior high school research project. Also did some freelance programming work during this time.",
+            "description": "Coded a desktop application using Visual Basic and SQL using Eclipse and XAMPP for our senior high school research project. Also did some freelance programming work during this time."
         },
         {
             "title": "Started Senior High School with ICT Strand at LVISS",
             "date": "June 2016",
             "icon": "FaSchool",
             "color": "#8e44ad",
-            "description": "Learned Turbo Pascal and Java while studying at La Vlaize Integrated Science School with a focus on ICT.",
+            "description": "Learned Turbo Pascal and Java while studying at La Vlaize Integrated Science School with a focus on ICT."
         },
         {
             "title": "Built My First Calculator App with Visual Basic",
             "date": "2015",
             "icon": "FaCalculator",
             "color": "#F6993F",
-            "description": "Built my first calculator application with Visual Basic and began experimenting with coding.",
+            "description": "Built my first calculator application with Visual Basic and began experimenting with coding."
         },
         {
             "title": "Written My First Code",
             "date": "2013",
             "icon": "FaCode",
             "color": "#c0392b",
-            "description": "Got amazed with the marquee feature of HTML and started playing around with HTML, writing my first lines of code.",
+            "description": "Got amazed with the marquee feature of HTML and started playing around with HTML, writing my first lines of code."
         }
     ]
 }
