@@ -6,7 +6,7 @@ test("Click on events profile in navbar navigates to events page", async ({
   page,
 }) => {
   await page.goto("/");
-  await page.getByRole("link", { name: 'Events', exact: true }).click();
+  await page.getByRole("navigation").getByRole("link", { name: "Events" }).click();
   await expect(page).toHaveURL("/events");
 });
 

@@ -1,7 +1,7 @@
 {
   "name": "mpotane",
   "type": "personal",
-  "bio": "🧑‍💻 MarTech Developer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
+  "bio": "🧑‍💻 Software Engineer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
   "tags": ["Open Source", "NextJS", "Typescript", "Prisma", "Supabase"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/mpotanedev" },

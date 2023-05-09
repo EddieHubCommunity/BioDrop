@@ -7,7 +7,11 @@
   "socials": [
     {
       "icon": "FaGlobe",
-      "url": "https://bookloop.club"
+      "url": "https://ibilalkayy.github.io/digital-resume/"
+    },
+    {
+      "icon": "FaCircleNotch",
+      "url": "https://bookloop.club/"
     },
     {
       "icon": "SiYoutube",
@@ -19,7 +23,7 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@ibilalkayy"
+      "url": "https://ibilalkayy.hashnode.dev/"
     },
     {
       "icon": "FaTwitter",
@@ -45,7 +49,7 @@
     {
       "name": "Book Loop: A Startup",
       "url": "https://bookloop.club",
-      "icon": "FaGlobe"
+      "icon": "FaCircleNotch"
     },
     {
       "name": "YouTube: Checkout my DevOps Videos",
@@ -59,7 +63,7 @@
     },
     {
       "name": "Hashnode: Read my Blogs",
-      "url": "https://hashnode.com/@ibilalkayy",
+      "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
