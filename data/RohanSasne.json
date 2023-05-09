@@ -2,7 +2,7 @@
   "name": "Rohan Sasne",
   "type": "personal",
   "bio": "Chase down your dreams and don’t be fearful. Let your faith be stronger than your fear :)",
-  "tags": ["Open Source","GSoC'23", "DevOps", "Kubernetes", "Golang"],
+  "tags": ["Open Source", "GSoC'23", "DevOps", "Kubernetes", "Golang"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/nottmuffin" },
     { "icon": "FaGithub", "url": "https://github.com/RohanSasne" },

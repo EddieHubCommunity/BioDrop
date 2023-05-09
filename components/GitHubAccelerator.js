@@ -3,7 +3,7 @@ import { FaGithub, FaMoneyBillAlt } from "react-icons/fa";
 
 export default function GitHubAccelerator() {
   return (
-    <div>
+    <div className="mb-12">
       <div>
         <Image
           className="h-32 w-full object-cover lg:h-48"
