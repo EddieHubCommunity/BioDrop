@@ -1,58 +1,58 @@
 {
-    "name": "Priyansh Prajapat",
-    "type": "personal",
-    "socials": [
-        {
-            "icon": "FaInstagram",
-            "url": "https://instagram.com/oyepriyansh"
-        },
-        {
-            "icon": "SiSnapchat",
-            "url": "https://snapchat.com/add/oyepriyansh"
-        },
-        {
-            "icon": "SiKofi",
-            "url": "https://ko-fi.com/oyepriyansh"
-        },
-        {
-            "icon": "SiGmail",
-            "url": "mailto:hi@priyansh.app"
-        }
-    ],
-    "links": [
-        {
-            "group": "Links",
-            "name": "Portfolio",
-            "url": "https://oyepriyansh.github.io",
-            "icon": "FaProductHunt",
-            "color": "#ff0000"
-        },
-        {
-            "group": "Links",
-            "name": "GitHub",
-            "url": "https://github.com/oyepriyansh",
-            "icon": "FaGithub"
-        },
-        {
-            "group": "Links",
-            "name": "Twitter",
-            "url": "https://twitter.com/oyepriyansh",
-            "icon": "FaTwitter",
-            "color": "#00ACEE"
-        },
-        {
-            "group": "Links",
-            "name": "LinkedIn",
-            "url": "https://linkedin.com/in/oyepriyansh",
-            "icon": "FaLinkedin",
-            "color": "#0033cc"
-        },
-        {
-            "group": "Links",
-            "name": "Discord",
-            "url": "https://discord.com/invite/AeAjegXn6D",
-            "icon": "FaDiscord",
-            "color": "#0033cc"
-        }
-    ]
+  "name": "Priyansh Prajapat",
+  "type": "personal",
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/oyepriyansh"
+    },
+    {
+      "icon": "SiSnapchat",
+      "url": "https://snapchat.com/add/oyepriyansh"
+    },
+    {
+      "icon": "SiKofi",
+      "url": "https://ko-fi.com/oyepriyansh"
+    },
+    {
+      "icon": "SiGmail",
+      "url": "mailto:hi@priyansh.app"
+    }
+  ],
+  "links": [
+    {
+      "group": "Links",
+      "name": "Portfolio",
+      "url": "https://oyepriyansh.github.io",
+      "icon": "FaProductHunt",
+      "color": "#ff0000"
+    },
+    {
+      "group": "Links",
+      "name": "GitHub",
+      "url": "https://github.com/oyepriyansh",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Links",
+      "name": "Twitter",
+      "url": "https://twitter.com/oyepriyansh",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Links",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/oyepriyansh",
+      "icon": "FaLinkedin",
+      "color": "#0033cc"
+    },
+    {
+      "group": "Links",
+      "name": "Discord",
+      "url": "https://discord.com/invite/AeAjegXn6D",
+      "icon": "FaDiscord",
+      "color": "#0033cc"
+    }
+  ]
 }
