@@ -1,12 +1,12 @@
 {
   "name": "Shubham Das",
   "type": "personal",
-  "boi": "Travelling is good for health"
+  "bio": "Travelling is good for health",
   "links": [
     {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/sshubham_012?igshid=YmMyMTA2M2Y=",
-      "icon": "Fainstagram"
+      "icon": "FaInstagram"
     },
     {
       "name": "Follow me on GitHub",
