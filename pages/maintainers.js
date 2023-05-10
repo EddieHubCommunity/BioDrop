@@ -1,7 +1,8 @@
+import Image from "next/image";
+
 import Link from "@components/Link";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import Image from "next/image";
 
 export default function Maintainers() {
   const current = [
@@ -92,10 +93,12 @@ export default function Maintainers() {
           height={100}
         />
       </Link>
-      <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">
+      <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-primary-high dark:text-primary-low">
         {person.name}
       </h3>
-      <p className="text-sm leading-6 text-gray-600">{person.role}</p>
+      <p className="text-sm leading-6 text-primary-medium dark:text-primary-medium-low">
+        {person.role}
+      </p>
     </li>
   );
 
@@ -108,7 +111,7 @@ export default function Maintainers() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">LinkFree Maintainers</h1>
 
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-primary-high dark:text-primary-low">
           LinkFree would not be possible without these AMAZING maintainers! Also
           with great help from the{" "}
           <Link href="https://github.com/EddieHubCommunity/LinkFree/graphs/contributors">
@@ -117,7 +120,7 @@ export default function Maintainers() {
           .
         </p>
 
-        <p className="mt-6 text-lg leading-8 text-gray-600">
+        <p className="mt-6 text-lg leading-8 text-primary-high dark:text-primary-low">
           Go check out their GitHub profiles by clicking on their faces below
           👇!
         </p>
