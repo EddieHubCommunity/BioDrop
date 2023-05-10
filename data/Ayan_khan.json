@@ -1,21 +1,13 @@
 {
   "name": "Ayan Khan",
   "type": "personal",
-  "bio": "explore things travelling  , 2nd year Cs student, web developer"
-}
-
-
-"links": [
-    {
-      "name": "Follow me on Instagram",
-      "url": "https://instagram.com/ayan_235__?igshid=YmMyMTA2M2Y=",
-      "icon": "FaInstagram"
-    }
-  ]
-}
-"links": [
-    {
-      "name": "Follow me on linkedIn",
+"bio": "explore things travelling  , 2nd year Cs student, web developer",
+	"links": [{
+		"name": "Follow me on Instagram",
+		"url": "https://instagram.com/ayan_235__?igshid=YmMyMTA2M2Y=",
+		"icon": "FaInstagram"
+	}, {
+		"name": "Follow me on linkedIn",
       "url": "https://www.linkedin.com/in/ayan-khan-32b395243",
       "icon": "FaLinkedIn"
     }
