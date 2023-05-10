@@ -1,0 +1,23 @@
+{
+  "name": "Pratyay Prasad Dhond",
+  "type": "personal",
+  "bio": "Computer Engineering student. Still learning and exploring computer science's vast horizons! Questions/wanna talk? Connect with me!",
+  "links": [
+    {
+        "name": "Linkedin",
+        "url": "https://www.linkedin.com/in/pratyaydhond/",
+        "icon": "FaLinkedin"
+      },
+     {
+        "name": "Github",
+        "url": "https://github.com/PratyayDhond",
+        "icon": "FaGithub"
+      },
+     {
+        "name": "Youtube",
+        "url": "https://www.youtube.com/@pratyaydhond-thebooksummar8907",
+        "icon": "FaYoutube"
+      }
+   ]
+
+}
