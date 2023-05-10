@@ -5,7 +5,7 @@
   
   "links" :  [
   {  "name" : "follow me on insta",
-      "url" : ""https://instagram.com/vinita_menaria_?igshid=ZDdkNTZiNTM="
-      "icon" : "FaInstagram"
-   }
- ]
+ "url": "https://instagram.com/vinita_menaria_?igshid=ZDdkNTZiNTM=",
+ 		"icon": "FaInstagram"
+ 	}]
+ }
