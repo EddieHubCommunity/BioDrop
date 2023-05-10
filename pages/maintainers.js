@@ -13,7 +13,7 @@ export default function Maintainers() {
     },
     {
       name: "Sara Jaoude",
-      role: "Co-Founder of LinkFree",
+      role: "Maintainer",
       imageUrl: "https://github.com/sarajaoude.png",
       link: "https://github.com/SaraJaoude",
     },
@@ -40,6 +40,12 @@ export default function Maintainers() {
       role: "Maintainer",
       imageUrl: "https://github.com/amandamartin-dev.png",
       link: "https://github.com/amandamartin-dev",
+    },
+    {
+      name: "Chinmay ",
+      role: "Maintainer",
+      imageUrl: "https://github.com/ChinmayMhatre.png",
+      link: "https://github.com/ChinmayMhatre",
     },
   ];
   const previous = [
