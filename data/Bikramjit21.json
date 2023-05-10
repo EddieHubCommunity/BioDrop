@@ -7,9 +7,7 @@
     { "icon": "FaGithub", "url": "https://github.com/Bikramjit21" },
     { "icon": "SiYoutube", "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw" }
   ],
-  {
-    "tags": [ "Web Development", "PHP", "Laravel"]
-  },
+    "tags": [ "Web Development", "PHP", "Laravel"],
   "bio": "Web Developer| **PHP** & **Laravel** | Technical Writer "
   "links": [
     {
