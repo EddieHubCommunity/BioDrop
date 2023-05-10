@@ -27,7 +27,7 @@ export default function Footer() {
         name: "Contributing Guide",
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md",
       },
-      { name: "Feature Changelog", href: "/changelog" },
+      { name: "Road map", href: "/roadmap" },
     ],
     community: [
       {
