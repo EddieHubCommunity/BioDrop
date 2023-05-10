@@ -25,7 +25,7 @@ export default function Roadmap() {
       mostPopular: false,
       icon: (
         <CheckIcon
-          className="h-6 w-5 flex-none text-indigo-600"
+          className="h-6 w-5 flex-none text-secondary-medium dark:text-secondary-low"
           aria-hidden="true"
         />
       ),
@@ -45,7 +45,7 @@ export default function Roadmap() {
       mostPopular: true,
       icon: (
         <ComputerDesktopIcon
-          className="h-6 w-5 flex-none text-indigo-600"
+          className="h-6 w-5 flex-none text-secondary-medium dark:text-secondary-low"
           aria-hidden="true"
         />
       ),
@@ -65,7 +65,7 @@ export default function Roadmap() {
       mostPopular: false,
       icon: (
         <ClockIcon
-          className="h-6 w-5 flex-none text-indigo-600"
+          className="h-6 w-5 flex-none text-secondary-medium dark:text-secondary-low"
           aria-hidden="true"
         />
       ),
@@ -84,7 +84,7 @@ export default function Roadmap() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Roadmap</h1>
 
-        <div className="bg-white pb-12">
+        <div className="bg-white dark:bg-primary-high pb-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {releases.map((phase, phaseIdx) => (
@@ -92,9 +92,9 @@ export default function Roadmap() {
                   key={phase.id}
                   className={classNames(
                     phase.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
-                    phaseIdx === 0 ? "lg:rounded-r-none" : "",
-                    phaseIdx === releases.length - 1 ? "lg:rounded-l-none" : "",
-                    "flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10"
+                    phaseIdx === 0 ? "lg:rounded-r-none border-r-0 " : "",
+                    phaseIdx === releases.length - 1 ? "lg:rounded-l-none border-l-0" : "",
+                    "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
                   )}
                 >
                   <div>
@@ -103,25 +103,25 @@ export default function Roadmap() {
                         id={phase.id}
                         className={classNames(
                           phase.mostPopular
-                            ? "text-indigo-600"
-                            : "text-gray-900",
+                            ? "text-secondary-medium"
+                            : "text-primary-high",
                           "text-lg font-semibold leading-8"
                         )}
                       >
                         {phase.name}
                       </h3>
                       {phase.mostPopular ? (
-                        <p className="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600">
+                        <p className="rounded-full bg-secondary-medium/10 dark:bg-secondary-low px-2.5 py-1 text-xs font-semibold leading-5 text-secondary-medium dark:text-secondary-high-high">
                           GEEK out with us!
                         </p>
                       ) : null}
                     </div>
-                    <p className="mt-4 text-sm leading-6 text-gray-600">
+                    <p className="mt-4 text-sm leading-6 text-primary-medium dark:text-primary-low-medium">
                       {phase.description}
                     </p>
                     <ul
                       role="list"
-                      className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
+                      className="mt-8 space-y-3 text-sm leading-6 text-primary-medium dark:text-primary-low-medium  "
                     >
                       {phase.features.map((feature) => (
                         <li key={feature} className="flex gap-x-3">
@@ -136,9 +136,9 @@ export default function Roadmap() {
                     aria-describedby={phase.id}
                     className={classNames(
                       phase.mostPopular
-                        ? "bg-indigo-600 text-white shadow-sm hover:bg-indigo-500"
-                        : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        ? "bg-secondary-medium  text-white shadow-sm hover:bg-secondary-medium-low"
+                        : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-white dark:hover:border-secondary-low hover:border-secondary-low",
+                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
                     )}
                   >
                     Learn more
