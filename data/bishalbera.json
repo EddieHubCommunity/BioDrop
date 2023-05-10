@@ -14,10 +14,10 @@
       "icon": "FaGithub"
     }
   ],
-  "tags": [ "Open Source", "Java", "Kotlin", "Android Developement" ],
+  "tags": ["Open Source", "Java", "Kotlin", "Android Developement"],
   "socials": [
-  { "icon": "FaTwitter", "url": "https://twitter.com/BiplabBera20814" },
-  { "icon": "FaGithub", "url": "https://github.com/bishalbera" },
-  { "icon": "SiHashnode", "url": "https://hashnode.com/Biplab24" }
-]
+    { "icon": "FaTwitter", "url": "https://twitter.com/BiplabBera20814" },
+    { "icon": "FaGithub", "url": "https://github.com/bishalbera" },
+    { "icon": "SiHashnode", "url": "https://hashnode.com/Biplab24" }
+  ]
 }
