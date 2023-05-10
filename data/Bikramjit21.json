@@ -1,7 +1,14 @@
 {
   "name": "Bikramjit Saha",
   "type": "personal",
-  "bio": "CS grad learning PHP & Laravel with an interest in technical writing ",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/bikramjitindia" },
+    { "icon": "FaLinkedinIn", "url": "https://www.linkedin.com/in/bikramjit-saha-44b3251a0/" },
+    { "icon": "FaGithub", "url": "https://github.com/Bikramjit21" },
+    { "icon": "SiYoutube", "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw" }
+  ],
+    "tags": [ "Web Development", "PHP", "Laravel"],
+  "bio": "Web Developer| **PHP** & **Laravel** | Technical Writer ",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -24,9 +31,9 @@
       "icon": "SiHashnode"
     },
     {
-      "name": "Subscribed my Youtube Channel",
+      "name": "Subscribe my Youtube Channel",
       "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw",
       "icon": "SiYoutube"
     }
-  ]
+    ]
 }
