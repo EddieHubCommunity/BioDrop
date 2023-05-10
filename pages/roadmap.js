@@ -8,7 +8,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
 
-export default function Changelog() {
+export default function Roadmap() {
   const releases = [
     {
       name: "Recently released",
