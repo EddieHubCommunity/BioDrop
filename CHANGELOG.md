@@ -1,9 +1,9 @@
-## 1.121.1 (2023-05-11)
+## 1.121.2 (2023-05-11)
 
 
 ### Bug Fixes
 
-* file name with space Kritipatwa16 ([#6750](https://github.com/EddieHubCommunity/LinkFree/issues/6750)) ([dfac92c](https://github.com/EddieHubCommunity/LinkFree/commit/dfac92c6f054c4601ce0571d57378418bc663fcf))
+* links to use component ([#6760](https://github.com/EddieHubCommunity/LinkFree/issues/6760)) ([6fe9651](https://github.com/EddieHubCommunity/LinkFree/commit/6fe96518ef9374f486ffd0cc7ab3cf289d17a026))
 
 
 
