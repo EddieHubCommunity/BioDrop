@@ -12,12 +12,14 @@ export default function MyApp({
 }) {
   // Use the layout defined at the page level, if available
   const getLayout =
-    Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
+    Component.getLayout ||
+    ((data, page) => <MultiLayout data={data}>{page}</MultiLayout>);
 
   return (
     <ThemeProvider attribute="class">
       <SessionProvider session={session}>
         {getLayout(
+          pageProps.data,
           <>
             <GoogleAnalytics trackPageViews />
             <Component {...pageProps} />

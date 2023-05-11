@@ -1,6 +1,6 @@
+import { useEffect, useState } from "react";
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import ProgressBar from "@components/statistics/ProgressBar";
 
 import {
   BarChart,
@@ -14,12 +14,14 @@ import {
 
 import { getUserApi } from "../api/users/[username]";
 import logger from "@config/logger";
+import ProgressBar from "@components/statistics/ProgressBar";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
 import Link from "@components/Link";
+import Toggle from "@components/form/Toogle";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -102,6 +104,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress }) {
+  const [hideNavbar, setHideNavbar] = useState(profile.hideNavbar || false);
+  const [hideFooter, setHideFooter] = useState(profile.hideFooter || false);
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -131,6 +135,24 @@ export default function Statistics({ data, profile, progress }) {
     },
   ];
 
+  const updateProfile = async () => {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/manage/profile`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ hideFooter, hideNavbar }),
+      }
+    );
+    profile = await res.json();
+  };
+
+  useEffect(() => {
+    updateProfile();
+  }, [hideNavbar, hideFooter]);
+
   return (
     <>
       <PageHead
@@ -139,6 +161,20 @@ export default function Statistics({ data, profile, progress }) {
       />
 
       <Page>
+        <div className="flex flex-row gap-12 place-content-end">
+          <Toggle
+            text1="Hide top navbar"
+            text2="show/hide"
+            enabled={hideNavbar}
+            setEnabled={setHideNavbar}
+          />
+          <Toggle
+            text1="Hide footer"
+            text2="show/hide"
+            enabled={hideFooter}
+            setEnabled={setHideFooter}
+          />
+        </div>
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">

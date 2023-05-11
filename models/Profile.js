@@ -16,6 +16,14 @@ const ProfileSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  hideNavbar: {
+    type: Boolean,
+    default: false,
+  },
+  hideFooter: {
+    type: Boolean,
+    default: false,
+  },
   links: {
     default: [],
     type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],

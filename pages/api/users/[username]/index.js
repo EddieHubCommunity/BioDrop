@@ -173,6 +173,8 @@ export async function getUserApi(req, res, username) {
         username,
         ...data,
         location: profileWithLocation.location,
+        hideNavbar: profileWithLocation.hideNavbar || false,
+        hideFooter: profileWithLocation.hideFooter || false,
       },
     })
   );
