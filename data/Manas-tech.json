@@ -9,15 +9,14 @@
       "icon": "FaCodechef"
     },
     {
-       "name": "Linkedin",
+      "name": "Linkedin",
       "url": "https://www.linkedin.com/in/manas-parwani-049120251/",
       "icon": "FaLinkedin"
     },
     {
-     "name": "Github",
+      "name": "Github",
       "url": "https://github.com/Manas-tech",
       "icon": "FaGithub"
     }
-    
   ]
 }
