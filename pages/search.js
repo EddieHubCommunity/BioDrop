@@ -117,7 +117,7 @@ export default function Search({ data }) {
     }, 500);
 
     return () => clearTimeout(timer);
-  }, [inputValue]);
+  }, [inputValue, filterData]);
 
   return (
     <>
