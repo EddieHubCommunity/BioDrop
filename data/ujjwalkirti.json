@@ -1,0 +1,18 @@
+{
+  "name": "Ujjwal Kirti",
+  "type": "personal",
+  "bio": "Frontend Developer trying to learn the in and out of cloud computing at scale.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kirti_ujjwal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ujjwal_kirti/",
+      "icon": "FaInstagram"
+    },
+    { "icon": "FaGithub", "url": "https://github.com/ujjwalkirti" }
+  ]
+}

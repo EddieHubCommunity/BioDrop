@@ -1,9 +1,9 @@
-## 1.117.11 (2023-05-07)
+## 1.121.1 (2023-05-11)
 
 
 ### Bug Fixes
 
-* highlight nav page in lightmode ([#6676](https://github.com/EddieHubCommunity/LinkFree/issues/6676)) ([9bc32c6](https://github.com/EddieHubCommunity/LinkFree/commit/9bc32c69c72956b6dceae42d85468c35468c6ad8))
+* file name with space Kritipatwa16 ([#6750](https://github.com/EddieHubCommunity/LinkFree/issues/6750)) ([dfac92c](https://github.com/EddieHubCommunity/LinkFree/commit/dfac92c6f054c4601ce0571d57378418bc663fcf))
 
 
 
