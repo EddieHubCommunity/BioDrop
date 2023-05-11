@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { FaGithub, FaMoneyBillAlt } from "react-icons/fa";
 
+import Link from "./Link";
+
 export default function GitHubAccelerator() {
   return (
     <div className="mb-12">
@@ -31,7 +33,7 @@ export default function GitHubAccelerator() {
               </h6>
             </div>
             <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <a
+              <Link
                 href="http://accelerator.github.com"
                 className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
@@ -41,8 +43,8 @@ export default function GitHubAccelerator() {
                   aria-hidden="true"
                 />
                 <span>GitHub Accelerator</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/sponsors/eddiejaoude"
                 className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
@@ -52,7 +54,7 @@ export default function GitHubAccelerator() {
                   aria-hidden="true"
                 />
                 <span>GitHub Sponsors</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -14,6 +14,7 @@ export default function Roadmap() {
       name: "Recently released",
       id: "release-recently",
       href: "/changelog",
+      actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
         "Shorter url",
@@ -34,6 +35,7 @@ export default function Roadmap() {
       name: "In the works",
       id: "release-in-progress",
       href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
+      actionText: "Issue list",
       description: "Features are currently being worked on or will be soon.",
       features: [
         "Forms to manage your profile",
@@ -53,7 +55,8 @@ export default function Roadmap() {
     {
       name: "Coming soon",
       id: "release-future",
-      href: "https://github.com/EddieHubCommunity/LinkFree/issues",
+      href: "https://github.com/EddieHubCommunity/LinkFree/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee",
+      actionText: "Unassigned issue list",
       description: "Features are being planned for the near future.",
       features: [
         "Follow other Profiles",
@@ -93,7 +96,9 @@ export default function Roadmap() {
                   className={classNames(
                     phase.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
                     phaseIdx === 0 ? "lg:rounded-r-none border-r-0 " : "",
-                    phaseIdx === releases.length - 1 ? "lg:rounded-l-none border-l-0" : "",
+                    phaseIdx === releases.length - 1
+                      ? "lg:rounded-l-none border-l-0"
+                      : "",
                     "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
                   )}
                 >
@@ -133,6 +138,7 @@ export default function Roadmap() {
                   </div>
                   <Link
                     href={phase.href}
+                    target="_blank"
                     aria-describedby={phase.id}
                     className={classNames(
                       phase.mostPopular
@@ -141,7 +147,7 @@ export default function Roadmap() {
                       "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
                     )}
                   >
-                    Learn more
+                    {phase.actionText}
                   </Link>
                 </div>
               ))}
