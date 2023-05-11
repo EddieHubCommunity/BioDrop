@@ -162,7 +162,7 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <NavLink
-                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
                 <div className="relative">

@@ -1,9 +1,9 @@
-# 1.120.0 (2023-05-10)
+# 1.121.0 (2023-05-11)
 
 
 ### Features
 
-* maintainers page ([#6737](https://github.com/EddieHubCommunity/LinkFree/issues/6737)) ([c46c2f5](https://github.com/EddieHubCommunity/LinkFree/commit/c46c2f5520838a1770fc05c78acaf2bfa52e1bde))
+* roadmap ([#6735](https://github.com/EddieHubCommunity/LinkFree/issues/6735)) ([76f0082](https://github.com/EddieHubCommunity/LinkFree/commit/76f00823b93f68b4e07b4e21ece652672a6d31bb))
 
 
 
