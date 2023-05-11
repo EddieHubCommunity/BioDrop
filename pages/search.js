@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -44,7 +44,6 @@ export default function Search({ data }) {
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
-  let results = [];
 
   useEffect(() => {
     if (username) {
@@ -52,10 +51,11 @@ export default function Search({ data }) {
     }
   }, [username]);
 
-  const filterData = (value) => {
+  const filterData = useCallback((value) => {
     const valueLower = value.toLowerCase();
     const terms = valueLower.split(",");
 
+    let results = [];
     results = users.filter((user) => {
       if (user.name.toLowerCase().includes(valueLower)) {
         return true;
@@ -82,7 +82,7 @@ export default function Search({ data }) {
     }
 
     setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
+  }, [users]);
 
   const search = (keyword) => {
     if (!inputValue.length) {
