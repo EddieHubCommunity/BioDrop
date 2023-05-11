@@ -151,7 +151,7 @@ export default function Statistics({ data, profile, progress }) {
           body: JSON.stringify({ customise: { hideFooter, hideNavbar } }),
         }
       );
-      profile = await res.json();
+      // profile = await res.json();
     })();
   }, [hideNavbar, hideFooter]);
 
