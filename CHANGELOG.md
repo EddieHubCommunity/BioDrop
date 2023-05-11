@@ -1,9 +1,9 @@
-# 1.121.0 (2023-05-11)
+## 1.121.1 (2023-05-11)
 
 
-### Features
+### Bug Fixes
 
-* roadmap ([#6735](https://github.com/EddieHubCommunity/LinkFree/issues/6735)) ([76f0082](https://github.com/EddieHubCommunity/LinkFree/commit/76f00823b93f68b4e07b4e21ece652672a6d31bb))
+* file name with space Kritipatwa16 ([#6750](https://github.com/EddieHubCommunity/LinkFree/issues/6750)) ([dfac92c](https://github.com/EddieHubCommunity/LinkFree/commit/dfac92c6f054c4601ce0571d57378418bc663fcf))
 
 
 

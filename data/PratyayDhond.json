@@ -5,27 +5,27 @@
   "tags": ["Open Source", "Programming", "Android", "Web", "Speaker"],
   "links": [
     {
-        "name": "Linkedin - Let's connect!",
-        "url": "https://www.linkedin.com/in/pratyaydhond/",
-        "icon": "FaLinkedin"
-      },
-     {
-        "name": "Github - check out my second home XD",
-        "url": "https://github.com/PratyayDhond",
-        "icon": "FaGithub"
-      },
-     {
-        "name": "Youtube - I talk about books here <3",
-        "url": "https://www.youtube.com/@pratyaydhond-thebooksummar8907",
-        "icon": "FaYoutube"
-      },
-      {
-        "name": "Join my Book Club on Discord",
-        "url": "https://discord.gg/ubXMMekyx7",
-        "icon": "FaDiscord"
-      }
-   ],
-   "milestones": [
+      "name": "Linkedin - Let's connect!",
+      "url": "https://www.linkedin.com/in/pratyaydhond/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github - check out my second home XD",
+      "url": "https://github.com/PratyayDhond",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Youtube - I talk about books here <3",
+      "url": "https://www.youtube.com/@pratyaydhond-thebooksummar8907",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Join my Book Club on Discord",
+      "url": "https://discord.gg/ubXMMekyx7",
+      "icon": "FaDiscord"
+    }
+  ],
+  "milestones": [
     {
       "title": "Currently Pursuing Computer Engineering!",
       "date": "Oct 2022 - Jun 2025",
@@ -82,4 +82,3 @@
     }
   ]
 }
-

@@ -3,18 +3,13 @@
   "type": "personal",
   "bio": "React Developer | Technical Writer | Youtube Creator",
 
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "Javascript",
-    "React Native"
-  ],
+  "tags": ["Open Source", "DevOps", "Javascript", "React Native"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/avionmission" },
     { "icon": "FaGithub", "url": "https://github.com/avionmission" },
     { "icon": "FaYoutube", "url": "https://youtube.com/AvinashPrasad" }
   ],
-  
+
   "links": [
     {
       "group": "Business",
@@ -48,7 +43,7 @@
       "url": "https://avionmission.hashnode.dev",
       "icon": "SiHashnode"
     },
-    
+
     {
       "group": "Socials Primary",
       "name": "GitHub: Collaborate on Open Source",

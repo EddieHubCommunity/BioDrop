@@ -20,7 +20,7 @@
     { "icon": "FaInstagram", "url": "https://www.instagram.com/ronak_pal1" }
   ],
   "links": [
-   {
+    {
       "group": "Socials Primary",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/ronak_pal1",
@@ -53,7 +53,5 @@
       "icon": "SiHashnode",
       "color": "#FF0000"
     }
-    
-    ]
-  
+  ]
 }
