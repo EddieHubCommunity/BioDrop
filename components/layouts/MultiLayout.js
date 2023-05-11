@@ -2,8 +2,8 @@ import Navbar from "@components/navbar/Navbar";
 import Footer from "@components/Footer";
 
 export default function MultiLayout({ data, children }) {
-  const hideNavbar = data?.hideNavbar || false;
-  const hideFooter = data?.hideFooter || false;
+  const hideNavbar = data?.customise?.hideNavbar || false;
+  const hideFooter = data?.customise?.hideFooter || false;
 
   return (
     <div className="flex flex-col min-h-screen">

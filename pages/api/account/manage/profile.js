@@ -26,8 +26,10 @@ export default async function handler(req, res) {
     profile = await Profile.findOneAndUpdate(
       { username },
       {
-        hideNavbar: req.body.hideNavbar,
-        hideFooter: req.body.hideFooter,
+        customise: {
+          hideNavbar: req.body.customise.hideNavbar,
+          hideFooter: req.body.customise.hideFooter,
+        },
       },
       { upsert: true, new: true }
     );

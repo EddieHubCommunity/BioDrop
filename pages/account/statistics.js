@@ -104,8 +104,12 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress }) {
-  const [hideNavbar, setHideNavbar] = useState(profile.hideNavbar || false);
-  const [hideFooter, setHideFooter] = useState(profile.hideFooter || false);
+  const [hideNavbar, setHideNavbar] = useState(
+    profile.customise?.hideNavbar || false
+  );
+  const [hideFooter, setHideFooter] = useState(
+    profile.customise?.hideFooter || false
+  );
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -143,7 +147,7 @@ export default function Statistics({ data, profile, progress }) {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ hideFooter, hideNavbar }),
+        body: JSON.stringify({ customise: { hideFooter, hideNavbar } }),
       }
     );
     profile = await res.json();
