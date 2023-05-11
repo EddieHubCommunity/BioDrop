@@ -1,9 +1,9 @@
-## 1.121.2 (2023-05-11)
+## 1.121.3 (2023-05-11)
 
 
 ### Bug Fixes
 
-* links to use component ([#6760](https://github.com/EddieHubCommunity/LinkFree/issues/6760)) ([6fe9651](https://github.com/EddieHubCommunity/LinkFree/commit/6fe96518ef9374f486ffd0cc7ab3cf289d17a026))
+* postinstall script ([#6765](https://github.com/EddieHubCommunity/LinkFree/issues/6765)) ([e696bf5](https://github.com/EddieHubCommunity/LinkFree/commit/e696bf50508349a35d0c1c679aa067c05ab98e72)), closes [#6707](https://github.com/EddieHubCommunity/LinkFree/issues/6707)
 
 
 
