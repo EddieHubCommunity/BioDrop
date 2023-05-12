@@ -18,40 +18,45 @@
       "icon": "FaLink"
     },
     {
-      "group": "Socials Primary",
+      "group": "Publications",
+      "name": "Blog - I write about React, Python, Open-source, DevOps and more!",
+      "url": "https://avionmission.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Publications",
+      "name": "DevStories Podcast - Exploring Tech & Careers",
+      "url": "https://avionmission.hashnode.dev/series/devops-essentials",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Publications",
+      "name": "DevOps Essentials - A Guide to Learning DevOps",
+      "url": "https://avionmission.hashnode.dev/series/devops-essentials",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/avionmission",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
-      "group": "Socials Primary",
-      "name": "YouTube: 80k+ View 📈",
+      "group": "Socials",
+      "name": "YouTube - Tech Tutorials, Podcasts and Documentaries",
       "url": "https://youtube.com/avionmission",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
     {
       "group": "Socials",
-      "name": "DevOps Essentials - A Guide to Mastering DevOps",
-      "url": "https://avionmission.hashnode.dev/series/devops-essentials",
-      "icon": "SiHashnode"
-    },
-    {
-      "group": "Socials",
-      "name": "Blog - I write about React, Python, Open-source, DevOps and more!",
-      "url": "https://avionmission.hashnode.dev",
-      "icon": "SiHashnode"
-    },
-
-    {
-      "group": "Socials Primary",
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/avionmission",
       "icon": "FaGithub"
     },
     {
-      "group": "Socials Primary",
+      "group": "Socials",
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/avionmission",
       "icon": "FaLinkedin"
