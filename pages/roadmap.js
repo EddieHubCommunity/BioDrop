@@ -99,7 +99,6 @@ export default function Roadmap() {
                     phaseIdx === releases.length - 1
                       ? "lg:rounded-l-none lg:border-l-0"
                       : "",
-
                     "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
                   )}
                 >
