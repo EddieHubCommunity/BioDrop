@@ -19,6 +19,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -155,7 +156,13 @@ export default function Statistics({ data, profile, progress }) {
         </div>
 
         <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} ({profile.username})
+          Your Statistics for {profile.name} (
+          <Link
+            href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
+          >
+            {profile.username}
+          </Link>
+          )
         </h1>
 
         {!data.links && (
@@ -181,9 +188,11 @@ export default function Statistics({ data, profile, progress }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Tooltip contentStyle={{
-                  color: "black"
-                }} />
+                <Tooltip
+                  contentStyle={{
+                    color: "black",
+                  }}
+                />
                 <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>

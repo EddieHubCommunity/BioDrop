@@ -1,0 +1,27 @@
+{
+  "name": "Basant Soni",
+  "type": "personal",
+  "bio": "Frontend Web Developer | Blogger",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/SoniBasant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://sonibasant.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "CodePen",
+      "url": "https://codepen.io/sonibasant",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Frontend Mentor",
+      "url": "https://www.frontendmentor.io/profile/SoniBasant",
+      "icon": "SiFrontendmentor"
+    }
+  ]
+}

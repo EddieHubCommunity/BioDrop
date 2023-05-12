@@ -1,9 +1,9 @@
-## 1.117.11 (2023-05-07)
+## 1.121.3 (2023-05-11)
 
 
 ### Bug Fixes
 
-* highlight nav page in lightmode ([#6676](https://github.com/EddieHubCommunity/LinkFree/issues/6676)) ([9bc32c6](https://github.com/EddieHubCommunity/LinkFree/commit/9bc32c69c72956b6dceae42d85468c35468c6ad8))
+* postinstall script ([#6765](https://github.com/EddieHubCommunity/LinkFree/issues/6765)) ([e696bf5](https://github.com/EddieHubCommunity/LinkFree/commit/e696bf50508349a35d0c1c679aa067c05ab98e72)), closes [#6707](https://github.com/EddieHubCommunity/LinkFree/issues/6707)
 
 
 
