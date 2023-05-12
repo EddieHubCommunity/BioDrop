@@ -11,6 +11,8 @@ import Button from "./Button";
 import Link from "@components/Link";
 
 export default function Footer() {
+  const isExternalUrl = (url) => /^(?:[a-z+]+:)?\/\//i.test(url)
+
   const navigation = {
     solutions: [
       { name: "Search", href: "/search" },
@@ -95,6 +97,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={isExternalUrl(item.href) ? "_blank" : ""}
                       >
                         {item.name}
                       </Link>
@@ -112,6 +115,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={isExternalUrl(item.href) ? "_blank" : ""}
                       >
                         {item.name}
                       </Link>
@@ -131,6 +135,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={isExternalUrl(item.href) ? "_blank" : ""}
                       >
                         {item.name}
                       </Link>
@@ -148,6 +153,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={isExternalUrl(item.href) ? "_blank" : ""}
                       >
                         {item.name}
                       </Link>
