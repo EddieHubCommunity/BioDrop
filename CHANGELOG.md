@@ -1,9 +1,9 @@
-## 1.121.5 (2023-05-12)
+## 1.121.6 (2023-05-12)
 
 
 ### Bug Fixes
 
-* mobile view roadmap card border fix ([#6762](https://github.com/EddieHubCommunity/LinkFree/issues/6762)) ([603ddbe](https://github.com/EddieHubCommunity/LinkFree/commit/603ddbee969878a5d6ae285a3e4cb9d90224db20))
+* internal/external roadmap links ([#6822](https://github.com/EddieHubCommunity/LinkFree/issues/6822)) ([cc00d7a](https://github.com/EddieHubCommunity/LinkFree/commit/cc00d7ad96c7272f82473ca1df18665881c86e9b))
 
 
 
