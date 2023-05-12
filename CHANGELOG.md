@@ -1,9 +1,9 @@
-## 1.121.3 (2023-05-11)
+## 1.121.5 (2023-05-12)
 
 
 ### Bug Fixes
 
-* postinstall script ([#6765](https://github.com/EddieHubCommunity/LinkFree/issues/6765)) ([e696bf5](https://github.com/EddieHubCommunity/LinkFree/commit/e696bf50508349a35d0c1c679aa067c05ab98e72)), closes [#6707](https://github.com/EddieHubCommunity/LinkFree/issues/6707)
+* mobile view roadmap card border fix ([#6762](https://github.com/EddieHubCommunity/LinkFree/issues/6762)) ([603ddbe](https://github.com/EddieHubCommunity/LinkFree/commit/603ddbee969878a5d6ae285a3e4cb9d90224db20))
 
 
 
