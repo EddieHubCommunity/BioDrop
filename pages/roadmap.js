@@ -95,9 +95,9 @@ export default function Roadmap() {
                   key={phase.id}
                   className={classNames(
                     phase.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
-                    phaseIdx === 0 ? "lg:rounded-r-none border-r-0 " : "",
+                    phaseIdx === 0 ? "lg:rounded-r-none lg:border-r-0" : "",
                     phaseIdx === releases.length - 1
-                      ? "lg:rounded-l-none border-l-0"
+                      ? "lg:rounded-l-none lg:border-l-0"
                       : "",
                     "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
                   )}
