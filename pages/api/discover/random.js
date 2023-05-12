@@ -1,7 +1,7 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
-import loadProfiles from "@services/profiles/loadProfiles";
+import findAllBasic from "@services/profiles/findAllBasic";
+import { Profile } from "@models/index";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -23,7 +23,9 @@ export default async function handler(req, res) {
     return res.status(404).json([]);
   }
 
-  const fullRandomProfiles = await loadProfiles(profiles);
+  const fullRandomProfiles = await findAllBasic(
+    profiles.map((profile) => profile.username)
+  );
 
   res.status(200).json(fullRandomProfiles);
 }

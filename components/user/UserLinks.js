@@ -3,8 +3,8 @@ import Alert from "@components/Alert";
 
 export default function UserLinks({ BASE_URL, data }) {
   const defaultBucket = "Others";
-  data.links = data.links.map((link, i) => ({ id: i, ...link }));
-  const buckets = data.links.reduce((acc, obj) => {
+  data.links = data.links?.map((link, i) => ({ id: i, ...link }));
+  const buckets = data.links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
     const curGroup = acc[group] ?? [];
 
@@ -28,7 +28,7 @@ export default function UserLinks({ BASE_URL, data }) {
                       <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
                         {name}
                       </h3>
-                      <p className="ml-2 mt-1 truncate text-sm dark:text-primary-low-medium text-primary-medium">
+                      <p className="ml-2 mt-1 truncate text-sm dark:text-primary-low-high text-primary-medium">
                         ({buckets[name].length})
                       </p>
                     </div>

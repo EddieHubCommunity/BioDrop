@@ -14,19 +14,18 @@ const FaRegMoon = getIcon("FaRegMoon");
 const FaSun = getIcon("FaSun");
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+
+  const router = useRouter();
+  const navConRef = useRef();
+  const { data: session } = useSession();
+  const { systemTheme, theme, setTheme } = useTheme();
+  const getLink = (path) => `${router.basePath}${path}`;
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const { data: session } = useSession();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const router = useRouter();
-  const getLink = (path) => `${router.basePath}${path}`;
-  const navConRef = useRef();
 
   const renderThemeChanger = () => {
     if (!mounted) {
@@ -37,7 +36,11 @@ export default function Navbar() {
 
     if (currentTheme === "dark") {
       return (
-        <button className="p-2" onClick={() => setTheme("light")}>
+        <button
+          className="p-2"
+          onClick={() => setTheme("light")}
+          aria-label="Toggle Theme"
+        >
           <FaSun className="text-primary-low hover:text-secondary-low" />
         </button>
       );
@@ -159,11 +162,11 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <NavLink
-                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
                 <div className="relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
@@ -173,7 +176,7 @@ export default function Navbar() {
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </a>
+                  </Link>
                 </div>
                 {authControls()}
               </div>
@@ -182,7 +185,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-primary-low-medium hover:text-white hover:bg-primary-medium focus:outline-offset-2"
+                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-primary-medium-low hover:text-white hover:bg-primary-medium focus:outline-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >

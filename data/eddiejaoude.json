@@ -104,6 +104,11 @@
       "name": "Donate: GitHub Sponsors",
       "url": "https://github.com/sponsors/eddiejaoude",
       "icon": "FaRegMoneyBillAlt"
+    },
+    {
+      "name": "Open Source project LinkFree",
+      "url": "https://github.com/EddieHubCommunity/LinkFree",
+      "icon": "FaGithub"
     }
   ],
   "milestones": [
@@ -172,6 +177,15 @@
       "color": "green",
       "description": "I am 50% of the way through my course of helping people getting into Open Source",
       "url": "http://eddiejaoude.io"
+    },
+    {
+      "isGoal": true,
+      "title": "LinkFree to a SAAS platform",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Have advanced premium features, but will always be free and open source",
+      "url": "https://linkfree.io"
     }
   ]
 }
