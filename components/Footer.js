@@ -11,7 +11,8 @@ import Button from "./Button";
 import Link from "@components/Link";
 
 export default function Footer() {
-  const isExternalUrl = (url) => /^(?:[a-z+]+:)?\/\//i.test(url)
+  const EXTERNAL_URL_REGEX = /^(?:[a-z+]+:)?\/\//i
+  const isExternalUrl = (url, regex = EXTERNAL_URL_REGEX) => regex.test(url)
 
   const navigation = {
     solutions: [
