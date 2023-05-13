@@ -26,6 +26,7 @@ export default function Footer() {
       {
         name: "Contributing Guide",
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md",
+        redirect:"true"
       },
       { name: "Road map", href: "/roadmap" },
     ],
@@ -33,6 +34,8 @@ export default function Footer() {
       {
         name: "EddieHub GitHub Org",
         href: "https://github.com/EddieHubCommunity",
+        redirect:"true",
+
       },
       {
         name: "Maintainers",
@@ -42,12 +45,16 @@ export default function Footer() {
       {
         name: "Contributors",
         href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
+        redirect:"true",
+
       },
     ],
     legal: [
       {
         name: "License",
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/LICENSE",
+        redirect:"true",
+
       },
       { name: "Terms", href: "/terms" },
     ],
@@ -56,16 +63,22 @@ export default function Footer() {
         name: "LinkedIn",
         href: "https://www.linkedin.com/company/linkfree.eddiehub/",
         icon: FaLinkedin,
+        redirect:"true",
+
       },
       {
         name: "GitHub",
         href: "https://github.com/EddieHubCommunity/LinkFree",
         icon: FaGithub,
+        redirect:"true",
+
       },
       {
         name: "YouTube",
         href: "https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd",
         icon: FaYoutube,
+        redirect:"true",
+
       },
     ],
   };
@@ -95,6 +108,8 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item?.redirect? "_blank":""}
+
                       >
                         {item.name}
                       </Link>
@@ -112,6 +127,8 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item?.redirect? "_blank":""}
+
                       >
                         {item.name}
                       </Link>
@@ -128,11 +145,13 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.community.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <Link  
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item?.redirect? "_blank":""}
+
                       >
-                        {item.name}
+                 {item.name} 
                       </Link>
                     </li>
                   ))}
@@ -148,6 +167,8 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item?.redirect? "_blank":""}
+
                       >
                         {item.name}
                       </Link>
@@ -181,6 +202,7 @@ export default function Footer() {
             </p>
             {navigation.social.map((item) => (
               <Link
+              target={item?.redirect? "_blank":""}
                 key={item.name}
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
@@ -191,6 +213,7 @@ export default function Footer() {
             ))}
           </div>
           <Link
+            target="_blank"
             href="https://github.com/EddieHubCommunity/LinkFree"
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
           >
