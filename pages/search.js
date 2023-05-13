@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -44,45 +44,47 @@ export default function Search({ data }) {
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
-  let results = [];
-
   useEffect(() => {
     if (username) {
       setNotFound(username);
     }
   }, [username]);
 
-  const filterData = (value) => {
-    const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
+  const filterData = useCallback(
+    (value) => {
+      const valueLower = value.toLowerCase();
+      const terms = valueLower.split(",");
 
-    results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
+      let results = [];
+      results = users.filter((user) => {
+        if (user.name.toLowerCase().includes(valueLower)) {
+          return true;
+        }
+        if (user.username.toLowerCase().includes(valueLower)) {
+          return true;
+        }
+
+        let userTags = user.tags?.map((tag) => tag.toLowerCase());
+
+        if (terms.every((keyword) => userTags?.includes(keyword))) {
+          return true;
+        }
+
+        return false;
+      });
+
+      if (!results.length) {
+        setNotFound(value);
       }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
+
+      if (results.length) {
+        setNotFound();
       }
 
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
-
-      return false;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
-    }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
+      setFilteredUsers(results.sort(() => Math.random() - 0.5));
+    },
+    [users]
+  );
 
   const search = (keyword) => {
     if (!inputValue.length) {
@@ -117,7 +119,7 @@ export default function Search({ data }) {
     }, 500);
 
     return () => clearTimeout(timer);
-  }, [inputValue]);
+  }, [inputValue, filterData]);
 
   return (
     <>
