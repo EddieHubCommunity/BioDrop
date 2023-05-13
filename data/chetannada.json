@@ -91,6 +91,14 @@
       "color": "black",
       "description": "Solved 100+ DSA Problems at LeetCode",
       "url": "https://leetcode.com/chetannada/"
+    },
+    {
+      "title": "Crossed 5K followers on LinkedIn",
+      "date": "2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Javascript and React.js helped me to cross the 5K followers milestone",
+      "url": "https://www.linkedin.com/in/chetannada"
     }
   ]
 }
