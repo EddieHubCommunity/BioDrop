@@ -1,0 +1,26 @@
+{
+  "name": "Vishwa karnati",
+  "type": "personal",
+  "bio": "Enthusiastic Coder who is just starting in Opensource .Loves Reading books and a traveller",
+  "avatar":"https://github.com/vishwak1002.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishwakarnati",
+      "icon": "FaTwitter"
+    }
+     {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/thecuriousvish",
+      "icon": "FaInstagram"
+    }
+  {
+      "name": "Follow me on Github",
+      "url": "https://Github.com/vishwak1002",
+      "icon": "FaGithub"
+    }
+
+
+  ]
+
+}
