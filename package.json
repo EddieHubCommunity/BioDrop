@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.121.6",
+  "version": "1.121.8",
   "private": false,
   "homepage": "https://linkfree.io",
   "engines": {
@@ -24,7 +24,6 @@
     "next": "^13.2.4",
     "next-auth": "^4.21.1",
     "next-themes": "^0.2.1",
-    "nextjs-google-analytics": "^2.3.3",
     "octokit": "^2.0.14",
     "pino": "^8.11.0",
     "pino-pretty": "^10.0.0",

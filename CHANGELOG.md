@@ -1,9 +1,9 @@
-## 1.121.6 (2023-05-12)
+## 1.121.8 (2023-05-13)
 
 
 ### Bug Fixes
 
-* internal/external roadmap links ([#6822](https://github.com/EddieHubCommunity/LinkFree/issues/6822)) ([cc00d7a](https://github.com/EddieHubCommunity/LinkFree/commit/cc00d7ad96c7272f82473ca1df18665881c86e9b))
+* external urls in footer open in new tab ([#6811](https://github.com/EddieHubCommunity/LinkFree/issues/6811)) ([7e376db](https://github.com/EddieHubCommunity/LinkFree/commit/7e376db71aa02ec5f9973f4deb9f69a215e2772c))
 
 
 
