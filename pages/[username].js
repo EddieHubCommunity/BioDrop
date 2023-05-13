@@ -24,15 +24,6 @@ export async function getServerSideProps(context) {
 
   const { status, profile } = await getUserApi(req, res, username);
 
-  if (status === 404) {
-    return {
-      redirect: {
-        destination: `/404`,
-        permanent: false,
-      },
-    };
-  }
-
   if (status !== 200) {
     log.error(
       profile.error,
