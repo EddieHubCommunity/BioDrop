@@ -4,17 +4,23 @@ title: About this guide
 
 Welcome to Linkfree! Since our community consists of people from diverse areas of expertise within tech and other industries, we decided to create a simple, straightforward style guide that everyone can use. Below are the four sections that our guide will focus on:
 
-- [Inclusive language](#inclusive-language)
-- [Grammar & Mechanics](#grammar-mechanics)
+- [Inclusive Language](#inclusive-language)
+- [Grammar \& Mechanics](#grammar--mechanics)
+  - [Commas](#commas)
+  - [Capitalisation](#capitalisation)
 - [Clarity](#clarity)
+  - [Active vs. Passive](#active-vs-passive)
+  - [Jargon](#jargon)
 - [Accessibility](#accessibility)
+  - [Bullet points](#bullet-points)
+  - [Emojis](#emojis)
 
 ## Inclusive Language
 
 - Use gender-neutral words for common terms.
   - **Example:** Not this: A maintainer should try to be kind yet constructive in **his** feedback.
   - **Use this:** A maintainer should try to be kind yet constructive in **their** feedback.
-- Avoid using terms that have colonialistic or racist connotations.
+- Avoid using terms that have colonialist or racist connotations.
   - **Example:** Not this: Contributors should push their pull requests to the **master** branch.
   - **Use this:** Contributors should push their pull requests to the **main** branch.
 
@@ -54,3 +60,40 @@ Since members of EddieHub tend to be new to open-source contributions, it would 
 - **Example:** Not this: Gitpod **was** an open-source application that provides a prebuilt development environment in your browser - powered by VS Code.
 - **Use this:** Gitpod **is** an open-source application that provides a
 
+## Accessibility
+
+### Bullet points
+
+- Avoid describing things only by their colour or position.
+
+  \*Ex: **Not this:**see the **image above**.
+
+          ** Use this:** See **Image 2.2.**
+
+### Emojis
+
+- Avoid using emojis as bullet points or numbered lists.
+
+  \*Ex: **Not this: 1️⃣**Fork the repo
+
+                            2️⃣Visit the LinkFree repo
+
+
+          ** Use this:** **1.** Fork the repo
+
+
+                          **  2️.** Visit the LinkFree repo
+
+- Avoid using emojis in the middle of a sentence.
+
+  \*Ex: **Not this:**There are 4️⃣ ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+
+          ** Use this:** There are** 4 **ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+
+- Use them sparingly at the end of a sentence.
+
+  \*Ex: **Not this:**Join the conversation on our Discord community! 😀
+
+          ** Use this:** Join the conversation on our Discord community!
+
+Have some ideas on improving the guide? Contact us at [Eddiehub](https://github.com/EddieHubCommunity). We’d love to receive your feedback!
