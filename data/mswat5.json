@@ -1,0 +1,32 @@
+{
+  "name": "Swatanra Mishra",
+  "type": "personal",
+  "bio": "developer developing"
+  
+ "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/swat14359mishra",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/nothatswat/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "conect with me on linkedin",
+      "url": "https://www.linkedin.com/in/swatantra-m-27b64b242/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "conect with me on Github",
+      "url": "https://github.com/mswat5/",
+      "icon": "FaGithub"
+    }
+
+  ]
+
+}
+
+
