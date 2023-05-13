@@ -1,9 +1,9 @@
-## 1.121.6 (2023-05-12)
+## 1.121.7 (2023-05-13)
 
 
 ### Bug Fixes
 
-* internal/external roadmap links ([#6822](https://github.com/EddieHubCommunity/LinkFree/issues/6822)) ([cc00d7a](https://github.com/EddieHubCommunity/LinkFree/commit/cc00d7ad96c7272f82473ca1df18665881c86e9b))
+* removed google analytics ([#6839](https://github.com/EddieHubCommunity/LinkFree/issues/6839)) ([82f231a](https://github.com/EddieHubCommunity/LinkFree/commit/82f231a506600ab4b2865be385452abc0b51cca7))
 
 
 
