@@ -1,8 +1,8 @@
 {
   "name": "Luc Ferrara",
   "type": "personal",
-  "bio": "Computer Science student at Northeastern University.", 
-   "links": [
+  "bio": "Computer Science student at Northeastern University.",
+  "links": [
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/luc.ferrara/",
@@ -23,6 +23,5 @@
       "url": "https://lichess.org/@/Luc120",
       "icon": "SiLichess"
     }
-
   ]
 }
