@@ -13,58 +13,70 @@ import Link from "@components/Link";
 export default function Footer() {
   const navigation = {
     solutions: [
-      { name: "Search", href: "/search" },
-      { name: "Events", href: "/events" },
-      { name: "Map", href: "/map" },
-      { name: "Premium", href: "/premium" },
-      { name: "Login", href: "/auth/signin" },
+      { name: "Search", href: "/search", external: false },
+      { name: "Events", href: "/events", external: false },
+      { name: "Map", href: "/map", external: false },
+      { name: "Premium", href: "/premium", external: false },
+      { name: "Login", href: "/auth/signin", external: false },
     ],
     support: [
-      { name: "QuickStart", href: "/docs/quickstart" },
-      { name: "Updating your profile", href: "/docs/how-to-guides/editing" },
-      { name: "Json Playground", href: "/playground" },
+      { name: "QuickStart", href: "/docs/quickstart", external: false },
+      {
+        name: "Updating your profile",
+        href: "/docs/how-to-guides/editing",
+        external: false,
+      },
+      { name: "Json Playground", href: "/playground", external: false },
       {
         name: "Contributing Guide",
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md",
+        external: true,
       },
-      { name: "Road map", href: "/roadmap" },
+      { name: "Road map", href: "/roadmap", external: false },
     ],
     community: [
       {
         name: "EddieHub GitHub Org",
         href: "https://github.com/EddieHubCommunity",
+        external: true,
       },
       {
         name: "Maintainers",
         href: "/maintainers",
+        external: false,
       },
-      { name: "Resources", href: "/docs/community-resources" },
+      { name: "Resources", href: "/docs/community-resources", external: false },
       {
         name: "Contributors",
         href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
+        external: true,
       },
     ],
     legal: [
       {
         name: "License",
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/LICENSE",
+        external: true,
       },
-      { name: "Terms", href: "/terms" },
+      { name: "Terms", href: "/terms", external: false },
     ],
     social: [
       {
         name: "LinkedIn",
         href: "https://www.linkedin.com/company/linkfree.eddiehub/",
+        external: true,
         icon: FaLinkedin,
       },
       {
         name: "GitHub",
         href: "https://github.com/EddieHubCommunity/LinkFree",
+        external: true,
         icon: FaGithub,
       },
       {
         name: "YouTube",
         href: "https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd",
+        external: true,
         icon: FaYoutube,
       },
     ],
@@ -95,6 +107,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item.external ? "_blank" : "_self"}
                       >
                         {item.name}
                       </Link>
@@ -112,6 +125,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item.external ? "_blank" : "_self"}
                       >
                         {item.name}
                       </Link>
@@ -131,6 +145,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item.external ? "_blank" : "_self"}
                       >
                         {item.name}
                       </Link>
@@ -148,6 +163,7 @@ export default function Footer() {
                       <Link
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                        target={item.external ? "_blank" : "_self"}
                       >
                         {item.name}
                       </Link>
@@ -184,6 +200,7 @@ export default function Footer() {
                 key={item.name}
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
+                target={item.external ? "_blank" : "_self"}
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
