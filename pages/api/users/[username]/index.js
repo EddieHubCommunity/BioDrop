@@ -3,10 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-
-import Profile from "@models/Profile";
-import Stats from "@models/Stats";
-import ProfileStats from "@models/ProfileStats";
+import { Profile, Stats, ProfileStats } from "@models/index";
 
 import findOneByUsernameFull from "@services/profiles/findOneByUsernameFull";
 import getLocation from "@services/profiles/getLocation";

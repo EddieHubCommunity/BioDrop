@@ -18,6 +18,7 @@ import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
+import GitHubAccelerator from "@components/GitHubAccelerator";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
@@ -287,7 +288,7 @@ export default function Home({ total, today }) {
               />
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude"/>
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -398,6 +399,8 @@ export default function Home({ total, today }) {
       </div>
 
       <Testimonials data={testimonials} />
+
+      <GitHubAccelerator />
 
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
