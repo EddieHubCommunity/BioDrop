@@ -1,7 +1,7 @@
 {
-    "name": "Shoeb Ilyas",
-    "type": "personal",
-    "bio": "An undergrad student with a passion of computer science and programming. I have been in the industry for around two years now.",
+  "name": "Shoeb Ilyas",
+  "type": "personal",
+  "bio": "An undergrad student with a passion of computer science and programming. I have been in the industry for around two years now.",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -9,19 +9,19 @@
       "icon": "FaTwitter"
     },
     {
-        "name": "My Github Profile",
-        "url": "https://github.com/shoebilyas123",
-        "icon": "FaGithub"
-      },
-      {
-        "name": "Let's Connect on LinkedIn",
-        "url": "https://linkedin.com/in/shoeb-ilyas",
-        "icon": "FaLinkedin"
-      },
-      {
-        "name": "My Tech Blogs",
-        "url": "https://shoebilyas.hashnode.dev",
-        "icon": "FaLinkedin"
-      }
+      "name": "My Github Profile",
+      "url": "https://github.com/shoebilyas123",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://linkedin.com/in/shoeb-ilyas",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Tech Blogs",
+      "url": "https://shoebilyas.hashnode.dev",
+      "icon": "FaLinkedin"
+    }
   ]
-  }
+}
