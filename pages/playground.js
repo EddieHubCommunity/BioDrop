@@ -3,10 +3,12 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Button from "@components/Button";
-import PreviewModal from "@components/modals/ProfilePreview";
+import Modal from "@components/Modal";
 import Input from "@components/form/Input";
+import UserPage from "@components/user/UserPage";
 
 export default function Playground() {
+  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
   const defaultJson = `{
     "name": "Your Name",
     "type": "personal",
@@ -60,7 +62,6 @@ export default function Playground() {
       setErrMsg("Github username required");
       setSuccessMsg("");
     }
-
     try {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
@@ -129,12 +130,13 @@ export default function Playground() {
           )}
         </div>
 
-        {previewModalData && previewModalState && (
-          <PreviewModal
-            toggle={() => setPreviewModalState(!previewModalState)}
-            data={previewModalData}
-          />
-        )}
+        <Modal
+          title="Profile Preview"
+          show={previewModalState}
+          setShow={setPreviewModalState}
+        >
+          <UserPage data={previewModalData} BASE_URL={BASE_URL} />
+        </Modal>
       </Page>
     </>
   );
