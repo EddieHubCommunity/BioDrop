@@ -1,9 +1,9 @@
-# 1.122.0 (2023-05-14)
+## 1.122.1 (2023-05-14)
 
 
-### Features
+### Bug Fixes
 
-* modal made generic for reuse ([#6832](https://github.com/EddieHubCommunity/LinkFree/issues/6832)) ([8d1db5b](https://github.com/EddieHubCommunity/LinkFree/commit/8d1db5bea39cef61d20b690f7fa41617f02afabc))
+* playground footer info ([#6863](https://github.com/EddieHubCommunity/LinkFree/issues/6863)) ([79db02b](https://github.com/EddieHubCommunity/LinkFree/commit/79db02bee2115c3f9ce0880b39ab041216fb9178))
 
 
 
