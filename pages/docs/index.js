@@ -22,15 +22,6 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
-{
- name: "Docs Style Guide",
- path: "/docs/docs-style-guide",
- description: "DESCRIPTION",
- category: {
-  name: "Beginner",
-  color: "bg-green-100 text-green-800",
-   },
- },
         {
           name: "GitHub UI",
           path: "/docs/environments/github-ui",
@@ -322,6 +313,15 @@ export default function DocsIndex() {
           category: {
             name: "Advanced",
             color: "bg-red-100 text-red-800",
+          },
+        },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description: "DESCRIPTION",
+          category: {
+           name: "Beginner",
+           color: "bg-green-100 text-green-800",
           },
         },
       ],
