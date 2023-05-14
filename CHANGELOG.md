@@ -1,9 +1,9 @@
-## 1.122.1 (2023-05-14)
+# 1.123.0 (2023-05-14)
 
 
-### Bug Fixes
+### Features
 
-* playground footer info ([#6863](https://github.com/EddieHubCommunity/LinkFree/issues/6863)) ([79db02b](https://github.com/EddieHubCommunity/LinkFree/commit/79db02bee2115c3f9ce0880b39ab041216fb9178))
+* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
 
 
 
