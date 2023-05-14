@@ -55,7 +55,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Profile({ BASE_URL, profile }) {
-  const [source, setSource] = useState(profile.sources.current || "database");
+  const [source, setSource] = useState(profile.source);
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
 
@@ -79,7 +79,7 @@ export default function Profile({ BASE_URL, profile }) {
       />
 
       <Page>
-        {profile.sources.available.includes("file") && (
+        {profile.sources === "file" && (
           <Alert
             type="warning"
             message={`"${profile.username}.json" found also exists, please remove this file via a Pull Request if you will be managing your account via these forms`}
@@ -154,7 +154,7 @@ export default function Profile({ BASE_URL, profile }) {
                           id="source"
                           name="source"
                           className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          defaultValue={profile.sources.current || "database"}
+                          defaultValue={profile.sources}
                           onChange={(e) => setSource(e.target.value)}
                         >
                           <option>file</option>
