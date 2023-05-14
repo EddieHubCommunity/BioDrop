@@ -222,7 +222,6 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
-        
         {
           name: "Automated tests",
           path: "/docs/contributing/automated-tests",
