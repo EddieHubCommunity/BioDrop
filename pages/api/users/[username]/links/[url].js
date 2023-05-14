@@ -21,14 +21,6 @@ export default async function handler(req, res) {
     return res.status(404).json({ error: `${username} not found` });
   }
 
-  if (
-    !data.links.find((link) => link.url === url) &&
-    !data.socials.find((social) => social.url === url)
-  ) {
-    logger.error(`link ${url} not found for username ${username}`);
-    return res.status(404).json({ error: `ERROR ${url} not found` });
-  }
-
   let getProfile;
   try {
     getProfile = await Profile.findOne({ username });
