@@ -131,7 +131,7 @@ export default function Playground() {
         </div>
 
         <Modal
-          title="Profile Preview"
+          title="Profile Preview (note: new links will not be clickable)"
           show={previewModalState}
           setShow={setPreviewModalState}
         >
