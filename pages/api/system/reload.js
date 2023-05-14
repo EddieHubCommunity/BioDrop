@@ -55,13 +55,16 @@ export default async function handler(req, res) {
 
       // add social urls to links but disable them
       try {
-        if (profile.links && profile.socials) {
-          const mismatch = profile.socials.filter(
-            (social) => !profile.links.find((link) => social.url === link.url)
-          );
-          if (mismatch.length > 0) {
+        if (profile.socials) {
+          let socials = profile.socials;
+          if (profile.links) {
+            socials = profile.socials.filter(
+              (social) => !profile.links.find((link) => social.url === link.url)
+            );
+          }
+          if (socials.length > 0) {
             await Promise.all(
-              mismatch.map(async (link) => {
+              socials.map(async (link) => {
                 await Link.findOneAndUpdate(
                   { username: profile.username, url: link.url },
                   {
@@ -85,46 +88,66 @@ export default async function handler(req, res) {
       }
 
       try {
-        if (profile.links) {
+        if (currentProfile.links || profile.links) {
           const enabledLinks = [];
-          await Promise.all(
-            profile.links.map(async (link, position) => {
-              enabledLinks.push(link);
-              await Link.findOneAndUpdate(
-                { username: profile.username, url: link.url },
-                {
-                  group: link.group,
-                  name: link.name,
-                  url: link.url,
-                  icon: link.icon,
-                  isEnabled: true,
-                  isPinned: link.isPinned,
-                  profile: currentProfile._id,
-                  order: position,
-                },
-                { upsert: true, new: true }
-              );
-            })
-          );
-
-          // update profile with links
-          currentProfile = await Profile.findOneAndUpdate(
-            { username: profile.username },
-            {
-              links: (
-                await Link.find({ username: profile.username })
-              ).map((link) => link._id),
-            },
-            { new: true }
-          );
-
-          // disable LINKS not in json file
-          await Promise.all(
-            currentProfile.links
-              .filter((link) => link.url !== enabledLinks.url)
-              .map(async (link) => {
+          if (profile.links) {
+            await Promise.all(
+              profile.links.map(async (link, position) => {
+                enabledLinks.push(link);
                 await Link.findOneAndUpdate(
                   { username: profile.username, url: link.url },
+                  {
+                    group: link.group,
+                    name: link.name,
+                    url: link.url,
+                    icon: link.icon,
+                    isEnabled: true,
+                    isPinned: link.isPinned,
+                    profile: currentProfile._id,
+                    order: position,
+                  },
+                  { upsert: true, new: true }
+                );
+              })
+            );
+          }
+
+          // update profile with links
+          if (enabledLinks.length > 0) {
+            await Profile.findOneAndUpdate(
+              { username: profile.username },
+              {
+                links: (
+                  await Link.find({ username: profile.username })
+                ).map((link) => link._id),
+              },
+              { new: true }
+            );
+          }
+
+          currentProfile = await Profile.findOne({
+            username: profile.username,
+          }).populate({
+            path: "links",
+          });
+
+          // disable LINKS not in json file
+          console.log(
+            `PROFILE: ${profile.username}`,
+            `DB: ${currentProfile.links.length}`,
+            `PROFILE: ${profile.links?.length}`,
+            `ENALBED: ${enabledLinks.length}`
+            // `FILTER: ${currentProfile.links.filter(
+            //   (link) => !enabledLinks.includes(link.url)
+            // )}`
+          );
+          // PROFILE: wasup-yash DB: 0 ENALBED: 0 FILTER:
+          await Promise.all(
+            currentProfile.links
+              .filter((link) => !enabledLinks.includes(link.url))
+              .map(async (link) => {
+                await Link.findOneAndUpdate(
+                  { _id: link._id },
                   { isEnabled: false }
                 );
               })
