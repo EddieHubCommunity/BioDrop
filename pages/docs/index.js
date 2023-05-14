@@ -317,7 +317,7 @@ export default function DocsIndex() {
         {
           name: "Docs Style Guide",
           path: "/docs/docs-style-guide",
-          description: "DESCRIPTION",
+          description: "This is a style guide for contributors to refer to when working with the documentation",
           category: {
            name: "Beginner",
            color: "bg-green-100 text-green-800",
