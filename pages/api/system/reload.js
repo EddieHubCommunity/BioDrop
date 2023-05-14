@@ -50,8 +50,39 @@ export default async function handler(req, res) {
           bio: profile.bio,
           tags: profile.tags,
         },
-        { upsert: true }
+        { upsert: true, new: true }
       );
+
+      // add social urls to links but disable them
+      try {
+        if (profile.links && profile.socials) {
+          const mismatch = profile.socials.filter(
+            (social) => !profile.links.find((link) => social.url === link.url)
+          );
+          if (mismatch.length > 0) {
+            await Promise.all(
+              mismatch.map(async (link) => {
+                await Link.findOneAndUpdate(
+                  { username: profile.username, url: link.url },
+                  {
+                    url: link.url,
+                    icon: link.icon,
+                    isEnabled: false,
+                    isPinned: true,
+                    profile: currentProfile._id,
+                  },
+                  { upsert: true, new: true }
+                );
+              })
+            );
+          }
+        }
+      } catch (e) {
+        logger.error(
+          e,
+          `failed to update profile socials for ${profile.username}`
+        );
+      }
 
       try {
         if (profile.links) {
@@ -71,18 +102,20 @@ export default async function handler(req, res) {
                   profile: currentProfile._id,
                   order: position,
                 },
-                { upsert: true }
+                { upsert: true, new: true }
               );
             })
           );
 
+          // update profile with links
           currentProfile = await Profile.findOneAndUpdate(
             { username: profile.username },
             {
               links: (
                 await Link.find({ username: profile.username })
               ).map((link) => link._id),
-            }
+            },
+            { new: true }
           );
 
           // disable LINKS not in json file
@@ -282,7 +315,6 @@ function findOneByUsernameFull(data) {
       })
     );
     data.links = links;
-    delete data.socials;
   }
   return data;
 }
