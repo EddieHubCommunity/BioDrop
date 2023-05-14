@@ -3,7 +3,15 @@
   "type": "personal",
   "bio": "Hi, I'm HARSH!\n\tI'm a Software engineer in growth mode, lifelong-learner, and reader.\nNative Android Programming, Backend, observing and developing tools always excite me.\nAdditionally, I enjoy listening to music, reading books, and acquiring new knowledge.",
 
-  "tags": ["Open Source", "DevSecOps", "Python", "Kotlin", "Android", "Jetpack Compose", "Linux"],
+  "tags": [
+    "Open Source",
+    "DevSecOps",
+    "Python",
+    "Kotlin",
+    "Android",
+    "Jetpack Compose",
+    "Linux"
+  ],
 
   "links": [
     {
