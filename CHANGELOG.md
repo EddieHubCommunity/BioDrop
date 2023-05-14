@@ -1,9 +1,9 @@
-## 1.115.1 (2023-05-02)
+# 1.123.0 (2023-05-14)
 
 
-### Bug Fixes
+### Features
 
-* dark mode date visibility on stats page ([#6549](https://github.com/EddieHubCommunity/LinkFree/issues/6549)) ([41bad8e](https://github.com/EddieHubCommunity/LinkFree/commit/41bad8edabc0d086a918944ad227a155da7bbbbf))
+* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
 
 
 
