@@ -3,18 +3,18 @@
 	"type": "personal",
 	"bio": "Open Source contributor | DevRel | Working at ** Grafana Labs**",
 
-	"tags": [
-		"Open Source",
-		"Linux",
-		"Kubernetes",
-		"Docker",
-		"Grafana",
-		"DevOps",
-		"API",
-		"Cloud (SaaS)",
-		"Database",
-		"Technical Support"
-	],
+  "tags": [
+    "Open Source",
+    "Linux",
+    "Kubernetes",
+    "Docker",
+    "Grafana",
+    "DevOps",
+    "API",
+    "Cloud (SaaS)",
+    "Database",
+    "Technical Support"
+  ],
 
 	"socials": [
 

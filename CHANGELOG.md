@@ -1,9 +1,9 @@
-## 1.121.8 (2023-05-13)
+# 1.123.0 (2023-05-14)
 
 
-### Bug Fixes
+### Features
 
-* external urls in footer open in new tab ([#6811](https://github.com/EddieHubCommunity/LinkFree/issues/6811)) ([7e376db](https://github.com/EddieHubCommunity/LinkFree/commit/7e376db71aa02ec5f9973f4deb9f69a215e2772c))
+* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
 
 
 
