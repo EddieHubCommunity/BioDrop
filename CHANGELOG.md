@@ -1,9 +1,9 @@
-## 1.121.8 (2023-05-13)
+# 1.122.0 (2023-05-14)
 
 
-### Bug Fixes
+### Features
 
-* external urls in footer open in new tab ([#6811](https://github.com/EddieHubCommunity/LinkFree/issues/6811)) ([7e376db](https://github.com/EddieHubCommunity/LinkFree/commit/7e376db71aa02ec5f9973f4deb9f69a215e2772c))
+* modal made generic for reuse ([#6832](https://github.com/EddieHubCommunity/LinkFree/issues/6832)) ([8d1db5b](https://github.com/EddieHubCommunity/LinkFree/commit/8d1db5bea39cef61d20b690f7fa41617f02afabc))
 
 
 
