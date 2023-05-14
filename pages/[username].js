@@ -23,6 +23,7 @@ export async function getServerSideProps(context) {
   });
 
   const { status, profile } = await getUserApi(req, res, username);
+
   if (status !== 200) {
     log.error(
       profile.error,
