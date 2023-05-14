@@ -25,6 +25,7 @@ permissions:
 
 jobs:
   build:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -53,10 +54,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.event_name != 'pull_request'
+    if: github.repository == 'EddieHubCommunity/LinkFree' && github.event_name != 'pull_request'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
 
