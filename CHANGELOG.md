@@ -1,9 +1,9 @@
-## 1.121.1 (2023-05-11)
+# 1.123.0 (2023-05-14)
 
 
-### Bug Fixes
+### Features
 
-* file name with space Kritipatwa16 ([#6750](https://github.com/EddieHubCommunity/LinkFree/issues/6750)) ([dfac92c](https://github.com/EddieHubCommunity/LinkFree/commit/dfac92c6f054c4601ce0571d57378418bc663fcf))
+* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
 
 
 
