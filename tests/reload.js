@@ -13,60 +13,52 @@
 const fs = require("fs");
 const http = require("http");
 
-const path = "./tests/data/";
-const files = fs.readdirSync(path);
-files.map((file) => fs.copyFileSync(`${path}/${file}`, `data/_${file}`));
+(async () => {
+  const path = "./tests/data/";
+  const files = fs.readdirSync(path);
+  files.map((file) => fs.copyFileSync(`${path}/${file}`, `data/_${file}`));
 
-// 1b. copy `eddiejaoude` folder for `test-user-6`
+  // 1b. copy `eddiejaoude` folder for `test-user-6`
 
-// testimonials exists in profile and json file
-const fullProfile = "test-user-6";
-fs.mkdirSync(`data/${fullProfile}/testimonials`, { recursive: true });
+  // testimonials exists in profile and json file
+  const fullProfile = "test-user-6";
+  fs.mkdirSync(`data/${fullProfile}/testimonials`, { recursive: true });
 
-fs.copyFileSync(
-  `data/eddiejaoude/testimonials/FrancescoXX.json`,
-  `data/test-user-6/testimonials/FrancescoXX.json`
-);
+  fs.copyFileSync(
+    `data/eddiejaoude/testimonials/FrancescoXX.json`,
+    `data/test-user-6/testimonials/FrancescoXX.json`
+  );
 
-// testimonials exists in profile but not in json file
-fs.copyFileSync(
-  `data/eddiejaoude/testimonials/loftwah.json`,
-  `data/test-user-6/testimonials/unknown.json`
-);
+  // testimonials exists in profile but not in json file
+  fs.copyFileSync(
+    `data/eddiejaoude/testimonials/loftwah.json`,
+    `data/test-user-6/testimonials/unknown.json`
+  );
 
-// events exists in profile and json file
-fs.mkdirSync(`data/${fullProfile}/events`, { recursive: true });
+  // events exists in profile and json file
+  fs.mkdirSync(`data/${fullProfile}/events`, { recursive: true });
 
-fs.copyFileSync(
-  `data/eddiejaoude/events/2022-12-10-talk.json`,
-  `data/test-user-6/events/2022-12-10-talk.json`
-);
+  fs.copyFileSync(
+    `data/eddiejaoude/events/2022-12-10-talk.json`,
+    `data/test-user-6/events/2022-12-10-talk.json`
+  );
 
-// 2. hit / run api end point to load profiles
-http
-  .get("http://localhost:3000/api/system/reload?secret=development", (res) => {
-    let data = [];
-    const headerDate =
-      res.headers && res.headers.date ? res.headers.date : "no response date";
-    console.log("Status Code:", res.statusCode);
-    console.log("Date in Response header:", headerDate);
+  // 2. hit / run api end point to load profiles
+  const request = await fetch(
+    "http://localhost:3000/api/system/reload?secret=development"
+  );
+  const res = await request.json();
+  console.log(res);
 
-    res.on("data", (chunk) => {
-      data.push(chunk);
-    });
+  // 3a. check user api has expected results
+  const user1Req = await fetch(
+    `http://localhost:3000/api/users/_test-automated-user-1`
+  );
+  const user1Res = await user1Req.json();
+  console.log(user1Res);
+  // 3b. test user 1
 
-    res.on("end", () => {
-      console.log("Response ended: ");
-      const response = JSON.parse(Buffer.concat(data).toString());
-      console.log(response);
-
-      // 3. check user api has expected results
-
-      // 4. delete test files and folders
-      files.map((file) => fs.unlinkSync(`data/_${file}`));
-      fs.rmSync(`data/${fullProfile}`, { recursive: true, force: true });
-    });
-  })
-  .on("error", (err) => {
-    console.log("Error: ", err.message);
-  });
+  // 4. delete test files and folders
+  files.map((file) => fs.unlinkSync(`data/_${file}`));
+  fs.rmSync(`data/${fullProfile}`, { recursive: true, force: true });
+})();

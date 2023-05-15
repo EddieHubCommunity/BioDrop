@@ -28,9 +28,6 @@ export default async function handler(req, res) {
   // only if `source` is not `database` (this will be set when using forms)
   await Promise.all(
     fullProfiles.map(async (profile) => {
-      if (profile.username !== "eddiejaoude") {
-        return;
-      }
       let currentProfile;
       try {
         currentProfile = await Profile.findOne({
