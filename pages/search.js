@@ -12,12 +12,14 @@ import Input from "@components/form/Input";
 
 export async function getServerSideProps() {
   let data = {
-    users: [],
+    initialRandomUsers: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users?initialRandomUsers=true`
+    );
+    data.initialRandomUsers = await res.json();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -37,7 +39,7 @@ export async function getServerSideProps() {
 }
 
 export default function Search({ data }) {
-  let { users, tags } = data;
+  let { initialRandomUsers, tags } = data;
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
@@ -52,26 +54,11 @@ export default function Search({ data }) {
     }
   }, [username]);
 
-  const filterData = (value) => {
+  const filterData = async (value) => {
     const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
 
-    results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
-
-      return false;
-    });
+    let searchresults = await fetch(`/api/users?keywords=${valueLower}`);
+    results = await searchresults.json();
 
     if (!results.length) {
       setNotFound(value);
@@ -162,11 +149,15 @@ export default function Search({ data }) {
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {filteredUsers.map((user) => (
-            <li key={user.username}>
-              <UserCard profile={user} />
-            </li>
-          ))}
+          {!notFound &&
+            (filteredUsers.length === 0
+              ? initialRandomUsers
+              : filteredUsers
+            ).map((user) => (
+              <li key={user.username}>
+                <UserCard profile={user} />
+              </li>
+            ))}
         </ul>
       </Page>
     </>
