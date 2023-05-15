@@ -28,6 +28,9 @@ export default async function handler(req, res) {
   // only if `source` is not `database` (this will be set when using forms)
   await Promise.all(
     fullProfiles.map(async (profile) => {
+      if (profile.username !== "eddiejaoude") {
+        return;
+      }
       let currentProfile;
       try {
         currentProfile = await Profile.findOne({
@@ -121,7 +124,7 @@ export default async function handler(req, res) {
                   await Link.find({ username: profile.username })
                 ).map((link) => link._id),
               },
-              { new: true }
+              { upsert: true, new: true }
             );
           }
 
@@ -131,7 +134,6 @@ export default async function handler(req, res) {
             path: "links",
           });
 
-          // disable LINKS not in json file
           console.log(
             `PROFILE: ${profile.username}`,
             `DB: ${currentProfile.links.length}`,
@@ -141,10 +143,13 @@ export default async function handler(req, res) {
             //   (link) => !enabledLinks.includes(link.url)
             // )}`
           );
-          // PROFILE: wasup-yash DB: 0 ENALBED: 0 FILTER:
+
+          // disable LINKS not in json file
           await Promise.all(
             currentProfile.links
-              .filter((link) => !enabledLinks.includes(link.url))
+              .filter(
+                (link) => !enabledLinks.map((l) => l.url).includes(link.url)
+              )
               .map(async (link) => {
                 await Link.findOneAndUpdate(
                   { _id: link._id },
