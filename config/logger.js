@@ -1,4 +1,5 @@
 import * as PinoLogger from "pino";
+import env from '@config/env';
 
 const config = {
   transport: {
@@ -12,7 +13,7 @@ const config = {
 let logger;
 
 logger = PinoLogger.pino(
-  process.env.NODE_ENV === "development" ? config : {}
+  env.NODE_ENV === "development" ? config : {}
 );
 
 
