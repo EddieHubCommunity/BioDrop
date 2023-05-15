@@ -10,7 +10,7 @@ test("Playground has title", async ({ page }) => {
 
 test("Navigate to Playground", async ({ page }) => {
   await page.goto("/");
-  await page.locator("a:visible", { hasText: "Playground" }).click();
+  await page.getByRole("link", { name: "Playground", exact: true }).click();
   await expect(page.locator("h1")).toHaveText("Playground");
 });
 
