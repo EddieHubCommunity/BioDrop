@@ -1,8 +1,4 @@
 import { z } from "zod";
-import * as dotenv from 'dotenv';
-
-// Load environment variables from .env file
-dotenv.config()
 
 const DEVELOPMENT_ENV = "development";
 const PRODUCTION_ENV = "production";
