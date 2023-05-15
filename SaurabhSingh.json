@@ -1,0 +1,22 @@
+{
+  "name": "Saurabh Singh",
+  "type": "personal",
+  "bio": "Learning full stack development|Python|Django",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/@Saur_abh_01",
+      "icon": "FaTwitter"
+    },
+    {
+    "name": "Github",
+     "url": "https://github.com/Saurabh-Singh02",
+      "icon": "FaGithub"
+    },
+    {
+    "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/saurabh-singh-a6a68322a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
