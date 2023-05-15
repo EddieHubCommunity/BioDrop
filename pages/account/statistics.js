@@ -1,6 +1,8 @@
-import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+
+import { authOptions } from "../api/auth/[...nextauth]";
 import ProgressBar from "@components/statistics/ProgressBar";
+import env from '@config/env'
 
 import {
   BarChart,
@@ -66,7 +68,7 @@ export async function getServerSideProps(context) {
 
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
+      `${env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
       {
         headers: {
           cookie: context.req.headers.cookie || "",
@@ -158,7 +160,7 @@ export default function Statistics({ data, profile, progress }) {
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} (
           <Link
-            href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
+            href={`${env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
           >
             {profile.username}
           </Link>

@@ -7,6 +7,7 @@ import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
+import env from '@config/env'
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -19,7 +20,7 @@ export async function getServerSideProps() {
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
+    const res = await fetch(`${env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
     logger.error(e, "ERROR search users");
@@ -36,7 +37,7 @@ export async function getServerSideProps() {
 
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+      `${env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
     );
     data.tags = await res.json();
     data.tags = data.tags.filter((tag) =>

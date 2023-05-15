@@ -14,7 +14,7 @@ let envSchema = z.object({
   LINKFREE_MONGO_CONNECTION_STRING: z.string().nonempty(),
   // Next App configuration
   NEXT_PUBLIC_BASE_URL: z.string().trim().url().nonempty(),
-  NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string(),
+  NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string().optional(),
   // NextAuth credentials
   NEXTAUTH_URL: z.string().trim().url().optional(),
   NEXTAUTH_SECRET: z.string().optional(),

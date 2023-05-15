@@ -1,9 +1,10 @@
 import fs from 'fs';
+import env from '@config/env'
 
-const fileName = process.env.FILE_NAME;
-const title = process.env.DATA_TITLE;
-const description = process.env.DATA_DESCRIPTION;
-const date = process.env.DATA_DATE;
+const fileName = env.FILE_NAME;
+const title = env.DATA_TITLE;
+const description = env.DATA_DESCRIPTION;
+const date = env.DATA_DATE;
 
 const output = {
   title,

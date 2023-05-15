@@ -1,6 +1,8 @@
-let fileNames = process.env.FILENAMES.split(' ');
-const baseFileNames = process.env.BASE_FILENAMES.split(' ');
-const user = process.env.USERNAME;
+import env from '@config/env'
+
+let fileNames = env.FILENAMES.split(' ');
+const baseFileNames = env.BASE_FILENAMES.split(' ');
+const user = env.USERNAME;
 let exitCode = 0;
 
 // Remove files not changed in this PR from list

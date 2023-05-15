@@ -7,6 +7,7 @@ import strip from "strip-markdown";
 import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
 import logger from "@config/logger";
+import env from '@config/env'
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import SingleLayout from "@components/layouts/SingleLayout";
@@ -46,7 +47,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data: profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: env.NEXT_PUBLIC_BASE_URL },
   };
 }
 

@@ -6,9 +6,10 @@ import Button from "@components/Button";
 import Modal from "@components/Modal";
 import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
+import env from '@config/env'
 
 export default function Playground() {
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+  const BASE_URL = env.NEXT_PUBLIC_BASE_URL;
   const defaultJson = `{
     "name": "Your Name",
     "type": "personal",

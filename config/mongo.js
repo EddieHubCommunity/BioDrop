@@ -1,28 +1,23 @@
 import mongoose from "mongoose";
 import * as fs from "fs";
 
-import logger from "../config/logger";
+import logger from "@config/logger";
+import env from '@config/env'
 
 let hasConnection;
 const connectMongo = async () => {
-  if (!process.env.LINKFREE_MONGO_CONNECTION_STRING) {
-    throw new Error(
-      "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
-    );
-  }
-
   if (hasConnection) {
     return hasConnection;
   }
   try {
     // DigitalOcean Apps has cert as environment variable but Mongo needs a file path
     // Write Mongo cert file to disk
-    if (process.env.CA_CERT) {
-      fs.writeFileSync("cert.pem", process.env.CA_CERT);
+    if (env.CA_CERT) {
+      fs.writeFileSync("cert.pem", env.CA_CERT);
     }
 
     hasConnection = await mongoose.connect(
-      process.env.LINKFREE_MONGO_CONNECTION_STRING,
+      env.LINKFREE_MONGO_CONNECTION_STRING,
       { autoIndex: true, family: 4 }
     );
     hasConnection = true;

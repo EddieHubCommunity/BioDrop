@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 
 import logger from "@config/logger";
+import env from '@config/env'
 import findOneByUsernameBasic from "./findOneByUsernameBasic";
 
 export default function findOneByUsernameFull(username) {
@@ -45,7 +46,7 @@ export default function findOneByUsernameFull(username) {
 
           return {
             ...testimonial,
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonialUsername}`,
+            url: `${env.NEXT_PUBLIC_BASE_URL}/${testimonialUsername}`,
           };
         } catch (e) {
           log.warn(

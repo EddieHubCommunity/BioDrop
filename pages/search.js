@@ -9,6 +9,7 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
+import env from '@config/env'
 
 export async function getServerSideProps() {
   let data = {
@@ -16,7 +17,7 @@ export async function getServerSideProps() {
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
+    const res = await fetch(`${env.NEXT_PUBLIC_BASE_URL}/api/users`);
     data.users = await res.json();
   } catch (e) {
     logger.error(e, "ERROR search users");
@@ -24,7 +25,7 @@ export async function getServerSideProps() {
 
   try {
     const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
+      `${env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
     );
     data.tags = await res.json();
   } catch (e) {

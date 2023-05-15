@@ -8,11 +8,12 @@ import Page from "@components/Page";
 import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
+import env from '@config/env'
 
 export async function getServerSideProps(context) {
   let events = [];
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
+    const res = await fetch(`${env.NEXT_PUBLIC_BASE_URL}/api/events`);
     events = await res.json();
   } catch (e) {
     logger.error(e, "ERROR events list");

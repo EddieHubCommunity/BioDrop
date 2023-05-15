@@ -1,5 +1,7 @@
-import connectMongo from "@config/mongo";
 import { encode } from "next-auth/jwt";
+
+import connectMongo from "@config/mongo";
+import env from '@config/env'
 
 import { User, Session, Account } from "@models/index";
 
@@ -16,7 +18,7 @@ const login = async (browser) => {
       username: "eddiejaoude",
       id: "22222222",
     },
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: env.NEXTAUTH_SECRET,
   });
 
   let testUser;
