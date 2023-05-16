@@ -14,13 +14,14 @@
       "icon": "FaGithub"
     },
     {
-      "name":"LinkedIn",
-      "url":"https://linkedin.com/in/vineetjaiswara/",
-      "icon":"FaLinkedin"},
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/vineetjaiswara/",
+      "icon": "FaLinkedin"
+    },
     {
-      "name":"Instagram",
-      "url":"https://instagram.com/vinjaiss",
-      "icon":"FaInstagram"
+      "name": "Instagram",
+      "url": "https://instagram.com/vinjaiss",
+      "icon": "FaInstagram"
     }
   ]
 }
