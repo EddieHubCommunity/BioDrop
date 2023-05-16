@@ -1,0 +1,12 @@
+{
+  "name": "Kaushik Kundu",
+  "type": "personal",
+  "bio": "Aspiring software engineer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Kaushik_901",
+      "icon": "FaTwitter"
+    }
+  ]
+}

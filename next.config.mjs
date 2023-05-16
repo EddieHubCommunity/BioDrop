@@ -42,8 +42,9 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm, [remarkPrism, {transformInlineCode: true}]],
+    remarkPlugins: [remarkGfm, [remarkPrism, { transformInlineCode: true }]],
     rehypePlugins: [],
+    providerImportSource: "@mdx-js/react",
   },
 });
 

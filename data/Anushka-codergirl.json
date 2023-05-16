@@ -1,7 +1,6 @@
 {
   "name": "Anushka Raj",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Software Engineer | Crowdsource Influencer | AngelHack Student Ambassador | Tech Enthusiast |",
   "tags": ["Java", "JavaScript", "Open Source", "DevOps", "Docker"],
   "socials": [
@@ -9,7 +8,7 @@
     { "icon": "FaGithub", "url": "https://github.com/Anushka-codergirl" },
     { "icon": "FaLink", "url": "https://anushkaraj.me" }
   ],
-  "avatar": "https://github.com/Anushka-codergirl.png",
+
   "links": [
     {
       "name": "Follow my Open Source on GitHub",

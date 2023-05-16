@@ -2,7 +2,7 @@
   "name": "Yire Morlans",
   "type": "personal",
   "bio": "Full-stack Software Engineer | In my free time, I create apps and play Pokémon Go.",
-  "avatar": "https://github.com/yiremorlans.png",
+
   "links": [
     {
       "name": "My portfolio website",
@@ -41,7 +41,7 @@
     },
     {
       "title": "48in48.org Volunteer Event",
-      "image": "https://48in48.org/wp-content/uploads/2017/05/48in48_logo_Official-1.png",
+
       "date": "June 2022",
       "icon": "FaLink",
       "color": "green",

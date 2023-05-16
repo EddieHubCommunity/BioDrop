@@ -15,7 +15,8 @@ const StatsSchema = new mongoose.Schema({
   },
   date: {
     type: Date,
-    default: new Date(new Date().toLocaleDateString()),
+    default: new Date(),
+    index: true,
   },
 });
 

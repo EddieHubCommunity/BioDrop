@@ -1,9 +1,8 @@
 {
   "name": "Ahmad Raza",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Web developer | Blogger | Freelancer | Student",
-  "avatar": "https://github.com/razaahmad333.png",
+
   "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Blogs"],
   "socials": [
     {

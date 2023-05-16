@@ -1,0 +1,17 @@
+{
+  "name": "Kunal Gavhane",
+  "type": "personal",
+  "bio": "👨‍💻 Software Developer | Tech-Writer | Open Source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iam_kgkunal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Kgkunal",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

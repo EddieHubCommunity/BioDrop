@@ -11,13 +11,15 @@ const profileStatsSchema = new mongoose.Schema({
   },
   date: {
     type: Date,
-    default: new Date(new Date().toLocaleDateString()),
+    default: new Date(),
   },
   profile: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "profile",
   },
 });
+
+profileStatsSchema.index({ username: 1, date: 1 });
 
 module.exports =
   mongoose.models.ProfileStats ||

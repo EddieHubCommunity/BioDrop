@@ -1,9 +1,8 @@
 {
   "name": "Tanishka Yadav",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "SWE Intern | Full-Stack Developer | Technical Writer |",
-  "avatar": "https://github.com/Tanishka-dev.png",
+
   "tags": [
     "Javascript",
     "ReactJs",

@@ -1,7 +1,6 @@
 {
   "name": "Nanthakumaran S",
   "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Software Developer | **Cloud** & **DevOps** Enthusiast | Open Source Beginner",
   "tags": [
     "Open Source",
@@ -17,7 +16,7 @@
     { "icon": "FaLinkedin", "url": "https://linkedin.com/in/nanthakumaran-s" },
     { "icon": "FaGlobe", "url": "https://nanthakumaran.com" }
   ],
-  "avatar": "https://github.com/nanthakumaran-s.png",
+
   "links": [
     {
       "name": "Follow me on Twitter",

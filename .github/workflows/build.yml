@@ -5,6 +5,7 @@ on:
       - pages/**
       - tests/**
       - components/**
+      - config/**
 
 jobs:
   build:
@@ -34,8 +35,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shardIndex: [1, 2, 3, 4]
-        shardTotal: [4]
+        shardIndex: [1, 2, 3]
+        shardTotal: [3]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -48,6 +49,6 @@ jobs:
         run: npx playwright install chromium
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
-      - uses: test-summary/action@v2
+      - uses: test-summary/action@v2.0
         with:
           paths: "results.xml"

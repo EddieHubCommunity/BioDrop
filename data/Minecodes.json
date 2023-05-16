@@ -2,7 +2,7 @@
   "name": "Minecodes",
   "type": "personal",
   "bio": "Hobby coder that builds apps for Discord, Markdown, GitHub, Linux, Windows, Guilded and Minecraft",
-  "avatar": "https://github.com/Minecodes.png",
+
   "links": [
     {
       "name": "Visit my YouTube Channel",
@@ -43,7 +43,7 @@
   "milestones": [
     {
       "title": "Started YouTube",
-      "image": "https://github.com/Minecodes.png",
+
       "date": "April 2021",
       "icon": "FaYoutube",
       "color": "red",
@@ -52,7 +52,7 @@
     },
     {
       "title": "First GitHub project",
-      "image": "https://raw.githubusercontent.com/Minecodes/randomfox/master/assets/randomfox.png",
+
       "date": "January 2021",
       "icon": "FaGithub",
       "color": "orange",
@@ -61,7 +61,7 @@
     },
     {
       "title": "41 subs on YouTube",
-      "image": "https://i9.ytimg.com/vi_webp/TEH1sveCv2g/mqdefault.webp?v=60ed1d46&sqp=CLzFk40G&rs=AOn4CLBufwFB5eIyC8s5KxLdYPZD_pgq5g",
+
       "date": "July 2021",
       "icon": "FaYoutube",
       "color": "red",
@@ -70,7 +70,7 @@
     },
     {
       "title": "First contribution on GitHub",
-      "image": "https://github.com/scorder96.png",
+
       "date": "October 2021",
       "icon": "FaGithub",
       "color": "orange",

@@ -1,9 +1,8 @@
 {
   "name": "Ananya Nayak",
-  "displayStatsPublic": true,
   "type": "personal",
   "bio": "Budding Full Stack Dev, Open Source contributor and DevOps enthusiast",
-  "avatar": "https://github.com/Ananya2001-an.png",
+
   "tags": [
     "javascript",
     "nodejs",

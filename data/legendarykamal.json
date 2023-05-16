@@ -1,6 +1,5 @@
 {
   "name": "Kamal Singh",
-  "displayStatsPublic": true,
   "type": "personal",
   "tags": [
     "NextJS",
@@ -12,7 +11,7 @@
     "Open Source"
   ],
   "bio": "MERN FullStack Developer turned into **Blockchain developer**. Create Apps , Dapps  , Travel , Life",
-  "avatar": "https://github.com/legendarykamal.png",
+
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/0xkamal7" },
     { "icon": "FaGithub", "url": "https://github.com/legendarykamal" },
@@ -60,7 +59,7 @@
     },
     {
       "title": "Started YouTube",
-      "image": "https://github.com/legendarykamal.png",
+
       "date": "jan 2022",
       "icon": "FaYoutube",
       "color": "red",
