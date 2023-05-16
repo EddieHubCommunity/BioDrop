@@ -11,7 +11,6 @@
 
 // 1a. move test profiles to data directory (prepend `_` to filename)
 const fs = require("fs");
-const http = require("http");
 
 (async () => {
   const path = "./tests/data/";
@@ -50,15 +49,53 @@ const http = require("http");
   const res = await request.json();
   console.log(res);
 
-  // 3a. check user api has expected results
-  const user1Req = await fetch(
-    `http://localhost:3000/api/users/_test-automated-user-1`
-  );
-  const user1Res = await user1Req.json();
-  console.log(user1Res);
-  // 3b. test user 1
+  // 3. check user api has expected results
+  await checkUser1();
+  await checkUser2();
 
   // 4. delete test files and folders
   files.map((file) => fs.unlinkSync(`data/_${file}`));
   fs.rmSync(`data/${fullProfile}`, { recursive: true, force: true });
 })();
+
+async function checkUser1() {
+  const userReq = await fetch(
+    `http://localhost:3000/api/users/_test-automated-user-1`
+  );
+  const userRes = await userReq.json();
+  expectedUser = {
+    ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-1.json")),
+    username: "_test-automated-user-1",
+  };
+  const userChecks = ["username", "name", "bio"];
+  userChecks.map((check) => {
+    if (expectedUser[check] !== userRes[check]) {
+      console.log(
+        `User ${expectedUser.username}: "${check}" does not match expected`,
+        expectedUser[check],
+        userRes[check]
+      );
+    }
+  });
+}
+
+async function checkUser2() {
+  const userReq = await fetch(
+    `http://localhost:3000/api/users/_test-automated-user-2`
+  );
+  const userRes = await userReq.json();
+  expectedUser = {
+    ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-2.json")),
+    username: "_test-automated-user-2",
+  };
+  const userChecks = ["username", "name", "bio", "links"];
+  userChecks.map((check) => {
+    if (expectedUser[check] !== userRes[check]) {
+      console.log(
+        `User ${expectedUser.username}: "${check}" does not match expected`,
+        expectedUser[check],
+        userRes[check]
+      );
+    }
+  });
+}

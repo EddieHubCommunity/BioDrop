@@ -36,7 +36,10 @@ export async function getUserApi(req, res, username) {
     select: "-__v -clicks -profile",
     options: { sort: { order: 1 } },
   });
-
+  console.log(
+    getProfile,
+    getProfile.links.filter((link) => link.isEnabled)
+  );
   if (!getProfile) {
     logger.error(`Failed loading profile username: ${username}`);
     return {
@@ -49,8 +52,8 @@ export async function getUserApi(req, res, username) {
 
   getProfile = {
     ...getProfile._doc,
-    links: getProfile.links.filter((link) => link.isEnabled),
-    socials: getProfile.links.filter((link) => link.isPinned),
+    links: getProfile._doc.links.filter((link) => link.isEnabled),
+    socials: getProfile._doc.links.filter((link) => link.isPinned),
   };
 
   await getLocation(username, getProfile);
