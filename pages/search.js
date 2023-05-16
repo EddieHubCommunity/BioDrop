@@ -10,7 +10,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let data = {
     users: [],
     tags: [],
@@ -40,8 +40,8 @@ export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
   const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
