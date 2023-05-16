@@ -12,7 +12,7 @@ Here is an example of a LinkFree Profile https://linkfree.io/eddiejaoude
 
 ## Tech Stack
 
-LinkFree was built using the following technologies:
+LinkFree is built using the following technologies:
 
 - [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
 - [MongoDB](https://www.mongodb.com/) - a NoSQL database
