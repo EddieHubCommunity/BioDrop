@@ -133,6 +133,14 @@
       "color": "grey",
       "description": "A self-built Wiki system (Github Fork)",
       "url": "https://server15.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Alist",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A file list program that supports multiple storage (Github Fork)",
+      "url": "https://server16.xyzzyxwz.top:12030"
     }
   ]
 }

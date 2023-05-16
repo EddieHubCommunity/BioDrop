@@ -262,6 +262,15 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description: "A guide for contributors when making changes to the documentation.",
+          category: {
+           name: "Beginner",
+           color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
