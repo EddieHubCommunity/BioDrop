@@ -1,10 +1,11 @@
 {
   "name": "Shoeb Ilyas",
   "type": "personal",
-  "bio": "An undergrad student with a passion of computer science and programming. I have been in the industry for around two years now.",
+  "bio": "Software Developer | MERN | DevOps | OpenSource Contributor",
+  "tags":["DevOps","OpenSource","React","Typescript","Javascript","NextJS","ReactJS"],
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "Let's Connect on Twitter",
       "url": "https://twitter.com/shoebilyas123",
       "icon": "FaTwitter"
     },
@@ -14,14 +15,14 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Let's Connect on LinkedIn",
+      "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/shoeb-ilyas",
       "icon": "FaLinkedin"
     },
     {
       "name": "My Tech Blogs",
       "url": "https://shoebilyas.hashnode.dev",
-      "icon": "FaLinkedin"
+      "icon": "FaHashnode"
     }
   ]
 }
