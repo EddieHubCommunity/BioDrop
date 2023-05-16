@@ -12,7 +12,9 @@
     "REST APIs",
     "DevOps"
   ],
-  "testimonials": ["loftwah"],
+  "testimonials": [
+    "loftwah"
+  ],
   "socials": [
     {
       "url": "https://twitter.com/AussieDev81",
@@ -25,6 +27,10 @@
     {
       "url": "https://discord.com/users/821987974690373662",
       "icon": "FaDiscord"
+    },
+    {
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "links": [
@@ -33,6 +39,12 @@
       "url": "https://aussiedev81.com/",
       "icon": "FaExternalLinkAlt",
       "color": "#F97316"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee",
+      "color": "#FFDD00"
     },
     {
       "name": "Follow me on Twitter",
