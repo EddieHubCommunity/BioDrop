@@ -1,9 +1,4 @@
 {
   "version": "1.123.0",
-  "alerts": [
-    {
-      "type": "warning",
-      "message": "This is a warning message"
-    }
-  ]
+  "alerts": []
 }
