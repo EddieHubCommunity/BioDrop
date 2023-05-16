@@ -7,6 +7,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const tags = await getTags();
+  res.status(200).json(tags);
+}
+export async function getTags() {
+
   const profiles = findAllBasic();
 
   const tags = profiles.flatMap((profile) =>
@@ -28,5 +33,5 @@ export default async function handler(req, res) {
     }))
     .sort((a, b) => b.total - a.total);
 
-  res.status(200).json(tagsSorted);
+  return tagsSorted;
 }

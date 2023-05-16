@@ -7,20 +7,21 @@ import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
+import {getTags} from "./api/discover/tags"
+import {getUsers} from "./api/users";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
   ssr: false,
 });
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -35,12 +36,9 @@ export async function getServerSideProps() {
   );
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    data.tags = await getTags();
     data.tags = data.tags.filter((tag) =>
-      data.users.find((user) => user.tags.includes(tag.name))
+      data.users.find((user) => user.tags && user.tags.includes(tag.name))
     );
   } catch (e) {
     logger.error(e, "ERROR loading tags");
@@ -48,6 +46,7 @@ export async function getServerSideProps() {
 
   return {
     props: { data },
+    revalidate: 60 * 60 * 12, //12 hours
   };
 }
 
