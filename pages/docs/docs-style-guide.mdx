@@ -1,0 +1,114 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## About this guide
+
+Since our community consists of people from diverse areas of expertise within tech and other industries, we decided to create a simple, straightforward style guide that everyone can use. Below are the four sections that our guide will focus on:
+
+- [Inclusive Language](#inclusive-language)
+- [Grammar \& Mechanics](#grammar--mechanics)
+- [Clarity](#clarity)
+- [Accessibility](#accessibility)
+
+## Inclusive Language
+
+1. Use gender-neutral words for common terms.
+
+   **Example:** 
+    - **Not this:** A maintainer should try to be kind yet constructive in **his** feedback.
+    - **Use this:** A maintainer should try to be kind yet constructive in **their** feedback.
+
+2. Avoid using terms that have colonialist or racist connotations.
+
+   **Example:** 
+   - **Not this:** Contributors should push their pull requests to the **master** branch.
+   - **Use this:** Contributors should push their pull requests to the **main** branch.
+
+## Grammar & Mechanics
+
+### Commas
+
+1. Use commas when describing lists.
+
+   **Example:** 
+   - **Not this:** You can also add your **timeline testimonials and upcoming events** that you are participating in.
+   - **Use this:** You can also add your **timeline, testimonials, and upcoming events** that you are participating in.
+
+2. Use commas in introductory elements.
+
+   **Example:** 
+   - **Not this:** **If you do not have one yet** you can create one for free with an email address and password.
+   - **Use this:** **If you do not have one yet,** you can create one for free with an email address and password.
+
+3. Use commas before the seven coordinating conjunctions (and, but, so, for, nor, yet, or) to separate two independent clauses.
+
+   **Example:** 
+   - **Not this:** There are 4 ways you can add your profile **but** for this Quickstart we will use the GitHub UI.
+   - **Use this:** There are 4 ways you can add your profile, **but** for this Quickstart we will use the GitHub UI.
+
+### Capitalisation
+
+1. Only capitalise terms that describe a product, its feature, the first letter of a sentence, or a person's name.
+
+   **Example:** 
+    - **Not this:** There are 4 ways you can add your profile but for this **quickstart** we will use the **github ui**.
+    - **Use this:** There are 4 ways you can add your profile, but for this Quickstart we will use the **GitHub UI**.
+
+## Clarity
+
+### Active vs. Passive
+
+1. Remember how your writing instructor has often discouraged you from writing in the passive voice? Well, we need to make sure that contributors fully understand how to contribute to Linkfree, so it would be best to use active voice when working on our documentation.
+
+   **Example:** 
+    - **Not this:** Gitpod **was** an open-source application that provides a prebuilt development environment in your browser - powered by VS Code.
+    - **Use this:** Gitpod **is** an open-source application that provides a prebuilt development environment in your browser - powered by VS Code.
+
+### Jargon
+
+1. Since members of EddieHub tend to be new to open-source contributions, it would be best to use technical jargon sporadically so that they can gain a better understanding of how to contribute to Linkfree.
+
+   **Example:** 
+    - **Not this:** Gitpod **was** an open-source application that provides a prebuilt development environment in your browser - powered by VS Code.
+    - **Use this:** Gitpod **is** an open-source application that provides a prebuilt development environment in your browser - powered by VS Code.
+
+## Accessibility
+
+### Bullet points
+
+1. Avoid describing things by their colour or position. Instead, use hyperlinks or figure numbers.
+
+   **Example:** 
+    - **Not this:** See the **image above**.
+    - **Use this:** See **Image 2.2.**
+
+### Emojis
+
+1. Avoid using emojis as bullet points or numbered lists.
+
+   **Example:** 
+   - **Not this:** \
+   1️⃣ Fork the repo. \
+   2️⃣ Visit the LinkFree repo.
+
+   - **Use this:** \
+ **1.** Fork the repo. \
+ **2️.** Visit the LinkFree repo.
+
+2. Avoid using emojis in the middle of a sentence.
+
+   **Example:** 
+    - **Not this:** There are 4️⃣ ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+    - **Use this:** There are **4** ways you can add your profile, but for this Quickstart we will use the GitHub UI.
+
+3. Use them sparingly at the end of a sentence.
+
+   **Example:** 
+    - **Not this:** Join the conversation on our Discord community! 😀
+    - **Use this:** Join the conversation on our Discord community!
+
+Have some ideas on improving the guide? Contact us at [Eddiehub](https://github.com/EddieHubCommunity). We’d love to receive your feedback!
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree Style Guide">{children}</DocsLayout>
+);
