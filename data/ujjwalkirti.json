@@ -31,5 +31,15 @@
       "url": "https://www.ujjwalkirti.tech",
       "name": "My personal Protfolio"
     }
+  ],
+  "milestones": [
+    {
+      "title": "Developed my first Fullstack website",
+      "date": "22th January 2023",
+      "icon": "FaDesktop",
+      "color": "orange",
+      "description": "Made a fullstack website for the day night cricketing event for my Institute MMNCT. It had nearly 250 users using it at any 30 minutes.",
+      "url": "https://www.ujjwalkirti.tech"
+    }
   ]
 }
