@@ -262,6 +262,15 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description: "A guide for contributors when making changes to the documentation.",
+          category: {
+           name: "Beginner",
+           color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
@@ -312,15 +321,6 @@ export default function DocsIndex() {
           category: {
             name: "Advanced",
             color: "bg-red-100 text-red-800",
-          },
-        },
-        {
-          name: "Docs Style Guide",
-          path: "/docs/docs-style-guide",
-          description: "This is a style guide for contributors to refer to when working with the documentation",
-          category: {
-           name: "Beginner",
-           color: "bg-green-100 text-green-800",
           },
         },
       ],
