@@ -3,11 +3,17 @@
   "type": "personal",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/bikramjitindia" },
-    { "icon": "FaLinkedinIn", "url": "https://www.linkedin.com/in/bikramjit-saha-44b3251a0/" },
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/bikramjit-saha-44b3251a0/"
+    },
     { "icon": "FaGithub", "url": "https://github.com/Bikramjit21" },
-    { "icon": "SiYoutube", "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw" }
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw"
+    }
   ],
-    "tags": [ "Web Development", "PHP", "Laravel"],
+  "tags": ["Web Development", "PHP", "Laravel"],
   "bio": "Web Developer| **PHP** & **Laravel** | Technical Writer ",
   "links": [
     {
@@ -35,5 +41,5 @@
       "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw",
       "icon": "SiYoutube"
     }
-    ]
+  ]
 }

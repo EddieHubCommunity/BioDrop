@@ -5,9 +5,9 @@
 
   "links": [
     {
-  "name": "Follow me on Github",
-  "url": "https://github.com/althios",
-  "icon": "FaGithub"
+      "name": "Follow me on Github",
+      "url": "https://github.com/althios",
+      "icon": "FaGithub"
     }
   ]
 }
