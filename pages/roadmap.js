@@ -14,6 +14,7 @@ export default function Roadmap() {
       name: "Recently released",
       id: "release-recently",
       href: "/changelog",
+      external: false,
       actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
@@ -35,6 +36,7 @@ export default function Roadmap() {
       name: "In the works",
       id: "release-in-progress",
       href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
+      external: true,
       actionText: "Issue list",
       description: "Features are currently being worked on or will be soon.",
       features: [
@@ -56,6 +58,7 @@ export default function Roadmap() {
       name: "Coming soon",
       id: "release-future",
       href: "https://github.com/EddieHubCommunity/LinkFree/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee",
+      external: true,
       actionText: "Unassigned issue list",
       description: "Features are being planned for the near future.",
       features: [
@@ -95,9 +98,9 @@ export default function Roadmap() {
                   key={phase.id}
                   className={classNames(
                     phase.mostPopular ? "lg:z-10 lg:rounded-b-none" : "lg:mt-8",
-                    phaseIdx === 0 ? "lg:rounded-r-none border-r-0 " : "",
+                    phaseIdx === 0 ? "lg:rounded-r-none lg:border-r-0" : "",
                     phaseIdx === releases.length - 1
-                      ? "lg:rounded-l-none border-l-0"
+                      ? "lg:rounded-l-none lg:border-l-0"
                       : "",
                     "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
                   )}
@@ -138,7 +141,7 @@ export default function Roadmap() {
                   </div>
                   <Link
                     href={phase.href}
-                    target="_blank"
+                    target={phase.external ? "_blank" : "_self"}
                     aria-describedby={phase.id}
                     className={classNames(
                       phase.mostPopular
