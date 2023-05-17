@@ -183,6 +183,7 @@ export default async function handler(req, res) {
       }
 
       // 3. testimonials (enable selected testimonials)
+      // Pradumna no testimonials ???
       try {
         if (profile.testimonials) {
           await Profile.findOneAndUpdate(
