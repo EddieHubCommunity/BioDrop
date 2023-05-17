@@ -3,20 +3,16 @@
   "type": "personal",
   "bio": "The **Accessibility First** DevRel | Check out [grahamthe.dev](https://grahamthe.dev) | #365DaysOfAI | #Mission1Million",
 
-  "tags": [
-    "Accessibility",
-    "DevRel",
-    "Community",
-    "OSS"
-  ],
+  "tags": ["Accessibility", "DevRel", "Community", "OSS"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/GrahamTheDevRel" },
     { "icon": "FaGithub", "url": "https://github.com/GrahamTheDevRel" },
-    { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/grahamthedevrel/" }
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/grahamthedevrel/"
+    }
   ],
-  "testimonials": [
-    "loftwah"
-  ],
+  "testimonials": ["loftwah"],
   "links": [
     {
       "group": "Websites",
@@ -37,7 +33,7 @@
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
-     {
+    {
       "group": "Socials",
       "name": "GitHub",
       "url": "https://github.com/GrahamTheDevRel",
@@ -50,7 +46,7 @@
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
-   
+
     {
       "group": "Socials",
       "name": "LinkedIn",
