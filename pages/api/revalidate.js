@@ -11,6 +11,7 @@ export default async function handler(req, res) {
   try {
     await res.revalidate('/')
     await res.revalidate('/map')
+    await res.revalidate('/search')
     return res.json({ revalidated: true })
   } catch (err) {
     return res.json({ revalidated: false })

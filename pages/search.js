@@ -9,30 +9,29 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
+import {getTags} from "./api/discover/tags"
+import {getUsers} from "./api/users";
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    data.tags = await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
 
   return {
     props: { data },
+    revalidate: 60 * 60 * 2, //2 hours
   };
 }
 
