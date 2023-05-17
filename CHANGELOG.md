@@ -1,9 +1,9 @@
-# 1.123.0 (2023-05-14)
+## 1.124.4 (2023-05-16)
 
 
-### Features
+### Bug Fixes
 
-* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
+* word-wrap in doc ([#6923](https://github.com/EddieHubCommunity/LinkFree/issues/6923)) ([51ef805](https://github.com/EddieHubCommunity/LinkFree/commit/51ef80501f86c26922304d0aae6bc02528ab91f5))
 
 
 
