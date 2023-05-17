@@ -1,16 +1,38 @@
 import { Fragment } from 'react';
 import { Transition } from '@headlessui/react';
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import { XMarkIcon } from '@heroicons/react/20/solid'
+import { XMarkIcon, ExclamationCircleIcon } from '@heroicons/react/20/solid'
 
-export default function Notification({ show, onClose, successMessage, message }) {
+export default function Notification({ show, onClose, type, message, alignment, additionalMessage }) {
+
+  let iconComponent;
+  switch (type) {
+    case "success":
+      iconComponent = <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />;
+      break;
+    case "error":
+      iconComponent = <ExclamationCircleIcon className="h-6 w-6 text-red-400" aria-hidden="true" />;
+      break;
+    default:
+      iconComponent = null;
+      break;
+  }
+
+  let notificationAlignmentClass = "sm:items-center";
+  if (alignment === "left") {
+    notificationAlignmentClass = "sm:items-start";
+  } else if (alignment === "right") {
+    console.log("alignment right");
+    notificationAlignmentClass = "sm:items-end";
+  }
+
   return (
     <>
     <div
       aria-live="assertive"
       className="pointer-events-none fixed z-40 inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
     >
-      <div className="flex w-full flex-col items-center space-y-4 sm:items-end">
+      <div className={`flex w-full flex-col items-center space-y-4 ${notificationAlignmentClass}`}>
         <Transition
           show={show}
           as={Fragment}
@@ -25,11 +47,13 @@ export default function Notification({ show, onClose, successMessage, message })
             <div className="p-4">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />
+                {iconComponent}
                 </div>
                 <div className="ml-3 w-0 flex-1 pt-0.5">
-                  <p className="text-sm font-medium text-primary-high">{successMessage}</p>
-                  <p className="mt-1 text-sm text-primary-medium">{message}</p>
+                  <p className="text-sm font-medium text-primary-high">{message}</p>
+                  {additionalMessage && (
+                    <p className="mt-1 text-sm text-primary-medium">{additionalMessage}</p>
+                  )}
                 </div>
                 <div className="ml-4 flex flex-shrink-0">
                   <button

@@ -22,9 +22,11 @@ export default function IconCard({ iconName }) {
       </button>
       <Notification
         show={showNotification}
+        type = "success"
         onClose={() => setShowNotification(false)}
-        successMessage="Successfully copied!"
-        message={`Copied ${iconName} to clipboard`}
+        alignment = "right"
+        message="Successfully copied!"
+        additionalMessage={`Copied ${iconName} to clipboard`}
       />
       
     </>
