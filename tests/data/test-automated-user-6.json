@@ -21,15 +21,13 @@
       "group": "Socials Primary",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/eddiejaoude",
-      "icon": "FaTwitter",
-      "color": "#00ACEE"
+      "icon": "FaTwitter"
     },
     {
       "group": "Socials Primary",
       "name": "YouTube: Learn more about Open Source",
       "url": "https://youtube.com/eddiejaoude",
-      "icon": "FaYoutube",
-      "color": "#FF0000"
+      "icon": "FaYoutube"
     },
     {
       "group": "Socials Primary",

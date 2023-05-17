@@ -67,6 +67,8 @@ async function checkUser1() {
     ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-1.json")),
     username: "_test-automated-user-1",
   };
+
+  // check user details
   const userChecks = ["username", "name", "bio"];
   userChecks.map((check) => {
     if (expectedUser[check] !== userRes[check]) {
@@ -88,7 +90,9 @@ async function checkUser2() {
     ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-2.json")),
     username: "_test-automated-user-2",
   };
-  const userChecks = ["username", "name", "bio", "links"];
+
+  // check user details
+  const userChecks = ["username", "name", "bio"];
   userChecks.map((check) => {
     if (expectedUser[check] !== userRes[check]) {
       console.log(
@@ -98,4 +102,31 @@ async function checkUser2() {
       );
     }
   });
+
+  // check links are enabled
+  expectedUser.links.map((link) => {
+    const match = userRes.links.find((l) => l.url === link.url);
+    if (!match) {
+      console.log(
+        `User ${expectedUser.username}: "${link.url}" does not exist in user links`
+      );
+    }
+    if (match.isEnabled === true) {
+      console.log(
+        `User ${expectedUser.username}: "${link.url}" does not match status in user links`
+      );
+    }
+  });
+
+  // check socials
+  if (
+    userRes.links.filter((l) => l.isPinned).length !==
+    (expectedUser.socials?.length || 0)
+  ) {
+    console.log(
+      `User ${expectedUser.username}: socials do not match expected`,
+      expectedUser.socials,
+      userRes.links.filter((l) => l.isPinned)
+    );
+  }
 }
