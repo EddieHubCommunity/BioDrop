@@ -22,7 +22,7 @@ jobs:
       - name: assign beta domain
         run: |
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
-          vercel alias --token=${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-beta.vercel.app
+          vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-beta.vercel.app
   load-data:
     runs-on: ubuntu-latest
     needs: deploy

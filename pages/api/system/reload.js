@@ -88,7 +88,7 @@ export default async function handler(req, res) {
       }
 
       try {
-        if (currentProfile.links || profile.links) {
+        if (currentProfile.links || profile.links || profile.socials) {
           const enabledLinks = [];
           if (profile.links) {
             await Promise.all(
@@ -113,7 +113,7 @@ export default async function handler(req, res) {
           }
 
           // update profile with links
-          if (enabledLinks.length > 0) {
+          if (enabledLinks.length > 0 || profile.socials) {
             await Profile.findOneAndUpdate(
               { username: profile.username },
               {

@@ -11,6 +11,7 @@
 
 // 1a. move test profiles to data directory (prepend `_` to filename)
 const fs = require("fs");
+const assert = require("assert");
 
 (async () => {
   const path = "./tests/data/";
@@ -20,18 +21,18 @@ const fs = require("fs");
   // 1b. copy `eddiejaoude` folder for `test-user-6`
 
   // testimonials exists in profile and json file
-  const fullProfile = "test-user-6";
+  const fullProfile = "_test-automated-user-6";
   fs.mkdirSync(`data/${fullProfile}/testimonials`, { recursive: true });
 
   fs.copyFileSync(
     `data/eddiejaoude/testimonials/FrancescoXX.json`,
-    `data/test-user-6/testimonials/FrancescoXX.json`
+    `data/${fullProfile}/testimonials/FrancescoXX.json`
   );
 
   // testimonials exists in profile but not in json file
   fs.copyFileSync(
     `data/eddiejaoude/testimonials/loftwah.json`,
-    `data/test-user-6/testimonials/unknown.json`
+    `data/${fullProfile}/testimonials/unknown.json`
   );
 
   // events exists in profile and json file
@@ -39,7 +40,7 @@ const fs = require("fs");
 
   fs.copyFileSync(
     `data/eddiejaoude/events/2022-12-10-talk.json`,
-    `data/test-user-6/events/2022-12-10-talk.json`
+    `data/${fullProfile}/events/2022-12-10-talk.json`
   );
 
   // 2. hit / run api end point to load profiles
@@ -50,83 +51,25 @@ const fs = require("fs");
   console.log(res);
 
   // 3. check user api has expected results
-  await checkUser1();
-  await checkUser2();
+  await checkUsers();
 
   // 4. delete test files and folders
   files.map((file) => fs.unlinkSync(`data/_${file}`));
   fs.rmSync(`data/${fullProfile}`, { recursive: true, force: true });
 })();
 
-async function checkUser1() {
-  const userReq = await fetch(
-    `http://localhost:3000/api/users/_test-automated-user-1`
-  );
-  const userRes = await userReq.json();
-  expectedUser = {
-    ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-1.json")),
-    username: "_test-automated-user-1",
-  };
+// TODO: check local user api vs production api
+async function checkUsers() {
+  const userLocal = await fetch(`http://localhost:3000/api/users/eddiejaoude`);
+  const userLocalRes = await userLocal.json();
+  const userProd = await fetch(`https:/linkfree.io/api/users/eddiejaoude`);
+  const userProdRes = await userProd.json();
 
-  // check user details
-  const userChecks = ["username", "name", "bio"];
-  userChecks.map((check) => {
-    if (expectedUser[check] !== userRes[check]) {
-      console.log(
-        `User ${expectedUser.username}: "${check}" does not match expected`,
-        expectedUser[check],
-        userRes[check]
-      );
-    }
-  });
-}
-
-async function checkUser2() {
-  const userReq = await fetch(
-    `http://localhost:3000/api/users/_test-automated-user-2`
-  );
-  const userRes = await userReq.json();
-  expectedUser = {
-    ...JSON.parse(fs.readFileSync("./tests/data/test-automated-user-2.json")),
-    username: "_test-automated-user-2",
-  };
-
-  // check user details
-  const userChecks = ["username", "name", "bio"];
-  userChecks.map((check) => {
-    if (expectedUser[check] !== userRes[check]) {
-      console.log(
-        `User ${expectedUser.username}: "${check}" does not match expected`,
-        expectedUser[check],
-        userRes[check]
-      );
-    }
-  });
-
-  // check links are enabled
-  expectedUser.links.map((link) => {
-    const match = userRes.links.find((l) => l.url === link.url);
-    if (!match) {
-      console.log(
-        `User ${expectedUser.username}: "${link.url}" does not exist in user links`
-      );
-    }
-    if (match.isEnabled === true) {
-      console.log(
-        `User ${expectedUser.username}: "${link.url}" does not match status in user links`
-      );
-    }
-  });
-
-  // check socials
-  if (
-    userRes.links.filter((l) => l.isPinned).length !==
-    (expectedUser.socials?.length || 0)
-  ) {
+  if (assert.deepStrictEqual(userLocalRes, userProdRes)) {
     console.log(
-      `User ${expectedUser.username}: socials do not match expected`,
-      expectedUser.socials,
-      userRes.links.filter((l) => l.isPinned)
+      `User ${userLocalRes.username}: does not match expected`,
+      userLocalRes,
+      userProdRes
     );
   }
 }
