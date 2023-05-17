@@ -96,12 +96,22 @@ export default function Map({ data }) {
     setSelectedTags(new Set());
   };
 
+  const tiles = [0,1,2,3];
+  let links = [];
+  for (const i of tiles) {
+    for (const j of tiles) {
+      links.push(<link rel="preload" as="image" key={`${i}${j}`} href={`https://a.tile.openstreetmap.org/2/${i}/${j}.png`}/>)
+    }
+  }
+
   return (
     <>
       <PageHead
         title="LinkFree Users Around The World"
         description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
-      />
+      >
+        {links}
+      </PageHead>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">
           LinkFree Users Around The World
