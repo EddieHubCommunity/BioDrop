@@ -11,13 +11,13 @@ test("Icon search works correctly", async ({ page }) => {
   await page.goto("/icons");
 
   // 2. show no users are listed
-  await expect(page.locator("li")).toHaveCount(4);
+  await expect(page.locator("main li")).toHaveCount(4);
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
   await input.type("mobile");
 
-  await expect(page.locator("li")).toHaveCount(4);
+  await expect(page.locator("main li")).toHaveCount(4);
 });
 
 test("Icon search page has no results when no search term used", async ({
@@ -28,18 +28,18 @@ test("Icon search page has no results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(0);
 });
 
-test("Icon search page shows no results after typing 2 characters", async ({
+test("Icon search page shows no results after typing 1 characters", async ({
   page,
 }) => {
   await page.goto("/search");
 
   const input = page.locator("[name='keyword']");
-  await input.type("ed");
+  await input.type("e");
 
-  await expect(page.locator("li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(0);
 });
 
 test("Icon search page shows results after typing 3 characters", async ({
@@ -50,5 +50,5 @@ test("Icon search page shows results after typing 3 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("hand");
 
-  await expect(page.locator("li")).toContainText(["hand"]);
+  await expect(page.locator("main li")).toContainText(["hand"]);
 });

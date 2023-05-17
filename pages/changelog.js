@@ -10,6 +10,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Custom login page",
+      description:
+        "We were using the standard Next-Auth page but now we have a branded login page",
+      type: "addition",
+      date: "2023-05-04",
+    },
+    {
       title: "LinkFree now has DarkMode",
       description:
         "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
@@ -81,8 +88,8 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title="LinkFree user changelog"
+        description="What are the latest features and changes to LinkFree"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>

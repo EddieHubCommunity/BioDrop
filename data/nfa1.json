@@ -4,13 +4,8 @@
   "bio": "Software Engineering | Data Science | Python | SQL | R | HTML | CSS | JavaScript",
   "links": [
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/nilofalvarado",
-      "icon": "FaTwitter"
-    },
-    {
       "name": "Follow me on GitHub",
-      "url": "https://www.gitub.com/nfa1/",
+      "url": "https://github.com/nfa1",
       "icon": "FaGithub"
     }
   ]

@@ -8,9 +8,9 @@ import PageHead from "@components/PageHead";
 import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let data = {
     users: [],
     tags: [],
@@ -40,8 +40,8 @@ export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
   const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
@@ -154,7 +154,6 @@ export default function Search({ data }) {
         >
           <Input
             placeholder="Search user by name or tags; eg: open source,reactjs"
-            className="border-2 hover:border-tertiary-medium transition-all dark:bg-primary-high duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
