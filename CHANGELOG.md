@@ -1,9 +1,9 @@
-# 1.123.0 (2023-05-14)
+## 1.127.2 (2023-05-17)
 
 
-### Features
+### Bug Fixes
 
-* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
+* map layout shift ([#6944](https://github.com/EddieHubCommunity/LinkFree/issues/6944)) ([e75a289](https://github.com/EddieHubCommunity/LinkFree/commit/e75a289064b7c8412bf8b473c08a1589450ed28c))
 
 
 
