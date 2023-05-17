@@ -1,9 +1,9 @@
-# 1.125.0 (2023-05-17)
+# 1.126.0 (2023-05-17)
 
 
 ### Features
 
-* home page to use incremental static regen ([#6049](https://github.com/EddieHubCommunity/LinkFree/issues/6049)) ([3488e3b](https://github.com/EddieHubCommunity/LinkFree/commit/3488e3b45adc6c2f8f98d97da06f250da9ac0b39))
+* incremental static regeneration for map page ([#6939](https://github.com/EddieHubCommunity/LinkFree/issues/6939)) ([b5eaedd](https://github.com/EddieHubCommunity/LinkFree/commit/b5eaeddef70860f1f073243f22b35b42a619b5de))
 
 
 

@@ -10,6 +10,7 @@ export default async function handler(req, res) {
 
   try {
     await res.revalidate('/')
+    await res.revalidate('/map')
     return res.json({ revalidated: true })
   } catch (err) {
     return res.json({ revalidated: false })
