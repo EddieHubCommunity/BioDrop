@@ -1,9 +1,9 @@
-# 1.123.0 (2023-05-14)
+## 1.127.3 (2023-05-18)
 
 
-### Features
+### Bug Fixes
 
-* custom error page 404 ([#6865](https://github.com/EddieHubCommunity/LinkFree/issues/6865)) ([b5123b6](https://github.com/EddieHubCommunity/LinkFree/commit/b5123b67119af307a02be65a52cbb184f0592ff1)), closes [#6814](https://github.com/EddieHubCommunity/LinkFree/issues/6814)
+* quickstart filename capitalisation not clear ([#6935](https://github.com/EddieHubCommunity/LinkFree/issues/6935)) ([e225235](https://github.com/EddieHubCommunity/LinkFree/commit/e225235ac084601616aa840faf4772289172ecc6))
 
 
 

@@ -6,7 +6,6 @@
     "Devops",
     "AI/ML",
     "Blogging",
-
     "FullStack Web Developer",
     "Wordpress Developer",
     "Flutter"
@@ -64,6 +63,11 @@
       "name": "Support my work :)",
       "url": "https://ko-fi.com/devhabib429",
       "icon": "SiBuymeacoffee"
+    },
+    {
+      "name": "Calendly",
+      "url": "https://calendly.com/d/2mp-czx-bq8/30min",
+      "icon": "SiCalendly"
     }
   ]
 }

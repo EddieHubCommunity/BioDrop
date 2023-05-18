@@ -2,7 +2,7 @@
 
 # What is LinkFree?
 
-LinkFree is the Open Source alternative to LinkTree. A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
+A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
 
 Your profile will have links to your social media and content. You can also add your timeline, testimonials, and upcoming events that you are participating in.
 
@@ -12,7 +12,7 @@ Here is an example of a LinkFree Profile https://linkfree.io/eddiejaoude
 
 ## Tech Stack
 
-LinkFree was built using the following technologies:
+LinkFree is built using the following technologies:
 
 - [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
 - [MongoDB](https://www.mongodb.com/) - a NoSQL database

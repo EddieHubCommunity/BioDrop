@@ -22,7 +22,7 @@ import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import config from "@config/app.json";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   if (singleUser.username) {
     return {
       redirect: {
@@ -37,6 +37,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: { total: totalStats, today: todayStats },
+    revalidate: 60 * 15, //15 minutes
   };
 }
 
