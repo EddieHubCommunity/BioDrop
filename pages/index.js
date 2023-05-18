@@ -20,7 +20,7 @@ import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
 import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
-import * as config from "@config/app.json";
+import config from "@config/app.json";
 
 export async function getServerSideProps(context) {
   if (singleUser.username) {
