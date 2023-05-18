@@ -30,7 +30,7 @@ export default function Playground() {
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
   const [showNotification, setShowNotification] = useState(false);
-  
+
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
@@ -98,8 +98,22 @@ export default function Playground() {
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">Playground</h1>
 
-        {errorMessage && <Notification show={showNotification} type="error" onClose={() => setShowNotification(false)} message={errorMessage} />}
-        {successMessage && <Notification show={showNotification} type="success" onClose={() => setShowNotification(false)} message={successMessage} />}
+        {errorMessage && (
+          <Notification
+            show={showNotification}
+            type="error"
+            onClose={() => setShowNotification(false)}
+            message={errorMessage}
+          />
+        )}
+        {successMessage && (
+          <Notification
+            show={showNotification}
+            type="success"
+            onClose={() => setShowNotification(false)}
+            message={successMessage}
+          />
+        )}
 
         <Input
           name="username"

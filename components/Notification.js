@@ -1,17 +1,32 @@
-import { Fragment } from 'react';
-import { Transition } from '@headlessui/react';
-import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import { XMarkIcon, ExclamationCircleIcon } from '@heroicons/react/20/solid'
+import { Fragment } from "react";
+import { Transition } from "@headlessui/react";
+import { CheckCircleIcon } from "@heroicons/react/24/outline";
+import { XMarkIcon, ExclamationCircleIcon } from "@heroicons/react/20/solid";
 
-export default function Notification({ show, onClose, type, message, additionalMessage }) {
-
+export default function Notification({
+  show,
+  onClose,
+  type,
+  message,
+  additionalMessage,
+}) {
   let iconComponent;
   switch (type) {
     case "success":
-      iconComponent = <CheckCircleIcon className="h-6 w-6 text-green-400" aria-hidden="true" />;
+      iconComponent = (
+        <CheckCircleIcon
+          className="h-6 w-6 text-green-400"
+          aria-hidden="true"
+        />
+      );
       break;
     case "error":
-      iconComponent = <ExclamationCircleIcon className="h-6 w-6 text-red-400" aria-hidden="true" />;
+      iconComponent = (
+        <ExclamationCircleIcon
+          className="h-6 w-6 text-red-400"
+          aria-hidden="true"
+        />
+      );
       break;
     default:
       iconComponent = null;
@@ -19,7 +34,6 @@ export default function Notification({ show, onClose, type, message, additionalM
   }
 
   return (
-    <>
     <div
       aria-live="assertive"
       className="pointer-events-none fixed z-40 inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
@@ -38,13 +52,15 @@ export default function Notification({ show, onClose, type, message, additionalM
           <div className="pointer-events-auto w-full max-w-sm overflow-hidden rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="p-4">
               <div className="flex items-start">
-                <div className="flex-shrink-0">
-                {iconComponent}
-                </div>
+                <div className="flex-shrink-0">{iconComponent}</div>
                 <div className="ml-3 w-0 flex-1 pt-0.5">
-                  <p className="text-sm font-medium text-primary-high">{message}</p>
+                  <p className="text-sm font-medium text-primary-high">
+                    {message}
+                  </p>
                   {additionalMessage && (
-                    <p className="mt-1 text-sm text-primary-medium">{additionalMessage}</p>
+                    <p className="mt-1 text-sm text-primary-medium">
+                      {additionalMessage}
+                    </p>
                   )}
                 </div>
                 <div className="ml-4 flex flex-shrink-0">
@@ -63,6 +79,5 @@ export default function Notification({ show, onClose, type, message, additionalM
         </Transition>
       </div>
     </div>
-    </>
   );
 }

@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import { useState } from "react";
 import getIcon from "@components/Icon";
 import Notification from "@components/Notification";
 
 export default function IconCard({ iconName }) {
-  const [showNotification, setShowNotification] = useState(false)
+  const [showNotification, setShowNotification] = useState(false);
   const Icon = getIcon(iconName);
   return (
     <>
@@ -22,12 +22,11 @@ export default function IconCard({ iconName }) {
       </button>
       <Notification
         show={showNotification}
-        type = "success"
+        type="success"
         onClose={() => setShowNotification(false)}
         message="Successfully copied!"
         additionalMessage={`Copied ${iconName} to clipboard`}
       />
-      
     </>
   );
 }
