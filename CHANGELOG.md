@@ -1,9 +1,9 @@
-## 1.127.3 (2023-05-18)
+# 1.128.0 (2023-05-18)
 
 
-### Bug Fixes
+### Features
 
-* quickstart filename capitalisation not clear ([#6935](https://github.com/EddieHubCommunity/LinkFree/issues/6935)) ([e225235](https://github.com/EddieHubCommunity/LinkFree/commit/e225235ac084601616aa840faf4772289172ecc6))
+* home page alert ([#6892](https://github.com/EddieHubCommunity/LinkFree/issues/6892)) ([740920b](https://github.com/EddieHubCommunity/LinkFree/commit/740920b84cf6155c8af913fddc3a1a1fb399da01))
 
 
 
