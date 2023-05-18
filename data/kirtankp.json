@@ -2,6 +2,9 @@
   "name": "Kirtan Patel",
   "type": "personal",
   "bio": "**Software Developer** | **Open Source**",
+
+  "tags": ["Open Source", "Javascript", "Typescript", "NodeJS", "Java"],
+
   "links": [
     {
       "name": "GitHub",
@@ -17,6 +20,21 @@
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/kirtankp/",
       "icon": "FaLinkedin"
+    }
+  ],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kirtan__kp/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kirtankp/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kirtankp/"
     }
   ]
 }

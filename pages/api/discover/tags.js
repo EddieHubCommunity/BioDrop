@@ -8,6 +8,10 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const tags = await getTags();
+  res.status(200).json(tags);
+}
+export async function getTags() {
   let tags = [];
   try {
     tags = await Profile.aggregate([
@@ -37,5 +41,5 @@ export default async function handler(req, res) {
     tags = [];
   }
 
-  res.status(200).json(tags);
+  return tags;
 }
