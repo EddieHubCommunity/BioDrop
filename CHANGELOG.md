@@ -1,9 +1,9 @@
-# 1.128.0 (2023-05-18)
+## 1.128.1 (2023-05-18)
 
 
-### Features
+### Bug Fixes
 
-* home page alert ([#6892](https://github.com/EddieHubCommunity/LinkFree/issues/6892)) ([740920b](https://github.com/EddieHubCommunity/LinkFree/commit/740920b84cf6155c8af913fddc3a1a1fb399da01))
+* notifications on playground and icons page ([#6963](https://github.com/EddieHubCommunity/LinkFree/issues/6963)) ([2a1c0ae](https://github.com/EddieHubCommunity/LinkFree/commit/2a1c0ae4b4d7a1d343869d0775f729d96439889f)), closes [#6938](https://github.com/EddieHubCommunity/LinkFree/issues/6938)
 
 
 
