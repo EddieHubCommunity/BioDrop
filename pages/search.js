@@ -9,8 +9,8 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
-import {getTags} from "./api/discover/tags"
-import {getUsers} from "./api/users";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/users";
 
 export async function getStaticProps() {
   let data = {
@@ -38,9 +38,11 @@ export async function getStaticProps() {
 export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
+  let randomMin = Math.floor(Math.random() * (users?.length - 5 - 0 + 1)) + 0;
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
   const [filteredUsers, setFilteredUsers] = useState([]);
+  const initialUsers = users.slice(randomMin, randomMin + 5);
   const [inputValue, setInputValue] = useState(username || keyword || "");
 
   let results = [];
@@ -161,11 +163,13 @@ export default function Search({ data }) {
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {filteredUsers.map((user) => (
-            <li key={user.username}>
-              <UserCard profile={user} />
-            </li>
-          ))}
+          {(inputValue.length > 0 ? filteredUsers : initialUsers).map(
+            (user) => (
+              <li key={user.username}>
+                <UserCard profile={user} />
+              </li>
+            )
+          )}
         </ul>
       </Page>
     </>
