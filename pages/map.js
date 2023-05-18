@@ -96,11 +96,10 @@ export default function Map({ data }) {
     setSelectedTags(new Set());
   };
 
-  const tiles = [0,1,2,3];
   let links = [];
-  for (const i of tiles) {
-    for (const j of tiles) {
-      links.push(<link rel="preload" as="image" key={`${i}${j}`} href={`https://a.tile.openstreetmap.org/2/${i}/${j}.png`}/>)
+  for (let i = 0; i <= 3; i++) {
+    for (let j = 0; j <= 3; j++) {
+      links.push(<link rel="preload" as="image" key={`${i}${j}`} href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}/>)
     }
   }
 
