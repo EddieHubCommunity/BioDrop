@@ -66,16 +66,16 @@ export async function getUserApi(req, res, username) {
         url: link.url,
         icon: link.icon,
       })),
-    testimonials: getProfile._doc.testimonials
-      .filter((testimonial) => testimonial.isPinned)
-      .map((testimonial) => ({
-        _id: testimonial._id,
-        username: testimonial.username,
-        title: testimonial.title,
-        description: testimonial.description,
-        date: testimonial.date,
-        order: testimonial.order,
-      })),
+    testimonials: getProfile._doc.testimonials.map((testimonial) => ({
+      _id: testimonial._id,
+      isPinned: testimonial.isPinned,
+      username: testimonial.username,
+      title: testimonial.title,
+      description: testimonial.description,
+      date: testimonial.date,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+      order: testimonial.order,
+    })),
   };
 
   await getLocation(username, getProfile);

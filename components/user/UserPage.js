@@ -14,7 +14,9 @@ export default function UserPage({ data, BASE_URL }) {
     { name: "Testimonials", href: "#", current: false },
     { name: "Events", href: "#", current: false },
   ];
-  data.testimonials = data.testimonials.filter((t) => t.isPinned);
+  data.testimonials = data.testimonials.filter(
+    (testimonial) => testimonial.isPinned
+  );
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "Milestones") {
       if (data.milestones && data.milestones.length) {
