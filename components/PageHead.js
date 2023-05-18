@@ -10,6 +10,8 @@ export default function PageHead(props) {
     ogType = "image/png",
   } = props;
 
+  const children = props.children;
+
   return (
     <Head>
       <title>{title}</title>
@@ -20,6 +22,7 @@ export default function PageHead(props) {
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={ogUrl} />
       <meta property="og:image" content={ogImage} />
+      {children}
     </Head>
   );
 }
