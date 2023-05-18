@@ -117,7 +117,8 @@ export default function Maintainers() {
           <Link href="https://github.com/EddieHubCommunity/LinkFree/graphs/contributors">
             community contributors
           </Link>
-          .
+          . Learn more about being a{" "}
+          <Link href="/docs/maintainers">maintainer</Link>.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-primary-high dark:text-primary-low">

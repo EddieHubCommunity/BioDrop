@@ -11,6 +11,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const profiles = await getUsers();
+
+  res.status(200).json(profiles);
+}
+export async function getUsers() {
   await connectMongo();
 
   const fileProfiles = findAllBasic();
@@ -44,5 +49,5 @@ export default async function handler(req, res) {
     return basicProfile;
   });
 
-  res.status(200).json(profiles);
+  return JSON.parse(JSON.stringify(profiles));
 }
