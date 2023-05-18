@@ -1,7 +1,7 @@
 {
   "name": "Eddie Jaoude",
   "type": "personal",
-  "bio": "Open Source DevRel | Founder of **EddieHub** | Founder of **LinkFree** | **GitHub** Star",
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
 
   "tags": [
     "Open Source",
@@ -64,6 +64,12 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/eddiejaoude",
       "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "FaYoutube"
     },
     {
       "group": "EddieHub Community",

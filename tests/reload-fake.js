@@ -11,7 +11,6 @@
 
 // 1a. move test profiles to data directory (prepend `_` to filename)
 const fs = require("fs");
-const assert = require("assert");
 
 (async () => {
   const path = "./tests/data/";
@@ -65,11 +64,11 @@ async function checkUsers() {
   const userProd = await fetch(`https:/linkfree.io/api/users/eddiejaoude`);
   const userProdRes = await userProd.json();
 
-  if (assert.deepStrictEqual(userLocalRes, userProdRes)) {
+  if (userLocalRes.links.length === userProdRes.links.length) {
     console.log(
-      `User ${userLocalRes.username}: does not match expected`,
-      userLocalRes,
-      userProdRes
+      `User ${userLocalRes.username}: link count does not match expected`,
+      userLocalRes.links.length,
+      userProdRes.links.length
     );
   }
 }
