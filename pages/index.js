@@ -19,8 +19,10 @@ import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
 import GitHubAccelerator from "@components/GitHubAccelerator";
+import Alert from "@components/Alert";
+import config from "@config/app.json";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   if (singleUser.username) {
     return {
       redirect: {
@@ -35,6 +37,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: { total: totalStats, today: todayStats },
+    revalidate: 60 * 15, //15 minutes
   };
 }
 
@@ -209,6 +212,10 @@ export default function Home({ total, today }) {
       <PageHead />
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
+        {config.alerts.map((alert, index) => (
+          <Alert key={index} type={alert.type} message={alert.message} />
+        ))}
+
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree

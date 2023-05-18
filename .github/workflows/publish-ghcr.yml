@@ -50,10 +50,11 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: Dockerfile.deploy
           push: true
           secrets: |
             'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'
-          build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
+          build-args: "github_token=${{ secrets.GITHUB_TOKEN }},MONGODB_URL=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}"
           tags: |
             ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
