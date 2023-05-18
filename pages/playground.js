@@ -1,11 +1,11 @@
 import { useState } from "react";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Alert from "@components/Alert";
 import Button from "@components/Button";
 import Modal from "@components/Modal";
 import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
+import Notification from "@components/Notification";
 
 export default function Playground() {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
@@ -29,17 +29,23 @@ export default function Playground() {
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
+  const [showNotification, setShowNotification] = useState(false);
+
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
       setSuccessMsg("Valid Json");
       setErrMsg("");
       setValidateComplete(true);
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
       return true;
     } catch (err) {
       setErrMsg(err.toString());
       setError(true);
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
       return false;
     }
   };
@@ -54,6 +60,8 @@ export default function Playground() {
     } catch (err) {
       setErrMsg(err.toString());
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
   };
 
@@ -61,6 +69,8 @@ export default function Playground() {
     if (!gitUsername) {
       setErrMsg("Github username required");
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
     try {
       if (gitUsername && profileJson && handleValidateJson()) {
@@ -73,6 +83,8 @@ export default function Playground() {
     } catch (err) {
       setErrMsg(err.toString());
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
   };
 
@@ -86,8 +98,22 @@ export default function Playground() {
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">Playground</h1>
 
-        {errorMessage && <Alert type="error" message={errorMessage} />}
-        {successMessage && <Alert type="success" message={successMessage} />}
+        {errorMessage && (
+          <Notification
+            show={showNotification}
+            type="error"
+            onClose={() => setShowNotification(false)}
+            message={errorMessage}
+          />
+        )}
+        {successMessage && (
+          <Notification
+            show={showNotification}
+            type="success"
+            onClose={() => setShowNotification(false)}
+            message={successMessage}
+          />
+        )}
 
         <Input
           name="username"
