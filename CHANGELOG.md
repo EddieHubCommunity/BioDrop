@@ -1,9 +1,9 @@
-# 1.126.0 (2023-05-17)
+## 1.127.3 (2023-05-18)
 
 
-### Features
+### Bug Fixes
 
-* incremental static regeneration for map page ([#6939](https://github.com/EddieHubCommunity/LinkFree/issues/6939)) ([b5eaedd](https://github.com/EddieHubCommunity/LinkFree/commit/b5eaeddef70860f1f073243f22b35b42a619b5de))
+* quickstart filename capitalisation not clear ([#6935](https://github.com/EddieHubCommunity/LinkFree/issues/6935)) ([e225235](https://github.com/EddieHubCommunity/LinkFree/commit/e225235ac084601616aa840faf4772289172ecc6))
 
 
 
