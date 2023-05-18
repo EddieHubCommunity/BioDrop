@@ -3,7 +3,7 @@
   "type": "personal",
   "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
 
-  "tags": ["Open Source", "Javascript", "HTML", "CSS", "React JS", "Web Dev"],
+  "tags": ["Open Source", "Javascript", "HTML", "CSS", "React JS", "Web Dev", "Node JS", "MERN Stack"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/iamVishnuMouli" },
     { "icon": "FaGithub", "url": "https://github.com/vishnu-mouli-102408" },
