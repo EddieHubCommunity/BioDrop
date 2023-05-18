@@ -24,7 +24,6 @@ export default function IconCard({ iconName }) {
         show={showNotification}
         type = "success"
         onClose={() => setShowNotification(false)}
-        alignment = "right"
         message="Successfully copied!"
         additionalMessage={`Copied ${iconName} to clipboard`}
       />

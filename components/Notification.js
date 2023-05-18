@@ -3,7 +3,7 @@ import { Transition } from '@headlessui/react';
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
 import { XMarkIcon, ExclamationCircleIcon } from '@heroicons/react/20/solid'
 
-export default function Notification({ show, onClose, type, message, alignment, additionalMessage }) {
+export default function Notification({ show, onClose, type, message, additionalMessage }) {
 
   let iconComponent;
   switch (type) {
@@ -18,21 +18,13 @@ export default function Notification({ show, onClose, type, message, alignment, 
       break;
   }
 
-  let notificationAlignmentClass = "sm:items-center";
-  if (alignment === "left") {
-    notificationAlignmentClass = "sm:items-start";
-  } else if (alignment === "right") {
-    console.log("alignment right");
-    notificationAlignmentClass = "sm:items-end";
-  }
-
   return (
     <>
     <div
       aria-live="assertive"
       className="pointer-events-none fixed z-40 inset-0 flex items-end px-4 py-6 sm:items-start sm:p-6"
     >
-      <div className={`flex w-full flex-col items-center space-y-4 ${notificationAlignmentClass}`}>
+      <div className="flex w-full flex-col items-center space-y-4 sm:items-end">
         <Transition
           show={show}
           as={Fragment}
