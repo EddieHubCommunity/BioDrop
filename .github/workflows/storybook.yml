@@ -54,7 +54,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    if: github.repository == 'EddieHubCommunity/LinkFree' && github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
