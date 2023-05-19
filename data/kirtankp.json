@@ -3,20 +3,29 @@
   "type": "personal",
   "bio": "**Software Developer** | **Open Source**",
 
-  "tags": ["Open Source", "Javascript", "Typescript", "NodeJS", "Java"],
+  "tags": ["Open Source", "Javascript", "ReactJS", "Typescript", "NodeJS", "Java"],
 
   "links": [
     {
+      "group": "Projects",
+      "name": "Landing Page Using ReactJS",
+      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
       "name": "GitHub",
       "url": "https://github.com/kirtankp/",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials Primary",
       "name": "Twitter",
       "url": "https://twitter.com/kirtan__kp/",
       "icon": "FaTwitter"
     },
     {
+      "group": "Socials",
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/kirtankp/",
       "icon": "FaLinkedin"
