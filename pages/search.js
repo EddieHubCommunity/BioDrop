@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -38,14 +38,16 @@ export async function getStaticProps() {
 export default function Search({ data }) {
   let { users, tags } = data;
   const router = useRouter();
-  let randomMin = Math.floor(Math.random() * (users?.length - 5 - 0 + 1)) + 0;
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
-  const [filteredUsers, setFilteredUsers] = useState([]);
-  const initialUsers = users.slice(randomMin, randomMin + 5);
-  const [inputValue, setInputValue] = useState(username || keyword || "");
 
+  const [filteredUsers, setFilteredUsers] = useState([]);
+  const [inputValue, setInputValue] = useState(username || keyword || "");
   let results = [];
+
+  const getRandomUsers = () => {
+    return users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  };
 
   useEffect(() => {
     if (username) {
@@ -107,7 +109,7 @@ export default function Search({ data }) {
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers([]);
+      setFilteredUsers(getRandomUsers());
       //Removing the not found field when the input field is empty
       setNotFound();
       return;
@@ -163,13 +165,11 @@ export default function Search({ data }) {
 
         {notFound && <Alert type="error" message={`${notFound} not found`} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {(inputValue.length > 0 ? filteredUsers : initialUsers).map(
-            (user) => (
-              <li key={user.username}>
-                <UserCard profile={user} />
-              </li>
-            )
-          )}
+          {filteredUsers.map((user) => (
+            <li key={user.username}>
+              <UserCard profile={user} />
+            </li>
+          ))}
         </ul>
       </Page>
     </>
