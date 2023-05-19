@@ -23,6 +23,8 @@ const connectMongo = async () => {
       options
     );
     logger.info("DB connection successful:", connection.name);
+
+    return connection;
   } catch (error) {
     logger.error("DB connection failed:", error.message);
     throw error;
