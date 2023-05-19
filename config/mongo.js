@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { env } from "process";
 import logger from "./logger";
 
 let connection;
@@ -19,7 +18,10 @@ const connectMongo = async () => {
 
   try {
     const options = { autoIndex: true, family: 4 };
-    connection = await mongoose.connect(LINKFREE_MONGO_CONNECTION_STRING, options);
+    connection = await mongoose.connect(
+      LINKFREE_MONGO_CONNECTION_STRING,
+      options
+    );
     logger.info("DB connection successful:", connection.name);
   } catch (error) {
     logger.error("DB connection failed:", error.message);
