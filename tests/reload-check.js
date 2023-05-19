@@ -1,15 +1,31 @@
-(async () => {
-  const profilesReq = await fetch(`http://localhost:3000/api/users`);
-  const profiles = await profilesReq.json();
+// ERRORs
+// === ERROR: User Anmol-Baranwal: "socials" count does not match expected 3 4
+// === ERROR: User DanielaaER: "links" count does not match expected 4 5
+// === ERROR: User Brownei: "links" count does not match expected 3 4
+// === ERROR: User BruceWangyq: "links" count does not match expected 5 6
+//
 
+(async () => {
+  const start = 300;
+  const finish = 350;
+  const urlNewVersion = "http://localhost:3000"; // form-data branch
+  const urlOldVersion = "http://localhost:3001"; // main branch
+
+  const profilesReq = await fetch(`${urlNewVersion}/api/users`);
+  const profiles = await profilesReq.json();
+  console.log("TOTAL: ", profiles.length);
+
+  counter = 0;
   await Promise.all(
-    profiles.slice(-100).map(async (profile) => {
+    profiles.slice(start, finish).map(async (profile) => {
+      counter++;
       const userLocal = await fetch(
-        `http://localhost:3000/api/users/${profile.username}`
+        `${urlNewVersion}/api/users/${profile.username}`
       );
       const userLocalRes = await userLocal.json();
+
       const userProd = await fetch(
-        `https:/linkfree.io/api/users/${profile.username}`
+        `${urlOldVersion}/api/users/${profile.username}`
       );
       const userProdRes = await userProd.json();
 
@@ -50,7 +66,7 @@
       }
 
       console.log(
-        `SUCCESS: User ${userLocalRes.username}: "${collection}" count does not match expected`,
+        `SUCCESS: User ${userLocalRes.username}: "${collection}" count does match expected`,
         testimonialsLocal,
         testimonialsProd
       );
@@ -59,5 +75,5 @@
     })
   );
 
-  console.log("DONE", profiles.length);
+  console.log("DONE", counter);
 })();
