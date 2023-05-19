@@ -1,0 +1,27 @@
+{
+  "name": "Ali Mora",
+  "type": "personal",
+  "bio": "**Full-stack Software Developer** from South Africa",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/",
+      "icon": "FaLinkedin"
+    },
+     {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/swarts_d",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=789658725",
+      "icon": "FaWhatsapp"
+    },
+     {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/alimora83",
+      "icon": "FaGithub"
+    },
+  ]
+}
