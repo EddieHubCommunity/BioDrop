@@ -1,69 +1,69 @@
 {
-    "name": "Joseph F Martin",
-    "type": "personal",
-    "bio": "Aspiring Front end developer 🚀 | Self-Taught Developer ✨ | Open Source Enthusiast 💫 | Computer Science Student 🎓",
-    "tags": [
-        "Open Source",
-        "Javascript",
-        "HTML",
-        "CSS",
-        "React",
-        "Express",
-        "MongoDb",
-        "Tailwind"
-    ],
-    "socials": [
-        {
-            "icon": "FaTwitter",
-            "url": "https://twitter.com/JFMartinz"
-        },
-        {
-            "icon": "FaGithub",
-            "url": "https://github.com/JFMartinz"
-        },
-        {
-            "icon": "FaLinkedin",
-            "url": "https://www.linkedin.com/in/JFMartinz/"
-        },
-        {
-            "icon": "SiCodewars",
-            "url": "https://www.codewars.com/users/JFMartinz"
-        }
-    ],
-    "links": [
-        {
-            "group": "Socials",
-            "name": "Follow My Coding Journey",
-            "url": "https://twitter.com/JFMartinz",
-            "icon": "FaTwitter"
-        },
-        {
-             "group": "Socials",
-            "name": "Let's Connect on Github",
-            "url": "https://github.com/JFMartinz",
-            "icon": "FaGithub"
-        },
-        {
-           "group": "Socials",
-            "name": "Let's Connect on Linkedin",
-            "url": "https://www.linkedin.com/in/jfmartinz/",
-            "icon": "FaLinkedin"
-        },
-        {
-           "group": "DSA & Algorithm Challenges",
-            "name": "Codewars Challenges",
-            "icon": "SiCodewars",
-            "url": "https://www.codewars.com/users/JFMartinz"
-        }
-    ],
-    "milestones": [
-        {
-            "title": "Acceptance into GSSoC 2023 as a Contributor",
-            "date": "May 2023",
-            "icon": "FaBrands",
-            "color": "orange",
-            "description": "GSSoC (GirlScript Summer of Code) is a global program that promotes women and non-binary individuals in open-source software development. It offers participants the chance to collaborate on real-world projects with experienced mentors, contributing code and gaining practical coding experience.",
-            "url": "https://www.linkedin.com/posts/jfmartinz_gssoc2023-gssoc-opensource-activity-7061604923590803456-DTWo?utm_source=share&utm_medium=member_desktop"
-        }
-    ]
+  "name": "Joseph F Martin",
+  "type": "personal",
+  "bio": "Aspiring Front end developer 🚀 | Self-Taught Developer ✨ | Open Source Enthusiast 💫 | Computer Science Student 🎓",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React",
+    "Express",
+    "MongoDb",
+    "Tailwind"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JFMartinz"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/JFMartinz"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/JFMartinz/"
+    },
+    {
+      "icon": "SiCodewars",
+      "url": "https://www.codewars.com/users/JFMartinz"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow My Coding Journey",
+      "url": "https://twitter.com/JFMartinz",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Github",
+      "url": "https://github.com/JFMartinz",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/jfmartinz/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "DSA & Algorithm Challenges",
+      "name": "Codewars Challenges",
+      "icon": "SiCodewars",
+      "url": "https://www.codewars.com/users/JFMartinz"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Acceptance into GSSoC 2023 as a Contributor",
+      "date": "May 2023",
+      "icon": "FaBrands",
+      "color": "orange",
+      "description": "GSSoC (GirlScript Summer of Code) is a global program that promotes women and non-binary individuals in open-source software development. It offers participants the chance to collaborate on real-world projects with experienced mentors, contributing code and gaining practical coding experience.",
+      "url": "https://www.linkedin.com/posts/jfmartinz_gssoc2023-gssoc-opensource-activity-7061604923590803456-DTWo?utm_source=share&utm_medium=member_desktop"
+    }
+  ]
 }

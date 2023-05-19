@@ -3,7 +3,14 @@
   "type": "personal",
   "bio": "**Software Developer** | **Open Source**",
 
-  "tags": ["Open Source", "Javascript", "ReactJS", "Typescript", "NodeJS", "Java"],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "Typescript",
+    "NodeJS",
+    "Java"
+  ],
 
   "links": [
     {
