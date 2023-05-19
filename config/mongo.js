@@ -6,14 +6,14 @@ let connection;
 const connectMongo = async () => {
   const { LINKFREE_MONGO_CONNECTION_STRING } = process.env;
 
-  if (connection) {
-    return connection;
-  }
-
   if (!LINKFREE_MONGO_CONNECTION_STRING) {
     throw new Error(
       "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
     );
+  }
+
+  if (connection) {
+    return connection;
   }
 
   try {
