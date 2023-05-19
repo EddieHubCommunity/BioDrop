@@ -1,9 +1,7 @@
 {
 	"name": "Harmeet Singh",
-	"displayStatsPublic": true,
 	"type": "personal",
 	"bio": "Full Stack (MERN) Developer | Postman API Student Expert | Open Source Contributor",
-	"avatar": "https://github.com/harmeetsingh11.png",
 	"links": [{
 			"name": "Follow me on Twitter",
 			"url": "https://twitter.com/ImHarmeet_Singh",
