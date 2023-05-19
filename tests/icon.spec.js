@@ -19,39 +19,39 @@ test("Icon search works correctly", async ({ page }) => {
   const input = page.locator("[name='keyword']");
   await input.type("mobile");
 
-  await expect(page.locator("main li")).toHaveCount(defaultIcons);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
 test("Icon search page has default results when no search term used", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("main li")).toHaveCount(defaultIcons);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
 test("Icon search page shows default results after typing 1 characters", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("main li")).toHaveCount(defaultIcons);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
 test("Icon search page shows results after typing 3 characters", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("hand");
 
-  await expect(page.locator("main li")).toContainText(["hand"]);
-  await expect(page.locator("main li")).toHaveCount(41);
+  await expect(page.locator("main ul li")).toContainText(["hand"]);
+  await expect(page.locator("main ul li")).toHaveCount(41);
 });
