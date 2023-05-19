@@ -11,7 +11,7 @@ import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
 export async function getServerSideProps(context) {
-  const events = await getEvents();
+  let events = await getEvents();
 
   // remove any invalid events
   events = events.filter((event) => {
@@ -35,9 +35,7 @@ export async function getServerSideProps(context) {
   });
 
   return {
-    props: {
-      events
-    },
+    props: { events },
   };
 }
 
