@@ -12,6 +12,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Button from "@components/Button";
+import Navigation from "@components/account/manage/navigation";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -70,12 +71,7 @@ export default function Links({ BASE_URL, profile }) {
       />
 
       <Page>
-        {profile.sources.available.includes("file") && (
-          <Alert
-            type="warning"
-            message={`"${profile.username}.json" found also exists, please remove this file via a Pull Request if you will be managing your account via these forms`}
-          />
-        )}
+        <Navigation />
         <form
           className="space-y-8 divide-y divide-gray-200"
           onSubmit={handleSubmit}
@@ -215,7 +211,6 @@ export default function Links({ BASE_URL, profile }) {
                 </td>
                 <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
                   <Button text="Edit" primary={true} />
-                  <Button text="Delete" />
                 </td>
               </tr>
             ))}

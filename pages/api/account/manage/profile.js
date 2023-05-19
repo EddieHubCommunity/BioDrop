@@ -7,11 +7,16 @@ import Profile from "@models/Profile";
 import { getUserApi } from "pages/api/users/[username]";
 
 export default async function handler(req, res) {
+  const session = await getServerSession(req, res, authOptions);
+  if (!session) {
+    res.status(401).json({ message: "You must be logged in." });
+    return;
+  }
+
   if (req.method !== "PUT") {
     return res.status(400).json({ error: "Invalid request: PUT required" });
   }
 
-  const session = await getServerSession(req, res, authOptions);
   const username = session.username;
 
   await connectMongo();
@@ -21,9 +26,10 @@ export default async function handler(req, res) {
     await Profile.findOneAndUpdate(
       { username },
       {
-        source: req.body.source,
+        source: "database",
         name: req.body.name,
         bio: req.body.bio,
+        tags: req.body.tags,
       },
       { upsert: true }
     );

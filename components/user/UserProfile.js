@@ -70,7 +70,7 @@ function UserProfile({ BASE_URL, data }) {
                 key={tag}
                 className="no-underline"
               >
-                <Tag name={tag} />
+                <Tag name={tag} clickable={true} />
               </Link>
             ))}
         </div>

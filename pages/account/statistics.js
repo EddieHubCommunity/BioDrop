@@ -19,7 +19,10 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
-import Link from "@components/Link";
+import Button from "@components/Button";
+import FallbackImage from "@components/FallbackImage";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Navigation from "@components/account/manage/navigation";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -139,6 +142,64 @@ export default function Statistics({ data, profile, progress }) {
       />
 
       <Page>
+        <div className="overflow-hidden rounded-lg bg-white shadow">
+          <h2 className="sr-only" id="profile-overview-title">
+            Profile Overview
+          </h2>
+          <div className="bg-white p-6">
+            <div className="sm:flex sm:items-center sm:justify-between">
+              <div className="sm:flex sm:space-x-5">
+                <div className="flex-shrink-0">
+                  <FallbackImage
+                    src={`https://github.com/${profile.username}.png`}
+                    width="100"
+                    height="100"
+                    className="mx-auto h-20 w-20 rounded-full"
+                    alt={`Profile picture for GitHub user "${profile.username}"`}
+                  />
+                </div>
+                <div className="mt-4 text-center sm:mt-0 sm:pt-1 sm:text-left">
+                  <p className="text-sm font-medium text-gray-600">
+                    Welcome back,
+                  </p>
+                  <p className="text-xl font-bold text-gray-900 sm:text-2xl">
+                    {profile.name}
+                  </p>
+                  <ReactMarkdown className="text-sm font-medium text-gray-600">
+                    {profile.bio}
+                  </ReactMarkdown>
+                </div>
+              </div>
+              <div className="mt-5 flex justify-center sm:mt-0">
+                <Button
+                  text="View profile"
+                  href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
+                  primary={true}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 divide-y divide-gray-200 border-t border-gray-200 bg-gray-50 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+            <div className="px-6 py-5 text-center text-sm font-medium">
+              <span className="text-gray-900">
+                {abbreviateNumber(data.profile.total)}
+              </span>{" "}
+              <span className="text-gray-600">Total profile views</span>
+            </div>
+            <div className="px-6 py-5 text-center text-sm font-medium">
+              <span className="text-gray-900">
+                {abbreviateNumber(data.links.clicks)}
+              </span>{" "}
+              <span className="text-gray-600">Total clicks</span>
+            </div>
+            <div className="px-6 py-5 text-center text-sm font-medium">
+              <span className="text-gray-900">
+                {abbreviateNumber(data.links.individual.length)}
+              </span>{" "}
+              <span className="text-gray-600">Total links</span>
+            </div>
+          </div>
+        </div>
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
@@ -155,23 +216,13 @@ export default function Statistics({ data, profile, progress }) {
           <ProgressBar progress={progress} />
         </div>
 
-        <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} (
-          <Link
-            href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
-          >
-            {profile.username}
-          </Link>
-          )
-        </h1>
-
         {!data.links && (
-          <Alert type="info" message="You don't have a profile yet." />
+          <Alert type="warning" message="You don't have a profile yet." />
         )}
 
-        <BasicCards data={cardData} />
+        <Navigation />
 
-        <div className="border my-6 dark:border-primary-medium">
+        <div className="border mb-6 dark:border-primary-medium">
           <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
             <h3 className="text-lg font-medium leading-6 text-primary-high">
               Profile views

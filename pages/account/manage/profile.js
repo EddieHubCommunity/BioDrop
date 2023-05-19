@@ -19,6 +19,8 @@ import Page from "@components/Page";
 import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
+import Navigation from "@components/account/manage/navigation";
+import Tag from "@components/Tag";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -55,9 +57,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function Profile({ BASE_URL, profile }) {
-  const [source, setSource] = useState(profile.source);
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
+  const [tags, setTags] = useState(profile.tags || []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -66,7 +68,7 @@ export default function Profile({ BASE_URL, profile }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ source, name, bio }),
+      body: JSON.stringify({ name, bio, tags }),
     });
     const data = await res.json();
   };
@@ -79,12 +81,15 @@ export default function Profile({ BASE_URL, profile }) {
       />
 
       <Page>
-        {profile.sources === "file" && (
+        {profile.source === "database" && (
           <Alert
             type="warning"
-            message={`"${profile.username}.json" found also exists, please remove this file via a Pull Request if you will be managing your account via these forms`}
+            message={`"data/${profile.username}.json" also exists, please remove this file via a Pull Request now you will be managing your account via these forms`}
           />
         )}
+
+        <Navigation />
+
         <form
           className="space-y-8 divide-y divide-gray-200"
           onSubmit={handleSubmit}
@@ -125,42 +130,6 @@ export default function Profile({ BASE_URL, profile }) {
                         value={profile.username}
                         className="block w-full min-w-0 flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-100 px-3 text-gray-500"
                       />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="pt-6 sm:pt-5 sm:border-t sm:border-gray-200">
-                <div role="group" aria-labelledby="label-notifications">
-                  <div className="sm:grid sm:grid-cols-3 sm:items-baseline sm:gap-4">
-                    <div>
-                      <div
-                        className="text-base font-medium text-gray-900 sm:text-sm sm:text-gray-700"
-                        id="label-notifications"
-                      >
-                        Load profile
-                      </div>
-                    </div>
-                    <div className="sm:col-span-2">
-                      <div className="max-w-lg">
-                        <label
-                          htmlFor="location"
-                          className="block text-sm font-medium leading-6 text-gray-900"
-                        >
-                          Location (note: profile can only be loaded from 1
-                          place)
-                        </label>
-                        <select
-                          id="source"
-                          name="source"
-                          className="mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                          defaultValue={profile.sources}
-                          onChange={(e) => setSource(e.target.value)}
-                        >
-                          <option>file</option>
-                          <option>database</option>
-                        </select>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -233,6 +202,35 @@ export default function Profile({ BASE_URL, profile }) {
                   <p className="mt-2 text-sm text-gray-500">
                     Preview of your bio with rendered markdown.
                   </p>
+                </div>
+              </div>
+
+              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                <label
+                  htmlFor="about"
+                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
+                >
+                  Tags
+                </label>
+                <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <textarea
+                    id="about"
+                    name="about"
+                    rows={3}
+                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                    defaultValue={profile.tags}
+                    onChange={(e) => setTags(e.target.value.split(","))}
+                  />
+                  <p className="mt-2 text-sm text-gray-500">
+                    Tags to help you be more discoverable in search and the map.
+                    Separate with commas.
+                  </p>
+
+                  <div className="mt-4">
+                    {tags.map((tag) => (
+                      <Tag key={tag} name={tag} />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
