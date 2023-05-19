@@ -1,9 +1,9 @@
-## 1.130.1 (2023-05-19)
+## 1.130.2 (2023-05-19)
 
 
 ### Bug Fixes
 
-* gh action for load data ([#6993](https://github.com/EddieHubCommunity/LinkFree/issues/6993)) ([31460a8](https://github.com/EddieHubCommunity/LinkFree/commit/31460a8e59d26390def15397f015bf22cca115ed))
+* removed gh action load data ([#6995](https://github.com/EddieHubCommunity/LinkFree/issues/6995)) ([a88081e](https://github.com/EddieHubCommunity/LinkFree/commit/a88081e0be573e27f6049ad82cef81b0b460a745))
 
 
 
