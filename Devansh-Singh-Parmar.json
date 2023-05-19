@@ -1,0 +1,12 @@
+{
+  "name": "Devansh Singh Parmar",
+  "type": "personal",
+  "bio": "A MERN Stack Developer"
+}
+"links": [
+    {
+      "name": "Connect with me on Linkedin!",
+      "url": "https://www.linkedin.com/in/devanshsingh13/",
+      "icon": "FaLinkedin"
+    }
+  ]
