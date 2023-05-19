@@ -1,0 +1,17 @@
+{
+  "name": "Achutendra Singh",
+  "type": "personal",
+  "bio": "I am a budding Fullstack Developer",
+  "links": [
+    {
+      "name": "Lets Connect on Twitter",
+      "url": "https://twitter.com/achutendra",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/achutendra",
+      "icon": "FaGithub"
+    }
+  ]
+}

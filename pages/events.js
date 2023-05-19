@@ -3,12 +3,12 @@ import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 import { getEvents } from "./api/events";
 
-import EventCard from "../components/event/EventCard";
-import Page from "../components/Page";
-import { EventTabs } from "../components/event/EventTabs";
-import PageHead from "../components/PageHead";
-import Badge from "../components/Badge";
-import logger from "../config/logger";
+import logger from "@config/logger";
+import EventCard from "@components/event/EventCard";
+import Page from "@components/Page";
+import { EventTabs } from "@components/event/EventTabs";
+import PageHead from "@components/PageHead";
+import Badge from "@components/Badge";
 
 export async function getServerSideProps(context) {
   let eventsArray = [];
@@ -18,6 +18,27 @@ export async function getServerSideProps(context) {
   } else {
     eventsArray = events.eventsArray;
   }
+
+  // remove any invalid events
+  events = events.filter((event) => {
+    const dateTimeStyle = {
+      dateStyle: "full",
+      timeStyle: "long",
+    };
+    try {
+      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.start)
+      );
+      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.end)
+      );
+
+      return true;
+    } catch (e) {
+      logger.error(e, `ERROR event date for: "${event.name}"`);
+      return false;
+    }
+  });
 
   return {
     props: {
@@ -35,7 +56,7 @@ export default function Events({ events }) {
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
   };
-  const filters = [
+  const tabFilters = [
     {
       title: "Show all",
       description: "List all events with no filters",
@@ -66,7 +87,6 @@ export default function Events({ events }) {
     },
   ];
 
-  const [tabs, setTabs] = useState(filters);
   const [eventType, setEventType] = useState("all");
 
   return (
@@ -88,15 +108,14 @@ export default function Events({ events }) {
           </Badge>
         </div>
         <EventTabs
-          tabs={tabs}
+          tabs={tabFilters}
           eventType={eventType}
           setEventType={setEventType}
         />
-        <ul role="list" className="divide-y divide-gray-200 mt-6">
-          <h2 className="text-md md:text-2xl text-lg text-gray-800 font-bold md:mb-6 mb-3">
-            {filters.find((filter) => filter.key === eventType).description}
-          </h2>
-
+        <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
+          {tabFilters.find((filter) => filter.key === eventType).description}
+        </h2>
+        <ul role="list" className="divide-y divide-primary-low mt-6">
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}

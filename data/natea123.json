@@ -1,0 +1,17 @@
+{
+  "name": "Nate Andrews",
+  "type": "personal",
+  "bio": "Finance student turned self-taught programmer & cloud architect. Pursuing Master's in CS at Tufts University.",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nandrews94/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/natea123",
+      "icon": "FaGithub"
+    }
+  ]
+}

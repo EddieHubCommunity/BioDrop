@@ -1,16 +1,9 @@
 {
   "name": "Rupesh Dubey",
   "type": "personal",
-  "bio": "Open Source | **Student** | Currently Learning **Machine Learning** & **Data Science**",
+  "bio": "Open Source Enthusiast | Alpha ⭐ - Microsoft Learn Student Ambassador 🎓| **DSA** 🧠 | **Machine Learning** 🐍",
 
-  "tags": [
-    "Open Source",
-    "Java",
-    "Python",
-    "DSA",
-    "Machine Learning",
-    "Data Science"
-  ],
+  "tags": ["Open Source", "Java", "Python", "DSA", "Machine Learning"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/rupeshtwt" },
     { "icon": "FaGithub", "url": "https://github.com/rupeshexe" },
@@ -19,39 +12,44 @@
   ],
   "links": [
     {
-      "name": "Lets Create Something on GitHub",
+      "group": "Socials",
+      "name": "Checkout My GitHub 👨‍💻",
       "url": "https://github.com/rupeshexe",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "group": "Socials",
+      "name": "Follow me on Twitter 🕊",
       "url": "https://twitter.com/rupeshtwt",
       "icon": "FaTwitter"
     },
     {
-      "name": "LinkedIn: Let's connect",
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect 🫂",
       "url": "https://linkedin.com/in/rupeshexe",
       "icon": "FaLinkedin"
     },
     {
-      "name": "YouTube: First Video Soon",
+      "group": "Socials",
+      "name": "YouTube: First Video Soon 🎥",
       "url": "https://youtube.com/@rupeshexe",
       "icon": "FaYoutube",
       "color": "#FF0000"
     },
     {
-      "name": "Open Source and Random Tech Blogs",
+      "name": "Open Source and Random Tech Blogs 📝",
       "url": "https://rupeshexe.hashnode.dev/",
       "icon": "SiHashnode",
       "color": "#0755AA"
     },
     {
-      "name": "GitHub Sponsors: Support my Work",
+      "name": "GitHub Sponsors: Support my Work 💸",
       "url": "https://github.com/sponsors/rupeshexe",
       "icon": "FaDollarSign"
     },
     {
-      "name": "Mail me at",
+      "group": "Contact",
+      "name": "Mail me at 📬",
       "url": "mailto:contactrupeshdubey@gmail.com",
       "icon": "SiGmail",
       "color": "#FF651F"
@@ -65,6 +63,14 @@
       "color": "orange",
       "description": "Always Open to learn and collaborate on new tech stacks.",
       "url": "https://twitter.com/rupeshtwt"
+    },
+    {
+      "title": "Became Microsoft Learn Student Ambassador",
+      "date": "April 2023",
+      "icon": "🎓",
+      "color": "yellow",
+      "description": "Learning and helping other to learn.",
+      "url": "https://studentambassadors.microsoft.com/studentambassadors/profile/4222c1bc-4928-4461-af60-a938494ce6be?wt.mc_id=studentamb_265181"
     },
     {
       "title": "Appeared On Twitter",

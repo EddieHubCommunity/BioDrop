@@ -1,8 +1,5 @@
-import { getEventListeners } from "events";
-import fs from "fs";
-import path from "path";
-
-import logger from "../../config/logger";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -11,66 +8,35 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const {statusCode, events} = await getEvents();
+  const events = await getEvents();
   return res
-    .json(statusCode)
+    .status(200)
     .json(events);
 }
 
 export async function getEvents() {
-  const directoryPath = path.join(process.cwd(), "data");
-
-  let userFolders;
+  let events = [];
   try {
-    userFolders = fs
-      .readdirSync(directoryPath)
-      .filter((item) => !item.includes("json"));
+    events = await Profile.aggregate([
+      { $project: { username: 1, events: 1 } },
+      { $match: { "events.date.start": { $gt: new Date() } } },
+    ])
+      .unwind("events")
+      .sort({ "events.date.start": 1 })
+      .exec();
+
+    events = events
+      .map((event) => ({
+        ...event.events,
+        username: event.username,
+        _id: event._id,
+      }))
+      // TODO remove and do with mongo query
+      .filter((event) => new Date(event.date.end) > new Date());
   } catch (e) {
-    logger.error(e, "failed to load profiles");
-    return {
-      statusCode: 400,
-      events: {
-        error: "failed to load profiles"
-      }
-    }
+    logger.error(e, "Failed to load events");
+    events = [];
   }
 
-  const events = userFolders.flatMap((folder) => {
-    const eventsPath = path.join(directoryPath, folder, "events");
-    let eventFiles = [];
-    try {
-      eventFiles = fs.readdirSync(eventsPath);
-    } catch (e) {
-      logger.warn(`no events in ${eventsPath}`);
-      return [];
-    }
-    const eventFilesContent = eventFiles.flatMap((file) => {
-      try {
-        return {
-          ...JSON.parse(fs.readFileSync(path.join(eventsPath, file), "utf8")),
-          username: folder,
-        };
-      } catch (e) {
-        logger.error(e, `failed loading event "${file}" in "${eventsPath}"`);
-        return [];
-      }
-    });
-
-    return eventFilesContent;
-  });
-
-  const eventsFiltered = events
-    .reduce(
-      (previousValue, currentValue) => previousValue.concat(currentValue),
-      []
-    )
-    .filter((event) => new Date(event.date.end) > new Date())
-    .sort((a, b) => new Date(a.date.start) - new Date(b.date.start));
-
-  return {
-    statusCode: 200,
-    events: {
-      eventsArray: eventsFiltered
-    }
-  }
+  return events;
 }

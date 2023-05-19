@@ -2,7 +2,7 @@ import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 
 import DbAdapter from "./db-adapter";
-import connectMongo from "../../../config/mongo";
+import connectMongo from "@config/mongo";
 
 export const authOptions = {
   adapter: DbAdapter(connectMongo),
@@ -45,6 +45,9 @@ export const authOptions = {
 
       return session;
     },
+  },
+  pages: {
+    signIn: "/auth/signin",
   },
 };
 

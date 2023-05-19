@@ -1,10 +1,18 @@
 {
   "name": "Bilal Khan",
   "type": "personal",
-  "bio": "College Dropout ➞ Self-Taught DevOps Guy | AWS Community Builder, Open Source Contributor, Content Creator on YouTube & Hashnode.",
+  "bio": "Book Loop Founder, DevOps Guy, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
 
-  "tags": ["Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://ibilalkayy.github.io/digital-resume/"
+    },
+    {
+      "icon": "FaCircleNotch",
+      "url": "https://bookloop.club/"
+    },
     {
       "icon": "SiYoutube",
       "url": "https://www.youtube.com/@ibilalkayy"
@@ -15,7 +23,7 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@ibilalkayy"
+      "url": "https://ibilalkayy.hashnode.dev/"
     },
     {
       "icon": "FaTwitter",
@@ -39,6 +47,11 @@
       "icon": "FaGlobe"
     },
     {
+      "name": "Book Loop: A Startup",
+      "url": "https://bookloop.club",
+      "icon": "FaCircleNotch"
+    },
+    {
       "name": "YouTube: Checkout my DevOps Videos",
       "url": "https://www.youtube.com/@ibilalkayy",
       "icon": "SiYoutube"
@@ -50,7 +63,7 @@
     },
     {
       "name": "Hashnode: Read my Blogs",
-      "url": "https://hashnode.com/@ibilalkayy",
+      "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
