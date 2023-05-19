@@ -9,6 +9,11 @@ jobs:
   build:
     if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -50,7 +55,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: Dockerfile.deploy
+          file: Dockerfile
           push: true
           secrets: |
             'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'

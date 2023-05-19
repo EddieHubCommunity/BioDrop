@@ -45,7 +45,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "dev:docker": "ncp ./.env.docker ./.env && next dev",
+    "dev:docker": "shx cp -n ./.env.docker ./.env && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test --trace on",
@@ -88,7 +88,6 @@
     "eslint-plugin-storybook": "^0.6.11",
     "husky": "^8.0.3",
     "linkfree-cli": "^2.2.2",
-    "ncp": "^2.0.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "storybook": "^7.0.2",
