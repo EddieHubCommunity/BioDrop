@@ -1,9 +1,9 @@
-# 1.126.0 (2023-05-17)
+# 1.129.0 (2023-05-19)
 
 
 ### Features
 
-* incremental static regeneration for map page ([#6939](https://github.com/EddieHubCommunity/LinkFree/issues/6939)) ([b5eaedd](https://github.com/EddieHubCommunity/LinkFree/commit/b5eaeddef70860f1f073243f22b35b42a619b5de))
+* display random profiles on search page ([#6960](https://github.com/EddieHubCommunity/LinkFree/issues/6960)) ([#6979](https://github.com/EddieHubCommunity/LinkFree/issues/6979)) ([5dafd6b](https://github.com/EddieHubCommunity/LinkFree/commit/5dafd6bb35c482f5a184b1658c65f60e82d7ada3))
 
 
 
