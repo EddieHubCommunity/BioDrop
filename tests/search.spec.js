@@ -2,6 +2,8 @@
 import { test, expect } from "@playwright/test";
 const AxeBuilder = require("@axe-core/playwright").default;
 
+const defaultUsers = 5;
+
 test("Search has title", async ({ page }) => {
   await page.goto("/search");
   await expect(page).toHaveTitle(/Search/);
@@ -21,7 +23,7 @@ test("Search works correctly", async ({ page }) => {
   await page.goto("/search");
 
   // 2. show no users are listed
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(defaultUsers);
 
   // 3. type in search and check that user with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
@@ -38,7 +40,7 @@ test("Search page has random results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("main li")).toHaveCount(5);
+  await expect(page.locator("main li")).toHaveCount(defaultUsers);
 });
 
 test("Search page shows random results after typing 1 characters", async ({
@@ -49,7 +51,7 @@ test("Search page shows random results after typing 1 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("main li")).toHaveCount(5);
+  await expect(page.locator("main li")).toHaveCount(defaultUsers);
 });
 
 test("Search page shows results after typing 3 characters", async ({
