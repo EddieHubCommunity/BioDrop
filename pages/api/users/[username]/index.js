@@ -27,15 +27,7 @@ export async function getUserApi(req, res, username) {
     isOwner = true;
   }
 
-  const log = logger.child({ username });
-  let getProfile = await Profile.findOne(
-    { username },
-    "-__v -views -source"
-  ).populate({
-    path: "links",
-    select: "-__v -clicks -profile",
-    options: { sort: { order: 1 } },
-  });
+  let getProfile = await Profile.findOne({ username });
 
   if (!getProfile) {
     logger.error(`Failed loading profile username: ${username}`);
@@ -46,6 +38,18 @@ export async function getUserApi(req, res, username) {
       },
     };
   }
+
+  await getLocation(username, getProfile);
+
+  const log = logger.child({ username });
+  getProfile = await Profile.findOne(
+    { username },
+    "-__v -views -source"
+  ).populate({
+    path: "links",
+    select: "-__v -clicks -profile",
+    options: { sort: { order: 1 } },
+  });
 
   getProfile = {
     ...getProfile._doc,
@@ -77,8 +81,6 @@ export async function getUserApi(req, res, username) {
       order: testimonial.order,
     })),
   };
-
-  await getLocation(username, getProfile);
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);

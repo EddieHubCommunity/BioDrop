@@ -1,6 +1,5 @@
 {
   "name": "Test User Name 5",
-  "type": "personal",
   "bio": "Test user bio 5",
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" }

@@ -1,10 +1,3 @@
-// ERRORs
-// === ERROR: User Anmol-Baranwal: "socials" count does not match expected 3 4
-// === ERROR: User DanielaaER: "links" count does not match expected 4 5
-// === ERROR: User Brownei: "links" count does not match expected 3 4
-// === ERROR: User BruceWangyq: "links" count does not match expected 5 6
-//
-
 (async () => {
   const start = 300;
   const finish = 350;
