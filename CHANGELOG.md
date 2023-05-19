@@ -1,9 +1,9 @@
-# 1.129.0 (2023-05-19)
+# 1.130.0 (2023-05-19)
 
 
 ### Features
 
-* display random profiles on search page ([#6960](https://github.com/EddieHubCommunity/LinkFree/issues/6960)) ([#6979](https://github.com/EddieHubCommunity/LinkFree/issues/6979)) ([5dafd6b](https://github.com/EddieHubCommunity/LinkFree/commit/5dafd6bb35c482f5a184b1658c65f60e82d7ada3))
+* load json files into the DB and app uses DB ([#5765](https://github.com/EddieHubCommunity/LinkFree/issues/5765)) ([bce1d99](https://github.com/EddieHubCommunity/LinkFree/commit/bce1d99e591d81aacbb74f192327bde39befdce9)), closes [#5575](https://github.com/EddieHubCommunity/LinkFree/issues/5575)
 
 
 
