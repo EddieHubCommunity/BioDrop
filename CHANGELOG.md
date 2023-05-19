@@ -1,9 +1,9 @@
-# 1.130.0 (2023-05-19)
+## 1.130.1 (2023-05-19)
 
 
-### Features
+### Bug Fixes
 
-* load json files into the DB and app uses DB ([#5765](https://github.com/EddieHubCommunity/LinkFree/issues/5765)) ([bce1d99](https://github.com/EddieHubCommunity/LinkFree/commit/bce1d99e591d81aacbb74f192327bde39befdce9)), closes [#5575](https://github.com/EddieHubCommunity/LinkFree/issues/5575)
+* gh action for load data ([#6993](https://github.com/EddieHubCommunity/LinkFree/issues/6993)) ([31460a8](https://github.com/EddieHubCommunity/LinkFree/commit/31460a8e59d26390def15397f015bf22cca115ed))
 
 
 
