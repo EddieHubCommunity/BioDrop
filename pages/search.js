@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -9,8 +9,8 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
-import {getTags} from "./api/discover/tags"
-import {getUsers} from "./api/users";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/users";
 
 export async function getStaticProps() {
   let data = {
@@ -40,10 +40,14 @@ export default function Search({ data }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
+
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-
   let results = [];
+
+  const getRandomUsers = () => {
+    return users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  };
 
   useEffect(() => {
     if (username) {
@@ -103,11 +107,16 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
+    console.log("======", inputValue.length);
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers([]);
+      setFilteredUsers(getRandomUsers());
       //Removing the not found field when the input field is empty
       setNotFound();
+      return;
+    }
+
+    if (inputValue.length < 2) {
       return;
     }
 
