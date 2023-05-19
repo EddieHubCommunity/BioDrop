@@ -38,5 +38,5 @@ export async function getEvents() {
     events = [];
   }
 
-  return events;
+  return JSON.parse(JSON.stringify(events));
 }
