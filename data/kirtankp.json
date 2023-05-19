@@ -9,6 +9,8 @@
     "ReactJS",
     "NodeJS",
     "Typescript",
+    "Typescript",
+    "NodeJS",
     "Java"
   ],
 
@@ -21,12 +23,17 @@
     },
     {
       "group": "Primary Socials",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
       "name": "GitHub",
       "url": "https://github.com/kirtankp/",
       "icon": "FaGithub"
     },
     {
       "group": "Primary Socials",
+      "group": "Socials Primary",
       "name": "Twitter",
       "url": "https://twitter.com/kirtan__kp/",
       "icon": "FaTwitter"
