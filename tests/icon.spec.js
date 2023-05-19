@@ -20,7 +20,7 @@ test("Icon search works correctly", async ({ page }) => {
   await expect(page.locator("main li")).toHaveCount(4);
 });
 
-test("Icon search page has no results when no search term used", async ({
+test("Icon search page has default results when no search term used", async ({
   page,
 }) => {
   await page.goto("/search");
@@ -28,10 +28,10 @@ test("Icon search page has no results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(4);
 });
 
-test("Icon search page shows no results after typing 1 characters", async ({
+test("Icon search page shows default results after typing 1 characters", async ({
   page,
 }) => {
   await page.goto("/search");
@@ -39,7 +39,7 @@ test("Icon search page shows no results after typing 1 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(4);
 });
 
 test("Icon search page shows results after typing 3 characters", async ({

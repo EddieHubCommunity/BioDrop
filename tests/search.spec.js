@@ -9,7 +9,10 @@ test("Search has title", async ({ page }) => {
 
 test("Navigate to the Search page", async ({ page }) => {
   await page.goto("/");
-  await page.getByRole("navigation").getByRole("link", { name: "Search" }).click();
+  await page
+    .getByRole("navigation")
+    .getByRole("link", { name: "Search" })
+    .click();
   await expect(page.locator("h1")).toHaveText("Search");
 });
 
@@ -27,7 +30,7 @@ test("Search works correctly", async ({ page }) => {
   await expect(page.locator("main li")).toHaveCount(1);
 });
 
-test("Search page has no results when no search term used", async ({
+test("Search page has random results when no search term used", async ({
   page,
 }) => {
   await page.goto("/search");
@@ -35,10 +38,10 @@ test("Search page has no results when no search term used", async ({
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(5);
 });
 
-test("Search page shows no results after typing 1 characters", async ({
+test("Search page shows random results after typing 1 characters", async ({
   page,
 }) => {
   await page.goto("/search");
@@ -46,7 +49,7 @@ test("Search page shows no results after typing 1 characters", async ({
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main li")).toHaveCount(5);
 });
 
 test("Search page shows results after typing 3 characters", async ({
@@ -76,7 +79,7 @@ test.fixme(
 );
 
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests (light)", async ({ page }) => {
     await page.goto("/search");
@@ -88,7 +91,7 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
+  test.use({ colorScheme: "dark" });
 
   test("should pass axe wcag accessibility tests (dark)", async ({ page }) => {
     await page.goto("/search");
