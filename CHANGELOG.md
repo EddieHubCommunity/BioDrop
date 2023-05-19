@@ -1,9 +1,9 @@
-## 1.128.3 (2023-05-19)
+# 1.129.0 (2023-05-19)
 
 
-### Bug Fixes
+### Features
 
-* mongo config file ([#6885](https://github.com/EddieHubCommunity/LinkFree/issues/6885)) ([#6977](https://github.com/EddieHubCommunity/LinkFree/issues/6977)) ([e0e190b](https://github.com/EddieHubCommunity/LinkFree/commit/e0e190b2cb535ff9ec13fbea834b4c3fd403c1f8)), closes [#6855](https://github.com/EddieHubCommunity/LinkFree/issues/6855)
+* display random profiles on search page ([#6960](https://github.com/EddieHubCommunity/LinkFree/issues/6960)) ([#6979](https://github.com/EddieHubCommunity/LinkFree/issues/6979)) ([5dafd6b](https://github.com/EddieHubCommunity/LinkFree/commit/5dafd6bb35c482f5a184b1658c65f60e82d7ada3))
 
 
 
