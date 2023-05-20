@@ -1,9 +1,9 @@
-## 1.130.5 (2023-05-20)
+## 1.130.6 (2023-05-20)
 
 
 ### Bug Fixes
 
-* convert fetches to function calls for events page ([#5152](https://github.com/EddieHubCommunity/LinkFree/issues/5152)) ([36c2f9f](https://github.com/EddieHubCommunity/LinkFree/commit/36c2f9f13bdc5f05e1ff75a8470adc80cb501675))
+* convert fetch to function call ([#7028](https://github.com/EddieHubCommunity/LinkFree/issues/7028)) ([ba79843](https://github.com/EddieHubCommunity/LinkFree/commit/ba798437915b28037f8704cec4cf5e3eb2f9ff20))
 
 
 
