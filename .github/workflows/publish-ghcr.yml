@@ -47,6 +47,8 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
+      - name: Setup Env
+        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" > /tmp/.env
       - name: push to Github Container Registry
         uses: docker/build-push-action@v3
         with:
@@ -55,7 +57,8 @@ jobs:
           push: true
           secrets: |
             'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'
-          build-args: "github_token=${{ secrets.GITHUB_TOKEN }},MONGODB_URL=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}"
+          secret-files: "MONGO=/tmp/.env"
+          build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
           tags: |
             ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
