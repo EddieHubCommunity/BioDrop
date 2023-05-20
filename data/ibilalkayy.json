@@ -1,8 +1,6 @@
 {
   "name": "Bilal Khan",
-  "type": "personal",
   "bio": "Book Loop Founder, DevOps Guy, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
-
   "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
     {

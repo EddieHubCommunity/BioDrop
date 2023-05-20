@@ -1,6 +1,5 @@
 {
   "name": "Nkanmuo Vera Chioma",
-  "type": "personal",
   "bio": "**A Frontend Developer** who enjoys creating responsive and functional Web Applications that are accessible to all.",
   "tags": [
     "Open Source",
@@ -12,8 +11,14 @@
     "HTML"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/nkanmuo_vera" },
-    { "icon": "FaGithub", "url": "https://github.com/chiomavera" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nkanmuo_vera"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chiomavera"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/chioma-vera-nkanmuo/"

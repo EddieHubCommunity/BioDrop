@@ -1,12 +1,16 @@
 {
   "name": "Abhay Kumar Mittal",
-  "type": "personal",
   "bio": "Open Source | Devops | Full Stack Developer",
-
   "tags": ["Open Source", "Javascript", "Typescript", "NextJS", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MitAbhay" },
-    { "icon": "FaGithub", "url": "https://github.com/MitAbhay" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MitAbhay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MitAbhay"
+    }
   ],
   "links": [
     {

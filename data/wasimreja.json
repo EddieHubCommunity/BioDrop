@@ -1,12 +1,16 @@
 {
   "name": "Wasim Reja",
-  "type": "personal",
   "bio": "Full Stack Developer | MERN | Open Source",
-
   "tags": ["Open Source", "Javascript", "Typescript", "React", "NextJS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_wasimreja" },
-    { "icon": "FaGithub", "url": "https://github.com/wasimreja" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_wasimreja"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wasimreja"
+    }
   ],
   "links": [
     {

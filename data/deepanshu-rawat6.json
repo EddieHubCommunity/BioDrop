@@ -1,19 +1,21 @@
 {
   "name": "Deepanshu Rawat",
-  "type": "personal",
   "bio": "**DevOps** and **Web Dev** enthusiast | Core Member, **GDSC_UPES** | Student_Developer , **Open Community UPES**",
-
   "tags": ["Open Source", "Web Dev", "DevOps"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/deepanshuurawat" },
-    { "icon": "FaGithub", "url": "https://github.com/deepanshu-rawat6" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/deepanshuurawat"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/deepanshu-rawat6"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/deepanshu-rawat6"
     }
   ],
-
   "links": [
     {
       "name": "GitHub: Let's collaborate",

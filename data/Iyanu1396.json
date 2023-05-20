@@ -1,11 +1,15 @@
 {
   "name": "IyanuOluwa",
-  "type": "personal",
   "bio": "Frontend Developer | **Javascript** ",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iyanu_codes" },
-    { "icon": "FaGithub", "url": "https://github.com/Iyanu1396" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iyanu_codes"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Iyanu1396"
+    }
   ],
   "tags": ["Javascript"],
   "links": [
