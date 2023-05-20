@@ -1,16 +1,23 @@
 {
   "name": "Sorin Sbarnea",
-  "type": "personal",
   "bio": "Python Software Engineer",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sbarnea" },
-    { "icon": "FaGithub", "url": "https://github.com/ssbarnea" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sbarnea"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ssbarnea"
+    },
     {
       "icon": "FaLinkedIn",
       "url": "https://www.linkedin.com/in/sorinsbarnea/"
     },
-    { "icon": "FaFacebook", "url": "https://facebook.com/sorin.sbarnea" }
+    {
+      "icon": "FaFacebook",
+      "url": "https://facebook.com/sorin.sbarnea"
+    }
   ],
   "tags": ["Open Source", "Python", "Ansible", "TypeScript"],
   "links": [

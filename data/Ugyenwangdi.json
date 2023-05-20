@@ -1,14 +1,21 @@
 {
   "name": "Ugyen Wangdi",
-  "type": "personal",
   "bio": "**Full Stack** | Django Developer | Blogger ",
   "tags": ["Python", "Django", "Blogging"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/wu_25iytt" },
-    { "icon": "FaGithub", "url": "https://github.com/Ugyenwangdi" },
-    { "icon": "FaLink", "url": "https://linktr.ee/wu_25iytt" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/wu_25iytt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ugyenwangdi"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://linktr.ee/wu_25iytt"
+    }
   ],
-
   "links": [
     {
       "name": "Tweets on my Tech journey",

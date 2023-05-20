@@ -1,6 +1,5 @@
 {
   "name": "Rishabh Dhawad",
-  "type": "personal",
   "bio": "FrontEnd Developer | Open Source Enthusiast | CS Student | Intrested in Cloud Technology & DevOps",
   "tags": [
     "Open Source",
@@ -12,15 +11,23 @@
     "C++"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/RishabhDhawad" },
-    { "icon": "FaGithub", "url": "https://github.com/RishabhDhawad" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RishabhDhawad"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RishabhDhawad"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/rishabhdhawad/"
     },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/rishabhdhawad/" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/rishabhdhawad/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

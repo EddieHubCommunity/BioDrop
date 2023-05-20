@@ -1,8 +1,6 @@
 {
   "name": "Eddie Jaoude",
-  "type": "personal",
   "bio": "Open Source DevRel | Founder of **EddieHub** and [LinkFree](https://linkfree.io) | **GitHub** Star",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,9 +10,18 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
-    { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/eddiejaoude"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/eddiejaoude"
+    }
   ],
   "testimonials": [
     "FrancescoXX",
@@ -122,7 +129,6 @@
     },
     {
       "title": "Started YouTube",
-
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",

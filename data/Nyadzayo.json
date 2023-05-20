@@ -1,8 +1,6 @@
 {
   "name": "Kelvin Nyadzayo",
-  "type": "personal",
   "bio": "Hi, there I'm a software engineer and technical writter from  Zimbabwe. I love to inspire the community by delivering talks and writing blogs on web development & blockchain  topics. ",
-
   "links": [
     {
       "name": "Connect with me on my Website",
@@ -14,13 +12,11 @@
       "url": "https://github.com/Nyadzayo",
       "icon": "FaGithub"
     },
-
     {
       "name": "My YouTube Channel",
       "url": "https://www.youtube.com/channel/UCVx38C7OXK3QU7HH7YWlpLQ/featured",
       "icon": "FaYoutube"
     },
-
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodeKyles",
@@ -52,7 +48,6 @@
       "color": "grey",
       "description": "Started writing technical blogs on blockchain, web development, personal development and crypto topics "
     },
-
     {
       "title": "Graduated in CS",
       "date": "December 2021",

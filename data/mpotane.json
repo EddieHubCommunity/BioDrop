@@ -1,12 +1,20 @@
 {
   "name": "mpotane",
-  "type": "personal",
   "bio": "🧑‍💻 Software Engineer | ⚗️ Reactjs / Nextjs | 🪟 JavaScript / TypeScript | 🐍 Python | 🧙‍♂️ Open Sourcerer | 🪔 Jamstack",
   "tags": ["Open Source", "NextJS", "Typescript", "Prisma", "Supabase"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/mpotanedev" },
-    { "icon": "FaGithub", "url": "https://github.com/mpotane" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mpotane/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mpotanedev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mpotane"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mpotane/"
+    }
   ],
   "links": [
     {

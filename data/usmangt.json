@@ -1,8 +1,6 @@
 {
   "name": "Syed Usman Ahmad",
-  "type": "personal",
   "bio": "Open Source contributor | DevRel | Working at ** Grafana Labs**",
-
   "tags": [
     "Open Source",
     "Linux",
@@ -15,13 +13,11 @@
     "Database",
     "Technical Support"
   ],
-
   "socials": [
     {
       "icon": "FaGithub",
       "url": "https://github.com/usmangt"
     },
-
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/syed-usman-ahmad-b1415515/"
@@ -41,19 +37,16 @@
       "url": "https://community.grafana.com/u/usmanahmad/summary",
       "icon": "SiGrafana"
     },
-
     {
       "name": ":point_right: Connect with me",
       "url": "https://www.linkedin.com/in/syed-usman-ahmad-b1415515/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "Follow me on GitHub :octocat:",
       "url": "https://github.com/usmangt",
       "icon": "FaGithub"
     },
-
     {
       "name": "My Publications on Medium",
       "url": "https://medium.com/all-about-linux",

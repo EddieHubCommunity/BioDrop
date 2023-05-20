@@ -1,10 +1,6 @@
 {
   "name": "Harsh Singh",
-
-  "type": "personal",
-
   "bio": "Open source Enthusiast || Pursuing Bachelor of Technology (CSE), prefinal year || Content Writer || Based in India || Web developer and Designer || Looking for **6/12 months internship opportunities** for **Frontend developer and Devrel** || Please 😊 Hire me",
-
   "tags": [
     "Open Source",
     "Content Writer",
@@ -15,55 +11,44 @@
     "NextJs",
     "CSS3"
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://mobile.twitter.com/harsh_hasew7890"
     },
-
-    { "icon": "FaGithub", "url": "https://github.com/harshsingh32" },
-
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@harshsin327" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/harshsingh32"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@harshsin327"
+    }
   ],
-
   "links": [
     {
       "name": "GitHub",
-
       "url": "https://github.com/harshsingh32",
-
       "icon": "FaGithub"
     },
-
     {
       "name": "Twitter",
-
       "url": "https://mobile.twitter.com/harsh_hasew7890",
-
       "icon": "FaTwitter"
     },
-
     {
       "name": "Hashnode",
-
       "url": "https://hashnode.com/@harshsin327",
-
       "icon": "SiHashnode"
     },
-
     {
       "name": "LinkedIn",
-
       "url": "https://www.linkedin.com/in/harsh-singh-4245771a2",
-
       "icon": "FaLinkedin"
     },
     {
       "name": "Dev.to",
-
       "url": "https://dev.to/harshsingh32",
-
       "icon": "FaDev"
     }
   ]
