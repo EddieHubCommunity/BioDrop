@@ -1,11 +1,16 @@
 {
   "name": "Dhrutinandan Swain",
-  "type": "personal",
   "bio": "Programmer and Newbie OpenSource contributor",
   "tags": ["Open Source", "Python", "Java", "ML/AI", "Devops"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/DSOOO924" },
-    { "icon": "FaGithub", "url": "https://github.com/coder-XX04" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DSOOO924"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/coder-XX04"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/dhrutinandan-swain-684743231"

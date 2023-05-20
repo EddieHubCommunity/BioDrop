@@ -1,6 +1,5 @@
 {
   "name": "Abhishek Kumar",
-  "type": "personal",
   "bio": "Web Dev Enthusiast | Open source",
   "tags": ["Open Source", "Web Dev", "DSA"],
   "socials": [
@@ -13,7 +12,6 @@
       "url": "https://github.com/abhiraj-ku"
     }
   ],
-
   "links": [
     {
       "name": "GitHub",
@@ -25,7 +23,6 @@
       "url": "https://twitter.com/abhirajabhi312",
       "icon": "FaTwitter"
     },
-
     {
       "name": "let's connect on  LinkedIn",
       "url": "https://linkedin.com/in/abhishek-ko/",

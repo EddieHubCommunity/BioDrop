@@ -1,14 +1,21 @@
 {
   "name": "Himanshu Chhatwal",
-  "type": "personal",
   "bio": "Open source Contributor | Blogger | Content Writer ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web Dev"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/himanshuchhatw2" },
-    { "icon": "FaGithub", "url": "https://github.com/himanshu1221" },
-    { "icon": "SiHashnode", "url": "https://blogsbyhimanshu.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/himanshuchhatw2"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/himanshu1221"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://blogsbyhimanshu.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "name": "My PortFolio",

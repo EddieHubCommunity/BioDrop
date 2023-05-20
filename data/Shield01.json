@@ -1,8 +1,6 @@
 {
   "name": "Tijani Hussein",
-  "type": "personal",
   "bio": "Software Engineer | Open Source Enthusiast",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -15,9 +13,18 @@
     "ASP.Net"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/DTechBroIndoor" },
-    { "icon": "FaGithub", "url": "https://github.com/Shield01" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/tijanihussein" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DTechBroIndoor"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Shield01"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tijanihussein"
+    }
   ],
   "links": [
     {

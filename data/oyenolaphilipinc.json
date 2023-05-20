@@ -1,6 +1,5 @@
 {
   "name": "Philip Oyenola",
-  "type": "personal",
   "bio": "16 year old **Programmer**. Building and helping others achieve their dreams",
   "links": [
     {
@@ -33,7 +32,6 @@
     },
     {
       "title": "Started Twitter",
-
       "date": "June 2021",
       "icon": "FaTwitter",
       "color": "red",

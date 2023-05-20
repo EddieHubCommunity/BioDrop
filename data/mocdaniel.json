@@ -1,8 +1,6 @@
 {
   "name": "Daniel Bodky",
-  "type": "personal",
   "bio": "Cloud-Native Consultant | CKA | Loves **Automation**, **Orchestration** & **DevOps** ❤️",
-
   "tags": ["Open Source", "DevOps", "Kubernetes", "Golang", "Rust", "Ansible"],
   "socials": [
     {

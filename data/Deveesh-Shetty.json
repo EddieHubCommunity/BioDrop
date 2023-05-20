@@ -1,12 +1,16 @@
 {
   "name": "Deveesh Shetty",
-  "type": "personal",
   "bio": "React Developer | Open Source Enthusiast | Full Stack 🚀",
-
   "tags": ["Typescript", "Javascript", "Open Source", "NextJS", "MERN Stack"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/shettydeveesh" },
-    { "icon": "FaGithub", "url": "https://github.com/Deveesh-Shetty" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shettydeveesh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Deveesh-Shetty"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/deveesh-shetty-908539214"

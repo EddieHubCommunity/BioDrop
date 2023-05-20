@@ -1,15 +1,24 @@
 {
   "name": "Ganesh Mourya",
-  "type": "personal",
   "bio": "Software Developer ➝ Interested in Code, Open Source, Projects 🔥",
-
   "tags": ["Open Source", "Javascript", "C", "C++", "Git"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Alkaison" },
-    { "icon": "FaGithub", "url": "https://github.com/Alkaison" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/Alkaison" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/Alkaison_/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Alkaison"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Alkaison"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/Alkaison"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/Alkaison_/"
+    },
     {
       "icon": "FaDiscord",
       "url": "https://discordapp.com/users/536816649425125389"

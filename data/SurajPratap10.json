@@ -1,16 +1,16 @@
 {
   "name": "Suraj Pratap",
-  "type": "personal",
   "bio": "Frontend Developer || DevOps & Open Source enthusiast ||Tech Blogger",
-
   "tags": ["Open Source", "Web Development", "DevOps"],
-
   "socials": [
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/suraj-pratap-948a92225/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/SurajPratap10" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SurajPratap10"
+    }
   ],
   "links": [
     {

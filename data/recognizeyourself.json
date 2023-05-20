@@ -1,8 +1,6 @@
 {
   "name": "Yash Verma",
-  "type": "personal",
   "bio": "Started my career in Film Making, Meanwhile Got fascinated with Machine learning, Web Development and Open Source and rest is the story 😄",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -23,7 +21,6 @@
   "milestones": [
     {
       "title": "Founded 'Recognizeyourself'.",
-
       "date": "2019",
       "icon": "FaDollarSign",
       "color": "grey",
@@ -32,7 +29,6 @@
     },
     {
       "title": "Started Learning About Machine Learning",
-
       "date": "2019",
       "icon": "FaGithub",
       "color": "green",
@@ -41,7 +37,6 @@
     },
     {
       "title": "Started Contributing in Open Source",
-
       "date": "Aug 2021",
       "icon": "FaGithub",
       "color": "green",

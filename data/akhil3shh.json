@@ -1,6 +1,5 @@
 {
   "name": "Akhilesh Nadgiri",
-  "type": "personal",
   "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
   "tags": [
     "Python",
@@ -14,9 +13,18 @@
     "Prometheus"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
-    { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/akhileshhh.exe" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akhil3shh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akhil3shh"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akhileshhh.exe"
+    }
   ],
   "links": [
     {
@@ -39,7 +47,6 @@
       "url": "https://twitter.com/akhil3shh",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/akhileshhh.exe/",
