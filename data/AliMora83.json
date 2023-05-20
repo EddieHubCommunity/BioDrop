@@ -29,7 +29,7 @@
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/swarts_d",
       "icon": "FaTwitter",
-      "iconColor": "white"
+      "color": "white"
     },
     {
       "group": "Socials",
