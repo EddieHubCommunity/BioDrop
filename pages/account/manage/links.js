@@ -6,11 +6,11 @@
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
+import { MdRadioButtonChecked, MdRadioButtonUnchecked } from "react-icons/md";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Alert from "@components/Alert";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 
@@ -28,32 +28,22 @@ export async function getServerSideProps(context) {
 
   const username = session.username;
 
-  let profile = {};
+  let links = [];
   try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
-    );
-    profile = await resUser.json();
+    links = await getLinksApi();
   } catch (e) {
-    logger.error(e, `profile loading failed for username: ${username}`);
-  }
-
-  if (profile.error) {
-    profile.username = username;
-    profile.name = session.user.name;
+    logger.error(e, `profile loading failed links for username: ${username}`);
   }
 
   return {
-    props: { profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { links, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Links({ BASE_URL, profile }) {
-  const [links, setLinks] = useState(profile.links || []);
-
+export default function Links({ BASE_URL, links }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`${BASE_URL}/api/account/manage/links`, {
+    const res = await fetch(`${BASE_URL}/api/account/manage/link`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -189,6 +179,18 @@ export default function Links({ BASE_URL, profile }) {
               >
                 Icon
               </th>
+              <th
+                scope="col"
+                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+              >
+                Enabled
+              </th>
+              <th
+                scope="col"
+                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+              >
+                Pinned
+              </th>
               <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-0">
                 <span className="sr-only">Edit</span>
               </th>
@@ -208,6 +210,20 @@ export default function Links({ BASE_URL, profile }) {
                 </td>
                 <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
                   {link.icon}
+                </td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  {link.isEnabled ? (
+                    <MdRadioButtonChecked />
+                  ) : (
+                    <MdRadioButtonUnchecked />
+                  )}
+                </td>
+                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  {link.isPinned ? (
+                    <MdRadioButtonChecked />
+                  ) : (
+                    <MdRadioButtonUnchecked />
+                  )}
                 </td>
                 <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
                   <Button text="Edit" primary={true} />

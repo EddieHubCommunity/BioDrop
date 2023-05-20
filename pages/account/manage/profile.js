@@ -21,6 +21,7 @@ import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
 import Navigation from "@components/account/manage/navigation";
 import Tag from "@components/Tag";
+import { getUserApi } from "pages/api/users/[username]";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -38,15 +39,12 @@ export async function getServerSideProps(context) {
 
   let profile = {};
   try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
-    );
-    profile = await resUser.json();
+    profile = (await getUserApi(context.req, context.res, username)).profile;
   } catch (e) {
     logger.error(e, `profile loading failed for username: ${username}`);
   }
 
-  if (profile.error) {
+  if (!profile) {
     profile.username = username;
     profile.name = session.user.name;
   }
