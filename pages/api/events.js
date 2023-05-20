@@ -8,6 +8,13 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
+  const events = await getEvents();
+  return res
+    .status(200)
+    .json(events);
+}
+
+export async function getEvents() {
   let events = [];
   try {
     events = await Profile.aggregate([
@@ -31,5 +38,5 @@ export default async function handler(req, res) {
     events = [];
   }
 
-  res.status(200).json(events);
+  return JSON.parse(JSON.stringify(events));
 }
