@@ -1,9 +1,8 @@
-
 {
   "name": "Gowtham E",
   "type": "personal",
   "bio": "I'm a Software Developer",
-  "links":[
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/gowthae_",
@@ -29,6 +28,5 @@
       "url": "https://www.instagram.com/e_gowtham/",
       "icon": "FaInstagram"
     }
-
   ]
 }
