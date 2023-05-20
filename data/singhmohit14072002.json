@@ -1,8 +1,6 @@
 {
   "name": "Mohit Singh",
-  "type": "personal",
   "bio": "OpenSource  | DevOps | Docker | Blogger **Hashnode**",
-
   "tags": [
     "Open Source",
     "DevOps",
@@ -13,8 +11,14 @@
     "Kubernetes"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MohitDevops" },
-    { "icon": "FaGithub", "url": "https://github.com/singhmohit14072002" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MohitDevops"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/singhmohit14072002"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/mohit-singh-9b4b42253/"

@@ -18,8 +18,11 @@ import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
+import GitHubAccelerator from "@components/GitHubAccelerator";
+import Alert from "@components/Alert";
+import config from "@config/app.json";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
   if (singleUser.username) {
     return {
       redirect: {
@@ -34,6 +37,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: { total: totalStats, today: todayStats },
+    revalidate: 60 * 15, //15 minutes
   };
 }
 
@@ -104,7 +108,7 @@ export default function Home({ total, today }) {
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/55504616/216514019-abbd642a-150e-4ebf-acbf-41651bbddcc4.png",
+        "https://user-images.githubusercontent.com/83087385/234587034-baaf983f-1a91-4d2c-b28c-e9f4c9bb9509.png",
       imageAlt:
         "LinkFree screenshot of search page using tags for searching profiles.",
     },
@@ -129,7 +133,7 @@ export default function Home({ total, today }) {
       description:
         "View details of your LinkFree profile, with views and url clicks",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/229295853-ddafba87-7feb-4562-9867-4346871dd25a.png",
+        "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
       imageAlt: "LinkFree screenshot of account statistics page",
     },
     {
@@ -162,7 +166,7 @@ export default function Home({ total, today }) {
       description:
         "Upcoming events from the community Profiles will be displayed on this page also.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/210064225-b792c186-1eb0-4451-8624-39d5d33724b1.png",
+        "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
         "LinkFree screenshot of community events section in the Community Section tab",
     },
@@ -170,7 +174,7 @@ export default function Home({ total, today }) {
       name: "LinkFree Map",
       description: "Discover people around the world from the LinkFree Map.",
       imageSrc:
-        "https://user-images.githubusercontent.com/80192140/220244652-0fd2a1ba-8bba-4cfb-8a54-7e2500202c4e.png",
+        "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
       imageAlt: "LinkFree screenshot of Map Page",
     },
   ];
@@ -208,6 +212,10 @@ export default function Home({ total, today }) {
       <PageHead />
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
+        {config.alerts.map((alert, index) => (
+          <Alert key={index} type={alert.type} message={alert.message} />
+        ))}
+
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree
@@ -287,7 +295,7 @@ export default function Home({ total, today }) {
               />
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude"/>
+              <Button text="Example" href="/eddiejaoude" />
             </div>
           </div>
         </div>
@@ -358,7 +366,7 @@ export default function Home({ total, today }) {
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
             Popular User Guides
           </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-medium">
+          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-high">
             Here is a selection of our popular documentation guides to help you
             get started.
           </p>
@@ -367,9 +375,9 @@ export default function Home({ total, today }) {
               {features.map((feature) => (
                 <div key={feature.name} className="pt-6">
                   <Link
-                    aria-label="Go to ${feature.name} page"
+                    aria-label={`Go to ${feature.name} page`}
                     href={feature.path}
-                    className="text-primary-high group"
+                    className="text-primary-high dark:text-primary-low-medium group"
                   >
                     <div className="flow-root rounded-lg bg-primary-low dark:bg-primary-medium px-6 pb-8">
                       <div className="-mt-6">
@@ -398,6 +406,8 @@ export default function Home({ total, today }) {
       </div>
 
       <Testimonials data={testimonials} />
+
+      <GitHubAccelerator />
 
       <Link
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"

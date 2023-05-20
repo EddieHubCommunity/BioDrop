@@ -1,0 +1,21 @@
+{
+  "name": "Ismail Benlaredj",
+  "bio": "Software Engineer, specialist in web development. I’m a front end, React developer experienced with various web technologies",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ismaii.l/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/ismailbenlaredj/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My website",
+      "url": "https://ismailbenlaredj.me/",
+      "icon": "SiWebflow"
+    }
+  ]
+}

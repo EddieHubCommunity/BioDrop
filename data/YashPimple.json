@@ -1,14 +1,21 @@
 {
   "name": "Yash Pimple",
-  "type": "personal",
-  "bio": "Open Source Contributor | Web Developer | Blogger",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "React", "Node.js"],
+  "bio": "Open Source Contributor | DevOps | Cloud-Native | Tech-Blogger",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Yashpimple22" },
-    { "icon": "FaGithub", "url": "https://github.com/YashPimple" },
-    { "icon": "FaHashnode", "url": "https://yashpimple.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Yashpimple22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/YashPimple"
+    },
+    {
+      "icon": "FaHashnode",
+      "url": "https://yashpimple.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",

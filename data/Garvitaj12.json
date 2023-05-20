@@ -1,0 +1,16 @@
+{
+  "name": "Garvita Jain",
+  "bio": "B.Tech student",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "github.com/Garvitaj12",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/garvitaa._/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

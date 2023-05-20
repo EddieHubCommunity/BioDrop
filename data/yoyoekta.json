@@ -1,14 +1,20 @@
 {
   "name": "Ekta",
-  "type": "personal",
   "bio": "Full Stack Web Developer | 3rd year Undergrad at DCRUST, Murthal",
-
   "socials": [
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/ekta9290" },
-    { "icon": "FaGithub", "url": "https://github.com/yoyoekta" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/ekta_9290" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/ekta9290"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/yoyoekta"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ekta_9290"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",
@@ -36,6 +42,5 @@
       "icon": "FaGithub"
     }
   ],
-
   "tags": ["Javascript", "ReactJS", "Django", "Python", "C++"]
 }

@@ -1,0 +1,69 @@
+{
+  "name": "Vaibhav Maurya",
+  "bio": "Frontend Developer | Web3.0 Enthusiast | Content Creator | Teaching | Open 😺 Source Contributor | Gaming",
+  "avatar": "https://github.com/vaibhav-xt.png",
+  "links": [
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@vaibhav-xt",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Discord Community",
+      "url": "https://discord.gg/hk7C3pYbMJ",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vaibhav_txt",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/FrancescoXX",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/vaibhav.web3/",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/vaibhav-xt",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NextJS",
+    "ReactJs",
+    "Node.js",
+    "Python",
+    "Blockchain"
+  ],
+  "socials": [
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@vaibhav-xt"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://www.youtube.com/@vaibhav-xt"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/vaibhav_txt"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/vaibhav-xt"
+    }
+  ]
+}

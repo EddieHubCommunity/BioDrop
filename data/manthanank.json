@@ -1,8 +1,6 @@
 {
   "name": "Manthan Ankolekar",
-  "type": "personal",
   "bio": "**Front End** Developer | Angular | JavaScript | Nodejs | MongoDB | Open Source",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,8 +10,14 @@
     "MongoDB"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/manthanank" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/manthan_ank" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/manthanank"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/manthan_ank"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/manthanank"

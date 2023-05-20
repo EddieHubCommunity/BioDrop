@@ -1,0 +1,16 @@
+{
+  "name": "Utkarsh Bajpai",
+  "bio": "OPEN SOURCE COMMUNITY",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/ub_utkarshbajpai?igshid=ZDdkNTZiNTM=",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me github",
+      "url": "https://github.com/Utkarshbajpai07",
+      "icon": "FaGithub"
+    }
+  ]
+}

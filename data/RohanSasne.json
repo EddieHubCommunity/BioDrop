@@ -1,14 +1,21 @@
 {
   "name": "Rohan Sasne",
-  "type": "personal",
   "bio": "Chase down your dreams and don’t be fearful. Let your faith be stronger than your fear :)",
-  "tags": ["Open Source", "DevOps", "Kubernetes", "Golang"],
+  "tags": ["Open Source", "GSoC'23", "DevOps", "Kubernetes", "Golang"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/nottmuffin" },
-    { "icon": "FaGithub", "url": "https://github.com/RohanSasne" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@rohansasne30" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nottmuffin"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@rohansasne30"
+    }
   ],
-
   "links": [
     {
       "name": "Twitter: I tweet mostly about DevOps and Open Source",
@@ -36,7 +43,6 @@
       "icon": "SiInstagram"
     }
   ],
-
   "milestones": [
     {
       "title": "Started to Actively Contribute to Open Source",
@@ -44,6 +50,14 @@
       "icon": "FaGithub",
       "color": "black",
       "description": "Fell in love with open source and got highly motivated to give back to the community",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "title": "Got accepted to GSoC'23 @ PEcAn Project",
+      "date": "May 2023",
+      "icon": "FaGoogle",
+      "color": "black",
+      "description": "My proposal got accepted for 'GitHub Actions', Highly grateful to open source for providing this opportunity",
       "url": "https://github.com/RohanSasne"
     },
     {
@@ -87,10 +101,9 @@
       "color": "black",
       "description": "I want to become a Developer Advocate 🥑 and travel the world to meet and interact with new people"
     },
-
     {
       "isGoal": true,
-      "title": "Get a CFP accepted for Kubeconk",
+      "title": "Get a CFP accepted for Kubecon",
       "date": "2024",
       "icon": "FaGlobal",
       "color": "black",

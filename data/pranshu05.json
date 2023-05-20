@@ -1,13 +1,20 @@
 {
   "name": "Pranshu Patel",
-  "type": "personal",
   "bio": "**Open Source** Developer | **Open-source** Enthusiast ",
   "tags": ["Open Source", "JavaScript", "Python", "MongoDB", "Node.js"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pranshu_05" },
-    { "icon": "FaGithub", "url": "https://github.com/pranshu05" },
-    { "icon": "FaLink", "url": "https://pranshu05.thedev.id" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pranshu_05"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pranshu05"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://pranshu05.thedev.id"
+    }
   ],
   "links": [
     {

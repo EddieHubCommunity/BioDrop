@@ -1,0 +1,47 @@
+{
+  "name": "Nkanmuo Vera Chioma",
+  "bio": "**A Frontend Developer** who enjoys creating responsive and functional Web Applications that are accessible to all.",
+  "tags": [
+    "Open Source",
+    "React.js",
+    "JavaScript",
+    "Tailwind",
+    "Bootstrap",
+    "CSS",
+    "HTML"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nkanmuo_vera"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chiomavera"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chioma-vera-nkanmuo/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Follow my Tech Journey",
+      "url": "https://twitter.com/nkanmuo_vera",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/chiomavera",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/chioma-vera-nkanmuo/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

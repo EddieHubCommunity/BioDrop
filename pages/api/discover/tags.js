@@ -1,4 +1,5 @@
-import findAllBasic from "@services/profiles/findAllBasic";
+import logger from "@config/logger";
+import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -7,26 +8,38 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const profiles = findAllBasic();
+  const tags = await getTags();
+  res.status(200).json(tags);
+}
+export async function getTags() {
+  let tags = [];
+  try {
+    tags = await Profile.aggregate([
+      { $match: { tags: { $exists: true } } },
+      {
+        $unwind: "$tags",
+      },
+      {
+        $group: {
+          _id: "$tags",
+          total: { $sum: 1 },
+        },
+      },
+      {
+        $project: {
+          _id: 0,
+          name: "$_id",
+          total: 1,
+        },
+      },
+      {
+        $sort: { total: -1 },
+      },
+    ]).exec();
+  } catch (e) {
+    logger.error(e, "Failed to load events");
+    tags = [];
+  }
 
-  const tags = profiles.flatMap((profile) =>
-    profile.tags && profile.tags.length ? profile.tags : []
-  );
-
-  const reducedTags = tags.reduce((allTags, name) => {
-    const currCount = allTags[name] ?? 0;
-    return {
-      ...allTags,
-      [name]: currCount + 1,
-    };
-  }, {});
-
-  const tagsSorted = Object.entries(reducedTags)
-    .map((item) => ({
-      name: item[0],
-      total: item[1],
-    }))
-    .sort((a, b) => b.total - a.total);
-
-  res.status(200).json(tagsSorted);
+  return tags;
 }

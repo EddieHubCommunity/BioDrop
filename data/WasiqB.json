@@ -1,8 +1,6 @@
 {
   "name": "Wasiq Amjad Bhamla",
-  "type": "personal",
   "bio": "Open Source Advocate | Freelancer | Blogger | Mentor | Trainer",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -16,11 +14,29 @@
     "GitHub Actions"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/WasiqBhamla" },
-    { "icon": "FaGithub", "url": "https://github.com/WasiqB" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/wasiqbhamla" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@WasiqBhamla"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/WasiqBhamla"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/WasiqB"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/wasiqbhamla"
+    }
   ],
   "links": [
+    {
+      "name": "Subscribe to my YouTube Channel",
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@WasiqBhamla"
+    },
     {
       "name": "Follow me on GitHub",
       "url": "https://github.com/WasiqB",
@@ -45,6 +61,11 @@
       "name": "💲 Sponsor me on GitHub",
       "url": "https://github.com/sponsors/WasiqB",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Get on a call with me",
+      "url": "https://topmate.io/wasiqbhamla",
+      "icon": "SiKakaotalk"
     }
   ],
   "milestones": [
@@ -58,7 +79,6 @@
     },
     {
       "title": "coteafs-appium",
-
       "date": "April 2017",
       "icon": "FaGithub",
       "color": "black",
@@ -96,6 +116,14 @@
       "color": "green",
       "description": "Open-sourced an ultimate test automation framework for automating any application on any platform",
       "url": "https://github.com/BoykaFramework/boyka-framework"
+    },
+    {
+      "title": "Started YouTube Channel",
+      "date": "Feb 2023",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Channel where I post videos related to Testing and Test Automation",
+      "url": "https://www.youtube.com/@WasiqBhamla"
     }
   ]
 }

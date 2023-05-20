@@ -1,14 +1,21 @@
 {
   "name": "Pranav Tripathi",
-  "type": "personal",
   "bio": "Open Source Lover, with a little bit knowledge of Front-End Development",
   "tags": ["Open Source", "Blogging", "Web Dev", "Public Speaker"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/prnvtwts" },
-    { "icon": "FaGithub", "url": "https://github.com/prnvtripathi/" },
-    { "icon": "SiHashnode", "url": "https://prnvtripathi.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/prnvtwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/prnvtripathi/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://prnvtripathi.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "name": "Checkout my portfolio website",
