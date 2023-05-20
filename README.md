@@ -78,6 +78,8 @@ This will allow you to run your favourite IDE but not have to install any depend
 #### Prerequisites
 
 - [Docker](https://www.docker.com/)
+- [Documentation](https://docs.docker.com/config/containers/resource_constraints/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Docker Compose](https://github.com/docker/compose) V2.
 
 #### Commands
