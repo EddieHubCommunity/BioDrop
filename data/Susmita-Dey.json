@@ -1,8 +1,6 @@
 {
   "name": "Susmita Dey",
-  "type": "personal",
   "bio": "CS UnderGrad, Web Dev and Open Source Enthusiast!",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -33,7 +31,6 @@
   "milestones": [
     {
       "title": "Started YouTube",
-
       "date": "July 2021",
       "icon": "FaYoutube",
       "color": "red",

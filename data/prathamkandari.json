@@ -1,22 +1,21 @@
 {
   "name": "Pratham Kandari",
-  "type": "personal",
   "bio": "**Cloud Enthusiast**",
-
   "tags": ["WebDev", "DataScience", "OpenSource", "Cloud"],
-
   "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/<Your Twitter Username>"
     },
-    { "icon": "FaGithub", "url": "https://github.com/prathamkandari" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/prathamkandari"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/pratham-kandari-a02ab3235/"
     }
   ],
-
   "links": [
     {
       "name": "GitHub: Let's collaborate",

@@ -1,8 +1,6 @@
 {
   "name": "Samuel Mintah",
-  "type": "personal",
   "bio": "Software Engineer, Tech junkie, early adopter, and futurist.",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,7 +10,6 @@
     "React",
     "Full-Stack Developer"
   ],
-
   "links": [
     {
       "name": "Twitter",

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import { getEvents } from "./api/events";
 
 import logger from "@config/logger";
 import EventCard from "@components/event/EventCard";
@@ -10,13 +11,7 @@ import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
 export async function getServerSideProps(context) {
-  let events = [];
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/events`);
-    events = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR events list");
-  }
+  let events = await getEvents();
 
   // remove any invalid events
   events = events.filter((event) => {
@@ -45,7 +40,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Events({ events }) {
-  let categorisedEvents = {
+  let categorizedEvents = {
     all: events,
     virtual: events.filter((event) => event.isVirtual === true),
     inPerson: events.filter((event) => event.isInPerson === true),
@@ -59,28 +54,28 @@ export default function Events({ events }) {
       description: "List all events with no filters",
       key: "all",
       icon: FaListUl,
-      total: categorisedEvents.all.length,
+      total: categorizedEvents.all.length,
     },
     {
       title: "CFP open",
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
       icon: FaMicrophoneAlt,
-      total: categorisedEvents.cfpOpen.length,
+      total: categorizedEvents.cfpOpen.length,
     },
     {
       title: "In person",
       description: "These are in person events",
       key: "inPerson",
       icon: MdOutlinePeople,
-      total: categorisedEvents.inPerson.length,
+      total: categorizedEvents.inPerson.length,
     },
     {
       title: "Virtual",
       description: "Held virtually online event",
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
-      total: categorisedEvents.virtual.length,
+      total: categorizedEvents.virtual.length,
     },
   ];
 
@@ -113,7 +108,7 @@ export default function Events({ events }) {
           {tabFilters.find((filter) => filter.key === eventType).description}
         </h2>
         <ul role="list" className="divide-y divide-primary-low mt-6">
-          {categorisedEvents[eventType]?.map((event) => (
+          {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
               username={event.username}

@@ -1,8 +1,6 @@
 {
   "name": "Ronak Paul",
-  "type": "personal",
   "bio": "Open Source | Community | DevOps Enthusiast | Content Creator",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -14,10 +12,22 @@
     "Python"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ronak_pal1" },
-    { "icon": "FaGithub", "url": "https://github.com/ronak-pal1" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@CodaGo" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/ronak_pal1" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ronak_pal1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ronak-pal1"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@CodaGo"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ronak_pal1"
+    }
   ],
   "links": [
     {

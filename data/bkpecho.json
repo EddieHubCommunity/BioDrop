@@ -1,7 +1,6 @@
 {
   "name": "Bryan King Pecho",
-  "type": "personal",
-  "bio": "**Software Engineer** | Web Wizard | Open Source Advocate",
+  "bio": "Software Engineer at 100Devs. Web wizard, AI explorer, and open-source advocate. Let's connect!",
   "tags": ["Open Source", "JavaScript", "MERN", "Pop!_OS", "Linux"],
   "socials": [
     {
@@ -15,6 +14,10 @@
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/bkpecho/"
+    },
+    {
+      "icon": "SiPolywork",
+      "url": "https://poly.me/bkpecho"
     }
   ],
   "links": [
@@ -32,9 +35,15 @@
     },
     {
       "group": "Socials",
-      "name": "LinkedIn: Let's Connect!",
+      "name": "LinkedIn: Let's connect!",
       "url": "https://www.linkedin.com/in/bkpecho/",
       "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Polywork: Let's collaborate!",
+      "url": "https://poly.me/bkpecho",
+      "icon": "SiPolywork"
     },
     {
       "group": "Coding Challenges",
@@ -75,6 +84,14 @@
   ],
   "milestones": [
     {
+      "title": "Selected as Open Source Contributor for GirlScript Summer of Code '23",
+      "date": "May 2023",
+      "icon": "FaCodeBranch",
+      "color": "#f1c40f",
+      "description": "GirlScript Summer of Code is a 3-month #OpenSource program by GirlScript Foundation.",
+      "url": "https://twitter.com/bkpecho/status/1659456146862915586?s=20"
+    },
+    {
       "title": "Graduated from Cavite State University",
       "date": "April 2023",
       "icon": "FaGraduationCap",
@@ -106,10 +123,10 @@
       "url": "https://www.linkedin.com/company/100devs"
     },
     {
-      "title": "Finished internship at iCargo Pacific",
+      "title": "Finished Internship at iCargo Pacific",
       "date": "December 2022",
       "icon": "FaSuitcase",
-      "color": "#f1c40f ",
+      "color": "#f1c40f",
       "description": "Successfully completed my internship as a backend development intern at iCargo Pacific, where I coded with Laravel, Postgre, Vue, and Firebase.",
       "url": "https://www.linkedin.com/company/icargopacific/"
     },
@@ -117,7 +134,7 @@
       "title": "Started Internship at iCargo Pacific",
       "date": "October 2022",
       "icon": "FaSuitcase",
-      "color": "#f1c40f ",
+      "color": "#f1c40f",
       "description": "Started working as a backend development intern at iCargo Pacific, where I worked on various projects related to web development and database management.",
       "url": "https://www.linkedin.com/company/icargopacific/"
     },

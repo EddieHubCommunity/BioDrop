@@ -1,13 +1,20 @@
 {
   "name": "Muhammad Ali",
-  "type": "personal",
   "bio": "SE Undergrad | OpenSource Enthusiast | Freelance Web Developer ",
-
   "tags": ["React JS", "JavaScript", "Front-end Developer", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/malicodes2" },
-    { "icon": "SiHashnode", "url": "https://malicodes.hashnode.dev/" },
-    { "icon": "FaGithub", "url": "https://github.com/malicodes2" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/malicodes2"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://malicodes.hashnode.dev/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/malicodes2"
+    }
   ],
   "links": [
     {

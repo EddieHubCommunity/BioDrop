@@ -1,6 +1,5 @@
 {
   "name": "Neeraj Kumar",
-  "type": "personal",
   "bio": "Backend Developer | **Node.js** | TypeScript Lover",
   "tags": [
     "Open Source",
@@ -14,8 +13,14 @@
     "Microservices"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ennkay161" },
-    { "icon": "FaGithub", "url": "https://github.com/neerajkumar161" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ennkay161"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/neerajkumar161"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/neerajkumar161/"

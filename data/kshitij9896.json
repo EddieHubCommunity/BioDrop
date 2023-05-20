@@ -1,6 +1,5 @@
 {
   "name": "Kshitij Bansod",
-  "type": "personal",
   "bio": "Full Stack Web Developer | Designer | Author ",
   "tags": ["Front-End Developer", "UI/UX"],
   "socials": [
@@ -47,7 +46,6 @@
       "url": "https://linkedin.com/in/kshitij-bansod",
       "icon": "FaLinkedin"
     },
-
     {
       "group": "Socials",
       "name": "Let's Connect On GitHub",

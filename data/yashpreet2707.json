@@ -1,0 +1,31 @@
+{
+  "name": "Yashpreet Singh",
+  "bio": "Front-end Web Developer | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "View my projects on GitHub",
+      "url": "https://github.com/yashpreet2707",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mail me to connect",
+      "url": "mailto:yashpreet1686@gmail.com",
+      "icon": "email"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/yashpreet2707",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yashpreet2707/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "See my posts on Instagram",
+      "url": "https://instagram.com/yashpreet_2707",
+      "icon": "FaInstagram"
+    }
+  ]
+}

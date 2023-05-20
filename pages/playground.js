@@ -11,7 +11,6 @@ export default function Playground() {
   const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
   const defaultJson = `{
     "name": "Your Name",
-    "type": "personal",
     "bio": "Write a short bio about yourself",
     "links": [
       {
