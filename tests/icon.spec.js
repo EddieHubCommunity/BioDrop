@@ -1,6 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
+const defaultIcons = 4;
+
 test("Icon search has title", async ({ page }) => {
   await page.goto("/icons");
   await expect(page).toHaveTitle(/Icons/);
@@ -10,45 +12,46 @@ test("Icon search works correctly", async ({ page }) => {
   // 1. navigate to search page
   await page.goto("/icons");
 
-  // 2. show no users are listed
-  await expect(page.locator("main li")).toHaveCount(4);
+  // 2. show no icons are listed
+  await expect(page.locator("main li")).toHaveCount(defaultIcons);
 
-  // 3. type in search and check that user with the name exist and check a name doesn't exist
+  // 3. type in search and check that icons with the name exist and check a name doesn't exist
   const input = page.locator("[name='keyword']");
   await input.type("mobile");
 
-  await expect(page.locator("main li")).toHaveCount(4);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
-test("Icon search page has no results when no search term used", async ({
+test("Icon search page has default results when no search term used", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
-test("Icon search page shows no results after typing 1 characters", async ({
+test("Icon search page shows default results after typing 1 characters", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("e");
 
-  await expect(page.locator("main li")).toHaveCount(0);
+  await expect(page.locator("main ul li")).toHaveCount(defaultIcons);
 });
 
 test("Icon search page shows results after typing 3 characters", async ({
   page,
 }) => {
-  await page.goto("/search");
+  await page.goto("/icons");
 
   const input = page.locator("[name='keyword']");
   await input.type("hand");
 
-  await expect(page.locator("main li")).toContainText(["hand"]);
+  await expect(page.locator("main ul li")).toContainText(["hand"]);
+  await expect(page.locator("main ul li")).toHaveCount(41);
 });

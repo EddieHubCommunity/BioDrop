@@ -1,7 +1,15 @@
 {
   "name": "Ujjwal Kirti",
   "type": "personal",
-  "bio": "Frontend Developer trying to learn the in and out of cloud computing at scale.",
+  "bio": "**Frontend Developer** | Reactjs | TypeScript",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "TypeScript",
+    "Firebase",
+    "Tailwind CSS",
+    "Node.js"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -13,6 +21,25 @@
       "url": "https://www.instagram.com/ujjwal_kirti/",
       "icon": "FaInstagram"
     },
-    { "icon": "FaGithub", "url": "https://github.com/ujjwalkirti" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ujjwalkirti",
+      "name": "Have a look at my github"
+    },
+    {
+      "icon": "Falink",
+      "url": "https://www.ujjwalkirti.tech",
+      "name": "My personal Protfolio"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Developed my first Fullstack website",
+      "date": "22th January 2023",
+      "icon": "FaDesktop",
+      "color": "orange",
+      "description": "Made a fullstack website for the day night cricketing event for my Institute MMNCT. It had nearly 250 users using it at any 30 minutes.",
+      "url": "https://www.ujjwalkirti.tech"
+    }
   ]
 }
