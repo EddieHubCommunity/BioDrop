@@ -146,16 +146,17 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <ul className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink
-                      key={item.name}
-                      path={router.pathname}
-                      item={item}
-                      setIsOpen={setIsOpen}
-                    />
+                    <li key={item.name}>
+                      <NavLink
+                        path={router.pathname}
+                        item={item}
+                        setIsOpen={setIsOpen}
+                      />
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
             <div className="hidden md:block">
