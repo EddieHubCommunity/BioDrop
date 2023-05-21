@@ -11,11 +11,6 @@
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/andrew-lamichhane-34a397219/",
       "icon": "FaLinkedin"
-    },
-    {
-      "name": "Follow me on Github",
-      "url": "https://github.com/Andrew-LC",
-      "icon": "FaGithub"
-    },
+    }
   ]
 }
