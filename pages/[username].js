@@ -45,12 +45,31 @@ export async function getServerSideProps(context) {
     log.error(e, `cannot strip markdown for: ${username}`);
   }
 
+  // fetching data from api
+  let apiEvents = {};
+  try {
+    const res = await fetch(
+      `https://api.eddiehub.io/github/${profile.username}`
+    );
+    if (!res.ok) throw new Error("Couldn't fetch profile from the API");
+
+    const apiData = await res.json();
+    apiEvents = apiData.events;
+  } catch (e) {
+    log.info("Data couldn't be fetched from the API");
+    apiEvents = {};
+  }
+
   return {
-    props: { data: profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: {
+      data: profile,
+      BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
+      apiEvents,
+    },
   };
 }
 
-export default function User({ data, BASE_URL }) {
+export default function User({ data, BASE_URL, apiEvents }) {
   return (
     <>
       <PageHead
@@ -63,7 +82,7 @@ export default function User({ data, BASE_URL }) {
       />
 
       <Page>
-        <UserPage data={data} BASE_URL={BASE_URL} />
+        <UserPage data={data} BASE_URL={BASE_URL} apiEvents={apiEvents} />
       </Page>
 
       <Link
