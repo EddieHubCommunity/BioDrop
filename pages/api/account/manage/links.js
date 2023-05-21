@@ -17,14 +17,18 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
 
-  const username = session.username;
+  const data = await getStats(session.username);
 
+  return res.status(200).json(data);
+}
+
+export async function getLinksApi(username) {
   await connectMongo();
   const log = logger.child({ username });
 
+  let getLinks = [];
   try {
-    const getLinks = await Link.find({ username });
-    return res.status(200).json(getLinks);
+    getLinks = await Link.find({ username });
   } catch (e) {
     log.error(
       e,
@@ -32,5 +36,5 @@ export default async function handler(req, res) {
     );
   }
 
-  return res.status(404).json([]);
+  return JSON.parse(JSON.stringify(getLinks));
 }

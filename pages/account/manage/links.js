@@ -5,7 +5,6 @@
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { useState } from "react";
 import { MdRadioButtonChecked, MdRadioButtonUnchecked } from "react-icons/md";
 
 import logger from "@config/logger";
@@ -13,6 +12,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
+import { getLinksApi } from "pages/api/account/manage/links";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -30,7 +30,7 @@ export async function getServerSideProps(context) {
 
   let links = [];
   try {
-    links = await getLinksApi();
+    links = await getLinksApi(username);
   } catch (e) {
     logger.error(e, `profile loading failed links for username: ${username}`);
   }
