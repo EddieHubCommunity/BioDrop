@@ -6,6 +6,9 @@ on:
       - tests/**
       - components/**
       - config/**
+      - tailwind.config.js
+      - package.json
+      - next.config.mjs
 
 jobs:
   build:
