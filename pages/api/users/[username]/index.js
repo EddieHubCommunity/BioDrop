@@ -27,7 +27,7 @@ export async function getUserApi(req, res, username) {
     isOwner = true;
   }
 
-  let getProfile = await Profile.findOne({ username });
+  let getProfile = await Profile.findOne({ username, isEnabled: true });
 
   if (!getProfile) {
     logger.error(`Failed loading profile username: ${username}`);
