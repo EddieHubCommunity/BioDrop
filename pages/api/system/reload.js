@@ -46,6 +46,7 @@ export default async function handler(req, res) {
         { username: profile.username },
         {
           source: "file",
+          isEnabled: true,
           name: profile.name,
           bio: profile.bio,
           tags: profile.tags,
@@ -236,9 +237,36 @@ export default async function handler(req, res) {
     })
   );
 
+  // all "file" profiles not in json files should be disabled
+  const allProfiles = await Profile.find({ source: "file" });
+  const allUsernames = basicProfiles.map((profile) => profile.username);
+  const disabledProfiles = [];
+  await Promise.all(
+    allProfiles.map(async (profile) => {
+      console.log("=============== CHECKING ===============");
+      if (!allUsernames.includes(profile.username)) {
+        disabledProfiles.push(profile.username);
+        console.log(
+          "=============== DISALBED PROFILE ===============",
+          profile.username
+        );
+        return await Profile.findOneAndUpdate(
+          { username: profile.username },
+          { isEnabled: false }
+        );
+      }
+
+      return;
+    })
+  );
+
   return res.status(200).json({
     message: "success",
-    statistics: { basic: basicProfiles.length, full: fullProfiles.length },
+    statistics: {
+      basic: basicProfiles.length,
+      full: fullProfiles.length,
+      disabled: disabledProfiles.length,
+    },
   });
 }
 

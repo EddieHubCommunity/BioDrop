@@ -2,6 +2,10 @@ import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema({
   source: String,
+  isEnabled: {
+    type: Boolean,
+    default: true,
+  },
   username: {
     type: String,
     index: true,
