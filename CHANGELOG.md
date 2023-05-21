@@ -1,9 +1,9 @@
-## 1.130.8 (2023-05-21)
+## 1.130.9 (2023-05-21)
 
 
 ### Bug Fixes
 
-* gh actions storybook and vercel not run in fork ([#6876](https://github.com/EddieHubCommunity/LinkFree/issues/6876)) ([59e52bb](https://github.com/EddieHubCommunity/LinkFree/commit/59e52bbcb1edc5f7a07e109c8d01a2465b702879))
+* secret file to pass Mongo URL to docker build ([#7031](https://github.com/EddieHubCommunity/LinkFree/issues/7031)) ([2be725a](https://github.com/EddieHubCommunity/LinkFree/commit/2be725abfc61f9bf773cd9d2f63ee6621ac81868))
 
 
 
