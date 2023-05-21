@@ -2,12 +2,13 @@
   "name": "Ali Mora",
   "bio": "**Full-stack Software Developer** from South Africa",
   "tags": [
+    "MongoDB",
+    "Express",
+    "React.js",
+    "Node.js",
     "Open Source",
     "DevOps",
-    "React.js",
-    "Next.js",
-    "MongoDB",
-    "Node.js"
+    "Next.js"
   ],
   "links": [
     {
@@ -20,13 +21,15 @@
       "group": "Socials",
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/",
-      "icon": "FaLinkedin"
+      "icon": "FaLinkedin",
+      "color": "white"
     },
     {
       "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/swarts_d",
-      "icon": "FaLinkedin"
+      "icon": "FaTwitter",
+      "color": "white"
     },
     {
       "group": "Socials",
