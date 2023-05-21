@@ -1,9 +1,9 @@
-## 1.130.6 (2023-05-20)
+## 1.130.7 (2023-05-21)
 
 
 ### Bug Fixes
 
-* convert fetch to function call ([#7028](https://github.com/EddieHubCommunity/LinkFree/issues/7028)) ([ba79843](https://github.com/EddieHubCommunity/LinkFree/commit/ba798437915b28037f8704cec4cf5e3eb2f9ff20))
+* run test suite on changes to config files ([#7060](https://github.com/EddieHubCommunity/LinkFree/issues/7060)) ([ae7eb5e](https://github.com/EddieHubCommunity/LinkFree/commit/ae7eb5ebf40d3d6f556d02a94f7dd7df54526b0e))
 
 
 
