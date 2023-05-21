@@ -243,13 +243,8 @@ export default async function handler(req, res) {
   const disabledProfiles = [];
   await Promise.all(
     allProfiles.map(async (profile) => {
-      console.log("=============== CHECKING ===============");
       if (!allUsernames.includes(profile.username)) {
         disabledProfiles.push(profile.username);
-        console.log(
-          "=============== DISALBED PROFILE ===============",
-          profile.username
-        );
         return await Profile.findOneAndUpdate(
           { username: profile.username },
           { isEnabled: false }
