@@ -1,8 +1,6 @@
 {
   "name": "Harman",
-  "type": "personal",
   "bio": "Full Stack Web developer || MERN || DevOps Enthusiast ",
-
   "tags": [
     "javascript",
     "html",
@@ -16,8 +14,14 @@
     "Express"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Harman9765" },
-    { "icon": "FaGithub", "url": "https://github.com/Hrmn97" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Harman9765"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Hrmn97"
+    }
   ],
   "links": [
     {

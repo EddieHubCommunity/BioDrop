@@ -1,8 +1,6 @@
 {
   "name": "Manish Tyagi ",
-  "type": "Personal",
   "bio": "**Open Source** Advocate🥑 | Developer | Postman **Student Leader**",
-
   "tags": [
     "Open Source",
     "DevRel",
@@ -10,19 +8,25 @@
     "Golang",
     "Content Creator"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/manishtyagi__" },
-    { "icon": "FaGithub", "url": "https://github.com/money8203" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/manishtyagi__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/money8203"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/manish-tyagi-8b7b22217"
     },
-    { "icon": "FaInstagram", "url": "https://instagram.com/manish_tyagi.__" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/manish_tyagi.__"
+    }
   ],
-
   "testimonials": ["the-amazing-atharva"],
-
   "links": [
     {
       "group": "Socials",

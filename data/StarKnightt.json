@@ -1,15 +1,7 @@
 {
   "name": "Prasenjit Nayak",
-  "type": "personal",
-  "bio": "A college student trying to be a Programmer. Programming enthusiast, touch typing & Love to play video games",
-  "tags": [
-    "Open Source",
-    "College Student",
-    "Aspiring Software Engineer",
-    "Android",
-    "Java",
-    "Casual Gamer"
-  ],
+  "bio": "A college student trying to be a Programmer. Programming enthusiast, touch typing & Love to learn new things",
+  "tags": ["Open Source", "Touch Typing", "Java"],
   "milestones": [
     {
       "title": "Started Contributing to Open Source",
@@ -56,6 +48,11 @@
       "name": "GitHub",
       "url": "https://github.com/StarKnightt",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/users/Star_Knight",
+      "icon": "FaDiscord"
     },
     {
       "name": "Stack Overflow",

@@ -1,6 +1,5 @@
 {
   "name": "Sumit Mukharjee",
-  "type": "personal",
   "bio": "Final Year CS Undergrad, Front End Developer",
   "tags": [
     "Open Source",
@@ -12,8 +11,14 @@
     "Java"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sumitisheree" },
-    { "icon": "FaGithub", "url": "https://github.com/sumitmukharjeeeeee" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sumitisheree"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitmukharjeeeeee"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/"

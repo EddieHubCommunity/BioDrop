@@ -1,11 +1,16 @@
 {
   "name": "Lakshmi Shree A",
-  "type": "personal",
   "bio": "ML and DevOps enthusiast| Java| Python| Web development| Open Source 🚀 Ready to collaborate ",
   "tags": ["Open Source", "Java", "Python", "DevOps", "Web Development", "ML"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/LakshmiShreeA1" },
-    { "icon": "FaGithub", "url": "https://github.com/lakshmishreea122003" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/LakshmiShreeA1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/lakshmishreea122003"
+    },
     {
       "icon": "SiLinkedin",
       "url": "https://www.linkedin.com/in/lakshmi-shree-a-a81189251/"

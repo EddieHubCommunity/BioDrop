@@ -1,8 +1,6 @@
 {
   "name": "Miniyahil Kebede",
-  "type": "personal",
   "bio": "Open Source DevRel | Founder of **WorkEth** | **GitHub** Star",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,8 +10,14 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MiniyahilK" },
-    { "icon": "FaGithub", "url": "https://github.com/hmhard" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MiniyahilK"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/hmhard"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://www.youtube.com/channel/UCusEOZTekp3ODvaGJHKkXHg"
@@ -59,7 +63,6 @@
     },
     {
       "title": "Started YouTube",
-
       "date": "June 2021",
       "icon": "FaYoutube",
       "color": "red",

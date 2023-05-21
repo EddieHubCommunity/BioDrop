@@ -1,19 +1,21 @@
 {
   "name": "Parth Ranalkar",
-  "type": "personal",
   "bio": "Open Source | Java Developer | Web Developer ",
-
   "tags": ["Open Source", "Javascript", "Java", "Spring"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ParthRanalkar" },
-    { "icon": "FaGithub", "url": "https://github.com/parth-ranalkar" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ParthRanalkar"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/parth-ranalkar"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/parth-ranalkar"
     }
   ],
-
   "links": [
     {
       "name": "Twitter: Follow me",

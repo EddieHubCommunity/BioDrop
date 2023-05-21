@@ -1,11 +1,16 @@
 {
   "name": "Wei-Lin Cheng",
-  "type": "personal",
   "bio": "Father, husband, and software engineer. Let's connect and grow together!",
   "tags": ["Open Source", "DevOps", "Go"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/weilincheng" },
-    { "icon": "FaGithub", "url": "https://github.com/weilincheng" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/weilincheng"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/weilincheng"
+    }
   ],
   "links": [
     {

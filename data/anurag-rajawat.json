@@ -1,12 +1,16 @@
 {
   "name": "Anurag Rajawat",
-  "type": "personal",
   "bio": "Open Source is ❤️ | Gooogle Summer of Code 2022 contributor",
-
   "tags": ["Open Source", "Kubernetes", "Java", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/anuragrajawat22" },
-    { "icon": "FaGithub", "url": "https://github.com/anurag-rajawat" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/anuragrajawat22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anurag-rajawat"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/anurag-rajawat22/"

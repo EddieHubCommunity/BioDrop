@@ -1,13 +1,20 @@
 {
   "name": "Krish Chopra",
-  "type": "personal",
   "bio": "Open Source Enthusiast, Mobile App Developer",
-
   "tags": ["Flutter", "Android", "Kotlin", "DSA", "Open Source", "Java"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/KrishChopra22" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/krishchopra22" },
-    { "icon": "FaLinkedinIn", "url": "https://linkedin.com/in/krishchopra22" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/KrishChopra22"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/krishchopra22"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://linkedin.com/in/krishchopra22"
+    }
   ],
   "links": [
     {

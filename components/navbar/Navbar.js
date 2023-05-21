@@ -162,11 +162,11 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <NavLink
-                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
                 <div className="relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
@@ -176,7 +176,7 @@ export default function Navbar() {
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </a>
+                  </Link>
                 </div>
                 {authControls()}
               </div>

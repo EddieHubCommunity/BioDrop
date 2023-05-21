@@ -1,11 +1,16 @@
 {
   "name": "Shubham Chikane",
-  "type": "personal",
   "bio": "Open Source, DevRel, DevOps ",
   "tags": ["Open Source", "C++", "JAVA", "HTML", "CSS", "DevOps", "DevRel"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/shubhamchikane_" },
-    { "icon": "FaGithub", "url": "https://github.com/ShubhamChikane99" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shubhamchikane_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShubhamChikane99"
+    }
   ],
   "links": [
     {

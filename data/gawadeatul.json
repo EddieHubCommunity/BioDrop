@@ -1,11 +1,16 @@
 {
   "name": "Atul Narayan Gawade",
-  "type": "personal",
   "bio": "Open Source Enthusiast | **JAVA Developer** | SpringBoot | MicroServices| Learning Web3",
   "tags": ["Open Source", "JAVA", "JavaScript", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/gawadeatul27" },
-    { "icon": "FaGithub", "url": "https://github.com/gawadeatul" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gawadeatul27"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gawadeatul"
+    }
   ],
   "links": [
     {

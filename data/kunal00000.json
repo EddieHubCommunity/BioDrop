@@ -1,12 +1,16 @@
 {
   "name": "Kunal Verma",
-  "type": "personal",
   "bio": "**Open Source** | Frontend WebDeveloper",
   "tags": ["Open Source", "MERN", "Tailwind", "Next Js", "MySQL"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/KunalVerma2468" },
-    { "icon": "FaGithub", "url": "https://github.com/kunal00000" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/KunalVerma2468"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kunal00000"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/kunalverma2468"

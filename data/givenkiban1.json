@@ -1,8 +1,6 @@
 {
   "name": "Given Kibanza",
-  "type": "personal",
   "bio": "Entreprenuer // Dev // Robotics X Space X Medicine",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -31,7 +29,6 @@
     },
     {
       "title": "Enrolled into BSc Mechatronics",
-
       "date": "February 2019",
       "icon": "FaGithub",
       "color": "red",
@@ -42,7 +39,6 @@
       "title": "My first Job",
       "date": "August 2019",
       "icon": "FaGithub",
-
       "color": "green",
       "description": "I got a job working as a full stack programmer for a client on campus. this was my introduction to web apps and i learned react on the job. The client wasn't aware of this all along :) and i sure did a great job.",
       "url": "https://upstar.co.za/"
@@ -51,14 +47,12 @@
       "title": "Launched my first app - Smart Student",
       "date": "August 2020",
       "icon": "FaGithub",
-
       "color": "purple",
       "description": "I created an app to help students at my university stay up to date with their assignments/tests. worked on this app for 2 weeks and launched. 30 people signed up that year. ",
       "url": "smartstudent-legacy.netlify.app/"
     },
     {
       "title": "Released Smart Student 2.0",
-
       "color": "blue",
       "date": "August 2021",
       "icon": "FaGithub",

@@ -1,8 +1,6 @@
 {
   "name": "Sagar Eknath Bangade",
-  "type": "personal",
   "bio": "B-Tech in Artificial intelligence || Full Stack **Java Developer** Intern at Asterisc Technocrat ",
-
   "tags": [
     "Open Source",
     "Java",
@@ -17,14 +15,16 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sagar-bangade/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/sagarbangade" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sagarbangade"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/Captain._.sagar/"
     }
   ],
   "testimonials": [],
-
   "links": [
     {
       "name": "Visit Website: ShreeCode Services",
@@ -85,7 +85,6 @@
     },
     {
       "title": "Started YouTube",
-
       "date": "Sept 2017",
       "icon": "FaYoutube",
       "color": "red",
@@ -94,7 +93,6 @@
     },
     {
       "title": "Started ShreeCode YouTube Channel",
-
       "date": "Aug 2022",
       "icon": "FaYoutube",
       "color": "red",
@@ -103,7 +101,6 @@
     },
     {
       "title": "Got First Internship",
-
       "date": "Oct 2022",
       "icon": "FaYoutube",
       "color": "red",

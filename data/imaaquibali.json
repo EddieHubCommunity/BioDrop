@@ -1,15 +1,21 @@
 {
   "name": "Aaquib Ali",
-  "type": "personal",
   "bio": "DevRel | Founder of **The VerSiton**| Mentor | Open-Source Contributor | **Content Creator** |",
-
   "tags": ["Open Source", "Javascript", "Content Creator", "DevRel"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/imaaquibali" },
-    { "icon": "FaGithub", "url": "https://github.com/imaaquibali" },
-    { "icon": "FaLink", "url": "https://imaaquibali.me" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/imaaquibali"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/imaaquibali"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://imaaquibali.me"
+    }
   ],
-
   "links": [
     {
       "group": "Socials Primary",

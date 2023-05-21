@@ -1,0 +1,21 @@
+{
+  "name": "Tanvi Shah",
+  "bio": "Women In Tech, Travel Freak",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tanvishah140",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/tanvithinkstech01/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/tanvishah140/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
