@@ -1,7 +1,7 @@
 {
   "name": "Nonso Barn",
   "bio": "Web Developer. Web3 enthusiast, Games & Tech aficionado",
-   "links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/NonsoBarn",
@@ -12,7 +12,7 @@
       "url": "https://github.com/NonsoBarn",
       "icon": "FaGithub"
     },
-{
+    {
       "name": "Let's Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/nonsobarn/",
       "icon": "FaLinkedin"
