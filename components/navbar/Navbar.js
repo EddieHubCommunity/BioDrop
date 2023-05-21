@@ -173,7 +173,7 @@ export default function Navbar() {
                     rel="noreferrer"
                   >
                     <FaGithub
-                      className="text-primary-low hover:text-secondary-low"
+                      className="text-primary-low hover:text-secondary-low p-2"
                       aria-label="GitHub"
                     />
                   </Link>
@@ -261,7 +261,7 @@ export default function Navbar() {
                     className="text-white"
                   >
                     <FaGithub
-                      className="text-primary-low hover:text-secondary-low"
+                      className="text-primary-low hover:text-secondary-low p-2"
                       aria-label="GitHub"
                     />
                   </Link>
