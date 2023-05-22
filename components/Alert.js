@@ -1,8 +1,9 @@
 import { FaInfoCircle } from "react-icons/fa";
 import { MdError, MdOutlineWarningAmber } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
+import Button from "./Button";
 
-export default function alert({ type, message }) {
+export default function Alert({ type, message, url, action }) {
   switch (type) {
     case "success":
       return (
@@ -11,7 +12,8 @@ export default function alert({ type, message }) {
           role="alert"
         >
           <FaRegCheckCircle className="mr-2" />
-          <span>{message}</span>
+          <span className="grow">{message}</span>
+          {url && <Button href={url} text={action} primary={true} />}
         </div>
       );
       break;
@@ -22,7 +24,8 @@ export default function alert({ type, message }) {
           role="alert"
         >
           <MdError className="mr-2" />
-          <span>{message}</span>
+          <span className="grow">{message}</span>
+          {url && <Button href={url} text={action} primary={true} />}
         </div>
       );
       break;
@@ -33,7 +36,8 @@ export default function alert({ type, message }) {
           role="alert"
         >
           <MdOutlineWarningAmber className="mr-2" />
-          <span>{message}</span>
+          <span className="grow">{message}</span>
+          {url && <Button href={url} text={action} primary={true} />}
         </div>
       );
       break;
@@ -44,7 +48,8 @@ export default function alert({ type, message }) {
           role="alert"
         >
           <FaInfoCircle className="mr-2" />
-          <span>{message}</span>
+          <span className="grow">{message}</span>
+          {url && <Button href={url} text={action} primary={true} />}
         </div>
       );
       break;
