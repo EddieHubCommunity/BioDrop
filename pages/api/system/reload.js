@@ -84,7 +84,7 @@ export default async function handler(req, res) {
 
         // add social urls to links but disable them if not in main links
         try {
-          if (profile.socials.length > 0) {
+          if (profile.socials && profile.socials.length > 0) {
             await Promise.all(
               profile.socials.map(async (social) => {
                 jsonFileLinks.push(social);
@@ -93,11 +93,11 @@ export default async function handler(req, res) {
                   {
                     url: social.url,
                     icon: social.icon,
-                    isEnabled: profile.links.find(
-                      (link) => social.url === link.url
-                    )
-                      ? true
-                      : false,
+                    isEnabled:
+                      profile.links &&
+                      profile.links.find((link) => social.url === link.url)
+                        ? true
+                        : false,
                     isPinned: true,
                     profile: currentProfile._id,
                   },
