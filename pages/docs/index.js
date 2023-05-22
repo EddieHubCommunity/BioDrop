@@ -277,7 +277,6 @@ export default function DocsIndex() {
       title: "Extra",
       description: "More information",
       pages: [
-        
         {
           name: "Profile Tips",
           path: "/docs/profile-tips",
