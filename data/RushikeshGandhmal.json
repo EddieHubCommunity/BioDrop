@@ -1,6 +1,5 @@
 {
   "name": "Rushikesh Gandhmal",
-  "type": "personal",
   "bio": "**Open Source** DevRel | Full-stack Dev | ReactJs | JavaScript | Frontend Developer",
   "tags": [
     "Open Source",
@@ -10,7 +9,6 @@
     "NextJS",
     "DevRel"
   ],
-
   "links": [
     {
       "name": "Check out Github",

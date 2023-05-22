@@ -1,11 +1,12 @@
 {
   "name": "Khushbu Maheshwari",
-  "type": "personal",
   "bio": "Student | frontend developer | Exploring **Open Source**",
-
   "tags": ["JavaScript", "C", "Bootstrap"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/khushbumaheshwarii" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/khushbumaheshwarii"
+    }
   ],
   "links": [
     {

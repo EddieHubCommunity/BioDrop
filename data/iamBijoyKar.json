@@ -1,13 +1,20 @@
 {
   "name": "Bijoy Kar",
-  "type": "personal",
   "bio": "Student 👨‍🎓| Full Stack Web Developer 🌐| Python 🐍 , JavaScript ⚙️| ML / AI 🤖 | Tech Enthusiast ✨",
   "tags": ["Javascript", "Python", "React"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iamBijoyKar" },
-    { "icon": "FaGithub", "url": "https://github.com/iamBijoyKar" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/iambijoykar/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iamBijoyKar"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamBijoyKar"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/iambijoykar/"
+    }
   ],
   "links": [
     {

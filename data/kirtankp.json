@@ -1,32 +1,29 @@
 {
   "name": "Kirtan Patel",
-  "type": "personal",
   "bio": "**Software Developer** | **Open Source**",
-
   "tags": [
     "Open Source",
     "Javascript",
     "ReactJS",
-    "Typescript",
     "NodeJS",
+    "Typescript",
     "Java"
   ],
-
   "links": [
     {
       "group": "Projects",
       "name": "Landing Page Using ReactJS",
       "url": "https://lustrous-pavlova-7875d9.netlify.app/",
-      "icon": "FaLinkedin"
+      "icon": "FaLink"
     },
     {
-      "group": "Socials Primary",
+      "group": "Primary Socials",
       "name": "GitHub",
       "url": "https://github.com/kirtankp/",
       "icon": "FaGithub"
     },
     {
-      "group": "Socials Primary",
+      "group": "Primary Socials",
       "name": "Twitter",
       "url": "https://twitter.com/kirtan__kp/",
       "icon": "FaTwitter"
@@ -38,7 +35,6 @@
       "icon": "FaLinkedin"
     }
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",

@@ -29,9 +29,7 @@ async function saveLocation(username) {
 
 export default async function getLocation(username, getProfile) {
   const now = new Date();
-  const cacheDays = 7;
-  let updatedAt = now.setDate(now.getDate() - cacheDays);
-  let expireOn = 0;
+  const cacheDays = 30;
 
   if (!getProfile.location || !getProfile.location.updatedAt) {
     logger.info(`no profile location found for username: ${username}`);
@@ -39,10 +37,16 @@ export default async function getLocation(username, getProfile) {
     return;
   }
 
+  let updatedAt = now.setDate(now.getDate() - cacheDays);
   updatedAt = new Date(getProfile.location.updatedAt);
-  expireOn = new Date(getProfile.location.updatedAt).setDate(
+  const expireOn = new Date(getProfile.location.updatedAt).setDate(
     updatedAt.getDate() + cacheDays
   );
+
+  if (expireOn > now.getTime()) {
+    logger.info(`profile location not expired for username: ${username}`);
+    return;
+  }
 
   if (expireOn < now.getTime()) {
     logger.info(`profile location expired for username: ${username}`);

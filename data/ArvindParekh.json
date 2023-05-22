@@ -1,6 +1,5 @@
 {
   "name": "Arvind Parekh",
-  "type": "personal",
   "bio": "CS | Frontend Developer | Marathon Runner | Loves Guitar 🎸| Trying out Open-Source ",
   "tags": ["Open Source", "Javascript", "Web Development", "Frontend"],
   "socials": [
@@ -39,7 +38,6 @@
       "icon": "FaInstagram"
     }
   ],
-
   "milestones": [
     {
       "title": "Featured in CNN News as a host for Brighter Minds Organization",

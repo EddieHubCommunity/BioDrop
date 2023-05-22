@@ -1,18 +1,30 @@
 {
   "name": "Madhu Saini",
-  "type": "personal",
   "bio": "**Open Source**  Enthusiast | Full Stack Developer",
   "tags": ["Open Source", "JavaScript", "Full Stack", "MERN Stack", "Node.js"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MadhuSaini22" },
-    { "icon": "FaGithub", "url": "https://github.com/MadhuSaini22.png" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/madhu-saini/" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@MadhuSaini22" },
-    { "icon": "FaLink", "url": "https://madhusaini.netlify.app/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MadhuSaini22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MadhuSaini22.png"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/madhu-saini/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@MadhuSaini22"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://madhusaini.netlify.app/"
+    }
   ],
-
   "testimonials": ["loftwah", "Arindam200", "Shukla007", "oyenolaphilipinc"],
-
   "links": [
     {
       "name": "Check out my website",

@@ -1,8 +1,6 @@
 {
   "name": "Mohasin Haque",
-  "type": "personal",
   "bio": "Techie Teacher at Techie Tessie.",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -28,7 +26,6 @@
   "milestones": [
     {
       "title": "Started YouTube",
-
       "date": "August 2021",
       "icon": "FaYoutube",
       "color": "red",

@@ -1,6 +1,5 @@
 {
   "name": "Poorvi J Nayak",
-  "type": "personal",
   "bio": "Open source enthusiast, currently learning front-end web technologies",
   "links": [
     {
@@ -12,6 +11,11 @@
       "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/poorvi-j-nayak-628aab215/",
       "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Let's connect on Github",
+      "url": "https://www.github.com/poorvijn",
+      "icon": "FaGit"
     }
   ]
 }

@@ -1,9 +1,9 @@
-# 1.129.0 (2023-05-19)
+## 1.130.17 (2023-05-22)
 
 
-### Features
+### Bug Fixes
 
-* display random profiles on search page ([#6960](https://github.com/EddieHubCommunity/LinkFree/issues/6960)) ([#6979](https://github.com/EddieHubCommunity/LinkFree/issues/6979)) ([5dafd6b](https://github.com/EddieHubCommunity/LinkFree/commit/5dafd6bb35c482f5a184b1658c65f60e82d7ada3))
+* reload property exists ([#7107](https://github.com/EddieHubCommunity/LinkFree/issues/7107)) ([4b2ff4e](https://github.com/EddieHubCommunity/LinkFree/commit/4b2ff4eb275cf7e34d43fd484f93aad606c731cf))
 
 
 

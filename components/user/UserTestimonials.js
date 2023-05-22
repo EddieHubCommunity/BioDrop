@@ -4,14 +4,12 @@ import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
 
-export default function UserTestimonials({ data }) {
+export default function UserTestimonials({ testimonials }) {
   return (
     <>
-      {!data.testimonials && (
-        <Alert type="info" message="No testimonials found" />
-      )}
-      {data.testimonials &&
-        data.testimonials.map((testimonial, key) => (
+      {!testimonials && <Alert type="info" message="No testimonials found" />}
+      {testimonials &&
+        testimonials.map((testimonial, key) => (
           <div
             className="flex flex-col sm:flex-row sm:gap-8 gap-2 sm:items-center text-sm dark:text-primary-low dark:bg-primary-medium text-primary-medium-low dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
             key={key}

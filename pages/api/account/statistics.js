@@ -19,7 +19,12 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const username = session.username;
+  const data = await getStats(session.username)
+
+  res.status(200).json(data);
+}
+
+export async function getStats(username) {
   await connectMongo();
 
   let profileData = {};
@@ -89,5 +94,5 @@ export default async function handler(req, res) {
     },
   };
 
-  res.status(200).json(data);
+  return JSON.parse(JSON.stringify(data));
 }
