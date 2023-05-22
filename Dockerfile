@@ -9,7 +9,6 @@ COPY . .
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
 
-ARG MONGODB_URL
-RUN export LINKFREE_MONGO_CONNECTION_STRING=${MONGODB_URL} && npm run build
+RUN --mount=type=secret,id=MONGO,target=./.env npm run build
 
 CMD ["npm", "start"]
