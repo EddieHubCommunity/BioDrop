@@ -2,7 +2,6 @@
   "name": "Mohammadjavad Salehi",
   "type": "personal",
   "bio": "A Passionate web developer committed to creating high-quality and efficient code.",
-  
   "links": [
     {
       "name": "Follow me on Instagram",
@@ -14,6 +13,5 @@
       "url": "https://www.linkedin.com/in/mohammadjavad-salehi",
       "icon": "FaLinkedin"
     }
-    
   ]
 }
