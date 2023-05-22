@@ -284,7 +284,7 @@ export default function DocsIndex() {
           "Tips on making your LinkFree profile stand out.",
           category: { 
             name: "Beginner",
-            color: "bg-orange-100 text-orange-800",
+            color: "bg-green-100 text-green-800",
           }
         },
         {
