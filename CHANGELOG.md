@@ -1,9 +1,9 @@
-## 1.130.16 (2023-05-22)
+## 1.130.17 (2023-05-22)
 
 
 ### Bug Fixes
 
-* reload duplicate socials ([#7105](https://github.com/EddieHubCommunity/LinkFree/issues/7105)) ([ba3e023](https://github.com/EddieHubCommunity/LinkFree/commit/ba3e023e3588901790977a592a9a4fa1e34ceda5))
+* reload property exists ([#7107](https://github.com/EddieHubCommunity/LinkFree/issues/7107)) ([4b2ff4e](https://github.com/EddieHubCommunity/LinkFree/commit/4b2ff4eb275cf7e34d43fd484f93aad606c731cf))
 
 
 
