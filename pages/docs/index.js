@@ -278,6 +278,16 @@ export default function DocsIndex() {
       description: "More information",
       pages: [
         {
+          name: "Profile Tips",
+          path: "/docs/profile-tips",
+          description:
+          "Tips on making your LinkFree profile stand out.",
+          category: { 
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          }
+        },
+        {
           name: "Full Profile Example",
           path: "/docs/full-profile-example",
           description:
