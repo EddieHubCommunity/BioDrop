@@ -28,9 +28,6 @@ export default async function handler(req, res) {
   // only if `source` is not `database` (this will be set when using forms)
   await Promise.all(
     fullProfiles.map(async (profile) => {
-      if (profile.username !== "eddiejaoude") {
-        return;
-      }
       const jsonFileLinks = [];
       let currentProfile;
       try {
@@ -134,7 +131,7 @@ export default async function handler(req, res) {
         }).populate({
           path: "links",
         });
-        console.log("ENALBED...", jsonFileLinks);
+
         // disable LINKS and SOCAILS not in json file
         await Promise.all(
           currentProfile.links
