@@ -287,7 +287,6 @@ export default function DocsIndex() {
             color: "bg-orange-100 text-orange-800",
           }
         },
-
         {
           name: "Full Profile Example",
           path: "/docs/full-profile-example",
