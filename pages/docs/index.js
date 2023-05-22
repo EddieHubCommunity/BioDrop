@@ -200,27 +200,6 @@ export default function DocsIndex() {
       ],
     },
     {
-name: "Profile Tips",
-path: "/docs/how-to-guides/profile tips",
-description: "Want to learn how to make your Linkfree profile stand out? Click here!"
-_category: {
-  name: "Intermediate",
-  color: "bg-orange-100 text-orange-800",
-},
-get category() {
-  return this._category;
-},
-set category(value) {
-  this._category = value;
-},
-get category() {
-  return this.category;
-},
-set category(value) {
-  this.category = value;
-},
-    },
-    {
       title: "Contributing",
       description: "You can contribute to our project in multiple ways",
       pages: [
