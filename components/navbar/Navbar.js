@@ -165,7 +165,7 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="relative">
+                <div className="relative p-2">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
@@ -252,7 +252,7 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/changelog" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="ml-3 mr-2 relative">
+                <div className="ml-3 mr-2 relative p-2">
                   <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
