@@ -1,5 +1,6 @@
 import { IconContext } from "react-icons";
-import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -39,6 +40,18 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       description: "Held virtually online event",
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
+    },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
     },
     {
       title: "Past Events",
