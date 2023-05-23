@@ -136,7 +136,7 @@ export default function Search({ data }) {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>
 
-        <button className="flex flex-wrap justify-center space-x-3 mb-4">
+        <div className="flex flex-wrap justify-center space-x-3 mb-4">
           {tags &&
             tags
               .slice(0, 10)
@@ -152,7 +152,7 @@ export default function Search({ data }) {
                   onClick={() => search(tag.name)}
                 />
               ))}
-        </button>
+        </div>
 
         <Badge
           content={filteredUsers.length}
