@@ -107,7 +107,6 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
-    console.log("======", inputValue.length);
     if (!inputValue) {
       //Setting the users as null when the input field is empty
       setFilteredUsers(getRandomUsers());

@@ -36,6 +36,9 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
     "cfpClose": "2022-10-09T17:00:00.000+00:00"
   },
   "url": "https://www.youtube.com/watch?v=iqIFD02OkVE",
+  "price": {
+    "startingFrom": 0
+  },
   "location": {
     "road": "Messe Berlin South Entrance & CityCube",
     "city": "Jafféstrasse",
@@ -60,6 +63,7 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 | location               | true/false | Address of the event venue (required only when `isInPerson` is true) |
 | userStatus             | false      | What your role is at the event                                       |
 | speakingTopic          | false      | The topic of the event                                               |
+| price                  | false      | What is the cost to attend event in USD.                             |
 
 | Location property | Required | Description                            |
 | :---------------- | :------- | :------------------------------------- |
@@ -75,3 +79,5 @@ If you want to know how to properly add start, end, and CFP Close times, feel fr
 export default ({ children }) => (
   <DocsLayout title="LinkFree Events Documentation">{children}</DocsLayout>
 );
+
+;
