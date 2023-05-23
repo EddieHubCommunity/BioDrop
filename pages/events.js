@@ -86,14 +86,14 @@ export default function Events({ events }) {
       description: "These events are free to attend",
       key: "free",
       icon: TbCoinOff,
-      total: categorisedEvents.free.length,
+      total: categorizedEvents.free.length,
     },
     {
       title: "Paid",
       description: "These events are paid to attend",
       key: "paid",
       icon: TbCoin,
-      total: categorisedEvents.paid.length,
+      total: categorizedEvents.paid.length,
     },
   ];
 
