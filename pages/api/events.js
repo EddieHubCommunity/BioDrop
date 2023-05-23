@@ -34,6 +34,7 @@ export async function getEvents() {
       .filter((event) => new Date(event.date.end) > new Date());
 
     let dateEvents = [];
+    const today = new Date()
     for (const event of events) {
       let cleanEvent = structuredClone(event);
       const dateTimeStyle = {
@@ -48,7 +49,7 @@ export async function getEvents() {
           new Date(event.date.end)
         );
 
-        cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > new Date());
+        cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > today);
   
         dateEvents.push(cleanEvent)
       } catch (e) {

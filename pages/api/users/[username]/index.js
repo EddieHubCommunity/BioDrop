@@ -83,6 +83,7 @@ export async function getUserApi(req, res, username) {
   };
 
   let dateEvents = [];
+  const today = new Date();
   for (const event of getProfile.events) {
     let cleanEvent = JSON.parse(JSON.stringify(event));
     const dateTimeStyle = {
@@ -90,16 +91,14 @@ export async function getUserApi(req, res, username) {
       timeStyle: "long",
     };
     try {
-      cleanEvent.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.start)
-      );
-      cleanEvent.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.end)
-      );
+      const start = new Date(event.date.start);
+      const end = new Date(event.date.end)
+      cleanEvent.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(start);
+      cleanEvent.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(end);
 
-      cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > new Date());
-      cleanEvent.date.future = new Date(event.date.start) > new Date();
-      cleanEvent.date.ongoing = new Date(event.date.start) < new Date() && new Date(event.date.end) > new Date();
+      cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > today);
+      cleanEvent.date.future = start > today;
+      cleanEvent.date.ongoing = start < today && end > today;
       dateEvents.push(cleanEvent)
     } catch (e) {
       logger.error(e, `ERROR event date for: "${event.name}"`);
