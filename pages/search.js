@@ -9,7 +9,6 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
-import Button from "@components/Button";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/users";
 
