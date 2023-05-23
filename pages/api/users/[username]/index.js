@@ -82,6 +82,32 @@ export async function getUserApi(req, res, username) {
     })),
   };
 
+  let dateEvents = [];
+  for (const event of getProfile.events) {
+    let cleanEvent = JSON.parse(JSON.stringify(event));
+    const dateTimeStyle = {
+      dateStyle: "full",
+      timeStyle: "long",
+    };
+    try {
+      cleanEvent.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.start)
+      );
+      cleanEvent.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+        new Date(event.date.end)
+      );
+
+      cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > new Date());
+      cleanEvent.date.future = new Date(event.date.start) > new Date();
+      cleanEvent.date.ongoing = new Date(event.date.start) < new Date() && new Date(event.date.end) > new Date();
+      dateEvents.push(cleanEvent)
+    } catch (e) {
+      logger.error(e, `ERROR event date for: "${event.name}"`);
+    }
+  }
+
+  getProfile.events = dateEvents;
+
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 

@@ -5,7 +5,6 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import { getEvents } from "./api/events";
 
-import logger from "@config/logger";
 import EventCard from "@components/event/EventCard";
 import Page from "@components/Page";
 import { EventTabs } from "@components/event/EventTabs";
@@ -14,27 +13,6 @@ import Badge from "@components/Badge";
 
 export async function getServerSideProps(context) {
   let events = await getEvents();
-
-  // remove any invalid events
-  events = events.filter((event) => {
-    const dateTimeStyle = {
-      dateStyle: "full",
-      timeStyle: "long",
-    };
-    try {
-      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.start)
-      );
-      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.end)
-      );
-
-      return true;
-    } catch (e) {
-      logger.error(e, `ERROR event date for: "${event.name}"`);
-      return false;
-    }
-  });
 
   return {
     props: { events },
@@ -46,9 +24,7 @@ export default function Events({ events }) {
     all: events,
     virtual: events.filter((event) => event.isVirtual === true),
     inPerson: events.filter((event) => event.isInPerson === true),
-    cfpOpen: events.filter((event) =>
-      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
-    ),
+    cfpOpen: events.filter((event) => event.date.cfpOpen === true),
     free: events.filter((event) => event.price?.startingFrom === 0),
     paid: events.filter((event) => event.price?.startingFrom > 0),
   };

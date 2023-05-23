@@ -9,7 +9,7 @@ import {
 } from "react-icons/md";
 import { RiCalendarTodoFill } from "react-icons/ri";
 
-export default function EventKey({ categorisedEvents, onToggleEventType }) {
+export default function EventKey({ categorizedEvents, onToggleEventType }) {
   const filters = [
     {
       title: "All future events",
@@ -84,7 +84,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
             </p>
           </div>
           <div className="text-2xl font-semibold">
-            {categorisedEvents[filter.key].length}
+            {categorizedEvents[filter.key].length}
           </div>
         </div>
       ))}
