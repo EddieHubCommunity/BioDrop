@@ -1,0 +1,21 @@
+{
+  "name": "Chad Crouch",
+  "bio": "Open Source Enthusiast | Software/DevOps Engineer | Tech Blogger @ Opensource Geeks",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/fossgeek",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/chaddyc",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/chaddyc/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

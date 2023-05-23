@@ -6,6 +6,11 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/_mohammadjavadsalehi",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "Start connection",
+      "url": "https://www.linkedin.com/in/mohammadjavad-salehi",
+      "icon": "FaLinkedin"
     }
   ]
 }
