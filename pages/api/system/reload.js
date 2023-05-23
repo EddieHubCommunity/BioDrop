@@ -213,6 +213,7 @@ export default async function handler(req, res) {
                 },
                 url: event.url,
                 order: position,
+                price: event.price,
               })),
             }
           );
