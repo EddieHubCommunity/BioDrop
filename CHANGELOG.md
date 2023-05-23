@@ -1,9 +1,9 @@
-## 1.130.20 (2023-05-23)
+# 1.131.0 (2023-05-23)
 
 
-### Bug Fixes
+### Features
 
-* h1 on the homepage ([#7111](https://github.com/EddieHubCommunity/LinkFree/issues/7111)) ([a19f5c7](https://github.com/EddieHubCommunity/LinkFree/commit/a19f5c7f4fbfbe3edc5a9f0266d3dd456bf97ce9))
+* filter to show free and paid events ([#4759](https://github.com/EddieHubCommunity/LinkFree/issues/4759)) ([#7126](https://github.com/EddieHubCommunity/LinkFree/issues/7126)) ([c66a880](https://github.com/EddieHubCommunity/LinkFree/commit/c66a880a41e53943b3f9ee2e5943228938050244))
 
 
 
