@@ -1,0 +1,15 @@
+{
+  "isVirtual": true,
+  "isInPerson": false,
+  "color": "green",
+  "name": "EddieCon v0.2 Unconference",
+  "description": "On Saturday 27 May my livestream is going to be a little bit different... I am going to combine this with our EddieHub community call - with an extra twist! It is going to be a mini-unconference! So what is an unconference? Well - you can submit a talk and this will be chosen by the community! This is the perfect opportunity if you want to practice your public speaking skills or if you want to test out a topic that you want to submit for another event. The one rule that applies is.... it must be open source related! I will be there to support you. What are you waiting for? Go and submit your talk now!",
+  "date": {
+    "start": "2023-05-27T21:00:00.000+00:00",
+    "end": "2023-05-27T22:00:00.000+00:00"
+  },
+  "url": "https://www.eddiehub.org/eddiecon-02",
+  "price": {
+    "startingFrom": 0
+  }
+}
