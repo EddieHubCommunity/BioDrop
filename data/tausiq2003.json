@@ -1,0 +1,107 @@
+{
+  "name": "Tausiq Samantaray",
+  "bio": "CS Student | Major focus: **Web dev** and **software dev** | Exploring different technologies",
+  "tags": ["Open Source", "Python", "Web Dev", "Java"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tausiqtweets"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tausiq2003"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tausiq-samantaray"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/tausiqtweets",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@tausiqsamantaray3363/",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Socials",
+      "name": "Github",
+      "url": "https://github.com/tausiq2003",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tausiq-samantaray",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "I am not afraid to ask questions",
+      "url": "https://stackoverflow.com/users/15888545/google-user",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "group": "My First Project",
+      "name": "Newsletter system",
+      "url": "https://github.com/tausiq2003/cs50-final-project",
+      "icon": "SiFlask"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learnt Git and Github",
+      "date": "May 2021",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Started my open source journey",
+      "url": "https://github.com/tausiq2003"
+    },
+    {
+      "title": "Participated in Hacktoberfest",
+      "date": "October 2021",
+      "icon": "FaLink",
+      "color": "black",
+      "description": "Participated in Hacktoberfest 2021 and contributed in small projects",
+      "url": "https://github.com/tausiq2003"
+    },
+    {
+      "title": "Participated in CS50 puzzles",
+      "date": "April 2022",
+      "icon": "FaPuzzlePiece",
+      "color": "black",
+      "description": "Collaborated with three folks and solved some puzzles, it was fun",
+      "url": "https://cs50.harvard.edu/certificates/b7be6667-b409-4ab7-a301-34d24423133a"
+    },
+    {
+      "title": "Started Blogging",
+      "date": "November 2022",
+      "icon": "SiHashnode",
+      "color": "black",
+      "description": "Started writing some content, here is my first one",
+      "url": "https://tausiq.hashnode.dev/how-to-install-linux-in-your-windows-system"
+    },
+    {
+      "title": "Won Showwcase develevate",
+      "date": "January 2023",
+      "icon": "FaLinkedIn",
+      "color": "black",
+      "description": "Wrote some unique blogs, please check them out at showwcase",
+      "url": "https://www.linkedin.com/posts/tausiq-samantaray_dev-elevate-platinum-winners-showwcase-activity-7020691204002508800-KnYg"
+    },
+    {
+      "title": "Selected in MLSA",
+      "date": "February 2023",
+      "icon": "FaMicrosoft",
+      "color": "black",
+      "description": "Selected and became and alpha MLSA",
+      "url": "https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/14a25f76-f58c-4c9d-b330-88a3378eec5e"
+    }
+  ]
+}

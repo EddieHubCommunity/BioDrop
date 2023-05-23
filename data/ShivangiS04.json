@@ -1,0 +1,31 @@
+{
+  "name": "Shivangi Singh",
+  "bio": "Just an Engineering undergrad trying to find her place in the world.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aloobandar01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ShivangiS04",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivangi-singh-shivangis04/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@shivangisingh1388/channels",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Add me on Discord",
+      "url": "shivzkewlkid#2471",
+      "icon": "FaDiscord"
+    }
+  ]
+}

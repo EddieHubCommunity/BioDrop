@@ -1,0 +1,52 @@
+{
+  "name": "Stiaan Wolfaardt",
+  "bio": "Software Engineer based in Cape Town, South Africa",
+  "tags": ["Javascript", "Typescript", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/StiaanW"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/STIAANWOL"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/stiaanwolfaardt"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/StiaanW",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/STIAANWOL",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/stiaanwolfaardt",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Software Engineer",
+      "date": "Feb 2023",
+      "icon": "FaSuitcase",
+      "color": "grey",
+      "description": "Promoted"
+    },
+    {
+      "title": "Bsc Computing",
+      "date": "Nov 2022",
+      "icon": "FaUniversity",
+      "color": "grey",
+      "description": "Graduated"
+    }
+  ]
+}

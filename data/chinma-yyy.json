@@ -1,0 +1,49 @@
+{
+  "name": "Chinmay Shewale",
+  "bio": "Backend Engineer | Learning DevOps | Exploring Open Source",
+  "tags": ["DevOps", "Node.js", "MongoDB", "Express.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chinma_yyy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chinma-yyy"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/chinma_yyy"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/chinmay-shewale-097624249/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/chinma_yyy",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/chinma-yyy",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/chinmay-shewale-097624249",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about my learnings",
+      "url": "https://chinmayyy.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

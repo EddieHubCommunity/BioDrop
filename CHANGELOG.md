@@ -1,9 +1,9 @@
-## 1.86.2 (2023-02-12)
+## 1.130.18 (2023-05-23)
 
 
 ### Bug Fixes
 
-* typo in alert statistics message ([#4724](https://github.com/EddieHubCommunity/LinkFree/issues/4724)) ([25f6e20](https://github.com/EddieHubCommunity/LinkFree/commit/25f6e20ad33e6a0005a65df93cb2b00146ebf279))
+* change heading to paragraph for gh accelerator ([#7110](https://github.com/EddieHubCommunity/LinkFree/issues/7110)) ([efec2ed](https://github.com/EddieHubCommunity/LinkFree/commit/efec2edd16351fcc776d5942aefe6f6f480f6d2d))
 
 
 

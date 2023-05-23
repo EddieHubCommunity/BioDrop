@@ -1,0 +1,21 @@
+{
+  "name": "Mohammad Kaif",
+  "bio": "A MERN stack developer who loves programming",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammad-kaif-4a0ab2231/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/Kaif987",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KaifSiddiquiDev",
+      "icon": "FaTwitter"
+    }
+  ]
+}

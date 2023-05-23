@@ -1,0 +1,46 @@
+{
+  "name": "Sagar Biradar",
+  "bio": "React | Tailwind CSS | Final year Computer Engineering Student | Web Developer",
+  "tags": ["Javascript", "ReactJS", "NextJS", "Tailwind CSS", "React Native"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sagar-biradar-673552211/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Sagar3629"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sagar1621"
+    }
+  ],
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "Portfolio Website",
+      "url": "https://sagar1621-portfolio-website.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/sagar-biradar-673552211/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub",
+      "url": "https://github.com/sagar1621",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/sagar3629",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}

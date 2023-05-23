@@ -1,0 +1,32 @@
+{
+  "name": "Eslem Ouederni",
+  "bio": "Fullstack developer, I'm looking forward to starting a new journey with open source",
+  "tags": ["Full Stack", "ReactJs", "Javascript", "Open Source"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EslemOuederni",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/EslemOuederni",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/eslem-ouederni-858a13182/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing as a Teacher",
+      "date": "Feb 2023",
+      "icon": "FaChalkboardTeacher",
+      "color": "green",
+      "description": "Started teaching women coding, from sql, python to web development",
+      "url": "https://eslemouederniportfolio.vercel.app/"
+    }
+  ]
+}

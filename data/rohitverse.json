@@ -1,0 +1,31 @@
+{
+  "name": "KR ROHIT",
+  "bio": "Aspiring Web3 Blockchain Developer | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rohitverse",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohitscode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rohitscode",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Hashnode",
+      "date": "December 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Wrote My First Blog",
+      "url": "https://rohitscode.hashnode.dev/"
+    }
+  ]
+}

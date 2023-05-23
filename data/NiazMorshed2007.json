@@ -1,0 +1,93 @@
+{
+  "name": "Niaz Morshed",
+  "bio": "Frontend Developer | ReactJs ~ Next.js | Open Source contributor 🎯 | Open for opportunity 🙂",
+  "tags": ["Open Source", "Javascript", "Typescript", "React", "NextJS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/niazmorshed_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NiazMorshed2007"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/niazmorsheddev"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/niazmorshed_",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/NiazMorshed2007",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/niazmorsheddev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about my daily learnings",
+      "url": "https://niazmorshed.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "Jul 2019",
+      "icon": "FaCode",
+      "color": "black",
+      "description": "Started coding at an early age."
+    },
+    {
+      "title": "Started Open Source contribution",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Started open source contribution with the motivation from Eddie Jaoude",
+      "url": "https://github.com/NiazMorshed2007"
+    },
+    {
+      "title": "Started part-time freelancing",
+      "date": "Aug 2020",
+      "icon": "FaMoneyBillWave",
+      "color": "blue",
+      "description": "Started part-time freelancing and making my own money!"
+    },
+    {
+      "title": "Crossed 1K followers on LinkedIn",
+      "date": "Nov 2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Crossed 1K followers on LinkedIn in 5 months",
+      "url": "https://www.linkedin.com/in/niazmorsheddev"
+    },
+    {
+      "isGoal": true,
+      "title": "Land my first full time job as a Frontend Developer before 2024",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to move from being a part-time freelancer to a full time developer"
+    },
+    {
+      "isGoal": true,
+      "title": "Create a open source project that gets 1000+ stars",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Want to create a open source project that gets 1000+ stars"
+    }
+  ]
+}

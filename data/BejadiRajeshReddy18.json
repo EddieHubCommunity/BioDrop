@@ -1,0 +1,26 @@
+{
+  "name": "RajeshReddy",
+  "bio": "I'm an Devops Engineer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BejadiRajeshRed?t=XKGFgp6w2mawZ2_wUjTQwQ&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/BejadiRajeshReddy18",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/bejadirajeshreddy_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rajesh-reddy-bejadi/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

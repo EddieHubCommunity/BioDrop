@@ -1,0 +1,91 @@
+{
+  "name": "Yash Dewasthale",
+  "bio": "**Open-Source** Advocate | Founder of [**BuildersChain**](https://github.com/BuildersChain) | Data Scientist-Data Engineer | **Freelance** Developer | Web3 Enthusiast",
+  "tags": [
+    "Open Source",
+    "Python",
+    "ai",
+    "ml",
+    "Machine Learning",
+    "Javascript",
+    "Node.js",
+    "Solidity",
+    "data science",
+    "freelancer",
+    "Web3"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/dew_yashtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/yashdev9274"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/yash-dewasthale"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/progradecode/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Freelance Service - Technical Writer, Data Analysis, Data Science, Data Engineering",
+      "url": "https://www.upwork.com/freelancers/~01e912bba335089b60",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Check out my work",
+      "url": "https://github.com/yashdev9274",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Follow me on Twitter for daily tips on Open-Source, Data Science-Data Engineering and Web3",
+      "url": "https://twitter.com/dew_yashtwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together for freelancing work",
+      "url": "https://linkedin.com/in/yash-dewasthale",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blogs - Follow me on Hashnode for technical content",
+      "url": "https://yashdev9274.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for short and courosel contents",
+      "url": "https://www.instagram.com/progradecode/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe to stay uptodate about Crypto and Web3 updates and Technical Content",
+      "url": "https://www.youtube.com/@theEtherTimes",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Only source you will need to become Data Scientist - Data Engineer",
+      "url": "https://github.com/yashdev9274/Data-Scientist-Roadmap-main",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Only source you will need to become Web3 Developer",
+      "url": "https://github.com/yashdev9274/Web3-Developer-Path",
+      "icon": "FaGithub"
+    }
+  ]
+}

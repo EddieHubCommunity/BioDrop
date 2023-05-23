@@ -1,0 +1,100 @@
+{
+  "name": "Suraj Pratap",
+  "bio": "Frontend Developer || DevOps & Open Source enthusiast ||Tech Blogger",
+  "tags": ["Open Source", "Web Development", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/suraj-pratap-948a92225/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SurajPratap10"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/suraj-pratap-948a92225/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SurajPratap10",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "View my portfolio",
+      "url": "https://suraj-portfolio-d12000.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow and read my blogs on Hashnode",
+      "url": "https://hashnode.com/@SurajPratap10",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aridoshikazu_1/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed/won it.",
+      "url": "https://www.holopin.io/@suraj_pratap#"
+    },
+    {
+      "title": "Started Blogs",
+      "date": "February 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Writing Developement and Tech related blogs",
+      "url": "https://hashnode.com/@SurajPratap10"
+    },
+    {
+      "title": "Top Contributor of the MLH Open Source event",
+      "date": "February 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "I was among the Top Contributors of Diversion 2k23, a MLH official Open Source hackathon.",
+      "url": "https://www.linkedin.com/in/suraj-pratap-948a92225/"
+    },
+    {
+      "title": "Mentee • Winter of Blockchain ",
+      "date": "February 2023 - April 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "I got selected to the open source contribution program for contributing to Blockchains and Blockchain related projects like Blockchain Games, Protocols, DeFi and many more.",
+      "url": "https://www.linkedin.com/in/suraj-pratap-948a92225/"
+    },
+    {
+      "title": "New | Microsoft Learn Student Ambassador",
+      "date": "April 2023",
+      "icon": "SiMicrosoft",
+      "color": "grey",
+      "description": "I have been accepted into the prestigious Microsoft Learn Student Ambassador Program, out of thousands of applicants from across the globe.",
+      "url": "https://drive.google.com/file/d/15M7ZssXW17AJdv3GKBE7SJ2aXl8pOiHX/view?usp=share_link"
+    },
+    {
+      "title": "Alpha | Microsoft Learn Student Ambassador",
+      "date": "May 2023",
+      "icon": "SiMicrosoft",
+      "color": "grey",
+      "description": "I got promoted to the Alpha level in the prestigious Microsoft Learn Student Ambassador Program.",
+      "url": "https://drive.google.com/file/d/1LqEj5C3gRabpccOI7fqzYjFhafRFfGrY/view?usp=share_link"
+    },
+    {
+      "title": "GSSoC'23 | Contributor",
+      "date": "May 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "Got shortlisted for the global 3-month open source program which is held yearly during the summers.",
+      "url": "https://drive.google.com/file/d/1Ti1HU-QfgTEIk-OhL9E80u23lDV_IsGn/view?usp=share_link"
+    }
+  ]
+}

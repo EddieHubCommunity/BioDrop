@@ -1,0 +1,46 @@
+{
+  "name": "KellynCodes",
+  "bio": "Creative and Passionate Software Engineer | **C#/.NET** || **Angular** || **NextJs** || **ExpressJs** ...",
+  "tags": [
+    "Backend Engineer",
+    "Frontend Engineer",
+    "C#/.Net Engineer",
+    "Angular",
+    "NextJs",
+    "TypeScript",
+    "JavaScript",
+    "ReactJs"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/KellynCodes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/KellynCodes",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kellyncodes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/KellynCodes",
+      "icon": "FaFacebok"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/KellynCodes",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/channels/@kellyncodes#8004",
+      "icon": "FaDiscord"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rohit Gupta",
+  "bio": "the full stack web developer who turns ideas into interactive and visually stunning digital experiences with his coding wizardry.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/guptaRohit28",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my GitHub",
+      "url": "https://github.com/rohitt-gupta",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "www.linkedin.com/in/rohit-gupta28",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

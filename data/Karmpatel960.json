@@ -1,0 +1,21 @@
+{
+  "name": "Karm Patel",
+  "bio": "Open Source Enthusiast | DevOps | Learning New tech | Learning in Public",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Karmstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkdin",
+      "url": "https://www.linkedin.com/in/karm-patel-262306224/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/karmpatel960",
+      "icon": "FaGithub"
+    }
+  ]
+}

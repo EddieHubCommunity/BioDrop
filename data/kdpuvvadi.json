@@ -1,8 +1,6 @@
 {
   "name": "KD Puvvadi",
-  "type": "personal",
   "bio": "Everything DevOps",
-
   "tags": [
     "AWS",
     "Azure",
@@ -13,7 +11,6 @@
     "kubernetes",
     "Terraform"
   ],
-
   "socials": [
     {
       "icon": "FaGithub",
@@ -28,7 +25,6 @@
       "url": "http://infosec.exchange/@kdpuvvadi"
     }
   ],
-
   "links": [
     {
       "name": "Website",

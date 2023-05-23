@@ -1,8 +1,6 @@
 {
   "name": "Jarek Pacocha",
-  "type": "personal",
   "bio": "**Python** Developer | **Web** Developer | **QA** Tester | **Open Source** Contributor",
-
   "tags": [
     "Python",
     "Data",
@@ -13,10 +11,22 @@
     "Gaming"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/jarek-pacocha" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/jaroslaw-pacocha" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/thlyer" },
-    { "icon": "FaTwitch", "url": "https://twitch.tv/thlyer" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jarek-pacocha"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/jaroslaw-pacocha"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thlyer"
+    },
+    {
+      "icon": "FaTwitch",
+      "url": "https://twitch.tv/thlyer"
+    },
     {
       "icon": "FaDiscord",
       "url": "http://discordapp.com/users/374991847363313665"

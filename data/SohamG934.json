@@ -1,0 +1,26 @@
+{
+  "name": "Soham Ghadge",
+  "bio": "**Budding Engineer** and **tech aficionado**. **Travel enthusiast**",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SOHAMG5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/soham-ghadge-17bb18245/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/SohamG934",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my blogs on hashnode",
+      "url": "https://www.sohamghadge.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Shivam Kumar",
+  "bio": "student // learning",
+  "tags": ["Open Source", "Javascript", "TypeScript", "Python"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shivamsinghydv"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shivamsinghydv"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/shivxmsinghydv"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shivamsinghydv"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shivamsinghydv",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shivamsinghydv",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me on Instagram",
+      "url": "https://www.instagram.com/shivxmsinghydv",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Work",
+      "name": "GitHub",
+      "url": "https://github.com/shivamsinghydv",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Work",
+      "name": "Personal Website",
+      "url": "https://shivamsinghydv.me",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Created my First pull request April 2023",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Contributing to the open source and learning along the way."
+    },
+    {
+      "title": "Started my Programming journey.",
+      "date": "May 2020",
+      "icon": "FaGraduationCap",
+      "color": "black",
+      "description": "Started with frontend and then moved to backend also."
+    }
+  ]
+}

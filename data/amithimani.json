@@ -1,0 +1,59 @@
+{
+  "name": "Amit Himani",
+  "bio": "Cloud architect & performance engineering **SME**. Passionate about Chaos Engineering and helping customers achieve observability solutions in the cloud. Blogger in free time",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Chaos Engineering",
+    "Performance Engineering",
+    "Java",
+    "Google Cloud Platform",
+    "Microsoft Azure"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/amithimani1"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://ie.linkedin.com/in/amithimani"
+    },
+    {
+      "icon": "SiSubstack",
+      "url": "https://amithimani.substack.com"
+    }
+  ],
+  "links": [
+    {
+      "name": "View my Tweets",
+      "url": "https://twitter.com/amithimani1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe to my Newsletter",
+      "url": "https://amithimani.substack.com",
+      "icon": "SiSubstack"
+    },
+    {
+      "name": "Subscribe to my Blog",
+      "url": "https://medium.com/@knowledge.cafe",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://ie.linkedin.com/in/amithimani",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my Spring Interview Question Book",
+      "url": "https://amithimani.gumroad.com/l/spring",
+      "icon": "FaBook"
+    },
+    {
+      "name": "View my personal website",
+      "url": "https://www.knowledge-cafe.dev",
+      "icon": "FaWordpress"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Pradhumansinh Padhiyar",
+  "bio": "Sharing what I learn about Cloud, System design, Code • On my journey to becoming a certified AWS Dev • Writing ebook on System Design",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/asenseofpradhyu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/asenseofpradhyu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://pradhuman.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

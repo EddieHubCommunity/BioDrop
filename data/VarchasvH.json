@@ -1,0 +1,41 @@
+{
+  "name": "Varchasv Hoon",
+  "bio": "DevOps Engineer | Open Source Enthusiast | Constantly learning and Constantly Delivering",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "GCP",
+    "CI/CD",
+    "Golang"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VarchasvH/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Catch me Online here",
+      "url": "https://github.com/VarchasvH",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "See what I am learning",
+      "url": "https://varchasvh.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Portfolio",
+      "url": "https://varchasvh.carrd.co",
+      "icon": "FaPortrait"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/varchasvh",
+      "icon": "FaInstagram"
+    }
+  ]
+}

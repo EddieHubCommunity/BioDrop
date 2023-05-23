@@ -1,0 +1,58 @@
+{
+  "name": "Sanskar Kabra",
+  "bio": "MERN stack developer",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "React",
+    "Node",
+    "TypeScript",
+    "NextJS"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sans13_ke",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sanskar-kabra-a3a347178/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "November 2019",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Joined GitHub",
+      "url": "https://github.com/davydocsurg"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "December 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://chibueze.me"
+    },
+    {
+      "title": "Started Open Source",
+      "date": "May 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Joined EddieHub Community",
+      "url": "https://github.com/davydocsurg"
+    },
+    {
+      "title": "Joined Coopco",
+      "date": "June 2022",
+      "icon": "SiWorkplace",
+      "color": "grey",
+      "description": "Joined Coopco",
+      "url": "https://coopco.com.ng"
+    }
+  ]
+}

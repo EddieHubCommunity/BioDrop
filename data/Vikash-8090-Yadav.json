@@ -1,0 +1,32 @@
+{
+  "name": "Vikash Kumar Yadav",
+  "bio": "Computer Science student | Full Stack Web3 developer | Open source ,Devops and cloud enthusiast ",
+  "tags": ["Open Source", "Full Stack Web3 dev", "JavaScript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Vikash_8090_b"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Vikash-8090-Yadav"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Vikash-8090-Yadav",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vikash_8090_b",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vikash-kumar-yadav-8090/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

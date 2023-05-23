@@ -1,12 +1,16 @@
 {
   "name": "Lucy Macartney",
-  "type": "personal",
   "bio": "Software Developer and Technical Writer",
   "tags": ["Open Source", "Javascript", "React", "NextJS"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/codingwithlucy" },
-    { "icon": "FaGithub", "url": "https://github.com/lmac-1" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/codingwithlucy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/lmac-1"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://youtube.com/channel/UCcFG2cQfZRK178muVVkpnEw"

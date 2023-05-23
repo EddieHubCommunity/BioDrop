@@ -1,0 +1,45 @@
+{
+  "name": "Suraj Maity",
+  "bio": "Talk about 📱 #Android 🌱 || #DevOps 🚀 || Learn in public method follower👨‍💻",
+  "tags": ["Open Source", "Kotlin", "Java", "Android", "DevOps", "SQL"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/surajmyt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/surajmaity1"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/SurajMaity"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Let's Learn Together",
+      "url": "https://twitter.com/surajmyt",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "YouTube: Learn by Doing",
+      "url": "https://youtube.com/SurajMaity",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/surajmaity1",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Let's connect and grow",
+      "url": "https://linkedin.com/in/suraj-maity-2919571a4",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

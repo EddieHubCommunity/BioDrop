@@ -1,0 +1,21 @@
+{
+  "name": "Yaser Alazm",
+  "bio": "Fullstack Javascript Engineer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/yaser_alazm",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Github ",
+      "url": "https://github.com/yaser-alazm",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Website",
+      "url": "https://yaser-alazm.com/",
+      "icon": "FaUserCircle"
+    }
+  ]
+}

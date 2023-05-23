@@ -1,0 +1,21 @@
+{
+  "name": "Brian Poblete",
+  "bio": "Web Developer and UX Designer based in Tallahassee, FL. Incoming MS in Computer Science @ Florida State University.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/brianmpdotdev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Brian-Pob",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/brian-pob",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

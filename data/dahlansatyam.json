@@ -1,0 +1,37 @@
+{
+  "name": "Satyam dahlan",
+  "bio": "Software Engineer and Open Source Enthusiast.",
+  "tags": [
+    "Open Source",
+    "HTML",
+    "css",
+    "Javascript",
+    "React",
+    "Tailwindcss",
+    "typescript",
+    "NextJS",
+    "Node.js"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dahlan_satyam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/dahlansatyam",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/un_sat_isfied.engineer",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/satyam-dahlan-609b94152",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

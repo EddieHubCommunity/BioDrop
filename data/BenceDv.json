@@ -1,0 +1,36 @@
+{
+  "name": "Bence Dvorszki",
+  "bio": "Avid **Florida** vibes enjoyer, working towards becoming a business man",
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/bencedv/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bence2",
+      "icon": "FaPaperPlane"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BenceDvorszki",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.gg/CX47T3p96X",
+      "icon": "FaDiscord"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Scheduled to finish A levels",
+      "date": "July 2023",
+      "icon": "FaFlagCheckered",
+      "color": "grey",
+      "description": "From here the opportunities are endless, next destination: Florida",
+      "url": "https://goo.gl/maps/UueiqgmWuPRM9a2u9"
+    }
+  ]
+}

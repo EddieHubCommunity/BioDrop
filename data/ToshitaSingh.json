@@ -1,0 +1,21 @@
+{
+  "name": "Toshita",
+  "bio": "Full stack Web developer. Product Designer(UX/UI). Web3+Blockchain enthusiast.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/toshee_ta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ToshitaSingh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/toshita-singh-a0216a167/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Martijn Lindeman",
+  "bio": "Seasoned professional with over a decade of experience in the IT sector",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/LindemanMartijn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/martijn-lindeman/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/MartijnLindeman",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Sebastian Henao Madrigal",
+  "bio": "Computer Scientist, Engineering Manager, FullStack Engineer, Tech entrepreneur, Travel enthusiast, Photographer & Coffee Nerd",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "Python",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Node.js",
+    "AWS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/madriantor"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sebashmh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sebastianhenaomadrigal/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://vero.co/sebasmadrigal"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://sebas.io"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/madrinator",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/sebashmh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sebastianhenaomadrigal/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Crossed 5K followers on LinkedIn",
+      "date": "2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Open Source and DevOps and connecting with people on Twitter helped me to cross the 5K followers milestone",
+      "url": "https://www.linkedin.com/in/sebastianhenaomadrigal/"
+    },
+    {
+      "isGoal": true,
+      "title": "Speak and attend international conferences",
+      "date": "2023",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak and attend international conferences to share my knowledge and learn from others"
+    }
+  ]
+}

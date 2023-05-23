@@ -1,0 +1,31 @@
+{
+  "name": "MaSHiNiK",
+  "bio": "Artist",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MaSHiNiK_Art",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram (New)",
+      "url": "https://instagram.com/mashinik_art",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Instagram (Old)",
+      "url": "https://instagram.com/mashinikart",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com/mashinik31",
+      "icon": "FaDeviantArt"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/artistwarehouse",
+      "icon": "FaTelegram"
+    }
+  ]
+}

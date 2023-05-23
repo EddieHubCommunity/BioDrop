@@ -1,0 +1,200 @@
+{
+  "name": "Bryan King Pecho",
+  "bio": "Software Engineer at 100Devs. Web wizard, AI explorer, and open-source advocate. Let's connect!",
+  "tags": ["Open Source", "JavaScript", "MERN", "Pop!_OS", "Linux"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bkpecho"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/bkpecho"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/bkpecho/"
+    },
+    {
+      "icon": "SiPolywork",
+      "url": "https://poly.me/bkpecho"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Create Something Amazing Together",
+      "url": "https://github.com/bkpecho",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow My Tech Journey",
+      "url": "https://twitter.com/bkpecho",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect!",
+      "url": "https://www.linkedin.com/in/bkpecho/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Polywork: Let's collaborate!",
+      "url": "https://poly.me/bkpecho",
+      "icon": "SiPolywork"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "LeetCode: The World's Leading Online Programming Learning Platform",
+      "url": "https://leetcode.com/bkpecho/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "Codewars: Achieve Code Mastery Through Challenge",
+      "url": "https://codewars.com/users/bkpecho",
+      "icon": "SiCodewars"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "FrontEnd Mentor: Front-end Coding Challenges",
+      "url": "https://frontendmentor.io/profile/bkpecho",
+      "icon": "SiFrontendmentor"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Best GitHub Repos To Master JavaScript",
+      "url": "https://github.com/stars/bkpecho/lists/8-github-repos-to-master-js",
+      "icon": "SiJavascript"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Must-Have React Repos on Github",
+      "url": "https://github.com/stars/bkpecho/lists/must-have-react-repos-on-github",
+      "icon": "FaReact"
+    },
+    {
+      "group": "My Top Handpicked GitHub Teasures",
+      "name": "Useful GitHub Repositories for Web Developers",
+      "url": "https://github.com/stars/bkpecho/lists/useful-github-repos-for-web-devs",
+      "icon": "FaDatabase"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Selected as Open Source Contributor for GirlScript Summer of Code '23",
+      "date": "May 2023",
+      "icon": "FaCodeBranch",
+      "color": "#f1c40f",
+      "description": "GirlScript Summer of Code is a 3-month #OpenSource program by GirlScript Foundation.",
+      "url": "https://twitter.com/bkpecho/status/1659456146862915586?s=20"
+    },
+    {
+      "title": "Graduated from Cavite State University",
+      "date": "April 2023",
+      "icon": "FaGraduationCap",
+      "color": "#3498db",
+      "description": "Completed my Bachelor of Science in Information Technology degree from Cavite State University.",
+      "url": "https://twitter.com/bkpecho/status/1651898479759994881?s=20"
+    },
+    {
+      "title": "Joined EddieHub Community",
+      "date": "March 2023",
+      "icon": "FaUsers",
+      "color": "#e74c3c",
+      "description": "Became a member of the EddieHubCommunity, a welcoming and inclusive community that encourages collaboration and contributions to open source projects.",
+      "url": "https://www.eddiehub.org/"
+    },
+    {
+      "title": "Made First Open Source Contribution",
+      "date": "March 2023",
+      "icon": "FaCodeBranch",
+      "color": "#2ecc71",
+      "description": "Made my first open source contribution to a project on GitHub."
+    },
+    {
+      "title": "Started as Software Engineer at 100Devs",
+      "date": "December 2022",
+      "icon": "FaLaptop",
+      "color": "#9b59b6",
+      "description": "Started working as a software engineer at 100Devs, an agency that provides training and support to software engineers.",
+      "url": "https://www.linkedin.com/company/100devs"
+    },
+    {
+      "title": "Finished Internship at iCargo Pacific",
+      "date": "December 2022",
+      "icon": "FaSuitcase",
+      "color": "#f1c40f",
+      "description": "Successfully completed my internship as a backend development intern at iCargo Pacific, where I coded with Laravel, Postgre, Vue, and Firebase.",
+      "url": "https://www.linkedin.com/company/icargopacific/"
+    },
+    {
+      "title": "Started Internship at iCargo Pacific",
+      "date": "October 2022",
+      "icon": "FaSuitcase",
+      "color": "#f1c40f",
+      "description": "Started working as a backend development intern at iCargo Pacific, where I worked on various projects related to web development and database management.",
+      "url": "https://www.linkedin.com/company/icargopacific/"
+    },
+    {
+      "title": "Finished Undergraduate Thesis",
+      "date": "May 2022",
+      "icon": "FaBook",
+      "color": "#3498db",
+      "description": "Successfully defended our Bachelor of Science in Information Technology (BSIT) thesis, which involved the development of a native Android application using Java.",
+      "url": "https://youtu.be/CYq7Sqg0vU4"
+    },
+    {
+      "title": "Became President of MusiCaviteños",
+      "date": "May 2019",
+      "icon": "FaMusic",
+      "color": "#e74c3c ",
+      "description": "Led an organization of student musicians in supporting and promoting university music programs. Managed events, coordinated rehearsals and meetings, and fostered a positive community."
+    },
+    {
+      "title": "Beginning of My College Life ",
+      "date": "August 2018",
+      "icon": "FaUniversity",
+      "color": "#3498db",
+      "description": "Started my journey in pursuing a Bachelor of Science in Information Technology degree at Cavite State University.",
+      "url": "https://cvsu.edu.ph/"
+    },
+    {
+      "title": "Graduated from La Vlaize Integrated Science School",
+      "date": "April 2018",
+      "icon": "FaGraduationCap",
+      "color": "#3498db",
+      "description": "Completed my Senior High School studies with an ICT strand at LVISS."
+    },
+    {
+      "title": "Programmer Role for Senior High School Research",
+      "date": "January 2018",
+      "icon": "FaCode",
+      "color": "#27ae60",
+      "description": "Developed a desktop application using Visual Basic and SQL as part of our senior high school research project. Also undertook freelance programming projects to enhance my skills."
+    },
+    {
+      "title": "Started Senior High School with ICT Strand at LVISS",
+      "date": "June 2016",
+      "icon": "FaSchool",
+      "color": "#8e44ad",
+      "description": "Learned Turbo Pascal and Java while studying at La Vlaize Integrated Science School with a focus on ICT."
+    },
+    {
+      "title": "Built My First Calculator App with Visual Basic",
+      "date": "2015",
+      "icon": "FaCalculator",
+      "color": "#F6993F",
+      "description": "Built my first calculator application with Visual Basic and began experimenting with coding."
+    },
+    {
+      "title": "Written My First Code",
+      "date": "2013",
+      "icon": "FaCode",
+      "color": "#c0392b",
+      "description": "Got amazed with the marquee feature of HTML and started playing around with HTML, writing my first lines of code."
+    }
+  ]
+}

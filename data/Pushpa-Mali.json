@@ -1,0 +1,21 @@
+{
+  "name": "Pushpa Mali",
+  "bio": "Hi all,My name is Pushpa Mali.I have keen interest in web development.My tech skills are HTML,CSS,Javascript,MySQL,Java",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PushpaMali23",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pushpa-mali-a842b3228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Pushpa-Mali",
+      "icon": "FaGithub"
+    }
+  ]
+}

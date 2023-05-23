@@ -1,0 +1,35 @@
+{
+  "name": "Surendhar Palanisamy",
+  "bio": "I break and build stuff",
+  "tags": ["React", "Django", "Typescript", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/juz_ren"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/surendhar-palanisamy"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Let's connect",
+      "url": "https://twitter.com/juz_ren",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Let's Collaborate",
+      "url": "https://github.com/surendhar-palanisamy",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Website",
+      "name": "Check out my portfolio",
+      "url": "https://surendhar.vercel.app/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

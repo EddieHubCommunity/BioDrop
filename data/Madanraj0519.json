@@ -1,0 +1,41 @@
+{
+  "name": "Madanraj",
+  "bio": "A passionate Front-end developer from India",
+  "tags": ["Open Source", "GitHub", "JavaScript", "ReactJS", "Tailwind"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Madan__raj"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Madanraj0519"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/madan-raj-7b8b23232/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Madan__raj",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/Madanraj0519",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/in/madan-raj-7b8b23232/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/__.mad_dy._/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

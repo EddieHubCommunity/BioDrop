@@ -1,0 +1,21 @@
+name: 'Lock new issues'
+
+on:
+  issues:
+    types: opened
+
+permissions:
+  issues: write
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v3
+        with:
+          close-issue: false
+          exclude-issue-labels: "🏁 status: ready for dev,💬 talk: discussion,testimonial"
+          process-only: "issues"
+          skip-closed-issue-comment: true
+          issue-comment: >
+           To reduce notifications, issues are locked until they are https://github.com/EddieHubCommunity/LinkFree/labels/%F0%9F%8F%81%20status%3A%20ready%20for%20dev and to be assigned. You can learn more in our contributing guide https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md

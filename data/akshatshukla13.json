@@ -1,0 +1,105 @@
+{
+  "name": "Akshat Shukla",
+  "bio": "As An enthusiastic **tech** aficionado, I am constantly fueled by my passion to explore and discover!!",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "C ",
+    "Cpp ",
+    "Web Development",
+    "CSS",
+    "Javascript"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/axat_1302"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akshatshukla13"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akshat.s_1302"
+    }
+  ],
+  "links": [
+    {
+      "name": "Get in touch At Twitter",
+      "url": "https://twitter.com/axat_1302",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "Let's take our professional connection to LinkedIn",
+      "url": "https://www.linkedin.com/in/akshat1302",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Wanna Read Blogs! Follow me on Hashnode",
+      "url": "https://hashnode.com/@Akshat1302",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Checkout my code contributions on Github",
+      "url": "https://github.com/akshatshukla13",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/akshat.s_1302",
+      "icon": "FaInstagramSquare"
+    }
+  ],
+  "milestones": [
+    {
+      "isGoal": true,
+      "title": "Become a DevRel",
+      "date": "2025",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a Developer Advocate 🥑 for an Open Source company or projects which come under the CNCF ecosystem"
+    },
+    {
+      "isGoal": true,
+      "title": "Write atleast 10 blog at 2023 at Medium/Hashnode",
+      "date": "2023",
+      "icon": "FaPenNib",
+      "color": "black",
+      "description": "I want to right blogs because it increase understanding about certain topics",
+      "url": "https://hashnode.com/@Akshat1302"
+    },
+    {
+      "isGoal": true,
+      "title": "Complete webdev with atleast one framework",
+      "date": "2023",
+      "icon": "SiCss3",
+      "color": "grey",
+      "description": "I want to built exciting websites and want to help learning others"
+    },
+    {
+      "isGoal": true,
+      "title": "Competetive programming till **DSA**",
+      "date": "2023",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "It will help me to get basic understanding and concept building"
+    },
+    {
+      "isGoal": true,
+      "title": "contribute at atleast 5 opensource projects",
+      "date": "2023",
+      "icon": "FaCodeBranch",
+      "color": "blue",
+      "description": "It will help me to get into the world of **Opensource**"
+    },
+    {
+      "isGoal": true,
+      "title": "Speak and attend international conferences",
+      "date": "2025",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak and attend international conferences to share my knowledge and learn from others"
+    }
+  ]
+}

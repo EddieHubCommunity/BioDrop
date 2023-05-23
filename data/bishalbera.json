@@ -1,0 +1,31 @@
+{
+  "name": "Biplab Bera",
+  "bio": "**Android Developer**. **Open source** enthusiast & **Technical writer**",
+  "links": [
+    {
+      "name": "Let's Connect on Twitter",
+      "url": "https://twitter.com/BiplabBera20814",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Collaborate on Open Source Project",
+      "url": "https://github.com/bishalbera",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": ["Open Source", "Java", "Kotlin", "Android Developement"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BiplabBera20814"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bishalbera"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@Biplab24"
+    }
+  ]
+}

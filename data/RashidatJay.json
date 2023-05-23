@@ -1,0 +1,22 @@
+{
+  "name": "Rashidat Jimoh",
+  "bio": "Student|| Technical Writer|| Developer",
+  "tags": ["JavaScript", "python", "open source"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rashidatjay",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rashidatjimoh/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RashidatJay",
+      "icon": "FaGithub"
+    }
+  ]
+}

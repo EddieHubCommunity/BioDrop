@@ -1,0 +1,16 @@
+{
+  "name": "Rohan Fulzele",
+  "bio": "Sr. Software Engineer | React | Node | 2x Azure Certified",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Rohanfulzele",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rohan_webdev",
+      "icon": "FaTwitter"
+    }
+  ]
+}

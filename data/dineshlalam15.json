@@ -1,0 +1,31 @@
+{
+  "name": "Dinesh Kumar Lalam",
+  "bio": "Hey! How are you doing? Let's Connect 🚀",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dineshlalam15",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dineshlalam15",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/dinesh-kumar-lalam-2584a8207/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my blogs here :)",
+      "url": "https://hashnode.com/@dineshlalam15",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/dinesh_lalam/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}

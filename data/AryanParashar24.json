@@ -1,0 +1,51 @@
+{
+  "name": "Aryan Parashar",
+  "bio": " 19 🧑‍💻 | DevOps 🥑 ,Open Source💜 & Web development enthusiast | Leaning  ML, Cloud native computing☁️ & MERN- Stack Development 🌐",
+  "tags": [
+    "Open Source",
+    "Cloud Computing",
+    "DevOps",
+    "Web Development",
+    "Machine Learning"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Aryan_2407"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AryanParashar24"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aryan-parashar-6089331a9/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@AryanParashar"
+    }
+  ],
+  "links": [
+    {
+      "name": "follow on Twitter",
+      "url": "https://twitter.com/Aryan_2407",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "follow on Git-hub",
+      "url": "https://github.com/AryanParashar24",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "follow on Hashnode",
+      "url": "https://codechill.hashnode.dev/",
+      "icon": "SiHasnode"
+    },
+    {
+      "name": "follow on Linkedin",
+      "url": "https://www.linkedin.com/in/aryan-parashar-6089331a9/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

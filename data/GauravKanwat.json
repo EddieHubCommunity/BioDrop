@@ -1,0 +1,51 @@
+{
+  "name": "Gaurav Kanwat",
+  "bio": "Learning development | Open Source | love travelling",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Java",
+    "Python",
+    "Typescript",
+    "React"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kanwat_gaurav1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gauravkanwat"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@gauravkanwat"
+    },
+    {
+      "icon": "SiStackoverflow",
+      "url": "https://stackoverflow.com/users/13469256/xshadox"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/kanwat_gaurav1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub",
+      "url": "https://github.com/gauravkanwat",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gaurav-kanwat/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

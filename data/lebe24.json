@@ -1,0 +1,38 @@
+{
+  "name": "Emmanuel Amadikwa",
+  "bio": "Software Developer | **Opensource Contributor** | Tech Lover",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Flutter",
+    "Nextjs",
+    "DevRel"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/emmanuellebe24"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/lebe24"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://lebe.pages.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/emmanuellebe24",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find Me ",
+      "url": "hhttps://lebe.pages.dev/",
+      "icon": "FaLink"
+    }
+  ]
+}

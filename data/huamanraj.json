@@ -1,0 +1,21 @@
+{
+  "name": "Aman Raj",
+  "bio": "I'm a first-year student learning full stack development. I'm passionate about building web applications and making the internet a better place.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/huamanraj",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/huamanraj",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/huamanraj",
+      "icon": "FaGithub"
+    }
+  ]
+}

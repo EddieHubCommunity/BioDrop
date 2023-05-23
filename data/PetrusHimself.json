@@ -1,0 +1,16 @@
+{
+  "name": "Petrus Tlhomedi",
+  "bio": "Software Engineering Student at ALX AFRICA",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Petrushimself",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/Petrushimself/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

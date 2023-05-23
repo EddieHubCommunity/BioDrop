@@ -1,0 +1,36 @@
+{
+  "name": "Ritesh Mishra",
+  "bio": "I am a Full Stack Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/iRiteshMishra",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@iriteshmishra",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/riteshmishra2",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/iriteshmishra",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/iriteshmishra",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Email-Id",
+      "url": "mailto:iriteshmishra@gmail.com",
+      "icon": "SiGmail"
+    }
+  ]
+}

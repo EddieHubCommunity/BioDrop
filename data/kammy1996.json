@@ -1,0 +1,21 @@
+{
+  "name": "Kamran Memon",
+  "bio": "I am a frontend Developer working with Vue.js",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kamranmemon25",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kamran-memon-1003a2111/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/kammy1996",
+      "icon": "FaGithub"
+    }
+  ]
+}

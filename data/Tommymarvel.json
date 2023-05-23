@@ -1,0 +1,21 @@
+{
+  "name": "Marvellous Ibironke",
+  "bio": "**Full Stack Developer**. Music and adventure enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tomiwa_ibironke",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/marvellous-ibironke/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Tommymarvel/",
+      "icon": "FaGithub"
+    }
+  ]
+}

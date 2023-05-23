@@ -1,0 +1,21 @@
+{
+  "name": "Hassan Tanveer",
+  "bio": "Tech-savvy software engineer with expertise in JS, React, Python, and Django.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HassanTanveer97",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/HassanTanveer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hassan-tanveer-se",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

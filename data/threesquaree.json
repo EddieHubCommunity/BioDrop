@@ -1,0 +1,16 @@
+{
+  "name": "Nayan M.K",
+  "bio": "trying to consume less and create more.",
+  "links": [
+    {
+      "name": "Here's my Instagram",
+      "url": "https://www.instagram.com/tf.nayan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Here's my GitHub",
+      "url": "https://github.com/threesquaree",
+      "icon": "FaGithub"
+    }
+  ]
+}

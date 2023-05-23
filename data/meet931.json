@@ -1,0 +1,77 @@
+{
+  "name": "Miteshkumar Chaudhari",
+  "bio": "Open Source Enthusiastic | Software Developer | YouTuber | Freelancer",
+  "tags": [
+    "Open Source",
+    "Software Developer",
+    "YouTuber",
+    "Java",
+    "Javascript"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/meet_931"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/meet931"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/miteshkumar-chaudhari/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@GrowWithMeet"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/meet931",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow Me",
+      "url": "https://twitter.com/meet_931",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/miteshkumar-chaudhari/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube: Grow Yourself in Programming",
+      "url": "https://youtube.com/@GrowWithMeet",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube Channel",
+      "date": "January 2023",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content regarding Programming, Tutorials and many more",
+      "url": "https://youtube.com/@GrowWithMeet"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "June 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "- Started helping customers to finish their assignments of Java, C/C++, Python",
+      "url": "https://www.fiverr.com/share/zPVaEv"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "June 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "- Started designing Professional and Unique Business logo",
+      "url": "https://www.fiverr.com/share/8eW7LE"
+    }
+  ]
+}

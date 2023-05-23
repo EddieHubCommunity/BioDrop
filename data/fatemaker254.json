@@ -1,0 +1,21 @@
+{
+  "name": "Soham Das",
+  "bio": "An open source enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sohamdas07",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/soham-das07",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/fatemaker254",
+      "icon": "FaGithub"
+    }
+  ]
+}

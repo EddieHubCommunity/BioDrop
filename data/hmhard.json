@@ -1,0 +1,81 @@
+{
+  "name": "Miniyahil Kebede",
+  "bio": "Open Source DevRel | Founder of **WorkEth** | **GitHub** Star",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MiniyahilK"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/hmhard"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCusEOZTekp3ODvaGJHKkXHg"
+    }
+  ],
+  "testimonials": ["vernu", "abubekerseifu"],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/MiniyahilK",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://www.youtube.com/@miniyahilkebede407",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/hmhard",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://et.linkedin.com/in/miniyahil-kebede-78382817a",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2019",
+      "icon": "",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.miniyahikkebede.io/"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "June 2021",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://www.youtube.com/@miniyahilkebede407"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Star for the first year of the program",
+      "url": "https://github.com/hmhard"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Vijay Sheru",
+  "bio": "Mechanical Enginner turned Software Developer-Arts,Design,Artificial Intelligence,Code,Cryto,Cloud",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VijaySherr",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vijay_sherr_arts/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vijaysheru",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

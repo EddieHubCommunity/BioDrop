@@ -1,0 +1,42 @@
+{
+  "name": "Benjamin Kramer",
+  "bio": "Full Stack Developer | Founder of **nerdchandise software factory**",
+  "tags": ["Javascript", "NextJS", "React", "PHP"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/benny21mm"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bennykay"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Website",
+      "url": "http://nerdchandise.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/benny21mm",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/bennykay",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/benjamin-kramer-41214371/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

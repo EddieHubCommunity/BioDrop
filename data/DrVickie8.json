@@ -1,0 +1,47 @@
+{
+  "name": "Victoria Johnson",
+  "bio": "Frontend developer | Technical writer",
+  "tags": ["Open Source", "Javascript"],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/victoriaedjohnson/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EdikanVickie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/DrVickie8",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit my blog - Hashnode",
+      "url": "https://vickiejohnson.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Visit my blog - Medium",
+      "url": "https://medium.com/@EdikanVickie",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Visit my blog - Dev.to",
+      "url": "https://dev.to/victoria_johnson",
+      "icon": "FaDev"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open source internship",
+      "date": "May 2023",
+      "icon": "FaOsi",
+      "color": "grey",
+      "description": "Contributor, GirlScript Summer of Code 2023",
+      "url": "https://twitter.com/girlscriptsoc"
+    }
+  ]
+}

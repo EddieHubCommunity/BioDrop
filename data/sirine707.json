@@ -1,0 +1,16 @@
+{
+  "name": "Sirine jnayeh",
+  "bio": "DevOps enthusiast and traveler",
+  "links": [
+    {
+      "name": "connect with me on linkedin",
+      "url": "https://www.linkedin.com/in/sirine-jnayeh/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blog and send me feedback",
+      "url": "https://sirinejnayeh.hashnode.dev/join-the-open-source-revolution-a-beginners-guide-to-open-source-contribution",
+      "icon": "FaBlogger"
+    }
+  ]
+}

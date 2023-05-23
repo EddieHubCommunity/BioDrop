@@ -1,0 +1,21 @@
+{
+  "name": "Panth1823",
+  "bio": "Web Designer ,Web Developer, AI/ML , Web3 Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Panth_1823",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/panth-shah-a3aa4a20a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Panth1823",
+      "icon": "FaGithub"
+    }
+  ]
+}

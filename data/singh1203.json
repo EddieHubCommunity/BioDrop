@@ -1,0 +1,21 @@
+{
+  "name": "Saurabh Kumar Singh",
+  "bio": "Full-stack developer || Opensource enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/singh1203",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads ",
+      "url": "https://twitter.com/Saurabh_1203",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/saurabh-singh-1203/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

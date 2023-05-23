@@ -1,0 +1,32 @@
+{
+  "name": "Mahfuz Ronnie",
+  "bio": "Software Engineer | Aspiring Data Scientist",
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Science"
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mahfuztbt",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mahfuztbt/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/mahfuztbt",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/mahfuztbt",
+      "icon": "FaTwitter"
+    }
+  ]
+}

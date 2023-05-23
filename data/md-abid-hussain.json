@@ -1,8 +1,6 @@
 {
   "name": "Md Abid Hussain",
-  "type": "personal",
   "bio": "Pursuing B. Tech in computer science and engineering.",
-
   "links": [
     {
       "name": "Connect with me on LinkedIn",
@@ -18,6 +16,16 @@
       "name": "Check out my Website",
       "url": "https://md-abid-hussain.github.io/CV/",
       "icon": "FaDollarSign"
+    },
+    {
+      "name": "CodePen",
+      "url": "https://codepen.io/md-abid-hussain",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Glitch",
+      "url": "https://glitch.com/@md-abid-hussain",
+      "icon": "SiGlitch"
     }
   ],
   "milestones": [

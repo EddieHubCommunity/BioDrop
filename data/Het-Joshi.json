@@ -1,0 +1,42 @@
+{
+  "name": "Het Joshi",
+  "bio": "**Student | FOSS Evangelist| Developer | Hacker**.",
+  "tags": ["Student", "Open Source", "GitHub", "Linux", "CyberSecurity"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JetJoshi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Blog",
+      "url": "https://het-joshi.github.io/",
+      "icon": "SiBloglovin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/het-joshi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/therealhetjoshi/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/hetjoshi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Like what I do?",
+      "url": "https://www.buymeacoffee.com/hetjoshi",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "name": "Write to me",
+      "url": "mailto:hetjoshi@mukt@pm.me",
+      "icon": "SiProtonmail"
+    }
+  ]
+}

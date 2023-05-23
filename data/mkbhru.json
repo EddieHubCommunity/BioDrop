@@ -1,0 +1,16 @@
+{
+  "name": "Manish Kumar",
+  "bio": "A fullstack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mkbhru",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mkbhru",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Shoumyadeep Narayan",
+  "bio": "Software Engineer and a self-proclaimed artist with a keen interest for **UI development**. Exploring and learning new tech everyday.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Shoumyadeep_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/shoumya_deep/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My resume",
+      "url": "https://drive.google.com/file/d/1-BGgtSVGjwJ_55ZlBJ0yAJhgcH5e5L_i/view",
+      "icon": "FaDochub"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/CoffeeGeek101",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shoumyadeep/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@shoumyadeep2068",
+      "icon": "FaYoutube"
+    }
+  ]
+}

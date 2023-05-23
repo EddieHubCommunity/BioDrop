@@ -1,0 +1,28 @@
+{
+  "name": "Otnansirk",
+  "bio": "Backend Engineer",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/otnansirk",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "December 2017",
+      "icon": "FaGithub",
+      "color": "grey",
+      "url": "https://github.com/otnansirk",
+      "description": "Contribute to OpenSource repos"
+    }
+  ],
+  "tags": ["Open Source", "Javascript", "PHP", "NextJS"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/otnansirk"
+    }
+  ]
+}

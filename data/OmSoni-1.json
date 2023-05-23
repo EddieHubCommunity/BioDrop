@@ -1,0 +1,21 @@
+{
+  "name": "Om Soni",
+  "bio": "Computer Science undergrad here to explore and contribute to awesome projects. A car, tech and travel enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/OmSoni_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Github",
+      "url": "https://github.com/OmSoni-1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/om-soni-/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,13 +1,20 @@
 {
   "name": "Agung Sundoro",
-  "type": "personal",
   "bio": "👋😁 Hi there, I'm Agung Sundoro aka agung2001, a passionate full stack web developer and software engineer from Indonesia 🇮🇩",
-
   "tags": ["WordPress", "PHP", "JavaScript", "TypeScript", "Svelte"],
   "socials": [
-    { "icon": "website", "url": "https://agung2001.github.io" },
-    { "icon": "FaGithub", "url": "https://github.com/agung2001" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/agung2001" }
+    {
+      "icon": "website",
+      "url": "https://agung2001.github.io"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/agung2001"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/agung2001"
+    }
   ],
   "links": [
     {

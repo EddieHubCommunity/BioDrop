@@ -1,0 +1,93 @@
+{
+  "name": "Patrick Loeber",
+  "bio": "Software Engineer • YouTuber • ML Developer Advocate • Helping you to learn Python and Machine Learning",
+  "tags": ["Python", "Machine Learning", "DevRel"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/patloeber"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@patloeber"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/patrickloeber"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/patloeber",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@patloeber",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "GitHub",
+      "icon": "FaGithub",
+      "url": "https://github.com/patrickloeber"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/patrick-l%C3%B6ber-403022137/"
+    },
+    {
+      "name": "Python Engineer website",
+      "url": "https://www.python-engineer.com/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://patloeber.com/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "100K on YouTube",
+      "date": "Feb 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Reached 100K subscribers on YouTube",
+      "url": "https://youtube.com/@patloeber"
+    },
+    {
+      "title": "Switched to DevRel",
+      "date": "Feb 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "I took a new role at AssemblyAI and switched from Software Engineer to Developer Advocate",
+      "url": "https://patloeber.com/new-job-as-developer-advocate/"
+    },
+    {
+      "title": "10K on YouTube",
+      "date": "Sep 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Reached 10K subscribers on YouTube",
+      "url": "https://youtube.com/@patloeber"
+    },
+    {
+      "title": "1K on YouTube",
+      "date": "Feb 2020",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Reached 1K subscribers on YouTube",
+      "url": "https://youtube.com/@patloeber"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "June 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/@patloeber"
+    }
+  ]
+}

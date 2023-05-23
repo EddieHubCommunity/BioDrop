@@ -1,0 +1,55 @@
+{
+  "name": "Wei-Lin Cheng",
+  "bio": "Father, husband, and software engineer. Let's connect and grow together!",
+  "tags": ["Open Source", "DevOps", "Go"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/weilincheng"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/weilincheng"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/weilincheng",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my GitHub profile to see what I'm working on",
+      "url": "https://github.com/weilincheng",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/weilincheng/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "To read my thoughts on backend development, visit my personal blog on Hashnode",
+      "url": "https://blog.weilincheng.com",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Crossing the Threshold: Contributing to Open Source for the First Time",
+      "date": "March 2023",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Even if it's just a small enhancement, being able to contribute to the vibrant and diverse EddieHub Community is an important milestone in my journey as a developer.",
+      "url": "https://github.com/EddieHubCommunity/LinkFree/pull/5396"
+    },
+    {
+      "title": "Become a Software Engineer",
+      "date": "Oct 2022",
+      "icon": "FaStar",
+      "color": "blue",
+      "description": "As a software engineer responsible for backend development, I joined a cybersecurity company.",
+      "url": "https://www.linkedin.com/in/weilincheng/"
+    }
+  ]
+}

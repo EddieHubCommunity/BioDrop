@@ -1,0 +1,31 @@
+{
+  "name": "Zaid Hassan",
+  "bio": "I am a **frontend developer**, a computer geek.",
+  "links": [
+    {
+      "name": "My Twitter",
+      "url": "https://twitter.com/zaid_hassan_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://www.github.com/zaid-hassan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Blog",
+      "url": "https://zaidhassan.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Instagram",
+      "url": "https://www.instagram.com/the_curiousfella/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My Linkedin",
+      "url": "https://www.linkedin.com/in/zaidhassan4",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

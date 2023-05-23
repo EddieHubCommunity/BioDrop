@@ -1,0 +1,16 @@
+{
+  "name": "Joe Boadi",
+  "bio": "Ex-allied health, Tech enthusiast, Software Engineer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/joeboadiDev_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/joeboadiDev",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

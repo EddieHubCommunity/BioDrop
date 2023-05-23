@@ -1,0 +1,17 @@
+{
+  "name": "Akhil Bisht",
+  "bio": "A computer science student with interest in open source and commitment to learn new technology",
+  "tags": ["Open Source", "Javascript", "ReactJS"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AkhilBisht798",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Akhilbisht798",
+      "icon": "FaGitHub"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Alam Zia",
+  "bio": "I am a FullStack WebDeveloper",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Alamzia7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/alamzia23",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/alam-zia-96435117a/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

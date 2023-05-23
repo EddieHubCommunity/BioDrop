@@ -1,0 +1,37 @@
+{
+  "name": "Keerthana Thangavelu",
+  "bio": "Secure Software Developer",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tkeerthu31"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/keerthu3196"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tkeerthu31",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/keerthana-thangavelu",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/keerthu3196",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Decentralized Social Media",
+      "name": "Mastodon",
+      "url": "https://techhub.social/@keerthana_thangavelu",
+      "icon": "SiMastodon"
+    }
+  ]
+}

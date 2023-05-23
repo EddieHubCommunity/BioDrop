@@ -1,0 +1,38 @@
+{
+  "name": "Kevin Patel",
+  "bio": "Open source enthusiast & Web Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "ReactJS",
+    "NodeJS",
+    "DevOps"
+  ],
+  "links": [
+    {
+      "name": "Lets connect on Twitter",
+      "url": "https://twitter.com/kevinpatelkp384",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lets connect on Linkedin",
+      "url": "https://www.linkedin.com/in/kevin-patel-6b96a5201/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Lets Colloborate on Github",
+      "url": "https://github.com/Kevinkp09",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Advanced to Azadi ka Amrut Mahotsav Hackathon's regional round.",
+      "date": "October 2022",
+      "icon": "FaLightbulb",
+      "color": "green",
+      "decription": "Succesfully advanced to Azadi ka Amrut Mahotsav Hackathon's regional round."
+    }
+  ]
+}

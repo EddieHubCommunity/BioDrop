@@ -1,0 +1,58 @@
+{
+  "name": "Ajay",
+  "tags": [
+    "HTML",
+    "CSS",
+    "javaScript",
+    "typescript",
+    "MongoDB",
+    "ExpressJS",
+    "ReactJS",
+    "NodeJS",
+    "React",
+    "Python",
+    "Open Source"
+  ],
+  "bio": "**Full-Stack Web Developer** | **MERN Stack Developer** | **Tech Enthusiast**",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ajay84sia"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ajay-84sia/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajay84sia"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ajay84sia",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ajay-84sia",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ajay84sia",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "3 - Star HackerRank Problem-Solving",
+      "date": "Dec 2021",
+      "icon": "SiHackerrank",
+      "color": "grey",
+      "description": "★★★ HackerRank Problem-Solving",
+      "url": "https://www.hackerrank.com/ajay84sia"
+    }
+  ]
+}

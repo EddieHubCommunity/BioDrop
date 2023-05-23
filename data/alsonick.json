@@ -1,0 +1,21 @@
+{
+  "name": "Nicholas Njoki",
+  "bio": "I'm a full-stack developer using tools like TypeScript & React.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/heynickn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/alsonick",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nicholas-n-5a9187195/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

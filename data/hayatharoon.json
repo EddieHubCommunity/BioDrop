@@ -1,0 +1,21 @@
+{
+  "name": "Haroon Hayat",
+  "bio": "Reactjs Developer | Software Engineer | Content Creator | Open Source",
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/haron_hayat",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github: Let's collaborate on open source",
+      "url": "https://github.com/hayatharoon",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Linkedin: Let's connect",
+      "url": "https://www.linkedin.com/in/hayatharoon/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

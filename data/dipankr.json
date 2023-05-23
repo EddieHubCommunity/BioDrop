@@ -1,0 +1,96 @@
+{
+  "name": "Dipanker Kumar",
+  "bio": "Full-Stack Engineer | Open Source Enthusiast",
+  "tags": [
+    "Java",
+    "SQL",
+    "TDD",
+    "JUnit",
+    "REST",
+    "SpringBoot",
+    "Javascript",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_dipankr"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/dipankr"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/_dipankr",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/dipankr",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/dipankr",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started working as a Associate Software Developer",
+      "date": "August 2016",
+      "icon": "FaCode",
+      "color": "red",
+      "description": "Started writing code",
+      "url": "https://www.cgi.com/us/en-us/cgi-advantage"
+    },
+    {
+      "title": "Promoted to Software Developer",
+      "date": "2017",
+      "icon": "FaCode",
+      "color": "red",
+      "description": "Improved my coding",
+      "url": "https://www.cgi.com/us/en-us/cgi-advantage"
+    },
+    {
+      "title": "Started working as a Full-Stack Developer",
+      "date": "2019",
+      "icon": "FaCode",
+      "color": "green",
+      "description": "Contributed in Backend, Unit tests, UI, API, Automation, DevOps",
+      "url": "https://www.medicalrecords.com/mrcbase/emr/healthfusion-inc-meditouch-ehr-electronic-health-record-software"
+    },
+    {
+      "title": "Joined SAP Labs",
+      "date": "2021",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Working with a great team, developing APIs, getting involved more with UI and design",
+      "url": "https://www.fieldglass.net"
+    },
+    {
+      "title": "Started with Open Source",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Felt like giving back to the open source community",
+      "url": "https://github.com/dipankr"
+    },
+    {
+      "isGoal": true,
+      "title": "Helping others get into open source",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Hoping to inspire someone to get into open source",
+      "url": "https://linkfree.eddiehub.io/dipankr"
+    }
+  ]
+}

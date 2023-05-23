@@ -1,0 +1,14 @@
+{
+  "name": "Sunil Athawale",
+  "bio": "Open Source Enthusiast, Front-End Developer",
+  "socials": [
+    {
+      "url": "https://twitter.com/sunilathawale10",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/Sunil8wale",
+      "icon": "FaGithub"
+    }
+  ]
+}

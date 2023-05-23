@@ -1,0 +1,16 @@
+{
+  "name": "Yam Duran",
+  "bio": "self-taught computer science student, minimalist, open source enthusiast and sometimes gamer",
+  "links": [
+    {
+      "name": "Let's connect on Twitter",
+      "url": "https://twitter.com/yamdevv",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's collaborate on Github",
+      "url": "https://github.com/yamdevv",
+      "icon": "FaGithub"
+    }
+  ]
+}

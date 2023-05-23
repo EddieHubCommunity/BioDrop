@@ -1,0 +1,123 @@
+{
+  "name": "Rakesh Shaw",
+  "bio": "👋**Upcoming Dev**👋 | Success requires persistent practice, guided by patience.",
+  "tags": ["Open Source", "Python", "Streamlit", "HTML", "CSS", "SQL", "NoSQL"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/dev_rakeshshaw"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/dev-rakeshshaw"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rakesh-shaw-937514263/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "View my Resume",
+      "url": "https://drive.google.com/file/d/1aBuysfNWHlq4BqacD-DVKsfDqglh6Drl/view",
+      "icon": "SiDocusign"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dev-rakeshshaw",
+      "icon": "SiGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dev_rakeshshaw",
+      "icon": "SiTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Connect with me on Telegram",
+      "url": "https://t.me/dev_rakeshshaw",
+      "icon": "SiTelegram"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rakesh-shaw-937514263/",
+      "icon": "SiLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Empowering Myself and Others: How Open Source Contribution and Linkfree Changed My Life",
+      "date": "6th Feb, 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "black",
+      "description": "In January 2023, I began learning about Open Source contribution. Firstly, I revised my Python concepts, and in addition, I learned Git and Github from YouTube. After that, I decided to learn the basics of Web Development, as it would help me understand open-source projects better. My first contribution was fixing a typo on a personal portfolio of a developer. Although my PR was rejected for some reasons, it was a great learning experience. Later on, I joined Twitter and learned about Eddie Jaoude's Linkfree project, which was open-source. It was a life-changing moment for me. Immediately, I started learning about it, and on February 14th, 2023, I made my second PR on the Linkfree repository. However, I closed the PR since I was not confident about my contributions. I took some time to learn more about Git, and on February 19th, 2023, I made a proper PR that was accepted. From that day onwards, I am actively contributing to two projects simultaneously.",
+      "url": "https://github.com/dev-rakeshshaw"
+    },
+    {
+      "title": "Successfully completed the MLDL program offered by Ineuron.ai.",
+      "date": "28th Aug, 2022",
+      "icon": "FaCertificate",
+      "color": "black",
+      "description": "I have had the opportunity to expand my knowledge by learning a multitude of topics, including Machine Learning Algorithms, Python, API using Flask, Model Deployment in Heroku, databases such as MySQL and MongoDB Atlas, various statistical modules, and more. Additionally, I have applied my learning by creating a few end-to-end projects.",
+      "url": "https://drive.google.com/file/d/13qvvZlT3rzeZSAqHxCHr0SNaqMe7VJqI/view?usp=share_link"
+    },
+    {
+      "title": "Turning the Tassel: Celebrating the Achievements of Post Graduation",
+      "date": "24th Jun, 2022",
+      "icon": "FaUserGraduate",
+      "color": "black",
+      "description": "Successfully completed the program requirements and was awarded a Master of Science degree in Data Analytics."
+    },
+    {
+      "title": "Participated in Google Cloud Community Days India, 2021",
+      "date": "22th Jan, 2021",
+      "icon": "SiGooglecloud",
+      "color": "black",
+      "description": "At Google Cloud Community Days India 2021, I had the valuable opportunity to gain knowledge on Cloud Technology and Google Cloud Certifications from esteemed industry professionals.",
+      "url": "https://drive.google.com/file/d/1ZNNHuvZ6sRHnPgcNI6U-8VK5qtyNzcPS/view?usp=share_link"
+    },
+    {
+      "title": "Participated in Codathon 2021 organised by NIT-Bhopal",
+      "date": "17th Jan, 2021",
+      "icon": "SiHackerearth",
+      "color": "black",
+      "description": "I had the privilege of participating in a hackathon for the first time, where I had the opportunity to interact with some of the brightest minds from NIT-Bhopal.",
+      "url": "https://drive.google.com/file/d/10r0TnSWMvNvhzlofWuDuiN1C_tCaHOP5/view?usp=share_link"
+    },
+    {
+      "title": "Cleared the assessment for Python (Basic) from HackerRank",
+      "date": "10th Sep, 2020",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "I cleared the assessment for Python (Basic) from HackerRank",
+      "url": "https://www.hackerrank.com/certificates/63b1317eed00"
+    },
+    {
+      "title": "Cleared the assessment for Python (Intermediate) from HackerRank",
+      "date": "11th Sep, 2020",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "I cleared the assessment for Python (Intermediate) from HackerRank",
+      "url": "https://www.hackerrank.com/certificates/1e49ebfd770f"
+    },
+    {
+      "title": "Cleared the assessment for Python(Advanced) from HackerRank",
+      "date": "12th Sep, 2020",
+      "icon": "FaCertificate",
+      "color": "green",
+      "description": "I cleared the assessment for Python (Basic) from HackerRank",
+      "url": "https://www.hackerrank.com/certificates/7189fad890e8"
+    },
+    {
+      "title": "Turning the Tassel: Celebrating the Achievements of Graduation",
+      "date": "10th Jun, 2019",
+      "icon": "FaUserGraduate",
+      "color": "black",
+      "description": "Successfully completed the program requirements and was awarded a Bachelor of Science degree with Honors in Computer Science."
+    }
+  ]
+}

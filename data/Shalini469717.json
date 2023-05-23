@@ -1,0 +1,49 @@
+{
+  "name": "Shalini Muskula",
+  "bio": "**Web Developer** | Open Source | Blogger",
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Sharing my learnings Daily",
+      "url": "https://twitter.com/noname469717",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
+      "url": "https://www.linkedin.com/in/shalini-muskula-52323922a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Github - Open for Collaboration",
+      "url": "https://github.com/Shalini469717",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Web Development",
+      "url": "https://hashnode.com/@Shalini469717",
+      "icon": "FaHashnode"
+    },
+    {
+      "group": "Support my Work",
+      "name": "Github Sponsors - Any help is appreciated"
+    }
+  ],
+  "tags": ["Open Source", "Blogger", "Web Developer"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/noname469717"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Shalini469717"
+    },
+    {
+      "icon": "FaDollrSign",
+      "url": "https://github.com/sponsors/Shalini469717"
+    }
+  ]
+}

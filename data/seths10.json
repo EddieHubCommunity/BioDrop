@@ -1,8 +1,6 @@
 {
   "name": "Seth Addo",
-  "type": "personal",
   "bio": "Software Developer | Student of University of Cape Coast",
-
   "links": [
     {
       "name": "My personal website",
@@ -36,7 +34,6 @@
     },
     {
       "title": "Started Blogging",
-
       "date": "2021",
       "icon": "FaDev",
       "color": "red",

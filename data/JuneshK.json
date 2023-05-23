@@ -1,0 +1,31 @@
+{
+  "name": "Junesh Kumar",
+  "bio": "Software Engineer . Currently in my Sophomore Year . Youtuber ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/JuneshK1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCburH8LA-mVat8dW9VVoUxw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/junesh-k-451a0b205",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/JuneshK",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://juneshk.hashnode.dev/",
+      "icon": "FaHashnode"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Karthik Nadar",
+  "bio": "I am a full stack developer ,I enjoy working and collabrating over projects.",
+  "links": [
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/karthiknadar1204",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

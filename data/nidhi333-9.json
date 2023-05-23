@@ -1,0 +1,21 @@
+{
+  "name": "Nidhi Kumari",
+  "bio": "Frontend Developer | Open Source Contributor",
+  "links": [
+    {
+      "name": "Tweets about learning and building stuff",
+      "url": "https://twitter.com/techy_nidhi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on GitHub",
+      "url": "https://github.com/nidhi333-9",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/techynidhi3/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

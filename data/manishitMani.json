@@ -1,0 +1,16 @@
+{
+  "name": "Manishit Mani",
+  "bio": "I am a devloper",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manishit080",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/manishitMani",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

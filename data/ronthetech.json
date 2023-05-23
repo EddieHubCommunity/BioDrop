@@ -1,0 +1,35 @@
+{
+  "name": "Ron Jean-Francois",
+  "bio": "Fullstack Developer | Writer | JavaScript,TypeScript | Python",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "Next.js",
+    "React.js",
+    "Python"
+  ],
+  "links": [
+    {
+      "name": "Check out my portfolio",
+      "url": "https://ronjeanfrancois.com/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Github - Open to collaborate",
+      "url": "https://github.com/ronthetech",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ronjtech",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ronjf/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

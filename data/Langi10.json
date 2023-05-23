@@ -1,0 +1,21 @@
+{
+  "name": "Abdulrahman Omboke a.k.a Langi",
+  "bio": "I am a fullstack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/langi_creative",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Langi10",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my Blog",
+      "url": "https://langi.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

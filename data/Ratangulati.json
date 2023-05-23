@@ -1,0 +1,41 @@
+{
+  "name": "Ratan Gulati",
+  "bio": "Open Source Enthusiast | Member of GrowInCommunity | Content Creator | DSA | Web Development | DevOps ",
+  "tags": ["Open Source", "Web Development", "DSA", "Java", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ratangulati?tab=overview&from=2023-02-01&to=2023-02-02"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ratangulati.dev/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/i_Ratangulati"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub - Follow me on GitHub",
+      "url": "https://github.com/Ratangulati?tab=overview&from=2023-02-01&to=2023-02-02",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter - Let's connect and grow together",
+      "url": "https://twitter.com/i_Ratangulati",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin - Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/ratangulati/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram - Follow me to be a part of my journey",
+      "url": "https://www.instagram.com/ratangulati.dev/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

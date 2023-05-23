@@ -1,4 +1,4 @@
-import UserTestimonials from "../../../components/user/UserTestimonials";
+import UserTestimonials from "@components/user/UserTestimonials";
 import testimonial from "../../../data/EddieHubCommunity/testimonials/eddiejaoude.json";
 
 export default {

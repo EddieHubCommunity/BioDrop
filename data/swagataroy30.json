@@ -1,12 +1,16 @@
 {
   "name": "Swagata Roy",
-  "type": "personal",
   "bio": "React Js | Open Source Enthusiast",
-
   "tags": ["React Js", "HTML", "CSS", "Java"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sTark10roy" },
-    { "icon": "FaGithub", "url": "https://github.com/swagataroy30" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sTark10roy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/swagataroy30"
+    }
   ],
   "links": [
     {

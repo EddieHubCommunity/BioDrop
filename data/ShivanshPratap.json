@@ -1,0 +1,41 @@
+{
+  "name": "Shivansh Pratap",
+  "bio": "Data Science, Data Engineer, Cloud(AWS, GCP, Azure), DevOps(AI-ML Ops)",
+  "tags": [
+    "Data Science",
+    "Data Engineer",
+    " Cloud(AWS, GCP, Azure)",
+    "DevOps(AI-ML Ops)"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShivanshPratap"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@shivanshpratap"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/ShivanshPratap",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://www.youtube.com/channel/UCqF2poYyV1q4BEg-ewbfDyQe",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/shivansh-pratap-a13188210/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

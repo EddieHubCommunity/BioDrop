@@ -1,0 +1,42 @@
+{
+  "name": "Anurag Sharma",
+  "bio": "I create and break thing on and for the Internet",
+  "tags": ["Open Source", "Typescript", "NextJS", "Modern Stack"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thanuragdev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anuragts"
+    }
+  ],
+  "links": [
+    {
+      "group": "Website",
+      "name": "my cool website",
+      "url": "http://anuragdev.me",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/thanuragdev",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/anuragts",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/thanuragdev",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

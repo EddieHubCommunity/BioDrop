@@ -1,0 +1,21 @@
+{
+  "name": "Gabriel Asiedu Ntim",
+  "bio": "Full Stack Developer | Open Source enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NtimGabriel",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gabriel-asiedu-ntim-b27b2b12b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Gab-Riel404/",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Julian Piasecki",
+  "type": "personal",
+  "bio": "Experienced Software Developer && Front-End Expert | Building amazing projects",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/piaseckijulian",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/piaseckijulian/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Reddit",
+      "url": "https://www.reddit.com/user/piaseckijulian/",
+      "icon": "FaReddit"
+    }
+  ]
+}

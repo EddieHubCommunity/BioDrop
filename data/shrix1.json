@@ -1,0 +1,16 @@
+{
+  "name": "Shriprasanna",
+  "bio": "Front-End developer based in India",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/shriprasanna007",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shrix1",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

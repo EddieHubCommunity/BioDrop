@@ -1,0 +1,87 @@
+{
+  "name": "Fahad Ali",
+  "bio": "**Open Source** Developer | **SDE** at Rupeek ",
+  "tags": [
+    "Open Source",
+    "Docker",
+    "AWS",
+    "MERN Developer",
+    "NextJS",
+    "Spring Boot"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/imf_ali"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/imf-ali"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/imf_ali"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://imf-ali.netlify.app/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imf_ali",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/imf-ali",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/imf-ali",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/imf_ali",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe for video content",
+      "url": "https://www.youtube.com/@unsifar5410",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started a You Tube channel",
+      "date": "2022",
+      "icon": "FaYoutube",
+      "color": "purple",
+      "description": "Creating content on YouTube related to tech and computer science",
+      "url": "https://www.youtube.com/@unsifar5410"
+    },
+    {
+      "title": "Crossed 1K followers on LinkedIn",
+      "date": "2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "url": "https://www.linkedin.com/in/imf-ali"
+    },
+    {
+      "title": "Top contributor for Rocket Chat for 2022-23",
+      "date": "2022",
+      "icon": "FaRocketchat",
+      "color": "black",
+      "description": "Contributed to the Rocket Chat repo using the stacks React.js, NextJS, and TypeScript",
+      "url": "https://gsoc.rocket.chat/"
+    }
+  ]
+}

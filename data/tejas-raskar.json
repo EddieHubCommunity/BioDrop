@@ -1,0 +1,63 @@
+{
+  "name": "Tejas Raskar",
+  "bio": "OpenSource Contributor | Blogger | Learner",
+  "tags": ["Open Source", "Content Writer", "Blogging"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tejasraskar_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tejas-raskar"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tejasraskar/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://tjsrskr.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/tejas-raskar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Tweets about tech, programming, and productivity.",
+      "url": "https://twitter.com/tejas-raskar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://tjsrskr.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tejasraskar/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blog",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://tjsrskr.hashnode.dev/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "November 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started my Opensource Journey",
+      "url": "https://github.com/tejas-raskar"
+    }
+  ]
+}

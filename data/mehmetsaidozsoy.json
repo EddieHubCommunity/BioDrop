@@ -1,0 +1,31 @@
+{
+  "name": "Mehmet Said ÖZSOY",
+  "bio": " Motorcycle lover",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/OzsoySaid",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/mehmetsaidozsoy_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mehmetsaidozsoy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LİnkedIn",
+      "url": "https://www.linkedin.com/in/mehmet-said-özsoy-7b844513/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://youtube.com/@MehmetSaidOZSOY",
+      "icon": "FaYoutube"
+    }
+  ]
+}

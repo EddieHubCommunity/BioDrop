@@ -1,0 +1,31 @@
+{
+  "name": "Akash Raj",
+  "bio": "Open-Source,Web-Dev,DSA",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akashrajakku263",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let,s connect",
+      "url": "https://www.linkedin.com/in/akashrajakku263/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/akashrajakku",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Leetcode Profile",
+      "url": "https://leetcode.com/akashrajakku/",
+      "icon": "FaLeetCode"
+    },
+    {
+      "name": "Read My Blogs",
+      "url": "https://hashnode.com/@akashrajakku",
+      "icon": "FaHashnode"
+    }
+  ]
+}
