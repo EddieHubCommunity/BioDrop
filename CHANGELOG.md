@@ -1,9 +1,9 @@
-## 1.130.18 (2023-05-23)
+## 1.130.19 (2023-05-23)
 
 
 ### Bug Fixes
 
-* change heading to paragraph for gh accelerator ([#7110](https://github.com/EddieHubCommunity/LinkFree/issues/7110)) ([efec2ed](https://github.com/EddieHubCommunity/LinkFree/commit/efec2edd16351fcc776d5942aefe6f6f480f6d2d))
+* change h1 to p in footer ([#7127](https://github.com/EddieHubCommunity/LinkFree/issues/7127)) ([91e59c2](https://github.com/EddieHubCommunity/LinkFree/commit/91e59c233565de04400a348f8e8ec1585b7cec99))
 
 
 
