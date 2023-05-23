@@ -75,7 +75,8 @@ export default function Playground() {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
-        delete actualJson.testimonials;
+        actualJson.testimonials = actualJson.testimonials || [];
+        actualJson.socials = actualJson.socials || [];
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
@@ -140,19 +141,7 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          {!formatComplete && (
-            <Button text="Format" onClick={handleFormatJson} primary={false} />
-          )}
-          {formatComplete && !validateComplete && (
-            <Button
-              text="Validate"
-              onClick={handleValidateJson}
-              primary={false}
-            />
-          )}
-          {formatComplete && validateComplete && (
-            <Button text="Preview" onClick={handlePreview} primary={true} />
-          )}
+          <Button {...(!formatComplete ? {text: "Format", onClick: handleFormatJson, primary: false} : formatComplete && !validateComplete ? {text: "Validate", onClick: handleValidateJson, primary: false} : formatComplete && validateComplete ? {text: "Preview", onClick: handlePreview, primary: true} : {text: "", disable: true})} />
         </div>
 
         <Modal
