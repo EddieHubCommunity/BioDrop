@@ -1,9 +1,9 @@
-## 1.131.3 (2023-05-24)
+# 1.132.0 (2023-05-24)
 
 
-### Bug Fixes
+### Features
 
-* update dependencies ([#7146](https://github.com/EddieHubCommunity/LinkFree/issues/7146)) ([18552ba](https://github.com/EddieHubCommunity/LinkFree/commit/18552ba54211af3abf3f6c95a882fddaedee555d))
+* order milestones descending (5945) ([#7076](https://github.com/EddieHubCommunity/LinkFree/issues/7076)) ([cbf719e](https://github.com/EddieHubCommunity/LinkFree/commit/cbf719e29e72dccaf421a59f18df875185442ff4))
 
 
 
