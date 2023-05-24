@@ -10,7 +10,7 @@ export default function UserMilestone({ milestone, isGoal }) {
     <li
       className={`py-4 ${isGoal ? "opacity-50" : ""}`}
       style={{
-        borderColor: milestone.color,
+        borderColor: "lightgrey",
       }}
     >
       <div className="flex space-x-3">
