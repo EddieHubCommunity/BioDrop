@@ -141,7 +141,19 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          <Button {...(!formatComplete ? {text: "Format", onClick: handleFormatJson, primary: false} : formatComplete && !validateComplete ? {text: "Validate", onClick: handleValidateJson, primary: false} : formatComplete && validateComplete ? {text: "Preview", onClick: handlePreview, primary: true} : {text: "", disable: true})} />
+          <Button
+            {...(!formatComplete
+              ? { text: "Format", onClick: handleFormatJson, primary: false }
+              : formatComplete && !validateComplete
+              ? {
+                  text: "Validate",
+                  onClick: handleValidateJson,
+                  primary: false,
+                }
+              : formatComplete && validateComplete
+              ? { text: "Preview", onClick: handlePreview, primary: true }
+              : { text: "", disable: true })}
+          />
         </div>
 
         <Modal
