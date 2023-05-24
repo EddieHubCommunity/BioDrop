@@ -41,17 +41,38 @@ export async function getServerSideProps(context) {
   };
 }
 
+const groupEvents = (events) => {
+  const groups = {}
+  events.forEach(event => {
+    if(groups.hasOwnProperty(event.url)){
+      groups[event.url].users.push(event.username); 
+    }else{
+      groups[event.url] = {
+        ...event,
+        users: [event.username]
+      }
+    }
+  });
+  return Object.values(groups);
+}
+
+
 export default function Events({ events }) {
+
+    const groupedEvents = groupEvents(events);
+
   let categorizedEvents = {
-    all: events,
-    virtual: events.filter((event) => event.isVirtual === true),
-    inPerson: events.filter((event) => event.isInPerson === true),
-    cfpOpen: events.filter((event) =>
-      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
+    all: groupedEvents,
+    virtual: groupedEvents.filter((event) => event.isVirtual === true),
+    inPerson: groupedEvents.filter((event) => event.isInPerson === true),
+    cfpOpen: groupedEvents.filter((event) =>
+    event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
-    free: events.filter((event) => event.price?.startingFrom === 0),
-    paid: events.filter((event) => event.price?.startingFrom > 0),
+    free: groupedEvents.filter((event) => event.price?.startingFrom === 0),
+    paid: groupedEvents.filter((event) => event.price?.startingFrom > 0),
   };
+
+
   const tabFilters = [
     {
       title: "Show all",
@@ -97,6 +118,7 @@ export default function Events({ events }) {
     },
   ];
 
+
   const [eventType, setEventType] = useState("all");
 
   return (
@@ -130,6 +152,7 @@ export default function Events({ events }) {
             <EventCard
               event={event}
               username={event.username}
+              users={event.users}
               key={`${event.name} ${event.username}`}
             />
           ))}
