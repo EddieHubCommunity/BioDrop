@@ -2,6 +2,10 @@ import UserMilestone from "./UserMilestone";
 import Alert from "@components/Alert";
 
 export default function UserMilestones({ data }) {
+  data.milestones.sort(function (a, b) {
+    return new Date(b.date) - new Date(a.date);
+  });
+
   const historicMilestones = data.milestones.filter(
     (milestone) => !milestone.isGoal
   );

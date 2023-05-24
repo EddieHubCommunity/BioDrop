@@ -1,9 +1,9 @@
-## 1.131.3 (2023-05-24)
+## 1.132.1 (2023-05-24)
 
 
 ### Bug Fixes
 
-* update dependencies ([#7146](https://github.com/EddieHubCommunity/LinkFree/issues/7146)) ([18552ba](https://github.com/EddieHubCommunity/LinkFree/commit/18552ba54211af3abf3f6c95a882fddaedee555d))
+* owner link clicks do not increment counter ([#7098](https://github.com/EddieHubCommunity/LinkFree/issues/7098)) ([e850ede](https://github.com/EddieHubCommunity/LinkFree/commit/e850edecd3b7713e38b0e68cccb759e0b5a8a6d8))
 
 
 
