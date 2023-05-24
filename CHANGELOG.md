@@ -1,9 +1,9 @@
-# 1.132.0 (2023-05-24)
+## 1.132.1 (2023-05-24)
 
 
-### Features
+### Bug Fixes
 
-* order milestones descending (5945) ([#7076](https://github.com/EddieHubCommunity/LinkFree/issues/7076)) ([cbf719e](https://github.com/EddieHubCommunity/LinkFree/commit/cbf719e29e72dccaf421a59f18df875185442ff4))
+* owner link clicks do not increment counter ([#7098](https://github.com/EddieHubCommunity/LinkFree/issues/7098)) ([e850ede](https://github.com/EddieHubCommunity/LinkFree/commit/e850edecd3b7713e38b0e68cccb759e0b5a8a6d8))
 
 
 
