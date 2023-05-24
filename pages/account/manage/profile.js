@@ -10,19 +10,13 @@
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { useState, Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { ChevronUpIcon } from "@heroicons/react/20/solid";
+import { useState } from "react";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Link from "@components/Link";
 import Alert from "@components/Alert";
-import FallbackImage from "@components/FallbackImage";
 import Navigation from "@components/account/manage/navigation";
-import Tag from "@components/Tag";
 import { getUserApi } from "pages/api/users/[username]";
 import UserProfile from "@components/user/UserProfile";
 import Input from "@components/form/Input";
@@ -132,6 +126,7 @@ export default function Profile({ BASE_URL, profile }) {
                       label="Username"
                       value={profile.username}
                       disabled={true}
+                      readOnly={true}
                     />
                   </div>
                 </section>
