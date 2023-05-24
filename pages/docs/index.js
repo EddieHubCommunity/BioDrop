@@ -374,7 +374,7 @@ export default function DocsIndex() {
           >
             <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
+                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl" id = {section.title}>
                   {section.title}
                 </h2>
                 <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-high sm:mt-4">
