@@ -11,7 +11,9 @@
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { useState } from "react";
+import { useState, Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { ChevronUpIcon } from "@heroicons/react/20/solid";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -22,6 +24,10 @@ import FallbackImage from "@components/FallbackImage";
 import Navigation from "@components/account/manage/navigation";
 import Tag from "@components/Tag";
 import { getUserApi } from "pages/api/users/[username]";
+import UserProfile from "@components/user/UserProfile";
+import Input from "@components/form/Input";
+import Button from "@components/Button";
+import Notification from "@components/Notification";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -55,6 +61,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Profile({ BASE_URL, profile }) {
+  const [showNotification, setShowNotification] = useState(false);
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
   const [tags, setTags] = useState(profile.tags || []);
@@ -68,7 +75,8 @@ export default function Profile({ BASE_URL, profile }) {
       },
       body: JSON.stringify({ name, bio, tags }),
     });
-    const data = await res.json();
+    await res.json();
+    setShowNotification(true);
   };
 
   return (
@@ -88,161 +96,89 @@ export default function Profile({ BASE_URL, profile }) {
 
         <Navigation />
 
-        <form
-          className="space-y-8 divide-y divide-gray-200"
-          onSubmit={handleSubmit}
-        >
-          <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
-            <div className="space-y-6 sm:space-y-5">
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  Your LinkFree Profile
-                </h3>
-                <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                  This information will be displayed publicly on{" "}
-                  <Link
-                    href={`${BASE_URL}/${profile.username}`}
-                  >{`${BASE_URL}/${profile.username}`}</Link>
-                </p>
-              </div>
+        <Notification
+          show={showNotification}
+          type="success"
+          onClose={() => setShowNotification(false)}
+          message="Profile saved"
+          additionalMessage="Your profile information has been saved successfully."
+        />
 
-              <div className="space-y-6 sm:space-y-5">
-                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:pt-5">
-                  <label
-                    htmlFor="username"
-                    className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                  >
-                    Username
-                  </label>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <div className="flex max-w-lg rounded-md shadow-sm">
-                      <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-100 px-3 text-gray-500 sm:text-sm">
-                        {BASE_URL}
-                      </span>
-                      <input
-                        type="text"
-                        name="username"
-                        id="username"
-                        autoComplete="username"
-                        disabled={true}
-                        value={profile.username}
-                        className="block w-full min-w-0 flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-100 px-3 text-gray-500"
+        <div>
+          <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
+            <h1 className="sr-only">Profile information</h1>
+
+            <section
+              aria-labelledby="preview-data-heading"
+              className="bg-gray-50 px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
+            >
+              <div className="mx-auto max-w-lg lg:max-w-none">
+                <UserProfile
+                  BASE_URL={BASE_URL}
+                  data={{ ...profile, name, bio, tags }}
+                />
+              </div>
+            </section>
+
+            <form
+              className="px-4 pb-36 pt-16 sm:px-6 lg:col-start-1 lg:row-start-1 lg:px-0 lg:pb-16"
+              onSubmit={handleSubmit}
+            >
+              <div className="mx-auto max-w-lg lg:max-w-none">
+                <section aria-labelledby="uneditable-data-heading">
+                  <div className="mt-1">
+                    <Input
+                      name="username"
+                      label="Username"
+                      value={profile.username}
+                      disabled={true}
+                    />
+                  </div>
+                </section>
+
+                <section
+                  aria-labelledby="editable-data-heading"
+                  className="mt-10"
+                >
+                  <div className="mt-6 grid grid-cols-3 gap-x-4 gap-y-6 sm:grid-cols-4">
+                    <div className="col-span-3 sm:col-span-4">
+                      <div className="mt-1">
+                        <Input
+                          name="name"
+                          label="Name"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-span-3 sm:col-span-4">
+                      <Input
+                        name="bio"
+                        label="Bio"
+                        value={bio}
+                        onChange={(e) => setBio(e.target.value)}
+                      />
+                    </div>
+
+                    <div className="col-span-3 sm:col-span-4">
+                      <Input
+                        name="tags"
+                        label="Tags"
+                        value={tags}
+                        onChange={(e) => setTags(e.target.value)}
                       />
                     </div>
                   </div>
+                </section>
+
+                <div className="mt-10 border-t border-gray-200 pt-6 sm:flex sm:items-center sm:justify-between">
+                  <Button text="SAVE" primary={true} />
                 </div>
               </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Name
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="first-name"
-                    id="first-name"
-                    autoComplete="given-name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-              </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:items-center sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="photo"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Photo
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <div className="flex items-center">
-                    <span className="h-12 w-12 overflow-hidden rounded-full bg-gray-100">
-                      <FallbackImage
-                        src={`https://github.com/${profile.username}.png`}
-                        width="100"
-                        height="100"
-                        alt={`Profile picture for GitHub user "${profile.username}"`}
-                      />
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="about"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  About
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <textarea
-                    id="about"
-                    name="about"
-                    rows={3}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    defaultValue={profile.bio}
-                    onChange={(e) => setBio(e.target.value)}
-                  />
-                  <p className="mt-2 text-sm text-gray-500">
-                    Write a few sentences about yourself. You can use markdown.
-                  </p>
-
-                  <div className="border border-gray-300 p-4 mt-4 rounded-md">
-                    <ReactMarkdown>{bio}</ReactMarkdown>
-                  </div>
-                  <p className="mt-2 text-sm text-gray-500">
-                    Preview of your bio with rendered markdown.
-                  </p>
-                </div>
-              </div>
-
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="about"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Tags
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <textarea
-                    id="about"
-                    name="about"
-                    rows={3}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                    defaultValue={profile.tags}
-                    onChange={(e) => setTags(e.target.value.split(","))}
-                  />
-                  <p className="mt-2 text-sm text-gray-500">
-                    Tags to help you be more discoverable in search and the map.
-                    Separate with commas.
-                  </p>
-
-                  <div className="mt-4">
-                    {tags.map((tag) => (
-                      <Tag key={tag} name={tag} />
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
+            </form>
           </div>
-
-          <div className="mt-6 flex items-center justify-end gap-x-6">
-            <button
-              type="submit"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              Save
-            </button>
-          </div>
-        </form>
+        </div>
       </Page>
     </>
   );
