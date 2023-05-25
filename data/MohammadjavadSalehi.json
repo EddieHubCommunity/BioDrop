@@ -14,11 +14,6 @@
   ],
   "links": [
     {
-      "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/_mohammadjavadsalehi",
-      "icon": "FaInstagram"
-    },
-    {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/mohammadjavad-salehi",
       "icon": "FaLinkedin"
@@ -28,5 +23,9 @@
       "url": "https://github.com/MohammadjavadSalehi",
       "icon": "FaGithub"
     }
-  ]
+  ],
+  "socials": [
+      { "icon": "FaTelegram", "url": "https://t.me/MohammadjavadSalehi" },
+      { "icon": "FaInstagram", "url": "https://www.instagram.com/_mohammadjavadsalehi" }
+    ]
 }
