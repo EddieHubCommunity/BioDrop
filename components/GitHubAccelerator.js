@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { FaGithub, FaMoneyBillAlt } from "react-icons/fa";
 
+import Link from "./Link";
+
 export default function GitHubAccelerator() {
   return (
-    <div>
+    <div className="mb-12">
       <div>
         <Image
           className="h-32 w-full object-cover lg:h-48"
@@ -26,12 +28,12 @@ export default function GitHubAccelerator() {
           </div>
           <div className="mt-6 sm:flex sm:min-w-0 sm:flex-1 sm:items-center sm:justify-end sm:space-x-6 sm:pb-1">
             <div className="mt-6 min-w-0 flex-1 sm:hidden md:block">
-              <h6 className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
+              <p className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
                 GitHub Accelerator Program
-              </h6>
+              </p>
             </div>
             <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
-              <a
+              <Link
                 href="http://accelerator.github.com"
                 className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
@@ -41,8 +43,8 @@ export default function GitHubAccelerator() {
                   aria-hidden="true"
                 />
                 <span>GitHub Accelerator</span>
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/sponsors/eddiejaoude"
                 className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
@@ -52,14 +54,14 @@ export default function GitHubAccelerator() {
                   aria-hidden="true"
                 />
                 <span>GitHub Sponsors</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="mt-6 hidden min-w-0 flex-1 sm:block md:hidden">
-          <h1 className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
+          <p className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
             GitHub Accelerator Program
-          </h1>
+          </p>
         </div>
       </div>
     </div>

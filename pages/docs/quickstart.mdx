@@ -37,7 +37,12 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 ![Create new file](https://user-images.githubusercontent.com/51131670/210201815-9c56ca28-19e8-4ef9-9934-6014d5262624.png)
 
-7. In the file path at the top, add `data/` then with your GitHub username exactly as it appears, and append `.json` (for example `data/SaraJaoude.json`)
+7. In the file path at the top, add `data/` followed by your GitHub username, exactly as it appears including capitalisation, and then append `.json` to it.
+
+For example for username **"SaraJaoude"**:
+
+> - _**Correct**_: `LinkFree/data/SaraJaoude.json` (including capitalisation in filename)
+> - _**Incorrect**_: `LinkFree/data/sarajaoude.json` (filename capitalisation does not match username capitalisation)
 
 ![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
 
@@ -47,17 +52,15 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
 }
 ```
 </ClipboardCopy>
 
-| field | type                 | description                                                 |
-| :---- | :------------------- | :---------------------------------------------------------- |
-| name  | string               | Your display name on your Profile                           |
-| type  | personal / community | The type of account, is it a single person or a community   |
-| bio   | string               | Your description about yourself (you can use markdown here) |
+| field | type   | description                                                 |
+| :---- | :----- | :---------------------------------------------------------- |
+| name  | string | Your display name on your Profile                           |
+| bio   | string | Your description about yourself (you can use markdown here) |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
@@ -65,7 +68,6 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
   "links": [
     {
@@ -76,6 +78,9 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   ]
 }
 ```
+
+_note: do not have duplicate links (url)_
+
 </ClipboardCopy>
 
 | field | type   | description                                                                                                                                                                     |
@@ -149,21 +154,21 @@ An approving review from one of LinkFree's maintainers will show a green check m
 
 ![merged pull request](https://user-images.githubusercontent.com/82668196/208292199-e7a01541-5356-4b2f-8b3e-94be121c661f.png)
 
-### Example Profiles
+## Example Profiles
 
 Looking for inspiration? You can view the following profiles for an example:
 
 - <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json">
     Eddie Jaoude
   </Link>
-- <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json">
-    Krupali Trivedi || Chai
+- <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/amandamartin-dev.json">
+    Amanda Martin
   </Link>
 - <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json">
     Pradumna Saraf
   </Link>
 
-### Next steps
+## Next steps
 
 - How to <Link href="/docs/how-to-guides/editing">edit and add more</Link> to your profile
 - Add <Link href="/docs/how-to-guides/socials-shortcuts">social shortcuts</Link> to your profile

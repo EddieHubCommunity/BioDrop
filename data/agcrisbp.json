@@ -1,6 +1,5 @@
 {
   "name": "Agcrismanto Budhi Praswastyka",
-  "type": "personal",
   "bio": "Politics enthusiast turned **Cyber Security** | [**Aghea**](https://aghea.site/) Owner",
   "tags": [
     "Personal",
@@ -11,13 +10,22 @@
     "Father"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/agcrisbp" },
-    { "icon": "FaGithub", "url": "https://github.com/agcrisbp" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/agcrisbp"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/agcrisbp"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/adarkerkindofday"
     },
-    { "icon": "FaLink", "url": "https://agcrisbp.my.id/" },
+    {
+      "icon": "FaLink",
+      "url": "https://agcrisbp.my.id/"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://paypal.me/agcrisbp"

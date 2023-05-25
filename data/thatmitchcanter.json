@@ -1,10 +1,7 @@
 {
   "name": "Mitch Canter",
-  "type": "personal",
   "bio": "&quot;CMDR Mitchcraft&quot; • Engineering Manager @WebDevStudios • Speaker • Content Creator • Digital Strategist • Space Dwarf • Spoony Bard",
-
   "tags": ["Open Source", "WordPress", "React", "PHP", "Management"],
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -19,7 +16,6 @@
       "url": "https://youtube.com/@thatmitchcanter"
     }
   ],
-
   "links": [
     {
       "name": "Twitter",

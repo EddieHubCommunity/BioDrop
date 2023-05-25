@@ -1,6 +1,5 @@
 {
   "name": "Jaideep Singh",
-  "type": "personal",
   "bio": "Full Stack **Flutter** developer | Open Source Advocate | Freelancer | Mentor",
   "tags": [
     "Flutter",
@@ -12,7 +11,10 @@
     "Github"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Jaideep25-tech/" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jaideep25-tech/"
+    },
     {
       "icon": "FaGlobe",
       "url": "http://www.jaideepsingh.in/"
@@ -22,7 +24,6 @@
       "url": "https://www.instagram.com/beta_aesthetic_jaideep/"
     }
   ],
-
   "links": [
     {
       "name": "Wanna explore me in detail?",

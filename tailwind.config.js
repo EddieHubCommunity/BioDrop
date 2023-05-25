@@ -20,6 +20,7 @@ module.exports = {
         secondary: {
           // purple
           "low": "rgb(165 180 252)",
+          "medium-low": "rgb(99 102 241)",
           "medium": "rgb(79 70 229)",
           "high": "rgb(67 56 202)",
           "high-high": "rgb(61 50 179)",

@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -9,30 +9,29 @@ import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/users";
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    data.tags = await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
 
   return {
     props: { data },
+    revalidate: 60 * 60 * 2, //2 hours
   };
 }
 
@@ -41,10 +40,14 @@ export default function Search({ data }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
+
   const [filteredUsers, setFilteredUsers] = useState([]);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-
   let results = [];
+
+  const getRandomUsers = () => {
+    return users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  };
 
   useEffect(() => {
     if (username) {
@@ -106,9 +109,13 @@ export default function Search({ data }) {
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers([]);
+      setFilteredUsers(getRandomUsers());
       //Removing the not found field when the input field is empty
       setNotFound();
+      return;
+    }
+
+    if (inputValue.length < 2) {
       return;
     }
 

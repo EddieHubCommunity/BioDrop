@@ -1,12 +1,20 @@
 {
   "name": "Patrick Loeber",
-  "type": "personal",
   "bio": "Software Engineer • YouTuber • ML Developer Advocate • Helping you to learn Python and Machine Learning",
   "tags": ["Python", "Machine Learning", "DevRel"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/patloeber" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@patloeber" },
-    { "icon": "FaGithub", "url": "https://github.com/patrickloeber" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/patloeber"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@patloeber"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/patrickloeber"
+    }
   ],
   "links": [
     {
@@ -75,7 +83,6 @@
     },
     {
       "title": "Started YouTube",
-
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",

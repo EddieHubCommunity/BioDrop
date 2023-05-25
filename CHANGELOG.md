@@ -1,9 +1,9 @@
-## 1.117.11 (2023-05-07)
+## 1.132.1 (2023-05-24)
 
 
 ### Bug Fixes
 
-* highlight nav page in lightmode ([#6676](https://github.com/EddieHubCommunity/LinkFree/issues/6676)) ([9bc32c6](https://github.com/EddieHubCommunity/LinkFree/commit/9bc32c69c72956b6dceae42d85468c35468c6ad8))
+* owner link clicks do not increment counter ([#7098](https://github.com/EddieHubCommunity/LinkFree/issues/7098)) ([e850ede](https://github.com/EddieHubCommunity/LinkFree/commit/e850edecd3b7713e38b0e68cccb759e0b5a8a6d8))
 
 
 

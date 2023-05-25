@@ -9,6 +9,11 @@ jobs:
   build:
     if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -19,10 +24,6 @@ jobs:
         run: npm ci
       - name: run build
         run: npm run build
-      - uses: actions/upload-artifact@main
-        with:
-          name: artifacts
-          path: build/
 
   push_to_registry:
     if: github.repository == 'EddieHubCommunity/LinkFree'
@@ -37,7 +38,7 @@ jobs:
         uses: actions/checkout@v3
       - name: get-npm-version
         id: package-version
-        uses: martinbeentjes/npm-get-version-action@master
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
       - name: set up Docker builder
         uses: docker/setup-buildx-action@v2
       - name: log into GitHub Container Registry
@@ -46,35 +47,18 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
+      - name: Setup Env
+        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" > /tmp/.env
       - name: push to Github Container Registry
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: Dockerfile
           push: true
           secrets: |
             'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'
+          secret-files: "MONGO=/tmp/.env"
           build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
           tags: |
             ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
-
-#   deploy:
-#     if: github.repository == 'EddieHubCommunity/LinkFree'
-#     name: deploy to kube cluster
-#     needs: push_to_registry
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: check out the repo
-#         uses: actions/checkout@v2
-#       - name: get-npm-version
-#         id: package-version
-#         uses: martinbeentjes/npm-get-version-action@master
-#       - uses: Azure/k8s-set-context@v1
-#         with:
-#           kubeconfig: ${{ secrets.KUBE_CONFIG }}
-#       - uses: Azure/k8s-deploy@v1.4
-#         with:
-#           namespace: 'default'
-#           manifests: kubernetes/deployment.yaml
-#           images: 'ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}'
-#           kubectl-version: 'latest'

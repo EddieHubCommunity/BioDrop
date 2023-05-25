@@ -1,12 +1,19 @@
 {
   "name": "Andrew Irorere",
-
-  "type": "personal",
   "bio": "FullStack dev **Toad Sage🐱‍👤**. | Open-Source Contributor &  | Mobile Dev",
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Andreyscott247" },
-    { "icon": "FaGithub", "url": "https://github.com/Andreyscott" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/itsandreydev" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Andreyscott247"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Andreyscott"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/itsandreydev"
+    }
   ],
   "links": [
     {

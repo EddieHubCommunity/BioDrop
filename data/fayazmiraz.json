@@ -1,8 +1,6 @@
 {
   "name": "Fayaz Ahmed",
-  "type": "personal",
   "bio": "Software Engineer » Web Developer since 2006 ✨",
-
   "links": [
     {
       "name": "Follow me on Twitter ⚡️",
@@ -33,7 +31,6 @@
   "milestones": [
     {
       "title": "Started » Undergrad in CSE » NSU",
-
       "date": "2002",
       "icon": "home",
       "color": "green",
@@ -42,7 +39,6 @@
     },
     {
       "title": "Started my first job » NSU Library",
-
       "date": "2006",
       "icon": "FaBook",
       "color": "gray",
@@ -51,7 +47,6 @@
     },
     {
       "title": "My second job » Blueliner",
-
       "date": "2007",
       "icon": "FaLink",
       "color": "blue",
@@ -60,7 +55,6 @@
     },
     {
       "title": "Freelancer » Elance » Upwork",
-
       "date": "2009",
       "icon": "FaDollarSign",
       "color": "purple",
@@ -69,7 +63,6 @@
     },
     {
       "title": "Freedom",
-
       "date": "2016",
       "icon": "FaSun",
       "color": "gold",

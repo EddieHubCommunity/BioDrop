@@ -1,6 +1,5 @@
 {
   "name": "Sudhi Krishna N A",
-  "type": "personal",
   "bio": "CSE 24' | Open Source | Learning Full Stack Development",
   "tags": [
     "Open Source",
@@ -12,8 +11,14 @@
     "DSA"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/SudhiKrishnaNA1" },
-    { "icon": "FaGithub", "url": "https://github.com/Sudhi27Krishna" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SudhiKrishnaNA1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sudhi27Krishna"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sudhi-krishna-n-a-b1571b211/"

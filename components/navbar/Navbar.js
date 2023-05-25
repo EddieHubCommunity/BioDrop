@@ -146,27 +146,28 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <ul className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink
-                      key={item.name}
-                      path={router.pathname}
-                      item={item}
-                      setIsOpen={setIsOpen}
-                    />
+                    <li key={item.name}>
+                      <NavLink
+                        path={router.pathname}
+                        item={item}
+                        setIsOpen={setIsOpen}
+                      />
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <NavLink
-                  item={{ name: `v${app.version}`, url: "/changelog" }}
+                  item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
                 <div className="relative">
-                  <a
+                  <Link
                     href="https://github.com/EddieHubCommunity/LinkFree"
                     aria-current="page"
                     target="_blank"
@@ -176,7 +177,7 @@ export default function Navbar() {
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </a>
+                  </Link>
                 </div>
                 {authControls()}
               </div>
