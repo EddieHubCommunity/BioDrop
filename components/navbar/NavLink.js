@@ -23,6 +23,7 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
     <Link
       href={item.url}
       className={className}
+      prefetch={mode !== "mobile"}
       aria-current="page"
       onClick={(e) => {
         setIsOpen && setIsOpen(false);
