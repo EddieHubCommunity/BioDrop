@@ -1,0 +1,55 @@
+{
+	"name": "Jaskaran",
+	"bio": " Tech enthusiast😐",
+	"tags": [
+		"Open Source",
+		"Javascript",
+		"HTML",
+		"CSS"
+	],
+
+	"Socials": [
+
+		{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/Jaskarandji",
+			"icon": "FaTwitter"
+		},
+		{
+			"icon": "FaGithub",
+			"url": "https://github.com/jaskarandji"
+		}
+	],
+
+	"Links": [{
+			"group": "Primary Socials",
+			"name": "Twitter: Follow me",
+			"url": "https://twitter.com/jaskarandji",
+			"icon": "FaTwitter",
+			"color": "#00ACEE"
+		},
+
+		{
+			"group": "Primary Socials",
+			"name": "Linkedin: Connect with me",
+			"url": "https://www.linkedin.com/in/jaskaransingh7/",
+			"icon": "FaLinkedin",
+			"color": "#00ACEE"
+		},
+
+		{
+			"group": "Primary Socials",
+			"name": "YouTube: Learn more about Open Source",
+			"url": "https://www.youtube.com/@JaskaranSinghRathore/",
+			"icon": "FaYoutube",
+			"color": "#FF0000"
+		},
+		{
+			"group": "Primary Socials",
+			"name": "GitHub: Collaborate on Open Source",
+			"url": "https://github.com/jaskarandji",
+			"icon": "FaGithub"
+		}
+	]
+}
+  
