@@ -28,7 +28,7 @@ export async function getLinksApi(username) {
 
   let getLinks = [];
   try {
-    getLinks = await Link.find({ username });
+    getLinks = await Link.find({ username }).sort({ isEnabled: -1, order: 1 });
   } catch (e) {
     log.error(
       e,

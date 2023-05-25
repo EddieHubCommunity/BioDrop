@@ -1,16 +1,12 @@
-// add manage link to navbar
-// form add link
-// form edit link
-// delete existing link
-
+import { Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { MdRadioButtonChecked, MdRadioButtonUnchecked } from "react-icons/md";
+import { HiEllipsisVertical } from "react-icons/hi2";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 
@@ -36,23 +32,14 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { links, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { links },
   };
 }
 
-export default function Links({ BASE_URL, links }) {
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const res = await fetch(`${BASE_URL}/api/account/manage/link`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(links),
-    });
-    const data = await res.json();
-  };
-
+export default function Links({ links }) {
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(" ");
+  }
   return (
     <>
       <PageHead
@@ -62,176 +49,106 @@ export default function Links({ BASE_URL, links }) {
 
       <Page>
         <Navigation />
-        <form
-          className="space-y-8 divide-y divide-gray-200"
-          onSubmit={handleSubmit}
-        >
-          <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
-            <div className="space-y-6 sm:space-y-5">
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  What links would you like to appear on your profile?
-                </h3>
-                <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                  Some can be promoted to under your name
-                </p>
-              </div>
 
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Group
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
+        <ul role="list" className="divide-y divide-gray-100">
+          {links.map((link) => (
+            <li
+              key={link.id}
+              className="flex items-center justify-between gap-x-6 py-5"
+            >
+              <div className="min-w-0">
+                <div className="flex items-start gap-x-3">
+                  <p className="text-sm font-semibold leading-6 text-gray-900">
+                    {link.name}
+                  </p>
+                  <p
+                    className={`rounded-md whitespace-nowrap mt-0.5 px-1.5 py-0.5 text-xs font-medium ring-1 ring-inset ${
+                      link.isEnabled
+                        ? "text-green-700 bg-green-50 ring-green-600/20"
+                        : "text-yellow-800 bg-yellow-50 ring-yellow-600/20"
+                    }`}
+                  >
+                    {link.isEnabled ? "Enabled" : "Disabled"}
+                  </p>
                 </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Name
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Url
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Icon
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
+                <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-gray-500">
+                  <p className="whitespace-nowrap">{link.url}</p>
                 </div>
               </div>
-
-              <div className="mt-6 flex items-center justify-end gap-x-6">
-                <button
-                  type="submit"
-                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              <div className="flex flex-none items-center gap-x-4">
+                <a
+                  href={link.url}
+                  className="hidden rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:block"
                 >
-                  Save
-                </button>
+                  View link<span className="sr-only">, {link.name}</span>
+                </a>
+                <Menu as="div" className="relative flex-none">
+                  <Menu.Button className="-m-2.5 block p-2.5 text-gray-500 hover:text-gray-900">
+                    <span className="sr-only">Open options</span>
+                    <HiEllipsisVertical
+                      className="h-5 w-5"
+                      aria-hidden="true"
+                    />
+                  </Menu.Button>
+                  <Transition
+                    as={Fragment}
+                    enter="transition ease-out duration-100"
+                    enterFrom="transform opacity-0 scale-95"
+                    enterTo="transform opacity-100 scale-100"
+                    leave="transition ease-in duration-75"
+                    leaveFrom="transform opacity-100 scale-100"
+                    leaveTo="transform opacity-0 scale-95"
+                  >
+                    <Menu.Items className="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white py-2 shadow-lg ring-1 ring-gray-900/5 focus:outline-none">
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="#"
+                            className={classNames(
+                              active ? "bg-gray-50" : "",
+                              "block px-3 py-1 text-sm leading-6 text-gray-900"
+                            )}
+                          >
+                            Edit
+                            <span className="sr-only">, {link.name}</span>
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="#"
+                            className={classNames(
+                              active ? "bg-gray-50" : "",
+                              "block px-3 py-1 text-sm leading-6 text-gray-900"
+                            )}
+                          >
+                            Move
+                            <span className="sr-only">, {link.name}</span>
+                          </a>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <a
+                            href="#"
+                            className={classNames(
+                              active ? "bg-gray-50" : "",
+                              "block px-3 py-1 text-sm leading-6 text-gray-900"
+                            )}
+                          >
+                            Delete
+                            <span className="sr-only">, {link.name}</span>
+                          </a>
+                        )}
+                      </Menu.Item>
+                    </Menu.Items>
+                  </Transition>
+                </Menu>
               </div>
-            </div>
-          </div>
-        </form>
-
-        <table className="min-w-full divide-y divide-gray-300">
-          <thead>
-            <tr>
-              <th
-                scope="col"
-                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0"
-              >
-                Name
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
-              >
-                Url
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
-              >
-                Group
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
-              >
-                Icon
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
-              >
-                Enabled
-              </th>
-              <th
-                scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
-              >
-                Pinned
-              </th>
-              <th scope="col" className="relative py-3.5 pl-3 pr-4 sm:pr-0">
-                <span className="sr-only">Edit</span>
-              </th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-gray-200">
-            {links.map((link) => (
-              <tr key={link.url}>
-                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-                  {link.name}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.url}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.group}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.icon}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.isEnabled ? (
-                    <MdRadioButtonChecked />
-                  ) : (
-                    <MdRadioButtonUnchecked />
-                  )}
-                </td>
-                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                  {link.isPinned ? (
-                    <MdRadioButtonChecked />
-                  ) : (
-                    <MdRadioButtonUnchecked />
-                  )}
-                </td>
-                <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-0">
-                  <Button text="Edit" primary={true} />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+            </li>
+          ))}
+        </ul>
       </Page>
     </>
   );
