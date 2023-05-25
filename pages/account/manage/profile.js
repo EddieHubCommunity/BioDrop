@@ -161,7 +161,7 @@ export default function Profile({ BASE_URL, profile }) {
                         name="tags"
                         label="Tags"
                         value={tags}
-                        onChange={(e) => setTags(e.target.value)}
+                        onChange={(e) => setTags(e.target.value.split(","))}
                       />
                     </div>
                   </div>
