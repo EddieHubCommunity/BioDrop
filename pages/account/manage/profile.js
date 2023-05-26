@@ -1,12 +1,5 @@
-// 1. profile
-// add manage link to navbar
-
-// 2. extras
-// form links + socials
-// form tags
-// form milestones
-// form testimonials
-// form events
+// no db profile
+// also file exists show warning
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -44,8 +37,8 @@ export async function getServerSideProps(context) {
     logger.error(e, `profile loading failed for username: ${username}`);
   }
 
-  if (!profile) {
-    profile.username = username;
+  if (profile.error) {
+    profile.username = session.username;
     profile.name = session.user.name;
   }
 
