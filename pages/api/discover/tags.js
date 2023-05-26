@@ -15,7 +15,12 @@ export async function getTags() {
   let tags = [];
   try {
     tags = await Profile.aggregate([
-      { $match: { tags: { $exists: true } } },
+      { $match: { 
+          tags: { 
+            $exists: true 
+          }
+       } 
+      },
       {
         $unwind: "$tags",
       },
