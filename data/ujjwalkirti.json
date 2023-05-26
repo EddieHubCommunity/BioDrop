@@ -37,8 +37,16 @@
       "date": "22th January 2023",
       "icon": "FaDesktop",
       "color": "orange",
-      "description": "Made a fullstack website for the day night cricketing event for my Institute MMNCT. It had nearly 250 users using it at any 30 minutes.",
-      "url": "https://www.ujjwalkirti.tech"
+      "description": "Made a fullstack website for the day night cricketing event for my Institute called MMNCT. Its features include live score telecasting, fixtures, points table, live interactive events, promotion of events, polls on outcome of matches, trivias etc. It had nearly 250 users using it at any 30 minutes during the match hours.",
+      "url": "https://www.mmnct.in"
+    },
+    {
+      "title": "Lead Developer building a Fullstack website",
+      "date": "4th April 2023",
+      "icon": "FaDesktop",
+      "color": "orange",
+      "description": "Developed a responsive web application for the Literary Affairs committee of my institute using Next.js framework. Also implemented a range of features, including a theme toggle, blog section, event calendar, gallery, and book club search function, to enhance user engagement and experience. Apart from that also designed a fully functional admin panel with authentication and authorization features to enable easy website management and monitoring.",
+      "url": "https://www.lac-website.vercel.app"
     }
   ]
 }
