@@ -1,5 +1,5 @@
-// no db profile
-// also file exists show warning
+import fs from "fs";
+import path from "path";
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -29,25 +29,32 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
-
   let profile = {};
   try {
     profile = (await getUserApi(context.req, context.res, username)).profile;
   } catch (e) {
     logger.error(e, `profile loading failed for username: ${username}`);
   }
-
   if (profile.error) {
     profile.username = session.username;
     profile.name = session.user.name;
   }
 
+  const filePath = path.join(process.cwd(), "data", username);
+  let fileExists;
+  try {
+    fs.readFileSync(`${filePath}.json`, "utf8");
+    fileExists = true;
+  } catch (e) {
+    fileExists = false;
+  }
+
   return {
-    props: { profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { profile, fileExists, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Profile({ BASE_URL, profile }) {
+export default function Profile({ BASE_URL, profile, fileExists }) {
   const [showNotification, setShowNotification] = useState(false);
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
@@ -74,10 +81,10 @@ export default function Profile({ BASE_URL, profile }) {
       />
 
       <Page>
-        {profile.source === "database" && (
+        {fileExists && (
           <Alert
             type="warning"
-            message={`"data/${profile.username}.json" also exists, please remove this file via a Pull Request now you will be managing your account via these forms`}
+            message={`"data/${profile.username}.json" also exists, please remove this file and your folder via a Pull Request now you will be managing your account via these forms`}
           />
         )}
 
