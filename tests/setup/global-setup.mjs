@@ -1,9 +1,9 @@
 import fs from "fs";
 
-const { USERS } = require("./test-users.js");
+import { USERS } from "./test-users.mjs";
 
-import icons from "@config/icons.json";
-import logger from "@config/logger";
+import icons from "../../config/icons.json" assert { type: "json" };
+import logger from "../../config/logger.js";
 
 const links = Object.keys(icons).map((icon, index) => {
   return {
@@ -40,7 +40,7 @@ const user = (username) => {
   };
 };
 
-module.exports = async () => {
+export default  async function setup() {
   USERS.forEach((username) => {
     const data = user(username);
 

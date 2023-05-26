@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { login, logout } from "./setup/auth";
+import { login, logout } from "./setup/auth.mjs";
 
 test("Guest user cannot access dashboard", async ({ browser }) => {
   // fixture: make sure user is logged out

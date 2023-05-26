@@ -1,7 +1,10 @@
-import connectMongo from "@config/mongo";
+import connectMongo from "../../config/mongo.js";
 import { encode } from "next-auth/jwt";
 
-import { User, Session, Account } from "@models/index";
+//import { User, Session, Account } from "@models/index";
+import User from "../../models/User.js";
+import Session from "../../models/Session.js";
+import Account from "../../models/Account.js";
 
 const login = async (browser) => {
   await connectMongo();

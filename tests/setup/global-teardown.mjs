@@ -1,13 +1,14 @@
 import fs from "fs";
 import * as dotenv from "dotenv";
 
-import connectMongo from "@config/mongo";
-import { USERS } from "./test-users.js";
-import { Profile, Link } from "@models/index";
+import connectMongo from "../../config/mongo.js";
+import { USERS } from "./test-users.mjs";
+import Profile from "../../models/Profile.js";
+import Link from "../../models/Link.js";
 
 dotenv.config();
 
-module.exports = async () => {
+export default async function teardown() {
   // remove test file data
   USERS.forEach((username) => fs.unlinkSync(`./data/${username}.json`));
   fs.unlinkSync(`./data/_test-wcag-user.json`);

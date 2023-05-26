@@ -113,8 +113,8 @@ const config = {
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI,
   },
-  globalSetup: require.resolve("./tests/setup/global-setup"),
-  globalTeardown: require.resolve("./tests/setup/global-teardown"),
+  globalSetup: require.resolve("./tests/setup/global-setup.mjs"),
+  globalTeardown: require.resolve("./tests/setup/global-teardown.mjs"),
 };
 
 module.exports = config;
