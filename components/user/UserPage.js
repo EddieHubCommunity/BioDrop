@@ -6,7 +6,7 @@ import UserLinks from "./UserLinks";
 import UserMilestones from "./UserMilestones";
 import UserTestimonials from "./UserTestimonials";
 import UserEvents from "./UserEvents";
-import UserEddiehubData from "./UserEddiehubData";
+import UserEddiehubData from "./EddieHub/UserEddiehubData";
 
 export default function UserPage({ data, BASE_URL, apiEvents }) {
   const defaultTabs = [
@@ -14,7 +14,7 @@ export default function UserPage({ data, BASE_URL, apiEvents }) {
     { name: "Milestones", href: "#", current: false },
     { name: "Testimonials", href: "#", current: false },
     { name: "Events", href: "#", current: false },
-    { name: "Eddiehub Stats", href: "#", current: false },
+    { name: "EddieHub Stats", href: "#", current: false },
   ];
   data.testimonials = data.testimonials.filter(
     (testimonial) => testimonial.isPinned
@@ -39,7 +39,7 @@ export default function UserPage({ data, BASE_URL, apiEvents }) {
       return [];
     }
 
-    if (tab.name === "Eddiehub Stats") {
+    if (tab.name === "EddieHub Stats") {
       if (Object.keys(apiEvents).length >= 1) {
         return { ...tab };
       }
@@ -73,8 +73,8 @@ export default function UserPage({ data, BASE_URL, apiEvents }) {
         tabs.find((tab) => tab.name === "Events").current && (
           <UserEvents data={data} />
         )}
-      {tabs.find((tab) => tab.name === "Eddiehub Stats") &&
-        tabs.find((tab) => tab.name === "Eddiehub Stats").current && (
+      {tabs.find((tab) => tab.name === "EddieHub Stats") &&
+        tabs.find((tab) => tab.name === "EddieHub Stats").current && (
           <UserEddiehubData data={apiEvents} />
         )}
     </>

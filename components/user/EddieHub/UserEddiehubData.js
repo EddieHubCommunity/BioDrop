@@ -20,7 +20,7 @@ export default function UserEddiehubData({ data }) {
     },
   ];
   return (
-    <div className="grid grid-cols-4 gap-8 mt-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-6">
       {items.map((item, i) => (
         <UserEddiehubDataItem key={i} amount={item.amount} label={item.label} />
       ))}

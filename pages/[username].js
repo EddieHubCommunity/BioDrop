@@ -56,8 +56,7 @@ export async function getServerSideProps(context) {
     const apiData = await res.json();
     apiEvents = apiData.events;
   } catch (e) {
-    log.info("Data couldn't be fetched from the API");
-    apiEvents = {};
+    log.info(`Data for ${username} couldn't be fetched from the API`);
   }
 
   return {
