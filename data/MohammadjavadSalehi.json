@@ -25,7 +25,10 @@
     }
   ],
   "socials": [
-      { "icon": "FaTelegram", "url": "https://t.me/MohammadjavadSalehi" },
-      { "icon": "FaInstagram", "url": "https://www.instagram.com/_mohammadjavadsalehi" }
-    ]
+    { "icon": "FaTelegram", "url": "https://t.me/MohammadjavadSalehi" },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/_mohammadjavadsalehi"
+    }
+  ]
 }
