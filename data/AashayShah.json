@@ -1,0 +1,21 @@
+{
+  "name": "Aashay Shah",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_s.aashay_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://in.linkedin.com/in/aashay28",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/aashay28",
+      "icon": "FaGithub"
+    }
+  ]
+}
