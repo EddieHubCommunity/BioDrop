@@ -88,6 +88,22 @@ export default function Playground() {
     }
   };
 
+  const buttonProps = () => {
+    if (!formatComplete) {
+      return { text: "Format", onClick: handleFormatJson, primary: false };
+    } else if (formatComplete && !validateComplete) {
+      return {
+        text: "Validate",
+        onClick: handleValidateJson,
+        primary: false,
+      };
+    } else if (formatComplete && validateComplete) {
+      return { text: "Preview", onClick: handlePreview, primary: true };
+    }
+
+    return { text: "", disable: true };
+  };
+
   return (
     <>
       <PageHead
@@ -141,19 +157,7 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          <Button
-            {...(!formatComplete
-              ? { text: "Format", onClick: handleFormatJson, primary: false }
-              : formatComplete && !validateComplete
-              ? {
-                  text: "Validate",
-                  onClick: handleValidateJson,
-                  primary: false,
-                }
-              : formatComplete && validateComplete
-              ? { text: "Preview", onClick: handlePreview, primary: true }
-              : { text: "", disable: true })}
-          />
+          <Button {...buttonProps()} />
         </div>
 
         <Modal
