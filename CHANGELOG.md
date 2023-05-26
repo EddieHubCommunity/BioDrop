@@ -1,9 +1,9 @@
-## 1.130.11 (2023-05-21)
+## 1.132.6 (2023-05-26)
 
 
 ### Bug Fixes
 
-* removed debug code ([#7077](https://github.com/EddieHubCommunity/LinkFree/issues/7077)) ([a815a00](https://github.com/EddieHubCommunity/LinkFree/commit/a815a00fcd990ab124dc3a748851b1301d62b9e1))
+* GitHub icon padding in main navbar  ([#7184](https://github.com/EddieHubCommunity/LinkFree/issues/7184)) ([48cd6ac](https://github.com/EddieHubCommunity/LinkFree/commit/48cd6ac0c592bfa4cddef1f3f6143d58b83e7d69)), closes [#7097](https://github.com/EddieHubCommunity/LinkFree/issues/7097)
 
 
 

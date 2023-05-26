@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
+
 import { getEvents } from "./api/events";
 
 import logger from "@config/logger";
@@ -47,6 +49,8 @@ export default function Events({ events }) {
     cfpOpen: events.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
+    free: events.filter((event) => event.price?.startingFrom === 0),
+    paid: events.filter((event) => event.price?.startingFrom > 0),
   };
   const tabFilters = [
     {
@@ -76,6 +80,20 @@ export default function Events({ events }) {
       key: "virtual",
       icon: MdOutlineOnlinePrediction,
       total: categorizedEvents.virtual.length,
+    },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+      total: categorizedEvents.free.length,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
+      total: categorizedEvents.paid.length,
     },
   ];
 

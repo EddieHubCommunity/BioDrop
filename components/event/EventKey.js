@@ -1,5 +1,6 @@
 import { IconContext } from "react-icons";
 import { FaMicrophoneAlt } from "react-icons/fa";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -46,6 +47,18 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       key: "past",
       icon: MdOutlineDoneAll,
     },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
+    },
   ];
 
   return (
@@ -63,7 +76,9 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           </div>
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
-            <p className="text-sm font-medium text-primary-high dark:text-white">{filter.title}</p>
+            <p className="text-sm font-medium text-primary-high dark:text-white">
+              {filter.title}
+            </p>
             <p className="truncate text-sm text-primary-medium dark:text-primary-low-high">
               {filter.description}
             </p>

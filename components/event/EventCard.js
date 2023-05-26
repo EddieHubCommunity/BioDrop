@@ -5,6 +5,7 @@ import {
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
@@ -33,20 +34,22 @@ export default function EventCard({ event, username }) {
             new Date(event.date.cfpClose) > new Date() && (
               <FaMicrophoneAlt title="CFP is open" />
             )}
+          {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
+          {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
         <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
-            <div>
+            <Link
+              href={event.url}
+              key={event.url}
+              target="_blank"
+              rel="noreferrer"
+              className="text-decoration-line:none"
+            >
               <div className="flex justify-between">
-                <Link
-                  href={event.url}
-                  key={event.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-                >
+                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                   {event.name}
-                </Link>
+                </p>
                 {event.userStatus && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
@@ -91,7 +94,7 @@ export default function EventCard({ event, username }) {
                     Object.values(event.location).join(", ")}
                 </span>
               </p>
-            </div>
+            </Link>
             {username && (
               <Link
                 href={`/${username}`}
