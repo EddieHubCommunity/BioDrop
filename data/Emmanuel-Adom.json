@@ -16,8 +16,8 @@
     "QA Testing"
   ],
   "socials": [
-    { "icon": "FaGitHub", "url": "https://github.com/Emmanuel-Adom" },
-    { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/emmanuel-adom/" },
+    { "icon": "FaGithub", "url": "https://github.com/Emmanuel-Adom" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/emmanuel-adom/" },
     { "icon": "FaTwitter", "url": "https://twitter.com/emkadom" }
   ],
   "links": [
