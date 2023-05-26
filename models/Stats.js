@@ -20,4 +20,4 @@ const StatsSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.models.Stats || mongoose.model("Stats", StatsSchema);
+export default mongoose.models.Stats || mongoose.model("Stats", StatsSchema);

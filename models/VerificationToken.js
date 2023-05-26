@@ -15,6 +15,5 @@ const VerificationTokenSchema = new mongoose.Schema({
   },
 });
 
-module.exports =
-  mongoose.models.VerificationToken ||
+export default mongoose.models.VerificationToken ||
   mongoose.model("VerificationToken", VerificationTokenSchema);

@@ -45,7 +45,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "dev:docker": "shx cp -n ./.env.docker ./.env && next dev",
+    "dev:docker": "shx cp -n ./.env.docker ./.env && npm run load-mongo && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "build": "next build",
     "test": "npx playwright test --trace on",
@@ -56,7 +56,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "postinstall": "shx cp -n ./.env.example ./.env",
-    "cli": "npx linkfree-cli"
+    "cli": "npx linkfree-cli",
+    "load-mongo": "node ./util/loadMongo.mjs"
   },
   "browserslist": {
     "production": [
