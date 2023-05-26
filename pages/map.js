@@ -7,8 +7,8 @@ import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
-import {getTags} from "./api/discover/tags"
-import {getUsers} from "./api/users";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/users";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -99,7 +99,14 @@ export default function Map({ data }) {
   let links = [];
   for (let i = 0; i <= 3; i++) {
     for (let j = 0; j <= 3; j++) {
-      links.push(<link rel="preload" as="image" key={`${i}${j}`} href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}/>)
+      links.push(
+        <link
+          rel="preload"
+          as="image"
+          key={`${i}${j}`}
+          href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}
+        />
+      );
     }
   }
 
@@ -148,7 +155,9 @@ export default function Map({ data }) {
               ))}
         </div>
         <div className="h-screen">
-          <DynamicMap users={filteredUsers.length > 0 ? filteredUsers : users} />
+          <DynamicMap
+            users={filteredUsers.length > 0 ? filteredUsers : users}
+          />
         </div>
       </Page>
     </>
