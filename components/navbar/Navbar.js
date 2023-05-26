@@ -166,19 +166,19 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="relative">
-                  <Link
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 {authControls()}
               </div>
             </div>
@@ -253,20 +253,20 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/changelog" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="ml-3 mr-2 relative">
-                  <Link
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-white"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="ml-3 mr-2 relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
+
                 {authControls()}
               </div>
             </div>
