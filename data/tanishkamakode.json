@@ -1,0 +1,22 @@
+{
+  "name": "Tanishka Makode",
+  "bio": "Meow meets code, coffee, and books 🐈💻☕📚",
+  "tags": ["Javascript", "ReactJs", "TailwindCSS", "Technical Writer"],
+  "links": [
+    {
+      "name": "Twitter",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tanishka_makode"
+    },
+    {
+      "name": "Github",
+      "icon": "FaGithub",
+      "url": "https://github.com/tanishkamakode"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tanishka-makode-62459826a"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-## 1.132.1 (2023-05-24)
+## 1.132.6 (2023-05-26)
 
 
 ### Bug Fixes
 
-* owner link clicks do not increment counter ([#7098](https://github.com/EddieHubCommunity/LinkFree/issues/7098)) ([e850ede](https://github.com/EddieHubCommunity/LinkFree/commit/e850edecd3b7713e38b0e68cccb759e0b5a8a6d8))
+* GitHub icon padding in main navbar  ([#7184](https://github.com/EddieHubCommunity/LinkFree/issues/7184)) ([48cd6ac](https://github.com/EddieHubCommunity/LinkFree/commit/48cd6ac0c592bfa4cddef1f3f6143d58b83e7d69)), closes [#7097](https://github.com/EddieHubCommunity/LinkFree/issues/7097)
 
 
 
