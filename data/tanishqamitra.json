@@ -1,7 +1,6 @@
 {
   "name": "Tanishqa Mitra",
-  "type": "personal",
-  "bio": "Open Source 🥑 •  Co-founder at @zeal_yug •   Join me on a journey of constant learning & growth!"
+  "bio": "Open Source 🥑 •  Co-founder at @zeal_yug •   Join me on a journey of constant learning & growth!",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -12,7 +11,7 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/tanishqa-mitra/",
       "icon": "FaInstagram"
-    }
+    },
       {
       "name": "Follow me on GitHub",
       "url": "https://github.com/tanishqamitra",
