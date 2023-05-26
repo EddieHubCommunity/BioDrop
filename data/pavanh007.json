@@ -1,7 +1,6 @@
 {
     "name": "Pavan H",
-    "type": "personal",
-    "bio": "Backend developer" | "Tech enthusiast",
+    "bio": "Backend developer | Tech enthusiast",
     "tags": [
       "javascript",
       "typescript",
