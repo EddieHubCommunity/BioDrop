@@ -1,4 +1,9 @@
 {
   "version": "1.132.6",
-  "alerts": []
+  "alerts": [],
+  "isr": {
+    "homepage": { "revalidateSeconds": 900 },
+    "mapPage": { "revalidateSeconds": 43200 },
+    "searchPage": { "revalidateSeconds": 7200 }
+  }
 }

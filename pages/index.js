@@ -23,6 +23,7 @@ import Alert from "@components/Alert";
 import config from "@config/app.json";
 
 export async function getStaticProps() {
+  const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
   if (singleUser.username) {
     return {
       redirect: {
@@ -37,7 +38,7 @@ export async function getStaticProps() {
 
   return {
     props: { total: totalStats, today: todayStats },
-    revalidate: 60 * 15, //15 minutes
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 

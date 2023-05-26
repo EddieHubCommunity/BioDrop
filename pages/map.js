@@ -9,6 +9,7 @@ import Page from "@components/Page";
 import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/users";
+import config from "@config/app.json";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -16,6 +17,7 @@ const DynamicMap = dynamic(() => import("../components/map/Map"), {
 });
 
 export async function getStaticProps() {
+  const pageConfig = config.isr.mapPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
@@ -46,7 +48,7 @@ export async function getStaticProps() {
 
   return {
     props: { data },
-    revalidate: 60 * 60 * 12, //12 hours
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
