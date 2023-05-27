@@ -177,5 +177,11 @@ Looking for inspiration? You can view the following profiles for an example:
 - Add <Link href="/docs/how-to-guides/testimonials">testimonials</Link> to your profile
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree QuickStart Documentation">{children}</DocsLayout>
+  <DocsLayout
+    title="LinkFree QuickStart Documentation"
+    section="Getting started"
+    name="QuickStart"
+  >
+    {children}
+  </DocsLayout>
 );

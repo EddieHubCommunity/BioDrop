@@ -30,6 +30,7 @@ Before working on an existing Issue please follow these steps:
 > Notes:
 > - it is not sustainable for maintainers to review historical comments asking for assignments before the Issue label `status: ready for dev` was added; only requests for assignment of an Issue after this label has been added will be considered
 > - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
+> - if an issue is unclear, ask questions to get more clarity before asking to have the issue assigned to you
 > - only request to be assigned an issue if you know how to work on it
 > - an issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
 
