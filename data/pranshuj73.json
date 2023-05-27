@@ -41,6 +41,11 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/pranshuj73/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Let's have a Coffee Chat!",
+      "url": "https://cal.com/pranshujha",
+      "icon": "SiCoffeescript"
     }
   ]
 }

@@ -1,9 +1,9 @@
-## 1.131.1 (2023-05-23)
+## 1.132.7 (2023-05-27)
 
 
 ### Bug Fixes
 
-* ul tag for main navbar links ([#7079](https://github.com/EddieHubCommunity/LinkFree/issues/7079)) ([e0e233b](https://github.com/EddieHubCommunity/LinkFree/commit/e0e233b72eb999ecde54adbe64aca3a4432ea5bc))
+* ISR revalidation settings to config ([#7193](https://github.com/EddieHubCommunity/LinkFree/issues/7193)) ([eca93b8](https://github.com/EddieHubCommunity/LinkFree/commit/eca93b89d77f2e983979401e9116c0e73e47fa3b))
 
 
 

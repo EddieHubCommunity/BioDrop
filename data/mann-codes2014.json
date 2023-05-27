@@ -1,0 +1,21 @@
+{
+  "name": "Abdur Rehman",
+  "bio": "Hi there! 👋 I'm a backend engineer with overall 4 years of experience building scalable and robust systems. I specialize in designing and implementing APIs, databases, and server-side logic that power modern web and mobile applications.",
+  "links": [
+    {
+      "name": "View Github Profile",
+      "url": "https://github.com/mann-codes2014",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/abdur-rehman-8a8558106/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abdur4082",
+      "icon": "FaTwitter"
+    }
+  ]
+}
