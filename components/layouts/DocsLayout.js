@@ -4,12 +4,13 @@ import Head from "next/head";
 import Page from "@components/Page";
 import Link from "@components/Link";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
+import BreadCrumb from "@components/BreadCrumb";
 
-export default function DocsLayout({ children, title }) {
+export default function DocsLayout(props) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>{props.title}</title>
         <meta
           name="description"
           content="Discover more people in your LinkFree community"
@@ -17,6 +18,7 @@ export default function DocsLayout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
+        <BreadCrumb pageData={props}></BreadCrumb>
         <h1 className="mb-4 font-bold text-2xl md:text-4xl">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with
@@ -41,7 +43,7 @@ export default function DocsLayout({ children, title }) {
           <div className="flex flex-grow flex-row">
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white">
-                {children}
+                {props.children}
               </div>
             </MDXProvider>
           </div>
