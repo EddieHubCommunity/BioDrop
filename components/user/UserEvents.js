@@ -57,12 +57,22 @@ export default function UserEvents({ data }) {
 
   const eventsToShow = getFilteredEvents();
 
+  const filteredEventOptions = eventOptions.filter((option) => {
+    if (option.value === "all") {
+      return true;
+    }
+    const events = data.events.filter((event) =>
+      filterByEventType(event, option.value)
+    );
+    return events.length > 0;
+  });
+
   return (
     <div className="m-6">
       <DropdownMenu
         eventType={eventType}
         handleEventTypeChange={handleEventTypeChange} 
-        options={eventOptions} 
+        options={filteredEventOptions} 
         label="Select Event Type:"
         className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5" 
       />
