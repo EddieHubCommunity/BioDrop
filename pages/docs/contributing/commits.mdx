@@ -50,7 +50,11 @@ test: profile tag redirect (#1234)
 Learn more about <Link href="https://www.conventionalcommits.org"> Conventional Commits</Link>
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Conventional Commits Documentation">
+  <DocsLayout
+    title="LinkFree Conventional Commits Documentation"
+    section="Contributing"
+    name="Commit Style"
+  >
     {children}
   </DocsLayout>
 );

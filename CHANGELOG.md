@@ -1,9 +1,9 @@
-## 1.132.3 (2023-05-25)
+# 1.133.0 (2023-05-27)
 
 
-### Bug Fixes
+### Features
 
-* tags are now buttons ([#7096](https://github.com/EddieHubCommunity/LinkFree/issues/7096)) ([2e10e09](https://github.com/EddieHubCommunity/LinkFree/commit/2e10e095d90c6cf822ff8e14cdd957146ef99bd7))
+* breadcrumb for documentation ([#7207](https://github.com/EddieHubCommunity/LinkFree/issues/7207)) ([9d9b781](https://github.com/EddieHubCommunity/LinkFree/commit/9d9b781432bbc03dd07048ede1223b050aefc273)), closes [#7045](https://github.com/EddieHubCommunity/LinkFree/issues/7045) [#7160](https://github.com/EddieHubCommunity/LinkFree/issues/7160) [#7045](https://github.com/EddieHubCommunity/LinkFree/issues/7045) [#7045](https://github.com/EddieHubCommunity/LinkFree/issues/7045) [#7045](https://github.com/EddieHubCommunity/LinkFree/issues/7045) [#7045](https://github.com/EddieHubCommunity/LinkFree/issues/7045)
 
 
 
