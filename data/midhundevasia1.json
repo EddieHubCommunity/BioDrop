@@ -1,18 +1,21 @@
 {
   "name": "Midhun Devasia",
-  "type": "personal",
-
   "bio": "**Open Source**  Enthusiast | Full Stack Developer | DevOps ",
   "tags": ["Open Source", "Full Stack", "DevOps", "Automation", "Python"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MidhunDevasia" },
-    { "icon": "FaGithub", "url": "https://github.com/midhundevasia1" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MidhunDevasia"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/midhundevasia1"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/midhundevasia1/"
     }
   ],
-
   "links": [
     {
       "name": "Check out my website",

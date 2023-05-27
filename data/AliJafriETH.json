@@ -1,15 +1,25 @@
 {
   "name": "Ali Jafri",
-  "type": "personal",
   "bio": "Web3 Dev, Open-Source & Technical Writing.",
   "tags": ["Web3", "Blockchain", "Open-Source", "Tech Writing"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/uptopali" },
-    { "icon": "FaGithub", "url": "https://github.com/AliJafriETH" },
-    { "icon": "SiHashnode", "url": "https://alijafri.hashnode.dev/" },
-    { "icon": "SiLens", "url": "https://lenster.xyz/u/alijafri" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/uptopali"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AliJafriETH"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://alijafri.hashnode.dev/"
+    },
+    {
+      "icon": "SiLens",
+      "url": "https://lenster.xyz/u/alijafri"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

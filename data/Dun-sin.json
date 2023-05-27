@@ -1,8 +1,6 @@
 {
   "name": "Dunsin",
-  "type": "personal",
   "bio": "Web Developer, Content Creator and Open Source Enthusiast!",
-
   "tags": [
     "Content Creation",
     "Open Source",
@@ -13,9 +11,18 @@
     "TailwindCSS"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/dunsinwebdev" },
-    { "icon": "FaGithub", "url": "https://github.com/Dun-sin" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/dunsincodes" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/dunsinwebdev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Dun-sin"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/dunsincodes"
+    }
   ],
   "links": [
     {

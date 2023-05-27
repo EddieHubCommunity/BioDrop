@@ -1,13 +1,20 @@
 {
   "name": "Davide Imola",
-  "type": "personal",
   "bio": "DevOps Engineer | Community Organizer @ **Schrödinger Hat** | IT Instructor and Mentor",
-
   "tags": ["Open Source", "Go", "DevOps", "Kubernetes", "TypeScript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/DavideImola" },
-    { "icon": "FaGithub", "url": "https://github.com/davideimola" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/davideimola" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DavideImola"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/davideimola"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/davideimola"
+    }
   ],
   "links": [
     {

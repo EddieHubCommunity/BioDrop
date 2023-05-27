@@ -1,0 +1,16 @@
+{
+  "name": "Amit Patnaik",
+  "bio": "Open source enthusiast.Looking to build great communities",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amit-patnaik-ab2913203/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Amit-45",
+      "icon": "FaGit"
+    }
+  ]
+}

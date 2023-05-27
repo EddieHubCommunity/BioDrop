@@ -1,14 +1,23 @@
 {
   "name": "Rohan Sasne",
-  "type": "personal",
   "bio": "Chase down your dreams and don’t be fearful. Let your faith be stronger than your fear :)",
-  "tags": ["Open Source", "GSoC'23", "DevOps", "Kubernetes", "Golang"],
-  "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/nottmuffin" },
-    { "icon": "FaGithub", "url": "https://github.com/RohanSasne" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@rohansasne30" }
-  ],
 
+  "tags": ["Open Source", "GSoC'23", "DevOps", "Kubernetes", "Golang"],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nottmuffin"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@rohansasne30"
+    }
+  ],
   "links": [
     {
       "name": "Twitter: I tweet mostly about DevOps and Open Source",
@@ -36,7 +45,6 @@
       "icon": "SiInstagram"
     }
   ],
-
   "milestones": [
     {
       "title": "Started to Actively Contribute to Open Source",
@@ -58,7 +66,7 @@
       "title": "Understood the power of twitter and became more active in the community",
       "date": "Mar 2023",
       "icon": "FaTwitter",
-      "color": "blue",
+      "color": "black",
       "description": "Creating content on DevOps, Open Source and started interacting with people on Twitter which opened many opportunies for me",
       "url": "https://twitter.com/nottmuffin"
     },
@@ -95,7 +103,6 @@
       "color": "black",
       "description": "I want to become a Developer Advocate 🥑 and travel the world to meet and interact with new people"
     },
-
     {
       "isGoal": true,
       "title": "Get a CFP accepted for Kubecon",

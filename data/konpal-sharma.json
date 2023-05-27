@@ -1,0 +1,11 @@
+{
+  "name": "Konpal Sharma ",
+  "bio": "CS student",
+  "Links": [
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/konpal-sharma",
+      "icon": "FaGitHub"
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "name": "Miteshkumar Chaudhari",
-  "type": "personal",
   "bio": "Open Source Enthusiastic | Software Developer | YouTuber | Freelancer",
   "tags": [
     "Open Source",
@@ -10,15 +9,23 @@
     "Javascript"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/meet_931" },
-    { "icon": "FaGithub", "url": "https://github.com/meet931" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/meet_931"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/meet931"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/miteshkumar-chaudhari/"
     },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@GrowWithMeet" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@GrowWithMeet"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

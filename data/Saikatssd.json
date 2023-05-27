@@ -1,0 +1,31 @@
+{
+  "name": "Saikat Sundar Das",
+  "bio": "Front End Developer | CSE Undergrad '25 | Interested in Problem Solving",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SaraJaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sundar_saikat_das/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me",
+      "url": "https://www.facebook.com/saikatsundar.das.7",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Let's Connect",
+      "url": "https://www.linkedin.com/in/saikat-sundar-das-6421b1224/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Let's Collaborate",
+      "url": "https://github.com/Saikatssd",
+      "icon": "FaGithub"
+    }
+  ]
+}

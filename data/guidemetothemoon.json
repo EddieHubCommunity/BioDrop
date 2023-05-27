@@ -1,6 +1,5 @@
 {
   "name": "Kristina Devochko",
-  "type": "personal",
   "bio": "Preaching about K8s, green tech and cats | CNCF Ambassador, Microsoft Azure MVP and Kubernetes Unpacked podcast host | Animal Welfare, DEI && Tech community activist",
   "tags": [
     "Open Source",
@@ -12,9 +11,18 @@
     "DevSecOps"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kristhecodingu1" },
-    { "icon": "FaGithub", "url": "https://github.com/guidemetothemoon" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/krisde" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kristhecodingu1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/guidemetothemoon"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/krisde"
+    }
   ],
   "links": [
     {

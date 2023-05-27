@@ -1,18 +1,21 @@
 {
   "name": "Daniel Chapell",
-  "type": "personal",
   "bio": "Fullstack developer (loading)",
-
   "tags": ["Open Source", "Javascript", "Typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ChapellDaniel" },
-    { "icon": "FaGithub", "url": "https://github.com/Danypooh" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ChapellDaniel"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Danypooh"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/daniel-de-la-torre-chapell-032032168/"
     }
   ],
-
   "links": [
     {
       "group": "Socials",

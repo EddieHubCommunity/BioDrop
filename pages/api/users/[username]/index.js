@@ -5,17 +5,17 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
-import findOneByUsernameFull from "@services/profiles/findOneByUsernameFull";
-import getLocation from "@services/profiles/getLocation";
+import getLocation from "@services/github/getLocation";
 
 export default async function handler(req, res) {
-  if (req.method != "GET" || !req.query.username) {
+  const username = req.query.username;
+  if (!username) {
     return res
       .status(400)
-      .json({ error: "Invalid request: GET request required" });
+      .json({ error: "Invalid request: username is required" });
   }
 
-  const { status, profile } = await getUserApi(req, res, req.query.username);
+  const { status, profile } = await getUserApi(req, res, username);
   return res.status(status).json(profile);
 }
 
@@ -27,11 +27,10 @@ export async function getUserApi(req, res, username) {
     isOwner = true;
   }
 
-  const log = logger.child({ username: username });
-  const data = findOneByUsernameFull(username);
+  let getProfile = await Profile.findOne({ username, isEnabled: true });
 
-  if (!data.username) {
-    logger.error(`failed loading profile username: ${username}`);
+  if (!getProfile) {
+    logger.error(`Failed loading profile username: ${username}`);
     return {
       status: 404,
       profile: {
@@ -40,22 +39,53 @@ export async function getUserApi(req, res, username) {
     };
   }
 
+  await getLocation(username, getProfile);
+
+  const log = logger.child({ username });
+  getProfile = await Profile.findOne(
+    { username },
+    "-__v -views -source"
+  ).populate({
+    path: "links",
+    select: "-__v -clicks -profile",
+    options: { sort: { order: 1 } },
+  });
+
+  getProfile = {
+    ...getProfile._doc,
+    links: getProfile._doc.links
+      .filter((link) => link.isEnabled)
+      .map((link) => ({
+        _id: link._id,
+        group: link.group,
+        name: link.name,
+        url: link.url,
+        icon: link.icon,
+        order: link.order,
+      })),
+    socials: getProfile._doc.links
+      .filter((link) => link.isPinned)
+      .map((link) => ({
+        _id: link._id,
+        url: link.url,
+        icon: link.icon,
+      })),
+    testimonials: getProfile._doc.testimonials.map((testimonial) => ({
+      _id: testimonial._id,
+      isPinned: testimonial.isPinned,
+      username: testimonial.username,
+      title: testimonial.title,
+      description: testimonial.description,
+      date: testimonial.date,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+      order: testimonial.order,
+    })),
+  };
+
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  let getProfile = await Profile.findOne({ username });
-
-  if (!getProfile) {
-    try {
-      getProfile = await Profile.create({
-        username,
-        views: 1,
-      });
-      log.info(`stats created for username: ${username}`);
-    } catch (e) {
-      log.error(e, `failed to create profile stats for username: ${username}`);
-    }
-
+  if (!isOwner) {
     try {
       await Stats.updateOne(
         {
@@ -63,15 +93,14 @@ export async function getUserApi(req, res, username) {
         },
         {
           $inc: { users: 1 },
-        }
+        },
+        { upsert: true }
       );
       log.info(`app profile stats incremented for username: ${username}`);
     } catch (e) {
       log.error(e, `app profile stats failed for ${username}`);
     }
-  }
 
-  if (getProfile && !isOwner) {
     try {
       await Profile.updateOne(
         {
@@ -88,13 +117,7 @@ export async function getUserApi(req, res, username) {
         `failed to increment profile stats for username: ${username}`
       );
     }
-  }
 
-  const getProfileStats = await ProfileStats.findOne({
-    username: username,
-    date: date,
-  });
-  if (getProfileStats && !isOwner) {
     try {
       await ProfileStats.updateOne(
         {
@@ -103,7 +126,8 @@ export async function getUserApi(req, res, username) {
         },
         {
           $inc: { views: 1 },
-        }
+        },
+        { upsert: true }
       );
       log.info(`profile daily stats incremented for username: ${username}`);
     } catch (e) {
@@ -114,66 +138,28 @@ export async function getUserApi(req, res, username) {
     }
   }
 
-  if (!getProfileStats) {
-    try {
-      await ProfileStats.create({
-        username: username,
+  try {
+    await Stats.updateOne(
+      {
         date,
-        views: 1,
-        profile: getProfile._id,
-      });
-      log.info(`profile daily stats started for username: ${username}`);
-    } catch (e) {
-      log.error(e, `failed creating profile stats for username: ${username}`);
-    }
+      },
+      {
+        $inc: { views: 1 },
+      },
+      { upsert: true }
+    );
+    log.info(`app daily stats incremented for username: ${username}`);
+  } catch (e) {
+    log.error(
+      e,
+      `failed incrementing platform stats for username: ${username}`
+    );
   }
-
-  const getPlatformStats = await Stats.findOne({ date });
-  if (getPlatformStats && !isOwner) {
-    try {
-      await Stats.updateOne(
-        {
-          date,
-        },
-        {
-          $inc: { views: 1 },
-        }
-      );
-      log.info(`app daily stats incremented for username: ${username}`);
-    } catch (e) {
-      log.error(
-        e,
-        `failed incrementing platform stats for username: ${username}`
-      );
-    }
-  }
-
-  if (!getPlatformStats) {
-    try {
-      await Stats.create({
-        date,
-        views: 1,
-        clicks: 0,
-        users: 1,
-      });
-      log.info(`app daily stats created for username: ${username}`);
-    } catch (e) {
-      log.error(e, `failed creating platform stats for username: ${username}`);
-    }
-  }
-
-  const latestProfile = await Profile.findOne({ username });
-  await getLocation(username, latestProfile);
-  const profileWithLocation = await Profile.findOne({ username });
 
   return JSON.parse(
     JSON.stringify({
       status: 200,
-      profile: {
-        username,
-        ...data,
-        location: profileWithLocation.location,
-      },
+      profile: getProfile,
     })
   );
 }

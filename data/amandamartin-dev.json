@@ -1,8 +1,6 @@
 {
   "name": "Amanda Martin",
-  "type": "personal",
-  "bio": "Developer Advocate | Always Curious | Always Silly",
-
+  "bio": "Developer Advocate | Community | Open Source",
   "tags": ["DevRel", "Web Dev", "Javascript", "Open Source"],
   "links": [
     {
@@ -16,6 +14,12 @@
       "icon": "FaLinkedin"
     },
     {
+      "name": "Connect with me on Bluesky",
+      "url": "https://bsky.app/profile/amandamartin.bsky.social",
+      "icon": "FaCircle",
+      "color": "#4686fe"
+    },
+    {
       "name": "Follow me on GitHub. Let's build together!",
       "url": "https://github.com/amandamartin-dev",
       "icon": "FaGithub"
@@ -24,6 +28,11 @@
       "name": "Follow me here for blogging about devrel and other dev topics",
       "url": "https://dev.to/amandamartindev",
       "icon": "FaDev"
+    },
+    {
+      "name": "Support Women Led Open Source. Contribute a resource to the repo and give it a star!",
+      "url": "https://github.com/amandamartin-dev/women-led-open-source",
+      "icon": "FaGithub"
     }
   ]
 }

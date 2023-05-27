@@ -1,6 +1,5 @@
 {
   "name": "Deependra Kumar",
-  "type": "personal",
   "bio": "**Open Source** | Full Stack Developer | Freelancer | [**Vibey**](https://www.vibey.live/) Maintainer",
   "tags": [
     "Open Source",
@@ -12,10 +11,22 @@
     "Freelancing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/deepuReact" },
-    { "icon": "FaGithub", "url": "https://github.com/deepu178" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/deepuraj178" },
-    { "icon": "FaLink", "url": "https://www.deependra.biz/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/deepuReact"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/deepu178"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/deepuraj178"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.deependra.biz/"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://github.com/sponsors/deepu178"
@@ -64,7 +75,6 @@
       "url": "https://www.youtube.com/@diveintoopensource",
       "icon": "FaYoutube"
     },
-
     {
       "group": "Support My Work",
       "name": "GitHub Sponsors - Any help is more than appreciated",
@@ -117,7 +127,6 @@
       "description": "Creating content on Open Source and Freelancing and connecting with people on Twitter helped me to cross the 400+ followers milestone",
       "url": "https://www.linkedin.com/in/deepu178/"
     },
-
     {
       "title": "Became Postman Student Expert",
       "date": "Jan 2023",

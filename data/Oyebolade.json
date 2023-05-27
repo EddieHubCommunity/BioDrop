@@ -1,12 +1,16 @@
 {
   "name": "Oyebolade Oladokun",
-  "type": "personal",
   "bio": "Physicist | Product Designer | Frontend Developer | Github Enthusiast",
-
   "tags": ["Open Source", "Javascript", "HTML", "CSS", "UI/UX"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Bolade_ux" },
-    { "icon": "FaGithub", "url": "https://github.com/Oyebolade" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Bolade_ux"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Oyebolade"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/oyebolade-oladokun-1a628a197/"

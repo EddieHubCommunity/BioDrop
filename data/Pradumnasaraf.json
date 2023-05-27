@@ -1,6 +1,5 @@
 {
   "name": "Pradumna Saraf",
-  "type": "personal",
   "bio": "**Open Source** | DevOps | Go Developer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
   "tags": [
     "Open Source",
@@ -11,10 +10,22 @@
     "Node.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
-    { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/pradumnasaraf" },
-    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pradumna_saraf"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/pradumnasaraf"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://pradumnasaraf.dev"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://github.com/sponsors/Pradumnasaraf"
@@ -72,7 +83,6 @@
       "url": "https://www.youtube.com/@pradumnasaraf",
       "icon": "FaYoutube"
     },
-
     {
       "group": "Support My Work",
       "name": "GitHub Sponsors - Any help is more than appreciated",

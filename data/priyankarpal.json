@@ -1,8 +1,6 @@
 {
   "name": "Priyankar Pal",
-  "type": "personal",
   "bio": "Linux, Frontend Web Dev, Open Source Maintainer",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -13,12 +11,23 @@
     "TailWind",
     "ReactJs"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
-    { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/priyankarpal" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/priyankarpal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/priyankarpal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/priyankarpal"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/priyankarpal1"
+    },
     {
       "icon": "FaDiscord",
       "url": "https://discordapp.com/users/1040252995130101821"

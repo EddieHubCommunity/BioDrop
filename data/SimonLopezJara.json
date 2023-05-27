@@ -1,6 +1,5 @@
 {
   "name": "LoArt & Dev",
-  "type": "personal",
   "bio": "**Simon Lopez**'s links",
   "tags": [
     "Indie",
@@ -15,10 +14,22 @@
     "Art"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/LoArtDev" },
-    { "icon": "FaGithub", "url": "https://github.com/SimonLopezJara" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/loartdev" },
-    { "icon": "FaLink", "url": "https://loart.dev" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/LoArtDev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SimonLopezJara"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/loartdev"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://loart.dev"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://github.com/sponsors/SimonLopezJara"

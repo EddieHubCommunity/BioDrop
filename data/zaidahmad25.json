@@ -1,6 +1,5 @@
 {
   "name": "Zaid Ahmad",
-  "type": "personal",
   "bio": "Empowering growth and learning through my passion for web development and open source ❤️",
   "tags": [
     "Web Development",
@@ -14,9 +13,18 @@
     "Express"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/zaidahmad25" },
-    { "icon": "FaGithub", "url": "https://github.com/zaidahmad25" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/zaidahmad25/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/zaidahmad25"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/zaidahmad25"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/zaidahmad25/"
+    },
     {
       "icon": "SiBuymeacoffee",
       "url": "https://www.buymeacoffee.com/zaidahmad25"

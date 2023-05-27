@@ -1,6 +1,5 @@
 {
   "name": "Sanskriti Gupta",
-  "type": "personal",
   "bio": "I'm a Weeb who Codes! 🌸👩🏻‍💻",
   "links": [
     {
@@ -30,13 +29,25 @@
     "TailwindCss"
   ],
   "socials": [
-    { "icon": "FaDev", "url": "https://sanskritigupta.hashnode.dev" },
+    {
+      "icon": "FaDev",
+      "url": "https://sanskritigupta.hashnode.dev"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sanskritiguptaa"
     },
-    { "icon": "SiTwitter", "url": "https://twitter.com/GuptaSanskritii" },
-    { "icon": "FaGithub", "url": "https://github.com/SanskritiGupta05" },
-    { "icon": "FaHeart", "url": "https://g.dev/sanskritigupta" }
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/GuptaSanskritii"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SanskritiGupta05"
+    },
+    {
+      "icon": "FaHeart",
+      "url": "https://g.dev/sanskritigupta"
+    }
   ]
 }

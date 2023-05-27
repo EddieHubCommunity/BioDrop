@@ -1,8 +1,6 @@
 {
   "name": "Nisarg Thakkar",
-  "type": "personal",
   "bio": "Full Stack MERN Web Developer | Currently exploring Blockchain, Cloud | Open source contributor",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,7 +10,10 @@
     "Blockchain"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Nishu0" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Nishu0"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/nisarg-thakkar-08811a21a"

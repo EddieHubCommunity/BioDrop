@@ -1,12 +1,19 @@
+import { authOptions } from "pages/api/auth/[...nextauth]";
+import { getServerSession } from "next-auth/next";
+
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Link, Profile, LinkStats, Stats } from "@models/index";
-import findOneByUsernameBasic from "@services/profiles/findOneByUsernameBasic";
+import { Link, LinkStats, Stats } from "@models/index";
 
 export default async function handler(req, res) {
   await connectMongo();
 
   const { username, url } = req.query;
+  const session = await getServerSession(req, res, authOptions);
+
+  if (session && session.username === username) {
+    return res.status(201).redirect(decodeURIComponent(url));
+  }
 
   if (req.method != "GET") {
     return res
@@ -14,165 +21,88 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const data = findOneByUsernameBasic(username);
-
-  if (!data.username) {
-    logger.error(`failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `${username} not found` });
-  }
-
-  if (
-    !data.links.find((link) => link.url === url) &&
-    !data.socials.find((social) => social.url === url)
-  ) {
-    logger.error(`link ${url} not found for username ${username}`);
-    return res.status(404).json({ error: `ERROR ${url} not found` });
-  }
-
-  let getProfile;
+  let link;
+  const customError = `failed loading link ${url} for username: ${username}`;
   try {
-    getProfile = await Profile.findOne({ username });
+    link = await Link.findOne({ username, url });
   } catch (e) {
-    logger.error(e, `failed loading profile username: ${username}`);
-    return res.status(404).json({ error: `ERROR ${username} not found` });
+    logger.error(e, customError);
+    return res.status(404).json({ error: customError });
   }
 
-  if (!getProfile) {
-    return res.status(404).json({ error: `ERROR ${username} not found` });
+  if (!link) {
+    logger.error(customError);
+    return res.status(404).json({ error: customError });
   }
 
-  let getLink;
   try {
-    getLink = await Link.findOne({ username, url });
-  } catch (e) {
-    logger.error(e, `failed loading link ${url} for username: ${username}`);
-    return res.status(404).json({ error: `ERROR ${url} not found` });
-  }
-
-  if (getLink) {
-    try {
-      await Link.updateOne(
-        {
-          username,
-          url,
-        },
-        {
-          $inc: { clicks: 1 },
-        }
-      );
-    } catch (e) {
-      logger.error(
-        e,
-        `failed incrementing link: ${url} for username ${username}`
-      );
-    }
-  }
-
-  if (!getLink) {
-    try {
-      const link = await Link.create({
-        profile: getProfile._id,
+    await Link.updateOne(
+      {
         username,
         url,
-        clicks: 1,
-      });
-
-      await Profile.updateOne(
-        {
-          username,
-        },
-        {
-          $push: { links: link._id },
-        },
-        { new: true, useFindAndModify: false }
-      );
-    } catch (e) {
-      logger.error(
-        e,
-        `failed create link stats ${url} for username ${username}`
-      );
-    }
+      },
+      {
+        $inc: { clicks: 1 },
+      }
+    );
+  } catch (e) {
+    logger.error(
+      e,
+      `failed incrementing link: ${url} for username ${username}`
+    );
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
-  let getPlatformStats;
   try {
-    getPlatformStats = await Stats.findOne({ date });
-  } catch (e) {
-    logger.error(e, `failed finding ${date} platform stats for ${username}`);
-  }
-
-  if (getPlatformStats) {
-    try {
-      await Stats.updateOne(
-        {
-          date,
-        },
-        {
-          $inc: { clicks: 1 },
-        }
-      );
-    } catch (e) {
-      logger.error(
-        e,
-        `failed incrementing ${date} platform stats for ${username}`
-      );
-    }
-  }
-
-  if (!getPlatformStats) {
-    try {
-      await Stats.create({
+    await Stats.updateOne(
+      {
         date,
-        views: 0,
-        clicks: 1,
-        users: 0,
-      });
-    } catch (e) {
-      logger.error(
-        e,
-        `failed creating platform stats on ${date} for ${username}`
-      );
-    }
-  }
-
-  let getLinkDailyStats;
-  try {
-    getLinkDailyStats = await LinkStats.findOne({ username, url, date });
+      },
+      {
+        $inc: { clicks: 1 },
+      },
+      { upsert: true }
+    );
   } catch (e) {
-    logger.error(e, `failed finding link stats on ${date} for ${username}`);
+    logger.error(
+      e,
+      `failed incrementing ${date} platform stats for ${username}`
+    );
   }
 
-  if (getLinkDailyStats) {
-    try {
-      await LinkStats.updateOne(
-        {
-          username,
-          date,
-          url,
-        },
-        {
-          $inc: { clicks: 1 },
-        }
-      );
-    } catch (e) {
-      logger.error(e, `failed incrementing platform stats for ${data}`);
-    }
+  try {
+    await Stats.updateOne(
+      {
+        date,
+      },
+      {
+        $inc: { clicks: 1 },
+      },
+      { upsert: true }
+    );
+  } catch (e) {
+    logger.error(
+      e,
+      `failed creating platform stats on ${date} for ${username}`
+    );
   }
 
-  if (!getLinkDailyStats) {
-    try {
-      await LinkStats.create({
+  try {
+    await LinkStats.updateOne(
+      {
         username,
-        url,
         date,
-        clicks: 1,
-      });
-    } catch (e) {
-      logger.error(e, `failed creating link stats on ${date} for ${username}`);
-    }
+        url,
+      },
+      {
+        $inc: { clicks: 1 },
+      },
+      { upsert: true }
+    );
+  } catch (e) {
+    logger.error(e, `failed incrementing platform stats for ${data}`);
   }
 
   return res.status(201).redirect(decodeURIComponent(url));

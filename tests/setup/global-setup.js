@@ -58,4 +58,16 @@ module.exports = async () => {
     logger.error(e);
     throw new Error(`Test data "_test-wcag-user" not created`);
   }
+
+  try {
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+    );
+    if (response.status !== 200) {
+      throw new Error(`Test data not loaded into database`);
+    }
+  } catch (e) {
+    logger.error(e);
+    throw new Error(`Test data not loaded into database`);
+  }
 };

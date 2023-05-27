@@ -1,11 +1,16 @@
 {
   "name": "Vikash",
-  "type": "personal",
   "bio": "FullStack Developer",
   "tags": ["Web Development", "Javascript", "Java", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/vikash_k__" },
-    { "icon": "FaGithub", "url": "https://github.com/Vikash861" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vikash_k__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Vikash861"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/vikash-kumar-2179591a4"

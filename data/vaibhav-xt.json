@@ -1,9 +1,7 @@
 {
   "name": "Vaibhav Maurya",
-  "type": "personal",
   "bio": "Frontend Developer | Web3.0 Enthusiast | Content Creator | Teaching | Open 😺 Source Contributor | Gaming",
   "avatar": "https://github.com/vaibhav-xt.png",
-
   "links": [
     {
       "name": "YouTube",
@@ -51,9 +49,21 @@
     "Blockchain"
   ],
   "socials": [
-    { "icon": "SiYoutube", "url": "https://www.youtube.com/@vaibhav-xt" },
-    { "icon": "SiDiscord", "url": "https://www.youtube.com/@vaibhav-xt" },
-    { "icon": "SiTwitter", "url": "https://twitter.com/vaibhav_txt" },
-    { "icon": "SiGithub", "url": "https://github.com/vaibhav-xt" }
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@vaibhav-xt"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://www.youtube.com/@vaibhav-xt"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/vaibhav_txt"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/vaibhav-xt"
+    }
   ]
 }
