@@ -1,9 +1,6 @@
 {
     "name": "Pavan H",
-    "type": "personal",
-    "displayStatsPublic": true,
     "bio": "Backend developer | Tech enthusiast",
-    "avatar": "https://i.ibb.co/vHWZ959/linkedIn.png"
     "tags": [
       "javascript",
       "typescript",
