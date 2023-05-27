@@ -1,0 +1,24 @@
+{
+  "name": "Aditya Reddy",
+  "displayStatusPublic": true,
+  "type": "personal",
+  "bio": "trying to Escape the Matrix. </3 . 🤫 !",
+  "avatar": "https://github.com/EmaniAditya.png",
+  "links": [
+    {
+      "name": "Email",
+      "url": "mailto:esaadityareddy@gmail.com",
+      "icon": "SiGmail"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/EmaniAditya",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Emani_Aditya",
+      "icon": "FaTwitter"
+    }
+  ]
+}
