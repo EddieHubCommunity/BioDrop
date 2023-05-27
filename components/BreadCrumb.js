@@ -3,7 +3,7 @@ import { AiOutlineHome } from "react-icons/ai";
 
 import Link from "@components/Link";
 
-export default function BreadCrumb({ page }) {
+export default function BreadCrumb({ section, name }) {
   return (
     <nav className="flex p-3" aria-label="Breadcrumb">
       <ol role="list" className="flex items-center space-x-4">
@@ -21,21 +21,21 @@ export default function BreadCrumb({ page }) {
             </Link>
           </div>
         </li>
-        <li key={page.section}>
+        <li key={section}>
           <div className="flex items-center">
             <FiChevronRight
               className="h-5 w-5 flex-shrink-0 text-primary"
               aria-hidden="true"
             />
             <Link
-              href={"/docs/#" + page.section}
+              href={`/docs/#${section}`}
               className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
             >
-              {page.section}
+              {section}
             </Link>
           </div>
         </li>
-        <li key={page.name}>
+        <li key={name}>
           <div className="flex items-center">
             <FiChevronRight
               className="h-5 w-5 flex-shrink-0 text-primary"
@@ -45,7 +45,7 @@ export default function BreadCrumb({ page }) {
               href="#"
               className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
             >
-              {page.name}
+              {name}
             </Link>
           </div>
         </li>
