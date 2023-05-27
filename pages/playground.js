@@ -91,13 +91,17 @@ export default function Playground() {
   const buttonProps = () => {
     if (!formatComplete) {
       return { text: "Format", onClick: handleFormatJson, primary: false };
-    } else if (formatComplete && !validateComplete) {
+    }
+
+    if (formatComplete && !validateComplete) {
       return {
         text: "Validate",
         onClick: handleValidateJson,
         primary: false,
       };
-    } else if (formatComplete && validateComplete) {
+    }
+
+    if (formatComplete && validateComplete) {
       return { text: "Preview", onClick: handlePreview, primary: true };
     }
 
