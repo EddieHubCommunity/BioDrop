@@ -1,12 +1,7 @@
 {
   "name": "Moiz Rajkotwala",
   "bio": "Full Stack Developer | Open Source Enthusiast| Engineer",
-  "tags": [
-    "Open Source",
-    "Python",
-    "Flutter",
-    "ReactJS"
-  ],
+  "tags": ["Open Source", "Python", "Flutter", "ReactJS"],
   "socials": [
     {
       "icon": "FaTwitter",
