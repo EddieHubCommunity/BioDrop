@@ -1,3 +1,6 @@
+import { authOptions } from "pages/api/auth/[...nextauth]";
+import { getServerSession } from "next-auth/next";
+
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Link, LinkStats, Stats } from "@models/index";
@@ -6,6 +9,11 @@ export default async function handler(req, res) {
   await connectMongo();
 
   const { username, url } = req.query;
+  const session = await getServerSession(req, res, authOptions);
+
+  if (session && session.username === username) {
+    return res.status(201).redirect(decodeURIComponent(url));
+  }
 
   if (req.method != "GET") {
     return res
