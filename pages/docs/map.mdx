@@ -33,5 +33,11 @@ You can find the relevant code that retrieves the location information for each 
 Note: This situation only affects the local development environment and not the production environment. In production, the user markers will appear on the map since the location information of all users is already available in the database.
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Map documentation">{children}</DocsLayout>
+  <DocsLayout
+    title="LinkFree Map documentation"
+    section="Extra"
+    name="Map Information"
+  >
+    {children}
+  </DocsLayout>
 );

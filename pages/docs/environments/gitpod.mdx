@@ -6,7 +6,7 @@ Gitpod is an open-source application that provides a prebuilt development enviro
 
 ### How to use Gitpod
 
-You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree.  See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
+You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
 
 There are 2 ways you can open a repository with Gitpod:
 
@@ -17,7 +17,7 @@ There are 2 ways you can open a repository with Gitpod:
 
 Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.
 
-**_NOTES:_** 
+**_NOTES:_**
 
 1. Be sure that you have a fork of LinkFree in your Github Profile. If you don't have it, check out the [Quickstart Guide](https://linkfree.io/docs/quickstart).
 
@@ -69,7 +69,11 @@ If you encounter permission issues, follow the next steps:
 [![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Gitpod Development Documentation">
+  <DocsLayout
+    title="LinkFree Gitpod Development Documentation"
+    section="Getting started"
+    name="Gitpod"
+  >
     {children}
   </DocsLayout>
 );
