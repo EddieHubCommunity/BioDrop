@@ -63,7 +63,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Available icons",
+          name: "Available Icons",
           path: "/icons",
           description:
             "Search for available icons you can use on your profile.",
@@ -159,7 +159,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Social shortcuts",
+          name: "Social Shortcuts",
           path: "/docs/how-to-guides/socials-shortcuts",
           description:
             "Add a shortcut to your favourite social media accounts at the top of your Profile.",
@@ -223,7 +223,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Automated tests",
+          name: "Automated Tests",
           path: "/docs/contributing/automated-tests",
           description:
             "Run the Playwright testing framework that drives the browser as a user does via code.",
@@ -298,7 +298,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Single user mode",
+          name: "Single User Mode",
           path: "/docs/advanced/single-user-mode",
           description: "Self host LinkFree for your single Profile.",
           category: {
