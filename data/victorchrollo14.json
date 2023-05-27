@@ -1,4 +1,4 @@
-{  
+{
   "name": "Victor Immanuel",
   "type": "personal",
   "bio": "Learning to build Things on the web, Ai is next on the menu. ",
@@ -13,21 +13,15 @@
       "url": "https://www.linkedin.com/in/victor-immanuel-81363a216/",
       "icon": "FaLinkedin"
     },
-   {
+    {
       "name": "Github",
       "url": "https://www.linkedin.com/in/victor-immanuel-81363a216/",
       "icon": "FaGithubAlt"
     },
-   {
+    {
       "name": "Portfolio Site",
       "url": "https://victor-immanuel.vercel.app/",
       "icon": "FaReact"
     }
-   
   ]
-  
-
 }
-  
-  
-  

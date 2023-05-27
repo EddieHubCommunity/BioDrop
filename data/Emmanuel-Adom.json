@@ -17,7 +17,10 @@
   ],
   "socials": [
     { "icon": "FaGithub", "url": "https://github.com/Emmanuel-Adom" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/emmanuel-adom/" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/emmanuel-adom/"
+    },
     { "icon": "FaTwitter", "url": "https://twitter.com/emkadom" }
   ],
   "links": [
