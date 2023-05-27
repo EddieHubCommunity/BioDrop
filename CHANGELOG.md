@@ -1,9 +1,9 @@
-## 1.132.6 (2023-05-26)
+## 1.132.7 (2023-05-27)
 
 
 ### Bug Fixes
 
-* GitHub icon padding in main navbar  ([#7184](https://github.com/EddieHubCommunity/LinkFree/issues/7184)) ([48cd6ac](https://github.com/EddieHubCommunity/LinkFree/commit/48cd6ac0c592bfa4cddef1f3f6143d58b83e7d69)), closes [#7097](https://github.com/EddieHubCommunity/LinkFree/issues/7097)
+* ISR revalidation settings to config ([#7193](https://github.com/EddieHubCommunity/LinkFree/issues/7193)) ([eca93b8](https://github.com/EddieHubCommunity/LinkFree/commit/eca93b89d77f2e983979401e9116c0e73e47fa3b))
 
 
 
