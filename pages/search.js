@@ -11,8 +11,10 @@ import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/users";
+import config from "@config/app.json";
 
 export async function getStaticProps() {
+  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
@@ -31,7 +33,7 @@ export async function getStaticProps() {
 
   return {
     props: { data },
-    revalidate: 60 * 60 * 2, //2 hours
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
