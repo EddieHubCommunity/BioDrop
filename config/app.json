@@ -11,8 +11,8 @@
       "description": "12 * 60 * 60 = 12 hours"
     },
     "searchPage": {
-      "revalidateSeconds": 7200,
-      "description": "2 * 60 * 60 = 2 hours"
+      "revalidateSeconds": 300,
+      "description": "5 * 60 = 5 minutes"
     }
   }
 }
