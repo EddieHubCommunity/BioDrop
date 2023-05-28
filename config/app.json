@@ -3,13 +3,16 @@
   "alerts": [],
   "isr": {
     "homepage": {
-      "revalidateSeconds": 900
+      "revalidateSeconds": 900,
+      "description": "15 * 60 = 15 minutes"
     },
     "mapPage": {
-      "revalidateSeconds": 43200
+      "revalidateSeconds": 43200,
+      "description": "12 * 60 * 60 = 12 hours"
     },
     "searchPage": {
-      "revalidateSeconds": 7200
+      "revalidateSeconds": 300,
+      "description": "5 * 60 = 5 minutes"
     }
   }
 }
