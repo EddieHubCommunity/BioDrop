@@ -265,15 +265,13 @@ export default function Home({ total, today }) {
                 </p>
               </div>
             </div>
-            <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
-              <Image
-                className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 h-auto w-auto"
-                src="https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png"
-                priority
-                alt="App screenshot"
-                width={500}
-                height={500}
-              />
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/ff2N8aJlEhc"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
