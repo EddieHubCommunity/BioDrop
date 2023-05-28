@@ -1,0 +1,53 @@
+{
+  "name": "Sanskriti Gupta",
+  "bio": "I'm a Weeb who Codes! 🌸👩🏻‍💻",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/GuptaSanskritii",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SanskritiGupta05",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sanskritiguptaa/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Node.js",
+    "FrontEnd",
+    "APIs",
+    "GitHub",
+    "Git",
+    "TailwindCss"
+  ],
+  "socials": [
+    {
+      "icon": "FaDev",
+      "url": "https://sanskritigupta.hashnode.dev"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sanskritiguptaa"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/GuptaSanskritii"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SanskritiGupta05"
+    },
+    {
+      "icon": "FaHeart",
+      "url": "https://g.dev/sanskritigupta"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Harsh Panchal",
+  "bio": "Hi, I'm HARSH!\n\tI'm a Software engineer in growth mode, lifelong-learner, and reader.\nNative Android Programming, Backend, observing and developing tools always excite me.\nAdditionally, I enjoy listening to music, reading books, and acquiring new knowledge.",
+  "tags": [
+    "Open Source",
+    "DevSecOps",
+    "Python",
+    "Kotlin",
+    "Android",
+    "Jetpack Compose",
+    "Linux"
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/twitsofharsh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/harshpanchal18",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/HarshPanchal18",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "StackOverflow",
+      "url": "https://stackoverflow.com/users/13305229/harsh-panchal",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "name": "Google Developer",
+      "url": "https://g.dev/harshpanchal",
+      "icon": "FaGoogleDeveloper"
+    },
+    {
+      "name": "Medium",
+      "url": "https://harshpanchal18.medium.com/",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Codersrank",
+      "url": "https://profile.codersrank.io/user/harshpanchal18/",
+      "icon": "FaCodersRank"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/thenameisharsh",
+      "icon": "FaTelegram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Contributing to Oepn-Source",
+      "date": "October 2021",
+      "icon": "FaUsers",
+      "color": "grey",
+      "description": "Started Open-source contribution and adding value to the community consistently.",
+      "url": "https://github.com/HarshPanchal18"
+    }
+  ]
+}

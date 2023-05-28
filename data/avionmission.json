@@ -1,0 +1,87 @@
+{
+  "name": "Avinash Prasad",
+  "bio": "React Developer | Technical Writer | Youtube Creator",
+  "tags": ["Open Source", "DevOps", "Javascript", "React Native"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/avionmission"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/avionmission"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/avionmission"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/AvinashPrasad"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Portfolio & Services",
+      "url": "http://avionmission.com",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Publications",
+      "name": "Technical Blog - React, Python, Open-source, DevOps and more!",
+      "url": "https://avionmission.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Publications",
+      "name": "YouTube - Tech Tutorials, Podcasts and Documentaries",
+      "url": "https://youtube.com/c/AvinashPrasad",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Publications",
+      "name": "DevStories Podcast - Exploring Tech & Careers",
+      "url": "https://www.youtube.com/playlist?list=PLNtF4mlOpopT7B_wQq4mfMUsrlremKm3G",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Publications",
+      "name": "DevOps Essentials - A Guide to Learning DevOps",
+      "url": "https://avionmission.hashnode.dev/series/devops-essentials",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/avionmission",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/avionmission",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/avionmission",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "SmartFeedAi - Your Ai Assistant for Reading Online",
+      "url": "https://github.com/avionmission/smartfeedai",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "OpenShop - A React Native template",
+      "url": "https://github.com/avionmission/openshop",
+      "icon": "FaGithub"
+    }
+  ]
+}

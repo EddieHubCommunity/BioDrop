@@ -1,6 +1,5 @@
 {
   "name": "Akhilesh Nadgiri",
-  "type": "personal",
   "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
   "tags": [
     "Python",
@@ -11,12 +10,26 @@
     "Kubernetes",
     "Ansible",
     "Jenkins",
+    "Terraform",
     "Prometheus"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
-    { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/akhileshhh.exe" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akhil3shh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akhil3shh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/akhil3shh"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akhileshhh.exe"
+    }
   ],
   "links": [
     {
@@ -30,8 +43,8 @@
       "icon": "FaGithub"
     },
     {
-      "name": "LeetCode",
-      "url": "https://leetcode.com/akhil3shh",
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google/public_profiles/dd275cc3-c004-473e-bd33-398fcf8db3a7",
       "icon": "FaLink"
     },
     {
@@ -39,7 +52,6 @@
       "url": "https://twitter.com/akhil3shh",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/akhileshhh.exe/",

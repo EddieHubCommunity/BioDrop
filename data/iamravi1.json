@@ -1,14 +1,21 @@
 {
   "name": "Ravi Teja Peetani",
-  "type": "personal",
   "bio": "Full stack developer | Learning DevOps tools | Open source",
   "tags": ["Open Source", "Full stack developer", "DevOps", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Ravi_peetani" },
-    { "icon": "FaGithub", "url": "https://github.com/iamravi1" },
-    { "icon": "FaLink", "url": "https://www.ravitejapeetani.me/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ravi_peetani"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamravi1"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.ravitejapeetani.me/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

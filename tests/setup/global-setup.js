@@ -2,8 +2,8 @@ import fs from "fs";
 
 const { USERS } = require("./test-users.js");
 
-import icons from "../../config/icons.json";
-import logger from "../../config/logger";
+import icons from "@config/icons.json";
+import logger from "@config/logger";
 
 const links = Object.keys(icons).map((icon, index) => {
   return {
@@ -57,5 +57,17 @@ module.exports = async () => {
   } catch (e) {
     logger.error(e);
     throw new Error(`Test data "_test-wcag-user" not created`);
+  }
+
+  try {
+    const response = await fetch(
+      `${process.env.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+    );
+    if (response.status !== 200) {
+      throw new Error(`Test data not loaded into database`);
+    }
+  } catch (e) {
+    logger.error(e);
+    throw new Error(`Test data not loaded into database`);
   }
 };

@@ -1,6 +1,5 @@
 {
   "name": "Saarthak Maini",
-  "type": "personal",
   "bio": "Open Source Contributor | DevOps | React | IIT Madras",
   "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
   "socials": [
@@ -47,5 +46,6 @@
       "url": "https://www.linkedin.com/in/saarthak-maini-74849222a/",
       "icon": "FaLinkedin"
     }
-  ]
+  ],
+  "testimonials": ["Sajiyah-Salat"]
 }

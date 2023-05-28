@@ -1,8 +1,6 @@
 {
   "name": "Vishrut Agarwalla",
-  "type": "personal",
   "bio": " Ambassador at Wilco | Building GrowInCommunity | Web Developer | ENTC Engineer | Self-Taught | Open Source Advocate",
-
   "tags": [
     "Git and GitHub",
     "HTML5",
@@ -19,13 +17,22 @@
     "Public Speaking"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/vishrut19" },
-    { "icon": "FaGithub", "url": "https://github.com/vishrut19" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vishrut19"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vishrut19"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/vishrut-agarwalla"
     },
-    { "icon": "SiHashnode", "url": "https://vishrut19.hashnode.dev" }
+    {
+      "icon": "SiHashnode",
+      "url": "https://vishrut19.hashnode.dev"
+    }
   ],
   "links": [
     {

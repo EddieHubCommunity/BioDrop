@@ -1,0 +1,31 @@
+{
+  "name": "Lalman Thakur",
+  "bio": "Open Source | Full Stack Developer",
+  "tags": ["Open Source", "Javascript", "Typescript", "Next JS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/LalmanThakur8"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/lalman888"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/lalman-thakur-08414a21b"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/LalmanThakur8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check My Projects",
+      "url": "https://github.com/lalman888",
+      "icon": "FaGithub"
+    }
+  ]
+}

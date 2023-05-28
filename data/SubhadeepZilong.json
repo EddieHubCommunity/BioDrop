@@ -1,6 +1,5 @@
 {
   "name": "Subhadeep Chakraborty",
-  "type": "personal",
   "bio": "Coding Enthusiast | Final Year Student | Student @ Narula Institute of Technology ",
   "tags": [
     "Java",
@@ -14,8 +13,14 @@
     "dotNet"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/subhadeepzilong" },
-    { "icon": "FaGithub", "url": "https://github.com/SubhadeepZilong" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/subhadeepzilong"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SubhadeepZilong"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/subhadeep-chakraborty-b341a8191/"

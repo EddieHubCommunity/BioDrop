@@ -1,0 +1,11 @@
+{
+  "name": "Shubh Sharma",
+  "bio": "Frontend + Devops",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shubhstwt",
+      "icon": "FaTwitter"
+    }
+  ]
+}

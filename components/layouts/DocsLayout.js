@@ -4,8 +4,9 @@ import Head from "next/head";
 import Page from "@components/Page";
 import Link from "@components/Link";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
+import BreadCrumb from "@components/BreadCrumb";
 
-export default function DocsLayout({ children, title }) {
+export default function DocsLayout({ children, title, section, name }) {
   return (
     <>
       <Head>
@@ -17,6 +18,7 @@ export default function DocsLayout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
+        <BreadCrumb section={section} name={name}></BreadCrumb>
         <h1 className="mb-4 font-bold text-2xl md:text-4xl">Documentation</h1>
         <p>
           Here you should find everything you need from getting started with

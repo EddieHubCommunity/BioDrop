@@ -1,0 +1,21 @@
+{
+  "name": "Omkar Borhade",
+  "bio": "Mechanical Engineer turned into Software Devolaper. Avid Reader",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Omkar_Borhade98",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/OmkarBorhade98",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/omkar-borhade-52777b131/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

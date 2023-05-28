@@ -1,0 +1,16 @@
+{
+  "name": "Ankur Auti",
+  "bio": "I'm Ankur, a MERN stack developer building scalable web applications. Skilled in MongoDB, Express.js, React.js, and Node.js, and proficient in Git, npm, and Webpack. Passionate about collaborating with others to bring ideas to life and always eager to learn new technologies.",
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ankurauti382/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Webdevava/",
+      "icon": "FaGithub"
+    }
+  ]
+}

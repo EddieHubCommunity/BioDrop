@@ -1,0 +1,21 @@
+{
+  "name": "Tarang Rajpara",
+  "bio": "Aspiring full stack developer venturing into the world of open source. Dedicated to crafting seamless user experiences, bridging front-end & back-end. Eager to collaborate, learn, and make a positive impact. Let's shape the future through open source!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Tarang_Rajpara",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Collaborate on Github",
+      "url": "https://github.com/tnrajpara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/tarang-rajpara-32ab31250/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

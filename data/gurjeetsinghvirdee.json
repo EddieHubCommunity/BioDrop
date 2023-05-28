@@ -1,11 +1,12 @@
 {
   "name": "Gurjeet Singh Virdee",
-  "type": "personal",
   "bio": "MERN Stack Developer | Open Source Enthusiast",
-
   "tags": ["Open Source", "JavaScript", "ReactJS", "NextJS"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/gurjeetsinghvirdee" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gurjeetsinghvirdee"
+    }
   ],
   "testimonials": ["utkarsh006", "ishikagoyal02"],
   "links": [

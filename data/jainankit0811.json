@@ -1,0 +1,11 @@
+{
+  "name": "Ankit Dhanawat",
+  "bio": "I am a student currently studing computer science and engineering",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/jainankit0811",
+      "icon": "FaGithub"
+    }
+  ]
+}

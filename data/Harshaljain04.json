@@ -1,0 +1,21 @@
+{
+  "name": "Harshal Jain",
+  "bio": "Enthusiast Techie and **A big Traveller**. Car aficianado and music lover.",
+  "links": [
+    {
+      "hi.harshal": "Follow me on Instagram",
+      "url": "https://www.instagram.com/hi.harshal/",
+      "icon": "FaInstagram"
+    },
+    {
+      "Harshal Jain": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harshal-jain-42b51423b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "Harshaljain04": "Follow me on GitHub",
+      "url": "https://github.com/Harshaljain04",
+      "icon": "FaGithub"
+    }
+  ]
+}

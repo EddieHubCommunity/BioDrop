@@ -1,6 +1,5 @@
 {
   "name": "Sabrina Chacon",
-  "type": "personal",
   "bio": "Freelancer | Coffee Lover | Code Lover",
   "tags": ["Open Source", "DevRel", "Blogging"],
   "links": [
@@ -22,7 +21,6 @@
       "url": "https://github.com/sabrinalzbh/",
       "icon": "FaGithub"
     },
-
     {
       "group": "Socials Primary",
       "name": "Connect with me on LinkedIn",

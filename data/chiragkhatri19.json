@@ -1,14 +1,21 @@
 {
   "name": "Chirag Khatri",
-  "type": "personal",
   "bio": " Web3 Entusiast | Developer | Graphics Designer   ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chiragx19" },
-    { "icon": "FaGithub", "url": "https://github.com/chiragkhatri19" },
-    { "icon": "SiHashnode", "url": "https://chiragkhatri.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chiragx19"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chiragkhatri19"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://chiragkhatri.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

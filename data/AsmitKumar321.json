@@ -1,0 +1,26 @@
+{
+  "name": "Asmit Kumar",
+  "bio": "🎯web3 space",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AsmitKumar321",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/AsmitKumar321",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/AsmitKumar321",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode Blog",
+      "url": "https://hashnode.com/@AsmitKumar321",
+      "icon": "SiHashnode"
+    }
+  ]
+}

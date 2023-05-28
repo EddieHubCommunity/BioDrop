@@ -1,6 +1,5 @@
 {
   "name": "Josh Long",
-  "type": "personal",
   "tags": [
     "Open Source",
     "Spring",
@@ -11,7 +10,6 @@
     "Cloud Native"
   ],
   "bio": "Josh became the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books and numerous best-selling video training courses, an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a podcaster,  a YouTuber, and a blogger",
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -30,7 +28,6 @@
       "url": "https://joshlong.com"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -42,7 +39,6 @@
       "url": "https://linkedin.com/in/joshlong",
       "icon": "FaLinkedIn"
     },
-
     {
       "name": "Follow me on Mastodon",
       "url": "https://mastodon.online/@starbuxman",

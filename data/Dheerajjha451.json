@@ -1,0 +1,21 @@
+{
+  "name": "Dheeraj Jha",
+  "bio": "MERN Devloper | Photo and Video Editor",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dheerajjha451",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/dheeraj-jha451/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Dheerajjha451",
+      "icon": "FaGithub"
+    }
+  ]
+}

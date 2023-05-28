@@ -1,8 +1,6 @@
 {
   "name": "David Chibueze Ndubuisi",
-  "type": "personal",
   "bio": "Software Engineer",
-
   "tags": [
     "Open Source",
     "JavaScript",
@@ -11,7 +9,6 @@
     "TypeScript",
     "NextJS"
   ],
-
   "links": [
     {
       "group": "Business",

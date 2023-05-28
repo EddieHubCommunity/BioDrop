@@ -1,6 +1,5 @@
 {
   "name": "Subhash Gandhi",
-  "type": "personal",
   "bio": "**Open Source**  Enthusiast | Full Stack Dev",
   "tags": [
     "Open Source",
@@ -11,7 +10,10 @@
     "Ui/Ux"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/SGsubhash77.png" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SGsubhash77.png"
+    },
     {
       "icon": "FaTwitter",
       "url": "https://www.twitter.com/in/subhashgandhi89087282/"

@@ -1,0 +1,16 @@
+{
+  "name": "Mansi Dube",
+  "bio": "BTech,Computer Science Under Graduate",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Mansi-Dube",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mansi-dube/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

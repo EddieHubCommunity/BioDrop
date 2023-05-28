@@ -1,0 +1,21 @@
+{
+  "name": "Pavan Kalyan",
+  "bio": "Aspiring FullStack Dev| Frontend Dev 🚀 | JavaScript | ReactJs | ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nvspavankalyan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nvspavankalyanch",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nvspavankalyanch",
+      "icon": "FaGithub"
+    }
+  ]
+}
