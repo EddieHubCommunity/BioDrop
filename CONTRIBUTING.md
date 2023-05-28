@@ -32,6 +32,7 @@ Before working on an existing Issue please follow these steps:
 > - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
 > - if an issue is unclear, ask questions to get more clarity before asking to have the issue assigned to you
 > - only request to be assigned an issue if you know how to work on it
+> - check the `Assignees` box at the top of the page to see if the issue has been assigned to someone else before requesting this be assigned to you
 > - an issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
 
 ## Reviewing Pull Requests
@@ -44,7 +45,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn and netw
 - use inline suggestions to propose changes
 
 ### DON'Ts
-- don't be rude, disrespectful or aggressive
+- do not be rude, disrespectful or aggressive
 - do not repeat feedback, this creates more noise than value (check the existing conversation), use GitHub reactions if you agree/disagree with a comment
 - do not blindly approve pull requests to improve your GitHub contributors graph
 
