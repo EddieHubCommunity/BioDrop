@@ -30,6 +30,9 @@ You have 4 options to contribute to the repo, please pick your favourite from:
 
 Brief documentation is below, but full documentation can be found here https://linkfree.io/docs
 
+> **Warning**:
+> Your DB will be empty, you will need to load the data into the database! You can do this by visiting the url `/api/system/reload?secret=development`
+
 ### GitHub UI
 
 This is great if you only want to add your Profile or make changes to it.
