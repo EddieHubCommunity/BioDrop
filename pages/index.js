@@ -267,6 +267,8 @@ export default function Home({ total, today }) {
             </div>
             <div className="aspect-w-16 aspect-h-9">
               <iframe
+                title="LinkFree promotional video"
+                aria-label="LinkFree promotional video"
                 src="https://www.youtube.com/embed/ff2N8aJlEhc"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
