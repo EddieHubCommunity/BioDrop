@@ -1,9 +1,9 @@
-## 1.133.1 (2023-05-28)
+## 1.133.2 (2023-05-28)
 
 
 ### Bug Fixes
 
-* search page load on mobile ([#7213](https://github.com/EddieHubCommunity/LinkFree/issues/7213)) ([c337205](https://github.com/EddieHubCommunity/LinkFree/commit/c337205829bf09cfbbc0e124d144daad09c2ae26))
+* hover effect to testimonial and help btn ([#7209](https://github.com/EddieHubCommunity/LinkFree/issues/7209)) ([8de15ce](https://github.com/EddieHubCommunity/LinkFree/commit/8de15ceb3feec20aaa99eea0dbafb54e078198b2))
 
 
 
