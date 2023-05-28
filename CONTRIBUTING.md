@@ -8,36 +8,34 @@ Before **creating** an Issue for `features`/`bugs`/`improvements` please follow 
 
 > *Note: this does not apply to creating/editing your profile*
 
-1. search existing issues before creating a new issue (has someone raised this already)
+1. search existing Issues before creating a new issue (has someone raised this already)
 1. if it doesn't exist create a new issue giving as much context as possible (please select the correct Issue type, for example `bug` or `feature`)
-1. all Issues are automatically given the label `status: waiting for triage`. Please wait until the maintainers review the Issue and update the labels
-1. look out for when the Issue label changes to `status: ready for dev`
-1. comment on the Issue asking for it to be assigned to you (do not tag maintainers as all maintainers receive your comment notifications)
-1. **only** start working on this issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used.
+1. all Issues are automatically given the label `status: waiting for triage` and are automatically locked so no comments can be made
+1. if you wish to work on the Issue once it has been triaged and label changed to `status: ready for dev`, please include this in your Issue description
 
 ### Working on an Issue (get it assigned to you)
 
 Before working on an existing Issue please follow these steps:
 
 1. only ask to be assigned 1 issue at a time
-1. please do not ask to be assigned an issue that has the label `status: awaiting triage` - this creates more notifications for maintainers and it will not be assigned
 1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
-1. comment asking for the issue to be assigned to you (do not tag any maintainers as all maintainers receive your comment notifications)
-1. after the issue is assigned to you, you can start working on it
+1. comment asking for the issue to be assigned to you (do not tag maintainers on GitHub or Discord as all maintainers receive your comment notifications)
+1. after the Issue is assigned to you, you can start working on it
+1. **only** start working on this Issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used
 1. do **not** enable GitHub Actions on your fork
 1. reference the Issue in your Pull Request (for example `closes #123`)
 
 > Notes:
 > - it is not sustainable for maintainers to review historical comments asking for assignments before the Issue label `status: ready for dev` was added; only requests for assignment of an Issue after this label has been added will be considered
-> - any issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
-> - if an issue is unclear, ask questions to get more clarity before asking to have the issue assigned to you
-> - only request to be assigned an issue if you know how to work on it
 > - check the `Assignees` box at the top of the page to see if the issue has been assigned to someone else before requesting this be assigned to you
-> - an issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
+> - if an Issue is unclear, ask questions to get more clarity before asking to have the Issue assigned to you
+> - only request to be assigned an Issue if you know how to work on it
+> - an Issue can be assigned to multiple people, if you all agree to collaborate on the issue (the Pull Request can contain commits from different collaborators)
+> - any Issues that have no activity after 2 weeks will be unassigned and re-assigned to someone else
 
 ## Reviewing Pull Requests
 
-We welcome everyone to review Pull Requests, it is a great way to learn and network.
+We welcome everyone to review Pull Requests, it is a great way to learn, network and support each other.
 
 ### DOs
 - be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
