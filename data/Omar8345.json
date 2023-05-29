@@ -1,8 +1,6 @@
 {
   "name": "Omar Moustafa",
-  "type": "personal",
   "bio": "**Full-Stack Developer** 💻 | **Web3 Junior** 🪙 | **Technical Writer** ✍️",
-
   "tags": [
     "NextJS",
     "ReactJS",
@@ -35,12 +33,18 @@
     }
   ],
   "socials": [
-    { "icon": "FaTwitterSquare", "url": "https://twitter.com/DevOmar100" },
+    {
+      "icon": "FaTwitterSquare",
+      "url": "https://twitter.com/DevOmar100"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/omar-the-dev/"
     },
-    { "icon": "FaGithubSquare", "url": "https://github.com/Omar8345" }
+    {
+      "icon": "FaGithubSquare",
+      "url": "https://github.com/Omar8345"
+    }
   ],
   "milestones": [
     {

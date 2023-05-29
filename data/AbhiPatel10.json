@@ -1,6 +1,5 @@
 {
   "name": "Abhi Patel",
-  "type": "personal",
   "bio": "MERN Stack web developer • **Open Source** contributor • Freelancer • WEB3.0 + Cloud Enthusiast",
   "tags": ["Open Source", "Freelancer", "React.js", "Next.js", "Node.js"],
   "socials": [
@@ -8,14 +7,19 @@
       "icon": "FaTwitter",
       "url": "https://twitter.com/abhirk247AbhiPatel0001"
     },
-    { "icon": "FaGithub", "url": "https://github.com/AbhiPatel10" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AbhiPatel10"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/abhipatel001/"
     },
-    { "icon": "website", "url": "https://abhipatelportfolio.netlify.app/" }
+    {
+      "icon": "website",
+      "url": "https://abhipatelportfolio.netlify.app/"
+    }
   ],
-
   "links": [
     {
       "name": "Connect with me on LinkedIn",

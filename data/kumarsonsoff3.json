@@ -1,8 +1,6 @@
 {
   "name": "Priyanshu Kumawat",
-  "type": "personal",
   "bio": "Open-Source Advocate 🥑 Web-Developer 👨‍💻 Content-Creator ✍ Active Maintainer @EddieHub 💻",
-
   "tags": [
     "Open-Source",
     "JavaScript",
@@ -13,11 +11,26 @@
     "TypeScript"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Kumar_Sons_off" },
-    { "icon": "FaGithub", "url": "https://github.com/kumarsonsoff3" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/kumarsonsoff" },
-    { "icon": "SiHashnode", "url": "https://kumarsonsoff.hashnode.dev" },
-    { "icon": "FaMediumM", "url": "https://kumarsonsoff.medium.com/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Kumar_Sons_off"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kumarsonsoff3"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kumarsonsoff"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://kumarsonsoff.hashnode.dev"
+    },
+    {
+      "icon": "FaMediumM",
+      "url": "https://kumarsonsoff.medium.com/"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://instagram.com/priyanshu_kumawat_off"

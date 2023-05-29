@@ -1,0 +1,47 @@
+{
+  "name": "Danilo Parra Jr",
+  "bio": "Web development and fitness aficionado | Open Source | WordPress",
+  "tags": ["Open Source", "Javascript", "ReactJs", "PHP", "WordPress"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/daniloparrajr"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/daniloparrajr"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/daniloparrajr"
+    }
+  ],
+  "links": [
+    {
+      "group": "Social",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/daniloparrajr",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "FaLinkedin",
+      "color": "#0a66c2"
+    },
+    {
+      "group": "Social",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/daniloparrajr",
+      "icon": "FaTwitter",
+      "color": "#00acee"
+    },
+    {
+      "group": "Social",
+      "name": "Website: Follow me",
+      "url": "https://daniloparrajr.com",
+      "icon": "FaLink"
+    }
+  ]
+}

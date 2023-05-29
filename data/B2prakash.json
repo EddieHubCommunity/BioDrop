@@ -1,6 +1,5 @@
 {
   "name": "Ved prakash",
-  "type": "personal",
   "bio": "student , open source contributer ",
   "tags": [
     "Open Source",
@@ -11,9 +10,18 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/VedPrak39212943" },
-    { "icon": "FaGithub", "url": "https://github.com/B2prakash" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/vedprakash2431" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/VedPrak39212943"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/B2prakash"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/vedprakash2431"
+    }
   ],
   "links": [
     {

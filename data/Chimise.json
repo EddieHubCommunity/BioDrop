@@ -1,12 +1,16 @@
 {
   "name": "Chisom Promise",
-  "type": "personal",
   "bio": "A very passionate full-stack developer with passion for building highly interactive and responsive web applications as well as secure and scalable RESTful APIs using modern technologies",
-
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chimisep" },
-    { "icon": "FaGithub", "url": "https://github.com/Chimise" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chimisep"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Chimise"
+    }
   ],
   "links": [
     {

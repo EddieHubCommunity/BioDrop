@@ -1,6 +1,5 @@
 {
   "name": "Muhammad Noorani",
-  "type": "personal",
   "bio": "Coder ‎‍💻 | Web-Development🌐 | Learning DSA 📙 | Open Source Contributor 🟩 | Documenting my Journey 📄 | Technical writer ✍️ | Public Speaker 🎙️ | Networking & Collaborating 🤝 | Always Open to Opportunities🚪| ",
   "tags": [
     "Open Source",
@@ -11,13 +10,22 @@
     "Public Speaker"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/MuhammadN_twts" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MuhammadN_twts"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/muhammadnoorani/"
     },
-    { "icon": "SiHashnode", "url": "https://blog.muhammadnoorani.com/" },
-    { "icon": "FaGithub", "url": "https://github.com/MuhammadNoorani" }
+    {
+      "icon": "SiHashnode",
+      "url": "https://blog.muhammadnoorani.com/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MuhammadNoorani"
+    }
   ],
   "links": [
     {

@@ -1,6 +1,5 @@
 {
   "name": "Barsha Das",
-  "type": "personal",
   "bio": "Founder of **The CookieButton Project** | Co-organizer of **KubeHuddle Toronto 2023** | Co-organizer of **CNCF Kolkata** | **Women In Web3 2022** by CoinDCX | Microsoft Learn **Student Ambassador** ",
   "tags": [
     "Open Source",
@@ -11,12 +10,20 @@
     "Technical Writer"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/thebarshablog" },
-    { "icon": "FaGithub", "url": "https://github.com/thebarshablog" },
-    { "icon": "FaLink", "url": "https://thebarshablog.github.io" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thebarshablog"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thebarshablog"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://thebarshablog.github.io"
+    }
   ],
   "testimonials": ["krshkun"],
-
   "links": [
     {
       "name": "Daily Tweets on Tech & Life",

@@ -1,17 +1,21 @@
 {
   "name": "Varad Belwalkar",
-  "type": "personal",
   "bio": "DevOps and Machine Learning Enthusiast",
   "tags": ["Open Source", "DevOps", "Backend", "Go"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/BelwalkarVarad" },
-    { "icon": "FaGithub", "url": "https://github.com/VaradBelwalkar" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BelwalkarVarad"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/VaradBelwalkar"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/varadbelwalkar"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

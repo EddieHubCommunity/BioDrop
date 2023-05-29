@@ -1,6 +1,5 @@
 {
   "name": "Vikas Kumar",
-  "type": "personal",
   "bio": "19| Frontend Developer | TechEnthusiast",
   "tags": [
     "Open Source",
@@ -11,10 +10,15 @@
     "Frontend"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/2003vikask" },
-    { "icon": "FaGithub", "url": "https://github.com/vikaskumar2703" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/2003vikask"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vikaskumar2703"
+    }
   ],
-
   "links": [
     {
       "name": "Daily tweets on computer science and technoology",

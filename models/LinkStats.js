@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const linkStatsSchema = new mongoose.Schema({
+  // TODO: is username still needed after forms?
   username: {
     type: String,
     required: true,
@@ -19,9 +20,11 @@ const linkStatsSchema = new mongoose.Schema({
   },
   profile: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "profile",
+    ref: "Profile",
   },
 });
+
+linkStatsSchema.index({ username: 1, date: 1 });
 
 module.exports =
   mongoose.models.LinkStats || mongoose.model("LinkStats", linkStatsSchema);

@@ -1,6 +1,5 @@
 {
   "name": "Fahad Ali",
-  "type": "personal",
   "bio": "**Open Source** Developer | **SDE** at Rupeek ",
   "tags": [
     "Open Source",
@@ -11,10 +10,22 @@
     "Spring Boot"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/imf_ali" },
-    { "icon": "FaGithub", "url": "https://github.com/imf-ali" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/imf_ali" },
-    { "icon": "FaLink", "url": "https://imf-ali.netlify.app/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/imf_ali"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/imf-ali"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/imf_ali"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://imf-ali.netlify.app/"
+    }
   ],
   "links": [
     {

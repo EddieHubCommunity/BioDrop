@@ -1,8 +1,6 @@
 {
   "name": "Rohit",
-  "type": "personal",
   "bio": "Open source Advocate, IOS Developer, DevOps, Technical Writer",
-
   "tags": [
     "Open Source",
     "IOS",
@@ -13,7 +11,6 @@
     "DevRel",
     "Technical Writing"
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -24,7 +21,6 @@
       "url": "https://github.com/TRohit20"
     }
   ],
-
   "links": [
     {
       "group": "Work",

@@ -71,7 +71,7 @@ export default function User({ data, BASE_URL }) {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <div className="fixed bottom-5 right-5 px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high">
+        <div className="fixed bottom-5 right-5 px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >

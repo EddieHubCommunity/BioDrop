@@ -1,0 +1,83 @@
+{
+  "name": "Pratyay Prasad Dhond",
+  "bio": "Computer Engineering student. Still learning and exploring computer science's vast horizons! Questions/wanna talk? Connect with me!",
+  "tags": ["Open Source", "Programming", "Android", "Web", "Speaker"],
+  "links": [
+    {
+      "name": "Linkedin - Let's connect!",
+      "url": "https://www.linkedin.com/in/pratyaydhond/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github - check out my second home XD",
+      "url": "https://github.com/PratyayDhond",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Youtube - I talk about books here <3",
+      "url": "https://www.youtube.com/@pratyaydhond-thebooksummar8907",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Join my Book Club on Discord",
+      "url": "https://discord.gg/ubXMMekyx7",
+      "icon": "FaDiscord"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Currently Pursuing Computer Engineering!",
+      "date": "Oct 2022 - Jun 2025",
+      "icon": "FaUniversity",
+      "color": "red",
+      "description": "Got admitted to COEP, Pune last October. A new Journey towards more learning and growing"
+    },
+    {
+      "title": "Won HackSquad 2022 with #9 rank Globally!",
+      "date": "Oct 2022",
+      "icon": "FaTrophy",
+      "color": "red",
+      "description": "5 people | 1 team | 1 month. The team with the most quality-meeting open source contributions will prevail! That was hacksquad and me and my team 'Debug starts Here' won the event by coming in the top 10 teams.",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7047863797088235521?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7047863797088235521%29"
+    },
+    {
+      "title": "Established my Book Club!",
+      "date": "January 2022",
+      "icon": "SiBookstack",
+      "color": "red",
+      "description": "Reading can be tough! 80% of what you read can be summarised in 20% of the book. We do exactly that for you every 14 days, we select a book, summarise it live and have an interactive session on thoughts on the book and people's perspective. Learn more by sharing! Join now!",
+      "url": "https://discord.gg/ubXMMekyx7"
+    },
+    {
+      "title": "Quotation - Home for my Quotes!",
+      "date": "Nov 2022",
+      "icon": "FaReact",
+      "color": "blue",
+      "description": "Quotes are good right? But they get forgotten as quickly as they don't have a place to stay. That's when I got the idea, Quotation was my way of giving a home to all my(and perhaps people's) quotes. Making a website with people giving out the best quotes they have read and making it accessible to everyone through website interface.",
+      "url": "https://quotation-react.web.app/"
+    },
+    {
+      "title": "Rehab - First Android app built in a Hackathon!",
+      "date": "September 2021",
+      "icon": "SiFlutter",
+      "color": "blue",
+      "description": "Developed an App within 36 hours during the event HackOdisha 2021. The app aims at helping teenagers and older individuals deal and get over their addiction to adult content",
+      "url": "https://github.com/PratyayDhond/Hack_Odisha#readme"
+    },
+    {
+      "title": "My first ever Hackathon - AnyoneCanCo.de",
+      "date": "August 2021",
+      "icon": "FaDev",
+      "color": "blue",
+      "description": "Built an online Self-Assessment test for Covid with a more User Friendly interface.",
+      "url": "https://github.com/PratyayDhond/Self-Assess"
+    },
+    {
+      "title": "Built my First ever coding Project",
+      "date": "December 2020",
+      "icon": "faFaCuttlefish",
+      "color": "blue",
+      "description": "Built a CLI program for 'savings account system' using C Programming. Start of my coding journey!!!"
+    }
+  ]
+}

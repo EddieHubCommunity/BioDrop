@@ -1,22 +1,21 @@
 {
   "name": "Shweta-Singh",
-  "type": "personal",
   "bio": "**Sophomore pursuing Btech CSE**",
-
   "tags": ["DevOps", "WebDev", "Open Source"],
-
   "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/<Your Twitter Username>"
     },
-    { "icon": "FaGithub", "url": "https://github.com/shwetasng" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shwetasng"
+    },
     {
       "icon": "FaLinkedin",
       "url": "www.linkedin.com/in/shweta-singh-2b4a82225"
     }
   ],
-
   "links": [
     {
       "name": "GitHub: Let's collaborate",

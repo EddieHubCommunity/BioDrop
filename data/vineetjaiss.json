@@ -1,0 +1,26 @@
+{
+  "name": "Vineet Jaiswara",
+  "bio": "Backend Developer | Open Source Contributor | DevOps | AI&ML",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thevinjai",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vineetjaiss",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vineetjaiswara/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my tech stuff!!",
+      "url": "https://vinjai.hashnode.dev",
+      "icon": "FaHashnode"
+    }
+  ]
+}

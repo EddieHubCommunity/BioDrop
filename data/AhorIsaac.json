@@ -1,0 +1,26 @@
+{
+  "name": "Ahor Isaac",
+  "bio": "I'm a solution, I find solutions, and I bring solutions. Python, Laravel and RN Dev.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AhorIsaac_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ahor-isaac",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ahorisaac_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/AhorIsaac/",
+      "icon": "FaGithub"
+    }
+  ]
+}

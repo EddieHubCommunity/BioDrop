@@ -1,12 +1,16 @@
 {
   "name": "Abhay Rajpoot",
-  "type": "personal",
   "bio": "**MERN** | **DevOps** Enthusiast | **Open Source** |",
   "tags": ["Open Source", "DevOps", "Node.js"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/abhayraj423" },
-    { "icon": "FaGithub", "url": "https://github.com/abhay-raj19" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abhayraj423"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abhay-raj19"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/abhay-rajpoot-799a00184"

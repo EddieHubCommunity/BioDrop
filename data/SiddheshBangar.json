@@ -1,8 +1,6 @@
 {
   "name": "Siddhesh Bangar",
-  "type": "personal",
   "bio": "I am an Undergraduate Researcher at IIIT-Delhi, a Data Science Practitioner, Content Creator and Technical Writer",
-
   "tags": [
     "Python",
     "Data Science",
@@ -10,8 +8,14 @@
     "Technical writing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/siddddhesh" },
-    { "icon": "FaGithub", "url": "https://github.com/SiddheshBangar" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/siddddhesh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SiddheshBangar"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/siddheshbangar/"
@@ -65,7 +69,6 @@
     },
     {
       "title": "Started My Blog",
-
       "date": "January 2021",
       "icon": "FaMedium",
       "color": "grey",

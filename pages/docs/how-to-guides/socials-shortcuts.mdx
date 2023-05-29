@@ -6,6 +6,8 @@ import Link from "@components/Link";
 
 Add a shortcut to your favourite social media accounts at the top of your Profile.
 
+_Note: this must be one of your URLs links and will use the same icon from your link_
+
 ![Example of LinkFree Social Shortcut icons](https://user-images.githubusercontent.com/624760/208973239-cc6a8541-3e34-47fd-8f76-104a3cf6ee4f.png)
 
 ### Add Social shortcuts
@@ -44,7 +46,11 @@ The icon you would like displayed. We support the following icon sets: **Fa** an
 _Clicks on these social shortcuts that match any of your links will also increment their respective counters_
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Social Shortcuts Documentation">
+  <DocsLayout
+    title="LinkFree Social Shortcuts Documentation"
+    section="Customising your Profile"
+    name="Social Shortcuts"
+  >
     {children}
   </DocsLayout>
 );

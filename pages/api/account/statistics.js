@@ -1,15 +1,12 @@
 import { authOptions } from "../auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
-import ProfileStats from "@models/ProfileStats";
-import Link from "@models/Link";
-import LinkStats from "@models/LinkStats";
+import { Profile, ProfileStats, Link, LinkStats } from "@models/index";
 
 export default async function handler(req, res) {
-  const session = await unstable_getServerSession(req, res, authOptions);
+  const session = await getServerSession(req, res, authOptions);
 
   if (!session) {
     res.status(401).json({ message: "You must be logged in." });
@@ -22,7 +19,12 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const username = session.username;
+  const data = await getStats(session.username)
+
+  res.status(200).json(data);
+}
+
+export async function getStats(username) {
   await connectMongo();
 
   let profileData = {};
@@ -92,5 +94,5 @@ export default async function handler(req, res) {
     },
   };
 
-  res.status(200).json(data);
+  return JSON.parse(JSON.stringify(data));
 }

@@ -1,6 +1,5 @@
 {
   "name": "Muzamil Hussain",
-  "type": "personal",
   "bio": "Full Stack Web Developer, Open Source Enthusiast",
   "tags": ["Open Source", "Javascript", "ReactJs"],
   "socials": [
@@ -17,7 +16,6 @@
       "url": "https://www.linkedin.com/in/muzamilhussain098/"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",
