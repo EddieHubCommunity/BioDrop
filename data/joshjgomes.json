@@ -1,19 +1,14 @@
 {
 	"name": "jOsh",
-	"bio": "Rapper turned Coder. Student, Building Fisidi Inc.",
+	"bio": "Rapper turned **Coder**. Student, building Fisidi Inc.",
 	"links": [{
-			"name": "Twitter",
-			"url": "https://twitter.com/joshjgomes",
-			"icon": "FaTwitter"
-		},
-		{
 			"name": "GitHub",
-			"url": "https:/github.com/joshjgomes",
+			"url": "https://github.com/joshjgomes",
 			"icon": "FaGithub"
 		},
 		{
 			"name": "SoundCloud",
-			"url": "https:/soundcloud.com/joshjgomes",
+			"url": "https://soundcloud.com/joshjgomes",
 			"icon": "FaSoundcloud"
 		},
 		{

@@ -75,7 +75,8 @@ export default function Playground() {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
-        delete actualJson.testimonials;
+        actualJson.testimonials = actualJson.testimonials || [];
+        actualJson.socials = actualJson.socials || [];
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
@@ -85,6 +86,26 @@ export default function Playground() {
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
     }
+  };
+
+  const buttonProps = () => {
+    if (!formatComplete) {
+      return { text: "Format", onClick: handleFormatJson, primary: false };
+    }
+
+    if (formatComplete && !validateComplete) {
+      return {
+        text: "Validate",
+        onClick: handleValidateJson,
+        primary: false,
+      };
+    }
+
+    if (formatComplete && validateComplete) {
+      return { text: "Preview", onClick: handlePreview, primary: true };
+    }
+
+    return { text: "", disable: true };
   };
 
   return (
@@ -140,19 +161,7 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          {!formatComplete && (
-            <Button text="Format" onClick={handleFormatJson} primary={false} />
-          )}
-          {formatComplete && !validateComplete && (
-            <Button
-              text="Validate"
-              onClick={handleValidateJson}
-              primary={false}
-            />
-          )}
-          {formatComplete && validateComplete && (
-            <Button text="Preview" onClick={handlePreview} primary={true} />
-          )}
+          <Button {...buttonProps()} />
         </div>
 
         <Modal
