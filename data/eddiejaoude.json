@@ -1,8 +1,6 @@
 {
   "name": "Eddie Jaoude",
-  "type": "personal",
-  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
-
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [LinkFree](https://linkfree.io) | **GitHub** Star",
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,9 +10,18 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
-    { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/eddiejaoude"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/eddiejaoude"
+    }
   ],
   "testimonials": [
     "FrancescoXX",
@@ -66,12 +73,6 @@
       "icon": "FaLinkedin"
     },
     {
-      "group": "Socials Secondary",
-      "name": "YouTube Shorts: Quick technical tips",
-      "url": "https://youtube.com/eddiejaoudetv",
-      "icon": "FaYoutube"
-    },
-    {
       "group": "EddieHub Community",
       "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
       "url": "http://eddiehub.org",
@@ -90,18 +91,20 @@
       "icon": "FaPodcast"
     },
     {
+      "group": "Content",
       "name": "Course (free): Customising your GitHub Profile",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "FaGithub"
     },
     {
-      "group": "Socials Secondary",
-      "name": "Mastodon: Connect with me",
-      "url": "https://fosstodon.org/@eddiejaoude",
-      "icon": "FaMastodon"
+      "group": "Content",
+      "name": "Open Source project LinkFree",
+      "url": "https://github.com/EddieHubCommunity/LinkFree",
+      "icon": "FaGithub"
     },
     {
-      "name": "Donate: GitHub Sponsors",
+      "group": "Donate",
+      "name": "GitHub Sponsors",
       "url": "https://github.com/sponsors/eddiejaoude",
       "icon": "FaRegMoneyBillAlt"
     }
@@ -117,7 +120,6 @@
     },
     {
       "title": "Started YouTube",
-
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",
@@ -172,6 +174,15 @@
       "color": "green",
       "description": "I am 50% of the way through my course of helping people getting into Open Source",
       "url": "http://eddiejaoude.io"
+    },
+    {
+      "isGoal": true,
+      "title": "LinkFree to a SAAS platform",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Have advanced premium features, but will always be free and open source",
+      "url": "https://linkfree.io"
     }
   ]
 }

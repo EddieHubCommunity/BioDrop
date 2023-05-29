@@ -1,0 +1,36 @@
+{
+  "name": "Sudarshan Doiphode",
+  "bio": "I am a Java Full Stack Developer who is more interestead in Devops nowadays",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/100bitdarsh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sudarshan-doiphode",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@100bitdarsh",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sudarshan-doiphode",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@sudarshandoiphode",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Read my Blog's Here",
+      "url": "https://sudarshandoiphode.hashnode.dev/",
+      "icon": "FaBlogger"
+    }
+  ]
+}

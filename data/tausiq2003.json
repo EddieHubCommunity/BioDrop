@@ -1,11 +1,16 @@
 {
   "name": "Tausiq Samantaray",
-  "type": "personal",
   "bio": "CS Student | Major focus: **Web dev** and **software dev** | Exploring different technologies",
   "tags": ["Open Source", "Python", "Web Dev", "Java"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/tausiqtweets" },
-    { "icon": "FaGithub", "url": "https://github.com/tausiq2003" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tausiqtweets"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tausiq2003"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/tausiq-samantaray"

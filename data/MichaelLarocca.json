@@ -1,16 +1,20 @@
 {
   "name": "Michael Larocca",
-  "type": "personal",
   "bio": "Front-End Web Developer | **Writer** | Musician",
-
   "tags": ["frontend", "javascript", "writing", "music"],
   "socials": [
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/michael-larocca-9315a3202/"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/MikeJudeLarocca" },
-    { "icon": "FaGithub", "url": "https://github.com/MichaelLarocca" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MikeJudeLarocca"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MichaelLarocca"
+    }
   ],
   "links": [
     {

@@ -1,8 +1,6 @@
 {
   "name": "Pritam Chauhan",
-  "type": "personal",
   "bio": "Electronics Engineer turned **Frontend Developer**. Learning and exploring frontend Technologies.",
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -20,6 +18,5 @@
       "icon": "FaGithub"
     }
   ],
-
   "tags": ["Open Source", "Javascript", "ReactJS", "Frontend Developer"]
 }

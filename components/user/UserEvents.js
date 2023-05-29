@@ -22,6 +22,8 @@ export default function UserEvents({ data }) {
     cfpOpen: futureEvents.filter((event) =>
       event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
+    free: data.events.filter((event) => event.price?.startingFrom === 0),
+    paid: data.events.filter((event) => event.price?.startingFrom > 0),
     past: data.events
       .filter((event) => new Date(event.date.end) < new Date())
       .sort((a, b) => new Date(b.date.start) - new Date(a.date.start)),
@@ -35,7 +37,7 @@ export default function UserEvents({ data }) {
       />
 
       {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-gray-200">
+      <ul role="list" className="divide-y divide-primary-low">
         {data.events &&
           categorisedEvents[eventType].map((event, index) => (
             <EventCard event={event} key={index} />

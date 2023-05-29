@@ -1,0 +1,122 @@
+{
+  "name": "Jonathan Vojtush",
+  "bio": "Nomadic Technical Business Analyst, working in healthcare",
+  "tags": [
+    "JavaScript",
+    "SQL",
+    "Python",
+    "PHP",
+    "CSS",
+    "HTML",
+    "XML",
+    "BASH",
+    "jQuery",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "url": "https://github.com/JonVojtush",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/",
+      "icon": "SiInstagram"
+    },
+    {
+      "url": "https://www.linkedin.com/in/jonvojtush/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://fosstodon.org/@jvojtushjr",
+      "icon": "SiMastodon"
+    }
+  ],
+  "testimonials": ["rickPollick", "BethDubyak-LinkedIn"],
+  "links": [
+    {
+      "group": "Social",
+      "name": "GitHub",
+      "url": "https://github.com/JonVojtush",
+      "icon": "SiGithub"
+    },
+    {
+      "group": "Social",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/jon.hannas_tiny_adventures/",
+      "icon": "SiInstagram"
+    },
+    {
+      "group": "Social",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jonvojtush/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social",
+      "name": "Fosstodon",
+      "url": "https://fosstodon.org/@jvojtushjr",
+      "icon": "SiMastodon"
+    },
+    {
+      "group": "Social",
+      "name": "Pixelfed",
+      "url": "https://pixelfed.social/i/web/profile/409936547239403305",
+      "icon": "SiGooglechrome"
+    },
+    {
+      "group": "Social",
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/jonathanvojtush",
+      "icon": "FaHackerrank"
+    },
+    {
+      "group": "Usernames",
+      "name": "Discord: JVojtush#5003",
+      "url": "https://discord.com/",
+      "icon": "SiDiscord"
+    },
+    {
+      "group": "Support Me",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/JonVojtush",
+      "icon": "FaHeart"
+    },
+    {
+      "group": "Support Me",
+      "name": "Traveling Mailbox (Affiliate)",
+      "url": "https://travelingmailbox.com/?ref=844&campaign=EddieHub",
+      "icon": "FaMailBulk"
+    },
+    {
+      "group": "Projects",
+      "name": "Hanna's Tiny Adventures (RV Travel)",
+      "url": "https://HannasTinyAdventures.com",
+      "icon": "FaTruckMonster"
+    },
+    {
+      "group": "Projects",
+      "name": "Agile Estimation Calculator",
+      "url": "https://JonVojtush.com",
+      "icon": "FaCalculator"
+    }
+  ],
+  "milestones": [
+    {
+      "isGoal": true,
+      "title": "Become an Enterprise developer",
+      "date": "April 9th 2023",
+      "icon": "FaCode",
+      "description": "Transition from a Technical Business Analyst to a Software Developer."
+    },
+    {
+      "title": "Created this page",
+      "date": "March 2023",
+      "icon": "FaCodeBranch"
+    },
+    {
+      "title": "Freelance web developer",
+      "date": "2010",
+      "icon": "SiWordpress"
+    }
+  ]
+}

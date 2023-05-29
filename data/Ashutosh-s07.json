@@ -1,6 +1,5 @@
 {
   "name": "Ashutosh Sahu",
-  "type": "personal",
   "bio": "Azure, Open Source, DevOps, Blogger, Frontend Developer",
   "tags": ["Open Source", "Azure", "DevOps"],
   "links": [
@@ -22,6 +21,12 @@
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/ashutosh.sahu7/",
       "icon": "FaInstagram"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Hashnode",
+      "url": "https://ashutoshsahu07.hashnode.dev/",
+      "icon": "FaHashnode"
     },
     {
       "group": "Primary Socials",

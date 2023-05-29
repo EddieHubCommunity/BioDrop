@@ -1,13 +1,20 @@
 {
   "name": "Syofyan Zuhad",
-  "type": "personal",
   "bio": "Web Artisan | Made: **Freebio.dev**",
-
   "tags": ["Open Source", "php", "Laravel", "MySQL", "DevOps", "Javascript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/syofyan_zuhad" },
-    { "icon": "FaGithub", "url": "https://github.com/syofyanzuhad" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/syofyan_zuhad" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/syofyan_zuhad"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/syofyanzuhad"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/syofyan_zuhad"
+    }
   ],
   "links": [
     {

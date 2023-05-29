@@ -1,0 +1,89 @@
+{
+  "name": "Rasheed Mudasiru",
+  "bio": "Open Source DevRel | Founder of **SofGaps** | **GitHub** Campus Expert | AWS Community Builder | Google Cloud Innovator | KodeKloud Ambassador",
+  "tags": ["Open Source", "Javascript", "Golang", "NextJS", "DevOps", "DevRel"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ibn_mudathir"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Taiwrash"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/Taiwrash"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Taiwrash",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/Taiwrash",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Taiwrash",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/rasheedtaiwo",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Podcast: Open Source community conversations",
+      "url": "https://anchor.fm/taiwrash",
+      "icon": "FaPodcast"
+    },
+    {
+      "name": "Open Source project Dev-Resume",
+      "url": "https://github.com/Taiwrash/dev-resume",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Open Source project DevOps-Spot",
+      "url": "https://github.com/Taiwrash/devops-repo",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "GitHub Campus Expert",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Campus Expert to support developers' community",
+      "url": "https://github.com/Taiwrash"
+    },
+    {
+      "title": "MLH Top 50 Hackers",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Announced as among top 50 who supported hacker's communities through hackathon and community development",
+      "url": "https://top.mlh.io/2021/profiles/mudasiru-rasheed-taiwo"
+    },
+    {
+      "title": "Started Open Source project Dev-Resume",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Creating a single place to showcase open source contribution",
+      "url": "https://github.com/Taiwrash/dev-resume"
+    }
+  ]
+}

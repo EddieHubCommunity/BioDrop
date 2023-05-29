@@ -1,6 +1,5 @@
 {
   "name": "David Leal",
-  "type": "personal",
   "bio": "Open-source advocate 🥑 community manager 🚀 coder 💻 and app/game developer 🎮",
   "tags": [
     "c++",
@@ -22,11 +21,26 @@
     "youtube"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/David_Leal_7" },
-    { "icon": "FaGithub", "url": "https://github.com/Panquesito7" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@Panquesito7" },
-    { "icon": "FaDev", "url": "https://dev.to/panquesito7" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@panquesito7/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/David_Leal_7"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Panquesito7"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@Panquesito7"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/panquesito7"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@panquesito7/"
+    }
   ],
   "links": [
     {
@@ -163,6 +177,14 @@
       "icon": "SiMinetest",
       "color": "#0030e7",
       "description": "Grow my Minetest projects as well as help and improve the community."
+    },
+    {
+      "title": "100+ subscribers on YouTube",
+      "date": "April, 2023",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Obtained 100+ subscribers on my YouTube channel.",
+      "url": "https://youtube.com/@panquesito7"
     },
     {
       "title": "50+ followers on Dev.to",

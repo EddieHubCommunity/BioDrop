@@ -1,0 +1,26 @@
+{
+  "name": "Modupe Akanni",
+  "bio": "As an aspiring software engineer, Modupe is dedicated to learning the latest programming languages and development tools to build innovative software solutions.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aka_goke",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/adegoke_akanni/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me",
+      "url": "https://www.linkedin.com/in/modupe-akanni/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Goketech",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,7 +1,6 @@
 {
   "name": "Tanitoluwa Adenuga",
-  "type": "personal",
-  "bio": "Biochemist turned Software Engineer",
+  "bio": "Software Engineer",
   "links": [
     {
       "name": "Twitter",
@@ -10,7 +9,7 @@
     },
     {
       "name": "Youtube",
-      "url": "https://youtube.com/tanisjourney7489",
+      "url": "https://www.youtube.com/@tanisjourney7489",
       "icon": "FaYoutube"
     },
     {
@@ -25,7 +24,7 @@
     },
     {
       "name": "GitHub",
-      "url": "https://linkedin.com/tanitoluwam",
+      "url": "https://github.com/tanitoluwam",
       "icon": "FaGithub"
     }
   ]

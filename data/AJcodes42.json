@@ -1,0 +1,96 @@
+{
+  "name": "Ajay Singh",
+  "bio": "**Full Stack Developer** | Angular | Spring Boot | **Open Source** and **Web3** Enthusiast",
+  "tags": [
+    "Open Source",
+    "Web3",
+    "Javascript",
+    "TypeScript",
+    "Java",
+    "Angular"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajaysingh942"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AJcodes42"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ajaysingh942/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ajay-singh-54445b148/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ajaysingh942",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/ajay-singh-54445b148/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me on Instagram",
+      "url": "https://www.instagram.com/ajaysingh942/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Work",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/AJcodes42",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Work",
+      "name": "StackOverflow - Find all the answers",
+      "url": "https://stackoverflow.com/users/8178717/ajcodes",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "group": "Blogs",
+      "name": "Blog - I write about Various Things",
+      "url": "https://ajaysingh.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Blogs",
+      "name": "Blog - I write about Technical Things",
+      "url": "https://dev.to/ajcodes42",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Blogs",
+      "name": "Blog",
+      "url": "https://medium.com/@ajaysingh942",
+      "icon": "FaMedium"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my Open Source and Web3 journey.",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Contributing to the open source and learning Web3 related things."
+    },
+    {
+      "title": "Started my Software Development journey.",
+      "date": "June 2018",
+      "icon": "FaGraduationCap",
+      "color": "black",
+      "description": "Started with frontend and then moved to backend also."
+    }
+  ]
+}

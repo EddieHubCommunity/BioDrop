@@ -1,0 +1,52 @@
+{
+  "name": "Ujjwal Kirti",
+  "bio": "**Frontend Developer** | Reactjs | TypeScript",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "TypeScript",
+    "Firebase",
+    "Tailwind CSS",
+    "Node.js"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kirti_ujjwal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ujjwal_kirti/",
+      "icon": "FaInstagram"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ujjwalkirti",
+      "name": "Have a look at my github"
+    },
+    {
+      "icon": "Falink",
+      "url": "https://www.ujjwalkirti.tech",
+      "name": "My personal Protfolio"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Developed my first Fullstack website",
+      "date": "22th January 2023",
+      "icon": "FaDesktop",
+      "color": "orange",
+      "description": "Made a fullstack website for the day night cricketing event for my Institute called MMNCT. Its features include live score telecasting, fixtures, points table, live interactive events, promotion of events, polls on outcome of matches, trivias etc. It had nearly 250 users using it at any 30 minutes during the match hours.",
+      "url": "https://www.mmnct.in"
+    },
+    {
+      "title": "Lead Developer building a Fullstack website",
+      "date": "4th April 2023",
+      "icon": "FaDesktop",
+      "color": "orange",
+      "description": "Developed a responsive web application for the Literary Affairs committee of my institute using Next.js framework. Also implemented a range of features, including a theme toggle, blog section, event calendar, gallery, and book club search function, to enhance user engagement and experience. Apart from that also designed a fully functional admin panel with authentication and authorization features to enable easy website management and monitoring.",
+      "url": "https://www.lac-website.vercel.app"
+    }
+  ]
+}

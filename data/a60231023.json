@@ -1,0 +1,21 @@
+{
+  "name": "Ayush Tiwari",
+  "bio": "A passionate learner from India",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ayush60231023",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/a60231023",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayush-tiwari6023/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

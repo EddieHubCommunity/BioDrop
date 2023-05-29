@@ -1,0 +1,26 @@
+{
+  "name": "Shashank Jaiswal",
+  "bio": "Existing in a spider-verse where coding and sketching meet",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shashanktwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jaiswal-shashank/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/jaiswalshash",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://www.leetcode.com/jaiswalshash/",
+      "icon": "FaLeetcode"
+    }
+  ]
+}

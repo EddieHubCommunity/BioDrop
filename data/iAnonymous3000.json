@@ -1,11 +1,19 @@
 {
   "name": "Sooraj Sathyanarayanan",
-  "type": "personal",
   "bio": "Security & Privacy Researcher, International Chess Player♟️",
+  "tags": ["Open Source", "Javascript", "Python"],
   "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/soorajsathyanarayanan"
+    },
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/iAnonymous3000"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/ianonymous3000"
     },
     {
       "icon": "FaGithub",
@@ -14,23 +22,27 @@
     {
       "icon": "FaYoutube",
       "url": "https://www.youtube.com/channel/UCCLuKma1_hspG8DrRqaNlOw"
+    },
+    {
+      "icon": "FaTwitch",
+      "url": "https://www.twitch.tv/ianonymous3000"
     }
   ],
   "links": [
     {
-      "name": "Twitter",
-      "url": "https://twitter.com/iAnonymous3000",
-      "icon": "FaTwitter"
+      "name": "Secure your Data using these Tools",
+      "url": "https://alternativeto.net/list/34604/cyberverse",
+      "icon": "FaShieldAlt"
     },
     {
-      "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/soorajsathyanarayanan",
-      "icon": "FaLinkedin"
+      "name": "Direct Message on Matrix",
+      "url": "https://matrix.to/#/@ianonymous:matrix.org",
+      "icon": "SiMatrix"
     },
     {
-      "name": "GitHub",
-      "url": "https://github.com/iAnonymous3000",
-      "icon": "FaGithub"
+      "name": "Must Read Books",
+      "url": "https://www.goodreads.com/review/list/161492675?shelf=to-read&sort=position&order=a",
+      "icon": "SiGoodreads"
     },
     {
       "name": "Blog",
@@ -42,6 +54,12 @@
       "name": "Mastodon",
       "url": "https://mastodon.social/@ianonymous3000",
       "icon": "SiMastodon"
+    },
+    {
+      "group": "Decentralized Social Media",
+      "name": "Pixelfed",
+      "url": "https://pixelfed.social/iAnonymous3000",
+      "icon": "RiPixelfedLine"
     },
     {
       "group": "Decentralized Social Media",
@@ -63,6 +81,12 @@
     },
     {
       "group": "Cybersecurity Portfolios/Playgrounds",
+      "name": "PentesterLab",
+      "url": "https://pentesterlab.com/profile/anonymous3000",
+      "icon": "FaPencilAlt"
+    },
+    {
+      "group": "Cybersecurity Portfolios/Playgrounds",
       "name": "Must Watch - Movies & TV Shows",
       "url": "https://www.imdb.com/user/ur147409641/watchlist",
       "icon": "SiImdb"
@@ -72,6 +96,18 @@
       "name": "Lichess",
       "url": "https://lichess.org/@/Sooraj99",
       "icon": "SiLichess"
+    },
+    {
+      "group": "Chess Profiles",
+      "name": "Chess.com",
+      "url": "https://www.chess.com/member/whitehat599",
+      "icon": "FaChessPawn"
+    },
+    {
+      "group": "Chess Profiles",
+      "name": "FIDE Online Chess Arena",
+      "url": "https://chessarena.com/profile/63719",
+      "icon": "FaChessKing"
     },
     {
       "group": "Chess Profiles",

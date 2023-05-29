@@ -1,12 +1,16 @@
 {
   "name": "Anujkumar Yadav",
-  "type": "personal",
   "bio": "Software Developer",
-
   "tags": ["JavaScript", "ReactJS", "TypeScript", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/TheRealAnujK" },
-    { "icon": "FaGithub", "url": "https://github.com/anuj-kumary" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/TheRealAnujK"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anuj-kumary"
+    }
   ],
   "links": [
     {

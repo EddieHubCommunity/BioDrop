@@ -44,7 +44,7 @@ export default function Icons() {
 
     setSearchedIconNames(filteredIconNames);
   };
-  
+
   return (
     <>
       <PageHead
@@ -56,7 +56,7 @@ export default function Icons() {
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input
           placeholder="Search Icons (minimum 3 characters)"
-          className="border-2 hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
+          className="border-2 hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />

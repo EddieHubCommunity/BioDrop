@@ -1,16 +1,13 @@
 {
   "name": "Pankaj Kumar",
-  "type": "personal",
   "bio": "Web Developer, Student",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
-
   "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/PankajThakurOff",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/pankajthakuroff/",
@@ -27,7 +24,6 @@
       "icon": "FaGitHub"
     }
   ],
-
   "milestones": [
     {
       "title": "Joined Open Source",

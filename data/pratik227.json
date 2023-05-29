@@ -1,0 +1,35 @@
+{
+  "name": "Pratik Patel",
+  "bio": "Solution developer.Part-time open-sourcerer. Loves Quasar Framework.",
+  "tags": [
+    "Open Sourcerer",
+    "Freelancer",
+    "Vuejs",
+    "Quasar Framework",
+    "AWS",
+    "Python",
+    "AWS Lambda"
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pratik227",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PratikPatel_227",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "StackOverflow",
+      "url": "https://stackoverflow.com/users/9272654/patel-pratik",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "name": "Profile",
+      "url": "https://pratik-patel.netlify.app/",
+      "icon": "FaUser"
+    }
+  ]
+}

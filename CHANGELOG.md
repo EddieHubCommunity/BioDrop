@@ -1,9 +1,9 @@
-# 1.103.0 (2023-03-28)
+## 1.133.7 (2023-05-29)
 
 
-### Features
+### Bug Fixes
 
-* map disable clear tag filter ([#5678](https://github.com/EddieHubCommunity/LinkFree/issues/5678)) ([8a14e99](https://github.com/EddieHubCommunity/LinkFree/commit/8a14e9917cb5557f7e376148f62413a6ec9f6f3f)), closes [#5588](https://github.com/EddieHubCommunity/LinkFree/issues/5588)
+* copy button for all env vars ([#7069](https://github.com/EddieHubCommunity/LinkFree/issues/7069)) ([ff357c0](https://github.com/EddieHubCommunity/LinkFree/commit/ff357c0f6618e8fe9835a4cd2273de818c8bf9cd))
 
 
 

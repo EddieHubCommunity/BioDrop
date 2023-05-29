@@ -1,0 +1,41 @@
+{
+  "name": "Shaurya Gulati",
+  "bio": "Open Source Enthusiast | Content Creator | DSA | Web Development | Machine Learning | Data Science ",
+  "tags": ["Open Source", "Web Development", "DSA", "Data Science"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Shauryagulati"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/shauryagulati.dev/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/i_shauryagulati"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub - Follow me on GitHub",
+      "url": "https://github.com/Shauryagulati",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter - Let's connect and grow together",
+      "url": "https://twitter.com/i_shauryagulati",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin - Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/shauryagulati/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram - Follow me to be a part of my journey",
+      "url": "https://www.instagram.com/shauryagulati.dev/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

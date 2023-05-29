@@ -1,0 +1,106 @@
+{
+  "name": "Nanak Bandyopadhyay",
+  "bio": "Full stack web developer 👨‍💻 | Web3 developer 🪙| JS & Python 💪",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "ReactJS",
+    "NodeJS",
+    "Angular"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/NBandyopadhyay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Nanak360"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/nanak.bandyopadhyay"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/NBandyopadhyay",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/nanakbandyopadhyay/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Let's code together on Github",
+      "url": "https://github.com/Nanak360",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's be friends on Facebook",
+      "url": "https://www.facebook.com/nanak.bandyopadhyay",
+      "icon": "FaFacebook"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Graduated from College",
+      "date": "May 2021",
+      "icon": "FaUserGraduate",
+      "color": "#83764F",
+      "description": "Graduated from University of Engineering & Management, Kolkata with aBachelor's Degree in Computer Science Engineering."
+    },
+    {
+      "title": "Got my first work contract from MadAlgos",
+      "date": "May 2021",
+      "icon": "FaLaptopCode",
+      "color": "#A2A378",
+      "description": "Designed and developed a full-stack E-Commerce web application from scratch using Next JS and hosted it using Microsoft Azure’s services. The website is currently live and generating revenue for MadAlgos.",
+      "link": "https://madalgos.in/"
+    },
+    {
+      "title": "Joined Hashedin Technologies as a Software Developer.",
+      "date": "July 2021",
+      "icon": "FaLaptopCode",
+      "color": "#A0D8B3",
+      "description": "Working as full stack web dev at HashedIn curently",
+      "link": "https://hashedin.com/"
+    },
+    {
+      "title": "Start my own tech blog",
+      "date": "June 2023",
+      "icon": "FaBlog",
+      "color": "#E5F9DB",
+      "description": "My June end I'll be starting my own tech blog.",
+      "isGoal": true
+    },
+    {
+      "title": "Grow my twitter followers to 1k",
+      "date": "June 2023",
+      "icon": "SiTwitter",
+      "color": "#1DA1F2",
+      "description": "My the end of June I have a goal to get1k followers.",
+      "isGoal": true
+    },
+    {
+      "title": "Daily open-source contributions this Month",
+      "date": "June 2023",
+      "icon": "FaGithub",
+      "color": "#171515",
+      "description": "I'll whow up to github everyday and contribute to opensource Projects. Will try and keep my github contributions green without any grey box.",
+      "isGoal": true
+    },
+    {
+      "title": "Make a personal side project.",
+      "date": "July 2023",
+      "icon": "FaLaptop",
+      "color": "#171515",
+      "description": "Will start working on a side project with the buid in public community",
+      "isGoal": true
+    }
+  ]
+}

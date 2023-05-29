@@ -1,0 +1,45 @@
+{
+  "name": "Akram Azouzi",
+  "bio": "Web developer",
+  "tags": ["Python", "Django", "Bootstrap", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AkramAzouzi_"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/akramazouzi/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AkramAzouzi"
+    },
+    {
+      "icon": "FaTelegram",
+      "url": "https://t.me/AkramAzouzi"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AkramAzouzi_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/akramazouzi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/AkramAzouzi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/AkramAzouzi",
+      "icon": "FaTelegram"
+    }
+  ]
+}

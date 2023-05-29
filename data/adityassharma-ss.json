@@ -1,12 +1,16 @@
 {
   "name": "Aditya Sharma",
-  "type": "personal",
   "bio": "Full Stack Developer | DevOps | Open Source",
-
   "tags": ["Java", "JavaScript", "ReactJS", "DevOps", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/aadityatwt" },
-    { "icon": "FaGithub", "url": "https://github.com/adityassharma-ss" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aadityatwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/adityassharma-ss"
+    }
   ],
   "links": [
     {

@@ -1,18 +1,41 @@
 {
   "name": "Akhilesh Nadgiri",
-  "type": "personal",
   "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
-  "tags": ["Docker", "Kubernetes", "Python", "GCP", "AWS"],
+  "tags": [
+    "Python",
+    "GCP",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Jenkins",
+    "Terraform",
+    "Prometheus"
+  ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/akhil3shh" },
-    { "icon": "FaGithub", "url": "https://github.com/akhil3shh" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/akhileshhh.exe" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akhil3shh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akhil3shh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/akhil3shh"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akhileshhh.exe"
+    }
   ],
   "links": [
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/akhilesh-nadgiri",
-      "icon": "FaLinkedIn"
+      "icon": "FaLinkedin"
     },
     {
       "name": "GitHub",
@@ -20,36 +43,19 @@
       "icon": "FaGithub"
     },
     {
-      "name": "LeetCode",
-      "url": "https://leetcode.com/akhil3sh",
-      "icon": "FaLeetCode"
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google/public_profiles/dd275cc3-c004-473e-bd33-398fcf8db3a7",
+      "icon": "FaLink"
     },
     {
       "name": "Twitter",
       "url": "https://twitter.com/akhil3shh",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/akhileshhh.exe/",
       "icon": "FaInstagram"
-    }
-  ],
-  "milestones": [
-    {
-      "title": "Intern",
-      "date": "Jan - July 2022",
-      "icon": "FaDollarSign",
-      "color": "grey",
-      "description": "Content Creator at GeeksForGeeks"
-    },
-    {
-      "title": "Intern",
-      "date": "July - Sept 2022",
-      "icon": "FaDollarSign",
-      "color": "grey",
-      "description": "AWS Cloud Computing"
     }
   ]
 }

@@ -1,8 +1,7 @@
 {
   "name": "Vengala Uday",
-  "type": "personal",
   "bio": "I am a CSE Undergraduate Interested in DevOps",
-  "Links": [
+  "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/VengalaUday",

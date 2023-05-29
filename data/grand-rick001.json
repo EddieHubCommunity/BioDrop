@@ -1,6 +1,5 @@
 {
   "name": "Patrick Murimi",
-  "type": "personal",
   "bio": "Postman Student Leader | GDSC Web Development Team Lead | Frontend Web Developer",
   "tags": [
     "Open Source",
@@ -13,8 +12,14 @@
     "Express"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/grandrick001" },
-    { "icon": "FaGithub", "url": "https://github.com/grand-rick001" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/grandrick001"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/grand-rick001"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/patrick-murimi/"
@@ -45,12 +50,6 @@
       "name": "Postman: Developing APIs",
       "url": "https://www.postman.com/grand-rick001",
       "icon": "SiPostman"
-    },
-    {
-      "group": "Others",
-      "name": "Kaggle: Machine Learning journey",
-      "url": "https://www.kaggle.com/grandrick001",
-      "icon": "SiKaggle"
     },
     {
       "group": "Others",

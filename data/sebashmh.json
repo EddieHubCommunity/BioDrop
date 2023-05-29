@@ -1,6 +1,5 @@
 {
   "name": "Sebastian Henao Madrigal",
-  "type": "personal",
   "bio": "Computer Scientist, Engineering Manager, FullStack Engineer, Tech entrepreneur, Travel enthusiast, Photographer & Coffee Nerd",
   "tags": [
     "Open Source",
@@ -13,14 +12,26 @@
     "AWS"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/madriantor" },
-    { "icon": "FaGithub", "url": "https://github.com/sebashmh" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/madriantor"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sebashmh"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sebastianhenaomadrigal/"
     },
-    { "icon": "FaInstagram", "url": "https://vero.co/sebasmadrigal" },
-    { "icon": "FaLink", "url": "https://sebas.io" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://vero.co/sebasmadrigal"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://sebas.io"
+    }
   ],
   "links": [
     {

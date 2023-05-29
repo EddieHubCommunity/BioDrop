@@ -1,17 +1,26 @@
 {
-  "name": "Arsalan Malik ",
-  "type": "personal",
-  "bio": "An enthusiastic web developer always hungry for knowledge and eager to connect with others in the industry.",
-  "links": [
+  "name": "Arsalan Malik",
+  "bio": "**Open-Source**  | Web Development | **Flutter** ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Flutter",
+    "Github"
+  ],
+  "socials": [
     {
-      "name": "Follow me on Twitter ",
-      "url": "https://twitter.com/ArsalanYmalik",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ArsalanYmalik"
     },
     {
-      "name": "Connect With me on LinkedIn ",
-      "url": "https://www.linkedin.com/in/arsalan-malik-746913237/",
-      "icon": "FaLinkedin"
+      "icon": "FaGithub",
+      "url": "https://github.com/ArslanYM"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/learnwmalik"
     }
   ]
 }

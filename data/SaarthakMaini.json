@@ -1,0 +1,51 @@
+{
+  "name": "Saarthak Maini",
+  "bio": "Open Source Contributor | DevOps | React | IIT Madras",
+  "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
+  "socials": [
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@saarthakmaini1819"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SaarthakMaini"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://saarthakmaini.hashnode.dev/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/saartwts"
+    }
+  ],
+  "links": [
+    {
+      "name": "YouTube: Checkout my DevOps Videos",
+      "url": "https://www.youtube.com/@saarthakmaini1819",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "GitHub: Checkout my Projects And Open Source Contributions",
+      "url": "https://github.com/SaarthakMaini",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode: Read my Blogs",
+      "url": "https://saarthakmaini.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/saartwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/saarthak-maini-74849222a/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "testimonials": ["Sajiyah-Salat"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sham Vijay V",
+  "bio": "I am freshman pursuing Information technology. I am exploring web development and DevOps",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://mobile.twitter.com/iamvbenz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/iamvbenz49",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sham-vijay-v-a568a7238/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

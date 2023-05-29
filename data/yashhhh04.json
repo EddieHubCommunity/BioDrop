@@ -1,0 +1,16 @@
+{
+  "name": "Yash Samar",
+  "bio": "I am a student learning new technologies and deep diving into them.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/yashsamar3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/yashhhh04",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

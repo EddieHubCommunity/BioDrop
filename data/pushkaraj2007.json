@@ -1,0 +1,21 @@
+{
+  "name": "Pushkaraj Kulkarni",
+  "bio": "Full-Stack Developer 👨‍💻 | Open source contributor | Passionated about tech and programming | Let's Connect 🤝",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/pushkaraj2007",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/pushkaraj2007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@pushkaraj2007",
+      "icon": "SiHashnode"
+    }
+  ]
+}

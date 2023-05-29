@@ -1,0 +1,31 @@
+{
+  "name": "Rahul Bhati",
+  "bio": "I am a fresher in the field of Full Stack Development, but I am passionate about honing my skills and learning as much as I can in this exciting and innovative industry. I am filled with a drive to excel and I am never satisfied with mediocre results. I am constantly learning and developing my technical skills to push the boundaries of what a Full Stack Developer can achieve.My main goal is to work in a team where I gain experience and learn from experienced developers. My coding ability is at the forefront of what's required for Full Stack Development, along with knowledge of software design principles and other core technical skills.If you’re from the industry and interested in discussing my abilities and career goals further, please don't hesitate to reach out to me with just one click away.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RahulBh77113306",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/rahul-bhati-25482a1a0/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Rahul-Bhati",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_rahul_bhati7773/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@rahulbhati5656/",
+      "icon": "FaYoutube"
+    }
+  ]
+}

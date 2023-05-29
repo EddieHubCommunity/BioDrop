@@ -1,0 +1,16 @@
+{
+  "name": "Prateek Sharma",
+  "bio": "Lead Full Stack Engineer @3M | AWS | Azure | Blockchain | Python | .Net | React",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/-prateek-sharma/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHUb",
+      "url": "https://github.com/s-prateek",
+      "icon": "FaGit"
+    }
+  ]
+}

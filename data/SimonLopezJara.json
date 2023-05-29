@@ -1,0 +1,55 @@
+{
+  "name": "LoArt & Dev",
+  "bio": "**Simon Lopez**'s links",
+  "tags": [
+    "Indie",
+    "Games",
+    "Web Design",
+    "Next.js",
+    "React",
+    "Node.js",
+    "Unity",
+    "Unreal Engine",
+    "3D",
+    "Art"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/LoArtDev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SimonLopezJara"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/loartdev"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://loart.dev"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/SimonLopezJara"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Website",
+      "url": "https://loart.dev",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/LoArtDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/loartdev/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

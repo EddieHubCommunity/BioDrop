@@ -1,0 +1,24 @@
+{
+  "name": "Elizabeth Ogbe",
+  "bio": "Blockchain Developer, OpenSourcerer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/elizabeth_ogbe",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/ElizabethOgbee",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Solidity",
+    "Smart Contract"
+  ]
+}

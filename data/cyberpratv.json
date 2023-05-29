@@ -1,0 +1,30 @@
+{
+  "name": "Prateek Vutkur",
+  "bio": "Vigilant Cyber Guardian",
+  "socials": [
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/tipsy_gypsie"
+    },
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/prateek-vutkur"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PrateekVutkur"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/cyberpratv"
+    }
+  ],
+  "links": [
+    {
+      "group": "Certifications",
+      "name": "Credly",
+      "url": "https://www.credly.com/users/prateek-vutkur",
+      "icon": "SiCredly"
+    }
+  ]
+}

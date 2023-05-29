@@ -1,13 +1,17 @@
 {
   "name": "Hussain Shariff",
-  "type": "personal",
   "bio": "Mechanical engineer exploring web dev | Starting with Open Source journey",
   "tags": ["reactJs", "nextJs", "tailwindCSS", "Sanity"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/hussainshariff_" },
-    { "icon": "FaGithub", "url": "https://github.com/hussain-shariff" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/hussainshariff_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/hussain-shariff"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

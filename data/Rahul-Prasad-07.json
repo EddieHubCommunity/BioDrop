@@ -1,6 +1,5 @@
 {
   "name": "Rahul Prasad",
-  "type": "personal",
   "bio": " Blockchain Developer | **Open Source** Advocate | DevOps Developer",
   "tags": [
     "Open Source",
@@ -11,11 +10,19 @@
     "Node.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/rahultwte" },
-    { "icon": "FaGithub", "url": "https://github.com/Rahul-Prasad-07" },
-    { "icon": "FaLink", "url": "https://dev.to/rahulprasad07" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rahultwte"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Rahul-Prasad-07"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://dev.to/rahulprasad07"
+    }
   ],
-
   "links": [
     {
       "name": "Daily tweets on Open Source & Web3",

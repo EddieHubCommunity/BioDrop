@@ -1,8 +1,6 @@
 {
   "name": "Thomas",
-  "type": "personal",
   "bio": "Self-Taught Full Stack Web Developer - Switched Hardware for Software.",
-
   "links": [
     {
       "name": "Follow me on Github",
@@ -15,9 +13,19 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "LinkedIn Profile",
       "url": "https://www.linkedin.com/in/thomas-voets-93194a90/",
       "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started as Web Developer",
+      "date": "February 2023",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my first job as a Web Developer at Enervalis",
+      "url": "https://enervalis.com/"
     }
   ]
 }

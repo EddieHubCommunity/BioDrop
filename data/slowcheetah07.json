@@ -1,0 +1,16 @@
+{
+  "name": "Himadri Bhattacharya",
+  "bio": "I am a full stack developer",
+  "links": [
+    {
+      "name": "Linkedln",
+      "url": "https://www.linkedin.com/in/himadribhattacharya3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HimadriBh07",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Shivansh Chauhan",
+  "bio": "I am an enthusiast in the field of software engineering and have a deep interest in problem-solving",
+  "links": [
+    {
+      "name": "Let's get together on Twitter",
+      "url": "https://twitter.com/greatshiva773",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me on Github",
+      "url": "https://github.com/Cshiva773",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/shivansh-chauhan-8677b4228/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

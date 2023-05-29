@@ -1,0 +1,16 @@
+{
+  "name": "Palak Goyal",
+  "bio": "Palak is a frontend developer and besides programming she loves cooking, meditating and travelling",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Palaktwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Palakkgoyal",
+      "icon": "FaGithub"
+    }
+  ]
+}

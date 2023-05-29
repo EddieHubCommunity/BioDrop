@@ -1,6 +1,5 @@
 {
   "name": "Rattandeep Singh",
-  "type": "personal",
   "bio": "Software Developer | Researcher | Innovator | NSIT Student",
   "tags": [
     "Open Source",
@@ -10,11 +9,19 @@
     "Artificial Intelligence"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/rattandeep1998" },
-    { "icon": "FaGithub", "url": "https://github.com/rattandeep1998" },
-    { "icon": "FaLink", "url": "https://rattandeep1998.github.io/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rattandeep1998"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rattandeep1998"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://rattandeep1998.github.io/"
+    }
   ],
-
   "links": [
     {
       "name": "Daily tweets on Open Source",
