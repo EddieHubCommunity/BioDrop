@@ -1,9 +1,9 @@
-## 1.133.8 (2023-05-29)
+## 1.133.9 (2023-05-29)
 
 
 ### Bug Fixes
 
-* parent div to header ([#7155](https://github.com/EddieHubCommunity/LinkFree/issues/7155)) ([fdaf3e6](https://github.com/EddieHubCommunity/LinkFree/commit/fdaf3e64c44596d09b84482a074b39396c8856e8))
+* event date hydration issues ([#7135](https://github.com/EddieHubCommunity/LinkFree/issues/7135)) ([69fdf8a](https://github.com/EddieHubCommunity/LinkFree/commit/69fdf8a05c072cf7eeb87f4da4ac156866957f11))
 
 
 
