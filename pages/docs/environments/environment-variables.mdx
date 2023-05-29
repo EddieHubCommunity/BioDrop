@@ -1,5 +1,6 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
+import ClipboardCopy from "@components/ClipboardCopy.js";
 
 ## Environment variables
 
@@ -14,6 +15,20 @@ Environment variables are needed in the `.env` file to allow the application to 
 | GITHUB_ID                        | abcedfghil12345                    | true     | GitHub OAuth ID                                     |
 | GITHUB_SECRET                    | a1b2c3e4f5e6                       | true     | GitHub OAuth Secret                                 |
 | NEXTAUTH_SECRET                  | afsfdsafadsf                       | true     | Next Auth Secret, this can be any random characters |
+
+<ClipboardCopy>
+```js
+LINKFREE_MONGO_CONNECTION_STRING="mongodb://localhost:27017/linkfree"
+NEXT_PUBLIC_GA_MEASUREMENT_ID=""
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+NODE_ENV="development"
+
+GITHUB_ID=""
+GITHUB_SECRET=""
+NEXTAUTH_SECRET=""
+NEXTAUTH_URL="http://localhost:3000"
+```
+</ClipboardCopy>
 
 ### GitHub OAuth
 
