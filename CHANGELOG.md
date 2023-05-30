@@ -1,9 +1,9 @@
-# 1.134.0 (2023-05-30)
+## 1.134.1 (2023-05-30)
 
 
-### Features
+### Bug Fixes
 
-* promo video on homepage ([#7229](https://github.com/EddieHubCommunity/LinkFree/issues/7229)) ([#7230](https://github.com/EddieHubCommunity/LinkFree/issues/7230)) ([182e1d2](https://github.com/EddieHubCommunity/LinkFree/commit/182e1d23950d9dffc794f2a1ddc3dd56af9230c5))
+* events timezone ([#7267](https://github.com/EddieHubCommunity/LinkFree/issues/7267)) ([9eb70e2](https://github.com/EddieHubCommunity/LinkFree/commit/9eb70e2f2c5ee7b7cd64557d34786f1c67215506))
 
 
 
