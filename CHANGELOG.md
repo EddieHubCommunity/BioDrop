@@ -1,9 +1,9 @@
-## 1.133.9 (2023-05-29)
+# 1.134.0 (2023-05-30)
 
 
-### Bug Fixes
+### Features
 
-* event date hydration issues ([#7135](https://github.com/EddieHubCommunity/LinkFree/issues/7135)) ([69fdf8a](https://github.com/EddieHubCommunity/LinkFree/commit/69fdf8a05c072cf7eeb87f4da4ac156866957f11))
+* promo video on homepage ([#7229](https://github.com/EddieHubCommunity/LinkFree/issues/7229)) ([#7230](https://github.com/EddieHubCommunity/LinkFree/issues/7230)) ([182e1d2](https://github.com/EddieHubCommunity/LinkFree/commit/182e1d23950d9dffc794f2a1ddc3dd56af9230c5))
 
 
 
