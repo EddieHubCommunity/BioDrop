@@ -2,15 +2,33 @@
   "name": "Poonam Pawar",
   "type": "personal",
   "bio": "I am 22 Grad in Computer Science, currently learning DevOps",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "DevRel",
+    "Kubernetes",
+    "Cloud Native",
+    "Tech Blogs"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pawartwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Poonam1607"
+    }
+  ],
   "links": [
     {
-      "name": "Work on GitHub",
+      "name": "Let's Collaborate",
       "url": "https://github.com/Poonam1607",
       "icon": "FaGithubAlt"
     },
 
     {
-      "name": "Connect on LinkedIn",
+      "name": "Let's Connect",
       "url": "https://www.linkedin.com/in/poonampawar7/",
       "icon": "FaLinkedin"
     },
