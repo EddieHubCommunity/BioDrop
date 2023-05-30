@@ -1,0 +1,18 @@
+name: 'lock/unlock issues'
+
+on:
+  issues:
+    types: labeled
+
+permissions:
+  issues: write
+
+
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/label-actions@v3
+        with:
+          process-only : 'issues'
+          config-path : '.github/lock-unlock-issues.yml'
