@@ -1,6 +1,6 @@
 {
     "name": "Jugaaadd",
-    "bio": "Hello World, I'm very tech oriented graphics designer.",
+    "bio": "Hello World, I'm tech oriented **graphics designer**.",
     "links": [
         {
             "name": "Instagram",
@@ -21,6 +21,11 @@
             "name": "Github",
             "url": "https://github.com/jugaaadd",
             "icon": "FaGithub"
+        }
+    {
+            "name": "Gumroad",
+            "url": "https://jugaadd.gumroad.com/",
+            "icon": "SiGumroad"
         }
     ]
 }
