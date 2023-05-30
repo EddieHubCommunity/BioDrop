@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
@@ -13,18 +13,20 @@ import FallbackImage from "@components/FallbackImage";
 
 export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
+  const [startTime, setStartTime] = useState(event.date.startFmt)
+  const [endTime, setEndTime] = useState(event.date.endFmt)
   
   useEffect((() => {
     const dateTimeStyle = {
       dateStyle: "full",
       timeStyle: "long",
     };
-    event.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+    setStartTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
       new Date(event.date.start)
-    );
-    event.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+    ));
+    setEndTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
       new Date(event.date.end)
-    );
+    ));
   }),[event.date])
 
   return (
@@ -72,11 +74,11 @@ export default function EventCard({ event, username }) {
               </div>
               <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
                 <span>
-                  {event.date.startFmt}
+                  {startTime}
                 </span>
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>
-                  {event.date.endFmt}
+                  {endTime}
                 </span>
               </p>
               <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
