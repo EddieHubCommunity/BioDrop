@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { IconContext } from "react-icons";
+import Script from "next/script";
+
 import {
   MdOutlinePlayArrow,
   MdHelpOutline,
@@ -266,14 +268,13 @@ export default function Home({ total, today }) {
               </div>
             </div>
             <div className="aspect-w-16 aspect-h-9">
-              <iframe
-                title="LinkFree promotional video"
-                aria-label="LinkFree promotional video"
-                src="https://www.youtube.com/embed/ff2N8aJlEhc"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+              <div
+                className="kartra_video_containergbHEDtAnMwlF js_kartra_trackable_object"
+                data-kt-type="video"
+                data-kt-value="gbHEDtAnMwlF"
+                data-kt-owner="nkmvj7Xr"
+              ></div>
+              <Script src="https://app.kartra.com/video/gbHEDtAnMwlF"></Script>
             </div>
           </div>
         </div>
