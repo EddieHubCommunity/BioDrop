@@ -32,6 +32,32 @@ export async function getEvents() {
       }))
       // TODO remove and do with mongo query
       .filter((event) => new Date(event.date.end) > new Date());
+
+    let dateEvents = [];
+    const today = new Date()
+    for (const event of events) {
+      let cleanEvent = structuredClone(event);
+      const dateTimeStyle = {
+        dateStyle: "full",
+        timeStyle: "long",
+      };
+      try {
+        cleanEvent.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.start)
+        );
+        cleanEvent.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.end)
+        );
+
+        cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > today);
+  
+        dateEvents.push(cleanEvent)
+      } catch (e) {
+        logger.error(e, `ERROR event date for: "${event.name}"`);
+      }
+    }
+
+    events = dateEvents;
   } catch (e) {
     logger.error(e, "Failed to load events");
     events = [];

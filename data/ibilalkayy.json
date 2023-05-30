@@ -1,6 +1,7 @@
 {
   "name": "Bilal Khan",
-  "bio": "Book Loop Founder, DevOps Guy, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
+  "bio": "Bloop Founder, DevOps Guy, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
+
   "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
     {
@@ -9,7 +10,7 @@
     },
     {
       "icon": "FaCircleNotch",
-      "url": "https://bookloop.club/"
+      "url": "https://bloop.gg/"
     },
     {
       "icon": "SiYoutube",
@@ -45,8 +46,8 @@
       "icon": "FaGlobe"
     },
     {
-      "name": "Book Loop: A Startup",
-      "url": "https://bookloop.club",
+      "name": "Bloop: A Startup",
+      "url": "https://bloop.gg/",
       "icon": "FaCircleNotch"
     },
     {
@@ -104,6 +105,14 @@
       "color": "blue",
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Started Bloop",
+      "date": "Feb 3, 2023",
+      "icon": "FaCircleNotch",
+      "color": "black",
+      "description": "Started my Bloop startup",
+      "url": "https://bloop.gg/"
     },
     {
       "title": "Created 60 Days Of DevOps Videos",

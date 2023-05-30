@@ -1,0 +1,21 @@
+{
+  "name": "Anshul Wadhwa",
+  "bio": "Pursuing Bachelor's in Computer Science",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "http://www.linkedin.com/in/anshul-wadhwa",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Anshul_439",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Anshul439",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -128,7 +128,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="min-h-full" ref={navConRef}>
+    <header className="min-h-full" ref={navConRef}>
       <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
@@ -273,6 +273,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }

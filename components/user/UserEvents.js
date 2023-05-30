@@ -47,7 +47,6 @@ export default function UserEvents({ data }) {
         return true;
     }
   };
-
   const getFilteredEvents = () => {
     if (eventType === "all") {
       return data.events;
