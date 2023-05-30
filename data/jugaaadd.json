@@ -1,0 +1,26 @@
+{
+    "name": "Jugaaadd",
+    "bio": "Hello World, I'm very tech oriented graphics designer.",
+    "links": [
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/jugaaaadd/",
+            "icon": "FaInstagram"
+        },
+    {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jugaad/",
+            "icon": "FaLinkedin"
+        },
+    {
+            "name": "Behance",
+            "url": "https://www.behance.net/Jugaad",
+            "icon": "FaBehance"
+        },
+    {
+            "name": "Github",
+            "url": "https://github.com/jugaaadd",
+            "icon": "FaGithub"
+        }
+    ]
+}

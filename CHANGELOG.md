@@ -1,9 +1,9 @@
-## 1.133.8 (2023-05-29)
+## 1.134.1 (2023-05-30)
 
 
 ### Bug Fixes
 
-* parent div to header ([#7155](https://github.com/EddieHubCommunity/LinkFree/issues/7155)) ([fdaf3e6](https://github.com/EddieHubCommunity/LinkFree/commit/fdaf3e64c44596d09b84482a074b39396c8856e8))
+* events timezone ([#7267](https://github.com/EddieHubCommunity/LinkFree/issues/7267)) ([9eb70e2](https://github.com/EddieHubCommunity/LinkFree/commit/9eb70e2f2c5ee7b7cd64557d34786f1c67215506))
 
 
 
