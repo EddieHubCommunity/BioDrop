@@ -23,26 +23,23 @@ export default function UserEvents({ data }) {
   };
 
   const filterByEventType = (event, eventType) => {
-    const startDate = new Date(event.date.start);
-    const endDate = new Date(event.date.end);
-    const now = new Date();
     switch (eventType) {
       case "future":
-        return startDate > now;
+        return event.date.future;
       case "ongoing":
-        return startDate <= now && now <= endDate;
+        return event.date.ongoing;
       case "virtual":
-        return startDate > now && event.isVirtual;
+        return event.date.future && event.isVirtual;
       case "inPerson":
-        return startDate > now && event.isInPerson;
+        return event.date.future && event.isInPerson;
       case "cfpOpen":
-        return startDate > now && event.date.cfpClose > now;
+        return event.date.cfpOpen;
       case "free":
         return event.price?.startingFrom === 0;
       case "paid":
         return event.price?.startingFrom > 0;
       case "past":
-        return endDate < now;
+        return !event.date.future;
       default:
         return true;
     }
