@@ -13,38 +13,38 @@
   { "icon": "FaTwitter", "url": "https://twitter.com/AbhayaShankar2" },
   { "icon": "FaGithub", "url": "https://github.com/AbhayaShankar" },
   { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/abhayashankar/" }
-],
+  ],
   "links" : [
     {
       "group" : "Projects",
       "name" : "Estate Empires",
       "url" : "https://estates-empire.vercel.app/",
-      "icon" : "FaJsSquare",
+      "icon" : "FaJsSquare"
     },
     {
       "group" : "Projects",
       "name" : "Abhaya's Blog",
       "url" : "https://abhayablog.vercel.app/",
-      "icon" : "FaBlogger",
+      "icon" : "FaBlogger"
     },
     {
       "group" : "Projects",
       "name" : "Animxstore",
       "url" : "https://animxstore.vercel.app/",
-      "icon" : "FaAppStore",
+      "icon" : "FaAppStore"
     },
     {
       "group" : "Projects",
       "name" : "Cinetrek",
       "url" : "https://cinetrek.netlify.app/",
-      "icon" : "FaLaptop",
+      "icon" : "FaLaptop"
     },
     {
       "group" : "Socials",
       "name" : "Let's Talk on Twitter",
       "url" : "https://twitter.com/AbhayaShankar2",
       "icon" : "FaTwitter",
-      "color": "#00ACEE",
+      "color": "#00ACEE"
     },
     {
       "group" : "Socials",
@@ -74,21 +74,21 @@
       "date": "October 2022",
       "icon": "FaCode",
       "color": "grey",
-      "description": "The time I started web development - HTML, CSS, JS",
+      "description": "The time I started web development - HTML, CSS, JS"
     },
     {
       "title": "Started building Projects using Vanilla JS",
       "date": "December 2022",
       "icon": "FaCode",
       "color": "green",
-      "description": "Started building Vanilla JS Projects",
+      "description": "Started building Vanilla JS Projects"
     },
     {
       "title": "Started React JS",
       "date": "January 2023",
       "icon": "FaReact",
       "color": "green",
-      "description": "Build some good Projects using ReactJs - Animxstore, Scrollify and Cinetrek ",
+      "description": "Build some good Projects using ReactJs - Animxstore, Scrollify and Cinetrek "
     },
     {
       "title": "First Freelance",
@@ -112,7 +112,7 @@
       "date": "2023",
       "icon": "FaGithub",
       "color": "green",
-      "description": "Wanted to get real with typescript and contribute to open source.",
+      "description": "Wanted to get real with typescript and contribute to open source."
     }
   ]
 }
