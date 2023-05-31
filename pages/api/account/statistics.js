@@ -9,17 +9,14 @@ export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
 
   if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
+     return res.status(401).json({ message: "You must be logged in." });
   }
 
-  if (req.method != "GET") {
-    return res
-      .status(400)
-      .json({ error: "Invalid request: GET request required" });
+  if (req.method !== "GET") {
+    return res.status(400).json({ error: "Invalid request: GET request required" });
   }
 
-  const data = await getStats(session.username)
+  const data = await getStats(session.username);
 
   res.status(200).json(data);
 }
@@ -30,15 +27,15 @@ export async function getStats(username) {
   let profileData = {};
   try {
     profileData = await Profile.findOne({ username });
-  } catch (e) {
-    logger.error(e, "failed to load profile");
+  } catch (error) {
+    logger.error(error, "Failed to load profile");
   }
 
   let profileViews = [];
   try {
     profileViews = await ProfileStats.find({ username }).sort({ date: "asc" });
-  } catch (e) {
-    logger.error(e, "failed to load stats");
+  } catch (error) {
+    logger.error(error, "Failed to load stats");
   }
 
   let totalViews = 0;
@@ -53,8 +50,8 @@ export async function getStats(username) {
   let linkClicks = [];
   try {
     linkClicks = await Link.find({ username }).sort({ clicks: -1 });
-  } catch (e) {
-    logger.error(e, "failed to load stats");
+  } catch (error) {
+    logger.error(error, "Failed to load stats");
   }
 
   let dailyClicks = [];
@@ -62,8 +59,8 @@ export async function getStats(username) {
     dailyClicks = await LinkStats.find({ username }).sort({
       date: "asc",
     });
-  } catch (e) {
-    logger.error(e, `failed to load url stats for ${username}`);
+  } catch (error) {
+    logger.error(error, `Failed to load URL stats for ${username}`);
   }
 
   let totalClicks = 0;
