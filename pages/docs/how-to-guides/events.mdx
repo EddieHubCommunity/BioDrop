@@ -14,13 +14,16 @@ All future events also appear on the Events page for the app.
 
 ### Add Event
 
-1. Create a folder that matches your GitHub username in the `data` directory and then in that folder create another folder called `events`. For example `data/eddiejaoude/events/`
+1. Create a folder that matches your GitHub username in the `data` directory and then in that folder create another folder called `events`.  
+   For example: `data/eddiejaoude/events/`
 
-2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name. For example `2023-09-13-javascript-conference.json`.
+2. In your folder add a `json` file with any name you like. We recommend putting the date first and then appending it with the event name.
+   For example: `2023-09-13-javascript-conference.json`.
 
 _If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
-3. This `json` file will contain one object for the event and must have these six fields: `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location` (this field will be required only when `isInPerson` is `true`). It can also optionally include other fields. For instance: `userStatus` & `speakingTopic`. It will look like this:
+3. This `json` file will contain one object for the event and must have these six fields: `isVirtual` and/or `isInPerson`, `color`, `name`, `description`, `date`, `url`, and `location` (this field will be required only when `isInPerson` is `true`).
+   It can also optionally include other fields. For instance: `userStatus` & `speakingTopic`. It will look like this:
 
 <ClipboardCopy>
 ```js
@@ -73,8 +76,6 @@ _If you need help on how to edit this file, please see the <Link href="/docs/how
 | country           | false    | In which country, the event is hosting |
 
 4. Now you can commit your file and create a Pull Request. For more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
-
-If you want to know how to properly add start, end, and CFP Close times, feel free to check [Unix Time stamp](https://www.unixtimestamp.com/).
 
 export default ({ children }) => (
   <DocsLayout

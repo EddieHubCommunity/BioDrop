@@ -1,9 +1,9 @@
-## 1.134.1 (2023-05-30)
+## 1.135.1 (2023-05-31)
 
 
 ### Bug Fixes
 
-* events timezone ([#7267](https://github.com/EddieHubCommunity/LinkFree/issues/7267)) ([9eb70e2](https://github.com/EddieHubCommunity/LinkFree/commit/9eb70e2f2c5ee7b7cd64557d34786f1c67215506))
+* tag text color ([#7095](https://github.com/EddieHubCommunity/LinkFree/issues/7095)) ([94c6a63](https://github.com/EddieHubCommunity/LinkFree/commit/94c6a63cd50f959bbc5cfdcb5d76370abe8259d9))
 
 
 
