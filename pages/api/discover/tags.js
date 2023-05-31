@@ -21,7 +21,7 @@ export async function getTags() {
       },
       {
         $group: {
-          _id: "$tags",
+          _id: { $toLower: "$tags" },
           total: { $sum: 1 },
         },
       },
