@@ -73,12 +73,6 @@
       "icon": "FaLinkedin"
     },
     {
-      "group": "Socials Secondary",
-      "name": "YouTube Shorts: Quick technical tips",
-      "url": "https://youtube.com/eddiejaoudetv",
-      "icon": "FaYoutube"
-    },
-    {
       "group": "EddieHub Community",
       "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
       "url": "http://eddiehub.org",
@@ -97,25 +91,22 @@
       "icon": "FaPodcast"
     },
     {
+      "group": "Content",
       "name": "Course (free): Customising your GitHub Profile",
       "url": "http://eddiejaoude.io/course-github-profile-landing",
       "icon": "FaGithub"
     },
     {
-      "group": "Socials Secondary",
-      "name": "Mastodon: Connect with me",
-      "url": "https://fosstodon.org/@eddiejaoude",
-      "icon": "FaMastodon"
-    },
-    {
-      "name": "Donate: GitHub Sponsors",
-      "url": "https://github.com/sponsors/eddiejaoude",
-      "icon": "FaRegMoneyBillAlt"
-    },
-    {
+      "group": "Content",
       "name": "Open Source project LinkFree",
       "url": "https://github.com/EddieHubCommunity/LinkFree",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Donate",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "FaRegMoneyBillAlt"
     }
   ],
   "milestones": [

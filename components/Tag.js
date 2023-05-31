@@ -8,7 +8,7 @@ export default function Tag({ name, total, selected, onClick }) {
       display={!!total}
       badgeClassName={"translate-x-1.5 -translate-y-1"}
     >
-      <div
+      <button
         onClick={onClick}
         className={`flex flex-row p-1 m-2 rounded-lg text-sm font-mono border-2 cursor-pointer shadow-none ${
           selected
@@ -17,7 +17,7 @@ export default function Tag({ name, total, selected, onClick }) {
         }`}
       >
         {name}
-      </div>
+      </button>
     </Badge>
   );
 }

@@ -128,7 +128,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="min-h-full" ref={navConRef}>
+    <header className="min-h-full" ref={navConRef}>
       <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
@@ -146,16 +146,17 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <ul className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink
-                      key={item.name}
-                      path={router.pathname}
-                      item={item}
-                      setIsOpen={setIsOpen}
-                    />
+                    <li key={item.name}>
+                      <NavLink
+                        path={router.pathname}
+                        item={item}
+                        setIsOpen={setIsOpen}
+                      />
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
             <div className="hidden md:block">
@@ -165,19 +166,19 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/roadmap" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="relative">
-                  <Link
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 {authControls()}
               </div>
             </div>
@@ -252,26 +253,26 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/changelog" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="ml-3 mr-2 relative">
-                  <Link
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-white"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="ml-3 mr-2 relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
+
                 {authControls()}
               </div>
             </div>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }

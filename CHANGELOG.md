@@ -1,9 +1,9 @@
-## 1.130.18 (2023-05-23)
+# 1.135.0 (2023-05-31)
 
 
-### Bug Fixes
+### Features
 
-* change heading to paragraph for gh accelerator ([#7110](https://github.com/EddieHubCommunity/LinkFree/issues/7110)) ([efec2ed](https://github.com/EddieHubCommunity/LinkFree/commit/efec2edd16351fcc776d5942aefe6f6f480f6d2d))
+* events tab filter categories dropdown menu ([#7180](https://github.com/EddieHubCommunity/LinkFree/issues/7180)) ([34b1735](https://github.com/EddieHubCommunity/LinkFree/commit/34b17356a2ab5297873fcb4b92c078bb9922e309))
 
 
 

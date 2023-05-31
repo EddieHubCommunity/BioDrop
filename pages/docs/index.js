@@ -63,7 +63,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Available icons",
+          name: "Available Icons",
           path: "/icons",
           description:
             "Search for available icons you can use on your profile.",
@@ -159,7 +159,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Social shortcuts",
+          name: "Social Shortcuts",
           path: "/docs/how-to-guides/socials-shortcuts",
           description:
             "Add a shortcut to your favourite social media accounts at the top of your Profile.",
@@ -223,7 +223,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Automated tests",
+          name: "Automated Tests",
           path: "/docs/contributing/automated-tests",
           description:
             "Run the Playwright testing framework that drives the browser as a user does via code.",
@@ -265,10 +265,11 @@ export default function DocsIndex() {
         {
           name: "Docs Style Guide",
           path: "/docs/docs-style-guide",
-          description: "A guide for contributors when making changes to the documentation.",
+          description:
+            "A guide for contributors when making changes to the documentation.",
           category: {
-           name: "Beginner",
-           color: "bg-green-100 text-green-800",
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
           },
         },
       ],
@@ -280,12 +281,11 @@ export default function DocsIndex() {
         {
           name: "Profile Tips",
           path: "/docs/profile-tips",
-          description:
-          "Tips on making your LinkFree profile stand out.",
-          category: { 
+          description: "Tips on making your LinkFree profile stand out.",
+          category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
-          }
+          },
         },
         {
           name: "Full Profile Example",
@@ -298,7 +298,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Single user mode",
+          name: "Single User Mode",
           path: "/docs/advanced/single-user-mode",
           description: "Self host LinkFree for your single Profile.",
           category: {
@@ -374,7 +374,10 @@ export default function DocsIndex() {
           >
             <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
+                <h2
+                  className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
+                  id={section.title}
+                >
                   {section.title}
                 </h2>
                 <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-high sm:mt-4">

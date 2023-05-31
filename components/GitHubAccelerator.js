@@ -59,9 +59,9 @@ export default function GitHubAccelerator() {
           </div>
         </div>
         <div className="mt-6 hidden min-w-0 flex-1 sm:block md:hidden">
-          <h1 className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
+          <p className="truncate text-2xl font-bold text-primary-high dark:text-primary-low">
             GitHub Accelerator Program
-          </h1>
+          </p>
         </div>
       </div>
     </div>
