@@ -1,13 +1,7 @@
 {
   "name": "Priyanshu Maurya",
-  "bio": "React.js Developer | Open-source Contributor | Aspiring Machine Learning Practitioner", 
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "Typescript",
-    "Python",
-    "React"
-  ],
+  "bio": "React.js Developer | Open-source Contributor | Aspiring Machine Learning Practitioner",
+  "tags": ["Open Source", "Javascript", "Typescript", "Python", "React"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -38,7 +32,6 @@
       "url": "https://www.linkedin.com/in/priyanshu-maurya/",
       "icon": "FaLinkedin"
     }
-
   ],
   "milestones": [
     {
