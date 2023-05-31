@@ -1,9 +1,9 @@
-# 1.135.0 (2023-05-31)
+## 1.135.1 (2023-05-31)
 
 
-### Features
+### Bug Fixes
 
-* events tab filter categories dropdown menu ([#7180](https://github.com/EddieHubCommunity/LinkFree/issues/7180)) ([34b1735](https://github.com/EddieHubCommunity/LinkFree/commit/34b17356a2ab5297873fcb4b92c078bb9922e309))
+* tag text color ([#7095](https://github.com/EddieHubCommunity/LinkFree/issues/7095)) ([94c6a63](https://github.com/EddieHubCommunity/LinkFree/commit/94c6a63cd50f959bbc5cfdcb5d76370abe8259d9))
 
 
 
