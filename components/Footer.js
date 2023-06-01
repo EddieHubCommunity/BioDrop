@@ -3,8 +3,10 @@ import Image from "next/image";
 import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
-import FaRocket from "@components/icons/FaRocket";
+
 import FaDollarSign from "@components/icons/FaDollarSign";
+
+import { RocketLaunchIcon } from "@heroicons/react/20/solid";
 import Button from "./Button";
 import Link from "@components/Link";
 
@@ -210,7 +212,7 @@ export default function Footer() {
             href="https://github.com/EddieHubCommunity/LinkFree"
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
           >
-            <FaRocket className="h-6 w-6" aria-hidden="true" />
+            <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub
           </Link>
         </div>
