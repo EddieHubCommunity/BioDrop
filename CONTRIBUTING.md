@@ -1,5 +1,9 @@
 # Contributing Guide
 
+[![LinkFree Contributing Guide](https://github-production-user-asset-6210df.s3.amazonaws.com/35479077/242535587-d33e07a3-5732-465e-955a-7d7bd504b99b.jpg)](https://youtu.be/dfeSpGd8leU)
+
+## Issues & Pull Requests (not for Profiles)
+
 ## Issues & Pull Requests (not for Profiles)
 
 ### Creating an Issue
