@@ -1,0 +1,32 @@
+{
+  "name": "Puneet Mahali",
+  "type": "Personal",
+  "bio": "iOS Developer | Tech Fanatic",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/puneet-mahali-41979b95/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Xing",
+      "url": "https://www.xing.com/profile/Puneet_Mahali",
+      "icon": "FaXing"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/puneetmahali",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/puneetmahali",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "About Me",
+      "url": "https://about.me/puneetmahali",
+      "icon": "SiAboutdotme"
+    }
+  ]
+}
