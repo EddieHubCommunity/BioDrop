@@ -1,9 +1,9 @@
-## 1.135.1 (2023-05-31)
+## 1.135.2 (2023-06-01)
 
 
 ### Bug Fixes
 
-* tag text color ([#7095](https://github.com/EddieHubCommunity/LinkFree/issues/7095)) ([94c6a63](https://github.com/EddieHubCommunity/LinkFree/commit/94c6a63cd50f959bbc5cfdcb5d76370abe8259d9))
+* totals for app stats from DB ([#7294](https://github.com/EddieHubCommunity/LinkFree/issues/7294)) ([1777592](https://github.com/EddieHubCommunity/LinkFree/commit/1777592e95060a16503ef79d90f3f9100110c572))
 
 
 
