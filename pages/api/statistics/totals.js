@@ -43,7 +43,7 @@ export async function getTotalStats() {
 
   let totalProfiles = 0;
   try {
-    totalProfiles = await Profile.countDocuments({});
+    totalProfiles = await Profile.find({}).estimatedDocumentCount();
   } catch (e) {
     logger.error(e, "failed to load profile list");
   }
