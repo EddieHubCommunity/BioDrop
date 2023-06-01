@@ -1,14 +1,13 @@
 import Image from "next/image";
 
-import {
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-  FaRocket,
-  FaDollarSign,
-} from "react-icons/fa";
+import FaLinkedin from "@components/icons/FaLinkedin";
+import FaGithub from "@components/icons/FaGithub";
+import FaYoutube from "@components/icons/FaYoutube";
+import FaRocket from "@components/icons/FaRocket";
+import FaDollarSign from "@components/icons/FaDollarSign";
 import Button from "./Button";
 import Link from "@components/Link";
+
 
 export default function Footer() {
   const navigation = {
