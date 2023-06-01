@@ -1,25 +1,34 @@
 {
   "name": "Puneet Mahali",
-  "type": "Personal",
-  "bio": "iOS Developer | Tech Fanatic",
+  "bio": "Mobile App Developer",
+  "tags": [
+    "Open Source",
+    "iOS",
+    "Swift",
+    "Objective-c",
+    "Xcode",
+    "Javascript",
+    "Node.js",
+    "Tech Fanatic"
+  ],
   "links": [
     {
-      "name": "LinkedIn",
+      "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/puneet-mahali-41979b95/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Xing",
+      "name": "Xing: Let's connect",
       "url": "https://www.xing.com/profile/Puneet_Mahali",
       "icon": "FaXing"
     },
     {
-      "name": "Twitter",
+      "name": "Twitter: Follow me",
       "url": "https://twitter.com/puneetmahali",
       "icon": "FaTwitter"
     },
     {
-      "name": "Github",
+      "name": "Github: Collaborate on Open Source",
       "url": "https://github.com/puneetmahali",
       "icon": "FaGithub"
     },
