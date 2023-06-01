@@ -23,14 +23,15 @@ Before contributing or adding a new feature, please make sure you have already i
 
 ### Steps to implement local environment
 
-You can set this up locally with the following steps.
+You can set this up locally with the following steps:
 
-1. make sure Mongo is running
-1. install npm dependencies with `npm ci`
-1. a new file will be created `.env` update environment [variables](/docs/environments/environment-variables)
-1. start the app with `npm run dev` and visit in the browser `http://localhost:3000`
+1. Make sure Mongo DB is running
+1. Install NPM dependencies with `npm ci`
+1. A new `.env` file will be created, you should update the environment [variables](/docs/environments/environment-variables)
+   - If you are making changes to documentation only, you can skip updating the environment variables
+1. Start the app with `npm run dev` or `npm run dev:docs` (for documentation only) and visit in the browser `http://localhost:3000`
 
-Any changes you make will automatically be reloaded in the browser.
+Any changes you make will automatically be reflected in the browser.
 
 ---
 
