@@ -1,9 +1,9 @@
-## 1.135.2 (2023-06-01)
+## 1.135.3 (2023-06-01)
 
 
 ### Bug Fixes
 
-* totals for app stats from DB ([#7294](https://github.com/EddieHubCommunity/LinkFree/issues/7294)) ([1777592](https://github.com/EddieHubCommunity/LinkFree/commit/1777592e95060a16503ef79d90f3f9100110c572))
+* limit MongoDB connections ([#7306](https://github.com/EddieHubCommunity/LinkFree/issues/7306)) ([424dab3](https://github.com/EddieHubCommunity/LinkFree/commit/424dab301112aeae96dbf63be7178feec6dc3687))
 
 
 
