@@ -5,7 +5,7 @@ services:
     container_name: linkfree
     build: 
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       args:
         - NODE_ENV=development
     image: linkfree-app
@@ -13,7 +13,6 @@ services:
       - "3000:3000"
     depends_on:
       - mongodb
-    command: npm run dev:docker
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules

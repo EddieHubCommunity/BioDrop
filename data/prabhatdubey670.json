@@ -1,0 +1,26 @@
+{
+  "name": "Prabhat Dubey",
+  "bio": "Frontend Developer | Next.js | React.js | Reactnative | Nodejs | Figma | Typescript",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/dprabhat670/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/prabhat-dubey-122aa722a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/prabhatdubey670/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "My portfolio",
+      "url": "https://www.prabhatdubey.works/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

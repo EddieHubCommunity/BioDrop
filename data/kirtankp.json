@@ -1,19 +1,14 @@
 {
   "name": "Kirtan Patel",
-  "type": "personal",
   "bio": "**Software Developer** | **Open Source**",
-
   "tags": [
     "Open Source",
     "Javascript",
     "ReactJS",
     "NodeJS",
     "Typescript",
-    "Typescript",
-    "NodeJS",
     "Java"
   ],
-
   "links": [
     {
       "group": "Projects",
@@ -40,7 +35,6 @@
       "icon": "FaLinkedin"
     }
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",

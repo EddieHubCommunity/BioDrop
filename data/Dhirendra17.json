@@ -1,6 +1,5 @@
 {
   "name": "Dhirendra Patil",
-  "type": "personal",
   "bio": "Developer | Autodesk Platform Services | DevOps Enthusiastic",
   "tags": ["DevOps", "Cloud", "Full Stack"],
   "socials": [
@@ -8,10 +7,15 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/dhirendra-patil/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/Dhirendra17" },
-    { "icon": "SiMedium", "url": "https://dhirendra777.medium.com/" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Dhirendra17"
+    },
+    {
+      "icon": "SiMedium",
+      "url": "https://dhirendra777.medium.com/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on LinkedIn",

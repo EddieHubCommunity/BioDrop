@@ -1,0 +1,44 @@
+{
+  "name": "Pritam Roy",
+  "bio": "Full stack web Developer and Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Pritam1136",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Pritam_1296",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pritam-roy-9b28a8250",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning Java",
+      "date": "January 2020",
+      "icon": "FaDollarSign",
+      "color": "red",
+      "description": "Started learning JAVA(First language i've learned)"
+    },
+    {
+      "title": "Started learning Javascript",
+      "date": "July 2021",
+      "icon": "FaBook",
+      "color": "blue",
+      "description": "Started learning Javascript, web development and various libraries"
+    },
+    {
+      "title": "Learning C",
+      "date": "February 2023",
+      "icon": "FaBook",
+      "color": "gray",
+      "description": "Learning C"
+    }
+  ]
+}

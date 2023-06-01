@@ -1,14 +1,21 @@
 {
   "name": "Mahir Mahdi",
-  "type": "personal",
   "bio": "Web Developer | Open Source Advocate",
   "tags": ["Web Development", "Open Source", "Javascript"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/MahirMahdi" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/_MahirMahdi" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mahirmahdi" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MahirMahdi"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_MahirMahdi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mahirmahdi"
+    }
   ],
-
   "links": [
     {
       "name": "GitHub: Collaborate on Open Source",

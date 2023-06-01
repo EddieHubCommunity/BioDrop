@@ -18,13 +18,10 @@ export async function getUsers() {
 
   let profiles = [];
   try {
-    profiles = await Profile.find({ name: { $exists: true } }, [
-      "username",
-      "name",
-      "bio",
-      "tags",
-      "location",
-    ]);
+    profiles = await Profile.find(
+      { name: { $exists: true }, isEnabled: true },
+      ["username", "name", "bio", "tags", "location"]
+    );
   } catch (e) {
     logger.error(e, "failed loading profiles");
     return profiles;

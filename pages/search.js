@@ -11,8 +11,10 @@ import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/users";
+import config from "@config/app.json";
 
 export async function getStaticProps() {
+  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
@@ -29,25 +31,26 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
+  if (data.users.length > 5) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  } else {
+    data.randUsers = data.users;
+  }
+
   return {
     props: { data },
-    revalidate: 60 * 60 * 2, //2 hours
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Search({ data }) {
-  let { users, tags } = data;
+export default function Search({ data: {users, tags, randUsers} }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
 
-  const [filteredUsers, setFilteredUsers] = useState([]);
+  const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
   let results = [];
-
-  const getRandomUsers = () => {
-    return users.sort(() => 0.5 - Math.random()).slice(0, 5);
-  };
 
   useEffect(() => {
     if (username) {
@@ -107,10 +110,9 @@ export default function Search({ data }) {
   };
 
   useEffect(() => {
-    console.log("======", inputValue.length);
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers(getRandomUsers());
+      setFilteredUsers(randUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
       return;

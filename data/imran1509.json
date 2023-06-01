@@ -1,8 +1,6 @@
 {
   "name": "Mohd Imran",
-  "type": "Personal",
   "bio": "DevOps | Co-Founder of **GrowInCommunity** | DevRel Enthusiast | Tech Blogger | Open Source | Cloud Computing | Cloud Native",
-
   "tags": [
     "Open Source",
     "DevOps",
@@ -16,8 +14,14 @@
     "Python"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/codenameimmy" },
-    { "icon": "FaGithub", "url": "https://github.com/imran1509" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/codenameimmy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/imran1509"
+    }
   ],
   "testimonials": ["loftwah", "aasthashahcodes", "gagan-baghel"],
   "links": [

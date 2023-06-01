@@ -1,0 +1,21 @@
+{
+  "name": "Vishnuhari V A",
+  "bio": "On a relentless quest to find the ultimate algorithm for a meaningful life",
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/vishnuhari_17",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vishnuhari-v-a-9722a0255/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Github",
+      "url": "https://github.com/vishnuhari17",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,11 +1,19 @@
 {
   "name": "Hieu Minh Nguyen",
-  "type": "personal",
   "bio": "Hello. I am human (hieu-minh).",
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/cheehieu" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/cheehieu" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/cheehieu" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/cheehieu"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/cheehieu"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/cheehieu"
+    }
   ],
   "testimonials": ["cheehieu"],
   "links": [

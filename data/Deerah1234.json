@@ -1,10 +1,7 @@
 {
   "name": "Emmanuel James",
-  "type": "personal",
   "bio": "Software Engineer with experience in Python, C, HTML, CSS, React, and TypeScript",
-
   "tags": ["C", "CSS", "HTML", "JavaScript", "Python", "React", "TypeScript"],
-
   "links": [
     {
       "name": "Follow me on Twitter",

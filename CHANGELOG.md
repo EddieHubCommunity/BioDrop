@@ -1,9 +1,9 @@
-## 1.130.2 (2023-05-19)
+## 1.135.3 (2023-06-01)
 
 
 ### Bug Fixes
 
-* removed gh action load data ([#6995](https://github.com/EddieHubCommunity/LinkFree/issues/6995)) ([a88081e](https://github.com/EddieHubCommunity/LinkFree/commit/a88081e0be573e27f6049ad82cef81b0b460a745))
+* limit MongoDB connections ([#7306](https://github.com/EddieHubCommunity/LinkFree/issues/7306)) ([424dab3](https://github.com/EddieHubCommunity/LinkFree/commit/424dab301112aeae96dbf63be7178feec6dc3687))
 
 
 

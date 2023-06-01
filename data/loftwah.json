@@ -1,8 +1,6 @@
 {
   "name": "Dean Lofts",
-  "type": "personal",
   "bio": "DevOps Engineer, Proompter and a big fan of Open Source.",
-
   "tags": ["AWS", "DevOps", "DevRel", "Open Source", "Ruby", "Terraform"],
   "socials": [
     {

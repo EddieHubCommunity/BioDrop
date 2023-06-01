@@ -1,8 +1,6 @@
 {
   "name": "Imtiaz Ahmed",
-  "type": "personal",
   "bio": "**Freelance Software Developer**",
-
   "tags": ["Python", "JavaScript", "TypeScript", "NextJS", "Django", "Wagtail"],
   "links": [
     {

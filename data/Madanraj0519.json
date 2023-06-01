@@ -1,11 +1,16 @@
 {
   "name": "Madanraj",
-  "type": "personal",
   "bio": "A passionate Front-end developer from India",
   "tags": ["Open Source", "GitHub", "JavaScript", "ReactJS", "Tailwind"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Madan__raj" },
-    { "icon": "FaGithub", "url": "https://github.com/Madanraj0519" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Madan__raj"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Madanraj0519"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/madan-raj-7b8b23232/"

@@ -1,12 +1,16 @@
 {
   "name": "ATULYA JAISWAL",
-  "type": "personal",
   "bio": "Open Source and Web Dev Enthusiast!",
-
   "tags": ["javascript", "html", "css", "html", "react"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AtulyaJaiswal22" },
-    { "icon": "FaGithub", "url": "https://github.com/AtulyaJaiswal" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AtulyaJaiswal22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AtulyaJaiswal"
+    }
   ],
   "links": [
     {

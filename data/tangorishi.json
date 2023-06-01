@@ -1,8 +1,6 @@
 {
   "name": "Rishi Joshi",
-  "type": "personal",
   "bio": "Just a guy passionate for Web Development",
-
   "tags": [
     "C++",
     "Open Source",
@@ -12,16 +10,20 @@
     "C",
     "Frontend"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iamrishijo" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iamrishijo"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/rishi-joshi-924882200/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/tangorishi" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tangorishi"
+    }
   ],
-
   "links": [
     {
       "group": "Personal",

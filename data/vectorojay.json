@@ -1,6 +1,5 @@
 {
   "name": "Vector Ojay",
-  "type": "personal",
   "bio": "Photographer, transitioning to Tech || Software Developer(TypeScript, React). Versatile. Inquisitive. Passionate about Designs and UI. Eager for knowledge.",
   "links": [
     {
@@ -8,13 +7,11 @@
       "url": "https://www.linkedin.com/in/vectorojay/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "Let's connect on Twitter",
       "url": "https://twitter.com/VectorOjay",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Let's collaborate on Github",
       "url": "https://github.com/vectorojay",

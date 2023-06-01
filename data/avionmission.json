@@ -1,16 +1,25 @@
 {
   "name": "Avinash Prasad",
-  "type": "personal",
   "bio": "React Developer | Technical Writer | Youtube Creator",
-
   "tags": ["Open Source", "DevOps", "Javascript", "React Native"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/avionmission" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/avionmission" },
-    { "icon": "FaGithub", "url": "https://github.com/avionmission" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/AvinashPrasad" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/avionmission"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/avionmission"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/avionmission"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/AvinashPrasad"
+    }
   ],
-
   "links": [
     {
       "group": "Business",

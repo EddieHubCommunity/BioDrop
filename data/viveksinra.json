@@ -1,8 +1,6 @@
 {
   "name": "Vivek Singh",
-  "type": "personal",
   "bio": "Full Stack Developer | Founder of **Softechinfra** | **Qualifier.co.in** CEO",
-
   "tags": [
     "MernDev",
     "Javascript",
@@ -25,7 +23,6 @@
       "url": "https://youtube.com/@viveksinra"
     }
   ],
-
   "links": [
     {
       "group": "Business",
@@ -77,7 +74,6 @@
       "url": "https://youtube.com/@viveksinra",
       "icon": "FaYoutube"
     },
-
     {
       "name": "Course (free): Learn With Vivek",
       "url": "http://learnwithvivek.com",
@@ -95,14 +91,12 @@
     },
     {
       "title": "Started Teaching",
-
       "date": "June 2019",
       "icon": "FaYoutube",
       "color": "red",
       "description": "Started creating content",
       "url": "https://learnwithvivek.com"
     },
-
     {
       "isGoal": true,
       "title": "Course on helping people get started with Open Source",

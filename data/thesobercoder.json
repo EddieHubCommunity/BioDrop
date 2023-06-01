@@ -1,7 +1,6 @@
 {
   "name": "Soham Dasgupta",
-  "type": "personal",
-  "bio": "Software Engineering Manager | Technology Leader | Enterprise Architect | Full-Stack Developer | Open-Source Enthusiast",
+  "bio": "Director, Software Engineering | Technology Leader | Enterprise Architect | Full-Stack Developer | Open-Source Enthusiast",
   "tags": [
     "Open Source",
     "JavaScript",
@@ -17,8 +16,14 @@
     "Helm"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/thesobercoder" },
-    { "icon": "FaGithub", "url": "https://github.com/thesobercoder" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thesobercoder"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thesobercoder"
+    }
   ],
   "links": [
     {

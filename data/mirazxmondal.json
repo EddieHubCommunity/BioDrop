@@ -1,8 +1,6 @@
 {
   "name": "Miraz Mondal",
-  "type": "personal",
   "bio": "A passionate full-stack developer from the city of joy, Kolkata!",
-
   "tags": [
     "Open Source",
     "Community",
@@ -14,13 +12,20 @@
     "Python",
     "DevOps"
   ],
-
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/mirazxmondal" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/mirazxmondal" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/mirazxmondal" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mirazxmondal"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mirazxmondal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mirazxmondal"
+    }
   ],
-
   "links": [
     {
       "group": "Portfolio",
@@ -65,7 +70,6 @@
       "icon": "FaRegMoneyBillAlt"
     }
   ],
-
   "milestones": [
     {
       "title": "First Freelance Project",
