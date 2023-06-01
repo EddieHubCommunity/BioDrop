@@ -118,7 +118,16 @@ To add more links, add another object inside the links collection. For example:
 
 You can skip `optional extended message`
 
-**NOTE**: Please use the online [JSON Lint](https://jsonlint.com) tool to check if your JSON file is _error free_ before committing your pull request.
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE</strong>: Please use the online{" "}
+      <Link href="https://jsonlint.com">JSON Lint</Link> tool to check if your
+      JSON file is <i>error free</i> before committing your pull request.
+    </>
+  }
+/>
 
 11. Click `create new branch` and you can use the default name provided
 12. Then, click `Propose new file`
@@ -127,7 +136,12 @@ You can skip `optional extended message`
 
 <Alert
   type="warning"
-  message="13. **HIGHLY IMPORTANT:** Click `compare across forks` and you will see 4 drop downs"
+  message={
+    <>
+      13. <strong>HIGHLY IMPORTANT</strong>: Click compare across forks and you
+      will see 4 drop downs
+    </>
+  }
 />
 
 | Dropdown     | Description                          | Example values               |

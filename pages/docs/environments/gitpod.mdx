@@ -1,4 +1,6 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link.js";
+import Alert from "@components/Alert.js";
 
 ## Gitpod
 
@@ -6,7 +8,7 @@ Gitpod is an open-source application that provides a prebuilt development enviro
 
 ### How to use Gitpod
 
-You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree.  See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
+You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
 
 There are 2 ways you can open a repository with Gitpod:
 
@@ -17,7 +19,19 @@ There are 2 ways you can open a repository with Gitpod:
 
 Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.
 
-**_NOTE:_** Be sure that you have a fork of LinkFree in your Github Profile. If you don't have it, check out the [Quickstart Guide](https://linkfree.io/docs/quickstart).
+<Alert
+  type="warning"
+  message={
+    <>
+      <i>
+        <strong>NOTE:</strong>
+      </i>{" "}
+      Be sure that you have a fork of LinkFree in your Github Profile. If you
+      don't have it, check out the{" "}
+      <Link href="https://linkfree.io/docs/quickstart">Quickstart Guide</Link>.
+    </>
+  }
+/>
 
 Open your fork and follow along.
 
