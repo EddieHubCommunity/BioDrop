@@ -4,7 +4,6 @@ import Head from "next/head";
 import Page from "@components/Page";
 import Link from "@components/Link";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
-import MultiLayout from "./MultiLayout";
 
 export default function DocsLayout({ children, title }) {
   return (
@@ -51,7 +50,3 @@ export default function DocsLayout({ children, title }) {
     </>
   );
 }
-
-DocsLayout.getLayout = function getLayout(page) {
-  return <MultiLayout>{page}</MultiLayout>;
-};

@@ -1,6 +1,6 @@
 import Navbar from "@components/navbar/Navbar";
 import Footer from "@components/Footer";
-import { SkipLink } from "@components/skiplink";
+import { SkipLink } from "@components/SkipLink";
 
 export default function MultiLayout({ children }) {
   return (
