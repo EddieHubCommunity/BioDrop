@@ -1,9 +1,9 @@
-## 1.135.2 (2023-06-01)
+## 1.136.1 (2023-06-02)
 
 
 ### Bug Fixes
 
-* totals for app stats from DB ([#7294](https://github.com/EddieHubCommunity/LinkFree/issues/7294)) ([1777592](https://github.com/EddieHubCommunity/LinkFree/commit/1777592e95060a16503ef79d90f3f9100110c572))
+* linkfree-cli version ([#7323](https://github.com/EddieHubCommunity/LinkFree/issues/7323)) ([c9e4155](https://github.com/EddieHubCommunity/LinkFree/commit/c9e41553b51ded52e6f4489e98a2b14742afc556))
 
 
 
