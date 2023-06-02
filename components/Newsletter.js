@@ -21,7 +21,7 @@ export default function Newsletter() {
                 Do not miss out, here is why...
               </p>
             </div>
-            <dl className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+            <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
               <div className="flex flex-col items-start">
                 <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
                   <CalendarDaysIcon
@@ -29,13 +29,13 @@ export default function Newsletter() {
                     aria-hidden="true"
                   />
                 </div>
-                <dt className="mt-4 font-semibold text-white">
+                <div className="mt-4 font-semibold text-white">
                   Regular information
-                </dt>
-                <dd className="mt-2 leading-7 text-gray-400">
+                </div>
+                <div className="mt-2 leading-7 text-gray-400">
                   This will include latest features, upcoming releases and
                   offers.
-                </dd>
+                </div>
               </div>
               <div className="flex flex-col items-start">
                 <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
@@ -44,12 +44,12 @@ export default function Newsletter() {
                     aria-hidden="true"
                   />
                 </div>
-                <dt className="mt-4 font-semibold text-white">No spam</dt>
-                <dd className="mt-2 leading-7 text-gray-400">
+                <div className="mt-4 font-semibold text-white">No spam</div>
+                <div className="mt-2 leading-7 text-gray-400">
                   We will not send out information more than once per month.
-                </dd>
+                </div>
               </div>
-            </dl>
+            </div>
           </div>
         </div>
       </div>
