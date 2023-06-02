@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 import logger from "./logger";
-import { env } from "@config/envConfig";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 let connection;
 
 const connectMongo = async () => {
-  const { LINKFREE_MONGO_CONNECTION_STRING } = env;
+  const { LINKFREE_MONGO_CONNECTION_STRING } = serverEnv;
 
   if (!LINKFREE_MONGO_CONNECTION_STRING) {
     throw new Error(

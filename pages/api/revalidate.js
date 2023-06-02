@@ -1,11 +1,11 @@
-import { env } from "@config/envConfig";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 export default async function handler(req, res) {
   // Check for secret to confirm this is a valid request
   if (
     !req.query.secret ||
-    !env.LINKFREE_API_SECRET ||
-    req.query.secret !== env.LINKFREE_API_SECRET
+    !serverEnv.LINKFREE_API_SECRET ||
+    req.query.secret !== serverEnv.LINKFREE_API_SECRET
   ) {
     return res.status(401).json({ message: "Invalid token" });
   }

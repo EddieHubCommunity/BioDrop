@@ -1,10 +1,11 @@
 import fs from "fs";
-import { env } from "@config/envConfig";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 const { USERS } = require("./test-users.js");
 
 import icons from "@config/icons.json";
 import logger from "@config/logger";
+import { clientEnv } from "@config/schemas/clientSchema.js";
 
 const links = Object.keys(icons).map((icon, index) => {
   return {
@@ -62,7 +63,7 @@ module.exports = async () => {
 
   try {
     const response = await fetch(
-      `${env.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
     );
     if (response.status !== 200) {
       throw new Error(`Test data not loaded into database`);

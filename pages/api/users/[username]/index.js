@@ -1,12 +1,13 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
-import { env } from "@config/envConfig";
+import { clientEnv } from "@config/schemas/clientSchema";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -78,7 +79,7 @@ export async function getUserApi(req, res, username) {
       title: testimonial.title,
       description: testimonial.description,
       date: testimonial.date,
-      url: `${env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+      url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
       order: testimonial.order,
     })),
   };

@@ -4,7 +4,7 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-import { env } from "@config/envConfig";
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getUserApi } from "./api/users/[username]/index";
 import singleUser from "@config/user.json";
 import logger from "@config/logger";
@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data: profile, BASE_URL: env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 

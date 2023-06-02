@@ -12,7 +12,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { env } from "@config/envConfig";
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getUserApi } from "../api/users/[username]";
 import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
@@ -22,6 +22,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
 import Link from "@components/Link";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -151,7 +152,7 @@ export default function Statistics({ data, profile, progress }) {
 
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} (
-          <Link href={`${env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}>
+          <Link href={`${clientEnv.NEXT_PUBLIC_BASE_URL}/${profile.username}`}>
             {profile.username}
           </Link>
           )
