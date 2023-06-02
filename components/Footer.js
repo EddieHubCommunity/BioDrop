@@ -185,6 +185,7 @@ export default function Footer() {
           <Button
             primary={true}
             href="/premium"
+            prefetch={false}
           >
             <span className="mr-2">
               <CurrencyDollarIcon className="h-6 w-6" />

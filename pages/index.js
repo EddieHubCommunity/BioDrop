@@ -308,7 +308,7 @@ export default function Home({ total, today }) {
               >Get started</Button>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button href="/eddiejaoude">Example</Button>
+              <Button href="/eddiejaoude" noPrefetch={true}>Example</Button>
             </div>
           </div>
         </div>
