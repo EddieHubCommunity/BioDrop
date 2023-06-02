@@ -13,36 +13,42 @@ let tabs = [
   {
     name: "Statistics",
     href: "/account/statistics",
+    match: [],
     icon: MdOutlineAutoGraph,
     current: false,
   },
   {
     name: "Profile",
     href: "/account/manage/profile",
+    match: [],
     icon: MdPerson,
     current: false,
   },
   {
     name: "Links",
     href: "/account/manage/links",
+    match: ["/account/manage/link/[[...id]]"],
     icon: MdOutlineLink,
     current: false,
   },
   {
     name: "Milestones",
     href: "/account/manage/milestones",
+    match: [],
     icon: MdOutlineBadge,
     current: false,
   },
   {
     name: "Events",
     href: "/account/manage/events",
+    match: [],
     icon: MdCalendarMonth,
     current: false,
   },
   {
     name: "Testimonials",
     href: "/account/manage/testimonials",
+    match: [],
     icon: MdSpeakerNotes,
     current: false,
   },
@@ -55,7 +61,7 @@ function classNames(...classes) {
 export default function Navigation() {
   const router = useRouter();
   tabs = tabs.map((tab) => {
-    if (router.pathname === tab.href) {
+    if (router.pathname === tab.href || tab.match.includes(router.pathname)) {
       return { ...tab, current: true };
     }
     return { ...tab, current: false };
@@ -67,7 +73,6 @@ export default function Navigation() {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        {/* Use an "onChange" listener to redirect the user to the selected tab URL. */}
         <select
           id="tabs"
           name="tabs"

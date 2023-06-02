@@ -1,4 +1,5 @@
-import { authOptions } from "../../api/auth/[...nextauth]";
+import { useState } from "react";
+import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
 import logger from "@config/logger";
@@ -7,6 +8,7 @@ import Page from "@components/Page";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 import { getLinkApi } from "pages/api/account/manage/link";
+import Input from "@components/form/Input";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -21,12 +23,15 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
+  const id = context.query.id ? context.query.id[0] : undefined;
 
   let link = {};
-  try {
-    link = await getLinkApi(username);
-  } catch (e) {
-    logger.error(e, `profile loading failed links for username: ${username}`);
+  if (id) {
+    try {
+      link = await getLinkApi(username, id);
+    } catch (e) {
+      logger.error(e, `profile loading failed links for username: ${username}`);
+    }
   }
 
   return {
@@ -35,6 +40,14 @@ export async function getServerSideProps(context) {
 }
 
 export default function Link({ BASE_URL, link }) {
+  const [id, setId] = useState(link._id);
+  const [group, setGroup] = useState(link.group);
+  const [name, setName] = useState(link.name);
+  const [url, setUrl] = useState(link.url);
+  const [icon, setIcon] = useState(link.icon);
+  const [isEnabled, setIsEnabled] = useState(link.isEnabled);
+  const [isPinned, setIsPinned] = useState(link.isPinned);
+  console.log(link, url);
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await fetch(`${BASE_URL}/api/account/manage/link`, {
@@ -42,7 +55,7 @@ export default function Link({ BASE_URL, link }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(links),
+      body: JSON.stringify(link),
     });
     const data = await res.json();
   };
@@ -67,7 +80,7 @@ export default function Link({ BASE_URL, link }) {
                   What links would you like to appear on your profile?
                 </h3>
                 <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                  Some can be promoted to under your name
+                  Tip: promoted link to under your name
                 </p>
               </div>
 
@@ -79,11 +92,11 @@ export default function Link({ BASE_URL, link }) {
                   Group
                 </label>
                 <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
+                  <Input
+                    name="group"
+                    label="Group"
+                    onChange={(e) => setGroup(e.target.value)}
+                    value={group}
                     className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
                   />
                 </div>
@@ -94,11 +107,11 @@ export default function Link({ BASE_URL, link }) {
                   Name
                 </label>
                 <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
+                  <Input
+                    name="name"
+                    label="Name"
                     onChange={(e) => setName(e.target.value)}
+                    value={name}
                     className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
                   />
                 </div>
@@ -109,11 +122,11 @@ export default function Link({ BASE_URL, link }) {
                   Url
                 </label>
                 <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
+                  <Input
+                    name="url"
+                    label="Url"
+                    onChange={(e) => setUrl(e.target.value)}
+                    value={url}
                     className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
                   />
                 </div>
@@ -124,11 +137,11 @@ export default function Link({ BASE_URL, link }) {
                   Icon
                 </label>
                 <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <input
-                    type="text"
-                    name="link"
-                    id="link"
-                    onChange={(e) => setName(e.target.value)}
+                  <Input
+                    name="icon"
+                    label="Icon"
+                    onChange={(e) => setIcon(e.target.value)}
+                    value={icon}
                     className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
                   />
                 </div>

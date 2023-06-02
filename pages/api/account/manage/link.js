@@ -19,28 +19,39 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT required" });
   }
 
-  const { url } = req.query;
-  if (!url || url === "") {
-    return res.status(400).json({ error: "Invalid request parameters" });
+  const { id } = req.query;
+  let data = {};
+  if (!id) {
+    data = await getLinkApi(username, id);
   }
-
-  const data = await getLinkApi(req.method, username, url);
+  if (id) {
+    data = await updateLinkApi(username, id);
+  }
 
   return res.status(200).json(data);
 }
 
-export async function getLinkApi(type, username, url) {
+export async function getLinkApi(username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
-  let getLink = await Link.findOne({ username, url });
+  let getLink = await Link.findById(id);
 
   if (!getLink) {
     return res.status(404).json({ error: "Link not found" });
   }
 
-  if (type === "GET") {
-    return JSON.parse(JSON.stringify(getLink));
+  return JSON.parse(JSON.stringify(getLink));
+}
+
+export async function updateLinkApi(username, id) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  let getLink = await Link.findById(id);
+
+  if (!getLink) {
+    return res.status(404).json({ error: "Link not found" });
   }
 
   try {

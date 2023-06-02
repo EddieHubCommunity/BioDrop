@@ -51,7 +51,7 @@ export default function Links({ links }) {
         <ul role="list" className="divide-y divide-gray-100">
           {links.map((link) => (
             <li
-              key={link.id}
+              key={link._id}
               className="flex items-center justify-between gap-x-6 py-5"
             >
               <div className="min-w-0">
