@@ -9,7 +9,6 @@ import { RocketLaunchIcon } from "@heroicons/react/20/solid";
 import Button from "./Button";
 import Link from "@components/Link";
 
-
 export default function Footer() {
   const navigation = {
     solutions: [
