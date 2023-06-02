@@ -1,9 +1,9 @@
-## 1.136.1 (2023-06-02)
+# 1.137.0 (2023-06-02)
 
 
-### Bug Fixes
+### Features
 
-* linkfree-cli version ([#7323](https://github.com/EddieHubCommunity/LinkFree/issues/7323)) ([c9e4155](https://github.com/EddieHubCommunity/LinkFree/commit/c9e41553b51ded52e6f4489e98a2b14742afc556))
+* skip links to pages for accessibility ([#7125](https://github.com/EddieHubCommunity/LinkFree/issues/7125)) ([5d55f04](https://github.com/EddieHubCommunity/LinkFree/commit/5d55f04e327f8a39adf3f817b17dff64ce57a27b))
 
 
 

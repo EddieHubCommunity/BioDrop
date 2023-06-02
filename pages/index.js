@@ -303,13 +303,12 @@ export default function Home({ total, today }) {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <Button
-                text="Get started"
                 href="/docs/quickstart"
                 primary={true}
-              />
+              >Get started</Button>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude" />
+              <Button href="/eddiejaoude">Example</Button>
             </div>
           </div>
         </div>
