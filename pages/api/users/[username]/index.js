@@ -1,7 +1,6 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
-import { clientEnv } from "@config/schemas/clientSchema";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";

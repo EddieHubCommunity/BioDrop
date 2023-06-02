@@ -5,7 +5,6 @@ const { USERS } = require("./test-users.js");
 
 import icons from "@config/icons.json";
 import logger from "@config/logger";
-import { clientEnv } from "@config/schemas/clientSchema.js";
 
 const links = Object.keys(icons).map((icon, index) => {
   return {
