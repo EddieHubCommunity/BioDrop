@@ -22,7 +22,6 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
 import Link from "@components/Link";
-import { clientEnv } from "@config/schemas/clientSchema";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
