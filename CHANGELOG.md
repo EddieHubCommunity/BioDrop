@@ -1,9 +1,9 @@
-## 1.135.1 (2023-05-31)
+# 1.136.0 (2023-06-02)
 
 
-### Bug Fixes
+### Features
 
-* tag text color ([#7095](https://github.com/EddieHubCommunity/LinkFree/issues/7095)) ([94c6a63](https://github.com/EddieHubCommunity/LinkFree/commit/94c6a63cd50f959bbc5cfdcb5d76370abe8259d9))
+* newsletter sign up ([#7312](https://github.com/EddieHubCommunity/LinkFree/issues/7312)) ([80328a2](https://github.com/EddieHubCommunity/LinkFree/commit/80328a236bf696b89cd4715027fe325fcb7990b6))
 
 
 
