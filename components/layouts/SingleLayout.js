@@ -1,5 +1,5 @@
 import Footer from "@components/Footer";
-import { SkipLink } from "@components/SkipLink";
+import SkipLink from "@components/SkipLink";
 
 export default function SingleLayout({ children }) {
   return (
