@@ -1,12 +1,20 @@
 {
   "name": "Mustafa ansari",
-  "type": "personal",
   "bio": "engineering student | learner | dev | a geek | investor",
   "tags": ["Open Source", "problem solver", "learner", "web", "a geek", "C++"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/mustafa_nds" },
-    { "icon": "FaGithub", "url": "https://github.com/mustafa-edu" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/mustafa.nds/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mustafa_nds"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mustafa-edu"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/mustafa.nds/"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"

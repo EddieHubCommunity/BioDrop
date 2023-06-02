@@ -1,8 +1,6 @@
 {
   "name": "Sandra Ashipala",
-  "type": "personal",
   "bio": "**Software Engineer - Frontend** | Open Source Contributor | Hackathon Enthusiast",
-
   "tags": [
     "React.js",
     "Python",
@@ -12,7 +10,6 @@
     "Artificial Intelligence (AI)",
     "Web3"
   ],
-
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -25,7 +22,6 @@
       "url": "https://github.com/sandramsc"
     }
   ],
-
   "links": [
     {
       "group": "Socials Primary",

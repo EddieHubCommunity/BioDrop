@@ -1,13 +1,24 @@
 {
   "name": "Pranshu Jha",
-  "type": "personal",
   "bio": "Full-Stack developer sharing my journey in tech!",
   "tags": ["Open Source", "Python", "Javascript", "Typescript", "NextJS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pranshuj73" },
-    { "icon": "FaGithub", "url": "https://github.com/pranshuj73" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@pranshujha" },
-    { "icon": "SiHashnode", "url": "https://pranshujha.hashnode.dev" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pranshuj73"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pranshuj73"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@pranshujha"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://pranshujha.hashnode.dev"
+    }
   ],
   "links": [
     {
@@ -30,6 +41,11 @@
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/pranshuj73/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Let's have a Coffee Chat!",
+      "url": "https://cal.com/pranshujha",
+      "icon": "SiCoffeescript"
     }
   ]
 }

@@ -1,8 +1,6 @@
 {
   "name": "Chetan Nada",
-  "type": "personal",
   "bio": "**React.js** Developer | JavaScript | Frontend Developer",
-
   "tags": ["Open Source", "Javascript", "ReactJs", "Typescript", "NextJS"],
   "socials": [
     {
@@ -77,6 +75,14 @@
       "url": "https://chetannada.netlify.app/"
     },
     {
+      "title": "100+ Stars & 100+ Forks on Github Repository",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "100+ stars 🌟 & 100+ Forks on **GitHub** Repository **Namaste-React**",
+      "url": "https://github.com/chetannada/Namaste-React"
+    },
+    {
       "title": "Repository was Trending on GitHub",
       "date": "2023",
       "icon": "FaGithub",
@@ -99,6 +105,14 @@
       "color": "purple",
       "description": "Creating content on Javascript and React.js helped me to cross the 5K followers milestone",
       "url": "https://www.linkedin.com/in/chetannada"
+    },
+    {
+      "title": "500+ Stars & 300+ Forks on Github Repository",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "500+ stars 🌟 & 300+ Forks on **GitHub** Repository **Namaste-React**",
+      "url": "https://github.com/chetannada/Namaste-React"
     }
   ]
 }

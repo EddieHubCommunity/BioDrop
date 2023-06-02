@@ -1,6 +1,5 @@
 {
   "name": "Rakesh N J",
-  "type": "personal",
   "bio": "Optimist interested in machine learning",
   "links": [
     {
@@ -19,6 +18,5 @@
       "icon": "FaLinkedin"
     }
   ],
-
   "tags": ["Open Source", "Python", "Machine learning"]
 }

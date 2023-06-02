@@ -1,13 +1,20 @@
 {
   "name": "Rasheed Mudasiru",
-  "type": "personal",
   "bio": "Open Source DevRel | Founder of **SofGaps** | **GitHub** Campus Expert | AWS Community Builder | Google Cloud Innovator | KodeKloud Ambassador",
-
   "tags": ["Open Source", "Javascript", "Golang", "NextJS", "DevOps", "DevRel"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Ibn_mudathir" },
-    { "icon": "FaGithub", "url": "https://github.com/Taiwrash" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/Taiwrash" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ibn_mudathir"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Taiwrash"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/Taiwrash"
+    }
   ],
   "links": [
     {

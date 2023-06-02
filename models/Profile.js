@@ -2,6 +2,10 @@ import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema({
   source: String,
+  isEnabled: {
+    type: Boolean,
+    default: true,
+  },
   username: {
     type: String,
     index: true,
@@ -61,6 +65,9 @@ const ProfileSchema = new mongoose.Schema({
       },
       url: String,
       order: Number,
+      price: {
+        startingFrom: Number,
+      },
     },
   ],
 });

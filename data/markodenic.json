@@ -1,0 +1,71 @@
+{
+  "name": "Marko Denic",
+  "bio": "Software Engineer | Public Mentor",
+  "tags": [
+    "Web Development",
+    "Open Source",
+    "CSS",
+    "JavaScript",
+    "VueJS",
+    "TailwindCSS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/denicmarko"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/denicmarko"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/markodenic"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/denicmarko"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/denicmarko_"
+    }
+  ],
+  "links": [
+    {
+      "name": "Marko Tech Tips",
+      "url": "https://markodenic.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Javascript Quiz",
+      "url": "https://javascriptquiz.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Code Tools",
+      "url": "https://freecodetools.org",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Web Development Resources",
+      "url": "https://web-dev-resources.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Tech Blogs",
+      "url": "https://tech-blogs.dev",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Join 8000+ motivated developers",
+      "url": "https://markodenic.com/newsletter/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "CSS Tutorial",
+      "url": "https://markodenic.com/css-tutorial/",
+      "icon": "FaLink"
+    }
+  ]
+}

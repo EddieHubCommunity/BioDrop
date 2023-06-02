@@ -1,9 +1,9 @@
-## 1.130.2 (2023-05-19)
+# 1.137.0 (2023-06-02)
 
 
-### Bug Fixes
+### Features
 
-* removed gh action load data ([#6995](https://github.com/EddieHubCommunity/LinkFree/issues/6995)) ([a88081e](https://github.com/EddieHubCommunity/LinkFree/commit/a88081e0be573e27f6049ad82cef81b0b460a745))
+* skip links to pages for accessibility ([#7125](https://github.com/EddieHubCommunity/LinkFree/issues/7125)) ([5d55f04](https://github.com/EddieHubCommunity/LinkFree/commit/5d55f04e327f8a39adf3f817b17dff64ce57a27b))
 
 
 

@@ -1,6 +1,5 @@
 {
   "name": "Paula Isabel Signo",
-  "type": "personal",
   "bio": "Web Developer | Technical Writer at [**OSSPH**](https://ossph.org/) | [**thirdweb**](https://thirdweb.com/) Ambassador | Open Source | Web3 ",
   "tags": [
     "Web Developer",
@@ -11,11 +10,19 @@
     "Web3"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/codewithpau" },
-    { "icon": "FaGithub", "url": "https://github.com/paulaxisabel" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/paulasigno" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/codewithpau"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/paulaxisabel"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/paulasigno"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",

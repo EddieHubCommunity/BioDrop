@@ -1,0 +1,36 @@
+{
+  "name": "Nikhil Dhariwal",
+  "bio": "Student • Web developer • Open Source Enthusiast • UI/UX designer • Technical Blogger",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/404nikhil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://404nikhil.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/404nikhil",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/nikhil-dhariwal-800b64247/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my design account",
+      "url": "https://instagram.com/hilkin.nd",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow OpenZor",
+      "url": "https://instagram.com/openzor",
+      "icon": "FaInstagram"
+    }
+  ]
+}

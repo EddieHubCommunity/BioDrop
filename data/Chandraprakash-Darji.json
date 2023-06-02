@@ -1,19 +1,21 @@
 {
   "name": "Chandra",
-  "type": "personal",
   "bio": "Frontend Magician who loves to create beautiful ui with passion. Building AxStudios",
-
   "tags": ["Open Source", "Javascript", "Typescript", "NextJS", "Frontend"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chandra_7852" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chandra_7852"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/chandraprakash-darji/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/Chandraprakash-Darji" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Chandraprakash-Darji"
+    }
   ],
-
   "links": [
     {
       "group": "Buisness",
@@ -72,7 +74,7 @@
     {
       "group": "Vibey Community",
       "name": "Vibey: Discord",
-      "url": "https://discord.gg/kP53sBPhPB",
+      "url": "https://discord.gg/fSx6EQuKQF",
       "icon": "FaDiscord"
     },
     {
@@ -87,7 +89,6 @@
       "icon": "FaRegMoneyBillAlt"
     }
   ],
-
   "milestones": [
     {
       "title": "Won Best use of Auth0 at HackSvit Hackathon",
@@ -160,6 +161,5 @@
       "description": "People which don't watch youtube videos then can read the blogs"
     }
   ],
-
   "testimonials": ["Deepu178"]
 }

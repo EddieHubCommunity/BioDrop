@@ -1,6 +1,5 @@
 {
   "name": "Shubham Singh",
-  "type": "personal",
   "bio": "Web Dev, Andriod Dev, DevOps, Open-Source Enthusiast, First Year Undergrad (Computer Science Eng.)",
   "tags": [
     "Open Source",
@@ -13,8 +12,14 @@
     "React"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/1shubham7" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/1shubham7" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/1shubham7"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/1shubham7"
+    }
   ],
   "links": [
     {

@@ -1,14 +1,21 @@
 {
   "name": "Atharva Salitri",
-  "type": "personal",
   "bio": "Programming Beginner | Open Source Enthusiast | Blogger | Content Writer | Canva Designer ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Programming"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/atharvas_twt" },
-    { "icon": "FaGithub", "url": "https://github.com/the-amazing-atharva" },
-    { "icon": "SiHashnode", "url": "https://theamazingatharva.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/atharvas_twt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/the-amazing-atharva"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://theamazingatharva.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

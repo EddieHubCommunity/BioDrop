@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster";
 
 function createMarkerCluster({ children: _c, ...props }, context) {
-  const clusterProps = {};
+  const clusterProps = {chunkedLoading: true};
   const clusterEvents = {};
 
   Object.entries(props).forEach(([propName, prop]) =>

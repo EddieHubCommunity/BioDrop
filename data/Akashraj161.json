@@ -1,12 +1,20 @@
 {
   "name": "Akash Raj",
-  "type": "personal",
   "bio": "FrontEnd Developer",
   "tags": ["JavaScript", "React.js"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/rajakki11" },
-    { "icon": "FaGithub", "url": "https://github.com/Akashraj161" },
-    { "icon": "SiHashnode", "url": "https://akashshares.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rajakki11"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Akashraj161"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://akashshares.hashnode.dev/"
+    }
   ],
   "links": [
     {

@@ -70,7 +70,7 @@ function UserProfile({ BASE_URL, data }) {
                 key={tag}
                 className="no-underline"
               >
-                <Tag name={tag} clickable={true} />
+                <Tag name={tag} />
               </Link>
             ))}
         </div>
@@ -88,7 +88,9 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       <div className="flex justify-center mb-4">
         {qrShow && (
-          <Button text="Download QR code" primary={true} onClick={downloadQR} />
+          <Button primary={true} onClick={downloadQR}>
+            Download QR code
+          </Button>
         )}
       </div>
     </>
