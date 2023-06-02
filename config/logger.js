@@ -1,8 +1,8 @@
 import * as PinoLogger from "pino";
 import * as Pretty from "pino-pretty";
-import { clientEnv } from "@config/schemas/clientSchema";
+import { serverEnv } from "@config/schemas/serverSchema";
 
-const config = clientEnv.NODE_ENV === "development" ? Pretty({ colorize: true }) : {};
+const config = serverEnv.NODE_ENV === "development" ? Pretty({ colorize: true }) : {};
 
 const logger = PinoLogger.pino(config);
 
