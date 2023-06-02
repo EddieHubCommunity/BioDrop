@@ -1,12 +1,7 @@
 {
   "name": "Pankaj Kumar",
   "bio": "MERN Satck Web Developer, Student",
-  "tags": [
-    "Open Source",
-    "MERN Stack",
-    "React JS",
-    "GSSoC 2023"
-  ],
+  "tags": ["Open Source", "MERN Stack", "React JS", "GSSoC 2023"],
   "socials": [
     {
       "icon": "FaTwitter",

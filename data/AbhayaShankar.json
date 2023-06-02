@@ -10,64 +10,66 @@
     "Freelance"
   ],
   "socials": [
-  { "icon": "FaTwitter", "url": "https://twitter.com/AbhayaShankar2" },
-  { "icon": "FaGithub", "url": "https://github.com/AbhayaShankar" },
-  { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/abhayashankar/" }
+    { "icon": "FaTwitter", "url": "https://twitter.com/AbhayaShankar2" },
+    { "icon": "FaGithub", "url": "https://github.com/AbhayaShankar" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhayashankar/"
+    }
   ],
-  "links" : [
+  "links": [
     {
-      "group" : "Projects",
-      "name" : "Estate Empires",
-      "url" : "https://estates-empire.vercel.app/",
-      "icon" : "FaJsSquare"
+      "group": "Projects",
+      "name": "Estate Empires",
+      "url": "https://estates-empire.vercel.app/",
+      "icon": "FaJsSquare"
     },
     {
-      "group" : "Projects",
-      "name" : "Abhaya's Blog",
-      "url" : "https://abhayablog.vercel.app/",
-      "icon" : "FaBlogger"
+      "group": "Projects",
+      "name": "Abhaya's Blog",
+      "url": "https://abhayablog.vercel.app/",
+      "icon": "FaBlogger"
     },
     {
-      "group" : "Projects",
-      "name" : "Animxstore",
-      "url" : "https://animxstore.vercel.app/",
-      "icon" : "FaAppStore"
+      "group": "Projects",
+      "name": "Animxstore",
+      "url": "https://animxstore.vercel.app/",
+      "icon": "FaAppStore"
     },
     {
-      "group" : "Projects",
-      "name" : "Cinetrek",
-      "url" : "https://cinetrek.netlify.app/",
-      "icon" : "FaLaptop"
+      "group": "Projects",
+      "name": "Cinetrek",
+      "url": "https://cinetrek.netlify.app/",
+      "icon": "FaLaptop"
     },
     {
-      "group" : "Socials",
-      "name" : "Let's Talk on Twitter",
-      "url" : "https://twitter.com/AbhayaShankar2",
-      "icon" : "FaTwitter",
+      "group": "Socials",
+      "name": "Let's Talk on Twitter",
+      "url": "https://twitter.com/AbhayaShankar2",
+      "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
-      "group" : "Socials",
-      "name" : "Collaborate on Github",
-      "url" : "https://github.com/AbhayaShankar",
-      "icon" : "FaGithub",
+      "group": "Socials",
+      "name": "Collaborate on Github",
+      "url": "https://github.com/AbhayaShankar",
+      "icon": "FaGithub",
       "color": "#212121"
     },
     {
-      "group" : "Socials",
-      "name" : "Connect on Linkedin",
-      "url" : "https://www.linkedin.com/in/abhayashankar/",
-      "icon" : "FaLinkedin",
-      "color" : "#204ecf"
-      
+      "group": "Socials",
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/abhayashankar/",
+      "icon": "FaLinkedin",
+      "color": "#204ecf"
     },
     {
-      "group" : "Socials",
-      "name" : "Abhaya : Discord",
-      "url" : "discordapp.com/users/Abhaya1289#3250",
-      "icon" : "FaDiscord"
+      "group": "Socials",
+      "name": "Abhaya : Discord",
+      "url": "discordapp.com/users/Abhaya1289#3250",
+      "icon": "FaDiscord"
     }
-   ],
+  ],
   "milestones": [
     {
       "title": "The Beginning...",
