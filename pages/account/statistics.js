@@ -12,6 +12,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { env } from "@config/envConfig";
 import { getUserApi } from "../api/users/[username]";
 import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
@@ -150,9 +151,7 @@ export default function Statistics({ data, profile, progress }) {
 
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} (
-          <Link
-            href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
-          >
+          <Link href={`${env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}>
             {profile.username}
           </Link>
           )
