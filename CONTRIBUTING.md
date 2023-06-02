@@ -4,7 +4,6 @@
 
 ## Issues & Pull Requests (not for Profiles)
 
-## Issues & Pull Requests (not for Profiles)
 
 ### Creating an Issue
 
