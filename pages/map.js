@@ -7,6 +7,7 @@ import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
+import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/users";
 import config from "@config/app.json";
 
@@ -36,24 +37,11 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
-  data.tags = data.users.reduce((accumulator, user) => {
-    if (user.tags && Array.isArray(user.tags)) {
-      user.tags.forEach((tag) => {
-        const lowercaseTag = tag.toLowerCase();
-        const existingTag = accumulator.find(
-          (tag) => tag.name === lowercaseTag
-        );
-        if (existingTag) {
-          existingTag.total++;
-        } else {
-          accumulator.push({ name: lowercaseTag, total: 1 });
-        }
-      });
-    }
-    return accumulator;
-  }, []);
-
-  data.tags.sort((a, b) => b.total - a.total);
+  try {
+    data.tags = await getTags(true);
+  } catch (e) {
+    logger.error(e, "ERROR loading tags");
+  }
 
   return {
     props: { data },
