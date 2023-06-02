@@ -1,9 +1,9 @@
-## 1.136.1 (2023-06-02)
+## 1.136.2 (2023-06-02)
 
 
 ### Bug Fixes
 
-* linkfree-cli version ([#7323](https://github.com/EddieHubCommunity/LinkFree/issues/7323)) ([c9e4155](https://github.com/EddieHubCommunity/LinkFree/commit/c9e41553b51ded52e6f4489e98a2b14742afc556))
+* reduce bundle size by minimizing use of `react-icons` ([#7330](https://github.com/EddieHubCommunity/LinkFree/issues/7330)) ([158ffb7](https://github.com/EddieHubCommunity/LinkFree/commit/158ffb71af43e32fe4c5f235ae5489e700bdaf09))
 
 
 
