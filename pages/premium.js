@@ -1,7 +1,6 @@
 import Script from "next/script";
 import { useRouter } from "next/router";
 
-
 import { CheckIcon } from "@heroicons/react/24/outline";
 
 import Page from "@components/Page";
