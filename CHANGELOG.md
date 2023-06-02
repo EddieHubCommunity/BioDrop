@@ -1,9 +1,9 @@
-# 1.136.0 (2023-06-02)
+## 1.136.1 (2023-06-02)
 
 
-### Features
+### Bug Fixes
 
-* newsletter sign up ([#7312](https://github.com/EddieHubCommunity/LinkFree/issues/7312)) ([80328a2](https://github.com/EddieHubCommunity/LinkFree/commit/80328a236bf696b89cd4715027fe325fcb7990b6))
+* linkfree-cli version ([#7323](https://github.com/EddieHubCommunity/LinkFree/issues/7323)) ([c9e4155](https://github.com/EddieHubCommunity/LinkFree/commit/c9e41553b51ded52e6f4489e98a2b14742afc556))
 
 
 
