@@ -320,7 +320,7 @@ export default function Home({ total, today }) {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Features
             </h2>
-            <p className="mt-4 text-white">
+            <p className="mt-4 sm:text-lg text-white">
               It is not just links... Take a look at the Features you can add to
               customize your LinkFree Profile.
             </p>
@@ -340,10 +340,10 @@ export default function Home({ total, today }) {
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg font-medium text-white">
+                  <h3 className="text-lg sm:text-2xl font-medium text-white">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm text-white">
+                  <p className="mt-2 text-sm sm:text-lg text-white">
                     {feature.description}
                   </p>
                 </div>
