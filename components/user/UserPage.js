@@ -48,7 +48,11 @@ export default function UserPage({ data, BASE_URL }) {
 
       {tabs.find((tab) => tab.name === "My Links") &&
         tabs.find((tab) => tab.name === "My Links").current && (
-          <UserLinks data={data} BASE_URL={BASE_URL} />
+          <UserLinks
+            links={data.links}
+            username={data.username}
+            BASE_URL={BASE_URL}
+          />
         )}
       {tabs.find((tab) => tab.name === "Milestones") &&
         tabs.find((tab) => tab.name === "Milestones").current && (
