@@ -1,5 +1,5 @@
-import { FiChevronRight } from "react-icons/fi";
-import { AiOutlineHome } from "react-icons/ai";
+import { HomeIcon } from "@heroicons/react/24/outline";
+import { ChevronRightIcon } from "@heroicons/react/24/outline";
 
 import Link from "@components/Link";
 
@@ -13,7 +13,7 @@ export default function BreadCrumb({ section, name }) {
               href="/docs"
               className="text-primary hover:text-primary-medium-low"
             >
-              <AiOutlineHome
+              <HomeIcon
                 className="h-5 w-5 flex-shrink-0"
                 aria-hidden="true"
               />
@@ -23,7 +23,7 @@ export default function BreadCrumb({ section, name }) {
         </li>
         <li key={section}>
           <div className="flex items-center">
-            <FiChevronRight
+            <ChevronRightIcon
               className="h-5 w-5 flex-shrink-0 text-primary"
               aria-hidden="true"
             />
@@ -37,7 +37,7 @@ export default function BreadCrumb({ section, name }) {
         </li>
         <li key={name}>
           <div className="flex items-center">
-            <FiChevronRight
+            <ChevronRightIcon
               className="h-5 w-5 flex-shrink-0 text-primary"
               aria-hidden="true"
             />

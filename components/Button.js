@@ -5,6 +5,7 @@ export default function Button({
   text,
   primary = false,
   disable,
+  children,
   ...restProps
 }) {
   let className =
@@ -19,15 +20,13 @@ export default function Button({
 
   const link = (
     <Link className={className} {...restProps}>
-      {icon && <span className="mr-2">{icon}</span>}
-      {text}
+      {children}
     </Link>
   );
 
   const button = (
     <button className={className} disabled={disable} {...restProps}>
-      {icon && <span className="mr-2">{icon}</span>}
-      {text}
+      {children}
     </button>
   );
 

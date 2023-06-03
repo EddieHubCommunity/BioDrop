@@ -1,0 +1,26 @@
+{
+  "name": "Sriyansh Shivam",
+  "bio": " Aspiring **Software Developer** 💻 and a self-taught **Designer** 🎨 . An **Open-Source Contributor** 🌐 and a **Gamer** 🎮 ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShivamSriyansh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SoNiC-HeRE",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sriyansh-shivam/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@SoNiChere",
+      "icon": "SiHashnode"
+    }
+  ]
+}

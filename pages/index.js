@@ -1,5 +1,8 @@
+import { useRouter } from "next/router";
 import Image from "next/image";
 import { IconContext } from "react-icons";
+import Script from "next/script";
+
 import {
   MdOutlinePlayArrow,
   MdHelpOutline,
@@ -10,7 +13,6 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import singleUser from "@config/user.json";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import Link from "@components/Link";
@@ -21,17 +23,10 @@ import Testimonials from "@components/Testimonials";
 import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import config from "@config/app.json";
+import Newsletter from "@components/Newsletter";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
-  if (singleUser.username) {
-    return {
-      redirect: {
-        destination: `/${singleUser.username}`,
-        permanent: true,
-      },
-    };
-  }
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
@@ -43,6 +38,9 @@ export async function getStaticProps() {
 }
 
 export default function Home({ total, today }) {
+  const router = useRouter();
+  const newsletter = router.query.newsletter;
+
   const features = [
     {
       name: "QuickStart",
@@ -217,6 +215,13 @@ export default function Home({ total, today }) {
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
 
+        {newsletter && (
+          <Alert
+            type="success"
+            message="Thank you for subscribing to our newsletter!"
+          />
+        )}
+
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree
@@ -265,15 +270,14 @@ export default function Home({ total, today }) {
                 </p>
               </div>
             </div>
-            <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
-              <Image
-                className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 h-auto w-auto"
-                src="https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png"
-                priority
-                alt="App screenshot"
-                width={500}
-                height={500}
-              />
+            <div className="aspect-w-16 aspect-h-9">
+              <div
+                className="kartra_video_containergbHEDtAnMwlF js_kartra_trackable_object"
+                data-kt-type="video"
+                data-kt-value="gbHEDtAnMwlF"
+                data-kt-owner="nkmvj7Xr"
+              ></div>
+              <Script src="https://app.kartra.com/video/gbHEDtAnMwlF"></Script>
             </div>
           </div>
         </div>
@@ -290,13 +294,12 @@ export default function Home({ total, today }) {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <Button
-                text="Get started"
                 href="/docs/quickstart"
                 primary={true}
-              />
+              >Get started</Button>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude" />
+              <Button href="/eddiejaoude">Example</Button>
             </div>
           </div>
         </div>
@@ -359,7 +362,7 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="relative bg-white dark:bg-primary-high py-24 sm:py-32 lg:py-40">
+      <div className="relative bg-white dark:bg-primary-high py-8 sm:py-12 lg:py-24">
         <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
           <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
             Getting Started
@@ -405,6 +408,8 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
+
+      <Newsletter />
 
       <Testimonials data={testimonials} />
 
