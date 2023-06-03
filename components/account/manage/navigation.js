@@ -27,7 +27,7 @@ let tabs = [
   {
     name: "Links",
     href: "/account/manage/links",
-    match: ["/account/manage/link/[[...id]]"],
+    match: ["/account/manage/link/[[...data]]"],
     icon: MdOutlineLink,
     current: false,
   },

@@ -85,7 +85,11 @@ export default function Links({ BASE_URL, username, links }) {
                     </div>
                   </div>
                   <div className="flex flex-none items-center gap-x-4">
-                    <Button href={`/account/manage/link/${link._id}`}>
+                    <Button
+                      href={`/account/manage/link/${encodeURIComponent(
+                        link.url
+                      )}`}
+                    >
                       <PencilIcon className="h-5 w-5 mr-2" />
                       Edit
                     </Button>

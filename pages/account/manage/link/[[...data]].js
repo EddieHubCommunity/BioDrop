@@ -7,9 +7,10 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
-import { getLinkApi } from "pages/api/account/manage/link";
+import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
+import Toggle from "@components/form/Toggle";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -24,14 +25,13 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
-  const id = context.query.id ? context.query.id[0] : undefined;
-
+  const url = context.query.data ? context.query.data[0] : undefined;
   let link = {};
-  if (id) {
+  if (url) {
     try {
-      link = await getLinkApi(username, id);
+      link = await getLinkApi(username, url);
     } catch (e) {
-      logger.error(e, `profile loading failed links for username: ${username}`);
+      logger.error(e, `link ${url} failed for username: ${username}`);
     }
   }
 
@@ -51,13 +51,16 @@ export default function Link({ BASE_URL, username, link }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`${BASE_URL}/api/account/manage/link`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(link),
-    });
+    const res = await fetch(
+      `${BASE_URL}/api/account/manage/link/${encodeURIComponent(url)}`,
+      {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ group, name, url, icon, isEnabled, isPinned }),
+      }
+    );
     const data = await res.json();
   };
 
@@ -94,16 +97,6 @@ export default function Link({ BASE_URL, username, link }) {
                       label="Group"
                       onChange={(e) => setGroup(e.target.value)}
                       value={group}
-                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                    />
-                  </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="name"
-                      label="Name"
-                      onChange={(e) => setName(e.target.value)}
-                      value={name}
-                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
@@ -112,7 +105,16 @@ export default function Link({ BASE_URL, username, link }) {
                       label="Url"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
-                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                      disabled={true}
+                      readOnly={true}
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="name"
+                      label="Name"
+                      onChange={(e) => setName(e.target.value)}
+                      value={name}
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
@@ -121,7 +123,22 @@ export default function Link({ BASE_URL, username, link }) {
                       label="Icon"
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
-                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Toggle
+                      text1="Enable?"
+                      text2="disable/enable"
+                      enabled={isEnabled}
+                      setEnabled={setIsEnabled}
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Toggle
+                      text1="Pin?"
+                      text2="unpin/pin"
+                      enabled={isPinned}
+                      setEnabled={setIsPinned}
                     />
                   </div>
                 </div>
