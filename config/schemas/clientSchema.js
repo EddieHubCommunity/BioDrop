@@ -1,5 +1,4 @@
 const z = require("zod");
-require("dotenv").config();
 
 const envSchema = z.object({
   NEXT_PUBLIC_BASE_URL: z.string().url().default("http://localhost:3000"),
