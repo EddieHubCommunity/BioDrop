@@ -1,9 +1,9 @@
-## 1.137.1 (2023-06-03)
+# 1.138.0 (2023-06-03)
 
 
-### Bug Fixes
+### Features
 
-* responsive height to youtube embeds ([#7308](https://github.com/EddieHubCommunity/LinkFree/issues/7308)) ([50c3094](https://github.com/EddieHubCommunity/LinkFree/commit/50c30942e5328ed3988afab973a63e8e986457af))
+* remove single user mode ([#7350](https://github.com/EddieHubCommunity/LinkFree/issues/7350)) ([679cca0](https://github.com/EddieHubCommunity/LinkFree/commit/679cca0a3c5c8505de7576fd00418af702f2f05b))
 
 
 
