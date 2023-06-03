@@ -1,9 +1,9 @@
-# 1.136.0 (2023-06-02)
+# 1.138.0 (2023-06-03)
 
 
 ### Features
 
-* newsletter sign up ([#7312](https://github.com/EddieHubCommunity/LinkFree/issues/7312)) ([80328a2](https://github.com/EddieHubCommunity/LinkFree/commit/80328a236bf696b89cd4715027fe325fcb7990b6))
+* remove single user mode ([#7350](https://github.com/EddieHubCommunity/LinkFree/issues/7350)) ([679cca0](https://github.com/EddieHubCommunity/LinkFree/commit/679cca0a3c5c8505de7576fd00418af702f2f05b))
 
 
 

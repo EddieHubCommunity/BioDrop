@@ -90,22 +90,22 @@ export default function Playground() {
 
   const buttonProps = () => {
     if (!formatComplete) {
-      return { text: "Format", onClick: handleFormatJson, primary: false };
+      return { children: "Format", onClick: handleFormatJson, primary: false };
     }
 
     if (formatComplete && !validateComplete) {
       return {
-        text: "Validate",
+        children: "Validate",
         onClick: handleValidateJson,
         primary: false,
       };
     }
 
     if (formatComplete && validateComplete) {
-      return { text: "Preview", onClick: handlePreview, primary: true };
+      return { children: "Preview", onClick: handlePreview, primary: true };
     }
 
-    return { text: "", disable: true };
+    return { children: "", disable: true };
   };
 
   return (
