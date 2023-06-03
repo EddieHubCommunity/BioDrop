@@ -7,8 +7,6 @@ const envSchema = z.object({
 
 const clientEnv = envSchema.safeParse(process.env);
 
-console.log(clientEnv);
-
 if (!clientEnv.success) {
   console.error("There is an error with the client environment variables");
   console.error(clientEnv.error.issues);
