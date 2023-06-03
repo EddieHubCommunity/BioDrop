@@ -5,22 +5,22 @@
     {
       "name": "Website",
       "url": "https://www.jacquesmurray.com",
-      "icon": "fa-wordpress"
+      "icon": "FaWeb"
     },
     {
       "name": "Twitter",
       "url": "https://twitter.com/JacquesMurray",
-      "icon": "fa-twitter"
+      "icon": "FaTwitter"
     },
     {
       "name": "GitHub",
       "url": "https://github.com/Jacques-Murray",
-      "icon": "fa-github"
+      "icon": "FaGithub"
     },
     {
       "name": "LinkedIn",
       "url": "https://linkedin.com/in/JacquesMurray",
-      "icon": "fa-linkedin"
+      "icon": "FaLinkedin"
     }
     ]
 }
