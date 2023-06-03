@@ -41,7 +41,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Link({ BASE_URL, username, link }) {
-  const [id, setId] = useState(link._id);
+  const [edit, setEdit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group);
   const [name, setName] = useState(link.name);
   const [url, setUrl] = useState(link.url);
@@ -105,8 +105,8 @@ export default function Link({ BASE_URL, username, link }) {
                       label="Url"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
-                      disabled={true}
-                      readOnly={true}
+                      disabled={edit}
+                      readOnly={edit}
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
