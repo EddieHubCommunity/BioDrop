@@ -1,9 +1,9 @@
-# 1.137.0 (2023-06-02)
+## 1.137.1 (2023-06-03)
 
 
-### Features
+### Bug Fixes
 
-* skip links to pages for accessibility ([#7125](https://github.com/EddieHubCommunity/LinkFree/issues/7125)) ([5d55f04](https://github.com/EddieHubCommunity/LinkFree/commit/5d55f04e327f8a39adf3f817b17dff64ce57a27b))
+* responsive height to youtube embeds ([#7308](https://github.com/EddieHubCommunity/LinkFree/issues/7308)) ([50c3094](https://github.com/EddieHubCommunity/LinkFree/commit/50c30942e5328ed3988afab973a63e8e986457af))
 
 
 
