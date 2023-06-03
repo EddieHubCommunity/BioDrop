@@ -1,9 +1,17 @@
-import * as PinoLogger from "pino";
-import * as Pretty from "pino-pretty";
 import { serverEnv } from "@config/schemas/serverSchema";
+import * as PinoLogger from "pino";
 
-const config = serverEnv.NODE_ENV === "development" ? Pretty({ colorize: true }) : {};
+const config = {
+  transport: {
+    target: "pino-pretty",
+    options: {
+      colorize: true,
+    },
+  },
+};
 
-const logger = PinoLogger.pino(config);
+let logger;
+
+logger = PinoLogger.pino(serverEnv.NODE_ENV === "development" ? config : {});
 
 export default logger;

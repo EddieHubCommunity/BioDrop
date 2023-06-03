@@ -1,7 +1,22 @@
-import * as z from "zod";
+const z = require("zod");
+require("dotenv").config();
 
 const envSchema = z.object({
   NEXT_PUBLIC_BASE_URL: z.string().url().default("http://localhost:3000"),
 });
 
-export const clientEnv = envSchema.parse(process.env);
+const clientEnv = envSchema.safeParse(process.env);
+
+console.log(clientEnv);
+
+if (!clientEnv.success) {
+  console.error("There is an error with the client environment variables");
+  console.error(clientEnv.error.issues);
+  process.exit?.(1);
+}
+
+console.log("The client environment variables are valid!");
+
+module.exports = {
+  clientEnv: clientEnv.data,
+};

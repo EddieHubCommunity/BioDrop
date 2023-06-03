@@ -1,4 +1,5 @@
-import * as z from "zod";
+const z = require("zod");
+require("dotenv").config();
 
 const envSchema = z.object({
   LINKFREE_MONGO_CONNECTION_STRING: z.string().min(10),
@@ -8,7 +9,19 @@ const envSchema = z.object({
   GITHUB_ID: z.string().optional(),
   GITHUB_SECRET: z.string().optional(),
   NEXTAUTH_SECRET: z.string().optional(),
-  LINKFREE_API_SECRET: z.string().min(1),
+  LINKFREE_API_SECRET: z.string().min(4),
 });
 
-export const serverEnv = envSchema.parse(process.env);
+const serverEnv = envSchema.safeParse(process.env);
+
+if (!serverEnv.success) {
+  console.error("There is an error with the server environment variables");
+  console.error(serverEnv.error.issues);
+  process.exit?.(1);
+}
+
+console.log("The server environment variables are valid!");
+
+module.exports = {
+  serverEnv: serverEnv.data,
+};
