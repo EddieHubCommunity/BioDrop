@@ -9,6 +9,7 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 import { getLinkApi } from "pages/api/account/manage/link";
 import Input from "@components/form/Input";
+import UserLink from "@components/user/UserLink";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -35,11 +36,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { link, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { username, link, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Link({ BASE_URL, link }) {
+export default function Link({ BASE_URL, username, link }) {
   const [id, setId] = useState(link._id);
   const [group, setGroup] = useState(link.group);
   const [name, setName] = useState(link.name);
@@ -47,7 +48,7 @@ export default function Link({ BASE_URL, link }) {
   const [icon, setIcon] = useState(link.icon);
   const [isEnabled, setIsEnabled] = useState(link.isEnabled);
   const [isPinned, setIsPinned] = useState(link.isPinned);
-  console.log(link, url);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await fetch(`${BASE_URL}/api/account/manage/link`, {
@@ -69,90 +70,76 @@ export default function Link({ BASE_URL, link }) {
 
       <Page>
         <Navigation />
-        <form
-          className="space-y-8 divide-y divide-gray-200"
-          onSubmit={handleSubmit}
-        >
-          <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
-            <div className="space-y-6 sm:space-y-5">
-              <div>
-                <h3 className="text-lg font-medium leading-6 text-gray-900">
-                  What links would you like to appear on your profile?
-                </h3>
-                <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                  Tip: promoted link to under your name
-                </p>
-              </div>
 
-              <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Group
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <Input
-                    name="group"
-                    label="Group"
-                    onChange={(e) => setGroup(e.target.value)}
-                    value={group}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
+        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
+          <form
+            className="space-y-8 divide-y divide-gray-200"
+            onSubmit={handleSubmit}
+          >
+            <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+              <div className="space-y-6 sm:space-y-5">
+                <div>
+                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                    What links would you like to appear on your profile?
+                  </h3>
+                  <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                    Tip: promoted link to under your name
+                  </p>
                 </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Name
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <Input
-                    name="name"
-                    label="Name"
-                    onChange={(e) => setName(e.target.value)}
-                    value={name}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Url
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <Input
-                    name="url"
-                    label="Url"
-                    onChange={(e) => setUrl(e.target.value)}
-                    value={url}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-                <label
-                  htmlFor="first-name"
-                  className="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2"
-                >
-                  Icon
-                </label>
-                <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <Input
-                    name="icon"
-                    label="Icon"
-                    onChange={(e) => setIcon(e.target.value)}
-                    value={icon}
-                    className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
-                  />
-                </div>
-              </div>
 
-              <div className="mt-6 flex items-center justify-end gap-x-6">
-                <Button text="SAVE" primary={true} />
+                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="group"
+                      label="Group"
+                      onChange={(e) => setGroup(e.target.value)}
+                      value={group}
+                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="name"
+                      label="Name"
+                      onChange={(e) => setName(e.target.value)}
+                      value={name}
+                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="url"
+                      label="Url"
+                      onChange={(e) => setUrl(e.target.value)}
+                      value={url}
+                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="icon"
+                      label="Icon"
+                      onChange={(e) => setIcon(e.target.value)}
+                      value={icon}
+                      className="block w-full max-w-lg rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:max-w-xs sm:text-sm"
+                    />
+                  </div>
+                </div>
+
+                <div className="mt-6 flex items-center justify-end gap-x-6">
+                  <Button primary={true}>SAVE</Button>
+                </div>
               </div>
             </div>
+          </form>
+          <div>
+            <UserLink
+              BASE_URL={BASE_URL}
+              link={{ name, url, icon }}
+              username={username}
+            />
           </div>
-        </form>
+        </div>
       </Page>
     </>
   );

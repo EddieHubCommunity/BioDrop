@@ -165,10 +165,11 @@ export default function Statistics({ data, profile, progress }) {
               </div>
               <div className="mt-5 flex justify-center sm:mt-0">
                 <Button
-                  text="View profile"
                   href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
                   primary={true}
-                />
+                >
+                  VIEW PROFILE
+                </Button>
               </div>
             </div>
           </div>

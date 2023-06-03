@@ -1,6 +1,6 @@
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { FaEdit, FaPlus } from "react-icons/fa";
+import { PencilIcon, DocumentPlusIcon } from "@heroicons/react/24/outline";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -49,11 +49,10 @@ export default function Links({ BASE_URL, username, links }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <div>
-            <Button
-              href="/account/manage/link"
-              text="Add Link"
-              icon={<FaPlus />}
-            />
+            <Button href="/account/manage/link">
+              <DocumentPlusIcon className="h-5 w-5 mr-2" />
+              Add Link
+            </Button>
 
             <ul role="list" className="divide-y divide-gray-100">
               {links.map((link) => (
@@ -86,11 +85,10 @@ export default function Links({ BASE_URL, username, links }) {
                     </div>
                   </div>
                   <div className="flex flex-none items-center gap-x-4">
-                    <Button
-                      icon={<FaEdit />}
-                      href={`/account/manage/link/${link._id}`}
-                      text="Edit"
-                    />
+                    <Button href={`/account/manage/link/${link._id}`}>
+                      <PencilIcon className="h-5 w-5 mr-2" />
+                      Edit
+                    </Button>
                   </div>
                 </li>
               ))}

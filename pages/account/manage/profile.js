@@ -168,7 +168,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                 </section>
 
                 <div className="mt-10 border-t border-gray-200 pt-6 sm:flex sm:items-center sm:justify-between">
-                  <Button text="SAVE" primary={true} />
+                  <Button primary={true}>SAVE</Button>
                 </div>
               </div>
             </form>
