@@ -6,12 +6,11 @@ import Image from "next/legacy/image";
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
-import getIcon from "@components/Icon";
 import { useTheme } from "next-themes";
 
-const FaGithub = getIcon("FaGithub");
-const FaRegMoon = getIcon("FaRegMoon");
-const FaSun = getIcon("FaSun");
+import FaGithub from "@components/icons/FaGithub";
+import { SunIcon } from "@heroicons/react/20/solid";
+import { MoonIcon } from "@heroicons/react/20/solid";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +40,7 @@ export default function Navbar() {
           onClick={() => setTheme("light")}
           aria-label="Toggle Theme"
         >
-          <FaSun className="text-primary-low hover:text-secondary-low" />
+          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
         </button>
       );
     }
@@ -52,7 +51,7 @@ export default function Navbar() {
         onClick={() => setTheme("dark")}
         aria-label="Toggle Theme"
       >
-        <FaRegMoon className="text-primary-low hover:text-secondary-low" />
+        <MoonIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
       </button>
     );
   };
@@ -128,7 +127,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="min-h-full" ref={navConRef}>
+    <header className="min-h-full" ref={navConRef}>
       <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
@@ -273,6 +272,6 @@ export default function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
