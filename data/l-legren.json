@@ -1,0 +1,16 @@
+{
+  "name": "Carlos Leret",
+  "bio": "Former construction manager, now building blocks of code instead bricks. Photography enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Instagram!",
+      "url": "https://www.instagram.com/l.legren/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub!",
+      "url": "https://www.github.com/l-legren",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}
