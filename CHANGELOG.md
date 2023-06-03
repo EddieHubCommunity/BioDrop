@@ -1,9 +1,9 @@
-# 1.137.0 (2023-06-02)
+# 1.138.0 (2023-06-03)
 
 
 ### Features
 
-* skip links to pages for accessibility ([#7125](https://github.com/EddieHubCommunity/LinkFree/issues/7125)) ([5d55f04](https://github.com/EddieHubCommunity/LinkFree/commit/5d55f04e327f8a39adf3f817b17dff64ce57a27b))
+* remove single user mode ([#7350](https://github.com/EddieHubCommunity/LinkFree/issues/7350)) ([679cca0](https://github.com/EddieHubCommunity/LinkFree/commit/679cca0a3c5c8505de7576fd00418af702f2f05b))
 
 
 
