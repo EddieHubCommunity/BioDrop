@@ -6,7 +6,7 @@ import UserLinks from "./UserLinks";
 import UserMilestones from "./UserMilestones";
 import UserTestimonials from "./UserTestimonials";
 import UserEvents from "./UserEvents";
-import UserEddiehubData from "./EddieHub/UserEddiehubData";
+import UserEddieHubData from "./EddieHub/UserEddieHubData";
 
 export default function UserPage({ data, BASE_URL, apiEvents }) {
   const defaultTabs = [
@@ -71,7 +71,7 @@ export default function UserPage({ data, BASE_URL, apiEvents }) {
       )}
 
       {tabs.find((tab) => tab.name === "EddieHub Stats")?.current && (
-        <UserEddiehubData data={apiEvents} />
+        <UserEddieHubData data={apiEvents} />
       )}
     </>
   );

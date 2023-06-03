@@ -1,4 +1,4 @@
-export default function UserEddiehubDataItem({ label, amount }) {
+export default function UserEddieHubDataItem({ label, amount }) {
   return (
     <div className="pt-6">
       <div className="text-primary-high dark:text-primary-low-medium group">
