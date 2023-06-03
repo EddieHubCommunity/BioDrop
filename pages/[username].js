@@ -4,7 +4,7 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
-import { getUserApi } from "./api/users/[username]/index";
+import { getUserApi } from "./api/profiles/[username]/index";
 import singleUser from "@config/user.json";
 import logger from "@config/logger";
 import Link from "@components/Link";

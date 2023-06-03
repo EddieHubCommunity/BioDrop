@@ -12,7 +12,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { getUserApi } from "../api/users/[username]";
+import { getUserApi } from "../api/profiles/[username]";
 import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";

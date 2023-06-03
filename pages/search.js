@@ -10,7 +10,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/users";
+import { getUsers } from "./api/profiles";
 import config from "@config/app.json";
 
 export async function getStaticProps() {
