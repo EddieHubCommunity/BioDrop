@@ -17,9 +17,10 @@ export async function getUsers(options = {}) {
   await connectMongo();
 
   let profiles = [];
-  const {cards} = {cards: false, ...options};
-  const fields = cards ? ["username", "name", "bio", "tags", "-_id"] :
-    ["username", "name", "bio", "tags", "location", "-_id"]
+  const { cards } = { cards: false, ...options };
+  const fields = cards
+    ? ["username", "name", "bio", "tags", "-_id"]
+    : ["username", "name", "bio", "tags", "location", "-_id"];
   try {
     profiles = await Profile.find(
       { name: { $exists: true }, isEnabled: true },
