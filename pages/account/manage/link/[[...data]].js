@@ -11,6 +11,7 @@ import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
+import Notification from "@components/Notification";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -41,6 +42,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function Link({ BASE_URL, username, link }) {
+  const [showNotification, setShowNotification] = useState(false);
   const [edit, setEdit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group);
   const [name, setName] = useState(link.name);
@@ -61,7 +63,8 @@ export default function Link({ BASE_URL, username, link }) {
         body: JSON.stringify({ group, name, url, icon, isEnabled, isPinned }),
       }
     );
-    const data = await res.json();
+    await res.json();
+    setShowNotification(true);
   };
 
   return (
@@ -73,6 +76,14 @@ export default function Link({ BASE_URL, username, link }) {
 
       <Page>
         <Navigation />
+
+        <Notification
+          show={showNotification}
+          type="success"
+          onClose={() => setShowNotification(false)}
+          message="Link saved"
+          additionalMessage="Your link information has been saved successfully."
+        />
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
