@@ -92,18 +92,18 @@ export default function Changelog() {
         description="What are the latest features and changes to LinkFree"
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
+        <h1 className="mb-4 text-4xl font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white dark:bg-primary-high dark:border dark:border-primary-medium shadow sm:rounded-md">
+        <div className="overflow-hidden bg-white shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
                   <div className="flex items-center justify-between">
-                    <p className="truncate text-lg font-medium">
+                    <p className="text-lg font-medium truncate">
                       {change.title}
                     </p>
-                    <div className="ml-2 flex flex-shrink-0">
+                    <div className="flex flex-shrink-0 ml-2">
                       <p
                         className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
                           colors[change.type]
@@ -114,17 +114,15 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex dark:text-primary-medium-low">
+                    <div className="sm:flex dark:text-primary-low">
                       {change.description}
                     </div>
-                    <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
+                    <div className="flex items-center mt-2 text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
                         className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p className="dark:text-primary-medium-low">
-                        {change.date}
-                      </p>
+                      <p className="dark:text-primary-low">{change.date}</p>
                     </div>
                   </div>
                 </div>
