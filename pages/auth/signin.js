@@ -41,11 +41,14 @@ export default function SignIn() {
 
         <Button
           primary={true}
-          icon={<BsGithub className="text-2xl" />}
-          text={"Continue with GitHub"}
           key="github"
           onClick={() => signIn("github")}
-        />
+        >
+          <span className="mr-2">
+            <BsGithub className="text-2xl" />
+          </span>
+          Continue with GitHub
+        </Button>
 
         <p className="mt-10 text-center text-sm text-gray-500">
           100% Open Source and FREE forever!

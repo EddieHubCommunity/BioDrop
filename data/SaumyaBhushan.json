@@ -1,0 +1,32 @@
+{
+  "name": "Saumya Bhushan",
+  "bio": "**DevOps** Engineer, OpenSource **Contributor**, **Blogger** at Hashnode",
+  "tags": ["Open Source", "DevOps", "K8s", "AWS", "Azure"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/saumya_bhushan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/SaumyaBhushan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "HashNode-Blogging",
+      "url": "https://hashnode.com/@SaumyaPandey",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linked-In",
+      "url": "https://www.linkedin.com/in/saumya-pandey-076572166/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Fiverrr- Looking out for my first client",
+      "url": "https://www.fiverr.com/saumya666",
+      "icon": "SiFiverr"
+    }
+  ]
+}

@@ -1,9 +1,9 @@
-# 1.135.0 (2023-05-31)
+## 1.138.6 (2023-06-04)
 
 
-### Features
+### Bug Fixes
 
-* events tab filter categories dropdown menu ([#7180](https://github.com/EddieHubCommunity/LinkFree/issues/7180)) ([34b1735](https://github.com/EddieHubCommunity/LinkFree/commit/34b17356a2ab5297873fcb4b92c078bb9922e309))
+* link in bio with markdown style ([#7339](https://github.com/EddieHubCommunity/LinkFree/issues/7339)) ([ff4e9cc](https://github.com/EddieHubCommunity/LinkFree/commit/ff4e9ccb3b0f66f50bfb3b3f66bee632c25350ba))
 
 
 
