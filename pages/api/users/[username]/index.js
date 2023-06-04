@@ -190,7 +190,7 @@ export async function getUserApi(req, res, username) {
     }
   })());
 
-  await Promise.all(updates);
+  await Promise.allSettled(updates);
 
   return JSON.parse(
     JSON.stringify({
