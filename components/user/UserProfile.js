@@ -23,13 +23,10 @@ function UserProfile({ BASE_URL, data }) {
     qrRef.current.firstChild.toBlob((blob) =>
       saveAs(blob, `linkfree-${data.username}.png`)
     );
-    
+
   // Custom component for rendering links within ReactMarkdown
   const LinkRenderer = ({ href, children }) => (
-    <Link href={href}
-      rel="noreferrer"
-      className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low w-1/4 py-4 px-1 text-center border-b-0 font-medium text-sm hover:underline hover:decoration-solid"
-    >
+    <Link href={href}>
       {children}
     </Link>
   );
