@@ -1,9 +1,9 @@
-## 1.138.3 (2023-06-04)
+## 1.138.4 (2023-06-04)
 
 
 ### Bug Fixes
 
-* vercel single deploy ([#7363](https://github.com/EddieHubCommunity/LinkFree/issues/7363)) ([1b91d58](https://github.com/EddieHubCommunity/LinkFree/commit/1b91d5840c32da7253e26316cdbeb0391f3c6018))
+* search page cleanup ([#7288](https://github.com/EddieHubCommunity/LinkFree/issues/7288)) ([374ca1c](https://github.com/EddieHubCommunity/LinkFree/commit/374ca1cc42217cd074284410213c688124c27e63))
 
 
 
