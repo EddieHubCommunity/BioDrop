@@ -1,9 +1,9 @@
-# 1.138.0 (2023-06-03)
+## 1.138.4 (2023-06-04)
 
 
-### Features
+### Bug Fixes
 
-* remove single user mode ([#7350](https://github.com/EddieHubCommunity/LinkFree/issues/7350)) ([679cca0](https://github.com/EddieHubCommunity/LinkFree/commit/679cca0a3c5c8505de7576fd00418af702f2f05b))
+* search page cleanup ([#7288](https://github.com/EddieHubCommunity/LinkFree/issues/7288)) ([374ca1c](https://github.com/EddieHubCommunity/LinkFree/commit/374ca1cc42217cd074284410213c688124c27e63))
 
 
 
