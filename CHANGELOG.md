@@ -1,9 +1,9 @@
-# 1.137.0 (2023-06-02)
+## 1.138.4 (2023-06-04)
 
 
-### Features
+### Bug Fixes
 
-* skip links to pages for accessibility ([#7125](https://github.com/EddieHubCommunity/LinkFree/issues/7125)) ([5d55f04](https://github.com/EddieHubCommunity/LinkFree/commit/5d55f04e327f8a39adf3f817b17dff64ce57a27b))
+* search page cleanup ([#7288](https://github.com/EddieHubCommunity/LinkFree/issues/7288)) ([374ca1c](https://github.com/EddieHubCommunity/LinkFree/commit/374ca1cc42217cd074284410213c688124c27e63))
 
 
 

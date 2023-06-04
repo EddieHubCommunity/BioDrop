@@ -1,0 +1,26 @@
+{
+  "name": "Jacques Murray",
+  "bio": "As a freelancer, I am driven by my passion for technology and my desire to stay current with the latest advancements in the field. This has led me to develop a diverse skillset that includes software, web, and app development, WordPress, SEO, digital marketing, and cybersecurity. My expertise in cloud computing extends beyond the major players like Azure, AWS, and GCP to also include Linode and DigitalOcean. I am particularly focused on penetration testing and bug bounty hunting, which I use to ensure the websites and applications I develop are as secure as possible. With a background in development, cloud computing, and cybersecurity, I am well-equipped to take on any project thrown my way.",
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://www.jacquesmurray.com",
+      "icon": "FaWeb"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/JacquesMurray",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Jacques-Murray",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/JacquesMurray",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
