@@ -1,9 +1,9 @@
-# 1.138.0 (2023-06-03)
+## 1.138.1 (2023-06-04)
 
 
-### Features
+### Bug Fixes
 
-* remove single user mode ([#7350](https://github.com/EddieHubCommunity/LinkFree/issues/7350)) ([679cca0](https://github.com/EddieHubCommunity/LinkFree/commit/679cca0a3c5c8505de7576fd00418af702f2f05b))
+* set preload to false on most links ([#7356](https://github.com/EddieHubCommunity/LinkFree/issues/7356)) ([44372da](https://github.com/EddieHubCommunity/LinkFree/commit/44372da24d81ac851544781c01c54f777ab4e70a))
 
 
 
