@@ -1,38 +1,89 @@
 import { useState } from "react";
-
 import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
-import EventKey from "@components/event/EventKey";
+import DropdownMenu from "@components/form/DropDown";
 
 export default function UserEvents({ data }) {
-  const [eventType, setEventType] = useState("future");
-  const futureEvents = data.events.filter((event) => event.date.future);
+  const [eventType, setEventType] = useState("all");
 
-  let categorizedEvents = {
-    future: futureEvents,
-    ongoing: data.events.filter((event) => event.date.ongoing === true),
-    virtual: futureEvents.filter((event) => event.isVirtual === true),
-    inPerson: futureEvents.filter((event) => event.isInPerson === true),
-    cfpOpen: futureEvents.filter((event) => event.date.cfpOpen === true),
-    free: data.events.filter((event) => event.price?.startingFrom === 0),
-    paid: data.events.filter((event) => event.price?.startingFrom > 0),
-    past: data.events.filter((event) => event.date.future === false),
+  const eventOptions = [
+    { value: 'all' , name: 'All Events'},
+    { value: 'future' , name: 'Future Events'},
+    { value: 'ongoing', name: 'Ongoing Events'},
+    { value: 'virtual', name: 'Virtual Events'},
+    { value: 'inPerson', name: 'In-Person Events'},
+    { value: 'cfpOpen', name:'Events with open CFP'},
+    { value: 'free', name: 'Free Events'},
+    { value: 'paid', name: 'Paid Events'},
+    { value: 'past', name: 'Past Events'}
+  ];
+
+  const handleEventTypeChange = (event) => {
+    setEventType(event.target.value);
   };
 
+  const filterByEventType = (event, eventType) => {
+    switch (eventType) {
+      case "future":
+        return event.date.future;
+      case "ongoing":
+        return event.date.ongoing;
+      case "virtual":
+        return event.date.future && event.isVirtual;
+      case "inPerson":
+        return event.date.future && event.isInPerson;
+      case "cfpOpen":
+        return event.date.cfpOpen;
+      case "free":
+        return event.price?.startingFrom === 0;
+      case "paid":
+        return event.price?.startingFrom > 0;
+      case "past":
+        return !event.date.future;
+      default:
+        return true;
+    }
+  };
+  const getFilteredEvents = () => {
+    if (eventType === "all") {
+      return data.events;
+    }
+    return data.events.filter((event) => filterByEventType(event, eventType));
+  };
+
+  const eventsToShow = getFilteredEvents();
+
+  const filteredEventOptions = eventOptions.filter((option) => {
+    if (option.value === "all") {
+      return true;
+    }
+    const events = data.events.filter((event) =>
+      filterByEventType(event, option.value)
+    );
+    return events.length > 0;
+  });
+
   return (
-    <div className="mt-6">
-      <EventKey
-        categorizedEvents={categorizedEvents}
-        onToggleEventType={(newValue) => setEventType(newValue)}
+    <div className="m-6">
+      <DropdownMenu
+        eventType={eventType}
+        handleEventTypeChange={handleEventTypeChange} 
+        options={filteredEventOptions} 
+        label="Select Event Type:"
+        className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5" 
       />
 
-      {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-primary-low">
-        {data.events &&
-          categorizedEvents[eventType].map((event, index) => (
+      {eventsToShow.length > 0 ? (
+        <ul role="list" className="divide-y divide-primary-low mt-4">
+          {eventsToShow.map((event, index) => (
             <EventCard event={event} key={index} />
           ))}
-      </ul>
+        </ul>
+      ) : (
+        <div className="mt-4">
+          <Alert type="info" message="No events found" />
+        </div>
+      )}
     </div>
   );
 }

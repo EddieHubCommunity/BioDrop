@@ -1,9 +1,9 @@
-# 1.134.0 (2023-05-30)
+## 1.138.6 (2023-06-04)
 
 
-### Features
+### Bug Fixes
 
-* promo video on homepage ([#7229](https://github.com/EddieHubCommunity/LinkFree/issues/7229)) ([#7230](https://github.com/EddieHubCommunity/LinkFree/issues/7230)) ([182e1d2](https://github.com/EddieHubCommunity/LinkFree/commit/182e1d23950d9dffc794f2a1ddc3dd56af9230c5))
+* link in bio with markdown style ([#7339](https://github.com/EddieHubCommunity/LinkFree/issues/7339)) ([ff4e9cc](https://github.com/EddieHubCommunity/LinkFree/commit/ff4e9ccb3b0f66f50bfb3b3f66bee632c25350ba))
 
 
 

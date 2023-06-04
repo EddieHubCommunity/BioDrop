@@ -60,5 +60,5 @@ jobs:
           secret-files: "MONGO=/tmp/.env"
           build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
           tags: |
-            ghcr.io/eddiehubcommunity/linkfree:v${{ steps.package-version.outputs.current-version}}
+            ghcr.io/eddiehubcommunity/linkfree:${{ steps.package-version.outputs.current-version}}
             ghcr.io/eddiehubcommunity/linkfree:latest
