@@ -1,9 +1,9 @@
-## 1.138.4 (2023-06-04)
+## 1.138.5 (2023-06-04)
 
 
 ### Bug Fixes
 
-* search page cleanup ([#7288](https://github.com/EddieHubCommunity/LinkFree/issues/7288)) ([374ca1c](https://github.com/EddieHubCommunity/LinkFree/commit/374ca1cc42217cd074284410213c688124c27e63))
+* increase feature list font size ([#7367](https://github.com/EddieHubCommunity/LinkFree/issues/7367)) ([db95764](https://github.com/EddieHubCommunity/LinkFree/commit/db95764993678a06913dd22ef42dda4a5c834a46))
 
 
 
