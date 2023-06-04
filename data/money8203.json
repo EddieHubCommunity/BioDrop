@@ -1,6 +1,6 @@
 {
   "name": "Manish Tyagi ",
-  "bio": "**Open Source** DevRel | Postman Student Leader | Organizer API Days",
+  "bio": "Open Source DevRel | Postman Student Leader | Organizer API Days",
   "tags": [
     "Open Source",
     "DevRel",
@@ -47,6 +47,12 @@
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials",
+      "name": "Connect 1:1 with me",
+      "url": "calendly.com/manisht",
+      "icon": "SiCalendly"
+    },
+    { 
       "group": "Socials",
       "name": "Google Developer Profile",
       "url": "https://g.dev/manisht",
