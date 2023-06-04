@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Link from "@models/Link";
+import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -68,9 +69,25 @@ export async function updateLinkApi(username, url, data) {
         isEnabled: data.isEnabled,
         isPinned: data.isPinned,
       },
-      { upsert: true, new: true }
+      { upsert: true }
     );
-    log.info(`link ${url} updated for username: ${username}`);
+
+    if (!getLink) {
+      log.info(`link ${url} created for username: ${username}`);
+      getLink = await Link.findOne({
+        username,
+        url,
+      });
+      await Profile.findOneAndUpdate(
+        { username },
+        {
+          $push: { links: getLink._id },
+        },
+        { upsert: true, new: true }
+      );
+    } else {
+      log.info(`link ${url} updated for username: ${username}`);
+    }
   } catch (e) {
     log.error(e, `failed to update link ${url} for username: ${username}`);
   }
