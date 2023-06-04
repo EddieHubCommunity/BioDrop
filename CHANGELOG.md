@@ -1,9 +1,9 @@
-## 1.138.4 (2023-06-04)
+## 1.138.6 (2023-06-04)
 
 
 ### Bug Fixes
 
-* search page cleanup ([#7288](https://github.com/EddieHubCommunity/LinkFree/issues/7288)) ([374ca1c](https://github.com/EddieHubCommunity/LinkFree/commit/374ca1cc42217cd074284410213c688124c27e63))
+* link in bio with markdown style ([#7339](https://github.com/EddieHubCommunity/LinkFree/issues/7339)) ([ff4e9cc](https://github.com/EddieHubCommunity/LinkFree/commit/ff4e9ccb3b0f66f50bfb3b3f66bee632c25350ba))
 
 
 
