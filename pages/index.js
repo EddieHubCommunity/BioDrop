@@ -13,7 +13,6 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import singleUser from "@config/user.json";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import Link from "@components/Link";
@@ -28,14 +27,6 @@ import Newsletter from "@components/Newsletter";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
-  if (singleUser.username) {
-    return {
-      redirect: {
-        destination: `/${singleUser.username}`,
-        permanent: true,
-      },
-    };
-  }
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
@@ -340,10 +331,10 @@ export default function Home({ total, today }) {
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg font-medium text-white">
+                  <h3 className="text-lg sm:text-2xl font-medium text-white">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm text-white">
+                  <p className="mt-2 text-sm sm:text-lg text-white">
                     {feature.description}
                   </p>
                 </div>

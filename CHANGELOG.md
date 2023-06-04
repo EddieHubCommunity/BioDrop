@@ -1,9 +1,9 @@
-## 1.137.1 (2023-06-03)
+## 1.138.6 (2023-06-04)
 
 
 ### Bug Fixes
 
-* responsive height to youtube embeds ([#7308](https://github.com/EddieHubCommunity/LinkFree/issues/7308)) ([50c3094](https://github.com/EddieHubCommunity/LinkFree/commit/50c30942e5328ed3988afab973a63e8e986457af))
+* link in bio with markdown style ([#7339](https://github.com/EddieHubCommunity/LinkFree/issues/7339)) ([ff4e9cc](https://github.com/EddieHubCommunity/LinkFree/commit/ff4e9ccb3b0f66f50bfb3b3f66bee632c25350ba))
 
 
 

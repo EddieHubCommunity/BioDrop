@@ -7,8 +7,12 @@ on:
   release:
     types: [published]
   push:
+    # this will deploy data files only when no release is created
     branches:
-      - main # this will deploy data files
+      - main
+    paths:
+      - "data/**"
+
 jobs:
   deploy:
     if: github.repository == 'EddieHubCommunity/LinkFree'
