@@ -9,7 +9,8 @@ test("Changelog has title", async ({ page }) => {
 
 // Navigating to Changelog Page
 test("Navigate to Changelog", async ({ page }) => {
-  await page.goto("/roadmap/changelog");
+  await page.goto("/roadmap");
+  await page.getByRole("link", { name: "See full list" }).click();
   await expect(page.locator("h1")).toHaveText("Changelog");
 });
 
