@@ -100,7 +100,7 @@ export default function Changelog() {
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
                   <div className="flex items-center justify-between">
-                    <p className="text-lg font-medium truncate">
+                    <p className="truncate text-lg font-medium">
                       {change.title}
                     </p>
                     <div className="flex flex-shrink-0 ml-2">
