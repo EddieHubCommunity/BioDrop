@@ -50,3 +50,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn, network
 ---
 
 Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
+
+Further you can watch the video that Eddie created as contributing guide. Click on image to watch the video.
+<a href = "https://youtu.be/dfeSpGd8leU"><img src="https://user-images.githubusercontent.com/82668196/242340741-a0124ead-97b6-488f-9271-10f2b0e1f577.jpg"   width="550" height="300"> </a>
+
