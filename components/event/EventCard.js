@@ -10,7 +10,7 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 
-export default function EventCard({ event, username, users }) {
+export default function EventCard({ event, username, usernames }) {
   const fallbackImageSize = 60;
   const dateTimeStyle = {
     dateStyle: "full",
@@ -97,13 +97,13 @@ export default function EventCard({ event, username, users }) {
             </Link>
             <div className="isolate flex -space-x-1 ">
               {
-                users && (
-                  users.map((user) => {
+                usernames && (
+                  usernames.map((user) => {
                     return (
                       <Link
                         href={`/${user}`}
-                        key={user.name}
-                        className=" hidden lg:block "
+                        key={user}
+                        className=" hidden lg:block h-10 w-10  "
                       >
                         <FallbackImage
                           src={`https://github.com/${user}.png`}
@@ -111,7 +111,7 @@ export default function EventCard({ event, username, users }) {
                           width={fallbackImageSize}
                           height={fallbackImageSize}
                           fallback={user}
-                          className="relative z-30 inline-block rounded-full ring-2 ring-white"
+                          className="relative z-30 inline-block  rounded-full ring-2 ring-white"
                         />
                         {/* <img
                           className="relative z-30 inline-block h-6 w-6 rounded-full ring-2 ring-white"
