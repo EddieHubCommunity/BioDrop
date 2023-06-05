@@ -1,9 +1,9 @@
-## 1.138.6 (2023-06-04)
+## 1.138.7 (2023-06-05)
 
 
 ### Bug Fixes
 
-* link in bio with markdown style ([#7339](https://github.com/EddieHubCommunity/LinkFree/issues/7339)) ([ff4e9cc](https://github.com/EddieHubCommunity/LinkFree/commit/ff4e9ccb3b0f66f50bfb3b3f66bee632c25350ba))
+* event dates to mongo query ([#7372](https://github.com/EddieHubCommunity/LinkFree/issues/7372)) ([241e1cc](https://github.com/EddieHubCommunity/LinkFree/commit/241e1cc9e2d352d9f4c1615cdfc4b0507aed9499))
 
 
 
