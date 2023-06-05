@@ -49,7 +49,7 @@ const groupEvents = (events) => {
     }else{
       groups[event.url] = {
         ...event,
-        users: [event.username]
+        usernames: [event.username]
       }
     }
   });
