@@ -92,7 +92,7 @@ export default function Changelog() {
         description="What are the latest features and changes to LinkFree"
       />
       <Page>
-        <h1 className="mb-4 text-4xl font-bold">Changelog</h1>
+        <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
         <div className="overflow-hidden bg-white shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
