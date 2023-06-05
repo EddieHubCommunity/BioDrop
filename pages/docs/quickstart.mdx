@@ -2,6 +2,7 @@ import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy.js";
 import Link from "@components/Link.js";
 import Youtube from "@components/embeds/Youtube.js";
+import Alert from "@components/Alert.js";
 
 ## Quickstart
 
@@ -114,14 +115,31 @@ To add more links, add another object inside the links collection. For example:
 
 You can skip `optional extended message`
 
-**NOTE**: Please use the online [JSON Lint](https://jsonlint.com) tool to check if your JSON file is _error free_ before committing your pull request.
+<Alert
+  type="info"
+  message={
+    <>
+      <strong>NOTE</strong>: Please use our online{" "}
+      <Link href="https://linkfree.io/playground">Playground</Link> tool to
+      check your JSON file is <i>valid</i> before committing your pull request.
+    </>
+  }
+/>
 
 11. Click `create new branch` and you can use the default name provided
 12. Then, click `Propose new file`
 
 ![propose new file](https://user-images.githubusercontent.com/94740455/227761922-50d8484d-7c60-49a2-8347-941de2252c64.png)
 
-13. **HIGHLY IMPORTANT:** Click `compare across forks` and you will see 4 drop downs
+<Alert
+  type="warning"
+  message={
+    <>
+      13. <strong>HIGHLY IMPORTANT</strong>: Click compare across forks and you
+      will see 4 drop downs
+    </>
+  }
+/>
 
 | Dropdown     | Description                          | Example values               |
 | :----------- | :----------------------------------- | :--------------------------- |

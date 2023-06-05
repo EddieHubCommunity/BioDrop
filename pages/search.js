@@ -20,7 +20,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers();
+    data.users = await getUsers({ cards: true });
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -43,7 +43,7 @@ export async function getStaticProps() {
   };
 }
 
-export default function Search({ data: {users, tags, randUsers} }) {
+export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();

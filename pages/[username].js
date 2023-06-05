@@ -5,6 +5,7 @@ import { remark } from "remark";
 import strip from "strip-markdown";
 
 import { getUserApi } from "./api/profiles/[username]/index";
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
@@ -44,7 +45,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data: profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 

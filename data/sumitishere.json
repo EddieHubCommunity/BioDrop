@@ -13,11 +13,11 @@
   "socials": [
     {
       "icon": "FaTwitter",
-      "url": "https://twitter.com/sumitisheree"
+      "url": "https://twitter.com/sumitverse__"
     },
     {
       "icon": "FaGithub",
-      "url": "https://github.com/sumitmukharjeeeeee"
+      "url": "https://github.com/sumitishere"
     },
     {
       "icon": "FaLinkedin",
@@ -44,6 +44,11 @@
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/sumitmukharjeeeeee",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Read My Tech Blogs",
+      "url": "https://sumitmukharjii.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }

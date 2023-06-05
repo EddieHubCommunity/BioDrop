@@ -13,6 +13,7 @@ import {
 } from "recharts";
 
 import { getUserApi } from "../api/profiles/[username]";
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";
@@ -150,9 +151,7 @@ export default function Statistics({ data, profile, progress }) {
 
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} (
-          <Link
-            href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
-          >
+          <Link href={`${clientEnv.NEXT_PUBLIC_BASE_URL}/${profile.username}`}>
             {profile.username}
           </Link>
           )
