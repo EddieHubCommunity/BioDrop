@@ -17,7 +17,7 @@ test("Navigate to Changelog", async ({ page }) => {
 // Changelog Listed
 test("Changelog listed", async ({ page }) => {
   await page.goto("/changelog");
-  await expect(page.locator("li")).toBeGreaterThan(1);
+  await expect(page.locator("main li")).toBeGreaterThan(1);
 });
 
 // Footer
