@@ -24,6 +24,13 @@ function UserProfile({ BASE_URL, data }) {
       saveAs(blob, `linkfree-${data.username}.png`)
     );
 
+  // Custom component for rendering links within ReactMarkdown
+  const LinkRenderer = ({ href, children }) => (
+    <Link href={href}>
+      {children}
+    </Link>
+  );
+
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -59,7 +66,7 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown>{data.bio}</ReactMarkdown>
+        <ReactMarkdown components={{ a: LinkRenderer }}>{data.bio}</ReactMarkdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">

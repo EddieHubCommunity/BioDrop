@@ -4,12 +4,11 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getUserApi } from "./api/users/[username]/index";
-import singleUser from "@config/user.json";
 import logger from "@config/logger";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
-import SingleLayout from "@components/layouts/SingleLayout";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
@@ -46,7 +45,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data: profile, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
@@ -85,8 +84,5 @@ export default function User({ data, BASE_URL }) {
 }
 
 User.getLayout = function getLayout(page) {
-  if (singleUser.username) {
-    return <SingleLayout>{page}</SingleLayout>;
-  }
   return <MultiLayout>{page}</MultiLayout>;
 };
