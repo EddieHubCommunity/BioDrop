@@ -1,16 +1,14 @@
 import fs from "fs";
 import path from "path";
 
+import { serverEnv } from "@config/schemas/serverSchema";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
 
 export default async function handler(req, res) {
-  if (
-    req.method !== "GET" ||
-    req.query.secret !== process.env.LINKFREE_API_SECRET
-  ) {
+  if (req.method !== "GET" || req.query.secret !== serverEnv.LINKFREE_API_SECRET) {
     logger.error(
       `attempt to load profile json but security check failed: "${req.query.secret}"`
     );

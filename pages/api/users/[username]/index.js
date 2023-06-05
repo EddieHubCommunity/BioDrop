@@ -6,6 +6,7 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -77,7 +78,7 @@ export async function getUserApi(req, res, username) {
       title: testimonial.title,
       description: testimonial.description,
       date: testimonial.date,
-      url: `${process.env.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+      url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
       order: testimonial.order,
     })),
   };
@@ -92,14 +93,21 @@ export async function getUserApi(req, res, username) {
     };
     try {
       const start = new Date(event.date.start);
-      const end = new Date(event.date.end)
-      cleanEvent.date.startFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(start);
-      cleanEvent.date.endFmt = new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(end);
+      const end = new Date(event.date.end);
+      cleanEvent.date.startFmt = new Intl.DateTimeFormat(
+        "en-GB",
+        dateTimeStyle
+      ).format(start);
+      cleanEvent.date.endFmt = new Intl.DateTimeFormat(
+        "en-GB",
+        dateTimeStyle
+      ).format(end);
 
-      cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > today);
+      cleanEvent.date.cfpOpen =
+        event.date.cfpClose && new Date(event.date.cfpClose) > today;
       cleanEvent.date.future = start > today;
       cleanEvent.date.ongoing = start < today && end > today;
-      dateEvents.push(cleanEvent)
+      dateEvents.push(cleanEvent);
     } catch (e) {
       logger.error(e, `ERROR event date for: "${event.name}"`);
     }
