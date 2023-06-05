@@ -103,7 +103,7 @@ export default function Changelog() {
                     <p className="truncate text-lg font-medium">
                       {change.title}
                     </p>
-                    <div className="flex flex-shrink-0 ml-2">
+                    <div className="ml-2 flex flex-shrink-0">
                       <p
                         className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
                           colors[change.type]
