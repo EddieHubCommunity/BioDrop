@@ -17,7 +17,10 @@ test("Navigate to Changelog", async ({ page }) => {
 // Changelog Listed
 test("Changelog listed", async ({ page }) => {
   await page.goto("/changelog");
-  await expect(page.locator("main li")).toBeGreaterThan(1);
+  const listItems = await page.$$("main li"); // Get all the list items inside the main element
+  const listItemCount = listItems.length; // Get the count of list items
+
+  expect(listItemCount).toBeGreaterThan(1); // Assert that the count is greater than 1
 });
 
 // Footer
