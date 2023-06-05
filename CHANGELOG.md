@@ -1,9 +1,9 @@
-## 1.138.7 (2023-06-05)
+# 1.139.0 (2023-06-05)
 
 
-### Bug Fixes
+### Features
 
-* event dates to mongo query ([#7372](https://github.com/EddieHubCommunity/LinkFree/issues/7372)) ([241e1cc](https://github.com/EddieHubCommunity/LinkFree/commit/241e1cc9e2d352d9f4c1615cdfc4b0507aed9499))
+* zod validation on app startup ([#7325](https://github.com/EddieHubCommunity/LinkFree/issues/7325)) ([55aba90](https://github.com/EddieHubCommunity/LinkFree/commit/55aba90d1c578abdf867f049579809b360ce0570))
 
 
 
