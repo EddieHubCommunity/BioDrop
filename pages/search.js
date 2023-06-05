@@ -45,11 +45,11 @@ export async function getStaticProps() {
 
 export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
+  const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
   const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-
-  const { username, keyword } = router.query;
+  
   let results = [];
   
   useEffect(() => {
