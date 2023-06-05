@@ -117,7 +117,7 @@ export default function Changelog() {
                     <div className="sm:flex dark:text-primary-low">
                       {change.description}
                     </div>
-                    <div className="flex items-center mt-2 text-sm text-primary-medium sm:mt-0">
+                    <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
                         className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
