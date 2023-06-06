@@ -96,7 +96,7 @@
     "storybook": "^7.0.15",
     "storybook-dark-mode": "^3.0.0"
   },
-  "description": "LinkFree connect audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
+  "description": "LinkFree connects audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
