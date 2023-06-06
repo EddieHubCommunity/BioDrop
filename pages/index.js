@@ -346,13 +346,12 @@ export default function Home({ total, today }) {
                     "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
                   )}
                 >
-                  <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low">
+                  <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
                     <Image
                       src={feature.imageSrc}
                       alt={feature.imageAlt}
-                      className="object-cover object-center"
-                      width={1250}
-                      height={840}
+                      className="object-contain object-center"
+                      fill={true}
                     />
                   </div>
                 </div>
