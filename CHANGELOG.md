@@ -1,9 +1,9 @@
-## 1.139.3 (2023-06-06)
+## 1.139.4 (2023-06-06)
 
 
 ### Bug Fixes
 
-* milestone border color ([#7402](https://github.com/EddieHubCommunity/LinkFree/issues/7402)) ([4905c71](https://github.com/EddieHubCommunity/LinkFree/commit/4905c71293ad768727cd996f6d4bdc74df7b7a67))
+* home page screenshots ([#7414](https://github.com/EddieHubCommunity/LinkFree/issues/7414)) ([0e3ccbf](https://github.com/EddieHubCommunity/LinkFree/commit/0e3ccbf4aec76772a16a90a132a130c3c6f1d271))
 
 
 
