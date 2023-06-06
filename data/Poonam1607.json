@@ -1,6 +1,21 @@
 {
   "name": "Poonam Pawar",
-  "bio": "I am 22 Grad in Computer Science, currently learning DevOps",
+  "bio": "Learning DevOps | Open Source | 2022 Grad",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pawartwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Poonam1607"
+    }
+  ],
   "links": [
     {
       "name": "Work on GitHub",
