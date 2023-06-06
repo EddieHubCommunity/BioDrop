@@ -94,7 +94,7 @@ export default function Changelog() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white dark:bg-primary-high dark:border dark:border-primary-medium shadow sm:rounded-md">
+        <div className="overflow-hidden bg-white shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
@@ -114,7 +114,7 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex dark:text-primary-medium-low">
+                    <div className="sm:flex dark:text-primary-low">
                       {change.description}
                     </div>
                     <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
@@ -122,9 +122,7 @@ export default function Changelog() {
                         className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p className="dark:text-primary-medium-low">
-                        {change.date}
-                      </p>
+                      <p className="dark:text-primary-low">{change.date}</p>
                     </div>
                   </div>
                 </div>
