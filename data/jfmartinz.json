@@ -1,0 +1,68 @@
+{
+  "name": "Joseph Martin",
+  "bio": "Aspiring Front end developer 🚀 | Self-Taught Developer ✨ | Open Source Enthusiast 💫 | Computer Science Student 🎓",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React",
+    "Express",
+    "MongoDb",
+    "Tailwind"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/jfmartinz"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jfmartinz"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jfmartinz/"
+    },
+    {
+      "icon": "SiCodewars",
+      "url": "https://www.codewars.com/users/jfmartinz"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow My Coding Journey",
+      "url": "https://twitter.com/jfmartinz",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Github",
+      "url": "https://github.com/jfmartinz",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/jfmartinz/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "Codewars",
+      "icon": "SiCodewars",
+      "url": "https://www.codewars.com/users/jfmartinz"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Acceptance into GSSoC 2023 as a Contributor",
+      "date": "April 2023",
+      "icon": "FaCheck",
+      "color": "blue",
+      "description": "Accepted as a GSSoc23 contributor! Collaborating with mentors and fellow contributors for 3 months on an impactful open-source project. Excited to make meaningful contributions.",
+      "url": "https://www.linkedin.com/posts/jfmartinz_gssoc2023-gssoc-opensource-activity-7061604923590803456-DTWo?utm_source=share&utm_medium=member_desktop"
+    }
+  ]
+}

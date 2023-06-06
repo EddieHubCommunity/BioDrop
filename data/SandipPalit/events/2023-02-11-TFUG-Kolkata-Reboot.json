@@ -8,5 +8,10 @@
     "start": "2023-02-11T11:00:00.000+05:30",
     "end": "2023-02-11T15:00:00.000+05:30"
   },
-  "url": "https://twitter.com/TFUGKol/status/1623582121653837825"
+  "url": "https://twitter.com/TFUGKol/status/1623582121653837825",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  }
 }

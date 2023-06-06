@@ -1,0 +1,39 @@
+{
+  "name": "Della Ji",
+  "bio": "Dedicated full stack developer with expertise in devops",
+  "tags": [
+    "Open Source",
+    "Python",
+    "JavaScript",
+    "Typescript",
+    "Vue",
+    "React",
+    "Openstack"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/suanqy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/JMD110"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/della-ji-ba6519110"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/JMD110",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/della-ji-ba6519110",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

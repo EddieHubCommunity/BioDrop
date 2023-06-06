@@ -1,14 +1,21 @@
 {
   "name": "Nishit Baria",
-  "type": "personal",
   "bio": "**open source** Advocate | Web-Dev | Space Lover ",
   "tags": ["open source", "c++", "Java", "SQL", "open source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Nishitbaria1" },
-    { "icon": "FaGithub", "url": "https://github.com/Nishitbaria" },
-    { "icon": "FaLink", "url": "https://nishithacks.netlify.app/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Nishitbaria1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Nishitbaria"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://nishithacks.netlify.app/"
+    }
   ],
-
   "links": [
     {
       "name": "Learing in Public and tweet about it ",

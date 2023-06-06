@@ -1,11 +1,12 @@
 {
   "name": "Rajdeep Singh",
-  "type": "personal",
   "bio": "JavaScript || Reactjs || Nextjs || Python || Rust || Biotechnology || Bioinformatic || Front-end Developer || Author || Open source contributor",
-
   "tags": ["Open Source", "Javascript", "ReactJS", "Nextjs"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/officialrajdeepsingh" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/officialrajdeepsingh"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/officalrajdeepsingh/"

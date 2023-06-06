@@ -1,0 +1,21 @@
+{
+  "name": "Adreeja Mahato",
+  "bio": "BTech Undergrad persuing Applied Electronics and Instrumentation Engineering. DSA and Web Development enthusiast.Eager to learn more.",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/adreeja-mahato-84a000226/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/adreeja_mahato",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/adreeja06/",
+      "icon": "FaGithub"
+    }
+  ]
+}

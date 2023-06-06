@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -8,42 +8,48 @@ import PageHead from "@components/PageHead";
 import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/users";
+import config from "@config/app.json";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
+  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers({ cards: true });
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    data.tags = await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
 
+  if (data.users.length > 5) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  } else {
+    data.randUsers = data.users;
+  }
+
   return {
     props: { data },
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Search({ data }) {
-  let { users, tags } = data;
+export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
-  const [inputValue, setInputValue] = useState(username || keyword || "");
 
+  const [filteredUsers, setFilteredUsers] = useState(randUsers);
+  const [inputValue, setInputValue] = useState(username || keyword || "");
   let results = [];
 
   useEffect(() => {
@@ -105,6 +111,14 @@ export default function Search({ data }) {
 
   useEffect(() => {
     if (!inputValue) {
+      //Setting the users as null when the input field is empty
+      setFilteredUsers(randUsers);
+      //Removing the not found field when the input field is empty
+      setNotFound();
+      return;
+    }
+
+    if (inputValue.length < 2) {
       return;
     }
 
@@ -150,7 +164,6 @@ export default function Search({ data }) {
         >
           <Input
             placeholder="Search user by name or tags; eg: open source,reactjs"
-            className="border-2 hover:border-tertiary-medium transition-all dark:bg-primary-high duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}

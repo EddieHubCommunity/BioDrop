@@ -1,10 +1,7 @@
 {
   "name": "Vaibhav Singh",
-  "type": "personal",
   "bio": "Self taught Web Developer | Python | JavaScript",
-
   "tags": ["Web Development", "Programming", "Python", "JavaScript"],
-
   "links": [
     {
       "name": "Twitter",
@@ -32,7 +29,6 @@
       "icon": "FaDev"
     }
   ],
-
   "milestones": [
     {
       "title": "Completed JS Fundamentals track",

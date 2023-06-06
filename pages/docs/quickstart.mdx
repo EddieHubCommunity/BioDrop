@@ -2,6 +2,7 @@ import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy.js";
 import Link from "@components/Link.js";
 import Youtube from "@components/embeds/Youtube.js";
+import Alert from "@components/Alert.js";
 
 ## Quickstart
 
@@ -37,7 +38,12 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 ![Create new file](https://user-images.githubusercontent.com/51131670/210201815-9c56ca28-19e8-4ef9-9934-6014d5262624.png)
 
-7. In the file path at the top, add `data/` then with your GitHub username exactly as it appears, and append `.json` (for example `data/SaraJaoude.json`)
+7. In the file path at the top, add `data/` followed by your GitHub username, exactly as it appears including capitalisation, and then append `.json` to it.
+
+For example for username **"SaraJaoude"**:
+
+> - _**Correct**_: `LinkFree/data/SaraJaoude.json` (including capitalisation in filename)
+> - _**Incorrect**_: `LinkFree/data/sarajaoude.json` (filename capitalisation does not match username capitalisation)
 
 ![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
 
@@ -47,17 +53,15 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
 }
 ```
 </ClipboardCopy>
 
-| field | type                 | description                                                 |
-| :---- | :------------------- | :---------------------------------------------------------- |
-| name  | string               | Your display name on your Profile                           |
-| type  | personal / community | The type of account, is it a single person or a community   |
-| bio   | string               | Your description about yourself (you can use markdown here) |
+| field | type   | description                                                 |
+| :---- | :----- | :---------------------------------------------------------- |
+| name  | string | Your display name on your Profile                           |
+| bio   | string | Your description about yourself (you can use markdown here) |
 
 9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
 
@@ -65,7 +69,6 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 ```js
 {
   "name": "Sara Jaoude",
-  "type": "personal",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
   "links": [
     {
@@ -76,6 +79,9 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
   ]
 }
 ```
+
+_note: do not have duplicate links (url)_
+
 </ClipboardCopy>
 
 | field | type   | description                                                                                                                                                                     |
@@ -109,14 +115,31 @@ To add more links, add another object inside the links collection. For example:
 
 You can skip `optional extended message`
 
-**NOTE**: Please use the online [JSON Lint](https://jsonlint.com) tool to check if your JSON file is _error free_ before committing your pull request.
+<Alert
+  type="info"
+  message={
+    <>
+      <strong>NOTE</strong>: Please use our online{" "}
+      <Link href="https://linkfree.io/playground">Playground</Link> tool to
+      check your JSON file is <i>valid</i> before committing your pull request.
+    </>
+  }
+/>
 
 11. Click `create new branch` and you can use the default name provided
 12. Then, click `Propose new file`
 
 ![propose new file](https://user-images.githubusercontent.com/94740455/227761922-50d8484d-7c60-49a2-8347-941de2252c64.png)
 
-13. **HIGHLY IMPORTANT:** Click `compare across forks` and you will see 4 drop downs
+<Alert
+  type="warning"
+  message={
+    <>
+      13. <strong>HIGHLY IMPORTANT</strong>: Click compare across forks and you
+      will see 4 drop downs
+    </>
+  }
+/>
 
 | Dropdown     | Description                          | Example values               |
 | :----------- | :----------------------------------- | :--------------------------- |
@@ -144,26 +167,26 @@ An approving review from one of LinkFree's maintainers will show a green check m
 
 ![maintainer review](https://user-images.githubusercontent.com/35927536/217060602-ba3678d1-f655-4805-a47d-e40f1ddcd59f.png)
 
-18. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
-19. Once merged your profile will be available a few minutes later on your custom url (<Link href="https://linkfree.eddiehub.io/SaraJaoude">linkfree.eddiehub.io/SaraJaoude</Link>)
+18. You will receive a GitHub notification when you have a comment, review, or your Pull Request has been merged
+19. Once merged, your profile will be available a few minutes later on your custom URL (<Link href="https://linkfree.io/SaraJaoude">linkfree.io/SaraJaoude</Link>)
 
 ![merged pull request](https://user-images.githubusercontent.com/82668196/208292199-e7a01541-5356-4b2f-8b3e-94be121c661f.png)
 
-### Example Profiles
+## Example Profiles
 
 Looking for inspiration? You can view the following profiles for an example:
 
 - <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/eddiejaoude.json">
     Eddie Jaoude
   </Link>
-- <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/krupalitrivedi.json">
-    Krupali Trivedi || Chai
+- <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/amandamartin-dev.json">
+    Amanda Martin
   </Link>
 - <Link href="https://github.com/EddieHubCommunity/LinkFree/blob/main/data/Pradumnasaraf.json">
     Pradumna Saraf
   </Link>
 
-### Next steps
+## Next steps
 
 - How to <Link href="/docs/how-to-guides/editing">edit and add more</Link> to your profile
 - Add <Link href="/docs/how-to-guides/socials-shortcuts">social shortcuts</Link> to your profile
@@ -172,5 +195,11 @@ Looking for inspiration? You can view the following profiles for an example:
 - Add <Link href="/docs/how-to-guides/testimonials">testimonials</Link> to your profile
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree QuickStart Documentation">{children}</DocsLayout>
+  <DocsLayout
+    title="LinkFree QuickStart Documentation"
+    section="Getting started"
+    name="QuickStart"
+  >
+    {children}
+  </DocsLayout>
 );

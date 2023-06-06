@@ -8,5 +8,10 @@
     "start": "2023-03-11T11:00:00.000+05:30",
     "end": "2023-03-11T16:00:00.000+05:30"
   },
-  "url": "https://gdg.community.dev/events/details/google-gdg-kolkata-presents-dare-to-be-an-entrepreneur-iwd-2023/"
+  "url": "https://gdg.community.dev/events/details/google-gdg-kolkata-presents-dare-to-be-an-entrepreneur-iwd-2023/",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  }
 }

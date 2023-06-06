@@ -1,9 +1,9 @@
-## 1.109.10 (2023-04-12)
+## 1.139.3 (2023-06-06)
 
 
 ### Bug Fixes
 
-* click outside profile preview modal ([#6009](https://github.com/EddieHubCommunity/LinkFree/issues/6009)) ([4be9ab2](https://github.com/EddieHubCommunity/LinkFree/commit/4be9ab2c2f577e44be29e99a05f350c36b6da286)), closes [#5932](https://github.com/EddieHubCommunity/LinkFree/issues/5932)
+* milestone border color ([#7402](https://github.com/EddieHubCommunity/LinkFree/issues/7402)) ([4905c71](https://github.com/EddieHubCommunity/LinkFree/commit/4905c71293ad768727cd996f6d4bdc74df7b7a67))
 
 
 

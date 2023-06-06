@@ -1,11 +1,16 @@
 {
   "name": "John Areola",
-  "type": "personal",
   "bio": "Software Engineer - Frontend Developer || UI Designer",
   "tags": ["Open Source", "Javascript", "REACT"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/JonnieDev" },
-    { "icon": "FaGithub", "url": "https://github.com/Jonnie-Dev" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JonnieDev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jonnie-Dev"
+    }
   ],
   "links": [
     {

@@ -1,10 +1,7 @@
 {
   "name": "Haris Khan",
-
-  "type": "personal",
   "bio": "Computer Science guy in a Software Engineering world!",
-
-  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Frontend Developer", "Open Source"],
   "socials": [
     {
       "icon": "FaGithub",
@@ -40,5 +37,6 @@
       "url": "https://www.linkedin.com/in/hariskhan00/",
       "icon": "FaLinkedin"
     }
-  ]
+  ],
+  "testimonials": ["basit333"]
 }

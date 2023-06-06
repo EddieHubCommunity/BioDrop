@@ -1,6 +1,5 @@
 {
   "name": "Aneke Michael",
-  "type": "personal",
   "bio": "Software Engineer & Cloud Enthusiast",
   "links": [
     {
@@ -27,6 +26,11 @@
       "name": "Subscribe to My Channel on Youtube",
       "url": "https://youtube.com/@geekybuds/",
       "icon": "FaYoutube"
+    },
+    {
+      "name": "My Website",
+      "url": "https://anekemichael.vercel.app/",
+      "icon": "FaLink"
     }
   ]
 }

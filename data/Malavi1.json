@@ -1,12 +1,16 @@
 {
   "name": "Malavi Pande",
-  "type": "personal",
   "bio": "Aspiring UX & UI|| Python || Open Source enthusiast || Tech Blogger",
-
   "tags": ["blogs", "Webdevelopment", "Open source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/molavi_418" },
-    { "icon": "FaGithub", "url": "https://github.com/Malavi1" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/molavi_418"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Malavi1"
+    }
   ],
   "links": [
     {

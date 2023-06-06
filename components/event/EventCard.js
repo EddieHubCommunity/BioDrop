@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
@@ -5,16 +6,28 @@ import {
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 
 export default function EventCard({ event, username }) {
   const fallbackImageSize = 60;
-  const dateTimeStyle = {
-    dateStyle: "full",
-    timeStyle: "long",
-  };
+  const [startTime, setStartTime] = useState(event.date.startFmt)
+  const [endTime, setEndTime] = useState(event.date.endFmt)
+  
+  useEffect((() => {
+    const dateTimeStyle = {
+      dateStyle: "full",
+      timeStyle: "long",
+    };
+    setStartTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+      new Date(event.date.start)
+    ));
+    setEndTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+      new Date(event.date.end)
+    ));
+  }),[event.date])
 
   return (
     <li
@@ -29,26 +42,25 @@ export default function EventCard({ event, username }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
-          {event.date.cfpClose &&
-            new Date(event.date.cfpClose) > new Date() && (
-              <FaMicrophoneAlt title="CFP is open" />
-            )}
+          {event.date.cfpOpen && <FaMicrophoneAlt title="CFP is open" />}
+          {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
+          {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
         <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
-            <div>
+            <Link
+              href={event.url}
+              key={event.url}
+              target="_blank"
+              rel="noreferrer"
+              className="text-decoration-line:none"
+            >
               <div className="flex justify-between">
-                <Link
-                  href={event.url}
-                  key={event.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-lg lg:text-xl tracking-wide font-medium capitalize"
-                >
+                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                   {event.name}
-                </Link>
+                </p>
                 {event.userStatus && (
-                  <div className="text-primary-low-medium italic">
+                  <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
@@ -62,15 +74,11 @@ export default function EventCard({ event, username }) {
               </div>
               <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
                 <span>
-                  {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-                    new Date(event.date.start)
-                  )}
+                  {startTime}
                 </span>
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>
-                  {new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-                    new Date(event.date.end)
-                  )}
+                  {endTime}
                 </span>
               </p>
               <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
@@ -91,7 +99,7 @@ export default function EventCard({ event, username }) {
                     Object.values(event.location).join(", ")}
                 </span>
               </p>
-            </div>
+            </Link>
             {username && (
               <Link
                 href={`/${username}`}

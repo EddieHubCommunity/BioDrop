@@ -1,0 +1,51 @@
+{
+  "name": "Mitch Canter",
+  "bio": "&quot;CMDR Mitchcraft&quot; • Engineering Manager @WebDevStudios • Speaker • Content Creator • Digital Strategist • Space Dwarf • Spoony Bard",
+  "tags": ["Open Source", "WordPress", "React", "PHP", "Management"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thatmitchcanter"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thatmitchcanter"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@thatmitchcanter"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/thatmitchcanter",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@thatmitchcanter",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Website",
+      "url": "https://www.mitchcanter.me",
+      "icon": "FaLink"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.twitch.tv/CMDRMitchcraft",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://www.github.com/@thatmitchcanter",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/CMDRMitchcraft",
+      "icon": "FaTwitch"
+    }
+  ]
+}

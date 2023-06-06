@@ -1,5 +1,6 @@
 import { Octokit } from "octokit";
-import logger from "../../config/logger";
+
+import logger from "@config/logger";
 
 export default async function getLocationByUsername(username) {
   let location = {
@@ -20,7 +21,10 @@ export default async function getLocationByUsername(username) {
     return location;
   }
 
-  if (!github.data.location || github.data.location.toLowerCase() === 'remote') {
+  if (
+    !github.data.location ||
+    github.data.location.toLowerCase() === "remote"
+  ) {
     return location;
   }
 

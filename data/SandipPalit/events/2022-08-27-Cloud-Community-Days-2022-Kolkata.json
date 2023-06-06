@@ -10,5 +10,10 @@
     "start": "2022-08-27T09:30:00.000+05:30",
     "end": "2022-08-28T17:00:00.000+05:30"
   },
-  "url": "https://gdgcloud.kolkata.dev/ccd2022/"
+  "url": "https://gdgcloud.kolkata.dev/ccd2022/",
+  "location": {
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India"
+  }
 }

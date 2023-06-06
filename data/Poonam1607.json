@@ -1,6 +1,5 @@
 {
   "name": "Poonam Pawar",
-  "type": "personal",
   "bio": "I am 22 Grad in Computer Science, currently learning DevOps",
   "links": [
     {
@@ -8,19 +7,16 @@
       "url": "https://github.com/Poonam1607",
       "icon": "FaGithubAlt"
     },
-
     {
       "name": "Connect on LinkedIn",
       "url": "https://www.linkedin.com/in/poonampawar7/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "Read My Tech Blogs",
       "url": "https://poonam1607.hashnode.dev/",
       "icon": "SiHashnode"
     },
-
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/pawartwt",

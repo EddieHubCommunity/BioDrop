@@ -47,22 +47,50 @@ test("redirect to search when tag clicked", async ({ page }) => {
   await expect(page).toHaveURL("search?keyword=Open%20Source");
 });
 
-test("should pass axe wcag accessibility tests (eddiejaoude)", async ({
-  page,
-}) => {
-  await page.goto("/eddiejaoude");
-  const accessibilityScanResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
-    .analyze();
-  expect(accessibilityScanResults.violations).toEqual([]);
+test.describe("accessibility tests (light)", () => {
+  test.use({ colorScheme: 'light' });
+
+  test("should pass axe wcag accessibility tests (eddiejaoude) (light)", async ({
+    page,
+  }) => {
+    await page.goto("/eddiejaoude");
+    const accessibilityScanResults = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .analyze();
+    expect(accessibilityScanResults.violations).toEqual([]);
+  });
+
+  test("should pass axe wcag accessibility tests (_test-wcag-user) (light)", async ({
+    page,
+  }) => {
+    await page.goto("/_test-wcag-user");
+    const accessibilityScanResults = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .analyze();
+    expect(accessibilityScanResults.violations).toEqual([]);
+  });
 });
 
-test("should pass axe wcag accessibility tests (_test-wcag-user)", async ({
-  page,
-}) => {
-  await page.goto("/_test-wcag-user");
-  const accessibilityScanResults = await new AxeBuilder({ page })
-    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
-    .analyze();
-  expect(accessibilityScanResults.violations).toEqual([]);
+test.describe("accessibility tests (dark)", () => {
+  test.use({ colorScheme: 'dark' });
+
+  test("should pass axe wcag accessibility tests (eddiejaoude) (dark)", async ({
+    page,
+  }) => {
+    await page.goto("/eddiejaoude");
+    const accessibilityScanResults = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .analyze();
+    expect(accessibilityScanResults.violations).toEqual([]);
+  });
+
+  test("should pass axe wcag accessibility tests (_test-wcag-user) (dark)", async ({
+    page,
+  }) => {
+    await page.goto("/_test-wcag-user");
+    const accessibilityScanResults = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .analyze();
+    expect(accessibilityScanResults.violations).toEqual([]);
+  });
 });

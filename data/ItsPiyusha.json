@@ -1,12 +1,16 @@
 {
   "name": "Piyusha Lomate",
-  "type": "personal",
   "bio": "Contribution Enthusiast!",
-
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/piyushavpawar" },
-    { "icon": "FaGithub", "url": "https://github.com/ItsPiyusha" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/piyushavpawar"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ItsPiyusha"
+    }
   ],
   "links": [
     {

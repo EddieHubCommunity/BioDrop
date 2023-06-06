@@ -1,7 +1,6 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Profile from "@models/Profile";
-import findAllBasic from "@services/profiles/findAllBasic";
+import { Profile } from "@models/index";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -10,30 +9,27 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  await connectMongo();
-
-  const fileProfiles = findAllBasic();
-
-  let dbProfiles = [];
-  try {
-    dbProfiles = await Profile.find({ location: { $ne: null } });
-  } catch (e) {
-    logger.error(e, "failed loading profile from db");
-    return fileProfiles;
-  }
-
-  const profiles = fileProfiles.map((fileProfile) => {
-    const profile = dbProfiles.find(
-      (dbProfile) => dbProfile.username === fileProfile.username
-    );
-    if (profile && profile._doc.location.name !== "unknown") {
-      return {
-        ...fileProfile,
-        location: profile._doc.location,
-      };
-    }
-    return fileProfile;
-  });
+  const profiles = await getUsers();
 
   res.status(200).json(profiles);
+}
+export async function getUsers(options = {}) {
+  await connectMongo();
+
+  let profiles = [];
+  const { cards } = { cards: false, ...options };
+  const fields = cards
+    ? ["username", "name", "bio", "tags", "-_id"]
+    : ["username", "name", "bio", "tags", "location", "-_id"];
+  try {
+    profiles = await Profile.find(
+      { name: { $exists: true }, isEnabled: true },
+      fields
+    );
+  } catch (e) {
+    logger.error(e, "failed loading profiles");
+    return profiles;
+  }
+
+  return JSON.parse(JSON.stringify(profiles));
 }

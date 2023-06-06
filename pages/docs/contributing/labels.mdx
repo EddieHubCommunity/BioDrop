@@ -15,14 +15,16 @@ Note: `good first issues` are not always `1` point, they could be more but unlik
 
 #### Point examples
 
-| Points | Example 1                                   | Example 2               |
-| :----- | :------------------------------------------ | :---------------------- |
-| 1      | Fixing a typo                               | Improving documentation |
-| 2      | Refactoring into components                 | -                       |
-| 3      | New feature either in the front or back end | -                       |
-| 5      | New feature that requires fullstack changes | -                       |
-| 8      | -                                           | -                       |
-| 13     | -                                           | -                       |
+> Story points are units of measurement used to determine how much effort is required to complete a product backlog item or any other piece of work. The team assigns story points based on the work's complexity, amount, and uncertainty. Story points are not time estimates. They are not hours. They are not days. They are not even estimates. They are simply a unit of measurement
+
+| Points | Example 1                                    | Example 2                                            |
+| :----- | :------------------------------------------- | :--------------------------------------------------- |
+| 1      | Fixing a typo                                | Improving documentation                              |
+| 2      | Refactoring into components                  | -                                                    |
+| 3      | New feature either in the front or back end  | -                                                    |
+| 5      | New feature that requires fullstack changes  | -                                                    |
+| 8      | Adding Authentication                        | _probably should be broken down into smaller issues_ |
+| 13     | Moving from json files to forms for profiles | _probably should be broken down into smaller issues_ |
 
 ### status: awaiting triage
 
@@ -37,7 +39,11 @@ The maintainers do not want anyone working on this issue yet. For example it mig
 You can request to be assigned this issue, then you can start working on it. Please do not tag a specific person to assign, as all maintainers will be notified of the repo activity.
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Hacktoberfest Documentation">
+  <DocsLayout
+    title="LinkFree Hacktoberfest Documentation"
+    section="Contributing"
+    name="Labels"
+  >
     {children}
   </DocsLayout>
 );

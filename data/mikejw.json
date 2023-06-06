@@ -1,9 +1,13 @@
 {
   "name": "Mike Whiting",
-  "type": "personal",
   "bio": "Senior Frontend Developer",
   "tags": ["Open Source", "Javascript", "Typescript", "DevOps", "ReactJS"],
-  "socials": [{ "icon": "SiLinktree", "url": "https://linktr.ee/mikejw" }],
+  "socials": [
+    {
+      "icon": "SiLinktree",
+      "url": "https://linktr.ee/mikejw"
+    }
+  ],
   "links": [
     {
       "name": "Portfolio",

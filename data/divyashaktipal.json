@@ -1,0 +1,36 @@
+{
+  "name": "Divyashakti Pal",
+  "bio": "CS Student ",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "www.linkedin.com/in/divyashakti-pal-711820251",
+      "icon": "FaLinkdin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/divyashaktipal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UClHlkKoYwiBNHHlfFYIqSgw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/DivyashaktiPal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/divyashaktipal95?igshid=ZDdkNTZiNTM=",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100053213530255",
+      "icon": "FaFacebook"
+    }
+  ]
+}

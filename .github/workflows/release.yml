@@ -32,13 +32,20 @@ jobs:
       - name: switch to new branch
         run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
 
+      # update app config with version
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
+      - name: update app config
+        run: sed -i 's/0.0.0/${{ steps.package-version.outputs.current-version}}/g' config/app.json
+
       # create release info and push it upstream
       - name: conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: "./package.json,./package-lock.json"
+          version-file: "./package.json,./package-lock.json,./config/app.json"
           git-branch: "release-from-${{ github.sha }}"
           skip-on-empty: false
           skip-git-pull: true

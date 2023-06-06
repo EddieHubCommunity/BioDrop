@@ -1,8 +1,6 @@
 {
   "name": "Nathan Snow",
-  "type": "personal",
   "bio": "Aussie software engineer, Java specialist, and programming mentor",
-
   "tags": [
     "Java",
     "Spring Boot",
@@ -25,6 +23,10 @@
     {
       "url": "https://discord.com/users/821987974690373662",
       "icon": "FaDiscord"
+    },
+    {
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "links": [
@@ -33,6 +35,12 @@
       "url": "https://aussiedev81.com/",
       "icon": "FaExternalLinkAlt",
       "color": "#F97316"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee",
+      "color": "#FFDD00"
     },
     {
       "name": "Follow me on Twitter",

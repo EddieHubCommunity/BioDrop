@@ -24,7 +24,7 @@ export default function UserTabs({ tabs, setTabs }) {
             id="tabs"
             name="tabs"
             onChange={changeTab}
-            className="block w-full rounded-md border-primary-low-medium dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
+            className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
             defaultValue={tabs.find((tab) => tab.current).name}
           >
             {tabs.map((tab) => (
@@ -34,7 +34,7 @@ export default function UserTabs({ tabs, setTabs }) {
         )}
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-primary-low-medium">
+        <div className="border-b border-primary-medium-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
@@ -44,7 +44,7 @@ export default function UserTabs({ tabs, setTabs }) {
                 className={classNames(
                   tab.current
                     ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
-                    : "border-transparent text-primary-medium dark:text-primary-low-medium dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-low-medium",
+                    : "border-transparent text-primary-medium dark:text-primary-low-high dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-medium-low",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm"
                 )}
                 aria-current={tab.current ? "page" : undefined}

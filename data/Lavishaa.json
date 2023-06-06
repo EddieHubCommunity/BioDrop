@@ -1,0 +1,16 @@
+{
+  "name": "Lavisha Jain",
+  "bio": "A boring Computer science, second year student ",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lavisha-jain-546489224/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Lavishaa",
+      "icon": "FaGithub"
+    }
+  ]
+}

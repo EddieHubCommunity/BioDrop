@@ -1,9 +1,11 @@
-import { chromium } from "@playwright/test";
 import fs from "fs";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 const { USERS } = require("./test-users.js");
-import icons from "../../config/icons.json";
-import logger from "../../config/logger";
+
+import icons from "@config/icons.json";
+import logger from "@config/logger";
+
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
@@ -39,7 +41,7 @@ const user = (username) => {
   };
 };
 
-module.exports = async (config) => {
+module.exports = async () => {
   USERS.forEach((username) => {
     const data = user(username);
 
@@ -56,5 +58,17 @@ module.exports = async (config) => {
   } catch (e) {
     logger.error(e);
     throw new Error(`Test data "_test-wcag-user" not created`);
+  }
+
+  try {
+    const response = await fetch(
+      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+    );
+    if (response.status !== 200) {
+      throw new Error(`Test data not loaded into database`);
+    }
+  } catch (e) {
+    logger.error(e);
+    throw new Error(`Test data not loaded into database`);
   }
 };

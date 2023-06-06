@@ -1,12 +1,16 @@
 {
   "name": "Pallavi Rajput",
-  "type": "personal",
   "bio": "Computer Science Student || Learning C++ + DSA || Learning Web Development || Bachelor of Technology (BTech) 2nd year || Tech Enthusiast",
-
   "tags": ["Open Source", "Cloud computing"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pallaviraj77" },
-    { "icon": "FaGithub", "url": "https://github.com/Pallavi-33" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pallaviraj77"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Pallavi-33"
+    }
   ],
   "links": [
     {
@@ -19,7 +23,6 @@
       "url": "https://twitter.com/pallaviraj77",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/pallavirajput99/",
