@@ -44,37 +44,34 @@ export async function getServerSideProps(context) {
 const groupEvents = (events) => {
   const groups = {}
   events.forEach(event => {
-    if(groups.hasOwnProperty(event.url)){
-      groups[event.url].usernames.push(event.username); 
-    }else{
+    if (groups.hasOwnProperty(event.url)) {
+      groups[event.url].usernames.push(event.username);
+    } else {
       groups[event.url] = {
         ...event,
         usernames: [event.username]
       }
+      delete groups[event.url].username
     }
   });
-  console.log(groups);
   return Object.values(groups);
 }
 
 
 export default function Events({ events }) {
 
-    const groupedEvents = groupEvents(events);
+  const groupedEvents = groupEvents(events);
 
   let categorizedEvents = {
     all: groupedEvents,
     virtual: groupedEvents.filter((event) => event.isVirtual === true),
     inPerson: groupedEvents.filter((event) => event.isInPerson === true),
     cfpOpen: groupedEvents.filter((event) =>
-    event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
+      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
     ),
     free: groupedEvents.filter((event) => event.price?.startingFrom === 0),
     paid: groupedEvents.filter((event) => event.price?.startingFrom > 0),
   };
-
-  console.log(categorizedEvents)
-
 
   const tabFilters = [
     {
@@ -154,7 +151,6 @@ export default function Events({ events }) {
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
-              username={event.username}
               usernames={event.usernames}
               key={`${event.name} ${event.username}`}
             />
