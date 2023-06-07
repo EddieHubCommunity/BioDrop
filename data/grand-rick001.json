@@ -1,73 +1,73 @@
 {
-    "name": "Patrick Murimi",
-    "bio": "Postman Student Leader | GDSC Web Development Team Lead | Frontend Web Developer",
-    "tags": [
-        "Open Source",
-        "Web Development",
-        "React",
-        "Angular",
-        "JavaScript",
-        "TypeScript",
-        "Node",
-        "Express"
-    ],
-    "socials": [
-        {
-            "icon": "FaTwitter",
-            "url": "https://twitter.com/grandrick001"
-        },
-        {
-            "icon": "FaGithub",
-            "url": "https://github.com/grand-rick001"
-        },
-        {
-            "icon": "FaLinkedin",
-            "url": "https://www.linkedin.com/in/patrick-murimi/"
-        }
-    ],
-    "links": [
-        {
-            "group": "Socials",
-            "name": "Follow me on Twitter",
-            "url": "https://twitter.com/grandrick001",
-            "icon": "FaTwitter",
-            "color": "#00ACEE"
-        },
-        {
-            "group": "Socials",
-            "name": "LinkedIn: Let's connect",
-            "url": "https://www.linkedin.com/in/patrick-murimi/",
-            "icon": "FaLinkedin"
-        },
-        {
-            "group": "Socials",
-            "name": "GitHub: Let's Collaborate on Open Source",
-            "url": "https://github.com/grand-rick001",
-            "icon": "FaGithub"
-        },
-        {
-            "group": "Others",
-            "name": "Wakatime: Powerful coding Insights",
-            "url": "https://wakatime.com/@grandrick001",
-            "icon": "SiWakatime"
-        }
-    ],
-    "milestones": [
-        {
-            "title": "Became a Postman Student Leader",
-            "date": "March 2023",
-            "icon": "SiPostman",
-            "color": "#FF6C37",
-            "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
-            "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA"
-        },
-        {
-            "title": "Got my first internship at 19!",
-            "date": "May 2023",
-            "icon": "FaDev",
-            "color": "#d84773",
-            "description": "I got an internship as a frontend developer, a fully remote role for ExpatSwap, a fintech company based in Estonia, Europe. Tech stack: Angular.",
-            "url": "https://www.linkedin.com/posts/patrick-murimi_im-happy-to-share-that-im-starting-a-new-activity-7059773980517310466-loKG?utm_source=share&utm_medium=member_desktop"
-        }
-    ]
+  "name": "Patrick Murimi",
+  "bio": "Postman Student Leader | GDSC Web Development Team Lead | Frontend Web Developer",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "React",
+    "Angular",
+    "JavaScript",
+    "TypeScript",
+    "Node",
+    "Express"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/grandrick001"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/grand-rick001"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/patrick-murimi/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/grandrick001",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/patrick-murimi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate on Open Source",
+      "url": "https://github.com/grand-rick001",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Others",
+      "name": "Wakatime: Powerful coding Insights",
+      "url": "https://wakatime.com/@grandrick001",
+      "icon": "SiWakatime"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became a Postman Student Leader",
+      "date": "March 2023",
+      "icon": "SiPostman",
+      "color": "#FF6C37",
+      "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
+      "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA"
+    },
+    {
+      "title": "Got my first internship at 19!",
+      "date": "May 2023",
+      "icon": "FaDev",
+      "color": "#d84773",
+      "description": "I got an internship as a frontend developer, a fully remote role for ExpatSwap, a fintech company based in Estonia, Europe. Tech stack: Angular.",
+      "url": "https://www.linkedin.com/posts/patrick-murimi_im-happy-to-share-that-im-starting-a-new-activity-7059773980517310466-loKG?utm_source=share&utm_medium=member_desktop"
+    }
+  ]
 }

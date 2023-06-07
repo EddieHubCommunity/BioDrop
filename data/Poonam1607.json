@@ -1,11 +1,7 @@
 {
   "name": "Poonam Pawar",
   "bio": "Learning DevOps | Open Source | 2022 Grad",
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "Kubernetes"
-  ],
+  "tags": ["Open Source", "DevOps", "Kubernetes"],
   "socials": [
     {
       "icon": "FaTwitter",
