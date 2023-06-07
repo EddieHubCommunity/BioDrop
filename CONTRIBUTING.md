@@ -5,7 +5,6 @@ You can watch the video that Eddie created as a contributing guide. Click on the
  
 ## Issues & Pull Requests (not for Profiles)
 
-
 ### Creating an Issue
 
 Before **creating** an Issue for `features`/`bugs`/`improvements` please follow these steps:
