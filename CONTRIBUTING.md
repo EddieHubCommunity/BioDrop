@@ -1,6 +1,6 @@
 # Contributing Guide
 
-[![LinkFree Contributing Guide](https://github-production-user-asset-6210df.s3.amazonaws.com/35479077/242535587-d33e07a3-5732-465e-955a-7d7bd504b99b.jpg)](https://youtu.be/dfeSpGd8leU)
+[![LinkFree Contributing Guide](https://user-images.githubusercontent.com/82668196/242340741-a0124ead-97b6-488f-9271-10f2b0e1f577.jpg)
 You can watch the video that Eddie created as a contributing guide. Click on the image to watch the video.
  
 ## Issues & Pull Requests (not for Profiles)
