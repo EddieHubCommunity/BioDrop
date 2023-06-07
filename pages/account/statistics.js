@@ -12,8 +12,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getUserApi } from "../api/users/[username]";
 import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";

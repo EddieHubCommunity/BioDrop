@@ -1,11 +1,41 @@
 {
   "name": "Deepak",
-  "bio": "Fullstack Developer | Javascript/Typescript | Open Source",
+  "bio": "Web Alchemist 🧙‍♂️ | Crafting Digital Elixirs with JavaScript  🪄 | Exploring the Open Source Realm 💫",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Reactjs",
+    "NextJs",
+    "Nodejs"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://itsdevdeepak.me"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/itsdevdeepak"
+    }
+  ],
   "links": [
     {
-      "name": "About Me",
+      "name": "Check out my Portfolio",
       "url": "https://itsdevdeepak.me",
-      "icon": "FaGlobe"
+      "icon": "FaLink"
     },
     {
       "name": "Follow me on GitHub",
@@ -13,7 +43,7 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/itsdevdeepak",
       "icon": "FaLinkedin"
     },
@@ -22,6 +52,5 @@
       "url": "https://twitter.com/itsdevdeepak",
       "icon": "FaTwitter"
     }
-  ],
-  "tags": ["Javascript", "Typescript", "Opensource", "Reactjs"]
+  ]
 }

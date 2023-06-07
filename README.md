@@ -17,9 +17,8 @@ LinkFree is built using the following technologies:
 - [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
 - [MongoDB](https://www.mongodb.com/) - a NoSQL database
 - [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework      
- 
 
-## 🛠️ Quickstart
+## Quickstart
 
 You have 4 options to contribute to the repo, please pick your favourite from:
 
@@ -89,13 +88,13 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
-### 🙂 How to add YOUR Profile
+### How to add YOUR Profile
 
 Step by step quickstart guide can be found in the full docs here - https://linkfree.io/docs/quickstart
 
 <!-- Testimonials STARTs Here -->
 
-## ⛩️ Testimonials
+## Testimonials
 
 Here are some testimonials from individuals who have used LinkFree:- 
 
@@ -149,6 +148,12 @@ LinkFree was accepted into the GitHub Accelerator program...
 ![GitHub Accelerator](https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png)
 https://accelerator.github.com
 
-## 🙏 Support
+## Support
 
 Don't forget to leave a star ⭐️.
+
+## Our Pledge
+
+We take participation in our community as a harassment-free experience for everyone and we pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.  
+
+If you have experienced or been made aware of unacceptable behaviour, please remember that you can report this.  Read our [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md) for more details.
