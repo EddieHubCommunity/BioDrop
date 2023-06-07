@@ -18,7 +18,7 @@
   "links": [
     {
       "name": "Medium: Read my blogs",
-      "https://jaintle.medium.com/",
+     "url": "https://jaintle.medium.com/",
       "icon": "FaLink"
     },
     {
