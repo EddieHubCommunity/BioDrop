@@ -1,0 +1,66 @@
+{
+  "name": "Rudra Sharma",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/unsaintme"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rudra016"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rudra-sharma-897264227/"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Crypto Info Website Using ReactJS",
+      "date": "April 2023",
+      "icon": "FaReact",
+      "color": "grey",
+      "description": "Crypto Info App is a web application built with ReactJS and Chakra UI that provides real-time information about various cryptocurrencies.",
+      "url": "https://xcrypto-react-js-chakra-ui.vercel.app/"
+    },
+    {
+      "title": "NetFlix Clone using ReactJS & Firebase",
+      "date": "April 2023",
+      "icon": "FaReact",
+      "color": "grey",
+      "description": "The Netflix clone website is built using ReactJS and Tailwind, User authentication is implemented using Firebase Authentication.",
+      "url": "https://netflix-clone-react-9a25e.web.app/"
+    }
+  ],
+  "bio": "Aspiring Full-Stack Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "NextJS",
+    "Java",
+    "FullStack"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/rudra016/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rudra-sharma-897264227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rudra-sharma-897264227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/whateverrudra/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

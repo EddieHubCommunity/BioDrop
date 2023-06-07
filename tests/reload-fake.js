@@ -59,9 +59,9 @@ const fs = require("fs");
 
 // TODO: check local user api vs production api
 async function checkUsers() {
-  const userLocal = await fetch(`http://localhost:3000/api/users/eddiejaoude`);
+  const userLocal = await fetch(`http://localhost:3000/api/profiles/eddiejaoude`);
   const userLocalRes = await userLocal.json();
-  const userProd = await fetch(`https:/linkfree.io/api/users/eddiejaoude`);
+  const userProd = await fetch(`https:/linkfree.io/api/profiles/eddiejaoude`);
   const userProdRes = await userProd.json();
 
   if (userLocalRes.links.length === userProdRes.links.length) {

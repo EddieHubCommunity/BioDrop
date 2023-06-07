@@ -6,7 +6,10 @@ test("Click on events profile in navbar navigates to events page", async ({
   page,
 }) => {
   await page.goto("/");
-  await page.getByRole("navigation").getByRole("link", { name: "Events" }).click();
+  await page
+    .getByRole("navigation")
+    .getByRole("link", { name: "Events" })
+    .click();
   await expect(page).toHaveURL("/events");
 });
 
@@ -16,7 +19,7 @@ test.fixme("Events listed", async ({ page }) => {
 });
 
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests", async ({ page }) => {
     await page.goto("/events");
@@ -28,8 +31,8 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
-  
+  test.use({ colorScheme: "dark" });
+
   test("should pass axe wcag accessibility tests (dark)", async ({ page }) => {
     await page.goto("/events");
     const accessibilityScanResults = await new AxeBuilder({ page })

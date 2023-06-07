@@ -1,6 +1,6 @@
 {
   "name": "linkfree",
-  "version": "1.138.0",
+  "version": "1.139.14",
   "private": false,
   "homepage": "https://linkfree.io",
   "engines": {
@@ -42,12 +42,14 @@
     "request-ip": "^3.3.0",
     "shx": "^0.3.4",
     "strip-markdown": "^5.0.1",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "zod": "^3.21.4"
   },
   "scripts": {
     "dev": "next dev",
     "dev:docker": "shx cp -n ./.env.docker ./.env && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
+    "prebuild": "node ./config/schemas/serverSchema.js && node ./config/schemas/clientSchema.js",
     "build": "next build",
     "test": "npx playwright test --trace on",
     "start": "next start",
@@ -94,7 +96,7 @@
     "storybook": "^7.0.15",
     "storybook-dark-mode": "^3.0.0"
   },
-  "description": "LinkFree connect audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
+  "description": "LinkFree connects audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"

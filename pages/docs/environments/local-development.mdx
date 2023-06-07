@@ -1,9 +1,21 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
+import Alert from "@components/Alert.js";
 
 **You can setup LinkFree code base using [Local](#local-development) or with [Docker](#docker-compose) environment.**
 
-_Note: when you have your environment running the database will be empty. You need to visit the path `/api/system/reload?secret=development` to load the json files._
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      When you have your environment running the database will be empty. You need
+      to visit the path <strong>
+        /api/system/reload?secret=development
+      </strong> to load the json files
+    </>
+  }
+/>
 
 ## Local Development
 
