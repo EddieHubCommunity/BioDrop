@@ -1,9 +1,9 @@
-## 1.139.11 (2023-06-07)
+## 1.139.12 (2023-06-07)
 
 
 ### Bug Fixes
 
-* footer icons ([#7434](https://github.com/EddieHubCommunity/LinkFree/issues/7434)) ([0783546](https://github.com/EddieHubCommunity/LinkFree/commit/078354656d8c5ef2fd67be0764b101fc81363460))
+* changed scroll wheel zoom ([#7436](https://github.com/EddieHubCommunity/LinkFree/issues/7436)) ([baf13a5](https://github.com/EddieHubCommunity/LinkFree/commit/baf13a5664b2a62acfb8fac006f3786631d2f8d5))
 
 
 
