@@ -1,7 +1,7 @@
 import Script from "next/script";
 import { useRouter } from "next/router";
 
-import { FaCheck } from "react-icons/fa";
+import { CheckIcon } from "@heroicons/react/24/outline";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -76,7 +76,7 @@ export default function Premium() {
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="font-semibold text-primary-high dark:text-white">
-                      <FaCheck
+                      <CheckIcon
                         className="absolute left-0 top-1 h-5 w-5 text-secondary-medium dark:text-secondary-low"
                         aria-hidden="true"
                       />

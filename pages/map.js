@@ -8,7 +8,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/users";
+import { getUsers } from "./api/profiles";
 import config from "@config/app.json";
 
 //this is required as leaflet is not compatible with SSR
@@ -135,10 +135,9 @@ export default function Map({ data }) {
           >
             <Button
               onClick={resetFilter}
-              text="Clear/Reset Filters"
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            />
+            >Clear/Reset Filters</Button>
           </Badge>
           {tags &&
             tags

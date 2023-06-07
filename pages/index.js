@@ -13,7 +13,6 @@ import {
 } from "react-icons/md";
 import { FaMedal } from "react-icons/fa";
 
-import singleUser from "@config/user.json";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import Link from "@components/Link";
@@ -28,14 +27,6 @@ import Newsletter from "@components/Newsletter";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
-  if (singleUser.username) {
-    return {
-      redirect: {
-        destination: `/${singleUser.username}`,
-        permanent: true,
-      },
-    };
-  }
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
@@ -303,13 +294,12 @@ export default function Home({ total, today }) {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <Button
-                text="Get started"
                 href="/docs/quickstart"
                 primary={true}
-              />
+              >Get started</Button>
             </div>
             <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button text="Example" href="/eddiejaoude" />
+              <Button href="/eddiejaoude">Example</Button>
             </div>
           </div>
         </div>
@@ -321,7 +311,7 @@ export default function Home({ total, today }) {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Features
             </h2>
-            <p className="mt-4 text-white">
+            <p className="mt-4 text-white text-xl">
               It is not just links... Take a look at the Features you can add to
               customize your LinkFree Profile.
             </p>
@@ -341,10 +331,10 @@ export default function Home({ total, today }) {
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg font-medium text-white">
+                  <h3 className="text-lg sm:text-2xl font-medium text-white">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm text-white">
+                  <p className="mt-2 text-sm sm:text-lg text-white">
                     {feature.description}
                   </p>
                 </div>
@@ -356,13 +346,12 @@ export default function Home({ total, today }) {
                     "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
                   )}
                 >
-                  <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low">
+                  <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
                     <Image
                       src={feature.imageSrc}
                       alt={feature.imageAlt}
-                      className="object-cover object-center"
-                      width={1250}
-                      height={840}
+                      className="object-contain object-center"
+                      fill={true}
                     />
                   </div>
                 </div>
