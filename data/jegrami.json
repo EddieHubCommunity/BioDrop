@@ -1,4 +1,8 @@
  {
+  "name": "Jeremiah Igrami",
+  "bio": "YOUR__BIO",
+  "links": [
+    {
             "name": "Twitter",
             "url": "https://twitter.com/dev_jegrami",
             "icon": "FaTwitterSquare"
