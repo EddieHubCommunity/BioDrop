@@ -4,7 +4,7 @@
   const urlNewVersion = "http://localhost:3000"; // form-data branch
   const urlOldVersion = "http://localhost:3001"; // main branch
 
-  const profilesReq = await fetch(`${urlNewVersion}/api/users`);
+  const profilesReq = await fetch(`${urlNewVersion}/api/profiles`);
   const profiles = await profilesReq.json();
   console.log("TOTAL: ", profiles.length);
 
@@ -13,12 +13,12 @@
     profiles.slice(start, finish).map(async (profile) => {
       counter++;
       const userLocal = await fetch(
-        `${urlNewVersion}/api/users/${profile.username}`
+        `${urlNewVersion}/api/profiles/${profile.username}`
       );
       const userLocalRes = await userLocal.json();
 
       const userProd = await fetch(
-        `${urlOldVersion}/api/users/${profile.username}`
+        `${urlOldVersion}/api/profiles/${profile.username}`
       );
       const userProdRes = await userProd.json();
 

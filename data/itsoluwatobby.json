@@ -1,0 +1,21 @@
+{
+  "name": "Oluwatobi Akinola",
+  "bio": "Hobbyist programmer, always ready to learn a bit from you",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsoluwatobby",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://linkedin.com/in/itsoluwatobby",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/itsoluwatobby",
+      "icon": "FaGithub"
+    }
+  ]
+}
