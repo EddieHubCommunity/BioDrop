@@ -4,8 +4,8 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
+import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getUserApi } from "./api/users/[username]/index";
 import logger from "@config/logger";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";

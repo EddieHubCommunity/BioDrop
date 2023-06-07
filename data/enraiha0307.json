@@ -1,0 +1,43 @@
+{
+  "name": "Akanksha Gahalot",
+  "bio": "**Open Source** | Software Developer | DevOps ",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Golang",
+    "Kubernetes",
+    "Docker",
+    "Node.js",
+    "React"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AkankshaGahalot"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/enraiha0307"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://akku.hashnode.dev/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/akanksha-gahalot-0307/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akku_0307"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/e_n_r_a_i_h_a/"
+    },
+    {
+      "icon": "AiOutlineShopping",
+      "url": "https://www.redbubble.com/people/Akanksha0307/shop?asc=u"
+    }
+  ]
+}
