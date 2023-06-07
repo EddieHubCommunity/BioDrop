@@ -19,7 +19,7 @@ export default function Button({
         : " cursor-pointer");
 
   const link = (
-    <Link className={className} {...restProps}>
+    <Link className={className} prefetch={false} {...restProps}>
       {children}
     </Link>
   );

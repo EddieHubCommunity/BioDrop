@@ -1,0 +1,21 @@
+{
+  "name": "Tushar Bansal",
+  "bio": "An fullstack blockchain developer who loves to build new things and do open source. Primarily interest lies in Blockchain.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/TusharB73825926",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/bansaltushar014/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/bansaltushar014/",
+      "icon": "FaGithub"
+    }
+  ]
+}
