@@ -24,9 +24,11 @@ export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
         />
       </Switch>
       <Switch.Label as="span" className="ml-3 text-sm">
-        <span className="font-medium text-primary-high dark:text-primary-low">
-          {text1}
-        </span>{" "}
+        {text1 && (
+          <span className="font-medium text-primary-high dark:text-primary-low">
+            {text1}
+          </span>
+        )}
         {text2 && <span className="text-primary-medium-low">({text2})</span>}
       </Switch.Label>
     </Switch.Group>

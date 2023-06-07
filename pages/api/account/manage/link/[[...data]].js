@@ -13,7 +13,6 @@ export default async function handler(req, res) {
     return;
   }
   const username = session.username;
-  console.log("API", username, req.method, req.query);
   if (!["GET", "PUT"].includes(req.method)) {
     return res
       .status(400)
@@ -33,7 +32,7 @@ export default async function handler(req, res) {
   if (link.error) {
     return res.status(404).json({ message: link.error });
   }
-  return res.status(200).json(data);
+  return res.status(200).json(link);
 }
 
 export async function getLinkApi(username, url) {
