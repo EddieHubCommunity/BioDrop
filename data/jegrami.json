@@ -1,0 +1,33 @@
+ {
+  "name": "Jeremiah Igrami",
+  "bio": "Copyeditor turned technical writer and enthusiastic programmer. I'm passionate about building solutions and telling stories with data",
+  "links": [
+    {
+            "name": "Twitter",
+            "url": "https://twitter.com/dev_jegrami",
+            "icon": "FaTwitterSquare"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jeremiah-igrami/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/jegrami",
+            "icon": "FaGithubSquare"
+        },
+        {
+            "name": "Hashnode",
+            "url": "https://jegrami.hashnode.dev/",
+            "icon": "SiHashnode"
+        },
+        {
+            "name": "Dev",
+            "url": "https://dev.to/devjegrami",
+            "icon": "FaDev"
+        }
+
+    ]
+   
+}
