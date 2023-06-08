@@ -1,9 +1,9 @@
-## 1.139.16 (2023-06-07)
+## 1.139.17 (2023-06-08)
 
 
 ### Bug Fixes
 
-* tag totals on map page ([#5470](https://github.com/EddieHubCommunity/LinkFree/issues/5470)) ([#7317](https://github.com/EddieHubCommunity/LinkFree/issues/7317)) ([949d412](https://github.com/EddieHubCommunity/LinkFree/commit/949d412f88d3b167a9075d27291c973ed2a7c5fc))
+* quickstart example list in older browsers ([#7337](https://github.com/EddieHubCommunity/LinkFree/issues/7337)) ([e2416da](https://github.com/EddieHubCommunity/LinkFree/commit/e2416daee4eb06df62eded88c09310eede898a97))
 
 
 
