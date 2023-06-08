@@ -38,10 +38,7 @@ export async function getStaticProps() {
   );
 
   try {
-    data.tags = await getTags();
-    data.tags = data.tags.filter((tag) =>
-      data.users.find((user) => user.tags && user.tags.includes(tag.name))
-    );
+    data.tags = await getTags(true);
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
