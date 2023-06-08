@@ -1,0 +1,31 @@
+{
+  "name": "btcdomain",
+  "bio": "BTCDomain is a bitcoin native domain system empowered by ordinals tech and zk tech, working on both your btc address and your bitcoin website. All data storage and resolution are based on bitcoin mainnet."
+}
+"links": [
+  {
+      "name": "btcdomain",
+      "url": "https://www.btcdomains.io/",
+      "icon": "Fabtcdomain"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/btcdomain_btc",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/btcdomain_btc?igshid=MjEwN2IyYWYwYw==",
+      "icon": "FaInstagram"
+    }
+  {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/@btcdomainbtc/about",
+      "icon": "FaYouTube"
+    }
+   {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100093197419570&mibextid=LQQJ4d",
+      "icon": "FaFacebook"  
+      } 
+      ]
