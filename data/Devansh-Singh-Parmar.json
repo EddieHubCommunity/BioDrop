@@ -1,0 +1,26 @@
+{
+  "name": "Devansh Singh Parmar",
+  "bio": "mern stack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sin_devansh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/devanshsingh13/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Discord - most active",
+      "url": "https://discordapp.com/users/741644029992632412",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "LinkTree",
+      "url": "https://linktr.ee/wakerey",
+      "icon": "SiLinktree"
+    }
+  ]
+}
