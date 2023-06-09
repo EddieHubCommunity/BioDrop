@@ -4,7 +4,7 @@ import { getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
-import { getUserApi } from "pages/api/users/[username]";
+import { getUserApi } from "pages/api/profiles/[username]";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);

@@ -10,7 +10,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Navigation from "@components/account/manage/navigation";
-import { getUserApi } from "pages/api/users/[username]";
+import { getUserApi } from "pages/api/profiles/[username]";
 import UserProfile from "@components/user/UserProfile";
 import Input from "@components/form/Input";
 import Button from "@components/Button";
