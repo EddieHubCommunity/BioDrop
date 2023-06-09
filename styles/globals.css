@@ -48,3 +48,30 @@ code.language-unknown::after {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.toggelThemeBtn {
+
+  height: 40px;
+  width: 80px;
+  display: flex;
+  border-radius: 50px;
+  transition: .5s;
+  background-color: #3c3b3b;
+}
+
+.toggelThemeBtn:hover {
+
+  transform: scale(1.1);
+}
+
+.themeIcon {
+
+  height: max-content;
+  width: max-content;
+  transition: 1.5s;
+}
+
+.dark>.themeIcon {
+
+  transform: translatex(45px);
+}

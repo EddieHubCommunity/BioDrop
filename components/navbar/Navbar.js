@@ -33,25 +33,25 @@ export default function Navbar() {
 
     const currentTheme = theme === "system" ? systemTheme : theme;
 
-    if (currentTheme === "dark") {
-      return (
-        <button
-          className="p-2"
-          onClick={() => setTheme("light")}
-          aria-label="Toggle Theme"
-        >
-          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
-        </button>
-      );
+    const handelToggelTheme = () => {
+
+      if(currentTheme === "dark") setTheme("light");
+      else setTheme("dark");
     }
 
     return (
       <button
-        className="p-2"
-        onClick={() => setTheme("dark")}
+        className= {`p-2 toggelThemeBtn ${currentTheme === "dark"? "dark":""}`}
+        onClick={handelToggelTheme}
         aria-label="Toggle Theme"
       >
-        <MoonIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
+        <div className="themeIcon">
+          {
+            currentTheme === "dark"?
+            <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />:
+            <MoonIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
+          }
+        </div>
       </button>
     );
   };
