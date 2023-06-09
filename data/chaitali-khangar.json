@@ -1,0 +1,19 @@
+{
+  "name": "Chaitali Khangar",
+  "bio": "I'm a Ruby on Rails and Go lang developer with a passion for mentoring. I enjoy building robust web applications and staying updated with the latest industry trends. My goal is to empower aspiring developers and deliver high-quality solutions.",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "avatar": "https://github.com/chaitali-khangar.png",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/chaitali-khangar/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/chaitali-khangar/",
+      "icon": "FaGithub"
+    }
+  ]
+}
