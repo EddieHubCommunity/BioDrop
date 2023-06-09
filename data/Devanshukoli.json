@@ -1,13 +1,7 @@
 {
   "name": "Devanshu Koli",
   "bio": "Software Intern | **Open-Source Contributor**",
-  "tags": [
-    "Open Source",
-    "Javascript",
-    "React",
-    "Node",
-    "Github"
-  ],
+  "tags": ["Open Source", "Javascript", "React", "Node", "Github"],
   "socials": [
     {
       "icon": "FaTwitter",

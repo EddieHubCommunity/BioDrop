@@ -62,7 +62,7 @@ test.fixme("Link navigates", async ({ page }) => {
 test("redirect to search when tag clicked", async ({ page }) => {
   await page.goto("/eddiejaoude");
   await page.getByRole("link", { name: "Open Source" }).first().click();
-  await expect(page).toHaveURL("search?keyword=Open%20Source");
+  await expect(page).toHaveURL("search?keyword=open%20source");
 });
 
 test.describe("accessibility tests (light)", () => {
