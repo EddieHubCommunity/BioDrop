@@ -21,14 +21,7 @@
     }
   ],
   "bio": "Aspiring Data Scientist and Generative AI developer",
-  "tags": [
-    "Open Source",
-    "OpenCV",
-    "Python",
-    "Java",
-    "DSA",
-    "Scikit-Learn"
-  ],
+  "tags": ["Open Source", "OpenCV", "Python", "Java", "DSA", "Scikit-Learn"],
   "links": [
     {
       "name": "Github",

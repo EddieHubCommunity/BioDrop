@@ -73,8 +73,8 @@ function UserProfile({ BASE_URL, data }) {
           {data.tags &&
             data.tags.map((tag) => (
               <Link
-                href={`/search?keyword=${tag}`}
-                key={tag}
+                href={`/search?keyword=${tag.toLowerCase()}`}
+                key={tag.toLowerCase()}
                 className="no-underline"
               >
                 <Tag name={tag} />
