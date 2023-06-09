@@ -74,7 +74,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag) => (
-              <Tag name={tag} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
+              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
             ))}
         </div>
       )}
