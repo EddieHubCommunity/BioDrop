@@ -11,11 +11,27 @@ export default async function handler(req, res) {
   const tags = await getTags();
   res.status(200).json(tags);
 }
-export async function getTags() {
+export async function getTags(location = false) {
   let tags = [];
+
+  const matchQuery = location
+    ? {
+        $match: {
+          tags: { $exists: true },
+          "location.provided": {
+            $exists: true,
+            $ne: null,
+            $ne: "unknown",
+            $ne: "remote",
+          },
+          "location.name": { $ne: "unknown" },
+        },
+      }
+    : { $match: { tags: { $exists: true } } };
+
   try {
     tags = await Profile.aggregate([
-      { $match: { tags: { $exists: true } } },
+      matchQuery,
       {
         $unwind: "$tags",
       },
