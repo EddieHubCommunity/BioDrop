@@ -10,15 +10,21 @@
     "Data Science"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/intent/user?screen_name=jaintle" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/intent/user?screen_name=jaintle"
+    },
     { "icon": "FaGithub", "url": "https://github.com/abhinavjaintle" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jaintle/" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@abhinavjaincodes?sub_confirmation=1" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@abhinavjaincodes?sub_confirmation=1"
+    }
   ],
   "links": [
     {
       "name": "Medium: Read my blogs",
-     "url": "https://jaintle.medium.com/",
+      "url": "https://jaintle.medium.com/",
       "icon": "FaLink"
     },
     {
