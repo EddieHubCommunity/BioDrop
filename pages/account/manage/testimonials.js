@@ -9,7 +9,6 @@ import Navigation from "@components/account/manage/navigation";
 import { getTestimonialsApi } from "pages/api/account/manage/testimonials";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
-import { test } from "@playwright/test";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);

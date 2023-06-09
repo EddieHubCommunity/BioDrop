@@ -66,23 +66,22 @@ export async function updateTestimonialsApi(username, data) {
 
   let getTestimonials = await getTestimonialsApi(username);
 
-  console.log("TTTT ====", data);
-
-  getTestimonials.map((t) => {
+  const updatedTestimonials = getTestimonials.map((t) => {
     if (data.includes(t.username)) {
       return { ...t, isPinned: true };
     }
 
     return { ...t, isPinned: false };
   });
+
   try {
-    // getTestimonials = await Profile.findOneAndUpdate(
-    //   { username },
-    //   {
-    //     testimonials: getTestimonials,
-    //   },
-    //   { new: true }
-    // );
+    getTestimonials = await Profile.findOneAndUpdate(
+      { username },
+      {
+        testimonials: updatedTestimonials,
+      },
+      { new: true }
+    );
   } catch (e) {
     log.error(e, `failed to update testimonials for username: ${username}`);
   }
