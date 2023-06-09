@@ -76,6 +76,7 @@ function UserProfile({ BASE_URL, data }) {
                 href={`/search?keyword=${tag.toLowerCase()}`}
                 key={tag.toLowerCase()}
                 className="no-underline"
+                tabindex="-1" 
               >
                 <Tag name={tag} />
               </Link>
