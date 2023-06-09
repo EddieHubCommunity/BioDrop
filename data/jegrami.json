@@ -6,7 +6,7 @@
     "pandas",
     "numpy",
     "matplotlib",
-    "plotly.express",
+    "plotly.express"
     ],
   "links": [
     {
