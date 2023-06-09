@@ -49,7 +49,6 @@ export default function Search({ data: { users, tags, randUsers } }) {
   const [notFound, setNotFound] = useState();
   const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-  
   let results = [];
   useEffect(() => {
     if (username) {
