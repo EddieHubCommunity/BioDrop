@@ -1,0 +1,19 @@
+{
+"name": "Soumava Das",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am currently learning javascript",
+  "avatar": "https://github.com/Soumava-221B.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Soumava_221B",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Soumava-221B",
+      "icon": "FaGithub"
+    },
+  ]
+}
