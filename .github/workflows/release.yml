@@ -66,11 +66,11 @@ jobs:
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
-        uses: actions/create-release@v1
         if: steps.changelog.outputs.skipped == 'false'
+        uses: ncipollo/release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
+          tag	: ${{ steps.changelog.outputs.tag }}
+          name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
