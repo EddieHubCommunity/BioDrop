@@ -19,34 +19,34 @@ export async function getServerSideProps(context) {
   };
 }
 
-const groupEvents = (events) => {
-  const groups = {}
-  events.forEach(event => {
-    if (groups.hasOwnProperty(event.url)) {
-      groups[event.url].usernames.push(event.username);
-    } else {
-      groups[event.url] = {
-        ...event,
-        usernames: [event.username]
-      }
-      delete groups[event.url].username
-    }
-  });
-  return Object.values(groups);
-}
+// const groupEvents = (events) => {
+//   const groups = {}
+//   events.forEach(event => {
+//     if (groups.hasOwnProperty(event.url)) {
+//       groups[event.url].usernames.push(event.username);
+//     } else {
+//       groups[event.url] = {
+//         ...event,
+//         usernames: [event.username]
+//       }
+//       delete groups[event.url].username
+//     }
+//   });
+//   return Object.values(groups);
+// }
 
 
 export default function Events({ events }) {
 
-  const groupedEvents = groupEvents(events);
+  // const groupedEvents = groupEvents(events);
 
   let categorizedEvents = {
-    all: groupedEvents,
-    virtual: groupedEvents.filter((event) => event.isVirtual === true),
-    inPerson: groupedEvents.filter((event) => event.isInPerson === true),
-    cfpOpen: groupedEvents.filter((event) => event.date.cfpOpen === true),
-    free: groupedEvents.filter((event) => event.price?.startingFrom === 0),
-    paid: groupedEvents.filter((event) => event.price?.startingFrom > 0),
+    all: events,
+    virtual: events.filter((event) => event.isVirtual === true),
+    inPerson: events.filter((event) => event.isInPerson === true),
+    cfpOpen: events.filter((event) => event.date.cfpOpen === true),
+    free: events.filter((event) => event.price?.startingFrom === 0),
+    paid: events.filter((event) => event.price?.startingFrom > 0),
   };
 
   const tabFilters = [
