@@ -47,7 +47,7 @@ export default function Links({ BASE_URL, username, links }) {
       <Page>
         <Navigation />
 
-        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
+        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8">
           <div>
             <Button href="/account/manage/link">
               <DocumentPlusIcon className="h-5 w-5 mr-2" />
