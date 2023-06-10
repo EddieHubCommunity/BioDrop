@@ -1,9 +1,9 @@
-## 1.140.1 (2023-06-10)
+## 1.140.2 (2023-06-10)
 
 
 ### Bug Fixes
 
-* profile tabs font size increase 7049 ([#7473](https://github.com/EddieHubCommunity/LinkFree/issues/7473)) ([ef4eeb6](https://github.com/EddieHubCommunity/LinkFree/commit/ef4eeb63027af7e3168a4c08bc6c9da3d20404df))
+* profile tab font size [#7049](https://github.com/EddieHubCommunity/LinkFree/issues/7049) ([#7481](https://github.com/EddieHubCommunity/LinkFree/issues/7481)) ([58b6439](https://github.com/EddieHubCommunity/LinkFree/commit/58b64391057f053235974f112f1ad9f77bde9302))
 
 
 
