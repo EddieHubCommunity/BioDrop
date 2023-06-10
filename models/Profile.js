@@ -70,7 +70,7 @@ const ProfileSchema = new mongoose.Schema({
       },
     },
   ],
-});
+}, { timestamps: true });
 
 module.exports =
   mongoose.models.Profile || mongoose.model("Profile", ProfileSchema);

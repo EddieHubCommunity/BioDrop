@@ -18,7 +18,7 @@ const profileStatsSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Profile",
   },
-});
+}, { timestamps: true });
 
 profileStatsSchema.index({ username: 1, date: 1 });
 

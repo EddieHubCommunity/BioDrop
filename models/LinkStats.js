@@ -22,7 +22,7 @@ const linkStatsSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Profile",
   },
-});
+}, { timestamps: true });
 
 linkStatsSchema.index({ username: 1, date: 1 });
 

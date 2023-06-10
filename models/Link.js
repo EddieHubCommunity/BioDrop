@@ -17,7 +17,7 @@ const LinkSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "Profile",
   },
-});
+}, { timestamps: true });
 
 LinkSchema.index({ username: 1, url: 1 });
 
