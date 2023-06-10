@@ -1,21 +1,62 @@
 {
   "name": "Saptarshi Sarkar",
   "bio": "A software developer and an open-source enthusiast!",
+  "tags": [
+    "Open Source",
+    "Java"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SaptarshiSarkar12/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SSarkar2007"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/saptarshi-sarkar-305162253/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@SaptarshiSarkar12"
+    }
+  ],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "group": "Socials",
+      "name": "GitHub : Let's Collaborate on Open-Source Projects",
       "url": "https://github.com/SaptarshiSarkar12",
-      "icon": "FaGithub"
+      "icon": "FaGithub",
+      "color": "#211f1f"
     },
     {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/SSarkar2007",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
     },
     {
+      "group": "Socials",
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/saptarshi-sarkar-305162253/",
+      "icon": "FaLinkedin",
+      "color": "#0e76a8"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect on Discord",
+      "url": "https://discord.gg/DeT4jXPfkG",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Blog",
       "name": "My Hashnode Blog and Newsletter",
       "url": "https://saptarshisarkar.hashnode.dev/",
-      "icon": "SiHashnode"
+      "icon": "SiHashnode",
+      "color": "#0550e4"
     }
   ],
   "milestones": [
