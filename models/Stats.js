@@ -18,6 +18,6 @@ const StatsSchema = new mongoose.Schema({
     default: new Date(),
     index: true,
   },
-});
+},{ timestamps: true });
 
 module.exports = mongoose.models.Stats || mongoose.model("Stats", StatsSchema);
