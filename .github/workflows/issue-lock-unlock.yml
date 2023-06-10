@@ -14,4 +14,4 @@ jobs:
       - uses: dessant/label-actions@v3
         with:
           process-only: issues
-          config-path: .github/config/lock-unlock-issues.yml
+          config-path: .github/config/issue-lock-unlock.yml
