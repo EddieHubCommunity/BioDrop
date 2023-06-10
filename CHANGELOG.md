@@ -1,9 +1,9 @@
-# 1.140.0 (2023-06-09)
+## 1.140.1 (2023-06-10)
 
 
-### Features
+### Bug Fixes
 
-* search name, username and tag [#6872](https://github.com/EddieHubCommunity/LinkFree/issues/6872) ([#7392](https://github.com/EddieHubCommunity/LinkFree/issues/7392)) ([3d400f6](https://github.com/EddieHubCommunity/LinkFree/commit/3d400f6b819bfc262b2114833443bd86dd69d645))
+* profile tabs font size increase 7049 ([#7473](https://github.com/EddieHubCommunity/LinkFree/issues/7473)) ([ef4eeb6](https://github.com/EddieHubCommunity/LinkFree/commit/ef4eeb63027af7e3168a4c08bc6c9da3d20404df))
 
 
 
