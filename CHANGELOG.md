@@ -1,9 +1,9 @@
-## 1.140.3 (2023-06-10)
+## 1.140.4 (2023-06-10)
 
 
 ### Bug Fixes
 
-* double tabbable profile tags ([#7475](https://github.com/EddieHubCommunity/LinkFree/issues/7475)) ([efef4d0](https://github.com/EddieHubCommunity/LinkFree/commit/efef4d090bf94f34b96df3f7c2e8fdb12f31d05b))
+* automatically unlock issue by labels ([#6770](https://github.com/EddieHubCommunity/LinkFree/issues/6770)) ([#7269](https://github.com/EddieHubCommunity/LinkFree/issues/7269)) ([#7485](https://github.com/EddieHubCommunity/LinkFree/issues/7485)) ([0a659c5](https://github.com/EddieHubCommunity/LinkFree/commit/0a659c501494d2190784aa59d50db1555f81a8c6))
 
 
 
