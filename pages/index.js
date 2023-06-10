@@ -418,7 +418,7 @@ export default function Home({ total, today }) {
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
         rel="noopener noreferrer"
         target="_blank"
-        className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
+        className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
       >
         <div className="px-4 py-2 bg-secondary-medium text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-high-high">
           <IconContext.Provider
