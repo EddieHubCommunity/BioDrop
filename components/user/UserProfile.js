@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
+import { useRouter } from 'next/navigation'
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -13,6 +14,7 @@ import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
+  const router = useRouter();
   const fallbackImageSize = 120;
 
   //Declared Ref object for QR
@@ -72,13 +74,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag) => (
-              <Link
-                href={`/search?keyword=${tag.toLowerCase()}`}
-                key={tag.toLowerCase()}
-                className="no-underline"
-              >
-                <Tag name={tag} />
-              </Link>
+              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
             ))}
         </div>
       )}
