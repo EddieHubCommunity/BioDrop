@@ -57,23 +57,31 @@
       "url": "https://saptarshisarkar.hashnode.dev/",
       "icon": "SiHashnode",
       "color": "#0550e4"
+    },
+    {
+      "group": "Open-Source Projects",
+      "name": "Contribute to Drifty: An Interactive File Downloader System!",
+      "url": "https://github.com/SaptarshiSarkar12/Drifty",
+      "icon": "FaGithub",
+      "color": "#102dd2"
     }
   ],
   "milestones": [
     {
-      "title": "Started Open-source contribution",
-      "date": "29th May, 2022",
-      "icon": "DiOpensource",
-      "color": "green",
-      "description": "Open-source contribution by fixing outdated links, typos, bug reports, code review and collaborating to improve repositories. My world changed!",
-      "url": "https://github.com/jwasham/coding-interview-university/pull/1154"
-    },
-    {
       "title": "First Hacktoberfest Participation",
       "date": "1st October, 2022",
+      "icon": "FaGlobe",
       "color": "#4169e1",
       "description": "Participated in Hacktoberfest as a maintainer. Reviewed many PRs and had a great experience of Open-source",
       "url": "https://github.com/SaptarshiSarkar12/Drifty"
+    },
+    {
+      "title": "Started Open-Source contribution",
+      "date": "29th May, 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "My First Open-source contribution was by fixing outdated links, typos, reporting bugs, reviewing code and collaborating to improve others projects.",
+      "url": "https://github.com/jwasham/coding-interview-university/pull/1154"
     }
   ]
 }
