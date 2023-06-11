@@ -15,7 +15,13 @@ export default function UserLink({ BASE_URL, link, username, manage = false }) {
   }
 
   return (
-    <div className="flex flex-row gap-6 w-full">
+    <div className="flex flex-row gap-8 w-full">
+      {manage && (
+        <Button href={`/account/manage/link/${encodeURIComponent(link.url)}`}>
+          <PencilIcon className="h-5 w-5 mr-2" />
+          Edit
+        </Button>
+      )}
       <Link
         href={`${BASE_URL}/api/profiles/${username}/links/${encodeURIComponent(
           link.url
@@ -32,12 +38,6 @@ export default function UserLink({ BASE_URL, link, username, manage = false }) {
         </span>
         <span className="grow">{link.name}</span>
       </Link>
-      {manage && (
-        <Button href={`/account/manage/link/${encodeURIComponent(link.url)}`}>
-          <PencilIcon className="h-5 w-5 mr-2" />
-          Edit
-        </Button>
-      )}
     </div>
   );
 }

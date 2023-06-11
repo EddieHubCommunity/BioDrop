@@ -50,55 +50,12 @@ export default function Milestones({ milestones }) {
       <Page>
         <Navigation />
 
-        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8">
-          <div>
-            <Button href="/account/manage/milestone">
-              <DocumentPlusIcon className="h-5 w-5 mr-2" />
-              Add Milestone
-            </Button>
+        <Button href="/account/manage/milestone">
+          <DocumentPlusIcon className="h-5 w-5 mr-2" />
+          Add Milestone
+        </Button>
 
-            <ul role="list" className="divide-y divide-gray-100">
-              {milestones.map((milestone) => (
-                <li
-                  key={milestone._id}
-                  className="flex items-center justify-between gap-x-6 py-5"
-                >
-                  <div className="min-w-0">
-                    <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-gray-900">
-                        {milestone.title}
-                      </p>
-                      <p
-                        className={`rounded-md whitespace-nowrap mt-0.5 px-1.5 py-0.5 text-xs font-medium ring-1 ring-inset ${
-                          milestone.isGoal
-                            ? "text-yellow-800 bg-yellow-50 ring-yellow-600/20"
-                            : "text-green-700 bg-green-50 ring-green-600/20"
-                        }`}
-                      >
-                        {milestone.isGoal ? "Goal" : "Success"}
-                      </p>
-                    </div>
-                    <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-gray-500">
-                      <p className="whitespace-nowrap">
-                        {milestone.description}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex flex-none items-center gap-x-4">
-                    <Button href={`/account/manage/milestone/${milestone._id}`}>
-                      <PencilIcon className="h-5 w-5 mr-2" />
-                      Edit
-                    </Button>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <UserMilestones milestones={milestones} />
-          </div>
-        </div>
+        <UserMilestones milestones={milestones} manage={true} />
       </Page>
     </>
   );
