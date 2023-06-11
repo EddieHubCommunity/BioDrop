@@ -11,6 +11,21 @@ import Alert from "@components/Alert.js";
   title="Linkfree Quickstart Video"
 ></Youtube>
 
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>HIGHLY IMPORTANT</strong>: the following fields mentioned in the video are no longer required
+      <ul>
+        <li>avatar</li>
+        <li>type</li>
+        <li>displayStatsPublic</li>
+      </ul>
+      <i>This is shown correctly below in the screenshots and code examples</i>
+    </>
+  }
+/>
+
 ### Add your profile
 
 There are 4 ways you can add your profile, but for this Quickstart we will use the GitHub UI.
@@ -89,7 +104,7 @@ _note: do not have duplicate links (url)_
 | url   | string | Full url to the resource                                                                                                                                                        |
 | icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://linkfree.eddiehub.io/icons) |
 
-![propose new file](https://user-images.githubusercontent.com/94740455/227762486-daebf318-a814-486e-8b79-411dce878ea8.png)
+![propose new file](https://user-images.githubusercontent.com/82668196/244908686-6f5727c7-b7a1-414b-8ec0-372e8fc287e8.png)
 
 To add more links, add another object inside the links collection. For example:
 
