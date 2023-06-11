@@ -1,9 +1,9 @@
-## 1.140.10 (2023-06-11)
+# 1.141.0 (2023-06-11)
 
 
-### Bug Fixes
+### Features
 
-* release action token ([#7515](https://github.com/EddieHubCommunity/LinkFree/issues/7515)) ([b9a4b97](https://github.com/EddieHubCommunity/LinkFree/commit/b9a4b9701b16c1ea9f345a1f16b004c85cb50440))
+* timestamps to all db models ([#7503](https://github.com/EddieHubCommunity/LinkFree/issues/7503)) ([#7510](https://github.com/EddieHubCommunity/LinkFree/issues/7510)) ([3d2ff74](https://github.com/EddieHubCommunity/LinkFree/commit/3d2ff74d5f75ad38228d9607b666c6a223840c95))
 
 
 
