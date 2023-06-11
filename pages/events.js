@@ -19,26 +19,9 @@ export async function getServerSideProps(context) {
   };
 }
 
-// const groupEvents = (events) => {
-//   const groups = {}
-//   events.forEach(event => {
-//     if (groups.hasOwnProperty(event.url)) {
-//       groups[event.url].usernames.push(event.username);
-//     } else {
-//       groups[event.url] = {
-//         ...event,
-//         usernames: [event.username]
-//       }
-//       delete groups[event.url].username
-//     }
-//   });
-//   return Object.values(groups);
-// }
 
 
 export default function Events({ events }) {
-
-  // const groupedEvents = groupEvents(events);
 
   let categorizedEvents = {
     all: events,
