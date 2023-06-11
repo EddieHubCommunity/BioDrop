@@ -53,7 +53,7 @@ const AccountSchema = new mongoose.Schema({
     type: String,
     trim: true,
   },
-});
+},{ timestamps: true });
 
 module.exports =
   mongoose.models.Account || mongoose.model("Account", AccountSchema);

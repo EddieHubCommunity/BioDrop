@@ -12,7 +12,7 @@ const SessionSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },
-});
+},{ timestamps: true });
 
 module.exports =
   mongoose.models.Session || mongoose.model("Session", SessionSchema);
