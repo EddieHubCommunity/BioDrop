@@ -1,9 +1,9 @@
-## 1.140.5 (2023-06-10)
+## 1.140.9 (2023-06-11)
 
 
 ### Bug Fixes
 
-* gh action lock/unlock ([#7489](https://github.com/EddieHubCommunity/LinkFree/issues/7489)) ([67d3160](https://github.com/EddieHubCommunity/LinkFree/commit/67d31608469fb3eb1f69bf46a4be952c46048924))
+* deployment trigger for releases ([#7513](https://github.com/EddieHubCommunity/LinkFree/issues/7513)) ([97ac5f0](https://github.com/EddieHubCommunity/LinkFree/commit/97ac5f0509358e0e5180e1cee84ab0677ba747bf))
 
 
 
