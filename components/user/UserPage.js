@@ -54,7 +54,7 @@ export default function UserPage({ data, BASE_URL }) {
         />
       )}
       {tabs.find((tab) => tab.name === "Milestones")?.current && (
-        <UserMilestones data={data} />
+        <UserMilestones milestones={data.milestones} />
       )}
 
       {tabs.find((tab) => tab.name === "Testimonials")?.current && (

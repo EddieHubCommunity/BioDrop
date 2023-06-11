@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Link from "@models/Link";
+import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -22,16 +22,19 @@ export default async function handler(req, res) {
   return res.status(200).json(data);
 }
 
-export async function getLinksApi(username) {
+export async function getMilestonesApi(username) {
   await connectMongo();
   const log = logger.child({ username });
 
-  let getLinks = [];
+  let getMilestones = [];
   try {
-    getLinks = await Link.find({ username }).sort({ isEnabled: -1, order: 1 });
+    const profile = await Profile.findOne({ username }).sort({
+      date: 1,
+    });
+    getMilestones = profile.milestones;
   } catch (e) {
-    log.error(e, `failed to get links for username: ${username}`);
+    log.error(e, `failed to get milestones for username: ${username}`);
   }
 
-  return JSON.parse(JSON.stringify(getLinks));
+  return JSON.parse(JSON.stringify(getMilestones));
 }
