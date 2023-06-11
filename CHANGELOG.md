@@ -1,9 +1,9 @@
-## 1.140.6 (2023-06-10)
+## 1.140.7 (2023-06-11)
 
 
 ### Bug Fixes
 
-* release action ([#7495](https://github.com/EddieHubCommunity/LinkFree/issues/7495)) ([8a34d1f](https://github.com/EddieHubCommunity/LinkFree/commit/8a34d1fe6b98459e6380e7852c021784da650110))
+* floating button focus issue ([#7505](https://github.com/EddieHubCommunity/LinkFree/issues/7505)) ([4e13a88](https://github.com/EddieHubCommunity/LinkFree/commit/4e13a886591c9b0a5a687d934ad0b812a6caf4a4))
 
 
 
