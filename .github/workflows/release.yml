@@ -68,9 +68,8 @@ jobs:
       - name: create release with last commit
         if: steps.changelog.outputs.skipped == 'false'
         uses: ncipollo/release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
+          token: ${{ secrets.CHANGELOG_RELEASE }}
           tag	: ${{ steps.changelog.outputs.tag }}
           name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
