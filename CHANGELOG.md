@@ -1,9 +1,9 @@
-## 1.140.9 (2023-06-11)
+## 1.140.10 (2023-06-11)
 
 
 ### Bug Fixes
 
-* deployment trigger for releases ([#7513](https://github.com/EddieHubCommunity/LinkFree/issues/7513)) ([97ac5f0](https://github.com/EddieHubCommunity/LinkFree/commit/97ac5f0509358e0e5180e1cee84ab0677ba747bf))
+* release action token ([#7515](https://github.com/EddieHubCommunity/LinkFree/issues/7515)) ([b9a4b97](https://github.com/EddieHubCommunity/LinkFree/commit/b9a4b9701b16c1ea9f345a1f16b004c85cb50440))
 
 
 
