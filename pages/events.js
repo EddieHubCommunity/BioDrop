@@ -28,7 +28,6 @@ export default function Events({ events }) {
     free: events.filter((event) => event.price?.startingFrom === 0),
     paid: events.filter((event) => event.price?.startingFrom > 0),
   };
-
   const tabFilters = [
     {
       title: "Show all",
