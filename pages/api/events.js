@@ -62,7 +62,6 @@ export async function getEvents() {
     }
 
     events = dateEvents;
-
   } catch (e) {
     logger.error(e, "Failed to load events");
     events = [];
