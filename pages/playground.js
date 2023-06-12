@@ -6,9 +6,10 @@ import Modal from "@components/Modal";
 import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 export default function Playground() {
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+  const BASE_URL = clientEnv.NEXT_PUBLIC_BASE_URL;
   const defaultJson = `{
     "name": "Your Name",
     "bio": "Write a short bio about yourself",
@@ -90,22 +91,22 @@ export default function Playground() {
 
   const buttonProps = () => {
     if (!formatComplete) {
-      return { text: "Format", onClick: handleFormatJson, primary: false };
+      return { children: "Format", onClick: handleFormatJson, primary: false };
     }
 
     if (formatComplete && !validateComplete) {
       return {
-        text: "Validate",
+        children: "Validate",
         onClick: handleValidateJson,
         primary: false,
       };
     }
 
     if (formatComplete && validateComplete) {
-      return { text: "Preview", onClick: handlePreview, primary: true };
+      return { children: "Preview", onClick: handlePreview, primary: true };
     }
 
-    return { text: "", disable: true };
+    return { children: "", disable: true };
   };
 
   return (

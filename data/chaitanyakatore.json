@@ -1,0 +1,51 @@
+{
+  "name": "CHAITANYA KATORE",
+  "bio": "Data Scientist,Frontend Devloper & open source",
+
+  "tags": [
+    "Data Science",
+    "Open Source",
+    "GitHub",
+    "Community",
+    "React",
+    "Frontend"
+  ],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ChaitanyaKatore"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chaitanyakatore"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chaitanya-katore-87964921b/"
+    }
+  ],
+
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/chaitanyakatore",
+      "icon": "FaGithub"
+    },
+
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/in/chaitanya-katore-87964921b/",
+      "icon": "FaLinkedin"
+    },
+
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn Organisation",
+      "url": "https://twitter.com/ChaitanyaKatore",
+      "icon": "FaTwitter"
+    }
+  ]
+}
