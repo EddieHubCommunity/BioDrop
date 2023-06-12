@@ -74,7 +74,6 @@ export default function Events({ events }) {
     },
   ];
 
-
   const [eventType, setEventType] = useState("all");
 
   return (
