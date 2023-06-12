@@ -34,7 +34,7 @@ let tabs = [
   {
     name: "Milestones",
     href: "/account/manage/milestones",
-    match: [],
+    match: ["/account/manage/milestone/[[...data]]"],
     icon: MdOutlineBadge,
     current: false,
   },
