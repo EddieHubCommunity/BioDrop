@@ -64,27 +64,21 @@ export async function updateTestimonialsApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
-  let getTestimonials = await getTestimonialsApi(username);
-
-  const updatedTestimonials = getTestimonials.map((t) => {
-    if (data.includes(t.username)) {
-      return { ...t, isPinned: true };
-    }
-
-    return { ...t, isPinned: false };
-  });
-
   try {
-    getTestimonials = await Profile.findOneAndUpdate(
-      { username },
+    await Profile.findOneAndUpdate(
       {
-        testimonials: updatedTestimonials,
+        username,
+        "testimonials._id": data._id,
       },
-      { new: true }
+      {
+        $set: {
+          "testimonials.$.isPinned": data.isPinned,
+        },
+      }
     );
   } catch (e) {
-    log.error(e, `failed to update testimonials for username: ${username}`);
+    log.error(e, `failed to update testimonial for username: ${username}`);
   }
 
-  return JSON.parse(JSON.stringify(getTestimonials));
+  return JSON.parse(JSON.stringify(await getTestimonialsApi(username)));
 }

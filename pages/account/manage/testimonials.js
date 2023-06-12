@@ -43,29 +43,21 @@ export default function Testimonials({ BASE_URL, testimonials }) {
   const [showNotification, setShowNotification] = useState(false);
   const [testimonialList, setTestimonialList] = useState(testimonials || []);
 
-  const toggle = async (username) => {
-    const testimonials = testimonialList.map((t) => ({
-      ...t,
-      isPinned: t.username === username ? !t.isPinned : t.isPinned,
-    }));
-    setTestimonialList(testimonials);
-    await save(testimonials);
-  };
-
-  const save = async (testimonials) => {
+  const toggle = async (_id) => {
     const res = await fetch(`${BASE_URL}/api/account/manage/testimonials`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(
-        testimonials.filter((t) => t.isPinned).map((t) => t.username)
-      ),
+      body: JSON.stringify({
+        _id,
+        isPinned: !testimonialList.find((t) => t._id === _id).isPinned,
+      }),
     });
-    await res.json();
+    const updatedTestimonials = await res.json();
+    setTestimonialList(updatedTestimonials);
     setShowNotification(true);
   };
-
   return (
     <>
       <PageHead
@@ -106,7 +98,7 @@ export default function Testimonials({ BASE_URL, testimonials }) {
                 <div className="flex flex-none items-center gap-x-4">
                   <Toggle
                     enabled={testimonial.isPinned}
-                    setEnabled={() => toggle(testimonial.username)}
+                    setEnabled={() => toggle(testimonial._id)}
                   />
                 </div>
               </li>
