@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import { pick } from "lodash";
 
 import UserCard from "@components/user/UserCard";
 import Alert from "@components/Alert";
@@ -84,7 +85,9 @@ export default function Search({ data: { users, tags, randUsers } }) {
       const nameLower = user.name.toLowerCase();
       const usernameLower = user.username.toLowerCase();
       const userTagsString = user.tags.join(", ").toLowerCase();
-      const userLocationString = Object.entries(user?.location)
+      const userLocationString = Object.entries(
+        pick(user.location, ["city", "state", "provided", "country"])
+      )
         .join(", ")
         .toLowerCase();
 
