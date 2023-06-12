@@ -24,7 +24,7 @@ export default async function handler(req, res) {
     testimonials = await getTestimonialsApi(username);
   }
   if (req.method === "PUT") {
-    testimonials = await updateTestimonialsApi(username, req.body);
+    testimonials = await updateTestimonialApi(username, req.body);
   }
 
   if (testimonials.error) {
@@ -60,7 +60,7 @@ export async function getTestimonialsApi(username) {
   return JSON.parse(JSON.stringify(getTestimonials));
 }
 
-export async function updateTestimonialsApi(username, data) {
+export async function updateTestimonialApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
