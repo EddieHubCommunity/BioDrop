@@ -1,10 +1,7 @@
 {
   "name": "Saptarshi Sarkar",
   "bio": "A software developer and an open-source enthusiast!",
-  "tags": [
-    "Open Source",
-    "Java"
-  ],
+  "tags": ["Open Source", "Java"],
   "socials": [
     {
       "icon": "FaGithub",
