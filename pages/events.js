@@ -19,8 +19,6 @@ export async function getServerSideProps(context) {
   };
 }
 
-
-
 export default function Events({ events }) {
 
   let categorizedEvents = {
