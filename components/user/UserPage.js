@@ -44,84 +44,78 @@ export default function UserPage({ data, BASE_URL }) {
   return (
     <>
       <UserProfile data={data} BASE_URL={BASE_URL} />
-      {/* <UserTabs tabs={tabs} setTabs={setTabs} /> */}
 
-      <div className="flex justify-between space-x-4">
+      <div className="flex justify-between space-x-8">
       {tabs.find((tab) => tab.name === "My Links") && (
-        <div className="hidden sm:block ">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          My Links ({tabs.find((tab) => tab.name === "My Links").total})
-        </div>
-        <UserLinks data={data} BASE_URL={BASE_URL} />
-        
+        <div className="hidden sm:block">
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            My Links ({tabs.find((tab) => tab.name === "My Links").total})
+          </div>
+          <UserLinks data={data} BASE_URL={BASE_URL} />
         </div>
       )}
 
       {tabs.find((tab) => tab.name === "Milestones") && (
-        <div className="hidden sm:block ">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Milestones ({tabs.find((tab) => tab.name === "Milestones").total})
-        </div>
-        
-        <UserMilestones data={data} />
+        <div className="hidden sm:block">
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Milestones ({tabs.find((tab) => tab.name === "Milestones").total})
+          </div>
+          <UserMilestones data={data} />
         </div>
       )}
       </div>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between space-x-8">
       {tabs.find((tab) => tab.name === "Testimonials") && (
-        <div className="hidden sm:block ">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Testimonials ({tabs.find((tab) => tab.name === "Testimonials").total})
-        </div>
-        <UserTestimonials testimonials={data.testimonials} />
+        <div className="hidden sm:block">
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Testimonials ({tabs.find((tab) => tab.name === "Testimonials").total})
+          </div>
+          <UserTestimonials testimonials={data.testimonials} />
         </div>
       )}
       {tabs.find((tab) => tab.name === "Events") && (
-        <div className="hidden sm:block ">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Events ({tabs.find((tab) => tab.name === "Events").total})
-        </div>
-        <UserEvents data={data} />
+        <div className="hidden sm:block">
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Events ({tabs.find((tab) => tab.name === "Events").total})
+          </div>
+          <UserEvents data={data} />
         </div>
       )}
       </div>
 
-
       {tabs.find((tab) => tab.name === "My Links") && (
         <div className="sm:hidden">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          My Links ({tabs.find((tab) => tab.name === "My Links").total})
-        </div>
-        <UserLinks data={data} BASE_URL={BASE_URL} />
-        
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            My Links ({tabs.find((tab) => tab.name === "My Links").total})
+          </div>
+          <UserLinks data={data} BASE_URL={BASE_URL} />        
         </div>
       )}
 
       {tabs.find((tab) => tab.name === "Milestones") && (
         <div className="sm:hidden">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Milestones ({tabs.find((tab) => tab.name === "Milestones").total})
-        </div>
-        
-        <UserMilestones data={data} />
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Milestones ({tabs.find((tab) => tab.name === "Milestones").total})
+          </div>          
+          <UserMilestones data={data} />
         </div>
       )}
 
       {tabs.find((tab) => tab.name === "Events") && (
         <div className="sm:hidden">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Events ({tabs.find((tab) => tab.name === "Events").total})
-        </div>
-        <UserEvents data={data} />
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Events ({tabs.find((tab) => tab.name === "Events").total})
+          </div>
+          <UserEvents data={data} />
         </div>
       )}
       {tabs.find((tab) => tab.name === "Testimonials") && (
         <div className="sm:hidden">
-        <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
-          Testimonials ({tabs.find((tab) => tab.name === "Testimonials").total})
-        </div>
-        <UserTestimonials testimonials={data.testimonials} />
+          <div className="border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low py-4 px-1 text-center border-b-2 font-medium text-sm">
+            Testimonials ({tabs.find((tab) => tab.name === "Testimonials").total})
+          </div>
+          <UserTestimonials testimonials={data.testimonials} />
         </div>
       )}
     </>
