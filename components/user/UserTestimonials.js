@@ -12,8 +12,7 @@ export default function UserTestimonials({ testimonials }) {
         testimonials.map((testimonial, key) => (
           <div
             className="flex flex-col flex-row gap-2 items-center text-sm dark:text-primary-low dark:bg-primary-medium text-primary-medium-low dark:border-none border-2 my-4 px-5 p-6 rounded-xl shadow-xl"
-            key={key}
-          >
+            key={key}>
             <div className="flex items-center px-4">
               <div className="w-20 h-20">
                 <FallbackImage
