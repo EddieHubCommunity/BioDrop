@@ -14,7 +14,7 @@ export default function UserLink({ BASE_URL, link, username }) {
 
   return (
     <Link
-      href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
+      href={`${BASE_URL}/api/profiles/${username}/links/${encodeURIComponent(
         link.url
       )}`}
       target="_blank"

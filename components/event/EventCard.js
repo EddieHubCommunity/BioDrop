@@ -11,7 +11,7 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 
-export default function EventCard({ event, username }) {
+export default function EventCard({ event, usernames }) {
   const fallbackImageSize = 60;
   const [startTime, setStartTime] = useState(event.date.startFmt)
   const [endTime, setEndTime] = useState(event.date.endFmt)
@@ -100,21 +100,30 @@ export default function EventCard({ event, username }) {
                 </span>
               </p>
             </Link>
-            {username && (
-              <Link
-                href={`/${username}`}
-                className="group hidden lg:block flex-shrink-0 lg:pr-4"
-              >
-                <FallbackImage
-                  src={`https://github.com/${username}.png`}
-                  alt={`Profile picture of ${username}`}
-                  width={fallbackImageSize}
-                  height={fallbackImageSize}
-                  fallback={username}
-                  className="rounded-full"
-                />
-              </Link>
-            )}
+            <div className="isolate flex -space-x-1 ">
+              {
+                usernames && (
+                  usernames.map((user) => {
+                    return (
+                      <Link
+                        href={`/${user}`}
+                        key={user}
+                        className=" hidden lg:block h-10 w-10  "
+                      >
+                        <FallbackImage
+                          src={`https://github.com/${user}.png`}
+                          alt={`Profile picture of ${user}`}
+                          width={fallbackImageSize}
+                          height={fallbackImageSize}
+                          fallback={user}
+                          className="relative z-30 inline-block  rounded-full ring-2 ring-white"
+                        />
+                      </Link>
+                    )
+                  })
+                )
+              }
+            </div>
           </div>
         </div>
       </div>

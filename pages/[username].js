@@ -4,8 +4,8 @@ import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
+import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getUserApi } from "./api/users/[username]/index";
 import logger from "@config/logger";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
@@ -69,8 +69,9 @@ export default function User({ data, BASE_URL }) {
         href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
         rel="noopener noreferrer"
         target="_blank"
+        className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
       >
-        <div className="fixed bottom-5 right-5 px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
+        <div className="px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >

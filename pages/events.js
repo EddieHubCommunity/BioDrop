@@ -105,7 +105,7 @@ export default function Events({ events }) {
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
-              username={event.username}
+              usernames={event.usernames}
               key={`${event.name} ${event.username}`}
             />
           ))}
