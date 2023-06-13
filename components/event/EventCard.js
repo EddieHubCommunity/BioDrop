@@ -14,24 +14,27 @@ import Edit from "@components/account/manage/edit";
 
 export default function EventCard({ event, username, manage }) {
   const fallbackImageSize = 60;
-  const [startTime, setStartTime] = useState(event.date.startFmt);
-  const [endTime, setEndTime] = useState(event.date.endFmt);
+
+  const [startTime, setStartTime] = useState(event.date.start);
+  const [endTime, setEndTime] = useState(event.date.end);
 
   useEffect(() => {
     const dateTimeStyle = {
       dateStyle: "full",
       timeStyle: "long",
     };
-    setStartTime(
-      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.start)
-      )
-    );
-    setEndTime(
-      new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(event.date.end)
-      )
-    );
+    try {
+      setStartTime(
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.start)
+        )
+      );
+      setEndTime(
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.end)
+        )
+      );
+    } catch (e) {}
   }, [event.date]);
 
   const item = (event) => (
@@ -59,9 +62,11 @@ export default function EventCard({ event, username, manage }) {
                   <span className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                     {event.name}
                   </span>
-                  <Link href={event.url} target="_blank">
-                    <FaExternalLinkAlt />
-                  </Link>
+                  {event.url && (
+                    <Link href={event.url} target="_blank">
+                      <FaExternalLinkAlt />
+                    </Link>
+                  )}
                 </div>
                 {event.userStatus && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">

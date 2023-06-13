@@ -65,9 +65,7 @@ const ProfileSchema = new mongoose.Schema({
       },
       url: String,
       order: Number,
-      price: {
-        startingFrom: Number,
-      },
+      price: Number,
     },
   ],
 });
