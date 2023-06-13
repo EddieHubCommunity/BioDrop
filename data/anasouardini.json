@@ -11,48 +11,76 @@
   ],
   "socials": [
     {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/segfaulty1"
-    },
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/anasouardini"
-    },
-    {
-      "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/anasouardini"
-    }
-  ],
-  "links": [
-    {
-      "name": "Portfolio Site",
       "url": "https://anasouardini.online",
-      "icon": "FaLink"
+      "icon": "FaUserAstronaut"
     },
     {
-      "group": "Socials Primary",
-      "name": "Twitter",
-      "url": "https://twitter.com/anasouardini",
+      "url": "https://blog.anasouardini.online/posts",
+      "icon": "SiBloglovin"
+    },
+    {
+      "url": "https://twitter.com/segfaulty1",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
-      "group": "Socials Primary",
-      "name": "GitHub",
       "url": "https://github.com/anasouardini",
       "icon": "FaGithub"
     },
     {
-      "group": "Socials Primary",
+      "url": "https://linkedin.com/in/anasouardini",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "group": "Personal Sites",
+      "name": "Portfolio",
+      "url": "https://anasouardini.online",
+      "icon": "FaUserAstronaut"
+    },
+    {
+      "group": "Personal Sites",
+      "name": "Blog",
+      "url": "https://blog.anasouardini.online/posts",
+      "icon": "SiBloglovin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/segfaulty1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Check out my code",
+      "url": "https://github.com/anasouardini",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/anasouardini",
       "icon": "FaLinkedin"
     },
     {
-      "group": "Socials Primary",
-      "name": "My Blog",
-      "url": "https://blog.anasouardini.online",
-      "icon": "FaLink"
+      "group": "Recent Personal Projects",
+      "name": "Snipshare",
+      "url": "https://snipshare.anasouardni.online",
+      "icon": "SiSparkfun"
+    },
+    {
+      "group": "Recent Personal Projects",
+      "name": "algolizer",
+      "url": "https://algolizer.anasouardni.online",
+      "icon": "SiSparkfun"
+    },
+    {
+      "group": "Recent Personal Projects",
+      "name": "smartteam",
+      "url": "https://smartteam.anasouardni.online",
+      "icon": "SiSparkfun"
     }
   ]
 }
