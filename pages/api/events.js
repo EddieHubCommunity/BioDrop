@@ -21,16 +21,20 @@ export async function getEvents() {
       { $unwind: "$events" },
       { $match: { "events.date.end": { $gt: new Date() } } },
       { $sort: { "events.date.start": 1 } },
-    ]).exec();
-
-    events = events
-      .map((event) => ({
-        ...event.events,
-        username: event.username,
-        _id: event._id,
-      }))
-      // TODO remove and do with mongo query
-      .filter((event) => new Date(event.date.end) > new Date());
+      {
+        $group: {
+          _id:"$events.url",
+          usernames: {$addToSet: "$username"},
+          isVirtual: {$first:"$events.isVirtual"},
+          color: {$first:"$events.color"},
+          date: {$first:"$events.date"},
+          url: {$first:"$events.url"},
+          name: {$first:"$events.name"},
+          description : {$first:"$events.description"},
+          isEnabled : {$first:"$isEnabled"},
+        }
+      }
+    ]).exec()
 
     let dateEvents = [];
     const today = new Date()
@@ -49,7 +53,7 @@ export async function getEvents() {
         );
 
         cleanEvent.date.cfpOpen = event.date.cfpClose && (new Date(event.date.cfpClose) > today);
-  
+
         dateEvents.push(cleanEvent)
       } catch (e) {
         logger.error(e, `ERROR event date for: "${event.name}"`);
