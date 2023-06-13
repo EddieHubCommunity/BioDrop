@@ -49,10 +49,10 @@
       "url": "https://www.codewars.com/users/jfmartinz"
     },
     {
-    "group": "Others",
-    "name": "Codepen",
-    "icon": "SiCodepen",
-    "url": "https://codepen.io/jfmartinz"
+      "group": "Others",
+      "name": "Codepen",
+      "icon": "SiCodepen",
+      "url": "https://codepen.io/jfmartinz"
     }
   ],
   "milestones": [
