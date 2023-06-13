@@ -1,0 +1,26 @@
+{
+  "name": "Frank Osemudiaman Alimimian",
+  "bio": " Full-stack Django developer | Learning, sharing and building | Open source contributor",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/FranklynOse883",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "GitHub",
+      "url": "https://twitter.com/FranklynOse883",
+      "icon": "FaGithub"
+    },
+     {
+      "name": "LinkedIn",
+      "url": "https://twitter.com/FranklynOse883",
+      "icon": "FaLinkedin"
+    },
+     {
+      "name": "Harshnode",
+      "url": "https://twitter.com/FranklynOse883",
+      "icon": "SiHashnode"
+    }
+  ]
+}
