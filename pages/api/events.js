@@ -15,7 +15,6 @@ export default async function handler(req, res) {
 export async function getEvents() {
   let events = [];
   try {
-
     events = await Profile.aggregate([
       { $project: { username: 1, events: 1, isEnabled: 1 } },
       { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
