@@ -79,7 +79,7 @@ export async function updateMilstoneApi(username, id, milestone) {
     getMilestone = await Profile.findOneAndUpdate(
       {
         username,
-        "milestones._id": id,
+        "milestones._id": new ObjectId(id),
       },
       {
         $set: {

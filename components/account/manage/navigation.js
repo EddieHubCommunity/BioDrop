@@ -41,7 +41,7 @@ let tabs = [
   {
     name: "Events",
     href: "/account/manage/events",
-    match: [],
+    match: ["/account/manage/event/[[...data]]"],
     icon: MdCalendarMonth,
     current: false,
   },

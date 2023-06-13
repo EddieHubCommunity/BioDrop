@@ -62,7 +62,7 @@ export default function UserPage({ data, BASE_URL }) {
       )}
 
       {tabs.find((tab) => tab.name === "Events")?.current && (
-        <UserEvents data={data} />
+        <UserEvents events={data.events} />
       )}
     </>
   );
