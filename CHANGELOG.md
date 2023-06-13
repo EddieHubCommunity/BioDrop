@@ -1,3 +1,12 @@
+# [1.142.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.3...v1.142.0) (2023-06-13)
+
+
+### Features
+
+* group events attended by multiple people ([#7156](https://github.com/EddieHubCommunity/LinkFree/issues/7156)) ([5e5424b](https://github.com/EddieHubCommunity/LinkFree/commit/5e5424b961379ce58c2e193aa574b9bad706726b))
+
+
+
 ## [1.141.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.2...v1.141.3) (2023-06-12)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * timestamps to all db models ([#7503](https://github.com/EddieHubCommunity/LinkFree/issues/7503)) ([#7510](https://github.com/EddieHubCommunity/LinkFree/issues/7510)) ([3d2ff74](https://github.com/EddieHubCommunity/LinkFree/commit/3d2ff74d5f75ad38228d9607b666c6a223840c95))
-
-
-
-## [1.140.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.140.9...v1.140.10) (2023-06-11)
-
-
-### Bug Fixes
-
-* release action token ([#7515](https://github.com/EddieHubCommunity/LinkFree/issues/7515)) ([b9a4b97](https://github.com/EddieHubCommunity/LinkFree/commit/b9a4b9701b16c1ea9f345a1f16b004c85cb50440))
 
 
 
