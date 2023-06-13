@@ -1,0 +1,58 @@
+{
+  "name": "Anas Ouardini",
+  "bio": "Web developer, mainly javaScript.",
+  "tags": [
+    "Javascript",
+    "Typescript",
+    "ReactJs",
+    "nodeJs",
+    "ExpressJs",
+    "MySql"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/segfaulty1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anasouardini"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/anasouardini"
+    }
+  ],
+  "links": [
+    {
+      "name": "Portfolio Site",
+      "url": "https://anasouardini.online",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter",
+      "url": "https://twitter.com/anasouardini",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub",
+      "url": "https://github.com/anasouardini",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/anasouardini",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "My Blog",
+      "url": "https://blog.anasouardini.online",
+      "icon": "FaLink"
+    }
+  ]
+}
