@@ -1,3 +1,12 @@
+## [1.142.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.1...v1.142.2) (2023-06-14)
+
+
+### Bug Fixes
+
+* profile links background color on hover ([#7556](https://github.com/EddieHubCommunity/LinkFree/issues/7556)) ([462645b](https://github.com/EddieHubCommunity/LinkFree/commit/462645b64bd190ff2d692f7a27277923231b24f9))
+
+
+
 ## [1.142.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.0...v1.142.1) (2023-06-14)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * profile page group link headings from h3 to h2 ([#7527](https://github.com/EddieHubCommunity/LinkFree/issues/7527)) ([db255ec](https://github.com/EddieHubCommunity/LinkFree/commit/db255ecc096284a7d16b766b94afd43d3b94dfaa))
-
-
-
-## [1.141.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.0...v1.141.1) (2023-06-11)
 
 
 
