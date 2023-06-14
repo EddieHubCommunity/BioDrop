@@ -1,6 +1,13 @@
 {
   "name": "Jeremiah Igrami",
-  "bio": "Technical writer and data scientist. **IPython**|**pandas**|**numpy**|**matplotlib**|**plotly.express**: I love uncovering insights from huge, messy data.",
+  "bio": "**Technical writer** and **data scientist**: I love uncovering insights from huge data.",
+  "tags": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Plotly.express"
+  ],
   "links": [
     {
       "name": "Twitter",
