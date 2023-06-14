@@ -1,10 +1,8 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { PencilIcon } from "@heroicons/react/24/outline";
 
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Button from "@components/Button";
 import Edit from "@components/account/manage/edit";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {

@@ -64,7 +64,7 @@ export default function Milestone({ BASE_URL, milestone }) {
     };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
     if (milestone._id) {
-      putMilestone = { ...putMilestone, id: milestone._id };
+      putMilestone = { ...putMilestone, _id: milestone._id };
       apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
     }
     const res = await fetch(apiUrl, {

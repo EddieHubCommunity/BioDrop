@@ -65,7 +65,7 @@ export default function Event({ BASE_URL, event }) {
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
-      putEvent = { ...putEvent, id: event._id };
+      putEvent = { ...putEvent, _id: event._id };
       apiUrl = `${BASE_URL}/api/account/manage/event/${event._id}`;
     }
     const res = await fetch(apiUrl, {
