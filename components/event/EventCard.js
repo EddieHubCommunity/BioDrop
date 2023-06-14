@@ -12,7 +12,7 @@ import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/edit";
 
-export default function EventCard({ event, username, manage }) {
+export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
 
   const [startTime, setStartTime] = useState(event.date.start);
@@ -105,21 +105,27 @@ export default function EventCard({ event, username, manage }) {
                 </span>
               </p>
             </div>
-            {username && (
-              <Link
-                href={`/${username}`}
-                className="group hidden lg:block flex-shrink-0 lg:pr-4"
-              >
-                <FallbackImage
-                  src={`https://github.com/${username}.png`}
-                  alt={`Profile picture of ${username}`}
-                  width={fallbackImageSize}
-                  height={fallbackImageSize}
-                  fallback={username}
-                  className="rounded-full"
-                />
-              </Link>
-            )}
+            <div className="isolate flex -space-x-1 ">
+              {usernames &&
+                usernames.map((username) => {
+                  return (
+                    <Link
+                      href={`/${username}`}
+                      key={username}
+                      className=" hidden lg:block h-10 w-10  "
+                    >
+                      <FallbackImage
+                        src={`https://github.com/${username}.png`}
+                        alt={`Profile picture of ${username}`}
+                        width={fallbackImageSize}
+                        height={fallbackImageSize}
+                        fallback={username}
+                        className="relative z-30 inline-block rounded-full ring-2 ring-white"
+                      />
+                    </Link>
+                  );
+                })}
+            </div>
           </div>
         </div>
       </div>

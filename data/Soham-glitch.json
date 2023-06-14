@@ -1,0 +1,27 @@
+{
+  "name": "Soham",
+  "bio": "Full Stack dev with a deep interest in Web 3, I am currently learning about blockchains and solidity, smart contracts, etc. I am also applying my full-stack skills to make websites. happy to collaborate",
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJs", "Block Chain"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Soham_eery"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Soham-glitch"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Soham_eery",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Soham-glitch",
+      "icon": "FaGithub"
+    }
+  ]
+}
