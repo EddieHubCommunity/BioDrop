@@ -7,6 +7,11 @@ import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
+import {
+  basicProfileSchema,
+  usernameSchema,
+} from "@config/schemas/validationSchemas";
+import * as z from "zod";
 
 export default function Playground() {
   const BASE_URL = clientEnv.NEXT_PUBLIC_BASE_URL;
@@ -25,6 +30,7 @@ export default function Playground() {
   const [validateComplete, setValidateComplete] = useState(false);
   const [formatComplete, setFormatComplete] = useState(false);
   const [errorMessage, setErrMsg] = useState("");
+  const [errors, setErrors] = useState([]);
   const [successMessage, setSuccessMsg] = useState("");
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
@@ -33,7 +39,8 @@ export default function Playground() {
 
   const handleValidateJson = () => {
     try {
-      JSON.parse(profileJson);
+      const parsedProfile = JSON.parse(profileJson);
+      basicProfileSchema.parse(parsedProfile);
       setSuccessMsg("Valid Json");
       setErrMsg("");
       setValidateComplete(true);
@@ -41,8 +48,12 @@ export default function Playground() {
       setTimeout(() => setShowNotification(false), 1500);
       return true;
     } catch (err) {
-      setErrMsg(err.toString());
-      setError(true);
+      if (err instanceof z.ZodError || z.ZodError.create(err).errors) {
+        setErrMsg("Invalid JSON. Please check the errors below.");
+        setErrors(err.errors);
+      } else {
+        setErrMsg(err.toString());
+      }
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
@@ -66,12 +77,19 @@ export default function Playground() {
   };
 
   const handlePreview = () => {
-    if (!gitUsername) {
+    try {
+      usernameSchema.parse(gitUsername);
+    } catch (err) {
+      const errors = [...err.errors];
+      errors[0].path = ["Github username"];
       setErrMsg("Github username required");
+      setErrors(err.errors);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
+      return false;
     }
+
     try {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
@@ -161,6 +179,20 @@ export default function Playground() {
             setErrMsg("");
           }}
         />
+
+        <span class="mb-5">
+          {errors.map((error, idx) => {
+            return (
+              <p key={idx} className="text-red-500">
+                {error.path.length === 1
+                  ? error.path
+                  : `${error.path[0]} - ${error.path[2]}`}
+                : {error.message}
+              </p>
+            );
+          })}
+        </span>
+
         <div className="flex flex-row justify-end mb-3 gap-2">
           <Button {...buttonProps()} />
         </div>
