@@ -63,7 +63,11 @@ export default function EventCard({ manage, event, usernames }) {
                     {event.name}
                   </span>
                   {event.url && (
-                    <Link href={event.url} target="_blank">
+                    <Link
+                      href={event.url}
+                      target="_blank"
+                      aria-label={`Visit event ${event.name}`}
+                    >
                       <FaExternalLinkAlt />
                     </Link>
                   )}
@@ -112,7 +116,8 @@ export default function EventCard({ manage, event, usernames }) {
                     <Link
                       href={`/${username}`}
                       key={username}
-                      className=" hidden lg:block h-10 w-10  "
+                      aria-label={`Visit user ${username}`}
+                      className="hidden lg:block h-10 w-10"
                     >
                       <FallbackImage
                         src={`https://github.com/${username}.png`}
