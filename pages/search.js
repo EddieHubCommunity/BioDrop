@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { pick } from "lodash";
 
 import UserCard from "@components/user/UserCard";
 import Alert from "@components/Alert";
@@ -21,7 +20,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers({ cards: false });
+    data.users = await getUsers({ });
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -85,9 +84,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
       const nameLower = user.name.toLowerCase();
       const usernameLower = user.username.toLowerCase();
       const userTagsString = user.tags.join(", ").toLowerCase();
-      const userLocationString = Object.entries(
-        pick(user.location, ["city", "state", "provided", "country"])
-      )
+      const userLocationString = [user.location.provided]
         .join(", ")
         .toLowerCase();
 

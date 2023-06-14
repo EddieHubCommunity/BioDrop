@@ -23,9 +23,6 @@ const ProfileSchema = new mongoose.Schema(
       lat: Number,
       lon: Number,
       updatedAt: Date,
-      city: String,
-      state: String,
-      country: String,
     },
     views: {
       type: Number,
