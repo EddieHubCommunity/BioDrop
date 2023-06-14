@@ -103,7 +103,7 @@
     },
     {
       "group": "Open-source projects",
-      "name": "A viable Git Submodules alternative (soon!)",
+      "name": "A viable Git Submodules alternative making cloning easier (soon!)",
       "url": "https://github.com/Panquesito7/submodules-alternative",
       "icon": "FaGit"
     },
@@ -130,9 +130,15 @@
       "name": "Instant Sapling Growth: a mod for Minetest",
       "url": "https://github.com/Panquesito7/instant_sapling_growth",
       "icon": "SiMinetest"
+    },
+    {
+      "group": "Open-source projects",
+      "name": "A GitHub Action that lets you create PRs with ease (soon!)",
+      "url": "https://github.com/Panquesito7/pr-opener",
+      "icon": "SiGithubactions"
     }
   ],
-  "testimonials": ["YashDaga17"],
+  "testimonials": ["YashDaga17", "Pritu2022"],
   "milestones": [
     {
       "isGoal": "true",
