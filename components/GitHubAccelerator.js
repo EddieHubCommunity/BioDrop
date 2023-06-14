@@ -6,13 +6,20 @@ import Link from "./Link";
 export default function GitHubAccelerator() {
   return (
     <div className="mb-12">
-      <div className="bg-contain bg-no-repeat bg-center h-32 sm:h-40 md:h-48 md:bg-cover " style={{ backgroundImage: 'url(https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png)' }}>
+      <div>
+        <Image
+          className="h-32 w-full object-cover lg:h-48"
+          src="https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png"
+          alt="GitHub Accelerator banner"
+          width={600}
+          height={200}
+        />
       </div>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="-mt-[24px] sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
+        <div className="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
           <div className="flex">
             <Image
-              className="h-[80px] w-[80px] rounded-full ring-4 ring-white sm:h-32 sm:w-32"
+              className="h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32"
               src="https://user-images.githubusercontent.com/624760/235977104-a0b6ae9c-1d02-489c-ae26-1311c20fd3d4.png"
               alt="GitHub logo"
               width={100}
