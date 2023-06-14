@@ -1,3 +1,12 @@
+## [1.142.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.0...v1.142.1) (2023-06-14)
+
+
+### Bug Fixes
+
+* event code formatting ([#7569](https://github.com/EddieHubCommunity/LinkFree/issues/7569)) ([0b45395](https://github.com/EddieHubCommunity/LinkFree/commit/0b45395e0557131fb886b2148b477f7e5ea760c0))
+
+
+
 # [1.142.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.3...v1.142.0) (2023-06-13)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.141.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.0...v1.141.1) (2023-06-11)
-
-
-
-# [1.141.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.140.10...v1.141.0) (2023-06-11)
-
-
-### Features
-
-* timestamps to all db models ([#7503](https://github.com/EddieHubCommunity/LinkFree/issues/7503)) ([#7510](https://github.com/EddieHubCommunity/LinkFree/issues/7510)) ([3d2ff74](https://github.com/EddieHubCommunity/LinkFree/commit/3d2ff74d5f75ad38228d9607b666c6a223840c95))
 
 
 
