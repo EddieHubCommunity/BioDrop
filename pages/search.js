@@ -84,9 +84,9 @@ export default function Search({ data: { users, tags, randUsers } }) {
       const nameLower = user.name.toLowerCase();
       const usernameLower = user.username.toLowerCase();
       const userTagsString = user.tags.join(", ").toLowerCase();
-      const userLocationString = [user.location.provided]
+      const userLocationString = user.location ? [user.location.provided]
         .join(", ")
-        .toLowerCase();
+        .toLowerCase() : '';
 
       // check if all search terms/keywords are matching with the the uses
       const isUserMatched = terms.every((term) => {
