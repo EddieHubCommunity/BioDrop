@@ -20,7 +20,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers({ });
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
