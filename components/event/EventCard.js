@@ -36,7 +36,7 @@ export default function EventCard({ event, usernames }) {
         borderColor: event.color,
       }}
     >
-      <div className="flex space-x-4">
+      <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
@@ -56,7 +56,7 @@ export default function EventCard({ event, usernames }) {
               className="text-decoration-line:none"
             >
               <div className="flex justify-between">
-                <p className="text-xl tracking-wide font-medium capitalize">
+                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                   {event.name}
                 </p>
                 {event.userStatus && (
@@ -72,7 +72,7 @@ export default function EventCard({ event, usernames }) {
                   </div>
                 )}
               </div>
-              <p className="text-xs sm:text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
+              <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
                 <span>
                   {startTime}
                 </span>

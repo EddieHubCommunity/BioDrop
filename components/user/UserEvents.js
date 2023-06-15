@@ -64,7 +64,7 @@ export default function UserEvents({ data }) {
   });
 
   return (
-    <div className="m-2">
+    <div className="m-6">
       <DropdownMenu
         eventType={eventType}
         handleEventTypeChange={handleEventTypeChange} 
