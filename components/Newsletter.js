@@ -1,13 +1,12 @@
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 import Script from "next/script";
-
 export default function Newsletter() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 mb-8 py-16 sm:py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
-          <div className="max-w-xl lg:max-w-lg">
-            <div className="mt-6 flex max-w-md gap-x-4">
+          <div className="max-w-xl lg:max-w-lg ">
+            <div className="mt-6 flex max-w-lg gap-x-4 justify-center">
               <div className="kartra_optin_container1c383cd30b7c298ab50293adfecb7b18"></div>
               <Script src="https://app.kartra.com/optin/08THVCBzqGlF"></Script>
             </div>
