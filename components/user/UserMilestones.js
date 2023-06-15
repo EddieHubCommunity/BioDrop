@@ -9,7 +9,9 @@ export default function UserMilestones({ milestones, manage = false }) {
   const futureMilestones = milestones.filter((milestone) => milestone.isGoal);
   return (
     <>
-      {!milestones && <Alert type="info" message="No milestones found" />}
+      {!milestones?.length && (
+        <Alert type="info" message="No milestones found" />
+      )}
       <ul role="list" className="divide-y divide-primary-low-medium mt-4">
         {milestones &&
           historicMilestones.map((milestone, key) => (
