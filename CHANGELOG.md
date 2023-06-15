@@ -1,3 +1,12 @@
+## [1.142.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.3...v1.142.4) (2023-06-15)
+
+
+### Bug Fixes
+
+* update LinkFree-CLI version ([#7606](https://github.com/EddieHubCommunity/LinkFree/issues/7606)) ([588e62e](https://github.com/EddieHubCommunity/LinkFree/commit/588e62e55342bb5f20fbd6d22e6a3a744a711b0c))
+
+
+
 ## [1.142.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.2...v1.142.3) (2023-06-14)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * group events attended by multiple people ([#7156](https://github.com/EddieHubCommunity/LinkFree/issues/7156)) ([5e5424b](https://github.com/EddieHubCommunity/LinkFree/commit/5e5424b961379ce58c2e193aa574b9bad706726b))
-
-
-
-## [1.141.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.2...v1.141.3) (2023-06-12)
-
-
-### Bug Fixes
-
-* release action warnings ([#7538](https://github.com/EddieHubCommunity/LinkFree/issues/7538)) ([315f966](https://github.com/EddieHubCommunity/LinkFree/commit/315f9668ad3862c2b4e3774ecb5e24030982e819))
 
 
 
