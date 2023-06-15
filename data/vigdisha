@@ -1,0 +1,22 @@
+  {
+  "name": "Sara Jaoude",
+  "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/coffeebreath18",
+      "icon": "FaTwitter"
+    },
+    {
+    "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/disha-vig/",
+      "icon": "FaLinkedin"
+      },
+      {
+      "name": "Follow my Github",
+      "url": "https://github.com/vigdisha",
+      "icon": "FaGithub"
+      
+      }
+  ]
+}
