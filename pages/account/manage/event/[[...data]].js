@@ -165,7 +165,7 @@ export default function Event({ BASE_URL, event }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Is Virtual?"
-                      text2="no/yes"
+                      text2="Online event"
                       enabled={isVirtual}
                       setEnabled={setIsVirtual}
                     />

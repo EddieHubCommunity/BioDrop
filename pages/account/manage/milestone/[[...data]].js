@@ -156,7 +156,7 @@ export default function Milestone({ BASE_URL, milestone }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Is Goal?"
-                      text2="no/yes"
+                      text2="Future milestone"
                       enabled={isGoal}
                       setEnabled={setIsGoal}
                     />

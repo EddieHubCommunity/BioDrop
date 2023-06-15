@@ -29,7 +29,7 @@ export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
             {text1}
           </span>
         )}
-        {text2 && <span className="text-primary-medium-low">({text2})</span>}
+        {text2 && <span className="text-primary-medium-low"> ({text2})</span>}
       </Switch.Label>
     </Switch.Group>
   );

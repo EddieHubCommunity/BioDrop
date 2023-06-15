@@ -139,7 +139,7 @@ export default function Link({ BASE_URL, username, link }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Enable?"
-                      text2="disable/enable"
+                      text2="hide/show link on profile"
                       enabled={isEnabled}
                       setEnabled={setIsEnabled}
                     />
@@ -147,7 +147,7 @@ export default function Link({ BASE_URL, username, link }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Pin?"
-                      text2="unpin/pin"
+                      text2="Display at the top of your profile"
                       enabled={isPinned}
                       setEnabled={setIsPinned}
                     />
