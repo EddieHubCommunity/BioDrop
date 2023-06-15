@@ -19,7 +19,7 @@ export default function UserLink({ BASE_URL, link, username }) {
       )}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium"
+      className="rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40"
       style={{
         "--hover-color": colors[link.icon],
       }}
