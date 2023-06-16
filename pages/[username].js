@@ -58,6 +58,7 @@ export default function User({ data, BASE_URL }) {
         title={data.name}
         description={data.cleanBio}
         ogTitle={data.name}
+        ogDescription={data.cleanBio}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
         ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
