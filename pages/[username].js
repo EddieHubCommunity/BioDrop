@@ -37,14 +37,14 @@ export async function getServerSideProps(context) {
   }
 
   log.info(`data loaded for username: ${username}`);
-  
+
   try {
     const processedBio = await remark().use(strip).process(profile.bio);
     profile.cleanBio = processedBio.toString();
-} catch (e) {
-	log.error(e, `cannot strip markdown for: ${username}`);
-	profile.cleanBio = profile.bio;
-}
+  } catch (e) {
+    log.error(e, `cannot strip markdown for: ${username}`);
+    profile.cleanBio = profile.bio;
+  }
 
   return {
     props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
