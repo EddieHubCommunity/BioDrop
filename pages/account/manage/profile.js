@@ -13,6 +13,7 @@ import Navigation from "@components/account/manage/navigation";
 import { getUserApi } from "pages/api/profiles/[username]";
 import UserProfile from "@components/user/UserProfile";
 import Input from "@components/form/Input";
+import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
 
@@ -56,9 +57,11 @@ export async function getServerSideProps(context) {
 
 export default function Profile({ BASE_URL, profile, fileExists }) {
   const [showNotification, setShowNotification] = useState(false);
+  const [theme, setTheme] = useState(profile.theme || "original");
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
   const [tags, setTags] = useState(profile.tags || []);
+  const themes = ["original", "inline"];
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -67,7 +70,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags }),
+      body: JSON.stringify({ name, bio, tags, theme }),
     });
     await res.json();
     setShowNotification(true);
@@ -136,6 +139,18 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                   className="mt-10"
                 >
                   <div className="mt-6 grid grid-cols-3 gap-x-4 gap-y-6 sm:grid-cols-4">
+                    <div className="col-span-3 sm:col-span-4">
+                      <div className="mt-1">
+                        <Select
+                          name="theme"
+                          label="Theme"
+                          value={theme}
+                          options={themes}
+                          onChange={(e) => setTheme(e.target.value)}
+                        />
+                      </div>
+                    </div>
+
                     <div className="col-span-3 sm:col-span-4">
                       <div className="mt-1">
                         <Input

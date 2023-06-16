@@ -71,16 +71,18 @@ export async function getUserApi(req, res, username) {
         url: link.url,
         icon: link.icon,
       })),
-    testimonials: getProfile._doc.testimonials.map((testimonial) => ({
-      _id: testimonial._id,
-      isPinned: testimonial.isPinned,
-      username: testimonial.username,
-      title: testimonial.title,
-      description: testimonial.description,
-      date: testimonial.date,
-      url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
-      order: testimonial.order,
-    })),
+    testimonials: getProfile._doc.testimonials
+      .filter((testimonial) => testimonial.isPinned)
+      .map((testimonial) => ({
+        _id: testimonial._id,
+        isPinned: testimonial.isPinned,
+        username: testimonial.username,
+        title: testimonial.title,
+        description: testimonial.description,
+        date: testimonial.date,
+        url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+        order: testimonial.order,
+      })),
   };
 
   let dateEvents = [];
@@ -120,83 +122,91 @@ export async function getUserApi(req, res, username) {
   date.setHours(1, 0, 0, 0);
 
   if (!isOwner) {
-    updates.push((async () => {
+    updates.push(
+      (async () => {
+        try {
+          await Stats.updateOne(
+            {
+              date,
+            },
+            {
+              $inc: { users: 1 },
+            },
+            { upsert: true }
+          );
+          log.info(`app profile stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(e, `app profile stats failed for ${username}`);
+        }
+      })()
+    );
+
+    updates.push(
+      (async () => {
+        try {
+          await Profile.updateOne(
+            {
+              username,
+            },
+            {
+              $inc: { views: 1 },
+            }
+          );
+          log.info(`stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(
+            e,
+            `failed to increment profile stats for username: ${username}`
+          );
+        }
+      })()
+    );
+
+    updates.push(
+      (async () => {
+        try {
+          await ProfileStats.updateOne(
+            {
+              username: username,
+              date,
+            },
+            {
+              $inc: { views: 1 },
+            },
+            { upsert: true }
+          );
+          log.info(`profile daily stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(
+            e,
+            "failed to increment profile stats for username: ${username}"
+          );
+        }
+      })()
+    );
+  }
+
+  updates.push(
+    (async () => {
       try {
         await Stats.updateOne(
           {
             date,
           },
           {
-            $inc: { users: 1 },
-          },
-          { upsert: true }
-        );
-        log.info(`app profile stats incremented for username: ${username}`);
-      } catch (e) {
-        log.error(e, `app profile stats failed for ${username}`);
-      }
-    })());
-
-    updates.push((async () => {
-      try {
-        await Profile.updateOne(
-          {
-            username,
-          },
-          {
-            $inc: { views: 1 },
-          }
-        );
-        log.info(`stats incremented for username: ${username}`);
-      } catch (e) {
-        log.error(
-          e,
-          `failed to increment profile stats for username: ${username}`
-        );
-      }
-    })());
-
-    updates.push((async () => {
-      try {
-        await ProfileStats.updateOne(
-          {
-            username: username,
-            date,
-          },
-          {
             $inc: { views: 1 },
           },
           { upsert: true }
         );
-        log.info(`profile daily stats incremented for username: ${username}`);
+        log.info(`app daily stats incremented for username: ${username}`);
       } catch (e) {
         log.error(
           e,
-          "failed to increment profile stats for username: ${username}"
+          `failed incrementing platform stats for username: ${username}`
         );
       }
-    })());
-  }
-
-  updates.push((async () => {
-    try {
-      await Stats.updateOne(
-        {
-          date,
-        },
-        {
-          $inc: { views: 1 },
-        },
-        { upsert: true }
-      );
-      log.info(`app daily stats incremented for username: ${username}`);
-    } catch (e) {
-      log.error(
-        e,
-        `failed incrementing platform stats for username: ${username}`
-      );
-    }
-  })());
+    })()
+  );
 
   await Promise.allSettled(updates);
 

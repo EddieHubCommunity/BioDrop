@@ -28,9 +28,9 @@ export default function UserLinks({
                   key={name}
                 >
                   <div className="-ml-2 -mt-2 flex flex-wrap items-baseline">
-                    <h2 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
+                    <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
                       {name}
-                    </h2>
+                    </h3>
                     <p className="ml-2 mt-1 truncate text-sm dark:text-primary-low-high text-primary-medium">
                       ({buckets[name].length})
                     </p>

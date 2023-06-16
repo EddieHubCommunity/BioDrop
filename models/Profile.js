@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 const ProfileSchema = new mongoose.Schema(
   {
     source: String,
+    theme: String,
     isEnabled: {
       type: Boolean,
       default: true,
