@@ -37,6 +37,25 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
+  data.users = data.users.map(user => ({
+    type: "Feature",
+    properties: {
+      cluster: false,
+      tags: user.tags,
+      username: user.username,
+      name: user.name,
+      location: user.location.provided,
+      bio: user.bio
+    },
+    geometry: {
+      type: "Point",
+      coordinates: [
+        parseFloat(user.location.lon),
+        parseFloat(user.location.lat)
+      ]
+    }
+  }));
+
   try {
     data.tags = await getTags(true);
   } catch (e) {
@@ -74,11 +93,11 @@ export default function Map({ data }) {
     const terms = [...updateSelectedTagsFilter(value)];
 
     results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
+      if (user.properties.name.toLowerCase().includes(valueLower)) {
         return true;
       }
 
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+      let userTags = user.properties.tags?.map((tag) => tag.toLowerCase());
 
       if (terms.every((keyword) => userTags?.includes(keyword.toLowerCase()))) {
         return true;
