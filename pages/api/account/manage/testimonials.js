@@ -72,6 +72,7 @@ export async function updateTestimonialApi(username, data) {
       },
       {
         $set: {
+          source: "database",
           "testimonials.$.isPinned": data.isPinned,
         },
       }

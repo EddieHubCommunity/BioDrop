@@ -83,6 +83,7 @@ export async function updateEventApi(username, id, event) {
       },
       {
         $set: {
+          source: "database",
           "events.$": event,
         },
       },

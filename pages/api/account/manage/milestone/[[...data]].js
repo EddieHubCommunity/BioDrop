@@ -83,6 +83,7 @@ export async function updateMilstoneApi(username, id, milestone) {
       },
       {
         $set: {
+          source: "database",
           "milestones.$": milestone,
         },
       },

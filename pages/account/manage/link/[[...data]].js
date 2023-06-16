@@ -49,7 +49,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [name, setName] = useState(link.name);
   const [url, setUrl] = useState(link.url);
   const [icon, setIcon] = useState(link.icon);
-  const [isEnabled, setIsEnabled] = useState(link.isEnabled || true);
+  const [isEnabled, setIsEnabled] = useState(link.isEnabled);
   const [isPinned, setIsPinned] = useState(link.isPinned);
 
   const handleSubmit = async (e) => {

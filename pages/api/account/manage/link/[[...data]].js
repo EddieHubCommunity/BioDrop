@@ -80,11 +80,19 @@ export async function updateLinkApi(username, url, data) {
       await Profile.findOneAndUpdate(
         { username },
         {
+          $set: { source: "database" },
           $push: { links: getLink._id },
         },
         { upsert: true, new: true }
       );
     } else {
+      await Profile.findOneAndUpdate(
+        { username },
+        {
+          $set: { source: "database" },
+        },
+        { upsert: true, new: true }
+      );
       log.info(`link ${url} updated for username: ${username}`);
     }
   } catch (e) {

@@ -44,6 +44,7 @@ export default function UserLinks({
                   link={link}
                   username={username}
                   manage={manage}
+                  isEnabled={link.isEnabled}
                 />
               ))}
             </div>
