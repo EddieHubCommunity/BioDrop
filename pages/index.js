@@ -25,9 +25,8 @@ import Alert from "@components/Alert";
 import config from "@config/app.json";
 import Newsletter from "@components/Newsletter";
 
-import { useEffect, useState } from 'react';
-import UserProfile from '@components/user/UserProfile';
-
+import { useEffect, useState } from "react";
+import UserProfile from "@components/user/UserProfile";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
@@ -50,7 +49,7 @@ export default function Home({ total, today }) {
 
   useEffect(() => {
     async function fetchRandomProfile() {
-      const res = await fetch('/api/randomProfile');
+      const res = await fetch("/api/randomProfile");
       const data = await res.json();
       setRandomProfile(data);
       setLoading(false);
@@ -228,7 +227,7 @@ export default function Home({ total, today }) {
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
+      <div className="p-8 mb-8 bg-primary-low dark:drop-shadow-none dark:bg-primary-high drop-shadow-md">
         {config.alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
@@ -240,7 +239,7 @@ export default function Home({ total, today }) {
           />
         )}
 
-        <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
+        <h2 className="flex flex-col items-center justify-between tracking-tight sm:tracking-tight sm:flex-row">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree
           </span>
@@ -250,11 +249,9 @@ export default function Home({ total, today }) {
         </h2>
         <div className="mt-10 md:mt-20">
           {loading ? (
-            <p className="text-gray-500 text-lg">Loading...</p>
+            <p className="text-lg text-gray-400">Loading...</p>
           ) : (
-            <>
-              {randomProfile && <UserProfile data={randomProfile} />}
-            </>
+            <>{randomProfile && <UserProfile data={randomProfile} />}</>
           )}
         </div>
         <BasicCards
@@ -282,8 +279,8 @@ export default function Home({ total, today }) {
       </div>
 
       <div className="bg-white dark:bg-primary-high">
-        <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-          <div className="overflow-hidden rounded-lg bg-secondary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+        <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="overflow-hidden rounded-lg shadow-xl bg-secondary-high lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
               <div className="lg:self-center">
                 <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
@@ -311,21 +308,20 @@ export default function Home({ total, today }) {
       </div>
 
       <div className="bg-primary-low dark:bg-primary-high">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
             <span className="block">Ready to dive in?</span>
             <span className="block text-secondary-high dark:text-secondary-low">
               Add your free Profile today!
             </span>
           </h2>
-          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div className="flex mt-8 lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <Button
-                href="/docs/quickstart"
-                primary={true}
-              >Get started</Button>
+              <Button href="/docs/quickstart" primary={true}>
+                Get started
+              </Button>
             </div>
-            <div className="ml-3 inline-flex rounded-md shadow ">
+            <div className="inline-flex ml-3 rounded-md shadow ">
               <Button href="/eddiejaoude">Example</Button>
             </div>
           </div>
@@ -333,12 +329,12 @@ export default function Home({ total, today }) {
       </div>
 
       <div className="bg-secondary-high">
-        <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
-          <div className="mx-auto max-w-3xl text-center">
+        <div className="max-w-2xl px-4 py-12 mx-auto sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Features
             </h2>
-            <p className="mt-4 text-white text-xl">
+            <p className="mt-4 text-xl text-white">
               It is not just links... Take a look at the Features you can add to
               customize your LinkFree Profile.
             </p>
@@ -358,10 +354,10 @@ export default function Home({ total, today }) {
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg sm:text-2xl font-medium text-white">
+                  <h3 className="text-lg font-medium text-white sm:text-2xl">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm sm:text-lg text-white">
+                  <p className="mt-2 text-sm text-white sm:text-lg">
                     {feature.description}
                   </p>
                 </div>
@@ -373,7 +369,7 @@ export default function Home({ total, today }) {
                     "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
                   )}
                 >
-                  <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
+                  <div className="relative overflow-hidden rounded-lg aspect-w-5 aspect-h-2 bg-primary-low">
                     <Image
                       src={feature.imageSrc}
                       alt={feature.imageAlt}
@@ -388,15 +384,15 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="relative bg-white dark:bg-primary-high py-8 sm:py-12 lg:py-24">
-        <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-          <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
+      <div className="relative py-8 bg-white dark:bg-primary-high sm:py-12 lg:py-24">
+        <div className="max-w-md px-6 mx-auto text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
+          <h2 className="text-3xl font-semibold text-secondary-high dark:text-secondary-low">
             Getting Started
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
             Popular User Guides
           </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-high">
+          <p className="mx-auto mt-5 text-xl max-w-prose text-primary-medium dark:text-primary-low-high">
             Here is a selection of our popular documentation guides to help you
             get started.
           </p>
@@ -409,12 +405,12 @@ export default function Home({ total, today }) {
                     href={feature.path}
                     className="text-primary-high dark:text-primary-low-medium group"
                   >
-                    <div className="flow-root rounded-lg bg-primary-low dark:bg-primary-medium px-6 pb-8">
+                    <div className="flow-root px-6 pb-8 rounded-lg bg-primary-low dark:bg-primary-medium">
                       <div className="-mt-6">
                         <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-secondary-high p-3 shadow-lg">
+                          <span className="inline-flex items-center justify-center p-3 shadow-lg rounded-xl bg-secondary-high">
                             <feature.icon
-                              className="h-8 w-8 text-white "
+                              className="w-8 h-8 text-white "
                               aria-hidden="true"
                             />
                           </span>
@@ -445,9 +441,9 @@ export default function Home({ total, today }) {
         href="https://github.com/EddieHubCommunity/LinkFree/discussions"
         rel="noopener noreferrer"
         target="_blank"
-        className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
+        className="fixed rounded-full bottom-5 right-5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
       >
-        <div className="px-4 py-2 bg-secondary-medium text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-high-high">
+        <div className="flex items-center gap-1 px-4 py-2 text-white rounded-full bg-secondary-medium hover:drop-shadow-lg hover:bg-secondary-high-high">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >
