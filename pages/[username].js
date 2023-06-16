@@ -39,9 +39,11 @@ export async function getServerSideProps(context) {
   log.info(`data loaded for username: ${username}`);
 
   try {
-    profile.cleanBio = String(await remark().use(strip).process(profile.bio));
+    const processedBio = await remark().use(strip).process(profile.bio);
+    profile.cleanBio = processedBio.toString();
   } catch (e) {
     log.error(e, `cannot strip markdown for: ${username}`);
+    profile.cleanBio = profile.bio;
   }
 
   return {
@@ -57,7 +59,7 @@ export default function User({ data, BASE_URL }) {
         description={data.cleanBio}
         ogTitle={data.name}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
-        ogImage={data.avatar}
+        ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
 

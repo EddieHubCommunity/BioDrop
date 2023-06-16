@@ -1,3 +1,25 @@
+## [1.142.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.4...v1.142.5) (2023-06-16)
+
+
+### Bug Fixes
+
+* profile share preview ([#7613](https://github.com/EddieHubCommunity/LinkFree/issues/7613)) ([08ba50c](https://github.com/EddieHubCommunity/LinkFree/commit/08ba50c8d8709e870484890e4a37da944ebf969c)), closes [#7609](https://github.com/EddieHubCommunity/LinkFree/issues/7609)
+
+
+
+## [1.142.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.3...v1.142.4) (2023-06-15)
+
+
+### Bug Fixes
+
+* update LinkFree-CLI version ([#7606](https://github.com/EddieHubCommunity/LinkFree/issues/7606)) ([588e62e](https://github.com/EddieHubCommunity/LinkFree/commit/588e62e55342bb5f20fbd6d22e6a3a744a711b0c))
+
+
+
+## [1.142.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.2...v1.142.3) (2023-06-14)
+
+
+
 ## [1.142.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.1...v1.142.2) (2023-06-14)
 
 
@@ -13,33 +35,6 @@
 ### Bug Fixes
 
 * event code formatting ([#7569](https://github.com/EddieHubCommunity/LinkFree/issues/7569)) ([0b45395](https://github.com/EddieHubCommunity/LinkFree/commit/0b45395e0557131fb886b2148b477f7e5ea760c0))
-
-
-
-# [1.142.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.3...v1.142.0) (2023-06-13)
-
-
-### Features
-
-* group events attended by multiple people ([#7156](https://github.com/EddieHubCommunity/LinkFree/issues/7156)) ([5e5424b](https://github.com/EddieHubCommunity/LinkFree/commit/5e5424b961379ce58c2e193aa574b9bad706726b))
-
-
-
-## [1.141.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.2...v1.141.3) (2023-06-12)
-
-
-### Bug Fixes
-
-* release action warnings ([#7538](https://github.com/EddieHubCommunity/LinkFree/issues/7538)) ([315f966](https://github.com/EddieHubCommunity/LinkFree/commit/315f9668ad3862c2b4e3774ecb5e24030982e819))
-
-
-
-## [1.141.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.1...v1.141.2) (2023-06-12)
-
-
-### Bug Fixes
-
-* profile page group link headings from h3 to h2 ([#7527](https://github.com/EddieHubCommunity/LinkFree/issues/7527)) ([db255ec](https://github.com/EddieHubCommunity/LinkFree/commit/db255ecc096284a7d16b766b94afd43d3b94dfaa))
 
 
 
