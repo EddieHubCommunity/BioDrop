@@ -1,3 +1,21 @@
+# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
+
+
+### Features
+
+* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
+
+
+
+## [1.142.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.5...v1.142.6) (2023-06-16)
+
+
+### Bug Fixes
+
+* social og description ([#7615](https://github.com/EddieHubCommunity/LinkFree/issues/7615)) ([ec13130](https://github.com/EddieHubCommunity/LinkFree/commit/ec131305fda66ee6b02c789239e7e18c2cf27ccb))
+
+
+
 ## [1.142.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.4...v1.142.5) (2023-06-16)
 
 
@@ -17,24 +35,6 @@
 
 
 ## [1.142.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.2...v1.142.3) (2023-06-14)
-
-
-
-## [1.142.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.1...v1.142.2) (2023-06-14)
-
-
-### Bug Fixes
-
-* profile links background color on hover ([#7556](https://github.com/EddieHubCommunity/LinkFree/issues/7556)) ([462645b](https://github.com/EddieHubCommunity/LinkFree/commit/462645b64bd190ff2d692f7a27277923231b24f9))
-
-
-
-## [1.142.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.0...v1.142.1) (2023-06-14)
-
-
-### Bug Fixes
-
-* event code formatting ([#7569](https://github.com/EddieHubCommunity/LinkFree/issues/7569)) ([0b45395](https://github.com/EddieHubCommunity/LinkFree/commit/0b45395e0557131fb886b2148b477f7e5ea760c0))
 
 
 
