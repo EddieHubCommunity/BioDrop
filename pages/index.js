@@ -25,6 +25,10 @@ import Alert from "@components/Alert";
 import config from "@config/app.json";
 import Newsletter from "@components/Newsletter";
 
+import { useEffect, useState } from 'react';
+import UserProfile from '@components/user/UserProfile';
+
+
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
 
@@ -40,6 +44,20 @@ export async function getStaticProps() {
 export default function Home({ total, today }) {
   const router = useRouter();
   const newsletter = router.query.newsletter;
+
+  const [randomProfile, setRandomProfile] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchRandomProfile() {
+      const res = await fetch('/api/randomProfile');
+      const data = await res.json();
+      setRandomProfile(data);
+      setLoading(false);
+    }
+
+    fetchRandomProfile();
+  }, []);
 
   const features = [
     {
@@ -230,6 +248,15 @@ export default function Home({ total, today }) {
             100% Open Source
           </span>
         </h2>
+        <div className="mt-10 md:mt-20">
+          {loading ? (
+            <p className="text-gray-500 text-lg">Loading...</p>
+          ) : (
+            <>
+              {randomProfile && <UserProfile data={randomProfile} />}
+            </>
+          )}
+        </div>
         <BasicCards
           data={[
             {
