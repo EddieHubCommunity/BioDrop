@@ -1,3 +1,12 @@
+## [1.142.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.4...v1.142.5) (2023-06-16)
+
+
+### Bug Fixes
+
+* profile share preview ([#7613](https://github.com/EddieHubCommunity/LinkFree/issues/7613)) ([08ba50c](https://github.com/EddieHubCommunity/LinkFree/commit/08ba50c8d8709e870484890e4a37da944ebf969c)), closes [#7609](https://github.com/EddieHubCommunity/LinkFree/issues/7609)
+
+
+
 ## [1.142.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.3...v1.142.4) (2023-06-15)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * event code formatting ([#7569](https://github.com/EddieHubCommunity/LinkFree/issues/7569)) ([0b45395](https://github.com/EddieHubCommunity/LinkFree/commit/0b45395e0557131fb886b2148b477f7e5ea760c0))
-
-
-
-# [1.142.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.3...v1.142.0) (2023-06-13)
-
-
-### Features
-
-* group events attended by multiple people ([#7156](https://github.com/EddieHubCommunity/LinkFree/issues/7156)) ([5e5424b](https://github.com/EddieHubCommunity/LinkFree/commit/5e5424b961379ce58c2e193aa574b9bad706726b))
 
 
 
