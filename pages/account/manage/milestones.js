@@ -39,7 +39,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Milestones({ milestones }) {
+export default function ManageMilestones({ milestones }) {
   return (
     <>
       <PageHead

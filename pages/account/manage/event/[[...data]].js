@@ -41,7 +41,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Event({ BASE_URL, event }) {
+export default function ManageEvent({ BASE_URL, event }) {
   const [showNotification, setShowNotification] = useState(false);
   const [isVirtual, setIsVirtual] = useState(event.isVirtual);
   const [name, setName] = useState(event.name);
@@ -94,7 +94,7 @@ export default function Event({ BASE_URL, event }) {
           type="success"
           onClose={() => setShowNotification(false)}
           message="Event saved"
-          additionalMessage="Your event information has been saved successfully."
+          additionalMessage="Your Event information has been saved successfully."
         />
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
@@ -106,21 +106,21 @@ export default function Event({ BASE_URL, event }) {
               <div className="space-y-6 sm:space-y-5">
                 <div>
                   <h3 className="text-lg font-medium leading-6 text-gray-900">
-                    What events would you like to appear on your profile?
+                    What Events would you like to appear on your Profile?
                   </h3>
-                  <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                    Tip: Add future events to your profile
-                  </p>
                 </div>
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="name"
-                      label="Name"
+                      label="Event Name"
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>EddieCon v0.1</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -133,7 +133,7 @@ export default function Event({ BASE_URL, event }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="url"
-                      label="Url"
+                      label="Event URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
                     />
@@ -145,6 +145,9 @@ export default function Event({ BASE_URL, event }) {
                       onChange={(e) => setStartDate(e.target.value)}
                       value={startDate}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>2022-12-09T16:00:00.000+00:00</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -153,18 +156,24 @@ export default function Event({ BASE_URL, event }) {
                       onChange={(e) => setEndDate(e.target.value)}
                       value={endDate}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>2022-12-10T16:00:00.000+00:00</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="price"
-                      label="Price"
+                      label="Ticket Price"
                       onChange={(e) => setPrice(e.target.value)}
                       value={price}
                     />
+                    <p className="text-sm text-gray-500">
+                      Basic ticket price in USD (for free use 0)
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
-                      text1="Is Virtual?"
+                      text1="Virtual?"
                       text2="Online event"
                       enabled={isVirtual}
                       setEnabled={setIsVirtual}

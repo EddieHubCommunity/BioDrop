@@ -57,11 +57,11 @@ export async function getServerSideProps(context) {
 
 export default function Profile({ BASE_URL, profile, fileExists }) {
   const [showNotification, setShowNotification] = useState(false);
-  const [theme, setTheme] = useState(profile.theme || "original");
+  const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
   const [tags, setTags] = useState(profile.tags || []);
-  const themes = ["original", "inline"];
+  const layouts = ["classic", "inline"];
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -70,7 +70,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, theme }),
+      body: JSON.stringify({ name, bio, tags, layout }),
     });
     await res.json();
     setShowNotification(true);
@@ -87,7 +87,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         {fileExists && (
           <Alert
             type="warning"
-            message={`"data/${profile.username}.json" also exists, please remove this file and your folder via a Pull Request now you will be managing your account via these forms`}
+            message={`"data/${profile.username}.json" already exists. Please remove this file and your folder via a Pull Request so you can manage your account via these forms`}
           />
         )}
 
@@ -132,6 +132,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       readOnly={true}
                     />
                   </div>
+                  <p className="text-sm text-gray-500">
+                    GitHub username is part of your Profile URL:{" "}
+                    {`${BASE_URL}/${profile.username}`}
+                  </p>
                 </section>
 
                 <section
@@ -142,11 +146,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     <div className="col-span-3 sm:col-span-4">
                       <div className="mt-1">
                         <Select
-                          name="theme"
-                          label="Theme"
-                          value={theme}
-                          options={themes}
-                          onChange={(e) => setTheme(e.target.value)}
+                          name="layout"
+                          label="Layout"
+                          value={layout}
+                          options={layouts}
+                          onChange={(e) => setLayout(e.target.value)}
                         />
                       </div>
                     </div>
@@ -169,6 +173,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         value={bio}
                         onChange={(e) => setBio(e.target.value)}
                       />
+                      <p className="text-sm text-gray-500">
+                        You can use Markdown syntax.
+                      </p>
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
@@ -178,6 +185,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         value={tags}
                         onChange={(e) => setTags(e.target.value.split(","))}
                       />
+                      <p className="text-sm text-gray-500">
+                        Separate tags with commas (no space required).
+                      </p>
                     </div>
                   </div>
                 </section>

@@ -12,6 +12,7 @@ import Input from "@components/form/Input";
 import UserMilestone from "@components/user/UserMilestone";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -41,7 +42,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Milestone({ BASE_URL, milestone }) {
+export default function ManageMilestone({ BASE_URL, milestone }) {
   const [showNotification, setShowNotification] = useState(false);
   const [title, setTitle] = useState(milestone.title);
   const [description, setDescription] = useState(milestone.description);
@@ -105,21 +106,21 @@ export default function Milestone({ BASE_URL, milestone }) {
               <div className="space-y-6 sm:space-y-5">
                 <div>
                   <h3 className="text-lg font-medium leading-6 text-gray-900">
-                    What milestones would you like to appear on your profile?
+                    What Milestones would you like to appear on your Profile?
                   </h3>
-                  <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                    Tip: Add future milestones to your profile
-                  </p>
                 </div>
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="title"
-                      label="Title"
+                      label="Milestone Title"
                       onChange={(e) => setTitle(e.target.value)}
                       value={title}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>GitHub Star</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -128,14 +129,20 @@ export default function Milestone({ BASE_URL, milestone }) {
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                     />
+                    <p className="text-sm text-gray-500">
+                      Describe this Milestone
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="url"
-                      label="Url"
+                      label="URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
                     />
+                    <p className="text-sm text-gray-500">
+                      Link to more information (optional)
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -144,6 +151,9 @@ export default function Milestone({ BASE_URL, milestone }) {
                       onChange={(e) => setDate(e.target.value)}
                       value={date}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>May 2010</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -152,11 +162,17 @@ export default function Milestone({ BASE_URL, milestone }) {
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
                     />
+                    <p className="text-sm text-gray-500">
+                      Search for available{" "}
+                      <Link href="/icons" target="_blank">
+                        Icons
+                      </Link>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
-                      text1="Is Goal?"
-                      text2="Future milestone"
+                      text1="Is this a future goal?"
+                      text2="Future Milestone"
                       enabled={isGoal}
                       setEnabled={setIsGoal}
                     />

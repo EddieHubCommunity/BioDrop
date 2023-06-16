@@ -111,23 +111,6 @@ export default function Statistics({ data, profile, progress }) {
     };
   });
 
-  const cardData = [
-    {
-      name: "Total views",
-      current: data.profile.monthly,
-      total: data.profile.total,
-      delta: data.profile.total - data.profile.monthly,
-    },
-    {
-      name: "Total links",
-      current: data.links.individual.length,
-    },
-    {
-      name: "Total link clicks",
-      current: data.links.clicks,
-    },
-  ];
-
   return (
     <>
       <PageHead
@@ -177,21 +160,21 @@ export default function Statistics({ data, profile, progress }) {
           <div className="grid grid-cols-1 divide-y divide-gray-200 border-t border-gray-200 bg-gray-50 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             <div className="px-6 py-5 text-center text-sm font-medium">
               <span className="text-gray-900">
+                {abbreviateNumber(data.profile.monthly)}
+              </span>{" "}
+              <span className="text-gray-600">Profile views last 30 days</span>
+            </div>
+            <div className="px-6 py-5 text-center text-sm font-medium">
+              <span className="text-gray-900">
                 {abbreviateNumber(data.profile.total)}
               </span>{" "}
-              <span className="text-gray-600">Total profile views</span>
+              <span className="text-gray-600">Total Profile views</span>
             </div>
             <div className="px-6 py-5 text-center text-sm font-medium">
               <span className="text-gray-900">
                 {abbreviateNumber(data.links.clicks)}
               </span>{" "}
-              <span className="text-gray-600">Total clicks</span>
-            </div>
-            <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-gray-900">
-                {abbreviateNumber(data.links.individual.length)}
-              </span>{" "}
-              <span className="text-gray-600">Total links</span>
+              <span className="text-gray-600">Total link clicks</span>
             </div>
           </div>
         </div>
@@ -223,9 +206,7 @@ export default function Statistics({ data, profile, progress }) {
               Profile views
             </h3>
             <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-              How many profile visits you got per day. You have{" "}
-              {abbreviateNumber(data.profile.monthly)} Profile views in the last
-              30 days with a total of {abbreviateNumber(data.profile.total)}.
+              Number of Profile visits per day.
             </p>
           </div>
           <div className="w-full h-80">
@@ -252,7 +233,7 @@ export default function Statistics({ data, profile, progress }) {
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high dark:text-primary-low sm:pl-6"
               >
-                Url ({data.links.individual.length})
+                Your Links ({data.links.individual.length})
               </th>
               <th
                 scope="col"

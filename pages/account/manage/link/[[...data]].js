@@ -12,6 +12,7 @@ import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -41,7 +42,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Link({ BASE_URL, username, link }) {
+export default function ManageLink({ BASE_URL, username, link }) {
   const [showNotification, setShowNotification] = useState(false);
   const [edit, setEdit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group);
@@ -94,11 +95,12 @@ export default function Link({ BASE_URL, username, link }) {
               <div className="space-y-6 sm:space-y-5">
                 <div>
                   <h3 className="text-lg font-medium leading-6 text-gray-900">
-                    What links would you like to appear on your profile?
+                    What Links would you like to appear on your Profile?
                   </h3>
-                  <p className="mt-1 max-w-2xl text-sm text-gray-500">
-                    Tip: promoted link to under your name
-                  </p>
+                  {/* <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                    Tip: promote a link to under your name by using the "pin"
+                    toggle
+                  </p> */}
                 </div>
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
@@ -109,24 +111,40 @@ export default function Link({ BASE_URL, username, link }) {
                       onChange={(e) => setGroup(e.target.value)}
                       value={group}
                     />
+                    <p className="text-sm text-gray-500">
+                      You can{" "}
+                      <Link
+                        href="http://localhost:3000/docs/how-to-guides/links"
+                        target="_blank"
+                      >
+                        group
+                      </Link>{" "}
+                      your links together (optional)
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="url"
-                      label="Url"
+                      label="URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
                       disabled={edit}
                       readOnly={edit}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>https://twitter.com/eddiejaoude</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="name"
-                      label="Name"
+                      label="Display Name"
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                     />
+                    <p className="text-sm text-gray-500">
+                      For example: <i>Follow me on Twitter</i>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
@@ -135,6 +153,12 @@ export default function Link({ BASE_URL, username, link }) {
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
                     />
+                    <p className="text-sm text-gray-500">
+                      Search for available{" "}
+                      <Link href="/icons" target="_blank">
+                        Icons
+                      </Link>
+                    </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle

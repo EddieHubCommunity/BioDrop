@@ -57,7 +57,7 @@ export async function updateProfileApi(username, data) {
       { username },
       {
         source: "database",
-        theme: data.theme,
+        layout: data.layout,
         name: data.name,
         bio: data.bio,
         tags: data.tags,

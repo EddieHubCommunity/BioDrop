@@ -39,11 +39,7 @@ export default function SignIn() {
           <span className="text-tertiary-medium">with a single link</span>
         </h2>
 
-        <Button
-          primary={true}
-          key="github"
-          onClick={() => signIn("github")}
-        >
+        <Button primary={true} key="github" onClick={() => signIn("github")}>
           <span className="mr-2">
             <BsGithub className="text-2xl" />
           </span>
@@ -51,7 +47,10 @@ export default function SignIn() {
         </Button>
 
         <p className="mt-10 text-center text-sm text-gray-500">
-          100% Open Source and FREE forever!
+          Don&lsquo;t have a GitHub account? Create one on{" "}
+          <Link href="https://github.com/signup" target="_blank">
+            GitHub
+          </Link>
         </p>
       </div>
     </div>

@@ -36,7 +36,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Links({ BASE_URL, username, links }) {
+export default function ManageLinks({ BASE_URL, username, links }) {
   return (
     <>
       <PageHead

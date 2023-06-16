@@ -36,7 +36,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Milestones({ events }) {
+export default function ManageEvents({ events }) {
   return (
     <>
       <PageHead

@@ -39,7 +39,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Testimonials({ BASE_URL, testimonials }) {
+export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const [showNotification, setShowNotification] = useState(false);
   const [testimonialList, setTestimonialList] = useState(testimonials || []);
 
@@ -75,6 +75,12 @@ export default function Testimonials({ BASE_URL, testimonials }) {
           message="Testimonial saved"
           additionalMessage="Your profile information has been saved successfully."
         />
+
+        <div>
+          <h3 className="text-lg font-medium leading-6 text-gray-900">
+            Testimonials you have received, toggle to show on your Profile
+          </h3>
+        </div>
 
         <div>
           <ul role="list" className="divide-y divide-gray-100">
