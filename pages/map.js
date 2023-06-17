@@ -38,7 +38,7 @@ export async function getStaticProps() {
   );
 
     data.users = data.users.map(user => {
-    const offset = (Math.random() - 0.5) * 0.01;
+    const offset = (Math.random() * 2 - 1) * 0.01;
     return {
       type: "Feature",
       properties: {

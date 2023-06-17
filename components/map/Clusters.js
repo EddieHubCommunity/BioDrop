@@ -34,7 +34,7 @@ export default function Clusters({users}) {
     points: users,
     bounds,
     zoom,
-    options: { radius: 60, maxZoom: 18 }
+    options: { radius: 50, maxZoom: 18 }
   });
 
   const icons = {};
