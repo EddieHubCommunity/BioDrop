@@ -38,21 +38,22 @@ export async function getStaticProps() {
   );
 
   // Apply offset equally to 4 quadrants arround point
-  const adjustCoords = (coords, offset, index) => {
+  const adjustCoords = (coords, offset, offset2, index) => {
     switch (index % 4 ) {
       case 0:
-        return [coords[0] + offset, coords[1] + offset];
+        return [coords[0] + offset, coords[1] + offset2];
       case 1:
-        return [coords[0] - offset, coords[1] + offset];
+        return [coords[0] - offset, coords[1] + offset2];
       case 2:
-        return [coords[0] - offset, coords[1] - offset];
+        return [coords[0] - offset, coords[1] - offset2];
       default:
-        return [coords[0] + offset, coords[1] - offset];
+        return [coords[0] + offset, coords[1] - offset2];
     }
   }
 
   data.users = data.users.map((user, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
+    const offset2 = Math.random() * 0.02; // ~2.2km
     return {
       type: "Feature",
       properties: {
@@ -71,6 +72,7 @@ export async function getStaticProps() {
             parseFloat(user.location.lat)
           ],
           offset,
+          offset2,
           index
         )
       }
