@@ -37,8 +37,8 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
-    data.users = data.users.map(user => {
-    const offset = (Math.random() * 2 - 1) * 0.01;
+  data.users = data.users.map(user => {
+    const offset = (Math.random() * 2 - 1) * 0.02; // +/- 2.2km
     return {
       type: "Feature",
       properties: {
