@@ -28,6 +28,8 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
+      - name: node version  
+        run: node -v
       - name: install dependencies
         run: npm ci
       - name: run ${{ matrix.step }}
@@ -52,6 +54,8 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
+      - name: node version  
+        run: node -v
       - name: install dependencies
         run: npm ci
       - name: Install Playwright's dependencies
