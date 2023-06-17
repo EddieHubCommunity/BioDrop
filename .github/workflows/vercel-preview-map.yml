@@ -4,9 +4,9 @@ env:
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 on:
   workflow_dispatch:
-  #push:
-  #  branches:
-  #    - map-cluster
+  push:
+    branches:
+      - map-cluster
 
 jobs:
   deploy:
