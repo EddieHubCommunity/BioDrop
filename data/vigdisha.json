@@ -8,15 +8,14 @@
       "icon": "FaTwitter"
     },
     {
-      
       "name": "Follow me on Linkedin",
       "url": "https://www.linkedin.com/in/disha-vig/",
       "icon": "FaLinkedin"
     },
     {
-       "name": "Follow my github account",
+      "name": "Follow my github account",
       "url": "https://github.com/vigdisha",
       "icon": "FaGithub"
     }
-    ]
+  ]
 }
