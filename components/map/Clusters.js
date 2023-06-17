@@ -39,13 +39,15 @@ export default function Clusters({users}) {
   });
 
   const icons = {};
-  const fetchIcon = (count, size) => {
+  const fetchIcon = (count) => {
+    const size =
+      count < 25 ? 'small' :
+      count < 100 ? 'medium' : 'large';
     if (!icons[count]) {
       icons[count] = L.divIcon({
-        html: `<div class="${styles.clusterMarker}" style="width: ${size}px; height: ${size}px;">
-          ${count}
-        </div>`,
-        className: styles.marker
+        html: `<div><span>${count}</span></div>`,
+        className: `${styles['marker-cluster']} ${styles[size]}`,
+        iconSize: L.point(40, 40)
       });
     }
     return icons[count];
@@ -79,12 +81,11 @@ export default function Clusters({users}) {
                       supercluster.getClusterExpansionZoom(cluster.id),
                       17
                     );
-                    map.setView([cluster.geometry.coordinates[1], cluster.geometry.coordinates[0]], expansionZoom, {
+                    map.setView([latitude, longitude], expansionZoom, {
                       animate: true
                     });
                   }
                 }}
-                style={{background: 'none !important', border: 'none !important'}}
               />
             );
           }

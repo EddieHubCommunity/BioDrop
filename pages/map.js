@@ -37,24 +37,27 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
-  data.users = data.users.map(user => ({
-    type: "Feature",
-    properties: {
-      cluster: false,
-      tags: user.tags || [],
-      username: user.username,
-      name: user.name,
-      location: user.location.provided,
-      bio: user.bio || ''
-    },
-    geometry: {
-      type: "Point",
-      coordinates: [
-        parseFloat(user.location.lon),
-        parseFloat(user.location.lat)
-      ]
+    data.users = data.users.map(user => {
+    const offset = (Math.random() - 0.5) * 0.01;
+    return {
+      type: "Feature",
+      properties: {
+        cluster: false,
+        tags: user.tags || [],
+        username: user.username,
+        name: user.name,
+        location: user.location.provided,
+        bio: user.bio || ''
+      },
+      geometry: {
+        type: "Point",
+        coordinates: [
+          parseFloat(user.location.lon) + offset,
+          parseFloat(user.location.lat) + offset
+        ]
+      }
     }
-  }));
+  });
 
   try {
     data.tags = await getTags(true);
