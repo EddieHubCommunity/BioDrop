@@ -71,15 +71,12 @@ export default function Clusters({users}) {
               <Marker
                 key={`cluster-${cluster.id}`}
                 position={[latitude, longitude]}
-                icon={fetchIcon(
-                  pointCount,
-                  10 + (pointCount / users.length) * 40
-                )}
+                icon={fetchIcon(pointCount)}
                 eventHandlers={{
                   click: () => {
                     const expansionZoom = Math.min(
                       supercluster.getClusterExpansionZoom(cluster.id),
-                      17
+                      18
                     );
                     map.setView([latitude, longitude], expansionZoom, {
                       animate: true
