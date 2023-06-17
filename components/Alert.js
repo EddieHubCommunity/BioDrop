@@ -29,7 +29,7 @@ export default function alert({ type, message }) {
     case "warning":
       return (
         <div
-          className={`alert-${type} bg-yellow-100 rounded-lg py-5 px-6 mb-3 text-base text-yellow-700 inline-flex items-center w-full animate-pulse`}
+          className={`alert-${type} bg-yellow-100 rounded-lg py-5 px-6 mb-3 text-base text-yellow-700 inline-flex items-center w-full`}
           role="alert"
         >
           <ExclamationTriangleIcon className="h-5 w-5 mr-2" />
