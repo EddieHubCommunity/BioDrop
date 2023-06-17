@@ -41,11 +41,11 @@ export async function getStaticProps() {
     type: "Feature",
     properties: {
       cluster: false,
-      tags: user.tags,
+      tags: user.tags || [],
       username: user.username,
       name: user.name,
       location: user.location.provided,
-      bio: user.bio
+      bio: user.bio || ''
     },
     geometry: {
       type: "Point",
