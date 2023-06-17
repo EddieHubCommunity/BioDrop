@@ -2,18 +2,42 @@ import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema(
   {
-    source: String,
-    layout: String,
+    source: {
+      type: String,
+      required: true,
+      enum: {
+        values: ["file", "database"],
+        message: "{VALUE} is not a supported data source",
+      },
+    },
+    layout: {
+      type: String,
+      enum: {
+        values: ["classic", "inline"],
+        message: "{VALUE} is not a supported profile layout",
+      },
+    },
     isEnabled: {
       type: Boolean,
       default: true,
     },
     username: {
       type: String,
+      required: true,
       index: true,
     },
-    name: String,
-    bio: String,
+    name: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 32,
+    },
+    bio: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 256,
+    },
     tags: {
       type: [String],
       default: [],

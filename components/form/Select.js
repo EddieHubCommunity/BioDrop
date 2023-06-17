@@ -6,7 +6,6 @@ export default function Select({
   options = [],
   ...restProps
 }) {
-  console.log(value);
   return (
     <>
       {label && (

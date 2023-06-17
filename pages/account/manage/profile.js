@@ -56,7 +56,12 @@ export async function getServerSideProps(context) {
 }
 
 export default function Profile({ BASE_URL, profile, fileExists }) {
-  const [showNotification, setShowNotification] = useState(false);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name);
   const [bio, setBio] = useState(profile.bio);
@@ -72,8 +77,25 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       },
       body: JSON.stringify({ name, bio, tags, layout }),
     });
-    await res.json();
-    setShowNotification(true);
+    const update = await res.json();
+
+    if (update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Profile update failed",
+        additionalMessage: `Please check the fields: ${Object.keys(
+          update.message
+        ).join(", ")}`,
+      });
+    }
+
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Profile updated",
+      additionalMessage: "Your profile has been updated successfully",
+    });
   };
 
   return (
@@ -94,11 +116,13 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         <Navigation />
 
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Profile saved"
-          additionalMessage="Your profile information has been saved successfully."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
 
         <div>
@@ -162,6 +186,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                           label="Name"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
+                          required
+                          minlength="2"
+                          maxlength="32"
                         />
                       </div>
                     </div>
@@ -172,6 +199,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         label="Bio"
                         value={bio}
                         onChange={(e) => setBio(e.target.value)}
+                        required
+                        minlength="2"
+                        maxlength="256"
                       />
                       <p className="text-sm text-gray-500">
                         You can use Markdown syntax.
