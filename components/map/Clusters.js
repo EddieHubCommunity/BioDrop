@@ -17,7 +17,6 @@ export default function Clusters({users}) {
 
   function updateMap() {
     const b = map.getBounds();
-    console.log(b)
     setBounds([
       b.getSouthWest().lng,
       b.getSouthWest().lat,
@@ -35,7 +34,7 @@ export default function Clusters({users}) {
     points: users,
     bounds,
     zoom,
-    options: { radius: 75, maxZoom: 20 }
+    options: { radius: 60, maxZoom: 18 }
   });
 
   const icons = {};
@@ -58,7 +57,7 @@ export default function Clusters({users}) {
       {clusters.map(cluster => {
           // every cluster point has coordinates
           const [longitude, latitude] = cluster.geometry.coordinates;
-          // the point may be either a cluster or a crime point
+          // the point may be either a cluster or user
           const {
             cluster: isCluster,
             point_count: pointCount,
