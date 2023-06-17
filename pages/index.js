@@ -48,15 +48,33 @@ export default function Home({ total, today }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let isMounted = true;
+  
     async function fetchRandomProfile() {
-      const res = await fetch("/api/randomProfile");
-      const data = await res.json();
-      setRandomProfile(data);
-      setLoading(false);
+      try {
+        const res = await fetch("/api/randomProfile");
+        if (!isMounted) {
+          return; // Avoid updating state if the component has unmounted
+        }
+        if (!res.ok) {
+          throw new Error("Failed to fetch random profile");
+        }
+        const data = await res.json();
+        setRandomProfile(data);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching random profile:", error);
+        // Handle the error state or show an error message to the user
+      }
     }
-
+  
     fetchRandomProfile();
+  
+    return () => {
+      isMounted = false; // Cleanup function to prevent state updates on unmounted component
+    };
   }, []);
+  
 
   const features = [
     {
@@ -249,9 +267,11 @@ export default function Home({ total, today }) {
         </h2>
         <div className="mt-10 md:mt-20">
           {loading ? (
-            <p className="text-lg text-gray-400">Loading...</p>
+            <p className="text-3xl text-primary-low">Loading...</p>
           ) : (
-            <>{randomProfile && <UserProfile data={randomProfile} />}</>
+            <>
+              {randomProfile && <UserProfile data={randomProfile} />}
+            </>
           )}
         </div>
         <BasicCards
