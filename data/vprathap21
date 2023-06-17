@@ -1,0 +1,16 @@
+{
+    "name": "Prathap",
+    "bio": "Fullstack develeper",
+    "links": [
+        {
+            "name": "Follow me on twitter",
+            "url": "https://twitter.com/home?lang=en",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "follow me on Instagram",
+            "url": "https://twitter.com/home?lang=en",
+            "icon": "FaInstagram"
+        }
+    ]
+}
