@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EventCard from "@components/event/EventCard";
+import EventCard from "./EventCard";
 import Alert from "@components/Alert";
 import DropdownMenu from "@components/form/DropDown";
 
