@@ -37,8 +37,22 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
-  data.users = data.users.map(user => {
-    const offset = (Math.random() * 2 - 1) * 0.02; // +/- 2.2km
+  // Apply offset equally to 4 quadrants arround point
+  const adjustCoords = (coords, offset, index) => {
+    switch (index % 4 ) {
+      case 0:
+        return [coords[0] + offset, coords[1] + offset];
+      case 1:
+        return [coords[0] - offset, coords[1] + offset];
+      case 2:
+        return [coords[0] - offset, coords[1] - offset];
+      default:
+        return [coords[0] + offset, coords[1] - offset];
+    }
+  }
+
+  data.users = data.users.map((user, index) => {
+    const offset = Math.random() * 0.02; // ~2.2km
     return {
       type: "Feature",
       properties: {
@@ -51,10 +65,14 @@ export async function getStaticProps() {
       },
       geometry: {
         type: "Point",
-        coordinates: [
-          parseFloat(user.location.lon) + offset,
-          parseFloat(user.location.lat) + offset
-        ]
+        coordinates:adjustCoords(
+          [
+            parseFloat(user.location.lon),
+            parseFloat(user.location.lat)
+          ],
+          offset,
+          index
+        )
       }
     }
   });
