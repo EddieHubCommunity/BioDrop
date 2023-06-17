@@ -20,7 +20,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers({ cards: true });
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -55,7 +55,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
       setNotFound(username);
     }
   }, [username]);
-  
+
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
@@ -64,18 +64,17 @@ export default function Search({ data: { users, tags, randUsers } }) {
       setNotFound();
       return;
     }
-    
+
     if (inputValue.length < 2) {
       return;
     }
-    
+
     const timer = setTimeout(() => {
       filterData(inputValue);
     }, 500);
-    
+
     return () => clearTimeout(timer);
   }, [inputValue]);
-  
 
   const filterData = (value) => {
     const cleanedInput = cleanSearchInput(value);
@@ -85,19 +84,21 @@ export default function Search({ data: { users, tags, randUsers } }) {
       const nameLower = user.name.toLowerCase();
       const usernameLower = user.username.toLowerCase();
       const userTagsString = user.tags.join(", ").toLowerCase();
-      
+      const userLocationString = user.location ? user.location.provided.toLowerCase() : "";
+
       // check if all search terms/keywords are matching with the the uses
       const isUserMatched = terms.every((term) => {
         const cleanedTerm = term.trim();
 
-        if(!cleanedInput) {
+        if (!cleanedInput) {
           return false;
-        };
+        }
 
         return (
-          usernameLower.includes(cleanedTerm) || 
-          nameLower.includes(cleanedTerm) ||  
-          userTagsString.includes(cleanedTerm)
+          usernameLower.includes(cleanedTerm) ||
+          nameLower.includes(cleanedTerm) ||
+          userTagsString.includes(cleanedTerm) ||
+          userLocationString.includes(cleanedTerm)
         );
       });
 
@@ -123,7 +124,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
     }
 
     const items = cleanedInput.split(",");
-    
+
     if (cleanedInput.length) {
       if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
@@ -139,20 +140,23 @@ export default function Search({ data: { users, tags, randUsers } }) {
 
   // removes leading/trailing whitespaces and extra spaces and converted to lowercase
   const cleanSearchInput = (searchInput) => {
-    return searchInput.trim().replace(/\s{2,}/g, ' ').toLowerCase();
-  }
+    return searchInput
+      .trim()
+      .replace(/\s{2,}/g, " ")
+      .toLowerCase();
+  };
 
   const searchTagNameInInput = (searchInput, tagName) => {
     const tags = cleanSearchInput(searchInput).split(",");
-    
-    for(let tag of tags) {
-      if(tag.trim() === tagName.toLowerCase()) {
+
+    for (let tag of tags) {
+      if (tag.trim() === tagName.toLowerCase()) {
         return true;
-      };
+      }
     }
-    
+
     return false;
-  }
+  };
 
   return (
     <>
