@@ -67,7 +67,8 @@ export async function getStaticProps() {
 
   return {
     props: { data },
-    revalidate: pageConfig.revalidateSeconds,
+    //revalidate: pageConfig.revalidateSeconds,
+    revalidate: 5 * 60, //speed up isr for testing
   };
 }
 
