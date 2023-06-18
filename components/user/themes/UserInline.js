@@ -3,7 +3,7 @@ import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
 
-export default function Inline({ data, BASE_URL }) {
+export default function UserInline({ data, BASE_URL }) {
   return (
     <>
       {data.links?.length > 0 && (

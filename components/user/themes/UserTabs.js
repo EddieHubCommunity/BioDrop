@@ -4,9 +4,9 @@ import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
-import UserTabs from "../UserTabs";
+import Tabs from "../../Tabs";
 
-export function Tabs({ data, BASE_URL }) {
+export default function UserTabs({ data, BASE_URL }) {
   const defaultTabs = [
     { name: "My Links", href: "#", current: true },
     { name: "Milestones", href: "#", current: false },
@@ -40,7 +40,7 @@ export function Tabs({ data, BASE_URL }) {
 
   return (
     <>
-      <UserTabs tabs={tabs} setTabs={setTabs} />
+      <Tabs tabs={tabs} setTabs={setTabs} />
 
       {tabs.find((tab) => tab.name === "My Links")?.current && (
         <UserLinks
