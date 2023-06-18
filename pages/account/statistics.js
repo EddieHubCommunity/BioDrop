@@ -94,11 +94,16 @@ export async function getServerSideProps(context) {
   data.links.clicks = totalClicks;
 
   return {
-    props: { data, profile, progress },
+    props: {
+      data,
+      profile,
+      progress,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+    },
   };
 }
 
-export default function Statistics({ data, profile, progress }) {
+export default function Statistics({ data, profile, progress, BASE_URL }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };

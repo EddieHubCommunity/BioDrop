@@ -22,6 +22,12 @@
       "icon": "SiHashnode"
     },
     {
+      "group": "Blogs Primary",
+      "name": "Check out my articles on freeCodeCamp",
+      "url": "https://www.freecodecamp.org/news/author/christine/",
+      "icon": "FaFreeCodeCamp"
+    },
+    {
       "group": "Socials Secondary",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/CodesChrissy",
