@@ -16,7 +16,10 @@ export default function UserLinks({ BASE_URL, data }) {
       {data.links && (
         <>
           {Object.keys(buckets).map((name) => (
-            <div key={name} className="flex flex-col items-center w-full">
+            <div
+              key={name}
+              className="flex flex-col items-center w-full overflow-y-auto h-64"
+            >
               {Object.keys(buckets).length > 1 && (
                 <div
                   className="border-b border-primary-low pb-3 w-full mt-6 mb-3"
