@@ -57,13 +57,11 @@
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/botyliciouss",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
       "title": "Started Open Source Contribution",
       "date": "June 2022",
-      "icon": "FaGithub",
       "color": "red",
-      "description": "Learning while contributing | Contributions List",
-      "url": "https://github.com/BDFL669"
+      "description": "Learning while contributing | Contributions List"
     }
   ]
 }
