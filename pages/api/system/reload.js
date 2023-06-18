@@ -203,7 +203,6 @@ export default async function handler(req, res) {
                 title: milestone.title,
                 icon: milestone.icon,
                 description: milestone.description,
-                color: milestone.color,
                 order: position,
               })),
             }

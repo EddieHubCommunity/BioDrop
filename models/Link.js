@@ -7,7 +7,12 @@ const LinkSchema = new mongoose.Schema(
       required: true,
       index: true,
     },
-    group: String,
+    group: {
+      type: String,
+      required: false,
+      min: 2,
+      max: 64,
+    },
     name: {
       type: String,
       required: true,

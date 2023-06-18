@@ -59,22 +59,62 @@ const ProfileSchema = new mongoose.Schema(
     },
     milestones: [
       {
-        url: String,
-        date: String,
+        url: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        date: {
+          type: Date,
+          required: true,
+        },
         isGoal: Boolean,
-        title: String,
-        icon: String,
-        description: String,
-        color: String,
+        title: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        icon: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 32,
+        },
+        description: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 512,
+        },
         order: Number,
       },
     ],
     testimonials: [
       {
-        username: String,
-        title: String,
-        description: String,
-        date: String,
+        username: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        title: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        description: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 512,
+        },
+        date: {
+          type: Date,
+          required: true,
+        },
         order: Number,
         isPinned: Boolean,
       },
@@ -83,13 +123,34 @@ const ProfileSchema = new mongoose.Schema(
       {
         isVirtual: Boolean,
         color: String,
-        name: String,
-        description: String,
-        date: {
-          start: Date,
-          end: Date,
+        name: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
         },
-        url: String,
+        description: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 512,
+        },
+        date: {
+          start: {
+            type: Date,
+            required: true,
+          },
+          end: {
+            type: Date,
+            required: true,
+          },
+        },
+        url: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
         order: Number,
         price: {
           startingFrom: Number,
