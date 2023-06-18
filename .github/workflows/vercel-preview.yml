@@ -1,20 +1,20 @@
-# name: Deploy to Vercel Preview
-# env:
-#   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-#   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-# on:
-#   workflow_dispatch:
-#   push:
-#     branches:
-#       - manage-forms
+name: Deploy to Vercel Preview
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - manage-forms
 
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#       - name: install Vercel CLI
-#         run: npm install --global vercel@latest
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install Vercel CLI
+        run: npm install --global vercel@latest
 #       - name: pull Vercel environment information
 #         run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
 #       - name: build project artifacts
