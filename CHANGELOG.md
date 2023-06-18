@@ -1,3 +1,12 @@
+## [1.143.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.1...v1.143.2) (2023-06-18)
+
+
+### Bug Fixes
+
+*  statistics and playground base url ([#7640](https://github.com/EddieHubCommunity/LinkFree/issues/7640)) ([8854b4e](https://github.com/EddieHubCommunity/LinkFree/commit/8854b4e491ec70010b2a4517af857abb4cc10b28))
+
+
+
 ## [1.143.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.0...v1.143.1) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile share preview ([#7613](https://github.com/EddieHubCommunity/LinkFree/issues/7613)) ([08ba50c](https://github.com/EddieHubCommunity/LinkFree/commit/08ba50c8d8709e870484890e4a37da944ebf969c)), closes [#7609](https://github.com/EddieHubCommunity/LinkFree/issues/7609)
-
-
-
-## [1.142.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.3...v1.142.4) (2023-06-15)
-
-
-### Bug Fixes
-
-* update LinkFree-CLI version ([#7606](https://github.com/EddieHubCommunity/LinkFree/issues/7606)) ([588e62e](https://github.com/EddieHubCommunity/LinkFree/commit/588e62e55342bb5f20fbd6d22e6a3a744a711b0c))
 
 
 
