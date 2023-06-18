@@ -1,3 +1,12 @@
+## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
+
+
+### Bug Fixes
+
+* remove animate pulse from alert ([#7639](https://github.com/EddieHubCommunity/LinkFree/issues/7639)) ([abdf3ea](https://github.com/EddieHubCommunity/LinkFree/commit/abdf3ea3f8fd2767021f2e82f6c641a69f498c9f))
+
+
+
 ## [1.143.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.1...v1.143.2) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * social og description ([#7615](https://github.com/EddieHubCommunity/LinkFree/issues/7615)) ([ec13130](https://github.com/EddieHubCommunity/LinkFree/commit/ec131305fda66ee6b02c789239e7e18c2cf27ccb))
-
-
-
-## [1.142.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.4...v1.142.5) (2023-06-16)
-
-
-### Bug Fixes
-
-* profile share preview ([#7613](https://github.com/EddieHubCommunity/LinkFree/issues/7613)) ([08ba50c](https://github.com/EddieHubCommunity/LinkFree/commit/08ba50c8d8709e870484890e4a37da944ebf969c)), closes [#7609](https://github.com/EddieHubCommunity/LinkFree/issues/7609)
 
 
 
