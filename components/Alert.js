@@ -7,7 +7,7 @@ export default function alert({ type, message }) {
     case "success":
       return (
         <div
-          className={`alert-${type} bg-green-100 rounded-lg py-5 px-6 mb-3 text-base text-green-700 inline-flex items-center w-full animate-pulse`}
+          className={`alert-${type} bg-green-100 rounded-lg py-5 px-6 mb-3 text-base text-green-700 inline-flex items-center w-full`}
           role="alert"
         >
           <CheckCircleIcon className="h-5 w-5 mr-2" />
@@ -18,7 +18,7 @@ export default function alert({ type, message }) {
     case "error":
       return (
         <div
-          className={`alert-${type} bg-red-100 rounded-lg py-5 px-6 mb-3 text-base text-red-700 inline-flex items-center w-full animate-pulse`}
+          className={`alert-${type} bg-red-100 rounded-lg py-5 px-6 mb-3 text-base text-red-700 inline-flex items-center w-full`}
           role="alert"
         >
           <ExclamationCircleIcon className="h-5 w-5 mr-2" />
@@ -40,7 +40,7 @@ export default function alert({ type, message }) {
     case "info":
       return (
         <div
-          className={`alert-${type} bg-blue-100 rounded-lg py-5 px-6 mb-3 text-base text-blue-700 inline-flex items-center w-full animate-pulse`}
+          className={`alert-${type} bg-blue-100 rounded-lg py-5 px-6 mb-3 text-base text-blue-700 inline-flex items-center w-full`}
           role="alert"
         >
           <ExclamationCircleIcon className="h-5 w-5 mr-2" />
