@@ -1,7 +1,7 @@
 {
-    "name": "Peter Samuel",
-    "bio": "Open Source Contributor | Web Developer | Technical Writer | Freelance Analyst ",
-     "tags": [
+  "name": "Peter Samuel",
+  "bio": "Open Source Contributor | Web Developer | Technical Writer | Freelance Analyst ",
+  "tags": [
     "Open Source",
     "Javascript",
     "Typescript",
@@ -11,8 +11,8 @@
     "MYSQL",
     "EXCEL"
   ],
-  "links":[
-      {
+  "links": [
+    {
       "name": "Github",
       "url": "https://github.com/Petsamuel",
       "icon": "FaGithub"
