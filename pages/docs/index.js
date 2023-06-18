@@ -10,7 +10,7 @@ export default function DocsIndex() {
   const sections = [
     {
       title: "Getting started",
-      description: "This is the best way to get started building your Profile",
+      description: "Create and edit your Profile",
       pages: [
         {
           name: "Quickstart",
@@ -23,40 +23,20 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "GitHub UI",
-          path: "/docs/environments/github-ui",
+          name: "Editing",
+          path: "/docs/how-to-guides/editing",
           description:
-            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub.",
+            "If you want to edit your profile (for example update a link or remove a link), follow these steps.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Gitpod",
-          path: "/docs/environments/gitpod",
-          description:
-            "When you want to make more advanced changes, you will need to have a development environment. Gitpod runs VSCode and a whole environment in your browser.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Local development",
-          path: "/docs/environments/local-development",
-          description:
-            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
-          category: {
-            name: "Intermediate",
-            color: "bg-orange-100 text-orange-800",
           },
         },
         {
           name: "LinkFree CLI",
           path: "/docs/environments/linkfree-cli",
           description:
-            "This CLI tool will allow you to create profile, update profile, add testimonials and more from the command line.",
+            "This CLI tool will allow you to create your Profile with JSON, update your Profile, add Testimonials and more from the command line.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -72,52 +52,12 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
-        {
-          name: "Environment variables",
-          path: "/docs/environments/environment-variables",
-          description:
-            "To run the application you need to have environment variables set for the application to work correctly.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Community Resources",
-          path: "/docs/community-resources",
-          description:
-            "More information about Community resources and their collaborations.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "MongoDB Atlas for Local Development",
-          path: "/docs/environments/local-with-atlas",
-          description:
-            "A step-by-step guide to setting up a MongoDB Atlas account and establishing a connection for local development.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
       ],
     },
     {
       title: "Customising your Profile",
       description: "More features to customise your Profile",
       pages: [
-        {
-          name: "Editing",
-          path: "/docs/how-to-guides/editing",
-          description:
-            "If you want to edit your profile (for example update a link or remove a link), follow these steps.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
         {
           name: "Bio",
           path: "/docs/how-to-guides/bio",
@@ -133,16 +73,6 @@ export default function DocsIndex() {
           path: "/docs/how-to-guides/links",
           description:
             "Let people discover all your great content in one place by adding links to your social media account and other resources.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Statistics",
-          path: "/docs/how-to-guides/statistics",
-          description:
-            "This will show the number of people who have viewed your Profile, as well as the number of people who have clicked on the links you have on your Profile.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -204,6 +134,76 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
+          name: "Labels",
+          path: "/docs/contributing/labels",
+          description:
+            "We use labels to display various information about the issue (for example: is it ready for development or is it still waiting for the maintainers to review), the complexity of the issue (with points) and more.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description:
+            "A guide for contributors when making changes to the documentation.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "GitHub UI",
+          path: "/docs/environments/github-ui",
+          description:
+            "This is a great way to get started, you do not need to install anything, you can do it directly in the browser on GitHub.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Gitpod",
+          path: "/docs/environments/gitpod",
+          description:
+            "When you want to make more advanced changes, you will need to have a development environment. Gitpod runs VSCode and a whole environment in your browser.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Local development",
+          path: "/docs/environments/local-development",
+          description:
+            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
+          category: {
+            name: "Intermediate",
+            color: "bg-orange-100 text-orange-800",
+          },
+        },
+        {
+          name: "Environment variables",
+          path: "/docs/environments/environment-variables",
+          description:
+            "To run the application you need to have environment variables set for the application to work correctly.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "MongoDB Atlas for Local Development",
+          path: "/docs/environments/local-with-atlas",
+          description:
+            "A step-by-step guide to setting up a MongoDB Atlas account and establishing a connection for local development.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
           name: "Reviewers",
           path: "/docs/contributing/reviewers",
           description: "Guidelines for reviewing Issues and Pull Requests",
@@ -233,16 +233,6 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Hacktoberfest",
-          path: "/docs/contributing/hacktoberfest",
-          description:
-            "Contribute to this annual Open Source event with LinkFree.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
           name: "Commit Style",
           path: "/docs/contributing/commits",
           description:
@@ -253,20 +243,10 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Labels",
-          path: "/docs/contributing/labels",
+          name: "Hacktoberfest",
+          path: "/docs/contributing/hacktoberfest",
           description:
-            "We use labels to display various information about the issue (for example: is it ready for development or is it still waiting for the maintainers to review), the complexity of the issue (with points) and more.",
-          category: {
-            name: "Beginner",
-            color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Docs Style Guide",
-          path: "/docs/docs-style-guide",
-          description:
-            "A guide for contributors when making changes to the documentation.",
+            "Contribute to this annual Open Source event with LinkFree.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -310,6 +290,26 @@ export default function DocsIndex() {
           name: "FAQs",
           path: "/docs/faqs",
           description: "Commonly asked questions and answers.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Community Resources",
+          path: "/docs/community-resources",
+          description:
+            "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Statistics",
+          path: "/docs/how-to-guides/statistics",
+          description:
+            "This will show the number of people who have viewed your Profile, as well as the number of people who have clicked on the links you have on your Profile.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
