@@ -64,7 +64,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name);
-  const [bio, setBio] = useState(profile.bio);
+  const [bio, setBio] = useState(
+    profile.bio || "Have a look at my links below..."
+  );
   const [tags, setTags] = useState(profile.tags || []);
   const layouts = ["classic", "inline"];
 
@@ -109,7 +111,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         {fileExists && (
           <Alert
             type="warning"
-            message={`"data/${profile.username}.json" already exists. Please remove this file and your folder via a Pull Request so you can manage your account via these forms`}
+            message={`"data/${profile.username}.json" already exists. Please remove this file and your folder via a Pull Request so you can manage your account via these forms.`}
           />
         )}
 
@@ -187,8 +189,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                           required
-                          minlength="2"
-                          maxlength="32"
+                          minLength="2"
+                          maxLength="32"
                         />
                       </div>
                     </div>
@@ -200,8 +202,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         value={bio}
                         onChange={(e) => setBio(e.target.value)}
                         required
-                        minlength="2"
-                        maxlength="256"
+                        minLength="2"
+                        maxLength="256"
                       />
                       <p className="text-sm text-gray-500">
                         You can use Markdown syntax.

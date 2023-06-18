@@ -69,6 +69,7 @@ export async function updateProfileApi(username, data) {
   try {
     getProfile = await Profile.findOneAndUpdate({ username }, updateProfile, {
       upsert: true,
+      new: true,
     });
     log.info(`profile created for username: ${username}`);
   } catch (e) {

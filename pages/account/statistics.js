@@ -20,7 +20,6 @@ import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
-import BasicCards from "@components/statistics/BasicCards";
 import Button from "@components/Button";
 import FallbackImage from "@components/FallbackImage";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
@@ -56,12 +55,10 @@ export async function getServerSideProps(context) {
 
   let data = {};
   let profileSections = [
-    "bio",
     "links",
     "milestones",
     "tags",
     "socials",
-    "location",
     "testimonials",
   ];
   let progress = {
@@ -76,7 +73,7 @@ export async function getServerSideProps(context) {
   }
 
   progress.missing = profileSections.filter(
-    (property) => !Object.keys(profile).includes(property)
+    (property) => !profile[property]?.length
   );
   progress.percentage = (
     ((profileSections.length - progress.missing.length) /
@@ -153,10 +150,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                 </div>
               </div>
               <div className="mt-5 flex justify-center sm:mt-0">
-                <Button
-                  href={`${process.env.NEXT_PUBLIC_BASE_URL}/${profile.username}`}
-                  primary={true}
-                >
+                <Button href={`${BASE_URL}/${profile.username}`} primary={true}>
                   VIEW PROFILE
                 </Button>
               </div>
