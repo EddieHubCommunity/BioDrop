@@ -17,7 +17,7 @@
     },
     {
       "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/nigel-okoth/"
+      "url": "https://www.linkedin.com/in/nigel-okoth-104609206/"
     }
   ],
   "testimonials": [
@@ -41,7 +41,7 @@
     {
       "group": "Socials Primary",
       "name": "LinkedIn: Let's connect",
-      "url": "https://www.linkedin.com/in/nigel-okoth/",
+      "url": "https://www.linkedin.com/in/nigel-okoth-104609206/",
       "icon": "FaLinkedin"
     }
   ],
@@ -63,7 +63,7 @@
       "icon": "FaGithub",
       "color": "red",
       "description": "Learning while contributing | Contributions List",
-      "url": "https://github.com/bdfl669"
+      "url": "https://github.com/BDFL669"
     }
   ]
 }
