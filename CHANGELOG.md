@@ -1,3 +1,12 @@
+## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
+
+
+### Bug Fixes
+
+* remove alert animation ([#7662](https://github.com/EddieHubCommunity/LinkFree/issues/7662)) ([e39065b](https://github.com/EddieHubCommunity/LinkFree/commit/e39065b940edccd08f13bad54bfc5614954d6289))
+
+
+
 ## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
-
-
-
-## [1.142.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.5...v1.142.6) (2023-06-16)
-
-
-### Bug Fixes
-
-* social og description ([#7615](https://github.com/EddieHubCommunity/LinkFree/issues/7615)) ([ec13130](https://github.com/EddieHubCommunity/LinkFree/commit/ec131305fda66ee6b02c789239e7e18c2cf27ccb))
 
 
 
