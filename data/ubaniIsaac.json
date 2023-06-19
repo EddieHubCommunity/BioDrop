@@ -1,13 +1,20 @@
 {
   "name": "Isaac Ubani",
-  "type": "personal",
   "bio": "I enjoy learning new technologies and trying out new fun things.",
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/i_ce_u" },
-    { "icon": "FaGithub", "url": "https://github.com/ubaniIsaac" },
-    { "icon": "FaLink", "url": "https://iceu.netlify.app" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/i_ce_u"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ubaniIsaac"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://iceu.netlify.app"
+    }
   ],
-
   "links": [
     {
       "name": "Here's a link to my portfolio",

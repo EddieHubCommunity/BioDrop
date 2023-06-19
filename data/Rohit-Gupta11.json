@@ -1,0 +1,53 @@
+{
+  "name": "Rohit Gupta",
+  "bio": "👨‍💻 Full-stack Developer | 🎓 B.Tech-CSE  | 💻 Proficient in Python, JavaScript, SQL, MERN |  🎯 Pursuing excellence in every projects",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NodeJS",
+    "ReactJS",
+    "Python",
+    "MongoDB"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/im_rohitgupta11"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/rohitg11"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Rohit-Gupta11"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/im_rohitgupta11",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://linkedin.com/in/rohitg11",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Check out my Github Profile!, I've some cool projects.",
+      "url": "https://github.com/Rohit-Gupta11",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "My ratings on CodeChef",
+      "url": "https://codechef.com/users/rohitg11",
+      "icon": "SiCodechef"
+    },
+    {
+      "name": "My achievements on Hackerrank",
+      "url": "https://www.hackerrank.com/grohit7711",
+      "icon": "FaHackerrank"
+    }
+  ]
+}

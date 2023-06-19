@@ -1,6 +1,5 @@
 {
   "name": "Shobhit gupta",
-  "type": "personal",
   "bio": "Dev | Passionate about tech, Web3 & gaming | Exploring the future",
   "tags": [
     "Open Source",
@@ -11,9 +10,18 @@
     "Express"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/shobhitexe" },
-    { "icon": "FaGithub", "url": "https://github.com/shobhitexe" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/shobhitx/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shobhitexe"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shobhitexe"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shobhitx/"
+    }
   ],
   "links": [
     {
@@ -32,7 +40,6 @@
       "description": "Made Full stack DAPP with working smart contracts",
       "url": "https://github.com/shobhitexe/BlockEstate"
     },
-
     {
       "isGoal": true,
       "title": "Do open source and contribute more to the community",

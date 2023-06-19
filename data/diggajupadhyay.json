@@ -1,6 +1,5 @@
 {
   "name": "Diggaj Upadhyay (DigUp)",
-  "type": "personal",
   "bio": "Tech enthusiast, blogger, and content writer",
   "tags": ["Open Source", "Content Writing", "Blogging"],
   "socials": [
@@ -13,7 +12,6 @@
       "url": "https://github.com/diggajupadhyay"
     }
   ],
-
   "links": [
     {
       "name": "GitHub",

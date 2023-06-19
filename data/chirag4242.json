@@ -1,6 +1,5 @@
 {
   "name": "Chirag Patil",
-  "type": "personal",
   "bio": "I am a fullstack software developer",
   "tags": [
     "Open Source",
@@ -12,14 +11,26 @@
     "DevOps"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/chirag4242" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chirag4242"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/patil_chirag42"
     },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/chirag42" },
-    { "icon": "FaLink", "url": "https://cio-app.herokuapp.com" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/Hardwork4224" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chirag42"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://cio-app.herokuapp.com"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Hardwork4224"
+    }
   ],
   "links": [
     {

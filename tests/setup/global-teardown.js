@@ -17,13 +17,12 @@ module.exports = async () => {
 
   // get IDs with `_tests-*`
   const testUsers = await Profile.find({ username: /_test-/ });
-  const testLinks = await Link.find({ username: /_test-/ });
 
   // delete test documents
-  testUsers.map(
-    async (user) => await Profile.deleteOne({ username: user.username })
-  );
-  testLinks.map(
-    async (user) => await Link.deleteOne({ username: user.username })
+  await Promise.all(
+    testUsers.map(async (user) => {
+      await Profile.deleteOne({ username: user.username });
+      await Link.deleteMany({ username: user.username });
+    })
   );
 };

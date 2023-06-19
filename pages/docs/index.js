@@ -46,7 +46,7 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-          "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
+            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -63,7 +63,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Available icons",
+          name: "Available Icons",
           path: "/icons",
           description:
             "Search for available icons you can use on your profile.",
@@ -87,6 +87,16 @@ export default function DocsIndex() {
           path: "/docs/community-resources",
           description:
             "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "MongoDB Atlas for Local Development",
+          path: "/docs/environments/local-with-atlas",
+          description:
+            "A step-by-step guide to setting up a MongoDB Atlas account and establishing a connection for local development.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -149,7 +159,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Social shortcuts",
+          name: "Social Shortcuts",
           path: "/docs/how-to-guides/socials-shortcuts",
           description:
             "Add a shortcut to your favourite social media accounts at the top of your Profile.",
@@ -194,8 +204,8 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
-          name: "Maintainers",
-          path: "/docs/contributing/maintainers",
+          name: "Reviewers",
+          path: "/docs/contributing/reviewers",
           description: "Guidelines for reviewing Issues and Pull Requests",
           category: {
             name: "Advanced",
@@ -213,7 +223,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Automated tests",
+          name: "Automated Tests",
           path: "/docs/contributing/automated-tests",
           description:
             "Run the Playwright testing framework that drives the browser as a user does via code.",
@@ -252,12 +262,31 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description:
+            "A guide for contributors when making changes to the documentation.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
       title: "Extra",
       description: "More information",
       pages: [
+        {
+          name: "Profile Tips",
+          path: "/docs/profile-tips",
+          description: "Tips on making your LinkFree profile stand out.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
         {
           name: "Full Profile Example",
           path: "/docs/full-profile-example",
@@ -266,15 +295,6 @@ export default function DocsIndex() {
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
-          },
-        },
-        {
-          name: "Single user mode",
-          path: "/docs/advanced/single-user-mode",
-          description: "Self host LinkFree for your single Profile.",
-          category: {
-            name: "Advanced",
-            color: "bg-red-100 text-red-800",
           },
         },
         {
@@ -293,6 +313,15 @@ export default function DocsIndex() {
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Maintainers",
+          path: "/docs/maintainers",
+          description: "Maintainers guide to LinkFree.",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
           },
         },
       ],
@@ -336,7 +365,10 @@ export default function DocsIndex() {
           >
             <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
+                <h2
+                  className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
+                  id={section.title}
+                >
                   {section.title}
                 </h2>
                 <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-high sm:mt-4">

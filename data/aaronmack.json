@@ -1,19 +1,26 @@
 {
   "name": "Aaron Li",
-  "type": "personal",
   "bio": "Animation industry practitioners | Developers | Graphics enthusiasts | Travel enthusiast",
-
   "tags": ["Open Source", "Javascript", "Python", "C++"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/aaaron_li" },
-    { "icon": "FaGithub", "url": "https://github.com/aaronmack" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@aaaronli" },
-    { "icon": "FaLink", "url": "https://space.bilibili.com/170823442" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aaaron_li"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aaronmack"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@aaaronli"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://space.bilibili.com/170823442"
+    }
   ],
-
   "testimonials": ["milkBoy"],
-
   "links": [
     {
       "name": "Twitter",
@@ -36,7 +43,6 @@
       "icon": "FaExternalLinkAlt"
     }
   ],
-
   "milestones": [
     {
       "title": "Discover",
@@ -133,6 +139,14 @@
       "color": "grey",
       "description": "A self-built Wiki system (Github Fork)",
       "url": "https://server15.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Alist",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A file list program that supports multiple storage (Github Fork)",
+      "url": "https://server16.xyzzyxwz.top:12030"
     }
   ]
 }

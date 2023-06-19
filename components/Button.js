@@ -5,10 +5,11 @@ export default function Button({
   text,
   primary = false,
   disable,
+  children,
   ...restProps
 }) {
   let className =
-    "w-full inline-flex items-center justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
+    "w-full inline-flex items-center flex-1 justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
   !disable
     ? (className += primary
         ? " text-white bg-secondary-medium hover:bg-secondary-high"
@@ -18,16 +19,14 @@ export default function Button({
         : " cursor-pointer");
 
   const link = (
-    <Link className={className} {...restProps}>
-      {icon && <span className="mr-2">{icon}</span>}
-      {text}
+    <Link className={className} prefetch={false} {...restProps}>
+      {children}
     </Link>
   );
 
   const button = (
     <button className={className} disabled={disable} {...restProps}>
-      {icon && <span className="mr-2">{icon}</span>}
-      {text}
+      {children}
     </button>
   );
 

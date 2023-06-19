@@ -12,13 +12,16 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { getUserApi } from "../api/users/[username]";
+import { getUserApi } from "../api/profiles/[username]";
+import { clientEnv } from "@config/schemas/clientSchema";
+import { getStats } from "../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -64,15 +67,7 @@ export async function getServerSideProps(context) {
   };
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
-      {
-        headers: {
-          cookie: context.req.headers.cookie || "",
-        },
-      }
-    );
-    data = await res.json();
+    data = await getStats(username);
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
@@ -96,11 +91,11 @@ export async function getServerSideProps(context) {
   data.links.clicks = totalClicks;
 
   return {
-    props: { data, profile, progress },
+    props: { data, profile, progress, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Statistics({ data, profile, progress }) {
+export default function Statistics({ data, profile, progress, BASE_URL }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -155,7 +150,11 @@ export default function Statistics({ data, profile, progress }) {
         </div>
 
         <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} ({profile.username})
+          Your Statistics for {profile.name} (
+          <Link href={`${BASE_URL}/${profile.username}`}>
+            {profile.username}
+          </Link>
+          )
         </h1>
 
         {!data.links && (
@@ -181,9 +180,11 @@ export default function Statistics({ data, profile, progress }) {
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date" />
                 <YAxis />
-                <Tooltip contentStyle={{
-                  color: "black"
-                }} />
+                <Tooltip
+                  contentStyle={{
+                    color: "black",
+                  }}
+                />
                 <Bar dataKey="views" fill="#82ca9d" />
               </BarChart>
             </ResponsiveContainer>

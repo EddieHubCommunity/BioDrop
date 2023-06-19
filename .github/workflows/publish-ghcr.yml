@@ -1,0 +1,64 @@
+name: Publish Image - GHCR
+on:
+  workflow_dispatch:
+  #Runs at 01:01 UTC
+  schedule:
+    - cron: "1 1 * * *"
+
+jobs:
+  build:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
+    runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+      - name: install dependencies
+        run: npm ci
+      - name: run build
+        run: npm run build
+
+  push_to_registry:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
+    name: Push Docker image to GitHub Packages
+    needs: build
+    permissions:
+      contents: read
+      packages: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out the repo
+        uses: actions/checkout@v3
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
+      - name: set up Docker builder
+        uses: docker/setup-buildx-action@v2
+      - name: log into GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.CR_PAT }}
+      - name: Setup Env
+        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" > /tmp/.env
+      - name: push to Github Container Registry
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          secrets: |
+            'GH_TOKEN=${{ secrets.GITHUB_TOKEN }}'
+          secret-files: "MONGO=/tmp/.env"
+          build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
+          tags: |
+            ghcr.io/eddiehubcommunity/linkfree:${{ steps.package-version.outputs.current-version}}
+            ghcr.io/eddiehubcommunity/linkfree:latest

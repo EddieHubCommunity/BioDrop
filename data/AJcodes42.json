@@ -1,6 +1,5 @@
 {
   "name": "Ajay Singh",
-  "type": "personal",
   "bio": "**Full Stack Developer** | Angular | Spring Boot | **Open Source** and **Web3** Enthusiast",
   "tags": [
     "Open Source",
@@ -11,9 +10,18 @@
     "Angular"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ajaysingh942" },
-    { "icon": "FaGithub", "url": "https://github.com/AJcodes42" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/ajaysingh942/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajaysingh942"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AJcodes42"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ajaysingh942/"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/ajay-singh-54445b148/"

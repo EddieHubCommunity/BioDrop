@@ -1,15 +1,23 @@
 import { useState } from "react";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Alert from "@components/Alert";
 import Button from "@components/Button";
-import PreviewModal from "@components/modals/ProfilePreview";
+import Modal from "@components/Modal";
 import Input from "@components/form/Input";
+import UserPage from "@components/user/UserPage";
+import Notification from "@components/Notification";
+import { clientEnv } from "@config/schemas/clientSchema";
 
-export default function Playground() {
+export async function getServerSideProps(){
+  return {
+    props: { BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+  };
+}
+
+export default function Playground({BASE_URL}) {
+
   const defaultJson = `{
     "name": "Your Name",
-    "type": "personal",
     "bio": "Write a short bio about yourself",
     "links": [
       {
@@ -27,17 +35,23 @@ export default function Playground() {
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
   const [previewModalData, setPreviewModalData] = useState();
+  const [showNotification, setShowNotification] = useState(false);
+
   const handleValidateJson = () => {
     try {
       JSON.parse(profileJson);
       setSuccessMsg("Valid Json");
       setErrMsg("");
       setValidateComplete(true);
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
       return true;
     } catch (err) {
       setErrMsg(err.toString());
       setError(true);
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
       return false;
     }
   };
@@ -52,6 +66,8 @@ export default function Playground() {
     } catch (err) {
       setErrMsg(err.toString());
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
   };
 
@@ -59,20 +75,44 @@ export default function Playground() {
     if (!gitUsername) {
       setErrMsg("Github username required");
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
-
     try {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
-        delete actualJson.testimonials;
+        actualJson.testimonials = actualJson.testimonials || [];
+        actualJson.socials = actualJson.socials || [];
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
     } catch (err) {
       setErrMsg(err.toString());
       setSuccessMsg("");
+      setShowNotification(true);
+      setTimeout(() => setShowNotification(false), 1500);
     }
+  };
+
+  const buttonProps = () => {
+    if (!formatComplete) {
+      return { children: "Format", onClick: handleFormatJson, primary: false };
+    }
+
+    if (formatComplete && !validateComplete) {
+      return {
+        children: "Validate",
+        onClick: handleValidateJson,
+        primary: false,
+      };
+    }
+
+    if (formatComplete && validateComplete) {
+      return { children: "Preview", onClick: handlePreview, primary: true };
+    }
+
+    return { children: "", disable: true };
   };
 
   return (
@@ -85,8 +125,22 @@ export default function Playground() {
       <Page>
         <h1 className="text-2xl md:text-4xl mb-4 font-bold">Playground</h1>
 
-        {errorMessage && <Alert type="error" message={errorMessage} />}
-        {successMessage && <Alert type="success" message={successMessage} />}
+        {errorMessage && (
+          <Notification
+            show={showNotification}
+            type="error"
+            onClose={() => setShowNotification(false)}
+            message={errorMessage}
+          />
+        )}
+        {successMessage && (
+          <Notification
+            show={showNotification}
+            type="success"
+            onClose={() => setShowNotification(false)}
+            message={successMessage}
+          />
+        )}
 
         <Input
           name="username"
@@ -114,27 +168,16 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          {!formatComplete && (
-            <Button text="Format" onClick={handleFormatJson} primary={false} />
-          )}
-          {formatComplete && !validateComplete && (
-            <Button
-              text="Validate"
-              onClick={handleValidateJson}
-              primary={false}
-            />
-          )}
-          {formatComplete && validateComplete && (
-            <Button text="Preview" onClick={handlePreview} primary={true} />
-          )}
+          <Button {...buttonProps()} />
         </div>
 
-        {previewModalData && previewModalState && (
-          <PreviewModal
-            toggle={() => setPreviewModalState(!previewModalState)}
-            data={previewModalData}
-          />
-        )}
+        <Modal
+          title="Profile Preview (note: new links will not be clickable)"
+          show={previewModalState}
+          setShow={setPreviewModalState}
+        >
+          <UserPage data={previewModalData} BASE_URL={BASE_URL} />
+        </Modal>
       </Page>
     </>
   );

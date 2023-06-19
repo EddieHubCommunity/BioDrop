@@ -1,21 +1,28 @@
 {
   "name": "Rahul Kumar",
-  "type": "personal",
-  "bio": "Frontend developer | CSS, JavaScript, Python, MySQL, Git | Learning React.js",
-
+  "bio": "Web developer | Building web applications using Node.js & React",
+  "tags": ["CSS", "JavaScript", "React", "Node.js", "MongoDB", "MySQL"],
   "links": [
     {
-      "name": "Checkout my GitHub account",
+      "name": "Profile",
+      "url": "https://rahulbaran.vercel.app",
+      "icon": "FaUser"
+    },
+    {
+      "group": "Socials",
+      "name": "Github - Open for collaboration",
       "url": "https://github.com/Rahulbaran",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
+      "group": "Socials",
+      "name": "Twitter - Let's know each other",
       "url": "https://twitter.com/Rahul9422dev",
       "icon": "FaTwitter"
     },
     {
-      "name": "Connect with me on LinkedIn",
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
       "url": "https://www.linkedin.com/in/Rahulbaran",
       "icon": "FaLinkedin"
     }

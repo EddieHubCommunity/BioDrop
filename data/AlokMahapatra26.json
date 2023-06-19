@@ -1,15 +1,21 @@
 {
   "name": "Alok Mahapatra",
-  "type": "personal",
   "bio": "Tech Enthusiast | Web Developer | UIUX ",
-
   "tags": ["Javascript", "UI UX", "MERN Stack"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/aloktwts" },
-    { "icon": "FaGithub", "url": "https://github.com/AlokMahapatra26" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@alokmahapatra1447" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aloktwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AlokMahapatra26"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@alokmahapatra1447"
+    }
   ],
-
   "links": [
     {
       "name": "Twitter: Follow me",

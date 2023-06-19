@@ -1,6 +1,5 @@
 {
   "name": "Nanak Bandyopadhyay",
-  "type": "personal",
   "bio": "Full stack web developer 👨‍💻 | Web3 developer 🪙| JS & Python 💪",
   "tags": [
     "Open Source",
@@ -12,8 +11,14 @@
     "Angular"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/NBandyopadhyay" },
-    { "icon": "FaGithub", "url": "https://github.com/Nanak360" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/NBandyopadhyay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Nanak360"
+    },
     {
       "icon": "FaFacebook",
       "url": "https://www.facebook.com/nanak.bandyopadhyay"

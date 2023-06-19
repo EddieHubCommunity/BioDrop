@@ -1,6 +1,5 @@
 {
   "name": "Sumit Kumar Das",
-  "type": "personal",
   "bio": "DevOps Engineer at [**Sify**](https://www.sifytechnologies.com/) | **Open Source** Enthusiast",
   "tags": [
     "Open Source",
@@ -12,12 +11,18 @@
     "GCP"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/sumitNITS" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitNITS"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sumit-kumar-das-87a599158/"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/Jack00589" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Jack00589"
+    }
   ],
   "links": [
     {

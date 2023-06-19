@@ -1,8 +1,6 @@
 {
   "name": "Pratikkumar Mohite",
-  "type": "personal",
   "bio": "**DevOps** ∞ Engineer | Ambassador **@ProjectCalico** | **Open Source** | Cloud & Container Enthusiast ⚡️",
-
   "tags": [
     "DevOps",
     "Cloud",
@@ -13,8 +11,14 @@
     "ServiceMesh"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/DotSlashMohite" },
-    { "icon": "FaGithub", "url": "https://github.com/pratikkumar-mohite" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DotSlashMohite"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pratikkumar-mohite"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/pratikkumar-mohite"
@@ -23,7 +27,10 @@
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/pratikkumar_mohite"
     },
-    { "icon": "FaGmail", "url": "mailto:mohite770.pm@gmail.com" }
+    {
+      "icon": "FaGmail",
+      "url": "mailto:mohite770.pm@gmail.com"
+    }
   ],
   "links": [
     {

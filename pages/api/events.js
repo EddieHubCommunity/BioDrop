@@ -1,7 +1,5 @@
-import fs from "fs";
-import path from "path";
-
 import logger from "@config/logger";
+import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -10,48 +8,66 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const directoryPath = path.join(process.cwd(), "data");
+  const events = await getEvents();
+  return res.status(200).json(events);
+}
 
-  let userFolders;
+export async function getEvents() {
+  let events = [];
   try {
-    userFolders = fs
-      .readdirSync(directoryPath)
-      .filter((item) => !item.includes("json"));
+    events = await Profile.aggregate([
+      { $project: { username: 1, events: 1, isEnabled: 1 } },
+      { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
+      { $unwind: "$events" },
+      { $match: { "events.date.end": { $gt: new Date() } } },
+      { $sort: { "events.date.start": 1 } },
+      {
+        $group: {
+          _id: "$events.url",
+          usernames: { $addToSet: "$username" },
+          isVirtual: { $first: "$events.isVirtual" },
+          color: { $first: "$events.color" },
+          date: { $first: "$events.date" },
+          url: { $first: "$events.url" },
+          name: { $first: "$events.name" },
+          description: { $first: "$events.description" },
+          isEnabled: { $first: "$isEnabled" },
+        },
+      },
+    ]).exec();
+
+    let dateEvents = [];
+    const today = new Date();
+    for (const event of events) {
+      let cleanEvent = structuredClone(event);
+      const dateTimeStyle = {
+        dateStyle: "full",
+        timeStyle: "long",
+      };
+      try {
+        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
+          "en-GB",
+          dateTimeStyle
+        ).format(new Date(event.date.start));
+        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
+          "en-GB",
+          dateTimeStyle
+        ).format(new Date(event.date.end));
+
+        cleanEvent.date.cfpOpen =
+          event.date.cfpClose && new Date(event.date.cfpClose) > today;
+
+        dateEvents.push(cleanEvent);
+      } catch (e) {
+        logger.error(e, `ERROR event date for: "${event.name}"`);
+      }
+    }
+
+    events = dateEvents;
   } catch (e) {
-    logger.error(e, "failed to load profiles");
+    logger.error(e, "Failed to load events");
+    events = [];
   }
 
-  const events = userFolders.flatMap((folder) => {
-    const eventsPath = path.join(directoryPath, folder, "events");
-    let eventFiles = [];
-    try {
-      eventFiles = fs.readdirSync(eventsPath);
-    } catch (e) {
-      logger.warn(`no events in ${eventsPath}`);
-      return [];
-    }
-    const eventFilesContent = eventFiles.flatMap((file) => {
-      try {
-        return {
-          ...JSON.parse(fs.readFileSync(path.join(eventsPath, file), "utf8")),
-          username: folder,
-        };
-      } catch (e) {
-        logger.error(e, `failed loading event "${file}" in "${eventsPath}"`);
-        return [];
-      }
-    });
-
-    return eventFilesContent;
-  });
-
-  const eventsFiltered = events
-    .reduce(
-      (previousValue, currentValue) => previousValue.concat(currentValue),
-      []
-    )
-    .filter((event) => new Date(event.date.end) > new Date())
-    .sort((a, b) => new Date(a.date.start) - new Date(b.date.start));
-
-  res.status(200).json(eventsFiltered);
+  return JSON.parse(JSON.stringify(events));
 }

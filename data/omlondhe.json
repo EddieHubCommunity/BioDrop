@@ -1,6 +1,5 @@
 {
   "name": "Om Prashant Londhe",
-  "type": "personal",
   "bio": "Full stack developer | Frontend developer | Backend developer",
   "tags": [
     "Open Source",
@@ -12,9 +11,18 @@
     "Python"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/omlondhe3" },
-    { "icon": "FaGithub", "url": "https://github.com/omlondhe" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/omlondhe" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/omlondhe3"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/omlondhe"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/omlondhe"
+    }
   ],
   "testimonials": [],
   "links": [

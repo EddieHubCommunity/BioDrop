@@ -1,0 +1,16 @@
+{
+  "name": "lucky lohar",
+  "bio": "student Btech. 1traveling ",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/lucky123lohar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/luckylohar2004",
+      "icon": "FaInstagram"
+    }
+  ]
+}

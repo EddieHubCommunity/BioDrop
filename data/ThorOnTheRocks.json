@@ -1,8 +1,6 @@
 {
   "name": "Gianluca Galota",
-  "type": "personal",
   "bio": "Open Source Enthusiast!",
-
   "tags": [
     "javascript",
     "typescript",
@@ -12,8 +10,14 @@
     "design system"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/GianlucaGalota" },
-    { "icon": "FaGithub", "url": "https://github.com/ThorOnTheRocks" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/GianlucaGalota"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ThorOnTheRocks"
+    }
   ],
   "links": [
     {

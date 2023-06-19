@@ -6,7 +6,7 @@ function UserSocial({ BASE_URL, username, social }) {
 
   return (
     <Link
-      href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
+      href={`${BASE_URL}/api/profiles/${username}/links/${encodeURIComponent(
         social.url
       )}`}
       target="_blank"

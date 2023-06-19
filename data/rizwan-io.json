@@ -1,12 +1,20 @@
 {
   "name": "Rizwan Shaikh",
-  "type": "personal",
   "bio": "Improving card payments at WorldPay Inc",
   "tags": ["Java", "Backend", "Cloud"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/rizwanio" },
-    { "icon": "FaGithub", "url": "https://github.com/rizwan-io" },
-    { "icon": "SiHashnode", "url": "http://articles.rizwan.io/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rizwanio"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rizwan-io"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "http://articles.rizwan.io/"
+    }
   ],
   "links": [
     {

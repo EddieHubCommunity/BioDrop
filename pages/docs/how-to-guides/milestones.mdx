@@ -59,5 +59,11 @@ This is what a complete example looks like:
 3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Milestones Documentation">{children}</DocsLayout>
+  <DocsLayout
+    title="LinkFree Milestones Documentation"
+    section="Customising your Profile"
+    name="Milestones"
+  >
+    {children}
+  </DocsLayout>
 );

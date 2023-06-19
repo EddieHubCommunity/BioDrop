@@ -1,0 +1,36 @@
+{
+  "name": "Ayan Masood",
+  "bio": "GSSoC'23 | SSoC'23 | Full Stack Dev | Web 3.0 Enthusiast | Speaker | CP | CSE'25 ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React",
+    "Express",
+    "MongoDb",
+    "Tailwind"
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ayan-M-Dev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ayan_M_Dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayan-masood-6038ab21b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://iridescent-pavlova-54bf91.netlify.app",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Praveen Paliwal",
+  "bio": "QA turned **Developer**.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/praveenpaliwal1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/praveen-paliwal-b4202151/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/praveenpy273",
+      "icon": "FaGithub"
+    }
+  ]
+}

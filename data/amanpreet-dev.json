@@ -1,6 +1,5 @@
 {
   "name": "Aman Preet Singh",
-  "type": "personal",
   "bio": "**Passionate Developer** and **Software Crafter** with a passion for problem-solving.",
   "tags": [
     "Javascript",
@@ -11,7 +10,10 @@
     "MongoDB"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AmanpreetDev" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AmanpreetDev"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/amanpreet-dev/"
@@ -20,7 +22,10 @@
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/amanpreet.dev/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/amanpreet-dev" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/amanpreet-dev"
+    }
   ],
   "links": [
     {

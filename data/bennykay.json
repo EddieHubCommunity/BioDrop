@@ -1,8 +1,6 @@
 {
   "name": "Benjamin Kramer",
-  "type": "personal",
   "bio": "Full Stack Developer | Founder of **nerdchandise software factory**",
-
   "tags": ["Javascript", "NextJS", "React", "PHP"],
   "socials": [
     {

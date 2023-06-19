@@ -1,6 +1,5 @@
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
-import { GoogleAnalytics } from "nextjs-google-analytics";
 import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/globals.css";
@@ -19,7 +18,6 @@ export default function MyApp({
       <SessionProvider session={session}>
         {getLayout(
           <>
-            <GoogleAnalytics trackPageViews />
             <Component {...pageProps} />
             <Analytics />
           </>

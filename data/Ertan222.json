@@ -1,8 +1,6 @@
 {
   "name": "Ertan Taner",
-  "type": "personal",
   "bio": "Jr. Backend Developer | Animal Lover | Open Source Is Everything | Linux Enthusiast | Terminal > GUI ",
-
   "tags": [
     "C#",
     "JavaScript",
@@ -14,9 +12,18 @@
     "NodeJS"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Ertan222" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ertan-taner/" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/Ertant11" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ertan222"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ertan-taner/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ertant11"
+    }
   ],
   "links": [
     {

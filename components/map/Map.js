@@ -18,14 +18,14 @@ export default function Map({ users }) {
         zoom={2}
         minZoom={2}
         zoomControl={true}
-        scrollWheelZoom={false}
+        scrollWheelZoom={true}
         maxBounds={boundsMap}
         maxBoundsViscosity={0.7}
         style={{ height: "100vh" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url="https://b.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MarkerCluster>
           {users.map((user) => (
@@ -50,10 +50,6 @@ export default function Map({ users }) {
                       </Link>
                     </h1>
                     <span>{user.location.provided}</span>
-
-                    <span>
-                      <ReactMarkdown>{user.bio}</ReactMarkdown>
-                    </span>
 
                     <span>
                       <ReactMarkdown>{user.bio}</ReactMarkdown>

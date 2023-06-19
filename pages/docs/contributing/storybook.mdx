@@ -22,5 +22,11 @@ _note: not all components have been added, this is a great way to contribute to 
 1. Run `npm run storybook` to see the added components and visit `http://localhost:6006` to interact with them in the browser
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree StoryBook Documentation">{children}</DocsLayout>
+  <DocsLayout
+    title="LinkFree StoryBook Documentation"
+    section="Contributing"
+    name="Storybook"
+  >
+    {children}
+  </DocsLayout>
 );

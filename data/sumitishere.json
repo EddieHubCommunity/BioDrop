@@ -1,6 +1,5 @@
 {
   "name": "Sumit Mukharjee",
-  "type": "personal",
   "bio": "Final Year CS Undergrad, Front End Developer",
   "tags": [
     "Open Source",
@@ -12,8 +11,14 @@
     "Java"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sumitisheree" },
-    { "icon": "FaGithub", "url": "https://github.com/sumitmukharjeeeeee" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sumitverse__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitishere"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/"
@@ -39,6 +44,11 @@
       "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/sumitmukharjeeeeee",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Read My Tech Blogs",
+      "url": "https://sumitmukharjii.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }

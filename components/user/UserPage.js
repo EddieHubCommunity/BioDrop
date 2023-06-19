@@ -14,6 +14,9 @@ export default function UserPage({ data, BASE_URL }) {
     { name: "Testimonials", href: "#", current: false },
     { name: "Events", href: "#", current: false },
   ];
+  data.testimonials = data.testimonials.filter(
+    (testimonial) => testimonial.isPinned
+  );
   let displayTabs = defaultTabs.flatMap((tab) => {
     if (tab.name === "Milestones") {
       if (data.milestones && data.milestones.length) {
@@ -43,24 +46,20 @@ export default function UserPage({ data, BASE_URL }) {
       <UserProfile data={data} BASE_URL={BASE_URL} />
       <UserTabs tabs={tabs} setTabs={setTabs} />
 
-      {tabs.find((tab) => tab.name === "My Links") &&
-        tabs.find((tab) => tab.name === "My Links").current && (
-          <UserLinks data={data} BASE_URL={BASE_URL} />
-        )}
-      {tabs.find((tab) => tab.name === "Milestones") &&
-        tabs.find((tab) => tab.name === "Milestones").current && (
-          <UserMilestones data={data} />
-        )}
+      {tabs.find((tab) => tab.name === "My Links")?.current && (
+        <UserLinks data={data} BASE_URL={BASE_URL} />
+      )}
+      {tabs.find((tab) => tab.name === "Milestones")?.current && (
+        <UserMilestones data={data} />
+      )}
 
-      {tabs.find((tab) => tab.name === "Testimonials") &&
-        tabs.find((tab) => tab.name === "Testimonials").current && (
-          <UserTestimonials data={data} />
-        )}
+      {tabs.find((tab) => tab.name === "Testimonials")?.current && (
+        <UserTestimonials testimonials={data.testimonials} />
+      )}
 
-      {tabs.find((tab) => tab.name === "Events") &&
-        tabs.find((tab) => tab.name === "Events").current && (
-          <UserEvents data={data} />
-        )}
+      {tabs.find((tab) => tab.name === "Events")?.current && (
+        <UserEvents data={data} />
+      )}
     </>
   );
 }
