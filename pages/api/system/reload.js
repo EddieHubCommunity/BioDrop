@@ -54,7 +54,7 @@ function findOneByUsernameFull(data) {
   // Map all testimonial files to an array of objects with new db schema
   try {
     // If the testimonials folder exists for the current user, map all testimonial files to an array of objects with new db schema
-    if (fs.existsSync(basePath) && fs.existsSync(filePathTestimonials)) {
+    if (fs.existsSync(filePathTestimonials)) {
       const allTestimonials = fs
         .readdirSync(filePathTestimonials)
         .map((testimonialFile) => {
@@ -105,17 +105,7 @@ function findOneByUsernameFull(data) {
     }
   });
 
-  // console.log("\n");
-  // console.log("\n");
-  // console.log("\n");
-  // console.log("\n");
-  // console.log(events);
-  // console.log("\n");
-  // console.log("\n");
-  // console.log("\n");
-  // console.log("\n");
-
-  if (events.length) {
+  if (events.length > 0) {
     data = { ...data, events };
   }
 
@@ -134,9 +124,8 @@ function findOneByUsernameFull(data) {
 
   try {
     extendedProfileSchema.parse(data);
-    //console.log("Profile is valid", data);
   } catch (err) {
-    console.log(err);
+    logger.error(err, `failed to parse profile for ${username}`);
   }
 
   return data;
@@ -234,7 +223,7 @@ async function disableLinksNotInJSON(currentProfile, jsonFileLinks) {
 
   for await (const link of linksToDisable) {
     try {
-      Link.findOneAndUpdate(
+      await Link.findOneAndUpdate(
         { _id: link._id },
         { isEnabled: false, isPinned: false }
       );
