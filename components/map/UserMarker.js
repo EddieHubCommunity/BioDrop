@@ -3,6 +3,13 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Link from "@components/Link";
 
 export default function UserMarker({user}) {
+  // Custom component for rendering links within ReactMarkdown
+  const LinkRenderer = ({ href, children }) => (
+    <Link href={href}>
+      {children}
+    </Link>
+  );
+
   return (
     <Marker
       icon={L.icon({
@@ -25,7 +32,7 @@ export default function UserMarker({user}) {
           </h1>
           <span>{user.properties.location}</span>
           <span>
-            <ReactMarkdown>{user.properties.bio}</ReactMarkdown>
+            <ReactMarkdown  components={{ a: LinkRenderer }}>{user.properties.bio}</ReactMarkdown>
           </span>
         </div>
       </Popup>
