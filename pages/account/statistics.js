@@ -125,7 +125,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           <h2 className="sr-only" id="profile-overview-title">
             Profile Overview
           </h2>
-          <div className="bg-white p-6">
+          <div className="bg-white dark:bg-primary-high p-6">
             <div className="sm:flex sm:items-center sm:justify-between">
               <div className="sm:flex sm:space-x-5">
                 <div className="flex-shrink-0">
@@ -138,13 +138,13 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                   />
                 </div>
                 <div className="mt-4 text-center sm:mt-0 sm:pt-1 sm:text-left">
-                  <p className="text-sm font-medium text-gray-600">
+                  <p className="text-sm font-medium text-primary-medium dark:text-primary-low-medium">
                     Welcome back,
                   </p>
-                  <p className="text-xl font-bold text-gray-900 sm:text-2xl">
+                  <p className="text-xl font-bold text-primary-high dark:text-primary-low sm:text-2xl">
                     {profile.name}
                   </p>
-                  <ReactMarkdown className="text-sm font-medium text-gray-600">
+                  <ReactMarkdown className="text-sm font-medium text-primary-medium dark:text-primary-low-medium   ">
                     {profile.bio}
                   </ReactMarkdown>
                 </div>
@@ -156,24 +156,24 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 divide-y divide-gray-200 border-t border-gray-200 bg-gray-50 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          <div className="grid grid-cols-1 divide-y divide-gray-200 border-t border-gray-200 bg-gray-50 dark:bg-primary-medium sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-gray-900">
+              <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.profile.monthly)}
               </span>{" "}
-              <span className="text-gray-600">Profile views last 30 days</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">Profile views last 30 days</span>
             </div>
             <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-gray-900">
+              <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.profile.total)}
               </span>{" "}
-              <span className="text-gray-600">Total Profile views</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">Total Profile views</span>
             </div>
             <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-gray-900">
+              <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.links.clicks)}
               </span>{" "}
-              <span className="text-gray-600">Total link clicks</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">Total link clicks</span>
             </div>
           </div>
         </div>
