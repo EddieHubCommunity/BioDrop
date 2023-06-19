@@ -32,7 +32,7 @@ function findAllBasic() {
         name: json.name,
         bio: json.bio,
         avatar: `https://github.com/${file.split(".")[0]}.png`,
-        tags: json.tags,
+        tags: json.tags || [],
         username: file.split(".")[0],
       };
     } catch (e) {
@@ -54,7 +54,7 @@ function findOneByUsernameFull(data) {
   // Map all testimonial files to an array of objects with new db schema
   try {
     // If the testimonials folder exists for the current user, map all testimonial files to an array of objects with new db schema
-    if (fs.existsSync(basePath)) {
+    if (fs.existsSync(basePath) && fs.existsSync(filePathTestimonials)) {
       const allTestimonials = fs
         .readdirSync(filePathTestimonials)
         .map((testimonialFile) => {
@@ -74,13 +74,21 @@ function findOneByUsernameFull(data) {
 
       data = { ...data, testimonials: allTestimonials };
     } else {
-      data = { ...data, testimonials: [] };
+      data = { ...data };
     }
-  } catch (e) {}
+  } catch (e) {
+    logger.error(e, `failed to list testimonials for ${username}`);
+  }
 
   try {
-    eventFiles = fs.readdirSync(filePathEvents);
-  } catch (e) {}
+    if (fs.existsSync(filePathEvents)) {
+      eventFiles = fs.readdirSync(filePathEvents);
+    } else {
+      eventFiles = [];
+    }
+  } catch (e) {
+    logger.error(e, `failed to list events for ${username}`);
+  }
 
   const events = eventFiles.flatMap((filename) => {
     try {
@@ -93,9 +101,19 @@ function findOneByUsernameFull(data) {
 
       return event;
     } catch (e) {
-      return [];
+      logger.error(e, `failed loading event in: ${filePathEvents}`);
     }
   });
+
+  // console.log("\n");
+  // console.log("\n");
+  // console.log("\n");
+  // console.log("\n");
+  // console.log(events);
+  // console.log("\n");
+  // console.log("\n");
+  // console.log("\n");
+  // console.log("\n");
 
   if (events.length) {
     data = { ...data, events };
@@ -114,6 +132,13 @@ function findOneByUsernameFull(data) {
     data.links = links;
   }
 
+  try {
+    extendedProfileSchema.parse(data);
+    //console.log("Profile is valid", data);
+  } catch (err) {
+    console.log(err);
+  }
+
   return data;
 }
 
@@ -123,23 +148,25 @@ async function updateProfileLinks(profile, currentProfile) {
   if (currentProfile.links || profile.links || profile.socials) {
     if (profile.links) {
       try {
-        profile.links.map(async (link, position) => {
-          jsonFileLinks.push(link);
-          await Link.findOneAndUpdate(
-            { username: profile.username, url: link.url },
-            {
-              group: link.group,
-              name: link.name,
-              url: link.url,
-              icon: link.icon,
-              isEnabled: true,
-              isPinned: false,
-              profile: currentProfile._id,
-              order: position,
-            },
-            { upsert: true, new: true }
-          );
-        });
+        await Promise.all(
+          profile.links.map(async (link, position) => {
+            jsonFileLinks.push(link);
+            await Link.findOneAndUpdate(
+              { username: profile.username, url: link.url },
+              {
+                group: link.group,
+                name: link.name,
+                url: link.url,
+                icon: link.icon,
+                isEnabled: true,
+                isPinned: false,
+                profile: currentProfile._id,
+                order: position,
+              },
+              { upsert: true, new: true }
+            );
+          })
+        );
       } catch (e) {
         logger.error(e, `failed to update links for ${profile.username}`);
       }
@@ -148,24 +175,26 @@ async function updateProfileLinks(profile, currentProfile) {
     // add social urls to links but disable them if not in main links
     try {
       if (profile.socials && profile.socials.length > 0) {
-        profile.socials.map(async (social) => {
-          jsonFileLinks.push(social);
-          await Link.findOneAndUpdate(
-            { username: profile.username, url: social.url },
-            {
-              url: social.url,
-              icon: social.icon,
-              isEnabled:
-                profile.links &&
-                profile.links.find((link) => social.url === link.url)
-                  ? true
-                  : false,
-              isPinned: true,
-              profile: currentProfile._id,
-            },
-            { upsert: true, new: true }
-          );
-        });
+        await Promise.all(
+          profile.socials.map(async (social) => {
+            jsonFileLinks.push(social);
+            await Link.findOneAndUpdate(
+              { username: profile.username, url: social.url },
+              {
+                url: social.url,
+                icon: social.icon,
+                isEnabled:
+                  profile.links &&
+                  profile.links.find((link) => social.url === link.url)
+                    ? true
+                    : false,
+                isPinned: true,
+                profile: currentProfile._id,
+              },
+              { upsert: true, new: true }
+            );
+          })
+        );
       }
     } catch (e) {
       logger.error(
@@ -199,88 +228,96 @@ async function updateProfileLinks(profile, currentProfile) {
 
 async function disableLinksNotInJSON(currentProfile, jsonFileLinks) {
   // disable LINKS and SOCIALS not in json file
-  currentProfile.links
-    .filter((link) => !jsonFileLinks.map((l) => l.url).includes(link.url))
-    .map(async (link) => {
-      try {
-        await Link.findOneAndUpdate(
-          { _id: link._id },
-          { isEnabled: false, isPinned: false }
-        );
-      } catch (err) {
-        logger.error(err, `failed to disable link ${link._id}`);
-      }
-    });
+  const linksToDisable = currentProfile.links.filter(
+    (link) => !jsonFileLinks.map((l) => l.url).includes(link.url)
+  );
+
+  for await (const link of linksToDisable) {
+    try {
+      Link.findOneAndUpdate(
+        { _id: link._id },
+        { isEnabled: false, isPinned: false }
+      );
+    } catch (err) {
+      logger.error(err, `failed to disable link ${link._id}`);
+    }
+  }
 }
 
 async function updateProfileMilestones(profile) {
+  if (!profile.milestones) {
+    return;
+  }
+
   try {
-    if (profile.milestones) {
-      await Profile.findOneAndUpdate(
-        { username: profile.username },
-        {
-          milestones: profile.milestones.map((milestone, position) => ({
-            url: milestone.url,
-            date: milestone.date,
-            isGoal: milestone.isGoal || false,
-            title: milestone.title,
-            icon: milestone.icon,
-            description: milestone.description,
-            color: milestone.color,
-            order: position,
-          })),
-        }
-      );
-    }
+    await Profile.findOneAndUpdate(
+      { username: profile.username },
+      {
+        milestones: profile.milestones.map((milestone, position) => ({
+          url: milestone.url,
+          date: milestone.date,
+          isGoal: milestone.isGoal || false,
+          title: milestone.title,
+          icon: milestone.icon,
+          description: milestone.description,
+          color: milestone.color,
+          order: position,
+        })),
+      }
+    );
   } catch (e) {
     logger.error(e, `failed to update milestones for ${profile.username}`);
   }
 }
 
 async function updateProfileTestimonials(profile) {
+  if (!profile.testimonials) {
+    return;
+  }
+
   try {
-    if (profile.testimonials) {
-      await Profile.findOneAndUpdate(
-        { username: profile.username },
-        {
-          testimonials: profile.testimonials.map((testimonials, position) => ({
-            username: testimonials.username,
-            date: testimonials.date,
-            title: testimonials.title,
-            description: testimonials.description,
-            order: position,
-            isPinned: testimonials.isPinned || false,
-          })),
-        }
-      );
-    }
+    await Profile.findOneAndUpdate(
+      { username: profile.username },
+      {
+        testimonials: profile.testimonials.map((testimonials, position) => ({
+          username: testimonials.username,
+          date: testimonials.date,
+          title: testimonials.title,
+          description: testimonials.description,
+          order: position,
+          isPinned: testimonials.isPinned || false,
+        })),
+      }
+    );
   } catch (e) {
     logger.error(e, `failed to update testimonials for ${profile.username}`);
   }
 }
 
 async function updateProfileEvents(profile) {
+  if (!profile.events) {
+    return;
+  }
+
   try {
-    if (profile.events) {
-      await Profile.findOneAndUpdate(
-        { username: profile.username },
-        {
-          events: profile.events.map((event, position) => ({
-            isVirtual: event.isVirtual,
-            color: event.color,
-            name: event.name,
-            description: event.description,
-            date: {
-              start: event.date.start,
-              end: event.date.end,
-            },
-            url: event.url,
-            order: position,
-            price: event.price,
-          })),
-        }
-      );
-    }
+    await Profile.findOneAndUpdate(
+      { username: profile.username },
+      {
+        events: profile.events.map((event, position) => ({
+          isVirtual: event.isVirtual,
+          color: event.color,
+          name: event.name,
+          description: event.description,
+          date: {
+            start: event.date.start,
+            end: event.date.end,
+          },
+          url: event.url,
+          order: position,
+          price: event.price,
+        })),
+      }
+    );
   } catch (e) {
     logger.error(e, `failed to update events for ${profile.username}`);
   }
@@ -347,17 +384,19 @@ export default async function handler(req, res) {
   const allProfiles = await Profile.find({ source: "file" });
   const allUsernames = basicProfiles.map((profile) => profile.username);
   const disabledProfiles = [];
-  allProfiles.map(async (profile) => {
-    if (!allUsernames.includes(profile.username)) {
-      disabledProfiles.push(profile.username);
-      return await Profile.findOneAndUpdate(
-        { username: profile.username },
-        { isEnabled: false }
-      );
-    }
+  await Promise.all(
+    allProfiles.map(async (profile) => {
+      if (!allUsernames.includes(profile.username)) {
+        disabledProfiles.push(profile.username);
+        return await Profile.findOneAndUpdate(
+          { username: profile.username },
+          { isEnabled: false }
+        );
+      }
 
-    return;
-  });
+      return;
+    })
+  );
 
   return res.status(200).json({
     message: "success",
