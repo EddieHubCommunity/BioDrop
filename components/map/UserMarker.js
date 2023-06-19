@@ -18,7 +18,7 @@ export default function UserMarker({user}) {
         <div className="flex flex-col gap-[5px]">
           <h1 className="font-[600]">
             <Link
-              href={`https://linkfree.eddiehub.io/${user.username}`}
+              href={`https://linkfree.eddiehub.io/${user.properties.username}`}
             >
               {user.properties.name}
             </Link>
