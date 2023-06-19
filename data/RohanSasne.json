@@ -15,7 +15,11 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@rohansasne30"
+      "url": "https://blog.rohansasne.tech/"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://www.rohansasne.tech/"
     }
   ],
   "links": [
@@ -30,8 +34,13 @@
       "icon": "FaGithub"
     },
     {
+      "name": "Website: Checkout My Profile!",
+      "url": "https://www.rohansasne.tech/",
+      "icon": "FaGlobe"
+    },
+    {
       "name": "I Write Technical Blogs",
-      "url": "https://rohansasne30.hashnode.dev/",
+      "url": "https://blog.rohansasne.tech/",
       "icon": "SiHashnode"
     },
     {
