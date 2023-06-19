@@ -20,7 +20,6 @@
     "dotenv": "^16.0.3",
     "file-saver": "^2.0.5",
     "leaflet": "^1.9.4",
-    "leaflet.markercluster": "^1.5.3",
     "mongoose": "^7.2.0",
     "next": "^13.4.3",
     "next-auth": "^4.22.1",
