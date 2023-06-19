@@ -13,6 +13,7 @@ import Badge from "@components/Badge";
 import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
+
   const [qrShow, setQrShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
@@ -32,6 +33,10 @@ function UserProfile({ BASE_URL, data }) {
       {children}
     </Link>
   );
+
+  if (!data) {
+    return <p className="text-3xl text-primary-low">No profile data</p>;
+  }
 
   return (
     <>

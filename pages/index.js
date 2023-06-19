@@ -24,9 +24,8 @@ import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import config from "@config/app.json";
 import Newsletter from "@components/Newsletter";
-
-import { useEffect, useState } from "react";
 import UserProfile from "@components/user/UserProfile";
+
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
@@ -34,47 +33,23 @@ export async function getStaticProps() {
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
 
+  // Fetch random Profiles
+  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/random`);
+  const data = await response.json();
+
   return {
-    props: { total: totalStats, today: todayStats },
+    props: {
+      total: totalStats,
+      today: todayStats,
+      data,
+    },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Home({ total, today }) {
+export default function Home({ total, today, data }) {
   const router = useRouter();
   const newsletter = router.query.newsletter;
-
-  const [randomProfile, setRandomProfile] = useState(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    let isMounted = true;
-  
-    async function fetchRandomProfile() {
-      try {
-        const res = await fetch("/api/randomProfile");
-        if (!isMounted) {
-          return; // Avoid updating state if the component has unmounted
-        }
-        if (!res.ok) {
-          throw new Error("Failed to fetch random profile");
-        }
-        const data = await res.json();
-        setRandomProfile(data);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching random profile:", error);
-        // Handle the error state or show an error message to the user
-      }
-    }
-  
-    fetchRandomProfile();
-  
-    return () => {
-      isMounted = false; // Cleanup function to prevent state updates on unmounted component
-    };
-  }, []);
-  
 
   const features = [
     {
@@ -266,13 +241,7 @@ export default function Home({ total, today }) {
           </span>
         </h2>
         <div className="mt-10 md:mt-20">
-          {loading ? (
-            <p className="text-3xl text-primary-low">Loading...</p>
-          ) : (
-            <>
-              {randomProfile && <UserProfile data={randomProfile} />}
-            </>
-          )}
+          <UserProfile data={data} />
         </div>
         <BasicCards
           data={[
