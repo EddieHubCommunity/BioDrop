@@ -1,40 +1,45 @@
-## [1.142.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.2...v1.142.3) (2023-06-14)
-
-
-
-## [1.142.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.1...v1.142.2) (2023-06-14)
+## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
 
 
 ### Bug Fixes
 
-* profile links background color on hover ([#7556](https://github.com/EddieHubCommunity/LinkFree/issues/7556)) ([462645b](https://github.com/EddieHubCommunity/LinkFree/commit/462645b64bd190ff2d692f7a27277923231b24f9))
+* remove alert animation ([#7662](https://github.com/EddieHubCommunity/LinkFree/issues/7662)) ([e39065b](https://github.com/EddieHubCommunity/LinkFree/commit/e39065b940edccd08f13bad54bfc5614954d6289))
 
 
 
-## [1.142.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.0...v1.142.1) (2023-06-14)
+## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
 
 
 ### Bug Fixes
 
-* event code formatting ([#7569](https://github.com/EddieHubCommunity/LinkFree/issues/7569)) ([0b45395](https://github.com/EddieHubCommunity/LinkFree/commit/0b45395e0557131fb886b2148b477f7e5ea760c0))
+* remove animate pulse from alert ([#7639](https://github.com/EddieHubCommunity/LinkFree/issues/7639)) ([abdf3ea](https://github.com/EddieHubCommunity/LinkFree/commit/abdf3ea3f8fd2767021f2e82f6c641a69f498c9f))
 
 
 
-# [1.142.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.3...v1.142.0) (2023-06-13)
+## [1.143.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.1...v1.143.2) (2023-06-18)
+
+
+### Bug Fixes
+
+*  statistics and playground base url ([#7640](https://github.com/EddieHubCommunity/LinkFree/issues/7640)) ([8854b4e](https://github.com/EddieHubCommunity/LinkFree/commit/8854b4e491ec70010b2a4517af857abb4cc10b28))
+
+
+
+## [1.143.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.0...v1.143.1) (2023-06-18)
+
+
+### Bug Fixes
+
+* update the LinkFree CLI version ([#7638](https://github.com/EddieHubCommunity/LinkFree/issues/7638)) ([bef374c](https://github.com/EddieHubCommunity/LinkFree/commit/bef374c6dbe8c7ae24b46546aead73ee1faa3ae1))
+
+
+
+# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
 
 
 ### Features
 
-* group events attended by multiple people ([#7156](https://github.com/EddieHubCommunity/LinkFree/issues/7156)) ([5e5424b](https://github.com/EddieHubCommunity/LinkFree/commit/5e5424b961379ce58c2e193aa574b9bad706726b))
-
-
-
-## [1.141.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.2...v1.141.3) (2023-06-12)
-
-
-### Bug Fixes
-
-* release action warnings ([#7538](https://github.com/EddieHubCommunity/LinkFree/issues/7538)) ([315f966](https://github.com/EddieHubCommunity/LinkFree/commit/315f9668ad3862c2b4e3774ecb5e24030982e819))
+* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
 
 
 

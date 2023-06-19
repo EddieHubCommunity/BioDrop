@@ -1,0 +1,61 @@
+{
+  "name": "Jubair Ahmed Nabin",
+  "bio": "CS Graduate | ReactJS | Open To Work | Learning Full Stack Development | Machine Learning",
+  "tags": ["JavaScript", "ReactJS", "Node.js", "Python", "Machine-learning"],
+  "socials": [
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/ahmednabin/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/intent/user?screen_name=ahmednabin"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nabin47"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ahmed_nabin"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Let's share our journey!",
+      "url": "https://twitter.com/intent/user?screen_name=ahmednabin",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/nabin47",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/ahmednabin",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "LeetCode - Love problem-solving?",
+      "url": "https://leetcode.com/nabin47",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow a hobbyist!",
+      "url": "https://www.instagram.com/ahmed_nabin",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Facebook - Let's connect!",
+      "url": "https://www.facebook.com/ahmednabin.16",
+      "icon": "FaFacebookF"
+    }
+  ]
+}
