@@ -1,7 +1,7 @@
 {
   "name": "Ashish Prajapati",
   "bio": "Web Developer in JavaScript | ReactJS | Typescript-React",
-  tags: ["Typescript", "Javascript", "ReactJS", "Open Source"]
+  "tags": ["Typescript", "Javascript", "ReactJS", "Open Source"],
   "links": [
     {
       "name": "Connect on LinkedIn",
