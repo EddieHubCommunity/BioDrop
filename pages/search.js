@@ -16,11 +16,11 @@ import config from "@config/app.json";
 export async function getStaticProps() {
   const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
   let data = {
-    users: [],
     tags: [],
   };
+  let users = [];
   try {
-    data.users = await getUsers();
+    users = await getUsers({ cards: true });
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -31,10 +31,10 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (data.users.length > 5) {
-    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  if (users.length > 5) {
+    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 5);
   } else {
-    data.randUsers = data.users;
+    data.randUsers = users;
   }
 
   return {
@@ -43,13 +43,13 @@ export async function getStaticProps() {
   };
 }
 
-export default function Search({ data: { users, tags, randUsers } }) {
+export default function Search({ data: { tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
-  const [filteredUsers, setFilteredUsers] = useState(randUsers);
+  const [users, setUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-  let results = [];
+
   useEffect(() => {
     if (username) {
       setNotFound(username);
@@ -59,7 +59,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers(randUsers);
+      setUsers(randUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
       return;
@@ -69,50 +69,26 @@ export default function Search({ data: { users, tags, randUsers } }) {
       return;
     }
 
+    async function fetchUsers(value) {
+      try {
+        const res = await fetch(`api/search/${value.replaceAll(",", "/")}`);
+        if (!res.ok && res.status === 404)
+          throw new Error(`${inputValue} not found`);
+        const data = await res.json();
+        setNotFound();
+        setUsers(data.users.sort(() => Math.random() - 0.5));
+      } catch (err) {
+        setNotFound(err);
+        setUsers([]);
+      }
+    }
+
     const timer = setTimeout(() => {
-      filterData(inputValue);
+      fetchUsers(inputValue);
     }, 500);
 
     return () => clearTimeout(timer);
   }, [inputValue]);
-
-  const filterData = (value) => {
-    const cleanedInput = cleanSearchInput(value);
-    const terms = cleanedInput.split(",");
-
-    results = users.filter((user) => {
-      const nameLower = user.name.toLowerCase();
-      const usernameLower = user.username.toLowerCase();
-      const userTagsString = user.tags.join(", ").toLowerCase();
-
-      // check if all search terms/keywords are matching with the the uses
-      const isUserMatched = terms.every((term) => {
-        const cleanedTerm = term.trim();
-
-        if (!cleanedInput) {
-          return false;
-        }
-
-        return (
-          usernameLower.includes(cleanedTerm) ||
-          nameLower.includes(cleanedTerm) ||
-          userTagsString.includes(cleanedTerm)
-        );
-      });
-
-      return isUserMatched;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
-    }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
 
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
@@ -181,8 +157,8 @@ export default function Search({ data: { users, tags, randUsers } }) {
         </div>
 
         <Badge
-          content={filteredUsers.length}
-          display={!!filteredUsers}
+          content={users.length}
+          display={!!users}
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
@@ -194,9 +170,9 @@ export default function Search({ data: { users, tags, randUsers } }) {
           />
         </Badge>
 
-        {notFound && <Alert type="error" message={`${notFound} not found`} />}
+        {notFound && <Alert type="error" message={`${notFound}`} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {filteredUsers.map((user) => (
+          {users.map((user) => (
             <li key={user.username}>
               <UserCard profile={user} />
             </li>
