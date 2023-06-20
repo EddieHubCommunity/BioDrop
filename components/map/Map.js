@@ -1,3 +1,4 @@
+import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import "leaflet/dist/leaflet.css";

@@ -1,8 +1,6 @@
 import Link from "./Link";
 
 export default function Button({
-  icon,
-  text,
   primary = false,
   disable,
   children,

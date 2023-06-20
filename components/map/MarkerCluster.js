@@ -4,6 +4,7 @@ import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet/dist/leaflet.css";
 import "leaflet.markercluster";
 
+// eslint-disable-next-line no-unused-vars
 function createMarkerCluster({ children: _c, ...props }, context) {
   const clusterProps = {chunkedLoading: true};
   const clusterEvents = {};
