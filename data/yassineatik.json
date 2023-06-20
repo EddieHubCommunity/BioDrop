@@ -23,11 +23,20 @@
       "icon": "FaInstagram"
     }
   ],
-  "tags": [ "Open Source","FullStack", "Javascript", "Typescript", "NextJS",  "React" , "Laravel", "PHP" ],
+  "tags": [
+    "Open Source",
+    "FullStack",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "React",
+    "Laravel",
+    "PHP"
+  ],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/IamYassineAtik" },
     { "icon": "FaGithub", "url": "https://github.com/yassineatik" },
     { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/yassineatik/" },
-    { "icon": "SiGmail", "url": "mailto:atikyassine4@gmail.com"}
+    { "icon": "SiGmail", "url": "mailto:atikyassine4@gmail.com" }
   ]
 }
