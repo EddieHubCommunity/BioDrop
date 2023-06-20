@@ -18,7 +18,7 @@ export default function Modal({ show = false, setShow, title, children }) {
           <div className="fixed inset-0 bg-primary-low-medium bg-opacity-75 transition-opacity" />
         </Transition.Child>
 
-        <div className="fixed inset-0 z-10 overflow-y-auto">
+        <div className="w-fit m-auto fixed inset-0 z-10 overflow-y-auto">
           <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
             <Transition.Child
               as={Fragment}
