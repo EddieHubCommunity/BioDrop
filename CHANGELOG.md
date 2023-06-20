@@ -1,3 +1,12 @@
+# [1.144.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.4...v1.144.0) (2023-06-20)
+
+
+### Features
+
+* map clustering ([#7653](https://github.com/EddieHubCommunity/LinkFree/issues/7653)) ([6c0d957](https://github.com/EddieHubCommunity/LinkFree/commit/6c0d957adbb6e5b2b145e2e1d90af8180db9981e))
+
+
+
 ## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update the LinkFree CLI version ([#7638](https://github.com/EddieHubCommunity/LinkFree/issues/7638)) ([bef374c](https://github.com/EddieHubCommunity/LinkFree/commit/bef374c6dbe8c7ae24b46546aead73ee1faa3ae1))
-
-
-
-# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
-
-
-### Features
-
-* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
 
 
 
