@@ -221,6 +221,11 @@ export default function ManageLink({ BASE_URL, username, link }) {
             </div>
           </form>
           <div>
+            {group && (
+              <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
+                {group}
+              </h3>
+            )}
             <UserLink
               BASE_URL={BASE_URL}
               link={{ name, url, icon }}
