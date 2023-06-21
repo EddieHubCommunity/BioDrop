@@ -1,3 +1,21 @@
+## [1.144.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.0...v1.144.1) (2023-06-21)
+
+
+### Bug Fixes
+
+* help button over social links ([#7702](https://github.com/EddieHubCommunity/LinkFree/issues/7702)) ([d889cbd](https://github.com/EddieHubCommunity/LinkFree/commit/d889cbd9df97ffaf825ae92a38024da24aa4a8b4))
+
+
+
+# [1.144.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.4...v1.144.0) (2023-06-20)
+
+
+### Features
+
+* map clustering ([#7653](https://github.com/EddieHubCommunity/LinkFree/issues/7653)) ([6c0d957](https://github.com/EddieHubCommunity/LinkFree/commit/6c0d957adbb6e5b2b145e2e1d90af8180db9981e))
+
+
+
 ## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 *  statistics and playground base url ([#7640](https://github.com/EddieHubCommunity/LinkFree/issues/7640)) ([8854b4e](https://github.com/EddieHubCommunity/LinkFree/commit/8854b4e491ec70010b2a4517af857abb4cc10b28))
-
-
-
-## [1.143.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.0...v1.143.1) (2023-06-18)
-
-
-### Bug Fixes
-
-* update the LinkFree CLI version ([#7638](https://github.com/EddieHubCommunity/LinkFree/issues/7638)) ([bef374c](https://github.com/EddieHubCommunity/LinkFree/commit/bef374c6dbe8c7ae24b46546aead73ee1faa3ae1))
-
-
-
-# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
-
-
-### Features
-
-* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
 
 
 

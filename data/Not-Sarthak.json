@@ -1,0 +1,21 @@
+{
+  "name": "Sarthak Shah",
+  "bio": "I believe in Dream, Build, Ship",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/0xSarthak13",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Do visit and follow my Github",
+      "url": "https://github.com/Not-Sarthak",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/sarthak-shah-49267b224/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
