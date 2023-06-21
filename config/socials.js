@@ -2,7 +2,7 @@
 
 import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
 
-export const socialShareLinks = [
+export const socials = [
   {
     href: "https://twitter.com/intent/tweet?url=",
     Icon: BsTwitter,

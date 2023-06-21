@@ -13,7 +13,7 @@ import Badge from "@components/Badge";
 import Button from "@components/Button";
 import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
-import { socialShareLinks } from "@config/sociallinks";
+import { socials } from "@config/socials";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -89,7 +89,7 @@ function UserProfile({ BASE_URL, data }) {
       )}
 
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
-      <Modal show={qrShow} setShow={setQrShow}>
+      <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
         <div className="flex flex-col items-center justify-center px-8">
           <div>
             <div className="flex justify-center my-4" ref={qrRef}>
@@ -112,7 +112,7 @@ function UserProfile({ BASE_URL, data }) {
           {qrShow && (
             <>
               <div className="h-full m-4 p-2 flex flex-row items-start justify-center space-x-2">
-                {socialShareLinks.map(({ href, Icon, includeText }) => (
+                {socials.map(({ href, Icon, includeText }) => (
                   <a
                     key={href}
                     href={`${href}${BASE_URL}/${data.username}${
