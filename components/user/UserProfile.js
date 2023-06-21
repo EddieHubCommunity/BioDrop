@@ -33,11 +33,7 @@ function UserProfile({ BASE_URL, data }) {
       {children}
     </Link>
   );
-
-  if (!data) {
-    return <p className="text-3xl text-primary-low">No profile data</p>;
-  }
-
+  
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
