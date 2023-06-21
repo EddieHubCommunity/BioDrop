@@ -1,3 +1,4 @@
+import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Link from "@components/Link";

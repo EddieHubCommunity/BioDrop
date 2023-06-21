@@ -102,7 +102,7 @@ export default async function handler(req, res) {
       { upsert: true }
     );
   } catch (e) {
-    logger.error(e, `failed incrementing platform stats for ${data}`);
+    logger.error(e, `failed incrementing platform stats for ${date}`);
   }
 
   return res.status(201).redirect(decodeURIComponent(url));

@@ -20,5 +20,5 @@ export default function DropdownMenu({ eventType, handleEventTypeChange, options
       </select>
     </div>
   );
-};
+}
 

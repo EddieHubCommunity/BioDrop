@@ -1,5 +1,4 @@
 import { MapContainer, TileLayer } from "react-leaflet";
-import Link from "@components/Link";
 import Clusters from "./Clusters";
 import "leaflet/dist/leaflet.css";
 
