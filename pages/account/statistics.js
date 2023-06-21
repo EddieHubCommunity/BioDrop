@@ -15,6 +15,7 @@ import {
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getStats } from "../api/account/statistics";
+import { getAccountByProviderAccountId, associateProfileWithAccountIfAbsentAndReturnAccount } from "../api/account/account";
 import logger from "@config/logger";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -35,8 +36,13 @@ export async function getServerSideProps(context) {
       },
     };
   }
+
+  let account = await getAccountByProviderAccountId(session.user.id);
+
   const username = session.username;
   const { status, profile } = await getUserApi(req, res, username);
+
+  //This code will be updated once issue #7349 is fixed. Profile mapping will also be checked from account.
   if (status !== 200) {
     logger.error(
       profile.error,
@@ -49,6 +55,11 @@ export async function getServerSideProps(context) {
         permanent: false,
       },
     };
+  }
+
+  //Linking a profile to an account is a one-time process. Subsequent logins will disregard any attempt to add the profile again.  
+  if (account) {
+    await associateProfileWithAccountIfAbsentAndReturnAccount(account, profile._id);
   }
 
   let data = {};

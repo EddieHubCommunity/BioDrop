@@ -54,6 +54,10 @@ const AccountSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    profiles: [{
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Profile',
+    }],
   },
   { timestamps: true }
 );
