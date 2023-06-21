@@ -13,7 +13,7 @@ import Badge from "@components/Badge";
 import Button from "@components/Button";
 import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
-import { socialShareLinks } from "@services/utils/constants";
+import { socialShareLinks } from "@config/sociallinks";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
