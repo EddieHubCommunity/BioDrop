@@ -1,3 +1,12 @@
+## [1.144.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.2...v1.144.3) (2023-06-21)
+
+
+### Bug Fixes
+
+* layout for newsletter signup ([#7681](https://github.com/EddieHubCommunity/LinkFree/issues/7681)) ([4205a60](https://github.com/EddieHubCommunity/LinkFree/commit/4205a60aa1bec0827bf95a0d0c23699bb289cddb))
+
+
+
 ## [1.144.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.1...v1.144.2) (2023-06-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove alert animation ([#7662](https://github.com/EddieHubCommunity/LinkFree/issues/7662)) ([e39065b](https://github.com/EddieHubCommunity/LinkFree/commit/e39065b940edccd08f13bad54bfc5614954d6289))
-
-
-
-## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
-
-
-### Bug Fixes
-
-* remove animate pulse from alert ([#7639](https://github.com/EddieHubCommunity/LinkFree/issues/7639)) ([abdf3ea](https://github.com/EddieHubCommunity/LinkFree/commit/abdf3ea3f8fd2767021f2e82f6c641a69f498c9f))
 
 
 
