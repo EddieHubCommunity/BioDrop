@@ -43,7 +43,12 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageLink({ BASE_URL, username, link }) {
-  const [showNotification, setShowNotification] = useState(false);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
   const [edit, setEdit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group);
   const [name, setName] = useState(link.name);
@@ -64,8 +69,25 @@ export default function ManageLink({ BASE_URL, username, link }) {
         body: JSON.stringify({ group, name, url, icon, isEnabled, isPinned }),
       }
     );
-    await res.json();
-    setShowNotification(true);
+    const update = await res.json();
+
+    if (update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Link add/update failed",
+        additionalMessage: `Please check the fields: ${Object.keys(
+          update.message
+        ).join(", ")}`,
+      });
+    }
+
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Link added/updated",
+      additionalMessage: "Your Link has been added/updated successfully",
+    });
   };
 
   return (
@@ -79,11 +101,13 @@ export default function ManageLink({ BASE_URL, username, link }) {
         <Navigation />
 
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Link saved"
-          additionalMessage="Your link information has been saved successfully."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
@@ -110,6 +134,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       label="Group"
                       onChange={(e) => setGroup(e.target.value)}
                       value={group}
+                      minLength="2"
+                      maxLength="64"
                     />
                     <p className="text-sm text-gray-500">
                       You can{" "}
@@ -124,12 +150,16 @@ export default function ManageLink({ BASE_URL, username, link }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="url"
                       name="url"
                       label="URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
                       disabled={edit}
                       readOnly={edit}
+                      required
+                      minLength="2"
+                      maxLength="256"
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>https://twitter.com/eddiejaoude</i>
@@ -141,6 +171,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       label="Display Name"
                       onChange={(e) => setName(e.target.value)}
                       value={name}
+                      required
+                      minLength="2"
+                      maxLength="32"
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>Follow me on Twitter</i>
@@ -152,6 +185,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       label="Icon"
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
+                      required
+                      minLength="2"
+                      maxLength="32"
                     />
                     <p className="text-sm text-gray-500">
                       Search for available{" "}

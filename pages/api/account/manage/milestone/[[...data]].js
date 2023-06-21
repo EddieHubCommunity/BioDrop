@@ -5,6 +5,7 @@ import { ObjectId } from "bson";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import { Milestone } from "@models/Profile/Milestone";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -26,9 +27,9 @@ export default async function handler(req, res) {
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
-      milestone = await updateMilstoneApi(username, data[0], req.body);
+      milestone = await updateMilestoneApi(username, data[0], req.body);
     } else {
-      milestone = await addMilstoneApi(username, req.body);
+      milestone = await addMilestoneApi(username, req.body);
     }
   }
 
@@ -70,11 +71,28 @@ export async function getMilestoneApi(username, id) {
   return JSON.parse(JSON.stringify(getMilestone[0]));
 }
 
-export async function updateMilstoneApi(username, id, milestone) {
+export async function updateMilestoneApi(username, id, updateMilestone) {
   await connectMongo();
   const log = logger.child({ username });
 
   let getMilestone = {};
+
+  try {
+    await Milestone.validate(updateMilestone, [
+      "url",
+      "date",
+      "title",
+      "icon",
+      "description",
+    ]);
+  } catch (e) {
+    log.error(
+      e,
+      `validation failed to update milestone for username: ${username}`
+    );
+    return { error: e.errors };
+  }
+
   try {
     getMilestone = await Profile.findOneAndUpdate(
       {
@@ -84,10 +102,10 @@ export async function updateMilstoneApi(username, id, milestone) {
       {
         $set: {
           source: "database",
-          "milestones.$": milestone,
+          "milestones.$": updateMilestone,
         },
       },
-      { upsert: true }
+      { upsert: true, new: true }
     );
   } catch (e) {
     log.error(e, `failed to update milestone for username: ${username}`);
@@ -96,22 +114,39 @@ export async function updateMilstoneApi(username, id, milestone) {
   return JSON.parse(JSON.stringify(getMilestone));
 }
 
-export async function addMilstoneApi(username, milestone) {
+export async function addMilestoneApi(username, addMilestone) {
   await connectMongo();
   const log = logger.child({ username });
   let getMilestone = {};
+
+  try {
+    await Milestone.validate(addMilestone, [
+      "url",
+      "date",
+      "title",
+      "icon",
+      "description",
+    ]);
+  } catch (e) {
+    log.error(
+      e,
+      `validation failed to add milestone for username: ${username}`
+    );
+    return { error: e.errors };
+  }
+
   try {
     getMilestone = await Profile.findOneAndUpdate(
       {
         username,
       },
       {
-        $push: { milestones: milestone },
+        $push: { milestones: addMilestone },
       },
-      { upsert: true }
+      { upsert: true, new: true }
     );
   } catch (e) {
-    log.error(e, `failed to update milestone for username: ${username}`);
+    log.error(e, `failed to add milestone for username: ${username}`);
   }
 
   return JSON.parse(JSON.stringify(getMilestone));

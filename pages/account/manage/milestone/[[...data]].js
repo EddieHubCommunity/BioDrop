@@ -43,11 +43,20 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageMilestone({ BASE_URL, milestone }) {
-  const [showNotification, setShowNotification] = useState(false);
-  const [title, setTitle] = useState(milestone.title);
-  const [description, setDescription] = useState(milestone.description);
-  const [url, setUrl] = useState(milestone.url);
-  const [icon, setIcon] = useState(milestone.icon);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
+  const [title, setTitle] = useState(
+    milestone.title || "Title of your Milestone"
+  );
+  const [description, setDescription] = useState(
+    milestone.description || "Description of your Milestone"
+  );
+  const [url, setUrl] = useState(milestone.url || "");
+  const [icon, setIcon] = useState(milestone.icon || "FaGithub");
   const [date, setDate] = useState(milestone.date);
   const [isGoal, setIsGoal] = useState(milestone.isGoal);
 
@@ -75,8 +84,25 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       },
       body: JSON.stringify(putMilestone),
     });
-    await res.json();
-    setShowNotification(true);
+    const update = await res.json();
+
+    if (update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Milestone update failed",
+        additionalMessage: `Please check the fields: ${Object.keys(
+          update.message
+        ).join(", ")}`,
+      });
+    }
+
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Milestone added/updated",
+      additionalMessage: "Your milestone has been added/updated successfully",
+    });
   };
 
   return (
@@ -90,11 +116,13 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         <Navigation />
 
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Milestone saved"
-          additionalMessage="Your milestone information has been saved successfully."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
@@ -117,6 +145,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Milestone Title"
                       onChange={(e) => setTitle(e.target.value)}
                       value={title}
+                      required
+                      minLength="2"
+                      maxLength="256"
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>GitHub Star</i>
@@ -128,6 +159,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Description"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
+                      required
+                      minLength="2"
+                      maxLength="512"
                     />
                     <p className="text-sm text-gray-500">
                       Describe this Milestone
@@ -135,10 +169,13 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="url"
                       name="url"
                       label="URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
+                      minLength="2"
+                      maxLength="256"
                     />
                     <p className="text-sm text-gray-500">
                       Link to more information (optional)
@@ -146,13 +183,15 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="date"
                       name="date"
                       label="Date"
                       onChange={(e) => setDate(e.target.value)}
                       value={date}
+                      required
                     />
                     <p className="text-sm text-gray-500">
-                      For example: <i>May 2010</i>
+                      For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
@@ -161,6 +200,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Icon"
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
+                      required
+                      minLength="2"
+                      maxLength="32"
                     />
                     <p className="text-sm text-gray-500">
                       Search for available{" "}

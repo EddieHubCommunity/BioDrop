@@ -54,6 +54,17 @@ export async function updateLinkApi(username, url, data) {
   const log = logger.child({ username });
 
   let getLink = {};
+
+  try {
+    await Link.validate(data, ["group", "name", "icon", "url"]);
+  } catch (e) {
+    log.error(
+      e,
+      `validation failed to add/update link for username: ${username}`
+    );
+    return { error: e.errors };
+  }
+
   try {
     getLink = await Link.findOneAndUpdate(
       {

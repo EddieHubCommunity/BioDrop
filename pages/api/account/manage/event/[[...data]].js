@@ -5,6 +5,7 @@ import { ObjectId } from "bson";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import { Event } from "@models/Profile/Event";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -70,11 +71,19 @@ export async function getEventApi(username, id) {
   return JSON.parse(JSON.stringify(getEvent[0]));
 }
 
-export async function updateEventApi(username, id, event) {
+export async function updateEventApi(username, id, updateEvent) {
   await connectMongo();
   const log = logger.child({ username });
 
   let getEvent = {};
+
+  try {
+    await Event.validate(updateEvent, ["name", "description", "url", "date"]);
+  } catch (e) {
+    log.error(e, `validation failed to update event for username: ${username}`);
+    return { error: e.errors };
+  }
+
   try {
     getEvent = await Profile.findOneAndUpdate(
       {
@@ -84,7 +93,7 @@ export async function updateEventApi(username, id, event) {
       {
         $set: {
           source: "database",
-          "events.$": event,
+          "events.$": updateEvent,
         },
       },
       { upsert: true }
@@ -96,17 +105,26 @@ export async function updateEventApi(username, id, event) {
   return JSON.parse(JSON.stringify(getEvent));
 }
 
-export async function addEventApi(username, event) {
+export async function addEventApi(username, addEvent) {
   await connectMongo();
   const log = logger.child({ username });
+
   let getEvent = {};
+
+  try {
+    await Event.validate(addEvent, ["name", "description", "url", "date"]);
+  } catch (e) {
+    log.error(e, `validation failed to add event for username: ${username}`);
+    return { error: e.errors };
+  }
+
   try {
     getEvent = await Profile.findOneAndUpdate(
       {
         username,
       },
       {
-        $push: { events: event },
+        $push: { events: addEvent },
       },
       { upsert: true }
     );

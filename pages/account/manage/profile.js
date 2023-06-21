@@ -63,11 +63,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     additionalMessage: "",
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
-  const [name, setName] = useState(profile.name);
+  const [name, setName] = useState(profile.name || "Your name");
   const [bio, setBio] = useState(
     profile.bio || "Have a look at my links below..."
   );
-  const [tags, setTags] = useState(profile.tags || []);
+  const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
   const layouts = ["classic", "inline"];
 
   const handleSubmit = async (e) => {

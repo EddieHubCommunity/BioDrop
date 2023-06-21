@@ -1,6 +1,9 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
-const ProfileSchema = new mongoose.Schema(
+import { MilestoneSchema } from "./Profile/Milestone";
+import { EventSchema } from "./Profile/Event";
+
+const ProfileSchema = new Schema(
   {
     source: {
       type: String,
@@ -55,42 +58,12 @@ const ProfileSchema = new mongoose.Schema(
     },
     links: {
       default: [],
-      type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
+      type: [{ type: Schema.Types.ObjectId, ref: "Link" }],
     },
-    milestones: [
-      {
-        url: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 256,
-        },
-        date: {
-          type: Date,
-          required: true,
-        },
-        isGoal: Boolean,
-        title: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 256,
-        },
-        icon: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 32,
-        },
-        description: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 512,
-        },
-        order: Number,
-      },
-    ],
+    milestones: {
+      type: [MilestoneSchema],
+      default: [],
+    },
     testimonials: [
       {
         username: {
@@ -119,44 +92,10 @@ const ProfileSchema = new mongoose.Schema(
         isPinned: Boolean,
       },
     ],
-    events: [
-      {
-        isVirtual: Boolean,
-        color: String,
-        name: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 256,
-        },
-        description: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 512,
-        },
-        date: {
-          start: {
-            type: Date,
-            required: true,
-          },
-          end: {
-            type: Date,
-            required: true,
-          },
-        },
-        url: {
-          type: String,
-          required: true,
-          min: 2,
-          max: 256,
-        },
-        order: Number,
-        price: {
-          startingFrom: Number,
-        },
-      },
-    ],
+    events: {
+      type: [EventSchema],
+      default: [],
+    },
   },
   { timestamps: true }
 );

@@ -1,4 +1,5 @@
 export default function Input({
+  type = "text",
   name,
   value,
   placeholder,
@@ -14,7 +15,7 @@ export default function Input({
         </label>
       )}
       <input
-        type="text"
+        type={type}
         placeholder={placeholder}
         className={`border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full ${
           disabled

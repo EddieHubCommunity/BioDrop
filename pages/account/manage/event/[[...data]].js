@@ -42,11 +42,18 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageEvent({ BASE_URL, event }) {
-  const [showNotification, setShowNotification] = useState(false);
-  const [isVirtual, setIsVirtual] = useState(event.isVirtual);
-  const [name, setName] = useState(event.name);
-  const [description, setDescription] = useState(event.description);
-  const [url, setUrl] = useState(event.url);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
+  const [isVirtual, setIsVirtual] = useState(event.isVirtual || true);
+  const [name, setName] = useState(event.name || "Official name of the Event");
+  const [description, setDescription] = useState(
+    event.description || "Description of the event from their website"
+  );
+  const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState(event.date?.start);
   const [endDate, setEndDate] = useState(event.date?.end);
   const [price, setPrice] = useState(event.price);
@@ -75,8 +82,25 @@ export default function ManageEvent({ BASE_URL, event }) {
       },
       body: JSON.stringify(putEvent),
     });
-    await res.json();
-    setShowNotification(true);
+    const update = await res.json();
+
+    if (update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Event add/update failed",
+        additionalMessage: `Please check the fields: ${Object.keys(
+          update.message
+        ).join(", ")}`,
+      });
+    }
+
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Event added/updated",
+      additionalMessage: "Your event has been added/updated successfully",
+    });
   };
 
   return (
@@ -90,11 +114,13 @@ export default function ManageEvent({ BASE_URL, event }) {
         <Navigation />
 
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Event saved"
-          additionalMessage="Your Event information has been saved successfully."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
@@ -117,6 +143,9 @@ export default function ManageEvent({ BASE_URL, event }) {
                       label="Event Name"
                       onChange={(e) => setName(e.target.value)}
                       value={name}
+                      required
+                      minLength="2"
+                      maxLength="256"
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>EddieCon v0.1</i>
@@ -132,18 +161,24 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="url"
                       name="url"
                       label="Event URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
+                      required
+                      minLength="2"
+                      maxLength="256"
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="date"
                       name="date"
                       label="Start Date"
                       onChange={(e) => setStartDate(e.target.value)}
                       value={startDate}
+                      required
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>2022-12-09T16:00:00.000+00:00</i>
@@ -151,13 +186,15 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="date"
                       name="date"
                       label="End Date"
                       onChange={(e) => setEndDate(e.target.value)}
                       value={endDate}
+                      required
                     />
                     <p className="text-sm text-gray-500">
-                      For example: <i>2022-12-10T16:00:00.000+00:00</i>
+                      For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
