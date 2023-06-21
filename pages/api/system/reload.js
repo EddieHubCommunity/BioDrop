@@ -68,13 +68,13 @@ function findOneByUsernameFull(data) {
               )
             ),
             username: username,
-            isPinned: !!data.testimonials.includes(username),
+            isPinned: !!data.testimonials?.includes(username) ?? false,
           };
         });
 
       data = { ...data, testimonials: allTestimonials };
     } else {
-      data = { ...data };
+      data = { ...data, testimonials: [] };
     }
   } catch (e) {
     logger.error(e, `failed to list testimonials for ${username}`);
@@ -122,13 +122,17 @@ function findOneByUsernameFull(data) {
     data.links = links;
   }
 
-  try {
-    extendedProfileSchema.parse(data);
-  } catch (err) {
-    logger.error(err, `failed to parse profile for ${username}`);
-  }
+  const result = extendedProfileSchema.safeParse(data);
 
-  return data;
+  if (result.success) {
+    return data;
+  } else {
+    logger.error(
+      result.error.issues,
+      `failed to parse profile for ${username}`
+    );
+    return null;
+  }
 }
 
 async function updateProfileLinks(profile, currentProfile) {
@@ -326,9 +330,9 @@ export default async function handler(req, res) {
 
   // 1. load all profiles
   const basicProfiles = findAllBasic();
-  const fullProfiles = basicProfiles.map((profile) =>
-    findOneByUsernameFull(profile)
-  );
+  const fullProfiles = basicProfiles
+    .map((profile) => findOneByUsernameFull(profile))
+    .filter((profile) => profile !== null);
 
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)

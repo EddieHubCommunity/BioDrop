@@ -180,7 +180,7 @@ export default function Playground() {
           }}
         />
 
-        <span class="mb-5">
+        <span className="mb-5">
           {errors.map((error, idx) => {
             return (
               <p key={idx} className="text-red-500">
