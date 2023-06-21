@@ -11,7 +11,7 @@ import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let events = await getEvents();
 
   return {

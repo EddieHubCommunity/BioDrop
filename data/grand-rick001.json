@@ -54,6 +54,14 @@
   ],
   "milestones": [
     {
+      "title": "Became a Gold fellow at THE ROOM",
+      "date": "June 2023",
+      "icon": "FaRegSmileBeam",
+      "color": "#ba9731",
+      "description": "After completing an ALX tech program, I was selected to become a Gold fellow at the room, The Room fellowship is a community of ALX graduates that have successfully graduated from its programs, and the Gold fellowship consists of the top 5-10% of the graduates. I'm very happy for this opportunity and feel very privileged to be joining the top tech talent pool in Africa. Looking forward to what this experience unfolds! More info on their website: https://tech.theroom.com/gold-fellowship",
+      "url": "https://tech.theroom.com/gold-fellowship"
+    },
+    {
       "title": "Became a Postman Student Leader",
       "date": "March 2023",
       "icon": "SiPostman",
@@ -62,7 +70,7 @@
       "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA"
     },
     {
-      "title": "Got my first internship at 19!",
+      "title": "Got my first internship!",
       "date": "May 2023",
       "icon": "FaDev",
       "color": "#d84773",

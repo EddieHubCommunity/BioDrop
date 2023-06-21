@@ -2,7 +2,7 @@ import { User, Account, Session, VerificationToken } from "@models/index"
 
 
 /** @return { import("next-auth/adapters").Adapter } */
-export default function DbAdapter(client, options = {}) {
+export default function DbAdapter(client) {
   return {
     async createUser(data) {
       await client();

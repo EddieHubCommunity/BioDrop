@@ -14,7 +14,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "error":
       return (
         <div
@@ -25,7 +24,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "warning":
       return (
         <div
@@ -36,7 +34,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "info":
       return (
         <div
@@ -47,6 +44,5 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
   }
 }
