@@ -1,3 +1,12 @@
+## [1.144.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.4...v1.144.5) (2023-06-21)
+
+
+### Bug Fixes
+
+* linting ([#7705](https://github.com/EddieHubCommunity/LinkFree/issues/7705)) ([a406417](https://github.com/EddieHubCommunity/LinkFree/commit/a4064172495e7db56f02188b653ddc3798dd39de))
+
+
+
 ## [1.144.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.3...v1.144.4) (2023-06-21)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * help button over social links ([#7702](https://github.com/EddieHubCommunity/LinkFree/issues/7702)) ([d889cbd](https://github.com/EddieHubCommunity/LinkFree/commit/d889cbd9df97ffaf825ae92a38024da24aa4a8b4))
-
-
-
-# [1.144.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.4...v1.144.0) (2023-06-20)
-
-
-### Features
-
-* map clustering ([#7653](https://github.com/EddieHubCommunity/LinkFree/issues/7653)) ([6c0d957](https://github.com/EddieHubCommunity/LinkFree/commit/6c0d957adbb6e5b2b145e2e1d90af8180db9981e))
 
 
 
