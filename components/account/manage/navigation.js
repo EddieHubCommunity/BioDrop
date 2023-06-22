@@ -1,5 +1,5 @@
 import Link from "@components/Link";
-import { useRouter } from "next/router";
+import Router, { useRouter } from "next/router";
 import {
   MdPerson,
   MdOutlineAutoGraph,
@@ -67,6 +67,9 @@ export default function Navigation() {
     return { ...tab, current: false };
   });
 
+  const changeTab = (e) =>
+    Router.push(tabs.find((tab) => tab.name === e.target?.value).href);
+
   return (
     <div className="mb-6">
       <div className="sm:hidden">
@@ -78,6 +81,7 @@ export default function Navigation() {
           name="tabs"
           className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
           defaultValue={tabs.find((tab) => tab.current).name}
+          onChange={changeTab}
         >
           {tabs.map((tab) => (
             <option key={tab.name}>{tab.name}</option>
