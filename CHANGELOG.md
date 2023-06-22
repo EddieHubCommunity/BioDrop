@@ -1,3 +1,7 @@
+## [1.144.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.5...v1.144.6) (2023-06-22)
+
+
+
 ## [1.144.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.4...v1.144.5) (2023-06-21)
 
 
@@ -26,15 +30,6 @@
 ### Bug Fixes
 
 * playground scroll modal ([#7712](https://github.com/EddieHubCommunity/LinkFree/issues/7712)) ([8e703ba](https://github.com/EddieHubCommunity/LinkFree/commit/8e703bad66d5a3203c18bf622062921c6a35a5cf))
-
-
-
-## [1.144.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.0...v1.144.1) (2023-06-21)
-
-
-### Bug Fixes
-
-* help button over social links ([#7702](https://github.com/EddieHubCommunity/LinkFree/issues/7702)) ([d889cbd](https://github.com/EddieHubCommunity/LinkFree/commit/d889cbd9df97ffaf825ae92a38024da24aa4a8b4))
 
 
 
