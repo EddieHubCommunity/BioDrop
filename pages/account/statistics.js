@@ -13,7 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
 import Link from "@components/Link";
-const DynamicChart = dynamic(() => import("../../components/statistics/StatsChart"));
+const DynamicChart = dynamic(() => import("../../components/statistics/StatsChart"), {ssr: false});
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
