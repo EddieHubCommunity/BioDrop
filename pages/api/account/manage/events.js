@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
 
-  const data = await getStats(session.username);
+  const data = await getEventsApi(session.username);
 
   return res.status(200).json(data);
 }
@@ -28,10 +28,24 @@ export async function getEventsApi(username) {
 
   let getEvents = [];
   try {
-    const profile = await Profile.findOne({ username }).sort({
-      date: 1,
-    });
-    getEvents = profile.events;
+    getEvents = await Profile.aggregate([
+      {
+        $match: {
+          username,
+        },
+      },
+      {
+        $unwind: "$events",
+      },
+      {
+        $replaceRoot: {
+          newRoot: "$events",
+        },
+      },
+      {
+        $sort: { date: 1 },
+      },
+    ]);
   } catch (e) {
     log.error(e, `failed to get events for username: ${username}`);
   }

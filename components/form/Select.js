@@ -1,7 +1,6 @@
 export default function Select({
   name,
   value,
-  placeholder,
   label,
   options = [],
   ...restProps

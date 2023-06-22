@@ -34,7 +34,10 @@ export default function EventCard({ manage, event, usernames }) {
           new Date(event.date.end)
         )
       );
-    } catch (e) {}
+    } catch (e) {
+      setStartTime(event.date.start);
+      setEndTime(event.date.end);
+    }
   }, [event.date]);
 
   const item = (event) => (

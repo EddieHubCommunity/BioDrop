@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
 
-  const data = await getStats(session.username);
+  const data = await getLinksApi(session.username);
 
   return res.status(200).json(data);
 }

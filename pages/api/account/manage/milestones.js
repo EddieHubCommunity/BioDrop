@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
 
-  const data = await getStats(session.username);
+  const data = await getMilestonesApi(session.username);
 
   return res.status(200).json(data);
 }
@@ -28,10 +28,24 @@ export async function getMilestonesApi(username) {
 
   let getMilestones = [];
   try {
-    const profile = await Profile.findOne({ username }).sort({
-      date: 1,
-    });
-    getMilestones = profile.milestones;
+    getMilestones = await Profile.aggregate([
+      {
+        $match: {
+          username,
+        },
+      },
+      {
+        $unwind: "$milestones",
+      },
+      {
+        $replaceRoot: {
+          newRoot: "$milestones",
+        },
+      },
+      {
+        $sort: { date: 1 },
+      },
+    ]);
   } catch (e) {
     log.error(e, `failed to get milestones for username: ${username}`);
   }

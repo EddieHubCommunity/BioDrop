@@ -49,7 +49,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     message: "",
     additionalMessage: "",
   });
-  const [edit, setEdit] = useState(link._id ? true : false);
+  const [edit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group);
   const [name, setName] = useState(link.name);
   const [url, setUrl] = useState(link.url);

@@ -37,7 +37,24 @@ export async function getTestimonialsApi(username) {
   await connectMongo();
   const log = logger.child({ username });
 
-  let getTestimonials = (await Profile.findOne({ username })).testimonials;
+  let getTestimonials = await Profile.aggregate([
+    {
+      $match: {
+        username,
+      },
+    },
+    {
+      $unwind: "$testimonials",
+    },
+    {
+      $replaceRoot: {
+        newRoot: "$testimonials",
+      },
+    },
+    {
+      $sort: { isPinned: 1, date: -1 },
+    },
+  ]);
 
   if (!getTestimonials) {
     log.info(`Testimonials not found for username: ${username}`);
