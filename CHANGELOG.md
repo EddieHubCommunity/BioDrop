@@ -1,3 +1,12 @@
+## [1.144.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.6...v1.144.7) (2023-06-22)
+
+
+### Bug Fixes
+
+* file count diagnostics to vercel deploy ([#7736](https://github.com/EddieHubCommunity/LinkFree/issues/7736)) ([171be92](https://github.com/EddieHubCommunity/LinkFree/commit/171be92378180e174474fc4207223e6218f9066c))
+
+
+
 ## [1.144.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.5...v1.144.6) (2023-06-22)
 
 
@@ -21,15 +30,6 @@
 ### Bug Fixes
 
 * layout for newsletter signup ([#7681](https://github.com/EddieHubCommunity/LinkFree/issues/7681)) ([4205a60](https://github.com/EddieHubCommunity/LinkFree/commit/4205a60aa1bec0827bf95a0d0c23699bb289cddb))
-
-
-
-## [1.144.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.1...v1.144.2) (2023-06-21)
-
-
-### Bug Fixes
-
-* playground scroll modal ([#7712](https://github.com/EddieHubCommunity/LinkFree/issues/7712)) ([8e703ba](https://github.com/EddieHubCommunity/LinkFree/commit/8e703bad66d5a3203c18bf622062921c6a35a5cf))
 
 
 
