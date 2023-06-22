@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
