@@ -21,7 +21,7 @@ jobs:
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: deploy preview + assign beta domain
         run: |
-          du --inodes -d 5 .vercel/output
+          du --inodes -d 6 .vercel/output
           ls -l .vercel/output/functions
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
           vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-preview.vercel.app
