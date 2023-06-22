@@ -9,8 +9,8 @@ import Link from "@components/Link";
 import { useTheme } from "next-themes";
 
 import FaGithub from "@components/icons/FaGithub";
-import { SunIcon } from "@heroicons/react/20/solid";
-import { MoonIcon } from "@heroicons/react/20/solid";
+import SunIcon from "@heroicons/react/20/solid/SunIcon";
+import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
