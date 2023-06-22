@@ -1,0 +1,29 @@
+{
+  "name": "Shreyansh Shukla",
+  "displayStatsPublic":"true",
+  "bio": "Student👨🏽‍🎓 • DSA👨🏽‍💻 • Python • Java •  Learning in Public👤 • Love Open Source💜"
+  "type": "personal",
+  "avatar":"https://github.com/shreyanshs31.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShreyanshS31",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/shreyanshs31",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/shreyansh-shukla-5970b3247/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on leetcode",
+      "url": "https://leetcode.com/shreyanshs31/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}
