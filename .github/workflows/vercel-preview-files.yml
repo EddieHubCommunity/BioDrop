@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - manage-forms
+      - deploy-files
 
 jobs:
   deploy:
