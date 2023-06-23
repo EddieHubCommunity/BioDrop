@@ -1,0 +1,28 @@
+{
+  "name": "Leon Nunes",
+  "bio": "Tinkerer, loves to go down rabbit holes",
+  "socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mediocreDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://twitch.tv/leon_nunes",
+      "icon": "FaTwitch"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mediocreDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://twitch.tv/leon_nunes",
+      "icon": "FaTwitch"
+    }
+  ]
+}

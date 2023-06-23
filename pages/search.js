@@ -20,7 +20,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers({ cards: true });
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -47,67 +47,14 @@ export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
-
   const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
   let results = [];
-
   useEffect(() => {
     if (username) {
       setNotFound(username);
     }
   }, [username]);
-
-  const filterData = (value) => {
-    const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
-
-    results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
-
-      return false;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
-    }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
-
-  const search = (keyword) => {
-    if (!inputValue.length) {
-      return setInputValue(keyword);
-    }
-
-    const items = inputValue.split(",");
-    if (inputValue.length) {
-      if (items.includes(keyword)) {
-        return setInputValue(
-          items.filter((item) => item !== keyword).join(",")
-        );
-      }
-
-      return setInputValue([...items, keyword].join(","));
-    }
-
-    setInputValue(keyword);
-  };
 
   useEffect(() => {
     if (!inputValue) {
@@ -129,6 +76,88 @@ export default function Search({ data: { users, tags, randUsers } }) {
     return () => clearTimeout(timer);
   }, [inputValue]);
 
+  const filterData = (value) => {
+    const cleanedInput = cleanSearchInput(value);
+    const terms = cleanedInput.split(",");
+
+    results = users.filter((user) => {
+      const nameLower = user.name.toLowerCase();
+      const usernameLower = user.username.toLowerCase();
+      const userTagsString = user.tags.join(", ").toLowerCase();
+      const userLocationString = user.location ? user.location.provided.toLowerCase() : "";
+
+      // check if all search terms/keywords are matching with the the uses
+      const isUserMatched = terms.every((term) => {
+        const cleanedTerm = term.trim();
+
+        if (!cleanedInput) {
+          return false;
+        }
+
+        return (
+          usernameLower.includes(cleanedTerm) ||
+          nameLower.includes(cleanedTerm) ||
+          userTagsString.includes(cleanedTerm) ||
+          userLocationString.includes(cleanedTerm)
+        );
+      });
+
+      return isUserMatched;
+    });
+
+    if (!results.length) {
+      setNotFound(value);
+    }
+
+    if (results.length) {
+      setNotFound();
+    }
+
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
+  };
+
+  const search = (keyword) => {
+    const cleanedInput = cleanSearchInput(inputValue);
+
+    if (!cleanedInput.length) {
+      return setInputValue(keyword);
+    }
+
+    const items = cleanedInput.split(",");
+
+    if (cleanedInput.length) {
+      if (searchTagNameInInput(inputValue, keyword)) {
+        return setInputValue(
+          items.filter((item) => item.trim() !== keyword).join(",")
+        );
+      }
+
+      return setInputValue([...items, keyword].join(","));
+    }
+
+    setInputValue(keyword);
+  };
+
+  // removes leading/trailing whitespaces and extra spaces and converted to lowercase
+  const cleanSearchInput = (searchInput) => {
+    return searchInput
+      .trim()
+      .replace(/\s{2,}/g, " ")
+      .toLowerCase();
+  };
+
+  const searchTagNameInInput = (searchInput, tagName) => {
+    const tags = cleanSearchInput(searchInput).split(",");
+
+    for (let tag of tags) {
+      if (tag.trim() === tagName.toLowerCase()) {
+        return true;
+      }
+    }
+
+    return false;
+  };
+
   return (
     <>
       <PageHead
@@ -147,10 +176,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .includes(tag.name.toLowerCase())}
+                  selected={searchTagNameInInput(inputValue, tag.name)}
                   onClick={() => search(tag.name)}
                 />
               ))}

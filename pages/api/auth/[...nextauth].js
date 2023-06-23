@@ -26,7 +26,7 @@ export const authOptions = {
     strategy: "jwt",
   },
   callbacks: {
-    async redirect({ url, baseUrl }) {
+    async redirect({ baseUrl }) {
       return `${baseUrl}/account/statistics`;
     },
     async jwt({ token, account, profile }) {
@@ -38,7 +38,7 @@ export const authOptions = {
       }
       return token;
     },
-    async session({ session, token, user, profile }) {
+    async session({ session, token }) {
       // Send properties to the client, like an access_token and user id from a provider.
       session.accessToken = token.accessToken;
       session.user.id = token.id;
