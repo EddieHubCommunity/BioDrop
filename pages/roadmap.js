@@ -1,8 +1,6 @@
-import {
-  CheckIcon,
-  ComputerDesktopIcon,
-  ClockIcon,
-} from "@heroicons/react/24/outline";
+import CheckIcon from "@heroicons/react/24/outline/CheckIcon";
+import ComputerDesktopIcon from "@heroicons/react/24/outline/ComputerDesktopIcon";
+import ClockIcon from "@heroicons/react/24/outline/ClockIcon";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
