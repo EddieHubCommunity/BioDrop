@@ -1,0 +1,57 @@
+{
+  "name": "Jaydeep Khatri",
+  "bio": "Frontend Developer | Content Creation",
+  "tags": ["HTML", "CSS", "Javascript", "ReactJs", "NextJS", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://jaydeepkhatri.me"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jaydeepkhatri"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/jaydeepkhatri79"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jaydeepkhatri79",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me at Linkedin",
+      "url": "https://www.linkedin.com/in/jaydeep-khatri/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me at Github",
+      "url": "https://github.com/jaydeepkhatri",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Instagram",
+      "url": "https://instagram.com/code.architects",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "75K Followers on my Instagram Page",
+      "description": "Started in March 2020",
+      "date": "March 2023",
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/jaydeepkhatri"
+    },
+    {
+      "title": "Completed #100DaysOfCode Challenge",
+      "description": "Contributed to various Open Source Projects",
+      "date": "December 2022 - April 2023",
+      "icon": "FaGithub",
+      "url": "https://github.com/jaydeepkhatri"
+    }
+  ]
+}

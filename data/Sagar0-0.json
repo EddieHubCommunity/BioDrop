@@ -1,13 +1,20 @@
 {
   "name": "Sagar Malhotra",
-  "type": "personal",
   "bio": "Android | Open Source | YouTube | Building **D4 Community**",
-
   "tags": ["Open Source", "Android", "Kotlin", "Java", "DevRel"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sagar0_o" },
-    { "icon": "FaGithub", "url": "https://github.com/Sagar0-0" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@Sagar0-0" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sagar0_o"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sagar0-0"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@Sagar0-0"
+    }
   ],
   "links": [
     {

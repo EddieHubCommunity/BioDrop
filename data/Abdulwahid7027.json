@@ -1,12 +1,16 @@
 {
   "name": "Shaik Abdul Wahid",
-  "type": "personal",
   "bio": "Student • Frontend developer • Open Source Enthusiast • Python • Java",
-
   "tags": ["Web Development", "Html", "Css", "Open Source", "Java", "Python"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Abdulwahid7027" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/Abdulwahid7027" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Abdulwahid7027"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Abdulwahid7027"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/abdul-wahid-shaik-611893259/"
@@ -18,13 +22,11 @@
       "url": "https://github.com/Abdulwahid7027",
       "icon": "FaGithub"
     },
-
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Abdulwahid7027",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/abdul-wahid-shaik-611893259/",

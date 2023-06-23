@@ -1,0 +1,16 @@
+{
+  "name": "Bhavya Mehta",
+  "bio": "Pursuing Btech in CSE I am creative and cultural with multiple talents",
+  "links": [
+    {
+      "name": "Follow me on Linekdin",
+      "url": "https://www.linkedin.com/in/bhavya-mehta-b6a824226",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/bhavya___mehta/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

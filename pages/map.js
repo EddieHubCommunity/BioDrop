@@ -7,20 +7,23 @@ import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/profiles";
+import config from "@config/app.json";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
   ssr: false,
 });
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
+  const pageConfig = config.isr.mapPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -34,20 +37,57 @@ export async function getServerSideProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
+  // Apply offset equally to 4 quadrants arround point
+  const adjustCoords = (coords, offset, offset2, index) => {
+    switch (index % 4 ) {
+      case 0:
+        return [coords[0] + offset, coords[1] + offset2];
+      case 1:
+        return [coords[0] - offset, coords[1] + offset2];
+      case 2:
+        return [coords[0] - offset, coords[1] - offset2];
+      default:
+        return [coords[0] + offset, coords[1] - offset2];
+    }
+  }
+
+  data.users = data.users.map((user, index) => {
+    const offset = Math.random() * 0.02; // ~2.2km
+    const offset2 = Math.random() * 0.02; // ~2.2km
+    return {
+      type: "Feature",
+      properties: {
+        cluster: false,
+        tags: user.tags || [],
+        username: user.username,
+        name: user.name,
+        location: user.location.provided,
+        bio: user.bio || ''
+      },
+      geometry: {
+        type: "Point",
+        coordinates:adjustCoords(
+          [
+            parseFloat(user.location.lon),
+            parseFloat(user.location.lat)
+          ],
+          offset,
+          offset2,
+          index
+        )
+      }
+    }
+  });
+
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
-    data.tags = data.tags.filter((tag) =>
-      data.users.find((user) => user.tags.includes(tag.name))
-    );
+    data.tags = await getTags(true);
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
 
   return {
     props: { data },
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
@@ -76,11 +116,11 @@ export default function Map({ data }) {
     const terms = [...updateSelectedTagsFilter(value)];
 
     results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
+      if (user.properties.name.toLowerCase().includes(valueLower)) {
         return true;
       }
 
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+      let userTags = user.properties.tags?.map((tag) => tag.toLowerCase());
 
       if (terms.every((keyword) => userTags?.includes(keyword.toLowerCase()))) {
         return true;
@@ -97,12 +137,28 @@ export default function Map({ data }) {
     setSelectedTags(new Set());
   };
 
+  let links = [];
+  for (let i = 0; i <= 3; i++) {
+    for (let j = 0; j <= 3; j++) {
+      links.push(
+        <link
+          rel="preload"
+          as="image"
+          key={`${i}${j}`}
+          href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}
+        />
+      );
+    }
+  }
+
   return (
     <>
       <PageHead
         title="LinkFree Users Around The World"
         description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
-      />
+      >
+        {links}
+      </PageHead>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">
           LinkFree Users Around The World
@@ -121,10 +177,9 @@ export default function Map({ data }) {
           >
             <Button
               onClick={resetFilter}
-              text="Clear/Reset Filters"
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            />
+            >Clear/Reset Filters</Button>
           </Badge>
           {tags &&
             tags
@@ -139,7 +194,11 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-        <DynamicMap users={filteredUsers.length > 0 ? filteredUsers : users} />
+        <div className="h-screen">
+          <DynamicMap
+            users={filteredUsers.length > 0 ? filteredUsers : users}
+          />
+        </div>
       </Page>
     </>
   );

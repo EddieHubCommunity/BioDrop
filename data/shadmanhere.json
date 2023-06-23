@@ -1,8 +1,6 @@
 {
   "name": "Shadman Ali",
-  "type": "personal",
   "bio": "Full Stack Developer | React | Nextjs | Javascript | Typescript | Express | Nodejs",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,7 +10,6 @@
     "React",
     "Nodejs"
   ],
-
   "links": [
     {
       "group": "Socials",

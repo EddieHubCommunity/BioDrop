@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -8,69 +8,101 @@ import PageHead from "@components/PageHead";
 import Tag from "@components/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
+import { getTags } from "./api/discover/tags";
+import { getUsers } from "./api/profiles";
+import config from "@config/app.json";
 
-export async function getServerSideProps(context) {
+export async function getStaticProps() {
+  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
   let data = {
     users: [],
     tags: [],
   };
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
+    data.users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
 
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    data.tags = await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
   }
 
+  if (data.users.length > 5) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  } else {
+    data.randUsers = data.users;
+  }
+
   return {
     props: { data },
+    revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Search({ data }) {
-  let { users, tags } = data;
+export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
   const [notFound, setNotFound] = useState();
+  const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
-
   let results = [];
-
   useEffect(() => {
     if (username) {
       setNotFound(username);
     }
   }, [username]);
 
+  useEffect(() => {
+    if (!inputValue) {
+      //Setting the users as null when the input field is empty
+      setFilteredUsers(randUsers);
+      //Removing the not found field when the input field is empty
+      setNotFound();
+      return;
+    }
+
+    if (inputValue.length < 2) {
+      return;
+    }
+
+    const timer = setTimeout(() => {
+      filterData(inputValue);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, [inputValue]);
+
   const filterData = (value) => {
-    const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
+    const cleanedInput = cleanSearchInput(value);
+    const terms = cleanedInput.split(",");
 
     results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
-      }
+      const nameLower = user.name.toLowerCase();
+      const usernameLower = user.username.toLowerCase();
+      const userTagsString = user.tags.join(", ").toLowerCase();
+      const userLocationString = user.location ? user.location.provided.toLowerCase() : "";
 
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+      // check if all search terms/keywords are matching with the the uses
+      const isUserMatched = terms.every((term) => {
+        const cleanedTerm = term.trim();
 
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
+        if (!cleanedInput) {
+          return false;
+        }
 
-      return false;
+        return (
+          usernameLower.includes(cleanedTerm) ||
+          nameLower.includes(cleanedTerm) ||
+          userTagsString.includes(cleanedTerm) ||
+          userLocationString.includes(cleanedTerm)
+        );
+      });
+
+      return isUserMatched;
     });
 
     if (!results.length) {
@@ -85,15 +117,18 @@ export default function Search({ data }) {
   };
 
   const search = (keyword) => {
-    if (!inputValue.length) {
+    const cleanedInput = cleanSearchInput(inputValue);
+
+    if (!cleanedInput.length) {
       return setInputValue(keyword);
     }
 
-    const items = inputValue.split(",");
-    if (inputValue.length) {
-      if (items.includes(keyword)) {
+    const items = cleanedInput.split(",");
+
+    if (cleanedInput.length) {
+      if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
-          items.filter((item) => item !== keyword).join(",")
+          items.filter((item) => item.trim() !== keyword).join(",")
         );
       }
 
@@ -103,21 +138,25 @@ export default function Search({ data }) {
     setInputValue(keyword);
   };
 
-  useEffect(() => {
-    if (!inputValue) {
-      //Setting the users as null when the input field is empty
-      setFilteredUsers([]);
-      //Removing the not found field when the input field is empty
-      setNotFound();
-      return;
+  // removes leading/trailing whitespaces and extra spaces and converted to lowercase
+  const cleanSearchInput = (searchInput) => {
+    return searchInput
+      .trim()
+      .replace(/\s{2,}/g, " ")
+      .toLowerCase();
+  };
+
+  const searchTagNameInInput = (searchInput, tagName) => {
+    const tags = cleanSearchInput(searchInput).split(",");
+
+    for (let tag of tags) {
+      if (tag.trim() === tagName.toLowerCase()) {
+        return true;
+      }
     }
 
-    const timer = setTimeout(() => {
-      filterData(inputValue);
-    }, 500);
-
-    return () => clearTimeout(timer);
-  }, [inputValue]);
+    return false;
+  };
 
   return (
     <>
@@ -137,10 +176,7 @@ export default function Search({ data }) {
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .includes(tag.name.toLowerCase())}
+                  selected={searchTagNameInInput(inputValue, tag.name)}
                   onClick={() => search(tag.name)}
                 />
               ))}
@@ -154,7 +190,6 @@ export default function Search({ data }) {
         >
           <Input
             placeholder="Search user by name or tags; eg: open source,reactjs"
-            className="border-2 hover:border-tertiary-medium transition-all dark:bg-primary-high duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}

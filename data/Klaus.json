@@ -1,8 +1,6 @@
 {
   "name": "Satyam Singh(Klaus)",
-  "type": "personal",
   "bio": "Open Source contributor, technology explorer, hackathon enthusiast",
-
   "tags": [
     "javascript",
     "typescript",
@@ -14,8 +12,14 @@
     "java"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/__Klaus_31452" },
-    { "icon": "FaGithub", "url": "https://github.com/KlausMikhaelson" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/__Klaus_31452"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/KlausMikhaelson"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,36 @@
+{
+  "name": "Aaron Parsons",
+  "bio": "Full-Stack Software Developer | React | Node.js | JavaScript",
+  "links": [
+    {
+      "group": "Social",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aarpardev",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Social",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aarpardev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Projects",
+      "name": "Tracker Patches - Open Source MERN Stack Instrument Preset Sharing",
+      "url": "https://github.com/aarpardev/tracker-patches",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Projects",
+      "name": "Tet-R-Us - Vanilla JS Game Testing Sunvox and ZzFX",
+      "url": "https://github.com/aarpardev/Tet-R-Us-game",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Projects",
+      "name": "ModPlug JS Music Composer",
+      "url": "https://github.com/aarpardev/ModPlugJSComposer",
+      "icon": "FaGithub"
+    }
+  ]
+}

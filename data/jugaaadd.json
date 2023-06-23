@@ -1,0 +1,51 @@
+{
+  "name": "Jugaad",
+  "bio": "Hello World, I'm a **tech** oriented **graphics designer**.",
+  "tags": ["Open Source", "Adobe Creative Suite", "HTML", "CSS"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jugaad/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/jugaaaadd/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jugaaadd"
+    }
+  ],
+  "links": [
+    {
+      "group": "Design Portfolio",
+      "name": "Behance - My creative world.",
+      "url": "https://www.behance.net/Jugaad",
+      "icon": "FaBehance"
+    },
+    {
+      "group": "Digital Store",
+      "name": "Gumroad - Passive project in free time.",
+      "url": "https://jugaadd.gumroad.com/",
+      "icon": "SiGumroad"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Your privacy guide, tech news, finance & much more.",
+      "url": "https://www.instagram.com/jugaaaadd/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect.",
+      "url": "https://www.linkedin.com/in/jugaad/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Tech Universe",
+      "name": "Github - Where world create softwares.",
+      "url": "https://github.com/jugaaadd",
+      "icon": "FaGithub"
+    }
+  ]
+}

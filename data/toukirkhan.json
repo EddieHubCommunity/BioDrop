@@ -1,0 +1,26 @@
+{
+  "name": "Toukir Khan",
+  "bio": "A junior in CS who's passionate about Open-source and Communities.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_toukirkhan_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_.toukir_k/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/toukirkhan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/toukir-khan-499257219/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

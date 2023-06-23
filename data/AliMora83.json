@@ -1,0 +1,83 @@
+{
+  "name": "Ali Mora",
+  "bio": "**Full-stack Software Developer** from South Africa",
+  "tags": [
+    "MongoDB",
+    "Express",
+    "React.js",
+    "Node.js",
+    "Open Source",
+    "DevOps",
+    "Next.js"
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Services - Software Development",
+      "url": "https://alimora-portfolio.vercel.app/",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/daurius-ali-swarts-1b151420b/",
+      "icon": "FaLinkedin",
+      "color": "white"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/swarts_d",
+      "icon": "FaTwitter",
+      "color": "white"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on WhatsApp",
+      "url": "https://api.whatsapp.com/send?phone=789658725",
+      "icon": "FaWhatsapp"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/alimora83",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2017",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://alimora-portfolio.vercel.app/"
+    },
+    {
+      "title": "Started Software Development",
+      "date": "May 2020",
+      "icon": "SiVisualstudiocode",
+      "color": "grey",
+      "description": "Full-stack Web Development Bootcamp",
+      "url": "https://alimora-portfolio.vercel.app/"
+    },
+    {
+      "isGoal": true,
+      "title": "Contribute more to Open Source",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% of the way through Eddie's course of helping people getting into Open Source",
+      "url": "http://eddiejaoude.io"
+    },
+    {
+      "isGoal": true,
+      "title": "LinkFree to a SAAS platform",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Contribute more to EddieHub/LinkFree Community",
+      "url": "https://linkfree.io"
+    }
+  ]
+}

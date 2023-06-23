@@ -44,7 +44,7 @@ export default function Icons() {
 
     setSearchedIconNames(filteredIconNames);
   };
-  
+
   return (
     <>
       <PageHead

@@ -1,6 +1,5 @@
 {
   "name": "Jenil Gajjar",
-  "type": "personal",
   "bio": "Frontend Developer 👨‍💻 || Self-learner || Eager to learn new technologies || Open Source ❤ || I write articles on Medium",
   "tags": [
     "HTML",
@@ -12,15 +11,23 @@
     "Open Source"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/JenilGajjar20" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/gajjar_jenil" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/JenilGajjar20"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gajjar_jenil"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/jenil-gajjar-27934920a/"
     },
-    { "icon": "FaMedium", "url": "https://jenilgajjar.medium.com/" }
+    {
+      "icon": "FaMedium",
+      "url": "https://jenilgajjar.medium.com/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

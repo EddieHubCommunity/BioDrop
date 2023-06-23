@@ -1,0 +1,101 @@
+{
+  "name": "Abhinav Jain",
+  "bio": "Open Source Contributor **@CDLI** | Competitive Programmer | Public Speaker | Contest Developer  **@USACOGuide** | **Microsoft** LSA",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "Data Science"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/intent/user?screen_name=jaintle"
+    },
+    { "icon": "FaGithub", "url": "https://github.com/abhinavjaintle" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jaintle/" },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@abhinavjaincodes?sub_confirmation=1"
+    }
+  ],
+  "links": [
+    {
+      "name": "Medium: Read my blogs",
+      "url": "https://jaintle.medium.com/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/intent/user?screen_name=jaintle",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "YouTube: Let's solve DSA together",
+      "url": "https://youtube.com/@abhinavjaincodes?sub_confirmation=1",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/jaintle/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Listen to my episode of the Anwesh Sathpathy Podcast",
+      "url": "https://www.youtube.com/watch?v=ffo7l1Avgds",
+      "icon": "FaPodcast"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Contest DeveloperContest Developer - **USACO Guide**",
+      "date": "Jul 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Skills: Test Cases · Programming · OptimizationSkills: Test Cases · Programming · Optimization",
+      "url": "https://usaco.guide/"
+    },
+    {
+      "title": "**Microsoft** Learn Student Ambassadors",
+      "image": "https://github.com/abhinavjaintle.png",
+      "date": "Oct 2022",
+      "icon": "FaLink",
+      "color": "red",
+      "description": "Mentored other students in the community and lead the charge or many events and talks",
+      "url": "https://studentambassadors.microsoft.com/"
+    },
+    {
+      "title": "Software Engineer Intern **Yourguide**",
+      "date": "Oct 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Skills: React.js · TypeScript · Node.js · Next.js · User Authentication · CookiesSkills: React.js · TypeScript · Node.js · Next.js · User Authentication · Cookies",
+      "url": "https://www.linkedin.com/company/82846271/"
+    },
+    {
+      "title": "Started contributing for Open Source project",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started working on various open source projects and first PR Merge",
+      "url": "https://gitlab.com/AbhinavJaintle"
+    },
+    {
+      "title": "**GeekforGeeks** first publication",
+      "date": "Aug 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "I contribute technical articles for GeeksForGeeks pertaining to DevOps to help the community and engage in discussions.",
+      "url": "https://www.geeksforgeeks.org/how-to-make-choropleth-maps-with-labels-using-mapbox-api"
+    }
+  ]
+}

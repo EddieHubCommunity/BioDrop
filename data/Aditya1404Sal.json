@@ -1,0 +1,26 @@
+{
+  "name": "Aditya Salunkhe",
+  "bio": "Tech Undergrad | Opensource Contributor at SSOC S2 | Web3 | A.I ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AdiTechSavvy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/yaboy_aditya",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/aditya-salunkhe-24477a256",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Aditya1404Sal",
+      "icon": "FaGithub"
+    }
+  ]
+}

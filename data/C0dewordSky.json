@@ -1,0 +1,31 @@
+{
+  "name": "Aakash",
+  "bio": "Electrical engineer turned **Software Geek** . Learning DevOps and looking forward to improve my skills via OpenSource contributions.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/CodewordSky",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/C0dewordSky",
+      "icon": "SiGithubactions"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@CodewordSky",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/aakash-137ba7201/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "http://www.instagram.com/codeword_sky/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

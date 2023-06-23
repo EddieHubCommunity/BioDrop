@@ -1,10 +1,7 @@
 {
   "name": "Haris Khan",
-  "type": "personal",
   "bio": "Computer Science guy in a Software Engineering world!",
-
   "tags": ["Frontend Developer", "Open Source"],
-
   "socials": [
     {
       "icon": "FaGithub",

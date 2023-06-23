@@ -1,9 +1,9 @@
 name: Format
 on:
   workflow_dispatch:
-  #Run every day at midnight UTC
+  #Runs at 01:01 UTC
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "1 1 * * *"
 
 concurrency:
   group: "main-branch"

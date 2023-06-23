@@ -1,6 +1,5 @@
 {
   "name": "Kavya Madasu",
-  "type": "personal",
   "bio": "Iam a full stack Java Developer",
   "links": [
     {
@@ -12,7 +11,8 @@
       "name": "GitHub",
       "url": "https://github.com/kavyamadasu/",
       "icon": "FaGithub"
-    },{
+    },
+    {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/kavyamadasu-782337171",
       "icon": "FaLinkedin"
