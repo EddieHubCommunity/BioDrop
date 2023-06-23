@@ -1,4 +1,5 @@
-import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
+import CalendarDaysIcon from "@heroicons/react/24/outline/CalendarDaysIcon";
+import HandRaisedIcon from "@heroicons/react/24/outline/HandRaisedIcon";
 import Script from "next/script";
 
 export default function Newsletter() {

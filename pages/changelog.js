@@ -1,4 +1,4 @@
-import { CalendarIcon } from "@heroicons/react/20/solid";
+import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";

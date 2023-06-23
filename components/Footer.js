@@ -4,8 +4,8 @@ import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
 
-import { CurrencyDollarIcon } from "@heroicons/react/24/outline";
-import { RocketLaunchIcon } from "@heroicons/react/20/solid";
+import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
+import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
 
