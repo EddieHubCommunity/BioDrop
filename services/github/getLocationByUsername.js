@@ -10,8 +10,13 @@ export default async function getLocationByUsername(username) {
   };
 
   let github;
+  const ghAuth = serverEnv.GITHUB_API_TOKEN ? {
+    headers: {
+      Authorization: `bearer ${serverEnv.GITHUB_API_TOKEN}` 
+    }
+  } : {};
   try {
-    const data = await fetch(`https://api.github.com/users/${username}`);
+    const data = await fetch(`https://api.github.com/users/${username}`, ghAuth);
     github = await data.json();
     logger.info(
       `github info fetched for username: ${username} and received location ${github.location}`
