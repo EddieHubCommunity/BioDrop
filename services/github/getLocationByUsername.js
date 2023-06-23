@@ -1,6 +1,7 @@
 import { Octokit } from "octokit";
 
 import logger from "@config/logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 export default async function getLocationByUsername(username) {
   let location = {
@@ -9,7 +10,9 @@ export default async function getLocationByUsername(username) {
     lat: 0,
     lon: 0,
   };
-  const octokit = new Octokit({});
+  const octokit = new Octokit({
+    auth: serverEnv.GITHUB_API_TOKEN
+  });
   let github;
   try {
     github = await octokit.request(`GET /users/${username}`);
