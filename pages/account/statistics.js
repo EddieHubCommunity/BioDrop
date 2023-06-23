@@ -1,16 +1,7 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import dynamic from "next/dynamic";
 import ProgressBar from "@components/statistics/ProgressBar";
-
-import {
-  BarChart,
-  Bar,
-  CartesianGrid,
-  Tooltip,
-  XAxis,
-  YAxis,
-  ResponsiveContainer,
-} from "recharts";
 
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -24,6 +15,11 @@ import Button from "@components/Button";
 import FallbackImage from "@components/FallbackImage";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Navigation from "@components/account/manage/navigation";
+
+const DynamicChart = dynamic(
+  () => import("../../components/statistics/StatsChart"),
+  { ssr: false }
+);
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -161,19 +157,25 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
               <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.profile.monthly)}
               </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">Profile views last 30 days</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">
+                Profile views last 30 days
+              </span>
             </div>
             <div className="px-6 py-5 text-center text-sm font-medium">
               <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.profile.total)}
               </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">Total Profile views</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">
+                Total Profile views
+              </span>
             </div>
             <div className="px-6 py-5 text-center text-sm font-medium">
               <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.links.clicks)}
               </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">Total link clicks</span>
+              <span className="text-primary-medium dark:text-primary-low-medium">
+                Total link clicks
+              </span>
             </div>
           </div>
         </div>
@@ -208,21 +210,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
               Number of Profile visits per day.
             </p>
           </div>
-          <div className="w-full h-80">
-            <ResponsiveContainer height="100%">
-              <BarChart data={dailyViews}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" />
-                <YAxis />
-                <Tooltip
-                  contentStyle={{
-                    color: "black",
-                  }}
-                />
-                <Bar dataKey="views" fill="#82ca9d" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
+          <DynamicChart data={dailyViews} />
         </div>
 
         <table className="min-w-full divide-y divide-primary-medium-low">
