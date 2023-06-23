@@ -12,6 +12,7 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/profiles";
 import config from "@config/app.json";
+import Pagination from "@components/Pagination";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
@@ -49,6 +50,7 @@ export default function Search({ data: { tags, randUsers } }) {
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     if (username) {
@@ -77,6 +79,7 @@ export default function Search({ data: { tags, randUsers } }) {
         const data = await res.json();
         setNotFound();
         setUsers(data.users.sort(() => Math.random() - 0.5));
+        setCurrentPage(1);
       } catch (err) {
         setNotFound(err);
         setUsers([]);
@@ -132,6 +135,16 @@ export default function Search({ data: { tags, randUsers } }) {
     return false;
   };
 
+  const usersPerPage = 20;
+  const indexOfLastUser = currentPage * usersPerPage;
+  const indexOfFirstUser = indexOfLastUser - usersPerPage;
+  const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
+
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 150, behavior: "smooth" });
+  };
+
   return (
     <>
       <PageHead
@@ -172,12 +185,31 @@ export default function Search({ data: { tags, randUsers } }) {
 
         {notFound && <Alert type="error" message={`${notFound}`} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {users.map((user) => (
-            <li key={user.username}>
-              <UserCard profile={user} />
-            </li>
-          ))}
+          {users.length < usersPerPage &&
+            users.map((user) => (
+              <li key={user.username}>
+                <UserCard profile={user} />
+              </li>
+            ))}
+
+          {users.length > usersPerPage &&
+            visibleUsers.map((user) => (
+              <li key={user.username}>
+                <UserCard profile={user} />
+              </li>
+            ))}
         </ul>
+
+        {users.length > usersPerPage && (
+          <Pagination
+            currentPage={currentPage}
+            totalUsers={users.length}
+            usersPerPage={usersPerPage}
+            paginate={paginate}
+            startIndex={indexOfFirstUser}
+            endIndex={indexOfLastUser}
+          />
+        )}
       </Page>
     </>
   );
