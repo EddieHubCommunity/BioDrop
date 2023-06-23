@@ -1,6 +1,14 @@
 {
   "name": "Pravesh Sudha",
   "bio": "Philosophy Student who is now a Self-Taught Developer",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Golang",
+    "Kubernetes",
+    "Docker",
+    "Node.js"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",

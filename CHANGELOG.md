@@ -1,3 +1,12 @@
+## [1.144.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.7...v1.144.8) (2023-06-23)
+
+
+### Bug Fixes
+
+* github api token to increase rate limit ([#7531](https://github.com/EddieHubCommunity/LinkFree/issues/7531)) ([6d64788](https://github.com/EddieHubCommunity/LinkFree/commit/6d6478838df19de99ef3f936ab9932229a295af8))
+
+
+
 ## [1.144.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.6...v1.144.7) (2023-06-22)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.144.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.3...v1.144.4) (2023-06-21)
-
-
-
-## [1.144.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.2...v1.144.3) (2023-06-21)
-
-
-### Bug Fixes
-
-* layout for newsletter signup ([#7681](https://github.com/EddieHubCommunity/LinkFree/issues/7681)) ([4205a60](https://github.com/EddieHubCommunity/LinkFree/commit/4205a60aa1bec0827bf95a0d0c23699bb289cddb))
 
 
 

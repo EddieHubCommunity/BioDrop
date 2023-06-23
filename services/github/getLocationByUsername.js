@@ -1,4 +1,5 @@
 import logger from "@config/logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 export default async function getLocationByUsername(username) {
   let location = {
