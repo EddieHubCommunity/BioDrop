@@ -1,3 +1,4 @@
+import Router from "next/router";
 import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -96,6 +97,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         ).join(", ")}`,
       });
     }
+
+    Router.push(`${BASE_URL}/account/manage/milestone/${update._id}`);
 
     return setShowNotification({
       show: true,

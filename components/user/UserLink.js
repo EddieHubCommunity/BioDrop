@@ -41,9 +41,7 @@ export default function UserLink({
   );
 
   const edit = (link) => (
-    <Edit href={`/account/manage/link/${encodeURIComponent(link.url)}`}>
-      {item(link)}
-    </Edit>
+    <Edit href={`/account/manage/link/${link._id}`}>{item(link)}</Edit>
   );
 
   return (

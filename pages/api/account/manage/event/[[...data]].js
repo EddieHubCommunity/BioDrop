@@ -1,6 +1,7 @@
 import { authOptions } from "../../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { ObjectId } from "bson";
+import mongoose from "mongoose";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -85,7 +86,7 @@ export async function updateEventApi(username, id, updateEvent) {
   }
 
   try {
-    getEvent = await Profile.findOneAndUpdate(
+    await Profile.findOneAndUpdate(
       {
         username,
         "events._id": new ObjectId(id),
@@ -93,11 +94,12 @@ export async function updateEventApi(username, id, updateEvent) {
       {
         $set: {
           source: "database",
-          "events.$": updateEvent,
+          "events.$": { ...updateEvent, _id: new ObjectId(id) },
         },
       },
       { upsert: true }
     );
+    getEvent = await getEventApi(username, id);
   } catch (e) {
     log.error(e, `failed to update event for username: ${username}`);
   }
@@ -118,16 +120,19 @@ export async function addEventApi(username, addEvent) {
     return { error: e.errors };
   }
 
+  const id = new mongoose.Types.ObjectId();
+
   try {
-    getEvent = await Profile.findOneAndUpdate(
+    await Profile.findOneAndUpdate(
       {
         username,
       },
       {
-        $push: { events: addEvent },
+        $push: { events: { ...addEvent, _id: id } },
       },
       { upsert: true }
     );
+    getEvent = await getEventApi(username, id);
   } catch (e) {
     log.error(e, `failed to update event for username: ${username}`);
   }

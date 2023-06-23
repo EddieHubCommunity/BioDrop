@@ -1,3 +1,4 @@
+import Router from "next/router";
 import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -94,6 +95,8 @@ export default function ManageEvent({ BASE_URL, event }) {
         ).join(", ")}`,
       });
     }
+
+    Router.push(`${BASE_URL}/account/manage/event/${update._id}`);
 
     return setShowNotification({
       show: true,

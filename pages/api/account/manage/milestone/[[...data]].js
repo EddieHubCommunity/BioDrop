@@ -1,6 +1,7 @@
 import { authOptions } from "../../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { ObjectId } from "bson";
+import mongoose from "mongoose";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -94,7 +95,7 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
   }
 
   try {
-    getMilestone = await Profile.findOneAndUpdate(
+    await Profile.findOneAndUpdate(
       {
         username,
         "milestones._id": new ObjectId(id),
@@ -107,6 +108,7 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
       },
       { upsert: true, new: true }
     );
+    getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
     log.error(e, `failed to update milestone for username: ${username}`);
   }
@@ -135,16 +137,19 @@ export async function addMilestoneApi(username, addMilestone) {
     return { error: e.errors };
   }
 
+  const id = new mongoose.Types.ObjectId();
+
   try {
-    getMilestone = await Profile.findOneAndUpdate(
+    await Profile.findOneAndUpdate(
       {
         username,
       },
       {
-        $push: { milestones: addMilestone },
+        $push: { milestones: { ...addMilestone, _id: id } },
       },
       { upsert: true, new: true }
     );
+    getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
     log.error(e, `failed to add milestone for username: ${username}`);
   }

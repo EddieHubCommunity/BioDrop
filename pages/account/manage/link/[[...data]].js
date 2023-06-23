@@ -1,3 +1,4 @@
+import Router from "next/router";
 import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -27,13 +28,13 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
-  const url = context.query.data ? context.query.data[0] : undefined;
+  const id = context.query.data ? context.query.data[0] : undefined;
   let link = {};
-  if (url) {
+  if (id) {
     try {
-      link = await getLinkApi(username, url);
+      link = await getLinkApi(username, id);
     } catch (e) {
-      logger.error(e, `link ${url} failed for username: ${username}`);
+      logger.error(e, `link ${id} failed for username: ${username}`);
     }
   }
 
@@ -50,28 +51,36 @@ export default function ManageLink({ BASE_URL, username, link }) {
     additionalMessage: "",
   });
   const [edit] = useState(link._id ? true : false);
-  const [group, setGroup] = useState(link.group);
-  const [name, setName] = useState(link.name);
-  const [url, setUrl] = useState(link.url);
-  const [icon, setIcon] = useState(link.icon);
-  const [isEnabled, setIsEnabled] = useState(link.isEnabled);
-  const [isPinned, setIsPinned] = useState(link.isPinned);
+  const [group, setGroup] = useState(link.group || "");
+  const [name, setName] = useState(link.name || "");
+  const [url, setUrl] = useState(link.url || "");
+  const [icon, setIcon] = useState(link.icon || "");
+  const [isEnabled, setIsEnabled] = useState(link.isEnabled || true);
+  const [isPinned, setIsPinned] = useState(link.isPinned || false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(
-      `${BASE_URL}/api/account/manage/link/${encodeURIComponent(url)}`,
-      {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ group, name, url, icon, isEnabled, isPinned }),
-      }
-    );
+
+    let method = "POST";
+    let putLink = { group, name, url, icon, isEnabled, isPinned };
+
+    let apiUrl = `${BASE_URL}/api/account/manage/link`;
+    if (edit) {
+      method = "PUT";
+      putLink = { ...putLink, _id: link._id };
+      apiUrl = `${BASE_URL}/api/account/manage/link/${link._id}`;
+    }
+
+    const res = await fetch(apiUrl, {
+      method,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(putLink),
+    });
     const update = await res.json();
 
-    if (update.message) {
+    if (update.message || !update) {
       return setShowNotification({
         show: true,
         type: "error",
@@ -81,6 +90,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
         ).join(", ")}`,
       });
     }
+
+    Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
 
     return setShowNotification({
       show: true,
@@ -173,7 +184,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       value={name}
                       required
                       minLength="2"
-                      maxLength="32"
+                      maxLength="64"
                     />
                     <p className="text-sm text-gray-500">
                       For example: <i>Follow me on Twitter</i>

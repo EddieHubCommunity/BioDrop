@@ -27,7 +27,7 @@ const ProfileSchema = new Schema(
     username: {
       type: String,
       required: true,
-      index: true,
+      unique: true,
     },
     name: {
       type: String,
