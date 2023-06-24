@@ -8,6 +8,10 @@ import Profile from "@models/Profile";
 import Link from "@models/Link";
 import { extendedProfileSchema } from "@config/schemas/validationSchemas";
 
+// docker exec -it mongodb mongosh
+// db.profiles.find({ username: "shwetasng" });
+// db.profiles.deleteOne({ username: "shwetasng" });
+
 function findAllBasic() {
   const directoryPath = path.join(process.cwd(), "data");
   let files;
