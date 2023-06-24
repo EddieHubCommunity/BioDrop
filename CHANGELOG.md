@@ -1,3 +1,12 @@
+## [1.144.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.12...v1.144.13) (2023-06-24)
+
+
+### Bug Fixes
+
+* switch to useRouter from next/router ([#7757](https://github.com/EddieHubCommunity/LinkFree/issues/7757)) ([daa37fa](https://github.com/EddieHubCommunity/LinkFree/commit/daa37fa74a99c29fda5fa87784104f8a2c356d56))
+
+
+
 ## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * deploy file count ([#7738](https://github.com/EddieHubCommunity/LinkFree/issues/7738)) ([6ab09bf](https://github.com/EddieHubCommunity/LinkFree/commit/6ab09bfe29a3d6377b3bddad54456e04f0bd833a))
-
-
-
-## [1.144.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.7...v1.144.8) (2023-06-23)
-
-
-### Bug Fixes
-
-* github api token to increase rate limit ([#7531](https://github.com/EddieHubCommunity/LinkFree/issues/7531)) ([6d64788](https://github.com/EddieHubCommunity/LinkFree/commit/6d6478838df19de99ef3f936ab9932229a295af8))
 
 
 

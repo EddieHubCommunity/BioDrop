@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
