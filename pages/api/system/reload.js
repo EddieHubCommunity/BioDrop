@@ -184,7 +184,7 @@ function getTestimonials(filePathTestimonials, data) {
       return [];
     }
   } catch (e) {
-    logger.error(e, `failed to list testimonials for ${username}`);
+    logger.error(e, `failed to list testimonials for ${data.username}`);
   }
 }
 

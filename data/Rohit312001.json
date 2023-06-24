@@ -1,7 +1,7 @@
 {
   "name": "Rohit Rajput",
   "bio": "DevOps Enthusiast | GSSoC'23 | SSoC'23 | UIET Chandigarh.I do Development and Technical blogging on Hashnode.I really enjoy learning languages and DevOps tools",
-   "links": [
+  "links": [
     {
       "name": "Rohit Rajput",
       "url": "https://github.com/Rohit312001",
@@ -12,7 +12,7 @@
       "url": "https://www.linkedin.com/in/rohit-rajput-68779a202/",
       "icon": "FaLinkedin"
     },
-      {
+    {
       "name": "Rohit Rajput",
       "url": "https://hashnode.com/@rohit8329",
       "icon": "SiHashnode"
@@ -22,6 +22,5 @@
       "url": "https://www.instagram.com/rohitrajput_36/",
       "icon": "FaInstagram"
     }
-  
   ]
 }

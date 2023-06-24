@@ -1,0 +1,21 @@
+{
+  "name": "Pratigya Panwar",
+  "bio": "Software Developer ",
+  "links": [
+    {
+      "name": "Follow on Github",
+      "url": "https://github.com/panwar8279",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow on Linkedin",
+      "url": "https://in.linkedin.com/in/pratigya-panwar-37768b199",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/pratigyapanwar",
+      "icon": "FaTwitter"
+    }
+  ]
+}

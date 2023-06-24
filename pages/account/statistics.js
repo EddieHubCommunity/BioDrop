@@ -1,16 +1,7 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import dynamic from "next/dynamic";
 import ProgressBar from "@components/statistics/ProgressBar";
-
-import {
-  BarChart,
-  Bar,
-  CartesianGrid,
-  Tooltip,
-  XAxis,
-  YAxis,
-  ResponsiveContainer,
-} from "recharts";
 
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -22,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import BasicCards from "@components/statistics/BasicCards";
 import Link from "@components/Link";
+const DynamicChart = dynamic(() => import("../../components/statistics/StatsChart"), {ssr: false});
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -91,11 +83,11 @@ export async function getServerSideProps(context) {
   data.links.clicks = totalClicks;
 
   return {
-    props: { data, profile, progress },
+    props: { data, profile, progress, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Statistics({ data, profile, progress }) {
+export default function Statistics({ data, profile, progress, BASE_URL }) {
   const dateTimeStyle = {
     dateStyle: "short",
   };
@@ -151,7 +143,7 @@ export default function Statistics({ data, profile, progress }) {
 
         <h1 className="text-4xl mb-4 font-bold">
           Your Statistics for {profile.name} (
-          <Link href={`${clientEnv.NEXT_PUBLIC_BASE_URL}/${profile.username}`}>
+          <Link href={`${BASE_URL}/${profile.username}`}>
             {profile.username}
           </Link>
           )
@@ -174,21 +166,7 @@ export default function Statistics({ data, profile, progress }) {
               30 days with a total of {abbreviateNumber(data.profile.total)}.
             </p>
           </div>
-          <div className="w-full h-80">
-            <ResponsiveContainer height="100%">
-              <BarChart data={dailyViews}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" />
-                <YAxis />
-                <Tooltip
-                  contentStyle={{
-                    color: "black",
-                  }}
-                />
-                <Bar dataKey="views" fill="#82ca9d" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
+          <DynamicChart data={dailyViews} />
         </div>
 
         <table className="min-w-full divide-y divide-primary-medium-low">

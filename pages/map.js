@@ -37,6 +37,48 @@ export async function getStaticProps() {
       user.location.provided.toLowerCase() !== "remote"
   );
 
+  // Apply offset equally to 4 quadrants arround point
+  const adjustCoords = (coords, offset, offset2, index) => {
+    switch (index % 4 ) {
+      case 0:
+        return [coords[0] + offset, coords[1] + offset2];
+      case 1:
+        return [coords[0] - offset, coords[1] + offset2];
+      case 2:
+        return [coords[0] - offset, coords[1] - offset2];
+      default:
+        return [coords[0] + offset, coords[1] - offset2];
+    }
+  }
+
+  data.users = data.users.map((user, index) => {
+    const offset = Math.random() * 0.02; // ~2.2km
+    const offset2 = Math.random() * 0.02; // ~2.2km
+    return {
+      type: "Feature",
+      properties: {
+        cluster: false,
+        tags: user.tags || [],
+        username: user.username,
+        name: user.name,
+        location: user.location.provided,
+        bio: user.bio || ''
+      },
+      geometry: {
+        type: "Point",
+        coordinates:adjustCoords(
+          [
+            parseFloat(user.location.lon),
+            parseFloat(user.location.lat)
+          ],
+          offset,
+          offset2,
+          index
+        )
+      }
+    }
+  });
+
   try {
     data.tags = await getTags(true);
   } catch (e) {
@@ -74,11 +116,11 @@ export default function Map({ data }) {
     const terms = [...updateSelectedTagsFilter(value)];
 
     results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
+      if (user.properties.name.toLowerCase().includes(valueLower)) {
         return true;
       }
 
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
+      let userTags = user.properties.tags?.map((tag) => tag.toLowerCase());
 
       if (terms.every((keyword) => userTags?.includes(keyword.toLowerCase()))) {
         return true;
