@@ -31,8 +31,8 @@ export default async function handler(req, res) {
   // only if `source` is not `database` (this will be set when using forms)
   await Promise.all(
     fullProfiles.map(async (profile) => {
-      const jsonFileLinks = [];
       let currentProfile;
+
       try {
         currentProfile = await Profile.findOne({
           username: profile.username,
@@ -62,97 +62,8 @@ export default async function handler(req, res) {
         logger.error(e, `failed to update profile ${profile.username}`);
       }
 
-      if (currentProfile.links || profile.links || profile.socials) {
-        if (profile.links) {
-          try {
-            await Promise.all(
-              profile.links.map(async (link, position) => {
-                jsonFileLinks.push(link);
-                await Link.findOneAndUpdate(
-                  { username: profile.username, url: link.url },
-                  {
-                    group: link.group,
-                    name: link.name,
-                    url: link.url,
-                    icon: link.icon,
-                    isEnabled: true,
-                    isPinned: false,
-                    profile: currentProfile._id,
-                    order: position,
-                  },
-                  { upsert: true, new: true }
-                );
-              })
-            );
-          } catch (e) {
-            logger.error(e, `failed to update links for ${profile.username}`);
-          }
-        }
-
-        // add social urls to links but disable them if not in main links
-        try {
-          if (profile.socials && profile.socials.length > 0) {
-            await Promise.all(
-              profile.socials.map(async (social) => {
-                jsonFileLinks.push(social);
-                await Link.findOneAndUpdate(
-                  { username: profile.username, url: social.url },
-                  {
-                    url: social.url,
-                    icon: social.icon,
-                    isEnabled:
-                      profile.links &&
-                      profile.links.find((link) => social.url === link.url)
-                        ? true
-                        : false,
-                    isPinned: true,
-                    profile: currentProfile._id,
-                  },
-                  { upsert: true, new: true }
-                );
-              })
-            );
-          }
-        } catch (e) {
-          logger.error(
-            e,
-            `failed to update profile socials for ${profile.username}`
-          );
-        }
-
-        // update profile with links
-        if (jsonFileLinks.length > 0 || profile.socials) {
-          await Profile.findOneAndUpdate(
-            { username: profile.username },
-            {
-              links: (
-                await Link.find({ username: profile.username })
-              ).map((link) => link._id),
-            },
-            { upsert: true, new: true }
-          );
-        }
-
-        currentProfile = await Profile.findOne({
-          username: profile.username,
-        }).populate({
-          path: "links",
-        });
-
-        // disable LINKS and SOCIALS not in json file
-        await Promise.all(
-          currentProfile.links
-            .filter(
-              (link) => !jsonFileLinks.map((l) => l.url).includes(link.url)
-            )
-            .map(async (link) => {
-              await Link.findOneAndUpdate(
-                { _id: link._id },
-                { isEnabled: false, isPinned: false }
-              );
-            })
-        );
-      }
+      const jsonFileLinks = await updateProfileLinks(currentProfile, profile);
+      disableLinksAndSocialsNotInJsonFile(currentProfile, jsonFileLinks);
 
       // 2. add milestones to the profile in the db
       updateProfileProperty(profile, "milestones");
@@ -371,5 +282,113 @@ async function updateProfileProperty(profile, propertyName) {
     );
   } catch (e) {
     logger.error(e, `Failed to update ${propertyName} for ${profile.username}`);
+  }
+}
+
+async function updateProfileLinks(currentProfile, profile) {
+  const jsonFileLinks = [];
+
+  if (currentProfile.links || profile.links || profile.socials) {
+    if (profile.links) {
+      try {
+        await Promise.all(
+          profile.links.map(async (link, position) => {
+            jsonFileLinks.push(link);
+            await Link.findOneAndUpdate(
+              { username: profile.username, url: link.url },
+              {
+                group: link.group,
+                name: link.name,
+                url: link.url,
+                icon: link.icon,
+                isEnabled: true,
+                isPinned: false,
+                profile: currentProfile._id,
+                order: position,
+              },
+              { upsert: true, new: true }
+            );
+          })
+        );
+      } catch (e) {
+        logger.error(e, `failed to update links for ${profile.username}`);
+      }
+    }
+
+    // add social urls to links but disable them if not in main links
+    try {
+      if (profile.socials && profile.socials.length > 0) {
+        await Promise.all(
+          profile.socials.map(async (social) => {
+            jsonFileLinks.push(social);
+            await Link.findOneAndUpdate(
+              { username: profile.username, url: social.url },
+              {
+                url: social.url,
+                icon: social.icon,
+                isEnabled:
+                  profile.links &&
+                  profile.links.find((link) => social.url === link.url)
+                    ? true
+                    : false,
+                isPinned: true,
+                profile: currentProfile._id,
+              },
+              { upsert: true, new: true }
+            );
+          })
+        );
+      }
+    } catch (e) {
+      logger.error(
+        e,
+        `failed to update profile socials for ${profile.username}`
+      );
+    }
+
+    // update profile with links
+    if (jsonFileLinks.length > 0 || profile.socials) {
+      await Profile.findOneAndUpdate(
+        { username: profile.username },
+        {
+          links: (
+            await Link.find({ username: profile.username })
+          ).map((link) => link._id),
+        },
+        { upsert: true, new: true }
+      );
+    }
+
+    currentProfile = await Profile.findOne({
+      username: profile.username,
+    }).populate({
+      path: "links",
+    });
+  }
+
+  return jsonFileLinks;
+}
+
+async function disableLinksAndSocialsNotInJsonFile(
+  currentProfile,
+  jsonFileLinks
+) {
+  // disable LINKS and SOCIALS not in json file
+  try {
+    await Promise.all(
+      currentProfile.links
+        .filter((link) => !jsonFileLinks.map((l) => l.url).includes(link.url))
+        .map(async (link) => {
+          await Link.findOneAndUpdate(
+            { _id: link._id },
+            { isEnabled: false, isPinned: false }
+          );
+        })
+    );
+  } catch (e) {
+    logger.error(
+      e,
+      `Failed to disable links and socials for ${currentProfile.username}`
+    );
   }
 }
