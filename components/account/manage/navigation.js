@@ -9,6 +9,7 @@ import {
   MdOutlineBadge,
 } from "react-icons/md";
 
+
 let tabs = [
   {
     name: "Statistics",
