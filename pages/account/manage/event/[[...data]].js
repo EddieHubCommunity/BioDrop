@@ -180,7 +180,11 @@ export default function ManageEvent({ BASE_URL, event }) {
                       name="start-date"
                       label="Start Date"
                       onChange={(e) => setStartDate(e.target.value)}
-                      value={new Date(startDate).toISOString().split("T")[0]}
+                      value={
+                        startDate
+                          ? new Date(startDate).toISOString().split("T")[0]
+                          : undefined
+                      }
                       required
                     />
                     <p className="text-sm text-gray-500">
@@ -193,7 +197,11 @@ export default function ManageEvent({ BASE_URL, event }) {
                       name="end-date"
                       label="End Date"
                       onChange={(e) => setEndDate(e.target.value)}
-                      value={new Date(endDate).toISOString().split("T")[0]}
+                      value={
+                        endDate
+                          ? new Date(endDate).toISOString().split("T")[0]
+                          : undefined
+                      }
                       required
                     />
                     <p className="text-sm text-gray-500">
