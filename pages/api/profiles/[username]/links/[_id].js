@@ -1,5 +1,6 @@
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -32,28 +33,14 @@ export default async function handler(req, res) {
   }
 
   if (session && session.username === username) {
-    return res.status(201).redirect(decodeURIComponent(link.url));
-  }
-
-  try {
-    await Link.updateOne(
-      { _id },
-      {
-        $inc: { clicks: 1 },
-      }
-    );
-  } catch (e) {
-    logger.error(
-      e,
-      `failed incrementing link: ${link.url} for username ${username}`
-    );
+    return res.status(200).redirect(decodeURIComponent(link.url));
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
   try {
-    await Stats.updateOne(
+    await Stats.findOneAndUpdate(
       {
         date,
       },
@@ -69,37 +56,44 @@ export default async function handler(req, res) {
     );
   }
 
+  let linkstats = {};
   try {
-    await Stats.updateOne(
-      {
-        date,
-      },
-      {
-        $inc: { clicks: 1 },
-      },
-      { upsert: true }
-    );
-  } catch (e) {
-    logger.error(
-      e,
-      `failed creating platform stats on ${date} for ${username}`
-    );
-  }
-
-  try {
-    await LinkStats.updateOne(
+    linkstats = await LinkStats.findOneAndUpdate(
       {
         username,
         date,
-        url: link.url,
+        link: new ObjectId(_id),
       },
       {
         $inc: { clicks: 1 },
       },
-      { upsert: true }
+      { upsert: true, new: true }
     );
   } catch (e) {
-    logger.error(e, `failed incrementing platform stats for ${date}`);
+    logger.error(e, `failed incrementing link stats for ${date}`);
+  }
+
+  let linkUpdate = {
+    $inc: { clicks: 1 },
+  };
+  const linkRelationship = link.linkstats.find(
+    (ls) => ls.toString() === new ObjectId(linkstats._id).toString()
+  );
+
+  if (!linkRelationship) {
+    linkUpdate = {
+      ...linkUpdate,
+      $push: { linkstats: new ObjectId(linkstats._id) },
+    };
+  }
+
+  try {
+    await Link.updateOne({ _id }, linkUpdate);
+  } catch (e) {
+    logger.error(
+      e,
+      `failed incrementing link: ${link.url} for username ${username}`
+    );
   }
 
   return res.status(201).redirect(decodeURIComponent(link.url));
