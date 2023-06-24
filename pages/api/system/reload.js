@@ -312,7 +312,7 @@ function findOneByUsernameFull(data) {
 
     data = { ...data, testimonials: allTestimonials };
   } catch (e) {
-    logger.error(e);
+    //error will happen on user with no testimonials
   }
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
@@ -320,7 +320,7 @@ function findOneByUsernameFull(data) {
   try {
     eventFiles = fs.readdirSync(filePathEvents);
   } catch (e) {
-    logger.error(e);
+    //error will happen on user with no events
   }
 
   const events = eventFiles.flatMap((filename) => {

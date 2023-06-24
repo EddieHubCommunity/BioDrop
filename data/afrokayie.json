@@ -14,8 +14,8 @@
       "icon": "FaInstagram"
     }
   ],
-"links": [
-  {
+  "links": [
+    {
       "name": "Twitter",
       "url": "https://twitter.com/afrokayie",
       "icon": "FaTwitter"
@@ -25,7 +25,7 @@
       "url": "https://instagram.com/afrokayie",
       "icon": "FaInstagram"
     },
-    
+
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/oluwole-kayode-a16957209/",
