@@ -190,7 +190,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       name="date"
                       label="Date"
                       onChange={(e) => setDate(e.target.value)}
-                      value={date}
+                      value={new Date(date).toISOString().split("T")[0]}
                       required
                     />
                     <p className="text-sm text-gray-500">

@@ -177,23 +177,23 @@ export default function ManageEvent({ BASE_URL, event }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="date"
-                      name="date"
+                      name="start-date"
                       label="Start Date"
                       onChange={(e) => setStartDate(e.target.value)}
-                      value={startDate}
+                      value={new Date(startDate).toISOString().split("T")[0]}
                       required
                     />
                     <p className="text-sm text-gray-500">
-                      For example: <i>2022-12-09T16:00:00.000+00:00</i>
+                      For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="date"
-                      name="date"
+                      name="end-date"
                       label="End Date"
                       onChange={(e) => setEndDate(e.target.value)}
-                      value={endDate}
+                      value={new Date(endDate).toISOString().split("T")[0]}
                       required
                     />
                     <p className="text-sm text-gray-500">
