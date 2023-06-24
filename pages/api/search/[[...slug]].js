@@ -25,7 +25,7 @@ export default async function handler(req, res) {
   let filteredUsers = [];
 
   try {
-    const users = await getUsers({ cards: true });
+    const users = await getUsers();
 
     filteredUsers = users.flat().filter((user) => {
       const nameLower = user.name.toLowerCase();

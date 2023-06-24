@@ -21,7 +21,7 @@ export async function getStaticProps() {
   };
   let users = [];
   try {
-    users = await getUsers({ cards: true });
+    users = await getUsers();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
