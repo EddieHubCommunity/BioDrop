@@ -1,6 +1,5 @@
 import Image from "next/image";
-import FaGithub from "./icons/FaGithub";
-import { FaMoneyBillAlt } from "react-icons/fa";
+import { FaMoneyBillAlt, FaGithub } from "react-icons/fa";
 
 import Link from "./Link";
 
