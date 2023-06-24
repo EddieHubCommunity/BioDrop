@@ -1,6 +1,6 @@
 const z = require("zod");
 
-const usernameSchema = z.string().min(3).max(25).optional().nullish();
+const usernameSchema = z.string().optional();
 
 const basicProfileSchema = z.object({
   name: z.string().optional(),
