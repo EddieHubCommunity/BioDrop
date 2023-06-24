@@ -1,5 +1,6 @@
 import { authOptions } from "../../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -68,7 +69,7 @@ export async function addLinkApi(username, data) {
   }
 
   try {
-    const profile = Profile.find({ username });
+    const profile = await Profile.findOne({ username });
     getLink = await Link.create(
       [
         {
@@ -79,7 +80,7 @@ export async function addLinkApi(username, data) {
           icon: data.icon,
           isEnabled: data.isEnabled,
           isPinned: data.isPinned,
-          profile: profile._id,
+          profile: new ObjectId(profile._id),
         },
       ],
       { new: true }
@@ -91,7 +92,7 @@ export async function addLinkApi(username, data) {
       { username },
       {
         $set: { source: "database" },
-        $push: { links: getLink._id },
+        $push: { links: new ObjectId(getLink[0]._id) },
       },
       { upsert: true }
     );

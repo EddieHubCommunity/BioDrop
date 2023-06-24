@@ -48,22 +48,13 @@ export async function getUserApi(req, res, username) {
     "-__v -views -source"
   ).populate({
     path: "links",
-    select: "-__v -clicks -profile",
+    select: "-__v -clicks -profile -linkstats -updatedAt -createdAt -username",
     options: { sort: { order: 1 } },
   });
 
   getProfile = {
     ...getProfile._doc,
-    links: getProfile._doc.links
-      .filter((link) => link.isEnabled)
-      .map((link) => ({
-        _id: link._id,
-        group: link.group,
-        name: link.name,
-        url: link.url,
-        icon: link.icon,
-        order: link.order,
-      })),
+    links: getProfile._doc.links.filter((link) => link.isEnabled),
     socials: getProfile._doc.links
       .filter((link) => link.isPinned)
       .map((link) => ({

@@ -50,7 +50,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     message: "",
     additionalMessage: "",
   });
-  const [edit] = useState(link._id ? true : false);
+  const [edit, setEdit] = useState(link._id ? true : false);
   const [group, setGroup] = useState(link.group || "");
   const [name, setName] = useState(link.name || "");
   const [url, setUrl] = useState(link.url || "");
@@ -92,6 +92,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     }
 
     Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
+    setEdit(true);
 
     return setShowNotification({
       show: true,
