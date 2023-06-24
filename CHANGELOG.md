@@ -1,3 +1,7 @@
+## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
+
+
+
 ## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
 
 
@@ -31,15 +35,6 @@
 ### Bug Fixes
 
 * github api token to increase rate limit ([#7531](https://github.com/EddieHubCommunity/LinkFree/issues/7531)) ([6d64788](https://github.com/EddieHubCommunity/LinkFree/commit/6d6478838df19de99ef3f936ab9932229a295af8))
-
-
-
-## [1.144.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.6...v1.144.7) (2023-06-22)
-
-
-### Bug Fixes
-
-* file count diagnostics to vercel deploy ([#7736](https://github.com/EddieHubCommunity/LinkFree/issues/7736)) ([171be92](https://github.com/EddieHubCommunity/LinkFree/commit/171be92378180e174474fc4207223e6218f9066c))
 
 
 
