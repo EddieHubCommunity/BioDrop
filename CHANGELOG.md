@@ -1,3 +1,12 @@
+## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
+
+
+### Bug Fixes
+
+* update dependencies ([#7755](https://github.com/EddieHubCommunity/LinkFree/issues/7755)) ([c664a27](https://github.com/EddieHubCommunity/LinkFree/commit/c664a27ab88ce800ad84f46ddb2b940376d0f3fc))
+
+
+
 ## [1.144.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.9...v1.144.10) (2023-06-24)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * file count diagnostics to vercel deploy ([#7736](https://github.com/EddieHubCommunity/LinkFree/issues/7736)) ([171be92](https://github.com/EddieHubCommunity/LinkFree/commit/171be92378180e174474fc4207223e6218f9066c))
-
-
-
-## [1.144.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.5...v1.144.6) (2023-06-22)
 
 
 
