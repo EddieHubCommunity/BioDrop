@@ -1,3 +1,12 @@
+## [1.144.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.9...v1.144.10) (2023-06-24)
+
+
+### Bug Fixes
+
+* move newsletter to own page ([#7758](https://github.com/EddieHubCommunity/LinkFree/issues/7758)) ([0a5676f](https://github.com/EddieHubCommunity/LinkFree/commit/0a5676fcb8188f7e49bf299224a71c860f45b046))
+
+
+
 ## [1.144.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.8...v1.144.9) (2023-06-23)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.144.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.5...v1.144.6) (2023-06-22)
-
-
-
-## [1.144.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.4...v1.144.5) (2023-06-21)
-
-
-### Bug Fixes
-
-* linting ([#7705](https://github.com/EddieHubCommunity/LinkFree/issues/7705)) ([a406417](https://github.com/EddieHubCommunity/LinkFree/commit/a4064172495e7db56f02188b653ddc3798dd39de))
 
 
 
