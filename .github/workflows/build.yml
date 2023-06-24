@@ -6,10 +6,19 @@ on:
       - tests/**
       - components/**
       - config/**
+      - tailwind.config.js
+      - package.json
+      - next.config.mjs
+      - models/**
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
     strategy:
       matrix:
         step: [lint, build]

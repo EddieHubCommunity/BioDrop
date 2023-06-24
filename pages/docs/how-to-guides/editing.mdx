@@ -1,5 +1,13 @@
-import DocsLayout from "../../../components/layouts/DocsLayout.js";
-import Link from "../../../components/Link";
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+import Youtube from "@components/embeds/Youtube.js";
+
+## Editing
+
+<Youtube
+  url="https://www.youtube.com/embed/eze7Y4Rxwtc"
+  title="Linkfree Editing Video"
+></Youtube>
 
 ## Edit your profile
 
@@ -48,7 +56,7 @@ Changes could include:
 
 For how to add each of these sections, please referring to their relevant guides.
 
-9. Scroll to the bottom and commit new file by adding the commit messsage that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+9. Scroll to the bottom and commit new file by adding the commit message that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
 
 You can skip `optional extended message`
 
@@ -72,7 +80,7 @@ An approving review from one of LinkFree's maintainers will show a green check m
 ![maintainer review](https://user-images.githubusercontent.com/35927536/217060602-ba3678d1-f655-4805-a47d-e40f1ddcd59f.png)
 
 16. You will receive a GitHub notification when you have a comment, review or your Pull Request has been merged
-17. Once merged your profile will be available a few minutes later on the same custom url (for example: <Link href="linkfree.eddiehub.io/SaraJaoude">`https://linkfree.eddiehub.io/SaraJaoude`</Link>)
+17. Once merged your profile will be available a few minutes later on the same custom url (for example: <Link href="https://linkfree.io/SaraJaoude">`https://linkfree.io/SaraJaoude`</Link>)
 
 You can learn more about these later on in the documentation, in their respective sections.
 
@@ -95,7 +103,11 @@ To make further changes to an open Pull Request, follow these steps:
 GitHub will automatically append these changes to your open Pull Request.
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Editing Profile Documentation">
+  <DocsLayout
+    title="LinkFree Editing Profile Documentation"
+    section="Customising your Profile"
+    name="Editing"
+  >
     {children}
   </DocsLayout>
 );

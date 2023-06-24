@@ -1,0 +1,21 @@
+{
+  "name": "Chetan Padhen",
+  "bio": " I am Btech CSE Student | Web2 developer,newbie To Web3 And Devops |Like  Contribution To **Open Source Project** ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ChetanPadhen",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect With me on Linkedin",
+      "url": "https://www.linkedin.com/in/chetan-padhen-501416222/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Chetax",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Steven Rouse",
+  "bio": "Full-stack Developer, Jazz enthusiast, and eating curry where I roam.",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/stevenrouse",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https:https://github.com/ROUSE-prog",
+      "icon": "FaGithub"
+    }
+  ]
+}

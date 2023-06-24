@@ -1,0 +1,26 @@
+{
+  "name": "Sarthak Dobriyal",
+  "bio": "React developer exploring the world of open source. Let's build something great together!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/s_dobz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Have a look at my work",
+      "url": "https://github.com/high-prog",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sarthk-dobriyal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs",
+      "url": "https://sarthk.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

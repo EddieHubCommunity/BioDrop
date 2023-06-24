@@ -1,5 +1,5 @@
-import { Octokit } from "octokit";
-import logger from "../../config/logger";
+import logger from "@config/logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 export default async function getLocationByUsername(username) {
   let location = {
@@ -8,31 +8,40 @@ export default async function getLocationByUsername(username) {
     lat: 0,
     lon: 0,
   };
-  const octokit = new Octokit({});
+
   let github;
+  const ghAuth = serverEnv.GITHUB_API_TOKEN ? {
+    headers: {
+      Authorization: `bearer ${serverEnv.GITHUB_API_TOKEN}` 
+    }
+  } : {};
   try {
-    github = await octokit.request(`GET /users/${username}`);
+    const data = await fetch(`https://api.github.com/users/${username}`, ghAuth);
+    github = await data.json();
     logger.info(
-      `github info fetched for username: ${username} and received location ${github.data.location}`
+      `github info fetched for username: ${username} and received location ${github.location}`
     );
   } catch (e) {
     logger.error(`location info from github failed for username ${username}`);
     return location;
   }
 
-  if (!github.data.location || github.data.location.toLowerCase() === 'remote') {
+  if (
+    !github.location ||
+    github.location.toLowerCase() === "remote"
+  ) {
     return location;
   }
 
   const url = `https://nominatim.openstreetmap.org/?addressdetails=1&q=${encodeURIComponent(
-    github.data.location
+    github.location
   )}&format=json&limit=1`;
 
   try {
     const locationResponse = await fetch(url);
     const data = (await locationResponse.json())[0];
     location = {
-      provided: github.data.location,
+      provided: github.location,
       name: data.display_name,
       lat: data.lat,
       lon: data.lon,
@@ -41,7 +50,7 @@ export default async function getLocationByUsername(username) {
     logger.error(
       `location info from open street map failed for username ${username}`
     );
-    return { ...location, provided: github.data.location };
+    return { ...location, provided: github.location };
   }
 
   logger.info(

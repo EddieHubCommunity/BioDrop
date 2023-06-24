@@ -1,0 +1,21 @@
+{
+  "name": "Muhammad Rabi",
+  "bio": "I'm an Autodidact Front-end web developer, seeking contribution to open source projects",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MuhammadRabi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/muhammad-rabi-07a51b202/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UCPksZXBOyWw034TuDr5Q32w",
+      "icon": "FaYoutube"
+    }
+  ]
+}

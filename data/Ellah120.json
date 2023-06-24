@@ -1,8 +1,6 @@
 {
   "name": "Nwoke Emmanuella",
-  "type": "personal",
   "bio": "Frontend Engineer, Tech Sis and enthusiast",
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -11,7 +9,7 @@
     },
     {
       "name": "Connect with me on LinkedIn",
-      "url": "https://www.linkedin.com/in/ogechi-nwoke-217911114/",
+      "url": "http://www.linkedin.com/in/emmanuella-nwoke-217911114/",
       "icon": "FaLinkedin"
     },
     {

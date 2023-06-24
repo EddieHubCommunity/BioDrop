@@ -1,23 +1,33 @@
 {
   "name": "Priyankar Pal",
-  "type": "personal",
-  "bio": "Web Developer ➝ Talks about Linux, Code, Open Source 💡",
-
+  "bio": "Linux, Frontend Web Dev, Open Source Maintainer",
   "tags": [
     "Open Source",
     "Javascript",
     "JAVA",
-    "Kali Linux",
+    "Linux",
     "SCSS",
     "Python",
-    "TailWind"
+    "TailWind",
+    "ReactJs"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/priyankarpal" },
-    { "icon": "FaGithub", "url": "https://github.com/priyankarpal" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/priyankarpal" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/priyankarpal1" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/priyankarpal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/priyankarpal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/priyankarpal"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/priyankarpal1"
+    },
     {
       "icon": "FaDiscord",
       "url": "https://discordapp.com/users/1040252995130101821"
@@ -61,6 +71,12 @@
       "icon": "SiVisualstudiocode"
     },
     {
+      "group": "Projects",
+      "name": "Open Source Projects List",
+      "url": "https://github.com/stars/priyankarpal/lists/open-source-projects",
+      "icon": "SiOpensourceinitiative"
+    },
+    {
       "group": "Twitter Threads",
       "name": "All Twitter Threads",
       "url": "https://fueler.io/priyankarpal/twitter-threads/96db7bf8-10dd-4110-b899-bd69fbae9835",
@@ -82,7 +98,7 @@
       "title": "The beginning",
       "icon": "FaFileCode",
       "date": "October 2020",
-      "color": "grey",
+      "color": "red",
       "description": "This was the time when I started learning to code using HTML,CSS, and Bootstrap"
     },
     {
@@ -96,16 +112,32 @@
       "title": "Started Open Source Contributions",
       "date": "November 2022",
       "icon": "SiOpensourceinitiative",
-      "color": "grey",
+      "color": "blue",
       "description": "Started learning how to contribute to Open Source and contributed some Open Source Projects "
     },
     {
       "title": "Again Started Publishing Blogs",
       "date": "November 2022",
       "icon": "SiHashnode",
-      "color": "grey",
+      "color": "green",
       "description": "Again I started publishing blogs to Hashnode Platform as a developer",
       "url": "https://priyankarpal.hashnode.dev"
+    },
+    {
+      "title": "Created Open Source Project",
+      "date": "February 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "Created ProjectsHut Open Source website. A place where you will find lots of cool projects",
+      "url": "https://github.com/priyankarpal/ProjectsHut"
+    },
+    {
+      "title": "Contributor to Maintainer",
+      "date": "March 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "red",
+      "description": "From a great meeting to a new journey as a maintainer of the GitOpener OSS project",
+      "url": "https://github.com/pbclife/gitopener.vercel.app"
     }
   ]
 }

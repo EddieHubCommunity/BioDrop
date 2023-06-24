@@ -7,5 +7,9 @@
     "start": "2023-07-27T09:00:00.000+00:00",
     "end": "2023-07-28T17:00:00.000+00:00"
   },
+  "location": {
+    "city": "Berlin",
+    "country": "Germany"
+  },
   "url": "https://www.wearedevelopers.com/world-congress"
 }

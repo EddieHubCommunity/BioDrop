@@ -1,0 +1,26 @@
+{
+  "name": "Akhilesh Waghmare",
+  "bio": "Designer & Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/the_akhilesh_w",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/dichotomyofakhil",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akhilesh-waghmare-0652a31b9/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/akhilesh-w",
+      "icon": "FaGithub"
+    }
+  ]
+}

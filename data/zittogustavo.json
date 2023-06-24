@@ -1,10 +1,13 @@
 {
   "name": "Gustavo Zitto",
-  "type": "personal",
   "bio": "Full Stack Developer",
-
   "tags": ["javascript", "typescript", "HTML", "PHP", "React"],
-  "socials": [{ "icon": "FaGithub", "url": "https://github.com/zittogustavo" }],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/zittogustavo"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on GitHub",

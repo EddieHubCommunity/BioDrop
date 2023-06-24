@@ -1,0 +1,32 @@
+{
+  "name": "Aditya Chaudhary",
+  "bio": "Web Developer | DevOps | Open Source",
+  "tags": ["Web Developer", "Open Source", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aditya_script"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aditya-chaudhary3/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aditya_script",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-chaudhary3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AdityaChaudhary3",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Vansh Bhatnagar",
+  "bio": "Tech Enthusiast. Full Stack Developer. Travel Enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vanshbh041",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/bhatnagar___vansh___20909",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Vansh41104",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/vansh-bhatnagar-66465225b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on LeetCode",
+      "url": "https://leetcode.com/vanshbhatnagar445/",
+      "icon": "FaLeetcode"
+    }
+  ]
+}

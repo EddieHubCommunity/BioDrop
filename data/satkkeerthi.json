@@ -1,0 +1,36 @@
+{
+  "name": "Satkkeerthi Sriram",
+  "bio": "Aspiring Software Engineer",
+  "socials": [
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/satkkeerthi-sriram"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/satkkeerthi"
+    },
+    {
+      "icon": "SiLeetcode",
+      "url": "https://leetcode.com/s_s19"
+    }
+  ],
+  "links": [
+    {
+      "icon": "SiLinkedin",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/satkkeerthi-sriram"
+    },
+    {
+      "icon": "SiGithub",
+      "name": "Check out my contributions on GitHub",
+      "url": "https://github.com/satkkeerthi"
+    },
+    {
+      "icon": "SiLeetcode",
+      "name": "My profile on Leetcode",
+      "url": "https://leetcode.com/s_s19"
+    }
+  ],
+  "tags": ["Open Source", "C++", "Python", "Java"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Soham Roy",
+  "bio": "Frontend Developer passionate about full stack and web3 technologies",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sohamroy_01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/the_illusionist_98/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

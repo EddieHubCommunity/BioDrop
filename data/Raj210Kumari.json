@@ -1,0 +1,26 @@
+{
+  "name": "Rajnandani Kumari",
+  "bio": "**Frontend Developer** Skilled in MERN stack who focuses on writing clean, elegant and efficient code.",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Raj210Kumari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Checkout my portfolio",
+      "url": "http://raj210kumari.github.io/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Girl_WhoCode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/k-rajnandani210/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

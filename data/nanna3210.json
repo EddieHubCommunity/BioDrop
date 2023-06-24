@@ -1,0 +1,35 @@
+{
+  "name": "Nanna dash",
+  "bio": "Full stack dev | open source . music lover  ",
+  "tags": [
+    "open source",
+    "full stack ",
+    "java",
+    "sring boot ",
+    "microservice",
+    "typescript",
+    "angular"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DashNanna"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nanna3210"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DashNanna",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github ",
+      "url": "https://github.com/nanna3210",
+      "icon": "FaGithub"
+    }
+  ]
+}

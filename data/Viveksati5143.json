@@ -1,0 +1,16 @@
+{
+  "name": "Vivek Sati",
+  "bio": " **Open Source**. Devops enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vivek__twts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Viveksati5143",
+      "icon": "FaGithub"
+    }
+  ]
+}

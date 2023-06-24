@@ -1,0 +1,17 @@
+{
+  "name": "Sudarshan Hegde",
+  "bio": "Hi, I'm Sudarshan, a dedicated and passionate Java Full Stack Developer with a strong background in web development and a knack for problem-solving. Looking for opportunity to work as a fresher.",
+  "tags": ["Java", "Spring", "JavaScript", "WebDev", "Open-Source"],
+  "links": [
+    {
+      "name": "Let's Connect",
+      "url": "https://www.linkedin.com/in/sudarshan-hegde-99b176182/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/SudarshanSirsi",
+      "icon": "FaGithub"
+    }
+  ]
+}

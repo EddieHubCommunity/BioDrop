@@ -1,8 +1,6 @@
 {
   "name": "Abhinav Kumar",
-  "type": "personal",
   "bio": "Frontend developer | diving deep into **Node.js** | **TypeScript** Enthusiast",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,8 +10,14 @@
     "Node.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_Abhinav6" },
-    { "icon": "FaGithub", "url": "https://github.com/Abhinav-6" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_Abhinav6"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Abhinav-6"
+    }
   ],
   "links": [
     {

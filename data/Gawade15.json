@@ -1,0 +1,26 @@
+{
+  "name": "Komal Gawade",
+  "bio": " Learning Web developer ,  working on DSA , Exploring Technology",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Komal_2002",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Gawade15",
+      "icon": "FAGithubAlt"
+    },
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://www.linkedin.com/in/komal-gawade-b59565225/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on instagram",
+      "url": "https://www.instagram.com/i_am_komalgawade/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

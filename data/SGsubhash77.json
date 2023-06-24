@@ -1,0 +1,43 @@
+{
+  "name": "Subhash Gandhi",
+  "bio": "**Open Source**  Enthusiast | Full Stack Dev",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "Full Stack",
+    "MERN Stack",
+    "Node.js",
+    "Ui/Ux"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SGsubhash77.png"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://www.twitter.com/in/subhashgandhi89087282/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/subhash-gandhi/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SGsubhash77",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/subhash-gandhi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.twitter.com/in/subhashgandhi89087282/",
+      "icon": "FaTwitter"
+    }
+  ]
+}

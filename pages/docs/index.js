@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Page from "../../components/Page";
-import Link from "../../components/Link";
+import Page from "@components/Page";
+import Link from "@components/Link";
 
 export default function DocsIndex() {
   function classNames(...classes) {
@@ -46,27 +46,57 @@ export default function DocsIndex() {
           name: "Local development",
           path: "/docs/environments/local-development",
           description:
-            "This allows you the most customisation to your development environment, but requires more setup time.",
+            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
         {
-          name: "Docker Compose",
-          path: "/docs/environments/local-development-docker-compose",
+          name: "LinkFree CLI",
+          path: "/docs/environments/linkfree-cli",
           description:
-            "This might sound scary but it is actually the easiest solution for a local development environment.",
+            "This CLI tool will allow you to create profile, update profile, add testimonials and more from the command line.",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
           },
         },
         {
-          name: "Available icons",
+          name: "Available Icons",
           path: "/icons",
           description:
             "Search for available icons you can use on your profile.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Environment variables",
+          path: "/docs/environments/environment-variables",
+          description:
+            "To run the application you need to have environment variables set for the application to work correctly.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Community Resources",
+          path: "/docs/community-resources",
+          description:
+            "More information about Community resources and their collaborations.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "MongoDB Atlas for Local Development",
+          path: "/docs/environments/local-with-atlas",
+          description:
+            "A step-by-step guide to setting up a MongoDB Atlas account and establishing a connection for local development.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -129,7 +159,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Social shortcuts",
+          name: "Social Shortcuts",
           path: "/docs/how-to-guides/socials-shortcuts",
           description:
             "Add a shortcut to your favourite social media accounts at the top of your Profile.",
@@ -142,7 +172,7 @@ export default function DocsIndex() {
           name: "Milestones",
           path: "/docs/how-to-guides/milestones",
           description:
-            "Demostrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
+            "Demonstrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job to reaching 100k followers/subscribers.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -174,6 +204,15 @@ export default function DocsIndex() {
       description: "You can contribute to our project in multiple ways",
       pages: [
         {
+          name: "Reviewers",
+          path: "/docs/contributing/reviewers",
+          description: "Guidelines for reviewing Issues and Pull Requests",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
+          },
+        },
+        {
           name: "Storybook",
           path: "/docs/contributing/storybook",
           description:
@@ -184,7 +223,7 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Automated tests",
+          name: "Automated Tests",
           path: "/docs/contributing/automated-tests",
           description:
             "Run the Playwright testing framework that drives the browser as a user does via code.",
@@ -213,12 +252,41 @@ export default function DocsIndex() {
             color: "bg-green-100 text-green-800",
           },
         },
+        {
+          name: "Labels",
+          path: "/docs/contributing/labels",
+          description:
+            "We use labels to display various information about the issue (for example: is it ready for development or is it still waiting for the maintainers to review), the complexity of the issue (with points) and more.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Docs Style Guide",
+          path: "/docs/docs-style-guide",
+          description:
+            "A guide for contributors when making changes to the documentation.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
       ],
     },
     {
       title: "Extra",
       description: "More information",
       pages: [
+        {
+          name: "Profile Tips",
+          path: "/docs/profile-tips",
+          description: "Tips on making your LinkFree profile stand out.",
+          category: {
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
+          },
+        },
         {
           name: "Full Profile Example",
           path: "/docs/full-profile-example",
@@ -230,12 +298,12 @@ export default function DocsIndex() {
           },
         },
         {
-          name: "Single user mode",
-          path: "/docs/advanced/single-user-mode",
-          description: "Self host LinkFree for your single Profile.",
+          name: "Map Information",
+          path: "/docs/map",
+          description: "Information describing how the map feature works.",
           category: {
-            name: "Advanced",
-            color: "bg-red-100 text-red-800",
+            name: "Beginner",
+            color: "bg-green-100 text-green-800",
           },
         },
         {
@@ -245,6 +313,15 @@ export default function DocsIndex() {
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
+          },
+        },
+        {
+          name: "Maintainers",
+          path: "/docs/maintainers",
+          description: "Maintainers guide to LinkFree.",
+          category: {
+            name: "Advanced",
+            color: "bg-red-100 text-red-800",
           },
         },
       ],
@@ -283,22 +360,29 @@ export default function DocsIndex() {
         </p>
         {sections.map((section) => (
           <div
-            className="bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
+            className="bg-white dark:bg-primary-high  px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28"
             key={section.title}
           >
-            <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
+            <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
               <div>
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <h2
+                  className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
+                  id={section.title}
+                >
                   {section.title}
                 </h2>
-                <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+                <p className="mt-3 text-xl text-primary-medium dark:text-primary-low-high sm:mt-4">
                   {section.description}
                 </p>
               </div>
               <div className="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
                 {section.pages.map((page) => (
-                  <div key={page.name}>
-                    <div>
+                  <Link
+                    href={page.path}
+                    key={page.name}
+                    className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
+                  >
+                    <div className="py-2">
                       <span
                         className={classNames(
                           page.category.color,
@@ -308,15 +392,15 @@ export default function DocsIndex() {
                         {page.category.name}
                       </span>
                     </div>
-                    <Link href={page.path} className="mt-4 block">
-                      <h3 className="text-xl font-semibold text-gray-900">
+                    <div className="py-2">
+                      <h3 className="text-xl font-semibold text-primary-high dark:text-primary-low">
                         {page.name}
                       </h3>
-                      <p className="mt-3 text-base text-gray-500">
+                      <p className="mt-3 text-base text-primary-medium dark:text-primary-low-high">
                         {page.description}
                       </p>
-                    </Link>
-                  </div>
+                    </div>
+                  </Link>
                 ))}
               </div>
             </div>

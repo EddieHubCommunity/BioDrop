@@ -1,0 +1,21 @@
+{
+  "name": "Tejas patel",
+  "bio": "Pre-Final year student of B.Tech CE",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Tweetsoftejas",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Tejasp2003",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tejas2003/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Siddhant Sharma",
+  "bio": "Fullstack developer | Build cool projects!",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vooloodoo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/methlox",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/methlox/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/methlox/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@methlox",
+      "icon": "SiHashnode"
+    }
+  ]
+}

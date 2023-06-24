@@ -1,0 +1,16 @@
+{
+  "name": "Ankur Singh",
+  "bio": "Web Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ankursingh91002",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ankur0904",
+      "icon": "FaGithub"
+    }
+  ]
+}

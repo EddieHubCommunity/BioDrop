@@ -1,0 +1,21 @@
+{
+  "name": "Sansar Maske",
+  "bio": "Science & Technology enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sansar122",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sansarmaske/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/sansarmaske/",
+      "icon": "FaGithub"
+    }
+  ]
+}

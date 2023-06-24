@@ -1,0 +1,35 @@
+{
+  "name": "Samuel Mintah",
+  "bio": "Software Engineer, Tech junkie, early adopter, and futurist.",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Node",
+    "NextJS",
+    "Python",
+    "React",
+    "Full-Stack Developer"
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/binary_republic",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/SamMintah",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/samuel-mintah-a4878a158/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_tio.rico/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

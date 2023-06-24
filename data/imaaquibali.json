@@ -1,0 +1,79 @@
+{
+  "name": "Aaquib Ali",
+  "bio": "DevRel | Founder of **The VerSiton**| Mentor | Open-Source Contributor | **Content Creator** |",
+  "tags": ["Open Source", "Javascript", "Content Creator", "DevRel"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/imaaquibali"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/imaaquibali"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://imaaquibali.me"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/imaaquibali",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Let's collobrate ",
+      "url": "https://github.com/imaaquibali",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/imaaquibali",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Medium: Learn with me",
+      "url": "https://medium.com/@imaaquibali",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Website: Hire me",
+      "url": "https://imaaquibali.me",
+      "icon": "FaLink"
+    },
+    {
+      "group": "The VerSiton Community",
+      "name": "The VerSiton: Inclusive Web3 Community (Discord, GitHub Org ...)",
+      "url": "http://linktr.ee/theversiton",
+      "icon": "FaLink"
+    },
+    {
+      "group": "The VerSiton Community",
+      "name": "EddieHub: Discord",
+      "url": "https://discord.gg/vp64HWZfMa",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/imaaquibali",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "June 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.imaaquibali/"
+    }
+  ]
+}

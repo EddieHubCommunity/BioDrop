@@ -1,8 +1,6 @@
 {
   "name": "Jintao Zhang",
-  "type": "personal",
   "bio": "Kubernetes Ingress-NGINX maintainer | Apache APISIX PMC | Microsoft MVP",
-
   "tags": [
     "Open Source",
     "Cloud Native",
@@ -12,9 +10,18 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/zhangjintao9020" },
-    { "icon": "FaGithub", "url": "https://github.com/tao12345666333" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@zhangjintao" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/zhangjintao9020"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tao12345666333"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@zhangjintao"
+    }
   ],
   "testimonials": [],
   "links": [

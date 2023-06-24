@@ -1,0 +1,46 @@
+{
+  "name": "Gautam Rai",
+  "bio": "An aspiring full stack web developer. Guitarist and Travel enthusiast",
+  "tags": ["Open Source", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/GAUTAM_66"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Gautam-666"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/gautam-rai-01184324a"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/GAUTAM_66?t=DFQ10blt8ucPQEJVJ6g3pQ&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/gautam-rai-01184324a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/gautam_rai06",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Gautam-666",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Quora",
+      "url": "https://www.quora.com/profile/GAUTAM-RAI-163",
+      "icon": "FaQuora"
+    }
+  ]
+}

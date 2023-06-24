@@ -1,12 +1,16 @@
 {
   "name": "MANDA SUPRAJA",
-  "type": "personal",
   "bio": "Open Source Enthusiast!",
-
   "tags": ["javascript", "typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/SuprajaManda" },
-    { "icon": "FaGithub", "url": "https://github.com/Manda-supraja26" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SuprajaManda"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Manda-supraja26"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,16 @@
+{
+  "name": "Harsh Tamboli",
+  "bio": "Pursuing B.Tech. in Computer science",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_harsh_tamboli_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/harsh-tamboli-452b6a187/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

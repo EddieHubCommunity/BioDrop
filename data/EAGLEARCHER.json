@@ -1,0 +1,21 @@
+{
+  "name": "Bheru Singh Panwar",
+  "bio": "Currently a student who wants to learn more Web Dev tech, loves being a musician",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bheru003",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/bheru-singh-panwar-72a818226/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/_bheru003?igshid=YmMyMTA2M2Y=",
+      "icon": "FaInstagram"
+    }
+  ]
+}

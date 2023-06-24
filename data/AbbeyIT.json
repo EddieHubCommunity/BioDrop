@@ -1,14 +1,21 @@
 {
   "name": "Abbey Santos",
-  "type": "personal",
   "bio": "**Open Source Enthusiast!** | DevOps | Cloud | Fedora User BTW",
   "tags": ["Open Source", "DevOps", "Python", "AWS", "Fediverse"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/abbeywilltech" },
-    { "icon": "FaGithub", "url": "https://github.com/AbbeyIT" },
-    { "icon": "FaMastodon", "url": "https://fosstodon.org/@abbey" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abbeywilltech"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AbbeyIT"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://fosstodon.org/@abbey"
+    }
   ],
-
   "links": [
     {
       "name": "Follow my Open Source journey on GitHub",

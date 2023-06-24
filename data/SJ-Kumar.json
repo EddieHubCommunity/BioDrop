@@ -1,0 +1,49 @@
+{
+  "name": "Jayanth Kumar",
+  "bio": "Open Source DevRel |CSE Student | **GitHub** Star",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/sjayanthkumar/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Jayanth_2003"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SJ-Kumar"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/SJ-Kumar",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/sjayanthkumar",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started BTech CSE course",
+      "date": "May 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started... ",
+      "url": "https://profile-git-main-sj-kumar.vercel.app/"
+    }
+  ]
+}

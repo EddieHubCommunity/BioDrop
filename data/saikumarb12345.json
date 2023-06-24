@@ -1,0 +1,21 @@
+{
+  "name": "Boyapati Saikumar",
+  "bio": "I am Open Source enthusiast and Learning frontend development",
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/saiDevstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Let's Collaborate",
+      "url": "https://github.com/saikumarb12345",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/sai-kumar-boyapati-650b64225/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

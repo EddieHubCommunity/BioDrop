@@ -1,0 +1,102 @@
+{
+  "name": "Subhadeep Chakraborty",
+  "bio": "Coding Enthusiast | Final Year Student | Student @ Narula Institute of Technology ",
+  "tags": [
+    "Java",
+    "ReactJS",
+    "Javascript",
+    "DSA",
+    "HTML",
+    "CSS",
+    "Python",
+    "C++",
+    "dotNet"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/subhadeepzilong"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SubhadeepZilong"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/subhadeep-chakraborty-b341a8191/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Engage with me on Twitter",
+      "url": "https://twitter.com/subhadeepzilong",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/asubhadeep-chakraborty-b341a8191/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my Journey on Github",
+      "url": "https://github.com/SubhadeepZilong",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Take a glance at my website",
+      "url": "https://subhadeepzilong.is-a.dev/",
+      "icon": "SiCircle"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined LTIMindtree Internship Program",
+      "description": "I was selected as an Graduate Engineer Trainee.",
+      "date": "February 2023",
+      "icon": "SiWorkplace",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Got Offer Letters",
+      "description": "I was glad to get selected and get four offer letters from the companies.",
+      "date": "September 2022 - December 2022",
+      "icon": "SiWorkplace",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Completed Persistent Martian Internship Program",
+      "description": "I was selected as a summer intern and was presented with a summer full of learning.",
+      "date": "April 2022 - July 2022",
+      "icon": "SiWorkplace",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started Coding as a passion",
+      "description": "I began learning to code and solve DSA questions on Leetcode and GeeksforGeeks.",
+      "date": "October 2019",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started my Journey in Computer Science Engineering",
+      "description": "I enrolled to 4-Year Undergraduate Degree in Computer Science Engineering.",
+      "date": "July 2019 - July 2023",
+      "icon": "FaLaptop",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Joined ColorOS as a Tester",
+      "description": "I began my journey and became an Alpha Tester.",
+      "date": "April 2019 - April 2021",
+      "icon": "SiWorkplace",
+      "color": "#1e3530"
+    },
+    {
+      "title": "The first time I was ever introduced to Coding",
+      "description": "The first time I was ever introduced to Coding.",
+      "date": "2014",
+      "icon": "FaLaptop",
+      "color": "#1e3530"
+    }
+  ]
+}

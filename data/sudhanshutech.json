@@ -1,0 +1,21 @@
+{
+  "name": "Sudhanshu Dasgupta",
+  "bio": "Frontend Developer, Cloud and Networking, web3 enthusiast and Open source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SudhanshuDasgu3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sudhanshu-dasgupta/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/sudhanshutech",
+      "icon": "FaGithub"
+    }
+  ]
+}

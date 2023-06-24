@@ -1,0 +1,16 @@
+{
+  "name": "Kaushal Kishor",
+  "bio": "Learning new things everyday is the key to success",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kaushalnitb",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/kaushalnitb",
+      "icon": "FaGitHub"
+    }
+  ]
+}
