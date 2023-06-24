@@ -18,6 +18,7 @@ export default async function handler(req, res) {
     );
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
+
   await connectMongo();
 
   // 1. load all profiles
@@ -45,17 +46,21 @@ export default async function handler(req, res) {
         return;
       }
 
-      currentProfile = await Profile.findOneAndUpdate(
-        { username: profile.username },
-        {
-          source: "file",
-          isEnabled: true,
-          name: profile.name,
-          bio: profile.bio,
-          tags: profile.tags,
-        },
-        { upsert: true, new: true }
-      );
+      try {
+        currentProfile = await Profile.findOneAndUpdate(
+          { username: profile.username },
+          {
+            source: "file",
+            isEnabled: true,
+            name: profile.name,
+            bio: profile.bio,
+            tags: profile.tags,
+          },
+          { upsert: true, new: true }
+        );
+      } catch (e) {
+        logger.error(e, `failed to update profile ${profile.username}`);
+      }
 
       if (currentProfile.links || profile.links || profile.socials) {
         if (profile.links) {
@@ -134,7 +139,7 @@ export default async function handler(req, res) {
           path: "links",
         });
 
-        // disable LINKS and SOCAILS not in json file
+        // disable LINKS and SOCIALS not in json file
         await Promise.all(
           currentProfile.links
             .filter(
@@ -149,80 +154,12 @@ export default async function handler(req, res) {
         );
       }
 
-      // 2. milestones
-      try {
-        if (profile.milestones) {
-          await Profile.findOneAndUpdate(
-            { username: profile.username },
-            {
-              milestones: profile.milestones.map((milestone, position) => ({
-                url: milestone.url,
-                date: milestone.date,
-                isGoal: milestone.isGoal || false,
-                title: milestone.title,
-                icon: milestone.icon,
-                description: milestone.description,
-                color: milestone.color,
-                order: position,
-              })),
-            }
-          );
-        }
-      } catch (e) {
-        logger.error(e, `failed to update milestones for ${profile.username}`);
-      }
-
-      // 3. testimonials (enable selected testimonials)
-      try {
-        if (profile.testimonials) {
-          await Profile.findOneAndUpdate(
-            { username: profile.username },
-            {
-              testimonials: profile.testimonials.map(
-                (testimonials, position) => ({
-                  username: testimonials.username,
-                  date: testimonials.date,
-                  title: testimonials.title,
-                  description: testimonials.description,
-                  order: position,
-                  isPinned: testimonials.isPinned || false,
-                })
-              ),
-            }
-          );
-        }
-      } catch (e) {
-        logger.error(
-          e,
-          `failed to update testimonials for ${profile.username}`
-        );
-      }
-
-      // - events
-      try {
-        if (profile.events) {
-          await Profile.findOneAndUpdate(
-            { username: profile.username },
-            {
-              events: profile.events.map((event, position) => ({
-                isVirtual: event.isVirtual,
-                color: event.color,
-                name: event.name,
-                description: event.description,
-                date: {
-                  start: event.date.start,
-                  end: event.date.end,
-                },
-                url: event.url,
-                order: position,
-                price: event.price,
-              })),
-            }
-          );
-        }
-      } catch (e) {
-        logger.error(e, `failed to update events for ${profile.username}`);
-      }
+      // 2. add milestones to the profile in the db
+      updateProfileProperty(profile, "milestones");
+      // 3. add testimonials to the profile in the db
+      updateProfileProperty(profile, "testimonials");
+      // 4. add events to the profile in the db
+      updateProfileProperty(profile, "events");
     })
   );
 
@@ -288,7 +225,32 @@ function findAllBasic() {
   return users;
 }
 
-const getTestimonials = (filePathTestimonials, data) => {
+function findOneByUsernameFull(data) {
+  const username = data.username;
+  const basePath = path.join(process.cwd(), "data", username);
+  const filePathTestimonials = path.join(basePath, "testimonials");
+  const filePathEvents = path.join(basePath, "events");
+
+  // get testimonials for user if they exist (e.g. /data/username/testimonials)
+  const allTestimonials = getTestimonials(filePathTestimonials, data);
+  data = { ...data, testimonials: allTestimonials };
+
+  // get events for user if they exist (e.g. /data/username/events)
+  const allEvents = getEvents(filePathEvents, username);
+  if (allEvents.length) {
+    data = { ...data, events: allEvents };
+  }
+
+  // update links with isPinned
+  data.links = updateLinks(data);
+
+  // validate each profile against the schema and return the validated profile
+  const validatedProfile = validateFullProfile(data, username);
+
+  return validatedProfile;
+}
+
+function getTestimonials(filePathTestimonials, data) {
   // Map all testimonial files to an array of objects with new db schema
   try {
     // If the testimonials folder exists for the current user, map all testimonial files to an array of objects with new db schema
@@ -313,9 +275,9 @@ const getTestimonials = (filePathTestimonials, data) => {
   } catch (e) {
     logger.error(e, `failed to list testimonials for ${username}`);
   }
-};
+}
 
-const getEvents = (filePathEvents, username) => {
+function getEvents(filePathEvents, username) {
   let eventFiles = [];
 
   try {
@@ -341,9 +303,9 @@ const getEvents = (filePathEvents, username) => {
       return [];
     }
   });
-};
+}
 
-const validateFullProfile = (data, username) => {
+function validateFullProfile(data, username) {
   const result = extendedProfileSchema.safeParse(data);
 
   if (result.success) {
@@ -357,9 +319,9 @@ const validateFullProfile = (data, username) => {
 
     return null;
   }
-};
+}
 
-const updateLinks = (data) => {
+function updateLinks(data) {
   if (data.links && data.socials) {
     const links = [];
     data.links.map((link) =>
@@ -373,29 +335,41 @@ const updateLinks = (data) => {
   }
 
   return data.links;
-};
+}
 
-function findOneByUsernameFull(data) {
-  const username = data.username;
-  const basePath = path.join(process.cwd(), "data", username);
-  const filePathTestimonials = path.join(basePath, "testimonials");
-  const filePathEvents = path.join(basePath, "events");
-
-  // get testimonials for user if they exist (e.g. /data/username/testimonials)
-  const allTestimonials = getTestimonials(filePathTestimonials, data);
-  data = { ...data, testimonials: allTestimonials };
-
-  // get events for user if they exist (e.g. /data/username/events)
-  const allEvents = getEvents(filePathEvents, username);
-  if (allEvents.length) {
-    data = { ...data, events: allEvents };
+async function updateProfileProperty(profile, propertyName) {
+  if (!profile || !profile[propertyName] || !profile[propertyName].length) {
+    return;
   }
 
-  // update links with isPinned
-  data.links = updateLinks(data);
+  try {
+    const updateObject = {
+      [propertyName]: profile[propertyName].map((property, position) => {
+        const updatedProperty = { ...property, order: position };
 
-  // validate each profile against the schema and return the validated profile
-  const validatedProfile = validateFullProfile(data, username);
+        switch (propertyName) {
+          case "testimonials":
+            updatedProperty.isPinned = property.isPinned || false;
+            break;
+          case "milestones":
+            updatedProperty.isGoal = property.isGoal || false;
+            break;
+          case "events":
+            updatedProperty.isVirtual = property.isVirtual || false;
+            break;
+          default:
+            break;
+        }
 
-  return validatedProfile;
+        return updatedProperty;
+      }),
+    };
+
+    await Profile.findOneAndUpdate(
+      { username: profile.username },
+      updateObject
+    );
+  } catch (e) {
+    logger.error(e, `Failed to update ${propertyName} for ${profile.username}`);
+  }
 }
