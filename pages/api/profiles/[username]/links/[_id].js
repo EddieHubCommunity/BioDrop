@@ -8,12 +8,8 @@ import { Link, LinkStats, Stats } from "@models/index";
 export default async function handler(req, res) {
   await connectMongo();
 
-  const { username, url } = req.query;
+  const { username, _id } = req.query;
   const session = await getServerSession(req, res, authOptions);
-
-  if (session && session.username === username) {
-    return res.status(201).redirect(decodeURIComponent(url));
-  }
 
   if (req.method != "GET") {
     return res
@@ -21,10 +17,10 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  let link;
-  const customError = `failed loading link ${url} for username: ${username}`;
+  let link = {};
+  const customError = `failed loading link ${_id} for username: ${username}`;
   try {
-    link = await Link.findOne({ username, url });
+    link = await Link.findOne({ _id });
   } catch (e) {
     logger.error(e, customError);
     return res.status(404).json({ error: customError });
@@ -35,12 +31,13 @@ export default async function handler(req, res) {
     return res.status(404).json({ error: customError });
   }
 
+  if (session && session.username === username) {
+    return res.status(201).redirect(decodeURIComponent(link.url));
+  }
+
   try {
     await Link.updateOne(
-      {
-        username,
-        url,
-      },
+      { _id },
       {
         $inc: { clicks: 1 },
       }
@@ -48,7 +45,7 @@ export default async function handler(req, res) {
   } catch (e) {
     logger.error(
       e,
-      `failed incrementing link: ${url} for username ${username}`
+      `failed incrementing link: ${link.url} for username ${username}`
     );
   }
 
@@ -94,7 +91,7 @@ export default async function handler(req, res) {
       {
         username,
         date,
-        url,
+        url: link.url,
       },
       {
         $inc: { clicks: 1 },
@@ -105,5 +102,5 @@ export default async function handler(req, res) {
     logger.error(e, `failed incrementing platform stats for ${date}`);
   }
 
-  return res.status(201).redirect(decodeURIComponent(url));
+  return res.status(201).redirect(decodeURIComponent(link.url));
 }
