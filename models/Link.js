@@ -1,12 +1,36 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
 const LinkSchema = new mongoose.Schema(
   {
-    username: String, // TODO: is this username needed after forms?
-    group: String,
-    name: String,
-    url: String,
-    icon: String,
+    username: {
+      type: String,
+      required: true,
+      index: true,
+    },
+    group: {
+      type: String,
+      required: false,
+      min: 2,
+      max: 64,
+    },
+    name: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 64,
+    },
+    url: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 256,
+    },
+    icon: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 32,
+    },
     isEnabled: Boolean,
     isPinned: Boolean,
     order: Number,
@@ -17,6 +41,10 @@ const LinkSchema = new mongoose.Schema(
     profile: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Profile",
+    },
+    linkstats: {
+      default: [],
+      type: [{ type: Schema.Types.ObjectId, ref: "LinkStats" }],
     },
   },
   { timestamps: true }
