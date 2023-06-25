@@ -79,7 +79,11 @@ export default function Navigation() {
         <select
           id="tabs"
           name="tabs"
-          className="block w-full rounded-md border-gray-300 focus:border-secondary-medium-low focus:ring-secondary-medium-low"
+          className="block w-full rounded-md 
+          border-primary-low-medium/30 dark:border-primary-low-medium
+          dark:text-primary-low
+          dark:bg-primary-medium
+          focus:border-secondary-medium-low focus:ring-secondary-medium-low"
           defaultValue={tabs.find((tab) => tab.current).name}
           onChange={changeTab}
         >

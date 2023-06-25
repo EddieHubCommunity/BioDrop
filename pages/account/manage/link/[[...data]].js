@@ -130,7 +130,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
             <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                  <h3 className="text-lg font-medium leading-6 text-primary-high">
                     What Links would you like to appear on your Profile?
                   </h3>
                   {/* <p className="mt-1 max-w-2xl text-sm text-primary-low-medium">

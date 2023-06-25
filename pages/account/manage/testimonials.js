@@ -77,13 +77,13 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         />
 
         <div>
-          <h3 className="text-lg font-medium leading-6 text-gray-900">
+          <h3 className="text-lg font-medium leading-6 text-primary-high">
             Testimonials you have received, toggle to show on your Profile
           </h3>
         </div>
 
         <div>
-          <ul role="list" className="divide-y divide-gray-100">
+          <ul role="list" className="divide-y divide-primary-low">
             {testimonialList.map((testimonial) => (
               <li
                 key={testimonial._id}
@@ -91,7 +91,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               >
                 <div className="min-w-0">
                   <div className="flex items-start gap-x-3">
-                    <p className="text-sm font-semibold leading-6 text-gray-900">
+                    <p className="text-sm font-semibold leading-6 text-primary-high">
                       {testimonial.username}
                     </p>
                   </div>
