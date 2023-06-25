@@ -4,8 +4,8 @@ import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
 
-import { CurrencyDollarIcon } from "@heroicons/react/24/outline";
-import { RocketLaunchIcon } from "@heroicons/react/20/solid";
+import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
+import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
 
@@ -86,7 +86,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <Image
             width={100}
