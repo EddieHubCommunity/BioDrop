@@ -150,7 +150,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>EddieCon v0.1</i>
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -204,7 +204,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -215,7 +215,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onChange={(e) => setPrice(e.target.value)}
                       value={price}
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Basic ticket price in USD (for free use 0)
                     </p>
                   </div>

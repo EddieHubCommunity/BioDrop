@@ -133,7 +133,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                   <h3 className="text-lg font-medium leading-6 text-gray-900">
                     What Links would you like to appear on your Profile?
                   </h3>
-                  {/* <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                  {/* <p className="mt-1 max-w-2xl text-sm text-primary-low-medium">
                     Tip: promote a link to under your name by using the "pin"
                     toggle
                   </p> */}
@@ -149,7 +149,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="64"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       You can{" "}
                       <Link
                         href="/docs/how-to-guides/links-forms"
@@ -173,7 +173,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>https://twitter.com/eddiejaoude</i>
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="64"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
@@ -201,7 +201,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="32"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
                         Icons

@@ -95,7 +95,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                       {testimonial.username}
                     </p>
                   </div>
-                  <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-gray-500">
+                  <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
                     <p className="whitespace-normal">
                       {testimonial.description}
                     </p>

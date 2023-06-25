@@ -152,7 +152,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>GitHub Star</i>
                     </p>
                   </div>
@@ -166,7 +166,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="512"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Describe this Milestone
                     </p>
                   </div>
@@ -180,7 +180,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Link to more information (optional)
                     </p>
                   </div>
@@ -197,7 +197,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -211,7 +211,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="32"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
                         Icons

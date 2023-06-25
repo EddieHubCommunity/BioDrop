@@ -98,7 +98,7 @@ export default function Navigation() {
                 className={classNames(
                   tab.current
                     ? "border-secondary-medium-low text-secondary-medium"
-                    : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700",
+                    : "border-transparent text-primary-low-medium hover:border-primary-low hover:text-primary-medium dark:hover:text-primary-low",
                   "group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium"
                 )}
                 aria-current={tab.current ? "page" : undefined}
@@ -107,7 +107,7 @@ export default function Navigation() {
                   className={classNames(
                     tab.current
                       ? "text-secondary-medium-low"
-                      : "text-gray-400 group-hover:text-gray-500",
+                      : "text-primary-low-medium group-hover:text-primary-medium dark:group-hover:text-primary-low ",
                     "-ml-0.5 mr-2 h-5 w-5"
                   )}
                   aria-hidden="true"

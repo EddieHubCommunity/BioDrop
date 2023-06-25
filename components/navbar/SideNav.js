@@ -41,7 +41,7 @@ export default function SideNav({ navigation }) {
                     {item.name}
                     <ChevronRightIcon
                       className={classNames(
-                        open ? "rotate-90 text-gray-500" : "text-gray-400",
+                        open ? "rotate-90 text-primary-low-medium" : "text-gray-400",
                         "ml-auto h-5 w-5 shrink-0"
                       )}
                       aria-hidden="true"
