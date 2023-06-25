@@ -43,6 +43,36 @@
       "icon": "FaLinkedin"
     },
     {
+      "group": "Coding Profiles",
+      "name": "Leetcode",
+      "url": "https://leetcode.com/azanulhaque/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Exercism",
+      "url": "https://exercism.org/profiles/Azanul",
+      "icon": "SiExercism"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Codewars",
+      "url": "https://www.codewars.com/users/JohnDoe297",
+      "icon": "SiCodewars"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/azanul",
+      "icon": "SiHackerrank"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Codingame",
+      "url": "https://www.codingame.com/profile/7918894023dcfe28fbf64d7ec1578b3b3137604",
+      "icon": "SiCodingame"
+    },
+    {
       "group": "Taiyogakure Community",
       "name": "Taiyogakure: Official website",
       "url": "http://www.taiyogakure.club/",
@@ -58,7 +88,7 @@
       "group": "Taiyogakure Community",
       "name": "Taiyogakure: Github",
       "url": "https://github.com/Taiyogakure",
-      "icon": "FaDiscord"
+      "icon": "FaGithub"
     },
     {
       "group": "Donate",
