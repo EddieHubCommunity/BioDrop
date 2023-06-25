@@ -76,7 +76,7 @@ export default function User({ data, BASE_URL }) {
       >
         <div className="px-4 py-2 bg-secondary-high text-primary-low flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
           <IconContext.Provider
-            value={{ color: "primary-low", style: { verticalAlign: "middle" } }}
+            value={{ color: "white", style: { verticalAlign: "middle" } }}
           >
             <FaRegComments />
           </IconContext.Provider>

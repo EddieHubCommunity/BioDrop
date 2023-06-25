@@ -117,7 +117,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
-        <div className="overflow-hidden rounded-lg bg-white shadow">
+        <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border ">
           <h2 className="sr-only" id="profile-overview-title">
             Profile Overview
           </h2>
@@ -152,7 +152,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 divide-y divide-gray-200 border-t border-gray-200 bg-gray-50 dark:bg-primary-medium sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+          <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-3 sm:divide-x sm:divide-y-0">
             <div className="px-6 py-5 text-center text-sm font-medium">
               <span className="text-primary-high dark:text-primary-low">
                 {abbreviateNumber(data.profile.monthly)}

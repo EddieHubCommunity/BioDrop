@@ -133,7 +133,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
             <section
               aria-labelledby="preview-data-heading"
-              className="bg-gray-50 px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
+              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
             >
               <div className="mx-auto max-w-lg lg:max-w-none">
                 <UserProfile
@@ -158,7 +158,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       readOnly={true}
                     />
                   </div>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-primary-low-medium">
                     GitHub username is part of your Profile URL:{" "}
                     {`${BASE_URL}/${profile.username}`}
                   </p>
@@ -205,7 +205,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         minLength="2"
                         maxLength="256"
                       />
-                      <p className="text-sm text-gray-500">
+                      <p className="text-sm text-primary-low-medium">
                         You can use Markdown syntax.
                       </p>
                     </div>
@@ -217,14 +217,14 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         value={tags}
                         onChange={(e) => setTags(e.target.value.split(","))}
                       />
-                      <p className="text-sm text-gray-500">
+                      <p className="text-sm text-primary-low-medium">
                         Separate tags with commas (no space required).
                       </p>
                     </div>
                   </div>
                 </section>
 
-                <div className="mt-10 border-t border-gray-200 pt-6 sm:flex sm:items-center sm:justify-between">
+                <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
                   <Button primary={true}>SAVE</Button>
                 </div>
               </div>

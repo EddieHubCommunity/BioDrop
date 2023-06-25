@@ -40,7 +40,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
     <li
       className={`flex flex-row gap-8 py-4 ${
         isGoal ? "opacity-50" : ""
-      } border-gray-300`}
+      } border-primary-low-medium`}
     >
       {manage ? edit(milestone) : item(milestone)}
     </li>

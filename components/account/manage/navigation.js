@@ -79,7 +79,11 @@ export default function Navigation() {
         <select
           id="tabs"
           name="tabs"
-          className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
+          className="block w-full rounded-md 
+          border-primary-low-medium/30 dark:border-primary-low-medium
+          dark:text-primary-low
+          dark:bg-primary-medium
+          focus:border-secondary-medium-low focus:ring-secondary-medium-low"
           defaultValue={tabs.find((tab) => tab.current).name}
           onChange={changeTab}
         >
@@ -89,7 +93,7 @@ export default function Navigation() {
         </select>
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-gray-200">
+        <div className="border-b border-primary-low-medium/30">
           <nav className="-mb-px flex space-x-8" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
@@ -97,8 +101,8 @@ export default function Navigation() {
                 href={tab.href}
                 className={classNames(
                   tab.current
-                    ? "border-indigo-500 text-indigo-600"
-                    : "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700",
+                    ? "border-secondary-medium-low text-secondary-medium"
+                    : "border-transparent text-primary-low-medium hover:border-primary-low hover:text-primary-medium dark:hover:text-primary-low",
                   "group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium"
                 )}
                 aria-current={tab.current ? "page" : undefined}
@@ -106,8 +110,8 @@ export default function Navigation() {
                 <tab.icon
                   className={classNames(
                     tab.current
-                      ? "text-indigo-500"
-                      : "text-gray-400 group-hover:text-gray-500",
+                      ? "text-secondary-medium-low"
+                      : "text-primary-low-medium group-hover:text-primary-medium dark:group-hover:text-primary-low ",
                     "-ml-0.5 mr-2 h-5 w-5"
                   )}
                   aria-hidden="true"

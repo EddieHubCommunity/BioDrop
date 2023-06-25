@@ -130,18 +130,18 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
-            className="space-y-8 divide-y divide-gray-200"
+            className="space-y-8 divide-y divide-primary-low-medium/30"
             onSubmit={handleSubmit}
           >
-            <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+            <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                  <h3 className="text-lg font-medium leading-6 text-primary-high">
                     What Milestones would you like to appear on your Profile?
                   </h3>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="title"
@@ -152,7 +152,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>GitHub Star</i>
                     </p>
                   </div>
@@ -166,7 +166,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="512"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Describe this Milestone
                     </p>
                   </div>
@@ -180,7 +180,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Link to more information (optional)
                     </p>
                   </div>
@@ -197,7 +197,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -211,7 +211,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       minLength="2"
                       maxLength="32"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
                         Icons

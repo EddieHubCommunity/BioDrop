@@ -14,12 +14,12 @@ export default function SideNav({ navigation }) {
             <a
               href={item.href}
               className={classNames(
-                item.current ? "bg-gray-50" : "hover:bg-gray-50",
-                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-gray-700"
+                item.current ? "bg-primary-low" : "hover:bg-primary-low",
+                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-primary-medium"
               )}
             >
               <item.icon
-                className="h-6 w-6 shrink-0 text-gray-400"
+                className="h-6 w-6 shrink-0 text-primary-low-medium"
                 aria-hidden="true"
               />
               {item.name}
@@ -30,18 +30,18 @@ export default function SideNav({ navigation }) {
                 <>
                   <Disclosure.Button
                     className={classNames(
-                      item.current ? "bg-gray-50" : "hover:bg-gray-50",
-                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-gray-700"
+                      item.current ? "bg-primary-low" : "hover:bg-primary-low",
+                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-medium"
                     )}
                   >
                     <item.icon
-                      className="h-6 w-6 shrink-0 text-gray-400"
+                      className="h-6 w-6 shrink-0 text-primary-low-medium"
                       aria-hidden="true"
                     />
                     {item.name}
                     <ChevronRightIcon
                       className={classNames(
-                        open ? "rotate-90 text-gray-500" : "text-gray-400",
+                        open ? "rotate-90 text-primary-low-medium" : "text-primary-low-medium",
                         "ml-auto h-5 w-5 shrink-0"
                       )}
                       aria-hidden="true"
@@ -55,8 +55,8 @@ export default function SideNav({ navigation }) {
                           as="a"
                           href={subItem.href}
                           className={classNames(
-                            subItem.current ? "bg-gray-50" : "hover:bg-gray-50",
-                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-gray-700"
+                            subItem.current ? "bg-primary-low" : "hover:bg-primary-low",
+                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-primary-medium"
                           )}
                         >
                           {subItem.name}
