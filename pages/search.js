@@ -31,8 +31,8 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (data.users.length > 5) {
-    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  if (data.users.length > 10) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 10);
   } else {
     data.randUsers = data.users;
   }
