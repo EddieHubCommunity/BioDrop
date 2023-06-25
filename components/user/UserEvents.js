@@ -71,7 +71,7 @@ export default function UserEvents({ manage = false, events }) {
           handleEventTypeChange={handleEventTypeChange}
           options={filteredEventOptions}
           label="Select Event Type:"
-          className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
         />
       )}
 
