@@ -4,7 +4,7 @@ import Link from "./Link";
 
 export default function Testimonials({ data }) {
   return (
-    <div className="bg-white dark:bg-primary-high pt-0 pb-24">
+    <div className="bg-primary-low dark:bg-primary-high pt-0 pb-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
@@ -32,7 +32,7 @@ export default function Testimonials({ data }) {
                     />
                     <div>
                       <Link
-                        className="font-semibold text-primary-high dark:text-white"
+                        className="font-semibold text-primary-high dark:text-primary-low"
                         href={`/${testimonial.username}`}
                       >
                         {testimonial.name} ({`@${testimonial.username}`})

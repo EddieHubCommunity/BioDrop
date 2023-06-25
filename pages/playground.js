@@ -118,7 +118,7 @@ export default function Playground({BASE_URL}) {
     <>
       <PageHead
         title="Playground"
-        description="Playground for verifying and preview linkfree profile json"
+        description="Playground for verifying and preview LinkFree profile json"
       />
 
       <Page>

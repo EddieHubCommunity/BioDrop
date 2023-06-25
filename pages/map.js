@@ -164,7 +164,7 @@ export default function Map({ data }) {
           LinkFree Users Around The World
         </h1>
         <p className="py-5">
-          This map shows locations of Linkfree users based on the location
+          This map shows locations of LinkFree users based on the location
           listed in their GitHub profile. New data points are added each time a
           profile is visited.
         </p>

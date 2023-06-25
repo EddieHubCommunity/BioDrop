@@ -19,7 +19,7 @@ export default function GitHubAccelerator() {
         <div className="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
           <div className="flex">
             <Image
-              className="h-24 w-24 rounded-full ring-4 ring-white sm:h-32 sm:w-32"
+              className="h-24 w-24 rounded-full ring-4 ring-primary-low sm:h-32 sm:w-32"
               src="https://user-images.githubusercontent.com/624760/235977104-a0b6ae9c-1d02-489c-ae26-1311c20fd3d4.png"
               alt="GitHub logo"
               width={100}
@@ -35,7 +35,7 @@ export default function GitHubAccelerator() {
             <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Link
                 href="http://accelerator.github.com"
-                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
+                className="inline-flex justify-center rounded-md bg-primary-low px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low/80 hover:bg-primary-low/95 dark:hover:bg-primary-low/95 cursor-pointer"
                 target="_blank"
               >
                 <FaGithub
@@ -46,7 +46,7 @@ export default function GitHubAccelerator() {
               </Link>
               <Link
                 href="https://github.com/sponsors/eddiejaoude"
-                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
+                className="inline-flex justify-center rounded-md bg-primary-low px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low/80 hover:bg-primary-low/95 dark:hover:bg-primary-low/95 cursor-pointer"
                 target="_blank"
               >
                 <FaMoneyBillAlt

@@ -15,7 +15,7 @@ export default function Modal({ show = false, setShow, title, children }) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <div className="fixed inset-0 bg-primary-low-high bg-opacity-75 transition-opacity" />
         </Transition.Child>
 
         <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -29,11 +29,11 @@ export default function Modal({ show = false, setShow, title, children }) {
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white dark:bg-primary-high text-left shadow-xl transition-all m-16 sm:w-full sm:max-w-4xl max-h-screen overflow-y-auto">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-primary-low dark:bg-primary-high text-left shadow-xl transition-all m-16 sm:w-full sm:max-w-4xl max-h-screen overflow-y-auto">
                 <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
                   <button
                     type="button"
-                    className="rounded-md bg-white dark:bg-primary-high text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="rounded-md bg-primary-low dark:bg-primary-high text-primary-low/60 hover:text-primary-low/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                     onClick={() => setShow(false)}
                   >
                     <span className="sr-only">Close</span>
@@ -42,7 +42,7 @@ export default function Modal({ show = false, setShow, title, children }) {
                 </div>
                 <div className="m-4">{children}</div>
 
-                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-gray-50 dark:bg-primary-high">
+                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-primary-low/90 dark:bg-primary-high">
                   {title}
                 </div>
               </Dialog.Panel>

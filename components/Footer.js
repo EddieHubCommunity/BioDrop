@@ -84,7 +84,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="bg-primary-high" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -99,7 +99,7 @@ export default function Footer() {
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-primary-low">
                   Solutions
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -117,7 +117,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-primary-low">
                   Support
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -137,7 +137,7 @@ export default function Footer() {
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-primary-low">
                   Community
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -155,7 +155,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
+                <h3 className="text-sm font-semibold leading-6 text-primary-low">
                   Legal
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
@@ -175,9 +175,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
+        <div className="mt-16 border-t border-primary-low/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 text-center lg:text-left pb-4 lg:pb-0">
-            <h3 className="font-semibold leading-6 text-white">
+            <h3 className="font-semibold leading-6 text-primary-low">
               Subscribe to learn more about future Premium Paid Features
             </h3>
             <p className="mt-2 text-sm leading-6 text-primary-low-high">
@@ -191,7 +191,7 @@ export default function Footer() {
             <span>Learn more about Premium</span>
           </Button>
         </div>
-        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
+        <div className="mt-8 border-t border-primary-low/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
           <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
             <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
               100% Open Source on GitHub

@@ -8,7 +8,7 @@ export default function IconCard({ iconName }) {
   return (
     <>
       <button
-        className="border-2 p-2 border-slate-100 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-secondary-high hover:cursor-pointer active:border-green-600 focus:border-green-600"
+        className="border-2 p-2 border-primary-low/95 w-24 h-24 flex flex-col items-center justify-around rounded hover:border-secondary-high hover:cursor-pointer active:border-green-600 focus:border-green-600"
         onClick={() => {
           navigator.clipboard.writeText(iconName);
           setShowNotification(true);
@@ -16,7 +16,7 @@ export default function IconCard({ iconName }) {
         }}
       >
         <Icon className="h-7 w-7 fill-grey-700" />
-        <p className="w-full text-xs break-words text-center text-zinc-500">
+        <p className="w-full text-xs break-words text-center text-primary-low/40">
           {iconName}
         </p>
       </button>

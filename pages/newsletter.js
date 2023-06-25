@@ -45,7 +45,7 @@ export default function Newsletter() {
                 </div>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
                   <div className="flex flex-col items-start">
-                    <div className="rounded-md bg-primary-medium p-2 ring-1 ring-primary-medium">
+                    <div className="rounded-md bg-primary-low/25 p-2 ring-1 ring-primary-low/100">
                       <CalendarDaysIcon
                         className="h-6 w-6 text-primary-medium dark:text-primary-low"
                         aria-hidden="true"
@@ -60,7 +60,7 @@ export default function Newsletter() {
                     </div>
                   </div>
                   <div className="flex flex-col items-start">
-                    <div className="rounded-md bg-primary-medium p-2 ring-1 ring-primary-medium">
+                    <div className="rounded-md bg-primary-low/25 p-2 ring-1 ring-primary-low/100">
                       <HandRaisedIcon
                         className="h-6 w-6 text-primary-medium dark:text-primary-low"
                         aria-hidden="true"
