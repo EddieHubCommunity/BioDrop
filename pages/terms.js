@@ -10,7 +10,7 @@ export default function Terms() {
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Terms and Conditions</h1>
-        <div className="bg-white dark:bg-primary-high py-24 sm:py-32">
+        <div className="bg-primary-low dark:bg-primary-high py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
               <p className="text-base font-semibold leading-7 text-secondary-medium dark:text-secondary-low ">
