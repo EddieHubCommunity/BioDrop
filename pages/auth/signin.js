@@ -45,7 +45,7 @@ export default function SignIn() {
           Continue with GitHub
         </Button>
 
-        <p className="mt-10 text-center text-sm text-gray-500">
+        <p className="mt-10 text-center text-sm text-primary-low-medium">
           Don&lsquo;t have a GitHub account? Create one on{" "}
           <Link href="https://github.com/signup" target="_blank">
             GitHub

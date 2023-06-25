@@ -124,22 +124,22 @@ export default function ManageLink({ BASE_URL, username, link }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
-            className="space-y-8 divide-y divide-gray-200"
+            className="space-y-8 divide-y divide-primary-low-medium/30"
             onSubmit={handleSubmit}
           >
-            <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+            <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                  <h3 className="text-lg font-medium leading-6 text-primary-high">
                     What Links would you like to appear on your Profile?
                   </h3>
-                  {/* <p className="mt-1 max-w-2xl text-sm text-gray-500">
+                  {/* <p className="mt-1 max-w-2xl text-sm text-primary-low-medium">
                     Tip: promote a link to under your name by using the "pin"
                     toggle
                   </p> */}
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="group"
@@ -149,7 +149,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="64"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       You can{" "}
                       <Link
                         href="/docs/how-to-guides/links-forms"
@@ -173,7 +173,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>https://twitter.com/eddiejaoude</i>
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="64"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
@@ -201,7 +201,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       minLength="2"
                       maxLength="32"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
                         Icons

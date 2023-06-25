@@ -128,18 +128,18 @@ export default function ManageEvent({ BASE_URL, event }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
-            className="space-y-8 divide-y divide-gray-200"
+            className="space-y-8 divide-y divide-primary-low-medium/30"
             onSubmit={handleSubmit}
           >
-            <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+            <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
-                  <h3 className="text-lg font-medium leading-6 text-gray-900">
+                  <h3 className="text-lg font-medium leading-6 text-primary-high">
                     What Events would you like to appear on your Profile?
                   </h3>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="name"
@@ -150,7 +150,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       minLength="2"
                       maxLength="256"
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>EddieCon v0.1</i>
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -204,7 +204,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       }
                       required
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                   </div>
@@ -215,7 +215,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onChange={(e) => setPrice(e.target.value)}
                       value={price}
                     />
-                    <p className="text-sm text-gray-500">
+                    <p className="text-sm text-primary-low-medium">
                       Basic ticket price in USD (for free use 0)
                     </p>
                   </div>
