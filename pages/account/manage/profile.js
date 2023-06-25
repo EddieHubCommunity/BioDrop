@@ -133,7 +133,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
             <section
               aria-labelledby="preview-data-heading"
-              className="bg-gray-50 px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
+              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
             >
               <div className="mx-auto max-w-lg lg:max-w-none">
                 <UserProfile
@@ -224,7 +224,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                   </div>
                 </section>
 
-                <div className="mt-10 border-t border-gray-200 pt-6 sm:flex sm:items-center sm:justify-between">
+                <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
                   <Button primary={true}>SAVE</Button>
                 </div>
               </div>

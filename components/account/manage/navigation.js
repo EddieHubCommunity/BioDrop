@@ -89,7 +89,7 @@ export default function Navigation() {
         </select>
       </div>
       <div className="hidden sm:block">
-        <div className="border-b border-gray-200">
+        <div className="border-b border-primary-low-medium/30">
           <nav className="-mb-px flex space-x-8" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link

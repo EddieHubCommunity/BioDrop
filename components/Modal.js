@@ -42,7 +42,7 @@ export default function Modal({ show = false, setShow, title, children }) {
                 </div>
                 <div className="m-4">{children}</div>
 
-                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-gray-50 dark:bg-primary-high">
+                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-primary-low dark:bg-primary-high">
                   {title}
                 </div>
               </Dialog.Panel>

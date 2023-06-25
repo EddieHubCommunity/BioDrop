@@ -130,10 +130,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
-            className="space-y-8 divide-y divide-gray-200"
+            className="space-y-8 divide-y divide-primary-low-medium/30"
             onSubmit={handleSubmit}
           >
-            <div className="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+            <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
                   <h3 className="text-lg font-medium leading-6 text-gray-900">
@@ -141,7 +141,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                   </h3>
                 </div>
 
-                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
+                <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       name="title"
