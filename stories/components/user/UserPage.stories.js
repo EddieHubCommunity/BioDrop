@@ -15,10 +15,7 @@ export default {
 export const Basic = {
   args: {
     data: {
-      ...profile,
-      testimonials: [],
-      views: 1,
-      username: "eddiejaoude"
+      ...profile
     },
     BASE_URL: "https://linkfree.eddiehub.io"
   }

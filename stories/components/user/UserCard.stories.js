@@ -1,5 +1,5 @@
 import UserCard from "@components/user/UserCard";
-import data from "../../../data/eddiejaoude.json";
+import data from "./profile.json";
 
 export default {
   component: UserCard,
@@ -8,8 +8,7 @@ export default {
 export const Basic = {
   args: {
     profile: {
-      ...data,
-      username: "eddiejaoude"
+      ...data
     },
   }
 };
