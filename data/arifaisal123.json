@@ -1,0 +1,21 @@
+{
+  "name": "Arif Faisal",
+  "bio": "Full Stack Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/faisalcodes123",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/arifaisal123",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@faisalcodes123",
+      "icon": "FaYoutube"
+    }
+  ]
+}
