@@ -1,40 +1,35 @@
-## [1.141.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.2...v1.141.3) (2023-06-12)
+## [1.144.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.14...v1.144.15) (2023-06-24)
 
 
 ### Bug Fixes
 
-* release action warnings ([#7538](https://github.com/EddieHubCommunity/LinkFree/issues/7538)) ([315f966](https://github.com/EddieHubCommunity/LinkFree/commit/315f9668ad3862c2b4e3774ecb5e24030982e819))
+* update Linkfree CLI version ([#7779](https://github.com/EddieHubCommunity/LinkFree/issues/7779)) ([a9ec856](https://github.com/EddieHubCommunity/LinkFree/commit/a9ec856f2effa13e979acc7705854b8d002f7cf1))
 
 
 
-## [1.141.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.1...v1.141.2) (2023-06-12)
-
-
-### Bug Fixes
-
-* profile page group link headings from h3 to h2 ([#7527](https://github.com/EddieHubCommunity/LinkFree/issues/7527)) ([db255ec](https://github.com/EddieHubCommunity/LinkFree/commit/db255ecc096284a7d16b766b94afd43d3b94dfaa))
+## [1.144.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.13...v1.144.14) (2023-06-24)
 
 
 
-## [1.141.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.141.0...v1.141.1) (2023-06-11)
-
-
-
-# [1.141.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.140.10...v1.141.0) (2023-06-11)
-
-
-### Features
-
-* timestamps to all db models ([#7503](https://github.com/EddieHubCommunity/LinkFree/issues/7503)) ([#7510](https://github.com/EddieHubCommunity/LinkFree/issues/7510)) ([3d2ff74](https://github.com/EddieHubCommunity/LinkFree/commit/3d2ff74d5f75ad38228d9607b666c6a223840c95))
-
-
-
-## [1.140.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.140.9...v1.140.10) (2023-06-11)
+## [1.144.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.12...v1.144.13) (2023-06-24)
 
 
 ### Bug Fixes
 
-* release action token ([#7515](https://github.com/EddieHubCommunity/LinkFree/issues/7515)) ([b9a4b97](https://github.com/EddieHubCommunity/LinkFree/commit/b9a4b9701b16c1ea9f345a1f16b004c85cb50440))
+* switch to useRouter from next/router ([#7757](https://github.com/EddieHubCommunity/LinkFree/issues/7757)) ([daa37fa](https://github.com/EddieHubCommunity/LinkFree/commit/daa37fa74a99c29fda5fa87784104f8a2c356d56))
+
+
+
+## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
+
+
+
+## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
+
+
+### Bug Fixes
+
+* update dependencies ([#7755](https://github.com/EddieHubCommunity/LinkFree/issues/7755)) ([c664a27](https://github.com/EddieHubCommunity/LinkFree/commit/c664a27ab88ce800ad84f46ddb2b940376d0f3fc))
 
 
 

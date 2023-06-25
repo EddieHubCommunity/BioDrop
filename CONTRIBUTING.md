@@ -54,3 +54,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn, network
 ---
 
 Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
+
+---
+
+> Note: Persistent non-compliance with this Contributing Guide can lead to a warning and/or ban under the [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md)

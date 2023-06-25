@@ -5,7 +5,6 @@ import { signIn } from "next-auth/react";
 import BlankLayout from "@components/layouts/BlankLayout";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { BsGithub } from "react-icons/bs";
-import { AiOutlineLock } from "react-icons/ai";
 import Button from "@components/Button";
 import Link from "@components/Link";
 

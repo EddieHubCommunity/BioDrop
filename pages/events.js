@@ -11,7 +11,7 @@ import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let events = await getEvents();
 
   return {
@@ -105,7 +105,7 @@ export default function Events({ events }) {
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
-              username={event.username}
+              usernames={event.usernames}
               key={`${event.name} ${event.username}`}
             />
           ))}
