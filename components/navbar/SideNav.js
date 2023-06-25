@@ -1,5 +1,5 @@
 import { Disclosure } from "@headlessui/react";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
