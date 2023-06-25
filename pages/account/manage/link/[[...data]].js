@@ -152,7 +152,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                     <p className="text-sm text-gray-500">
                       You can{" "}
                       <Link
-                        href="http://localhost:3000/docs/how-to-guides/links"
+                        href="/docs/how-to-guides/links-forms"
                         target="_blank"
                       >
                         group
