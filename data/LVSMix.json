@@ -1,0 +1,14 @@
+{
+  "name": "Luis Ventocilla",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "JUG leader @javabsas. Backend Engineer. Me apasiona las tecnologias backend y el desarrollo en varias plataformas.",
+  "avatar": "https://twitter.com/lvsmix/photo"
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/lvsmix",
+      "icon": "FaTwitter"
+    }
+  ]
+}
