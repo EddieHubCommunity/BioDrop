@@ -74,7 +74,7 @@ export default function UserEvents({ data }) {
       />
 
       {eventsToShow.length > 0 ? (
-        <ul role="list" className="divide-y divide-primary-low mt-4">
+        <ul role="list" className="mt-4">
           {eventsToShow.map((event, index) => (
             <EventCard event={event} key={index} />
           ))}

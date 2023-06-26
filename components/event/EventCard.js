@@ -31,7 +31,7 @@ export default function EventCard({ event, usernames }) {
 
   return (
     <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
+      className="py-4 border-t border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
       style={{
         borderColor: event.color,
       }}
