@@ -65,7 +65,6 @@ export default async function handler(req, res) {
       const jsonFileLinks = await updateProfileLinks(currentProfile, profile);
       disableLinksAndSocialsNotInJsonFile(currentProfile, jsonFileLinks);
 
-      // add milestones, testimonials and events to the profile in the db
       updateProfileProperties(profile);
     })
   );
@@ -259,8 +258,9 @@ async function updateProfileProperties(profile) {
 
   const updateObject = {};
   for (const propertyName of ["milestones", "testimonials", "events"]) {
+    // Check if property exists and it's an array, else continue to the next property
     if (!Array.isArray(profile[propertyName])) {
-      return;
+      continue;
     }
 
     updateObject[propertyName] = profile[propertyName].map(
