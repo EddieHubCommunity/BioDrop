@@ -1,6 +1,6 @@
 const z = require("zod");
 
-const usernameSchema = z.string().optional();
+const usernameSchema = z.string().min(3).max(25);
 
 const basicProfileSchema = z.object({
   name: z.string().optional(),
@@ -9,7 +9,7 @@ const basicProfileSchema = z.object({
     .array(
       z.object({
         name: z.string().optional(),
-        url: z.union([z.string().url().optional(), z.optional()]),
+        url: z.string().url().optional(),
         username: z.string().optional(),
         icon: z.string().optional(),
       })

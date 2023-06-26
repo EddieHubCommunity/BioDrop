@@ -22,10 +22,10 @@ export default async function handler(req, res) {
   await connectMongo();
 
   // 1. load all profiles
-  const basicProfiles = findAllBasic();
-  const fullProfiles = basicProfiles
-    .map((profile) => findOneByUsernameFull(profile))
-    .filter((profile) => profile !== null);
+  const basicProfiles = await findAllBasic();
+  const fullProfiles = await Promise.all(
+    basicProfiles.map((profile) => findOneByUsernameFull(profile))
+  ).then((profiles) => profiles.filter((profile) => profile !== null));
 
   // 2. save basic profiles to database
   // only if `source` is not `database` (this will be set when using forms)
@@ -65,12 +65,8 @@ export default async function handler(req, res) {
       const jsonFileLinks = await updateProfileLinks(currentProfile, profile);
       disableLinksAndSocialsNotInJsonFile(currentProfile, jsonFileLinks);
 
-      // 2. add milestones to the profile in the db
-      updateProfileProperty(profile, "milestones");
-      // 3. add testimonials to the profile in the db
-      updateProfileProperty(profile, "testimonials");
-      // 4. add events to the profile in the db
-      updateProfileProperty(profile, "events");
+      // add milestones, testimonials and events to the profile in the db
+      updateProfileProperties(profile);
     })
   );
 
@@ -102,52 +98,54 @@ export default async function handler(req, res) {
   });
 }
 
-function findAllBasic() {
+async function findAllBasic() {
   const directoryPath = path.join(process.cwd(), "data");
   let files = [];
 
   try {
-    files = fs
-      .readdirSync(directoryPath)
-      .filter((item) => item.endsWith("json"));
+    const filesDirPath = await fs.promises.readdir(directoryPath);
+    files = filesDirPath.filter((item) => item.endsWith("json"));
   } catch (e) {
     logger.error(e, "failed to list profiles");
   }
 
-  const users = files.flatMap((file) => {
-    const filePath = path.join(directoryPath, file);
-    try {
-      const json = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const users = await Promise.all(
+    files.map(async (file) => {
+      const filePath = path.join(directoryPath, file);
+      try {
+        const userFile = await fs.promises.readFile(filePath, "utf8");
+        const json = JSON.parse(userFile);
 
-      return {
-        ...json,
-        name: json.name,
-        bio: json.bio,
-        avatar: `https://github.com/${file.split(".")[0]}.png`,
-        tags: json.tags,
-        username: file.split(".")[0],
-      };
-    } catch (e) {
-      logger.error(e, `failed loading profile in: ${filePath}`);
-      return [];
-    }
-  });
+        return {
+          ...json,
+          name: json.name,
+          bio: json.bio,
+          avatar: `https://github.com/${file.split(".")[0]}.png`,
+          tags: json.tags,
+          username: file.split(".")[0],
+        };
+      } catch (e) {
+        logger.error(e, `failed loading profile in: ${filePath}`);
+        return null;
+      }
+    })
+  ).then((users) => users.filter((user) => user !== null));
 
   return users;
 }
 
-function findOneByUsernameFull(data) {
+async function findOneByUsernameFull(data) {
   const username = data.username;
   const basePath = path.join(process.cwd(), "data", username);
   const filePathTestimonials = path.join(basePath, "testimonials");
   const filePathEvents = path.join(basePath, "events");
 
   // get testimonials for user if they exist (e.g. /data/username/testimonials)
-  const allTestimonials = getTestimonials(filePathTestimonials, data);
+  const allTestimonials = await getTestimonials(filePathTestimonials, data);
   data = { ...data, testimonials: allTestimonials };
 
   // get events for user if they exist (e.g. /data/username/events)
-  const allEvents = getEvents(filePathEvents, username);
+  const allEvents = await getEvents(filePathEvents, username);
   if (allEvents.length) {
     data = { ...data, events: allEvents };
   }
@@ -161,25 +159,27 @@ function findOneByUsernameFull(data) {
   return validatedProfile;
 }
 
-function getTestimonials(filePathTestimonials, data) {
+async function getTestimonials(filePathTestimonials, data) {
   // Map all testimonial files to an array of objects with new db schema
   try {
     // If the testimonials folder exists for the current user, map all testimonial files to an array of objects with new db schema
-    if (fs.existsSync(filePathTestimonials)) {
-      return fs.readdirSync(filePathTestimonials).map((testimonialFile) => {
-        const username = testimonialFile.split(".")[0];
+    if (await checkFilePathExists(filePathTestimonials)) {
+      const testimonialFiles = await fs.promises.readdir(filePathTestimonials);
+      return Promise.all(
+        testimonialFiles.map(async (testimonialFile) => {
+          const username = testimonialFile.split(".")[0];
+          const fileData = await fs.promises.readFile(
+            path.join(filePathTestimonials, testimonialFile),
+            "utf8"
+          );
 
-        return {
-          ...JSON.parse(
-            fs.readFileSync(
-              path.join(filePathTestimonials, testimonialFile),
-              "utf8"
-            )
-          ),
-          username: username,
-          isPinned: !!data.testimonials?.includes(username) ?? false,
-        };
-      });
+          return {
+            ...JSON.parse(fileData),
+            username: username,
+            isPinned: !!data.testimonials?.includes(username) ?? false,
+          };
+        })
+      );
     } else {
       return [];
     }
@@ -188,12 +188,12 @@ function getTestimonials(filePathTestimonials, data) {
   }
 }
 
-function getEvents(filePathEvents, username) {
+async function getEvents(filePathEvents, username) {
   let eventFiles = [];
 
   try {
-    if (fs.existsSync(filePathEvents)) {
-      eventFiles = fs.readdirSync(filePathEvents);
+    if (await checkFilePathExists(filePathEvents)) {
+      eventFiles = await fs.promises.readdir(filePathEvents);
     } else {
       eventFiles = [];
     }
@@ -201,19 +201,23 @@ function getEvents(filePathEvents, username) {
     logger.error(e, `failed to list events for ${username}`);
   }
 
-  return eventFiles.flatMap((filename) => {
-    try {
-      return {
-        ...JSON.parse(
-          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
-        ),
-        username,
-      };
-    } catch (e) {
-      logger.error(e, `Failed loading event in: ${filePathEvents}`);
-      return [];
-    }
-  });
+  return Promise.all(
+    eventFiles.map(async (filename) => {
+      try {
+        const filePath = await fs.promises.readFile(
+          path.join(filePathEvents, filename),
+          "utf8"
+        );
+        return {
+          ...JSON.parse(filePath),
+          username,
+        };
+      } catch (e) {
+        logger.error(e, `Failed loading event in: ${filePathEvents}`);
+        return [];
+      }
+    })
+  );
 }
 
 function validateFullProfile(data, username) {
@@ -248,14 +252,19 @@ function updateLinks(data) {
   return data.links;
 }
 
-async function updateProfileProperty(profile, propertyName) {
-  if (!profile || !profile[propertyName] || !profile[propertyName].length) {
+async function updateProfileProperties(profile) {
+  if (!profile) {
     return;
   }
 
-  try {
-    const updateObject = {
-      [propertyName]: profile[propertyName].map((property, position) => {
+  const updateObject = {};
+  for (const propertyName of ["milestones", "testimonials", "events"]) {
+    if (!Array.isArray(profile[propertyName])) {
+      return;
+    }
+
+    updateObject[propertyName] = profile[propertyName].map(
+      (property, position) => {
         const updatedProperty = { ...property, order: position };
 
         switch (propertyName) {
@@ -273,15 +282,17 @@ async function updateProfileProperty(profile, propertyName) {
         }
 
         return updatedProperty;
-      }),
-    };
+      }
+    );
+  }
 
+  try {
     await Profile.findOneAndUpdate(
       { username: profile.username },
       updateObject
     );
   } catch (e) {
-    logger.error(e, `Failed to update ${propertyName} for ${profile.username}`);
+    logger.error(e, `Failed to update profile for ${profile.username}`);
   }
 }
 
@@ -390,5 +401,14 @@ async function disableLinksAndSocialsNotInJsonFile(
       e,
       `Failed to disable links and socials for ${currentProfile.username}`
     );
+  }
+}
+
+async function checkFilePathExists(filePath) {
+  try {
+    await fs.promises.access(filePath);
+    return true;
+  } catch (e) {
+    return false;
   }
 }
