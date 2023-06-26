@@ -73,6 +73,7 @@ Once the download is complete, navigate to the "Downloads" directory/folder and 
 Once you've moved Node.js to your home directory, open your .bashrc file using a text editor like Nano or Vim in the terminal. Run the command nano .bashrc to edit the file. Scroll to the very bottom of the file and add the following line to include the Node.js binary in your system's path: `export PATH=$PATH:/home/root/nodejs/bin` Note that root represents your root account on your distribution.
 
 
+
 1. copy the `.env.example` file to `.env` and update any details required
 2. MongoDB is required, it is possible to use `docker compose up` to start the MongoDB service
 3. `npm ci`
