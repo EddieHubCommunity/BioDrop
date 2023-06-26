@@ -1,3 +1,7 @@
+## [1.145.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.1...v1.145.2) (2023-06-26)
+
+
+
 ## [1.145.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.0...v1.145.1) (2023-06-26)
 
 
@@ -26,15 +30,6 @@
 
 
 ## [1.144.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.13...v1.144.14) (2023-06-24)
-
-
-
-## [1.144.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.12...v1.144.13) (2023-06-24)
-
-
-### Bug Fixes
-
-* switch to useRouter from next/router ([#7757](https://github.com/EddieHubCommunity/LinkFree/issues/7757)) ([daa37fa](https://github.com/EddieHubCommunity/LinkFree/commit/daa37fa74a99c29fda5fa87784104f8a2c356d56))
 
 
 
