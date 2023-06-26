@@ -1,3 +1,12 @@
+# [1.145.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.15...v1.145.0) (2023-06-26)
+
+
+### Features
+
+* search displays 10 random profiles [#7585](https://github.com/EddieHubCommunity/LinkFree/issues/7585) ([#7790](https://github.com/EddieHubCommunity/LinkFree/issues/7790)) ([bd05492](https://github.com/EddieHubCommunity/LinkFree/commit/bd05492b35ee7e2b15d7d78486fd2f8f408914af))
+
+
+
 ## [1.144.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.14...v1.144.15) (2023-06-24)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
-
-
-
-## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
-
-
-### Bug Fixes
-
-* update dependencies ([#7755](https://github.com/EddieHubCommunity/LinkFree/issues/7755)) ([c664a27](https://github.com/EddieHubCommunity/LinkFree/commit/c664a27ab88ce800ad84f46ddb2b940376d0f3fc))
 
 
 
