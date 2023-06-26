@@ -66,10 +66,17 @@ Before contributing or adding a new feature, please make sure you have already i
 
 You can set this up locally with the following steps:
 
+To use this step on a Debian-based distribution, you need to install Node.js on your device. You can download it from the Node.js website. Select either the LTS or Current version.
+
+Once the download is complete, navigate to the "Downloads" directory/folder and open your terminal by pressing `Ctrl + Alt + T.` Then, type `ls` to list the files and locate the node-v18.16.1-linux-x64.tar.gz file displayed in your terminal. Extract the tar archive by running the following command: `tar -xf node-v18.16.1-linux-x64.tar.xz.` After extracting the tar file, move Node.js to your home folder by executing `mv node-v18.16.1-linux-x64 ~/nodejs` in your terminal.
+
+Once you've moved Node.js to your home directory, open your .bashrc file using a text editor like Nano or Vim in the terminal. Run the command nano .bashrc to edit the file. Scroll to the very bottom of the file and add the following line to include the Node.js binary in your system's path: export PATH=$PATH:/home/root/nodejs/bin. Note that root represents your root account on your distribution.
+
+
 1. copy the `.env.example` file to `.env` and update any details required
-1. MongoDB is required, it is possible to use `docker compose up` to start the MongoDB service
-1. `npm ci`
-1. `npm run dev`
+2. MongoDB is required, it is possible to use `docker compose up` to start the MongoDB service
+3. `npm ci`
+4. `npm run dev`
 
 Read more in the official documentation https://linkfree.io/docs/environments/local-development#local-development
 
