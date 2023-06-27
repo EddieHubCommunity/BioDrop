@@ -57,12 +57,14 @@
       "icon": "SiHashnode"
     }
   ],
-  "milestones": [{
-    "title": "Entered my First Hackathon",
-    "date": "June 2023",
-    "icon": "FaCode",
-    "color": "grey",
-    "description": "submitted a project to my first hackathon",
-    "url": "https://hashnode.com/edit/clis7d51k000709kz58cncls9"
-  }]
+  "milestones": [
+    {
+      "title": "Entered my First Hackathon",
+      "date": "June 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "submitted a project to my first hackathon",
+      "url": "https://hashnode.com/edit/clis7d51k000709kz58cncls9"
+    }
+  ]
 }
