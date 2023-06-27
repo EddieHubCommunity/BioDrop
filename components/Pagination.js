@@ -17,6 +17,24 @@ const Pagination = ({
     setScreenWidth(window.innerWidth);
   }, []);
 
+  useEffect(() => {
+    // Add keydown event listener to handle pagination
+    const handleKeyDown = (e) => {
+      if (e.key === "ArrowLeft" && currentPage > 1) {
+        paginate(currentPage - 1);
+      }
+      if (e.key === "ArrowRight" && currentPage < totalPages) {
+        paginate(currentPage + 1);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [currentPage, totalPages, paginate]);
+
   let beforePage = currentPage - 1;
   let afterPage = currentPage + 1;
   const MEDIUM_SCREEN = 768;

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 
 import UserCard from "@components/user/UserCard";
@@ -140,10 +140,10 @@ export default function Search({ data: { tags, randUsers } }) {
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
 
-  const paginate = (pageNumber) => {
+  const paginate = useCallback((pageNumber) => {
     setCurrentPage(pageNumber);
     window.scrollTo({ top: 150, behavior: "smooth" });
-  };
+  }, []);
 
   return (
     <>
