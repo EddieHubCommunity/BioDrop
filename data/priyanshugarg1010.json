@@ -1,0 +1,25 @@
+{
+  "name": "Priyanhu Garg",
+  "displayStatsPublic": "true",
+  "type": "personal",
+  "bio": "I am a **fullstack developer** | Open Source",
+  "tags": ["Javascript", "NodeJS", "ReactJS", "Open Source"],
+  "avatar": "https://github.com/priyanshugarg1010.png",
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/priyanshu__garg",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github: Collaborate on Open Source",
+      "url": "https://github.com/priyanshugarg1010",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin: Let's connect",
+      "url": "https://www.linkedin.com/in/priyanshu-garg-66729622a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
