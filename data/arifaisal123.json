@@ -1,7 +1,7 @@
 {
   "name": "Arif Faisal",
   "bio": "I am a Full Stack Developer. Currently learning Django.",
-  "tags": ["Python", JavaScript", "Sass", "Bootstrap", "Flask"],
+  "tags": ["Python", "JavaScript", "Sass", "Bootstrap", "Flask"],
   "socials": [
     {
       "icon": "FaTwitter",
