@@ -1,10 +1,7 @@
 {
   "name": "Priyanhu Garg",
-  "displayStatsPublic": "true",
-  "type": "personal",
   "bio": "I am a **fullstack developer** | Open Source",
   "tags": ["Javascript", "NodeJS", "ReactJS", "Open Source"],
-  "avatar": "https://github.com/priyanshugarg1010.png",
   "links": [
     {
       "name": "Twitter: Follow me",
