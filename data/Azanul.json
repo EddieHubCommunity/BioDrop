@@ -1,13 +1,7 @@
 {
   "name": "Azanul Haque",
   "bio": "Software Developer | Open Source Contributor | Go, Python, Kubernetes, Distributed Systems",
-  "tags": [
-    "Open Source",
-    "Go",
-    "Python",
-    "Kubernetes",
-    "Distributed Systems"
-  ],
+  "tags": ["Open Source", "Go", "Python", "Kubernetes", "Distributed Systems"],
   "socials": [
     {
       "icon": "FaTwitter",
