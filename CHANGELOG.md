@@ -1,3 +1,12 @@
+## [1.145.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.2...v1.145.3) (2023-06-27)
+
+
+### Bug Fixes
+
+* bg color event drop down filter ([#7803](https://github.com/EddieHubCommunity/LinkFree/issues/7803)) ([e2fe1f1](https://github.com/EddieHubCommunity/LinkFree/commit/e2fe1f149be39ee16a5e2734fa28118352b3448d))
+
+
+
 ## [1.145.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.1...v1.145.2) (2023-06-26)
 
 
@@ -26,10 +35,6 @@
 ### Bug Fixes
 
 * update Linkfree CLI version ([#7779](https://github.com/EddieHubCommunity/LinkFree/issues/7779)) ([a9ec856](https://github.com/EddieHubCommunity/LinkFree/commit/a9ec856f2effa13e979acc7705854b8d002f7cf1))
-
-
-
-## [1.144.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.13...v1.144.14) (2023-06-24)
 
 
 
