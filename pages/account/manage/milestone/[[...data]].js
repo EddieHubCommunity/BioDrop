@@ -58,7 +58,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   );
   const [url, setUrl] = useState(milestone.url || "");
   const [icon, setIcon] = useState(milestone.icon || "FaGithub");
-  const [date, setDate] = useState(milestone.date);
+  const [date, setDate] = useState(
+    milestone.date && new Date(milestone.date).toISOString().split("T")[0]
+  );
   const [isGoal, setIsGoal] = useState(milestone.isGoal);
 
   const handleSubmit = async (e) => {
@@ -190,11 +192,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       name="date"
                       label="Date"
                       onChange={(e) => setDate(e.target.value)}
-                      value={
-                        date
-                          ? new Date(date).toISOString().split("T")[0]
-                          : undefined
-                      }
+                      value={date}
                       required
                     />
                     <p className="text-sm text-primary-low-medium">

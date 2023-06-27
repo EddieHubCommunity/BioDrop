@@ -6,46 +6,112 @@ import { ComponentStyle } from "@components/mdx/ComponentStyle";
 import BreadCrumb from "@components/BreadCrumb";
 import SideNav from "@components/navbar/SideNav";
 
-import {
-  CalendarIcon,
-  ChartPieIcon,
-  DocumentDuplicateIcon,
-  FolderIcon,
-  HomeIcon,
-  UsersIcon,
-} from "@heroicons/react/24/outline";
-
+// TODO: have page nav highlighted when on that page
 export const navigation = [
-  { name: "Dashboard", href: "#", icon: HomeIcon, current: true },
   {
-    name: "Teams",
-    icon: UsersIcon,
+    name: "Documentation",
+    href: "/docs",
+    //icon: HomeIcon,
+    current: false,
+  },
+  {
+    name: "Quickstart",
+    // icon: UsersIcon,
     current: false,
     children: [
-      { name: "Engineering", href: "#" },
-      { name: "Human Resources", href: "#" },
-      { name: "Customer Success", href: "#" },
+      { name: "Profile with JSON", href: "/docs/quickstart-json" },
+      { name: "Profile with Forms", href: "/docs/quickstart-forms" },
     ],
   },
   {
-    name: "Projects",
-    icon: FolderIcon,
+    name: "Getting Started",
+    // icon: FolderIcon,
     current: false,
     children: [
-      { name: "GraphQL API", href: "#" },
-      { name: "iOS App", href: "#" },
-      { name: "Android App", href: "#" },
-      { name: "New Customer Portal", href: "#" },
+      { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
+      { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
+      { name: "LinkFree CLI", href: "/docs/environments/linkfree-cli" },
+      { name: "Available icons", href: "/icons" },
     ],
   },
-  { name: "Calendar", href: "#", icon: CalendarIcon, current: false },
   {
-    name: "Documents",
-    href: "#",
-    icon: DocumentDuplicateIcon,
+    name: "Customise",
+    // icon: CalendarIcon,
     current: false,
+    children: [
+      { name: "Bio with JSON", href: "/docs/how-to-guides/bio-json" },
+      { name: "Bio with Forms", href: "/docs/how-to-guides/bio-forms" },
+      { name: "Links with JSON", href: "/docs/how-to-guides/links-json" },
+      { name: "Links with Forms", href: "/docs/how-to-guides/links-forms" },
+      { name: "Tags with JSON", href: "/docs/how-to-guides/tags-json" },
+      { name: "Tags with Forms", href: "/docs/how-to-guides/tags-forms" },
+      {
+        name: "Socials with JSON",
+        href: "/docs/how-to-guides/social-shortcuts-json",
+      },
+      {
+        name: "Socials with Forms",
+        href: "/docs/how-to-guides/social-shortcuts-forms",
+      },
+      {
+        name: "Milestones with JSON",
+        href: "/docs/how-to-guides/milestones-json",
+      },
+      {
+        name: "Milestones with Forms",
+        href: "/docs/how-to-guides/milestones-forms",
+      },
+      { name: "Events with JSON", href: "/docs/how-to-guides/events-json" },
+      { name: "Events with Forms", href: "/docs/how-to-guides/events-forms" },
+      {
+        name: "Testimonials with JSON",
+        href: "/docs/how-to-guides/testimonials-json",
+      },
+      {
+        name: "Testimonials with Forms",
+        href: "/docs/how-to-guides/testimonials-forms",
+      },
+    ],
   },
-  { name: "Reports", href: "#", icon: ChartPieIcon, current: false },
+  {
+    name: "Contributing",
+    // icon: DocumentDuplicateIcon,
+    current: false,
+    children: [
+      { name: "Labels", href: "/docs/contributing/labels" },
+      { name: "Docs Style Guide", href: "/docs/contributing/docs-style-guide" },
+      { name: "GitHub UI", href: "/docs/environments/github-ui" },
+      { name: "Gitpod", href: "/docs/environments/gitpod" },
+      {
+        name: "Local development",
+        href: "/docs/environments/local-development",
+      },
+      {
+        name: "Environment variables",
+        href: "/docs/environments/environment-variables",
+      },
+      { name: "MongoDB Atlas", href: "/docs/environments/local-with-atlas" },
+      { name: "Reviewers", href: "/docs/contributors/reviewers" },
+      { name: "Storybook", href: "/docs/contributors/storybook" },
+      { name: "Playwright", href: "/docs/contributors/automated-tests" },
+      { name: "Commit Style", href: "/docs/contributors/commits" },
+      { name: "Hacktoberfest", href: "/docs/contributors/hacktoberfest" },
+    ],
+  },
+  {
+    name: "Other",
+    // icon: ChartPieIcon,
+    current: false,
+    children: [
+      { name: "Profile tips", href: "/docs/how-to-guides/profile-tips" },
+      { name: "Full Profile JSON example", href: "/docs/full-profile-example" },
+      { name: "Map information", href: "/docs/map" },
+      { name: "FAQs", href: "/docs/faqs" },
+      { name: "Community resources", href: "/docs/community-resources" },
+      { name: "Statistics", href: "/docs/how-to-guides/statistics" },
+      { name: "Maintainers", href: "/docs/maintainers" },
+    ],
+  },
 ];
 
 export default function DocsLayout({ children, title, section, name }) {

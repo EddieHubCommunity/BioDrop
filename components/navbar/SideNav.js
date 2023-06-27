@@ -7,7 +7,7 @@ function classNames(...classes) {
 
 export default function SideNav({ navigation }) {
   return (
-    <ul role="list" className="w-64 flex-none invisible sm:visible">
+    <ul role="list" className="w-64 flex-none hidden sm:block mt-12">
       {navigation.map((item) => (
         <li key={item.name}>
           {!item.children ? (
@@ -15,13 +15,13 @@ export default function SideNav({ navigation }) {
               href={item.href}
               className={classNames(
                 item.current ? "bg-primary-low" : "hover:bg-primary-low",
-                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-primary-medium"
+                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium"
               )}
             >
-              <item.icon
+              {/* <item.icon
                 className="h-6 w-6 shrink-0 text-primary-low-medium"
                 aria-hidden="true"
-              />
+              /> */}
               {item.name}
             </a>
           ) : (
@@ -31,17 +31,19 @@ export default function SideNav({ navigation }) {
                   <Disclosure.Button
                     className={classNames(
                       item.current ? "bg-primary-low" : "hover:bg-primary-low",
-                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-medium"
+                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium"
                     )}
                   >
-                    <item.icon
+                    {/* <item.icon
                       className="h-6 w-6 shrink-0 text-primary-low-medium"
                       aria-hidden="true"
-                    />
+                    /> */}
                     {item.name}
                     <ChevronRightIcon
                       className={classNames(
-                        open ? "rotate-90 text-primary-low-medium" : "text-primary-low-medium",
+                        open
+                          ? "rotate-90 text-primary-low-medium"
+                          : "text-primary-low-medium",
                         "ml-auto h-5 w-5 shrink-0"
                       )}
                       aria-hidden="true"
@@ -55,8 +57,10 @@ export default function SideNav({ navigation }) {
                           as="a"
                           href={subItem.href}
                           className={classNames(
-                            subItem.current ? "bg-primary-low" : "hover:bg-primary-low",
-                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-primary-medium"
+                            subItem.current
+                              ? "bg-primary-low"
+                              : "hover:bg-primary-low",
+                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-primary-high dark:text-primary-low-medium"
                           )}
                         >
                           {subItem.name}

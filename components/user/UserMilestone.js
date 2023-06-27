@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -6,6 +7,15 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/edit";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
+  const [date, setDate] = useState(milestone.date);
+
+  useEffect(() => {
+    const parse = Date.parse(date);
+    if (!isNaN(parse)) {
+      setDate(new Date(parse).toLocaleDateString());
+    }
+  }, [milestone.date]);
+
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone) => (
     <div className="flex space-x-3 grow">
@@ -21,7 +31,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
             )}
           </h3>
           <p className="text-sm text-primary-medium dark:text-primary-medium-low">
-            {milestone.date}
+            {date}
           </p>
         </div>
         <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-medium-low">
