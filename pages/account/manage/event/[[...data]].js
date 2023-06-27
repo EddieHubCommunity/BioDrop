@@ -43,6 +43,13 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageEvent({ BASE_URL, event }) {
+  const formatDate = (inputDate) => {
+    const d = new Date(inputDate);
+    const date = d.toISOString().split("T")[0];
+    const time = d.toLocaleTimeString();
+
+    return `${date}T${time}`;
+  };
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -55,9 +62,13 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.description || "Description of the event from their website"
   );
   const [url, setUrl] = useState(event.url || "");
-  const [startDate, setStartDate] = useState(event.date?.start);
-  const [endDate, setEndDate] = useState(event.date?.end);
-  const [price, setPrice] = useState(event.price);
+  const [startDate, setStartDate] = useState(
+    event.date?.start && formatDate(event.date?.start)
+  );
+  const [endDate, setEndDate] = useState(
+    event.date?.end && formatDate(event.date?.end)
+  );
+  const [price, setPrice] = useState(event.price?.startingFrom || 0);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -68,7 +79,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       url,
       date: { start: startDate, end: endDate },
       isVirtual,
-      price,
+      price: { startingFrom: price },
       order: event.order,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
@@ -176,44 +187,37 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
-                      type="date"
+                      type="datetime-local"
                       name="start-date"
                       label="Start Date"
                       onChange={(e) => setStartDate(e.target.value)}
-                      value={
-                        startDate
-                          ? new Date(startDate).toISOString().split("T")[0]
-                          : undefined
-                      }
+                      value={startDate}
                       required
                     />
                     <p className="text-sm text-primary-low-medium">
-                      For example: <i>DD / MM / YYYY</i>
+                      For example: In <i>DD / MM / YYYY, HH:MM</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
-                      type="date"
+                      type="datetime-local"
                       name="end-date"
                       label="End Date"
                       onChange={(e) => setEndDate(e.target.value)}
-                      value={
-                        endDate
-                          ? new Date(endDate).toISOString().split("T")[0]
-                          : undefined
-                      }
+                      value={endDate}
                       required
                     />
                     <p className="text-sm text-primary-low-medium">
-                      For example: <i>DD / MM / YYYY</i>
+                      For example: In <i>DD / MM / YYYY, HH:MM</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="number"
                       name="price"
                       label="Ticket Price"
                       onChange={(e) => setPrice(e.target.value)}
-                      value={price}
+                      value={price.startingFrom}
                     />
                     <p className="text-sm text-primary-low-medium">
                       Basic ticket price in USD (for free use 0)
