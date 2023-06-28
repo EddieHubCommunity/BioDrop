@@ -139,7 +139,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     if (!isNaN(parse)) {
       setDate(new Date(parse).toISOString().split("T")[0]);
     }
-    console.log(milestone.date, parse, date);
   }, [milestone.date]);
 
   return (
