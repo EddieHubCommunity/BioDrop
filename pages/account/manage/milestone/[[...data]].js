@@ -14,6 +14,7 @@ import UserMilestone from "@components/user/UserMilestone";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
+import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -44,6 +45,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageMilestone({ BASE_URL, milestone }) {
+  const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -108,6 +110,30 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       message: "Milestone added/updated",
       additionalMessage: "Your milestone has been added/updated successfully",
     });
+  };
+
+  const deleteItem = async () => {
+    const res = await fetch(
+      `${BASE_URL}/api/account/manage/milestone/${milestone._id}`,
+      {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    const update = await res.json();
+
+    if (update.error || update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Milestone delete failed",
+        additionalMessage: update.error || update.message,
+      });
+    }
+
+    return Router.push(`${BASE_URL}/account/manage/milestones`);
   };
 
   return (
@@ -227,7 +253,14 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
-                  <Button primary={true}>SAVE</Button>
+                  {milestone._id && (
+                    <Button type="button" onClick={() => setOpen(true)}>
+                      DELETE
+                    </Button>
+                  )}
+                  <Button type="submit" primary={true}>
+                    SAVE
+                  </Button>
                 </div>
               </div>
             </div>
@@ -240,6 +273,13 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
           </div>
         </div>
       </Page>
+      <ConfirmDialog
+        open={open}
+        action={deleteItem}
+        setOpen={setOpen}
+        title="Delete milestone"
+        description="Are you sure?"
+      />
     </>
   );
 }

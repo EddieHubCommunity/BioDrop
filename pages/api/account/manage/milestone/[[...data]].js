@@ -15,16 +15,19 @@ export default async function handler(req, res) {
     return;
   }
   const username = session.username;
-  if (!["GET", "PUT"].includes(req.method)) {
+  if (!["GET", "PUT", "DELETE"].includes(req.method)) {
     return res
       .status(400)
-      .json({ error: "Invalid request: GET or PUT required" });
+      .json({ error: "Invalid request: GET or PUT or DELETE required" });
   }
 
   const { data } = req.query;
   let milestone = {};
   if (req.method === "GET") {
     milestone = await getMilestoneApi(username, data[0]);
+  }
+  if (req.method === "DELETE") {
+    milestone = await deleteMilestoneApi(username, data[0]);
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
@@ -114,6 +117,34 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
   }
 
   return JSON.parse(JSON.stringify(getMilestone));
+}
+
+export async function deleteMilestoneApi(username, id) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  try {
+    await Profile.findOneAndUpdate(
+      {
+        username,
+      },
+      {
+        $set: {
+          source: "database",
+        },
+        $pull: {
+          milestones: {
+            _id: new ObjectId(id),
+          },
+        },
+      },
+      { upsert: true, new: true }
+    );
+  } catch (e) {
+    log.error(e, `failed to update milestone for username: ${username}`);
+  }
+
+  return JSON.parse(JSON.stringify({}));
 }
 
 export async function addMilestoneApi(username, addMilestone) {
