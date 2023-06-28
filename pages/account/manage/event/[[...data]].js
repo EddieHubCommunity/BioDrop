@@ -243,7 +243,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       name="price"
                       label="Ticket Price"
                       onChange={(e) => setPrice(e.target.value)}
-                      value={price.startingFrom}
+                      value={price}
                     />
                     <p className="text-sm text-primary-low-medium">
                       Basic ticket price in USD (for free use 0)
