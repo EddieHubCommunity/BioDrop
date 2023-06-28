@@ -1,0 +1,16 @@
+{
+  "name": "Florian Budniewski",
+  "bio": "Frontend development enthusiast, learning and getting better everyday",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Fly0w",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Reach me on LinkedIn",
+      "url": "https://www.linkedin.com/in/florian-budniewski/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
