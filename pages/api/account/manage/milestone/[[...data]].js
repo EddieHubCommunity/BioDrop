@@ -113,7 +113,9 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
-    log.error(e, `failed to update milestone for username: ${username}`);
+    const error = `failed to update milestone for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   return JSON.parse(JSON.stringify(getMilestone));
@@ -141,7 +143,9 @@ export async function deleteMilestoneApi(username, id) {
       { upsert: true, new: true }
     );
   } catch (e) {
-    log.error(e, `failed to update milestone for username: ${username}`);
+    const error = `failed to delete milestone for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   return JSON.parse(JSON.stringify({}));
@@ -182,7 +186,9 @@ export async function addMilestoneApi(username, addMilestone) {
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
-    log.error(e, `failed to add milestone for username: ${username}`);
+    const error = `failed to add milestone for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   return JSON.parse(JSON.stringify(getMilestone));

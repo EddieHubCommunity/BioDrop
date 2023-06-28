@@ -13,6 +13,7 @@ import Input from "@components/form/Input";
 import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -43,6 +44,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageEvent({ BASE_URL, event }) {
+  const [open, setOpen] = useState(false);
   const formatDate = (inputDate) => {
     const d = new Date(inputDate);
     const date = d.toISOString().split("T")[0];
@@ -115,6 +117,30 @@ export default function ManageEvent({ BASE_URL, event }) {
       message: "Event added/updated",
       additionalMessage: "Your event has been added/updated successfully",
     });
+  };
+
+  const deleteItem = async () => {
+    const res = await fetch(
+      `${BASE_URL}/api/account/manage/event/${event._id}`,
+      {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    const update = await res.json();
+
+    if (update.error || update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Event delete failed",
+        additionalMessage: update.error || update.message,
+      });
+    }
+
+    return Router.push(`${BASE_URL}/account/manage/events`);
   };
 
   return (
@@ -234,7 +260,14 @@ export default function ManageEvent({ BASE_URL, event }) {
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
-                  <Button primary={true}>SAVE</Button>
+                  {event._id && (
+                    <Button type="button" onClick={() => setOpen(true)}>
+                      DELETE
+                    </Button>
+                  )}
+                  <Button type="submit" primary={true}>
+                    SAVE
+                  </Button>
                 </div>
               </div>
             </div>
@@ -253,6 +286,13 @@ export default function ManageEvent({ BASE_URL, event }) {
           </div>
         </div>
       </Page>
+      <ConfirmDialog
+        open={open}
+        action={deleteItem}
+        setOpen={setOpen}
+        title="Delete event"
+        description="Are you sure?"
+      />
     </>
   );
 }

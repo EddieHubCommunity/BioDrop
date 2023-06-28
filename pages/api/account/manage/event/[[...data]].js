@@ -15,16 +15,19 @@ export default async function handler(req, res) {
     return;
   }
   const username = session.username;
-  if (!["GET", "PUT"].includes(req.method)) {
+  if (!["GET", "PUT", "DELETE"].includes(req.method)) {
     return res
       .status(400)
-      .json({ error: "Invalid request: GET or PUT required" });
+      .json({ error: "Invalid request: GET or PUT or DELETE required" });
   }
 
   const { data } = req.query;
   let event = {};
   if (req.method === "GET") {
     event = await getEventApi(username, data[0]);
+  }
+  if (req.method === "DELETE") {
+    event = await deleteEventApi(username, data[0]);
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
@@ -101,10 +104,42 @@ export async function updateEventApi(username, id, updateEvent) {
     );
     getEvent = await getEventApi(username, id);
   } catch (e) {
-    log.error(e, `failed to update event for username: ${username}`);
+    const error = `failed to update event for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   return JSON.parse(JSON.stringify(getEvent));
+}
+
+export async function deleteEventApi(username, id) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  try {
+    await Profile.findOneAndUpdate(
+      {
+        username,
+      },
+      {
+        $set: {
+          source: "database",
+        },
+        $pull: {
+          events: {
+            _id: new ObjectId(id),
+          },
+        },
+      },
+      { upsert: true, new: true }
+    );
+  } catch (e) {
+    const error = `failed to delete event for username: ${username}`;
+    log.error(e, error);
+    return { error };
+  }
+
+  return JSON.parse(JSON.stringify({}));
 }
 
 export async function addEventApi(username, addEvent) {
@@ -134,7 +169,9 @@ export async function addEventApi(username, addEvent) {
     );
     getEvent = await getEventApi(username, id);
   } catch (e) {
-    log.error(e, `failed to update event for username: ${username}`);
+    const error = `failed to update event for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   return JSON.parse(JSON.stringify(getEvent));
