@@ -33,7 +33,7 @@ export default function Modal({ show = false, setShow, title, children }) {
                 <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
                   <button
                     type="button"
-                    className="rounded-md bg-primary-low dark:bg-primary-high text-primary-low/60 hover:text-primary-low/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="rounded-md bg-primary-low dark:bg-primary-high text-primary-medium-low hover:text-primary-medium-low/70 focus:outline-none focus:ring-2 focus:ring-secondary-medium-low focus:ring-offset-2"
                     onClick={() => setShow(false)}
                   >
                     <span className="sr-only">Close</span>
