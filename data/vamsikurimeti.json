@@ -1,0 +1,45 @@
+{
+  "name": "Mohan Vamsi Kurimeti",
+  "bio": "🚀 Fullstack Developer 🌐 | Node.js, Angular, GCP, AWS, Spring Boot | Docker enthusiast 🐳 | GitHub aficionado 💻 | Crafting exceptional digital experiences with style and precision ✨ Let's collaborate and build amazing things together! 🤝"
+"avatar":"https://github.com/vamsikurimeti.png"
+
+"links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kurimeti-mohan-vamsi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://www.github.com/vamsikurimeti/",
+      "icon": "FaGithubSquare"
+    },
+   {
+      "name": "Twitter",
+      "url": "https://twitter.com/vamsikurimeti",
+      "icon": "FaTwitterSquare"
+    },
+   {
+      "name": "Instagram",
+      "url": "https://instagram.com/vamsikurimeti",
+      "icon": "SiInstagram"
+    },
+   {
+      "name": "Medium",
+      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "icon": "SiMedium"
+    },
+   {
+      "name": "Blogsite (WIX) ",
+      "url": "https://superconsciousmind.wixsite.com/superconsciousminded",
+      "icon": "FaWix"
+    },
+   {
+      "name": "AI Chat Bot",
+      "url": "https://open-ai-node-vamsikurimeti.vercel.app/",
+      "icon": "SiChatbot"
+    }
+  
+  
+  ]
+}
