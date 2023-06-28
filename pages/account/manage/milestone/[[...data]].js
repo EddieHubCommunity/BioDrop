@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -60,9 +60,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   );
   const [url, setUrl] = useState(milestone.url || "");
   const [icon, setIcon] = useState(milestone.icon || "FaGithub");
-  const [date, setDate] = useState(
-    milestone.date && new Date(milestone.date).toISOString().split("T")[0]
-  );
+  const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal);
 
   const handleSubmit = async (e) => {
@@ -135,6 +133,14 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
     return Router.push(`${BASE_URL}/account/manage/milestones`);
   };
+
+  useEffect(() => {
+    const parse = Date.parse(date);
+    if (!isNaN(parse)) {
+      setDate(new Date(parse).toISOString().split("T")[0]);
+    }
+    console.log(milestone.date, parse, date);
+  }, [milestone.date]);
 
   return (
     <>
