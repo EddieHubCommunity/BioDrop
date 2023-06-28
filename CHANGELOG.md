@@ -1,3 +1,12 @@
+## [1.145.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.3...v1.145.4) (2023-06-28)
+
+
+### Bug Fixes
+
+* storybook user components ([#7802](https://github.com/EddieHubCommunity/LinkFree/issues/7802)) ([a63405a](https://github.com/EddieHubCommunity/LinkFree/commit/a63405a8d154d00f6f77bddf55cccb1162c8d6d1))
+
+
+
 ## [1.145.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.2...v1.145.3) (2023-06-27)
 
 
@@ -26,15 +35,6 @@
 ### Features
 
 * search displays 10 random profiles [#7585](https://github.com/EddieHubCommunity/LinkFree/issues/7585) ([#7790](https://github.com/EddieHubCommunity/LinkFree/issues/7790)) ([bd05492](https://github.com/EddieHubCommunity/LinkFree/commit/bd05492b35ee7e2b15d7d78486fd2f8f408914af))
-
-
-
-## [1.144.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.14...v1.144.15) (2023-06-24)
-
-
-### Bug Fixes
-
-* update Linkfree CLI version ([#7779](https://github.com/EddieHubCommunity/LinkFree/issues/7779)) ([a9ec856](https://github.com/EddieHubCommunity/LinkFree/commit/a9ec856f2effa13e979acc7705854b8d002f7cf1))
 
 
 
