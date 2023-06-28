@@ -1,3 +1,7 @@
+## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
+
+
+
 ## [1.145.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.3...v1.145.4) (2023-06-28)
 
 
@@ -26,15 +30,6 @@
 ### Bug Fixes
 
 * readability of search input [#7751](https://github.com/EddieHubCommunity/LinkFree/issues/7751) ([#7773](https://github.com/EddieHubCommunity/LinkFree/issues/7773)) ([75d9756](https://github.com/EddieHubCommunity/LinkFree/commit/75d9756773fc90a6a953c289dc19a482449b611e))
-
-
-
-# [1.145.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.15...v1.145.0) (2023-06-26)
-
-
-### Features
-
-* search displays 10 random profiles [#7585](https://github.com/EddieHubCommunity/LinkFree/issues/7585) ([#7790](https://github.com/EddieHubCommunity/LinkFree/issues/7790)) ([bd05492](https://github.com/EddieHubCommunity/LinkFree/commit/bd05492b35ee7e2b15d7d78486fd2f8f408914af))
 
 
 
