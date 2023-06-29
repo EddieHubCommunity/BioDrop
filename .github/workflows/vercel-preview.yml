@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - manage-forms
+      - fix-issue-7838
 
 jobs:
   deploy:

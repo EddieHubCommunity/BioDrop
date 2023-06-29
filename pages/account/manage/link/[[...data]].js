@@ -14,6 +14,7 @@ import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
+import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -44,6 +45,7 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageLink({ BASE_URL, username, link }) {
+  const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -100,6 +102,27 @@ export default function ManageLink({ BASE_URL, username, link }) {
       message: "Link added/updated",
       additionalMessage: "Your Link has been added/updated successfully",
     });
+  };
+
+  const deleteItem = async () => {
+    const res = await fetch(`${BASE_URL}/api/account/manage/link/${link._id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const update = await res.json();
+
+    if (update.error || update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Link delete failed",
+        additionalMessage: update.error || update.message,
+      });
+    }
+
+    return Router.push(`${BASE_URL}/account/manage/links`);
   };
 
   return (
@@ -227,7 +250,14 @@ export default function ManageLink({ BASE_URL, username, link }) {
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
-                  <Button primary={true}>SAVE</Button>
+                  {link._id && (
+                    <Button type="button" onClick={() => setOpen(true)}>
+                      DELETE
+                    </Button>
+                  )}
+                  <Button type="submit" primary={true}>
+                    SAVE
+                  </Button>
                 </div>
               </div>
             </div>
@@ -246,6 +276,13 @@ export default function ManageLink({ BASE_URL, username, link }) {
           </div>
         </div>
       </Page>
+      <ConfirmDialog
+        open={open}
+        action={deleteItem}
+        setOpen={setOpen}
+        title="Delete link"
+        description="Are you sure?"
+      />
     </>
   );
 }
