@@ -15,7 +15,7 @@ export default function Modal({ show = false, setShow, title, children }) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" />
+          <div className="fixed inset-0 bg-primary-low-medium bg-opacity-75 transition-opacity" />
         </Transition.Child>
 
         <div className="fixed inset-0 z-10 overflow-y-auto">
@@ -33,7 +33,7 @@ export default function Modal({ show = false, setShow, title, children }) {
                 <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
                   <button
                     type="button"
-                    className="rounded-md bg-white dark:bg-primary-high text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="rounded-md bg-white dark:bg-primary-high text-primary-low-medium hover:text-primary-low-medium focus:outline-none focus:ring-2 focus:ring-secondary-medium-low focus:ring-offset-2"
                     onClick={() => setShow(false)}
                   >
                     <span className="sr-only">Close</span>
@@ -42,7 +42,7 @@ export default function Modal({ show = false, setShow, title, children }) {
                 </div>
                 <div className="m-4">{children}</div>
 
-                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-gray-50 dark:bg-primary-high">
+                <div className=" px-4 py-3 mt-8 sm:flex sm:flex-row-reverse sm:px-6 justify-center bg-primary-low dark:bg-primary-high">
                   {title}
                 </div>
               </Dialog.Panel>

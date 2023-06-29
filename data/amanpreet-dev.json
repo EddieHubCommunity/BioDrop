@@ -1,6 +1,6 @@
 {
   "name": "Aman Preet Singh",
-  "bio": "**Passionate Developer** and **Software Crafter** with a passion for problem-solving.",
+  "bio": "An *average* but **passionate developer** , a **software crafter** with 15+ years of experience in software development. ",
   "tags": [
     "Javascript",
     "Typescript",
@@ -48,9 +48,27 @@
     },
     {
       "group": "Socials Primary",
-      "name": "Collaborate with me on Github",
+      "name": "Collaborate with me on GitHub",
       "url": "https://github.com/amanpreet-dev",
       "icon": "FaGithub"
+    },
+    {
+      "group": "Content",
+      "name": "Explore my articles on my Blog",
+      "url": "https://blog.amanpreet.dev",
+      "icon": "FaBlog"
+    },
+    {
+      "group": "Content",
+      "name": "Read with me on Medium",
+      "url": "https://medium.com/@amanpreet-dev",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Content",
+      "name": "Read with me on dev.to",
+      "url": "https://dev.to/amanpreet-dev",
+      "icon": "FaDev"
     }
   ],
   "milestones": [

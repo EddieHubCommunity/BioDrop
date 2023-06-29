@@ -143,8 +143,8 @@ export default function Roadmap() {
                     aria-describedby={phase.id}
                     className={classNames(
                       phase.mostPopular
-                        ? "bg-secondary-medium  text-white shadow-sm hover:bg-secondary-medium-low"
-                        : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-white dark:hover:border-secondary-low hover:border-secondary-low",
+                        ? "bg-secondary-medium  text-primary-low shadow-sm hover:bg-secondary-medium-low"
+                        : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-primary-low dark:hover:border-secondary-low hover:border-secondary-low",
                       "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
                     )}
                   >

@@ -28,8 +28,12 @@ export default function Page404() {
               height={300}
             />
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Button href="/" primary={true}>Go back home</Button>
-              <Button href="/docs">Read the docs</Button>
+              <Button href="/" primary={true} aria-label="Back to home">
+                Go back home
+              </Button>
+              <Button href="/docs" aria-label="Read the docs">
+                Read the docs
+              </Button>
             </div>
           </div>
         </div>

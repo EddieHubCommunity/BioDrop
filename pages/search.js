@@ -31,8 +31,8 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (data.users.length > 5) {
-    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  if (data.users.length > 10) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 10);
   } else {
     data.randUsers = data.users;
   }
@@ -68,6 +68,11 @@ export default function Search({ data: { users, tags, randUsers } }) {
     if (inputValue.length < 2) {
       return;
     }
+
+    // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
+    setInputValue(inputValue
+      .replace(/,(\s*),/g, ",")
+      .replace(/^,/, ""))
 
     const timer = setTimeout(() => {
       filterData(inputValue);
@@ -123,26 +128,27 @@ export default function Search({ data: { users, tags, randUsers } }) {
       return setInputValue(keyword);
     }
 
-    const items = cleanedInput.split(",");
+    const items = cleanedInput.split(", ");
 
     if (cleanedInput.length) {
       if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(",")
+          items.filter((item) => item.trim() !== keyword).join(", ")
         );
       }
 
-      return setInputValue([...items, keyword].join(","));
+      return setInputValue([...items, keyword].join(", "));
     }
 
     setInputValue(keyword);
   };
 
-  // removes leading/trailing whitespaces and extra spaces and converted to lowercase
+  // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
   const cleanSearchInput = (searchInput) => {
     return searchInput
       .trim()
       .replace(/\s{2,}/g, " ")
+      .replace(/,(?!\s)/g, ", ")
       .toLowerCase();
   };
 
@@ -189,7 +195,7 @@ export default function Search({ data: { users, tags, randUsers } }) {
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source,reactjs"
+            placeholder="Search user by name or tags; eg: open source, reactjs"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}

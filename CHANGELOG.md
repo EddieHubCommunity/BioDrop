@@ -1,35 +1,40 @@
-## [1.144.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.13...v1.144.14) (2023-06-24)
+# [1.147.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.146.0...v1.147.0) (2023-06-29)
+
+
+### Features
+
+* delete links and related data ([#7847](https://github.com/EddieHubCommunity/LinkFree/issues/7847)) ([734490d](https://github.com/EddieHubCommunity/LinkFree/commit/734490de6677915b5a171159ea33bece8b7ee578))
 
 
 
-## [1.144.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.12...v1.144.13) (2023-06-24)
+# [1.146.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.5...v1.146.0) (2023-06-29)
 
 
-### Bug Fixes
+### Features
 
-* switch to useRouter from next/router ([#7757](https://github.com/EddieHubCommunity/LinkFree/issues/7757)) ([daa37fa](https://github.com/EddieHubCommunity/LinkFree/commit/daa37fa74a99c29fda5fa87784104f8a2c356d56))
-
-
-
-## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
+* manage profile with forms ([#6998](https://github.com/EddieHubCommunity/LinkFree/issues/6998)) ([82bb960](https://github.com/EddieHubCommunity/LinkFree/commit/82bb9603874db8f7b11322a853ac78c5100a7cea)), closes [#7699](https://github.com/EddieHubCommunity/LinkFree/issues/7699)
 
 
 
-## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
-
-
-### Bug Fixes
-
-* update dependencies ([#7755](https://github.com/EddieHubCommunity/LinkFree/issues/7755)) ([c664a27](https://github.com/EddieHubCommunity/LinkFree/commit/c664a27ab88ce800ad84f46ddb2b940376d0f3fc))
+## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
 
 
 
-## [1.144.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.9...v1.144.10) (2023-06-24)
+## [1.145.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.3...v1.145.4) (2023-06-28)
 
 
 ### Bug Fixes
 
-* move newsletter to own page ([#7758](https://github.com/EddieHubCommunity/LinkFree/issues/7758)) ([0a5676f](https://github.com/EddieHubCommunity/LinkFree/commit/0a5676fcb8188f7e49bf299224a71c860f45b046))
+* storybook user components ([#7802](https://github.com/EddieHubCommunity/LinkFree/issues/7802)) ([a63405a](https://github.com/EddieHubCommunity/LinkFree/commit/a63405a8d154d00f6f77bddf55cccb1162c8d6d1))
+
+
+
+## [1.145.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.2...v1.145.3) (2023-06-27)
+
+
+### Bug Fixes
+
+* bg color event drop down filter ([#7803](https://github.com/EddieHubCommunity/LinkFree/issues/7803)) ([e2fe1f1](https://github.com/EddieHubCommunity/LinkFree/commit/e2fe1f149be39ee16a5e2734fa28118352b3448d))
 
 
 

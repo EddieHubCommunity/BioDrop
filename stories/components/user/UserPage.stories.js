@@ -1,5 +1,5 @@
 import User from "../../../components/user/UserPage";
-import profile from "../../../data/eddiejaoude.json";
+import profile from "./profile.json"
 
 export default {
   component: User,
@@ -15,10 +15,7 @@ export default {
 export const Basic = {
   args: {
     data: {
-      ...profile,
-      testimonials: [],
-      views: 1,
-      username: "eddiejaoude"
+      ...profile
     },
     BASE_URL: "https://linkfree.eddiehub.io"
   }
