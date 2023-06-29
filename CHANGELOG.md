@@ -1,3 +1,12 @@
+# [1.146.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.5...v1.146.0) (2023-06-29)
+
+
+### Features
+
+* manage profile with forms ([#6998](https://github.com/EddieHubCommunity/LinkFree/issues/6998)) ([82bb960](https://github.com/EddieHubCommunity/LinkFree/commit/82bb9603874db8f7b11322a853ac78c5100a7cea)), closes [#7699](https://github.com/EddieHubCommunity/LinkFree/issues/7699)
+
+
+
 ## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.145.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.1...v1.145.2) (2023-06-26)
-
-
-
-## [1.145.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.0...v1.145.1) (2023-06-26)
-
-
-### Bug Fixes
-
-* readability of search input [#7751](https://github.com/EddieHubCommunity/LinkFree/issues/7751) ([#7773](https://github.com/EddieHubCommunity/LinkFree/issues/7773)) ([75d9756](https://github.com/EddieHubCommunity/LinkFree/commit/75d9756773fc90a6a953c289dc19a482449b611e))
 
 
 
