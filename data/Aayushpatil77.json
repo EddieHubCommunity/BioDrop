@@ -1,0 +1,22 @@
+{
+  "name": "Ayush Patil",
+  "bio": "Open Source | AI Enthusiast | Full Stack Web Developer",
+  "tags": ["FullStack", "NextJS", "Javascript", "OpenSource"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ayush_Patil01",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/ayush-patil-b052211b0/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Aayushpatil77",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
+import { FaMicrophoneAlt, FaMapPin, FaExternalLinkAlt } from "react-icons/fa";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -10,28 +10,39 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
+import Edit from "@components/account/manage/edit";
 
-export default function EventCard({ event, usernames }) {
+export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
-  const [startTime, setStartTime] = useState(event.date.startFmt)
-  const [endTime, setEndTime] = useState(event.date.endFmt)
-  
-  useEffect((() => {
+
+  const [startTime, setStartTime] = useState(event.date.start);
+  const [endTime, setEndTime] = useState(event.date.end);
+
+  useEffect(() => {
     const dateTimeStyle = {
       dateStyle: "full",
       timeStyle: "long",
     };
-    setStartTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-      new Date(event.date.start)
-    ));
-    setEndTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-      new Date(event.date.end)
-    ));
-  }),[event.date])
+    try {
+      setStartTime(
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.start)
+        )
+      );
+      setEndTime(
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.end)
+        )
+      );
+    } catch (e) {
+      setStartTime(event.date.start);
+      setEndTime(event.date.end);
+    }
+  }, [event.date]);
 
-  return (
-    <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
+  const item = (event) => (
+    <div
+      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
       style={{
         borderColor: event.color,
       }}
@@ -48,17 +59,22 @@ export default function EventCard({ event, usernames }) {
         </div>
         <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
-            <Link
-              href={event.url}
-              key={event.url}
-              target="_blank"
-              rel="noreferrer"
-              className="text-decoration-line:none"
-            >
+            <div>
               <div className="flex justify-between">
-                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
-                  {event.name}
-                </p>
+                <div className="flex items-center gap-2">
+                  <span className="text-lg lg:text-xl tracking-wide font-medium capitalize">
+                    {event.name}
+                  </span>
+                  {event.url && (
+                    <Link
+                      href={event.url}
+                      target="_blank"
+                      aria-label={`Visit event ${event.name}`}
+                    >
+                      <FaExternalLinkAlt />
+                    </Link>
+                  )}
+                </div>
                 {event.userStatus && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
@@ -73,13 +89,9 @@ export default function EventCard({ event, usernames }) {
                 )}
               </div>
               <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
-                <span>
-                  {startTime}
-                </span>
+                <span>{startTime}</span>
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
-                <span>
-                  {endTime}
-                </span>
+                <span>{endTime}</span>
               </p>
               <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
@@ -99,34 +111,42 @@ export default function EventCard({ event, usernames }) {
                     Object.values(event.location).join(", ")}
                 </span>
               </p>
-            </Link>
+            </div>
             <div className="isolate flex -space-x-1 ">
-              {
-                usernames && (
-                  usernames.map((user) => {
-                    return (
-                      <Link
-                        href={`/${user}`}
-                        key={user}
-                        className=" hidden lg:block h-10 w-10  "
-                      >
-                        <FallbackImage
-                          src={`https://github.com/${user}.png`}
-                          alt={`Profile picture of ${user}`}
-                          width={fallbackImageSize}
-                          height={fallbackImageSize}
-                          fallback={user}
-                          className="relative z-30 inline-block  rounded-full ring-2 ring-white"
-                        />
-                      </Link>
-                    )
-                  })
-                )
-              }
+              {usernames &&
+                usernames.map((username) => {
+                  return (
+                    <Link
+                      href={`/${username}`}
+                      key={username}
+                      aria-label={`Visit user ${username}`}
+                      className="hidden lg:block h-10 w-10"
+                    >
+                      <FallbackImage
+                        src={`https://github.com/${username}.png`}
+                        alt={`Profile picture of ${username}`}
+                        width={fallbackImageSize}
+                        height={fallbackImageSize}
+                        fallback={username}
+                        className="relative z-30 inline-block rounded-full ring-2 ring-white"
+                      />
+                    </Link>
+                  );
+                })}
             </div>
           </div>
         </div>
       </div>
+    </div>
+  );
+
+  const edit = (event) => (
+    <Edit href={`/account/manage/event/${event._id}`}>{item(event)}</Edit>
+  );
+
+  return (
+    <li className="flex flex-row gap-8 w-full">
+      {manage ? edit(event) : item(event)}
     </li>
   );
 }
