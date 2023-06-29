@@ -1,3 +1,12 @@
+# [1.147.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.146.0...v1.147.0) (2023-06-29)
+
+
+### Features
+
+* delete links and related data ([#7847](https://github.com/EddieHubCommunity/LinkFree/issues/7847)) ([734490d](https://github.com/EddieHubCommunity/LinkFree/commit/734490de6677915b5a171159ea33bece8b7ee578))
+
+
+
 # [1.146.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.5...v1.146.0) (2023-06-29)
 
 
@@ -26,10 +35,6 @@
 ### Bug Fixes
 
 * bg color event drop down filter ([#7803](https://github.com/EddieHubCommunity/LinkFree/issues/7803)) ([e2fe1f1](https://github.com/EddieHubCommunity/LinkFree/commit/e2fe1f149be39ee16a5e2734fa28118352b3448d))
-
-
-
-## [1.145.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.1...v1.145.2) (2023-06-26)
 
 
 
