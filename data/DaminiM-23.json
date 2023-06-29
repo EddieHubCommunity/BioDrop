@@ -1,0 +1,10 @@
+{
+  "name": "Damini",
+  "bio": "Open Source | DevOps | community",
+  "tags": ["Open Source", "DevOps"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/DaminiM10" },
+    { "icon": "FaGithub", "url": "https://github.com/DaminiM-23" },
+    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/Damini Mahajan" }
+  ]
+}

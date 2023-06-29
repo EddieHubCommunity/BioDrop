@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
@@ -18,12 +17,11 @@ import { getTotalStats } from "./api/statistics/totals";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
-import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
 import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import config from "@config/app.json";
-import Newsletter from "@components/Newsletter";
+import CallToAction from "@components/CallToAction";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
@@ -38,9 +36,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ total, today }) {
-  const router = useRouter();
-  const newsletter = router.query.newsletter;
-
   const features = [
     {
       name: "QuickStart",
@@ -215,13 +210,6 @@ export default function Home({ total, today }) {
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
 
-        {newsletter && (
-          <Alert
-            type="success"
-            message="Thank you for subscribing to our newsletter!"
-          />
-        )}
-
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
             LinkFree
@@ -283,27 +271,14 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="bg-primary-low dark:bg-primary-high">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
-            <span className="block">Ready to dive in?</span>
-            <span className="block text-secondary-high dark:text-secondary-low">
-              Add your free Profile today!
-            </span>
-          </h2>
-          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div className="inline-flex rounded-md shadow">
-              <Button
-                href="/docs/quickstart"
-                primary={true}
-              >Get started</Button>
-            </div>
-            <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button href="/eddiejaoude">Example</Button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CallToAction
+        title="Ready to dive in?"
+        description="Add your free Profile today!"
+        button1Link="/docs/quickstart"
+        button1Text="Get started"
+        button2Link="/eddiejaoude"
+        button2Text="Example"
+      />
 
       <div className="bg-secondary-high">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
@@ -408,9 +383,14 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <Newsletter />
-
       <Testimonials data={testimonials} />
+
+      <CallToAction
+        title="Subscribe to our newsletter to learn more"
+        description="Do not miss out!"
+        button1Link="/newsletter"
+        button1Text="Sign up"
+      />
 
       <GitHubAccelerator />
 

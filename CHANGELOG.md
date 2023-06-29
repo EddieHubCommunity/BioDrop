@@ -1,45 +1,35 @@
-# [1.144.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.4...v1.144.0) (2023-06-20)
-
-
-### Features
-
-* map clustering ([#7653](https://github.com/EddieHubCommunity/LinkFree/issues/7653)) ([6c0d957](https://github.com/EddieHubCommunity/LinkFree/commit/6c0d957adbb6e5b2b145e2e1d90af8180db9981e))
+## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
 
 
 
-## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
+## [1.145.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.3...v1.145.4) (2023-06-28)
 
 
 ### Bug Fixes
 
-* remove alert animation ([#7662](https://github.com/EddieHubCommunity/LinkFree/issues/7662)) ([e39065b](https://github.com/EddieHubCommunity/LinkFree/commit/e39065b940edccd08f13bad54bfc5614954d6289))
+* storybook user components ([#7802](https://github.com/EddieHubCommunity/LinkFree/issues/7802)) ([a63405a](https://github.com/EddieHubCommunity/LinkFree/commit/a63405a8d154d00f6f77bddf55cccb1162c8d6d1))
 
 
 
-## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
-
-
-### Bug Fixes
-
-* remove animate pulse from alert ([#7639](https://github.com/EddieHubCommunity/LinkFree/issues/7639)) ([abdf3ea](https://github.com/EddieHubCommunity/LinkFree/commit/abdf3ea3f8fd2767021f2e82f6c641a69f498c9f))
-
-
-
-## [1.143.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.1...v1.143.2) (2023-06-18)
+## [1.145.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.2...v1.145.3) (2023-06-27)
 
 
 ### Bug Fixes
 
-*  statistics and playground base url ([#7640](https://github.com/EddieHubCommunity/LinkFree/issues/7640)) ([8854b4e](https://github.com/EddieHubCommunity/LinkFree/commit/8854b4e491ec70010b2a4517af857abb4cc10b28))
+* bg color event drop down filter ([#7803](https://github.com/EddieHubCommunity/LinkFree/issues/7803)) ([e2fe1f1](https://github.com/EddieHubCommunity/LinkFree/commit/e2fe1f149be39ee16a5e2734fa28118352b3448d))
 
 
 
-## [1.143.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.0...v1.143.1) (2023-06-18)
+## [1.145.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.1...v1.145.2) (2023-06-26)
+
+
+
+## [1.145.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.0...v1.145.1) (2023-06-26)
 
 
 ### Bug Fixes
 
-* update the LinkFree CLI version ([#7638](https://github.com/EddieHubCommunity/LinkFree/issues/7638)) ([bef374c](https://github.com/EddieHubCommunity/LinkFree/commit/bef374c6dbe8c7ae24b46546aead73ee1faa3ae1))
+* readability of search input [#7751](https://github.com/EddieHubCommunity/LinkFree/issues/7751) ([#7773](https://github.com/EddieHubCommunity/LinkFree/issues/7773)) ([75d9756](https://github.com/EddieHubCommunity/LinkFree/commit/75d9756773fc90a6a953c289dc19a482449b611e))
 
 
 

@@ -48,7 +48,6 @@ export default function Playground({BASE_URL}) {
       return true;
     } catch (err) {
       setErrMsg(err.toString());
-      setError(true);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);

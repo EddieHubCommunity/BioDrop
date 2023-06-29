@@ -311,13 +311,17 @@ function findOneByUsernameFull(data) {
       });
 
     data = { ...data, testimonials: allTestimonials };
-  } catch (e) {}
+  } catch (e) {
+    //error will happen on user with no testimonials
+  }
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
   let eventFiles = [];
   try {
     eventFiles = fs.readdirSync(filePathEvents);
-  } catch (e) {}
+  } catch (e) {
+    //error will happen on user with no events
+  }
 
   const events = eventFiles.flatMap((filename) => {
     try {
