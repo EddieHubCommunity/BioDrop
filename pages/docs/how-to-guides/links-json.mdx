@@ -2,7 +2,7 @@ import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy";
 import Link from "@components/Link";
 
-## Links
+## Links - with JSON
 
 Let people discover all your great content in one place by adding links to your social media account and other resources.
 
@@ -33,7 +33,7 @@ This is an example of a single link object:
 | icon  | string | true     | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons.                                                                                     |
 | group | string | false    | Optional property to group links together, any without a group will be added to the end in a new group called "Others". If no groups are used then no groups are displayed including "Others". |
 
-To add more links add another object inside the links collection. 
+To add more links add another object inside the links collection.
 
 For example:
 
@@ -60,7 +60,7 @@ _Clicks on these social shortcuts that match any of your links will also increme
 
 ### Grouping your Links
 
-To place your links into groups, you can use labels such as `Business` or  `Socials Primary` in the `group` property.
+To place your links into groups, you can use labels such as `Business` or `Socials Primary` in the `group` property.
 
 <ClipboardCopy>
 ```js

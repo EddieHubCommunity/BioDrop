@@ -56,7 +56,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-col self-center gap-3">
           <h1 className="text-3xl font-bold">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
-            {data.socials.map((social) => (
+            {data.socials?.map((social) => (
               <UserSocial
                 social={social}
                 key={social._id}
@@ -91,7 +91,9 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       <div className="flex justify-center mb-4">
         {qrShow && (
-          <Button primary={true} onClick={downloadQR}>Download QR code</Button>
+          <Button primary={true} onClick={downloadQR}>
+            Download QR code
+          </Button>
         )}
       </div>
     </>

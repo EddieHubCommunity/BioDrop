@@ -1,5 +1,6 @@
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
@@ -8,12 +9,8 @@ import { Link, LinkStats, Stats } from "@models/index";
 export default async function handler(req, res) {
   await connectMongo();
 
-  const { username, url } = req.query;
+  const { username, _id } = req.query;
   const session = await getServerSession(req, res, authOptions);
-
-  if (session && session.username === username) {
-    return res.status(201).redirect(decodeURIComponent(url));
-  }
 
   if (req.method != "GET") {
     return res
@@ -21,10 +18,10 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  let link;
-  const customError = `failed loading link ${url} for username: ${username}`;
+  let link = {};
+  const customError = `failed loading link ${_id} for username: ${username}`;
   try {
-    link = await Link.findOne({ username, url });
+    link = await Link.findOne({ _id });
   } catch (e) {
     logger.error(e, customError);
     return res.status(404).json({ error: customError });
@@ -35,28 +32,15 @@ export default async function handler(req, res) {
     return res.status(404).json({ error: customError });
   }
 
-  try {
-    await Link.updateOne(
-      {
-        username,
-        url,
-      },
-      {
-        $inc: { clicks: 1 },
-      }
-    );
-  } catch (e) {
-    logger.error(
-      e,
-      `failed incrementing link: ${url} for username ${username}`
-    );
+  if (session && session.username === username) {
+    return res.status(200).redirect(decodeURIComponent(link.url));
   }
 
   const date = new Date();
   date.setHours(1, 0, 0, 0);
 
   try {
-    await Stats.updateOne(
+    await Stats.findOneAndUpdate(
       {
         date,
       },
@@ -72,38 +56,45 @@ export default async function handler(req, res) {
     );
   }
 
+  let linkstats = {};
   try {
-    await Stats.updateOne(
-      {
-        date,
-      },
-      {
-        $inc: { clicks: 1 },
-      },
-      { upsert: true }
-    );
-  } catch (e) {
-    logger.error(
-      e,
-      `failed creating platform stats on ${date} for ${username}`
-    );
-  }
-
-  try {
-    await LinkStats.updateOne(
+    linkstats = await LinkStats.findOneAndUpdate(
       {
         username,
         date,
-        url,
+        link: new ObjectId(_id),
       },
       {
         $inc: { clicks: 1 },
       },
-      { upsert: true }
+      { upsert: true, new: true }
     );
   } catch (e) {
-    logger.error(e, `failed incrementing platform stats for ${date}`);
+    logger.error(e, `failed incrementing link stats for ${date}`);
   }
 
-  return res.status(201).redirect(decodeURIComponent(url));
+  let linkUpdate = {
+    $inc: { clicks: 1 },
+  };
+  const linkRelationship = link.linkstats.find(
+    (ls) => ls.toString() === new ObjectId(linkstats._id).toString()
+  );
+
+  if (!linkRelationship) {
+    linkUpdate = {
+      ...linkUpdate,
+      $push: { linkstats: new ObjectId(linkstats._id) },
+    };
+  }
+
+  try {
+    await Link.updateOne({ _id }, linkUpdate);
+  } catch (e) {
+    logger.error(
+      e,
+      `failed incrementing link: ${link.url} for username ${username}`
+    );
+  }
+
+  return res.status(201).redirect(decodeURIComponent(link.url));
 }

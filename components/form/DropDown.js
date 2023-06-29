@@ -10,7 +10,7 @@ export default function DropdownMenu({ eventType, handleEventTypeChange, options
         id="event-type"
         value={eventType}
         onChange={handleEventTypeChange}
-        className="border border-gray-300 rounded-md shadow-sm px-2 py-1 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent  m-3 w-60"
+        className="border border-primary-low-medium rounded-md shadow-sm px-2 py-1 text-sm text-primary-medium focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent  m-3 w-60"
       >
         {options.map((option) => (
           <option key={option.value} value={option.value}>

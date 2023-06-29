@@ -2,29 +2,30 @@ import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy";
 import Link from "@components/Link";
 
-## Bio
+## Tags - with JSON
 
-Describe in a few words who you are.
+These are searchable keywords for people to discover your Profile. They can be your area of expertise, interests or tech you use (for example `DevRel` or `Javascript`).
 
-The bio string in the json file is special! It allows for the use of Markdown. This will allow you to use the formatting styles like italic and bold.
+![Example of LinkFree searchable Profile tags](https://user-images.githubusercontent.com/624760/208981563-7cab5d55-8996-4e90-9af1-6dd3edba0235.png)
 
-### Markdown
+### Add Tags
 
 1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
 
 _If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
 
-2. In the `bio` string, you can wrap text in double asterix to make it bold, here is an example
+2. Add a collection called `tags` at the root of your json file which will contain one or more strings.
+
+This is what an example looks like:
 
 <ClipboardCopy>
 ```js
 {
-  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star"
+  "tags": [ "Open Source", "Javascript", "Typescript", "NextJS", "DevOps",
+  "DevRel" ]
 }
 ```
 </ClipboardCopy>
-
-![LinkFree profile using markdown in bio](https://user-images.githubusercontent.com/624760/208985171-9f337433-92c6-43b7-86a4-05d6af691690.png)
 
 3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
 
@@ -32,9 +33,9 @@ _Clicks on these social shortcuts that match any of your links will also increme
 
 export default ({ children }) => (
   <DocsLayout
-    title="LinkFree Bio Documentation"
+    title="LinkFree Tags Documentation"
     section="Customising your Profile"
-    name="Bio"
+    name="Tags"
   >
     {children}
   </DocsLayout>

@@ -7,7 +7,9 @@ import FallbackImage from "@components/FallbackImage";
 export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
     <>
-      {!testimonials && <Alert type="info" message="No testimonials found" />}
+      {!testimonials?.length && (
+        <Alert type="info" message="No testimonials found" />
+      )}
       {testimonials &&
         testimonials.map((testimonial, key) => (
           <div

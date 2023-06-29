@@ -8,6 +8,7 @@ import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
+import app from "@config/app.json";
 
 export default function Footer() {
   const navigation = {
@@ -50,6 +51,7 @@ export default function Footer() {
         href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
         external: true,
       },
+      { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
@@ -82,7 +84,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="bg-primary-high" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -182,10 +184,7 @@ export default function Footer() {
               LinkFree will always be 100% Open Source and have a free tier.
             </p>
           </div>
-          <Button
-            primary={true}
-            href="/premium"
-          >
+          <Button primary={true} href="/premium">
             <span className="mr-2">
               <CurrencyDollarIcon className="h-6 w-6" />
             </span>
