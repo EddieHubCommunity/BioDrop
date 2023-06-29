@@ -61,7 +61,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [url, setUrl] = useState(milestone.url || "");
   const [icon, setIcon] = useState(milestone.icon || "FaGithub");
   const [date, setDate] = useState(milestone.date || "");
-  const [isGoal, setIsGoal] = useState(milestone.isGoal);
+  const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

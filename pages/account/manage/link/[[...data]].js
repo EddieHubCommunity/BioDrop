@@ -55,8 +55,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [name, setName] = useState(link.name || "");
   const [url, setUrl] = useState(link.url || "");
   const [icon, setIcon] = useState(link.icon || "");
-  const [isEnabled, setIsEnabled] = useState(link.isEnabled || true);
-  const [isPinned, setIsPinned] = useState(link.isPinned || false);
+  const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
+  const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -218,7 +218,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
-                      text1="Pin?"
+                      text1="Pinned?"
                       text2="Display at the top of your profile"
                       enabled={isPinned}
                       setEnabled={setIsPinned}

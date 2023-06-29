@@ -58,7 +58,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     message: "",
     additionalMessage: "",
   });
-  const [isVirtual, setIsVirtual] = useState(event.isVirtual || true);
+  const [isVirtual, setIsVirtual] = useState(event.isVirtual ? true : false);
   const [name, setName] = useState(event.name || "Official name of the Event");
   const [description, setDescription] = useState(
     event.description || "Description of the event from their website"
