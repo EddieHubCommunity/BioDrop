@@ -54,7 +54,10 @@ export default function UserTabs({ data, BASE_URL }) {
       )}
 
       {tabs.find((tab) => tab.name === "Testimonials")?.current && (
-        <UserTestimonials testimonials={data.testimonials} />
+        <UserTestimonials
+          testimonials={data.testimonials}
+          BASE_URL={BASE_URL}
+        />
       )}
 
       {tabs.find((tab) => tab.name === "Events")?.current && (

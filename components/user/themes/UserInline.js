@@ -26,7 +26,10 @@ export default function UserInline({ data, BASE_URL }) {
           <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
             Testimonials
           </h2>
-          <UserTestimonials testimonials={data.testimonials} />
+          <UserTestimonials
+            testimonials={data.testimonials}
+            BASE_URL={BASE_URL}
+          />
         </>
       )}
       {data.events?.length > 0 && (

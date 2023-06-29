@@ -1,5 +1,6 @@
 import UserTestimonials from "@components/user/UserTestimonials";
-import testimonial from "../../../data/EddieHubCommunity/testimonials/eddiejaoude.json";
+import profile from "./profile.json"
+
 
 export default {
   component: UserTestimonials,
@@ -7,14 +8,7 @@ export default {
 
 export const Basic = {
   args: {
-    data: {
-      testimonials: [
-        {
-          username: 'eddiejaoude',
-          url: 'https://linkfree.eddiehub.io/eddiejaoude',
-          ...testimonial
-        }
-      ]
-    }
+    testimonials: profile.testimonials,
+    BASE_URL: "https://linkfree.eddiehub.io"
   }
 };
