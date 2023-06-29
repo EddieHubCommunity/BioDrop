@@ -201,17 +201,19 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
 
         <Navigation />
 
-        <div className="border mb-6 dark:border-primary-medium">
-          <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
-            <h3 className="text-lg font-medium leading-6 text-primary-high">
-              Profile views
-            </h3>
-            <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-              Number of Profile visits per day.
-            </p>
+        {dailyViews.length > 0 && (
+          <div className="border mb-6 dark:border-primary-medium">
+            <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
+              <h3 className="text-lg font-medium leading-6 text-primary-high">
+                Profile views
+              </h3>
+              <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
+                Number of Profile visits per day.
+              </p>
+            </div>
+            <DynamicChart data={dailyViews} />
           </div>
-          <DynamicChart data={dailyViews} />
-        </div>
+        )}
 
         <table className="min-w-full divide-y divide-primary-medium-low">
           <thead className="bg-primary-low dark:bg-primary-medium">
