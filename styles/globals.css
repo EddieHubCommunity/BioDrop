@@ -34,6 +34,9 @@ code.language-unknown::after {
   h6 {
     @apply dark:text-white;
   }
+  .dark-text{
+    @apply dark:text-primary-high;
+  }
   th {
     @apply dark:text-white;
   }

@@ -35,7 +35,7 @@ export default function NoProfile({ BASE_URL }) {
         <div className="bg-white">
           <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-4xl font-bold tracking-tight text-primary-high">
+              <h2 className="text-4xl dark-text font-bold tracking-tight text-primary-high">
                 Your LinkFree Profile does not exist yet
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium">
