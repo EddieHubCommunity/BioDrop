@@ -1,0 +1,16 @@
+{
+  "name": "Yinka Onireti",
+  "bio": "Financial Advisor turned **DevOps Engineer**. Travel enthusiast, been to four continents and counting, loves playing chess, soccer and listening to music",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yinka-ola-732314266/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yonireti",
+      "icon": "FaGitHub"
+    }
+  ]
+}

@@ -6,9 +6,7 @@ function UserSocial({ BASE_URL, username, social }) {
 
   return (
     <Link
-      href={`${BASE_URL}/api/users/${username}/links/${encodeURIComponent(
-        social.url
-      )}`}
+      href={`${BASE_URL}/api/profiles/${username}/links/${social._id}`}
       target="_blank"
       rel="noopener noreferrer"
       className="hover:scale-125 transition ease-in-out delay-100"

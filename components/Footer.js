@@ -1,14 +1,14 @@
 import Image from "next/image";
 
-import {
-  FaLinkedin,
-  FaGithub,
-  FaYoutube,
-  FaRocket,
-  FaDollarSign,
-} from "react-icons/fa";
+import FaLinkedin from "@components/icons/FaLinkedin";
+import FaGithub from "@components/icons/FaGithub";
+import FaYoutube from "@components/icons/FaYoutube";
+
+import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
+import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
+import app from "@config/app.json";
 
 export default function Footer() {
   const navigation = {
@@ -51,6 +51,7 @@ export default function Footer() {
         href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
         external: true,
       },
+      { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
@@ -83,11 +84,11 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="bg-primary-high" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <Image
             width={100}
@@ -183,12 +184,12 @@ export default function Footer() {
               LinkFree will always be 100% Open Source and have a free tier.
             </p>
           </div>
-          <Button
-            text="Learn more about Premium"
-            primary={true}
-            icon={<FaDollarSign />}
-            href="/premium"
-          />
+          <Button primary={true} href="/premium">
+            <span className="mr-2">
+              <CurrencyDollarIcon className="h-6 w-6" />
+            </span>
+            <span>Learn more about Premium</span>
+          </Button>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
           <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
@@ -211,7 +212,7 @@ export default function Footer() {
             href="https://github.com/EddieHubCommunity/LinkFree"
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
           >
-            <FaRocket className="h-6 w-6" aria-hidden="true" />
+            <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub
           </Link>
         </div>

@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require('@axe-core/playwright').default;
+const AxeBuilder = require("@axe-core/playwright").default;
 
 test("docs page has title", async ({ page }) => {
   await page.goto("/docs");
@@ -16,26 +16,8 @@ test("docs has quickstart link", async ({ page }) => {
   await expect(page).toHaveURL(/quickstart/);
 });
 
-test("docs has github ui link", async ({ page }) => {
-  await page.goto("/docs");
-  const getStarted = page.locator('h3:has-text("GitHub UI")');
-
-  await getStarted.click();
-
-  await expect(page).toHaveURL(/github-ui/);
-});
-
-test("docs has gitpod link", async ({ page }) => {
-  await page.goto("/docs");
-  const getStarted = page.locator('h3:has-text("Gitpod")');
-
-  await getStarted.click();
-
-  await expect(page).toHaveURL(/gitpod/);
-});
-
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests", async ({ page }) => {
     await page.goto("/docs");
@@ -47,8 +29,8 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
-  
+  test.use({ colorScheme: "dark" });
+
   test("should pass axe wcag accessibility tests (dark)", async ({ page }) => {
     await page.goto("/docs");
     const accessibilityScanResults = await new AxeBuilder({ page })

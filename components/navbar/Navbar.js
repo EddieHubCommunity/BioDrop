@@ -1,17 +1,16 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
-import getIcon from "@components/Icon";
 import { useTheme } from "next-themes";
 
-const FaGithub = getIcon("FaGithub");
-const FaRegMoon = getIcon("FaRegMoon");
-const FaSun = getIcon("FaSun");
+import FaGithub from "@components/icons/FaGithub";
+import SunIcon from "@heroicons/react/20/solid/SunIcon";
+import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +40,7 @@ export default function Navbar() {
           onClick={() => setTheme("light")}
           aria-label="Toggle Theme"
         >
-          <FaSun className="text-primary-low hover:text-secondary-low" />
+          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
         </button>
       );
     }
@@ -52,7 +51,7 @@ export default function Navbar() {
         onClick={() => setTheme("dark")}
         aria-label="Toggle Theme"
       >
-        <FaRegMoon className="text-primary-low hover:text-secondary-low" />
+        <MoonIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
       </button>
     );
   };
@@ -102,7 +101,7 @@ export default function Navbar() {
     <>
       {!session && (
         <NavLink
-          item={{ name: "Login", url: "/login" }}
+          item={{ name: "Login / Sign up", url: "/login" }}
           setIsOpen={setIsOpen}
           onClick={(e) => {
             e.preventDefault();
@@ -162,10 +161,6 @@ export default function Navbar() {
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
-                <NavLink
-                  item={{ name: `v${app.version}`, url: "/roadmap" }}
-                  setIsOpen={setIsOpen}
-                />
                 <Link
                   href="https://github.com/EddieHubCommunity/LinkFree"
                   target="_blank"

@@ -4,10 +4,12 @@ import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
 
-export default function UserTestimonials({ testimonials }) {
+export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
     <>
-      {!testimonials && <Alert type="info" message="No testimonials found" />}
+      {!testimonials?.length && (
+        <Alert type="info" message="No testimonials found" />
+      )}
       {testimonials &&
         testimonials.map((testimonial, key) => (
           <div
@@ -28,7 +30,7 @@ export default function UserTestimonials({ testimonials }) {
                 <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={testimonial.url} target="_blank">
+                <Link href={`${BASE_URL}/${testimonial.username}`} target="_blank">
                   @{testimonial.username}
                 </Link>
               </div>
@@ -39,7 +41,7 @@ export default function UserTestimonials({ testimonials }) {
                 <h3 className="font-medium dark:text-primary-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={testimonial.url} target="_blank">
+                <Link href={`${BASE_URL}/${testimonial.username}`} target="_blank">
                   @{testimonial.username}
                 </Link>
               </div>

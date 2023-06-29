@@ -2,7 +2,7 @@
 import { test, expect } from "@playwright/test";
 const AxeBuilder = require("@axe-core/playwright").default;
 
-const defaultUsers = 5;
+const defaultUsers = 10;
 
 test("Search has title", async ({ page }) => {
   await page.goto("/search");
