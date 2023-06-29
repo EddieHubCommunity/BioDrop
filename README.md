@@ -36,7 +36,7 @@ Brief documentation is below, but full documentation can be found here https://l
 
 This is great if you only want to add your Profile or make changes to it.
 
-Here is the **QuickStart** guide to add your profile - https://linkfree.io/docs/quickstart
+Here is the **QuickStart** guide to add your profile - https://linkfree.io/docs/quickstart-json
 
 > **Note**: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request
 
