@@ -7,8 +7,8 @@ import { navigation } from "@components/layouts/DocsLayout";
 export default function DocsIndex() {
   const sections = [
     {
-      title: "Popular docs",
-      description: "The most searched for docs",
+      title: "Popular",
+      description: "The most searched for documentation",
       pages: [
         {
           name: "Quickstart forms",
@@ -44,7 +44,7 @@ export default function DocsIndex() {
           name: "Social with Forms",
           path: "/docs/how-to-guides/socials-forms",
           description:
-            "You can pin your links to the top of your profile with Social Shortcuts",
+            "You can pin your links to the top of your Profile with Social Shortcuts",
           category: {
             name: "Intermediate",
             color: "bg-orange-100 text-orange-800",
@@ -64,7 +64,7 @@ export default function DocsIndex() {
           name: "Available Icons",
           path: "/icons",
           description:
-            "Search for available icons you can use on your profile.",
+            "Search for available icons you can use on your Profile.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",

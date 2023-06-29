@@ -31,7 +31,7 @@ export const navigation = [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
       { name: "LinkFree CLI", href: "/docs/environments/linkfree-cli" },
-      { name: "Available icons", href: "/icons" },
+      { name: "Available Icons", href: "/icons" },
     ],
   },
   {
@@ -40,18 +40,16 @@ export const navigation = [
     current: false,
     children: [
       { name: "Bio with JSON", href: "/docs/how-to-guides/bio-json" },
-      { name: "Bio with Forms", href: "/docs/how-to-guides/bio-forms" },
       { name: "Links with JSON", href: "/docs/how-to-guides/links-json" },
       { name: "Links with Forms", href: "/docs/how-to-guides/links-forms" },
       { name: "Tags with JSON", href: "/docs/how-to-guides/tags-json" },
-      { name: "Tags with Forms", href: "/docs/how-to-guides/tags-forms" },
       {
         name: "Socials with JSON",
-        href: "/docs/how-to-guides/social-shortcuts-json",
+        href: "/docs/how-to-guides/socials-shortcuts-json",
       },
       {
         name: "Socials with Forms",
-        href: "/docs/how-to-guides/social-shortcuts-forms",
+        href: "/docs/how-to-guides/socials-shortcuts-forms",
       },
       {
         name: "Milestones with JSON",
@@ -83,7 +81,7 @@ export const navigation = [
       { name: "GitHub UI", href: "/docs/environments/github-ui" },
       { name: "Gitpod", href: "/docs/environments/gitpod" },
       {
-        name: "Local development",
+        name: "Local Development",
         href: "/docs/environments/local-development",
       },
       {
@@ -91,11 +89,11 @@ export const navigation = [
         href: "/docs/environments/environment-variables",
       },
       { name: "MongoDB Atlas", href: "/docs/environments/local-with-atlas" },
-      { name: "Reviewers", href: "/docs/contributors/reviewers" },
-      { name: "Storybook", href: "/docs/contributors/storybook" },
-      { name: "Playwright", href: "/docs/contributors/automated-tests" },
-      { name: "Commit Style", href: "/docs/contributors/commits" },
-      { name: "Hacktoberfest", href: "/docs/contributors/hacktoberfest" },
+      { name: "Reviewers", href: "/docs/contributing/reviewers" },
+      { name: "Storybook", href: "/docs/contributing/storybook" },
+      { name: "Playwright", href: "/docs/contributing/automated-tests" },
+      { name: "Commit Style", href: "/docs/contributing/commits" },
+      { name: "Hacktoberfest", href: "/docs/contributing/hacktoberfest" },
     ],
   },
   {
@@ -103,11 +101,11 @@ export const navigation = [
     // icon: ChartPieIcon,
     current: false,
     children: [
-      { name: "Profile tips", href: "/docs/how-to-guides/profile-tips" },
+      { name: "Profile Tips", href: "/docs/profile-tips" },
       { name: "Full Profile JSON example", href: "/docs/full-profile-example" },
-      { name: "Map information", href: "/docs/map" },
+      { name: "Map Information", href: "/docs/map" },
       { name: "FAQs", href: "/docs/faqs" },
-      { name: "Community resources", href: "/docs/community-resources" },
+      { name: "Community Resources", href: "/docs/community-resources" },
       { name: "Statistics", href: "/docs/how-to-guides/statistics" },
       { name: "Maintainers", href: "/docs/maintainers" },
     ],
