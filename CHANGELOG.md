@@ -1,3 +1,12 @@
+## [1.147.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.2...v1.147.3) (2023-06-30)
+
+
+### Bug Fixes
+
+* dark mode for confirm dialog ([#7867](https://github.com/EddieHubCommunity/LinkFree/issues/7867)) ([8b5036b](https://github.com/EddieHubCommunity/LinkFree/commit/8b5036b58c93d518f6db2b21f2b0e390dd24acc8))
+
+
+
 ## [1.147.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.1...v1.147.2) (2023-06-30)
 
 
@@ -31,10 +40,6 @@
 ### Features
 
 * manage profile with forms ([#6998](https://github.com/EddieHubCommunity/LinkFree/issues/6998)) ([82bb960](https://github.com/EddieHubCommunity/LinkFree/commit/82bb9603874db8f7b11322a853ac78c5100a7cea)), closes [#7699](https://github.com/EddieHubCommunity/LinkFree/issues/7699)
-
-
-
-## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
 
 
 
