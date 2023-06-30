@@ -62,13 +62,12 @@ export default async function handler(req, res) {
               {
                 testimonials: [
                   ...currentProfile.testimonials,
-                  ...newTestimonials.map((testimonials, order) => ({
+                  ...newTestimonials.map((testimonials) => ({
                     username: testimonials.username,
                     date: testimonials.date,
                     title: testimonials.title,
                     description: testimonials.description,
                     isPinned: false,
-                    order: currentProfile.testimonials.length + order + 1,
                   })),
                 ],
               }
@@ -196,14 +195,13 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              milestones: profile.milestones.map((milestone, position) => ({
+              milestones: profile.milestones.map((milestone) => ({
                 url: milestone.url,
                 date: milestone.date,
                 isGoal: milestone.isGoal || false,
                 title: milestone.title,
                 icon: milestone.icon,
                 description: milestone.description,
-                order: position,
               })),
             }
           );
@@ -218,16 +216,13 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              testimonials: profile.testimonials.map(
-                (testimonials, position) => ({
-                  username: testimonials.username,
-                  date: testimonials.date,
-                  title: testimonials.title,
-                  description: testimonials.description,
-                  order: position,
-                  isPinned: testimonials.isPinned || false,
-                })
-              ),
+              testimonials: profile.testimonials.map((testimonials) => ({
+                username: testimonials.username,
+                date: testimonials.date,
+                title: testimonials.title,
+                description: testimonials.description,
+                isPinned: testimonials.isPinned || false,
+              })),
             }
           );
         }
@@ -244,7 +239,7 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              events: profile.events.map((event, position) => ({
+              events: profile.events.map((event) => ({
                 isVirtual: event.isVirtual,
                 color: event.color,
                 name: event.name,
@@ -254,7 +249,6 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
-                order: position,
                 price: event.price,
               })),
             }

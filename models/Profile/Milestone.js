@@ -30,7 +30,6 @@ const MilestoneSchema = new Schema({
     min: 2,
     max: 512,
   },
-  order: Number,
 });
 
 MilestoneSchema.pre("save", () => {

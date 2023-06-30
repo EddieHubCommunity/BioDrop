@@ -82,7 +82,6 @@ export default function ManageEvent({ BASE_URL, event }) {
       date: { start: startDate, end: endDate },
       isVirtual,
       price: { startingFrom: price },
-      order: event.order,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
