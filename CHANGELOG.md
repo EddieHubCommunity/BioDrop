@@ -1,3 +1,12 @@
+## [1.147.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.5...v1.147.6) (2023-06-30)
+
+
+### Bug Fixes
+
+* dark mode for no profile ([#7886](https://github.com/EddieHubCommunity/LinkFree/issues/7886)) ([6f9ce9a](https://github.com/EddieHubCommunity/LinkFree/commit/6f9ce9a5b66901bbaed107a69b36d50dbbf28a12))
+
+
+
 ## [1.147.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.4...v1.147.5) (2023-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * events help link ([#7866](https://github.com/EddieHubCommunity/LinkFree/issues/7866)) ([85ce35a](https://github.com/EddieHubCommunity/LinkFree/commit/85ce35aaaa6b52dcbbbe7bb6b7e8346cb5fea4ee))
-
-
-
-## [1.147.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.0...v1.147.1) (2023-06-30)
-
-
-### Bug Fixes
-
-* quickstart links ([#7862](https://github.com/EddieHubCommunity/LinkFree/issues/7862)) ([1f70a47](https://github.com/EddieHubCommunity/LinkFree/commit/1f70a47a821dae9c0f685ae10daf238a5325e47c))
 
 
 
