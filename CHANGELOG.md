@@ -1,3 +1,12 @@
+## [1.147.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.1...v1.147.2) (2023-06-30)
+
+
+### Bug Fixes
+
+* events help link ([#7866](https://github.com/EddieHubCommunity/LinkFree/issues/7866)) ([85ce35a](https://github.com/EddieHubCommunity/LinkFree/commit/85ce35aaaa6b52dcbbbe7bb6b7e8346cb5fea4ee))
+
+
+
 ## [1.147.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.0...v1.147.1) (2023-06-30)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.145.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.4...v1.145.5) (2023-06-28)
-
-
-
-## [1.145.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.145.3...v1.145.4) (2023-06-28)
-
-
-### Bug Fixes
-
-* storybook user components ([#7802](https://github.com/EddieHubCommunity/LinkFree/issues/7802)) ([a63405a](https://github.com/EddieHubCommunity/LinkFree/commit/a63405a8d154d00f6f77bddf55cccb1162c8d6d1))
 
 
 
