@@ -1,3 +1,12 @@
+## [1.147.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.4...v1.147.5) (2023-06-30)
+
+
+### Bug Fixes
+
+* profile auto label ([#7882](https://github.com/EddieHubCommunity/LinkFree/issues/7882)) ([57532ee](https://github.com/EddieHubCommunity/LinkFree/commit/57532ee9404d1b292bb99bfe6a31805c626700e5))
+
+
+
 ## [1.147.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.3...v1.147.4) (2023-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * quickstart links ([#7862](https://github.com/EddieHubCommunity/LinkFree/issues/7862)) ([1f70a47](https://github.com/EddieHubCommunity/LinkFree/commit/1f70a47a821dae9c0f685ae10daf238a5325e47c))
-
-
-
-# [1.147.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.146.0...v1.147.0) (2023-06-29)
-
-
-### Features
-
-* delete links and related data ([#7847](https://github.com/EddieHubCommunity/LinkFree/issues/7847)) ([734490d](https://github.com/EddieHubCommunity/LinkFree/commit/734490de6677915b5a171159ea33bece8b7ee578))
 
 
 
