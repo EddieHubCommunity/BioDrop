@@ -1,16 +1,7 @@
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
-
-import {
-  MdOutlinePlayArrow,
-  MdHelpOutline,
-  MdOutlineLink,
-  MdOutlinePersonPin,
-  MdOutlineAutoGraph,
-  MdOutlineEditCalendar,
-} from "react-icons/md";
-import { FaMedal } from "react-icons/fa";
+import { MdHelpOutline } from "react-icons/md";
 
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
