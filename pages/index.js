@@ -1,16 +1,7 @@
 import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
-
-import {
-  MdOutlinePlayArrow,
-  MdHelpOutline,
-  MdOutlineLink,
-  MdOutlinePersonPin,
-  MdOutlineAutoGraph,
-  MdOutlineEditCalendar,
-} from "react-icons/md";
-import { FaMedal } from "react-icons/fa";
+import { MdHelpOutline } from "react-icons/md";
 
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
@@ -36,49 +27,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ total, today }) {
-  const features = [
-    {
-      name: "QuickStart",
-      description:
-        "Learn how to add your basic LinkFree Profile within a few minutes",
-      icon: MdOutlinePlayArrow,
-      path: "/docs/quickstart",
-    },
-    {
-      name: "Links",
-      description: "Let people discover all your great content in one place",
-      icon: MdOutlineLink,
-      path: "/docs/how-to-guides/links",
-    },
-    {
-      name: "Bio",
-      description:
-        "Encourage people to find out more about you and what you do",
-      icon: MdOutlinePersonPin,
-      path: "/docs/how-to-guides/bio",
-    },
-    {
-      name: "Statistics",
-      description: "Learn which of your links and content performs best",
-      icon: MdOutlineAutoGraph,
-      path: "/docs/how-to-guides/statistics",
-    },
-    {
-      name: "Events",
-      description:
-        "Hosting or attending events, let people know what you are up to",
-      icon: MdOutlineEditCalendar,
-      path: "/docs/how-to-guides/events",
-    },
-    {
-      name: "Milestones",
-      description:
-        "Demonstrate the highlights of your career by adding Milestones to your Profile",
-      icon: FaMedal,
-      path: "/docs/how-to-guides/milestones",
-    },
-  ];
-
   const featuresDetails = [
     {
       name: "Your Bio, Social links and Stats",
@@ -274,7 +222,7 @@ export default function Home({ total, today }) {
       <CallToAction
         title="Ready to dive in?"
         description="Add your free Profile today!"
-        button1Link="/docs/quickstart"
+        button1Link="/docs"
         button1Text="Get started"
         button2Link="/eddiejaoude"
         button2Text="Example"
@@ -332,53 +280,6 @@ export default function Home({ total, today }) {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="relative bg-primary-low dark:bg-primary-high py-8 sm:py-12 lg:py-24">
-        <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-          <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
-            Getting Started
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
-            Popular User Guides
-          </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-high">
-            Here is a selection of our popular documentation guides to help you
-            get started.
-          </p>
-          <div className="mt-20">
-            <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-              {features.map((feature) => (
-                <div key={feature.name} className="pt-6">
-                  <Link
-                    aria-label={`Go to ${feature.name} page`}
-                    href={feature.path}
-                    className="text-primary-high dark:text-primary-low-medium group"
-                  >
-                    <div className="flow-root rounded-lg bg-primary-low dark:bg-primary-medium px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-secondary-high p-3 shadow-lg">
-                            <feature.icon
-                              className="h-8 w-8 text-primary-low"
-                              aria-hidden="true"
-                            />
-                          </span>
-                        </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-secondary-medium dark:text-primary-low">
-                          {feature.name}
-                        </h3>
-                        <p className="mt-5 text-base leading-7 text-primary-high dark:text-primary-low-medium">
-                          {feature.description}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

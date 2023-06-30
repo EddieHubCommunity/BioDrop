@@ -20,10 +20,15 @@ export default function Footer() {
       { name: "Login", href: "/auth/signin", external: false },
     ],
     support: [
-      { name: "QuickStart", href: "/docs/quickstart", external: false },
+      { name: "Documentation", href: "/docs", external: false },
       {
-        name: "Updating your profile",
-        href: "/docs/how-to-guides/editing",
+        name: "Create Profile with JSON",
+        href: "/docs/quickstart-json",
+        external: false,
+      },
+      {
+        name: "Create Profile with Forms",
+        href: "/docs/quickstart-forms",
         external: false,
       },
       { name: "Json Playground", href: "/playground", external: false },
