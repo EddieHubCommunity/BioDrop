@@ -1,0 +1,51 @@
+{
+  "name": "Dishang H. Rana",
+  "bio": "Hi,  This is DISHANG!\n\t A passionate student and skilled coder, driven by a love for technology and a desire to create meaningful solutions. \nInsatiable curiosity and problem-solving mindset. \nAdditionally, my area interest are reading books and gaining knowledge.",
+  "tags": ["Flutter", "Dart", "DBMS", "SQL", "OOP", "Android", "PHP"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/thisisdishang"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thisisdishang"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thisisdishang"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thisisdishang",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/thisisdishang",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/thisisdishang",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/thisisdishang",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Google Developer",
+      "url": "https://g.dev/dishangrana",
+      "icon": "FaGoogleDeveloper"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/dishanghrana",
+      "icon": "FaTelegram"
+    }
+  ]
+}

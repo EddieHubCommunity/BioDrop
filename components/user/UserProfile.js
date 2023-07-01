@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
+import { useRouter } from 'next/router'
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -13,6 +14,7 @@ import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
+  const router = useRouter();
   const fallbackImageSize = 120;
 
   //Declared Ref object for QR
@@ -54,7 +56,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-col self-center gap-3">
           <h1 className="text-3xl font-bold">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
-            {data.socials.map((social) => (
+            {data.socials?.map((social) => (
               <UserSocial
                 social={social}
                 key={social._id}
@@ -72,13 +74,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag) => (
-              <Link
-                href={`/search?keyword=${tag}`}
-                key={tag}
-                className="no-underline"
-              >
-                <Tag name={tag} />
-              </Link>
+              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
             ))}
         </div>
       )}
@@ -95,7 +91,9 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       <div className="flex justify-center mb-4">
         {qrShow && (
-          <Button primary={true} onClick={downloadQR}>Download QR code</Button>
+          <Button primary={true} onClick={downloadQR}>
+            Download QR code
+          </Button>
         )}
       </div>
     </>

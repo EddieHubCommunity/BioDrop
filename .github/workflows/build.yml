@@ -9,6 +9,7 @@ on:
       - tailwind.config.js
       - package.json
       - next.config.mjs
+      - models/**
 
 jobs:
   build:

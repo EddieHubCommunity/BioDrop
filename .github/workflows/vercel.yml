@@ -26,7 +26,9 @@ jobs:
       - name: build project artifacts
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: deploy project artifacts to Vercel
-        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: |
+          du --inodes -d 5 .vercel/output
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
 
   load-data:
     runs-on: ubuntu-latest

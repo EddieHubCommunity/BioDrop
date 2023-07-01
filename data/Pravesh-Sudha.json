@@ -1,0 +1,29 @@
+{
+  "name": "Pravesh Sudha",
+  "bio": "Philosophy Student who is now a Self-Taught Developer",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Golang",
+    "Kubernetes",
+    "Docker",
+    "Node.js"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/praveshstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Pravesh-Sudha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pravesh-sudha-82a37422a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

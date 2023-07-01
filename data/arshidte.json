@@ -1,0 +1,26 @@
+{
+  "name": "Arshid Diyan TE",
+  "bio": "Full stack web developer and auto enthusiast, merging creativity with coding to craft captivating digital experiences. Embracing the fast lane of innovation, both online and on the road",
+  "links": [
+    {
+      "name": "My portfolio website",
+      "url": "http://arshidcodes.online/",
+      "icon": "SiPagekit"
+    },
+    {
+      "name": "Showcasing my Github",
+      "url": "https://github.com/arshidte",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/arshid_te",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Talk to me on Instagram",
+      "url": "https://www.instagram.com/arshid_te/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
