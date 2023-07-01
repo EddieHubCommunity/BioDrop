@@ -16,7 +16,7 @@ const production = {
   transport: {
     target: "pino-pretty",
     options: {
-      level:'info',
+      level: "info",
       colorize: true,
     },
   },
