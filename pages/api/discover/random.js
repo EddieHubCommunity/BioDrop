@@ -1,29 +1,48 @@
-// pages/api/discover/random.js
-
+import { serverEnv } from "@config/schemas/serverSchema";
 import connectMongo from "@config/mongo";
 import Profile from "@models/Profile";
-import logger from "@config/logger"; // Import the logger
+import logger from "@config/logger";
 
 export default async function handler(req, res) {
-  if (req.method != 'GET') {
-    return res.status(400).json({ error: 'Invalid request: GET request required' });
+  if (req.method != "GET") {
+    return res
+      .status(400)
+      .json({ error: "Invalid request: GET request required" });
   }
 
+  let profile = {};
   try {
-    // Connect to MongoDB using Mongoose
-    await connectMongo();
+    profile = await getRandomProfileApi();
 
-    // Use the $sample aggregation stage to get a random profile
-    const randomProfileArray = await Profile.aggregate([{ $sample: { size: 1 } }]).exec();
-
-    // Get the first (and only) element from the randomProfileArray
-    const randomProfile = randomProfileArray[0];
-    // console.log(randomProfile);
-
-    res.status(200).json(randomProfile);
+    res.status(200).json(profile);
   } catch (error) {
-    logger.error(error, "Error fetching user profiles"); // Use the logger to log the error
+    logger.error(error, "Error fetching user profiles");
     res.status(500).json({ error: "Failed to fetch user profiles" });
   }
 }
 
+export async function getRandomProfileApi() {
+  await connectMongo();
+  if (!serverEnv.RANDOM_USERS) {
+    return {};
+  }
+
+  const usernames = serverEnv.RANDOM_USERS.split(",");
+
+  if (usernames.length === 0) {
+    return {};
+  }
+
+  try {
+    const profile = await Profile.aggregate([
+      { $match: { username: { $in: usernames } } },
+      { $sample: { size: 1 } },
+      { $project: { username: 1, bio: 1, name: 1 } },
+    ]).exec();
+
+    return JSON.parse(JSON.stringify(profile ? profile[0] : {}));
+  } catch (error) {
+    logger.error(error, "Error fetching user profiles");
+    return { error: "Failed to fetch user profiles" };
+  }
+}

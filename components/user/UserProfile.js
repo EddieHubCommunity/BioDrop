@@ -13,7 +13,6 @@ import Badge from "@components/Badge";
 import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
-
   const [qrShow, setQrShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
@@ -33,7 +32,7 @@ function UserProfile({ BASE_URL, data }) {
       {children}
     </Link>
   );
-  
+
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">

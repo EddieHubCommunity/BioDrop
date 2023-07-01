@@ -3,30 +3,39 @@ import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 
+import config from "@config/app.json";
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
+import { getRandomProfileApi } from "./api/discover/random";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
 import Testimonials from "@components/Testimonials";
 import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
-import config from "@config/app.json";
 import CallToAction from "@components/CallToAction";
+import UserMini from "@components/user/UserMini";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
+  const randomProfile = await getRandomProfileApi();
 
   return {
-    props: { total: totalStats, today: todayStats },
+    props: {
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+      total: totalStats,
+      today: todayStats,
+      randomProfile,
+    },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Home({ total, today }) {
+export default function Home({ total, today, randomProfile, BASE_URL }) {
   const featuresDetails = [
     {
       name: "Your Bio, Social links and Stats",
@@ -283,6 +292,15 @@ export default function Home({ total, today }) {
           </div>
         </div>
       </div>
+
+      {randomProfile.username && (
+        <UserMini
+          BASE_URL={BASE_URL}
+          username={randomProfile.username}
+          name={randomProfile.name}
+          bio={randomProfile.bio}
+        />
+      )}
 
       <Testimonials data={testimonials} />
 
