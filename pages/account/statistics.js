@@ -117,6 +117,8 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
+        <Navigation />
+
         <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border ">
           <h2 className="sr-only" id="profile-overview-title">
             Profile Overview
@@ -198,8 +200,6 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
         {!data.links && (
           <Alert type="warning" message="You don't have a profile yet." />
         )}
-
-        <Navigation />
 
         {dailyViews.length > 0 && (
           <div className="border mb-6 dark:border-primary-medium">
