@@ -42,35 +42,53 @@ export async function getUserApi(req, res, username) {
   await getLocation(username, getProfile);
 
   const log = logger.child({ username });
-  getProfile = await Profile.findOne(
-    { username },
-    "-__v -views -source"
-  ).populate({
-    path: "links",
-    select: "-__v -clicks -profile -linkstats -updatedAt -createdAt -username",
-    options: { sort: { order: 1 } },
-  });
+  getProfile = await Profile.aggregate([
+    {
+      $match: { username },
+    },
+    {
+      $addFields: {
+        testimonials: {
+          $filter: {
+            input: "$testimonials",
+            as: "testimonial",
+            cond: {
+              $eq: ["$$testimonial.isPinned", true],
+            },
+          },
+        },
+      },
+    },
+    {
+      $lookup: {
+        from: "links",
+        localField: "links",
+        foreignField: "_id",
+        as: "links",
+      },
+    },
+    {
+      $project: {
+        __v: 0,
+        "links.__v": 0,
+        "links.clicks": 0,
+        "links.createdAt": 0,
+        "links.updatedAt": 0,
+        "testimonials.isPinned": 0,
+      },
+    },
+  ]);
 
+  getProfile = getProfile[0];
   getProfile = {
-    ...getProfile._doc,
-    links: getProfile._doc.links.filter((link) => link.isEnabled),
-    socials: getProfile._doc.links
+    ...getProfile,
+    links: getProfile.links.filter((link) => link.isEnabled),
+    socials: getProfile.links
       .filter((link) => link.isPinned)
       .map((link) => ({
         _id: link._id,
         url: link.url,
         icon: link.icon,
-      })),
-    testimonials: getProfile._doc.testimonials
-      .filter((testimonial) => testimonial.isPinned)
-      .map((testimonial) => ({
-        _id: testimonial._id,
-        isPinned: testimonial.isPinned,
-        username: testimonial.username,
-        title: testimonial.title,
-        description: testimonial.description,
-        date: testimonial.date,
-        order: testimonial.order,
       })),
   };
 
