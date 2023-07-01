@@ -8,6 +8,8 @@ on:
   pull_request:
     paths:
       - "**.js"
+    branches-ignore:    
+      - revert-logger
 
 jobs:
   deploy:
