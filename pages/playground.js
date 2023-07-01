@@ -6,9 +6,16 @@ import Modal from "@components/Modal";
 import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
+import { clientEnv } from "@config/schemas/clientSchema";
 
-export default function Playground() {
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+export async function getServerSideProps(){
+  return {
+    props: { BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+  };
+}
+
+export default function Playground({BASE_URL}) {
+
   const defaultJson = `{
     "name": "Your Name",
     "bio": "Write a short bio about yourself",
@@ -41,7 +48,6 @@ export default function Playground() {
       return true;
     } catch (err) {
       setErrMsg(err.toString());
-      setError(true);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
@@ -75,7 +81,8 @@ export default function Playground() {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
         let actualJson = { username: gitUsername, ...JSON.parse(profileJson) };
-        delete actualJson.testimonials;
+        actualJson.testimonials = actualJson.testimonials || [];
+        actualJson.socials = actualJson.socials || [];
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
@@ -85,6 +92,26 @@ export default function Playground() {
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
     }
+  };
+
+  const buttonProps = () => {
+    if (!formatComplete) {
+      return { children: "Format", onClick: handleFormatJson, primary: false };
+    }
+
+    if (formatComplete && !validateComplete) {
+      return {
+        children: "Validate",
+        onClick: handleValidateJson,
+        primary: false,
+      };
+    }
+
+    if (formatComplete && validateComplete) {
+      return { children: "Preview", onClick: handlePreview, primary: true };
+    }
+
+    return { children: "", disable: true };
   };
 
   return (
@@ -127,7 +154,7 @@ export default function Playground() {
           Your Profile Json
         </label>
         <textarea
-          className="h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+          className="h-80 dark:bg-primary-high dark:text-primary-low border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           id="profileJson"
           name="profileJson"
           value={profileJson}
@@ -140,19 +167,7 @@ export default function Playground() {
           }}
         />
         <div className="flex flex-row justify-end mb-3 gap-2">
-          {!formatComplete && (
-            <Button text="Format" onClick={handleFormatJson} primary={false} />
-          )}
-          {formatComplete && !validateComplete && (
-            <Button
-              text="Validate"
-              onClick={handleValidateJson}
-              primary={false}
-            />
-          )}
-          {formatComplete && validateComplete && (
-            <Button text="Preview" onClick={handlePreview} primary={true} />
-          )}
+          <Button {...buttonProps()} />
         </div>
 
         <Modal

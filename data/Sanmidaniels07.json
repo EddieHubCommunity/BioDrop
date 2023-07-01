@@ -1,0 +1,21 @@
+{
+  "name": "Daniel Omowole",
+  "bio": "Food Engineer turned **Software Engineer**. Travel enthusiast Football & Fashion",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/O_sanmidaniels",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/daniel-omowole-95a978186",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Sanmidaniels07",
+      "icon": "FaGithub"
+    }
+  ]
+}

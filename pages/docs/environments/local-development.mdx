@@ -1,9 +1,21 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
+import Alert from "@components/Alert.js";
 
 **You can setup LinkFree code base using [Local](#local-development) or with [Docker](#docker-compose) environment.**
 
-_Note: when you have your environment running the database will be empty. You need to visit the path `/api/system/reload?secret=development` to load the json files._
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      When you have your environment running the database will be empty. You need
+      to visit the path <strong>
+        /api/system/reload?secret=development
+      </strong> to load the json files
+    </>
+  }
+/>
 
 ## Local Development
 
@@ -17,9 +29,9 @@ So, let's get started!
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - <Link href="https://nodejs.org/en/download/">NodeJs</Link> (Works with Node LTS
-  version v16.17.0)
+  version v18.16.1)
 - <Link href="https://www.mongodb.com/home">MongoDB</Link>
-- Optional <Link href="https://github.com/nvm-sh/nvm">NVM</Link>: Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
+- Optional <Link href="https://github.com/nvm-sh/nvm">NVM</Link>: Switch Node version by using `nvm use` (on Windows, use `nvm use v18.16.1`). If this is not installed, run `nvm install v18.16.1`.
 
 ### Steps to implement local environment
 
@@ -70,7 +82,11 @@ docker compose down
 If you are getting an error, try to rebuild the images with `docker compose up --build`. If that doesn't work, stop the containers with `docker compose down` and remove the stopped linkfree container with `docker rm linkfree`. Then, remove the images with `docker rmi linkfree-app`. Lastly, rebuild the images with `docker compose up --build`.
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Local Development Documentation">
+  <DocsLayout
+    title="LinkFree Local Development Documentation"
+    section="Getting started"
+    name="Local Development"
+  >
     {children}
   </DocsLayout>
 );

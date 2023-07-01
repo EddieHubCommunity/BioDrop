@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { onlyText } from "react-children-utilities";
-import { FaRegClipboard, FaClipboardCheck } from "react-icons/fa";
+import ClipboardDocumentIcon from "@heroicons/react/24/outline/ClipboardDocumentIcon";
+import ClipboardDocumentCheckIcon from "@heroicons/react/24/outline/ClipboardDocumentCheckIcon";
 
 const ClipboardCopy = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
@@ -36,12 +37,12 @@ const ClipboardCopy = ({ children }) => {
         >
           {isCopied ? (
             <div className="inline-flex items-center text-green-500">
-              <FaClipboardCheck className="mr-2 text-green-500" />
+              <ClipboardDocumentCheckIcon className="h-4 w-4 mr-2 text-green-500" />
               <span className="text-green-500 text-sm">Copied!</span>
             </div>
           ) : (
             <div className="inline-flex items-center transition-all ease-out">
-              <FaRegClipboard className="mr-2 text-primary-low" />
+              <ClipboardDocumentIcon className="h-4 w-4 mr-2 text-primary-low" />
               <span className="text-primary-low text-sm">Copy</span>
             </div>
           )}

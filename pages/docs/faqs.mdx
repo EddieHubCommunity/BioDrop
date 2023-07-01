@@ -7,9 +7,7 @@ It is completely free to use LinkFree.
 
 ## Is it all Open Source?
 
-Yes, LinkFree is 100% Open Source. You can use our hosted version, or you can self host through <Link href="/docs/advanced/single-user-mode">Single User Mode</Link>.
-
-We recommend using the hosted version, so that your Profile is more discoverable and you don't have to do the upgrades and updates yourself.
+Yes, LinkFree is 100% open source. You can utilize our hosted version of LinkFree to enhance the discoverability of your profile.
 
 ## Does this count towards Hacktoberfest?
 
@@ -24,5 +22,7 @@ Once your Pull Request is merged it is deployed automatically. The deployment ca
 If your Profile is not visible after merging, please contact the maintainers in <Link href="http://discord.eddiehub.org">EddieHub Discord</Link> or in the <Link href="http://github.com/EddieHubCommunity/LinkFree/discussions">GitHub Discussions in the LinkFree</Link> repo.
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree FAQ documentation">{children}</DocsLayout>
+  <DocsLayout title="LinkFree FAQ documentation" section="Extra" name="FAQ">
+    {children}
+  </DocsLayout>
 );

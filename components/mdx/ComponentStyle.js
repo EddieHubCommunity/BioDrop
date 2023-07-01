@@ -12,4 +12,3 @@ export const ComponentStyle = {
   blockquote: BlockQuote,
   h2: H2
 };
-
