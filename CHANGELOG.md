@@ -1,40 +1,35 @@
-# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
-
-
-### Features
-
-* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
-
-
-
-## [1.142.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.5...v1.142.6) (2023-06-16)
+## [1.147.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.9...v1.147.10) (2023-07-01)
 
 
 ### Bug Fixes
 
-* social og description ([#7615](https://github.com/EddieHubCommunity/LinkFree/issues/7615)) ([ec13130](https://github.com/EddieHubCommunity/LinkFree/commit/ec131305fda66ee6b02c789239e7e18c2cf27ccb))
+* revert logger ([#7894](https://github.com/EddieHubCommunity/LinkFree/issues/7894)) ([9a40f1e](https://github.com/EddieHubCommunity/LinkFree/commit/9a40f1ec381aef0c088eeb8eadd54ea1967f96a9)), closes [#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)
 
 
 
-## [1.142.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.4...v1.142.5) (2023-06-16)
-
-
-### Bug Fixes
-
-* profile share preview ([#7613](https://github.com/EddieHubCommunity/LinkFree/issues/7613)) ([08ba50c](https://github.com/EddieHubCommunity/LinkFree/commit/08ba50c8d8709e870484890e4a37da944ebf969c)), closes [#7609](https://github.com/EddieHubCommunity/LinkFree/issues/7609)
-
-
-
-## [1.142.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.3...v1.142.4) (2023-06-15)
+## [1.147.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.8...v1.147.9) (2023-07-01)
 
 
 ### Bug Fixes
 
-* update LinkFree-CLI version ([#7606](https://github.com/EddieHubCommunity/LinkFree/issues/7606)) ([588e62e](https://github.com/EddieHubCommunity/LinkFree/commit/588e62e55342bb5f20fbd6d22e6a3a744a711b0c))
+* logging improvement ([#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)) ([0a214b4](https://github.com/EddieHubCommunity/LinkFree/commit/0a214b47971e2d6964d5ae43c1e659423c387bf9))
 
 
 
-## [1.142.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.2...v1.142.3) (2023-06-14)
+## [1.147.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.7...v1.147.8) (2023-07-01)
+
+
+
+## [1.147.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.6...v1.147.7) (2023-07-01)
+
+
+
+## [1.147.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.5...v1.147.6) (2023-06-30)
+
+
+### Bug Fixes
+
+* dark mode for no profile ([#7886](https://github.com/EddieHubCommunity/LinkFree/issues/7886)) ([6f9ce9a](https://github.com/EddieHubCommunity/LinkFree/commit/6f9ce9a5b66901bbaed107a69b36d50dbbf28a12))
 
 
 

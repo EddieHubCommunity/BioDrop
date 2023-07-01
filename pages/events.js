@@ -11,7 +11,7 @@ import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let events = await getEvents();
 
   return {
@@ -86,7 +86,7 @@ export default function Events({ events }) {
         <div className="flex flex-row items-center">
           <Badge
             content="?"
-            path="/docs/how-to-guides/events"
+            path="/docs/how-to-guides/events-forms"
             title="Go To Event Docs"
             badgeClassName={"translate-x-2/4 -translate-y-1/2"}
           >

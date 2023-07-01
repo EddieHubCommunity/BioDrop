@@ -14,6 +14,7 @@ Environment variables are needed in the `.env` file to allow the application to 
 | GITHUB_ID                        | abcedfghil12345                    | true     | GitHub OAuth ID                                     |
 | GITHUB_SECRET                    | a1b2c3e4f5e6                       | true     | GitHub OAuth Secret                                 |
 | NEXTAUTH_SECRET                  | afsfdsafadsf                       | true     | Next Auth Secret, this can be any random characters |
+| GITHUB_API_TOKEN                 | djsbjsjacdnk                       | false     | Github Personal Access Token                        |
 
 <ClipboardCopy>
 ```js
@@ -25,6 +26,7 @@ GITHUB_ID=""
 GITHUB_SECRET=""
 NEXTAUTH_SECRET=""
 NEXTAUTH_URL="http://localhost:3000"
+GITHUB_API_TOKEN=""
 ```
 </ClipboardCopy>
 
@@ -44,6 +46,14 @@ NEXTAUTH_URL="http://localhost:3000"
 Then use the generated **Client ID** and **Client Secret** in the `.env`.
 
 Full details on GitHub docs https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
+
+### GitHub Personal Access Token
+
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `Personal Access Token` and generate a PAT
+
+Full details on Github docs https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 export default ({ children }) => (
   <DocsLayout
