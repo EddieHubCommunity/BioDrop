@@ -1,3 +1,12 @@
+## [1.147.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.9...v1.147.10) (2023-07-01)
+
+
+### Bug Fixes
+
+* revert logger ([#7894](https://github.com/EddieHubCommunity/LinkFree/issues/7894)) ([9a40f1e](https://github.com/EddieHubCommunity/LinkFree/commit/9a40f1ec381aef0c088eeb8eadd54ea1967f96a9)), closes [#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)
+
+
+
 ## [1.147.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.8...v1.147.9) (2023-07-01)
 
 
@@ -21,15 +30,6 @@
 ### Bug Fixes
 
 * dark mode for no profile ([#7886](https://github.com/EddieHubCommunity/LinkFree/issues/7886)) ([6f9ce9a](https://github.com/EddieHubCommunity/LinkFree/commit/6f9ce9a5b66901bbaed107a69b36d50dbbf28a12))
-
-
-
-## [1.147.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.4...v1.147.5) (2023-06-30)
-
-
-### Bug Fixes
-
-* profile auto label ([#7882](https://github.com/EddieHubCommunity/LinkFree/issues/7882)) ([57532ee](https://github.com/EddieHubCommunity/LinkFree/commit/57532ee9404d1b292bb99bfe6a31805c626700e5))
 
 
 
