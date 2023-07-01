@@ -50,7 +50,7 @@ export default function NoProfile({ BASE_URL }) {
                   Go to Forms
                 </Link>
                 <Link
-                  href="https://linkfree.eddiehub.io/docs/quickstart"
+                  href="https://linkfree.eddiehub.io/docs/quickstart-forms"
                   className="text-base font-semibold leading-7 text-primary-high dark:text-primary-low"
                 >
                   QuickStart Guide <span aria-hidden="true">→</span>
