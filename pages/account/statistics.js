@@ -11,10 +11,8 @@ import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
-import Button from "@components/Button";
-import FallbackImage from "@components/FallbackImage";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Navigation from "@components/account/manage/navigation";
+import UserMini from "@components/user/UserMini";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -117,68 +115,16 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
-        <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border ">
-          <h2 className="sr-only" id="profile-overview-title">
-            Profile Overview
-          </h2>
-          <div className="bg-white dark:bg-primary-high p-6">
-            <div className="sm:flex sm:items-center sm:justify-between">
-              <div className="sm:flex sm:space-x-5">
-                <div className="flex-shrink-0">
-                  <FallbackImage
-                    src={`https://github.com/${profile.username}.png`}
-                    width="100"
-                    height="100"
-                    className="mx-auto h-20 w-20 rounded-full"
-                    alt={`Profile picture for GitHub user "${profile.username}"`}
-                  />
-                </div>
-                <div className="mt-4 text-center sm:mt-0 sm:pt-1 sm:text-left">
-                  <p className="text-sm font-medium text-primary-medium dark:text-primary-low-medium">
-                    Welcome back,
-                  </p>
-                  <p className="text-xl font-bold text-primary-high dark:text-primary-low sm:text-2xl">
-                    {profile.name}
-                  </p>
-                  <ReactMarkdown className="text-sm font-medium text-primary-medium dark:text-primary-low-medium   ">
-                    {profile.bio}
-                  </ReactMarkdown>
-                </div>
-              </div>
-              <div className="mt-5 flex justify-center sm:mt-0">
-                <Button href={`${BASE_URL}/${profile.username}`} primary={true}>
-                  VIEW PROFILE
-                </Button>
-              </div>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-3 sm:divide-x sm:divide-y-0">
-            <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-primary-high dark:text-primary-low">
-                {abbreviateNumber(data.profile.monthly)}
-              </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">
-                Profile views last 30 days
-              </span>
-            </div>
-            <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-primary-high dark:text-primary-low">
-                {abbreviateNumber(data.profile.total)}
-              </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">
-                Total Profile views
-              </span>
-            </div>
-            <div className="px-6 py-5 text-center text-sm font-medium">
-              <span className="text-primary-high dark:text-primary-low">
-                {abbreviateNumber(data.links.clicks)}
-              </span>{" "}
-              <span className="text-primary-medium dark:text-primary-low-medium">
-                Total link clicks
-              </span>
-            </div>
-          </div>
-        </div>
+        <UserMini
+          BASE_URL={BASE_URL}
+          username={profile.username}
+          name={profile.name}
+          bio={profile.bio}
+          monthly={data.profile.monthly}
+          total={data.profile.total}
+          clicks={data.links.clicks}
+        />
+
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
