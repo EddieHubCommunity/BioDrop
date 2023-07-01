@@ -92,37 +92,41 @@ export async function getUserApi(req, res, username) {
       })),
   };
 
-  let dateEvents = [];
-  const today = new Date();
-  for (const event of getProfile.events) {
-    let cleanEvent = JSON.parse(JSON.stringify(event));
-    const dateTimeStyle = {
-      dateStyle: "full",
-      timeStyle: "long",
-    };
-    try {
-      const start = new Date(event.date.start);
-      const end = new Date(event.date.end);
-      cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-        "en-GB",
-        dateTimeStyle
-      ).format(start);
-      cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-        "en-GB",
-        dateTimeStyle
-      ).format(end);
+  if (getProfile.events) {
+    let dateEvents = [];
+    const today = new Date();
+    getProfile.events.map((event) => {
+      let cleanEvent = JSON.parse(JSON.stringify(event));
+      const dateTimeStyle = {
+        dateStyle: "full",
+        timeStyle: "long",
+      };
+      try {
+        const start = new Date(event.date.start);
+        const end = new Date(event.date.end);
+        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
+          "en-GB",
+          dateTimeStyle
+        ).format(start);
+        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
+          "en-GB",
+          dateTimeStyle
+        ).format(end);
 
-      cleanEvent.date.cfpOpen =
-        event.date.cfpClose && new Date(event.date.cfpClose) > today;
-      cleanEvent.date.future = start > today;
-      cleanEvent.date.ongoing = start < today && end > today;
-      dateEvents.push(cleanEvent);
-    } catch (e) {
-      logger.error(e, `ERROR event date for: "${event.name}"`);
-    }
+        cleanEvent.date.cfpOpen =
+          event.date.cfpClose && new Date(event.date.cfpClose) > today;
+        cleanEvent.date.future = start > today;
+        cleanEvent.date.ongoing = start < today && end > today;
+        dateEvents.push(cleanEvent);
+      } catch (e) {
+        logger.error(e, `ERROR event date for: "${event.name}"`);
+      }
+    });
+
+    getProfile.events = dateEvents;
+  } else {
+    getProfile.events = [];
   }
-
-  getProfile.events = dateEvents;
 
   let updates = [];
   const date = new Date();
