@@ -1,3 +1,17 @@
+# [1.148.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.10...v1.148.0) (2023-07-01)
+
+
+### Bug Fixes
+
+* docs links ([#7902](https://github.com/EddieHubCommunity/LinkFree/issues/7902)) ([1b9a529](https://github.com/EddieHubCommunity/LinkFree/commit/1b9a529f0117d92682c5c2a3780c42ff815d9154))
+
+
+### Features
+
+* random profile ([#7900](https://github.com/EddieHubCommunity/LinkFree/issues/7900)) ([f2aed8d](https://github.com/EddieHubCommunity/LinkFree/commit/f2aed8dccba992e3bb889149854ded52b0283bb5)), closes [#7617](https://github.com/EddieHubCommunity/LinkFree/issues/7617) [#7558](https://github.com/EddieHubCommunity/LinkFree/issues/7558)
+
+
+
 ## [1.147.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.9...v1.147.10) (2023-07-01)
 
 
@@ -21,15 +35,6 @@
 
 
 ## [1.147.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.6...v1.147.7) (2023-07-01)
-
-
-
-## [1.147.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.5...v1.147.6) (2023-06-30)
-
-
-### Bug Fixes
-
-* dark mode for no profile ([#7886](https://github.com/EddieHubCommunity/LinkFree/issues/7886)) ([6f9ce9a](https://github.com/EddieHubCommunity/LinkFree/commit/6f9ce9a5b66901bbaed107a69b36d50dbbf28a12))
 
 
 
