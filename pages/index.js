@@ -24,6 +24,9 @@ import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import config from "@config/app.json";
 import Newsletter from "@components/Newsletter";
+import UserProfile from "@components/user/UserProfile";
+import { clientEnv } from "@config/schemas/clientSchema";
+
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
@@ -31,15 +34,32 @@ export async function getStaticProps() {
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
 
+  // Fetch random Profiles
+  const response = await fetch(`${clientEnv.NEXT_PUBLIC_BASE_URL}/api/discover/random`);
+
+  const randomProfile = await response.json();
+
   return {
-    props: { total: totalStats, today: todayStats },
+    props: {
+      total: totalStats,
+      today: todayStats,
+      randomProfile,
+    },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Home({ total, today }) {
+export default function Home({ total, today, randomProfile }) {
   const router = useRouter();
   const newsletter = router.query.newsletter;
+
+  if (!randomProfile) {
+    return (
+      <div className="text-3xl text-primary-low text-center">
+        No profile data Found!
+      </div>
+    );
+  }
 
   const features = [
     {
@@ -230,6 +250,11 @@ export default function Home({ total, today }) {
             100% Open Source
           </span>
         </h2>
+        {randomProfile && (
+          <div className="mt-10 md:mt-20">
+            <UserProfile data={randomProfile} />
+          </div>
+        )}
         <BasicCards
           data={[
             {
@@ -298,7 +323,7 @@ export default function Home({ total, today }) {
                 primary={true}
               >Get started</Button>
             </div>
-            <div className="ml-3 inline-flex rounded-md shadow ">
+            <div className="ml-3 inline-flex rounded-md shadow">
               <Button href="/eddiejaoude">Example</Button>
             </div>
           </div>
@@ -387,7 +412,7 @@ export default function Home({ total, today }) {
                         <div>
                           <span className="inline-flex items-center justify-center rounded-xl bg-secondary-high p-3 shadow-lg">
                             <feature.icon
-                              className="h-8 w-8 text-white "
+                              className="h-8 w-8 text-white"
                               aria-hidden="true"
                             />
                           </span>

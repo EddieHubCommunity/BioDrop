@@ -13,6 +13,7 @@ import Badge from "@components/Badge";
 import Button from "@components/Button";
 
 function UserProfile({ BASE_URL, data }) {
+
   const [qrShow, setQrShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
@@ -32,7 +33,7 @@ function UserProfile({ BASE_URL, data }) {
       {children}
     </Link>
   );
-
+  
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -56,7 +57,7 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-col self-center gap-3">
           <h1 className="text-3xl font-bold">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
-            {data.socials.map((social) => (
+            {data.socials?.map((social) => (
               <UserSocial
                 social={social}
                 key={social._id}

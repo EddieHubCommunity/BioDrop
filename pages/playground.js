@@ -8,8 +8,14 @@ import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 
-export default function Playground() {
-  const BASE_URL = clientEnv.NEXT_PUBLIC_BASE_URL;
+export async function getServerSideProps(){
+  return {
+    props: { BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+  };
+}
+
+export default function Playground({BASE_URL}) {
+
   const defaultJson = `{
     "name": "Your Name",
     "bio": "Write a short bio about yourself",
@@ -42,7 +48,6 @@ export default function Playground() {
       return true;
     } catch (err) {
       setErrMsg(err.toString());
-      setError(true);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);

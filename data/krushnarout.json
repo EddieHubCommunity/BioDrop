@@ -1,0 +1,57 @@
+{
+  "name": "Krushna Kanta Rout",
+  "bio": "Passionate full-stack developer 🚀 | HTML, CSS, JavaScript | Open source enthusiast 💻 | Self-taught",
+  "tags": ["Full-stack developer", "Javascript", "HTML", "CSS", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Krushna_rout90"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/krushnarout"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/krushnakantarout/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow My Coding Journey",
+      "url": "https://twitter.com/Krushna_rout90",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/krushnakantarout/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on Github",
+      "url": "https://github.com/krushnarout",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "Codewars",
+      "icon": "SiCodewars",
+      "url": "https://www.codewars.com/users/krushnarout"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "Leetcode",
+      "icon": "SiLeetcode",
+      "url": "https://leetcode.com/krushnarout90/"
+    },
+    {
+      "group": "Coding Challenges",
+      "name": "Hackerrank",
+      "icon": "SiHackerrank",
+      "url": "https://www.hackerrank.com/krushnakantarou2?hr_r=1"
+    }
+  ]
+}
