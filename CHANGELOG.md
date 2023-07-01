@@ -1,3 +1,12 @@
+# [1.149.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.148.0...v1.149.0) (2023-07-01)
+
+
+### Features
+
+* testimonial ordering ([#7884](https://github.com/EddieHubCommunity/LinkFree/issues/7884)) ([d65ba48](https://github.com/EddieHubCommunity/LinkFree/commit/d65ba48937b542927cb9b46ea6a75a4244168c3e))
+
+
+
 # [1.148.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.10...v1.148.0) (2023-07-01)
 
 
@@ -31,10 +40,6 @@
 
 
 ## [1.147.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.7...v1.147.8) (2023-07-01)
-
-
-
-## [1.147.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.6...v1.147.7) (2023-07-01)
 
 
 
