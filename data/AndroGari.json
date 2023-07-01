@@ -1,0 +1,58 @@
+{
+  "name": "Garima Saroj",
+  "tag": "SIH'22 Winner | Ex Jr. ML Engineer @JupiterAILabs | CSE(AI&ML) '24"
+  "bio": "A highly motivated, adaptable, and enthusiastic CSE disciple with a strong background in AI/ML, seeking a dynamic and innovative organization to apply my knowledge. I'm experienced in NLP, deep learning, and MLOps, and am eager to work on state-of-the-art projects.",
+  "tags": ["Machine Learning", "Open Source", "DevOps", "DSA"],
+  "links": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Andro_Gari"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AndroGari"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/garimasaroj/"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my Journey in Computer Science",
+      "description": "I enrolled to 4 year Undergraduate degree in Computer Engineering.",
+      "date": "December 2020",
+      "icon": "FaLaptop",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started Coding",
+      "description": "I began learning to code and solve Dsa questions on Leetcode and GeeksforGeeks",
+      "date": "February 2021",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "The Beginning to Open Source",
+      "description": "I began my Open Source journey on GitHub.",
+      "date": "August 2021",
+      "icon": "FaGithub",
+      "color": "#1e3530"
+    },
+    {
+      "title": "First Hactoberfest",
+      "description": "I contributed to my first Hactoberfest",
+      "date": "October 2021",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started Engaging on socials",
+      "description": "I started engaging with folks on twitter and linkedin",
+      "date": "October 2022",
+      "icon": "SiTwitter",
+      "color": "#1e3530",
+      "url": "https://twitter.com/Andro_Gari"
+    }
+  ]
+}
