@@ -3,19 +3,19 @@ import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
 import DropdownMenu from "@components/form/DropDown";
 
-export default function UserEvents({ data }) {
+export default function UserEvents({ manage = false, events }) {
   const [eventType, setEventType] = useState("all");
 
   const eventOptions = [
-    { value: 'all' , name: 'All Events'},
-    { value: 'future' , name: 'Future Events'},
-    { value: 'ongoing', name: 'Ongoing Events'},
-    { value: 'virtual', name: 'Virtual Events'},
-    { value: 'inPerson', name: 'In-Person Events'},
-    { value: 'cfpOpen', name:'Events with open CFP'},
-    { value: 'free', name: 'Free Events'},
-    { value: 'paid', name: 'Paid Events'},
-    { value: 'past', name: 'Past Events'}
+    { value: "all", name: "All Events" },
+    { value: "future", name: "Future Events" },
+    { value: "ongoing", name: "Ongoing Events" },
+    { value: "virtual", name: "Virtual Events" },
+    { value: "inPerson", name: "In-Person Events" },
+    { value: "cfpOpen", name: "Events with open CFP" },
+    { value: "free", name: "Free Events" },
+    { value: "paid", name: "Paid Events" },
+    { value: "past", name: "Past Events" },
   ];
 
   const handleEventTypeChange = (event) => {
@@ -46,9 +46,9 @@ export default function UserEvents({ data }) {
   };
   const getFilteredEvents = () => {
     if (eventType === "all") {
-      return data.events;
+      return events;
     }
-    return data.events.filter((event) => filterByEventType(event, eventType));
+    return events.filter((event) => filterByEventType(event, eventType));
   };
 
   const eventsToShow = getFilteredEvents();
@@ -57,26 +57,28 @@ export default function UserEvents({ data }) {
     if (option.value === "all") {
       return true;
     }
-    const events = data.events.filter((event) =>
+    const filterEvents = events.filter((event) =>
       filterByEventType(event, option.value)
     );
-    return events.length > 0;
+    return filterEvents.length > 0;
   });
 
   return (
     <div className="m-6">
-      <DropdownMenu
-        eventType={eventType}
-        handleEventTypeChange={handleEventTypeChange} 
-        options={filteredEventOptions} 
-        label="Select Event Type:"
-        className="inline text-center text-sm font-medium leading-6 text-gray-900 sm:pt-1.5" 
-      />
+      {!manage && (
+        <DropdownMenu
+          eventType={eventType}
+          handleEventTypeChange={handleEventTypeChange}
+          options={filteredEventOptions}
+          label="Select Event Type:"
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+        />
+      )}
 
       {eventsToShow.length > 0 ? (
         <ul role="list" className="divide-y divide-primary-low mt-4">
           {eventsToShow.map((event, index) => (
-            <EventCard event={event} key={index} />
+            <EventCard event={event} key={index} manage={manage} />
           ))}
         </ul>
       ) : (

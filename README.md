@@ -36,7 +36,9 @@ Brief documentation is below, but full documentation can be found here https://l
 
 This is great if you only want to add your Profile or make changes to it.
 
-Here is the **QuickStart** guide to add your profile - https://linkfree.io/docs/quickstart
+Here is the **QuickStart** guide to add your profile
+- With JSON https://linkfree.io/docs/quickstart-json
+- With Forms https://linkfree.io/docs/quickstart-forms
 
 > **Note**: give extra attention to JSON formatting and the GitHub Action after you create the Pull Request
 
@@ -58,9 +60,9 @@ This environment is fully on your computer and requires each dependency (for exa
 
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
-- [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v16.17.0)
+- [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v18.16.1)
 - [MongoDB](https://www.mongodb.com/home)
-- Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v16.17.0`). If this is not installed, run `nvm install v16.17.0`.
+- Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v18.16.1`). If this is not installed, run `nvm install v18.16.1`.
 
 #### Commands
 
@@ -90,7 +92,9 @@ Read more in the official documentation - https://linkfree.io/docs/environments/
 
 ### How to add YOUR Profile
 
-Step by step quickstart guide can be found in the full docs here - https://linkfree.io/docs/quickstart
+Step by step quickstart guide can be found in the full docs here
+- With JSON https://linkfree.io/docs/quickstart-json
+- With Forms https://linkfree.io/docs/quickstart-forms
 
 <!-- Testimonials STARTs Here -->
 

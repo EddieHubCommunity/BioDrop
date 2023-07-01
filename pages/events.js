@@ -86,7 +86,7 @@ export default function Events({ events }) {
         <div className="flex flex-row items-center">
           <Badge
             content="?"
-            path="/docs/how-to-guides/events"
+            path="/docs/how-to-guides/events-forms"
             title="Go To Event Docs"
             badgeClassName={"translate-x-2/4 -translate-y-1/2"}
           >
