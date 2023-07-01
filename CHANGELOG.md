@@ -1,3 +1,7 @@
+## [1.147.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.6...v1.147.7) (2023-07-01)
+
+
+
 ## [1.147.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.5...v1.147.6) (2023-06-30)
 
 
@@ -31,15 +35,6 @@
 ### Bug Fixes
 
 * dark mode for confirm dialog ([#7867](https://github.com/EddieHubCommunity/LinkFree/issues/7867)) ([8b5036b](https://github.com/EddieHubCommunity/LinkFree/commit/8b5036b58c93d518f6db2b21f2b0e390dd24acc8))
-
-
-
-## [1.147.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.1...v1.147.2) (2023-06-30)
-
-
-### Bug Fixes
-
-* events help link ([#7866](https://github.com/EddieHubCommunity/LinkFree/issues/7866)) ([85ce35a](https://github.com/EddieHubCommunity/LinkFree/commit/85ce35aaaa6b52dcbbbe7bb6b7e8346cb5fea4ee))
 
 
 
