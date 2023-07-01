@@ -1,3 +1,12 @@
+## [1.149.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.1...v1.149.2) (2023-07-01)
+
+
+### Bug Fixes
+
+* profiles with no events ([#7906](https://github.com/EddieHubCommunity/LinkFree/issues/7906)) ([4a289b8](https://github.com/EddieHubCommunity/LinkFree/commit/4a289b8cf8b58af8aecf8ff76af6d24e68da4b03))
+
+
+
 ## [1.149.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.0...v1.149.1) (2023-07-01)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * revert logger ([#7894](https://github.com/EddieHubCommunity/LinkFree/issues/7894)) ([9a40f1e](https://github.com/EddieHubCommunity/LinkFree/commit/9a40f1ec381aef0c088eeb8eadd54ea1967f96a9)), closes [#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)
-
-
-
-## [1.147.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.8...v1.147.9) (2023-07-01)
-
-
-### Bug Fixes
-
-* logging improvement ([#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)) ([0a214b4](https://github.com/EddieHubCommunity/LinkFree/commit/0a214b47971e2d6964d5ae43c1e659423c387bf9))
 
 
 
