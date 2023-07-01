@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router'
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -92,7 +92,9 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       <div className="flex justify-center mb-4">
         {qrShow && (
-          <Button primary={true} onClick={downloadQR}>Download QR code</Button>
+          <Button primary={true} onClick={downloadQR}>
+            Download QR code
+          </Button>
         )}
       </div>
     </>
