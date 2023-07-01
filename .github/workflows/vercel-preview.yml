@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - fix-issue-7838
+      - revert-logger
 
 jobs:
   deploy:
