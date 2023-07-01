@@ -1,3 +1,7 @@
+## [1.147.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.7...v1.147.8) (2023-07-01)
+
+
+
 ## [1.147.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.6...v1.147.7) (2023-07-01)
 
 
@@ -26,15 +30,6 @@
 ### Bug Fixes
 
 * inspiration section in quickstart json ([#7873](https://github.com/EddieHubCommunity/LinkFree/issues/7873)) ([abbd0f4](https://github.com/EddieHubCommunity/LinkFree/commit/abbd0f4a1b824798d3aee8507a994add0a288623))
-
-
-
-## [1.147.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.2...v1.147.3) (2023-06-30)
-
-
-### Bug Fixes
-
-* dark mode for confirm dialog ([#7867](https://github.com/EddieHubCommunity/LinkFree/issues/7867)) ([8b5036b](https://github.com/EddieHubCommunity/LinkFree/commit/8b5036b58c93d518f6db2b21f2b0e390dd24acc8))
 
 
 
