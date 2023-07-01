@@ -5,10 +5,10 @@ const development = {
   transport: {
     target: "pino-pretty",
     options: {
-      level:'debug',
+      level: "debug",
       colorize: true,
-      translateTime:"SYS:dd-mm-yyyy HH:MM:ss",
-      ignore:"pid,hostname"   //Ignores process id and hostname
+      translateTime: "SYS:dd-mm-yyyy HH:MM:ss",
+      ignore: "pid,hostname", //Ignores process id and hostname
     },
   },
 };
