@@ -106,7 +106,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         </div>
 
         <div>
-          <div className="flex">
+          <div className="flex gap-4">
             {!reorder && (
               <Button onClick={() => setReorder(true)}>
                 <ArrowPathIcon className="h-5 w-5 m-2" />
@@ -134,7 +134,9 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               list={testimonialList}
               setList={setTestimonialList}
               disabled={!reorder}
-              ghostClass="bg-secondary-low"
+              ghostClass="border-2"
+              chosenClass="border-dashed"
+              dragClass="border-red-500"
             >
               {testimonialList.map((testimonial) => (
                 <li
