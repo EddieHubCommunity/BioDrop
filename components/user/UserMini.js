@@ -9,6 +9,7 @@ export default function UserMini({
   username,
   name,
   bio,
+  text,
   monthly,
   total,
   clicks,
@@ -32,9 +33,11 @@ export default function UserMini({
               />
             </div>
             <div className="mt-4 text-center sm:mt-0 sm:pt-1 sm:text-left">
-              <p className="text-sm font-medium text-primary-medium dark:text-primary-low-medium">
-                Welcome back,
-              </p>
+              {text && (
+                <p className="text-sm font-medium text-primary-medium dark:text-primary-low-medium">
+                  {text}
+                </p>
+              )}
               <p className="text-xl font-bold text-primary-high dark:text-primary-low sm:text-2xl">
                 {name}
               </p>

@@ -296,6 +296,7 @@ export default function Home({ total, today, randomProfile, BASE_URL }) {
       {randomProfile.username && (
         <UserMini
           BASE_URL={BASE_URL}
+          text="Follow..."
           username={randomProfile.username}
           name={randomProfile.name}
           bio={randomProfile.bio}
