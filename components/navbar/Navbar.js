@@ -92,8 +92,8 @@ export default function Navbar() {
       url: "/docs",
     },
     {
-      name: "Playground",
-      url: "/playground",
+      name: "Standup",
+      url: "/standup",
     },
   ];
 

@@ -56,6 +56,10 @@ const ProfileSchema = new Schema(
       type: Number,
       default: 0,
     },
+    standups: {
+      type: Number,
+      default: 0,
+    },
     links: {
       default: [],
       type: [{ type: Schema.Types.ObjectId, ref: "Link" }],

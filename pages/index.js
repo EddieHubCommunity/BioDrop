@@ -298,8 +298,8 @@ export default function Home({ total, today, randomProfile, BASE_URL }) {
           BASE_URL={BASE_URL}
           text="Follow..."
           username={randomProfile.username}
-          name={randomProfile.name}
-          bio={randomProfile.bio}
+          heading={randomProfile.name}
+          description={randomProfile.bio}
         />
       )}
 

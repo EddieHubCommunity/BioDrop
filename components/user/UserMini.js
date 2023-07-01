@@ -3,12 +3,13 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Button from "@components/Button";
 import FallbackImage from "@components/FallbackImage";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
+import { LinkRenderer } from "@services/utils/markdown";
 
 export default function UserMini({
   BASE_URL,
   username,
-  name,
-  bio,
+  heading,
+  description,
   text,
   monthly,
   total,
@@ -39,10 +40,13 @@ export default function UserMini({
                 </p>
               )}
               <p className="text-xl font-bold text-primary-high dark:text-primary-low sm:text-2xl">
-                {name}
+                {heading}
               </p>
-              <ReactMarkdown className="text-sm font-medium text-primary-medium dark:text-primary-low-medium   ">
-                {bio}
+              <ReactMarkdown
+                components={{ a: LinkRenderer }}
+                className="text-sm font-medium text-primary-medium dark:text-primary-low-medium"
+              >
+                {description}
               </ReactMarkdown>
             </div>
           </div>

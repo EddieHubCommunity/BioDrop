@@ -3,14 +3,14 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
 import Tag from "@components/Tag";
-import Link from "@components/Link";
 import Badge from "@components/Badge";
 import Button from "@components/Button";
+import { LinkRenderer } from "@services/utils/markdown";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -25,13 +25,6 @@ function UserProfile({ BASE_URL, data }) {
     qrRef.current.firstChild.toBlob((blob) =>
       saveAs(blob, `linkfree-${data.username}.png`)
     );
-
-  // Custom component for rendering links within ReactMarkdown
-  const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>
-      {children}
-    </Link>
-  );
 
   return (
     <>
@@ -68,13 +61,21 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown components={{ a: LinkRenderer }}>{data.bio}</ReactMarkdown>
+        <ReactMarkdown components={{ a: LinkRenderer }}>
+          {data.bio}
+        </ReactMarkdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
           {data.tags &&
             data.tags.map((tag) => (
-              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
+              <Tag
+                name={tag}
+                key={tag.toLowerCase()}
+                onClick={() =>
+                  router.push(`/search?keyword=${tag.toLowerCase()}`)
+                }
+              />
             ))}
         </div>
       )}
