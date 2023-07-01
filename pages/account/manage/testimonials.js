@@ -134,6 +134,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               list={testimonialList}
               setList={setTestimonialList}
               disabled={!reorder}
+              ghostClass="bg-secondary-low"
             >
               {testimonialList.map((testimonial) => (
                 <li
