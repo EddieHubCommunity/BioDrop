@@ -28,6 +28,7 @@ jobs:
           ls -l .vercel/output/functions
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
           vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }}
+          echo "Deployed to $(cat domain.txt)"
   load-data:
     runs-on: ubuntu-latest
     needs: deploy
