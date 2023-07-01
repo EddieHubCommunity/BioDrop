@@ -24,6 +24,8 @@ const production = {
 
 let logger;
 
-logger = PinoLogger.pino(serverEnv.NODE_ENV === "development" ? development : production);
+logger = PinoLogger.pino(
+  serverEnv.NODE_ENV === "development" ? development : production
+);
 
 export default logger;
