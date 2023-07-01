@@ -1,3 +1,12 @@
+## [1.149.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.0...v1.149.1) (2023-07-01)
+
+
+### Bug Fixes
+
+* random profile text ([#7905](https://github.com/EddieHubCommunity/LinkFree/issues/7905)) ([dd9b971](https://github.com/EddieHubCommunity/LinkFree/commit/dd9b9716788c301d6eaff4629b31aa8edf73d51e))
+
+
+
 # [1.149.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.148.0...v1.149.0) (2023-07-01)
 
 
@@ -36,10 +45,6 @@
 ### Bug Fixes
 
 * logging improvement ([#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)) ([0a214b4](https://github.com/EddieHubCommunity/LinkFree/commit/0a214b47971e2d6964d5ae43c1e659423c387bf9))
-
-
-
-## [1.147.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.7...v1.147.8) (2023-07-01)
 
 
 
