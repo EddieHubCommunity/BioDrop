@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - revert-logger
+      - standup
 
 jobs:
   deploy:
