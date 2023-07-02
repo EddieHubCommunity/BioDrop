@@ -3,15 +3,16 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { BsChevronDoubleLeft, BsChevronDoubleRight } from "react-icons/bs";
 
 const Pagination = ({
-  totalUsers,
+  data,
   currentPage,
   paginate,
-  usersPerPage,
+  perPage,
   startIndex,
   endIndex,
 }) => {
   const [screenWidth, setScreenWidth] = useState();
-  const totalPages = Math.ceil(totalUsers / usersPerPage);
+  const totalResults = data.length;
+  const totalPages = Math.ceil(totalResults / perPage);
 
   useEffect(() => {
     setScreenWidth(window.innerWidth);
@@ -137,8 +138,8 @@ const Pagination = ({
         )}
       </ul>
       <p className="text-gray-500 text-center mt-3">{`${startIndex + 1}-${
-        currentPage === totalPages ? totalUsers : endIndex
-      } of ${totalUsers} results`}</p>
+        currentPage === totalPages ? totalResults : endIndex
+      } of ${totalResults} results`}</p>
     </div>
   );
 };

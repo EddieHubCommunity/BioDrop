@@ -39,12 +39,12 @@ export async function getStaticProps() {
   }
 
   return {
-    props: { data },
+    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Search({ data: { tags, randUsers } }) {
+export default function Search({ data: { tags, randUsers }, BASE_URL }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
@@ -76,7 +76,9 @@ export default function Search({ data: { tags, randUsers } }) {
 
     async function fetchUsers(value) {
       try {
-        const res = await fetch(`api/search/${value.replaceAll(",", "/")}`);
+        const res = await fetch(
+          `${BASE_URL}/api/search/${value.replaceAll(",", "/")}`
+        );
         if (!res.ok && res.status === 404)
           throw new Error(`${inputValue} not found`);
         const data = await res.json();
@@ -207,8 +209,8 @@ export default function Search({ data: { tags, randUsers } }) {
         {users.length > usersPerPage && (
           <Pagination
             currentPage={currentPage}
-            totalUsers={users.length}
-            usersPerPage={usersPerPage}
+            data={users}
+            perPage={usersPerPage}
             paginate={paginate}
             startIndex={indexOfFirstUser}
             endIndex={indexOfLastUser}
