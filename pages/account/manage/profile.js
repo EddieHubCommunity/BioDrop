@@ -108,14 +108,15 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       />
 
       <Page>
+
+        <Navigation />
+        
         {fileExists && (
           <Alert
             type="warning"
             message={`"data/${profile.username}.json" exists, please remove this file and your folder via a Pull Request as it will no longer be needed because you are managing your account via these forms.`}
           />
         )}
-
-        <Navigation />
 
         <Notification
           show={showNotification.show}
