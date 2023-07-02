@@ -73,7 +73,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       icon,
       date,
       isGoal,
-      order: milestone.order,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
     if (milestone._id) {

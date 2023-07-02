@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose from "mongoose";
 
 const LinkSchema = new mongoose.Schema(
   {
@@ -41,10 +41,6 @@ const LinkSchema = new mongoose.Schema(
     profile: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Profile",
-    },
-    linkstats: {
-      default: [],
-      type: [{ type: Schema.Types.ObjectId, ref: "LinkStats" }],
     },
   },
   { timestamps: true }
