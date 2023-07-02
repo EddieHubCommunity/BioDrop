@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import { Transition } from "@headlessui/react";
-import { CheckCircleIcon } from "@heroicons/react/24/outline";
-import { XMarkIcon, ExclamationCircleIcon } from "@heroicons/react/20/solid";
+import CheckCircleIcon from "@heroicons/react/24/outline/CheckCircleIcon";
+import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
+import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 
 export default function Notification({
   show,

@@ -1,0 +1,41 @@
+{
+  "name": "Florian Budniewski",
+  "bio": "Frontend development enthusiast, learning and getting better everyday",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Fly0w",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Reach me on LinkedIn",
+      "url": "https://www.linkedin.com/in/florian-budniewski/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "tags": ["Open Source", "Javascript", "Nextjs", "React", "ReactJS", "css"],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/florian_budniewski/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Fly0w"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/florian-budniewski/"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Programming",
+      "date": "December 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started learning frontend development",
+      "url": "https://fly0w.github.io/portfolio/"
+    }
+  ]
+}

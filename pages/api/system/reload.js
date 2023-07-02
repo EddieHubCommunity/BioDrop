@@ -8,7 +8,10 @@ import Profile from "@models/Profile";
 import Link from "@models/Link";
 
 export default async function handler(req, res) {
-  if (req.method !== "GET" || req.query.secret !== serverEnv.LINKFREE_API_SECRET) {
+  if (
+    req.method !== "GET" ||
+    req.query.secret !== serverEnv.LINKFREE_API_SECRET
+  ) {
     logger.error(
       `attempt to load profile json but security check failed: "${req.query.secret}"`
     );
@@ -38,6 +41,47 @@ export default async function handler(req, res) {
 
       if (currentProfile && currentProfile.source === "database") {
         logger.info(`Skipped profile "${profile.username}" as using forms`);
+
+        if (profile.testimonials) {
+          // add any new testimonials
+          const newTestimonials = profile.testimonials.filter(
+            (testimonial) =>
+              !currentProfile.testimonials.some(
+                (currentTestimonial) =>
+                  currentTestimonial.username === testimonial.username
+              )
+          );
+
+          if (!newTestimonials || newTestimonials.length === 0) {
+            return;
+          }
+
+          try {
+            await Profile.findOneAndUpdate(
+              { username: profile.username },
+              {
+                testimonials: [
+                  ...currentProfile.testimonials,
+                  ...newTestimonials.map((testimonials) => ({
+                    username: testimonials.username,
+                    date: testimonials.date,
+                    title: testimonials.title,
+                    description: testimonials.description,
+                    isPinned: false,
+                  })),
+                ],
+              }
+            );
+            logger.info(
+              `Updated profile "${profile.username}" with testimonials only ${newTestimonials.length}`
+            );
+          } catch (e) {
+            logger.error(
+              e,
+              `failed to update testimonials for ${profile.username}`
+            );
+          }
+        }
         return;
       }
 
@@ -151,15 +195,13 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              milestones: profile.milestones.map((milestone, position) => ({
+              milestones: profile.milestones.map((milestone) => ({
                 url: milestone.url,
                 date: milestone.date,
                 isGoal: milestone.isGoal || false,
                 title: milestone.title,
                 icon: milestone.icon,
                 description: milestone.description,
-                color: milestone.color,
-                order: position,
               })),
             }
           );
@@ -174,16 +216,13 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              testimonials: profile.testimonials.map(
-                (testimonials, position) => ({
-                  username: testimonials.username,
-                  date: testimonials.date,
-                  title: testimonials.title,
-                  description: testimonials.description,
-                  order: position,
-                  isPinned: testimonials.isPinned || false,
-                })
-              ),
+              testimonials: profile.testimonials.map((testimonials) => ({
+                username: testimonials.username,
+                date: testimonials.date,
+                title: testimonials.title,
+                description: testimonials.description,
+                isPinned: testimonials.isPinned || false,
+              })),
             }
           );
         }
@@ -200,7 +239,7 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              events: profile.events.map((event, position) => ({
+              events: profile.events.map((event) => ({
                 isVirtual: event.isVirtual,
                 color: event.color,
                 name: event.name,
@@ -210,7 +249,6 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
-                order: position,
                 price: event.price,
               })),
             }
@@ -311,13 +349,17 @@ function findOneByUsernameFull(data) {
       });
 
     data = { ...data, testimonials: allTestimonials };
-  } catch (e) {}
+  } catch (e) {
+    //error will happen on user with no testimonials
+  }
 
   const filePathEvents = path.join(process.cwd(), "data", username, "events");
   let eventFiles = [];
   try {
     eventFiles = fs.readdirSync(filePathEvents);
-  } catch (e) {}
+  } catch (e) {
+    //error will happen on user with no events
+  }
 
   const events = eventFiles.flatMap((filename) => {
     try {

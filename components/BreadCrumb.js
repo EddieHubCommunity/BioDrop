@@ -1,5 +1,5 @@
-import { HomeIcon } from "@heroicons/react/24/outline";
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import HomeIcon from "@heroicons/react/24/outline/HomeIcon";
+import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
 
 import Link from "@components/Link";
 

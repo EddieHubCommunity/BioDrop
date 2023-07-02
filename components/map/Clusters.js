@@ -1,4 +1,5 @@
 import { useState } from "react";
+import L from "leaflet";
 import { Marker, useMap } from "react-leaflet";
 import useSupercluster from "use-supercluster";
 import UserMarker from "./UserMarker";

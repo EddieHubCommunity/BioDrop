@@ -1,0 +1,28 @@
+{
+  "name": "Asha Gabriel",
+  "bio": "Frontend Engineer. Tech Enthusiast! Love Music & Enjoy Travelling",
+  "tags": ["JavaScript", "ReactJs", "NextJs", "Redux-Toolkit"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MonkG_I"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MonkG_I",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/zeemonk1",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Zeemonk-pixel",
+      "icon": "FaGithub"
+    }
+  ]
+}
