@@ -52,7 +52,7 @@ export default function DocsIndex() {
         },
         {
           name: "Local Development",
-          path: "/environment/local-development",
+          path: "/environments/local-development",
           description:
             "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
