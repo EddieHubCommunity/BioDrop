@@ -88,7 +88,6 @@ const ProfileSchema = new Schema(
           type: Date,
           required: true,
         },
-        order: Number,
         isPinned: Boolean,
       },
     ],

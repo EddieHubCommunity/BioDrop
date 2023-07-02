@@ -56,9 +56,8 @@ export default async function handler(req, res) {
     );
   }
 
-  let linkstats = {};
   try {
-    linkstats = await LinkStats.findOneAndUpdate(
+    await LinkStats.findOneAndUpdate(
       {
         username,
         date,
@@ -73,22 +72,13 @@ export default async function handler(req, res) {
     logger.error(e, `failed incrementing link stats for ${date}`);
   }
 
-  let linkUpdate = {
-    $inc: { clicks: 1 },
-  };
-  const linkRelationship = link.linkstats.find(
-    (ls) => ls.toString() === new ObjectId(linkstats._id).toString()
-  );
-
-  if (!linkRelationship) {
-    linkUpdate = {
-      ...linkUpdate,
-      $push: { linkstats: new ObjectId(linkstats._id) },
-    };
-  }
-
   try {
-    await Link.updateOne({ _id }, linkUpdate);
+    await Link.updateOne(
+      { _id },
+      {
+        $inc: { clicks: 1 },
+      }
+    );
   } catch (e) {
     logger.error(
       e,
