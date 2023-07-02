@@ -57,6 +57,7 @@ export default function Standup({ BASE_URL, standups }) {
       },
     });
     setStandupList(await standups.json());
+    setContent("");
 
     return setShowNotification({
       show: true,
@@ -92,6 +93,7 @@ export default function Standup({ BASE_URL, standups }) {
               label="1. What did you do yesterday? 2. What are you doing today? 3. What are you blocked by?"
               minlength="2"
               maxlength="1024"
+              value={content}
               onChange={(e) => setContent(e.target.value)}
             />
             <div className="absolute inset-x-0 bottom-0 flex justify-between p-2 m-2 items-end">
