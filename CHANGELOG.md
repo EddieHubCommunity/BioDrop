@@ -1,3 +1,7 @@
+## [1.149.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.3...v1.149.4) (2023-07-02)
+
+
+
 ## [1.149.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.2...v1.149.3) (2023-07-02)
 
 
@@ -31,20 +35,6 @@
 ### Features
 
 * testimonial ordering ([#7884](https://github.com/EddieHubCommunity/LinkFree/issues/7884)) ([d65ba48](https://github.com/EddieHubCommunity/LinkFree/commit/d65ba48937b542927cb9b46ea6a75a4244168c3e))
-
-
-
-# [1.148.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.10...v1.148.0) (2023-07-01)
-
-
-### Bug Fixes
-
-* docs links ([#7902](https://github.com/EddieHubCommunity/LinkFree/issues/7902)) ([1b9a529](https://github.com/EddieHubCommunity/LinkFree/commit/1b9a529f0117d92682c5c2a3780c42ff815d9154))
-
-
-### Features
-
-* random profile ([#7900](https://github.com/EddieHubCommunity/LinkFree/issues/7900)) ([f2aed8d](https://github.com/EddieHubCommunity/LinkFree/commit/f2aed8dccba992e3bb889149854ded52b0283bb5)), closes [#7617](https://github.com/EddieHubCommunity/LinkFree/issues/7617) [#7558](https://github.com/EddieHubCommunity/LinkFree/issues/7558)
 
 
 
