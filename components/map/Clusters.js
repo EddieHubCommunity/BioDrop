@@ -4,8 +4,9 @@ import { Marker, useMap } from "react-leaflet";
 import useSupercluster from "use-supercluster";
 import UserMarker from "./UserMarker";
 import styles from "./Clusters.module.css";
+import EventMarker from "./EventMarker";
 
-export default function Clusters({users}) {
+export default function Clusters({points}) {
   const map = useMap();
   const mapB = map.getBounds();
   const [bounds, setBounds] = useState([
@@ -32,7 +33,7 @@ export default function Clusters({users}) {
   })
 
   const { clusters, supercluster } = useSupercluster({
-    points: users,
+    points: points,
     bounds,
     zoom,
     options: {
@@ -40,7 +41,7 @@ export default function Clusters({users}) {
       maxZoom: 18
     }
   });
-
+  
   const icons = {};
   const fetchIcon = (count) => {
     const size =
@@ -65,7 +66,8 @@ export default function Clusters({users}) {
           const {
             cluster: isCluster,
             point_count: pointCount,
-            username
+            username,
+            name
           } = cluster.properties;
 
           // we have a cluster to render
@@ -91,7 +93,9 @@ export default function Clusters({users}) {
           }
 
           // we have a single point to render
-          return (
+          return cluster.properties.isEvent ? (
+            <EventMarker event={cluster} key={name} />
+          ) : (
             <UserMarker user={cluster} key={username} />
           );
         })}

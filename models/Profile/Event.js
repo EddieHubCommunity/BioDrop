@@ -34,6 +34,14 @@ const EventSchema = new Schema({
   price: {
     startingFrom: Number,
   },
+  location:{
+    road:String,
+    city:String,
+    state:String,
+    country:String,
+    lat:Number,
+    lon:Number
+  }
 });
 
 EventSchema.pre("save", () => {
