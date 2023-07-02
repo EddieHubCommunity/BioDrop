@@ -1,0 +1,21 @@
+{
+  "name": "Nabadeep Talukdar",
+  "bio": "I'm a frontend developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nabadeepstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nabadeeptalukdar",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nabadeeptalukdar",
+      "icon": "FaGithub"
+    }
+  ]
+}

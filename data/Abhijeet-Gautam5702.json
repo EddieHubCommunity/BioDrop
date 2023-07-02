@@ -1,0 +1,21 @@
+{
+  "name": "Abhijeet Gautam",
+  "bio": "Student frontend developer. Problem Solving enthusiast. Exploring Open Source",
+  "links": [
+    {
+      "name": "See my tweets",
+      "url": "https://twitter.com/abhijeet_gautam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Explore my Github",
+      "url": "https://github.com/Abhijeet-Gautam5702",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhijeet-gautam-a413b1211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

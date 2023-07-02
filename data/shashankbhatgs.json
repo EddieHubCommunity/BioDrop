@@ -1,0 +1,16 @@
+{
+  "name": "Shashank Bhat G S",
+  "bio": "Hi everyone! I am Shashank, and currently in my sophomore year, doing my undergraduate in India. I'm currently learning web development and DSA and share my journey here. Also, an open-source enthusiast and interested in DevOps and Blockchain. I love to interact with the community and help each other out",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shashankbhatgs",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shashankbhatgs",
+      "icon": "FaTwitter"
+    }
+  ]
+}

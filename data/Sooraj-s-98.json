@@ -1,0 +1,21 @@
+{
+  "name": "Sooraj S",
+  "bio": "An aspiring developer who loves to build new things and do open source. Primarily interest lies in web development.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/soorajsdevto",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/sooraj-s-98-fresherdeveloper/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Sooraj-s-98",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Chinatu Lucia Eke",
+  "bio": "Web Developer | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ChinatuLucia",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/chinatulucia/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/chinatu-lucia-3b923b1b1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/ChinatuL",
+      "icon": "FaGithub"
+    }
+  ]
+}

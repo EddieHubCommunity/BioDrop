@@ -1,0 +1,23 @@
+{
+  "name": "Prankul Verma",
+  "bio": "**Open Source**  Enthusiast | Full Stack Developer",
+  "tags": ["Open Source", "JavaScript", "Full Stack", "MERN Stack", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vprankul"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vprankul0306"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/prankul-verma-5796001b0/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@vprankul"
+    }
+  ]
+}

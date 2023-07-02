@@ -1,0 +1,53 @@
+{
+  "name": "Yatharth Verma",
+  "bio": "Full Stack Software Engineer. Currently working @LeadSquared. Love designing websites and bringing them to life using my skills 🚀",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "NextJS",
+    "AWS",
+    "TailwindCSS",
+    "Nodejs"
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/yatharth170699",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/YatharthVerma/",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/yatharth1706",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://yatharth-portfolio.vercel.app/",
+      "icon": "SiWebmoney"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "June 2018",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Post technical or sometimes project related videos",
+      "url": "https://www.youtube.com/c/YatharthVerma/"
+    },
+    {
+      "title": "Software Engineer",
+      "date": "June 2020",
+      "icon": "FaLaptop",
+      "color": "blue",
+      "description": "Working as a Software Engineer @LeadSquared under DevOps Portal team where we are building a portal to automate DevOps team tasks",
+      "url": "https://www.leadsquared.com/"
+    }
+  ]
+}

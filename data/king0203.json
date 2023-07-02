@@ -1,0 +1,16 @@
+{
+  "name": "Darshan Arkhade",
+  "bio": "Web Developer , Blockchain Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/darshanarkhade",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/king0203",
+      "icon": "FaGitHub"
+    }
+  ]
+}

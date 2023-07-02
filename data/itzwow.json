@@ -1,0 +1,21 @@
+{
+  "name": "Amit Kumar Bera",
+  "bio": "Web Developer, Open Source Enthusiast & Explorer!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/itzwow",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itzyourab",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/amit-kumar-bera-990954205/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

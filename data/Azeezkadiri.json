@@ -1,0 +1,21 @@
+{
+  "name": "Abdulazeez Kadiri",
+  "bio": "Frontend engineer | JavaScript | react |technical writer | open source contributor",
+  "links": [
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/Azeez_kadiri1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://www.linkedin.com/in/abdulazeez-kadiri-918a1b213/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/Azeezkadiri",
+      "icon": "FaGithub"
+    }
+  ]
+}

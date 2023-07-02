@@ -1,0 +1,16 @@
+{
+  "name": "Abhishek Yadav",
+  "bio": "Open Source Enthusiast ⚡",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/bugsyy157",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/a6hi1507",
+      "icon": "FaTwitter"
+    }
+  ]
+}

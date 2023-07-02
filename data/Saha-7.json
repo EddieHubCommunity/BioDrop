@@ -1,0 +1,100 @@
+{
+  "name": "Pritam Saha",
+  "bio": "Open Source | Cloud Native | DevOps",
+  "tags": [
+    "Open Source",
+    "Cloud Native",
+    "DevOps",
+    "WASM",
+    "Kubernetes",
+    "Docker",
+    "Golang"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/saha7pritam"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Saha-7"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/pritam-saha-269704212/"
+    }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/saha7pritam",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Saha-7",
+      "icon": "FaGitHub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/pritam-saha-269704212/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Mastodon: Connect me on mastodon",
+      "url": "https://mastodon.social/@saha7pritam",
+      "icon": "FaMastodon"
+    },
+    {
+      "group": "Content",
+      "name": "Tech Blogs",
+      "url": "https://saha7pritam.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Content",
+      "name": "Open Source Contributions",
+      "url": "https://github.com/Saha-7/My-Open-Source-Contributions",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Blogging",
+      "date": "Nov 2022",
+      "icon": "SiHashnode",
+      "color": "Blue",
+      "description": "Started my own Tech Blogs",
+      "url": "https://saha7pritam.hashnode.dev/"
+    },
+    {
+      "title": "Started Open Source Contribution",
+      "date": "Sep 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Learning while contributing | Contributions List",
+      "url": "https://github.com/Saha-7/My-Open-Source-Contributions"
+    },
+    {
+      "title": "Achievements | Certifications | Badges",
+      "icon": "FaLink",
+      "color": "Yellow",
+      "description": "View my Verified Achievements",
+      "url": "https://www.credly.com/users/pritam-saha.1d50666d/badges"
+    },
+    {
+      "title": "NAPPTIVE Hackathon",
+      "date": "April 2023",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Successfully completed the hackathon with the team Organized by NAPPTIVE x WeMakeDevs",
+      "url": "https://playground.napptive.dev/app/default/metabase-app"
+    }
+  ]
+}

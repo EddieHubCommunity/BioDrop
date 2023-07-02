@@ -1,0 +1,16 @@
+{
+  "name": "Lakshay Vardhan",
+  "bio": "Just a beginner :)",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/iwantamaste",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VardhanLakshay_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

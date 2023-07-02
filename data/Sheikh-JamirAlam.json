@@ -1,0 +1,21 @@
+{
+  "name": "Sheikh Jamir Alam",
+  "bio": "Web Developer | Github | Opensource | Full Stack | Web 3.0 | Blockchain",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jamirscode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Sheikh-JamirAlam",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jamir-alam-sheikh-0155aa153/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Khushiyant",
+  "bio": "Research Intern, Germany | Research Assistant @NTNU| Remote ML Developer| iOS Developer | OpenSource Contributor @zulip @letsunifyai | Building @keribium0",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/khushiyant",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/khushiyant/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/khushiyant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow my Blog",
+      "url": "https://khushiyant.medium.com",
+      "icon": "FaGlobe"
+    }
+  ]
+}

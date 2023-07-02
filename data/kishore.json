@@ -1,0 +1,16 @@
+{
+  "name": "Kishore Kumar",
+  "bio": "Frontend Developer - Exploring ReactJS",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kishoreandra",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kishore_kch",
+      "icon": "FaTwitter"
+    }
+  ]
+}

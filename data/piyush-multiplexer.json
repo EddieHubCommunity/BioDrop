@@ -1,0 +1,51 @@
+{
+  "name": "Piyush Goyani",
+  "bio": "Full Stack Software Engineer(Majorly Front), Occasionally Python Coder, ML Enthusiastic, Plant Based Programmer | Blogger",
+  "links": [
+    {
+      "name": "Say Hi! on Twitter",
+      "url": "https://twitter.com/thesourcepedia",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Socialize on Instagram",
+      "url": "https://www.instagram.com/goyanipiyush/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with LinkedIn",
+      "url": "https://www.linkedin.com/in/goyanipiyush/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/piyush-multiplexer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Stack Overflow Profile",
+      "url": "https://stackoverflow.com/users/6196542/piyush-goyani",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "name": "My Hashnode Blog(TheSourcePedia)",
+      "url": "https://blog.thesourcepedia.org",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Personal Website",
+      "url": "https://piyushgoyani.thesourcepedia.org/",
+      "icon": "SiMicrodotblog"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "Node.js",
+    "Vue.js",
+    "Nuxt.js",
+    "TailwindCSS",
+    "GraphQL",
+    "PostgreSQL"
+  ]
+}

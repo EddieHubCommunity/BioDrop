@@ -1,0 +1,26 @@
+{
+  "name": "Laxman Kohar",
+  "bio": "Open Source Enthusiast || Web Developer || Aspiring Software Engineer",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Laxmankohar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/LaxmanKohar2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/laxman-kohar-a85a9a195",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/laxmankohar92/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

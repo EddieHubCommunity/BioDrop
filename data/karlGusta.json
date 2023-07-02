@@ -1,0 +1,26 @@
+{
+  "name": "Annoh Karlgusta",
+  "bio": "Software engineer | Open-source enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KarlGusta",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/annoh_karlgusta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/annoh-karlgusta",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://karlgusta.medium.com/",
+      "icon": "SiMedium"
+    }
+  ]
+}

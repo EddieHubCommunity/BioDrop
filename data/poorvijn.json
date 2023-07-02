@@ -1,0 +1,21 @@
+{
+  "name": "Poorvi J Nayak",
+  "bio": "GSSoC'23 | HTML + CSS + Figma design | Java",
+  "links": [
+    {
+      "name": "Let's connect on Twitter",
+      "url": "https://twitter.com/PoorviJNayak04",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/poorvi-j-nayak-628aab215/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Let's connect on Github",
+      "url": "https://www.github.com/poorvijn",
+      "icon": "FaGit"
+    }
+  ]
+}

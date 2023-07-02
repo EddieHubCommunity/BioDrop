@@ -1,0 +1,21 @@
+{
+  "name": "Abhick Dahal",
+  "bio": "Open Source Enthusiast!, Loves talk about devops best practices",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhick-dev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abkdhl",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhickd/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

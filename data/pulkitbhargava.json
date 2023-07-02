@@ -1,0 +1,11 @@
+{
+  "name": "Pulkit Bhargava",
+  "bio": "MERN stack developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Pulkit007",
+      "icon": "FaGithub"
+    }
+  ]
+}

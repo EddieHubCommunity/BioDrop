@@ -1,0 +1,225 @@
+{
+  "name": "Anmol Baranwal",
+  "bio": "**Full Stack** Developer | **Open Source** Enthusiast | **GitHub** Addict | Technical Writer | UI/UX Designer ",
+  "tags": [
+    "Full-stack Developer",
+    "Javascript",
+    "Open Source",
+    "Next JS",
+    "Technical Writer",
+    "github",
+    "C++",
+    "UI/UX"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/Anmol-Baranwal/"
+    },
+    {
+      "icon": "FaDribbble",
+      "url": "https://dribbble.com/Anmol-Baranwal/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Hire Me",
+      "name": "Hire Me on Upwork for Expert Dev & Design Solutions",
+      "url": "https://www.upwork.com/freelancers/~010842271acf1bc3ab",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Social Presence",
+      "name": "GitHub: Follow me to unlock more code",
+      "url": "https://github.com/Anmol-Baranwal",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Let's take our professional connection to LinkedIn",
+      "url": "https://www.linkedin.com/in/Anmol-Baranwal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Explore My dev.to Profile for Insightful and Actionable Content!",
+      "url": "https://dev.to/anmolbaranwal",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Discover my design prowess on Dribbble",
+      "url": "https://dribbble.com/Anmol-Baranwal/",
+      "icon": "FaDribbble"
+    },
+    {
+      "group": "Fuel My Creativity!",
+      "name": "Fuel my creativity on Buy Me a Coffee!!",
+      "url": "https://www.buymeacoffee.com/heyanmol",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "group": "Fuel My Creativity!",
+      "name": "Unlock the secret to exponential growth with my Gumroad assets",
+      "url": "https://anmolbaranwal.gumroad.com/",
+      "icon": "SiGumroad"
+    },
+    {
+      "group": "Resource Roundup: Level Up!",
+      "name": "Bring your ideas to life with my carefully curated list of 200+ illustrations",
+      "url": "https://github.com/Anmol-Baranwal/Awesome-Illustrations-4Projects",
+      "icon": "FaFigma"
+    },
+    {
+      "group": "Resource Roundup: Level Up!",
+      "name": "Take your GitHub profile to the next level with my free 'Cool Ideas' repository",
+      "url": "https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub",
+      "icon": "FaGift"
+    },
+    {
+      "group": "Resource Roundup: Level Up!",
+      "name": "The Growth Bible: Unleash your potential and skyrocket your skills with this must-see GitHub repository.",
+      "url": "https://github.com/Anmol-Baranwal/Hack-Your-Growth",
+      "icon": "FaGift"
+    },
+    {
+      "group": "Others",
+      "name": "Join me on Discord and let's collaborate on exciting new projects together",
+      "url": "https://discordapp.com/users/776749637826117640",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Others",
+      "name": "Connect with me on Devpost and let's bring our coding skills to the table!",
+      "url": "https://devpost.com/Anmol-Baranwal",
+      "icon": "SiDevpost"
+    },
+    {
+      "group": "Others",
+      "name": "Learn alongside me on daily.dev - the daily tech news digest",
+      "url": "https://app.daily.dev/Anmol-Baranwal",
+      "icon": "FaFire"
+    },
+    {
+      "group": "Explore My Code World",
+      "name": "Check out my Leetcode profile to see my coding journey and progress",
+      "url": "https://leetcode.com/anmol4coder/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Explore My Code World",
+      "name": "Explore my GeeksforGeeks profile to see my coding journey and get inspired for your own",
+      "url": "https://auth.geeksforgeeks.org/user/anmolbaranwal119",
+      "icon": "SiGeeksforgeeks"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Exceeded Daily.dev Goals: 1900+ Reputation",
+      "date": "2023",
+      "icon": "FaFire",
+      "color": "red",
+      "description": "Surpassed my daily.dev goals - 1900+ reputation in just one month!",
+      "url": "https://app.daily.dev/Anmol-Baranwal"
+    },
+    {
+      "title": "Joining the GitHub Elite: 100+ Stars!",
+      "date": "2023",
+      "icon": "FaGrinStars",
+      "color": "red",
+      "description": "Shining with Over 100 Stars! Join me in the galaxy of GitHub success.",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
+    {
+      "title": "MarQuest Victory: 3rd Place!",
+      "date": "2022",
+      "icon": "FaAward",
+      "color": "red",
+      "description": "Secured 3rd prize with MarQuest conducted by **Management Development Institute (MDI), Gurgaon** under Imperium 2022 (8374 registrations)",
+      "url": "https://www.linkedin.com/posts/marquity_marquity-treasurehunt-marketing-activity-6902261286164426752-VBFT"
+    },
+    {
+      "title": "Top 10 Best Achiever Award",
+      "date": "2022",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "It's an honor to have been recognized as the 10th best achiever (out of 1600 students) in the prestigious Best PIET Achiever Awards 2022 after undergoing a rigorous 2-month evaluation by a panel of 5 judges",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_kudos-achiever-awards2022-activity-6921162278369144832-pTqA"
+    },
+    {
+      "title": "Successfully completed two internships",
+      "date": "June 2022",
+      "icon": "FaWaze",
+      "color": "black",
+      "description": "Successfully completed an internship at **NICMAR (Pune)** under the guidance of Dr. Avinash Bagul",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_internship2022-research-analysis-activity-6964216080428871680-aqS6"
+    },
+    {
+      "title": "Earned third place at Social Variable",
+      "date": "November 2021",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "Emerged victorious in a global competition hosted by Connecting Dreams Foundation and Amazon Web Services, with CDF SRCC chapter across four rounds of intense challenges!",
+      "url": "https://www.linkedin.com/posts/anmolbaranwal_third-prize-certificate-in-the-social-variable-activity-6876969548847947776-gYX-"
+    },
+    {
+      "title": "Finalist in a National Level Technical Hackathon!",
+      "date": "2021",
+      "icon": "SiCodeproject",
+      "color": "black",
+      "description": "Achieved a finalist position in a national technical hackathon organized by the Ministry of Education Innovation Cell",
+      "url": "https://drive.google.com/drive/folders/1x_WpiIdhR5mUTqD1Y3oNZsDJ4QNZ95IP?usp=sharing"
+    },
+    {
+      "title": "Claimed Victory at IIT Bombay Competition: My First Taste of Victory",
+      "date": "2021",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "Secured top 3 spot in Vigilance Awareness competition conducted by SJMSOM and IIT Bombay",
+      "url": "https://www.facebook.com/Avenues.SJMSOM.IITB/posts/4408676002520439"
+    },
+    {
+      "title": "Accepted into the Super 30 Batch",
+      "date": "2020",
+      "icon": "FaAward",
+      "color": "green",
+      "description": "Chosen for the prestigious Super 30 program, earning a full scholarship after a rigorous two-month selection process",
+      "url": "https://www.piet.co.in/PKAT-super30/"
+    },
+    {
+      "isGoal": true,
+      "title": "A Quest for 100 Followers on GitHub",
+      "date": "2023",
+      "icon": "SiTarget",
+      "color": "black",
+      "description": "I aspire to reach 100 followers on my Github profile",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
+    {
+      "isGoal": true,
+      "title": "Building my Dev.to Community: Setting a Goal of 200 Followers",
+      "date": "2023",
+      "icon": "SiTarget",
+      "color": "black",
+      "description": "Striving to expand my reach on dev.to with 200 followers",
+      "url": "https://dev.to/anmolbaranwal"
+    },
+    {
+      "isGoal": true,
+      "title": "Quest for Mastery: Conquering 250 Leetcode Problems",
+      "date": "2023",
+      "icon": "SiTarget",
+      "color": "black",
+      "description": "Level up my coding skills with 250 Leetcode problems",
+      "url": "https://leetcode.com/anmol4coder/"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Kunal Verma",
+  "bio": "**DevOps** | **Cloud** | **Open Source** | **Community Manager** [**@Kubesimplify**](https://kubesimplify.com/)",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Golang",
+    "Kubernetes",
+    "Docker",
+    "DevRel",
+    "WASM"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kverma_twt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/verma-kunal"
+    },
+    {
+      "icon": "FaGitlab",
+      "url": "https://gitlab.com/verma-kunal"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://linktr.ee/vkunal_"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Daily tips on Open Source, DevOps and Cloud",
+      "url": "https://twitter.com/kverma_twt",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/verma-kunal",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/verma-kunal",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe for video content",
+      "url": "https://www.youtube.com/@kunalverma7144",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "AWS Cloud Deployment Automation using Jenkins CI",
+      "url": "https://github.com/verma-kunal/Cloud-Deployment-Automation",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "My DevOps Journey and Learnings",
+      "url": "https://github.com/verma-kunal/DevOps-90",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Go REST API with GitLab CI and Argo CD",
+      "url": "https://gitlab.com/devops-projects6943118/ci-cd/go-rest-api",
+      "icon": "FaGitlab"
+    }
+  ]
+}

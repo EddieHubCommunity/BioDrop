@@ -1,0 +1,96 @@
+{
+  "name": "Madhu Saini",
+  "bio": "**Open Source**  Enthusiast | Full Stack Developer",
+  "tags": ["Open Source", "JavaScript", "Full Stack", "MERN Stack", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MadhuSaini22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MadhuSaini22.png"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/madhu-saini/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@MadhuSaini22"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://madhusaini.netlify.app/"
+    }
+  ],
+  "testimonials": ["loftwah", "Arindam200", "Shukla007", "oyenolaphilipinc"],
+  "links": [
+    {
+      "name": "Check out my website",
+      "url": "https://madhusaini.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MadhuSaini22",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/madhu-saini/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Interested in Open Source stuff? follow me on Twitter",
+      "url": "https://twitter.com/MadhuSaini22",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Blog - I write about Open Source and Full Stack Development",
+      "url": "https://hashnode.com/@MadhuSaini22",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Social Media",
+      "icon": "FaAndroid",
+      "color": "green",
+      "description": "Started becoming active on my Twitter account, I've had my Twitter account for past months, but didn't know Tech Twitter",
+      "url": "https://twitter.com/MadhuSaini22"
+    },
+    {
+      "title": "Technologies I know",
+      "date": "2023",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "HTML, CSS, JavaScript, Typescript, Tailwind, Express, Nodejs, React, Next, MongoDB",
+      "url": "https://madhusaini.netlify.app/"
+    },
+    {
+      "title": "Became a Full Stack Developer",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "green",
+      "description": "Currently working as a Full Stack Developer from Indian Startup",
+      "url": "https://enacton.com/"
+    },
+    {
+      "title": "Open-Source",
+      "date": "2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "#000",
+      "description": "My open source journey started after joining EddieHub and 4C community",
+      "url": "https://github.com/MadhuSaini22"
+    },
+    {
+      "title": "Became Staff Member at 4C",
+      "date": "2022",
+      "icon": "FaPeopleCarry",
+      "color": "green",
+      "description": "Became staff member of the mind-blowing community!",
+      "url": "https://4c.rocks"
+    }
+  ]
+}

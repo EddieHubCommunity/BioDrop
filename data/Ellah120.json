@@ -1,0 +1,22 @@
+{
+  "name": "Nwoke Emmanuella",
+  "bio": "Frontend Engineer, Tech Sis and enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/oge__chi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "http://www.linkedin.com/in/emmanuella-nwoke-217911114/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Ellah120",
+      "icon": "FaGithub"
+    }
+  ],
+  "testimonials": ["tobySolutions"]
+}

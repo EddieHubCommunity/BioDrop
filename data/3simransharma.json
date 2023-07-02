@@ -1,0 +1,22 @@
+{
+  "name": "Simran Sharma",
+  "bio": "Web Developer | Graphic Designer | ML Enthusiast | Open Source Contributor",
+  "tags": ["mongodb", "expressjs", "reactjs", "nodejs", "Python"],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/3simransharma",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/3simransharma",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Design Portfolio on Behance",
+      "url": "https://www.behance.net/simransharma3",
+      "icon": "FaBehance"
+    }
+  ]
+}

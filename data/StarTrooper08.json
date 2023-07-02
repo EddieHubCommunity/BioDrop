@@ -1,0 +1,16 @@
+{
+  "name": "Atharva Shirdhankar",
+  "bio": "Open Source Enthusiast | Android Dev | Learning DevOps",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/StarTrooper08",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_Atharva_08",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Chandra",
+  "bio": "Frontend Magician who loves to create beautiful ui with passion. Building AxStudios",
+  "tags": ["Open Source", "Javascript", "Typescript", "NextJS", "Frontend"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chandra_7852"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chandraprakash-darji/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Chandraprakash-Darji"
+    }
+  ],
+  "links": [
+    {
+      "group": "Buisness",
+      "name": "AxStudios: Freelance Software Development",
+      "url": "https://www.axstudios.tech",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Personal",
+      "name": "Checkout Portfolio",
+      "url": "https://www.chandraprakash.codes",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Personal",
+      "name": "Resume",
+      "url": "https://www.chandraprakash.codes/portfolio.pdf",
+      "icon": "FaBookmark"
+    },
+    {
+      "group": "Personal",
+      "name": "Join Stream at StackStream",
+      "url": "https://stack-stream.com/profile/Chandra_7852",
+      "icon": "FaStream"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/chandra_7852",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Chandraprakash-Darji",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/chandraprakash-darji",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram: Chillout",
+      "url": "https://www.instagram.com/chandraprakash_7852/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Mail: For Business",
+      "url": "mailto:prakashchandra3786@gmail.com",
+      "icon": "FaEnvelope"
+    },
+    {
+      "group": "Vibey Community",
+      "name": "Vibey: Discord",
+      "url": "https://discord.gg/fSx6EQuKQF",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Vibey Community",
+      "name": "Contribute to the Open Project",
+      "url": "http://github.com/UniKonf/vibey",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Donate: GitHub Sponsors",
+      "url": "https://github.com/sponsors/Chandraprakash-Darji",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won Best use of Auth0 at HackSvit Hackathon",
+      "date": "May 2022",
+      "icon": "SiAuth0",
+      "description": "We Build the project UncensordCNS using Auth0, Web3.js and Polygon Network.",
+      "url": "https://twitter.com/chandra_7852/status/1561943127564627968"
+    },
+    {
+      "title": "First Open Source Contribution",
+      "date": "Augest 2022",
+      "icon": "FaGithub",
+      "description": "Added the Profile to the Linkfree.",
+      "url": "https://github.com/EddieHubCommunity/LinkFree/commit/9bde0d589e1b6902e9f768d0ac72bafbb97dbf92"
+    },
+    {
+      "title": "Created my first portfolio project",
+      "date": "Oct 2022",
+      "icon": "FaLink",
+      "description": "I created my first portfolio project using Next.Js, Tailwindcss,and Typescript",
+      "url": "https://chandraprakash.codes/"
+    },
+    {
+      "title": "Started AxStudios",
+      "date": "Nov 2022",
+      "icon": "FaLink",
+      "description": "Started my Buisness AxStudios, where I provide freelance software development services",
+      "url": "https://www.axstudios.tech"
+    },
+    {
+      "title": "Started Vibey: Open Source Project",
+      "date": "Nov 2022",
+      "icon": "FaLink",
+      "description": "Started Vibey, an open source project to search for events and meetups all over the world",
+      "url": "https://github.com/UniKonf/vibey"
+    },
+    {
+      "title": "Joined WeMakeDevs as Maintainer for the Website",
+      "date": "Dec 2022",
+      "icon": "FaGithub",
+      "description": "Building a website with reusable components in react and Review open-source contributions and pull requests",
+      "url": "https://github.com/WeMakeDevs/wemakedevs"
+    },
+    {
+      "title": "Won Best use of Github at HackThisFall3.0 Hackathon",
+      "date": "Feb 2023",
+      "icon": "FaGithub",
+      "description": "We Build the project Percive - Your mental health companion, Next.Js, Tailwindcss, Typescript,and Material UI",
+      "url": "https://twitter.com/chandra_7852/status/1631218559048384512"
+    },
+    {
+      "isGoal": true,
+      "title": "Add more value to the open source",
+      "date": "2023",
+      "icon": "FaGithub",
+      "description": "Currently I am mainly contributing to WeMakeDevs and Vibey, I want to contribute to more open source projects"
+    },
+    {
+      "isGoal": true,
+      "title": "Get started with creating content on Youtube",
+      "date": "2023",
+      "icon": "FaYoututbe",
+      "description": "I want to share about my journey and learnings with the community"
+    },
+    {
+      "isGoal": true,
+      "title": "Start writing the Blogs",
+      "date": "2023",
+      "icon": "SiHashnode",
+      "description": "People which don't watch youtube videos then can read the blogs"
+    }
+  ],
+  "testimonials": ["Deepu178"]
+}

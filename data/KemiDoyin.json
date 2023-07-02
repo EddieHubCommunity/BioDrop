@@ -1,0 +1,16 @@
+{
+  "name": "Adedoyin Kemi",
+  "bio": "Web Developer | Open to collaborate on Front End and Open Source Projects",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/KemiDoyin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KemiAdedoyin_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

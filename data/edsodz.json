@@ -1,0 +1,31 @@
+{
+  "name": "Edson Sooraj Dsouza",
+  "bio": "In a journey of becoming a *Full-Stack Blockchain Developer*",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/edsodz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/edsodz/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/edsodz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/edson-sooraj-dsouza-7b110a241/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@edsodz",
+      "icon": "SiHashnode"
+    }
+  ]
+}

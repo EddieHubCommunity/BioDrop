@@ -1,0 +1,21 @@
+{
+  "name": "Atharv Bidwe",
+  "bio": "Machine Learning Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Atharv-777",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Conenct with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/atharv-bidwe-2996631aa/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AtharvBidwe",
+      "icon": "FaTwitter"
+    }
+  ]
+}

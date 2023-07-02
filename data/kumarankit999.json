@@ -1,0 +1,26 @@
+{
+  "name": "Ankit Kumar",
+  "bio": "Front-end Developer|Open Source |Tech enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ankiit111",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/kumarankit999",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ankit-kumar-6217b6225/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/kumarankit__1/",
+      "icon": "SiInstagram"
+    }
+  ]
+}

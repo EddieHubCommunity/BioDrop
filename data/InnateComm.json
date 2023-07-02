@@ -1,0 +1,21 @@
+{
+  "name": "Innate",
+  "bio": "An student-run open source community focusing on project based learning.",
+  "links": [
+    {
+      "name": "Join our GitHub Organisation",
+      "url": "https://github.com/InnateComm",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join our Discord Community",
+      "url": "https://innatecomm.us/chat",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Follow us on Twitter",
+      "url": "https://twitter.com/InnateComm",
+      "icon": "FaTwitter"
+    }
+  ]
+}

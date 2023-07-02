@@ -1,0 +1,13 @@
+{
+  "isVirtual": true,
+  "isInPerson": false,
+  "color": "green",
+  "name": "Announcing Hashnode Bootcamp",
+  "description": "Master the art of technical writing",
+  "date": {
+    "start": "2023-05-01T13:45:00.000+00:00",
+    "end": "2023-05-03T16:00:00.000+00:00",
+    "cfpClose": "2023-05-01T00:00:00.000+00:00"
+  },
+  "url": "https://townhall.hashnode.com/hashnode-bootcamp-may-2023"
+}

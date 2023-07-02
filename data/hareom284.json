@@ -1,0 +1,26 @@
+{
+  "name": "Zaw Zaw Win",
+  "bio": "Web Developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/hareom284",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hareom284",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Using Twiiter",
+      "date": "June 2021",
+      "icon": "FaTwitter",
+      "color": "red",
+      "description": "Create Content on Twitter and Shareing about  my journey",
+      "url": "https://hareom284.me"
+    }
+  ]
+}

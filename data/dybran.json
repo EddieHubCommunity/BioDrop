@@ -1,0 +1,16 @@
+{
+  "name": "dybran",
+  "bio": "I am a DevOps Engineer - passionate about learning, sharing knowledge, collabration and i embrace new challenges ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Narbydxelos",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/dybran",
+      "icon": "FaGithub"
+    }
+  ]
+}

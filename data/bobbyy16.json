@@ -1,0 +1,31 @@
+{
+  "name": "Abhishek",
+  "bio": "Exploring open-source and devOps",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bobsstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCzycF2lec_1EXj7AQezpboQ",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://abhishek-devops-engineer.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linkdien",
+      "url": "https://www.linkedin.com/in/abhishek-k-7597771ba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/bobbyy16",
+      "icon": "FaGithub"
+    }
+  ]
+}

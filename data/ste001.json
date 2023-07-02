@@ -1,0 +1,26 @@
+{
+  "name": "Stefano Merazzi",
+  "bio": "Web Developer | Mobile Developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ste001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/FearTheSock",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/stefano-merazzi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitLab",
+      "url": "https://gitlab.com/StefanoMerazzi",
+      "icon": "FaGitlab"
+    }
+  ]
+}

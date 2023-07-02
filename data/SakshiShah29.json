@@ -1,0 +1,25 @@
+{
+  "name": "Sakshi Shah",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow mw On Github!",
+      "url": "https://github.com/SakshiShah29",
+      "icon": "github"
+    },
+    {
+      "name": "Follow mw On Twitter",
+      "url": "https://twitter.com/Sakshi_Shah1929",
+      "icon": "twitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "January 2023",
+      "icon": "dollar",
+      "color": "grey",
+      "description": "Started Freelancing"
+    }
+  ]
+}

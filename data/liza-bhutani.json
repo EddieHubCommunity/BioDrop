@@ -1,0 +1,31 @@
+{
+  "name": "Liza Bhutani",
+  "bio": "Open Source Enthusiast | Cloud | WebD",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/liza_bhutani",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/liza-bhutani",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/liza-bhutani",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://liza786.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My gmail id : lizabhutani04@gmail.com",
+      "url": "",
+      "icon": "SiGmail"
+    }
+  ]
+}

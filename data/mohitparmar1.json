@@ -1,0 +1,21 @@
+{
+  "name": "Mohit Parmar",
+  "bio": "Programmer,Photographer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mohitparmar1_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://www.github.com/mohitparmar1/",
+      "icon": "FaGithub"
+    }
+  ]
+}

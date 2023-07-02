@@ -1,0 +1,26 @@
+{
+  "name": "Zuber Ustad",
+  "bio": "Open Source Enthustic|| JavScript||  React Js || Problem Solver   ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Zuber763",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lets Connect on Linkedin ",
+      "url": "https://www.linkedin.com/in/zuber-u-a37673183/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "I write blogs here",
+      "url": "https://zuberustad.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Portfoilo",
+      "url": "https://github.com/Zuber8040",
+      "icon": "FaGithub"
+    }
+  ]
+}

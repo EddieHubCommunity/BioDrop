@@ -1,0 +1,21 @@
+{
+  "name": "Tobi Awosola",
+  "bio": "Fullstack Developer | Open Source | Javascript | Node.js | MongoDB | React.js",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/olatoCode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tobi-awosola",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/olatocode",
+      "icon": "FaGithub"
+    }
+  ]
+}

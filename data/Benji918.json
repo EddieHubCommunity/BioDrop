@@ -1,0 +1,21 @@
+{
+  "name": "Ugochukwu Benjamin",
+  "bio": "An enthusiastic and problem driven developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/code_benji",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/ugobenjamin",
+      "icon": "FaLinkedln"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Benji918",
+      "icon": "FaGithub"
+    }
+  ]
+}

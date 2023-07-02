@@ -1,0 +1,21 @@
+{
+  "name": "Venkata Bhaskar",
+  "bio": "student exploring tech ghost",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bhaskartwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/bhaskarsig",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/VenkataBhaskarr",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## How much does it cost to use
+
+It is completely free to use LinkFree.
+
+## Is it all Open Source?
+
+Yes, LinkFree is 100% open source. You can utilize our hosted version of LinkFree to enhance the discoverability of your profile.
+
+## Does this count towards Hacktoberfest?
+
+See <Link href="/docs/contributing/hacktoberfest">Hacktoberfest</Link> page.
+
+## My Profile is not showing
+
+Please allow the maintainers time to review and merge your Pull Request, this can take a few days.
+
+Once your Pull Request is merged it is deployed automatically. The deployment can take about 5mins after being merged.
+
+If your Profile is not visible after merging, please contact the maintainers in <Link href="http://discord.eddiehub.org">EddieHub Discord</Link> or in the <Link href="http://github.com/EddieHubCommunity/LinkFree/discussions">GitHub Discussions in the LinkFree</Link> repo.
+
+export default ({ children }) => (
+  <DocsLayout title="LinkFree FAQ documentation" section="Extra" name="FAQ">
+    {children}
+  </DocsLayout>
+);

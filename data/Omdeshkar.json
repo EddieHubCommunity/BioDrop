@@ -1,0 +1,16 @@
+{
+  "name": "Om Deshkar",
+  "bio": " 19 |Learning front end dev | Open source newbie",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/OmDeshkar3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Github",
+      "url": "https://github.com/Omdeshkar",
+      "icon": "FaGithub"
+    }
+  ]
+}

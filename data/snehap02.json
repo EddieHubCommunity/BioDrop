@@ -1,0 +1,21 @@
+{
+  "name": "Sneha Purkayastha",
+  "bio": "Exploring the path of Web Development. Obsessed with tailwindcss, learning Javascript.",
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/SnehaPurkayast8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sneha-purkayastha-3b3aa1160/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/snehap02",
+      "icon": "FaGithub"
+    }
+  ]
+}

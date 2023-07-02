@@ -1,0 +1,74 @@
+{
+  "name": "Alan Njogu",
+  "bio": "Software Developer || Strong believer in the power of coffee and comments",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Flask",
+    "Docker",
+    "Data Analytics",
+    "Kotlin"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/@whoisnjoguu"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Njoguu"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/whoisnjoguu"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://www.buymeacoffee.com/Njoguu"
+    }
+  ],
+  "links": [
+    {
+      "group": "Dev",
+      "name": "My Services",
+      "url": "https://alan-njogu.herokuapp.com",
+      "icon": "FaHorseHead"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/@whoisnjoguu",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Njoguu",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/alan-njogu",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Articles",
+      "name": "jikAPI - The #1 Job Search API in Kenya.",
+      "url": "https://dev.to/njoguu/jikapi-the-1-job-search-api-in-kenya-3kb4",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Articles",
+      "name": "Streamline Your Job Search...",
+      "url": "https://dev.to/njoguu/streamline-your-job-search-product-website-launches-product-to-be-released-in-the-future-772",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/whoisnjoguu",
+      "icon": "FaInstagram"
+    }
+  ]
+}

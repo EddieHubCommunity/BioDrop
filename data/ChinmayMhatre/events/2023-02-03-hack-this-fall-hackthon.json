@@ -1,0 +1,12 @@
+{
+    "isVirtual": false,
+    "isInPerson": true,
+    "color": "red",
+    "name": "Hack This Fall 3.0",
+    "description": "A 36-hour in-person hackathon taking place at Karnavati University in Gandhinagar, Gujarat from February 3rd to 5th, 2023.",
+    "date": {
+      "start": "2023-02-03T15:00:00.000+05:30",
+      "end": "2023-02-05T18:00:00.000+05:30"
+    },
+    "url": "https://lu.ma/hackthisfall"
+  }

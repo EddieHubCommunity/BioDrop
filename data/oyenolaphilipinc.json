@@ -1,0 +1,42 @@
+{
+  "name": "Philip Oyenola",
+  "bio": "16 year old **Programmer**. Building and helping others achieve their dreams",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/oyenolaayomi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/oyenolaphilipinc",
+      "icon": "FaGithub"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel"
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "August 2018",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Coding",
+      "url": "https://philipoyenola.vercel.app"
+    },
+    {
+      "title": "Started Twitter",
+      "date": "June 2021",
+      "icon": "FaTwitter",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://twitter.com/oyenolaayomi"
+    }
+  ]
+}

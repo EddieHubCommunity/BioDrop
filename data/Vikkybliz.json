@@ -1,0 +1,72 @@
+{
+  "name": "Victor Ajibade",
+  "bio": "Flutter developer | Firebase lover |Linux | Content creator",
+  "tags": ["flutter developer", "Content creator", "youtube", "tech"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vikkybliz"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vikkybliz"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/channel/UCe6ciVTGIiDRd7dbIdzAXig/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vikkybliz/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vikkybliz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Mostly Programming and Technology tweets",
+      "url": "https://twitter.com/vikkybliz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Want to learn FLutter? Go here!",
+      "url": "https://www.youtube.com/channel/UCe6ciVTGIiDRd7dbIdzAXig/",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vikkybliz/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "isGoal": true,
+      "title": "Become a Developer advocate for Flutter",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a Developer Advocate 🥑 for Flutter"
+    },
+    {
+      "isGoal": true,
+      "title": "Get 1k Subscribers before the year 2923 ends",
+      "date": "2023",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "I want to get 1k subscribers and monetize my YouTube",
+      "url": "https://www.youtube.com/channel/UCe6ciVTGIiDRd7dbIdzAXig/"
+    },
+    {
+      "isGoal": true,
+      "title": "Speak at Developer gathering and Conferecnes",
+      "date": "2023",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak at conferences to share my knowledge and learn from others"
+    }
+  ]
+}

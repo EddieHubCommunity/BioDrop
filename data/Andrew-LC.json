@@ -1,0 +1,21 @@
+{
+  "name": "Andrew Lamichhane",
+  "bio": "Full stack dev and Zig enthusiast who loves tinkering with tech and exploring. On a side note, I really like eggs.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/azeus333",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/andrew-lamichhane-34a397219/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Andrew-LC",
+      "icon": "FaGithub"
+    }
+  ]
+}

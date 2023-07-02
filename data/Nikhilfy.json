@@ -1,0 +1,16 @@
+{
+  "name": "Nikhil T",
+  "bio": " ",
+  "links": [
+    {
+      "name": "Follow me on Twitter :)",
+      "url": "https://twitter.com/Nikhilfy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github :)",
+      "url": "https://github.com/Nikhilfy",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

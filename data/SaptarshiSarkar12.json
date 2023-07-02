@@ -1,0 +1,84 @@
+{
+  "name": "Saptarshi Sarkar",
+  "bio": "A software developer and an open-source enthusiast!",
+  "tags": ["Open Source", "Java"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SaptarshiSarkar12/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SSarkar2007"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/saptarshi-sarkar-305162253/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@SaptarshiSarkar12"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub : Let's Collaborate on Open-Source Projects",
+      "url": "https://github.com/SaptarshiSarkar12",
+      "icon": "FaGithub",
+      "color": "#211f1f"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SSarkar2007",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/saptarshi-sarkar-305162253/",
+      "icon": "FaLinkedin",
+      "color": "#0e76a8"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect on Discord",
+      "url": "https://discord.gg/DeT4jXPfkG",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Blog",
+      "name": "My Hashnode Blog and Newsletter",
+      "url": "https://saptarshisarkar.hashnode.dev/",
+      "icon": "SiHashnode",
+      "color": "#0550e4"
+    },
+    {
+      "group": "Open-Source Projects",
+      "name": "Contribute to Drifty: An Interactive File Downloader System!",
+      "url": "https://github.com/SaptarshiSarkar12/Drifty",
+      "icon": "FaGithub",
+      "color": "#102dd2"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Hacktoberfest Participation",
+      "date": "1st October, 2022",
+      "icon": "FaGlobe",
+      "color": "#4169e1",
+      "description": "Participated in Hacktoberfest as a maintainer. Reviewed many PRs and had a great experience of Open-source",
+      "url": "https://github.com/SaptarshiSarkar12/Drifty"
+    },
+    {
+      "title": "Started Open-Source contribution",
+      "date": "29th May, 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "green",
+      "description": "My First Open-source contribution was by fixing outdated links, typos, reporting bugs, reviewing code and collaborating to improve others projects.",
+      "url": "https://github.com/jwasham/coding-interview-university/pull/1154"
+    }
+  ]
+}

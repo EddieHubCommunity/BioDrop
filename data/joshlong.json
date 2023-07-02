@@ -1,0 +1,73 @@
+{
+  "name": "Josh Long",
+  "tags": [
+    "Open Source",
+    "Spring",
+    "Spring Boot",
+    "Kotlin",
+    "Java",
+    "Microservices",
+    "Cloud Native"
+  ],
+  "bio": "Josh became the first Spring Developer Advocate since 2010. Josh is a Java Champion, author of 6 books and numerous best-selling video training courses, an open-source contributor (Spring Boot, Spring Integration, Spring Cloud, Activiti and Vaadin, etc), a podcaster,  a YouTuber, and a blogger",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/starbuxman"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/joshlong"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://linkedin.com/in/joshlong"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://joshlong.com"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Starbuxman",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/joshlong",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://mastodon.online/@starbuxman",
+      "icon": "FaLink"
+    },
+    {
+      "name": "My Podcast, \"A Bootiful Podcast\"",
+      "url": "https://bootifulpodcast.fm",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Subscribe to my Youtube channel, \"Coffee + Software, with Josh Long\"",
+      "url": "https://youtube.com/@coffeesoftware",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Read my latest book, \"Reactive Spring\"",
+      "url": "https://reactivespring.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Read blog",
+      "url": "https://joshlong.com",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "My work (and family) blog",
+      "url": "https://spring.io/team/joshlong",
+      "icon": "FaBlog"
+    }
+  ]
+}

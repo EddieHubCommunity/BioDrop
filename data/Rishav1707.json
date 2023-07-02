@@ -1,0 +1,45 @@
+{
+  "name": "Rishav Raj",
+  "bio": "**Open Source** Enthusiast | Exploring **DevOps** | **Frontend** Developer",
+  "tags": ["Open Source", "DevOps", "Frontend Developer"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RishavRaj17Jul"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Rishav1707"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rishav-raj-aa7256228/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/harmony2_my_ear/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/RishavRaj17Jul",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Rishav1707",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/rishav-raj-aa7256228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram: Follow me",
+      "url": "https://www.instagram.com/harmony2_my_ear/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

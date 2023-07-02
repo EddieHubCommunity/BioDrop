@@ -1,0 +1,69 @@
+{
+  "name": "Kunal Verma",
+  "bio": "**Open Source** | Frontend WebDeveloper",
+  "tags": ["Open Source", "Typescript", "MERN", "Tailwind", "Next Js", "MySQL"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/KunalVerma2468" },
+    { "icon": "FaGithub", "url": "https://github.com/kunal00000" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://www.linkedin.com/in/kunalverma2468"
+    }
+  ],
+  "links": [
+    {
+      "name": "Opensource and Tech Blogs",
+      "url": "https://kunalverma2468.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/kunal00000",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kunalverma2468",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/KunalVerma2468",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/kunaahl",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Postman Student Expert",
+      "date": "May 2023",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "Became a Postman Student Expert after completing the API Fundamentals"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://hashnode.com/@kunalverma2468/"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed it.",
+      "url": "https://github.com/kunal00000"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ritika Malik",
+  "bio": "Front-end Developer | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ritika-malik-must/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ritika728",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ritikatwts",
+      "icon": "FaTwitter"
+    }
+  ]
+}

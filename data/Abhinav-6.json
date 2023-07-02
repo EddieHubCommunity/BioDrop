@@ -1,0 +1,35 @@
+{
+  "name": "Abhinav Kumar",
+  "bio": "Frontend developer | diving deep into **Node.js** | **TypeScript** Enthusiast",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "C++",
+    "Node.js"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_Abhinav6"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Abhinav-6"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/_Abhinav6",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Abhinav-6",
+      "icon": "FaGithub"
+    }
+  ]
+}

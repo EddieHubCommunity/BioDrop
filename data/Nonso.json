@@ -1,0 +1,21 @@
+{
+  "name": "Nonso Andrew Ugbodu",
+  "bio": "FrontEnd Engineer | Networking | Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Arndy345",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nonso_andy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nonsougbodu/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

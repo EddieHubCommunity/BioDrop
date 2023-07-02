@@ -1,0 +1,26 @@
+{
+  "name": "Yash Dhadve",
+  "bio": "Math nerd, Software developer, love knowing about new things",
+  "links": [
+    {
+      "name": "Lets talk on Twitter",
+      "url": "https://twitter.com/Yash_Dhadve4",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://yashdhadve.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dhadve-yash-334862231/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Exar04",
+      "icon": "FaGithub"
+    }
+  ]
+}

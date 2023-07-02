@@ -1,0 +1,26 @@
+{
+  "name": "Paras Goswami",
+  "bio": "Web Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ParasGo09227489",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/parasgoswami243/?igshid=YmMyMTA2M2Y%3D",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/paras-goswami-b98658210/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ParasGoswami06",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Kenneth Quiggins",
+  "bio": "Freelance Software Developer, Anything & Everything Tech!, Live, Learn & Code!",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Python",
+    "web Development",
+    "ReactJS",
+    "Express",
+    "MongoDB"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kash_quiggins"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/KQuiggins"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kenneth-quiggins-225922212/"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kenneth-quiggins-225922212/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Help sponsor me on Github",
+      "url": "https://github.com/KQuiggins",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kash_quiggins",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Blog",
+      "url": "https://kashfamilyvalues.editorx.io/kens-code",
+      "icon": "FaPollH"
+    }
+  ]
+}

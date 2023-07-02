@@ -1,0 +1,87 @@
+{
+  "name": "Abhishek Gupta",
+  "bio": "Coding Enthusiast | Opensource Enthusiast | Student @ JSCOE | blogging",
+  "tags": ["Open Source", "DSA"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Abhishek_G101"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/A10-g"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhishek-gupta-95275b233"
+    }
+  ],
+  "links": [
+    {
+      "name": "Engage with me on Twitter",
+      "url": "https://twitter.com/Abhishek_G101",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishek-gupta-95275b233",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my Open Source Journey on Github",
+      "url": "https://github.com/A10-g",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Take a glance of my writings on Hashnode",
+      "url": "https://abhishekgupta10.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my Journey in Computer Science",
+      "description": "I enrolled to 4 year Undergraduate degree in Computer Engineering.",
+      "date": "January 2021",
+      "icon": "FaLaptop",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started Coding",
+      "description": "I began learning to code and solve Dsa questions on Leetcode and GeeksforGeeks",
+      "date": "February 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "The Beginning to Open Source",
+      "description": "I began my Open Source journey on GitHub.",
+      "date": "September 2022",
+      "icon": "FaGithub",
+      "color": "#1e3530"
+    },
+    {
+      "title": "First Hactoberfest",
+      "description": "I contributed to my first Hactoberfest",
+      "date": "October 2022",
+      "icon": "FaCode",
+      "color": "#1e3530"
+    },
+    {
+      "title": "Started Engaging on socials",
+      "description": "I started engaging with folks on twitter ",
+      "date": "January 2023",
+      "icon": "SiTwitter",
+      "color": "#1e3530",
+      "url": "https://twitter.com/Abhishek_G101"
+    },
+    {
+      "title": "First Blog",
+      "description": "Started my own blogs",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "#1e3530",
+      "url": "https://abhishekgupta10.hashnode.dev/"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Saugat Rajbhandari",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/saugatrajbhandari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hey_saugat",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started College",
+      "date": "December 2019",
+      "icon": "FaDollarSign",
+      "color": "blue"
+    }
+  ]
+}

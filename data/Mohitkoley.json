@@ -1,0 +1,21 @@
+{
+  "name": "Mohit koley",
+  "bio": "Flutter enthusiast with new technology explorer",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mohitkoley2211/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow on github",
+      "url": "https://github.com/Mohitkoley",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/rockysingh2211/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

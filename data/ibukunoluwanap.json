@@ -1,0 +1,47 @@
+{
+  "name": "Ibukunoluwa Naphtali",
+  "bio": "Mobile Developer | Tech Educator | Open Source | Work with Flutter, ReactJS And NodeJS.",
+  "tags": [
+    "Open Source",
+    "Dart",
+    "Flutter",
+    "Javascript",
+    "ReactJS",
+    "Python",
+    "Django"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ibukunoluwanap/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ibukunoluwanap/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ibukunoluwanap/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ibukunoluwanap/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/ibukunoluwanaphtali/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Meet My Works",
+      "url": "https://ibukunoluwanap.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Flutterme",
+      "url": "https://www.flutterme.org/",
+      "icon": "FaLink"
+    }
+  ]
+}

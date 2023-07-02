@@ -1,0 +1,16 @@
+{
+  "name": "Adil Khwaja",
+  "bio": "Exploring open source",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/zadilkhwaja",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://linkedin.com/in/zadilkhwaja",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Atif Shaik",
+  "bio": "Learning to Code",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Atif0047",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lets Connect on LinkedIn",
+      "url": "www.linkedin.com/in/atifshaik47",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AtifShaik-47",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Souvik Pramanick",
+  "bio": "Full Stack Web Developer, **Programmer** into Explorer with a good learner too...",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "Javascript",
+    "DSA",
+    "PYTHON",
+    "React",
+    "CSS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SouvikP74860962"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RockingSNP/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@souvikpramanick1549"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SouvikP74860962",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/RockingSNP/",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/souvik-p-117647218/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/rockingsp_official/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Assignments",
+      "name": "Checkout my works on Replit",
+      "url": "https://replit.com/@RockingSNP",
+      "icon": "SiReplit"
+    },
+    {
+      "group": "Community",
+      "name": "Get into our Enthusiastic Open-source EddieHub Community",
+      "url": "http://eddiehub.org",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Community",
+      "name": "Join our Enthusiastic Open-source Napptive Community",
+      "url": "https://join.slack.com/t/napptivecommunity/shared_invite/zt-1ov6ocst2-BsZDhfOZYAet86D6TxlIkg",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Community",
+      "name": "Join our Enthusiastic Open-source GrowInCommunity",
+      "url": "https://twitter.com/GrowInComm",
+      "icon": "FaLink"
+    }
+  ],
+  "testimonials": [],
+  "milestones": [
+    {
+      "title": "Started My Youtube Channel",
+      "date": "22 June 2020",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Upholding My Ideas To You..",
+      "url": "https://www.youtube.com/@souvikpramanick1549"
+    },
+    {
+      "title": "Joined the Tech-Twitter",
+      "date": "13 November 2022",
+      "icon": "SiTwitter",
+      "color": "blue",
+      "description": "Started my Twitter journey with great enthusiasm",
+      "url": "https://twitter.com/SouvikP74860962"
+    },
+    {
+      "title": "Joined EddieHub Community to boosten by Open-Source Journey",
+      "date": "11 February 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "black",
+      "description": "Got into our Inclusive Open Source community",
+      "url": "https://github.com/RockingSNP"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Rupali Haldiya",
+  "bio": "Full stack JavaScript Developer | Open Source Advocate",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
+    "Typescript"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rupali_codes"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rupali-codes"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rupali-codes/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://rupali.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/rupali-codes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rupali_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/rupali-codes/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://rupali-codes.netlify.app/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Began my Open Source journey",
+      "date": "September 2022",
+      "icon": "FaRocket",
+      "color": "#7a5c4b",
+      "description": "Made my first Open Source contribution",
+      "url": "https://github.com/rupali-codes"
+    },
+    {
+      "title": "Landed my first Job",
+      "date": "December 2022",
+      "icon": "FaLaptop",
+      "color": "#7a5c4b",
+      "description": "Got hired for the role of SDE at a startup company",
+      "url": "https://www.linkedin.com/in/rupali-codes/"
+    },
+    {
+      "title": "Started Open Source project LinksHub ",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "#7a5c4b",
+      "description": "Helping developers getting the right resources at the right time",
+      "url": "https://linkshub.vercel.app"
+    }
+  ]
+}

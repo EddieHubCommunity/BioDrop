@@ -1,0 +1,26 @@
+{
+  "name": "Mubarak Yahaya",
+  "bio": "Farmer turned **Frontend Engineer**. Loves Coding",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mubbyszn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/mubbyszn",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/mubarak-yahaya-3548271a5/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Gitgub",
+      "url": "https://github.com/lilmubby",
+      "icon": "FaGithub"
+    }
+  ]
+}

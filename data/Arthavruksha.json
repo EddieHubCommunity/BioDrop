@@ -1,0 +1,21 @@
+{
+  "name": "Jay Shankarpure",
+  "bio": "16 year old , Founder of Shodh , Interested in Coding & Investing",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Arthavruksha12",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC_hKFQ-k5g8ioxF-9DshZ5Q",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Shodh",
+      "url": "https://shodh.arthavruksha.co.in/",
+      "icon": "FaPager"
+    }
+  ]
+}

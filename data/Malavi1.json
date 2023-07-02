@@ -1,0 +1,63 @@
+{
+  "name": "Malavi Pande",
+  "bio": "Aspiring UX & UI|| Python || Open Source enthusiast || Tech Blogger",
+  "tags": ["blogs", "Webdevelopment", "Open source"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/molavi_418"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Malavi1"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source on GitHub",
+      "url": "https://github.com/Malavi1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/molavi_418",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/malavipande/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://hashnode.com/@Malavi",
+      "icon": "FaHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest in this path I make a very good friends",
+      "url": "https://github.com/Malavi1"
+    },
+    {
+      "title": "Started Bloging",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "It helping me to document my Journey comprehensively through blogs,I am one of the top 10 participants of #Devretro2022",
+      "url": "https://hashnode.com/@Malavi"
+    },
+    {
+      "title": "Started Contributing",
+      "date": "January 2023",
+      "icon": "SiGithub",
+      "color": "blue",
+      "description": "I feel fortunate that I get to know about the open source and started contributing",
+      "url": "https://github.com/Malavi1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Tejas GK",
+  "bio": "Student | Jr. developer @Effinity | Open source enthusiast",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Nextjs",
+    "Tailwind css",
+    "React",
+    "Laravel"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tejasgk250"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://www.github.com/tejas-gk"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tejas-gk/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tejasgk250",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/tejas-gk/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Collaborate on GitHub",
+      "url": "https://www.github.com/tejas-gk",
+      "icon": "FaGithub"
+    }
+  ]
+}

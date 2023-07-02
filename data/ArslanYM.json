@@ -1,0 +1,26 @@
+{
+  "name": "Arsalan Malik",
+  "bio": "**Open-Source**  | Web Development | **Flutter** ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Flutter",
+    "Github"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ArsalanYmalik"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ArslanYM"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/learnwmalik"
+    }
+  ]
+}

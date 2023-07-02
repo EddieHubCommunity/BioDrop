@@ -1,0 +1,47 @@
+{
+  "name": "Yash Verma",
+  "bio": "Started my career in Film Making, Meanwhile Got fascinated with Machine learning, Web Development and Open Source and rest is the story 😄",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Recognizeyourself",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/atypicalseeker",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/recognizeyourself",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Founded 'Recognizeyourself'.",
+      "date": "2019",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Startup based on Content Creation, Our services are Video Editing, Content Creation, Motion Graphics, Graphic Designing, Social Media Marketing and Content Writing. We are well versed in lifting brand image on internet through designing and creative skills.",
+      "url": "https://www.linkedin.com/in/yashverma1881/"
+    },
+    {
+      "title": "Started Learning About Machine Learning",
+      "date": "2019",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Learned Many fascinating ML algorithms, Deep Learning concepts like NLP and Neural Networks.",
+      "url": "https://www.kaggle.com/recognizeyourself"
+    },
+    {
+      "title": "Started Contributing in Open Source",
+      "date": "Aug 2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Got involved with inclusive open-source EddieHub Community that act as a springboard for me into the universe of Open source.",
+      "url": "https://github.com/Recognizeyourself"
+    }
+  ]
+}

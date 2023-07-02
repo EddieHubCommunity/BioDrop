@@ -1,0 +1,26 @@
+{
+  "name": "Savvas Stephanides",
+  "bio": "Developer circa 2001",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SavvasStephnds",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/savvascodes/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/SavvasStephanides",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/savvasstephanides",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

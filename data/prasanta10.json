@@ -1,0 +1,16 @@
+{
+  "name": "Prasanta Chettri",
+  "bio": "2nd-year undergrad from India | Web Dev and Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Checkout my GitHub Repositories",
+      "url": "https://github.com/prasanta10",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/prasanta-chettri-68a845223",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

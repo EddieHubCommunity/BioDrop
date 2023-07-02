@@ -1,0 +1,40 @@
+{
+  "name": "Aviprit Shah",
+  "bio": "I am new to this field still learning and exploring, would love to collaborate with some of you folks and create or contribute to some amazing stuff",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AvipritS"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/_aviprit_/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/programmer765/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aviprit-shah-5bb23a190/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Codeforces",
+      "url": "https://codeforces.com/profile/programmer765"
+    },
+    {
+      "name": "Codechef",
+      "url": "https://www.codechef.com/users/programmer275"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/Aviprit/"
+    },
+    {
+      "name": "GeeksForGeeks",
+      "url": "https://auth.geeksforgeeks.org/user/avipritshah/practice"
+    }
+  ]
+}

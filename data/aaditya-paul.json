@@ -1,0 +1,26 @@
+{
+  "name": "Aaditya Paul",
+  "bio": "I'm a 17 year old full stack web and app developer, ethical hacker and a student hailing from India, West Bengal. And... 𝕴 𝖑𝖔𝖛𝖊 𝖙𝖔 𝖈𝖔𝖉𝖊 ❤️",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/aaditya-paul",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aaditya-paul-78292424b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/__the.frustrated.guy__/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/paul_aaditya",
+      "icon": "FaTwitter"
+    }
+  ]
+}

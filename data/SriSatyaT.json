@@ -1,0 +1,16 @@
+{
+  "name": "Sri Satya",
+  "bio": "Full Stack Development, Open Source & Devops Enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SriSatyaT",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SriSatya_",
+      "icon": "FaTwitter"
+    }
+  ]
+}

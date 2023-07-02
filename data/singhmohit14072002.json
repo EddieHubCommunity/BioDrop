@@ -1,0 +1,72 @@
+{
+  "name": "Mohit Singh",
+  "bio": "OpenSource  | DevOps | Docker | Blogger **Hashnode**",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "AWS",
+    "Azure",
+    "Blogger",
+    "Frontend Devloper",
+    "Kubernetes"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MohitDevops"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/singhmohit14072002"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mohit-singh-9b4b42253/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MohitDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/singhmohit14072002",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my blogs on hashnode",
+      "url": "https://mohitsblog.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/mohit-singh-9b4b42253/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/mohitsig_14/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "The Beginning",
+      "date": "Dec 2022",
+      "icon": "SiGithub",
+      "color": "grey",
+      "description": "I started my open source journey on GitHub.",
+      "url": "https://github.com/singhmohit14072002"
+    },
+    {
+      "title": "First Blog",
+      "date": "Jan 2023",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "Started writing blogs in Hashnode",
+      "url": "https://mohitsblog.hashnode.dev/"
+    }
+  ]
+}

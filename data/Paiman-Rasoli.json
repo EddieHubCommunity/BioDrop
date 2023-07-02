@@ -1,0 +1,29 @@
+{
+  "name": "Paiman Rasoli",
+  "bio": "Full-stack web developer | Open Source Enthusiast!",
+  "tags": [
+    "Open Source",
+    "Typescript",
+    "NestJs",
+    "Javascript",
+    "NextJs",
+    "ReactJS"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Paiman-Rasoli",
+      "name": "Personal Github"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/paiman-truetale",
+      "name": "Office Github"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/paiman-rasoli-b20a81213",
+      "name": "Follow me on Linkedin"
+    }
+  ]
+}

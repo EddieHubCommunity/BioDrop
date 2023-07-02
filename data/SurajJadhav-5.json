@@ -1,0 +1,21 @@
+{
+  "name": "Suraj Jadhav",
+  "bio": "Open Source and DevOps Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SurajJadhav-5",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/suraj_j5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://twitter.com/suraj-jadhav5",
+      "icon": "FaLinkedinIn"
+    }
+  ]
+}

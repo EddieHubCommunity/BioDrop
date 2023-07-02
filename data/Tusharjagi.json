@@ -1,0 +1,64 @@
+{
+  "name": "Tushar Jagi",
+  "bio": "JavaScript developer | **MERN Stack** | Open Source | Enthusiast in BlockChain",
+  "tags": [
+    "Open Source",
+    "React",
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "Next.js",
+    "React Native",
+    "BlockChain"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tusharjagi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Tusharjagi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/tushar-jagi-519025215/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://tusharjagi.hashnode.dev"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tusharjagi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tushar-jagi-519025215/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Tusharjagi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@tusharjagi",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Follow me on Dev",
+      "url": "https://dev.to/tusharjagi",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://tusharjagi.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

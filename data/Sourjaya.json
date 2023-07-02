@@ -1,0 +1,21 @@
+{
+  "name": "Sourjaya Das",
+  "bio": "Student, Learner soon to be a developer. Open Source enthusiast. Avid football fan.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sourjaya_das",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my Github Profile",
+      "url": "https://github.com/Sourjaya",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Let's Connect",
+      "url": "https://www.linkedin.com/in/sourjaya-das/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

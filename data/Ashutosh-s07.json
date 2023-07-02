@@ -1,0 +1,52 @@
+{
+  "name": "Ashutosh Sahu",
+  "bio": "Azure, Open Source, DevOps, Blogger, Frontend Developer",
+  "tags": ["Open Source", "Azure", "DevOps"],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Ashutosh_sahu07",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/ashutosh-sahu-380661228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ashutosh.sahu7/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Hashnode",
+      "url": "https://ashutoshsahu07.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Ashutosh-s07",
+      "icon": "FaGithub"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ashutosh_sahu07"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ashutosh-s07"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https: //www.linkedin.com/in/ashutosh-sahu-380661228/"
+    }
+  ]
+}

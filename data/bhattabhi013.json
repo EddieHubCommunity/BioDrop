@@ -1,0 +1,120 @@
+{
+  "name": "Abhishek Bhatt",
+  "bio": "Full-Stack developer | Flutter | NodeJs | Angular | React",
+  "tags": [
+    "Flutter",
+    "Node,js",
+    "Angular",
+    "Javascript",
+    "Typescript",
+    "open-source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AbhishekBtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bhattabhi013"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/bwith_abhi"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on projects",
+      "url": "https://github.com/bhattabhi013",
+      "icon": "SiGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/AbhishekBtwt",
+      "icon": "SiTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/bhatt-abhi/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Vritant",
+      "url": "https://github.com/bhattabhi013/Vritant",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "SwagNation: Built with Medusa",
+      "url": "https://github.com/bhattabhi013/medusa_medical",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Open Food Facts (Contributor)",
+      "url": "https://github.com/openfoodfacts/smooth-app",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Play Store",
+      "name": "Deployed Apps on Play Store",
+      "url": "https://play.google.com/store/apps/developer?id=Abhi+Bhatt",
+      "icon": "FaGooglePlay"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Participated in Social Winter of Code as Project Maintainer",
+      "date": "Winter 2022",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "Participated as Project Maintainer to help the people get into open-source.",
+      "url": "https://certificate.givemycertificate.com/c/3ec367f5-68b7-4510-b011-2645f782fbd4"
+    },
+    {
+      "title": "Mentored at first hackathon.",
+      "date": "December 2022",
+      "icon": "FaGlobe",
+      "color": "white",
+      "description": "I was invited as a mentor at Hack With MAIT 3.0",
+      "url": "https://twitter.com/QuasarReeha/status/1606619819646013441?s=20&t=YDAxaPCs9koMA2Q_x1biNg"
+    },
+    {
+      "title": "Vritant App",
+      "date": "Nov 2022",
+      "icon": "FaMedapps",
+      "color": "white",
+      "description": "It makes learning fun and helps kid learn through AR and 3-D models.",
+      "url": "https://github.com/bhattabhi013/Vritant"
+    },
+    {
+      "title": "Participated in Social Summer of Code as Contributor",
+      "date": "Summer 2022",
+      "icon": "FaGlobe",
+      "color": "black",
+      "description": "Participated in A 3 months long open-source program.",
+      "url": "https://certificate.givemycertificate.com/c/a3c3ee4b-2b69-4517-9956-b2d63b5549d6"
+    },
+    {
+      "title": "Started Developing and open-source",
+      "date": "March 2022",
+      "icon": "SiGithub",
+      "color": "black",
+      "description": "One of my best and life changing decision ever.",
+      "url": "https://github.com/bhattabhi013"
+    },
+    {
+      "title": "Launched first mobile application.",
+      "date": "May 2021",
+      "icon": "FaGooglePlay",
+      "color": "green",
+      "description": "Launched Umeed mobile application on playstore. It acts as a single platform for donors and receivers for Plasma donation.",
+      "url": "https://play.google.com/store/apps/details?id=com.plasma.covid"
+    }
+  ]
+}

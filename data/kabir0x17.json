@@ -1,0 +1,16 @@
+{
+  "name": "Kabir",
+  "bio": "Open Source and Cyber Security Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kabir0x17",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kabir0x17",
+      "icon": "FaTwitter"
+    }
+  ]
+}

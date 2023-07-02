@@ -1,0 +1,16 @@
+{
+  "name": "Yogesh Summan",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/yogeshsumman",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/summanyogesh",
+      "icon": "FaTwitter"
+    }
+  ]
+}

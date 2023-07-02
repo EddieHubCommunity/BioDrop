@@ -1,0 +1,129 @@
+{
+  "name": "Paula Isabel Signo",
+  "bio": "Web Developer | Technical Writer at [**OSSPH**](https://ossph.org/) | [**thirdweb**](https://thirdweb.com/) Ambassador | Open Source | Web3 ",
+  "tags": [
+    "Web Developer",
+    "Javascript",
+    "React",
+    "Technical Writer",
+    "Open Source",
+    "Web3"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/codewithpau"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/paulaxisabel"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/paulasigno"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow my tech journey",
+      "url": "https://twitter.com/codewithpau",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: View my projects",
+      "url": "https://github.com/paulaxisabel",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "CodePen: View my CSS arts",
+      "url": "https://codepen.io/paulaxisabel",
+      "icon": "FaCodepen"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram: Follow my visual journey",
+      "url": "https://instagram.com/codewithpau/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/paulasigno",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH: Website",
+      "url": "https://ossph.org/",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH: Blog",
+      "url": "https://blog.ossph.org/",
+      "icon": "FaPen"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH: daily.dev",
+      "url": "https://app.daily.dev/sources/ossphs",
+      "icon": "FaPen"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH: Facebook Page",
+      "url": "https://www.facebook.com/ossph.org",
+      "icon": "FaFacebook"
+    },
+    {
+      "group": "Open Source Software Philippines",
+      "name": "OSSPH: Twitter",
+      "url": "https://twitter.com/OSSPhilippines",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "thirdweb",
+      "date": "April 2023",
+      "icon": "FaHandshake",
+      "color": "blue",
+      "description": "Became an ambassador for thirdweb",
+      "url": "https://thirdweb.com/"
+    },
+    {
+      "title": "Google Summer of Code",
+      "date": "March 2023",
+      "icon": "FaHandsHelping",
+      "color": "blue",
+      "description": "Became a mentor for GSoC",
+      "url": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "title": "Point One",
+      "date": "March 2023",
+      "icon": "FaLaptop",
+      "color": "blue",
+      "description": "Became a Web Application Developer at Point One"
+    },
+    {
+      "title": "Open Source Software Philippines",
+      "date": "September 2022",
+      "icon": "FaPen",
+      "color": "blue",
+      "description": "Became a Technical Writer at OSSPH",
+      "url": "https://ossph.org/"
+    },
+    {
+      "title": "100devs",
+      "date": "April 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started my web development journey with 100devs",
+      "url": "https://leonnoel.com/100devs/"
+    }
+  ]
+}

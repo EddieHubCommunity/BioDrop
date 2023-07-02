@@ -1,0 +1,32 @@
+{
+  "name": "Merwin Mathew",
+  "bio": "Engineering student who is passionate about **DevOps** and **open source**.I used to write **blogs** about my learning in hashnode by explaining in very simple way",
+  "tags": ["Open Source", "Blogger", "DevOps"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/merwin333",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/merwin-mathew/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Subscribe to my youtube channel",
+      "url": "https://www.youtube.com/channel/UCeonxUm_nEa7nCfnK5nAiyQ",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/merwinmathew33",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://merwin.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Rohit Ghumare",
+  "bio": "Platform Advocate | Founder of **DevOps Community** | ML Engineer turned **DevOps Advocate** via MLOps | Community Evangelist",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Cloud",
+    "Service Mesh",
+    "eBPF",
+    "DevOps",
+    "DevRel",
+    "platform",
+    "Cloud native"
+  ],
+  "testimonials": ["Rahul-Prasad-07"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ghumare64"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rohitg00"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/devopsguys"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: My Services",
+      "url": "http://rohit-ghumare.super.site/services",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Subscribe to monthly dose of DevOps and cloud native",
+      "url": "https://thatdevopsguy.substack.com/",
+      "icon": "FaNewspaper",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ghumare64",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Medium: My Blogs",
+      "url": "https://medium.com/@ghumare64",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/rohitg00",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/rohit-ghumare",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Instagram: Quick technical tips",
+      "url": "https://instagram.com/devopsguys",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "DevOps Community",
+      "name": "Inclusive DevOps Community (WhatsApp, Twitter, ...)",
+      "url": "http://devopscommunity.in",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Keep Up",
+      "name": "Community as a helping hand to people in need",
+      "url": "https://www.linkedin.com/company/trainings-internships/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "DevRel Community",
+      "name": "DevReler: Inclusive DevRel Community",
+      "url": "http://devreler.weavr.cafe",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Support my Work",
+      "url": "https://www.paypal.com/paypalme/rohitghumare",
+      "icon": "FaPaypal"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/rohitg00",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

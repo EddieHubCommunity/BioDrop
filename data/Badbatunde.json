@@ -1,0 +1,26 @@
+{
+  "name": "Habeeb B. Oyesile",
+  "bio": "Tech, Open-source, Finance and Books",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/badbatunde",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Badbatunde",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/badbatunde/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/badbatunde/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

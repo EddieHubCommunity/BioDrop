@@ -1,0 +1,113 @@
+{
+  "name": "Gurjeet Singh Virdee",
+  "bio": "MERN Stack Developer | Open Source Enthusiast",
+  "tags": ["Open Source", "JavaScript", "ReactJS", "NextJS"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gurjeetsinghvirdee"
+    }
+  ],
+  "testimonials": ["utkarsh006", "ishikagoyal02"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/gurjeetsinghvirdee",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/gurjeet-singh-virdee-25a476199/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/__gurii__",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Full Stack Developer Intern at NullClass",
+      "date": "January 2023 - Present",
+      "icon": "FaBriefcase",
+      "color": "violet"
+    },
+    {
+      "title": "Co-Founder at MedicTry",
+      "date": "September 2022 - Present",
+      "icon": "FaBriefcase",
+      "color": "blue"
+    },
+    {
+      "title": "Contributor at Hactoberfest 2022",
+      "date": "October 2022",
+      "description": "Contributing on different projects",
+      "icon": "FaGithub",
+      "color": "grey"
+    },
+    {
+      "title": "Project Admin at HackClubRait 2022",
+      "url": "https://soc.hackclubrait.co/#/Projects",
+      "date": "July 2022 - September 2022",
+      "description": "The idea behind this project is to learn how different websites are made by directly cloning them using the same layout and design. New contributors can add more websites to the list and suggest new features to the existing ones. Also, there is scope to introduce new features to websites and thus create an upgraded version of their clone.",
+      "icon": "FaGithub",
+      "color": "red"
+    },
+    {
+      "title": "Contributor at HackClubRait 2022",
+      "url": "https://leaderboard.hackclubrait.co/",
+      "date": "July 2022 - September 2022",
+      "description": "Contributing on different projects",
+      "icon": "FaGithub",
+      "color": "red"
+    },
+    {
+      "title": "Technical Team at GirlScript Summer of Code 2022",
+      "url": "https://gssoc.girlscript.tech/team",
+      "date": "March 2022 - July 2022",
+      "description": "Managing the activities of participants, mentors, and project admins throughout the program, Discord Moderator",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Mentor at GirlScript Summer of Code 2022",
+      "url": "https://github.com/khushi-purwar/WebDev-ProjectKart",
+      "date": "April 2022 - May 2022",
+      "description": "Mentor on 2 Projects: Bundli-Frontend & WebDev-ProjectKart, Mentored 150+ Contributors",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Contributor at GirlScript Summer of Code 2022",
+      "url": "https://gssoc.girlscript.tech/leaderboard",
+      "date": "March 2022 - May 2022",
+      "description": "Secured 10th Rank Globally",
+      "icon": "FaGithub",
+      "color": "orange"
+    },
+    {
+      "title": "Content Creator at Aviyel",
+      "url": "https://aviyel.com/@gurjeetsinghvirdee-0",
+      "date": "February 2022 - Present",
+      "description": "Aviyel is a platform you can collab with different Open-Source Projects",
+      "icon": "FaBook",
+      "color": "purple"
+    },
+    {
+      "title": "Technical Content Writer Intern",
+      "url": "https://auth.geeksforgeeks.org/user/gurjeetsinghvirdee/articles",
+      "date": "October 2021 - April 2022",
+      "description": "Published 15 articles related to Babel, Ember, Materialize JavaScript, etc",
+      "icon": "FaBriefcase",
+      "color": "green"
+    },
+    {
+      "title": "Joined EddieHub Community",
+      "date": "September 2021 - Present",
+      "description": "Actively Contributed Member",
+      "icon": "FaDiscord",
+      "color": "blue"
+    }
+  ]
+}

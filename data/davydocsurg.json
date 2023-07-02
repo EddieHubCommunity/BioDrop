@@ -1,0 +1,72 @@
+{
+  "name": "David Chibueze Ndubuisi",
+  "bio": "Software Engineer",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "React",
+    "Node",
+    "TypeScript",
+    "NextJS"
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Portfolio Website",
+      "url": "https://chibueze.me",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/davydocsurg",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/davydocsurg",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/davydocsurg",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "November 2019",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Joined GitHub",
+      "url": "https://github.com/davydocsurg"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "December 2020",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://chibueze.me"
+    },
+    {
+      "title": "Started Open Source",
+      "date": "May 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Joined EddieHub Community",
+      "url": "https://github.com/davydocsurg"
+    },
+    {
+      "title": "Joined Coopco",
+      "date": "June 2022",
+      "icon": "SiWorkplace",
+      "color": "grey",
+      "description": "Joined Coopco",
+      "url": "https://coopco.com.ng"
+    }
+  ]
+}

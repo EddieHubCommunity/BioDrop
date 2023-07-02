@@ -1,0 +1,31 @@
+{
+  "name": "Katalyst Kat",
+  "bio": "Health Advocate x Software Engineer #FitDevs; Podcast Host for Nutritional Science!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/katalyst_katt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subcribe to my Youtube Channel!",
+      "url": "https://youtube.com/@katalystkat",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Livestream with me!",
+      "url": "https://www.twitch.tv/katalystyt",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "Join our #FitDevs Discord!",
+      "url": "https://discord.gg/c9BAJH2F",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/katalystkat",
+      "icon": "FaGitHub"
+    }
+  ]
+}

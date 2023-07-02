@@ -1,0 +1,36 @@
+{
+  "name": "Muzamil Hussain",
+  "bio": "Full Stack Web Developer, Open Source Enthusiast",
+  "tags": ["Open Source", "Javascript", "ReactJs"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MuzamilMia"
+    },
+    {
+      "icon": "FatGithub",
+      "url": "https://github.com/muzamil-mia"
+    },
+    {
+      "icon": "FatLinkedin",
+      "url": "https://www.linkedin.com/in/muzamilhussain098/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MuzamilMia",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/muzamil-mia",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https:/www.linkedin.com/in/muzamilhussain098//",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

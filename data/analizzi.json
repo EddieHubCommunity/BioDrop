@@ -1,0 +1,21 @@
+{
+  "name": "Ana Lizzi",
+  "bio": "From Blueprints to Binary: Civil Engineer Takes a Byte Out of Coding.",
+  "links": [
+    {
+      "name": "Check out my Github",
+      "url": "https://github.com/analizzi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/anastasial1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/UkrainianBacon",
+      "icon": "FaTwitter"
+    }
+  ]
+}

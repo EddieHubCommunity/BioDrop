@@ -1,0 +1,50 @@
+{
+  "name": "Bikramjit Saha",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/bikramjitindia"
+    },
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/bikramjit-saha-44b3251a0/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Bikramjit21"
+    },
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw"
+    }
+  ],
+  "tags": ["Web Development", "PHP", "Laravel"],
+  "bio": "Web Developer| **PHP** & **Laravel** | Technical Writer ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/bikramjitindia",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/bikramjit-saha-44b3251a0/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Bikramjit21",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@Bikramjit21",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Subscribe my Youtube Channel",
+      "url": "https://www.youtube.com/channel/UCooyvvpFagid_7UHIA-GiRw",
+      "icon": "SiYoutube"
+    }
+  ]
+}

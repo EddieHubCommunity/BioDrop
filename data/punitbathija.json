@@ -1,0 +1,26 @@
+{
+  "name": "Punit Bathija",
+  "bio": "If the book is true it will find an audience to read",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PunitBathija",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Code with me on Github",
+      "url": "https://github.com/punitbathija",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linked-In",
+      "url": "https://linkedin.com/in/punit-bathija-2b8951217",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Share memes with me on Instagram",
+      "url": "https://www.instagram.com/punit_bathija",
+      "icon": "FaInstagram"
+    }
+  ]
+}

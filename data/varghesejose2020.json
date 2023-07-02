@@ -1,0 +1,16 @@
+{
+  "name": "Varghese Jose",
+  "bio": "Open Source Contributor | Full Stack Developer | FOSS Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/varghesejose2020",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/varghesejosedev",
+      "icon": "FaTwitter"
+    }
+  ]
+}

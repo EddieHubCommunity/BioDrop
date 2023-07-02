@@ -1,0 +1,21 @@
+{
+  "name": "Charchit kumawat",
+  "bio": "Self Learner**. Web 3 enthusiast & aspiring businessman",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Charchit_Web3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Charchitkumawat04",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/charchit-kumawat-blockchain",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

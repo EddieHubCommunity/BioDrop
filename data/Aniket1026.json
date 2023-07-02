@@ -1,0 +1,50 @@
+{
+  "name": "Aniket Dubey",
+  "bio": "Java 🧠 | Full Stack Developer 💻 | Open Source 🔮 ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React",
+    "Express",
+    "MongoDb",
+    "Tailwind"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ANIKET__DUBEY"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Aniket1026"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aniket-dubey-b39902208/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Let's Connect on GitHub",
+      "url": "https://github.com/Aniket1026",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Get in touch on Twitter",
+      "url": "https://twitter.com/ANIKET__DUBEY",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my blogs on hasnode",
+      "url": "https://hashnode.com/@kakkarot",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Connect with me on linkedin",
+      "url": "https://www.linkedin.com/in/aniket-dubey-b39902208/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sandeep Kushwaha",
+  "bio": "Student",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/twtsandeep",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sandeep-kushwaha-3a5428201",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sandeep277",
+      "icon": "FaGithub"
+    }
+  ]
+}

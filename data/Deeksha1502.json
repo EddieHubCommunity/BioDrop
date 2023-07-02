@@ -1,0 +1,25 @@
+{
+  "name": "Deeksha",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Deeksha1502",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Deeksha__1502",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning Web Development",
+      "date": "March 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Web Development"
+    }
+  ]
+}

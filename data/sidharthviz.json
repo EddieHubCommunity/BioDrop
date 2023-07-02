@@ -1,0 +1,32 @@
+{
+  "name": "Siddharth Verma",
+  "bio": "Full stack Dev | Tech Blogger | DevOps | Travel enthusiast",
+  "tags": ["DevOps", "technical writer", "Kubernetes"],
+  "links": [
+    {
+      "name": "Portfolio",
+      "url": "https://iamdev.netlify.app/home.html",
+      "icon": "FaPortrait"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sidharthviz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/sidharthviz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://sidharthviz.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/siddharth-verma-2695ab192/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

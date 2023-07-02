@@ -1,0 +1,26 @@
+{
+  "name": "Ruchiket",
+  "bio": "18| Learning Web Developement | Doing #100DaysOfCode Challenge",
+  "links": [
+    {
+      "name": "Github profile",
+      "url": "https://github.com/Ruchiket100",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter Threads (on Js, React and more)",
+      "url": "https://twitter.com/BorseRuchiket",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ruchikets_world/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Blogs (I write about my dev journey and tech stuff)",
+      "url": "https://hashnode.com/@Ruchiket",
+      "icon": "SiHashnode"
+    }
+  ]
+}

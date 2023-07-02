@@ -1,0 +1,21 @@
+{
+  "name": "Ikko Ashimine",
+  "bio": "Open Source and 🐈 Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/eltociear",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/eltociear",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Dev Profile",
+      "url": "https://dev.to/eltociear",
+      "icon": "FaDev"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Priyanshu Maurya",
+  "bio": "React.js Developer | Open-source Contributor | Aspiring Machine Learning Practitioner",
+  "tags": ["Open Source", "Javascript", "Typescript", "Python", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PrianshuMaurya"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/PriyansuMaurya"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/PrianshuMaurya",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/PriyansuMaurya",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/priyanshu-maurya/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "isGoal": true,
+      "title": "Course helping me to understand what really is AI and what actually goes under the hood",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% on the way through course",
+      "url": "https://archive.nptel.ac.in/courses/106/102/106102220/"
+    },
+    {
+      "title": "Pursuing Computer Engineering 🎓",
+      "date": "January 2020",
+      "icon": "FaBook",
+      "color": "grey",
+      "description": "toos"
+    },
+    {
+      "title": "Started Programming",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started Programming in year 2019"
+    }
+  ]
+}

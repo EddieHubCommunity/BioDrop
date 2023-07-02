@@ -1,0 +1,16 @@
+{
+  "name": "Brian Kepha",
+  "bio": "I like to see how stuff works and try to build it",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AngelofVerdant",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AngelofVerdant",
+      "icon": "FaTwitter"
+    }
+  ]
+}

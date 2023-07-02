@@ -1,0 +1,26 @@
+{
+  "name": "Ollie Bannister",
+  "bio": "**Digital Nomad**, based from an island nation off the coast of Antratica",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/olwiba",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Codepen",
+      "url": "https://codepen.io/Olwiba/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/olwiba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/olwiba",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Arshdeep Singh",
+  "bio": "MERN stack developer || Student",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Arshdeep-0509",
+      "icon": "FaGithub"
+    }
+  ]
+}

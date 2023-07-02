@@ -1,0 +1,16 @@
+{
+  "name": "Abhi Jain",
+  "bio": "Full stack web and app developer. Flutter | React | Open Source | Hackathons",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhiwd",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhijain03/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

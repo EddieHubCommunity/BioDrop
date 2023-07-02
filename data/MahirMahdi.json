@@ -1,0 +1,47 @@
+{
+  "name": "Mahir Mahdi",
+  "bio": "Web Developer | Open Source Advocate",
+  "tags": ["Web Development", "Open Source", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MahirMahdi"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_MahirMahdi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mahirmahdi"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/MahirMahdi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_MahirMahdi",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/mahirmahdi",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "July 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started Advocating for Open Source",
+      "url": "https://github.com/MahirMahdi"
+    }
+  ]
+}

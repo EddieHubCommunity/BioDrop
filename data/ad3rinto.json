@@ -1,0 +1,16 @@
+{
+  "name": "Micheal Aderinto",
+  "bio": "Product Management, BigData enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ad3rinto",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ad3rinto",
+      "icon": "FaTwitter"
+    }
+  ]
+}

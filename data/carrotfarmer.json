@@ -1,0 +1,21 @@
+{
+  "name": "Dhruva Srinivas",
+  "bio": "Backend developer and Linux/OSS enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/carrotfarmer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my website",
+      "url": "https://carrotfarmer.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Check out my blog",
+      "url": "https://dev.to/carrotfarmer",
+      "icon": "FaBook"
+    }
+  ]
+}

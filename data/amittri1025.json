@@ -1,0 +1,16 @@
+{
+  "name": "Amit Tripathi",
+  "bio": "Web Developer | Passionate Learner | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amittri1025",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tdevamit",
+      "icon": "FaTwitter"
+    }
+  ]
+}

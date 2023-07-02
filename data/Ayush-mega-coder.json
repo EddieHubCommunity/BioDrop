@@ -1,0 +1,25 @@
+{
+  "name": "Ayush Purohit",
+  "bio": "Open Source Enthusiast! Blockchain developer || Fullstack developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ayush-mega-coder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ayush_purohit",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing"
+    }
+  ]
+}

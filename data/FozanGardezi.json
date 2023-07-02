@@ -1,0 +1,17 @@
+{
+  "name": "Fozan Gardezi",
+  "bio": "Full Stack Developer | Javascript | Python | Explorer ",
+  "tags": ["Javascript", "Node.js", "React", "Angular", "Open Source"],
+  "links": [
+    {
+      "name": "Checkout my Github",
+      "url": "https://github.com/FozanGardezi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets Connect on Linkedin",
+      "url": "https://linkedin.com/in/FozanGardezi",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

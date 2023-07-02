@@ -1,0 +1,22 @@
+{
+  "name": "Harsha varthan",
+  "bio": "A Budding Frontend Developer",
+  "tags": ["Open Source", "Javascript", "HTML", "CSS", "Java"],
+  "links": [
+    {
+      "name": "On Twitter",
+      "url": "https://twitter.com/harshav67037280",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "On Github",
+      "url": "https://github.com/Harsha1varthan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "On LinkedIn",
+      "url": "https://www.linkedin.com/in/harsha-varthan-a28754256/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

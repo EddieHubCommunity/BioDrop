@@ -1,0 +1,16 @@
+{
+  "name": "Khalid Khan",
+  "bio": "Upcoming Full stack developer | Open source contributor",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/khan-droid",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/khalid_khan111",
+      "icon": "FaTwitter"
+    }
+  ]
+}

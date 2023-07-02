@@ -1,0 +1,26 @@
+{
+  "name": "José Valentín",
+  "bio": "Software Engineer **Web developer**. Travel enthusiast Soccer fan and electronic music fan.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ZarateCarreno",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/j_valentin.99/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jos%C3%A9-valent%C3%ADn-zarate-care%C3%B1o-a728ab17a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JoseVale99/",
+      "icon": "FaGithub"
+    }
+  ]
+}

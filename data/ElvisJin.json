@@ -1,0 +1,21 @@
+{
+  "name": "Elvis Jin",
+  "bio": "Over 7 years of experience delivering tech solutions. Avid programmer and fast learner. Obsessed with detail and quality. Always trying to improve development and communication processes. I love simple and elegant solutions for every problem.",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/elvis-j-934261266",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/ElvisJin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "CodeSignal",
+      "url": "https://app.codesignal.com/profile/elvis_jin",
+      "icon": "FaBrowser"
+    }
+  ]
+}

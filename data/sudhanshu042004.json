@@ -1,0 +1,16 @@
+{
+  "name": "sudhanshu",
+  "bio": "Full stack developer, open source Enthusiast, Always Learning",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SS042004",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/sudhanshu042004",
+      "icon": "FaGithub"
+    }
+  ]
+}

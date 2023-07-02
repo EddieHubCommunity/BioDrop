@@ -1,0 +1,43 @@
+{
+  "name": "Mohit Bansal",
+  "bio": "**Full Stack Web** | **Open Source** enthusiast | Feel Free to reach me out!",
+  "tags": [
+    "Full Stack Web Development",
+    "JavaScript",
+    "Node",
+    "React",
+    "MERN-Stack",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mohitbansalhmh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MohitBansal321"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mohit_bansal302"
+    }
+  ],
+  "links": [
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/mohitbansalhmh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: For Threads And Thoughts",
+      "url": "https://twitter.com/mohit_bansal302",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check My Github",
+      "url": "https://www.github.com/MohitBansal321",
+      "icon": "FaGithub"
+    }
+  ]
+}

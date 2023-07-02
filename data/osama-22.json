@@ -1,0 +1,21 @@
+{
+  "name": "Osama Malik",
+  "bio": "Full Stack Developer. Love travel, meet new people and become a part of their story.",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/osama-malik-15a68018b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/osama-22",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/osama_malik22",
+      "icon": "FaInstagram"
+    }
+  ]
+}

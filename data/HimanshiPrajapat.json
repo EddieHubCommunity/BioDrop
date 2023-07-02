@@ -1,0 +1,16 @@
+{
+  "name": "Himanshi Prajapat",
+  "bio": "Student at Techno NJR Institute of Technology",
+  "links": [
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://linkedin.com/Himanshi Prajapat",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://Github.com/HimanshiPrajapat",
+      "icon": "FaGithub"
+    }
+  ]
+}

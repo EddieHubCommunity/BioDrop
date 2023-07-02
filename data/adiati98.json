@@ -1,0 +1,53 @@
+{
+  "name": "Ayu Adiati",
+  "bio": "Self-taught Front-end Developer | Tech Blogger | Open Source Contributor | Community Enthusiast",
+  "tags": ["Open Source", "JavaScript", "React", "Tech Blogger", "Community"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/adiatiayu"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://hachyderm.io/@AdiatiAyu"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/adiatiayu"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/adiati98"
+    },
+    {
+      "icon": "SiPolywork",
+      "url": "https://www.polywork.com/adiatiayu"
+    }
+  ],
+  "links": [
+    {
+      "group": "Website",
+      "name": "My website",
+      "url": "https://adiati.com",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Blogging",
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@adiatiayu",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Blogging",
+      "name": "DEV Community",
+      "url": "https://dev.to/adiatiayu",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Blogging",
+      "name": "CodeNewbie Community",
+      "url": "https://community.codenewbie.org/adiatiayu",
+      "icon": "SiCodenewbie"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Badal Kumar",
+  "bio": "I am OpenSource Contributer and full stack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_mrdevil__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_mrdevil0_9/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mrdevil/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mrdevil0-9",
+      "icon": "FaGithub"
+    }
+  ]
+}

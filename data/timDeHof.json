@@ -1,0 +1,70 @@
+{
+  "name": "Tim DeHof",
+  "bio": "Frontend Developer | Full Stack Developer | Mechanical Engineer | Blogger",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Postgres",
+    "React.js",
+    "Node.js",
+    "Express.js"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/timdehof"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/timDeHof"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://blog.timdehof.dev/"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.timdehof.dev/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/timothy-dehof/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Daily tips and tricks I find on My journey of Software Development",
+      "url": "https://twitter.com/timdehof",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/timDeHof",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/timothy-dehof/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about my journey of software development",
+      "url": "https://blog.timdehof.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Entered my First Hackathon",
+      "date": "June 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "submitted a project to my first hackathon",
+      "url": "https://hashnode.com/edit/clis7d51k000709kz58cncls9"
+    }
+  ]
+}

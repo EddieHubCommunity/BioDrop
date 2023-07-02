@@ -1,0 +1,12 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "KubeHuddle 2023",
+  "description": "KubeHuddle is a community conference where Developers, Platform Engineers, DevOps, SRE, Cloud Enthusiasts, Technical and Business Strategists come together to learn from each other, collaborate and innovate.",
+  "date": {
+    "start": "2022-05-16",
+    "end": "2022-05-18"
+  },
+  "url": "https://kubehuddle.com/2023/"
+}

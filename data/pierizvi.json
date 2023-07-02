@@ -1,0 +1,16 @@
+{
+  "name": "Murtaza Rizvi",
+  "bio": "Mining and Extracting Open-Source-Softwares to World",
+  "links": [
+    {
+      "name": "Follow me on GitHub 💻",
+      "url": "https://github.com/pierizvi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter 🐦",
+      "url": "https://twitter.com/pierizvi",
+      "icon": "FaTwitter"
+    }
+  ]
+}

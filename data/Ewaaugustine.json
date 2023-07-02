@@ -1,0 +1,26 @@
+{
+  "name": "Ewa Augustine",
+  "bio": "Student Doctor turned **Software Developer**. Lover of good things and a technical writer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Javedvisual",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Ewaaugustine",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/augustine-javed-083908234/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/javedaugustine/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

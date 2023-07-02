@@ -1,0 +1,21 @@
+{
+  "name": "Shubham Singh",
+  "bio": "A Computer Science student currently in sophomore year | Web Developer",
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/__shubhamtwt",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "MyLinkedIn",
+      "url": "https://www.linkedin.com/in/shubham-singh-435220222/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/ShubhamSinghgit",
+      "icon": "SiGithub"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Daniela Espinosa",
+  "bio": "Software Engineering Student",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Danielaa_er",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/Danielaa_er",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/danielaaer/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/Danielaa_er",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Danielaaer",
+      "icon": "FaGitHub"
+    }
+  ]
+}

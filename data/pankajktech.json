@@ -1,0 +1,59 @@
+{
+  "name": "Pankaj Kumar",
+  "bio": "MERN Satck Web Developer, Student",
+  "tags": ["Open Source", "MERN Stack", "React JS", "GSSoC 2023"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pankajktech1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pankajktech"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/pankajktech"
+    }
+  ],
+  "links": [
+    {
+      "name": "Checkout My Portfolio",
+      "url": "https://pankajthakur.netlify.app",
+      "icon": "SiPersonio"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/pankajktech1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lets Connect On Linkedin",
+      "url": "https://www.linkedin.com/in/pankajktech",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout My Open Source Contributions",
+      "url": "https://www.github.com/pankajktech",
+      "icon": "FaGitHub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "GirlScript Summer of Code 2023",
+      "date": "May 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Opensource On GSSoC 2023",
+      "url": "https://github.com/pankajktech"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Opensource",
+      "url": "https://github.com/pankajktech"
+    }
+  ]
+}

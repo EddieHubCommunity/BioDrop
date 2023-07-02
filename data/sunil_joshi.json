@@ -1,0 +1,16 @@
+{
+  "name": "Sunil",
+  "bio": "Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/iamsunil25",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iamsunil25",
+      "icon": "FaTwitter"
+    }
+  ]
+}

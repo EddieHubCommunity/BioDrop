@@ -1,0 +1,33 @@
+{
+  "name": "John Areola",
+  "bio": "Software Engineer - Frontend Developer || UI Designer",
+  "tags": ["Open Source", "Javascript", "REACT"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JonnieDev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jonnie-Dev"
+    }
+  ],
+  "links": [
+    {
+      "name": "Portfolio website - Software Engineer",
+      "url": "http://jon-nie.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JonnieDev",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/john-areola",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

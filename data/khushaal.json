@@ -1,0 +1,16 @@
+{
+  "name": "Khushaal Choithramani",
+  "bio": "Software Developer || Coder || Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/khushxxl",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/khushaal_04",
+      "icon": "FaTwitter"
+    }
+  ]
+}

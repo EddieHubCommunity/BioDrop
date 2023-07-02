@@ -1,0 +1,16 @@
+{
+  "name": "Aman Singh",
+  "bio": "Currently trying to learn and explore new things",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Aman1919",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on linkedIn",
+      "url": "https://www.linkedin.com/in/aman-singh-64a30b212/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

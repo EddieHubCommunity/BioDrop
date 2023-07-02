@@ -1,0 +1,21 @@
+{
+  "name": "Ilyas Rufai",
+  "bio": "*DevOps Engineer || Content Creator || Technical Writer*",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rufilboy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rufilboy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/rufilboy",
+      "icon": "FaInstagram"
+    }
+  ]
+}

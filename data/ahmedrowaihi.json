@@ -1,0 +1,72 @@
+{
+  "name": "Ahmed Rowaihi",
+  "bio": "I'm a software engineer who is passionate about making open-source more accessible, creating technology to elevate people, and building community. Some technologies I enjoy working with include ReactJS, Node.js, and GraphQL.",
+  "tags": [
+    "React",
+    "Next.js",
+    "React Native",
+    "Javascript",
+    "Typescript",
+    "Node",
+    "Docker",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahmedrowaihi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ahmedrowaihi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ahmed-rowaihi"
+    },
+    {
+      "icon": "FaEnvelope",
+      "url": "mailto:developer@ahmedrowaihi.lol"
+    },
+    {
+      "icon": "FaCat",
+      "url": "https://curiouscat.live/AskAhmed1"
+    },
+    {
+      "icon": "FaComment",
+      "url": "https://tellonym.me/ahmedrowaihi"
+    }
+  ],
+  "links": [
+    {
+      "group": "#",
+      "name": "Portfolio",
+      "url": "https://ahmedrowaihi.lol",
+      "icon": "FaFire"
+    },
+    {
+      "group": "#",
+      "name": "Resume (PDF)",
+      "url": "https://ahmedrowaihi.lol/api/cv",
+      "icon": "FaFileAlt"
+    },
+    {
+      "group": "Ask me",
+      "name": "Curious about something? Ask me",
+      "url": "https://curiouscat.live/AskAhmed1",
+      "icon": "FaCat"
+    },
+    {
+      "group": "Ask me",
+      "name": "Tellonyme: Ask me anything",
+      "url": "https://tellonym.me/ahmedrowaihi",
+      "icon": "FaComment"
+    },
+    {
+      "group": "Community",
+      "name": "SudoGroup: Join our Discord community",
+      "url": "https://discord.com/invite/td9WGydjxM",
+      "icon": "FaDiscord"
+    }
+  ]
+}

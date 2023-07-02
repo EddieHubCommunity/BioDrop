@@ -1,0 +1,31 @@
+{
+  "name": "Edgar Ssensalo",
+  "bio": "Software Engineer & Machine Learning Pro",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ssensalo",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SsensaloEdgar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/edgar-ssensalo-572600167/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "March 2021",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started my freelancing journey",
+      "url": "https://www.edgarssensalo.io/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Yash Patel",
+  "bio": "MERN Stack Web Dev || Open Source || UI UX",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/yash-0025",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/YASH80914470",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yash-patel-9343601b7/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
