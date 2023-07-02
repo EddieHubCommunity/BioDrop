@@ -35,11 +35,11 @@ export default function GitHubAccelerator() {
             <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Link
                 href="http://accelerator.github.com"
-                className="inline-flex sm:ml-1.7 justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low-medium hover:bg-primary-low dark:hover:bg-slate-200 cursor-pointer"
+                className="inline-flex ml-1.7 justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low-medium hover:bg-primary-low dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
               >
                 <FaGithub
-                  className="-ml-0.5 sm:ml-3 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
+                  className="lg:-ml-0.5 ml-3 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
                   aria-hidden="true"
                 />
                 <span className="sm:ml-0.5">GitHub Accelerator</span>
@@ -50,7 +50,7 @@ export default function GitHubAccelerator() {
                 target="_blank"
               >
                 <FaMoneyBillAlt
-                  className="-ml-0.5 sm:-ml-1 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
+                  className="lg:-ml-0.5 -ml-1 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
                   aria-hidden="true"
                 />
                 <span className="sm:ml-0.5">GitHub Sponsors</span>
