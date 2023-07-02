@@ -1,3 +1,12 @@
+## [1.149.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.2...v1.149.3) (2023-07-02)
+
+
+### Bug Fixes
+
+* link and linkstats relationship ([#7913](https://github.com/EddieHubCommunity/LinkFree/issues/7913)) ([1d33148](https://github.com/EddieHubCommunity/LinkFree/commit/1d33148c7626df7f0ed70de0dbd2c93fb7ef21bc))
+
+
+
 ## [1.149.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.1...v1.149.2) (2023-07-01)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * random profile ([#7900](https://github.com/EddieHubCommunity/LinkFree/issues/7900)) ([f2aed8d](https://github.com/EddieHubCommunity/LinkFree/commit/f2aed8dccba992e3bb889149854ded52b0283bb5)), closes [#7617](https://github.com/EddieHubCommunity/LinkFree/issues/7617) [#7558](https://github.com/EddieHubCommunity/LinkFree/issues/7558)
-
-
-
-## [1.147.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.147.9...v1.147.10) (2023-07-01)
-
-
-### Bug Fixes
-
-* revert logger ([#7894](https://github.com/EddieHubCommunity/LinkFree/issues/7894)) ([9a40f1e](https://github.com/EddieHubCommunity/LinkFree/commit/9a40f1ec381aef0c088eeb8eadd54ea1967f96a9)), closes [#7562](https://github.com/EddieHubCommunity/LinkFree/issues/7562)
 
 
 
