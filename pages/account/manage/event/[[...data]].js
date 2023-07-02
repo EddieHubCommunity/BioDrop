@@ -45,6 +45,13 @@ export async function getServerSideProps(context) {
 
 export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
+  const formatDate = (inputDate) => {
+    const d = new Date(inputDate);
+    const date = d.toISOString().split("T")[0];
+    const time = d.toLocaleTimeString();
+
+    return `${date}T${time}`;
+  };
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -64,14 +71,6 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-
-  const formatDate = (inputDate) => {
-    const d = new Date(inputDate);
-    const date = d.toISOString().split("T")[0];
-    const time = d.toLocaleTimeString();
-
-    return `${date}T${time}`;
-  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
