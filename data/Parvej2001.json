@@ -1,9 +1,6 @@
 {
   "name": "Parvej Shaikh",
-  "displayStatsPublic" : true,
-  "type":"personal",
-  "bio": "Building Axstudios.tech and Skilled in Full Stack development.Exploring Cloud Native and Blockchain technology with a bachelor of engineering focused in Information Technology",
-  "avatar": "https://github.com/parvej2001.png",
+   "bio": "Building Axstudios.tech and Skilled in Full Stack development.Exploring Cloud Native and Blockchain technology with a bachelor of engineering focused in Information Technology",
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -11,7 +8,7 @@
       "icon": "FaTwitter"
     },
     {
-      "name": "Lets collobrate here",
+      "name": "Lets collaborate here",
       "url": "https://github.com/parvej2001",
       "icon": "FaGithub"
     },
@@ -19,7 +16,7 @@
       "name": "Follow me to hangout and chill",
       "url": "https://www.instagram.com/parvez_shaikh38",
       "icon": "FaInstagram"
-    },
+    }
     
   ]
 }
