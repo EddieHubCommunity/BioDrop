@@ -52,20 +52,32 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     message: "",
     additionalMessage: "",
   });
-  const [title, setTitle] = useState(
-    milestone.title || "Title of your Milestone"
-  );
-  const [description, setDescription] = useState(
-    milestone.description || "Description of your Milestone"
-  );
+  const [title, setTitle] = useState(milestone.title || "");
+  const [description, setDescription] = useState(milestone.description || "");
   const [url, setUrl] = useState(milestone.url || "");
-  const [icon, setIcon] = useState(milestone.icon || "FaGithub");
+  const [icon, setIcon] = useState(milestone.icon || "");
   const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
+  const [isFormChanged, setIsFormChanged] = useState(false);
+
+  useEffect(() => {
+    const isMileStoneChanged =
+      title !== milestone.title ||
+      description !== milestone.description ||
+      url !== milestone.url ||
+      icon !== milestone.icon ||
+      (date && date.split("T")[0]) !== (milestone.date && milestone.date.split("T")[0]) ||
+      isGoal !== milestone.isGoal;
+  
+    setIsFormChanged(isMileStoneChanged);
+  }, [title, description, url, icon, date, isGoal]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    if (!isFormChanged) {
+      return;
+    }
+    
     let putMilestone = {
       title,
       description,
@@ -98,9 +110,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         ).join(", ")}`,
       });
     }
-
+    setIsFormChanged(false);
+    
     Router.push(`${BASE_URL}/account/manage/milestone/${update._id}`);
-
+    
     return setShowNotification({
       show: true,
       type: "success",
@@ -262,9 +275,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
-                    SAVE
-                  </Button>
+                    <Button primary={isFormChanged} disabled={!isFormChanged}>
+                      SAVE
+                    </Button>
                 </div>
               </div>
             </div>

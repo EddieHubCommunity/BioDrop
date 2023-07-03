@@ -59,21 +59,23 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
-  const [hasChanges, setHasChanges] = useState(false);
+  const [isFormChanged, setIsFormChanged] = useState(false);
 
   useEffect(() => {
     const isLinkChanged =
       group !== link.group ||
       name !== link.name ||
       url !== link.url ||
-      icon !== link.icon 
+      icon !== link.icon || 
+      isEnabled !== link.isEnabled ||
+      isPinned !== link.isPinned;
 
-    setHasChanges(isLinkChanged);
-  }, [group, name, url, icon, isEnabled, isPinned, link]);
+    setIsFormChanged(isLinkChanged);
+  }, [group, name, url, icon, isEnabled, isPinned]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!hasChanges) {
+    if (!isFormChanged) {
       return;
     }
     let method = "POST";
@@ -105,8 +107,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
         ).join(", ")}`,
       });
     }
-    setHasChanges(false);
-
+    
+    setIsFormChanged(false);
 
     Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
     setEdit(true);
@@ -270,7 +272,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       DELETE
                     </Button>
                   )}
-                  <Button primary={hasChanges} disabled={!hasChanges}>SAVE</Button>
+                  <Button primary={isFormChanged} disabled={!isFormChanged}>
+                    SAVE
+                  </Button>
                 </div>
               </div>
             </div>

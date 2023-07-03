@@ -69,7 +69,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
   const layouts = ["classic", "inline"];
-  const [hasChanges, setHasChanges] = useState(false);
+  const [isFormChanged, setIsFormChanged] = useState(false);
 
   useEffect(() => {
     const isProfileModified =
@@ -77,12 +77,12 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       name !== profile.name ||
       bio !== profile.bio ||
       tags.join(",") !== profile.tags.join(",");
-    setHasChanges(isProfileModified);
+    setIsFormChanged(isProfileModified);
   }, [layout, name, bio, tags]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!hasChanges) {
+    if (!isFormChanged) {
       return;
     }
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
@@ -104,7 +104,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
           ).join(", ")}`,
         });
       }
-      setHasChanges(false);
+      setIsFormChanged(false);
       
       return setShowNotification({
         show: true,
@@ -239,7 +239,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                 </section>
 
                 <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
-                  <Button primary={hasChanges} disabled={!hasChanges}>SAVE</Button>
+                  <Button primary={isFormChanged} disabled={!isFormChanged}>
+                    SAVE
+                  </Button>
                   
                 </div>
               </div>
