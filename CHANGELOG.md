@@ -1,3 +1,12 @@
+## [1.149.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.6...v1.149.7) (2023-07-03)
+
+
+### Bug Fixes
+
+* manage testimonial dark mode ([#7936](https://github.com/EddieHubCommunity/LinkFree/issues/7936)) ([9992f1d](https://github.com/EddieHubCommunity/LinkFree/commit/9992f1dea4bf9720c1cf4b8d2b48c814f6f437d7))
+
+
+
 ## [1.149.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.5...v1.149.6) (2023-07-03)
 
 
@@ -21,15 +30,6 @@
 ### Bug Fixes
 
 * link and linkstats relationship ([#7913](https://github.com/EddieHubCommunity/LinkFree/issues/7913)) ([1d33148](https://github.com/EddieHubCommunity/LinkFree/commit/1d33148c7626df7f0ed70de0dbd2c93fb7ef21bc))
-
-
-
-## [1.149.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.1...v1.149.2) (2023-07-01)
-
-
-### Bug Fixes
-
-* profiles with no events ([#7906](https://github.com/EddieHubCommunity/LinkFree/issues/7906)) ([4a289b8](https://github.com/EddieHubCommunity/LinkFree/commit/4a289b8cf8b58af8aecf8ff76af6d24e68da4b03))
 
 
 
