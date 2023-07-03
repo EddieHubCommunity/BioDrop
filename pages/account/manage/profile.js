@@ -133,7 +133,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
             <section
               aria-labelledby="preview-data-heading"
-              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
+              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 bg-transparent lg:px-0 lg:pb-16"
             >
               <div className="mx-auto max-w-lg lg:max-w-none">
                 <UserProfile
