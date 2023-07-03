@@ -156,7 +156,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Milestone"
         description="Here you can manage your LinkFree milestone"
       />
 
