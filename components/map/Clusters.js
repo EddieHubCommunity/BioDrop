@@ -41,7 +41,6 @@ export default function Clusters({points}) {
       maxZoom: 18
     }
   });
-  
   const icons = {};
   const fetchIcon = (count) => {
     const size =
