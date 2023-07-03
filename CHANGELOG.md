@@ -1,3 +1,12 @@
+## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
+
+
+### Bug Fixes
+
+* responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
+
+
+
 ## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
 
 
@@ -26,10 +35,6 @@
 
 
 ## [1.149.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.4...v1.149.5) (2023-07-03)
-
-
-
-## [1.149.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.3...v1.149.4) (2023-07-02)
 
 
 
