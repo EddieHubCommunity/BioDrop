@@ -15,7 +15,7 @@ export default function EventMarker({event}) {
     <Marker
       icon={L.icon({
         className: "rounded-full",
-        iconUrl: `/placard.png`,
+        iconUrl: "/placard.png",
         popupAnchor: [0, -10],
         iconSize: [40, 40],
         iconAnchor: [20, 20],
