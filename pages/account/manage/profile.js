@@ -3,7 +3,7 @@ import path from "path";
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -69,9 +69,22 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
   const layouts = ["classic", "inline"];
+  const [hasChanges, setHasChanges] = useState(false);
+
+  useEffect(() => {
+    const isProfileModified =
+      layout !== profile.layout ||
+      name !== profile.name ||
+      bio !== profile.bio ||
+      tags.join(",") !== profile.tags.join(",");
+    setHasChanges(isProfileModified);
+  }, [layout, name, bio, tags]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!hasChanges) {
+      return;
+    }
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
@@ -88,12 +101,13 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         message: "Profile update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
           update.message
-        ).join(", ")}`,
-      });
-    }
-
-    return setShowNotification({
-      show: true,
+          ).join(", ")}`,
+        });
+      }
+      setHasChanges(false);
+      
+      return setShowNotification({
+        show: true,
       type: "success",
       message: "Profile updated",
       additionalMessage: "Your profile has been updated successfully",
@@ -225,7 +239,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                 </section>
 
                 <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
-                  <Button primary={true}>SAVE</Button>
+                  <Button primary={hasChanges} disabled={!hasChanges}>SAVE</Button>
+                  
                 </div>
               </div>
             </form>
