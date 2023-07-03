@@ -1,3 +1,12 @@
+## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
+
+
+### Bug Fixes
+
+* hot reload with docker compose up ([#7644](https://github.com/EddieHubCommunity/LinkFree/issues/7644)) ([9b541b6](https://github.com/EddieHubCommunity/LinkFree/commit/9b541b6f1988e948b06db65d2b0520caf355d39a))
+
+
+
 ## [1.149.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.6...v1.149.7) (2023-07-03)
 
 
@@ -21,15 +30,6 @@
 
 
 ## [1.149.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.3...v1.149.4) (2023-07-02)
-
-
-
-## [1.149.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.2...v1.149.3) (2023-07-02)
-
-
-### Bug Fixes
-
-* link and linkstats relationship ([#7913](https://github.com/EddieHubCommunity/LinkFree/issues/7913)) ([1d33148](https://github.com/EddieHubCommunity/LinkFree/commit/1d33148c7626df7f0ed70de0dbd2c93fb7ef21bc))
 
 
 
