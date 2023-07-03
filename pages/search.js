@@ -54,7 +54,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
 
   useEffect(() => {
     if (username) {
-      setNotFound(username);
+      setNotFound(`${username} not found`);
     }
   }, [username]);
 
