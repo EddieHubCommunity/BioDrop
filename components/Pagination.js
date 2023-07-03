@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { BsChevronDoubleLeft, BsChevronDoubleRight } from "react-icons/bs";
+import { FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft } from "react-icons/fa";
+import { BsChevronDoubleRight } from "react-icons/bs";
+import { BsChevronDoubleLeft } from "react-icons/bs";
 
 const Pagination = ({
   data,
