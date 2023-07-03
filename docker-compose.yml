@@ -3,7 +3,8 @@ version: "3.9"
 services:
   linkfree:
     container_name: linkfree
-    build: 
+    restart: always
+    build:
       context: .
       dockerfile: Dockerfile.dev
       args:
