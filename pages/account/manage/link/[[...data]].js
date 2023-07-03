@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -59,10 +59,23 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
+  const [hasChanges, setHasChanges] = useState(false);
+
+  useEffect(() => {
+    const isLinkChanged =
+      group !== link.group ||
+      name !== link.name ||
+      url !== link.url ||
+      icon !== link.icon 
+
+    setHasChanges(isLinkChanged);
+  }, [group, name, url, icon, isEnabled, isPinned, link]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    if (!hasChanges) {
+      return;
+    }
     let method = "POST";
     let putLink = { group, name, url, icon, isEnabled, isPinned };
 
@@ -92,6 +105,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
         ).join(", ")}`,
       });
     }
+    setHasChanges(false);
+
 
     Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
     setEdit(true);
@@ -255,9 +270,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
-                    SAVE
-                  </Button>
+                  <Button primary={hasChanges} disabled={!hasChanges}>SAVE</Button>
                 </div>
               </div>
             </div>
