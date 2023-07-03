@@ -1,3 +1,12 @@
+## [1.149.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.5...v1.149.6) (2023-07-03)
+
+
+### Bug Fixes
+
+* negative value for event ticket price ([#7893](https://github.com/EddieHubCommunity/LinkFree/issues/7893)) ([675f64e](https://github.com/EddieHubCommunity/LinkFree/commit/675f64e3d080001accdb014d0bfbca19c8573511))
+
+
+
 ## [1.149.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.4...v1.149.5) (2023-07-03)
 
 
@@ -21,15 +30,6 @@
 ### Bug Fixes
 
 * profiles with no events ([#7906](https://github.com/EddieHubCommunity/LinkFree/issues/7906)) ([4a289b8](https://github.com/EddieHubCommunity/LinkFree/commit/4a289b8cf8b58af8aecf8ff76af6d24e68da4b03))
-
-
-
-## [1.149.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.0...v1.149.1) (2023-07-01)
-
-
-### Bug Fixes
-
-* random profile text ([#7905](https://github.com/EddieHubCommunity/LinkFree/issues/7905)) ([dd9b971](https://github.com/EddieHubCommunity/LinkFree/commit/dd9b9716788c301d6eaff4629b31aa8edf73d51e))
 
 
 
