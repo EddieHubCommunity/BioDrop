@@ -239,6 +239,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
+                      min="0"
                       name="price"
                       label="Ticket Price"
                       onChange={(e) => setPrice(e.target.value)}
