@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -47,10 +47,13 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
   const formatDate = (inputDate) => {
     const d = new Date(inputDate);
-    const date = d.toISOString().split("T")[0];
-    const time = d.toLocaleTimeString();
-
-    return `${date}T${time}`;
+    const year = d.getFullYear();
+    const month = `${d.getMonth() + 1}`.padStart(2, '0');
+    const day = `${d.getDate()}`.padStart(2, '0');
+    const hours = `${d.getHours()}`.padStart(2, '0');
+    const minutes = `${d.getMinutes()}`.padStart(2, '0');
+    
+    return `${year}-${month}-${day}T${hours}:${minutes}`;
   };
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -65,16 +68,32 @@ export default function ManageEvent({ BASE_URL, event }) {
   );
   const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState(
-    event.date?.start && formatDate(event.date?.start)
+    event.date?.start ? formatDate(event.date?.start) : ''
   );
   const [endDate, setEndDate] = useState(
-    event.date?.end && formatDate(event.date?.end)
+    event.date?.end ? formatDate(event.date?.end) : ''
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
+  const [isFormChanged, setIsFormChanged] = useState(false);
+
+  useEffect(() => {
+    const isEventChanged =
+      name !== event.name ||
+      description !== event.description ||
+      url !== event.url ||
+      startDate !== (event.date?.start ? formatDate(event.date?.start) : '') ||
+      endDate !== (event.date?.end ? formatDate(event.date?.end) : '') ||
+      isVirtual !== (event.isVirtual ? true : false) ||
+      price !== (event.price?.startingFrom || 0);
+  
+    setIsFormChanged(isEventChanged);
+  }, [name, description, url, startDate, endDate, isVirtual, price, event]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    if (!isFormChanged) {
+      return;
+    }
     let putEvent = {
       name,
       description,
@@ -107,6 +126,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         ).join(", ")}`,
       });
     }
+    setIsFormChanged(false);
 
     Router.push(`${BASE_URL}/account/manage/event/${update._id}`);
 
@@ -265,9 +285,9 @@ export default function ManageEvent({ BASE_URL, event }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                    <Button type="submit" primary={isFormChanged} disabled={!isFormChanged}>
                     SAVE
-                  </Button>
+                    </Button>
                 </div>
               </div>
             </div>
