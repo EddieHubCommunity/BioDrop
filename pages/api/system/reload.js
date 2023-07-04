@@ -192,17 +192,29 @@ export default async function handler(req, res) {
       // 2. milestones
       try {
         if (profile.milestones) {
+          const milestones = profile.milestones.map((milestone) => {
+            let date = {};
+            const convert = new Date(milestone.date)
+            if (convert.toString() !== "Invalid Date") {
+              date = {
+                date: convert
+              }
+            }
+
+            return {
+              url: milestone.url,
+              isGoal: milestone.isGoal || false,
+              title: milestone.title,
+              icon: milestone.icon,
+              description: milestone.description,
+              ...date
+            }
+          });
+
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              milestones: profile.milestones.map((milestone) => ({
-                url: milestone.url,
-                date: milestone.date,
-                isGoal: milestone.isGoal || false,
-                title: milestone.title,
-                icon: milestone.icon,
-                description: milestone.description,
-              })),
+              milestones
             }
           );
         }
