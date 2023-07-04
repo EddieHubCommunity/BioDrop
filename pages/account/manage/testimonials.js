@@ -147,7 +147,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 >
                   <div className="min-w-0">
                     <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-primary-high">
+                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
                         {testimonial.username}
                       </p>
                     </div>
