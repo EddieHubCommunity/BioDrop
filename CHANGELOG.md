@@ -1,3 +1,12 @@
+## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
+
+
+### Bug Fixes
+
+* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
+
+
+
 ## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * manage testimonial dark mode ([#7936](https://github.com/EddieHubCommunity/LinkFree/issues/7936)) ([9992f1d](https://github.com/EddieHubCommunity/LinkFree/commit/9992f1dea4bf9720c1cf4b8d2b48c814f6f437d7))
-
-
-
-## [1.149.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.5...v1.149.6) (2023-07-03)
-
-
-### Bug Fixes
-
-* negative value for event ticket price ([#7893](https://github.com/EddieHubCommunity/LinkFree/issues/7893)) ([675f64e](https://github.com/EddieHubCommunity/LinkFree/commit/675f64e3d080001accdb014d0bfbca19c8573511))
 
 
 
