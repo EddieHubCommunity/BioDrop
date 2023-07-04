@@ -1,3 +1,12 @@
+## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
+
+
+### Bug Fixes
+
+* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
+
+
+
 ## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * negative value for event ticket price ([#7893](https://github.com/EddieHubCommunity/LinkFree/issues/7893)) ([675f64e](https://github.com/EddieHubCommunity/LinkFree/commit/675f64e3d080001accdb014d0bfbca19c8573511))
-
-
-
-## [1.149.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.4...v1.149.5) (2023-07-03)
 
 
 
