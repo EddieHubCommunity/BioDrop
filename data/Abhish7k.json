@@ -1,4 +1,10 @@
 {
   "name": "Abhishek",
-  "bio": "Full Stack Developer"
+  "bio": "Full Stack Developer",
+  "links": [
+    {
+      "url": "https://github.com/Abhish7k",
+      "icon": "FaGithub"
+    }
+  ]
 }
