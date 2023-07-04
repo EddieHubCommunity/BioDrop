@@ -115,6 +115,9 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
+
+        <Navigation />
+        
         <UserMini
           BASE_URL={BASE_URL}
           username={profile.username}
@@ -144,8 +147,6 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
         {!data.links && (
           <Alert type="warning" message="You don't have a profile yet." />
         )}
-
-        <Navigation />
 
         {dailyViews.length > 0 && (
           <div className="border mb-6 dark:border-primary-medium">
