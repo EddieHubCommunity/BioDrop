@@ -15,6 +15,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { useRouter } from "next/navigation";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -62,6 +63,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [icon, setIcon] = useState(milestone.icon || "FaGithub");
   const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -99,8 +101,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/milestone/${update._id}`);
-
+    router.back();
     return setShowNotification({
       show: true,
       type: "success",

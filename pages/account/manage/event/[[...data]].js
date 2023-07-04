@@ -14,6 +14,7 @@ import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { useRouter } from "next/navigation";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -71,6 +72,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -108,8 +110,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/event/${update._id}`);
-
+    router.back();
     return setShowNotification({
       show: true,
       type: "success",

@@ -2,6 +2,7 @@ import Router from "next/router";
 import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { useRouter } from "next/navigation";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -59,6 +60,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -96,6 +98,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
     setEdit(true);
 
+    router.back();
     return setShowNotification({
       show: true,
       type: "success",
