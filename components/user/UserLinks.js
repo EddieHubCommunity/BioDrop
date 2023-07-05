@@ -18,7 +18,7 @@ export default function UserLinks({
   return (
     <>
       {!links?.length && <Alert type="info" message="No links found" />}
-      {links?.length && (
+      {links?.length > 0 && (
         <>
           {Object.keys(buckets).map((name) => (
             <div key={name} className="flex flex-col items-center w-full">
