@@ -7,7 +7,6 @@ import {
 } from "react-icons/md";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
-import { format } from "date-fns";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
@@ -20,15 +19,20 @@ export default function EventCard({ manage, event, usernames }) {
   const [endTime, setEndTime] = useState(event.date.end);
 
   useEffect(() => {
+    const dateTimeStyle = {
+      dateStyle: "full",
+      timeStyle: "long",
+    };
     try {
       setStartTime(
-        format(
-          new Date(event.date.start),
-          "eeee, d MMMM yyyy 'at' HH:mm:ss OOOO"
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.start)
         )
       );
       setEndTime(
-        format(new Date(event.date.end), "eeee, d MMMM yyyy 'at' HH:mm:ss OOOO")
+        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
+          new Date(event.date.end)
+        )
       );
     } catch (e) {
       setStartTime(event.date.start);
@@ -53,12 +57,12 @@ export default function EventCard({ manage, event, usernames }) {
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
-        <div className="flex-1 p-4 space-y-1">
+        <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
             <div>
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
-                  <span className="text-lg font-medium tracking-wide capitalize lg:text-xl">
+                  <span className="text-lg lg:text-xl tracking-wide font-medium capitalize">
                     {event.name}
                   </span>
                   {event.url && (
@@ -72,7 +76,7 @@ export default function EventCard({ manage, event, usernames }) {
                   )}
                 </div>
                 {event.userStatus && (
-                  <div className="hidden italic text-primary-medium-low dark:text-primary-low-medium lg:block">
+                  <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
                     {event.userStatus == "speaking" && " at "} this event
                     {event.userStatus == "speaking" && event?.speakingTopic && (
@@ -84,15 +88,15 @@ export default function EventCard({ manage, event, usernames }) {
                   </div>
                 )}
               </div>
-              <p className="flex flex-col gap-2 text-sm text-primary-high dark:text-primary-low lg:flex-row">
+              <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
                 <span>{startTime}</span>
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>{endTime}</span>
               </p>
-              <ReactMarkdown className="flex-wrap py-1 text-sm text-primary-medium dark:text-primary-low-medium">
+              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
-              <p className="flex flex-wrap gap-2 py-1 text-sm text-primary-high dark:text-primary-low-medium">
+              <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
                 {(event.isVirtual || (event.isInPerson && event.location)) && (
                   <FaMapPin />
                 )}
@@ -108,7 +112,7 @@ export default function EventCard({ manage, event, usernames }) {
                 </span>
               </p>
             </div>
-            <div className="flex -space-x-1 isolate ">
+            <div className="isolate flex -space-x-1 ">
               {usernames &&
                 usernames.map((username) => {
                   return (
@@ -116,7 +120,7 @@ export default function EventCard({ manage, event, usernames }) {
                       href={`/${username}`}
                       key={username}
                       aria-label={`Visit user ${username}`}
-                      className="hidden w-10 h-10 lg:block"
+                      className="hidden lg:block h-10 w-10"
                     >
                       <FallbackImage
                         src={`https://github.com/${username}.png`}
@@ -141,7 +145,7 @@ export default function EventCard({ manage, event, usernames }) {
   );
 
   return (
-    <li className="flex flex-row w-full gap-8">
+    <li className="flex flex-row gap-8 w-full">
       {manage ? edit(event) : item(event)}
     </li>
   );
