@@ -1,3 +1,12 @@
+## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
+
+
+### Bug Fixes
+
+* margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
+
+
+
 ## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
-
-
-
-## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
-
-
-### Bug Fixes
-
-* hot reload with docker compose up ([#7644](https://github.com/EddieHubCommunity/LinkFree/issues/7644)) ([9b541b6](https://github.com/EddieHubCommunity/LinkFree/commit/9b541b6f1988e948b06db65d2b0520caf355d39a))
 
 
 
