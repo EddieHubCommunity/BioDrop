@@ -34,6 +34,11 @@ const EventSchema = new Schema({
   price: {
     startingFrom: Number,
   },
+  userStatus: {
+    type: String,
+    enum: ["speaking", "not-speaking"],
+  },
+  speakingTopic: String,
 });
 
 EventSchema.pre("save", () => {
