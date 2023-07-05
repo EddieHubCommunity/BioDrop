@@ -30,7 +30,7 @@ module.exports = {
           // orange
           low: "rgb(253 186 116)",
           medium: "rgb(234 88 12)",
-          high: "rgb(154 52 18)",
+          high: "rgb(148 50 18)",
         },
       },
     },
