@@ -1,6 +1,6 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-
+import { formatDate } from "@services/utils/formatDate";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
@@ -97,22 +97,11 @@ export async function getUserApi(req, res, username) {
     const today = new Date();
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
-      const dateTimeStyle = {
-        dateStyle: "full",
-        timeStyle: "long",
-      };
       try {
         const start = new Date(event.date.start);
         const end = new Date(event.date.end);
-        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(start);
-        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(end);
-
+        cleanEvent.date.startFmt = formatDate(start);
+        cleanEvent.date.endFmt = formatDate(end);
         cleanEvent.date.cfpOpen =
           event.date.cfpClose && new Date(event.date.cfpClose) > today;
         cleanEvent.date.future = start > today;
