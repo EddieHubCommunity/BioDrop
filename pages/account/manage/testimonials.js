@@ -100,7 +100,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         />
 
         <div>
-          <h3 className="text-lg font-medium leading-6 text-primary-high">
+          <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
             Testimonials you have received, toggle to show on your Profile
           </h3>
         </div>
