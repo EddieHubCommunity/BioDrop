@@ -159,7 +159,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       readOnly={true}
                     />
                   </div>
-                  <p className="text-sm text-primary-low-medium">
+                  <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                     GitHub username is part of your Profile URL:{" "}
                     {`${BASE_URL}/${profile.username}`}
                   </p>
@@ -206,7 +206,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         minLength="2"
                         maxLength="256"
                       />
-                      <p className="text-sm text-primary-low-medium">
+                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         You can use Markdown syntax.
                       </p>
                     </div>
@@ -218,7 +218,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         value={tags}
                         onChange={(e) => setTags(e.target.value.split(","))}
                       />
-                      <p className="text-sm text-primary-low-medium">
+                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         Separate tags with commas (no space required).
                       </p>
                     </div>
