@@ -10,6 +10,7 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 import { getEventApi } from "pages/api/account/manage/event/[[...data]]";
 import Input from "@components/form/Input";
+import DropdownMenu from "@components/form/DropDown";
 import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
@@ -70,6 +71,18 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState(
     event.date?.end && formatDate(event.date?.end)
   );
+  const DropDownOptions = [
+    {value: "Non-speaking", name:"No"},
+    {value: "Speaking", name: "Yes"}
+    
+  ];
+  const [eventType, setEventType] = useState("");
+  
+
+  const handleEventTypeChange = (event) => {
+    setEventType(event.target.value);
+    setPrice(""); // Reset the input value when the dropdown value changes
+  };
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
 
   const handleSubmit = async (e) => {
@@ -236,6 +249,33 @@ export default function ManageEvent({ BASE_URL, event }) {
                       For example: In <i>DD / MM / YYYY, HH:MM</i>
                     </p>
                   </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+        <DropdownMenu
+          eventType={eventType}
+          handleEventTypeChange={handleEventTypeChange}
+          options={DropDownOptions}
+          label="Are you a speaker?"
+          className=""
+        />
+        <p className="text-sm text-primary-low-medium">
+          Select Yes or No
+        </p>
+      </div>
+      {eventType === "Speaking" && (
+        <div className="mt-1 sm:col-span-2 sm:mt-0">
+          <Input
+            type="text"
+            min="0"
+            name="topic"
+            label="What topic are you speaking on ?"
+            // onChange={(e) => setTopic(e.target.value)}
+            // value={topic}
+          />
+          <p className="text-sm text-primary-low-medium">
+            For example: Your talk title
+          </p>
+        </div>
+      )}
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
