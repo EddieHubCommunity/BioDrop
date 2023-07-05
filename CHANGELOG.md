@@ -1,3 +1,12 @@
+## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
+
+
+### Bug Fixes
+
+* margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
+
+
+
 ## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
-
-
-
-## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
-
-
-### Bug Fixes
-
-* responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
 
 
 
