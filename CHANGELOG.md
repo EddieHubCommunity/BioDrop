@@ -1,3 +1,12 @@
+## [1.150.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.1...v1.150.2) (2023-07-06)
+
+
+### Bug Fixes
+
+* manage testimonials reordering [#7920](https://github.com/EddieHubCommunity/LinkFree/issues/7920) ([#7994](https://github.com/EddieHubCommunity/LinkFree/issues/7994)) ([996d44c](https://github.com/EddieHubCommunity/LinkFree/commit/996d44c89a4b91af7114d17188170b270b4d72a1))
+
+
+
 ## [1.150.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.0...v1.150.1) (2023-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
-
-
-
-## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
-
-
-### Bug Fixes
-
-* margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
 
 
 
