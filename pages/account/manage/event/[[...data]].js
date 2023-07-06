@@ -76,12 +76,12 @@ export default function ManageEvent({ BASE_URL, event }) {
     {value: "Speaking", name: "Yes"}
     
   ];
-  const [eventType, setEventType] = useState("");
-  
+  const [userStatus, setuserStatus] = useState(event.userStatus || "");
+  const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "Your speaking topic");
 
   const handleEventTypeChange = (event) => {
-    setEventType(event.target.value);
-    setPrice(""); // Reset the input value when the dropdown value changes
+    setuserStatus(event.target.value);
+    setspeakingTopic(""); // Reset the input value when the dropdown value changes
   };
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
 
@@ -95,7 +95,10 @@ export default function ManageEvent({ BASE_URL, event }) {
       date: { start: startDate, end: endDate },
       isVirtual,
       price: { startingFrom: price },
+      userStatus,
+      speakingTopic,
     };
+    console.log(putEvent);
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
       putEvent = { ...putEvent, _id: event._id };
@@ -158,7 +161,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Milestone"
         description="Here you can manage your LinkFree event"
       />
 
@@ -250,32 +253,32 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-        <DropdownMenu
-          eventType={eventType}
-          handleEventTypeChange={handleEventTypeChange}
-          options={DropDownOptions}
-          label="Are you a speaker?"
-          className=""
-        />
-        <p className="text-sm text-primary-low-medium">
-          Select Yes or No
-        </p>
-      </div>
-      {eventType === "Speaking" && (
-        <div className="mt-1 sm:col-span-2 sm:mt-0">
-          <Input
-            type="text"
-            min="0"
-            name="topic"
-            label="What topic are you speaking on ?"
-            // onChange={(e) => setTopic(e.target.value)}
-            // value={topic}
-          />
-          <p className="text-sm text-primary-low-medium">
-            For example: Your talk title
-          </p>
-        </div>
-      )}
+                      <DropdownMenu
+                        eventType={userStatus}
+                        handleEventTypeChange={handleEventTypeChange}
+                        options={DropDownOptions}
+                        label="Are you a speaker?"
+                        className=""
+                      />
+                      <p className="text-sm text-primary-low-medium">
+                        Select Yes or No
+                      </p>
+                    </div>
+                    {userStatus === "Speaking" && (
+                      <div className="mt-1 sm:col-span-2 sm:mt-0">
+                        <Input
+                          type="text"
+                          min="0"
+                          name="topic"
+                          label="What topic are you speaking on ?"
+                          onChange={(e) => setspeakingTopic(e.target.value)}
+                          value={speakingTopic}
+                        />
+                        <p className="text-sm text-primary-low-medium">
+                          For example: Your talk title
+                        </p>
+                      </div>
+                    )}
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
