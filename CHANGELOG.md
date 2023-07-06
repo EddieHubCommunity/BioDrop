@@ -1,3 +1,12 @@
+# [1.150.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.15...v1.150.0) (2023-07-06)
+
+
+### Features
+
+* manage reordering links and sorting ([#8002](https://github.com/EddieHubCommunity/LinkFree/issues/8002)) ([52358f0](https://github.com/EddieHubCommunity/LinkFree/commit/52358f0a32d22408b8e7b1888960e9a2fcad7e1d))
+
+
+
 ## [1.149.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.14...v1.149.15) (2023-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
-
-
-
-## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
-
-
-### Bug Fixes
-
-* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
 
 
 
