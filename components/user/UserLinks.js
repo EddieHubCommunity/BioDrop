@@ -1,12 +1,7 @@
 import UserLink from "./UserLink";
 import Alert from "@components/Alert";
 
-export default function UserLinks({
-  BASE_URL,
-  links,
-  username,
-  manage = false,
-}) {
+export default function UserLinks({ BASE_URL, links, username }) {
   const defaultBucket = "Others";
   const buckets = links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
@@ -43,7 +38,6 @@ export default function UserLinks({
                   key={link._id}
                   link={link}
                   username={username}
-                  manage={manage}
                   isEnabled={link.isEnabled}
                 />
               ))}
