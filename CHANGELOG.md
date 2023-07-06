@@ -1,3 +1,12 @@
+## [1.150.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.2...v1.150.3) (2023-07-06)
+
+
+### Bug Fixes
+
+* default form values for milestone and events ([#8013](https://github.com/EddieHubCommunity/LinkFree/issues/8013)) ([5db5d73](https://github.com/EddieHubCommunity/LinkFree/commit/5db5d7334b591d3349d03c08a3f007eb81003d24)), closes [#7962](https://github.com/EddieHubCommunity/LinkFree/issues/7962) [#7985](https://github.com/EddieHubCommunity/LinkFree/issues/7985)
+
+
+
 ## [1.150.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.1...v1.150.2) (2023-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve docs & broken doc links ([#7998](https://github.com/EddieHubCommunity/LinkFree/issues/7998)) ([0977181](https://github.com/EddieHubCommunity/LinkFree/commit/0977181c7500b70bd3c6c907acc43a0568278988))
-
-
-
-## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
-
-
-### Bug Fixes
-
-* margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
 
 
 
