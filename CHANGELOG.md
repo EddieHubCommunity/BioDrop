@@ -1,3 +1,12 @@
+## [1.149.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.14...v1.149.15) (2023-07-06)
+
+
+### Bug Fixes
+
+* improve docs & broken doc links ([#7998](https://github.com/EddieHubCommunity/LinkFree/issues/7998)) ([0977181](https://github.com/EddieHubCommunity/LinkFree/commit/0977181c7500b70bd3c6c907acc43a0568278988))
+
+
+
 ## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
-
-
-
-## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
-
-
-### Bug Fixes
-
-* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
 
 
 
