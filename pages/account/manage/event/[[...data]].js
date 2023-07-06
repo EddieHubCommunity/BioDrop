@@ -59,10 +59,8 @@ export default function ManageEvent({ BASE_URL, event }) {
     additionalMessage: "",
   });
   const [isVirtual, setIsVirtual] = useState(event.isVirtual ? true : false);
-  const [name, setName] = useState(event.name || "Official name of the Event");
-  const [description, setDescription] = useState(
-    event.description || "Description of the event from their website"
-  );
+  const [name, setName] = useState(event.name || "");
+  const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState(
     event.date?.start && formatDate(event.date?.start)
@@ -182,6 +180,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       label="Event Name"
                       onChange={(e) => setName(e.target.value)}
                       value={name}
+                      placeholder="Official name of the Event"
                       required
                       minLength="2"
                       maxLength="256"
@@ -196,6 +195,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       label="Description"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
+                      placeholder="Description of the event from their website"
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
@@ -205,6 +205,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       label="Event URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
+                      placeholder="https://www.example.com"
                       required
                       minLength="2"
                       maxLength="256"
