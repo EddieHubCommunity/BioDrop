@@ -84,7 +84,9 @@ export async function getUserApi(req, res, username) {
     ...getProfile,
     links: getProfile.links
       .filter((link) => link.isEnabled)
-      .sort((a, b) => a.order - b.order),
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE)
+      ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
       .map((link) => ({
