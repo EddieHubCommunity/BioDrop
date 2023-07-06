@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   return res.status(200).json(events);
 }
 
-export async function getEvents(inMap = false) {
+export async function getEvents(withLocation = false) {
   let events = [];
   try {
     events = await Profile.aggregate([
@@ -20,7 +20,7 @@ export async function getEvents(inMap = false) {
       { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
       { $unwind: "$events" },
       { $match: { "events.date.end": { $gt: new Date() } } },
-      ...(inMap
+      ...(withLocation
         ? [
             {
               $match: {

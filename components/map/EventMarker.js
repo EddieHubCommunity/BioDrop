@@ -25,7 +25,7 @@ export default function EventMarker({event}) {
       <Popup>
         <div className="flex flex-col gap-[5px]">
           <h1 className="font-[600]">
-            <Link href={`${event.properties.url}`}>
+            <Link href={event.properties.url}>
               {event.properties.name}
             </Link>
           </h1>
