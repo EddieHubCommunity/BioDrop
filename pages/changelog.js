@@ -10,6 +10,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Reorder testimonials and links",
+      description:
+        "As these items don't have lists you may want to reorder them",
+      type: "addition",
+      date: "2023-07-06",
+    },
+    {
+      title: "Manage profile with forms",
+      description:
+        "We now have functionality to manage your profile with forms",
+      type: "addition",
+      date: "2023-06-14",
+    },
+    {
       title: "Custom login page",
       description:
         "We were using the standard Next-Auth page but now we have a branded login page",
