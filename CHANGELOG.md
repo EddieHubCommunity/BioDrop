@@ -1,3 +1,12 @@
+## [1.150.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.0...v1.150.1) (2023-07-06)
+
+
+### Bug Fixes
+
+* user changelog update ([#8010](https://github.com/EddieHubCommunity/LinkFree/issues/8010)) ([4a76022](https://github.com/EddieHubCommunity/LinkFree/commit/4a760222938f1209317b9634602d688dc9b620e0))
+
+
+
 # [1.150.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.15...v1.150.0) (2023-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
-
-
-
-## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
-
-
-### Bug Fixes
-
-* handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
 
 
 
