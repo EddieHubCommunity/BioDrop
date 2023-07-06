@@ -100,7 +100,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         />
 
         <div>
-          <h3 className="text-lg font-medium leading-6 text-primary-high">
+          <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
             Testimonials you have received, toggle to show on your Profile
           </h3>
         </div>
@@ -147,7 +147,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 >
                   <div className="min-w-0">
                     <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-primary-high">
+                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
                         {testimonial.username}
                       </p>
                     </div>

@@ -58,6 +58,16 @@
       "name": "AI Chat Bot",
       "url": "https://open-ai-node-vamsikurimeti.vercel.app/",
       "icon": "SiChatbot"
+    },
+     {
+      "name": "Daily Dev",
+      "url": "https://app.daily.dev/vamsikurimeti",
+      "icon": "FaInfinity"
+    },
+     {
+      "name": "Hashnode",
+      "url": "https://vamsikurimeti.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }
