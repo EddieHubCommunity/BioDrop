@@ -52,24 +52,12 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     message: "",
     additionalMessage: "",
   });
-  const [title, setTitle] = useState(
-    milestone.title || ""
-  );
-  const [description, setDescription] = useState(
-    milestone.description || ""
-  );
-  const [url, setUrl] = useState(
-    milestone.url || ""
-    );
-  const [icon, setIcon] = useState(
-    milestone.icon || ""
-    );
-  const [date, setDate] = useState(
-    milestone.date || ""
-    );
-  const [isGoal, setIsGoal] = useState(
-    milestone.isGoal ? true : false
-    );
+  const [title, setTitle] = useState(milestone.title || "");
+  const [description, setDescription] = useState(milestone.description || "");
+  const [url, setUrl] = useState(milestone.url || "");
+  const [icon, setIcon] = useState(milestone.icon || "");
+  const [date, setDate] = useState(milestone.date || "");
+  const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

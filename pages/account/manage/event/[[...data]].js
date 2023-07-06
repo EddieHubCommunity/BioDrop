@@ -60,9 +60,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   });
   const [isVirtual, setIsVirtual] = useState(event.isVirtual ? true : false);
   const [name, setName] = useState(event.name || "");
-  const [description, setDescription] = useState(
-    event.description || ""
-  );
+  const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState(
     event.date?.start && formatDate(event.date?.start)
