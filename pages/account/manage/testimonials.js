@@ -129,45 +129,45 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               </Button>
             )}
           </div>
-          <ul role="list" className="divide-y divide-primary-low">
-            <ReactSortable
-              list={testimonialList}
-              setList={setTestimonialList}
-              disabled={!reorder}
-              ghostClass="border-2"
-              chosenClass="border-dashed"
-              dragClass="border-red-500"
-            >
-              {testimonialList.map((testimonial) => (
-                <li
-                  key={testimonial._id}
-                  className={`flex items-center justify-between gap-x-6 py-5 ${
-                    reorder ? "animate-pulse" : ""
-                  }`}
-                >
-                  <div className="min-w-0">
-                    <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
-                        {testimonial.username}
-                      </p>
-                    </div>
-                    <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
-                      <p className="whitespace-normal">
-                        {testimonial.description}
-                      </p>
-                    </div>
+          <ReactSortable
+            tag="ul"
+            list={testimonialList}
+            setList={setTestimonialList}
+            disabled={!reorder}
+            ghostClass="border-2"
+            chosenClass="border-dashed"
+            dragClass="border-red-500"
+            className="divide-y divide-primary-low"
+          >
+            {testimonialList.map((testimonial) => (
+              <li
+                key={testimonial._id}
+                className={`flex items-center justify-between gap-x-6 py-5 ${
+                  reorder ? "animate-pulse" : ""
+                }`}
+              >
+                <div className="min-w-0">
+                  <div className="flex items-start gap-x-3">
+                    <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
+                      {testimonial.username}
+                    </p>
                   </div>
-                  <div className="flex flex-none items-center gap-x-4">
-                    <Toggle
-                      enabled={testimonial.isPinned}
-                      setEnabled={() => toggle(testimonial._id)}
-                    />
+                  <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-medium-low dark:text-primary-low-high">
+                    <p className="whitespace-normal">
+                      {testimonial.description}
+                    </p>
                   </div>
-                </li>
-              ))}
-            </ReactSortable>
-          </ul>
-        </div>
+                </div>
+                <div className="flex flex-none items-center gap-x-4">
+                  <Toggle
+                    enabled={testimonial.isPinned}
+                    setEnabled={() => toggle(testimonial._id)}
+                  />
+                </div>
+              </li>
+            ))}
+          </ReactSortable>
+       </div>
       </Page>
     </>
   );
