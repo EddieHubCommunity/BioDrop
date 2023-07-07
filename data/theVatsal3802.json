@@ -1,0 +1,66 @@
+{
+  "name": "Vatsal Adhiya",
+  "socials": [
+    {
+      "icon": "SiGmail",
+      "url": "mailto:vatsaladhiya248@gmail.com"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/adhiya_vatsal_3"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vatsal-adhiya-206479202/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/thevatsal3802"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/theVatsal3802"
+    }
+  ],
+  "bio": "Enthusiastic **Flutter Developer** with interest in **Machine Learning** & **Quantum Computing**. Creating innovative mobile apps and always looking to push boundaries in tech.",
+  "tags": [
+    "Open Source",
+    "Flutter",
+    "Android",
+    "Machine Learning",
+    "Python",
+    "Quantum Computing"
+  ],
+  "links": [
+    {
+      "name": "Have Project Ideas? Mail for collaboration",
+      "url": "mailto:vatsaladhiya248@gmail.com",
+      "icon": "SiGmail",
+      "group": "Connect and Project Ideas"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/adhiya_vatsal_3",
+      "icon": "FaTwitter",
+      "group": "Socials Primary"
+    },
+    {
+      "name": "GitHub: Will be happy to colab on open-source projects",
+      "url": "https://github.com/theVatsal3802",
+      "icon": "FaGithub",
+      "group": "Socials Primary"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vatsal-adhiya-206479202/",
+      "icon": "FaLinkedin",
+      "group": "Socials Primary"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/thevatsal3802",
+      "icon": "FaInstagram",
+      "group": "Socials Secondary"
+    }
+  ]
+}

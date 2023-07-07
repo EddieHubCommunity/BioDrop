@@ -1,0 +1,36 @@
+{
+  "name": "Ayush Gandhi",
+  "bio": "I am a Software Engineer. A noob who always try to learn new things!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AyushGandhii",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Github",
+      "url": "https://github.com/ayush-3150/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/ayush-gandhi-8443a8176/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCYpQICoB6LNdHRyvpPSuILw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Check out my playlist on Spotify",
+      "url": "https://open.spotify.com/user/31rij5ilpxbh7dpoey6c7kwudfl4?si=nDuXe3zOQNewlryYnU3r3g",
+      "icon": "FaSpotify"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://hashnode.com/@Ayush3150",
+      "icon": "SiHashnode"
+    }
+  ]
+}

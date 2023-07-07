@@ -1,0 +1,27 @@
+{
+  "name": "Simon Verhoeven",
+  "bio": "I'm a software developer living in Belgium that's always open for an interesting chat.ob",
+  "tags": ["OpenSource", "Javascript", "Java", "Angular", "SQL", "Docker"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/simon_verhoeven",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://twitter.com/simon_verhoeven",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "LinkedIn: let's connect",
+      "url": "https://www.linkedin.com/in/simonverhoeven/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/SimonVerhoeven",
+      "icon": "FaGithub"
+    }
+  ]
+}

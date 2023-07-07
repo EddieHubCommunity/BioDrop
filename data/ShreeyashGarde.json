@@ -1,0 +1,21 @@
+{
+  "name": "Shreeyash Garde",
+  "bio": "Student at Pcet's NMIET , currently learning frontend web developement and data structures and algorithm in Java",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShreeyashGarde",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/shreeyash-garde-b60183230/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Github",
+      "url": "https://github.com/ShreeyashGarde",
+      "icon": "FaGithub"
+    }
+  ]
+}

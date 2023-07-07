@@ -1,0 +1,26 @@
+{
+  "name": "Agrim",
+  "bio": "Smart Contract Developer | Web Developer | Technical Writer",
+  "links": [
+    {
+      "name": "Read my Blogs",
+      "url": "https://agrimsharma.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Agrim_Sharma174",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/agrim-sharma174/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/Agrim-Sharma174",
+      "icon": "FaGithub"
+    }
+  ]
+}

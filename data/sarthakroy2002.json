@@ -1,0 +1,67 @@
+{
+  "name": "Sarthak Roy",
+  "bio": "Full Stack Developer | AOSP Device maintainer | Open source contributor",
+  "tags": [
+    "java",
+    "open-source",
+    "android",
+    "aosp",
+    "nodeJS",
+    "reactJS",
+    "tailwindCSS",
+    "mongodb",
+    "c",
+    "python",
+    "cpp"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sarthak2002"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sarthakroy2002"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sarthakroy2002/"
+    },
+    {
+      "icon": "website",
+      "url": "https://www.sarthakroy2002.live/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sarthak2002",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Git",
+      "url": "https://github.com/sarthakroy2002",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sarthakroy2002/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my Hashnode Blog",
+      "url": "https://sarthakroy2002.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Let's connect on Showwcase",
+      "url": "https://www.showwcase.com/sarthakroy2002",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Visit my personal website",
+      "url": "https://www.sarthakroy2002.live/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Bello Olalekan",
+  "bio": "SRE | DevOps Engineer. Cloud Native and Open Source Enthusiast",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bello-olalekan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SenseiQyu",
+      "icon": "FaTwitter"
+    }
+  ]
+}

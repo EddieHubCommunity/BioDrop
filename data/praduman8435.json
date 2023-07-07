@@ -1,0 +1,40 @@
+{
+  "name": "Praduman Prajapati",
+  "bio": "A **MERN** stack and **DevOps** enthusiast",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Praduman___"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/praduman8435"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/praduman-prajapati/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Praduman___",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/___.praduman.___/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Lets connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/praduman-prajapati/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/praduman8435",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Krishna Sarathi Ghosh",
+  "bio": "Python, Web Developer.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CodesKae",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe my YT Channel",
+      "url": "https://youtube.com/@techboykrish",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Twitter",
+      "date": "February 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Joined my first social media"
+    },
+    {
+      "title": "Completed a Python Course and completed a test with More than 80% score. Received Certificate.",
+      "date": "25 June 2022",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "Completed an online course and completed a test with it. Scored more than 80% so received a certificate.",
+      "url": "https://app.programming-hero.com/certificates/PH9481"
+    },
+    {
+      "title": "Joined YouTube",
+      "url": "https://youtube.com/@techboykrish",
+      "icon": "FaYoutube",
+      "date": "25 June 2022"
+    }
+  ]
+}

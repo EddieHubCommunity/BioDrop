@@ -1,0 +1,96 @@
+{
+  "name": "Rishi Joshi",
+  "bio": "Just a guy passionate for Web Development",
+  "tags": [
+    "C++",
+    "Open Source",
+    "WebDev",
+    "Javascript",
+    "Java",
+    "C",
+    "Frontend"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iamrishijo"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rishi-joshi-924882200/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tangorishi"
+    }
+  ],
+  "links": [
+    {
+      "group": "Personal",
+      "name": "My Portfolio ",
+      "url": "https://tangorishi.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Tech-Twitter",
+      "url": "https://twitter.com/iamrishijo",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Collaborate on Open Source",
+      "url": "https://github.com/tangorishi",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's connect",
+      "url": "https://www.linkedin.com/in/rishi-joshi-924882200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's look profesional",
+      "url": "rishijoshi.outlook@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Open Source Contribution",
+      "date": " January 2023",
+      "icon": "FaGithub",
+      "description": "Created my own repository to push content to learn C",
+      "url": "https://github.com/tangorishi/NewToC"
+    },
+    {
+      "title": "Created my first portfolio project",
+      "date": " March 2023",
+      "icon": "FaLink",
+      "description": "I created my first portfolio project using JavaScript, HTML, and Cascading Style Sheet. Fun fact- Website is under construction",
+      "url": "https://tangorishi.github.io/"
+    },
+    {
+      "title": "Contributed to Django a leading Pyhton Web Framework software",
+      "date": " April 2023",
+      "icon": "FaGithub",
+      "description": "Fixed some of the typos to improve the documentation.",
+      "url": "https://github.com/django/django/commit/1c7aed71ec70d4ef0c2cae6de9cee844d03e7054"
+    },
+    {
+      "isGoal": true,
+      "title": "Improve the quality of my open source contributions and add more value to it.",
+      "date": "2023",
+      "icon": "FaGithub",
+      "description": "Currently I am contributing to various repositories that uses HTML, Javascript and css as their fundamental tech stacks. At the same time also contributing to GSOC organization so as to participate in nexxt year's GSOC"
+    },
+    {
+      "isGoal": true,
+      "title": "Start writing the Blogs",
+      "date": "2023",
+      "icon": "SiHashnode",
+      "description": "Inspired by Kunal, I'll try to share my journey via blogs."
+    }
+  ]
+}

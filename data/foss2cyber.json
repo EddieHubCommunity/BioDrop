@@ -1,0 +1,156 @@
+{
+  "name": "Ishan Velle",
+  "bio": "Front-end Developer | Freelancer | Designer | Blogger",
+  "tags": [
+    "Open Source",
+    "Markdown",
+    "JavaScript",
+    "Node.js",
+    "React",
+    "NextJS",
+    "Gatsby",
+    "Astro",
+    "TailwindCSS",
+    "DevOps",
+    "Python",
+    "Bash",
+    "Linux",
+    "Docker",
+    "Network Security",
+    "Homelab",
+    "Self-hosting",
+    "Cybersecurity",
+    "OSINT"
+  ],
+  "socials": [
+    {
+      "icon": "FaLink",
+      "url": "https://www.yourishanvelle.dev/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thefoss_m"
+    },
+    {
+      "icon": "FaGithubAlt",
+      "url": "https://github.com/foss2cyber"
+    },
+    {
+      "icon": "FaCodepen",
+      "url": "https://codepen.io/mfosscoder"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/ishan-velle-fossie8"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://psibr-oh.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Freelancing",
+      "name": "Freelance Web Development and Logo Designing",
+      "url": "https://www.yourishanvelle.dev/#work",
+      "icon": "SiFreelancer"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Follow me for the latest updates Web Development, Cybersecurity/Infosec/OSINT/DFIR, DevOps and more!",
+      "url": "https://twitter.com/thefoss_m",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Checkout my profile for FOSS projects and collaboration",
+      "url": "https://github.com/foss2cyber",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
+      "url": "https://linkedin.com/in/ishan-velle-fossie8",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Checkout my blog where I write about Cybersecurity/Infosec/OSINT/DFIR, open source, Web Development, & DevOps",
+      "url": "https://psibr-oh.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Google Homepage Clone",
+      "url": "https://github.com/foss2cyber/google-clone",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Luxury Resort Landing Page - Built with React & TailwindCSS",
+      "url": "https://github.com/foss2cyber/react-tailwind-site",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Reactive Ticket App - Track Network Metrics with ease",
+      "url": "https://github.com/foss2cyber/reactive-ticket-app",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Embarked on Freelancing Journey",
+      "date": "July 2022",
+      "icon": "SiFreelancer",
+      "color": "purple",
+      "description": "Successfully launched my freelancing career, offering my services to clients and building a diverse portfolio.",
+      "url": "https://www.yourishanvelle.dev/#work"
+    },
+    {
+      "title": "Developed Reactive Ticket App during GitHub + DEV 2023 Hackathon",
+      "date": "June 2023",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Created the Reactive Ticket App, a React-based tool developed as part of the GitHub + DEV 2023 Hackathon. The app generates virtual tickets and provides network metrics, including IP address, network status code, and user agent. Leveraged React, Axios, and Tailwind CSS for frontend development. Integrated CI/CD pipeline using GitHub Actions for automated build, test, and deployment. The app was successfully deployed on Vercel, ensuring optimal performance.",
+      "url": "https://dev.to/near5davy/reactive-ticket-app-seamlessly-track-network-metrics-57nl"
+    },
+    {
+      "isGoal": true,
+      "title": "Land DevOps Engineer role",
+      "date": "December 2023",
+      "icon": "FaCogs",
+      "color": "green",
+      "description": "My goal is to secure a DevOps Engineer's role by the end of the year 2023. I will actively pursue opportunities, enhance my skills, and showcase my expertise in DevOps practices, automation, and cloud technologies.",
+      "url": "https://yourishanvelle.dev/cv"
+    },
+    {
+      "isGoal": true,
+      "title": "Make impactful open-source contributions",
+      "date": "Throughout 2023",
+      "icon": "FaCodeBranch",
+      "color": "lavender",
+      "description": "I aim to contribute to impactful open-source projects throughout 2023 to enhance my portfolio and skills. By collaborating with the open-source community, I will contribute valuable code, documentation, and insights while expanding my knowledge and establishing myself as a trusted contributor.",
+      "url": "https://github.com/foss2cyber"
+    }
+  ],
+  "events": [
+    {
+      "isVirtual": false,
+      "isInPerson": true,
+      "userStatus": "attending",
+      "color": "#4183f3",
+      "name": "Google Cloud Community Day 2023",
+      "description": "I attended Google Cloud Community Day 2023 in New Delhi, engaging with like-minded individuals, participating in discussions, and expanding my knowledge of cloud technologies. It provided valuable networking opportunities within the community.",
+      "date": {
+        "start": "2023-05-20T09:00:00+05:30",
+        "end": "2023-05-20T17:00:00+05:30"
+      },
+      "location": {
+        "city": "New Delhi",
+        "country": "India"
+      },
+      "url": "https://www.commudle.com/communities/gdgcloudnd/events/google-cloud-community-day-2023"
+    }
+  ]
+}

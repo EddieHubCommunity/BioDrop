@@ -1,0 +1,21 @@
+{
+  "name": "Ayan Das",
+  "bio": "I am a student having a keen intrest in Web Development and Open Source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ayan_das_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/ayan-das-5b1738267/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@ayandas1",
+      "icon": "SiHashnode"
+    }
+  ]
+}

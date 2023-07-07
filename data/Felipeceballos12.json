@@ -1,0 +1,31 @@
+{
+  "name": "Luis Felipe Ceballos Caicedo",
+  "bio": "Web developer 💻",
+  "links": [
+    {
+      "name": "Follow me on GitHub 😺",
+      "url": "https://github.com/Felipeceballos12",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter ✨",
+      "url": "https://twitter.com/codeandfelipex",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn ✨",
+      "url": "https://www.linkedin.com/in/luisfelipeceballos",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Programming technician (Internship)",
+      "date": "Mayo 2016",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "First job",
+      "url": "https://www.datecsa.com/"
+    }
+  ]
+}

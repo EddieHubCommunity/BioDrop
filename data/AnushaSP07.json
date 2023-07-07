@@ -1,0 +1,26 @@
+{
+  "name": "Anusha SP",
+  "bio": "Application Developer. Enthusiastic Learner. Content Writer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnushaSP07/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@anushasp07",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on HashNode",
+      "url": "https://hashnode.com/@AnushaSP07",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/anushasp07/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

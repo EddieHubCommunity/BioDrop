@@ -1,0 +1,21 @@
+{
+  "name": "Stefan Taitano",
+  "bio": "Full Stack Web Developer | U.S. Army Soldier ",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/codewithfan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/codewithfan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://codewithfan.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

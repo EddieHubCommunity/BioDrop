@@ -1,0 +1,21 @@
+{
+  "name": "Viraj Nirbhavane",
+  "bio": "I am Viraj Nirbhavane, developer and open source enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/viraj28",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mi8guy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Dev.to profile",
+      "url": "https://dev.to/viraj28",
+      "icon": "FaDev"
+    }
+  ]
+}

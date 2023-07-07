@@ -1,0 +1,43 @@
+{
+  "name": "Chris Idoko",
+  "bio": "Frontend Developer | Open Source ",
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJs"],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Github",
+      "url": "https://github.com/Chrisidoko",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Chris_devxo",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://www.linkedin.com/in/chris-idoko-56907b207/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Check my Porfolio",
+      "url": "https://portfolio-vercel-puce.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "GamesMode",
+      "url": "https://gamesmode-vercel.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Query Store",
+      "url": "https://query-store.vercel.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

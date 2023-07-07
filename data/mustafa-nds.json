@@ -1,0 +1,62 @@
+{
+  "name": "Mustafa ansari",
+  "bio": "engineering student | learner | dev | a geek | investor",
+  "tags": ["Open Source", "problem solver", "learner", "web"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mustafa_nds"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mustafa-nds"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mustafa-nds",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/mustafa_nds",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning code",
+      "date": "April 2021",
+      "icon": "SiBmcsoftware",
+      "color": "blue",
+      "description": "Started project making",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2021",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "making simple and smooth web",
+      "url": "https://github.com/mustafa-nds"
+    },
+    {
+      "title": "Started collage",
+      "date": "sep 2021",
+      "icon": "SiStartrek",
+      "color": "blue",
+      "description": "make simple and smooth,animated",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"
+    }
+  ]
+}

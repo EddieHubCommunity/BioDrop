@@ -1,0 +1,16 @@
+{
+  "name": "Anantha Ramanathan A",
+  "bio": "Full-stack Java developer with Angular",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AnanthaRamanathan138",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnanthaRaman138",
+      "icon": "FaTwitter"
+    }
+  ]
+}

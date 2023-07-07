@@ -1,0 +1,21 @@
+{
+  "name": "Akshat Kumar",
+  "bio": "Software Developer | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/KyloRen04",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akshat-kumar-75816b20b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "See my Portfolio",
+      "url": "https://superlative-lily-568543.netlify.app",
+      "icon": "FaLink"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Hana Aliyah Mufidah",
+  "bio": "Wanderlust | Software Developer | Language Enthusiast",
+  "links": [
+    {
+      "name": "Fyi, my GitHub, just in case",
+      "url": "https://github.com/aliyanamu",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn. Any potential job offers?",
+      "url": "https://www.linkedin.com/in/hana-aliyah-mufidah",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Bare minimum-ing on Instagram",
+      "url": "https://www.instagram.com/hanalyh",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Born",
+      "date": "November 1993",
+      "color": "#3599cd",
+      "description": "Discovered the world"
+    },
+    {
+      "title": "Graduated from Full Stack Immersive Bootcamp",
+      "date": "November 2018",
+      "icon": "FaGraduationCap",
+      "color": "orange",
+      "description": "On my birthday, speak of coincidence."
+    },
+    {
+      "title": "Open Source Contributor",
+      "date": "February 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Had not done any project on github since November 2018, decides to contribute to Open Source and Collaboration."
+    }
+  ]
+}

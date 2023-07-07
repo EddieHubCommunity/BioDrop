@@ -1,0 +1,16 @@
+{
+  "name": "Adil Irshad",
+  "bio": "Exploring open source",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/adil14788",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdilIrshad73",
+      "icon": "FaTwitter"
+    }
+  ]
+}

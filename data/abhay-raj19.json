@@ -1,0 +1,41 @@
+{
+  "name": "Abhay Rajpoot",
+  "bio": "**MERN** | **DevOps** Enthusiast | **Open Source** |",
+  "tags": ["Open Source", "DevOps", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abhayraj423"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abhay-raj19"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhay-rajpoot-799a00184"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhay-raj19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhayraj423",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/aboyyraj",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhay-rajpoot-799a00184",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

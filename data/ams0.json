@@ -1,0 +1,43 @@
+{
+  "name": "Alessandro Vozza",
+  "bio": "Platform Advocate @ Solo.io | Organizer at Kubernetes Community Days Amsterdam | Kubernetes | Service Mesh | Cloud-Native Open Source",
+  "tags": [
+    "DevRel",
+    "Cloud-Native Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Service Mesh",
+    "Networking"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/bongo"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ams0"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/alessandrovozza/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Seldomly updated Twitter rants",
+      "url": "https://twitter.com/bongo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my GitHub repositories",
+      "url": "https://github.com/ams0",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/alessandrovozza/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

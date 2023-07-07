@@ -1,0 +1,26 @@
+{
+  "name": "Mohamed Shahin S",
+  "bio": "Why getting addicted to Applications and tech? Instead Create them",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/itsshahinhere",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsshahinhere",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://hashnode.com/@itsshahinhere",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/itsshahinhere/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

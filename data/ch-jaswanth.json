@@ -1,0 +1,21 @@
+{
+  "name": "Chunduri Jaswanth",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/jaswanth187",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jaswanth73",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jaswanth-ch-1b71221b7",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

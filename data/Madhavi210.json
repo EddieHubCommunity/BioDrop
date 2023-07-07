@@ -1,0 +1,36 @@
+{
+  "name": "Madhavi Joshi",
+  "bio": "Newbie in tech | Learning Full Stack Web Development | Learning from Communities & Opensource",
+  "tags": ["Open Source", "Web Development", "Frontend", "JavaScript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Madhavi_Joshi__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Madhavi210"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "linkedin.com/in/madhavi-joshi-0b3228239/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Madhavi_Joshi__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/madhavi-joshi-0b3228239/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Madhavi210",
+      "icon": "FaGithub"
+    }
+  ]
+}

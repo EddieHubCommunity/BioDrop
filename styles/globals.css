@@ -1,0 +1,50 @@
+@import "./onedark.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+code.language-unknown::before,
+code.language-unknown::after {
+  content: "";
+}
+
+@layer base {
+  body {
+    @apply dark:bg-primary-high dark:text-white bg-white text-black;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply dark:text-white;
+  }
+  th {
+    @apply dark:text-white;
+  }
+  td {
+    @apply dark:text-primary-low;
+  }
+  code {
+    @apply dark:text-primary-low;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

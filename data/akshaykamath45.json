@@ -1,0 +1,21 @@
+{
+  "name": "Akshay Kamath",
+  "bio": "Learning  **Web Development**.Computer Engineering Student",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/akshaykamath45/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshaykamath_45",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/akshaykamath45",
+      "icon": "FaGithub"
+    }
+  ]
+}

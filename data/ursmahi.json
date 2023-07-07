@@ -1,0 +1,35 @@
+{
+  "name": "MAHIDHAR KAKUMANI",
+  "bio": "Fronted Web Developer",
+  "tags": [
+    "Open Source",
+    "Python",
+    "ReactJs",
+    "NextJS",
+    "Javascript",
+    "Docker",
+    "TailwindCSS"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mahiKMC",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mahidharkakumani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ursmahi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://kmc.one/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

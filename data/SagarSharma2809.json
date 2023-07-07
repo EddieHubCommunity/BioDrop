@@ -1,0 +1,26 @@
+{
+  "name": "Sagar Sharma",
+  "bio": "**Front-End Developer** and **Open Source Contributor**. I share my journey through blogs",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SagarSharma2809",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sagar_2502/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sagar-sharma-b8a894227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my latest blogs on Hashnode",
+      "url": "https://sagarcoding.hashnode.dev/",
+      "icon": "FaHashnode"
+    }
+  ]
+}

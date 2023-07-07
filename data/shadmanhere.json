@@ -1,0 +1,27 @@
+{
+  "name": "Shadman Ali",
+  "bio": "Full Stack Developer | React | Nextjs | Javascript | Typescript | Express | Nodejs",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Express",
+    "React",
+    "Nodejs"
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/shadmanhere",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/shadmanhere/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

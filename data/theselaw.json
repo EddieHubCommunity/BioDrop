@@ -1,0 +1,31 @@
+{
+  "name": "Moses Iseoluwa Omosaye",
+  "bio": "Visual Designer | Web Developer |CMS Expert",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/the_selaw",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/thebridgeinc.design",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://twitter.com/thebridgeinc.design",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/omosaye-moses-0204b6191",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/theselaw",
+      "icon": "FaGithub"
+    }
+  ]
+}

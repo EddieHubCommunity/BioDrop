@@ -1,0 +1,21 @@
+{
+  "name": "dev phantom",
+  "bio": "web developer, opensource contributor, frontend engineer ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/phantom_favour",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/dev-phantom",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/elimihele-god-s-favour-09341822b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

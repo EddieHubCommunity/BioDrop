@@ -1,0 +1,16 @@
+{
+  "name": "Arsheel Sheikh",
+  "bio": "Currently pursuing Bachelor of Engineering in CSE from SVPCET || Tech and open source enthusiast",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/arsheelsheikh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/arsheeltwtse",
+      "icon": "FaTwitter"
+    }
+  ]
+}

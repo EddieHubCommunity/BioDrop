@@ -1,0 +1,16 @@
+{
+  "name": "Ahnaf Ahamed",
+  "bio": "Front-end developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AhnafAhamed",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ahnfahmd",
+      "icon": "FaTwitter"
+    }
+  ]
+}

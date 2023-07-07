@@ -1,45 +1,40 @@
-## [0.47.14](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.13...v0.47.14) (2021-11-28)
+## [1.151.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.5...v1.151.6) (2023-07-07)
 
 
 ### Bug Fixes
 
-* **update-profile:** add blog to avneesh0612 ([#727](https://github.com/EddieHubCommunity/LinkFree/issues/727)) ([a989d58](https://github.com/EddieHubCommunity/LinkFree/commit/a989d58d7b3379c725e4e3191a06bac1ab35d877))
+* use zod config ([#8034](https://github.com/EddieHubCommunity/LinkFree/issues/8034)) ([edc2e3d](https://github.com/EddieHubCommunity/LinkFree/commit/edc2e3d17e940774ab031edbac4111e9073e0349))
 
 
 
-## [0.47.13](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.12...v0.47.13) (2021-11-28)
-
-
-### Bug Fixes
-
-* rename Anirudh.json to qwe123coder.json ([#726](https://github.com/EddieHubCommunity/LinkFree/issues/726)) ([c8aacac](https://github.com/EddieHubCommunity/LinkFree/commit/c8aacac0fa52cd9c23a4170327b5fee93769649b))
-
-
-
-## [0.47.12](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.11...v0.47.12) (2021-11-28)
+## [1.151.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.4...v1.151.5) (2023-07-07)
 
 
 ### Bug Fixes
 
-* username change ([#731](https://github.com/EddieHubCommunity/LinkFree/issues/731)) ([855cbd3](https://github.com/EddieHubCommunity/LinkFree/commit/855cbd3809712eb366bdd06bda94f07e49f94c56))
+* roadmap responsive wit badge ([#8032](https://github.com/EddieHubCommunity/LinkFree/issues/8032)) ([85d0a72](https://github.com/EddieHubCommunity/LinkFree/commit/85d0a72043906ac1fce63810b31f5d9a11bc73a9))
 
 
 
-## [0.47.11](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.10...v0.47.11) (2021-11-28)
-
-
-### Bug Fixes
-
-* appropriately-sized img ([#733](https://github.com/EddieHubCommunity/LinkFree/issues/733)) ([4c91c29](https://github.com/EddieHubCommunity/LinkFree/commit/4c91c29367eec1bf2cecaab4477bc997c0b66b65))
-
-
-
-## [0.47.10](https://github.com/EddieHubCommunity/LinkFree/compare/v0.47.9...v0.47.10) (2021-11-28)
+## [1.151.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.3...v1.151.4) (2023-07-07)
 
 
 ### Bug Fixes
 
-* usage of static img url ([#735](https://github.com/EddieHubCommunity/LinkFree/issues/735)) ([992e7f9](https://github.com/EddieHubCommunity/LinkFree/commit/992e7f93c1598c9e50f7e721eac1f589ea06a673))
+* no tags on profile then hide ([#8027](https://github.com/EddieHubCommunity/LinkFree/issues/8027)) ([dea7cda](https://github.com/EddieHubCommunity/LinkFree/commit/dea7cdaede81e3f8371e2663413cfa28bde47830))
+
+
+
+## [1.151.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.2...v1.151.3) (2023-07-07)
+
+
+### Bug Fixes
+
+* no links displays 0 ([#7993](https://github.com/EddieHubCommunity/LinkFree/issues/7993)) ([81620db](https://github.com/EddieHubCommunity/LinkFree/commit/81620dbc0aed63be3968c6218945263587b5925a))
+
+
+
+## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
 
 
 

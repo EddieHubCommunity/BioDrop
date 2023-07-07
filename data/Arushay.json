@@ -1,0 +1,31 @@
+{
+  "name": "Arushay",
+  "bio": "React Developer || Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Blog",
+      "url": "https://aymandin.hashnode.dev",
+      "icon": "FaBook"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EmanDin1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://arosha-portfolio.netlify.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/arosha-a-9b679a1bb/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/Arushay",
+      "icon": "FaGithub"
+    }
+  ]
+}

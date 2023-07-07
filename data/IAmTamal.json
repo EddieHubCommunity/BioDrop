@@ -1,0 +1,51 @@
+{
+  "name": "Tamal Das",
+  "bio": "**Open Source** Advocate | Technical Writer | Building scalable web applications",
+  "tags": ["Open Source", "Javascript", "NextJS", "Web", "DevRel"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mrTamall"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/IAmTamal"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://tamal.vercel.app/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Contribute to my Opensource project",
+      "url": "https://github.com/IAmTamal/Milan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "I tweet about Hackathons, Opensource, Web dev",
+      "url": "https://twitter.com/mrTamall",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Open Source journey",
+      "url": "https://github.com/IAmTamal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/say-hello-to-tamal",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://tamal.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Open Source and Community Blogs",
+      "url": "https://tamal-writes.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

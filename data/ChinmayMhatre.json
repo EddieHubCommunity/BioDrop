@@ -1,0 +1,106 @@
+{
+  "name": "Chinmay Mhatre",
+  "bio": "Front End Developer | **Open Source** Collaborator | Writer",
+  "tags": [
+    "Open Source",
+    "NextJS",
+    "TailwindCSS",
+    "JavaScript",
+    "React Native"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chinmaysmhatre"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ChinmayMhatre"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.chinmaymhatre.in/"
+    }
+  ],
+  "testimonials": ["Aadarsh805"],
+  "links": [
+    {
+      "name": "Personal website",
+      "url": "https://www.chinmaymhatre.in/",
+      "icon": "FaGlobe",
+      "color": "#6B25BB"
+    },
+    {
+      "name": "Blogs on JavaScript Stuff",
+      "url": "https://chinmaymhatre.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ChinmayMhatre",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's all laugh together at tech Twitter memes.",
+      "url": "https://twitter.com/chinmaysmhatre",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://linkedin.com/in/chinmaymhatre",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Made My First Open Source Contribution",
+      "description": "Contributed to EddieHub as my first contribution",
+      "date": "December 2020",
+      "icon": "FaGithub",
+      "color": "black"
+    },
+    {
+      "title": "Git and Github Workshop Instructor",
+      "description": "Conducted a beginner workshop on Git and Github",
+      "date": "February 2021",
+      "icon": "FaMicrophone",
+      "color": "black"
+    },
+    {
+      "title": "Organised Technical Event for Alegria 2021",
+      "description": "Organized multiple technical events as part of the technical team",
+      "date": "February 2021",
+      "icon": "FaCode",
+      "color": "red"
+    },
+    {
+      "title": "Developed website for Alegria 2021",
+      "description": "Created a website along with amazing developers for my college festival",
+      "date": "March 2021",
+      "icon": "FaCode",
+      "color": "red"
+    },
+    {
+      "title": "Writing Blogs",
+      "description": "Started writing blogs on dev.to",
+      "date": "May 2021",
+      "icon": "FaDev",
+      "color": "black",
+      "url": "https://dev.to/chinmaymhatre"
+    },
+    {
+      "title": "Started as a Technical Author at Educative",
+      "description": "Writing blogs on React Native",
+      "date": "October 2021",
+      "icon": "FaPen",
+      "color": "#5552FE"
+    },
+    {
+      "title": "First Hackathon",
+      "description": "Participated in Hack This Fall",
+      "date": "February 2023",
+      "icon": "FaCode",
+      "color": "orange"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Prakhar Goyal",
+  "bio": "3rd year Btech Student | Fronted Web Developer | Blockchain Enthusiast",
+  "tags": [
+    "Open Source",
+    "C++",
+    "ReactJs",
+    "Next.js",
+    "Javascript",
+    "HTML/CSS"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/0xPrakharG",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/0xprakharg/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/0xPrakharG",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/prakhar.3014/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://portfolio-rose-kappa-96.vercel.app/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

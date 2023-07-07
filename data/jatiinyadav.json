@@ -1,0 +1,16 @@
+{
+  "name": "Jatin Yadav",
+  "bio": "I'm Jatin, an engineering student who enjoys building things that live on the internet. I develop exceptional websites and web apps that provide pixel-perfect user interfaces.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/jatiinyadav",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jatiin_yadav",
+      "icon": "FaTwitter"
+    }
+  ]
+}

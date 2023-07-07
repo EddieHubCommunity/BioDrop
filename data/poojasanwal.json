@@ -1,0 +1,26 @@
+{
+  "name": "Pooja Sanwal",
+  "bio": "She/Her, I talk about development, technical writing, open source and communities",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/poojaasanwal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/poojasanwal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://poojasanwal.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Join CoCode",
+      "url": "https://discord.com/invite/WfZjwtPRYE/",
+      "icon": "FaDiscord"
+    }
+  ]
+}

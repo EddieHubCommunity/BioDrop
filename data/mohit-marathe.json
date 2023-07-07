@@ -1,0 +1,40 @@
+{
+  "name": "Mohit Marathe",
+  "bio": "Open Source Enthusiast",
+  "tags": ["Open Source", "Go", "C++", "Python", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mohit-marathe"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mohit-marathe-9a3605232"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mohitmarathe23"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/mohit-marathe",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/mohit-marathe-9a3605232",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/mohitmarathe23",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}

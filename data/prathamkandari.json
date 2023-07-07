@@ -1,0 +1,41 @@
+{
+  "name": "Pratham Kandari",
+  "bio": "**Cloud Enthusiast**",
+  "tags": ["WebDev", "DataScience", "OpenSource", "Cloud"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/<Your Twitter Username>"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/prathamkandari"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/pratham-kandari-a02ab3235/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/prathamkandari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/<Your Twitter Username>",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/pratham-kandari-a02ab3235/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pratham__kandari03/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

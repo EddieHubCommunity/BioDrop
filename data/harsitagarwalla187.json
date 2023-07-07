@@ -1,0 +1,21 @@
+{
+  "name": "Harsit Agarwalla",
+  "bio": "Tech & Travel enthusiast.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HarsitAgarwall5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/harsit-agarwalla-b2b0871b8",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/harsitagarwalla187",
+      "icon": "FaGithub"
+    }
+  ]
+}

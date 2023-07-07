@@ -1,0 +1,22 @@
+{
+  "name": "akshaya-hub",
+  "bio": "contributing to opensource",
+  "tags": ["Open Source", "GitHub", "python", "Machine learning"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akshaya",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/akshaya-hub",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/company/AKSHAYA MADHURI ADIREDDY",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

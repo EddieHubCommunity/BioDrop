@@ -1,0 +1,16 @@
+{
+  "name": "Simran Gupta",
+  "bio": "learning Web Dev and Open Source Enthusiast",
+  "links": [
+    {
+      "name": "My open source github",
+      "url": "https://github.com/simrangupta234",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/simrangupta234",
+      "icon": "FaTwitter"
+    }
+  ]
+}

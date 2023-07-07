@@ -1,0 +1,21 @@
+{
+  "name": "Gyan Prakash",
+  "bio": "Data Science & CyberSecurity Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/cybergeekgyan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/gyanprakash-/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/cybergeekgyan",
+      "icon": "FaGithub"
+    }
+  ]
+}

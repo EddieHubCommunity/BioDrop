@@ -1,0 +1,16 @@
+{
+  "name": "enn-dee",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/enn-dee",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/EnDee404",
+      "icon": "FaTwitter"
+    }
+  ]
+}

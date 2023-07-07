@@ -1,0 +1,32 @@
+{
+  "name": "Priyanshu Kumar Singh",
+  "bio": "BTech. 3rd year Student | CSE NITDGP'24 | Open Source Enthusiast | Blockchain Enthusiast | No-Code tools",
+  "tags": ["Open Source", "C", "Python", "C++", "JAVA", "HTML", "CSS"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PriYaNshu_11000",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect through Linkedin",
+      "url": "https://www.linkedin.com/in/priyanshu-kumar-singh-7956b7244",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/priyanshu-11000",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/priyanshu24.xyz/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Leetcode Profile",
+      "url": "https://leetcode.com/priyanshu_11000/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}

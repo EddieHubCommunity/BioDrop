@@ -1,0 +1,26 @@
+{
+  "name": "Gaurav Rattan",
+  "bio": "Aspiring Cloud & Devops Engineer",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/gaurav-rattan-b6316b204/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gauravrattan48",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/gauravrattan",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/gaurav._.rattan/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

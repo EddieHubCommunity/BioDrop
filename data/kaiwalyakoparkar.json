@@ -1,0 +1,62 @@
+{
+  "name": "Kaiwalya Koparkar",
+  "bio": "Open Source Advocate, DevRel 🥑",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Rust",
+    "DevOps",
+    "DevRel",
+    "WASM"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kaiwalya_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kaiwalyakoparkar"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@kaiwalya_koparkar"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/kaiwalya_",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://linkedin.com/in/kaiwalyakoparkar",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "YouTube: Learn more about Open Source, DevRel and DevOps",
+      "url": "https://youtube.com/@kaiwalya_koparkar",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/kaiwalyakoparkar",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Support",
+      "name": "GitHub Sponsors: Donate",
+      "url": "https://github.com/sponsors/kaiwalyakoparkar",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

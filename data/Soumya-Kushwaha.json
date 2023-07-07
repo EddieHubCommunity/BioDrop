@@ -1,0 +1,30 @@
+{
+  "name": "Soumya Kushwaha",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Soumya-Kushwaha",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/kushwaha-soumya",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kush_soumya",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Harvard WECode Scholar",
+      "date": "February 2022",
+      "icon": "FaGraduationCap",
+      "color": "grey",
+      "description": "Received scholarship to attend Harvard WeCode Conference"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Araoye Abraham A.",
+  "bio": "Teacher turned **Web Developer**. Motivated by the possibility of solving human problems with code",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Abgikcodez",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/araoye-abraham-dev/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/abrokinla",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://araoye-portfolio.netlify.app/",
+      "icon": "FaBriefcase"
+    }
+  ]
+}

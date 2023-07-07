@@ -1,0 +1,60 @@
+{
+  "name": "YrnCollo",
+  "bio": "Open Source Contributor | Cyber Security researcher| Reverse engineer | Red teamer",
+  "tags": ["Open Source", "C/C++", "Python", "Bash", "VimScript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Yrn_Collo"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/yrncollo"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@yrncollo"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Yrn_Collo",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Blog: Let's share ideas",
+      "url": "https://yrncollo.com/",
+      "icon": "FaMicroblog",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Just for fun",
+      "url": "https://youtube.com/@yrncollo",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/collins-ngeno",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "YrnCollo Community",
+      "name": "YrnCollo: Discord",
+      "url": "https://discord.gg/g37C84nnEA",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Mastodon: Connect with me",
+      "url": "https://infosec.exchange/@yrncollo",
+      "icon": "FaMastodon"
+    }
+  ]
+}

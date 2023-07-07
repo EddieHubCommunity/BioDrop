@@ -1,0 +1,26 @@
+{
+  "name": "Salami Korede",
+  "bio": "Software,Open Source Enthusiast and Content Creator",
+  "links": [
+    {
+      "name": "check and follow me on Twitter",
+      "url": "https://twitter.com/akehindekorede",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "check and follow me on Github",
+      "url": "https://github.com/Kordedekehine",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "check and follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/salami-kehinde-korede-bb85281ab/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://salamikorede.netlify.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

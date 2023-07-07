@@ -1,0 +1,21 @@
+{
+  "name": "John E.",
+  "bio": "Full-Stack Programmer",
+  "links": [
+    {
+      "name": "My Website",
+      "url": "https://ProjectCoder.xyz",
+      "icon": "https://ProjectCoder.xyz/favicon.ico"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/johne104",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JohnE10",
+      "icon": "FaGithub"
+    }
+  ]
+}

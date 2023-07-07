@@ -1,0 +1,11 @@
+{
+  "name": "Vishal R",
+  "bio": "Android Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishalr206",
+      "icon": "FaTwitter"
+    }
+  ]
+}

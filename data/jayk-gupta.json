@@ -1,0 +1,21 @@
+{
+  "name": "Jay kumar Gupta",
+  "bio": "CSE Undergraduate,passionate about frontend developement",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jayk_gupta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jay-kumar-gupta-ba0434201/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": " https://github.com/jayk-gupta",
+      "icon": "FaGithub"
+    }
+  ]
+}

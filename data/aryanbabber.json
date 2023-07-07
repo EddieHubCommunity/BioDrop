@@ -1,0 +1,16 @@
+{
+  "name": "Aryan Babber",
+  "bio": "Your friendly neighbourhood developer. JS | Coffee | Music | Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Check my GitHub out",
+      "url": "https://github.com/AryanBabber",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ABgoneCODING",
+      "icon": "FaTwitter"
+    }
+  ]
+}

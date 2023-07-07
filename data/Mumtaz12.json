@@ -1,0 +1,47 @@
+{
+  "name": "Mohammad Mumtaz",
+  "bio": "Web Developer, Student",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Full Stack Developer"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/IAmMumtaz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/withmumtazcs/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammad-mumtaz-3957b4260/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@DeepFakevolution",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@mohammadmumtaz1997",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@Mumtaz",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Opensource",
+      "url": "https://github.com/Mumtaz12"
+    }
+  ]
+}

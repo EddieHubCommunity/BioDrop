@@ -1,0 +1,40 @@
+{
+  "name": "Leo Rajan",
+  "bio": "Data Analyst: Power BI | SQL | Data Analysis | Data Modelling| Python ",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/leo7736"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/leo-rajan/"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://leo7736.github.io/LeoRajan.github.io/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/leo-rajan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/leo7736",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit my portfolio website",
+      "url": "https://leo7736.github.io/LeoRajan.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on HackerRank",
+      "url": "https://www.hackerrank.com/Leo_rajan_mz",
+      "icon": "SiHackerrank"
+    }
+  ]
+}

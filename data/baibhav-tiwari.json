@@ -1,0 +1,78 @@
+{
+  "name": "Baibhav Tiwari",
+  "bio": "**Web3** | **Web-developer** | **React** | **Open Source**",
+  "tags": ["Open Source", "Javascript", "ReactJS", "Web3"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BaibhavTiwari11"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/baibhav-tiwari"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/baibhavtiwari"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BaibhavTiwari11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/baibhav-tiwari",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/baibhavtiwari",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@baibhavv",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning Cpp",
+      "date": "2021",
+      "icon": "FaSearch",
+      "color": "red",
+      "description": "It was my first programming language which I started Learning."
+    },
+    {
+      "title": "Started Learning Web development",
+      "date": "2022",
+      "icon": "FaGlobe",
+      "color": "green",
+      "description": "I was always interested in creating websites, so I decided to learn web dev."
+    },
+    {
+      "title": "Social Media",
+      "date": "2022",
+      "icon": "FaAndroid",
+      "color": "green",
+      "description": "Firstly I thought Twitter is boring but as I started using it more I started loving it."
+    },
+    {
+      "title": "My tech stack/ what i know",
+      "date": "2022",
+      "icon": "FaGraduationCap",
+      "color": "green",
+      "description": "HTML, CSS, JavaScript, Tailwind, Nodejs, Expressjs, React, Python, Cpp"
+    },
+    {
+      "title": "Open-Source",
+      "date": "2022",
+      "icon": "DiOpensource",
+      "color": "#000",
+      "description": "It's been 3 Months  and more that I'm contributing to other's project and doing Open-Source"
+    }
+  ]
+}

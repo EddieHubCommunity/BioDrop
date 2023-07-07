@@ -1,0 +1,16 @@
+{
+  "name": "Lokesh Digari",
+  "bio": "Computer Science Student",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/lokicodedaily",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/lokidigari",
+      "icon": "FaTwitter"
+    }
+  ]
+}

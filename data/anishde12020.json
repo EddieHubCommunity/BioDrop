@@ -1,0 +1,21 @@
+{
+  "name": "Anish De",
+  "bio": "14 • Tech Enthusiast • Tech YouTuber • Blogs about Development • Developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AnishDe12020",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AnishDe12020",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Subscribe to my YouTube channel",
+      "url": "https://www.youtube.com/anishtechtutorials",
+      "icon": "FaYoutube"
+    }
+  ]
+}

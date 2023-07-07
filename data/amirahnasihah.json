@@ -1,0 +1,31 @@
+{
+  "name": "Amirah Nasihah",
+  "bio": "front-end student • system eng intern • hobbyist blogger • tech enthusiast ✨",
+  "links": [
+    {
+      "name": "Get in touch with me on LinkedIn",
+      "url": "http://www.linkedin.com/in/amirahnasihah",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Get updates from me on Twitter!",
+      "url": "https://twitter.com/amrhnshh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my blog at Hashnode",
+      "url": "https://amirahnasihah.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Check out my code on GitHub",
+      "url": "https://github.com/amirahnasihah",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Catch my live streams on Twitch",
+      "url": "https://www.twitch.tv/amrhnshh",
+      "icon": "FaTwitch"
+    }
+  ]
+}

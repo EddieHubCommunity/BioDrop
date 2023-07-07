@@ -1,0 +1,63 @@
+{
+  "name": "Vivek Pal",
+  "bio": "Full Stack Deveoper. Learning Web3. Open Source Enthusiast! Founder and Developer Shastra OS",
+  "links": [
+    {
+      "name": "My Website",
+      "url": "https://vivekpal.in/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vivekpal1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vivekpal0x",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Published first book.",
+      "date": "Aug 10, 2020",
+      "icon": "FaBook",
+      "color": "teal",
+      "description": "Edited and published first book with Mukul Pal on Amazon.",
+      "url": "https://amzn.in/29wa0mW"
+    },
+    {
+      "title": "First Open Source Contribution",
+      "date": "6 june 2021",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Made first Open Source contribution",
+      "url": "https://github.com/vivekpal1/"
+    },
+    {
+      "title": "Completed CS50 2021",
+      "date": "September 2021",
+      "icon": "FaBook",
+      "color": "red",
+      "description": "Introduction to the intellectual enterprises of computer science and the art of programming by Harvard University.",
+      "url": "https://cs50.harvard.edu/x/2021/"
+    },
+    {
+      "title": "Completed Full Stack open 2021",
+      "date": "Nov 2021",
+      "icon": "FaGlobe",
+      "color": "orange",
+      "description": "University of Helsinki's Full Stack open 2021, The course introduces modern web application development with JavaScript. The main focus is on single-page applications implemented with the React library, and REST interfaces implemented with Node.js that support them.",
+      "url": "https://fullstackopen.com/"
+    },
+    {
+      "title": "Started working on ShastraOS",
+      "date": "Feb 2022",
+      "icon": "Left arrow",
+      "color": "purple",
+      "description": "Started building ShastraOS as Founder and Developer. It is a decentralized OS based on Arch.",
+      "url": "https://shastraos.co/"
+    }
+  ]
+}

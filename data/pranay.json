@@ -1,0 +1,21 @@
+{
+  "name": "Pranay Gupta",
+  "bio": "2nd-year undergrad from India | Web Dev and Open Source Enthusiast",
+  "links": [
+    {
+      "name": "Checkout my GitHub Repositories",
+      "url": "https://github.com/thepranaygupta",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ThePranayGupta/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/thepranaygupta",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

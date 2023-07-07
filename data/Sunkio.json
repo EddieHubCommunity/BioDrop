@@ -1,0 +1,21 @@
+{
+  "name": "Tanja Schmidt",
+  "bio": "Web & decentralized tech enthusiast. Software Developer keen on building web & blockchain solutions.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tanja_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tanja-schmidt-dev",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my GitHub",
+      "url": "https://github.com/Sunkio",
+      "icon": "FaGithub"
+    }
+  ]
+}

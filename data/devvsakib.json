@@ -1,0 +1,37 @@
+{
+  "name": "DevvSakib",
+  "bio": "Frontend Engineer | Open Source Enthusiast | WordPress Expert",
+  "tags": ["javascript", "react", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/devvsakib"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devvsakib"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Follow me",
+      "url": "https://github.com/devvsakib",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/devvsakib",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin: Connect With Me",
+      "url": "https://www.linkedin.com/in/devvsakib",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "DevDot: Read article",
+      "url": "https://dev.to/devvsakib",
+      "icon": "FaDev"
+    }
+  ]
+}

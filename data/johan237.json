@@ -1,0 +1,26 @@
+{
+  "name": "Kemmegne Tchassem Johan",
+  "bio": "I love building new things and challenging the status quo!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/johan237",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/johan_tchassem",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started bloging",
+      "date": "April 2022",
+      "icon": "SiHashnode",
+      "color": "grey",
+      "description": "Started bloging",
+      "url": "https://johan237.hashnode.dev"
+    }
+  ]
+}

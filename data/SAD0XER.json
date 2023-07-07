@@ -1,0 +1,57 @@
+{
+  "name": "SARVESH ASHOK DEVRUKHAKAR",
+  "bio": "**Student** | **Open Source** | **Freelance**",
+  "tags": [
+    "Open Source",
+    "Git",
+    "GitHub",
+    "Graphic Design",
+    "C",
+    "C++",
+    "JAVA",
+    "Python",
+    "Django",
+    "Vercel"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedinIn",
+      "url": "https://www.linkedin.com/in/sadcoder"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/SAD0XER"
+    },
+    {
+      "icon": "SiFiverr",
+      "url": "https://www.fiverr.com/paracoder"
+    }
+  ],
+  "links": [
+    {
+      "name": "Connect With Me On LinkedIn",
+      "url": "https://www.linkedin.com/in/sadcoder",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Let's Collaborate and Contribute on GitHub",
+      "url": "https://github.com/SAD0XER",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Join Me On Discord",
+      "url": "https://discord.com/users/1068163198051696750",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "Join My Telegram Channel",
+      "url": "https://t.me/PARA_C0DER",
+      "icon": "FaTelegramPlane"
+    },
+    {
+      "name": "Let's Learn Something New On SoloLearn",
+      "url": "https://www.sololearn.com/profile/18241219",
+      "icon": "SiSololearn"
+    }
+  ]
+}

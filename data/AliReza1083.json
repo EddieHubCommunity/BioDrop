@@ -1,0 +1,55 @@
+{
+  "name": "Ali Reza",
+  "bio": "**React** Developer | Refugee Boy | Open Source",
+  "tags": ["Open Source", "Javascript", "Typescript", "ReactJS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ali_Developer05"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AliReza1083"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/alireza2o05/"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.alirezasamadi.com/"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://www.paypal.com/paypalme/alirezasamadi"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AliReza1083",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ali_Developer05",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://www.alirezasamadi.com/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Insagram",
+      "url": "https://www.instagram.com/alireza2o05/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/alireza17/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "testimonials": ["cjayjonathan"]
+}

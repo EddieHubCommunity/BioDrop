@@ -1,0 +1,26 @@
+{
+  "name": "Shashank Dwivedi",
+  "bio": "Student, Full stack developer, Blogger",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shashankoffice",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github ",
+      "url": "https://github.com/Imshk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on linkedIn ",
+      "url": "https://www.linkedin.com/in/shashankoffice/",
+      "icon": "Falinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode ",
+      "url": "https://hashnode.com/@shashankoffice",
+      "icon": "SiHashnode"
+    }
+  ]
+}

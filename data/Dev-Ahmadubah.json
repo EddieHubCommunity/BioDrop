@@ -1,0 +1,47 @@
+{
+  "name": "Ahmad Uba Ahmad",
+  "bio": "Front-end Engineer | Reactjs | Open source",
+  "tags": ["Reactjs", "Open source", "Tailwindcss", "javascript", "Css"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahmadubahh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Dev-Ahmadubah"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Dev-Ahmadubah",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://ahmadubah.netlify.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ahmadubahh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/ahmad-uba-ahmad",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Developing and open-source",
+      "date": "October 2020",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "One of my best and life changing decision ever.",
+      "url": "https://github.com/Dev-Ahmadubah"
+    }
+  ]
+}

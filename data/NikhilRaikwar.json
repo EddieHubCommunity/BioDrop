@@ -1,0 +1,85 @@
+{
+  "name": "Nikhil Raikwar",
+  "bio": "Full Stack Developer || **OpenSource Enthusiast** || Technical Writer ",
+  "tags": ["Open Source", "Javascript", "Python", "NextJS", "DevOps", "DevRel"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/NikhilRaikwarr"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NikhilRaikwar"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@nikhilaicodes6700"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nikhilraikwar16/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/nikhilraikwar_18"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/NikhilRaikwar",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/NikhilRaikwarr",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Instagram: Follow me",
+      "url": "https://instagram.com/nikhilraikwar_18",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/nikhilraikwar16/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Nikhil Raikwar Community",
+      "name": "CodeCrushers: Discord",
+      "url": "https://discord.gg/wUkFFPdg3f",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/@nikhilraikwar2521",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "August 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content about technology & provide knowledge about programming",
+      "url": "https://www.youtube.com/@nikhilaicodes6700"
+    },
+    {
+      "title": "Started GitHub",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Started Github first time using to host projects & Rest is History.",
+      "url": "https://github.com/NikhilRaikwar"
+    }
+  ]
+}

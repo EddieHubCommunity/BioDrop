@@ -1,0 +1,21 @@
+{
+  "name": "Joshua Edo",
+  "bio": "Hi there! You can call me Joshua(Josh for short) and I'm a Junior Frontend Web developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Thegr8Joshua",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/joshuaedo",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/joshuaedo",
+      "icon": "FaGitHub"
+    }
+  ]
+}

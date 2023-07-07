@@ -1,0 +1,58 @@
+{
+  "name": "Kirtan Patel",
+  "bio": "**Software Developer** | **Open Source**",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "NodeJS",
+    "Typescript",
+    "Java"
+  ],
+  "links": [
+    {
+      "group": "Projects",
+      "name": "Landing Page Using ReactJS",
+      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Dynamic Todo Application",
+      "url": "https://todo-app-df29.onrender.com/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub",
+      "url": "https://github.com/kirtankp/",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/kirtan__kp/",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/kirtankp/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kirtan__kp/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kirtankp/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kirtankp/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Veerpal Kaur",
+  "bio": "Web Developer | HTML | CSS | JavaScript | Bootstrap | Sass | jQuery | ReactJS | PHP | MySQL | Git | GitHub",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Veerpal21250795",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/kaur___veerpal/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/veerpal-kaur-3b162a211/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/vee339",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100067471235417",
+      "icon": "FaFacebookF"
+    }
+  ]
+}

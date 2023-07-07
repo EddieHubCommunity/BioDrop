@@ -1,0 +1,51 @@
+{
+  "name": "Rinshin",
+  "bio": "**A human-level Programmer | Who wants to learn more!!",
+  "tags": ["Open Source", "Nextjs", "Linux", "Django", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/just_me_rinz"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Rinshin-Jalal"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://rinshin.me"
+    }
+  ],
+  "links": [
+    {
+      "name": "Track my Journey on Twitter",
+      "url": "https://twitter.com/just_me_rinz",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my Github",
+      "url": "https://github.com/Rinshin-Jalal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rinshin-jalal-09859021b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Personal website",
+      "url": "https://rinshin.me",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Support - GitHub Sponsors",
+      "url": "https://github.com/sponsors/Rinshin-Jalal",
+      "icon": "FaDollarSign"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@just_me_rinz",
+      "icon": "FaYouTube"
+    }
+  ]
+}

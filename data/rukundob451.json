@@ -1,0 +1,43 @@
+{
+  "name": "Benjamin Rukundo",
+  "bio": "Open Source Enthusiast | ML & AI",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Python",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/benja_rukundo"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rukundob451"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/benja_rukundo",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/rukundob451",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/benjamin-rukundo-539ab01a6/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

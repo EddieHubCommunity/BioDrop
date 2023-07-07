@@ -1,0 +1,64 @@
+{
+  "name": "Nathan Snow",
+  "bio": "Aussie software engineer, Java specialist, and programming mentor",
+  "tags": [
+    "Java",
+    "Spring Boot",
+    "JavaScript",
+    "MySQL",
+    "PostgreSQL",
+    "REST APIs",
+    "DevOps"
+  ],
+  "testimonials": ["loftwah"],
+  "socials": [
+    {
+      "url": "https://twitter.com/AussieDev81",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/AussieDev81",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://discord.com/users/821987974690373662",
+      "icon": "FaDiscord"
+    },
+    {
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee"
+    }
+  ],
+  "links": [
+    {
+      "name": "View my website",
+      "url": "https://aussiedev81.com/",
+      "icon": "FaExternalLinkAlt",
+      "color": "#F97316"
+    },
+    {
+      "name": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/aussiedev81",
+      "icon": "SiBuymeacoffee",
+      "color": "#FFDD00"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AussieDev81",
+      "icon": "FaTwitter",
+      "color": "#1DA1F2"
+    },
+    {
+      "name": "Check me out on GitHub",
+      "url": "https://github.com/AussieDev81",
+      "icon": "FaGithub",
+      "color": "#181717"
+    },
+    {
+      "name": "Chat to me on Discord",
+      "url": "https://discord.com/users/821987974690373662",
+      "icon": "FaDiscord",
+      "color": "#5865F2"
+    }
+  ]
+}

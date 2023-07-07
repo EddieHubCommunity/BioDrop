@@ -1,0 +1,40 @@
+{
+  "name": "Varun Joshi",
+  "bio": "Enthusiastic Open Source Contributor",
+  "tags": ["Open Source", "Python", "Java", "Rust"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_Varun_08"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/varunjoshi08/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/VarunJoshi10"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_Varun_08",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/varunjoshi08/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Follow me on Github",
+      "url": "https://github.com/VarunJoshi10",
+      "icon": "FaGithub"
+    }
+  ]
+}

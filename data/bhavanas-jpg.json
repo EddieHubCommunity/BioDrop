@@ -1,0 +1,21 @@
+{
+  "name": "Bhavana S",
+  "bio": "Frontend developer | Blogger | Poetry & Literature lover| Yoga Practitioner",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bhavana814",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/bhavana-s-38513a168/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Look at my new projects on Github",
+      "url": "https://github.com/bhavanas-jpg",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Mahek Unnisa",
+  "bio": "Textile technologist to Self-taught Web developer, Technical Blogger, Open Source, and DevOps enthusiast. I talk about Python, Javascript, and my learnings.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/TheMahekUnnisa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/mahekunnisa",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/MahekUnnisa",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://mahekunnisa.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

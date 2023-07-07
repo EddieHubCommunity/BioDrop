@@ -1,0 +1,26 @@
+{
+  "name": "Devin Droddy",
+  "bio": "Student engineer and aspiring programmer",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ThePyroTF2",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/JustDeeevin",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCoym9hIWNRv4cfRRc815lkw",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/just_deevin",
+      "icon": "FaInstagram"
+    }
+  ]
+}

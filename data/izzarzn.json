@@ -1,0 +1,16 @@
+{
+  "name": "Arjun Hegde Ms",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/izzarzn",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/izzarzn",
+      "icon": "FaTwitter"
+    }
+  ]
+}

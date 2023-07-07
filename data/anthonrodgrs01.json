@@ -1,0 +1,26 @@
+{
+  "name": "Anthon Rodrigues",
+  "bio": "Software Developer, Problem solver, Getting started with Open source",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/anthon_code",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/anthon_rodrigues/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/anthonrodgrs01",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anthon-rodrigues-a30218146/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

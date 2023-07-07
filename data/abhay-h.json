@@ -1,0 +1,16 @@
+{
+  "name": "Abhay Taras",
+  "bio": "love to learn",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhaytaras7.png",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/whistle_xd",
+      "icon": "FaTwitter"
+    }
+  ]
+}

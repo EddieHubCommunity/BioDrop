@@ -1,0 +1,21 @@
+{
+  "name": "Adil jamshad Ihsan",
+  "bio": "Software Engineering giving back to coomunity",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/adilJamshad",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/TechByAJ",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ajihsan/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

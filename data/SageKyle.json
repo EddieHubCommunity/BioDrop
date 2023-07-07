@@ -1,0 +1,84 @@
+{
+  "name": "ominyi Paul, Saje",
+  "bio": "I'm a front-end web developer with a passion for creating interfaces and products that solves problems. And I love to share knowledge",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "React",
+    "Front-end",
+    "blogging",
+    "content creation"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ominyi_Saje"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SageKyle"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/ominyi"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://saje.hashnode.dev"
+    }
+  ],
+  "links": [
+    {
+      "name": "Read my Latest articles on web development",
+      "url": "https://saje.hashnode.dev",
+      "icon": "SiHashnode",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "An article series about React hooks",
+      "url": "https://saje.hashnode.dev/series/react-hooks",
+      "icon": "SiHashnode",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "My GitHub profile",
+      "url": "https://github.com/SageKyle",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Ominyi_Saje",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://linkedin.com/in/ominyi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "View my daily progress on NewDev",
+      "url": "https://newdev.io/paul",
+      "color": "blue",
+      "icon": "FaGlobe"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started writing articles",
+      "date": "2022",
+      "icon": "SiHashnode",
+      "color": "#00ACEE",
+      "description": "Started writing technical articles on Hashnode",
+      "url": "https://saje.hashnode.dev"
+    },
+    {
+      "title": "Started contributing to open source",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started contributing to open source by contributing to the Eddiehub community",
+      "url": "https://linkfree.eddiehub.io"
+    }
+  ]
+}

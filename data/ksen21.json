@@ -1,0 +1,21 @@
+{
+  "name": "Kartik Sen",
+  "bio": "front-end developer turned **Digital Nomad**. Tech enthusiast and Money hacks",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imkartiksen",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedn",
+      "url": "https://www.linkedin.com/in/kartik-sen-22300a137/",
+      "icon": "FaLinkednin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/procodehelp/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

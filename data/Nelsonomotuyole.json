@@ -1,0 +1,17 @@
+{
+  "name": "Nelson omotuyole",
+  "displapstatsPublic": true,
+  "bio": "Teacher turned **PROGRAMMER** || currently learning **HTML 5,CSS 3, BOOTSTRAP 4** || Aspiring **FULL STACK DEV**",
+  "links": [
+    {
+      "name": "follow me on twitter",
+      "url": "https://twitter.com/nelsonomotuyoIe",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Nelsonomotuyole",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Segun Badmus",
+  "bio": "The African Dream...",
+  "links": [
+    {
+      "name": "Check out my portfolio",
+      "url": "https://port-lovat.vercel.app/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/badmus306",
+      "icon": "FaGithub"
+    }
+  ]
+}

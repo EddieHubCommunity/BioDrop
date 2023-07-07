@@ -1,0 +1,16 @@
+{
+  "name": "Fatima Khan",
+  "bio": "Aspiring front-end dev",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/fatimkhn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout my Portfolio",
+      "url": "https://fatimakay.github.io",
+      "icon": "FaRocket"
+    }
+  ]
+}

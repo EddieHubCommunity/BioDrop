@@ -1,0 +1,85 @@
+{
+  "name": "Mustafa Ansari",
+  "bio": "Open Source Dev | Computer Science Student | software developer | DSA | A geek | investor",
+  "tags": ["Open Source dev", "Java", "HTML", "CSS", "Python", "DSA", "Blogs"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mustafa_nds"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mustafaansarii"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@mustafasmartX"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/mustafa.nds/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Let's connect",
+      "name": "Business: tech Services",
+      "url": "http://mustafaansari.rf.gd/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/mustafa_nds",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://www.youtube.com/@mustafasmartX",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/mustafaansarii",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "instagram: Follow me",
+      "url": "https://www.instagram.com/mustafa.nds/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "Dec 2022",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://www.youtube.com/@mustafasmartX"
+    },
+    {
+      "title": "Open source",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "started contribution about tech",
+      "url": "https://github.com/mustafaansarii"
+    }
+  ]
+}

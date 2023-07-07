@@ -1,0 +1,21 @@
+{
+  "name": "Joschi",
+  "bio": "Mostly E-Commerce",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NinjaJoschi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/NinjaArmy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "hashnode",
+      "url": "https://ninja-army.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

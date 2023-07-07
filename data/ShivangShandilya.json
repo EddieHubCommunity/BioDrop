@@ -1,0 +1,128 @@
+{
+  "name": "Shivang Shandilya",
+  "bio": "**DevOps** | **Open Source** | Front-End Developer | DSA",
+  "tags": ["Open Source", "DevOps", "Docker", "Kubernetes", "Go", "AWS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shivv_twt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShivangShandilya"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shivang-shandilya-8b926b218/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/shivangshandilyaa"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Daily tweets on DevOps and Open Source",
+      "url": "https://twitter.com/shivv_twt",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - My Open Source Profile",
+      "url": "https://github.com/ShivangShandilya",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivang-shandilya-8b926b218/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Just Connect, why thinking?",
+      "url": "https://www.instagram.com/shivangshandilyaa",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Check out my blogs on HashNode",
+      "url": "https://hashnode.com/@KubeMan",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "LeetCode - Wanna do some DSA together?",
+      "url": "https://leetcode.com/ShivangShandilya/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Checkout my DevOps Journey",
+      "url": "https://github.com/ShivangShandilya/DevOps-in-90",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "My DSA Sheet for Tech-Interviews",
+      "url": "https://github.com/ShivangShandilya/SDE-Sheet",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Follow my Golang Journey here !!",
+      "url": "https://github.com/ShivangShandilya/learning-golang",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became Postman Student Expert",
+      "date": "2023",
+      "icon": "SiPostman",
+      "color": "grey",
+      "description": "Postman Student Experts are proficient in the essential skills involved in building and testing API requests in Postman.",
+      "url": "https://badgr.com/public/assertions/iXdDSVd-RY6gVD2vKjaarA"
+    },
+    {
+      "title": "Started writing on HashNode",
+      "date": "2022",
+      "icon": "FaHashnode",
+      "color": "grey",
+      "description": "Wrote my first ever blog",
+      "url": "https://hashnode.com/@KubeMan"
+    },
+    {
+      "title": "Began working with BVPIEEE",
+      "date": "2022",
+      "icon": "SiIeee",
+      "color": "grey",
+      "description": "Began working at IEEE branch of my college as an Executive Web Developer and helped designing BVPIEEE website."
+    },
+    {
+      "title": "Microsoft AZ-900 Certification",
+      "date": "2021",
+      "icon": "SiMicrosoftazure",
+      "color": "grey",
+      "description": "Passed Microsoft Azure : Cloud Fundamentals Exam",
+      "url": "https://www.credly.com/badges/7acb24a1-30f9-4338-b3e6-70c92659b32a/linked_in"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a DevRel Intern",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to bag a DevRel Internship opportunity so that I can up skill myself and learn to work in a professional environment."
+    },
+    {
+      "isGoal": true,
+      "title": "Attend international conferences and probably even speak at some of them",
+      "date": "2023",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to muster courage to attend some international conferences in order to learn from others"
+    }
+  ]
+}

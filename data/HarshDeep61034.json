@@ -1,0 +1,72 @@
+{
+  "name": "Harsh Deep",
+  "bio": "Frontend Developer | Open source contributor | Building cool projects | Loves linux & python",
+  "tags": [
+    "python",
+    "javascript",
+    "Open Source",
+    "html",
+    "css",
+    "tailwindCSS",
+    "reactjs"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/HarshDeep61034"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/HarshDeep61034"
+    }
+  ],
+  "links": [
+    {
+      "name": "Daily tweets on Web development",
+      "url": "https://twitter.com/HarshDeep61034",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my web development journey",
+      "url": "https://github.com/HarshDeep61034",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsh-deep-bb564b262/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode Blog",
+      "url": "https://hdeep61034.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My Youtube Channel",
+      "url": "https://www.youtube.com/channel/UC0pItWIca8hdO02YPtiG9_w",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Sometimes I post on Instagram",
+      "url": "https://www.instagram.com/HarshDeep61034/?igshid=ZDdkNTZiNTM%3D",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Made My First Open Source Contribution",
+      "description": "Contributed to Eddie Hub's LinkFree",
+      "date": "8 January 2023",
+      "icon": "FaGithub",
+      "color": "#1e90ff"
+    },
+    {
+      "title": "Started Writing Blogs",
+      "description": "Started writing blogs on Hashnode",
+      "date": "14 January 2023",
+      "icon": "FaCode",
+      "color": "#1e90ff",
+      "url": "https://hdeep61034.hashnode.dev/"
+    }
+  ]
+}

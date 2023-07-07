@@ -1,0 +1,21 @@
+{
+  "name": "Berlian Gur",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/7flash",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "December 2013",
+      "icon": "FaGithub",
+      "color": "grey",
+      "url": "https://github.com/7flash",
+      "description": "Contribute to OpenSource repos"
+    }
+  ]
+}

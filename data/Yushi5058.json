@@ -1,0 +1,32 @@
+{
+  "name": "Yushi",
+  "bio": "Self taught web dev | Front-end web dev | Linux & Bash Enthusiast",
+  "tags": ["Open Source", "Front-End", "Linux", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Yushi5058"
+    },
+    {
+      "icon": "SiProtonmail",
+      "url": "mailto:yushi_61@proton.me"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on my dev journey",
+      "url": "https://github.com/Yushi5058",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's get in touch",
+      "url": "https://yushi5058.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Let's discuss about animes/mangas",
+      "url": "https://anilist.co/user/Yushi61/",
+      "icon": "FaLink"
+    }
+  ]
+}

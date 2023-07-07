@@ -1,0 +1,11 @@
+{
+  "name": "Ragib Ajmal",
+  "bio": "I am Ragib Ajmal, Associate Developer at Accenture",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/RagibAjmal",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Sajjan Yadav",
+  "bio": "I am DevOps and Open Source enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/SajjanYadav",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SajjanStr",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sajjan-yadav-23987417a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_sajjan_y_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

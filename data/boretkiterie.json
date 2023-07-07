@@ -1,0 +1,21 @@
+{
+  "name": "Blevin Boret",
+  "bio": "Frontend Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/blevinbee1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/boretkiterie",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/blevin-boret-87817b234/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

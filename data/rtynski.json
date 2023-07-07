@@ -1,0 +1,21 @@
+{
+  "name": "Rafal Tynski",
+  "bio": "C# Developer, Full-stack Developer, Vue",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rtynski",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rafaltynski/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rtynski",
+      "icon": "FaTwitter"
+    }
+  ]
+}

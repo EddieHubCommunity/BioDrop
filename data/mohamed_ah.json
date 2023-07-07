@@ -1,0 +1,16 @@
+{
+  "name": "Mohamed Abdul Hameed",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mohamed-ah",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mohamed_jeddah",
+      "icon": "FaTwitter"
+    }
+  ]
+}

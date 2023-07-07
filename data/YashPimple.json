@@ -1,0 +1,77 @@
+{
+  "name": "Yash Pimple",
+  "bio": "Open Source Contributor | DevOps | Cloud-Native | Tech-Blogger",
+  "tags": ["Open Source", "DevOps", "Kubernetes", "Docker"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Yashpimple22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/YashPimple"
+    },
+    {
+      "icon": "FaHashnode",
+      "url": "https://yashpimple.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Yashpimple22",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Github",
+      "url": "https://github.com/YashPimple",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yash-pimple-623683222/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://yashpimple.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/yashpimple._.22/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Tech Blog",
+      "date": "July 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started Documenting my learnings through blogs",
+      "url": "https://yashpimple.hashnode.dev/"
+    },
+    {
+      "title": "Started Development",
+      "date": "April 2022",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Started learning Web Development",
+      "url": "https://github.com/YashPimple"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "blue",
+      "description": "Participated in my first ever Hacktoberfest",
+      "url": "https://github.com/YashPimple"
+    }
+  ]
+}

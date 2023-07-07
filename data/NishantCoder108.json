@@ -1,0 +1,31 @@
+{
+  "name": "Nishant Kumar",
+  "bio": "JavaScript | Open Source | Community Building ",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/NishantCoder108",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/NishantCoder",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/nishantcoder/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/channel/UCrx_pTOxfgCLGAS7aYzG9iQ",
+      "icon": "FaYouTube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/think_with_code/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Shashavali",
+  "bio": "Open Source, Test Automation, SOAPUI",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shashavali",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ssvali",
+      "icon": "FaGithub"
+    }
+  ]
+}

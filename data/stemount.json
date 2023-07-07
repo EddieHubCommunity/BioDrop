@@ -1,0 +1,21 @@
+{
+  "name": "Steve Mount",
+  "bio": "Interim CTO/Technical Architect",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/stemount",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/stemount",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my very popular youtube channel",
+      "url": "https://www.youtube.com/channel/UCodYgXRgMHEQvIX2PWj5XTA",
+      "icon": "FaYoutube"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Abhishek Anand",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhirk247",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhirk247",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my profile website",
+      "url": "https://www.abhirk.me",
+      "icon": "website"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhirk247/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

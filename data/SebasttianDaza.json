@@ -1,0 +1,26 @@
+{
+  "name": "Sebastian Daza",
+  "bio": "Software Engineer, FullStack Developer and Open source enthusiast.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SebasttianDaza",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SebasttianDaza",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sebasttiandaza/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Learn about Web development and Software",
+      "url": "https://www.tiktok.com/@emprendeyourlifestyle",
+      "icon": "FaTiktok"
+    }
+  ]
+}

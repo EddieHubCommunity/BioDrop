@@ -1,0 +1,16 @@
+{
+  "name": "Gaurav Singh Jethuri",
+  "bio": "DevOps lover and Newbier in Open Source",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/gauravjethuri11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/EndGaurav",
+      "icon": "FaGithub"
+    }
+  ]
+}

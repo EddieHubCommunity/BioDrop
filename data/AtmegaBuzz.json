@@ -1,0 +1,26 @@
+{
+  "name": "Swapnil Shinde",
+  "bio": "println!() pro rust developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/a_kraken_head",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@swapnilshinde2540",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/AtmegaBuzz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/swapnil-shinde-5ba45118b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

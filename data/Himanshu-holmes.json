@@ -1,0 +1,16 @@
+{
+  "name": "Himanshu Kumar",
+  "bio": "travel enthusiast and virat kohli fan",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Himanshuffgeek",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/himanshu-yadav-00538821b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

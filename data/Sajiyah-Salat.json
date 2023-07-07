@@ -1,0 +1,113 @@
+{
+  "name": "Sajiyah Salat",
+  "bio": "In Search of DevOps Internships | Hacktoberfest 2022 Winner | Technical Writer at Hashnode | Open Source Project Maintainer and Active Contributor to Kubernetes.",
+  "tags": [
+    "DevOps",
+    "Docker",
+    "Kubernetes",
+    "Golang",
+    "Java",
+    "C",
+    "AWS",
+    "Github"
+  ],
+  "socials": [
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@sajiyasalat"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sajiyah-Salat"
+    },
+    {
+      "icon": "FaPencilAlt",
+      "url": "https://medium.com/@Sajiyah-Salat"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SajiyaSalat"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Checkout my work",
+      "url": "https://github.com/Sajiyah-Salat",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Know my tech journey",
+      "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Tips, tricks, hacks",
+      "url": "https://twitter.com/SajiyaSalat",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my Blogs",
+      "url": "https://medium.com/@Sajiyah-Salat",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Checkout my videos",
+      "url": "https://www.youtube.com/@sajiyasalat",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Won Hacktoberfest 2022 ",
+      "date": "October 2022",
+      "icon": "SiGithub",
+      "color": "black",
+      "description": "Made Github profile on June 2022 | Started Contributing in Multiple Projects.",
+      "url": "https://github.com/Sajiyah-Salat"
+    },
+    {
+      "title": "Started Documenting my journey on twitter and linkedin",
+      "date": "June 2022",
+      "icon": "SiLinkedin",
+      "color": "blue",
+      "description": "I post daily about my learnings on twitter and linkedin. Many poeple support my work and I have made great connections.",
+      "url": "https://www.linkedin.com/in/sajiya-salat-0a2a78245/"
+    },
+    {
+      "title": "Started Writing Blogs",
+      "date": "October 2022",
+      "icon": "FaPencilAlt",
+      "color": "blue",
+      "description": "My blog are my stories of how I achieved a certain height. Many poeple got inspired by my journey.",
+      "url": "https://medium.com/@Sajiyah-Salat"
+    },
+    {
+      "title": "Made Three DevOps Project",
+      "date": "November 2022",
+      "icon": "SiGithub",
+      "color": "black",
+      "description": "After Completing my DevOps Basics. I started making Projects. My projects mainly contain the knowledge of Docker, Kubernetes, AWS, Golang. My Projects are live on Github.",
+      "url": "https://github.com/Sajiyah-Salat"
+    },
+    {
+      "title": "Completed cka course from kodekloud",
+      "date": "December 2022",
+      "icon": "FaPencilAlt",
+      "color": "blue",
+      "description": "DevOps is my passion and I have completd all the basics about it. I have a good hold in kuberenetes and soon I will give cka(certified kubernetes administrator) exam. I have written a blogs on this topic.",
+      "url": "https://medium.com/@Sajiyah-Salat"
+    },
+    {
+      "title": "Started my youtube video",
+      "date": "February 2022",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "This youtube channel will be based on github contributions and community work. If you are just starting out in open source, I have many things to serve you.",
+      "url": "https://www.youtube.com/@sajiyasalat"
+    }
+  ]
+}

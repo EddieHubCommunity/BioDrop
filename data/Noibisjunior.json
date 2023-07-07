@@ -1,0 +1,33 @@
+{
+  "name": "Abdulsalaam Noibi",
+  "bio": "FrontEnd Developer | OpenSource Contributor",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Noibisjunior",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ClericCoder",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning to code",
+      "date": "February 2020",
+      "icon": "code",
+      "color": "green",
+      "description": "Started my software development bootcamp with freeCodeCamp",
+      "url": "https://github.com/Noibisjunior"
+    },
+    {
+      "title": "Started FreeLancing as a FrontEnd Developer",
+      "date": "September 2022",
+      "icon": "code",
+      "color": "blue",
+      "url": "mailto:Noibisjunior22@gmail.com"
+    }
+  ]
+}

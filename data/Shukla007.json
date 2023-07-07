@@ -1,0 +1,48 @@
+{
+  "name": "Abhishek Shukla",
+  "bio": "Innovating at the intersection of ML, DS & DevOps 💻 Passionate problem-solver who codes to make an impact 🚀 Forever learning, creating, and pushing boundaries",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Machine Learning",
+    "Data Science",
+    "Python",
+    "DevRel"
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/shukla007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/avi0_07",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishekshukla007/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read My Blogs",
+      "url": "https://hashnode.com/@abhishek79/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Sponsor me on Github",
+      "url": "https://github.com/sponsors/Shukla007/",
+      "icon": "SiGithubsponsors"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became CodingNinja Campus Ambassador",
+      "date": "2023",
+      "icon": "SiCodingninjas",
+      "color": "black",
+      "description": "Campus ambassadors represent Coding Ninjas and are given the responsibility of hosting events such as hackathons, competitions, inductions or webinars as well."
+    }
+  ]
+}

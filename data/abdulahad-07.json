@@ -1,0 +1,63 @@
+{
+  "name": "Abdul Ahad",
+  "bio": "Open Source | Full-stack Developer",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abdulahad077"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abdulahad-07"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://twitter.com/abdulahad077"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/abdulahad077",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@codewithabdul",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/abdulahad070",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abdulahad07",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/abdulahad-07",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "September 2015",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing on Upwork",
+      "url": "https://www.upwork.com/freelancers/~01557fe3bbc2a8dfed"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "August 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "First real video",
+      "url": "https://www.youtube.com/@codewithabdul"
+    }
+  ]
+}

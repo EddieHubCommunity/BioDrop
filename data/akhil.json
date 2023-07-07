@@ -1,0 +1,16 @@
+{
+  "name": "Akhil Ullattil",
+  "bio": "ML engineer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/akhilullattil",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Akhilu94274483",
+      "icon": "FaTwitter"
+    }
+  ]
+}

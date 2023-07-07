@@ -1,0 +1,16 @@
+{
+  "name": "Sulthan Mohaideen",
+  "bio": "Tech Savvy | Engineer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SulthanNK",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SulthanNK",
+      "icon": "FaTwitter"
+    }
+  ]
+}

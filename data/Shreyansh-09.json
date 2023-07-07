@@ -1,0 +1,21 @@
+{
+  "name": "Shreyansh Faye",
+  "bio": "Newbie in Web Dev learning frontend with neogcamp",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Phoenix_0998",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/shreyansh-faye-4378a9137/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Shreyansh-09",
+      "icon": "FaGithub"
+    }
+  ]
+}

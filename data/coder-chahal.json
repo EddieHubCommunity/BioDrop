@@ -1,0 +1,21 @@
+{
+  "name": "Aakanksha Chahal",
+  "bio": "Developer|Open Source enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/coder_chahal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/coder-chahal008/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/coder-chahal",
+      "icon": "FaGithub"
+    }
+  ]
+}

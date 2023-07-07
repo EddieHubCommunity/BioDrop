@@ -1,0 +1,16 @@
+{
+  "name": "Tahir Hussain",
+  "bio": "I am a frontend Developer and Love to Learn New technologies",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tahirhussain321",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Taheer10",
+      "icon": "FaGithub"
+    }
+  ]
+}

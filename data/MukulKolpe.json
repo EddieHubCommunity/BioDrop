@@ -1,0 +1,16 @@
+{
+  "name": "Mukul Kolpe",
+  "bio": "Open Source Enthusiast | Web Developer",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MukulKolpe",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MukulKolpe",
+      "icon": "FaTwitter"
+    }
+  ]
+}

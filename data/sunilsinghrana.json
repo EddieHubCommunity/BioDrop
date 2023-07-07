@@ -1,0 +1,21 @@
+{
+  "name": "Sunil Singh Rana",
+  "bio": "Dedicated full stack developer with expertise in creating customized UI designs and improving website navigation",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/suneilsinghrana",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/sunilsinghrana",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/sunil-rana-96899a238/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

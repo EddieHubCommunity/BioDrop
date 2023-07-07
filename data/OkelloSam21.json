@@ -1,0 +1,36 @@
+{
+  "name": "Samuel Okello",
+  "bio": "**Tech Enthuast** I code, I Google, and I pray to the tech gods. Join me on my journey! ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/0kello_sam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/devsam254/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Linked in Profile",
+      "url": "https://www.linkedin.com/in/samuel-okello/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Google dev profile",
+      "url": "https://developers.google.com/profile/u/samuelokello",
+      "icon": "FaGoogle"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/OkelloSam21/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "dev.to profile",
+      "url": "https://dev.to/dev_samuel",
+      "icon": "FaDev"
+    }
+  ]
+}

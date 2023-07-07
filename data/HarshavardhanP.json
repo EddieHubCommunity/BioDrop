@@ -1,0 +1,24 @@
+{
+  "name": "Harshavardhan Patekar",
+  "bio": "Pre-final year Student at Vellore Institute Of technology Bhopal",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MaxHarsh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/HappyVersion_17",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Web Devlopment",
+      "date": "August 2021",
+      "color": "grey",
+      "description": "Started Learning Web Devlopment"
+    }
+  ]
+}

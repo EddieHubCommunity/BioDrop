@@ -1,0 +1,30 @@
+{
+  "name": "Rahul Kumar",
+  "bio": "Web developer | Building web applications using Node.js & React",
+  "tags": ["CSS", "JavaScript", "React", "Node.js", "MongoDB", "MySQL"],
+  "links": [
+    {
+      "name": "Profile",
+      "url": "https://rahulbaran.vercel.app",
+      "icon": "FaUser"
+    },
+    {
+      "group": "Socials",
+      "name": "Github - Open for collaboration",
+      "url": "https://github.com/Rahulbaran",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Let's know each other",
+      "url": "https://twitter.com/Rahul9422dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
+      "url": "https://www.linkedin.com/in/Rahulbaran",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

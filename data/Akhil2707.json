@@ -1,0 +1,26 @@
+{
+  "name": "Akhil Rathipelly",
+  "bio": "Iam a full stack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akhilrathipelly",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Akhil2707",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/akhilrathipelly/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@rathipellyakhil07",
+      "icon": "SiHashnode"
+    }
+  ]
+}

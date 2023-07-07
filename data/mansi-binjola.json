@@ -1,0 +1,21 @@
+{
+  "name": "Mansi Binjola",
+  "bio": "Open Source Enthusiast!",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Mansi-Binjola",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mansi_binjola",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/mansi-binjola",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

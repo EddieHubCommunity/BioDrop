@@ -1,0 +1,27 @@
+{
+  "name": "Krish Jaiswal",
+  "bio": "I am a high school student currently learning about Web Development and making an attempt to share my learning in public.",
+  "tags": ["HTML/CSS", "Javascript", "NodeJS", "ReactJS", "Open Source"],
+  "links": [
+    {
+      "name": "Twitter: Connect With Me Here",
+      "url": "https://twitter.com/Krish4856",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Check Out All My Projects",
+      "url": "https://github.com/KrishJ4856",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode: Read Some Interesting Blogs!",
+      "url": "https://krishwebdev.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow Me On LinkedIn",
+      "url": "https://www.linkedin.com/in/krish4856/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

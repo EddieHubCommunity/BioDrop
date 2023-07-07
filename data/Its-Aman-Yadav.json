@@ -1,0 +1,21 @@
+{
+  "name": "Aman Yadav",
+  "bio": "Undergrad at KCCITM, just exploring this world :)",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/its_aman_yadav",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/its_aman_yadav",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Its-Aman-Yadav",
+      "icon": "FaGithub"
+    }
+  ]
+}

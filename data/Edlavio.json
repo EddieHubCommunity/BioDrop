@@ -1,0 +1,31 @@
+{
+  "name": "Pedro Alberto",
+  "bio": "Front-End Developer | UI Designer | Open Source |",
+  "tags": ["Javascript", "Typescript", "React", "UI/UX", "Html", "Css"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Edlavio"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/edlavio/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/instint09_/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Linkedin: Let's connect",
+      "url": "https://www.linkedin.com/in/edlavio/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github: Follow me",
+      "url": "https://github.com/Edlavio",
+      "icon": "FaGithub"
+    }
+  ]
+}

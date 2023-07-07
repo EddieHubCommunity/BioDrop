@@ -1,0 +1,46 @@
+{
+  "name": "Gaurav Burande",
+  "bio": "Full stack JavaScript Developer | JavaScript, React, TailwindCSS, FireBase | Open Source Collaborator",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "ReactJS",
+    "Firebase",
+    "MongoDB",
+    "TailwindCSS",
+    "Redux"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gauravvan"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/GauravBurande"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/gaurav-burande-1a769b250"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn profile",
+      "url": "https://www.linkedin.com/in/gaurav-burande-1a769b250",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter profile",
+      "url": "https://twitter.com/gauravvan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub profile",
+      "url": "https://github.com/GauravBurande",
+      "icon": "FaGithub"
+    }
+  ]
+}

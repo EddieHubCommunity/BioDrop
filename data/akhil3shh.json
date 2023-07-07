@@ -1,0 +1,61 @@
+{
+  "name": "Akhilesh Nadgiri",
+  "bio": "Engineering Undergrad | **DevOps** | **Cloud**",
+  "tags": [
+    "Python",
+    "GCP",
+    "AWS",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Jenkins",
+    "Terraform",
+    "Prometheus"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akhil3shh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akhil3shh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/akhil3shh"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/akhileshhh.exe"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/akhilesh-nadgiri",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/akhil3shh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Google Cloud Skills Boost",
+      "url": "https://www.cloudskillsboost.google/public_profiles/dd275cc3-c004-473e-bd33-398fcf8db3a7",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/akhil3shh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/akhileshhh.exe/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Afreen Syed",
+  "bio": " Web Developer | Open Source Contributer | Ex-SDE Intern @TigerAnalytics | Coder | Communities",
+  "links": [
+    {
+      "name": "follow me on Twitter",
+      "url": "https://twitter.com/pocco_loco",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "follow me on Github",
+      "url": "https://github.com/afreen0102",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

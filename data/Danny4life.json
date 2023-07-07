@@ -1,0 +1,21 @@
+{
+  "name": "Segun Osiki",
+  "bio": "Fullstack Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/segun_osiki",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Danny4life",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/segun-osiki-423639168/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Gunjan Shakya",
+  "bio": "A final year student with keen interest in Data Structures and Algorithms",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/GunjanShakya",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/gunjan-shakya-99540b195/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

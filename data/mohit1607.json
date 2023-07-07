@@ -1,0 +1,34 @@
+{
+  "name": "MOHIT ASHLIYA",
+  "bio": "Open Source Enthusiast with taste in React!",
+  "tags": [
+    "javascript",
+    "typescript",
+    "react.js",
+    "node.js",
+    "mongodb",
+    "fullstack"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ashliya_mohit"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mohit1607"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/mohit1607",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ashliya_mohit",
+      "icon": "FaTwitter"
+    }
+  ]
+}

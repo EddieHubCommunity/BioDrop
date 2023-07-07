@@ -1,0 +1,124 @@
+{
+  "name": "Zaid Ahmad",
+  "bio": "Empowering growth and learning through my passion for web development and open source ❤️",
+  "tags": [
+    "Web Development",
+    "Open Source",
+    "Full Stack Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node",
+    "Express"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/zaidahmad25"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/zaidahmad25"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/zaidahmad25/"
+    },
+    {
+      "icon": "SiBuymeacoffee",
+      "url": "https://www.buymeacoffee.com/zaidahmad25"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zaidahmad25",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/zaidahmad25",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/zaidahmad25/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "I write some blogs here and there...",
+      "url": "https://zaid-ahmad.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Buy Me A Coffee",
+      "url": "https://www.buymeacoffee.com/zaidahmad25",
+      "icon": "SiBuymeacoffee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Achievement Unlocked: Hello World!",
+      "date": "2014",
+      "icon": "FaAward",
+      "color": "black",
+      "description": "I remember writing Hello World in HTML on my family's THICK Dell Inspiron laptop (I was 9 years old 🥹), I was so excited to see something on the webpage which was made by me...good times 🥹"
+    },
+    {
+      "title": "Achievement Unlocked: Cringey projects",
+      "date": "2014-2016",
+      "icon": "SiMaterialdesignicons",
+      "color": "grey",
+      "description": "On that laptop and in my school, I started making some REALLY bad sign up forms, login forms, landing pages, etc. I wish I had those projects with me to reflect upon my journey but all of my old projects are lost forever 🙁"
+    },
+    {
+      "title": "Started Learning Responsive Web Design through FreeCodeCamp",
+      "date": "May 25, 2018 - Feb 14, 2021",
+      "icon": "FaFreeCodeCamp",
+      "color": "dark green",
+      "description": "Yup, it took me 3 whole years to complete this course, honestly speaking I was just not consistent and I was exploring many other fields in computer science like arduino, game development, mobile development, backend web development with Django, learning C++, etc.",
+      "url": "https://www.freecodecamp.org/certification/zaid/responsive-web-design"
+    },
+    {
+      "title": "Uploaded my first ever Tkinter project to GitHub",
+      "date": "Sep 27, 2019",
+      "icon": "FaGithub",
+      "color": "dark blue",
+      "description": "This was my first ever GitHub repository and the first ever fully functional application I made with Tkinter (please don't look at the code, its awful 😅)",
+      "url": "https://github.com/zaidahmad25/Student-Management-System"
+    },
+    {
+      "title": "Made a drone with my friends",
+      "date": "Before COVID-19",
+      "icon": "FaRobot",
+      "color": "red",
+      "description": "There was a robotics club in my school and this was the first ever project that me and my friends made together (It's the big one in the middle)",
+      "url": "https://www.instagram.com/p/CmsomMCPbLI/"
+    },
+    {
+      "title": "Crossed 100 Followers on Twitter",
+      "date": "Nov 30, 2022",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Started focusing on my Twitter account and growing connections and honing my skills",
+      "url": "https://twitter.com/zaidahmad25/status/1597879304930873346"
+    },
+    {
+      "title": "Learned JavaScript from Udemy",
+      "date": "Oct, 2022 - Dec 13, 2022",
+      "icon": "SiUdemy",
+      "color": "yellow",
+      "description": "After years of exploring, finally decided to go into web development",
+      "url": "https://www.udemy.com/certificate/UC-2b08ae8d-5413-432b-9d84-ec0163e79437/"
+    },
+    {
+      "title": "Learning Full Stack Web Development from The Odin Project",
+      "date": "Feb 1, 2023 - Present",
+      "icon": "FaLaptopCode",
+      "color": "dark yellow",
+      "description": "I am sharing my journey on my Twitter (@zaidahmad25), so you can check it out if you wish 😃",
+      "url": "https://twitter.com/zaidahmad25"
+    }
+  ]
+}

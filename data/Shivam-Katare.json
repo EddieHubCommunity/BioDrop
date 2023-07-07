@@ -1,0 +1,108 @@
+{
+  "name": "Shivam Katare",
+  "bio": "Fullstack Development | Contributer at **[ReactPlay](https://reactplay.io/)** | Technical Content Writer | DevOps Enthusiast",
+  "tags": ["Open Source", "Javascript", "ReactJS", "Blogging", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Shivamkatare_27"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Shivam-Katare"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shivam-katare/"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://personal-portfolio-ebon-mu.vercel.app/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Shivam-Katare",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivam-katare/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shivamkatare_27",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on ShowwCase",
+      "url": "https://www.showwcase.com/shivam-katare",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Blogs",
+      "name": "Hashnode Blogs",
+      "url": "https://shivamkatareblog.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Blogs",
+      "name": "ShowwCase Blogs",
+      "url": "https://www.showwcase.com/shivam-katare?tab=1",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Blogs",
+      "name": "My All Blogs",
+      "url": "https://personal-portfolio-ebon-mu.vercel.app/blogs",
+      "icon": "FaBook"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "ShowwCase DevElevate Silver Winner",
+      "date": "January 2023",
+      "icon": "FaTrophy",
+      "color": "grey",
+      "description": "Silver winner of blogging competion named DevElevate held by ShowwCase.",
+      "url": "https://www.showwcase.com/show/25223/dev-elevate-silver-winners"
+    },
+    {
+      "title": "ShowwCase GDSAugust Winner",
+      "date": "September 2022",
+      "icon": "FaTrophy",
+      "color": "gold",
+      "description": "Ranked top 5 among bloggers in a showcase blogging competition named GDSAugust",
+      "url": "https://www.showwcase.com/thread/46502"
+    },
+    {
+      "title": "Social Summer Of Code",
+      "date": "August 2022",
+      "icon": "FaCertificate",
+      "color": "yellow",
+      "description": "I got picked for an awesome 3-month open source program called SSOC! During this time, I had the opportunity to contribute to several amazing open source projects with varying tech stacks. It was an incredible experience, and I learned so much along the way.",
+      "url": "https://drive.google.com/file/d/1-2QekibE9dqt0JsiOZ997jW_YvUFfxrv/view?usp=share_link"
+    },
+    {
+      "title": "First Job",
+      "date": "July 2022",
+      "icon": "FaBriefcase",
+      "color": "blue",
+      "description": "I got the job as a Frontend(React JS) Developer at a Cloud Security based company."
+    },
+    {
+      "title": "First Open Source Community",
+      "date": "April 2022",
+      "icon": "FaHandshake",
+      "color": "black",
+      "description": "I became a part of the amazing open source community, ReactPlay, and started contributing to it for the first time!",
+      "url": "https://reactplay.io/"
+    }
+  ]
+}

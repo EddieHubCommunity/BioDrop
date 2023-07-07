@@ -1,0 +1,105 @@
+{
+  "name": "Himanshu Chauhan",
+  "bio": "Open source Advocate | Programmer | Developer | Competitive Coder",
+  "tags": [
+    "Full Stack Web Developer",
+    "Competitive Coding",
+    "Native App Developer",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/himanshuch8055"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Himanshuch8055"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/himanshuch8055/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/himanshuch8055/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/himanshuch8055"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@himanshuch8055"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/himanshuch8055"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/himanshuch8055/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Himanshuch8055",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Threads and Random Talks",
+      "url": "https://twitter.com/himanshuch8055",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "DEV Community",
+      "url": "https://dev.to/himanshuch8055",
+      "icon": "FaDev"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://https://www.youtube.com/@himanshuch8055",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@himanshuch8055",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Showwcase",
+      "url": "https://www.showwcase.com/himanshuch8055",
+      "icon": "FaShowwcase"
+    },
+    {
+      "name": "FaceBook",
+      "url": "https://www.facebook.com/himanshuch8055",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/himanshuch8055/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "April 2020",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Full Stack Developer",
+      "url": "https://www.linkedin.com/in/himanshuch8055/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/Himanshuch8055"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Andrew J Hughes",
+  "socials": [
+    {
+      "icon": "FaGithubSquare",
+      "url": "https://github.com/ajhughesdev"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ajhughesdev"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajhughesev"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://mastodon.ajhughes.dev/@ajhughesdev"
+    }
+  ],
+  "bio": "Web developer based in Louisville, KY | he, him",
+  "tags": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Frontend",
+    "Django",
+    "Python",
+    "REST API",
+    "PostCSS",
+    "Pixel Perfect",
+    "WordPress",
+    "Blazor",
+    "C#",
+    "ASP.NET Core",
+    "Razor"
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ajhughesdev",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ajhughesdev",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Mastodon",
+      "url": "https://mastodon.ajhughes.dev/@ajhughesdev",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Codepen",
+      "url": "https://codepen.io/ajhughesdev",
+      "icon": "FaCodepen"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/user/ajhughedev",
+      "icon": "FaReddit"
+    },
+    {
+      "name": "Twitter...while it lasts",
+      "url": "https://twitter.com/ajhughesdev",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Izam Mohammed",
+  "bio": "Open Source Enthusiast | **Data Scientist** | Freeelancer",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Data Science",
+    "Github",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/izammohammed2"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/izam-mohammed"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/izammohammed/"
+    },
+    {
+      "icon": "FaKaggle",
+      "url": "https://www.kaggle.com/izammohammed"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: For updations of my day-to-day life",
+      "url": "https://twitter.com/izammohammed2",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: For my Open-source contributions and projects",
+      "url": "https://github.com/izam-mohammed",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect and share some ideas",
+      "url": "https://www.linkedin.com/in/izammohammed/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Kaggle: For my compititions and ML research",
+      "url": "https://www.kaggle.com/izammohammed",
+      "icon": "FaKaggle"
+    },
+    {
+      "group": "Socials",
+      "name": "Hashnode: For my blogs and articles",
+      "url": "https://hashnode.com/@izammohammed",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Medium: For my blogs in Medium",
+      "url": "https://medium.com/@izamdeveloper1",
+      "icon": "SiMedium"
+    }
+  ]
+}

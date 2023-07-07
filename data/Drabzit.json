@@ -1,0 +1,19 @@
+{
+  "name": "Chris Bardsley",
+  "bio": "Living 1 Life at a Time, Crazy IT Dude",
+  "tags": ["Open Source", "Noob", "Gamer"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Drabzit"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https:www.linkedin.com/in/christopher-bardsley-1291b0191"
+    },
+    {
+      "icon": "FaInstergram",
+      "url": "https://www.instagram.com/drabz86/"
+    }
+  ]
+}

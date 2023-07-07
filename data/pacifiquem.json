@@ -1,0 +1,30 @@
+{
+  "name": "Pacifique Murangwa",
+  "bio": "Open Source enthusiast FullStack Developer",
+  "tags": [
+    "Backend Development",
+    "Frontend Development",
+    "Open Source",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C++"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/pacifiquem",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pacifique-murangwa-10394722b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PacifiqueMuran1",
+      "icon": "FaTwitter"
+    }
+  ]
+}

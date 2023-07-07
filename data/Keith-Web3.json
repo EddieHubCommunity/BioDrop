@@ -1,0 +1,11 @@
+{
+  "name": "Olorunnishola Olamilekan",
+  "bio": "Hi, I'm Ola. A frontend developer. My current tech stack consists of HTML, SCSS, JS, React, Firebase, Git. I'm currently learning react and I hope to build amazing projects with it soon.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Keith_Web3",
+      "icon": "FaTwitter"
+    }
+  ]
+}

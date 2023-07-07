@@ -1,0 +1,21 @@
+{
+  "name": "Vengala Uday",
+  "bio": "I am a CSE Undergraduate Interested in DevOps",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VengalaUday",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/vengala-uday-868359218/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Chintu1509",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Kumar Prince",
+  "bio": "Software Engineer at **Walmart**. Open Source enthusiast, Fitness freak and a Traveller",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/TheKrPrince",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/thekrprince/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/thekrprince",
+      "icon": "FaGithub"
+    }
+  ]
+}

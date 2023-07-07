@@ -1,0 +1,16 @@
+{
+  "name": "Tahsin Zaman Jilan",
+  "bio": "I am a fullstack developer and undergrad student",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ZilanJaman",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Tahsin-Zaman-Jilan",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

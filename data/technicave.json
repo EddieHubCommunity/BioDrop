@@ -1,0 +1,21 @@
+{
+  "name": "Aryan Tiwari",
+  "bio": "| Full Stack Developer | Chief Creative Officer at Showwcase | Creator at Technicave | Loves to Contributing to the Community |",
+  "links": [
+    {
+      "name": "Connect on Twitter",
+      "url": "https://twitter.com/technicave",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Checkout Github",
+      "url": "https://github.com/technicave",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow on LinkedIn",
+      "url": "https://www.linkedin.com/in/technicave/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Anvansh Singh",
+  "bio": "Full Stack Developer | AR Enthusiast | Ex-SDE Intern @HSDS ",
+  "links": [
+    {
+      "name": "Visit my Portfolio Website",
+      "url": "https://anvansh.netlify.com",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "http://github.com/RyanWalker277/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/anvansh1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/anvansh/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

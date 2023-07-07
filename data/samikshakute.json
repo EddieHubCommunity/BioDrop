@@ -1,0 +1,16 @@
+{
+  "name": "Samiksha Kute",
+  "bio": "I am Samiksha Kute currently pursuing my B.E. in Computer Science from SITS Pune. I am a passionate learner wishing to explore open source.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/samikshakute",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/samikshakute",
+      "icon": "FaTwitter"
+    }
+  ]
+}

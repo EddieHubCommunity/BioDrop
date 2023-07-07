@@ -1,0 +1,21 @@
+{
+  "name": "Alessandro Minoccheri",
+  "bio": "Senior Software Developer - Open source advocate - Speaker",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AlessandroMinoccheri",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/minompi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/alessandro-minoccheri/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

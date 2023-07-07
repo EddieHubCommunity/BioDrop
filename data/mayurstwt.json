@@ -1,0 +1,16 @@
+{
+  "name": "Mayur Sankhala",
+  "bio": "Happy since learned development",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mayurstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mayurstwt",
+      "icon": "FaGithub"
+    }
+  ]
+}

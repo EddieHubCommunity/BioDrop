@@ -1,0 +1,42 @@
+{
+  "name": "Atul Narayan Gawade",
+  "bio": "Open Source Enthusiast | **JAVA Developer** | SpringBoot | MicroServices| Learning Web3",
+  "tags": ["Open Source", "JAVA", "JavaScript", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gawadeatul27"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gawadeatul"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gawadeatul27",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/gawadeatul",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/atulgawade",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my Open Source Journey",
+      "date": "Feb 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I might be late but took first step towards Open Source Journey.",
+      "url": "https://github.com/gawadeatul"
+    }
+  ]
+}
