@@ -52,14 +52,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     message: "",
     additionalMessage: "",
   });
-  const [title, setTitle] = useState(
-    milestone.title || "Title of your Milestone"
-  );
-  const [description, setDescription] = useState(
-    milestone.description || "Description of your Milestone"
-  );
+  const [title, setTitle] = useState(milestone.title || "");
+  const [description, setDescription] = useState(milestone.description || "");
   const [url, setUrl] = useState(milestone.url || "");
-  const [icon, setIcon] = useState(milestone.icon || "FaGithub");
+  const [icon, setIcon] = useState(milestone.icon || "");
   const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
 
@@ -180,6 +176,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Milestone Title"
                       onChange={(e) => setTitle(e.target.value)}
                       value={title}
+                      placeholder="Title of your Milestone"
                       required
                       minLength="2"
                       maxLength="256"
@@ -192,6 +189,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     <Input
                       name="description"
                       label="Description"
+                      placeholder="Description of your Milestone"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       required
@@ -209,6 +207,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="URL"
                       onChange={(e) => setUrl(e.target.value)}
                       value={url}
+                      placeholder="https://www.example.com"
                       minLength="2"
                       maxLength="256"
                     />
@@ -235,6 +234,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Icon"
                       onChange={(e) => setIcon(e.target.value)}
                       value={icon}
+                      placeholder="FaGithub"
                       required
                       minLength="2"
                       maxLength="32"
