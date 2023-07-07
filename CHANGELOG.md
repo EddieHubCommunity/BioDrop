@@ -1,3 +1,7 @@
+## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
+
+
+
 ## [1.151.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.0...v1.151.1) (2023-07-07)
 
 
@@ -31,15 +35,6 @@
 ### Bug Fixes
 
 * manage testimonials reordering [#7920](https://github.com/EddieHubCommunity/LinkFree/issues/7920) ([#7994](https://github.com/EddieHubCommunity/LinkFree/issues/7994)) ([996d44c](https://github.com/EddieHubCommunity/LinkFree/commit/996d44c89a4b91af7114d17188170b270b4d72a1))
-
-
-
-## [1.150.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.0...v1.150.1) (2023-07-06)
-
-
-### Bug Fixes
-
-* user changelog update ([#8010](https://github.com/EddieHubCommunity/LinkFree/issues/8010)) ([4a76022](https://github.com/EddieHubCommunity/LinkFree/commit/4a760222938f1209317b9634602d688dc9b620e0))
 
 
 
