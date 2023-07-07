@@ -1,3 +1,12 @@
+## [1.151.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.2...v1.151.3) (2023-07-07)
+
+
+### Bug Fixes
+
+* no links displays 0 ([#7993](https://github.com/EddieHubCommunity/LinkFree/issues/7993)) ([81620db](https://github.com/EddieHubCommunity/LinkFree/commit/81620dbc0aed63be3968c6218945263587b5925a))
+
+
+
 ## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * default form values for milestone and events ([#8013](https://github.com/EddieHubCommunity/LinkFree/issues/8013)) ([5db5d73](https://github.com/EddieHubCommunity/LinkFree/commit/5db5d7334b591d3349d03c08a3f007eb81003d24)), closes [#7962](https://github.com/EddieHubCommunity/LinkFree/issues/7962) [#7985](https://github.com/EddieHubCommunity/LinkFree/issues/7985)
-
-
-
-## [1.150.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.1...v1.150.2) (2023-07-06)
-
-
-### Bug Fixes
-
-* manage testimonials reordering [#7920](https://github.com/EddieHubCommunity/LinkFree/issues/7920) ([#7994](https://github.com/EddieHubCommunity/LinkFree/issues/7994)) ([996d44c](https://github.com/EddieHubCommunity/LinkFree/commit/996d44c89a4b91af7114d17188170b270b4d72a1))
 
 
 
