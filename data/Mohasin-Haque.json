@@ -21,6 +21,16 @@
       "name": "Follow me on Facebook",
       "url": "https://www.facebook.com/ajad.ali.3766",
       "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Leetcode",
+      "url": "https://leetcode.com/mohasinhaque23121/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@mohasinhaque23121",
+      "icon": "FaMedium"
     }
   ],
   "milestones": [
