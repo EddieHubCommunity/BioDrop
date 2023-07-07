@@ -1,3 +1,21 @@
+## [1.151.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.5...v1.151.6) (2023-07-07)
+
+
+### Bug Fixes
+
+* use zod config ([#8034](https://github.com/EddieHubCommunity/LinkFree/issues/8034)) ([edc2e3d](https://github.com/EddieHubCommunity/LinkFree/commit/edc2e3d17e940774ab031edbac4111e9073e0349))
+
+
+
+## [1.151.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.4...v1.151.5) (2023-07-07)
+
+
+### Bug Fixes
+
+* roadmap responsive wit badge ([#8032](https://github.com/EddieHubCommunity/LinkFree/issues/8032)) ([85d0a72](https://github.com/EddieHubCommunity/LinkFree/commit/85d0a72043906ac1fce63810b31f5d9a11bc73a9))
+
+
+
 ## [1.151.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.3...v1.151.4) (2023-07-07)
 
 
@@ -17,24 +35,6 @@
 
 
 ## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
-
-
-
-## [1.151.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.0...v1.151.1) (2023-07-07)
-
-
-### Bug Fixes
-
-* 404 page button text ([#8019](https://github.com/EddieHubCommunity/LinkFree/issues/8019)) ([9c6b7c4](https://github.com/EddieHubCommunity/LinkFree/commit/9c6b7c4b7b8973f772060906247339619cd3cc3a))
-
-
-
-# [1.151.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.3...v1.151.0) (2023-07-07)
-
-
-### Features
-
-* 2 column profile layout ([#7977](https://github.com/EddieHubCommunity/LinkFree/issues/7977)) ([f0024f4](https://github.com/EddieHubCommunity/LinkFree/commit/f0024f457ecadc90612f58f966c733299812757a)), closes [#7564](https://github.com/EddieHubCommunity/LinkFree/issues/7564)
 
 
 
