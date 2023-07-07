@@ -1,3 +1,12 @@
+# [1.151.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.3...v1.151.0) (2023-07-07)
+
+
+### Features
+
+* 2 column profile layout ([#7977](https://github.com/EddieHubCommunity/LinkFree/issues/7977)) ([f0024f4](https://github.com/EddieHubCommunity/LinkFree/commit/f0024f457ecadc90612f58f966c733299812757a)), closes [#7564](https://github.com/EddieHubCommunity/LinkFree/issues/7564)
+
+
+
 ## [1.150.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.2...v1.150.3) (2023-07-06)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * manage reordering links and sorting ([#8002](https://github.com/EddieHubCommunity/LinkFree/issues/8002)) ([52358f0](https://github.com/EddieHubCommunity/LinkFree/commit/52358f0a32d22408b8e7b1888960e9a2fcad7e1d))
-
-
-
-## [1.149.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.14...v1.149.15) (2023-07-06)
-
-
-### Bug Fixes
-
-* improve docs & broken doc links ([#7998](https://github.com/EddieHubCommunity/LinkFree/issues/7998)) ([0977181](https://github.com/EddieHubCommunity/LinkFree/commit/0977181c7500b70bd3c6c907acc43a0568278988))
 
 
 

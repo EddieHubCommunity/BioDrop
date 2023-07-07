@@ -1,6 +1,25 @@
 {
   "name": "Vivek Sati",
-  "bio": " **Open Source**. Devops enthusiast",
+  "bio": " **Open Source** | DevOps Intern @Incloudo ",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "AWS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Vivek__twts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Viveksati5143"
+    },
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/vivek-sati"
+    }
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -8,9 +27,32 @@
       "icon": "FaTwitter"
     },
     {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vivek-sati",
+      "icon": "SiLinkedin"
+    },
+    {
       "name": "Follow me on Github",
       "url": "https://github.com/Viveksati5143",
       "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Top 20 contributor JWOC'23",
+      "date": "March 2023",
+      "icon": "SiTarget",
+      "color": "grey",
+      "description": "Ranked among the top 20 contributors",
+      "url": "https://leaderboard.jwoc.tech/"
+    },
+    {
+      "title": "Favourite mentee JWOC'23",
+      "date": "March 2023",
+      "icon": "FaRegGrinHearts",
+      "color": "red",
+      "description": "Elected for one of the most favourite mentee by the project mentors",
+      "url": "https://www.linkedin.com/posts/jwoc_favoritescpp-activity-7045610832977616897-aYuP?utm_source=share&utm_medium=member_desktop"
     }
   ]
 }
