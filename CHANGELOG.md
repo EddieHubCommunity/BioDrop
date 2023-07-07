@@ -1,3 +1,12 @@
+## [1.151.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.5...v1.151.6) (2023-07-07)
+
+
+### Bug Fixes
+
+* use zod config ([#8034](https://github.com/EddieHubCommunity/LinkFree/issues/8034)) ([edc2e3d](https://github.com/EddieHubCommunity/LinkFree/commit/edc2e3d17e940774ab031edbac4111e9073e0349))
+
+
+
 ## [1.151.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.4...v1.151.5) (2023-07-07)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
-
-
-
-## [1.151.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.0...v1.151.1) (2023-07-07)
-
-
-### Bug Fixes
-
-* 404 page button text ([#8019](https://github.com/EddieHubCommunity/LinkFree/issues/8019)) ([9c6b7c4](https://github.com/EddieHubCommunity/LinkFree/commit/9c6b7c4b7b8973f772060906247339619cd3cc3a))
 
 
 
