@@ -1,3 +1,12 @@
+## [1.151.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.0...v1.151.1) (2023-07-07)
+
+
+### Bug Fixes
+
+* 404 page button text ([#8019](https://github.com/EddieHubCommunity/LinkFree/issues/8019)) ([9c6b7c4](https://github.com/EddieHubCommunity/LinkFree/commit/9c6b7c4b7b8973f772060906247339619cd3cc3a))
+
+
+
 # [1.151.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.3...v1.151.0) (2023-07-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user changelog update ([#8010](https://github.com/EddieHubCommunity/LinkFree/issues/8010)) ([4a76022](https://github.com/EddieHubCommunity/LinkFree/commit/4a760222938f1209317b9634602d688dc9b620e0))
-
-
-
-# [1.150.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.15...v1.150.0) (2023-07-06)
-
-
-### Features
-
-* manage reordering links and sorting ([#8002](https://github.com/EddieHubCommunity/LinkFree/issues/8002)) ([52358f0](https://github.com/EddieHubCommunity/LinkFree/commit/52358f0a32d22408b8e7b1888960e9a2fcad7e1d))
 
 
 
