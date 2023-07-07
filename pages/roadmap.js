@@ -16,11 +16,10 @@ export default function Roadmap() {
       actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
-        "Shorter url",
         "Statistics",
         "Dark mode",
-        "Custom login page",
-        "Profile QR download",
+        "Forms to manage your profile",
+        "Customise your profile",
       ],
       mostPopular: false,
       icon: (
@@ -31,16 +30,15 @@ export default function Roadmap() {
       ),
     },
     {
-      name: "In the works",
+      name: "WIP",
       id: "release-in-progress",
       href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
       external: true,
       actionText: "Issue list",
       description: "Features are currently being worked on or will be soon.",
       features: [
-        "Forms to manage your profile",
         "Show more detailed statistics",
-        "Customise your profile",
+
         "Premium features",
         "New branding and design",
       ],
@@ -118,7 +116,7 @@ export default function Roadmap() {
                       </h3>
                       {phase.mostPopular ? (
                         <p className="rounded-full bg-secondary-medium/10 dark:bg-secondary-low px-2.5 py-1 text-xs font-semibold leading-5 text-secondary-medium dark:text-secondary-high-high">
-                          GEEK out with us!
+                          Work in progress
                         </p>
                       ) : null}
                     </div>
