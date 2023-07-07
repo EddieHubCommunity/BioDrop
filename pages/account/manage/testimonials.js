@@ -12,6 +12,7 @@ import { getTestimonialsApi } from "pages/api/account/manage/testimonials";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
+import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -99,75 +100,78 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           additionalMessage="Your profile information has been saved successfully."
         />
 
-        <div>
-          <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
-            Testimonials you have received, toggle to show on your Profile
-          </h3>
-        </div>
+        {!testimonials?.length ? <Alert type="info" message="No testimonials found" /> :
+          <>
+            <div>
+              <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
+                Testimonials you have received, toggle to show on your Profile
+              </h3>
+            </div>
 
-        <div>
-          <div className="flex gap-4">
-            {!reorder && (
-              <Button onClick={() => setReorder(true)}>
-                <ArrowPathIcon className="h-5 w-5 m-2" />
-                REORDER
-              </Button>
-            )}
-            {reorder && (
-              <Button
-                onClick={() => {
-                  setReorder(false);
-                  setTestimonialList(testimonialListPrevious);
-                }}
-              >
-                CANCEL
-              </Button>
-            )}
-            {reorder && (
-              <Button primary={true} onClick={() => saveOrder()}>
-                SAVE
-              </Button>
-            )}
-          </div>
-          <ul role="list" className="divide-y divide-primary-low">
-            <ReactSortable
-              list={testimonialList}
-              setList={setTestimonialList}
-              disabled={!reorder}
-              ghostClass="border-2"
-              chosenClass="border-dashed"
-              dragClass="border-red-500"
-            >
-              {testimonialList.map((testimonial) => (
-                <li
-                  key={testimonial._id}
-                  className={`flex items-center justify-between gap-x-6 py-5 ${
-                    reorder ? "animate-pulse" : ""
-                  }`}
+            <div>
+              <div className="flex gap-4">
+                {!reorder && (
+                  <Button onClick={() => setReorder(true)}>
+                    <ArrowPathIcon className="h-5 w-5 m-2" />
+                    REORDER
+                  </Button>
+                )}
+                {reorder && (
+                  <Button
+                    onClick={() => {
+                      setReorder(false);
+                      setTestimonialList(testimonialListPrevious);
+                    }}
+                  >
+                    CANCEL
+                  </Button>
+                )}
+                {reorder && (
+                  <Button primary={true} onClick={() => saveOrder()}>
+                    SAVE
+                  </Button>
+                )}
+              </div>
+              <ul role="list" className="divide-y divide-primary-low">
+                <ReactSortable
+                  list={testimonialList}
+                  setList={setTestimonialList}
+                  disabled={!reorder}
+                  ghostClass="border-2"
+                  chosenClass="border-dashed"
+                  dragClass="border-red-500"
                 >
-                  <div className="min-w-0">
-                    <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
-                        {testimonial.username}
-                      </p>
-                    </div>
-                    <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
-                      <p className="whitespace-normal">
-                        {testimonial.description}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex flex-none items-center gap-x-4">
-                    <Toggle
-                      enabled={testimonial.isPinned}
-                      setEnabled={() => toggle(testimonial._id)}
-                    />
-                  </div>
-                </li>
-              ))}
-            </ReactSortable>
-          </ul>
-        </div>
+                  {testimonialList.map((testimonial) => (
+                    <li
+                      key={testimonial._id}
+                      className={`flex items-center justify-between gap-x-6 py-5 ${reorder ? "animate-pulse" : ""
+                        }`}
+                    >
+                      <div className="min-w-0">
+                        <div className="flex items-start gap-x-3">
+                          <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
+                            {testimonial.username}
+                          </p>
+                        </div>
+                        <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
+                          <p className="whitespace-normal">
+                            {testimonial.description}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex flex-none items-center gap-x-4">
+                        <Toggle
+                          enabled={testimonial.isPinned}
+                          setEnabled={() => toggle(testimonial._id)}
+                        />
+                      </div>
+                    </li>
+                  ))}
+                </ReactSortable>
+              </ul>
+            </div>
+          </>
+        }
       </Page>
     </>
   );

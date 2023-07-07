@@ -50,7 +50,7 @@ export default function ManageMilestones({ milestones }) {
       <Page>
         <Navigation />
 
-        <Button href="/account/manage/milestone" >
+        <Button href="/account/manage/milestone">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Milestone
         </Button>
