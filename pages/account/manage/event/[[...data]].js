@@ -3,6 +3,7 @@ import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -39,7 +40,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { event, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { event, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 

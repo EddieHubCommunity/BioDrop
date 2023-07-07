@@ -5,6 +5,7 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import config from "@config/app.json";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -52,7 +53,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { profile, fileExists, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { profile, fileExists, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
