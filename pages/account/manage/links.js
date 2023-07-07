@@ -4,6 +4,7 @@ import { useState } from "react";
 import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -37,7 +38,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { username, links, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { username, links, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
