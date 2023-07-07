@@ -79,14 +79,16 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         const res = await fetch(
           `${BASE_URL}/api/search/${value.replaceAll(",", "/")}`
         );
-        if (!res.ok && res.status === 404)
-          throw new Error(`${inputValue} not found`);
         const data = await res.json();
+        if (data.error) {
+          throw new Error(`${inputValue} not found`);
+        }
+
         setNotFound();
         setUsers(data.users.sort(() => Math.random() - 0.5));
         setCurrentPage(1);
       } catch (err) {
-        setNotFound(err);
+        setNotFound(err.message);
         setUsers([]);
       }
     }
@@ -189,7 +191,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           />
         </Badge>
 
-        {notFound && <Alert type="error" message={`${notFound}`} />}
+        {notFound && <Alert type="error" message={notFound} />}
         <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
           {users.length < usersPerPage &&
             users.map((user) => (
