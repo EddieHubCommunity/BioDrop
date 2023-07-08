@@ -118,7 +118,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on #LinkFree.io`
+                            `Check out ${data.name}'s profile on LinkFree.io`
                           )}`
                         : ""
                     }`}
