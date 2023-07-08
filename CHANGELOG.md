@@ -1,3 +1,12 @@
+## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
+
+
+### Bug Fixes
+
+* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
+
+
+
 ## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * no tags on profile then hide ([#8027](https://github.com/EddieHubCommunity/LinkFree/issues/8027)) ([dea7cda](https://github.com/EddieHubCommunity/LinkFree/commit/dea7cdaede81e3f8371e2663413cfa28bde47830))
-
-
-
-## [1.151.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.2...v1.151.3) (2023-07-07)
-
-
-### Bug Fixes
-
-* no links displays 0 ([#7993](https://github.com/EddieHubCommunity/LinkFree/issues/7993)) ([81620db](https://github.com/EddieHubCommunity/LinkFree/commit/81620dbc0aed63be3968c6218945263587b5925a))
 
 
 
