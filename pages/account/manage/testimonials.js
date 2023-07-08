@@ -3,7 +3,9 @@ import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 import { ReactSortable } from "react-sortablejs";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
-import Bars2Icon from "@heroicons/react/24/outline/Bars2Icon"
+import Bars2Icon from "@heroicons/react/24/outline/Bars2Icon";
+
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -37,7 +39,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       testimonials,
-      BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }

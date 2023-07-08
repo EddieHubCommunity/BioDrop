@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import { MdQrCode2 } from "react-icons/md";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -28,9 +28,7 @@ function UserProfile({ BASE_URL, data }) {
 
   // Custom component for rendering links within ReactMarkdown
   const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>
-      {children}
-    </Link>
+    <Link href={href}>{children}</Link>
   );
 
   return (
@@ -68,13 +66,21 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown components={{ a: LinkRenderer }}>{data.bio}</ReactMarkdown>
+        <ReactMarkdown components={{ a: LinkRenderer }}>
+          {data.bio}
+        </ReactMarkdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
-          {data.tags &&
+          {data.tags?.length > 0 &&
             data.tags.map((tag) => (
-              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
+              <Tag
+                name={tag}
+                key={tag.toLowerCase()}
+                onClick={() =>
+                  router.push(`/search?keyword=${tag.toLowerCase()}`)
+                }
+              />
             ))}
         </div>
       )}
