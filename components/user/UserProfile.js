@@ -101,7 +101,7 @@ function UserProfile({ BASE_URL, data }) {
                 />
               )}
             </div>
-            <div className="w-[100%] px-2 mx-auto flex justify-center mb-4">
+            <div className="w-full px-2 mx-auto flex justify-center mb-4">
               {qrShow && (
                 <Button primary={true} onClick={downloadQR}>
                   Download QR code
