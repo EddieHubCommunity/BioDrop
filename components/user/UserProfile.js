@@ -112,10 +112,10 @@ function UserProfile({ BASE_URL, data }) {
           {qrShow && (
             <>
               <div className="h-full m-4 p-2 flex flex-row items-start justify-center space-x-2">
-                {socials.map(({ href, Icon, includeText }) => (
-                  <a
-                    key={href}
-                    href={`${href}${BASE_URL}/${data.username}${
+                {socials.map(({ SOCIAL_SHARE_LINK, Icon, includeText }) => (
+                  <Link
+                    key={SOCIAL_SHARE_LINK}
+                    href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
                             `Check out ${data.name}'s profile on #LinkFree.io`
@@ -126,7 +126,7 @@ function UserProfile({ BASE_URL, data }) {
                     className="rounded-full p-2 border border-primary-low-medium hover:border-secondary-high hover:text-secondary-high dark:hover:text-primary-low dark:hover:border-primary-low-medium dark:hover:bg-primary-medium-low cursor-pointer  dark:bg-primary-medium"
                   >
                     <Icon size={24} />
-                  </a>
+                  </Link>
                 ))}
               </div>
               <div className="w-[100%] flex items-center justify-center">
