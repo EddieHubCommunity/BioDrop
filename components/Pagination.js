@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { FaChevronRight } from "react-icons/fa";
-import { FaChevronLeft } from "react-icons/fa";
-import { BsChevronDoubleRight } from "react-icons/bs";
-import { BsChevronDoubleLeft } from "react-icons/bs";
+import ChevronDoubleLeftIcon from "@heroicons/react/24/outline/ChevronDoubleLeftIcon";
+import ChevronDoubleRightIcon from "@heroicons/react/24/outline/ChevronDoubleRightIcon";
+import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
+import ChevronLeftIcon from "@heroicons/react/24/outline/ChevronLeftIcon";
 
 const Pagination = ({
   data,
@@ -86,7 +86,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(1)}
             >
-              <BsChevronDoubleLeft title="Jump to first page" />
+              <ChevronDoubleLeftIcon title="Jump to first page" />
             </button>
           </li>
         )}
@@ -96,7 +96,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage - 1)}
             >
-              <FaChevronLeft title="Previous page" />
+              <ChevronLeftIcon title="Previous page" />
             </button>
           </li>
         )}
@@ -124,7 +124,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage + 1)}
             >
-              <FaChevronRight title="Next page" />
+              <ChevronRightIcon title="Next page" />
             </button>
           </li>
         )}
@@ -134,7 +134,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(totalPages)}
             >
-              <BsChevronDoubleRight title="Jump to last page" />
+              <ChevronDoubleRightIcon title="Jump to last page" />
             </button>
           </li>
         )}
