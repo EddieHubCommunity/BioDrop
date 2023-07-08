@@ -75,7 +75,7 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
-          {data.tags &&
+          {data.tags?.length > 0 &&
             data.tags.map((tag) => (
               <Tag
                 name={tag}

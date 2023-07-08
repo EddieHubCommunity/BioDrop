@@ -14,7 +14,7 @@ export default function DocsIndex() {
           name: "Quickstart forms",
           path: "/docs/quickstart-forms",
           description:
-            "The simpliest way to create your Profile is to use our Forms.",
+            "The simplest way to create your Profile is to use our Forms.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -42,7 +42,7 @@ export default function DocsIndex() {
         },
         {
           name: "Social with Forms",
-          path: "/docs/how-to-guides/socials-forms",
+          path: "/docs/how-to-guides/socials-shortcuts-forms",
           description:
             "You can pin your links to the top of your Profile with Social Shortcuts",
           category: {
@@ -52,7 +52,7 @@ export default function DocsIndex() {
         },
         {
           name: "Local Development",
-          path: "/environments/local-development",
+          path: "/docs/environments/local-development",
           description:
             "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
