@@ -11,6 +11,9 @@ import Tag from "@components/Tag";
 import Link from "@components/Link";
 import Badge from "@components/Badge";
 import Button from "@components/Button";
+import Modal from "@components/Modal";
+import ClipboardCopy from "@components/ClipboardCopy";
+import { socials } from "@config/socials";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -86,22 +89,57 @@ function UserProfile({ BASE_URL, data }) {
       )}
 
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
-      <div className="flex justify-center my-4" ref={qrRef}>
-        {qrShow && (
-          <QRCodeCanvas
-            className="border border-white"
-            value={`${BASE_URL}/${data.username}`}
-            size={fallbackImageSize * 2}
-          />
-        )}
-      </div>
-      <div className="flex justify-center mb-4">
-        {qrShow && (
-          <Button primary={true} onClick={downloadQR}>
-            Download QR code
-          </Button>
-        )}
-      </div>
+      <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
+        <div className="flex flex-col items-center justify-center px-8">
+          <div>
+            <div className="flex justify-center my-4" ref={qrRef}>
+              {qrShow && (
+                <QRCodeCanvas
+                  className="border border-white"
+                  value={`${BASE_URL}/${data.username}`}
+                  size={fallbackImageSize * 2}
+                />
+              )}
+            </div>
+            <div className="w-full px-2 mx-auto flex justify-center mb-4">
+              {qrShow && (
+                <Button primary={true} onClick={downloadQR}>
+                  Download QR code
+                </Button>
+              )}
+            </div>
+          </div>
+          {qrShow && (
+            <>
+              <div className="h-full m-4 p-2 flex flex-row items-start justify-center space-x-2">
+                {socials.map(({ SOCIAL_SHARE_LINK, Icon, includeText }) => (
+                  <Link
+                    key={SOCIAL_SHARE_LINK}
+                    href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
+                      includeText
+                        ? `&text=${encodeURIComponent(
+                            `Check out ${data.name}'s profile on LinkFree.io`
+                          )}`
+                        : ""
+                    }`}
+                    target="_blank"
+                    className="rounded-full p-2 border border-primary-low-medium hover:border-secondary-high hover:text-secondary-high dark:hover:text-primary-low dark:hover:border-primary-low-medium dark:hover:bg-primary-medium-low cursor-pointer  dark:bg-primary-medium"
+                  >
+                    <Icon size={24} />
+                  </Link>
+                ))}
+              </div>
+              <div className="w-full flex items-center justify-center">
+                <ClipboardCopy>
+                  <p className="dark:text-gray-300 border p-3 rounded-md">
+                    {`${BASE_URL}/${data.username}`}
+                  </p>
+                </ClipboardCopy>
+              </div>
+            </>
+          )}
+        </div>
+      </Modal>
     </>
   );
 }
