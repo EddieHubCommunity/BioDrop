@@ -1,3 +1,12 @@
+## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
+
+
+### Bug Fixes
+
+* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
+
+
+
 # [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
-
-
-
-## [1.151.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.5...v1.151.6) (2023-07-07)
-
-
-### Bug Fixes
-
-* use zod config ([#8034](https://github.com/EddieHubCommunity/LinkFree/issues/8034)) ([edc2e3d](https://github.com/EddieHubCommunity/LinkFree/commit/edc2e3d17e940774ab031edbac4111e9073e0349))
 
 
 
