@@ -51,6 +51,11 @@ export default function UserLink({
           {link.isEnabled ? "Enabled" : "Disabled"}
         </span>
       )}
+      {manage && link.group && (
+        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-tertiary-high text-tertiary-low ring-1 ring-inset ring-tertiary-low/10">
+          {link.group}
+        </span>
+      )}
     </Link>
   );
 

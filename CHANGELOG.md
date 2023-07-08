@@ -1,45 +1,45 @@
-## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
+## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
 
 
 ### Bug Fixes
 
-* margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
+* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
 
 
 
-## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
+# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
 
 
-### Bug Fixes
+### Features
 
-* margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
-
-
-
-## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
-
-
-### Bug Fixes
-
-* handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
+* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
 
 
 
-## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
+# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
 
 
-### Bug Fixes
+### Features
 
-* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
+* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
 
 
 
-## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
+## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
 
 
 ### Bug Fixes
 
-* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
+* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
+
+
+
+## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
+
+
+### Bug Fixes
+
+* NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
 
 
 
