@@ -7,9 +7,8 @@ function classNames(...classes) {
 export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
   let aria = {};
   if (!text1 && !text2) {
-    const ariaString = enabled ? 'disable' : 'enable';
     aria = {
-      "aria-label": ariaString
+      "aria-label": 'Enable'
     }
   }
   return (
