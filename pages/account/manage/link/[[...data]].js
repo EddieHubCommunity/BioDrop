@@ -94,14 +94,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     }
 
     setEdit(true);
-    Router.push(`${BASE_URL}/account/manage/links`);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Link added/updated",
-      additionalMessage: "Your Link has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/links?success=true`);
   };
 
   const deleteItem = async () => {

@@ -1,6 +1,7 @@
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
+import { useRouter } from "next/router";
 
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
@@ -9,6 +10,7 @@ import Navigation from "@components/account/manage/navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 import Button from "@components/Button";
 import UserLinks from "@components/user/UserLinks";
+import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -37,6 +39,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageLinks({ BASE_URL, username, links }) {
+  const router = useRouter();
+  const { success } = router.query;
+
   return (
     <>
       <PageHead
@@ -45,6 +50,12 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
+        {success ? (
+          <Alert
+            type="success"
+            message={success ? "Link Created/Updated Successfully" : ""}
+          />
+        ) : null}
         <Navigation />
 
         <Button href="/account/manage/link">
