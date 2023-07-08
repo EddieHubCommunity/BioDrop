@@ -5,6 +5,8 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 
+import { clientEnv } from "@config/schemas/clientSchema";
+import config from "@config/app.json";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -52,7 +54,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { profile, fileExists, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { profile, fileExists, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
@@ -69,7 +71,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = ["classic", "inline"];
+  const layouts = config.layouts;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -109,9 +111,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       />
 
       <Page>
-
         <Navigation />
-        
+
         {fileExists && (
           <Alert
             type="warning"

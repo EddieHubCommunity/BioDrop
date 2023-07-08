@@ -3,7 +3,9 @@ import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 import { ReactSortable } from "react-sortablejs";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
+import Bars2Icon from "@heroicons/react/24/outline/Bars2Icon";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -37,7 +39,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       testimonials,
-      BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }
@@ -145,16 +147,19 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                     reorder ? "animate-pulse" : ""
                   }`}
                 >
-                  <div className="min-w-0">
-                    <div className="flex items-start gap-x-3">
-                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
-                        {testimonial.username}
-                      </p>
-                    </div>
-                    <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
-                      <p className="whitespace-normal">
-                        {testimonial.description}
-                      </p>
+                  <div className="flex gap-2 items-start">
+                    {reorder && <Bars2Icon className="h-8 w-8 " />}
+                    <div className="min-w-0">
+                      <div className="flex items-start gap-x-3">
+                        <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
+                          {testimonial.username}
+                        </p>
+                      </div>
+                      <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
+                        <p className="whitespace-normal">
+                          {testimonial.description}
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="flex flex-none items-center gap-x-4">
