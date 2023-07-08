@@ -14,6 +14,7 @@ import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -199,7 +200,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <Textarea
                       type="url"
                       name="url"
                       label="Event URL"
