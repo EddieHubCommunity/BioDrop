@@ -1,3 +1,7 @@
+## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
+
+
+
 ## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
 
 
@@ -31,15 +35,6 @@
 ### Bug Fixes
 
 * alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
-
-
-
-## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
-
-
-### Bug Fixes
-
-* NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
 
 
 
