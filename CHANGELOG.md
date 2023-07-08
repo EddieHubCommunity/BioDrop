@@ -1,3 +1,12 @@
+# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
+
+
+### Features
+
+* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
+
+
+
 ## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * roadmap responsive wit badge ([#8032](https://github.com/EddieHubCommunity/LinkFree/issues/8032)) ([85d0a72](https://github.com/EddieHubCommunity/LinkFree/commit/85d0a72043906ac1fce63810b31f5d9a11bc73a9))
-
-
-
-## [1.151.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.3...v1.151.4) (2023-07-07)
-
-
-### Bug Fixes
-
-* no tags on profile then hide ([#8027](https://github.com/EddieHubCommunity/LinkFree/issues/8027)) ([dea7cda](https://github.com/EddieHubCommunity/LinkFree/commit/dea7cdaede81e3f8371e2663413cfa28bde47830))
 
 
 
