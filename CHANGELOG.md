@@ -1,3 +1,12 @@
+## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
+
+
+### Bug Fixes
+
+* NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
+
+
+
 ## [1.151.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.5...v1.151.6) (2023-07-07)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * no links displays 0 ([#7993](https://github.com/EddieHubCommunity/LinkFree/issues/7993)) ([81620db](https://github.com/EddieHubCommunity/LinkFree/commit/81620dbc0aed63be3968c6218945263587b5925a))
-
-
-
-## [1.151.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.1...v1.151.2) (2023-07-07)
 
 
 
