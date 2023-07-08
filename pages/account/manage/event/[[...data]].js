@@ -108,13 +108,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/events`);
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Event added/updated",
-      additionalMessage: "Your event has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/events?success=true`);
   };
 
   const deleteItem = async () => {
