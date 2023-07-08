@@ -1,3 +1,12 @@
+# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
+
+
+### Features
+
+* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
+
+
+
 # [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * use zod config ([#8034](https://github.com/EddieHubCommunity/LinkFree/issues/8034)) ([edc2e3d](https://github.com/EddieHubCommunity/LinkFree/commit/edc2e3d17e940774ab031edbac4111e9073e0349))
-
-
-
-## [1.151.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.4...v1.151.5) (2023-07-07)
-
-
-### Bug Fixes
-
-* roadmap responsive wit badge ([#8032](https://github.com/EddieHubCommunity/LinkFree/issues/8032)) ([85d0a72](https://github.com/EddieHubCommunity/LinkFree/commit/85d0a72043906ac1fce63810b31f5d9a11bc73a9))
 
 
 
