@@ -1,11 +1,7 @@
 {
   "name": "Vivek Sati",
   "bio": " **Open Source** | DevOps Intern @Incloudo ",
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "AWS"
-  ],
+  "tags": ["Open Source", "DevOps", "AWS"],
   "socials": [
     {
       "icon": "FaTwitter",
