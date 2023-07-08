@@ -129,7 +129,7 @@ function UserProfile({ BASE_URL, data }) {
                   </Link>
                 ))}
               </div>
-              <div className="w-[100%] flex items-center justify-center">
+              <div className="w-full flex items-center justify-center">
                 <ClipboardCopy>
                   <p className="dark:text-gray-300 border p-3 rounded-md">
                     {`${BASE_URL}/${data.username}`}
