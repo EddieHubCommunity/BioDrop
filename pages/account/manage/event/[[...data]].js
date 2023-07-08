@@ -11,7 +11,7 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/navigation";
 import { getEventApi } from "pages/api/account/manage/event/[[...data]]";
 import Input from "@components/form/Input";
-import DropdownMenu from "@components/form/DropDown";
+import Select from "@components/form/Select";
 import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
@@ -70,11 +70,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState(
     event.date?.end && formatDate(event.date?.end)
   );
-  const DropDownOptions = [
-    {value: "Non-speaking", name:"No"},
-    {value: "Speaking", name: "Yes"}
-    
-  ];
+  const DropDownOptions = ["Non-speaking","Speaking"];
   const [userStatus, setuserStatus] = useState(event.userStatus || "");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "Your speaking topic");
 
@@ -255,15 +251,17 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                      <DropdownMenu
-                        eventType={userStatus}
-                        handleEventTypeChange={handleEventTypeChange}
-                        options={DropDownOptions}
-                        label="Are you a speaker?"
-                        className=""
-                      />
+                  <div className="mt-1">
+                        <Select
+                          name="userStatus"
+                          label="Are you speaking in the event?"
+                          value={userStatus}
+                          options={DropDownOptions}
+                          onChange={handleEventTypeChange}
+                        />
+                      </div>
                       <p className="text-sm text-primary-low-medium">
-                        Select Yes or No
+                        Select Speaking or Non-speaking
                       </p>
                     </div>
                     {userStatus === "Speaking" && (
