@@ -1,0 +1,16 @@
+{
+    "name": "Dhruv Sood",
+    "bio": "18 | Viewing the world from a different angle | Your friendly neighborhood Geek | Tech enthusiast 👨🏻‍💻",
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/dhruv_sood_",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Checkout my Youtube",
+            "url": "https://www.youtube.com/@SoodDhruv",
+            "icon": "FaYoutube"
+        },
+    ]
+}
