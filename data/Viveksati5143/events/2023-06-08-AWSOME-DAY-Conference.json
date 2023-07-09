@@ -1,6 +1,5 @@
 {
   "isVirtual": true,
-  "color": "red",
   "name": "AWSOME DAY Conference",
   "description": "Free, one-day cloud training delivered by AWS technical instructors designed to enable you with AWS Cloud concepts, core AWS services, and ways these services enable innovation for a variety of new applications and industries to accelerate your success on AWS Cloud.",
   "date": {
