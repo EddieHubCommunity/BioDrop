@@ -1,3 +1,7 @@
+## [1.153.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.2...v1.153.3) (2023-07-09)
+
+
+
 ## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
 
 
@@ -26,15 +30,6 @@
 ### Features
 
 * admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
-
-
-
-## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
-
-
-### Bug Fixes
-
-* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
 
 
 
