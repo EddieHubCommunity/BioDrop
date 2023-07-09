@@ -77,14 +77,14 @@ function UserProfile({ BASE_URL, data }) {
         <div className="flex flex-wrap justify-center">
           {data.tags?.length > 0 &&
             data.tags.map((tag, index) => {
-              const trimmed_tag = tag.trim();
-              if (!trimmed_tag) return null;
+              const trimmedTag = tag.trim();
+              if (!trimmedTag) return null;
               return (
                 <Tag
-                  name={trimmed_tag}
+                  name={trimmedTag}
                   key={index}
                   onClick={() =>
-                    router.push(`/search?keyword=${trimmed_tag.toLowerCase()}`)
+                    router.push(`/search?keyword=${trimmedTag.toLowerCase()}`)
                   }
                 />
               );
