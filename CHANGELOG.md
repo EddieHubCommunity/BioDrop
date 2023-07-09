@@ -1,45 +1,40 @@
-# [1.151.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.3...v1.151.0) (2023-07-07)
+## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
+
+
+
+## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
+
+
+### Bug Fixes
+
+* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
+
+
+
+# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
 
 
 ### Features
 
-* 2 column profile layout ([#7977](https://github.com/EddieHubCommunity/LinkFree/issues/7977)) ([f0024f4](https://github.com/EddieHubCommunity/LinkFree/commit/f0024f457ecadc90612f58f966c733299812757a)), closes [#7564](https://github.com/EddieHubCommunity/LinkFree/issues/7564)
+* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
 
 
 
-## [1.150.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.2...v1.150.3) (2023-07-06)
-
-
-### Bug Fixes
-
-* default form values for milestone and events ([#8013](https://github.com/EddieHubCommunity/LinkFree/issues/8013)) ([5db5d73](https://github.com/EddieHubCommunity/LinkFree/commit/5db5d7334b591d3349d03c08a3f007eb81003d24)), closes [#7962](https://github.com/EddieHubCommunity/LinkFree/issues/7962) [#7985](https://github.com/EddieHubCommunity/LinkFree/issues/7985)
-
-
-
-## [1.150.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.1...v1.150.2) (2023-07-06)
-
-
-### Bug Fixes
-
-* manage testimonials reordering [#7920](https://github.com/EddieHubCommunity/LinkFree/issues/7920) ([#7994](https://github.com/EddieHubCommunity/LinkFree/issues/7994)) ([996d44c](https://github.com/EddieHubCommunity/LinkFree/commit/996d44c89a4b91af7114d17188170b270b4d72a1))
-
-
-
-## [1.150.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.150.0...v1.150.1) (2023-07-06)
-
-
-### Bug Fixes
-
-* user changelog update ([#8010](https://github.com/EddieHubCommunity/LinkFree/issues/8010)) ([4a76022](https://github.com/EddieHubCommunity/LinkFree/commit/4a760222938f1209317b9634602d688dc9b620e0))
-
-
-
-# [1.150.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.15...v1.150.0) (2023-07-06)
+# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
 
 
 ### Features
 
-* manage reordering links and sorting ([#8002](https://github.com/EddieHubCommunity/LinkFree/issues/8002)) ([52358f0](https://github.com/EddieHubCommunity/LinkFree/commit/52358f0a32d22408b8e7b1888960e9a2fcad7e1d))
+* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
+
+
+
+## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
+
+
+### Bug Fixes
+
+* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
 
 
 
