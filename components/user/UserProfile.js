@@ -76,15 +76,19 @@ function UserProfile({ BASE_URL, data }) {
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
           {data.tags?.length > 0 &&
-            data.tags.map((tag) => (
-              <Tag
-                name={tag}
-                key={tag.toLowerCase()}
-                onClick={() =>
-                  router.push(`/search?keyword=${tag.toLowerCase()}`)
-                }
-              />
-            ))}
+            data.tags.map((tag, index) => {
+              const trimmed_tag = tag.trim();
+              if (!trimmed_tag) return null;
+              return (
+                <Tag
+                  name={trimmed_tag}
+                  key={index}
+                  onClick={() =>
+                    router.push(`/search?keyword=${trimmed_tag.toLowerCase()}`)
+                  }
+                />
+              );
+            })}
         </div>
       )}
 
