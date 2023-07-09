@@ -1,0 +1,16 @@
+{
+  "name": "Zakariye Sahid",
+  "bio": "Front end developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/zaktech96",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/zaktech96",
+      "icon": "FaGithub"
+    }
+  ]
+}

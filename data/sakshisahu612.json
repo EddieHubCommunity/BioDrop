@@ -1,0 +1,16 @@
+{
+  "name": "Sakshi Sahu",
+  "bio": "I am Sakshi Sahu, a devoted code enthusiast and unabashed coffee lover, always ready to dive into lines of programming magic. 💻✨From the moment I discovered the power of coding, I was captivated by its ability to create, transform, and shape the world around us. Whether it's unraveling complex algorithms or building intuitive user interfaces, I find solace in the beauty of code, and I'm constantly seeking new opportunities to innovate and make a difference.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sakshi06sahu/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sakshi-sahu-2b926224a/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

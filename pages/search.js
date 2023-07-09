@@ -10,7 +10,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/users";
+import { getUsers } from "./api/profiles";
 import config from "@config/app.json";
 
 export async function getStaticProps() {
@@ -31,8 +31,8 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (data.users.length > 5) {
-    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
+  if (data.users.length > 10) {
+    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 10);
   } else {
     data.randUsers = data.users;
   }
@@ -43,71 +43,18 @@ export async function getStaticProps() {
   };
 }
 
-export default function Search({ data: {users, tags, randUsers} }) {
+export default function Search({ data: { users, tags, randUsers } }) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
-
   const [filteredUsers, setFilteredUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
   let results = [];
-
   useEffect(() => {
     if (username) {
       setNotFound(username);
     }
   }, [username]);
-
-  const filterData = (value) => {
-    const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
-
-    results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
-
-      return false;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
-    }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
-
-  const search = (keyword) => {
-    if (!inputValue.length) {
-      return setInputValue(keyword);
-    }
-
-    const items = inputValue.split(",");
-    if (inputValue.length) {
-      if (items.includes(keyword)) {
-        return setInputValue(
-          items.filter((item) => item !== keyword).join(",")
-        );
-      }
-
-      return setInputValue([...items, keyword].join(","));
-    }
-
-    setInputValue(keyword);
-  };
 
   useEffect(() => {
     if (!inputValue) {
@@ -122,12 +69,100 @@ export default function Search({ data: {users, tags, randUsers} }) {
       return;
     }
 
+    // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
+    setInputValue(inputValue
+      .replace(/,(\s*),/g, ",")
+      .replace(/^,/, ""))
+
     const timer = setTimeout(() => {
       filterData(inputValue);
     }, 500);
 
     return () => clearTimeout(timer);
   }, [inputValue]);
+
+  const filterData = (value) => {
+    const cleanedInput = cleanSearchInput(value);
+    const terms = cleanedInput.split(",");
+
+    results = users.filter((user) => {
+      const nameLower = user.name.toLowerCase();
+      const usernameLower = user.username.toLowerCase();
+      const userTagsString = user.tags.join(", ").toLowerCase();
+      const userLocationString = user.location ? user.location.provided.toLowerCase() : "";
+
+      // check if all search terms/keywords are matching with the the uses
+      const isUserMatched = terms.every((term) => {
+        const cleanedTerm = term.trim();
+
+        if (!cleanedInput) {
+          return false;
+        }
+
+        return (
+          usernameLower.includes(cleanedTerm) ||
+          nameLower.includes(cleanedTerm) ||
+          userTagsString.includes(cleanedTerm) ||
+          userLocationString.includes(cleanedTerm)
+        );
+      });
+
+      return isUserMatched;
+    });
+
+    if (!results.length) {
+      setNotFound(value);
+    }
+
+    if (results.length) {
+      setNotFound();
+    }
+
+    setFilteredUsers(results.sort(() => Math.random() - 0.5));
+  };
+
+  const search = (keyword) => {
+    const cleanedInput = cleanSearchInput(inputValue);
+
+    if (!cleanedInput.length) {
+      return setInputValue(keyword);
+    }
+
+    const items = cleanedInput.split(", ");
+
+    if (cleanedInput.length) {
+      if (searchTagNameInInput(inputValue, keyword)) {
+        return setInputValue(
+          items.filter((item) => item.trim() !== keyword).join(", ")
+        );
+      }
+
+      return setInputValue([...items, keyword].join(", "));
+    }
+
+    setInputValue(keyword);
+  };
+
+  // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
+  const cleanSearchInput = (searchInput) => {
+    return searchInput
+      .trim()
+      .replace(/\s{2,}/g, " ")
+      .replace(/,(?!\s)/g, ", ")
+      .toLowerCase();
+  };
+
+  const searchTagNameInInput = (searchInput, tagName) => {
+    const tags = cleanSearchInput(searchInput).split(",");
+
+    for (let tag of tags) {
+      if (tag.trim() === tagName.toLowerCase()) {
+        return true;
+      }
+    }
+
+    return false;
+  };
 
   return (
     <>
@@ -147,10 +182,7 @@ export default function Search({ data: {users, tags, randUsers} }) {
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .includes(tag.name.toLowerCase())}
+                  selected={searchTagNameInInput(inputValue, tag.name)}
                   onClick={() => search(tag.name)}
                 />
               ))}
@@ -163,7 +195,7 @@ export default function Search({ data: {users, tags, randUsers} }) {
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source,reactjs"
+            placeholder="Search user by name or tags; eg: open source, reactjs"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}

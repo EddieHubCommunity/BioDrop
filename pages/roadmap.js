@@ -1,8 +1,6 @@
-import {
-  CheckIcon,
-  ComputerDesktopIcon,
-  ClockIcon,
-} from "@heroicons/react/24/outline";
+import CheckIcon from "@heroicons/react/24/outline/CheckIcon";
+import ComputerDesktopIcon from "@heroicons/react/24/outline/ComputerDesktopIcon";
+import ClockIcon from "@heroicons/react/24/outline/ClockIcon";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -18,11 +16,10 @@ export default function Roadmap() {
       actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
-        "Shorter url",
         "Statistics",
         "Dark mode",
-        "Custom login page",
-        "Profile QR download",
+        "Forms to manage your profile",
+        "Customise your profile",
       ],
       mostPopular: false,
       icon: (
@@ -33,16 +30,15 @@ export default function Roadmap() {
       ),
     },
     {
-      name: "In the works",
+      name: "WIP",
       id: "release-in-progress",
       href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
       external: true,
       actionText: "Issue list",
       description: "Features are currently being worked on or will be soon.",
       features: [
-        "Forms to manage your profile",
         "Show more detailed statistics",
-        "Customise your profile",
+
         "Premium features",
         "New branding and design",
       ],
@@ -120,7 +116,7 @@ export default function Roadmap() {
                       </h3>
                       {phase.mostPopular ? (
                         <p className="rounded-full bg-secondary-medium/10 dark:bg-secondary-low px-2.5 py-1 text-xs font-semibold leading-5 text-secondary-medium dark:text-secondary-high-high">
-                          GEEK out with us!
+                          Work in progress
                         </p>
                       ) : null}
                     </div>
@@ -145,8 +141,8 @@ export default function Roadmap() {
                     aria-describedby={phase.id}
                     className={classNames(
                       phase.mostPopular
-                        ? "bg-secondary-medium  text-white shadow-sm hover:bg-secondary-medium-low"
-                        : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-white dark:hover:border-secondary-low hover:border-secondary-low",
+                        ? "bg-secondary-medium  text-primary-low shadow-sm hover:bg-secondary-medium-low"
+                        : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-primary-low dark:hover:border-secondary-low hover:border-secondary-low",
                       "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
                     )}
                   >

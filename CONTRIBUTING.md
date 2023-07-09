@@ -1,5 +1,9 @@
 # Contributing Guide
 
+[![LinkFree Contributing Guide](https://user-images.githubusercontent.com/82668196/242340741-a0124ead-97b6-488f-9271-10f2b0e1f577.jpg)](https://youtu.be/dfeSpGd8leU)
+
+🎥 You can watch the video that Eddie created as a contributing guide. Click on the image to watch the video.
+ 
 ## Issues & Pull Requests (not for Profiles)
 
 ### Creating an Issue
@@ -50,3 +54,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn, network
 ---
 
 Please refer to the `Contributing` section of the website's documentation for more details https://linkfree.eddiehub.io/docs
+
+---
+
+> Note: Persistent non-compliance with this Contributing Guide can lead to a warning and/or ban under the [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md)

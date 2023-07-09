@@ -1,4 +1,5 @@
 import fs from "fs";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 const { USERS } = require("./test-users.js");
 
@@ -61,7 +62,7 @@ module.exports = async () => {
 
   try {
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
     );
     if (response.status !== 200) {
       throw new Error(`Test data not loaded into database`);
