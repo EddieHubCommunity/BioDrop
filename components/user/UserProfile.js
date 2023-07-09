@@ -78,7 +78,9 @@ function UserProfile({ BASE_URL, data }) {
           {data.tags?.length > 0 &&
             data.tags.map((tag, index) => {
               const trimmedTag = tag.trim();
-              if (!trimmedTag) return null;
+              if (!trimmedTag) {
+                return null;
+              }
               return (
                 <Tag
                   name={trimmedTag}
