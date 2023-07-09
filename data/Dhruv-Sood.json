@@ -1,6 +1,13 @@
 {
     "name": "Dhruv Sood",
     "bio": "18 | Viewing the world from a different angle | Your friendly neighborhood Geek | Tech enthusiast 👨🏻‍💻",
+    "tags": [
+        "Open Source",
+        "Javascript",
+        "Typescript",
+        "Python",
+        "React"
+    ],
     "links": [
         {
             "name": "Follow me on Twitter",
@@ -26,12 +33,5 @@
             "icon": "FaYoutube",
             "url": "https://www.youtube.com/@SoodDhruv"
         }
-    ],
-    "tags": [
-        "Open Source",
-        "Javascript",
-        "Typescript",
-        "Python",
-        "React"
     ]
 }
