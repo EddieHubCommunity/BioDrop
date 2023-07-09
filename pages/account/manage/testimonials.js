@@ -100,7 +100,8 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           additionalMessage="Your profile information has been saved successfully."
         />
 
-        {!testimonials?.length ? <Alert type="info" message="No testimonials found" /> :
+        {!testimonials?.length && <Alert type="info" message="No testimonials found" />} 
+        {testimonials &&
           <>
             <div>
               <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
