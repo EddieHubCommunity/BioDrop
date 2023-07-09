@@ -8,50 +8,55 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const events = await getEvents();
+  const { withLocation } = req.query;
+
+  const events = await getEvents(withLocation);
   return res.status(200).json(events);
 }
 
 export async function getEvents(withLocation = false) {
   let events = [];
-  try {
-    events = await Profile.aggregate([
-      { $project: { username: 1, events: 1, isEnabled: 1 } },
-      { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
-      { $unwind: "$events" },
-      { $match: { "events.date.end": { $gt: new Date() } } },
-      ...(withLocation
-        ? [
-            {
-              $match: {
-                $and: [
-                  { "events.location": { $exists: true } },
-                  { "events.location.lat": { $exists: true } },
-                  { "events.location.lon": { $exists: true } },
-                  { "events.location.lat": { $ne: null } },
-                  { "events.location.lon": { $ne: null } },
-                ],
-              },
-            },
-          ]
-        : []),
-      { $sort: { "events.date.start": 1 } },
-      {
-        $group: {
-          _id: "$events.url",
-          usernames: { $addToSet: "$username" },
-          isVirtual: { $first: "$events.isVirtual" },
-          color: { $first: "$events.color" },
-          date: { $first: "$events.date" },
-          url: { $first: "$events.url" },
-          name: { $first: "$events.name" },
-          description: { $first: "$events.description" },
-          location: { $first: "$events.location" },
-          isEnabled: { $first: "$isEnabled" },
-        },
-      },
-    ]).exec();
+  let aggregate = [
+    { $project: { username: 1, events: 1, isEnabled: 1 } },
+    { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
+    { $unwind: "$events" },
+    { $match: { "events.date.end": { $gt: new Date() } } },
+  ];
 
+  if (withLocation) {
+    aggregate.push({
+      $match: {
+        $and: [
+          { "events.location": { $exists: true } },
+          { "events.location.lat": { $exists: true } },
+          { "events.location.lon": { $exists: true } },
+          { "events.location.lat": { $ne: null } },
+          { "events.location.lon": { $ne: null } },
+        ],
+      },
+    });
+  }
+
+  aggregate.push(
+    {
+      $group: {
+        _id: "$events.url",
+        usernames: { $addToSet: "$username" },
+        isVirtual: { $first: "$events.isVirtual" },
+        color: { $first: "$events.color" },
+        date: { $first: "$events.date" },
+        url: { $first: "$events.url" },
+        name: { $first: "$events.name" },
+        description: { $first: "$events.description" },
+        location: { $first: "$events.location" },
+        isEnabled: { $first: "$isEnabled" },
+      },
+    },
+    { $sort: { "events.date.start": 1 } }
+  );
+
+  try {
+    events = await Profile.aggregate(aggregate).exec();
     let dateEvents = [];
     const today = new Date();
     for (const event of events) {
