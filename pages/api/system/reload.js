@@ -246,28 +246,68 @@ export default async function handler(req, res) {
       }
 
       // - events
-      try {
-        if (profile.events) {
+      async function getCoordinates(city, state, country) {
+        let locationDb = {};
+        const provided = [city, state, country].filter((x) => x).join(",");
+        if (locationDb[provided]) {
+          return locationDb[provided];
+        }
+        try {
+          const location = await fetch(
+            `https://nominatim.openstreetmap.org/?addressdetails=1&q=
+            ${encodeURIComponent(provided)}&format=json&limit=1`
+          );
+          const coordinates = await location.json();
+          if (coordinates) {
+            const point = {
+              lat: coordinates[0].lat,
+              lon: coordinates[0].lon,
+            };
+            locationDb[provided] = point;
+            return point;
+          }
+        } catch (e) {
+          return null;
+        }
+        return null;
+      }
+      
+      if (profile.events) {
+        try {
+          const events = await Promise.all(
+            profile.events.map(async (event, position) => {
+              let location = {};
+              if (event.location) {
+                location = {
+                  location: { ...event.location },
+                };
+                if (new Date(event.date.start) > Date.now() || new Date(event.date.end) > Date.now()) {
+                  const coordinates = await getCoordinates(
+                    event.location.city,
+                    event.location.state,
+                    event.location.country
+                  );
+                  if (coordinates) {
+                    location.location.lat = coordinates.lat;
+                    location.location.lon = coordinates.lon;
+                  }
+                }
+              }
+              return {
+                order: position,
+                ...event,
+                ...location,
+              };
+            })
+          );
+
           await Profile.findOneAndUpdate(
             { username: profile.username },
-            {
-              events: profile.events.map((event) => ({
-                isVirtual: event.isVirtual,
-                color: event.color,
-                name: event.name,
-                description: event.description,
-                date: {
-                  start: event.date.start,
-                  end: event.date.end,
-                },
-                url: event.url,
-                price: event.price,
-              })),
-            }
+            { events }
           );
+        } catch (e) {
+          logger.error(e,`failed to update events for ${profile.username}`);
         }
-      } catch (e) {
-        logger.error(e, `failed to update events for ${profile.username}`);
       }
     })
   );

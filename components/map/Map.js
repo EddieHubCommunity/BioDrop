@@ -2,7 +2,7 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import Clusters from "./Clusters";
 import "leaflet/dist/leaflet.css";
 
-export default function Map({ users }) {
+export default function Map({ points }) {
   const boundsMap = [
     [-90, -180], // Southwest coordinates
     [90, 180], // Northeast coordinates
@@ -23,7 +23,7 @@ export default function Map({ users }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://b.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Clusters users={users} />
+      <Clusters points={points} />
     </MapContainer>
   );
 }

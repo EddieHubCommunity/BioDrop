@@ -12,7 +12,7 @@ export default async function handler(req, res) {
   return res.status(200).json(events);
 }
 
-export async function getEvents() {
+export async function getEvents(withLocation = false) {
   let events = [];
   try {
     events = await Profile.aggregate([
@@ -20,6 +20,21 @@ export async function getEvents() {
       { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
       { $unwind: "$events" },
       { $match: { "events.date.end": { $gt: new Date() } } },
+      ...(withLocation
+        ? [
+            {
+              $match: {
+                $and: [
+                  { "events.location": { $exists: true } },
+                  { "events.location.lat": { $exists: true } },
+                  { "events.location.lon": { $exists: true } },
+                  { "events.location.lat": { $ne: null } },
+                  { "events.location.lon": { $ne: null } },
+                ],
+              },
+            },
+          ]
+        : []),
       { $sort: { "events.date.start": 1 } },
       {
         $group: {
@@ -31,6 +46,7 @@ export async function getEvents() {
           url: { $first: "$events.url" },
           name: { $first: "$events.name" },
           description: { $first: "$events.description" },
+          location: { $first: "$events.location" },
           isEnabled: { $first: "$isEnabled" },
         },
       },
