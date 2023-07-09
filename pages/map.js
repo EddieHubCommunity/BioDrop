@@ -22,8 +22,8 @@ export async function getStaticProps() {
   let data = {
     users: [],
     tags: [],
-    events:[],
-    points: []
+    events: [],
+    points: [],
   };
   try {
     data.users = await getUsers();
@@ -42,7 +42,7 @@ export async function getStaticProps() {
 
   // Apply offset equally to 4 quadrants arround point
   const adjustCoords = (coords, offset, offset2, index) => {
-    switch (index % 4 ) {
+    switch (index % 4) {
       case 0:
         return [coords[0] + offset, coords[1] + offset2];
       case 1:
@@ -52,7 +52,7 @@ export async function getStaticProps() {
       default:
         return [coords[0] + offset, coords[1] - offset2];
     }
-  }
+  };
 
   data.users = data.users.map((user, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
@@ -65,21 +65,18 @@ export async function getStaticProps() {
         username: user.username,
         name: user.name,
         location: user.location.provided,
-        bio: user.bio || ''
+        bio: user.bio || "",
       },
       geometry: {
         type: "Point",
-        coordinates:adjustCoords(
-          [
-            parseFloat(user.location.lon),
-            parseFloat(user.location.lat)
-          ],
+        coordinates: adjustCoords(
+          [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
           index
-        )
-      }
-    }
+        ),
+      },
+    };
   });
 
   try {
@@ -93,7 +90,7 @@ export async function getStaticProps() {
   } catch (e) {
     logger.error(e, "ERROR loading Events");
   }
-  
+
   data.events = data.events.map((event, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
     const offset2 = Math.random() * 0.02; // ~2.2km
@@ -106,7 +103,7 @@ export async function getStaticProps() {
         name: event.name,
         location: event.location,
         date: event.date,
-        url: event.url || ''
+        url: event.url || "",
       },
       geometry: {
         type: "Point",
@@ -119,7 +116,7 @@ export async function getStaticProps() {
       },
     };
   });
-  data.points=[...data.users,...data.events]
+  data.points = [...data.users, ...data.events];
   return {
     props: { data },
     revalidate: pageConfig.revalidateSeconds,
@@ -209,12 +206,14 @@ export default function Map({ data }) {
             content={
               filteredPoints.length > 0 ? filteredPoints.length : points.length
             }
-            >
+          >
             <Button
               onClick={resetFilter}
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            >Clear/Reset Filters</Button>
+            >
+              Clear/Reset Filters
+            </Button>
           </Badge>
           {tags &&
             tags
