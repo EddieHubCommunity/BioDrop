@@ -29,10 +29,10 @@ export default function Page404() {
             />
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button href="/" primary={true} aria-label="Back to home">
-                Go back home
+                Home
               </Button>
               <Button href="/docs" aria-label="Read the docs">
-                Read the docs
+                Docs
               </Button>
             </div>
           </div>

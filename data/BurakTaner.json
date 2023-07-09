@@ -1,5 +1,5 @@
 {
-  "name": "Ertan Taner",
+  "name": "Burak Taner",
   "bio": "Jr. Backend Developer | Animal Lover | Open Source Is Everything | Linux Enthusiast | Terminal > GUI ",
   "tags": [
     "C#",
@@ -14,32 +14,27 @@
   "socials": [
     {
       "icon": "FaGithub",
-      "url": "https://github.com/Ertan222"
+      "url": "https://github.com/BurakTaner"
     },
     {
       "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/ertan-taner/"
+      "url": "https://www.linkedin.com/in/buraktaner6/"
     },
     {
       "icon": "FaTwitter",
-      "url": "https://twitter.com/Ertant11"
+      "url": "https://twitter.com/MrPandaWizard6"
     }
   ],
   "links": [
     {
       "name": "Github: Open source contributation and personal projects",
-      "url": "https://github.com/Ertan222",
+      "url": "https://github.com/BurakTaner",
       "icon": "FaGithub"
     },
     {
       "name": "Linkedin: Connect with me throught Linkedin for job offers",
-      "url": "https://www.linkedin.com/in/ertan-taner/",
+      "url": "https://www.linkedin.com/in/buraktaner6/",
       "icon": "FaLinkedin"
-    },
-    {
-      "name": "Twitter: Doing #100daysofcode in Twitter, you can follow my journey",
-      "url": "https://twitter.com/Ertant11",
-      "icon": "FaTwitter"
     }
   ],
   "milestones": [
@@ -63,13 +58,6 @@
       "icon": "FaBookOpen",
       "color": "red",
       "description": "I finished my course at Infotech Academy"
-    },
-    {
-      "title": "Started #100daysofcode",
-      "date": "Jan 2023",
-      "icon": "FaCode",
-      "color": "blue",
-      "description": "I wanted to improve my skills and make some projects. Thats why ı started a journey for myself"
     },
     {
       "title": "First Certificate",

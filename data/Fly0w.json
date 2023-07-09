@@ -13,7 +13,7 @@
       "icon": "FaLinkedin"
     }
   ],
-  "tags": [ "Open Source", "Javascript", "Nextjs", "React", "ReactJS", "css" ],
+  "tags": ["Open Source", "Javascript", "Nextjs", "React", "ReactJS", "css"],
   "socials": [
     {
       "icon": "FaInstagram",
@@ -36,5 +36,6 @@
       "color": "blue",
       "description": "Started learning frontend development",
       "url": "https://fly0w.github.io/portfolio/"
-    }]
+    }
+  ]
 }

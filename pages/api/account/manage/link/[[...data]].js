@@ -4,8 +4,7 @@ import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import Link from "@models/Link";
-import Profile from "@models/Profile";
+import { LinkStats, Profile, Link } from "@models/index";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -14,10 +13,10 @@ export default async function handler(req, res) {
     return;
   }
   const username = session.username;
-  if (!["GET", "PUT", "POST"].includes(req.method)) {
-    return res
-      .status(400)
-      .json({ error: "Invalid request: GET or PUT required" });
+  if (!["GET", "PUT", "POST", "DELETE"].includes(req.method)) {
+    return res.status(400).json({
+      error: "Invalid request: GET or PUT or POST or DELETE required",
+    });
   }
 
   const { data } = req.query;
@@ -25,6 +24,9 @@ export default async function handler(req, res) {
   let link = {};
   if (req.method === "GET") {
     link = await getLinkApi(username, data[0]);
+  }
+  if (req.method === "DELETE") {
+    link = await deleteLinkApi(username, data[0]);
   }
   if (req.method === "PUT") {
     link = await updateLinkApi(username, data[0], req.body);
@@ -151,4 +153,56 @@ export async function updateLinkApi(username, id, data) {
   }
 
   return JSON.parse(JSON.stringify(getLink));
+}
+
+export async function deleteLinkApi(username, id) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  let getLink = await getLinkApi(username, id);
+
+  if (getLink.error) {
+    return getLink;
+  }
+
+  // delete linkstats
+  try {
+    await LinkStats.deleteMany({ link: new ObjectId(id) });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to delete link stats for username ${username} and url ${getLink.url}`
+    );
+    return { error: e.errors };
+  }
+
+  // delete link from profile
+  try {
+    await Profile.findOneAndUpdate(
+      {
+        username,
+      },
+      {
+        $pull: {
+          links: { $in: id },
+        },
+      },
+      { new: true }
+    );
+  } catch (e) {
+    const error = `failed to delete link from profile for username: ${username}`;
+    log.error(e, error);
+    return { error };
+  }
+
+  // delete link
+  try {
+    await Link.deleteOne({ _id: new ObjectId(id) });
+  } catch (e) {
+    const error = `failed to delete link from profile for username: ${username}`;
+    log.error(e, error);
+    return { error };
+  }
+
+  return JSON.parse(JSON.stringify({}));
 }

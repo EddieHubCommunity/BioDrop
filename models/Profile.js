@@ -3,6 +3,8 @@ import mongoose, { Schema } from "mongoose";
 import { MilestoneSchema } from "./Profile/Milestone";
 import { EventSchema } from "./Profile/Event";
 
+import config from "@config/app.json";
+
 const ProfileSchema = new Schema(
   {
     source: {
@@ -16,7 +18,7 @@ const ProfileSchema = new Schema(
     layout: {
       type: String,
       enum: {
-        values: ["classic", "inline"],
+        values: config.layouts,
         message: "{VALUE} is not a supported profile layout",
       },
     },
@@ -88,7 +90,6 @@ const ProfileSchema = new Schema(
           type: Date,
           required: true,
         },
-        order: Number,
         isPinned: Boolean,
       },
     ],

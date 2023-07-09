@@ -5,6 +5,8 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 
+import { clientEnv } from "@config/schemas/clientSchema";
+import config from "@config/app.json";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -51,7 +53,7 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { profile, fileExists, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { profile, fileExists, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
@@ -68,7 +70,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = ["classic", "inline"];
+  const layouts = config.layouts;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -108,14 +110,14 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       />
 
       <Page>
+        <Navigation />
+
         {fileExists && (
           <Alert
             type="warning"
             message={`"data/${profile.username}.json" exists, please remove this file and your folder via a Pull Request as it will no longer be needed because you are managing your account via these forms.`}
           />
         )}
-
-        <Navigation />
 
         <Notification
           show={showNotification.show}
@@ -133,7 +135,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
             <section
               aria-labelledby="preview-data-heading"
-              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 lg:bg-transparent lg:px-0 lg:pb-16"
+              className="bg-primary-low px-4 pb-10 pt-16 sm:px-6 lg:col-start-2 lg:row-start-1 bg-transparent lg:px-0 lg:pb-16"
             >
               <div className="mx-auto max-w-lg lg:max-w-none">
                 <UserProfile
