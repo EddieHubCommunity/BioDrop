@@ -11,6 +11,27 @@
             "name": "Checkout my Youtube",
             "url": "https://www.youtube.com/@SoodDhruv",
             "icon": "FaYoutube"
+        }
+    ],
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/dhruv_sood_"
         },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/Dhruv-Sood"
+        },
+        {
+            "icon": "FaYoutube",
+            "url": "https://www.youtube.com/@SoodDhruv"
+        }
+    ],
+    "tags": [
+        "Open Source",
+        "Javascript",
+        "Typescript",
+        "Python",
+        "React"
     ]
 }
