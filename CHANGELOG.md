@@ -1,3 +1,12 @@
+## [1.153.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.3...v1.153.4) (2023-07-09)
+
+
+### Bug Fixes
+
+* basic tests for forms ([#7987](https://github.com/EddieHubCommunity/LinkFree/issues/7987)) ([aa75212](https://github.com/EddieHubCommunity/LinkFree/commit/aa75212c056308473f679da9618444ab292b8694))
+
+
+
 ## [1.153.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.2...v1.153.3) (2023-07-09)
 
 
@@ -21,15 +30,6 @@
 ### Features
 
 * social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
-
-
-
-# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
-
-
-### Features
-
-* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
 
 
 
