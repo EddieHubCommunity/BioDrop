@@ -1,3 +1,12 @@
+## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
+
+
+### Bug Fixes
+
+* image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
+
+
+
 ## [1.154.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.4...v1.154.5) (2023-07-10)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * cleanup AxeBuilder imports ([#8104](https://github.com/EddieHubCommunity/LinkFree/issues/8104)) ([28e8d64](https://github.com/EddieHubCommunity/LinkFree/commit/28e8d6460bb66d4f6646cfc68dfa2fca583a08fb))
-
-
-
-## [1.154.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.0...v1.154.1) (2023-07-10)
-
-
-### Bug Fixes
-
-* tag comma in profile form section ([#8087](https://github.com/EddieHubCommunity/LinkFree/issues/8087)) ([a92c5bc](https://github.com/EddieHubCommunity/LinkFree/commit/a92c5bc9c3a3f7e30599a4df6ac0431b4c9d2a46))
 
 
 
