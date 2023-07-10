@@ -1,3 +1,12 @@
+## [1.154.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.0...v1.154.1) (2023-07-10)
+
+
+### Bug Fixes
+
+* tag comma in profile form section ([#8087](https://github.com/EddieHubCommunity/LinkFree/issues/8087)) ([a92c5bc](https://github.com/EddieHubCommunity/LinkFree/commit/a92c5bc9c3a3f7e30599a4df6ac0431b4c9d2a46))
+
+
+
 # [1.154.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.5...v1.154.0) (2023-07-10)
 
 
@@ -21,10 +30,6 @@
 
 
 ## [1.153.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.2...v1.153.3) (2023-07-09)
-
-
-
-## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
 
 
 
