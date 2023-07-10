@@ -1,3 +1,12 @@
+## [1.154.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.3...v1.154.4) (2023-07-10)
+
+
+### Bug Fixes
+
+* broken link in testimonial github action ([#8100](https://github.com/EddieHubCommunity/LinkFree/issues/8100)) ([22e29a4](https://github.com/EddieHubCommunity/LinkFree/commit/22e29a46b5a1900be3008ab21408e6c56312970f))
+
+
+
 ## [1.154.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.2...v1.154.3) (2023-07-10)
 
 
@@ -26,10 +35,6 @@
 ### Features
 
 * pagination for search ([#7748](https://github.com/EddieHubCommunity/LinkFree/issues/7748)) ([a754440](https://github.com/EddieHubCommunity/LinkFree/commit/a754440c12e1bb4f3ce352f5a319a02b62c8a0ec))
-
-
-
-## [1.153.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.4...v1.153.5) (2023-07-10)
 
 
 
