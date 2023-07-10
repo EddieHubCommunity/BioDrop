@@ -1,8 +1,6 @@
 {
   "name": "Harsh Pandey",
   "bio": "Full-stack Developer | Open Source",
-  "displayStatsPublic":true,
-  "type" : "personal",
   "avatar" : "https://github.com/PandeyHarsh433.png",
   "tags" : ["ReactJS" , "NextJS","JavaScript", "Open source","Node.js","TailwindCSS"],
   
