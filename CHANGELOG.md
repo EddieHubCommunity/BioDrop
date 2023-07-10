@@ -1,3 +1,12 @@
+# [1.154.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.5...v1.154.0) (2023-07-10)
+
+
+### Features
+
+* pagination for search ([#7748](https://github.com/EddieHubCommunity/LinkFree/issues/7748)) ([a754440](https://github.com/EddieHubCommunity/LinkFree/commit/a754440c12e1bb4f3ce352f5a319a02b62c8a0ec))
+
+
+
 ## [1.153.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.4...v1.153.5) (2023-07-10)
 
 
@@ -16,15 +25,6 @@
 
 
 ## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
-
-
-
-## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
-
-
-### Bug Fixes
-
-* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
 
 
 
