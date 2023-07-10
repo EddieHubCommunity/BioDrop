@@ -1,0 +1,15 @@
+{
+  "isVirtual": true,
+  "name": "AWSOME DAY Conference",
+  "description": "Free, one-day cloud training delivered by AWS technical instructors designed to enable you with AWS Cloud concepts, core AWS services, and ways these services enable innovation for a variety of new applications and industries to accelerate your success on AWS Cloud.",
+  "date": {
+    "start": "2023-06-08T10:00:00.000+05:30",
+    "end": "2023-06-08T13:15:00.000+05:30"
+  },
+  "url": "https://aws.amazon.com/events/awsome-day/awsome-day-online/",
+  "price": {
+    "startingFrom": 0
+  },
+  "userStatus": "attending",
+  "speakingTopic": "AWS"
+}

@@ -25,7 +25,7 @@ export default function UserMilestones({ milestones, manage = false }) {
       </ul>
 
       {futureMilestones.length > 0 && (
-        <div className="flex justify-center items-center gap-3 text-primary-medium-low my-4 text-xl p-4">
+        <div className="flex justify-center items-center gap-3 text-primary-medium-low dark:text-primary-low-medium my-4 text-xl p-4">
           Future Goals
         </div>
       )}
