@@ -1,3 +1,12 @@
+## [1.154.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.1...v1.154.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* cleanup AxeBuilder imports ([#8104](https://github.com/EddieHubCommunity/LinkFree/issues/8104)) ([28e8d64](https://github.com/EddieHubCommunity/LinkFree/commit/28e8d6460bb66d4f6646cfc68dfa2fca583a08fb))
+
+
+
 ## [1.154.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.0...v1.154.1) (2023-07-10)
 
 
@@ -26,10 +35,6 @@
 ### Bug Fixes
 
 * basic tests for forms ([#7987](https://github.com/EddieHubCommunity/LinkFree/issues/7987)) ([aa75212](https://github.com/EddieHubCommunity/LinkFree/commit/aa75212c056308473f679da9618444ab292b8694))
-
-
-
-## [1.153.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.2...v1.153.3) (2023-07-09)
 
 
 
