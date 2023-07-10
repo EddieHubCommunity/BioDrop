@@ -1,45 +1,40 @@
-## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
+## [1.154.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.3...v1.154.4) (2023-07-10)
 
 
 ### Bug Fixes
 
-* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
+* broken link in testimonial github action ([#8100](https://github.com/EddieHubCommunity/LinkFree/issues/8100)) ([22e29a4](https://github.com/EddieHubCommunity/LinkFree/commit/22e29a46b5a1900be3008ab21408e6c56312970f))
 
 
 
-# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
+## [1.154.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.2...v1.154.3) (2023-07-10)
+
+
+
+## [1.154.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.1...v1.154.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* cleanup AxeBuilder imports ([#8104](https://github.com/EddieHubCommunity/LinkFree/issues/8104)) ([28e8d64](https://github.com/EddieHubCommunity/LinkFree/commit/28e8d6460bb66d4f6646cfc68dfa2fca583a08fb))
+
+
+
+## [1.154.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.0...v1.154.1) (2023-07-10)
+
+
+### Bug Fixes
+
+* tag comma in profile form section ([#8087](https://github.com/EddieHubCommunity/LinkFree/issues/8087)) ([a92c5bc](https://github.com/EddieHubCommunity/LinkFree/commit/a92c5bc9c3a3f7e30599a4df6ac0431b4c9d2a46))
+
+
+
+# [1.154.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.5...v1.154.0) (2023-07-10)
 
 
 ### Features
 
-* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
-
-
-
-# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
-
-
-### Features
-
-* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
-
-
-
-## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
-
-
-### Bug Fixes
-
-* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
-
-
-
-## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
-
-
-### Bug Fixes
-
-* NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
+* pagination for search ([#7748](https://github.com/EddieHubCommunity/LinkFree/issues/7748)) ([a754440](https://github.com/EddieHubCommunity/LinkFree/commit/a754440c12e1bb4f3ce352f5a319a02b62c8a0ec))
 
 
 

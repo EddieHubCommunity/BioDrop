@@ -57,7 +57,9 @@ export async function updateProfileApi(username, data) {
     layout: data.layout,
     name: data.name,
     bio: data.bio,
-    tags: data.tags.filter((tag) => tag !== ""),
+    tags: data.tags
+      .filter((tag) => Boolean(tag.trim()))
+      .map((tag) => tag.trim()),
   };
 
   try {
