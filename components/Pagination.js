@@ -51,12 +51,12 @@ const Pagination = ({
     <div>
       <ul
         role="list"
-        className="list-none flex items-center w-full justify-center gap-4 mt-5 text-center font-semibold"
+        className="list-none flex items-center w-full justify-center gap-2 sm:gap-4 mt-5 text-center font-semibold"
       >
         {currentPage > 4 && (
           <li>
             <button
-              className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
+              className="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(1)}
             >
               <ChevronDoubleLeftIcon
@@ -69,7 +69,7 @@ const Pagination = ({
         {currentPage > 1 && (
           <li>
             <button
-              className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
+              className="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage - 1)}
             >
               <ChevronLeftIcon className="w-6 h-6" title="Previous page" />
@@ -82,7 +82,7 @@ const Pagination = ({
           .map((pNumber) => (
             <li key={pNumber}>
               <button
-                className={`w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all ${
+                className={`w-6 h-6 sm:w-8 sm:h-8 text-xs sm:text-base cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all ${
                   currentPage === pNumber
                     ? "text-white bg-tertiary-medium border-tertiary-medium rounded-full"
                     : ""
@@ -97,7 +97,7 @@ const Pagination = ({
         {currentPage < totalPages && (
           <li>
             <button
-              className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
+              className="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage + 1)}
             >
               <ChevronRightIcon className="w-6 h-6" title="Next page" />
@@ -107,7 +107,7 @@ const Pagination = ({
         {currentPage < totalPages - 3 && (
           <li>
             <button
-              className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
+              className="w-6 h-6 sm:w-8 sm:h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(totalPages)}
             >
               <ChevronDoubleRightIcon
