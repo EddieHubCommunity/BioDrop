@@ -93,6 +93,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         ).join(", ")}`,
       });
     }
+    setTags(update.tags);
 
     return setShowNotification({
       show: true,
