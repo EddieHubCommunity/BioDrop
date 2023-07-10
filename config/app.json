@@ -6,6 +6,7 @@
     "inline",
     "column-2"
   ],
+  "userStatus":"Speaking",
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

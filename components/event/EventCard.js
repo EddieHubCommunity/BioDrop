@@ -11,6 +11,7 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/edit";
+import config from "@config/app.json";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -75,11 +76,11 @@ export default function EventCard({ manage, event, usernames }) {
                     </Link>
                   )}
                 </div>
-                {event.userStatus == "Speaking" && (
+                {event.userStatus == config.userStatus && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
-                    {event.userStatus == "Speaking" && " at "} this event
-                    {event.userStatus == "Speaking" && event?.speakingTopic && (
+                    {event.userStatus == config.userStatus && " at "} this event
+                    {event.userStatus == config.userStatus && event?.speakingTopic && (
                       <>
                         {" "}
                         on <b>{event.speakingTopic}</b>

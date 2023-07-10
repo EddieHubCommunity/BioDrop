@@ -93,7 +93,6 @@ export default function ManageEvent({ BASE_URL, event }) {
       userStatus,
       speakingTopic,
     };
-    console.log(putEvent);
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
       putEvent = { ...putEvent, _id: event._id };
