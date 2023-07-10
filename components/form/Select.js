@@ -20,7 +20,7 @@ export default function Select({
         {...restProps}
       >
         {options.map((v) => (
-          <option key={v}>{v}</option>
+          <option key={v} style={{color:"black"}}>{v}</option>
         ))}
       </select>
     </>
