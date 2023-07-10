@@ -101,7 +101,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         />
 
         {!testimonials?.length && <Alert type="info" message="No testimonials found" />} 
-        {testimonials &&
+        {testimonials?.length > 0 &&
           <>
             <div>
               <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
