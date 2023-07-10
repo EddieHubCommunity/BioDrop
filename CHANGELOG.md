@@ -1,3 +1,7 @@
+## [1.153.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.4...v1.153.5) (2023-07-10)
+
+
+
 ## [1.153.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.3...v1.153.4) (2023-07-09)
 
 
@@ -21,15 +25,6 @@
 ### Bug Fixes
 
 * inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
-
-
-
-# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
-
-
-### Features
-
-* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
 
 
 
