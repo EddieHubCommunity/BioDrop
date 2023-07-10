@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import ChevronDoubleLeftIcon from "@heroicons/react/24/outline/ChevronDoubleLeftIcon";
 import ChevronDoubleRightIcon from "@heroicons/react/24/outline/ChevronDoubleRightIcon";
 import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
@@ -12,13 +12,8 @@ const Pagination = ({
   startIndex,
   endIndex,
 }) => {
-  const [screenWidth, setScreenWidth] = useState();
   const totalResults = data.length;
   const totalPages = Math.ceil(totalResults / perPage);
-
-  useEffect(() => {
-    setScreenWidth(window.innerWidth);
-  }, []);
 
   useEffect(() => {
     // Add keydown event listener to handle pagination
@@ -38,31 +33,9 @@ const Pagination = ({
     };
   }, [currentPage, totalPages, paginate]);
 
-  let beforePage = currentPage - 1;
-  let afterPage = currentPage + 1;
-  const MEDIUM_SCREEN = 768;
-  const LARGE_SCREEN = 1024;
+  let beforePage = currentPage - 3;
+  let afterPage = currentPage + 3;
   const pageNumber = [];
-
-  // medium screen pagination layout
-  if (screenWidth >= MEDIUM_SCREEN && screenWidth < LARGE_SCREEN) {
-    beforePage = currentPage - 2;
-    afterPage = currentPage + 2;
-  }
-
-  // large screen pagination layout
-  if (screenWidth >= LARGE_SCREEN) {
-    beforePage = currentPage - 3;
-    afterPage = currentPage + 3;
-  }
-
-  if (currentPage === totalPages) {
-    beforePage = beforePage - 2;
-  }
-
-  if (currentPage === 1) {
-    afterPage = afterPage + 2;
-  }
 
   for (let plength = beforePage; plength <= afterPage; plength++) {
     if (plength > totalPages) {
@@ -80,7 +53,7 @@ const Pagination = ({
         role="list"
         className="list-none flex items-center w-full justify-center gap-4 mt-5 text-center font-semibold"
       >
-        {currentPage > 4 && screenWidth >= LARGE_SCREEN && (
+        {currentPage > 4 && (
           <li>
             <button
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
@@ -131,7 +104,7 @@ const Pagination = ({
             </button>
           </li>
         )}
-        {currentPage < totalPages - 3 && screenWidth >= LARGE_SCREEN && (
+        {currentPage < totalPages - 3 && (
           <li>
             <button
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
