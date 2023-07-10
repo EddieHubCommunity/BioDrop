@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { MdQrCode2 } from "react-icons/md";
+import { FaShare } from "react-icons/fa";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
@@ -38,7 +38,7 @@ function UserProfile({ BASE_URL, data }) {
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
         <Badge
-          content={<MdQrCode2 size="2em" />}
+          content={<FaShare size="1.5em" color="white" />}
           position="bottom-left"
           badgeClassName="cursor-pointer"
           onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
@@ -76,15 +76,21 @@ function UserProfile({ BASE_URL, data }) {
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
           {data.tags?.length > 0 &&
-            data.tags.map((tag) => (
-              <Tag
-                name={tag}
-                key={tag.toLowerCase()}
-                onClick={() =>
-                  router.push(`/search?keyword=${tag.toLowerCase()}`)
-                }
-              />
-            ))}
+            data.tags.map((tag, index) => {
+              const trimmedTag = tag.trim();
+              if (!trimmedTag) {
+                return null;
+              }
+              return (
+                <Tag
+                  name={trimmedTag}
+                  key={index}
+                  onClick={() =>
+                    router.push(`/search?keyword=${trimmedTag.toLowerCase()}`)
+                  }
+                />
+              );
+            })}
         </div>
       )}
 
