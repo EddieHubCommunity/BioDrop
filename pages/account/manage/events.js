@@ -50,12 +50,12 @@ export default function ManageEvents({ events }) {
       />
 
       <Page>
-        {success ? (
+        {success && (
           <Alert
             type="success"
-            message={success ? "Event Created/Updated Successfully" : ""}
+            message={"Event Created/Updated Successfully"}
           />
-        ) : null}
+        )}
 
         <Navigation />
         <Button href="/account/manage/event">

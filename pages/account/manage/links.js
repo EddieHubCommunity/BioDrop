@@ -50,12 +50,9 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
-        {success ? (
-          <Alert
-            type="success"
-            message={success ? "Link Created/Updated Successfully" : ""}
-          />
-        ) : null}
+        {success && (
+          <Alert type="success" message="Link Created/Updated Successfully" />
+        )}
         <Navigation />
 
         <Button href="/account/manage/link">

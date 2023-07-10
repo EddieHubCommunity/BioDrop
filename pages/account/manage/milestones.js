@@ -53,12 +53,12 @@ export default function ManageMilestones({ milestones }) {
       />
 
       <Page>
-        {success ? (
+        {success && (
           <Alert
             type="success"
-            message={success ? "Milestone Created/Updated Successfully" : ""}
+            message="Milestone Created/Updated Successfully"
           />
-        ) : null}
+        )}
 
         <Navigation />
 
