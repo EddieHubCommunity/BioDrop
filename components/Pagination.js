@@ -86,7 +86,10 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(1)}
             >
-              <ChevronDoubleLeftIcon title="Jump to first page" />
+              <ChevronDoubleLeftIcon
+                className="w-6 h-6"
+                title="Jump to first page"
+              />
             </button>
           </li>
         )}
@@ -96,7 +99,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage - 1)}
             >
-              <ChevronLeftIcon title="Previous page" />
+              <ChevronLeftIcon className="w-6 h-6" title="Previous page" />
             </button>
           </li>
         )}
@@ -124,7 +127,7 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(currentPage + 1)}
             >
-              <ChevronRightIcon title="Next page" />
+              <ChevronRightIcon className="w-6 h-6" title="Next page" />
             </button>
           </li>
         )}
@@ -134,7 +137,10 @@ const Pagination = ({
               className="w-8 h-8 cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium hover:rounded-full transition-all"
               onClick={() => paginate(totalPages)}
             >
-              <ChevronDoubleRightIcon title="Jump to last page" />
+              <ChevronDoubleRightIcon
+                className="w-6 h-6"
+                title="Jump to last page"
+              />
             </button>
           </li>
         )}
