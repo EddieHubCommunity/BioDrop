@@ -1,0 +1,70 @@
+{
+  "name": "Burak Taner",
+  "bio": "Jr. Backend Developer | Animal Lover | Open Source Is Everything | Linux Enthusiast | Terminal > GUI ",
+  "tags": [
+    "C#",
+    "JavaScript",
+    "Backend",
+    "Open Source",
+    "API",
+    "Linux",
+    "Bash",
+    "NodeJS"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/BurakTaner"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/buraktaner6/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MrPandaWizard6"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github: Open source contributation and personal projects",
+      "url": "https://github.com/BurakTaner",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin: Connect with me throught Linkedin for job offers",
+      "url": "https://www.linkedin.com/in/buraktaner6/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Backend Development",
+      "date": "Aug 2022",
+      "icon": "SiCsharp",
+      "color": "purple",
+      "description": "I started backend development with C# language"
+    },
+    {
+      "title": "Started Open Source Contribution",
+      "date": "Dec 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Everything started with a contribution to EddieHub's hacktoberfest-pratice."
+    },
+    {
+      "title": "Finished my first course",
+      "date": "Jan 2023",
+      "icon": "FaBookOpen",
+      "color": "red",
+      "description": "I finished my course at Infotech Academy"
+    },
+    {
+      "title": "First Certificate",
+      "date": "Nov 2022",
+      "icon": "FaCertificate",
+      "color": "darkblue",
+      "description": "I got my first development certificate from freeCodeCamp's Relational Database curriculum"
+    }
+  ]
+}

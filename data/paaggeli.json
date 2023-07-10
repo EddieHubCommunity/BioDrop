@@ -1,0 +1,16 @@
+{
+  "name": "Panagiotis Angelidis",
+  "bio": "WordPress developer exploring blockchain development.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PanosAngel1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/paaggeli",
+      "icon": "FaGithub"
+    }
+  ]
+}

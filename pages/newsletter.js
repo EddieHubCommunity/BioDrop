@@ -28,7 +28,7 @@ export default function Newsletter() {
         <div className="relative isolate overflow-hidden mb-8 py-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
-              <div className="max-w-xl lg:max-w-lg">
+              <div className="max-w-xl lg:max-w-lg max-lg:row-start-2">
                 <div className="mt-6 flex gap-x-4 justify-center sm:justify-start sm:max-w-md">
                   <div className="kartra_optin_container1c383cd30b7c298ab50293adfecb7b18"></div>
                   <Script src="https://app.kartra.com/optin/08THVCBzqGlF"></Script>
@@ -45,7 +45,7 @@ export default function Newsletter() {
                 </div>
                 <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
                   <div className="flex flex-col items-start">
-                    <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                    <div className="rounded-md bg-primary-low dark:bg-primary-medium p-2 ring-1 ring-primary-medium">
                       <CalendarDaysIcon
                         className="h-6 w-6 text-primary-medium dark:text-primary-low"
                         aria-hidden="true"
@@ -54,13 +54,13 @@ export default function Newsletter() {
                     <div className="mt-4 font-semibold text-primary-medium dark:text-primary-low">
                       Regular information
                     </div>
-                    <div className="mt-2 leading-7 text-gray-400">
+                    <div className="mt-2 leading-7 text-primary-medium-low">
                       This will include latest features, upcoming releases and
                       offers.
                     </div>
                   </div>
                   <div className="flex flex-col items-start">
-                    <div className="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                    <div className="rounded-md bg-primary-low dark:bg-primary-medium p-2 ring-1 ring-primary-medium">
                       <HandRaisedIcon
                         className="h-6 w-6 text-primary-medium dark:text-primary-low"
                         aria-hidden="true"
@@ -69,7 +69,7 @@ export default function Newsletter() {
                     <div className="mt-4 font-semibold text-primary-medium dark:text-primary-low">
                       No spam
                     </div>
-                    <div className="mt-2 leading-7 text-gray-400">
+                    <div className="mt-2 leading-7 text-primary-medium-low">
                       We will not send out information more than once per month.
                     </div>
                   </div>

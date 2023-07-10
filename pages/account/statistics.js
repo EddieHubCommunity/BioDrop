@@ -11,9 +11,13 @@ import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
-import BasicCards from "@components/statistics/BasicCards";
-import Link from "@components/Link";
-const DynamicChart = dynamic(() => import("../../components/statistics/StatsChart"), {ssr: false});
+import Navigation from "@components/account/manage/navigation";
+import UserMini from "@components/user/UserMini";
+
+const DynamicChart = dynamic(
+  () => import("../../components/statistics/StatsChart"),
+  { ssr: false }
+);
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -45,12 +49,10 @@ export async function getServerSideProps(context) {
 
   let data = {};
   let profileSections = [
-    "bio",
     "links",
     "milestones",
     "tags",
     "socials",
-    "location",
     "testimonials",
   ];
   let progress = {
@@ -65,7 +67,7 @@ export async function getServerSideProps(context) {
   }
 
   progress.missing = profileSections.filter(
-    (property) => !Object.keys(profile).includes(property)
+    (property) => !profile[property]?.length
   );
   progress.percentage = (
     ((profileSections.length - progress.missing.length) /
@@ -83,7 +85,12 @@ export async function getServerSideProps(context) {
   data.links.clicks = totalClicks;
 
   return {
-    props: { data, profile, progress, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+    props: {
+      data,
+      profile,
+      progress,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+    },
   };
 }
 
@@ -100,23 +107,6 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
     };
   });
 
-  const cardData = [
-    {
-      name: "Total views",
-      current: data.profile.monthly,
-      total: data.profile.total,
-      delta: data.profile.total - data.profile.monthly,
-    },
-    {
-      name: "Total links",
-      current: data.links.individual.length,
-    },
-    {
-      name: "Total link clicks",
-      current: data.links.clicks,
-    },
-  ];
-
   return (
     <>
       <PageHead
@@ -125,6 +115,19 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
+
+        <Navigation />
+        
+        <UserMini
+          BASE_URL={BASE_URL}
+          username={profile.username}
+          name={profile.name}
+          bio={profile.bio}
+          monthly={data.profile.monthly}
+          total={data.profile.total}
+          clicks={data.links.clicks}
+        />
+
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
           <span className="flex flex-row justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
@@ -141,33 +144,23 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           <ProgressBar progress={progress} />
         </div>
 
-        <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} (
-          <Link href={`${BASE_URL}/${profile.username}`}>
-            {profile.username}
-          </Link>
-          )
-        </h1>
-
         {!data.links && (
-          <Alert type="info" message="You don't have a profile yet." />
+          <Alert type="warning" message="You don't have a profile yet." />
         )}
 
-        <BasicCards data={cardData} />
-
-        <div className="border my-6 dark:border-primary-medium">
-          <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
-            <h3 className="text-lg font-medium leading-6 text-primary-high">
-              Profile views
-            </h3>
-            <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-              How many profile visits you got per day. You have{" "}
-              {abbreviateNumber(data.profile.monthly)} Profile views in the last
-              30 days with a total of {abbreviateNumber(data.profile.total)}.
-            </p>
+        {dailyViews.length > 0 && (
+          <div className="border mb-6 dark:border-primary-medium">
+            <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
+              <h3 className="text-lg font-medium leading-6 text-primary-high">
+                Profile views
+              </h3>
+              <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
+                Number of Profile visits per day.
+              </p>
+            </div>
+            <DynamicChart data={dailyViews} />
           </div>
-          <DynamicChart data={dailyViews} />
-        </div>
+        )}
 
         <table className="min-w-full divide-y divide-primary-medium-low">
           <thead className="bg-primary-low dark:bg-primary-medium">
@@ -176,7 +169,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high dark:text-primary-low sm:pl-6"
               >
-                Url ({data.links.individual.length})
+                Your Links ({data.links.individual.length})
               </th>
               <th
                 scope="col"

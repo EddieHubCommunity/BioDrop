@@ -10,6 +10,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Reorder testimonials and links",
+      description:
+        "As these items don't have lists you may want to reorder them",
+      type: "addition",
+      date: "2023-07-06",
+    },
+    {
+      title: "Manage profile with forms",
+      description:
+        "We now have functionality to manage your profile with forms",
+      type: "addition",
+      date: "2023-06-14",
+    },
+    {
       title: "Custom login page",
       description:
         "We were using the standard Next-Auth page but now we have a branded login page",
@@ -79,7 +93,7 @@ export default function Changelog() {
     },
     {
       title: "`avatar` json property no longer required",
-      description: "Now will default to using people's GitHub proile picture",
+      description: "Now will default to using people's GitHub profile picture",
       type: "removal",
       date: "2023-01-07",
     },
@@ -94,7 +108,7 @@ export default function Changelog() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
+        <div className="overflow-hidden bg-primary-low shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
