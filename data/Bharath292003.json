@@ -1,12 +1,7 @@
 {
   "name": "G balaji bharath",
   "bio": "Final year undergrad | Aspiring full stack developer | Java | Open source enthusiast | Building in public",
-  "tags": [
-    "Java",
-    "Javascript",
-    "React",
-    "Open Source"
-  ],
+  "tags": ["Java", "Javascript", "React", "Open Source"],
   "socials": [
     {
       "icon": "FaGithub",
