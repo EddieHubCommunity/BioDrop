@@ -16,11 +16,22 @@ export async function getEvents() {
   let events = [];
   try {
     events = await Profile.aggregate([
-      { $project: { username: 1, events: 1, isEnabled: 1 } },
-      { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
+      {
+        $project: { username: 1, events: 1, isEnabled: 1 },
+      },
+      {
+        $match: {
+          "events.date.start": { $gt: new Date() },
+          isEnabled: true,
+        },
+      },
       { $unwind: "$events" },
-      { $match: { "events.date.end": { $gt: new Date() } } },
-      { $sort: { "events.date.start": 1 } },
+      {
+        $match: { "events.date.end": { $gt: new Date() } },
+      },
+      {
+        $sort: { "events.date.start": 1 },
+      },
       {
         $group: {
           _id: "$events.url",
@@ -33,6 +44,9 @@ export async function getEvents() {
           description: { $first: "$events.description" },
           isEnabled: { $first: "$isEnabled" },
         },
+      },
+      {
+        $sort: { "date.start": 1 },
       },
     ]).exec();
 
