@@ -1,3 +1,12 @@
+# [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
+
+
+### Features
+
+* daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
+
+
+
 ## [1.154.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.8...v1.154.9) (2023-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
-
-
-
-## [1.154.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.4...v1.154.5) (2023-07-10)
-
-
-### Bug Fixes
-
-* dropdown options text in dark mode ([#8102](https://github.com/EddieHubCommunity/LinkFree/issues/8102)) ([3295f38](https://github.com/EddieHubCommunity/LinkFree/commit/3295f3855f88e687b2c0d020a00904b4a38a637c))
 
 
 
