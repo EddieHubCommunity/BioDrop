@@ -12,6 +12,7 @@ on:
       - main
     paths:
       - "data/**"
+      - "pages/docs/**"
 
 jobs:
   deploy:

@@ -101,8 +101,8 @@ export default function Navigation() {
                 href={tab.href}
                 className={classNames(
                   tab.current
-                    ? "border-secondary-medium-low text-secondary-medium"
-                    : "border-transparent text-primary-low-medium hover:border-primary-low hover:text-primary-medium dark:hover:text-primary-low",
+                    ? "border-secondary-medium-low text-secondary-medium dark:text-secondary-low-high"
+                    : "border-transparent text-primary-medium-low dark:text-primary-low-high hover:border-primary-low hover:text-primary-medium dark:hover:text-primary-low",
                   "group inline-flex items-center border-b-2 py-4 px-1 text-sm font-medium"
                 )}
                 aria-current={tab.current ? "page" : undefined}
@@ -110,8 +110,8 @@ export default function Navigation() {
                 <tab.icon
                   className={classNames(
                     tab.current
-                      ? "text-secondary-medium-low"
-                      : "text-primary-low-medium group-hover:text-primary-medium dark:group-hover:text-primary-low ",
+                      ? "text-secondary-medium-low dark:text-secondary-low-high"
+                      : "text-primary-medium-low group-hover:text-primary-medium dark:group-hover:text-primary-low ",
                     "-ml-0.5 mr-2 h-5 w-5"
                   )}
                   aria-hidden="true"

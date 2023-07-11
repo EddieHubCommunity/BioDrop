@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
 import { Profile } from "@models/index";
@@ -37,7 +37,7 @@ test("Profile views increase", async ({ page }) => {
   expect(startingViews.views).toEqual(endingViews.views - 3);
 });
 
-test.fixme("Link clicks increase", async ({ page }) => {
+test.fixme("Link clicks increase", async () => {
   // will need DB integration
 });
 
@@ -52,7 +52,7 @@ test("Profile not found redirects to search page with error message", async ({
   );
 });
 
-test.fixme("Link navigates", async ({ page }) => {
+test.fixme("Link navigates", async () => {
   // 1. navigate to profile
   // 2. get a link and href
   // 3. click the link
