@@ -1,3 +1,12 @@
+## [1.154.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.6...v1.154.7) (2023-07-11)
+
+
+### Bug Fixes
+
+* releases to skip if empty ([#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496)) ([#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747)) ([7810216](https://github.com/EddieHubCommunity/LinkFree/commit/781021620e5dfbd76db07debf664fbf0646c7ed7))
+
+
+
 ## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.154.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.2...v1.154.3) (2023-07-10)
-
-
-
-## [1.154.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.1...v1.154.2) (2023-07-10)
-
-
-### Bug Fixes
-
-* cleanup AxeBuilder imports ([#8104](https://github.com/EddieHubCommunity/LinkFree/issues/8104)) ([28e8d64](https://github.com/EddieHubCommunity/LinkFree/commit/28e8d6460bb66d4f6646cfc68dfa2fca583a08fb))
 
 
 
