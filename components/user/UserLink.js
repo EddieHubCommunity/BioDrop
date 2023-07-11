@@ -24,9 +24,8 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
-        isEnabled ? "" : "opacity-50"
-      }`}
+      className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${isEnabled ? "" : "opacity-50"
+        }`}
       style={{
         "--hover-color": colors[link.icon],
       }}
@@ -36,17 +35,16 @@ export default function UserLink({
       </span>
       <span className="grow">{link.name}</span>
       {manage && link.isPinned && (
-        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
+        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-high text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
         </span>
       )}
       {manage && (
         <span
-          className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-primary-high/10 ${
-            link.isEnabled
+          className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-primary-high/10 ${link.isEnabled
               ? "bg-tertiary-low text-tertiary-high"
               : "bg-primary-low text-primary-high"
-          }`}
+            }`}
         >
           {link.isEnabled ? "Enabled" : "Disabled"}
         </span>
