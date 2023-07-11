@@ -39,10 +39,10 @@ export default function GitHubAccelerator() {
                 target="_blank"
               >
                 <FaGithub
-                  className="lg:-ml-0.5 ml-3 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
+                  className="lg:-ml-0.5 sm:ml-3 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
                   aria-hidden="true"
                 />
-                <span className="sm:ml-0.5">GitHub Accelerator</span>
+                <span>GitHub Accelerator</span>
               </Link>
               <Link
                 href="https://github.com/sponsors/eddiejaoude"
@@ -50,10 +50,10 @@ export default function GitHubAccelerator() {
                 target="_blank"
               >
                 <FaMoneyBillAlt
-                  className="lg:-ml-0.5 -ml-1 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
+                  className="lg:-ml-0.5 mr-1.5 h-5 w-5 text-primary-high dark:text-primary-high"
                   aria-hidden="true"
                 />
-                <span className="sm:ml-0.5">GitHub Sponsors</span>
+                <span>GitHub Sponsors</span>
               </Link>
             </div>
           </div>
