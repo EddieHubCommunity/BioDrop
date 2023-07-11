@@ -1,3 +1,12 @@
+## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+
+
+### Bug Fixes
+
+* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+
+
+
 # [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * releases to skip if empty ([#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496)) ([#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747)) ([7810216](https://github.com/EddieHubCommunity/LinkFree/commit/781021620e5dfbd76db07debf664fbf0646c7ed7))
-
-
-
-## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
-
-
-### Bug Fixes
-
-* image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
 
 
 
