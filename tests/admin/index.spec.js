@@ -15,16 +15,21 @@ test("Logged in user cannot access admin statistics", async ({ browser }) => {
   const context = await login(browser);
   const page = await context.newPage();
   await page.goto("/admin");
-  await expect(page).toHaveURL(/account\/statistics/);
+  await expect(page).toHaveURL(/404/);
 });
 
-// test("Admin user can access dashboard", async ({ browser }) => {
-//   // fixture: make sure user is logged in
-//   const context = await login(browser);
-//   const page = await context.newPage();
-//   await page.goto("/admin");
-//   await expect(page).toHaveURL(/admin/);
-// });
+test("Admin user can access dashboard", async ({ browser }) => {
+  // fixture: make sure user is logged in
+  const context = await login(browser, {
+    id: "66666666",
+    name: "Automated Test Admin User",
+    email: "test-admin-user@test.com",
+    username: "_test-admin-user",
+  });
+  const page = await context.newPage();
+  await page.goto("/admin");
+  await expect(page).toHaveURL(/admin/);
+});
 
 test.describe("accessibility tests (light)", () => {
   test.use({ colorScheme: "light" });

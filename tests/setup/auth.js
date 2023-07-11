@@ -10,7 +10,7 @@ const login = async (
     id: "22222222",
     name: "Automated Test Standard User",
     email: "test-standard-user@test.com",
-    username: "_test-profile-user-1",
+    username: "_test-profile-user-6",
   }
 ) => {
   await connectMongo();

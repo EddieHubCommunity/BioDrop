@@ -26,7 +26,7 @@ export async function getServerSideProps(context) {
   if (!serverEnv.ADMIN_USERS.includes(username)) {
     return {
       redirect: {
-        destination: "/auth/signin",
+        destination: "/404",
         permanent: false,
       },
     };
