@@ -64,28 +64,28 @@ export default function UserEvents({ manage = false, events }) {
   });
 
   return (
-    <div className="m-6">
-      {!manage && (
-        <DropdownMenu
-          eventType={eventType}
-          handleEventTypeChange={handleEventTypeChange}
-          options={filteredEventOptions}
-          label="Select Event Type:"
-          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
-        />
+    <>
+      {!eventsToShow?.length && (
+        <Alert type="info" message="No events found" />
       )}
+    
+        {!manage && (
+          <DropdownMenu
+            eventType={eventType}
+            handleEventTypeChange={handleEventTypeChange}
+            options={filteredEventOptions}
+            label="Select Event Type:"
+            className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+          />
+        )}
 
-      {eventsToShow.length > 0 ? (
-        <ul role="list" className="divide-y divide-primary-low mt-4">
-          {eventsToShow.map((event, index) => (
-            <EventCard event={event} key={index} manage={manage} />
-          ))}
-        </ul>
-      ) : (
-        <div className="mt-4">
-          <Alert type="info" message="No events found" />
-        </div>
-      )}
-    </div>
+        {eventsToShow.length > 0 && (
+          <ul role="list" className="divide-y divide-primary-low mt-4">
+            {eventsToShow.map((event, index) => (
+              <EventCard event={event} key={index} manage={manage} />
+            ))}
+          </ul>
+        )}
+    </>
   );
 }

@@ -30,6 +30,7 @@ export const navigation = [
     children: [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
+      { name: "JSON to Forms", href: "/docs/how-to-guides/json-to-forms" },
       { name: "LinkFree CLI", href: "/docs/environments/linkfree-cli" },
       { name: "Available Icons", href: "/icons" },
     ],
