@@ -1,3 +1,12 @@
+## [1.154.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.7...v1.154.8) (2023-07-11)
+
+
+### Reverts
+
+* Revert "fix: releases to skip if empty (#7496) (#7747)" (#8131) ([2f1ed2b](https://github.com/EddieHubCommunity/LinkFree/commit/2f1ed2badfdc9fdef40aaaa80825b6f1a4f6a662)), closes [#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496) [#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747) [#8131](https://github.com/EddieHubCommunity/LinkFree/issues/8131)
+
+
+
 ## [1.154.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.6...v1.154.7) (2023-07-11)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * broken link in testimonial github action ([#8100](https://github.com/EddieHubCommunity/LinkFree/issues/8100)) ([22e29a4](https://github.com/EddieHubCommunity/LinkFree/commit/22e29a46b5a1900be3008ab21408e6c56312970f))
-
-
-
-## [1.154.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.2...v1.154.3) (2023-07-10)
 
 
 
