@@ -10,6 +10,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Share profile on social media",
+      description:
+        "With the QR code, there is also a link copy and social share buttons",
+      type: "addition",
+      date: "2023-07-10",
+    },
+    {
       title: "Reorder testimonials and links",
       description:
         "As these items don't have lists you may want to reorder them",
