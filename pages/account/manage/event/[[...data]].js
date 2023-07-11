@@ -267,6 +267,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                       label="Color"
                       onChange={(e) => setColor(e.target.value)}
                       value={color}
+                      minLength="2"
+                      maxLength="16"
                     />
                   </div>
                 </div>
