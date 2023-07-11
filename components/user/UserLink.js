@@ -36,7 +36,7 @@ export default function UserLink({
       </span>
       <span className="grow">{link.name}</span>
       {manage && link.isPinned && (
-        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high ring-1 ring-inset ring-secondary-high/10">
+        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
         </span>
       )}
@@ -51,11 +51,21 @@ export default function UserLink({
           {link.isEnabled ? "Enabled" : "Disabled"}
         </span>
       )}
+      {manage && link.group && (
+        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-tertiary-high text-tertiary-low ring-1 ring-inset ring-tertiary-low/10">
+          {link.group}
+        </span>
+      )}
     </Link>
   );
 
   const edit = (link) => (
-    <Edit href={`/account/manage/link/${link._id}`}>{item(link)}</Edit>
+    <Edit
+      href={`/account/manage/link/${link._id}`}
+      label={`${link.name} Link`}
+    >
+      {item(link)}
+    </Edit>
   );
 
   return (

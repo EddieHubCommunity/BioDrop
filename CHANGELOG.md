@@ -1,45 +1,40 @@
-## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
+## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
 
 
 ### Bug Fixes
 
-* margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
+* image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
 
 
 
-## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
-
-
-### Bug Fixes
-
-* margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
-
-
-
-## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
+## [1.154.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.4...v1.154.5) (2023-07-10)
 
 
 ### Bug Fixes
 
-* handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
+* dropdown options text in dark mode ([#8102](https://github.com/EddieHubCommunity/LinkFree/issues/8102)) ([3295f38](https://github.com/EddieHubCommunity/LinkFree/commit/3295f3855f88e687b2c0d020a00904b4a38a637c))
 
 
 
-## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
-
-
-### Bug Fixes
-
-* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
-
-
-
-## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
+## [1.154.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.3...v1.154.4) (2023-07-10)
 
 
 ### Bug Fixes
 
-* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
+* broken link in testimonial github action ([#8100](https://github.com/EddieHubCommunity/LinkFree/issues/8100)) ([22e29a4](https://github.com/EddieHubCommunity/LinkFree/commit/22e29a46b5a1900be3008ab21408e6c56312970f))
+
+
+
+## [1.154.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.2...v1.154.3) (2023-07-10)
+
+
+
+## [1.154.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.1...v1.154.2) (2023-07-10)
+
+
+### Bug Fixes
+
+* cleanup AxeBuilder imports ([#8104](https://github.com/EddieHubCommunity/LinkFree/issues/8104)) ([28e8d64](https://github.com/EddieHubCommunity/LinkFree/commit/28e8d6460bb66d4f6646cfc68dfa2fca583a08fb))
 
 
 

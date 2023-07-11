@@ -141,7 +141,12 @@ export default function EventCard({ manage, event, usernames }) {
   );
 
   const edit = (event) => (
-    <Edit href={`/account/manage/event/${event._id}`}>{item(event)}</Edit>
+    <Edit
+      href={`/account/manage/event/${event._id}`}
+      label={`${event.name} Event`}
+    >
+      {item(event)}
+    </Edit>
   );
 
   return (
