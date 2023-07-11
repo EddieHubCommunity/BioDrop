@@ -15,7 +15,7 @@ export default function Select({
       <select
         id={name}
         name={name}
-        className="mt-2 text-primary-high dark:bg-primary-high  dark:checked:bg-secondary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6"
+        className="mt-2 text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6"
         defaultValue={value}
         {...restProps}
       >

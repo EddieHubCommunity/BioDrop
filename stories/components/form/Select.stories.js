@@ -7,7 +7,7 @@ export default {
 export const Basic = {
   args: {
     name: 'test',
-    value: 'one',
+    value: 'three',
     label: 'Test',
     options: ['one', 'two', 'three', 'four'],
   }
