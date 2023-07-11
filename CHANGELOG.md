@@ -1,3 +1,12 @@
+## [1.154.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.8...v1.154.9) (2023-07-11)
+
+
+### Bug Fixes
+
+* release action skip on empty ([#8134](https://github.com/EddieHubCommunity/LinkFree/issues/8134)) ([923dc31](https://github.com/EddieHubCommunity/LinkFree/commit/923dc31bd18e3e437afd856708a33a4115a9c074))
+
+
+
 ## [1.154.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.7...v1.154.8) (2023-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dropdown options text in dark mode ([#8102](https://github.com/EddieHubCommunity/LinkFree/issues/8102)) ([3295f38](https://github.com/EddieHubCommunity/LinkFree/commit/3295f3855f88e687b2c0d020a00904b4a38a637c))
-
-
-
-## [1.154.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.3...v1.154.4) (2023-07-10)
-
-
-### Bug Fixes
-
-* broken link in testimonial github action ([#8100](https://github.com/EddieHubCommunity/LinkFree/issues/8100)) ([22e29a4](https://github.com/EddieHubCommunity/LinkFree/commit/22e29a46b5a1900be3008ab21408e6c56312970f))
 
 
 
