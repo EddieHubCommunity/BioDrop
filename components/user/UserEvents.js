@@ -63,7 +63,7 @@ export default function UserEvents({ manage = false, events }) {
     return filterEvents.length > 0;
   });
 
-   return (
+  return (
     <>
       {!eventsToShow?.length && (
         <Alert type="info" message="No events found" />
