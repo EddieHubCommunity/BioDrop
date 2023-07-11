@@ -8,7 +8,7 @@ export default function GitHubAccelerator() {
     <div className="mb-12">
       <div>
         <Image
-          className="h-32 w-full object-cover lg:h-48"
+          className="h-32 w-full md:object-cover object-contain lg:h-48"
           src="https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png"
           alt="GitHub Accelerator banner"
           width={600}

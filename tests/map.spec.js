@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 test("Map has title", async ({ page }) => {
   await page.goto("/map");

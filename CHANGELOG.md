@@ -1,40 +1,45 @@
-## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
+# [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
+
+
+### Features
+
+* daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
+
+
+
+## [1.154.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.8...v1.154.9) (2023-07-11)
 
 
 ### Bug Fixes
 
-* responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
+* release action skip on empty ([#8134](https://github.com/EddieHubCommunity/LinkFree/issues/8134)) ([923dc31](https://github.com/EddieHubCommunity/LinkFree/commit/923dc31bd18e3e437afd856708a33a4115a9c074))
 
 
 
-## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
+## [1.154.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.7...v1.154.8) (2023-07-11)
 
 
-### Bug Fixes
+### Reverts
 
-* hot reload with docker compose up ([#7644](https://github.com/EddieHubCommunity/LinkFree/issues/7644)) ([9b541b6](https://github.com/EddieHubCommunity/LinkFree/commit/9b541b6f1988e948b06db65d2b0520caf355d39a))
-
-
-
-## [1.149.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.6...v1.149.7) (2023-07-03)
-
-
-### Bug Fixes
-
-* manage testimonial dark mode ([#7936](https://github.com/EddieHubCommunity/LinkFree/issues/7936)) ([9992f1d](https://github.com/EddieHubCommunity/LinkFree/commit/9992f1dea4bf9720c1cf4b8d2b48c814f6f437d7))
+* Revert "fix: releases to skip if empty (#7496) (#7747)" (#8131) ([2f1ed2b](https://github.com/EddieHubCommunity/LinkFree/commit/2f1ed2badfdc9fdef40aaaa80825b6f1a4f6a662)), closes [#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496) [#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747) [#8131](https://github.com/EddieHubCommunity/LinkFree/issues/8131)
 
 
 
-## [1.149.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.5...v1.149.6) (2023-07-03)
+## [1.154.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.6...v1.154.7) (2023-07-11)
 
 
 ### Bug Fixes
 
-* negative value for event ticket price ([#7893](https://github.com/EddieHubCommunity/LinkFree/issues/7893)) ([675f64e](https://github.com/EddieHubCommunity/LinkFree/commit/675f64e3d080001accdb014d0bfbca19c8573511))
+* releases to skip if empty ([#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496)) ([#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747)) ([7810216](https://github.com/EddieHubCommunity/LinkFree/commit/781021620e5dfbd76db07debf664fbf0646c7ed7))
 
 
 
-## [1.149.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.4...v1.149.5) (2023-07-03)
+## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
+
+
+### Bug Fixes
+
+* image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
 
 
 
