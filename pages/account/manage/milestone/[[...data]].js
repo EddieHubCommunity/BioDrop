@@ -187,7 +187,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <textarea
                       name="description"
                       label="Description"
                       placeholder="Description of your Milestone"
