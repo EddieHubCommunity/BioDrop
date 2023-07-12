@@ -1,3 +1,12 @@
+## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
+
+
+### Bug Fixes
+
+* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
+
+
+
 ## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
-
-
-
-## [1.154.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.8...v1.154.9) (2023-07-11)
-
-
-### Bug Fixes
-
-* release action skip on empty ([#8134](https://github.com/EddieHubCommunity/LinkFree/issues/8134)) ([923dc31](https://github.com/EddieHubCommunity/LinkFree/commit/923dc31bd18e3e437afd856708a33a4115a9c074))
 
 
 
