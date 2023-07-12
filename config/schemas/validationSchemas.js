@@ -33,7 +33,7 @@ const linkSchema = z.object({
 const testimonialSchema = z.object({
   title: z.string().optional(),
   description: z.string().optional(),
-  date: z.string().optional(),
+  date: z.coerce.date().optional(),
   username: z.string().optional(),
   isPinned: z.boolean().optional(),
 });
@@ -41,7 +41,7 @@ const testimonialSchema = z.object({
 const milestoneSchema = z.object({
   isGoal: z.boolean().optional(),
   title: z.string().optional(),
-  date: z.string().optional(),
+  date: z.coerce.date().optional(),
   icon: z.string().optional(),
   description: z.string().optional(),
   url: z.string().url().optional(),
