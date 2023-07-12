@@ -20,7 +20,6 @@ export async function getEvents() {
       { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
       { $unwind: "$events" },
       { $match: { "events.date.end": { $gt: new Date() } } },
-      { $sort: { "events.date.start": 1 } },
       {
         $group: {
           _id: "$events.url",
