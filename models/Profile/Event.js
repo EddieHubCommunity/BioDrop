@@ -34,6 +34,11 @@ const EventSchema = new Schema({
   price: {
     startingFrom: Number,
   },
+  color: {
+    type: String,
+    min: 2,
+    max: 16,
+  },
 });
 
 EventSchema.pre("save", () => {
