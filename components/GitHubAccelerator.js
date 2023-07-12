@@ -3,17 +3,21 @@ import { FaGithub, FaMoneyBillAlt } from "react-icons/fa";
 
 import Link from "./Link";
 
+const bgStars =
+  "bg-[url(https://user-images.githubusercontent.com/49006567/252924794-7dd773b9-2d75-403e-a3da-5eeb6d98df39.svg)]";
+
 export default function GitHubAccelerator() {
   return (
-    <div className="mb-12">
-      <div>
-        <Image
-          className="h-32 w-full md:object-cover object-contain lg:h-48"
-          src="https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png"
-          alt="GitHub Accelerator banner"
-          width={600}
-          height={200}
-        />
+    <div className="relative bg-[#231e43] mb-12 py-14">
+      <div
+        className={`${bgStars} bg-left-bottom md:bg-cover md:bg-center absolute -mt-12 pt-8 pb-14 h-full w-full pointer-events-none`}
+      ></div>
+      <div className="pt-8 pb-14 md:py-28">
+        <div className="w-fit mx-auto">
+          <p className="text-center text-transparent text-3xl md:text-5xl font-extrabold tracking-tight leading-10 bg-clip-text bg-gradient-to-r from-[#f778ba] from-[2.35%] to-[#79c0ff] to-[76.99%]">
+            GitHub Accelerator
+          </p>
+        </div>
       </div>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="-mt-12 sm:-mt-16 sm:flex sm:items-end sm:space-x-5">
