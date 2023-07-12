@@ -12,7 +12,6 @@ import Page from "@components/Page";
 import Navigation from "@components/account/manage/navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 import Button from "@components/Button";
-import UserLinks from "@components/user/UserLinks";
 import UserLink from "@components/user/UserLink";
 import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
