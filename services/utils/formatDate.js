@@ -1,4 +1,4 @@
-export function formatDate(date, locale = "en-US") {
+export function formatDate(date, locale = "en-GB") {
   let options = {
     weekday: "long",
     day: "numeric",
