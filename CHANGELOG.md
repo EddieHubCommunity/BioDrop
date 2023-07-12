@@ -1,3 +1,12 @@
+## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
+
+
+### Bug Fixes
+
+* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
+
+
+
 ## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
 
 
@@ -31,15 +40,6 @@
 ### Reverts
 
 * Revert "fix: releases to skip if empty (#7496) (#7747)" (#8131) ([2f1ed2b](https://github.com/EddieHubCommunity/LinkFree/commit/2f1ed2badfdc9fdef40aaaa80825b6f1a4f6a662)), closes [#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496) [#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747) [#8131](https://github.com/EddieHubCommunity/LinkFree/issues/8131)
-
-
-
-## [1.154.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.6...v1.154.7) (2023-07-11)
-
-
-### Bug Fixes
-
-* releases to skip if empty ([#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496)) ([#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747)) ([7810216](https://github.com/EddieHubCommunity/LinkFree/commit/781021620e5dfbd76db07debf664fbf0646c7ed7))
 
 
 
