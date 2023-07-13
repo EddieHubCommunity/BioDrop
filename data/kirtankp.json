@@ -12,6 +12,12 @@
   "links": [
     {
       "group": "Projects",
+      "name": "Lift Simulator",
+      "url": "https://lustrous-belekoy-8d19c1.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
       "name": "Landing Page Using ReactJS",
       "url": "https://lustrous-pavlova-7875d9.netlify.app/",
       "icon": "FaLink"
