@@ -1,5 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 
+import config from "@config/app.json";
+
 const EventSchema = new Schema({
   isVirtual: Boolean,
   name: {
@@ -36,7 +38,7 @@ const EventSchema = new Schema({
   },
   userStatus: {
     type: String,
-    enum: ["speaking", "not-speaking"],
+    enum: config.events.userStatus
   },
   speakingTopic: String,
   color: {

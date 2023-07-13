@@ -76,11 +76,11 @@ export default function EventCard({ manage, event, usernames }) {
                     </Link>
                   )}
                 </div>
-                {event.userStatus == config.userStatus && (
+                {event.userStatus == config.events.userStatus[1] && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
                     {event.userStatus}
-                    {event.userStatus == config.userStatus && " at "} this event
-                    {event.userStatus == config.userStatus && event?.speakingTopic && (
+                    {event.userStatus == config.events.userStatus[1] && " at "} this event
+                    {event.userStatus == config.events.userStatus[1] && event?.speakingTopic && (
                       <>
                         {" "}
                         on <b>{event.speakingTopic}</b>

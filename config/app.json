@@ -6,7 +6,9 @@
     "inline",
     "column-2"
   ],
-  "userStatus":"Speaking",
+  "events":{
+    "userStatus":["Attending","Speaking"]
+  },
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

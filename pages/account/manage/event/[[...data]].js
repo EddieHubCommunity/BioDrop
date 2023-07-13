@@ -16,6 +16,7 @@ import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
+import config from "@config/app.json";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -70,9 +71,9 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState(
     event.date?.end && formatDate(event.date?.end)
   );
-  const DropDownOptions = ["Non-speaking","Speaking"];
+  const DropDownOptions = config.events.userStatus;
   const [userStatus, setuserStatus] = useState(event.userStatus || "");
-  const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "Your speaking topic");
+  const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
 
   const handleEventTypeChange = (event) => {
     setuserStatus(event.target.value);
@@ -262,28 +263,30 @@ export default function ManageEvent({ BASE_URL, event }) {
                         />
                       </div>
                       <p className="text-sm text-primary-low-medium">
-                        Select Speaking or Non-speaking
+                        Only attending or speaking also?
                       </p>
                     </div>
                     {userStatus === "Speaking" && (
                       <div className="mt-1 sm:col-span-2 sm:mt-0">
                         <Input
                           type="text"
-                          min="0"
                           name="topic"
                           label="What topic are you speaking on ?"
+                          placeholder= "Your speaking topic"
                           onChange={(e) => setspeakingTopic(e.target.value)}
                           value={speakingTopic}
+                          required
+                          maxLength="256"
                         />
                         <p className="text-sm text-primary-low-medium">
-                          For example: Your talk title
+                          For example: <i>The future of AI</i>
                         </p>
                       </div>
                     )}
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
-                      min="0"
+                      minLength="0"
                       name="price"
                       label="Ticket Price"
                       onChange={(e) => setPrice(e.target.value)}
