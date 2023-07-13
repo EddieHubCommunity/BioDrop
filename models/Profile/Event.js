@@ -39,6 +39,11 @@ const EventSchema = new Schema({
     enum: ["speaking", "not-speaking"],
   },
   speakingTopic: String,
+  color: {
+    type: String,
+    min: 2,
+    max: 16,
+  },
 });
 
 EventSchema.pre("save", () => {

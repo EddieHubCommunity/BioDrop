@@ -2,20 +2,20 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { login, logout } from "../setup/auth";
 
-test("Guest user cannot access manage events", async ({ browser }) => {
+test("Guest user cannot access statistics", async ({ browser }) => {
   // fixture: make sure user is not logged in
   const context = await logout(browser);
   const page = await context.newPage();
-  await page.goto("/account/manage/events");
+  await page.goto("/account/statistics");
   await expect(page).toHaveURL(/auth\/signin/);
 });
 
-test("Logged in user can access manage events", async ({ browser }) => {
+test("Logged in user can access statistics", async ({ browser }) => {
   // fixture: make sure user is logged in
   const context = await login(browser);
   const page = await context.newPage();
-  await page.goto("/account/manage/events");
-  await expect(page).toHaveURL(/account\/manage\/events/);
+  await page.goto("/account/statistics");
+  await expect(page).toHaveURL(/account\/statistics/);
 });
 
 test.describe("accessibility tests (light)", () => {

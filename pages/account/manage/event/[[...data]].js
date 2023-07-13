@@ -79,6 +79,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     setspeakingTopic(""); // Reset the input value when the dropdown value changes
   };
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
+  const [color, setColor] = useState(event.color || "" );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -92,6 +93,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       price: { startingFrom: price },
       userStatus,
       speakingTopic,
+      color,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
@@ -299,6 +301,16 @@ export default function ManageEvent({ BASE_URL, event }) {
                       setEnabled={setIsVirtual}
                     />
                   </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="color"
+                      label="Color"
+                      onChange={(e) => setColor(e.target.value)}
+                      value={color}
+                      minLength="2"
+                      maxLength="16"
+                    />
+                  </div>
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
@@ -323,6 +335,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 date: { start: startDate, end: endDate },
                 isVirtual,
                 price,
+                color,
               }}
             />
           </div>
