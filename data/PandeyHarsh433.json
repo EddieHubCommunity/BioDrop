@@ -1,8 +1,15 @@
 {
   "name": "Harsh Pandey",
   "bio": "Full-stack Developer | Open Source",
-  "tags" : ["ReactJS" , "NextJS","JavaScript", "Open source","Node.js","TailwindCSS"],
-  
+  "tags": [
+    "ReactJS",
+    "NextJS",
+    "JavaScript",
+    "Open source",
+    "Node.js",
+    "TailwindCSS"
+  ],
+
   "links": [
     {
       "name": "Let's collaborate on some amazing projects",

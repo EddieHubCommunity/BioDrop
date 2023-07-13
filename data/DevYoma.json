@@ -1,0 +1,16 @@
+{
+  "name": "Emore Ogheneyoma",
+  "bio": "FrontEnd React JS Developer || Open Source Lover || Building Digital Products",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devyoma",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/devyoma",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

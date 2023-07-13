@@ -12,7 +12,8 @@ export default function UserLinks({ BASE_URL, links, username }) {
 
   return (
     <>
-      {!links?.length && <Alert type="info" message="No links found" />}
+      {!links?.length && <Alert type="info" message="No Links found" />}
+
       {links?.length > 0 && (
         <>
           {Object.keys(buckets).map((name) => (

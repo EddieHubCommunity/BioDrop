@@ -110,7 +110,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
           )}
         </div>
 
-        {!linkList.length && <Alert type="info" message="No links found" />}
+        {!linkList.length && <Alert type="info" message="No Links found" />}
 
         <ReactSortable
           list={linkList}
