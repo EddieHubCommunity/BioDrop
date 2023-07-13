@@ -1,0 +1,31 @@
+{
+  "name": "David Raigoza",
+  "bio": "Product Designer Engineer Master of Arts own a jewelry brand turning into a **Blockchain Developer**. Minimized trusted are the future",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DrTheFrog",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Project on Instagram",
+      "url": "https://www.instagram.com/pepe_matilda_/?hl=en",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/david-raigoza-bbb757198/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/DavidRaigozaJ/DavidRaigozaJ",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit our e-commerce",
+      "url": "https://pepeymatilda.co/",
+      "icon": "FaShoppingCart"
+    }
+  ]
+}
