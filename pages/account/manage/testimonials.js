@@ -14,6 +14,7 @@ import { getTestimonialsApi } from "pages/api/account/manage/testimonials";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
+import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -101,11 +102,14 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           additionalMessage="Your profile information has been saved successfully."
         />
 
-        <div>
-          <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
-            Testimonials you have received, toggle to show on your Profile
-          </h3>
-        </div>
+        {!testimonials?.length && <Alert type="info" message="No testimonials found" />} 
+        {testimonials?.length > 0 &&
+          <>
+            <div>
+              <h3 className="text-lg font-medium leading-6 text-primary-high mb-4">
+                Testimonials you have received, toggle to show on your Profile
+              </h3>
+            </div>
 
         <div>
           <div className="flex gap-4">
