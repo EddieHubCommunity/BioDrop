@@ -13,10 +13,10 @@ export default async function handler(req, res) {
     return;
   }
   const username = session.username;
-  if (!["GET", "PUT"].includes(req.method)) {
+  if (!["GET", "PUT", "PATCH"].includes(req.method)) {
     return res
       .status(400)
-      .json({ error: "Invalid request: GET or PUT required" });
+      .json({ error: "Invalid request: GET or PUT or PATCH required" });
   }
 
   let testimonials = {};
@@ -24,7 +24,10 @@ export default async function handler(req, res) {
     testimonials = await getTestimonialsApi(username);
   }
   if (req.method === "PUT") {
-    testimonials = await updateTestimonialApi(username, req.body);
+    testimonials = await updateTestimonialOrderApi(username, req.body);
+  }
+  if (req.method === "PATCH") {
+    testimonials = await updateTestimonialPinnedApi(username, req.body);
   }
 
   if (testimonials.error) {
@@ -51,9 +54,6 @@ export async function getTestimonialsApi(username) {
         newRoot: "$testimonials",
       },
     },
-    {
-      $sort: { isPinned: 1, date: -1 },
-    },
   ]);
 
   if (!getTestimonials) {
@@ -61,23 +61,20 @@ export async function getTestimonialsApi(username) {
     return { error: "Testimonials not found." };
   }
 
-  getTestimonials = getTestimonials
-    .map((testimonial) => ({
-      _id: testimonial._id,
-      isPinned: testimonial.isPinned,
-      username: testimonial.username,
-      title: testimonial.title,
-      description: testimonial.description,
-      date: testimonial.date,
-      url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
-      order: testimonial.order,
-    }))
-    .sort((a, b) => b.isPinned - a.isPinned);
+  getTestimonials = getTestimonials.map((testimonial) => ({
+    _id: testimonial._id,
+    isPinned: testimonial.isPinned,
+    username: testimonial.username,
+    title: testimonial.title,
+    description: testimonial.description,
+    date: testimonial.date,
+    url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
+  }));
 
   return JSON.parse(JSON.stringify(getTestimonials));
 }
 
-export async function updateTestimonialApi(username, data) {
+export async function updateTestimonialPinnedApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -91,6 +88,29 @@ export async function updateTestimonialApi(username, data) {
         $set: {
           source: "database",
           "testimonials.$.isPinned": data.isPinned,
+        },
+      }
+    );
+  } catch (e) {
+    log.error(e, `failed to update testimonial for username: ${username}`);
+  }
+
+  return JSON.parse(JSON.stringify(await getTestimonialsApi(username)));
+}
+
+export async function updateTestimonialOrderApi(username, data) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  try {
+    await Profile.findOneAndUpdate(
+      {
+        username,
+      },
+      {
+        $set: {
+          source: "database",
+          testimonials: data,
         },
       }
     );

@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import { MdQrCode2 } from "react-icons/md";
+import { FaShare } from "react-icons/fa";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -11,6 +11,9 @@ import Tag from "@components/Tag";
 import Link from "@components/Link";
 import Badge from "@components/Badge";
 import Button from "@components/Button";
+import Modal from "@components/Modal";
+import ClipboardCopy from "@components/ClipboardCopy";
+import { socials } from "@config/socials";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -28,16 +31,14 @@ function UserProfile({ BASE_URL, data }) {
 
   // Custom component for rendering links within ReactMarkdown
   const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>
-      {children}
-    </Link>
+    <Link href={href}>{children}</Link>
   );
 
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
         <Badge
-          content={<MdQrCode2 size="2em" />}
+          content={<FaShare size="1.5em" color="white" />}
           position="bottom-left"
           badgeClassName="cursor-pointer"
           onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
@@ -68,34 +69,83 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown components={{ a: LinkRenderer }}>{data.bio}</ReactMarkdown>
+        <ReactMarkdown components={{ a: LinkRenderer }}>
+          {data.bio}
+        </ReactMarkdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
-          {data.tags &&
-            data.tags.map((tag) => (
-              <Tag name={tag} key={tag.toLowerCase()} onClick={() => router.push(`/search?keyword=${tag.toLowerCase()}`)} />
-            ))}
+          {data.tags?.length > 0 &&
+            data.tags.map((tag, index) => {
+              const trimmedTag = tag.trim();
+              if (!trimmedTag) {
+                return null;
+              }
+              return (
+                <Tag
+                  name={trimmedTag}
+                  key={index}
+                  onClick={() =>
+                    router.push(`/search?keyword=${trimmedTag.toLowerCase()}`)
+                  }
+                />
+              );
+            })}
         </div>
       )}
 
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
-      <div className="flex justify-center my-4" ref={qrRef}>
-        {qrShow && (
-          <QRCodeCanvas
-            className="border border-white"
-            value={`${BASE_URL}/${data.username}`}
-            size={fallbackImageSize * 2}
-          />
-        )}
-      </div>
-      <div className="flex justify-center mb-4">
-        {qrShow && (
-          <Button primary={true} onClick={downloadQR}>
-            Download QR code
-          </Button>
-        )}
-      </div>
+      <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
+        <div className="flex flex-col items-center justify-center px-8">
+          <div>
+            <div className="flex justify-center my-4" ref={qrRef}>
+              {qrShow && (
+                <QRCodeCanvas
+                  className="border border-white"
+                  value={`${BASE_URL}/${data.username}`}
+                  size={fallbackImageSize * 2}
+                />
+              )}
+            </div>
+            <div className="w-full px-2 mx-auto flex justify-center mb-4">
+              {qrShow && (
+                <Button primary={true} onClick={downloadQR}>
+                  Download QR code
+                </Button>
+              )}
+            </div>
+          </div>
+          {qrShow && (
+            <>
+              <div className="h-full m-4 p-2 flex flex-row items-start justify-center space-x-2">
+                {socials.map(({ SOCIAL_SHARE_LINK, Icon, includeText }) => (
+                  <Link
+                    key={SOCIAL_SHARE_LINK}
+                    href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
+                      includeText
+                        ? `&text=${encodeURIComponent(
+                            `Check out ${data.name}'s profile on LinkFree.io`
+                          )}`
+                        : ""
+                    }`}
+                    target="_blank"
+                    className="rounded-full p-2 border border-primary-low-medium hover:border-secondary-high hover:text-secondary-high dark:hover:text-primary-low dark:hover:border-primary-low-medium dark:hover:bg-primary-medium-low cursor-pointer  dark:bg-primary-medium"
+                  >
+                    <Icon size={24} />
+                  </Link>
+                ))}
+              </div>
+              <div className="w-full flex items-center justify-center">
+                <ClipboardCopy>
+                  <p className="dark:text-gray-300 border p-3 rounded-md">
+                    {`${BASE_URL}/${data.username}`}
+                  </p>
+                </ClipboardCopy>
+              </div>
+            </>
+          )}
+        </div>
+      </Modal>
     </>
   );
 }
