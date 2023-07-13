@@ -3,7 +3,9 @@ import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 import { ReactSortable } from "react-sortablejs";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
+import Bars2Icon from "@heroicons/react/24/outline/Bars2Icon";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -38,7 +40,7 @@ export async function getServerSideProps(context) {
   return {
     props: {
       testimonials,
-      BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }
@@ -109,70 +111,72 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               </h3>
             </div>
 
-            <div>
-              <div className="flex gap-4">
-                {!reorder && (
-                  <Button onClick={() => setReorder(true)}>
-                    <ArrowPathIcon className="h-5 w-5 m-2" />
-                    REORDER
-                  </Button>
-                )}
-                {reorder && (
-                  <Button
-                    onClick={() => {
-                      setReorder(false);
-                      setTestimonialList(testimonialListPrevious);
-                    }}
-                  >
-                    CANCEL
-                  </Button>
-                )}
-                {reorder && (
-                  <Button primary={true} onClick={() => saveOrder()}>
-                    SAVE
-                  </Button>
-                )}
-              </div>
-              <ul role="list" className="divide-y divide-primary-low">
-                <ReactSortable
-                  list={testimonialList}
-                  setList={setTestimonialList}
-                  disabled={!reorder}
-                  ghostClass="border-2"
-                  chosenClass="border-dashed"
-                  dragClass="border-red-500"
-                >
-                  {testimonialList.map((testimonial) => (
-                    <li
-                      key={testimonial._id}
-                      className={`flex items-center justify-between gap-x-6 py-5 ${reorder ? "animate-pulse" : ""
-                        }`}
-                    >
-                      <div className="min-w-0">
-                        <div className="flex items-start gap-x-3">
-                          <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
-                            {testimonial.username}
-                          </p>
-                        </div>
-                        <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
-                          <p className="whitespace-normal">
-                            {testimonial.description}
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex flex-none items-center gap-x-4">
-                        <Toggle
-                          enabled={testimonial.isPinned}
-                          setEnabled={() => toggle(testimonial._id)}
-                        />
-                      </div>
-                    </li>
-                  ))}
-                </ReactSortable>
-              </ul>
-            </div>
-          </>
-        }
+        <div>
+          <div className="flex gap-4">
+            {!reorder && (
+              <Button onClick={() => setReorder(true)}>
+                <ArrowPathIcon className="h-5 w-5 m-2" />
+                REORDER
+              </Button>
+            )}
+            {reorder && (
+              <Button
+                onClick={() => {
+                  setReorder(false);
+                  setTestimonialList(testimonialListPrevious);
+                }}
+              >
+                CANCEL
+              </Button>
+            )}
+            {reorder && (
+              <Button primary={true} onClick={() => saveOrder()}>
+                SAVE
+              </Button>
+            )}
+          </div>
+          <ReactSortable
+            tag="ul"
+            list={testimonialList}
+            setList={setTestimonialList}
+            disabled={!reorder}
+            ghostClass="border-2"
+            chosenClass="border-dashed"
+            dragClass="border-red-500"
+            className="divide-y divide-primary-low"
+          >
+            {testimonialList.map((testimonial) => (
+              <li
+                key={testimonial._id}
+                className={`flex items-center justify-between gap-x-6 py-5 ${
+                  reorder ? "animate-pulse" : ""
+                }`}
+              >
+                  <div className="flex gap-2 items-start">
+                    {reorder && <Bars2Icon className="h-8 w-8 " />}
+                  <div className="min-w-0">
+                    <div className="flex items-start gap-x-3">
+                      <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
+                        {testimonial.username}
+                      </p>
+                    </div>
+                    <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-medium-low dark:text-primary-low-high">
+                      <p className="whitespace-normal">
+                        {testimonial.description}
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+                <div className="flex flex-none items-center gap-x-4">
+                  <Toggle
+                    enabled={testimonial.isPinned}
+                    setEnabled={() => toggle(testimonial._id)}
+                  />
+                </div>
+              </li>
+            ))}
+          </ReactSortable>
+        </div>
       </Page>
     </>
   );

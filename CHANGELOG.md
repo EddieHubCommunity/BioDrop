@@ -1,45 +1,45 @@
-## [1.149.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.13...v1.149.14) (2023-07-05)
+## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
 
 
 ### Bug Fixes
 
-* margin testimonial heading ([#7969](https://github.com/EddieHubCommunity/LinkFree/issues/7969)) ([d23f829](https://github.com/EddieHubCommunity/LinkFree/commit/d23f829b1736a7d98b4e86746dd96b54d498323f))
+* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
 
 
 
-## [1.149.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.12...v1.149.13) (2023-07-05)
-
-
-### Bug Fixes
-
-* margin for testimonials on homepage ([#7947](https://github.com/EddieHubCommunity/LinkFree/issues/7947)) ([dc65048](https://github.com/EddieHubCommunity/LinkFree/commit/dc65048801ad03ec3bdb4fb97dd9a9661edde6b5))
-
-
-
-## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
+## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
 
 
 ### Bug Fixes
 
-* handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
+* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
 
 
 
-## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
-
-
-### Bug Fixes
-
-* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
-
-
-
-## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
+## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
 
 
 ### Bug Fixes
 
-* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
+* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
+
+
+
+## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+
+
+### Bug Fixes
+
+* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+
+
+
+# [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
+
+
+### Features
+
+* daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
 
 
 

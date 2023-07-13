@@ -26,7 +26,7 @@ export async function getServerSideProps(context) {
   if (!session) {
     return {
       redirect: {
-        destination: "/",
+        destination: "/auth/signin",
         permanent: false,
       },
     };
@@ -115,9 +115,8 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
       />
 
       <Page>
-
         <Navigation />
-        
+
         <UserMini
           BASE_URL={BASE_URL}
           username={profile.username}

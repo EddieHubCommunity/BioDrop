@@ -42,7 +42,7 @@ export default function EventCard({ manage, event, usernames }) {
 
   const item = (event) => (
     <div
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
+      className="py-4 border-l-[3px] border-t border-secondary-medium dark:border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
       style={{
         borderColor: event.color,
       }}
@@ -141,7 +141,12 @@ export default function EventCard({ manage, event, usernames }) {
   );
 
   const edit = (event) => (
-    <Edit href={`/account/manage/event/${event._id}`}>{item(event)}</Edit>
+    <Edit
+      href={`/account/manage/event/${event._id}`}
+      label={`${event.name} Event`}
+    >
+      {item(event)}
+    </Edit>
   );
 
   return (

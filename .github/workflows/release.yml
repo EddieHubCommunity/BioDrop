@@ -45,11 +45,11 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           version-file: "./package.json,./package-lock.json,./config/app.json"
           git-branch: "release-from-${{ github.sha }}"
-          skip-on-empty: false
           skip-git-pull: true
 
       # create PR using GitHub CLI
       - name: create PR with release info
+        if: steps.changelog.outputs.skipped == 'false'
         id: create-pr
         run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
         env:
@@ -57,6 +57,7 @@ jobs:
 
       # merge PR using GitHub CLI
       - name: merge PR with release info
+        if: steps.changelog.outputs.skipped == 'false'
         id: merge-pr
         run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
         env:
@@ -68,6 +69,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.CHANGELOG_RELEASE }}
-          tag	: ${{ steps.changelog.outputs.tag }}
+          tag: ${{ steps.changelog.outputs.tag }}
           name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}

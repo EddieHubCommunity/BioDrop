@@ -1,0 +1,16 @@
+{
+  "name": "Devajit Patar",
+  "bio": "Open Source | Android | ML",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/devajit-patar-05980821a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/DevP-ai",
+      "icon": "FaGithub"
+    }
+  ]
+}
