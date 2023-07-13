@@ -1,3 +1,12 @@
+## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
+
+
+### Bug Fixes
+
+* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
+
+
+
 ## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
-
-
-
-# [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
-
-
-### Features
-
-* daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
 
 
 
