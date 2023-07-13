@@ -10,8 +10,7 @@ export default function UserMilestones({ milestones, manage = false }) {
   return (
     <>
       {!milestones?.length && (
-        <div className="m-6 mt-10"><Alert type="info" message="No milestones found" /></div>
-
+        <Alert type="info" message="No milestones found" />
       )}
       <ul role="list" className="divide-y divide-primary-low-medium mt-4">
         {milestones &&
