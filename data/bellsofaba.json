@@ -1,10 +1,7 @@
 {
   "name": "Jack Aba",
-  "displayStatsPublic": true,
-  "type": "personal",
   "bio": "**Software Developer**, Open Source Devotee, & Technical Writer",
-  "avatar": "https://github.com/bellsofaba.png",
-  "tags": ["Open Source", "Frontend Developer", "React", "Technical Writer"],
+  "tags": ["Open Source", "Frontend Developer", "React", "Web3", "Technical Writer"],
   "links": [
     {
       "name": "Connect with me on Twitter",
