@@ -2,6 +2,7 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
+import { useRouter } from "next/router";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -43,6 +44,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageLinks({ BASE_URL, username, links }) {
+  const router = useRouter();
+  const { success } = router.query;
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   const [linkList, setLinkList] = useState(links || []);
@@ -71,6 +74,9 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
+        {success && (
+          <Alert type="success" message="Link Created/Updated Successfully" />
+        )}
         <Navigation />
 
         <Notification
