@@ -1,3 +1,12 @@
+## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
+
+
+### Bug Fixes
+
+* test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
+
+
+
 # [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
-
-
-
-## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
-
-
-### Bug Fixes
-
-* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
 
 
 
