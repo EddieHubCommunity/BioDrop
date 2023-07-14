@@ -4,18 +4,23 @@ import { encode } from "next-auth/jwt";
 
 import { User, Session, Account } from "@models/index";
 
-const login = async (browser) => {
+const login = async (
+  browser,
+  user = {
+    id: "22222222",
+    name: "Automated Test Standard User",
+    email: "test-standard-user@test.com",
+    username: "_test-profile-user-6",
+  }
+) => {
   await connectMongo();
 
   const date = new Date();
   const sessionToken = await encode({
     token: {
-      name: "Automate Test",
-      email: "testemail@test.com",
       image: "https://github.com/eddiejaoude.png",
       access_token: "ggg_zZl1pWIvKkf3UDynZ09zLvuyZsm1yC0YoRPt",
-      username: "eddiejaoude",
-      id: "22222222",
+      ...user,
     },
     secret: serverEnv.NEXTAUTH_SECRET,
   });
@@ -24,9 +29,9 @@ const login = async (browser) => {
 
   try {
     testUser = await User.findOneAndUpdate(
-      { email: "testemail@test.com" },
+      { email: user.email },
       {
-        name: "Automate Test",
+        name: user.name,
         image: "https://github.com/eddiejaoude.png",
         emailVerified: null,
       },
@@ -59,7 +64,7 @@ const login = async (browser) => {
       {
         type: "oauth",
         provider: "github",
-        providerAccountId: "2222222",
+        providerAccountId: user.id,
         access_token: "ggg_zZl1pWIvKkf3UDynZ09zLvuyZsm1yC0YoRPt",
         token_type: "bearer",
         scope: "read:org,read:user,repo,user:email,test:all",

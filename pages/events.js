@@ -101,7 +101,7 @@ export default function Events({ events }) {
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
           {tabFilters.find((filter) => filter.key === eventType).description}
         </h2>
-        <ul role="list" className="divide-y divide-primary-low mt-6">
+        <ul role="list" className="mt-6">
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}
