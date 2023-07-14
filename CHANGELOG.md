@@ -1,45 +1,45 @@
-## [1.149.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.11...v1.149.12) (2023-07-04)
+# [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
+
+
+### Features
+
+* update item redirects to list ([#7966](https://github.com/EddieHubCommunity/LinkFree/issues/7966)) ([049eeb3](https://github.com/EddieHubCommunity/LinkFree/commit/049eeb3d023d13ce0d417eed9201519997db17b2))
+
+
+
+## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
 
 
 ### Bug Fixes
 
-* handle milestones with non date info in date field ([#7950](https://github.com/EddieHubCommunity/LinkFree/issues/7950)) ([365004a](https://github.com/EddieHubCommunity/LinkFree/commit/365004aa45155d1e039c4bc0044ea922a07b3318))
+* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
 
 
 
-## [1.149.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.10...v1.149.11) (2023-07-04)
-
-
-### Bug Fixes
-
-* move tab nav to the top ([#7931](https://github.com/EddieHubCommunity/LinkFree/issues/7931)) ([50c9391](https://github.com/EddieHubCommunity/LinkFree/commit/50c9391fba9014f9e9ef40041b55c78c26fbda11))
-
-
-
-## [1.149.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.9...v1.149.10) (2023-07-04)
+## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
 
 
 ### Bug Fixes
 
-* popular docs link ([#7955](https://github.com/EddieHubCommunity/LinkFree/issues/7955)) ([3a00b9d](https://github.com/EddieHubCommunity/LinkFree/commit/3a00b9d91fa9520f197d90db1468f91f7651ac9f))
+* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
 
 
 
-## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
-
-
-### Bug Fixes
-
-* responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
-
-
-
-## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
+## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
 
 
 ### Bug Fixes
 
-* hot reload with docker compose up ([#7644](https://github.com/EddieHubCommunity/LinkFree/issues/7644)) ([9b541b6](https://github.com/EddieHubCommunity/LinkFree/commit/9b541b6f1988e948b06db65d2b0520caf355d39a))
+* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
+
+
+
+## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
+
+
+### Bug Fixes
+
+* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
 
 
 

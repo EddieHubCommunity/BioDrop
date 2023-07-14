@@ -64,7 +64,9 @@ export default function UserEvents({ manage = false, events }) {
   });
 
   return (
-    <div className="m-6">
+    <>
+      {!eventsToShow?.length && <Alert type="info" message="No Events found" />}
+
       {!manage && (
         <DropdownMenu
           eventType={eventType}
@@ -75,17 +77,13 @@ export default function UserEvents({ manage = false, events }) {
         />
       )}
 
-      {eventsToShow.length > 0 ? (
-        <ul role="list" className="divide-y divide-primary-low mt-4">
+      {eventsToShow.length > 0 && (
+        <ul role="list" className="mt-4">
           {eventsToShow.map((event, index) => (
             <EventCard event={event} key={index} manage={manage} />
           ))}
         </ul>
-      ) : (
-        <div className="mt-4">
-          <Alert type="info" message="No events found" />
-        </div>
       )}
-    </div>
+    </>
   );
 }
