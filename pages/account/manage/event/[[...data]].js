@@ -239,7 +239,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       min="0"
                       name="price"
                       label="Ticket Price"
-                      onChange={(e) => setPrice(e.target.value)}
+                      onChange={(e) => setPrice(parseInt(e.target.value))}
                       value={price}
                     />
                     <p className="text-sm text-primary-low-medium">
@@ -287,7 +287,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 url,
                 date: { start: startDate, end: endDate },
                 isVirtual,
-                price,
+                price: { startingFrom: price },
                 color,
               }}
             />
