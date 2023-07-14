@@ -1,3 +1,12 @@
+# [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
+
+
+### Features
+
+* update item redirects to list ([#7966](https://github.com/EddieHubCommunity/LinkFree/issues/7966)) ([049eeb3](https://github.com/EddieHubCommunity/LinkFree/commit/049eeb3d023d13ce0d417eed9201519997db17b2))
+
+
+
 ## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
-
-
-
-## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
-
-
-### Bug Fixes
-
-* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
 
 
 
