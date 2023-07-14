@@ -49,14 +49,12 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(randUsers);
-  const [inputValue, setInputValue] = useState(username || keyword || "");
+  const [inputValue, setInputValue] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    if (username) {
-      setNotFound(`${username} not found`);
-    }
-  }, [username]);
+    setInputValue(username || keyword || "");
+  }, [username, keyword]);
 
   useEffect(() => {
     if (!inputValue) {
@@ -95,6 +93,14 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
 
     const timer = setTimeout(() => {
       fetchUsers(inputValue);
+      const newUrl = `/search?keyword=${inputValue}`;
+
+      // replace the url with the new url without reloading the page
+      window.history.replaceState(
+        { ...window.history.state, as: newUrl, url: newUrl },
+        "",
+        newUrl
+      );
     }, 500);
 
     return () => clearTimeout(timer);
@@ -108,18 +114,11 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     }
 
     const items = cleanedInput.split(", ");
-
-    if (cleanedInput.length) {
-      if (searchTagNameInInput(inputValue, keyword)) {
-        return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(", ")
-        );
-      }
-
-      return setInputValue([...items, keyword].join(", "));
+    if (searchTagNameInInput(inputValue, keyword)) {
+      setInputValue(items.filter((item) => item.trim() !== keyword).join(", "));
+    } else {
+      setInputValue([...items, keyword].join(", "));
     }
-
-    setInputValue(keyword);
   };
 
   // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
