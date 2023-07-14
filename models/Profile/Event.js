@@ -31,9 +31,13 @@ const EventSchema = new Schema({
     min: 2,
     max: 256,
   },
-  order: Number,
   price: {
     startingFrom: Number,
+  },
+  color: {
+    type: String,
+    min: 2,
+    max: 16,
   },
 });
 

@@ -1,0 +1,21 @@
+{
+  "name": "Parvej Shaikh",
+  "bio": "Building Axstudios.tech and Skilled in Full Stack development.Exploring Cloud Native and Blockchain technology with a bachelor of engineering focused in Information Technology",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/p_parvez",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Lets collaborate here",
+      "url": "https://github.com/parvej2001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me to hangout and chill",
+      "url": "https://www.instagram.com/parvez_shaikh38",
+      "icon": "FaInstagram"
+    }
+  ]
+}

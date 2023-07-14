@@ -1,6 +1,11 @@
 {
-  "version": "1.147.10",
+  "version": "1.155.5",
   "alerts": [],
+  "layouts": [
+    "classic",
+    "inline",
+    "column-2"
+  ],
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,
