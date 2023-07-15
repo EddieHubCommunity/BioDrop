@@ -4,23 +4,28 @@
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/s__bawanthade",
+      "url": "https://twitter.com/sagar2004_twts",
       "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/sagar_bawanthade30/",
+      "url": "https://www.instagram.com/sagar2004_ig/",
       "icon": "FaInstagram"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/sagar-bawanthade-99450b27b/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Follow me on Github",
+      "name": "See my Projects on Github",
       "url": "https://github.com/SagarBawanthade",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Read my Blogs on Hashnode",
+      "url": "https://sagarbawanthade30.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }

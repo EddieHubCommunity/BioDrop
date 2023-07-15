@@ -24,6 +24,11 @@
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/pravesh-sudha-82a37422a/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://praveshstwt.hashnode.dev",
+      "icon": "SiHashnode"
     }
   ]
 }

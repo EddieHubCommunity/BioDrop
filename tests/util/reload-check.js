@@ -8,7 +8,7 @@
   const profiles = await profilesReq.json();
   console.log("TOTAL: ", profiles.length);
 
-  counter = 0;
+  let counter = 0;
   await Promise.all(
     profiles.slice(start, finish).map(async (profile) => {
       counter++;
