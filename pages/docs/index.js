@@ -112,7 +112,7 @@ export default function DocsIndex() {
                 className="bg-white dark:bg-primary-high px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pb-28"
                 key={section.title}
               >
-                <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
+                <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200  dark:divide-primary-low-high lg:max-w-7xl">
                   <div>
                     <h2
                       className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
@@ -124,12 +124,12 @@ export default function DocsIndex() {
                       {section.description}
                     </p>
                   </div>
-                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-8">
                     {section.pages.map((page) => (
                       <Link
                         href={page.path}
                         key={page.name}
-                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
+                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded mt-4 px-6 py-2 block"
                       >
                         <div className="py-2">
                           {/* <span

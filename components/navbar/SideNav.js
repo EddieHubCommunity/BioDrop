@@ -15,7 +15,7 @@ export default function SideNav({ navigation }) {
               href={item.href}
               className={classNames(
                 item.current ? "bg-primary-low" : "hover:bg-primary-low",
-                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium"
+                "group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium dark:hover:text-primary-high"
               )}
             >
               {/* <item.icon
@@ -31,7 +31,7 @@ export default function SideNav({ navigation }) {
                   <Disclosure.Button
                     className={classNames(
                       item.current ? "bg-primary-low" : "hover:bg-primary-low",
-                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium"
+                      "flex items-center w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium dark:hover:text-primary-high"
                     )}
                   >
                     {/* <item.icon
@@ -43,7 +43,7 @@ export default function SideNav({ navigation }) {
                       className={classNames(
                         open
                           ? "rotate-90 text-primary-low-medium"
-                          : "text-primary-low-medium",
+                          : "text-primary-low-medium dark:hover:text-primary-high",
                         "ml-auto h-5 w-5 shrink-0"
                       )}
                       aria-hidden="true"
@@ -60,7 +60,7 @@ export default function SideNav({ navigation }) {
                             subItem.current
                               ? "bg-primary-low"
                               : "hover:bg-primary-low",
-                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-primary-high dark:text-primary-low-medium"
+                            "block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-primary-high dark:text-primary-low-medium dark:hover:text-primary-high"
                           )}
                         >
                           {subItem.name}
