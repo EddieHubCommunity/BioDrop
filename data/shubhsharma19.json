@@ -1,13 +1,11 @@
 {
   "name": "Shubh Sharma",
-  "type": "personal",
-  "bio": "BCA Graduate | **Open Source** Advocate | Fullstack Web Development | Content Creator | Technical Writer | Designer",
+  "bio": "Self-taught | **Open Source** Advocate | Frontend Web Developer | Technical Writer | Designer | DevRel Enthusiast",
   "tags": [
     "Open Source",
     "Content Creation",
     "Technical Writing",
     "Blogging",
-    "Web3",
     "Fullstack Web Development",
     "Designing"
   ],
@@ -36,42 +34,58 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Threads about tech",
+      "name": "I am most active here",
       "url": "https://twitter.com/shubhstwt",
       "icon": "FaTwitter"
     },
     {
-      "name": "My Blogs",
+      "name": "My Tech Articles",
       "url": "https://shubhsharma19.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
-      "name": "My LinkedIn",
+      "name": "Let's connect on LinkedIn",
       "url": "https://linkedin.com/in/shubhsharma19",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Content on Instagram",
+      "name": "Programming content on Instagram",
       "url": "https://instagram.com/code.shubh",
       "icon": "FaInstagram"
     },
     {
-      "name": "My Music",
+      "name": "A Side hobby (My music)",
       "url": "https://www.youtube.com/sikstepmusic",
       "icon": "FaYoutube"
     },
     {
-      "name": "Support my work :)",
+      "name": "You can support my work :)",
       "url": "https://ko-fi.com/shubhsharma19",
       "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
     {
+      "title": "Got selected as Content Manager and Graphic Designer at Virtual Tech School Community",
+      "date": "May, 2023",
+      "icon": "FaGlobe",
+      "color": "red",
+      "description": "Managing the content and Designs of VTS Community",
+      "url": "https://twitter.com/virtechschool"
+    },
+    {
+      "title": "Won Apple Airpods Pro in SurrealDB giveaway",
+      "date": "May, 2023",
+      "icon": "FaApple",
+      "color": "purple",
+      "description": "Contributed to SurrealDB GitHub Repo, Improved their Documentation!",
+      "url": "https://github.com/surrealdb/surrealdb/pull/1935"
+    },
+    {
       "title": "Got selected as Elite Mentor at ShowwcaseHQ",
       "date": "March, 2023",
-      "icon": "FaBookOpen",
-      "color": "purple",
+      "icon": "FaGlobe",
+      "color": "green",
       "description": "As a volunteer technical writing mentor at Showwcase Elite-Writers Program, I am helping aspiring writers develop their skills and get started in the world of tech writing.",
       "url": "https://www.showwcase.com/shubhsharma19"
     },
@@ -86,25 +100,25 @@
     {
       "title": "Started contributing to Open Source",
       "date": "January, 2023",
-      "icon": "FaGithub",
+      "icon": "SiOpensourceinitiative",
       "color": "green",
       "description": "Advocating for Open Source",
       "url": "https://github.com/shubhsharma19"
     },
     {
-      "title": "Started Blogging",
+      "title": "Started Technical Writing",
       "date": "October, 2022",
       "icon": "SiHashnode",
       "color": "blue",
-      "description": "Documenting my journey through Technical Blogs",
+      "description": "Documenting my journey of tech in the form of Technical Articles",
       "url": "https://shubhsharma19.hashnode.dev/"
     },
     {
-      "title": "Participated in GDSC Challenge, Commit your code",
+      "title": "Participated in GDSC Challenge: Commit your code",
       "date": "October, 2021",
       "icon": "FaGithub",
       "color": "orange",
-      "description": "Participated and Contributed in Hacktoberfest, Won Swags and Stickers",
+      "description": "Participated and Contributed in Hacktoberfest, Won Swags",
       "url": "https://github.com/shubhsharma19/Certificates/blob/94527dbc6462ab425740cd35e23fb5a3487bf680/Commit%20Your%20Code%20Certificate.pdf"
     }
   ]

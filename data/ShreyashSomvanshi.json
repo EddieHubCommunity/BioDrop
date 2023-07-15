@@ -1,11 +1,16 @@
 {
   "name": "Shreyash Somvanshi",
-  "type": "personal",
   "bio": "Artificial Intelligence & Data Science Engineer | Open Source Beginner | Technical Content Writer ",
   "tags": ["Data Science", "AI", "Open Source", "Content Writer"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/ShreyashSomvanshi" },
-    { "icon": "SiMedium", "url": "https://medium.com/@ShreyashSomvanshi" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShreyashSomvanshi"
+    },
+    {
+      "icon": "SiMedium",
+      "url": "https://medium.com/@ShreyashSomvanshi"
+    }
   ],
   "links": [
     {

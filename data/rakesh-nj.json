@@ -1,0 +1,22 @@
+{
+  "name": "Rakesh N J",
+  "bio": "Optimist interested in machine learning",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rakeshnjtweets",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/rakesh-nj",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rakesh-n-j-11a1a9247/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "tags": ["Open Source", "Python", "Machine learning"]
+}

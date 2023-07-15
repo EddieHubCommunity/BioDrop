@@ -1,13 +1,20 @@
 {
   "name": "Gaganpreet Kaur Kalsi",
-  "type": "personal",
   "bio": "Frontend Developer | Open Source Contributor | Member @Layer5, Meshery",
-
   "tags": ["Open Source", "Javascript", "Typescript", "React"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/GaganpreetKalsi" },
-    { "icon": "FaGithub", "url": "https://github.com/GaganpreetKaurKalsi" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/gagancodes_" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/GaganpreetKalsi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/GaganpreetKaurKalsi"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/gagancodes_"
+    }
   ],
   "links": [
     {

@@ -1,11 +1,15 @@
 {
   "name": "Abbas Hussain Muzammil",
-  "type": "personal",
   "bio": "Open Source Enthusiast | Blogger | Software Engineer",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ahussain2399" },
-    { "icon": "FaGithub", "url": "https://github.com/Abbas-Hussain-Muzammil" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahussain2399"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Abbas-Hussain-Muzammil"
+    }
   ],
   "links": [
     {

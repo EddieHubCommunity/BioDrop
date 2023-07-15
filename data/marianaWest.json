@@ -1,12 +1,16 @@
 {
   "name": "Mariana Westphalen",
-  "type": "personal",
   "bio": "MERN Stack Developer | Open Source Enthusiast | Creative Code Lover",
-
   "tags": ["javascript", "react"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Mariana_West_" },
-    { "icon": "FaGithub", "url": "https://github.com/marianaWest" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Mariana_West_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/marianaWest"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,69 @@
+{
+  "name": "Chandra Sekhar Bala",
+  "bio": "Android SDE intern @ GoGlobally | MCA student | open source contributor",
+  "tags": [
+    "Android",
+    "Kotlin",
+    "Open source",
+    "Community",
+    "Developer",
+    "Designer"
+  ],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chandrastwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Chandra-Sekhar-Bala"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/im_chandra100"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://chandra-sekhar-bala.github.io/Portfolio"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/chandra-sekhar-bala/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/chandrastwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Chandra-Sekhar-Bala",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio website",
+      "url": "https://chandra-sekhar-bala.github.io/Portfolio",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow my personal blog",
+      "url": "https://chandrasekhar.codes",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Leetcode - DSA",
+      "url": "https://leetcode.com/Chandra-Sekhar-Bala",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/im_chandra100",
+      "icon": "FaInstagram"
+    }
+  ]
+}

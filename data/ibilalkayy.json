@@ -1,13 +1,16 @@
 {
   "name": "Bilal Khan",
-  "type": "personal",
-  "bio": "Book Loop Founder, DevOps Guy, a Golang Developer | AWS Community Builder, Open Source Contributor, a Content Creator on YouTube & Hashnode.",
+  "bio": "Bloop Founder, DevOps Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
 
   "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
     {
       "icon": "FaGlobe",
-      "url": "https://bookloop.club"
+      "url": "https://ibilalkayy.github.io/digital-resume/"
+    },
+    {
+      "icon": "FaCircleNotch",
+      "url": "https://bloop.gg/"
     },
     {
       "icon": "SiYoutube",
@@ -19,7 +22,7 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@ibilalkayy"
+      "url": "https://ibilalkayy.hashnode.dev/"
     },
     {
       "icon": "FaTwitter",
@@ -38,14 +41,14 @@
   ],
   "links": [
     {
-      "name": "Resume: Hire me",
+      "name": "Portfolio: Hire me",
       "url": "https://ibilalkayy.github.io/digital-resume/",
       "icon": "FaGlobe"
     },
     {
-      "name": "Book Loop: A Startup",
-      "url": "https://bookloop.club",
-      "icon": "FaGlobe"
+      "name": "Bloop: A Startup",
+      "url": "https://bloop.gg/",
+      "icon": "FaCircleNotch"
     },
     {
       "name": "YouTube: Checkout my DevOps Videos",
@@ -59,7 +62,7 @@
     },
     {
       "name": "Hashnode: Read my Blogs",
-      "url": "https://hashnode.com/@ibilalkayy",
+      "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
@@ -102,6 +105,14 @@
       "color": "blue",
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Started Bloop",
+      "date": "Feb 3, 2023",
+      "icon": "FaCircleNotch",
+      "color": "black",
+      "description": "Started my Bloop startup",
+      "url": "https://bloop.gg/"
     },
     {
       "title": "Created 60 Days Of DevOps Videos",

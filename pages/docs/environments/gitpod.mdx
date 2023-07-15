@@ -1,17 +1,98 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link.js";
+import Alert from "@components/Alert.js";
 
 ## Gitpod
 
-In the cloud free development environment which will have all the dependencies you need (for example MongoDB).
+Gitpod is an open-source application that provides a prebuilt development environment in your browser - powered by VS Code. It also automates the provisioning of a ready-to-code developer environment, so you will have all the dependencies you need (for example MongoDB). With Gitpod, there’s no need to download any code to your machine. It can create a server-side-dev-environment for you in seconds from any repository on GitHub.
 
-You can use Gitpod in the cloud.
+### How to use Gitpod
 
-Setup environment [variables](/docs/environments/environment-variables)
+You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree/)
+There are 2 ways you can open a repository with Gitpod:
+
+- Prefix the url with `gitpod.io/#`
+- Use the [Browser Extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension)
+
+### Development
+
+Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE:</strong>
+      <ul style={{ listStyleType: "number" }}>
+        <li>
+          Be sure that you have a fork of LinkFree in your Github Profile. If
+          you don't have it, check out the{" "}
+          <Link href="https://linkfree.io/docs/quickstart-json">
+            JSON Quickstart Guide
+          </Link>
+        </li>
+        <li>
+          When you have your environment running the database will be empty. You
+          need to visit the path{" "}
+          <strong>/api/system/reload?secret=development</strong> to load the
+          json files
+        </li>
+      </ul>
+    </>
+  }
+/>
+
+Open your fork and follow along.
+
+First, Let's make sure that we have the latest version of the code. To achieve this, run the following commands:
+
+```bash
+git checkout main
+git pull upstream main
+```
+
+Now we can update our profile. To do this, create a new branch with the following command
+
+```bash
+# Replace YOUR_PROFILE_NAME with your actual profile name.
+git checkout -b update-YOUR_PROFILE_NAME
+```
+
+Now we are ready to make some modification to our profile. Find the file with your account name in the `data` folder, and modify it as you want.
+
+For example, you can copy and past the following code
+
+```json
+"milestones": [
+    {
+      "title": "Used Gitpod to Update my Profile",
+      "date": "May 2023", // update to the correct date
+      "icon": "FaCode",
+      "description": "Started my profile by using Gitpod",
+      "url": "https://gitpod.com/"
+    }
+  ]
+```
+
+As a last step, commit the changes and create a PR in the LinkFree Repository.
+
+### Permissions
+
+If you encounter permission issues, follow the next steps:
+
+- Open the user settings of your Gitpod profile and click on _Integrations_
+- Click on the 3 dots after Github and choose _Edit Permissions_
+- Make sure that you have checked _public_repo_ and _workflow_
+
+[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io#https://github.com/EddieHubCommunity/LinkFree)
 
 export default ({ children }) => (
-  <DocsLayout title="LinkFree Gitpod Development Documentation">
+  <DocsLayout
+    title="LinkFree Gitpod Development Documentation"
+    section="Getting started"
+    name="Gitpod"
+  >
     {children}
   </DocsLayout>
 );

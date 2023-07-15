@@ -25,6 +25,7 @@ permissions:
 
 jobs:
   build:
+    if: github.repository == 'EddieHubCommunity/LinkFree'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -59,4 +60,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
 

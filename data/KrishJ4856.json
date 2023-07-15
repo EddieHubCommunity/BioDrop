@@ -1,8 +1,6 @@
 {
   "name": "Krish Jaiswal",
-  "type": "personal",
   "bio": "I am a high school student currently learning about Web Development and making an attempt to share my learning in public.",
-
   "tags": ["HTML/CSS", "Javascript", "NodeJS", "ReactJS", "Open Source"],
   "links": [
     {

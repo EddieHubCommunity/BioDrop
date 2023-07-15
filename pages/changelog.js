@@ -1,4 +1,4 @@
-import { CalendarIcon } from "@heroicons/react/20/solid";
+import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -9,6 +9,34 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Share profile on social media",
+      description:
+        "With the QR code, there is also a link copy and social share buttons",
+      type: "addition",
+      date: "2023-07-10",
+    },
+    {
+      title: "Reorder testimonials and links",
+      description:
+        "As these items don't have lists you may want to reorder them",
+      type: "addition",
+      date: "2023-07-06",
+    },
+    {
+      title: "Manage profile with forms",
+      description:
+        "We now have functionality to manage your profile with forms",
+      type: "addition",
+      date: "2023-06-14",
+    },
+    {
+      title: "Custom login page",
+      description:
+        "We were using the standard Next-Auth page but now we have a branded login page",
+      type: "addition",
+      date: "2023-05-04",
+    },
     {
       title: "LinkFree now has DarkMode",
       description:
@@ -72,7 +100,7 @@ export default function Changelog() {
     },
     {
       title: "`avatar` json property no longer required",
-      description: "Now will default to using people's GitHub proile picture",
+      description: "Now will default to using people's GitHub profile picture",
       type: "removal",
       date: "2023-01-07",
     },
@@ -81,13 +109,13 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title="LinkFree user changelog"
+        description="What are the latest features and changes to LinkFree"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white dark:bg-primary-high dark:border dark:border-primary-medium shadow sm:rounded-md">
+        <div className="overflow-hidden bg-primary-low shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
@@ -107,17 +135,15 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex dark:text-primary-low-medium">
+                    <div className="sm:flex dark:text-primary-low">
                       {change.description}
                     </div>
                     <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-low-medium dark:text-primary-low"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p className="dark:text-primary-low-medium">
-                        {change.date}
-                      </p>
+                      <p className="dark:text-primary-low">{change.date}</p>
                     </div>
                   </div>
                 </div>

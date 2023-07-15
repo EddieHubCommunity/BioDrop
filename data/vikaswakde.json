@@ -1,0 +1,39 @@
+{
+  "name": "Vikas Wakde",
+  "bio": "Open Source Beginner | Enjoy Building Products",
+  "tags": ["Open Source", "HTML", "CSS", "Javascript", "Python"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vikaswakdeos"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/itsvikas18"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/https:/vikas-wakde-a7b1b6227/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/vikaswakdeos",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/itsvikas18",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/vikas-wakde-a7b1b6227/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

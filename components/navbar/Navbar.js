@@ -1,32 +1,30 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
-import getIcon from "@components/Icon";
 import { useTheme } from "next-themes";
 
-const FaGithub = getIcon("FaGithub");
-const FaRegMoon = getIcon("FaRegMoon");
-const FaSun = getIcon("FaSun");
+import FaGithub from "@components/icons/FaGithub";
+import SunIcon from "@heroicons/react/20/solid/SunIcon";
+import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 
 export default function Navbar() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+
+  const router = useRouter();
+  const navConRef = useRef();
+  const { data: session } = useSession();
+  const { systemTheme, theme, setTheme } = useTheme();
+  const getLink = (path) => `${router.basePath}${path}`;
 
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  const { data: session } = useSession();
-  const [isOpen, setIsOpen] = useState(false);
-
-  const router = useRouter();
-  const getLink = (path) => `${router.basePath}${path}`;
-  const navConRef = useRef();
 
   const renderThemeChanger = () => {
     if (!mounted) {
@@ -37,8 +35,12 @@ export default function Navbar() {
 
     if (currentTheme === "dark") {
       return (
-        <button className="p-2" onClick={() => setTheme("light")}>
-          <FaSun className="text-primary-low hover:text-secondary-low" />
+        <button
+          className="p-2"
+          onClick={() => setTheme("light")}
+          aria-label="Toggle Theme"
+        >
+          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
         </button>
       );
     }
@@ -49,7 +51,7 @@ export default function Navbar() {
         onClick={() => setTheme("dark")}
         aria-label="Toggle Theme"
       >
-        <FaRegMoon className="text-primary-low hover:text-secondary-low" />
+        <MoonIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
       </button>
     );
   };
@@ -99,7 +101,7 @@ export default function Navbar() {
     <>
       {!session && (
         <NavLink
-          item={{ name: "Login", url: "/login" }}
+          item={{ name: "Login / Sign up", url: "/login" }}
           setIsOpen={setIsOpen}
           onClick={(e) => {
             e.preventDefault();
@@ -125,7 +127,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="min-h-full" ref={navConRef}>
+    <header className="min-h-full" ref={navConRef}>
       <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
@@ -143,38 +145,35 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <ul className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
-                    <NavLink
-                      key={item.name}
-                      path={router.pathname}
-                      item={item}
-                      setIsOpen={setIsOpen}
-                    />
+                    <li key={item.name}>
+                      <NavLink
+                        path={router.pathname}
+                        item={item}
+                        setIsOpen={setIsOpen}
+                      />
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
-                <NavLink
-                  item={{ name: `v${app.version}`, url: "/changelog" }}
-                  setIsOpen={setIsOpen}
-                />
-                <div className="relative">
-                  <a
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </a>
-                </div>
+                  </div>
+                </Link>
                 {authControls()}
               </div>
             </div>
@@ -182,7 +181,7 @@ export default function Navbar() {
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
-                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-primary-low-medium hover:text-white hover:bg-primary-medium focus:outline-offset-2"
+                className="bg-primary-high inline-flex items-center justify-center p-2 rounded-md text-primary-medium-low hover:text-white hover:bg-primary-medium focus:outline-offset-2"
                 aria-controls="mobile-menu"
                 aria-expanded={isOpen}
               >
@@ -249,26 +248,26 @@ export default function Navbar() {
                   item={{ name: `v${app.version}`, url: "/changelog" }}
                   setIsOpen={setIsOpen}
                 />
-                <div className="ml-3 mr-2 relative">
-                  <Link
-                    href="https://github.com/EddieHubCommunity/LinkFree"
-                    aria-current="page"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-white"
-                  >
+                <Link
+                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-current="page"
+                >
+                  <div className="ml-3 mr-2 relative p-2">
                     <FaGithub
                       className="text-primary-low hover:text-secondary-low"
                       aria-label="GitHub"
                     />
-                  </Link>
-                </div>
+                  </div>
+                </Link>
+
                 {authControls()}
               </div>
             </div>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }

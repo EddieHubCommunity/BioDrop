@@ -1,0 +1,11 @@
+{
+  "name": "Joseph Ng",
+  "bio": "a software engineer with a strong background in data science",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/dsjoench",
+      "icon": "FaGithub"
+    }
+  ]
+}

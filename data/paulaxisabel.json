@@ -1,22 +1,28 @@
 {
   "name": "Paula Isabel Signo",
-  "type": "personal",
-  "bio": "Web Developer | Technical Writer | Open Source Advocate",
+  "bio": "Web Developer | Technical Writer at [**OSSPH**](https://ossph.org/) | [**thirdweb**](https://thirdweb.com/) Ambassador | Open Source | Web3 ",
   "tags": [
     "Web Developer",
     "Javascript",
     "React",
-    "Vue",
-    "PHP",
     "Technical Writer",
-    "Open Source"
+    "Open Source",
+    "Web3"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/codewithpau" },
-    { "icon": "FaGithub", "url": "https://github.com/paulaxisabel" },
-    { "icon": "FaPen", "url": "https://blog.ossph.org/author/paula/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/codewithpau"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/paulaxisabel"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/paulasigno"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",
@@ -38,6 +44,12 @@
     },
     {
       "group": "Socials",
+      "name": "Instagram: Follow my visual journey",
+      "url": "https://instagram.com/codewithpau/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
       "name": "LinkedIn: Let's connect",
       "url": "https://linkedin.com/in/paulasigno",
       "icon": "FaLinkedin"
@@ -56,6 +68,12 @@
     },
     {
       "group": "Open Source Software Philippines",
+      "name": "OSSPH: daily.dev",
+      "url": "https://app.daily.dev/sources/ossphs",
+      "icon": "FaPen"
+    },
+    {
+      "group": "Open Source Software Philippines",
       "name": "OSSPH: Facebook Page",
       "url": "https://www.facebook.com/ossph.org",
       "icon": "FaFacebook"
@@ -65,34 +83,38 @@
       "name": "OSSPH: Twitter",
       "url": "https://twitter.com/OSSPhilippines",
       "icon": "FaTwitter"
-    },
-    {
-      "group": "Point One",
-      "name": "Point One Solutions: Facebook Page",
-      "url": "https://www.facebook.com/pointonesolutions",
-      "icon": "FaFacebook"
-    },
-    {
-      "group": "Point One",
-      "name": "Onepos: Facebook Page",
-      "url": "https://www.facebook.com/onepos.ph",
-      "icon": "FaFacebook"
     }
   ],
   "milestones": [
     {
-      "title": "Point One Integrated Technologies Inc.",
+      "title": "thirdweb",
+      "date": "April 2023",
+      "icon": "FaHandshake",
+      "color": "blue",
+      "description": "Became an ambassador for thirdweb",
+      "url": "https://thirdweb.com/"
+    },
+    {
+      "title": "Google Summer of Code",
+      "date": "March 2023",
+      "icon": "FaHandsHelping",
+      "color": "blue",
+      "description": "Became a mentor for GSoC",
+      "url": "https://summerofcode.withgoogle.com/"
+    },
+    {
+      "title": "Point One",
       "date": "March 2023",
       "icon": "FaLaptop",
-      "color": "pink",
-      "description": "Joined Point One as a Web Developer"
+      "color": "blue",
+      "description": "Became a Web Application Developer at Point One"
     },
     {
       "title": "Open Source Software Philippines",
       "date": "September 2022",
       "icon": "FaPen",
-      "color": "aqua",
-      "description": "Joined OSSPH as a Technical Writer",
+      "color": "blue",
+      "description": "Became a Technical Writer at OSSPH",
       "url": "https://ossph.org/"
     },
     {

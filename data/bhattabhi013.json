@@ -1,6 +1,5 @@
 {
   "name": "Abhishek Bhatt",
-  "type": "personal",
   "bio": "Full-Stack developer | Flutter | NodeJs | Angular | React",
   "tags": [
     "Flutter",
@@ -11,9 +10,18 @@
     "open-source"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AbhishekBtwt" },
-    { "icon": "FaGithub", "url": "https://github.com/bhattabhi013" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/bwith_abhi" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AbhishekBtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bhattabhi013"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/bwith_abhi"
+    }
   ],
   "links": [
     {

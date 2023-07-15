@@ -1,8 +1,6 @@
 {
   "name": "Umar Khatab",
-  "type": "personal",
   "bio": "React JS Developer",
-
   "links": [
     {
       "name": "Connect on GitHub",
@@ -28,7 +26,6 @@
   "milestones": [
     {
       "title": "Started YouTube",
-
       "date": "February 2022",
       "icon": "FaYoutube",
       "color": "red",

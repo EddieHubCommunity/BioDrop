@@ -1,6 +1,5 @@
 {
   "name": "Ramanand Thakur",
-  "type": "personal",
   "bio": "A Software Developer and AI/ML enthusiast. Code👨🏻‍💻->Coffee🍵->Commit🔀->Repeat🔁",
   "links": [
     {
@@ -18,7 +17,6 @@
       "url": "https://twitter.com/ramanand_rv",
       "icon": "FaTwitter"
     },
-
     {
       "name": "YouTube▶️",
       "url": "https://www.youtube.com/@ramanandthakur1464",

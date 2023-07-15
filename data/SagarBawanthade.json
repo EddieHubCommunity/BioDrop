@@ -1,0 +1,31 @@
+{
+  "name": "Sagar Bawanthade",
+  "bio": "I m a MERN Stack Developer, currently learning DevOps",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sagar2004_twts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sagar2004_ig/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sagar-bawanthade-99450b27b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "See my Projects on Github",
+      "url": "https://github.com/SagarBawanthade",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read my Blogs on Hashnode",
+      "url": "https://sagarbawanthade30.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

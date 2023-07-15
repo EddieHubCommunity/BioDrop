@@ -1,6 +1,5 @@
 {
   "name": "Suryansh Upadhyay",
-  "type": "personal",
   "bio": "Full-Stack Developer | Competitive Programmer | 5⭐(C++,MySQL) Hackkerrank",
   "tags": [
     "JavaScript",
@@ -11,9 +10,18 @@
     "DSA"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/linneszyx" },
-    { "icon": "FaGithub", "url": "https://github.com/linneszyx" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/linneszyx" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/linneszyx"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/linneszyx"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/linneszyx"
+    }
   ],
   "links": [
     {

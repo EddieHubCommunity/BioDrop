@@ -1,6 +1,5 @@
 {
   "name": "Utkarsh Krishna",
-  "type": "personal",
   "bio": "Open Source enthusiast | Aspiring Full-Stack Developer | Writing Tech Blogs",
   "links": [
     {
@@ -20,7 +19,7 @@
     },
     {
       "name": "Check out my Blogs on Hashnode",
-      "url": "https://hashnode.com/@utkarshkrishna",
+      "url": "https://utkarshkrishna.hashnode.dev/",
       "icon": "SiHashnode"
     }
   ]

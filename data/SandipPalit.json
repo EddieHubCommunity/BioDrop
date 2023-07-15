@@ -1,12 +1,11 @@
 {
   "name": "Sandip Palit",
-  "type": "personal",
-  "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Speaker | Loading.. ",
+  "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Organizer | Speaker | Loading.. ",
   "tags": [
     "Python",
     "SQL",
     "Big Data",
-    "Databricks",
+    "Apache Spark",
     "Microsoft Azure",
     "Data Science"
   ],
@@ -25,6 +24,12 @@
     }
   ],
   "links": [
+    {
+      "group": "Achievements & Recognitions",
+      "name": "Welcome to 'Postman Community - Kolkata'",
+      "url": "https://www.linkedin.com/company/postman-community-kolkata/",
+      "icon": "SiPostman"
+    },
     {
       "group": "Achievements & Recognitions",
       "name": "Research Article on 'Real Time Sentiment Analysis' published by IGI Global",
@@ -81,6 +86,14 @@
     }
   ],
   "milestones": [
+    {
+      "title": "Started my own Community",
+      "date": "June 2023",
+      "icon": "SiPostman",
+      "color": "blue",
+      "description": "Postman Community - Kolkata is a API focessed community in the City Of Joy.",
+      "url": "https://www.linkedin.com/company/postman-community-kolkata/"
+    },
     {
       "title": "Started Public Speaking",
       "date": "August 2022",

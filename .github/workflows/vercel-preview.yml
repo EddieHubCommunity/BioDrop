@@ -1,0 +1,34 @@
+name: Deploy to Vercel Preview
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - revert-logger
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install Vercel CLI
+        run: npm install --global vercel@latest
+      - name: pull Vercel environment information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      - name: build project artifacts
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+      - name: deploy preview + assign beta domain
+        run: |
+          du --inodes -d 5 .vercel/output
+          ls -l .vercel/output/functions
+          vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
+          vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-preview.vercel.app
+  load-data:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: load json files
+        if: steps.changes.outputs.data == 'true'
+        run: curl -f https://linkfree-preview.vercel.app/api/system/reload?secret=${{ secrets.LINKFREE_API_SECRET_PREVIEW }}

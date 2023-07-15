@@ -1,6 +1,5 @@
 {
   "name": "Pradumna Saraf",
-  "type": "personal",
   "bio": "**Open Source** | DevOps | Go Developer | [**EddieHub**](https://www.eddiehub.org/) Ambassador",
   "tags": [
     "Open Source",
@@ -11,10 +10,22 @@
     "Node.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pradumna_saraf" },
-    { "icon": "FaGithub", "url": "https://github.com/Pradumnasaraf" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/pradumnasaraf" },
-    { "icon": "FaLink", "url": "https://pradumnasaraf.dev" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pradumna_saraf"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Pradumnasaraf"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/pradumnasaraf"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://pradumnasaraf.dev"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://github.com/sponsors/Pradumnasaraf"
@@ -24,10 +35,11 @@
     "eddiejaoude",
     "FrancescoXX",
     "loftwah",
-    "krshkun",
+    "krishstwt",
     "tobySolutions",
     "Njong392",
-    "MadhuSaini22"
+    "MadhuSaini22",
+    "Anushka-codergirl"
   ],
   "links": [
     {
@@ -72,7 +84,6 @@
       "url": "https://www.youtube.com/@pradumnasaraf",
       "icon": "FaYoutube"
     },
-
     {
       "group": "Support My Work",
       "name": "GitHub Sponsors - Any help is more than appreciated",
@@ -99,12 +110,20 @@
     },
     {
       "group": "Open Source Projects",
-      "name": "My DevOps journey and learnings - 1.1k+ stars ⭐️",
+      "name": "My DevOps journey and learnings - 1.9k+ stars ⭐️",
       "url": "https://github.com/Pradumnasaraf/DevOps",
       "icon": "FaGithub"
     }
   ],
   "milestones": [
+    {
+      "title": "Delivered my 1st in-person talk",
+      "date": "15th April 2023",
+      "icon": "FaMicrophone",
+      "color": "orange",
+      "description": "Delivered my first in-person talk on Docker and Docker Compose.",
+      "url": "https://twitter.com/pradumna_saraf/status/1652138152151117824?s=20"
+    },
     {
       "title": "First repo to reach 1K stars",
       "date": "Mar 2023",

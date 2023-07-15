@@ -1,0 +1,21 @@
+{
+  "name": "Aayushmaan Soni",
+  "bio": "1st Year Engineering Student Learning Full-Stack WebDev & CyberSecurity",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/soni_aayushmaan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ams45",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/aayushmaan45",
+      "icon": "FaGithub"
+    }
+  ]
+}

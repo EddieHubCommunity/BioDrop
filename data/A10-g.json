@@ -1,11 +1,16 @@
 {
   "name": "Abhishek Gupta",
-  "type": "personal",
   "bio": "Coding Enthusiast | Opensource Enthusiast | Student @ JSCOE | blogging",
   "tags": ["Open Source", "DSA"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Abhishek_G101" },
-    { "icon": "FaGithub", "url": "https://github.com/A10-g" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Abhishek_G101"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/A10-g"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/abhishek-gupta-95275b233"

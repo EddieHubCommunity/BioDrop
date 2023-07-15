@@ -1,0 +1,70 @@
+{
+  "name": "GrahamTheDevRel",
+  "bio": "The **Accessibility First** DevRel | Check out [grahamthe.dev](https://grahamthe.dev) | #365DaysOfAI | #Mission1Million",
+  "tags": ["Accessibility", "DevRel", "Community", "OSS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/GrahamTheDevRel"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/GrahamTheDevRel"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/grahamthedevrel/"
+    }
+  ],
+  "testimonials": ["loftwah"],
+  "links": [
+    {
+      "group": "Websites",
+      "name": "My portfolio site",
+      "url": "https://grahamthe.dev",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Websites",
+      "name": "Daily Dev Tips",
+      "url": "https://daily-dev-tips.com",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/GrahamTheDevRel",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub",
+      "url": "https://github.com/GrahamTheDevRel",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@grahamthedevrel",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/GrahamTheDevRel",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined LinkFree",
+      "date": "May 2023",
+      "icon": "FaRocket",
+      "color": "pink",
+      "description": "Joined LinkFree to Keep Eddie happy!",
+      "url": "https:/linkfree.io/GrahamTheDevRel/"
+    }
+  ]
+}

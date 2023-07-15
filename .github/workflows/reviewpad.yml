@@ -26,4 +26,4 @@ jobs:
         uses: reviewpad/action@v3.x
         with:
           # Uncomment next line to use your own configuration file 💪
-          file: reviewpad.yml
+          file: .github/config/reviewpad.yml

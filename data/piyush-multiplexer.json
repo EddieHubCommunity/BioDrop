@@ -1,6 +1,5 @@
 {
   "name": "Piyush Goyani",
-  "type": "personal",
   "bio": "Full Stack Software Engineer(Majorly Front), Occasionally Python Coder, ML Enthusiastic, Plant Based Programmer | Blogger",
   "links": [
     {
@@ -18,7 +17,6 @@
       "url": "https://www.linkedin.com/in/goyanipiyush/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "GitHub Profile",
       "url": "https://github.com/piyush-multiplexer",

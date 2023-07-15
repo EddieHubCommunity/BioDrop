@@ -1,6 +1,5 @@
 {
   "name": "Kaiwalya Koparkar",
-  "type": "personal",
   "bio": "Open Source Advocate, DevRel 🥑",
   "tags": [
     "Open Source",
@@ -12,9 +11,18 @@
     "WASM"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kaiwalya_" },
-    { "icon": "FaGithub", "url": "https://github.com/kaiwalyakoparkar" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@kaiwalya_koparkar" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kaiwalya_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kaiwalyakoparkar"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@kaiwalya_koparkar"
+    }
   ],
   "links": [
     {

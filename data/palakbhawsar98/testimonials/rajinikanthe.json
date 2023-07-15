@@ -1,0 +1,5 @@
+{
+  "title": "ssh error",
+  "description": "Hi,\r\nI implemented the ci/cd Jenkins pipeline by using your screenshots.\r\neverything is fine but at the time of image deploying in EC2 I am getting ssh-add error\n\n[ssh-agent] Using credentials ec2-user (awscred)\r\n[ssh-agent] Looking for ssh-agent implementation...\r\n[ssh-agent]   Exec ssh-agent (binary ssh-agent on a remote machine)\r\n$ ssh-agent\r\nSSH_AUTH_SOCK=/tmp/ssh-XXXXXXDvvPdh/agent.11108\r\nSSH_AGENT_PID=11110\r\nRunning ssh-add (command line suppressed)\r\nError loading key \"/var/lib/jenkins/workspace/JavaPipeline@tmp/private_key_12406232527949916936.key\": error in libcrypto\r\n[Pipeline] // sshagent\r\n[Pipeline] }\r\n[Pipeline] // script\r\n[Pipeline] }\r\n[Pipeline] // stage\r\n[Pipeline] }\r\n[Pipeline] // withEnv\r\n[Pipeline] }\r\n[Pipeline] // withCredentials\r\n[Pipeline] }\r\n[Pipeline] // withEnv\r\n[Pipeline] }\r\n[Pipeline] // node\r\n[Pipeline] End of Pipeline\r\nERROR: Failed to run ssh-add\r\nFinished: FAILURE \r\nplease give an idea of how to resolve this.\n\nThanks & Regards,\r\nRajinikanth.",
+  "date": "2023-04-22"
+}

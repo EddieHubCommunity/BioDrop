@@ -1,6 +1,7 @@
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 
+import { serverEnv } from "@config/schemas/serverSchema";
 import DbAdapter from "./db-adapter";
 import connectMongo from "@config/mongo";
 
@@ -8,8 +9,8 @@ export const authOptions = {
   adapter: DbAdapter(connectMongo),
   providers: [
     GithubProvider({
-      clientId: process.env.GITHUB_ID,
-      clientSecret: process.env.GITHUB_SECRET,
+      clientId: serverEnv.GITHUB_ID,
+      clientSecret: serverEnv.GITHUB_SECRET,
       profile(profile) {
         return {
           id: profile.id.toString(),
@@ -25,7 +26,7 @@ export const authOptions = {
     strategy: "jwt",
   },
   callbacks: {
-    async redirect({ url, baseUrl }) {
+    async redirect({ baseUrl }) {
       return `${baseUrl}/account/statistics`;
     },
     async jwt({ token, account, profile }) {
@@ -37,7 +38,7 @@ export const authOptions = {
       }
       return token;
     },
-    async session({ session, token, user, profile }) {
+    async session({ session, token }) {
       // Send properties to the client, like an access_token and user id from a provider.
       session.accessToken = token.accessToken;
       session.user.id = token.id;
@@ -45,6 +46,9 @@ export const authOptions = {
 
       return session;
     },
+  },
+  pages: {
+    signIn: "/auth/signin",
   },
 };
 

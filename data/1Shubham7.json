@@ -1,0 +1,44 @@
+{
+  "name": "Shubham Singh",
+  "bio": "Web Dev, Andriod Dev, DevOps, Open-Source Enthusiast, First Year Undergrad (Computer Science Eng.)",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Javascript",
+    "Andriod Dev",
+    "Web Dev",
+    "Django",
+    "DevOps",
+    "React"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/1shubham7"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/1shubham7"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/1shubham7",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Linkedin: Connect with me",
+      "url": "https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/1shubham7",
+      "icon": "FaGithub"
+    }
+  ]
+}

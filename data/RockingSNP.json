@@ -1,8 +1,6 @@
 {
   "name": "Souvik Pramanick",
-  "type": "personal",
   "bio": "Full Stack Web Developer, **Programmer** into Explorer with a good learner too...",
-
   "tags": [
     "Open Source",
     "Web Development",
@@ -12,13 +10,20 @@
     "React",
     "CSS"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/SouvikP74860962" },
-    { "icon": "FaGithub", "url": "https://github.com/RockingSNP/" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@souvikpramanick1549" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SouvikP74860962"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RockingSNP/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@souvikpramanick1549"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",
