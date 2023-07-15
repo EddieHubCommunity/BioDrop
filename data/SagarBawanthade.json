@@ -21,6 +21,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/SagarBawanthade",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://sagarbawanthade30.hashnode.dev/",
+      "icon": "FaHashnode"
     }
   ]
 }
