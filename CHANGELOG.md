@@ -1,3 +1,12 @@
+## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
+
+
+### Bug Fixes
+
+* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
+
+
+
 ## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
-
-
-
-## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
-
-
-### Bug Fixes
-
-* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
 
 
 
