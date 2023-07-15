@@ -132,16 +132,6 @@ export default function DocsIndex() {
                         className="border mt-2 border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                       >
                         <div className="py-2">
-                          {/* <span
-                            className={classNames(
-                              page.category.color,
-                              "inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium"
-                            )}
-                          >
-                            {page.category.name}
-                          </span> */}
-                        </div>
-                        <div className="py-2">
                           <h3 className="text-xl font-semibold text-primary-high dark:text-primary-low">
                             {page.name}
                           </h3>
