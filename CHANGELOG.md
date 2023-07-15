@@ -1,3 +1,12 @@
+## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
+
+
+### Bug Fixes
+
+* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
+
+
+
 ## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
-
-
-
-## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
-
-
-### Bug Fixes
-
-* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
 
 
 
