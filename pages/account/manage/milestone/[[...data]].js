@@ -96,14 +96,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/milestone/${update._id}`);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Milestone added/updated",
-      additionalMessage: "Your milestone has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
   };
 
   const deleteItem = async () => {
