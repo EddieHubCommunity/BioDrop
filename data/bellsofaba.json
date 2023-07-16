@@ -1,7 +1,13 @@
 {
   "name": "Jack Aba",
   "bio": "**Software Developer**, Open Source Devotee, & Technical Writer",
-  "tags": ["Open Source", "Frontend Developer", "React", "Web3", "Technical Writer"],
+  "tags": [
+    "Open Source",
+    "Frontend Developer",
+    "React",
+    "Web3",
+    "Technical Writer"
+  ],
   "links": [
     {
       "name": "Connect with me on Twitter",
