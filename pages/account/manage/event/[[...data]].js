@@ -139,7 +139,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Event"
         description="Here you can manage your LinkFree event"
       />
 
