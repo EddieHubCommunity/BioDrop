@@ -68,7 +68,7 @@ function UserProfile({ BASE_URL, data }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-center my-4 text-center">
+      <div className="justify-center my-4 text-center">
         <ReactMarkdown components={{ a: LinkRenderer }}>
           {data.bio}
         </ReactMarkdown>
