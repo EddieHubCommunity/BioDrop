@@ -1,6 +1,6 @@
 export default function Select({
-  eventType,
-  handleEventTypeChange,
+  value,
+  onChange,
   options,
   label,
   className,
@@ -9,14 +9,14 @@ export default function Select({
   return (
     <>
       {label && (
-        <label htmlFor="event-type" className={className}>
+        <label htmlFor="dropdown-select" className={className}>
           {label}
         </label>
       )}
       <select
-        id="event-type"
-        defaultValue={eventType}
-        onChange={handleEventTypeChange}
+        id="dropdown-select"
+        value={value}
+        onChange={onChange}
         className={`mt-2 text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6 ${
           restProps.className || ''
         }`}
@@ -28,7 +28,7 @@ export default function Select({
             key={option.value}
             value={option.value}
           >
-            {option.name || option}
+            {option.label || option}
           </option>
         ))}
       </select>
