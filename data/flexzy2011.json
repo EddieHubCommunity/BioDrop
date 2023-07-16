@@ -1,0 +1,35 @@
+{
+  "name": "Felix Akinloye",
+  "bio": "Frontend Developer, Technical Writer & Open source enthusiast",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iam_Flexzy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/flexzy2011"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/felix-akinloye"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iam_Flexzy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/flexzy2011",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/felix-akinloye",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

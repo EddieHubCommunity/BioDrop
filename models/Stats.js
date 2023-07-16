@@ -14,6 +14,22 @@ const StatsSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    totalProfiles: {
+      type: Number,
+      default: 0,
+    },
+    jsonProfiles: {
+      type: Number,
+      default: 0,
+    },
+    formProfiles: {
+      type: Number,
+      default: 0,
+    },
+    disabledProfiles: {
+      type: Number,
+      default: 0,
+    },
     date: {
       type: Date,
       default: new Date(),

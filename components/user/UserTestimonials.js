@@ -8,8 +8,9 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
     <>
       {!testimonials?.length && (
-        <Alert type="info" message="No testimonials found" />
+        <Alert type="info" message="No Testimonials found" />
       )}
+
       {testimonials &&
         testimonials.map((testimonial, key) => (
           <div
@@ -30,7 +31,10 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                 <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={`${BASE_URL}/${testimonial.username}`} target="_blank">
+                <Link
+                  href={`${BASE_URL}/${testimonial.username}`}
+                  target="_blank"
+                >
                   @{testimonial.username}
                 </Link>
               </div>
@@ -41,7 +45,10 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                 <h3 className="font-medium dark:text-primary-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={`${BASE_URL}/${testimonial.username}`} target="_blank">
+                <Link
+                  href={`${BASE_URL}/${testimonial.username}`}
+                  target="_blank"
+                >
                   @{testimonial.username}
                 </Link>
               </div>

@@ -1,45 +1,45 @@
-## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
+## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
 
 
 ### Bug Fixes
 
-* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
+* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
 
 
 
-# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
+## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
+
+
+### Bug Fixes
+
+* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
+
+
+
+## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
+
+
+### Bug Fixes
+
+* test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
+
+
+
+# [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
 
 
 ### Features
 
-* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
+* update item redirects to list ([#7966](https://github.com/EddieHubCommunity/LinkFree/issues/7966)) ([049eeb3](https://github.com/EddieHubCommunity/LinkFree/commit/049eeb3d023d13ce0d417eed9201519997db17b2))
 
 
 
-# [1.152.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.8...v1.152.0) (2023-07-08)
-
-
-### Features
-
-* admin section with basic stats ([#8049](https://github.com/EddieHubCommunity/LinkFree/issues/8049)) ([555a4fb](https://github.com/EddieHubCommunity/LinkFree/commit/555a4fb6925427aa630569caa76c5040258a2fe6))
-
-
-
-## [1.151.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.7...v1.151.8) (2023-07-08)
+## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
 
 
 ### Bug Fixes
 
-* alert components should start with capital letter ([#8026](https://github.com/EddieHubCommunity/LinkFree/issues/8026)) ([b7e470c](https://github.com/EddieHubCommunity/LinkFree/commit/b7e470cf3bd0f67601548ca2bcae6f1233810c91))
-
-
-
-## [1.151.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.151.6...v1.151.7) (2023-07-08)
-
-
-### Bug Fixes
-
-* NewsLetter form position in mobile view ([#7976](https://github.com/EddieHubCommunity/LinkFree/issues/7976)) ([1397e23](https://github.com/EddieHubCommunity/LinkFree/commit/1397e23f375f8828db1498c62b657b106a233ed4))
+* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
 
 
 
