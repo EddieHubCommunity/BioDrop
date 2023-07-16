@@ -1,7 +1,7 @@
 import { useState } from "react";
 import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
-import DropdownMenu from "@components/form/DropDown";
+import Select from "@components/form/Select";
 
 export default function UserEvents({ manage = false, events }) {
   const [eventType, setEventType] = useState("all");
@@ -68,7 +68,7 @@ export default function UserEvents({ manage = false, events }) {
       {!eventsToShow?.length && <Alert type="info" message="No Events found" />}
 
       {!manage && (
-        <DropdownMenu
+        <Select
           eventType={eventType}
           handleEventTypeChange={handleEventTypeChange}
           options={filteredEventOptions}
