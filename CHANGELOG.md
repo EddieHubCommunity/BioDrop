@@ -1,3 +1,12 @@
+# [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
+
+
+### Features
+
+* edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
+
+
+
 ## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
-
-
-
-# [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
-
-
-### Features
-
-* update item redirects to list ([#7966](https://github.com/EddieHubCommunity/LinkFree/issues/7966)) ([049eeb3](https://github.com/EddieHubCommunity/LinkFree/commit/049eeb3d023d13ce0d417eed9201519997db17b2))
 
 
 
