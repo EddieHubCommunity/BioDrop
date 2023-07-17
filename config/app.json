@@ -7,7 +7,10 @@
     "column-2"
   ],
   "events":{
-    "userStatus":["Attending","Speaking"]
+    "userStatus": {
+       "attending": "Attending",
+       "speaking": "Speaking"
+      }
   },
   "isr": {
     "homepage": {

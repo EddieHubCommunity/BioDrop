@@ -71,7 +71,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState(
     event.date?.end && formatDate(event.date?.end)
   );
-  const DropDownOptions = config.events.userStatus;
+  const DropDownOptions = [config.events.userStatus.attending, config.events.userStatus.speaking];
   const [userStatus, setuserStatus] = useState(event.userStatus || "");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
 
