@@ -17,16 +17,17 @@ import Alert from "@components/Alert";
 
 Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables. Please note that if you are working in Gitpod and wish to access authenticated pages, you will need to complete these steps each time with the URL Gitpod generates for your dev environment as localhost will not work. To avoid this, you may choose to work in Docker which only requires this setup once.
 
-| variable                         | example                            | required | description                                                                                                 |
-| :------------------------------- | :--------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
-| LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree | true     | Database connection string                                                                                  |
-| NEXT_PUBLIC_BASE_URL             | http://localhost:3000              | true     | Hosting url                                                                                                 |
-| NODE_ENV                         | development                        | true     | -                                                                                                           |
-| GITHUB_ID                        | abcedfghil12345                    | true     | GitHub OAuth ID                                                                                             |
-| GITHUB_SECRET                    | a1b2c3e4f5e6                       | true     | GitHub OAuth Secret                                                                                         |
-| NEXTAUTH_URL                     | http://localhost:3000              | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
-| NEXTAUTH_SECRET                  | afsfdsafadsf                       | true     | Next Auth Secret, this can be any random characters                                                         |
-| GITHUB_API_TOKEN                 | djsbjsjacdnk                       | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
+| variable                         | example                                  | required | description                                                                                                 |
+| :------------------------------- | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
+| LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree       | true     | Database connection string                                                                                  |
+| NEXT_PUBLIC_BASE_URL             | http://localhost:3000                    | true     | Hosting url                                                                                                 |
+| NODE_ENV                         | development                              | true     | -                                                                                                           |
+| GITHUB_ID                        | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
+| GITHUB_SECRET                    | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
+| NEXTAUTH_URL                     | http://localhost:3000                    | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
+| NEXTAUTH_SECRET                  | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
+| GITHUB_API_TOKEN                 | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
+| ADMIN_USERS                      | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
 
 <ClipboardCopy>
 ```js
@@ -39,6 +40,7 @@ GITHUB_SECRET=""
 NEXTAUTH_SECRET=""
 NEXTAUTH_URL="http://localhost:3000"
 GITHUB_API_TOKEN=""
+ADMIN_USERS="eddiejaoude,SaraJaoude,\_test-admin-user"
 
 ```
 </ClipboardCopy>
@@ -77,3 +79,4 @@ export default ({ children }) => (
     {children}
   </DocsLayout>
 );
+
