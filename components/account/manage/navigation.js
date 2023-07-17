@@ -1,4 +1,5 @@
 import Link from "@components/Link";
+import Select from "@components/fomr/Select";
 import Router, { useRouter } from "next/router";
 import {
   MdPerson,
@@ -76,7 +77,7 @@ export default function Navigation() {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        <select
+        <Select
           id="tabs"
           name="tabs"
           className="block w-full rounded-md 
@@ -90,7 +91,7 @@ export default function Navigation() {
           {tabs.map((tab) => (
             <option key={tab.name}>{tab.name}</option>
           ))}
-        </select>
+        </Select>
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low-medium/30">

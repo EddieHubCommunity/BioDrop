@@ -1,5 +1,5 @@
 import Link from "@components/Link";
-
+import Select from "@components/form/Select";
 export function EventTabs({ tabs, eventType, setEventType }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
@@ -16,7 +16,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        <select
+        <Select
           id="tabs"
           name="tabs"
           onChange={(e) => changeTab(e)}
@@ -26,7 +26,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           {tabs.map((tab) => (
             <option key={tab.key}>{tab.title}</option>
           ))}
-        </select>
+        </Select>
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low">

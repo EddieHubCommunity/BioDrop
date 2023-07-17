@@ -1,5 +1,5 @@
 import Link from "@components/Link";
-
+import Select from "@components/form/Select"
 export default function Tabs({ tabs, setTabs }) {
   const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
@@ -20,7 +20,7 @@ export default function Tabs({ tabs, setTabs }) {
           Select a tab
         </label>
         {tabs.length > 1 && (
-          <select
+          <Select
             id="tabs"
             name="tabs"
             onChange={changeTab}
@@ -30,7 +30,7 @@ export default function Tabs({ tabs, setTabs }) {
             {tabs.map((tab) => (
               <option key={tab.name}>{tab.name}</option>
             ))}
-          </select>
+          </Select>
         )}
       </div>
       <div className="hidden sm:block">
