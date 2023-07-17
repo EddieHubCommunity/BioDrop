@@ -3,6 +3,7 @@ import logger from "@config/logger";
 
 export default async function handler(req, res) {
   const { slug } = req.query;
+  console.log(slug);
 
   if (req.method != "GET") {
     return res
@@ -17,7 +18,6 @@ export default async function handler(req, res) {
   }
 
   const cleanedSlug = slug
-    .join()
     .trim()
     .replace(/\s{2,}/g, " ")
     .toLowerCase();
