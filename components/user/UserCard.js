@@ -20,7 +20,7 @@ export default function UserCard({ profile }) {
         />
       </div>
       <div>
-        <h3 className="text-xl justify-center text-center mb-2 text-tertiary-medium font-bold ">
+        <h3 className="text-xl justify-center text-center mb-2 text-tertiary-medium font-bold">
           {profile.name}
         </h3>
         {/* Links inside a link is not allowed, remove them from bio in card */}
