@@ -18,6 +18,11 @@
   ],
   "links": [
     {
+      "name": "AMA",
+      "url": "https://peerlist.io/aadityajoshi?tab=ama",
+      "icon": "FaCode"
+    },
+    {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/adityjoshi/",
       "icon": "FaLinkedin"
@@ -35,7 +40,7 @@
     {
       "name": "CodeCrew",
       "url": "https://github.com/adityjoshi/CodeCrew",
-      "icon": "FaGithub"
+      "icon": "FaRegFileCode"
     }
   ]
 }
