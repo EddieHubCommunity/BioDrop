@@ -6,7 +6,7 @@ export default function MultiLayout({ children }) {
   return (
     <>
       <SkipLink />
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen flex-wrap sm:flex-nowrap">
         <Navbar />
         <main id="main" className="flex-1">
           {children}
