@@ -2,9 +2,10 @@
 name: Reviewpad
 
 on:
-  issues:
-  issue_comment:
-  pull_request_target:
+  workflow_dispatch:
+  # issues:
+  # issue_comment:
+  # pull_request_target:
 
 # These permissions are necessary to automate pull requests from forks.
 permissions:
