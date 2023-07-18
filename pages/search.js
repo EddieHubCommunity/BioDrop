@@ -184,7 +184,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source, reactjs"
+            placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
