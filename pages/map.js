@@ -169,18 +169,20 @@ export default function Map({ data }) {
           profile is visited.
         </p>
         <div className="flex flex-wrap justify-center mb-4">
-          <Badge
-            disable={selectedTags.size == 0 ? true : false}
-            content={
-              filteredUsers.length > 0 ? filteredUsers.length : users.length
-            }
-          >
-            <Button
-              onClick={resetFilter}
-              primary={true}
+            <Badge
               disable={selectedTags.size == 0 ? true : false}
-            >Clear/Reset Filters</Button>
-          </Badge>
+              content={
+                filteredUsers.length > 0 ? filteredUsers.length : users.length
+              }
+            >
+              <div className="m-3">
+                <Button
+                  onClick={resetFilter}
+                  primary={true}
+                  disable={selectedTags.size == 0 ? true : false}
+                >Clear/Reset Filters</Button>
+              </div>
+            </Badge>
           {tags &&
             tags
               .slice(0, 10)
