@@ -1,0 +1,24 @@
+{
+  "name": "Biswa Baibhab Subudhi",
+  "displayStatsPublic": false,
+  "type": "personal",
+  "bio": "Learning Web Dev",
+  "avatar": "https://github.com/biswabaibhab007.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/biswa_007",
+      "icon": "FaTwitter",
+    }, 
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://github.com/biswabaibhab007",
+      "icon": "FaGithub",
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://www.linkedin.com/in/biswa-baibhab-subudhi/",
+      "icon": "FaLinkedinIn",
+    },
+  ]
+}
