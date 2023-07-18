@@ -20,7 +20,6 @@ export async function getEvents() {
       { $match: { "events.date.start": { $gt: new Date() }, isEnabled: true } },
       { $unwind: "$events" },
       { $match: { "events.date.end": { $gt: new Date() } } },
-      { $sort: { "events.date.start": 1 } },
       {
         $group: {
           _id: "$events.url",
@@ -34,6 +33,11 @@ export async function getEvents() {
           isEnabled: { $first: "$isEnabled" },
         },
       },
+      
+      {
+        $sort: { "date.start": 1 },
+      },
+
     ]).exec();
 
     let dateEvents = [];

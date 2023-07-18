@@ -1,45 +1,45 @@
-## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
+## [1.157.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.1...v1.157.2) (2023-07-18)
 
 
 ### Bug Fixes
 
-* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
+* profile card hover dark mode ([#8192](https://github.com/EddieHubCommunity/LinkFree/issues/8192)) ([d59fed3](https://github.com/EddieHubCommunity/LinkFree/commit/d59fed382ef3dd9ec5b93f4a3103f8e5e05cf17e))
 
 
 
-## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
-
-
-### Bug Fixes
-
-* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
-
-
-
-## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
+## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
 
 
 ### Bug Fixes
 
-* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
+* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
 
 
 
-## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
+# [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
+
+
+### Features
+
+* edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
+
+
+
+## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
 
 
 ### Bug Fixes
 
-* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
+* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
 
 
 
-## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
 
 
 ### Bug Fixes
 
-* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
 
 
 

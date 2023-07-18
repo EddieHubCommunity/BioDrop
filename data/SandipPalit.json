@@ -1,10 +1,10 @@
 {
   "name": "Sandip Palit",
-  "bio": " **Data Engineer** | Data Science Explorer | Microsoft Certified | Kaggle Expert | Organizer | Speaker | Loading.. ",
+  "bio": " **“No data is clean, but most is useful.”** | Data Science Explorer | Microsoft Certified | Postman Supernova | Organizer | Speaker | Loading.. ",
   "tags": [
     "Python",
     "SQL",
-    "Big Data",
+    "Power BI",
     "Apache Spark",
     "Microsoft Azure",
     "Data Science"
@@ -26,7 +26,7 @@
   "links": [
     {
       "group": "Achievements & Recognitions",
-      "name": "Welcome to 'Postman Community - Kolkata'",
+      "name": "Welcome to 'Postman Community Kolkata'",
       "url": "https://www.linkedin.com/company/postman-community-kolkata/",
       "icon": "SiPostman"
     },
@@ -91,7 +91,7 @@
       "date": "June 2023",
       "icon": "SiPostman",
       "color": "blue",
-      "description": "Postman Community - Kolkata is a API focessed community in the City Of Joy.",
+      "description": "Postman Community Kolkata is a community of solvers focussed in sharing knowledge about APIs in general and Postman in particular.",
       "url": "https://www.linkedin.com/company/postman-community-kolkata/"
     },
     {
@@ -99,7 +99,7 @@
       "date": "August 2022",
       "icon": "FaUserTie",
       "color": "blue",
-      "description": "Gave my first Speech at Google Cloud Community Days 2022 Kolkata.",
+      "description": "Delivered my session on 'Movie Recommender System using NLP' at Google Cloud Community Days 2022 Kolkata.",
       "url": "https://www.linkedin.com/posts/sandip-palit_community-ccdkol-googlecloudcommunitydays-activity-6970401268519333888-t0Uc"
     },
     {

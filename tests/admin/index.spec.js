@@ -2,6 +2,13 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { login, logout } from "../setup/auth";
 
+const adminUser = {
+  id: "66666666",
+  name: "Automated Test Admin User",
+  email: "test-admin-user@test.com",
+  username: "_test-admin-user",
+};
+
 test("Guest user cannot access admin statistics", async ({ browser }) => {
   // fixture: make sure user is not logged in
   const context = await logout(browser);
@@ -20,12 +27,7 @@ test("Logged in user cannot access admin statistics", async ({ browser }) => {
 
 test("Admin user can access dashboard", async ({ browser }) => {
   // fixture: make sure user is logged in
-  const context = await login(browser, {
-    id: "66666666",
-    name: "Automated Test Admin User",
-    email: "test-admin-user@test.com",
-    username: "_test-admin-user",
-  });
+  const context = await login(browser, adminUser);
   const page = await context.newPage();
   await page.goto("/admin");
   await expect(page).toHaveURL(/admin/);
@@ -35,7 +37,7 @@ test.describe("accessibility tests (light)", () => {
   test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests", async ({ browser }) => {
-    const context = await login(browser);
+    const context = await login(browser, adminUser);
     const page = await context.newPage();
     await page.goto("/admin");
     const accessibilityScanResults = await new AxeBuilder({ page })
@@ -51,7 +53,7 @@ test.describe("accessibility tests (dark)", () => {
   test("should pass axe wcag accessibility tests (dark)", async ({
     browser,
   }) => {
-    const context = await login(browser);
+    const context = await login(browser, adminUser);
     const page = await context.newPage();
     await page.goto("/admin");
     const accessibilityScanResults = await new AxeBuilder({ page })
