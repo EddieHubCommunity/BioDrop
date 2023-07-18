@@ -6,7 +6,6 @@ import UserTabs from "./themes/UserTabs";
 import config from "@config/app.json";
 
 export default function UserPage({ data, BASE_URL }) {
-  console.log(config.layouts, data.layout);
   return (
     <>
       <UserProfile data={data} BASE_URL={BASE_URL} />
