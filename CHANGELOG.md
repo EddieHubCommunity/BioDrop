@@ -1,3 +1,12 @@
+## [1.157.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.1...v1.157.2) (2023-07-18)
+
+
+### Bug Fixes
+
+* profile card hover dark mode ([#8192](https://github.com/EddieHubCommunity/LinkFree/issues/8192)) ([d59fed3](https://github.com/EddieHubCommunity/LinkFree/commit/d59fed382ef3dd9ec5b93f4a3103f8e5e05cf17e))
+
+
+
 ## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
-
-
-
-## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
-
-
-### Bug Fixes
-
-* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
 
 
 
