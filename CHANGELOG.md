@@ -1,3 +1,12 @@
+## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
+
+
+### Bug Fixes
+
+* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
+
+
+
 # [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
-
-
-
-## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
-
-
-### Bug Fixes
-
-* test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
 
 
 
