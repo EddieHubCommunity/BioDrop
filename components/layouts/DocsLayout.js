@@ -129,7 +129,7 @@ export default function DocsLayout({ children, title, section, name }) {
 
         <div className="flex flex-grow flex-row">
           <SideNav navigation={navigation} />
-          <div className="float-none my-0 w-[320px] md:w-[600px] lg:w-[1440px] mt-12">
+          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white prose">
                 {children}
