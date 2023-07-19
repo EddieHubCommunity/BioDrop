@@ -124,7 +124,7 @@ export default function DocsIndex() {
                       {section.description}
                     </p>
                   </div>
-                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12 pt-12">
                     {section.pages.map((page) => (
                       <Link
                         href={page.path}
