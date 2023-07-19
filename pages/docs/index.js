@@ -124,13 +124,13 @@ export default function DocsIndex() {
                       {section.description}
                     </p>
                   </div>
-                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                                          <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12 pt-6 ">
+
                     {section.pages.map((page) => (
-                      //added margin top to fix the issue
                       <Link
                         href={page.path}
                         key={page.name}
-                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 mt-4 block"
+                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                       >
                         <div className="py-2">
                           {/* <span
