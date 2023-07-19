@@ -174,14 +174,13 @@ export default function Map({ data }) {
               content={
                 filteredUsers.length > 0 ? filteredUsers.length : users.length
               }
+              badgeClassName={"translate-x-3 -translate-y-3"}
             >
-              <div className="m-3">
                 <Button
                   onClick={resetFilter}
                   primary={true}
                   disable={selectedTags.size == 0 ? true : false}
                 >Clear/Reset Filters</Button>
-              </div>
             </Badge>
           {tags &&
             tags
