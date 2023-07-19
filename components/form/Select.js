@@ -1,7 +1,7 @@
 export default function Select({
   value,
   onChange,
-  options,
+  options = [],
   label,
   className,
   ...restProps

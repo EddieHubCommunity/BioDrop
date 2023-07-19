@@ -1,5 +1,5 @@
 import Link from "@components/Link";
-import Select from "@components/fomr/Select";
+import Select from "@components/form/Select";
 import Router, { useRouter } from "next/router";
 import {
   MdPerson,
