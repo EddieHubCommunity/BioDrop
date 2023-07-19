@@ -60,6 +60,15 @@
     },
     {
       "isGoal": true,
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2023",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member by actively contributing to projects on both orgs",
+      "url": "https://github.com/kubernetes-sigs"
+    },
+    {
+      "isGoal": true,
       "title": "Become AWS Certified Solutions Architect - Associate",
       "date": "2023",
       "icon": "FaAmazon",

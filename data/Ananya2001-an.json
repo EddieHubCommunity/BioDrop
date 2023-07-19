@@ -1,15 +1,7 @@
 {
   "name": "Ananya Nayak",
   "bio": "Developer👩‍💻 | Open Source advocate💚 | Blogger🖊️ ",
-  "tags": [
-    "Javascript",
-    "React",
-    "Nodejs",
-    "Python",
-    "Docker",
-    "Linux",
-    "CLI"
-  ],
+  "tags": ["Javascript", "React", "Nodejs", "Python", "Docker", "Linux", "CLI"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -30,25 +22,25 @@
   ],
   "links": [
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Twitter - I post a lot here ;)",
       "url": "https://twitter.com/Ananya_codes",
       "icon": "FaTwitter"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "LinkedIn - Connect with me",
       "url": "https://www.linkedin.com/in/ananya-nayak-9bb2a4231/",
       "icon": "FaLinkedin"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "GitHub - Let's collaborate and grow!",
       "url": "https://github.com/Ananya2001-an",
       "icon": "FaGithub"
     },
     {
-      "group":"Socials",
+      "group": "Socials",
       "name": "Hashnode - Read my latest blog articles",
       "url": "https://ananyacodes.hashnode.dev",
       "icon": "SiHashnode"

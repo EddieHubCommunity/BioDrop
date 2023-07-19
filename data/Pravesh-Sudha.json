@@ -1,6 +1,6 @@
 {
   "name": "Pravesh Sudha",
-  "bio": "Philosophy Student who is now a Self-Taught Developer",
+  "bio": "**Open Source** | DevOps | Go Developer | Philosophy Student who is now a Self-Taught Developer",
   "tags": [
     "Open Source",
     "DevOps",
@@ -11,7 +11,12 @@
   ],
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@praveshsudha439/",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "See my Tweets",
       "url": "https://twitter.com/praveshstwt",
       "icon": "FaTwitter"
     },
@@ -21,7 +26,7 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "Know me on LinkedIn",
       "url": "https://www.linkedin.com/in/pravesh-sudha-82a37422a/",
       "icon": "FaLinkedin"
     },
