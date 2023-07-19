@@ -1,3 +1,12 @@
+## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
+
+
+### Bug Fixes
+
+* remove reviewpad action ([#8251](https://github.com/EddieHubCommunity/LinkFree/issues/8251)) ([ba68e8e](https://github.com/EddieHubCommunity/LinkFree/commit/ba68e8ec1eb07a8d1b12064969cfee1fcb17f96b))
+
+
+
 ## [1.157.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.1...v1.157.2) (2023-07-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
-
-
-
-## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
-
-
-### Bug Fixes
-
-* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
 
 
 
