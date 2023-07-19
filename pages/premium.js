@@ -51,7 +51,7 @@ export default function Premium() {
         {success && (
           <Alert
             type="success"
-            message="Thank you for subscribing. We will notified you when paid features go live"
+            message="Thank you for subscribing. We will notify you when paid features go live"
           />
         )}
 
