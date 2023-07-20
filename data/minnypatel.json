@@ -1,12 +1,7 @@
 {
   "name": "Jasmin Rachel Patel",
   "bio": "Front End Developer with a previous life in Arts & Museums. Now with @sky-uk at Leeds Dock... and a little too obsessed with my bikes.",
-  "tags": [
-    "Javascript",
-    "Typescript",
-    "GraphQl",
-    "Mountain Biking"
-  ],
+  "tags": ["Javascript", "Typescript", "GraphQl", "Mountain Biking"],
   "socials": [
     {
       "icon": "FaInstagram",
@@ -30,5 +25,3 @@
     }
   ]
 }
-    
-      
