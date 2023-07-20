@@ -1,0 +1,16 @@
+{
+  "name": "MunzirquadriDevOps",
+  "bio": "Exploring the world of DevOps with a passion. Let that sink in ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Zizod10",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me here on GitHub!",
+      "url": "https://github.com/MunzirquadriDevOps",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Pratik Mali",
+  "bio": "Aspiring App-Dev",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/IPratikMali",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/pratik-mali-6a16251a0/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

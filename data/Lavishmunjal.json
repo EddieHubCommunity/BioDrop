@@ -1,0 +1,21 @@
+{
+  "name": "Lavish Munjal",
+  "bio": "Computer Science Student || Learning Java + DSA || Learning Web Development || Bachelor of Technology (BTech) || Tech Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Lavishmunjal8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/lavishmunjal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Lavishmunjal",
+      "icon": "FaGithub"
+    }
+  ]
+}

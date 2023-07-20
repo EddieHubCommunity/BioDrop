@@ -1,0 +1,17 @@
+{
+  "name": "Diana Marcela Prieto",
+  "bio": "Software Engineer | Exploring Open Source collaboration",
+  "tags": ["Reactjs", "Javascript", "Go", "Java"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/dmprieto",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/diana-marcela-prieto-66432b3a",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

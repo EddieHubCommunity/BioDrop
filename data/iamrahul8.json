@@ -1,9 +1,6 @@
 {
   "name": "Rahul Kumar",
-  "displayStatsPublic": true,
-  "type": "personal",
   "bio": "**Web Developer** | Student Expert @postmanlabs | Lead @Hack Club",
-
   "tags": ["React.js", "C++", "Azure", "Javascript", "Programming"],
   "socials": [
     {

@@ -1,0 +1,49 @@
+{
+  "name": "Ishan Gadekar",
+  "bio": "DevOps Engineer | Kubernetes | Docker | Jenkins | Linux | Technical Writer",
+  "tags": ["DevOps", "Kubernetes", "Docker", "Linux", "Jenkins"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ishxn69"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ishangadekar/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ishxn69"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://izzg.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Daily tweets related to DevOps, Cloud and Tech!",
+      "url": "https://twitter.com/ishxn69",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub",
+      "url": "https://github.com/ishxn69",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/ishangadekar",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about DevOps and Tech!",
+      "url": "https://izzg.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

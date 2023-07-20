@@ -1,0 +1,16 @@
+{
+  "name": "Mariam Adeyemi",
+  "bio": "Meditating web developer and cat lover",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Abeke_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my posts on DEV",
+      "url": "https://dev.to/mariamadeyemi",
+      "icon": "FaDev"
+    }
+  ]
+}

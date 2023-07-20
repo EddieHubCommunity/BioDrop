@@ -1,0 +1,16 @@
+{
+  "name": "Vishal Kumar",
+  "bio": "Data Engineer turned *Content Creator*",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishal304094",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vishal304094/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

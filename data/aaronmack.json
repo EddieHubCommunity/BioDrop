@@ -1,0 +1,152 @@
+{
+  "name": "Aaron Li",
+  "bio": "Animation industry practitioners | Developers | Graphics enthusiasts | Travel enthusiast",
+  "tags": ["Open Source", "Javascript", "Python", "C++"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aaaron_li"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aaronmack"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@aaaronli"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://space.bilibili.com/170823442"
+    }
+  ],
+  "testimonials": ["milkBoy"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aaaron_li",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/aaronmack",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@aaaronli",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Bilibili",
+      "url": "https://space.bilibili.com/170823442",
+      "icon": "FaExternalLinkAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Discover",
+      "date": "March 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A place developed to relax (vue+django)",
+      "url": "https://xyzzyxwz.top:5173"
+    },
+    {
+      "title": "Finder",
+      "date": "April 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "To explore (python-nicegui)",
+      "url": "https://server1.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Finder-Gradio",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "To explore (python-gradio)",
+      "url": "https://server2.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "UB",
+      "date": "Jaunary 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Unified Backend API (python-django)",
+      "url": "https://xyzzyxwz.top:12034/api"
+    },
+    {
+      "title": "Folio",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "3D blog (Github Fork)",
+      "url": "https://server3.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Memos",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "self-hosted memo hub (Github Fork)",
+      "url": "https://server4.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Stable Diffusion WebUI",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A browser interface based on Gradio library for Stable Diffusion. (Github Fork)",
+      "url": "https://server5.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Jupyter Notebook",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Self-built Python notebook",
+      "url": "https://server6.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Answer",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Knowledge-based community software, Q&A (Github Fork)",
+      "url": "https://server7.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Lama-cleaner",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "Image inpainting tool powered by SOTA AI Model (Github Fork)",
+      "url": "https://server9.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Rocket.chat",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "The communications platform (Github Fork)",
+      "url": "https://server10.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Bookstack",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A self-built Wiki system (Github Fork)",
+      "url": "https://server15.xyzzyxwz.top:12030"
+    },
+    {
+      "title": "Alist",
+      "date": "Continuing 2023",
+      "icon": "FaExternalLinkSquareAlt",
+      "color": "grey",
+      "description": "A file list program that supports multiple storage (Github Fork)",
+      "url": "https://server16.xyzzyxwz.top:12030"
+    }
+  ]
+}

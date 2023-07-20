@@ -1,0 +1,16 @@
+{
+  "name": "Harshit Joshi",
+  "bio": "Developer, Photography enthusiast",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshit-joshi-62457223a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/harshit-002",
+      "icon": "FaGithub"
+    }
+  ]
+}

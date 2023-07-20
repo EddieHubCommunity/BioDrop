@@ -1,0 +1,26 @@
+{
+  "name": "Temilola Kutelu",
+  "bio": "**Software Developer**. **Product Owner**. **Technical Support Specialist**.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Temilolasapphi1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "IG",
+      "url": "https://instagram.com/lola_sapphire03/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/temilola-kutelu-714761a4/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/temilolakutelu",
+      "icon": "FaGithub"
+    }
+  ]
+}

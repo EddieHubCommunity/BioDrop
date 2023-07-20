@@ -1,0 +1,58 @@
+{
+  "name": "Arvind Parekh",
+  "bio": "CS | Frontend Developer | Marathon Runner | Loves Guitar 🎸| Trying out Open-Source ",
+  "tags": ["Open Source", "Javascript", "Web Development", "Frontend"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ArvindParekh_21"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ArvindParekh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/arvind-parekh-b756a71ba/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Let's Connect!",
+      "url": "https://twitter.com/ArvindParekh_21",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/arvind-parekh-b756a71ba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github: Have a look at the projects!",
+      "url": "https://github.com/ArvindParekh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/arvind.zip/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Featured in CNN News as a host for Brighter Minds Organization",
+      "date": "2022",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "Hosted a program by the Brighter Minds Organization that was featured in the CNN News",
+      "url": "https://youtu.be/J5u5ECv96ks"
+    },
+    {
+      "title": "Web Development Intern",
+      "date": "November 2021",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Interned as a Web Developer for Twowaits Organization"
+    }
+  ]
+}

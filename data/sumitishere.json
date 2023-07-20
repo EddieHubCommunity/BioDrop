@@ -1,0 +1,54 @@
+{
+  "name": "Sumit Mukharjee",
+  "bio": "CS Undergrad",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React Js",
+    "GoLang",
+    "Java"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sumitverse__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitishere"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-623287280"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/sumitverse__",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-623287280",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/sumitishere",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Read My Tech Blogs",
+      "url": "https://sumitmukharjii.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

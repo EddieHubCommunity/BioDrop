@@ -1,0 +1,26 @@
+{
+  "name": "Pratham Rathod",
+  "bio": "Improving my coding skills || **BCA Sophomore** || Code as poetry, be brief and concise",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_PrathamRathod_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/pratham-rathod-a00846241/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/PRATHAM-099",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/pratham_rathod_99/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

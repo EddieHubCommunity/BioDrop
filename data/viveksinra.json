@@ -1,0 +1,110 @@
+{
+  "name": "Vivek Singh",
+  "bio": "Full Stack Developer | Founder of **Softechinfra** | **Qualifier.co.in** CEO",
+  "tags": [
+    "MernDev",
+    "Javascript",
+    "NodeJS",
+    "NextJS",
+    "ReactJS",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/viveksinra"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/viveksinra"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@viveksinra"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Personal Web: Let's Connect",
+      "url": "http://vivek.org.in",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Business",
+      "name": "Company Site: Hire Me",
+      "url": "http://softechinfra.com",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Business",
+      "name": "Qualifier: My Edtech Platform",
+      "url": "http://qualifier.co.in",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/viveksinra",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/@viveksinra",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/viveksinra",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/viveksinra",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/@viveksinra",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Course (free): Learn With Vivek",
+      "url": "http://learnwithvivek.com",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2017",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.softechinfra.com/"
+    },
+    {
+      "title": "Started Teaching",
+      "date": "June 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://learnwithvivek.com"
+    },
+    {
+      "isGoal": true,
+      "title": "Course on helping people get started with Open Source",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 90% of the way through my course of helping people getting into Web Dev",
+      "url": "http://learnwithvivek.com"
+    }
+  ]
+}

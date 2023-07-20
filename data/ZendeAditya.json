@@ -1,0 +1,29 @@
+{
+  "name": "Aditya Zende",
+  "bio": "**A freelance web developer** Technical Writer",
+  "tags": [
+    "open source",
+    "Web developer",
+    "Technical writer",
+    "javascript",
+    "React",
+    "MERN"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdiZende23",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/aadya_2308",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/adityazende/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

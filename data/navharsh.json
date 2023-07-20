@@ -1,0 +1,36 @@
+{
+  "name": "Navharsh Kr",
+  "bio": "**Web Developer**. Tech enthusiast",
+  "tags": ["Open Source", "Javascript", "Python", "Web3"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/navharsh_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/navharsh"
+    },
+    {
+      "icon": "SiGmail",
+      "url": "mailto:hello@navharsh.com"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Website",
+      "url": "https://www.navharsh.com",
+      "icon": "FaMousePointer"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/navharsh_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/navharsh",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

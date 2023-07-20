@@ -1,0 +1,32 @@
+{
+  "name": "Avni Goyal",
+  "bio": "AIML| Web-Development || Student Developer @Open Community UPES",
+  "tags": ["AIML", "Open Source", "Web-Development"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/avnigoyal25"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/avni-goyal-89986a233"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/avnigoyal25",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/avni-goyal-89986a233",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/avni_goyal7/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

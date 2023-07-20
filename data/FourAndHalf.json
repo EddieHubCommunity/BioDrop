@@ -1,0 +1,26 @@
+{
+  "name": "Jinson E B",
+  "bio": "Full Stack Developer | Open Source enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jinsoneb",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jinsoneb/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/FourAndHalf/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/user/Dizzy-Gene-2711",
+      "icon": "FaReddit"
+    }
+  ]
+}

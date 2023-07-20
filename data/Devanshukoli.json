@@ -1,0 +1,77 @@
+{
+  "name": "Devanshu Koli",
+  "bio": "Software Intern | **Open-Source Contributor**",
+  "tags": ["Open Source", "Javascript", "React", "Node", "Github"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Devanshukoli"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Devanshukoli"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: @Devanshukoli",
+      "url": "https://twitter.com/Devanshukoli",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Instagram: @kolidevanshu02",
+      "url": "https://www.instagram.com/kolidevanshu02/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's Connect! :)",
+      "url": "https://www.linkedin.com/in/devanshu-koli-a6028a22a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitch: @devanshukoli",
+      "url": "https://www.twitch.tv/devanshukoli",
+      "icon": "FaTwitch"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Github: Let's Collaborate!",
+      "url": "https://github.com/Devanshukoli",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Content",
+      "name": "Medium: Blogs and Contents.",
+      "url": "https://medium.com/@devanshukoli2",
+      "icon": "SiMedium"
+    },
+    {
+      "group": "Content",
+      "name": "Hashnode: Blogs and Contents.",
+      "url": "https://hashnode.com/@devkoli",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Open Source Contribution",
+      "date": "Nov 2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "it was a small contribution to a project called **Hacktoberfest**. I was very excited to contribute to open source and I was very happy when my PR got merged.",
+      "url": "https://github.com/Devanshukoli"
+    },
+    {
+      "title": "First Internship",
+      "date": "Jan 2023",
+      "icon": "FaBriefcase",
+      "color": "blue",
+      "description": "I got my first internship at a compnay called **Hyperlink Infosystem**. I was very excited to work with a team of developers and learn from them.",
+      "url": "https://www.hyperlinkinfosystem.com/"
+    }
+  ]
+}

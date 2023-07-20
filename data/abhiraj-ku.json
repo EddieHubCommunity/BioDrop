@@ -1,0 +1,32 @@
+{
+  "name": "Abhishek Kumar",
+  "bio": "Web Dev Enthusiast | Open source",
+  "tags": ["Open Source", "Web Dev", "DSA"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abhirajabhi312"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abhiraj-ku"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/abhiraj-ku",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/abhirajabhi312",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "let's connect on  LinkedIn",
+      "url": "https://linkedin.com/in/abhishek-ko/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

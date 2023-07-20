@@ -1,0 +1,37 @@
+{
+  "name": "Priyansh Shrivastava",
+  "bio": "Full Stack Developer | DevOps | Javascript | Node.js | TailwindCSS ",
+  "links": [
+    {
+      "name": "like humour? Follow me on Twitter",
+      "url": "https://twitter.com/shadow_priyansh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's collaborate on some amazing project",
+      "url": "https://github.com/PriyanshShrivastava",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn for some achievement bragging!",
+      "url": "https://www.linkedin.com/in/priyansh-shrivastava-184355145/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://priyanshshrivastava.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Some animated stuff here",
+      "url": "https://codepen.io/PriyanshShrivastava",
+      "icon": "SiCodepen"
+    },
+    {
+      "name": "Some basic Blockchain content ",
+      "url": "https://youtube.com/@inyour20s46",
+      "icon": "FaYoutube"
+    }
+  ],
+  "tags": ["Javascript", "Node.js", "TailwindCSS", "Open Source", "MongoDB"]
+}

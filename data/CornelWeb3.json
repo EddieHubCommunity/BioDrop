@@ -1,0 +1,61 @@
+{
+  "name": "Cornel Baciu",
+  "bio": "Blockchain programming enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CornelWeb3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/cornel_web3/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/CornelWeb3",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/cornel-web3/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/cornelionut",
+      "icon": "SiTwitch"
+    },
+    {
+      "name": "Discord Community",
+      "url": "https://discord.com/invite/unWNjG6g7U",
+      "icon": "SiDiscord"
+    }
+  ],
+  "tags": ["Javascript", "Web3", "Node.js", "Blockchain", "Solidity"],
+  "socials": [
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/CornelWeb3"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://discord.com/invite/unWNjG6g7U"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/CornelWeb3"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started technical Blogging",
+      "date": "16 March 2022",
+      "icon": "SiHashnode",
+      "color": "red",
+      "description": "Documenting my learnings through the medium of blogs",
+      "url": "https://cornelweb3.com/"
+    }
+  ]
+}

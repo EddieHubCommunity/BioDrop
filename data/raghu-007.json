@@ -1,0 +1,16 @@
+{
+  "name": "RAGHU S (test)",
+  "bio": "Software Engineer and Tech Entrepreneur",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/raghu7_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/raghu-007",
+      "icon": "FaGithub"
+    }
+  ]
+}

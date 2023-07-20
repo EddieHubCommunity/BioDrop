@@ -1,0 +1,11 @@
+{
+  "name": "Thomas Qvidahl",
+  "bio": "Full time, full stack, full of sh... software engineer, devops guy and 'all things open source advocate', constantly trying to improve from the status quo...",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/tplive",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

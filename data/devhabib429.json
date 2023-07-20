@@ -1,0 +1,72 @@
+{
+  "name": "Habibur Rahman",
+  "bio": "**Devops** Engineer| FullStack Web Development | AI/ML | **Open Source** | Flutter | Automation",
+  "tags": [
+    "Devops",
+    "AI/ML",
+    "Blogging",
+    "FullStack Web Developer",
+    "Wordpress Developer",
+    "Flutter"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/hrahman429"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devhabib429"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://devhabib429.hashnode.dev/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/_imhabib_/"
+    }
+  ],
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/devhabib429",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Talk About Tech",
+      "url": "https://twitter.com/hrahman429",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Blogs",
+      "url": "https://devhabib429.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "My LinkedIn",
+      "url": "https://www.linkedin.com/in/habibur-rahman-b59038195/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Content on Instagram",
+      "url": "https://instagram.com/_imhabib_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Medium)",
+      "url": "https://medium.com/@devhabib429",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Support my work :)",
+      "url": "https://ko-fi.com/devhabib429",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "name": "Calendly",
+      "url": "https://calendly.com/d/2mp-czx-bq8/30min",
+      "icon": "SiCalendly"
+    }
+  ]
+}

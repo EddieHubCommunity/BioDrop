@@ -1,0 +1,39 @@
+{
+  "name": "Amisha Popli",
+  "bio": "Open source Enthusiast!,Would be Data scientist!Write blogs on Hashnode!",
+  "tags": ["Data Science", "Open Source", "GitHub", "Python"],
+  "socials": [
+    {
+      "url": "https://twitter.com/amisha_popli",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/Amishapopli_1",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://www.linkedin.com/in/amisha-popli-9768a1176/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Github: Collaborate on Open Source",
+      "url": "https://github.com/Amishapopli_1",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/amisha-popli-9768a1176/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me on Twitter",
+      "url": "https://twitter.com/amisha_popli",
+      "icon": "FaTwitter"
+    }
+  ]
+}

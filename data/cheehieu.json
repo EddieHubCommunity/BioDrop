@@ -1,0 +1,50 @@
+{
+  "name": "Hieu Minh Nguyen",
+  "bio": "Hello. I am human (hieu-minh).",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/cheehieu"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/cheehieu"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/cheehieu"
+    }
+  ],
+  "testimonials": ["cheehieu"],
+  "links": [
+    {
+      "name": "Web",
+      "url": "https://niftyhedgehog.com/",
+      "icon": "FaSpider"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:hieu@niftyhedgehog.com",
+      "icon": "FaEnvelope"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Counting...",
+      "date": "January 1, 1970",
+      "icon": "FaClock",
+      "color": "grey",
+      "description": "...the number of seconds that have elapsed.",
+      "url": "https://time.is/Unix_time"
+    },
+    {
+      "isGoal": true,
+      "title": "Survive",
+      "date": "2023",
+      "icon": "FaUserAstronaut",
+      "color": "green",
+      "description": "Life is short, Art eternal.",
+      "url": "https://getyarn.io/yarn-clip/c553ac30-5cde-4d3a-982b-91b87ab7037f"
+    }
+  ]
+}

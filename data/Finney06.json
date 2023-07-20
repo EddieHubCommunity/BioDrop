@@ -1,0 +1,31 @@
+{
+  "name": "Osajere Finney",
+  "bio": "A Gen-Z finding his way around tech",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Osa_finney",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/finney-osajere-39530a247",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@osafinney21",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Finney06",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Link up with me on  Whatsapp",
+      "url": "https://wa.me/qr/I5L5OHLFIMFTE1",
+      "icon": "FaWhatsapp"
+    }
+  ]
+}

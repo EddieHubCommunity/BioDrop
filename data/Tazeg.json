@@ -1,0 +1,26 @@
+{
+  "name": "JeffProd",
+  "bio": "Coding for fun",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/jeffprod",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCAOizN1F23kLohMWo0f27-Q",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Tazeg/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/tazeg/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

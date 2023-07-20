@@ -1,10 +1,7 @@
 {
   "name": "Harsha varthan",
-  "displayStatsPublic": true,
-  "type": "personal",
   "bio": "A Budding Frontend Developer",
   "tags": ["Open Source", "Javascript", "HTML", "CSS", "Java"],
-
   "links": [
     {
       "name": "On Twitter",

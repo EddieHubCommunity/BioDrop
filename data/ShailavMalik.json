@@ -1,0 +1,36 @@
+{
+  "name": "Shailav Malik",
+  "bio": "Coding Enthusiast | Frontend development",
+  "links": [
+    {
+      "name": "Follow on Instagram for coding/tech content",
+      "url": "https://www.instagram.com/shailavmalik1/",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shailavmalik/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ShailavMalik",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShailavMalik",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Subscribe my YouTube channel",
+      "url": "https://www.youtube.com/channel/UCWlKK3Dxtt3Nl2CHw70yAgA",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Follow on Medium",
+      "url": "https://medium.com/@ShailavMalik",
+      "icon": "SiMedium"
+    }
+  ]
+}

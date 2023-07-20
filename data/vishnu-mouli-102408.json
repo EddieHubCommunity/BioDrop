@@ -1,0 +1,59 @@
+{
+  "name": "Ganivada Mouli",
+  "bio": "Learning Full-Stack Development and an Open Source Enthusiast",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "React JS",
+    "Web Dev",
+    "Node JS",
+    "MERN Stack"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iamVishnuMouli"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vishnu-mouli-102408"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ganivada-mouli/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/vishnu.mouli/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/iamVishnuMouli",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ganivada-mouli/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/vishnu-mouli-102408",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Showwcase",
+      "url": "https://www.showwcase.com/vishnu-mouli-102408",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vishnu.mouli/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

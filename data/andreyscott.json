@@ -1,0 +1,51 @@
+{
+  "name": "Andrew Irorere",
+  "bio": "FullStack dev **Toad Sage🐱‍👤**. | Open-Source Contributor &  | Mobile Dev",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Andreyscott247"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Andreyscott"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/itsandreydev"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Andreyscott247",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/andrew-irorere",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Andreyscott247",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: I maintain really nice ReadMEs and Im always coding",
+      "url": "https://github.com/Andreyscott",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram: Post on Javascript fundamentals, React, Docker, etc.",
+      "url": "https://www.instagram.com/itsandreydev",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Personal Portfolio: Too lazy to update or restructure it",
+      "url": "https://andreyscott.vercel.app",
+      "icon": "FaLink"
+    }
+  ]
+}

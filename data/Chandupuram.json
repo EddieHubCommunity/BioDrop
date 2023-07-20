@@ -1,0 +1,26 @@
+{
+  "name": "Puram Chandra Sekhar",
+  "bio": "Newbie in the community and interested in **Collab and Learn**",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/chandupuram03?t=gjpm9I9-jQeZbpE251vKAw&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Chandupuram",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/puram-chandu-2b1451193",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "View my blogs on Hashnode",
+      "url": "https://beginnerfriendlyblogs.hashnode.dev/newsletter",
+      "icon": "SiHashnode"
+    }
+  ]
+}

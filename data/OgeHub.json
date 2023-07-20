@@ -1,0 +1,26 @@
+{
+  "name": "Success Ezeh",
+  "bio": "Backend developer",
+  "links": [
+    {
+      "name": "My GitHub profile",
+      "url": "https://github.com/OgeHub",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/success-ezeh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SuccessOgechiE1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Medium profile",
+      "url": "https://medium.com/@ezehsuccess0476",
+      "icon": "SiMedium"
+    }
+  ]
+}

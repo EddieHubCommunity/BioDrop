@@ -1,0 +1,117 @@
+{
+  "name": "Apoorv Goyal",
+  "bio": "Full Stack Web Developer | Content Creator | Founder of **Virtual Tech School**",
+  "tags": ["Python", "JavaScript", "Linux"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/apoorvtwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/apoorv-on-git"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/apoorvgoyalmain"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/apoorvtwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Web Development | Mentorship",
+      "url": "https://youtube.com/apoorvgoyalmain",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/apoorv-on-git",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/apoorv-goyal-a17103158/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Blogs: More of those coming",
+      "url": "https://apoorvgoyal.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "Virtual Tech School: Static website made for teaching",
+      "url": "https://virtualtechschool.org/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "Discord: Join Us!",
+      "url": "https://discord.gg/EYB8tQxjxH",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "Twitter: Follow us",
+      "url": "https://twitter.com/virtechschool",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "LinkedIn: Follow us",
+      "url": "https://www.linkedin.com/company/virtual-tech-school",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "GitHub: Collaborate and Contribute",
+      "url": "https://github.com/virtual-tech-school",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Virtual Tech School Community",
+      "name": "Blogs: Our monthly updates and newsletter",
+      "url": "https://virtualtechschool.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Course (FREE): Linux Masterclass",
+      "url": "https://www.youtube.com/watch?v=nRpmRDm-QrQ&list=PL2kSRH_DmWVZp_cu6MMPWkgYh7GZVFS6i",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Course (FREE): Git & Github Masterclass",
+      "url": "https://www.youtube.com/watch?v=LQ2LTPHeTts&list=PL2kSRH_DmWVajYgFoP-HVKK5VKkzFYyzp",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Course (FREE): Basics of Frontend Development",
+      "url": "https://www.youtube.com/watch?v=-wx4z8SC7aA&list=PL2kSRH_DmWVbKFpYn3drI8Qf66ZpvZ_3L",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Course (FREE): Complete Web Development",
+      "url": "https://www.youtube.com/watch?v=onBooVTVwyw&list=PL2kSRH_DmWVZzZSN87g1dSDz0FUnp9PMh",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Podcasts",
+      "url": "https://www.youtube.com/watch?v=tCBxOq4i_r0&list=PL2kSRH_DmWVZ68fW84k88fY0WVwgpIIJU",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Buy Me A Coffee: Support My Work",
+      "url": "https://www.buymeacoffee.com/apoorvgoyal",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

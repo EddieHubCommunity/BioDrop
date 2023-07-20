@@ -1,0 +1,21 @@
+{
+  "name": "Sachi Goto",
+  "bio": "Full stack developer based in Vancouver Canada",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/SachiGoto",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sachi-goto/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sachigoto2",
+      "icon": "FaTwitter"
+    }
+  ]
+}

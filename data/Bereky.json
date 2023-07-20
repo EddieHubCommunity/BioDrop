@@ -1,13 +1,19 @@
 {
   "name": "Bereket Lemma",
-  "type": "personal",
-  "displayStatsPublic": true,
   "bio": "Programmer | CS Student ",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/berek_et" },
-    { "icon": "FaGithub", "url": "https://github.com/bereky" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/bereket-lemma" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/berek_et"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bereky"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/bereket-lemma"
+    }
   ],
   "links": [
     {

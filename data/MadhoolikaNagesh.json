@@ -1,0 +1,21 @@
+{
+  "name": "Madhooolika Nagesh",
+  "bio": "ISE Student **Tech enthusiast**.Second year Engineering Student ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Madhoolika_N",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/madhoolika-nagesh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/MadhoolikaNagesh",
+      "icon": "FaGithub"
+    }
+  ]
+}

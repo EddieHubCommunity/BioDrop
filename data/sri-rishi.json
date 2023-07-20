@@ -1,0 +1,27 @@
+{
+  "name": "Rishi Srivastava",
+  "bio": "Frontend Developer, Coding enthusiast",
+  "tags": ["Open Source", "React", "JavaScript", "CSS"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sri26_rishi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/sri-rishi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/sri-rishi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@sririshi",
+      "icon": "SiHashnode"
+    }
+  ]
+}

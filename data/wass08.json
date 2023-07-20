@@ -1,0 +1,79 @@
+{
+  "name": "Wawa Sensei",
+  "bio": "Web developer creating content on YouTube, DevRel at elest.io, Indie Hacker at FeedIQ, Community Builder",
+  "links": [
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/c/WawaSensei",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Discord Community",
+      "url": "https://discord.gg/BKEeXHP4Du",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/wawasensei",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/wass08",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/wawa.sensei/",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/wassim-samad/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@wawasensei08",
+      "icon": "SiTiktok"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/wawasensei",
+      "icon": "FaDev"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "TypeScript",
+    "React",
+    "React Native",
+    "Node.js",
+    "DevRel",
+    "Three.js",
+    "React three fiber"
+  ],
+  "socials": [
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@wawasensei"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://discord.com/invite/BKEeXHP4Du"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/wawa.sensei/"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/wawasensei"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/wass08"
+    }
+  ]
+}

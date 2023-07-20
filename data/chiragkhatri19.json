@@ -1,0 +1,59 @@
+{
+  "name": "Chirag Khatri",
+  "bio": " Web3 Entusiast | Developer | Graphics Designer   ",
+  "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chiragx19"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chiragkhatri19"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://chiragkhatri.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/chiragkhatri19",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/chiragx19",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://chiragkhatri.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/chiragk19",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "August 2022",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started with Graphics Designing and Video Editing",
+      "url": "https://www.linkedin.com/in/chiragk19/"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Contributing to Opensource",
+      "url": "https://github.com/chiragkhatri19"
+    }
+  ]
+}

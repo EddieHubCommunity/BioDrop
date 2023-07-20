@@ -1,0 +1,62 @@
+{
+  "name": "Manoj Sahoo",
+  "bio": "Aspiring Java developer and a passion for creating efficient and scalable software solutions. Seeking opportunities to apply my skills.",
+  "tags": [
+    "Open Source",
+    "HTML",
+    "CSS",
+    "Java",
+    "Javascript",
+    "Spring Boot",
+    "Hibernate",
+    "MySql"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/manojsahoo89088"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Manoj-71"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@manojkumarsahoo41/playlists"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/manojsahoo89088",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://www.youtube.com/@manojkumarsahoo41/playlists",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Manoj-71",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/manoj71",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://www.youtube.com/@manojkumarsahoo41/playlists",
+      "icon": "FaYoutube"
+    }
+  ]
+}

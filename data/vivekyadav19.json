@@ -1,0 +1,41 @@
+{
+  "name": "Vivek Yadav",
+  "bio": "Frontend Developer | Learning Full Stack Development | Practicing DSA",
+  "tags": ["Open Source", "Java", "Javascript", "ReactJS", "Tailwind", "MERN"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vivekyadavtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vivekyadav19"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vivekyadav19"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/vivekyadavtwt",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://linkedin.com/in/vivekyadav19",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/vivekyadav19",
+      "icon": "FaGithub"
+    }
+  ]
+}

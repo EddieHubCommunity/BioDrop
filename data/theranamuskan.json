@@ -1,0 +1,26 @@
+{
+  "name": "Rana Muskan",
+  "bio": "Open Source Contributor, Web Developer, Flutter Developer, Youtuber",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/theranamuskan",
+      "icon": "Fatwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/theranamuskan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/theranamuskan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/theranamuskan",
+      "icon": "FaGithub"
+    }
+  ]
+}

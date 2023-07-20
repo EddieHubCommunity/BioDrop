@@ -1,11 +1,17 @@
 {
   "name": "Bilal Khan",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "College Dropout ➞ Self-Taught DevOps Guy | Open Source Contributor, Content Creator on @YouTube & a Technical Writer at @hashnode.",
+  "bio": "Bloop Founder, DevOps Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
 
-  "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
+  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
+    {
+      "icon": "FaGlobe",
+      "url": "https://ibilalkayy.github.io/digital-resume/"
+    },
+    {
+      "icon": "FaCircleNotch",
+      "url": "https://bloop.gg/"
+    },
     {
       "icon": "SiYoutube",
       "url": "https://www.youtube.com/@ibilalkayy"
@@ -16,18 +22,33 @@
     },
     {
       "icon": "SiHashnode",
-      "url": "https://hashnode.com/@ibilalkayy"
+      "url": "https://ibilalkayy.hashnode.dev/"
     },
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/ibilalkayy"
+    },
+    {
+      "icon": "SiBuymeacoffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy"
     }
+  ],
+  "testimonials": [
+    "eddiejaoude",
+    "hola-soy-milk",
+    "loftwah",
+    "the-amazing-atharva"
   ],
   "links": [
     {
-      "name": "Resume: Hire me",
+      "name": "Portfolio: Hire me",
       "url": "https://ibilalkayy.github.io/digital-resume/",
       "icon": "FaGlobe"
+    },
+    {
+      "name": "Bloop: A Startup",
+      "url": "https://bloop.gg/",
+      "icon": "FaCircleNotch"
     },
     {
       "name": "YouTube: Checkout my DevOps Videos",
@@ -41,7 +62,7 @@
     },
     {
       "name": "Hashnode: Read my Blogs",
-      "url": "https://hashnode.com/@ibilalkayy",
+      "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
@@ -53,6 +74,11 @@
       "name": "LinkedIn: Connect with me",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
@@ -63,6 +89,30 @@
       "color": "red",
       "description": "Started creating content",
       "url": "https://www.youtube.com/@ibilalkayy/"
+    },
+    {
+      "title": "Started Hashnode",
+      "date": "Aug, 2022",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Started writing blogs",
+      "url": "https://hashnode.com/@ibilalkayy"
+    },
+    {
+      "title": "AWS Community Builder",
+      "date": "Feb, 2023",
+      "icon": "SiAmazonaws",
+      "color": "blue",
+      "description": "Became an AWS Community Builder",
+      "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Started Bloop",
+      "date": "Feb 3, 2023",
+      "icon": "FaCircleNotch",
+      "color": "black",
+      "description": "Started my Bloop startup",
+      "url": "https://bloop.gg/"
     },
     {
       "title": "Created 60 Days Of DevOps Videos",
@@ -79,14 +129,6 @@
       "color": "black",
       "description": "Completed 60DaysOfDevOps Notes",
       "url": "https://github.com/ibilalkayy/60-Days-Of-DevOps"
-    },
-    {
-      "title": "Started Hashnode",
-      "date": "Aug, 2022",
-      "icon": "FaPencilAlt",
-      "color": "blue",
-      "description": "Started writing blogs",
-      "url": "https://hashnode.com/@ibilalkayy"
     }
   ]
 }

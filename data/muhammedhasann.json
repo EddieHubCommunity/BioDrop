@@ -1,0 +1,21 @@
+{
+  "name": "Muhammed Hasan",
+  "bio": " Engineering and tech enthusiast with a passion for Programming especially AI/ML. Always ready to push boundaries, explore new ideas, and create something extraordinary. ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Muhammed__Hasan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/muhammedhaan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/muhammedhasann",
+      "icon": "FaGithub"
+    }
+  ]
+}

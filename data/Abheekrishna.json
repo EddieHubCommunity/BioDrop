@@ -1,0 +1,16 @@
+{
+  "name": "Abhee Krisshna",
+  "bio": "Junior front-end developer | Javascript | Sharing my knowledge of javascript",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AbheeKrishna",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhee-k",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Lokesh Vasnik",
+  "bio": "A Front End Developer | Github Lover | Opensource",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/heymelokesh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/lokeshvasnik",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/lokesh-vasnik-1086a5221/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

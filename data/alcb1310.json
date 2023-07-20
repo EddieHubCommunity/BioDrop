@@ -1,0 +1,26 @@
+{
+  "name": "Andres Court",
+  "bio": "Full-stack developer with a passion for photography",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/alcb1310",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/alcb1310/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/alcb1310",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blog",
+      "url": "https://dev.to/alcb1310",
+      "icon": "FaDev"
+    }
+  ]
+}

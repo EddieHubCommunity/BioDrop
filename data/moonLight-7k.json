@@ -1,0 +1,21 @@
+{
+  "name": "Suhel Khan",
+  "bio": "Junior Developer, Student at KCC ITM",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MoonnLight7k1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/moonlight-7k",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/moonLight-7k",
+      "icon": "FaGithub"
+    }
+  ]
+}

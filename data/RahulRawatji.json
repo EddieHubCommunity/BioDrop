@@ -1,0 +1,21 @@
+{
+  "name": "Rahul Rawat",
+  "bio": "I'm a FullStack Engineer",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rahul-rawat21/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/0oo_rahul/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/RahulRawatji",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Christabel Khumalo",
+  "bio": " I am a **DevOps consultant** with skills in Salesforce, Microsoft Azure and AWS. I'm passionate about cloud technologies. When I'm not DevOp-sing you'll find me indulging in my love for food, solving puzzles, or immersing myself in wildlife and nature. Let's connect and share our knowledge",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aurochrista",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/christabel-khumalo-91a0a153/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

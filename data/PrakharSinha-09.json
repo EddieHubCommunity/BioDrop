@@ -1,0 +1,48 @@
+{
+  "name": "Prakhar Sinha",
+  "bio": "Tech Enthusiast | Open Source | Web Development(MERN) | Java | DSA",
+  "tags": [
+    "Web Developer",
+    "Open Source",
+    "GitHub",
+    "Community",
+    "Collaboration",
+    "ReactJS",
+    "Javascript",
+    "Java",
+    "Python",
+    "DSA",
+    "MongoDB"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/i_M_Prakhar09"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/PrakharSinha-09"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/i_M_Prakhar09",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/PrakharSinha-09",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "www.linkedin.com/in/prakhar-sinha-a81672213",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

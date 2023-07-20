@@ -1,0 +1,26 @@
+{
+  "name": "Tejas Sangale",
+  "bio": "Final year graduate, DevOps and Cloud enthusiast, open source ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/tejassangale2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://twitter.com/tr-sangale",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/tejas-sangale-9b735b1a6/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on hashnode",
+      "url": "https://hashnode.com/@tejas00",
+      "icon": "SiHashnode"
+    }
+  ]
+}

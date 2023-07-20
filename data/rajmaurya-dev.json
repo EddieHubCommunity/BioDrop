@@ -1,0 +1,16 @@
+{
+  "name": "Raj Maurya",
+  "bio": "Frontend Developer | Open source contributor | Building Projects",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/rajmaurya_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rajmaurya-dev/",
+      "icon": "FaGithub"
+    }
+  ]
+}

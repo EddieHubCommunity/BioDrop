@@ -1,0 +1,11 @@
+{
+  "name": "Kunal Agrawal",
+  "bio": "Web Developer | MERN Stack",
+  "links": [
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/KunalPy3",
+      "icon": "FaTwitter"
+    }
+  ]
+}

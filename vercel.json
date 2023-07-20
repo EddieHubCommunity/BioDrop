@@ -1,0 +1,11 @@
+{
+  "git": {
+    "deploymentEnabled": false
+  },
+  "crons": [
+    {
+      "path": "/api/system/stats",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}

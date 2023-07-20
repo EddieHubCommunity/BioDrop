@@ -1,0 +1,57 @@
+{
+  "name": "Rohit",
+  "bio": "Open source Advocate, IOS Developer, DevOps, Technical Writer",
+  "tags": [
+    "Open Source",
+    "IOS",
+    "Flutter",
+    "Java",
+    "Python",
+    "DevOps",
+    "DevRel",
+    "Technical Writing"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/TRRohit20"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/TRohit20"
+    }
+  ],
+  "links": [
+    {
+      "group": "Work",
+      "name": "Rohit.log(): Check out my personal Blog",
+      "url": "https://rohitlogs.com"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: You can follow me here",
+      "url": "https://twitter.com/TRRohit20",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Linkedin: You can Connect with me here",
+      "url": "https://www.linkedin.com/in/rohit-t-0124a4242/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Github: You can Collaborate with me Or Check out my work",
+      "url": "https://github.com/TRohit20",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Support",
+      "url": "https://github.com/sponsors/TRRohit20",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

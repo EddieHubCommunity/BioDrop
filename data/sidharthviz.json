@@ -1,10 +1,8 @@
 {
   "name": "Siddharth Verma",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Full stack Dev ** Tech Blogger**. Travel enthusiast & Learner also an avid reader ",
-
-  "Links": [
+  "bio": "Full stack Dev | Tech Blogger | DevOps | Travel enthusiast",
+  "tags": ["DevOps", "technical writer", "Kubernetes"],
+  "links": [
     {
       "name": "Portfolio",
       "url": "https://iamdev.netlify.app/home.html",

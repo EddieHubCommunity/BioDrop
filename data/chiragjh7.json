@@ -1,0 +1,27 @@
+{
+  "name": "Chirag Jhariya",
+  "bio": "Hey, I am a backend developer and can help in yours journey too. ✨",
+  "tags": ["Open Source", "NextJS", "React", "Javascript", "TypeScript"],
+  "links": [
+    {
+      "name": "Follow me on Twitter 🐦",
+      "url": "https://twitter.com/chiragjh7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Here is my Github 🚀",
+      "url": "https://github.com/chiragjh7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "We can connect over LinkedIn. 🌐",
+      "url": "https://linkedin.com/in/chiragjh7",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Casually we can talk here 🗣",
+      "url": "https://instagram.com/chiragjh7",
+      "icon": "FaInstagram"
+    }
+  ]
+}

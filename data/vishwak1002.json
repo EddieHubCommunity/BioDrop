@@ -1,0 +1,36 @@
+{
+  "name": "Vishwa karnati",
+  "bio": "Enthusiastic Coder who is just starting in Opensource .Loves Reading books and a traveller",
+  "tags": ["Open Source", "Javascript", "React", "Nodejs", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vishwakarnati"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vishwak1002"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/thecuriousvish"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishwakarnati",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/thecuriousvish",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://Github.com/vishwak1002",
+      "icon": "FaGithub"
+    }
+  ]
+}

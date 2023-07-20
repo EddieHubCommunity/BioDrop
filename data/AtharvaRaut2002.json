@@ -1,0 +1,57 @@
+{
+  "name": "Atharva Raut",
+  "bio": "Full Stack Developer | Open Source Enthusiast",
+  "tags": ["Open Source", "Content Writer", "Blogging"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Atharva_23_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AtharvaRaut2002"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/atharva-raut-856b52205/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AtharvaRaut2002",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/Atharva_23_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/atharva-raut-856b52205/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Leetcode",
+      "url": "https://leetcode.com/Atharva_Raut/",
+      "icon": "FaLeetcode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Finalist At Smart India Hackathon 2022",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "blue",
+      "description": "Intrestingly this was my first hackathon in which I had Participated"
+    },
+    {
+      "title": "Web Development Intern",
+      "date": "July 2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "Currently working as a Full Stack Developer from Indian Startup"
+    }
+  ]
+}

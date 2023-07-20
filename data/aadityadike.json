@@ -1,0 +1,27 @@
+{
+  "name": "Aditya Dike",
+  "bio": "Full-Stack Development | DevOps | Open Source",
+  "tags": ["Java", "Javascript", "Docker", "Open Source"],
+  "links": [
+    {
+      "name": "Twitter",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/adityastwt1"
+    },
+    {
+      "name": "Github",
+      "icon": "FaGithub",
+      "url": "https://github.com/aadityadike"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aditya-dike-72837a221"
+    },
+    {
+      "name": "HashNode",
+      "icon": "SiHashnode",
+      "url": "https://adityadike.hashnode.dev/"
+    }
+  ]
+}

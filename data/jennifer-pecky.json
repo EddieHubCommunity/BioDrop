@@ -1,0 +1,11 @@
+{
+  "name": "jennifer pecky",
+  "bio": "Front-end developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/pecky_jennifer",
+      "icon": "FaTwitter"
+    }
+  ]
+}

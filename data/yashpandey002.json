@@ -1,0 +1,21 @@
+{
+  "name": "Yash Pandey",
+  "bio": "A CS enthusiast who codes FrontEnd, Open Source is 💚",
+  "links": [
+    {
+      "name": "My Twitter",
+      "url": "https://twitter.com/pandeyyash_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My Linkedin",
+      "url": "https://www.linkedin.com/in/pandeyyash/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/yashpandey002",
+      "icon": "FaGithub"
+    }
+  ]
+}

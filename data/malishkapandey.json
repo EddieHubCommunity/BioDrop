@@ -1,0 +1,20 @@
+{
+  "name": "Malishka Pandey",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MalishkaPandey",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://linkedin.com/in/malishkapandey",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/malishkapandey",
+      "icon": "FaGithub"
+    }
+  ]
+}

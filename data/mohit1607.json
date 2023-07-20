@@ -1,9 +1,6 @@
 {
   "name": "MOHIT ASHLIYA",
-  "displayStatsPublic": true,
-  "type": "personal",
   "bio": "Open Source Enthusiast with taste in React!",
-
   "tags": [
     "javascript",
     "typescript",
@@ -13,8 +10,14 @@
     "fullstack"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ashliya_mohit" },
-    { "icon": "FaGithub", "url": "https://github.com/mohit1607" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ashliya_mohit"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mohit1607"
+    }
   ],
   "links": [
     {

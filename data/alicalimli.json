@@ -1,0 +1,76 @@
+{
+  "name": "Ali Calimli",
+  "bio": "Frontend Developer | Content Creator",
+  "tags": ["React", "Javascript", "Typescript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/alicalimli_dev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/alicalimli"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/alicalimli/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/alicalimli_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Follow me",
+      "url": "https://github.com/alicalimli",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/alicalimli",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "My First Job",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "description": "My first dev job after 1 year self taught developer journey",
+      "url": "https://twitter.com/alicalimli_dev/status/1609488624369762305"
+    },
+    {
+      "title": "Finished Building Full-Stack Chat Application",
+      "date": "November 2022",
+      "icon": "FaTwitter",
+      "description": "My first ever big full-stack application",
+      "url": "https://twitter.com/alicalimli_dev/status/1592072460006219776?s=20&t=5BhiJ0L8HKnI06McII_aLg"
+    },
+    {
+      "title": "Started Content Creation in Twitter",
+      "date": "October 2022",
+      "icon": "FaTwitter",
+      "description": "Started creating web dev visual contents in twitter.",
+      "url": "https://twitter.com/alicalimli_dev/status/1576572712134361088"
+    },
+    {
+      "title": "Finished Building Big Vanilla JavaScript Application",
+      "date": "May 2022",
+      "icon": "FaTwitter",
+      "description": "My First Ever Big Vanilla Javascript Application",
+      "url": "https://twitter.com/alicalimli_dev/status/1530437661990830080"
+    },
+    {
+      "title": "Started Social Media",
+      "date": "January 2022",
+      "icon": "FaTwitter",
+      "description": "Started my web dev journey and shared the progress in twitter.",
+      "url": "https://twitter.com/alicalimli_dev/status/1478321921070702594"
+    }
+  ]
+}

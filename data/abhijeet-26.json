@@ -1,9 +1,6 @@
 {
   "name": "Abhijeet Basfore",
-  "displayStatsPublic": true,
-  "type": "personal",
   "bio": "Open Source Enthusiast!",
-
   "tags": [
     "javascript",
     "Springboot",
@@ -14,8 +11,14 @@
     "Open source"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AbhijeetBasfore" },
-    { "icon": "FaGithub", "url": "https://github.com/abhijeet-26" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AbhijeetBasfore"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abhijeet-26"
+    }
   ],
   "links": [
     {

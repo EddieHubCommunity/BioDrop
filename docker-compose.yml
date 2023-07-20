@@ -3,9 +3,10 @@ version: "3.9"
 services:
   linkfree:
     container_name: linkfree
-    build: 
+    restart: always
+    build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       args:
         - NODE_ENV=development
     image: linkfree-app
@@ -13,7 +14,6 @@ services:
       - "3000:3000"
     depends_on:
       - mongodb
-    command: npm run dev:docker
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
@@ -21,7 +21,7 @@ services:
       - linkfree-network
 
   mongodb:
-    image: mongo:5.0
+    image: mongo:6.0
     container_name: mongodb
     networks:
       - linkfree-network
