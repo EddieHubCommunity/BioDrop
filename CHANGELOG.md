@@ -1,3 +1,12 @@
+# [1.159.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.158.0...v1.159.0) (2023-07-20)
+
+
+### Features
+
+* profile link in navbar ([#8276](https://github.com/EddieHubCommunity/LinkFree/issues/8276)) ([c7cd398](https://github.com/EddieHubCommunity/LinkFree/commit/c7cd3987c6744c7a25eac5a4e317ac9962471e2c))
+
+
+
 # [1.158.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.4...v1.158.0) (2023-07-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile card hover dark mode ([#8192](https://github.com/EddieHubCommunity/LinkFree/issues/8192)) ([d59fed3](https://github.com/EddieHubCommunity/LinkFree/commit/d59fed382ef3dd9ec5b93f4a3103f8e5e05cf17e))
-
-
-
-## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
-
-
-### Bug Fixes
-
-* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
 
 
 
