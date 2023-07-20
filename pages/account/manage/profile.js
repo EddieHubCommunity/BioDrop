@@ -18,6 +18,7 @@ import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
+import { sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -74,33 +75,32 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, bio, tags, layout }),
-    });
-    const update = await res.json();
 
-    if (update.message) {
-      return setShowNotification({
+    try {
+      const update = await sendRequest({
+        url: `${BASE_URL}/api/account/manage/profile`,
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: { name, bio, tags, layout },
+      });
+
+      setTags(update.tags);
+      setShowNotification({
+        show: true,
+        type: "success",
+        message: "Profile updated",
+        additionalMessage: "Your profile has been updated successfully",
+      });
+    } catch (err) {
+      setShowNotification({
         show: true,
         type: "error",
         message: "Profile update failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
-        ).join(", ")}`,
+        additionalMessage: err.message,
       });
     }
-    setTags(update.tags);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Profile updated",
-      additionalMessage: "Your profile has been updated successfully",
-    });
   };
 
   return (
