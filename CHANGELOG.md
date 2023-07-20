@@ -1,3 +1,12 @@
+## [1.157.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.3...v1.157.4) (2023-07-20)
+
+
+### Bug Fixes
+
+* docker compose to new file naming ([#8267](https://github.com/EddieHubCommunity/LinkFree/issues/8267)) ([7014b67](https://github.com/EddieHubCommunity/LinkFree/commit/7014b676e671bb8e988b1b06a844b38266d26671))
+
+
+
 ## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
-
-
-
-## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
-
-
-### Bug Fixes
-
-* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
 
 
 
