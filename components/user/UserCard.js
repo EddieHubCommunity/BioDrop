@@ -7,7 +7,7 @@ export default function UserCard({ profile }) {
   return (
     <Link
       href={`/${profile.username}`}
-      className="flex flex-col items-center dark:border-white/10 border-2 w-[14rem] h-[17rem] overflow-hidden rounded-lg shadow-lg transition duration-350 p-4 gap-3 hover:scale-105 duration-500 ease-in-out hover:border-tertiary-medium"
+      className="flex flex-col items-center border-2 w-[14rem] h-[17rem] overflow-hidden rounded-lg shadow-lg transition duration-350 p-4 gap-3 hover:scale-105 duration-500 ease-in-out hover:border-tertiary-medium"
     >
       <div className="flex justify-center relative">
         <FallbackImage
