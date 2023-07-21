@@ -46,7 +46,6 @@ jobs:
           version-file: "./package.json,./package-lock.json,./config/app.json"
           git-branch: "release-from-${{ github.sha }}"
           skip-git-pull: true
-          skip-on-empty: false
 
       # create PR using GitHub CLI
       - name: create PR with release info
