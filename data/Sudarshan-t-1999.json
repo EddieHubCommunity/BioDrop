@@ -1,0 +1,16 @@
+{
+  "name": "Sudarshan T",
+  "bio": "Engineer with knowledge on Machine Learning and Python programming",
+  "links": [
+    {
+      "name": "Follow on LinkedIn",
+      "url": "https://www.linkedin.com/in/sudarshan-t",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Sudarshan-t-1999",
+      "icon": "FaGithub"
+    }
+  ]
+}

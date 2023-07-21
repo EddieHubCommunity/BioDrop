@@ -64,16 +64,6 @@ If you encounter permission issues, follow the next steps:
 
 [![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
-export default ({ children }) => (
-  <DocsLayout
-    title="LinkFree Gitpod Development Documentation"
-    section="Getting started"
-    name="Gitpod"
-  >
-    {children}
-  </DocsLayout>
-);
-
 ### Development
 
 Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.
@@ -87,8 +77,8 @@ Once you have opened a repository, you can develop as you usually do! In the nex
         <li>
           Be sure that you have a fork of LinkFree in your Github Profile. If
           you don't have it, check out the{" "}
-          <Link href="https://linkfree.io/docs/quickstart">
-            Quickstart Guide
+          <Link href="https://linkfree.io/docs/quickstart-json">
+            JSON Quickstart Guide
           </Link>
         </li>
         <li>
@@ -130,7 +120,6 @@ For example, you can copy and past the following code:
       "title": "Used Gitpod to Update my Profile",
       "date": "July 2023", // date updated
       "icon": "FaCode",
-      "color": "#FFAE33",
       "description": "Started my profile by using Gitpod",
       "url": "https://gitpod.com/"
     }
@@ -138,3 +127,23 @@ For example, you can copy and past the following code:
 ```
 
 Lastly, commit the changes and create a PR in the LinkFree repository.
+
+### Permissions
+
+If you encounter permission issues, follow the next steps:
+
+- Open the user settings of your Gitpod profile and click on _Integrations_
+- Click on the 3 dots after Github and choose _Edit Permissions_
+- Make sure that you have checked _public_repo_ and _workflow_
+
+[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io#https://github.com/EddieHubCommunity/LinkFree)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="LinkFree Gitpod Development Documentation"
+    section="Getting started"
+    name="Gitpod"
+  >
+    {children}
+  </DocsLayout>
+);

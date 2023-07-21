@@ -11,7 +11,7 @@ import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   let events = await getEvents();
 
   return {
@@ -86,7 +86,7 @@ export default function Events({ events }) {
         <div className="flex flex-row items-center">
           <Badge
             content="?"
-            path="/docs/how-to-guides/events"
+            path="/docs/how-to-guides/events-forms"
             title="Go To Event Docs"
             badgeClassName={"translate-x-2/4 -translate-y-1/2"}
           >
@@ -101,7 +101,7 @@ export default function Events({ events }) {
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
           {tabFilters.find((filter) => filter.key === eventType).description}
         </h2>
-        <ul role="list" className="divide-y divide-primary-low mt-6">
+        <ul role="list" className="mt-6">
           {categorizedEvents[eventType]?.map((event) => (
             <EventCard
               event={event}

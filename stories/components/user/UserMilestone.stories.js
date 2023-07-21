@@ -18,7 +18,7 @@ export const BasicMilestone = {
       date: "October 2022",
       description: "My first Storybook for the LinkFree project",
       icon: "FaGlobe",
-      color: "black",
+      color: "primary-high",
     },
   },
 };

@@ -20,9 +20,7 @@ export async function getTags(location = false) {
           tags: { $exists: true },
           "location.provided": {
             $exists: true,
-            $ne: null,
-            $ne: "unknown",
-            $ne: "remote",
+            $nin: [null, "unknown", "remote"],
           },
           "location.name": { $ne: "unknown" },
         },

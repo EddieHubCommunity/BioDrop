@@ -5,7 +5,6 @@ import { signIn } from "next-auth/react";
 import BlankLayout from "@components/layouts/BlankLayout";
 import { authOptions } from "pages/api/auth/[...nextauth]";
 import { BsGithub } from "react-icons/bs";
-import { AiOutlineLock } from "react-icons/ai";
 import Button from "@components/Button";
 import Link from "@components/Link";
 
@@ -39,19 +38,18 @@ export default function SignIn() {
           <span className="text-tertiary-medium">with a single link</span>
         </h2>
 
-        <Button
-          primary={true}
-          key="github"
-          onClick={() => signIn("github")}
-        >
+        <Button primary={true} key="github" onClick={() => signIn("github")}>
           <span className="mr-2">
             <BsGithub className="text-2xl" />
           </span>
           Continue with GitHub
         </Button>
 
-        <p className="mt-10 text-center text-sm text-gray-500">
-          100% Open Source and FREE forever!
+        <p className="mt-10 text-center text-sm text-primary-low-medium">
+          Don&lsquo;t have a GitHub account? Create one on{" "}
+          <Link href="https://github.com/signup" target="_blank">
+            GitHub
+          </Link>
         </p>
       </div>
     </div>

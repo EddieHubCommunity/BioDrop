@@ -1,0 +1,61 @@
+{
+  "name": "David Raigoza",
+  "bio": "I'm David Raigoza, a product designer and engineer with a Master of Arts. In 2012, I founded PepeMatilda Jewelry, utilizing 3D modeling and printing to create unique designs. I led the design and development of innovative pieces. Alongside my jewelry brand, I've been actively involved in the blockchain space. I founded and managed a cryptocurrency investment club since 2017, participated in a Chainlink hackathon, and continuously expand my programming skills. Passionate about technology, I strive to stay at the forefront of industry trends.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DrTheFrog",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow my Project on Instagram",
+      "url": "https://www.instagram.com/pepe_matilda_/?hl=en",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/david-raigoza-bbb757198/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/DavidRaigozaJ/DavidRaigozaJ",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Visit our e-commerce",
+      "url": "https://pepeymatilda.co/",
+      "icon": "FaShoppingCart"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started PepeMatilda",
+      "date": "Jan 2013",
+      "icon": "FaDollarSign",
+      "description": "Started my own business",
+      "url": "https://pepeymatilda.co/"
+    },
+    {
+      "title": "Won a Lapiz de acero awards 3d jewelry designs",
+      "date": "Jan 2013",
+      "icon": "FaAward",
+      "description": "Started my own business",
+      "url": "https://www.eafit.edu.co/agencia-noticias/historico-noticias/2013/noticias-junio/Paginas/egresados-david-raigoza-lapiz-acero.aspx"
+    },
+    {
+      "title": "Finished my Arts Master ",
+      "date": "March 2018",
+      "icon": "FaAward",
+      "description": "My thesis obtained cum laude.",
+      "url": "https://repositorio.unal.edu.co/handle/unal/58690"
+    },
+    {
+      "title": "Participated in my first Hackathon ",
+      "date": "Jun 2023",
+      "icon": "SiDevpost",
+      "description": "Started Mining and ",
+      "url": "https://devpost.com/software/nftdeliverytracker-chainlink"
+    }
+  ]
+}

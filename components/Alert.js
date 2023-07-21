@@ -1,8 +1,8 @@
-import { ExclamationTriangleIcon } from "@heroicons/react/24/outline";
-import { ExclamationCircleIcon } from "@heroicons/react/24/outline";
-import { CheckCircleIcon } from "@heroicons/react/24/outline"
+import ExclamationTriangleIcon from "@heroicons/react/24/outline/ExclamationTriangleIcon";
+import ExclamationCircleIcon from "@heroicons/react/24/outline/ExclamationCircleIcon";
+import CheckCircleIcon from "@heroicons/react/24/outline/CheckCircleIcon";
 
-export default function alert({ type, message }) {
+export default function Alert({ type, message }) {
   switch (type) {
     case "success":
       return (
@@ -14,7 +14,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "error":
       return (
         <div
@@ -25,7 +24,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "warning":
       return (
         <div
@@ -36,7 +34,6 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
     case "info":
       return (
         <div
@@ -47,6 +44,5 @@ export default function alert({ type, message }) {
           <span>{message}</span>
         </div>
       );
-      break;
   }
 }

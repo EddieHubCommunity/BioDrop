@@ -1,45 +1,40 @@
-## [1.143.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.3...v1.143.4) (2023-06-18)
+## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
+
+
+
+## [1.159.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.3...v1.159.4) (2023-07-21)
 
 
 ### Bug Fixes
 
-* remove alert animation ([#7662](https://github.com/EddieHubCommunity/LinkFree/issues/7662)) ([e39065b](https://github.com/EddieHubCommunity/LinkFree/commit/e39065b940edccd08f13bad54bfc5614954d6289))
+* don't skip chore for releases ([#8291](https://github.com/EddieHubCommunity/LinkFree/issues/8291)) ([82b9bb7](https://github.com/EddieHubCommunity/LinkFree/commit/82b9bb712d8b7e4c2271c6bbb32e08f4f317fd4c))
 
 
 
-## [1.143.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.2...v1.143.3) (2023-06-18)
-
-
-### Bug Fixes
-
-* remove animate pulse from alert ([#7639](https://github.com/EddieHubCommunity/LinkFree/issues/7639)) ([abdf3ea](https://github.com/EddieHubCommunity/LinkFree/commit/abdf3ea3f8fd2767021f2e82f6c641a69f498c9f))
-
-
-
-## [1.143.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.1...v1.143.2) (2023-06-18)
+## [1.159.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.2...v1.159.3) (2023-07-21)
 
 
 ### Bug Fixes
 
-*  statistics and playground base url ([#7640](https://github.com/EddieHubCommunity/LinkFree/issues/7640)) ([8854b4e](https://github.com/EddieHubCommunity/LinkFree/commit/8854b4e491ec70010b2a4517af857abb4cc10b28))
+* labels for profile pull requests ([#8289](https://github.com/EddieHubCommunity/LinkFree/issues/8289)) ([7ddcc33](https://github.com/EddieHubCommunity/LinkFree/commit/7ddcc331460bd55cd0f8de418ccac14a806c56bd))
 
 
 
-## [1.143.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.143.0...v1.143.1) (2023-06-18)
+## [1.159.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.1...v1.159.2) (2023-07-21)
 
 
 ### Bug Fixes
 
-* update the LinkFree CLI version ([#7638](https://github.com/EddieHubCommunity/LinkFree/issues/7638)) ([bef374c](https://github.com/EddieHubCommunity/LinkFree/commit/bef374c6dbe8c7ae24b46546aead73ee1faa3ae1))
+* text consistency ([#8287](https://github.com/EddieHubCommunity/LinkFree/issues/8287)) ([5c2b6fc](https://github.com/EddieHubCommunity/LinkFree/commit/5c2b6fcdf8239051b081c5d60dc95b58181d1fd9))
 
 
 
-# [1.143.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.142.6...v1.143.0) (2023-06-16)
+## [1.159.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.0...v1.159.1) (2023-07-20)
 
 
-### Features
+### Bug Fixes
 
-* search by location ([#7535](https://github.com/EddieHubCommunity/LinkFree/issues/7535)) ([4949dc3](https://github.com/EddieHubCommunity/LinkFree/commit/4949dc395d9c15ce18e67c0310012fee4a17304c))
+* monitor vercel file usage percentage ([#8279](https://github.com/EddieHubCommunity/LinkFree/issues/8279)) ([3330172](https://github.com/EddieHubCommunity/LinkFree/commit/333017298454d3fe3aba07e2ed6231e29a5d3b4e))
 
 
 
