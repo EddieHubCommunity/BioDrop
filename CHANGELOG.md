@@ -1,45 +1,45 @@
-# [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
+## [1.159.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.0...v1.159.1) (2023-07-20)
+
+
+### Bug Fixes
+
+* monitor vercel file usage percentage ([#8279](https://github.com/EddieHubCommunity/LinkFree/issues/8279)) ([3330172](https://github.com/EddieHubCommunity/LinkFree/commit/333017298454d3fe3aba07e2ed6231e29a5d3b4e))
+
+
+
+# [1.159.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.158.0...v1.159.0) (2023-07-20)
 
 
 ### Features
 
-* edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
+* profile link in navbar ([#8276](https://github.com/EddieHubCommunity/LinkFree/issues/8276)) ([c7cd398](https://github.com/EddieHubCommunity/LinkFree/commit/c7cd3987c6744c7a25eac5a4e317ac9962471e2c))
 
 
 
-## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
+# [1.158.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.4...v1.158.0) (2023-07-20)
 
 
-### Bug Fixes
+### Features
 
-* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
-
-
-
-## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
-
-
-### Bug Fixes
-
-* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
+* codeql checking ([#8228](https://github.com/EddieHubCommunity/LinkFree/issues/8228)) ([62eb119](https://github.com/EddieHubCommunity/LinkFree/commit/62eb119bec00389534553b9f620d4d1795995450))
 
 
 
-## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
+## [1.157.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.3...v1.157.4) (2023-07-20)
 
 
 ### Bug Fixes
 
-* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
+* docker compose to new file naming ([#8267](https://github.com/EddieHubCommunity/LinkFree/issues/8267)) ([7014b67](https://github.com/EddieHubCommunity/LinkFree/commit/7014b676e671bb8e988b1b06a844b38266d26671))
 
 
 
-## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
+## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
 
 
 ### Bug Fixes
 
-* test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
+* remove reviewpad action ([#8251](https://github.com/EddieHubCommunity/LinkFree/issues/8251)) ([ba68e8e](https://github.com/EddieHubCommunity/LinkFree/commit/ba68e8ec1eb07a8d1b12064969cfee1fcb17f96b))
 
 
 
