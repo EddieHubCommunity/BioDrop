@@ -1,3 +1,12 @@
+## [1.159.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.5...v1.159.6) (2023-07-21)
+
+
+### Bug Fixes
+
+* gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
+
+
+
 ## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * text consistency ([#8287](https://github.com/EddieHubCommunity/LinkFree/issues/8287)) ([5c2b6fc](https://github.com/EddieHubCommunity/LinkFree/commit/5c2b6fcdf8239051b081c5d60dc95b58181d1fd9))
-
-
-
-## [1.159.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.0...v1.159.1) (2023-07-20)
-
-
-### Bug Fixes
-
-* monitor vercel file usage percentage ([#8279](https://github.com/EddieHubCommunity/LinkFree/issues/8279)) ([3330172](https://github.com/EddieHubCommunity/LinkFree/commit/333017298454d3fe3aba07e2ed6231e29a5d3b4e))
 
 
 
