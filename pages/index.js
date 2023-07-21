@@ -82,7 +82,7 @@ export default function Home({ total, today, randomProfile, BASE_URL }) {
     {
       name: "LinkFree Statistics",
       description:
-        "View details of your LinkFree profile, with views and url clicks",
+        "View details of your LinkFree profile, with views and url clicks.",
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
       imageAlt: "LinkFree screenshot of account statistics page",
