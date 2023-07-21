@@ -1,3 +1,12 @@
+## [1.159.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.2...v1.159.3) (2023-07-21)
+
+
+### Bug Fixes
+
+* labels for profile pull requests ([#8289](https://github.com/EddieHubCommunity/LinkFree/issues/8289)) ([7ddcc33](https://github.com/EddieHubCommunity/LinkFree/commit/7ddcc331460bd55cd0f8de418ccac14a806c56bd))
+
+
+
 ## [1.159.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.1...v1.159.2) (2023-07-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * codeql checking ([#8228](https://github.com/EddieHubCommunity/LinkFree/issues/8228)) ([62eb119](https://github.com/EddieHubCommunity/LinkFree/commit/62eb119bec00389534553b9f620d4d1795995450))
-
-
-
-## [1.157.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.3...v1.157.4) (2023-07-20)
-
-
-### Bug Fixes
-
-* docker compose to new file naming ([#8267](https://github.com/EddieHubCommunity/LinkFree/issues/8267)) ([7014b67](https://github.com/EddieHubCommunity/LinkFree/commit/7014b676e671bb8e988b1b06a844b38266d26671))
 
 
 
