@@ -1,3 +1,12 @@
+## [1.159.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.1...v1.159.2) (2023-07-21)
+
+
+### Bug Fixes
+
+* text consistency ([#8287](https://github.com/EddieHubCommunity/LinkFree/issues/8287)) ([5c2b6fc](https://github.com/EddieHubCommunity/LinkFree/commit/5c2b6fcdf8239051b081c5d60dc95b58181d1fd9))
+
+
+
 ## [1.159.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.0...v1.159.1) (2023-07-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docker compose to new file naming ([#8267](https://github.com/EddieHubCommunity/LinkFree/issues/8267)) ([7014b67](https://github.com/EddieHubCommunity/LinkFree/commit/7014b676e671bb8e988b1b06a844b38266d26671))
-
-
-
-## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
-
-
-### Bug Fixes
-
-* remove reviewpad action ([#8251](https://github.com/EddieHubCommunity/LinkFree/issues/8251)) ([ba68e8e](https://github.com/EddieHubCommunity/LinkFree/commit/ba68e8ec1eb07a8d1b12064969cfee1fcb17f96b))
 
 
 
