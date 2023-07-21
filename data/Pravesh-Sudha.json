@@ -1,13 +1,7 @@
 {
   "name": "Pravesh Sudha",
   "bio": "**Open Source** | DevOps | Go Developer | Philosophy Student | Self-Taught Developer",
-  "tags": [
-    "Open Source",
-    "DevOps",
-    "GoLang",
-    "Kubernetes",
-    "Docker"
-  ],
+  "tags": ["Open Source", "DevOps", "GoLang", "Kubernetes", "Docker"],
   "links": [
     {
       "name": "YouTube",

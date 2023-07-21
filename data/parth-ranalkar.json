@@ -1,7 +1,7 @@
 {
   "name": "Parth Ranalkar",
   "bio": "**Open Source** 💻 | Web Developer 👨‍💻 ",
-  "tags": ["Open Source", "Javascript" , "TypeScript" , "Node.js"],
+  "tags": ["Open Source", "Javascript", "TypeScript", "Node.js"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -15,7 +15,7 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/parth-ranalkar"
     },
-     {
+    {
       "icon": "SiHashnode",
       "url": "https://parthsays.hashnode.dev/"
     }
@@ -39,7 +39,7 @@
       "url": "https://www.linkedin.com/in/parth-ranalkar",
       "icon": "FaLinkedinIn"
     },
-     {
+    {
       "group": "Socials Secondary",
       "name": "Hashnode: Read my Blogs here",
       "url": "https://parthsays.hashnode.dev/",
@@ -52,7 +52,7 @@
       "icon": "SiInstagram"
     }
   ],
-  "milestones":[
+  "milestones": [
     {
       "title": "Started Blogging",
       "date": "July 2023",
