@@ -1,45 +1,40 @@
-## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
+## [1.159.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.6...v1.159.7) (2023-07-21)
 
 
 ### Bug Fixes
 
-* remove reviewpad action ([#8251](https://github.com/EddieHubCommunity/LinkFree/issues/8251)) ([ba68e8e](https://github.com/EddieHubCommunity/LinkFree/commit/ba68e8ec1eb07a8d1b12064969cfee1fcb17f96b))
+* dependabot to create releases ([#8297](https://github.com/EddieHubCommunity/LinkFree/issues/8297)) ([df4965a](https://github.com/EddieHubCommunity/LinkFree/commit/df4965a61172ab38c1e3a244dda37b9f87d99a6e))
 
 
 
-## [1.157.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.1...v1.157.2) (2023-07-18)
-
-
-### Bug Fixes
-
-* profile card hover dark mode ([#8192](https://github.com/EddieHubCommunity/LinkFree/issues/8192)) ([d59fed3](https://github.com/EddieHubCommunity/LinkFree/commit/d59fed382ef3dd9ec5b93f4a3103f8e5e05cf17e))
-
-
-
-## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
+## [1.159.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.5...v1.159.6) (2023-07-21)
 
 
 ### Bug Fixes
 
-* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
+* gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
 
 
 
-# [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
-
-
-### Features
-
-* edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
+## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
 
 
 
-## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
+## [1.159.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.3...v1.159.4) (2023-07-21)
 
 
 ### Bug Fixes
 
-* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
+* don't skip chore for releases ([#8291](https://github.com/EddieHubCommunity/LinkFree/issues/8291)) ([82b9bb7](https://github.com/EddieHubCommunity/LinkFree/commit/82b9bb712d8b7e4c2271c6bbb32e08f4f317fd4c))
+
+
+
+## [1.159.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.2...v1.159.3) (2023-07-21)
+
+
+### Bug Fixes
+
+* labels for profile pull requests ([#8289](https://github.com/EddieHubCommunity/LinkFree/issues/8289)) ([7ddcc33](https://github.com/EddieHubCommunity/LinkFree/commit/7ddcc331460bd55cd0f8de418ccac14a806c56bd))
 
 
 

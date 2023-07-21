@@ -77,11 +77,13 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     async function fetchUsers(value) {
       try {
         const res = await fetch(
-          `${BASE_URL}/api/search/${value.replaceAll(",", "/")}`
+          `${BASE_URL}/api/search?${new URLSearchParams({
+            slug: value
+          }).toString()}`
         );
         const data = await res.json();
         if (data.error) {
-          throw new Error(`${inputValue} not found`);
+          throw new Error(`${value} not found`);
         }
 
         setNotFound();

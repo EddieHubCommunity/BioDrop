@@ -10,10 +10,59 @@ Gitpod is an open-source application that provides a prebuilt development enviro
 
 You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
 
-There are 2 ways you can open a repository with Gitpod:
+There are **2** ways you can open a repository with Gitpod.
 
-- Prefix the url with `gitpod.io/#`
-- Use the [Browser Extension](https://www.gitpod.io/docs/configure/user-settings/browser-extension)
+#### 1st Method: Prefix the url with `gitpod.io/#`
+
+1. Go to the GitHub page of your forked LinkFree repository
+2. Copy the url from the address bar and paste the code `gitpod.io/#` in front of it
+
+![Screen1 - Add snippet in front of url](https://user-images.githubusercontent.com/107807044/254932727-3137032b-337c-418e-9e65-9e705a58dec9.png)
+
+3. After starting the search, a warning screen will open; you can click the _Continue_ button
+
+![Screen2 - Warning](https://user-images.githubusercontent.com/107807044/254932761-1151f3fc-944b-4930-97f4-966ee7186d74.png)
+
+4. The VS Code environment will appear
+
+![Screen3 - VS Code environment](https://user-images.githubusercontent.com/107807044/254932795-70d500aa-8828-43ef-8572-3b9b58d0e0e7.png)
+
+#### 2nd Method: Use a browser extension
+
+The Gitpod extensions is available for [Firefox](https://addons.mozilla.org/it/firefox/addon/gitpod/) and [Chrome](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki). It also works for Edge, Brave, and other Chromium-based browsers.
+For further details, read the [Browser Extension documentation](https://www.gitpod.io/docs/configure/user-settings/browser-extension) on Gitpod official website.
+
+### Permissions
+
+If you encounter permission issues, follow the next steps:
+
+1. Click on the menu button (the three horizonal lines icon) in the upper left corner and open the Dashboard
+
+![Screen4 - Menu: Open the Dashboard](https://user-images.githubusercontent.com/107807044/254932845-ab2e5a34-e220-44e6-b501-7ca9af881218.png)
+&nbsp;
+
+2. In the Workspaces page, click on your profile icon and choose _User settings_
+
+![Screen5 - User Settings](https://user-images.githubusercontent.com/107807044/254932891-6a446028-147e-47e0-99a9-82874a949129.png)
+
+3. From the left menu, click on the _Git Providers_ tab; on the right side, click on the three dots icon of the repository that interests you
+
+![Screen6 - Git Providers Section + 3 Dots](https://user-images.githubusercontent.com/107807044/254932921-2ff82496-2f23-4aab-9534-41cc8d481b59.png)
+
+4. Choose _Edit Permissions_
+5. Make sure that you have checked _public_repo_ and _workflow_, then click on _Update permissions_
+
+![Screen7 - Edit Permission Settings](https://user-images.githubusercontent.com/107807044/254932967-e2e73598-1389-4e78-82dd-c21315e9650e.png)
+
+6. A first new window will open requesting additional permissions; you can click on the _Authorize gitpod-io_ button
+
+![Screen8 - Add additional permissions](https://user-images.githubusercontent.com/107807044/254933012-ee8e10f1-ce60-4449-b4d3-c39a8dcd7ba6.png)
+
+7. A second new window will open, asking you to confirm to apply the changes made by entering your GitHub account password; you can apply and save the changes by clicking on the _Confirm_ button
+
+![Screen9 - Confirm with password](https://user-images.githubusercontent.com/107807044/254933034-d62098c3-b37c-4540-87d9-8d4fd641696e.png)
+
+[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
 
 ### Development
 
@@ -59,15 +108,25 @@ Now we can update our profile. To do this, create a new branch with the followin
 git checkout -b update-YOUR_PROFILE_NAME
 ```
 
-Now we are ready to make some modification to our profile. Find the file with your account name in the `data` folder, and modify it as you want.
+<Alert
+  type="info"
+  message={
+    <>
+      {" "}
+      NOTE: To create your profile on LinkFree, please follow the [Quickstart guide](https://linkfree.io/docs/quickstart).{" "}
+    </>
+  }
+/>
 
-For example, you can copy and past the following code
+Now that we have our profile, we are ready to make some modification to our profile. Find the file with your account name in the `data` folder, and modify it as you want.
+
+For example, you can copy and past the following code:
 
 ```json
 "milestones": [
     {
       "title": "Used Gitpod to Update my Profile",
-      "date": "May 2023", // update to the correct date
+      "date": "July 2023", // date updated
       "icon": "FaCode",
       "description": "Started my profile by using Gitpod",
       "url": "https://gitpod.com/"
@@ -75,17 +134,7 @@ For example, you can copy and past the following code
   ]
 ```
 
-As a last step, commit the changes and create a PR in the LinkFree Repository.
-
-### Permissions
-
-If you encounter permission issues, follow the next steps:
-
-- Open the user settings of your Gitpod profile and click on _Integrations_
-- Click on the 3 dots after Github and choose _Edit Permissions_
-- Make sure that you have checked _public_repo_ and _workflow_
-
-[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io#https://github.com/EddieHubCommunity/LinkFree)
+Lastly, commit the changes and create a PR in the LinkFree repository.
 
 export default ({ children }) => (
   <DocsLayout
