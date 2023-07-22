@@ -62,7 +62,6 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "postinstall": "shx cp -n ./.env.example ./.env",
-    
     "cli": "npx linkfree-cli"
   },
   "browserslist": {
