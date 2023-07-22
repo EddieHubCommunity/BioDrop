@@ -50,6 +50,7 @@ export async function getProfileApi(username) {
 
   return JSON.parse(JSON.stringify(getProfile));
 }
+
 export async function updateProfileApi(username, data, providerAccountId) {
   await connectMongo();
   const log = logger.child({ username });
@@ -72,6 +73,16 @@ export async function updateProfileApi(username, data, providerAccountId) {
     return { error: e.errors };
   }
 
+  let account = {};
+  try {
+    account = await getAccountByProviderAccountId(providerAccountId);
+    if (account) {
+      updateProfile.account = account._id;
+    }
+  } catch (e) {
+    log.error(e, `failed to get account for username: ${username}`);
+  }
+
   try {
     getProfile = await Profile.findOneAndUpdate({ username }, updateProfile, {
       upsert: true,
@@ -84,7 +95,6 @@ export async function updateProfileApi(username, data, providerAccountId) {
 
   // associate profile to account
   try {
-    const account = await getAccountByProviderAccountId(providerAccountId);
     await associateProfileWithAccount(account, getProfile._id);
   } catch (e) {
     log.error(

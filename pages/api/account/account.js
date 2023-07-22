@@ -27,12 +27,15 @@ export default async function handler(req, res) {
   }
 }
 
-export async function getAccountByProviderAccountId(providerAccountId) {
+export async function getAccountByProviderAccountId(
+  providerAccountId,
+  provider = "github"
+) {
   await connectMongo();
 
   let account = null;
   try {
-    account = await Account.findOne({ provider: "github", providerAccountId });
+    account = await Account.findOne({ provider, providerAccountId });
     if (!account) {
       logger.info(
         `Account not found for providerAccountId: ${providerAccountId}`
