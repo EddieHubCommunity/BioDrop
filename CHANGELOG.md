@@ -1,3 +1,12 @@
+## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
+
+
+### Bug Fixes
+
+* breaking GHCR workflow ([#8310](https://github.com/EddieHubCommunity/LinkFree/issues/8310)) ([feadad3](https://github.com/EddieHubCommunity/LinkFree/commit/feadad38ec505ddee96dd816cacca6256444e682))
+
+
+
 ## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
 
 
@@ -31,10 +40,6 @@
 ### Bug Fixes
 
 * gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
-
-
-
-## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
 
 
 
