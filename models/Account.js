@@ -54,10 +54,18 @@ const AccountSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
-    profiles: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Profile',
-    }],
+    profiles: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Profile",
+      },
+    ],
+    github: {
+      company: String,
+      publicRepos: Number,
+      followers: Number,
+      following: Number,
+    },
   },
   { timestamps: true }
 );
