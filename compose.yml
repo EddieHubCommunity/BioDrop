@@ -7,8 +7,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
-      args:
-        - NODE_ENV=development
     image: linkfree-app
     ports:
       - "3000:3000"
