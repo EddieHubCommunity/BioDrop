@@ -49,7 +49,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "dev:docker": "shx cp -n ./.env.docker ./.env && next dev",
+    "docker:dev": "shx cp -n ./.env.docker ./.env && next dev",
     "dev-wsl": "HOST=$(hostname -I | awk '{print $1}') && next dev --hostname ${HOST}",
     "prebuild": "node ./config/schemas/serverSchema.js && node ./config/schemas/clientSchema.js",
     "build": "next build",

@@ -11,4 +11,4 @@ COPY . .
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
 
-CMD ["npm", "run", "dev:docker"]
+CMD ["npm", "run", "docker:dev"]
