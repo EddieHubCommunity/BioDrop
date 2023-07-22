@@ -1,45 +1,45 @@
-## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
+## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
 
 
 ### Bug Fixes
 
-* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
+* breaking GHCR workflow ([#8310](https://github.com/EddieHubCommunity/LinkFree/issues/8310)) ([feadad3](https://github.com/EddieHubCommunity/LinkFree/commit/feadad38ec505ddee96dd816cacca6256444e682))
 
 
 
-## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
+## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
 
 
-### Bug Fixes
+### Reverts
 
-* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
-
-
-
-## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
-
-
-### Bug Fixes
-
-* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
+* Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
 
 
 
-## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
+## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
 
 
 ### Bug Fixes
 
-* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
+* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
 
 
 
-## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+## [1.159.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.6...v1.159.7) (2023-07-21)
 
 
 ### Bug Fixes
 
-* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+* dependabot to create releases ([#8297](https://github.com/EddieHubCommunity/LinkFree/issues/8297)) ([df4965a](https://github.com/EddieHubCommunity/LinkFree/commit/df4965a61172ab38c1e3a244dda37b9f87d99a6e))
+
+
+
+## [1.159.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.5...v1.159.6) (2023-07-21)
+
+
+### Bug Fixes
+
+* gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
 
 
 

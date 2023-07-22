@@ -1,0 +1,11 @@
+version: 1
+labels:
+  - label: "✍ chore: profile"
+    files:
+      - "data/*"
+  - label: "tests"
+    files:
+      - "tests/*"
+  - label: "storybook"
+    files:
+      - "stories/*"

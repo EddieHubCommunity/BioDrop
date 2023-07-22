@@ -77,11 +77,13 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     async function fetchUsers(value) {
       try {
         const res = await fetch(
-          `${BASE_URL}/api/search/${value.replaceAll(",", "/")}`
+          `${BASE_URL}/api/search?${new URLSearchParams({
+            slug: value
+          }).toString()}`
         );
         const data = await res.json();
         if (data.error) {
-          throw new Error(`${inputValue} not found`);
+          throw new Error(`${value} not found`);
         }
 
         setNotFound();
@@ -184,7 +186,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source, reactjs"
+            placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
