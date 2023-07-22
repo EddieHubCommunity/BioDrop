@@ -1,3 +1,12 @@
+## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
+
+
+### Reverts
+
+* Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
+
+
+
 ## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
 
 
@@ -26,15 +35,6 @@
 
 
 ## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
-
-
-
-## [1.159.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.3...v1.159.4) (2023-07-21)
-
-
-### Bug Fixes
-
-* don't skip chore for releases ([#8291](https://github.com/EddieHubCommunity/LinkFree/issues/8291)) ([82b9bb7](https://github.com/EddieHubCommunity/LinkFree/commit/82b9bb712d8b7e4c2271c6bbb32e08f4f317fd4c))
 
 
 
