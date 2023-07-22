@@ -6,7 +6,6 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install  --omit=dev --ignore-scripts
 COPY . .
-RUN npm run docker:prod-env
 
 RUN sed -i 's/0.0.0/'`npm pkg get version | tr -d '"'`'/g' config/app.json
 
