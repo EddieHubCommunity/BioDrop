@@ -48,7 +48,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
       - name: Setup Env
-        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" > /tmp/.env
+        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" >> /tmp/.env
       - name: push to Github Container Registry
         uses: docker/build-push-action@v3
         with:
