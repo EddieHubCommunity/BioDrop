@@ -1,3 +1,12 @@
+## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
+
+
+### Bug Fixes
+
+* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
+
+
+
 ## [1.159.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.6...v1.159.7) (2023-07-21)
 
 
@@ -26,15 +35,6 @@
 ### Bug Fixes
 
 * don't skip chore for releases ([#8291](https://github.com/EddieHubCommunity/LinkFree/issues/8291)) ([82b9bb7](https://github.com/EddieHubCommunity/LinkFree/commit/82b9bb712d8b7e4c2271c6bbb32e08f4f317fd4c))
-
-
-
-## [1.159.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.2...v1.159.3) (2023-07-21)
-
-
-### Bug Fixes
-
-* labels for profile pull requests ([#8289](https://github.com/EddieHubCommunity/LinkFree/issues/8289)) ([7ddcc33](https://github.com/EddieHubCommunity/LinkFree/commit/7ddcc331460bd55cd0f8de418ccac14a806c56bd))
 
 
 
