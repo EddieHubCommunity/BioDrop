@@ -1,0 +1,31 @@
+{
+  "name": "Sanatan Kisku",
+  "bio": "I am a Frontend Developer, MCA 2022 Graduate",
+  "Links": [
+    {
+      "name": "Personal Portfolio",
+      "url": "https://codekisku.github.io/Portfolio/",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Check my GitHub",
+      "url": "https://github.com/CodeKisku",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/sanatan-kisku-819a2948/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow on Leetcode",
+      "url": "https://leetcode.com/sanatankisku/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/KiskuTweets",
+      "icon": "FaTwitter"
+    }
+  ]
+}

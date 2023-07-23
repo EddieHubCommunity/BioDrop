@@ -1,35 +1,45 @@
-## [1.153.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.3...v1.153.4) (2023-07-09)
+## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
 
 
 ### Bug Fixes
 
-* basic tests for forms ([#7987](https://github.com/EddieHubCommunity/LinkFree/issues/7987)) ([aa75212](https://github.com/EddieHubCommunity/LinkFree/commit/aa75212c056308473f679da9618444ab292b8694))
+* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
 
 
 
-## [1.153.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.2...v1.153.3) (2023-07-09)
-
-
-
-## [1.153.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.1...v1.153.2) (2023-07-08)
-
-
-
-## [1.153.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.153.0...v1.153.1) (2023-07-08)
-
-
-### Bug Fixes
-
-* inconsistent styling in events section ([#8022](https://github.com/EddieHubCommunity/LinkFree/issues/8022)) ([0df9e28](https://github.com/EddieHubCommunity/LinkFree/commit/0df9e288a9fb060bdb4a5c08fc2a45ac864ea826))
-
-
-
-# [1.153.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.152.0...v1.153.0) (2023-07-08)
+# [1.160.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.10...v1.160.0) (2023-07-23)
 
 
 ### Features
 
-* social share for profile ([#7700](https://github.com/EddieHubCommunity/LinkFree/issues/7700)) ([57c9571](https://github.com/EddieHubCommunity/LinkFree/commit/57c9571046ef02cca77bffd4a9c0722b1d68693f))
+* link profile to account ([#8315](https://github.com/EddieHubCommunity/LinkFree/issues/8315)) ([f806b5f](https://github.com/EddieHubCommunity/LinkFree/commit/f806b5f6adc430b3bf76cbc7d2972fd797d76e5e)), closes [#8232](https://github.com/EddieHubCommunity/LinkFree/issues/8232)
+
+
+
+## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
+
+
+### Bug Fixes
+
+* breaking GHCR workflow ([#8310](https://github.com/EddieHubCommunity/LinkFree/issues/8310)) ([feadad3](https://github.com/EddieHubCommunity/LinkFree/commit/feadad38ec505ddee96dd816cacca6256444e682))
+
+
+
+## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
+
+
+### Reverts
+
+* Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
+
+
+
+## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
+
+
+### Bug Fixes
+
+* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
 
 
 

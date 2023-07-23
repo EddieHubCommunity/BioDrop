@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 const defaultUsers = 10;
 
@@ -65,7 +65,7 @@ test("Search page shows results after typing 3 characters", async ({
   await expect(page.locator("main li")).toContainText(["aka"]);
 });
 
-test.fixme("After search click profile", async ({ page }) => {
+test.fixme("After search click profile", async () => {
   // 1. perform search
   // 2. click on searched profile
   // 3. check profile is displayed
@@ -73,7 +73,7 @@ test.fixme("After search click profile", async ({ page }) => {
 
 test.fixme(
   "find the profile after providing concise name",
-  async ({ page }) => {
+  async () => {
     // 1. click on search profile
     // 2. type the whole name
     // 3. Display the profile if the name is correct

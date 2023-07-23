@@ -42,6 +42,11 @@ const EventSchema = new Schema({
     lat: Number,
     lon: Number,
   },
+  color: {
+    type: String,
+    min: 2,
+    max: 16,
+  },
 });
 
 EventSchema.pre("save", () => {

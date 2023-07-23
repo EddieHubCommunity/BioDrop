@@ -1,7 +1,14 @@
 {
   "name": "Bikram Behera",
   "bio": "I am a MERNstack Developer. Programming enthusiast, touch typing & Love to learn new things",
-  "tags": ["Open Source", "MOngodb","Node js", "React js","Express js", "Java"],
+  "tags": [
+    "Open Source",
+    "MOngodb",
+    "Node js",
+    "React js",
+    "Express js",
+    "Java"
+  ],
   "milestones": [
     {
       "title": "Started Contributing to Open Source",

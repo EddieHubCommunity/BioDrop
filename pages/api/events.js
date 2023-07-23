@@ -52,7 +52,7 @@ export async function getEvents(withLocation = false) {
         isEnabled: { $first: "$isEnabled" },
       },
     },
-    { $sort: { "events.date.start": 1 } }
+    { $sort: { "date.start": 1 } }
   );
 
   try {

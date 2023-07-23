@@ -1,13 +1,42 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
-import { login } from "../setup/auth";
+import { login, logout } from "../setup/auth";
 
-test("Logged in user can access dashboard", async ({ browser }) => {
+test("Guest user cannot access manage profile", async ({ browser }) => {
+  // fixture: make sure user is not logged in
+  const context = await logout(browser);
+  const page = await context.newPage();
+  await page.goto("/account/manage/profile");
+  await expect(page).toHaveURL(/auth\/signin/);
+});
+
+test("Logged in user can access manage profile", async ({ browser }) => {
   // fixture: make sure user is logged in
   const context = await login(browser);
   const page = await context.newPage();
   await page.goto("/account/manage/profile");
   await expect(page).toHaveURL(/account\/manage\/profile/);
+});
+
+test("Logged in user can manage thieir profile", async ({ browser }) => {
+  const originalName = "Test User Name 6";
+  const updatedName = "Test User Name 6 UPDATED!";
+  const context = await login(browser);
+  const page = await context.newPage();
+
+  await page.goto("/_test-profile-user-6");
+  await expect(page.locator("h1")).toHaveText(originalName);
+
+  await page.goto("/account/manage/profile");
+
+  // change profile
+  await expect(page.locator("input#name")).toHaveValue(originalName);
+  await page.fill("input#name", updatedName);
+  await page.click("button:has-text('Save')");
+
+  // visit profile and check if changes are reflected
+  await page.goto("/_test-profile-user-6");
+  await expect(page.locator("h1")).toHaveText(updatedName);
 });
 
 test.describe("accessibility tests (light)", () => {
@@ -27,7 +56,9 @@ test.describe("accessibility tests (light)", () => {
 test.describe("accessibility tests (dark)", () => {
   test.use({ colorScheme: "dark" });
 
-  test("should pass axe wcag accessibility tests (dark)", async ({ browser }) => {
+  test("should pass axe wcag accessibility tests (dark)", async ({
+    browser,
+  }) => {
     const context = await login(browser);
     const page = await context.newPage();
     await page.goto("/account/manage/profile");
