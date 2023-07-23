@@ -1,0 +1,26 @@
+{
+  "name": "Nitish Singh",
+  "bio": "I m a Software Engineer, Frontend developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Singh_Nitish26",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/singh-nitish26/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/singh_nitish26/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Singh26Nitish",
+      "icon": "FaGithub"
+    }
+  ]
+}
