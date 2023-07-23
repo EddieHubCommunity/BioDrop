@@ -6,6 +6,13 @@
     "inline",
     "column-2"
   ],
+  "transitions": [
+    "No Animation",
+    "Zoom In",
+    "Zoom Out",
+    "Slide Left",
+    "Slide Right"
+  ],
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

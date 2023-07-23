@@ -19,6 +19,13 @@ export default function UserLink({
     aria = "Globe";
   }
 
+  const getTransitions = new Map([
+    ["Zoom In", "group hover:-translate-y-1 hover:scale-110"],
+    ["Zoom Out", "group hover:-translate-Y-1 hover:scale-95"],
+    ["Slide Left", "group hover:-translate-x-6"],
+    ["Slide Right", "group hover:translate-x-6"]
+  ]);
+
   const item = (link) => (
     <Link
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
@@ -26,12 +33,12 @@ export default function UserLink({
       rel="noopener noreferrer"
       className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
         isEnabled ? "" : "opacity-50"
-      }`}
+      } ${getTransitions.get(link.transition)} transition duration-300 ease-in-out transform-gpu`}
       style={{
         "--hover-color": colors[link.icon],
       }}
     >
-      <span style={{ color: colors[link.icon] }}>
+      <span className = {`transition ease-in-out duration-500 group-hover:scale-150`} style={{ color: colors[link.icon] }}>
         <DisplayIcon aria-label={`${aria} icon`} />
       </span>
       <span className="grow">{link.name}</span>

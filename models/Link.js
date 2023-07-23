@@ -25,6 +25,12 @@ const LinkSchema = new mongoose.Schema(
       min: 2,
       max: 256,
     },
+    transition: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 32,
+    },
     icon: {
       type: String,
       required: true,

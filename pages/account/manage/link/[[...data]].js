@@ -16,6 +16,8 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import Select from "@components/form/Select";
+import config from "@config/app.json";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -60,12 +62,14 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
+  const [transition, setTransition] = useState(link.transition || "No Animation");
 
+  const transitions = config.transitions;
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned };
+    let putLink = { group, name, url, icon, isEnabled, isPinned, transition };
 
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
     if (edit) {
@@ -226,6 +230,15 @@ export default function ManageLink({ BASE_URL, username, link }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Select
+                      name="transition"
+                      label="Transition"
+                      value={transition}
+                      options={transitions}
+                      onChange={(e) => setTransition(e.target.value)}
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Enable?"
                       text2="hide/show link on profile"
@@ -264,7 +277,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon }}
+              link={{ name, url, icon, transition }}
               username={username}
             />
           </div>
