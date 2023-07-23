@@ -35,10 +35,26 @@ const EventSchema = new Schema({
     startingFrom: Number,
   },
   location: {
-    road: String,
-    city: String,
-    state: String,
-    country: String,
+    road: {
+      type: String,
+      min: 2,
+      max: 128,
+    },
+    city: {
+      type: String,
+      min: 2,
+      max: 128,
+    },
+    state: {
+      type: String,
+      min: 2,
+      max: 128,
+    },
+    country: {
+      type: String,
+      min: 2,
+      max: 128,
+    },
     lat: Number,
     lon: Number,
   },
