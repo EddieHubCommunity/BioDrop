@@ -68,9 +68,9 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="justify-center my-4 text-center whitespace-pre-wrap">
-  <ReactMarkdown  components={{ a: LinkRenderer }}>
-         {data.bio.replace(/\n/gi, '\n &nbsp;')}
-</ReactMarkdown>
+        <ReactMarkdown components={{ a: LinkRenderer }}>
+          {data.bio.replace(/\n/gi, "\n &nbsp;")}
+        </ReactMarkdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
