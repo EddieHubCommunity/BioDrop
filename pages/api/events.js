@@ -48,7 +48,7 @@ export async function getEvents(withLocation = false) {
         url: { $first: "$events.url" },
         name: { $first: "$events.name" },
         description: { $first: "$events.description" },
-        location: { $first: "$events.location" },
+        location: { $mergeObjects: "$events.location" },
         isEnabled: { $first: "$isEnabled" },
       },
     },

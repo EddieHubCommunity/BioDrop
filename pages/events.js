@@ -23,7 +23,7 @@ export default function Events({ events }) {
   let categorizedEvents = {
     all: events,
     virtual: events.filter((event) => event.isVirtual === true),
-    inPerson: events.filter((event) => event.isInPerson === true),
+    inPerson: events.filter((event) => event.location?.country),
     cfpOpen: events.filter((event) => event.date.cfpOpen === true),
     free: events.filter((event) => event.price?.startingFrom === 0),
     paid: events.filter((event) => event.price?.startingFrom > 0),

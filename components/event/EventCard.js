@@ -52,7 +52,9 @@ export default function EventCard({ manage, event, usernames }) {
           {event.isVirtual && (
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
-          {event.isInPerson && <MdOutlinePeople title="In person event" />}
+          {event.location?.country && (
+            <MdOutlinePeople title="In person event" />
+          )}
           {event.date.cfpOpen && <FaMicrophoneAlt title="CFP is open" />}
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
@@ -97,17 +99,11 @@ export default function EventCard({ manage, event, usernames }) {
                 {event.description}
               </ReactMarkdown>
               <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
-                {(event.isVirtual || (event.isInPerson && event.location)) && (
-                  <FaMapPin />
-                )}
+                {(event.isVirtual || event.location?.country) && <FaMapPin />}
                 <span>
                   {event.isVirtual && "Remote"}
-                  {event.isVirtual &&
-                    event.isInPerson &&
-                    event.location &&
-                    " AND in "}
-                  {event.isInPerson &&
-                    event.location &&
+                  {event.isVirtual && event.location?.country && " AND in "}
+                  {event.location?.country &&
                     Object.values(event.location).join(", ")}
                 </span>
               </p>

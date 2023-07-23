@@ -31,7 +31,7 @@ export default function UserEvents({ manage = false, events }) {
       case "virtual":
         return event.date.future && event.isVirtual;
       case "inPerson":
-        return event.date.future && event.isInPerson;
+        return event.date.future && event.location?.country;
       case "cfpOpen":
         return event.date.cfpOpen;
       case "free":
