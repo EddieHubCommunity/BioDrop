@@ -1,3 +1,12 @@
+# [1.160.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.10...v1.160.0) (2023-07-23)
+
+
+### Features
+
+* link profile to account ([#8315](https://github.com/EddieHubCommunity/LinkFree/issues/8315)) ([f806b5f](https://github.com/EddieHubCommunity/LinkFree/commit/f806b5f6adc430b3bf76cbc7d2972fd797d76e5e)), closes [#8232](https://github.com/EddieHubCommunity/LinkFree/issues/8232)
+
+
+
 ## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dependabot to create releases ([#8297](https://github.com/EddieHubCommunity/LinkFree/issues/8297)) ([df4965a](https://github.com/EddieHubCommunity/LinkFree/commit/df4965a61172ab38c1e3a244dda37b9f87d99a6e))
-
-
-
-## [1.159.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.5...v1.159.6) (2023-07-21)
-
-
-### Bug Fixes
-
-* gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
 
 
 
