@@ -1,9 +1,9 @@
 import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
 
+import BreadCrumb from "@components/BreadCrumb";
 import Page from "@components/Page";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
-import BreadCrumb from "@components/BreadCrumb";
 import SideNav from "@components/navbar/SideNav";
 
 // TODO: have page nav highlighted when on that page
@@ -129,9 +129,9 @@ export default function DocsLayout({ children, title, section, name }) {
 
         <div className="flex flex-grow flex-row">
           <SideNav navigation={navigation} />
-          <div className="float-none my-0 max-w-[1440px] prose">
+          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
             <MDXProvider components={ComponentStyle}>
-              <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white">
+              <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white prose">
                 {children}
               </div>
             </MDXProvider>
