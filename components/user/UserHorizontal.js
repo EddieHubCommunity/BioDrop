@@ -31,7 +31,6 @@ export default function UserHorizontal({ profile }) {
           {profile.bio}
         </ReactMarkdown>
             </div>
-            {/* <img className="h-10 w-10 flex-shrink-0 rounded-full bg-gray-300" src={person.imageUrl} alt="" /> */}
           </div>
           {profile.tags?.length > 0 &&
           <div className="flex flex-wrap justify-center">

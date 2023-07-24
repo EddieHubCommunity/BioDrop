@@ -167,7 +167,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         <div className="flex flex-wrap justify-center space-x-3 mb-4">
           {tags &&
             tags
-              .slice(0, 9)
+              .slice(0, 10)
               .map((tag) => (
                 <Tag
                   key={tag.name}
@@ -195,7 +195,6 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
 
         {notFound && <Alert type="error" message={notFound} />}
         <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {/* <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]"> */}
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
