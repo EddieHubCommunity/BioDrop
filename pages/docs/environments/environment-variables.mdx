@@ -20,7 +20,7 @@ Environment variables are needed in the `.env` file to allow the application to 
 | variable                         | example                                  | required | description                                                                                                 |
 | :------------------------------- | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
 | LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree       | true     | Database connection string                                                                                  |
-| NEXT_PUBLIC_BASE_URL             | http://localhost:3000                    | true     | Hosting url                                                                                                 |
+| NEXT_PUBLIC_BASE_URL             | http://localhost:3000                    | true     | Hosting URL: localhost:3000 or Gitpod url                                                                   |
 | NODE_ENV                         | development                              | true     | -                                                                                                           |
 | GITHUB_ID                        | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
 | GITHUB_SECRET                    | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
@@ -28,6 +28,17 @@ Environment variables are needed in the `.env` file to allow the application to 
 | NEXTAUTH_SECRET                  | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
 | GITHUB_API_TOKEN                 | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
 | ADMIN_USERS                      | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Remember to update the Gitpod URL in environment variables and OAuth callback
+      URL, whenever Gitpod URL updates
+    </>
+  }
+/>
 
 <ClipboardCopy>
 ```js
