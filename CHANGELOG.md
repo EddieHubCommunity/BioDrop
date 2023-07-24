@@ -1,3 +1,12 @@
+## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
+
+
+### Bug Fixes
+
+* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
+
+
+
 ## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * link profile to account ([#8315](https://github.com/EddieHubCommunity/LinkFree/issues/8315)) ([f806b5f](https://github.com/EddieHubCommunity/LinkFree/commit/f806b5f6adc430b3bf76cbc7d2972fd797d76e5e)), closes [#8232](https://github.com/EddieHubCommunity/LinkFree/issues/8232)
-
-
-
-## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
-
-
-### Bug Fixes
-
-* breaking GHCR workflow ([#8310](https://github.com/EddieHubCommunity/LinkFree/issues/8310)) ([feadad3](https://github.com/EddieHubCommunity/LinkFree/commit/feadad38ec505ddee96dd816cacca6256444e682))
 
 
 
