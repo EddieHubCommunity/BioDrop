@@ -1,0 +1,16 @@
+{
+  "name": "Shivang Gupta",
+  "bio": "Tech enthusiast, working as specialist programmer in Infosys as a Java Spring Backend Devloper & aiming to develop skills on DEVOPS.",
+  "links": [
+    {
+      "name": "My Github profile",
+      "url": "https://github.com/Shivang20k/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My LinkeDin profile",
+      "url": "https://www.linkedin.com/in/shivang-gupta-k/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

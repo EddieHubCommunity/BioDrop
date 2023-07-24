@@ -1,6 +1,19 @@
 {
   "name": "Eric Obeng",
   "bio": "A Frontend Developer passionate about learning new technologies to help solve problems",
+  "tags": [
+    "Open Source",
+    "Frontend",
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "DevOps"
+  ],
+  "socials": [
+    {"icon": "FaTwitter", "URL": "https://twitter.com/tech_psalmist"},
+    {"icon": "FaGithub", "URL": "https://github.com/Eric-Obeng"},
+    {"icon": "FaLinkedin", "URL": "https://www.linkedin.com/in/eric-obeng-66a839179/"}
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -13,12 +26,12 @@
       "icon": "FaGithub"
     },
     {
-      "name": "Lets connect on LinkedIn",
+      "name": "Let's connect on LinkedIn",
       "url": "https://www.linkedin.com/in/eric-obeng-66a839179/",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Lets connect on Instagram",
+      "name": "Let's connect on Instagram",
       "url": "https://www.instagram.com/psalmistpraise/",
       "icon": "FaInstagram"
     }
