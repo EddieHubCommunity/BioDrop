@@ -62,13 +62,14 @@ export async function updateProfileApi(username, data, providerAccountId) {
     layout: data.layout,
     name: data.name,
     bio: data.bio,
+    isEnabled: data.isEnabled,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
       .map((tag) => tag.trim()),
   };
 
   try {
-    await Profile.validate(updateProfile, ["source", "layout", "name", "bio"]);
+    await Profile.validate(updateProfile, ["source", "layout", "name", "bio", "isEnabled"]);
   } catch (e) {
     return { error: e.errors };
   }

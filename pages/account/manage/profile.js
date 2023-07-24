@@ -19,6 +19,8 @@ import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
 import Textarea from "@components/form/Textarea";
+import ConfirmDialog from "@components/ConfirmDialog";
+import Router from "next/router";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -71,6 +73,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
+  const [open, setOpen] = useState(false);
   const layouts = config.layouts.map(l => {
     return {
       value: l,
@@ -107,6 +110,26 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       message: "Profile updated",
       additionalMessage: "Your profile has been updated successfully",
     });
+  };
+
+  const deleteProfile = async() => {
+    const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name, bio, tags, layout, isEnabled: false}),
+    });
+    const update = await res.json();
+    if (update.error || update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Profile delete failed",
+        additionalMessage: update.error || update.message,
+      });
+    }
+    return Router.push(`${BASE_URL}/account/no-profile`);
   };
 
   return (
@@ -233,14 +256,26 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                   </div>
                 </section>
 
-                <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
-                  <Button primary={true}>SAVE</Button>
+                <div className="mt-6 flex items-center justify-end gap-x-6">
+                  <Button type="button" onClick={() => setOpen(true)}>
+                    DELETE
+                  </Button>
+                  <Button type="submit" primary={true}>
+                    SAVE
+                  </Button>
                 </div>
               </div>
             </form>
           </div>
         </div>
       </Page>
+      <ConfirmDialog
+        open={open}
+        action={deleteProfile}
+        setOpen={setOpen}
+        title="Delete profile"
+        description="Are you sure?"
+      />
     </>
   );
 }
