@@ -1,3 +1,12 @@
+## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
+
+
+### Bug Fixes
+
+* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
+
+
+
 ## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
-
-
-
-# [1.160.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.10...v1.160.0) (2023-07-23)
-
-
-### Features
-
-* link profile to account ([#8315](https://github.com/EddieHubCommunity/LinkFree/issues/8315)) ([f806b5f](https://github.com/EddieHubCommunity/LinkFree/commit/f806b5f6adc430b3bf76cbc7d2972fd797d76e5e)), closes [#8232](https://github.com/EddieHubCommunity/LinkFree/issues/8232)
 
 
 
