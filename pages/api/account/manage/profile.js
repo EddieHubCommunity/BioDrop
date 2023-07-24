@@ -4,6 +4,10 @@ import { getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import {
+  associateProfileWithAccount,
+  getAccountByProviderAccountId,
+} from "../account";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -24,7 +28,7 @@ export default async function handler(req, res) {
     profile = await getProfileApi(username);
   }
   if (req.method === "PUT") {
-    profile = await updateProfileApi(username, req.body);
+    profile = await updateProfileApi(username, req.body, session.user.id);
   }
 
   if (profile.error) {
@@ -46,7 +50,8 @@ export async function getProfileApi(username) {
 
   return JSON.parse(JSON.stringify(getProfile));
 }
-export async function updateProfileApi(username, data) {
+
+export async function updateProfileApi(username, data, providerAccountId) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -68,6 +73,16 @@ export async function updateProfileApi(username, data) {
     return { error: e.errors };
   }
 
+  let account = {};
+  try {
+    account = await getAccountByProviderAccountId(providerAccountId);
+    if (account) {
+      updateProfile.account = account._id;
+    }
+  } catch (e) {
+    log.error(e, `failed to get account for username: ${username}`);
+  }
+
   try {
     getProfile = await Profile.findOneAndUpdate({ username }, updateProfile, {
       upsert: true,
@@ -76,6 +91,16 @@ export async function updateProfileApi(username, data) {
     log.info(`profile created for username: ${username}`);
   } catch (e) {
     log.error(e, `failed to create profile stats for username: ${username}`);
+  }
+
+  // associate profile to account
+  try {
+    await associateProfileWithAccount(account, getProfile._id);
+  } catch (e) {
+    log.error(
+      e,
+      `failed to associate profile to account for username: ${username}`
+    );
   }
 
   return JSON.parse(JSON.stringify(getProfile));
