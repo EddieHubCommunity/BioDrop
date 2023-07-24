@@ -30,6 +30,7 @@ jobs:
           du -h -d 3 .vercel/output/functions/en
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
           vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-preview.vercel.app
+
   load-data:
     runs-on: ubuntu-latest
     needs: deploy
