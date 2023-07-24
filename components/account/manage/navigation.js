@@ -79,19 +79,15 @@ export default function Navigation() {
         </label>
         <Select
           id="tabs"
-          name="tabs"
+          value={tabs.find((tab) => tab.current).name}
+          options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           className="block w-full rounded-md 
           border-primary-low-medium/30 dark:border-primary-low-medium
           dark:text-primary-low
           dark:bg-primary-medium
           focus:border-secondary-medium-low focus:ring-secondary-medium-low"
-          defaultValue={tabs.find((tab) => tab.current).name}
           onChange={changeTab}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
-          ))}
-        </Select>
+        />
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low-medium/30">

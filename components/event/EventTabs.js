@@ -18,15 +18,11 @@ export function EventTabs({ tabs, eventType, setEventType }) {
         </label>
         <Select
           id="tabs"
-          name="tabs"
+          value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
           className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
-          defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.key}>{tab.title}</option>
-          ))}
-        </Select>
+          options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
+        />
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low">

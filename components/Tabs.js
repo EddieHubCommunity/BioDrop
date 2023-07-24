@@ -22,15 +22,11 @@ export default function Tabs({ tabs, setTabs }) {
         {tabs.length > 1 && (
           <Select
             id="tabs"
-            name="tabs"
+            value={tabs.find((tab) => tab.current).name}
             onChange={changeTab}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
-            defaultValue={tabs.find((tab) => tab.current).name}
-          >
-            {tabs.map((tab) => (
-              <option key={tab.name}>{tab.name}</option>
-            ))}
-          </Select>
+            options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
+          />
         )}
       </div>
       <div className="hidden sm:block">
