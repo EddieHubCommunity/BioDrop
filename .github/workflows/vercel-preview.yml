@@ -17,9 +17,9 @@ jobs:
         run: npm install --global vercel@latest
       - name: pull Vercel environment information
         run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-      - name: npm install
-        run: npm ci --omit=dev
       - name: build project artifacts
+        env:
+          NODE_ENV: production
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: deploy preview + assign beta domain
         run: |
