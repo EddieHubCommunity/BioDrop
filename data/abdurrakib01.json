@@ -1,7 +1,14 @@
 {
   "name": "Md Abdur Rakib",
   "bio": "Competitive Programmer | ReactJS | Django Developer",
-  "tags": ["Django", "Django REST", "ReactJS", "Python", "JavaScript", "GitHub"],
+  "tags": [
+    "Django",
+    "Django REST",
+    "ReactJS",
+    "Python",
+    "JavaScript",
+    "GitHub"
+  ],
   "links": [
     {
       "name": "GitHub",
