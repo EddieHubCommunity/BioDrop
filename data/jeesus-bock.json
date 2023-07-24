@@ -1,0 +1,21 @@
+{
+  "name": "Jeesus Bock",
+  "bio": "Alternative lifestyles, over 40y/o. Vegan. Software developer with VueJS and Go. Knowledge of many more languages and frameworks.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JeesusBock",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Very freeform OSS project, open to newbies too.",
+      "url": "https://github.com/jeesus-bock/animalfarm/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Train of thought writings with vitepress",
+      "url": "https://jeesus-bock.github.io/cannibalpress/",
+      "icon": "FaGlobe"
+    }
+  ]
+}
