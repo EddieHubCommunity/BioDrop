@@ -1,3 +1,12 @@
+## [1.160.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.1...v1.160.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
+
+
+
 ## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
 
 
@@ -31,15 +40,6 @@
 ### Reverts
 
 * Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
-
-
-
-## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
-
-
-### Bug Fixes
-
-* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
 
 
 
