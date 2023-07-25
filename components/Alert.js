@@ -2,7 +2,7 @@ import ExclamationTriangleIcon from "@heroicons/react/24/outline/ExclamationTria
 import ExclamationCircleIcon from "@heroicons/react/24/outline/ExclamationCircleIcon";
 import CheckCircleIcon from "@heroicons/react/24/outline/CheckCircleIcon";
 
-export default function alert({ type, message }) {
+export default function Alert({ type, message }) {
   switch (type) {
     case "success":
       return (

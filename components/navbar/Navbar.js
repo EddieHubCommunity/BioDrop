@@ -91,17 +91,13 @@ export default function Navbar() {
       name: "Docs",
       url: "/docs",
     },
-    {
-      name: "Playground",
-      url: "/playground",
-    },
   ];
 
   const authControls = () => (
     <>
       {!session && (
         <NavLink
-          item={{ name: "Login", url: "/login" }}
+          item={{ name: "Login / Sign up", url: "/login" }}
           setIsOpen={setIsOpen}
           onClick={(e) => {
             e.preventDefault();
@@ -112,6 +108,10 @@ export default function Navbar() {
 
       {session && (
         <>
+          <NavLink
+            item={{ name: "Profile", url: `/${session.username}` }}
+            setIsOpen={setIsOpen}
+          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -161,10 +161,6 @@ export default function Navbar() {
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
-                <NavLink
-                  item={{ name: `v${app.version}`, url: "/roadmap" }}
-                  setIsOpen={setIsOpen}
-                />
                 <Link
                   href="https://github.com/EddieHubCommunity/LinkFree"
                   target="_blank"

@@ -1,0 +1,149 @@
+{
+  "name": "Ravichandran Gethushan",
+  "bio": "**Open Source** | DevOps | Networking | Fullstack Engineer",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Networking",
+    "React",
+    "Node JS",
+    "MongoDB",
+    "Fullstack Engineer"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gethushan"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/gethushan"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ravichandran_gethushan/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/r-gethushan"
+    }
+  ],
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "My Portfolio",
+      "url": "https://gethushan.github.io/MyPortfolio/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - For tech news",
+      "url": "https://twitter.com/gethushan",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/gethushan",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/r-gethushan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Technologies",
+      "url": "https://medium.com/@gethushan",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/ravichandran_gethushan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Support My Work",
+      "name": "Follow on GitHub ",
+      "url": "https://github.com/gethushan",
+      "icon": "FaHeart"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "CCNA: Introduction to Networks",
+      "date": "29th November 2021",
+      "icon": "SiCisco",
+      "color": "orange",
+      "description": "Got the first Networking Digital Badge.",
+      "url": "https://www.credly.com/badges/5a3ffd0c-0940-4bd6-b6a7-a71914df3465/linked_in_profile"
+    },
+    {
+      "title": "CCNA: Switching, Routing, and Wireless Essentials",
+      "date": "1st May 2022",
+      "icon": "SiCisco",
+      "color": "black",
+      "description": "Advanced my knowledge towards networking. ",
+      "url": "https://www.credly.com/badges/bbe5449b-2f66-41fb-b9be-3ea133de31f5/linked_in_profile"
+    },
+    {
+      "title": "CCNA: Enterprise Networking, Security, and Automation",
+      "date": "31st August 2022",
+      "icon": "SiCisco",
+      "color": "blue",
+      "description": "Advanced my knowledge towards Enterprice Networking",
+      "url": "https://www.credly.com/badges/ee71e19b-f0b5-4f53-9808-f79368754ba3/linked_in_profile"
+    },
+    {
+      "title": "First Pair Extraordinaire",
+      "date": "26th April 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Building Open Source projects in public and collaborating with people on Pull Requests helped me to cross the 1K followers milestone",
+      "url": "https://github.com/users/gethushan/achievements/pair-extraordinaire"
+    },
+    {
+      "title": "First PullShark",
+      "date": "9th June 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Unlocked the first Pull Shark achievement badge in GitHub.",
+      "url": "https://github.com/users/gethushan/achievements/pull-shark"
+    },
+    {
+      "title": "AWS Educate Getting Started with Compute",
+      "date": "Jan 2023",
+      "icon": "FaAws",
+      "color": "purple",
+      "description": "Started to establish my knowledge towards AWS Cloud Compute ",
+      "url": "https://www.credly.com/badges/22ffafa8-b7de-4fb2-b89f-94af50097308/linked_in_profile"
+    },
+    {
+      "title": "AWS Educate Getting Started with Networking",
+      "date": "Jan 2023",
+      "icon": "FaAws",
+      "color": "lightblue",
+      "description": "Started to establish my knowledge towards AWS Cloud Networking",
+      "url": "https://www.credly.com/badges/8151dd73-ac29-4b00-8889-35d8a2c1b1da/linked_in_profile"
+    },
+    {
+      "title": "AWS Educate Getting Started with Storage",
+      "date": "Jan 2023",
+      "icon": "FaAws",
+      "color": "orange",
+      "description": "Started to establish my knowledge towards AWS Cloud Networking",
+      "url": "https://www.credly.com/badges/2090dfc3-f4e1-421e-a7fc-21219a80ce8e/linked_in_profile"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a Network Engineer",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a Network Engineer for large enterprise company."
+    }
+  ]
+}

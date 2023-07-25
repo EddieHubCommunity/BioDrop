@@ -43,29 +43,129 @@ export default async function handler(req, res) {
 
       if (currentProfile && currentProfile.source === "database") {
         logger.info(`Skipped profile "${profile.username}" as using forms`);
+
+        if (profile.testimonials) {
+          // add any new testimonials
+          const newTestimonials = profile.testimonials.filter(
+            (testimonial) =>
+              !currentProfile.testimonials.some(
+                (currentTestimonial) =>
+                  currentTestimonial.username === testimonial.username
+              )
+          );
+
+          if (!newTestimonials || newTestimonials.length === 0) {
+            return;
+          }
+
+          try {
+            await Profile.findOneAndUpdate(
+              { username: profile.username },
+              {
+                testimonials: [
+                  ...currentProfile.testimonials,
+                  ...newTestimonials.map((testimonials) => ({
+                    username: testimonials.username,
+                    date: testimonials.date,
+                    title: testimonials.title,
+                    description: testimonials.description,
+                    isPinned: false,
+                  })),
+                ],
+              }
+            );
+            logger.info(
+              `Updated profile "${profile.username}" with testimonials only ${newTestimonials.length}`
+            );
+          } catch (e) {
+            logger.error(
+              e,
+              `failed to update testimonials for ${profile.username}`
+            );
+          }
+        }
         return;
       }
 
       try {
-        currentProfile = await Profile.findOneAndUpdate(
-          { username: profile.username },
-          {
-            source: "file",
-            isEnabled: true,
-            name: profile.name,
-            bio: profile.bio,
-            tags: profile.tags,
-          },
-          { upsert: true, new: true }
-        );
+        if (profile.milestones) {
+          const milestones = profile.milestones.map((milestone) => {
+            let date = {};
+            const convert = new Date(milestone.date)
+            if (convert.toString() !== "Invalid Date") {
+              date = {
+                date: convert
+              }
+            }
+
+            return {
+              url: milestone.url,
+              isGoal: milestone.isGoal || false,
+              title: milestone.title,
+              icon: milestone.icon,
+              description: milestone.description,
+              ...date
+            }
+          });
+
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              milestones
+            }
+          );
+        }
       } catch (e) {
         logger.error(e, `failed to update profile ${profile.username}`);
       }
 
-      const jsonFileLinks = await updateProfileLinks(currentProfile, profile);
-      disableLinksAndSocialsNotInJsonFile(currentProfile, jsonFileLinks);
+      // 3. testimonials (enable selected testimonials)
+      try {
+        if (profile.testimonials) {
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              testimonials: profile.testimonials.map((testimonials) => ({
+                username: testimonials.username,
+                date: testimonials.date,
+                title: testimonials.title,
+                description: testimonials.description,
+                isPinned: testimonials.isPinned || false,
+              })),
+            }
+          );
+        }
+      } catch (e) {
+        logger.error(
+          e,
+          `failed to update testimonials for ${profile.username}`
+        );
+      }
 
-      updateProfileProperties(profile);
+      // - events
+      try {
+        if (profile.events) {
+          await Profile.findOneAndUpdate(
+            { username: profile.username },
+            {
+              events: profile.events.map((event) => ({
+                isVirtual: event.isVirtual,
+                color: event.color,
+                name: event.name,
+                description: event.description,
+                date: {
+                  start: event.date.start,
+                  end: event.date.end,
+                },
+                url: event.url,
+                price: event.price,
+              })),
+            }
+          );
+        }
+      } catch (e) {
+        logger.error(e, `failed to update events for ${profile.username}`);
+      }
     })
   );
 
