@@ -16,13 +16,12 @@ export default function Tabs({ tabs, setTabs }) {
   return (
     <div>
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
+
         {tabs.length > 1 && (
           <Select
             id="tabs"
             value={tabs.find((tab) => tab.current).name}
+            label="Select a tab"
             onChange={changeTab}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
             options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}

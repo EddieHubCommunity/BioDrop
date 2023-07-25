@@ -9,7 +9,7 @@ export default function Select({
   return (
     <>
       {label && (
-        <label htmlFor="dropdown-select" className={className}>
+        <label htmlFor={value} className={`sr-only ${className}`}>
           {label}
         </label>
       )}

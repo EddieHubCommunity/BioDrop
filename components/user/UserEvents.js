@@ -72,6 +72,7 @@ export default function UserEvents({ manage = false, events }) {
         <Select
           id="event-type"
           value={eventType}
+          label="Select an event type"
           onChange={handleEventTypeChange}
           options={filteredEventOptions.map((option) => ({
             label: option.name,

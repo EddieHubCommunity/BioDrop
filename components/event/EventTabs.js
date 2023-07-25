@@ -13,11 +13,9 @@ export function EventTabs({ tabs, eventType, setEventType }) {
   return (
     <div>
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
         <Select
           id="tabs"
+          label="Select a tab"
           value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
           className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"

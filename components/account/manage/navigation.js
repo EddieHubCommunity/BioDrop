@@ -74,12 +74,11 @@ export default function Navigation() {
   return (
     <div className="mb-6">
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
+
         <Select
           id="tabs"
           value={tabs.find((tab) => tab.current).name}
+          label="Select a tab"
           options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           className="block w-full rounded-md 
           border-primary-low-medium/30 dark:border-primary-low-medium
