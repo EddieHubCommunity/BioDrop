@@ -38,11 +38,11 @@ const EventSchema = new Schema({
   },
   userStatus: {
     type: String,
-    enum: config.events.userStatus
+    enum: config.events.userStatus,
   },
   speakingTopic: {
-    type:String,
-    max: 256
+    type: String,
+    max: 256,
   },
   color: {
     type: String,

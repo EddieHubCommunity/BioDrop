@@ -334,6 +334,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                 date: { start: startDate, end: endDate },
                 isVirtual,
                 price,
+                userStatus,
+                speakingTopic,
                 color,
               }}
             />
