@@ -1,40 +1,45 @@
-## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
-
-
-### Reverts
-
-* Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
-
-
-
-## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
+## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
 
 
 ### Bug Fixes
 
-* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
+* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
 
 
 
-## [1.159.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.6...v1.159.7) (2023-07-21)
-
-
-### Bug Fixes
-
-* dependabot to create releases ([#8297](https://github.com/EddieHubCommunity/LinkFree/issues/8297)) ([df4965a](https://github.com/EddieHubCommunity/LinkFree/commit/df4965a61172ab38c1e3a244dda37b9f87d99a6e))
-
-
-
-## [1.159.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.5...v1.159.6) (2023-07-21)
+## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
 
 
 ### Bug Fixes
 
-* gitpod docs ([#8295](https://github.com/EddieHubCommunity/LinkFree/issues/8295)) ([4da0f83](https://github.com/EddieHubCommunity/LinkFree/commit/4da0f839468f237dc5ed152dcad34659851a030c)), closes [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163) [#7689](https://github.com/EddieHubCommunity/LinkFree/issues/7689) [#7163](https://github.com/EddieHubCommunity/LinkFree/issues/7163)
+* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
 
 
 
-## [1.159.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.4...v1.159.5) (2023-07-21)
+## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
+
+
+### Bug Fixes
+
+* updated dependency + removed ip ([#8337](https://github.com/EddieHubCommunity/LinkFree/issues/8337)) ([43a319c](https://github.com/EddieHubCommunity/LinkFree/commit/43a319c991a77729a6b4c4495aa40ddb4203b2c0))
+
+
+
+## [1.160.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.1...v1.160.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
+
+
+
+## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
+
+
+### Bug Fixes
+
+* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
 
 
 
