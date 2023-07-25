@@ -71,7 +71,10 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState(
     event.date?.end && formatDate(event.date?.end)
   );
-  const DropDownOptions = [config.events.userStatus.attending, config.events.userStatus.speaking];
+  const DropDownOptions = [
+    config.events.userStatus.attending,
+    config.events.userStatus.speaking,
+  ];
   const [userStatus, setuserStatus] = useState(event.userStatus || "");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
 
@@ -80,7 +83,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     setspeakingTopic(""); // Reset the input value when the dropdown value changes
   };
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "" );
+  const [color, setColor] = useState(event.color || "");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -246,36 +249,36 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                  <div className="mt-1">
-                        <Select
-                          name="userStatus"
-                          label="Are you speaking in the event?"
-                          value={userStatus}
-                          options={DropDownOptions}
-                          onChange={handleEventTypeChange}
-                        />
-                      </div>
+                    <div className="mt-1">
+                      <Select
+                        name="userStatus"
+                        label="Are you speaking in the event?"
+                        value={userStatus}
+                        options={DropDownOptions}
+                        onChange={handleEventTypeChange}
+                      />
+                    </div>
+                    <p className="text-sm text-primary-low-medium">
+                      Only attending or speaking also?
+                    </p>
+                  </div>
+                  {userStatus === "Speaking" && (
+                    <div className="mt-1 sm:col-span-2 sm:mt-0">
+                      <Input
+                        type="text"
+                        name="topic"
+                        label="What topic are you speaking on ?"
+                        placeholder="Your speaking topic"
+                        onChange={(e) => setspeakingTopic(e.target.value)}
+                        value={speakingTopic}
+                        required
+                        maxLength="256"
+                      />
                       <p className="text-sm text-primary-low-medium">
-                        Only attending or speaking also?
+                        For example: <i>The future of AI</i>
                       </p>
                     </div>
-                    {userStatus === "Speaking" && (
-                      <div className="mt-1 sm:col-span-2 sm:mt-0">
-                        <Input
-                          type="text"
-                          name="topic"
-                          label="What topic are you speaking on ?"
-                          placeholder= "Your speaking topic"
-                          onChange={(e) => setspeakingTopic(e.target.value)}
-                          value={speakingTopic}
-                          required
-                          maxLength="256"
-                        />
-                        <p className="text-sm text-primary-low-medium">
-                          For example: <i>The future of AI</i>
-                        </p>
-                      </div>
-                    )}
+                  )}
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
