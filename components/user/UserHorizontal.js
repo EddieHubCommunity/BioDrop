@@ -33,7 +33,7 @@ export default function UserHorizontal({ profile }) {
             </div>
           </div>
           {profile.tags?.length > 0 &&
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center max-h-60 overflow-hidden">
             {profile.tags?.length > 0 &&
             profile.tags.map((tag, index) => {
               const trimmedTag = tag.trim();
