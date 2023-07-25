@@ -40,7 +40,10 @@ const EventSchema = new Schema({
     type: String,
     enum: config.events.userStatus
   },
-  speakingTopic: String,
+  speakingTopic: {
+    type:String,
+    max: 256
+  },
   color: {
     type: String,
     min: 2,
