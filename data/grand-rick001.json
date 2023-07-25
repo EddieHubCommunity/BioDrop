@@ -1,6 +1,6 @@
 {
   "name": "Patrick Murimi",
-  "bio": "Postman Student Leader | GDSC Web Development Team Lead | Frontend Web Developer",
+  "bio": "Postman Student Leader | GDSC Lead | Microsoft Learn Student Ambassador | Gold Fellow at The ROOM | Frontend Web Developer",
   "tags": [
     "Open Source",
     "Web Development",
@@ -28,7 +28,7 @@
   "links": [
     {
       "group": "Socials",
-      "name": "Follow me on Twitter",
+      "name": "Twitter: Let's converse",
       "url": "https://twitter.com/grandrick001",
       "icon": "FaTwitter",
       "color": "#00ACEE"
@@ -53,6 +53,22 @@
     }
   ],
   "milestones": [
+    {
+      "title": "Selected to be the Google Developer Student Clubs Lead at my campus",
+      "date": "July 2023",
+      "icon": "FaGoogle",
+      "color": "#ffffff",
+      "description": "Google Developer Student Club Leads are passionate leaders at their universities who are dedicated to helping their peers learn and connect. Leads are undergraduate or graduate university students pursuing various degrees, yet have foundational knowledge of software development concepts. Google collaborates with Leads and supports them as they start and grow their on-campus communities",
+      "url": "https://developers.google.com/community/gdsc/leads"
+    },
+    {
+      "title": "Appointed to be a Microsoft Learn Student Ambassaor",
+      "date": "July 2023",
+      "icon": "FaMicrosoft",
+      "color": "#0078d4",
+      "description": "The Microsoft Learn Student Ambassadors is a global group of on-campus ambassadors who are eager to learn new technologies, help other students, lead in their community, and develop technical and career skills for the future",
+      "url": "https://studentambassadors.microsoft.com/"
+    },
     {
       "title": "Became a Gold fellow at THE ROOM",
       "date": "June 2023",
