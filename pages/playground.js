@@ -8,9 +8,9 @@ import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 import {
-  basicProfileSchema,
+  profileSchema,
   usernameSchema,
-} from "@config/schemas/validationSchemas";
+} from "@config/schemas/jsonProfileSchemas";
 import * as z from "zod";
 
 export async function getServerSideProps() {
@@ -45,7 +45,7 @@ export default function Playground({ BASE_URL }) {
   const handleValidateJson = () => {
     try {
       const parsedProfile = JSON.parse(profileJson);
-      basicProfileSchema.parse(parsedProfile);
+      profileSchema.parse(parsedProfile);
       setSuccessMsg("Valid Json");
       setErrMsg("");
       setValidateComplete(true);
@@ -83,12 +83,13 @@ export default function Playground({ BASE_URL }) {
 
   const handlePreview = () => {
     try {
+      setErrors([]);
       usernameSchema.parse(gitUsername);
-    } catch (err) {
-      const errors = [...err.errors];
-      errors[0].path = ["Github username"];
-      setErrMsg("Github username required");
-      setErrors(err.errors);
+    } catch (e) {
+      const errors = [...e.errors];
+      errors[0].path = ["GitHub username"];
+      setErrMsg("GitHub username required");
+      setErrors(e.errors);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
@@ -104,8 +105,8 @@ export default function Playground({ BASE_URL }) {
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
-    } catch (err) {
-      setErrMsg(err.toString());
+    } catch (e) {
+      setErrMsg(e.toString());
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
