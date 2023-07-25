@@ -7,20 +7,7 @@ export async function sendRequest(requestConfig) {
     });
     const data = await res.json();
     if (!res.ok) {
-      let errMessage = res.statusText;
-      if (data.message) {
-        if (typeof data.message === "string") errMessage = data.message;
-        else {
-          errMessage = Object.keys(data.message)
-            .map((val) => `${val} is required`)
-            .join(", ");
-        }
-      }
-      if (data.error) {
-        errMessage = data.error;
-      }
-
-      throw new Error(`Request failed! ${errMessage}.`);
+      throw data.message || data.error || res.statusText;
     }
     return data;
   } catch (err) {
