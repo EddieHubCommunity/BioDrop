@@ -94,11 +94,18 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         additionalMessage: "Your profile has been updated successfully",
       });
     } catch (err) {
+      const errMessage =
+        typeof err === "string"
+          ? err
+          : Object.keys(err)
+              .map((val) => `${val} is required`)
+              .join(", ");
+
       setShowNotification({
         show: true,
         type: "error",
         message: "Profile update failed",
-        additionalMessage: err.message,
+        additionalMessage: `Request failed! ${errMessage}`,
       });
     }
   };
