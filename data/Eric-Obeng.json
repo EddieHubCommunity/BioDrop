@@ -10,9 +10,12 @@
     "DevOps"
   ],
   "socials": [
-    {"icon": "FaTwitter", "URL": "https://twitter.com/tech_psalmist"},
-    {"icon": "FaGithub", "URL": "https://github.com/Eric-Obeng"},
-    {"icon": "FaLinkedin", "URL": "https://www.linkedin.com/in/eric-obeng-66a839179/"}
+    { "icon": "FaTwitter", "URL": "https://twitter.com/tech_psalmist" },
+    { "icon": "FaGithub", "URL": "https://github.com/Eric-Obeng" },
+    {
+      "icon": "FaLinkedin",
+      "URL": "https://www.linkedin.com/in/eric-obeng-66a839179/"
+    }
   ],
   "links": [
     {
