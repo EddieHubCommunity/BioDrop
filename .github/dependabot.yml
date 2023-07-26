@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    # only security updates, ignore schedule
+    # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+    open-pull-requests-limit: 0
+    schedule:
+      interval: "monthly"
+    # set commit message to work with Angular conventional commit style
+    commit-message:
+      prefix: "fix(deps)"
+      prefix-development: "chore(deps)"

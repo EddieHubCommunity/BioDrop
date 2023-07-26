@@ -1,45 +1,45 @@
-## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
+# [1.161.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.5...v1.161.0) (2023-07-26)
+
+
+### Features
+
+* playground json validation (Fix pr [#7577](https://github.com/EddieHubCommunity/LinkFree/issues/7577)) ([#8357](https://github.com/EddieHubCommunity/LinkFree/issues/8357)) ([6616d35](https://github.com/EddieHubCommunity/LinkFree/commit/6616d35ed99e49dfa25902944aa0836cf4d5784d)), closes [#6874](https://github.com/EddieHubCommunity/LinkFree/issues/6874)
+
+
+
+## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
 
 
 ### Bug Fixes
 
-* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
+* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
 
 
 
-## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
-
-
-### Bug Fixes
-
-* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
-
-
-
-## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
+## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
 
 
 ### Bug Fixes
 
-* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
+* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
 
 
 
-## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
-
-
-### Bug Fixes
-
-* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
-
-
-
-## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
 
 
 ### Bug Fixes
 
-* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+* updated dependency + removed ip ([#8337](https://github.com/EddieHubCommunity/LinkFree/issues/8337)) ([43a319c](https://github.com/EddieHubCommunity/LinkFree/commit/43a319c991a77729a6b4c4495aa40ddb4203b2c0))
+
+
+
+## [1.160.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.1...v1.160.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
 
 
 
