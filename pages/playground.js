@@ -43,6 +43,7 @@ export default function Playground({ BASE_URL }) {
   const [showNotification, setShowNotification] = useState(false);
 
   const handleValidateJson = () => {
+    setErrors([]);
     try {
       const parsedProfile = JSON.parse(profileJson);
       profileSchema.parse(parsedProfile);
@@ -82,8 +83,8 @@ export default function Playground({ BASE_URL }) {
   };
 
   const handlePreview = () => {
+    setErrors([]);
     try {
-      setErrors([]);
       usernameSchema.parse(gitUsername);
     } catch (e) {
       const errors = [...e.errors];

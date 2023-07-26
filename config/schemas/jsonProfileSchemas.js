@@ -14,13 +14,6 @@ const linkSchema = z.object({
   icon: z.string().optional(),
 });
 
-const testimonialSchema = z.object({
-  title: z.string(),
-  description: z.string(),
-  date: z.coerce.date(),
-  username: z.string(),
-});
-
 const milestoneSchema = z.object({
   isGoal: z.boolean().optional(),
   title: z.string(),
@@ -36,7 +29,7 @@ const profileSchema = z.object({
   tags: z.array(z.string()).optional(),
   socials: z.array(socialSchema).optional(),
   links: z.array(linkSchema).optional(),
-  testimonials: z.array(testimonialSchema).optional(),
+  testimonials: z.array(z.string()).optional(),
   milestones: z.array(milestoneSchema).optional(),
 });
 
