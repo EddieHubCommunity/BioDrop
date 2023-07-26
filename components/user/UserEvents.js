@@ -18,9 +18,6 @@ export default function UserEvents({ manage = false, events }) {
     { value: "past", name: "Past Events" },
   ];
 
-  const handleEventTypeChange = (event) => {
-    setEventType(event.target.value);
-  };
 
   const filterByEventType = (event, eventType) => {
     switch (eventType) {
@@ -70,10 +67,10 @@ export default function UserEvents({ manage = false, events }) {
       {!manage && (
         <DropdownMenu
           eventType={eventType}
-          handleEventTypeChange={handleEventTypeChange}
+          setEventType={setEventType}
           options={filteredEventOptions}
           label="Select Event Type:"
-          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+          className="inline text-center text-sm font-medium leading-6 text-primary-high dark:text-primary-low sm:mb-0 mb-2"
         />
       )}
 
