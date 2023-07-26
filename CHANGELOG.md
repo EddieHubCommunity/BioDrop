@@ -1,3 +1,12 @@
+# [1.161.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.5...v1.161.0) (2023-07-26)
+
+
+### Features
+
+* playground json validation (Fix pr [#7577](https://github.com/EddieHubCommunity/LinkFree/issues/7577)) ([#8357](https://github.com/EddieHubCommunity/LinkFree/issues/8357)) ([6616d35](https://github.com/EddieHubCommunity/LinkFree/commit/6616d35ed99e49dfa25902944aa0836cf4d5784d)), closes [#6874](https://github.com/EddieHubCommunity/LinkFree/issues/6874)
+
+
+
 ## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
-
-
-
-## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
-
-
-### Bug Fixes
-
-* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
 
 
 
