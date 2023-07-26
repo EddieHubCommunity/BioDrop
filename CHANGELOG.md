@@ -1,3 +1,12 @@
+## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
+
+
+### Bug Fixes
+
+* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
+
+
+
 ## [1.161.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.0...v1.161.1) (2023-07-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
-
-
-
-## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
-
-
-### Bug Fixes
-
-* updated dependency + removed ip ([#8337](https://github.com/EddieHubCommunity/LinkFree/issues/8337)) ([43a319c](https://github.com/EddieHubCommunity/LinkFree/commit/43a319c991a77729a6b4c4495aa40ddb4203b2c0))
 
 
 
