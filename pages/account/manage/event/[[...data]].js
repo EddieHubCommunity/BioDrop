@@ -70,7 +70,11 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "" );
+  const [color, setColor] = useState(event.color || "");
+  const [road, setRoad] = useState(event.location.road || "");
+  const [city, setCity] = useState(event.location.city || "");
+  const [state, setState] = useState(event.location.state || "");
+  const [country, setCountry] = useState(event.location.country || "");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -83,6 +87,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       isVirtual,
       price: { startingFrom: price },
       color,
+      location: { road, city, state, country },
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
@@ -156,11 +161,11 @@ export default function ManageEvent({ BASE_URL, event }) {
           additionalMessage={showNotification.additionalMessage}
         />
 
-        <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
-          <form
-            className="space-y-8 divide-y divide-primary-low-medium/30"
-            onSubmit={handleSubmit}
-          >
+        <form
+          className="space-y-8 divide-y divide-primary-low-medium/30"
+          onSubmit={handleSubmit}
+        >
+          <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
             <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
                 <div>
@@ -278,21 +283,67 @@ export default function ManageEvent({ BASE_URL, event }) {
                 </div>
               </div>
             </div>
-          </form>
-          <div>
-            <EventCard
-              event={{
-                name,
-                description,
-                url,
-                date: { start: startDate, end: endDate },
-                isVirtual,
-                price,
-                color,
-              }}
-            />
+
+            <div>
+              <EventCard
+                event={{
+                  name,
+                  description,
+                  url,
+                  date: { start: startDate, end: endDate },
+                  isVirtual,
+                  price,
+                  color,
+                }}
+              />
+              <div>
+                <h3 className="text-lg font-medium leading-6 text-primary-high">
+                  Does the event have a location?
+                </h3>
+              </div>
+              <div className="mt-1 sm:col-span-2 sm:mt-0">
+                <Input
+                  name="road"
+                  label="Road"
+                  onChange={(e) => setRoad(e.target.value)}
+                  value={road}
+                  minLength="2"
+                  maxLength="64"
+                />
+              </div>
+              <div className="mt-1 sm:col-span-2 sm:mt-0">
+                <Input
+                  name="city"
+                  label="City"
+                  onChange={(e) => setCity(e.target.value)}
+                  value={city}
+                  minLength="2"
+                  maxLength="64"
+                />
+              </div>
+              <div className="mt-1 sm:col-span-2 sm:mt-0">
+                <Input
+                  name="state"
+                  label="State"
+                  onChange={(e) => setState(e.target.value)}
+                  value={state}
+                  minLength="2"
+                  maxLength="64"
+                />
+              </div>
+              <div className="mt-1 sm:col-span-2 sm:mt-0">
+                <Input
+                  name="country"
+                  label="Country"
+                  onChange={(e) => setCountry(e.target.value)}
+                  value={country}
+                  minLength="2"
+                  maxLength="64"
+                />
+              </div>
+            </div>
           </div>
-        </div>
+        </form>
       </Page>
       <ConfirmDialog
         open={open}

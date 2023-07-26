@@ -9,6 +9,7 @@ import Page from "@components/Page";
 import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/profiles";
+import { getEvents } from "./api/events";
 import config from "@config/app.json";
 
 //this is required as leaflet is not compatible with SSR
@@ -21,6 +22,8 @@ export async function getStaticProps() {
   let data = {
     users: [],
     tags: [],
+    events: [],
+    points: [],
   };
   try {
     data.users = await getUsers();
@@ -39,7 +42,7 @@ export async function getStaticProps() {
 
   // Apply offset equally to 4 quadrants arround point
   const adjustCoords = (coords, offset, offset2, index) => {
-    switch (index % 4 ) {
+    switch (index % 4) {
       case 0:
         return [coords[0] + offset, coords[1] + offset2];
       case 1:
@@ -49,7 +52,7 @@ export async function getStaticProps() {
       default:
         return [coords[0] + offset, coords[1] - offset2];
     }
-  }
+  };
 
   data.users = data.users.map((user, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
@@ -62,21 +65,18 @@ export async function getStaticProps() {
         username: user.username,
         name: user.name,
         location: user.location.provided,
-        bio: user.bio || ''
+        bio: user.bio || "",
       },
       geometry: {
         type: "Point",
-        coordinates:adjustCoords(
-          [
-            parseFloat(user.location.lon),
-            parseFloat(user.location.lat)
-          ],
+        coordinates: adjustCoords(
+          [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
           index
-        )
-      }
-    }
+        ),
+      },
+    };
   });
 
   try {
@@ -85,6 +85,38 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
+  try {
+    data.events = await getEvents(true);
+  } catch (e) {
+    logger.error(e, "ERROR loading Events");
+  }
+
+  data.events = data.events.map((event, index) => {
+    const offset = Math.random() * 0.02; // ~2.2km
+    const offset2 = Math.random() * 0.02; // ~2.2km
+    return {
+      type: "Feature",
+      properties: {
+        cluster: false,
+        isEvent: true,
+        description: event.description,
+        name: event.name,
+        location: event.location,
+        date: event.date,
+        url: event.url || "",
+      },
+      geometry: {
+        type: "Point",
+        coordinates: adjustCoords(
+          [parseFloat(event.location.lon), parseFloat(event.location.lat)],
+          offset,
+          offset2,
+          index
+        ),
+      },
+    };
+  });
+  data.points = [...data.users, ...data.events];
   return {
     props: { data },
     revalidate: pageConfig.revalidateSeconds,
@@ -92,8 +124,8 @@ export async function getStaticProps() {
 }
 
 export default function Map({ data }) {
-  let { users, tags } = data;
-  const [filteredUsers, setFilteredUsers] = useState([]);
+  let { tags, points } = data;
+  const [filteredPoints, setFilteredPoints] = useState([]);
   const [selectedTags, setSelectedTags] = useState(new Set());
 
   let results = [];
@@ -115,12 +147,12 @@ export default function Map({ data }) {
     const valueLower = value.toLowerCase();
     const terms = [...updateSelectedTagsFilter(value)];
 
-    results = users.filter((user) => {
-      if (user.properties.name.toLowerCase().includes(valueLower)) {
+    results = points.filter((point) => {
+      if (point.properties.name.toLowerCase().includes(valueLower)) {
         return true;
       }
 
-      let userTags = user.properties.tags?.map((tag) => tag.toLowerCase());
+      let userTags = point.properties.tags?.map((tag) => tag.toLowerCase());
 
       if (terms.every((keyword) => userTags?.includes(keyword.toLowerCase()))) {
         return true;
@@ -129,11 +161,11 @@ export default function Map({ data }) {
       return false;
     });
 
-    setFilteredUsers(results);
+    setFilteredPoints(results);
   };
 
   const resetFilter = () => {
-    setFilteredUsers([]);
+    setFilteredPoints([]);
     setSelectedTags(new Set());
   };
 
@@ -172,14 +204,16 @@ export default function Map({ data }) {
           <Badge
             disable={selectedTags.size == 0 ? true : false}
             content={
-              filteredUsers.length > 0 ? filteredUsers.length : users.length
+              filteredPoints.length > 0 ? filteredPoints.length : points.length
             }
           >
             <Button
               onClick={resetFilter}
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            >Clear/Reset Filters</Button>
+            >
+              Clear/Reset Filters
+            </Button>
           </Badge>
           {tags &&
             tags
@@ -196,7 +230,7 @@ export default function Map({ data }) {
         </div>
         <div className="h-screen">
           <DynamicMap
-            users={filteredUsers.length > 0 ? filteredUsers : users}
+            points={filteredPoints.length > 0 ? filteredPoints : points}
           />
         </div>
       </Page>
