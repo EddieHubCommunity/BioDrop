@@ -38,11 +38,9 @@ export async function getEvents() {
           isEnabled: { $first: "$isEnabled" },
         },
       },
-      
       {
         $sort: { "date.start": 1 },
       },
-
     ]).exec();
 
     let dateEvents = [];
