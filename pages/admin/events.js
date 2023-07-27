@@ -64,6 +64,9 @@ export default function Events({ events }) {
   const toggle = async ({ _id, username, isEnabled }) => {
     const res = await fetch(`/api/admin/events/${_id}`, {
       method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({
         username,
         isEnabled: isEnabled === undefined || isEnabled ? false : true,

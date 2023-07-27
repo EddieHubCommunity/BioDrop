@@ -14,12 +14,12 @@ export default async function handler(req, res) {
     res.status(401).json({ message: "You must be logged in." });
     return;
   }
-  const username = session.username;
   if (!["PATCH"].includes(req.method)) {
     return res.status(400).json({ error: "Invalid request: PATCH required" });
   }
 
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
+  const authUsername = session.username;
+  if (!serverEnv.ADMIN_USERS.includes(authUsername)) {
     return res.status(401).json({});
   }
 
@@ -56,7 +56,7 @@ export async function updateEventApi(id, data) {
   }
 
   try {
-    event = await getEventApi(data, id);
+    event = await getEventApi(id, data.username);
   } catch (e) {
     logger.error(e, `failed to get event for event: ${id} by admin`);
     return { error: "Event not retrieved" };
@@ -65,12 +65,12 @@ export async function updateEventApi(id, data) {
   return JSON.parse(JSON.stringify(event));
 }
 
-export async function getEventApi(data, id) {
+export async function getEventApi(id, username) {
   await connectMongo();
   const getEvent = await Profile.aggregate([
     {
       $match: {
-        username: data.username,
+        username,
       },
     },
     {
@@ -89,9 +89,9 @@ export async function getEventApi(data, id) {
   ]);
 
   if (!getEvent) {
-    logger.info(`event not found for username: ${data.username} by admin`);
+    logger.info(`event not found for username: ${username} by admin`);
     return { error: "Event not found." };
   }
 
-  return JSON.parse(JSON.stringify(getEvent[0]));
+  return JSON.parse(JSON.stringify({ ...getEvent[0], username }));
 }
