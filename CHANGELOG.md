@@ -1,3 +1,12 @@
+## [1.161.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.3...v1.161.4) (2023-07-27)
+
+
+### Bug Fixes
+
+* refactored file naming of subnav ([#8369](https://github.com/EddieHubCommunity/LinkFree/issues/8369)) ([fc17079](https://github.com/EddieHubCommunity/LinkFree/commit/fc170790e6c4700f92b5b70633729abdb55d1431))
+
+
+
 ## [1.161.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.2...v1.161.3) (2023-07-27)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * playground json validation (Fix pr [#7577](https://github.com/EddieHubCommunity/LinkFree/issues/7577)) ([#8357](https://github.com/EddieHubCommunity/LinkFree/issues/8357)) ([6616d35](https://github.com/EddieHubCommunity/LinkFree/commit/6616d35ed99e49dfa25902944aa0836cf4d5784d)), closes [#6874](https://github.com/EddieHubCommunity/LinkFree/issues/6874)
-
-
-
-## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
-
-
-### Bug Fixes
-
-* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
 
 
 
