@@ -1,7 +1,7 @@
 import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Edit from "@components/account/manage/edit";
+import Edit from "@components/account/manage/Edit";
 
 export default function UserLink({
   BASE_URL,
@@ -60,10 +60,7 @@ export default function UserLink({
   );
 
   const edit = (link) => (
-    <Edit
-      href={`/account/manage/link/${link._id}`}
-      label={`${link.name} Link`}
-    >
+    <Edit href={`/account/manage/link/${link._id}`} label={`${link.name} Link`}>
       {item(link)}
     </Edit>
   );
