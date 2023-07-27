@@ -148,7 +148,7 @@ export default function Home({ total, today, randomProfile, BASE_URL }) {
     {
       image: "https://github.com/Pradumnasaraf.png",
       name: "Pradumna Saraf",
-      bio: "Open Source Advocate | DevOps Engineer | EddieHub Ambassador",
+      bio: "Open Source | DevOps | Golang Developer | EddieHub Ambassador",
       username: "Pradumnasaraf",
       text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
     },
