@@ -8,7 +8,7 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getEventApi } from "pages/api/account/manage/event/[[...data]]";
 import Input from "@components/form/Input";
 import EventCard from "@components/event/EventCard";
@@ -70,7 +70,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "" );
+  const [color, setColor] = useState(event.color || "");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
