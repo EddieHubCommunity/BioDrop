@@ -1,3 +1,12 @@
+## [1.161.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.2...v1.161.3) (2023-07-27)
+
+
+### Bug Fixes
+
+* update Pradumnasaraf's bio ([#8366](https://github.com/EddieHubCommunity/LinkFree/issues/8366)) ([05ad6ff](https://github.com/EddieHubCommunity/LinkFree/commit/05ad6ffb5e17232e2145590b01b70b366635c212))
+
+
+
 ## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
-
-
-
-## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
-
-
-### Bug Fixes
-
-* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
 
 
 
