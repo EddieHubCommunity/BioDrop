@@ -17,7 +17,6 @@ export default async function handler(req, res) {
   }
 
   const cleanedSlug = slug
-    .join()
     .trim()
     .replace(/\s{2,}/g, " ")
     .toLowerCase();

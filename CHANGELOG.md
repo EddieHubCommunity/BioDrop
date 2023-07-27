@@ -1,45 +1,45 @@
-## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
+## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
 
 
 ### Bug Fixes
 
-* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
+* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
 
 
 
-# [1.157.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.4...v1.157.0) (2023-07-17)
+## [1.161.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.0...v1.161.1) (2023-07-26)
+
+
+### Bug Fixes
+
+* manage events list ([#8361](https://github.com/EddieHubCommunity/LinkFree/issues/8361)) ([f1c9ad0](https://github.com/EddieHubCommunity/LinkFree/commit/f1c9ad052121b71e04c582c0031f45a4dbfbd96d))
+
+
+
+# [1.161.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.5...v1.161.0) (2023-07-26)
 
 
 ### Features
 
-* edit links for each doc page ([#8178](https://github.com/EddieHubCommunity/LinkFree/issues/8178)) ([e4b36d7](https://github.com/EddieHubCommunity/LinkFree/commit/e4b36d7ea282d3ca780c5e1463d3221aac51ed59))
+* playground json validation (Fix pr [#7577](https://github.com/EddieHubCommunity/LinkFree/issues/7577)) ([#8357](https://github.com/EddieHubCommunity/LinkFree/issues/8357)) ([6616d35](https://github.com/EddieHubCommunity/LinkFree/commit/6616d35ed99e49dfa25902944aa0836cf4d5784d)), closes [#6874](https://github.com/EddieHubCommunity/LinkFree/issues/6874)
 
 
 
-## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
-
-
-### Bug Fixes
-
-* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
-
-
-
-## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
+## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
 
 
 ### Bug Fixes
 
-* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
+* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
 
 
 
-## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
+## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
 
 
 ### Bug Fixes
 
-* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
+* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
 
 
 

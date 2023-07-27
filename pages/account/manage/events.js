@@ -63,7 +63,7 @@ export default function ManageEvents({ events }) {
           Add Event
         </Button>
 
-        <UserEvents events={events} manage={true} />
+        <UserEvents events={events} manage={true} filter="all" />
       </Page>
     </>
   );
