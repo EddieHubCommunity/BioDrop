@@ -5,7 +5,7 @@ import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
@@ -78,7 +78,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
       try {
         const res = await fetch(
           `${BASE_URL}/api/search?${new URLSearchParams({
-            slug: value
+            slug: value,
           }).toString()}`
         );
         const data = await res.json();
@@ -194,7 +194,10 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         </Badge>
 
         {notFound && <Alert type="error" message={notFound} />}
-        <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        >
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>

@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Link from "@components/Link";
 import Badge from "@components/Badge";
 import Button from "@components/Button";
