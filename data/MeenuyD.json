@@ -1,0 +1,26 @@
+{
+  "name": "Meenu Yadav",
+  "bio": "Open-source enthusiast who enjoys dancing, listening to songs, reading spiritual books, and spends free time debating politics",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Meenustwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/meenu-yd/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@meenuyD",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/MeenuyD",
+      "icon": "FaGithub"
+    }
+  ]
+}

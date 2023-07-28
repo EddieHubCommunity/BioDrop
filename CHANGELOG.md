@@ -1,45 +1,45 @@
-## [1.155.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.4...v1.155.5) (2023-07-13)
+# [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
+
+
+### Features
+
+* search user cards to include tags ([#8376](https://github.com/EddieHubCommunity/LinkFree/issues/8376)) ([9c6faa6](https://github.com/EddieHubCommunity/LinkFree/commit/9c6faa607aded247c92e698a0b61346baaf9a92d)), closes [#8256](https://github.com/EddieHubCommunity/LinkFree/issues/8256)
+
+
+
+# [1.162.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.4...v1.162.0) (2023-07-28)
+
+
+### Features
+
+* admin toggle events ([#8371](https://github.com/EddieHubCommunity/LinkFree/issues/8371)) ([0a0b042](https://github.com/EddieHubCommunity/LinkFree/commit/0a0b042e884f84631eb4bcc0c4ef5256b715d0f4))
+
+
+
+## [1.161.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.3...v1.161.4) (2023-07-27)
 
 
 ### Bug Fixes
 
-* milestone alert consistency ([#8170](https://github.com/EddieHubCommunity/LinkFree/issues/8170)) ([3818fcb](https://github.com/EddieHubCommunity/LinkFree/commit/3818fcb9cf0a99136e7bcd3b5a4944b557fd61d2)), closes [#7960](https://github.com/EddieHubCommunity/LinkFree/issues/7960)
+* refactored file naming of subnav ([#8369](https://github.com/EddieHubCommunity/LinkFree/issues/8369)) ([fc17079](https://github.com/EddieHubCommunity/LinkFree/commit/fc170790e6c4700f92b5b70633729abdb55d1431))
 
 
 
-## [1.155.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.3...v1.155.4) (2023-07-12)
-
-
-### Bug Fixes
-
-* event color css issue ([#7942](https://github.com/EddieHubCommunity/LinkFree/issues/7942)) ([8648bbe](https://github.com/EddieHubCommunity/LinkFree/commit/8648bbe9ba4e43b17760833006078a822312c925))
-
-
-
-## [1.155.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.2...v1.155.3) (2023-07-12)
+## [1.161.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.2...v1.161.3) (2023-07-27)
 
 
 ### Bug Fixes
 
-* delete button text color black to white ([#8127](https://github.com/EddieHubCommunity/LinkFree/issues/8127)) ([0b8e0f8](https://github.com/EddieHubCommunity/LinkFree/commit/0b8e0f817b1859801d3ca2f795e920ed48d87b3b))
+* update Pradumnasaraf's bio ([#8366](https://github.com/EddieHubCommunity/LinkFree/issues/8366)) ([05ad6ff](https://github.com/EddieHubCommunity/LinkFree/commit/05ad6ffb5e17232e2145590b01b70b366635c212))
 
 
 
-## [1.155.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.1...v1.155.2) (2023-07-12)
-
-
-### Bug Fixes
-
-* protected pages tests ([#8145](https://github.com/EddieHubCommunity/LinkFree/issues/8145)) ([7422eee](https://github.com/EddieHubCommunity/LinkFree/commit/7422eee75b98d8a1b802624616c68acdf0605817))
-
-
-
-## [1.155.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.0...v1.155.1) (2023-07-11)
+## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
 
 
 ### Bug Fixes
 
-* forms select and dropdown in dark mode ([#8144](https://github.com/EddieHubCommunity/LinkFree/issues/8144)) ([4c1df4a](https://github.com/EddieHubCommunity/LinkFree/commit/4c1df4af07169695f5e02b72e48029f3dc53c56f))
+* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
 
 
 

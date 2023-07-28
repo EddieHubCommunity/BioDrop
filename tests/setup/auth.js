@@ -8,7 +8,7 @@ const login = async (
   browser,
   user = {
     id: "22222222",
-    name: "Automated Test Standard User",
+    name: "Test User Name 6",
     email: "test-standard-user@test.com",
     username: "_test-profile-user-6",
   }

@@ -8,6 +8,10 @@ import config from "@config/app.json";
 
 const ProfileSchema = new Schema(
   {
+    account: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Account",
+    },
     source: {
       type: String,
       required: true,
