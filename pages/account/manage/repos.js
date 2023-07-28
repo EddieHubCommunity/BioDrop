@@ -5,13 +5,14 @@ import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getReposApi } from "pages/api/account/manage/repos";
 import Button from "@components/Button";
 import Input from "@components/form/Input";
 import { useState } from "react";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
+import UserRepos from "@components/user/UserRepos";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -118,7 +119,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
           </Button>
         </form>
 
-        {repoList.map((repo) => repo.url)}
+        <UserRepos repos={repoList} />
       </Page>
     </>
   );

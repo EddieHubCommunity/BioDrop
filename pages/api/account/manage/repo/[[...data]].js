@@ -101,6 +101,7 @@ export async function addRepoApi(username, addRepo) {
             url: addRepo.url,
             fullname: githubData.name,
             name: githubData.name,
+            owner: githubData.owner.login,
             description: githubData.description,
             topics: githubData.topics,
             stats: {
