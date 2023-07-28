@@ -51,10 +51,12 @@ export async function getEvents() {
       try {
         cleanEvent.date.startFmt = dateFormat({
           format: "long",
+          locales: "en-GB",
           date: event.date.start,
         });
         cleanEvent.date.endFmt = dateFormat({
           format: "long",
+          locales: "en-GB",
           date: event.date.end,
         });
 

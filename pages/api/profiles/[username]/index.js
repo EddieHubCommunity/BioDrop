@@ -107,10 +107,12 @@ export async function getUserApi(req, res, username) {
         const end = new Date(event.date.end);
         cleanEvent.date.startFmt = dateFormat({
           format: "long",
+          locales: "en-GB",
           date: event.date.start,
         });
         cleanEvent.date.endFmt = dateFormat({
           format: "long",
+          locales: "en-GB",
           date: event.date.end,
         });
 
