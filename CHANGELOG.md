@@ -1,3 +1,12 @@
+# [1.162.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.4...v1.162.0) (2023-07-28)
+
+
+### Features
+
+* admin toggle events ([#8371](https://github.com/EddieHubCommunity/LinkFree/issues/8371)) ([0a0b042](https://github.com/EddieHubCommunity/LinkFree/commit/0a0b042e884f84631eb4bcc0c4ef5256b715d0f4))
+
+
+
 ## [1.161.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.3...v1.161.4) (2023-07-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * manage events list ([#8361](https://github.com/EddieHubCommunity/LinkFree/issues/8361)) ([f1c9ad0](https://github.com/EddieHubCommunity/LinkFree/commit/f1c9ad052121b71e04c582c0031f45a4dbfbd96d))
-
-
-
-# [1.161.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.5...v1.161.0) (2023-07-26)
-
-
-### Features
-
-* playground json validation (Fix pr [#7577](https://github.com/EddieHubCommunity/LinkFree/issues/7577)) ([#8357](https://github.com/EddieHubCommunity/LinkFree/issues/8357)) ([6616d35](https://github.com/EddieHubCommunity/LinkFree/commit/6616d35ed99e49dfa25902944aa0836cf4d5784d)), closes [#6874](https://github.com/EddieHubCommunity/LinkFree/issues/6874)
 
 
 
