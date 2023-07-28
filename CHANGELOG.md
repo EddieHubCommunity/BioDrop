@@ -1,3 +1,12 @@
+# [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
+
+
+### Features
+
+* search user cards to include tags ([#8376](https://github.com/EddieHubCommunity/LinkFree/issues/8376)) ([9c6faa6](https://github.com/EddieHubCommunity/LinkFree/commit/9c6faa607aded247c92e698a0b61346baaf9a92d)), closes [#8256](https://github.com/EddieHubCommunity/LinkFree/issues/8256)
+
+
+
 # [1.162.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.4...v1.162.0) (2023-07-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
-
-
-
-## [1.161.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.0...v1.161.1) (2023-07-26)
-
-
-### Bug Fixes
-
-* manage events list ([#8361](https://github.com/EddieHubCommunity/LinkFree/issues/8361)) ([f1c9ad0](https://github.com/EddieHubCommunity/LinkFree/commit/f1c9ad052121b71e04c582c0031f45a4dbfbd96d))
 
 
 
