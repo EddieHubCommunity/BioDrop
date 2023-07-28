@@ -9,7 +9,7 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 import Button from "@components/Button";
 import UserLink from "@components/user/UserLink";

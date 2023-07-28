@@ -45,6 +45,12 @@
       "name": "Linkedin",
       "url": "https://www.linkedin.com/in/kirtankp/",
       "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/22300650/kirtan-patel",
+      "icon": "FaLink"
     }
   ],
   "socials": [
@@ -59,6 +65,10 @@
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/kirtankp/"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://stackoverflow.com/users/22300650/kirtan-patel"
     }
   ]
 }

@@ -1,8 +1,9 @@
 import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Edit from "@components/account/manage/edit";
+import Edit from "@components/account/manage/Edit";
 import { BsFillPinAngleFill } from "react-icons/bs";
+
 
 export default function UserLink({
   BASE_URL,
