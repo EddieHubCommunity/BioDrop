@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -74,49 +75,52 @@ export default function ManageLink({ BASE_URL, username, link }) {
       apiUrl = `${BASE_URL}/api/account/manage/link/${link._id}`;
     }
 
-    const res = await fetch(apiUrl, {
-      method,
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(putLink),
-    });
-    const update = await res.json();
+    try {
+      await sendRequest({
+        url: apiUrl,
+        method,
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: putLink,
+      });
+      setEdit(true);
+      Router.push(`${BASE_URL}/account/manage/links?success=true`);
+    } catch (err) {
+      const errMessage =
+        typeof err === "string"
+          ? err
+          : Object.keys(err)
+              .map((val) => `${val} is required`)
+              .join(", ");
 
-    if (update.message || !update) {
-      return setShowNotification({
+      setShowNotification({
         show: true,
         type: "error",
-        message: "Link add/update failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
-        ).join(", ")}`,
+        message: "Profile update failed",
+        additionalMessage: `Request failed! ${errMessage}`,
       });
     }
-
-    setEdit(true);
-    Router.push(`${BASE_URL}/account/manage/links?success=true`);
   };
 
   const deleteItem = async () => {
-    const res = await fetch(`${BASE_URL}/api/account/manage/link/${link._id}`, {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const update = await res.json();
-
-    if (update.error || update.message) {
-      return setShowNotification({
+    try {
+      await sendRequest({
+        url: `${BASE_URL}/api/account/manage/link/${link._id}`,
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      Router.push(`${BASE_URL}/account/manage/links`);
+    } catch (err) {
+      setShowNotification({
         show: true,
         type: "error",
         message: "Link delete failed",
-        additionalMessage: update.error || update.message,
+        additionalMessage: err,
       });
     }
-
-    return Router.push(`${BASE_URL}/account/manage/links`);
   };
 
   return (

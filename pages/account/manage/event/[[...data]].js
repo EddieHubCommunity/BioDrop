@@ -15,6 +15,7 @@ import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -70,7 +71,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "" );
+  const [color, setColor] = useState(event.color || "");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -89,51 +90,51 @@ export default function ManageEvent({ BASE_URL, event }) {
       putEvent = { ...putEvent, _id: event._id };
       apiUrl = `${BASE_URL}/api/account/manage/event/${event._id}`;
     }
-    const res = await fetch(apiUrl, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(putEvent),
-    });
-    const update = await res.json();
+    try {
+      await sendRequest({
+        url: apiUrl,
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: putEvent,
+      });
+      Router.push(`${BASE_URL}/account/manage/events?success=true`);
+    } catch (err) {
+      const errMessage =
+        typeof err === "string"
+          ? err
+          : Object.keys(err)
+              .map((val) => `${val} is required`)
+              .join(", ");
 
-    if (update.message) {
-      return setShowNotification({
+      setShowNotification({
         show: true,
         type: "error",
-        message: "Event add/update failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
-        ).join(", ")}`,
+        message: "Profile update failed",
+        additionalMessage: `Request failed! ${errMessage}`,
       });
     }
-
-    Router.push(`${BASE_URL}/account/manage/events?success=true`);
   };
 
   const deleteItem = async () => {
-    const res = await fetch(
-      `${BASE_URL}/api/account/manage/event/${event._id}`,
-      {
+    try {
+      await sendRequest({
+        url: `${BASE_URL}/api/account/manage/event/${event._id}`,
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
         },
-      }
-    );
-    const update = await res.json();
-
-    if (update.error || update.message) {
-      return setShowNotification({
+      });
+      Router.push(`${BASE_URL}/account/manage/events`);
+    } catch (err) {
+      setShowNotification({
         show: true,
         type: "error",
         message: "Event delete failed",
-        additionalMessage: update.error || update.message,
+        additionalMessage: err,
       });
     }
-
-    return Router.push(`${BASE_URL}/account/manage/events`);
   };
 
   return (

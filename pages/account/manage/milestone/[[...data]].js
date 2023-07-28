@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -76,51 +77,51 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       putMilestone = { ...putMilestone, _id: milestone._id };
       apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
     }
-    const res = await fetch(apiUrl, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(putMilestone),
-    });
-    const update = await res.json();
 
-    if (update.message) {
-      return setShowNotification({
+    try {
+      await sendRequest({
+        url: apiUrl,
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: putMilestone,
+      });
+      Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
+    } catch (err) {
+      const errMessage =
+        typeof err === "string"
+          ? err
+          : Object.keys(err)
+              .map((val) => `${val} is required`)
+              .join(", ");
+      setShowNotification({
         show: true,
         type: "error",
         message: "Milestone update failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
-        ).join(", ")}`,
+        additionalMessage: `Request Failed! ${errMessage}.`,
       });
     }
-
-    Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
   };
 
   const deleteItem = async () => {
-    const res = await fetch(
-      `${BASE_URL}/api/account/manage/milestone/${milestone._id}`,
-      {
+    try {
+      await sendRequest({
+        url: `${BASE_URL}/api/account/manage/milestone/${milestone._id}`,
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
         },
-      }
-    );
-    const update = await res.json();
-
-    if (update.error || update.message) {
-      return setShowNotification({
+      });
+      Router.push(`${BASE_URL}/account/manage/milestones`);
+    } catch (err) {
+      setShowNotification({
         show: true,
         type: "error",
         message: "Milestone delete failed",
-        additionalMessage: update.error || update.message,
+        additionalMessage: err,
       });
     }
-
-    return Router.push(`${BASE_URL}/account/manage/milestones`);
   };
 
   useEffect(() => {
