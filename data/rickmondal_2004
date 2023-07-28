@@ -1,0 +1,39 @@
+{
+  "name" : "Rick Mondal",
+  "displayStatsPublic" : true,
+  "type" : "personal",
+  "bio" : "Student | Web Developer | Graphic Designer",
+  "avatar" : "https://github.com/rickmondal-2004.png"
+  "links" : [
+    {
+      "name" : "Connect with me on Linkedin",
+      "url" : "https://twitter.com/rickmondal_2004",
+      "icon" : "FaLinkedin"
+    },
+     {
+      "name" : "follow me on Twitter",
+      "url" : "https://www.linkedin.com/in/rickmondal2004/",
+      "icon" : "FaTwitter"
+    },
+    {
+      "name" : "follow me on GitHub",
+      "url" : "https://github.com/rickmondal-2004",
+      "icon" : "FaGithub"
+    },
+    {
+      "name" : "Portfio website",
+      "url" : "https://rickmondal-2004.github.io/Portfolio/",
+      "icon" : "FaGlobe"
+    },
+    {
+      "name" : "Folow my personal blog",
+      "url" : "https://rick2004.hashnode.dev/",
+      "icon" : "SiHashnode"
+    },
+     {
+      "name" : "follow me on Instagram",
+      "url" : "https://www.instagram.com/rickmondal_2004",
+      "icon" : "FaInstagram"
+    },
+  ]
+}
