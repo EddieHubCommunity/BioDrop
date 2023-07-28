@@ -8,6 +8,7 @@ import PageHead from "@components/PageHead";
 
 import { serverEnv } from "@config/schemas/serverSchema";
 import { getStatsApi } from "pages/api/admin/stats";
+import Navigation from "@components/admin/Navigation";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -48,7 +49,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function Admin({ stats }) {
+export default function Statistics({ stats }) {
   const displayStats = [
     { id: 1, name: "Total Profiles", value: stats.profiles },
     { id: 2, name: "Profiles using JSON", value: stats.profilesUsingJson },
@@ -63,6 +64,7 @@ export default function Admin({ stats }) {
         description="Overview for LinkFree admins"
       />
       <Page>
+        <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Admin</h1>
 
         <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">

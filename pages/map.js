@@ -2,7 +2,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 
 import logger from "@config/logger";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -39,7 +39,7 @@ export async function getStaticProps() {
 
   // Apply offset equally to 4 quadrants arround point
   const adjustCoords = (coords, offset, offset2, index) => {
-    switch (index % 4 ) {
+    switch (index % 4) {
       case 0:
         return [coords[0] + offset, coords[1] + offset2];
       case 1:
@@ -49,7 +49,7 @@ export async function getStaticProps() {
       default:
         return [coords[0] + offset, coords[1] - offset2];
     }
-  }
+  };
 
   data.users = data.users.map((user, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
@@ -62,21 +62,18 @@ export async function getStaticProps() {
         username: user.username,
         name: user.name,
         location: user.location.provided,
-        bio: user.bio || ''
+        bio: user.bio || "",
       },
       geometry: {
         type: "Point",
-        coordinates:adjustCoords(
-          [
-            parseFloat(user.location.lon),
-            parseFloat(user.location.lat)
-          ],
+        coordinates: adjustCoords(
+          [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
           index
-        )
-      }
-    }
+        ),
+      },
+    };
   });
 
   try {
@@ -179,7 +176,9 @@ export default function Map({ data }) {
               onClick={resetFilter}
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            >Clear/Reset Filters</Button>
+            >
+              Clear/Reset Filters
+            </Button>
           </Badge>
           {tags &&
             tags

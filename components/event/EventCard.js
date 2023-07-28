@@ -10,7 +10,7 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
-import Edit from "@components/account/manage/edit";
+import Edit from "@components/account/manage/Edit";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;

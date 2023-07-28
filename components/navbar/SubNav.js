@@ -1,64 +1,11 @@
 import Link from "@components/Link";
 import Router, { useRouter } from "next/router";
-import {
-  MdPerson,
-  MdOutlineAutoGraph,
-  MdOutlineLink,
-  MdSpeakerNotes,
-  MdCalendarMonth,
-  MdOutlineBadge,
-} from "react-icons/md";
-
-let tabs = [
-  {
-    name: "Statistics",
-    href: "/account/statistics",
-    match: [],
-    icon: MdOutlineAutoGraph,
-    current: false,
-  },
-  {
-    name: "Profile",
-    href: "/account/manage/profile",
-    match: [],
-    icon: MdPerson,
-    current: false,
-  },
-  {
-    name: "Links",
-    href: "/account/manage/links",
-    match: ["/account/manage/link/[[...data]]"],
-    icon: MdOutlineLink,
-    current: false,
-  },
-  {
-    name: "Milestones",
-    href: "/account/manage/milestones",
-    match: ["/account/manage/milestone/[[...data]]"],
-    icon: MdOutlineBadge,
-    current: false,
-  },
-  {
-    name: "Events",
-    href: "/account/manage/events",
-    match: ["/account/manage/event/[[...data]]"],
-    icon: MdCalendarMonth,
-    current: false,
-  },
-  {
-    name: "Testimonials",
-    href: "/account/manage/testimonials",
-    match: [],
-    icon: MdSpeakerNotes,
-    current: false,
-  },
-];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Navigation() {
+export default function SubNav({ tabs }) {
   const router = useRouter();
   tabs = tabs.map((tab) => {
     if (router.pathname === tab.href || tab.match.includes(router.pathname)) {
