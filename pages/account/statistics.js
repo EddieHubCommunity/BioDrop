@@ -13,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
+import dateFormat from "@services/utils/dateFormat";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -95,15 +96,10 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress, BASE_URL }) {
-  const dateTimeStyle = {
-    dateStyle: "short",
-  };
   const dailyViews = data.profile.daily.slice(-30).map((day) => {
     return {
       views: day.views,
-      date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(day.date)
-      ),
+      date: dateFormat({ format: "short", date: day.date }),
     };
   });
 

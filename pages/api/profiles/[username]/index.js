@@ -6,6 +6,7 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -101,21 +102,17 @@ export async function getUserApi(req, res, username) {
     const today = new Date();
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
-      const dateTimeStyle = {
-        dateStyle: "full",
-        timeStyle: "long",
-      };
       try {
         const start = new Date(event.date.start);
         const end = new Date(event.date.end);
-        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(start);
-        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(end);
+        cleanEvent.date.startFmt = dateFormat({
+          format: "long",
+          date: event.date.start,
+        });
+        cleanEvent.date.endFmt = dateFormat({
+          format: "long",
+          date: event.date.end,
+        });
 
         cleanEvent.date.cfpOpen =
           event.date.cfpClose && new Date(event.date.cfpClose) > today;
