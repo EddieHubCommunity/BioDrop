@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 
-import UserCard from "@components/user/UserCard";
+import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -32,8 +32,8 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (users.length > 10) {
-    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 10);
+  if (users.length > 9) {
+    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 9);
   } else {
     data.randUsers = users;
   }
@@ -194,18 +194,18 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         </Badge>
 
         {notFound && <Alert type="error" message={notFound} />}
-        <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
+        <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserCard profile={user} />
+                <UserHorizontal profile={user} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserCard profile={user} />
+                <UserHorizontal profile={user} />
               </li>
             ))}
         </ul>
