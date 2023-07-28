@@ -23,7 +23,7 @@ export default function UserLink({
   const item = (link) => {
     return (
       <div className="flex flex-col">
-        {manage && link.isPinned && isEnabled && (
+        {manage && link.isPinned && (
           <BsFillPinAngleFill
             className={`h-5 w-5 text-secondary-high dark:text-primary-low self-end absolute right-2 z-20`}
           />
