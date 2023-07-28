@@ -15,6 +15,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
 import Alert from "@components/Alert";
+import { sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -47,41 +48,75 @@ export async function getServerSideProps(context) {
 
 export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const [reorder, setReorder] = useState(false);
-  const [showNotification, setShowNotification] = useState(false);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
   const [testimonialList, setTestimonialList] = useState(testimonials || []);
   const [testimonialListPrevious, setTestimonialListPrevious] = useState(
     testimonials || []
   );
 
   const toggle = async (_id) => {
-    const res = await fetch(`${BASE_URL}/api/account/manage/testimonials`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        _id,
-        isPinned: !testimonialList.find((t) => t._id === _id).isPinned,
-      }),
-    });
-    const updatedTestimonials = await res.json();
-    setTestimonialList(updatedTestimonials);
-    setShowNotification(true);
+    try {
+      const updatedTestimonials = await sendRequest({
+        url: `${BASE_URL}/api/account/manage/testimonials`,
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: {
+          _id,
+          isPinned: !testimonialList.find((t) => t._id === _id).isPinned,
+        },
+      });
+      setTestimonialList(updatedTestimonials);
+      setShowNotification({
+        show: true,
+        type: "success",
+        message: "Testimonials updated",
+        additionalMessage:
+          "Your profile information has been saved successfully.",
+      });
+    } catch (err) {
+      setShowNotification({
+        show: true,
+        type: "error",
+        message: "Testimonials update failed",
+        additionalMessage: err,
+      });
+    }
   };
 
   const saveOrder = async () => {
-    const res = await fetch(`${BASE_URL}/api/account/manage/testimonials`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(testimonialList),
-    });
-    const updatedTestimonials = await res.json();
-    setTestimonialList(updatedTestimonials);
-    setTestimonialListPrevious(updatedTestimonials);
-    setShowNotification(true);
-    setReorder(false);
+    try {
+      const updatedTestimonials = await sendRequest({
+        url: `${BASE_URL}/api/account/manage/testimonials`,
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: testimonialList,
+      });
+      setTestimonialListPrevious(updatedTestimonials);
+      setReorder(false);
+      setShowNotification({
+        show: true,
+        type: "success",
+        message: "Testimonials updated",
+        additionalMessage:
+          "Your profile information has been saved successfully.",
+      });
+    } catch (err) {
+      setShowNotification({
+        show: true,
+        type: "error",
+        message: "Testimonials update failed",
+        additionalMessage: err,
+      });
+    }
   };
 
   return (
@@ -95,11 +130,13 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
         <Navigation />
 
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Testimonials updated"
-          additionalMessage="Your profile information has been saved successfully."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
 
         <div>
