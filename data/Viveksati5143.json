@@ -31,6 +31,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/Viveksati5143",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@viveksati",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [

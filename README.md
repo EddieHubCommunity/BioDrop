@@ -141,7 +141,7 @@ Here are some testimonials from individuals who have used LinkFree:-
 > "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app."
 
 - **Name :** Pradumna Saraf
-- **Bio :** Open Source Advocate | DevOps Engineer | EddieHub Ambassador
+- **Bio :** Open Source | DevOps | Golang Developer | EddieHub Ambassador
 - **Username :** <strong><a href="https://linkfree.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
 <!-- Testimonials ENDs Here -->
