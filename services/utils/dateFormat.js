@@ -1,8 +1,4 @@
-export default function dateFormat({
-  format = "long",
-  locales = undefined,
-  date,
-}) {
+export default function dateFormat({ format = "long", date }) {
   let dateTimeStyle = { dateStyle: "short" };
 
   switch (format) {
@@ -17,5 +13,5 @@ export default function dateFormat({
       break;
   }
 
-  return new Intl.DateTimeFormat(locales, dateTimeStyle).format(new Date(date));
+  return new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(new Date(date));
 }
