@@ -8,7 +8,10 @@ import Edit from "@components/account/manage/Edit";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
-
+  let isDateInvalid =  false;
+  if(milestone.date.trim().match(/^[0-9]{4}$/) || isNaN(Date.parse(milestone.date))){
+    isDateInvalid = true;
+  }
   useEffect(() => {
     const parse = Date.parse(milestone.date);
     if (!isNaN(parse)) {
@@ -16,6 +19,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
     }
   }, [milestone.date]);
 
+  const borderRed = "border-2 border-red-600 p-1";
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {
     const colors = isGoal
@@ -43,7 +47,9 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
                 </Link>
               )}
             </h3>
-            <p className={`text-sm ${colors}`}>{date}</p>
+            <p className={`text-sm ${colors} ${ isDateInvalid && borderRed}`}>
+              {date}
+            </p>
           </div>
           <ReactMarkdown className={`text-sm ${colors}`}>
             {milestone.description}

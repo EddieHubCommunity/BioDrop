@@ -7,12 +7,14 @@ export default function UserMilestones({ milestones, manage = false }) {
   );
 
   const futureMilestones = milestones.filter((milestone) => milestone.isGoal);
+  const showDateFixAlert = milestones.some(milestone => isNaN(Date.parse(milestone.date)) || milestone.date.trim().match(/^[0-9]{4}$/))
   return (
     <>
       {!milestones?.length && (
         <Alert type="info" message="No Milestones found" />
       )}
 
+      {showDateFixAlert &&  <div className="mt-4"> <Alert type="warning" message="Please update your milestone date" /> </div>}
       <ul role="list" className="divide-y divide-primary-low-medium mt-4">
         {milestones &&
           historicMilestones.map((milestone, key) => (
