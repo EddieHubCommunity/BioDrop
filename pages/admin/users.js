@@ -53,7 +53,7 @@ export default function USERS({ users }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin over"
+        title="LinkFree admin users"
         description="Overview for LinkFree admins"
       />
       <Page>
