@@ -1,3 +1,4 @@
+import FallbackImage from "@components/FallbackImage";
 import Link from "@components/Link";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import StarIcon from "@heroicons/react/20/solid/StarIcon";
@@ -11,10 +12,12 @@ export default function UserRepos({ repos }) {
           className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6 lg:px-8"
         >
           <div className="flex gap-x-4">
-            <img
+            <FallbackImage
               className="h-12 w-12 flex-none rounded-full bg-gray-50"
               src={`https://github.com/${repo.owner}.png`}
               alt={`${repo.owner} avatar`}
+              width={100}
+              height={100}
             />
             <div className="min-w-0 flex-auto">
               <p className="text-sm font-semibold leading-6 text-gray-900">
@@ -22,12 +25,14 @@ export default function UserRepos({ repos }) {
                   <span className="absolute inset-x-0 -top-px bottom-0" />
                   {repo.owner}/{repo.name}
                 </Link>{" "}
-                (
-                {new Intl.DateTimeFormat("en-GB", {
-                  dateStyle: "full",
-                  timeStyle: "long",
-                }).format(new Date(repo.dates.pushedAt))}
-                )
+                <span className="hidden md:inline">
+                  (
+                  {new Intl.DateTimeFormat("en-GB", {
+                    dateStyle: "full",
+                    timeStyle: "long",
+                  }).format(new Date(repo.dates.pushedAt))}
+                  )
+                </span>
               </p>
               <p className="mt-1 flex text-xs leading-5 text-gray-500">
                 {repo.description}

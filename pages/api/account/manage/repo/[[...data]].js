@@ -83,7 +83,7 @@ export async function addRepoApi(username, addRepo) {
     log.error(e, `validation failed to add repo for username: ${username}`);
     return { error: e.errors };
   }
-  const githubData = await getGitHubRepo(addRepo.url.split("github.com/")[1]);
+  const githubData = await getGitHubRepo(addRepo.url);
   const id = new mongoose.Types.ObjectId();
 
   try {
@@ -120,7 +120,7 @@ export async function addRepoApi(username, addRepo) {
           },
         },
       },
-      { upsert: true, new: true }
+      { new: true }
     );
     getRepo = await getRepoApi(username, id);
   } catch (e) {
@@ -151,7 +151,7 @@ export async function deleteRepoApi(username, id) {
           },
         },
       },
-      { upsert: true, new: true }
+      { new: true }
     );
   } catch (e) {
     const error = `failed to delete repo for username: ${username}`;
@@ -160,4 +160,53 @@ export async function deleteRepoApi(username, id) {
   }
 
   return JSON.parse(JSON.stringify({}));
+}
+
+export async function updateRepoApi(username, id, githubData) {
+  await connectMongo();
+  const log = logger.child({ username });
+
+  let getRepo = {};
+  try {
+    await Profile.findOneAndUpdate(
+      {
+        username,
+        "repos._id": new ObjectId(id),
+      },
+      {
+        $set: {
+          source: "database",
+          "repos.$": {
+            url: githubData.html_url,
+            fullname: githubData.name,
+            name: githubData.name,
+            owner: githubData.owner.login,
+            description: githubData.description,
+            topics: githubData.topics,
+            stats: {
+              issues: githubData.open_issues_count,
+              stars: githubData.stargazers_count,
+              forks: githubData.forks_count,
+              watchers: githubData.watchers_count,
+              subscribers: githubData.subscribers_count,
+            },
+            dates: {
+              createdAt: githubData.created_at,
+              updatedAt: githubData.updated_at,
+              pushedAt: githubData.pushed_at,
+            },
+            updatedAt: new Date(),
+          },
+        },
+      },
+      { new: true }
+    );
+    getRepo = await getRepoApi(username, id);
+  } catch (e) {
+    const error = `failed to add repo for username: ${username}`;
+    log.error(e, error);
+    return { error };
+  }
+
+  return JSON.parse(JSON.stringify(getRepo));
 }
