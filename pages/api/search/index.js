@@ -1,10 +1,10 @@
-import { getUsers } from "../profiles";
+import { searchUsers } from "../profiles";
 import logger from "@config/logger";
 
 export default async function handler(req, res) {
   const { slug } = req.query;
 
-  if (req.method != "GET") {
+  if (req.method !== "GET") {
     return res
       .status(400)
       .json({ error: "Invalid request: GET request required" });
@@ -20,33 +20,12 @@ export default async function handler(req, res) {
     .trim()
     .replace(/\s{2,}/g, " ")
     .toLowerCase();
-  const terms = cleanedSlug.split(",");
-  let filteredUsers = [];
 
+  const terms = cleanedSlug
+    .split(",")
+    .map((tag) => new RegExp(tag.trim().replace(/\s/g, ""), "i"));
   try {
-    const users = await getUsers();
-
-    filteredUsers = users.flat().filter((user) => {
-      const nameLower = user.name.toLowerCase();
-      const usernameLower = user.username.toLowerCase();
-      const userTagsString = user.tags.join(", ").toLowerCase();
-      const userLocationString = user.location
-        ? user.location.provided.toLowerCase()
-        : "";
-
-      const isUserMatched = terms.every((term) => {
-        const cleanedTerm = term.trim();
-
-        return (
-          usernameLower.includes(cleanedTerm) ||
-          nameLower.includes(cleanedTerm) ||
-          userTagsString.includes(cleanedTerm) ||
-          userLocationString.includes(cleanedTerm)
-        );
-      });
-      return isUserMatched;
-    });
-
+    const filteredUsers = await searchUsers(terms)
     if (!filteredUsers.length) {
       return res.status(404).json({ error: `${cleanedSlug} not found` });
     }
@@ -54,5 +33,6 @@ export default async function handler(req, res) {
     res.status(200).json({ users: filteredUsers });
   } catch (e) {
     logger.error(e, "ERROR fetch search users");
+    res.status(500).json({ error: "Internal Server Error" });
   }
 }

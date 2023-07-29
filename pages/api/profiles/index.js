@@ -1,6 +1,7 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile } from "@models/index";
+import { generateAggreation } from "@config/searchConfig";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -32,4 +33,15 @@ export async function getUsers(options = {}) {
   }
 
   return JSON.parse(JSON.stringify(profiles));
+}
+
+export async function searchUsers(termsArray) {
+  const agg = generateAggreation(termsArray);
+  try {
+    const data = await Profile.aggregate(agg).exec();
+    return data;
+  } catch (err) {
+    console.error("Error fetching search users:", err);
+    throw err;
+  }
 }
