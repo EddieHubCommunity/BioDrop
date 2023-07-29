@@ -1,3 +1,12 @@
+## [1.163.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.0...v1.163.1) (2023-07-29)
+
+
+### Bug Fixes
+
+* clear/reset btn badge on map ([#8239](https://github.com/EddieHubCommunity/LinkFree/issues/8239)) ([23154b1](https://github.com/EddieHubCommunity/LinkFree/commit/23154b1e2248b23bd802a3086cc33663c72a3825))
+
+
+
 # [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update Pradumnasaraf's bio ([#8366](https://github.com/EddieHubCommunity/LinkFree/issues/8366)) ([05ad6ff](https://github.com/EddieHubCommunity/LinkFree/commit/05ad6ffb5e17232e2145590b01b70b366635c212))
-
-
-
-## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
-
-
-### Bug Fixes
-
-* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
 
 
 
