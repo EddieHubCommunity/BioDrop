@@ -2,7 +2,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 
 import logger from "@config/logger";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";

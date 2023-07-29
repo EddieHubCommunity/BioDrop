@@ -31,6 +31,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/Viveksati5143",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@viveksati",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
@@ -57,6 +62,15 @@
       "color": "red",
       "description": "Started my first Remote DevOps Internship in a startup.",
       "url": "https://twitter.com/Vivek__twts/status/1678303627616702464?s=20"
+    },
+    {
+      "isGoal": true,
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2023",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member by actively contributing to projects on both orgs",
+      "url": "https://github.com/kubernetes-sigs"
     },
     {
       "isGoal": true,

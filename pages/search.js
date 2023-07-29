@@ -1,11 +1,11 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
 
-import UserCard from "@components/user/UserCard";
+import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
@@ -32,8 +32,8 @@ export async function getStaticProps() {
     logger.error(e, "ERROR loading tags");
   }
 
-  if (users.length > 10) {
-    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 10);
+  if (users.length > 9) {
+    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 9);
   } else {
     data.randUsers = users;
   }
@@ -77,11 +77,13 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     async function fetchUsers(value) {
       try {
         const res = await fetch(
-          `${BASE_URL}/api/search/${value.replaceAll(",", "/")}`
+          `${BASE_URL}/api/search?${new URLSearchParams({
+            slug: value,
+          }).toString()}`
         );
         const data = await res.json();
         if (data.error) {
-          throw new Error(`${inputValue} not found`);
+          throw new Error(`${value} not found`);
         }
 
         setNotFound();
@@ -184,7 +186,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source, reactjs"
+            placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
@@ -192,18 +194,21 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         </Badge>
 
         {notFound && <Alert type="error" message={notFound} />}
-        <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        >
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserCard profile={user} />
+                <UserHorizontal profile={user} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserCard profile={user} />
+                <UserHorizontal profile={user} />
               </li>
             ))}
         </ul>
