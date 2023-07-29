@@ -171,6 +171,7 @@ export default function Map({ data }) {
             content={
               filteredUsers.length > 0 ? filteredUsers.length : users.length
             }
+            badgeClassName={"translate-x-3 -translate-y-3"}
           >
             <Button
               onClick={resetFilter}
