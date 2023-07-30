@@ -16,15 +16,6 @@ import Notification from "@components/Notification";
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
 
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
 
   if (!serverEnv.ADMIN_USERS.includes(username)) {
