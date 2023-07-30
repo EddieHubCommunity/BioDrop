@@ -74,12 +74,33 @@ export default function USERS({ profiles }) {
                   alt="description of image"
                 />
                 <div className="min-w-0 flex-auto">
-                  <p className="text-sm font-semibold leading-6">
+                  <p className="text-sm font-semibold leading-6 flex gap-2">
                     <span className="absolute inset-x-0 -top-px bottom-0" />
                     <Link href={`/${profile.username}`}>
                       <span className="absolute inset-x-0 -top-px bottom-0" />
                       {profile.name}
                     </Link>
+                    <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+                      Views {profile.views}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+                      Status{" "}
+                      {profile.isEnabled || profile.isEnabled === undefined
+                        ? "Enabled"
+                        : "Disabled"}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-yellow-600/20">
+                      Links {profile.links?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-blue-700/10">
+                      Milestones {profile.milestones?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+                      Events {profile.events?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+                      Testimonials {profile.testimonials?.length}
+                    </span>
                   </p>
                   <p className="mt-1 flex text-xs leading-5 text-primary-medium dark:text-primary-low">
                     <span className="relative truncate hover:underline">
@@ -94,7 +115,7 @@ export default function USERS({ profiles }) {
                     {profile.source}
                   </p>
                   <p className="mt-1 text-xs leading-5 text-primary-medium dark:text-primary-low">
-                    UpdateAt{" "}
+                    Update at{" "}
                     <time dateTime={profile.updatedAt}>
                       {profile.updatedAt}
                     </time>
