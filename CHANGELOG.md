@@ -1,3 +1,12 @@
+# [1.165.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.164.0...v1.165.0) (2023-07-30)
+
+
+### Features
+
+* more profile data for admin ([#8408](https://github.com/EddieHubCommunity/LinkFree/issues/8408)) ([caa24b4](https://github.com/EddieHubCommunity/LinkFree/commit/caa24b47e289a8971f20d6004e584d42283972ae))
+
+
+
 # [1.164.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.1...v1.164.0) (2023-07-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin toggle events ([#8371](https://github.com/EddieHubCommunity/LinkFree/issues/8371)) ([0a0b042](https://github.com/EddieHubCommunity/LinkFree/commit/0a0b042e884f84631eb4bcc0c4ef5256b715d0f4))
-
-
-
-## [1.161.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.3...v1.161.4) (2023-07-27)
-
-
-### Bug Fixes
-
-* refactored file naming of subnav ([#8369](https://github.com/EddieHubCommunity/LinkFree/issues/8369)) ([fc17079](https://github.com/EddieHubCommunity/LinkFree/commit/fc170790e6c4700f92b5b70633729abdb55d1431))
 
 
 
