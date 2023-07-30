@@ -17,8 +17,8 @@ const tabs = [
     current: false,
   },
   {
-    name: "Users",
-    href: "/admin/users",
+    name: "Profiles",
+    href: "/admin/profiles",
     match: [],
     icon: MdPerson,
     current: false,
