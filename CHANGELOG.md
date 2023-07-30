@@ -1,3 +1,21 @@
+# [1.164.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.1...v1.164.0) (2023-07-30)
+
+
+### Features
+
+* admin profile list (Fix pr 8388) ([#8406](https://github.com/EddieHubCommunity/LinkFree/issues/8406)) ([eed3a12](https://github.com/EddieHubCommunity/LinkFree/commit/eed3a1246e32113504ae35a32562244c73422ac7)), closes [#8388](https://github.com/EddieHubCommunity/LinkFree/issues/8388)
+
+
+
+## [1.163.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.0...v1.163.1) (2023-07-29)
+
+
+### Bug Fixes
+
+* clear/reset btn badge on map ([#8239](https://github.com/EddieHubCommunity/LinkFree/issues/8239)) ([23154b1](https://github.com/EddieHubCommunity/LinkFree/commit/23154b1e2248b23bd802a3086cc33663c72a3825))
+
+
+
 # [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * refactored file naming of subnav ([#8369](https://github.com/EddieHubCommunity/LinkFree/issues/8369)) ([fc17079](https://github.com/EddieHubCommunity/LinkFree/commit/fc170790e6c4700f92b5b70633729abdb55d1431))
-
-
-
-## [1.161.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.2...v1.161.3) (2023-07-27)
-
-
-### Bug Fixes
-
-* update Pradumnasaraf's bio ([#8366](https://github.com/EddieHubCommunity/LinkFree/issues/8366)) ([05ad6ff](https://github.com/EddieHubCommunity/LinkFree/commit/05ad6ffb5e17232e2145590b01b70b366635c212))
-
-
-
-## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
-
-
-### Bug Fixes
-
-* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
 
 
 
