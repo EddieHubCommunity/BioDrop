@@ -93,8 +93,8 @@ export default function EventCard({ manage, event, usernames }) {
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>{endTime}</span>
               </p>
-              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
-                {event.description}
+              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap whitespace-pre-wrap ">
+                {event.description.replace(/\n/gi, '\n &nbsp;')}
               </ReactMarkdown>
               <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
                 {(event.isVirtual || (event.isInPerson && event.location)) && (

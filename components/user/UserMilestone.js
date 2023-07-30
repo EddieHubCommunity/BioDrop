@@ -34,8 +34,8 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
             {date}
           </p>
         </div>
-        <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-medium-low">
-          {milestone.description}
+        <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-medium-low whitespace-pre-wrap">
+          {milestone.description.replace(/\n/gi, '\n &nbsp;')}
         </ReactMarkdown>
       </div>
     </div>
