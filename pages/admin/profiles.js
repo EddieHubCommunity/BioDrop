@@ -81,7 +81,7 @@ export default function USERS({ profiles }) {
                       {profile.name}
                     </Link>
                   </p>
-                  <p className="mt-1 flex text-xs leading-5 text-gray-500">
+                  <p className="mt-1 flex text-xs leading-5 text-primary-medium dark:text-primary-low">
                     <span className="relative truncate hover:underline">
                       {profile.bio}
                     </span>
@@ -90,10 +90,10 @@ export default function USERS({ profiles }) {
               </div>
               <div className="flex items-center gap-x-4">
                 <div className="hidden sm:flex sm:flex-col sm:items-end">
-                  <p className="text-sm leading-6 text-gray-900">
+                  <p className="text-sm leading-6 text-primary-high dark:text-primary-low">
                     {profile.source}
                   </p>
-                  <p className="mt-1 text-xs leading-5 text-gray-500">
+                  <p className="mt-1 text-xs leading-5 text-primary-medium dark:text-primary-low">
                     UpdateAt{" "}
                     <time dateTime={profile.updatedAt}>
                       {profile.updatedAt}
@@ -101,7 +101,7 @@ export default function USERS({ profiles }) {
                   </p>
                 </div>
                 <ChevronRightIcon
-                  className="h-5 w-5 flex-none text-gray-400"
+                  className="h-5 w-5 flex-none text-primary-medium dark:text-primary-low"
                   aria-hidden="true"
                 />
               </div>
