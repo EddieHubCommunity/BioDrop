@@ -9,7 +9,7 @@
     "Golang",
     "Rust",
     "Zig",
-    "Embedded",
+    "Embedded"
   ],
   "socials": [
     {
@@ -42,15 +42,15 @@
     },
     {
       "icon": "SiDiscord",
-      "url": "https://discord.gg/HJbehRZNey",
+      "url": "https://discord.gg/HJbehRZNey"
     },
     {
       "icon": "SiYoutube",
-      "url": "https://youtube.com/@axelgarciak",
+      "url": "https://youtube.com/@axelgarciak"
     },
     {
       "icon": "SiIcloud",
-      "url": "https://bsky.app/profile/axelgarciak.bsky.social",
+      "url": "https://bsky.app/profile/axelgarciak.bsky.social"
     }
   ],
   "links": [
@@ -69,8 +69,8 @@
     {
       "group": "Socials",
       "name": "All links in one",
-      "url": "https://axelgarciak.com/bio"
-      "icon": "FaLink",
+      "url": "https://axelgarciak.com/bio",
+      "icon": "FaLink"
     },
     {
       "group": "Socials",
@@ -113,6 +113,6 @@
       "name": "Follow on BlueSky",
       "url": "https://bsky.app/profile/axelgarciak.bsky.social",
       "icon": "SiIcloud"
-    },
+    }
   ]
 }
