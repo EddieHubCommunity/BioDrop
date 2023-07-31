@@ -70,7 +70,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     event.date?.end && formatDate(event.date?.end)
   );
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "" );
+  const [color, setColor] = useState(event.color || "");
 
   const handleSubmit = async (e) => {
     e.preventDefault();

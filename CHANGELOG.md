@@ -1,45 +1,45 @@
-## [1.160.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.4...v1.160.5) (2023-07-24)
+## [1.165.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.1...v1.165.2) (2023-07-31)
 
 
 ### Bug Fixes
 
-* profile events to show future by default ([#8339](https://github.com/EddieHubCommunity/LinkFree/issues/8339)) ([55fe24a](https://github.com/EddieHubCommunity/LinkFree/commit/55fe24a4458f3ef108005e145980ff8ed8c82b92))
+* profile updated datetime on stats ([#8415](https://github.com/EddieHubCommunity/LinkFree/issues/8415)) ([80b39c8](https://github.com/EddieHubCommunity/LinkFree/commit/80b39c835e5d69a4d3dcd1d287b24fdf66890fc3))
 
 
 
-## [1.160.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.3...v1.160.4) (2023-07-24)
-
-
-### Bug Fixes
-
-* vercel function size limit ([#8341](https://github.com/EddieHubCommunity/LinkFree/issues/8341)) ([4d4cb52](https://github.com/EddieHubCommunity/LinkFree/commit/4d4cb52836c332e85aafe328516bc2db1bcd0155))
-
-
-
-## [1.160.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.2...v1.160.3) (2023-07-24)
+## [1.165.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.0...v1.165.1) (2023-07-31)
 
 
 ### Bug Fixes
 
-* updated dependency + removed ip ([#8337](https://github.com/EddieHubCommunity/LinkFree/issues/8337)) ([43a319c](https://github.com/EddieHubCommunity/LinkFree/commit/43a319c991a77729a6b4c4495aa40ddb4203b2c0))
+* date format helper ([#8380](https://github.com/EddieHubCommunity/LinkFree/issues/8380)) ([b70f3b1](https://github.com/EddieHubCommunity/LinkFree/commit/b70f3b1b6164fe77bc6e8967646474fd17632d91))
 
 
 
-## [1.160.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.1...v1.160.2) (2023-07-24)
+# [1.165.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.164.0...v1.165.0) (2023-07-30)
+
+
+### Features
+
+* more profile data for admin ([#8408](https://github.com/EddieHubCommunity/LinkFree/issues/8408)) ([caa24b4](https://github.com/EddieHubCommunity/LinkFree/commit/caa24b47e289a8971f20d6004e584d42283972ae))
+
+
+
+# [1.164.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.1...v1.164.0) (2023-07-30)
+
+
+### Features
+
+* admin profile list (Fix pr 8388) ([#8406](https://github.com/EddieHubCommunity/LinkFree/issues/8406)) ([eed3a12](https://github.com/EddieHubCommunity/LinkFree/commit/eed3a1246e32113504ae35a32562244c73422ac7)), closes [#8388](https://github.com/EddieHubCommunity/LinkFree/issues/8388)
+
+
+
+## [1.163.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.0...v1.163.1) (2023-07-29)
 
 
 ### Bug Fixes
 
-* key to page layout solve nav cache ([#8336](https://github.com/EddieHubCommunity/LinkFree/issues/8336)) ([cbfd8b7](https://github.com/EddieHubCommunity/LinkFree/commit/cbfd8b797a9e7899bab54eb737f9f03fc1b1e88c))
-
-
-
-## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
-
-
-### Bug Fixes
-
-* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
+* clear/reset btn badge on map ([#8239](https://github.com/EddieHubCommunity/LinkFree/issues/8239)) ([23154b1](https://github.com/EddieHubCommunity/LinkFree/commit/23154b1e2248b23bd802a3086cc33663c72a3825))
 
 
 

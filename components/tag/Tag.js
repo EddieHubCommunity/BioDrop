@@ -1,5 +1,5 @@
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
-import Badge from "./Badge";
+import Badge from "../Badge";
 
 export default function Tag({ name, total, selected, onClick }) {
   return (
