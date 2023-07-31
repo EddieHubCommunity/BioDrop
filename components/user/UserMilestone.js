@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Edit from "@components/account/manage/Edit";
+import Edit from "@components/account/manage/edit";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
