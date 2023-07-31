@@ -11,6 +11,7 @@ import { TbCoin, TbCoinOff } from "react-icons/tb";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/Edit";
+import dateFormat from "@services/utils/dateFormat";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -19,21 +20,9 @@ export default function EventCard({ manage, event, usernames }) {
   const [endTime, setEndTime] = useState(event.date.end);
 
   useEffect(() => {
-    const dateTimeStyle = {
-      dateStyle: "full",
-      timeStyle: "long",
-    };
     try {
-      setStartTime(
-        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-          new Date(event.date.start)
-        )
-      );
-      setEndTime(
-        new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-          new Date(event.date.end)
-        )
-      );
+      setStartTime(dateFormat({ format: "long", date: event.date.start }));
+      setEndTime(dateFormat({ format: "long", date: event.date.end }));
     } catch (e) {
       setStartTime(event.date.start);
       setEndTime(event.date.end);
