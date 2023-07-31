@@ -48,10 +48,10 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
   const formatDate = (inputDate) => {
     const d = new Date(inputDate);
-    const date = d.toISOString().split("T")[0];
-    const time = d.toLocaleTimeString();
+    const date = `${d.getFullYear()}-${("0"+d.getMonth()).slice(-2)}-${("0"+d.getDay()).slice(-2)}`;
+    const time = d.toTimeString().split(":");
 
-    return `${date}T${time}`;
+    return `${date}T${time[0]}:${time[1]}`;
   };
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -139,7 +139,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Event"
         description="Here you can manage your LinkFree event"
       />
 
