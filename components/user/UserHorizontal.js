@@ -4,7 +4,7 @@ import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import TagSimple from "@components/tag/TagSimple";
 
-export default function UserHorizontal({ profile }) {
+export default function UserHorizontal({ profile, input, searchTagNameInInput }) {
   return (
     <Link
       href={`/${profile.username}`}
@@ -42,7 +42,7 @@ export default function UserHorizontal({ profile }) {
               if (!trimmedTag) {
                 return null;
               }
-              return <TagSimple name={trimmedTag} key={index} />;
+              return <TagSimple name={trimmedTag} key={index} isSelected={searchTagNameInInput(input, trimmedTag)} />;
             })}
         </div>
       )}

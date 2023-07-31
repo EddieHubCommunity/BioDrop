@@ -201,14 +201,14 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} searchTagNameInInput={searchTagNameInInput} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} searchTagNameInInput={searchTagNameInInput} />
               </li>
             ))}
         </ul>
