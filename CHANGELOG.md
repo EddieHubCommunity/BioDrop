@@ -1,3 +1,12 @@
+## [1.165.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.0...v1.165.1) (2023-07-31)
+
+
+### Bug Fixes
+
+* date format helper ([#8380](https://github.com/EddieHubCommunity/LinkFree/issues/8380)) ([b70f3b1](https://github.com/EddieHubCommunity/LinkFree/commit/b70f3b1b6164fe77bc6e8967646474fd17632d91))
+
+
+
 # [1.165.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.164.0...v1.165.0) (2023-07-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * search user cards to include tags ([#8376](https://github.com/EddieHubCommunity/LinkFree/issues/8376)) ([9c6faa6](https://github.com/EddieHubCommunity/LinkFree/commit/9c6faa607aded247c92e698a0b61346baaf9a92d)), closes [#8256](https://github.com/EddieHubCommunity/LinkFree/issues/8256)
-
-
-
-# [1.162.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.4...v1.162.0) (2023-07-28)
-
-
-### Features
-
-* admin toggle events ([#8371](https://github.com/EddieHubCommunity/LinkFree/issues/8371)) ([0a0b042](https://github.com/EddieHubCommunity/LinkFree/commit/0a0b042e884f84631eb4bcc0c4ef5256b715d0f4))
 
 
 
