@@ -1,3 +1,12 @@
+## [1.165.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.1...v1.165.2) (2023-07-31)
+
+
+### Bug Fixes
+
+* profile updated datetime on stats ([#8415](https://github.com/EddieHubCommunity/LinkFree/issues/8415)) ([80b39c8](https://github.com/EddieHubCommunity/LinkFree/commit/80b39c835e5d69a4d3dcd1d287b24fdf66890fc3))
+
+
+
 ## [1.165.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.0...v1.165.1) (2023-07-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * clear/reset btn badge on map ([#8239](https://github.com/EddieHubCommunity/LinkFree/issues/8239)) ([23154b1](https://github.com/EddieHubCommunity/LinkFree/commit/23154b1e2248b23bd802a3086cc33663c72a3825))
-
-
-
-# [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
-
-
-### Features
-
-* search user cards to include tags ([#8376](https://github.com/EddieHubCommunity/LinkFree/issues/8376)) ([9c6faa6](https://github.com/EddieHubCommunity/LinkFree/commit/9c6faa607aded247c92e698a0b61346baaf9a92d)), closes [#8256](https://github.com/EddieHubCommunity/LinkFree/issues/8256)
 
 
 
