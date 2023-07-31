@@ -49,6 +49,10 @@ const EventSchema = new Schema({
     min: 2,
     max: 16,
   },
+  isEnabled: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 EventSchema.pre("save", () => {

@@ -1,0 +1,16 @@
+{
+  "name": "Sunidhi Chopada",
+  "bio": "Hey 👋 I'm Sunidhi, currently pursuing my bachelor's degree majoring in computer science. I am a tech enthusiast. I am always open to collaborating on projects!",
+  "links": [
+    {
+      "name": "Have a look at my projects",
+      "url": "https://github.com/sunidhichopada18",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Suniz_18",
+      "icon": "FaTwitter"
+    }
+  ]
+}
