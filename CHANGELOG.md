@@ -1,45 +1,45 @@
-## [1.160.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.160.0...v1.160.1) (2023-07-23)
+## [1.165.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.1...v1.165.2) (2023-07-31)
 
 
 ### Bug Fixes
 
-* responsiveness on docs layout ([#8160](https://github.com/EddieHubCommunity/LinkFree/issues/8160)) ([1abfe30](https://github.com/EddieHubCommunity/LinkFree/commit/1abfe30497752c871ddc3c69c30a6aea0c9d0d80))
+* profile updated datetime on stats ([#8415](https://github.com/EddieHubCommunity/LinkFree/issues/8415)) ([80b39c8](https://github.com/EddieHubCommunity/LinkFree/commit/80b39c835e5d69a4d3dcd1d287b24fdf66890fc3))
 
 
 
-# [1.160.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.10...v1.160.0) (2023-07-23)
+## [1.165.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.0...v1.165.1) (2023-07-31)
+
+
+### Bug Fixes
+
+* date format helper ([#8380](https://github.com/EddieHubCommunity/LinkFree/issues/8380)) ([b70f3b1](https://github.com/EddieHubCommunity/LinkFree/commit/b70f3b1b6164fe77bc6e8967646474fd17632d91))
+
+
+
+# [1.165.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.164.0...v1.165.0) (2023-07-30)
 
 
 ### Features
 
-* link profile to account ([#8315](https://github.com/EddieHubCommunity/LinkFree/issues/8315)) ([f806b5f](https://github.com/EddieHubCommunity/LinkFree/commit/f806b5f6adc430b3bf76cbc7d2972fd797d76e5e)), closes [#8232](https://github.com/EddieHubCommunity/LinkFree/issues/8232)
+* more profile data for admin ([#8408](https://github.com/EddieHubCommunity/LinkFree/issues/8408)) ([caa24b4](https://github.com/EddieHubCommunity/LinkFree/commit/caa24b47e289a8971f20d6004e584d42283972ae))
 
 
 
-## [1.159.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.9...v1.159.10) (2023-07-22)
+# [1.164.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.1...v1.164.0) (2023-07-30)
 
 
-### Bug Fixes
+### Features
 
-* breaking GHCR workflow ([#8310](https://github.com/EddieHubCommunity/LinkFree/issues/8310)) ([feadad3](https://github.com/EddieHubCommunity/LinkFree/commit/feadad38ec505ddee96dd816cacca6256444e682))
-
-
-
-## [1.159.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.8...v1.159.9) (2023-07-22)
-
-
-### Reverts
-
-* Revert "fix: GHCR workflow command (#8304)" (#8306) ([6d8f297](https://github.com/EddieHubCommunity/LinkFree/commit/6d8f297dfa1b277c35895b6c2a1ef2777a2bfba8)), closes [#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304) [#8306](https://github.com/EddieHubCommunity/LinkFree/issues/8306)
+* admin profile list (Fix pr 8388) ([#8406](https://github.com/EddieHubCommunity/LinkFree/issues/8406)) ([eed3a12](https://github.com/EddieHubCommunity/LinkFree/commit/eed3a1246e32113504ae35a32562244c73422ac7)), closes [#8388](https://github.com/EddieHubCommunity/LinkFree/issues/8388)
 
 
 
-## [1.159.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.159.7...v1.159.8) (2023-07-22)
+## [1.163.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.163.0...v1.163.1) (2023-07-29)
 
 
 ### Bug Fixes
 
-* GHCR workflow command ([#8304](https://github.com/EddieHubCommunity/LinkFree/issues/8304)) ([29cb2bf](https://github.com/EddieHubCommunity/LinkFree/commit/29cb2bf7616577abd5375ada7b2c158d309d05b5))
+* clear/reset btn badge on map ([#8239](https://github.com/EddieHubCommunity/LinkFree/issues/8239)) ([23154b1](https://github.com/EddieHubCommunity/LinkFree/commit/23154b1e2248b23bd802a3086cc33663c72a3825))
 
 
 

@@ -9,7 +9,7 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getTestimonialsApi } from "pages/api/account/manage/testimonials";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";

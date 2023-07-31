@@ -82,7 +82,13 @@ export async function updateEventApi(username, id, updateEvent) {
   let getEvent = {};
 
   try {
-    await Event.validate(updateEvent, ["name", "description", "url", "date", "color"]);
+    await Event.validate(updateEvent, [
+      "name",
+      "description",
+      "url",
+      "date",
+      "color",
+    ]);
   } catch (e) {
     log.error(e, `validation failed to update event for username: ${username}`);
     return { error: e.errors };
@@ -149,7 +155,13 @@ export async function addEventApi(username, addEvent) {
   let getEvent = {};
 
   try {
-    await Event.validate(addEvent, ["name", "description", "url", "date", "color"]);
+    await Event.validate(addEvent, [
+      "name",
+      "description",
+      "url",
+      "date",
+      "color",
+    ]);
   } catch (e) {
     log.error(e, `validation failed to add event for username: ${username}`);
     return { error: e.errors };
