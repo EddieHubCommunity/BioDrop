@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -39,13 +39,6 @@ export async function getServerSideProps(context) {
     }
   }
 
-  return {
-    props: { event, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
-  };
-}
-
-export default function ManageEvent({ BASE_URL, event }) {
-  const [open, setOpen] = useState(false);
   const formatDate = (inputDate) => {
     const d = new Date(inputDate);
     const year = d.getFullYear();
@@ -56,6 +49,18 @@ export default function ManageEvent({ BASE_URL, event }) {
 
     return `${date}T${time[0]}:${time[1]}`;
   };
+
+  event.date.start = event.date?.start ? formatDate(event.date.start) : "";
+  event.date.end = event.date?.end ? formatDate(event.date.end) : ""
+
+  return {
+    props: { event, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+  };
+}
+
+export default function ManageEvent({ BASE_URL, event }) {
+  const [open, setOpen] = useState(false);
+  
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -66,15 +71,11 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [name, setName] = useState(event.name || "");
   const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
-  const [startDate, setStartDate] = useState("");
-  const [endDate, setEndDate] = useState("");
+  const [startDate, setStartDate] = useState(event.date.start);
+  const [endDate, setEndDate] = useState(event.date.end);
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
   const [color, setColor] = useState(event.color || "");
 
-  useEffect(() => {
-    setStartDate(event.date?.start ? formatDate(event.date.start) : "");
-    setEndDate(event.date?.end ? formatDate(event.date.end) : "");
-  },[event.date])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -83,7 +84,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       name,
       description,
       url,
-      date: { start: new Date(startDate).toISOString(), end: new Date(endDate).toISOString() },
+      date: { start: startDate, end: endDate },
       isVirtual,
       price: { startingFrom: price },
       color,

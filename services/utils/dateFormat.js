@@ -12,9 +12,14 @@ export default function dateFormat({ format = "long", date, locale = "en-GB" }) 
     case "long":
       dateTimeStyle = {
         dateStyle: "full",
-        timeStyle: "long",
+        timeStyle: "medium",
       };
       break;
+    case "longTz":
+      dateTimeStyle = {
+        dateStyle: "full",
+        timeStyle: "long",
+      };
   }
 
   return new Intl.DateTimeFormat(formatLocale, dateTimeStyle).format(new Date(date));
