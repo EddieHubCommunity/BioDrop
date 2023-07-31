@@ -83,7 +83,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       name,
       description,
       url,
-      date: { start: startDate, end: endDate },
+      date: { start: new Date(startDate).toISOString(), end: new Date(endDate).toISOString() },
       isVirtual,
       price: { startingFrom: price },
       color,
