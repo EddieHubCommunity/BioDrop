@@ -9,19 +9,21 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
-  const session = await getServerSession(req, res, authOptions);
-  if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
-  }
+  // Handled via middleware.js
+  // const session = await getServerSession(req, res, authOptions);
+  // if (!session) {
+  //   res.status(401).json({ message: "You must be logged in." });
+  //   return;
+  // }
   if (!["PATCH"].includes(req.method)) {
     return res.status(400).json({ error: "Invalid request: PATCH required" });
   }
 
-  const authUsername = session.username;
-  if (!serverEnv.ADMIN_USERS.includes(authUsername)) {
-    return res.status(401).json({});
-  }
+  // Handled via middleware.js
+  // const authUsername = session.username;
+  // if (!serverEnv.ADMIN_USERS.includes(authUsername)) {
+  //   return res.status(401).json({});
+  // }
 
   let event = {};
   if (req.method === "PATCH") {

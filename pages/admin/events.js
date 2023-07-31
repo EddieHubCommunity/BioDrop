@@ -8,7 +8,6 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getEvents } from "../api/admin/events";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
@@ -18,14 +17,15 @@ export async function getServerSideProps(context) {
 
   const username = session.username;
 
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
+  //Handled via middleware.js
+  // if (!serverEnv.ADMIN_USERS.includes(username)) {
+  //   return {
+  //     redirect: {
+  //       destination: "/404",
+  //       permanent: false,
+  //     },
+  //   };
+  // }
 
   let events = [];
   try {

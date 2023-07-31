@@ -6,7 +6,6 @@ import logger from "@config/logger";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import { getStatsApi } from "pages/api/admin/stats";
 import Navigation from "@components/admin/Navigation";
 
@@ -15,14 +14,15 @@ export async function getServerSideProps(context) {
 
   const username = session.username;
 
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
+  //Handled via middleware.js
+  // if (!serverEnv.ADMIN_USERS.includes(username)) {
+  //   return {
+  //     redirect: {
+  //       destination: "/404",
+  //       permanent: false,
+  //     },
+  //   };
+  // }
 
   let data = {};
   try {
