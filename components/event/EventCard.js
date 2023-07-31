@@ -21,8 +21,8 @@ export default function EventCard({ manage, event, usernames }) {
 
   useEffect(() => {
     try {
-      setStartTime(dateFormat({ format: "long", date: event.date.start }));
-      setEndTime(dateFormat({ format: "long", date: event.date.end }));
+      setStartTime(dateFormat({ locale: "local", format: "long", date: event.date.start }));
+      setEndTime(dateFormat({ locale: "local", format: "long", date: event.date.end }));
     } catch (e) {
       setStartTime(event.date.start);
       setEndTime(event.date.end);
