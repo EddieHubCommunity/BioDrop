@@ -41,7 +41,7 @@ export async function getUserApi(req, res, username) {
   }
 
   await getLocation(username, getProfile);
-  if (getProfile.repos.length > 0) {
+  if (getProfile.repos?.length > 0) {
     await checkGitHubRepo(username, getProfile.repos);
   }
 

@@ -5,7 +5,6 @@ import { updateRepoApi } from "../../pages/api/account/manage/repo/[[...data]]";
 
 export default async function getGitHubRepo(url) {
   const path = url.split("github.com/")[1];
-  let repo = {};
   const ghAuth = serverEnv.GITHUB_API_TOKEN
     ? {
         headers: {
@@ -14,13 +13,20 @@ export default async function getGitHubRepo(url) {
       }
     : {};
 
+  let repo = {};
+  let data = {};
   try {
-    const data = await fetch(`https://api.github.com/repos/${path}`, ghAuth);
+    data = await fetch(`https://api.github.com/repos/${path}`, ghAuth);
     repo = await data.json();
     logger.info(`github info fetched for repo: ${path}`);
   } catch (e) {
-    logger.error(`repo info from github failed for ${path}`);
-    return repo;
+    logger.error(e, `repo info from github failed for: ${path}`);
+    throw e;
+  }
+
+  if (data.status !== 200) {
+    logger.error(repo);
+    return { error: repo };
   }
 
   return repo;

@@ -69,9 +69,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
         show: true,
         type: "error",
         message: "Repo add failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          updatedRepos.message
-        ).join(", ")}`,
+        additionalMessage: updatedRepos.message,
       });
     }
 
@@ -110,6 +108,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
         <form onSubmit={handleSubmit}>
           <Input
             name="url"
+            type="url"
             placeholder="https://github.com/EddieHubCommunity/LinkFree"
             onChange={(e) => setUrl(e.target.value)}
           />

@@ -83,7 +83,20 @@ export async function addRepoApi(username, addRepo) {
     log.error(e, `validation failed to add repo for username: ${username}`);
     return { error: e.errors };
   }
-  const githubData = await getGitHubRepo(addRepo.url);
+
+  let githubData = {};
+  try {
+    githubData = await getGitHubRepo(addRepo.url);
+  } catch (e) {
+    const error = `failed to get data for repo: ${addRepo.url}`;
+    log.error(e, error);
+    return { error };
+  }
+
+  if (githubData.error) {
+    return { error: githubData.error.message };
+  }
+
   const id = new mongoose.Types.ObjectId();
 
   try {
