@@ -165,7 +165,8 @@ export async function getUserApi(req, res, username) {
             },
             {
               $inc: { views: 1 },
-            }
+            },
+            { timestamps: false }
           );
           log.info(`stats incremented for username: ${username}`);
         } catch (e) {
