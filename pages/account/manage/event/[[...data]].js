@@ -48,7 +48,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
   const formatDate = (inputDate) => {
     const d = new Date(inputDate);
-    const date = `${d.getFullYear()}-${("0"+d.getMonth()).slice(-2)}-${("0"+d.getDay()).slice(-2)}`;
+    const date = `${d.getFullYear()}-${("0"+(d.getMonth() +1)).slice(-2)}-${("0"+d.getDate()).slice(-2)}`;
     const time = d.toTimeString().split(":");
 
     return `${date}T${time[0]}:${time[1]}`;
