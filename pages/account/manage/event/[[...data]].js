@@ -74,7 +74,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   useEffect(() => {
     setStartDate(event.date?.start ? formatDate(event.date.start) : "");
     setEndDate(event.date?.end ? formatDate(event.date.end) : "");
-  },[event.date.start, event.date.end])
+  },[event.date])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
