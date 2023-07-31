@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -16,6 +16,8 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { Combobox } from "@headlessui/react";
+import InputDropDown from "@components/form/InputDropDown";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -60,6 +62,35 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
+  const [linkGroups, setLinkGroups] = useState([]);
+
+  // because setting group for links is optional it will not delay the UI
+  const fetchLinks = async () => {
+    const res = await fetch(`${BASE_URL}/api/account/manage/links`);
+    const links = await res.json();
+    if (res.ok) {
+      getLinksGroup(links);
+    }
+  };
+
+  const getLinksGroup = (links) => {
+    const groups = new Set();
+    links.forEach((link) => {
+      groups.add(link.group);
+    });
+    return setLinkGroups(Array.from(groups));
+  };
+
+  useEffect(() => {
+    (async () => {
+      let subscribed = true;
+      if (subscribed) await fetchLinks();
+
+      return () => {
+        subscribed = false;
+      };
+    })();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -158,11 +189,12 @@ export default function ManageLink({ BASE_URL, username, link }) {
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="group"
+                    <InputDropDown
+                      group={group}
+                      linkGroups={linkGroups}
+                      setGroup={setGroup}
                       label="Group"
-                      onChange={(e) => setGroup(e.target.value)}
-                      value={group}
+                      name="Group"
                       minLength="2"
                       maxLength="64"
                     />
