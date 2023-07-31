@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -66,14 +66,15 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [name, setName] = useState(event.name || "");
   const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
-  const [startDate, setStartDate] = useState(
-    event.date?.start && formatDate(event.date?.start)
-  );
-  const [endDate, setEndDate] = useState(
-    event.date?.end && formatDate(event.date?.end)
-  );
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
   const [color, setColor] = useState(event.color || "");
+
+  useEffect(() => {
+    setStartDate(event.date?.start ? formatDate(event.date.start) : "");
+    setEndDate(event.date?.end ? formatDate(event.date.end) : "");
+  },[event.date.start, event.date.end])
 
   const handleSubmit = async (e) => {
     e.preventDefault();
