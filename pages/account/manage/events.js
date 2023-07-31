@@ -5,7 +5,7 @@ import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getEventsApi } from "pages/api/account/manage/events";
 import Button from "@components/Button";
 import UserEvents from "@components/user/UserEvents";
