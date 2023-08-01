@@ -10,7 +10,7 @@ import {
 import dateFormat from "@services/utils/dateFormat";
 
 function formatDate(value) {
-  return dateFormat({ format: "short", date: value, locale: "local" })
+  return dateFormat({ format: "short", date: value, locale: "local", UTCLocal: true })
 }
 
 export default function StatsChart({data}) {

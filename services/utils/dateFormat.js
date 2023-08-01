@@ -1,6 +1,7 @@
-export default function dateFormat({ format = "long", date, locale = "en-GB" }) {
-  let dateTimeStyle = { dateStyle: "short" };
+export default function dateFormat({ format = "long", date, locale = "en-GB", UTCLocal = false }) {
+  let dateTimeStyle;
   let formatLocale = locale;
+  let formatDate = date;
   if (formatLocale === "local") {
     formatLocale = undefined;
   }
@@ -12,15 +13,17 @@ export default function dateFormat({ format = "long", date, locale = "en-GB" }) 
     case "long":
       dateTimeStyle = {
         dateStyle: "full",
-        timeStyle: "medium",
-      };
-      break;
-    case "longTz":
-      dateTimeStyle = {
-        dateStyle: "full",
         timeStyle: "long",
       };
   }
 
-  return new Intl.DateTimeFormat(formatLocale, dateTimeStyle).format(new Date(date));
+  /* Used by statistics to display timestamps */
+  if (UTCLocal) {
+    dateTimeStyle = {
+      ...dateTimeStyle,
+      timeZone: 'UTC'
+    }
+  }
+
+  return new Intl.DateTimeFormat(formatLocale, dateTimeStyle).format(new Date(formatDate));
 }
