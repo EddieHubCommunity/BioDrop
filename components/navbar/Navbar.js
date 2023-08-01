@@ -88,8 +88,8 @@ export default function Navbar() {
       url: "/map",
     },
     {
-      name: "Docs",
-      url: "/docs",
+      name: "Repos",
+      url: "/repos",
     },
   ];
 
