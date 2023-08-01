@@ -90,7 +90,7 @@ export default function Events({ events }) {
             title="Go To Event Docs"
             badgeClassName={"translate-x-2/4 -translate-y-1/2"}
           >
-            <h1 className="text-4xl mb-4 font-bold ">Community events</h1>
+            <h1 className="text-4xl mb-4 font-bold ">Community Events</h1>
           </Badge>
         </div>
         <EventTabs

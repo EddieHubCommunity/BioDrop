@@ -21,7 +21,7 @@ export default function Repos({ repos }) {
       />
 
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Repos</h1>
+        <h1 className="text-4xl mb-4 font-bold">Community Repos</h1>
 
         <UserRepos repos={repos} />
       </Page>

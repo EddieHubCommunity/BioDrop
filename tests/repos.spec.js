@@ -13,7 +13,7 @@ test("Click on repos in navbar navigates to repo page", async ({ page }) => {
 
 test("Repos has title", async ({ page }) => {
   await page.goto("/repos");
-  await expect(page.locator("h1")).toHaveText("Repos");
+  await expect(page.locator("h1")).toHaveText("Community Repos");
 });
 
 test.describe("accessibility tests (light)", () => {
