@@ -32,6 +32,6 @@ export async function getRepos() {
     logger.error(e, "Failed to load repos");
     repos = [];
   }
-  console.log(repos);
+
   return JSON.parse(JSON.stringify(repos));
 }
