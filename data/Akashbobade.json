@@ -1,0 +1,46 @@
+{
+  "name": "Akash Bobade",
+  "bio": "Full Stack Blockchain Developer | Open Source | ",
+  "tags": ["reactJs", "Open Source", "Technical Writer", "Web3"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akashgotnochill"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Akashbobade"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@akashgotnochill"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Akashbobade",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/akashgotnochill",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://hashnode.com/@akashgotnochill",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akash-bobade/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy me a Coffee",
+      "url": "https://www.buymeacoffee.com/akashbobade",
+      "icon": "SiBuymeacoffee"
+    }
+  ]
+}

@@ -1,14 +1,24 @@
 {
   "name": "Iqra Firdose",
-  "type": "personal",
   "bio": " **Open Source** contributor  **Aviyel** ,Hackthoberfest|Web dev Enthisiast | Technical writer | Communities| ",
-
   "tags": ["Developer", "Open Source", "Web dev", "Blogger"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iqra_firdose" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/iqrafirdose/" },
-    { "icon": "FaGithub", "url": "https://github.com/iqrafirdose" },
-    { "icon": "SiHashnode", "url": "https://iqra-firdose.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iqra_firdose"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/iqrafirdose/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iqrafirdose"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://iqra-firdose.hashnode.dev/"
+    }
   ],
   "links": [
     {

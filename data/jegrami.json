@@ -1,0 +1,32 @@
+{
+  "name": "Jeremiah Igrami",
+  "bio": "**Technical writer** and **data scientist**: I love uncovering insights from huge data.",
+  "tags": ["Python", "Pandas", "NumPy", "Matplotlib", "Plotly.express"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dev_jegrami",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jeremiah-igrami/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jegrami",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://jegrami.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Dev",
+      "url": "https://dev.to/devjegrami",
+      "icon": "FaDev"
+    }
+  ]
+}

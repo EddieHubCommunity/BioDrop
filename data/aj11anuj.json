@@ -1,0 +1,25 @@
+{
+  "name": "Anuj Tiwari",
+  "bio": "Diving deep into MLOps",
+  "tags": [
+    "Machine Learning",
+    "DevOps",
+    "Software Development",
+    "Open Source",
+    "Technical Writer"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aj11anuj"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/aj11anuj"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aj11anuj"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Pavan H",
+  "bio": "Backend developer | Tech enthusiast",
+  "tags": ["javascript", "typescript", "Nodejs", "MongoDB", "HTML & CSS"],
+  "links": [
+    {
+      "name": "Hey, You can follow me on twitter",
+      "url": "https://twitter.com/Pavanh007",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Hey, You can follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/pavanh007/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hey, You can follow me on GitHub",
+      "url": "https://github.com/pavanh007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hey, You can follow me on instagram",
+      "url": "https://www.instagram.com/pavanh_98/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

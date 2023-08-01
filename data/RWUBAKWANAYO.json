@@ -1,0 +1,26 @@
+{
+  "name": "Olivier Rwubakwanayo",
+  "bio": "Software Developer with 3+ years of experience designing and developing user-facing web applications. SOLID code enthusiast with a love of accessible design, Pair-programming, and remote work. Fluent in multiple languages, frameworks, and technologies, combined with the ability to ramp up quickly and efficiently. Excels in self-manage during independent projects and collaborating with cross-functional teams.",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rwubakwanayo/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/RWUBAKWANAYO",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://rwubakwanayo.github.io/personal-website",
+      "icon": "FaPortrait"
+    },
+    {
+      "name": "Stackoverflow",
+      "url": "https://stackoverflow.com/users/14882978/rwubakwanayo",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}

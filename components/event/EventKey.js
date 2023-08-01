@@ -1,5 +1,6 @@
 import { IconContext } from "react-icons";
 import { FaMicrophoneAlt } from "react-icons/fa";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -8,7 +9,7 @@ import {
 } from "react-icons/md";
 import { RiCalendarTodoFill } from "react-icons/ri";
 
-export default function EventKey({ categorisedEvents, onToggleEventType }) {
+export default function EventKey({ categorizedEvents, onToggleEventType }) {
   const filters = [
     {
       title: "All future events",
@@ -46,6 +47,18 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       key: "past",
       icon: MdOutlineDoneAll,
     },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
+    },
   ];
 
   return (
@@ -53,7 +66,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       {filters.map((filter) => (
         <div
           onClick={() => onToggleEventType(filter.key)}
-          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2"
+          className="hover:scale-105 cursor-pointer transition-all 3s relative flex items-center space-x-3 rounded-lg border border-primary-medium-low bg-white dark:border-none dark:bg-primary-medium px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-secondary-medium focus-within:ring-offset-2"
           key={filter.key}
         >
           <div className="flex-shrink-0">
@@ -63,13 +76,15 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           </div>
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
-            <p className="text-sm font-medium text-gray-900">{filter.title}</p>
-            <p className="truncate text-sm text-gray-500">
+            <p className="text-sm font-medium text-primary-high dark:text-white">
+              {filter.title}
+            </p>
+            <p className="truncate text-sm text-primary-medium dark:text-primary-low-high">
               {filter.description}
             </p>
           </div>
           <div className="text-2xl font-semibold">
-            {categorisedEvents[filter.key].length}
+            {categorizedEvents[filter.key].length}
           </div>
         </div>
       ))}

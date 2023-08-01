@@ -1,0 +1,59 @@
+{
+  "name": "Shubham Sonawane",
+  "bio": "Full Stack Web-Dev",
+  "tags": ["Open Source", "HTML", "CSS", "SCSS", "Javascript", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ShuShu8788"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShuShu-8788"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@ShuShu-8788"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ShuShu8788",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/@ShuShu-8788",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/ShuShu-8788",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/shushu8788",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/@ShuShu-8788/featured",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "ShuShu Server",
+      "name": "ShuShu: Discord",
+      "url": "https://discord.gg/pSRTcuusug",
+      "icon": "FaDiscord"
+    }
+  ]
+}

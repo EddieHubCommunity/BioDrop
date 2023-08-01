@@ -1,0 +1,16 @@
+{
+  "name": "Om vataliya",
+  "bio": "I am frontend developer and exploring different technology",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Omcodes23",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on linktree",
+      "url": "https://linktr.ee/Omcodes",
+      "icon": "SiLinktree"
+    }
+  ]
+}

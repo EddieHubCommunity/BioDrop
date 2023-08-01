@@ -1,0 +1,91 @@
+{
+  "name": "Miraz Mondal",
+  "bio": "A passionate full-stack developer from the city of joy, Kolkata!",
+  "tags": [
+    "Open Source",
+    "Community",
+    "HTML",
+    "CSS",
+    "Javascript",
+    "ReactJS",
+    "React Native",
+    "Python",
+    "DevOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mirazxmondal"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mirazxmondal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mirazxmondal"
+    }
+  ],
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "Portfolio: Miraz Mondal",
+      "url": "https://mirazmondal.me/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/mirazxmondal",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me!",
+      "url": "https://twitter.com/mirazxmondal",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's onnect",
+      "url": "https://www.linkedin.com/in/mirazxmondal",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Blog",
+      "name": "Read my blogs",
+      "url": "https://hashnode.com/@mirazxmondal",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Community",
+      "name": "Coming soon!",
+      "url": "",
+      "icon": "FaLink"
+    },
+    {
+      "name": "GitHub Sponsors: Donate",
+      "url": "",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First Freelance Project",
+      "date": "November 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Worked with local event management company!",
+      "url": "https://redwineentertainment.com/"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed it!",
+      "url": "https://github.com/mirazxmondal"
+    }
+  ]
+}

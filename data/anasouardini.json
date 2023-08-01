@@ -1,0 +1,86 @@
+{
+  "name": "Anas Ouardini",
+  "bio": "Web developer, mainly javaScript.",
+  "tags": [
+    "Javascript",
+    "Typescript",
+    "ReactJs",
+    "nodeJs",
+    "ExpressJs",
+    "MySql"
+  ],
+  "socials": [
+    {
+      "url": "https://anasouardini.online",
+      "icon": "FaUserAstronaut"
+    },
+    {
+      "url": "https://blog.anasouardini.online/posts",
+      "icon": "SiBloglovin"
+    },
+    {
+      "url": "https://twitter.com/segfaulty1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "url": "https://github.com/anasouardini",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://linkedin.com/in/anasouardini",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "group": "Personal Sites",
+      "name": "Portfolio",
+      "url": "https://anasouardini.online",
+      "icon": "FaUserAstronaut"
+    },
+    {
+      "group": "Personal Sites",
+      "name": "Blog",
+      "url": "https://blog.anasouardini.online/posts",
+      "icon": "SiBloglovin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/segfaulty1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Check out my code",
+      "url": "https://github.com/anasouardini",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/anasouardini",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Recent Personal Projects",
+      "name": "Snipshare",
+      "url": "https://snipshare.anasouardini.online",
+      "icon": "SiSparkfun"
+    },
+    {
+      "group": "Recent Personal Projects",
+      "name": "algolizer",
+      "url": "https://algolizer.anasouardini.online",
+      "icon": "SiSparkfun"
+    },
+    {
+      "group": "Recent Personal Projects",
+      "name": "smartteam",
+      "url": "https://smartteam.anasouardini.online",
+      "icon": "SiSparkfun"
+    }
+  ]
+}

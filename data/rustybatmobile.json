@@ -1,0 +1,21 @@
+{
+  "name": "Harish Neel",
+  "bio": "A seasoned full-stack. Code, coffee, chaos. Building cool things and having fun doing it.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/harish_neel",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harishneel",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rustybatmobile",
+      "icon": "FaGithub"
+    }
+  ]
+}

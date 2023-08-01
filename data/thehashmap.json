@@ -1,0 +1,92 @@
+{
+  "name": "Nikhil Kumar",
+  "bio": "Full-stack Web3 Developer | Open-Source Contributor | Blockchain | Ethereum | DeFi | 6⭐ @HackerRank | IIT (BHU) Varanasi",
+  "tags": [
+    "Open Source",
+    "Full-stack",
+    "Web3",
+    "DeFi",
+    "Blockchain",
+    "Ethereum",
+    "Golang",
+    "React",
+    "Typescript"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thehashmap"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nikhilkumar9320/"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discordapp.com/users/747486203846328390"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thehashmap"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Checkout my Projects And Open Source Contributions",
+      "url": "https://github.com/thehashmap",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/nikhilkumar9320/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Discord: Connect with me",
+      "url": "https://discordapp.com/users/747486203846328390",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/thehashmap",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Software Developer",
+      "date": "Feb 2022",
+      "icon": "FaLaptopCode",
+      "color": "grey",
+      "description": "Ethan.ai"
+    },
+    {
+      "title": "Frontend and Blockchain Developer",
+      "date": "Apr 2022",
+      "icon": "FaLaptopCode",
+      "color": "grey",
+      "description": "Blexings Protocol"
+    },
+    {
+      "title": "Full-stack Web3 Developer & Content Writer",
+      "date": "Jul 2022",
+      "icon": "FaLaptopCode",
+      "color": "grey",
+      "description": "DoDAO"
+    },
+    {
+      "title": "Software Developer",
+      "date": "May 2023",
+      "icon": "FaLaptopCode",
+      "color": "grey",
+      "description": "Standard Chartered"
+    },
+    {
+      "title": "Started Contributing to Open Source",
+      "date": "Apr 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "url": "https://github.com/thehashmap"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Rohan Sasne",
+  "bio": "Chase down your dreams and don’t be fearful. Let your faith be stronger than your fear :)",
+
+  "tags": ["Open Source", "GSoC'23", "DevOps", "Kubernetes", "Golang"],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nottmuffin"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://blog.rohansasne.tech/"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://www.rohansasne.tech/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: I tweet mostly about DevOps and Open Source",
+      "url": "https://twitter.com/nottmuffin",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github: Let's collaborate and give back to the community",
+      "url": "https://github.com/RohanSasne",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Website: Checkout My Profile!",
+      "url": "https://www.rohansasne.tech/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "I Write Technical Blogs",
+      "url": "https://blog.rohansasne.tech/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linkedin: Let's connect and discuss about awesome stuff",
+      "url": "https://www.linkedin.com/in/rohan-sasne/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Instagram: Follow me up to see my social life  👀 ",
+      "url": "https://www.instagram.com/roohansig/",
+      "icon": "SiInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started to Actively Contribute to Open Source",
+      "date": "Feb 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Fell in love with open source and got highly motivated to give back to the community",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "title": "Got accepted to GSoC'23 @ PEcAn Project",
+      "date": "May 2023",
+      "icon": "FaGoogle",
+      "color": "black",
+      "description": "My proposal got accepted for 'GitHub Actions', Highly grateful to open source for providing this opportunity",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "title": "Understood the power of twitter and became more active in the community",
+      "date": "Mar 2023",
+      "icon": "FaTwitter",
+      "color": "black",
+      "description": "Creating content on DevOps, Open Source and started interacting with people on Twitter which opened many opportunies for me",
+      "url": "https://twitter.com/nottmuffin"
+    },
+    {
+      "title": "Started to write technical blogs to help people understand concepts in more detail",
+      "date": "Mar 2023",
+      "icon": "SiHashnode",
+      "color": "black",
+      "description": "Writing technical content related to DevOps, Cloud and Open Source",
+      "url": "https://rohansasne30.hashnode.dev/"
+    },
+    {
+      "title": "Made my first ever PR to the Kubernetes project :)",
+      "date": "Apr 2023",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Started to contribute to the Kubernetes project and want to be an active member of the community",
+      "url": "https://github.com/RohanSasne"
+    },
+    {
+      "isGoal": true,
+      "title": "Start video content on YouTube and get 1K subscribers by the end of 2023",
+      "date": " Dec 2023",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "I want to launch my youtube channel to help the community learn about all the awesome cloud native technologies",
+      "url": "https://www.youtube.com/@rohansasne5592"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a DevRel",
+      "date": "2025",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a Developer Advocate 🥑 and travel the world to meet and interact with new people"
+    },
+    {
+      "isGoal": true,
+      "title": "Get a CFP accepted for Kubecon",
+      "date": "2024",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak in front of thousands of people from the community and share all my knowledge with the community"
+    }
+  ]
+}

@@ -15,22 +15,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # check out the repository with all releases
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       # Create a temporary, uniquely named branch to push release info to
       - name: create temporary branch
-        uses: peterjgrainger/action-create-branch@v2.3.0
-        id: create-branch
-        with:
-          branch: "release-from-${{ github.sha }}"
-          sha: "${{ github.sha }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: git branch "release-from-${{ github.sha }}" "${{ github.sha }}"
 
-      # check out the repository afterwards
-      - uses: actions/checkout@v3
-
-      # fetch branches and switch to the temporary branch
+      # switch to the temporary branch
       - name: switch to new branch
-        run: git fetch --all && git checkout --track origin/release-from-${{ github.sha }}
+        run: git checkout release-from-${{ github.sha }}
+
+      # update app config with version
+      - name: get-npm-version
+        id: package-version
+        run: |
+          LF_VERSION=$(cat package.json | jq -r '.version')
+          echo "current-version=$LF_VERSION" >> "$GITHUB_OUTPUT"
+      - name: update app config
+        run: sed -i 's/0.0.0/${{ steps.package-version.outputs.current-version}}/g' config/app.json
 
       # create release info and push it upstream
       - name: conventional Changelog Action
@@ -38,13 +43,13 @@ jobs:
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: "./package.json,./package-lock.json"
+          version-file: "./package.json,./package-lock.json,./config/app.json"
           git-branch: "release-from-${{ github.sha }}"
-          skip-on-empty: false
           skip-git-pull: true
 
       # create PR using GitHub CLI
       - name: create PR with release info
+        if: steps.changelog.outputs.skipped == 'false'
         id: create-pr
         run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
         env:
@@ -52,6 +57,7 @@ jobs:
 
       # merge PR using GitHub CLI
       - name: merge PR with release info
+        if: steps.changelog.outputs.skipped == 'false'
         id: merge-pr
         run: gh pr merge --admin --merge --subject 'Merge release info' --delete-branch
         env:
@@ -59,11 +65,10 @@ jobs:
 
       # release info is now in main so we can continue as before
       - name: create release with last commit
-        uses: actions/create-release@v1
         if: steps.changelog.outputs.skipped == 'false'
-        env:
-          GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
+          token: ${{ secrets.CHANGELOG_RELEASE }}
+          tag: ${{ steps.changelog.outputs.tag }}
+          name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}

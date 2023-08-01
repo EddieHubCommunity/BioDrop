@@ -1,0 +1,16 @@
+{
+  "name": "Khushi Gahlot",
+  "bio": "Pursuing Btech in C.S.E.",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/khushi-gahlot-450b49272/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/gahlot_khushi5/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

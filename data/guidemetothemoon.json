@@ -1,0 +1,101 @@
+{
+  "name": "Kristina Devochko",
+  "bio": "Preaching about K8s, green tech and cats | CNCF Ambassador, Microsoft Azure MVP and Kubernetes Unpacked podcast host | Animal Welfare, DEI && Tech community activist",
+  "tags": [
+    "Open Source",
+    "Content Writer",
+    "Tech Speaker",
+    "Cloud Native",
+    "Kubernetes",
+    "Green Tech",
+    "DevSecOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kristhecodingu1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/guidemetothemoon"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/krisde"
+    }
+  ],
+  "links": [
+    {
+      "group": "Content creation",
+      "name": "Tech Blog",
+      "url": "https://kristhecodingunicorn.com",
+      "icon": "SiDarkreader"
+    },
+    {
+      "group": "Content creation",
+      "name": "Sessionize",
+      "url": "https://sessionize.com/kristina-devochko",
+      "icon": "SiSessionize"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/krisde",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Let's Tweet",
+      "url": "https://twitter.com/kristhecodingu1",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate",
+      "url": "https://github.com/guidemetothemoon",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Support",
+      "name": "BuyMeACoffee: 100% of all contributions go to animal shelters",
+      "url": "https://www.buymeacoffee.com/kristhecodingu1",
+      "icon": "FaCat"
+    },
+    {
+      "group": "Community roles",
+      "name": "CNCF Ambassador",
+      "url": "https://www.cncf.io/people/ambassadors/?_sft_lf-country=no&p=kristina-devochko",
+      "icon": "FaCloud"
+    },
+    {
+      "group": "Community roles",
+      "name": "Microsoft MVP",
+      "url": "https://mvp.microsoft.com/en-us/PublicProfile/5004929?fullName=Kristina%20Devochko",
+      "icon": "SiIcloud"
+    },
+    {
+      "group": "Community roles",
+      "name": "Tech Meetups Organizer",
+      "url": "https://www.meetup.com/members/253620536",
+      "icon": "FaRocket"
+    },
+    {
+      "group": "Mentorship",
+      "name": "WomenTech Network",
+      "url": "https://www.womentech.net/women-mentoring-profile/Kristina/Devochko/76699",
+      "icon": "SiHandshake"
+    },
+    {
+      "group": "Mentorship",
+      "name": "GirlCode",
+      "url": "https://www.girl-code.co.uk/findamentor/kristina-devochko",
+      "icon": "FaHands"
+    },
+    {
+      "group": "Others",
+      "name": "Azure Heroes",
+      "url": "https://www.azureheroes.community/user/15391",
+      "icon": "SiMicrosoftazure"
+    }
+  ]
+}

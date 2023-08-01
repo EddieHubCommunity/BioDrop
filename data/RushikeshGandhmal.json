@@ -1,0 +1,45 @@
+{
+  "name": "Rushikesh Gandhmal",
+  "bio": "**Open Source** DevRel | Full-stack Dev | ReactJs | JavaScript | Frontend Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "Typescript",
+    "NextJS",
+    "DevRel"
+  ],
+  "links": [
+    {
+      "name": "Check out Github",
+      "url": "https://github.com/RushikeshGandhmal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out Linkedin",
+      "url": "https://www.linkedin.com/in/rushikesh-gandhmal/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Check out Portfolio",
+      "url": "https://rushikesh-portofolio.netlify.app/",
+      "icon": "SiPersonio"
+    },
+    {
+      "name": "Check out Twitter",
+      "url": "https://twitter.com/rushikesh1s",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Check out HashNode",
+      "url": "https://hashnode.com/@rushikeshdotjs",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Check out Instagram",
+      "url": "https://www.instagram.com/rushikesh_gandhmal/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

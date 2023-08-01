@@ -1,0 +1,21 @@
+{
+  "name": "Ryan Pierce",
+  "bio": "From Healthcare to Software: Full-Stack Developer with a Penchant for Content Creation | Flatiron School Alum | Reach Out & Let's Connect!",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ryan-pierce97/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Coding Blog",
+      "url": "https://medium.com/@ryanpierc3",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/rep-pierce",
+      "icon": "FaGithub"
+    }
+  ]
+}

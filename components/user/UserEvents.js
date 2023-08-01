@@ -1,46 +1,93 @@
 import { useState } from "react";
+import EventCard from "@components/event/EventCard";
+import Alert from "@components/Alert";
+import DropdownMenu from "@components/form/DropDown";
 
-import EventCard from "../event/EventCard";
-import Alert from "../Alert";
-import EventKey from "../event/EventKey";
+export default function UserEvents({
+  manage = false,
+  events,
+  filter = "future",
+}) {
+  const [eventType, setEventType] = useState(filter);
 
-export default function UserEvents({ data }) {
-  const [eventType, seteventType] = useState("future");
-  const futureEvents = data.events.filter(
-    (event) => new Date(event.date.start) > new Date()
-  );
+  const eventOptions = [
+    { value: "all", name: "All Events" },
+    { value: "future", name: "Future Events" },
+    { value: "ongoing", name: "Ongoing Events" },
+    { value: "virtual", name: "Virtual Events" },
+    { value: "inPerson", name: "In-Person Events" },
+    { value: "cfpOpen", name: "Events with open CFP" },
+    { value: "free", name: "Free Events" },
+    { value: "paid", name: "Paid Events" },
+    { value: "past", name: "Past Events" },
+  ];
 
-  let categorisedEvents = {
-    future: futureEvents,
-    ongoing: data.events.filter(
-      (event) =>
-        new Date(event.date.start) < new Date() &&
-        new Date(event.date.end) > new Date()
-    ),
-    virtual: futureEvents.filter((event) => event.isVirtual === true),
-    inPerson: futureEvents.filter((event) => event.isInPerson === true),
-    cfpOpen: futureEvents.filter((event) =>
-      event.date.cfpClose ? new Date(event.date.cfpClose) > new Date() : false
-    ),
-    past: data.events
-      .filter((event) => new Date(event.date.end) < new Date())
-      .sort((a, b) => new Date(b.date.start) - new Date(a.date.start)),
+  const handleEventTypeChange = (event) => {
+    setEventType(event.target.value);
   };
 
-  return (
-    <div className="mt-6">
-      <EventKey
-        categorisedEvents={categorisedEvents}
-        onToggleEventType={(newValue) => seteventType(newValue)}
-      />
+  const filterByEventType = (event, eventType) => {
+    switch (eventType) {
+      case "future":
+        return event.date.future;
+      case "ongoing":
+        return event.date.ongoing;
+      case "virtual":
+        return event.date.future && event.isVirtual;
+      case "inPerson":
+        return event.date.future && event.isInPerson;
+      case "cfpOpen":
+        return event.date.cfpOpen;
+      case "free":
+        return event.price?.startingFrom === 0;
+      case "paid":
+        return event.price?.startingFrom > 0;
+      case "past":
+        return !event.date.future;
+      default:
+        return true;
+    }
+  };
+  const getFilteredEvents = () => {
+    if (eventType === "all") {
+      return events;
+    }
+    return events.filter((event) => filterByEventType(event, eventType));
+  };
 
-      {!data.events && <Alert type="info" message="No events found" />}
-      <ul role="list" className="divide-y divide-gray-200">
-        {data.events &&
-          categorisedEvents[eventType].map((event, index) => (
-            <EventCard event={event} key={index} />
+  const eventsToShow = getFilteredEvents();
+
+  const filteredEventOptions = eventOptions.filter((option) => {
+    if (option.value === "all") {
+      return true;
+    }
+    const filterEvents = events.filter((event) =>
+      filterByEventType(event, option.value)
+    );
+    return filterEvents.length > 0;
+  });
+
+  return (
+    <>
+      {!eventsToShow?.length && <Alert type="info" message="No Events found" />}
+
+      {!manage && (
+        <DropdownMenu
+          eventType={eventType}
+          handleEventTypeChange={handleEventTypeChange}
+          options={filteredEventOptions}
+          label="Select Event Type:"
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+        />
+      )}
+
+      {eventsToShow.length > 0 && (
+        <ul role="list" className="mt-4">
+          {eventsToShow.map((event, index) => (
+            <EventCard event={event} key={index} manage={manage} />
           ))}
-      </ul>
-    </div>
+        </ul>
+      )}
+    </>
   );
 }

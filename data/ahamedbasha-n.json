@@ -1,0 +1,36 @@
+{
+  "name": "Ahamed Basha N",
+  "bio": "**Programmer Analyst by Profession** & **Food Blogger**",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/ahamed_dev",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ahamedbasha-n",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ahamed_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@ahamed_dev",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Spotify",
+      "url": "https://open.spotify.com/user/sbicidj8escrz479729i5jkj1?si=piXFZf8GTe-FXSO8p0LECA",
+      "icon": "FaSpotify"
+    },
+    {
+      "name": "Subscribe to YouTube",
+      "url": "https://www.youtube.com/@we_lifestyle",
+      "icon": "FaYoutube"
+    }
+  ]
+}

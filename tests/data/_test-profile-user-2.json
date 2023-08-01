@@ -1,0 +1,20 @@
+{
+  "name": "Test User Name 2",
+  "bio": "Test user bio 2",
+
+  "tags": ["test user 2 tag 1", "test user 2 tag 2"],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+}

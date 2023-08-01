@@ -1,7 +1,15 @@
 {
   "name": "Pacifique Murangwa",
-  "type": "personal",
   "bio": "Open Source enthusiast FullStack Developer",
+  "tags": [
+    "Backend Development",
+    "Frontend Development",
+    "Open Source",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "C++"
+  ],
   "links": [
     {
       "name": "Github",

@@ -1,0 +1,54 @@
+{
+  "name": "Kaushik Teraiya",
+  "bio": "**React.js** Developer | JavaScript | Frontend Developer",
+  "tags": ["ReactJs", "Javascript", "Open Source", "NodeJS"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kdteraiya"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kdteraiya"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/kdteraiya",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/kdteraiya",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Information Technology Engineer",
+      "date": "2014",
+      "icon": "SiMicrosoftacademic",
+      "color": "black",
+      "description": "Enrolled in Bachelor of Engineering with Information Technology",
+      "url": "https://ldce.ac.in/"
+    },
+    {
+      "title": "GATE Qualifier",
+      "date": "2018",
+      "icon": "FaCertificate",
+      "color": "black",
+      "description": "Qualified in Graduate Aptitude Test in Engineering"
+    },
+    {
+      "title": "Systems Engineer",
+      "date": "2018",
+      "icon": "SiWebpack",
+      "color": "red",
+      "description": "Started my career with Tata Consultancy Services",
+      "url": "https://www.tcs.com/"
+    }
+  ]
+}

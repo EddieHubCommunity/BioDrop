@@ -1,6 +1,5 @@
 {
   "name": "Yashwanth Sai",
-  "type": "personal",
   "bio": "Full Stack developer, Open source enthusiast",
   "tags": ["Open Source", "JavaScript"],
   "socials": [
@@ -13,7 +12,6 @@
       "url": "https://github.com/Yasshu55"
     }
   ],
-
   "links": [
     {
       "group": "Primary Socials",

@@ -1,0 +1,11 @@
+{
+  "name": "Apurva Basule",
+  "bio": "i am a fullstack developer",
+  "links": [
+    {
+      "name": "follow me on twitter",
+      "url": "https://twitter.com/ApurvaBaule",
+      "icon": "FaTwitter"
+    }
+  ]
+}

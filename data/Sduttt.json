@@ -1,0 +1,62 @@
+{
+  "name": "Subham Dutta",
+  "bio": "Web Developer | Technical Content Writer",
+  "tags": ["React", "Javascript", "Typescript", "NextJS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Subhamd88404337"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sduttt"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/subham-dutta-8670b8178/"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Portfolio",
+      "url": "https://sduttt.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Hashnode: Read my Articles",
+      "url": "https://sdutta.hashnode.dev/",
+      "icon": "SiHashnode",
+      "color": "#2962FF"
+    },
+    {
+      "name": "LinkedIn: Connect me",
+      "url": "https://www.linkedin.com/in/subham-dutta-8670b8178/",
+      "icon": "FaLinkedin",
+      "color": "#0E76A8"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Subhamd88404337",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined GitHub",
+      "date": "March 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "url": "https://github.com/Sduttt",
+      "description": "Contribute to OpenSource repos"
+    },
+    {
+      "title": "Started writing Technical Blogs",
+      "date": "July 2022",
+      "icon": "SiHashnode",
+      "color": "#2962FF",
+      "url": "https://sdutta.hashnode.dev/",
+      "description": "Read my articles"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import Link from "@components/Link.js";
+import Youtube from "@components/embeds/Youtube.js";
+import Alert from "@components/Alert.js";
+
+## Editing - changing and adding to your Profile through Forms
+
+### Edit your Profile
+
+You can make changes and add to your existing Profile (whether you created this with JSON or through Forms) by completing a Form on the LinkFree app.
+
+1. Go to the [LinkFree homepage](https://linkfree.io/)
+
+2. Click on `Log in`
+
+![LinkFree Homepage](https://github.com/EddieHubCommunity/LinkFree/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. You will be taken to your Profile's Statistics page
+
+Click on `Profile`
+
+![LinkFree Statistics page](https://github.com/EddieHubCommunity/LinkFree/assets/82668196/a724085f-0005-4327-966b-427aa61ef05c)
+
+4. The Form will be populated with the information that you currently have in your Profile
+
+You can change any of the form fields except `username` as this will always show your GitHub username
+
+![LinkFree Forms page](https://github.com/EddieHubCommunity/LinkFree/assets/82668196/86119a20-412a-449a-acba-87df2510ad25)
+
+Note: as you complete these fields the information will appear on the right hand side, which will allow you to preview how your Profile will look.
+
+5. Click `Save`
+
+6. Your changed Profile will be then be available on your custom URL (linkfree.io/eddiejaoude)
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      If you created your Profile with JSON, make sure you now delete your JSON file.
+      To learn more <Link href="/docs/how-to-guides/json-to-forms">
+        JSON to Forms
+      </Link>
+    </>
+  }
+/>
+
+export default ({ children }) => (
+  <DocsLayout
+    title="LinkFree QuickStart Documentation"
+    section="Getting started"
+    name="QuickStart"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -1,6 +1,7 @@
-import Page from "../components/Page";
-import PageHead from "../components/PageHead";
-import { CalendarIcon } from "@heroicons/react/20/solid";
+import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
+
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
 
 export default function Changelog() {
   const colors = {
@@ -8,6 +9,68 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Share profile on social media",
+      description:
+        "With the QR code, there is also a link copy and social share buttons",
+      type: "addition",
+      date: "2023-07-10",
+    },
+    {
+      title: "Reorder testimonials and links",
+      description:
+        "As these items don't have lists you may want to reorder them",
+      type: "addition",
+      date: "2023-07-06",
+    },
+    {
+      title: "Manage profile with forms",
+      description:
+        "We now have functionality to manage your profile with forms",
+      type: "addition",
+      date: "2023-06-14",
+    },
+    {
+      title: "Custom login page",
+      description:
+        "We were using the standard Next-Auth page but now we have a branded login page",
+      type: "addition",
+      date: "2023-05-04",
+    },
+    {
+      title: "LinkFree now has DarkMode",
+      description:
+        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
+      type: "addition",
+      date: "2023-04-08",
+    },
+    {
+      title: "Profile QR code download",
+      description:
+        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      type: "addition",
+      date: "2023-03-31",
+    },
+    {
+      title: "Profile progress bar",
+      description: "It is now possible to track your LinkFree profile progress",
+      type: "addition",
+      date: "2023-03-26",
+    },
+    {
+      title: "Dedicated domain (url)",
+      description:
+        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      type: "addition",
+      date: "2023-03-12",
+    },
+    {
+      title: "Playground",
+      description:
+        "You can now test and preview your profile with any json changes",
+      type: "addition",
+      date: "2023-03-07",
+    },
     {
       title: "Accounts statistics summary",
       description:
@@ -37,7 +100,7 @@ export default function Changelog() {
     },
     {
       title: "`avatar` json property no longer required",
-      description: "Now will default to using people's GitHub proile picture",
+      description: "Now will default to using people's GitHub profile picture",
       type: "removal",
       date: "2023-01-07",
     },
@@ -46,14 +109,14 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title="LinkFree user changelog"
+        description="What are the latest features and changes to LinkFree"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white shadow sm:rounded-md">
-          <ul role="list" className="divide-y divide-gray-200">
+        <div className="overflow-hidden bg-primary-low shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
+          <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
                 <div className="px-4 py-4 sm:px-6">
@@ -72,13 +135,15 @@ export default function Changelog() {
                     </div>
                   </div>
                   <div className="mt-2 sm:flex sm:justify-between">
-                    <div className="sm:flex">{change.description}</div>
-                    <div className="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
+                    <div className="sm:flex dark:text-primary-low">
+                      {change.description}
+                    </div>
+                    <div className="mt-2 flex items-center text-sm text-primary-medium sm:mt-0">
                       <CalendarIcon
-                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-400"
+                        className="mr-1.5 h-5 w-5 flex-shrink-0 text-primary-medium-low dark:text-primary-low"
                         aria-hidden="true"
                       />
-                      <p>{change.date}</p>
+                      <p className="dark:text-primary-low">{change.date}</p>
                     </div>
                   </div>
                 </div>

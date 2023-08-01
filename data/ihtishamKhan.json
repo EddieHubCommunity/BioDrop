@@ -1,8 +1,6 @@
 {
   "name": "Ihtisham",
-  "type": "personal",
   "bio": "MERN Stack enthusiast",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -31,7 +29,6 @@
     },
     {
       "title": "Graduated from B.Sc. in Software Engineering",
-
       "date": "July 2020",
       "icon": "FaGraduationCap",
       "color": "#CD7F32"

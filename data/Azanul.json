@@ -1,0 +1,94 @@
+{
+  "name": "Azanul Haque",
+  "bio": "Software Developer | Open Source Contributor | Go, Python, Kubernetes, Distributed Systems",
+  "tags": ["Open Source", "Go", "Python", "Kubernetes", "Distributed Systems"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AzanulZ"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Azanul"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/azanul-haque/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/AzanulZ",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Azanul",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/azanul-haque/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Leetcode",
+      "url": "https://leetcode.com/azanulhaque/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Exercism",
+      "url": "https://exercism.org/profiles/Azanul",
+      "icon": "SiExercism"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Codewars",
+      "url": "https://www.codewars.com/users/JohnDoe297",
+      "icon": "SiCodewars"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/azanul",
+      "icon": "SiHackerrank"
+    },
+    {
+      "group": "Coding Profiles",
+      "name": "Codingame",
+      "url": "https://www.codingame.com/profile/7918894023dcfe28fbf64d7ec1578b3b3137604",
+      "icon": "SiCodingame"
+    },
+    {
+      "group": "Taiyogakure Community",
+      "name": "Taiyogakure: Official website",
+      "url": "http://www.taiyogakure.club/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Taiyogakure Community",
+      "name": "Taiyogakure: Discord",
+      "url": "https://discord.gg/Y6vPprU9ZJ",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Taiyogakure Community",
+      "name": "Taiyogakure: Github",
+      "url": "https://github.com/Taiyogakure",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Donate",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/Azanul",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ]
+}

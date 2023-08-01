@@ -1,13 +1,20 @@
 {
   "name": "Apoorv Goyal",
-  "type": "personal",
   "bio": "Full Stack Web Developer | Content Creator | Founder of **Virtual Tech School**",
-
   "tags": ["Python", "JavaScript", "Linux"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/apoorvtwts" },
-    { "icon": "FaGithub", "url": "https://github.com/apoorv-on-git" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/apoorvgoyalmain" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/apoorvtwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/apoorv-on-git"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/apoorvgoyalmain"
+    }
   ],
   "links": [
     {

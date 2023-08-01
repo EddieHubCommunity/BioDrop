@@ -1,0 +1,67 @@
+{
+  "name": "Promise Uka",
+  "bio": "Full-Stack Developer, Open-source enthusiast. Stack: JavaScript | TypeScript | Ruby | React | Redux | Rails | Node | Express. Open to opportunities!",
+  "tags": [
+    "Ruby on Rails",
+    "Javascript",
+    "Typescript",
+    "ReactJs",
+    "Redux",
+    "NextJS",
+    "PostgreSQL",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PromiseUkay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ukaypromise"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/promiseuka/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PromiseUkay",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ukaypromise/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/promiseuka/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Ukaypromise",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2022",
+      "icon": "FaDollarSign",
+      "color": "green",
+      "description": "Started a freelancing business"
+    },
+    {
+      "title": "Contributed to an Open Source project Linkfree",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Made my first contribution",
+      "url": "https://github.com/Ukaypromise"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Jean Ferreira",
+  "bio": "Backend developer - Python, Django",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/DeveloperJeanpy",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jeanferreira91/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/JeanFerreira91",
+      "icon": "FaGithub"
+    }
+  ]
+}

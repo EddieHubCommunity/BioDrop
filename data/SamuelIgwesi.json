@@ -1,12 +1,16 @@
 {
   "name": "SAMUEL IGWESI",
-  "type": "personal",
   "bio": "Web Developer & Tech Enthusiast",
-
   "tags": ["javascript", "nodeJS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/prime_developer" },
-    { "icon": "FaGithub", "url": "https://github.com/SamuelIgwesi" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/prime_developer"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SamuelIgwesi"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/samuel-igwesi-prime-developer/"

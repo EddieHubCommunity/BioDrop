@@ -1,0 +1,45 @@
+{
+  "name": "jOsh",
+  "bio": "Rapper turned **Coder**. Student, building Fisidi Inc.",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/joshjgomes",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com/joshjgomes",
+      "icon": "FaSoundcloud"
+    },
+    {
+      "name": "jOsh",
+      "url": "https://j0sh.ca",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Fisidi",
+      "url": "https://fisidi.com",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Made 800k in 1 year",
+      "icon": "FaDollarSign",
+      "date": "Oct 13 2020"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "DevOps",
+    "Python",
+    "React",
+    "NextJS",
+    "Dart",
+    "Rust",
+    "HardHat",
+    "Foundry"
+  ]
+}

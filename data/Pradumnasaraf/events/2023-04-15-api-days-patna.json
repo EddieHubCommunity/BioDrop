@@ -1,0 +1,17 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "userStatus": "speaking",
+  "speakingTopic": "Docker and API",
+  "color": "red",
+  "name": "API Days Patna",
+  "description": "First-ever API Literacy event in Patna, Bihar! Learn about API technology, network with peers and gain valuable skills.",
+  "date": {
+    "start": "2023-04-15T10:00:00+05:30",
+    "end": "2023-04-15T16:00:00+05:30"
+  },
+  "location": {
+    "country": "Patna, India"
+  },
+  "url": "https://apidayspatna.eventbrite.be/"
+}

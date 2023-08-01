@@ -1,51 +1,45 @@
 import { authOptions } from "../api/auth/[...nextauth]";
-import { unstable_getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth/next";
+import dynamic from "next/dynamic";
+import ProgressBar from "@components/statistics/ProgressBar";
 
-import {
-  BarChart,
-  Bar,
-  CartesianGrid,
-  Tooltip,
-  XAxis,
-  YAxis,
-  ResponsiveContainer,
-} from "recharts";
+import { getUserApi } from "../api/profiles/[username]";
+import { clientEnv } from "@config/schemas/clientSchema";
+import { getStats } from "../api/account/statistics";
+import logger from "@config/logger";
+import Alert from "@components/Alert";
+import Page from "@components/Page";
+import PageHead from "@components/PageHead";
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
+import Navigation from "@components/account/manage/Navigation";
+import UserMini from "@components/user/UserMini";
+import dateFormat from "@services/utils/dateFormat";
 
-import logger from "../../config/logger";
-import Alert from "../../components/Alert";
-import Page from "../../components/Page";
-import PageHead from "../../components/PageHead";
-import { abbreviateNumber } from "../../services/utils/abbreviateNumbers";
-import BasicCards from "../../components/statistics/BasicCards";
+const DynamicChart = dynamic(
+  () => import("../../components/statistics/StatsChart"),
+  { ssr: false }
+);
 
 export async function getServerSideProps(context) {
-  const session = await unstable_getServerSession(
-    context.req,
-    context.res,
-    authOptions
-  );
+  const { req, res } = context;
+  const session = await getServerSession(req, res, authOptions);
 
   if (!session) {
     return {
       redirect: {
-        destination: "/",
+        destination: "/auth/signin",
         permanent: false,
       },
     };
   }
   const username = session.username;
-
-  let profile = {};
-  try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+  const { status, profile } = await getUserApi(req, res, username);
+  if (status !== 200) {
+    logger.error(
+      profile.error,
+      `profile loading failed for username: ${username}`
     );
-    profile = await resUser.json();
-  } catch (e) {
-    logger.error(e, `profile loading failed for username: ${username}`);
-  }
 
-  if (!profile.username) {
     return {
       redirect: {
         destination: "/account/no-profile",
@@ -55,55 +49,60 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
+  let profileSections = [
+    "links",
+    "milestones",
+    "tags",
+    "socials",
+    "testimonials",
+  ];
+  let progress = {
+    percentage: 0,
+    missing: [],
+  };
+
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/account/statistics`,
-      {
-        headers: {
-          cookie: context.req.headers.cookie || "",
-        },
-      }
-    );
-    data = await res.json();
+    data = await getStats(username);
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
-  return {
-    props: { session, data, profile },
-  };
-}
+  progress.missing = profileSections.filter(
+    (property) => !profile[property]?.length
+  );
+  progress.percentage = (
+    ((profileSections.length - progress.missing.length) /
+      profileSections.length) *
+    100
+  ).toFixed(0);
 
-export default function Statistics({ data, profile }) {
-  const dateTimeStyle = {
-    dateStyle: "short",
-  };
-  const dailyViews = data.profile.daily.slice(-30).map((day) => {
+  data.links.individual = data.links.individual.filter((link) =>
+    profile.links.some((pLink) => pLink.url === link.url)
+  );
+
+  const totalClicks = data.links.individual.reduce((acc, link) => {
+    return acc + link.clicks;
+  }, 0);
+  data.links.clicks = totalClicks;
+
+  data.profile.daily = data.profile.daily.slice(-30).map((day) => {
     return {
       views: day.views,
-      date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(day.date)
-      ),
+      date: dateFormat({ format: "short", date: day.date }),
     };
   });
 
-  const cardData = [
-    {
-      name: "Total views",
-      current: data.profile.monthly,
-      total: data.profile.total,
-      delta: data.profile.total - data.profile.monthly,
+  return {
+    props: {
+      data,
+      profile,
+      progress,
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
-    {
-      name: "Total links",
-      current: data.links.individual.length,
-    },
-    {
-      name: "Total link clicks",
-      current: data.links.clicks,
-    },
-  ];
+  };
+}
 
+export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
     <>
       <PageHead
@@ -112,65 +111,77 @@ export default function Statistics({ data, profile }) {
       />
 
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">
-          Your Statistics for {profile.name} ({profile.username})
-        </h1>
+        <Navigation />
 
-        {!data.links && (
-          <Alert type="info" message="You don't have a profile yet." />
-        )}
+        <UserMini
+          BASE_URL={BASE_URL}
+          username={profile.username}
+          name={profile.name}
+          bio={profile.bio}
+          monthly={data.profile.monthly}
+          total={data.profile.total}
+          clicks={data.links.clicks}
+        />
 
-        <BasicCards data={cardData} />
+        <div className="w-full border p-4 my-6 dark:border-primary-medium">
+          <span className="flex flex-row justify-between">
+            <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
+              Profile Completion: {progress.percentage}%
+            </span>
+            {progress.missing.length > 0 && (
+              <span className="text-primary-medium-low">
+                (missing sections in your profile are:{" "}
+                {progress.missing.join(",")})
+              </span>
+            )}
+          </span>
 
-        <div className="border my-6">
-          <div className="border-b border-gray-200 bg-white px-4 py-5 mb-2 sm:px-6">
-            <h3 className="text-lg font-medium leading-6 text-gray-900">
-              Profile views
-            </h3>
-            <p className="mt-1 text-sm text-gray-500">
-              How many profile visits you got per day. You have{" "}
-              {abbreviateNumber(data.profile.monthly)} Profile views in the last
-              30 days with a total of {abbreviateNumber(data.profile.total)}.
-            </p>
-          </div>
-          <div className="w-full h-80">
-            <ResponsiveContainer height="100%">
-              <BarChart data={dailyViews}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="date" />
-                <YAxis />
-                <Bar dataKey="views" fill="#82ca9d" />
-                <Tooltip />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
+          <ProgressBar progress={progress} />
         </div>
 
-        <table className="min-w-full divide-y divide-gray-300">
-          <thead className="bg-gray-50">
+        {!data.links && (
+          <Alert type="warning" message="You don't have a profile yet." />
+        )}
+
+        {data.profile.daily.length > 0 && (
+          <div className="border mb-6 dark:border-primary-medium">
+            <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
+              <h3 className="text-lg font-medium leading-6 text-primary-high">
+                Profile views
+              </h3>
+              <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
+                Number of Profile visits per day.
+              </p>
+            </div>
+            <DynamicChart data={data.profile.daily} />
+          </div>
+        )}
+
+        <table className="min-w-full divide-y divide-primary-medium-low">
+          <thead className="bg-primary-low dark:bg-primary-medium">
             <tr>
               <th
                 scope="col"
-                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high dark:text-primary-low sm:pl-6"
               >
-                Url ({data.links.individual.length})
+                Your Links ({data.links.individual.length})
               </th>
               <th
                 scope="col"
-                className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                className="px-3 py-3.5 text-left text-sm font-semibold text-primary-high"
               >
                 Clicks ({abbreviateNumber(data.links.clicks)})
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 bg-white">
+          <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
                     {link.url}
                   </td>
-                  <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}
                   </td>
                 </tr>

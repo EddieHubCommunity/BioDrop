@@ -1,0 +1,16 @@
+{
+  "name": "VikRam",
+  "bio": "Hello Guys Welcome Back To My Profile",
+  "links": [
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/vikram-singh-sisodiya-25a302234/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vikram-8290",
+      "icon": "FaGitHub"
+    }
+  ]
+}

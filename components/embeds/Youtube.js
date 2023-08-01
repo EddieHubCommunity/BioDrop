@@ -4,7 +4,7 @@ export default function Youtube({ url, title }) {
       <iframe
         src={url}
         title={title}
-        className="aspect-video w-full"
+        className="aspect-video w-full h-40 sm:h-80 md:h-[32rem] lg:h-[30rem]"
         allow="accelerometer; autoplay;"
         allowFullScreen
       ></iframe>

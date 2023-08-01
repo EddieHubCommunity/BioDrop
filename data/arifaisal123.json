@@ -1,0 +1,55 @@
+{
+  "name": "Arif Faisal",
+  "bio": "I am a Full Stack Developer. Currently learning Django.",
+  "tags": ["Python", "JavaScript", "Sass", "Bootstrap", "Flask"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/faisalcodes123"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/arifaisal123"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@faisalcodes123"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://arifaisal123.github.io"
+    }
+  ],
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "Portfolio Website",
+      "url": "https://arifaisal123.github.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/faisalcodes123",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Github",
+      "url": "https://github.com/arifaisal123",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Youtube",
+      "url": "https://youtube.com/@faisalcodes123",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Socials",
+      "name": "Discord",
+      "url": "https://discord.com/channels/arifaisal123",
+      "icon": "FaDiscord"
+    }
+  ]
+}

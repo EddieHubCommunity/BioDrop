@@ -1,8 +1,6 @@
 {
   "name": "Jessa Challa",
-  "type": "personal",
   "bio": "I'm a developer. I want to make things that inspire curiosity and action.",
-
   "tags": [
     "Technologist",
     "Artist",
@@ -14,8 +12,14 @@
     "Always Learning"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/JessaChalla" },
-    { "icon": "FaGithub", "url": "https://github.com/jessachalla" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JessaChalla"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jessachalla"
+    }
   ],
   "links": [
     {

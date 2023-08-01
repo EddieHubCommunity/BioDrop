@@ -1,0 +1,28 @@
+{
+  "name": "Bharath Kalyan S",
+  "bio": "Full Stack Developer, Open Source Contributor, Technical Content Writer",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Javascript",
+    "React JS",
+    "Node JS",
+    "Typescript",
+    "Python",
+    "MongoDB",
+    "PostgreSQL",
+    "Kotlin"
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/bharathkalyans",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bharathkalyans",
+      "icon": "FaTwitter"
+    }
+  ]
+}

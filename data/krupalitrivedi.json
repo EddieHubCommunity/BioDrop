@@ -1,15 +1,22 @@
 {
   "name": "Krupali Trivedi || Chai",
-  "type": "personal",
   "bio": "Open source Advocate | Blogger | Content Writer ",
   "tags": ["Open Source", "Content Writer", "Blogging", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chai_really" },
-    { "icon": "FaGithub", "url": "https://github.com/krupalitrivedi" },
-    { "icon": "SiHashnode", "url": "https://acodeandaword.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chai_really"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/krupalitrivedi"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://acodeandaword.hashnode.dev/"
+    }
   ],
   "testimonials": ["shubhsharma19", "Njong392"],
-
   "links": [
     {
       "name": "Follow me on GitHub",

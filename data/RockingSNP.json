@@ -1,8 +1,6 @@
 {
   "name": "Souvik Pramanick",
-  "type": "personal",
   "bio": "Full Stack Web Developer, **Programmer** into Explorer with a good learner too...",
-
   "tags": [
     "Open Source",
     "Web Development",
@@ -12,13 +10,20 @@
     "React",
     "CSS"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/SouvikP74860962" },
-    { "icon": "FaGithub", "url": "https://github.com/RockingSNP/" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@souvikpramanick1549" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SouvikP74860962"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RockingSNP/"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@souvikpramanick1549"
+    }
   ],
-
   "links": [
     {
       "group": "Socials",
@@ -67,6 +72,33 @@
       "name": "Join our Enthusiastic Open-source GrowInCommunity",
       "url": "https://twitter.com/GrowInComm",
       "icon": "FaLink"
+    }
+  ],
+  "testimonials": [],
+  "milestones": [
+    {
+      "title": "Started My Youtube Channel",
+      "date": "22 June 2020",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Upholding My Ideas To You..",
+      "url": "https://www.youtube.com/@souvikpramanick1549"
+    },
+    {
+      "title": "Joined the Tech-Twitter",
+      "date": "13 November 2022",
+      "icon": "SiTwitter",
+      "color": "blue",
+      "description": "Started my Twitter journey with great enthusiasm",
+      "url": "https://twitter.com/SouvikP74860962"
+    },
+    {
+      "title": "Joined EddieHub Community to boosten by Open-Source Journey",
+      "date": "11 February 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "black",
+      "description": "Got into our Inclusive Open Source community",
+      "url": "https://github.com/RockingSNP"
     }
   ]
 }
