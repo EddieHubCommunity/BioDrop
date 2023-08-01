@@ -6,6 +6,7 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import { checkGitHubRepo } from "@services/github/getRepo";
 import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
@@ -41,6 +42,9 @@ export async function getUserApi(req, res, username) {
   }
 
   await getLocation(username, getProfile);
+  if (getProfile.repos?.length > 0) {
+    await checkGitHubRepo(username, getProfile.repos);
+  }
 
   const log = logger.child({ username });
   getProfile = await Profile.aggregate([
