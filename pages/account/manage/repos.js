@@ -77,7 +77,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
     const listRepos = await resRepos.json();
 
     setRepoList(listRepos);
-
+    setUrl("");
     return setShowNotification({
       show: true,
       type: "success",
@@ -111,8 +111,9 @@ export default function ManageRepos({ BASE_URL, repos }) {
             type="url"
             placeholder="https://github.com/EddieHubCommunity/LinkFree"
             onChange={(e) => setUrl(e.target.value)}
+            value={url}
           />
-          <Button>
+          <Button disable={!url.length}>
             <DocumentPlusIcon className="h-5 w-5 mr-2" />
             Add Repo
           </Button>

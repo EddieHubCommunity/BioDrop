@@ -84,6 +84,13 @@ export async function addRepoApi(username, addRepo) {
     return { error: e.errors };
   }
 
+  const profile = await Profile.findOne({ username });
+  if (profile.repos?.find((repo) => repo.url === addRepo.url)) {
+    const error = `repo already exists for: ${addRepo.url}`;
+    log.error(error);
+    return { error };
+  }
+
   let githubData = {};
   try {
     githubData = await getGitHubRepo(addRepo.url);
