@@ -1,0 +1,118 @@
+{
+  "name": "Axel Garcia K.",
+  "bio": "💾 Computing History Educator 👨‍💻 Software Engineer, ex Chemical Engineer 👨‍🔬 Likes ➜Ai ➜IoT ➜rust ➜golang ➜zig ➜python | 🇬🇧🇩🇪🇻🇪",
+  "tags": [
+    "Open Source",
+    "Backend",
+    "Python",
+    "Docker",
+    "Golang",
+    "Rust",
+    "Zig",
+    "Embedded"
+  ],
+  "socials": [
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/AxelGarciaK"
+    },
+    {
+      "icon": "SiBuymeacoffee",
+      "url": "https://www.buymeacoffee.com/axelgarciak"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://axelgarciak.com/bio"
+    },
+    {
+      "icon": "SiLinkedin",
+      "url": "https://linkedin.com/in/axelgarciak"
+    },
+    {
+      "icon": "SiThreads",
+      "url": "https://threads.net/@axelgarciak"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/AxelGarciaK"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/AxelGarciaK"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://discord.gg/HJbehRZNey"
+    },
+    {
+      "icon": "SiYoutube",
+      "url": "https://youtube.com/@axelgarciak"
+    },
+    {
+      "icon": "SiIcloud",
+      "url": "https://bsky.app/profile/axelgarciak.bsky.social"
+    }
+  ],
+  "links": [
+    {
+      "group": "Donate",
+      "name": "Become a GitHub sponsor 💖",
+      "url": "https://github.com/sponsors/AxelGarciaK",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Donate",
+      "name": "Buy me a coffee ☕",
+      "url": "https://www.buymeacoffee.com/axelgarciak",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "group": "Socials",
+      "name": "All links in one",
+      "url": "https://axelgarciak.com/bio",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect on LinkedIn",
+      "url": "https://linkedin.com/in/axelgarciak",
+      "icon": "SiLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Threads",
+      "url": "https://threads.net/@axelgarciak",
+      "icon": "SiThreads"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AxelGarciaK",
+      "icon": "SiTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Github",
+      "url": "https://github.com/AxelGarciaK",
+      "icon": "SiGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Subscribe on YouTube",
+      "url": "https://youtube.com/@axelgarciak",
+      "icon": "SiYoutube"
+    },
+    {
+      "group": "Socials",
+      "name": "Join Discord community",
+      "url": "https://discord.gg/HJbehRZNey",
+      "icon": "SiDiscord"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow on BlueSky",
+      "url": "https://bsky.app/profile/axelgarciak.bsky.social",
+      "icon": "SiIcloud"
+    }
+  ]
+}
