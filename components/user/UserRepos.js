@@ -2,6 +2,7 @@ import FallbackImage from "@components/FallbackImage";
 import Link from "@components/Link";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import StarIcon from "@heroicons/react/20/solid/StarIcon";
+import dateFormat from "@services/utils/dateFormat";
 
 export default function UserRepos({ repos }) {
   return (
@@ -26,12 +27,7 @@ export default function UserRepos({ repos }) {
                   {repo.owner}/{repo.name}
                 </Link>{" "}
                 <span className="hidden md:inline">
-                  (
-                  {new Intl.DateTimeFormat("en-GB", {
-                    dateStyle: "full",
-                    timeStyle: "long",
-                  }).format(new Date(repo.dates.pushedAt))}
-                  )
+                  ({dateFormat({ format: "long", date: repo.dates.pushedAt })})
                 </span>
               </p>
               <p className="mt-1 flex text-xs leading-5 text-gray-500">
