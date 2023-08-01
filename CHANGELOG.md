@@ -1,3 +1,12 @@
+# [1.167.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.166.0...v1.167.0) (2023-08-01)
+
+
+### Features
+
+* admin users list inc repos ([#8439](https://github.com/EddieHubCommunity/LinkFree/issues/8439)) ([aae68d9](https://github.com/EddieHubCommunity/LinkFree/commit/aae68d92be0dbd09c31df93c83e926a1b7786919))
+
+
+
 # [1.166.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.3...v1.166.0) (2023-08-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * date format helper ([#8380](https://github.com/EddieHubCommunity/LinkFree/issues/8380)) ([b70f3b1](https://github.com/EddieHubCommunity/LinkFree/commit/b70f3b1b6164fe77bc6e8967646474fd17632d91))
-
-
-
-# [1.165.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.164.0...v1.165.0) (2023-07-30)
-
-
-### Features
-
-* more profile data for admin ([#8408](https://github.com/EddieHubCommunity/LinkFree/issues/8408)) ([caa24b4](https://github.com/EddieHubCommunity/LinkFree/commit/caa24b47e289a8971f20d6004e584d42283972ae))
 
 
 
