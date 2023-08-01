@@ -156,6 +156,15 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 >
                   <div className="flex gap-2 items-start">
                     {reorder && <Bars2Icon className="h-8 w-8 " />}
+                  <figcaption className="mt-6 flex items-center gap-x-4">
+                      <Image
+                        className="h-10 w-10 rounded-full bg-primary-low"
+                        src={testimonials.image}
+                        alt={`Profile picture for ${testimonials.name}`}
+                        width={100}
+                        height={100}
+                      />
+                    </figcaption>
                     <div className="min-w-0">
                       <div className="flex items-start gap-x-3">
                         <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
