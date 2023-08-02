@@ -9,28 +9,25 @@ const adminUser = {
   username: "_test-admin-user",
 };
 
-test("Guest user cannot access admin statistics", async ({ browser }) => {
-  // fixture: make sure user is not logged in
+test("Guest user cannot access admin events", async ({ browser }) => {
   const context = await logout(browser);
   const page = await context.newPage();
-  await page.goto("/admin");
+  await page.goto("/admin/events");
   await expect(page).toHaveURL(/auth\/signin/);
 });
 
-test("Logged in user cannot access admin statistics", async ({ browser }) => {
-  // fixture: make sure user is not logged in
+test("Logged in user cannot access admin events", async ({ browser }) => {
   const context = await login(browser);
   const page = await context.newPage();
-  await page.goto("/admin");
+  await page.goto("/admin/events");
   await expect(page).toHaveURL(/404/);
 });
 
-test("Admin user can access dashboard", async ({ browser }) => {
-  // fixture: make sure user is logged in
+test("Admin user can access admin events", async ({ browser }) => {
   const context = await login(browser, adminUser);
   const page = await context.newPage();
-  await page.goto("/admin");
-  await expect(page).toHaveURL(/admin/);
+  await page.goto("/admin/events");
+  await expect(page).toHaveURL(/admin\/events/);
 });
 
 test.describe("accessibility tests (light)", () => {
@@ -39,7 +36,7 @@ test.describe("accessibility tests (light)", () => {
   test("should pass axe wcag accessibility tests", async ({ browser }) => {
     const context = await login(browser, adminUser);
     const page = await context.newPage();
-    await page.goto("/admin");
+    await page.goto("/admin/events");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
@@ -55,7 +52,7 @@ test.describe("accessibility tests (dark)", () => {
   }) => {
     const context = await login(browser, adminUser);
     const page = await context.newPage();
-    await page.goto("/admin");
+    await page.goto("/admin/events");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();

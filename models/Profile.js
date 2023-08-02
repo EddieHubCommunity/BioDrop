@@ -2,6 +2,7 @@ import mongoose, { Schema } from "mongoose";
 
 import { MilestoneSchema } from "./Profile/Milestone";
 import { EventSchema } from "./Profile/Event";
+import { RepoSchema } from "./Profile/Repo";
 
 import config from "@config/app.json";
 
@@ -68,6 +69,10 @@ const ProfileSchema = new Schema(
     },
     milestones: {
       type: [MilestoneSchema],
+      default: [],
+    },
+    repos: {
+      type: [RepoSchema],
       default: [],
     },
     testimonials: [
