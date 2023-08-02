@@ -1,5 +1,6 @@
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -47,19 +48,15 @@ export async function getEvents() {
     const today = new Date();
     for (const event of events) {
       let cleanEvent = structuredClone(event);
-      const dateTimeStyle = {
-        dateStyle: "full",
-        timeStyle: "long",
-      };
       try {
-        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(new Date(event.date.start));
-        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(new Date(event.date.end));
+        cleanEvent.date.startFmt = dateFormat({
+          format: "long",
+          date: event.date.start,
+        });
+        cleanEvent.date.endFmt = dateFormat({
+          format: "long",
+          date: event.date.end,
+        });
 
         cleanEvent.date.cfpOpen =
           event.date.cfpClose && new Date(event.date.cfpClose) > today;

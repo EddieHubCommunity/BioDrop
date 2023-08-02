@@ -4,12 +4,17 @@ on:
   - pull_request
 
 jobs:
-  build:
+  label:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: srvaroa/labeler@master
+      - uses: actions/checkout@v3 # Uploads repository content to the runner to ensure config file available
         with:
-          config_path: .github/config/labeler.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          repository: "EddieHubCommunity/LinkFree"
+      - uses: actions/labeler@v4
+        with:
+          configuration-path: .github/config/labeler.yml
+          repo-token: ${{ secrets.GH_PAT }}
+          dot: true
+          sync-labels: true
+

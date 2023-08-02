@@ -17,7 +17,8 @@ async function saveLocation(username) {
           lon: location.lon,
           updatedAt: new Date(),
         },
-      }
+      },
+      { timestamps: false }
     );
   } catch (e) {
     logger.error(
