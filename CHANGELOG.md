@@ -1,3 +1,12 @@
+## [1.168.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.0...v1.168.1) (2023-08-02)
+
+
+### Bug Fixes
+
+* refactored the classNames function ([#8404](https://github.com/EddieHubCommunity/LinkFree/issues/8404)) ([fbf858c](https://github.com/EddieHubCommunity/LinkFree/commit/fbf858cc75e1cb6d93c97fce41d1c2b88cfb8633))
+
+
+
 # [1.168.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.167.0...v1.168.0) (2023-08-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gh action labeler ([#8430](https://github.com/EddieHubCommunity/LinkFree/issues/8430)) ([83c939e](https://github.com/EddieHubCommunity/LinkFree/commit/83c939e361790316b2ad26b1e079b8b87520ad5b))
-
-
-
-## [1.165.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.1...v1.165.2) (2023-07-31)
-
-
-### Bug Fixes
-
-* profile updated datetime on stats ([#8415](https://github.com/EddieHubCommunity/LinkFree/issues/8415)) ([80b39c8](https://github.com/EddieHubCommunity/LinkFree/commit/80b39c835e5d69a4d3dcd1d287b24fdf66890fc3))
 
 
 
