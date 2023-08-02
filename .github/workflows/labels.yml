@@ -4,12 +4,14 @@ on:
   - pull_request
 
 jobs:
-  build:
+  label:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: srvaroa/labeler@master
+      - uses: actions/labeler@v4
         with:
-          config_path: .github/config/labeler.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/config/labeler.yml
+          repo-token: ${{ secrets.GH_PAT }}
+          dot: true
+          # sync-labels: true see issue https://github.com/actions/labeler/issues/112
+
