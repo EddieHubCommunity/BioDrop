@@ -1,3 +1,12 @@
+## [1.168.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.1...v1.168.2) (2023-08-02)
+
+
+### Bug Fixes
+
+* gh action labeller ([#8460](https://github.com/EddieHubCommunity/LinkFree/issues/8460)) ([9f191db](https://github.com/EddieHubCommunity/LinkFree/commit/9f191db51b7654c9e5c14de27f4270598664d643))
+
+
+
 ## [1.168.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.0...v1.168.1) (2023-08-02)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * GitHub repo to profile ([#8225](https://github.com/EddieHubCommunity/LinkFree/issues/8225)) ([30bc65d](https://github.com/EddieHubCommunity/LinkFree/commit/30bc65d3d075895e81ead930cbdca9e383a7f210))
-
-
-
-## [1.165.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.2...v1.165.3) (2023-08-01)
-
-
-### Bug Fixes
-
-* gh action labeler ([#8430](https://github.com/EddieHubCommunity/LinkFree/issues/8430)) ([83c939e](https://github.com/EddieHubCommunity/LinkFree/commit/83c939e361790316b2ad26b1e079b8b87520ad5b))
 
 
 
