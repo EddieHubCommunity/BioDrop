@@ -1,9 +1,6 @@
 import Link from "@components/Link";
 import Router, { useRouter } from "next/router";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { classNames } from "utils/functions/classNames";
 
 export default function SubNav({ tabs }) {
   const router = useRouter();

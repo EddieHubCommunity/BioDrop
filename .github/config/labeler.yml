@@ -2,7 +2,7 @@ version: 1
 labels:
   - label: "✍ chore: profile"
     files:
-      - "data/*"
+      - "data/*.json"
   - label: "tests"
     files:
       - "tests/*"

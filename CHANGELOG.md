@@ -1,45 +1,45 @@
-# [1.163.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.162.0...v1.163.0) (2023-07-28)
+## [1.168.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.0...v1.168.1) (2023-08-02)
+
+
+### Bug Fixes
+
+* refactored the classNames function ([#8404](https://github.com/EddieHubCommunity/LinkFree/issues/8404)) ([fbf858c](https://github.com/EddieHubCommunity/LinkFree/commit/fbf858cc75e1cb6d93c97fce41d1c2b88cfb8633))
+
+
+
+# [1.168.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.167.0...v1.168.0) (2023-08-01)
 
 
 ### Features
 
-* search user cards to include tags ([#8376](https://github.com/EddieHubCommunity/LinkFree/issues/8376)) ([9c6faa6](https://github.com/EddieHubCommunity/LinkFree/commit/9c6faa607aded247c92e698a0b61346baaf9a92d)), closes [#8256](https://github.com/EddieHubCommunity/LinkFree/issues/8256)
+* global repos list ([#8446](https://github.com/EddieHubCommunity/LinkFree/issues/8446)) ([15d769c](https://github.com/EddieHubCommunity/LinkFree/commit/15d769cb0a6030115a19062745f6dcf577eb9a0a))
 
 
 
-# [1.162.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.4...v1.162.0) (2023-07-28)
+# [1.167.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.166.0...v1.167.0) (2023-08-01)
 
 
 ### Features
 
-* admin toggle events ([#8371](https://github.com/EddieHubCommunity/LinkFree/issues/8371)) ([0a0b042](https://github.com/EddieHubCommunity/LinkFree/commit/0a0b042e884f84631eb4bcc0c4ef5256b715d0f4))
+* admin users list inc repos ([#8439](https://github.com/EddieHubCommunity/LinkFree/issues/8439)) ([aae68d9](https://github.com/EddieHubCommunity/LinkFree/commit/aae68d92be0dbd09c31df93c83e926a1b7786919))
 
 
 
-## [1.161.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.3...v1.161.4) (2023-07-27)
+# [1.166.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.3...v1.166.0) (2023-08-01)
 
 
-### Bug Fixes
+### Features
 
-* refactored file naming of subnav ([#8369](https://github.com/EddieHubCommunity/LinkFree/issues/8369)) ([fc17079](https://github.com/EddieHubCommunity/LinkFree/commit/fc170790e6c4700f92b5b70633729abdb55d1431))
-
-
-
-## [1.161.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.2...v1.161.3) (2023-07-27)
-
-
-### Bug Fixes
-
-* update Pradumnasaraf's bio ([#8366](https://github.com/EddieHubCommunity/LinkFree/issues/8366)) ([05ad6ff](https://github.com/EddieHubCommunity/LinkFree/commit/05ad6ffb5e17232e2145590b01b70b366635c212))
+* GitHub repo to profile ([#8225](https://github.com/EddieHubCommunity/LinkFree/issues/8225)) ([30bc65d](https://github.com/EddieHubCommunity/LinkFree/commit/30bc65d3d075895e81ead930cbdca9e383a7f210))
 
 
 
-## [1.161.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.161.1...v1.161.2) (2023-07-26)
+## [1.165.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.2...v1.165.3) (2023-08-01)
 
 
 ### Bug Fixes
 
-* hide disabled events on main events list ([#8363](https://github.com/EddieHubCommunity/LinkFree/issues/8363)) ([b08c8e5](https://github.com/EddieHubCommunity/LinkFree/commit/b08c8e537b731c5e402b94cc2ed85a15c560e528))
+* gh action labeler ([#8430](https://github.com/EddieHubCommunity/LinkFree/issues/8430)) ([83c939e](https://github.com/EddieHubCommunity/LinkFree/commit/83c939e361790316b2ad26b1e079b8b87520ad5b))
 
 
 
