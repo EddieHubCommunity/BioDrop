@@ -47,7 +47,7 @@ export default function EventCard({ manage, event, usernames }) {
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
         <div className="flex-1 space-y-1 p-4">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between gap-4">
             <div>
               <div className="flex justify-between">
                 <div className="flex items-center gap-2">
@@ -109,7 +109,7 @@ export default function EventCard({ manage, event, usernames }) {
                       href={`/${username}`}
                       key={username}
                       aria-label={`Visit user ${username}`}
-                      className="hidden lg:block h-10 w-10"
+                      className="hidden lg:block h-20 w-20"
                     >
                       <FallbackImage
                         src={`https://github.com/${username}.png`}
