@@ -13,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
+import dateFormat from "@services/utils/dateFormat";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -84,6 +85,13 @@ export async function getServerSideProps(context) {
   }, 0);
   data.links.clicks = totalClicks;
 
+  data.profile.daily = data.profile.daily.slice(-30).map((day) => {
+    return {
+      views: day.views,
+      date: dateFormat({ format: "short", date: day.date }),
+    };
+  });
+
   return {
     props: {
       data,
@@ -95,18 +103,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress, BASE_URL }) {
-  const dateTimeStyle = {
-    dateStyle: "short",
-  };
-  const dailyViews = data.profile.daily.slice(-30).map((day) => {
-    return {
-      views: day.views,
-      date: new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-        new Date(day.date)
-      ),
-    };
-  });
-
   return (
     <>
       <PageHead
@@ -147,7 +143,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           <Alert type="warning" message="You don't have a profile yet." />
         )}
 
-        {dailyViews.length > 0 && (
+        {data.profile.daily.length > 0 && (
           <div className="border mb-6 dark:border-primary-medium">
             <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
               <h3 className="text-lg font-medium leading-6 text-primary-high">
@@ -157,7 +153,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                 Number of Profile visits per day.
               </p>
             </div>
-            <DynamicChart data={dailyViews} />
+            <DynamicChart data={data.profile.daily} />
           </div>
         )}
 

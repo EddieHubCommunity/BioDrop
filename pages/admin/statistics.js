@@ -69,11 +69,14 @@ export default function Statistics({ stats }) {
 
         <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
           {displayStats.map((stat) => (
-            <div key={stat.id} className="flex flex-col bg-gray-400/5 p-8">
-              <dt className="text-sm font-semibold leading-6 text-gray-600 dark:text-gray-300">
+            <div
+              key={stat.id}
+              className="flex flex-col bg-primary-medium/5 dark:bg-primary-low-medium/5 p-8"
+            >
+              <dt className="text-sm font-semibold leading-6 text-primary-medium dark:text-primary-low">
                 {stat.name}
               </dt>
-              <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-100">
+              <dd className="order-first text-3xl font-semibold tracking-tight text-primary-high dark:text-primary-low">
                 {stat.value}
               </dd>
             </div>
