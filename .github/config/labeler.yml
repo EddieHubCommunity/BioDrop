@@ -2,10 +2,10 @@ version: 1
 labels:
   - label: "✍ chore: profile"
     files:
-      - "data/*.json"
+      - "^data/.*"
   - label: "tests"
     files:
-      - "tests/*"
+      - "^tests/.*"
   - label: "storybook"
     files:
-      - "stories/*"
+      - "^stories/.*"
