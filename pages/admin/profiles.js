@@ -9,7 +9,7 @@ import { getProfiles } from "../api/admin/profiles";
 
 import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
 
