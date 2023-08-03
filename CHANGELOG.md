@@ -1,3 +1,12 @@
+## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
+
+
+### Bug Fixes
+
+* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
+
+
+
 ## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gh action labeller ([#8460](https://github.com/EddieHubCommunity/LinkFree/issues/8460)) ([9f191db](https://github.com/EddieHubCommunity/LinkFree/commit/9f191db51b7654c9e5c14de27f4270598664d643))
-
-
-
-## [1.168.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.0...v1.168.1) (2023-08-02)
-
-
-### Bug Fixes
-
-* refactored the classNames function ([#8404](https://github.com/EddieHubCommunity/LinkFree/issues/8404)) ([fbf858c](https://github.com/EddieHubCommunity/LinkFree/commit/fbf858cc75e1cb6d93c97fce41d1c2b88cfb8633))
 
 
 
