@@ -44,7 +44,7 @@ export async function getStaticProps() {
       total: totalStats,
       today: todayStats,
       randomProfile,
-      alerts: config.alerts,
+      alerts,
     },
     revalidate: pageConfig.revalidateSeconds,
   };
