@@ -1,7 +1,9 @@
+import connectMongo from "@config/mongo";
 import { getUsers } from "../profiles";
 import logger from "@config/logger";
 
 export default async function handler(req, res) {
+  await connectMongo();
   const { slug } = req.query;
 
   if (req.method != "GET") {
