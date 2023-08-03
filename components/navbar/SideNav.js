@@ -2,10 +2,8 @@ import { Disclosure } from "@headlessui/react";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import EditOnGitHub from "@components/EditOnGithub";
 import { useRouter } from "next/router";
+import { classNames } from "utils/functions/classNames";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();

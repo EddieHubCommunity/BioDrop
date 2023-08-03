@@ -5,6 +5,7 @@ import ClockIcon from "@heroicons/react/24/outline/ClockIcon";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
+import { classNames } from "utils/functions/classNames";
 
 export default function Roadmap() {
   const releases = [
@@ -74,9 +75,6 @@ export default function Roadmap() {
     },
   ];
 
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
   return (
     <>
       <PageHead
