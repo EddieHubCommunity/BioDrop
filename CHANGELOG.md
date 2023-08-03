@@ -1,45 +1,45 @@
-# [1.167.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.166.0...v1.167.0) (2023-08-01)
-
-
-### Features
-
-* admin users list inc repos ([#8439](https://github.com/EddieHubCommunity/LinkFree/issues/8439)) ([aae68d9](https://github.com/EddieHubCommunity/LinkFree/commit/aae68d92be0dbd09c31df93c83e926a1b7786919))
-
-
-
-# [1.166.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.3...v1.166.0) (2023-08-01)
-
-
-### Features
-
-* GitHub repo to profile ([#8225](https://github.com/EddieHubCommunity/LinkFree/issues/8225)) ([30bc65d](https://github.com/EddieHubCommunity/LinkFree/commit/30bc65d3d075895e81ead930cbdca9e383a7f210))
-
-
-
-## [1.165.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.2...v1.165.3) (2023-08-01)
+## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
 
 
 ### Bug Fixes
 
-* gh action labeler ([#8430](https://github.com/EddieHubCommunity/LinkFree/issues/8430)) ([83c939e](https://github.com/EddieHubCommunity/LinkFree/commit/83c939e361790316b2ad26b1e079b8b87520ad5b))
+* milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
 
 
 
-## [1.165.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.1...v1.165.2) (2023-07-31)
-
-
-### Bug Fixes
-
-* profile updated datetime on stats ([#8415](https://github.com/EddieHubCommunity/LinkFree/issues/8415)) ([80b39c8](https://github.com/EddieHubCommunity/LinkFree/commit/80b39c835e5d69a4d3dcd1d287b24fdf66890fc3))
-
-
-
-## [1.165.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.0...v1.165.1) (2023-07-31)
+## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
 
 
 ### Bug Fixes
 
-* date format helper ([#8380](https://github.com/EddieHubCommunity/LinkFree/issues/8380)) ([b70f3b1](https://github.com/EddieHubCommunity/LinkFree/commit/b70f3b1b6164fe77bc6e8967646474fd17632d91))
+* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
+
+
+
+## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
+
+
+### Bug Fixes
+
+* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
+
+
+
+## [1.168.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.3...v1.168.4) (2023-08-03)
+
+
+### Bug Fixes
+
+* labeling PRs from forks ([#8469](https://github.com/EddieHubCommunity/LinkFree/issues/8469)) ([26b4247](https://github.com/EddieHubCommunity/LinkFree/commit/26b42478e7f9097fdaed37be18ed369c3a18e22e))
+
+
+
+## [1.168.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.2...v1.168.3) (2023-08-02)
+
+
+### Bug Fixes
+
+* gh labeler action ([#8466](https://github.com/EddieHubCommunity/LinkFree/issues/8466)) ([439fcc3](https://github.com/EddieHubCommunity/LinkFree/commit/439fcc3a9a124acfeffa9598f52c4a40d7dac4ed))
 
 
 

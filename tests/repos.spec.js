@@ -2,32 +2,25 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
-test("Click on events profile in navbar navigates to events page", async ({
-  page,
-}) => {
+test("Click on repos in navbar navigates to repo page", async ({ page }) => {
   await page.goto("/");
   await page
     .getByRole("navigation")
-    .getByRole("link", { name: "Events" })
+    .getByRole("link", { name: "Repos" })
     .click();
-  await expect(page).toHaveURL("/events");
+  await expect(page).toHaveURL("/repos");
 });
 
-test("Events has title", async ({ page }) => {
-  await page.goto("/events");
-  await expect(page.locator("h1")).toHaveText("Community Events");
-});
-
-test.fixme("Events listed", async ({ page }) => {
-  await page.goto("/events");
-  await expect(page.locator("li")).toBeGreaterThan(1);
+test("Repos has title", async ({ page }) => {
+  await page.goto("/repos");
+  await expect(page.locator("h1")).toHaveText("Community Repos");
 });
 
 test.describe("accessibility tests (light)", () => {
   test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests", async ({ page }) => {
-    await page.goto("/events");
+    await page.goto("/repos");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
@@ -39,7 +32,7 @@ test.describe("accessibility tests (dark)", () => {
   test.use({ colorScheme: "dark" });
 
   test("should pass axe wcag accessibility tests (dark)", async ({ page }) => {
-    await page.goto("/events");
+    await page.goto("/repos");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
