@@ -1,10 +1,7 @@
 import { Disclosure } from "@headlessui/react";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import EditOnGitHub from "@components/EditOnGithub";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { classNames } from "utils/functions/classNames";
 
 export default function SideNav({ navigation }) {
   return (

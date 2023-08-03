@@ -1,0 +1,72 @@
+{
+  "name": "Taofeek Inaolaji",
+  "bio": "Full Stack Software Engineer | Open Source Enthusiast! | Blogger",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "react",
+    "NextJS",
+    "DevOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/devaladdin"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aladdin4u"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/aladdin4u"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@aladdin4u"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aladdin4u",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devaladdin",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/aladdin4u",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Content",
+      "name": "Follow and read my blog on Hashnode",
+      "url": "https://hashnode.com/@aladdin4u",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Donate",
+      "name": "Buy me Coffee",
+      "url": "https://buymecoffee.com/devaladdin",
+      "icon": "FaRegMoneyBillAlt"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started freelancing",
+      "url": "https://devaladdin.netlify.app/"
+    }
+  ]
+}

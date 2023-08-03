@@ -1,0 +1,56 @@
+{
+  "name": "Henil Gondaliya",
+  "bio": "**Front-End Developer** | **Freelancer** ",
+  "tags": ["ReactJS", "Javascript", "Typescript", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/henilGondalia"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/gondaliya_henil"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/henilgondaliya"
+    }
+  ],
+  "links": [
+    {
+      "name": "Unleash the Code Wizard in Me on GitHub",
+      "url": "https://github.com/henilGondalia",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Join the Network of Tweeting Developer on Twitter",
+      "url": "https://twitter.com/gondaliya_henil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Get Linked with the Coding Ninja on LinkedIn",
+      "url": "https://linkedin.com/in/henilgondaliya",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Explore My Creative Work Journey!",
+      "url": "https://henil-gondaliya.web.app/",
+      "icon": "SiBiolink"
+    },
+    {
+      "name": "Feeling generous? Buy me coffee, and Fuel the Late-Night Coding Sessions",
+      "url": "https://www.buymeacoffee.com/henilGondaliya",
+      "icon": "SiBuymeacoffee"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "July 2023",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "This new chapter allows me to explore diverse projects, work with different clients, and bring innovative ideas to life. Want to build somthing? Hire me.",
+      "url": "https://www.upwork.com/freelancers/~019f417c3378d767bf"
+    }
+  ]
+}
