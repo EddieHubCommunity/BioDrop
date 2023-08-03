@@ -8,7 +8,7 @@
 		"AWS",
 		"Docker"
 	],
-	"Socials": [{
+	"socials": [{
 			"name": "Follow me on X",
 			"url": "https://twitter.com/Ayush_a_ray",
 			"icon": "FaTwitter"
