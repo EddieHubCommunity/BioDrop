@@ -1,13 +1,13 @@
 {
   "name": "Henil Gondaliya",
   "bio": "**Front-End Developer** | **Freelancer** ",
-  "tags": ["ReactJS","Javascript", "Typescript", "Open Source"],
+  "tags": ["ReactJS", "Javascript", "Typescript", "Open Source"],
   "socials": [
     {
       "icon": "FaGithub",
       "url": "https://github.com/henilGondalia"
     },
-     {
+    {
       "icon": "FaTwitter",
       "url": "https://twitter.com/gondaliya_henil"
     },
