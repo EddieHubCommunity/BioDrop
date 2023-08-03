@@ -1,3 +1,12 @@
+## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
+
+
+### Bug Fixes
+
+* milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
+
+
+
 ## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gh labeler action ([#8466](https://github.com/EddieHubCommunity/LinkFree/issues/8466)) ([439fcc3](https://github.com/EddieHubCommunity/LinkFree/commit/439fcc3a9a124acfeffa9598f52c4a40d7dac4ed))
-
-
-
-## [1.168.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.1...v1.168.2) (2023-08-02)
-
-
-### Bug Fixes
-
-* gh action labeller ([#8460](https://github.com/EddieHubCommunity/LinkFree/issues/8460)) ([9f191db](https://github.com/EddieHubCommunity/LinkFree/commit/9f191db51b7654c9e5c14de27f4270598664d643))
 
 
 
