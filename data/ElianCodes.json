@@ -34,13 +34,13 @@
   "links": [
     {
       "name": "My Github profile",
-      "link": "https://github.com/eliancodes",
+      "url": "https://github.com/eliancodes",
       "icon": "FaGithub"
     },
 
     {
       "name": "My website",
-      "link": "https://www.elian.codes",
+      "url": "https://www.elian.codes",
       "icon": "FaGlobe"
     },
     {
