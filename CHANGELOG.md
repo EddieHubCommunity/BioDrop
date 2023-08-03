@@ -1,3 +1,12 @@
+## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
+
+
+### Bug Fixes
+
+* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
+
+
+
 ## [1.168.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.3...v1.168.4) (2023-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * refactored the classNames function ([#8404](https://github.com/EddieHubCommunity/LinkFree/issues/8404)) ([fbf858c](https://github.com/EddieHubCommunity/LinkFree/commit/fbf858cc75e1cb6d93c97fce41d1c2b88cfb8633))
-
-
-
-# [1.168.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.167.0...v1.168.0) (2023-08-01)
-
-
-### Features
-
-* global repos list ([#8446](https://github.com/EddieHubCommunity/LinkFree/issues/8446)) ([15d769c](https://github.com/EddieHubCommunity/LinkFree/commit/15d769cb0a6030115a19062745f6dcf577eb9a0a))
 
 
 
