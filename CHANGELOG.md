@@ -1,3 +1,12 @@
+## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
+
+
+### Bug Fixes
+
+* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
+
+
+
 ## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * labeling PRs from forks ([#8469](https://github.com/EddieHubCommunity/LinkFree/issues/8469)) ([26b4247](https://github.com/EddieHubCommunity/LinkFree/commit/26b42478e7f9097fdaed37be18ed369c3a18e22e))
-
-
-
-## [1.168.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.2...v1.168.3) (2023-08-02)
-
-
-### Bug Fixes
-
-* gh labeler action ([#8466](https://github.com/EddieHubCommunity/LinkFree/issues/8466)) ([439fcc3](https://github.com/EddieHubCommunity/LinkFree/commit/439fcc3a9a124acfeffa9598f52c4a40d7dac4ed))
 
 
 
