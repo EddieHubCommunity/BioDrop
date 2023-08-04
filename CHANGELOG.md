@@ -1,3 +1,12 @@
+# [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
+
+
+### Features
+
+* delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
+
+
+
 ## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
-
-
-
-## [1.168.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.3...v1.168.4) (2023-08-03)
-
-
-### Bug Fixes
-
-* labeling PRs from forks ([#8469](https://github.com/EddieHubCommunity/LinkFree/issues/8469)) ([26b4247](https://github.com/EddieHubCommunity/LinkFree/commit/26b42478e7f9097fdaed37be18ed369c3a18e22e))
 
 
 
