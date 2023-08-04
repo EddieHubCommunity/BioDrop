@@ -1,0 +1,14 @@
+{
+  "userStatus": "speaking",
+  "speakingTopic": "Introducing Postman Community Kolkata",
+  "isVirtual": true,
+  "isInPerson": false,
+  "color": "green",
+  "name": "Nomoskar Kolkata",
+  "description": "Nomoskar Kolkata is the inaugural event of Postman Community Kolkata, and it aims to bring together industry leaders, professionals, and enthusiasts to foster an inclusive tech community.",
+  "date": {
+    "start": "2023-08-05T17:00:00.000+05:30",
+    "end": "2023-08-05T19:00:00.000+05:30"
+  },
+  "url": "https://lu.ma/pcknk"
+}
