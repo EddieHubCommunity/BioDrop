@@ -25,7 +25,7 @@ export async function getStaticProps() {
   const { stats: todayStats } = await getTodayStats();
   const randomProfile = await getRandomProfileApi();
 
-  let alerts = config.alerts;
+  let alerts = structuredClone(config.alerts);
   if (
     process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
     serverEnv.NODE_ENV === "development" &&
