@@ -1,6 +1,6 @@
 {
   "userStatus": "speaking",
-  "speakerDetails": "Movie Recommender System using NLP",
+  "speakingTopic": "Movie Recommender System using NLP",
   "isVirtual": true,
   "isInPerson": true,
   "color": "blue",
