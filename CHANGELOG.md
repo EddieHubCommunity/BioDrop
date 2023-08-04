@@ -1,3 +1,12 @@
+## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
+
+
+### Bug Fixes
+
+* date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
+
+
+
 ## [1.169.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.1...v1.169.2) (2023-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
-
-
-
-## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
-
-
-### Bug Fixes
-
-* milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
 
 
 
