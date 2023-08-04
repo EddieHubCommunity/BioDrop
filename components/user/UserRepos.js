@@ -50,7 +50,7 @@ export default function UserRepos({ manage = false, handleDelete, repos }) {
   );
 
   const manageDelete = (repo) => (
-    <Delete action={handleDelete} id={repo._id}>
+    <Delete action={handleDelete} id={repo._id} label={repo.name}>
       {item(repo)}
     </Delete>
   );
