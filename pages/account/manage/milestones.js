@@ -11,6 +11,7 @@ import { getMilestonesApi } from "pages/api/account/manage/milestones";
 import Button from "@components/Button";
 import UserMilestones from "@components/user/UserMilestones";
 import Alert from "@components/Alert";
+import { getUserApi } from "pages/api/profiles/[username]";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -25,6 +26,23 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
+
+  let profile = {};
+  try {
+    profile = (await getUserApi(context.req, context.res, username)).profile;
+  } catch (e) {
+    logger.error(e, `profile loading failed for username: ${username}`);
+  }
+
+  //reroute to profile deactivated page if profile is disabled
+  if(profile && profile.hasOwnProperty("isEnabled") && !profile["isEnabled"]) {
+    return {
+      redirect: {
+        destination: "/account/profile-deactivated",
+        permanent: false,
+      }
+    }
+  }
 
   let milestones = [];
   try {

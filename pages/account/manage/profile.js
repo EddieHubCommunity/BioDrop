@@ -46,6 +46,16 @@ export async function getServerSideProps(context) {
     profile.name = session.user.name;
   }
 
+  //reroute to profile deactivated page if profile is disabled
+  if(profile && profile.hasOwnProperty("isEnabled") && !profile["isEnabled"]) {
+    return {
+      redirect: {
+        destination: "/account/profile-deactivated",
+        permanent: false,
+      }
+    }
+  }
+
   const filePath = path.join(process.cwd(), "data", username);
   let fileExists;
   try {
@@ -129,7 +139,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         additionalMessage: update.error || update.message,
       });
     }
-    return Router.push(`${BASE_URL}/account/no-profile`);
+    return Router.push(`${BASE_URL}/account/profile-deactivated`);
   };
 
   return (

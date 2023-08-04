@@ -1,7 +1,6 @@
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
-
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -11,6 +10,7 @@ import Button from "@components/Button";
 import UserEvents from "@components/user/UserEvents";
 import { useRouter } from "next/router";
 import Alert from "@components/Alert";
+import { getUserApi } from "pages/api/profiles/[username]";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -25,6 +25,23 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
+
+  let profile = {};
+  try {
+    profile = (await getUserApi(context.req, context.res, username)).profile;
+  } catch (e) {
+    logger.error(e, `profile loading failed for username: ${username}`);
+  }
+
+  //reroute to profile deactivated page if profile is disabled
+  if(profile && profile.hasOwnProperty("isEnabled") && !profile["isEnabled"]) {
+    return {
+      redirect: {
+        destination: "/account/profile-deactivated",
+        permanent: false,
+      }
+    }
+  }
 
   let events = [];
   try {
