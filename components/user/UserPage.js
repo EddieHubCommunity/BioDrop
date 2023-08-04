@@ -1,5 +1,6 @@
 import UserProfile from "./UserProfile";
 import UserColumn2 from "./themes/UserColumn2";
+import UserDashboard from "./themes/UserDashboard";
 import UserInline from "./themes/UserInline";
 import UserTabs from "./themes/UserTabs";
 
@@ -8,9 +9,11 @@ import config from "@config/app.json";
 export default function UserPage({ data, BASE_URL }) {
   return (
     <>
-      <UserProfile data={data} BASE_URL={BASE_URL} />
+      {/* <UserProfile data={data} BASE_URL={BASE_URL} /> */}
 
-      {(!data.layout ||
+      <UserDashboard data={data} />
+
+      {/* {(!data.layout ||
         !config.layouts.includes(data.layout) ||
         data.layout === "classic") && (
         <UserTabs data={data} BASE_URL={BASE_URL} />
@@ -22,7 +25,7 @@ export default function UserPage({ data, BASE_URL }) {
 
       {data.layout === "column-2" && (
         <UserColumn2 data={data} BASE_URL={BASE_URL} />
-      )}
+      )} */}
     </>
   );
 }
