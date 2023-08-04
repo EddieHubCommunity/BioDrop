@@ -46,11 +46,11 @@ export function EventTabs({ tabs, eventType, setEventType }) {
               >
                 {
                   <tab.icon
-                    className={`${
+                    className={
                       tab.key === "all" || tab.key === "cfpOpen"
                         ? "text-lg"
                         : "text-xl"
-                    }`}
+                    }
                   />
                 }
                 <span>
