@@ -1,3 +1,12 @@
+## [1.169.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.1...v1.169.2) (2023-08-04)
+
+
+### Bug Fixes
+
+* error to warning when users not loaded in dev ([#8422](https://github.com/EddieHubCommunity/LinkFree/issues/8422)) ([e39d914](https://github.com/EddieHubCommunity/LinkFree/commit/e39d914f94927a9debcb1f710d28d2f95346e90e))
+
+
+
 ## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
-
-
-
-## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
-
-
-### Bug Fixes
-
-* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
 
 
 
