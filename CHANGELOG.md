@@ -1,3 +1,12 @@
+## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
+
+
+### Bug Fixes
+
+* dark/light mode for admin page ([#8492](https://github.com/EddieHubCommunity/LinkFree/issues/8492)) ([a0fc4be](https://github.com/EddieHubCommunity/LinkFree/commit/a0fc4be76c15ad4d4cd676e00cb847375ad2c0a6))
+
+
+
 # [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
-
-
-
-## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
-
-
-### Bug Fixes
-
-* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
 
 
 
