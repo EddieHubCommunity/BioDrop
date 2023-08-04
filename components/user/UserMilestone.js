@@ -31,10 +31,13 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
             <h3
               className={classNames(
                 isGoal && "opacity-70",
-                "text-sm font-medium flex gap-2 items-center"
+                "text-sm font-medium"
               )}
             >
               <span>{milestone.title}</span>
+            </h3>
+            <p className={`text-sm flex gap-2 items-center ${colors}`}>
+              {date}
               {milestone.url && (
                 <Link
                   href={milestone.url}
@@ -44,8 +47,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
                   <FaExternalLinkAlt />
                 </Link>
               )}
-            </h3>
-            <p className={`text-sm ${colors}`}>{date}</p>
+            </p>
           </div>
           <ReactMarkdown className={`text-sm ${colors}`}>
             {milestone.description}

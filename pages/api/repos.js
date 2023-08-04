@@ -1,4 +1,5 @@
 import logger from "@config/logger";
+import connectMongo from "@config/mongo";
 import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
@@ -13,6 +14,7 @@ export default async function handler(req, res) {
 }
 
 export async function getRepos() {
+  await connectMongo();
   let repos = [];
   try {
     repos = await Profile.aggregate([
