@@ -11,27 +11,26 @@ export default function UserLinks({ BASE_URL, links, username }) {
   }, {});
 
   return (
-    <>
+    <ul>
       {!links?.length && <Alert type="info" message="No Links found" />}
-
       {links?.length > 0 && (
         <>
           {Object.keys(buckets).map((name) => (
-            <div key={name} className="flex flex-col items-center w-full">
+            <>
               {Object.keys(buckets).length > 1 && (
-                <div
+                <li
                   className="border-b border-primary-low pb-3 w-full mt-6 mb-3"
                   key={name}
                 >
-                  <div className="-ml-2 -mt-2 flex flex-wrap items-baseline">
-                    <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
+                  <div className="-ml-2 mt-2 flex flex-wrap items-baseline">
+                    <h3 className="ml-2 mt-2 text-md font-medium leading-6 dark:text-primary-low text-primary-high">
                       {name}
                     </h3>
                     <p className="ml-2 mt-1 truncate text-sm dark:text-primary-low-high text-primary-medium">
                       ({buckets[name].length})
                     </p>
                   </div>
-                </div>
+                </li>
               )}
               {Object.values(buckets[name]).map((link) => (
                 <UserLink
@@ -42,10 +41,10 @@ export default function UserLinks({ BASE_URL, links, username }) {
                   isEnabled={link.isEnabled}
                 />
               ))}
-            </div>
+            </>
           ))}
         </>
       )}
-    </>
+    </ul>
   );
 }

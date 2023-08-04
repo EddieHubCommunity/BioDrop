@@ -1,71 +1,71 @@
-import { useEffect, useState } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import { formatDistance } from "date-fns";
 
 import getIcon from "@components/Icon";
-import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
+import { classNames } from "utils/functions/classNames";
 
-export default function UserMilestone({ milestone, isGoal, manage }) {
-  const [date, setDate] = useState(milestone.date);
-
-  useEffect(() => {
-    const parse = Date.parse(milestone.date);
-    if (!isNaN(parse)) {
-      setDate(new Date(parse).toLocaleDateString());
-    }
-  }, [milestone.date]);
-
+export default function UserMilestone({ milestone, isLast, manage = false }) {
   const DisplayIcon = getIcon(milestone.icon);
-  const item = (milestone, isGoal) => {
-    const colors = isGoal
+
+  const item = (milestone) => {
+    const colors = milestone.isGoal
       ? "text-primary-medium/70 dark:text-primary-low-medium/[.83]"
       : "text-primary-medium dark:text-primary-low-medium";
 
     return (
-      <div className="flex space-x-3 grow">
-        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
-        <div className="flex-1 space-y-1">
-          <div className="flex items-center justify-between">
-            <h3
-              className={`text-sm font-medium ${
-                isGoal ? "opacity-70" : ""
-              }`}
-            >
-              <span>{milestone.title}</span>
-            </h3>
-            <p className={`text-sm flex gap-2 items-center ${colors}`}>
-              {date}
-              {milestone.url && (
-                <Link
-                  href={milestone.url}
-                  aria-label="Milestone Related Link"
-                  target="_blank"
-                >
-                  <FaExternalLinkAlt />
-                </Link>
-              )}
-            </p>
-          </div>
-          <ReactMarkdown className={`text-sm ${colors}`}>
-            {milestone.description}
-          </ReactMarkdown>
+      <div className="relative flex gap-x-4">
+        <div
+          className={classNames(
+            isLast ? "h-6" : "-bottom-6",
+            "absolute left-0 top-0 flex w-6 justify-center"
+          )}
+        >
+          <div className="w-px bg-gray-200" />
         </div>
+        <div className="relative flex h-6 w-6 flex-none items-center justify-center bg-white">
+          {!milestone.isGoal ? (
+            <CheckCircleIcon
+              className="h-6 w-6 text-indigo-600"
+              aria-hidden="true"
+            />
+          ) : (
+            <div className="h-1.5 w-1.5 rounded-full bg-gray-100 ring-1 ring-gray-300" />
+          )}
+        </div>
+        {milestone.icon && (
+          <DisplayIcon className="h-4 w-4 rounded-full shrink-0 mt-1" />
+        )}
+        <p className="flex-auto py-0.5 text-sm leading-5 text-gray-500">
+          <a
+            href={milestone.url}
+            target="_blank"
+            className="font-medium text-gray-900"
+          >
+            <ReactMarkdown className={`text-sm ${colors}`}>
+              {milestone.description}
+            </ReactMarkdown>{" "}
+          </a>
+        </p>
+        <time
+          dateTime={milestone.date}
+          className="flex-none py-0.5 text-xs leading-5 text-gray-500"
+        >
+          {formatDistance(new Date(milestone.date), new Date())} ago.
+        </time>
       </div>
     );
   };
 
-  const edit = (milestone, isGoal) => (
+  const edit = (milestone) => (
     <Edit
       href={`/account/manage/milestone/${milestone._id}`}
       label={`${milestone.title} Milestone`}
     >
-      {item(milestone, isGoal)}
+      {item(milestone)}
     </Edit>
   );
-  return (
-    <li className={`flex flex-row gap-8 py-4 border-primary-low-medium`}>
-      {manage ? edit(milestone, isGoal) : item(milestone, isGoal)}
-    </li>
-  );
+
+  return <li>{manage ? edit(milestone) : item(milestone)}</li>;
 }

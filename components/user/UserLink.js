@@ -1,4 +1,5 @@
 import colors from "@config/icons.json";
+
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
@@ -24,7 +25,7 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
+      className={`rounded-md border dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-3 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
         isEnabled ? "" : "opacity-50"
       }`}
       style={{
@@ -66,8 +67,8 @@ export default function UserLink({
   );
 
   return (
-    <div className="flex flex-row gap-8 w-full">
+    <li className="flex flex-row gap-8 w-full">
       {manage ? edit(link) : item(link)}
-    </div>
+    </li>
   );
 }
