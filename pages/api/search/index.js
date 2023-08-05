@@ -23,7 +23,6 @@ export default async function handler(req, res) {
 
   const terms = cleanedSlug
     .split(",")
-    .map((tag) => new RegExp(tag.trim().replace(/\s/g, ""), "i"));
   try {
     const filteredUsers = await searchUsers(terms)
     if (!filteredUsers.length) {
