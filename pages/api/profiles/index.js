@@ -1,7 +1,6 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile } from "@models/index";
-import { getProfiles } from "../admin/profiles";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
