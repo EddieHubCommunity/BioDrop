@@ -1,4 +1,4 @@
-import { searchUsers } from "../profiles";
+import { searchUsers, searchUsersIfNotUsingAtlas } from "../profiles";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 
@@ -23,16 +23,22 @@ export default async function handler(req, res) {
     .replace(/\s{2,}/g, " ")
     .toLowerCase();
 
-  const terms = cleanedSlug
-    .split(",")
+  const terms = cleanedSlug.split(",");
   try {
-    const filteredUsers = await searchUsers(terms)
+    const filteredUsers = await searchUsers(terms);
     if (!filteredUsers.length) {
       return res.status(404).json({ error: `${cleanedSlug} not found` });
     }
 
     res.status(200).json({ users: filteredUsers });
   } catch (e) {
+    if (e.code === 40324) {
+      const filteredUsers = await searchUsersIfNotUsingAtlas(terms);
+      if (!filteredUsers.length) {
+        return res.status(404).json({ error: `${cleanedSlug} not found` });
+      }
+      res.status(200).json({ users: filteredUsers });
+    }
     logger.error(e, "ERROR fetch search users");
     res.status(500).json({ error: "Internal Server Error" });
   }

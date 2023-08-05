@@ -45,3 +45,30 @@ export async function searchUsers(termsArray) {
     throw err;
   }
 }
+
+export async function searchUsersIfNotUsingAtlas(termsArray) {
+  let filteredUsers = [];
+  const users = await getUsers();
+
+  filteredUsers = users.flat().filter((user) => {
+    const nameLower = user.name.toLowerCase();
+    const usernameLower = user.username.toLowerCase();
+    const userTagsString = user.tags.join(", ").toLowerCase();
+    const userLocationString = user.location
+      ? user.location.provided.toLowerCase()
+      : "";
+
+    const isUserMatched = termsArray.every((term) => {
+      const cleanedTerm = term.trim();
+
+      return (
+        usernameLower.includes(cleanedTerm) ||
+        nameLower.includes(cleanedTerm) ||
+        userTagsString.includes(cleanedTerm) ||
+        userLocationString.includes(cleanedTerm)
+      );
+    });
+    return isUserMatched;
+  });
+  return filteredUsers
+}
