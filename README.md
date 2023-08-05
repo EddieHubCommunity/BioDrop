@@ -54,7 +54,7 @@ Read more in the official documentation - https://linkfree.io/docs/environments/
 
 ### Local development
 
-This environment is fully on your computer and requires each dependency (for example MongoDB) to be installed and set up, but it gives you the most flexibility for customisation.
+This environment is fully on your computer and requires each dependency (for example MongoDB) to be installed and set up, but it gives you the most flexibility for customization.
 
 #### Prerequisites
 
@@ -69,7 +69,7 @@ Before contributing or adding a new feature, please make sure you have already i
 You can set this up locally with the following steps:
 
 1. copy the `.env.example` file to `.env` and update any details required
-1. MongoDB is required, it is possible to use `docker compose up` to start the MongoDB service
+1. MongoDB is required, it is possible to use `docker-compose up to start the MongoDB service
 1. `npm ci`
 1. `npm run dev`
 
@@ -77,7 +77,7 @@ Read more in the official documentation https://linkfree.io/docs/environments/lo
 
 ### Local development with Docker Compose
 
-This will allow you to run your favourite IDE but not have to install any dependencies on your computer like NodeJS and MongoDB.
+This will allow you to run your favorite IDE but not have to install any dependencies on your computer like NodeJS and MongoDB.
 
 #### Prerequisites
 
@@ -86,7 +86,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Commands
 
-1. `docker compose up` 
+1. `docker-compose up` 
 
 Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
@@ -158,6 +158,6 @@ Don't forget to leave a star ⭐️.
 
 ## Our Pledge
 
-We take participation in our community as a harassment-free experience for everyone and we pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.  
+We take participation in our community as a harassment-free experience for everyone and we pledge to act in ways to contribute to an open, welcoming, diverse, and inclusive community.  
 
-If you have experienced or been made aware of unacceptable behaviour, please remember that you can report this.  Read our [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md) for more details.
+If you have experienced or been made aware of unacceptable behavior, please remember that you can report this.  Read our [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md) for more details.
