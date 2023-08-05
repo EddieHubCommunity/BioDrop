@@ -1,3 +1,12 @@
+## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
+
+
+### Bug Fixes
+
+* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
+
+
+
 ## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * error to warning when users not loaded in dev ([#8422](https://github.com/EddieHubCommunity/LinkFree/issues/8422)) ([e39d914](https://github.com/EddieHubCommunity/LinkFree/commit/e39d914f94927a9debcb1f710d28d2f95346e90e))
-
-
-
-## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
-
-
-### Bug Fixes
-
-* dark/light mode for admin page ([#8492](https://github.com/EddieHubCommunity/LinkFree/issues/8492)) ([a0fc4be](https://github.com/EddieHubCommunity/LinkFree/commit/a0fc4be76c15ad4d4cd676e00cb847375ad2c0a6))
 
 
 
