@@ -1,3 +1,12 @@
+## [1.169.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.3...v1.169.4) (2023-08-05)
+
+
+### Bug Fixes
+
+* prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
+
+
+
 ## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
-
-
-
-## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
-
-
-### Bug Fixes
-
-* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
 
 
 
