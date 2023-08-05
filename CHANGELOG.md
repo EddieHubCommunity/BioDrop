@@ -1,3 +1,12 @@
+## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
+
+
+### Bug Fixes
+
+* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
+
+
+
 ## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
-
-
-
-## [1.169.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.1...v1.169.2) (2023-08-04)
-
-
-### Bug Fixes
-
-* error to warning when users not loaded in dev ([#8422](https://github.com/EddieHubCommunity/LinkFree/issues/8422)) ([e39d914](https://github.com/EddieHubCommunity/LinkFree/commit/e39d914f94927a9debcb1f710d28d2f95346e90e))
 
 
 
