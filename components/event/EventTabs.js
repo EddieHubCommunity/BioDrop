@@ -19,7 +19,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
           className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
-          options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
+          options={tabs.map((tab) => ({ label: tab.title, value: tab.title }))}
         />
       </div>
       <div className="hidden sm:block">
