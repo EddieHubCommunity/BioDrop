@@ -129,7 +129,7 @@ export default function DocsIndex() {
                       <Link
                         href={page.path}
                         key={page.name}
-                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
+                        className="my-4 border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                       >
                         <div className="py-2">
                           {/* <span
