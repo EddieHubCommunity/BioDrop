@@ -1,6 +1,7 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { Profile } from "@models/index";
+import { getProfiles } from "../admin/profiles";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -9,11 +10,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const profiles = await getUsers();
+  const profiles = await getProfiles();
 
   res.status(200).json(profiles);
 }
-export async function getUsers(options = {}) {
+export async function getProfiles(options = {}) {
   await connectMongo();
 
   let profiles = [];
