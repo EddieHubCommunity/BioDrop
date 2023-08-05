@@ -33,8 +33,7 @@ const ClipboardCopy = ({ children }) => {
         aria-label="Copy to Clipboard"
         onClick={handleCopyClick}
       >
-        <div
-          className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
+        <div className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
         >
           {isCopied ? (
             <div className="inline-flex items-center text-green-500">
