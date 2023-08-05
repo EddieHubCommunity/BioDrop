@@ -32,7 +32,7 @@
     },
     {
       "group": "Folllow me",
-      "name": "YouTube: Subscribe for Coding - Guidance - Tutorials",
+      "name": "YouTube: Subscribe for Coding | Guidance | Tutorials",
       "url": "https://youtube.com/@Sagar0-0",
       "icon": "FaYoutube",
       "color": "#FF0000"
@@ -69,7 +69,7 @@
     },
     {
       "group": "D4 Community",
-      "name": "D4 Community: GitHub open source org to start your Journey",
+      "name": "D4 Community Website",
       "url": "https://d4community.netlify.app",
       "icon": "FaLink"
     },
@@ -81,7 +81,7 @@
     },
     {
       "group": "D4 Community",
-      "name": "D4 Community: For the Students! By the Students!",
+      "name": "Github: Contribute to Open-Source!",
       "url": "https://github.com/D4Community",
       "icon": "FaGithub"
     },
