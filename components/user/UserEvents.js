@@ -73,6 +73,7 @@ export default function UserEvents({
       )}
   
       {!manage && (
+
         <Select
           id="event-type"
           value={eventType}

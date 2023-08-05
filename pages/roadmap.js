@@ -5,6 +5,7 @@ import ClockIcon from "@heroicons/react/24/outline/ClockIcon";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
+import { classNames } from "utils/functions/classNames";
 
 export default function Roadmap() {
   const releases = [
@@ -35,7 +36,7 @@ export default function Roadmap() {
       href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
       external: true,
       actionText: "Issue list",
-      description: "Features are currently being worked on or will be soon.",
+      description: "Features that are currently being worked on or will be soon.",
       features: [
         "Show more detailed statistics",
 
@@ -74,9 +75,6 @@ export default function Roadmap() {
     },
   ];
 
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
   return (
     <>
       <PageHead

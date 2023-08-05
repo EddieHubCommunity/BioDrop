@@ -85,6 +85,37 @@ export default function ManageRepos({ BASE_URL, repos }) {
       additionalMessage: "Your repository has been added successfully",
     });
   };
+
+  const handleDelete = async (id) => {
+    const res = await fetch(`${BASE_URL}/api/account/manage/repo/${id}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const deleteRepo = await res.json();
+
+    if (deleteRepo.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Repo delete failed",
+        additionalMessage: deleteRepo.message,
+      });
+    }
+
+    const resRepos = await fetch(`${BASE_URL}/api/account/manage/repos`);
+    const listRepos = await resRepos.json();
+
+    setRepoList(listRepos);
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Repo deleted",
+      additionalMessage: "Your repository has been deleted successfully",
+    });
+  };
+
   return (
     <>
       <PageHead
@@ -119,7 +150,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
           </Button>
         </form>
 
-        <UserRepos repos={repoList} />
+        <UserRepos repos={repoList} manage={true} handleDelete={handleDelete} />
       </Page>
     </>
   );

@@ -1,0 +1,27 @@
+{
+  "name": "Sara McClelland",
+  "bio": "I am a Software Engineer, a stay at home parent and dog owner. I like coffee, reading and building ideas with coding.",
+  "tags": ["open source"],
+  "links": [
+    {
+      "name": "Frontend Mentor",
+      "url": "https://www.frontendmentor.io/profile/saram7619",
+      "icon": "SiFrontendmentor"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/sara-mc-clelland-747361255/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/saram7619",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/saram7619/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}

@@ -21,8 +21,8 @@ export default function EventCard({ manage, event, usernames }) {
 
   useEffect(() => {
     try {
-      setStartTime(dateFormat({ format: "long", date: event.date.start }));
-      setEndTime(dateFormat({ format: "long", date: event.date.end }));
+      setStartTime(dateFormat({ locale: "local", format: "long", date: event.date.start }));
+      setEndTime(dateFormat({ locale: "local", format: "long", date: event.date.end }));
     } catch (e) {
       setStartTime(event.date.start);
       setEndTime(event.date.end);
@@ -32,9 +32,7 @@ export default function EventCard({ manage, event, usernames }) {
   const item = (event) => (
     <div
       className="py-4 border-l-[3px] border-t border-secondary-medium dark:border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
-      style={{
-        borderColor: event.color,
-      }}
+      style={ event.color ? {borderColor: event.color} : null}
     >
       <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">

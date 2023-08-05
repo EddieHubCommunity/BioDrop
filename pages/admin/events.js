@@ -114,7 +114,7 @@ export default function Events({ events }) {
           additionalMessage={showNotification.additionalMessage}
         />
 
-        <ul role="list" className="divide-y divide-gray-100">
+        <ul role="list" className="divide-y divide-primary-low">
           {eventList.map((event) => (
             <li key={event._id} className="flex justify-between gap-x-6 py-5">
               <div className="flex gap-x-4">
