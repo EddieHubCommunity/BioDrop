@@ -28,11 +28,12 @@ const ClipboardCopy = ({ children }) => {
 
   return (
     <div className="relative">
-      <div className="bg-primary-medium-low absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300">
-        <button
-          type="button"
-          aria-label="Copy to Clipboard"
-          onClick={handleCopyClick}
+      <button className="bg-primary-medium-low absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300"
+        type="button"
+        aria-label="Copy to Clipboard"
+        onClick={handleCopyClick}
+      >
+        <div
           className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
         >
           {isCopied ? (
@@ -46,8 +47,8 @@ const ClipboardCopy = ({ children }) => {
               <span className="text-primary-low text-sm">Copy</span>
             </div>
           )}
-        </button>
-      </div>
+        </div>
+      </button>
       {children}
     </div>
   );
