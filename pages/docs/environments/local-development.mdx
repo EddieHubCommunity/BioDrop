@@ -1,92 +1,96 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
-import Alert from "@components/Alert.js";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import Alert from "@components/Alert";
 
-**You can setup LinkFree code base using [Local](#local-development) or with [Docker](#docker-compose) environment.**
+## Environment variables
 
 <Alert
   type="warning"
   message={
     <>
       <strong>NOTE: </strong>
-      When you have your environment running the database will be empty. You need
-      to visit the path <strong>
-        /api/system/reload?secret=development
-      </strong> to load the json files
+      Remember to restart your app after making any of these changes
     </>
   }
 />
 
-## Local Development
+Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables. Please note that if you are working in Gitpod and wish to access authenticated pages, you will need to complete these steps each time with the URL Gitpod generates for your dev environment as localhost will not work. To avoid this, you may choose to work in Docker which only requires this setup once.
 
-If you're not comfortable using Docker, don't worry! We have an alternative method for you to set up the LinkFree codebase locally.
-By following the steps outlined below, you'll have a local codebase ready for development.
-While a complete local setup offers the most customization for your development environment, it requires more setup time.
-So, let's get started!
+If you want to login, you will need to create a GitHub OAuth app on GitHub and add the credentials to the `.env` file, which are highlighted in bold in the table below. Details on how to create the GitHub OAuth app are in the next section below. If you do not want to login, you can skip this step and the app will still work.
 
-### Prerequisites
+| variable                         | example                                  | required | description                                                                                                 |
+| :------------------------------- | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
+| LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree       | true     | Database connection string                                                                                  |
+| NEXT_PUBLIC_BASE_URL             | http://localhost:3000                    | true     | Hosting URL: localhost:3000 or Gitpod url                                                                   |
+| NODE_ENV                         | development                              | true     | -                                                                                                           |
+| **GITHUB_ID**                    | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
+| **GITHUB_SECRET**                | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
+| NEXTAUTH_URL                     | http://localhost:3000                    | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
+| NEXTAUTH_SECRET                  | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
+| GITHUB_API_TOKEN                 | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
+| ADMIN_USERS                      | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
 
-Before contributing or adding a new feature, please make sure you have already installed the following tools:
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Remember to update the Gitpod URL in environment variables and OAuth callback
+      URL, whenever Gitpod URL updates
+    </>
+  }
+/>
 
-- <Link href="https://nodejs.org/en/download/">NodeJs</Link> (Works with Node LTS
-  version v18.16.1)
-- <Link href="https://www.mongodb.com/home">MongoDB</Link>
-- Optional <Link href="https://github.com/nvm-sh/nvm">NVM</Link>: Switch Node version by using `nvm use` (on Windows, use `nvm use v18.16.1`). If this is not installed, run `nvm install v18.16.1`.
+<ClipboardCopy>
+```js
+LINKFREE_MONGO_CONNECTION_STRING="mongodb://localhost:27017/linkfree"
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+NODE_ENV="development"
 
-### Steps to implement local environment
+GITHUB_ID=""
+GITHUB_SECRET=""
+NEXTAUTH_SECRET=""
+NEXTAUTH_URL="http://localhost:3000"
+GITHUB_API_TOKEN=""
+ADMIN_USERS="eddiejaoude,SaraJaoude,\_test-admin-user"
 
-You can set this up locally with the following steps.
-
-1. make sure Mongo is running
-1. install npm dependencies with `npm ci`
-1. a new file will be created `.env` update environment [variables](/docs/environments/environment-variables)
-1. start the app with `npm run dev` and visit in the browser `http://localhost:3000`
-
-Any changes you make will automatically be reloaded in the browser.
-
----
-
-## Docker Compose
-
-This might sound scary but it is actually the easiest solution for a local development environment.
-The environment will allow you to run the application locally with Docker Compose. Everything will run in containers (e.g.,MongoDB), so you don't need to install anything on your machine.
-
-### Prerequisites
-
-You will need <Link href="https://docs.docker.com/compose/">Docker and Docker Compose v2</Link> installed.
-
-### Setup
-
-1. Make sure you have cloned the repository and are in the root of the project.
-2. Execute the following command, this will build the images and start the containers.
-
-```bash
-docker compose up
 ```
+</ClipboardCopy>
 
-3. You can now access the application at `http://localhost:3000`.
-4. If you make any changes to the dependencies, it's recommended to rebuild the images with the following command.
+### GitHub OAuth (required if you want to login)
 
-```bash
-docker compose up --build
-```
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `New OAuth app` and fill in the form details
 
-5. If you want to stop the containers, you can use the following command:
+| Form field                 | value                                                                    |
+| :------------------------- | :----------------------------------------------------------------------- |
+| Application name           | `LinkFree local`                                                         |
+| Homepage URL               | `https://linkfree.io`                                                    |
+| Application description    | `LinkFree allows you to connect with your audience using a single link.` |
+| Authorization callback URL | `http://localhost:3000/api/auth/callback/github`                         |
 
-```bash
-docker compose down
-```
+Then use the generated **Client ID** and **Client Secret** in the `.env`.
 
-### Troubleshooting
+Full details on GitHub docs https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
 
-If you are getting an error, try to rebuild the images with `docker compose up --build`. If that doesn't work, stop the containers with `docker compose down` and remove the stopped linkfree container with `docker rm linkfree`. Then, remove the images with `docker rmi linkfree-app`. Lastly, rebuild the images with `docker compose up --build`.
+### GitHub Personal Access Token
+
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `Personal Access Token` and generate a PAT
+
+Full details on Github docs https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
 
 export default ({ children }) => (
   <DocsLayout
     title="LinkFree Local Development Documentation"
     section="Getting started"
-    name="Local Development"
+    name="Environment variables"
   >
     {children}
   </DocsLayout>
 );
+
+```
