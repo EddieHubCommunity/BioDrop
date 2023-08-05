@@ -9,7 +9,7 @@ import { getProfiles } from "../api/admin/profiles";
 
 import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
 
@@ -59,7 +59,7 @@ export default function USERS({ profiles }) {
       <Page>
         <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Profiles</h1>
-        <ul role="list" className="divide-y divide-gray-100">
+        <ul role="list" className="divide-y divide-primary-low">
           {profiles.map((profile) => (
             <li
               key={profile.username}
@@ -67,7 +67,7 @@ export default function USERS({ profiles }) {
             >
               <div className="flex gap-x-4">
                 <Image
-                  className="flex-none rounded-full bg-gray-50"
+                  className="flex-none rounded-full bg-primary-low"
                   width={48}
                   height={48}
                   src={`https://github.com/${profile.username}.png`}
@@ -89,19 +89,19 @@ export default function USERS({ profiles }) {
                         ? "Enabled"
                         : "Disabled"}
                     </span>
-                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-yellow-600/20">
+                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-yellow-600/20">
                       Links {profile.links?.length}
                     </span>
-                    <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-blue-700/10">
+                    <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-blue-700/10">
                       Milestones {profile.milestones?.length}
                     </span>
-                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
                       Events {profile.events?.length}
                     </span>
-                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
                       Testimonials {profile.testimonials?.length}
                     </span>
-                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
                       Repos {profile.repos?.length}
                     </span>
                   </p>
