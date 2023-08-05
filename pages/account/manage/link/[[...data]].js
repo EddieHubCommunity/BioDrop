@@ -8,7 +8,7 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
@@ -94,15 +94,8 @@ export default function ManageLink({ BASE_URL, username, link }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
     setEdit(true);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Link added/updated",
-      additionalMessage: "Your Link has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/links?success=true`);
   };
 
   const deleteItem = async () => {

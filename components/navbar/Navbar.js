@@ -88,12 +88,8 @@ export default function Navbar() {
       url: "/map",
     },
     {
-      name: "Docs",
-      url: "/docs",
-    },
-    {
-      name: "Playground",
-      url: "/playground",
+      name: "Repos",
+      url: "/repos",
     },
   ];
 
@@ -112,6 +108,10 @@ export default function Navbar() {
 
       {session && (
         <>
+          <NavLink
+            item={{ name: "Profile", url: `/${session.username}` }}
+            setIsOpen={setIsOpen}
+          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}

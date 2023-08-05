@@ -3,8 +3,12 @@ import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
 import DropdownMenu from "@components/form/DropDown";
 
-export default function UserEvents({ manage = false, events }) {
-  const [eventType, setEventType] = useState("all");
+export default function UserEvents({
+  manage = false,
+  events,
+  filter = "future",
+}) {
+  const [eventType, setEventType] = useState(filter);
 
   const eventOptions = [
     { value: "all", name: "All Events" },
@@ -65,27 +69,25 @@ export default function UserEvents({ manage = false, events }) {
 
   return (
     <>
-      {!eventsToShow?.length && (
-        <Alert type="info" message="No events found" />
-      )}
-    
-        {!manage && (
-          <DropdownMenu
-            eventType={eventType}
-            handleEventTypeChange={handleEventTypeChange}
-            options={filteredEventOptions}
-            label="Select Event Type:"
-            className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
-          />
-        )}
+      {!eventsToShow?.length && <Alert type="info" message="No Events found" />}
 
-        {eventsToShow.length > 0 && (
-          <ul role="list" className="divide-y divide-primary-low mt-4">
-            {eventsToShow.map((event, index) => (
-              <EventCard event={event} key={index} manage={manage} />
-            ))}
-          </ul>
-        )}
+      {!manage && (
+        <DropdownMenu
+          eventType={eventType}
+          handleEventTypeChange={handleEventTypeChange}
+          options={filteredEventOptions}
+          label="Select Event Type:"
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5 dark:text-primary-low"
+        />
+      )}
+
+      {eventsToShow.length > 0 && (
+        <ul role="list" className="mt-4">
+          {eventsToShow.map((event, index) => (
+            <EventCard event={event} key={index} manage={manage} />
+          ))}
+        </ul>
+      )}
     </>
   );
 }

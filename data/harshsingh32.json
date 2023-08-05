@@ -1,20 +1,23 @@
 {
   "name": "Harsh Singh",
-  "bio": "Open source Enthusiast || Pursuing Bachelor of Technology (CSE), prefinal year || Content Writer || Based in India || Web developer and Designer || Looking for **6/12 months internship opportunities** for **Frontend developer and Devrel** || Please 😊 Hire me",
+  "bio": "Full Stack Developer | India | Bachelor of Technology (CSE), Final year | Blogs | Open for 6 months Internship Opportunities for **FullStack Development** | 😊 Hire me",
   "tags": [
     "Open Source",
-    "Content Writer",
+    "Github",
     "JavaScript",
-    "TypeScript",
+    "MongoDB",
     "HTML5",
-    "React",
+    "ReactJS",
     "NextJs",
-    "CSS3"
+    "CSS3",
+    "Vercel",
+    "Devops",
+    "Linux"
   ],
   "socials": [
     {
       "icon": "FaTwitter",
-      "url": "https://mobile.twitter.com/harsh_hasew7890"
+      "url": "https://twitter.com/harshsitwts"
     },
     {
       "icon": "FaGithub",
@@ -23,6 +26,26 @@
     {
       "icon": "SiHashnode",
       "url": "https://hashnode.com/@harshsin327"
+    },
+    {
+      "icon": "FaInstagramSquare",
+      "url": "https://www.instagram.com/harshsingh3719/"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/harshsingh32"
+    }, 
+    {
+      "icon": "SiMastodon",
+      "url": "https://mastodon.social/@harsh71"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discord.com/users/702823621709660211"
+    },  
+    {
+      "icon": "FaRocket",
+      "url": "https://www.threads.net/@harshsingh3719"
     }
   ],
   "links": [
@@ -33,7 +56,7 @@
     },
     {
       "name": "Twitter",
-      "url": "https://mobile.twitter.com/harsh_hasew7890",
+      "url": "https://twitter.com/harshsitwts",
       "icon": "FaTwitter"
     },
     {
@@ -47,9 +70,14 @@
       "icon": "FaLinkedin"
     },
     {
-      "name": "Dev.to",
-      "url": "https://dev.to/harshsingh32",
-      "icon": "FaDev"
-    }
+      "name": "BioLink",
+      "url": "https://bio.link/harshsingh32",
+      "icon": "SiBiolink"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/hasew7890/",
+      "icon": "SiLeetcode"
+    }      
   ]
 }

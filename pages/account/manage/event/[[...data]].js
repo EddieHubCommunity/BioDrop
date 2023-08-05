@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -8,13 +8,14 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getEventApi } from "pages/api/account/manage/event/[[...data]]";
 import Input from "@components/form/Input";
 import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
+import dateFormat from "@services/utils/dateFormat";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -46,13 +47,7 @@ export async function getServerSideProps(context) {
 
 export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
-  const formatDate = (inputDate) => {
-    const d = new Date(inputDate);
-    const date = d.toISOString().split("T")[0];
-    const time = d.toLocaleTimeString();
-
-    return `${date}T${time}`;
-  };
+  
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -63,13 +58,42 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [name, setName] = useState(event.name || "");
   const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
-  const [startDate, setStartDate] = useState(
-    event.date?.start && formatDate(event.date?.start)
-  );
-  const [endDate, setEndDate] = useState(
-    event.date?.end && formatDate(event.date?.end)
-  );
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
+  const [color, setColor] = useState(event.color || "");
+
+  const formatLocalDate = (inputDate) => {
+    const d = new Date(inputDate);
+    const year = d.getFullYear();
+    const month = ("0"+(d.getMonth() +1)).slice(-2);
+    const day = ("0"+d.getDate()).slice(-2)
+    const date = `${year}-${month}-${day}`;
+    const time = d.toTimeString().split(":");
+
+    return `${date}T${time[0]}:${time[1]}`;
+  };
+
+  useEffect(() => {
+    if (event.date?.start) {
+      setStartDate(formatLocalDate(event.date.start));
+    }
+    if (event.date?.end) {
+      setEndDate(formatLocalDate(event.date.end));
+    }
+  }, [event])
+
+  const submitDate =  (date) => {
+    return new Date(date).toISOString();
+  }
+
+  const getTz = (date) => {
+    if (!date) return "";
+    const localTime = dateFormat({ locale: "local", format: "long", date: new Date(date) })
+    const tz = localTime.split(" ").slice(-1)[0];
+    return ` (${tz})`
+  }
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -78,9 +102,10 @@ export default function ManageEvent({ BASE_URL, event }) {
       name,
       description,
       url,
-      date: { start: startDate, end: endDate },
+      date: { start: submitDate(startDate), end: submitDate(endDate) },
       isVirtual,
       price: { startingFrom: price },
+      color,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
@@ -107,14 +132,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/event/${update._id}`);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Event added/updated",
-      additionalMessage: "Your event has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/events?success=true`);
   };
 
   const deleteItem = async () => {
@@ -144,7 +162,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Event"
         description="Here you can manage your LinkFree event"
       />
 
@@ -216,9 +234,10 @@ export default function ManageEvent({ BASE_URL, event }) {
                     <Input
                       type="datetime-local"
                       name="start-date"
-                      label="Start Date"
+                      label={`Start Date${getTz(startDate)}`}
                       onChange={(e) => setStartDate(e.target.value)}
                       value={startDate}
+                      max={endDate}
                       required
                     />
                     <p className="text-sm text-primary-low-medium">
@@ -229,9 +248,10 @@ export default function ManageEvent({ BASE_URL, event }) {
                     <Input
                       type="datetime-local"
                       name="end-date"
-                      label="End Date"
+                      label={`End Date${getTz(endDate)}`}
                       onChange={(e) => setEndDate(e.target.value)}
                       value={endDate}
+                      min={startDate}
                       required
                     />
                     <p className="text-sm text-primary-low-medium">
@@ -259,6 +279,16 @@ export default function ManageEvent({ BASE_URL, event }) {
                       setEnabled={setIsVirtual}
                     />
                   </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Input
+                      name="color"
+                      label="Color"
+                      onChange={(e) => setColor(e.target.value)}
+                      value={color}
+                      minLength="2"
+                      maxLength="16"
+                    />
+                  </div>
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
@@ -283,6 +313,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 date: { start: startDate, end: endDate },
                 isVirtual,
                 price,
+                color,
               }}
             />
           </div>

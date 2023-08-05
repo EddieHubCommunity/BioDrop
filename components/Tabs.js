@@ -1,7 +1,7 @@
 import Link from "@components/Link";
+import { classNames } from "utils/functions/classNames";
 
 export default function Tabs({ tabs, setTabs }) {
-  const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
     e.preventDefault();
     setTabs(

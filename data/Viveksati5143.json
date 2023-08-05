@@ -31,6 +31,11 @@
       "name": "Follow me on Github",
       "url": "https://github.com/Viveksati5143",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@viveksati",
+      "icon": "SiHashnode"
     }
   ],
   "milestones": [
@@ -60,6 +65,15 @@
     },
     {
       "isGoal": true,
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2023",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member by actively contributing to projects on both orgs",
+      "url": "https://github.com/kubernetes-sigs"
+    },
+    {
+      "isGoal": true,
       "title": "Become AWS Certified Solutions Architect - Associate",
       "date": "2023",
       "icon": "FaAmazon",
@@ -83,6 +97,6 @@
       "icon": "FaUserTie",
       "color": "black",
       "description": "I want to become a full time Remote DevOps Engineer for an Open Source company with good work culture"
-    }    
+    }
   ]
 }

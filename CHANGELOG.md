@@ -1,45 +1,45 @@
-# [1.155.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.9...v1.155.0) (2023-07-11)
-
-
-### Features
-
-* daily app stats ([#8138](https://github.com/EddieHubCommunity/LinkFree/issues/8138)) ([85b852c](https://github.com/EddieHubCommunity/LinkFree/commit/85b852c1fb714c5f9a9b67af5082103e2d5a6291))
-
-
-
-## [1.154.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.8...v1.154.9) (2023-07-11)
+## [1.169.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.7...v1.169.8) (2023-08-05)
 
 
 ### Bug Fixes
 
-* release action skip on empty ([#8134](https://github.com/EddieHubCommunity/LinkFree/issues/8134)) ([923dc31](https://github.com/EddieHubCommunity/LinkFree/commit/923dc31bd18e3e437afd856708a33a4115a9c074))
+* getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
 
 
 
-## [1.154.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.7...v1.154.8) (2023-07-11)
-
-
-### Reverts
-
-* Revert "fix: releases to skip if empty (#7496) (#7747)" (#8131) ([2f1ed2b](https://github.com/EddieHubCommunity/LinkFree/commit/2f1ed2badfdc9fdef40aaaa80825b6f1a4f6a662)), closes [#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496) [#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747) [#8131](https://github.com/EddieHubCommunity/LinkFree/issues/8131)
-
-
-
-## [1.154.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.6...v1.154.7) (2023-07-11)
+## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
 
 
 ### Bug Fixes
 
-* releases to skip if empty ([#7496](https://github.com/EddieHubCommunity/LinkFree/issues/7496)) ([#7747](https://github.com/EddieHubCommunity/LinkFree/issues/7747)) ([7810216](https://github.com/EddieHubCommunity/LinkFree/commit/781021620e5dfbd76db07debf664fbf0646c7ed7))
+* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
 
 
 
-## [1.154.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.154.5...v1.154.6) (2023-07-10)
+## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
 
 
 ### Bug Fixes
 
-* image gh accelerator overflow ([#8113](https://github.com/EddieHubCommunity/LinkFree/issues/8113)) ([ed63f9a](https://github.com/EddieHubCommunity/LinkFree/commit/ed63f9ac9dee059a5435028290d6d82c364a916c))
+* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
+
+
+
+## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
+
+
+### Bug Fixes
+
+* label does not appear in dark mode ([#8491](https://github.com/EddieHubCommunity/LinkFree/issues/8491)) ([808da93](https://github.com/EddieHubCommunity/LinkFree/commit/808da93b30462feaa8d1849bd9ff406254487d72))
+
+
+
+## [1.169.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.3...v1.169.4) (2023-08-05)
+
+
+### Bug Fixes
+
+* prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
 
 
 

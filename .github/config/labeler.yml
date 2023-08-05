@@ -1,0 +1,8 @@
+'✍ chore: profile':
+  - 'data/**'
+
+tests:
+  - 'tests/**'
+
+storybook:
+  - 'stories/**'
