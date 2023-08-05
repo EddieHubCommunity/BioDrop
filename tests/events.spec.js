@@ -13,6 +13,11 @@ test("Click on events profile in navbar navigates to events page", async ({
   await expect(page).toHaveURL("/events");
 });
 
+test("Events has title", async ({ page }) => {
+  await page.goto("/events");
+  await expect(page.locator("h1")).toHaveText("Community Events");
+});
+
 test.fixme("Events listed", async ({ page }) => {
   await page.goto("/events");
   await expect(page.locator("li")).toBeGreaterThan(1);

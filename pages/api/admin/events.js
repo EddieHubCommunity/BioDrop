@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth/next";
 import { serverEnv } from "@config/schemas/serverSchema";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import connectMongo from "@config/mongo";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -27,6 +28,7 @@ export default async function handler(req, res) {
 }
 
 export async function getEvents() {
+  await connectMongo();
   let events = [];
   try {
     events = await Profile.aggregate([

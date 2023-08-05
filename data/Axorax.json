@@ -1,0 +1,27 @@
+{
+  "name": "Axorax",
+  "bio": "I like programming sometimes...",
+  "tags": ["open source", "javascript", "python"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/axorax_"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/axorax"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Axorax",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Support me on Patreon!",
+      "url": "https://www.patreon.com/axorax",
+      "icon": "FaPatreon"
+    }
+  ]
+}
