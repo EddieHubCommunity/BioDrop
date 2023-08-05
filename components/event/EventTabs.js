@@ -1,7 +1,7 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
+import { classNames } from "utils/functions/classNames";
 export function EventTabs({ tabs, eventType, setEventType }) {
-  const classNames = (...classes) => classes.filter(Boolean).join(" ");
   const changeTab = (e, value) => {
     e.preventDefault();
     setEventType(value);
