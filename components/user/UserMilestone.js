@@ -24,7 +24,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
 
     return (
       <div className="flex space-x-3 grow">
-        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
+        {milestone.icon && <DisplayIcon className={`h-8 w-8 rounded-full ${manage ? 'ml-12' : 'ml-0'}`} />}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
             <h3
