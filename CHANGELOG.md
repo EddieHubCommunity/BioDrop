@@ -1,3 +1,12 @@
+## [1.169.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.7...v1.169.8) (2023-08-05)
+
+
+### Bug Fixes
+
+* getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
+
+
+
 ## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
-
-
-
-## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
-
-
-### Bug Fixes
-
-* date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
 
 
 
