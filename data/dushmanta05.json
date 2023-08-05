@@ -1,6 +1,12 @@
 {
   "name": "Dushmanta",
-  "bio": "Passionate web developer | Open-source enthusiast | Love football",
+  "bio": "Web developer | Open-source enthusiast | Love football",
+  "tags": [
+    "JavaScript",
+    "React",
+    "TypeScript",
+    "Open Source"
+  ],
   "links": [
     {
       "name": "LinkedIn",
