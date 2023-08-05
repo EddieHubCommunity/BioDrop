@@ -1,45 +1,45 @@
-## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
+## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
 
 
 ### Bug Fixes
 
-* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
+* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
 
 
 
-## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
-
-
-### Bug Fixes
-
-* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
-
-
-
-## [1.168.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.3...v1.168.4) (2023-08-03)
+## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
 
 
 ### Bug Fixes
 
-* labeling PRs from forks ([#8469](https://github.com/EddieHubCommunity/LinkFree/issues/8469)) ([26b4247](https://github.com/EddieHubCommunity/LinkFree/commit/26b42478e7f9097fdaed37be18ed369c3a18e22e))
+* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
 
 
 
-## [1.168.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.2...v1.168.3) (2023-08-02)
-
-
-### Bug Fixes
-
-* gh labeler action ([#8466](https://github.com/EddieHubCommunity/LinkFree/issues/8466)) ([439fcc3](https://github.com/EddieHubCommunity/LinkFree/commit/439fcc3a9a124acfeffa9598f52c4a40d7dac4ed))
-
-
-
-## [1.168.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.1...v1.168.2) (2023-08-02)
+## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
 
 
 ### Bug Fixes
 
-* gh action labeller ([#8460](https://github.com/EddieHubCommunity/LinkFree/issues/8460)) ([9f191db](https://github.com/EddieHubCommunity/LinkFree/commit/9f191db51b7654c9e5c14de27f4270598664d643))
+* label does not appear in dark mode ([#8491](https://github.com/EddieHubCommunity/LinkFree/issues/8491)) ([808da93](https://github.com/EddieHubCommunity/LinkFree/commit/808da93b30462feaa8d1849bd9ff406254487d72))
+
+
+
+## [1.169.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.3...v1.169.4) (2023-08-05)
+
+
+### Bug Fixes
+
+* prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
+
+
+
+## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
+
+
+### Bug Fixes
+
+* date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
 
 
 
