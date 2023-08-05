@@ -70,6 +70,10 @@ export const navigation = [
         name: "Testimonials with Forms",
         href: "/docs/how-to-guides/testimonials-forms",
       },
+      {
+        name: "GitHub Repos with Forms",
+        href: "/docs/how-to-guides/repos-forms",
+      },
     ],
   },
   {

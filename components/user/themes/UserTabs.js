@@ -5,6 +5,7 @@ import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
 import Tabs from "../../Tabs";
+import UserRepos from "../UserRepos";
 
 export default function UserTabs({ data, BASE_URL }) {
   const defaultTabs = [
@@ -12,6 +13,7 @@ export default function UserTabs({ data, BASE_URL }) {
     { name: "Milestones", href: "#", current: false },
     { name: "Testimonials", href: "#", current: false },
     { name: "Events", href: "#", current: false },
+    { name: "Repos", href: "#", current: false },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
@@ -33,6 +35,12 @@ export default function UserTabs({ data, BASE_URL }) {
       }
       return [];
     }
+    if (tab.name === "Repos") {
+      if (data.repos && data.repos.length) {
+        return { ...tab, total: data.repos.length };
+      }
+      return [];
+    }
 
     return { ...tab, total: data.links?.length };
   });
@@ -49,6 +57,7 @@ export default function UserTabs({ data, BASE_URL }) {
           BASE_URL={BASE_URL}
         />
       )}
+
       {tabs.find((tab) => tab.name === "Milestones")?.current && (
         <UserMilestones milestones={data.milestones} />
       )}
@@ -62,6 +71,10 @@ export default function UserTabs({ data, BASE_URL }) {
 
       {tabs.find((tab) => tab.name === "Events")?.current && (
         <UserEvents events={data.events} />
+      )}
+
+      {tabs.find((tab) => tab.name === "Repos")?.current && (
+        <UserRepos repos={data.repos} />
       )}
     </>
   );

@@ -180,6 +180,9 @@ export async function addMilestoneApi(username, addMilestone) {
         username,
       },
       {
+        $set: {
+          source: "database",
+        },
         $push: { milestones: { ...addMilestone, _id: id } },
       },
       { upsert: true, new: true }

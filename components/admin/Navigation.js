@@ -16,6 +16,13 @@ const tabs = [
     icon: MdPerson,
     current: false,
   },
+  {
+    name: "Profiles",
+    href: "/admin/profiles",
+    match: [],
+    icon: MdPerson,
+    current: false,
+  },
 ];
 
 export default function Navigation() {

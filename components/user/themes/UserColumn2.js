@@ -1,6 +1,7 @@
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
+import UserRepos from "../UserRepos";
 import UserTestimonials from "../UserTestimonials";
 
 export default function UserColumn2({ data, BASE_URL }) {
@@ -16,6 +17,15 @@ export default function UserColumn2({ data, BASE_URL }) {
             username={data.username}
             BASE_URL={BASE_URL}
           />
+        </div>
+      )}
+
+      {data.repos?.length > 0 && (
+        <div>
+          <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
+            Repos
+          </h2>
+          <UserRepos repos={data.repos} />
         </div>
       )}
 
