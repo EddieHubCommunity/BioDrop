@@ -42,6 +42,12 @@ const LinkSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Profile",
     },
+    animation: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 32,
+    },
   },
   { timestamps: true }
 );

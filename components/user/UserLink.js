@@ -2,6 +2,17 @@ import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
+import styles from '../../styles/animation.module.css';
+
+const getLinkAnimation = new Map([
+  ["Pulse", "group animate-pulse"],
+  ["Bounce", "animate-bounce opacity-75"],
+  ["Glow", `${styles.glow}`],
+]);
+
+const getIconAnimation = new Map([
+  ["Ping", "animate-ping absolute opacity-75"],
+]);
 
 export default function UserLink({
   BASE_URL,
@@ -24,15 +35,22 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
+      className={`relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium ${ link.animation !== "Glow" ? "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40" : ""} grow ${
         isEnabled ? "" : "opacity-50"
-      }`}
+      } ${getLinkAnimation.get(link.animation)}`}
       style={{
         "--hover-color": colors[link.icon],
       }}
     >
-      <span style={{ color: colors[link.icon] }}>
-        <DisplayIcon aria-label={`${aria} icon`} />
+      <span class="relative">
+        <span style={{ color: colors[link.icon] }} className={`${getIconAnimation.get(link.animation)}`}>
+          <DisplayIcon aria-label={`${aria} icon`} />
+        </span>
+        {link.animation === "Ping" && 
+          <span style={{ color: colors[link.icon] }} className={`relative`}>
+            <DisplayIcon aria-label={`${aria} icon`} />
+          </span>
+        }
       </span>
       <span className="grow">{link.name}</span>
       {manage && link.isPinned && (

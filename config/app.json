@@ -6,6 +6,13 @@
     "inline",
     "column-2"
   ],
+  "animations": [
+    "No Animation",
+    "Pulse",
+    "Bounce",
+    "Ping",
+    "Glow"
+  ],
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,
