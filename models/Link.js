@@ -44,7 +44,8 @@ const LinkSchema = new mongoose.Schema(
     },
     animation: {
       type: String,
-      required: true,
+      optional: true,
+      default: "No Animation",
       min: 2,
       max: 32,
     },

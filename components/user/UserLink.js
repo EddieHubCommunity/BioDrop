@@ -7,7 +7,8 @@ import styles from '../../styles/animation.module.css';
 const getLinkAnimation = new Map([
   ["Pulse", "group animate-pulse"],
   ["Bounce", "animate-bounce opacity-75"],
-  ["Glow", `${styles.glow}`],
+  ["Glow", styles.glow],
+  ["Wiggle", styles.wiggle],
 ]);
 
 const getIconAnimation = new Map([
@@ -43,7 +44,7 @@ export default function UserLink({
       }}
     >
       <span class="relative">
-        <span style={{ color: colors[link.icon] }} className={`${getIconAnimation.get(link.animation)}`}>
+        <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(link.animation)}>
           <DisplayIcon aria-label={`${aria} icon`} />
         </span>
         {link.animation === "Ping" && 

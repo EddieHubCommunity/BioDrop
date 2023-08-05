@@ -11,7 +11,8 @@
     "Pulse",
     "Bounce",
     "Ping",
-    "Glow"
+    "Glow",
+    "Wiggle"
   ],
   "isr": {
     "homepage": {
