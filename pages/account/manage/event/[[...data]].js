@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
 
 export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
-  
+
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -66,8 +66,8 @@ export default function ManageEvent({ BASE_URL, event }) {
   const formatLocalDate = (inputDate) => {
     const d = new Date(inputDate);
     const year = d.getFullYear();
-    const month = ("0"+(d.getMonth() +1)).slice(-2);
-    const day = ("0"+d.getDate()).slice(-2)
+    const month = ("0" + (d.getMonth() + 1)).slice(-2);
+    const day = ("0" + d.getDate()).slice(-2);
     const date = `${year}-${month}-${day}`;
     const time = d.toTimeString().split(":");
 
@@ -81,19 +81,22 @@ export default function ManageEvent({ BASE_URL, event }) {
     if (event.date?.end) {
       setEndDate(formatLocalDate(event.date.end));
     }
-  }, [event])
+  }, [event]);
 
-  const submitDate =  (date) => {
+  const submitDate = (date) => {
     return new Date(date).toISOString();
-  }
+  };
 
   const getTz = (date) => {
     if (!date) return "";
-    const localTime = dateFormat({ locale: "local", format: "long", date: new Date(date) })
+    const localTime = dateFormat({
+      locale: "local",
+      format: "long",
+      date: new Date(date),
+    });
     const tz = localTime.split(" ").slice(-1)[0];
-    return ` (${tz})`
-  }
-
+    return ` (${tz})`;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -263,8 +266,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                       type="number"
                       min="0"
                       name="price"
-                      label="Ticket Price"
-                      onChange={(e) => setPrice(e.target.value)}
+                      label="Ticket Price ($)"
+                      onChange={(e) => setPrice(parseInt(e.target.value))}
                       value={price}
                     />
                     <p className="text-sm text-primary-low-medium">
@@ -312,7 +315,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 url,
                 date: { start: startDate, end: endDate },
                 isVirtual,
-                price,
+                price: { startingFrom: price },
                 color,
               }}
             />
