@@ -53,7 +53,6 @@ export default function UserEvents({
     }
     return events.filter((event) => filterByEventType(event, eventType));
   };
-  
   const eventsToShow = getFilteredEvents();
   const filteredEventOptions = eventOptions.filter((option) => {
     if (option.value === "all") {
