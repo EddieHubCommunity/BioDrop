@@ -1,6 +1,6 @@
 import Link from "@components/Link";
+import Select from "@components/form/Select";
 import { classNames } from "utils/functions/classNames";
-
 export function EventTabs({ tabs, eventType, setEventType }) {
   const changeTab = (e, value) => {
     e.preventDefault();
@@ -13,20 +13,14 @@ export function EventTabs({ tabs, eventType, setEventType }) {
   return (
     <div>
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
-        <select
+        <Select
           id="tabs"
-          name="tabs"
+          label="Select a tab"
+          value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
           className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
-          defaultValue={tabs.find((tab) => tab.key === eventType)?.title}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.key}>{tab.title}</option>
-          ))}
-        </select>
+          options={tabs.map((tab) => ({ label: tab.title, value: tab.title }))}
+        />
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low">

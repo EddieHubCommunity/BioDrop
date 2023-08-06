@@ -1,6 +1,6 @@
 import Link from "@components/Link";
+import Select from "@components/form/Select";
 import { classNames } from "utils/functions/classNames";
-
 export default function Tabs({ tabs, setTabs }) {
   const changeTab = (e, value) => {
     e.preventDefault();
@@ -16,21 +16,15 @@ export default function Tabs({ tabs, setTabs }) {
   return (
     <div>
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
         {tabs.length > 1 && (
-          <select
+          <Select
             id="tabs"
-            name="tabs"
+            value={tabs.find((tab) => tab.current).name}
+            label="Select a tab"
             onChange={changeTab}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
-            defaultValue={tabs.find((tab) => tab.current).name}
-          >
-            {tabs.map((tab) => (
-              <option key={tab.name}>{tab.name}</option>
-            ))}
-          </select>
+            options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
+          />
         )}
       </div>
       <div className="hidden sm:block">
