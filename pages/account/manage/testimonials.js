@@ -9,11 +9,12 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getTestimonialsApi } from "pages/api/account/manage/testimonials";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
+import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -107,38 +108,44 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           </h3>
         </div>
 
-        <div>
-          <div className="flex gap-4">
-            {!reorder && (
-              <Button onClick={() => setReorder(true)}>
-                <ArrowPathIcon className="h-5 w-5 m-2" />
-                REORDER
-              </Button>
-            )}
-            {reorder && (
-              <Button
-                onClick={() => {
-                  setReorder(false);
-                  setTestimonialList(testimonialListPrevious);
-                }}
-              >
-                CANCEL
-              </Button>
-            )}
-            {reorder && (
-              <Button primary={true} onClick={() => saveOrder()}>
-                SAVE
-              </Button>
-            )}
-          </div>
-          <ul role="list" className="divide-y divide-primary-low">
+        {!testimonialList?.length && (
+          <Alert type="info" message="No Testimonials found" />
+        )}
+
+        {testimonialList?.length && (
+          <div>
+            <div className="flex gap-4">
+              {!reorder && (
+                <Button onClick={() => setReorder(true)}>
+                  <ArrowPathIcon className="h-5 w-5 m-2" />
+                  REORDER
+                </Button>
+              )}
+              {reorder && (
+                <Button
+                  onClick={() => {
+                    setReorder(false);
+                    setTestimonialList(testimonialListPrevious);
+                  }}
+                >
+                  CANCEL
+                </Button>
+              )}
+              {reorder && (
+                <Button primary={true} onClick={() => saveOrder()}>
+                  SAVE
+                </Button>
+              )}
+            </div>
             <ReactSortable
+              tag="ul"
               list={testimonialList}
               setList={setTestimonialList}
               disabled={!reorder}
               ghostClass="border-2"
               chosenClass="border-dashed"
               dragClass="border-red-500"
+              className="divide-y divide-primary-low"
             >
               {testimonialList.map((testimonial) => (
                 <li
@@ -155,7 +162,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                           {testimonial.username}
                         </p>
                       </div>
-                      <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-low-medium">
+                      <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-medium-low dark:text-primary-low-high">
                         <p className="whitespace-normal">
                           {testimonial.description}
                         </p>
@@ -171,8 +178,8 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 </li>
               ))}
             </ReactSortable>
-          </ul>
-        </div>
+          </div>
+        )}
       </Page>
     </>
   );

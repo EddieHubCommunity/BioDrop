@@ -2,13 +2,14 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useState } from "react";
 import DocumentPlusIcon from "@heroicons/react/24/outline/DocumentPlusIcon";
+import { useRouter } from "next/router";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 
 import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 import Button from "@components/Button";
 import UserLink from "@components/user/UserLink";
@@ -43,6 +44,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageLinks({ BASE_URL, username, links }) {
+  const router = useRouter();
+  const { success } = router.query;
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   const [linkList, setLinkList] = useState(links || []);
@@ -71,6 +74,9 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
+        {success && (
+          <Alert type="success" message="Link Created/Updated Successfully" />
+        )}
         <Navigation />
 
         <Notification
@@ -110,7 +116,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
           )}
         </div>
 
-        {!linkList.length && <Alert type="info" message="No links found" />}
+        {!linkList.length && <Alert type="info" message="No Links found" />}
 
         <ReactSortable
           list={linkList}

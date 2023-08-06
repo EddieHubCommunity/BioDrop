@@ -1,7 +1,7 @@
 import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Edit from "@components/account/manage/edit";
+import Edit from "@components/account/manage/Edit";
 
 export default function UserLink({
   BASE_URL,
@@ -36,7 +36,7 @@ export default function UserLink({
       </span>
       <span className="grow">{link.name}</span>
       {manage && link.isPinned && (
-        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high ring-1 ring-inset ring-secondary-high/10">
+        <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
         </span>
       )}
@@ -60,7 +60,9 @@ export default function UserLink({
   );
 
   const edit = (link) => (
-    <Edit href={`/account/manage/link/${link._id}`}>{item(link)}</Edit>
+    <Edit href={`/account/manage/link/${link._id}`} label={`${link.name} Link`}>
+      {item(link)}
+    </Edit>
   );
 
   return (

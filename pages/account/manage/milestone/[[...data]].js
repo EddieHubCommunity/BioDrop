@@ -8,7 +8,7 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getMilestoneApi } from "pages/api/account/manage/milestone/[[...data]]";
 import Input from "@components/form/Input";
 import UserMilestone from "@components/user/UserMilestone";
@@ -97,14 +97,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/milestone/${update._id}`);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Milestone added/updated",
-      additionalMessage: "Your milestone has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
   };
 
   const deleteItem = async () => {
@@ -141,7 +134,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Milestone"
         description="Here you can manage your LinkFree milestone"
       />
 

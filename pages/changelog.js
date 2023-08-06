@@ -10,6 +10,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "GitHub Repos showcase",
+      description:
+        "Now you can add repos to your Profile and they also appear in the global repos page",
+      type: "addition",
+      date: "2023-08-01",
+    },
+    {
+      title: "Share profile on social media",
+      description:
+        "With the QR code, there is also a link copy and social share buttons",
+      type: "addition",
+      date: "2023-07-10",
+    },
+    {
       title: "Reorder testimonials and links",
       description:
         "As these items don't have lists you may want to reorder them",

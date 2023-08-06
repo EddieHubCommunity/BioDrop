@@ -9,7 +9,12 @@ dotenv.config();
 
 module.exports = async () => {
   // remove test file data
-  USERS.forEach((username) => fs.unlinkSync(`./data/${username}.json`));
+  USERS.forEach((username) => {
+    fs.unlinkSync(`./data/${username}.json`)
+    if (fs.existsSync(`./data/${username}`)) {
+      fs.rmSync(`./data/${username}`, { recursive: true, force: true });
+    }
+  });
   fs.unlinkSync(`./data/_test-wcag-user.json`);
 
   // remove test data in database
