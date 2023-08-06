@@ -86,7 +86,6 @@ export default function UserEvents({
           className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
         />
       )}
-  
       {eventsToShow.length > 0 && (
         <ul role="list" className="mt-4">
           {eventsToShow.map((event, index) => (
