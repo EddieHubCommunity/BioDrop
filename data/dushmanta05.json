@@ -1,12 +1,7 @@
 {
   "name": "Dushmanta",
   "bio": "Web developer | Open-source enthusiast | Love football",
-  "tags": [
-    "JavaScript",
-    "React",
-    "TypeScript",
-    "Open Source"
-  ],
+  "tags": ["JavaScript", "React", "TypeScript", "Open Source"],
   "links": [
     {
       "name": "LinkedIn",
