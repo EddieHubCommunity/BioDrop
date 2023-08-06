@@ -21,7 +21,6 @@ export default function UserEvents({
     { value: "paid", name: "Paid Events" },
     { value: "past", name: "Past Events" },
   ];
-  
   const handleEventTypeChange = (event) => {
     setEventType(event.target.value);
   };
