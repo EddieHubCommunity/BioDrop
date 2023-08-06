@@ -9,7 +9,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
+import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
 
 async function fetchUsersByKeyword(keyword) {
@@ -24,7 +24,7 @@ async function fetchUsersByKeyword(keyword) {
 }
 
 async function fetchRandomUsers() {
-  const users = await getUsers();
+  const users = await getProfiles();
 
   if (users.length > 9) {
     return users.sort(() => 0.5 - Math.random()).slice(0, 9);
