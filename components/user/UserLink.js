@@ -3,17 +3,19 @@ import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import styles from '../../styles/animation.module.css';
+import config from "@config/app.json";
+const animations = config.animations;
 
 const getLinkAnimation = new Map([
-  ["Pulse", "group animate-pulse"],
-  ["Bounce", "animate-bounce opacity-75"],
-  ["Glow", styles.glow],
-  ["Wiggle", styles.wiggle],
+  [animations.pulse, "group animate-pulse"],
+  [animations.bounce, "animate-bounce opacity-75"],
+  [animations.glow, styles.glow],
+  [animations.wiggle, styles.wiggle],
 ]);
 
 const getIconAnimation = new Map([
-  ["Ping", "animate-ping absolute opacity-75"],
-  ["Glow Icon", styles.glow],
+  [animations.ping, "animate-ping absolute opacity-75"],
+  [animations.iconGlow, styles.glow],
 ]);
 
 export default function UserLink({
