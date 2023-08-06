@@ -1,45 +1,45 @@
-## [1.168.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.0...v1.168.1) (2023-08-02)
+## [1.169.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.7...v1.169.8) (2023-08-05)
 
 
 ### Bug Fixes
 
-* refactored the classNames function ([#8404](https://github.com/EddieHubCommunity/LinkFree/issues/8404)) ([fbf858c](https://github.com/EddieHubCommunity/LinkFree/commit/fbf858cc75e1cb6d93c97fce41d1c2b88cfb8633))
+* getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
 
 
 
-# [1.168.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.167.0...v1.168.0) (2023-08-01)
-
-
-### Features
-
-* global repos list ([#8446](https://github.com/EddieHubCommunity/LinkFree/issues/8446)) ([15d769c](https://github.com/EddieHubCommunity/LinkFree/commit/15d769cb0a6030115a19062745f6dcf577eb9a0a))
-
-
-
-# [1.167.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.166.0...v1.167.0) (2023-08-01)
-
-
-### Features
-
-* admin users list inc repos ([#8439](https://github.com/EddieHubCommunity/LinkFree/issues/8439)) ([aae68d9](https://github.com/EddieHubCommunity/LinkFree/commit/aae68d92be0dbd09c31df93c83e926a1b7786919))
-
-
-
-# [1.166.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.3...v1.166.0) (2023-08-01)
-
-
-### Features
-
-* GitHub repo to profile ([#8225](https://github.com/EddieHubCommunity/LinkFree/issues/8225)) ([30bc65d](https://github.com/EddieHubCommunity/LinkFree/commit/30bc65d3d075895e81ead930cbdca9e383a7f210))
-
-
-
-## [1.165.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.165.2...v1.165.3) (2023-08-01)
+## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
 
 
 ### Bug Fixes
 
-* gh action labeler ([#8430](https://github.com/EddieHubCommunity/LinkFree/issues/8430)) ([83c939e](https://github.com/EddieHubCommunity/LinkFree/commit/83c939e361790316b2ad26b1e079b8b87520ad5b))
+* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
+
+
+
+## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
+
+
+### Bug Fixes
+
+* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
+
+
+
+## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
+
+
+### Bug Fixes
+
+* label does not appear in dark mode ([#8491](https://github.com/EddieHubCommunity/LinkFree/issues/8491)) ([808da93](https://github.com/EddieHubCommunity/LinkFree/commit/808da93b30462feaa8d1849bd9ff406254487d72))
+
+
+
+## [1.169.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.3...v1.169.4) (2023-08-05)
+
+
+### Bug Fixes
+
+* prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
 
 
 
