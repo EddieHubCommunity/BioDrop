@@ -1,26 +1,35 @@
 export default function Select({
-  name,
   value,
-  label,
+  onChange,
   options = [],
+  label,
+  className,
   ...restProps
 }) {
   return (
     <>
       {label && (
-        <label htmlFor={name} className="mt-4 mb-3">
+        <label htmlFor={value} className={`sr-only ${className}`}>
           {label}
         </label>
       )}
       <select
-        id={name}
-        name={name}
-        className="mt-2 text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6"
-        defaultValue={value}
+        id={value}
+        value={value}
+        onChange={onChange}
+        className={`mt-2 text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6 ${
+          restProps.className || ""
+        }`}
         {...restProps}
       >
-        {options.map((v) => (
-          <option key={v} className="checked:text-secondary-high checked:font-bold dark:checked:text-secondary-low-high">{v}</option>
+        {options.map((option) => (
+          <option
+            className="checked:text-secondary-high checked:font-bold dark:checked:text-secondary-low-high"
+            key={option.value}
+            value={option.value}
+          >
+            {option.label || option}
+          </option>
         ))}
       </select>
     </>
