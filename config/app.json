@@ -6,15 +6,15 @@
     "inline",
     "column-2"
   ],
-  "animations": [
-    "No Animation",
-    "Pulse",
-    "Bounce",
-    "Ping",
-    "Glow",
-    "Wiggle",
-    "Glow Icon"
-  ],
+  "animations": {
+    "none": "No Animation",
+    "pulse": "Pulse",
+    "bounce": "Bounce",
+    "ping": "Ping",
+    "glow": "Glow",
+    "wiggle": "Wiggle",
+    "iconGlow": "Glow Icon"
+  },
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

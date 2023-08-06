@@ -1,4 +1,6 @@
 import mongoose from "mongoose";
+import config from "@config/app.json";
+const animations = config.animations;
 
 const LinkSchema = new mongoose.Schema(
   {
@@ -45,7 +47,7 @@ const LinkSchema = new mongoose.Schema(
     animation: {
       type: String,
       optional: true,
-      default: "No Animation",
+      default: animations.none,
       min: 2,
       max: 32,
     },
