@@ -1,5 +1,5 @@
 import Link from "@components/Link";
-import Select from "@components/form/Select"
+import Select from "@components/form/Select";
 import { classNames } from "utils/functions/classNames";
 export default function Tabs({ tabs, setTabs }) {
   const changeTab = (e, value) => {
