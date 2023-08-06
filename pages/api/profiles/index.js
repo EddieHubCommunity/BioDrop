@@ -35,6 +35,27 @@ export async function getProfiles(options = {}) {
   return JSON.parse(JSON.stringify(profiles));
 }
 
+export async function getUsers(options = {}) {
+  await connectMongo();
+
+  let profiles = [];
+  const { cards } = { cards: false, ...options };
+  const fields = cards
+    ? ["username", "name", "bio", "tags", "-_id"]
+    : ["username", "name", "bio", "tags", "location", "-_id"];
+  try {
+    profiles = await Profile.find(
+      { name: { $exists: true }, isEnabled: true },
+      fields
+    );
+  } catch (e) {
+    logger.error(e, "failed loading profiles");
+    return profiles;
+  }
+
+  return JSON.parse(JSON.stringify(profiles));
+}
+
 export async function searchUsers(termsArray) {
   const agg = generateAggreation(termsArray);
   try {

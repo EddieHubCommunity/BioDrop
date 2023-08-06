@@ -1,6 +1,5 @@
 import { searchUsers, searchUsersIfNotUsingAtlas } from "../profiles";
 import connectMongo from "@config/mongo";
-import { getProfiles } from "../profiles";
 import logger from "@config/logger";
 
 export default async function handler(req, res) {
