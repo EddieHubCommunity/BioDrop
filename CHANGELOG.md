@@ -1,3 +1,12 @@
+## [1.169.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.9...v1.169.10) (2023-08-06)
+
+
+### Bug Fixes
+
+* duplicate select form elements [#8147](https://github.com/EddieHubCommunity/LinkFree/issues/8147) ([#8220](https://github.com/EddieHubCommunity/LinkFree/issues/8220)) ([b1c5731](https://github.com/EddieHubCommunity/LinkFree/commit/b1c57314a9bf6be8c00afd3aaf5f778f79be80bd))
+
+
+
 ## [1.169.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.8...v1.169.9) (2023-08-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
-
-
-
-## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
-
-
-### Bug Fixes
-
-* label does not appear in dark mode ([#8491](https://github.com/EddieHubCommunity/LinkFree/issues/8491)) ([808da93](https://github.com/EddieHubCommunity/LinkFree/commit/808da93b30462feaa8d1849bd9ff406254487d72))
 
 
 
