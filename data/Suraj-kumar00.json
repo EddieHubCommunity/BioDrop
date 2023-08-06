@@ -1,11 +1,12 @@
 {
 	"name": "Suraj Kumar ",
-	"bio": "Open Source Contributer | DevOps Enthusiast | Frontend Developer | Technical Writer at Hashnode ",
+	"bio": "Open Source Contributor | DevOps Enthusiast | Frontend Developer | Technical Writer at Hashnode ",
 	"tags": [
 		"Open Source",
 		"Javascript",
 		"ReactJS",
-		"TailwindCSS"
+		"TailwindCSS",
+		"Technical Writer"
 	],
 	"socials": [{
 			"icon": "FaTwitter",
