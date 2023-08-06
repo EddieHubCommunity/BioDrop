@@ -23,8 +23,8 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
       : "text-primary-medium dark:text-primary-low-medium";
 
     return (
-      <div className="flex space-x-3 grow">
-        {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
+      <div className="flex space-x-2 grow">
+        {milestone.icon && <DisplayIcon className="h-8 w-8 ml-11"/>}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
             <h3
