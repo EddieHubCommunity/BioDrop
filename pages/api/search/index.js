@@ -1,5 +1,6 @@
 import { searchUsers, searchUsersIfNotUsingAtlas } from "../profiles";
 import connectMongo from "@config/mongo";
+import { getProfiles } from "../profiles";
 import logger from "@config/logger";
 
 export default async function handler(req, res) {
@@ -26,6 +27,7 @@ export default async function handler(req, res) {
   const terms = cleanedSlug.split(",");
   try {
     const filteredUsers = await searchUsers(terms);
+
     if (!filteredUsers.length) {
       return res.status(404).json({ error: `${cleanedSlug} not found` });
     }
