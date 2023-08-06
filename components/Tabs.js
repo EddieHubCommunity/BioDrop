@@ -16,7 +16,6 @@ export default function Tabs({ tabs, setTabs }) {
   return (
     <div>
       <div className="sm:hidden">
-
         {tabs.length > 1 && (
           <Select
             id="tabs"
