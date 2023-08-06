@@ -1,7 +1,7 @@
-import DropDown from "@components/form/DropDown";
+import Select from "@components/form/Select";
 
 export default {
-  component: DropDown
+  component: Select
 };
 
 const options = [
@@ -13,10 +13,10 @@ const options = [
 
 export const Basic = {
   args: {
-    eventType: 3,
+    value: 3,
     label: 'Test',
     options: options,
-    handleEventTypeChange: (e) => console.log(e.target.value),
+    onChange: (e) => console.log(e.target.value),
     className: ''
   }
 };

@@ -21,8 +21,12 @@ export default function EventCard({ manage, event, usernames }) {
 
   useEffect(() => {
     try {
-      setStartTime(dateFormat({ locale: "local", format: "long", date: event.date.start }));
-      setEndTime(dateFormat({ locale: "local", format: "long", date: event.date.end }));
+      setStartTime(
+        dateFormat({ locale: "local", format: "long", date: event.date.start })
+      );
+      setEndTime(
+        dateFormat({ locale: "local", format: "long", date: event.date.end })
+      );
     } catch (e) {
       setStartTime(event.date.start);
       setEndTime(event.date.end);
@@ -32,7 +36,7 @@ export default function EventCard({ manage, event, usernames }) {
   const item = (event) => (
     <div
       className="py-4 border-l-[3px] border-t border-secondary-medium dark:border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
-      style={ event.color ? {borderColor: event.color} : null}
+      style={event.color ? { borderColor: event.color } : null}
     >
       <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">
@@ -83,21 +87,25 @@ export default function EventCard({ manage, event, usernames }) {
               <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </ReactMarkdown>
-              <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
-                {(event.isVirtual || (event.isInPerson && event.location)) && (
-                  <FaMapPin />
+              <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
+                <div className="flex gap-2 flex-wrap">
+                  {(event.isVirtual ||
+                    (event.isInPerson && event.location)) && <FaMapPin />}
+                  <span>
+                    {event.isVirtual && "Remote"}
+                    {event.isVirtual &&
+                      event.isInPerson &&
+                      event.location &&
+                      " AND in "}
+                    {event.isInPerson &&
+                      event.location &&
+                      Object.values(event.location).join(", ")}
+                  </span>
+                </div>
+                {event.price?.startingFrom > 0 && (
+                  <div>${event.price?.startingFrom}</div>
                 )}
-                <span>
-                  {event.isVirtual && "Remote"}
-                  {event.isVirtual &&
-                    event.isInPerson &&
-                    event.location &&
-                    " AND in "}
-                  {event.isInPerson &&
-                    event.location &&
-                    Object.values(event.location).join(", ")}
-                </span>
-              </p>
+              </div>
             </div>
             <div className="isolate flex -space-x-1 ">
               {usernames &&
