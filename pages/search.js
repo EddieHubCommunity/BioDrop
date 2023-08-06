@@ -54,9 +54,8 @@ export async function getServerSideProps(context) {
   try {
     if (keyword) {
       serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
-    } else {
-      serverProps.randUsers = await fetchRandomUsers();
     }
+    serverProps.randUsers = await fetchRandomUsers();
   } catch (e) {
     logger.error(e, "ERROR fetching users");
   }
