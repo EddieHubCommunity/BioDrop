@@ -1,6 +1,7 @@
 {
     "name": "Sahil Chalke",
     "bio": "Full Stack Developer | Javascript | Node.js | TailwindCSS ",
+    "tags": ["Javascript","MERN", "Node.js", "TailwindCSS", "Open Source", "MongoDB"],
     "links": [
    {
         "name": "Let's collaborate on some amazing project",
@@ -13,6 +14,6 @@
         "icon": "FaLinkedin"
       }
 
-    ],
-    "tags": ["Javascript","MERN", "Node.js", "TailwindCSS", "Open Source", "MongoDB"]
+    ]
+   
   }
