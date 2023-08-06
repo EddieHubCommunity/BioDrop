@@ -13,6 +13,7 @@ const getLinkAnimation = new Map([
 
 const getIconAnimation = new Map([
   ["Ping", "animate-ping absolute opacity-75"],
+  ["Glow Icon", styles.glow],
 ]);
 
 export default function UserLink({
@@ -36,14 +37,14 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium ${ link.animation !== "Glow" ? "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40" : ""} grow ${
+      className={`relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium ${ link.animation === "Glow Icon" ? "z-0" : "" } ${ link.animation !== "Glow" ? "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40" : ""} grow ${
         isEnabled ? "" : "opacity-50"
       } ${getLinkAnimation.get(link.animation)}`}
       style={{
         "--hover-color": colors[link.icon],
       }}
     >
-      <span class="relative">
+      <span className="relative">
         <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(link.animation)}>
           <DisplayIcon aria-label={`${aria} icon`} />
         </span>
