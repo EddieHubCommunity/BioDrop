@@ -2,6 +2,15 @@ import mongoose from "mongoose";
 
 const AccountSchema = new mongoose.Schema(
   {
+    type: {
+      type: String,
+      required: true,
+      enum: {
+        values: ["free", "premium"],
+        message: "{VALUE} is not a supported data source",
+      },
+      default: "free",
+    },
     userId: {
       type: String,
       trim: true,
