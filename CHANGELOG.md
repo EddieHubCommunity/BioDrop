@@ -1,3 +1,12 @@
+## [1.170.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.1...v1.170.2) (2023-08-07)
+
+
+### Bug Fixes
+
+* increased top margin on alert box [#8210](https://github.com/EddieHubCommunity/LinkFree/issues/8210) ([#8286](https://github.com/EddieHubCommunity/LinkFree/issues/8286)) ([dfa4e49](https://github.com/EddieHubCommunity/LinkFree/commit/dfa4e491ad67bb3e9cf4f9da4548a144c6e78fc7))
+
+
+
 ## [1.170.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.0...v1.170.1) (2023-08-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * event price ([#8531](https://github.com/EddieHubCommunity/LinkFree/issues/8531)) ([8e901e2](https://github.com/EddieHubCommunity/LinkFree/commit/8e901e282e903fd2d65ad52cffb996d1854ddea0)), closes [#8056](https://github.com/EddieHubCommunity/LinkFree/issues/8056)
-
-
-
-## [1.169.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.7...v1.169.8) (2023-08-05)
-
-
-### Bug Fixes
-
-* getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
 
 
 
