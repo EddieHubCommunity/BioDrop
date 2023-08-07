@@ -1,10 +1,10 @@
 {
-  "name": "Sahil Chalke",
-  "bio": "Full Stack Developer | Javascript | Node.js | TailwindCSS ",
+  "name": "ADITYA SHAH",
+  "bio": "Full Stack Developer | Javascript | REACT | TailwindCSS | FRONTEND DEVELOPER ",
   "tags": [
     "Javascript",
     "MERN",
-    "Node.js",
+    "REACT",
     "TailwindCSS",
     "Open Source",
     "MongoDB"
@@ -12,12 +12,12 @@
   "links": [
     {
       "name": "Let's collaborate on some amazing project",
-      "url": "https://github.com/Sahilll15",
+      "url": "https://github.com/AdityaShah7867",
       "icon": "FaGithub"
     },
     {
       "name": "Follow me on LinkedIn for some achievement bragging!",
-      "url": "https://www.linkedin.com/in/sahil-chalke-a7ab741a3/",
+      "url": "www.linkedin.com/in/aditya-shah-a10494263",
       "icon": "FaLinkedin"
     }
   ]

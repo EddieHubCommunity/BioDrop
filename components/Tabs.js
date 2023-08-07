@@ -18,7 +18,7 @@ export default function Tabs({ tabs, setTabs }) {
       <div className="sm:hidden">
         {tabs.length > 1 && (
           <Select
-            id="tabs"
+            name="tabs"
             value={tabs.find((tab) => tab.current).name}
             label="Select a tab"
             onChange={changeTab}
