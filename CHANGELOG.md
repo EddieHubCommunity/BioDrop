@@ -1,3 +1,12 @@
+## [1.170.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.0...v1.170.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* edit milestone icon overlaps milestone icon ([#8506](https://github.com/EddieHubCommunity/LinkFree/issues/8506)) ([935aee7](https://github.com/EddieHubCommunity/LinkFree/commit/935aee7cf2b4d21c89e4e699778d46f9a1e0a37d))
+
+
+
 # [1.170.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.10...v1.170.0) (2023-08-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
-
-
-
-## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
-
-
-### Bug Fixes
-
-* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
 
 
 
