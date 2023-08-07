@@ -1,3 +1,12 @@
+## [1.170.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.2...v1.170.3) (2023-08-07)
+
+
+### Bug Fixes
+
+* sidenav active page highlighted ([#8308](https://github.com/EddieHubCommunity/LinkFree/issues/8308)) ([80fe021](https://github.com/EddieHubCommunity/LinkFree/commit/80fe02128e95ccc252bc3e45a8ba531729311979))
+
+
+
 ## [1.170.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.1...v1.170.2) (2023-08-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * duplicate select form elements [#8147](https://github.com/EddieHubCommunity/LinkFree/issues/8147) ([#8220](https://github.com/EddieHubCommunity/LinkFree/issues/8220)) ([b1c5731](https://github.com/EddieHubCommunity/LinkFree/commit/b1c57314a9bf6be8c00afd3aaf5f778f79be80bd))
-
-
-
-## [1.169.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.8...v1.169.9) (2023-08-06)
-
-
-### Bug Fixes
-
-* event price ([#8531](https://github.com/EddieHubCommunity/LinkFree/issues/8531)) ([8e901e2](https://github.com/EddieHubCommunity/LinkFree/commit/8e901e282e903fd2d65ad52cffb996d1854ddea0)), closes [#8056](https://github.com/EddieHubCommunity/LinkFree/issues/8056)
 
 
 
