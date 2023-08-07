@@ -1,3 +1,12 @@
+## [1.170.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.3...v1.170.4) (2023-08-07)
+
+
+### Bug Fixes
+
+* remove submodule ([#8549](https://github.com/EddieHubCommunity/LinkFree/issues/8549)) ([288fbd9](https://github.com/EddieHubCommunity/LinkFree/commit/288fbd97eb22412955a51b0e2d184e2091daff12))
+
+
+
 ## [1.170.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.2...v1.170.3) (2023-08-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * update mongo query to show recent active repos ([#8541](https://github.com/EddieHubCommunity/LinkFree/issues/8541)) ([7537142](https://github.com/EddieHubCommunity/LinkFree/commit/753714288028c82d2b25f384589d0b5a162d11e9))
-
-
-
-## [1.169.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.9...v1.169.10) (2023-08-06)
-
-
-### Bug Fixes
-
-* duplicate select form elements [#8147](https://github.com/EddieHubCommunity/LinkFree/issues/8147) ([#8220](https://github.com/EddieHubCommunity/LinkFree/issues/8220)) ([b1c5731](https://github.com/EddieHubCommunity/LinkFree/commit/b1c57314a9bf6be8c00afd3aaf5f778f79be80bd))
 
 
 
