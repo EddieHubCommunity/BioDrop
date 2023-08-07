@@ -72,7 +72,7 @@ export default function UserEvents({
   
       {!manage && (
         <Select
-          id="event-type"
+          name="event-type"
           value={eventType}
           label="Select an event type"
           onChange={handleEventTypeChange}
