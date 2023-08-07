@@ -1,3 +1,12 @@
+# [1.170.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.10...v1.170.0) (2023-08-07)
+
+
+### Features
+
+* update mongo query to show recent active repos ([#8541](https://github.com/EddieHubCommunity/LinkFree/issues/8541)) ([7537142](https://github.com/EddieHubCommunity/LinkFree/commit/753714288028c82d2b25f384589d0b5a162d11e9))
+
+
+
 ## [1.169.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.9...v1.169.10) (2023-08-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
-
-
-
-## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
-
-
-### Bug Fixes
-
-* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
 
 
 
