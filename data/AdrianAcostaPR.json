@@ -1,0 +1,21 @@
+{
+  "name": "Adrian Acosta",
+  "bio": "Software Engineer (don't be fulled by the title, I'm still learning.). I work with Java on my 9-5, and I try to learn as much as I can from other technologies.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AdrianAcostaPR",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter (X)",
+      "url": "https://twitter.com/AdrianAcostaPR",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/adrian-acosta/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

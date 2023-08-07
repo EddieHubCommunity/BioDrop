@@ -1,64 +1,9 @@
 import Link from "@components/Link";
+import Select from "@components/form/Select";
 import Router, { useRouter } from "next/router";
-import {
-  MdPerson,
-  MdOutlineAutoGraph,
-  MdOutlineLink,
-  MdSpeakerNotes,
-  MdCalendarMonth,
-  MdOutlineBadge,
-} from "react-icons/md";
+import { classNames } from "utils/functions/classNames";
 
-let tabs = [
-  {
-    name: "Statistics",
-    href: "/account/statistics",
-    match: [],
-    icon: MdOutlineAutoGraph,
-    current: false,
-  },
-  {
-    name: "Profile",
-    href: "/account/manage/profile",
-    match: [],
-    icon: MdPerson,
-    current: false,
-  },
-  {
-    name: "Links",
-    href: "/account/manage/links",
-    match: ["/account/manage/link/[[...data]]"],
-    icon: MdOutlineLink,
-    current: false,
-  },
-  {
-    name: "Milestones",
-    href: "/account/manage/milestones",
-    match: ["/account/manage/milestone/[[...data]]"],
-    icon: MdOutlineBadge,
-    current: false,
-  },
-  {
-    name: "Events",
-    href: "/account/manage/events",
-    match: ["/account/manage/event/[[...data]]"],
-    icon: MdCalendarMonth,
-    current: false,
-  },
-  {
-    name: "Testimonials",
-    href: "/account/manage/testimonials",
-    match: [],
-    icon: MdSpeakerNotes,
-    current: false,
-  },
-];
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
-
-export default function Navigation() {
+export default function SubNav({ tabs }) {
   const router = useRouter();
   tabs = tabs.map((tab) => {
     if (router.pathname === tab.href || tab.match.includes(router.pathname)) {
@@ -76,21 +21,18 @@ export default function Navigation() {
         <label htmlFor="tabs" className="sr-only">
           Select a tab
         </label>
-        <select
+        <Select
           id="tabs"
-          name="tabs"
+          value={tabs.find((tab) => tab.current).name}
+          label="Select a tab"
+          options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           className="block w-full rounded-md 
           border-primary-low-medium/30 dark:border-primary-low-medium
           dark:text-primary-low
           dark:bg-primary-medium
           focus:border-secondary-medium-low focus:ring-secondary-medium-low"
-          defaultValue={tabs.find((tab) => tab.current).name}
           onChange={changeTab}
-        >
-          {tabs.map((tab) => (
-            <option key={tab.name}>{tab.name}</option>
-          ))}
-        </select>
+        />
       </div>
       <div className="hidden sm:block">
         <div className="border-b border-primary-low-medium/30">
