@@ -1,7 +1,6 @@
 const fields = ["name", "username", "tags", "location.name"];
 const defaultPath = "name"
 function getQueryString(queryArr) {
-    console.log(queryArr);
   const queryStrings = queryArr.map((term) => {
     const orConditions = fields.map((field) => `${field}:${term}`).join(" OR ");
     return `(${orConditions})`;
