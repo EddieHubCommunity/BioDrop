@@ -1,3 +1,12 @@
+## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+
+
+### Bug Fixes
+
+* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+
+
+
 ## [1.170.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.4...v1.170.5) (2023-08-07)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * increased top margin on alert box [#8210](https://github.com/EddieHubCommunity/LinkFree/issues/8210) ([#8286](https://github.com/EddieHubCommunity/LinkFree/issues/8286)) ([dfa4e49](https://github.com/EddieHubCommunity/LinkFree/commit/dfa4e491ad67bb3e9cf4f9da4548a144c6e78fc7))
-
-
-
-## [1.170.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.0...v1.170.1) (2023-08-07)
-
-
-### Bug Fixes
-
-* edit milestone icon overlaps milestone icon ([#8506](https://github.com/EddieHubCommunity/LinkFree/issues/8506)) ([935aee7](https://github.com/EddieHubCommunity/LinkFree/commit/935aee7cf2b4d21c89e4e699778d46f9a1e0a37d))
 
 
 
