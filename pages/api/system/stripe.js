@@ -13,6 +13,8 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "POST requests only" });
   }
 
+  // TODO: verify stripe signature
+
   const event = req.body;
   logger.info(`stripe: ${event.type}`);
   switch (event.type) {
