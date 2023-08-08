@@ -75,7 +75,6 @@ export default function Roadmap() {
     },
   ];
 
-
   return (
     <>
       <PageHead
