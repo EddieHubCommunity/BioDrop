@@ -1,3 +1,12 @@
+## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
+
+
+### Bug Fixes
+
+* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+
+
+
 ## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove submodule ([#8549](https://github.com/EddieHubCommunity/LinkFree/issues/8549)) ([288fbd9](https://github.com/EddieHubCommunity/LinkFree/commit/288fbd97eb22412955a51b0e2d184e2091daff12))
-
-
-
-## [1.170.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.2...v1.170.3) (2023-08-07)
-
-
-### Bug Fixes
-
-* sidenav active page highlighted ([#8308](https://github.com/EddieHubCommunity/LinkFree/issues/8308)) ([80fe021](https://github.com/EddieHubCommunity/LinkFree/commit/80fe02128e95ccc252bc3e45a8ba531729311979))
 
 
 
