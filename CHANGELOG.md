@@ -1,3 +1,12 @@
+## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
+
+
+### Bug Fixes
+
+* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
+
+
+
 ## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * sidenav active page highlighted ([#8308](https://github.com/EddieHubCommunity/LinkFree/issues/8308)) ([80fe021](https://github.com/EddieHubCommunity/LinkFree/commit/80fe02128e95ccc252bc3e45a8ba531729311979))
-
-
-
-## [1.170.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.1...v1.170.2) (2023-08-07)
-
-
-### Bug Fixes
-
-* increased top margin on alert box [#8210](https://github.com/EddieHubCommunity/LinkFree/issues/8210) ([#8286](https://github.com/EddieHubCommunity/LinkFree/issues/8286)) ([dfa4e49](https://github.com/EddieHubCommunity/LinkFree/commit/dfa4e491ad67bb3e9cf4f9da4548a144c6e78fc7))
 
 
 
