@@ -3,8 +3,9 @@ import ReactMarkdown from "react-markdown";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import TagSimple from "@components/tag/TagSimple";
+import { searchTagNameInInput } from "@services/utils/searchTags";
 
-export default function UserHorizontal({ profile, input, searchTagNameInInput }) {
+export default function UserHorizontal({ profile, input }) {
   return (
     <Link
       href={`/${profile.username}`}

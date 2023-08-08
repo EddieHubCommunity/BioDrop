@@ -13,6 +13,7 @@ import { getTags } from "./api/discover/tags";
 import { getUsers } from "./api/profiles";
 import config from "@config/app.json";
 import Pagination from "@components/Pagination";
+import { cleanSearchInput, searchTagNameInInput } from "@services/utils/searchTags";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
@@ -124,26 +125,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     setInputValue(keyword);
   };
 
-  // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
-  const cleanSearchInput = (searchInput) => {
-    return searchInput
-      .trim()
-      .replace(/\s{2,}/g, " ")
-      .replace(/,(?!\s)/g, ", ")
-      .toLowerCase();
-  };
 
-  const searchTagNameInInput = (searchInput, tagName) => {
-    const tags = cleanSearchInput(searchInput).split(",");
-
-    for (let tag of tags) {
-      if (tag.trim() === tagName.toLowerCase()) {
-        return true;
-      }
-    }
-
-    return false;
-  };
 
   const usersPerPage = 20;
   const indexOfLastUser = currentPage * usersPerPage;
@@ -201,14 +183,14 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} searchTagNameInInput={searchTagNameInInput} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} searchTagNameInInput={searchTagNameInInput} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
         </ul>
