@@ -1,0 +1,35 @@
+{
+  "name": "Manoj Kumar",
+  "bio": "DevOps Engineer with passion towards DevOps Open Source and Cloud Native ",
+  "tags": [
+    "Cloud",
+    "DevOps",
+    "AWS",
+    "K8s",
+    "Terraform",
+    "CI/CD",
+    "Open Source"
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/musalannagari-manoj-kumar-21601b168",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/infinite8loop",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/the_optimizer_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://www.manojkumar.site",
+      "icon": "FaRegUserCircle"
+    }
+  ]
+}
