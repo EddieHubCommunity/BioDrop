@@ -12,6 +12,7 @@ tasks:
       gp env PLAYWRIGHT_BROWSERS_PATH=0
       eval $(gp env -e)
       gp ports await 27017
+      nvm install 18
       npm run dev
 
 github:
