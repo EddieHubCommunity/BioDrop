@@ -10,7 +10,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
+import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
 import Pagination from "@components/Pagination";
 import { cleanSearchInput, searchTagNameInInput } from "@services/utils/searchTags";
@@ -22,7 +22,7 @@ export async function getStaticProps() {
   };
   let users = [];
   try {
-    users = await getUsers();
+    users = await getProfiles();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
