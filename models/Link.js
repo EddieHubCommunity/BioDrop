@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import config from "@config/app.json";
-const animations = config.animations;
+
+const animations = Object.values(config.animations);
 
 const LinkSchema = new mongoose.Schema(
   {
@@ -47,7 +48,11 @@ const LinkSchema = new mongoose.Schema(
     animation: {
       type: String,
       optional: true,
-      default: animations.none,
+      enum: {
+        values: animations,
+        message: "{VALUE} is not a supported for link",
+      },
+      default: config.animations.none,
       min: 2,
       max: 32,
     },
