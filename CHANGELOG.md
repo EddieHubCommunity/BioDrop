@@ -1,3 +1,12 @@
+## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
+
+
+### Bug Fixes
+
+* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
+
+
+
 ## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * select and storybook cleanup ([#8555](https://github.com/EddieHubCommunity/LinkFree/issues/8555)) ([b2a861e](https://github.com/EddieHubCommunity/LinkFree/commit/b2a861e75285e03ce116f32f48729c8db079a0eb))
-
-
-
-## [1.170.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.3...v1.170.4) (2023-08-07)
-
-
-### Bug Fixes
-
-* remove submodule ([#8549](https://github.com/EddieHubCommunity/LinkFree/issues/8549)) ([288fbd9](https://github.com/EddieHubCommunity/LinkFree/commit/288fbd97eb22412955a51b0e2d184e2091daff12))
 
 
 
