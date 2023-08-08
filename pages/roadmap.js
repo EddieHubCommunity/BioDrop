@@ -7,7 +7,6 @@ import PageHead from "@components/PageHead";
 import Link from "@components/Link";
 import { classNames } from "@services/utils/classNames";
 
-
 export default function Roadmap() {
   const releases = [
     {
