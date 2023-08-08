@@ -3,7 +3,7 @@ import { onlyText } from "react-children-utilities";
 import ClipboardDocumentIcon from "@heroicons/react/24/outline/ClipboardDocumentIcon";
 import ClipboardDocumentCheckIcon from "@heroicons/react/24/outline/ClipboardDocumentCheckIcon";
 
-const ClipboardCopy = ({ children }) => {
+const ClipboardCopy = ({ children, isButton }) => {
   const [isCopied, setIsCopied] = useState(false);
 
   async function copyTextToClipboard(text) {
@@ -28,27 +28,56 @@ const ClipboardCopy = ({ children }) => {
 
   return (
     <div className="relative">
-      <div className="bg-primary-medium-low absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300">
-        <button
-          type="button"
-          aria-label="Copy to Clipboard"
-          onClick={handleCopyClick}
-          className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
-        >
-          {isCopied ? (
-            <div className="inline-flex items-center text-green-500">
-              <ClipboardDocumentCheckIcon className="h-4 w-4 mr-2 text-green-500" />
-              <span className="text-green-500 text-sm">Copied!</span>
-            </div>
-          ) : (
-            <div className="inline-flex items-center transition-all ease-out">
-              <ClipboardDocumentIcon className="h-4 w-4 mr-2 text-primary-low" />
-              <span className="text-primary-low text-sm">Copy</span>
-            </div>
-          )}
-        </button>
-      </div>
-      {children}
+      {isButton ? (
+        <div className="flex items-center space-x-2 top-0 right-0 z-10 rounded-md transition ease-in-out duration-300">
+          <button
+            type="button"
+            aria-label="Copy to Clipboard"
+            onClick={handleCopyClick}
+            className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
+          >
+            {isCopied ? (
+              <div className="inline-flex items-center text-green-500">
+                <ClipboardDocumentCheckIcon className="h-4 w-4 mr-2 text-green-500" />
+                <span className="text-green-500 text-sm font-semibold leading-6 sm:block">
+                  Copied!
+                </span>
+              </div>
+            ) : (
+              <div className="inline-flex items-center transition-all ease-out">
+                <ClipboardDocumentIcon className="h-4 w-4 mr-2" />
+                <span className="text-sm font-semibold leading-6 text-gray-900">
+                  Copy
+                </span>
+              </div>
+            )}
+          </button>
+        </div>
+      ) : (
+        <>
+          <div className="bg-primary-medium-low absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300">
+            <button
+              type="button"
+              aria-label="Copy to Clipboard"
+              onClick={handleCopyClick}
+              className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
+            >
+              {isCopied ? (
+                <div className="inline-flex items-center text-green-500">
+                  <ClipboardDocumentCheckIcon className="h-4 w-4 mr-2 text-green-500" />
+                  <span className="text-green-500 text-sm">Copied!</span>
+                </div>
+              ) : (
+                <div className="inline-flex items-center transition-all ease-out">
+                  <ClipboardDocumentIcon className="h-4 w-4 mr-2 text-primary-low" />
+                  <span className="text-primary-low text-sm">Copy</span>
+                </div>
+              )}
+            </button>
+          </div>
+          {children}
+        </>
+      )}
     </div>
   );
 };

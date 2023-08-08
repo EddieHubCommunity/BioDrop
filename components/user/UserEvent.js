@@ -1,7 +1,11 @@
-import { format } from "date-fns";
 import { CalendarDaysIcon, MapPinIcon } from "@heroicons/react/20/solid";
+import Link from "@components/Link";
+import dateFormat from "@services/utils/dateFormat";
 
-import { PAID_OPTIONS } from "./constants";
+const PAID_OPTIONS = {
+  paid: "Paid",
+  free: "Free",
+};
 
 const UserEvent = ({ event, title }) => {
   return (
@@ -50,19 +54,19 @@ const UserEvent = ({ event, title }) => {
           </dt>
           <dd className="text-sm leading-6 text-gray-500">
             <time dateTime="2023-01-31">
-              {format(new Date(event?.date?.start), "MMMM dd, yyyy")}
+              {dateFormat({ format: "short", date: event.date?.start })}
             </time>
           </dd>
         </div>
       </dl>
       <div className="mt-6 border-t border-gray-900/5 px-6 py-6">
-        <a
+        <Link
           href={event?.url}
           target="_blank"
           className="text-sm font-semibold leading-6 text-gray-900"
         >
           Go to event <span aria-hidden="true">&rarr;</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

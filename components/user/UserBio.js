@@ -3,12 +3,12 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
-import ClipboardCopyButton from "@components/ClipboardCopyButton";
 import FallbackImage from "@components/FallbackImage";
 import Tag from "@components/tag/Tag";
 
 import UserQrModal from "./UserQrModal";
 import UserSocial from "./UserSocials";
+import ClipboardCopy from "@components/ClipboardCopy";
 
 const LinkRenderer = ({ href, children }) => (
   <Link className="underline text-blue-900" target="_blank" href={href}>
@@ -55,8 +55,8 @@ const UserBio = ({ user, BASE_URL }) => {
       </div>
 
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="mx-auto flex max-w-2xl items-center justify-between gap-x-8 lg:mx-0 lg:max-w-none">
-          <div className="flex items-center gap-x-6">
+        <div className="mx-auto flex max-w-2xl items-center justify-between gap-8 lg:mx-0 lg:max-w-none flex-wrap">
+          <div className="flex items-center gap-x-6 ">
             <FallbackImage
               height={120}
               width={120}
@@ -89,7 +89,9 @@ const UserBio = ({ user, BASE_URL }) => {
           </div>
           <div className="flex items-center gap-x-4 sm:gap-x-6">
             <div className="flex items-center justify-center">
-              <ClipboardCopyButton link={`${BASE_URL}/${user.username}`} />
+              <ClipboardCopy
+                isButton
+              >{`${BASE_URL}/${user.username}`}</ClipboardCopy>
             </div>
             <button
               onClick={() => setQrShow(true)}

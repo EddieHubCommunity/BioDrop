@@ -17,7 +17,6 @@
     "@tailwindcss/typography": "^0.5.9",
     "@vercel/analytics": "^1.0.1",
     "autoprefixer": "^10.4.14",
-    "date-fns": "^2.30.0",
     "dotenv": "^16.3.1",
     "file-saver": "^2.0.5",
     "husky": "^8.0.3",

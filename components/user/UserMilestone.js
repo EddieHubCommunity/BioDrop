@@ -1,10 +1,10 @@
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import { formatDistance } from "date-fns";
 
 import getIcon from "@components/Icon";
 import Edit from "@components/account/manage/Edit";
 import { classNames } from "utils/functions/classNames";
+import dateFormat from "@services/utils/dateFormat";
 
 export default function UserMilestone({ milestone, isLast, manage = false }) {
   const DisplayIcon = getIcon(milestone.icon);
@@ -52,7 +52,7 @@ export default function UserMilestone({ milestone, isLast, manage = false }) {
           dateTime={milestone.date}
           className="flex-none py-0.5 text-xs leading-5 text-gray-500"
         >
-          {formatDistance(new Date(milestone.date), new Date())} ago.
+          {dateFormat({ format: "short", date: new Date(milestone.date) })}
         </time>
       </div>
     );
