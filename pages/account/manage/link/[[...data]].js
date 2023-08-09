@@ -16,7 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
-import { sendRequest } from "@services/utils/apiRequests";
+import { formatErrorMsg, sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -84,18 +84,11 @@ export default function ManageLink({ BASE_URL, username, link }) {
       setEdit(true);
       Router.push(`${BASE_URL}/account/manage/links?success=true`);
     } catch (err) {
-      const errMessage =
-        typeof err === "string"
-          ? err
-          : Object.keys(err)
-              .map((val) => `${val} is required`)
-              .join(", ");
-
       setShowNotification({
         show: true,
         type: "error",
         message: "Profile update failed",
-        additionalMessage: `Request failed! ${errMessage}`,
+        additionalMessage: `Request failed! ${formatErrorMsg(err)}`,
       });
     }
   };

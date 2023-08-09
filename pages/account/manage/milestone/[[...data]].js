@@ -16,7 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
-import { sendRequest } from "@services/utils/apiRequests";
+import { formatErrorMsg, sendRequest } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -86,17 +86,11 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
       Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
     } catch (err) {
-      const errMessage =
-        typeof err === "string"
-          ? err
-          : Object.keys(err)
-              .map((val) => `${val} is required`)
-              .join(", ");
       setShowNotification({
         show: true,
         type: "error",
         message: "Milestone update failed",
-        additionalMessage: `Request Failed! ${errMessage}.`,
+        additionalMessage: `Request Failed! ${formatErrorMsg(err)}.`,
       });
     }
   };

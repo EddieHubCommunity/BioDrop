@@ -15,7 +15,7 @@ import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
-import { sendRequest } from "@services/utils/apiRequests";
+import { formatErrorMsg, sendRequest } from "@services/utils/apiRequests";
 import dateFormat from "@services/utils/dateFormat";
 
 export async function getServerSideProps(context) {
@@ -124,18 +124,11 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
       Router.push(`${BASE_URL}/account/manage/events?success=true`);
     } catch (err) {
-      const errMessage =
-        typeof err === "string"
-          ? err
-          : Object.keys(err)
-              .map((val) => `${val} is required`)
-              .join(", ");
-
       setShowNotification({
         show: true,
         type: "error",
         message: "Profile update failed",
-        additionalMessage: `Request failed! ${errMessage}`,
+        additionalMessage: `Request failed! ${formatErrorMsg(err)}`,
       });
     }
   };

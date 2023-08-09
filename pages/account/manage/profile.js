@@ -18,7 +18,7 @@ import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
-import { sendRequest } from "@services/utils/apiRequests";
+import { sendRequest, formatErrorMsg } from "@services/utils/apiRequests";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -91,18 +91,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         additionalMessage: "Your profile has been updated successfully",
       });
     } catch (err) {
-      const errMessage =
-        typeof err === "string"
-          ? err
-          : Object.keys(err)
-              .map((val) => `${val} is required`)
-              .join(", ");
-
       setShowNotification({
         show: true,
         type: "error",
         message: "Profile update failed",
-        additionalMessage: `Request failed! ${errMessage}`,
+        additionalMessage: `Request failed! ${formatErrorMsg(err)}`,
       });
     }
   };

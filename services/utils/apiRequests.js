@@ -20,3 +20,13 @@ export async function sendRequest(requestConfig) {
     throw err;
   }
 }
+
+export function formatErrorMsg(err) {
+  const errMessage =
+    typeof err === "string"
+      ? err
+      : Object.keys(err)
+          .map((val) => `${val} is required`)
+          .join(", ");
+  return errMessage;
+}
