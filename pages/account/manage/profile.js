@@ -78,7 +78,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
     try {
       const update = await sendRequest({
-        url: `${BASE_URL}/api/account/manage/profile`,
+        url: "/api/account/manage/profile",
         method: "PUT",
         body: { name, bio, tags, layout },
       });

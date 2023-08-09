@@ -72,10 +72,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       date,
       isGoal,
     };
-    let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
+    let apiUrl = "/api/account/manage/milestone/";
     if (milestone._id) {
       putMilestone = { ...putMilestone, _id: milestone._id };
-      apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
+      apiUrl = `/api/account/manage/milestone/${milestone._id}`;
     }
 
     try {
@@ -104,7 +104,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const deleteItem = async () => {
     try {
       await sendRequest({
-        url: `${BASE_URL}/api/account/manage/milestone/${milestone._id}`,
+        url: `/api/account/manage/milestone/${milestone._id}`,
         method: "DELETE",
       });
       Router.push(`${BASE_URL}/account/manage/milestones`);

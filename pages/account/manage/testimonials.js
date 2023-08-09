@@ -5,7 +5,6 @@ import { ReactSortable } from "react-sortablejs";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 import Bars2Icon from "@heroicons/react/24/outline/Bars2Icon";
 
-import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -42,12 +41,11 @@ export async function getServerSideProps(context) {
   return {
     props: {
       testimonials,
-      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }
 
-export default function ManageTestimonials({ BASE_URL, testimonials }) {
+export default function ManageTestimonials({ testimonials }) {
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -63,7 +61,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const toggle = async (_id) => {
     try {
       const updatedTestimonials = await sendRequest({
-        url: `${BASE_URL}/api/account/manage/testimonials`,
+        url: "/api/account/manage/testimonials",
         method: "PATCH",
         body: {
           _id,
@@ -91,7 +89,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const saveOrder = async () => {
     try {
       const updatedTestimonials = await sendRequest({
-        url: `${BASE_URL}/api/account/manage/testimonials`,
+        url: "/api/account/manage/testimonials",
         method: "PUT",
         body: testimonialList,
       });

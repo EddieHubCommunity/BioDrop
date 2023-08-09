@@ -111,10 +111,10 @@ export default function ManageEvent({ BASE_URL, event }) {
       price: { startingFrom: price },
       color,
     };
-    let apiUrl = `${BASE_URL}/api/account/manage/event/`;
+    let apiUrl = "/api/account/manage/event/";
     if (event._id) {
       putEvent = { ...putEvent, _id: event._id };
-      apiUrl = `${BASE_URL}/api/account/manage/event/${event._id}`;
+      apiUrl = `/api/account/manage/event/${event._id}`;
     }
     try {
       await sendRequest({
@@ -143,7 +143,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const deleteItem = async () => {
     try {
       await sendRequest({
-        url: `${BASE_URL}/api/account/manage/event/${event._id}`,
+        url: `/api/account/manage/event/${event._id}`,
         method: "DELETE",
       });
       Router.push(`${BASE_URL}/account/manage/events`);

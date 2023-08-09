@@ -1,6 +1,9 @@
+import { clientEnv } from "@config/schemas/clientSchema";
+
 export async function sendRequest(requestConfig) {
+  const url = `${clientEnv.NEXT_PUBLIC_BASE_URL}${requestConfig.url}`;
   try {
-    const res = await fetch(requestConfig.url, {
+    const res = await fetch(url, {
       method: requestConfig.method ? requestConfig.method : "GET",
       headers: {
         "Content-Type": "application/json",

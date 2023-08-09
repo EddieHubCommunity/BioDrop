@@ -68,11 +68,11 @@ export default function ManageLink({ BASE_URL, username, link }) {
     let method = "POST";
     let putLink = { group, name, url, icon, isEnabled, isPinned };
 
-    let apiUrl = `${BASE_URL}/api/account/manage/link`;
+    let apiUrl = "/api/account/manage/link";
     if (edit) {
       method = "PUT";
       putLink = { ...putLink, _id: link._id };
-      apiUrl = `${BASE_URL}/api/account/manage/link/${link._id}`;
+      apiUrl = `/api/account/manage/link/${link._id}`;
     }
 
     try {
@@ -103,7 +103,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const deleteItem = async () => {
     try {
       await sendRequest({
-        url: `${BASE_URL}/api/account/manage/link/${link._id}`,
+        url: `/api/account/manage/link/${link._id}`,
         method: "DELETE",
       });
       Router.push(`${BASE_URL}/account/manage/links`);
