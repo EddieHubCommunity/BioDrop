@@ -58,6 +58,25 @@ export default function ManageTestimonials({ testimonials }) {
     testimonials || []
   );
 
+  const updateSuccess = () => {
+    setShowNotification({
+      show: true,
+      type: "success",
+      message: "Testimonials updated",
+      additionalMessage:
+        "Your profile information has been saved successfully.",
+    });
+  };
+
+  const updateFailed = (err) => {
+    setShowNotification({
+      show: true,
+      type: "error",
+      message: "Testimonials update failed",
+      additionalMessage: err,
+    });
+  };
+
   const toggle = async (_id) => {
     try {
       const updatedTestimonials = await sendRequest({
@@ -69,20 +88,9 @@ export default function ManageTestimonials({ testimonials }) {
         },
       });
       setTestimonialList(updatedTestimonials);
-      setShowNotification({
-        show: true,
-        type: "success",
-        message: "Testimonials updated",
-        additionalMessage:
-          "Your profile information has been saved successfully.",
-      });
+      updateSuccess();
     } catch (err) {
-      setShowNotification({
-        show: true,
-        type: "error",
-        message: "Testimonials update failed",
-        additionalMessage: err,
-      });
+      updateFailed(err);
     }
   };
 
@@ -95,20 +103,9 @@ export default function ManageTestimonials({ testimonials }) {
       });
       setTestimonialListPrevious(updatedTestimonials);
       setReorder(false);
-      setShowNotification({
-        show: true,
-        type: "success",
-        message: "Testimonials updated",
-        additionalMessage:
-          "Your profile information has been saved successfully.",
-      });
+      updateSuccess();
     } catch (err) {
-      setShowNotification({
-        show: true,
-        type: "error",
-        message: "Testimonials update failed",
-        additionalMessage: err,
-      });
+      updateFailed(err);
     }
   };
 
