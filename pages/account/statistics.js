@@ -84,12 +84,27 @@ export async function getServerSideProps(context) {
   }, 0);
   data.links.clicks = totalClicks;
 
-  data.profile.daily = data.profile.daily.slice(-30).map((day) => {
-    return {
-      views: day.views,
-      date: day.date,
-    };
+  const currentDate = new Date();
+  const last30Days = Array.from({ length: 30 }, (_, index) => {
+    const date = new Date(currentDate);
+    date.setDate(currentDate.getDate() - index);
+    return date.toISOString().split('T')[0]; // Get date in "YYYY-MM-DD" format
+  }).reverse();
+
+  const dailyStatsMap = new Map(data.profile.daily.map(stat => [stat.date, stat]));
+  const last30DaysStats = last30Days.map(date => ({
+    views: dailyStatsMap.has(date) ? dailyStatsMap.get(date).views : 0,
+    date: date,
+  }));
+
+  // Ensure that all last 30 days are included with zero views if not present
+  last30DaysStats.forEach(day => {
+    if (!dailyStatsMap.has(day.date)) {
+      day.views = 0;
+    }
   });
+
+  data.profile.daily = last30DaysStats;
 
   return {
     props: {
@@ -100,6 +115,7 @@ export async function getServerSideProps(context) {
     },
   };
 }
+
 
 export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
