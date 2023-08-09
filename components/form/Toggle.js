@@ -1,8 +1,5 @@
 import { Switch } from "@headlessui/react";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { classNames } from "@services/utils/classNames";
 
 export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
   let aria = {};

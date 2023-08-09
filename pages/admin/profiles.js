@@ -9,7 +9,7 @@ import { getProfiles } from "../api/admin/profiles";
 
 import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
+import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
 
@@ -59,7 +59,7 @@ export default function USERS({ profiles }) {
       <Page>
         <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Profiles</h1>
-        <ul role="list" className="divide-y divide-gray-100">
+        <ul role="list" className="divide-y divide-primary-low">
           {profiles.map((profile) => (
             <li
               key={profile.username}
@@ -67,19 +67,43 @@ export default function USERS({ profiles }) {
             >
               <div className="flex gap-x-4">
                 <Image
-                  className="flex-none rounded-full bg-gray-50"
+                  className="flex-none rounded-full bg-primary-low"
                   width={48}
                   height={48}
                   src={`https://github.com/${profile.username}.png`}
                   alt="description of image"
                 />
                 <div className="min-w-0 flex-auto">
-                  <p className="text-sm font-semibold leading-6">
+                  <p className="text-sm font-semibold leading-6 flex gap-2">
                     <span className="absolute inset-x-0 -top-px bottom-0" />
                     <Link href={`/${profile.username}`}>
                       <span className="absolute inset-x-0 -top-px bottom-0" />
                       {profile.name}
                     </Link>
+                    <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+                      Views {profile.views}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
+                      Status{" "}
+                      {profile.isEnabled || profile.isEnabled === undefined
+                        ? "Enabled"
+                        : "Disabled"}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-yellow-600/20">
+                      Links {profile.links?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-blue-700/10">
+                      Milestones {profile.milestones?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
+                      Events {profile.events?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
+                      Testimonials {profile.testimonials?.length}
+                    </span>
+                    <span className="inline-flex items-center rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-secondary-high ring-1 ring-inset ring-secondary-high/10">
+                      Repos {profile.repos?.length}
+                    </span>
                   </p>
                   <p className="mt-1 flex text-xs leading-5 text-primary-medium dark:text-primary-low">
                     <span className="relative truncate hover:underline">
@@ -94,7 +118,7 @@ export default function USERS({ profiles }) {
                     {profile.source}
                   </p>
                   <p className="mt-1 text-xs leading-5 text-primary-medium dark:text-primary-low">
-                    UpdateAt{" "}
+                    Update at{" "}
                     <time dateTime={profile.updatedAt}>
                       {profile.updatedAt}
                     </time>
