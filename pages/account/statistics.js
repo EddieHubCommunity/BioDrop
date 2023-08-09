@@ -90,21 +90,21 @@ export async function getServerSideProps(context) {
     date.setDate(currentDate.getDate() - index);
     return date.toISOString().split('T')[0]; // Get date in "YYYY-MM-DD" format
   }).reverse();
-
-  const dailyStatsMap = new Map(data.profile.daily.map(stat => [stat.date, stat]));
-  const last30DaysStats = last30Days.map(date => ({
-    views: dailyStatsMap.has(date) ? dailyStatsMap.get(date).views : 0,
-    date: date,
-  }));
-
-  // Ensure that all last 30 days are included with zero views if not present
-  last30DaysStats.forEach(day => {
-    if (!dailyStatsMap.has(day.date)) {
-      day.views = 0;
+  
+  // Ensure that each day has an entry in the dailyStatsMap
+  last30Days.forEach(date => {
+    if (!dailyStatsMap.has(date)) {
+      dailyStatsMap.set(date, { views: 0, date: date }); // Create a placeholder entry
     }
   });
-
+  
+  const last30DaysStats = last30Days.map(date => ({
+    views: dailyStatsMap.get(date).views,
+    date: date,
+  }));
+  
   data.profile.daily = last30DaysStats;
+  
 
   return {
     props: {
