@@ -15,7 +15,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
 import Alert from "@components/Alert";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);

@@ -3,7 +3,7 @@ import ChevronDoubleLeftIcon from "@heroicons/react/24/outline/ChevronDoubleLeft
 import ChevronDoubleRightIcon from "@heroicons/react/24/outline/ChevronDoubleRightIcon";
 import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
 import ChevronLeftIcon from "@heroicons/react/24/outline/ChevronLeftIcon";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 const Pagination = ({
   data,

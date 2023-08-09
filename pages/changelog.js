@@ -1,5 +1,5 @@
 import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";

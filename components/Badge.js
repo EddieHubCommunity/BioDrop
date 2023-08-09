@@ -1,5 +1,5 @@
 import Link from "./Link";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export default function Badge({
   title,

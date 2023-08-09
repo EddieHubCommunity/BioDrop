@@ -1,6 +1,6 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 export function EventTabs({ tabs, eventType, setEventType }) {
   const changeTab = (e, value) => {
     e.preventDefault();

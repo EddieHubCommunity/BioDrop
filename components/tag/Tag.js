@@ -1,6 +1,6 @@
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Badge from "../Badge";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export default function Tag({ name, total, selected, onClick }) {
   return (

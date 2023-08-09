@@ -7,7 +7,7 @@ import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 import FaGithub from "@components/icons/FaGithub";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
