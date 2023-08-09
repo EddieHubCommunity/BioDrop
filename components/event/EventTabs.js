@@ -14,7 +14,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
     <div>
       <div className="sm:hidden">
         <Select
-          id="tabs"
+          name="tabs"
           label="Select a tab"
           value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
