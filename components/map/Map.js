@@ -8,6 +8,8 @@ export default function Map({ users }) {
     [90, 180], // Northeast coordinates
   ];
 
+  const windowWidth = window.innerWidth;
+
   return (
     <MapContainer
       center={[0, 0]}
@@ -17,7 +19,7 @@ export default function Map({ users }) {
       scrollWheelZoom={true}
       maxBounds={boundsMap}
       maxBoundsViscosity={0.7}
-      style={{ height: "100vh" }}
+      style={windowWidth > 1000 ? {height: "100vh"}:{height: "40vh"}}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

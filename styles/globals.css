@@ -45,6 +45,15 @@ code.language-unknown::after {
   }
 }
 
+@media screen and (max-width:1000px){
+  .h-screen{
+    height:60vh !important;
+    margin:auto 50px !important;
+  }
+  
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
