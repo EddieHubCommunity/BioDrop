@@ -11,7 +11,7 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getUserApi } from "pages/api/profiles/[username]";
 import UserProfile from "@components/user/UserProfile";
 import Input from "@components/form/Input";

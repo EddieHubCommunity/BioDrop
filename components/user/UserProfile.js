@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Link from "@components/Link";
 import Badge from "@components/Badge";
 import Button from "@components/Button";
@@ -135,7 +135,7 @@ function UserProfile({ BASE_URL, data }) {
                   </Link>
                 ))}
               </div>
-              <div className="w-full flex items-center justify-center">
+              <div className=" flex items-center justify-center w-full overflow-hidden">
                 <ClipboardCopy>
                   <p className="dark:text-gray-300 border p-3 rounded-md">
                     {`${BASE_URL}/${data.username}`}

@@ -1,4 +1,5 @@
 import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
+import { classNames } from "@services/utils/classNames";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -9,6 +10,13 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "GitHub Repos showcase",
+      description:
+        "Now you can add repos to your Profile and they also appear in the global repos page",
+      type: "addition",
+      date: "2023-08-01",
+    },
     {
       title: "Share profile on social media",
       description:
@@ -126,9 +134,10 @@ export default function Changelog() {
                     </p>
                     <div className="ml-2 flex flex-shrink-0">
                       <p
-                        className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
-                          colors[change.type]
-                        }`}
+                        className={classNames(
+                          colors[change.type],
+                          "inline-flex rounded-full px-2 text-xs font-semibold leading-5"
+                        )}
                       >
                         {change.type}
                       </p>

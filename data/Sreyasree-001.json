@@ -1,0 +1,36 @@
+{
+  "name": "Sreyasree Sasmal",
+  "bio": " || Web developer | Frontend ||",
+  "tags": ["Open Source", "Frontend", "Web-development", "HTML", "CSS"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sreyasree-sasmal-a5274324b/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sreyasree-001"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/profile.php?id=100087570413361&mibextid=ZbWKwL"
+    }
+  ],
+  "links": [
+    {
+      "name": "Linkedin: Let's connect",
+      "url": "https://www.linkedin.com/in/sreyasree-sasmal-a5274324b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github: Sreyasree-001",
+      "url": "https://github.com/Sreyasree-001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Find me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100087570413361&mibextid=ZbWKwL",
+      "icon": "FaFacebook"
+    }
+  ]
+}

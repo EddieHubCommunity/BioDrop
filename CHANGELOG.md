@@ -1,45 +1,45 @@
-# [1.158.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.4...v1.158.0) (2023-07-20)
-
-
-### Features
-
-* codeql checking ([#8228](https://github.com/EddieHubCommunity/LinkFree/issues/8228)) ([62eb119](https://github.com/EddieHubCommunity/LinkFree/commit/62eb119bec00389534553b9f620d4d1795995450))
-
-
-
-## [1.157.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.3...v1.157.4) (2023-07-20)
+## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
 
 
 ### Bug Fixes
 
-* docker compose to new file naming ([#8267](https://github.com/EddieHubCommunity/LinkFree/issues/8267)) ([7014b67](https://github.com/EddieHubCommunity/LinkFree/commit/7014b676e671bb8e988b1b06a844b38266d26671))
+* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
 
 
 
-## [1.157.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.2...v1.157.3) (2023-07-19)
-
-
-### Bug Fixes
-
-* remove reviewpad action ([#8251](https://github.com/EddieHubCommunity/LinkFree/issues/8251)) ([ba68e8e](https://github.com/EddieHubCommunity/LinkFree/commit/ba68e8ec1eb07a8d1b12064969cfee1fcb17f96b))
-
-
-
-## [1.157.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.1...v1.157.2) (2023-07-18)
+## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
 
 
 ### Bug Fixes
 
-* profile card hover dark mode ([#8192](https://github.com/EddieHubCommunity/LinkFree/issues/8192)) ([d59fed3](https://github.com/EddieHubCommunity/LinkFree/commit/d59fed382ef3dd9ec5b93f4a3103f8e5e05cf17e))
+* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
 
 
 
-## [1.157.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.157.0...v1.157.1) (2023-07-18)
+## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
 
 
 ### Bug Fixes
 
-* placeholder searching with places ([#8243](https://github.com/EddieHubCommunity/LinkFree/issues/8243)) ([169c1a6](https://github.com/EddieHubCommunity/LinkFree/commit/169c1a60893519c48e4e7fe68664883920909170))
+* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+
+
+
+## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
+
+
+### Bug Fixes
+
+* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
+
+
+
+## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+
+
+### Bug Fixes
+
+* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
 
 
 

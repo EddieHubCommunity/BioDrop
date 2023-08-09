@@ -1,7 +1,9 @@
-import { getUsers } from "../profiles";
+import connectMongo from "@config/mongo";
+import { getProfiles } from "../profiles";
 import logger from "@config/logger";
 
 export default async function handler(req, res) {
+  await connectMongo();
   const { slug } = req.query;
 
   if (req.method != "GET") {
@@ -24,7 +26,7 @@ export default async function handler(req, res) {
   let filteredUsers = [];
 
   try {
-    const users = await getUsers();
+    const users = await getProfiles();
 
     filteredUsers = users.flat().filter((user) => {
       const nameLower = user.name.toLowerCase();
