@@ -1,6 +1,6 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 export function EventTabs({ tabs, eventType, setEventType }) {
   const changeTab = (e, value) => {
     e.preventDefault();
@@ -40,11 +40,11 @@ export function EventTabs({ tabs, eventType, setEventType }) {
               >
                 {
                   <tab.icon
-                    className={`${
+                    className={
                       tab.key === "all" || tab.key === "cfpOpen"
                         ? "text-lg"
                         : "text-xl"
-                    }`}
+                    }
                   />
                 }
                 <span>
