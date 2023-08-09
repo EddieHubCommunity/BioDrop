@@ -38,6 +38,7 @@ export async function getEvents() {
           url: { $first: "$events.url" },
           name: { $first: "$events.name" },
           description: { $first: "$events.description" },
+          price: {$first: "$events.price"},
           isEnabled: { $first: "$isEnabled" },
         },
       },

@@ -1,45 +1,45 @@
-## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
+## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
 
 
 ### Bug Fixes
 
-* dark/light mode for admin page ([#8492](https://github.com/EddieHubCommunity/LinkFree/issues/8492)) ([a0fc4be](https://github.com/EddieHubCommunity/LinkFree/commit/a0fc4be76c15ad4d4cd676e00cb847375ad2c0a6))
+* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
 
 
 
-# [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
-
-
-### Features
-
-* delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
-
-
-
-## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
+## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
 
 
 ### Bug Fixes
 
-* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
+* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
 
 
 
-## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
-
-
-### Bug Fixes
-
-* milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
-
-
-
-## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
+## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
 
 
 ### Bug Fixes
 
-* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
+* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
+
+
+
+## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+
+
+### Bug Fixes
+
+* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+
+
+
+## [1.170.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.4...v1.170.5) (2023-08-07)
+
+
+### Bug Fixes
+
+* select and storybook cleanup ([#8555](https://github.com/EddieHubCommunity/LinkFree/issues/8555)) ([b2a861e](https://github.com/EddieHubCommunity/LinkFree/commit/b2a861e75285e03ce116f32f48729c8db079a0eb))
 
 
 
