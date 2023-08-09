@@ -2,6 +2,7 @@ import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
+import { classNames } from "@services/utils/classNames";
 
 export default function UserLink({
   BASE_URL,
@@ -24,9 +25,10 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow ${
-        isEnabled ? "" : "opacity-50"
-      }`}
+      className={classNames(
+        !isEnabled && "opacity-50",
+        "rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40 grow"
+      )}
       style={{
         "--hover-color": colors[link.icon],
       }}
@@ -42,11 +44,12 @@ export default function UserLink({
       )}
       {manage && (
         <span
-          className={`inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-primary-high/10 ${
+          className={classNames(
             link.isEnabled
               ? "bg-tertiary-low text-tertiary-high"
-              : "bg-primary-low text-primary-high"
-          }`}
+              : "bg-primary-low text-primary-high",
+            "inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-primary-high/10"
+          )}
         >
           {link.isEnabled ? "Enabled" : "Disabled"}
         </span>
