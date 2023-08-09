@@ -82,9 +82,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       await sendRequest({
         url: apiUrl,
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: putMilestone,
       });
       Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
@@ -109,9 +106,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       await sendRequest({
         url: `${BASE_URL}/api/account/manage/milestone/${milestone._id}`,
         method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
       });
       Router.push(`${BASE_URL}/account/manage/milestones`);
     } catch (err) {

@@ -80,9 +80,6 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       const update = await sendRequest({
         url: `${BASE_URL}/api/account/manage/profile`,
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: { name, bio, tags, layout },
       });
 

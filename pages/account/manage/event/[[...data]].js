@@ -120,9 +120,6 @@ export default function ManageEvent({ BASE_URL, event }) {
       await sendRequest({
         url: apiUrl,
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: putEvent,
       });
       Router.push(`${BASE_URL}/account/manage/events?success=true`);
@@ -148,9 +145,6 @@ export default function ManageEvent({ BASE_URL, event }) {
       await sendRequest({
         url: `${BASE_URL}/api/account/manage/event/${event._id}`,
         method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
       });
       Router.push(`${BASE_URL}/account/manage/events`);
     } catch (err) {

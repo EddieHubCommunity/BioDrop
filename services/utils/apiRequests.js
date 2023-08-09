@@ -2,7 +2,9 @@ export async function sendRequest(requestConfig) {
   try {
     const res = await fetch(requestConfig.url, {
       method: requestConfig.method ? requestConfig.method : "GET",
-      headers: requestConfig.headers ? requestConfig.headers : {},
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: requestConfig.body ? JSON.stringify(requestConfig.body) : null,
     });
     const data = await res.json();

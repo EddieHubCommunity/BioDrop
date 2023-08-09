@@ -79,9 +79,6 @@ export default function ManageLink({ BASE_URL, username, link }) {
       await sendRequest({
         url: apiUrl,
         method,
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: putLink,
       });
       setEdit(true);
@@ -108,9 +105,6 @@ export default function ManageLink({ BASE_URL, username, link }) {
       await sendRequest({
         url: `${BASE_URL}/api/account/manage/link/${link._id}`,
         method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-        },
       });
       Router.push(`${BASE_URL}/account/manage/links`);
     } catch (err) {

@@ -65,9 +65,6 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
       const updatedTestimonials = await sendRequest({
         url: `${BASE_URL}/api/account/manage/testimonials`,
         method: "PATCH",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: {
           _id,
           isPinned: !testimonialList.find((t) => t._id === _id).isPinned,
@@ -96,9 +93,6 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
       const updatedTestimonials = await sendRequest({
         url: `${BASE_URL}/api/account/manage/testimonials`,
         method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
         body: testimonialList,
       });
       setTestimonialListPrevious(updatedTestimonials);
