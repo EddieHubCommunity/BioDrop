@@ -79,6 +79,8 @@ export async function getServerSideProps(context) {
     profile.links.some((pLink) => pLink.url === link.url)
   );
 
+  const dailyStatsMap = new Map(data.profile.daily.map(stat => [stat.date, stat]));
+
   const totalClicks = data.links.individual.reduce((acc, link) => {
     return acc + link.clicks;
   }, 0);
