@@ -1,3 +1,12 @@
+## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
+
+
+### Bug Fixes
+
+* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
+
+
+
 ## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
-
-
-
-## [1.170.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.4...v1.170.5) (2023-08-07)
-
-
-### Bug Fixes
-
-* select and storybook cleanup ([#8555](https://github.com/EddieHubCommunity/LinkFree/issues/8555)) ([b2a861e](https://github.com/EddieHubCommunity/LinkFree/commit/b2a861e75285e03ce116f32f48729c8db079a0eb))
 
 
 
