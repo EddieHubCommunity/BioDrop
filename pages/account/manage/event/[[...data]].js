@@ -159,7 +159,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/events`);
+    return Router.push(`${BASE_URL}/account/manage/events?deleted=true`);
   };
 
   return (

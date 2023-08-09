@@ -43,7 +43,7 @@ export async function getServerSideProps(context) {
 
 export default function ManageMilestones({ milestones }) {
   const router = useRouter();
-  const { success } = router.query;
+  const { success, deleted } = router.query;
 
   return (
     <>
@@ -59,7 +59,12 @@ export default function ManageMilestones({ milestones }) {
             message="Milestone Created/Updated Successfully"
           />
         )}
-
+        {deleted && (
+          <Alert
+            type="success"
+            message={"Milestone Deleted Successfully"}
+          />
+        )}
         <Navigation />
 
         <Button href="/account/manage/milestone">
