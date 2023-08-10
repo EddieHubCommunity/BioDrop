@@ -5,13 +5,13 @@ import {
   MdOutlinePeople,
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/Edit";
 import dateFormat from "@services/utils/dateFormat";
+import Markdown from "@components/Markdown";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -84,9 +84,9 @@ export default function EventCard({ manage, event, usernames }) {
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>{endTime}</span>
               </p>
-              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
+              <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
-              </ReactMarkdown>
+              </Markdown>
               <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
                 <div className="flex gap-2 flex-wrap">
                   {(event.isVirtual ||
