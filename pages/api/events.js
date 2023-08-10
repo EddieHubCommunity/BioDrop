@@ -1,4 +1,5 @@
 import logger from "@config/logger";
+import connectMongo from "@config/mongo";
 import Profile from "@models/Profile";
 import dateFormat from "@services/utils/dateFormat";
 
@@ -14,6 +15,7 @@ export default async function handler(req, res) {
 }
 
 export async function getEvents() {
+  await connectMongo();
   let events = [];
   try {
     events = await Profile.aggregate([
@@ -36,6 +38,7 @@ export async function getEvents() {
           url: { $first: "$events.url" },
           name: { $first: "$events.name" },
           description: { $first: "$events.description" },
+          price: {$first: "$events.price"},
           isEnabled: { $first: "$isEnabled" },
         },
       },
