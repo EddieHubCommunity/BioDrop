@@ -1,14 +1,13 @@
 import logger from "@config/logger";
 
 const dbChangesLoggerMiddleware = (schema) => {
-  let isUpdateOperation;
   let username;
   let collection;
   let changesBefore;
   let changesAfter;
 
   async function beforeUpdate(next) {
-    isUpdateOperation = this.op && this.op === "findOneAndUpdate";
+    const isUpdateOperation = this.op && this.op === "findOneAndUpdate";
 
     username = isUpdateOperation ? this._conditions.username : this.username;
     collection = isUpdateOperation ? this._collection.collectionName : this.constructor.collection.collectionName;
