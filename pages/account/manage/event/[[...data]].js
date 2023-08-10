@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
 import dateFormat from "@services/utils/dateFormat";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -212,9 +213,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <Textarea
                       name="description"
-                      label="Description"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       placeholder="Description of the event from their website"
