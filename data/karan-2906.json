@@ -1,0 +1,17 @@
+{
+  "name": "Karan Gandhi",
+  "bio": "Javascript | Node.js | TailwindCSS ",
+  "tags": ["Javascript", "Node.js", "TailwindCSS", "MongoDB"],
+  "links": [
+    {
+      "name": "Let's collaborate on some amazing project",
+      "url": "https://github.com/karan-2906",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn for some achievement bragging!",
+      "url": "https://www.linkedin.com/in/karan-gandhi-15082222a/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

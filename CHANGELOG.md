@@ -1,45 +1,45 @@
-## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
+## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
 
 
 ### Bug Fixes
 
-* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
+* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
 
 
 
-## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
+# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
 
 
-### Bug Fixes
+### Features
 
-* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
-
-
-
-## [1.168.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.3...v1.168.4) (2023-08-03)
-
-
-### Bug Fixes
-
-* labeling PRs from forks ([#8469](https://github.com/EddieHubCommunity/LinkFree/issues/8469)) ([26b4247](https://github.com/EddieHubCommunity/LinkFree/commit/26b42478e7f9097fdaed37be18ed369c3a18e22e))
+* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
 
 
 
-## [1.168.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.2...v1.168.3) (2023-08-02)
+## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
 
 
 ### Bug Fixes
 
-* gh labeler action ([#8466](https://github.com/EddieHubCommunity/LinkFree/issues/8466)) ([439fcc3](https://github.com/EddieHubCommunity/LinkFree/commit/439fcc3a9a124acfeffa9598f52c4a40d7dac4ed))
+* profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
 
 
 
-## [1.168.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.1...v1.168.2) (2023-08-02)
+## [1.171.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.1...v1.171.2) (2023-08-10)
 
 
 ### Bug Fixes
 
-* gh action labeller ([#8460](https://github.com/EddieHubCommunity/LinkFree/issues/8460)) ([9f191db](https://github.com/EddieHubCommunity/LinkFree/commit/9f191db51b7654c9e5c14de27f4270598664d643))
+* input background color for icons page in dark mode ([#8463](https://github.com/EddieHubCommunity/LinkFree/issues/8463)) ([28b723b](https://github.com/EddieHubCommunity/LinkFree/commit/28b723b40ef84f15bde22eb63d9c4dbbc5a6f013))
+
+
+
+## [1.171.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.0...v1.171.1) (2023-08-10)
+
+
+### Bug Fixes
+
+* hiding reorder button when no links ([#8505](https://github.com/EddieHubCommunity/LinkFree/issues/8505)) ([ffed720](https://github.com/EddieHubCommunity/LinkFree/commit/ffed720dd7e46bfd2a2bd72081c3e02013124f25))
 
 
 

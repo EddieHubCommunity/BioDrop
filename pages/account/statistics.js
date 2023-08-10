@@ -13,7 +13,6 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
-import dateFormat from "@services/utils/dateFormat";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -88,7 +87,7 @@ export async function getServerSideProps(context) {
   data.profile.daily = data.profile.daily.slice(-30).map((day) => {
     return {
       views: day.views,
-      date: dateFormat({ format: "short", date: day.date }),
+      date: day.date,
     };
   });
 
@@ -124,7 +123,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
         />
 
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
-          <span className="flex flex-row justify-between">
+          <span className="flex flex-row flex-wrap justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
               Profile Completion: {progress.percentage}%
             </span>
