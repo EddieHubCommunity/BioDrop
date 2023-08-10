@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/router";
-
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -11,44 +10,73 @@ import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
-import config from "@config/app.json";
 import Pagination from "@components/Pagination";
 
-export async function getStaticProps() {
-  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
-  let data = {
-    tags: [],
-  };
-  let users = [];
-  try {
-    users = await getProfiles();
-  } catch (e) {
-    logger.error(e, "ERROR search users");
-  }
+async function fetchUsersByKeyword(keyword) {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
+      slug: keyword,
+    }).toString()}`
+  );
 
-  try {
-    data.tags = await getTags();
-  } catch (e) {
-    logger.error(e, "ERROR loading tags");
-  }
+  const searchData = await res.json();
+  return searchData.users || [];
+}
+
+async function fetchRandomUsers() {
+  const users = await getProfiles();
 
   if (users.length > 9) {
-    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 9);
-  } else {
-    data.randUsers = users;
+    return users.sort(() => 0.5 - Math.random()).slice(0, 9);
   }
 
+  return users;
+}
+
+async function fetchTags() {
+  try {
+    return await getTags();
+  } catch (e) {
+    logger.error(e, "ERROR loading tags");
+    return [];
+  }
+}
+
+export async function getServerSideProps(context) {
+  const { keyword } = context.query;
+
+  let serverProps = {
+    tags: [],
+    filteredUsers: [],
+    randUsers: [],
+  };
+
+  try {
+    if (keyword) {
+      serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
+    }
+    else {
+      serverProps.randUsers = await fetchRandomUsers();
+    }
+  } catch (e) {
+    logger.error(e, "ERROR fetching users");
+  }
+
+  serverProps.tags = await fetchTags();
+
   return {
-    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
-    revalidate: pageConfig.revalidateSeconds,
+    props: { data: serverProps, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Search({ data: { tags, randUsers }, BASE_URL }) {
+export default function Search({
+  data: { tags, randUsers, filteredUsers },
+  BASE_URL,
+}) {
   const router = useRouter();
   const { username, keyword } = router.query;
   const [notFound, setNotFound] = useState();
-  const [users, setUsers] = useState(randUsers);
+  const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -73,6 +101,11 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
 
     // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
     setInputValue(inputValue.replace(/,(\s*),/g, ",").replace(/^,/, ""));
+
+    // If the inputValue has not changed and is the same as the keyword passed from the server
+    if (keyword && inputValue === keyword) {
+      return;
+    }
 
     async function fetchUsers(value) {
       try {
