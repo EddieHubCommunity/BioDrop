@@ -1,6 +1,6 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
-import { data } from "@config/community-resources.js";
+import communityResource from "@config/community-resources.json";
 
 ## Community Resources
 
@@ -32,7 +32,7 @@ YouTube (or blog)
     </tr>
   </thead>
   <tbody>
-    {data.map((item, index) => {
+    {communityResource.data.map((item, index) => {
       return (
         <tr key={item.username + item.name + index}>
           <td>
@@ -52,7 +52,7 @@ YouTube (or blog)
 </table>
 
 export default ({ children }) => {
-  data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  communityResource.data.sort((a, b) => new Date(b.date) - new Date(a.date));
   return (
     <DocsLayout
       title="LinkFree Contributors Changelog"
