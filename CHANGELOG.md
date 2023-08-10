@@ -1,3 +1,12 @@
+## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
+
+
+### Bug Fixes
+
+* profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
+
+
+
 ## [1.171.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.1...v1.171.2) (2023-08-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
-
-
-
-## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
-
-
-### Bug Fixes
-
-* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
 
 
 
