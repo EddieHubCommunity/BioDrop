@@ -1,3 +1,12 @@
+# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
+
+
+### Features
+
+* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
+
+
+
 ## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * automate issue linked label ([#8581](https://github.com/EddieHubCommunity/LinkFree/issues/8581)) ([50075bf](https://github.com/EddieHubCommunity/LinkFree/commit/50075bf05b0d12699de6efbac7999be2ab305209))
-
-
-
-## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
-
-
-### Bug Fixes
-
-* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
 
 
 
