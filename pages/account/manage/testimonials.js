@@ -49,7 +49,7 @@ export async function getServerSideProps(context) {
 export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
-  const [testimonialList, setTestimonialList] = useState([]);
+  const [testimonialList, setTestimonialList] = useState(testimonials || []);
   const [testimonialListPrevious, setTestimonialListPrevious] = useState(
     testimonials || []
   );
