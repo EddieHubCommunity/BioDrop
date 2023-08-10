@@ -1,3 +1,12 @@
+## [1.171.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.1...v1.171.2) (2023-08-10)
+
+
+### Bug Fixes
+
+* input background color for icons page in dark mode ([#8463](https://github.com/EddieHubCommunity/LinkFree/issues/8463)) ([28b723b](https://github.com/EddieHubCommunity/LinkFree/commit/28b723b40ef84f15bde22eb63d9c4dbbc5a6f013))
+
+
+
 ## [1.171.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.0...v1.171.1) (2023-08-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
-
-
-
-## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
-
-
-### Bug Fixes
-
-* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
 
 
 
