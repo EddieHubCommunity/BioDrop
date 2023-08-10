@@ -1,6 +1,6 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
-import {data} from "@config/community-resources.js";
+import { data } from "@config/community-resources.js";
 
 ## Community Resources
 
@@ -21,6 +21,7 @@ YouTube (or blog)
 ```
 
 ## Contributions
+
 <table>
   <thead>
     <tr>
@@ -31,28 +32,34 @@ YouTube (or blog)
     </tr>
   </thead>
   <tbody>
-  {
-      data.map((item,index)=>{
-        return <tr key={item.username+item.name+index}>
-    <td><a href={`https://github.com/${item.username}`}>{item.name}</a></td>
-      <td >{item.contribution}</td>
-      <td >{item.date}</td>
-      <td ><a href={item.resource.url}>{item.resource.name ? item.resource.name : item.resource.url}</a></td>
-    </tr>
-    })
-  }
-    </tbody>
+    {data.map((item, index) => {
+      return (
+        <tr key={item.username + item.name + index}>
+          <td>
+            <a href={`https://github.com/${item.username}`}>{item.name}</a>
+          </td>
+          <td>{item.contribution}</td>
+          <td>{item.date}</td>
+          <td>
+            <a href={item.resource.url}>
+              {item.resource.name ? item.resource.name : item.resource.url}
+            </a>
+          </td>
+        </tr>
+      );
+    })}
+  </tbody>
 </table>
 
-
-
 export default ({ children }) => {
-data.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return <DocsLayout
-    title="LinkFree Contributors Changelog"
-    section="Getting started"
-    name="Community Resources"
-  >
-    {children}
-  </DocsLayout>
+  data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return (
+    <DocsLayout
+      title="LinkFree Contributors Changelog"
+      section="Getting started"
+      name="Community Resources"
+    >
+      {children}
+    </DocsLayout>
+  );
 };
