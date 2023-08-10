@@ -3,6 +3,7 @@ import ChevronDoubleLeftIcon from "@heroicons/react/24/outline/ChevronDoubleLeft
 import ChevronDoubleRightIcon from "@heroicons/react/24/outline/ChevronDoubleRightIcon";
 import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
 import ChevronLeftIcon from "@heroicons/react/24/outline/ChevronLeftIcon";
+import { classNames } from "@services/utils/classNames";
 
 const Pagination = ({
   data,
@@ -82,11 +83,11 @@ const Pagination = ({
           .map((pNumber) => (
             <li key={pNumber}>
               <button
-                className={`w-6 h-6 sm:w-8 sm:h-8 text-xs sm:text-base cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all ${
-                  currentPage === pNumber
-                    ? "text-white bg-tertiary-medium border-tertiary-medium rounded-full"
-                    : ""
-                }`}
+                className={classNames(
+                  currentPage === pNumber &&
+                    "text-white bg-tertiary-medium border-tertiary-medium rounded-full",
+                  "w-6 h-6 sm:w-8 sm:h-8 text-xs sm:text-base cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all"
+                )}
                 onClick={() => paginate(pNumber)}
               >
                 {pNumber}

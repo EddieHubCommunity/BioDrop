@@ -10,7 +10,7 @@ test("Click on events profile in navbar navigates to events page", async ({
     .getByRole("navigation")
     .getByRole("link", { name: "Events" })
     .click();
-  await expect(page).toHaveURL("/events");
+  await expect(page).toHaveURL(/\/events/);
 });
 
 test("Events has title", async ({ page }) => {

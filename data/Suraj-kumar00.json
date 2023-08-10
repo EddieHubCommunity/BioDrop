@@ -1,0 +1,45 @@
+{
+  "name": "Suraj Kumar ",
+  "bio": "Open Source Contributor | DevOps Enthusiast | Frontend Developer | Technical Writer at Hashnode ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "ReactJS",
+    "TailwindCSS",
+    "Technical Writer"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/surajk_umar01"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Suraj-kumar00"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/surajkumar00/"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Suraj-kumar00",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/surajk_umar01",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/surajkumar00",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
