@@ -1,3 +1,12 @@
+## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
+
+
+### Bug Fixes
+
+* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
+
+
+
 # [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hiding reorder button when no links ([#8505](https://github.com/EddieHubCommunity/LinkFree/issues/8505)) ([ffed720](https://github.com/EddieHubCommunity/LinkFree/commit/ffed720dd7e46bfd2a2bd72081c3e02013124f25))
-
-
-
-# [1.171.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.10...v1.171.0) (2023-08-09)
-
-
-### Features
-
-* automate issue linked label ([#8581](https://github.com/EddieHubCommunity/LinkFree/issues/8581)) ([50075bf](https://github.com/EddieHubCommunity/LinkFree/commit/50075bf05b0d12699de6efbac7999be2ab305209))
 
 
 
