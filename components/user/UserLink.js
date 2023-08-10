@@ -4,6 +4,7 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import styles from '../../styles/animation.module.css';
 import config from "@config/app.json";
+import { classNames } from "utils/functions/classNames";
 const animations = config.animations;
 
 const getLinkAnimation = new Map([
@@ -39,9 +40,13 @@ export default function UserLink({
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium ${ link.animation === animations.iconGlow && "z-0" } ${ link.animation !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40"} grow ${
-        isEnabled ? "" : "opacity-50"
-      } ${getLinkAnimation.get(link.animation)}`}
+      className={classNames(
+        link.animation === animations.iconGlow && "z-0",
+        link.animation !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
+        !isEnabled && "opacity-50",
+        getLinkAnimation.get(link.animation),
+        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow"
+        )}
       style={{
         "--hover-color": colors[link.icon],
       }}
@@ -50,7 +55,7 @@ export default function UserLink({
         <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(link.animation)}>
           <DisplayIcon aria-label={`${aria} icon`} />
         </span>
-        {link.animation === "Ping" && 
+        {link.animation === animations.ping && 
           <span style={{ color: colors[link.icon] }} className={`relative`}>
             <DisplayIcon aria-label={`${aria} icon`} />
           </span>
