@@ -1,7 +1,6 @@
 {
   "name": "Ralph Sulit",
   "bio": "Frontend Developer who loves React",
-  "avatar": "https://github.com/ralphsulit.png",
   "links": [
     {
       "name": "Facebook",
@@ -17,6 +16,6 @@
       "name": "Github",
       "url": "https://github.com/ralphsulit",
       "icon": "FaGithub"
-    },
+    }
   ]
 }
