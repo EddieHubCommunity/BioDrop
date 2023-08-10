@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import dbChangesLoggerMiddleware from "../utils/functions/dbChangesLogger";
 
 const linkStatsSchema = new mongoose.Schema(
   {
@@ -32,6 +33,8 @@ const linkStatsSchema = new mongoose.Schema(
 );
 
 linkStatsSchema.index({ username: 1, date: 1 });
+
+dbChangesLoggerMiddleware(linkStatsSchema);
 
 module.exports =
   mongoose.models.LinkStats || mongoose.model("LinkStats", linkStatsSchema);

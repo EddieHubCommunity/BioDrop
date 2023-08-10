@@ -1,4 +1,5 @@
 import mongoose, { Schema } from "mongoose";
+import dbChangesLoggerMiddleware from "../utils/functions/dbChangesLogger";
 
 import { MilestoneSchema } from "./Profile/Milestone";
 import { EventSchema } from "./Profile/Event";
@@ -109,6 +110,8 @@ const ProfileSchema = new Schema(
   },
   { timestamps: true }
 );
+
+dbChangesLoggerMiddleware(ProfileSchema);
 
 module.exports =
   mongoose.models.Profile || mongoose.model("Profile", ProfileSchema);
