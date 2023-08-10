@@ -1,3 +1,12 @@
+## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
+
+
+### Bug Fixes
+
+* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
+
+
+
 ## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
-
-
-
-## [1.171.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.1...v1.171.2) (2023-08-10)
-
-
-### Bug Fixes
-
-* input background color for icons page in dark mode ([#8463](https://github.com/EddieHubCommunity/LinkFree/issues/8463)) ([28b723b](https://github.com/EddieHubCommunity/LinkFree/commit/28b723b40ef84f15bde22eb63d9c4dbbc5a6f013))
 
 
 
