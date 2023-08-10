@@ -1,36 +1,87 @@
 import { Fragment } from "react";
 import { CheckIcon, MinusIcon } from "@heroicons/react/20/solid";
+import { authOptions } from "./api/auth/[...nextauth]";
+import { getServerSession } from "next-auth/next";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
+import Button from "@components/Button";
 
-export default function Premium() {
+export async function getServerSideProps(context) {
+  const session = await getServerSession(context.req, context.res, authOptions);
+  let user = { isLoggedIn: false, isPremium: false };
+
+  if (session) {
+    user = {
+      isLoggedIn: true,
+      accountType: session.accountType,
+    };
+  }
+
+  return {
+    props: { user },
+  };
+}
+
+export default function Premium({ user }) {
+  console.log(user);
   const tiers = [
     {
-      name: "Basic",
-      id: "tier-basic",
+      name: "Free",
+      id: "tier-free",
       href: "#",
-      priceMonthly: "$9",
+      priceMonthly: "$0",
       description: "Quis suspendisse ut fermentum neque vivamus non tellus.",
       mostPopular: false,
-    },
-    {
-      name: "Essential",
-      id: "tier-essential",
-      href: "#",
-      priceMonthly: "$29",
-      description: "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
-      mostPopular: true,
+      button: {
+        label: () => {
+          if (user.isLoggedIn && user.accountType === "premium") {
+            return "Downgrade";
+          }
+          if (user.isLoggedIn && user.accountType === "free") {
+            return "Already";
+          }
+          if (!user.isLoggedIn) {
+            return "Sign up";
+          }
+        },
+        action: () => {},
+        isDisabled: () => {
+          if (user.isLoggedIn && user.accountType === "free") {
+            return true;
+          }
+          return false;
+        },
+      },
     },
     {
       name: "Premium",
       id: "tier-premium",
       href: "#",
-      priceMonthly: "$59",
-      description:
-        "Orci volutpat ut sed sed neque, dui eget. Quis tristique non.",
-      mostPopular: false,
+      priceMonthly: "$5",
+      description: "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
+      mostPopular: true,
+      button: {
+        label: () => {
+          if (user.isLoggedIn && user.accountType === "premium") {
+            return "Already";
+          }
+          if (user.isLoggedIn && user.accountType === "free") {
+            return "Upgrade";
+          }
+          if (!user.isLoggedIn) {
+            return "Sign up";
+          }
+        },
+        action: () => {},
+        isDisabled: () => {
+          if (user.isLoggedIn && user.accountType === "premium") {
+            return true;
+          }
+          return false;
+        },
+      },
     },
   ];
 
@@ -40,19 +91,19 @@ export default function Premium() {
       features: [
         {
           name: "Integrations",
-          tiers: { Basic: true, Essential: true, Premium: true },
+          tiers: { Basic: true, Premium: true },
         },
         {
           name: "Shared links",
-          tiers: { Basic: true, Essential: true, Premium: true },
+          tiers: { Basic: true, Essential: true },
         },
         {
           name: "Importing and exporting",
-          tiers: { Essential: true, Premium: true },
+          tiers: { Essential: true },
         },
         {
           name: "Team members",
-          tiers: { Essential: "Up to 20 users", Premium: "Up to 50 users" },
+          tiers: { Essential: "Up to 20 users" },
         },
       ],
     },
@@ -61,11 +112,9 @@ export default function Premium() {
       features: [
         {
           name: "Advanced analytics",
-          tiers: { Basic: true, Essential: true, Premium: true },
+          tiers: { Basic: true, Essential: true },
         },
-        { name: "Basic reports", tiers: { Essential: true, Premium: true } },
-        { name: "Professional reports", tiers: { Premium: true } },
-        { name: "Custom report builder", tiers: { Premium: true } },
+        { name: "Basic reports", tiers: { Essential: true } },
       ],
     },
     {
@@ -73,17 +122,16 @@ export default function Premium() {
       features: [
         {
           name: "24/7 online support",
-          tiers: { Basic: true, Essential: true, Premium: true },
+          tiers: { Basic: true, Essential: true },
         },
         {
           name: "Quarterly product workshops",
-          tiers: { Essential: true, Premium: true },
+          tiers: { Essential: true },
         },
         {
           name: "Priority phone support",
-          tiers: { Essential: true, Premium: true },
+          tiers: { Essential: true },
         },
-        { name: "1:1 onboarding tour", tiers: { Premium: true } },
       ],
     },
   ];
@@ -135,18 +183,12 @@ export default function Premium() {
                     </span>
                     <span className="text-sm font-semibold">/month</span>
                   </p>
-                  <a
-                    href={tier.href}
+                  <Button
+                    disable={tier.button.isDisabled()}
                     aria-describedby={tier.id}
-                    className={classNames(
-                      tier.mostPopular
-                        ? "bg-indigo-600 text-white hover:bg-indigo-500"
-                        : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                    )}
                   >
-                    Buy plan
-                  </a>
+                    {tier.button.label()}
+                  </Button>
                   <ul
                     role="list"
                     className="mt-10 space-y-4 text-sm leading-6 text-gray-900"
@@ -187,11 +229,11 @@ export default function Premium() {
                 {tiers.some((tier) => tier.mostPopular) ? (
                   <div className="absolute inset-x-4 inset-y-0 -z-10 flex">
                     <div
-                      className="flex w-1/4 px-4"
+                      className="flex w-1/3 px-4"
                       aria-hidden="true"
                       style={{
                         marginLeft: `${
-                          (tiers.findIndex((tier) => tier.mostPopular) + 1) * 25
+                          (tiers.findIndex((tier) => tier.mostPopular) + 1) * 33
                         }%`,
                       }}
                     >
@@ -202,10 +244,9 @@ export default function Premium() {
                 <table className="w-full table-fixed border-separate border-spacing-x-8 text-left">
                   <caption className="sr-only">Pricing plan comparison</caption>
                   <colgroup>
-                    <col className="w-1/4" />
-                    <col className="w-1/4" />
-                    <col className="w-1/4" />
-                    <col className="w-1/4" />
+                    <col className="w-1/3" />
+                    <col className="w-1/3" />
+                    <col className="w-1/3" />
                   </colgroup>
                   <thead>
                     <tr>
@@ -238,17 +279,12 @@ export default function Premium() {
                               /month
                             </span>
                           </div>
-                          <a
-                            href={tier.href}
-                            className={classNames(
-                              tier.mostPopular
-                                ? "bg-indigo-600 text-white hover:bg-indigo-500"
-                                : "text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300",
-                              "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                            )}
+                          <Button
+                            disable={tier.button.isDisabled()}
+                            primary={true}
                           >
-                            Buy plan
-                          </a>
+                            {tier.button.label()}
+                          </Button>
                         </td>
                       ))}
                     </tr>

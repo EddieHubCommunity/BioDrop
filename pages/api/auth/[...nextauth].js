@@ -66,6 +66,7 @@ export const authOptions = {
       session.accessToken = token.accessToken;
       session.user.id = token.id;
       session.username = token.username;
+      session.accountType = (await User.findOne({ _id: token.sub })).type;
 
       return session;
     },
