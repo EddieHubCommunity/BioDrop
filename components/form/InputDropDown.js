@@ -1,5 +1,6 @@
 import { Combobox } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/24/solid";
+import { classNames } from "@services/utils/classNames";
 import { useEffect, useState } from "react";
 
 export default function InputDropDown({
@@ -61,13 +62,13 @@ export default function InputDropDown({
             >
               {({ active, selected }) => (
                 <span
-                  className={`${
-                    active ? "bg-secondary-low dark:bg-secondary-high" : ""
-                  } ${
+                  className={classNames(
+                    active ? "bg-secondary-low dark:bg-secondary-high" : "",
                     selected
                       ? "grid grid-cols-[auto_15px] gap-x-2 items-center"
-                      : ""
-                  } px-6 py-2 hover:bg-secondary-low dark:hover:bg-secondary-high block my-3`}
+                      : "",
+                    "px-6 py-2 hover:bg-secondary-low dark:hover:bg-secondary-high block my-3"
+                  )}
                 >
                   {_group}
                   {selected && <CheckIcon className="w-5" />}
