@@ -17,6 +17,7 @@ import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
 import { formatErrorMsg, sendRequest } from "@services/utils/apiRequests";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -169,9 +170,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <Textarea
                       name="description"
-                      label="Description"
                       placeholder="Description of your Milestone"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}

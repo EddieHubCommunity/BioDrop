@@ -123,7 +123,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
         />
 
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
-          <span className="flex flex-row justify-between">
+          <span className="flex flex-row flex-wrap justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
               Profile Completion: {progress.percentage}%
             </span>
