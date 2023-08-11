@@ -18,14 +18,20 @@
     },
     {
       "group": "Projects",
-      "name": "Landing Page Using ReactJS",
-      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
+      "name": "News",
+      "url": "https://64d3a5aa765d6c74ad77a50f--flourishing-concha-24375f.netlify.app/",
       "icon": "FaLink"
     },
     {
       "group": "Projects",
       "name": "Dynamic Todo Application",
       "url": "https://todo-app-df29.onrender.com/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Landing Page Using ReactJS",
+      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
       "icon": "FaLink"
     },
     {

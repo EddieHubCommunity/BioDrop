@@ -1,7 +1,7 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
 import Router, { useRouter } from "next/router";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export default function SubNav({ tabs }) {
   const router = useRouter();
