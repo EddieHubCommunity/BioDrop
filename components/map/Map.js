@@ -1,25 +1,16 @@
 import { MapContainer, TileLayer } from "react-leaflet";
 import Clusters from "./Clusters";
 import "leaflet/dist/leaflet.css";
-import { useState, useEffect, useMemo} from "react";
+// import { useState, useEffect, useMemo} from "react";
 
 export default function Map({ users }) {
   const boundsMap = [
     [-90, -180], // Southwest coordinates
     [90, 180], // Northeast coordinates
   ];
-  const [width, setWidth] = useState(window.innerWidth);
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-  const height = useMemo(() => (width > 1000 ? "100vh" : "40vh"), [width]);
-
 
   return (
-    <div style={{height}}>
+    <div style={{height: 'min(50vw, 100vh)'}}>
     <MapContainer
       center={[0, 0]}
       zoom={2}
