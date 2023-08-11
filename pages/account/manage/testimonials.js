@@ -15,6 +15,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
 import Alert from "@components/Alert";
+import { classNames } from "@services/utils/classNames";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -112,7 +113,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           <Alert type="info" message="No Testimonials found" />
         )}
 
-        {testimonialList?.length && (
+        {testimonialList?.length > 0 && (
           <div>
             <div className="flex gap-4">
               {!reorder && (
@@ -150,9 +151,10 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
               {testimonialList.map((testimonial) => (
                 <li
                   key={testimonial._id}
-                  className={`flex items-center justify-between gap-x-6 py-5 ${
-                    reorder ? "animate-pulse" : ""
-                  }`}
+                  className={classNames(
+                    reorder && "animate-pulse",
+                    "flex items-center justify-between gap-x-6 py-5"
+                  )}
                 >
                   <div className="flex gap-2 items-start">
                     {reorder && <Bars2Icon className="h-8 w-8 " />}

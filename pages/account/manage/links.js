@@ -93,7 +93,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
             Add Link
           </Button>
 
-          {!reorder && (
+          {(linkList.length !== 0) && !reorder && (
             <Button onClick={() => setReorder(true)}>
               <ArrowPathIcon className="h-5 w-5 mr-2" />
               REORDER

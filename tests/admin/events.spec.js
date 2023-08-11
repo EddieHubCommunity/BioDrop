@@ -10,7 +10,6 @@ const adminUser = {
 };
 
 test("Guest user cannot access admin events", async ({ browser }) => {
-  // fixture: make sure user is not logged in
   const context = await logout(browser);
   const page = await context.newPage();
   await page.goto("/admin/events");
@@ -18,15 +17,13 @@ test("Guest user cannot access admin events", async ({ browser }) => {
 });
 
 test("Logged in user cannot access admin events", async ({ browser }) => {
-  // fixture: make sure user is not logged in
   const context = await login(browser);
   const page = await context.newPage();
   await page.goto("/admin/events");
   await expect(page).toHaveURL(/404/);
 });
 
-test("Admin user can access dashboard", async ({ browser }) => {
-  // fixture: make sure user is logged in
+test("Admin user can access admin events", async ({ browser }) => {
   const context = await login(browser, adminUser);
   const page = await context.newPage();
   await page.goto("/admin/events");

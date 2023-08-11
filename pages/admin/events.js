@@ -114,7 +114,7 @@ export default function Events({ events }) {
           additionalMessage={showNotification.additionalMessage}
         />
 
-        <ul role="list" className="divide-y divide-gray-100">
+        <ul role="list" className="divide-y divide-primary-low">
           {eventList.map((event) => (
             <li key={event._id} className="flex justify-between gap-x-6 py-5">
               <div className="flex gap-x-4">
@@ -133,17 +133,19 @@ export default function Events({ events }) {
                   }
                 />
                 <div className="min-w-0 flex-auto">
-                  <p className="text-sm font-semibold leading-6 text-gray-900">
+                  <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
                     {event.name}
                   </p>
-                  <p className="mt-1 truncate text-xs leading-5 text-gray-500">
+                  <p className="mt-1 truncate text-xs leading-5 text-primary-medium dark:text-primary-low-medium">
                     {event.username}
                   </p>
                 </div>
               </div>
               <div className="hidden sm:flex sm:flex-col sm:items-end">
-                <p className="text-sm leading-6 text-gray-900">{event.url}</p>
-                <p className="mt-1 text-xs leading-5 text-gray-500">
+                <p className="text-sm leading-6 text-primary-high dark:text-primary-low">
+                  {event.url}
+                </p>
+                <p className="mt-1 text-xs leading-5 text-primary-medium dark:text-primary-low">
                   {event.date?.start} - {event.date?.end}
                 </p>
               </div>

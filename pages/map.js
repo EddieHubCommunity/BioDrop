@@ -8,7 +8,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
+import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
 
 //this is required as leaflet is not compatible with SSR
@@ -23,7 +23,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers();
+    data.users = await getProfiles();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -171,6 +171,7 @@ export default function Map({ data }) {
             content={
               filteredUsers.length > 0 ? filteredUsers.length : users.length
             }
+            badgeClassName={"translate-x-3 -translate-y-3"}
           >
             <Button
               onClick={resetFilter}

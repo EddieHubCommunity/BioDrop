@@ -8,6 +8,7 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import { getRandomProfileApi } from "./api/discover/random";
+import { classNames } from "@services/utils/classNames";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
@@ -16,13 +17,27 @@ import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 export async function getStaticProps() {
-  const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
+  const pageConfig = config.isr.homepage;
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
   const randomProfile = await getRandomProfileApi();
+
+  let alerts = structuredClone(config.alerts);
+  if (
+    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
+    serverEnv.NODE_ENV === "development" &&
+    totalStats.users === 0
+  ) {
+    alerts.push({
+      type: "warning",
+      message:
+        'To (re)load json files and any changes, please visit "/api/system/reload?secret=development"',
+    });
+  }
 
   return {
     props: {
@@ -30,12 +45,19 @@ export async function getStaticProps() {
       total: totalStats,
       today: todayStats,
       randomProfile,
+      alerts,
     },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Home({ total, today, randomProfile, BASE_URL }) {
+export default function Home({
+  total,
+  today,
+  randomProfile,
+  BASE_URL,
+  alerts,
+}) {
   const featuresDetails = [
     {
       name: "Your Bio, Social links and Stats",
@@ -154,16 +176,12 @@ export default function Home({ total, today, randomProfile, BASE_URL }) {
     },
   ];
 
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
-
   return (
     <>
       <PageHead />
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
-        {config.alerts.map((alert, index) => (
+        {alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
 
