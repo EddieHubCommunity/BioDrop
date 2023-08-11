@@ -1,0 +1,21 @@
+{
+  "name": "Dave Hill",
+  "bio": "Front-end Developer with over 22 years experience",
+  "links": [
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://mastodon.social/@Isdavehill",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Isdavehill",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/isdavehill/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

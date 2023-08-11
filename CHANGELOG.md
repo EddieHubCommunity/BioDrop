@@ -1,45 +1,45 @@
-## [1.169.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.7...v1.169.8) (2023-08-05)
+## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
 
 
 ### Bug Fixes
 
-* getUsers renamed to getProfiles ([#8518](https://github.com/EddieHubCommunity/LinkFree/issues/8518)) ([6aae865](https://github.com/EddieHubCommunity/LinkFree/commit/6aae8657d58af8bbe9e83d5e59b1955b1439514c))
+* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
 
 
 
-## [1.169.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.6...v1.169.7) (2023-08-05)
-
-
-### Bug Fixes
-
-* docs github oauth local dev ([#8517](https://github.com/EddieHubCommunity/LinkFree/issues/8517)) ([e202758](https://github.com/EddieHubCommunity/LinkFree/commit/e20275873816432a6b88d055a7a1aca5c038f54f))
-
-
-
-## [1.169.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.5...v1.169.6) (2023-08-05)
+## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
 
 
 ### Bug Fixes
 
-* improved wording on roadmap ([#8499](https://github.com/EddieHubCommunity/LinkFree/issues/8499)) ([40a906b](https://github.com/EddieHubCommunity/LinkFree/commit/40a906b7bd895f452ecee4028b8b8ceecb4ea863))
+* testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
 
 
 
-## [1.169.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.4...v1.169.5) (2023-08-05)
-
-
-### Bug Fixes
-
-* label does not appear in dark mode ([#8491](https://github.com/EddieHubCommunity/LinkFree/issues/8491)) ([808da93](https://github.com/EddieHubCommunity/LinkFree/commit/808da93b30462feaa8d1849bd9ff406254487d72))
-
-
-
-## [1.169.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.3...v1.169.4) (2023-08-05)
+## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
 
 
 ### Bug Fixes
 
-* prompt dev to load data ([#8442](https://github.com/EddieHubCommunity/LinkFree/issues/8442)) ([8779147](https://github.com/EddieHubCommunity/LinkFree/commit/877914726977c13bfcf8f7975b6ce44a35ec4f6a))
+* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
+
+
+
+# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
+
+
+### Features
+
+* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
+
+
+
+## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
+
+
+### Bug Fixes
+
+* profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
 
 
 

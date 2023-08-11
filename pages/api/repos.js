@@ -16,11 +16,14 @@ export default async function handler(req, res) {
 export async function getRepos() {
   await connectMongo();
   let repos = [];
+  let dateOneMonthAgo = new Date();
+  dateOneMonthAgo.setMonth(dateOneMonthAgo.getMonth() - 1); //1 month ago
   try {
     repos = await Profile.aggregate([
       { $project: { username: 1, repos: 1, isEnabled: 1 } },
       { $match: { isEnabled: true } },
       { $unwind: "$repos" },
+      { $match: {"repos.dates.pushedAt": {$gt: dateOneMonthAgo } } },
       {
         $sort: { "repos.dates.pushedAt": -1 },
       },
