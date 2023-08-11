@@ -1,0 +1,45 @@
+{
+  "name": "Edgar Ramírez Mondragón",
+  "bio": "Software & Data Engineer",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/edgarrmondragon"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://fosstodon.org/@cuboimposible",
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/cofonlafaefe"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/edgarrmondragon/"
+    },
+  ],
+  "tags": ["Open Source", "Python", "Data", "Rust"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/edgarrmondragon",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@cuboimposible",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/cofonlafaefe",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/edgarrmondragon/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
