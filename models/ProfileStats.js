@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import dbChangesLoggerMiddleware from "../utils/functions/dbChangesLogger";
 
 const profileStatsSchema = new mongoose.Schema(
   {
@@ -23,8 +22,6 @@ const profileStatsSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
-dbChangesLoggerMiddleware(profileStatsSchema);
 
 profileStatsSchema.index({ username: 1, date: 1 });
 
