@@ -4,7 +4,7 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import styles from '../../styles/animation.module.css';
 import config from "@config/app.json";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 const animations = config.animations;
 
 const getLinkAnimation = new Map([
