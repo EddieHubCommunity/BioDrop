@@ -22,11 +22,11 @@ export async function sendRequest(requestConfig) {
 }
 
 export function formatErrorMsg(err) {
-  const errMessage =
-    typeof err === "string"
-      ? err
-      : Object.keys(err)
-          .map((val) => `${val} is required`)
-          .join(", ");
-  return errMessage;
+  let errorMsg = err;
+  if (typeof err === "object") {
+    errorMsg = Object.keys(err)
+      .map((val) => `${val} is required`)
+      .join(", ");
+  }
+  return errorMsg;
 }
