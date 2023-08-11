@@ -1,7 +1,6 @@
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
 import Button from "@components/Button";
 import FallbackImage from "@components/FallbackImage";
+import Markdown from "@components/Markdown";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
 export default function UserMini({
@@ -41,9 +40,9 @@ export default function UserMini({
               <p className="text-xl font-bold text-primary-high dark:text-primary-low sm:text-2xl">
                 {name}
               </p>
-              <ReactMarkdown className="text-sm font-medium text-primary-medium dark:text-primary-low-medium   ">
+              <Markdown className="text-sm font-medium text-primary-medium dark:text-primary-low-medium">
                 {bio}
-              </ReactMarkdown>
+              </Markdown>
             </div>
           </div>
           <div className="mt-5 flex justify-center sm:mt-0">

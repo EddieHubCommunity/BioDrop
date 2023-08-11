@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import ReactMarkdown from "react-markdown";
 import { FaShare } from "react-icons/fa";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
@@ -14,6 +13,7 @@ import Button from "@components/Button";
 import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
+import Markdown from "@components/Markdown";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -28,11 +28,6 @@ function UserProfile({ BASE_URL, data }) {
     qrRef.current.firstChild.toBlob((blob) =>
       saveAs(blob, `linkfree-${data.username}.png`)
     );
-
-  // Custom component for rendering links within ReactMarkdown
-  const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>{children}</Link>
-  );
 
   return (
     <>
@@ -69,9 +64,7 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown components={{ a: LinkRenderer }}>
-          {data.bio}
-        </ReactMarkdown>
+        <Markdown>{data.bio}</Markdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">

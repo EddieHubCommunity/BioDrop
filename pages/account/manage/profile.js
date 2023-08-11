@@ -18,6 +18,7 @@ import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -199,7 +200,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
-                      <Input
+                      <Textarea
                         name="bio"
                         label="Bio"
                         value={bio}
