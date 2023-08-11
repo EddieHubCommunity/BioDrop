@@ -1,8 +1,7 @@
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
 import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
+import Markdown from "@components/Markdown";
 
 export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
@@ -53,7 +52,7 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                 </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-primary-medium dark:text-primary-medium-low ">
-                <ReactMarkdown>{testimonial.description}</ReactMarkdown>
+                <Markdown>{testimonial.description}</Markdown>
               </div>
             </div>
           </div>

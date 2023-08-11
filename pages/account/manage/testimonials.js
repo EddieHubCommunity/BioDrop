@@ -113,7 +113,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
           <Alert type="info" message="No Testimonials found" />
         )}
 
-        {testimonialList?.length && (
+        {testimonialList?.length > 0 && (
           <div>
             <div className="flex gap-4">
               {!reorder && (
