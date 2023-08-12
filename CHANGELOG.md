@@ -1,45 +1,45 @@
-## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
+## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
 
 
 ### Bug Fixes
 
-* date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
+* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
 
 
 
-## [1.169.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.1...v1.169.2) (2023-08-04)
-
-
-### Bug Fixes
-
-* error to warning when users not loaded in dev ([#8422](https://github.com/EddieHubCommunity/LinkFree/issues/8422)) ([e39d914](https://github.com/EddieHubCommunity/LinkFree/commit/e39d914f94927a9debcb1f710d28d2f95346e90e))
-
-
-
-## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
+## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
 
 
 ### Bug Fixes
 
-* dark/light mode for admin page ([#8492](https://github.com/EddieHubCommunity/LinkFree/issues/8492)) ([a0fc4be](https://github.com/EddieHubCommunity/LinkFree/commit/a0fc4be76c15ad4d4cd676e00cb847375ad2c0a6))
+* testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
 
 
 
-# [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
+## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
+
+
+### Bug Fixes
+
+* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
+
+
+
+# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
 
 
 ### Features
 
-* delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
+* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
 
 
 
-## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
+## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
 
 
 ### Bug Fixes
 
-* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
+* profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
 
 
 
