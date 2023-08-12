@@ -43,7 +43,13 @@ export default function UserHorizontal({ profile, input }) {
               if (!trimmedTag) {
                 return null;
               }
-              return <TagSimple name={trimmedTag} key={index} isSelected={searchTagNameInInput(input, trimmedTag)} />;
+              return (
+                <TagSimple
+                  name={trimmedTag}
+                  key={index}
+                  isSelected={searchTagNameInInput(input, trimmedTag)}
+                />
+              );
             })}
         </div>
       )}
