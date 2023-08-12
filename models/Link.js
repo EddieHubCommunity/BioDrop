@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import dbChangesLoggerMiddleware from "../utils/functions/dbChangesLogger";
+import dbChangesLoggerMiddleware from "./middlewares/dbChangesLogger";
 
 const LinkSchema = new mongoose.Schema(
   {

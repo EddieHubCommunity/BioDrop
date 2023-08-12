@@ -1,5 +1,5 @@
 import mongoose, { Schema } from "mongoose";
-import dbChangesLoggerMiddleware from "../utils/functions/dbChangesLogger";
+import dbChangesLoggerMiddleware from "./middlewares/dbChangesLogger";
 
 import { MilestoneSchema } from "./Profile/Milestone";
 import { EventSchema } from "./Profile/Event";
