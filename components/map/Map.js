@@ -18,7 +18,7 @@ export default function Map({ users }) {
         scrollWheelZoom={true}
         maxBounds={boundsMap}
         maxBoundsViscosity={0.7}
-        style={{ height: 'min(50vw, 100vh)' }}
+        style={{ height: 'min(96vw, 100vh)' }}
       >
 
         <TileLayer

@@ -194,9 +194,11 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
+        <div style={{ height: 'min(96vw, 100vh)' }}>
           <DynamicMap
             users={filteredUsers.length > 0 ? filteredUsers : users}
           />
+        </div>
       </Page>
     </>
   );
