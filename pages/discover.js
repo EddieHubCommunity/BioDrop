@@ -26,11 +26,11 @@ export default function Discover({ profiles }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin users"
-        description="Overview for LinkFree admins"
+        title="Discover recently updated Profiles on LinkFree"
+        description="Discover recently updated Profiles on LinkFree"
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Profiles</h1>
+        <h1 className="text-4xl mb-4 font-bold">Recently updated Profiles</h1>
 
         <ul
           role="list"
