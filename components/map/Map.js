@@ -1,7 +1,6 @@
 import { MapContainer, TileLayer } from "react-leaflet";
 import Clusters from "./Clusters";
 import "leaflet/dist/leaflet.css";
-// import { useState, useEffect, useMemo} from "react";
 
 export default function Map({ users }) {
   const boundsMap = [
@@ -20,7 +19,6 @@ export default function Map({ users }) {
         maxBoundsViscosity={0.7}
         style={{ height: 'min(96vw, 100vh)' }}
       >
-
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://b.tile.openstreetmap.org/{z}/{x}/{y}.png"
