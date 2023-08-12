@@ -1,15 +1,24 @@
 import { clientEnv } from "@config/schemas/clientSchema";
 
-export async function sendRequest(requestConfig) {
-  const url = `${clientEnv.NEXT_PUBLIC_BASE_URL}${requestConfig.url}`;
+function getRequestOptions({ method, body }) {
+  const options = {
+    method: method ? method : "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  };
+
+  if (body) {
+    options.body = JSON.stringify(body);
+  }
+
+  return options;
+}
+
+export async function sendRequest({ url, method, body }) {
+  const reqUrl = `${clientEnv.NEXT_PUBLIC_BASE_URL}${url}`;
   try {
-    const res = await fetch(url, {
-      method: requestConfig.method ? requestConfig.method : "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: requestConfig.body ? JSON.stringify(requestConfig.body) : null,
-    });
+    const res = await fetch(reqUrl, getRequestOptions({ method, body }));
     const data = await res.json();
     if (!res.ok) {
       throw data.message || data.error || res.statusText;
