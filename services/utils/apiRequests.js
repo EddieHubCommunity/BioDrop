@@ -30,12 +30,11 @@ export async function sendRequest({ url, method, body }) {
   }
 }
 
-export function formatErrorMsg(err) {
-  let errorMsg = err;
-  if (typeof err === "object") {
-    errorMsg = Object.keys(err)
+export function formatErrorMsg(error) {
+  if (typeof error === "object") {
+    return Object.keys(error)
       .map((val) => `${val} is required`)
       .join(", ");
   }
-  return errorMsg;
+  return error;
 }
