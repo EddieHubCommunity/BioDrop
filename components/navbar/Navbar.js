@@ -92,6 +92,10 @@ export default function Navbar() {
       name: "Repos",
       url: "/repos",
     },
+    {
+      name: "Discover",
+      url: "/discover",
+    },
   ];
 
   const authControls = () => (
