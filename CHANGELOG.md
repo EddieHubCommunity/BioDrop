@@ -1,45 +1,45 @@
-## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
+# [1.173.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.3...v1.173.0) (2023-08-12)
+
+
+### Features
+
+* discover page for recently updated profiles ([#8615](https://github.com/EddieHubCommunity/LinkFree/issues/8615)) ([d8f43f9](https://github.com/EddieHubCommunity/LinkFree/commit/d8f43f9fc8d835335f715f1a1e886068d805b1b1))
+
+
+
+## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
 
 
 ### Bug Fixes
 
-* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
+* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
 
 
 
-## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
-
-
-### Bug Fixes
-
-* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
-
-
-
-## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
+## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
 
 
 ### Bug Fixes
 
-* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+* testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
 
 
 
-## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
-
-
-### Bug Fixes
-
-* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
-
-
-
-## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
 
 
 ### Bug Fixes
 
-* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
+
+
+
+# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
+
+
+### Features
+
+* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
 
 
 
