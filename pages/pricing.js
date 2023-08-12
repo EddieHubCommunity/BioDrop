@@ -3,6 +3,7 @@ import { CheckIcon, MinusIcon } from "@heroicons/react/20/solid";
 import { authOptions } from "./api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { classNames } from "@services/utils/classNames";
@@ -20,17 +21,15 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { user },
+    props: { user, clientEnv },
   };
 }
 
-export default function Premium({ user }) {
-  console.log(user);
+export default function Premium({ user, clientEnv }) {
   const tiers = [
     {
       name: "Free",
       id: "tier-free",
-      href: "#",
       priceMonthly: "$0",
       description: "Quis suspendisse ut fermentum neque vivamus non tellus.",
       mostPopular: false,
@@ -46,19 +45,29 @@ export default function Premium({ user }) {
             return "Sign up";
           }
         },
-        action: () => {},
+        action: () => {
+          if (user.isLoggedIn && user.accountType === "premium") {
+            return "/api/stripe"; //return clientEnv.STRIPE_MANAGE_PLAN_URL;
+          }
+          if (user.isLoggedIn && user.accountType === "free") {
+            return "/pricing";
+          }
+          if (!user.isLoggedIn) {
+            return "/auth/signin";
+          }
+        },
         isDisabled: () => {
           if (user.isLoggedIn && user.accountType === "free") {
             return true;
           }
           return false;
         },
+        onClick: () => {},
       },
     },
     {
       name: "Premium",
       id: "tier-premium",
-      href: "#",
       priceMonthly: "$5",
       description: "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
       mostPopular: true,
@@ -74,12 +83,29 @@ export default function Premium({ user }) {
             return "Sign up";
           }
         },
-        action: () => {},
+        action: () => {
+          if (user.isLoggedIn && user.accountType === "premium") {
+            return clientEnv.STRIPE_MANAGE_PLAN_URL;
+          }
+          if (user.isLoggedIn && user.accountType === "free") {
+            return "/api/stripe";
+          }
+          if (!user.isLoggedIn) {
+            return "/auth/signin";
+          }
+        },
         isDisabled: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
             return true;
           }
           return false;
+        },
+        onClick: () => {
+          if (typeof window !== "undefined" && window.localStorage) {
+            if (user.accountType !== "premium") {
+              localStorage.setItem("premium-intent", true);
+            }
+          }
         },
       },
     },
@@ -186,6 +212,8 @@ export default function Premium({ user }) {
                   <Button
                     disable={tier.button.isDisabled()}
                     aria-describedby={tier.id}
+                    href={tier.button.action()}
+                    onClick={() => tier.button.onClick()}
                   >
                     {tier.button.label()}
                   </Button>
@@ -282,6 +310,8 @@ export default function Premium({ user }) {
                           <Button
                             disable={tier.button.isDisabled()}
                             primary={true}
+                            href={tier.button.action()}
+                            onClick={() => tier.button.onClick()}
                           >
                             {tier.button.label()}
                           </Button>

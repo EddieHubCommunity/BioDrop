@@ -26,6 +26,7 @@ export default async function handler(req, res) {
       );
       break;
     case "payment_intent.payment_failed":
+    case "customer.subscription.deleted":
       await User.findOneAndUpdate(
         { stripeCustomerId: event.data.object.customer },
         { type: "free" }

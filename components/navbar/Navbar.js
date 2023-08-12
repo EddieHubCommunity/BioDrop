@@ -92,27 +92,33 @@ export default function Navbar() {
       name: "Repos",
       url: "/repos",
     },
+    {
+      name: "Pricing",
+      url: "/pricing",
+    },
   ];
 
   const authControls = () => (
     <>
       {!session && (
-        <NavLink
-          item={{ name: "Login / Sign up", url: "/login" }}
-          setIsOpen={setIsOpen}
-          onClick={(e) => {
-            e.preventDefault();
-            signIn();
-          }}
-        />
+        <>
+          <NavLink
+            item={{ name: "Login", url: "/login" }}
+            setIsOpen={setIsOpen}
+            onClick={(e) => {
+              e.preventDefault();
+              signIn();
+            }}
+          />
+          <NavLink
+            item={{ name: "Sign up", url: "/pricing" }}
+            setIsOpen={setIsOpen}
+          />
+        </>
       )}
 
       {session && (
         <>
-          <NavLink
-            item={{ name: "Profile", url: `/${session.username}` }}
-            setIsOpen={setIsOpen}
-          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -129,7 +135,14 @@ export default function Navbar() {
 
   return (
     <header className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
+      <nav
+        className={classNames(
+          "relative top-0 bg-primary-high dark:bg-primary-medium",
+          session &&
+            session.accountType === "premium" &&
+            "border-b-2 border-tertiary-medium"
+        )}
+      >
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">

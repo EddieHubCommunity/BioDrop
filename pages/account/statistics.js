@@ -1,8 +1,10 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
-import ProgressBar from "@components/statistics/ProgressBar";
+import { useRouter } from "next/router";
+import { useSession } from "next-auth/react";
 
+import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getStats } from "../api/account/statistics";
@@ -31,6 +33,7 @@ export async function getServerSideProps(context) {
       },
     };
   }
+
   const username = session.username;
   const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
@@ -102,6 +105,27 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress, BASE_URL }) {
+  const router = useRouter();
+  const alerts = {
+    premium: "You are now a premium user!",
+    cancel: "You cancelled your subscription.",
+  };
+
+  const { data: session } = useSession();
+  if (typeof window !== "undefined" && window.localStorage) {
+    if (router.query.alert) {
+      localStorage.removeItem("premium-intent");
+    }
+    if (
+      session &&
+      session.accountType !== "premium" &&
+      localStorage.getItem("premium-intent")
+    ) {
+      localStorage.removeItem("premium-intent");
+      router.push("/api/stripe");
+    }
+  }
+
   return (
     <>
       <PageHead
@@ -111,6 +135,10 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
 
       <Page>
         <Navigation />
+
+        {router.query.alert && (
+          <Alert type="info" message={alerts[router.query.alert]} />
+        )}
 
         <UserMini
           BASE_URL={BASE_URL}
