@@ -51,10 +51,13 @@ export default function ManageRepos({ BASE_URL, repos }) {
     additionalMessage: "",
   });
   const [repoList, setRepoList] = useState(repos || []);
-  const [url, setUrl] = useState("");
+  let [url, setUrl] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (url.endsWith("/")) {
+        url = url.substring(0, url.length - 1);
+    }
     const res = await fetch(`${BASE_URL}/api/account/manage/repo`, {
       method: "POST",
       headers: {
