@@ -4,6 +4,11 @@ import GithubProvider from "next-auth/providers/github";
 import { serverEnv } from "@config/schemas/serverSchema";
 import DbAdapter from "./db-adapter";
 import connectMongo from "@config/mongo";
+import { Account, Profile } from "@models/index";
+import {
+  getAccountByProviderAccountId,
+  associateProfileWithAccount,
+} from "../account/account";
 
 export const authOptions = {
   adapter: DbAdapter(connectMongo),
@@ -26,7 +31,22 @@ export const authOptions = {
     strategy: "jwt",
   },
   callbacks: {
-    async redirect({ url, baseUrl }) {
+    async signIn({ user, profile: githubProfile }) {
+      await Account.findOneAndUpdate(
+        { userId: user._id },
+        {
+          github: {
+            company: githubProfile.company,
+            publicRepos: githubProfile.public_repos,
+            followers: githubProfile.followers,
+            following: githubProfile.following,
+          },
+        },
+        { upsert: true }
+      );
+      return true;
+    },
+    async redirect({ baseUrl }) {
       return `${baseUrl}/account/statistics`;
     },
     async jwt({ token, account, profile }) {
@@ -38,7 +58,7 @@ export const authOptions = {
       }
       return token;
     },
-    async session({ session, token, user, profile }) {
+    async session({ session, token }) {
       // Send properties to the client, like an access_token and user id from a provider.
       session.accessToken = token.accessToken;
       session.user.id = token.id;
@@ -49,6 +69,18 @@ export const authOptions = {
   },
   pages: {
     signIn: "/auth/signin",
+  },
+  events: {
+    async signIn({ profile: githubProfile }) {
+      // associate LinkFree profile to LinkFree account
+      const account = await getAccountByProviderAccountId(githubProfile.id);
+      const profile = await Profile.findOne({
+        username: githubProfile.username,
+      });
+      if (profile) {
+        await associateProfileWithAccount(account, profile._id);
+      }
+    },
   },
 };
 

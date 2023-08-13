@@ -20,6 +20,7 @@ module.exports = {
         secondary: {
           // purple
           low: "rgb(165 180 252)",
+          "low-high": "rgb(110 115 243)",
           "medium-low": "rgb(99 102 241)",
           medium: "rgb(79 70 229)",
           high: "rgb(67 56 202)",
@@ -29,7 +30,7 @@ module.exports = {
           // orange
           low: "rgb(253 186 116)",
           medium: "rgb(234 88 12)",
-          high: "rgb(154 52 18)",
+          high: "rgb(148 50 18)",
         },
       },
     },

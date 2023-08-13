@@ -1,6 +1,5 @@
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
-import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
 
@@ -16,14 +15,10 @@ import UserPage from "@components/user/UserPage";
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const username = context.query.username;
-  const log = logger.child({
-    username: username,
-    ip: requestIp.getClientIp(req),
-  });
 
   const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
-    log.error(
+    logger.error(
       profile.error,
       `profile loading failed for username: ${username}`
     );
@@ -36,12 +31,14 @@ export async function getServerSideProps(context) {
     };
   }
 
-  log.info(`data loaded for username: ${username}`);
+  logger.info(`data loaded for username: ${username}`);
 
   try {
-    profile.cleanBio = String(await remark().use(strip).process(profile.bio));
+    const processedBio = await remark().use(strip).process(profile.bio);
+    profile.cleanBio = processedBio.toString();
   } catch (e) {
-    log.error(e, `cannot strip markdown for: ${username}`);
+    logger.error(e, `cannot strip markdown for: ${username}`);
+    profile.cleanBio = profile.bio;
   }
 
   return {
@@ -56,8 +53,9 @@ export default function User({ data, BASE_URL }) {
         title={data.name}
         description={data.cleanBio}
         ogTitle={data.name}
+        ogDescription={data.cleanBio}
         ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
-        ogImage={data.avatar}
+        ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
 
@@ -71,7 +69,7 @@ export default function User({ data, BASE_URL }) {
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
       >
-        <div className="px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
+        <div className="px-4 py-2 bg-secondary-high text-primary-low flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >

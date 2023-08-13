@@ -8,7 +8,7 @@ export default function GitHubAccelerator() {
     <div className="mb-12">
       <div>
         <Image
-          className="h-32 w-full object-cover lg:h-48"
+          className="h-32 w-full md:object-cover object-contain lg:h-48"
           src="https://user-images.githubusercontent.com/624760/235968674-01cc3149-f9c3-48e2-9dc5-677789de8456.png"
           alt="GitHub Accelerator banner"
           width={600}
@@ -35,7 +35,7 @@ export default function GitHubAccelerator() {
             <div className="mt-6 flex flex-col justify-stretch space-y-3 sm:flex-row sm:space-x-4 sm:space-y-0">
               <Link
                 href="http://accelerator.github.com"
-                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
+                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-primary-high dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low-medium hover:bg-primary-low dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
               >
                 <FaGithub
@@ -46,7 +46,7 @@ export default function GitHubAccelerator() {
               </Link>
               <Link
                 href="https://github.com/sponsors/eddiejaoude"
-                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 dark:hover:bg-slate-200 cursor-pointer"
+                className="inline-flex justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold dark:text-primary-high shadow-sm ring-1 ring-inset ring-primary-low-medium hover:bg-primary-low dark:hover:bg-slate-200 cursor-pointer"
                 target="_blank"
               >
                 <FaMoneyBillAlt

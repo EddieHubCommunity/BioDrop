@@ -1,16 +1,17 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
+import { classNames } from "@services/utils/classNames";
 
 import FaGithub from "@components/icons/FaGithub";
-import { SunIcon } from "@heroicons/react/20/solid";
-import { MoonIcon } from "@heroicons/react/20/solid";
+import SunIcon from "@heroicons/react/20/solid/SunIcon";
+import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -88,12 +89,12 @@ export default function Navbar() {
       url: "/map",
     },
     {
-      name: "Docs",
-      url: "/docs",
+      name: "Repos",
+      url: "/repos",
     },
     {
-      name: "Playground",
-      url: "/playground",
+      name: "Discover",
+      url: "/discover",
     },
   ];
 
@@ -101,7 +102,7 @@ export default function Navbar() {
     <>
       {!session && (
         <NavLink
-          item={{ name: "Login", url: "/login" }}
+          item={{ name: "Login / Sign up", url: "/login" }}
           setIsOpen={setIsOpen}
           onClick={(e) => {
             e.preventDefault();
@@ -112,6 +113,10 @@ export default function Navbar() {
 
       {session && (
         <>
+          <NavLink
+            item={{ name: "Profile", url: `/${session.username}` }}
+            setIsOpen={setIsOpen}
+          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -161,10 +166,6 @@ export default function Navbar() {
             <div className="hidden md:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
-                <NavLink
-                  item={{ name: `v${app.version}`, url: "/roadmap" }}
-                  setIsOpen={setIsOpen}
-                />
                 <Link
                   href="https://github.com/EddieHubCommunity/LinkFree"
                   target="_blank"
@@ -191,7 +192,7 @@ export default function Navbar() {
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`${isOpen ? "hidden" : "block"} h-6 w-6`}
+                  className={classNames(isOpen ? "hidden" : "block", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -206,7 +207,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <svg
-                  className={`${isOpen ? "block" : "hidden"} h-6 w-6`}
+                  className={classNames(isOpen ? "block" : "hidden", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -226,11 +227,12 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${
+          className={classNames(
             isOpen
               ? "transform translate-y-0 opacity-100"
-              : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full`}
+              : "transform -translate-y-96 opacity-0",
+            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full"
+          )}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

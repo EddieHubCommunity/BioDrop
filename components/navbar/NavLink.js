@@ -1,6 +1,13 @@
 import Link from "@components/Link";
 
-export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
+export default function NavLink({
+  path,
+  item,
+  mode,
+  setIsOpen,
+  onClick,
+  ...restProps
+}) {
   let className =
     "text-primary-low hover:ring-2 hover:ring-primary-medium dark:hover:ring-secondary-low hover:text-secondary-low px-3 py-2 rounded-md text-sm font-medium";
 
@@ -30,6 +37,7 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
           onClick(e);
         }
       }}
+      {...restProps}
     >
       {item.name}
     </Link>
