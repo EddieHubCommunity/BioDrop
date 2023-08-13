@@ -7,6 +7,7 @@ import {
   MdCalendarMonth,
   MdOutlineBadge,
   MdCode,
+  MdSettings,
 } from "react-icons/md";
 
 const tabs = [
@@ -57,6 +58,13 @@ const tabs = [
     href: "/account/manage/repos",
     match: ["/account/manage/repo/[[...data]]"],
     icon: MdCode,
+    current: false,
+  },
+  {
+    name: "Premium",
+    href: "/account/manage/premium",
+    match: [],
+    icon: MdSettings,
     current: false,
   },
 ];

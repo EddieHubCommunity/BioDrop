@@ -12,6 +12,10 @@ const ProfileSchema = new Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Account",
     },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
     source: {
       type: String,
       required: true,
@@ -105,6 +109,16 @@ const ProfileSchema = new Schema(
     events: {
       type: [EventSchema],
       default: [],
+    },
+    settings: {
+      hideNavbar: {
+        type: Boolean,
+        default: false,
+      },
+      hideFooter: {
+        type: Boolean,
+        default: false,
+      },
     },
   },
   { timestamps: true }

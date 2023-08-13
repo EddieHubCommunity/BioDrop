@@ -80,15 +80,25 @@ export const authOptions = {
     async signIn({ profile: githubProfile }) {
       // associate LinkFree profile to LinkFree account
       const account = await getAccountByProviderAccountId(githubProfile.id);
-      const profile = await Profile.findOne({
-        username: githubProfile.username,
-      });
+      const user = await User.findOne({ _id: account.userId });
+
+      // associate User to Profile for premium flag
+      const profile = await Profile.findOneAndUpdate(
+        {
+          username: githubProfile.username,
+        },
+        {
+          user: account.userId,
+        },
+        {
+          new: true,
+        }
+      );
       if (profile) {
         await associateProfileWithAccount(account, profile._id);
       }
 
       // Create a stripe customer for the user with their email address
-      const user = await User.findOne({ _id: account.userId });
       if (!user.stripeCustomerId) {
         logger.info("user stripe customer id not found for: ", user.email);
         const stripe = new Stripe(serverEnv.STRIPE_SECRET_KEY, {

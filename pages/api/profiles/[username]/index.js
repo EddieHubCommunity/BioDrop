@@ -1,9 +1,10 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, Stats, ProfileStats } from "@models/index";
+import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
 import { checkGitHubRepo } from "@services/github/getRepo";
@@ -83,9 +84,13 @@ export async function getUserApi(req, res, username) {
       },
     },
   ]);
-
   getProfile = getProfile[0];
+
+  const getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
+
+  delete getProfile.user;
   getProfile = {
+    accountType: getUser.type,
     ...getProfile,
     links: getProfile.links
       .filter((link) => link.isEnabled)

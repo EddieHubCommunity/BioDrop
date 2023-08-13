@@ -1,6 +1,6 @@
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
-import { useRouter } from "next/router"
+import { useRouter } from "next/router";
 import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/globals.css";
@@ -13,12 +13,14 @@ export default function MyApp({
   const router = useRouter();
   // Use the layout defined at the page level, if available
   const getLayout =
-    Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
+    Component.getLayout ||
+    ((settings, page) => <MultiLayout settings={settings}>{page}</MultiLayout>);
 
   return (
     <ThemeProvider attribute="class">
       <SessionProvider session={session}>
         {getLayout(
+          pageProps.settings,
           <>
             <Component {...pageProps} key={router.asPath} />
             <Analytics />
