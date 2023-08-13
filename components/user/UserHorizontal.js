@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import TagSimple from "@components/tag/TagSimple";
-import { searchTagNameInInput } from "@services/utils/searchTags";
+import { searchTagNameInInput } from "@services/utils/search/tags";
 
 export default function UserHorizontal({ profile, input }) {
   return (

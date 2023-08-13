@@ -13,7 +13,7 @@ import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
 import Pagination from "@components/Pagination";
-import { cleanSearchInput, searchTagNameInInput } from "@services/utils/searchTags";
+import { cleanSearchInput, searchTagNameInInput } from "@services/utils/search/tags";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
