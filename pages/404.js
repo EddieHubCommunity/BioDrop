@@ -24,6 +24,7 @@ export default function Page404() {
               Sorry, we could not find the page you are looking for.
             </p>
             <Image
+              className="mx-auto"
               src="https://user-images.githubusercontent.com/624760/114314273-eaae0100-9af1-11eb-955a-4039657fe85a.png"
               alt="EddieHub mascot scared pose"
               width={300}
