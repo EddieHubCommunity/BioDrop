@@ -1,0 +1,43 @@
+{
+  "name": "Chinwenma Okorie",
+  "bio": " **FrontEnd Developer** | Open Source enthusiast | Blogger | Tech enthusiast",
+  "tags":[ " Open Source, NextJs, ReactJs,  JavaScript, Tailwind, Html5, CSS3"],
+  "socials": [
+      {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ethel_Omma"
+    },
+      {
+       "icon": "FaGit",
+      "url": "https://github.com/Chinwenma"
+    },
+          {
+      "icon": "FaLinkedin",
+       "url": "https://github.com/Chinwenma"
+
+    },
+  ],
+   "links": [
+       {
+      "name": " Check out my Blog Post",
+      "url": "https://dev.to/chinwenma",
+      "icon": "FaBlog"
+    },
+    {
+      "name": " Follow me on Twitter",
+      "url": "https://twitter.com/Ethel_Omma",
+      "icon": "FaTwitter"
+    },
+        {
+      "name": " Check out my GitHub Profile",
+      "url": "https://github.com/Chinwenma",
+      "icon": "FaGit"
+    },
+          {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://github.com/Chinwenma",
+      "icon": "FaLinkedin"
+    },
+     
+  ]
+}
