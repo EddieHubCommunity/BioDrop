@@ -1,15 +1,15 @@
 import { clientEnv } from "@config/schemas/clientSchema";
 
-function getRequestOptions({ method, body }) {
+function getRequestOptions({ method = "GET", body }) {
   const options = {
-    method: method ? method : "GET",
+    method,
     headers: {
       "Content-Type": "application/json",
     },
   };
 
   if (body) {
-    options.body = JSON.stringify(body);
+    return { ...options, body: JSON.stringify(body) };
   }
 
   return options;
