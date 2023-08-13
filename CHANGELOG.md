@@ -1,3 +1,12 @@
+## [1.173.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.1...v1.173.2) (2023-08-13)
+
+
+### Bug Fixes
+
+* navbar overflow issue on smaller devices ([#8552](https://github.com/EddieHubCommunity/LinkFree/issues/8552)) ([96c4092](https://github.com/EddieHubCommunity/LinkFree/commit/96c409238e53b6a878a887f68ab44b60be7ca26c))
+
+
+
 ## [1.173.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.0...v1.173.1) (2023-08-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
-
-
-
-## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
-
-
-### Bug Fixes
-
-* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
 
 
 
