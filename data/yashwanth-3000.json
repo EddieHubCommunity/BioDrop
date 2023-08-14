@@ -1,7 +1,7 @@
 {
   "name": "Yashwanth krishna",
   "bio": "Trying to contribute to open source while learning. Learing in Public ",
-  "tags": ["Machine learning","DSA"],
+  "tags": ["Machine learning", "DSA"],
   "social": [
     {
       "icon": "Fatwitter",
@@ -12,7 +12,7 @@
       "url": "https://www.linkedin.com/in/pyashwanthkrishna/"
     }
   ],
-  
+
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -29,6 +29,5 @@
       "url": "https://www.linkedin.com/in/pyashwanthkrishna/",
       "icon": "FaLinkedin"
     }
-  
   ]
 }

@@ -248,7 +248,7 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-primary-medium">
             <div className="flex items-center px-5">
-              <div className="flex items-center md:ml-6">
+              <div className="flex items-center md:ml-6 flex-wrap justify-center sm:justify-start">
                 {renderThemeChanger()}
                 <NavLink
                   item={{ name: `v${app.version}`, url: "/changelog" }}
