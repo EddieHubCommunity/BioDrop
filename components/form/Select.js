@@ -10,7 +10,7 @@ export default function Select({
   return (
     <>
       {label && (
-        <label htmlFor={name} className={`sr-only ${className}`}>
+        <label htmlFor={name} className={`sr-only ${className} hidden md:block`}>
           {label}
         </label>
       )}
