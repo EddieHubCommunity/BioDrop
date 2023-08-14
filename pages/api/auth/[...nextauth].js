@@ -35,6 +35,7 @@ export const authOptions = {
   },
   callbacks: {
     async signIn({ user, profile: githubProfile }) {
+      await connectMongo();
       await Account.findOneAndUpdate(
         { userId: user._id },
         {
@@ -62,6 +63,7 @@ export const authOptions = {
       return token;
     },
     async session({ session, token }) {
+      await connectMongo();
       // Send properties to the client, like an access_token and user id from a provider.
       session.accessToken = token.accessToken;
       session.user.id = token.id;
@@ -78,6 +80,7 @@ export const authOptions = {
   },
   events: {
     async signIn({ profile: githubProfile }) {
+      await connectMongo();
       // associate LinkFree profile to LinkFree account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const user = await User.findOne({ _id: account.userId });
