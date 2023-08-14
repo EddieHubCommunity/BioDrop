@@ -1,4 +1,5 @@
 import Account from "./Account";
+import DBChange from "./DBChange";
 import Link from "./Link";
 import LinkStats from "./LinkStats";
 import Profile from "./Profile";
@@ -10,6 +11,7 @@ import VerificationToken from "./VerificationToken";
 
 export {
   Account,
+  DBChange,
   Link,
   LinkStats,
   Profile,
