@@ -6,6 +6,12 @@
     "inline",
     "column-2"
   ],
+  "events":{
+    "userStatus": {
+       "attending": "Attending",
+       "speaking": "Speaking"
+      }
+  },
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

@@ -261,6 +261,8 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
+                userStatus: event.userStatus,
+                speakingTopic: event.speakingTopic,
                 price: event.price,
               })),
             }
