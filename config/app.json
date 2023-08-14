@@ -1,17 +1,7 @@
 {
   "version": "1.173.3",
   "alerts": [],
-  "layouts": [
-    "classic",
-    "inline",
-    "column-2"
-  ],
-  "events":{
-    "userStatus": {
-       "attending": "Attending",
-       "speaking": "Speaking"
-      }
-  },
+  "layouts": ["classic", "inline", "column-2"],
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,
