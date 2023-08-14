@@ -1,3 +1,4 @@
+import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { User } from "@models/index";
 
@@ -15,6 +16,7 @@ export default async function handler(req, res) {
 
   // TODO: verify stripe signature
 
+  await connectMongo();
   const event = req.body;
   logger.info(`stripe: ${event.type}`);
   switch (event.type) {
