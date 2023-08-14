@@ -43,9 +43,20 @@ export async function getServerSideProps(context) {
   };
 }
 
+const alerts = {
+  createOrUpdate: {
+    type: "success",
+    message: "Link Created/Updated Successfully",
+  },
+  delete: {
+    type: "success",
+    message: "Link Deleted Successfully",
+  }
+}
+
 export default function ManageLinks({ BASE_URL, username, links }) {
   const router = useRouter();
-  const { success } = router.query;
+  const { success, deleted } = router.query;
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   const [linkList, setLinkList] = useState(links || []);
@@ -74,8 +85,11 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
-        {success && (
-          <Alert type="success" message="Link Created/Updated Successfully" />
+      {success && (
+          <Alert {...alerts.createOrUpdate} />
+        )}
+        {deleted && (
+          <Alert {...alerts.delete} />
         )}
         <Navigation />
 

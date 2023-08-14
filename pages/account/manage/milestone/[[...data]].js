@@ -121,7 +121,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/milestones`);
+    return Router.push(`${BASE_URL}/account/manage/milestones?deleted=true`);
   };
 
   useEffect(() => {

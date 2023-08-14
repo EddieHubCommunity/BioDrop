@@ -116,7 +116,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/links`);
+    return Router.push(`${BASE_URL}/account/manage/links?deleted=true`);
   };
 
   return (
