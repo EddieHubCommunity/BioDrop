@@ -98,7 +98,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users. 
 
-> **Warning**: [MongoDB Compass](https://www.mongodb.com/products/compass) will not not be available with the above setup. You'll need to run the next.js project that we just cloned locally and a mongoDB image inside a docker container in order to access
+> **Warning**: [MongoDB Compass](https://www.mongodb.com/products/compass) will not be available with the above setup. You'll need to run the next.js project that we just cloned locally and a mongoDB image inside a docker container in order to access
 MongoDB Compass:  
 
 <details>
