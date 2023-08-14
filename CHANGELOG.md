@@ -1,3 +1,12 @@
+## [1.173.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.3...v1.173.4) (2023-08-14)
+
+
+### Bug Fixes
+
+* failing to add repo with trailing slash ([#8636](https://github.com/EddieHubCommunity/LinkFree/issues/8636)) ([d337de3](https://github.com/EddieHubCommunity/LinkFree/commit/d337de36d8094e51b397b1cd4622edbf0978ca67))
+
+
+
 ## [1.173.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.2...v1.173.3) (2023-08-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * discover page for recently updated profiles ([#8615](https://github.com/EddieHubCommunity/LinkFree/issues/8615)) ([d8f43f9](https://github.com/EddieHubCommunity/LinkFree/commit/d8f43f9fc8d835335f715f1a1e886068d805b1b1))
-
-
-
-## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
-
-
-### Bug Fixes
-
-* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
 
 
 
