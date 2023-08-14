@@ -8,7 +8,7 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import { getRandomProfileApi } from "./api/discover/random";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";

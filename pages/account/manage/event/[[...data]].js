@@ -11,13 +11,12 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
 import { getEventApi } from "pages/api/account/manage/event/[[...data]]";
 import Input from "@components/form/Input";
-import Select from "@components/form/Select";
 import EventCard from "@components/event/EventCard";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
-import config from "@config/app.json";
 import dateFormat from "@services/utils/dateFormat";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -49,7 +48,7 @@ export async function getServerSideProps(context) {
 
 export default function ManageEvent({ BASE_URL, event }) {
   const [open, setOpen] = useState(false);
-  
+
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -62,26 +61,14 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  
-  const DropDownOptions = [
-    config.events.userStatus.attending,
-    config.events.userStatus.speaking,
-  ];
-  const [userStatus, setuserStatus] = useState(event.userStatus || "");
-  const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
-
-  const handleEventTypeChange = (event) => {
-    setuserStatus(event.target.value);
-    setspeakingTopic(""); // Reset the input value when the dropdown value changes
-  };
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
   const [color, setColor] = useState(event.color || "");
 
   const formatLocalDate = (inputDate) => {
     const d = new Date(inputDate);
     const year = d.getFullYear();
-    const month = ("0"+(d.getMonth() +1)).slice(-2);
-    const day = ("0"+d.getDate()).slice(-2)
+    const month = ("0" + (d.getMonth() + 1)).slice(-2);
+    const day = ("0" + d.getDate()).slice(-2);
     const date = `${year}-${month}-${day}`;
     const time = d.toTimeString().split(":");
 
@@ -95,23 +82,27 @@ export default function ManageEvent({ BASE_URL, event }) {
     if (event.date?.end) {
       setEndDate(formatLocalDate(event.date.end));
     }
-  }, [event])
+  }, [event]);
 
-  const submitDate =  (date) => {
+  const submitDate = (date) => {
     return new Date(date).toISOString();
-  }
+  };
 
   const getTz = (date) => {
     if (!date) return "";
-    const localTime = dateFormat({ locale: "local", format: "long", date: new Date(date) })
+    const localTime = dateFormat({
+      locale: "local",
+      format: "long",
+      date: new Date(date),
+    });
     const tz = localTime.split(" ").slice(-1)[0];
-    return ` (${tz})`
-  }
-
+    return ` (${tz})`;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let alert = "created";
     let putEvent = {
       name,
       description,
@@ -119,12 +110,11 @@ export default function ManageEvent({ BASE_URL, event }) {
       date: { start: submitDate(startDate), end: submitDate(endDate) },
       isVirtual,
       price: { startingFrom: price },
-      userStatus,
-      speakingTopic,
       color,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
+      alert = "updated";
       putEvent = { ...putEvent, _id: event._id };
       apiUrl = `${BASE_URL}/api/account/manage/event/${event._id}`;
     }
@@ -148,7 +138,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/events?success=true`);
+    Router.push(`${BASE_URL}/account/manage/events?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -172,13 +162,13 @@ export default function ManageEvent({ BASE_URL, event }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/events`);
+    return Router.push(`${BASE_URL}/account/manage/events?alert=deleted`);
   };
 
   return (
     <>
       <PageHead
-        title="Manage Milestone"
+        title="Manage Event"
         description="Here you can manage your LinkFree event"
       />
 
@@ -225,9 +215,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <Textarea
                       name="description"
-                      label="Description"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       placeholder="Description of the event from their website"
@@ -275,43 +264,12 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <div className="mt-1">
-                      <Select
-                        name="userStatus"
-                        label="Are you speaking in the event?"
-                        value={userStatus}
-                        options={DropDownOptions}
-                        onChange={handleEventTypeChange}
-                      />
-                    </div>
-                    <p className="text-sm text-primary-low-medium">
-                      Only attending or speaking also?
-                    </p>
-                  </div>
-                  {userStatus === "Speaking" && (
-                    <div className="mt-1 sm:col-span-2 sm:mt-0">
-                      <Input
-                        type="text"
-                        name="topic"
-                        label="What topic are you speaking on ?"
-                        placeholder="Your speaking topic"
-                        onChange={(e) => setspeakingTopic(e.target.value)}
-                        value={speakingTopic}
-                        required
-                        maxLength="256"
-                      />
-                      <p className="text-sm text-primary-low-medium">
-                        For example: <i>The future of AI</i>
-                      </p>
-                    </div>
-                  )}
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
-                      minLength="0"
+                      min="0"
                       name="price"
-                      label="Ticket Price"
-                      onChange={(e) => setPrice(e.target.value)}
+                      label="Ticket Price ($)"
+                      onChange={(e) => setPrice(parseInt(e.target.value))}
                       value={price}
                     />
                     <p className="text-sm text-primary-low-medium">
@@ -359,9 +317,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 url,
                 date: { start: startDate, end: endDate },
                 isVirtual,
-                price,
-                userStatus,
-                speakingTopic,
+                price: { startingFrom: price },
                 color,
               }}
             />

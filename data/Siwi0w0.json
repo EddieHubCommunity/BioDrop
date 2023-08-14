@@ -1,0 +1,16 @@
+{
+  "name": "Yufei",
+  "bio": "Hello! Thank you for checking my links : )",
+  "links": [
+    {
+      "name": "Find me on GitHub",
+      "url": "https://github.com/Siwi0w0",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check my work on DevPost",
+      "url": "https://devpost.com/Siwi0w0?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+      "icon": "SiDevpost"
+    }
+  ]
+}

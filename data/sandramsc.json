@@ -54,16 +54,16 @@
       "date": "March 2023",
       "icon": "SiCodeproject",
       "color": "green",
-      "description": "A 6 week long remote team project - build a fullstack app",
+      "description": "A 6-week long remote team project - build a full-stack app",
       "url": "https://github.com/chingu-voyages/v42-bears-team-26"
     },
     {
       "title": "Started Tech Blog",
       "date": "November 2022",
-      "icon": "SiSubstack",
+      "icon": "SiHashnode",
       "color": "pink",
       "description": "Documenting my software engineering journey through tech blogging",
-      "url": "https://sandraashipala.substack.com/"
+      "url": "https://sandraashipala.hashnode.dev/"
     }
   ]
 }

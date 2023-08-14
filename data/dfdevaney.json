@@ -15,7 +15,17 @@
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/doug-devaney",
-      "icon": "FaLinkdedIn"
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Threads",
+      "url": "https://www.threads.net/@Snoops127",
+      "icon": "FaThreads"
+    },
+    {
+      "name": "My Homepage",
+      "url": "https://dfdevaney.github.io/dfdevaney/#",
+      "icon": "FaRocket"
     }
   ]
 }
