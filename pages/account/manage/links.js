@@ -45,11 +45,27 @@ export async function getServerSideProps(context) {
 
 export default function ManageLinks({ BASE_URL, username, links }) {
   const router = useRouter();
-  const { success, deleted } = router.query;
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   const [linkList, setLinkList] = useState(links || []);
   const [linkListPrevious, setLinkListPrevious] = useState(links || []);
+
+  const { alert } = router.query;
+
+  const alerts = {
+    deleted: {
+      type: "success",
+      message: "Link Deleted Successfully",
+    },
+    created: {
+      type: "success",
+      message: "Link Created Successfully",
+    },
+    updated: {
+      type: "success",
+      message: "Link Updated Successfully",
+    },
+  };
 
   const saveOrder = async () => {
     const res = await fetch(`${BASE_URL}/api/account/manage/links`, {
@@ -74,12 +90,10 @@ export default function ManageLinks({ BASE_URL, username, links }) {
       />
 
       <Page>
-        {success && (
-          <Alert type="success" message="Link Created/Updated Successfully" />
+        {alert && (
+          <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
-        {deleted && (
-          <Alert type="success" message={"Link Deleted Successfully"} />
-        )}
+
         <Navigation />
 
         <Notification
