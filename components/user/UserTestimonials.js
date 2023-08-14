@@ -22,6 +22,7 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                   width={100} // just to pass nextjs error
                   height={100}
                   src={`https://github.com/${testimonial.username}.png`}
+                  fallback={testimonial.username}
                   alt={testimonial.username}
                   className="rounded-full bg-primary-low"
                 />
