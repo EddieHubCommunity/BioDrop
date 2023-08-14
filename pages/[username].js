@@ -86,6 +86,6 @@ export default function User({ data, BASE_URL }) {
   );
 }
 
-User.getLayout = function getLayout(settings, page) {
+User.getLayout = function getLayout(page, settings) {
   return <MultiLayout settings={settings}>{page}</MultiLayout>;
 };

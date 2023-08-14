@@ -13,18 +13,17 @@ export default function MyApp({
   const router = useRouter();
   // Use the layout defined at the page level, if available
   const getLayout =
-    Component.getLayout ||
-    ((settings, page) => <MultiLayout settings={settings}>{page}</MultiLayout>);
+    Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
 
   return (
     <ThemeProvider attribute="class">
       <SessionProvider session={session}>
         {getLayout(
-          pageProps.settings,
           <>
             <Component {...pageProps} key={router.asPath} />
             <Analytics />
-          </>
+          </>,
+          pageProps.settings
         )}
       </SessionProvider>
     </ThemeProvider>
