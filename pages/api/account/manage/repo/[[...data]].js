@@ -84,18 +84,20 @@ export async function addRepoApi(username, addRepo) {
     return { error: e.errors };
   }
 
+  const repoUrl = addRepo.url.endsWith("/") ? addRepo.url.slice(0, -1) : addRepo.url;
+
   const profile = await Profile.findOne({ username });
-  if (profile.repos?.find((repo) => repo.url === addRepo.url)) {
-    const error = `repo already exists for: ${addRepo.url}`;
+  if (profile.repos?.find((repo) => repo.url === repoUrl)) {
+    const error = `repo already exists for: ${repoUrl}`;
     log.error(error);
     return { error };
   }
 
   let githubData = {};
   try {
-    githubData = await getGitHubRepo(addRepo.url);
+    githubData = await getGitHubRepo(repoUrl);
   } catch (e) {
-    const error = `failed to get data for repo: ${addRepo.url}`;
+    const error = `failed to get data for repo: ${repoUrl}`;
     log.error(e, error);
     return { error };
   }
@@ -118,7 +120,7 @@ export async function addRepoApi(username, addRepo) {
         $push: {
           repos: {
             _id: id,
-            url: addRepo.url,
+            url: repoUrl,
             fullname: githubData.name,
             name: githubData.name,
             owner: githubData.owner.login,
