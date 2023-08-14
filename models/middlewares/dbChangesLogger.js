@@ -1,4 +1,5 @@
 import logger from "@config/logger";
+import { DBChange } from "@models/index";
 
 const dbChangesLoggerMiddleware = (schema) => {
   let username;
@@ -24,13 +25,14 @@ const dbChangesLoggerMiddleware = (schema) => {
     const change = {
       username,
       collection,
-      collection_id: "in progress....",
+      doc: doc._id,
       changesBefore,
       changesAfter,
       date
     };
     
     if (changesBefore !== changesAfter) {
+      await DBChange.create({ ...change });
       logger.info(change);
     } else {
       logger.info(`No changes occured in: ${collection}`)
