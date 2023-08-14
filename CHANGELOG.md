@@ -1,3 +1,12 @@
+## [1.173.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.2...v1.173.3) (2023-08-14)
+
+
+### Bug Fixes
+
+* alerts for managing pages ([#8645](https://github.com/EddieHubCommunity/LinkFree/issues/8645)) ([d0f1587](https://github.com/EddieHubCommunity/LinkFree/commit/d0f15878bf1643e58fef2a0c5591e8df277a0994)), closes [#8591](https://github.com/EddieHubCommunity/LinkFree/issues/8591)
+
+
+
 ## [1.173.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.1...v1.173.2) (2023-08-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
-
-
-
-## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
-
-
-### Bug Fixes
-
-* testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
 
 
 
