@@ -64,6 +64,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let alert = "created";
     let putMilestone = {
       title,
       description,
@@ -74,6 +75,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
     if (milestone._id) {
+      alert = "updated";
       putMilestone = { ...putMilestone, _id: milestone._id };
       apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
     }
@@ -97,7 +99,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
+    Router.push(`${BASE_URL}/account/manage/milestones?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -121,7 +123,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/milestones`);
+    return Router.push(`${BASE_URL}/account/manage/milestones?alert=deleted`);
   };
 
   useEffect(() => {
