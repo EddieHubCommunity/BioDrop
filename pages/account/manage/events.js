@@ -38,6 +38,17 @@ export async function getServerSideProps(context) {
   };
 }
 
+const alerts = {
+  createOrUpdate: {
+    type: "success",
+    message: "Event Created/Updated Successfully",
+  },
+  delete: {
+    type: "success",
+    message: "Event Deleted Successfully",
+  }
+}
+
 export default function ManageEvents({ events }) {
   const router = useRouter();
   const { success, deleted } = router.query;
@@ -51,16 +62,10 @@ export default function ManageEvents({ events }) {
 
       <Page>
         {success && (
-          <Alert
-            type="success"
-            message={"Event Created/Updated Successfully"}
-          />
+          <Alert {...alerts.createOrUpdate} />
         )}
         {deleted && (
-          <Alert
-            type="success"
-            message={"Event Deleted Successfully"}
-          />
+          <Alert {...alerts.delete} />
         )}
 
         <Navigation />
