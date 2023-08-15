@@ -1,9 +1,20 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy.js";
 import Link from "@components/Link";
+import Alert from "@components/Alert.js";
 
 ## Debugging LinkFree with VS Code
 This documentation explains how you can debug your LinkFree frontend and backend code using the Visual Studio Code (VS Code) debugger.
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+        This debugging setup is for a local development environment and may not work if you are running LinkFree using Docker Compose in your local setup. Additionally, it requires MongoDB to be available and running.
+    </>
+  }
+/>
 
 ## Environment setup for debugging in VS Code
 
