@@ -70,8 +70,10 @@ export default function ManageLink({ BASE_URL, username, link }) {
     let method = "POST";
     let putLink = { group, name, url, icon, isEnabled, isPinned, animation };
 
+    let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
     if (edit) {
+      alert = "updated";
       method = "PUT";
       putLink = { ...putLink, _id: link._id };
       apiUrl = `${BASE_URL}/api/account/manage/link/${link._id}`;
@@ -98,7 +100,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     }
 
     setEdit(true);
-    Router.push(`${BASE_URL}/account/manage/links?success=true`);
+    Router.push(`${BASE_URL}/account/manage/links?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -119,7 +121,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/links`);
+    return Router.push(`${BASE_URL}/account/manage/links?alert=deleted`);
   };
 
   return (
