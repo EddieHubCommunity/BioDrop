@@ -150,6 +150,14 @@ export default function Home({
         "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
       imageAlt: "LinkFree screenshot of Map Page",
     },
+    {
+      name: "Your GitHub Repositories (repos)",
+      description:
+        "Add your GitHub repos to your Profile and they appear on the community repo page.",
+      imageSrc:
+        "https://github.com/EddieHubCommunity/LinkFree/assets/624760/5518fb49-c7ff-4288-9809-52ec36a59ee9",
+      imageAlt: "LinkFree screenshot of Repo Page",
+    },
   ];
 
   const testimonials = [
