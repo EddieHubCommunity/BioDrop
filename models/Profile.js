@@ -63,6 +63,12 @@ const ProfileSchema = new Schema(
       type: Number,
       default: 0,
     },
+    stats: {
+      referers: {
+        type: Map,
+        of: Number,
+      },
+    },
     links: {
       default: [],
       type: [{ type: Schema.Types.ObjectId, ref: "Link" }],

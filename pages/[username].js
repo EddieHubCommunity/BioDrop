@@ -16,7 +16,9 @@ export async function getServerSideProps(context) {
   const { req, res } = context;
   const username = context.query.username;
 
-  const { status, profile } = await getUserApi(req, res, username);
+  const { status, profile } = await getUserApi(req, res, username, {
+    referer: req.headers.referer,
+  });
   if (status !== 200) {
     logger.error(
       profile.error,
