@@ -7,6 +7,7 @@ const ChangelogSchema = new mongoose.Schema(
     collectionName: String,
     changesBefore: mongoose.Schema.Types.Mixed,
     changesAfter: mongoose.Schema.Types.Mixed,
+    diff: mongoose.Schema.Types.Mixed,
   },
   { timestamps: true }
 );
