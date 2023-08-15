@@ -1,3 +1,12 @@
+## [1.173.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.4...v1.173.5) (2023-08-15)
+
+
+### Bug Fixes
+
+* fallback image ([#8644](https://github.com/EddieHubCommunity/LinkFree/issues/8644)) ([6d4913c](https://github.com/EddieHubCommunity/LinkFree/commit/6d4913c1b4c6da96f4ef6941f0ec4f6a408b1c8d))
+
+
+
 ## [1.173.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.3...v1.173.4) (2023-08-14)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * center 404 image ([#8623](https://github.com/EddieHubCommunity/LinkFree/issues/8623)) ([6a710b7](https://github.com/EddieHubCommunity/LinkFree/commit/6a710b7448ad3f8a8872c4a84eaebe6e3b74d98c))
-
-
-
-# [1.173.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.3...v1.173.0) (2023-08-12)
-
-
-### Features
-
-* discover page for recently updated profiles ([#8615](https://github.com/EddieHubCommunity/LinkFree/issues/8615)) ([d8f43f9](https://github.com/EddieHubCommunity/LinkFree/commit/d8f43f9fc8d835335f715f1a1e886068d805b1b1))
 
 
 
