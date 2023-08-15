@@ -1,3 +1,12 @@
+## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
+
+
+### Bug Fixes
+
+* homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
+
+
+
 # [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * alerts for managing pages ([#8645](https://github.com/EddieHubCommunity/LinkFree/issues/8645)) ([d0f1587](https://github.com/EddieHubCommunity/LinkFree/commit/d0f15878bf1643e58fef2a0c5591e8df277a0994)), closes [#8591](https://github.com/EddieHubCommunity/LinkFree/issues/8591)
-
-
-
-## [1.173.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.1...v1.173.2) (2023-08-13)
-
-
-### Bug Fixes
-
-* navbar overflow issue on smaller devices ([#8552](https://github.com/EddieHubCommunity/LinkFree/issues/8552)) ([96c4092](https://github.com/EddieHubCommunity/LinkFree/commit/96c409238e53b6a878a887f68ab44b60be7ca26c))
 
 
 
