@@ -43,7 +43,7 @@ function UserProfile({ BASE_URL, data }) {
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}
-            fallback={data.name}
+            fallback={data.username}
             priority
             className="rounded-full object-contain"
           />

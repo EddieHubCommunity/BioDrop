@@ -81,12 +81,42 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Prerequisites
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://github.com/docker/compose) V2.
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/) and [Docker Compose](https://github.com/docker/compose) V2. or [Docker Desktop](https://docs.docker.com/desktop/#:~:text=Docker%20Desktop%20is%20a%20one,share%20containerized%20applications%20and%20microservices)
 
 #### Commands
 
-1. `docker compose up` 
+1. `git clone https://github.com/EddieHubCommunity/LinkFree`
+
+2. `cd LinkFree`
+
+3. `docker compose up` 
+
+4. In your browser on localhost:3000 you should now see the project up and running.
+
+5. Now you need to upload the data in your mongoDB instance. `localhost:3000/api/system/reload?secret=development`
+
+6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users. 
+
+> **Warning**: [MongoDB Compass](https://www.mongodb.com/products/compass) will not be available with the above setup. You'll need to run the next.js project that we just cloned locally and a mongoDB image inside a docker container in order to access
+MongoDB Compass:  
+
+<details>
+  <summary>Click me for instructions</summary>
+  
+  ### Installation
+  1. `npm install`
+  
+  2. Modify.env file `LINKFREE_MONGO_CONNECTION_STRING` value with `"mongodb://localhost:27017/linkfree"`
+  
+  3. `docker run --name my_mongodb_instance -p 27017:27017 -d mongo`
+  
+  4. `npm run dev`
+  
+  5. In the browser `localhost:3000/api/system/reload?secret=development`
+
+</details>
+<br>
 
 Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
@@ -161,3 +191,4 @@ Don't forget to leave a star ⭐️.
 We take participation in our community as a harassment-free experience for everyone and we pledge to act in ways to contribute to an open, welcoming, diverse and inclusive community.  
 
 If you have experienced or been made aware of unacceptable behaviour, please remember that you can report this.  Read our [Code of Conduct](https://github.com/EddieHubCommunity/LinkFree/blob/main/CODE_OF_CONDUCT.md) for more details.
+

@@ -103,6 +103,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let alert = "created";
     let putEvent = {
       name,
       description,
@@ -114,6 +115,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     };
     let apiUrl = "/api/account/manage/event/";
     if (event._id) {
+      alert = "updated";
       putEvent = { ...putEvent, _id: event._id };
       apiUrl = `/api/account/manage/event/${event._id}`;
     }
@@ -123,7 +125,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         method: "PUT",
         body: putEvent,
       });
-      Router.push(`${BASE_URL}/account/manage/events?success=true`);
+      Router.push(`${BASE_URL}/account/manage/events?alert=${alert}`);
     } catch (err) {
       setShowNotification({
         show: true,
@@ -140,7 +142,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         url: `/api/account/manage/event/${event._id}`,
         method: "DELETE",
       });
-      Router.push(`${BASE_URL}/account/manage/events`);
+      Router.push(`${BASE_URL}/account/manage/events?alert=deleted`);
     } catch (err) {
       setShowNotification({
         show: true,

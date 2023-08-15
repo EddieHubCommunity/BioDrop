@@ -69,7 +69,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
     let putLink = { group, name, url, icon, isEnabled, isPinned };
 
     let apiUrl = "/api/account/manage/link";
+    let alert = "created";
     if (edit) {
+      alert = "updated";
       method = "PUT";
       putLink = { ...putLink, _id: link._id };
       apiUrl = `/api/account/manage/link/${link._id}`;
@@ -82,7 +84,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
         body: putLink,
       });
       setEdit(true);
-      Router.push(`${BASE_URL}/account/manage/links?success=true`);
+      Router.push(`${BASE_URL}/account/manage/links?alert=${alert}`);
     } catch (err) {
       setShowNotification({
         show: true,
@@ -99,7 +101,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
         url: `/api/account/manage/link/${link._id}`,
         method: "DELETE",
       });
-      Router.push(`${BASE_URL}/account/manage/links`);
+      Router.push(`${BASE_URL}/account/manage/links?alert=deleted`);
     } catch (err) {
       setShowNotification({
         show: true,
