@@ -1,3 +1,12 @@
+# [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
+
+
+### Features
+
+* store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
+
+
+
 ## [1.173.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.4...v1.173.5) (2023-08-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * navbar overflow issue on smaller devices ([#8552](https://github.com/EddieHubCommunity/LinkFree/issues/8552)) ([96c4092](https://github.com/EddieHubCommunity/LinkFree/commit/96c409238e53b6a878a887f68ab44b60be7ca26c))
-
-
-
-## [1.173.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.0...v1.173.1) (2023-08-13)
-
-
-### Bug Fixes
-
-* center 404 image ([#8623](https://github.com/EddieHubCommunity/LinkFree/issues/8623)) ([6a710b7](https://github.com/EddieHubCommunity/LinkFree/commit/6a710b7448ad3f8a8872c4a84eaebe6e3b74d98c))
 
 
 
