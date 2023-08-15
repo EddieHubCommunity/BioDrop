@@ -41,10 +41,10 @@ export default function UserLink({
       target="_blank"
       rel="noopener noreferrer"
       className={classNames(
-        link.animation === animations.iconGlow && "z-0",
-        link.animation !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
+        animations[link.animation] === animations.iconGlow && "z-0",
+        animations[link.animation] !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
         !isEnabled && "opacity-50",
-        getLinkAnimation.get(link.animation),
+        isEnabled && getLinkAnimation.get(animations[link.animation]),
         "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow"
       )}
       style={{
@@ -52,10 +52,10 @@ export default function UserLink({
       }}
     >
       <span className="relative">
-        <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(link.animation)}>
+        <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(animations[link.animation])}>
           <DisplayIcon aria-label={`${aria} icon`} />
         </span>
-        {link.animation === animations.ping && 
+        {animations[link.animation] === animations.ping && 
           <span style={{ color: colors[link.icon] }} className={`relative`}>
             <DisplayIcon aria-label={`${aria} icon`} />
           </span>

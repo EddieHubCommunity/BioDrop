@@ -18,7 +18,9 @@ import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
 import Select from "@components/form/Select";
 import config from "@config/app.json";
+import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
 const animations = config.animations;
+
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
 
@@ -62,7 +64,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
-  const [animation, setAnimation] = useState(link.animation || animations.none);
+  const [animation, setAnimation] = useState(link.animation || "none");
  
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -235,7 +237,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       name="animation"
                       label="Animation"
                       value={animation}
-                      options={Object.values(animations)}
+                      options={objectToLabelValueArray(animations)}
                       onChange={(e) => setAnimation(e.target.value)}
                     />
                   </div>
