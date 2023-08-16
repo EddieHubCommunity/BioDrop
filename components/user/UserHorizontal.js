@@ -1,9 +1,8 @@
-import ReactMarkdown from "react-markdown";
-
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import TagSimple from "@components/tag/TagSimple";
 import { searchTagNameInInput } from "@services/utils/search/tags";
+import Markdown from "@components/Markdown";
 
 export default function UserHorizontal({ profile, input }) {
   return (
@@ -26,13 +25,13 @@ export default function UserHorizontal({ profile, input }) {
               {profile.username}
             </h3>
           </div>
-          <ReactMarkdown
+          <Markdown
             disallowedElements={["a"]}
             unwrapDisallowed
             className="text-left line-clamp-3"
           >
             {profile.bio}
-          </ReactMarkdown>
+          </Markdown>
         </div>
       </div>
       {profile.tags?.length > 0 && (

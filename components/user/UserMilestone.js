@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { classNames } from "@services/utils/classNames";
 
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
+import Markdown from "@components/Markdown";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
@@ -25,7 +25,11 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
 
     return (
       <div className="flex space-x-3 grow">
-        {milestone.icon && <DisplayIcon className={`h-8 w-8 rounded-full ${manage ? 'ml-12' : 'ml-0'}`} />}
+        {milestone.icon && (
+          <DisplayIcon
+            className={`h-8 w-8 rounded-full ${manage ? "ml-12" : "ml-0"}`}
+          />
+        )}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
             <h3
@@ -49,9 +53,9 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
               )}
             </p>
           </div>
-          <ReactMarkdown className={`text-sm ${colors}`}>
+          <Markdown className={`text-sm ${colors}`}>
             {milestone.description}
-          </ReactMarkdown>
+          </Markdown>
         </div>
       </div>
     );

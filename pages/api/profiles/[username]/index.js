@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
@@ -157,6 +157,11 @@ export async function getUserApi(req, res, username) {
       })()
     );
 
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replace(".", "|")}`] = 1;
+    }
     updates.push(
       (async () => {
         try {
@@ -165,7 +170,7 @@ export async function getUserApi(req, res, username) {
               username,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { timestamps: false }
           );
@@ -188,7 +193,7 @@ export async function getUserApi(req, res, username) {
               date,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { upsert: true }
           );

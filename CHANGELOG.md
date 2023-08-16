@@ -1,45 +1,45 @@
-## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
+## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
 
 
 ### Bug Fixes
 
-* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
+* homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
 
 
 
-## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
+# [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
 
 
-### Bug Fixes
+### Features
 
-* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
-
-
-
-## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
-
-
-### Bug Fixes
-
-* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+* store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
 
 
 
-## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
+## [1.173.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.4...v1.173.5) (2023-08-15)
 
 
 ### Bug Fixes
 
-* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
+* fallback image ([#8644](https://github.com/EddieHubCommunity/LinkFree/issues/8644)) ([6d4913c](https://github.com/EddieHubCommunity/LinkFree/commit/6d4913c1b4c6da96f4ef6941f0ec4f6a408b1c8d))
 
 
 
-## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+## [1.173.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.3...v1.173.4) (2023-08-14)
 
 
 ### Bug Fixes
 
-* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+* failing to add repo with trailing slash ([#8636](https://github.com/EddieHubCommunity/LinkFree/issues/8636)) ([d337de3](https://github.com/EddieHubCommunity/LinkFree/commit/d337de36d8094e51b397b1cd4622edbf0978ca67))
+
+
+
+## [1.173.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.2...v1.173.3) (2023-08-14)
+
+
+### Bug Fixes
+
+* alerts for managing pages ([#8645](https://github.com/EddieHubCommunity/LinkFree/issues/8645)) ([d0f1587](https://github.com/EddieHubCommunity/LinkFree/commit/d0f15878bf1643e58fef2a0c5591e8df277a0994)), closes [#8591](https://github.com/EddieHubCommunity/LinkFree/issues/8591)
 
 
 
