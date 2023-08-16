@@ -29,7 +29,7 @@ export default function dbChangesLoggerMiddleware(schema) {
   async function afterUpdate(doc, next) {
     changesAfter = await doc.constructor.findById(doc._id);
 
-    if (isUpdateOperation) {
+    if (isUpdateOperation && changesBefore && changesAfter) {
       diff = getChangesDiff(changesBefore._doc, changesAfter._doc);
     } else {
       diff = doc;
