@@ -1,7 +1,7 @@
 import logger from "@config/logger";
 import { Changelog } from "@models/index";
 
-const dbChangesLoggerMiddleware = (schema) => {
+export default function dbChangesLoggerMiddleware(schema) {
   let isUpdateOperation;
 
   let username;
@@ -59,9 +59,7 @@ const dbChangesLoggerMiddleware = (schema) => {
 
   schema.post("save", afterUpdate);
   schema.post("findOneAndUpdate", afterUpdate);
-};
-
-module.exports = dbChangesLoggerMiddleware;
+}
 
 function getChangesDiff(chngB, chngA) {
   const diff = {};
@@ -71,6 +69,6 @@ function getChangesDiff(chngB, chngA) {
       diff[key] = chngA[key];
     }
   }
-  
+
   return diff;
 }
