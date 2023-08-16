@@ -1,3 +1,12 @@
+## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
+
+
+### Bug Fixes
+
+* dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
+
+
+
 ## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
-
-
-
-## [1.173.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.4...v1.173.5) (2023-08-15)
-
-
-### Bug Fixes
-
-* fallback image ([#8644](https://github.com/EddieHubCommunity/LinkFree/issues/8644)) ([6d4913c](https://github.com/EddieHubCommunity/LinkFree/commit/6d4913c1b4c6da96f4ef6941f0ec4f6a408b1c8d))
 
 
 
