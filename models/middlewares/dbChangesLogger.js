@@ -2,13 +2,16 @@ import logger from "@config/logger";
 import { Changelog } from "@models/index";
 
 const dbChangesLoggerMiddleware = (schema) => {
+  let isUpdateOperation;
+
   let username;
   let collection;
   let changesBefore;
   let changesAfter;
+  let diff;
 
   async function beforeUpdate(next) {
-    const isUpdateOperation = this.op && this.op === "findOneAndUpdate";
+    isUpdateOperation = this.op && this.op === "findOneAndUpdate";
 
     username = isUpdateOperation 
       ? this._conditions.username 
@@ -25,15 +28,22 @@ const dbChangesLoggerMiddleware = (schema) => {
 
   async function afterUpdate(doc, next) {
     changesAfter = await doc.constructor.findById(doc._id);
-    
+
+    if (isUpdateOperation) {
+      diff = getChangesDiff(changesBefore._doc, changesAfter._doc);
+    } else {
+      diff = doc;
+    }
+
     const change = {
       username,
       collectionName: collection,
       collectionId: doc._id,
       changesBefore,
       changesAfter,
+      diff,
     };
-    
+
     if (changesBefore !== changesAfter) {
       await Changelog.create({ ...change });
       logger.info(change);
@@ -52,3 +62,15 @@ const dbChangesLoggerMiddleware = (schema) => {
 };
 
 module.exports = dbChangesLoggerMiddleware;
+
+function getChangesDiff(chngB, chngA) {
+  const diff = {};
+
+  for (const key in chngA) {
+    if (JSON.stringify(chngB[key]) !== JSON.stringify(chngA[key])) {
+      diff[key] = chngA[key];
+    }
+  }
+  
+  return diff;
+}
