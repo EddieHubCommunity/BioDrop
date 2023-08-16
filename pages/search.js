@@ -11,6 +11,7 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
+import { cleanSearchInput, searchTagNameInInput } from "@services/utils/search/tags";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -157,26 +158,7 @@ export default function Search({
     setInputValue(keyword);
   };
 
-  // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
-  const cleanSearchInput = (searchInput) => {
-    return searchInput
-      .trim()
-      .replace(/\s{2,}/g, " ")
-      .replace(/,(?!\s)/g, ", ")
-      .toLowerCase();
-  };
 
-  const searchTagNameInInput = (searchInput, tagName) => {
-    const tags = cleanSearchInput(searchInput).split(",");
-
-    for (let tag of tags) {
-      if (tag.trim() === tagName.toLowerCase()) {
-        return true;
-      }
-    }
-
-    return false;
-  };
 
   const usersPerPage = 20;
   const indexOfLastUser = currentPage * usersPerPage;
@@ -234,14 +216,14 @@ export default function Search({
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
         </ul>
