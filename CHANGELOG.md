@@ -1,3 +1,12 @@
+## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
+
+
+
 # [1.175.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.1...v1.175.0) (2023-08-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * fallback image ([#8644](https://github.com/EddieHubCommunity/LinkFree/issues/8644)) ([6d4913c](https://github.com/EddieHubCommunity/LinkFree/commit/6d4913c1b4c6da96f4ef6941f0ec4f6a408b1c8d))
-
-
-
-## [1.173.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.3...v1.173.4) (2023-08-14)
-
-
-### Bug Fixes
-
-* failing to add repo with trailing slash ([#8636](https://github.com/EddieHubCommunity/LinkFree/issues/8636)) ([d337de3](https://github.com/EddieHubCommunity/LinkFree/commit/d337de36d8094e51b397b1cd4622edbf0978ca67))
 
 
 
