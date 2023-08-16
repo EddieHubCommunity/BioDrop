@@ -1,45 +1,45 @@
-## [1.173.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.2...v1.173.3) (2023-08-14)
-
-
-### Bug Fixes
-
-* alerts for managing pages ([#8645](https://github.com/EddieHubCommunity/LinkFree/issues/8645)) ([d0f1587](https://github.com/EddieHubCommunity/LinkFree/commit/d0f15878bf1643e58fef2a0c5591e8df277a0994)), closes [#8591](https://github.com/EddieHubCommunity/LinkFree/issues/8591)
-
-
-
-## [1.173.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.1...v1.173.2) (2023-08-13)
-
-
-### Bug Fixes
-
-* navbar overflow issue on smaller devices ([#8552](https://github.com/EddieHubCommunity/LinkFree/issues/8552)) ([96c4092](https://github.com/EddieHubCommunity/LinkFree/commit/96c409238e53b6a878a887f68ab44b60be7ca26c))
-
-
-
-## [1.173.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.0...v1.173.1) (2023-08-13)
-
-
-### Bug Fixes
-
-* center 404 image ([#8623](https://github.com/EddieHubCommunity/LinkFree/issues/8623)) ([6a710b7](https://github.com/EddieHubCommunity/LinkFree/commit/6a710b7448ad3f8a8872c4a84eaebe6e3b74d98c))
-
-
-
-# [1.173.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.3...v1.173.0) (2023-08-12)
+# [1.175.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.1...v1.175.0) (2023-08-16)
 
 
 ### Features
 
-* discover page for recently updated profiles ([#8615](https://github.com/EddieHubCommunity/LinkFree/issues/8615)) ([d8f43f9](https://github.com/EddieHubCommunity/LinkFree/commit/d8f43f9fc8d835335f715f1a1e886068d805b1b1))
+* tag highlighting in profile card on search ([#8419](https://github.com/EddieHubCommunity/LinkFree/issues/8419)) ([f33a265](https://github.com/EddieHubCommunity/LinkFree/commit/f33a2650453cf13d6e39c666c8a799685ba620f9))
 
 
 
-## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
+## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
 
 
 ### Bug Fixes
 
-* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
+* homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
+
+
+
+# [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
+
+
+### Features
+
+* store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
+
+
+
+## [1.173.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.4...v1.173.5) (2023-08-15)
+
+
+### Bug Fixes
+
+* fallback image ([#8644](https://github.com/EddieHubCommunity/LinkFree/issues/8644)) ([6d4913c](https://github.com/EddieHubCommunity/LinkFree/commit/6d4913c1b4c6da96f4ef6941f0ec4f6a408b1c8d))
+
+
+
+## [1.173.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.3...v1.173.4) (2023-08-14)
+
+
+### Bug Fixes
+
+* failing to add repo with trailing slash ([#8636](https://github.com/EddieHubCommunity/LinkFree/issues/8636)) ([d337de3](https://github.com/EddieHubCommunity/LinkFree/commit/d337de36d8094e51b397b1cd4622edbf0978ca67))
 
 
 
