@@ -46,7 +46,7 @@ export default function UserHorizontal({ profile, input }) {
                 <TagSimple
                   name={trimmedTag}
                   key={index}
-                  isSelected={searchTagNameInInput(input, trimmedTag)}
+                  isSelected={input && searchTagNameInInput(input, trimmedTag)}
                 />
               );
             })}
