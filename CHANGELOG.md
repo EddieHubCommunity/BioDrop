@@ -1,3 +1,12 @@
+# [1.175.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.1...v1.175.0) (2023-08-16)
+
+
+### Features
+
+* tag highlighting in profile card on search ([#8419](https://github.com/EddieHubCommunity/LinkFree/issues/8419)) ([f33a265](https://github.com/EddieHubCommunity/LinkFree/commit/f33a2650453cf13d6e39c666c8a799685ba620f9))
+
+
+
 ## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * failing to add repo with trailing slash ([#8636](https://github.com/EddieHubCommunity/LinkFree/issues/8636)) ([d337de3](https://github.com/EddieHubCommunity/LinkFree/commit/d337de36d8094e51b397b1cd4622edbf0978ca67))
-
-
-
-## [1.173.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.2...v1.173.3) (2023-08-14)
-
-
-### Bug Fixes
-
-* alerts for managing pages ([#8645](https://github.com/EddieHubCommunity/LinkFree/issues/8645)) ([d0f1587](https://github.com/EddieHubCommunity/LinkFree/commit/d0f15878bf1643e58fef2a0c5591e8df277a0994)), closes [#8591](https://github.com/EddieHubCommunity/LinkFree/issues/8591)
 
 
 
