@@ -3,7 +3,7 @@ export default function Textarea({ name, value, label, ...restProps }) {
     <div>
       <label
         htmlFor={name}
-        className="block text-sm font-medium leading-6 text-gray-900"
+        className="block text-sm font-medium leading-6 text-primary-high dark:text-primary-low"
       >
         {label}
       </label>
