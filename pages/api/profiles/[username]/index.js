@@ -162,6 +162,10 @@ export async function getUserApi(req, res, username, options = {}) {
       const referer = new URL(options.referer);
       increment[`stats.referers.${referer.hostname.replace(".", "|")}`] = 1;
     }
+    if (options.ip) {
+      increment[`stats.ips.${options.ip.replace(".", "|")}`] = 1;
+    }
+
     updates.push(
       (async () => {
         try {
