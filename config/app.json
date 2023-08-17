@@ -2,8 +2,8 @@
   "version": "1.175.2",
   "alerts": [],
   "layouts": [
-    "classic", 
-    "inline", 
+    "classic",
+    "inline",
     "column-2"
   ],
   "isr": {
