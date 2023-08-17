@@ -1,7 +1,14 @@
 {
   "name": "Chetan Nada",
   "bio": "**React.js** | Next.js | 15k+ [@Linkedin](https://www.linkedin.com/in/chetannada/) | JavaScript | Frontend Developer",
-  "tags": ["Open Source", "ReactJs", "NextJS", "Javascript", "ReactJs", "Github" ],
+  "tags": [
+    "Open Source",
+    "ReactJs",
+    "NextJS",
+    "Javascript",
+    "ReactJs",
+    "Github"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
