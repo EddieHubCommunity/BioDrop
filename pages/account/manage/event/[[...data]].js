@@ -111,7 +111,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-let alert = "created";
+    let alert = "created";
     let putEvent = {
       name,
       description,
@@ -125,7 +125,7 @@ let alert = "created";
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
-alert = "updated";
+      alert = "updated";
       putEvent = { ...putEvent, _id: event._id };
       apiUrl = `${BASE_URL}/api/account/manage/event/${event._id}`;
     }
@@ -302,7 +302,7 @@ alert = "updated";
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
-                      minLength="0"
+                      min="0"
                       name="price"
                       label="Ticket Price ($)"
                       onChange={(e) => setPrice(parseInt(e.target.value))}

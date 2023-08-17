@@ -1,7 +1,5 @@
 import mongoose, { Schema } from "mongoose";
 
-import config from "@config/app.json";
-
 const EventSchema = new Schema({
   isVirtual: Boolean,
   name: {
