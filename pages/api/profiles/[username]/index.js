@@ -165,8 +165,21 @@ export async function getUserApi(req, res, username, options = {}) {
     let increment = { views: 1 };
     if (options.referer) {
       const referer = new URL(options.referer);
-      increment[`stats.referers.${referer.hostname.replace(".", "|")}`] = 1;
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
     }
+    if (options.ip) {
+      try {
+        const ipLookupRes = await fetch(
+          `https://api.iplocation.net/?ip=${options.ip}`
+        );
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
+
     updates.push(
       (async () => {
         try {

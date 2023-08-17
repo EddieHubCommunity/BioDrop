@@ -16,6 +16,10 @@ const profileStatsSchema = new mongoose.Schema(
         type: Map,
         of: Number,
       },
+      countries: {
+        type: Map,
+        of: Number,
+      },
     },
     date: {
       type: Date,
