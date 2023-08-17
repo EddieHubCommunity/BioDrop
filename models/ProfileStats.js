@@ -16,7 +16,7 @@ const profileStatsSchema = new mongoose.Schema(
         type: Map,
         of: Number,
       },
-      ips: {
+      countries: {
         type: Map,
         of: Number,
       },

@@ -68,7 +68,7 @@ const ProfileSchema = new Schema(
         type: Map,
         of: Number,
       },
-      ips: {
+      countries: {
         type: Map,
         of: Number,
       },
