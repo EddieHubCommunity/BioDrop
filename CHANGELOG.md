@@ -1,3 +1,12 @@
+# [1.176.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.2...v1.176.0) (2023-08-17)
+
+
+### Features
+
+* profile visitors ip/location ([#8677](https://github.com/EddieHubCommunity/LinkFree/issues/8677)) ([4729e00](https://github.com/EddieHubCommunity/LinkFree/commit/4729e0093e1ef62e653bf8ddceb42de99420842e))
+
+
+
 ## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
-
-
-
-# [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
-
-
-### Features
-
-* store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
 
 
 
