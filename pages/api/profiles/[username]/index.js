@@ -160,10 +160,10 @@ export async function getUserApi(req, res, username, options = {}) {
     let increment = { views: 1 };
     if (options.referer) {
       const referer = new URL(options.referer);
-      increment[`stats.referers.${referer.hostname.replace(".", "|")}`] = 1;
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
     }
     if (options.ip) {
-      increment[`stats.ips.${options.ip.replace(".", "|")}`] = 1;
+      increment[`stats.ips.${options.ip.replaceAll(".", "|")}`] = 1;
     }
 
     updates.push(
