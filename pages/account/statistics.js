@@ -130,7 +130,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             {progress.missing.length > 0 && (
               <span className="text-primary-medium-low">
                 (missing sections in your profile are:{" "}
-                {progress.missing.join(",")})
+                {progress.missing.join(", ")})
               </span>
             )}
           </span>
