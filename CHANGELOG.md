@@ -1,3 +1,12 @@
+## [1.176.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.0...v1.176.1) (2023-08-17)
+
+
+### Bug Fixes
+
+* replace on profile extra stats ([#8679](https://github.com/EddieHubCommunity/LinkFree/issues/8679)) ([eadbf57](https://github.com/EddieHubCommunity/LinkFree/commit/eadbf57ea1edad8969e6617e0cb382b36035b799))
+
+
+
 # [1.176.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.2...v1.176.0) (2023-08-17)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * tag highlighting in profile card on search ([#8419](https://github.com/EddieHubCommunity/LinkFree/issues/8419)) ([f33a265](https://github.com/EddieHubCommunity/LinkFree/commit/f33a2650453cf13d6e39c666c8a799685ba620f9))
-
-
-
-## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
-
-
-### Bug Fixes
-
-* homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
 
 
 
