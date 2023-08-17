@@ -64,19 +64,19 @@
       "description": "Accepted as a GSSoC23 contributor! Collaborating with mentors and fellow contributors for three months on an impactful open-source project.",
       "url": "https://www.linkedin.com/posts/jfmartinz_gssoc2023-gssoc-opensource-activity-7061604923590803456-DTWo?utm_source=share&utm_medium=member_desktop"
     },
-        {
-            "title": "Completion of GSSoC 2023 Program",
-            "date": "August 10 2023",
-            "icon": "FaTrophy",
-            "color": "green",
-            "description": "Successfully completed the GSSoC23 program! Collaborated on various open-source projects, gained valuable experience, and contributed to the community over a span of three months."
-        },
-        {
-            "title": "182nd place on the GSSoC23 leaderboard",
-            "date": "August 10 2023",
-            "icon": "FaMedal",
-            "color": "purple",
-            "description": "Achieved 182nd place on the GSSoC23 leaderboard out of 1557 active participants. Contributed significantly to open-source projects and demonstrated dedication."
-        }
+    {
+      "title": "Completion of GSSoC 2023 Program",
+      "date": "August 10 2023",
+      "icon": "FaTrophy",
+      "color": "green",
+      "description": "Successfully completed the GSSoC23 program! Collaborated on various open-source projects, gained valuable experience, and contributed to the community over a span of three months."
+    },
+    {
+      "title": "182nd place on the GSSoC23 leaderboard",
+      "date": "August 10 2023",
+      "icon": "FaMedal",
+      "color": "purple",
+      "description": "Achieved 182nd place on the GSSoC23 leaderboard out of 1557 active participants. Contributed significantly to open-source projects and demonstrated dedication."
+    }
   ]
 }
