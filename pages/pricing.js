@@ -31,18 +31,20 @@ export default function Premium({ user, clientEnv }) {
       name: "Free",
       id: "tier-free",
       priceMonthly: "$0",
-      description: "Quis suspendisse ut fermentum neque vivamus non tellus.",
+      frequency: "Forever",
+      description:
+        "Create your Profile with unlimited links and connect to the community.",
       mostPopular: false,
       button: {
         label: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
-            return "Downgrade";
+            return "Revert to Free";
           }
           if (user.isLoggedIn && user.accountType === "free") {
-            return "Already";
+            return "Your current plan";
           }
           if (!user.isLoggedIn) {
-            return "Sign up";
+            return "Join for FREE";
           }
         },
         action: () => {
@@ -69,7 +71,9 @@ export default function Premium({ user, clientEnv }) {
       name: "Premium",
       id: "tier-premium",
       priceMonthly: "$5",
-      description: "Quis eleifend a tincidunt pellentesque. A tempor in sed.",
+      frequency: "/month",
+      description:
+        "Customise your Profile further to reach a greater audience.",
       mostPopular: true,
       button: {
         label: () => {
@@ -113,23 +117,68 @@ export default function Premium({ user, clientEnv }) {
 
   const sections = [
     {
-      name: "Features",
+      name: "Profile Features",
       features: [
         {
-          name: "Integrations",
-          tiers: { Basic: true, Premium: true },
+          name: "Tags",
+          tiers: { Free: true, Premium: true },
         },
         {
-          name: "Shared links",
-          tiers: { Basic: true, Essential: true },
+          name: "Links",
+          tiers: { Free: true, Premium: true },
         },
         {
-          name: "Importing and exporting",
-          tiers: { Essential: true },
+          name: "Milestones",
+          tiers: { Free: true, Premium: true },
         },
         {
-          name: "Team members",
-          tiers: { Essential: "Up to 20 users" },
+          name: "Testimonials",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Events",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "GitHub Repositories",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "QR Code",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Hide Header/Footer",
+          tiers: { Free: false, Premium: true },
+        },
+      ],
+    },
+    {
+      name: "Community Features",
+      features: [
+        {
+          name: "Community Profile Search",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Community Events",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Community Maps",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Community GitHub Repositories",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Discover",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Featured Profiles",
+          tiers: { Free: false, Premium: true },
         },
       ],
     },
@@ -137,26 +186,45 @@ export default function Premium({ user, clientEnv }) {
       name: "Reporting",
       features: [
         {
-          name: "Advanced analytics",
-          tiers: { Basic: true, Essential: true },
+          name: "Total Profile Views",
+          tiers: { Free: true, Premium: true },
         },
-        { name: "Basic reports", tiers: { Essential: true } },
+        {
+          name: "Total Daily Profile Views",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Total Link Clicks",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Individual Link Clicks",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Total Daily Link Clicks",
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Views by Country",
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Views by Source",
+          tiers: { Free: false, Premium: true },
+        },
       ],
     },
     {
       name: "Support",
       features: [
         {
-          name: "24/7 online support",
-          tiers: { Basic: true, Essential: true },
+          name: "Community Discord",
+          tiers: { Free: true, Premium: true },
         },
         {
-          name: "Quarterly product workshops",
-          tiers: { Essential: true },
-        },
-        {
-          name: "Priority phone support",
-          tiers: { Essential: true },
+          name: "Contact Form",
+          tiers: { Free: false, Premium: true },
         },
       ],
     },
@@ -165,26 +233,16 @@ export default function Premium({ user, clientEnv }) {
   return (
     <>
       <PageHead
-        title="LinkFree Premium Features"
+        title="LinkFree Premium Features Pricing"
         description="LinkFree is 100% Open Source and FREE, but we will have some paid Premium features in the future"
       />
       <Page>
         <div className="bg-white">
+          <h1 className="text-4xl mb-4 font-bold">Pricing</h1>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-gray-600">
+            Select the plan that is right for you.
+          </p>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-4xl text-center">
-              <h2 className="text-base font-semibold leading-7 text-indigo-600">
-                Pricing
-              </h2>
-              <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                Plans for teams of&nbsp;all&nbsp;sizes
-              </p>
-            </div>
-            <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-              Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-              quasi iusto modi velit ut non voluptas in. Explicabo id ut
-              laborum.
-            </p>
-
             {/* xs to lg */}
             <div className="mx-auto mt-12 max-w-md space-y-8 sm:mt-16 lg:hidden">
               {tiers.map((tier) => (
@@ -203,13 +261,17 @@ export default function Premium({ user, clientEnv }) {
                   >
                     {tier.name}
                   </h3>
-                  <p className="mt-2 flex items-baseline gap-x-1 text-gray-900">
+                  <p className="mt-2 flex items-baseline gap-x-1 text-gray-900 mb-2">
                     <span className="text-4xl font-bold">
                       {tier.priceMonthly}
                     </span>
-                    <span className="text-sm font-semibold">/month</span>
+                    <span className="text-sm font-semibold">
+                      {tier.frequency}
+                    </span>
                   </p>
+                  <p className="mb-4">{tier.description}</p>
                   <Button
+                    primary={true}
                     disable={tier.button.isDisabled()}
                     aria-describedby={tier.id}
                     href={tier.button.action()}
@@ -285,7 +347,7 @@ export default function Premium({ user, clientEnv }) {
                           scope="col"
                           className="px-6 pt-6 xl:px-8 xl:pt-8"
                         >
-                          <div className="text-sm font-semibold leading-7 text-gray-900">
+                          <div className="text-2xl font-semibold leading-7 text-gray-900">
                             {tier.name}
                           </div>
                         </th>
@@ -299,14 +361,15 @@ export default function Premium({ user, clientEnv }) {
                       </th>
                       {tiers.map((tier) => (
                         <td key={tier.id} className="px-6 pt-2 xl:px-8">
-                          <div className="flex items-baseline gap-x-1 text-gray-900">
+                          <div className="flex items-baseline gap-x-1 text-gray-900 mb-2">
                             <span className="text-4xl font-bold">
                               {tier.priceMonthly}
                             </span>
                             <span className="text-sm font-semibold leading-6">
-                              /month
+                              {tier.frequency}
                             </span>
                           </div>
+                          <p className="mb-4">{tier.description}</p>
                           <Button
                             disable={tier.button.isDisabled()}
                             primary={true}
