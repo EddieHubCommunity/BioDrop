@@ -19,8 +19,9 @@ export default function UserRepos({ manage = false, handleDelete, repos }) {
         <div className="min-w-0 flex-auto">
           <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
             <Link href={repo.url} target="_blank">
-              <span className="absolute inset-x-0 -top-px bottom-0" />
+              <span className=" min-[320px]:break-all min-[425px]:break-normal">
               {repo.owner}/{repo.name}
+              </span>
             </Link>{" "}
             <span className="hidden md:inline">
               ({dateFormat({ format: "long", date: repo.dates.pushedAt })})
