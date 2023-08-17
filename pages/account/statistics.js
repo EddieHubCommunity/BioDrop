@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
+import { FaMapPin, FaMousePointer } from "react-icons/fa";
 
 import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
@@ -182,6 +183,66 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             </div>
             <DynamicChart data={data.profile.daily} />
           </div>
+        )}
+
+        {session && session.accountType === "premium" && profile.stats && (
+          <ul
+            role="list"
+            className="grid grid-cols-1 gap-x-6 gap-y-8 lg:grid-cols-2 xl:gap-x-8 mb-8"
+          >
+            {profile.stats.referers && (
+              <li className="overflow-hidden rounded-xl border border-gray-200">
+                <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
+                  <FaMousePointer className="h-6 w-6 text-gray-500" />
+                  <div className="text-sm font-medium leading-6 text-gray-900">
+                    Referrers
+                  </div>
+                </div>
+                <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
+                  {Object.entries(profile.stats.referers)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map((referer) => (
+                      <div
+                        key={referer[0]}
+                        className="flex justify-between gap-x-4 py-3"
+                      >
+                        <dt className="text-gray-500">
+                          {referer[0].replaceAll("|", ".")}
+                        </dt>
+                        <dd className="text-gray-700">{referer[1]}</dd>
+                      </div>
+                    ))}
+                </dl>
+              </li>
+            )}
+            {profile.stats.countries && (
+              <li className="overflow-hidden rounded-xl border border-gray-200">
+                <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
+                  <FaMapPin className="h-6 w-6 text-gray-500" />
+                  <div className="text-sm font-medium leading-6 text-gray-900">
+                    Locations
+                  </div>
+                </div>
+                <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
+                  {Object.entries(profile.stats.countries)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map((country) => (
+                      <div
+                        key={country[0]}
+                        className="flex justify-between gap-x-4 py-3"
+                      >
+                        <dt className="text-gray-500">
+                          {country[0].replaceAll("|", ".")}
+                        </dt>
+                        <dd className="text-gray-700">{country[1]}</dd>
+                      </div>
+                    ))}
+                </dl>
+              </li>
+            )}
+          </ul>
         )}
 
         <table className="min-w-full divide-y divide-primary-medium-low">
