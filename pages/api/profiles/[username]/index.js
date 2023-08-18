@@ -6,6 +6,8 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import { checkGitHubRepo } from "@services/github/getRepo";
+import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -19,7 +21,7 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
@@ -40,6 +42,9 @@ export async function getUserApi(req, res, username) {
   }
 
   await getLocation(username, getProfile);
+  if (getProfile.repos?.length > 0) {
+    await checkGitHubRepo(username, getProfile.repos);
+  }
 
   const log = logger.child({ username });
   getProfile = await Profile.aggregate([
@@ -101,21 +106,17 @@ export async function getUserApi(req, res, username) {
     const today = new Date();
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
-      const dateTimeStyle = {
-        dateStyle: "full",
-        timeStyle: "long",
-      };
       try {
         const start = new Date(event.date.start);
         const end = new Date(event.date.end);
-        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(start);
-        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(end);
+        cleanEvent.date.startFmt = dateFormat({
+          format: "long",
+          date: event.date.start,
+        });
+        cleanEvent.date.endFmt = dateFormat({
+          format: "long",
+          date: event.date.end,
+        });
 
         cleanEvent.date.cfpOpen =
           event.date.cfpClose && new Date(event.date.cfpClose) > today;
@@ -156,6 +157,24 @@ export async function getUserApi(req, res, username) {
       })()
     );
 
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
+    }
+    if (options.ip) {
+      try {
+        const ipLookupRes = await fetch(
+          `https://api.iplocation.net/?ip=${options.ip}`
+        );
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
+
     updates.push(
       (async () => {
         try {
@@ -164,8 +183,9 @@ export async function getUserApi(req, res, username) {
               username,
             },
             {
-              $inc: { views: 1 },
-            }
+              $inc: increment,
+            },
+            { timestamps: false }
           );
           log.info(`stats incremented for username: ${username}`);
         } catch (e) {
@@ -186,7 +206,7 @@ export async function getUserApi(req, res, username) {
               date,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { upsert: true }
           );

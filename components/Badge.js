@@ -1,4 +1,5 @@
 import Link from "./Link";
+import { classNames } from "@services/utils/classNames";
 
 export default function Badge({
   title,
@@ -37,9 +38,12 @@ export default function Badge({
   const badge = (
     <div
       title={title}
-      className={`absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 p-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold ${
-        disable ? "text-primary-medium bg-primary-low" : "text-black bg-tertiary-medium"
-      } rounded-full z-10 ${css} ${badgeClassName}`}
+      className={classNames(
+        disable
+          ? "text-primary-medium bg-primary-low"
+          : "text-black bg-tertiary-medium",
+        `absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 p-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold rounded-full z-10 ${css} ${badgeClassName}`
+      )}
       onClick={() => (onClick ? onClick() : null)}
     >
       {content}
@@ -52,7 +56,12 @@ export default function Badge({
   }
 
   return (
-    <div className={`inline-flex relative ${className ? className : "w-fit"}`}>
+    <div
+      className={classNames(
+        className ? className : "w-fit",
+        "inline-flex relative"
+      )}
+    >
       {children}
       {display && (clickable ? clickable : badge)}
     </div>

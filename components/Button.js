@@ -7,7 +7,7 @@ export default function Button({
   ...restProps
 }) {
   let className =
-    "w-full inline-flex items-center flex-1 justify-center rounded-md border border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
+    "w-full inline-flex items-center flex-1 justify-center rounded-md border-2 border-gray-500 hover:border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
   !disable
     ? (className += primary
         ? " text-white bg-secondary-medium hover:bg-secondary-high"

@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getMilestonesApi } from "pages/api/account/manage/milestones";
 import Button from "@components/Button";
 import UserMilestones from "@components/user/UserMilestones";
@@ -43,7 +43,22 @@ export async function getServerSideProps(context) {
 
 export default function ManageMilestones({ milestones }) {
   const router = useRouter();
-  const { success } = router.query;
+  const { alert } = router.query;
+
+  const alerts = {
+    deleted: {
+      type: "success",
+      message: "Milestone Deleted Successfully",
+    },
+    created: {
+      type: "success",
+      message: "Milestone Created Successfully",
+    },
+    updated: {
+      type: "success",
+      message: "Milestone Updated Successfully",
+    },
+  };
 
   return (
     <>
@@ -53,11 +68,8 @@ export default function ManageMilestones({ milestones }) {
       />
 
       <Page>
-        {success && (
-          <Alert
-            type="success"
-            message="Milestone Created/Updated Successfully"
-          />
+        {alert && (
+          <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
 
         <Navigation />

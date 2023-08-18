@@ -8,7 +8,7 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getMilestoneApi } from "pages/api/account/manage/milestone/[[...data]]";
 import Input from "@components/form/Input";
 import UserMilestone from "@components/user/UserMilestone";
@@ -17,6 +17,7 @@ import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
 import IconSearch from "@components/IconSearch";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -64,6 +65,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    let alert = "created";
     let putMilestone = {
       title,
       description,
@@ -74,6 +76,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
     if (milestone._id) {
+      alert = "updated";
       putMilestone = { ...putMilestone, _id: milestone._id };
       apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
     }
@@ -97,7 +100,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/milestones?success=true`);
+    Router.push(`${BASE_URL}/account/manage/milestones?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -121,7 +124,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/milestones`);
+    return Router.push(`${BASE_URL}/account/manage/milestones?alert=deleted`);
   };
 
   useEffect(() => {
@@ -134,7 +137,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   return (
     <>
       <PageHead
-        title="Manage Milstone"
+        title="Manage Milestone"
         description="Here you can manage your LinkFree milestone"
       />
 
@@ -181,9 +184,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
+                    <Textarea
                       name="description"
-                      label="Description"
                       placeholder="Description of your Milestone"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}

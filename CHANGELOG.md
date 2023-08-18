@@ -1,45 +1,45 @@
-## [1.156.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.3...v1.156.4) (2023-07-16)
+## [1.176.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.1...v1.176.2) (2023-08-17)
 
 
 ### Bug Fixes
 
-* events sorted in date ascending order ([#8158](https://github.com/EddieHubCommunity/LinkFree/issues/8158)) ([e1a397d](https://github.com/EddieHubCommunity/LinkFree/commit/e1a397d0f7299fd6baf12a00887550c23ab43ad9))
+* store country instead of ip ([#8681](https://github.com/EddieHubCommunity/LinkFree/issues/8681)) ([9976151](https://github.com/EddieHubCommunity/LinkFree/commit/99761512c5e31eacf1f9dcec1adab56b293bebb2))
 
 
 
-## [1.156.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.2...v1.156.3) (2023-07-15)
-
-
-### Bug Fixes
-
-* removed debug code ([#8203](https://github.com/EddieHubCommunity/LinkFree/issues/8203)) ([fe360d8](https://github.com/EddieHubCommunity/LinkFree/commit/fe360d8ae3701b5d0a759f24f057ffcb3d49d8f6))
-
-
-
-## [1.156.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.1...v1.156.2) (2023-07-15)
+## [1.176.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.0...v1.176.1) (2023-08-17)
 
 
 ### Bug Fixes
 
-* typo in premium signup success message ([#8201](https://github.com/EddieHubCommunity/LinkFree/issues/8201)) ([ff13c57](https://github.com/EddieHubCommunity/LinkFree/commit/ff13c577862c102e8aeba72320a4ce5b2a808cbc))
+* replace on profile extra stats ([#8679](https://github.com/EddieHubCommunity/LinkFree/issues/8679)) ([eadbf57](https://github.com/EddieHubCommunity/LinkFree/commit/eadbf57ea1edad8969e6617e0cb382b36035b799))
 
 
 
-## [1.156.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.156.0...v1.156.1) (2023-07-14)
-
-
-### Bug Fixes
-
-* test users for all tests ([#8187](https://github.com/EddieHubCommunity/LinkFree/issues/8187)) ([d0f05b4](https://github.com/EddieHubCommunity/LinkFree/commit/d0f05b4a31fe3bca8eddf5406e228e6700c8bbfb))
-
-
-
-# [1.156.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.155.5...v1.156.0) (2023-07-14)
+# [1.176.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.2...v1.176.0) (2023-08-17)
 
 
 ### Features
 
-* update item redirects to list ([#7966](https://github.com/EddieHubCommunity/LinkFree/issues/7966)) ([049eeb3](https://github.com/EddieHubCommunity/LinkFree/commit/049eeb3d023d13ce0d417eed9201519997db17b2))
+* profile visitors ip/location ([#8677](https://github.com/EddieHubCommunity/LinkFree/issues/8677)) ([4729e00](https://github.com/EddieHubCommunity/LinkFree/commit/4729e0093e1ef62e653bf8ddceb42de99420842e))
+
+
+
+## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
+
+
+### Bug Fixes
+
+* dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
+
+
+
+## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
 
 
 
