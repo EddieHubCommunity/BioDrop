@@ -68,6 +68,10 @@ const ProfileSchema = new Schema(
         type: Map,
         of: Number,
       },
+      countries: {
+        type: Map,
+        of: Number,
+      },
     },
     links: {
       default: [],
