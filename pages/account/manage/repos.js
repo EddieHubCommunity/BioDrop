@@ -136,7 +136,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
           additionalMessage={showNotification.additionalMessage}
         />
 
-        <form onSubmit={handleSubmit}>
+        <form className="mb-4" onSubmit={handleSubmit}>
           <Input
             name="url"
             type="url"
