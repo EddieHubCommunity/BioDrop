@@ -33,6 +33,16 @@ export default async function handler(req, res) {
     customer: session.stripeCustomerId,
     success_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/statistics?alert=premium`,
     cancel_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/statistics?alert=cancel`,
+    subscription_data: {
+      trial_settings: {
+        end_behavior: {
+          missing_payment_method: "cancel",
+        },
+      },
+      trial_period_days: 30,
+    },
+    payment_method_collection: "if_required",
+    allow_promotion_codes: true,
   });
   logger.info(
     `Created stripe session "${stripeSession.id}" for username: "${session.username}}"`

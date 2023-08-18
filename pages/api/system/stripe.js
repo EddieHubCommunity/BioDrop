@@ -21,6 +21,7 @@ export default async function handler(req, res) {
   logger.info(`stripe: ${event.type}`);
   switch (event.type) {
     case "payment_intent.succeeded":
+    case "customer.subscription.created":
       // successful payment
       await User.findOneAndUpdate(
         { stripeCustomerId: event.data.object.customer },
