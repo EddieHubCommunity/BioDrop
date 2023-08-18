@@ -9,6 +9,14 @@ export default function Input({
   disabled = false,
   ...restProps
 }) {
+
+  const handleKeydown = (event) => {
+    const isArrowKey = event.key === "ArrowRight" || event.key === "ArrowLeft";
+    
+    if (isArrowKey) {
+        event.preventDefault();
+    }
+  };
   return (
     <>
       {label && (
@@ -28,6 +36,7 @@ export default function Input({
         id={name}
         name={name}
         value={value}
+        onKeyDown={handleKeydown}
         {...restProps}
       />
     </>
