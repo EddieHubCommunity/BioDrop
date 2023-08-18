@@ -1,45 +1,45 @@
-## [1.172.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.2...v1.172.3) (2023-08-10)
+## [1.176.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.1...v1.176.2) (2023-08-17)
 
 
 ### Bug Fixes
 
-* users search results shows random first ([#8514](https://github.com/EddieHubCommunity/LinkFree/issues/8514)) ([e5be05c](https://github.com/EddieHubCommunity/LinkFree/commit/e5be05c804032b05dab05f042138e4f9e0554010))
+* store country instead of ip ([#8681](https://github.com/EddieHubCommunity/LinkFree/issues/8681)) ([9976151](https://github.com/EddieHubCommunity/LinkFree/commit/99761512c5e31eacf1f9dcec1adab56b293bebb2))
 
 
 
-## [1.172.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.1...v1.172.2) (2023-08-10)
-
-
-### Bug Fixes
-
-* testimonials shows zero if no testimonials exist for user ([#8314](https://github.com/EddieHubCommunity/LinkFree/issues/8314)) ([de25879](https://github.com/EddieHubCommunity/LinkFree/commit/de25879180765628f24a29ee169d88b1814828d1))
-
-
-
-## [1.172.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.172.0...v1.172.1) (2023-08-10)
+## [1.176.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.0...v1.176.1) (2023-08-17)
 
 
 ### Bug Fixes
 
-* modal close button fixed ([#8496](https://github.com/EddieHubCommunity/LinkFree/issues/8496)) ([4f473d3](https://github.com/EddieHubCommunity/LinkFree/commit/4f473d378ddd525b6d3dd6d6dc51b6b55677622f))
+* replace on profile extra stats ([#8679](https://github.com/EddieHubCommunity/LinkFree/issues/8679)) ([eadbf57](https://github.com/EddieHubCommunity/LinkFree/commit/eadbf57ea1edad8969e6617e0cb382b36035b799))
 
 
 
-# [1.172.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.3...v1.172.0) (2023-08-10)
+# [1.176.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.2...v1.176.0) (2023-08-17)
 
 
 ### Features
 
-* markdown multi lines ([#8594](https://github.com/EddieHubCommunity/LinkFree/issues/8594)) ([f0c26c4](https://github.com/EddieHubCommunity/LinkFree/commit/f0c26c49e40ecd4dc8b1ea70470c018bb4162e35))
+* profile visitors ip/location ([#8677](https://github.com/EddieHubCommunity/LinkFree/issues/8677)) ([4729e00](https://github.com/EddieHubCommunity/LinkFree/commit/4729e0093e1ef62e653bf8ddceb42de99420842e))
 
 
 
-## [1.171.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.171.2...v1.171.3) (2023-08-10)
+## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
 
 
 ### Bug Fixes
 
-* profile completion overflow text ([#8584](https://github.com/EddieHubCommunity/LinkFree/issues/8584)) ([3dd7e43](https://github.com/EddieHubCommunity/LinkFree/commit/3dd7e437474187152587e992edeaaeb63911d72a))
+* dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
+
+
+
+## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
 
 
 
