@@ -76,9 +76,9 @@ export default function DocsIndex() {
   return (
     <>
       <Head>
-        <title>LinkFree Documentation</title>
+        <title>LinkFree | Documentation</title>
         <meta
-          name="description"
+          name="description of the linkfree documentation"
           content="Discover more people in your LinkFree community"
         />
         <link rel="icon" href="/favicon.ico" />
@@ -124,7 +124,7 @@ export default function DocsIndex() {
                       {section.description}
                     </p>
                   </div>
-                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+                  <div className="mt-12 grid gap-16 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12 pt-12 dark:pt-12">
                     {section.pages.map((page) => (
                       <Link
                         href={page.path}
