@@ -13,6 +13,7 @@ import { useState } from "react";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 import UserRepos from "@components/user/UserRepos";
+import { getUserApi } from "pages/api/profiles/[username]";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -27,6 +28,26 @@ export async function getServerSideProps(context) {
   }
 
   const username = session.username;
+  let profile = {};
+  try {
+    profile = (await getUserApi(context.req, context.res, username)).profile;
+  } catch (e) {
+    logger.error(e, `profile loading failed for username: ${username}`);
+  }
+  if (profile.error) {
+    profile.username = session.username;
+    profile.name = session.user.name;
+  }
+
+  //reroute to profile deactivated page if profile is disabled
+  if(profile && !profile.isEnabled) {
+    return {
+      redirect: {
+        destination: "/account/profile-deactivated",
+        permanent: false,
+      }
+    }
+  }
 
   let repos = [];
   try {

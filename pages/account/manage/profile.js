@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
   }
 
   //reroute to profile deactivated page if profile is disabled
-  if(profile && profile.hasOwnProperty("isEnabled") && !profile["isEnabled"]) {
+  if(profile && !profile.isEnabled) {
     return {
       redirect: {
         destination: "/account/profile-deactivated",

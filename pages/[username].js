@@ -37,6 +37,16 @@ export async function getServerSideProps(context) {
 
   logger.info(`data loaded for username: ${username}`);
 
+  //reroute to 404 page if profile is disabled
+  if (profile && !profile.isEnabled) {
+    return {
+      redirect: {
+        destination: "/404",
+        permanent: false,
+      }
+    }
+  }
+
   try {
     const processedBio = await remark().use(strip).process(profile.bio);
     profile.cleanBio = processedBio.toString();

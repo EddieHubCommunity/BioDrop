@@ -42,15 +42,7 @@ export default function ProfileDeactivated({ profile, BASE_URL }) {
       },
       body: JSON.stringify({ ...profile, isEnabled: true}),
     });
-    const update = await res.json();
-    if (update.error || update.message) {
-      return setShowNotification({
-        show: true,
-        type: "error",
-        message: "Profile delete failed",
-        additionalMessage: update.error || update.message,
-      });
-    }
+    await res.json();
     return Router.push(`${BASE_URL}/account/manage/profile`);
   };
 
