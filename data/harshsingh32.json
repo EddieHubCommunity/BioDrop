@@ -34,7 +34,7 @@
     {
       "icon": "FaDev",
       "url": "https://dev.to/harshsingh32"
-    }, 
+    },
     {
       "icon": "SiMastodon",
       "url": "https://mastodon.social/@harsh71"
@@ -42,7 +42,7 @@
     {
       "icon": "FaDiscord",
       "url": "https://discord.com/users/702823621709660211"
-    },  
+    },
     {
       "icon": "FaRocket",
       "url": "https://www.threads.net/@harshsingh3719"
@@ -78,6 +78,6 @@
       "name": "Leetcode",
       "url": "https://leetcode.com/hasew7890/",
       "icon": "SiLeetcode"
-    }      
+    }
   ]
 }
