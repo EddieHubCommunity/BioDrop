@@ -1,9 +1,9 @@
 {
   "name": "Satish Sutar",
-  "bio": "Non-IT turned Digital Nomad. Travel enthusiast Yoga & Tech aficionado",
+  "bio": "Cloud Engineer. Cross-platform DevOps Engineer. Travel enthusiast Yoga & Tech aficionado",
   "tags": [
-    "DevOps Engineer",
-    "Cloud Engineer",
+    "DevOps",
+    "Cloud",
     "Open Source",
     "Technical Content Writer",
     "Blogging"
@@ -31,11 +31,6 @@
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/satish-sutar/",
       "icon": "FaLinkedin"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/SGSMaven",
-      "icon": "FaTwitter"
     },
     {
       "name": "Medium",
