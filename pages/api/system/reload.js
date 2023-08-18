@@ -261,7 +261,7 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
-                isSpeaking: event.isSpeaking,
+                isSpeaking: event.userStatus && event.userStatus.toLowerCase() == "speaking",
                 speakingTopic: event.speakingTopic,
                 price: event.price,
               })),
