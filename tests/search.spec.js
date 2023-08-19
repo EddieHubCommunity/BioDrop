@@ -70,6 +70,7 @@ test("After search click profile", async ({ page }) => {
   await page.goto("/search");
   const input = page.locator("[name='keyword']");
   await input.type("eddiejaoude");
+
   // 2. Click on the searched profile
   const profileLinkSelector = 'a[href="/eddiejaoude"]';
   const profileLink = page.locator(profileLinkSelector);
