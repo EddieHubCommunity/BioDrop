@@ -93,15 +93,6 @@ test.fixme(
   }
 );
 
-test.fixme(
-  "find the profile after providing concise name",
-  async () => {
-    // 1. click on search profile
-    // 2. type the whole name
-    // 3. Display the profile if the name is correct
-  }
-);
-
 test.describe("accessibility tests (light)", () => {
   test.use({ colorScheme: "light" });
 
