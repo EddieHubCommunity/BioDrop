@@ -86,11 +86,7 @@ export async function getUserApi(req, res, username, options = {}) {
   ]);
   getProfile = getProfile[0];
 
-  const getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
-
-  delete getProfile.user;
   getProfile = {
-    accountType: getUser.type,
     ...getProfile,
     links: getProfile.links
       .filter((link) => link.isEnabled)
@@ -105,6 +101,22 @@ export async function getUserApi(req, res, username, options = {}) {
         icon: link.icon,
       })),
   };
+
+  let getUser = {};
+  if (getProfile.user) {
+    getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
+
+    getProfile = {
+      ...getProfile,
+      accountType: getUser.type || "free",
+    };
+  } else {
+    getProfile = {
+      ...getProfile,
+      accountType: "free",
+    };
+  }
+  delete getProfile.user;
 
   if (getProfile.events) {
     let dateEvents = [];
