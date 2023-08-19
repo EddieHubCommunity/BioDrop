@@ -1,3 +1,12 @@
+# [1.177.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.2...v1.177.0) (2023-08-19)
+
+
+### Features
+
+* animate links ([#8508](https://github.com/EddieHubCommunity/LinkFree/issues/8508)) ([b576574](https://github.com/EddieHubCommunity/LinkFree/commit/b576574c3974aa77c3dea33e8af63755a2d435b8))
+
+
+
 ## [1.176.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.1...v1.176.2) (2023-08-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
-
-
-
-## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
-
-
-### Bug Fixes
-
-* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
 
 
 
