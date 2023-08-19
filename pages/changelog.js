@@ -11,6 +11,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Links animation",
+      description:
+        "Have your links stand out even further with a subtle animation",
+      type: "addition",
+      date: "2023-08-19",
+    },
+    {
+      title: "Discover Profile",
+      description:
+        "Discover recently created/updated profiles - this is great to encourage people to update their Profiles",
+      type: "addition",
+      date: "2023-08-11",
+    },
+    {
       title: "GitHub Repos showcase",
       description:
         "Now you can add repos to your Profile and they also appear in the global repos page",
