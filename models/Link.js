@@ -1,4 +1,7 @@
 import mongoose from "mongoose";
+import config from "@config/app.json";
+
+const animations = Object.keys(config.animations);
 
 const LinkSchema = new mongoose.Schema(
   {
@@ -41,6 +44,17 @@ const LinkSchema = new mongoose.Schema(
     profile: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Profile",
+    },
+    animation: {
+      type: String,
+      optional: true,
+      enum: {
+        values: animations,
+        message: "{VALUE} is not a supported for link",
+      },
+      default: "none",
+      min: 2,
+      max: 32,
     },
   },
   { timestamps: true }
