@@ -16,6 +16,10 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import Select from "@components/form/Select";
+import config from "@config/app.json";
+import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
+const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -60,12 +64,13 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
-
+  const [animation, setAnimation] = useState(link.animation || Object.keys(config.animations)[0]);
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned };
+    let putLink = { group, name, url, icon, isEnabled, isPinned, animation };
 
     let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
@@ -228,6 +233,15 @@ export default function ManageLink({ BASE_URL, username, link }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Select
+                      name="animation"
+                      label="Animation"
+                      value={animation}
+                      options={objectToLabelValueArray(animations)}
+                      onChange={(e) => setAnimation(e.target.value)}
+                    />
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Enable?"
                       text2="hide/show link on profile"
@@ -266,7 +280,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon }}
+              link={{ name, url, icon, animation }}
               username={username}
             />
           </div>
