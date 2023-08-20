@@ -54,7 +54,7 @@ test("Profile not found redirects to search page with error message", async ({
 
 test("Link navigates", async ({ page }) => { 
 const username = "_test-profile-user-3"; 
-const endpoint = /${username}`
+const endpoint = `/${username}`
   
 // Navigate to the profile
 await page.goto(endpoint);
