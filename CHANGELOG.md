@@ -1,3 +1,12 @@
+# [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
+
+
+### Features
+
+* search icons in manage forms  ([#8698](https://github.com/EddieHubCommunity/LinkFree/issues/8698)) ([e4e98d4](https://github.com/EddieHubCommunity/LinkFree/commit/e4e98d44f3ceca06af259ba569a98b205e0e9315))
+
+
+
 ## [1.177.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.1...v1.177.2) (2023-08-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * store country instead of ip ([#8681](https://github.com/EddieHubCommunity/LinkFree/issues/8681)) ([9976151](https://github.com/EddieHubCommunity/LinkFree/commit/99761512c5e31eacf1f9dcec1adab56b293bebb2))
-
-
-
-## [1.176.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.0...v1.176.1) (2023-08-17)
-
-
-### Bug Fixes
-
-* replace on profile extra stats ([#8679](https://github.com/EddieHubCommunity/LinkFree/issues/8679)) ([eadbf57](https://github.com/EddieHubCommunity/LinkFree/commit/eadbf57ea1edad8969e6617e0cb382b36035b799))
 
 
 
