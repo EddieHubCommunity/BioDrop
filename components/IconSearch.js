@@ -8,15 +8,7 @@ function IconSearch({selectedIcon, handleSelectedIcon}) {
   const [query, setQuery] = useState('');
   
   const popularIcons = ["FaGithub", "FaTwitter", "FaLinkedin", "FaGit"];
-  const icons = [];
-  
-  Object.keys(FaIcons).forEach((key) => {
-    icons.push(key);
-  });
-
-  Object.keys(SiIcons).forEach((key) => {
-    icons.push(key);
-  });
+const icons = [...Object.keys(FaIcons), ...Object.keys(SiIcons)];
   
   const filteredIcon =
     query === ''
