@@ -16,9 +16,11 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import IconSearch from "@components/IconSearch";
 import Select from "@components/form/Select";
 import config from "@config/app.json";
 import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
+
 const animations = config.animations;
 
 export async function getServerSideProps(context) {
@@ -216,15 +218,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="icon"
-                      label="Icon"
-                      onChange={(e) => setIcon(e.target.value)}
-                      value={icon}
-                      required
-                      minLength="2"
-                      maxLength="32"
-                    />
+                    <IconSearch handleSelectedIcon={setIcon} selectedIcon={icon} />
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
