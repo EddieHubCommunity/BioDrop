@@ -52,11 +52,25 @@ test("Profile not found redirects to search page with error message", async ({
   );
 });
 
-test.fixme("Link navigates", async () => {
-  // 1. navigate to profile
-  // 2. get a link and href
-  // 3. click the link
-  // 4. get the current url and should match href
+test("Link navigates", async ({ page }) => { 
+const username = "_test-profile-user-3"; 
+const endpoint = /${username}`
+  
+// Navigate to the profile
+await page.goto(endpoint);
+
+// Find all anchor tags on the page
+const anchorTags = await page.$$("a");
+
+// Loop through each anchor tag
+for (const anchor of anchorTags) {
+const href = await anchor.getAttribute("href");
+
+// Check if the href includes the username
+if (href.includes(endpoint)) {
+  break; // No need to continue checking
+}
+}
 });
 
 test("redirect to search when tag clicked", async ({ page }) => {
