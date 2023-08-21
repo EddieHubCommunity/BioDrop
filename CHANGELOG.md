@@ -1,3 +1,12 @@
+## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
+
+
+
 # [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * animate links ([#8508](https://github.com/EddieHubCommunity/LinkFree/issues/8508)) ([b576574](https://github.com/EddieHubCommunity/LinkFree/commit/b576574c3974aa77c3dea33e8af63755a2d435b8))
-
-
-
-## [1.176.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.1...v1.176.2) (2023-08-17)
-
-
-### Bug Fixes
-
-* store country instead of ip ([#8681](https://github.com/EddieHubCommunity/LinkFree/issues/8681)) ([9976151](https://github.com/EddieHubCommunity/LinkFree/commit/99761512c5e31eacf1f9dcec1adab56b293bebb2))
 
 
 
