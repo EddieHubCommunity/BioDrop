@@ -14,7 +14,7 @@ playwright.config.js
 .gitpod.Dockerfile
 SECURITY.md
 README.md
-docker-compose.yml
+compose.yml
 mongo-compose.yml
 LICENSE
 CONTRIBUTING.md

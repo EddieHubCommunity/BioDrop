@@ -1,8 +1,8 @@
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
-import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
+import requestIp from "request-ip";
 
 import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -16,14 +16,13 @@ import UserPage from "@components/user/UserPage";
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const username = context.query.username;
-  const log = logger.child({
-    username: username,
+
+  const { status, profile } = await getUserApi(req, res, username, {
+    referer: req.headers.referer,
     ip: requestIp.getClientIp(req),
   });
-
-  const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
-    log.error(
+    logger.error(
       profile.error,
       `profile loading failed for username: ${username}`
     );
@@ -36,13 +35,13 @@ export async function getServerSideProps(context) {
     };
   }
 
-  log.info(`data loaded for username: ${username}`);
+  logger.info(`data loaded for username: ${username}`);
 
   try {
     const processedBio = await remark().use(strip).process(profile.bio);
     profile.cleanBio = processedBio.toString();
   } catch (e) {
-    log.error(e, `cannot strip markdown for: ${username}`);
+    logger.error(e, `cannot strip markdown for: ${username}`);
     profile.cleanBio = profile.bio;
   }
 

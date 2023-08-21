@@ -11,13 +11,14 @@ import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
-import Navigation from "@components/account/manage/navigation";
+import Navigation from "@components/account/manage/Navigation";
 import { getUserApi } from "pages/api/profiles/[username]";
 import UserProfile from "@components/user/UserProfile";
 import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
+import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -70,7 +71,12 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = config.layouts;
+  const layouts = config.layouts.map(l => {
+    return {
+      value: l,
+      label: l
+    }
+  });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -199,7 +205,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
-                      <Input
+                      <Textarea
                         name="bio"
                         label="Bio"
                         value={bio}

@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  linkfree:
+    container_name: linkfree
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: linkfree-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - linkfree-network
+
+  mongodb:
+    image: mongo:6.0
+    container_name: mongodb
+    networks:
+      - linkfree-network
+    volumes:
+      - mongodb:/data/db
+
+networks:
+  linkfree-network:
+    driver: bridge
+
+volumes:
+  mongodb:

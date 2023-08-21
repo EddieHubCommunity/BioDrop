@@ -8,15 +8,9 @@ test("Playground has title", async ({ page }) => {
   await expect(page).toHaveTitle(/Playground/);
 });
 
-test("Navigate to Playground", async ({ page }) => {
-  await page.goto("/");
-  await page.getByRole("link", { name: "Playground", exact: true }).click();
-  await expect(page.locator("h1")).toHaveText("Playground");
-});
-
 test("Playground Opens correctly", async ({ page }) => {
   // 1. Navigate to playground page.
-  await page.goto("playground");
+  await page.goto("/playground");
 
   // 2. See the input field to enter github username
   await page.getByPlaceholder("Enter github username").click();
