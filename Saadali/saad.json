@@ -1,0 +1,21 @@
+{
+    "name": "Saad Ather Ali",
+    "bio": " I am UI|UX developer | Pyhton | Chisel ",
+    "links": [
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/SAADI5603",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "Follow me on Linkedin",
+        "url": "https://www.linkedin.com/in/saadali5/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "Follow me on Github",
+        "url": "https://github.com/saadali05",
+        "icon": "FaGithub"
+      }
+    ]
+  }
