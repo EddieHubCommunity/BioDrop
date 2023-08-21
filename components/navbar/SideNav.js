@@ -7,7 +7,7 @@ function classNames(...classes) {
 
 export default function SideNav({ navigation }) {
   return (
-    <ul role="list" className="w-64 flex-none  sm:block mobile:block mobile:mx-auto mobile:mt-8 mobile:border mobile:p-3 mobile:px-5 mobile:rounded mobile:border-primary-high dark:mobile:border-primary-low ">
+    <ul role="list" className="w-64 flex-none  block   mx-auto mt-8 border p-3 px-5 rounded border-primary-high dark:border-primary-low sm:mt-0 sm:border-none sm:rounded-none sm:px-0 sm:p-0 ">
       {navigation.map((item) => (
         <li key={item.name}>
           {!item.children ? (

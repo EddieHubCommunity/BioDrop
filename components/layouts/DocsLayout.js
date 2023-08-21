@@ -127,7 +127,7 @@ export default function DocsLayout({ children, title, section, name }) {
       <Page>
         <BreadCrumb section={section} name={name} />
 
-        <div className="flex flex-grow flex-row mobile:flex-col">
+        <div className="flex flex-grow flex-col sm:flex-row ">
           <SideNav navigation={navigation} />
           <div className="float-none my-0 max-w-[1440px] prose">
             <MDXProvider components={ComponentStyle}>
