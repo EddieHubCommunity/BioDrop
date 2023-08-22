@@ -98,7 +98,8 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users. 
 
-> **Advice**: If you wanna look at the database, you can use [MongoDB Compass](https://www.mongodb.com/products/compass) with connection string as `mongodb://localhost:27017/linkfree`
+> **Note**
+> If you wanna look at the database, you can use [MongoDB Compass](https://www.mongodb.com/products/compass) with connection string as `mongodb://localhost:27017/linkfree`
 
 Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
