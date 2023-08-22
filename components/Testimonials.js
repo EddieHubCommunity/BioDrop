@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { PROJECT_NAME } from "@constants/index";
 
 import Link from "./Link";
 
@@ -11,7 +12,7 @@ export default function Testimonials({ data }) {
             Testimonials
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low">
-            What people are saying about LinkFree...
+            What people are saying about {PROJECT_NAME}...
           </p>
         </div>
         <div className="mx-auto mt-16 flow-root">

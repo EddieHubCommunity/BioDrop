@@ -51,12 +51,12 @@
   ],
   "milestones": [
     {
-      "title": "Created my profile on the Linkfree Open Source project",
+      "title": "Created my profile on the BioDrop Open Source project",
       "date": "2023",
       "icon": "FaGithub",
       "color": "green",
       "description": "This project allows you to connect with your audience with a single link. It is the open source version of linktree.",
-      "url": "https://linkfree.eddiehub.io"
+      "url": "https://biodrop.eddiehub.io"
     }
   ]
 }

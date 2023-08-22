@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -134,7 +135,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     <>
       <PageHead
         title="Manage Milestone"
-        description="Here you can manage your LinkFree milestone"
+        description={`Here you can manage your ${PROJECT_NAME} milestone`}
       />
 
       <Page>

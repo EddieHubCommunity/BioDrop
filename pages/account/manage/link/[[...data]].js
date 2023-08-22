@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -123,7 +124,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     <>
       <PageHead
         title="Manage Links"
-        description="Here you can manage your LinkFree links"
+        description={`Here you can manage your ${PROJECT_NAME} links`}
       />
 
       <Page>

@@ -1,6 +1,6 @@
 {
   "name": "Eddie Jaoude",
-  "bio": "Open Source DevRel | Founder of **EddieHub** and [LinkFree](https://linkfree.io) | **GitHub** Star",
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [BioDrop](https://biodrop.io) | **GitHub** Star",
   "tags": [
     "Open Source",
     "Javascript",
@@ -8,7 +8,7 @@
     "NextJS",
     "DevOps",
     "DevRel",
-    "LinkFree"
+    "BioDrop"
   ],
   "socials": [
     {
@@ -99,8 +99,8 @@
     },
     {
       "group": "Content",
-      "name": "Open Source project LinkFree",
-      "url": "https://github.com/EddieHubCommunity/LinkFree",
+      "name": "Open Source project BioDrop",
+      "url": "https://github.com/EddieHubCommunity/BioDrop",
       "icon": "FaGithub"
     },
     {
@@ -144,12 +144,12 @@
       "url": "https://github.com/eddiejaoude"
     },
     {
-      "title": "Started Open Source project Linkfree",
+      "title": "Started Open Source project BioDrop",
       "date": "2021",
       "icon": "FaGithub",
       "color": "green",
       "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
-      "url": "https://linkfree.eddiehub.io"
+      "url": "https://biodrop.eddiehub.io"
     },
     {
       "title": "GitHub Nova, Community Growth Award",
@@ -178,12 +178,12 @@
     },
     {
       "isGoal": true,
-      "title": "LinkFree to a SAAS platform",
+      "title": "BioDrop to a SAAS platform",
       "date": "2023",
       "icon": "FaGithub",
       "color": "green",
       "description": "Have advanced premium features, but will always be free and open source",
-      "url": "https://linkfree.io"
+      "url": "https://biodrop.io"
     }
   ]
 }

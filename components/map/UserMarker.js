@@ -2,13 +2,12 @@ import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Link from "@components/Link";
+import { BASE_WEBSITE_URL } from "@constants";
 
-export default function UserMarker({user}) {
+export default function UserMarker({ user }) {
   // Custom component for rendering links within ReactMarkdown
   const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>
-      {children}
-    </Link>
+    <Link href={href}>{children}</Link>
   );
 
   return (
@@ -25,18 +24,18 @@ export default function UserMarker({user}) {
       <Popup>
         <div className="flex flex-col gap-[5px]">
           <h1 className="font-[600]">
-            <Link
-              href={`https://linkfree.eddiehub.io/${user.properties.username}`}
-            >
+            <Link href={`${BASE_WEBSITE_URL}${user.properties.username}`}>
               {user.properties.name}
             </Link>
           </h1>
           <span>{user.properties.location}</span>
           <span>
-            <ReactMarkdown  components={{ a: LinkRenderer }}>{user.properties.bio}</ReactMarkdown>
+            <ReactMarkdown components={{ a: LinkRenderer }}>
+              {user.properties.bio}
+            </ReactMarkdown>
           </span>
         </div>
       </Popup>
     </Marker>
-  )
+  );
 }

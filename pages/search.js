@@ -13,6 +13,7 @@ import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
 import Pagination from "@components/Pagination";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
@@ -158,8 +159,8 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title={`${PROJECT_NAME} Search Users`}
+        description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>

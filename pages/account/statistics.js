@@ -13,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
+import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -105,7 +106,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
     <>
       <PageHead
-        title="LinkFree Statistics"
+        title={PROJECT_NAME + " Statistics"}
         description="Private statistics for your account"
       />
 

@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from "@components/Link";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 
 export default function Maintainers() {
   const current = [
     {
       name: "Eddie Jaoude",
-      role: "Founder of LinkFree",
+      role: "Founder of BioDrop",
       imageUrl: "https://github.com/eddiejaoude.png",
       link: "https://github.com/eddiejaoude",
     },
@@ -105,16 +106,16 @@ export default function Maintainers() {
   return (
     <>
       <PageHead
-        title="LinkFree Open Source Maintainers"
-        description="LinkFree is 100% Open Source and has amazing maintainers"
+        title="BioDrop Open Source Maintainers"
+        description="BioDrop is 100% Open Source and has amazing maintainers"
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">LinkFree Maintainers</h1>
+        <h1 className="text-4xl mb-4 font-bold">BioDrop Maintainers</h1>
 
         <p className="mt-6 text-lg leading-8 text-primary-high dark:text-primary-low">
-          LinkFree would not be possible without these AMAZING maintainers! Also
+          BioDrop would not be possible without these AMAZING maintainers! Also
           with great help from the{" "}
-          <Link href="https://github.com/EddieHubCommunity/LinkFree/graphs/contributors">
+          <Link href={BASE_GITHUB_PROJECT_URL + "/graphs/contributors"}>
             community contributors
           </Link>
           . Learn more about being a{" "}

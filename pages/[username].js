@@ -11,6 +11,7 @@ import PageHead from "@components/PageHead";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -54,7 +55,7 @@ export default function User({ data, BASE_URL }) {
         description={data.cleanBio}
         ogTitle={data.name}
         ogDescription={data.cleanBio}
-        ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
+        ogUrl={`https://biodrop.eddiehub.io/${data.username}`}
         ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
@@ -64,7 +65,7 @@ export default function User({ data, BASE_URL }) {
       </Page>
 
       <Link
-        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
+        href={`${BASE_GITHUB_PROJECT_URL}/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"

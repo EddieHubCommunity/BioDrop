@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
 import dateFormat from "@services/utils/dateFormat";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -166,7 +167,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     <>
       <PageHead
         title="Manage Event"
-        description="Here you can manage your LinkFree event"
+        description={`Here you can manage your ${PROJECT_NAME} event`}
       />
 
       <Page>

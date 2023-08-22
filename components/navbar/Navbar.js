@@ -11,6 +11,7 @@ import { useTheme } from "next-themes";
 import FaGithub from "@components/icons/FaGithub";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -162,7 +163,7 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"
@@ -249,7 +250,7 @@ export default function Navbar() {
                   setIsOpen={setIsOpen}
                 />
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"
