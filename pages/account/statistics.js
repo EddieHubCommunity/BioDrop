@@ -128,7 +128,6 @@ export async function getServerSideProps(context) {
   };
 }
 
-
 export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
     <>
