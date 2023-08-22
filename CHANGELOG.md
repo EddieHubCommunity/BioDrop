@@ -1,3 +1,12 @@
+## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
+
+
+### Bug Fixes
+
+* notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
+
+
+
 ## [1.178.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.3...v1.178.4) (2023-08-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
-
-
-
-# [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
-
-
-### Features
-
-* search icons in manage forms  ([#8698](https://github.com/EddieHubCommunity/LinkFree/issues/8698)) ([e4e98d4](https://github.com/EddieHubCommunity/LinkFree/commit/e4e98d44f3ceca06af259ba569a98b205e0e9315))
 
 
 
