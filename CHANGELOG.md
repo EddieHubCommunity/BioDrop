@@ -1,3 +1,12 @@
+## [1.178.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.1...v1.178.2) (2023-08-22)
+
+
+### Bug Fixes
+
+* label for models updates ([#8683](https://github.com/EddieHubCommunity/LinkFree/issues/8683)) ([4884c1f](https://github.com/EddieHubCommunity/LinkFree/commit/4884c1f4bca9999a0be5da54a1acfaadce9fe16a))
+
+
+
 ## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * changelog for discover, animate links ([#8705](https://github.com/EddieHubCommunity/LinkFree/issues/8705)) ([cb070c4](https://github.com/EddieHubCommunity/LinkFree/commit/cb070c496fbbc7748befc450e2fc5dd3fec32d0c))
-
-
-
-# [1.177.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.2...v1.177.0) (2023-08-19)
-
-
-### Features
-
-* animate links ([#8508](https://github.com/EddieHubCommunity/LinkFree/issues/8508)) ([b576574](https://github.com/EddieHubCommunity/LinkFree/commit/b576574c3974aa77c3dea33e8af63755a2d435b8))
 
 
 
