@@ -66,6 +66,40 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
+  const dailyStatsMap = new Map();
+  const currentDate = new Date();
+  const last30Days = [];
+
+  const totalClicks = data.links.individual.reduce((acc, link) => {
+    return acc + link.clicks;
+  }, 0);
+  data.links.clicks = totalClicks;
+
+  // Loop through daily stats data and populate dailyStatsMap
+  data.profile.daily.forEach(stat => {
+    dailyStatsMap.set(
+      dateFormat({ format: "short", date: new Date(stat.date) }),
+      stat.value
+    );
+  });
+
+  // Populate last30Days array
+  for (let index = 0; index < 30; index++) {
+    const date = new Date(currentDate);
+    date.setDate(currentDate.getDate() - index);
+    const formattedDate = dateFormat({ format: "short", date: date });
+    last30Days.unshift(formattedDate);
+
+    if (!dailyStatsMap.has(formattedDate)) {
+      dailyStatsMap.set(formattedDate, { views: 0 });
+    }
+  }
+
+  const last30DaysStats = last30Days.map(date => ({
+    views: dailyStatsMap.has(date) ? dailyStatsMap.get(date).views : 0,
+    date: date,
+  }));
+
   progress.missing = profileSections.filter(
     (property) => !profile[property]?.length
   );
@@ -74,47 +108,6 @@ export async function getServerSideProps(context) {
       profileSections.length) *
     100
   ).toFixed(0);
-
-  data.links.individual = data.links.individual.filter((link) =>
-    profile.links.some((pLink) => pLink.url === link.url)
-  );
-
-  const dailyStatsMap = new Map(data.profile.daily.map(stat => [
-    new Date(stat.date).toISOString().split('T')[0], // Convert to "YYYY-MM-DD" format
-    stat
-  ]));
-
-  const totalClicks = data.links.individual.reduce((acc, link) => {
-    return acc + link.clicks;
-  }, 0);
-  data.links.clicks = totalClicks;
-
-  const currentDate = new Date();
-  const last30Days = Array.from({ length: 30 }, (_, index) => {
-    const date = new Date(currentDate);
-    date.setDate(currentDate.getDate() - index);
-    return date.toISOString().split('T')[0]; // Convert to "YYYY-MM-DD" format
-  }).reverse();
-
-  // Ensure that each day has an entry in the dailyStatsMap
-  last30Days.forEach(date => {
-    if (!dailyStatsMap.has(date)) {
-      dailyStatsMap.set(date, { views: 0, date: date }); // Create a placeholder entry
-    }
-  });
-
-  // Build the last 30 days stats array
-  const last30DaysStats = last30Days.map(date => ({
-    views: dailyStatsMap.get(date).views,
-    date: date,
-  }));
-
-  // Fill in zero views for any missing dates in the last 30 days
-  last30Days.forEach(date => {
-    if (!dailyStatsMap.has(date)) {
-      last30DaysStats.push({ views: 0, date: date });
-    }
-  });
 
   data.profile.daily = last30DaysStats;
 
