@@ -3,6 +3,7 @@ import { Transition } from "@headlessui/react";
 import CheckCircleIcon from "@heroicons/react/24/outline/CheckCircleIcon";
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
+import { useEffect } from "react";
 
 export default function Notification({
   show,
@@ -10,6 +11,7 @@ export default function Notification({
   type,
   message,
   additionalMessage,
+  duration = 2000,
 }) {
   let iconComponent;
   switch (type) {
@@ -34,6 +36,18 @@ export default function Notification({
       break;
   }
 
+  useEffect(() => {
+    if (show) {
+      const timer = setTimeout(() => {
+        onClose();
+      }, duration);
+
+      return () => {
+        clearTimeout(timer);
+      };
+    }
+  }, [show, onClose, duration]);
+
   return (
     <div
       aria-live="assertive"
@@ -46,7 +60,7 @@ export default function Notification({
           enter="transform ease-out duration-300 transition"
           enterFrom="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
           enterTo="translate-y-0 opacity-100 sm:translate-x-0"
-          leave="transition ease-in duration-100"
+          leave="transition ease-in duration-200"
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >

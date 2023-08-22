@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import IconSearch from "@components/IconSearch";
 import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
@@ -225,16 +226,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="icon"
-                      label="Icon"
-                      onChange={(e) => setIcon(e.target.value)}
-                      value={icon}
-                      placeholder="FaGithub"
-                      required
-                      minLength="2"
-                      maxLength="32"
-                    />
+                    <IconSearch handleSelectedIcon={setIcon} selectedIcon={icon} />
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
