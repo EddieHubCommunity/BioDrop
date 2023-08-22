@@ -1,3 +1,12 @@
+## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
+
+
+### Bug Fixes
+
+* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/LinkFree/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/LinkFree/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
+
+
+
 ## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * label for models updates ([#8683](https://github.com/EddieHubCommunity/LinkFree/issues/8683)) ([4884c1f](https://github.com/EddieHubCommunity/LinkFree/commit/4884c1f4bca9999a0be5da54a1acfaadce9fe16a))
-
-
-
-## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
-
-
-### Bug Fixes
-
-* stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
 
 
 
