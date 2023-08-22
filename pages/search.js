@@ -51,7 +51,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
   const [users, setUsers] = useState(randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || userSearchParam || "");
   const [currentPage, setCurrentPage] = useState(1);
-
+  
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -59,6 +59,11 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
       setNotFound(`${username} not found`);
     }
   }, [username]);
+  useEffect(() => {
+      if (inputRef.current) {
+        inputRef.current.focus();
+      }
+  }, []);
 
   useEffect(() => {
     if (!inputValue) {
@@ -101,11 +106,8 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
       router.replace({
         pathname: '/search',
         query: { userSearchParam: inputValue },
-      })
+      }, undefined, {shallow: true})
       fetchUsers(inputValue);
-      if (inputRef.current) {
-        inputRef.current.focus();
-      }
     }, 500);
 
     return () => clearTimeout(timer);
