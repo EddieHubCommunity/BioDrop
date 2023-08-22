@@ -1,3 +1,12 @@
+## [1.178.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.2...v1.178.3) (2023-08-22)
+
+
+### Bug Fixes
+
+* event test ([#8708](https://github.com/EddieHubCommunity/LinkFree/issues/8708)) ([597d880](https://github.com/EddieHubCommunity/LinkFree/commit/597d8800cda3c3ac95aba0ead57102ae3d3f5b26))
+
+
+
 ## [1.178.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.1...v1.178.2) (2023-08-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * search automated test ([#8706](https://github.com/EddieHubCommunity/LinkFree/issues/8706)) ([6f9a258](https://github.com/EddieHubCommunity/LinkFree/commit/6f9a258ebda5a5b0a29d82d0388842e399a189f7))
-
-
-
-## [1.177.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.0...v1.177.1) (2023-08-19)
-
-
-### Bug Fixes
-
-* changelog for discover, animate links ([#8705](https://github.com/EddieHubCommunity/LinkFree/issues/8705)) ([cb070c4](https://github.com/EddieHubCommunity/LinkFree/commit/cb070c496fbbc7748befc450e2fc5dd3fec32d0c))
 
 
 
