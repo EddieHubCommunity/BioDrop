@@ -13,7 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
-import dateFormat from '../services/utils/dateFormat';
+import dateFormat from "@services/utils/dateFormat";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
