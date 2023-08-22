@@ -1,45 +1,45 @@
-## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
+## [1.178.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.6...v1.178.7) (2023-08-22)
 
 
 ### Bug Fixes
 
-* stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
+* community resources to config array ([#8577](https://github.com/EddieHubCommunity/LinkFree/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/LinkFree/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
 
 
 
-# [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
-
-
-### Features
-
-* search icons in manage forms  ([#8698](https://github.com/EddieHubCommunity/LinkFree/issues/8698)) ([e4e98d4](https://github.com/EddieHubCommunity/LinkFree/commit/e4e98d44f3ceca06af259ba569a98b205e0e9315))
-
-
-
-## [1.177.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.1...v1.177.2) (2023-08-19)
+## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
 
 
 ### Bug Fixes
 
-* search automated test ([#8706](https://github.com/EddieHubCommunity/LinkFree/issues/8706)) ([6f9a258](https://github.com/EddieHubCommunity/LinkFree/commit/6f9a258ebda5a5b0a29d82d0388842e399a189f7))
+* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/LinkFree/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/LinkFree/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
 
 
 
-## [1.177.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.0...v1.177.1) (2023-08-19)
+## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
 
 
 ### Bug Fixes
 
-* changelog for discover, animate links ([#8705](https://github.com/EddieHubCommunity/LinkFree/issues/8705)) ([cb070c4](https://github.com/EddieHubCommunity/LinkFree/commit/cb070c496fbbc7748befc450e2fc5dd3fec32d0c))
+* notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
 
 
 
-# [1.177.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.2...v1.177.0) (2023-08-19)
+## [1.178.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.3...v1.178.4) (2023-08-22)
 
 
-### Features
+### Bug Fixes
 
-* animate links ([#8508](https://github.com/EddieHubCommunity/LinkFree/issues/8508)) ([b576574](https://github.com/EddieHubCommunity/LinkFree/commit/b576574c3974aa77c3dea33e8af63755a2d435b8))
+* missing items now have a space between ([#8676](https://github.com/EddieHubCommunity/LinkFree/issues/8676)) ([6c83c18](https://github.com/EddieHubCommunity/LinkFree/commit/6c83c1898be55055376157c00eea972a55f47430))
+
+
+
+## [1.178.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.2...v1.178.3) (2023-08-22)
+
+
+### Bug Fixes
+
+* event test ([#8708](https://github.com/EddieHubCommunity/LinkFree/issues/8708)) ([597d880](https://github.com/EddieHubCommunity/LinkFree/commit/597d8800cda3c3ac95aba0ead57102ae3d3f5b26))
 
 
 

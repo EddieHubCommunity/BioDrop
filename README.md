@@ -98,25 +98,8 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users. 
 
-> **Warning**: [MongoDB Compass](https://www.mongodb.com/products/compass) will not be available with the above setup. You'll need to run the next.js project that we just cloned locally and a mongoDB image inside a docker container in order to access
-MongoDB Compass:  
-
-<details>
-  <summary>Click me for instructions</summary>
-  
-  ### Installation
-  1. `npm install`
-  
-  2. Modify.env file `LINKFREE_MONGO_CONNECTION_STRING` value with `"mongodb://localhost:27017/linkfree"`
-  
-  3. `docker run --name my_mongodb_instance -p 27017:27017 -d mongo`
-  
-  4. `npm run dev`
-  
-  5. In the browser `localhost:3000/api/system/reload?secret=development`
-
-</details>
-<br>
+> **Note**
+> If you wanna look at the database, you can use [MongoDB Compass](https://www.mongodb.com/products/compass) with connection string as `mongodb://localhost:27017/linkfree`
 
 Read more in the official documentation - https://linkfree.io/docs/environments/local-development#docker-compose
 
