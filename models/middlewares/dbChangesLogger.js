@@ -54,11 +54,19 @@ export default function dbChangesLoggerMiddleware(schema) {
     return next();
   }
   
-  schema.pre("save", beforeUpdate);
-  schema.pre("findOneAndUpdate", beforeUpdate);
+  schema.pre("save", async function(next) { 
+    await beforeUpdate(next);
+  });
+  schema.pre("findOneAndUpdate", async function(next) {
+    await beforeUpdate(next);
+  });
 
-  schema.post("save", afterUpdate);
-  schema.post("findOneAndUpdate", afterUpdate);
+  schema.post("save", async function(doc, next) { 
+    await afterUpdate(doc, next);
+  });
+  schema.post("findOneAndUpdate", async function(doc, next) {
+    await afterUpdate(doc, next);
+  });
 }
 
 function getChangesDiff(chngB, chngA) {
