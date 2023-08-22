@@ -1,0 +1,26 @@
+{
+  "name": "Sumit Bhanushali",
+  "bio": "Open Source | Computer Science | Operating System | Database | NodeJS | Flutter | Rust",
+  "links": [
+    {
+      "name": "Twitter - Computer Science musings, findings and everything else ",
+      "url": "https://twitter.com/SumitBhanushali",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn - All About My Technical Journey",
+      "url": "https://www.linkedin.com/in/sumitbhanushali16/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram Flavoured Byte-Sized Tech ",
+      "url": "https://www.instagram.com/logancodes16",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Youtube - Deep Dive And Simplified Tech Videos",
+      "url": "https://www.youtube.com/@sumitbhanushali16",
+      "icon": "FaYoutube"
+    }
+  ]
+}

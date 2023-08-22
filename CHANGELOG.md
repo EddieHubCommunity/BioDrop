@@ -1,45 +1,45 @@
-## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
+## [1.178.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.2...v1.178.3) (2023-08-22)
 
 
 ### Bug Fixes
 
-* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
+* event test ([#8708](https://github.com/EddieHubCommunity/LinkFree/issues/8708)) ([597d880](https://github.com/EddieHubCommunity/LinkFree/commit/597d8800cda3c3ac95aba0ead57102ae3d3f5b26))
 
 
 
-## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
-
-
-### Bug Fixes
-
-* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
-
-
-
-## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
+## [1.178.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.1...v1.178.2) (2023-08-22)
 
 
 ### Bug Fixes
 
-* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+* label for models updates ([#8683](https://github.com/EddieHubCommunity/LinkFree/issues/8683)) ([4884c1f](https://github.com/EddieHubCommunity/LinkFree/commit/4884c1f4bca9999a0be5da54a1acfaadce9fe16a))
 
 
 
-## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
-
-
-### Bug Fixes
-
-* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
-
-
-
-## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
+## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
 
 
 ### Bug Fixes
 
-* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+* stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
+
+
+
+# [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
+
+
+### Features
+
+* search icons in manage forms  ([#8698](https://github.com/EddieHubCommunity/LinkFree/issues/8698)) ([e4e98d4](https://github.com/EddieHubCommunity/LinkFree/commit/e4e98d44f3ceca06af259ba569a98b205e0e9315))
+
+
+
+## [1.177.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.1...v1.177.2) (2023-08-19)
+
+
+### Bug Fixes
+
+* search automated test ([#8706](https://github.com/EddieHubCommunity/LinkFree/issues/8706)) ([6f9a258](https://github.com/EddieHubCommunity/LinkFree/commit/6f9a258ebda5a5b0a29d82d0388842e399a189f7))
 
 
 
