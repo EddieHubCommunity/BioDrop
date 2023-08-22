@@ -113,7 +113,7 @@ export default function DocsIndex() {
                 key={section.title}
               >
                 <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
-                  <div>
+                  <div className="mb-2">
                     <h2
                       className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
                       id={section.title}
@@ -129,7 +129,7 @@ export default function DocsIndex() {
                       <Link
                         href={page.path}
                         key={page.name}
-                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
+                        className="my-2 border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
                       >
                         <div className="py-2">
                           {/* <span
