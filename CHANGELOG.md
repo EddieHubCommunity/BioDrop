@@ -1,3 +1,12 @@
+## [1.178.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.6...v1.178.7) (2023-08-22)
+
+
+### Bug Fixes
+
+* community resources to config array ([#8577](https://github.com/EddieHubCommunity/LinkFree/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/LinkFree/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
+
+
+
 ## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * event test ([#8708](https://github.com/EddieHubCommunity/LinkFree/issues/8708)) ([597d880](https://github.com/EddieHubCommunity/LinkFree/commit/597d8800cda3c3ac95aba0ead57102ae3d3f5b26))
-
-
-
-## [1.178.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.1...v1.178.2) (2023-08-22)
-
-
-### Bug Fixes
-
-* label for models updates ([#8683](https://github.com/EddieHubCommunity/LinkFree/issues/8683)) ([4884c1f](https://github.com/EddieHubCommunity/LinkFree/commit/4884c1f4bca9999a0be5da54a1acfaadce9fe16a))
 
 
 
