@@ -37,8 +37,8 @@ export default function dbChangesLoggerMiddleware(schema) {
 
     const change = {
       username,
+      docId: doc._id,
       collectionName: collection,
-      collectionId: doc._id,
       changesBefore,
       changesAfter,
       diff,
