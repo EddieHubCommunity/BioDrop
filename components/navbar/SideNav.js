@@ -8,7 +8,10 @@ import { classNames } from "@services/utils/classNames";
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();
   return (
-    <ul role="list" className="w-64 flex-none block mt-8 mx-auto p-3 px-5 rounded border border-primary-high dark:border-primary-low sm:mt-12 sm:mx-0 sm:border-none sm:p-0">
+    <ul
+      role="list"
+      className="sm:w-64 flex-none block rounded border border-primary-high dark:border-primary-low sm:border-none mt-4 sm:mt-12"
+    >
       <li>
         <ul role="list">
           {navigation.map((item) => (
