@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
@@ -11,7 +11,10 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
-import { cleanSearchInput, searchTagNameInInput } from "@services/utils/search/tags";
+import {
+  cleanSearchInput,
+  searchTagNameInInput,
+} from "@services/utils/search/tags";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -55,8 +58,7 @@ export async function getServerSideProps(context) {
   try {
     if (keyword) {
       serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
-    }
-    else {
+    } else {
       serverProps.randUsers = await fetchRandomUsers();
     }
   } catch (e) {
@@ -80,6 +82,8 @@ export default function Search({
   const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
   const [inputValue, setInputValue] = useState(username || keyword || "");
   const [currentPage, setCurrentPage] = useState(1);
+
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     if (username) {
@@ -136,6 +140,20 @@ export default function Search({
     return () => clearTimeout(timer);
   }, [inputValue]);
 
+  useEffect(() => {
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
+
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
 
@@ -157,8 +175,6 @@ export default function Search({
 
     setInputValue(keyword);
   };
-
-
 
   const usersPerPage = 20;
   const indexOfLastUser = currentPage * usersPerPage;
@@ -201,6 +217,7 @@ export default function Search({
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
+            ref={searchInputRef}
             placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
