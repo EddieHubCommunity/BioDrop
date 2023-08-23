@@ -124,7 +124,15 @@ export default function Premium({ user, clientEnv }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Links",
+          name: "Unlimited Links",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Link Groups",
+          tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Social Icons",
           tiers: { Free: true, Premium: true },
         },
         {
@@ -221,6 +229,10 @@ export default function Premium({ user, clientEnv }) {
         {
           name: "Community Discord",
           tiers: { Free: true, Premium: true },
+        },
+        {
+          name: "Monthly 1 hour roadmap call (meet the founders and let them know what new features you want to see)",
+          tiers: { Free: false, Premium: true },
         },
         {
           name: "Contact Form",
