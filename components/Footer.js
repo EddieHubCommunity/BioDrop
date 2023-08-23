@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
@@ -11,6 +9,7 @@ import Link from "@components/Link";
 import app from "@config/app.json";
 import { PROJECT_NAME } from "@constants/index";
 import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
   const navigation = {
@@ -97,12 +96,7 @@ export default function Footer() {
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <Image
-            width={100}
-            height={100}
-            src="/logo512.png"
-            alt={PROJECT_NAME + " logo"}
-          />
+          <LogoWide width={300} />
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>

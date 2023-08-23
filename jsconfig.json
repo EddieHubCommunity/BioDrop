@@ -6,7 +6,8 @@
       "@config/*": ["config/*"],
       "@services/*": ["services/*"],
       "@models/*": ["models/*"],
-      "@constants/*": ["constants/*"]
+      "@constants/*": ["constants/*"],
+      "@public/*": ["public/*"]
     }
   }
 }
