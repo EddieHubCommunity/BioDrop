@@ -10,27 +10,27 @@ module.exports = {
       colors: {
         primary: {
           // slate
-          low: "rgb(249 250 251)",
-          "low-medium": "rgb(143 151 166)",
-          "low-high": "rgb(121 129 140)",
-          "medium-low": "rgb(111 118 128)",
-          medium: "rgb(35,48,66)",
-          high: "rgb(17 24 39)",
+          low: "#f6f7f8",
+          "low-medium": "#939da8",
+          "low-high": "#8894a1",
+          "medium-low": "#627180",
+          medium: "#122640",
+          high: "#0b1726",
         },
         secondary: {
           // purple
-          low: "rgb(165 180 252)",
-          "low-high": "rgb(110 115 243)",
-          "medium-low": "rgb(99 102 241)",
-          medium: "rgb(79 70 229)",
-          high: "rgb(67 56 202)",
-          "high-high": "rgb(61 50 179)",
+          low: "#80cdd6",
+          "low-high": "#38a1ad",
+          "medium-low": "#2A7D86",
+          medium: "#226168",
+          high: "#164145",
+          "high-high": "#0b2023",
         },
         tertiary: {
           // orange
-          low: "rgb(253 186 116)",
-          medium: "rgb(234 88 12)",
-          high: "rgb(148 50 18)",
+          low: "#f49fa4",
+          medium: "#ed616b",
+          high: "#770d14",
         },
       },
     },

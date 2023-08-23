@@ -2,7 +2,7 @@ import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import Link from "@components/Link";
-import { BASE_WEBSITE_URL } from "@constants";
+import { BASE_WEBSITE_URL } from "@constants/index";
 
 export default function UserMarker({ user }) {
   // Custom component for rendering links within ReactMarkdown
