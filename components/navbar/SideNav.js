@@ -40,7 +40,7 @@ export default function SideNav({ navigation }) {
                           item.children?.filter(
                             (subItem) => subItem.href == pathname
                           )?.[0]?.href == pathname &&
-                          "bg-slate-200 dark:bg-primary-low !text-secondary-high",
+                            "bg-slate-200 dark:bg-primary-low !text-secondary-high",
                           "group flex items-center w-full text-left rounded-md py-2 pl-3 pr-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200"
                         )}
                       >
