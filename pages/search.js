@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
-
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -10,48 +9,82 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
-import config from "@config/app.json";
+import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
+import {
+  cleanSearchInput,
+  searchTagNameInInput,
+} from "@services/utils/search/tags";
 
-export async function getStaticProps() {
-  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
-  let data = {
-    tags: [],
-  };
-  let users = [];
-  try {
-    users = await getUsers();
-  } catch (e) {
-    logger.error(e, "ERROR search users");
-  }
+async function fetchUsersByKeyword(keyword) {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
+      slug: keyword,
+    }).toString()}`
+  );
 
-  try {
-    data.tags = await getTags();
-  } catch (e) {
-    logger.error(e, "ERROR loading tags");
-  }
+  const searchData = await res.json();
+  return searchData.users || [];
+}
+
+async function fetchRandomUsers() {
+  const users = await getProfiles();
 
   if (users.length > 9) {
-    data.randUsers = users.sort(() => 0.5 - Math.random()).slice(0, 9);
-  } else {
-    data.randUsers = users;
+    return users.sort(() => 0.5 - Math.random()).slice(0, 9);
   }
 
+  return users;
+}
+
+async function fetchTags() {
+  try {
+    return await getTags();
+  } catch (e) {
+    logger.error(e, "ERROR loading tags");
+    return [];
+  }
+}
+
+export async function getServerSideProps(context) {
+  const { keyword } = context.query;
+
+  let serverProps = {
+    tags: [],
+    filteredUsers: [],
+    randUsers: [],
+  };
+
+  try {
+    if (keyword) {
+      serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
+    } else {
+      serverProps.randUsers = await fetchRandomUsers();
+    }
+  } catch (e) {
+    logger.error(e, "ERROR fetching users");
+  }
+
+  serverProps.tags = await fetchTags();
+
   return {
-    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
-    revalidate: pageConfig.revalidateSeconds,
+    props: { data: serverProps, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Search({ data: { tags, randUsers }, BASE_URL }) {
+export default function Search({
+  data: { tags, randUsers, filteredUsers },
+  BASE_URL,
+}) {
   const router = useRouter();
   const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
-  const [users, setUsers] = useState(randUsers);
-  const [inputValue, setInputValue] = useState(username || keyword || userSearchParam || "");
+  const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
+  const [inputValue, setInputValue] = useState(
+    username || keyword || userSearchParam || ""
+  );
   const [currentPage, setCurrentPage] = useState(1);
-  
+
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -60,9 +93,9 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     }
   }, [username]);
   useEffect(() => {
-      if (inputRef.current) {
-        inputRef.current.focus();
-      }
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
   }, []);
 
   useEffect(() => {
@@ -80,6 +113,12 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
 
     // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
     setInputValue(inputValue.replace(/,(\s*),/g, ",").replace(/^,/, ""));
+
+    // If the inputValue has not changed and is the same as the keyword passed from the server
+    if (keyword && inputValue === keyword) {
+      return;
+    }
+
     async function fetchUsers(value) {
       try {
         const res = await fetch(
@@ -100,13 +139,16 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
         setUsers([]);
       }
     }
-    
 
     const timer = setTimeout(() => {
-      router.replace({
-        pathname: '/search',
-        query: { userSearchParam: inputValue },
-      }, undefined, {shallow: true})
+      router.replace(
+        {
+          pathname: "/search",
+          query: { userSearchParam: inputValue },
+        },
+        undefined,
+        { shallow: true }
+      );
       fetchUsers(inputValue);
     }, 500);
 
@@ -133,27 +175,6 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
     }
 
     setInputValue(keyword);
-  };
-
-  // removes leading/trailing whitespaces and extra spaces and adds space after the comma and converted to lowercase
-  const cleanSearchInput = (searchInput) => {
-    return searchInput
-      .trim()
-      .replace(/\s{2,}/g, " ")
-      .replace(/,(?!\s)/g, ", ")
-      .toLowerCase();
-  };
-
-  const searchTagNameInInput = (searchInput, tagName) => {
-    const tags = cleanSearchInput(searchInput).split(",");
-
-    for (let tag of tags) {
-      if (tag.trim() === tagName.toLowerCase()) {
-        return true;
-      }
-    }
-
-    return false;
   };
 
   const usersPerPage = 20;
@@ -204,6 +225,7 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
             ref={inputRef}
           />
         </Badge>
+
         {notFound && <Alert type="error" message={notFound} />}
         <ul
           role="list"
@@ -212,14 +234,14 @@ export default function Search({ data: { tags, randUsers }, BASE_URL }) {
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} />
+                <UserHorizontal profile={user} input={inputValue} />
               </li>
             ))}
         </ul>
