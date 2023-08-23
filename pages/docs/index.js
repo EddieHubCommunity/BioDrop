@@ -104,7 +104,7 @@ export default function DocsIndex() {
           </Link>{" "}
           on GitHub for more information.
         </p>
-        <div className="flex flex-grow flex-row">
+        <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
           <div className="float-none my-0 max-w-[1440px]">
             {sections.map((section) => (
