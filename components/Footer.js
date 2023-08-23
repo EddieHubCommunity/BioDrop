@@ -7,8 +7,11 @@ import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
 import app from "@config/app.json";
-import { PROJECT_NAME } from "@constants/index";
-import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
+import {
+  BASE_GITHUB_PROJECT_URL,
+  BASE_GITHUB_URL,
+  PROJECT_NAME,
+} from "@constants/index";
 import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
