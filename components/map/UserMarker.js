@@ -1,15 +1,11 @@
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+
 import Link from "@components/Link";
 import { BASE_WEBSITE_URL } from "@constants/index";
+import Markdown from "@components/Markdown";
 
 export default function UserMarker({ user }) {
-  // Custom component for rendering links within ReactMarkdown
-  const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>{children}</Link>
-  );
-
   return (
     <Marker
       icon={L.icon({
@@ -30,9 +26,7 @@ export default function UserMarker({ user }) {
           </h1>
           <span>{user.properties.location}</span>
           <span>
-            <ReactMarkdown components={{ a: LinkRenderer }}>
-              {user.properties.bio}
-            </ReactMarkdown>
+            <Markdown>{user.properties.bio}</Markdown>
           </span>
         </div>
       </Popup>

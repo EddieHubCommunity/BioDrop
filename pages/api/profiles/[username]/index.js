@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
@@ -157,6 +157,24 @@ export async function getUserApi(req, res, username) {
       })()
     );
 
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
+    }
+    if (options.ip) {
+      try {
+        const ipLookupRes = await fetch(
+          `https://api.iplocation.net/?ip=${options.ip}`
+        );
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
+
     updates.push(
       (async () => {
         try {
@@ -165,7 +183,7 @@ export async function getUserApi(req, res, username) {
               username,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { timestamps: false }
           );
@@ -188,7 +206,7 @@ export async function getUserApi(req, res, username) {
               date,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { upsert: true }
           );

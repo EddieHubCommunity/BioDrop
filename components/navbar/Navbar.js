@@ -6,6 +6,7 @@ import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
+import { classNames } from "@services/utils/classNames";
 
 import FaGithub from "@components/icons/FaGithub";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
@@ -90,6 +91,10 @@ export default function Navbar() {
     {
       name: "Repos",
       url: "/repos",
+    },
+    {
+      name: "Discover",
+      url: "/discover",
     },
   ];
 
@@ -184,7 +189,7 @@ export default function Navbar() {
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`${isOpen ? "hidden" : "block"} h-6 w-6`}
+                  className={classNames(isOpen ? "hidden" : "block", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -199,7 +204,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <svg
-                  className={`${isOpen ? "block" : "hidden"} h-6 w-6`}
+                  className={classNames(isOpen ? "block" : "hidden", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -219,11 +224,12 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${
+          className={classNames(
             isOpen
               ? "transform translate-y-0 opacity-100"
-              : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full`}
+              : "transform -translate-y-96 opacity-0",
+            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full"
+          )}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -239,7 +245,7 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-primary-medium">
             <div className="flex items-center px-5">
-              <div className="flex items-center md:ml-6">
+              <div className="flex items-center md:ml-6 flex-wrap justify-center sm:justify-start">
                 {renderThemeChanger()}
                 <NavLink
                   item={{ name: `v${app.version}`, url: "/changelog" }}

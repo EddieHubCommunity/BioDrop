@@ -1,7 +1,7 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
 import Router, { useRouter } from "next/router";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export default function SubNav({ tabs }) {
   const router = useRouter();
@@ -18,11 +18,8 @@ export default function SubNav({ tabs }) {
   return (
     <div className="mb-6">
       <div className="sm:hidden">
-        <label htmlFor="tabs" className="sr-only">
-          Select a tab
-        </label>
         <Select
-          id="tabs"
+          name="tabs"
           value={tabs.find((tab) => tab.current).name}
           label="Select a tab"
           options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}

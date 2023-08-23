@@ -7,18 +7,15 @@ import { ComponentStyle } from "@components/mdx/ComponentStyle";
 import SideNav from "@components/navbar/SideNav";
 import { PROJECT_NAME } from "@constants/index";
 
-// TODO: have page nav highlighted when on that page
 export const navigation = [
   {
     name: "Documentation",
     href: "/docs",
     //icon: HomeIcon,
-    current: false,
   },
   {
     name: "Quickstart",
     // icon: UsersIcon,
-    current: false,
     children: [
       { name: "Profile with JSON", href: "/docs/quickstart-json" },
       { name: "Profile with Forms", href: "/docs/quickstart-forms" },
@@ -27,7 +24,6 @@ export const navigation = [
   {
     name: "Getting Started",
     // icon: FolderIcon,
-    current: false,
     children: [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
@@ -39,7 +35,6 @@ export const navigation = [
   {
     name: "Customise",
     // icon: CalendarIcon,
-    current: false,
     children: [
       { name: "Bio with JSON", href: "/docs/how-to-guides/bio-json" },
       { name: "Links with JSON", href: "/docs/how-to-guides/links-json" },
@@ -80,7 +75,6 @@ export const navigation = [
   {
     name: "Contributing",
     // icon: DocumentDuplicateIcon,
-    current: false,
     children: [
       { name: "Labels", href: "/docs/contributing/labels" },
       { name: "Docs Style Guide", href: "/docs/contributing/docs-style-guide" },
@@ -105,7 +99,6 @@ export const navigation = [
   {
     name: "Other",
     // icon: ChartPieIcon,
-    current: false,
     children: [
       { name: "Profile Tips", href: "/docs/profile-tips" },
       { name: "Full Profile JSON example", href: "/docs/full-profile-example" },
@@ -132,7 +125,7 @@ export default function DocsLayout({ children, title, section, name }) {
       <Page>
         <BreadCrumb section={section} name={name} />
 
-        <div className="flex flex-grow flex-row">
+        <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
           <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
             <MDXProvider components={ComponentStyle}>

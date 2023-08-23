@@ -5,7 +5,7 @@ import ClockIcon from "@heroicons/react/24/outline/ClockIcon";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export default function Roadmap() {

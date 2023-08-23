@@ -50,7 +50,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function USERS({ profiles }) {
+export default function Users({ profiles }) {
   return (
     <>
       <PageHead

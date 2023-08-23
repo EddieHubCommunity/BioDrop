@@ -82,12 +82,25 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 #### Prerequisites
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://github.com/docker/compose) V2.
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/) and [Docker Compose](https://github.com/docker/compose) V2. or [Docker Desktop](https://docs.docker.com/desktop/#:~:text=Docker%20Desktop%20is%20a%20one,share%20containerized%20applications%20and%20microservices)
 
 #### Commands
 
-1. `docker compose up`
+1. `git clone https://github.com/EddieHubCommunity/BioDrop`
+
+2. `cd BioDrop`
+
+3. `docker compose up`
+
+4. In your browser on localhost:3000 you should now see the project up and running.
+
+5. Now you need to upload the data in your mongoDB instance. `localhost:3000/api/system/reload?secret=development`
+
+6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users.
+
+> **Note**
+> If you wanna look at the database, you can use [MongoDB Compass](https://www.mongodb.com/products/compass) with connection string as `mongodb://localhost:27017/biodrop`
 
 Read more in the official documentation - https://biodrop.io/docs/environments/local-development#docker-compose
 

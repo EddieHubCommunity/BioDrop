@@ -81,6 +81,20 @@ docker compose down
 
 If you are getting an error, try to rebuild the images with `docker compose up --build`. If that doesn't work, stop the containers with `docker compose down` and remove the stopped BioDrop container with `docker rm BioDrop`. Then, remove the images with `docker rmi BioDrop-app`. Lastly, rebuild the images with `docker compose up --build`.
 
+### Running mongo container separately
+
+If you want to have more flexibility you have a choice to run mongo separate, and start nextjs application locally:
+
+1. `npm install`
+
+2. Modify.env file `BIODROP_MONGO_CONNECTION_STRING` value with `mongodb://localhost:27017/biodrop`
+
+3. `docker run --name my_mongodb_instance -p 27017:27017 -d mongo`
+
+4. `npm run dev`
+
+5. In the browser `localhost:3000/api/system/reload?secret=development`
+
 export default ({ children }) => (
   <DocsLayout
     title="BioDrop Local Development Documentation"

@@ -65,10 +65,22 @@ test("Search page shows results after typing 3 characters", async ({
   await expect(page.locator("main li")).toContainText(["aka"]);
 });
 
-test.fixme("After search click profile", async () => {
-  // 1. perform search
-  // 2. click on searched profile
-  // 3. check profile is displayed
+test("After search click profile", async ({ page }) => {
+  // 1. Perform search
+  await page.goto("/search");
+  const input = page.locator("[name='keyword']");
+  await input.type("eddiejaoude");
+
+  // 2. Click on the searched profile
+  const profileLinkSelector = 'a[href="/eddiejaoude"]';
+  const profileLink = page.locator(profileLinkSelector);
+  await profileLink.click();
+  await page.waitForLoadState("networkidle");
+
+  // 3. Check if the profile is displayed
+  const profileHeader = page.locator("h1");
+  const profileHeaderText = await profileHeader.innerText();
+  await expect(profileHeaderText).toContain("Eddie Jaoude"); 
 });
 
 test.fixme(

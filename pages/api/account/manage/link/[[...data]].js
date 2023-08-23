@@ -61,7 +61,7 @@ export async function addLinkApi(username, data) {
   const log = logger.child({ username });
 
   let getLink = {};
-  const errors = await Link.validate(data, ["group", "name", "icon", "url"]);
+  const errors = await Link.validate(data, ["group", "name", "icon", "url", "animation"]);
   if (errors) {
     log.error(
       errors,
@@ -82,6 +82,7 @@ export async function addLinkApi(username, data) {
           icon: data.icon,
           isEnabled: data.isEnabled,
           isPinned: data.isPinned,
+          animation: data.animation,
           profile: new ObjectId(profile._id),
         },
       ],
@@ -113,7 +114,7 @@ export async function updateLinkApi(username, id, data) {
 
   let getLink = {};
 
-  const errors = await Link.validate(data, ["group", "name", "icon", "url"]);
+  const errors = await Link.validate(data, ["group", "name", "icon", "url", "animation"]);
   if (errors) {
     log.error(
       errors,
@@ -135,6 +136,7 @@ export async function updateLinkApi(username, id, data) {
         icon: data.icon,
         isEnabled: data.isEnabled,
         isPinned: data.isPinned,
+        animation: data.animation
       },
       { upsert: true }
     );

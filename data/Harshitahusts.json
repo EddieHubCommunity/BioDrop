@@ -1,0 +1,55 @@
+{
+  "name": "Harshit Gupta",
+
+  "bio": "**Open Source** | Java Developer ",
+  "tags": ["Open Source", "JAVA", "MERN", "SPRING", "Docker"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Harshit54283"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Harshitahusts"
+    }
+  ],
+
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/Harshit54283",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Harshitahusts",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/harshit-gupta-316b35229",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Linux, Mern and Java-ML",
+      "url": "https://hashnode.com/@harshit619",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe for video content",
+      "url": "https://www.youtube.com/channel/UCKF9_Pen8Pbtterasx6bQuw",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Support My Work",
+      "name": "GitHub Sponsors - Any help is more than appreciated",
+      "url": "https://github.com/sponsors/Harshitahusts",
+      "icon": "FaHeart"
+    }
+  ]
+}
