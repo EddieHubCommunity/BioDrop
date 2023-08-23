@@ -67,7 +67,7 @@ export default function SideNav({ navigation }) {
                               href={subItem.href}
                               className={classNames(
                                 subItem.href.toLowerCase() == pathname &&
-                                "text-secondary-medium dark:!text-blue-500 font-semibold",
+                                  "text-secondary-medium dark:!text-blue-500 font-semibold",
                                 "block hover:font-semibold hover:text-secondary-medium dark:hover:text-blue-500  rounded-md my-[6px] py-[6px] pr-2 pl-4 text-sm leading-6 text-primary-high dark:text-primary-low-medium duration-200"
                               )}
                             >
