@@ -1,5 +1,5 @@
 // @ts-check
-import { test, expect } from "@playwright/test";
+import { test, expect, chromium } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
