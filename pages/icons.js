@@ -6,6 +6,7 @@ import Alert from "@components/Alert";
 import IconCard from "@components/IconCard";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
@@ -48,8 +49,8 @@ export default function Icons() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Icons"
-        description="Search LinkFree icon directory"
+        title={`${PROJECT_NAME} Search Icons`}
+        description={`Search ${PROJECT_NAME} icon directory`}
       />
 
       <Page>

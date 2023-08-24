@@ -1,12 +1,13 @@
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Terms() {
   return (
     <>
       <PageHead
-        title="LinkFree Terms and Conditions"
-        description="Read the Terms and Conditions of LinkFree"
+        title={`${PROJECT_NAME} Terms and Conditions`}
+        description={`Read the Terms and Conditions of ${PROJECT_NAME}`}
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Terms and Conditions</h1>
@@ -19,13 +20,13 @@ export default function Terms() {
               <div className="mt-10 grid max-w-xl grid-cols-1 gap-8 text-base leading-7 text-primary-medium dark:text-primary-low-medium lg:max-w-none lg:grid-cols-2">
                 <div>
                   <p>
-                    By creating your LinkFree Profile, you the user understands
-                    and agrees that the LinkFree project and the contributions
-                    that you make are public and that a record of the
-                    contribution (including all personal information you submit
-                    with it) will be maintained indefinitely and may be
-                    redistributed consistent with the LinkFree project or the
-                    open source license(s) involved.
+                    By creating your {PROJECT_NAME} Profile, you the user
+                    understands and agrees that the {PROJECT_NAME} project and
+                    the contributions that you make are public and that a record
+                    of the contribution (including all personal information you
+                    submit with it) will be maintained indefinitely and may be
+                    redistributed consistent with the {PROJECT_NAME} project or
+                    the open source license(s) involved.
                   </p>
                   <p className="mt-8"></p>
                 </div>

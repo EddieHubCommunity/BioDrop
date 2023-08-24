@@ -9,7 +9,7 @@ import logger from "@config/logger";
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
-    url: "https://github.com/EddieHubCommunity/LinkFree",
+    url: "https://github.com/EddieHubCommunity/BioDrop",
     icon: icon,
   };
 });
@@ -31,15 +31,21 @@ module.exports = async () => {
         if (fs.existsSync(`${inPath}/testimonials`)) {
           fs.mkdirSync(`${outPath}/testimonials`, { recursive: true });
           const t_files = fs.readdirSync(`${inPath}/testimonials`);
-          t_files.map(file => {
-            fs.copyFileSync(`${inPath}/testimonials/${file}`, `${outPath}/testimonials/${file}`)
+          t_files.map((file) => {
+            fs.copyFileSync(
+              `${inPath}/testimonials/${file}`,
+              `${outPath}/testimonials/${file}`
+            );
           });
         }
         if (fs.existsSync(`${inPath}/events`)) {
           fs.mkdirSync(`${outPath}/events`, { recursive: true });
           const e_files = fs.readdirSync(`${inPath}/events`);
-          e_files.map(file => {
-            fs.copyFileSync(`${inPath}/events/${file}`, `${outPath}/events/${file}`)
+          e_files.map((file) => {
+            fs.copyFileSync(
+              `${inPath}/events/${file}`,
+              `${outPath}/events/${file}`
+            );
           });
         }
       }

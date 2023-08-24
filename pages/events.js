@@ -10,6 +10,7 @@ import Page from "@components/Page";
 import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import Badge from "@components/Badge";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps() {
   let events = await getEvents();
@@ -78,8 +79,8 @@ export default function Events({ events }) {
   return (
     <>
       <PageHead
-        title="Events the LinkFree community members are interested in"
-        description="Events by the LinkFree community"
+        title={`Events the ${PROJECT_NAME} community members are interested in`}
+        description={`Events by the ${PROJECT_NAME} community`}
       />
 
       <Page>

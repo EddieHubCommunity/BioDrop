@@ -3,6 +3,7 @@ import Page from "@components/Page";
 import Link from "@components/Link";
 import SideNav from "@components/navbar/SideNav";
 import { navigation } from "@components/layouts/DocsLayout";
+import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export default function DocsIndex() {
   const sections = [
@@ -54,7 +55,7 @@ export default function DocsIndex() {
           name: "Local Development",
           path: "/docs/environments/local-development",
           description:
-            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
+            "Set up the BioDrop codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -76,10 +77,10 @@ export default function DocsIndex() {
   return (
     <>
       <Head>
-        <title>LinkFree Documentation</title>
+        <title>{PROJECT_NAME} Documentation</title>
         <meta
           name="description"
-          content="Discover more people in your LinkFree community"
+          content={`Discover more people in your ${PROJECT_NAME} community`}
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -89,16 +90,13 @@ export default function DocsIndex() {
           Here you should find everything you need from getting started with
           creating your Profile to more advanced topics. We welcome
           contributions, check out the&nbsp;
-          <Link
-            target="_blank"
-            href="https://github.com/EddieHubCommunity/LinkFree"
-          >
-            LinkFree repo
+          <Link target="_blank" href={BASE_GITHUB_PROJECT_URL}>
+            {PROJECT_NAME} repo
           </Link>{" "}
           and the&nbsp;
           <Link
             target="_blank"
-            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+            href={BASE_GITHUB_PROJECT_URL + "/tree/main/pages/docs"}
           >
             documentation source
           </Link>{" "}

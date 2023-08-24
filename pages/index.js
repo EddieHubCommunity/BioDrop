@@ -18,6 +18,7 @@ import Alert from "@components/Alert";
 import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import { serverEnv } from "@config/schemas/serverSchema";
+import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -66,7 +67,8 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
       imageAlt:
-        "LinkFree screenshot of the bio and social links in example profile",
+        PROJECT_NAME +
+        " screenshot of the bio and social links in example profile",
     },
     {
       name: "Your Tags",
@@ -74,7 +76,7 @@ export default function Home({
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
         "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
-      imageAlt: "LinkFree screenshot of the tags in example profile",
+      imageAlt: PROJECT_NAME + " screenshot of the tags in example profile",
     },
     {
       name: "Search by Tags",
@@ -83,7 +85,8 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/83087385/234587034-baaf983f-1a91-4d2c-b28c-e9f4c9bb9509.png",
       imageAlt:
-        "LinkFree screenshot of search page using tags for searching profiles.",
+        PROJECT_NAME +
+        " screenshot of search page using tags for searching profiles.",
     },
     {
       name: "Your QR code",
@@ -91,7 +94,7 @@ export default function Home({
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
         "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
-      imageAlt: "LinkFree screenshot of a QR code example",
+      imageAlt: PROJECT_NAME + " screenshot of a QR code example",
     },
     {
       name: "Your Links",
@@ -99,15 +102,15 @@ export default function Home({
         "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
-      imageAlt: "LinkFree screenshot of links section of an example profile",
+      imageAlt:
+        PROJECT_NAME + " screenshot of links section of an example profile",
     },
     {
-      name: "LinkFree Statistics",
-      description:
-        "View details of your LinkFree profile, with views and url clicks.",
+      name: PROJECT_NAME + " Statistics",
+      description: `View details of your ${PROJECT_NAME} profile, with views and url clicks.`,
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
-      imageAlt: "LinkFree screenshot of account statistics page",
+      imageAlt: PROJECT_NAME + " screenshot of account statistics page",
     },
     {
       name: "Your Milestones",
@@ -116,7 +119,8 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
-        "LinkFree screenshot of milestones section of an example profile",
+        PROJECT_NAME +
+        " screenshot of milestones section of an example profile",
     },
     {
       name: "Your Testimonials",
@@ -124,7 +128,8 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
       imageAlt:
-        "LinkFree screenshot of testimonials section of an example profile",
+        PROJECT_NAME +
+        " screenshot of testimonials section of an example profile",
     },
     {
       name: "Your Events",
@@ -132,7 +137,8 @@ export default function Home({
         "Hosting or attending events, let people know what you are up to.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
-      imageAlt: "LinkFree screenshot of events section of an example profile",
+      imageAlt:
+        PROJECT_NAME + " screenshot of events section of an example profile",
     },
     {
       name: "Community Events",
@@ -141,22 +147,23 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
-        "LinkFree screenshot of community events section in the Community Section tab",
+        PROJECT_NAME +
+        " screenshot of community events section in the Community Section tab",
     },
     {
-      name: "LinkFree Map",
-      description: "Discover people around the world from the LinkFree Map.",
+      name: PROJECT_NAME + " Map",
+      description: "Discover people around the world from the BioDrop Map.",
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
-      imageAlt: "LinkFree screenshot of Map Page",
+      imageAlt: PROJECT_NAME + " screenshot of Map Page",
     },
     {
       name: "Your GitHub Repositories (repos)",
       description:
         "Add your GitHub repos to your Profile and they appear on the community repo page.",
       imageSrc:
-        "https://github.com/EddieHubCommunity/LinkFree/assets/624760/5518fb49-c7ff-4288-9809-52ec36a59ee9",
-      imageAlt: "LinkFree screenshot of Repo Page",
+        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/5518fb49-c7ff-4288-9809-52ec36a59ee9",
+      imageAlt: "BioDrop screenshot of Repo Page",
     },
   ];
 
@@ -166,21 +173,23 @@ export default function Home({
       name: "Francesco Ciulla",
       bio: "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
       username: "FrancescoXX",
-      text: "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community",
+      text: `I had another similar (paid) service. I tried ${PROJECT_NAME} for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community`,
     },
     {
       image: "https://github.com/amandamartin-dev.png",
       name: "Amanda Martin",
       bio: "Developer Advocate | Always Curious | Always Silly",
       username: "amandamartin-dev",
-      text: "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.",
+      text: `Where ${PROJECT_NAME} really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.`,
     },
     {
       image: "https://github.com/Pradumnasaraf.png",
       name: "Pradumna Saraf",
       bio: "Open Source | DevOps | Golang Developer | EddieHub Ambassador",
       username: "Pradumnasaraf",
-      text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
+      text:
+        PROJECT_NAME +
+        " is very close to me because I have seen it evolve. With BioDrop, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
     },
   ];
 
@@ -195,7 +204,7 @@ export default function Home({
 
         <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
           <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
-            LinkFree
+            {PROJECT_NAME}
           </span>
           <span className="text-2xl dark:text-primary-low text-primary-medium">
             100% Open Source
@@ -271,7 +280,7 @@ export default function Home({
             </h2>
             <p className="mt-4 text-primary-low text-xl">
               It is not just links... Take a look at the Features you can add to
-              customize your LinkFree Profile.
+              customize your {PROJECT_NAME} Profile.
             </p>
           </div>
 
@@ -341,7 +350,7 @@ export default function Home({
       <GitHubAccelerator />
 
       <Link
-        href="https://github.com/EddieHubCommunity/LinkFree/discussions"
+        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
