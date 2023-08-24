@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - date-input
+      - rebrand
 
 jobs:
   deploy:

@@ -80,7 +80,9 @@ export default function User({ data, BASE_URL }) {
           >
             <FaRegComments />
           </IconContext.Provider>
-          <p className="text-sm font-medium">Add testimonial for {data.name}</p>
+          <p className="text-sm font-medium text-primary-medium">
+            Add testimonial for {data.name}
+          </p>
         </div>
       </Link>
     </>

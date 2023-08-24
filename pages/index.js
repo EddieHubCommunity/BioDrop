@@ -350,7 +350,7 @@ export default function Home({
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
       >
-        <div className="px-4 py-2 bg-tertiary-medium text-primary-low flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-medium">
+        <div className="px-4 py-2 bg-tertiary-medium text-primary-medium flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-medium">
           <IconContext.Provider
             value={{ color: "primary-low", style: { verticalAlign: "middle" } }}
           >

@@ -26,7 +26,7 @@ export default function Tabs({ tabs, setTabs }) {
                 onClick={(e) => setTabs(e, tab.name)}
                 className={classNames(
                   tab.current
-                    ? "border-tertiary-medium text-tertiary-medium"
+                    ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
                   `justify-center text-base group flex border-b-2 py-4 font-medium grow`
                 )}

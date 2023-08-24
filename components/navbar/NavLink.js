@@ -22,7 +22,7 @@ export default function NavLink({
         "bg-primary-high text-white block px-3 py-2 rounded-md text-base font-medium";
     } else {
       className =
-        "bg-tertiary-medium text-white px-3 py-2 rounded-md text-sm font-medium";
+        "bg-tertiary-medium text-primary-medium px-3 py-2 rounded-md text-sm font-medium";
     }
   }
 
