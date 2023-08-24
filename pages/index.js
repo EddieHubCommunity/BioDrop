@@ -197,19 +197,11 @@ export default function Home({
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
         {alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
 
-        <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
-          <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
-            {PROJECT_NAME}
-          </span>
-          <span className="text-2xl dark:text-primary-low text-primary-medium">
-            100% Open Source
-          </span>
-        </h2>
         <BasicCards
           data={[
             {
@@ -234,12 +226,12 @@ export default function Home({
         />
       </div>
 
-      <div className="bg-primary-low dark:bg-primary-high">
+      <div className="bg-primary-low dark:bg-dark">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-          <div className="overflow-hidden rounded-lg bg-secondary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
-            <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+          <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20">
               <div className="lg:self-center">
-                <h1 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
+                <h1 className="text-2xl font-bold tracking-tight text-primary-low sm:text-4xl">
                   <span className="block">Connect to your audience</span>
                   <span className="block">with a single link</span>
                 </h1>
@@ -247,6 +239,9 @@ export default function Home({
                   Showcase the content you create and your projects in one
                   place. Make it easier for people to find, follow and
                   subscribe.
+                </p>
+                <p className="mt-4 text-xl leading-6 text-primary-low">
+                  100% Open Source
                 </p>
               </div>
             </div>
@@ -272,7 +267,7 @@ export default function Home({
         button2Text="Example"
       />
 
-      <div className="bg-secondary-high">
+      <div className="bg-primary-high dark:bg-black">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
@@ -355,7 +350,7 @@ export default function Home({
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
       >
-        <div className="px-4 py-2 bg-secondary-medium text-primary-low flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-high-high">
+        <div className="px-4 py-2 bg-tertiary-medium text-primary-low flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-medium">
           <IconContext.Provider
             value={{ color: "primary-low", style: { verticalAlign: "middle" } }}
           >

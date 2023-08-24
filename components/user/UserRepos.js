@@ -26,7 +26,7 @@ export default function UserRepos({ manage = false, handleDelete, repos }) {
               ({dateFormat({ format: "long", date: repo.dates.pushedAt })})
             </span>
           </p>
-          <p className="mt-1 flex text-xs leading-5 text-primary-medium-low ">
+          <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low">
             {repo.description}
           </p>
         </div>

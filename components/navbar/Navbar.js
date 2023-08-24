@@ -12,7 +12,7 @@ import FaGithub from "@components/icons/FaGithub";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
-import Logo from "@public/logos/Logo";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -133,17 +133,13 @@ export default function Navbar() {
 
   return (
     <header className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
+      <nav className="relative top-0 bg-primary-high">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <Logo
-                    onClick={() => setIsOpen(false)}
-                    height={32}
-                    width={32}
-                  />
+                  <LogoWide onClick={() => setIsOpen(false)} width={128} />
                 </Link>
               </div>
               <div className="hidden md:block">
