@@ -60,25 +60,36 @@ test("Link navigates", async ({ page }) => {
 
   //   // 2. get a link and href
   const anchorTags = await page.$$("a");
-  let href="";
-  // Loop through each anchor tag
+  // Loop through each anchor tag array
+  let hrefToNavigate=""
   for (const anchor of anchorTags) {
-    href = await anchor.getAttribute("href");
+    const href = await anchor.getAttribute("href");
 
     // Check if the href includes the username
-    if (href.includes(endpoint)) {
-      break; // No need to continue checking
+    if (href == "https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd") {
+      hrefToNavigate =  href;
+      break; 
     }
   }
-  let profileLinkSelector = `a[href="${href}"]`
-  // 3. click the link
-  const profileLink = page.locator(profileLinkSelector);
-  await profileLink.click()
+    const profileLinkSelector = `a[href="${hrefToNavigate}"]`;
+    const profileLink = page.locator(profileLinkSelector);
+    // This is working
+    // profileLink Locator@a[href="https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd"]
+    
+    const browser = await chromium.launch();
+    const context = await browser.newContext();
 
-  // 4. get the current url and should match href
-  await page.waitForLoadState("networkidle");
-  const currentUrl = page.url();
-  expect(currentUrl.includes(endpoint)).toBe(true); 
+    const pagePromise = context.waitForEvent('page');
+    
+    // We are timing out here the following click
+    await profileLink.click();
+    const newPage = await pagePromise;
+
+    await newPage.waitForLoadState('networkidle');
+    const currentUrl = newPage.url();
+    // currentUrl http://localhost:3000/_test-profile-user-3
+    expect(currentUrl).toBe(hrefToNavigate);
+    await browser.close();
 });
 
 test("redirect to search when tag clicked", async ({ page }) => {
