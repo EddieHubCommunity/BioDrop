@@ -64,7 +64,7 @@ export default function Footer() {
         href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/LICENSE",
         external: true,
       },
-      { name: "Terms", href: "/terms", external: false },
+      { name: "Terms", href: "/docs/terms", external: false },
     ],
     social: [
       {
