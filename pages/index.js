@@ -162,7 +162,7 @@ export default function Home({
       description:
         "Add your GitHub repos to your Profile and they appear on the community repo page.",
       imageSrc:
-        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/5518fb49-c7ff-4288-9809-52ec36a59ee9",
+        "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
     },
   ];
