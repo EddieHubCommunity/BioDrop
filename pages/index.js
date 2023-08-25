@@ -247,12 +247,12 @@ export default function Home({
             </div>
             <div className="aspect-w-16 aspect-h-9">
               <div
-                className="kartra_video_containergbHEDtAnMwlF js_kartra_trackable_object"
+                className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
                 data-kt-type="video"
-                data-kt-value="gbHEDtAnMwlF"
+                data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/gbHEDtAnMwlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
             </div>
           </div>
         </div>
