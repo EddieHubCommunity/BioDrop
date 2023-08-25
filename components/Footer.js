@@ -68,7 +68,7 @@ export default function Footer() {
         href: BASE_GITHUB_PROJECT_URL + "/blob/main/LICENSE",
         external: true,
       },
-      { name: "Terms", href: "/terms", external: false },
+      { name: "Terms", href: "/docs/terms", external: false },
     ],
     social: [
       {
