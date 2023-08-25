@@ -6,12 +6,16 @@
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/sebastianjames55/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/SebJames55/"
     }
   ],
   "links": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/call_me_tien",
+      "url": "https://twitter.com/SebJames55",
       "icon": "FaTwitter"
     },
     {
@@ -23,6 +27,16 @@
       "name": "GitHub",
       "url": "https://github.com/SebastianJames55",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@sebastianjames55",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@SebastianJames",
+      "icon": "SiHashnode"
     }
   ]
 }

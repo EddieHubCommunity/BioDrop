@@ -2,6 +2,7 @@ import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
 import { remark } from "remark";
 import strip from "strip-markdown";
+import requestIp from "request-ip";
 
 import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -16,7 +17,10 @@ export async function getServerSideProps(context) {
   const { req, res } = context;
   const username = context.query.username;
 
-  const { status, profile } = await getUserApi(req, res, username);
+  const { status, profile } = await getUserApi(req, res, username, {
+    referer: req.headers.referer,
+    ip: requestIp.getClientIp(req),
+  });
   if (status !== 200) {
     logger.error(
       profile.error,

@@ -71,7 +71,12 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = config.layouts;
+  const layouts = config.layouts.map(l => {
+    return {
+      value: l,
+      label: l
+    }
+  });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
