@@ -1,3 +1,12 @@
+## [1.178.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.8...v1.178.9) (2023-08-25)
+
+
+### Bug Fixes
+
+* event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/LinkFree/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/LinkFree/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
+
+
+
 ## [1.178.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.7...v1.178.8) (2023-08-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
-
-
-
-## [1.178.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.3...v1.178.4) (2023-08-22)
-
-
-### Bug Fixes
-
-* missing items now have a space between ([#8676](https://github.com/EddieHubCommunity/LinkFree/issues/8676)) ([6c83c18](https://github.com/EddieHubCommunity/LinkFree/commit/6c83c1898be55055376157c00eea972a55f47430))
 
 
 
