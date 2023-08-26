@@ -158,7 +158,7 @@ Here are some testimonials from individuals who have used BioDrop:-
 > "BioDrop is very close to me because I have seen it evolve. With BioDrop, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app."
 
 - **Name :** Pradumna Saraf
-- **Bio :** Open Source | DevOps | Golang Developer | EddieHub Ambassador
+- **Bio :** Developer Advocate 🥑 | DevOps | Golang Developer | EddieHub Ambassador
 - **Username :** <strong><a href="https://biodrop.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
 <!-- Testimonials ENDs Here -->
