@@ -5,7 +5,7 @@ import Link from "./Link";
 
 export default function GitHubAccelerator() {
   return (
-    <div className="mb-12">
+    <div className="pb-12 dark:bg-dark">
       <div>
         <Image
           className="h-32 w-full md:object-cover object-contain lg:h-48"

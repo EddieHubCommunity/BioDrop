@@ -12,6 +12,7 @@ import {
   usernameSchema,
 } from "@config/schemas/jsonProfileSchemas";
 import * as z from "zod";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps() {
   return {
@@ -138,7 +139,7 @@ export default function Playground({ BASE_URL }) {
     <>
       <PageHead
         title="Playground"
-        description="Playground for verifying and preview linkfree profile json"
+        description={`Playground for verifying and preview ${PROJECT_NAME} profile json`}
       />
 
       <Page>

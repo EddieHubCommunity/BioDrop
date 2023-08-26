@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { PROJECT_NAME } from "@constants/index";
 import IconSearch from "@components/IconSearch";
 import Textarea from "@components/form/Textarea";
 
@@ -138,7 +139,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     <>
       <PageHead
         title="Manage Milestone"
-        description="Here you can manage your LinkFree milestone"
+        description={`Here you can manage your ${PROJECT_NAME} milestone`}
       />
 
       <Page>
@@ -226,7 +227,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <IconSearch handleSelectedIcon={setIcon} selectedIcon={icon} />
+                    <IconSearch
+                      handleSelectedIcon={setIcon}
+                      selectedIcon={icon}
+                    />
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">

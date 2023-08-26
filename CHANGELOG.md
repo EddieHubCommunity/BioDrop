@@ -1,45 +1,45 @@
-## [1.178.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.8...v1.178.9) (2023-08-25)
+## [1.179.5](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.4...v1.179.5) (2023-08-26)
 
 
 ### Bug Fixes
 
-* event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/LinkFree/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/LinkFree/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
+* update package-lock file ([#8789](https://github.com/EddieHubCommunity/BioDrop/issues/8789)) ([fcc6050](https://github.com/EddieHubCommunity/BioDrop/commit/fcc60504fb0ca33f00437ea9d8e8b6f3f3f662dc))
 
 
 
-## [1.178.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.7...v1.178.8) (2023-08-23)
-
-
-### Bug Fixes
-
-* docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/LinkFree/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/LinkFree/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
-
-
-
-## [1.178.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.6...v1.178.7) (2023-08-22)
+## [1.179.4](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.3...v1.179.4) (2023-08-26)
 
 
 ### Bug Fixes
 
-* community resources to config array ([#8577](https://github.com/EddieHubCommunity/LinkFree/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/LinkFree/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
+* terms date ([#8787](https://github.com/EddieHubCommunity/BioDrop/issues/8787)) ([a52b786](https://github.com/EddieHubCommunity/BioDrop/commit/a52b786bc7552bf5dea34818cbba8f564bec1837))
 
 
 
-## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
-
-
-### Bug Fixes
-
-* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/LinkFree/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/LinkFree/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
-
-
-
-## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
+## [1.179.3](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.2...v1.179.3) (2023-08-26)
 
 
 ### Bug Fixes
 
-* notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
+* user changelog for rename ([#8785](https://github.com/EddieHubCommunity/BioDrop/issues/8785)) ([0afd746](https://github.com/EddieHubCommunity/BioDrop/commit/0afd74600997b34a838c2a4fe24c6ceb616e5814))
+
+
+
+## [1.179.2](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.1...v1.179.2) (2023-08-26)
+
+
+### Bug Fixes
+
+* formatting rename info ([#8783](https://github.com/EddieHubCommunity/BioDrop/issues/8783)) ([5248e3d](https://github.com/EddieHubCommunity/BioDrop/commit/5248e3d504890f0b3b17c74239dfa65a4c407d9a))
+
+
+
+## [1.179.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.0...v1.179.1) (2023-08-26)
+
+
+### Bug Fixes
+
+* rename local git clone info ([#8781](https://github.com/EddieHubCommunity/BioDrop/issues/8781)) ([28fb59f](https://github.com/EddieHubCommunity/BioDrop/commit/28fb59fe59179f51bcb76b208d95cf8a2be7a3f0))
 
 
 
