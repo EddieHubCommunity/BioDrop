@@ -185,7 +185,7 @@ export default function Home({
     {
       image: "https://github.com/Pradumnasaraf.png",
       name: "Pradumna Saraf",
-      bio: "Open Source | DevOps | Golang Developer | EddieHub Ambassador",
+      bio: "Developer Advocate 🥑 | DevOps | Golang Developer | EddieHub Ambassador",
       username: "Pradumnasaraf",
       text:
         PROJECT_NAME +
