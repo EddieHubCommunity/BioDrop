@@ -1,3 +1,12 @@
+## [1.179.6](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.5...v1.179.6) (2023-08-26)
+
+
+### Bug Fixes
+
+* subdomain to domain ([#8797](https://github.com/EddieHubCommunity/BioDrop/issues/8797)) ([8a3af8c](https://github.com/EddieHubCommunity/BioDrop/commit/8a3af8c4c523b16d2fbc3504ade7919032d27ffa))
+
+
+
 ## [1.179.5](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.4...v1.179.5) (2023-08-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * formatting rename info ([#8783](https://github.com/EddieHubCommunity/BioDrop/issues/8783)) ([5248e3d](https://github.com/EddieHubCommunity/BioDrop/commit/5248e3d504890f0b3b17c74239dfa65a4c407d9a))
-
-
-
-## [1.179.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.0...v1.179.1) (2023-08-26)
-
-
-### Bug Fixes
-
-* rename local git clone info ([#8781](https://github.com/EddieHubCommunity/BioDrop/issues/8781)) ([28fb59f](https://github.com/EddieHubCommunity/BioDrop/commit/28fb59fe59179f51bcb76b208d95cf8a2be7a3f0))
 
 
 
