@@ -1,3 +1,12 @@
+## [1.179.3](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.2...v1.179.3) (2023-08-26)
+
+
+### Bug Fixes
+
+* user changelog for rename ([#8785](https://github.com/EddieHubCommunity/BioDrop/issues/8785)) ([0afd746](https://github.com/EddieHubCommunity/BioDrop/commit/0afd74600997b34a838c2a4fe24c6ceb616e5814))
+
+
+
 ## [1.179.2](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.1...v1.179.2) (2023-08-26)
 
 
@@ -37,15 +46,6 @@
 ### Bug Fixes
 
 * event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/BioDrop/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/BioDrop/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
-
-
-
-## [1.178.8](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.7...v1.178.8) (2023-08-23)
-
-
-### Bug Fixes
-
-* docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/BioDrop/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/BioDrop/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
 
 
 
