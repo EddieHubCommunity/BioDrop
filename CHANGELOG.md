@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.6...v2.0.1) (2023-08-26)
+
+
+### Bug Fixes
+
+* BioDrop app version ([#8801](https://github.com/EddieHubCommunity/BioDrop/issues/8801)) ([19f90d9](https://github.com/EddieHubCommunity/BioDrop/commit/19f90d909aa741b7e07dc61c9f000e77227bb924))
+
+
+
 ## [1.179.6](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.5...v1.179.6) (2023-08-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * user changelog for rename ([#8785](https://github.com/EddieHubCommunity/BioDrop/issues/8785)) ([0afd746](https://github.com/EddieHubCommunity/BioDrop/commit/0afd74600997b34a838c2a4fe24c6ceb616e5814))
-
-
-
-## [1.179.2](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.1...v1.179.2) (2023-08-26)
-
-
-### Bug Fixes
-
-* formatting rename info ([#8783](https://github.com/EddieHubCommunity/BioDrop/issues/8783)) ([5248e3d](https://github.com/EddieHubCommunity/BioDrop/commit/5248e3d504890f0b3b17c74239dfa65a4c407d9a))
 
 
 
