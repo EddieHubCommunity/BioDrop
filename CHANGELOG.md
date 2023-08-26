@@ -1,3 +1,12 @@
+## [1.179.5](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.4...v1.179.5) (2023-08-26)
+
+
+### Bug Fixes
+
+* update package-lock file ([#8789](https://github.com/EddieHubCommunity/BioDrop/issues/8789)) ([fcc6050](https://github.com/EddieHubCommunity/BioDrop/commit/fcc60504fb0ca33f00437ea9d8e8b6f3f3f662dc))
+
+
+
 ## [1.179.4](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.3...v1.179.4) (2023-08-26)
 
 
@@ -31,21 +40,6 @@
 ### Bug Fixes
 
 * rename local git clone info ([#8781](https://github.com/EddieHubCommunity/BioDrop/issues/8781)) ([28fb59f](https://github.com/EddieHubCommunity/BioDrop/commit/28fb59fe59179f51bcb76b208d95cf8a2be7a3f0))
-
-
-
-# [1.179.0](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.9...v1.179.0) (2023-08-26)
-
-
-### Bug Fixes
-
-* explaining rename ([#8778](https://github.com/EddieHubCommunity/BioDrop/issues/8778)) ([5672ece](https://github.com/EddieHubCommunity/BioDrop/commit/5672ece1b58819610f56388f79adacd3fc77df13))
-* rename description ([#8779](https://github.com/EddieHubCommunity/BioDrop/issues/8779)) ([dbc5683](https://github.com/EddieHubCommunity/BioDrop/commit/dbc56834a6ef6bb2524f509ffbb998a5889269ce))
-
-
-### Features
-
-* brand colors, logos, project name ([#8746](https://github.com/EddieHubCommunity/BioDrop/issues/8746)) ([#8757](https://github.com/EddieHubCommunity/BioDrop/issues/8757)) ([ff12943](https://github.com/EddieHubCommunity/BioDrop/commit/ff129434a2f964523d8ee7bec320d0ffdc387248))
 
 
 
