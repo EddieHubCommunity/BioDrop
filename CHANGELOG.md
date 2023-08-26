@@ -1,3 +1,12 @@
+## [1.179.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.0...v1.179.1) (2023-08-26)
+
+
+### Bug Fixes
+
+* rename local git clone info ([#8781](https://github.com/EddieHubCommunity/BioDrop/issues/8781)) ([28fb59f](https://github.com/EddieHubCommunity/BioDrop/commit/28fb59fe59179f51bcb76b208d95cf8a2be7a3f0))
+
+
+
 # [1.179.0](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.9...v1.179.0) (2023-08-26)
 
 
@@ -37,15 +46,6 @@
 ### Bug Fixes
 
 * community resources to config array ([#8577](https://github.com/EddieHubCommunity/BioDrop/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/BioDrop/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
-
-
-
-## [1.178.6](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.5...v1.178.6) (2023-08-22)
-
-
-### Bug Fixes
-
-* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/BioDrop/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/BioDrop/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
 
 
 
