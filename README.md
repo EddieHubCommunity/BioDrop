@@ -1,6 +1,6 @@
 [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free-BioDrop-io%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop)
 
-**Project renamed from `LinkFree` to `BioDrop`**
+**Project renamed from `LinkFree` to `BioDrop` (please update your local git clones with the new remote name)**
 
 # What is BioDrop?
 
