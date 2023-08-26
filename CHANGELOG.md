@@ -1,3 +1,12 @@
+## [1.179.4](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.3...v1.179.4) (2023-08-26)
+
+
+### Bug Fixes
+
+* terms date ([#8787](https://github.com/EddieHubCommunity/BioDrop/issues/8787)) ([a52b786](https://github.com/EddieHubCommunity/BioDrop/commit/a52b786bc7552bf5dea34818cbba8f564bec1837))
+
+
+
 ## [1.179.3](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.2...v1.179.3) (2023-08-26)
 
 
@@ -37,15 +46,6 @@
 ### Features
 
 * brand colors, logos, project name ([#8746](https://github.com/EddieHubCommunity/BioDrop/issues/8746)) ([#8757](https://github.com/EddieHubCommunity/BioDrop/issues/8757)) ([ff12943](https://github.com/EddieHubCommunity/BioDrop/commit/ff129434a2f964523d8ee7bec320d0ffdc387248))
-
-
-
-## [1.178.9](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.8...v1.178.9) (2023-08-25)
-
-
-### Bug Fixes
-
-* event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/BioDrop/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/BioDrop/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
 
 
 
