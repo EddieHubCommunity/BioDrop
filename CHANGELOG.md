@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.1...v2.0.2) (2023-08-26)
+
+
+### Bug Fixes
+
+* uptime badge - README ([#8803](https://github.com/EddieHubCommunity/BioDrop/issues/8803)) ([c1fda8d](https://github.com/EddieHubCommunity/BioDrop/commit/c1fda8d3b2a93acb3f8f18de14f0f96bc92d8e47))
+
+
+
 ## [2.0.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.6...v2.0.1) (2023-08-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * terms date ([#8787](https://github.com/EddieHubCommunity/BioDrop/issues/8787)) ([a52b786](https://github.com/EddieHubCommunity/BioDrop/commit/a52b786bc7552bf5dea34818cbba8f564bec1837))
-
-
-
-## [1.179.3](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.2...v1.179.3) (2023-08-26)
-
-
-### Bug Fixes
-
-* user changelog for rename ([#8785](https://github.com/EddieHubCommunity/BioDrop/issues/8785)) ([0afd746](https://github.com/EddieHubCommunity/BioDrop/commit/0afd74600997b34a838c2a4fe24c6ceb616e5814))
 
 
 
