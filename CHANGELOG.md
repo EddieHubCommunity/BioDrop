@@ -1,3 +1,12 @@
+## [1.179.2](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.1...v1.179.2) (2023-08-26)
+
+
+### Bug Fixes
+
+* formatting rename info ([#8783](https://github.com/EddieHubCommunity/BioDrop/issues/8783)) ([5248e3d](https://github.com/EddieHubCommunity/BioDrop/commit/5248e3d504890f0b3b17c74239dfa65a4c407d9a))
+
+
+
 ## [1.179.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.0...v1.179.1) (2023-08-26)
 
 
@@ -37,15 +46,6 @@
 ### Bug Fixes
 
 * docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/BioDrop/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/BioDrop/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
-
-
-
-## [1.178.7](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.6...v1.178.7) (2023-08-22)
-
-
-### Bug Fixes
-
-* community resources to config array ([#8577](https://github.com/EddieHubCommunity/BioDrop/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/BioDrop/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
 
 
 
