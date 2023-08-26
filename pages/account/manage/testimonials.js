@@ -15,6 +15,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Button from "@components/Button";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 import { classNames } from "@services/utils/classNames";
 
 export async function getServerSideProps(context) {
@@ -89,7 +90,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
     <>
       <PageHead
         title="Manage Testimonials"
-        description="Here you can manage your LinkFree testimonials"
+        description={`Here you can manage your ${PROJECT_NAME} testimonials`}
       />
 
       <Page>

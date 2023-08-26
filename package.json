@@ -1,8 +1,8 @@
 {
-  "name": "linkfree",
+  "name": "biodrop",
   "version": "1.178.9",
   "private": false,
-  "homepage": "https://linkfree.io",
+  "homepage": "https://biodrop.io",
   "engines": {
     "node": "18.x"
   },
@@ -96,10 +96,10 @@
     "storybook": "^7.2.1",
     "storybook-dark-mode": "^3.0.1"
   },
-  "description": "LinkFree connects audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
+  "description": "BioDrop connects audiences to all of your content with just one link. It is implemented in JavaScript - It was initially created on a YouTube [live stream](https://www.youtube.com/watch?v=Jorl_vcp-Ew).",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddieHubCommunity/LinkFree.git"
+    "url": "git+https://github.com/EddieHubCommunity/BioDrop.git"
   },
   "keywords": [
     "javascript",
@@ -112,6 +112,6 @@
   "author": "EddieHubCommunity",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EddieHubCommunity/LinkFree/issues"
+    "url": "https://github.com/EddieHubCommunity/BioDrop/issues"
   }
 }
