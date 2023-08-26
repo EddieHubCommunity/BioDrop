@@ -1,5 +1,5 @@
 // @ts-check
-import { test, expect, chromium } from "@playwright/test";
+import { test, expect} from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
@@ -52,44 +52,22 @@ test("Profile not found redirects to search page with error message", async ({
   );
 });
 
-test("Link navigates", async ({ page }) => { 
-  const username = "_test-profile-user-3";
-  const endpoint = `/${username}`
+test("Link navigates", async ({ page }) => {
+  const popupPromise = page.waitForEvent("popup");
+  const username = "_test-profile-user-6";
+  const endpoint = `/${username}`;
+
   // 1. navigate to profile
   await page.goto(endpoint);
 
-  //   // 2. get a link and href
-  const anchorTags = await page.$$("a");
-  // Loop through each anchor tag array
-  let hrefToNavigate=""
-  for (const anchor of anchorTags) {
-    const href = await anchor.getAttribute("href");
+  // 2. click one of the links
+  await page.getByRole("link", { name: "Twitter: Follow me" }).click();
 
-    // Check if the href includes the username
-    if (href == "https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd") {
-      hrefToNavigate =  href;
-      break; 
-    }
-  }
-    const profileLinkSelector = `a[href="${hrefToNavigate}"]`;
-    const profileLink = page.locator(profileLinkSelector);
-    // This is working
-    // profileLink Locator@a[href="https://www.youtube.com/watch?v=05HEeCQSKRE&list=PL4lTrYcDuAfyU0fJcCGLm5r-hM_rqXaxd"]
-    
-    const browser = await chromium.launch();
-    const context = await browser.newContext();
-
-    const pagePromise = context.waitForEvent('page');
-    
-    // We are timing out here the following click
-    await profileLink.click();
-    const newPage = await pagePromise;
-
-    await newPage.waitForLoadState('networkidle');
-    const currentUrl = newPage.url();
-    // currentUrl http://localhost:3000/_test-profile-user-3
-    expect(currentUrl).toBe(hrefToNavigate);
-    await browser.close();
+  // 3. check that the link navigated
+  const popup = await popupPromise;
+  await popup.waitForLoadState();
+  console.log(await popup.title());
+  await expect(popup).toHaveURL("https://twitter.com/eddiejaoude");
 });
 
 test("redirect to search when tag clicked", async ({ page }) => {
