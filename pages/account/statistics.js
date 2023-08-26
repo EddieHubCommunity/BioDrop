@@ -97,7 +97,7 @@ export async function getServerSideProps(context) {
   }
 
   const last30DaysStats = last30Days.map(date => ({
-    views: dailyStatsMap.get(date).views || 0
+    views: dailyStatsMap.get(date).views || 0,
     date: date,
   }));
 
