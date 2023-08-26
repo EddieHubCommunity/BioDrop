@@ -59,7 +59,7 @@ export default function User({ data, BASE_URL }) {
         description={data.cleanBio}
         ogTitle={data.name}
         ogDescription={data.cleanBio}
-        ogUrl={`https://biodrop.eddiehub.io/${data.username}`}
+        ogUrl={`https://biodrop.io/${data.username}`}
         ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
