@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.2...v2.0.3) (2023-08-27)
+
+
+### Bug Fixes
+
+* newsletter to substack, removed gh accelerator ([#8811](https://github.com/EddieHubCommunity/BioDrop/issues/8811)) ([647b821](https://github.com/EddieHubCommunity/BioDrop/commit/647b82110b4f50ffb4bfd50af98a6c7cd2c09a56))
+
+
+
 ## [2.0.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.1...v2.0.2) (2023-08-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update package-lock file ([#8789](https://github.com/EddieHubCommunity/BioDrop/issues/8789)) ([fcc6050](https://github.com/EddieHubCommunity/BioDrop/commit/fcc60504fb0ca33f00437ea9d8e8b6f3f3f662dc))
-
-
-
-## [1.179.4](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.3...v1.179.4) (2023-08-26)
-
-
-### Bug Fixes
-
-* terms date ([#8787](https://github.com/EddieHubCommunity/BioDrop/issues/8787)) ([a52b786](https://github.com/EddieHubCommunity/BioDrop/commit/a52b786bc7552bf5dea34818cbba8f564bec1837))
 
 
 
