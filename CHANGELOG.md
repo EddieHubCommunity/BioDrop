@@ -1,51 +1,45 @@
-## [1.179.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.0...v1.179.1) (2023-08-26)
+## [2.0.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.1...v2.0.2) (2023-08-26)
 
 
 ### Bug Fixes
 
-* rename local git clone info ([#8781](https://github.com/EddieHubCommunity/BioDrop/issues/8781)) ([28fb59f](https://github.com/EddieHubCommunity/BioDrop/commit/28fb59fe59179f51bcb76b208d95cf8a2be7a3f0))
+* uptime badge - README ([#8803](https://github.com/EddieHubCommunity/BioDrop/issues/8803)) ([c1fda8d](https://github.com/EddieHubCommunity/BioDrop/commit/c1fda8d3b2a93acb3f8f18de14f0f96bc92d8e47))
 
 
 
-# [1.179.0](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.9...v1.179.0) (2023-08-26)
-
-
-### Bug Fixes
-
-* explaining rename ([#8778](https://github.com/EddieHubCommunity/BioDrop/issues/8778)) ([5672ece](https://github.com/EddieHubCommunity/BioDrop/commit/5672ece1b58819610f56388f79adacd3fc77df13))
-* rename description ([#8779](https://github.com/EddieHubCommunity/BioDrop/issues/8779)) ([dbc5683](https://github.com/EddieHubCommunity/BioDrop/commit/dbc56834a6ef6bb2524f509ffbb998a5889269ce))
-
-
-### Features
-
-* brand colors, logos, project name ([#8746](https://github.com/EddieHubCommunity/BioDrop/issues/8746)) ([#8757](https://github.com/EddieHubCommunity/BioDrop/issues/8757)) ([ff12943](https://github.com/EddieHubCommunity/BioDrop/commit/ff129434a2f964523d8ee7bec320d0ffdc387248))
-
-
-
-## [1.178.9](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.8...v1.178.9) (2023-08-25)
+## [2.0.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.6...v2.0.1) (2023-08-26)
 
 
 ### Bug Fixes
 
-* event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/BioDrop/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/BioDrop/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
+* BioDrop app version ([#8801](https://github.com/EddieHubCommunity/BioDrop/issues/8801)) ([19f90d9](https://github.com/EddieHubCommunity/BioDrop/commit/19f90d909aa741b7e07dc61c9f000e77227bb924))
 
 
 
-## [1.178.8](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.7...v1.178.8) (2023-08-23)
-
-
-### Bug Fixes
-
-* docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/BioDrop/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/BioDrop/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
-
-
-
-## [1.178.7](https://github.com/EddieHubCommunity/BioDrop/compare/v1.178.6...v1.178.7) (2023-08-22)
+## [1.179.6](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.5...v1.179.6) (2023-08-26)
 
 
 ### Bug Fixes
 
-* community resources to config array ([#8577](https://github.com/EddieHubCommunity/BioDrop/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/BioDrop/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
+* subdomain to domain ([#8797](https://github.com/EddieHubCommunity/BioDrop/issues/8797)) ([8a3af8c](https://github.com/EddieHubCommunity/BioDrop/commit/8a3af8c4c523b16d2fbc3504ade7919032d27ffa))
+
+
+
+## [1.179.5](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.4...v1.179.5) (2023-08-26)
+
+
+### Bug Fixes
+
+* update package-lock file ([#8789](https://github.com/EddieHubCommunity/BioDrop/issues/8789)) ([fcc6050](https://github.com/EddieHubCommunity/BioDrop/commit/fcc60504fb0ca33f00437ea9d8e8b6f3f3f662dc))
+
+
+
+## [1.179.4](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.3...v1.179.4) (2023-08-26)
+
+
+### Bug Fixes
+
+* terms date ([#8787](https://github.com/EddieHubCommunity/BioDrop/issues/8787)) ([a52b786](https://github.com/EddieHubCommunity/BioDrop/commit/a52b786bc7552bf5dea34818cbba8f564bec1837))
 
 
 

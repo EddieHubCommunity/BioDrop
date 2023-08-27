@@ -12,6 +12,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Project rename",
+      description:
+        "Renamed from LinkFree to BioDrop - all existing links will redirect",
+      type: "addition",
+      date: "2023-08-26",
+    },
+    {
       title: "Links animation",
       description:
         "Have your links stand out even further with a subtle animation",
