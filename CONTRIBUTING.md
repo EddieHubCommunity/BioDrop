@@ -56,7 +56,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn, network
 
 ---
 
-Please refer to the `Contributing` section of the website's documentation for more details https://biodrop.eddiehub.io/docs
+Please refer to the `Contributing` section of the website's documentation for more details https://biodrop.io/docs
 
 ---
 

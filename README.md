@@ -1,4 +1,7 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free-BioDrop-io%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop)
+[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) 
+![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases) 
+![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop) 
 
 **Project renamed from `LinkFree` to `BioDrop`**(please update your local git clones with the new remote name)
 
@@ -158,7 +161,7 @@ Here are some testimonials from individuals who have used BioDrop:-
 > "BioDrop is very close to me because I have seen it evolve. With BioDrop, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app."
 
 - **Name :** Pradumna Saraf
-- **Bio :** Open Source | DevOps | Golang Developer | EddieHub Ambassador
+- **Bio :** Developer Advocate 🥑 | DevOps | Golang Developer | EddieHub Ambassador
 - **Username :** <strong><a href="https://biodrop.io/Pradumnasaraf">Pradumna Saraf</a></strong>
 
 <!-- Testimonials ENDs Here -->
