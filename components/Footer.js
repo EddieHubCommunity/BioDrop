@@ -2,16 +2,10 @@ import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
 
-import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
-import Button from "./Button";
 import Link from "@components/Link";
 import app from "@config/app.json";
-import {
-  BASE_GITHUB_PROJECT_URL,
-  BASE_GITHUB_URL,
-  PROJECT_NAME,
-} from "@constants/index";
+import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
 import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
@@ -20,7 +14,6 @@ export default function Footer() {
       { name: "Search", href: "/search", external: false },
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
-      { name: "Premium", href: "/premium", external: false },
       { name: "Login", href: "/auth/signin", external: false },
     ],
     support: [
@@ -178,23 +171,6 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
-          <div className="flex-1 text-center lg:text-left pb-4 lg:pb-0">
-            <h3 className="font-semibold leading-6 text-white">
-              Subscribe to learn more about future Premium Paid Features
-            </h3>
-            <p className="mt-2 text-sm leading-6 text-primary-low-high">
-              {PROJECT_NAME} will always be 100% Open Source and have a free
-              tier.
-            </p>
-          </div>
-          <Button primary={true} href="/premium">
-            <span className="mr-2">
-              <CurrencyDollarIcon className="h-6 w-6" />
-            </span>
-            <span>Learn more about Premium</span>
-          </Button>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
           <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
