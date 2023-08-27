@@ -44,7 +44,6 @@ export async function getStats(username) {
     profileData = rankedProfiles.find(
       (profile) => profile.username === username
     );
-    console.log(profileData);
   } catch (e) {
     logger.error(e, "failed to load profile");
   }
