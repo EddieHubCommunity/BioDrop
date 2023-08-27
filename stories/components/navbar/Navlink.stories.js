@@ -6,9 +6,9 @@ export default {
 
 export const Basic = {
   args: {
-    path: "https://biodrop.eddiehub.io/docs",
+    path: "https://biodrop.io/docs",
     item: {
-      url: "https://biodrop.eddiehub.io/docs",
+      url: "https://biodrop.io/docs",
       name: "Docs",
     },
     mode: "",
