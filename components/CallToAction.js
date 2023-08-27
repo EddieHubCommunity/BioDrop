@@ -5,6 +5,7 @@ export default function CallToAction({
   description,
   button1Text,
   button1Link,
+  button1OnClick,
   button2Text,
   button2Link,
 }) {
@@ -20,7 +21,11 @@ export default function CallToAction({
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           {button1Link && (
             <div className="inline-flex rounded-md shadow">
-              <Button href={button1Link} primary={true}>
+              <Button
+                href={button1Link}
+                primary={true}
+                onClick={button1OnClick}
+              >
                 {button1Text}
               </Button>
             </div>
