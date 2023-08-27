@@ -19,7 +19,7 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const data = await getStats(session.username)
+  const data = await getStats(session.username);
 
   res.status(200).json(data);
 }
@@ -29,7 +29,22 @@ export async function getStats(username) {
 
   let profileData = {};
   try {
-    profileData = await Profile.findOne({ username });
+    const rankedProfiles = await Profile.aggregate([
+      {
+        $setWindowFields: {
+          sortBy: { views: -1 },
+          output: {
+            rank: {
+              $rank: {},
+            },
+          },
+        },
+      },
+    ]);
+    profileData = rankedProfiles.find(
+      (profile) => profile.username === username
+    );
+    console.log(profileData);
   } catch (e) {
     logger.error(e, "failed to load profile");
   }
@@ -87,6 +102,7 @@ export async function getStats(username) {
       total: profileData.views,
       monthly: totalViews,
       daily: dailyStats,
+      rank: profileData.rank,
     },
     links: {
       clicks: totalClicks,
