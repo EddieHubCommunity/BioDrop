@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { onlyText } from "react-children-utilities";
+import ClipboardDocumentIcon from "@heroicons/react/24/outline/ClipboardDocumentIcon";
+import ClipboardDocumentCheckIcon from "@heroicons/react/24/outline/ClipboardDocumentCheckIcon";
 
 const ClipboardCopy = ({ children }) => {
   const [isCopied, setIsCopied] = useState(false);
@@ -20,26 +22,32 @@ const ClipboardCopy = ({ children }) => {
         setIsCopied(false);
       }, 1500);
     } catch (error) {
-      console.log(err);
+      console.error(error);
     }
   };
 
   return (
-    <div className="relative">
-      <div className="absolute flex items-center space-x-2 top-0 right-0 m-2">
-        <button
-          type="button"
-          aria-label="Copy to Clipboard"
-          onClick={handleCopyClick}
-          className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex"
-        >
+    <div className="relative w-full">
+      <button
+        className="bg-primary-medium-low absolute flex items-center space-x-2 top-0 right-0 p-2 m-2 z-10 rounded-md transition hover:bg-primary-high ease-in-out duration-300"
+        type="button"
+        aria-label="Copy to Clipboard"
+        onClick={handleCopyClick}
+      >
+        <div className="transition rounded-md flex items-center justify-center text-center px-2 focus:outline-none fade-in group-hover:flex">
           {isCopied ? (
-            <span className="text-green-500 text-sm">Copied!</span>
+            <div className="inline-flex items-center text-green-500">
+              <ClipboardDocumentCheckIcon className="h-4 w-4 mr-2 text-green-500" />
+              <span className="text-green-500 text-sm">Copied!</span>
+            </div>
           ) : (
-            <span className="text-gray-500 text-sm">Copy</span>
+            <div className="inline-flex items-center transition-all ease-out">
+              <ClipboardDocumentIcon className="h-4 w-4 mr-2 text-primary-low" />
+              <span className="text-primary-low text-sm">Copy</span>
+            </div>
           )}
-        </button>
-      </div>
+        </div>
+      </button>
       {children}
     </div>
   );

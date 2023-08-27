@@ -1,6 +1,5 @@
 {
   "name": "Gaurav Rattan",
-  "type": "personal",
   "bio": "Aspiring Cloud & Devops Engineer",
   "links": [
     {
@@ -23,6 +22,5 @@
       "url": "https://www.instagram.com/gaurav._.rattan/",
       "icon": "FaInstagram"
     }
-    
   ]
 }

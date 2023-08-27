@@ -1,0 +1,60 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## MongoDB Atlas for Local Development
+
+To work on BioDrop locally, you'll need to set up a database for storing your data. MongoDB Atlas is a fully managed cloud database service that offers a free tier suitable for local development.
+
+Follow the step-by-step instructions below to create your MongoDB Atlas account and set up the connection for BioDrop local development.
+
+### Create Your MongoDB Atlas Account
+
+1. Go to the [MongoDB Atlas website](https://www.mongodb.com/cloud/atlas) and click on the `Try Free` button.
+2. Fill in your first/last name, email address, and password, and click `Create your Atlas account`.
+3. Check your inbox and click the verification link inside to complete your registration.
+
+### Deploy a New Database
+
+1. Once you've completed the registration, you will be redirected to a page to deploy your database.
+2. Choose M0 for the cluster tier. For local development, the M0 free tier is sufficient.
+3. Choose the provider and region based on your preference. Ideally, choose the region closest to your location.
+
+![image](https://user-images.githubusercontent.com/7236196/236708986-eb643efc-78cb-46b2-9aa9-28a83b8133ef.png)
+
+4. Click the `Create` button to deploy the database. Wait for your cluster to deploy. This may take a few minutes.
+
+### Set Up the Database User and IP Access List
+
+1. Once you've created the database, you will be redirected to the security quickstart pages.
+2. Fill in the username and password, and then click the `Create User` button to create your first database user.
+   Note: Save your password securely, as MongoDB Atlas doesn't store it.
+3. Click the `Add My Current IP Address` button to add an entry to your IP access list. Only an IP address you add to the IP access list will be able to connect to your database.
+4. Click the `Finish and Close` button.
+
+### Set Up the Database Connection
+
+1. Once your cluster is ready, click the `Connect` button on your Database Deployments console.
+
+![image](https://user-images.githubusercontent.com/7236196/236709649-4fe1dd9e-fbd1-4df3-b0ff-a845069496b3.png)
+
+2. Click `Drivers` under the Connect to your application section.
+
+![image](https://user-images.githubusercontent.com/7236196/236709974-5e8a1c36-2edb-4a56-bc0d-7ab3c9bd4019.png)
+
+3. Find the connection string and use this connection string for the variable `BioDrop_MONGO_CONNECTION_STRING` in your local `.env` file.
+
+![image](https://user-images.githubusercontent.com/7236196/236710064-058d05ce-e451-43c7-93ba-c9689f894b7e.png)
+
+Remember to replace password in the connection string with the password you set up for your database user.
+
+That's it! You have successfully set up a MongoDB Atlas database and it's now ready for use in your BioDrop local development environment.
+
+export default ({ children }) => (
+  <DocsLayout
+    title="MongoDB Atlas for Local Development"
+    section="Getting started"
+    name="MongoDB Atlas for Local Development"
+  >
+    {children}
+  </DocsLayout>
+);

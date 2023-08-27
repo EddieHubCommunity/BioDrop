@@ -1,0 +1,47 @@
+{
+  "name": "Sumit Kumar Das",
+  "bio": "DevOps Engineer at [**Sify**](https://www.sifytechnologies.com/) | **Open Source** Enthusiast",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "GCP"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitNITS"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sumit-kumar-das-87a599158/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Jack00589"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub - Let's build together",
+      "url": "https://github.com/sumitNITS",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's grow together",
+      "url": "https://www.linkedin.com/in/sumit-kumar-das-87a599158/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Let's connect now",
+      "url": "https://twitter.com/Jack00589",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "DevFest 2022 Kolkata",
+  "description": "DevFest is an annual decentralized tech conference hosted by the Google Developer Groups (GDG) community. DevFest 2022 marks the 11th year of DevFest and represents the beginning of the second decade of the GDG community.",
+  "date": {
+    "start": "2022-11-13T08:00:00.000+05:30",
+    "end": "2022-11-13T18:00:00.000+05:30"
+  },
+  "url": "https://devfest.gdgkolkata.in/",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

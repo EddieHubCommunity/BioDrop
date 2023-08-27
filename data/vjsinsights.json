@@ -1,0 +1,26 @@
+{
+  "name": "Vineet Joglekar",
+  "bio": "Engineering Manager | Career Coach",
+  "links": [
+    {
+      "name": "Book 1:1 Calls",
+      "url": "https://topmate.io/vjsinsights",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "name": "Personal Website",
+      "url": "https://vjsinsights.com",
+      "icon": "FaWordpressSimple"
+    },
+    {
+      "name": "Twitter - Daily Tips on Career & Personal Development",
+      "url": "https://twitter.com/vjsinsights",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube - Videos on Career & Personal Development",
+      "url": "https://youtube.com/@vjsinsights",
+      "icon": "FaYoutube"
+    }
+  ]
+}

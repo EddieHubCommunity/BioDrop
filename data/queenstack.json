@@ -1,0 +1,21 @@
+{
+  "name": "Agada Queen",
+  "bio": "Data scientist **Business Analyst**. Technical writer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/maquinbeaury",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://twitter.com/maquinbeaury",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://twitter.com/maquinbeaury",
+      "icon": "FaGithub"
+    }
+  ]
+}

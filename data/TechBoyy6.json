@@ -1,0 +1,81 @@
+{
+  "name": "Moiz Rajkotwala",
+  "bio": "Full Stack Developer | Open Source Enthusiast| Engineer",
+  "tags": ["Open Source", "Python", "Flutter", "ReactJS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MoiZ__2001"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/TechBoyy6"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/moiz-rajkotwala/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/MoiZ__2001",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/TechBoyy6",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/moiz-rajkotwala/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Hire Me!",
+      "name": "Hire as **Paid** Freelancer",
+      "url": "mailto:moizrajkotwala6904@gmail.com",
+      "icon": "SiGmail"
+    },
+    {
+      "group": "Hire Me!",
+      "name": "Hire as **Free** Intern",
+      "url": "https://wa.link/epln4x",
+      "icon": "FaWhatsapp"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "May 2019",
+      "icon": "FaBookReader",
+      "color": "grey",
+      "description": "Made my hand dirty with python"
+    },
+    {
+      "title": "Started Occasional Freelancing",
+      "date": "April 2020",
+      "icon": "SiUpwork",
+      "color": "green",
+      "description": "Made profiles on freelancing plaforms and did project around python scripts."
+    },
+    {
+      "title": "Got Internship",
+      "date": "Nov 2021",
+      "icon": "FaCode",
+      "color": "blue",
+      "description": "Join StartUp as **Product Developer Intern**"
+    }
+  ]
+}

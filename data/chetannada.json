@@ -1,0 +1,179 @@
+{
+  "name": "Chetan Nada",
+  "bio": "**React.js** | Next.js | 15k+ [@Linkedin](https://www.linkedin.com/in/chetannada/) | JavaScript | Frontend Developer",
+  "tags": [
+    "Open Source",
+    "ReactJs",
+    "NextJS",
+    "Javascript",
+    "ReactJs",
+    "Github"
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chetannada"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chetannada"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chetannada"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discordapp.com/users/916005177838956555"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/chetannada",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/chetannada",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/chetannada",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Topmate: 1:1 Mentorship",
+      "url": "https://topmate.io/chetannada",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started YouTube",
+      "date": "December 2015",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content, Currently 90K+ Subscribers",
+      "url": "https://www.youtube.com/@ClickHow/about"
+    },
+    {
+      "title": "5 Star at HackerRank",
+      "date": "January 2022",
+      "icon": "FaHackerrank",
+      "color": "black",
+      "description": "Earned 5 Star in Problem-solving at HackerRank",
+      "url": "https://www.hackerrank.com/chetannada"
+    },
+    {
+      "title": "Dev Ranking at CodeGrepper",
+      "date": "April 2022",
+      "icon": "FaCode",
+      "color": "black",
+      "description": "I earned Dev Ranking (Purple Belt) at CodeGrepper",
+      "url": "https://www.grepper.com/profile/chetan-nada"
+    },
+    {
+      "title": "Started Freelancing",
+      "date": "October 2022",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://chetannada.netlify.app/"
+    },
+    {
+      "title": "100+ Stars & 100+ Forks on Github Repository",
+      "date": "February 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "100+ stars 🌟 & 100+ Forks on **GitHub** Repository **Namaste-React**",
+      "url": "https://github.com/chetannada/Namaste-React"
+    },
+    {
+      "title": "Repository was Trending on GitHub",
+      "date": "February 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Created a **GitHub** Repository **Namaste-React**",
+      "url": "https://drive.google.com/file/d/1JsBAa-DXeGIvJ_xIaYjjZ5uc3z4XV8Tz/view"
+    },
+    {
+      "title": "Problem Solver at Leetcode",
+      "date": "February 2023",
+      "icon": "SiLeetcode",
+      "color": "black",
+      "description": "Solved 100+ DSA Problems at LeetCode",
+      "url": "https://leetcode.com/chetannada/"
+    },
+    {
+      "title": "Crossed 5k+ followers on LinkedIn",
+      "date": "March 2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Javascript and React.js helped me to cross the 5k+ followers milestone",
+      "url": "https://www.linkedin.com/in/chetannada"
+    },
+    {
+      "title": "100+ Followers on GitHub",
+      "date": "April 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Creating a 10+ Repository on Github helped me to cross the 100+ followers milestone",
+      "url": "https://github.com/chetannada"
+    },
+    {
+      "title": "500+ Stars & 300+ Forks on Github Repository",
+      "date": "May 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "500+ stars 🌟 & 300+ Forks on **GitHub** Repository **Namaste-React**",
+      "url": "https://github.com/chetannada/Namaste-React"
+    },
+    {
+      "title": "Crossed 10k+ followers on LinkedIn",
+      "date": "June 2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on React.js, Next.js helped me to cross the 10k+ follower's milestone",
+      "url": "https://www.linkedin.com/in/chetannada"
+    },
+    {
+      "title": "1k+ Stars, 500+ forks and 10+ Contributors on Github Repository",
+      "date": "July 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "1k+ stars 🌟, 500+ Forks and 10+ Contributors on **GitHub** Repository **Namaste-React**",
+      "url": "https://github.com/chetannada/Namaste-React"
+    },
+    {
+      "title": "Solved 200+ DSA Problems at Leetcode",
+      "date": "July 2023",
+      "icon": "SiLeetcode",
+      "color": "black",
+      "description": "Solved 200+ DSA Problems at LeetCode",
+      "url": "https://leetcode.com/chetannada/"
+    },
+    {
+      "title": "300+ Followers on GitHub",
+      "date": "July 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Creating a 10+ Repository on Github helped me to cross the 300+ followers milestone",
+      "url": "https://github.com/chetannada"
+    },
+    {
+      "title": "Crossed 15k+ followers on LinkedIn",
+      "date": "August 2023",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on React.js, Next.js helped me to cross the 15k+ follower's milestone",
+      "url": "https://www.linkedin.com/in/chetannada"
+    }
+  ]
+}

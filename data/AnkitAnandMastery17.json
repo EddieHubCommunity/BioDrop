@@ -1,0 +1,21 @@
+{
+  "name": "Ankit Anand",
+  "bio": "Open Source entusiast, Learning Front-End development and Machine Learning",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/An46959780Anand",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ankit-anand-mastery/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "I write about Front-End  and summarizes my daily learning",
+      "url": "https://hashnode.com/@Ankit1705",
+      "icon": "SiHashnode"
+    }
+  ]
+}

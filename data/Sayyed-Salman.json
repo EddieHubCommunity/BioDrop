@@ -1,0 +1,26 @@
+{
+  "name": "Salman Sayyed",
+  "bio": "Programming wizard, loves to create.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SalmanSyyd",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Sayyed-Salman",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/salmansyyd_",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@syydsalman",
+      "icon": "SiMedium"
+    }
+  ]
+}

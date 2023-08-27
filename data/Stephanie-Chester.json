@@ -1,0 +1,21 @@
+{
+  "name": "Stephanie Chester",
+  "bio": "Senior Systems Administrator. Travel lover, gamer & technology nerd",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/techlvr81",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/stephanie-chester-01/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Stephanie-Chester",
+      "icon": "FaGithub"
+    }
+  ]
+}

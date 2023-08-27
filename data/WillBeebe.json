@@ -1,0 +1,58 @@
+{
+  "name": "William Beebe",
+  "bio": "Xoogler, startup co-founder, full-stack engineer with extensive infrastucture as code experience in GCP, Azure, and Scaleway.",
+  "tags": [
+    "Kubernetes",
+    "CloudComputing",
+    "GCP",
+    "Azure",
+    "Scaleway",
+    "PlatformAsAService"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/willbaebae"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/WillBeebe"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ld_photo_co/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/willbaebae",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/will-beebe/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Buy Me A Coffee",
+      "url": "https://www.buymeacoffee.com/willbeebeT",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ld_photo_co/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Raw Dog Saturdays - #0",
+      "date": "2023-02-25",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Tried to write a blog _experience_ about TypeScript",
+      "url": "https://gist.github.com/WillBeebe/3bbdf660688b344986798996acc01324"
+    }
+  ]
+}

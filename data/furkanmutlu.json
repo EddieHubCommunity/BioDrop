@@ -1,8 +1,6 @@
 {
   "name": "Furkan Mutlu",
-  "type": "personal",
   "bio": "I'm a Software Engineer who is interested in continuing skills development in JavaScript.",
-
   "tags": [
     "Open Source",
     "javascript",
@@ -13,8 +11,14 @@
     "d3.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/furkanmutluu" },
-    { "icon": "FaGithub", "url": "https://github.com/furkanmutlu" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/furkanmutluu"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/furkanmutlu"
+    },
     {
       "icon": "FaStackOverflow",
       "url": "https://stackoverflow.com/users/10797632/furkan-mutlu"

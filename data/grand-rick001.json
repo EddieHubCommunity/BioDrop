@@ -1,0 +1,97 @@
+{
+  "name": "Patrick Murimi",
+  "bio": "Postman Student Leader | GDSC Lead | Microsoft Learn Student Ambassador | Gold Fellow at The ROOM | Frontend Web Developer",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "React",
+    "Angular",
+    "JavaScript",
+    "TypeScript",
+    "Node",
+    "Express"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/patrick_murimi_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/grand-rick001"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/patrick-murimi/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: Let's converse",
+      "url": "https://twitter.com/patrick_murimi_",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/patrick-murimi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate on Open Source",
+      "url": "https://github.com/grand-rick001",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Others",
+      "name": "Wakatime: Powerful coding Insights",
+      "url": "https://wakatime.com/@grandrick001",
+      "icon": "SiWakatime"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Selected to be the Google Developer Student Clubs Lead at my campus",
+      "date": "July 2023",
+      "icon": "FaGoogle",
+      "color": "#ffffff",
+      "description": "Google Developer Student Club Leads are passionate leaders at their universities who are dedicated to helping their peers learn and connect. Leads are undergraduate or graduate university students pursuing various degrees, yet have foundational knowledge of software development concepts. Google collaborates with Leads and supports them as they start and grow their on-campus communities",
+      "url": "https://developers.google.com/community/gdsc/leads"
+    },
+    {
+      "title": "Appointed to be a Microsoft Learn Student Ambassaor",
+      "date": "July 2023",
+      "icon": "FaMicrosoft",
+      "color": "#0078d4",
+      "description": "The Microsoft Learn Student Ambassadors is a global group of on-campus ambassadors who are eager to learn new technologies, help other students, lead in their community, and develop technical and career skills for the future",
+      "url": "https://studentambassadors.microsoft.com/"
+    },
+    {
+      "title": "Became a Gold fellow at THE ROOM",
+      "date": "June 2023",
+      "icon": "FaRegSmileBeam",
+      "color": "#ba9731",
+      "description": "After completing an ALX tech program, I was selected to become a Gold fellow at the room, The Room fellowship is a community of ALX graduates that have successfully graduated from its programs, and the Gold fellowship consists of the top 5-10% of the graduates. I'm very happy for this opportunity and feel very privileged to be joining the top tech talent pool in Africa. Looking forward to what this experience unfolds! More info on their website: https://tech.theroom.com/gold-fellowship",
+      "url": "https://tech.theroom.com/gold-fellowship"
+    },
+    {
+      "title": "Became a Postman Student Leader",
+      "date": "March 2023",
+      "icon": "SiPostman",
+      "color": "#FF6C37",
+      "description": "Got accepted to be a Postman Student Leader, a student program offered by Postman, that aims to promote API literacy through workshops and events on campus",
+      "url": "https://api.badgr.io/public/assertions/Qu680p1JQ6WpIYv5Ko_JIA"
+    },
+    {
+      "title": "Got my first internship!",
+      "date": "May 2023",
+      "icon": "FaDev",
+      "color": "#d84773",
+      "description": "I got an internship as a frontend developer, a fully remote role for ExpatSwap, a fintech company based in Estonia, Europe. Tech stack: Angular.",
+      "url": "https://www.linkedin.com/posts/patrick-murimi_im-happy-to-share-that-im-starting-a-new-activity-7059773980517310466-loKG?utm_source=share&utm_medium=member_desktop"
+    }
+  ]
+}

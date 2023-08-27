@@ -1,0 +1,16 @@
+{
+  "name": "Emmanuel Asiamah Saka",
+  "bio": "A computer science students exploring the world of tech",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/kwame_saka",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/easaka",
+      "icon": "FaGithub"
+    }
+  ]
+}

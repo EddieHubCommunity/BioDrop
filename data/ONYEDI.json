@@ -1,0 +1,21 @@
+{
+  "name": "Ugoji Onyedika",
+  "bio": "technologist and scientist",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/OnyedikaUgoji/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "let connect on linkedin",
+      "url": "http://linkedin.com/in/onyedika-ugoji/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "http://github.com/ONYEDI/",
+      "icon": "FaGithub"
+    }
+  ]
+}

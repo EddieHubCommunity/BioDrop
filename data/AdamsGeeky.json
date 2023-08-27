@@ -1,0 +1,21 @@
+{
+  "name": "ADAMU MUHAMMAD MUHAMMAD",
+  "bio": "CS Student **open Source Advocate**. Lead open-source-learners",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AdamsGeeky",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/AdamsGeeky",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/adamu-muhammad-muhammad-13456b190/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

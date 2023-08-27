@@ -1,0 +1,39 @@
+{
+  "name": "Daniel Chapell",
+  "bio": "Fullstack developer (loading)",
+  "tags": ["Open Source", "Javascript", "Typescript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ChapellDaniel"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Danypooh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/daniel-de-la-torre-chapell-032032168/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ChapellDaniel",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Colaborate",
+      "url": "https://github.com/Danypooh",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/daniel-de-la-torre-chapell-032032168/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

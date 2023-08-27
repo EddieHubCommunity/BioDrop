@@ -1,0 +1,30 @@
+{
+  "name": "Kundan Gupta",
+  "bio": "Artist By Choice, Engineer By Default | Front-End Developer",
+  "tags": [
+    "Open Source",
+    "Html",
+    "CSS",
+    "JavaScript",
+    "bootstrap",
+    "photoshop",
+    "React"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/the_kundangupta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/kundangupta1993",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://www.linkedin.com/in/kundangupta1993/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

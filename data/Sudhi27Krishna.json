@@ -1,0 +1,47 @@
+{
+  "name": "Sudhi Krishna N A",
+  "bio": "CSE 24' | Open Source | Learning Full Stack Development",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NodeJS",
+    "ReactJS",
+    "Java",
+    "Python",
+    "DSA"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SudhiKrishnaNA1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sudhi27Krishna"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sudhi-krishna-n-a-b1571b211/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/SudhiKrishnaNA1",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Sudhi27Krishna",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/sudhi-krishna-n-a-b1571b211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

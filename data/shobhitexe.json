@@ -1,0 +1,60 @@
+{
+  "name": "Shobhit gupta",
+  "bio": "Dev | Passionate about tech, Web3 & gaming | Exploring the future",
+  "tags": [
+    "Open Source",
+    "Solidity",
+    "React.js",
+    "TypeScript",
+    "MongoDB",
+    "Express"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shobhitexe"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shobhitexe"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shobhitx/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Open Source Projects",
+      "name": "BlockEstate a decentralized real estate dealing platform",
+      "url": "https://github.com/shobhitexe/BlockEstate",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Built my first DAPP",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Made Full stack DAPP with working smart contracts",
+      "url": "https://github.com/shobhitexe/BlockEstate"
+    },
+    {
+      "isGoal": true,
+      "title": "Do open source and contribute more to the community",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "I want to take my open source journey to next level and contribute more to the community"
+    },
+    {
+      "isGoal": true,
+      "title": "Get more exposure in linkdin and twitter",
+      "date": "2023",
+      "icon": "FaTwitter",
+      "color": "black",
+      "description": "want to get more follower and increase my community members"
+    }
+  ]
+}

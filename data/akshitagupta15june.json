@@ -1,0 +1,31 @@
+{
+  "name": "Akshita Gupta",
+  "bio": "I love Hackathons, open source and sports",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Akshita_archer",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/akshitagupta15june",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/akshita-gupta-a4a895187",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/channel/UCvTnPARwoVco9eRYbcivbbQ",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Devpost",
+      "url": "https://devpost.com/akshitagupta15june",
+      "icon": "SiDevpost"
+    }
+  ]
+}

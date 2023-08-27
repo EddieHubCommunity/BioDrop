@@ -1,0 +1,18 @@
+{
+  "userStatus": "speaking",
+  "speakingTopic": "Movie Recommender System using NLP",
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Cloud Community Days 2022 - Kolkata",
+  "description": "A community organized cloud conference with industry experts presenting on exciting topics! Cloud Community Day is powered by a shared belief that when developers come together to exchange ideas, amazing things can happen.",
+  "date": {
+    "start": "2022-08-27T09:30:00.000+05:30",
+    "end": "2022-08-28T17:00:00.000+05:30"
+  },
+  "url": "https://gdgcloud.kolkata.dev/ccd2022/",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

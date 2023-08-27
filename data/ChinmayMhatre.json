@@ -1,8 +1,6 @@
 {
   "name": "Chinmay Mhatre",
-  "type": "personal",
   "bio": "Front End Developer | **Open Source** Collaborator | Writer",
-
   "tags": [
     "Open Source",
     "NextJS",
@@ -11,9 +9,18 @@
     "React Native"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chinmaysmhatre" },
-    { "icon": "FaGithub", "url": "https://github.com/ChinmayMhatre" },
-    { "icon": "FaLink", "url": "https://www.chinmaymhatre.in/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chinmaysmhatre"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ChinmayMhatre"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.chinmaymhatre.in/"
+    }
   ],
   "testimonials": ["Aadarsh805"],
   "links": [

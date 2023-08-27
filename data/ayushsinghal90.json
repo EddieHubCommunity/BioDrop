@@ -1,14 +1,21 @@
 {
   "name": "Ayush Singhal",
-  "type": "personal",
   "bio": "Open source | Developer | Tech Blogger ",
   "tags": ["Open Source", "Developer"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ayushsinghal_1" },
-    { "icon": "FaGithub", "url": "https://github.com/ayushsinghal90" },
-    { "icon": "SiMedium", "url": "https://medium.com/@ayushblog" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ayushsinghal_1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ayushsinghal90"
+    },
+    {
+      "icon": "SiMedium",
+      "url": "https://medium.com/@ayushblog"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

@@ -10,3 +10,12 @@ CODE_OF_CONDUCT.md
 kubernetes
 reviewpad.yml
 playwright.config.js
+.gitpod.yml
+.gitpod.Dockerfile
+SECURITY.md
+README.md
+compose.yml
+mongo-compose.yml
+LICENSE
+CONTRIBUTING.md
+NOCODE-CHANGELOG.md

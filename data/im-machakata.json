@@ -1,0 +1,58 @@
+{
+  "name": "Isaac Machakata",
+  "bio": "Developer",
+  "tags": ["Javascript", "Typescript", "VueJS", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/immachakata"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/immachakata"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/im-machakata"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/immachakata",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Whatsapp: Chat",
+      "url": "https://wa.me/263782192384",
+      "icon": "FaWhatsapp",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Business",
+      "name": "Whatsapp: Chat",
+      "url": "https://wa.me/263783243738",
+      "icon": "FaWhatsapp",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/immachakata",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Developed CAIMS",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Online School Managements System",
+      "url": "https://caims.caasi.co.zw"
+    }
+  ]
+}

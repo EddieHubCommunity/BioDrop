@@ -1,0 +1,31 @@
+{
+  "name": "Precious Egwuenu",
+  "bio": "Frontend Developer and Content Creator",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/preshypie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/channel/UCJg9QXDxjw-lBDPwNl5wrCQ",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Tiktok",
+      "url": "https://www.tiktok.com/@tech.girl4?lang=en",
+      "icon": "FaTiktok"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/preshpi-22/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/preshpi",
+      "icon": "FaGithub"
+    }
+  ]
+}

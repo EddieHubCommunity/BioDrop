@@ -1,0 +1,17 @@
+{
+  "name": "Sambhav Rana",
+  "bio": "There are only two kinds of programming languages: those people always bitch about and those nobody uses",
+  "tags": ["Front-End", "React", "Open Source", "Python", "Java"],
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sambhavnrana/?hl=en",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sambhav-rana-b03558229/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

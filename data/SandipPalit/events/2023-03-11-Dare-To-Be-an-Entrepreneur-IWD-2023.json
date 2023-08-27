@@ -1,0 +1,16 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Dare To Be an Entrepreneur : IWD 2023",
+  "description": "International Women's day celebration through an eventful day discussing about the various challenges faced by women in their entrepreneurship journey and the some of their projects and experiences around technology.",
+  "date": {
+    "start": "2023-03-11T11:00:00.000+05:30",
+    "end": "2023-03-11T16:00:00.000+05:30"
+  },
+  "url": "https://gdg.community.dev/events/details/google-gdg-kolkata-presents-dare-to-be-an-entrepreneur-iwd-2023/",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

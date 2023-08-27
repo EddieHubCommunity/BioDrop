@@ -1,0 +1,45 @@
+{
+  "name": "Osamuyi Alarezomo",
+  "bio": "Backend Developer, Technical writer | Open Source Enthusiast.",
+  "tags": ["Programming", "Open Source", "Technical Writing", "Blogging"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Muyixone",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/muyixone",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my writeups? Go here!",
+      "url": "https://dev.to/muyixone",
+      "icon": "SiDevdotto"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/osamuyialarezomo",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Joined Open Source",
+      "date": "February 2023",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Made my first Open Source contribution",
+      "url": "https://github.com/Muyixone"
+    },
+    {
+      "title": "Published my first article",
+      "date": "January 2023",
+      "icon": "SiDevdotto",
+      "color": "lilac",
+      "description": "Documenting my learning process with writing",
+      "url": "https://dev.to/muyixone"
+    }
+  ]
+}

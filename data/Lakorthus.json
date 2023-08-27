@@ -1,0 +1,99 @@
+{
+  "name": "Julio Velezmoro",
+  "bio": "Open Source | MERN | Frontend Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Tailwind",
+    "Sass"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Lakorthus"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Lakorthus"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Portfolio: Frontend Developer",
+      "url": "https://next-portfolio-khaki-nine.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Lakorthus",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Frontend",
+      "url": "https://www.youtube.com/channel/UCGa_J2FKCsrE0_6-42TH4QA",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Lakorthus",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/jv-frontend-developer/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "Feb 2023",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://next-portfolio-khaki-nine.vercel.app/"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "Feb 2023",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/Lakorthus"
+    },
+    {
+      "title": "Finished a Bootcamp",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I became full stack developer certifed to solidify years of knowledge",
+      "url": "https://github.com/Lakorthus"
+    },
+    {
+      "title": "Collaborate in Open Source project Linkfree",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Connecting your audience with a single link",
+      "url": "https://linkfree.eddiehub.io"
+    },
+    {
+      "isGoal": true,
+      "title": "Codigo Club",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 80% of the way through a project to connect people and help them to learn pair Programming",
+      "url": "http://codigoclub.co.uk"
+    }
+  ]
+}

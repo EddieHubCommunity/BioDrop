@@ -1,40 +1,33 @@
-import { useState } from "react";
-import Link from "../components/Link";
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
+import { remark } from "remark";
+import strip from "strip-markdown";
 import requestIp from "request-ip";
 
-import PageHead from "../components/PageHead";
-import logger from "../config/logger";
-import SingleLayout from "../components/layouts/SingleLayout";
-import MultiLayout from "../components/layouts/MultiLayout";
-import singleUser from "../config/user.json";
-import UserProfile from "../components/user/UserProfile";
-import UserTabs from "../components/user/UserTabs";
-import UserLinks from "../components/user/UserLinks";
-import UserMilestones from "../components/user/UserMilestones";
-import UserTestimonials from "../components/user/UserTestimonials";
-import UserEvents from "../components/user/UserEvents";
-import Page from "../components/Page";
+import { getUserApi } from "./api/profiles/[username]/index";
+import { clientEnv } from "@config/schemas/clientSchema";
+import logger from "@config/logger";
+import Link from "@components/Link";
+import PageHead from "@components/PageHead";
+import MultiLayout from "@components/layouts/MultiLayout";
+import Page from "@components/Page";
+import UserPage from "@components/user/UserPage";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 
 export async function getServerSideProps(context) {
-  const { req } = context;
+  const { req, res } = context;
   const username = context.query.username;
-  let log;
-  log = logger.child({ username: username, ip: requestIp.getClientIp(req) });
-  let data = {};
 
-  try {
-    const resUser = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/users/${username}`
+  const { status, profile } = await getUserApi(req, res, username, {
+    referer: req.headers.referer,
+    ip: requestIp.getClientIp(req),
+  });
+  if (status !== 200) {
+    logger.error(
+      profile.error,
+      `profile loading failed for username: ${username}`
     );
-    data = await resUser.json();
-    log.info(`data loaded for username: ${username}`);
-  } catch (e) {
-    log.error(e, `profile loading failed for username: ${username}`);
-  }
 
-  if (!data.username) {
     return {
       redirect: {
         destination: `/search?username=${username}`,
@@ -43,102 +36,52 @@ export async function getServerSideProps(context) {
     };
   }
 
+  logger.info(`data loaded for username: ${username}`);
+
+  try {
+    const processedBio = await remark().use(strip).process(profile.bio);
+    profile.cleanBio = processedBio.toString();
+  } catch (e) {
+    logger.error(e, `cannot strip markdown for: ${username}`);
+    profile.cleanBio = profile.bio;
+  }
+
   return {
-    props: { data, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
 export default function User({ data, BASE_URL }) {
-  const [userData, setUserData] = useState(data);
-  const defaultTabs = [
-    { name: "My Links", href: "#", current: true, order: "ASC" },
-    { name: "Milestones", href: "#", current: false, order: "ASC" },
-    { name: "Testimonials", href: "#", current: false, order: "ASC" },
-    { name: "Events", href: "#", current: false, order: "ASC" },
-  ];
-  let displayTabs = defaultTabs.flatMap((tab) => {
-    if (tab.name === "My Links") {
-      if (userData.links && userData.links.length) {
-        return { ...tab, total: userData.links.length };
-      }
-      return [];
-    }
-    if (tab.name === "Milestones") {
-      if (userData.milestones && userData.milestones.length) {
-        return { ...tab, total: userData.milestones.length };
-      }
-      return [];
-    }
-    if (tab.name === "Testimonials") {
-      if (userData.testimonials && userData.testimonials.length) {
-        return { ...tab, total: userData.testimonials.length };
-      }
-      return [];
-    }
-    if (tab.name === "Events") {
-      if (userData.events && userData.events.length) {
-        return { ...tab, total: userData.events.length };
-      }
-      return [];
-    }
-  });
-  const [tabs, setTabs] = useState(displayTabs);
-
   return (
     <>
       <PageHead
         title={data.name}
-        description={data.bio}
+        description={data.cleanBio}
         ogTitle={data.name}
-        ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
-        ogImage={data.avatar}
+        ogDescription={data.cleanBio}
+        ogUrl={`https://biodrop.io/${data.username}`}
+        ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
 
       <Page>
-        <UserProfile data={userData} BASE_URL={BASE_URL} />
-
-        <UserTabs
-          tabs={tabs}
-          setTabs={setTabs}
-          userData={userData}
-          setUserData={setUserData}
-        />
-
-        {tabs.find((tab) => tab.name === "My Links") &&
-          tabs.find((tab) => tab.name === "My Links").current && (
-            <UserLinks data={userData} BASE_URL={BASE_URL} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Milestones") &&
-          tabs.find((tab) => tab.name === "Milestones").current && (
-            <UserMilestones data={userData} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Testimonials") &&
-          tabs.find((tab) => tab.name === "Testimonials").current && (
-            <UserTestimonials data={userData} />
-          )}
-
-        {tabs.find((tab) => tab.name === "Events") &&
-          tabs.find((tab) => tab.name === "Events").current && (
-            <UserEvents data={userData} />
-          )}
+        <UserPage data={data} BASE_URL={BASE_URL} />
       </Page>
 
       <Link
-        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${userData.name}&name=${userData.username}`}
+        href={`${BASE_GITHUB_PROJECT_URL}/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
         rel="noopener noreferrer"
         target="_blank"
+        className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
       >
-        <div className="fixed bottom-5 right-5 px-4 py-2 bg-indigo-600 text-white flex items-center gap-1 rounded-full hover:bg-indigo-800">
+        <div className="px-4 py-2 bg-tertiary-medium text-primary-low flex items-center gap-1 rounded-full hover:bg-secondary-medium hover:drop-shadow-lg">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >
             <FaRegComments />
           </IconContext.Provider>
-          <p className="text-sm font-medium">
-            Add testimonial for {userData.name}
+          <p className="text-sm font-medium text-primary-medium">
+            Add testimonial for {data.name}
           </p>
         </div>
       </Link>
@@ -147,8 +90,5 @@ export default function User({ data, BASE_URL }) {
 }
 
 User.getLayout = function getLayout(page) {
-  if (singleUser.username) {
-    return <SingleLayout>{page}</SingleLayout>;
-  }
   return <MultiLayout>{page}</MultiLayout>;
 };

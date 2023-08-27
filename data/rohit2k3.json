@@ -1,0 +1,45 @@
+{
+  "name": "Rohit Sharma",
+  "bio": "Full Stack developer 💻 || Exploring tech domains 🌱 || Open Source Enthusiast!👋 ",
+  "tags": ["Open Source", "Freelancer", "React.js", "Next.js", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RohitSharma2k3"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rohit2k3"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rohit2k3/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/rohit__2k3/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rohit2k3",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RohitSharma2k3",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rohit2k3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/coder_web_dev/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

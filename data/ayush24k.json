@@ -1,0 +1,36 @@
+{
+  "name": "Ayush Anshu",
+  "bio": "I am Frontend Web Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ayushanshuu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://githhub.com/ayush24k",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/ayushanshu",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@ayushanshuu",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ayushanshuu",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Join our WeHelpDev Community",
+      "url": "https://discord.com/invite/VPy2Vhqfp8",
+      "icon": "FaDiscord"
+    }
+  ]
+}

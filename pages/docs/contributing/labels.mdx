@@ -1,0 +1,49 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Labels
+
+> Please do **not** start work on issues unless they have the `status: ready for dev` and a maintainer assigns this to you.
+
+### points
+
+Points are used in Agile planning within a team. These points are not hours, they are Fibonacci sequence based on complexity, risk and unknown factors. You will not know what `1` point means, but you will know that `1` point is easier than `2` points.
+
+Also note 8 different issues with `1` each is not the same as an `8` point issue because a `1` point issue has little to no risk or unknowns, where as the `8` point issue has a much bigger risk.
+
+Note: `good first issues` are not always `1` point, they could be more but unlikely to be bigger than `3`.
+
+#### Point examples
+
+> Story points are units of measurement used to determine how much effort is required to complete a product backlog item or any other piece of work. The team assigns story points based on the work's complexity, amount, and uncertainty. Story points are not time estimates. They are not hours. They are not days. They are not even estimates. They are simply a unit of measurement
+
+| Points | Example 1                                    | Example 2                                            |
+| :----- | :------------------------------------------- | :--------------------------------------------------- |
+| 1      | Fixing a typo                                | Improving documentation                              |
+| 2      | Refactoring into components                  | -                                                    |
+| 3      | New feature either in the front or back end  | -                                                    |
+| 5      | New feature that requires fullstack changes  | -                                                    |
+| 8      | Adding Authentication                        | _probably should be broken down into smaller issues_ |
+| 13     | Moving from json files to forms for profiles | _probably should be broken down into smaller issues_ |
+
+### status: awaiting triage
+
+These are newly created issues that have not be reviewed by the maintainers yet. Please do not start work on these issues.
+
+### status: blocked
+
+The maintainers do not want anyone working on this issue yet. For example it might be waiting for another issue to be completed first - this will help reduce code conflicts.
+
+### status: ready for dev
+
+You can request to be assigned this issue, then you can start working on it. Please do not tag a specific person to assign, as all maintainers will be notified of the repo activity.
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Hacktoberfest Documentation"
+    section="Contributing"
+    name="Labels"
+  >
+    {children}
+  </DocsLayout>
+);

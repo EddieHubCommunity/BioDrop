@@ -1,0 +1,94 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import Alert from "@components/Alert";
+
+## Environment variables
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Remember to restart your app after making any of these changes
+    </>
+  }
+/>
+
+Environment variables are needed in the `.env` file to allow the application to run correctly. `.env.example` file has an example template you can use to get started. However, you will need to follow these steps to get your GitHub OAuth environment variables. Please note that if you are working in Gitpod and wish to access authenticated pages, you will need to complete these steps each time with the URL Gitpod generates for your dev environment as localhost will not work. To avoid this, you may choose to work in Docker which only requires this setup once.
+
+If you want to login, you will need to create a GitHub OAuth app on GitHub and add the credentials to the `.env` file, which are highlighted in bold in the table below. Details on how to create the GitHub OAuth app are in the next section below. If you do not want to login, you can skip this step and the app will still work.
+
+| variable                        | example                                  | required | description                                                                                                 |
+| :------------------------------ | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
+| BIODROP_MONGO_CONNECTION_STRING | mongodb://localhost:27017/biodrop        | true     | Database connection string                                                                                  |
+| NEXT_PUBLIC_BASE_URL            | http://localhost:3000                    | true     | Hosting URL: localhost:3000 or Gitpod url                                                                   |
+| NODE_ENV                        | development                              | true     | -                                                                                                           |
+| **GITHUB_ID**                   | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
+| **GITHUB_SECRET**               | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
+| NEXTAUTH_URL                    | http://localhost:3000                    | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
+| NEXTAUTH_SECRET                 | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
+| GITHUB_API_TOKEN                | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
+| ADMIN_USERS                     | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Remember to update the Gitpod URL in environment variables and OAuth callback
+      URL, whenever Gitpod URL updates
+    </>
+  }
+/>
+
+<ClipboardCopy>
+```js
+BIODROP_MONGO_CONNECTION_STRING="mongodb://localhost:27017/biodrop"
+NEXT_PUBLIC_BASE_URL="http://localhost:3000"
+NODE_ENV="development"
+
+GITHUB_ID=""
+GITHUB_SECRET=""
+NEXTAUTH_SECRET=""
+NEXTAUTH_URL="http://localhost:3000"
+GITHUB_API_TOKEN=""
+ADMIN_USERS="eddiejaoude,SaraJaoude,\_test-admin-user"
+
+```
+</ClipboardCopy>
+
+### GitHub OAuth (required if you want to login)
+
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `New OAuth app` and fill in the form details
+
+| Form field                 | value                                                                    |
+| :------------------------- | :----------------------------------------------------------------------- |
+| Application name           | `BioDrop local`                                                         |
+| Homepage URL               | `https://biodrop.io`                                                    |
+| Application description    | `BioDrop allows you to connect with your audience using a single link.` |
+| Authorization callback URL | `http://localhost:3000/api/auth/callback/github`                         |
+
+Then use the generated **Client ID** and **Client Secret** in the `.env`.
+
+Full details on GitHub docs https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
+
+### GitHub Personal Access Token
+
+1. Go to your profile `settings`
+2. Then `Developer settings` down the bottom left
+3. Click `Personal Access Token` and generate a PAT
+
+Full details on GitHub docs https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Local Development Documentation"
+    section="Getting started"
+    name="Environment variables"
+  >
+    {children}
+  </DocsLayout>
+);

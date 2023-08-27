@@ -1,0 +1,16 @@
+{
+  "name": "Aakash Ditya",
+  "bio": "Currently learning & building in Full-stack development",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Dityaaakash",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/aakashditya",
+      "icon": "FaGithub"
+    }
+  ]
+}
