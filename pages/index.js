@@ -2,6 +2,7 @@ import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
+import va from "@vercel/analytics";
 
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -13,7 +14,6 @@ import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
 import Testimonials from "@components/Testimonials";
-import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
 import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
@@ -338,11 +338,10 @@ export default function Home({
       <CallToAction
         title="Subscribe to our newsletter to learn more"
         description="Do not miss out!"
-        button1Link="/newsletter"
-        button1Text="Sign up"
+        button1Link="https://biodrop.substack.com"
+        button1Text="Subscribe"
+        button1OnClick={() => va.track("newsletter-subscribe")}
       />
-
-      <GitHubAccelerator />
 
       <Link
         href={BASE_GITHUB_PROJECT_URL + "/discussions"}

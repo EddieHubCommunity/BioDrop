@@ -1,6 +1,11 @@
 {
   "name": "Bemdoo Maor",
   "bio": "15 year old passionate Full-stack developer | Student | Open source lover",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/BemdooMaor" },
+    { "icon": "FaGithub", "url": "https://github.com/MaorBemdoo" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/BemdooMaor" }
+  ],
   "links": [
     {
       "name": "Follow me on Github",
