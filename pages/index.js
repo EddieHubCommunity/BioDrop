@@ -340,7 +340,7 @@ export default function Home({
         description="Do not miss out!"
         button1Link="https://biodrop.substack.com"
         button1Text="Subscribe"
-        button1OnClick={() => va.track("newsletter-subscribe")}
+        button1OnClick={() => va.track("newsletter", { location: "homepage" })}
       />
 
       <Link
