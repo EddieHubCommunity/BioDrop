@@ -1,6 +1,12 @@
-import FaLinkedin from "@components/icons/FaLinkedin";
-import FaGithub from "@components/icons/FaGithub";
-import FaYoutube from "@components/icons/FaYoutube";
+import va from "@vercel/analytics";
+
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Link from "@components/Link";
@@ -66,9 +72,21 @@ export default function Footer() {
     social: [
       {
         name: "LinkedIn",
-        href: "https://www.linkedin.com/company/biodrop.eddiehub/",
+        href: "https://www.linkedin.com/company/biodrop-io/",
         external: true,
         icon: FaLinkedin,
+      },
+      {
+        name: "Twitter",
+        href: "https://twitter.com/biodrop_io/",
+        external: true,
+        icon: FaTwitter,
+      },
+      {
+        name: "Instagram",
+        href: "https://instagram.com/biodrop_io/",
+        external: true,
+        icon: FaInstagram,
       },
       {
         name: "GitHub",
@@ -106,6 +124,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, item.name)}
                       >
                         {item.name}
                       </Link>
@@ -124,6 +143,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, item.name)}
                       >
                         {item.name}
                       </Link>
@@ -144,6 +164,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, item.name)}
                       >
                         {item.name}
                       </Link>
@@ -162,6 +183,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, item.name)}
                       >
                         {item.name}
                       </Link>
@@ -183,6 +205,7 @@ export default function Footer() {
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
                 target={item.external ? "_blank" : "_self"}
+                onClick={() => va.track(`socials`, item.name)}
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -192,6 +215,7 @@ export default function Footer() {
           <Link
             href={BASE_GITHUB_PROJECT_URL}
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+            onClick={() => va.track(`footer`, "powered by EddieHub")}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub
