@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
@@ -17,6 +16,7 @@ import Testimonials from "@components/Testimonials";
 import Alert from "@components/Alert";
 import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
+import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
@@ -309,8 +309,9 @@ export default function Home({
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
-                    <Image
-                      src={feature.imageSrc}
+                    <ThemedImage
+                      lightImg={feature.imageSrc}
+                      darkImg={feature.imageSrc}
                       alt={feature.imageAlt}
                       className="object-contain object-center"
                       fill={true}
