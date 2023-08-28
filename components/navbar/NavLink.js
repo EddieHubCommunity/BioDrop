@@ -34,7 +34,7 @@ export default function NavLink({
       aria-current="page"
       onClick={(e) => {
         setIsOpen && setIsOpen(false);
-        va.track(`navbar`, item.name);
+        va.track(`navbar`, { link: item.name });
         if (onClick) {
           onClick(e);
         }

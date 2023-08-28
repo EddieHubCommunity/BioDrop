@@ -124,7 +124,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, item.name)}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -143,7 +143,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, item.name)}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -164,7 +164,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, item.name)}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -183,7 +183,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, item.name)}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -205,7 +205,7 @@ export default function Footer() {
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
                 target={item.external ? "_blank" : "_self"}
-                onClick={() => va.track(`socials`, item.name)}
+                onClick={() => va.track(`socials`, { link: item.name })}
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -215,7 +215,7 @@ export default function Footer() {
           <Link
             href={BASE_GITHUB_PROJECT_URL}
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
-            onClick={() => va.track(`footer`, "powered by EddieHub")}
+            onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub
