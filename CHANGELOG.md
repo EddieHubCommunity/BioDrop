@@ -1,3 +1,12 @@
+# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
+
+
+### Features
+
+* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
+
+
+
 # [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * newsletter to substack, removed gh accelerator ([#8811](https://github.com/EddieHubCommunity/BioDrop/issues/8811)) ([647b821](https://github.com/EddieHubCommunity/BioDrop/commit/647b82110b4f50ffb4bfd50af98a6c7cd2c09a56))
-
-
-
-## [2.0.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.1...v2.0.2) (2023-08-26)
-
-
-### Bug Fixes
-
-* uptime badge - README ([#8803](https://github.com/EddieHubCommunity/BioDrop/issues/8803)) ([c1fda8d](https://github.com/EddieHubCommunity/BioDrop/commit/c1fda8d3b2a93acb3f8f18de14f0f96bc92d8e47))
 
 
 
