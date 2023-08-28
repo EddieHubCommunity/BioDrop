@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
+
+
+### Features
+
+* navbar + footer links to have event stats ([#8820](https://github.com/EddieHubCommunity/BioDrop/issues/8820)) ([6650356](https://github.com/EddieHubCommunity/BioDrop/commit/6650356638ba98e717f39aed11012f766ba062a6))
+
+
+
 ## [2.0.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.2...v2.0.3) (2023-08-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * subdomain to domain ([#8797](https://github.com/EddieHubCommunity/BioDrop/issues/8797)) ([8a3af8c](https://github.com/EddieHubCommunity/BioDrop/commit/8a3af8c4c523b16d2fbc3504ade7919032d27ffa))
-
-
-
-## [1.179.5](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.4...v1.179.5) (2023-08-26)
-
-
-### Bug Fixes
-
-* update package-lock file ([#8789](https://github.com/EddieHubCommunity/BioDrop/issues/8789)) ([fcc6050](https://github.com/EddieHubCommunity/BioDrop/commit/fcc60504fb0ca33f00437ea9d8e8b6f3f3f662dc))
 
 
 
