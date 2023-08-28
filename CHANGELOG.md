@@ -1,3 +1,12 @@
+## [2.1.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.0...v2.1.1) (2023-08-28)
+
+
+### Bug Fixes
+
+* link vercel analytics ([#8822](https://github.com/EddieHubCommunity/BioDrop/issues/8822)) ([6a913fd](https://github.com/EddieHubCommunity/BioDrop/commit/6a913fd01e49bffc4048aee2303a0d15c496e41e))
+
+
+
 # [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * BioDrop app version ([#8801](https://github.com/EddieHubCommunity/BioDrop/issues/8801)) ([19f90d9](https://github.com/EddieHubCommunity/BioDrop/commit/19f90d909aa741b7e07dc61c9f000e77227bb924))
-
-
-
-## [1.179.6](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.5...v1.179.6) (2023-08-26)
-
-
-### Bug Fixes
-
-* subdomain to domain ([#8797](https://github.com/EddieHubCommunity/BioDrop/issues/8797)) ([8a3af8c](https://github.com/EddieHubCommunity/BioDrop/commit/8a3af8c4c523b16d2fbc3504ade7919032d27ffa))
 
 
 
