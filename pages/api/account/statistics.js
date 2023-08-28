@@ -40,10 +40,15 @@ export async function getStats(username) {
           },
         },
       },
+      {
+        $match: {
+          username: username,
+        },
+      },
     ]);
-    profileData = rankedProfiles.find(
-      (profile) => profile.username === username
-    );
+
+    profileData = rankedProfiles[0];
+    console.log(profileData);
   } catch (e) {
     logger.error(e, "failed to load profile");
   }
