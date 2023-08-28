@@ -48,7 +48,6 @@ export async function getStats(username) {
     ]);
 
     profileData = rankedProfiles[0];
-    console.log(profileData);
   } catch (e) {
     logger.error(e, "failed to load profile");
   }
