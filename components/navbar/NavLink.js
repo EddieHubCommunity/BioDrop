@@ -1,3 +1,4 @@
+import va from "@vercel/analytics";
 import Link from "@components/Link";
 
 export default function NavLink({
@@ -33,6 +34,7 @@ export default function NavLink({
       aria-current="page"
       onClick={(e) => {
         setIsOpen && setIsOpen(false);
+        va.track(`navbar`, item.name);
         if (onClick) {
           onClick(e);
         }
