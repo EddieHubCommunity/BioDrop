@@ -121,6 +121,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           monthly={data.profile.monthly}
           total={data.profile.total}
           clicks={data.links.clicks}
+          rank={data.profile.rank}
         />
 
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
