@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
+
+
+### Features
+
+* profile rank ([#8808](https://github.com/EddieHubCommunity/BioDrop/issues/8808)) ([64ba0d5](https://github.com/EddieHubCommunity/BioDrop/commit/64ba0d52e642dd12f0adc6333967a016585ca4bb))
+
+
+
 ## [2.1.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.0...v2.1.1) (2023-08-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * uptime badge - README ([#8803](https://github.com/EddieHubCommunity/BioDrop/issues/8803)) ([c1fda8d](https://github.com/EddieHubCommunity/BioDrop/commit/c1fda8d3b2a93acb3f8f18de14f0f96bc92d8e47))
-
-
-
-## [2.0.1](https://github.com/EddieHubCommunity/BioDrop/compare/v1.179.6...v2.0.1) (2023-08-26)
-
-
-### Bug Fixes
-
-* BioDrop app version ([#8801](https://github.com/EddieHubCommunity/BioDrop/issues/8801)) ([19f90d9](https://github.com/EddieHubCommunity/BioDrop/commit/19f90d909aa741b7e07dc61c9f000e77227bb924))
 
 
 
