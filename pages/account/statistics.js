@@ -13,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
+import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -105,7 +106,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
     <>
       <PageHead
-        title="LinkFree Statistics"
+        title={PROJECT_NAME + " Statistics"}
         description="Private statistics for your account"
       />
 
@@ -120,17 +121,18 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           monthly={data.profile.monthly}
           total={data.profile.total}
           clicks={data.links.clicks}
+          rank={data.profile.rank}
         />
 
         <div className="w-full border p-4 my-6 dark:border-primary-medium">
-          <span className="flex flex-row justify-between">
+          <span className="flex flex-row flex-wrap justify-between">
             <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
               <span className="text-primary-medium-low">
                 (missing sections in your profile are:{" "}
-                {progress.missing.join(",")})
+                {progress.missing.join(", ")})
               </span>
             )}
           </span>

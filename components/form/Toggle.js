@@ -1,5 +1,5 @@
 import { Switch } from "@headlessui/react";
-import { classNames } from "utils/functions/classNames";
+import { classNames } from "@services/utils/classNames";
 
 export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
   let aria = {};

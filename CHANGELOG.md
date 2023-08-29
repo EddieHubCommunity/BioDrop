@@ -1,45 +1,45 @@
-## [1.169.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.2...v1.169.3) (2023-08-04)
-
-
-### Bug Fixes
-
-* date / time handling in events & statistics ([#8425](https://github.com/EddieHubCommunity/LinkFree/issues/8425)) ([c5ddcf3](https://github.com/EddieHubCommunity/LinkFree/commit/c5ddcf38dc6e832a08188679ee1b81e700ebc473))
-
-
-
-## [1.169.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.1...v1.169.2) (2023-08-04)
-
-
-### Bug Fixes
-
-* error to warning when users not loaded in dev ([#8422](https://github.com/EddieHubCommunity/LinkFree/issues/8422)) ([e39d914](https://github.com/EddieHubCommunity/LinkFree/commit/e39d914f94927a9debcb1f710d28d2f95346e90e))
-
-
-
-## [1.169.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.169.0...v1.169.1) (2023-08-04)
-
-
-### Bug Fixes
-
-* dark/light mode for admin page ([#8492](https://github.com/EddieHubCommunity/LinkFree/issues/8492)) ([a0fc4be](https://github.com/EddieHubCommunity/LinkFree/commit/a0fc4be76c15ad4d4cd676e00cb847375ad2c0a6))
-
-
-
-# [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
+# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
 
 
 ### Features
 
-* delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
+* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
 
 
 
-## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
+# [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
+
+
+### Features
+
+* profile rank ([#8808](https://github.com/EddieHubCommunity/BioDrop/issues/8808)) ([64ba0d5](https://github.com/EddieHubCommunity/BioDrop/commit/64ba0d52e642dd12f0adc6333967a016585ca4bb))
+
+
+
+## [2.1.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.0...v2.1.1) (2023-08-28)
 
 
 ### Bug Fixes
 
-* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
+* link vercel analytics ([#8822](https://github.com/EddieHubCommunity/BioDrop/issues/8822)) ([6a913fd](https://github.com/EddieHubCommunity/BioDrop/commit/6a913fd01e49bffc4048aee2303a0d15c496e41e))
+
+
+
+# [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
+
+
+### Features
+
+* navbar + footer links to have event stats ([#8820](https://github.com/EddieHubCommunity/BioDrop/issues/8820)) ([6650356](https://github.com/EddieHubCommunity/BioDrop/commit/6650356638ba98e717f39aed11012f766ba062a6))
+
+
+
+## [2.0.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.2...v2.0.3) (2023-08-27)
+
+
+### Bug Fixes
+
+* newsletter to substack, removed gh accelerator ([#8811](https://github.com/EddieHubCommunity/BioDrop/issues/8811)) ([647b821](https://github.com/EddieHubCommunity/BioDrop/commit/647b82110b4f50ffb4bfd50af98a6c7cd2c09a56))
 
 
 

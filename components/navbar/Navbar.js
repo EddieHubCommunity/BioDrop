@@ -1,16 +1,18 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
+import { classNames } from "@services/utils/classNames";
 
-import FaGithub from "@components/icons/FaGithub";
+import { FaGithub } from "react-icons/fa";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +22,6 @@ export default function Navbar() {
   const navConRef = useRef();
   const { data: session } = useSession();
   const { systemTheme, theme, setTheme } = useTheme();
-  const getLink = (path) => `${router.basePath}${path}`;
 
   useEffect(() => {
     setMounted(true);
@@ -91,6 +92,10 @@ export default function Navbar() {
       name: "Repos",
       url: "/repos",
     },
+    {
+      name: "Discover",
+      url: "/discover",
+    },
   ];
 
   const authControls = () => (
@@ -128,20 +133,13 @@ export default function Navbar() {
 
   return (
     <header className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
+      <nav className="relative top-0 bg-primary-high">
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <Image
-                    src={getLink("/logo192.png")}
-                    alt="EddieHub logo"
-                    width={32}
-                    height={32}
-                    priority
-                    onClick={() => setIsOpen(false)}
-                  />
+                  <LogoWide onClick={() => setIsOpen(false)} width={128} />
                 </Link>
               </div>
               <div className="hidden md:block">
@@ -162,7 +160,7 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"
@@ -187,7 +185,7 @@ export default function Navbar() {
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className={`${isOpen ? "hidden" : "block"} h-6 w-6`}
+                  className={classNames(isOpen ? "hidden" : "block", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -202,7 +200,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <svg
-                  className={`${isOpen ? "block" : "hidden"} h-6 w-6`}
+                  className={classNames(isOpen ? "block" : "hidden", "h-6 w-6")}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -222,11 +220,12 @@ export default function Navbar() {
         </div>
 
         <div
-          className={`${
+          className={classNames(
             isOpen
               ? "transform translate-y-0 opacity-100"
-              : "transform -translate-y-96 opacity-0 "
-          } md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full`}
+              : "transform -translate-y-96 opacity-0",
+            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full"
+          )}
           id="mobile-menu"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -242,14 +241,14 @@ export default function Navbar() {
           </div>
           <div className="pt-4 pb-3 border-t border-primary-medium">
             <div className="flex items-center px-5">
-              <div className="flex items-center md:ml-6">
+              <div className="flex items-center md:ml-6 flex-wrap justify-center sm:justify-start">
                 {renderThemeChanger()}
                 <NavLink
                   item={{ name: `v${app.version}`, url: "/changelog" }}
                   setIsOpen={setIsOpen}
                 />
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"

@@ -3,6 +3,7 @@ import Page from "@components/Page";
 import Link from "@components/Link";
 import SideNav from "@components/navbar/SideNav";
 import { navigation } from "@components/layouts/DocsLayout";
+import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export default function DocsIndex() {
   const sections = [
@@ -54,7 +55,7 @@ export default function DocsIndex() {
           name: "Local Development",
           path: "/docs/environments/local-development",
           description:
-            "Set up the LinkFree codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
+            "Set up the BioDrop codebase on your computer using either a pre-built Docker image or by installing all the dependencies for full control over your local dev environment.",
           category: {
             name: "Beginner",
             color: "bg-green-100 text-green-800",
@@ -76,10 +77,10 @@ export default function DocsIndex() {
   return (
     <>
       <Head>
-        <title>LinkFree Documentation</title>
+        <title>{PROJECT_NAME} Documentation</title>
         <meta
           name="description"
-          content="Discover more people in your LinkFree community"
+          content={`Discover more people in your ${PROJECT_NAME} community`}
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -89,31 +90,28 @@ export default function DocsIndex() {
           Here you should find everything you need from getting started with
           creating your Profile to more advanced topics. We welcome
           contributions, check out the&nbsp;
-          <Link
-            target="_blank"
-            href="https://github.com/EddieHubCommunity/LinkFree"
-          >
-            LinkFree repo
+          <Link target="_blank" href={BASE_GITHUB_PROJECT_URL}>
+            {PROJECT_NAME} repo
           </Link>{" "}
           and the&nbsp;
           <Link
             target="_blank"
-            href="https://github.com/EddieHubCommunity/LinkFree/tree/main/pages/docs"
+            href={BASE_GITHUB_PROJECT_URL + "/tree/main/pages/docs"}
           >
             documentation source
           </Link>{" "}
           on GitHub for more information.
         </p>
-        <div className="flex flex-grow flex-row">
+        <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
           <div className="float-none my-0 max-w-[1440px]">
             {sections.map((section) => (
               <div
-                className="bg-white dark:bg-primary-high px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pb-28"
+                className="bg-white dark:bg-dark px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pb-28"
                 key={section.title}
               >
                 <div className="relative mx-auto max-w-lg divide-y-2 divide-primary-low dark:divide-primary-low-high lg:max-w-7xl">
-                  <div>
+                  <div className="mb-2">
                     <h2
                       className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl"
                       id={section.title}
@@ -129,7 +127,7 @@ export default function DocsIndex() {
                       <Link
                         href={page.path}
                         key={page.name}
-                        className="border border-transparent hover:border hover:border-orange-600 transition-all duration-250 ease-linear rounded px-6 py-2 block"
+                        className="my-2 border border-transparent hover:border hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 block"
                       >
                         <div className="py-2">
                           {/* <span

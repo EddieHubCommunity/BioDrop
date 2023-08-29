@@ -36,6 +36,11 @@
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@viveksati",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Check me out on Quine",
+      "url": "https://quine.sh/user/vivekquine",
+      "icon": "SiLinear"
     }
   ],
   "milestones": [

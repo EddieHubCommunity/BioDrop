@@ -8,13 +8,13 @@ Gitpod is an open-source application that provides a prebuilt development enviro
 
 ### How to use Gitpod
 
-You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in LinkFree. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
+You can use Gitpod in the cloud. Please note, that Gitpod requires additional configuration to work on the authenticated pages in BioDrop. See instructions for [how to set up your OAuth app](/docs/environments/environment-variables) for more information.
 
 There are **2** ways you can open a repository with Gitpod.
 
 #### 1st Method: Prefix the url with `gitpod.io/#`
 
-1. Go to the GitHub page of your forked LinkFree repository
+1. Go to the GitHub page of your forked BioDrop repository
 2. Copy the url from the address bar and paste the code `gitpod.io/#` in front of it
 
 ![Screen1 - Add snippet in front of url](https://user-images.githubusercontent.com/107807044/254932727-3137032b-337c-418e-9e65-9e705a58dec9.png)
@@ -62,11 +62,13 @@ If you encounter permission issues, follow the next steps:
 
 ![Screen9 - Confirm with password](https://user-images.githubusercontent.com/107807044/254933034-d62098c3-b37c-4540-87d9-8d4fd641696e.png)
 
-[![Open LinkFree on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree)
+[![Open BioDrop on Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 
 ### Development
 
-Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from LinkFree.
+Once you have opened a repository, you can develop as you usually do! In the next example, we will update our profile from BioDrop.
+
+There is 1 extra step required, you need to update your `.env` file for the `NEXT_PUBLIC_BASE_URL` variable so it has your unique Gitpod Url (you can get the url from the preview browser address bar).
 
 <Alert
   type="warning"
@@ -75,9 +77,9 @@ Once you have opened a repository, you can develop as you usually do! In the nex
       <strong>NOTE:</strong>
       <ul style={{ listStyleType: "number" }}>
         <li>
-          Be sure that you have a fork of LinkFree in your Github Profile. If
-          you don't have it, check out the{" "}
-          <Link href="https://linkfree.io/docs/quickstart-json">
+          Be sure that you have a fork of BioDrop in your Github Profile. If you
+          don't have it, check out the{" "}
+          <Link href="https://biodrop.io/docs/quickstart-json">
             JSON Quickstart Guide
           </Link>
         </li>
@@ -113,7 +115,7 @@ git checkout -b update-YOUR_PROFILE_NAME
   message={
     <>
       {" "}
-      NOTE: To create your profile on LinkFree, please follow the [Quickstart guide](https://linkfree.io/docs/quickstart).{" "}
+      NOTE: To create your profile on BioDrop, please follow the [Quickstart guide](https://biodrop.io/docs/quickstart).{" "}
     </>
   }
 />
@@ -134,11 +136,11 @@ For example, you can copy and past the following code:
   ]
 ```
 
-Lastly, commit the changes and create a PR in the LinkFree repository.
+Lastly, commit the changes and create a PR in the BioDrop repository.
 
 export default ({ children }) => (
   <DocsLayout
-    title="LinkFree Gitpod Development Documentation"
+    title="BioDrop Gitpod Development Documentation"
     section="Getting started"
     name="Gitpod"
   >
