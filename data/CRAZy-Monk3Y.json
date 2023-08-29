@@ -1,0 +1,40 @@
+{
+  "name": "Tathagata Chakraborty",
+  "bio": "Certified Associate Cloud Engineer | Full Stack, Web developer , React JS , Spring Boot, Tatilwind CSS",
+  "tags": [
+    "java",
+    "javascript",
+    "HTML",
+    "CSS",
+    "Full Stack",
+    "Open-Source",
+    "react",
+    "Spring Boot",
+    "Web Dev",
+    "Tailwind",
+    "MongoDB",
+    "MySQL"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/tathagata-chakraborty-478416172/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/CRAZy-Monk3Y",
+      "icon": "FaGithub"
+    }
+  ],
+  "socials": [
+    {
+      "url": "https://www.linkedin.com/in/tathagata-chakraborty-478416172/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://github.com/CRAZy-Monk3Y",
+      "icon": "FaGithub"
+    }
+  ]
+}

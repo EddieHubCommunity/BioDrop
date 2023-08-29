@@ -4,11 +4,13 @@ import EditOnGitHub from "@components/EditOnGithub";
 import { useRouter } from "next/router";
 import { classNames } from "@services/utils/classNames";
 
-
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();
   return (
-    <ul role="list" className="w-64 flex-none hidden sm:block mt-12">
+    <ul
+      role="list"
+      className="sm:w-64 flex-none block rounded border border-primary-high dark:border-primary-low sm:border-none mt-4 sm:mt-12"
+    >
       <li>
         <ul role="list">
           {navigation.map((item) => (
@@ -17,8 +19,8 @@ export default function SideNav({ navigation }) {
                 <a
                   href={item.href}
                   className={classNames(
-                    item.href == pathname && 
-                    "bg-slate-200 dark:bg-primary-low !text-secondary-high",
+                    item.href == pathname &&
+                      "bg-slate-200 dark:bg-primary-low !text-secondary-high",
                     "group flex gap-x-3 rounded-md py-2 pl-3 pr-2 text-md leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200"
                   )}
                 >
@@ -64,8 +66,8 @@ export default function SideNav({ navigation }) {
                               href={subItem.href}
                               className={classNames(
                                 subItem.href.toLowerCase() == pathname &&
-                                  "text-secondary-medium dark:!text-blue-500 font-semibold",
-                                "block hover:font-semibold hover:text-secondary-medium dark:hover:text-blue-500  rounded-md my-[6px] py-[6px] pr-2 pl-4 text-sm leading-6 text-primary-high dark:text-primary-low-medium duration-200"
+                                  "text-secondary-medium dark:!text-secondary-medium font-semibold",
+                                "block hover:font-semibold hover:text-secondary-medium dark:hover:text-secondary-medium  rounded-md my-[6px] py-[6px] pr-2 pl-4 text-sm leading-6 text-primary-high dark:text-primary-low-medium duration-200"
                               )}
                             >
                               {subItem.name}

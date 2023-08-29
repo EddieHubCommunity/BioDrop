@@ -8,7 +8,7 @@ import Alert from "@components/Alert.js";
 
 <Youtube
   url="https://www.youtube.com/embed/05HEeCQSKRE"
-  title="Linkfree Quickstart Video"
+  title="BioDrop Quickstart Video"
 ></Youtube>
 
 <Alert
@@ -34,21 +34,21 @@ There are 4 ways you can add your Profile with json, but for this Quickstart we 
 To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
 
 1. Log in to your GitHub Account
-2. Visit the <Link target="_blank" href="https://github.com/EddieHubCommunity/LinkFree">LinkFree repo</Link>
+2. Visit the <Link target="_blank" href="https://github.com/EddieHubCommunity/BioDrop">BioDrop repo</Link>
 
-![LinkFree GitHub repo](https://user-images.githubusercontent.com/82668196/208292176-fb2bedf9-8dd1-4fff-b422-30d54f2fdd48.png)
+![BioDrop GitHub repo](https://user-images.githubusercontent.com/82668196/208292176-fb2bedf9-8dd1-4fff-b422-30d54f2fdd48.png)
 
 3. If you wish to be kept up to date with the repo, hit that "Star" at the top right
 
-![Start LinkFree](https://user-images.githubusercontent.com/51131670/210128265-8a23977a-e80e-4037-b94b-253f5a23b8e7.png)
+![Start BioDrop](https://user-images.githubusercontent.com/51131670/210128265-8a23977a-e80e-4037-b94b-253f5a23b8e7.png)
 
 4. Click on Fork
 
 ![create a new fork](https://user-images.githubusercontent.com/51131670/210128263-0716b260-5922-4db3-933d-f7e992b668a9.png)
 
-5. Accept the default fork creating a copy of the LinkFree project in your account - this will take you to the forked repo
+5. Accept the default fork creating a copy of the BioDrop project in your account - this will take you to the forked repo
 
-![LinkFree form](https://user-images.githubusercontent.com/82668196/208292178-92daccad-293d-407a-9d8d-0a86b63d6bd7.png)
+![BioDrop form](https://user-images.githubusercontent.com/82668196/208292178-92daccad-293d-407a-9d8d-0a86b63d6bd7.png)
 
 6. Click add file and select "create new file"
 
@@ -58,8 +58,8 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 For example for username **"SaraJaoude"**:
 
-> - _**Correct**_: `LinkFree/data/SaraJaoude.json` (including capitalisation in filename)
-> - _**Incorrect**_: `LinkFree/data/sarajaoude.json` (filename capitalisation does not match username capitalisation)
+> - _**Correct**_: `BioDrop/data/SaraJaoude.json` (including capitalisation in filename)
+> - _**Incorrect**_: `BioDrop/data/sarajaoude.json` (filename capitalisation does not match username capitalisation)
 
 ![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
 
@@ -99,11 +99,11 @@ For example for username **"SaraJaoude"**:
 
 _note: do not have duplicate links (url)_
 
-| field | type   | description                                                                                                                                                                     |
-| :---- | :----- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| name  | string | The display name for the button                                                                                                                                                 |
-| url   | string | Full url to the resource                                                                                                                                                        |
-| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://linkfree.eddiehub.io/icons) |
+| field | type   | description                                                                                                                                                           |
+| :---- | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  | string | The display name for the button                                                                                                                                       |
+| url   | string | Full url to the resource                                                                                                                                              |
+| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://biodrop.io/icons) |
 
 ![propose new file](https://user-images.githubusercontent.com/82668196/244908686-6f5727c7-b7a1-414b-8ec0-372e8fc287e8.png)
 
@@ -135,8 +135,8 @@ You can skip `optional extended message`
   message={
     <>
       <strong>NOTE</strong>: Please use our online{" "}
-      <Link href="https://linkfree.io/playground">Playground</Link> tool to
-      check your JSON file is <i>valid</i> before committing your pull request.
+      <Link href="https://biodrop.io/playground">Playground</Link> tool to check
+      your JSON file is <i>valid</i> before committing your pull request.
     </>
   }
 />
@@ -156,14 +156,14 @@ You can skip `optional extended message`
   }
 />
 
-| Dropdown     | Description                          | Example values               |
-| :----------- | :----------------------------------- | :--------------------------- |
-| 1st dropdown | Base repository (destination)        | `EddieHubCommunity/LinkFree` |
-| 2nd dropdown | Base repository branch (destination) | `main`                       |
-| 3rd dropdown | Your repository (source)             | `your-username/LinkFree`     |
-| 4th dropdown | Your repository branch (source)      | `your-username-patch-1`      |
+| Dropdown     | Description                          | Example values              |
+| :----------- | :----------------------------------- | :-------------------------- |
+| 1st dropdown | Base repository (destination)        | `EddieHubCommunity/BioDrop` |
+| 2nd dropdown | Base repository branch (destination) | `main`                      |
+| 3rd dropdown | Your repository (source)             | `your-username/BioDrop`     |
+| 4th dropdown | Your repository branch (source)      | `your-username-patch-1`     |
 
-The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/LinkFree` not your username `your-username/LinkFree`.
+The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/BioDrop` not your username `your-username/BioDrop`.
 
 ![compare across forks](https://user-images.githubusercontent.com/79744258/213963791-7234e636-fef2-4ed9-9eb3-eacef04b0239.jpeg)
 
@@ -178,12 +178,12 @@ The first dropdown for the `base` repository (destination) should be set to `Edd
 
 ![pull request](https://user-images.githubusercontent.com/82668196/208292196-c374d328-6bed-4f7b-adbc-b55c29b7c367.png)
 
-An approving review from one of LinkFree's maintainers will show a green check mark next to their id.
+An approving review from one of BioDrop's maintainers will show a green check mark next to their id.
 
 ![maintainer review](https://user-images.githubusercontent.com/35927536/217060602-ba3678d1-f655-4805-a47d-e40f1ddcd59f.png)
 
 18. You will receive a GitHub notification when you have a comment, review, or your Pull Request has been merged
-19. Once merged, your profile will be available a few minutes later on your custom URL (<Link href="https://linkfree.io/SaraJaoude">linkfree.io/SaraJaoude</Link>)
+19. Once merged, your profile will be available a few minutes later on your custom URL (<Link href="https://biodrop.io/SaraJaoude">BioDrop.io/SaraJaoude</Link>)
 
 ![merged pull request](https://user-images.githubusercontent.com/82668196/208292199-e7a01541-5356-4b2f-8b3e-94be121c661f.png)
 
@@ -201,7 +201,7 @@ Looking for inspiration? You can view the <Link href="/docs/full-profile-example
 
 export default ({ children }) => (
   <DocsLayout
-    title="LinkFree QuickStart Documentation"
+    title="BioDrop QuickStart Documentation"
     section="Getting started"
     name="QuickStart"
   >

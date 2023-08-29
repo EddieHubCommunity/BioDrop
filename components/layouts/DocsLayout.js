@@ -5,6 +5,7 @@ import BreadCrumb from "@components/BreadCrumb";
 import Page from "@components/Page";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
 import SideNav from "@components/navbar/SideNav";
+import { PROJECT_NAME } from "@constants/index";
 
 export const navigation = [
   {
@@ -27,7 +28,7 @@ export const navigation = [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
       { name: "JSON to Forms", href: "/docs/how-to-guides/json-to-forms" },
-      { name: "LinkFree CLI", href: "/docs/environments/linkfree-cli" },
+      { name: "BioDrop CLI", href: "/docs/environments/linkfree-cli" },
       { name: "Available Icons", href: "/icons" },
     ],
   },
@@ -117,14 +118,14 @@ export default function DocsLayout({ children, title, section, name }) {
         <title>{title}</title>
         <meta
           name="description"
-          content="Discover more people in your LinkFree community"
+          content={`Discover more people in your ${PROJECT_NAME} community`}
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
         <BreadCrumb section={section} name={name} />
 
-        <div className="flex flex-grow flex-row">
+        <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
           <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
             <MDXProvider components={ComponentStyle}>

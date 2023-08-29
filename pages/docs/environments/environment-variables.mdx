@@ -19,17 +19,17 @@ Environment variables are needed in the `.env` file to allow the application to 
 
 If you want to login, you will need to create a GitHub OAuth app on GitHub and add the credentials to the `.env` file, which are highlighted in bold in the table below. Details on how to create the GitHub OAuth app are in the next section below. If you do not want to login, you can skip this step and the app will still work.
 
-| variable                         | example                                  | required | description                                                                                                 |
-| :------------------------------- | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
-| LINKFREE_MONGO_CONNECTION_STRING | mongodb://localhost:27017/linkfree       | true     | Database connection string                                                                                  |
-| NEXT_PUBLIC_BASE_URL             | http://localhost:3000                    | true     | Hosting URL: localhost:3000 or Gitpod url                                                                   |
-| NODE_ENV                         | development                              | true     | -                                                                                                           |
-| **GITHUB_ID**                    | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
-| **GITHUB_SECRET**                | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
-| NEXTAUTH_URL                     | http://localhost:3000                    | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
-| NEXTAUTH_SECRET                  | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
-| GITHUB_API_TOKEN                 | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
-| ADMIN_USERS                      | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
+| variable                        | example                                  | required | description                                                                                                 |
+| :------------------------------ | :--------------------------------------- | :------- | :---------------------------------------------------------------------------------------------------------- |
+| BIODROP_MONGO_CONNECTION_STRING | mongodb://localhost:27017/biodrop        | true     | Database connection string                                                                                  |
+| NEXT_PUBLIC_BASE_URL            | http://localhost:3000                    | true     | Hosting URL: localhost:3000 or Gitpod url                                                                   |
+| NODE_ENV                        | development                              | true     | -                                                                                                           |
+| **GITHUB_ID**                   | abcedfghil12345                          | true     | GitHub OAuth ID                                                                                             |
+| **GITHUB_SECRET**               | a1b2c3e4f5e6                             | true     | GitHub OAuth Secret                                                                                         |
+| NEXTAUTH_URL                    | http://localhost:3000                    | true     | The url you visit for the app, localhost:3000 or Gitpod url                                                 |
+| NEXTAUTH_SECRET                 | afsfdsafadsf                             | true     | Next Auth Secret, this can be any random characters                                                         |
+| GITHUB_API_TOKEN                | djsbjsjacdnk                             | false    | Github Personal Access Token to increase the read rate limit on GitHub's API (requires minimal permissions) |
+| ADMIN_USERS                     | eddiejaoude,SaraJaoude,\_test-admin-user | false    | Which users can access the admin section                                                                    |
 
 <Alert
   type="warning"
@@ -44,7 +44,7 @@ If you want to login, you will need to create a GitHub OAuth app on GitHub and a
 
 <ClipboardCopy>
 ```js
-LINKFREE_MONGO_CONNECTION_STRING="mongodb://localhost:27017/linkfree"
+BIODROP_MONGO_CONNECTION_STRING="mongodb://localhost:27017/biodrop"
 NEXT_PUBLIC_BASE_URL="http://localhost:3000"
 NODE_ENV="development"
 
@@ -66,9 +66,9 @@ ADMIN_USERS="eddiejaoude,SaraJaoude,\_test-admin-user"
 
 | Form field                 | value                                                                    |
 | :------------------------- | :----------------------------------------------------------------------- |
-| Application name           | `LinkFree local`                                                         |
-| Homepage URL               | `https://linkfree.io`                                                    |
-| Application description    | `LinkFree allows you to connect with your audience using a single link.` |
+| Application name           | `BioDrop local`                                                         |
+| Homepage URL               | `https://biodrop.io`                                                    |
+| Application description    | `BioDrop allows you to connect with your audience using a single link.` |
 | Authorization callback URL | `http://localhost:3000/api/auth/callback/github`                         |
 
 Then use the generated **Client ID** and **Client Secret** in the `.env`.
@@ -85,7 +85,7 @@ Full details on GitHub docs https://docs.github.com/en/authentication/keeping-yo
 
 export default ({ children }) => (
   <DocsLayout
-    title="LinkFree Local Development Documentation"
+    title="BioDrop Local Development Documentation"
     section="Getting started"
     name="Environment variables"
   >

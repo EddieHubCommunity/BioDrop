@@ -13,6 +13,7 @@ import { useState } from "react";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 import UserRepos from "@components/user/UserRepos";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -120,7 +121,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
     <>
       <PageHead
         title="Manage Repositories (repos)"
-        description="Here you can manage your LinkFree repositories."
+        description={`Here you can manage your ${PROJECT_NAME} repositories.`}
       />
 
       <Page>
@@ -136,11 +137,11 @@ export default function ManageRepos({ BASE_URL, repos }) {
           additionalMessage={showNotification.additionalMessage}
         />
 
-        <form onSubmit={handleSubmit}>
+        <form className="mb-2" onSubmit={handleSubmit}>
           <Input
             name="url"
             type="url"
-            placeholder="https://github.com/EddieHubCommunity/LinkFree"
+            placeholder="https://github.com/EddieHubCommunity/BioDrop"
             onChange={(e) => setUrl(e.target.value)}
             value={url}
           />
