@@ -19,6 +19,8 @@ import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -197,6 +199,46 @@ export default function Home({
     <>
       <PageHead />
 
+      <div className="bg-primary-low dark:bg-dark">
+        <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
+              Connect to your audience with a{" "}
+              <span className="text-tertiary-medium">single link</span>
+            </h2>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium dark:text-primary-low mb-4">
+              Showcase the content you create and your projects in one place
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x">
+              <div className="flex items-center gap-x-2 px-4">
+                <FaGithub /> Open Source
+              </div>
+              <div className="flex items-center gap-x-2 px-4">
+                <FaLock /> GitHub OAuth
+              </div>
+              <div className="flex items-center gap-x-2 px-4">
+                <FaDollarSign /> Free Tier Forever
+              </div>
+            </div>
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 mx-24">
+              <Button href="/docs" primary={true}>
+                Get started
+              </Button>
+              <Button href="/#section-features">Explore features</Button>
+            </div>
+            <div className="flex items-center justify-center">
+              <ThemedImage
+                lightImg="https://github.com/EddieHubCommunity/BioDrop/assets/624760/abbe138e-17dc-4f9d-974d-d370621e3eb3"
+                darkImg="https://github.com/EddieHubCommunity/BioDrop/assets/624760/8440663f-5f2f-46a4-941a-24bd33686877"
+                width="600"
+                height="600"
+                alt="BioDrop demo image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
         {alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
@@ -229,20 +271,13 @@ export default function Home({
       <div className="bg-primary-low dark:bg-dark">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
-            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20">
+            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
               <div className="lg:self-center">
-                <h1 className="text-2xl font-bold tracking-tight text-primary-low sm:text-4xl">
-                  <span className="block">Connect to your audience</span>
-                  <span className="block">with a single link</span>
-                </h1>
-                <p className="mt-4 text-lg leading-6 text-primary-low">
-                  Showcase the content you create and your projects in one
-                  place. Make it easier for people to find, follow and
-                  subscribe.
-                </p>
-                <p className="mt-4 text-xl leading-6 text-primary-low">
-                  100% Open Source
-                </p>
+                <h3 className="text-lg tracking-tight text-primary-low sm:text-4xl">
+                  <span className="block">
+                    Make it easier for people to find, follow and subscribe.
+                  </span>
+                </h3>
               </div>
             </div>
             <div className="aspect-w-16 aspect-h-9">
@@ -267,7 +302,7 @@ export default function Home({
         button2Text="Example"
       />
 
-      <div className="bg-primary-high dark:bg-black">
+      <div className="bg-primary-high dark:bg-black" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
