@@ -1,3 +1,12 @@
+## [2.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.0...v2.4.1) (2023-08-29)
+
+
+### Bug Fixes
+
+* reduce api data for daily stats ([#8834](https://github.com/EddieHubCommunity/BioDrop/issues/8834)) ([603ddfd](https://github.com/EddieHubCommunity/BioDrop/commit/603ddfd3742e8f925bb6c748dd6fe8fc1876920c))
+
+
+
 # [2.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.3.0...v2.4.0) (2023-08-29)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * link vercel analytics ([#8822](https://github.com/EddieHubCommunity/BioDrop/issues/8822)) ([6a913fd](https://github.com/EddieHubCommunity/BioDrop/commit/6a913fd01e49bffc4048aee2303a0d15c496e41e))
-
-
-
-# [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
-
-
-### Features
-
-* navbar + footer links to have event stats ([#8820](https://github.com/EddieHubCommunity/BioDrop/issues/8820)) ([6650356](https://github.com/EddieHubCommunity/BioDrop/commit/6650356638ba98e717f39aed11012f766ba062a6))
 
 
 
