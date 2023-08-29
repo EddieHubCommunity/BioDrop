@@ -6,6 +6,7 @@ import Alert from "@components/Alert";
 import IconCard from "@components/IconCard";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
@@ -48,15 +49,15 @@ export default function Icons() {
   return (
     <>
       <PageHead
-        title="LinkFree Search Icons"
-        description="Search LinkFree icon directory"
+        title={`${PROJECT_NAME} Search Icons`}
+        description={`Search ${PROJECT_NAME} icon directory`}
       />
 
       <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input
           placeholder="Search Icons (minimum 3 characters)"
-          className="border-2 hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
+          className="border-2 dark:bg-primary-high hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
           onChange={(e) => searchIcons(e.target.value)}
         />

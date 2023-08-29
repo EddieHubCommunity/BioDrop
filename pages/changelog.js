@@ -1,7 +1,9 @@
-import { CalendarIcon } from "@heroicons/react/20/solid";
+import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
+import { classNames } from "@services/utils/classNames";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Changelog() {
   const colors = {
@@ -10,6 +12,55 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Project rename",
+      description:
+        "Renamed from LinkFree to BioDrop - all existing links will redirect",
+      type: "addition",
+      date: "2023-08-26",
+    },
+    {
+      title: "Links animation",
+      description:
+        "Have your links stand out even further with a subtle animation",
+      type: "addition",
+      date: "2023-08-19",
+    },
+    {
+      title: "Discover Profile",
+      description:
+        "Discover recently created/updated profiles - this is great to encourage people to update their Profiles",
+      type: "addition",
+      date: "2023-08-11",
+    },
+    {
+      title: "GitHub Repos showcase",
+      description:
+        "Now you can add repos to your Profile and they also appear in the global repos page",
+      type: "addition",
+      date: "2023-08-01",
+    },
+    {
+      title: "Share profile on social media",
+      description:
+        "With the QR code, there is also a link copy and social share buttons",
+      type: "addition",
+      date: "2023-07-10",
+    },
+    {
+      title: "Reorder testimonials and links",
+      description:
+        "As these items don't have lists you may want to reorder them",
+      type: "addition",
+      date: "2023-07-06",
+    },
+    {
+      title: "Manage profile with forms",
+      description:
+        "We now have functionality to manage your profile with forms",
+      type: "addition",
+      date: "2023-06-14",
+    },
+    {
       title: "Custom login page",
       description:
         "We were using the standard Next-Auth page but now we have a branded login page",
@@ -17,29 +68,26 @@ export default function Changelog() {
       date: "2023-05-04",
     },
     {
-      title: "LinkFree now has DarkMode",
-      description:
-        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
+      title: `${PROJECT_NAME} now has DarkMode`,
+      description: `Yes it is finally here, dark mode is now available on ${PROJECT_NAME}. You can toggle it on/off from the main Navbar`,
       type: "addition",
       date: "2023-04-08",
     },
     {
       title: "Profile QR code download",
-      description:
-        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      description: `It is now possible to download your ${PROJECT_NAME} QR code, so you can use it offline and in other places.`,
       type: "addition",
       date: "2023-03-31",
     },
     {
       title: "Profile progress bar",
-      description: "It is now possible to track your LinkFree profile progress",
+      description: `It is now possible to track your ${PROJECT_NAME} profile progress`,
       type: "addition",
       date: "2023-03-26",
     },
     {
       title: "Dedicated domain (url)",
-      description:
-        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      description: `You can start using the shorter url ${PROJECT_NAME}.io, the previous domain still works also`,
       type: "addition",
       date: "2023-03-12",
     },
@@ -66,7 +114,7 @@ export default function Changelog() {
     },
     {
       title: "World Map",
-      description: "See LinkFree users on a world wide map",
+      description: `See ${PROJECT_NAME} users on a world wide map`,
       type: "addition",
       date: "2023-01-24",
     },
@@ -79,7 +127,7 @@ export default function Changelog() {
     },
     {
       title: "`avatar` json property no longer required",
-      description: "Now will default to using people's GitHub proile picture",
+      description: "Now will default to using people's GitHub profile picture",
       type: "removal",
       date: "2023-01-07",
     },
@@ -88,13 +136,13 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree user changelog"
-        description="What are the latest features and changes to LinkFree"
+        title={`${PROJECT_NAME} user changelog`}
+        description="What are the latest features and changes to BioDrop"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
 
-        <div className="overflow-hidden bg-white shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
+        <div className="overflow-hidden bg-primary-low shadow dark:bg-primary-medium dark:border dark:border-primary-low sm:rounded-md">
           <ul role="list" className="divide-y divide-primary-low">
             {changes.map((change) => (
               <li key={change.title}>
@@ -105,9 +153,10 @@ export default function Changelog() {
                     </p>
                     <div className="ml-2 flex flex-shrink-0">
                       <p
-                        className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
-                          colors[change.type]
-                        }`}
+                        className={classNames(
+                          colors[change.type],
+                          "inline-flex rounded-full px-2 text-xs font-semibold leading-5"
+                        )}
                       >
                         {change.type}
                       </p>

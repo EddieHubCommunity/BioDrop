@@ -1,6 +1,20 @@
 {
-  "version": "1.144.8",
+  "version": "2.3.0",
   "alerts": [],
+  "layouts": [
+    "classic",
+    "inline",
+    "column-2"
+  ],
+  "animations": {
+    "none": "No Animation",
+    "pulse": "Pulse",
+    "bounce": "Bounce",
+    "ping": "Ping",
+    "glow": "Glow",
+    "wiggle": "Wiggle",
+    "iconGlow": "Glow Icon"
+  },
   "isr": {
     "homepage": {
       "revalidateSeconds": 900,

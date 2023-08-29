@@ -1,10 +1,10 @@
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 // Changelog Page
 test("Changelog has title", async ({ page }) => {
   await page.goto("/changelog");
-  await expect(page).toHaveTitle("LinkFree user changelog");
+  await expect(page).toHaveTitle("BioDrop user changelog");
 });
 
 // Navigating to Changelog Page

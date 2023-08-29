@@ -1,89 +1,64 @@
-import { useRouter } from "next/router";
-import Image from "next/image";
 import { IconContext } from "react-icons";
 import Script from "next/script";
+import { MdHelpOutline } from "react-icons/md";
+import va from "@vercel/analytics";
 
-import {
-  MdOutlinePlayArrow,
-  MdHelpOutline,
-  MdOutlineLink,
-  MdOutlinePersonPin,
-  MdOutlineAutoGraph,
-  MdOutlineEditCalendar,
-} from "react-icons/md";
-import { FaMedal } from "react-icons/fa";
-
+import config from "@config/app.json";
+import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
+import { getRandomProfileApi } from "./api/discover/random";
+import { classNames } from "@services/utils/classNames";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
-import Button from "@components/Button";
 import Testimonials from "@components/Testimonials";
-import GitHubAccelerator from "@components/GitHubAccelerator";
 import Alert from "@components/Alert";
-import config from "@config/app.json";
-import Newsletter from "@components/Newsletter";
+import CallToAction from "@components/CallToAction";
+import UserMini from "@components/user/UserMini";
+import ThemedImage from "@components/ThemedImage";
+import { serverEnv } from "@config/schemas/serverSchema";
+import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export async function getStaticProps() {
-  const pageConfig = config.isr.homepage; // Fetch the specific configuration for this page
+  const pageConfig = config.isr.homepage;
 
   const { stats: totalStats } = await getTotalStats();
   const { stats: todayStats } = await getTodayStats();
+  const randomProfile = await getRandomProfileApi();
+
+  let alerts = structuredClone(config.alerts);
+  if (
+    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
+    serverEnv.NODE_ENV === "development" &&
+    totalStats.users === 0
+  ) {
+    alerts.push({
+      type: "warning",
+      message:
+        'To (re)load json files and any changes, please visit "/api/system/reload?secret=development"',
+    });
+  }
 
   return {
-    props: { total: totalStats, today: todayStats },
+    props: {
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+      total: totalStats,
+      today: todayStats,
+      randomProfile,
+      alerts,
+    },
     revalidate: pageConfig.revalidateSeconds,
   };
 }
 
-export default function Home({ total, today }) {
-  const router = useRouter();
-  const newsletter = router.query.newsletter;
-
-  const features = [
-    {
-      name: "QuickStart",
-      description:
-        "Learn how to add your basic LinkFree Profile within a few minutes",
-      icon: MdOutlinePlayArrow,
-      path: "/docs/quickstart",
-    },
-    {
-      name: "Links",
-      description: "Let people discover all your great content in one place",
-      icon: MdOutlineLink,
-      path: "/docs/how-to-guides/links",
-    },
-    {
-      name: "Bio",
-      description:
-        "Encourage people to find out more about you and what you do",
-      icon: MdOutlinePersonPin,
-      path: "/docs/how-to-guides/bio",
-    },
-    {
-      name: "Statistics",
-      description: "Learn which of your links and content performs best",
-      icon: MdOutlineAutoGraph,
-      path: "/docs/how-to-guides/statistics",
-    },
-    {
-      name: "Events",
-      description:
-        "Hosting or attending events, let people know what you are up to",
-      icon: MdOutlineEditCalendar,
-      path: "/docs/how-to-guides/events",
-    },
-    {
-      name: "Milestones",
-      description:
-        "Demonstrate the highlights of your career by adding Milestones to your Profile",
-      icon: FaMedal,
-      path: "/docs/how-to-guides/milestones",
-    },
-  ];
-
+export default function Home({
+  total,
+  today,
+  randomProfile,
+  BASE_URL,
+  alerts,
+}) {
   const featuresDetails = [
     {
       name: "Your Bio, Social links and Stats",
@@ -92,7 +67,8 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
       imageAlt:
-        "LinkFree screenshot of the bio and social links in example profile",
+        PROJECT_NAME +
+        " screenshot of the bio and social links in example profile",
     },
     {
       name: "Your Tags",
@@ -100,7 +76,7 @@ export default function Home({ total, today }) {
         "Make your Profile discoverable with tags that describe you.",
       imageSrc:
         "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
-      imageAlt: "LinkFree screenshot of the tags in example profile",
+      imageAlt: PROJECT_NAME + " screenshot of the tags in example profile",
     },
     {
       name: "Search by Tags",
@@ -109,7 +85,8 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/83087385/234587034-baaf983f-1a91-4d2c-b28c-e9f4c9bb9509.png",
       imageAlt:
-        "LinkFree screenshot of search page using tags for searching profiles.",
+        PROJECT_NAME +
+        " screenshot of search page using tags for searching profiles.",
     },
     {
       name: "Your QR code",
@@ -117,7 +94,7 @@ export default function Home({ total, today }) {
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
         "https://user-images.githubusercontent.com/100528412/211307797-e7ae2d78-f7e2-48c5-a4d2-910bcb69a8e5.png",
-      imageAlt: "LinkFree screenshot of a QR code example",
+      imageAlt: PROJECT_NAME + " screenshot of a QR code example",
     },
     {
       name: "Your Links",
@@ -125,15 +102,15 @@ export default function Home({ total, today }) {
         "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
-      imageAlt: "LinkFree screenshot of links section of an example profile",
+      imageAlt:
+        PROJECT_NAME + " screenshot of links section of an example profile",
     },
     {
-      name: "LinkFree Statistics",
-      description:
-        "View details of your LinkFree profile, with views and url clicks",
+      name: PROJECT_NAME + " Statistics",
+      description: `View details of your ${PROJECT_NAME} profile, with views and url clicks.`,
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
-      imageAlt: "LinkFree screenshot of account statistics page",
+      imageAlt: PROJECT_NAME + " screenshot of account statistics page",
     },
     {
       name: "Your Milestones",
@@ -142,7 +119,8 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063788-3c496c46-78e8-49f1-a633-b2c34536fcc4.png",
       imageAlt:
-        "LinkFree screenshot of milestones section of an example profile",
+        PROJECT_NAME +
+        " screenshot of milestones section of an example profile",
     },
     {
       name: "Your Testimonials",
@@ -150,7 +128,8 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
       imageAlt:
-        "LinkFree screenshot of testimonials section of an example profile",
+        PROJECT_NAME +
+        " screenshot of testimonials section of an example profile",
     },
     {
       name: "Your Events",
@@ -158,7 +137,8 @@ export default function Home({ total, today }) {
         "Hosting or attending events, let people know what you are up to.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
-      imageAlt: "LinkFree screenshot of events section of an example profile",
+      imageAlt:
+        PROJECT_NAME + " screenshot of events section of an example profile",
     },
     {
       name: "Community Events",
@@ -167,14 +147,23 @@ export default function Home({ total, today }) {
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
-        "LinkFree screenshot of community events section in the Community Section tab",
+        PROJECT_NAME +
+        " screenshot of community events section in the Community Section tab",
     },
     {
-      name: "LinkFree Map",
-      description: "Discover people around the world from the LinkFree Map.",
+      name: PROJECT_NAME + " Map",
+      description: "Discover people around the world from the BioDrop Map.",
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
-      imageAlt: "LinkFree screenshot of Map Page",
+      imageAlt: PROJECT_NAME + " screenshot of Map Page",
+    },
+    {
+      name: "Your GitHub Repositories (repos)",
+      description:
+        "Add your GitHub repos to your Profile and they appear on the community repo page.",
+      imageSrc:
+        "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
+      imageAlt: "BioDrop screenshot of Repo Page",
     },
   ];
 
@@ -184,52 +173,35 @@ export default function Home({ total, today }) {
       name: "Francesco Ciulla",
       bio: "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
       username: "FrancescoXX",
-      text: "I had another similar (paid) service. I tried LinkFree for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community",
+      text: `I had another similar (paid) service. I tried ${PROJECT_NAME} for a week and  I got almost double the clicks on the links in the same period, redirecting from the same link. I decided to start using it regularly. I am very  satisfied. It's not just a list of links but it's backed by a great Open Source community`,
     },
     {
       image: "https://github.com/amandamartin-dev.png",
       name: "Amanda Martin",
       bio: "Developer Advocate | Always Curious | Always Silly",
       username: "amandamartin-dev",
-      text: "Where LinkFree really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.",
+      text: `Where ${PROJECT_NAME} really stands out is the ability to make meaningful connections and find collaborators due to thoughtful features that are not simply about chasing ways to build your audience. The fact that it's also Open Source really makes it the tool I was waiting for in this space.`,
     },
     {
       image: "https://github.com/Pradumnasaraf.png",
       name: "Pradumna Saraf",
-      bio: "Open Source Advocate | DevOps Engineer | EddieHub Ambassador",
+      bio: "Developer Advocate 🥑 | DevOps | Golang Developer | EddieHub Ambassador",
       username: "Pradumnasaraf",
-      text: "LinkFree is very close to me because I have seen it evolve. With LinkFree, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
+      text:
+        PROJECT_NAME +
+        " is very close to me because I have seen it evolve. With BioDrop, I have discovered so many amazing people in tech. Some of my favorite features are the barcode for profiles and testimonials. If you are reading this and don't have a profile, I highly recommend doing that. Thank you, Eddie and EddieHub community, for building this incredible app.",
     },
   ];
-
-  function classNames(...classes) {
-    return classes.filter(Boolean).join(" ");
-  }
 
   return (
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-primary-high mb-8 p-8 drop-shadow-md">
-        {config.alerts.map((alert, index) => (
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
+        {alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
 
-        {newsletter && (
-          <Alert
-            type="success"
-            message="Thank you for subscribing to our newsletter!"
-          />
-        )}
-
-        <h2 className="tracking-tight sm:tracking-tight flex sm:flex-row items-center justify-between flex-col">
-          <span className="text-4xl font-bold text-secondary-high dark:text-secondary-low">
-            LinkFree
-          </span>
-          <span className="text-2xl dark:text-primary-low text-primary-medium">
-            100% Open Source
-          </span>
-        </h2>
         <BasicCards
           data={[
             {
@@ -254,12 +226,12 @@ export default function Home({ total, today }) {
         />
       </div>
 
-      <div className="bg-white dark:bg-primary-high">
+      <div className="bg-primary-low dark:bg-dark">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
-          <div className="overflow-hidden rounded-lg bg-secondary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
-            <div className="px-6 pt-10 pb-12 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+          <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
+            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20">
               <div className="lg:self-center">
-                <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                <h1 className="text-2xl font-bold tracking-tight text-primary-low sm:text-4xl">
                   <span className="block">Connect to your audience</span>
                   <span className="block">with a single link</span>
                 </h1>
@@ -268,52 +240,42 @@ export default function Home({ total, today }) {
                   place. Make it easier for people to find, follow and
                   subscribe.
                 </p>
+                <p className="mt-4 text-xl leading-6 text-primary-low">
+                  100% Open Source
+                </p>
               </div>
             </div>
             <div className="aspect-w-16 aspect-h-9">
               <div
-                className="kartra_video_containergbHEDtAnMwlF js_kartra_trackable_object"
+                className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
                 data-kt-type="video"
-                data-kt-value="gbHEDtAnMwlF"
+                data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/gbHEDtAnMwlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-primary-low dark:bg-primary-high">
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
-            <span className="block">Ready to dive in?</span>
-            <span className="block text-secondary-high dark:text-secondary-low">
-              Add your free Profile today!
-            </span>
-          </h2>
-          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-            <div className="inline-flex rounded-md shadow">
-              <Button
-                href="/docs/quickstart"
-                primary={true}
-              >Get started</Button>
-            </div>
-            <div className="ml-3 inline-flex rounded-md shadow ">
-              <Button href="/eddiejaoude">Example</Button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CallToAction
+        title="Ready to dive in?"
+        description="Add your free Profile today!"
+        button1Link="/docs"
+        button1Text="Get started"
+        button2Link="/eddiejaoude"
+        button2Text="Example"
+      />
 
-      <div className="bg-secondary-high">
+      <div className="bg-primary-high dark:bg-black">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
               Features
             </h2>
-            <p className="mt-4 text-white text-xl">
+            <p className="mt-4 text-primary-low text-xl">
               It is not just links... Take a look at the Features you can add to
-              customize your LinkFree Profile.
+              customize your {PROJECT_NAME} Profile.
             </p>
           </div>
 
@@ -331,10 +293,10 @@ export default function Home({ total, today }) {
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg sm:text-2xl font-medium text-white">
+                  <h3 className="text-lg sm:text-2xl font-medium text-primary-low">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm sm:text-lg text-white">
+                  <p className="mt-2 text-sm sm:text-lg text-primary-low">
                     {feature.description}
                   </p>
                 </div>
@@ -347,8 +309,9 @@ export default function Home({ total, today }) {
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
-                    <Image
-                      src={feature.imageSrc}
+                    <ThemedImage
+                      lightImg={feature.imageSrc}
+                      darkImg={feature.imageSrc}
                       alt={feature.imageAlt}
                       className="object-contain object-center"
                       fill={true}
@@ -361,68 +324,35 @@ export default function Home({ total, today }) {
         </div>
       </div>
 
-      <div className="relative bg-white dark:bg-primary-high py-8 sm:py-12 lg:py-24">
-        <div className="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">
-          <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
-            Getting Started
-          </h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
-            Popular User Guides
-          </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-primary-medium dark:text-primary-low-high">
-            Here is a selection of our popular documentation guides to help you
-            get started.
-          </p>
-          <div className="mt-20">
-            <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
-              {features.map((feature) => (
-                <div key={feature.name} className="pt-6">
-                  <Link
-                    aria-label={`Go to ${feature.name} page`}
-                    href={feature.path}
-                    className="text-primary-high dark:text-primary-low-medium group"
-                  >
-                    <div className="flow-root rounded-lg bg-primary-low dark:bg-primary-medium px-6 pb-8">
-                      <div className="-mt-6">
-                        <div>
-                          <span className="inline-flex items-center justify-center rounded-xl bg-secondary-high p-3 shadow-lg">
-                            <feature.icon
-                              className="h-8 w-8 text-white "
-                              aria-hidden="true"
-                            />
-                          </span>
-                        </div>
-                        <h3 className="mt-8 text-lg font-semibold leading-8 tracking-tight group-hover:underline group-hover:text-secondary-medium dark:text-white">
-                          {feature.name}
-                        </h3>
-                        <p className="mt-5 text-base leading-7 text-primary-high dark:text-primary-low-medium">
-                          {feature.description}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <Newsletter />
+      {randomProfile.username && (
+        <UserMini
+          BASE_URL={BASE_URL}
+          text="Follow..."
+          username={randomProfile.username}
+          name={randomProfile.name}
+          bio={randomProfile.bio}
+        />
+      )}
 
       <Testimonials data={testimonials} />
 
-      <GitHubAccelerator />
+      <CallToAction
+        title="Subscribe to our newsletter to learn more"
+        description="Do not miss out!"
+        button1Link="https://biodrop.substack.com"
+        button1Text="Subscribe"
+        button1OnClick={() => va.track("newsletter", { location: "homepage" })}
+      />
 
       <Link
-        href="https://github.com/EddieHubCommunity/LinkFree/discussions"
+        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
       >
-        <div className="px-4 py-2 bg-secondary-medium text-white flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-high-high">
+        <div className="px-4 py-2 bg-tertiary-medium text-primary-medium flex items-center gap-1 rounded-full hover:drop-shadow-lg hover:bg-secondary-medium">
           <IconContext.Provider
-            value={{ color: "white", style: { verticalAlign: "middle" } }}
+            value={{ color: "primary-low", style: { verticalAlign: "middle" } }}
           >
             <MdHelpOutline />
           </IconContext.Provider>

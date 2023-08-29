@@ -1,8 +1,8 @@
 import { IconContext } from "react-icons";
 import { FaRegComments } from "react-icons/fa";
-import requestIp from "request-ip";
 import { remark } from "remark";
 import strip from "strip-markdown";
+import requestIp from "request-ip";
 
 import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -12,18 +12,18 @@ import PageHead from "@components/PageHead";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const username = context.query.username;
-  const log = logger.child({
-    username: username,
+
+  const { status, profile } = await getUserApi(req, res, username, {
+    referer: req.headers.referer,
     ip: requestIp.getClientIp(req),
   });
-
-  const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
-    log.error(
+    logger.error(
       profile.error,
       `profile loading failed for username: ${username}`
     );
@@ -36,13 +36,13 @@ export async function getServerSideProps(context) {
     };
   }
 
-  log.info(`data loaded for username: ${username}`);
+  logger.info(`data loaded for username: ${username}`);
 
   try {
     const processedBio = await remark().use(strip).process(profile.bio);
     profile.cleanBio = processedBio.toString();
   } catch (e) {
-    log.error(e, `cannot strip markdown for: ${username}`);
+    logger.error(e, `cannot strip markdown for: ${username}`);
     profile.cleanBio = profile.bio;
   }
 
@@ -59,7 +59,7 @@ export default function User({ data, BASE_URL }) {
         description={data.cleanBio}
         ogTitle={data.name}
         ogDescription={data.cleanBio}
-        ogUrl={`https://linkfree.eddiehub.io/${data.username}`}
+        ogUrl={`https://biodrop.io/${data.username}`}
         ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"
       />
@@ -69,18 +69,20 @@ export default function User({ data, BASE_URL }) {
       </Page>
 
       <Link
-        href={`https://github.com/EddieHubCommunity/LinkFree/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
+        href={`${BASE_GITHUB_PROJECT_URL}/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
       >
-        <div className="px-4 py-2 bg-secondary-high text-white flex items-center gap-1 rounded-full hover:bg-secondary-high-high hover:drop-shadow-lg">
+        <div className="px-4 py-2 bg-tertiary-medium text-primary-low flex items-center gap-1 rounded-full hover:bg-secondary-medium hover:drop-shadow-lg">
           <IconContext.Provider
             value={{ color: "white", style: { verticalAlign: "middle" } }}
           >
             <FaRegComments />
           </IconContext.Provider>
-          <p className="text-sm font-medium">Add testimonial for {data.name}</p>
+          <p className="text-sm font-medium text-primary-medium">
+            Add testimonial for {data.name}
+          </p>
         </div>
       </Link>
     </>

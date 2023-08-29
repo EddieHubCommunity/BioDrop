@@ -1,0 +1,78 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## Milestones - with Forms
+
+Demonstrate the highlights of your career by adding Milestones to your Profile. This could be when you got your first job or reaching 100k followers/subscribers.
+
+This guide helps you add a Milestone where you already have a Profile (created with JSON or through Forms).
+
+## Add a Milestone
+
+1. Go to the [BioDrop homepage](https://biodrop.io/)
+
+2. Click on `Log in`
+
+![BioDrop Homepage](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. You will be taken to your Profile's Statistics page
+
+Click on `Milestones`
+
+![BioDrop Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/bee35399-1a39-4c8e-9abc-cfddb6c98d99)
+
+4. This will take you to the Milestones page
+
+Click `Add Milestone`
+
+![BioDrop Add Milestones page](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/71aa9aa6-cab7-4041-bc56-767e34ac8504)
+
+Note: If you already have milestones in your Profile these will shown here. If you want to edit an existing milestone then please refer to Edit a Milestone below.
+
+5. Complete the information on the Form
+
+![BioDrop Link Form](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/0180dbab-d6f7-4108-9750-bdb5d4e05371)
+
+| Field           | Description                                                                                                                                                 |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Milestone Title | Give a name to how best to describe this milestone (this could be a job title)                                                                              |
+| Description     | Concisely explain what this milestone relates to                                                                                                            |
+| URL             | Add a link to a site that gives more details on this milestone (if your milestone refers to your YouTube channel, you can add the link to the channel here) |
+| Date            | Add the date of when this milestone was achieved by using the date picker                                                                                   |
+| Icon            | Select from the [Available Icons](https://biodrop.io/icons) the one which best describes this milestone                                                     |
+| Future Goal     | If this milestone is one you want to achieve in the future then turn on the toggle                                                                          |
+
+Note: as you complete these fields the information will appear on the right hand side, which will allow you to preview how your Milestone will look.
+
+6. Click `Save`
+
+7. Your milestone will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+## Edit a Milestone
+
+1. To edit a milestone which is already on your Profile, firstly follow steps 1 to 3 shown above in Add a Milestone
+
+2. On the Milestone page, click on the pencil icon as shown below
+
+![BioDrop Milestone](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/03f5577e-fa95-4a42-97cd-e48b80cc65ee)
+
+3. You will be taken to a Form which will have the existing information for that milestone which you can change
+
+![BioDrop Milestones Form](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/4b86704c-0db4-494a-9e9a-50dc1609258a)
+
+Note: as you change these fields the information will appear on the right hand side, which will allow you to preview how your Link will look.
+
+4. Click `Save`
+
+5. Your milestone will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -7,6 +7,7 @@ import { authOptions } from "pages/api/auth/[...nextauth]";
 import { BsGithub } from "react-icons/bs";
 import Button from "@components/Button";
 import Link from "@components/Link";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -30,7 +31,7 @@ export default function SignIn() {
             height={100}
             className="mx-auto h-64 w-auto"
             src="/logo512.png"
-            alt="LinkFree logo"
+            alt={`${PROJECT_NAME} logo`}
           />
         </Link>
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium flex flex-col">
@@ -38,19 +39,18 @@ export default function SignIn() {
           <span className="text-tertiary-medium">with a single link</span>
         </h2>
 
-        <Button
-          primary={true}
-          key="github"
-          onClick={() => signIn("github")}
-        >
+        <Button primary={true} key="github" onClick={() => signIn("github")}>
           <span className="mr-2">
             <BsGithub className="text-2xl" />
           </span>
           Continue with GitHub
         </Button>
 
-        <p className="mt-10 text-center text-sm text-gray-500">
-          100% Open Source and FREE forever!
+        <p className="mt-10 text-center text-sm text-primary-low-medium">
+          Don&lsquo;t have a GitHub account? Create one on{" "}
+          <Link href="https://github.com/signup" target="_blank">
+            GitHub
+          </Link>
         </p>
       </div>
     </div>
