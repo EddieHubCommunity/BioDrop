@@ -27,8 +27,6 @@ export default async function handler(req, res) {
 export async function getStats(username, numberOfDays = 30) {
   await connectMongo();
 
-  // is the format okay? or should it be in this => '1m, 2m, 1y, 4m' instead of the numbers
-
   // This calculates the start date by subtracting the specified number of days from the current date. 
   // The query then retrieves data from that calculated start date up to the current date.
   const startDate = new Date();
