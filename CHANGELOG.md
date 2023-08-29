@@ -1,45 +1,45 @@
-## [1.176.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.1...v1.176.2) (2023-08-17)
-
-
-### Bug Fixes
-
-* store country instead of ip ([#8681](https://github.com/EddieHubCommunity/LinkFree/issues/8681)) ([9976151](https://github.com/EddieHubCommunity/LinkFree/commit/99761512c5e31eacf1f9dcec1adab56b293bebb2))
-
-
-
-## [1.176.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.176.0...v1.176.1) (2023-08-17)
-
-
-### Bug Fixes
-
-* replace on profile extra stats ([#8679](https://github.com/EddieHubCommunity/LinkFree/issues/8679)) ([eadbf57](https://github.com/EddieHubCommunity/LinkFree/commit/eadbf57ea1edad8969e6617e0cb382b36035b799))
-
-
-
-# [1.176.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.2...v1.176.0) (2023-08-17)
+# [2.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.3.0...v2.4.0) (2023-08-29)
 
 
 ### Features
 
-* profile visitors ip/location ([#8677](https://github.com/EddieHubCommunity/LinkFree/issues/8677)) ([4729e00](https://github.com/EddieHubCommunity/LinkFree/commit/4729e0093e1ef62e653bf8ddceb42de99420842e))
+* improved landing page ([#8842](https://github.com/EddieHubCommunity/BioDrop/issues/8842)) ([de180df](https://github.com/EddieHubCommunity/BioDrop/commit/de180df1f3115e9c024a972d68fb5ce4cb389c79))
 
 
 
-## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
+# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
+
+
+### Features
+
+* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
+
+
+
+# [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
+
+
+### Features
+
+* profile rank ([#8808](https://github.com/EddieHubCommunity/BioDrop/issues/8808)) ([64ba0d5](https://github.com/EddieHubCommunity/BioDrop/commit/64ba0d52e642dd12f0adc6333967a016585ca4bb))
+
+
+
+## [2.1.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.0...v2.1.1) (2023-08-28)
 
 
 ### Bug Fixes
 
-* dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
+* link vercel analytics ([#8822](https://github.com/EddieHubCommunity/BioDrop/issues/8822)) ([6a913fd](https://github.com/EddieHubCommunity/BioDrop/commit/6a913fd01e49bffc4048aee2303a0d15c496e41e))
 
 
 
-## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
+# [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
 
 
-### Bug Fixes
+### Features
 
-* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
+* navbar + footer links to have event stats ([#8820](https://github.com/EddieHubCommunity/BioDrop/issues/8820)) ([6650356](https://github.com/EddieHubCommunity/BioDrop/commit/6650356638ba98e717f39aed11012f766ba062a6))
 
 
 

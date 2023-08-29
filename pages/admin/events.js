@@ -12,6 +12,7 @@ import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -97,8 +98,8 @@ export default function Events({ events }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin over"
-        description="Overview for LinkFree admins"
+        title={`${PROJECT_NAME} admin over`}
+        description={`Overview for ${PROJECT_NAME} admins`}
       />
       <Page>
         <Navigation />

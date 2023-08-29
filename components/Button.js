@@ -7,11 +7,11 @@ export default function Button({
   ...restProps
 }) {
   let className =
-    "w-full inline-flex items-center flex-1 justify-center rounded-md border-2 border-gray-500 hover:border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
+    "w-full inline-flex items-center flex-1 justify-center rounded-md border-2 border-primary-high dark:border-white hover:border-transparent px-5 py-3 text-base font-medium first-letter:bg-white transition duration-400 ease-in-out";
   !disable
     ? (className += primary
-        ? " text-white bg-secondary-medium hover:bg-secondary-high"
-        : " text-secondary-high dark:text-secondary-high-high hover:text-white dark:hover:text-white dark:bg-secondary-low hover:bg-secondary-medium dark:hover:bg-secondary-medium")
+        ? " text-primary-medium bg-secondary-medium hover:bg-tertiary-medium"
+        : " text-secondary-high dark:text-secondary-high-high hover:text-white dark:hover:text-white dark:bg-primary-low hover:bg-secondary-medium dark:hover:bg-secondary-medium")
     : (className += disable
         ? " border-2 border-red border shadow-sm bg-primary-low text-primary-medium cursor-not-allowed "
         : " cursor-pointer");

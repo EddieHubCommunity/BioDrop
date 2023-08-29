@@ -11,7 +11,11 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
-import { cleanSearchInput, searchTagNameInInput } from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
+import {
+  cleanSearchInput,
+  searchTagNameInInput,
+} from "@services/utils/search/tags";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -55,8 +59,7 @@ export async function getServerSideProps(context) {
   try {
     if (keyword) {
       serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
-    }
-    else {
+    } else {
       serverProps.randUsers = await fetchRandomUsers();
     }
   } catch (e) {
@@ -158,8 +161,6 @@ export default function Search({
     setInputValue(keyword);
   };
 
-
-
   const usersPerPage = 20;
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
@@ -173,8 +174,8 @@ export default function Search({
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title={`${PROJECT_NAME} Search Users`}
+        description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Search</h1>

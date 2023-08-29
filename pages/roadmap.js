@@ -6,6 +6,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
 import { classNames } from "@services/utils/classNames";
+import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 
 export default function Roadmap() {
   const releases = [
@@ -33,10 +34,13 @@ export default function Roadmap() {
     {
       name: "WIP",
       id: "release-in-progress",
-      href: "https://github.com/EddieHubCommunity/LinkFree/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
+      href:
+        BASE_GITHUB_PROJECT_URL +
+        "/pulls?q=is%3Apr+is%3Aopen+-label%3A%22✍+chore%3A+profile+addition%22+",
       external: true,
       actionText: "Issue list",
-      description: "Features that are currently being worked on or will be soon.",
+      description:
+        "Features that are currently being worked on or will be soon.",
       features: [
         "Show more detailed statistics",
 
@@ -54,7 +58,9 @@ export default function Roadmap() {
     {
       name: "Coming soon",
       id: "release-future",
-      href: "https://github.com/EddieHubCommunity/LinkFree/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee",
+      href:
+        BASE_GITHUB_PROJECT_URL +
+        "/issues?q=is%3Aissue+is%3Aopen+no%3Aassignee",
       external: true,
       actionText: "Unassigned issue list",
       description: "Features are being planned for the near future.",
@@ -78,13 +84,13 @@ export default function Roadmap() {
   return (
     <>
       <PageHead
-        title="LinkFree Roadmap"
-        description="Features in progress and coming soon on LinkFree"
+        title={`${PROJECT_NAME} Roadmap`}
+        description={`Features in progress and coming soon on ${PROJECT_NAME}`}
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Roadmap</h1>
 
-        <div className="bg-white dark:bg-primary-high pb-12">
+        <div className="bg-white dark:bg-dark pb-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {releases.map((phase, phaseIdx) => (
