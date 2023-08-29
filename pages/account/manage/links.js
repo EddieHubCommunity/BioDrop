@@ -105,7 +105,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
           additionalMessage="Your profile information has been saved successfully."
         />
 
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-3">
           <Button href="/account/manage/link">
             <DocumentPlusIcon className="h-5 w-5 mr-2" />
             Add Link
