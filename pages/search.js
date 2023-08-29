@@ -11,6 +11,7 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
+import { PROJECT_NAME } from "@constants/index";
 
 import {
   cleanSearchInput,
