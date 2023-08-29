@@ -1,45 +1,45 @@
-## [1.178.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.7...v1.178.8) (2023-08-23)
+# [2.5.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.1...v2.5.0) (2023-08-29)
+
+
+### Features
+
+* label to the input in profile section [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) ([#8839](https://github.com/EddieHubCommunity/BioDrop/issues/8839)) ([6ada7cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ada7cd6fb5adc7dc5e872ae636ff0c2e90d3935))
+
+
+
+## [2.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.0...v2.4.1) (2023-08-29)
 
 
 ### Bug Fixes
 
-* docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/LinkFree/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/LinkFree/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
+* reduce api data for daily stats ([#8834](https://github.com/EddieHubCommunity/BioDrop/issues/8834)) ([603ddfd](https://github.com/EddieHubCommunity/BioDrop/commit/603ddfd3742e8f925bb6c748dd6fe8fc1876920c))
 
 
 
-## [1.178.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.6...v1.178.7) (2023-08-22)
+# [2.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.3.0...v2.4.0) (2023-08-29)
 
 
-### Bug Fixes
+### Features
 
-* community resources to config array ([#8577](https://github.com/EddieHubCommunity/LinkFree/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/LinkFree/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
-
-
-
-## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
-
-
-### Bug Fixes
-
-* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/LinkFree/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/LinkFree/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
+* improved landing page ([#8842](https://github.com/EddieHubCommunity/BioDrop/issues/8842)) ([de180df](https://github.com/EddieHubCommunity/BioDrop/commit/de180df1f3115e9c024a972d68fb5ce4cb389c79))
 
 
 
-## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
+# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
 
 
-### Bug Fixes
+### Features
 
-* notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
-
-
-
-## [1.178.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.3...v1.178.4) (2023-08-22)
+* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
 
 
-### Bug Fixes
 
-* missing items now have a space between ([#8676](https://github.com/EddieHubCommunity/LinkFree/issues/8676)) ([6c83c18](https://github.com/EddieHubCommunity/LinkFree/commit/6c83c1898be55055376157c00eea972a55f47430))
+# [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
+
+
+### Features
+
+* profile rank ([#8808](https://github.com/EddieHubCommunity/BioDrop/issues/8808)) ([64ba0d5](https://github.com/EddieHubCommunity/BioDrop/commit/64ba0d52e642dd12f0adc6333967a016585ca4bb))
 
 
 

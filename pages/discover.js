@@ -26,8 +26,8 @@ export default function Discover({ profiles }) {
   return (
     <>
       <PageHead
-        title="Discover recently updated Profiles on LinkFree"
-        description="Discover recently updated Profiles on LinkFree"
+        title="Discover recently updated Profiles on BioDrop"
+        description="Discover recently updated Profiles on BioDrop"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Recently updated Profiles</h1>
