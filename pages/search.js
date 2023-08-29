@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
@@ -12,6 +12,7 @@ import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
 import { PROJECT_NAME } from "@constants/index";
+
 import {
   cleanSearchInput,
   searchTagNameInInput,
@@ -84,6 +85,8 @@ export default function Search({
   const [inputValue, setInputValue] = useState(username || keyword || "");
   const [currentPage, setCurrentPage] = useState(1);
 
+  const searchInputRef = useRef(null);
+
   useEffect(() => {
     if (username) {
       setNotFound(`${username} not found`);
@@ -138,6 +141,20 @@ export default function Search({
 
     return () => clearTimeout(timer);
   }, [inputValue]);
+
+  useEffect(() => {
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
 
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
@@ -202,6 +219,7 @@ export default function Search({
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
+            ref={searchInputRef}
             placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
