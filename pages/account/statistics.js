@@ -85,7 +85,7 @@ export async function getServerSideProps(context) {
   }, 0);
   data.links.clicks = totalClicks;
 
-  data.profile.daily = data.profile.daily.slice(-30).map((day) => {
+  data.profile.daily = data.profile.daily.map((day) => {
     return {
       views: day.views,
       date: day.date,
