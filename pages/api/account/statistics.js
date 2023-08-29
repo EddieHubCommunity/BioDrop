@@ -24,8 +24,18 @@ export default async function handler(req, res) {
   res.status(200).json(data);
 }
 
-export async function getStats(username) {
+export async function getStats(username, numberOfDays) {
   await connectMongo();
+
+  // is the format okay? or should it be in this => '1m, 2m, 1y, 4m' instead of the numbers
+  if(numberOfDays === null || numberOfDays === undefined || numberOfDays > 365){
+    numberOfDays = 30
+  }
+
+  // This calculates the start date by subtracting the specified number of days from the current date. 
+  // The query then retrieves data from that calculated start date up to the current date.
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - numberOfDays);
 
   let profileData = {};
   try {
@@ -36,7 +46,7 @@ export async function getStats(username) {
 
   let profileViews = [];
   try {
-    profileViews = await ProfileStats.find({ username }).sort({ date: "asc" });
+    profileViews = await ProfileStats.find({ username, date: { $gte: startDate }}).sort({ date: "asc" });
   } catch (e) {
     logger.error(e, "failed to load stats");
   }
