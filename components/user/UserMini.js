@@ -15,7 +15,7 @@ export default function UserMini({
   rank,
 }) {
   return (
-    <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border ">
+    <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border dark:bg-primary-high">
       <h2 className="sr-only" id="profile-overview-title">
         Profile Overview
       </h2>
@@ -53,7 +53,7 @@ export default function UserMini({
           </div>
         </div>
       </div>
-      {monthly && total && clicks && rank && (
+      {!!monthly && !!total && !!clicks && !!rank && (
         <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-4 sm:divide-x sm:divide-y-0">
           <div className="px-6 py-5 text-center text-sm font-medium">
             <span className="text-primary-medium dark:text-primary-low-medium">
