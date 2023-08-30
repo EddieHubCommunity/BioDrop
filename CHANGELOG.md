@@ -1,3 +1,12 @@
+# [2.8.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.7.0...v2.8.0) (2023-08-30)
+
+
+### Features
+
+* persistent search ([#8743](https://github.com/EddieHubCommunity/BioDrop/issues/8743)) ([e7ffd6a](https://github.com/EddieHubCommunity/BioDrop/commit/e7ffd6af4e28c31a63b4efe1acfe424bdd643641))
+
+
+
 # [2.7.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.2...v2.7.0) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * keyboard shortcut to search page ([#8750](https://github.com/EddieHubCommunity/BioDrop/issues/8750)) ([5791b34](https://github.com/EddieHubCommunity/BioDrop/commit/5791b343e9bcc85b8a8947df7db397dc4c876958))
-
-
-
-# [2.5.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.1...v2.5.0) (2023-08-29)
-
-
-### Features
-
-* label to the input in profile section [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) ([#8839](https://github.com/EddieHubCommunity/BioDrop/issues/8839)) ([6ada7cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ada7cd6fb5adc7dc5e872ae636ff0c2e90d3935))
 
 
 
