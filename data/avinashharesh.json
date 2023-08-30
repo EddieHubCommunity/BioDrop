@@ -1,7 +1,7 @@
 {
   "name": "Avinash Haresh",
   "bio": "A passionate full stack developer",
-  "tags":["Javascript","Node.js","React.js","MongoDB","SpringBoot"]
+  "tags":["Javascript","Node.js","React.js","MongoDB","SpringBoot"],
   "socials":[
     {
       "icon":"FaTwitter",
