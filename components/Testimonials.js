@@ -1,17 +1,18 @@
 import Image from "next/image";
+import { PROJECT_NAME } from "@constants/index";
 
 import Link from "./Link";
 
 export default function Testimonials({ data }) {
   return (
-    <div className="bg-white dark:bg-primary-high pt-0 pb-24 mt-10">
+    <div className="bg-white dark:bg-dark pb-24 pt-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">
             Testimonials
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low">
-            What people are saying about LinkFree...
+            What people are saying about {PROJECT_NAME}...
           </p>
         </div>
         <div className="mx-auto mt-16 flow-root">

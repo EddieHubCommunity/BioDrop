@@ -1,14 +1,8 @@
 {
   "name": "Harshit Gupta",
-  
+
   "bio": "**Open Source** | Java Developer ",
-  "tags": [
-    "Open Source",
-    "JAVA",
-    "MERN",
-    "SPRING",
-    "Docker"
-  ],
+  "tags": ["Open Source", "JAVA", "MERN", "SPRING", "Docker"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -18,9 +12,8 @@
       "icon": "FaGithub",
       "url": "https://github.com/Harshitahusts"
     }
-    
   ],
-  
+
   "links": [
     {
       "group": "Socials",
@@ -58,6 +51,5 @@
       "url": "https://github.com/sponsors/Harshitahusts",
       "icon": "FaHeart"
     }
-  
-]  
+  ]
 }

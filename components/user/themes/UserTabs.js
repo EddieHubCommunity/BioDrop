@@ -45,10 +45,20 @@ export default function UserTabs({ data, BASE_URL }) {
     return { ...tab, total: data.links?.length };
   });
   const [tabs, setTabs] = useState(displayTabs);
+  const changeTab = (e, value) => {
+    e.preventDefault();
+    setTabs(
+      tabs.map((tab) =>
+        tab.name === e.target?.value || tab.name === value
+          ? { ...tab, current: true }
+          : { ...tab, current: false }
+      )
+    );
+  };
 
   return (
     <>
-      <Tabs tabs={tabs} setTabs={setTabs} />
+      <Tabs tabs={tabs} setTabs={changeTab} />
 
       {tabs.find((tab) => tab.name === "My Links")?.current && (
         <UserLinks

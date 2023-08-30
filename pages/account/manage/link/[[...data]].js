@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { PROJECT_NAME } from "@constants/index";
 import IconSearch from "@components/IconSearch";
 import Select from "@components/form/Select";
 import config from "@config/app.json";
@@ -66,8 +67,10 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
-  const [animation, setAnimation] = useState(link.animation || Object.keys(config.animations)[0]);
- 
+  const [animation, setAnimation] = useState(
+    link.animation || Object.keys(config.animations)[0]
+  );
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -132,7 +135,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     <>
       <PageHead
         title="Manage Links"
-        description="Here you can manage your LinkFree links"
+        description={`Here you can manage your ${PROJECT_NAME} links`}
       />
 
       <Page>
@@ -211,14 +214,17 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       value={name}
                       required
                       minLength="2"
-                      maxLength="64"
+                      maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <IconSearch handleSelectedIcon={setIcon} selectedIcon={icon} />
+                    <IconSearch
+                      handleSelectedIcon={setIcon}
+                      selectedIcon={icon}
+                    />
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">

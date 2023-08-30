@@ -15,6 +15,7 @@ import {
   cleanSearchInput,
   searchTagNameInInput,
 } from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -85,7 +86,7 @@ export default function Search({
   );
   const [currentPage, setCurrentPage] = useState(1);
 
-  const inputRef = useRef(null);
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     if (username) {
@@ -93,8 +94,8 @@ export default function Search({
     }
   }, [username]);
   useEffect(() => {
-    if (inputRef.current) {
-      inputRef.current.focus();
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
     }
   }, []);
 
@@ -155,6 +156,20 @@ export default function Search({
     return () => clearTimeout(timer);
   }, [inputValue]);
 
+  useEffect(() => {
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
+
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
 
@@ -190,8 +205,8 @@ export default function Search({
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title={`${PROJECT_NAME} Search Users`}
+        description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
         <h1 className="mb-4 text-4xl font-bold">Search</h1>
@@ -218,11 +233,11 @@ export default function Search({
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
+            ref={searchInputRef}
             placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            ref={inputRef}
           />
         </Badge>
 

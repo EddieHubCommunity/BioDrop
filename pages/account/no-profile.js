@@ -5,6 +5,7 @@ import { clientEnv } from "@config/schemas/clientSchema";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -36,7 +37,7 @@ export default function NoProfile({ BASE_URL }) {
           <div className="py-24 px-6 sm:px-6 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h2 className="text-4xl font-bold tracking-tight text-primary-high dark:text-primary-low">
-                Your LinkFree Profile does not exist yet
+                Your {PROJECT_NAME} Profile does not exist yet
               </h2>
               <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium dark:text-primary-medium-low">
                 Please follow the QuickStart guide to create your Profile or
@@ -50,7 +51,7 @@ export default function NoProfile({ BASE_URL }) {
                   Go to Forms
                 </Link>
                 <Link
-                  href="https://linkfree.eddiehub.io/docs/quickstart-forms"
+                  href="https://biodrop.io/docs/quickstart-forms"
                   className="text-base font-semibold leading-7 text-primary-high dark:text-primary-low"
                 >
                   QuickStart Guide <span aria-hidden="true">→</span>

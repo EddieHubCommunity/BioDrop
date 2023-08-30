@@ -2,6 +2,7 @@ import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
 
 import Link from "@components/Link";
+import { BASE_WEBSITE_URL } from "@constants/index";
 import Markdown from "@components/Markdown";
 
 export default function UserMarker({ user }) {
@@ -19,9 +20,7 @@ export default function UserMarker({ user }) {
       <Popup>
         <div className="flex flex-col gap-[5px]">
           <h1 className="font-[600]">
-            <Link
-              href={`https://linkfree.eddiehub.io/${user.properties.username}`}
-            >
+            <Link href={`${BASE_WEBSITE_URL}${user.properties.username}`}>
               {user.properties.name}
             </Link>
           </h1>

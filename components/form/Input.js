@@ -28,6 +28,7 @@ const Input = forwardRef(
           </label>
         )}
         <input
+          ref={ref}
           type={type}
           placeholder={placeholder}
           className={classNames(
@@ -40,13 +41,12 @@ const Input = forwardRef(
           name={name}
           value={value}
           onKeyDown={handleKeydown}
-          ref={ref}
           {...restProps}
         />
       </>
     );
   }
 );
-Input.displayName = "Input"; // Set the displayName for eslint
 
+Input.displayName = "Input";
 export default Input;

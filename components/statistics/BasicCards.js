@@ -16,7 +16,7 @@ export default function BasicCards({ data }) {
                 {item.name}
               </dt>
               <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
-                <div className="flex items-baseline text-2xl font-semibold text-secondary-high dark:text-secondary-low">
+                <div className="flex items-baseline text-2xl font-semibold text-secondary-medium dark:text-secondary-low">
                   {abbreviateNumber(item.current)}
                   {item.total && (
                     <span className="ml-2 text-sm font-medium text-primary-medium dark:text-primary-low-medium">

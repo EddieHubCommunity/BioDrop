@@ -2,17 +2,6 @@ import Link from "@components/Link";
 import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
 export default function Tabs({ tabs, setTabs }) {
-  const changeTab = (e, value) => {
-    e.preventDefault();
-    setTabs(
-      tabs.map((tab) =>
-        tab.name === e.target?.value || tab.name === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
-      )
-    );
-  };
-
   return (
     <div>
       <div className="sm:hidden">
@@ -21,29 +10,35 @@ export default function Tabs({ tabs, setTabs }) {
             name="tabs"
             value={tabs.find((tab) => tab.current).name}
             label="Select a tab"
-            onChange={changeTab}
+            onChange={setTabs}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
             options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           />
         )}
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block mb-4">
         <div className="border-b border-primary-medium-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <Link
                 key={tab.name}
                 href={tab.href}
-                onClick={(e) => changeTab(e, tab.name)}
+                onClick={(e) => setTabs(e, tab.name)}
                 className={classNames(
                   tab.current
-                    ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
-                    : "border-transparent text-primary-medium dark:text-primary-low-high dark:hover:text-primary-low  hover:text-primary-high hover:border-primary-medium-low",
-                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-base"
+                    ? "border-tertiary-medium "
+                    : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
+                  `justify-center text-base group flex border-b-2 py-4 font-medium grow`
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
-                {tab.name} ({tab.total})
+                {tab.icon && (
+                  <tab.icon
+                    className="-ml-0.5 mr-2 h-5 w-5"
+                    aria-hidden="true"
+                  />
+                )}
+                {tab.name} {tab.total && `(${tab.total})`}
               </Link>
             ))}
           </nav>
