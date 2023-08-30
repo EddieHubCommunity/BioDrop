@@ -1,3 +1,12 @@
+# [2.9.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.2...v2.9.0) (2023-08-30)
+
+
+### Features
+
+* admin filter profiles ([#8874](https://github.com/EddieHubCommunity/BioDrop/issues/8874)) ([fc1444e](https://github.com/EddieHubCommunity/BioDrop/commit/fc1444e327d5538d8e860fb11ea774b739a6a5e1))
+
+
+
 ## [2.8.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.1...v2.8.2) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * option to show profile stats publicly ([#8861](https://github.com/EddieHubCommunity/BioDrop/issues/8861)) ([32dea78](https://github.com/EddieHubCommunity/BioDrop/commit/32dea78a71c46c02398f285f87f5a8b9af0d1bce))
-
-
-
-## [2.6.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.1...v2.6.2) (2023-08-30)
-
-
-### Bug Fixes
-
-* visual hierarchy of the features section ([#8836](https://github.com/EddieHubCommunity/BioDrop/issues/8836)) ([45e3bdb](https://github.com/EddieHubCommunity/BioDrop/commit/45e3bdbea5f5e1b559ad4d90d5558e467ff2459b))
 
 
 
