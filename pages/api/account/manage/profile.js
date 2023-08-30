@@ -61,6 +61,7 @@ export async function updateProfileApi(username, data, providerAccountId) {
     source: "database",
     layout: data.layout,
     name: data.name,
+    isStatsPublic: data.isStatsPublic,
     bio: data.bio,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
@@ -68,7 +69,13 @@ export async function updateProfileApi(username, data, providerAccountId) {
   };
 
   try {
-    await Profile.validate(updateProfile, ["source", "layout", "name", "bio"]);
+    await Profile.validate(updateProfile, [
+      "source",
+      "layout",
+      "name",
+      "bio",
+      "isStatsPublic",
+    ]);
   } catch (e) {
     return { error: e.errors };
   }
@@ -82,7 +89,6 @@ export async function updateProfileApi(username, data, providerAccountId) {
   } catch (e) {
     log.error(e, `failed to get account for username: ${username}`);
   }
-
   try {
     getProfile = await Profile.findOneAndUpdate({ username }, updateProfile, {
       upsert: true,

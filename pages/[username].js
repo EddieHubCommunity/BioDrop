@@ -13,6 +13,7 @@ import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
+import { getStats } from "./api/account/statistics";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -44,6 +45,13 @@ export async function getServerSideProps(context) {
   } catch (e) {
     logger.error(e, `cannot strip markdown for: ${username}`);
     profile.cleanBio = profile.bio;
+  }
+  try {
+    if (profile.isStatsPublic) {
+      profile.profileStats = await getStats(username);
+    }
+  } catch (e) {
+    logger.error(e, "ERROR get user's account statistics");
   }
 
   return {

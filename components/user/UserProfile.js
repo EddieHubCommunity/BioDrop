@@ -14,6 +14,7 @@ import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
 import Markdown from "@components/Markdown";
+import BasicCards from "@components/statistics/BasicCards";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -87,6 +88,24 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       )}
 
+      {data.isStatsPublic && (
+        <BasicCards
+          data={[
+            {
+              name: "Rank",
+              current: data.profileStats?.profile?.rank,
+            },
+            {
+              name: "Total Profile Views",
+              current: data.profileStats?.profile?.total || 0,
+            },
+            {
+              name: "Profile Views on last 30 days",
+              current: data.profileStats?.profile?.monthly || 0,
+            },
+          ]}
+        />
+      )}
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
       <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
         <div className="flex flex-col items-center justify-center px-8">
