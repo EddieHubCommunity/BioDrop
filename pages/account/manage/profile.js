@@ -20,6 +20,7 @@ import Button from "@components/Button";
 import Notification from "@components/Notification";
 import { PROJECT_NAME } from "@constants/index";
 import Textarea from "@components/form/Textarea";
+import Toggle from "@components/form/Toggle";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -68,6 +69,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
+  const [showStats, setShowStats] = useState(profile.showStats ? true : false);
   const [bio, setBio] = useState(
     profile.bio || "Have a look at my links below..."
   );
@@ -86,7 +88,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, layout }),
+      body: JSON.stringify({ name, bio, tags, layout, showStats }),
     });
     const update = await res.json();
 
@@ -231,6 +233,14 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         Separate tags with commas (no space required).
                       </p>
                     </div>
+                  </div>
+                  <div className="mt-3">
+                    <Toggle
+                      text1="Enable?"
+                      text2="hide/show profile view and rank"
+                      enabled={showStats}
+                      setEnabled={setShowStats}
+                    />
                   </div>
                 </section>
 

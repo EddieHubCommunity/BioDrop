@@ -31,6 +31,7 @@ const ProfileSchema = new Schema(
       type: Boolean,
       default: true,
     },
+    showStats: Boolean,
     username: {
       type: String,
       required: true,
