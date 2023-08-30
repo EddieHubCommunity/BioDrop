@@ -1,3 +1,12 @@
+## [2.8.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.1...v2.8.2) (2023-08-30)
+
+
+### Bug Fixes
+
+* overflow issue in repos section ([#8870](https://github.com/EddieHubCommunity/BioDrop/issues/8870)) ([694bb37](https://github.com/EddieHubCommunity/BioDrop/commit/694bb37fb6c9377c19cf8102fa586389b30f07d2))
+
+
+
 ## [2.8.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.0...v2.8.1) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * visual hierarchy of the features section ([#8836](https://github.com/EddieHubCommunity/BioDrop/issues/8836)) ([45e3bdb](https://github.com/EddieHubCommunity/BioDrop/commit/45e3bdbea5f5e1b559ad4d90d5558e467ff2459b))
-
-
-
-## [2.6.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.0...v2.6.1) (2023-08-30)
-
-
-### Bug Fixes
-
-* increased max length of link name ([#8856](https://github.com/EddieHubCommunity/BioDrop/issues/8856)) ([2961956](https://github.com/EddieHubCommunity/BioDrop/commit/29619567a91acca7211044b35d933a6f36a8a0a5))
 
 
 
