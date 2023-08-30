@@ -3,6 +3,7 @@ import { classNames } from "@services/utils/classNames";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Changelog() {
   const colors = {
@@ -10,6 +11,13 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Project rename",
+      description:
+        "Renamed from LinkFree to BioDrop - all existing links will redirect",
+      type: "addition",
+      date: "2023-08-26",
+    },
     {
       title: "Links animation",
       description:
@@ -60,29 +68,26 @@ export default function Changelog() {
       date: "2023-05-04",
     },
     {
-      title: "LinkFree now has DarkMode",
-      description:
-        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
+      title: `${PROJECT_NAME} now has DarkMode`,
+      description: `Yes it is finally here, dark mode is now available on ${PROJECT_NAME}. You can toggle it on/off from the main Navbar`,
       type: "addition",
       date: "2023-04-08",
     },
     {
       title: "Profile QR code download",
-      description:
-        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      description: `It is now possible to download your ${PROJECT_NAME} QR code, so you can use it offline and in other places.`,
       type: "addition",
       date: "2023-03-31",
     },
     {
       title: "Profile progress bar",
-      description: "It is now possible to track your LinkFree profile progress",
+      description: `It is now possible to track your ${PROJECT_NAME} profile progress`,
       type: "addition",
       date: "2023-03-26",
     },
     {
       title: "Dedicated domain (url)",
-      description:
-        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      description: `You can start using the shorter url ${PROJECT_NAME}.io, the previous domain still works also`,
       type: "addition",
       date: "2023-03-12",
     },
@@ -109,7 +114,7 @@ export default function Changelog() {
     },
     {
       title: "World Map",
-      description: "See LinkFree users on a world wide map",
+      description: `See ${PROJECT_NAME} users on a world wide map`,
       type: "addition",
       date: "2023-01-24",
     },
@@ -131,8 +136,8 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree user changelog"
-        description="What are the latest features and changes to LinkFree"
+        title={`${PROJECT_NAME} user changelog`}
+        description="What are the latest features and changes to BioDrop"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
