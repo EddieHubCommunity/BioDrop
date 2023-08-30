@@ -97,11 +97,11 @@ function UserProfile({ BASE_URL, data }) {
             },
             {
               name: "Total Profile Views",
-              current: data.profilStats?.profile?.total || 0,
+              current: data.profileStats?.profile?.total || 0,
             },
             {
               name: "Profile Views on last 30 days",
-              current: data.profilStats?.profile?.monthly || 0,
+              current: data.profileStats?.profile?.monthly || 0,
             },
           ]}
         />
