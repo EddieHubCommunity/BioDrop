@@ -93,7 +93,7 @@ function UserProfile({ BASE_URL, data }) {
           data={[
             {
               name: "Rank",
-              current: data?.profilStats?.profile?.rank,
+              current: data.profilStats?.profile?.rank,
             },
             {
               name: "Total Profile Views",
