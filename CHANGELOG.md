@@ -1,3 +1,12 @@
+## [2.6.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.0...v2.6.1) (2023-08-30)
+
+
+### Bug Fixes
+
+* increased max length of link name ([#8856](https://github.com/EddieHubCommunity/BioDrop/issues/8856)) ([2961956](https://github.com/EddieHubCommunity/BioDrop/commit/29619567a91acca7211044b35d933a6f36a8a0a5))
+
+
+
 # [2.6.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.5.0...v2.6.0) (2023-08-29)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * improved landing page ([#8842](https://github.com/EddieHubCommunity/BioDrop/issues/8842)) ([de180df](https://github.com/EddieHubCommunity/BioDrop/commit/de180df1f3115e9c024a972d68fb5ce4cb389c79))
-
-
-
-# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
-
-
-### Features
-
-* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
 
 
 
