@@ -241,7 +241,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       text1="Enable?"
                       text2="hide/show profile view and rank"
                       enabled={isStatsPublic}
-                      setEnabled={setisStatsPublic}
+                      setEnabled={setIsStatsPublic}
                     />
                   </div>
                 </section>
