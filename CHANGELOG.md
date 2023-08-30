@@ -1,3 +1,12 @@
+## [2.6.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.1...v2.6.2) (2023-08-30)
+
+
+### Bug Fixes
+
+* visual hierarchy of the features section ([#8836](https://github.com/EddieHubCommunity/BioDrop/issues/8836)) ([45e3bdb](https://github.com/EddieHubCommunity/BioDrop/commit/45e3bdbea5f5e1b559ad4d90d5558e467ff2459b))
+
+
+
 ## [2.6.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.0...v2.6.1) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * reduce api data for daily stats ([#8834](https://github.com/EddieHubCommunity/BioDrop/issues/8834)) ([603ddfd](https://github.com/EddieHubCommunity/BioDrop/commit/603ddfd3742e8f925bb6c748dd6fe8fc1876920c))
-
-
-
-# [2.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.3.0...v2.4.0) (2023-08-29)
-
-
-### Features
-
-* improved landing page ([#8842](https://github.com/EddieHubCommunity/BioDrop/issues/8842)) ([de180df](https://github.com/EddieHubCommunity/BioDrop/commit/de180df1f3115e9c024a972d68fb5ce4cb389c79))
 
 
 
