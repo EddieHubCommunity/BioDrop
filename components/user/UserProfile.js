@@ -97,7 +97,7 @@ function UserProfile({ BASE_URL, data }) {
             },
             {
               name: "Total Profile Views",
-              current: data?.profilStats?.profile?.total || 0,
+              current: data.profilStats?.profile?.total || 0,
             },
             {
               name: "Profile Views on last 30 days",
