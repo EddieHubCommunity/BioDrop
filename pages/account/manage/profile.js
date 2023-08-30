@@ -183,7 +183,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       <div className="mt-1">
                         <Select
                           name="layout"
-                          label="Layout"
+                          label="Profile Layout"
                           value={layout}
                           options={layouts}
                           onChange={(e) => setLayout(e.target.value)}
