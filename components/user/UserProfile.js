@@ -101,7 +101,7 @@ function UserProfile({ BASE_URL, data }) {
             },
             {
               name: "Profile Views on last 30 days",
-              current: data?.profilStats?.profile?.monthly || 0,
+              current: data.profilStats?.profile?.monthly || 0,
             },
           ]}
         />
