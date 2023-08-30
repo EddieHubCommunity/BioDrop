@@ -1,3 +1,12 @@
+# [2.7.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.2...v2.7.0) (2023-08-30)
+
+
+### Features
+
+* option to show profile stats publicly ([#8861](https://github.com/EddieHubCommunity/BioDrop/issues/8861)) ([32dea78](https://github.com/EddieHubCommunity/BioDrop/commit/32dea78a71c46c02398f285f87f5a8b9af0d1bce))
+
+
+
 ## [2.6.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.1...v2.6.2) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * label to the input in profile section [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) ([#8839](https://github.com/EddieHubCommunity/BioDrop/issues/8839)) ([6ada7cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ada7cd6fb5adc7dc5e872ae636ff0c2e90d3935))
-
-
-
-## [2.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.0...v2.4.1) (2023-08-29)
-
-
-### Bug Fixes
-
-* reduce api data for daily stats ([#8834](https://github.com/EddieHubCommunity/BioDrop/issues/8834)) ([603ddfd](https://github.com/EddieHubCommunity/BioDrop/commit/603ddfd3742e8f925bb6c748dd6fe8fc1876920c))
 
 
 
