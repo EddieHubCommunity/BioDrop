@@ -214,7 +214,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       value={name}
                       required
                       minLength="2"
-                      maxLength="64"
+                      maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
