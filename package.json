@@ -21,7 +21,7 @@
     "file-saver": "^2.0.5",
     "husky": "^8.0.3",
     "leaflet": "^1.9.4",
-    "mongoose": "^7.4.1",
+    "mongoose": "^7.5.0",
     "next": "^13.4.12",
     "next-auth": "^4.22.3",
     "next-themes": "^0.2.1",
