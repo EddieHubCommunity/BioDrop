@@ -1,3 +1,12 @@
+## [2.8.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.0...v2.8.1) (2023-08-30)
+
+
+### Bug Fixes
+
+* curl command to follow redirects ([#8868](https://github.com/EddieHubCommunity/BioDrop/issues/8868)) ([3241ebb](https://github.com/EddieHubCommunity/BioDrop/commit/3241ebbbee286e0fd12ba602b6ba561012670910))
+
+
+
 # [2.8.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.7.0...v2.8.0) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * increased max length of link name ([#8856](https://github.com/EddieHubCommunity/BioDrop/issues/8856)) ([2961956](https://github.com/EddieHubCommunity/BioDrop/commit/29619567a91acca7211044b35d933a6f36a8a0a5))
-
-
-
-# [2.6.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.5.0...v2.6.0) (2023-08-29)
-
-
-### Features
-
-* keyboard shortcut to search page ([#8750](https://github.com/EddieHubCommunity/BioDrop/issues/8750)) ([5791b34](https://github.com/EddieHubCommunity/BioDrop/commit/5791b343e9bcc85b8a8947df7db397dc4c876958))
 
 
 
