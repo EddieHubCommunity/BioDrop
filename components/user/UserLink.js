@@ -5,8 +5,6 @@ import Edit from "@components/account/manage/Edit";
 import styles from "../../styles/animation.module.css";
 import config from "@config/app.json";
 import { classNames } from "@services/utils/classNames";
-import { BsFillPinAngleFill } from "react-icons/bs";
-
 const animations = config.animations;
 
 const getLinkAnimation = new Map([
@@ -39,11 +37,11 @@ export default function UserLink({
 
   const item = (link) => {
     return (
-      <div className="flex flex-col">
+      <div>
         {manage && link.isPinned && (
-          <BsFillPinAngleFill
-            className={`text-secondary-high dark:text-primary-low absolute right-2 z-20 h-5 w-5 self-end`}
-          />
+          <span className="inline-flex items-center absolute top-[1.56rem] right-24 z-10 rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
+            Pinned
+          </span>
         )}
         <Link
           href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
@@ -55,7 +53,7 @@ export default function UserLink({
               "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
             !isEnabled && "opacity-50",
             isEnabled && getLinkAnimation.get(animations[link.animation]),
-            "border-primary-medium-low dark:border-primary-medium-low dark:bg-primary-medium relative my-2 flex w-full grow flex-row content-start items-center gap-4 rounded-full border p-4 hover:border-[color:var(--hover-color)] hover:shadow-xl dark:hover:border-[color:var(--hover-color)]",
+            "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow"
           )}
           style={{
             "--hover-color": colors[link.icon],
@@ -75,21 +73,20 @@ export default function UserLink({
             )}
           </span>
           <span className="grow">{link.name}</span>
-
           {manage && (
             <span
               className={classNames(
                 link.isEnabled
                   ? "bg-tertiary-low text-tertiary-high"
                   : "bg-primary-low text-primary-high",
-                "ring-primary-high/10 inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset",
+                "inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset ring-primary-high/10"
               )}
             >
               {link.isEnabled ? "Enabled" : "Disabled"}
             </span>
           )}
           {manage && link.group && (
-            <span className="bg-tertiary-high text-tertiary-low ring-tertiary-low/10 inline-flex items-center rounded-md px-2 py-1 text-xs font-medium ring-1 ring-inset">
+            <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-tertiary-high text-tertiary-low ring-1 ring-inset ring-tertiary-low/10">
               {link.group}
             </span>
           )}
@@ -105,7 +102,7 @@ export default function UserLink({
   );
 
   return (
-    <div className="flex w-full flex-row gap-8">
+    <div className="flex flex-row gap-8 w-full">
       {manage ? edit(link) : item(link)}
     </div>
   );
