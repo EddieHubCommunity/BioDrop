@@ -61,7 +61,7 @@ export async function updateProfileApi(username, data, providerAccountId) {
     source: "database",
     layout: data.layout,
     name: data.name,
-    showStats: data.showStats,
+    isStatsPublic: data.isStatsPublic,
     bio: data.bio,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
@@ -74,7 +74,7 @@ export async function updateProfileApi(username, data, providerAccountId) {
       "layout",
       "name",
       "bio",
-      "showStats",
+      "isStatsPublic",
     ]);
   } catch (e) {
     return { error: e.errors };

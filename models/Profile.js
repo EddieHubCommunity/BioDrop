@@ -31,7 +31,7 @@ const ProfileSchema = new Schema(
       type: Boolean,
       default: true,
     },
-    showStats: Boolean,
+    isStatsPublic: Boolean,
     username: {
       type: String,
       required: true,

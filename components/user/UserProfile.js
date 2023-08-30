@@ -88,7 +88,7 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       )}
 
-      {data.showStats ? (
+      {data.isStatsPublic && (
         <BasicCards
           data={[
             {
@@ -105,7 +105,7 @@ function UserProfile({ BASE_URL, data }) {
             },
           ]}
         />
-      ) : null}
+      )}
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
       <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
         <div className="flex flex-col items-center justify-center px-8">

@@ -69,7 +69,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
-  const [showStats, setShowStats] = useState(profile.showStats ? true : false);
+  const [isStatsPublic, setisStatsPublic] = useState(
+    profile.isStatsPublic ? true : false
+  );
   const [bio, setBio] = useState(
     profile.bio || "Have a look at my links below..."
   );
@@ -88,7 +90,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, layout, showStats }),
+      body: JSON.stringify({ name, bio, tags, layout, isStatsPublic }),
     });
     const update = await res.json();
 
@@ -238,8 +240,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     <Toggle
                       text1="Enable?"
                       text2="hide/show profile view and rank"
-                      enabled={showStats}
-                      setEnabled={setShowStats}
+                      enabled={isStatsPublic}
+                      setEnabled={setisStatsPublic}
                     />
                   </div>
                 </section>
