@@ -67,7 +67,6 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     message: "",
     additionalMessage: "",
   });
-  console.log(profile);
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
   const [isStatsPublic, setIsStatsPublic] = useState(
