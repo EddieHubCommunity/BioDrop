@@ -47,7 +47,7 @@ export async function getServerSideProps(context) {
     profile.cleanBio = profile.bio;
   }
   try {
-    profile.stats = await getStats(username);
+    profile.profilStats = await getStats(username);
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }

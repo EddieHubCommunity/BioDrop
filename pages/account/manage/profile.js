@@ -67,9 +67,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     message: "",
     additionalMessage: "",
   });
+  console.log(profile);
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
-  const [isStatsPublic, setisStatsPublic] = useState(
+  const [isStatsPublic, setIsStatsPublic] = useState(
     profile.isStatsPublic ? true : false
   );
   const [bio, setBio] = useState(
@@ -241,7 +242,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       text1="Enable?"
                       text2="hide/show profile view and rank"
                       enabled={isStatsPublic}
-                      setEnabled={setisStatsPublic}
+                      setEnabled={setIsStatsPublic}
                     />
                   </div>
                 </section>

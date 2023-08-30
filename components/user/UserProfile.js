@@ -93,15 +93,15 @@ function UserProfile({ BASE_URL, data }) {
           data={[
             {
               name: "Rank",
-              current: data?.stats?.profile?.rank,
+              current: data?.profilStats?.profile?.rank || 0,
             },
             {
               name: "Total Profile Views",
-              current: data?.stats?.profile?.total,
+              current: data?.profilStats?.profile?.total || 0,
             },
             {
               name: "Profile Views on last 30 days",
-              current: data?.stats?.profile?.monthly,
+              current: data?.profilStats?.profile?.monthly || 0,
             },
           ]}
         />
