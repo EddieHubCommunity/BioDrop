@@ -1,11 +1,11 @@
 {
   "name": "Avinash Haresh",
   "bio": "A passionate full stack developer",
-  "tags":["Javascript","Node.js","React.js","MongoDB","SpringBoot"],
-  "socials":[
+  "tags": ["Javascript", "Node.js", "React.js", "MongoDB", "SpringBoot"],
+  "socials": [
     {
-      "icon":"FaTwitter",
-      "url":"https://twitter.com/AvinashHaresh"
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AvinashHaresh"
     }
   ],
   "links": [
@@ -15,14 +15,14 @@
       "icon": "FaTwitter"
     },
     {
-      "name":"GitHub",
-      "url":"https://github.com/avinashharesh",
-      "icon":"FaGithub"
+      "name": "GitHub",
+      "url": "https://github.com/avinashharesh",
+      "icon": "FaGithub"
     },
     {
-      "name":"LinkedIn",
-      "url":"https://www.linkedin.com/in/avinash-haresh-2280b4202/",
-      "icon":"FaLinkedin"
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/avinash-haresh-2280b4202/",
+      "icon": "FaLinkedin"
     }
   ]
 }
