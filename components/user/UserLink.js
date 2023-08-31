@@ -83,7 +83,7 @@ export default function UserLink({
           {link.group}
         </span>
       )}
-      <div
+      {manage && (<div
         className={classNames(
           isEnabled
             ? "text-green-600 bg-green-600/10 dark:text-green-400 dark:bg-green-400/10"
@@ -92,7 +92,7 @@ export default function UserLink({
         )}
       >
         <div className="h-1.5 w-1.5 rounded-full bg-current" />
-      </div>
+      </div>)}
     </Link>
   );
 
