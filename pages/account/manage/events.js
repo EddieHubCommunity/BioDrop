@@ -71,7 +71,7 @@ export default function ManageEvents({ events }) {
         )}
 
         <Navigation />
-        <Button href="/account/manage/event" style={{"margin-bottom": "12px"}}>
+        <Button href="/account/manage/event">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>

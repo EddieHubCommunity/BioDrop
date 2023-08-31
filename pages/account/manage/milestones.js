@@ -75,7 +75,7 @@ export default function ManageMilestones({ milestones }) {
 
         <Navigation />
 
-        <Button href="/account/manage/milestone" style={{"margin-bottom": "12px"}}>
+        <Button href="/account/manage/milestone">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Milestone
         </Button>
