@@ -43,7 +43,6 @@ export default function UserLink({
       className={classNames(
         animations[link.animation] === animations.iconGlow && "z-0",
         animations[link.animation] !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
-        !isEnabled && "opacity-50",
         isEnabled && getLinkAnimation.get(animations[link.animation]),
         "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow"
       )}
@@ -84,6 +83,16 @@ export default function UserLink({
           {link.group}
         </span>
       )}
+      {manage && (<div
+        className={classNames(
+          isEnabled
+            ? "text-green-600 bg-green-600/10 dark:text-green-400 dark:bg-green-400/10"
+            : "text-red-600 bg-red-600/10  dark:text-red-400 dark:bg-red-400/10",
+          "flex-none rounded-full p-1"
+        )}
+      >
+        <div className="h-1.5 w-1.5 rounded-full bg-current" />
+      </div>)}
     </Link>
   );
 
