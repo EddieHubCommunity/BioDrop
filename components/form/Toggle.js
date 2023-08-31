@@ -5,8 +5,8 @@ export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
   let aria = {};
   if (!text1 && !text2) {
     aria = {
-      "aria-label": 'Enable'
-    }
+      "aria-label": "Enable",
+    };
   }
   return (
     <Switch.Group as="div" className="flex items-center">
@@ -27,16 +27,21 @@ export default function Toggle({ text1, text2, enabled = false, setEnabled }) {
           )}
         />
       </Switch>
-      { text1 || text2 ?
+      {text1 || text2 ? (
         <Switch.Label as="span" className="ml-3 text-sm">
           {text1 && (
             <span className="font-medium text-primary-high dark:text-primary-low">
               {text1}
             </span>
           )}
-          {text2 && <span className="text-primary-medium-low"> ({text2})</span>}
-        </Switch.Label> : null
-      }
+          {text2 && (
+            <span className="text-primary-high dark:text-primary-low">
+              {" "}
+              ({text2})
+            </span>
+          )}
+        </Switch.Label>
+      ) : null}
     </Switch.Group>
   );
 }

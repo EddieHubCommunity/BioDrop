@@ -1,45 +1,45 @@
-# [2.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.2.0...v2.3.0) (2023-08-28)
-
-
-### Features
-
-* allow images to change based on theme ([#8826](https://github.com/EddieHubCommunity/BioDrop/issues/8826)) ([8efeb2a](https://github.com/EddieHubCommunity/BioDrop/commit/8efeb2a066919b8ca6d959f38e3ea84259f337c9))
-
-
-
-# [2.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.1...v2.2.0) (2023-08-28)
-
-
-### Features
-
-* profile rank ([#8808](https://github.com/EddieHubCommunity/BioDrop/issues/8808)) ([64ba0d5](https://github.com/EddieHubCommunity/BioDrop/commit/64ba0d52e642dd12f0adc6333967a016585ca4bb))
-
-
-
-## [2.1.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.1.0...v2.1.1) (2023-08-28)
+## [2.9.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.0...v2.9.1) (2023-08-31)
 
 
 ### Bug Fixes
 
-* link vercel analytics ([#8822](https://github.com/EddieHubCommunity/BioDrop/issues/8822)) ([6a913fd](https://github.com/EddieHubCommunity/BioDrop/commit/6a913fd01e49bffc4048aee2303a0d15c496e41e))
+* link manage status ([#8387](https://github.com/EddieHubCommunity/BioDrop/issues/8387)) ([1d1a371](https://github.com/EddieHubCommunity/BioDrop/commit/1d1a37146c4ebe56b203385572428527e980a028))
 
 
 
-# [2.1.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.3...v2.1.0) (2023-08-28)
+# [2.9.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.2...v2.9.0) (2023-08-30)
 
 
 ### Features
 
-* navbar + footer links to have event stats ([#8820](https://github.com/EddieHubCommunity/BioDrop/issues/8820)) ([6650356](https://github.com/EddieHubCommunity/BioDrop/commit/6650356638ba98e717f39aed11012f766ba062a6))
+* admin filter profiles ([#8874](https://github.com/EddieHubCommunity/BioDrop/issues/8874)) ([fc1444e](https://github.com/EddieHubCommunity/BioDrop/commit/fc1444e327d5538d8e860fb11ea774b739a6a5e1))
 
 
 
-## [2.0.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.0.2...v2.0.3) (2023-08-27)
+## [2.8.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.1...v2.8.2) (2023-08-30)
 
 
 ### Bug Fixes
 
-* newsletter to substack, removed gh accelerator ([#8811](https://github.com/EddieHubCommunity/BioDrop/issues/8811)) ([647b821](https://github.com/EddieHubCommunity/BioDrop/commit/647b82110b4f50ffb4bfd50af98a6c7cd2c09a56))
+* overflow issue in repos section ([#8870](https://github.com/EddieHubCommunity/BioDrop/issues/8870)) ([694bb37](https://github.com/EddieHubCommunity/BioDrop/commit/694bb37fb6c9377c19cf8102fa586389b30f07d2))
+
+
+
+## [2.8.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.0...v2.8.1) (2023-08-30)
+
+
+### Bug Fixes
+
+* curl command to follow redirects ([#8868](https://github.com/EddieHubCommunity/BioDrop/issues/8868)) ([3241ebb](https://github.com/EddieHubCommunity/BioDrop/commit/3241ebbbee286e0fd12ba602b6ba561012670910))
+
+
+
+# [2.8.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.7.0...v2.8.0) (2023-08-30)
+
+
+### Features
+
+* persistent search ([#8743](https://github.com/EddieHubCommunity/BioDrop/issues/8743)) ([e7ffd6a](https://github.com/EddieHubCommunity/BioDrop/commit/e7ffd6af4e28c31a63b4efe1acfe424bdd643641))
 
 
 
