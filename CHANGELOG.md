@@ -1,3 +1,12 @@
+## [2.9.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.0...v2.9.1) (2023-08-31)
+
+
+### Bug Fixes
+
+* link manage status ([#8387](https://github.com/EddieHubCommunity/BioDrop/issues/8387)) ([1d1a371](https://github.com/EddieHubCommunity/BioDrop/commit/1d1a37146c4ebe56b203385572428527e980a028))
+
+
+
 # [2.9.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.2...v2.9.0) (2023-08-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * persistent search ([#8743](https://github.com/EddieHubCommunity/BioDrop/issues/8743)) ([e7ffd6a](https://github.com/EddieHubCommunity/BioDrop/commit/e7ffd6af4e28c31a63b4efe1acfe424bdd643641))
-
-
-
-# [2.7.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.2...v2.7.0) (2023-08-30)
-
-
-### Features
-
-* option to show profile stats publicly ([#8861](https://github.com/EddieHubCommunity/BioDrop/issues/8861)) ([32dea78](https://github.com/EddieHubCommunity/BioDrop/commit/32dea78a71c46c02398f285f87f5a8b9af0d1bce))
 
 
 
