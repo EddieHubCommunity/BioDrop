@@ -1,3 +1,12 @@
+## [2.10.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.1...v2.10.2) (2023-09-01)
+
+
+### Bug Fixes
+
+* margin to manage pages ([#8855](https://github.com/EddieHubCommunity/BioDrop/issues/8855)) ([b6bf654](https://github.com/EddieHubCommunity/BioDrop/commit/b6bf65493844c74dc7bf85ef4f651cd6605dc529))
+
+
+
 ## [2.10.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.0...v2.10.1) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * link manage status ([#8387](https://github.com/EddieHubCommunity/BioDrop/issues/8387)) ([1d1a371](https://github.com/EddieHubCommunity/BioDrop/commit/1d1a37146c4ebe56b203385572428527e980a028))
-
-
-
-# [2.9.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.2...v2.9.0) (2023-08-30)
-
-
-### Features
-
-* admin filter profiles ([#8874](https://github.com/EddieHubCommunity/BioDrop/issues/8874)) ([fc1444e](https://github.com/EddieHubCommunity/BioDrop/commit/fc1444e327d5538d8e860fb11ea774b739a6a5e1))
 
 
 
