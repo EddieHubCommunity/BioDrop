@@ -1,3 +1,12 @@
+## [2.10.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.3...v2.10.4) (2023-09-01)
+
+
+### Bug Fixes
+
+* **deps:** bump mongodb and mongoose ([#8879](https://github.com/EddieHubCommunity/BioDrop/issues/8879)) ([a0664ed](https://github.com/EddieHubCommunity/BioDrop/commit/a0664ed0247ca5b0bb7a2e2dde5c339b21180930))
+
+
+
 ## [2.10.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.2...v2.10.3) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * sort repos ([#8889](https://github.com/EddieHubCommunity/BioDrop/issues/8889)) ([d8dcfe8](https://github.com/EddieHubCommunity/BioDrop/commit/d8dcfe8ca6779859321c95fd03ec2f7559cc4157))
-
-
-
-## [2.9.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.1...v2.9.2) (2023-09-01)
-
-
-### Bug Fixes
-
-* issue template option to assign to author  ([#8886](https://github.com/EddieHubCommunity/BioDrop/issues/8886)) ([be1d565](https://github.com/EddieHubCommunity/BioDrop/commit/be1d5657191d4bb5afc41ceae9c53facfd54c4f0))
 
 
 
