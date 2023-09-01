@@ -3,22 +3,23 @@ import ClipboardCopy from "@components/ClipboardCopy.js";
 import Link from "@components/Link";
 import Alert from "@components/Alert.js";
 
-## Debugging LinkFree with VS Code
-This documentation explains how you can debug your LinkFree frontend and backend code using the Visual Studio Code (VS Code) debugger.
+## Debugging BioDrop with VS Code
+
+This documentation explains how you can debug your BioDrop frontend and backend code using the Visual Studio Code (VS Code) debugger.
 
 <Alert
   type="warning"
   message={
     <>
       <strong>NOTE: </strong>
-        This debugging setup is for a local development environment and will not work if you are running LinkFree using Docker Compose in your local setup. Additionally, it requires MongoDB to be available and running.
+        This debugging setup is for a local development environment and will not work if you are running BioDrop using Docker Compose in your local setup. Additionally, it requires MongoDB to be available and running.
     </>
   }
 />
 
 ## Environment setup for debugging in VS Code
 
-1. If you don’t already have a `launch.json` file, create one in the `.vscode` directory at the root of the LinkFree project.
+1. If you don’t already have a `launch.json` file, create one in the `.vscode` directory at the root of the BioDrop project.
 2. Add the given JSON to the `.vscode/launch.json` file.
 <ClipboardCopy>
 ```json
