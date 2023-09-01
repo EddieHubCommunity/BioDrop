@@ -7,7 +7,7 @@ import dateFormat from "@services/utils/dateFormat";
 
 export default function UserRepos({ manage = false, handleDelete, repos }) {
   const item = (repo) => (
-    <div className="relative flex justify-between gap-x-6 px-4 py-5 mt-2 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
+    <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
       <div className="flex gap-x-4">
         <FallbackImage
           className="h-12 w-12 flex-none rounded-full bg-primary-low"
