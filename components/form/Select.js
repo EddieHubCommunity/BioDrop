@@ -8,9 +8,12 @@ export default function Select({
   ...restProps
 }) {
   return (
-    <>
+    <div>
       {label && (
-        <label htmlFor={name} className={`${className} hidden md:block`}>
+        <label
+          htmlFor={name}
+          className={`dark:text-white ${className} hidden md:block`}
+        >
           {label}
         </label>
       )}
@@ -33,6 +36,6 @@ export default function Select({
           </option>
         ))}
       </select>
-    </>
+    </div>
   );
 }
