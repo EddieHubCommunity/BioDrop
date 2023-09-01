@@ -1,3 +1,12 @@
+# [2.10.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.2...v2.10.0) (2023-09-01)
+
+
+### Features
+
+* sort repos ([#8889](https://github.com/EddieHubCommunity/BioDrop/issues/8889)) ([d8dcfe8](https://github.com/EddieHubCommunity/BioDrop/commit/d8dcfe8ca6779859321c95fd03ec2f7559cc4157))
+
+
+
 ## [2.9.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.1...v2.9.2) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * overflow issue in repos section ([#8870](https://github.com/EddieHubCommunity/BioDrop/issues/8870)) ([694bb37](https://github.com/EddieHubCommunity/BioDrop/commit/694bb37fb6c9377c19cf8102fa586389b30f07d2))
-
-
-
-## [2.8.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.0...v2.8.1) (2023-08-30)
-
-
-### Bug Fixes
-
-* curl command to follow redirects ([#8868](https://github.com/EddieHubCommunity/BioDrop/issues/8868)) ([3241ebb](https://github.com/EddieHubCommunity/BioDrop/commit/3241ebbbee286e0fd12ba602b6ba561012670910))
 
 
 
