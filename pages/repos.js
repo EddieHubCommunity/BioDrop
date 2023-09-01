@@ -51,9 +51,9 @@ export default function Repos({ repos }) {
             name="event-type"
             value={router.query.sortBy || "pushed-date"}
             label="Sort by"
-            onChange={(e) => {
-              router.push(`/repos?sortBy=${e.currentTarget.value}`);
-            }}
+            onChange={(e) =>
+              router.push(`/repos?sortBy=${e.currentTarget.value}`)
+            }
             options={sortOptions.map((option) => ({
               label: option.label,
               value: option.value,

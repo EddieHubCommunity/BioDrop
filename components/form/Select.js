@@ -1,3 +1,5 @@
+import { classNames } from "@services/utils/classNames";
+
 export default function Select({
   value,
   onChange,
@@ -12,7 +14,7 @@ export default function Select({
       {label && (
         <label
           htmlFor={name}
-          className={`dark:text-white ${className} hidden md:block`}
+          className={classNames("dark:text-white hidden md:block", className)}
         >
           {label}
         </label>
