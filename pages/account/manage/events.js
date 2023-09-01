@@ -74,7 +74,7 @@ export default function ManageEvents({ events }) {
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-        <UserEvents events={events} manage={true} filter="all" />
+        <UserEvents events={events} manage={true} />
       </Page>
     </>
   );

@@ -79,8 +79,6 @@ export async function getEventsApi(username) {
     });
 
     getEvents = dateEvents;
-  } else {
-    getEvents = [];
   }
 
   return JSON.parse(JSON.stringify(getEvents));
