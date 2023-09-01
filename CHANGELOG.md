@@ -1,3 +1,12 @@
+## [2.10.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.2...v2.10.3) (2023-09-01)
+
+
+### Reverts
+
+* Revert "fix: margin to manage pages (#8855)" (#8899) ([1b29725](https://github.com/EddieHubCommunity/BioDrop/commit/1b297257736886c88a6ba401c155832240d76098)), closes [#8855](https://github.com/EddieHubCommunity/BioDrop/issues/8855) [#8899](https://github.com/EddieHubCommunity/BioDrop/issues/8899)
+
+
+
 ## [2.10.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.1...v2.10.2) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * issue template option to assign to author  ([#8886](https://github.com/EddieHubCommunity/BioDrop/issues/8886)) ([be1d565](https://github.com/EddieHubCommunity/BioDrop/commit/be1d5657191d4bb5afc41ceae9c53facfd54c4f0))
-
-
-
-## [2.9.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.0...v2.9.1) (2023-08-31)
-
-
-### Bug Fixes
-
-* link manage status ([#8387](https://github.com/EddieHubCommunity/BioDrop/issues/8387)) ([1d1a371](https://github.com/EddieHubCommunity/BioDrop/commit/1d1a37146c4ebe56b203385572428527e980a028))
 
 
 
