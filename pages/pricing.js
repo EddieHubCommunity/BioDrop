@@ -122,6 +122,8 @@ export default function Premium({ user, clientEnv }) {
       features: [
         {
           name: "Tags",
+          description:
+            "Create your Profile with unlimited links and connect to the community.",
           tiers: { Free: true, Premium: true },
         },
         {
@@ -423,7 +425,7 @@ export default function Premium({ user, clientEnv }) {
                           colSpan={4}
                           className={classNames(
                             sectionIdx === 0 ? "pt-8" : "pt-16",
-                            "pb-4 text-sm font-semibold leading-6 text-gray-900"
+                            "pb-4 font-semibold leading-6 text-gray-900"
                           )}
                         >
                           {section.name}
@@ -436,7 +438,8 @@ export default function Premium({ user, clientEnv }) {
                             scope="row"
                             className="py-4 text-sm font-normal leading-6 text-gray-900"
                           >
-                            {feature.name}
+                            <p className="font-bold">{feature.name}</p>
+                            <p className="italic">{feature.description}</p>
                             <div className="absolute inset-x-8 mt-4 h-px bg-gray-900/5" />
                           </th>
                           {tiers.map((tier) => (
