@@ -1,3 +1,12 @@
+## [2.10.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.0...v2.10.1) (2023-09-01)
+
+
+### Bug Fixes
+
+* use double bang operator to convert value to either true or false ([#8887](https://github.com/EddieHubCommunity/BioDrop/issues/8887)) ([6f590fa](https://github.com/EddieHubCommunity/BioDrop/commit/6f590fab24a0d21363df2ee7c9bbc2bac7673e56)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
+
+
+
 # [2.10.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.2...v2.10.0) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin filter profiles ([#8874](https://github.com/EddieHubCommunity/BioDrop/issues/8874)) ([fc1444e](https://github.com/EddieHubCommunity/BioDrop/commit/fc1444e327d5538d8e860fb11ea774b739a6a5e1))
-
-
-
-## [2.8.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.1...v2.8.2) (2023-08-30)
-
-
-### Bug Fixes
-
-* overflow issue in repos section ([#8870](https://github.com/EddieHubCommunity/BioDrop/issues/8870)) ([694bb37](https://github.com/EddieHubCommunity/BioDrop/commit/694bb37fb6c9377c19cf8102fa586389b30f07d2))
 
 
 
