@@ -1,3 +1,12 @@
+## [2.10.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.4...v2.10.5) (2023-09-01)
+
+
+### Bug Fixes
+
+* map height ([#8902](https://github.com/EddieHubCommunity/BioDrop/issues/8902)) ([3cf7a1f](https://github.com/EddieHubCommunity/BioDrop/commit/3cf7a1f18db42c952b3989077dc78acaa90b55f1))
+
+
+
 ## [2.10.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.3...v2.10.4) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * use double bang operator to convert value to either true or false ([#8887](https://github.com/EddieHubCommunity/BioDrop/issues/8887)) ([6f590fa](https://github.com/EddieHubCommunity/BioDrop/commit/6f590fab24a0d21363df2ee7c9bbc2bac7673e56)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
-
-
-
-# [2.10.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.2...v2.10.0) (2023-09-01)
-
-
-### Features
-
-* sort repos ([#8889](https://github.com/EddieHubCommunity/BioDrop/issues/8889)) ([d8dcfe8](https://github.com/EddieHubCommunity/BioDrop/commit/d8dcfe8ca6779859321c95fd03ec2f7559cc4157))
 
 
 
