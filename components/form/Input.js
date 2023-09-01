@@ -1,5 +1,6 @@
 import { forwardRef } from "react";
 import { classNames } from "@services/utils/classNames";
+import Label from "./Label";
 
 const Input = forwardRef(
   (
@@ -23,9 +24,7 @@ const Input = forwardRef(
     return (
       <>
         {label && (
-          <label htmlFor={name} className="mt-4 mb-3">
-            {label}
-          </label>
+          <Label htmlFor={name}>{label}</Label>
         )}
         <input
           ref={ref}
