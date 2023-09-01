@@ -1,3 +1,12 @@
+# [2.11.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.5...v2.11.0) (2023-09-01)
+
+
+### Features
+
+* filter options for event section ([#8904](https://github.com/EddieHubCommunity/BioDrop/issues/8904)) ([978596e](https://github.com/EddieHubCommunity/BioDrop/commit/978596ed2e6e1c2e16415189891103cfa1182620))
+
+
+
 ## [2.10.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.4...v2.10.5) (2023-09-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * margin to manage pages ([#8855](https://github.com/EddieHubCommunity/BioDrop/issues/8855)) ([b6bf654](https://github.com/EddieHubCommunity/BioDrop/commit/b6bf65493844c74dc7bf85ef4f651cd6605dc529))
-
-
-
-## [2.10.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.0...v2.10.1) (2023-09-01)
-
-
-### Bug Fixes
-
-* use double bang operator to convert value to either true or false ([#8887](https://github.com/EddieHubCommunity/BioDrop/issues/8887)) ([6f590fa](https://github.com/EddieHubCommunity/BioDrop/commit/6f590fab24a0d21363df2ee7c9bbc2bac7673e56)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
 
 
 
