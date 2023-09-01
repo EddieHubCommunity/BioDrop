@@ -1,3 +1,12 @@
+## [2.9.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.1...v2.9.2) (2023-09-01)
+
+
+### Bug Fixes
+
+* issue template option to assign to author  ([#8886](https://github.com/EddieHubCommunity/BioDrop/issues/8886)) ([be1d565](https://github.com/EddieHubCommunity/BioDrop/commit/be1d5657191d4bb5afc41ceae9c53facfd54c4f0))
+
+
+
 ## [2.9.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.0...v2.9.1) (2023-08-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * curl command to follow redirects ([#8868](https://github.com/EddieHubCommunity/BioDrop/issues/8868)) ([3241ebb](https://github.com/EddieHubCommunity/BioDrop/commit/3241ebbbee286e0fd12ba602b6ba561012670910))
-
-
-
-# [2.8.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.7.0...v2.8.0) (2023-08-30)
-
-
-### Features
-
-* persistent search ([#8743](https://github.com/EddieHubCommunity/BioDrop/issues/8743)) ([e7ffd6a](https://github.com/EddieHubCommunity/BioDrop/commit/e7ffd6af4e28c31a63b4efe1acfe424bdd643641))
 
 
 
