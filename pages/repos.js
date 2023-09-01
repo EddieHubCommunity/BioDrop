@@ -8,7 +8,7 @@ import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 
 export async function getServerSideProps({ query }) {
-  const sortBy = query.sortBy || "stars";
+  const sortBy = query.sortBy || "pushed-date";
   const repos = await getRepos(sortBy);
 
   return {
@@ -20,12 +20,12 @@ export default function Repos({ repos }) {
   const router = useRouter();
   const sortOptions = [
     {
-      label: "created date",
-      value: "created-date",
+      label: "pushed date",
+      value: "pushed-date",
     },
     {
-      label: "push date",
-      value: "push-date",
+      label: "created date",
+      value: "created-date",
     },
     {
       label: "stars",
@@ -49,7 +49,7 @@ export default function Repos({ repos }) {
         <div className=" flex justify-end">
           <Select
             name="event-type"
-            value={router.query.sortBy || "stars"}
+            value={router.query.sortBy || "pushed-date"}
             label="Sort by"
             onChange={(e) => {
               router.push(`/repos?sortBy=${e.currentTarget.value}`);
