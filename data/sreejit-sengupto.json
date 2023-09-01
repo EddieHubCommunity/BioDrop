@@ -1,26 +1,72 @@
 {
-  "name": "SREEJIT SENGUPTA",
-  "bio": "Open Source Enthusiast! On and into Web Development. Aspiring Open Sorcerer. Constantly trying to Upskill myself. Learning everyday!",
+  "name": "Sreejit Sengupta",
+  {
+  "bio": "JavaScript | React | Frontend Developer | Tailwind | Blogger at **Hashnode**"
+  },
+{
+  "tags": ["Blogger", "Javascript", "Tailwind", "React", "Tweeter"]
+},
+"socials": [
+  { "icon": "FaTwitter", "url": "https://twitter.com/SreeSen03" },
+  { "icon": "FaGithub", "url": "https://github.com/Sreejit-Sengupto" },
+  { "icon": "Hashnode", "url": "sreesen.hashnode.com" },
+  { "icon": "LinkedIn", "url": "https://linkedin.com/in/sreesen03"}
+],
   "links": [
     {
-      "name": "Catch me on GitHub",
+      "name": "GitHub",
       "url": "https://github.com/sreejit-sengupto",
       "icon": "FaGithub"
     },
     {
-      "name": "Catch me on Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/SreeSen03",
       "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/sreesen03",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Blogs",
+      "name": "TechStuff Blogs",
+      "url": "sreesen.hashnode.dev",
+      "icon": "FaHashnode"
     }
   ],
   "milestones": [
     {
-      "title": "No such milestones but I Learnt!",
-      "date": "October 2022",
-      "icon": "FaBook",
+      "title": "Started writing blogs on Hashnode",
+      "date": "October 7, 2022",
+      "icon": "FaHashnode",
       "color": "grey",
-      "description": "No such milestones but I learnt too many things this past month, starting from Open Source to contributing to projects. Learnt HTML & CSS, created many projects using them, you can check them out GitHub. Started with Java and JavaSript now!",
-      "url": "https://github.com/sreejit-sengupto"
+      "description": "Wrote my first blog describing three ways to include CSS in an HTML file",
+      "url": "sreesen.hashnode.dev"
+    },
+    {
+      "title": "Cloned Battlegrounds Mobile India's website",
+      "date": "June 24, 2023",
+      "icon": "FaGamepad",
+      "color": "grey",
+      "description": "Cloned the entire website of BGMI using React, React-Router and TailwindCSS"
+      "url": "https://battlegrounds.vercel.app/"
+    },
+    {
+      "title": "Created a friendly bot",
+      "date": "July 9, 2023",
+      "icon": "FaRobot",
+      "color": "grey",
+      "description": "The bot uses OpenAI which takes up your programming question and answers them in C programming language",
+      "url": "https://github.com/Sreejit-Sengupto/CodeBot"
+    },
+    {
+      "title": "Completed devchallenge's weather app challenge",
+      "date": "September 1, 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "Created a web app which uses OpenWeather APIs to provide current weather information along with five days forecast and Air Quality Index",
+      "url": "skyvue.netlify.app"
     }
   ]
 }
