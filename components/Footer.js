@@ -53,12 +53,14 @@ export default function Footer() {
         href: "/maintainers",
         external: false,
       },
-      { name: "Resources", href: "/docs/community-resources", external: false },
+
       {
         name: "Contributors",
         href: BASE_GITHUB_PROJECT_URL + "/graphs/contributors",
         external: true,
       },
+      { name: "Resources", href: "/docs/community-resources", external: false },
+      { name: "Blog & Newsletter", href: "https://biodrop.substack.com/", external: true },
       { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
