@@ -52,6 +52,16 @@ export async function getUserApi(req, res, username, options = {}) {
       $match: { username },
     },
     {
+      $set:{
+        "milestones":{
+          $sortArray:{
+            input:"$milestones",
+            sortBy: {date:1}
+          }
+        }
+      }
+    },
+    {
       $addFields: {
         testimonials: {
           $filter: {
