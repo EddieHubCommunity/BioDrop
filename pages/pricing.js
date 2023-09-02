@@ -75,7 +75,7 @@ export default function Premium({ user, clientEnv }) {
       description:
         "Customise your Profile further to reach a greater audience.",
       mostPopular: true,
-      badge: "30 days FREE trial",
+      badge: "30 day FREE trial (NO credit card required)",
       button: {
         label: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
@@ -123,43 +123,60 @@ export default function Premium({ user, clientEnv }) {
         {
           name: "Tags",
           description:
-            "Create your Profile with unlimited links and connect to the community.",
+            "Make your Profile more discoverable with tags that describe your interests and expertise",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Unlimited Links",
+          description:
+            "There is no limit on the number of links you can add to your Profile",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Link Groups",
+          description:
+            "Keep all related links in a group of your choosing, for example: Content or Business",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Social Icons",
+          description:
+            "Promote your favourite links at the top of your Profile",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Milestones",
+          description:
+            "Add your career highlights, important achievements and future goals in this resumé style feature",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Testimonials",
+          description:
+            "Show off the great feedback you have received from other GitHub users",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Events",
+          description:
+            "Hosting, speaking or attending an event? Let people know what you are up to",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "GitHub Repositories",
+          description:
+            "Whether you maintain or contribute to a GitHub Repo bring this to the attention of other BioDrop users",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "QR Code",
+          description: "Share your Profile easily with others",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Hide Header/Footer",
+          description:
+            "Make your Profile more your own by removing the BioDrop header and/or footer",
           tiers: { Free: false, Premium: true },
         },
       ],
@@ -169,28 +186,38 @@ export default function Premium({ user, clientEnv }) {
       features: [
         {
           name: "Community Profile Search",
+          description:
+            "Search all BioDrop Profiles - you can search by name or tags",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Community Events",
+          description:
+            "See all the events added by BioDrop users, with helpful filters such CFP dates, is the event virtual/in person or free/paid",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Community Maps",
+          description: "See where BioDrop users are in the World",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Community GitHub Repositories",
+          description:
+            "See all GitHub Repos added by BioDrop users and sort by forks, stars or activity date",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Discover",
+          description:
+            "See a list of all those BioDrop Profiles which have been recently updated",
           tiers: { Free: true, Premium: true },
         },
-        {
-          name: "Featured Profiles",
-          tiers: { Free: false, Premium: true },
-        },
+        // {
+        //   name: "Featured Profiles",
+        //   description: "",
+        //   tiers: { Free: false, Premium: true },
+        // },
       ],
     },
     {
@@ -198,30 +225,43 @@ export default function Premium({ user, clientEnv }) {
       features: [
         {
           name: "Total Profile Views",
+          description: "Analytics on the total number of views of your Profile",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Total Daily Profile Views",
+          description:
+            "Analytics on the total number of views of your Profile per day over the last 30 days",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Total Link Clicks",
+          description:
+            "Analytics on the total number of clicks on your Profile links",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Individual Link Clicks",
+          description:
+            "Analytics on the total number of clicks for each individual link in your Profile",
           tiers: { Free: true, Premium: true },
         },
         {
           name: "Total Daily Link Clicks",
+          description:
+            "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
         },
         {
           name: "Views by Country",
+          description:
+            "Analytics on the country where your Profile visitors are from",
           tiers: { Free: false, Premium: true },
         },
         {
           name: "Views by Source",
+          description:
+            "Analytics on where visitors are finding and clicking your Profile link from, for example; Twitter, GitHub",
           tiers: { Free: false, Premium: true },
         },
       ],
@@ -231,14 +271,19 @@ export default function Premium({ user, clientEnv }) {
       features: [
         {
           name: "Community Discord",
+          description:
+            "Share ideas, ask questions, collaborate and network with other BioDrop users and EddieHub members",
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Monthly 1 hour roadmap call (meet the founders and let them know what new features you want to see)",
+          name: "Calls",
+          description:
+            "1 hour roadmap call (meet the founders and let them know what new features you want to see)",
           tiers: { Free: false, Premium: true },
         },
         {
           name: "Contact Form",
+          description: "For queries on your Premium account",
           tiers: { Free: false, Premium: true },
         },
       ],
@@ -246,7 +291,7 @@ export default function Premium({ user, clientEnv }) {
   ];
 
   const badge = (text) => (
-    <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 shadow-xl shadow-green-500/50">
+    <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 shadow-xl shadow-green-500/50 mb-4">
       <svg
         className="h-1.5 w-1.5 fill-green-500 animate-ping"
         viewBox="0 0 6 6"
@@ -380,11 +425,9 @@ export default function Premium({ user, clientEnv }) {
                         scope="col"
                         className="px-6 pt-6 xl:px-8 xl:pt-8"
                       >
-                        <div className="flex justify-between">
-                          <div className="text-2xl font-semibold leading-7 text-primary-medium dark:text-primary-low-medium">
-                            {tier.name}
-                          </div>
-                          {tier.badge && badge(tier.badge)}
+                        {tier.badge && badge(tier.badge)}
+                        <div className="text-2xl font-semibold leading-7 text-primary-medium dark:text-primary-low-medium">
+                          {tier.name}
                         </div>
                       </th>
                     ))}
