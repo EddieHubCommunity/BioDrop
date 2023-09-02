@@ -195,7 +195,7 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-        <div className="h-screen">
+        <div style={{ height: "min(96vw, 100vh)" }}>
           <DynamicMap
             users={filteredUsers.length > 0 ? filteredUsers : users}
           />

@@ -89,6 +89,7 @@ export const navigation = [
         href: "/docs/environments/environment-variables",
       },
       { name: "MongoDB Atlas", href: "/docs/environments/local-with-atlas" },
+      { name: "Debugging in VS Code", href: "/docs/environments/debugging-in-vscode" },
       { name: "Reviewers", href: "/docs/contributing/reviewers" },
       { name: "Storybook", href: "/docs/contributing/storybook" },
       { name: "Playwright", href: "/docs/contributing/automated-tests" },

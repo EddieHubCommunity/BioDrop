@@ -53,7 +53,7 @@ export default function UserMini({
           </div>
         </div>
       </div>
-      {monthly && total && clicks && rank && (
+      {!!monthly && !!total && !!clicks && !!rank && (
         <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-4 sm:divide-x sm:divide-y-0">
           <div className="px-6 py-5 text-center text-sm font-medium">
             <span className="text-primary-medium dark:text-primary-low-medium">
