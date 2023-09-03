@@ -1,0 +1,36 @@
+{
+  "name": "Rurika Wagalekar",
+  "bio": "open source enthusiest , web development",
+  "tags": ["Open Source", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RutikaWagalekar"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RutikaW1155"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/RutikaWagalekar",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/RutikaW1155",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/rutika-wagalekar-5906a725b/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

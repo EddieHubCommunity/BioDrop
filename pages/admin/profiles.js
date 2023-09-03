@@ -13,6 +13,7 @@ import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
 import { PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -37,8 +38,9 @@ export async function getServerSideProps(context) {
   }
 
   let profiles = [];
+  const { filter } = context.query;
   try {
-    profiles = await getProfiles();
+    profiles = await getProfiles(filter);
   } catch (e) {
     logger.error(e, "get users failed");
   }
@@ -60,6 +62,14 @@ export default function Users({ profiles }) {
       <Page>
         <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Profiles</h1>
+
+        <div className="flex gap-4">
+          <Button href="/admin/profiles?filter=recently updated">
+            Recently updated
+          </Button>
+          <Button href="/admin/profiles?filter=by rank">By Rank</Button>
+        </div>
+
         <ul role="list" className="divide-y divide-primary-low">
           {profiles.map((profile) => (
             <li

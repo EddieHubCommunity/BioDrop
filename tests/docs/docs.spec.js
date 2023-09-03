@@ -12,6 +12,7 @@ test("docs has quickstart link", async ({ page }) => {
   const getStarted = page.locator('h3:has-text("Quickstart")');
 
   await getStarted.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/quickstart/);
 });

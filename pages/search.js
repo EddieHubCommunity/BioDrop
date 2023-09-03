@@ -11,12 +11,11 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
-import { PROJECT_NAME } from "@constants/index";
-
 import {
   cleanSearchInput,
   searchTagNameInInput,
 } from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -79,10 +78,12 @@ export default function Search({
   BASE_URL,
 }) {
   const router = useRouter();
-  const { username, keyword } = router.query;
+  const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
-  const [inputValue, setInputValue] = useState(username || keyword || "");
+  const [inputValue, setInputValue] = useState(
+    username || keyword || userSearchParam || ""
+  );
   const [currentPage, setCurrentPage] = useState(1);
 
   const searchInputRef = useRef(null);
@@ -92,6 +93,11 @@ export default function Search({
       setNotFound(`${username} not found`);
     }
   }, [username]);
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, []);
 
   useEffect(() => {
     if (!inputValue) {
@@ -136,6 +142,14 @@ export default function Search({
     }
 
     const timer = setTimeout(() => {
+      router.replace(
+        {
+          pathname: "/search",
+          query: { userSearchParam: inputValue },
+        },
+        undefined,
+        { shallow: true }
+      );
       fetchUsers(inputValue);
     }, 500);
 
@@ -195,9 +209,9 @@ export default function Search({
         description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Search</h1>
+        <h1 className="mb-4 text-4xl font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center space-x-3 mb-4">
+        <div className="flex flex-wrap justify-center mb-4 space-x-3">
           {tags &&
             tags
               .slice(0, 10)

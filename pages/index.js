@@ -308,7 +308,7 @@ export default function Home({
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
               Features
             </h2>
-            <p className="mt-4 text-primary-low text-xl">
+            <p className="mt-4 text-primary-low/80 text-xl">
               It is not just links... Take a look at the Features you can add to
               customize your {PROJECT_NAME} Profile.
             </p>
@@ -328,10 +328,10 @@ export default function Home({
                     "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
                   )}
                 >
-                  <h3 className="text-lg sm:text-2xl font-medium text-primary-low">
+                  <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm sm:text-lg text-primary-low">
+                  <p className="mt-2 text-sm sm:text-lg text-primary-low/70">
                     {feature.description}
                   </p>
                 </div>
