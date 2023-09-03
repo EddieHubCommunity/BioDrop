@@ -31,7 +31,7 @@ export async function getStaticProps() {
 
   let alerts = structuredClone(config.alerts);
   if (
-    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
+    serverEnv.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
     serverEnv.NODE_ENV === "development" &&
     totalStats.users === 0
   ) {

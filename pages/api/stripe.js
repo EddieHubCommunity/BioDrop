@@ -1,9 +1,8 @@
 import { authOptions } from "./auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import Stripe from "stripe";
 
 import logger from "@config/logger";
-import { serverEnv } from "@config/schemas/serverSchema";
+import stripe from "@config/stripe";
 import { clientEnv } from "@config/schemas/clientSchema";
 
 export default async function handler(req, res) {
@@ -17,10 +16,6 @@ export default async function handler(req, res) {
     res.status(401).json({ message: "You must be logged in." });
     return;
   }
-
-  const stripe = new Stripe(serverEnv.STRIPE_SECRET_KEY, {
-    apiVersion: "2020-08-27",
-  });
 
   const stripeSession = await stripe.checkout.sessions.create({
     line_items: [

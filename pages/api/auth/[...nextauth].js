@@ -3,6 +3,7 @@ import GithubProvider from "next-auth/providers/github";
 import { ObjectId } from "bson";
 
 import { serverEnv } from "@config/schemas/serverSchema";
+import stripe from "@config/stripe";
 import DbAdapter from "./db-adapter";
 import connectMongo from "@config/mongo";
 import { Account, Profile, User } from "@models/index";
@@ -10,7 +11,6 @@ import {
   getAccountByProviderAccountId,
   associateProfileWithAccount,
 } from "../account/account";
-import { Stripe } from "stripe";
 import logger from "@config/logger";
 
 export const authOptions = {
@@ -104,9 +104,6 @@ export const authOptions = {
       // Create a stripe customer for the user with their email address
       if (!user.stripeCustomerId) {
         logger.info("user stripe customer id not found for: ", user.email);
-        const stripe = new Stripe(serverEnv.STRIPE_SECRET_KEY, {
-          apiVersion: "2020-08-27",
-        });
 
         const customer = await stripe.customers.create({
           email: user.email,

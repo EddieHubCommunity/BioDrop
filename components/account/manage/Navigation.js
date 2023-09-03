@@ -28,7 +28,10 @@ const tabs = [
   {
     name: "Links",
     href: "/account/manage/links",
-    match: ["/account/manage/link/[[...data]]"],
+    match: [
+      "/account/manage/link/[[...data]]",
+      "/account/statistics/link/[[...data]]",
+    ],
     icon: MdOutlineLink,
     current: false,
   },

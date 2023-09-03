@@ -21,6 +21,8 @@
     "file-saver": "^2.0.5",
     "husky": "^8.0.3",
     "leaflet": "^1.9.4",
+    "micro": "^10.0.1",
+    "micro-cors": "^0.1.1",
     "mongoose": "^7.4.1",
     "next": "^13.4.12",
     "next-auth": "^4.22.3",
