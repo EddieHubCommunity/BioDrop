@@ -1,6 +1,5 @@
 import mongoose from "mongoose";
 
-import dbChangesLoggerMiddleware from "./middlewares/dbChangesLogger";
 import config from "@config/app.json";
 
 const animations = Object.keys(config.animations);
@@ -63,7 +62,5 @@ const LinkSchema = new mongoose.Schema(
 );
 
 LinkSchema.index({ username: 1, url: 1 });
-
-dbChangesLoggerMiddleware(LinkSchema);
 
 module.exports = mongoose.models.Link || mongoose.model("Link", LinkSchema);
