@@ -1,45 +1,45 @@
-## [2.6.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.1...v2.6.2) (2023-08-30)
-
-
-### Bug Fixes
-
-* visual hierarchy of the features section ([#8836](https://github.com/EddieHubCommunity/BioDrop/issues/8836)) ([45e3bdb](https://github.com/EddieHubCommunity/BioDrop/commit/45e3bdbea5f5e1b559ad4d90d5558e467ff2459b))
-
-
-
-## [2.6.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.6.0...v2.6.1) (2023-08-30)
-
-
-### Bug Fixes
-
-* increased max length of link name ([#8856](https://github.com/EddieHubCommunity/BioDrop/issues/8856)) ([2961956](https://github.com/EddieHubCommunity/BioDrop/commit/29619567a91acca7211044b35d933a6f36a8a0a5))
-
-
-
-# [2.6.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.5.0...v2.6.0) (2023-08-29)
+# [2.13.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.12.0...v2.13.0) (2023-09-02)
 
 
 ### Features
 
-* keyboard shortcut to search page ([#8750](https://github.com/EddieHubCommunity/BioDrop/issues/8750)) ([5791b34](https://github.com/EddieHubCommunity/BioDrop/commit/5791b343e9bcc85b8a8947df7db397dc4c876958))
+* blog and newsletter ([#8920](https://github.com/EddieHubCommunity/BioDrop/issues/8920)) ([80e026e](https://github.com/EddieHubCommunity/BioDrop/commit/80e026e4c7b349d0a5abbefa0fdc4e9a09693760))
 
 
 
-# [2.5.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.1...v2.5.0) (2023-08-29)
+# [2.12.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.11.0...v2.12.0) (2023-09-02)
 
 
 ### Features
 
-* label to the input in profile section [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) ([#8839](https://github.com/EddieHubCommunity/BioDrop/issues/8839)) ([6ada7cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ada7cd6fb5adc7dc5e872ae636ff0c2e90d3935))
+* minimum forks, stars criteria in repo main list ([#8915](https://github.com/EddieHubCommunity/BioDrop/issues/8915)) ([38cdb37](https://github.com/EddieHubCommunity/BioDrop/commit/38cdb37e9c39813a0a2e5d39c90c52be7f939696))
 
 
 
-## [2.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.4.0...v2.4.1) (2023-08-29)
+# [2.11.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.5...v2.11.0) (2023-09-01)
+
+
+### Features
+
+* filter options for event section ([#8904](https://github.com/EddieHubCommunity/BioDrop/issues/8904)) ([978596e](https://github.com/EddieHubCommunity/BioDrop/commit/978596ed2e6e1c2e16415189891103cfa1182620))
+
+
+
+## [2.10.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.4...v2.10.5) (2023-09-01)
 
 
 ### Bug Fixes
 
-* reduce api data for daily stats ([#8834](https://github.com/EddieHubCommunity/BioDrop/issues/8834)) ([603ddfd](https://github.com/EddieHubCommunity/BioDrop/commit/603ddfd3742e8f925bb6c748dd6fe8fc1876920c))
+* map height ([#8902](https://github.com/EddieHubCommunity/BioDrop/issues/8902)) ([3cf7a1f](https://github.com/EddieHubCommunity/BioDrop/commit/3cf7a1f18db42c952b3989077dc78acaa90b55f1))
+
+
+
+## [2.10.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.3...v2.10.4) (2023-09-01)
+
+
+### Bug Fixes
+
+* **deps:** bump mongodb and mongoose ([#8879](https://github.com/EddieHubCommunity/BioDrop/issues/8879)) ([a0664ed](https://github.com/EddieHubCommunity/BioDrop/commit/a0664ed0247ca5b0bb7a2e2dde5c339b21180930))
 
 
 

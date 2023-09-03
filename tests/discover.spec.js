@@ -13,6 +13,7 @@ test("Navigate to the Discover page", async ({ page }) => {
     .getByRole("navigation")
     .getByRole("link", { name: "Discover" })
     .click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator("h1")).toHaveText("Recently updated Profiles");
 });
 

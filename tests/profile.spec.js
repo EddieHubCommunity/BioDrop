@@ -62,6 +62,7 @@ test.fixme("Link navigates", async () => {
 test("redirect to search when tag clicked", async ({ page }) => {
   await page.goto("/_test-profile-user-6");
   await page.getByRole("button", { name: "Open Source" }).first().click();
+  await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL("search?keyword=open%20source");
 });
 

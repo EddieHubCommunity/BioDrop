@@ -22,7 +22,7 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/jfmartinz/"
     },
-     {
+    {
       "icon": "FaFacebook",
       "url": "https://www.facebook.com/profile.php?id=61550922350882"
     }
@@ -52,13 +52,13 @@
       "url": "https://www.linkedin.com/in/jfmartinz/",
       "icon": "FaLinkedin"
     },
-     {
+    {
       "group": "Socials",
       "name": "Follow me on Facebook",
       "url": "https://www.facebook.com/profile.php?id=61550922350882",
       "icon": "FaFacebook"
     },
-    
+
     {
       "group": "Coding Challenges",
       "name": "Codewars",
