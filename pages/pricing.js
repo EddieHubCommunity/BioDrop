@@ -49,7 +49,7 @@ export default function Premium({ user, clientEnv }) {
         },
         action: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
-            return "/api/stripe"; //return clientEnv.STRIPE_MANAGE_PLAN_URL;
+            return "/api/stripe";
           }
           if (user.isLoggedIn && user.accountType === "free") {
             return "/pricing";
@@ -90,7 +90,7 @@ export default function Premium({ user, clientEnv }) {
         },
         action: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
-            return clientEnv.STRIPE_MANAGE_PLAN_URL;
+            return "/api/stripe";
           }
           if (user.isLoggedIn && user.accountType === "free") {
             return "/api/stripe";

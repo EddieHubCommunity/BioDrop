@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - premium-strip
+      - premium3
 
 jobs:
   deploy:
