@@ -2,12 +2,12 @@
   "name": "Sreejit Sengupta",
   "bio": "JavaScript | React | Frontend Developer | Tailwind | Blogger at **Hashnode**",
   "tags": ["Blogger", "Javascript", "Tailwind", "React", "Tweeter"],
-"socials": [
-  { "icon": "FaTwitter", "url": "https://twitter.com/SreeSen03" },
-  { "icon": "FaGithub", "url": "https://github.com/Sreejit-Sengupto" },
-  { "icon": "Hashnode", "url": "sreesen.hashnode.com" },
-  { "icon": "LinkedIn", "url": "https://linkedin.com/in/sreesen03" }
-],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/SreeSen03" },
+    { "icon": "FaGithub", "url": "https://github.com/Sreejit-Sengupto" },
+    { "icon": "Hashnode", "url": "sreesen.hashnode.com" },
+    { "icon": "LinkedIn", "url": "https://linkedin.com/in/sreesen03" }
+  ],
   "links": [
     {
       "name": "GitHub",

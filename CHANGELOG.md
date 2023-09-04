@@ -1,3 +1,12 @@
+# [2.13.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.12.0...v2.13.0) (2023-09-02)
+
+
+### Features
+
+* blog and newsletter ([#8920](https://github.com/EddieHubCommunity/BioDrop/issues/8920)) ([80e026e](https://github.com/EddieHubCommunity/BioDrop/commit/80e026e4c7b349d0a5abbefa0fdc4e9a09693760))
+
+
+
 # [2.12.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.11.0...v2.12.0) (2023-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **deps:** bump mongodb and mongoose ([#8879](https://github.com/EddieHubCommunity/BioDrop/issues/8879)) ([a0664ed](https://github.com/EddieHubCommunity/BioDrop/commit/a0664ed0247ca5b0bb7a2e2dde5c339b21180930))
-
-
-
-## [2.10.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.2...v2.10.3) (2023-09-01)
-
-
-### Reverts
-
-* Revert "fix: margin to manage pages (#8855)" (#8899) ([1b29725](https://github.com/EddieHubCommunity/BioDrop/commit/1b297257736886c88a6ba401c155832240d76098)), closes [#8855](https://github.com/EddieHubCommunity/BioDrop/issues/8855) [#8899](https://github.com/EddieHubCommunity/BioDrop/issues/8899)
 
 
 
