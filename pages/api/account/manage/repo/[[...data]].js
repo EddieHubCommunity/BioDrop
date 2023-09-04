@@ -8,6 +8,7 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Repo } from "@models/Profile/Repo";
 import getGitHubRepo from "@services/github/getRepo";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -75,6 +76,9 @@ export async function getRepoApi(username, id) {
 export async function addRepoApi(username, addRepo) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeUpdate = await getRepoApi(username, id);
+
   let getRepo = {};
 
   try {
@@ -150,6 +154,14 @@ export async function addRepoApi(username, addRepo) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    username,
+    collection: "repos",
+    changesBefore: beforeUpdate,
+    changesAfter: getRepo
+  });
 
   return JSON.parse(JSON.stringify(getRepo));
 }
@@ -229,6 +241,14 @@ export async function updateRepoApi(username, id, githubData) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    username,
+    collection: "repos",
+    changesBefore: null,
+    changesAfter: getRepo
+  });
 
   return JSON.parse(JSON.stringify(getRepo));
 }

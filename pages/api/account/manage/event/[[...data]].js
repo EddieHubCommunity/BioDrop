@@ -7,6 +7,7 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Event } from "@models/Profile/Event";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -79,6 +80,8 @@ export async function updateEventApi(username, id, updateEvent) {
   await connectMongo();
   const log = logger.child({ username });
 
+  const beforeUpdate = await getEventApi(username, id);
+
   let getEvent = {};
 
   try {
@@ -114,6 +117,15 @@ export async function updateEventApi(username, id, updateEvent) {
     log.error(e, error);
     return { error };
   }
+
+  
+  // Add to Changelog
+  logChange({
+    username, 
+    collection: "events", 
+    changesBefore: beforeUpdate, 
+    changesAfter: getEvent
+  });
 
   return JSON.parse(JSON.stringify(getEvent));
 }
@@ -185,6 +197,14 @@ export async function addEventApi(username, addEvent) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    username, 
+    collection: "events", 
+    changesBefore: null, 
+    changesAfter: getEvent
+  });
 
   return JSON.parse(JSON.stringify(getEvent));
 }

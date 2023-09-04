@@ -8,6 +8,7 @@ import {
   associateProfileWithAccount,
   getAccountByProviderAccountId,
 } from "../account";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -54,6 +55,8 @@ export async function getProfileApi(username) {
 export async function updateProfileApi(username, data, providerAccountId) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeUpdate = await getProfileApi(username);
 
   let getProfile = {};
 
@@ -108,6 +111,14 @@ export async function updateProfileApi(username, data, providerAccountId) {
       `failed to associate profile to account for username: ${username}`
     );
   }
+
+  // Add to Changelog
+  logChange({
+    username,
+    collection: "profiles",
+    changesBefore: beforeUpdate,
+    changesAfter: getProfile
+  });
 
   return JSON.parse(JSON.stringify(getProfile));
 }

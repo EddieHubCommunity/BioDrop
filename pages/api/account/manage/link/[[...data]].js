@@ -5,6 +5,7 @@ import { ObjectId } from "bson";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { LinkStats, Profile, Link } from "@models/index";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -105,12 +106,22 @@ export async function addLinkApi(username, data) {
   }
   getLink = await getLinkApi(username, getLink[0]._id);
 
+  // Add to Changelog
+  logChange({
+    username, 
+    collection: "links", 
+    changesBefore: null, 
+    changesAfter: getLink
+  });
+
   return JSON.parse(JSON.stringify(getLink));
 }
 
 export async function updateLinkApi(username, id, data) {
   await connectMongo();
   const log = logger.child({ username });
+
+  let beforeUpdate = await getLinkApi(username, id);
 
   let getLink = {};
 
@@ -153,6 +164,14 @@ export async function updateLinkApi(username, id, data) {
     log.error(e, `failed to update link ${data.url} for username: ${username}`);
     return { error: e.errors };
   }
+
+  // Add to Changelog
+  logChange({
+    username, 
+    collection: "links",
+    changesBefore: beforeUpdate,
+    changesAfter: getLink
+  });
 
   return JSON.parse(JSON.stringify(getLink));
 }

@@ -7,6 +7,7 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Milestone } from "@models/Profile/Milestone";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -79,6 +80,8 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
   await connectMongo();
   const log = logger.child({ username });
 
+  const beforeUpdate = await getMilestoneApi(username, id);
+
   let getMilestone = {};
 
   try {
@@ -117,6 +120,14 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    username,
+    collection: "milestones",
+    changesBefore: beforeUpdate,
+    changesAfter: getMilestone
+  });
 
   return JSON.parse(JSON.stringify(getMilestone));
 }
@@ -193,6 +204,14 @@ export async function addMilestoneApi(username, addMilestone) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    username,
+    collection: "milestones",
+    changesBefore: null,
+    changesAfter: getMilestone
+  });
 
   return JSON.parse(JSON.stringify(getMilestone));
 }
