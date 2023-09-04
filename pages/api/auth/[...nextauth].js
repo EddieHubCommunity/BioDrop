@@ -69,8 +69,13 @@ export const authOptions = {
       session.user.id = token.id;
       session.username = token.username;
       const user = await User.findOne({ _id: token.sub });
-      session.accountType = user.type;
-      session.stripeCustomerId = user.stripeCustomerId;
+      if (user) {
+        session.accountType = user.type;
+        session.stripeCustomerId = user.stripeCustomerId;
+      } else {
+        session.accountType = "free";
+        session.stripeCustomerId = null;
+      }
 
       return session;
     },
