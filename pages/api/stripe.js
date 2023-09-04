@@ -34,7 +34,6 @@ export default async function handler(req, res) {
           missing_payment_method: "cancel",
         },
       },
-      trial_period_days: 30,
     },
     payment_method_collection: "if_required",
     allow_promotion_codes: true,
