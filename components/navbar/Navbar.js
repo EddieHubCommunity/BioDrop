@@ -96,10 +96,10 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
-    {
-      name: "Pricing",
-      url: "/pricing",
-    },
+    // {
+    //   name: "Pricing",
+    //   url: "/pricing",
+    // },
   ];
 
   const authControls = () => (

@@ -179,6 +179,12 @@ export default function Premium({ user, clientEnv }) {
             "Make your Profile more your own by removing the BioDrop header and/or footer",
           tiers: { Free: false, Premium: true },
         },
+        {
+          name: "Premium Badge",
+          description:
+            "Make your Profile standout with a Premium badge on your Profile",
+          tiers: { Free: false, Premium: true },
+        },
       ],
     },
     {
@@ -276,9 +282,9 @@ export default function Premium({ user, clientEnv }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Calls",
+          name: "Roadmap Call",
           description:
-            "1 hour roadmap call (meet the founders and let them know what new features you want to see)",
+            "Meet the founders and let them know what new features you want to see",
           tiers: { Free: false, Premium: true },
         },
         {
