@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { FaShare } from "react-icons/fa";
+import { ImStarFull } from "react-icons/im"
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
@@ -50,7 +51,10 @@ function UserProfile({ BASE_URL, data }) {
         </Badge>
 
         <div className="flex flex-col self-center gap-3">
-          <h1 className="text-3xl font-bold">{data.name}</h1>
+          <h1 
+            className="flex text-3xl font-bold gap-1">{data.name} 
+            <ImStarFull color="gold" />  
+          </h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
               <UserSocial
