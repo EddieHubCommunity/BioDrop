@@ -67,7 +67,7 @@ test("redirect to search when tag clicked", async ({ page }) => {
 });
 
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests (_test-profile-user-6) (light)", async ({
     page,
@@ -91,7 +91,7 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
+  test.use({ colorScheme: "dark" });
 
   test("should pass axe wcag accessibility tests (_test-profile-user-6) (dark)", async ({
     page,
