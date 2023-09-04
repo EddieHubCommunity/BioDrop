@@ -15,7 +15,6 @@ import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
 import Markdown from "@components/Markdown";
-import BasicCards from "@components/statistics/BasicCards";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
