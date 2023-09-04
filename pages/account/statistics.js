@@ -195,8 +195,8 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             {profile.stats.referers && (
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
-                  <FaMousePointer className="h-6 w-6 text-gray-500" />
-                  <div className="text-sm font-medium leading-6 text-gray-900">
+                  <FaMousePointer className="h-6 w-6 text-primary-medium" />
+                  <div className="text-sm font-medium leading-6 text-primary-medium">
                     Referrers
                   </div>
                 </div>
@@ -209,10 +209,12 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                         key={referer[0]}
                         className="flex justify-between gap-x-4 py-3"
                       >
-                        <dt className="text-gray-500">
+                        <dt className="text-primary-medium dark:text-primary-low">
                           {referer[0].replaceAll("|", ".")}
                         </dt>
-                        <dd className="text-gray-700">{referer[1]}</dd>
+                        <dd className="text-primary-medium dark:text-primary-low">
+                          {referer[1]}
+                        </dd>
                       </div>
                     ))}
                 </dl>
@@ -221,8 +223,8 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             {profile.stats.countries && (
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
-                  <FaMapPin className="h-6 w-6 text-gray-500" />
-                  <div className="text-sm font-medium leading-6 text-gray-900">
+                  <FaMapPin className="h-6 w-6 text-primary-medium" />
+                  <div className="text-sm font-medium leading-6 text-primary-medium">
                     Locations
                   </div>
                 </div>
@@ -235,10 +237,12 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
                         key={country[0]}
                         className="flex justify-between gap-x-4 py-3"
                       >
-                        <dt className="text-gray-500">
+                        <dt className="text-primary-medium dark:text-primary-low">
                           {country[0].replaceAll("|", ".")}
                         </dt>
-                        <dd className="text-gray-700">{country[1]}</dd>
+                        <dd className="text-primary-medium dark:text-primary-low">
+                          {country[1]}
+                        </dd>
                       </div>
                     ))}
                 </dl>
