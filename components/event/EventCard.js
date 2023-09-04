@@ -86,7 +86,7 @@ export default function EventCard({ manage, event, usernames }) {
               <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </Markdown>
-              <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
+              <div className="text-sm text-primary-high dark:text-primary-low-medium inline-flex py-1 flex-col">
                 <div className="flex gap-2 flex-wrap">
                   {(event.isVirtual ||
                     (event.isInPerson && event.location)) && <FaMapPin />}
@@ -102,7 +102,7 @@ export default function EventCard({ manage, event, usernames }) {
                   </span>
                 </div>
                 {event.price?.startingFrom > 0 && (
-                  <div>${event.price?.startingFrom}</div>
+                  <div className="pt-1 text-tertiary-medium">${event.price?.startingFrom}</div>
                 )}
               </div>
             </div>
