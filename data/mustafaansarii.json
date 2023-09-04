@@ -1,20 +1,29 @@
 {
   "name": "Mustafa Ansari",
-  "type": "personal",
   "bio": "Open Source Dev | Computer Science Student | software developer | DSA | A geek | investor",
-
   "tags": ["Open Source dev", "Java", "HTML", "CSS", "Python", "DSA", "Blogs"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/mustafa_nds" },
-    { "icon": "FaGithub", "url": "https://github.com/mustafaansarii" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@mustafasmartX" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mustafa_nds"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mustafaansarii"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@mustafasmartX"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/mustafa-ansari-75059a237/"
     },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/mustafa.nds/" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/mustafa.nds/"
+    }
   ],
-
   "links": [
     {
       "group": "Let's connect",
@@ -58,7 +67,6 @@
   "milestones": [
     {
       "title": "Started YouTube",
-
       "date": "Dec 2022",
       "icon": "FaYoutube",
       "color": "red",

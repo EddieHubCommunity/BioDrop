@@ -1,0 +1,46 @@
+{
+  "name": "Emmanuel Adom",
+  "bio": "Software Engineering (C# .NET Core) | Technical Writing | QA Testing",
+  "tags": [
+    "Open Source",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Bootstrap",
+    "JavaScript",
+    "C#",
+    ".NET Core",
+    "EF Core",
+    "MSSQL",
+    "Docker",
+    "QA Testing"
+  ],
+  "socials": [
+    { "icon": "FaGithub", "url": "https://github.com/Emmanuel-Adom" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/emmanuel-adom/"
+    },
+    { "icon": "FaTwitter", "url": "https://twitter.com/emkadom" }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub",
+      "url": "https://github.com/Emmanuel-Adom",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/emmanuel-adom/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/emkadom",
+      "icon": "FaTwitter"
+    }
+  ]
+}

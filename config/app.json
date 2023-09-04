@@ -1,3 +1,32 @@
 {
-  "version": "1.114.12"
+  "version": "2.15.0",
+  "alerts": [],
+  "layouts": [
+    "classic",
+    "inline",
+    "column-2"
+  ],
+  "animations": {
+    "none": "No Animation",
+    "pulse": "Pulse",
+    "bounce": "Bounce",
+    "ping": "Ping",
+    "glow": "Glow",
+    "wiggle": "Wiggle",
+    "iconGlow": "Glow Icon"
+  },
+  "isr": {
+    "homepage": {
+      "revalidateSeconds": 900,
+      "description": "15 * 60 = 15 minutes"
+    },
+    "mapPage": {
+      "revalidateSeconds": 43200,
+      "description": "12 * 60 * 60 = 12 hours"
+    },
+    "searchPage": {
+      "revalidateSeconds": 300,
+      "description": "5 * 60 = 5 minutes"
+    }
+  }
 }

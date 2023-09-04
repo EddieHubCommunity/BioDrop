@@ -1,61 +1,86 @@
 {
   "name": "Manish Tyagi ",
-  "type": "Personal",
-  "bio": "**Open Source** Advocate | Web Developer | Postman **Student Leader**",
-
+  "bio": "Open Source DevRel | Postman Student Leader | Organizer API Days",
   "tags": [
     "Open Source",
-    "Web Development",
+    "DevRel",
     "Community Management",
-    "Content Writing",
-    "DevRel"
+    "Golang",
+    "Content Creator"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ManishT93598843" },
-    { "icon": "FaGithub", "url": "https://github.com/money8203" },
-    { "icon": "FaLink", "url": "https://manishtyagi.carrd.co/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/manishtyagi__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/money8203"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/manishty"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://threads.net/@manishtyagi__"
+    }
   ],
   "testimonials": ["the-amazing-atharva"],
   "links": [
     {
+      "group": "Socials",
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/manishtyagi__",
       "icon": "FaTwitter"
     },
     {
-      "name": "See my work on GitHub",
+      "group": "Socials",
+      "name": "Let's Thread together",
+      "url": "https://threads.net/@manishtyagi__",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's collab on GitHub",
       "url": "https://github.com/money8203",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Connect with me on LinkedIn",
-      "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
+      "url": "https://linkedin.com/in/manishty",
       "icon": "FaLinkedin"
     },
     {
-      "name": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/manisht",
-      "icon": "SiBuymeacoffee"
+      "group": "Socials",
+      "name": "Connect 1:1 with me",
+      "url": "calendly.com/manisht",
+      "icon": "SiCalendly"
     },
     {
-      "name": "Google Developer Profile",
-      "url": "https://g.dev/manisht",
-      "icon": "SiGoogle"
-    },
-    {
+      "group": "Socials",
       "name": "Follow me on Insta",
       "url": "https://instagram.com/manish_tyagi.__",
       "icon": "FaInstagram"
     },
     {
-      "name": "Personal Profile",
-      "url": "https://manishtyagi.carrd.co/",
-      "icon": "FaGlobe"
+      "group": "Socials",
+      "name": "Google Developer Profile",
+      "url": "https://g.dev/manisht",
+      "icon": "SiGoogle"
     },
     {
+      "group": "Socials",
       "name": "Microsoft Learn Profile",
-      "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
+      "url": "https://learn.microsoft.com/en-gb/users/manishtyagi/achievements",
       "icon": "SiMicrosoft"
+    },
+    {
+      "group": "Support My Work",
+      "name": "Like what I am doing? Buy me a Coffee/ Book ",
+      "url": "https://www.buymeacoffee.com/manisht",
+      "icon": "SiBuymeacoffee"
     }
   ]
 }

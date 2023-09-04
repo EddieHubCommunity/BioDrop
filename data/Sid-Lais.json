@@ -1,0 +1,45 @@
+{
+  "name": "Siddarth Laishram,",
+  "bio": "Open Source | **Postman Student Expert** | Tech Enthusiast",
+  "tags": ["Open Source", "Java"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SidLais351"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sid-Lais"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/sidlais"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Most active on Twitter",
+      "url": "https://twitter.com/SidLais351",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Sid-Lais",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/siddarth-laishram",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/sidlais",
+      "icon": "FaInstagram"
+    }
+  ]
+}

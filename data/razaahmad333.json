@@ -1,8 +1,6 @@
 {
   "name": "Ahmad Raza",
-  "type": "personal",
   "bio": "Web developer | Blogger | Freelancer | Student",
-
   "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Blogs"],
   "socials": [
     {

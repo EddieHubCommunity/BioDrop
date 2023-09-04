@@ -1,6 +1,5 @@
 {
   "name": "Elizabeth Ogbe",
-  "type": "personal",
   "bio": "Blockchain Developer, OpenSourcerer",
   "links": [
     {
@@ -14,6 +13,12 @@
       "icon": "FaGithub"
     }
   ],
- "tags": [ "Open Source", "Javascript", "Typescript", "NextJS", "Solidity","Smart Contract" ]
-
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Solidity",
+    "Smart Contract"
+  ]
 }

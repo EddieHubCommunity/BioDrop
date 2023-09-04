@@ -1,0 +1,109 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+
+## Reviewers
+
+### Issues
+
+For more details on labels and points please see the [Label docs](/docs/contributing/labels).
+
+When new issues are created, they are automatically assigned the label `status: awaiting triage`.
+
+Only maintainers can assign issues. Please keep in mind the following:
+
+- Only assign issues with the label `status: ready for dev`
+- Each person should only be assigned 1 open issue at a time
+
+---
+
+### Pull Requests (Profiles)
+
+#### Lack of activity and waiting times
+
+If there has been no activity **for 2 weeks** by the author to address/correct any maintainer's comments, please close the Pull Request with a comment suggesting they create a new Pull Request when they are ready and link to the Quickstart Guide http://BioDrop.io/docs/quickstart-json
+
+#### `avatar` and `publicStats` json property is included (no longer required)
+
+This is no longer used, please leave an inline comment with the code suggestion to remove it - this will allow another maintainer to accept the changes and we can get the Pull Request merged without delay.
+
+![Inline comment with suggestion](https://user-images.githubusercontent.com/624760/229017041-afa55fd0-7c09-40b7-bbd0-5f081630d01e.png)
+
+If you wish to make the fix yourself, you can merge to a temporary branch and fix, then create a new Pull Request.
+
+_Note: multiple Pull Requests that need fixing can go into this temporary branch, but please make sure this branch is not open for longer than a few hours to avoid any confusion._
+
+---
+
+#### Where there are typos by the author
+
+Feel free to leave a comment highlighting these, but typos should **not** block merging the Pull Request.
+
+Explain when merging that the author can submit a new Pull Request correcting the typos with a link to the `Editing` profile docs https://biodrop.io/docs/how-to-guides/editing-json
+
+---
+
+#### Where a reviewer (maintainer or not) has highlighted typos and has raised these as a “suggested change”
+
+We should **not** accept and commit the suggested change as this represents changing the author's profile.
+
+This should not block merging a Pull Request. Explain when merging that the author can submit a new Pull Request correcting the typos with a link to the `Editing` profile docs https://biodrop.io/docs/how-to-guides/editing-json
+
+However, accepting `json` fixes, for example adding a missing comma is allowed as this is not changing their content.
+
+---
+
+#### Where an author has used the wrong icon
+
+For example:
+
+> - non-existent icon (“Twitter” instead of “FaTwitter”)
+> - or a mismatched platform icon (“FaTwitter” when the link is for Instagram)
+
+This should **not** block merging a Pull Request as it will fall back to the default icon if not found.
+
+Explain when merging that the author can submit a new Pull Request correcting this and include a link to the `Editing` profile docs https://biodrop.io/docs/how-to-guides/editing-json and the icon page https://biodrop.io/icons
+
+If someone has made inline suggestions, please do **not** accept these (as this is changing the authors content).
+
+---
+
+#### Profile does not have any links
+
+This should **not** be a blocker for merging the PR (despite the name being BioDrop).
+
+Please suggest they add links when they are ready and explain when merging that the author can submit a new Pull Request with a link to the `Editing` profile docs https://biodrop.io/docs/how-to-guides/editing-json
+
+---
+
+#### Bio or Tags length
+
+Whilst there are benefits to a concise `bio` and `tags` it is not for any reviewer to suggest changes.
+
+If the `bio` or `tags` are large, this should **not** block the Pull Request. The author can submit a new Pull Request if they wish to shorten this in the future.
+
+---
+
+#### Conflicts have arisen as the fork is outdated
+
+In the first instance please ask them to resolve these and you may want to provide a link to this video that explains how: https://youtu.be/eze7Y4Rxwtc
+
+---
+
+#### Json package lock fix
+
+In our docs we recommend people use `npm ci` to setup the project dependencies which will not makes changes to the `package-lock.json` file.
+
+However, when `npm install` is used, the lock file will be modified and these changes should **not** be accepted and the Pull Request will be blocked until the changes are removed.
+
+The exception is if the changes have made modifications to the `package.json` file, then the lock file changes are required.
+
+If the author needs help undoing their changes to the lock file, I have created a video on how they can achieve this https://www.youtube.com/watch?v=jHkIXYVpMTo
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Maintainers Documentation"
+    section="Contributing"
+    name="Reviewers"
+  >
+    {children}
+  </DocsLayout>
+);

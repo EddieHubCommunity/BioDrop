@@ -1,0 +1,21 @@
+{
+  "name": "Gourav Mohanty",
+  "bio": "A dynamic and creative individual with a passion for technology and making a positive impact",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/gourav2103",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gourav-mohanty-78006a201/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/gouravmohanty7070",
+      "icon": "FaGithub"
+    }
+  ]
+}

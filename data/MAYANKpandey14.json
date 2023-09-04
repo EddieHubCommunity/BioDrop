@@ -1,15 +1,21 @@
 {
   "name": "Mayank Pandey",
-  "type": "personal",
   "bio": "***Open Source*** | JavaScript Developer | Learning DevOps and Django. |",
   "tags": ["Open Source", "JavaScript", "ReactJS", "DevOps", "Python"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/reallyMayankP" },
-    { "icon": "FaGithub", "url": "https://github.com/MAYANKpandey14" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/manu.pandey_" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/reallyMayankP"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MAYANKpandey14"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/manu.pandey_"
+    }
   ],
-
   "links": [
     {
       "group": "Business",

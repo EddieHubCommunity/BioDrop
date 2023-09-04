@@ -1,0 +1,67 @@
+{
+  "name": "Ronak Paul",
+  "bio": "Open Source | Community | DevOps Enthusiast | Content Creator",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Java",
+    "Web Development",
+    "DevOps",
+    "Docker",
+    "Kubernetes",
+    "Python"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ronak_pal1"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ronak-pal1"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@CodaGo"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/ronak_pal1"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ronak_pal1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/ronak-pal1",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/ronak-paul-2975b01b6",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Contents",
+      "name": "YouTube: Learn Coding with me",
+      "url": "https://youtube.com/@CodaGo",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Contents",
+      "name": "Blog: Read me latest blogs",
+      "url": "https://codago.hashnode.dev/",
+      "icon": "SiHashnode",
+      "color": "#FF0000"
+    }
+  ]
+}

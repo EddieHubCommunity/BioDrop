@@ -1,14 +1,21 @@
 {
   "name": "Mahesh Kasbe",
-  "type": "personal",
   "bio": " Open Source | DevOps | DevRel ",
   "tags": ["Open Source", "DevOps", "Kubernetes", "Docker", "Java"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/maheshstwt" },
-    { "icon": "FaGithub", "url": "https://github.com/MaheshKasabe" },
-    { "icon": "website", "url": "https://maheshkasabe.github.io/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/maheshstwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MaheshKasabe"
+    },
+    {
+      "icon": "website",
+      "url": "https://maheshkasabe.github.io/"
+    }
   ],
-
   "links": [
     {
       "name": "Daily tweets on Open Source",

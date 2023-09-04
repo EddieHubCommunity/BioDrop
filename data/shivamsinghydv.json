@@ -1,11 +1,16 @@
 {
   "name": "Shivam Kumar",
-  "type": "personal",
   "bio": "student // learning",
   "tags": ["Open Source", "Javascript", "TypeScript", "Python"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/shivamsinghydv" },
-    { "icon": "FaGithub", "url": "https://github.com/shivamsinghydv" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shivamsinghydv"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shivamsinghydv"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/shivxmsinghydv"

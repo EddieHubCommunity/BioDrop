@@ -1,8 +1,6 @@
 {
   "name": "Tanishka Yadav",
-  "type": "personal",
   "bio": "SWE Intern | Full-Stack Developer | Technical Writer |",
-
   "tags": [
     "Javascript",
     "ReactJs",
@@ -11,8 +9,14 @@
     "Technical Writer"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/tanishka__yadav" },
-    { "icon": "FaGithub", "url": "https://github.com/Tanishka-dev" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tanishka__yadav"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Tanishka-dev"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/tanishkayadav/"

@@ -1,10 +1,7 @@
 {
   "name": "Haris Khan",
-  "type": "personal",
   "bio": "Computer Science guy in a Software Engineering world!",
-
   "tags": ["Frontend Developer", "Open Source"],
-
   "socials": [
     {
       "icon": "FaGithub",
@@ -39,6 +36,11 @@
       "name": "LinkedIn: Connect with me",
       "url": "https://www.linkedin.com/in/hariskhan00/",
       "icon": "FaLinkedin"
+    },
+    {
+      "name": "instantBazar: My Online Store",
+      "url": "https://www.instagram.com/instantbazar_/",
+      "icon": "FaInstagram"
     }
   ],
   "testimonials": ["basit333"]

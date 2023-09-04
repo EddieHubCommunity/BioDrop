@@ -1,12 +1,16 @@
 {
   "name": "Nobert Patrick",
-  "type": "personal",
   "bio": "Full Stack Developer | **Open Source Contributor**",
-
   "tags": ["Python", ".NET/C#", "Javascript", "Typescript", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/trikcode" },
-    { "icon": "FaGithub", "url": "https://github.com/Trikcode" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/trikcode"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Trikcode"
+    }
   ],
   "links": [
     {

@@ -1,6 +1,5 @@
 {
   "name": "Vamsi Penmetsa",
-  "type": "personal",
   "bio": "🧐 Curious **DevOps** Dude | 20K+ smart minds 👀 my content on LinkedIn | 1.5+ million constant impressions 📈 | ♾ DevOps Community Builder | Azure ☁️ | love 🥑 | 🛫 From 🇮🇳, Lives in Europe 🇪🇺 | 💁🏻‍♂️ 𝗙𝗢𝗟𝗟𝗢𝗪",
   "tags": [
     "DevOps",
@@ -10,14 +9,19 @@
     "Technical Writing",
     "DevOps community builder"
   ],
-
   "socials": [
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/vamsi-penmetsa-392798119/"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/vamsi_penmetsa" },
-    { "icon": "FaMedium", "url": "https://medium.com/@vamsipenmetsa" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vamsi_penmetsa"
+    },
+    {
+      "icon": "FaMedium",
+      "url": "https://medium.com/@vamsipenmetsa"
+    },
     {
       "icon": "FaUsers",
       "url": "https://linkedin.openinapp.co/groups-13986647"
@@ -61,7 +65,6 @@
       "icon": "FaUsers"
     }
   ],
-
   "milestones": [
     {
       "title": "Crossed 20K followers on LinkedIn",

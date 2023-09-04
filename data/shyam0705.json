@@ -1,12 +1,16 @@
 {
   "name": "Shyam Patel",
-  "type": "personal",
   "bio": "Upcoming intern at JP Morgan Chase | Former intern at Samsung | Full Stack Developer | Tech Enthusiast",
-
   "tags": ["javascript", "React"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/shyam_07_05" },
-    { "icon": "FaGithub", "url": "https://github.com/shyam0705" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shyam_07_05"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shyam0705"
+    }
   ],
   "links": [
     {

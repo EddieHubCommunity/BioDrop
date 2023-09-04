@@ -1,13 +1,10 @@
 {
   "name": "Abhay Prajapati",
-  "type": "personal",
   "bio": "frontend dev",
-
   "links": [
     {
       "name": "My Personal Page",
       "url": "https://abhayprajapati.me",
-
       "icon": "FaLink"
     },
     {

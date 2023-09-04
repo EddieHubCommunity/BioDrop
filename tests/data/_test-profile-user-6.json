@@ -1,0 +1,166 @@
+{
+  "name": "Test User Name 6",
+  "bio": "Open Source DevRel | Founder of **EddieHub** | **GitHub** Star",
+
+  "tags": ["Open Source", "Javascript", "Typescript"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" },
+    { "icon": "FaGithub", "url": "https://github.com/eddiejaoude" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/eddiejaoude" }
+  ],
+  "testimonials": ["FrancescoXX", "loftwah"],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/eddiejaoude",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "EddieHub Community",
+      "name": "EddieHub: Inclusive Open Source Community (Discord, GitHub Org ...)",
+      "url": "http://eddiehub.org",
+      "icon": "FaLink"
+    },
+    {
+      "group": "EddieHub Community",
+      "name": "EddieHub: Discord",
+      "url": "http://discord.eddiehub.org",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Podcast: Open Source community conversations",
+      "url": "https://anchor.fm/eddiejaoude",
+      "icon": "FaPodcast"
+    },
+    {
+      "name": "Course (free): Customising your GitHub Profile",
+      "url": "http://eddiejaoude.io/course-github-profile-landing",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Mastodon: Connect with me",
+      "url": "https://fosstodon.org/@eddiejaoude",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Donate: GitHub Sponsors",
+      "url": "https://github.com/sponsors/eddiejaoude",
+      "icon": "FaRegMoneyBillAlt"
+    },
+    {
+      "name": "Open Source project BioDrop",
+      "url": "https://github.com/EddieHubCommunity/BioDrop",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "May 2010",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.eddiejaoude.io/"
+    },
+    {
+      "title": "Started YouTube",
+
+      "date": "June 2019",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Became a **GitHub** Star for the first year of the program",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star of the Year",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won GitHub Star of the Year out of 55+ million people",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "Started Open Source project BioDrop",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
+      "url": "https://biodrop.eddiehub.io"
+    },
+    {
+      "title": "GitHub Nova, Community Growth Award",
+      "date": "2021",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won for growing the EddieHub Community to over 30k members.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Nova, Top Teacher Award",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Won top teacher award from GitHub.",
+      "url": "https://github.com/eddiejaoude"
+    },
+    {
+      "isGoal": true,
+      "title": "Course on helping people get started with Open Source",
+      "date": "2022",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% of the way through my course of helping people getting into Open Source",
+      "url": "http://eddiejaoude.io"
+    },
+    {
+      "isGoal": true,
+      "title": "BioDrop to a SAAS platform",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Have advanced premium features, but will always be free and open source",
+      "url": "https://biodrop.io"
+    }
+  ]
+}

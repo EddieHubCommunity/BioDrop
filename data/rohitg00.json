@@ -1,6 +1,5 @@
 {
   "name": "Rohit Ghumare",
-  "type": "personal",
   "bio": "Platform Advocate | Founder of **DevOps Community** | ML Engineer turned **DevOps Advocate** via MLOps | Community Evangelist",
   "tags": [
     "Open Source",
@@ -16,9 +15,18 @@
   ],
   "testimonials": ["Rahul-Prasad-07"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ghumare64" },
-    { "icon": "FaGithub", "url": "https://github.com/rohitg00" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/devopsguys" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ghumare64"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rohitg00"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/devopsguys"
+    }
   ],
   "links": [
     {

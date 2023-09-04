@@ -1,0 +1,22 @@
+{
+  "name": "Samuel Osho",
+  "bio": "Front-End Developer | Tech Enthusiast | Passionate About New Web Technologies",
+  "tags": ["Open Source", "Traveler"],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/samthatcode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/samthatcode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/samuel-osho-574808189",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
