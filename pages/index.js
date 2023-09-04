@@ -199,7 +199,7 @@ export default function Home({
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:bg-dark">
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
@@ -239,7 +239,7 @@ export default function Home({
         </div>
       </div>
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
         {alerts.map((alert, index) => (
           <Alert key={index} type={alert.type} message={alert.message} />
         ))}
@@ -268,7 +268,7 @@ export default function Home({
         />
       </div>
 
-      <div className="bg-primary-low dark:bg-dark">
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
@@ -302,7 +302,7 @@ export default function Home({
         button2Text="Example"
       />
 
-      <div className="bg-primary-high dark:bg-black" id="section-features">
+      <div className="bg-primary-high dark:bg-dark-2" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
