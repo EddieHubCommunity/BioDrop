@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
@@ -11,11 +11,11 @@ import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import Pagination from "@components/Pagination";
-import { PROJECT_NAME } from "@constants/index";
 import {
   cleanSearchInput,
   searchTagNameInInput,
 } from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -78,17 +78,26 @@ export default function Search({
   BASE_URL,
 }) {
   const router = useRouter();
-  const { username, keyword } = router.query;
+  const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
-  const [inputValue, setInputValue] = useState(username || keyword || "");
+  const [inputValue, setInputValue] = useState(
+    username || keyword || userSearchParam || ""
+  );
   const [currentPage, setCurrentPage] = useState(1);
+
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     if (username) {
       setNotFound(`${username} not found`);
     }
   }, [username]);
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, []);
 
   useEffect(() => {
     if (!inputValue) {
@@ -133,11 +142,33 @@ export default function Search({
     }
 
     const timer = setTimeout(() => {
+      router.replace(
+        {
+          pathname: "/search",
+          query: { userSearchParam: inputValue },
+        },
+        undefined,
+        { shallow: true }
+      );
       fetchUsers(inputValue);
     }, 500);
 
     return () => clearTimeout(timer);
   }, [inputValue]);
+
+  useEffect(() => {
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
 
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
@@ -178,9 +209,9 @@ export default function Search({
         description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Search</h1>
+        <h1 className="mb-4 text-4xl font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center space-x-3 mb-4">
+        <div className="flex flex-wrap justify-center mb-4 space-x-3">
           {tags &&
             tags
               .slice(0, 10)
@@ -202,6 +233,7 @@ export default function Search({
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
+            ref={searchInputRef}
             placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}

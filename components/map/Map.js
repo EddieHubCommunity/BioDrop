@@ -17,7 +17,7 @@ export default function Map({ users }) {
       scrollWheelZoom={true}
       maxBounds={boundsMap}
       maxBoundsViscosity={0.7}
-      style={{ height: "100vh" }}
+      style={{ height: "min(96vw, 100vh)" }}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

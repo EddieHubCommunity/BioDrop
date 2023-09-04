@@ -24,8 +24,13 @@ export default async function handler(req, res) {
   res.status(200).json(data);
 }
 
-export async function getStats(username) {
+export async function getStats(username, numberOfDays = 30) {
   await connectMongo();
+
+  // This calculates the start date by subtracting the specified number of days from the current date. 
+  // The query then retrieves data from that calculated start date up to the current date.
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - numberOfDays);
 
   let profileData = {};
   try {
@@ -54,7 +59,7 @@ export async function getStats(username) {
 
   let profileViews = [];
   try {
-    profileViews = await ProfileStats.find({ username }).sort({ date: "asc" });
+    profileViews = await ProfileStats.find({ username, date: { $gte: startDate }}).sort({ date: "asc" });
   } catch (e) {
     logger.error(e, "failed to load stats");
   }

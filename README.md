@@ -5,6 +5,8 @@
 
 **Project renamed from `LinkFree` to `BioDrop`**(please update your local git clones with the new remote name)
 
+![BioDrop logo on a sticker](https://github.com/EddieHubCommunity/BioDrop/assets/624760/31adec45-3dc3-4353-b37a-9b316a217261)
+
 # What is BioDrop?
 
 A platform where people in tech can have a single hub to showcase their content in order to accelerate their career, whilst contributing to an Open Source project and being part of a community that has a say in where the project is going.
