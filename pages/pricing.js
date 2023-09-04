@@ -3,7 +3,6 @@ import { CheckIcon, MinusIcon } from "@heroicons/react/20/solid";
 import { authOptions } from "./api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
-import { clientEnv } from "@config/schemas/clientSchema";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { classNames } from "@services/utils/classNames";
@@ -21,11 +20,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { user, clientEnv },
+    props: { user },
   };
 }
 
-export default function Premium({ user, clientEnv }) {
+export default function Premium({ user }) {
   const tiers = [
     {
       name: "Free",
