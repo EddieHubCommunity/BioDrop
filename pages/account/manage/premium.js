@@ -104,14 +104,14 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
             <legend className="sr-only">Premium features</legend>
             <div className="sm:grid sm:grid-cols-3 sm:items-baseline sm:gap-4 sm:py-6">
               <div
-                className="text-sm font-semibold leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-primary-medium dark:text-primary-low"
                 aria-hidden="true"
               >
                 Premium features
               </div>
               <div className="mt-1 sm:col-span-2 sm:mt-0">
                 <div className="max-w-lg">
-                  <p className="text-sm leading-6 text-gray-600">
+                  <p className="text-sm leading-6 text-primary-medium dark:text-primary-low">
                     These are active while you are a Premium member.
                   </p>
                   <div className="mt-6 space-y-6">
