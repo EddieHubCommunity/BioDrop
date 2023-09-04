@@ -56,7 +56,7 @@ export async function getUserApi(req, res, username, options = {}) {
         "milestones":{
           $sortArray:{
             input:"$milestones",
-            sortBy: {date:1}
+            sortBy: {date:-1}
           }
         }
       }
