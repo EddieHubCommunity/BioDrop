@@ -1,3 +1,12 @@
+# [2.15.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.14.0...v2.15.0) (2023-09-04)
+
+
+### Features
+
+* premium with stripe integration ([#8647](https://github.com/EddieHubCommunity/BioDrop/issues/8647)) ([36e2a88](https://github.com/EddieHubCommunity/BioDrop/commit/36e2a882f2155a769070e3acf49ffe58091b78e6)), closes [#8909](https://github.com/EddieHubCommunity/BioDrop/issues/8909)
+
+
+
 # [2.14.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.13.0...v2.14.0) (2023-09-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * filter options for event section ([#8904](https://github.com/EddieHubCommunity/BioDrop/issues/8904)) ([978596e](https://github.com/EddieHubCommunity/BioDrop/commit/978596ed2e6e1c2e16415189891103cfa1182620))
-
-
-
-## [2.10.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.4...v2.10.5) (2023-09-01)
-
-
-### Bug Fixes
-
-* map height ([#8902](https://github.com/EddieHubCommunity/BioDrop/issues/8902)) ([3cf7a1f](https://github.com/EddieHubCommunity/BioDrop/commit/3cf7a1f18db42c952b3989077dc78acaa90b55f1))
 
 
 
