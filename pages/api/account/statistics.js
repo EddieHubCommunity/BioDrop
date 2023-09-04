@@ -87,8 +87,8 @@ export async function getStats(username) {
   let totalClicks = 0;
   const linkDailyStats = linkClicks.map((item) => {
     totalClicks += item.clicks;
-
     return {
+      _id: item._id,
       url: item.url,
       clicks: item.clicks,
       daily: dailyClicks
