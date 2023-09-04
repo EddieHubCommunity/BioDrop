@@ -1,3 +1,12 @@
+# [2.14.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.13.0...v2.14.0) (2023-09-04)
+
+
+### Features
+
+* user profile picture on manage testimonials ([#8938](https://github.com/EddieHubCommunity/BioDrop/issues/8938)) ([3bbb1b9](https://github.com/EddieHubCommunity/BioDrop/commit/3bbb1b9c76d81921c41e3bf5238f1b5f27c4b553))
+
+
+
 # [2.13.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.12.0...v2.13.0) (2023-09-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * map height ([#8902](https://github.com/EddieHubCommunity/BioDrop/issues/8902)) ([3cf7a1f](https://github.com/EddieHubCommunity/BioDrop/commit/3cf7a1f18db42c952b3989077dc78acaa90b55f1))
-
-
-
-## [2.10.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.3...v2.10.4) (2023-09-01)
-
-
-### Bug Fixes
-
-* **deps:** bump mongodb and mongoose ([#8879](https://github.com/EddieHubCommunity/BioDrop/issues/8879)) ([a0664ed](https://github.com/EddieHubCommunity/BioDrop/commit/a0664ed0247ca5b0bb7a2e2dde5c339b21180930))
 
 
 
