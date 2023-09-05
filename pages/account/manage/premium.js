@@ -12,6 +12,7 @@ import Alert from "@components/Alert";
 import { getSettingsApi } from "pages/api/account/manage/settings";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -81,9 +82,7 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
             message={"Event Created/Updated Successfully"}
           />
         )}
-
         <Navigation />
-
         <Notification
           show={showNotification}
           type="success"
@@ -91,14 +90,12 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
           message="Premium updated"
           additionalMessage="Your Profile Premium settings have been updated."
         />
-
         {accountType !== "premium" && (
           <Alert
             type="warning"
             message="These are Premium features. Please upgrade your account for these to take effect on your public Profile."
           />
         )}
-
         <form>
           <fieldset>
             <legend className="sr-only">Premium features</legend>
@@ -135,6 +132,15 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
             </div>
           </fieldset>
         </form>
+        <p>
+          For help with your Premium account settings:{" "}
+          <Link
+            href={`${clientEnv.NEXT_PUBLIC_PREMIUM_SUPPORT_URL}`}
+            target="_blank"
+          >
+            Contact Support
+          </Link>
+        </p>
       </Page>
     </>
   );

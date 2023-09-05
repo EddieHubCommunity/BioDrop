@@ -74,7 +74,8 @@ export default function Premium({ user }) {
       description:
         "Customise your Profile further to reach a greater audience.",
       mostPopular: true,
-      badge: "30 day FREE trial (NO credit card required)",
+      badge: "Coupon: FREETRIAL30DAYS",
+      badge2: "NO credit card required",
       button: {
         label: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
@@ -252,7 +253,7 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Total Daily Link Clicks",
+          name: "Total Daily Link Clicks (coming soon)",
           description:
             "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
@@ -295,10 +296,19 @@ export default function Premium({ user }) {
     },
   ];
 
-  const badge = (text) => (
-    <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 shadow-xl shadow-green-500/50 mb-4">
+  const badge = (
+    text,
+    classnames1 = "shadow-xl shadow-green-500/50",
+    classnames2 = "animate-ping"
+  ) => (
+    <span
+      className={classNames(
+        "inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 mb-4",
+        classnames1
+      )}
+    >
       <svg
-        className="h-1.5 w-1.5 fill-green-500 animate-ping"
+        className={classNames("h-1.5 w-1.5 fill-green-500", classnames2)}
         viewBox="0 0 6 6"
         aria-hidden="true"
       >
@@ -332,15 +342,15 @@ export default function Premium({ user }) {
                   "p-8"
                 )}
               >
-                <div className="flex justify-between">
-                  <h3
-                    id={tier.id}
-                    className="text-sm font-semibold leading-6 text-gray-900"
-                  >
-                    {tier.name}
-                  </h3>
-                  {tier.badge && badge(tier.badge)}
-                </div>
+                <h3
+                  id={tier.id}
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                >
+                  {tier.name}
+                </h3>
+                {tier.badge && badge(tier.badge)}
+                {tier.badge2 && badge(tier.badge2, "", "hidden")}
+
                 <p className="mt-2 flex items-baseline gap-x-1 text-gray-900 mb-2">
                   <span className="text-4xl font-bold text-primary-medium dark:text-primary-low">
                     {tier.priceMonthly}
@@ -431,6 +441,7 @@ export default function Premium({ user }) {
                         className="px-6 pt-6 xl:px-8 xl:pt-8"
                       >
                         {tier.badge && badge(tier.badge)}
+                        {tier.badge2 && badge(tier.badge2, "", "hidden")}
                         <div className="text-2xl font-semibold leading-7 text-primary-medium dark:text-primary-low-medium">
                           {tier.name}
                         </div>
