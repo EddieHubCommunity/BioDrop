@@ -2,41 +2,51 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { login, logout } from "../setup/auth";
 
-const adminUser = {
-  name: "Automated Test Admin User",
-  email: "test-admin-user@test.com",
-  username: "_test-admin-user",
-  type: "free",
+const premiumUser = {
+  name: "Automated Test Premium User",
+  email: "test-premium-user@test.com",
+  username: "_test-premium-user",
+  type: "premium",
 };
 
-test("Guest user cannot access admin events", async ({ browser }) => {
+test("Guest user cannot access manage premium", async ({ browser }) => {
   const context = await logout(browser);
   const page = await context.newPage();
-  await page.goto("/admin/events");
+  await page.goto("/account/manage/premium");
   await expect(page).toHaveURL(/auth\/signin/);
 });
 
-test("Logged in user cannot access admin events", async ({ browser }) => {
+test("Logged in user can access manage premium but has alert", async ({
+  browser,
+}) => {
   const context = await login(browser);
   const page = await context.newPage();
-  await page.goto("/admin/events");
-  await expect(page).toHaveURL(/404/);
+  await page.goto("/account/manage/premium");
+  await page.waitForLoadState("networkidle");
+  await expect(page.locator("div.alert-warning")).toHaveText(
+    /Please upgrade your account for these to take effect/
+  );
+  await expect(page).toHaveURL(/account\/manage\/premium/);
 });
 
-test("Admin user can access admin events", async ({ browser }) => {
-  const context = await login(browser, adminUser);
+test("Logged in user can access manage premium but has no alert", async ({
+  browser,
+}) => {
+  const context = await login(browser, premiumUser);
   const page = await context.newPage();
-  await page.goto("/admin/events");
-  await expect(page).toHaveURL(/admin\/events/);
+  await page.goto("/account/manage/premium");
+  await page.waitForLoadState("networkidle");
+  await expect(page.locator("div.alert-warning")).toBeHidden();
+  await expect(page).toHaveURL(/account\/manage\/premium/);
 });
 
 test.describe("accessibility tests (light)", () => {
   test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests", async ({ browser }) => {
-    const context = await login(browser, adminUser);
+    const context = await login(browser);
     const page = await context.newPage();
-    await page.goto("/admin/events");
+    await page.goto("/account/manage/premium");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
@@ -50,9 +60,9 @@ test.describe("accessibility tests (dark)", () => {
   test("should pass axe wcag accessibility tests (dark)", async ({
     browser,
   }) => {
-    const context = await login(browser, adminUser);
+    const context = await login(browser);
     const page = await context.newPage();
-    await page.goto("/admin/events");
+    await page.goto("/account/manage/premium");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();

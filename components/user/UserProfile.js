@@ -18,6 +18,7 @@ import BasicCards from "@components/statistics/BasicCards";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
+  const [premiumShow, setPremiumShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
 
@@ -51,7 +52,7 @@ function UserProfile({ BASE_URL, data }) {
         </Badge>
 
         <div className="flex flex-col self-center gap-3">
-          <h1 className="text-3xl font-bold">{data.name}</h1>
+          <h1 className="flex text-3xl font-bold gap-1">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
               <UserSocial
@@ -69,6 +70,16 @@ function UserProfile({ BASE_URL, data }) {
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
+          {data.accountType === "premium" && (
+            <Tag
+              name="Premium"
+              key="tag-premium"
+              selected={true}
+              onClick={() =>
+                qrShow ? setPremiumShow(false) : setPremiumShow(true)
+              }
+            />
+          )}
           {data.tags?.length > 0 &&
             data.tags.map((tag, index) => {
               const trimmedTag = tag.trim();
@@ -88,6 +99,14 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       )}
 
+      <Modal
+        show={premiumShow}
+        setShow={setPremiumShow}
+        modalStyles="w-fit m-auto"
+      >
+        Premium user badge. You can get this badge by upgrading to Premium.
+      </Modal>
+
       {data.isStatsPublic && (
         <BasicCards
           data={[
@@ -106,6 +125,7 @@ function UserProfile({ BASE_URL, data }) {
           ]}
         />
       )}
+
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
       <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
         <div className="flex flex-col items-center justify-center px-8">
