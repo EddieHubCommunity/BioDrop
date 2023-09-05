@@ -22,6 +22,24 @@ code.language-unknown::after {
   content: "";
 }
 
+/* .scroll-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  transition: bottom 0.3s ease;
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+} */
+
+
 @layer base {
   body {
     @apply dark:bg-primary-high dark:text-white bg-white text-black;
