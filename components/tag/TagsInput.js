@@ -33,7 +33,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   const tagItems = tags.map((tag, i) => (
     <li
       key={i}
-      className="flex items-center gap-x-1  text-sm p-1 font-mono border rounded-md line-clamp-1"
+      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
     >
       <span>{tag}</span>
       <Button
@@ -49,7 +49,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   return (
     <>
       <label htmlFor="tags">Tags</label>
-      <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low  mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium">
+      <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium">
         {tagItems}
         <li className="flex-1 basis-1/5">
           <Input
