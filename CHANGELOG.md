@@ -1,3 +1,12 @@
+## [2.15.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.1...v2.15.2) (2023-09-05)
+
+
+### Bug Fixes
+
+* milestones order ([#8925](https://github.com/EddieHubCommunity/BioDrop/issues/8925)) ([4deb4f8](https://github.com/EddieHubCommunity/BioDrop/commit/4deb4f8cef7d8ceb4b70a03816e0fa2f88a2f649))
+
+
+
 ## [2.15.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.0...v2.15.1) (2023-09-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * blog and newsletter ([#8920](https://github.com/EddieHubCommunity/BioDrop/issues/8920)) ([80e026e](https://github.com/EddieHubCommunity/BioDrop/commit/80e026e4c7b349d0a5abbefa0fdc4e9a09693760))
-
-
-
-# [2.12.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.11.0...v2.12.0) (2023-09-02)
-
-
-### Features
-
-* minimum forks, stars criteria in repo main list ([#8915](https://github.com/EddieHubCommunity/BioDrop/issues/8915)) ([38cdb37](https://github.com/EddieHubCommunity/BioDrop/commit/38cdb37e9c39813a0a2e5d39c90c52be7f939696))
 
 
 
