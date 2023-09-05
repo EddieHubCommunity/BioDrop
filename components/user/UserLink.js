@@ -1,10 +1,12 @@
+import { useState } from "react";
 import colors from "@config/icons.json";
 import getIcon from "@components/Icon";
-import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
-import styles from '../../styles/animation.module.css';
+import styles from "../../styles/animation.module.css";
 import config from "@config/app.json";
 import { classNames } from "@services/utils/classNames";
+import { MdContentCopy } from "react-icons/md";
+import { LuCheck } from "react-icons/lu";
 const animations = config.animations;
 
 const getLinkAnimation = new Map([
@@ -26,6 +28,16 @@ export default function UserLink({
   isEnabled = true,
   manage = false,
 }) {
+  const [copy, setCopy] = useState(false);
+
+  const handleCopyClick = async() => {
+    setCopy(true);
+    await navigator.clipboard.writeText(`${BASE_URL}/api/profiles/${username}/links/${link._id}`)
+    setTimeout(() => {
+      setCopy(false);
+    }, 3000);
+  };
+
   const DisplayIcon = getIcon(link.icon);
   let aria = "";
 
@@ -36,31 +48,48 @@ export default function UserLink({
   }
 
   const item = (link) => (
-    <Link
+    <div
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
       rel="noopener noreferrer"
       className={classNames(
         animations[link.animation] === animations.iconGlow && "z-0",
-        animations[link.animation] !== animations.glow && "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
+        animations[link.animation] !== animations.glow &&
+          "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
         isEnabled && getLinkAnimation.get(animations[link.animation]),
         "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow"
       )}
       style={{
         "--hover-color": colors[link.icon],
+        cursor: "pointer",
       }}
+      onClick={handleCopyClick}
     >
       <span className="relative">
-        <span style={{ color: colors[link.icon] }} className={getIconAnimation.get(animations[link.animation])}>
+        <span
+          style={{ color: colors[link.icon] }}
+          className={getIconAnimation.get(animations[link.animation])}
+        >
           <DisplayIcon aria-label={`${aria} icon`} />
         </span>
-        {animations[link.animation] === animations.ping && 
+        {animations[link.animation] === animations.ping && (
           <span style={{ color: colors[link.icon] }} className={`relative`}>
             <DisplayIcon aria-label={`${aria} icon`} />
           </span>
-        }
+        )}
       </span>
       <span className="grow">{link.name}</span>
+      {/* copylink icons */}
+      {copy ? (
+        <span>
+          <LuCheck size={20}/>
+        </span>
+      ) : (
+        <span>
+          <MdContentCopy onClick={handleCopyClick} />
+        </span>
+      )}
+
       {manage && link.isPinned && (
         <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
@@ -83,17 +112,19 @@ export default function UserLink({
           {link.group}
         </span>
       )}
-      {manage && (<div
-        className={classNames(
-          isEnabled
-            ? "text-green-600 bg-green-600/10 dark:text-green-400 dark:bg-green-400/10"
-            : "text-red-600 bg-red-600/10  dark:text-red-400 dark:bg-red-400/10",
-          "flex-none rounded-full p-1"
-        )}
-      >
-        <div className="h-1.5 w-1.5 rounded-full bg-current" />
-      </div>)}
-    </Link>
+      {manage && (
+        <div
+          className={classNames(
+            isEnabled
+              ? "text-green-600 bg-green-600/10 dark:text-green-400 dark:bg-green-400/10"
+              : "text-red-600 bg-red-600/10  dark:text-red-400 dark:bg-red-400/10",
+            "flex-none rounded-full p-1"
+          )}
+        >
+          <div className="h-1.5 w-1.5 rounded-full bg-current" />
+        </div>
+      )}
+    </div>
   );
 
   const edit = (link) => (
