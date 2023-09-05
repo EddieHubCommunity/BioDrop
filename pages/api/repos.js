@@ -29,7 +29,14 @@ export async function getRepos(sortBy) {
       { $project: { username: 1, repos: 1, isEnabled: 1 } },
       { $match: { isEnabled: true } },
       { $unwind: "$repos" },
-      { $match: { "repos.dates.pushedAt": { $gt: dateOneMonthAgo } } },
+      { $match: {
+          $and: [
+            {"repos.dates.pushedAt": {$gt: dateOneMonthAgo } },
+            {"repos.stats.forks": {$gte: 10 } } ,
+            {"repos.stats.stars": {$gte: 100 } } 
+          ]
+        } 
+      },
       {
         $sort: { [sortOptions[sortBy]]: -1 },
       },
