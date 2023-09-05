@@ -43,7 +43,7 @@ export async function getMilestonesApi(username) {
         },
       },
       {
-        $sort: { date: 1 },
+        $sort: { date: -1 },
       },
     ]);
   } catch (e) {
