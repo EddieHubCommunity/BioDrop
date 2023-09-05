@@ -1,3 +1,12 @@
+## [2.15.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.0...v2.15.1) (2023-09-05)
+
+
+### Bug Fixes
+
+* create label component ([#8919](https://github.com/EddieHubCommunity/BioDrop/issues/8919)) ([3031e61](https://github.com/EddieHubCommunity/BioDrop/commit/3031e61ff8058255b21b804aa4c402fa0df1db8f))
+
+
+
 # [2.15.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.14.0...v2.15.0) (2023-09-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * minimum forks, stars criteria in repo main list ([#8915](https://github.com/EddieHubCommunity/BioDrop/issues/8915)) ([38cdb37](https://github.com/EddieHubCommunity/BioDrop/commit/38cdb37e9c39813a0a2e5d39c90c52be7f939696))
-
-
-
-# [2.11.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.5...v2.11.0) (2023-09-01)
-
-
-### Features
-
-* filter options for event section ([#8904](https://github.com/EddieHubCommunity/BioDrop/issues/8904)) ([978596e](https://github.com/EddieHubCommunity/BioDrop/commit/978596ed2e6e1c2e16415189891103cfa1182620))
 
 
 
