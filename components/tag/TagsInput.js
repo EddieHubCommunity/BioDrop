@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
-import Button from "@components/Button";
 import Input from "../form/Input";
 
 export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
@@ -36,13 +35,13 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
       className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
     >
       <span>{tag}</span>
-      <Button
+      <button
         type="button"
         className=" inline-block text-center "
         onClick={() => onTagRemove(tag)}
       >
         <XMarkIcon className="w-4 h-4 hover:text-tertiary-medium" />
-      </Button>
+      </button>
     </li>
   ));
 
