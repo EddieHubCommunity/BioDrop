@@ -1,7 +1,18 @@
 {
   "name": "Pavan Emani",
   "bio": "Software Development Engineer | OpenSource Contributor ",
-  "tags": ["Python", "C++", "Javascript", "HTML", "CSS", "ReactJs", "Rust", "Django", "Open Source", "GitHub"],
+  "tags": [
+    "Python",
+    "C++",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "ReactJs",
+    "Rust",
+    "Django",
+    "Open Source",
+    "GitHub"
+  ],
   "links": [
     {
       "name": "Follow me on Twitter",
