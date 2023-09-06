@@ -45,7 +45,10 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
           remove {tag} tag
         </span>
         <span aria-hidden="true">
-          <XMarkIcon className="w-4 h-4 hover:text-tertiary-medium" />
+          <XMarkIcon
+            className="w-4 h-4 hover:text-tertiary-medium"
+            title={`Remove ${tag}`}
+          />
         </span>
       </button>
     </li>
