@@ -37,10 +37,15 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
       <span>{tag}</span>
       <button
         type="button"
-        className=" inline-block text-center "
+        className="inline-block text-center"
         onClick={() => onTagRemove(tag)}
       >
-        <XMarkIcon className="w-4 h-4 hover:text-tertiary-medium" />
+        <span className="absolute h-px w-px whitespace-nowrap overflow-hidden">
+          remove {tag} tag
+        </span>
+        <span aria-hidden="true">
+          <XMarkIcon className="w-4 h-4 hover:text-tertiary-medium" />
+        </span>
       </button>
     </li>
   ));
@@ -48,7 +53,10 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   return (
     <>
       <label htmlFor="tags">Tags</label>
-      <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium">
+      <ul
+        role="list"
+        className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
+      >
         {tagItems}
         <li className="flex-1 basis-1/5">
           <Input
