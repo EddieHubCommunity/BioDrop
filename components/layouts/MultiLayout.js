@@ -7,7 +7,9 @@ export default function MultiLayout({ settings, children }) {
     <>
       <SkipLink />
       <div className="flex flex-col min-h-screen">
-        <Navbar />
+        {(!settings ||
+          settings.type === "free" ||
+          (settings.type === "premium" && !settings.hideNavbar)) && <Navbar />}
         <main id="main" className="flex-1 dark:bg-dark dark:z-10">
           {children}
         </main>
