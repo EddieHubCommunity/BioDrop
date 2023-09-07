@@ -7,15 +7,43 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
 
-export default function UserMilestone({ milestone, isGoal, manage }) {
+const dateFormatOptions = {
+  "dd/MM/yyyy": {
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+  },
+  "January/dd/yyyy": {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  },
+  "Jan/dd/yyyy": {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  },
+};
+
+export default function UserMilestone({
+  milestone,
+  dateFormatStyle,
+  isGoal,
+  manage,
+}) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
     const parse = Date.parse(milestone.date);
     if (!isNaN(parse)) {
-      setDate(new Date(parse).toLocaleDateString());
+      setDate(
+        new Date(parse).toLocaleDateString(
+          undefined,
+          dateFormatOptions[dateFormatStyle]
+        )
+      );
     }
-  }, [milestone.date]);
+  }, [milestone.date, dateFormatStyle]);
 
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {

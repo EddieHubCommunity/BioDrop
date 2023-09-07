@@ -62,7 +62,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [icon, setIcon] = useState(milestone.icon || "");
   const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -133,7 +132,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     if (!isNaN(parse)) {
       setDate(new Date(parse).toISOString().split("T")[0]);
     }
-  }, [milestone.date]);
+  }, [date, milestone.date]);
 
   return (
     <>
