@@ -15,6 +15,7 @@ test("Navigate to the Search page", async ({ page }) => {
     .getByRole("navigation")
     .getByRole("link", { name: "Search" })
     .click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator("h1")).toHaveText("Search");
 });
 

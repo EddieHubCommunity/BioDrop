@@ -13,6 +13,7 @@ import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
+import { getStats } from "./api/account/statistics";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -45,9 +46,20 @@ export async function getServerSideProps(context) {
     logger.error(e, `cannot strip markdown for: ${username}`);
     profile.cleanBio = profile.bio;
   }
+  try {
+    if (profile.isStatsPublic) {
+      profile.profileStats = await getStats(username);
+    }
+  } catch (e) {
+    logger.error(e, "ERROR get user's account statistics");
+  }
 
   return {
-    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+    props: {
+      data: profile,
+      settings: { ...profile.settings, type: profile.accountType },
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+    },
   };
 }
 
@@ -89,6 +101,6 @@ export default function User({ data, BASE_URL }) {
   );
 }
 
-User.getLayout = function getLayout(page) {
-  return <MultiLayout>{page}</MultiLayout>;
+User.getLayout = function getLayout(page, settings) {
+  return <MultiLayout settings={settings}>{page}</MultiLayout>;
 };

@@ -38,4 +38,4 @@ jobs:
     needs: deploy
     steps:
       - name: load json files
-        run: curl -f ${{ needs.deploy.outputs.url }}/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}
+        run: curl -L -f ${{ needs.deploy.outputs.url }}/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}
