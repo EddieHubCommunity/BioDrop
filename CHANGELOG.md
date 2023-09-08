@@ -1,3 +1,12 @@
+## [2.15.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.4...v2.15.5) (2023-09-08)
+
+
+### Bug Fixes
+
+* improved dark mode background ([#8945](https://github.com/EddieHubCommunity/BioDrop/issues/8945)) ([f8bfca8](https://github.com/EddieHubCommunity/BioDrop/commit/f8bfca8b2ac6911650e7e921f9796520ecc2fab4))
+
+
+
 ## [2.15.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.3...v2.15.4) (2023-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * create label component ([#8919](https://github.com/EddieHubCommunity/BioDrop/issues/8919)) ([3031e61](https://github.com/EddieHubCommunity/BioDrop/commit/3031e61ff8058255b21b804aa4c402fa0df1db8f))
-
-
-
-# [2.15.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.14.0...v2.15.0) (2023-09-04)
-
-
-### Features
-
-* premium with stripe integration ([#8647](https://github.com/EddieHubCommunity/BioDrop/issues/8647)) ([36e2a88](https://github.com/EddieHubCommunity/BioDrop/commit/36e2a882f2155a769070e3acf49ffe58091b78e6)), closes [#8909](https://github.com/EddieHubCommunity/BioDrop/issues/8909)
 
 
 
