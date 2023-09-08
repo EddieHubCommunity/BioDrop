@@ -75,7 +75,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     e.preventDefault();
 
     let method = "POST";
-    let selectedIcon = icon !== "" ? icon : "fa-globe";
+    let selectedIcon = icon !== "" ? icon : "FaGlobe";
     let putLink = {
       group,
       name,
