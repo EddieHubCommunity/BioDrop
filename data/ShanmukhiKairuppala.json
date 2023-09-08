@@ -1,7 +1,16 @@
 {
   "name": "Shanmukhi Kairuppala",
   "bio": " Computer Science Undergrad 👩🏻‍💻| Postman API student expert🚀 | Machine Learning💫 | Docker🐳 | Opensource enthusiast🫶 !",
-  "tags": ["Open Source", "Python", "HTML", "CSS","PHP", "Java", "Docker", "ML" ],
+  "tags": [
+    "Open Source",
+    "Python",
+    "HTML",
+    "CSS",
+    "PHP",
+    "Java",
+    "Docker",
+    "ML"
+  ],
   "socials": [
     {
       "icon": "FaTwitter",
