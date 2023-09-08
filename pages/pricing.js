@@ -74,8 +74,7 @@ export default function Premium({ user }) {
       description:
         "Customise your Profile further to reach a greater audience.",
       mostPopular: true,
-      badge: "Coupon: FREETRIAL30DAYS",
-      badge2: "NO credit card required",
+      badge: "Free 30 day trial (NO credit card required)",
       button: {
         label: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
@@ -349,8 +348,6 @@ export default function Premium({ user }) {
                   {tier.name}
                 </h3>
                 {tier.badge && badge(tier.badge)}
-                {tier.badge2 && badge(tier.badge2, "", "hidden")}
-
                 <p className="mt-2 flex items-baseline gap-x-1 text-gray-900 mb-2">
                   <span className="text-4xl font-bold text-primary-medium dark:text-primary-low">
                     {tier.priceMonthly}
@@ -441,7 +438,6 @@ export default function Premium({ user }) {
                         className="px-6 pt-6 xl:px-8 xl:pt-8"
                       >
                         {tier.badge && badge(tier.badge)}
-                        {tier.badge2 && badge(tier.badge2, "", "hidden")}
                         <div className="text-2xl font-semibold leading-7 text-primary-medium dark:text-primary-low-medium">
                           {tier.name}
                         </div>
