@@ -10,7 +10,7 @@ export default function MultiLayout({ settings, children }) {
         {(!settings ||
           settings.type === "free" ||
           (settings.type === "premium" && !settings.hideNavbar)) && <Navbar />}
-        <main id="main" className="flex-1 dark:bg-dark-2">
+        <main id="main" className="flex-1 dark:bg-dark-2 dark:z-10">
           {children}
         </main>
         {(!settings ||
