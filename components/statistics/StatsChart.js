@@ -10,7 +10,16 @@ import {
 import dateFormat from "@services/utils/dateFormat";
 
 function formatDate(value) {
-  return dateFormat({ format: "short", date: value, locale: "local", UTCLocal: true })
+  const parsedDate = new Date(value);
+
+  // Check if parsedDate is a valid date
+  if (!isNaN(parsedDate.getTime())) {
+    // If it's a valid date, call dateFormat to format it
+    return dateFormat({ format: "short", date: parsedDate, locale: "local", UTCLocal: true });
+  } else {
+    // If it's not a valid date, return the original value
+    return value;
+  }
 }
 
 export default function StatsChart({data}) {
