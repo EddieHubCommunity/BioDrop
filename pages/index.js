@@ -345,7 +345,7 @@ export default function Home({
                   </p>
                   {feature.premium && (
                     <p className="mt-2 text-xs sm:text-sm text-primary-low/50 italic">
-                      (premium feature)
+                      (Premium feature)
                     </p>
                   )}
                 </div>
