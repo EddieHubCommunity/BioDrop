@@ -6,8 +6,6 @@ import {
   FaInstagram,
   FaTwitter,
   FaYoutube,
-  FaXing,
-  FaTwitterX,
 } from "react-icons/fa";
 
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
