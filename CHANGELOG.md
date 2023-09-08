@@ -1,3 +1,12 @@
+## [2.15.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.3...v2.15.4) (2023-09-08)
+
+
+### Bug Fixes
+
+* upgraded gitpod integration ([#8982](https://github.com/EddieHubCommunity/BioDrop/issues/8982)) ([7595c5f](https://github.com/EddieHubCommunity/BioDrop/commit/7595c5fa8257e3ed957c97f87661678971d76d4c))
+
+
+
 ## [2.15.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.2...v2.15.3) (2023-09-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * premium with stripe integration ([#8647](https://github.com/EddieHubCommunity/BioDrop/issues/8647)) ([36e2a88](https://github.com/EddieHubCommunity/BioDrop/commit/36e2a882f2155a769070e3acf49ffe58091b78e6)), closes [#8909](https://github.com/EddieHubCommunity/BioDrop/issues/8909)
-
-
-
-# [2.14.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.13.0...v2.14.0) (2023-09-04)
-
-
-### Features
-
-* user profile picture on manage testimonials ([#8938](https://github.com/EddieHubCommunity/BioDrop/issues/8938)) ([3bbb1b9](https://github.com/EddieHubCommunity/BioDrop/commit/3bbb1b9c76d81921c41e3bf5238f1b5f27c4b553))
 
 
 
