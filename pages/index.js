@@ -2,14 +2,12 @@ import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
-
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
 import { getTotalStats } from "./api/statistics/totals";
 import { getRandomProfileApi } from "./api/discover/random";
 import { classNames } from "@services/utils/classNames";
-import ScrollToTop from "@components/scrollToTop/ScrollToTop";
 import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import BasicCards from "@components/statistics/BasicCards";
@@ -379,8 +377,6 @@ export default function Home({
         button1Text="Subscribe"
         button1OnClick={() => va.track("newsletter", { location: "homepage" })}
       />
-
-      <ScrollToTop />
 
       <Link
         href={BASE_GITHUB_PROJECT_URL + "/discussions"}

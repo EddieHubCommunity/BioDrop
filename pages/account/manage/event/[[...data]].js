@@ -72,7 +72,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   }, [isSpeaking]);
 
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "");
+  const [color, setColor] = useState("");
 
   const formatLocalDate = (inputDate) => {
     const d = new Date(inputDate);
@@ -323,6 +323,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="color"
                       name="color"
                       label="Color"
                       onChange={(e) => setColor(e.target.value)}
