@@ -1,3 +1,12 @@
+## [2.15.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.5...v2.15.6) (2023-09-08)
+
+
+### Bug Fixes
+
+* glow animation for links ([#8854](https://github.com/EddieHubCommunity/BioDrop/issues/8854)) ([638d454](https://github.com/EddieHubCommunity/BioDrop/commit/638d454fd57bdf742238f1d7a0ba59393f972472))
+
+
+
 ## [2.15.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.4...v2.15.5) (2023-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * milestones order ([#8925](https://github.com/EddieHubCommunity/BioDrop/issues/8925)) ([4deb4f8](https://github.com/EddieHubCommunity/BioDrop/commit/4deb4f8cef7d8ceb4b70a03816e0fa2f88a2f649))
-
-
-
-## [2.15.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.0...v2.15.1) (2023-09-05)
-
-
-### Bug Fixes
-
-* create label component ([#8919](https://github.com/EddieHubCommunity/BioDrop/issues/8919)) ([3031e61](https://github.com/EddieHubCommunity/BioDrop/commit/3031e61ff8058255b21b804aa4c402fa0df1db8f))
 
 
 
