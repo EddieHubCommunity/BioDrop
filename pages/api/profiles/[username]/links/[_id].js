@@ -33,7 +33,7 @@ export default async function handler(req, res) {
   }
 
   if (session && session.username === username) {
-    return res.status(200).redirect(decodeURIComponent(link.url));
+    return res.status(200).redirect(link.url);
   }
 
   const date = new Date();
@@ -86,5 +86,5 @@ export default async function handler(req, res) {
     );
   }
 
-  return res.status(201).redirect(decodeURIComponent(link.url));
+  return res.status(201).redirect(link.url);
 }
