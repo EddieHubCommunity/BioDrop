@@ -1,3 +1,12 @@
+## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
+
+
+### Bug Fixes
+
+* all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
+
+
+
 ## [2.15.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.5...v2.15.6) (2023-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * delete link ([#8971](https://github.com/EddieHubCommunity/BioDrop/issues/8971)) ([2866419](https://github.com/EddieHubCommunity/BioDrop/commit/2866419dd19b438801b3baecb3f001aed0e1c279))
-
-
-
-## [2.15.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.1...v2.15.2) (2023-09-05)
-
-
-### Bug Fixes
-
-* milestones order ([#8925](https://github.com/EddieHubCommunity/BioDrop/issues/8925)) ([4deb4f8](https://github.com/EddieHubCommunity/BioDrop/commit/4deb4f8cef7d8ceb4b70a03816e0fa2f88a2f649))
 
 
 
