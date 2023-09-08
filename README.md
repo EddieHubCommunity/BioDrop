@@ -56,7 +56,7 @@ Read more in the official documentation - https://biodrop.io/docs/environments/g
 
 In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop/)
+[![Open BioDrop in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 
 Read more in the official documentation - https://biodrop.io/docs/environments/gitpod
 
