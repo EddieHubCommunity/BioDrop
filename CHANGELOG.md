@@ -1,3 +1,12 @@
+## [2.15.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.7...v2.15.8) (2023-09-08)
+
+
+### Bug Fixes
+
+* remove decode links as id is used ([#8991](https://github.com/EddieHubCommunity/BioDrop/issues/8991)) ([237b19c](https://github.com/EddieHubCommunity/BioDrop/commit/237b19cb7ba7e5720a12fe81760a73196a53ff95))
+
+
+
 ## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgraded gitpod integration ([#8982](https://github.com/EddieHubCommunity/BioDrop/issues/8982)) ([7595c5f](https://github.com/EddieHubCommunity/BioDrop/commit/7595c5fa8257e3ed957c97f87661678971d76d4c))
-
-
-
-## [2.15.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.2...v2.15.3) (2023-09-07)
-
-
-### Bug Fixes
-
-* delete link ([#8971](https://github.com/EddieHubCommunity/BioDrop/issues/8971)) ([2866419](https://github.com/EddieHubCommunity/BioDrop/commit/2866419dd19b438801b3baecb3f001aed0e1c279))
 
 
 
