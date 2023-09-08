@@ -8,7 +8,7 @@ export default function UserHorizontal({ profile, input }) {
   return (
     <Link
       href={`/${profile.username}`}
-      className="flex flex-col items-center border-2 h-[14rem] overflow-hidden rounded-lg shadow-lg transition duration-350 p-4 gap-3 hover:scale-105 duration-500 ease-in-out hover:border-tertiary-medium"
+      className="flex flex-col items-center border-2 h-[14rem] overflow-hidden rounded-lg shadow-lg transition duration-350 p-4 gap-3  duration-500 ease-in-out hover:border-tertiary-medium"
     >
       <div className="flex w-full items-center justify-between space-x-2 p-2">
         <FallbackImage
