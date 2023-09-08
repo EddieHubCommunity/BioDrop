@@ -17,6 +17,12 @@ tasks:
       nvm install 18
       npm run dev
 
+ports:
+  - port: 3000
+    onOpen: open-preview
+    name: BioDrop
+    description: The BioDrop website
+
 github:
   prebuilds:
     master: true
