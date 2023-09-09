@@ -198,10 +198,38 @@ export default function Home({
   return (
     <>
       <PageHead />
-
       <div className="bg-primary-low dark:bg-dark">
-        <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
+        {/* py-12 sm:py-24 */}
+        <div className="px-6 py-8 sm:px-6  lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
+            <div className=" bg-primary-low dark:drop-shadow-none dark:bg-dark   mb-6 p-4 drop-shadow-md">
+              {alerts.map((alert, index) => (
+                <Alert key={index} type={alert.type} message={alert.message} />
+              ))}
+
+              <BasicCards
+                data={[
+                  {
+                    name: "Active Users",
+                    current: total.active,
+                    total: total.users,
+                    delta: today.users,
+                  },
+                  {
+                    name: "Profile Views",
+                    current: total.views,
+                    total: total.views - today.views,
+                    delta: today.views,
+                  },
+                  {
+                    name: "Links Clicked",
+                    current: total.clicks,
+                    total: total.clicks - today.clicks,
+                    delta: today.clicks,
+                  },
+                ]}
+              />
+            </div>
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
               Connect to your audience with a{" "}
               <span className="text-tertiary-medium">single link</span>
@@ -239,39 +267,10 @@ export default function Home({
         </div>
       </div>
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
-        {alerts.map((alert, index) => (
-          <Alert key={index} type={alert.type} message={alert.message} />
-        ))}
-
-        <BasicCards
-          data={[
-            {
-              name: "Active Users",
-              current: total.active,
-              total: total.users,
-              delta: today.users,
-            },
-            {
-              name: "Profile Views",
-              current: total.views,
-              total: total.views - today.views,
-              delta: today.views,
-            },
-            {
-              name: "Links Clicked",
-              current: total.clicks,
-              total: total.clicks - today.clicks,
-              delta: today.clicks,
-            },
-          ]}
-        />
-      </div>
-
       <div className="bg-primary-low dark:bg-dark">
-        <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl py-16 px-4  sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
-            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
+            <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12  lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
               <div className="lg:self-center">
                 <h3 className="text-lg tracking-tight text-primary-low sm:text-4xl">
                   <span className="block">
@@ -280,7 +279,7 @@ export default function Home({
                 </h3>
               </div>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
+            <div className="aspect-w-16 aspect-h-9 ">
               <div
                 className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
                 data-kt-type="video"
@@ -292,7 +291,6 @@ export default function Home({
           </div>
         </div>
       </div>
-
       <CallToAction
         title="Ready to dive in?"
         description="Add your free Profile today!"
@@ -301,7 +299,6 @@ export default function Home({
         button2Link="/eddiejaoude"
         button2Text="Example"
       />
-
       <div className="bg-primary-high dark:bg-black" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
@@ -358,7 +355,6 @@ export default function Home({
           </div>
         </div>
       </div>
-
       {randomProfile.username && (
         <UserMini
           BASE_URL={BASE_URL}
@@ -368,9 +364,7 @@ export default function Home({
           bio={randomProfile.bio}
         />
       )}
-
       <Testimonials data={testimonials} />
-
       <CallToAction
         title="Subscribe to our newsletter to learn more"
         description="Do not miss out!"
@@ -378,7 +372,6 @@ export default function Home({
         button1Text="Subscribe"
         button1OnClick={() => va.track("newsletter", { location: "homepage" })}
       />
-
       <Link
         href={BASE_GITHUB_PROJECT_URL + "/discussions"}
         rel="noopener noreferrer"

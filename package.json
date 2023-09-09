@@ -116,5 +116,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/EddieHubCommunity/BioDrop/issues"
+  },
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
   }
 }
