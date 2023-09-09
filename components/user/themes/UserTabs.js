@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
@@ -9,11 +9,11 @@ import UserRepos from "../UserRepos";
 
 export default function UserTabs({ data, BASE_URL }) {
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
-    { name: "Repos", href: "#", current: false },
+    { name: "My Links", href: "#", current: true, url: 'links'},
+    { name: "Milestones", href: "#", current: false, url: 'milestones' },
+    { name: "Testimonials", href: "#", current: false, url: 'testimonials' },
+    { name: "Events", href: "#", current: false, url: 'events' },
+    { name: "Repos", href: "#", current: false, url: 'repos' },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
@@ -46,14 +46,37 @@ export default function UserTabs({ data, BASE_URL }) {
   });
   const [tabs, setTabs] = useState(displayTabs);
   const changeTab = (e, value) => {
-    e.preventDefault();
-    setTabs(
-      tabs.map((tab) =>
-        tab.name === e.target?.value || tab.name === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
+    e.preventDefault();    setTabs(
+      tabs.map((tab) =>{
+        if (tab.name === e.target?.value || tab.name === value){
+        addTabsToURL(tab.url)
+          return { ...tab, current: true }
+        } else {
+          return { ...tab, current: false }}
+        }
       )
     );
+  };
+
+  useEffect(() => {
+    getTabsURL()
+  }, [])
+
+  function addTabsToURL(url) {
+    if (typeof window === 'undefined') return 
+    window.history.pushState({}, '', `?tabs=${url}`);
+  }
+
+  const getTabsURL = () => {
+    if (typeof window !== 'undefined') {
+      const urlParams = new URLSearchParams(window.location.search);
+      const tabs = urlParams.get('tabs');
+      if (tabs) {
+        console.log(`Button value from URL: ${tabs}`);
+      } else {
+        addTabsToURL('links')
+      }
+    }
   };
 
   return (
