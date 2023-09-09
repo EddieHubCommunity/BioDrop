@@ -1,3 +1,30 @@
+## [2.15.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.8...v2.15.9) (2023-09-08)
+
+
+### Bug Fixes
+
+* search result card zoom on hover ([#8993](https://github.com/EddieHubCommunity/BioDrop/issues/8993)) ([b08ebc8](https://github.com/EddieHubCommunity/BioDrop/commit/b08ebc87e8b97ee355fdbdc08eb5d37f9e82c2ef))
+
+
+
+## [2.15.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.7...v2.15.8) (2023-09-08)
+
+
+### Bug Fixes
+
+* remove decode links as id is used ([#8991](https://github.com/EddieHubCommunity/BioDrop/issues/8991)) ([237b19c](https://github.com/EddieHubCommunity/BioDrop/commit/237b19cb7ba7e5720a12fe81760a73196a53ff95))
+
+
+
+## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
+
+
+### Bug Fixes
+
+* all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
+
+
+
 ## [2.15.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.5...v2.15.6) (2023-09-08)
 
 
@@ -13,33 +40,6 @@
 ### Bug Fixes
 
 * improved dark mode background ([#8945](https://github.com/EddieHubCommunity/BioDrop/issues/8945)) ([f8bfca8](https://github.com/EddieHubCommunity/BioDrop/commit/f8bfca8b2ac6911650e7e921f9796520ecc2fab4))
-
-
-
-## [2.15.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.3...v2.15.4) (2023-09-08)
-
-
-### Bug Fixes
-
-* upgraded gitpod integration ([#8982](https://github.com/EddieHubCommunity/BioDrop/issues/8982)) ([7595c5f](https://github.com/EddieHubCommunity/BioDrop/commit/7595c5fa8257e3ed957c97f87661678971d76d4c))
-
-
-
-## [2.15.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.2...v2.15.3) (2023-09-07)
-
-
-### Bug Fixes
-
-* delete link ([#8971](https://github.com/EddieHubCommunity/BioDrop/issues/8971)) ([2866419](https://github.com/EddieHubCommunity/BioDrop/commit/2866419dd19b438801b3baecb3f001aed0e1c279))
-
-
-
-## [2.15.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.1...v2.15.2) (2023-09-05)
-
-
-### Bug Fixes
-
-* milestones order ([#8925](https://github.com/EddieHubCommunity/BioDrop/issues/8925)) ([4deb4f8](https://github.com/EddieHubCommunity/BioDrop/commit/4deb4f8cef7d8ceb4b70a03816e0fa2f88a2f649))
 
 
 
